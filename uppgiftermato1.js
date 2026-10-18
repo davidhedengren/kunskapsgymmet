@@ -2043,39 +2043,56 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.43",
-    "kap": 1,
-    "omr": "rakna_rationella",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Förenkla</p><p>\\[\\frac{x + 2}{x - 1} \\cdot \\frac{x - 1}{x + 4}.\\]</p><p>Ange också vilka värden som inte är tillåtna i det ursprungliga uttrycket.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn \\(x-1\\) finns både i täljare och nämnare:</p></li><li><p>\\[\\frac{x+2}{x-1}\\cdot\\frac{x-1}{x+4}=\\frac{(x+2)(x-1)}{(x-1)(x+4)}=\\frac{x+2}{x+4}.\\]</p></li><li><p>Förkortningen gäller bara för värden där originaluttrycket är definierat.</p></li><li><p>Därför måste \\(x\\neq1\\) och \\(x\\neq-4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\frac{x+2}{x+4}}\\), \\(x\\neq1,-4\\).</p></div></div>",
-    "familj": "Räkna med rationella uttryck",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": "(x+2)/(x+4)",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Faktorisera täljare och nämnare innan du förkortar. Du får bara stryka gemensamma faktorer – aldrig enskilda termer som står i en summa.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "rationella_uttryck"
-    ],
-    "familjTidigare": [
-      "Förkorta rationella uttryck"
+  "id": "1.43",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Förenkla</p><p>\\[\\frac{x + 2}{x - 1} \\cdot \\frac{x - 1}{x + 4}.\\]</p><p>Ange också vilka värden som inte är tillåtna i det ursprungliga uttrycket.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn \\(x-1\\) finns både i täljare och nämnare:</p></li><li><p>\\[\\frac{x+2}{x-1}\\cdot\\frac{x-1}{x+4}=\\frac{(x+2)(x-1)}{(x-1)(x+4)}=\\frac{x+2}{x+4}.\\]</p></li><li><p>Förkortningen gäller bara för värden där originaluttrycket är definierat.</p></li><li><p>Därför måste \\(x\\neq1\\) och \\(x\\neq-4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\frac{x+2}{x+4}}\\), \\(x\\neq1,-4\\).</p></div></div>",
+  "familj": "Räkna med rationella uttryck",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "(x+2)/(x+4)",
+    [
+      1,
+      -4
     ]
-  },
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    [
+      "numeriskt",
+      "numeriskt"
+    ]
+  ],
+  "ledtrad": "<p>Faktorisera täljare och nämnare innan du förkortar. Du får bara stryka gemensamma faktorer – aldrig enskilda termer som står i en summa.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "rationella_uttryck"
+  ],
+  "familjTidigare": [
+    "Förkorta rationella uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Förenklat uttryck",
+    "Förbjudna x-värden"
+  ]
+},
   {
     "id": "1.44",
     "kap": 1,
@@ -2113,35 +2130,35 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.45",
-    "kap": 1,
-    "omr": "absolutbelopp",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Lös olikheten</p><p>\\[|x-3|\\gt 2.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet från \\(3\\) ska vara större än \\(2\\), alltså ligger \\(x\\) utanför intervallet från \\(1\\) till \\(5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x&lt;1\\) eller \\(x&gt;5\\).</p></div>",
-    "familj": "Olikheter med absolutbelopp",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "x5",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Ta inte bara bort absolutbeloppstecknen. Översätt först vad |u| betyder: avståndet från u till 0. Därifrån följer rätt falluppdelning eller dubbelolikhet.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "familjTidigare": [
-      "Lösa olikheter med absolutbelopp"
-    ]
-  },
+  "id": "1.45",
+  "kap": 1,
+  "omr": "absolutbelopp",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Lös olikheten</p><p>\\[|x-3|\\gt 2.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet från \\(3\\) ska vara större än \\(2\\), alltså ligger \\(x\\) utanför intervallet från \\(1\\) till \\(5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x&lt;1\\) eller \\(x&gt;5\\).</p></div>",
+  "familj": "Olikheter med absolutbelopp",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "uttryck",
+  "rättSvar": "x<1 eller x>5",
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "intervall",
+  "ledtrad": "<p>Ta inte bara bort absolutbeloppstecknen. Översätt först vad |u| betyder: avståndet från u till 0. Därifrån följer rätt falluppdelning eller dubbelolikhet.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "familjTidigare": [
+    "Lösa olikheter med absolutbelopp"
+  ]
+},
   {
     "id": "1.46",
     "kap": 1,
@@ -2251,39 +2268,56 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.48",
-    "kap": 1,
-    "omr": "rakna_rationella",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Förenkla</p><p>\\[\\frac{x^{2} - 4}{x + 1} \\div \\frac{x - 2}{x + 1}.\\]</p><p>Ange också vilka värden som inte är tillåtna i det ursprungliga uttrycket.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid division med ett bråk vänder vi på det andra bråket och multiplicerar:</p></li><li><p>\\[\\frac{x^2-4}{x+1}\\div\\frac{x-2}{x+1}=\\frac{(x-2)(x+2)}{x+1}\\cdot\\frac{x+1}{x-2}=x+2.\\]</p></li><li><p>I originaluttrycket måste \\(x\\neq-1\\).</p></li><li><p>Dessutom får bråket vi dividerar med inte vara noll, så \\(x\\neq2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x+2}\\), där \\(x\\neq-1,2\\).</p></div></div>",
-    "familj": "Räkna med rationella uttryck",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": "x+2",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Faktorisera täljare och nämnare innan du förkortar. Du får bara stryka gemensamma faktorer – aldrig enskilda termer som står i en summa.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "rationella_uttryck"
-    ],
-    "familjTidigare": [
-      "Förkorta rationella uttryck"
+  "id": "1.48",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Förenkla</p><p>\\[\\frac{x^{2} - 4}{x + 1} \\div \\frac{x - 2}{x + 1}.\\]</p><p>Ange också vilka värden som inte är tillåtna i det ursprungliga uttrycket.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid division med ett bråk vänder vi på det andra bråket och multiplicerar:</p></li><li><p>\\[\\frac{x^2-4}{x+1}\\div\\frac{x-2}{x+1}=\\frac{(x-2)(x+2)}{x+1}\\cdot\\frac{x+1}{x-2}=x+2.\\]</p></li><li><p>I originaluttrycket måste \\(x\\neq-1\\).</p></li><li><p>Dessutom får bråket vi dividerar med inte vara noll, så \\(x\\neq2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x+2}\\), där \\(x\\neq-1,2\\).</p></div></div>",
+  "familj": "Räkna med rationella uttryck",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "x+2",
+    [
+      -1,
+      2
     ]
-  },
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    [
+      "numeriskt",
+      "numeriskt"
+    ]
+  ],
+  "ledtrad": "<p>Faktorisera täljare och nämnare innan du förkortar. Du får bara stryka gemensamma faktorer – aldrig enskilda termer som står i en summa.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "rationella_uttryck"
+  ],
+  "familjTidigare": [
+    "Förkorta rationella uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Förenklat uttryck",
+    "Förbjudna x-värden"
+  ]
+},
   {
     "id": "1.49",
     "kap": 1,
@@ -2456,39 +2490,56 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.53",
-    "kap": 1,
-    "omr": "rakna_rationella",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Förenkla</p><p>\\[\\frac{2 x}{x - 3} \\cdot \\frac{x + 1}{4 x}.\\]</p><p>Ange också vilka värden som inte är tillåtna i det ursprungliga uttrycket.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera täljare med täljare och nämnare med nämnare:</p></li><li><p>\\[\\frac{2x}{x-3}\\cdot\\frac{x+1}{4x}=\\frac{2x(x+1)}{4x(x-3)}.\\]</p></li><li><p>Förkorta med \\(2x\\):</p></li><li><p>\\[\\frac{x+1}{2(x-3)}=\\frac{x+1}{2x-6}.\\]</p></li><li><p>Originaluttrycket kräver \\(x\\neq3\\) och \\(x\\neq0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\frac{x+1}{2x-6}}\\), \\(x\\neq0,3\\).</p></div></div>",
-    "familj": "Räkna med rationella uttryck",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": "(x+1)/(2x-6)",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Faktorisera täljare och nämnare innan du förkortar. Du får bara stryka gemensamma faktorer – aldrig enskilda termer som står i en summa.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "rationella_uttryck"
-    ],
-    "familjTidigare": [
-      "Förkorta rationella uttryck"
+  "id": "1.53",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Förenkla</p><p>\\[\\frac{2 x}{x - 3} \\cdot \\frac{x + 1}{4 x}.\\]</p><p>Ange också vilka värden som inte är tillåtna i det ursprungliga uttrycket.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera täljare med täljare och nämnare med nämnare:</p></li><li><p>\\[\\frac{2x}{x-3}\\cdot\\frac{x+1}{4x}=\\frac{2x(x+1)}{4x(x-3)}.\\]</p></li><li><p>Förkorta med \\(2x\\):</p></li><li><p>\\[\\frac{x+1}{2(x-3)}=\\frac{x+1}{2x-6}.\\]</p></li><li><p>Originaluttrycket kräver \\(x\\neq3\\) och \\(x\\neq0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\frac{x+1}{2x-6}}\\), \\(x\\neq0,3\\).</p></div></div>",
+  "familj": "Räkna med rationella uttryck",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "(x+1)/(2x-6)",
+    [
+      0,
+      3
     ]
-  },
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "uttryck",
+    [
+      "numeriskt",
+      "numeriskt"
+    ]
+  ],
+  "ledtrad": "<p>Faktorisera täljare och nämnare innan du förkortar. Du får bara stryka gemensamma faktorer – aldrig enskilda termer som står i en summa.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "rationella_uttryck"
+  ],
+  "familjTidigare": [
+    "Förkorta rationella uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Förenklat uttryck",
+    "Förbjudna x-värden"
+  ]
+},
   {
     "id": "1.54",
     "kap": 1,
@@ -6191,41 +6242,41 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.149",
-    "kap": 1,
-    "omr": "algebra_polynom",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>Ett moniskt tredjegradspolynom \\(p\\) uppfyller \\(p(1)=p(2)=p(4)=0\\). Bestäm \\(p(0)+p(3)\\) utan att först utveckla hela polynomet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Eftersom polynomet är moniskt och har nollställena 1, 2 och 4 är</p><div class=\"facit-matte\">\\[p(x)=(x-1)(x-2)(x-4)\\].</div></div></li><li><p>\\[p(0)=(-1)(-2)(-4)=-8,\\qquad p(3)=2\\cdot1\\cdot(-1)=-2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{-10}\\).</p></div>",
-    "familj": "Förenkla, utveckla och räkna med potenser",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": -10,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Polynombegrepp, polynomvärden och förenkling",
-      "Polynombegrepp och polynomvärden"
-    ],
-    "ledtrad": "<p>Tänk så här: Sätt in det aktuella x-värdet i hela funktionsuttrycket och följ räkneordningen. Om x är negativt är parenteser särskilt viktiga när potenser förekommer.</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "polynom"
-    ]
-  },
+  "id": "1.149",
+  "kap": 1,
+  "omr": "algebra_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "A",
+  "poang": "0/1/2",
+  "t": "<p>Ett tredjegradspolynom \\(p\\) har koefficienten 1 framför \\(x^3\\) och uppfyller \\(p(1)=p(2)=p(4)=0\\). Bestäm \\(p(0)+p(3)\\) utan att först utveckla hela polynomet.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Eftersom koefficienten framför \\(x^3\\) är 1 och har nollställena 1, 2 och 4 är</p><div class=\"facit-matte\">\\[p(x)=(x-1)(x-2)(x-4)\\].</div></div></li><li><p>\\[p(0)=(-1)(-2)(-4)=-8,\\qquad p(3)=2\\cdot1\\cdot(-1)=-2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{-10}\\).</p></div>",
+  "familj": "Förenkla, utveckla och räkna med potenser",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": -10,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Polynombegrepp, polynomvärden och förenkling",
+    "Polynombegrepp och polynomvärden"
+  ],
+  "ledtrad": "<p>Vilka faktorer motsvarar de tre nollställena? Bestäm sedan de två efterfrågade polynomvärdena direkt ur faktorformen.</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "polynom"
+  ]
+},
   {
     "id": "1.150",
     "kap": 1,
@@ -6440,55 +6491,55 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.156",
-    "kap": 1,
-    "omr": "forkorta_rationella",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Funktionen \\(f(x)=\\frac{x^2+ax+b}{x-2}\\) är inte definierad vid \\(x=2\\). Bestäm \\(a\\) och \\(b\\) så att uttrycket kan förkortas till \\(x+5\\) för \\(x\\neq2\\), och så att funktionen därefter kan göras kontinuerlig vid \\(x=2\\) genom att definiera \\(f(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För att uttrycket ska kunna förkortas till \\(x+5\\) måste täljaren vara</p></li><li><p>\\[(x-2)(x+5)=x^2+3x-10.\\]</p></li><li><p>Jämförelse av koefficienter ger \\(a=3\\) och \\(b=-10\\).</p></li><li><p>För \\(x\\neq2\\) är då \\(f(x)=x+5\\), och \\(\\lim_{x\\to2}f(x)=7\\).</p></li><li><div class=\"facit-berakning\"><p>Funktionen blir därför kontinuerlig om man definierar</p><div class=\"facit-matte\">\\[f(2)=7\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{a=3,\\ b=-10,\\ f(2)=7}\\).</p></div></div>",
-    "familj": "Förkorta rationella uttryck",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      3,
-      -10,
-      7
-    ],
-    "tolerans": [
-      0,
-      0,
-      0
-    ],
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "f(2)"
-    ],
-    "ledtrad": "<p>För att uttrycket ska kunna förkortas till \\(x+5\\) måste täljaren vara</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "rationella_uttryck"
-    ]
-  },
+  "id": "1.156",
+  "kap": 1,
+  "omr": "forkorta_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Funktionen \\(f(x)=\\frac{x^2+ax+b}{x-2}\\) är inte definierad vid \\(x=2\\).</p><p>Bestäm \\(a\\) och \\(b\\) så att uttrycket kan förkortas till \\(x+5\\) för \\(x\\ne2\\). Vilket värde ska sedan \\(f(2)\\) ges för att funktionen ska bli kontinuerlig?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För att uttrycket ska kunna förkortas till \\(x+5\\) måste täljaren vara</p></li><li><p>\\[(x-2)(x+5)=x^2+3x-10.\\]</p></li><li><p>Jämförelse av koefficienter ger \\(a=3\\) och \\(b=-10\\).</p></li><li><p>För \\(x\\neq2\\) är då \\(f(x)=x+5\\), och \\(\\lim_{x\\to2}f(x)=7\\).</p></li><li><div class=\"facit-berakning\"><p>Funktionen blir därför kontinuerlig om man definierar</p><div class=\"facit-matte\">\\[f(2)=7\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{a=3,\\ b=-10,\\ f(2)=7}\\).</p></div></div>",
+  "familj": "Förkorta rationella uttryck",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    3,
+    -10,
+    7
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "f(2)"
+  ],
+  "ledtrad": "<p>Multiplicera \\(x+5\\) med den faktor som ska förkortas bort och jämför koefficienterna. Undersök sedan vad \\(x+5\\) närmar sig när \\(x\\) närmar sig 2.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "rationella_uttryck"
+  ]
+},
   {
     "id": "1.157",
     "kap": 1,
@@ -7596,37 +7647,37 @@ window.BANKMATO1 = [
     "spel": true
   },
   {
-    "id": "1.187",
-    "kap": 1,
-    "omr": "funktioner",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "1/2/0",
-    "t": "<p>Funktionen \\(f\\) är definierad på intervallet \\(-3\\le x\\le 4\\). Dess minsta värde är \\(-2\\) och dess största värde är 6.</p><p>Bestäm definitionsmängd och värdemängd, och förklara varför uppgiften inte räcker för att bestämma ett unikt funktionsuttryck.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Definitionsmängden är \\(-3\\le x\\le 4\\) och värdemängden är \\(-2\\le f(x)\\le 6\\).</p></li><li><p>Många olika funktioner kan ha samma definitions- och värdemängd.</p></li><li><p>Informationen säger inte vilka funktionsvärden som hör till vilka x-värden, så något unikt uttryck kan inte bestämmas.</p></li></ol></div></div>",
-    "familj": "Tolka och jämföra funktioner",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Definitionsmängden är \\(-3\\le x\\le 4\\) och värdemängden är \\(-2\\le f(x)\\le 6\\).</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "familjTidigare": [
-      "Tolka och jämföra funktionsgrafer"
-    ]
-  },
+  "id": "1.187",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "1/2/0",
+  "t": "<p>Den kontinuerliga funktionen \\(f\\) är definierad på intervallet \\(-3\\le x\\le 4\\). Dess minsta värde är \\(-2\\) och dess största värde är 6.</p><p>Bestäm definitionsmängd och värdemängd, och förklara varför uppgiften inte räcker för att bestämma ett unikt funktionsuttryck.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Definitionsmängden är \\(-3\\le x\\le 4\\) och värdemängden är \\(-2\\le f(x)\\le 6\\).</p></li><li><p>Kontinuiteten gör att funktionen antar alla värden mellan sitt minsta och sitt största värde.</p></li><li><p>Många olika funktioner kan ha samma definitions- och värdemängd.</p></li><li><p>Informationen säger inte vilka funktionsvärden som hör till vilka x-värden, så något unikt uttryck kan inte bestämmas.</p></li></ol></div></div>",
+  "familj": "Tolka och jämföra funktioner",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "resonemang",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "procedur",
+    "begrepp",
+    "resonemang"
+  ],
+  "ledtrad": "<p>Skilj på tillåtna x-värden och möjliga funktionsvärden. Kan två olika sammanhängande grafer ha samma minsta och största värde?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": false,
+  "familjTidigare": [
+    "Tolka och jämföra funktionsgrafer"
+  ]
+},
   {
     "id": "1.188",
     "kap": 1,
@@ -8660,76 +8711,76 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.218",
-    "kap": 1,
-    "omr": "polynomekvationer",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>Två moniska andragradsfunktioner ges av</p><p>\\[f(x)=x^2+ax+b,\\qquad g(x)=x^2+px+q.\\]</p><p>Det gäller att</p><p>\\[f(2)+f(5)+f(20)=g(2)+g(5)+g(20).\\]</p><p>Visa att ekvationen \\(f(x)=g(x)\\) har en lösning som är oberoende av värdena på \\(a,b,p,q\\), så länge funktionerna inte är identiska. Bestäm lösningen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skillnaden är</p></li><li><p>\\[f(x)-g(x)=(a-p)x+(b-q).\\]</p></li><li><p>Summavillkoret gör att andragradstermerna tar ut varandra och ger</p></li><li><p>\\[(a-p)(2+5+20)+3(b-q)=0.\\]</p></li><li><p>\\[27(a-p)+3(b-q)=0\\Rightarrow b-q=-9(a-p).\\]</p></li><li><p>Därför</p></li><li><p>\\[f(x)-g(x)=(a-p)(x-9).\\]</p></li><li><p>Om funktionerna inte är identiska är \\(a-p\\neq0\\), och då fås \\(x=9\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=9}\\).</p></div></div>",
-    "familj": "Lösa polynomekvationer",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp",
-      "resonemang"
-    ],
-    "familjTidigare": [
-      "Polynomrötter, faktorisering och polynomekvationer",
-      "Faktorisera och lösa polynomekvationer"
-    ],
-    "ledtrad": "<p>Summavillkoret gör att andragradstermerna tar ut varandra och ger</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "spel": false,
-    "omrTidigare": [
-      "polynom"
-    ]
-  },
+  "id": "1.218",
+  "kap": 1,
+  "omr": "polynomekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "A",
+  "poang": "0/1/2",
+  "t": "<p>Två andragradsfunktioner ges av</p><p>\\[f(x)=x^2+ax+b,\\qquad g(x)=x^2+px+q.\\]</p><p>Det gäller att</p><p>\\[f(2)+f(5)+f(20)=g(2)+g(5)+g(20).\\]</p><p>Visa att ekvationen \\(f(x)=g(x)\\) har en lösning som är oberoende av värdena på \\(a,b,p,q\\), så länge funktionerna inte är identiska. Bestäm lösningen.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skillnaden är</p></li><li><p>\\[f(x)-g(x)=(a-p)x+(b-q).\\]</p></li><li><p>Summavillkoret gör att andragradstermerna tar ut varandra och ger</p></li><li><p>\\[(a-p)(2+5+20)+3(b-q)=0.\\]</p></li><li><p>\\[27(a-p)+3(b-q)=0\\Rightarrow b-q=-9(a-p).\\]</p></li><li><p>Därför</p></li><li><p>\\[f(x)-g(x)=(a-p)(x-9).\\]</p></li><li><p>Om funktionerna inte är identiska är \\(a-p\\neq0\\), och då fås \\(x=9\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=9}\\).</p></div></div>",
+  "familj": "Lösa polynomekvationer",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "resonemang",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "procedur",
+    "begrepp",
+    "resonemang"
+  ],
+  "familjTidigare": [
+    "Polynomrötter, faktorisering och polynomekvationer",
+    "Faktorisera och lösa polynomekvationer"
+  ],
+  "ledtrad": "<p>Summavillkoret gör att andragradstermerna tar ut varandra och ger</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "spel": false,
+  "omrTidigare": [
+    "polynom"
+  ]
+},
   {
-    "id": "1.219",
-    "kap": 1,
-    "omr": "polynomfunktioner",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>Ett moniskt tredjegradspolynom har nollställena \\(-2\\), \\(1\\) och \\(a\\). Dessutom är \\(p(0)=8\\).</p><p>Bestäm \\(a\\) och skriv polynomet i faktoriserad form.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom polynomet är moniskt är</p></li><li><p>\\[p(x)=(x+2)(x-1)(x-a).\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[x=0\\]:</div></div></li><li><p>\\[8=2\\cdot(-1)\\cdot(-a)=2a\\Rightarrow a=4.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{a=4}\\) och \\(\\boxed{p(x)=(x+2)(x-1)(x-4)}\\).</p></div>",
-    "familj": "Bestämma polynomfunktion från villkor",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "familjTidigare": [
-      "Polynomrötter, faktorisering och polynomekvationer",
-      "Faktorisera och lösa polynomekvationer"
-    ],
-    "ledtrad": "<p>Polynomalgebra blir säkrare om uttrycket först skrivs i fallande grad och liknande termer samlas. Därefter väljs utveckling, faktorisering eller nollproduktmetod beroende på vad frågan kräver.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "omrTidigare": [
-      "polynom"
-    ]
-  },
+  "id": "1.219",
+  "kap": 1,
+  "omr": "polynomfunktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "t": "<p>Ett tredjegradspolynom där koefficienten framför \\(x^3\\) är 1 har nollställena \\(-2\\), \\(1\\) och \\(a\\). Dessutom är \\(p(0)=8\\).</p><p>Bestäm \\(a\\) och skriv polynomet i faktoriserad form.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom koefficienten framför \\(x^3\\) är 1 är</p></li><li><p>\\[p(x)=(x+2)(x-1)(x-a).\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[x=0\\]:</div></div></li><li><p>\\[8=2\\cdot(-1)\\cdot(-a)=2a\\Rightarrow a=4.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{a=4}\\) och \\(\\boxed{p(x)=(x+2)(x-1)(x-4)}\\).</p></div>",
+  "familj": "Bestämma polynomfunktion från villkor",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "uttryck",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "familjTidigare": [
+    "Polynomrötter, faktorisering och polynomekvationer",
+    "Faktorisera och lösa polynomekvationer"
+  ],
+  "ledtrad": "<p>Nollställena ger faktorerna \\(x+2\\), \\(x-1\\) och \\(x-a\\). Använd sedan villkoret \\(p(0)=8\\) för att bestämma \\(a\\).</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": false,
+  "omrTidigare": [
+    "polynom"
+  ]
+},
   {
     "id": "1.220",
     "kap": 1,
@@ -9005,37 +9056,37 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.228",
-    "kap": 1,
-    "omr": "kontinuitet",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Bestäm \\(a\\) och \\(b\\) så att funktionen</p><p>\\[f(x)=\\begin{cases}x^2+ax,&x\\le2,\\ bx+4,&x\\gt 2\\end{cases}\\]</p><p>är kontinuerlig i \\(x=2\\) och dessutom uppfyller \\(f(0)=0\\) (vilket den gör automatiskt). Finns en unik lösning? Motivera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kontinuitet kräver att vänster värde och höger gränsvärde vid 2 är lika:</p></li><li><p>\\[4+2a=2b+4\\Rightarrow a=b.\\]</p></li><li><p>Villkoret \\(f(0)=0\\) ger ingen ny information, eftersom vänster formel ger \\(0^2+a\\cdot0=0\\) för alla \\(a\\).</p></li><li><p>Alltså finns inte en unik lösning: alla par med \\(a=b\\) fungerar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{a=b}\\), oändligt många lösningar.</p></div>",
-    "familj": "Bestämma parametrar för kontinuitet",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Kontinuitet kräver att vänster värde och höger gränsvärde vid 2 är lika:</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 2,
-    "spel": false,
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ]
-  },
+  "id": "1.228",
+  "kap": 1,
+  "omr": "kontinuitet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Bestäm \\(a\\) och \\(b\\) så att funktionen</p><p>\\[f(x)=\\begin{cases}x^2+ax,&x\\le2,\\\\ bx+4,&x\\gt 2\\end{cases}\\]</p><p>är kontinuerlig i \\(x=2\\) och dessutom uppfyller \\(f(0)=0\\). Finns en unik lösning? Motivera.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kontinuitet kräver att vänster värde och höger gränsvärde vid 2 är lika:</p></li><li><p>\\[4+2a=2b+4\\Rightarrow a=b.\\]</p></li><li><p>Villkoret \\(f(0)=0\\) ger ingen ny information, eftersom vänster formel ger \\(0^2+a\\cdot0=0\\) för alla \\(a\\).</p></li><li><p>Alltså finns inte en unik lösning: alla par med \\(a=b\\) fungerar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{a=b}\\), oändligt många lösningar.</p></div>",
+  "familj": "Bestämma parametrar för kontinuitet",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "resonemang",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "procedur",
+    "begrepp",
+    "resonemang"
+  ],
+  "ledtrad": "<p>Kontinuitet kräver att vänster värde och höger gränsvärde vid 2 är lika:</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": false,
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ]
+},
   {
     "id": "1.229",
     "kap": 1,
@@ -9889,73 +9940,107 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.254",
-    "kap": 1,
-    "omr": "rationella_ekvationer",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Lös ekvationen grafiskt: \\[\\frac{x+2}{x-1}=3.\\] Ange även vilket \\(x\\)-värde som inte tillhör uttryckets definitionsmängd.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Rita den rationella funktionen och den horisontella linjen</p><div class=\"facit-matte\">\\[y=3\\].</div></div></li><li><div class=\"facit-berakning\"><p>Skärningen ger</p><div class=\"facit-matte\">\\[\\boxed{x=\\frac52}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Uttrycket är inte definierat när nämnaren är noll, alltså vid</p><div class=\"facit-matte\">\\[\\boxed{x=1}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div></div>",
-    "familj": "Lösa rationella ekvationer",
-    "geogebra": true,
-    "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": 1,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definitionsmängden beskriver tillåtna x-värden, värdemängden möjliga y-värden. Kontrollera särskilt nämnare, rotuttryck och vad grafen faktiskt omfattar.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "rationella_uttryck"
-    ],
-    "familjTidigare": [
-      "Bestämma definitionsmängd för rationella uttryck"
-    ]
-  },
+  "id": "1.254",
+  "kap": 1,
+  "omr": "rationella_ekvationer",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Lös ekvationen grafiskt: \\[\\frac{x+2}{x-1}=3.\\] Ange även vilket \\(x\\)-värde som inte tillhör uttryckets definitionsmängd.</p><p>Ange ekvationens lösning exakt eller med två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Rita den rationella funktionen och den horisontella linjen</p><div class=\"facit-matte\">\\[y=3\\].</div></div></li><li><div class=\"facit-berakning\"><p>Skärningen ger</p><div class=\"facit-matte\">\\[\\boxed{x=\\frac52}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Uttrycket är inte definierat när nämnaren är noll, alltså vid</p><div class=\"facit-matte\">\\[\\boxed{x=1}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ekvationens lösning är \\(x=2.5\\). Det förbjudna värdet är \\(x=1\\).</p></div></div>",
+  "familj": "Lösa rationella ekvationer",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    2.5,
+    1
+  ],
+  "tolerans": [
+    0.005,
+    0
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Rita \\(y=\\frac{x+2}{x-1}\\) och \\(y=3\\). Skärningens x-koordinat löser ekvationen. Kontrollera separat var nämnaren är noll.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "rationella_uttryck"
+  ],
+  "familjTidigare": [
+    "Bestämma definitionsmängd för rationella uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Ekvationens lösning",
+    "Förbjudet x-värde"
+  ]
+},
   {
-    "id": "1.255",
-    "kap": 1,
-    "omr": "rationella_ekvationer",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Lös ekvationen grafiskt: \\[\\frac{2x-1}{x+3}=-1.\\] Ange även vilket \\(x\\)-värde som inte tillhör uttryckets definitionsmängd.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Rita den rationella funktionen och den horisontella linjen</p><div class=\"facit-matte\">\\[y=-1\\].</div></div></li><li><div class=\"facit-berakning\"><p>Skärningen ger</p><div class=\"facit-matte\">\\[\\boxed{x=-\\frac23}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Uttrycket är inte definierat när nämnaren är noll, alltså vid</p><div class=\"facit-matte\">\\[\\boxed{x=-3}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> -3.</p></div></div>",
-    "familj": "Lösa rationella ekvationer",
-    "geogebra": true,
-    "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": -3,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Definitionsmängden beskriver tillåtna x-värden, värdemängden möjliga y-värden. Kontrollera särskilt nämnare, rotuttryck och vad grafen faktiskt omfattar.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "rationella_uttryck"
-    ],
-    "familjTidigare": [
-      "Bestämma definitionsmängd för rationella uttryck"
-    ]
-  },
+  "id": "1.255",
+  "kap": 1,
+  "omr": "rationella_ekvationer",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Lös ekvationen grafiskt: \\[\\frac{2x-1}{x+3}=-1.\\] Ange även vilket \\(x\\)-värde som inte tillhör uttryckets definitionsmängd.</p><p>Ange ekvationens lösning exakt eller med två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Rita den rationella funktionen och den horisontella linjen</p><div class=\"facit-matte\">\\[y=-1\\].</div></div></li><li><div class=\"facit-berakning\"><p>Skärningen ger</p><div class=\"facit-matte\">\\[\\boxed{x=-\\frac23}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Uttrycket är inte definierat när nämnaren är noll, alltså vid</p><div class=\"facit-matte\">\\[\\boxed{x=-3}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ekvationens lösning är \\(x=-2/3\\). Det förbjudna värdet är \\(x=-3\\).</p></div></div>",
+  "familj": "Lösa rationella ekvationer",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "-2/3",
+    -3
+  ],
+  "tolerans": [
+    0.005,
+    0
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Rita \\(y=\\frac{2x-1}{x+3}\\) och \\(y=-1\\). Skärningens x-koordinat löser ekvationen. Kontrollera separat var nämnaren är noll.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "rationella_uttryck"
+  ],
+  "familjTidigare": [
+    "Bestämma definitionsmängd för rationella uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Ekvationens lösning",
+    "Förbjudet x-värde"
+  ]
+},
   {
     "id": "1.256",
     "kap": 1,
@@ -10307,34 +10392,51 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.571",
-    "kap": 1,
-    "omr": "tangent_sekant",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>För \\(f(x)=3x^2\\) dras en sekant genom punkterna där \\(x=1\\) och \\(x=1+h\\).</p><p>Förenkla uttrycket för sekantens lutning och bestäm vad lutningen närmar sig när \\(h\\to0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[k=\\frac{3(1+h)^2-3}{h}=\\frac{3+6h+3h^2-3}{h}=\\frac{6h+3h^2}{h}=6+3h\\]</p></li><li><p>När \\(h\\to0\\) går \\(6+3h\\) mot 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Tangentens lutning i \\(x=1\\) är 6.</strong></p></div>",
-    "familj": "Sekant, tangent och gränsvärde",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": 1e-9,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "ledtrad": "<p>Utveckla \\((1+h)^2\\), förenkla täljaren och dividera med \\(h\\) innan du låter \\(h\\) gå mot 0.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt"
-  },
+  "id": "1.571",
+  "kap": 1,
+  "omr": "tangent_sekant",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "t": "<p>För \\(f(x)=3x^2\\) dras en sekant genom punkterna där \\(x=1\\) och \\(x=1+h\\), där \\(h\\ne0\\).</p><p>Förenkla uttrycket för sekantens lutning och bestäm vad lutningen närmar sig när \\(h\\to0\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[k=\\frac{3(1+h)^2-3}{h}=\\frac{3+6h+3h^2-3}{h}=\\frac{6h+3h^2}{h}=6+3h\\]</p></li><li><p>När \\(h\\to0\\) går \\(6+3h\\) mot 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Tangentens lutning i \\(x=1\\) är 6.</strong></p></div>",
+  "familj": "Sekant, tangent och gränsvärde",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "6+3h",
+    6
+  ],
+  "tolerans": [
+    null,
+    0
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Utveckla \\((1+h)^2\\), förenkla täljaren och dividera med \\(h\\) innan du låter \\(h\\) gå mot 0.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": [
+    "uttryck",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Sekantens lutning k(h)",
+    "Gränsvärde"
+  ]
+},
   {
     "id": "1.572",
     "kap": 1,
@@ -10387,34 +10489,35 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.573",
-    "kap": 1,
-    "omr": "tangent_sekant",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/1/1",
-    "t": "<p>För \\(f(x)=\\dfrac1x\\) dras en sekant genom punkterna där \\(x=1\\) och \\(x=1+h\\).</p><p>Visa att sekantens lutning är \\(-\\dfrac{1}{1+h}\\) och bestäm tangentens lutning i punkten där \\(x=1\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[k=\\frac{\\frac1{1+h}-1}{h}=\\frac{\\frac{1-(1+h)}{1+h}}{h}=\\frac{-h}{h(1+h)}=-\\frac1{1+h}\\]</p></li><li><p>När \\(h\\to0\\) går lutningen mot \\(-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: Tangentens lutning är −1.</strong></p></div>",
-    "familj": "Sekant, tangent och gränsvärde",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": -1,
-    "tolerans": 1e-9,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Skriv \\(\\dfrac1{1+h}-1\\) som ett enda bråk innan du dividerar med \\(h\\).</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt"
-  },
+  "id": "1.573",
+  "kap": 1,
+  "omr": "tangent_sekant",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/1",
+  "t": "<p>För \\(f(x)=\\dfrac1x\\) dras en sekant genom punkterna där \\(x=1\\) och \\(x=1+h\\), där \\(h\\ne0\\) och \\(h\\ne-1\\).</p><p>Visa att sekantens lutning är \\(-\\dfrac{1}{1+h}\\) och bestäm tangentens lutning i punkten där \\(x=1\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[k=\\frac{\\frac1{1+h}-1}{h}=\\frac{\\frac{1-(1+h)}{1+h}}{h}=\\frac{-h}{h(1+h)}=-\\frac1{1+h}\\]</p></li><li><p>När \\(h\\to0\\) går lutningen mot \\(-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: Tangentens lutning är −1.</strong></p></div>",
+  "familj": "Sekant, tangent och gränsvärde",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": -1,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "ledtrad": "<p>Skriv \\(\\dfrac1{1+h}-1\\) som ett enda bråk innan du dividerar med \\(h\\).</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "manuellKomplettering": true
+},
   {
     "id": "1.579",
     "kap": 1,
@@ -10516,37 +10619,37 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.263",
-    "kap": 1,
-    "omr": "kontinuitet",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/0/2",
-    "t": "<p>Skapa glidarna \\(a\\) och \\(b\\) och rita</p><p>\\[f(x)=\\begin{cases}x+1,&x&lt;1,\\ ax+b,&x\\ge1.\\end{cases}\\]</p><p>Hitta flera par \\((a,b)\\) som ger en kontinuerlig funktion. Beskriv sambandet mellan \\(a\\) och \\(b\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kontinuitet vid \\(x=1\\) kräver att grenarna har samma värde där.</p></li><li><p>Vänstergrenen närmar sig \\(2\\), medan högergrenen ger \\(a+b\\).</p></li><li><p>Alltså måste \\(\\boxed{a+b=2}\\), eller \\(\\boxed{b=2-a}\\).</p></li></ol></div></div>",
-    "familj": "Kontinuitet och hål i grafer",
-    "geogebra": true,
-    "miniräknare": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "spel": false,
-    "familjTidigare": "Förstå kontinuitet och hål i grafer",
-    "ledtrad": "<p>Jämför vänstergränsvärde, högergränsvärde och funktionsvärde i den aktuella punkten. För kontinuitet måste alla tre finnas och vara lika.</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 2,
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ]
-  },
+  "id": "1.263",
+  "kap": 1,
+  "omr": "kontinuitet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "A",
+  "poang": "0/0/2",
+  "t": "<p>Skapa glidarna \\(a\\) och \\(b\\) och rita</p><p>\\[f(x)=\\begin{cases}x+1,&x&lt;1,\\\\ ax+b,&x\\ge1.\\end{cases}\\]</p><p>Hitta flera par \\((a,b)\\) som ger en kontinuerlig funktion. Beskriv sambandet mellan \\(a\\) och \\(b\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kontinuitet vid \\(x=1\\) kräver att grenarna har samma värde där.</p></li><li><p>Vänstergrenen närmar sig \\(2\\), medan högergrenen ger \\(a+b\\).</p></li><li><p>Alltså måste \\(\\boxed{a+b=2}\\), eller \\(\\boxed{b=2-a}\\).</p></li></ol></div></div>",
+  "familj": "Kontinuitet och hål i grafer",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "resonemang",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "spel": false,
+  "familjTidigare": "Förstå kontinuitet och hål i grafer",
+  "ledtrad": "<p>Jämför vänstergränsvärde, högergränsvärde och funktionsvärde i den aktuella punkten. För kontinuitet måste alla tre finnas och vara lika.</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 2,
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ]
+},
   {
     "id": "1.264",
     "kap": 1,
@@ -10812,68 +10915,68 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.272",
-    "kap": 1,
-    "omr": "funktioner",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En temperaturmodell är \\(T(t)=18+7\\sin(\\pi t/12)\\) för \\(0\\le t\\le24\\). Bestäm under vilka tidsintervall temperaturen överstiger 22 °C.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Undersök skärningarna mellan grafen till \\(T\\) och linjen \\(y=22\\).</p></li><li><p>Gränstiderna är ungefär \\(t=2{,}34\\) och \\(t=9{,}66\\).</p></li><li><p>Temperaturen överstiger 22 °C mellan dessa tider.</p></li></ol></div></div>",
-    "familj": "Tolka och jämföra funktioner",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "ledtrad": "<p>Undersök skärningarna mellan grafen till \\(T\\) och linjen \\(y=22\\). Gränstiderna är ungefär \\(t=2{,}34\\) och \\(t=9{,}66\\).</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 2,
-    "spel": false,
-    "familjTidigare": [
-      "Tolka och jämföra funktionsgrafer"
-    ]
-  },
+  "id": "1.272",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Temperaturen \\(T\\), i °C, modelleras av \\(T(t)=18+7\\sin(\\pi t/12)\\), där \\(t\\) är antalet timmar efter midnatt och \\(0\\le t\\le24\\). Vinkeln anges i radianer.</p><p>Bestäm under vilket tidsintervall temperaturen överstiger 22 °C. Ange intervallets gränser med två decimaler.</p>",
+  "s": "<div class=\"facit-v2\"><p>Gränstiderna fås när \\(T(t)=22\\), det vill säga \\(\\sin(\\pi t/12)=4/7\\).</p><p>Rita \\(y=18+7\\sin(\\pi x/12)\\) och \\(y=22\\) för \\(0\\le x\\le24\\), med radianer som vinkelmått. Skärningarna har x-koordinaterna ungefär 2,3233 och 9,6767.</p><p>Mellan skärningarna ligger temperaturkurvan över linjen. Temperaturen är alltså över 22 °C för \\(2{,}32\\lt t\\lt9{,}68\\), med avrundade gränser. Vid själva gränstiderna är temperaturen exakt 22 °C.</p></div>",
+  "familj": "Tolka och jämföra funktioner",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "text",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Rita temperaturkurvan och den horisontella linjen \\(y=22\\). Var ligger kurvan ovanför linjen?</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": false,
+  "familjTidigare": [
+    "Tolka och jämföra funktionsgrafer"
+  ]
+},
   {
-    "id": "1.273",
-    "kap": 1,
-    "omr": "funktioner",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>En bakteriemodell är \\(N(t)=1200\\cdot1{,}18^t\\). Bestäm när modellen första gången passerar 5000 bakterier.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Lös</p><div class=\"facit-matte\">\\[1200\\cdot1{,}18^t=5000\\].</div></div></li><li><div class=\"facit-berakning\"><p>Det ger</p><div class=\"facit-matte\">\\[t=\\ln(5000/1200)/\\ln(1,18)\\approx8{,}62\\].</div></div></li></ol></div>",
-    "familj": "Tolka och jämföra funktioner",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp",
-      "modellering"
-    ],
-    "ledtrad": "<p>En grafisk ekvationslösning betyder att söka skärningspunkten mellan två funktioner. x-koordinaten är lösningen på ekvationen. Rita därför båda modellerna i samma koordinatsystem och kontrollera att den skärning du väljer ligger i det relevanta intervallet.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": false,
-    "familjTidigare": [
-      "Tolka och jämföra funktionsgrafer"
-    ]
-  },
+  "id": "1.273",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Antalet bakterier modelleras av \\(N(t)=1200\\cdot1{,}18^t\\), där \\(t\\) är tiden i timmar efter mätningens början.</p><p>Efter hur många timmar når modellen 5000 bakterier? Svara med två decimaler.</p>",
+  "s": "<div class=\"facit-v2\"><p>Sätt \\(N(t)=5000\\) och dividera med 1200: \\[1{,}18^t=\\frac{5000}{1200}.\\]</p><p>Logaritmera båda leden och använd \\(\\ln(a^t)=t\\ln a\\): \\[t=\\frac{\\ln(5000/1200)}{\\ln(1{,}18)}\\approx8{,}62.\\]</p><p>Modellen når alltså 5000 bakterier efter cirka <strong>8,62 timmar</strong>.</p></div>",
+  "familj": "Tolka och jämföra funktioner",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "text",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "procedur",
+    "begrepp",
+    "modellering"
+  ],
+  "ledtrad": "<p>Sätt uttrycket för \\(N(t)\\) lika med 5000. Isolera potensen och använd sedan logaritmer.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": false,
+  "familjTidigare": [
+    "Tolka och jämföra funktionsgrafer"
+  ]
+},
   {
     "id": "1.274",
     "kap": 1,
@@ -11012,67 +11115,67 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.278",
-    "kap": 1,
-    "omr": "kontinuitet",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Funktionen är definierad av</p><p>\\[f(x)=\\begin{cases}x^2+1,&x\\le2\\ ax-1,&x&gt;2.\\end{cases}\\]</p><p>Bestäm \\(a\\) så att funktionen är kontinuerlig vid \\(x=2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Vänstervärdet är</p><div class=\"facit-matte\">\\[f(2)=5\\].</div></div></li><li><p>För kontinuitet måste högergränsvärdet också vara 5:</p></li><li><p>\\[2a-1=5\\Rightarrow a=3.\\]</p></li></ol></div>",
-    "familj": "Bestämma parametrar för kontinuitet",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "ledtrad": "<p>Undersök vad funktionen närmar sig från båda sidor om punkten. För kontinuitet måste dessa gränsvärden vara lika, och dessutom lika med funktionens värde i punkten om det är definierat.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ]
-  },
+  "id": "1.278",
+  "kap": 1,
+  "omr": "kontinuitet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Funktionen är definierad av</p><p>\\[f(x)=\\begin{cases}x^2+1,&x\\le2\\\\ ax-1,&x&gt;2.\\end{cases}\\]</p><p>Bestäm \\(a\\) så att funktionen är kontinuerlig vid \\(x=2\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Vänstervärdet är</p><div class=\"facit-matte\">\\[f(2)=5\\].</div></div></li><li><p>För kontinuitet måste högergränsvärdet också vara 5:</p></li><li><p>\\[2a-1=5\\Rightarrow a=3.\\]</p></li></ol></div>",
+  "familj": "Bestämma parametrar för kontinuitet",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "text",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Undersök vad funktionen närmar sig från båda sidor om punkten. För kontinuitet måste dessa gränsvärden vara lika, och dessutom lika med funktionens värde i punkten om det är definierat.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": false,
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ]
+},
   {
-    "id": "1.279",
-    "kap": 1,
-    "omr": "kontinuitet",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Bestäm \\(a\\) och \\(b\\) så att funktionen</p><p>\\[f(x)=\\begin{cases}ax+b,&x<1,\\\\x^2+2,&1\\le x\\le3,\\\\2x+a,&x>3\\end{cases}\\]</p><p>är kontinuerlig både vid \\(x=1\\) och \\(x=3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=1\\): \\(a+b=3\\).</p></li><li><p>Vid \\(x=3\\): \\(6+a=11\\), alltså \\(a=5\\).</p></li><li><div class=\"facit-berakning\"><p>Då blir</p><div class=\"facit-matte\">\\[b=-2\\].</div></div></li></ol></div></div>",
-    "familj": "Bestämma parametrar för kontinuitet",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "ledtrad": "<p>Tänk så här: I en skarvpunkt är huvudfrågan om de två funktionsdelarna möts utan hopp. Sätt därför de två sidornas värden lika i skarven och lös det villkor som uppstår.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 2,
-    "spel": false,
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ]
-  },
+  "id": "1.279",
+  "kap": 1,
+  "omr": "kontinuitet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Bestäm \\(a\\) och \\(b\\) så att funktionen</p><p>\\[f(x)=\\begin{cases}ax+b,&x\\lt1,\\\\x^2+2,&1\\le x\\le3,\\\\2x+a,&x\\gt3\\end{cases}\\]</p><p>är kontinuerlig både vid \\(x=1\\) och \\(x=3\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=1\\): \\(a+b=3\\).</p></li><li><p>Vid \\(x=3\\): \\(6+a=11\\), alltså \\(a=5\\).</p></li><li><div class=\"facit-berakning\"><p>Då blir</p><div class=\"facit-matte\">\\[b=-2\\].</div></div></li></ol></div></div>",
+  "familj": "Bestämma parametrar för kontinuitet",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "text",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Tänk så här: I en skarvpunkt är huvudfrågan om de två funktionsdelarna möts utan hopp. Sätt därför de två sidornas värden lika i skarven och lös det villkor som uppstår.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": false,
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ]
+},
   {
     "id": "1.280",
     "kap": 1,
@@ -11180,45 +11283,54 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.580",
-    "kap": 1,
-    "omr": "faktorisera_polynom",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>Faktorisera \\(x^4-5x^2+4\\) fullständigt och lös ekvationen \\(x^4-5x^2+4=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt \\(t=x^2\\): \\(t^2-5t+4=(t-1)(t-4)\\).</p></li><li><p>\\[x^4-5x^2+4=(x^2-1)(x^2-4)=(x-1)(x+1)(x-2)(x+2).\\]</p></li><li><p>Nollproduktmetoden ger \\(x=\\pm1\\) och \\(x=\\pm2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((x-1)(x+1)(x-2)(x+2)\\), alltså \\(x=-2,\\ -1,\\ 1,\\ 2\\)</p></div>",
-    "familj": "Faktorisera polynom",
-    "formaga": [
-      "procedur",
-      "problemlösning"
-    ],
-    "miniräknare": true,
-    "geogebra": false,
-    "självrättning": true,
-    "ledtrad": "<p>Uttrycket är en andragradsfunktion i \\(x^2\\). Sätt \\(t=x^2\\).</p>",
-    "spel": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
+  "id": "1.580",
+  "kap": 1,
+  "omr": "faktorisera_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/3/0",
+  "t": "<p>Faktorisera \\(x^4-5x^2+4\\) fullständigt och lös ekvationen \\(x^4-5x^2+4=0\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt \\(t=x^2\\): \\(t^2-5t+4=(t-1)(t-4)\\).</p></li><li><p>\\[x^4-5x^2+4=(x^2-1)(x^2-4)=(x-1)(x+1)(x-2)(x+2).\\]</p></li><li><p>Nollproduktmetoden ger \\(x=\\pm1\\) och \\(x=\\pm2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((x-1)(x+1)(x-2)(x+2)\\), alltså \\(x=-2,\\ -1,\\ 1,\\ 2\\)</p></div>",
+  "familj": "Faktorisera polynom",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Uttrycket är en andragradsfunktion i \\(x^2\\). Sätt \\(t=x^2\\).</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "(x-1)(x+1)(x-2)(x+2)",
+    [
       -2,
       -1,
       1,
       2
-    ],
-    "tolerans": null,
-    "svarEtiketter": [
-      "x",
-      "x",
-      "x",
-      "x"
-    ],
-    "svarsstruktur": "mängd"
-  },
+    ]
+  ],
+  "tolerans": null,
+  "svarEtiketter": [
+    "Faktoriserat polynom",
+    "Nollställen"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarFormat": [
+    "faktoriserat",
+    [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ]
+  ]
+},
   {
     "id": "1.283",
     "kap": 1,
@@ -11264,67 +11376,67 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.284",
-    "kap": 1,
-    "omr": "polynom",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>För polynomet \\(p(x)=2x^3-x^2+4\\), bestäm</p><p>a) \\(p(-1)\\)<br>b) \\(p(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p(-1)=2(-1)^3-(-1)^2+4=-2-1+4=1\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p(2)=2\\cdot2^3-2^2+4=16-4+4=16\\].</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(1\\), b) \\(16\\).</p></div></div>",
-    "familj": "Polynombegrepp, grad och värden",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      1,
-      16
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>För polynomet \\(p(x)=2x^3-x^2+4\\), bestäm</p><p><div class=\"spel-en-del\">\\(p(-1)\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
-        "ledtrad": "<p>Kontrollera först att alla exponenter på variabeln är icke-negativa heltal. För ett funktionsvärde sätter du sedan in x-värdet i varje term och håller reda på tecknen.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>För polynomet \\(p(x)=2x^3-x^2+4\\), bestäm</p><p><div class=\"spel-en-del\">\\(p(2)\\).</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
-        "ledtrad": "<p>Kontrollera först att alla exponenter på variabeln är icke-negativa heltal. För ett funktionsvärde sätter du sedan in x-värdet i varje term och håller reda på tecknen.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "familjTidigare": [
-      "Polynombegrepp, polynomvärden och förenkling",
-      "Polynombegrepp och polynomvärden"
-    ],
-    "ledtrad": "<p>Tänk så här: Sätt in det aktuella x-värdet i hela funktionsuttrycket och följ räkneordningen. Om x är negativt är parenteser särskilt viktiga när potenser förekommer.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true
-  },
+  "id": "1.284",
+  "kap": 1,
+  "omr": "polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>För polynomet \\(p(x)=2x^3-x^2+4\\), bestäm</p><p>a) \\(p(-1)\\)<br>b) \\(p(2)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p(-1)=2(-1)^3-(-1)^2+4=-2-1+4=1\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p(2)=2\\cdot2^3-2^2+4=16-4+4=16\\].</div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(1\\), b) \\(16\\).</p></div></div>",
+  "familj": "Polynombegrepp, grad och värden",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1,
+    16
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>För polynomet \\(p(x)=2x^3-x^2+4\\), bestäm \\(p(-1)\\).</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Sätt in \\(x=-1\\) i varje term och beräkna potenserna först.</p><p>\\[2(-1)^3-(-1)^2+4=-2-1+4=1.\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+      "ledtrad": "<p>Sätt in det givna x-värdet i varje term. Använd parenteser runt ett negativt tal innan det upphöjs.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>För polynomet \\(p(x)=2x^3-x^2+4\\), bestäm \\(p(2)\\).</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Sätt in \\(x=2\\) i varje term och beräkna potenserna först.</p><p>\\[2\\cdot2^3-2^2+4=16-4+4=16.\\]</p><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
+      "ledtrad": "<p>Sätt in det givna x-värdet i varje term. Använd parenteser runt ett negativt tal innan det upphöjs.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "familjTidigare": [
+    "Polynombegrepp, polynomvärden och förenkling",
+    "Polynombegrepp och polynomvärden"
+  ],
+  "ledtrad": "<p>Tänk så här: Sätt in det aktuella x-värdet i hela funktionsuttrycket och följ räkneordningen. Om x är negativt är parenteser särskilt viktiga när potenser förekommer.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true
+},
   {
     "id": "1.285",
     "kap": 1,
@@ -12609,40 +12721,41 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.435",
-    "kap": 1,
-    "omr": "gransvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/3/0",
-    "t": "<p>Antalet människor på jorden modelleras av</p><p>\\[N(t)=\\frac{11}{1+3{,}4e^{-0{,}03t}}.\\]</p><p>Bestäm den övre gräns som modellen närmar sig när tiden ökar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(t\\to\\infty\\) går \\(e^{-0{,}03t}\\to0\\).</p></li><li><p>\\[N(t)\\to\\frac{11}{1}=11.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: 11 miljarder.</strong></p></div>",
-    "familj": "Gränsvärden när x växer obegränsat och i modeller",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 11,
-    "tolerans": 0,
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "ledtrad": "<p>Undersök exponentialtermen när t blir mycket stor.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 2,
-    "spel": true,
-    "kalla": "NP Ma3c ht 2013, uppgift 20b",
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ],
-    "familjTidigare": [
-      "Gränsvärde i logistisk modell"
-    ]
-  },
+  "id": "1.435",
+  "kap": 1,
+  "omr": "gransvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/3/0",
+  "t": "<p>Antalet människor på jorden, i miljarder, modelleras av</p><p>\\[N(t)=\\frac{11}{1+3{,}4e^{-0{,}03t}}.\\]</p><p>Här är \\(t\\) antalet år efter 1950. Bestäm den övre gräns som modellen närmar sig när tiden ökar.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(t\\to\\infty\\) går \\(e^{-0{,}03t}\\to0\\).</p></li><li><p>\\[N(t)\\to\\frac{11}{1}=11.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: 11 miljarder.</strong></p></div>",
+  "familj": "Gränsvärden när x växer obegränsat och i modeller",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 11,
+  "tolerans": 0,
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "ledtrad": "<p>Undersök exponentialtermen när t blir mycket stor.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kalla": "NP Ma3c ht 2013, uppgift 20b",
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ],
+  "familjTidigare": [
+    "Gränsvärde i logistisk modell"
+  ],
+  "svarEnhet": "miljarder"
+},
   {
     "id": "1.436",
     "kap": 1,
@@ -12817,33 +12930,34 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.582",
-    "kap": 1,
-    "omr": "rakna_rationella",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p><strong>a)</strong> Visa att \\(\\dfrac1{x}-\\dfrac1{x+1}=\\dfrac1{x(x+1)}\\).</p><p><strong>b)</strong> Använd sambandet för att beräkna</p><p>\\[\\frac1{1\\cdot2}+\\frac1{2\\cdot3}+\\frac1{3\\cdot4}+\\dots+\\frac1{99\\cdot100}.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac1x-\\dfrac1{x+1}=\\dfrac{(x+1)-x}{x(x+1)}=\\dfrac1{x(x+1)}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv varje term som en skillnad:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\left(1-\\frac12\\right)+\\left(\\frac12-\\frac13\\right)+\\dots+\\left(\\frac1{99}-\\frac1{100}\\right).\\]</p></li><li><p>Alla mellanliggande termer tar ut varandra.</p></li><li><div class=\"facit-berakning\"><p>Kvar blir</p><div class=\"facit-matte\">\\[1-\\frac1{100}=0{,}99\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> b) 0,99</p></div>",
-    "familj": "Räkna med rationella uttryck",
-    "formaga": [
-      "problemlösning",
-      "resonemang"
-    ],
-    "miniräknare": true,
-    "geogebra": false,
-    "självrättning": true,
-    "ledtrad": "<p>Gör liknämnigt i a. I b: skriv ut de första termerna som skillnader. Vad händer?</p>",
-    "spel": true,
-    "traningsniva": 5,
-    "arbetsinsats": 3,
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.99,
-    "tolerans": 0.0001
-  },
+  "id": "1.582",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "A",
+  "poang": "0/1/2",
+  "t": "<p><strong>a)</strong> Visa att \\(\\dfrac1{x}-\\dfrac1{x+1}=\\dfrac1{x(x+1)}\\).</p><p><strong>b)</strong> Använd sambandet för att beräkna</p><p>\\[\\frac1{1\\cdot2}+\\frac1{2\\cdot3}+\\frac1{3\\cdot4}+\\dots+\\frac1{99\\cdot100}.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac1x-\\dfrac1{x+1}=\\dfrac{(x+1)-x}{x(x+1)}=\\dfrac1{x(x+1)}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv varje term som en skillnad:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\left(1-\\frac12\\right)+\\left(\\frac12-\\frac13\\right)+\\dots+\\left(\\frac1{99}-\\frac1{100}\\right).\\]</p></li><li><p>Alla mellanliggande termer tar ut varandra.</p></li><li><div class=\"facit-berakning\"><p>Kvar blir</p><div class=\"facit-matte\">\\[1-\\frac1{100}=0{,}99\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> b) 0,99</p></div>",
+  "familj": "Räkna med rationella uttryck",
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Gör liknämnigt i a. I b: skriv ut de första termerna som skillnader. Vad händer?</p>",
+  "spel": true,
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.99,
+  "tolerans": 0.0001,
+  "manuellKomplettering": true
+},
   {
     "id": "1.448",
     "kap": 1,
@@ -13014,40 +13128,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.01",
-    "kap": 2,
-    "omr": "andringskvoter",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>En växts höjd \\(h\\) mäts i centimeter.</p><p>\\[h(2)=13,4\\qquad\\text{och}\\qquad h(6)=18,2\\]</p><p>Bestäm växtens genomsnittliga förändringshastighet mellan \\(t=2\\) veckor och \\(t=6\\) veckor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Genomsnittlig förändringshastighet beräknas med en ändringskvot:</p></li><li><p>\\[\\frac{h(6)-h(2)}{6-2}.\\]</p></li><li><p>Sätt in värdena:</p></li><li><p>\\[\\frac{18{,}2-13{,}4}{4}=\\frac{4{,}8}{4}=1{,}2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Växtens genomsnittliga förändringshastighet är \\(\\boxed{1{,}2\\text{ cm/vecka}}\\).</p></div>",
-    "familj": "Genomsnittlig förändringshastighet i sammanhang",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 1.2,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Genomsnittlig förändringshastighet beräknas med en ändringskvot:</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "derivatabegrepp"
-    ],
-    "familjTidigare": [
-      "Beräkna och tolka förändringskvot"
-    ]
-  },
+  "id": "2.01",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En växts höjd \\(h\\) mäts i centimeter.</p><p>\\[h(2)=13,4\\qquad\\text{och}\\qquad h(6)=18,2\\]</p><p>Bestäm växtens genomsnittliga förändringshastighet mellan \\(t=2\\) veckor och \\(t=6\\) veckor.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Genomsnittlig förändringshastighet beräknas med en ändringskvot:</p></li><li><p>\\[\\frac{h(6)-h(2)}{6-2}.\\]</p></li><li><p>Sätt in värdena:</p></li><li><p>\\[\\frac{18{,}2-13{,}4}{4}=\\frac{4{,}8}{4}=1{,}2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Växtens genomsnittliga förändringshastighet är \\(\\boxed{1{,}2\\text{ cm/vecka}}\\).</p></div>",
+  "familj": "Genomsnittlig förändringshastighet i sammanhang",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.2,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Genomsnittlig förändringshastighet beräknas med en ändringskvot:</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "derivatabegrepp"
+  ],
+  "familjTidigare": [
+    "Beräkna och tolka förändringskvot"
+  ]
+},
   {
     "id": "2.02",
     "kap": 2,
@@ -13717,40 +13831,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.17",
-    "kap": 2,
-    "omr": "begreppet_derivata",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Tabellen visar några värden för en funktion \\(f\\).</p><table class=\"tabell\"><tr><th>\\(x\\)</th><th>1,9</th><th>2,0</th><th>2,1</th></tr><tr><th>\\(f(x)\\)</th><td>4,61</td><td>5,00</td><td>5,41</td></tr></table><p>Använd värdena i tabellen för att approximera \\(f^{\\prime}(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> En bra approximation fås med en symmetrisk ändringskvot:</p></li><li><p>\\[f^{\\prime}(2)\\approx \\frac{f(2,1)-f(1,9)}{2{,}1-1{,}9}.\\]</p></li><li><p>Sätt in tabellvärdena:</p></li><li><p>\\[f^{\\prime}(2)\\approx \\frac{5{,}41-4{,}61}{0{,}2}=\\frac{0{,}80}{0{,}2}=4{,}0.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{f^{\\prime}(2)\\approx 4}\\).</p></div>",
-    "familj": "Derivata som tangentens lutning",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>En bra approximation fås med en symmetrisk ändringskvot: Derivera funktionen först och sätt sedan in det aktuella x-värdet.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "derivatabegrepp"
-    ],
-    "familjTidigare": [
-      "Derivata som förändringshastighet och tangentlutning"
-    ]
-  },
+  "id": "2.17",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Tabellen visar några värden för en funktion \\(f\\).</p><table class=\"tabell\"><tr><th>\\(x\\)</th><th>1,9</th><th>2,0</th><th>2,1</th></tr><tr><th>\\(f(x)\\)</th><td>4,61</td><td>5,00</td><td>5,41</td></tr></table><p>Använd värdena i tabellen för att approximera \\(f^{\\prime}(2)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> En bra approximation fås med en symmetrisk ändringskvot:</p></li><li><p>\\[f^{\\prime}(2)\\approx \\frac{f(2,1)-f(1,9)}{2{,}1-1{,}9}.\\]</p></li><li><p>Sätt in tabellvärdena:</p></li><li><p>\\[f^{\\prime}(2)\\approx \\frac{5{,}41-4{,}61}{0{,}2}=\\frac{0{,}80}{0{,}2}=4{,}0.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{f^{\\prime}(2)\\approx 4}\\).</p></div>",
+  "familj": "Derivata som tangentens lutning",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0.01,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>En bra approximation fås med en symmetrisk ändringskvot: Derivera funktionen först och sätt sedan in det aktuella x-värdet.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "derivatabegrepp"
+  ],
+  "familjTidigare": [
+    "Derivata som förändringshastighet och tangentlutning"
+  ]
+},
   {
     "id": "2.18",
     "kap": 2,
@@ -14979,40 +15093,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.49",
-    "kap": 2,
-    "omr": "andringskvoter",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Tabellen visar värden nära en punkt.</p><table class=\"tabell\"><tr><th>x</th><th>1,9</th><th>2</th><th>2,1</th></tr><tr><th>f(x)</th><td>2,51</td><td>3</td><td>3,51</td></tr></table><p>Approximera \\(f^{\\prime}(2)\\) med en symmetrisk ändringskvot.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En symmetrisk approximation är</p></li><li><p>\\[f^{\\prime}(2)\\approx \\frac{f(2,1)-f(1,9)}{0{,}2}.\\]</p></li><li><p>\\[=\\frac{3{,}51-2{,}51}{0{,}2}=5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär \\(5\\).</p></div>",
-    "familj": "Förändringskvot och sekantens lutning",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Tänk så här: Förändringskvoten är sekantens lutning mellan två punkter. Beräkna förändringen i funktionsvärde och dividera med förändringen i x; kontrollera sedan att tecknet stämmer med hur funktionen förändras över intervallet.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "derivatabegrepp"
-    ],
-    "familjTidigare": [
-      "Beräkna och tolka förändringskvot"
-    ]
-  },
+  "id": "2.49",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Tabellen visar värden nära en punkt.</p><table class=\"tabell\"><tr><th>x</th><th>1,9</th><th>2</th><th>2,1</th></tr><tr><th>f(x)</th><td>2,51</td><td>3</td><td>3,51</td></tr></table><p>Approximera \\(f^{\\prime}(2)\\) med en symmetrisk ändringskvot.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En symmetrisk approximation är</p></li><li><p>\\[f^{\\prime}(2)\\approx \\frac{f(2,1)-f(1,9)}{0{,}2}.\\]</p></li><li><p>\\[=\\frac{3{,}51-2{,}51}{0{,}2}=5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär \\(5\\).</p></div>",
+  "familj": "Förändringskvot och sekantens lutning",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0.01,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Tänk så här: Förändringskvoten är sekantens lutning mellan två punkter. Beräkna förändringen i funktionsvärde och dividera med förändringen i x; kontrollera sedan att tecknet stämmer med hur funktionen förändras över intervallet.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "derivatabegrepp"
+  ],
+  "familjTidigare": [
+    "Beräkna och tolka förändringskvot"
+  ]
+},
   {
     "id": "2.50",
     "kap": 2,
@@ -15115,40 +15229,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.53",
-    "kap": 2,
-    "omr": "andringskvoter",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Tabellen visar värden nära en punkt.</p><table class=\"tabell\"><tr><th>x</th><th>0,99</th><th>1</th><th>1,01</th></tr><tr><th>f(x)</th><td>4,0201</td><td>4</td><td>3,9801</td></tr></table><p>Approximera \\(f^{\\prime}(1)\\) med en symmetrisk ändringskvot.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En symmetrisk approximation är</p></li><li><p>\\[f^{\\prime}(1)\\approx \\frac{f(1,01)-f(0,99)}{0{,}02}.\\]</p></li><li><p>\\[=\\frac{3{,}9801-4{,}0201}{0{,}02}=-2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär \\(-2\\).</p></div>",
-    "familj": "Förändringskvot och sekantens lutning",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -2,
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Förändringskvoten är sekantens lutning mellan två punkter. Beräkna förändringen i funktionsvärde och dividera med förändringen i x; kontrollera sedan att tecknet stämmer med hur funktionen förändras över intervallet.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "derivatabegrepp"
-    ],
-    "familjTidigare": [
-      "Beräkna och tolka förändringskvot"
-    ]
-  },
+  "id": "2.53",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Tabellen visar värden nära en punkt.</p><table class=\"tabell\"><tr><th>x</th><th>0,99</th><th>1</th><th>1,01</th></tr><tr><th>f(x)</th><td>4,0201</td><td>4</td><td>3,9801</td></tr></table><p>Approximera \\(f^{\\prime}(1)\\) med en symmetrisk ändringskvot.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En symmetrisk approximation är</p></li><li><p>\\[f^{\\prime}(1)\\approx \\frac{f(1,01)-f(0,99)}{0{,}02}.\\]</p></li><li><p>\\[=\\frac{3{,}9801-4{,}0201}{0{,}02}=-2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ungefär \\(-2\\).</p></div>",
+  "familj": "Förändringskvot och sekantens lutning",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": -2,
+  "tolerans": 0.01,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Förändringskvoten är sekantens lutning mellan två punkter. Beräkna förändringen i funktionsvärde och dividera med förändringen i x; kontrollera sedan att tecknet stämmer med hur funktionen förändras över intervallet.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "derivatabegrepp"
+  ],
+  "familjTidigare": [
+    "Beräkna och tolka förändringskvot"
+  ]
+},
   {
     "id": "2.54",
     "kap": 2,
@@ -43224,51 +43338,51 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.349",
-    "kap": 3,
-    "omr": "fler_extremvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Höjden hos en boll modelleras av \\(h(t)=-2t^2+24t+50\\), där \\(h\\) mäts i meter och \\(t\\) i sekunder. När är bollen som högst och vilken är den största höjden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[h^{\\prime}(t)=-4t+24\\].</div></div></li><li><p>Sätt derivatan lika med noll:</p></li><li><p>\\[-4t+24=0\\Rightarrow t=6.\\]</p></li><li><div class=\"facit-berakning\"><p>Höjden blir</p><div class=\"facit-matte\">\\[h(6)=122\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> bollen är som högst efter \\(\\boxed{6\\text{ s}}\\), och den största höjden är \\(\\boxed{122\\text{ m}}\\).</p></div></div>",
-    "familj": "Optimering i givna modeller",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      6,
-      122
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "ledtrad": "<p>Derivera höjdfunktionen för att hitta tidpunkten då höjden slutar öka. Beräkna sedan höjden vid den tidpunkten.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "tid (s)",
-      "största höjd (m)"
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "omrTidigare": [
-      "extremvardesproblem"
-    ],
-    "familjTidigare": [
-      "Optimera tillämpade andragradsmodeller"
-    ]
-  },
+  "id": "3.349",
+  "kap": 3,
+  "omr": "fler_extremvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Höjden hos en boll modelleras av \\(h(t)=-2t^2+24t+50\\), där \\(h\\) mäts i meter och \\(t\\) i sekunder. När är bollen som högst och vilken är den största höjden?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[h^{\\prime}(t)=-4t+24\\].</div></div></li><li><p>Sätt derivatan lika med noll:</p></li><li><p>\\[-4t+24=0\\Rightarrow t=6.\\]</p></li><li><div class=\"facit-berakning\"><p>Höjden blir</p><div class=\"facit-matte\">\\[h(6)=122\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> bollen är som högst efter \\(\\boxed{6\\text{ s}}\\), och den största höjden är \\(\\boxed{122\\text{ m}}\\).</p></div></div>",
+  "familj": "Optimering i givna modeller",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    6,
+    122
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "ledtrad": "<p>Derivera höjdfunktionen för att hitta tidpunkten då höjden slutar öka. Beräkna sedan höjden vid den tidpunkten.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "tid (s)",
+    "största höjd (m)"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "omrTidigare": [
+    "extremvardesproblem"
+  ],
+  "familjTidigare": [
+    "Optimera tillämpade andragradsmodeller"
+  ]
+},
   {
     "id": "3.350",
     "kap": 3,
@@ -44179,131 +44293,131 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.373",
-    "kap": 3,
-    "omr": "fler_extremvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Kostnaden per tillverkad serie modelleras av \\(K(x)=0{,}5x^2-20x+340\\), där \\(x\\) är antalet serier. Bestäm det minsta värdet på \\(K\\) och för vilket \\(x\\) det fås.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[K^{\\prime}(x)=x-20.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatan är noll när</p><div class=\"facit-matte\">\\[x=20\\].</div></div></li><li><p>Eftersom koefficienten framför \\(x^2\\) är positiv är detta ett minimum.</p></li><li><p>\\[K(20)=0{,}5\\cdot20^2-20\\cdot20+340=140.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> det minsta värdet är \\(\\boxed{140}\\), och det fås för \\(\\boxed{x=20}\\).</p></div>",
-    "familj": "Ekonomisk optimering",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      140,
-      20
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "ledtrad": "<p>Derivera \\(K(x)\\), bestäm var derivatan är noll och beräkna sedan \\(K\\) där.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "minsta K-värde",
-      "x-värde"
-    ],
-    "omrTidigare": [
-      "extremvardesproblem"
-    ],
-    "familjTidigare": [
-      "Ekonomisk optimering med derivata"
-    ]
-  },
+  "id": "3.373",
+  "kap": 3,
+  "omr": "fler_extremvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Kostnaden per tillverkad serie modelleras av \\(K(x)=0{,}5x^2-20x+340\\), där \\(x\\) är antalet serier. Bestäm det minsta värdet på \\(K\\) och för vilket \\(x\\) det fås.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[K^{\\prime}(x)=x-20.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatan är noll när</p><div class=\"facit-matte\">\\[x=20\\].</div></div></li><li><p>Eftersom koefficienten framför \\(x^2\\) är positiv är detta ett minimum.</p></li><li><p>\\[K(20)=0{,}5\\cdot20^2-20\\cdot20+340=140.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> det minsta värdet är \\(\\boxed{140}\\), och det fås för \\(\\boxed{x=20}\\).</p></div>",
+  "familj": "Ekonomisk optimering",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    140,
+    20
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Derivera \\(K(x)\\), bestäm var derivatan är noll och beräkna sedan \\(K\\) där.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "minsta K-värde",
+    "x-värde"
+  ],
+  "omrTidigare": [
+    "extremvardesproblem"
+  ],
+  "familjTidigare": [
+    "Ekonomisk optimering med derivata"
+  ]
+},
   {
-    "id": "3.374",
-    "kap": 3,
-    "omr": "fler_extremvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Temperaturen i ett växthus under en del av dagen modelleras av \\(T(t)=-0{,}4t^2+4{,}8t+18\\), där \\(t\\) är timmar efter kl. 08.00.</p><p>Bestäm den högsta temperaturen enligt modellen och vid vilket klockslag den inträffar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är</p></li><li><p>\\[T^{\\prime}(t)=-0{,}8t+4{,}8.\\]</p></li><li><p>\\[T^{\\prime}(t)=0\\Rightarrow t=6.\\]</p></li><li><p>Eftersom parabeln är nedåtvänd ger detta maximum.</p></li><li><p>\\[T(6)=-0{,}4\\cdot36+4{,}8\\cdot6+18=32{,}4.\\]</p></li><li><p>Sex timmar efter kl.</p></li><li><p>08.00 är kl.</p></li><li><p>14.00.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{32{,}4\\ ^\\circ\\mathrm C}\\) kl. \\(\\boxed{14.00}\\).</p></div>",
-    "familj": "Optimering i givna modeller",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      32.4,
-      14
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "ledtrad": "<p>Bestäm först hur många timmar efter kl. 08.00 temperaturen är som störst. Översätt sedan \\(t\\)-värdet till ett klockslag.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "temperatur (°C)",
-      "klockslag (timme)"
-    ],
-    "omrTidigare": [
-      "extremvardesproblem"
-    ],
-    "familjTidigare": [
-      "Optimera tillämpade andragradsmodeller"
-    ]
-  },
+  "id": "3.374",
+  "kap": 3,
+  "omr": "fler_extremvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Temperaturen i ett växthus under en del av dagen modelleras av \\(T(t)=-0{,}4t^2+4{,}8t+18\\), där \\(T\\) mäts i °C och \\(t\\) är timmar efter kl. 08.00.</p><p>Bestäm den högsta temperaturen enligt modellen och vid vilket klockslag den inträffar.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är</p></li><li><p>\\[T^{\\prime}(t)=-0{,}8t+4{,}8.\\]</p></li><li><p>\\[T^{\\prime}(t)=0\\Rightarrow t=6.\\]</p></li><li><p>Eftersom parabeln är nedåtvänd ger detta maximum.</p></li><li><p>\\[T(6)=-0{,}4\\cdot36+4{,}8\\cdot6+18=32{,}4.\\]</p></li><li><p>Sex timmar efter kl. 08.00 är kl. 14.00.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{32{,}4\\ ^\\circ\\mathrm C}\\) kl. \\(\\boxed{14.00}\\).</p></div>",
+  "familj": "Optimering i givna modeller",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    32.4,
+    14
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Bestäm först hur många timmar efter kl. 08.00 temperaturen är som störst. Översätt sedan \\(t\\)-värdet till ett klockslag.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "temperatur (°C)",
+    "klockslag (timme)"
+  ],
+  "omrTidigare": [
+    "extremvardesproblem"
+  ],
+  "familjTidigare": [
+    "Optimera tillämpade andragradsmodeller"
+  ]
+},
   {
-    "id": "3.375",
-    "kap": 3,
-    "omr": "extremvarde_modellering",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Arean av ett rektangulärt område beskrivs av \\(A(x)=30x-x^2\\) för \\(0&lt;x&lt;30\\). Bestäm den största möjliga arean.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är \\[- 2 \\left(x - 15\\right).\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatans nollställen i det aktuella intervallet är</p><div class=\"facit-matte\">\\[x=15\\].</div></div></li><li><p>För att bestämma största och minsta värde på intervallet jämför vi funktionens värden i derivatans nollställen och i intervallets ändpunkter.</p></li></ol><ul><li>\\(x=0\\): värdet är \\(0\\)</li><li>\\(x=30\\): värdet är \\(0\\)</li><li>\\(x=15\\): värdet är \\(225\\)</li></ul><p class=\"facit-svar\"><strong>Svar:</strong> det största värdet är \\(\\boxed{225}\\) m², och det fås för \\(x=15\\).</p></div></div>",
-    "familj": "Rektanglar och trianglar i figurer",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 225,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Areafunktionen är redan given. Derivera \\(A(x)\\) och bestäm var derivatan byter från positiv till negativ.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "extremvardesproblem"
-    ],
-    "familjTidigare": [
-      "Geometrisk optimering med derivata"
-    ]
-  },
+  "id": "3.375",
+  "kap": 3,
+  "omr": "extremvarde_modellering",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Arean av ett rektangulärt område beskrivs av \\(A(x)=30x-x^2\\) där \\(x\\) mäts i meter och \\(A\\) i m², för \\(0\\lt x\\lt30\\). Bestäm den största möjliga arean.</p>",
+  "s": "<div class=\"facit-v2\"><p>Derivera arean: \\(A^{\\prime}(x)=30-2x\\). Villkoret \\(A^{\\prime}(x)=0\\) ger \\(x=15\\), som ligger i det tillåtna intervallet.</p><p>Derivatan är positiv före 15 och negativ efter 15. Arean har därför sitt största värde där.</p><p>\\[A(15)=30\\cdot15-15^2=225.\\]</p><p><strong>Svar:</strong> Den största arean är 225 m². Ändpunkterna 0 och 30 ingår inte i intervallet.</p></div>",
+  "familj": "Rektanglar och trianglar i figurer",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 225,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Areafunktionen är redan given. Derivera \\(A(x)\\) och bestäm var derivatan byter från positiv till negativ.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "extremvardesproblem"
+  ],
+  "familjTidigare": [
+    "Geometrisk optimering med derivata"
+  ]
+},
   {
     "id": "3.376",
     "kap": 3,
@@ -44340,40 +44454,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.377",
-    "kap": 3,
-    "omr": "fler_extremvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>En fontänstråles höjd i meter kan modelleras med \\(h(x)=-0{,}25x^2+2x+0{,}5\\), där \\(x\\) är det horisontella avståndet i meter. Bestäm strålens största höjd.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" role=\"img\" aria-label=\"Modellens graf\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"50\" y1=\"228\" x2=\"355\" y2=\"228\" stroke=\"#333\" /><line x1=\"50\" y1=\"30\" x2=\"50\" y2=\"228\" stroke=\"#333\" /><path d=\"M 50.0 133.1 L 51.5 132.2 L 53.0 131.3 L 54.6 130.3 L 56.1 129.4 L 57.6 128.5 L 59.1 127.6 L 60.7 126.8 L 62.2 125.9 L 63.7 125.1 L 65.2 124.2 L 66.8 123.4 L 68.3 122.6 L 69.8 121.8 L 71.3 121.0 L 72.9 120.2 L 74.4 119.5 L 75.9 118.7 L 77.5 118.0 L 79.0 117.2 L 80.5 116.5 L 82.0 115.8 L 83.6 115.1 L 85.1 114.4 L 86.6 113.8 L 88.1 113.1 L 89.7 112.5 L 91.2 111.8 L 92.7 111.2 L 94.2 110.6 L 95.8 110.0 L 97.3 109.4 L 98.8 108.8 L 100.3 108.3 L 101.8 107.7 L 103.4 107.2 L 104.9 106.7 L 106.4 106.1 L 108.0 105.6 L 109.5 105.1 L 111.0 104.7 L 112.5 104.2 L 114.1 103.7 L 115.6 103.3 L 117.1 102.9 L 118.6 102.4 L 120.1 102.0 L 121.7 101.6 L 123.2 101.3 L 124.7 100.9 L 126.2 100.5 L 127.8 100.2 L 129.3 99.8 L 130.8 99.5 L 132.4 99.2 L 133.9 98.9 L 135.4 98.6 L 136.9 98.3 L 138.4 98.0 L 140.0 97.8 L 141.5 97.6 L 143.0 97.3 L 144.6 97.1 L 146.1 96.9 L 147.6 96.7 L 149.1 96.5 L 150.6 96.3 L 152.2 96.2 L 153.7 96.0 L 155.2 95.9 L 156.8 95.8 L 158.3 95.7 L 159.8 95.6 L 161.3 95.5 L 162.8 95.4 L 164.4 95.3 L 165.9 95.3 L 167.4 95.2 L 168.9 95.2 L 170.5 95.2 L 172.0 95.2 L 173.5 95.2 L 175.1 95.2 L 176.6 95.2 L 178.1 95.3 L 179.6 95.3 L 181.2 95.4 L 182.7 95.5 L 184.2 95.6 L 185.7 95.7 L 187.2 95.8 L 188.8 95.9 L 190.3 96.0 L 191.8 96.2 L 193.4 96.3 L 194.9 96.5 L 196.4 96.7 L 197.9 96.9 L 199.5 97.1 L 201.0 97.3 L 202.5 97.6 L 204.0 97.8 L 205.6 98.0 L 207.1 98.3 L 208.6 98.6 L 210.1 98.9 L 211.7 99.2 L 213.2 99.5 L 214.7 99.8 L 216.2 100.2 L 217.8 100.5 L 219.3 100.9 L 220.8 101.3 L 222.3 101.6 L 223.9 102.0 L 225.4 102.4 L 226.9 102.9 L 228.4 103.3 L 230.0 103.7 L 231.5 104.2 L 233.0 104.7 L 234.5 105.1 L 236.0 105.6 L 237.6 106.1 L 239.1 106.7 L 240.6 107.2 L 242.2 107.7 L 243.7 108.3 L 245.2 108.8 L 246.7 109.4 L 248.2 110.0 L 249.8 110.6 L 251.3 111.2 L 252.8 111.8 L 254.4 112.5 L 255.9 113.1 L 257.4 113.8 L 258.9 114.4 L 260.5 115.1 L 262.0 115.8 L 263.5 116.5 L 265.0 117.2 L 266.5 118.0 L 268.1 118.7 L 269.6 119.5 L 271.1 120.2 L 272.6 121.0 L 274.2 121.8 L 275.7 122.6 L 277.2 123.4 L 278.8 124.2 L 280.3 125.1 L 281.8 125.9 L 283.3 126.8 L 284.9 127.6 L 286.4 128.5 L 287.9 129.4 L 289.4 130.3 L 291.0 131.3 L 292.5 132.2 L 294.0 133.1 L 295.5 134.1 L 297.0 135.0 L 298.6 136.0 L 300.1 137.0 L 301.6 138.0 L 303.2 139.0 L 304.7 140.1 L 306.2 141.1 L 307.7 142.1 L 309.2 143.2 L 310.8 144.3 L 312.3 145.4 L 313.8 146.5 L 315.3 147.6 L 316.9 148.7 L 318.4 149.8 L 319.9 151.0 L 321.4 152.1 L 323.0 153.3 L 324.5 154.5 L 326.0 155.7 L 327.5 156.9 L 329.1 158.1 L 330.6 159.3 L 332.1 160.6 L 333.7 161.8 L 335.2 163.1 L 336.7 164.3 L 338.2 165.6 L 339.8 166.9 L 341.3 168.2 L 342.8 169.6 L 344.3 170.9 L 345.8 172.2 L 347.4 173.6 L 348.9 175.0 L 350.4 176.3 L 351.9 177.7 L 353.5 179.1 L 355.0 180.6\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.5\" /></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är \\[- \\frac{x - 4}{2}.\\]</p></li><li><div class=\"facit-berakning\"><p>Derivatans nollställen i det aktuella intervallet är</p><div class=\"facit-matte\">\\[x=4\\].</div></div></li><li><p>För att bestämma största och minsta värde på intervallet jämför vi funktionens värden i derivatans nollställen och i intervallets ändpunkter.</p></li></ol><ul><li>\\(x=0\\): värdet är \\(0{,}5\\)</li><li>\\(x=10\\): värdet är \\(-4{,}5\\)</li><li>\\(x=4\\): värdet är \\(4{,}5\\)</li></ul><p class=\"facit-svar\"><strong>Svar:</strong> det största värdet är \\(\\boxed{4{,}5}\\) m, och det fås för \\(x=4\\).</p></div></div>",
-    "familj": "Optimering i givna modeller",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4.5,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Höjdfunktionen är redan given. Bestäm var \\(h^{\\prime}(x)=0\\) och kontrollera att det är ett maximum.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "extremvardesproblem"
-    ],
-    "familjTidigare": [
-      "Optimera tillämpade andragradsmodeller"
-    ]
-  },
+  "id": "3.377",
+  "kap": 3,
+  "omr": "fler_extremvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En fontänstråles höjd i meter kan modelleras med \\(h(x)=-0{,}25x^2+2x+0{,}5\\), där \\(x\\) är det horisontella avståndet i meter. Bestäm strålens största höjd.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"270\" viewBox=\"0 0 390 270\" role=\"img\" aria-label=\"Fontänstrålens höjd över marken\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><path d=\"M40 220 H350 M50 230 V25\" fill=\"none\" stroke=\"currentColor\"/><text x=\"325\" y=\"249\" font-size=\"13\">x (m)</text><text x=\"12\" y=\"18\" font-size=\"13\">h (m)</text><path d=\"M50 217 v6\" stroke=\"currentColor\"/><text x=\"50\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">0</text><path d=\"M114 217 v6\" stroke=\"currentColor\"/><text x=\"114\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">2</text><path d=\"M178 217 v6\" stroke=\"currentColor\"/><text x=\"178\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">4</text><path d=\"M242 217 v6\" stroke=\"currentColor\"/><text x=\"242\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">6</text><path d=\"M306 217 v6\" stroke=\"currentColor\"/><text x=\"306\" y=\"240\" text-anchor=\"middle\" font-size=\"12\">8</text><path d=\"M47 184 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"188\" text-anchor=\"end\" font-size=\"12\">1</text><path d=\"M47 148 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"152\" text-anchor=\"end\" font-size=\"12\">2</text><path d=\"M47 112 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"116\" text-anchor=\"end\" font-size=\"12\">3</text><path d=\"M47 76 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"80\" text-anchor=\"end\" font-size=\"12\">4</text><path d=\"M47 40 h6\" stroke=\"currentColor\"/><text x=\"40\" y=\"44\" text-anchor=\"end\" font-size=\"12\">5</text><polyline points=\"50.00,202.00 52.64,196.13 55.28,190.38 57.91,184.75 60.55,179.24 63.19,173.86 65.83,168.59 68.46,163.45 71.10,158.44 73.74,153.54 76.38,148.77 79.01,144.12 81.65,139.59 84.29,135.18 86.93,130.90 89.56,126.74 92.20,122.70 94.84,118.78 97.48,114.99 100.12,111.31 102.75,107.76 105.39,104.34 108.03,101.03 110.67,97.85 113.30,94.79 115.94,91.85 118.58,89.03 121.22,86.34 123.85,83.77 126.49,81.32 129.13,78.99 131.77,76.79 134.40,74.70 137.04,72.74 139.68,70.91 142.32,69.19 144.96,67.60 147.59,66.13 150.23,64.78 152.87,63.55 155.51,62.45 158.14,61.47 160.78,60.61 163.42,59.87 166.06,59.25 168.69,58.76 171.33,58.39 173.97,58.14 176.61,58.02 179.24,58.01 181.88,58.13 184.52,58.37 187.16,58.74 189.80,59.22 192.43,59.83 195.07,60.56 197.71,61.41 200.35,62.39 202.98,63.49 205.62,64.71 208.26,66.05 210.90,67.51 213.53,69.10 216.17,70.81 218.81,72.64 221.45,74.59 224.08,76.67 226.72,78.86 229.36,81.18 232.00,83.63 234.64,86.19 237.27,88.88 239.91,91.69 242.55,94.62 245.19,97.67 247.82,100.85 250.46,104.15 253.10,107.57 255.74,111.11 258.37,114.78 261.01,118.56 263.65,122.47 266.29,126.51 268.92,130.66 271.56,134.94 274.20,139.34 276.84,143.86 279.48,148.50 282.11,153.27 284.75,158.16 287.39,163.17 290.03,168.30 292.66,173.56 295.30,178.93 297.94,184.43 300.58,190.06 303.21,195.80 305.85,201.67 308.49,207.66 311.13,213.77 313.76,220.00\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.5\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Derivatan är \\(h^{\\prime}(x)=-0{,}5x+2\\). Den är noll vid \\(x=4\\).</p><p>Parabeln är nedåtvänd, så detta ger strålens största höjd:</p><p>\\[h(4)=-0{,}25\\cdot4^2+2\\cdot4+0{,}5=4{,}5.\\]</p><p><strong>Svar:</strong> Strålens största höjd är 4,5 m.</p></div>",
+  "familj": "Optimering i givna modeller",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4.5,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Höjdfunktionen är redan given. Bestäm var \\(h^{\\prime}(x)=0\\) och kontrollera att det är ett maximum.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "extremvardesproblem"
+  ],
+  "familjTidigare": [
+    "Optimera tillämpade andragradsmodeller"
+  ]
+},
   {
     "id": "3.378",
     "kap": 3,
@@ -44833,42 +44947,42 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.390",
-    "kap": 3,
-    "omr": "extremvarde_modellering",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/0/4",
-    "t": "<p>Ett rektangulärt spegelglas är 14 cm brett och 10 cm högt. Ett hörn har skurits bort längs en rät linje. På överkanten är den bortskurna sträckan 7 cm och på högerkanten 5 cm.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" role=\"img\" aria-label=\"Rektangulärt spegelglas med avskuret hörn och inskriven rektangel\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"70\" y=\"35\" width=\"250\" height=\"170\" fill=\"#F2F6FB\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"195,35 320,35 320,120\" fill=\"#fff\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"195\" y1=\"35\" x2=\"320\" y2=\"120\" stroke=\"#B43123\" stroke-width=\"2\"/><rect x=\"70\" y=\"95\" width=\"190\" height=\"110\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.5\"/><circle cx=\"260\" cy=\"95\" r=\"4\" fill=\"#2D70B3\"/><text x=\"160\" y=\"224\" text-anchor=\"middle\" font-size=\"12\">bredd x</text><text x=\"332\" y=\"78\" font-size=\"12\" fill=\"#B43123\">avskuret hörn</text><text x=\"250\" y=\"28\" font-size=\"12\">7 cm</text><text x=\"326\" y=\"82\" font-size=\"12\">5 cm</text></svg></span><p>En så stor rektangulär spegel som möjligt ska skäras ut med nedre vänstra hörnet kvar och det övre högra hörnet på den sneda kanten. Bestäm spegelns bredd.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt origo i glasets nedre vänstra hörn.</p></li><li><p>Den sneda kanten går genom punkterna \\((7,10)\\) och \\((14,5)\\).</p></li><li><p>Dess lutning är</p></li><li><p>\\[\\frac{5-10}{14-7}=-\\frac57,\\]</p></li><li><p>så linjen kan skrivas</p></li><li><p>\\[y=15-\\frac57x.\\]</p></li><li><p>Om spegelns övre högra hörn är \\((x,y)\\) blir arean</p></li><li><p>\\[A(x)=xy=x\\left(15-\\frac57x\\right)=15x-\\frac57x^2.\\]</p></li><li><p>\\[A^{\\prime}(x)=15-\\frac{10}{7}x=0\\Rightarrow x=\\frac{21}{2}=10{,}5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> spegelns bredd ska vara \\(\\boxed{10{,}5\\text{ cm}}\\).</p></div>",
-    "familj": "Rektanglar och trianglar i figurer",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10.5,
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "modellering",
-      "procedur",
-      "resonemang"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Bestäm först ekvationen för den sneda kanten. Ett hörn på spegeln ligger på den linjen, vilket ger höjden som funktion av bredden.</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 4,
-    "spel": true,
-    "kalla": "Inspirerad av NP Ma3c vt 2014, uppgift 25",
-    "omrTidigare": [
-      "extremvardesproblem"
-    ],
-    "familjTidigare": [
-      "Geometrisk optimering med linjevillkor"
-    ]
-  },
+  "id": "3.390",
+  "kap": 3,
+  "omr": "extremvarde_modellering",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "A",
+  "poang": "0/0/4",
+  "t": "<p>Ett rektangulärt spegelglas är 14 cm brett och 10 cm högt. Ett hörn har skurits bort längs en rät linje. På överkanten är den bortskurna sträckan 7 cm och på högerkanten 5 cm.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" role=\"img\" aria-label=\"Rektangulärt spegelglas med avskuret hörn och inskriven rektangel\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"70\" y=\"35\" width=\"250\" height=\"170\" fill=\"#F2F6FB\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"195,35 320,35 320,120\" fill=\"#fff\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"195\" y1=\"35\" x2=\"320\" y2=\"120\" stroke=\"#B43123\" stroke-width=\"2\"/><rect x=\"70\" y=\"79.2\" width=\"190\" height=\"125.8\" fill=\"none\" stroke=\"#2D70B3\" stroke-width=\"2.5\"/><circle cx=\"260\" cy=\"79.2\" r=\"4\" fill=\"#2D70B3\"/><text x=\"160\" y=\"224\" text-anchor=\"middle\" font-size=\"12\">bredd x</text><text x=\"250\" y=\"28\" font-size=\"12\">7 cm</text><text x=\"326\" y=\"82\" font-size=\"12\">5 cm</text><text x=\"35\" y=\"125\" font-size=\"12\">10 cm</text><text x=\"220\" y=\"240\" font-size=\"12\">14 cm</text></svg></span><p>En så stor rektangulär spegel som möjligt ska skäras ut med nedre vänstra hörnet kvar och det övre högra hörnet på den sneda kanten. Bestäm spegelns bredd.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt origo i glasets nedre vänstra hörn.</p></li><li><p>Den sneda kanten går genom punkterna \\((7,10)\\) och \\((14,5)\\).</p></li><li><p>Dess lutning är</p></li><li><p>\\[\\frac{5-10}{14-7}=-\\frac57,\\]</p></li><li><p>så linjen kan skrivas</p></li><li><p>\\[y=15-\\frac57x.\\]</p></li><li><p>Om spegelns övre högra hörn är \\((x,y)\\) blir arean</p></li><li><p>\\[A(x)=xy=x\\left(15-\\frac57x\\right)=15x-\\frac57x^2.\\]</p></li><li><p>\\[A^{\\prime}(x)=15-\\frac{10}{7}x=0\\Rightarrow x=\\frac{21}{2}=10{,}5.\\]</p></li><li><p>Villkoret på hörnet ger \\(7\\le x\\le14\\). Arean är en nedåtvänd parabel, så den stationära punkten \\(x=10{,}5\\) i intervallet ger största möjliga area.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> spegelns bredd ska vara \\(\\boxed{10{,}5\\text{ cm}}\\).</p></div>",
+  "familj": "Rektanglar och trianglar i figurer",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 10.5,
+  "tolerans": 0.01,
+  "självrättning": true,
+  "formaga": [
+    "modellering",
+    "procedur",
+    "resonemang"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Bestäm först ekvationen för den sneda kanten. Ett hörn på spegeln ligger på den linjen, vilket ger höjden som funktion av bredden.</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 4,
+  "spel": true,
+  "kalla": "Inspirerad av NP Ma3c vt 2014, uppgift 25",
+  "omrTidigare": [
+    "extremvardesproblem"
+  ],
+  "familjTidigare": [
+    "Geometrisk optimering med linjevillkor"
+  ]
+},
   {
     "id": "3.391",
     "kap": 3,
@@ -45219,40 +45333,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.400",
-    "kap": 3,
-    "omr": "fler_extremvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "1/2/0",
-    "t": "<p>Ett företag modellerar den genomsnittliga kostnaden per producerad enhet med</p><p>\\[M(x)=\\frac{1800}{x}+20+0{,}02x,\\qquad x&gt;0.\\]</p><p>Bestäm den produktionsnivå \\(x\\) som ger lägst genomsnittlig kostnad.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är</p></li><li><p>\\[M^{\\prime}(x)=-\\frac{1800}{x^2}+0{,}02.\\]</p></li><li><p>Sätt derivatan lika med 0:</p></li><li><p>\\[-\\frac{1800}{x^2}+0{,}02=0\\Rightarrow x^2=90000.\\]</p></li><li><p>Eftersom \\(x&gt;0\\) fås \\(x=300\\).</p></li><li><p>För \\(x&lt;300\\) är derivatan negativ och för \\(x&gt;300\\) positiv, så kostnaden har ett minimum där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=300}\\) enheter.</p></div>",
-    "familj": "Ekonomisk optimering",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 300,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Derivera kostnaden per enhet. Vid ett minimum ska derivatan byta från negativ till positiv.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "extremvardesproblem"
-    ],
-    "familjTidigare": [
-      "Minimera genomsnittskostnad med derivata"
-    ]
-  },
+  "id": "3.400",
+  "kap": 3,
+  "omr": "fler_extremvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "1/2/0",
+  "t": "<p>Ett företag modellerar den genomsnittliga kostnaden per producerad enhet med</p><p>\\[M(x)=\\frac{1800}{x}+20+0{,}02x,\\qquad x&gt;0.\\]</p><p>Bestäm den produktionsnivå \\(x\\) som ger lägst genomsnittlig kostnad.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är</p></li><li><p>\\[M^{\\prime}(x)=-\\frac{1800}{x^2}+0{,}02.\\]</p></li><li><p>Sätt derivatan lika med 0:</p></li><li><p>\\[-\\frac{1800}{x^2}+0{,}02=0\\Rightarrow x^2=90000.\\]</p></li><li><p>Eftersom \\(x&gt;0\\) fås \\(x=300\\).</p></li><li><p>För \\(x&lt;300\\) är derivatan negativ och för \\(x&gt;300\\) positiv, så kostnaden har ett minimum där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=300}\\) enheter.</p></div>",
+  "familj": "Ekonomisk optimering",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 300,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Derivera kostnaden per enhet. Vid ett minimum ska derivatan byta från negativ till positiv.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "extremvardesproblem"
+  ],
+  "familjTidigare": [
+    "Minimera genomsnittskostnad med derivata"
+  ]
+},
   {
     "id": "3.401",
     "kap": 3,
@@ -45763,40 +45877,40 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.414",
-    "kap": 3,
-    "omr": "fler_extremvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "1/2/0",
-    "t": "<p>Kostnaden per dag för att köra en maskin med hastigheten \\(x\\) enheter per timme modelleras av \\(K(x)=0{,}04x^3-2{,}4x^2+60x+500\\) för \\(10\\le x\\le40\\). Bestäm minsta kostnad i intervallet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[K^{\\prime}(x)=0{,}12x^2-4{,}8x+60.\\]</p></li><li><div class=\"facit-berakning\"><p>Andragradaren har ingen reell nollpunkt och är positiv, till exempel är</p><div class=\"facit-matte\">\\[K^{\\prime}(20)=12&gt;0\\].</div></div></li><li><p>Funktionen är därför växande på hela intervallet.</p></li><li><p>Minsta värdet fås vid vänstra ändpunkten:</p></li><li><p>\\[K(10)=900.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{900}\\) kostnadsenheter.</p></div>",
-    "familj": "Ekonomisk optimering",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 900,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Kontrollera först om derivatan kan bli 0. Om funktionen är växande på hela intervallet ligger minimum vid en ändpunkt.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "derivata_tillampningar"
-    ],
-    "familjTidigare": [
-      "Ekonomisk optimering med derivata"
-    ]
-  },
+  "id": "3.414",
+  "kap": 3,
+  "omr": "fler_extremvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "1/2/0",
+  "t": "<p>Kostnaden per dag för att köra en maskin med hastigheten \\(x\\) enheter per timme modelleras av \\(K(x)=0{,}04x^3-2{,}4x^2+60x+500\\) för \\(10\\le x\\le40\\). Bestäm minsta kostnad i intervallet.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[K^{\\prime}(x)=0{,}12x^2-4{,}8x+60.\\]</p></li><li><div class=\"facit-berakning\"><p>Andragradaren har ingen reell nollpunkt och är positiv, till exempel är</p><div class=\"facit-matte\">\\[K^{\\prime}(20)=12&gt;0\\].</div></div></li><li><p>Funktionen är därför växande på hela intervallet.</p></li><li><p>Minsta värdet fås vid vänstra ändpunkten:</p></li><li><p>\\[K(10)=900.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{900}\\) kostnadsenheter.</p></div>",
+  "familj": "Ekonomisk optimering",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 900,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Kontrollera först om derivatan kan bli 0. Om funktionen är växande på hela intervallet ligger minimum vid en ändpunkt.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "derivata_tillampningar"
+  ],
+  "familjTidigare": [
+    "Ekonomisk optimering med derivata"
+  ]
+},
   {
     "id": "3.415",
     "kap": 3,
@@ -46566,51 +46680,51 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.436",
-    "kap": 3,
-    "omr": "fler_extremvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Intäkten från en föreställning beskrivs av \\(I(x)=-2x^2+800x\\), där \\(x\\) är biljettpriset i kronor.</p><p>a) Bestäm det biljettpris som ger maximal intäkt.<br>b) Bestäm den maximala intäkten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[I^{\\prime}(x)=-4x+800\\].</div></div></li><li><p>Sätt \\(I^{\\prime}(x)=0\\): \\(x=200\\).</p></li><li><p>Eftersom \\(I^{\\prime\\prime}(x)=-4&lt;0\\) är det en maximipunkt.</p></li><li><p>Den maximala intäkten är \\(I(200)=80\\,000\\) kr.</p></li></ol></div>",
-    "familj": "Ekonomisk optimering",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      200,
-      80000
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "ledtrad": "<p>Derivera intäktsfunktionen och sätt derivatan lika med 0. Parabeln är nedåtvänd.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "derivata_tillampningar"
-    ],
-    "familjTidigare": [
-      "Ekonomisk optimering med derivata"
-    ]
-  },
+  "id": "3.436",
+  "kap": 3,
+  "omr": "fler_extremvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Intäkten från en föreställning beskrivs av \\(I(x)=-2x^2+800x\\), där \\(x\\) är biljettpriset i kronor.</p><p>a) Bestäm det biljettpris som ger maximal intäkt.<br>b) Bestäm den maximala intäkten.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[I^{\\prime}(x)=-4x+800\\].</div></div></li><li><p>Sätt \\(I^{\\prime}(x)=0\\): \\(x=200\\).</p></li><li><p>Eftersom \\(I^{\\prime\\prime}(x)=-4&lt;0\\) är det en maximipunkt.</p></li><li><p>Den maximala intäkten är \\(I(200)=80\\,000\\) kr.</p></li></ol></div>",
+  "familj": "Ekonomisk optimering",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    200,
+    80000
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "ledtrad": "<p>Derivera intäktsfunktionen och sätt derivatan lika med 0. Parabeln är nedåtvänd.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "derivata_tillampningar"
+  ],
+  "familjTidigare": [
+    "Ekonomisk optimering med derivata"
+  ]
+},
   {
     "id": "3.437",
     "kap": 3,
@@ -47201,50 +47315,50 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.453",
-    "kap": 3,
-    "omr": "fler_extremvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Vinsten från en produkt modelleras av \\(V(x)=-0{,}5x^2+60x-500\\).</p><p>a) Vid vilket \\(x\\)-värde är vinsten störst?<br>b) Hur stor är den största vinsten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V'(x)=-x+60\\]</div></li><li><div class=\"facit-matte\">\\[V'(x)=0\\Rightarrow -x+60=0\\Rightarrow x=60.\\]</div></li><li><div class=\"facit-matte\">\\[V(60)=1300.\\]</div></li><li><p>Eftersom derivatan byter tecken från positiv till negativ vid x=60 får modellen ett maximum där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> maximum är 1300 när x=60.</p></div>",
-    "familj": "Ekonomisk optimering",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      60,
-      1300
-    ],
-    "tolerans": [
-      0,
-      0
-    ],
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "ledtrad": "<p>Derivatan är linjär. Sätt \\(V^{\\prime}(x)=0\\) och sätt sedan in x-värdet i vinstfunktionen.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "omrTidigare": [
-      "derivata_tillampningar"
-    ],
-    "familjTidigare": [
-      "Ekonomisk optimering med derivata"
-    ]
-  },
+  "id": "3.453",
+  "kap": 3,
+  "omr": "fler_extremvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Vinsten från en produkt modelleras av \\(V(x)=-0{,}5x^2+60x-500\\).</p><p>a) Vid vilket \\(x\\)-värde är vinsten störst?<br>b) Hur stor är den största vinsten?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V'(x)=-x+60\\]</div></li><li><div class=\"facit-matte\">\\[V'(x)=0\\Rightarrow -x+60=0\\Rightarrow x=60.\\]</div></li><li><div class=\"facit-matte\">\\[V(60)=1300.\\]</div></li><li><p>Eftersom derivatan byter tecken från positiv till negativ vid x=60 får modellen ett maximum där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> maximum är 1300 när x=60.</p></div>",
+  "familj": "Ekonomisk optimering",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    60,
+    1300
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "ledtrad": "<p>Derivatan är linjär. Sätt \\(V^{\\prime}(x)=0\\) och sätt sedan in x-värdet i vinstfunktionen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "omrTidigare": [
+    "derivata_tillampningar"
+  ],
+  "familjTidigare": [
+    "Ekonomisk optimering med derivata"
+  ]
+},
   {
     "id": "3.454",
     "kap": 2,
@@ -47328,50 +47442,50 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.456",
-    "kap": 3,
-    "omr": "fler_extremvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Bränsleförbrukningen för en bil modelleras i ett visst hastighetsintervall av</p><p>\\[B(v)=0{,}002v^2-0{,}24v+12,\\]</p><p>där \\(v\\) är hastigheten i km/h och \\(B\\) är liter per 100 km.</p><p>a) Vid vilken hastighet är förbrukningen minst?<br>b) Hur stor är den minsta förbrukningen enligt modellen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är</p></li><li><p>\\[B^{\\prime}(v)=0{,}004v-0{,}24.\\]</p></li><li><p>Ur \\(B^{\\prime}(v)=0\\) fås \\(v=60\\).</p></li><li><p>Eftersom andraderivatan \\(B^{\\prime\\prime}(v)=0{,}004&gt;0\\) är detta ett minimum.</p></li><li><p>\\[B(60)=0{,}002\\cdot60^2-0{,}24\\cdot60+12=4{,}8.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{60\\text{ km/h}}\\) och \\(\\boxed{4{,}8\\text{ l/100 km}}\\).</p></div>",
-    "familj": "Optimering i givna modeller",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      60,
-      4.8
-    ],
-    "tolerans": [
-      0,
-      0.01
-    ],
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "ledtrad": "<p>Derivera modellen och bestäm var derivatan är 0. Kontrollera därefter att punkten ger ett minimum.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "omrTidigare": [
-      "derivata_tillampningar"
-    ],
-    "familjTidigare": [
-      "Optimera given modell med derivata"
-    ]
-  },
+  "id": "3.456",
+  "kap": 3,
+  "omr": "fler_extremvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Bränsleförbrukningen för en bil modelleras i ett visst hastighetsintervall av</p><p>\\[B(v)=0{,}002v^2-0{,}24v+12,\\]</p><p>där \\(v\\) är hastigheten i km/h och \\(B\\) är liter per 100 km.</p><p>a) Vid vilken hastighet är förbrukningen minst?<br>b) Hur stor är den minsta förbrukningen enligt modellen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är</p></li><li><p>\\[B^{\\prime}(v)=0{,}004v-0{,}24.\\]</p></li><li><p>Ur \\(B^{\\prime}(v)=0\\) fås \\(v=60\\).</p></li><li><p>Eftersom andraderivatan \\(B^{\\prime\\prime}(v)=0{,}004&gt;0\\) är detta ett minimum.</p></li><li><p>\\[B(60)=0{,}002\\cdot60^2-0{,}24\\cdot60+12=4{,}8.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{60\\text{ km/h}}\\) och \\(\\boxed{4{,}8\\text{ l/100 km}}\\).</p></div>",
+  "familj": "Optimering i givna modeller",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    60,
+    4.8
+  ],
+  "tolerans": [
+    0,
+    0.01
+  ],
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "ledtrad": "<p>Derivera modellen och bestäm var derivatan är 0. Kontrollera därefter att punkten ger ett minimum.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "omrTidigare": [
+    "derivata_tillampningar"
+  ],
+  "familjTidigare": [
+    "Optimera given modell med derivata"
+  ]
+},
   {
     "id": "3.457",
     "kap": 3,
@@ -56260,35 +56374,35 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.05",
-    "kap": 4,
-    "omr": "geometriska_summor",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Beräkna den geometriska summan</p><p>\\[3+6+12+\\cdots\\]</p><p>med totalt 6 termer och kvoten \\(k=2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Identifiera första term, kvot och antal termer</p><div class=\"facit-matte\">\\[a_1=3,\\qquad k=2,\\qquad n=6.\\]</div></li><li><p class=\"facit-rubrik\">Använd summaformeln</p><p>För \\(k\\ne1\\) gäller</p><div class=\"facit-matte\">\\[S_n=a_1\\frac{k^n-1}{k-1}.\\]</div></li><li><p class=\"facit-rubrik\">Sätt in värdena</p><div class=\"facit-matte\">\\[S_6=3\\frac{2^6-1}{2-1}=3\\cdot63=189.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 189.</p></div>",
-    "familj": "Beräkna geometriska summor",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 189,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Identifiera \\(a\\), \\(k\\) och \\(n\\) och använd summaformeln för en geometrisk summa.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "familjTidigare": [
-      "Beräkna och analysera geometriska summor"
-    ]
-  },
+  "id": "4.05",
+  "kap": 4,
+  "omr": "geometriska_summor",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Beräkna den geometriska summan</p><p>\\[3+6+12+\\cdots\\]</p><p>med totalt 6 termer och kvoten \\(k=2\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Identifiera första term, kvot och antal termer</p><div class=\"facit-matte\">\\[a_1=3,\\qquad k=2,\\qquad n=6.\\]</div></li><li><p class=\"facit-rubrik\">Använd summaformeln</p><p>För \\(k\\ne1\\) gäller</p><div class=\"facit-matte\">\\[S_n=a_1\\frac{k^n-1}{k-1}.\\]</div></li><li><p class=\"facit-rubrik\">Sätt in värdena</p><div class=\"facit-matte\">\\[S_6=3\\frac{2^6-1}{2-1}=3\\cdot63=189.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 189.</p></div>",
+  "familj": "Beräkna geometriska summor",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 189,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Identifiera \\(a\\), \\(k\\) och \\(n\\) och använd summaformeln för en geometrisk summa.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "familjTidigare": [
+    "Beräkna och analysera geometriska summor"
+  ]
+},
   {
     "id": "4.06",
     "kap": 4,
@@ -58245,69 +58359,71 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.60",
-    "kap": 4,
-    "omr": "geometriska_summor",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>En geometrisk talföljd har första termen 4 och kvoten 3.</p><p>a) Bestäm den fjärde termen.<br>b) Bestäm summan av de fyra första termerna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[a_4=4\\cdot3^3=108.\\]</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Termerna är \\(4,12,36,108\\), så</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[S_4=160.\\]</p></li></ol></div>",
-    "familj": "Beräkna geometriska summor",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      108,
-      160
-    ],
-    "tolerans": [
-      0,
-      0
-    ],
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "ledtrad": "<p>Skilj på en enskild term \\(a_n\\) och summan \\(S_n\\). Båda bygger på samma första term och kvot.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>En geometrisk talföljd har första termen 4 och kvoten 3.</p><p><div class=\"spel-en-del\">Bestäm den fjärde termen.</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[a_4=4\\cdot3^3=108.\\]</p></li></ol></div></div>",
-        "ledtrad": "<p>Från första till fjärde termen sker tre multiplikationer med kvoten 3.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>En geometrisk talföljd har första termen 4 och kvoten 3.</p><p><div class=\"spel-en-del\">Bestäm summan av de fyra första termerna.</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Termerna är \\(4,12,36,108\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[S_4=160.\\]</p></li></ol></div></div>",
-        "ledtrad": "<p>Frågan gäller summan \\(S_4\\), inte bara den fjärde termen.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "familjTidigare": [
-      "Beräkna och analysera geometriska summor"
-    ]
-  },
+  "id": "4.60",
+  "kap": 4,
+  "omr": "geometriska_summor",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En geometrisk talföljd har första termen 4 och kvoten 3.</p><p>a) Bestäm den fjärde termen.<br>b) Bestäm summan av de fyra första termerna.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[a_4=4\\cdot3^3=108.\\]</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Termerna är \\(4,12,36,108\\), så</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[S_4=160.\\]</p></li></ol></div>",
+  "familj": "Beräkna geometriska summor",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    108,
+    160
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "ledtrad": "<p>Skilj på en enskild term \\(a_n\\) och summan \\(S_n\\). Båda bygger på samma första term och kvot.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>En geometrisk talföljd har första termen 4 och kvoten 3.</p><p><div class=\"spel-en-del\">Bestäm den fjärde termen.</div></p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[a_4=4\\cdot3^3=108.\\]</p></li></ol></div></div>",
+      "ledtrad": "<p>Från första till fjärde termen sker tre multiplikationer med kvoten 3.</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "miniräknare": true
+    },
+    {
+      "etikett": "b",
+      "t": "<p>En geometrisk talföljd har första termen 4 och kvoten 3.</p><p><div class=\"spel-en-del\">Bestäm summan av de fyra första termerna.</div></p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Termerna är \\(4,12,36,108\\).</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[S_4=160.\\]</p></li></ol></div></div>",
+      "ledtrad": "<p>Frågan gäller summan \\(S_4\\), inte bara den fjärde termen.</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "miniräknare": true
+    }
+  ],
+  "familjTidigare": [
+    "Beräkna och analysera geometriska summor"
+  ]
+},
   {
     "id": "4.61",
     "kap": 4,
@@ -61586,66 +61702,68 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.158",
-    "kap": 4,
-    "omr": "geometriska_summor",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p>a) Bestäm kvoten.<br>b) Skriv den sjätte termen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kvoten är</p><div class=\"facit-matte\">\\[k=6/2=3\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a_6=2\\cdot3^5=486\\].</div></li></ol></div></div></div>",
-    "familj": "Geometriska talföljder",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      3,
-      486
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p><div class=\"spel-en-del\">Bestäm kvoten.</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kvoten är</p><div class=\"facit-matte\">\\[k=6/2=3\\].</div></div></li></ol></div></div>",
-        "ledtrad": "<p>Beräkna kvoten mellan två följande termer. Om samma kvot återkommer är följden geometrisk; använd den för att skriva nästa term eller den allmänna termen.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p><div class=\"spel-en-del\">Skriv den sjätte termen.</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a_6=2\\cdot3^5=486\\].</div></li></ol></div></div>",
-        "ledtrad": "<p>Beräkna kvoten mellan två följande termer. Om samma kvot återkommer är följden geometrisk; använd den för att skriva nästa term eller den allmänna termen.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Identifiera första termen a och den konstanta kvoten k innan någon formel används. Om flera termer ska läggas ihop är det summaformeln som behövs; om en enskild framtida term efterfrågas används följdformeln.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "familjTidigare": [
-      "Identifiera och beskriva geometriska talföljder"
-    ]
-  },
+  "id": "4.158",
+  "kap": 4,
+  "omr": "geometriska_summor",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p>a) Bestäm kvoten.<br>b) Skriv den sjätte termen.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kvoten är</p><div class=\"facit-matte\">\\[k=6/2=3\\].</div></div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a_6=2\\cdot3^5=486\\].</div></li></ol></div></div></div>",
+  "familj": "Geometriska talföljder",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    3,
+    486
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p><div class=\"spel-en-del\">Bestäm kvoten.</div></p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kvoten är</p><div class=\"facit-matte\">\\[k=6/2=3\\].</div></div></li></ol></div></div>",
+      "ledtrad": "<p>Beräkna kvoten mellan två följande termer. Om samma kvot återkommer är följden geometrisk; använd den för att skriva nästa term eller den allmänna termen.</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "miniräknare": false
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Följden \\(2,6,18,54,\\ldots\\) är geometrisk.</p><p><div class=\"spel-en-del\">Skriv den sjätte termen.</div></p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a_6=2\\cdot3^5=486\\].</div></li></ol></div></div>",
+      "ledtrad": "<p>Beräkna kvoten mellan två följande termer. Om samma kvot återkommer är följden geometrisk; använd den för att skriva nästa term eller den allmänna termen.</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "miniräknare": true
+    }
+  ],
+  "ledtrad": "<p>Identifiera första termen a och den konstanta kvoten k innan någon formel används. Om flera termer ska läggas ihop är det summaformeln som behövs; om en enskild framtida term efterfrågas används följdformeln.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "familjTidigare": [
+    "Identifiera och beskriva geometriska talföljder"
+  ]
+},
   {
     "id": "4.159",
     "kap": 4,
@@ -62326,37 +62444,37 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.179",
-    "kap": 4,
-    "omr": "geometriska_summor",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "C",
-    "poang": "1/2/0",
-    "t": "<p>En boll släpps från 3,0 m. Varje studs når 60 % av föregående höjd. Hur lång vertikal sträcka har bollen färdats från släppet tills den når marken efter den fjärde studsen? Svara med två decimaler.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"430\" height=\"220\" viewBox=\"0 0 430 220\" role=\"img\" aria-label=\"Studsande boll med avtagande maxhöjd\"><line x1=\"25\" y1=\"190\" x2=\"405\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M55 32 Q90 190 125 92 Q160 190 195 126 Q230 190 265 148 Q300 190 335 162\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"55\" cy=\"32\" r=\"7\" fill=\"currentColor\"/><text x=\"68\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">3,0 m</text><text x=\"220\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">Varje ny höjd = 60 % av föregående</text></svg></span>",
-    "s": "<div class=\"facit-v2\"><p>Först faller bollen 3,0 m till marken. Under de fyra studsar som sedan genomförs når den höjderna 1,8 m, 1,08 m, 0,648 m och 0,3888 m.</p><p>Varje studshöjd räknas två gånger, eftersom bollen både stiger och faller:</p><div class=\"facit-matte\">\\[\\begin{aligned}S&=3+2(1{,}8+1{,}08\\\\&\\qquad+0{,}648+0{,}3888)\\\\&=10{,}8336\\,\\mathrm{m}.\\end{aligned}\\]</div><p>Sträckan är cirka <strong>10,83 m</strong>.</p></div>",
-    "familj": "Geometriska summor i tillämpningar",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10.8336,
-    "tolerans": 0.005,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv först upp höjden efter varje studs. Tänk sedan på att den första sträckan bara går nedåt, medan varje studshöjd därefter passeras en gång uppåt och en gång nedåt.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 3,
-    "spel": true,
-    "familjTidigare": [
-      "Använda geometriska summor i tillämpningar"
-    ],
-    "svarEnhet": "m"
-  },
+  "id": "4.179",
+  "kap": 4,
+  "omr": "geometriska_summor",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "C",
+  "poang": "1/2/0",
+  "t": "<p>En boll släpps från 3,0 m. Varje studs når 60 % av föregående höjd. Hur lång vertikal sträcka har bollen färdats från släppet tills den når marken efter den fjärde studsen? Svara med två decimaler.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"430\" height=\"240\" viewBox=\"0 0 430 240\" role=\"img\" aria-label=\"Schematisk bild av första fallet och 4 hela studsar\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><line x1=\"25\" y1=\"190\" x2=\"405\" y2=\"190\" stroke=\"currentColor\"/><path d=\"M50 40 L50 190 Q90.00 10.00 130.00 190 Q170.00 82.00 210.00 190 Q250.00 125.20 290.00 190 Q330.00 151.12 370.00 190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"50\" cy=\"40\" r=\"5\" fill=\"currentColor\"/><text x=\"60\" y=\"35\" font-size=\"13\">3,0 m</text><text x=\"150\" y=\"25\" font-size=\"13\">Ny höjd: 60 % av föregående</text><text x=\"25\" y=\"224\" font-size=\"12\">Schematisk bild – vågrät placering skiljer studsar åt.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Först faller bollen 3,0 m till marken. Under de fyra studsar som sedan genomförs når den höjderna 1,8 m, 1,08 m, 0,648 m och 0,3888 m.</p><p>Varje studshöjd räknas två gånger, eftersom bollen både stiger och faller:</p><div class=\"facit-matte\">\\[\\begin{aligned}S&=3+2(1{,}8+1{,}08\\\\&\\qquad+0{,}648+0{,}3888)\\\\&=10{,}8336\\,\\mathrm{m}.\\end{aligned}\\]</div><p>Sträckan är cirka <strong>10,83 m</strong>.</p></div>",
+  "familj": "Geometriska summor i tillämpningar",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 10.8336,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Skriv först upp höjden efter varje studs. Tänk sedan på att den första sträckan bara går nedåt, medan varje studshöjd därefter passeras en gång uppåt och en gång nedåt.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "spel": true,
+  "familjTidigare": [
+    "Använda geometriska summor i tillämpningar"
+  ],
+  "svarEnhet": "m"
+},
   {
     "id": "4.180",
     "kap": 4,
@@ -62462,39 +62580,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.183",
-    "kap": 4,
-    "omr": "enhetscirkeln",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "1/2/0",
-    "t": "<p>En vinkel \\(v\\) ligger i andra kvadranten och \\(\\cos v=-\\frac7{25}\\). Bestäm \\(\\sin(180^\\circ-v)\\) exakt utan att bestämma \\(v\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punkt i andra kvadranten\"><circle cx=\"175\" cy=\"145\" r=\"96\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"38\" y1=\"145\" x2=\"320\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"265\" x2=\"175\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"325\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"182\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">y</text><line x1=\"175\" y1=\"145\" x2=\"148.1\" y2=\"52.8\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"148.1\" cy=\"52.8\" r=\"4.5\" fill=\"currentColor\"/><text x=\"156.1\" y=\"45.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">P</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enhetscirkeln ger</p></li><li><p>\\[\\sin^2v=1-\\cos^2v=1-\\frac{49}{625}=\\frac{576}{625}.\\]</p></li><li><div class=\"facit-berakning\"><p>I andra kvadranten är sinus positiv, alltså</p><div class=\"facit-matte\">\\[\\sin v=24/25\\].</div></div></li><li><div class=\"facit-berakning\"><p>Dessutom gäller</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-v)=\\sin v\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{24/25}\\).</p></div>",
-    "familj": "Symmetri och exakta värden i enhetscirkeln",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "uttryck",
-    "rättSvar": "24/25",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Bestäm först \\(\\sin v\\) med enhetscirkeln. Fundera sedan på hur vinklarna \\(v\\) och \\(180^\\circ-v\\) ligger symmetriskt.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 3,
-    "spel": true,
-    "omrTidigare": [
-      "enhetscirkeln_trig"
-    ],
-    "familjTidigare": [
-      "Exakta trigonometriska värden och symmetri i enhetscirkeln"
-    ]
-  },
+  "id": "4.183",
+  "kap": 4,
+  "omr": "enhetscirkeln",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "1/2/0",
+  "t": "<p>En vinkel \\(v\\) ligger i andra kvadranten och \\(\\cos v=-\\frac7{25}\\). Bestäm \\(\\sin(180^\\circ-v)\\) exakt utan att bestämma \\(v\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Punkt i andra kvadranten\"><circle cx=\"175\" cy=\"145\" r=\"96\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><line x1=\"38\" y1=\"145\" x2=\"320\" y2=\"145\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"265\" x2=\"175\" y2=\"25\" stroke=\"currentColor\" stroke-width=\"1.5\"/><text x=\"325\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">x</text><text x=\"182\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"currentColor\">y</text><line x1=\"175\" y1=\"145\" x2=\"148.1\" y2=\"52.8\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"148.1\" cy=\"52.8\" r=\"4.5\" fill=\"currentColor\"/><text x=\"156.1\" y=\"45.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">P</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enhetscirkeln ger</p></li><li><p>\\[\\sin^2v=1-\\cos^2v=1-\\frac{49}{625}=\\frac{576}{625}.\\]</p></li><li><div class=\"facit-berakning\"><p>I andra kvadranten är sinus positiv, alltså</p><div class=\"facit-matte\">\\[\\sin v=24/25\\].</div></div></li><li><div class=\"facit-berakning\"><p>Dessutom gäller</p><div class=\"facit-matte\">\\[\\sin(180^\\circ-v)=\\sin v\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{24/25}\\).</p></div>",
+  "familj": "Symmetri och exakta värden i enhetscirkeln",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "uttryck",
+  "rättSvar": "24/25",
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "uttryck",
+  "ledtrad": "<p>Bestäm först \\(\\sin v\\) med enhetscirkeln. Fundera sedan på hur vinklarna \\(v\\) och \\(180^\\circ-v\\) ligger symmetriskt.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "spel": true,
+  "omrTidigare": [
+    "enhetscirkeln_trig"
+  ],
+  "familjTidigare": [
+    "Exakta trigonometriska värden och symmetri i enhetscirkeln"
+  ]
+},
   {
     "id": "4.184",
     "kap": 4,
@@ -63644,69 +63762,71 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.213",
-    "kap": 4,
-    "omr": "enhetscirkeln",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(25^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4213arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"248.4\" y2=\"106.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"248.4\" cy=\"106.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"260.4\" y=\"97.1\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,91; 0,42)</text><path d=\"M 196 145 L 196 143.3 L 195.8 141.6 L 195.6 140 L 195.3 138.3 L 194.9 136.7 L 194.4 135 L 193.8 133.4 L 193.1 131.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"210.9\" y=\"138.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">25°</text></svg></span><p>Av figuren kan du läsa att \\(\\cos25^\\circ\\approx0{,}91\\) och \\(\\sin25^\\circ\\approx0{,}42\\). Bestäm ungefär a) \\(\\tan25^\\circ\\), b) \\(\\tan205^\\circ\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\tan25^\\circ=\\frac{\\sin25^\\circ}{\\cos25^\\circ}\\approx\\frac{0{,}42}{0{,}91}\\approx0{,}46.\\]</p></li><li><p>Efter ett halvt varv byter både sinus och cosinus tecken, så kvoten är oförändrad:</p></li><li><p>\\[\\tan205^\\circ\\approx0{,}46.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(0{,}46\\), b) \\(0{,}46\\).</p></div>",
-    "familj": "Symmetri och exakta värden i enhetscirkeln",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      0.46,
-      0.46
-    ],
-    "tolerans": [
-      0.02,
-      0.02
-    ],
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "flera_delar",
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(25^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4213arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"248.4\" y2=\"106.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"248.4\" cy=\"106.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"260.4\" y=\"97.1\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,91; 0,42)</text><path d=\"M 196 145 L 196 143.3 L 195.8 141.6 L 195.6 140 L 195.3 138.3 L 194.9 136.7 L 194.4 135 L 193.8 133.4 L 193.1 131.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"210.9\" y=\"138.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">25°</text></svg></span><p>Av figuren kan du läsa att \\(\\cos25^\\circ\\approx0{,}91\\) och \\(\\sin25^\\circ\\approx0{,}42\\). Bestäm ungefär \\(\\tan25^\\circ\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan25^\\circ=\\dfrac{\\sin25^\\circ}{\\cos25^\\circ}\\approx\\dfrac{0{,}42}{0{,}91}\\approx0{,}46\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}46\\)</p></div>",
-        "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(25^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4213arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"248.4\" y2=\"106.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"248.4\" cy=\"106.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"260.4\" y=\"97.1\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,91; 0,42)</text><path d=\"M 196 145 L 196 143.3 L 195.8 141.6 L 195.6 140 L 195.3 138.3 L 194.9 136.7 L 194.4 135 L 193.8 133.4 L 193.1 131.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"210.9\" y=\"138.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">25°</text></svg></span><p>Av figuren kan du läsa att \\(\\cos25^\\circ\\approx0{,}91\\) och \\(\\sin25^\\circ\\approx0{,}42\\). Bestäm ungefär \\(\\tan205^\\circ\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[205^\\circ=180^\\circ+25^\\circ\\].</div></li><li><div class=\"facit-berakning\"><p>Efter ett halvt varv byter både sinus och cosinus tecken, så kvoten blir densamma:</p><div class=\"facit-matte\">\\[\\tan205^\\circ=\\tan25^\\circ\\approx\\dfrac{0{,}42}{0{,}91}\\approx0{,}46\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}46\\)</p></div>",
-        "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ],
-    "ledtrad": "<p>Använd \\(\\tan v=\\sin v/\\cos v\\). Jämför sedan tecknen för sinus och cosinus efter ett halvt varv.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "enhetscirkeln_trig"
-    ],
-    "familjTidigare": [
-      "Beräkna tangens med enhetscirkeln"
-    ]
-  },
+  "id": "4.213",
+  "kap": 4,
+  "omr": "enhetscirkeln",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(25^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4213arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"248.4\" y2=\"106.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"248.4\" cy=\"106.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"260.4\" y=\"97.1\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,91; 0,42)</text><path d=\"M 196 145 L 196 143.3 L 195.8 141.6 L 195.6 140 L 195.3 138.3 L 194.9 136.7 L 194.4 135 L 193.8 133.4 L 193.1 131.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"210.9\" y=\"138.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">25°</text></svg></span><p>Av figuren kan du läsa att \\(\\cos25^\\circ\\approx0{,}91\\) och \\(\\sin25^\\circ\\approx0{,}42\\). Bestäm ungefär a) \\(\\tan25^\\circ\\), b) \\(\\tan205^\\circ\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\tan25^\\circ=\\frac{\\sin25^\\circ}{\\cos25^\\circ}\\approx\\frac{0{,}42}{0{,}91}\\approx0{,}46.\\]</p></li><li><p>Efter ett halvt varv byter både sinus och cosinus tecken, så kvoten är oförändrad:</p></li><li><p>\\[\\tan205^\\circ\\approx0{,}46.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(0{,}46\\), b) \\(0{,}46\\).</p></div>",
+  "familj": "Symmetri och exakta värden i enhetscirkeln",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0.46,
+    0.46
+  ],
+  "tolerans": [
+    0.02,
+    0.02
+  ],
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "flera_delar",
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(25^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4213arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"248.4\" y2=\"106.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"248.4\" cy=\"106.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"260.4\" y=\"97.1\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,91; 0,42)</text><path d=\"M 196 145 L 196 143.3 L 195.8 141.6 L 195.6 140 L 195.3 138.3 L 194.9 136.7 L 194.4 135 L 193.8 133.4 L 193.1 131.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"210.9\" y=\"138.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">25°</text></svg></span><p>Av figuren kan du läsa att \\(\\cos25^\\circ\\approx0{,}91\\) och \\(\\sin25^\\circ\\approx0{,}42\\). Bestäm ungefär \\(\\tan25^\\circ\\).</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan25^\\circ=\\dfrac{\\sin25^\\circ}{\\cos25^\\circ}\\approx\\dfrac{0{,}42}{0{,}91}\\approx0{,}46\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}46\\)</p></div>",
+      "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "miniräknare": true
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Figuren visar en enhetscirkel där en punkt och vinkeln \\(25^\\circ\\) är markerade.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Enhetscirkel\"><rect x=\"0\" y=\"0\" width=\"360\" height=\"300\" fill=\"#fff\" /><defs><marker id=\"uc4213arr\" markerWidth=\"8\" markerHeight=\"8\" refX=\"6.5\" refY=\"4\" orient=\"auto\"><path d=\"M0,0 L8,4 L0,8 z\" fill=\"#2B2527\" /></marker></defs><circle cx=\"165\" cy=\"145\" r=\"92\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.9\" /><line x1=\"38\" y1=\"145\" x2=\"309\" y2=\"145\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><line x1=\"165\" y1=\"266\" x2=\"165\" y2=\"24\" stroke=\"#2B2527\" stroke-width=\"1.8\" marker-end=\"url(#uc4213arr)\" /><text x=\"314\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">x</text><text x=\"151\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2B2527\">y</text><circle cx=\"165\" cy=\"145\" r=\"3.7\" fill=\"#2B2527\" /><line x1=\"165\" y1=\"145\" x2=\"248.4\" y2=\"106.1\" stroke=\"#5C575E\" stroke-width=\"1.7\" /><circle cx=\"248.4\" cy=\"106.1\" r=\"4.3\" fill=\"#2B2527\" /><text x=\"260.4\" y=\"97.1\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">(0,91; 0,42)</text><path d=\"M 196 145 L 196 143.3 L 195.8 141.6 L 195.6 140 L 195.3 138.3 L 194.9 136.7 L 194.4 135 L 193.8 133.4 L 193.1 131.9\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"1.45\" stroke-linecap=\"round\" /><text x=\"210.9\" y=\"138.8\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2B2527\">25°</text></svg></span><p>Av figuren kan du läsa att \\(\\cos25^\\circ\\approx0{,}91\\) och \\(\\sin25^\\circ\\approx0{,}42\\). Bestäm ungefär \\(\\tan205^\\circ\\).</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[205^\\circ=180^\\circ+25^\\circ\\].</div></li><li><div class=\"facit-berakning\"><p>Efter ett halvt varv byter både sinus och cosinus tecken, så kvoten blir densamma:</p><div class=\"facit-matte\">\\[\\tan205^\\circ=\\tan25^\\circ\\approx\\dfrac{0{,}42}{0{,}91}\\approx0{,}46\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}46\\)</p></div>",
+      "ledtrad": "<p>Placera vinkeln i rätt kvadrant. På enhetscirkeln är \\(\\cos v\\) x-koordinaten och \\(\\sin v\\) y-koordinaten; tecknen följer därför direkt av kvadranten.</p>",
+      "niva": "C",
+      "poang": "0/1/0",
+      "miniräknare": true
+    }
+  ],
+  "ledtrad": "<p>Använd \\(\\tan v=\\sin v/\\cos v\\). Jämför sedan tecknen för sinus och cosinus efter ett halvt varv.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "enhetscirkeln_trig"
+  ],
+  "familjTidigare": [
+    "Beräkna tangens med enhetscirkeln"
+  ]
+},
   {
     "id": "4.214",
     "kap": 4,
@@ -64241,37 +64361,37 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.229",
-    "kap": 4,
-    "omr": "geometriska_summor",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "C",
-    "poang": "1/2/0",
-    "t": "<p>En boll studsar så att den når 80 % av föregående höjd. Den släpps från 2,5 m. Hur lång sammanlagd sträcka har bollen färdats när den träffar marken för fjärde gången? Svara med två decimaler.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"430\" height=\"220\" viewBox=\"0 0 430 220\" role=\"img\" aria-label=\"Studsande boll med avtagande maxhöjd\"><line x1=\"25\" y1=\"190\" x2=\"405\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M55 32 Q90 190 125 92 Q160 190 195 126 Q230 190 265 148 Q300 190 335 162\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"55\" cy=\"32\" r=\"7\" fill=\"currentColor\"/><text x=\"68\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">2,5 m</text><text x=\"220\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"currentColor\">Varje ny höjd = 80 % av föregående</text></svg></span>",
-    "s": "<div class=\"facit-v2\"><p>Den första markträffen kommer efter fallet på 2,5 m. Före den fjärde markträffen hinner bollen sedan genomföra tre hela studsar.</p><p>Studshöjderna är 2,5 gånger 0,8, 0,8² respektive 0,8³. Varje höjd bidrar med en väg upp och en väg ned:</p><div class=\"facit-matte\">\\[\\begin{aligned}S&=2{,}5+2\\cdot2{,}5(0{,}8\\\\&\\qquad+0{,}8^2+0{,}8^3)\\\\&=2{,}5+5\\cdot1{,}952\\\\&=12{,}26\\,\\mathrm{m}.\\end{aligned}\\]</div><p>Den sammanlagda sträckan är <strong>12,26 m</strong>.</p></div>",
-    "familj": "Geometriska summor i tillämpningar",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 12.260000000000002,
-    "tolerans": 0.005,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Det första fallet räknas en gång. Därefter räknas varje studshöjd både uppåt och nedåt innan nästa markträff.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 3,
-    "spel": true,
-    "familjTidigare": [
-      "Använda geometriska summor i tillämpningar"
-    ],
-    "svarEnhet": "m"
-  },
+  "id": "4.229",
+  "kap": 4,
+  "omr": "geometriska_summor",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "C",
+  "poang": "1/2/0",
+  "t": "<p>En boll studsar så att den når 80 % av föregående höjd. Den släpps från 2,5 m. Hur lång sammanlagd sträcka har bollen färdats när den träffar marken för fjärde gången? Svara med två decimaler.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"430\" height=\"240\" viewBox=\"0 0 430 240\" role=\"img\" aria-label=\"Schematisk bild av första fallet och 3 hela studsar\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><line x1=\"25\" y1=\"190\" x2=\"405\" y2=\"190\" stroke=\"currentColor\"/><path d=\"M50 40 L50 190 Q103.33 -50.00 156.67 190 Q210.00 -2.00 263.33 190 Q316.67 36.40 370.00 190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.5\"/><circle cx=\"50\" cy=\"40\" r=\"5\" fill=\"currentColor\"/><text x=\"60\" y=\"35\" font-size=\"13\">2,5 m</text><text x=\"150\" y=\"25\" font-size=\"13\">Ny höjd: 80 % av föregående</text><text x=\"25\" y=\"224\" font-size=\"12\">Schematisk bild – vågrät placering skiljer studsar åt.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Den första markträffen kommer efter fallet på 2,5 m. Före den fjärde markträffen hinner bollen sedan genomföra tre hela studsar.</p><p>Studshöjderna är 2,5 gånger 0,8, 0,8² respektive 0,8³. Varje höjd bidrar med en väg upp och en väg ned:</p><div class=\"facit-matte\">\\[\\begin{aligned}S&=2{,}5+2\\cdot2{,}5(0{,}8\\\\&\\qquad+0{,}8^2+0{,}8^3)\\\\&=2{,}5+5\\cdot1{,}952\\\\&=12{,}26\\,\\mathrm{m}.\\end{aligned}\\]</div><p>Den sammanlagda sträckan är <strong>12,26 m</strong>.</p></div>",
+  "familj": "Geometriska summor i tillämpningar",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 12.260000000000002,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Det första fallet räknas en gång. Därefter räknas varje studshöjd både uppåt och nedåt innan nästa markträff.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "spel": true,
+  "familjTidigare": [
+    "Använda geometriska summor i tillämpningar"
+  ],
+  "svarEnhet": "m"
+},
   {
     "id": "4.230",
     "kap": 4,
@@ -64491,35 +64611,35 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.237",
-    "kap": 4,
-    "omr": "geometriska_summor",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Beräkna den geometriska summan</p><p>\\[4+12+36+108+324.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[a=4\\],</div></div></li><li><p>\\(k=3\\) och \\(n=5\\).</p></li><li><p>\\[S_5=4\\frac{3^5-1}{3-1}=484.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{484}\\).</p></div>",
-    "familj": "Beräkna geometriska summor",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 484,
-    "tolerans": 0,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Kvoten mellan två intilliggande termer är 3. Använd summaformeln eller addera de fem termerna.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Beräkna och analysera geometriska summor"
-    ]
-  },
+  "id": "4.237",
+  "kap": 4,
+  "omr": "geometriska_summor",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Beräkna den geometriska summan</p><p>\\[4+12+36+108+324.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[a=4\\],</div></div></li><li><p>\\(k=3\\) och \\(n=5\\).</p></li><li><p>\\[S_5=4\\frac{3^5-1}{3-1}=484.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{484}\\).</p></div>",
+  "familj": "Beräkna geometriska summor",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 484,
+  "tolerans": 0,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Kvoten mellan två intilliggande termer är 3. Använd summaformeln eller addera de fem termerna.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Beräkna och analysera geometriska summor"
+  ]
+},
   {
     "id": "4.238",
     "kap": 4,
@@ -64641,45 +64761,45 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.241",
-    "kap": 4,
-    "omr": "enhetscirkeln",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Undersök graferna till \\(y=\\sin v\\) och \\(y=\\cos v\\) för \\(0^\\circ\\le v\\le360^\\circ\\). Bestäm de vinklar där funktionerna har samma värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skärningspunkterna ger \\(\\boxed{v=45^\\circ}\\) och \\(\\boxed{v=225^\\circ}\\).</p></li></ol></div>",
-    "familj": "Symmetri och exakta värden i enhetscirkeln",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      45,
-      225
-    ],
-    "tolerans": [
-      0,
-      0
-    ],
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "ledtrad": "<p>På enhetscirkeln betyder \\(\\sin v=\\cos v\\) att punktens x- och y-koordinat är lika.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "flera_delar",
-    "omrTidigare": [
-      "enhetscirkeln_trig"
-    ],
-    "familjTidigare": [
-      "Exakta trigonometriska värden och symmetri i enhetscirkeln"
-    ]
-  },
+  "id": "4.241",
+  "kap": 4,
+  "omr": "enhetscirkeln",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Undersök graferna till \\(y=\\sin v\\) och \\(y=\\cos v\\) för \\(0^\\circ\\le v\\le360^\\circ\\). Bestäm de vinklar där funktionerna har samma värde.</p>",
+  "s": "<div class=\"facit-v2\"><p>Rita sinus- och cosinuskurvan med grader som vinkelmått i intervallet \\(0^\\circ\\le v\\le360^\\circ\\). De har samma funktionsvärde där graferna skär varandra.</p><p>Skärningarna ligger vid \\(v=45^\\circ\\) och \\(v=225^\\circ\\). I första fallet är båda värdena \\(\\sqrt2/2\\), i det andra \\(-\\sqrt2/2\\).</p><p><strong>Svar:</strong> \\(45^\\circ\\) och \\(225^\\circ\\).</p></div>",
+  "familj": "Symmetri och exakta värden i enhetscirkeln",
+  "geogebra": true,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    45,
+    225
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "ledtrad": "<p>På enhetscirkeln betyder \\(\\sin v=\\cos v\\) att punktens x- och y-koordinat är lika.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "flera_delar",
+  "omrTidigare": [
+    "enhetscirkeln_trig"
+  ],
+  "familjTidigare": [
+    "Exakta trigonometriska värden och symmetri i enhetscirkeln"
+  ]
+},
   {
     "id": "4.242",
     "kap": 4,
@@ -66492,35 +66612,35 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.297",
-    "kap": 4,
-    "omr": "geometriska_summor",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>En geometrisk summa har första termen \\(a=4\\), kvoten \\(k=2\\) och \\(n=6\\) termer. Bestäm summan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[S_6=4\\frac{2^6-1}{2-1}=4(64-1)=252.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{252}\\).</p></div>",
-    "familj": "Beräkna geometriska summor",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 252,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "numeriskt",
-    "ledtrad": "<p>Sätt \\(a=4\\), \\(k=2\\) och \\(n=6\\) i summaformeln.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "familjTidigare": [
-      "Beräkna och analysera geometriska summor"
-    ]
-  },
+  "id": "4.297",
+  "kap": 4,
+  "omr": "geometriska_summor",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En geometrisk summa har första termen \\(a=4\\), kvoten \\(k=2\\) och \\(n=6\\) termer. Bestäm summan.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[S_6=4\\frac{2^6-1}{2-1}=4(64-1)=252.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{252}\\).</p></div>",
+  "familj": "Beräkna geometriska summor",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 252,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "numeriskt",
+  "ledtrad": "<p>Sätt \\(a=4\\), \\(k=2\\) och \\(n=6\\) i summaformeln.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "familjTidigare": [
+    "Beräkna och analysera geometriska summor"
+  ]
+},
   {
     "id": "4.298",
     "kap": 4,
@@ -80065,69 +80185,69 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.819",
-    "kap": 3,
-    "omr": "integralberakning",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Bestäm arean mellan graferna \\(y=4\\) och \\(y=x^2\\) för \\(0\\le x\\le2\\). Avrunda till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På området ligger \\(y=4\\) över \\(y=x^2\\).</p></li><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[\\int_0^2(4-x^2)\\,dx=[4x-\\frac{x^3}{3}]_0^2=\\frac{16}{3}\\approx5,33\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,33 areaenheter.</p></div>",
-    "familj": "Area mellan två grafer",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5.33,
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "ledtrad": "<p>Integrera övre funktionen minus den undre funktionen.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "integraler"
-    ]
-  },
+  "id": "3.819",
+  "kap": 3,
+  "omr": "integralberakning",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Bestäm arean mellan graferna \\(y=4\\) och \\(y=x^2\\) för \\(0\\le x\\le2\\). Avrunda till två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På området ligger \\(y=4\\) över \\(y=x^2\\).</p></li><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[\\int_0^2(4-x^2)\\,dx=[4x-\\frac{x^3}{3}]_0^2=\\frac{16}{3}\\approx5,33\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,33 areaenheter.</p></div>",
+  "familj": "Area mellan två grafer",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 5.333333333333333,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Integrera övre funktionen minus den undre funktionen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "integraler"
+  ]
+},
   {
-    "id": "3.820",
-    "kap": 3,
-    "omr": "integralberakning",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Bestäm arean mellan graferna \\(y=2x\\) och \\(y=x^2\\) för \\(0\\le x\\le2\\). Avrunda till två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(0&lt;x&lt;2\\) ligger \\(2x\\) över \\(x^2\\).</p></li><li><div class=\"facit-berakning\"><p>Arean blir</p><div class=\"facit-matte\">\\[\\int_0^2(2x-x^2)\\,dx=[x^2-\\frac{x^3}{3}]_0^2=\\frac43\\approx1,33\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,33 areaenheter.</p></div>",
-    "familj": "Area mellan två grafer",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 1.33,
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "ledtrad": "<p>Bestäm först vilken graf som ligger över den andra på området.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "integraler"
-    ]
-  },
+  "id": "3.820",
+  "kap": 3,
+  "omr": "integralberakning",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Bestäm arean mellan graferna \\(y=2x\\) och \\(y=x^2\\) för \\(0\\le x\\le2\\). Avrunda till två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(0&lt;x&lt;2\\) ligger \\(2x\\) över \\(x^2\\).</p></li><li><div class=\"facit-berakning\"><p>Arean blir</p><div class=\"facit-matte\">\\[\\int_0^2(2x-x^2)\\,dx=[x^2-\\frac{x^3}{3}]_0^2=\\frac43\\approx1,33\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,33 areaenheter.</p></div>",
+  "familj": "Area mellan två grafer",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.3333333333333333,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Bestäm först vilken graf som ligger över den andra på området.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "integraler"
+  ]
+},
   {
     "id": "3.821",
     "kap": 3,
@@ -82433,39 +82553,39 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt"
   },
   {
-    "id": "3.887",
-    "kap": 3,
-    "omr": "integralberakning",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Beräkna  \\(\\int_0^8 7x\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{7}2x^2\\).</p></li><li><div class=\"facit-berakning\"><p>Värdet blir</p><div class=\"facit-matte\">\\[7\\cdot 8^2/2=224\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 224</p></div>",
-    "familj": "Integralkalkylens huvudsats",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 224,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "integraler"
-    ],
-    "familjTidigare": [
-      "Tolka integral av en derivata från graf"
-    ]
-  },
+  "id": "3.887",
+  "kap": 3,
+  "omr": "integralberakning",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Beräkna  \\(\\int_0^8 7x\\,dx\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> En primitiv funktion är \\(\\frac{7}2x^2\\).</p></li><li><div class=\"facit-berakning\"><p>Värdet blir</p><div class=\"facit-matte\">\\[7\\cdot 8^2/2=224\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 224</p></div>",
+  "familj": "Integralkalkylens huvudsats",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 224,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Bestäm en primitiv funktion och sätt in övre och undre gränsen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "integraler"
+  ],
+  "familjTidigare": [
+    "Tolka integral av en derivata från graf"
+  ]
+},
   {
     "id": "3.888",
     "kap": 3,
@@ -82762,41 +82882,41 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt"
   },
   {
-    "id": "3.896",
-    "kap": 3,
-    "omr": "storsta_minsta",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Ett företags vinst per dag är \\(V(x)=-2x^2+40x-50\\) kr när \\(x\\) varor tillverkas. Bestäm den största möjliga vinsten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V'(x)=-4x+40=0\\Rightarrow x=10\\].</div></li><li><p>\\(V(10)=-2\\cdot10^2+40\\cdot10-50=150\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 150 kr</p></div>",
-    "familj": "Extremvärden och värdemängd",
-    "geogebra": false,
-    "miniräknare": false,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "ledtrad": "<p>Bestäm först det antal varor som ger störst vinst.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": [
-      "extremvardesproblem"
-    ],
-    "familjTidigare": [
-      "Geometrisk optimering med sammansatt figur"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 150,
-    "tolerans": null,
-    "svarFormat": "numeriskt",
-    "svarEnhet": "kr"
-  },
+  "id": "3.896",
+  "kap": 3,
+  "omr": "storsta_minsta",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Ett företags vinst per dag är \\(V(x)=-2x^2+40x-50\\) kr när \\(x\\) varor tillverkas. Bestäm den största möjliga vinsten.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V'(x)=-4x+40=0\\Rightarrow x=10\\].</div></li><li><p>\\(V(10)=-2\\cdot10^2+40\\cdot10-50=150\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 150 kr</p></div>",
+  "familj": "Extremvärden och värdemängd",
+  "geogebra": false,
+  "miniräknare": true,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "ledtrad": "<p>Bestäm först det antal varor som ger störst vinst.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "omrTidigare": [
+    "extremvardesproblem"
+  ],
+  "familjTidigare": [
+    "Geometrisk optimering med sammansatt figur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 150,
+  "tolerans": null,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "kr"
+},
   {
     "id": "3.897",
     "kap": 3,
@@ -88679,35 +88799,35 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.432",
-    "kap": 4,
-    "omr": "linjar_optimering",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Målfunktionen är \\(Z=2x+1y\\). Bestäm \\(Z\\) i punkten \\((1,2)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[Z=2\\cdot1+1\\cdot2=4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
-    "familj": "Grafisk optimering",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Optimera en målfunktion grafiskt"
-    ]
-  },
+  "id": "4.432",
+  "kap": 4,
+  "omr": "linjar_optimering",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Målfunktionen är \\(Z=2x+y\\). Bestäm \\(Z\\) i punkten \\((1,2)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[Z=2\\cdot1+1\\cdot2=4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
+  "familj": "Grafisk optimering",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Optimera en målfunktion grafiskt"
+  ]
+},
   {
     "id": "4.433",
     "kap": 4,
@@ -88838,35 +88958,35 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.437",
-    "kap": 4,
-    "omr": "linjar_optimering",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Målfunktionen är \\(Z=2x+5y\\). Bestäm \\(Z\\) i punkten \\((1,1)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[Z=2\\cdot1+5\\cdot1=7\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
-    "familj": "Ställa upp optimeringsproblem",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 7,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Ställa upp och lösa linjära optimeringsproblem"
-    ]
-  },
+  "id": "4.437",
+  "kap": 4,
+  "omr": "linjar_optimering",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Målfunktionen är \\(Z=2x+5y\\). Bestäm \\(Z\\) i punkten \\((1,1)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[Z=2\\cdot1+5\\cdot1=7\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
+  "familj": "Ställa upp optimeringsproblem",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 7,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Ställa upp och lösa linjära optimeringsproblem"
+  ]
+},
   {
     "id": "4.438",
     "kap": 4,
@@ -89129,35 +89249,35 @@ window.BANKMATO1 = [
     "svarEnhet": "°"
   },
   {
-    "id": "4.444",
-    "kap": 4,
-    "omr": "linjar_optimering",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Målfunktionen är \\(Z=3x+1y\\). Bestäm \\(Z\\) i punkten \\((3,1)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[Z=3\\cdot3+1\\cdot1=10\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
-    "familj": "Fördjupad linjär optimering",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Fördjupad linjär optimering och modellanalys"
-    ]
-  },
+  "id": "4.444",
+  "kap": 4,
+  "omr": "linjar_optimering",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Målfunktionen är \\(Z=3x+y\\). Bestäm \\(Z\\) i punkten \\((3,1)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[Z=3\\cdot3+1\\cdot1=10\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
+  "familj": "Fördjupad linjär optimering",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Fördjupad linjär optimering och modellanalys"
+  ]
+},
   {
     "id": "4.445",
     "kap": 4,
@@ -89437,125 +89557,125 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.452",
-    "kap": 4,
-    "omr": "linjar_optimering",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Målfunktionen är \\(Z=2x+2y\\). Bestäm \\(Z\\) i punkten \\((1,1)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[Z=2\\cdot1+2\\cdot1=4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
-    "familj": "Fördjupad linjär optimering",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Analysera parameter i linjär optimering"
-    ]
-  },
+  "id": "4.452",
+  "kap": 4,
+  "omr": "linjar_optimering",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Målfunktionen är \\(Z=2x+2y\\). Vid en viss punkt är \\(Z=8\\) och \\(y=1\\). Bestäm punktens x-koordinat.</p>",
+  "s": "<div class=\"facit-v2\"><p>Sätt in de kända värdena: \\(8=2x+2\\cdot1\\). Då är \\(2x=6\\), alltså \\(x=3\\).</p></div>",
+  "familj": "Fördjupad linjär optimering",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Sätt in \\(Z=8\\) och \\(y=1\\). Vilken ekvation får du för \\(x\\)?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Analysera parameter i linjär optimering"
+  ]
+},
   {
-    "id": "4.453",
-    "kap": 4,
-    "omr": "linjar_optimering",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Målfunktionen är \\(Z=2x+2y\\). Det tillåtna området har hörnpunkterna \\((0,0)\\), \\((0, 3)\\) och \\((5, 0)\\). Vilket är det största värdet av \\(Z\\) i dessa hörnpunkter?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Beräkna målfunktionen i hörnpunkterna: Z(0, 0)=0; Z(0, 3)=6; Z(5, 0)=10.</p></li><li><p>Största värdet är 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
-    "familj": "Fördjupad linjär optimering",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>I linjär optimering räcker det att jämföra målfunktionen i hörnpunkterna.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Analysera parameter i linjär optimering"
-    ]
-  },
+  "id": "4.453",
+  "kap": 4,
+  "omr": "linjar_optimering",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Målfunktionen är \\(Z=2x+2y\\). Det tillåtna området har hörnpunkterna \\((0,0)\\), \\((0, 3)\\) och \\((5, 0)\\). Vilket är det största värdet av \\(Z\\) i dessa hörnpunkter?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"230\" viewBox=\"0 0 340 230\" role=\"img\" aria-label=\"Triangulärt tillåtet område\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><polygon points=\"55,185 55,80 230,185\" fill=\"#2D70B3\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M35 185 H310 M55 205 V35\" fill=\"none\" stroke=\"currentColor\"/><text x=\"313\" y=\"190\" font-size=\"14\">x</text><text x=\"60\" y=\"30\" font-size=\"14\">y</text><text x=\"15\" y=\"203\" font-size=\"13\">(0, 0)</text><text x=\"12\" y=\"70\" font-size=\"13\">(0, 3)</text><text x=\"230\" y=\"205\" text-anchor=\"middle\" font-size=\"13\">(5, 0)</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Beräkna målfunktionen i hörnpunkterna: Z(0, 0)=0; Z(0, 3)=6; Z(5, 0)=10.</p></li><li><p>Största värdet är 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
+  "familj": "Fördjupad linjär optimering",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>I linjär optimering räcker det att jämföra målfunktionen i hörnpunkterna.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Analysera parameter i linjär optimering"
+  ]
+},
   {
-    "id": "4.454",
-    "kap": 4,
-    "omr": "linjar_optimering",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Målfunktionen är \\(Z=4x+1y\\). Bestäm \\(Z\\) i punkten \\((3,3)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[Z=4\\cdot3+1\\cdot3=15\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15</p></div>",
-    "familj": "Fördjupad linjär optimering",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 15,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Jämföra målfunktioner i linjär optimering"
-    ]
-  },
+  "id": "4.454",
+  "kap": 4,
+  "omr": "linjar_optimering",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Målfunktionen är \\(Z=4x+y\\). Hur mycket större är målfunktionens värde i punkten \\((3,3)\\) än i punkten \\((2,6)\\)?</p>",
+  "s": "<div class=\"facit-v2\"><p>I den första punkten är värdet \\(4\\cdot3+3=15\\). I den andra är det \\(4\\cdot2+6=14\\).</p><p>Skillnaden är \\(15-14=1\\). Det större y-värdet ger alltså inte automatiskt det större målfunktionsvärdet.</p></div>",
+  "familj": "Fördjupad linjär optimering",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Beräkna målfunktionens värde i båda punkterna och jämför.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Jämföra målfunktioner i linjär optimering"
+  ]
+},
   {
-    "id": "4.455",
-    "kap": 4,
-    "omr": "linjar_optimering",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Målfunktionen är \\(Z=4x+5y\\). Det tillåtna området har hörnpunkterna \\((0,0)\\), \\((0, 3)\\) och \\((6, 0)\\). Vilket är det största värdet av \\(Z\\) i dessa hörnpunkter?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Beräkna målfunktionen i hörnpunkterna: Z(0, 0)=0; Z(0, 3)=15; Z(6, 0)=24.</p></li><li><p>Största värdet är 24.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24</p></div>",
-    "familj": "Fördjupad linjär optimering",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 24,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>I linjär optimering räcker det att jämföra målfunktionen i hörnpunkterna.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Jämföra målfunktioner i linjär optimering"
-    ]
-  },
+  "id": "4.455",
+  "kap": 4,
+  "omr": "linjar_optimering",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Målfunktionen är \\(Z=4x+5y\\). Det tillåtna området har hörnpunkterna \\((0,0)\\), \\((0, 3)\\) och \\((6, 0)\\). Vilket är det största värdet av \\(Z\\) i dessa hörnpunkter?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"230\" viewBox=\"0 0 340 230\" role=\"img\" aria-label=\"Triangulärt tillåtet område\" style=\"color:#243247;background:#fff;max-width:100%;height:auto\"><polygon points=\"55,185 55,80 265,185\" fill=\"#2D70B3\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"2\"/><path d=\"M35 185 H310 M55 205 V35\" fill=\"none\" stroke=\"currentColor\"/><text x=\"313\" y=\"190\" font-size=\"14\">x</text><text x=\"60\" y=\"30\" font-size=\"14\">y</text><text x=\"15\" y=\"203\" font-size=\"13\">(0, 0)</text><text x=\"12\" y=\"70\" font-size=\"13\">(0, 3)</text><text x=\"265\" y=\"205\" text-anchor=\"middle\" font-size=\"13\">(6, 0)</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Beräkna målfunktionen i hörnpunkterna: Z(0, 0)=0; Z(0, 3)=15; Z(6, 0)=24.</p></li><li><p>Största värdet är 24.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24</p></div>",
+  "familj": "Fördjupad linjär optimering",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 24,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>I linjär optimering räcker det att jämföra målfunktionen i hörnpunkterna.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Jämföra målfunktioner i linjär optimering"
+  ]
+},
   {
     "id": "4.456",
     "kap": 4,
@@ -89617,35 +89737,35 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.458",
-    "kap": 4,
-    "omr": "linjar_optimering",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Målfunktionen är \\(Z=3x+5y\\). Bestäm \\(Z\\) i punkten \\((2,3)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"190\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Tillåtet område i ett koordinatsystem\"><line x1=\"45\" y1=\"160\" x2=\"285\" y2=\"160\" stroke=\"currentColor\"/><line x1=\"55\" y1=\"170\" x2=\"55\" y2=\"25\" stroke=\"currentColor\"/><polygon points=\"70,145 70,80 165,45 245,145\" fill=\"currentColor\" fill-opacity=\"0.10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><circle cx=\"70\" cy=\"80\" r=\"3\" fill=\"currentColor\"/><circle cx=\"165\" cy=\"45\" r=\"3\" fill=\"currentColor\"/><circle cx=\"245\" cy=\"145\" r=\"3\" fill=\"currentColor\"/><text x=\"288\" y=\"164\" fill=\"currentColor\" font-size=\"12\">x</text><text x=\"45\" y=\"25\" fill=\"currentColor\" font-size=\"12\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong></p><div class=\"facit-matte\">\\[Z=3\\cdot2+5\\cdot3=21\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21</p></div>",
-    "familj": "Ställa upp optimeringsproblem",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 21,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Sätt in punktens x- och y-värde i målfunktionen.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Formulera bivillkor i linjär optimering"
-    ]
-  },
+  "id": "4.458",
+  "kap": 4,
+  "omr": "linjar_optimering",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Målfunktionen är \\(Z=3x+5y\\). När \\(x\\) ökar med 1 minskar samtidigt \\(y\\) med 1. Bestäm förändringen i \\(Z\\), det vill säga det nya värdet minus det gamla.</p>",
+  "s": "<div class=\"facit-v2\"><p>Ökningen av \\(x\\) bidrar med \\(+3\\) till målfunktionen. Minskningen av \\(y\\) bidrar med \\(-5\\).</p><p>Den sammanlagda förändringen är \\(3-5=-2\\). Målfunktionen minskar alltså med 2.</p></div>",
+  "familj": "Ställa upp optimeringsproblem",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": -2,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Hur mycket bidrar var och en av förändringarna med till \\(3x+5y\\)?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Formulera bivillkor i linjär optimering"
+  ]
+},
   {
     "id": "4.461",
     "kap": 4,
@@ -90024,39 +90144,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.537",
-    "kap": 1,
-    "omr": "algebra_polynom",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Förenkla \\(4x+3x-2\\). Vilken koefficient får \\(x\\) i det förenklade uttrycket?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Samla x-termerna:</p><div class=\"facit-matte\">\\[4x+3x=(7)x\\].</div></div></li><li><p>Koefficienten är 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
-    "familj": "Förenkla, utveckla och räkna med potenser",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 7,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Samla termer av samma slag.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "polynom"
-    ],
-    "familjTidigare": [
-      "Förenkla polynomuttryck"
-    ]
-  },
+  "id": "1.537",
+  "kap": 1,
+  "omr": "algebra_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Förenkla \\(4x+3x-2\\). Vilken koefficient får \\(x\\) i det förenklade uttrycket?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Samla x-termerna:</p><div class=\"facit-matte\">\\[4x+3x=(7)x\\].</div></div></li><li><p>Koefficienten är 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
+  "familj": "Förenkla, utveckla och räkna med potenser",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 7,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Samla termer av samma slag.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "polynom"
+  ],
+  "familjTidigare": [
+    "Förenkla polynomuttryck"
+  ]
+},
   {
     "id": "1.538",
     "kap": 1,
@@ -90092,39 +90212,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.539",
-    "kap": 1,
-    "omr": "forkorta_rationella",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Uttrycket \\(\\frac{x^2-4}{x-2}\\) kan förkortas när \\(x\\neq 2\\). Vilket värde får det för \\(x=2\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Faktorisera täljaren: \\((x-2)(x+2)\\).</p></li><li><p>Efter förkortning återstår \\(x+2\\).</p></li><li><p>För \\(x=2\\) blir värdet 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
-    "familj": "Förkorta rationella uttryck",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Faktorisera differensen av två kvadrater och förkorta den gemensamma faktorn.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "rationella_uttryck"
-    ],
-    "familjTidigare": [
-      "Faktorisera och förkorta rationellt uttryck"
-    ]
-  },
+  "id": "1.539",
+  "kap": 1,
+  "omr": "forkorta_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>För \\(x\\ne2\\) kan \\(\\frac{x^2-4}{x-2}\\) förenklas till \\(x+2\\). Vad gäller för <strong>det ursprungliga uttrycket</strong> när \\(x=2\\)?</p><p>A. Värdet är 0.<br>B. Värdet är 4.<br>C. Uttrycket är inte definierat.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid \\(x=2\\) blir nämnaren \\(x-2=0\\). Division med noll är inte definierad.</p><p>Förkortningen till \\(x+2\\) gäller bara för \\(x\\ne2\\). Att det nya uttrycket får värdet 4 vid \\(x=2\\) ger inte originaluttrycket ett värde där.</p><p class=\"facit-svar\"><strong>Svar:</strong> C. Uttrycket är inte definierat.</p></div>",
+  "familj": "Förkorta rationella uttryck",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "val",
+  "rättSvar": "C",
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Kontrollera nämnaren i originaluttrycket innan du använder den förkortade formen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "svarFormat": "val",
+  "omrTidigare": [
+    "rationella_uttryck"
+  ],
+  "familjTidigare": [
+    "Faktorisera och förkorta rationellt uttryck"
+  ]
+},
   {
     "id": "2.748",
     "kap": 2,
@@ -91402,39 +91522,39 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt"
   },
   {
-    "id": "1.542",
-    "kap": 1,
-    "omr": "algebra_polynom",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Förenkla \\(5x+x-2\\). Vilken koefficient får \\(x\\) i det förenklade uttrycket?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Samla x-termerna:</p><div class=\"facit-matte\">\\[5x+x=(6)x\\].</div></div></li><li><p>Koefficienten är 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
-    "familj": "Förenkla, utveckla och räkna med potenser",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 6,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Samla termer av samma slag.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "polynom"
-    ],
-    "familjTidigare": [
-      "Förenkla potenser"
-    ]
-  },
+  "id": "1.542",
+  "kap": 1,
+  "omr": "algebra_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Förenkla \\(5x-(x-2)\\). Vilken koefficient får \\(x\\) i det förenklade uttrycket?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Minustecknet framför parentesen byter tecken på båda termerna: \\(5x-(x-2)=5x-x+2=4x+2\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
+  "familj": "Förenkla, utveckla och räkna med potenser",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Ta först bort parentesen och samla sedan termer av samma slag.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "polynom"
+  ],
+  "familjTidigare": [
+    "Förenkla potenser"
+  ]
+},
   {
     "id": "1.543",
     "kap": 1,
@@ -92713,39 +92833,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.556",
-    "kap": 1,
-    "omr": "algebra_polynom",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Förenkla \\(3x+2x-2\\). Vilken koefficient får \\(x\\) i det förenklade uttrycket?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Samla x-termerna:</p><div class=\"facit-matte\">\\[3x+2x=(5)x\\].</div></div></li><li><p>Koefficienten är 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
-    "familj": "Förenkla, utveckla och räkna med potenser",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Samla termer av samma slag.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "polynom"
-    ],
-    "familjTidigare": [
-      "Förenkla potensuttryck"
-    ]
-  },
+  "id": "1.556",
+  "kap": 1,
+  "omr": "algebra_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Förenkla \\(3(x+2)-2x\\). Vilken koefficient får \\(x\\) i det förenklade uttrycket?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Multiplicera in 3: \\(3(x+2)-2x=3x+6-2x=x+6\\). Koefficienten framför \\(x\\) är 1 även när ettan inte skrivs ut.</p><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
+  "familj": "Förenkla, utveckla och räkna med potenser",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Ta först bort parentesen och samla sedan termer av samma slag.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "polynom"
+  ],
+  "familjTidigare": [
+    "Förenkla potensuttryck"
+  ]
+},
   {
     "id": "1.581",
     "kap": 1,
@@ -93152,36 +93272,36 @@ window.BANKMATO1 = [
     "svarsstruktur": "mängd"
   },
   {
-    "id": "1.560",
-    "kap": 1,
-    "omr": "polynom",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Bestäm graden av polynomet \\(P(x)=4x^2-2x+5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Högsta exponenten på \\(x\\) är 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
-    "familj": "Polynombegrepp, grad och värden",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Polynomets grad är den högsta exponent som förekommer.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Polynomets grad"
-    ]
-  },
+  "id": "1.560",
+  "kap": 1,
+  "omr": "polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Bestäm graden av polynomet \\(P(x)=4x^2-2x+5\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> Högsta exponenten på \\(x\\) är 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2</p></div>",
+  "familj": "Polynombegrepp, grad och värden",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Polynomets grad är den högsta exponent som förekommer.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Polynomets grad"
+  ]
+},
   {
     "id": "1.574",
     "kap": 1,
@@ -93648,39 +93768,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.565",
-    "kap": 1,
-    "omr": "polynomekvationer",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Polynomet \\(P(x)=x^2-6x+9\\) har två heltalsnollställen. Bestäm det största nollstället.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Faktorisera:</p><div class=\"facit-matte\">\\[P(x)=(x-3)(x-3)\\].</div></div></li><li><p>Det största nollstället är 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
-    "familj": "Lösa polynomekvationer",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Sök två tal vars produkt är konstanttermen och vars summa är koefficienten framför x med ombytt tecken.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "polynom"
-    ],
-    "familjTidigare": [
-      "Variant: parameter och antal nollställen"
-    ]
-  },
+  "id": "1.565",
+  "kap": 1,
+  "omr": "polynomekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Bestäm nollstället till polynomet \\(P(x)=x^2-6x+9\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kvadreringsregeln ger \\(x^2-6x+9=(x-3)^2\\).</p><p>En kvadrat är noll precis när uttrycket i parentesen är noll. Alltså är \\(x-3=0\\), så \\(x=3\\).</p><p>Det är ett dubbelt nollställe, men bara ett unikt x-värde.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\).</p></div>",
+  "familj": "Lösa polynomekvationer",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Kan polynomet skrivas som en kvadrat?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "polynom"
+  ],
+  "familjTidigare": [
+    "Variant: parameter och antal nollställen"
+  ]
+},
   {
     "id": "2.776",
     "kap": 3,

@@ -42315,105 +42315,110 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "2.186",
-    "kap": 3,
-    "omr": "forandringshastigheter",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "C",
-    "poang": "0/3/0",
-    "miniräknare": true,
-    "geogebra": true,
-    "t": "<p>En hög med sand behåller formen av en kon där höjden hela tiden är tre gånger basradien, alltså \\(h=3r\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"260\" viewBox=\"0 0 390 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kon med höjden h och basradien r\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<path d=\"M185 35 L95 205 L275 205 Z\" fill=\"#F4EFE2\" stroke=\"#8B7655\" stroke-width=\"2\"/>\n<ellipse cx=\"185\" cy=\"205\" rx=\"90\" ry=\"20\" fill=\"#EFE4C7\" stroke=\"#8B7655\" stroke-width=\"2\"/>\n<line x1=\"185\" y1=\"35\" x2=\"185\" y2=\"205\" stroke=\"#5C575E\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n\n<line x1=\"185\" y1=\"205\" x2=\"270\" y2=\"205\" stroke=\"#268FA3\" stroke-width=\"2\"/>\n<path d=\"M270 205 l-9 -5 v10 z\" fill=\"#268FA3\"/>\n<text x=\"226\" y=\"195\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"195\" y=\"123\" font-family=\"sans-serif\" font-size=\"14\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">h = 3r</text><text x=\"195\" y=\"123\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#5C575E\">h = 3r</text></svg></span><p>Sand tillförs med 0,12 m³/min. Bestäm hur snabbt basradien ökar när \\(r=0{,}80\\) m.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Första steget:</strong> Skriv volymen som en funktion av \\(r\\).</p></li><li><p>Konens volym är</p></li><li><p>\\[V=\\frac{\\pi r^2h}{3}.\\]</p></li><li><p>Eftersom \\(h=3r\\) får vi</p></li><li><p>\\[V=\\frac{\\pi r^2(3r)}{3}=\\pi r^3.\\]</p></li><li><p>Därför</p></li><li><p>\\[\\frac{dV}{dr}=3\\pi r^2.\\]</p></li><li><p><strong>Kedjeregeln från formelbladet</strong> ger</p></li><li><p>\\[\\frac{dV}{dt}=\\frac{dV}{dr}\\frac{dr}{dt}.\\]</p></li><li><p>Vid \\(r=0{,}80\\) m:</p></li><li><p>\\[0{,}12=3\\pi(0,80)^2\\frac{dr}{dt}=1{,}92\\pi\\frac{dr}{dt}.\\]</p></li><li><p>\\[\\frac{dr}{dt}=\\frac{0{,}12}{1{,}92\\pi}=\\frac{0{,}0625}{\\pi}\\approx0{,}0199\\text{ m/min}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Basradien ökar med ungefär \\(\\boxed{2{,}0\\text{ cm/min}}\\).</strong></p></div>",
-    "familj": "Samband mellan förändringshastigheter",
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
-    "självrättning": true,
-    "svarFormat": "numeriskt",
-    "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 2,
-    "omrTidigare": [
-      "tillampningar_derivata"
-    ]
-  },
+  "id": "2.186",
+  "kap": 3,
+  "omr": "forandringshastigheter",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/3/0",
+  "miniräknare": true,
+  "geogebra": true,
+  "t": "<p>En hög med sand behåller formen av en kon där höjden hela tiden är tre gånger basradien, alltså \\(h=3r\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"260\" viewBox=\"0 0 390 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kon med höjden h och basradien r\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<path d=\"M185 35 L95 205 L275 205 Z\" fill=\"#F4EFE2\" stroke=\"#8B7655\" stroke-width=\"2\"/>\n<ellipse cx=\"185\" cy=\"205\" rx=\"90\" ry=\"20\" fill=\"#EFE4C7\" stroke=\"#8B7655\" stroke-width=\"2\"/>\n<line x1=\"185\" y1=\"35\" x2=\"185\" y2=\"205\" stroke=\"#5C575E\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n\n<line x1=\"185\" y1=\"205\" x2=\"270\" y2=\"205\" stroke=\"#268FA3\" stroke-width=\"2\"/>\n<path d=\"M270 205 l-9 -5 v10 z\" fill=\"#268FA3\"/>\n<text x=\"226\" y=\"195\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"195\" y=\"123\" font-family=\"sans-serif\" font-size=\"14\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">h = 3r</text><text x=\"195\" y=\"123\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#5C575E\">h = 3r</text></svg></span><p>Sand tillförs med 0,12 m³/min. Bestäm hur snabbt basradien ökar när \\(r=0{,}80\\) m.</p><p>Svara i m/min med fyra decimaler.</p>",
+  "s": "<div class=\"facit-v2\"><p>Eftersom \\(h=3r\\) är konens volym \\(V=\\pi r^2h/3=\\pi r^3\\). Derivera med avseende på tiden:</p><p>\\[\\frac{dV}{dt}=3\\pi r^2\\frac{dr}{dt}.\\]</p><p>Vid \\(r=0{,}80\\) m får vi \\[\\frac{dr}{dt}=\\frac{0{,}12}{3\\pi\\cdot0{,}80^2}\\approx0{,}0199\\text{ m/min}.\\]</p><p><strong>Svar:</strong> 0,0199 m/min, vilket motsvarar cirka 1,99 cm/min. Tiden mäts i minuter.</p></div>",
+  "familj": "Samband mellan förändringshastigheter",
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.01989436788648691,
+  "tolerans": 5e-05,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
+  "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "omrTidigare": [
+    "tillampningar_derivata"
+  ],
+  "svarEnhet": "m/min"
+},
   {
-    "id": "2.187",
-    "kap": 3,
-    "omr": "forandringshastigheter",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "C",
-    "poang": "1/1/0",
-    "miniräknare": true,
-    "geogebra": true,
-    "t": "<p>Ett radarsystem söker av ett cirkelformat område. Sökningens radie ökar med 0,40 km/min.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"180\" cy=\"116\" r=\"76\" fill=\"#EAF4E8\" stroke=\"#5C7D58\" stroke-width=\"2.2\"/>\n<circle cx=\"180\" cy=\"116\" r=\"3.5\" fill=\"#2B2527\"/>\n<line x1=\"180\" y1=\"116\" x2=\"250\" y2=\"86\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M250 86 l-10 1 5 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"92\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"180\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">cirkelns storlek förändras med tiden</text>\n</svg></span><p>När radien är 6,0 km:</p><p>a) bestäm \\(dA/dr\\),<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) bestäm hur snabbt det avsökta området ökar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[A=\\pi r^2\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{dA}{dr}=2\\pi r.\\]</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(r=6,0\\) km:</p></li><li><p>\\[\\boxed{\\frac{dA}{dr}=12\\pi\\text{ km}}.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kedjeregeln från formelbladet</strong> ger</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{dA}{dt}=\\frac{dA}{dr}\\frac{dr}{dt}=12\\pi\\cdot0{,}40=\\boxed{4{,}8\\pi\\text{ km}^2/\\text{min}}\\approx15{,}1\\text{ km}^2/\\text{min}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
-    "familj": "Samband mellan förändringshastigheter",
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "12*pi",
-      "4.8*pi"
-    ],
-    "tolerans": [
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck"
-    ],
-    "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett radarsystem söker av ett cirkelformat område. Sökningens radie ökar med 0,40 km/min.</p><p>När radien är 6,0 km:</p><span class=\"fig\"><svg aria-label=\"Cirkel med radien r markerad\" height=\"230\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 390 230\" width=\"390\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"228\" rx=\"10\" stroke=\"#E4E3E6\" width=\"388\" x=\"1\" y=\"1\"></rect>\n<circle cx=\"180\" cy=\"116\" fill=\"#EAF4E8\" r=\"76\" stroke=\"#5C7D58\" stroke-width=\"2.2\"></circle>\n<circle cx=\"180\" cy=\"116\" fill=\"#2B2527\" r=\"3.5\"></circle>\n<line stroke=\"#268FA3\" stroke-width=\"2.2\" x1=\"180\" x2=\"250\" y1=\"116\" y2=\"86\"></line>\n<path d=\"M250 86 l-10 1 5 8 z\" fill=\"#268FA3\"></path>\n<text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"14\" x=\"216\" y=\"92\">r</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"180\" y=\"214\">cirkelns storlek förändras med tiden</text>\n</svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>bestäm \\(dA/dr\\),</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[A=\\pi r^2\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{dA}{dr}=2\\pi r.\\]</p></li><li><p>Vid \\(r=6,0\\) km:</p></li><li><p>\\[\\boxed{\\frac{dA}{dr}=12\\pi\\text{ km}}.\\]</p></li></ol></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>bestäm hur snabbt det avsökta området ökar.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[A=\\pi r^2\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kedjeregeln från formelbladet ger</p></li><li><p>\\[\\frac{dA}{dt}=\\frac{dA}{dr}\\frac{dr}{dt}=12\\pi\\cdot0{,}40=\\boxed{4{,}8\\pi\\text{ km}^2/\\text{min}}\\approx15{,}1\\text{ km}^2/\\text{min}.\\]</p></li></ol></div></div>",
-        "niva": "C",
-        "traningsniva": 3,
-        "arbetsinsats": 1
-      }
-    ],
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "omrTidigare": [
-      "tillampningar_derivata"
-    ]
-  },
+  "id": "2.187",
+  "kap": 3,
+  "omr": "forandringshastigheter",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "1/1/0",
+  "miniräknare": true,
+  "geogebra": true,
+  "t": "<p>Ett radarsystem söker av ett cirkelformat område. Sökningens radie ökar med 0,40 km/min.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"180\" cy=\"116\" r=\"76\" fill=\"#EAF4E8\" stroke=\"#5C7D58\" stroke-width=\"2.2\"/>\n<circle cx=\"180\" cy=\"116\" r=\"3.5\" fill=\"#2B2527\"/>\n<line x1=\"180\" y1=\"116\" x2=\"250\" y2=\"86\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M250 86 l-10 1 5 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"92\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"180\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">cirkelns storlek förändras med tiden</text>\n</svg></span><p>När radien är 6,0 km:</p><p>a) Bestäm \\(dA/dr\\),<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm hur snabbt det avsökta området ökar.</p><p>Svara med en decimal: i km i a) och i km²/min i b).</p>",
+  "s": "<div class=\"facit-v2\"><strong>a)</strong><div class=\"facit-v2\"><p>Cirkelns area är \\(A=\\pi r^2\\). Derivering med avseende på radien ger \\(dA/dr=2\\pi r\\).</p><p>Vid \\(r=6{,}0\\) km är \\(dA/dr=12\\pi\\approx37{,}7\\) km. Enheten är km²/km = km.</p></div><strong>b)</strong><div class=\"facit-v2\"><p>Använd \\(A=\\pi r^2\\) och kedjeregeln:</p><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p><p>Vid \\(r=6{,}0\\) km och \\(dr/dt=0{,}40\\) km/min blir ökningen \\(4{,}8\\pi\\approx15{,}1\\) km²/min.</p></div></div>",
+  "familj": "Samband mellan förändringshastigheter",
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    37.69911184307752,
+    15.079644737231007
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
+  "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+  "spelDelning": "deluppgifter",
+  "spelIntro": "<p>Ett radarsystem söker av ett cirkelformat område. Sökningens radie ökar med 0,40 km/min.</p><p>När radien är 6,0 km:</p><span class=\"fig\"><svg aria-label=\"Cirkel med radien r markerad\" height=\"230\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 390 230\" width=\"390\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"228\" rx=\"10\" stroke=\"#E4E3E6\" width=\"388\" x=\"1\" y=\"1\"></rect>\n<circle cx=\"180\" cy=\"116\" fill=\"#EAF4E8\" r=\"76\" stroke=\"#5C7D58\" stroke-width=\"2.2\"></circle>\n<circle cx=\"180\" cy=\"116\" fill=\"#2B2527\" r=\"3.5\"></circle>\n<line stroke=\"#268FA3\" stroke-width=\"2.2\" x1=\"180\" x2=\"250\" y1=\"116\" y2=\"86\"></line>\n<path d=\"M250 86 l-10 1 5 8 z\" fill=\"#268FA3\"></path>\n<text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"14\" x=\"216\" y=\"92\">r</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"180\" y=\"214\">cirkelns storlek förändras med tiden</text>\n</svg></span>",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "<p>Bestäm \\(dA/dr\\) när radien är 6,0 km. Svara i km med en decimal.</p>",
+      "s": "<div class=\"facit-v2\"><p>Cirkelns area är \\(A=\\pi r^2\\). Derivering med avseende på radien ger \\(dA/dr=2\\pi r\\).</p><p>Vid \\(r=6{,}0\\) km är \\(dA/dr=12\\pi\\approx37{,}7\\) km. Enheten är km²/km = km.</p></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "fraga": "<p>Bestäm hur snabbt det avsökta områdets area ökar när radien är 6,0 km. Svara i km²/min med en decimal.</p>",
+      "s": "<div class=\"facit-v2\"><p>Använd \\(A=\\pi r^2\\) och kedjeregeln:</p><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p><p>Vid \\(r=6{,}0\\) km och \\(dr/dt=0{,}40\\) km/min blir ökningen \\(4{,}8\\pi\\approx15{,}1\\) km²/min.</p></div>",
+      "niva": "C",
+      "traningsniva": 3,
+      "arbetsinsats": 1
+    }
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "omrTidigare": [
+    "tillampningar_derivata"
+  ],
+  "svarEnhet": [
+    "km",
+    "km²/min"
+  ]
+},
   {
     "id": "2.188",
     "kap": 3,
@@ -42585,66 +42590,70 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "2.206",
-    "kap": 3,
-    "omr": "forandringshastigheter",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "miniräknare": true,
-    "geogebra": true,
-    "t": "<p>Radien i en cirkelformad oljefläck ökar med 0,6 m/min. Bestäm hur snabbt arean ökar när radien är 5 m.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"230\" viewBox=\"0 0 360 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med markerad radie\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"175\" cy=\"115\" r=\"72\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"175\" y1=\"115\" x2=\"247\" y2=\"115\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"209\" y=\"105\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">r</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Derivatan beskriver lokal förändring.</p></li><li><p>I en tillämpning måste därför den fysikaliska eller geometriska storheten först skrivas som en funktion innan ett nollställe eller en förändringshastighet tolkas.</p></li><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[A=\\pi r^2\\].</div></div></li><li><p>Kedjeregeln ger</p></li><li><p>\\[\\frac{dA}{dt}=\\frac{dA}{dr}\\frac{dr}{dt}=2\\pi r\\cdot0{,}6.\\]</p></li><li><p>När \\(r=5\\): \\(dA/dt=2\\pi\\cdot5\\cdot0{,}6=\\boxed{6\\pi\\text{ m}^2/\\text{min}}\\).</p></li></ol></div>",
-    "familj": "Samband mellan förändringshastigheter",
-    "formaga": [
-      "procedur",
-      "modellering",
-      "resonemang"
-    ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "omrTidigare": [
-      "tillampningar_derivata"
-    ]
-  },
+  "id": "2.206",
+  "kap": 3,
+  "omr": "forandringshastigheter",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "miniräknare": true,
+  "geogebra": true,
+  "t": "<p>Radien i en cirkelformad oljefläck ökar med 0,6 m/min. Bestäm hur snabbt arean ökar när radien är 5 m.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"230\" viewBox=\"0 0 360 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med markerad radie\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"175\" cy=\"115\" r=\"72\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"175\" y1=\"115\" x2=\"247\" y2=\"115\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"209\" y=\"105\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">r</text></svg></span><p>Svara i m²/min med en decimal.</p>",
+  "s": "<div class=\"facit-v2\"><p>Arean är \\(A=\\pi r^2\\). Kedjeregeln ger \\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p><p>Sätt in \\(r=5\\) m och \\(dr/dt=0{,}6\\) m/min:</p><p>\\[\\frac{dA}{dt}=2\\pi\\cdot5\\cdot0{,}6=6\\pi.\\]</p><p><strong>Svar:</strong> Arean ökar med cirka 18,8 m²/min.</p></div>",
+  "familj": "Samband mellan förändringshastigheter",
+  "formaga": [
+    "procedur",
+    "modellering",
+    "resonemang"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 18.84955592153876,
+  "tolerans": 0.05,
+  "självrättning": true,
+  "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
+  "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "omrTidigare": [
+    "tillampningar_derivata"
+  ],
+  "svarEnhet": "m²/min",
+  "svarFormat": "numeriskt"
+},
   {
-    "id": "2.211",
-    "kap": 3,
-    "omr": "forandringshastigheter",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "miniräknare": true,
-    "geogebra": true,
-    "t": "<p>Volymen av ett klot är \\(V=4\\pi r^3/3\\). Radien växer med 0,2 cm/s. Bestäm hur snabbt volymen ökar när \\(r=3\\) cm.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"230\" viewBox=\"0 0 360 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Klot med markerad radie\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"175\" cy=\"115\" r=\"72\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><ellipse cx=\"175\" cy=\"115\" rx=\"72\" ry=\"22\" fill=\"none\" stroke=\"#A7B1B7\" stroke-dasharray=\"5 4\"/><line x1=\"175\" y1=\"115\" x2=\"237\" y2=\"79\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"211\" y=\"91\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">r</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Derivatan beskriver lokal förändring.</p></li><li><p>I en tillämpning måste därför den fysikaliska eller geometriska storheten först skrivas som en funktion innan ett nollställe eller en förändringshastighet tolkas.</p></li><li><div class=\"facit-berakning\"><p>Kedjeregeln ger</p><div class=\"facit-matte\">\\[dV/dt=(dV/dr)(dr/dt)\\].</div></div></li><li><p>Eftersom \\(dV/dr=4\\pi r^2\\) blir</p></li><li><p>\\[\\frac{dV}{dt}=4\\pi(3)^2\\cdot0{,}2=\\boxed{7{,}2\\pi\\text{ cm}^3/\\text{s}}.\\]</p></li></ol></div>",
-    "familj": "Samband mellan förändringshastigheter",
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "omrTidigare": [
-      "tillampningar_derivata"
-    ]
-  },
+  "id": "2.211",
+  "kap": 3,
+  "omr": "forandringshastigheter",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "miniräknare": true,
+  "geogebra": true,
+  "t": "<p>Volymen av ett klot är \\(V=4\\pi r^3/3\\). Radien växer med 0,2 cm/s. Bestäm hur snabbt volymen ökar när \\(r=3\\) cm.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"230\" viewBox=\"0 0 360 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Klot med markerad radie\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><circle cx=\"175\" cy=\"115\" r=\"72\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><ellipse cx=\"175\" cy=\"115\" rx=\"72\" ry=\"22\" fill=\"none\" stroke=\"#A7B1B7\" stroke-dasharray=\"5 4\"/><line x1=\"175\" y1=\"115\" x2=\"237\" y2=\"79\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"211\" y=\"91\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">r</text></svg></span><p>Svara i cm³/s med en decimal.</p>",
+  "s": "<div class=\"facit-v2\"><p>Derivera volymen med avseende på radien: \\(dV/dr=4\\pi r^2\\). Multiplicera med radiens förändringshastighet:</p><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p><p>Vid \\(r=3\\) cm blir det \\(4\\pi\\cdot3^2\\cdot0{,}2=7{,}2\\pi\\).</p><p><strong>Svar:</strong> Volymen ökar med cirka 22,6 cm³/s.</p></div>",
+  "familj": "Samband mellan förändringshastigheter",
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 22.61946710584651,
+  "tolerans": 0.05,
+  "självrättning": true,
+  "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
+  "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "omrTidigare": [
+    "tillampningar_derivata"
+  ],
+  "svarEnhet": "cm³/s",
+  "svarFormat": "numeriskt"
+},
   {
     "id": "2.212",
     "kap": 3,
@@ -42955,36 +42964,37 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "2.237",
-    "kap": 3,
-    "omr": "forandringshastigheter",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "C",
-    "poang": "0/3/0",
-    "miniräknare": true,
-    "geogebra": true,
-    "t": "<p>En konformad sandhög behåller hela tiden samma form: radien är hälften av höjden. Sand fylls på så att volymen ökar med 0,030 m³/min.</p><p>Bestäm hur snabbt högens höjd ökar när höjden är 1,5 m.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Formelbladet:</strong> En kons volym är</p><div class=\"facit-matte\">\\[V=\\pi r^2h/3\\].</div></div></li><li><p>Eftersom \\(r=h/2\\) kan volymen först skrivas enbart som funktion av \\(h\\):</p></li><li><p>\\[V(h)=\\frac{\\pi(h/2)^2h}{3}=\\frac{\\pi h^3}{12}.\\]</p></li><li><p>Med kedjeregeln:</p></li><li><p>\\[\\frac{dV}{dt}=\\frac{dV}{dh}\\frac{dh}{dt}=\\frac{\\pi h^2}{4}\\frac{dh}{dt}.\\]</p></li><li><div class=\"facit-berakning\"><p>När</p><div class=\"facit-matte\">\\[h=1,5\\]:</div></div></li><li><p>\\[0{,}030=\\frac{\\pi(1,5)^2}{4}\\frac{dh}{dt}.\\]</p></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[dh/dt=0{,}120/(2,25\\pi)\\approx\\boxed{0{,}0170\\text{ m/min}}\\].</div></div></li></ol></div>",
-    "familj": "Samband mellan förändringshastigheter",
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.017,
-    "tolerans": null,
-    "självrättning": true,
-    "svarFormat": "numeriskt",
-    "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 2,
-    "omrTidigare": [
-      "tillampningar_derivata"
-    ]
-  },
+  "id": "2.237",
+  "kap": 3,
+  "omr": "forandringshastigheter",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/3/0",
+  "miniräknare": true,
+  "geogebra": true,
+  "t": "<p>En konformad sandhög behåller hela tiden samma form: radien är hälften av höjden. Sand fylls på så att volymen ökar med 0,030 m³/min.</p><p>Bestäm hur snabbt högens höjd ökar när höjden är 1,5 m.</p><p>Svara i m/min med fyra decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Formelbladet:</strong> En kons volym är</p><div class=\"facit-matte\">\\[V=\\pi r^2h/3\\].</div></div></li><li><p>Eftersom \\(r=h/2\\) kan volymen först skrivas enbart som funktion av \\(h\\):</p></li><li><p>\\[V(h)=\\frac{\\pi(h/2)^2h}{3}=\\frac{\\pi h^3}{12}.\\]</p></li><li><p>Med kedjeregeln:</p></li><li><p>\\[\\frac{dV}{dt}=\\frac{dV}{dh}\\frac{dh}{dt}=\\frac{\\pi h^2}{4}\\frac{dh}{dt}.\\]</p></li><li><div class=\"facit-berakning\"><p>När</p><div class=\"facit-matte\">\\[h=1,5\\]:</div></div></li><li><p>\\[0{,}030=\\frac{\\pi(1,5)^2}{4}\\frac{dh}{dt}.\\]</p></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[dh/dt=0{,}120/(2,25\\pi)\\approx\\boxed{0{,}0170\\text{ m/min}}\\].</div></div></li></ol></div><div class=\"facit-v2\"><p><strong>Svar:</strong> 0,0170 m/min, vilket motsvarar cirka 1,70 cm/min. Tiden mäts i minuter.</p></div>",
+  "familj": "Samband mellan förändringshastigheter",
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.0169765272631355,
+  "tolerans": 5e-05,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
+  "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "omrTidigare": [
+    "tillampningar_derivata"
+  ],
+  "svarEnhet": "m/min"
+},
   {
     "id": "2.242",
     "kap": 3,
@@ -44750,89 +44760,122 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "2.78",
-    "kap": 3,
-    "omr": "kurvor_asymptoter",
-    "kurs": [
-      "2c"
+  "id": "2.78",
+  "kap": 3,
+  "omr": "kurvor_asymptoter",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "miniräknare": true,
+  "geogebra": true,
+  "t": "<p>Bestäm båda asymptoternas ekvationer för varje funktion.</p><p>a) \\(f(x)=2+\\frac{3}{x-1}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\frac{2x+5}{x+2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=x-1+\\frac{4}{x}\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> En lodrät asymptot uppstår där nämnaren går mot 0.</p></li><li><p>För stora \\(|x|\\) undersöker vi vilken enklare funktion som skillnaden mot grafen närmar sig.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x=1\\) gör nämnaren noll och \\(3/(x-1)\\to0\\) för stora \\(|x|\\).</p></li><li><p>Alltså \\(\\boxed{x=1}\\) och \\(\\boxed{y=2}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x=-2\\) ger lodrät asymptot.</p></li><li><p>Skriv \\(\\frac{2x+5}{x+2}=2+\\frac1{x+2}\\), så den vågräta asymptoten är \\(\\boxed{y=2}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(4/x\\to0\\) för stora \\(|x|\\), så den sneda asymptoten är \\(\\boxed{y=x-1}\\).</p></li><li><p>Dessutom är \\(\\boxed{x=0}\\) en lodrät asymptot.</p></li></ol></div></div></div>",
+  "familj": "Asymptoter för rationella funktioner",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    [
+      "x=1",
+      "y=2"
     ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "miniräknare": true,
-    "geogebra": true,
-    "t": "<p>Bestäm asymptoterna.</p><p>a) \\(f(x)=2+\\frac{3}{x-1}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(g(x)=\\frac{2x+5}{x+2}\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(h(x)=x-1+\\frac{4}{x}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> En lodrät asymptot uppstår där nämnaren går mot 0.</p></li><li><p>För stora \\(|x|\\) undersöker vi vilken enklare funktion som skillnaden mot grafen närmar sig.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x=1\\) gör nämnaren noll och \\(3/(x-1)\\to0\\) för stora \\(|x|\\).</p></li><li><p>Alltså \\(\\boxed{x=1}\\) och \\(\\boxed{y=2}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x=-2\\) ger lodrät asymptot.</p></li><li><p>Skriv \\(\\frac{2x+5}{x+2}=2+\\frac1{x+2}\\), så den vågräta asymptoten är \\(\\boxed{y=2}\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(4/x\\to0\\) för stora \\(|x|\\), så den sneda asymptoten är \\(\\boxed{y=x-1}\\).</p></li><li><p>Dessutom är \\(\\boxed{x=0}\\) en lodrät asymptot.</p></li></ol></div></div></div>",
-    "familj": "Asymptoter för rationella funktioner",
-    "formaga": [
-      "procedur",
-      "begrepp"
+    [
+      "x=-2",
+      "y=2"
     ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      null,
-      "y=2",
-      null
-    ],
-    "tolerans": [
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      false,
-      true,
-      false
-    ],
-    "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
-    "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Bestäm asymptoterna.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(f(x)=2+\\frac{3}{x-1}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: En lodrät asymptot uppstår där nämnaren går mot 0.</p></li><li><p>För stora \\(|x|\\) undersöker vi vilken enklare funktion som skillnaden mot grafen närmar sig.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x=1\\) gör nämnaren noll och \\(3/(x-1)\\to0\\) för stora \\(|x|\\).</p></li><li><p>Alltså \\(\\boxed{x=1}\\) och \\(\\boxed{y=2}\\).</p></li></ol></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(g(x)=\\frac{2x+5}{x+2}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: En lodrät asymptot uppstår där nämnaren går mot 0.</p></li><li><p>För stora \\(|x|\\) undersöker vi vilken enklare funktion som skillnaden mot grafen närmar sig.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x=-2\\) ger lodrät asymptot.</p></li><li><p>Skriv \\(\\frac{2x+5}{x+2}=2+\\frac1{x+2}\\), så den vågräta asymptoten är \\(\\boxed{y=2}\\).</p></li></ol></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(h(x)=x-1+\\frac{4}{x}\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: En lodrät asymptot uppstår där nämnaren går mot 0.</p></li><li><p>För stora \\(|x|\\) undersöker vi vilken enklare funktion som skillnaden mot grafen närmar sig.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(4/x\\to0\\) för stora \\(|x|\\), så den sneda asymptoten är \\(\\boxed{y=x-1}\\).</p></li><li><p>Dessutom är \\(\\boxed{x=0}\\) en lodrät asymptot.</p></li></ol></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      }
-    ],
-    "svarFormat": [
-      null,
-      "uttryck",
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "omrTidigare": [
-      "grafer_asymptoter"
+    [
+      "x=0",
+      "y=x-1"
     ]
-  },
+  ],
+  "tolerans": [
+    null,
+    null,
+    null
+  ],
+  "självrättning": [
+    true,
+    true,
+    true
+  ],
+  "familjNyckel": "kurvor_asymptoter__asymptoter_for_rationella_funktioner",
+  "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+  "spelDelning": "deluppgifter",
+  "spelIntro": "<p>Bestäm båda asymptoternas ekvationer.</p>",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "<p>\\(f(x)=2+\\frac{3}{x-1}\\)</p><p>Ange båda asymptoternas ekvationer i de två svarsfälten.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: En lodrät asymptot uppstår där nämnaren går mot 0.</p></li><li><p>För stora \\(|x|\\) undersöker vi vilken enklare funktion som skillnaden mot grafen närmar sig.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x=1\\) gör nämnaren noll och \\(3/(x-1)\\to0\\) för stora \\(|x|\\).</p></li><li><p>Alltså \\(\\boxed{x=1}\\) och \\(\\boxed{y=2}\\).</p></li></ol></div></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 1,
+      "arbetsinsats": 1,
+      "svarsstruktur": "ordnad",
+      "svarEtiketter": [
+        "Lodrät asymptot, x = …",
+        "Övrig asymptot, y = …"
+      ]
+    },
+    {
+      "etikett": "b",
+      "fraga": "<p>\\(g(x)=\\frac{2x+5}{x+2}\\)</p><p>Ange båda asymptoternas ekvationer i de två svarsfälten.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: En lodrät asymptot uppstår där nämnaren går mot 0.</p></li><li><p>För stora \\(|x|\\) undersöker vi vilken enklare funktion som skillnaden mot grafen närmar sig.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x=-2\\) ger lodrät asymptot.</p></li><li><p>Skriv \\(\\frac{2x+5}{x+2}=2+\\frac1{x+2}\\), så den vågräta asymptoten är \\(\\boxed{y=2}\\).</p></li></ol></div></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1,
+      "svarsstruktur": "ordnad",
+      "svarEtiketter": [
+        "Lodrät asymptot, x = …",
+        "Övrig asymptot, y = …"
+      ]
+    },
+    {
+      "etikett": "c",
+      "fraga": "<p>\\(h(x)=x-1+\\frac{4}{x}\\)</p><p>Ange båda asymptoternas ekvationer i de två svarsfälten.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: En lodrät asymptot uppstår där nämnaren går mot 0.</p></li><li><p>För stora \\(|x|\\) undersöker vi vilken enklare funktion som skillnaden mot grafen närmar sig.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(4/x\\to0\\) för stora \\(|x|\\), så den sneda asymptoten är \\(\\boxed{y=x-1}\\).</p></li><li><p>Dessutom är \\(\\boxed{x=0}\\) en lodrät asymptot.</p></li></ol></div></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1,
+      "svarsstruktur": "ordnad",
+      "svarEtiketter": [
+        "Lodrät asymptot, x = …",
+        "Övrig asymptot, y = …"
+      ]
+    }
+  ],
+  "svarFormat": [
+    [
+      "uttryck",
+      "uttryck"
+    ],
+    [
+      "uttryck",
+      "uttryck"
+    ],
+    [
+      "uttryck",
+      "uttryck"
+    ]
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "omrTidigare": [
+    "grafer_asymptoter"
+  ]
+},
   {
     "id": "2.168",
     "kap": 3,
@@ -83512,88 +83555,88 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "4.91",
-    "kap": 5,
-    "omr": "de_moivre",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "miniräknare": false,
-    "geogebra": false,
-    "t": "<p>Använd de Moivres formel.</p><p>a) \\((\\cos20^\\circ+i\\sin20^\\circ)^3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\([2(\\cos45^\\circ+i\\sin45^\\circ)]^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\([3e^{i\\pi/6}]^4\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> På polär form multipliceras argumentet med exponenten och absolutbeloppet upphöjs till exponenten.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos60^\\circ+i\\sin60^\\circ\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(4(\\cos90^\\circ+i\\sin90^\\circ)=4i\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(81e^{i2\\pi/3}\\)</strong>.</p></li></ol></div></div></div>",
-    "familj": "Potenser av komplexa tal med de Moivres formel",
-    "formaga": [
-      "procedur"
-    ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "cos(pi/3)+i*sin(pi/3)",
-      "4*i",
-      "81*e^(i*2*pi/3)"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\((\\cos20^\\circ+i\\sin20^\\circ)^3\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: På polär form multipliceras argumentet med exponenten och absolutbeloppet upphöjs till exponenten.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos60^\\circ+i\\sin60^\\circ\\].</div></li></ol></div></div></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\([2(\\cos45^\\circ+i\\sin45^\\circ)]^2\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: På polär form multipliceras argumentet med exponenten och absolutbeloppet upphöjs till exponenten.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4(\\cos90^\\circ+i\\sin90^\\circ)=4i\\].</div></li></ol></div></div></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\([3e^{i\\pi/6}]^4\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Metod: På polär form multipliceras argumentet med exponenten och absolutbeloppet upphöjs till exponenten.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[81e^{i2\\pi/3}\\].</div></li></ol></div></div></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      }
-    ],
-    "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
-    "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
-    "spelIntro": "<p>Använd de Moivres formel.</p>",
-    "traningsniva": 1,
-    "arbetsinsats": 2,
-    "omrTidigare": [
-      "potenser_rotter"
-    ]
-  },
+  "id": "4.91",
+  "kap": 5,
+  "omr": "de_moivre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "miniräknare": false,
+  "geogebra": false,
+  "t": "<p>Använd de Moivres formel och skriv varje svar exakt på formen \\(a+bi\\). Ett rent imaginärt svar får skrivas som \\(bi\\).</p><p>a) \\((\\cos20^\\circ+i\\sin20^\\circ)^3\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\([2(\\cos45^\\circ+i\\sin45^\\circ)]^2\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\([3e^{i\\pi/6}]^4\\)</p>",
+  "s": "<div class=\"facit-v2\"><strong>a)</strong><div class=\"facit-v2\"><p>Beloppet är 1 och argumentet blir \\(3\\cdot20^\\circ=60^\\circ\\).</p><p>\\(\\cos60^\\circ=1/2\\) och \\(\\sin60^\\circ=\\sqrt3/2\\).</p><p><strong>Svar:</strong> \\(\\frac12+\\frac{\\sqrt3}{2}i\\).</p></div><strong>b)</strong><div class=\"facit-v2\"><p>Beloppet blir \\(2^2=4\\) och argumentet \\(2\\cdot45^\\circ=90^\\circ\\).</p><p>Eftersom \\(\\cos90^\\circ=0\\) och \\(\\sin90^\\circ=1\\) blir svaret \\(4i\\).</p></div><strong>c)</strong><div class=\"facit-v2\"><p>Beloppet blir \\(3^4=81\\) och argumentet \\(4\\cdot\\pi/6=2\\pi/3\\).</p><p>Här är \\(\\cos(2\\pi/3)=-1/2\\) och \\(\\sin(2\\pi/3)=\\sqrt3/2\\).</p><p><strong>Svar:</strong> \\(-\\frac{81}{2}+\\frac{81\\sqrt3}{2}i\\).</p></div></div>",
+  "familj": "Potenser av komplexa tal med de Moivres formel",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "1/2+sqrt(3)/2*i",
+    "4*i",
+    "-81/2+81*sqrt(3)/2*i"
+  ],
+  "tolerans": [
+    null,
+    null,
+    null
+  ],
+  "självrättning": [
+    true,
+    true,
+    true
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "<p>\\((\\cos20^\\circ+i\\sin20^\\circ)^3\\)</p>",
+      "s": "<div class=\"facit-v2\"><p>Beloppet är 1 och argumentet blir \\(3\\cdot20^\\circ=60^\\circ\\).</p><p>\\(\\cos60^\\circ=1/2\\) och \\(\\sin60^\\circ=\\sqrt3/2\\).</p><p><strong>Svar:</strong> \\(\\frac12+\\frac{\\sqrt3}{2}i\\).</p></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 1,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "fraga": "<p>\\([2(\\cos45^\\circ+i\\sin45^\\circ)]^2\\)</p>",
+      "s": "<div class=\"facit-v2\"><p>Beloppet blir \\(2^2=4\\) och argumentet \\(2\\cdot45^\\circ=90^\\circ\\).</p><p>Eftersom \\(\\cos90^\\circ=0\\) och \\(\\sin90^\\circ=1\\) blir svaret \\(4i\\).</p></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 1,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "c",
+      "fraga": "<p>\\([3e^{i\\pi/6}]^4\\)</p>",
+      "s": "<div class=\"facit-v2\"><p>Beloppet blir \\(3^4=81\\) och argumentet \\(4\\cdot\\pi/6=2\\pi/3\\).</p><p>Här är \\(\\cos(2\\pi/3)=-1/2\\) och \\(\\sin(2\\pi/3)=\\sqrt3/2\\).</p><p><strong>Svar:</strong> \\(-\\frac{81}{2}+\\frac{81\\sqrt3}{2}i\\).</p></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 1,
+      "arbetsinsats": 1
+    }
+  ],
+  "familjNyckel": "de_moivre__potenser_av_komplexa_tal_med_de_moivres_formel",
+  "ledtrad": "<p>Bestäm belopp och argument och använd \\([r(\\cos v+i\\sin v)]^n=r^n(\\cos nv+i\\sin nv)\\).</p>",
+  "spelIntro": "<p>Använd de Moivres formel och skriv varje svar exakt på formen \\(a+bi\\). Ett rent imaginärt svar får skrivas som \\(bi\\).</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 2,
+  "omrTidigare": [
+    "potenser_rotter"
+  ]
+},
   {
     "id": "4.102",
     "kap": 5,

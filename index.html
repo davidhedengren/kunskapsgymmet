@@ -4015,7 +4015,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-19-mato1-villkor";
+const BANK_VERSION="2026-10-19-mato1-primitiva";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10224,7 +10224,8 @@ function primitivaSvarRatt(anv,facit){
     const fc=f.variables().filter(v=>/^[A-WYZa-wyz]$/.test(v));
     if(ac.length!==1 || fc.length!==1) return false;
     const bas=f.sub(fc[0],0);
-    const konstant=nerdamer.simplify(nerdamer(`(${a})-(${bas})`).expand());
+    // simplify() kan felaktigt tappa x i exponentialuttryck. Expandera utan den omskrivningen.
+    const konstant=nerdamer(`(${a})-(${bas})`).expand();
     if(konstant.variables().some(v=>v!==ac[0])) return false;
     // Alla primitiva funktioner behöver en fri konstant som kan anta alla värden.
     // K + 7 och 2K fungerar; sin(K) och K² ger inte hela familjen.
@@ -10488,7 +10489,7 @@ function formatRatt(anv,facit,meta){
         try{
           const aa=tillNerdamer(normalizeMathInput(hogerled(a)));
           const ff=tillNerdamer(normalizeMathInput(hogerled(f)));
-          const skillnad=nerdamer.simplify(nerdamer(`(${aa})-(${ff})`).expand());
+          const skillnad=nerdamer(`(${aa})-(${ff})`).expand();
           return skillnad.variables().every(v=>/^[A-WYZa-wyz]$/.test(v));
         }catch(_){ return false; }
       }

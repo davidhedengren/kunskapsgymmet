@@ -30987,7 +30987,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p>a) \\(f(x)=3 x^{2}\\)<br>b) \\(f(x)=4 x^{3} - 2 x\\)<br>c) \\(f(x)=5\\)<br></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=x^{3}+C\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=x^{4} - x^{2}+C\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=5 x+C\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Derivatan av \\(x^3\\) är \\(3x^2\\).</p><p>En konstant försvinner vid derivering, så alla primitiva funktioner ges av \\[F(x)=x^3+C.\\] Här är \\(C\\) en godtycklig reell konstant.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Integrera term för term: \\(4x^3\\) ger \\(x^4\\) och \\(-2x\\) ger \\(-x^2\\).</p><p>En konstant försvinner vid derivering, så alla primitiva funktioner ges av \\[F(x)=x^4-x^2+C.\\] Här är \\(C\\) en godtycklig reell konstant.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Derivatan av \\(5x\\) är konstanten 5.</p><p>En konstant försvinner vid derivering, så alla primitiva funktioner ges av \\[F(x)=5x+C.\\] Här är \\(C\\) en godtycklig reell konstant.</p></div></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -31014,33 +31014,8 @@ window.BANKMATO1 = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=3 x^{2}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=x^{3}+C\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=4 x^{3} - 2 x\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=x^{4} - x^{2}+C\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=5\\)<br/></div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=5 x+C\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Tänk så här: Kontrollen är enkel men viktig: derivera ditt F(x). Om du får tillbaka f(x) är den primitiva delen korrekt. Därefter avgör uppgiften om konstanten C ska lämnas fri eller bestämmas med ett villkor.</p>",
+    "spelDelar": [{"etikett": "a", "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=3 x^{2}\\)</div></p>", "s": "<div class=\"facit-v2\"><p>Derivatan av \\(x^3\\) är \\(3x^2\\).</p><p>En konstant försvinner vid derivering, så alla primitiva funktioner ges av \\[F(x)=x^3+C.\\] Här är \\(C\\) en godtycklig reell konstant.</p></div>", "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>", "niva": "E", "poang": "1/0/0"}, {"etikett": "b", "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=4 x^{3} - 2 x\\)</div></p>", "s": "<div class=\"facit-v2\"><p>Integrera term för term: \\(4x^3\\) ger \\(x^4\\) och \\(-2x\\) ger \\(-x^2\\).</p><p>En konstant försvinner vid derivering, så alla primitiva funktioner ges av \\[F(x)=x^4-x^2+C.\\] Här är \\(C\\) en godtycklig reell konstant.</p></div>", "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>", "niva": "E", "poang": "1/0/0"}, {"etikett": "c", "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=5\\)<br/></div></p>", "s": "<div class=\"facit-v2\"><p>Derivatan av \\(5x\\) är konstanten 5.</p><p>En konstant försvinner vid derivering, så alla primitiva funktioner ges av \\[F(x)=5x+C.\\] Här är \\(C\\) en godtycklig reell konstant.</p></div>", "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>", "niva": "E", "poang": "1/0/0"}],
+    "ledtrad": "<p>Behandla varje term för sig och kontrollera genom derivering. Alla primitiva funktioner ska innehålla en godtycklig konstant.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "spel": true,
@@ -31233,7 +31208,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "3/0/0",
     "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p>a) \\(f(x)=x^{4} + 2 x\\)<br>b) \\(f(x)=6 x^{2} - 3\\)<br>c) \\(f(x)=e^{x}\\)<br></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=\\frac{x^{5}}{5} + x^{2}+C\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=2 x^{3} - 3 x+C\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=e^{x}+C\\]</div></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Öka varje exponent med ett och dividera med den nya exponenten. Då ger \\(x^4\\) termen \\(x^5/5\\), och \\(2x\\) ger \\(x^2\\).</p><p>En konstant försvinner vid derivering, så alla primitiva funktioner ges av \\[F(x)=\\frac{x^5}{5}+x^2+C.\\] Här är \\(C\\) en godtycklig reell konstant.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Integrera termvis: \\(6x^2\\) ger \\(2x^3\\), och konstanten \\(-3\\) ger \\(-3x\\).</p><p>En konstant försvinner vid derivering, så alla primitiva funktioner ges av \\[F(x)=2x^3-3x+C.\\] Här är \\(C\\) en godtycklig reell konstant.</p></div><p><strong>c)</strong></p><div class=\"facit-v2\"><p>Funktionen \\(e^x\\) har derivatan \\(e^x\\), så den är också en primitiv funktion till sig själv.</p><p>En konstant försvinner vid derivering, så alla primitiva funktioner ges av \\[F(x)=e^x+C.\\] Här är \\(C\\) en godtycklig reell konstant.</p></div></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -31260,33 +31235,8 @@ window.BANKMATO1 = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=x^{4} + 2 x\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=\\frac{x^{5}}{5} + x^{2}+C\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=6 x^{2} - 3\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=2 x^{3} - 3 x+C\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=e^{x}\\)<br/></div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong></p><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=e^{x}+C\\]</div></li></ol></div></div>",
-        "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "ledtrad": "<p>Viktigt steg: Kontrollen är enkel men viktig: derivera ditt F(x). Om du får tillbaka f(x) är den primitiva delen korrekt. Därefter avgör uppgiften om konstanten C ska lämnas fri eller bestämmas med ett villkor.</p>",
+    "spelDelar": [{"etikett": "a", "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=x^{4} + 2 x\\)</div></p>", "s": "<div class=\"facit-v2\"><p>Öka varje exponent med ett och dividera med den nya exponenten. Då ger \\(x^4\\) termen \\(x^5/5\\), och \\(2x\\) ger \\(x^2\\).</p><p>En konstant försvinner vid derivering, så alla primitiva funktioner ges av \\[F(x)=\\frac{x^5}{5}+x^2+C.\\] Här är \\(C\\) en godtycklig reell konstant.</p></div>", "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>", "niva": "E", "poang": "1/0/0"}, {"etikett": "b", "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=6 x^{2} - 3\\)</div></p>", "s": "<div class=\"facit-v2\"><p>Integrera termvis: \\(6x^2\\) ger \\(2x^3\\), och konstanten \\(-3\\) ger \\(-3x\\).</p><p>En konstant försvinner vid derivering, så alla primitiva funktioner ges av \\[F(x)=2x^3-3x+C.\\] Här är \\(C\\) en godtycklig reell konstant.</p></div>", "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>", "niva": "E", "poang": "1/0/0"}, {"etikett": "c", "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=e^{x}\\)<br/></div></p>", "s": "<div class=\"facit-v2\"><p>Funktionen \\(e^x\\) har derivatan \\(e^x\\), så den är också en primitiv funktion till sig själv.</p><p>En konstant försvinner vid derivering, så alla primitiva funktioner ges av \\[F(x)=e^x+C.\\] Här är \\(C\\) en godtycklig reell konstant.</p></div>", "ledtrad": "<p>Vilken funktion har derivatan \\(e^x\\)? Vad händer om du lägger till en konstant?</p>", "niva": "E", "poang": "1/0/0"}],
+    "ledtrad": "<p>Behandla varje term för sig och kontrollera genom derivering. Alla primitiva funktioner ska innehålla en godtycklig konstant.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
     "spel": true,
@@ -31506,32 +31456,7 @@ window.BANKMATO1 = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{2}{x^{2}}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv med negativ exponent</p><div class=\"facit-matte\">\\[f(x)=2x^{-2},\\qquad x\\ne0.\\]</div></li><li><p class=\"facit-rubrik\">Integrera med potensregeln</p><p>Öka exponenten med 1 och dividera med den nya exponenten:</p><div class=\"facit-matte\">\\[F(x)=\\frac{2x^{-1}}{-1}+C=-\\frac2x+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom derivering</p><div class=\"facit-matte\">\\[\\left(-2x^{-1}+C\\right)\\prime=2x^{-2}=\\frac2{x^2}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-\\frac2x+C\\), på ett intervall som inte innehåller 0.</p></div>",
-        "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=3 e^{2 x}\\)</div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kompensera för den inre derivatan</p><p>Derivatan av \\(e^{2x}\\) är \\(2e^{2x}\\). En primitiv funktion till \\(3e^{2x}\\) behöver därför faktorn \\(3/2\\):</p><div class=\"facit-matte\">\\[F(x)=\\frac32e^{2x}+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[F\\prime(x)=\\frac32\\cdot2e^{2x}=3e^{2x}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac32e^{2x}+C\\).</p></div>",
-        "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=7 \\sqrt{x}\\)<br/></div></p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv roten som en potens</p><div class=\"facit-matte\">\\[f(x)=7x^{1/2}.\\]</div></li><li><p class=\"facit-rubrik\">Använd potensregeln baklänges</p><div class=\"facit-matte\">\\[F(x)=7\\frac{x^{3/2}}{3/2}+C=\\frac{14}{3}x^{3/2}+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[F\\prime(x)=\\frac{14}{3}\\cdot\\frac32x^{1/2}=7\\sqrt x.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac{14}{3}x^{3/2}+C\\), för \\(x\\ge0\\).</p></div>",
-        "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{2}{x^{2}}\\)</div></p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv med negativ exponent</p><div class=\"facit-matte\">\\[f(x)=2x^{-2},\\qquad x\\ne0.\\]</div></li><li><p class=\"facit-rubrik\">Integrera med potensregeln</p><p>Öka exponenten med 1 och dividera med den nya exponenten:</p><div class=\"facit-matte\">\\[F(x)=\\frac{2x^{-1}}{-1}+C=-\\frac2x+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom derivering</p><div class=\"facit-matte\">\\[\\left(-2x^{-1}+C\\right)\\prime=2x^{-2}=\\frac2{x^2}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-\\frac2x+C\\), på ett intervall som inte innehåller 0.</p></div>", "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>", "niva": "E", "poang": "1/0/0"}, {"etikett": "b", "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=3 e^{2 x}\\)</div></p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kompensera för den inre derivatan</p><p>Derivatan av \\(e^{2x}\\) är \\(2e^{2x}\\). En primitiv funktion till \\(3e^{2x}\\) behöver därför faktorn \\(3/2\\):</p><div class=\"facit-matte\">\\[F(x)=\\frac32e^{2x}+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[F\\prime(x)=\\frac32\\cdot2e^{2x}=3e^{2x}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac32e^{2x}+C\\).</p></div>", "ledtrad": "<p>Derivera \\(e^{2x}\\) och fundera på vilken faktor som behövs framför för att derivatan ska bli \\(3e^{2x}\\).</p>", "niva": "E", "poang": "1/0/0"}, {"etikett": "c", "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=7 \\sqrt{x}\\)<br/></div></p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv roten som en potens</p><div class=\"facit-matte\">\\[f(x)=7x^{1/2}.\\]</div></li><li><p class=\"facit-rubrik\">Använd potensregeln baklänges</p><div class=\"facit-matte\">\\[F(x)=7\\frac{x^{3/2}}{3/2}+C=\\frac{14}{3}x^{3/2}+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[F\\prime(x)=\\frac{14}{3}\\cdot\\frac32x^{1/2}=7\\sqrt x.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac{14}{3}x^{3/2}+C\\), för \\(x\\ge0\\).</p></div>", "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>", "niva": "E", "poang": "1/0/0"}],
     "ledtrad": "<p>Kontrollen är enkel men viktig: derivera ditt F(x). Om du får tillbaka f(x) är den primitiva delen korrekt. Därefter avgör uppgiften om konstanten C ska lämnas fri eller bestämmas med ett villkor.</p>",
     "traningsniva": 2,
     "arbetsinsats": 3,
@@ -32381,7 +32306,7 @@ window.BANKMATO1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Derivera den föreslagna primitiva funktionen. Om derivatan blir exakt den givna funktionen är påståendet verifierat.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": false,
     "omrTidigare": [
@@ -33005,7 +32930,7 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Två funktioner \\(F\\) och \\(G\\) är båda primitiva funktioner till samma funktion \\(f\\). Visa att skillnaden \\(F(x)-G(x)\\) måste vara konstant.</p>",
+    "t": "<p>Två funktioner \\(F\\) och \\(G\\) är båda primitiva funktioner på samma intervall till samma funktion \\(f\\). Visa att skillnaden \\(F(x)-G(x)\\) måste vara konstant.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom båda är primitiva funktioner gäller</p></li><li><p>\\[F^{\\prime}(x)=f(x)\\quad\\text{och}\\quad G^{\\prime}(x)=f(x).\\]</p></li><li><p>Derivera skillnaden:</p></li><li><p>\\[(F-G)^{\\prime}(x)=F^{\\prime}(x)-G^{\\prime}(x)=f(x)-f(x)=0.\\]</p></li><li><p>En funktion som har derivatan 0 överallt på ett intervall är konstant där.</p></li><li><div class=\"facit-berakning\"><p>Alltså är</p><div class=\"facit-matte\">\\[F(x)-G(x)=C\\].</div></div></li></ol></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
@@ -33018,7 +32943,7 @@ window.BANKMATO1 = [
       "procedur",
       "resonemang"
     ],
-    "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
+    "ledtrad": "<p>Derivera skillnaden \\(F-G\\). Vad vet du om en funktion vars derivata är noll överallt på ett intervall?</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": false,
@@ -33230,7 +33155,7 @@ window.BANKMATO1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Alla primitiva funktioner är \\(F(x)=x^2-4x+C\\). Derivatan är alltid \\(F^{\\prime}(x)=2x-4\\), oberoende av \\(C\\).</p>",
+    "ledtrad": "<p>Ger en horisontell tangent information om funktionens värde eller om dess derivata? Hur påverkas dessa av konstanten?</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": false,
@@ -33649,7 +33574,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "ledtrad": "<p>Viktigt steg: Kontrollen är enkel men viktig: derivera ditt F(x). Om du får tillbaka f(x) är den primitiva delen korrekt. Därefter avgör uppgiften om konstanten C ska lämnas fri eller bestämmas med ett villkor.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": false,
     "omrTidigare": [
@@ -33859,8 +33784,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Bestäm alla primitiva funktioner till</p><p>\\[f(x)=6x^2-4x^{-2}.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrera term för term: \\(\\int6x^2dx=2x^3\\) och \\(\\int-4x^{-2}dx=4x^{-1}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=2x^3+\\frac4x+C\\).</p></div>",
+    "t": "<p>Bestäm alla primitiva funktioner till</p><p>\\[f(x)=6x^2-4x^{-2}.\\]</p><p>Arbeta på ett intervall som inte innehåller \\(x=0\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Integrera term för term. För \\(-4x^{-2}\\) blir den nya exponenten \\(-1\\), så koefficienten blir \\((-4)/(-1)=4\\).</p><p>Alltså är \\[F(x)=2x^3+\\frac4x+C.\\]</p><p>Kontroll: \\[F^{\\prime}(x)=6x^2-4x^{-2}.\\] Konstanten \\(C\\) är godtycklig på det valda intervallet.</p></div>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -35578,7 +35503,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm alla primitiva funktioner till \\(f(x)=\\frac{x^{2} \\left(x^{2} - 6\\right)}{2}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrera term för term och lägg till en godtycklig konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac{x^{5}}{10} - x^{3}+C\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Börja med att multiplicera in \\(x^2/2\\): \\[f(x)=\\frac{x^4}{2}-3x^2.\\]</p><p>Integrera sedan de två termerna: \\[F(x)=\\frac{x^5}{10}-x^3+C.\\]</p><p>Derivering ger tillbaka \\(x^4/2-3x^2\\). Här är \\(C\\) en godtycklig reell konstant.</p></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -35590,7 +35515,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "primitiva",
-    "ledtrad": "<p>Tänk så här: Kontrollen är enkel men viktig: derivera ditt F(x). Om du får tillbaka f(x) är den primitiva delen korrekt. Därefter avgör uppgiften om konstanten C ska lämnas fri eller bestämmas med ett villkor.</p>",
+    "ledtrad": "<p>Utveckla produkten så att du kan integrera en term i taget.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -35749,7 +35674,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm alla primitiva funktioner till \\(f(x)=\\sqrt{x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrera term för term och lägg till en godtycklig konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac{2 x^{\\frac{3}{2}}}{3}+C\\).</p></div></div>",
+    "s": "<div class=\"facit-v2\"><p>Skriv roten som \\(x^{1/2}\\). Öka exponenten till \\(3/2\\) och dividera med \\(3/2\\).</p><p>Alltså är \\[F(x)=\\frac23x^{3/2}+C.\\]</p><p>Kontrollera genom derivering: \\[\\frac23\\cdot\\frac32x^{1/2}=\\sqrt{x}.\\] Konstanten \\(C\\) är godtycklig.</p></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -35761,7 +35686,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "primitiva",
-    "ledtrad": "<p>Integrera term för term. För \\(x^n\\) ökar du exponenten med 1 och dividerar med den nya exponenten. Glöm inte \\(+C\\).</p>",
+    "ledtrad": "<p>Skriv exponenten som ett bråk och beräkna först vad den blir när du lägger till 1.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -35882,7 +35807,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm alla primitiva funktioner till \\(f(x)=x^{\\frac{3}{2}}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrera term för term och lägg till en godtycklig konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac{2 x^{\\frac{5}{2}}}{5}+C\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Öka exponenten från \\(3/2\\) till \\(5/2\\). Att dividera med \\(5/2\\) är samma sak som att multiplicera med \\(2/5\\).</p><p>Alltså är \\[F(x)=\\frac25x^{5/2}+C.\\]</p><p>Kontrollera genom derivering: \\[\\frac25\\cdot\\frac52x^{3/2}=x^{3/2}.\\] Konstanten \\(C\\) är godtycklig.</p></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -35894,7 +35819,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "primitiva",
-    "ledtrad": "<p>Tänk så här: Arbeta baklänges jämfört med derivering. För \\(x^n\\) blir en primitiv funktion \\(\\dfrac{x^{n+1}}{n+1}\\). Om ett funktionsvärde eller tangentvillkor ges bestäms integrationskonstanten först efter att den allmänna primitiva funktionen är funnen.</p>",
+    "ledtrad": "<p>Skriv exponenten som ett bråk och beräkna först vad den blir när du lägger till 1.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -36015,8 +35940,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Bestäm alla primitiva funktioner till \\(f(x)=\\frac{1}{x^{2}}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrera term för term och lägg till en godtycklig konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=- \\frac{1}{x}+C\\).</p></div>",
+    "t": "<p>Bestäm alla primitiva funktioner till \\(f(x)=\\frac{1}{x^{2}}\\).</p><p>Arbeta på ett intervall som inte innehåller \\(x=0\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Skriv \\(1/x^2=x^{-2}\\). Den nya exponenten är \\(-2+1=-1\\), och division med \\(-1\\) ger</p><p>\\[F(x)=-x^{-1}+C=-\\frac1x+C.\\]</p><p>Kontroll: derivatan av \\(-x^{-1}\\) är \\(x^{-2}\\). Konstanten \\(C\\) är godtycklig på det valda intervallet.</p></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -36028,7 +35953,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "primitiva",
-    "ledtrad": "<p>Kontrollen är enkel men viktig: derivera ditt F(x). Om du får tillbaka f(x) är den primitiva delen korrekt. Därefter avgör uppgiften om konstanten C ska lämnas fri eller bestämmas med ett villkor.</p>",
+    "ledtrad": "<p>Skriv bråket som en potens med negativ exponent innan du integrerar.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -36153,7 +36078,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm alla primitiva funktioner till \\(f(x)=3 x + 2 e^{x}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrera term för term och lägg till en godtycklig konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac{3 x^{2}}{2} + 2 e^{x}+C\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Integrera termerna var för sig. Potensregeln ger \\(3x^2/2\\) från \\(3x\\). Eftersom \\(e^x\\) är sin egen derivata ger den andra termen \\(2e^x\\).</p><p>Alla primitiva funktioner är därför \\[F(x)=\\frac32x^2+2e^x+C,\\] där \\(C\\) är en godtycklig reell konstant.</p></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -36165,7 +36090,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "primitiva",
-    "ledtrad": "<p>En primitiv funktion ska ge tillbaka den ursprungliga funktionen när den deriveras. Öka därför exponenten med ett och dividera med den nya exponenten. Glöm inte +C när alla primitiva funktioner efterfrågas; ett extra villkor används sedan för att bestämma C.</p>",
+    "ledtrad": "<p>Behandla de två termerna var för sig. Potensregeln används för x-termen; vilken funktion har derivatan \\(e^x\\)?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,

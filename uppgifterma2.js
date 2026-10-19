@@ -9683,5 +9683,917 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
         "ratt": false
       }
     ]
+  },
+  {
+    "id": "4.376",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "3/0/2",
+    "typ": "jämföra korrelation i två grupper och i sammanslaget material",
+    "familj": "Korrelation i mätdata med digitala verktyg",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "t": "<p>Två klasser har skrivit var sitt prov i samma kurs. Klass B skrev ett svårare prov än klass A. Tabellen visar hur många timmar åtta elever i varje klass studerade inför provet och hur många poäng de fick.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Klass A: tid (h)</th><th scope=\"col\">Klass A: poäng</th><th scope=\"col\">Klass B: tid (h)</th><th scope=\"col\">Klass B: poäng</th></tr></thead><tbody><tr><td>2</td><td>14</td><td>8</td><td>4</td></tr><tr><td>3</td><td>19</td><td>9</td><td>10</td></tr><tr><td>4</td><td>18</td><td>10</td><td>6</td></tr><tr><td>5</td><td>24</td><td>12</td><td>12</td></tr><tr><td>6</td><td>27</td><td>13</td><td>9</td></tr><tr><td>7</td><td>26</td><td>14</td><td>16</td></tr><tr><td>8</td><td>33</td><td>15</td><td>13</td></tr><tr><td>9</td><td>35</td><td>17</td><td>18</td></tr></tbody></table><p>a) Bestäm korrelationskoefficienten för klass A med ett digitalt verktyg. Svara med två decimaler.<br>b) Bestäm korrelationskoefficienten för klass B.<br>c) Bestäm korrelationskoefficienten när alla 16 elever räknas tillsammans.<br>d) Förklara varför korrelationskoefficienten i c) blir negativ, trots att den är positiv i båda klasserna.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p>Klass A: \\(r\\approx0{,}97\\), ett starkt positivt linjärt samband.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>Klass B: \\(r\\approx0{,}87\\), också ett positivt samband men lite svagare.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p>Med alla 16 elever i samma två kolumner blir \\(r\\approx-0{,}25\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><p>Inom varje klass gäller: mer studietid, fler poäng. Klass B studerade mer men skrev ett svårare prov, så B:s punkter ligger till höger och längre ner än A:s. En linje genom alla 16 punkter lutar därför nedåt. Det sammanslagna \\(r\\) beskriver skillnaden mellan klasserna, inte effekten av att studera. Man bör jämföra inom samma grupp, eller med samma prov, innan man drar slutsatser.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram över studietid och poäng i klass A och klass B\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\"></text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"242.5\" x2=\"455\" y2=\"242.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"247.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">5</text><line x1=\"70\" y1=\"215.0\" x2=\"455\" y2=\"215.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"220.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"70\" y1=\"187.5\" x2=\"455\" y2=\"187.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"192.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">15</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"70\" y1=\"132.5\" x2=\"455\" y2=\"132.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"137.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">25</text><line x1=\"70\" y1=\"105.0\" x2=\"455\" y2=\"105.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"70\" y1=\"77.5\" x2=\"455\" y2=\"77.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"82.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">35</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"112.8\" y1=\"270\" x2=\"112.8\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"112.8\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"155.6\" y1=\"270\" x2=\"155.6\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"155.6\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"198.3\" y1=\"270\" x2=\"198.3\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"198.3\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"241.1\" y1=\"270\" x2=\"241.1\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"241.1\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><line x1=\"283.9\" y1=\"270\" x2=\"283.9\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"283.9\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"326.7\" y1=\"270\" x2=\"326.7\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"326.7\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">12</text><line x1=\"369.4\" y1=\"270\" x2=\"369.4\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"369.4\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">14</text><line x1=\"412.2\" y1=\"270\" x2=\"412.2\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"412.2\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">16</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">18</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Studietid (h)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Poäng</text><circle cx=\"112.8\" cy=\"193.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"134.2\" cy=\"165.5\" r=\"6\" fill=\"#216d87\"/><circle cx=\"155.6\" cy=\"171.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"176.9\" cy=\"138.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"198.3\" cy=\"121.5\" r=\"6\" fill=\"#216d87\"/><circle cx=\"219.7\" cy=\"127.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"241.1\" cy=\"88.5\" r=\"6\" fill=\"#216d87\"/><circle cx=\"262.5\" cy=\"77.5\" r=\"6\" fill=\"#216d87\"/><text x=\"300\" y=\"70\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#216d87\">Klass A</text><rect x=\"235.6\" y=\"242.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"257.0\" y=\"209.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"278.4\" y=\"231.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"321.2\" y=\"198.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"342.6\" y=\"215.0\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"363.9\" y=\"176.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"385.3\" y=\"193.0\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"428.1\" y=\"165.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><text x=\"392\" y=\"238\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#c2410c\">Klass B</text></svg></div></div></div></div>",
+    "ledtrad": "<p>Gör ett punktdiagram med olika färg för klasserna. Jämför var klassernas punkter hamnar innan du tolkar \\(r\\) för hela materialet.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.9734180260427718,
+      0.8714893406611902,
+      -0.25142407906541825,
+      "Klass B studerade mer men skrev ett svårare prov. När klasserna slås ihop hamnar B:s punkter till höger och längre ner, och det döljer det positiva sambandet inom varje klass."
+    ],
+    "tolerans": [
+      0.005,
+      0.005,
+      0.005,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "text"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": [
+      2,
+      2,
+      2,
+      4
+    ],
+    "arbetsinsats": [
+      1,
+      1,
+      1,
+      2
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två klasser har skrivit var sitt prov i samma kurs. Klass B skrev ett svårare prov än klass A. Tabellen visar hur många timmar åtta elever i varje klass studerade inför provet och hur många poäng de fick.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Klass A: tid (h)</th><th scope=\"col\">Klass A: poäng</th><th scope=\"col\">Klass B: tid (h)</th><th scope=\"col\">Klass B: poäng</th></tr></thead><tbody><tr><td>2</td><td>14</td><td>8</td><td>4</td></tr><tr><td>3</td><td>19</td><td>9</td><td>10</td></tr><tr><td>4</td><td>18</td><td>10</td><td>6</td></tr><tr><td>5</td><td>24</td><td>12</td><td>12</td></tr><tr><td>6</td><td>27</td><td>13</td><td>9</td></tr><tr><td>7</td><td>26</td><td>14</td><td>16</td></tr><tr><td>8</td><td>33</td><td>15</td><td>13</td></tr><tr><td>9</td><td>35</td><td>17</td><td>18</td></tr></tbody></table>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm korrelationskoefficienten för klass A med ett digitalt verktyg. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Med regressionsanalys i GeoGebra för klass A blir \\(r\\approx0{,}97\\). Det är ett starkt positivt linjärt samband: elever som studerade längre fick oftast fler poäng.</p></div>",
+        "ledtrad": "<p>Skriv in värdena i två kolumner i GeoGebras kalkylblad, markera båda kolumnerna och välj regressionsanalys med två variabler. Där kan du läsa av \\(r\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm korrelationskoefficienten för klass B med ett digitalt verktyg. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Med regressionsanalys i GeoGebra för klass B blir \\(r\\approx0{,}87\\). Sambandet är positivt men något svagare än i klass A, eftersom punkterna sprider sig mer runt en rät linje.</p></div>",
+        "ledtrad": "<p>Använd bara de två kolumnerna för klass B.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Lägg alla 16 elever i samma material. Bestäm korrelationskoefficienten med ett digitalt verktyg. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Lägg klass A:s och klass B:s värden under varandra i samma två kolumner, så att det blir 16 punkter. GeoGebra ger \\(r\\approx-0{,}25\\). Sambandet för hela materialet är svagt och negativt.</p></div>",
+        "ledtrad": "<p>Lägg klass B:s tider och poäng under klass A:s i samma två kolumner, så att du får 16 punkter.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>Klass A har \\(r\\approx0{,}97\\) och klass B har \\(r\\approx0{,}87\\). När alla 16 elever räknas tillsammans blir \\(r\\approx-0{,}25\\).</p><p>Varför blir sambandet negativt när klasserna slås ihop? Välj den förklaring som stämmer.</p>",
+        "s": "<div class=\"facit-v2\"><p>I varje klass för sig ger mer studietid fler poäng. Klass B studerade mer men skrev ett svårare prov, så B:s punkter ligger till höger och längre ner än A:s. En linje genom alla 16 punkter lutar därför nedåt. Det negativa \\(r\\) beskriver skillnaden mellan klasserna, inte att studier skulle ge sämre resultat.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram över studietid och poäng i klass A och klass B\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\"></text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"242.5\" x2=\"455\" y2=\"242.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"247.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">5</text><line x1=\"70\" y1=\"215.0\" x2=\"455\" y2=\"215.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"220.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"70\" y1=\"187.5\" x2=\"455\" y2=\"187.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"192.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">15</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"70\" y1=\"132.5\" x2=\"455\" y2=\"132.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"137.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">25</text><line x1=\"70\" y1=\"105.0\" x2=\"455\" y2=\"105.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"70\" y1=\"77.5\" x2=\"455\" y2=\"77.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"82.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">35</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"112.8\" y1=\"270\" x2=\"112.8\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"112.8\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"155.6\" y1=\"270\" x2=\"155.6\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"155.6\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"198.3\" y1=\"270\" x2=\"198.3\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"198.3\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"241.1\" y1=\"270\" x2=\"241.1\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"241.1\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><line x1=\"283.9\" y1=\"270\" x2=\"283.9\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"283.9\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"326.7\" y1=\"270\" x2=\"326.7\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"326.7\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">12</text><line x1=\"369.4\" y1=\"270\" x2=\"369.4\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"369.4\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">14</text><line x1=\"412.2\" y1=\"270\" x2=\"412.2\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"412.2\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">16</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">18</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Studietid (h)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Poäng</text><circle cx=\"112.8\" cy=\"193.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"134.2\" cy=\"165.5\" r=\"6\" fill=\"#216d87\"/><circle cx=\"155.6\" cy=\"171.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"176.9\" cy=\"138.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"198.3\" cy=\"121.5\" r=\"6\" fill=\"#216d87\"/><circle cx=\"219.7\" cy=\"127.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"241.1\" cy=\"88.5\" r=\"6\" fill=\"#216d87\"/><circle cx=\"262.5\" cy=\"77.5\" r=\"6\" fill=\"#216d87\"/><text x=\"300\" y=\"70\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#216d87\">Klass A</text><rect x=\"235.6\" y=\"242.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"257.0\" y=\"209.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"278.4\" y=\"231.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"321.2\" y=\"198.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"342.6\" y=\"215.0\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"363.9\" y=\"176.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"385.3\" y=\"193.0\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"428.1\" y=\"165.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><text x=\"392\" y=\"238\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#c2410c\">Klass B</text></svg></div></div>",
+        "ledtrad": "<p>Rita alla 16 punkterna i GeoGebra med olika färg för klasserna. Var hamnar klass B:s punkter jämfört med klass A:s?</p>",
+        "niva": "A",
+        "poang": "0/0/2",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "alternativ": [
+          {
+            "txt": "Klass B studerade mer men skrev ett svårare prov. När klasserna slås ihop hamnar B:s punkter till höger och längre ner, och det döljer det positiva sambandet inom varje klass.",
+            "ratt": true
+          },
+          {
+            "txt": "Studietiden har ingen betydelse, eftersom korrelationskoefficienten för alla 16 elever är nära noll.",
+            "ratt": false
+          },
+          {
+            "txt": "Mer studietid ger lägre resultat, eftersom korrelationskoefficienten för alla 16 elever är negativ.",
+            "ratt": false
+          },
+          {
+            "txt": "Korrelationskoefficienten blir alltid medelvärdet av klassernas värden när man slår ihop materialen.",
+            "ratt": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4.377",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "1/1/2",
+    "typ": "korrelation för ett krökt samband och för en omräknad variabel",
+    "familj": "Korrelation i mätdata med digitala verktyg",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "t": "<p>En bilprovning mäter bromssträckan för samma bil på torr asfalt vid olika farter.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Fart (km/h)</th><th scope=\"col\">Bromssträcka (m)</th></tr></thead><tbody><tr><td>30</td><td>5</td></tr><tr><td>40</td><td>9</td></tr><tr><td>50</td><td>14</td></tr><tr><td>60</td><td>19</td></tr><tr><td>70</td><td>25</td></tr><tr><td>80</td><td>34</td></tr><tr><td>90</td><td>43</td></tr><tr><td>100</td><td>53</td></tr><tr><td>110</td><td>66</td></tr></tbody></table><p>a) Bestäm korrelationskoefficienten mellan fart och bromssträcka med ett digitalt verktyg. Svara med två decimaler.<br>b) Beräkna farten i kvadrat, \\(v^2\\), för varje mätning och bestäm korrelationskoefficienten mellan \\(v^2\\) och bromssträckan.<br>c) En elev säger: ”Eftersom \\(r\\) är nära 1 i a) är en rät linje en bra modell för bromssträckan.” Bedöm påståendet med hjälp av ett punktdiagram och resultatet i b).</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p>\\(r\\approx0{,}98\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>Med \\(v^2\\) (900, 1600, …, 12100) som \\(x\\) blir \\(r\\approx1{,}00\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p>Ritar man punkterna böjer de uppåt: bromssträckan ökar med 4–5 m mellan de låga farterna men med 10–13 m mellan de höga. En rät linje ligger då över punkterna i mitten och under dem i ändarna. Värdet \\(r\\approx0{,}98\\) är ändå högt, eftersom sträckan hela tiden ökar. Mot \\(v^2\\) ligger punkterna nästan exakt på en rät linje genom origo, ungefär \\(s\\approx0{,}0054\\,v^2\\). Ett högt \\(r\\) räcker alltså inte; man måste också se att punkterna inte bildar en kurva.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram över fart och bromssträcka där punkterna böjer uppåt\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\"></text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"238.6\" x2=\"455\" y2=\"238.6\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"243.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"70\" y1=\"207.1\" x2=\"455\" y2=\"207.1\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"212.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"70\" y1=\"175.7\" x2=\"455\" y2=\"175.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"180.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"70\" y1=\"144.3\" x2=\"455\" y2=\"144.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"149.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"70\" y1=\"112.9\" x2=\"455\" y2=\"112.9\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"117.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">50</text><line x1=\"70\" y1=\"81.4\" x2=\"455\" y2=\"81.4\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"86.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">60</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">70</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><line x1=\"108.5\" y1=\"270\" x2=\"108.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"108.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><line x1=\"147.0\" y1=\"270\" x2=\"147.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"147.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><line x1=\"185.5\" y1=\"270\" x2=\"185.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"185.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">50</text><line x1=\"224.0\" y1=\"270\" x2=\"224.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"224.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">60</text><line x1=\"262.5\" y1=\"270\" x2=\"262.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">70</text><line x1=\"301.0\" y1=\"270\" x2=\"301.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"301.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">80</text><line x1=\"339.5\" y1=\"270\" x2=\"339.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"339.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">90</text><line x1=\"378.0\" y1=\"270\" x2=\"378.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"378.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">100</text><line x1=\"416.5\" y1=\"270\" x2=\"416.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"416.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">110</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">120</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Fart (km/h)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Bromssträcka (m)</text><line x1=\"108.5\" y1=\"270.5\" x2=\"416.5\" y2=\"82.3\" stroke=\"#8a96a3\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"108.5\" cy=\"254.3\" r=\"6\" fill=\"#216d87\"/><circle cx=\"147.0\" cy=\"241.7\" r=\"6\" fill=\"#216d87\"/><circle cx=\"185.5\" cy=\"226.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"224.0\" cy=\"210.3\" r=\"6\" fill=\"#216d87\"/><circle cx=\"262.5\" cy=\"191.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"301.0\" cy=\"163.1\" r=\"6\" fill=\"#216d87\"/><circle cx=\"339.5\" cy=\"134.9\" r=\"6\" fill=\"#216d87\"/><circle cx=\"378.0\" cy=\"103.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"416.5\" cy=\"62.6\" r=\"6\" fill=\"#216d87\"/></svg></div></div></div></div>",
+    "ledtrad": "<p>Gör ett punktdiagram och jämför med en rät linje. Bildar punkterna en båge? Prova sedan med farten i kvadrat.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.9829550934303578,
+      0.9994023499950518,
+      "Punkterna böjer uppåt, så sambandet är inte linjärt. Bromssträckan följer en rät linje mot farten i kvadrat, så ett högt r för fart och sträcka räcker inte för att en linjär modell ska vara bra."
+    ],
+    "tolerans": [
+      0.005,
+      0.005,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "text"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": [
+      2,
+      3,
+      4
+    ],
+    "arbetsinsats": [
+      1,
+      2,
+      2
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En bilprovning mäter bromssträckan för samma bil på torr asfalt vid olika farter.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Fart (km/h)</th><th scope=\"col\">Bromssträcka (m)</th></tr></thead><tbody><tr><td>30</td><td>5</td></tr><tr><td>40</td><td>9</td></tr><tr><td>50</td><td>14</td></tr><tr><td>60</td><td>19</td></tr><tr><td>70</td><td>25</td></tr><tr><td>80</td><td>34</td></tr><tr><td>90</td><td>43</td></tr><tr><td>100</td><td>53</td></tr><tr><td>110</td><td>66</td></tr></tbody></table>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm korrelationskoefficienten mellan fart och bromssträcka med ett digitalt verktyg. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Regressionsanalys i GeoGebra med farten som \\(x\\) och bromssträckan som \\(y\\) ger \\(r\\approx0{,}98\\).</p></div>",
+        "ledtrad": "<p>Skriv in värdena i två kolumner i GeoGebras kalkylblad, markera båda kolumnerna och välj regressionsanalys med två variabler. Där kan du läsa av \\(r\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Beräkna farten i kvadrat, \\(v^2\\), för varje mätning. Bestäm sedan korrelationskoefficienten mellan \\(v^2\\) och bromssträckan. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Gör en ny kolumn med \\(v^2\\): 900, 1600, 2500, …, 12100. I GeoGebras kalkylblad kan du skriva <code>=A2^2</code> och dra ner formeln. Regressionsanalys mellan \\(v^2\\) och bromssträckan ger \\(r\\approx1{,}00\\).</p></div>",
+        "ledtrad": "<p>Gör en ny kolumn där varje fart är upphöjd till två. Använd den kolumnen som \\(x\\).</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 2
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Korrelationskoefficienten mellan fart och bromssträcka är \\(r\\approx0{,}98\\). Mellan farten i kvadrat och bromssträckan är den \\(r\\approx1{,}00\\).</p><p>En elev säger: ”Eftersom \\(r\\) är nära 1 för fart och bromssträcka är en rät linje en bra modell.” Vilken bedömning stämmer?</p>",
+        "s": "<div class=\"facit-v2\"><p>Punkterna böjer uppåt. Mellan de låga farterna ökar sträckan med 4–5 m, men mellan de höga med 10–13 m. En rät linje passar därför sämre i ändarna och i mitten, även om \\(r\\) är högt. Mot farten i kvadrat ligger punkterna nästan på en rät linje. Därför är en modell där bromssträckan är proportionell mot \\(v^2\\) bättre.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram över fart och bromssträcka där punkterna böjer uppåt\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\"></text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"238.6\" x2=\"455\" y2=\"238.6\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"243.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"70\" y1=\"207.1\" x2=\"455\" y2=\"207.1\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"212.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"70\" y1=\"175.7\" x2=\"455\" y2=\"175.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"180.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"70\" y1=\"144.3\" x2=\"455\" y2=\"144.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"149.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"70\" y1=\"112.9\" x2=\"455\" y2=\"112.9\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"117.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">50</text><line x1=\"70\" y1=\"81.4\" x2=\"455\" y2=\"81.4\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"86.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">60</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">70</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><line x1=\"108.5\" y1=\"270\" x2=\"108.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"108.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><line x1=\"147.0\" y1=\"270\" x2=\"147.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"147.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><line x1=\"185.5\" y1=\"270\" x2=\"185.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"185.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">50</text><line x1=\"224.0\" y1=\"270\" x2=\"224.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"224.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">60</text><line x1=\"262.5\" y1=\"270\" x2=\"262.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">70</text><line x1=\"301.0\" y1=\"270\" x2=\"301.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"301.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">80</text><line x1=\"339.5\" y1=\"270\" x2=\"339.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"339.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">90</text><line x1=\"378.0\" y1=\"270\" x2=\"378.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"378.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">100</text><line x1=\"416.5\" y1=\"270\" x2=\"416.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"416.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">110</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">120</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Fart (km/h)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Bromssträcka (m)</text><line x1=\"108.5\" y1=\"270.5\" x2=\"416.5\" y2=\"82.3\" stroke=\"#8a96a3\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"108.5\" cy=\"254.3\" r=\"6\" fill=\"#216d87\"/><circle cx=\"147.0\" cy=\"241.7\" r=\"6\" fill=\"#216d87\"/><circle cx=\"185.5\" cy=\"226.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"224.0\" cy=\"210.3\" r=\"6\" fill=\"#216d87\"/><circle cx=\"262.5\" cy=\"191.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"301.0\" cy=\"163.1\" r=\"6\" fill=\"#216d87\"/><circle cx=\"339.5\" cy=\"134.9\" r=\"6\" fill=\"#216d87\"/><circle cx=\"378.0\" cy=\"103.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"416.5\" cy=\"62.6\" r=\"6\" fill=\"#216d87\"/></svg></div></div>",
+        "ledtrad": "<p>Rita punkterna och en rät linje i GeoGebra. Ligger punkterna jämnt runt linjen, eller bildar de en båge?</p>",
+        "niva": "A",
+        "poang": "0/0/2",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "alternativ": [
+          {
+            "txt": "Punkterna böjer uppåt, så sambandet är inte linjärt. Bromssträckan följer en rät linje mot farten i kvadrat, så ett högt r för fart och sträcka räcker inte för att en linjär modell ska vara bra.",
+            "ratt": true
+          },
+          {
+            "txt": "Båda värdena på r är nära 1, så en rät linje mellan fart och bromssträcka är en lika bra modell som en modell med farten i kvadrat.",
+            "ratt": false
+          },
+          {
+            "txt": "Eftersom r är nära 1 ökar bromssträckan med lika många meter för varje ökning med 10 km/h.",
+            "ratt": false
+          },
+          {
+            "txt": "Det högre värdet för farten i kvadrat visar att hög fart orsakar långa bromssträckor, medan det lägre värdet inte visar något orsakssamband.",
+            "ratt": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4.378",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "2/1/1",
+    "typ": "hitta ett troligt felinmatat mätvärde med punktdiagram och korrelation",
+    "familj": "Korrelation i mätdata med digitala verktyg",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "t": "<p>Tio elever har mätt sin längd och sitt armspann, alltså avståndet mellan fingertopparna med utsträckta armar.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Elev</th><th scope=\"col\">Längd (cm)</th><th scope=\"col\">Armspann (cm)</th></tr></thead><tbody><tr><td>1</td><td>158</td><td>156</td></tr><tr><td>2</td><td>162</td><td>163</td></tr><tr><td>3</td><td>165</td><td>163</td></tr><tr><td>4</td><td>168</td><td>170</td></tr><tr><td>5</td><td>171</td><td>169</td></tr><tr><td>6</td><td>174</td><td>176</td></tr><tr><td>7</td><td>177</td><td>157</td></tr><tr><td>8</td><td>180</td><td>181</td></tr><tr><td>9</td><td>183</td><td>185</td></tr><tr><td>10</td><td>188</td><td>189</td></tr></tbody></table><p>a) Bestäm korrelationskoefficienten för alla tio eleverna med ett digitalt verktyg. Svara med två decimaler.<br>b) Ett av armspannen har troligen skrivits in fel. Vilken elev gäller det? Motivera med ett punktdiagram.<br>c) Bestäm korrelationskoefficienten utan den eleven.<br>d) Diskutera hur man bör hantera mätvärdet.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p>\\(r\\approx0{,}82\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>I punktdiagrammet ligger elev 7 långt under de övriga. Elev 7 är 177 cm lång men har armspannet 157 cm. För de andra skiljer sig armspann och längd högst några centimeter. Troligen har två siffror kastats om: 175 blev 157.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram över längd och armspann där elev 7 ligger långt under de andra\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\"></text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">150</text><line x1=\"70\" y1=\"245.6\" x2=\"455\" y2=\"245.6\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"250.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">155</text><line x1=\"70\" y1=\"221.1\" x2=\"455\" y2=\"221.1\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"226.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">160</text><line x1=\"70\" y1=\"196.7\" x2=\"455\" y2=\"196.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"201.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">165</text><line x1=\"70\" y1=\"172.2\" x2=\"455\" y2=\"172.2\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"177.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">170</text><line x1=\"70\" y1=\"147.8\" x2=\"455\" y2=\"147.8\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"152.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">175</text><line x1=\"70\" y1=\"123.3\" x2=\"455\" y2=\"123.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"128.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">180</text><line x1=\"70\" y1=\"98.9\" x2=\"455\" y2=\"98.9\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"103.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">185</text><line x1=\"70\" y1=\"74.4\" x2=\"455\" y2=\"74.4\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"79.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">190</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">195</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">155</text><line x1=\"125.0\" y1=\"270\" x2=\"125.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"125.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">160</text><line x1=\"180.0\" y1=\"270\" x2=\"180.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"180.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">165</text><line x1=\"235.0\" y1=\"270\" x2=\"235.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"235.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">170</text><line x1=\"290.0\" y1=\"270\" x2=\"290.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"290.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">175</text><line x1=\"345.0\" y1=\"270\" x2=\"345.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"345.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">180</text><line x1=\"400.0\" y1=\"270\" x2=\"400.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"400.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">185</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">190</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Längd (cm)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Armspann (cm)</text><circle cx=\"103.0\" cy=\"240.7\" r=\"6\" fill=\"#216d87\"/><circle cx=\"147.0\" cy=\"206.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"180.0\" cy=\"206.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"213.0\" cy=\"172.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"246.0\" cy=\"177.1\" r=\"6\" fill=\"#216d87\"/><circle cx=\"279.0\" cy=\"142.9\" r=\"6\" fill=\"#216d87\"/><circle cx=\"345.0\" cy=\"118.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"378.0\" cy=\"98.9\" r=\"6\" fill=\"#216d87\"/><circle cx=\"433.0\" cy=\"79.3\" r=\"6\" fill=\"#216d87\"/><rect x=\"306.5\" y=\"230.3\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><text x=\"338\" y=\"242\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#c2410c\">Elev 7</text></svg></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p>Utan elev 7 blir \\(r\\approx0{,}99\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><p>En enda punkt sänker \\(r\\) från 0,99 till 0,82. Därför måste man veta om värdet är fel. Man bör kontrollmäta eller fråga eleven. Är det ett skrivfel rättas värdet. Är mätningen riktig ska den vara kvar, även om sambandet då ser svagare ut. Att ta bort punkter bara för att få ett högre \\(r\\) ger en missvisande bild.</p></div></div></div>",
+    "ledtrad": "<p>Rita punkterna i GeoGebra. Finns det en punkt som inte följer mönstret, och hur påverkar den \\(r\\)?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.817396700938369,
+      "Elev 7. Punkten ligger långt under de andra, med ett armspann som är 20 cm kortare än längden. Det tyder på att två siffror har kastats om: 175 blev 157.",
+      0.9903497636859632,
+      "Man bör först kontrollera mätningen. Är det ett skrivfel rättas värdet. Att ta bort en punkt bara för att r blir högre ger en missvisande bild."
+    ],
+    "tolerans": [
+      0.005,
+      null,
+      0.005,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "text",
+      "numeriskt",
+      "text"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c",
+      "d"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": [
+      2,
+      3,
+      2,
+      4
+    ],
+    "arbetsinsats": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tio elever har mätt sin längd och sitt armspann, alltså avståndet mellan fingertopparna med utsträckta armar.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Elev</th><th scope=\"col\">Längd (cm)</th><th scope=\"col\">Armspann (cm)</th></tr></thead><tbody><tr><td>1</td><td>158</td><td>156</td></tr><tr><td>2</td><td>162</td><td>163</td></tr><tr><td>3</td><td>165</td><td>163</td></tr><tr><td>4</td><td>168</td><td>170</td></tr><tr><td>5</td><td>171</td><td>169</td></tr><tr><td>6</td><td>174</td><td>176</td></tr><tr><td>7</td><td>177</td><td>157</td></tr><tr><td>8</td><td>180</td><td>181</td></tr><tr><td>9</td><td>183</td><td>185</td></tr><tr><td>10</td><td>188</td><td>189</td></tr></tbody></table>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm korrelationskoefficienten för alla tio eleverna med ett digitalt verktyg. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Med längden som \\(x\\) och armspannet som \\(y\\) ger regressionsanalys i GeoGebra \\(r\\approx0{,}82\\) för alla tio eleverna.</p></div>",
+        "ledtrad": "<p>Skriv in värdena i två kolumner i GeoGebras kalkylblad, markera båda kolumnerna och välj regressionsanalys med två variabler. Där kan du läsa av \\(r\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Ett av armspannen har troligen skrivits in fel. Vilken elev gäller det? Välj det svar som stämmer.</p>",
+        "s": "<div class=\"facit-v2\"><p>I punktdiagrammet ligger elev 7 långt under de övriga punkterna. Elev 7 är 177 cm lång men har armspannet 157 cm. För de andra eleverna skiljer sig armspann och längd högst några centimeter. Troligen har två siffror kastats om: 175 blev 157.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram över längd och armspann där elev 7 ligger långt under de andra\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\"></text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">150</text><line x1=\"70\" y1=\"245.6\" x2=\"455\" y2=\"245.6\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"250.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">155</text><line x1=\"70\" y1=\"221.1\" x2=\"455\" y2=\"221.1\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"226.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">160</text><line x1=\"70\" y1=\"196.7\" x2=\"455\" y2=\"196.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"201.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">165</text><line x1=\"70\" y1=\"172.2\" x2=\"455\" y2=\"172.2\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"177.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">170</text><line x1=\"70\" y1=\"147.8\" x2=\"455\" y2=\"147.8\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"152.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">175</text><line x1=\"70\" y1=\"123.3\" x2=\"455\" y2=\"123.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"128.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">180</text><line x1=\"70\" y1=\"98.9\" x2=\"455\" y2=\"98.9\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"103.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">185</text><line x1=\"70\" y1=\"74.4\" x2=\"455\" y2=\"74.4\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"79.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">190</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">195</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">155</text><line x1=\"125.0\" y1=\"270\" x2=\"125.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"125.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">160</text><line x1=\"180.0\" y1=\"270\" x2=\"180.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"180.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">165</text><line x1=\"235.0\" y1=\"270\" x2=\"235.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"235.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">170</text><line x1=\"290.0\" y1=\"270\" x2=\"290.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"290.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">175</text><line x1=\"345.0\" y1=\"270\" x2=\"345.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"345.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">180</text><line x1=\"400.0\" y1=\"270\" x2=\"400.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"400.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">185</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">190</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Längd (cm)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Armspann (cm)</text><circle cx=\"103.0\" cy=\"240.7\" r=\"6\" fill=\"#216d87\"/><circle cx=\"147.0\" cy=\"206.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"180.0\" cy=\"206.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"213.0\" cy=\"172.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"246.0\" cy=\"177.1\" r=\"6\" fill=\"#216d87\"/><circle cx=\"279.0\" cy=\"142.9\" r=\"6\" fill=\"#216d87\"/><circle cx=\"345.0\" cy=\"118.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"378.0\" cy=\"98.9\" r=\"6\" fill=\"#216d87\"/><circle cx=\"433.0\" cy=\"79.3\" r=\"6\" fill=\"#216d87\"/><rect x=\"306.5\" y=\"230.3\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><text x=\"338\" y=\"242\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#c2410c\">Elev 7</text></svg></div></div>",
+        "ledtrad": "<p>Rita punkterna i GeoGebra. Finns det en punkt som inte följer mönstret?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "alternativ": [
+          {
+            "txt": "Elev 7. Punkten ligger långt under de andra, med ett armspann som är 20 cm kortare än längden. Det tyder på att två siffror har kastats om: 175 blev 157.",
+            "ratt": true
+          },
+          {
+            "txt": "Elev 10, eftersom eleven är längst och därför ligger längst från de andra punkterna.",
+            "ratt": false
+          },
+          {
+            "txt": "Elev 1, eftersom eleven är kortast och har ett armspann som är mindre än längden.",
+            "ratt": false
+          },
+          {
+            "txt": "Det går inte att avgöra, eftersom alla elever har olika längd.",
+            "ratt": false
+          }
+        ]
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Elev 7 har längden 177 cm och armspannet 157 cm. Bestäm korrelationskoefficienten för de nio andra eleverna. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Ta bort raden för elev 7 och gör regressionsanalysen igen med nio punkter. Då blir \\(r\\approx0{,}99\\), ett mycket starkt positivt linjärt samband.</p></div>",
+        "ledtrad": "<p>Ta bort elev 7:s rad i kalkylbladet och gör regressionsanalysen igen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "d",
+        "fraga": "<p>För alla tio eleverna är \\(r\\approx0{,}82\\). Utan elev 7, som har längden 177 cm och armspannet 157 cm, blir \\(r\\approx0{,}99\\).</p><p>Hur bör man hantera elev 7:s mätvärde? Välj det svar som stämmer.</p>",
+        "s": "<div class=\"facit-v2\"><p>En enda punkt sänker \\(r\\) kraftigt. Därför måste man veta om värdet är fel. Kontrollmät eller fråga eleven. Är det ett skrivfel rättas värdet. Är mätningen riktig ska den vara kvar. Att ta bort punkter bara för att få ett högre \\(r\\) ger en missvisande bild.</p></div>",
+        "ledtrad": "<p>Vad skulle hända med slutsatserna om man alltid tog bort de punkter som inte passar?</p>",
+        "niva": "A",
+        "poang": "0/0/1",
+        "traningsniva": 4,
+        "arbetsinsats": 1,
+        "alternativ": [
+          {
+            "txt": "Man bör först kontrollera mätningen. Är det ett skrivfel rättas värdet. Att ta bort en punkt bara för att r blir högre ger en missvisande bild.",
+            "ratt": true
+          },
+          {
+            "txt": "Man ska alltid ta bort punkter som sänker r, eftersom r då visar det verkliga sambandet.",
+            "ratt": false
+          },
+          {
+            "txt": "Man får aldrig ändra eller ta bort ett mätvärde, även om det är ett tydligt skrivfel.",
+            "ratt": false
+          },
+          {
+            "txt": "Eftersom r utan elev 7 är nästan 1 är armspannet exakt lika med längden för alla människor.",
+            "ratt": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4.379",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "2/0/2",
+    "typ": "korrelation i hela materialet och i ett begränsat intervall",
+    "familj": "Korrelation i mätdata med digitala verktyg",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "t": "<p>En familj värmer sitt hus med el. Tabellen visar månadens medeltemperatur utomhus och husets elförbrukning under ett år.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Månad</th><th scope=\"col\">Temperatur (°C)</th><th scope=\"col\">Elförbrukning (kWh)</th></tr></thead><tbody><tr><td>jan</td><td>−4</td><td>2150</td></tr><tr><td>feb</td><td>−3</td><td>2010</td></tr><tr><td>mar</td><td>1</td><td>1720</td></tr><tr><td>apr</td><td>6</td><td>1270</td></tr><tr><td>maj</td><td>11</td><td>720</td></tr><tr><td>jun</td><td>15</td><td>640</td></tr><tr><td>jul</td><td>17</td><td>690</td></tr><tr><td>aug</td><td>16</td><td>610</td></tr><tr><td>sep</td><td>12</td><td>700</td></tr><tr><td>okt</td><td>7</td><td>1250</td></tr><tr><td>nov</td><td>2</td><td>1640</td></tr><tr><td>dec</td><td>−2</td><td>1990</td></tr></tbody></table><p>a) Bestäm korrelationskoefficienten mellan temperatur och elförbrukning för hela året med ett digitalt verktyg. Svara med två decimaler.<br>b) Bestäm korrelationskoefficienten för bara maj–september.<br>c) Förklara varför sambandet blir så mycket svagare i b). Kan man dra slutsatsen att temperaturen inte påverkar elförbrukningen?</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p>Hela året: \\(r\\approx-0{,}98\\), ett mycket starkt negativt samband.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>Maj–september: \\(r\\approx-0{,}64\\), ett svagare negativt samband.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p>Över hela året varierar temperaturen från −4 till 17 °C och förbrukningen från cirka 600 till 2150 kWh. Uppvärmningen ger då ett tydligt mönster. Under maj–september ligger temperaturen mellan 11 och 17 °C och huset värms knappt. Förbrukningen varierar då mest av andra skäl, till exempel varmvatten och hushållsel. När man bara studerar en liten del av intervallet kan \\(r\\) bli mycket svagare, även om sambandet finns. Slutsatsen ”temperaturen spelar ingen roll” vore fel.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram över medeltemperatur och elförbrukning där sommarmånaderna ligger samlade nere till höger\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\"></text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"233.3\" x2=\"455\" y2=\"233.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"238.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">400</text><line x1=\"70\" y1=\"196.7\" x2=\"455\" y2=\"196.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"201.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">800</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">1200</text><line x1=\"70\" y1=\"123.3\" x2=\"455\" y2=\"123.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"128.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">1600</text><line x1=\"70\" y1=\"86.7\" x2=\"455\" y2=\"86.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"91.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">2000</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">2400</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">−5</text><line x1=\"147.0\" y1=\"270\" x2=\"147.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"147.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"224.0\" y1=\"270\" x2=\"224.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"224.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"301.0\" y1=\"270\" x2=\"301.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"301.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"378.0\" y1=\"270\" x2=\"378.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"378.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">15</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Medeltemperatur (°C)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Elförbrukning (kWh)</text><circle cx=\"85.4\" cy=\"72.9\" r=\"6\" fill=\"#216d87\"/><circle cx=\"100.8\" cy=\"85.8\" r=\"6\" fill=\"#216d87\"/><circle cx=\"162.4\" cy=\"112.3\" r=\"6\" fill=\"#216d87\"/><circle cx=\"239.4\" cy=\"153.6\" r=\"6\" fill=\"#216d87\"/><circle cx=\"254.8\" cy=\"155.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"177.8\" cy=\"119.7\" r=\"6\" fill=\"#216d87\"/><circle cx=\"116.2\" cy=\"87.6\" r=\"6\" fill=\"#216d87\"/><rect x=\"310.9\" y=\"198.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"372.5\" y=\"205.8\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"403.3\" y=\"201.2\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"387.9\" y=\"208.6\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"326.3\" y=\"200.3\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><text x=\"318\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#c2410c\">maj–sep</text></svg></div></div></div></div>",
+    "ledtrad": "<p>Rita alla tolv punkterna i GeoGebra och markera sommarmånaderna. Hur stor del av temperaturintervallet täcker de?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -0.9833216542573722,
+      -0.6410979343251069,
+      "Under maj–september varierar temperaturen lite och huset värms knappt. Förbrukningen styrs då mest av annat, till exempel varmvatten och hushållsel, så temperaturens inverkan syns sämre."
+    ],
+    "tolerans": [
+      0.005,
+      0.005,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "text"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": [
+      2,
+      2,
+      4
+    ],
+    "arbetsinsats": [
+      1,
+      1,
+      2
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>En familj värmer sitt hus med el. Tabellen visar månadens medeltemperatur utomhus och husets elförbrukning under ett år.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Månad</th><th scope=\"col\">Temperatur (°C)</th><th scope=\"col\">Elförbrukning (kWh)</th></tr></thead><tbody><tr><td>jan</td><td>−4</td><td>2150</td></tr><tr><td>feb</td><td>−3</td><td>2010</td></tr><tr><td>mar</td><td>1</td><td>1720</td></tr><tr><td>apr</td><td>6</td><td>1270</td></tr><tr><td>maj</td><td>11</td><td>720</td></tr><tr><td>jun</td><td>15</td><td>640</td></tr><tr><td>jul</td><td>17</td><td>690</td></tr><tr><td>aug</td><td>16</td><td>610</td></tr><tr><td>sep</td><td>12</td><td>700</td></tr><tr><td>okt</td><td>7</td><td>1250</td></tr><tr><td>nov</td><td>2</td><td>1640</td></tr><tr><td>dec</td><td>−2</td><td>1990</td></tr></tbody></table>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm korrelationskoefficienten mellan temperatur och elförbrukning för hela året med ett digitalt verktyg. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Med temperaturen som \\(x\\) och elförbrukningen som \\(y\\) ger GeoGebra \\(r\\approx-0{,}98\\) för alla tolv månaderna. Ju kallare månad, desto mer el.</p></div>",
+        "ledtrad": "<p>Skriv in värdena i två kolumner i GeoGebras kalkylblad, markera båda kolumnerna och välj regressionsanalys med två variabler. Där kan du läsa av \\(r\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm korrelationskoefficienten för bara maj–september. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Använd bara de fem raderna maj–september. GeoGebra ger \\(r\\approx-0{,}64\\), ett betydligt svagare negativt samband än för hela året.</p></div>",
+        "ledtrad": "<p>Markera bara raderna för maj, juni, juli, augusti och september innan du gör regressionsanalysen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>För hela året är \\(r\\approx-0{,}98\\). För bara maj–september är \\(r\\approx-0{,}64\\).</p><p>Varför är sambandet så mycket svagare för maj–september? Välj den förklaring som stämmer.</p>",
+        "s": "<div class=\"facit-v2\"><p>Under maj–september ligger temperaturen mellan 11 och 17 °C, och huset värms knappt. Förbrukningen varierar då mest av andra skäl, till exempel varmvatten och hushållsel. När man bara studerar en liten del av temperaturintervallet syns uppvärmningens samband sämre, så \\(r\\) blir svagare. Över hela året är mönstret tydligt.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram över medeltemperatur och elförbrukning där sommarmånaderna ligger samlade nere till höger\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\"></text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"233.3\" x2=\"455\" y2=\"233.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"238.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">400</text><line x1=\"70\" y1=\"196.7\" x2=\"455\" y2=\"196.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"201.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">800</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">1200</text><line x1=\"70\" y1=\"123.3\" x2=\"455\" y2=\"123.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"128.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">1600</text><line x1=\"70\" y1=\"86.7\" x2=\"455\" y2=\"86.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"91.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">2000</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">2400</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">−5</text><line x1=\"147.0\" y1=\"270\" x2=\"147.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"147.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"224.0\" y1=\"270\" x2=\"224.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"224.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"301.0\" y1=\"270\" x2=\"301.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"301.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"378.0\" y1=\"270\" x2=\"378.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"378.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">15</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Medeltemperatur (°C)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Elförbrukning (kWh)</text><circle cx=\"85.4\" cy=\"72.9\" r=\"6\" fill=\"#216d87\"/><circle cx=\"100.8\" cy=\"85.8\" r=\"6\" fill=\"#216d87\"/><circle cx=\"162.4\" cy=\"112.3\" r=\"6\" fill=\"#216d87\"/><circle cx=\"239.4\" cy=\"153.6\" r=\"6\" fill=\"#216d87\"/><circle cx=\"254.8\" cy=\"155.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"177.8\" cy=\"119.7\" r=\"6\" fill=\"#216d87\"/><circle cx=\"116.2\" cy=\"87.6\" r=\"6\" fill=\"#216d87\"/><rect x=\"310.9\" y=\"198.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"372.5\" y=\"205.8\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"403.3\" y=\"201.2\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"387.9\" y=\"208.6\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"326.3\" y=\"200.3\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><text x=\"318\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#c2410c\">maj–sep</text></svg></div></div>",
+        "ledtrad": "<p>Rita alla tolv punkterna i GeoGebra. Hur stor del av temperaturintervallet täcker sommarmånaderna, och vad används elen till då?</p>",
+        "niva": "A",
+        "poang": "0/0/2",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "alternativ": [
+          {
+            "txt": "Under maj–september varierar temperaturen lite och huset värms knappt. Förbrukningen styrs då mest av annat, till exempel varmvatten och hushållsel, så temperaturens inverkan syns sämre.",
+            "ratt": true
+          },
+          {
+            "txt": "Temperaturen påverkar inte elförbrukningen under sommaren, så sambandet för hela året är en slump.",
+            "ratt": false
+          },
+          {
+            "txt": "Fem mätvärden räcker inte för att beräkna någon korrelationskoefficient.",
+            "ratt": false
+          },
+          {
+            "txt": "Korrelationskoefficienten blir alltid svagare på sommaren, eftersom temperaturerna är positiva.",
+            "ratt": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4.380",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "2/0/2",
+    "typ": "jämföra två undersökningar med nästan samma r men olika mönster",
+    "familj": "Korrelation i mätdata med digitala verktyg",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "t": "<p>Två odlingsförsök har gjorts. I försök 1 får plantor olika mycket vatten och man mäter höjden efter fyra veckor. I försök 2 får odlingsrutor olika mycket gödsel och man väger skörden.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Vatten (l/vecka)</th><th scope=\"col\">Höjd (cm)</th><th scope=\"col\">Gödsel (kg)</th><th scope=\"col\">Skörd (kg)</th></tr></thead><tbody><tr><td>1</td><td>3,1</td><td>1</td><td>1,8</td></tr><tr><td>2</td><td>5,6</td><td>2</td><td>5,3</td></tr><tr><td>3</td><td>4,2</td><td>3</td><td>7,8</td></tr><tr><td>4</td><td>7,9</td><td>4</td><td>9,4</td></tr><tr><td>5</td><td>6,4</td><td>5</td><td>10,4</td></tr><tr><td>6</td><td>9,8</td><td>6</td><td>10,9</td></tr><tr><td>7</td><td>8,1</td><td>7</td><td>11,0</td></tr><tr><td>8</td><td>11,3</td><td>8</td><td>10,8</td></tr></tbody></table><p>a) Bestäm korrelationskoefficienten för försök 1 med ett digitalt verktyg. Svara med två decimaler.<br>b) Bestäm korrelationskoefficienten för försök 2.<br>c) Korrelationskoefficienterna är nästan lika. Undersök punktdiagrammen och avgör i vilket försök en linjär modell är lämplig. Motivera.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p>Försök 1: \\(r\\approx0{,}90\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>Försök 2: \\(r\\approx0{,}89\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p>Korrelationskoefficienterna är nästan lika, men punktdiagrammen ser olika ut. I försök 1 sprider sig punkterna slumpmässigt runt en rät linje. I försök 2 ligger punkterna nära en kurva: skörden ökar först snabbt och planar sedan ut efter ungefär 5 kg gödsel. En rät linje skulle där förutsäga att skörden fortsätter att öka med mer gödsel, vilket punkterna inte visar. Man måste alltså se på diagrammet; \\(r\\) avslöjar inte formen.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram för försök 1 där punkterna sprider sig runt en rät linje\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\">Försök 1</text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"233.3\" x2=\"455\" y2=\"233.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"238.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"70\" y1=\"196.7\" x2=\"455\" y2=\"196.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"201.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">4</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">6</text><line x1=\"70\" y1=\"123.3\" x2=\"455\" y2=\"123.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"128.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">8</text><line x1=\"70\" y1=\"86.7\" x2=\"455\" y2=\"86.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"91.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">12</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"112.8\" y1=\"270\" x2=\"112.8\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"112.8\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"155.6\" y1=\"270\" x2=\"155.6\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"155.6\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"198.3\" y1=\"270\" x2=\"198.3\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"198.3\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"241.1\" y1=\"270\" x2=\"241.1\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"241.1\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"283.9\" y1=\"270\" x2=\"283.9\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"283.9\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"326.7\" y1=\"270\" x2=\"326.7\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"326.7\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"369.4\" y1=\"270\" x2=\"369.4\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"369.4\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><line x1=\"412.2\" y1=\"270\" x2=\"412.2\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"412.2\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">9</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Vatten (liter per vecka)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Höjd (cm)</text><circle cx=\"112.8\" cy=\"213.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"155.6\" cy=\"167.3\" r=\"6\" fill=\"#216d87\"/><circle cx=\"198.3\" cy=\"193.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"241.1\" cy=\"125.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"283.9\" cy=\"152.7\" r=\"6\" fill=\"#216d87\"/><circle cx=\"326.7\" cy=\"90.3\" r=\"6\" fill=\"#216d87\"/><circle cx=\"369.4\" cy=\"121.5\" r=\"6\" fill=\"#216d87\"/><circle cx=\"412.2\" cy=\"62.8\" r=\"6\" fill=\"#216d87\"/></svg></div><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram för försök 2 där punkterna stiger brant och sedan planar ut\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\">Försök 2</text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"233.3\" x2=\"455\" y2=\"233.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"238.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"70\" y1=\"196.7\" x2=\"455\" y2=\"196.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"201.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">4</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">6</text><line x1=\"70\" y1=\"123.3\" x2=\"455\" y2=\"123.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"128.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">8</text><line x1=\"70\" y1=\"86.7\" x2=\"455\" y2=\"86.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"91.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">12</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"112.8\" y1=\"270\" x2=\"112.8\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"112.8\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"155.6\" y1=\"270\" x2=\"155.6\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"155.6\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"198.3\" y1=\"270\" x2=\"198.3\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"198.3\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"241.1\" y1=\"270\" x2=\"241.1\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"241.1\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"283.9\" y1=\"270\" x2=\"283.9\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"283.9\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"326.7\" y1=\"270\" x2=\"326.7\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"326.7\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"369.4\" y1=\"270\" x2=\"369.4\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"369.4\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><line x1=\"412.2\" y1=\"270\" x2=\"412.2\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"412.2\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">9</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Gödsel (kg)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Skörd (kg)</text><rect x=\"107.3\" y=\"231.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"150.1\" y=\"167.3\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"192.8\" y=\"121.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"235.6\" y=\"92.2\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"278.4\" y=\"73.8\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"321.2\" y=\"64.7\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"363.9\" y=\"62.8\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"406.7\" y=\"66.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/></svg></div></div></div></div>",
+    "ledtrad": "<p>Bestäm \\(r\\) för båda försöken och rita sedan båda punktdiagrammen. Är det samma typ av mönster?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.897011087257237,
+      0.8933413495494493,
+      "Försök 1. Där sprider sig punkterna runt en rät linje. I försök 2 ökar skörden först snabbt och planar sedan ut, så en rät linje ger fel prognos för mer gödsel."
+    ],
+    "tolerans": [
+      0.005,
+      0.005,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "text"
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": [
+      2,
+      2,
+      4
+    ],
+    "arbetsinsats": [
+      1,
+      1,
+      2
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två odlingsförsök har gjorts. I försök 1 får plantor olika mycket vatten och man mäter höjden efter fyra veckor. I försök 2 får odlingsrutor olika mycket gödsel och man väger skörden.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Vatten (l/vecka)</th><th scope=\"col\">Höjd (cm)</th><th scope=\"col\">Gödsel (kg)</th><th scope=\"col\">Skörd (kg)</th></tr></thead><tbody><tr><td>1</td><td>3,1</td><td>1</td><td>1,8</td></tr><tr><td>2</td><td>5,6</td><td>2</td><td>5,3</td></tr><tr><td>3</td><td>4,2</td><td>3</td><td>7,8</td></tr><tr><td>4</td><td>7,9</td><td>4</td><td>9,4</td></tr><tr><td>5</td><td>6,4</td><td>5</td><td>10,4</td></tr><tr><td>6</td><td>9,8</td><td>6</td><td>10,9</td></tr><tr><td>7</td><td>8,1</td><td>7</td><td>11,0</td></tr><tr><td>8</td><td>11,3</td><td>8</td><td>10,8</td></tr></tbody></table>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm korrelationskoefficienten för försök 1 med ett digitalt verktyg. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Med vattenmängden som \\(x\\) och höjden som \\(y\\) ger GeoGebra \\(r\\approx0{,}90\\).</p></div>",
+        "ledtrad": "<p>Skriv in värdena i två kolumner i GeoGebras kalkylblad, markera båda kolumnerna och välj regressionsanalys med två variabler. Där kan du läsa av \\(r\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Bestäm korrelationskoefficienten för försök 2 med ett digitalt verktyg. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Med gödselmängden som \\(x\\) och skörden som \\(y\\) ger GeoGebra \\(r\\approx0{,}89\\).</p></div>",
+        "ledtrad": "<p>Använd gödselkolumnen som \\(x\\) och skördekolumnen som \\(y\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Försök 1 har \\(r\\approx0{,}90\\) och försök 2 har \\(r\\approx0{,}89\\).</p><p>I vilket försök är en linjär modell lämplig? Välj det svar som stämmer.</p>",
+        "s": "<div class=\"facit-v2\"><p>Korrelationskoefficienterna är nästan lika, men diagrammen ser olika ut. I försök 1 sprider sig punkterna runt en rät linje. I försök 2 ökar skörden först snabbt och planar sedan ut. En rät linje skulle där förutsäga att skörden fortsätter att öka med mer gödsel. Därför passar en linjär modell bara i försök 1.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram för försök 1 där punkterna sprider sig runt en rät linje\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\">Försök 1</text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"233.3\" x2=\"455\" y2=\"233.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"238.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"70\" y1=\"196.7\" x2=\"455\" y2=\"196.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"201.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">4</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">6</text><line x1=\"70\" y1=\"123.3\" x2=\"455\" y2=\"123.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"128.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">8</text><line x1=\"70\" y1=\"86.7\" x2=\"455\" y2=\"86.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"91.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">12</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"112.8\" y1=\"270\" x2=\"112.8\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"112.8\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"155.6\" y1=\"270\" x2=\"155.6\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"155.6\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"198.3\" y1=\"270\" x2=\"198.3\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"198.3\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"241.1\" y1=\"270\" x2=\"241.1\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"241.1\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"283.9\" y1=\"270\" x2=\"283.9\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"283.9\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"326.7\" y1=\"270\" x2=\"326.7\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"326.7\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"369.4\" y1=\"270\" x2=\"369.4\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"369.4\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><line x1=\"412.2\" y1=\"270\" x2=\"412.2\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"412.2\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">9</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Vatten (liter per vecka)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Höjd (cm)</text><circle cx=\"112.8\" cy=\"213.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"155.6\" cy=\"167.3\" r=\"6\" fill=\"#216d87\"/><circle cx=\"198.3\" cy=\"193.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"241.1\" cy=\"125.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"283.9\" cy=\"152.7\" r=\"6\" fill=\"#216d87\"/><circle cx=\"326.7\" cy=\"90.3\" r=\"6\" fill=\"#216d87\"/><circle cx=\"369.4\" cy=\"121.5\" r=\"6\" fill=\"#216d87\"/><circle cx=\"412.2\" cy=\"62.8\" r=\"6\" fill=\"#216d87\"/></svg></div><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram för försök 2 där punkterna stiger brant och sedan planar ut\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\">Försök 2</text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"233.3\" x2=\"455\" y2=\"233.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"238.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"70\" y1=\"196.7\" x2=\"455\" y2=\"196.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"201.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">4</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">6</text><line x1=\"70\" y1=\"123.3\" x2=\"455\" y2=\"123.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"128.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">8</text><line x1=\"70\" y1=\"86.7\" x2=\"455\" y2=\"86.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"91.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">12</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"112.8\" y1=\"270\" x2=\"112.8\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"112.8\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"155.6\" y1=\"270\" x2=\"155.6\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"155.6\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"198.3\" y1=\"270\" x2=\"198.3\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"198.3\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"241.1\" y1=\"270\" x2=\"241.1\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"241.1\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"283.9\" y1=\"270\" x2=\"283.9\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"283.9\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"326.7\" y1=\"270\" x2=\"326.7\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"326.7\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"369.4\" y1=\"270\" x2=\"369.4\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"369.4\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><line x1=\"412.2\" y1=\"270\" x2=\"412.2\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"412.2\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">9</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Gödsel (kg)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Skörd (kg)</text><rect x=\"107.3\" y=\"231.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"150.1\" y=\"167.3\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"192.8\" y=\"121.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"235.6\" y=\"92.2\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"278.4\" y=\"73.8\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"321.2\" y=\"64.7\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"363.9\" y=\"62.8\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"406.7\" y=\"66.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/></svg></div></div>",
+        "ledtrad": "<p>Rita båda försöken i GeoGebra. Ligger punkterna runt en rät linje eller längs en kurva?</p>",
+        "niva": "A",
+        "poang": "0/0/2",
+        "traningsniva": 4,
+        "arbetsinsats": 2,
+        "alternativ": [
+          {
+            "txt": "Försök 1. Där sprider sig punkterna runt en rät linje. I försök 2 ökar skörden först snabbt och planar sedan ut, så en rät linje ger fel prognos för mer gödsel.",
+            "ratt": true
+          },
+          {
+            "txt": "Försök 2, eftersom dess punkter ligger närmare en kurva och därför har mindre spridning.",
+            "ratt": false
+          },
+          {
+            "txt": "En linjär modell passar lika bra i båda försöken, eftersom korrelationskoefficienterna är nästan lika stora.",
+            "ratt": false
+          },
+          {
+            "txt": "Inget av försöken, eftersom korrelationskoefficienten måste vara exakt 1 för att en linjär modell ska få användas.",
+            "ratt": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4.381",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "typ": "bestämma möjliga mätvärden utifrån ett krav på korrelationen",
+    "familj": "Korrelation i mätdata med digitala verktyg",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "t": "<p>Nora mäter höjden på en solrosplanta en gång i veckan. Noras värde för vecka 6 har suddats ut.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Vecka</th><th scope=\"col\">Höjd (cm)</th></tr></thead><tbody><tr><td>1</td><td>4</td></tr><tr><td>2</td><td>7</td></tr><tr><td>3</td><td>7</td></tr><tr><td>4</td><td>10</td></tr><tr><td>5</td><td>12</td></tr><tr><td>6</td><td>?</td></tr></tbody></table><p>Nora minns att korrelationskoefficienten för alla sex mätningarna var minst \\(0{,}95\\). Höjden mättes i hela centimeter.</p><p>Vilka värden kan höjden för vecka 6 ha haft? Ange det minsta och det största möjliga värdet.</p>",
+    "s": "<div class=\"facit-v2\"><p>Låt höjden vecka 6 vara \\(y\\). I GeoGebra kan man skapa en glidare \\(y\\), skriva punkterna som en lista <code>{(1,4),(2,7),(3,7),(4,10),(5,12),(6,y)}</code> och låta regressionsanalysen, eller ett kalkylblad där \\(y\\) ändras, visa \\(r\\). Man kan också pröva heltal ett i taget.</p><p>Med \\(y=11\\) blir \\(r\\approx0{,}939\\) och med \\(y=12\\) blir \\(r\\approx0{,}968\\). Med \\(y=18\\) blir \\(r\\approx0{,}955\\) och med \\(y=19\\) blir \\(r\\approx0{,}943\\). Kravet \\(r\\ge0{,}95\\) gäller för ungefär \\(11{,}32\\le y\\le18{,}42\\), alltså för heltalen 12 till 18.</p><p>Det kan verka konstigt att ett för stort värde också sänker \\(r\\). Men de fem första punkterna följer en linje som stiger ungefär 2 cm per vecka. Ett mycket högt värde hamnar långt ovanför den linjen, och då passar punkterna sämre till en rät linje. Ett för lågt värde hamnar långt under.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram över fem kända mätningar och de två ytterlighetsvärdena 12 och 18 för vecka 6\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\"></text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"248.0\" x2=\"455\" y2=\"248.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"253.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"70\" y1=\"226.0\" x2=\"455\" y2=\"226.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"231.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">4</text><line x1=\"70\" y1=\"204.0\" x2=\"455\" y2=\"204.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"209.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">6</text><line x1=\"70\" y1=\"182.0\" x2=\"455\" y2=\"182.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">8</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"70\" y1=\"138.0\" x2=\"455\" y2=\"138.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"143.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">12</text><line x1=\"70\" y1=\"116.0\" x2=\"455\" y2=\"116.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"121.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">14</text><line x1=\"70\" y1=\"94.0\" x2=\"455\" y2=\"94.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"99.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">16</text><line x1=\"70\" y1=\"72.0\" x2=\"455\" y2=\"72.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"77.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">18</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"125.0\" y1=\"270\" x2=\"125.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"125.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"180.0\" y1=\"270\" x2=\"180.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"180.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"235.0\" y1=\"270\" x2=\"235.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"235.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"290.0\" y1=\"270\" x2=\"290.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"290.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"345.0\" y1=\"270\" x2=\"345.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"345.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"400.0\" y1=\"270\" x2=\"400.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"400.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Vecka</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Höjd (cm)</text><circle cx=\"125.0\" cy=\"226.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"180.0\" cy=\"193.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"235.0\" cy=\"193.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"290.0\" cy=\"160.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"345.0\" cy=\"138.0\" r=\"6\" fill=\"#216d87\"/><rect x=\"394.5\" y=\"132.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><text x=\"412\" y=\"148\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#c2410c\">12 cm</text><rect x=\"394.5\" y=\"66.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><text x=\"412\" y=\"77\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#c2410c\">18 cm</text></svg></div><p><strong>Svar:</strong> minst 12 cm och högst 18 cm.</p></div>",
+    "ledtrad": "<p>Gör \\(y\\) till en glidare i GeoGebra och se hur \\(r\\) ändras. Pröva både små och stora värden. Kan \\(r\\) bli lägre om \\(y\\) blir för stort?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      12,
+      18
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "självrättning": true,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm"
+    ],
+    "svarEtiketter": [
+      "Minsta höjd",
+      "Största höjd"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 5,
+    "arbetsinsats": 2
+  },
+  {
+    "id": "4.382",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "1/1/0",
+    "typ": "starkt samband som beror på en gemensam trend över tid",
+    "familj": "Korrelation i mätdata med digitala verktyg",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "t": "<p>Tabellen visar antalet elsparkcyklar att hyra i en stad och antalet hemleveranser av mat från stadens butiker under nio år.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">År</th><th scope=\"col\">Elsparkcyklar</th><th scope=\"col\">Hemleveranser (tusental)</th></tr></thead><tbody><tr><td>2016</td><td>0</td><td>12</td></tr><tr><td>2017</td><td>150</td><td>14</td></tr><tr><td>2018</td><td>420</td><td>19</td></tr><tr><td>2019</td><td>610</td><td>24</td></tr><tr><td>2020</td><td>700</td><td>41</td></tr><tr><td>2021</td><td>980</td><td>47</td></tr><tr><td>2022</td><td>1150</td><td>45</td></tr><tr><td>2023</td><td>1210</td><td>50</td></tr><tr><td>2024</td><td>1400</td><td>55</td></tr></tbody></table><p>a) Bestäm korrelationskoefficienten mellan antalet elsparkcyklar och antalet hemleveranser med ett digitalt verktyg. Svara med två decimaler.<br>b) En politiker säger: ”Om vi tar bort elsparkcyklarna minskar hemleveranserna.” Bedöm påståendet.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p>\\(r\\approx0{,}96\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>Nej. Båda storheterna har ökat år för år, av olika skäl. Ritar man dem mot tiden ser man två växande serier. Ett högt \\(r\\) visar bara att de har följts åt, inte att det ena orsakar det andra. Den gemensamma bakomliggande variabeln är tiden, med ny teknik och nya vanor.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Antalet elsparkcyklar ökar år för år från 2016 till 2024\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\">Elsparkcyklar</text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"242.5\" x2=\"455\" y2=\"242.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"247.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">200</text><line x1=\"70\" y1=\"215.0\" x2=\"455\" y2=\"215.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"220.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">400</text><line x1=\"70\" y1=\"187.5\" x2=\"455\" y2=\"187.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"192.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">600</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">800</text><line x1=\"70\" y1=\"132.5\" x2=\"455\" y2=\"132.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"137.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">1000</text><line x1=\"70\" y1=\"105.0\" x2=\"455\" y2=\"105.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">1200</text><line x1=\"70\" y1=\"77.5\" x2=\"455\" y2=\"77.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"82.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">1400</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">1600</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2015</text><line x1=\"108.5\" y1=\"270\" x2=\"108.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"108.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2016</text><line x1=\"147.0\" y1=\"270\" x2=\"147.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"147.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2017</text><line x1=\"185.5\" y1=\"270\" x2=\"185.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"185.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2018</text><line x1=\"224.0\" y1=\"270\" x2=\"224.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"224.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2019</text><line x1=\"262.5\" y1=\"270\" x2=\"262.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2020</text><line x1=\"301.0\" y1=\"270\" x2=\"301.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"301.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2021</text><line x1=\"339.5\" y1=\"270\" x2=\"339.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"339.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2022</text><line x1=\"378.0\" y1=\"270\" x2=\"378.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"378.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2023</text><line x1=\"416.5\" y1=\"270\" x2=\"416.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"416.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2024</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2025</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">År</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Antal</text><circle cx=\"108.5\" cy=\"270.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"147.0\" cy=\"249.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"185.5\" cy=\"212.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"224.0\" cy=\"186.1\" r=\"6\" fill=\"#216d87\"/><circle cx=\"262.5\" cy=\"173.8\" r=\"6\" fill=\"#216d87\"/><circle cx=\"301.0\" cy=\"135.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"339.5\" cy=\"111.9\" r=\"6\" fill=\"#216d87\"/><circle cx=\"378.0\" cy=\"103.6\" r=\"6\" fill=\"#216d87\"/><circle cx=\"416.5\" cy=\"77.5\" r=\"6\" fill=\"#216d87\"/></svg></div><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Antalet hemleveranser ökar år för år från 2016 till 2024\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\">Hemleveranser</text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"233.3\" x2=\"455\" y2=\"233.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"238.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"70\" y1=\"196.7\" x2=\"455\" y2=\"196.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"201.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"70\" y1=\"123.3\" x2=\"455\" y2=\"123.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"128.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"70\" y1=\"86.7\" x2=\"455\" y2=\"86.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"91.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">50</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">60</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2015</text><line x1=\"108.5\" y1=\"270\" x2=\"108.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"108.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2016</text><line x1=\"147.0\" y1=\"270\" x2=\"147.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"147.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2017</text><line x1=\"185.5\" y1=\"270\" x2=\"185.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"185.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2018</text><line x1=\"224.0\" y1=\"270\" x2=\"224.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"224.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2019</text><line x1=\"262.5\" y1=\"270\" x2=\"262.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2020</text><line x1=\"301.0\" y1=\"270\" x2=\"301.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"301.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2021</text><line x1=\"339.5\" y1=\"270\" x2=\"339.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"339.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2022</text><line x1=\"378.0\" y1=\"270\" x2=\"378.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"378.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2023</text><line x1=\"416.5\" y1=\"270\" x2=\"416.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"416.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2024</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2025</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">År</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Tusental</text><rect x=\"103.0\" y=\"220.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"141.5\" y=\"213.2\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"180.0\" y=\"194.8\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"218.5\" y=\"176.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"257.0\" y=\"114.2\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"295.5\" y=\"92.2\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"334.0\" y=\"99.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"372.5\" y=\"81.2\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"411.0\" y=\"62.8\" width=\"11\" height=\"11\" fill=\"#c2410c\"/></svg></div></div></div></div>",
+    "ledtrad": "<p>Bestäm \\(r\\) och fundera sedan på hur båda storheterna har förändrats med tiden.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.9636818086805307,
+      "Nej. Båda har ökat år för år av olika skäl, till exempel ny teknik och appar. Det starka sambandet beror på den gemensamma ökningen över tid, inte på att det ena orsakar det andra."
+    ],
+    "tolerans": [
+      0.005,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "text"
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": [
+      2,
+      3
+    ],
+    "arbetsinsats": [
+      1,
+      1
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Tabellen visar antalet elsparkcyklar att hyra i en stad och antalet hemleveranser av mat från stadens butiker under nio år.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">År</th><th scope=\"col\">Elsparkcyklar</th><th scope=\"col\">Hemleveranser (tusental)</th></tr></thead><tbody><tr><td>2016</td><td>0</td><td>12</td></tr><tr><td>2017</td><td>150</td><td>14</td></tr><tr><td>2018</td><td>420</td><td>19</td></tr><tr><td>2019</td><td>610</td><td>24</td></tr><tr><td>2020</td><td>700</td><td>41</td></tr><tr><td>2021</td><td>980</td><td>47</td></tr><tr><td>2022</td><td>1150</td><td>45</td></tr><tr><td>2023</td><td>1210</td><td>50</td></tr><tr><td>2024</td><td>1400</td><td>55</td></tr></tbody></table>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm korrelationskoefficienten mellan antalet elsparkcyklar och antalet hemleveranser med ett digitalt verktyg. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Med antalet elsparkcyklar som \\(x\\) och hemleveranserna som \\(y\\) ger GeoGebra \\(r\\approx0{,}96\\), ett mycket starkt positivt linjärt samband.</p></div>",
+        "ledtrad": "<p>Använd de två sista kolumnerna, inte årtalen, i regressionsanalysen.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Korrelationskoefficienten mellan antalet elsparkcyklar och antalet hemleveranser är \\(r\\approx0{,}96\\).</p><p>En politiker säger: ”Om vi tar bort elsparkcyklarna minskar hemleveranserna.” Har politikern stöd i siffrorna? Välj det svar som stämmer.</p>",
+        "s": "<div class=\"facit-v2\"><p>Nej. Båda storheterna har ökat år för år, av olika skäl. Det höga \\(r\\) visar bara att de har följts åt över tid. Det säger inget om att elsparkcyklarna orsakar hemleveranserna.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Antalet elsparkcyklar ökar år för år från 2016 till 2024\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\">Elsparkcyklar</text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"242.5\" x2=\"455\" y2=\"242.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"247.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">200</text><line x1=\"70\" y1=\"215.0\" x2=\"455\" y2=\"215.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"220.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">400</text><line x1=\"70\" y1=\"187.5\" x2=\"455\" y2=\"187.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"192.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">600</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">800</text><line x1=\"70\" y1=\"132.5\" x2=\"455\" y2=\"132.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"137.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">1000</text><line x1=\"70\" y1=\"105.0\" x2=\"455\" y2=\"105.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">1200</text><line x1=\"70\" y1=\"77.5\" x2=\"455\" y2=\"77.5\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"82.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">1400</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">1600</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2015</text><line x1=\"108.5\" y1=\"270\" x2=\"108.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"108.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2016</text><line x1=\"147.0\" y1=\"270\" x2=\"147.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"147.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2017</text><line x1=\"185.5\" y1=\"270\" x2=\"185.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"185.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2018</text><line x1=\"224.0\" y1=\"270\" x2=\"224.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"224.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2019</text><line x1=\"262.5\" y1=\"270\" x2=\"262.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2020</text><line x1=\"301.0\" y1=\"270\" x2=\"301.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"301.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2021</text><line x1=\"339.5\" y1=\"270\" x2=\"339.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"339.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2022</text><line x1=\"378.0\" y1=\"270\" x2=\"378.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"378.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2023</text><line x1=\"416.5\" y1=\"270\" x2=\"416.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"416.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2024</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2025</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">År</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Antal</text><circle cx=\"108.5\" cy=\"270.0\" r=\"6\" fill=\"#216d87\"/><circle cx=\"147.0\" cy=\"249.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"185.5\" cy=\"212.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"224.0\" cy=\"186.1\" r=\"6\" fill=\"#216d87\"/><circle cx=\"262.5\" cy=\"173.8\" r=\"6\" fill=\"#216d87\"/><circle cx=\"301.0\" cy=\"135.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"339.5\" cy=\"111.9\" r=\"6\" fill=\"#216d87\"/><circle cx=\"378.0\" cy=\"103.6\" r=\"6\" fill=\"#216d87\"/><circle cx=\"416.5\" cy=\"77.5\" r=\"6\" fill=\"#216d87\"/></svg></div><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Antalet hemleveranser ökar år för år från 2016 till 2024\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\">Hemleveranser</text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"70\" y1=\"233.3\" x2=\"455\" y2=\"233.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"238.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"70\" y1=\"196.7\" x2=\"455\" y2=\"196.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"201.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"70\" y1=\"123.3\" x2=\"455\" y2=\"123.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"128.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"70\" y1=\"86.7\" x2=\"455\" y2=\"86.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"91.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">50</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">60</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2015</text><line x1=\"108.5\" y1=\"270\" x2=\"108.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"108.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2016</text><line x1=\"147.0\" y1=\"270\" x2=\"147.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"147.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2017</text><line x1=\"185.5\" y1=\"270\" x2=\"185.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"185.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2018</text><line x1=\"224.0\" y1=\"270\" x2=\"224.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"224.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2019</text><line x1=\"262.5\" y1=\"270\" x2=\"262.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2020</text><line x1=\"301.0\" y1=\"270\" x2=\"301.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"301.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2021</text><line x1=\"339.5\" y1=\"270\" x2=\"339.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"339.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2022</text><line x1=\"378.0\" y1=\"270\" x2=\"378.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"378.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2023</text><line x1=\"416.5\" y1=\"270\" x2=\"416.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"416.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2024</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2025</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">År</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Tusental</text><rect x=\"103.0\" y=\"220.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"141.5\" y=\"213.2\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"180.0\" y=\"194.8\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"218.5\" y=\"176.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"257.0\" y=\"114.2\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"295.5\" y=\"92.2\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"334.0\" y=\"99.5\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"372.5\" y=\"81.2\" width=\"11\" height=\"11\" fill=\"#c2410c\"/><rect x=\"411.0\" y=\"62.8\" width=\"11\" height=\"11\" fill=\"#c2410c\"/></svg></div></div>",
+        "ledtrad": "<p>Hur har var och en av storheterna förändrats från år till år? Finns det något som påverkar båda?</p>",
+        "niva": "C",
+        "poang": "0/1/0",
+        "traningsniva": 3,
+        "arbetsinsats": 1,
+        "alternativ": [
+          {
+            "txt": "Nej. Båda har ökat år för år av olika skäl, till exempel ny teknik och appar. Det starka sambandet beror på den gemensamma ökningen över tid, inte på att det ena orsakar det andra.",
+            "ratt": true
+          },
+          {
+            "txt": "Ja, eftersom korrelationskoefficienten är nära 1 visar den ett orsakssamband.",
+            "ratt": false
+          },
+          {
+            "txt": "Ja, men bara om korrelationskoefficienten hade varit negativ.",
+            "ratt": false
+          },
+          {
+            "txt": "Nej, eftersom korrelationskoefficienten bara kan användas när den ena variabeln är tid.",
+            "ratt": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4.383",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "2/0/1",
+    "typ": "skilja mellan starkt samband och överensstämmelse",
+    "familj": "Korrelation i mätdata med digitala verktyg",
+    "formaga": [
+      "procedur",
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "t": "<p>Två termometrar, A och B, mäter temperaturen i samma vattenbad vid åtta tillfällen.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Termometer A (°C)</th><th scope=\"col\">Termometer B (°C)</th></tr></thead><tbody><tr><td>12,0</td><td>14,1</td></tr><tr><td>14,5</td><td>16,4</td></tr><tr><td>17,2</td><td>19,3</td></tr><tr><td>19,8</td><td>21,7</td></tr><tr><td>22,4</td><td>24,6</td></tr><tr><td>25,1</td><td>27,0</td></tr><tr><td>27,6</td><td>29,8</td></tr><tr><td>30,3</td><td>32,0</td></tr></tbody></table><p>a) Bestäm korrelationskoefficienten mellan termometrarnas värden med ett digitalt verktyg. Svara med två decimaler.<br>b) Beräkna medelvärdet av skillnaden B − A. Svara med en decimal.<br>c) Linus säger: ”Eftersom \\(r\\) är 1,00 visar termometrarna samma temperatur.” Bedöm påståendet.</p>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p>\\(r\\approx1{,}00\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>Skillnaderna B − A är 2,1; 1,9; 2,1; 1,9; 2,2; 1,9; 2,2 och 1,7 °C. Summan är 16,0, så medelvärdet är \\(16{,}0/8=2{,}0\\) °C.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p>Nej. Korrelationskoefficienten mäter hur nära punkterna ligger en rät linje, inte om värdena är lika. Punkterna ligger på en linje som är ungefär 2 °C ovanför linjen \\(y=x\\). Två termometrar kan alltså följas åt perfekt och ändå visa olika temperatur. För att jämföra mätmetoder måste man också undersöka skillnaden mellan dem.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram över termometrarnas värden; punkterna ligger på en linje ovanför linjen y = x\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\"></text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"70\" y1=\"233.3\" x2=\"455\" y2=\"233.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"238.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">14</text><line x1=\"70\" y1=\"196.7\" x2=\"455\" y2=\"196.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"201.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">18</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">22</text><line x1=\"70\" y1=\"123.3\" x2=\"455\" y2=\"123.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"128.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">26</text><line x1=\"70\" y1=\"86.7\" x2=\"455\" y2=\"86.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"91.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">34</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"134.2\" y1=\"270\" x2=\"134.2\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"134.2\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">14</text><line x1=\"198.3\" y1=\"270\" x2=\"198.3\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"198.3\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">18</text><line x1=\"262.5\" y1=\"270\" x2=\"262.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">22</text><line x1=\"326.7\" y1=\"270\" x2=\"326.7\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"326.7\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">26</text><line x1=\"390.8\" y1=\"270\" x2=\"390.8\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"390.8\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">34</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Termometer A (°C)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Termometer B (°C)</text><line x1=\"70.0\" y1=\"270.0\" x2=\"455.0\" y2=\"50.0\" stroke=\"#8a96a3\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"102.1\" cy=\"232.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"142.2\" cy=\"211.3\" r=\"6\" fill=\"#216d87\"/><circle cx=\"185.5\" cy=\"184.8\" r=\"6\" fill=\"#216d87\"/><circle cx=\"227.2\" cy=\"162.8\" r=\"6\" fill=\"#216d87\"/><circle cx=\"268.9\" cy=\"136.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"312.2\" cy=\"114.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"352.3\" cy=\"88.5\" r=\"6\" fill=\"#216d87\"/><circle cx=\"395.6\" cy=\"68.3\" r=\"6\" fill=\"#216d87\"/><text x=\"420\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#5b6773\">y = x</text></svg></div></div></div></div>",
+    "ledtrad": "<p>Jämför vad \\(r\\) mäter med vad Linus påstår. Rita gärna punkterna tillsammans med linjen \\(y=x\\).</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.9996396495402142,
+      2.0,
+      "Nej. r visar bara att punkterna ligger nära en rät linje. B visar i medel 2,0 °C mer än A, så termometrarna ger inte samma värden."
+    ],
+    "tolerans": [
+      0.005,
+      0.05,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "text"
+    ],
+    "svarEnhet": [
+      null,
+      "°C",
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": [
+      2,
+      2,
+      4
+    ],
+    "arbetsinsats": [
+      1,
+      1,
+      1
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Två termometrar, A och B, mäter temperaturen i samma vattenbad vid åtta tillfällen.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:left\"><thead><tr><th scope=\"col\">Termometer A (°C)</th><th scope=\"col\">Termometer B (°C)</th></tr></thead><tbody><tr><td>12,0</td><td>14,1</td></tr><tr><td>14,5</td><td>16,4</td></tr><tr><td>17,2</td><td>19,3</td></tr><tr><td>19,8</td><td>21,7</td></tr><tr><td>22,4</td><td>24,6</td></tr><tr><td>25,1</td><td>27,0</td></tr><tr><td>27,6</td><td>29,8</td></tr><tr><td>30,3</td><td>32,0</td></tr></tbody></table>",
+    "spelDelar": [
+      {
+        "etikett": "a",
+        "fraga": "<p>Bestäm korrelationskoefficienten mellan termometrarnas värden med ett digitalt verktyg. Svara med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Med termometer A som \\(x\\) och termometer B som \\(y\\) ger GeoGebra \\(r\\approx0{,}9996\\), alltså \\(1{,}00\\) med två decimaler.</p></div>",
+        "ledtrad": "<p>Skriv in värdena i två kolumner i GeoGebras kalkylblad, markera båda kolumnerna och välj regressionsanalys med två variabler. Där kan du läsa av \\(r\\).</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "b",
+        "fraga": "<p>Beräkna medelvärdet av skillnaden mellan termometer B och termometer A, alltså B − A. Svara med en decimal.</p>",
+        "s": "<div class=\"facit-v2\"><p>Skillnaderna B − A är 2,1; 1,9; 2,1; 1,9; 2,2; 1,9; 2,2 och 1,7 °C. Summan är 16,0, så medelvärdet är \\(16{,}0/8=2{,}0\\) °C. I GeoGebra kan du skriva <code>Medelvärde(tb-ta)</code> om listorna med termometrarnas värden heter ta och tb.</p></div>",
+        "ledtrad": "<p>Beräkna B − A för varje rad och ta medelvärdet av skillnaderna.</p>",
+        "niva": "E",
+        "poang": "1/0/0",
+        "traningsniva": 2,
+        "arbetsinsats": 1
+      },
+      {
+        "etikett": "c",
+        "fraga": "<p>Korrelationskoefficienten mellan termometrarnas värden är \\(r\\approx1{,}00\\). I medel visar termometer B 2,0 °C mer än termometer A.</p><p>Linus säger: ”Eftersom \\(r\\) är 1,00 visar termometrarna samma temperatur.” Har Linus rätt? Välj det svar som stämmer.</p>",
+        "s": "<div class=\"facit-v2\"><p>Nej. \\(r\\) mäter hur nära punkterna ligger en rät linje, inte om värdena är lika. Punkterna ligger på en linje som är ungefär 2 °C ovanför linjen \\(y=x\\). Termometrarna följs åt men visar olika temperatur.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"340\" viewBox=\"0 0 480 340\" role=\"img\" aria-label=\"Punktdiagram över termometrarnas värden; punkterna ligger på en linje ovanför linjen y = x\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"455\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"end\" fill=\"#172b3a\"></text><line x1=\"70\" y1=\"270.0\" x2=\"455\" y2=\"270.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"70\" y1=\"233.3\" x2=\"455\" y2=\"233.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"238.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">14</text><line x1=\"70\" y1=\"196.7\" x2=\"455\" y2=\"196.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"201.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">18</text><line x1=\"70\" y1=\"160.0\" x2=\"455\" y2=\"160.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">22</text><line x1=\"70\" y1=\"123.3\" x2=\"455\" y2=\"123.3\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"128.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">26</text><line x1=\"70\" y1=\"86.7\" x2=\"455\" y2=\"86.7\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"91.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"70\" y1=\"50.0\" x2=\"455\" y2=\"50.0\" stroke=\"#dbe3ea\" stroke-width=\"1\"/><text x=\"62\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">34</text><line x1=\"70.0\" y1=\"270\" x2=\"70.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"70.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"134.2\" y1=\"270\" x2=\"134.2\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"134.2\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">14</text><line x1=\"198.3\" y1=\"270\" x2=\"198.3\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"198.3\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">18</text><line x1=\"262.5\" y1=\"270\" x2=\"262.5\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262.5\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">22</text><line x1=\"326.7\" y1=\"270\" x2=\"326.7\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"326.7\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">26</text><line x1=\"390.8\" y1=\"270\" x2=\"390.8\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"390.8\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><line x1=\"455.0\" y1=\"270\" x2=\"455.0\" y2=\"276\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"455.0\" y=\"294\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">34</text><line x1=\"70\" y1=\"270\" x2=\"455\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"42\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"262\" y=\"326\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">Termometer A (°C)</text><text x=\"30\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\">Termometer B (°C)</text><line x1=\"70.0\" y1=\"270.0\" x2=\"455.0\" y2=\"50.0\" stroke=\"#8a96a3\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"102.1\" cy=\"232.4\" r=\"6\" fill=\"#216d87\"/><circle cx=\"142.2\" cy=\"211.3\" r=\"6\" fill=\"#216d87\"/><circle cx=\"185.5\" cy=\"184.8\" r=\"6\" fill=\"#216d87\"/><circle cx=\"227.2\" cy=\"162.8\" r=\"6\" fill=\"#216d87\"/><circle cx=\"268.9\" cy=\"136.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"312.2\" cy=\"114.2\" r=\"6\" fill=\"#216d87\"/><circle cx=\"352.3\" cy=\"88.5\" r=\"6\" fill=\"#216d87\"/><circle cx=\"395.6\" cy=\"68.3\" r=\"6\" fill=\"#216d87\"/><text x=\"420\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#5b6773\">y = x</text></svg></div></div>",
+        "ledtrad": "<p>Vad skulle \\(r\\) bli om termometer B alltid visade exakt 2 °C mer än A?</p>",
+        "niva": "A",
+        "poang": "0/0/1",
+        "traningsniva": 4,
+        "arbetsinsats": 1,
+        "alternativ": [
+          {
+            "txt": "Nej. r visar bara att punkterna ligger nära en rät linje. B visar i medel 2,0 °C mer än A, så termometrarna ger inte samma värden.",
+            "ratt": true
+          },
+          {
+            "txt": "Ja, eftersom r är 1,00 med två decimaler.",
+            "ratt": false
+          },
+          {
+            "txt": "Ja, eftersom skillnaden 2,0 °C är mindre än den största temperaturen.",
+            "ratt": false
+          },
+          {
+            "txt": "Nej, eftersom r måste vara exakt 1 för att två termometrar ska kunna jämföras.",
+            "ratt": false
+          }
+        ]
+      }
+    ]
   }
 ];

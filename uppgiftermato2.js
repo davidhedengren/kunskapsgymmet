@@ -89107,7 +89107,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Kontrollera polynomdivisionen genom multiplikation.</p><p>a) \\(x^3-8=(x-2)(x^2+2x+4)\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(x^3+x^2+x+1=(x+2)(x^2-x+3)-5\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Faktorsatsen kopplar ett nollställe till en linjär faktor.</p></li><li><p>Med reella koefficienter måste dessutom icke-reella rötter förekomma i konjugatpar.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[(x-2)(x^2+2x+4)=x^3+2x^2+4x-2x^2-4x-8=x^3-8.\\]</p></li><li><p>Likheten stämmer.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[(x+2)(x^2-x+3)-5=x^3+x^2+x+6-5=x^3+x^2+x+1.\\]</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>Även den likheten stämmer.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><p>Multiplicera högerledet och samla termerna. Då kan resultatet jämföras med vänsterledet.</p><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Multiplicera in \\(x\\) och sedan \\(-2\\):</p>\\[x^3+2x^2+4x\\]\\[-2x^2-4x-8.\\]<p>Termerna med \\(x^2\\) och \\(x\\) tar ut varandra.</p><p><strong>Svar:</strong> \\(x^3-8\\).</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Multiplicera in \\(x\\) och sedan \\(2\\):</p>\\[x^3-x^2+3x\\]\\[+2x^2-2x+6.\\]<p>Samla termerna och subtrahera 5:</p>\\[x^3+x^2+x+6-5\\]\\[=x^3+x^2+x+1.\\]<p><strong>Svar:</strong> \\(x^3+x^2+x+1\\).</p></div><p>Båda likheterna stämmer.</p></div>",
     "familj": "Polynomdivision",
     "formaga": [
       "procedur"
@@ -89125,40 +89125,18 @@ window.BANKMATO2 = [
       true,
       true
     ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck"
-    ],
+    "svarFormat": ["förenklat_polynom", "förenklat_polynom"],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(x^3-8=(x-2)(x^2+2x+4)\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera:</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[(x-2)(x^2+2x+4)=x^3+2x^2+4x-2x^2-4x-8=x^3-8.\\]</p></li><li><p>Likheten stämmer.</p></li></ol></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(x^3+x^2+x+1=(x+2)(x^2-x+3)-5\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[(x+2)(x^2-x+3)-5=x^3+x^2+x+6-5=x^3+x^2+x+1.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p>Även den likheten stämmer.</p></li></ol></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "<p>\\((x-2)(x^2+2x+4)\\)</p>", "s": "<div class=\"facit-v2\"><p>Multiplicera in \\(x\\) och sedan \\(-2\\):</p>\\[x^3+2x^2+4x\\]\\[-2x^2-4x-8.\\]<p>Termerna med \\(x^2\\) och \\(x\\) tar ut varandra.</p><p><strong>Svar:</strong> \\(x^3-8\\).</p></div>", "niva": "E", "poang": "1/0/0", "traningsniva": 2, "arbetsinsats": 1, "ledtrad": "<p>Multiplicera varje term i den första parentesen med varje term i den andra. Samla sedan termer av samma slag.</p>"}, {"etikett": "b", "fraga": "<p>\\((x+2)(x^2-x+3)-5\\)</p>", "s": "<div class=\"facit-v2\"><p>Multiplicera in \\(x\\) och sedan \\(2\\):</p>\\[x^3-x^2+3x\\]\\[+2x^2-2x+6.\\]<p>Samla termerna och subtrahera 5:</p>\\[x^3+x^2+x+6-5\\]\\[=x^3+x^2+x+1.\\]<p><strong>Svar:</strong> \\(x^3+x^2+x+1\\).</p></div>", "niva": "E", "poang": "1/0/0", "traningsniva": 2, "arbetsinsats": 1, "ledtrad": "<p>Multiplicera varje term i den första parentesen med varje term i den andra. Samla sedan termer av samma slag.</p>"}],
     "familjNyckel": "polynomdivision__polynomdivision",
-    "ledtrad": "<p>Dividera de ledande termerna, multiplicera tillbaka och subtrahera. Upprepa tills resten har lägre grad än divisorn.</p>",
-    "spelIntro": "<p>Kontrollera polynomdivisionen genom multiplikation.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Multiplicera varje term i den första parentesen med varje term i den andra. Samla sedan termer av samma slag.</p>",
+    "spelIntro": "<p>Utveckla uttrycket och förenkla.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
       "polynom_komplexa"

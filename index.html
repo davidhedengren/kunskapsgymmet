@@ -4015,7 +4015,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-19-fellogg-0807";
+const BANK_VERSION="2026-10-19-fellogg-2044";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10578,6 +10578,7 @@ function rotListaRatt(anv,facit,tol){
 /* Svaret utan en avslutande enhet som är exakt facits enhet ("4π cm" → "4π"). */
 function enhetMedOrd(s){
   return String(s).replace(/\bkronor\b/gi,"kr")
+    .replace(/\bradian(?:er)?\b/gi,"rad")
     .replace(/\s+(?:per|i)\s+/gi,"/")
     .replace(/\/\s*(?:timme|timmen|timmar|tim)\b/gi,"/h")
     .replace(/\/\s*(?:sekund|sekunden|sek)\b/gi,"/s")

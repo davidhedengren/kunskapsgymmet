@@ -20964,13 +20964,13 @@ window.BANKMATO2 = [
       "\\frac{\\pi}6",
       "\\frac{3\\pi}4",
       150,
-      80.2
+      80.21409131831524
     ],
     "tolerans": [
       null,
       null,
       0,
-      0.1
+      0.05
     ],
     "självrättning": [
       true,
@@ -20990,7 +20990,8 @@ window.BANKMATO2 = [
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "miniräknare": false
       },
       {
         "etikett": "b",
@@ -20999,7 +21000,8 @@ window.BANKMATO2 = [
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "miniräknare": false
       },
       {
         "etikett": "c",
@@ -21008,7 +21010,8 @@ window.BANKMATO2 = [
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "miniräknare": false
       },
       {
         "etikett": "d",
@@ -21017,7 +21020,8 @@ window.BANKMATO2 = [
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
-        "arbetsinsats": 1
+        "arbetsinsats": 1,
+        "miniräknare": true
       }
     ],
     "svarFormat": [
@@ -21034,8 +21038,8 @@ window.BANKMATO2 = [
       "d"
     ],
     "svarEnhet": [
-      null,
-      null,
+      "rad",
+      "rad",
       "°",
       "°"
     ],
@@ -21074,7 +21078,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 1,
     "omrTidigare": [
       "radianer"
-    ]
+    ],
+    "svarEnhet": "rad"
   },
   {
     "id": "1.40",
@@ -21258,6 +21263,11 @@ window.BANKMATO2 = [
     "arbetsinsats": 2,
     "omrTidigare": [
       "radianer"
+    ],
+    "svarEnhet": [
+      "rad",
+      "rad",
+      "rad"
     ]
   },
   {
@@ -21288,7 +21298,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 1,
     "omrTidigare": [
       "radianer"
-    ]
+    ],
+    "svarEnhet": "rad"
   },
   {
     "id": "1.57",
@@ -21936,7 +21947,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 1,
     "omrTidigare": [
       "radianer"
-    ]
+    ],
+    "svarEnhet": "rad"
   },
   {
     "id": "1.124",
@@ -22063,7 +22075,7 @@ window.BANKMATO2 = [
     "miniräknare": false,
     "geogebra": false,
     "t": "<p>Skriv i radianer.</p><p>a) \\(30^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(135^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(225^\\circ\\)<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) \\(300^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Ett halvt varv är både \\(180^\\circ\\) och \\(\\pi\\) radianer.</p></li><li><p class=\"facit-metod\">Använd detta som omvandlingsfaktor och behåll gärna exakta svar med \\(\\pi\\).</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd sambandet \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[30^\\circ=\\frac{30}{180}\\pi=\\boxed{\\frac{\\pi}{6}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[135^\\circ=\\frac{135}{180}\\pi=\\boxed{\\frac{3\\pi}{4}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[225^\\circ=\\frac{225}{180}\\pi=\\boxed{\\frac{5\\pi}{4}}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[300^\\circ=\\frac{300}{180}\\pi=\\boxed{\\frac{5\\pi}{3}}\\].</div></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera mot kända vinklar som \\(90^\\circ=\\pi/2\\) och \\(180^\\circ=\\pi\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><p>Ett halvt varv är \\(180^\\circ=\\pi\\) radianer. Därför blir vinkeln</p><p>\\[30\\cdot\\frac{\\pi}{180}=\\frac{\\pi}{6}\\text{ rad}.\\]</p><p><strong>b)</strong></p><p>Ett halvt varv är \\(180^\\circ=\\pi\\) radianer. Därför blir vinkeln</p><p>\\[135\\cdot\\frac{\\pi}{180}=\\frac{3\\pi}{4}\\text{ rad}.\\]</p><p><strong>c)</strong></p><p>Ett halvt varv är \\(180^\\circ=\\pi\\) radianer. Därför blir vinkeln</p><p>\\[225\\cdot\\frac{\\pi}{180}=\\frac{5\\pi}{4}\\text{ rad}.\\]</p><p><strong>d)</strong></p><p>Ett halvt varv är \\(180^\\circ=\\pi\\) radianer. Därför blir vinkeln</p><p>\\[300\\cdot\\frac{\\pi}{180}=\\frac{5\\pi}{3}\\text{ rad}.\\]</p></div>",
     "familj": "Omvandling mellan grader och radianer",
     "formaga": [
       "procedur"
@@ -22105,7 +22117,7 @@ window.BANKMATO2 = [
       {
         "etikett": "a",
         "fraga": "<p>\\(30^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd sambandet \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[30^\\circ=\\frac{30}{180}\\pi=\\boxed{\\frac{\\pi}{6}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2\"><p>Ett halvt varv är \\(180^\\circ=\\pi\\) radianer. Därför blir vinkeln</p><p>\\[30\\cdot\\frac{\\pi}{180}=\\frac{\\pi}{6}\\text{ rad}.\\]</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -22114,7 +22126,7 @@ window.BANKMATO2 = [
       {
         "etikett": "b",
         "fraga": "<p>\\(135^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd sambandet \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[135^\\circ=\\frac{135}{180}\\pi=\\boxed{\\frac{3\\pi}{4}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2\"><p>Ett halvt varv är \\(180^\\circ=\\pi\\) radianer. Därför blir vinkeln</p><p>\\[135\\cdot\\frac{\\pi}{180}=\\frac{3\\pi}{4}\\text{ rad}.\\]</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -22123,7 +22135,7 @@ window.BANKMATO2 = [
       {
         "etikett": "c",
         "fraga": "<p>\\(225^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd sambandet \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[225^\\circ=\\frac{225}{180}\\pi=\\boxed{\\frac{5\\pi}{4}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2\"><p>Ett halvt varv är \\(180^\\circ=\\pi\\) radianer. Därför blir vinkeln</p><p>\\[225\\cdot\\frac{\\pi}{180}=\\frac{5\\pi}{4}\\text{ rad}.\\]</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -22132,7 +22144,7 @@ window.BANKMATO2 = [
       {
         "etikett": "d",
         "fraga": "<p>\\(300^\\circ\\)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd sambandet \\(180^\\circ=\\pi\\) radianer.</p></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[300^\\circ=\\frac{300}{180}\\pi=\\boxed{\\frac{5\\pi}{3}}\\].</div></li></ol></div></div>",
+        "s": "<div class=\"facit-v2\"><p>Ett halvt varv är \\(180^\\circ=\\pi\\) radianer. Därför blir vinkeln</p><p>\\[300\\cdot\\frac{\\pi}{180}=\\frac{5\\pi}{3}\\text{ rad}.\\]</p></div>",
         "niva": "E",
         "poang": "1/0/0",
         "traningsniva": 1,
@@ -22146,6 +22158,12 @@ window.BANKMATO2 = [
     "arbetsinsats": 3,
     "omrTidigare": [
       "radianer"
+    ],
+    "svarEnhet": [
+      "rad",
+      "rad",
+      "rad",
+      "rad"
     ]
   },
   {
@@ -41711,8 +41729,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>En cylinder har konstant höjd 5 cm. Radien ökar med 0,20 cm/s. Hur snabbt ökar volymen när radien är 3 cm?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Volymen \\(V=\\pi r^2h\\) beror på tiden genom r.</p></li><li><p>Derivera innan du sätter in r.</p></li><li><div class=\"facit-matte\">\\[dV/dt=2\\pi rh\\,dr/dt\\].</div></li><li><div class=\"facit-berakning\"><p>Vid r=3, h=5 och dr/dt=0,20 fås</p><div class=\"facit-matte\">\\[dV/dt=18{,}850\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{18{,}850\\text{ cm}^3/\\text{s}}\\).</p></div>",
+    "t": "<p>En cylinder har konstant höjd 5 cm. Radien ökar med 0,20 cm/s. Hur snabbt ökar volymen när radien är 3 cm?</p><p>Svara i cm³/s med en decimal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" role=\"img\" aria-label=\"Cylinder med höjden 5 cm och radien 3 cm\" style=\"color:#243447\" font-family=\"sans-serif\" font-size=\"15\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#d4dce4\"/><path d=\"M120 75 L120 190 A80 22 0 0 0 280 190 L280 75\" fill=\"#e8f3fa\" stroke=\"#246b91\" stroke-width=\"2\"/><ellipse cx=\"200\" cy=\"75\" rx=\"80\" ry=\"22\" fill=\"#f3f9fc\" stroke=\"#246b91\" stroke-width=\"2\"/><path d=\"M120 190 A80 22 0 0 1 280 190\" fill=\"none\" stroke=\"#246b91\" stroke-dasharray=\"5 4\"/><line x1=\"200\" y1=\"75\" x2=\"280\" y2=\"75\" stroke=\"#243447\" stroke-width=\"2\"/><line x1=\"305\" y1=\"75\" x2=\"305\" y2=\"190\" stroke=\"#243447\"/><path d=\"M300 75h10 M300 190h10\" stroke=\"#243447\"/><line x1=\"240\" y1=\"47\" x2=\"240\" y2=\"70\" stroke=\"#65758b\" stroke-width=\"1\"/><text x=\"240\" y=\"40\" text-anchor=\"middle\" fill=\"#243447\">3 cm</text><text x=\"320\" y=\"138\" text-anchor=\"start\" fill=\"#243447\">5 cm</text><text x=\"200\" y=\"240\" text-anchor=\"middle\" fill=\"#243447\">Radien ökar, höjden är konstant</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Höjden är konstant, så volymen är \\(V=5\\pi r^2\\). Kedjeregeln ger</p>\\[\\frac{dV}{dt}=10\\pi r\\frac{dr}{dt}.\\]<p>Vid \\(r=3\\) cm och \\(dr/dt=0{,}20\\) cm/s blir ökningen</p>\\[\\frac{dV}{dt}=10\\pi\\cdot3\\cdot0{,}20=6\\pi.\\]<p><strong>Svar:</strong> volymen ökar med ungefär 18,8 cm³/s.</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
       "modellering",
@@ -41721,7 +41739,7 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 18.849556,
+    "rättSvar": 18.84955592153876,
     "tolerans": 0.05,
     "självrättning": true,
     "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
@@ -41730,7 +41748,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 2,
     "omrTidigare": [
       "tillampningar_derivata"
-    ]
+    ],
+    "svarEnhet": "cm³/s"
   },
   {
     "id": "2.129",
@@ -42036,8 +42055,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En tunn oljefläck på vattenytan antas vara cirkelformad. Vid ett visst ögonblick är radien 8,0 m och fläckens area ökar med 40 m²/min.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"180\" cy=\"116\" r=\"76\" fill=\"#EAF4E8\" stroke=\"#5C7D58\" stroke-width=\"2.2\"/>\n<circle cx=\"180\" cy=\"116\" r=\"3.5\" fill=\"#2B2527\"/>\n<line x1=\"180\" y1=\"116\" x2=\"250\" y2=\"86\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M250 86 l-10 1 5 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"92\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"180\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">cirkelns storlek förändras med tiden</text>\n</svg></span><p>Bestäm hur snabbt radien ökar vid detta ögonblick.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>För cirkeln gäller</p><div class=\"facit-matte\">\\[A=\\pi r^2\\].</div></div></li><li><p><strong>Kedjeregeln från formelbladet</strong> ger</p></li><li><p>\\[\\frac{dA}{dt}=\\frac{dA}{dr}\\frac{dr}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p></li><li><p>Sätt in \\(dA/dt=40\\) och \\(r=8\\):</p></li><li><p>\\[40=16\\pi\\frac{dr}{dt}.\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\frac{dr}{dt}=\\frac{40}{16\\pi}=\\frac{2{,}5}{\\pi}\\approx0{,}80.\\]</p></li></ol><p class=\"facit-svar\"><strong>Radien ökar med ungefär \\(\\boxed{0{,}80\\text{ m/min}}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
+    "t": "<p>En tunn oljefläck på vattenytan antas vara cirkelformad. Vid ett visst ögonblick är radien 8,0 m och fläckens area ökar med 40 m²/min.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"180\" cy=\"116\" r=\"76\" fill=\"#EAF4E8\" stroke=\"#5C7D58\" stroke-width=\"2.2\"/>\n<circle cx=\"180\" cy=\"116\" r=\"3.5\" fill=\"#2B2527\"/>\n<line x1=\"180\" y1=\"116\" x2=\"250\" y2=\"86\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M250 86 l-10 1 5 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"92\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"180\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">cirkelns storlek förändras med tiden</text>\n</svg></span><p>Bestäm hur snabbt radien ökar vid detta ögonblick.</p><p>Svara i m/min med två decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><p>Arean är \\(A=\\pi r^2\\). Radien beror på tiden, så kedjeregeln ger</p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]<p>Sätt in areans ökning 40 m²/min och radien 8,0 m:</p>\\[40=16\\pi\\frac{dr}{dt}.\\]\\[\\frac{dr}{dt}=\\frac{40}{16\\pi}\\approx0{,}80\\text{ m/min}.\\]<p><strong>Svar:</strong> radien ökar med 0,80 m/min.</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
       "procedur",
@@ -42045,8 +42064,8 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.8,
-    "tolerans": null,
+    "rättSvar": 0.7957747154594768,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
@@ -42055,7 +42074,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 2,
     "omrTidigare": [
       "tillampningar_derivata"
-    ]
+    ],
+    "svarEnhet": "m/min"
   },
   {
     "id": "2.271",
@@ -42131,8 +42151,8 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En klotformad isbit smälter. När radien är 5,0 cm minskar isbitens yta med 20 cm²/min.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"240\" viewBox=\"0 0 390 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Klot med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"182\" cy=\"118\" r=\"76\" fill=\"#E6F1F7\" stroke=\"#527C91\" stroke-width=\"2.2\"/>\n<ellipse cx=\"182\" cy=\"118\" rx=\"76\" ry=\"25\" fill=\"none\" stroke=\"#9DB7C4\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/>\n<line x1=\"182\" y1=\"118\" x2=\"242\" y2=\"74\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M242 74 l-10 2 6 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"88\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n</svg></span><p>Bestäm hur snabbt radien minskar vid detta ögonblick.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Ytan av ett klot är</p><div class=\"facit-matte\">\\[A=4\\pi r^2\\].</div></div></li><li><p>Då</p></li><li><p>\\[\\frac{dA}{dr}=8\\pi r.\\]</p></li><li><p><strong>Kedjeregeln från formelbladet</strong> ger</p></li><li><p>\\[\\frac{dA}{dt}=\\frac{dA}{dr}\\frac{dr}{dt}.\\]</p></li><li><div class=\"facit-berakning\"><p>Eftersom ytan minskar är</p><div class=\"facit-matte\">\\[dA/dt=-20\\].</div></div></li><li><div class=\"facit-berakning\"><p>Vid</p><div class=\"facit-matte\">\\[r=5\\]:</div></div></li><li><p>\\[-20=8\\pi\\cdot5\\frac{dr}{dt}.\\]</p></li><li><p>\\[\\frac{dr}{dt}=-\\frac{1}{2\\pi}\\approx-0{,}159.\\]</p></li></ol><p class=\"facit-svar\"><strong>Radien minskar alltså med ungefär \\(\\boxed{0{,}16\\text{ cm/min}}\\).</strong></p></div>",
+    "t": "<p>En klotformad isbit smälter. När radien är 5,0 cm minskar isbitens yta med 20 cm²/min.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"240\" viewBox=\"0 0 390 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Klot med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"182\" cy=\"118\" r=\"76\" fill=\"#E6F1F7\" stroke=\"#527C91\" stroke-width=\"2.2\"/>\n<ellipse cx=\"182\" cy=\"118\" rx=\"76\" ry=\"25\" fill=\"none\" stroke=\"#9DB7C4\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/>\n<line x1=\"182\" y1=\"118\" x2=\"242\" y2=\"74\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M242 74 l-10 2 6 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"88\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n</svg></span><p>Bestäm hur snabbt radien minskar vid detta ögonblick.</p><p>Svara i cm/min med två decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><p>Klotets yta är \\(A=4\\pi r^2\\). Derivering med avseende på tiden ger</p>\\[\\frac{dA}{dt}=8\\pi r\\frac{dr}{dt}.\\]<p>Ytan minskar, så \\(dA/dt=-20\\) cm²/min. Vid radien 5,0 cm får vi</p>\\[-20=40\\pi\\frac{dr}{dt}.\\]\\[\\frac{dr}{dt}=-\\frac{1}{2\\pi}\\approx-0{,}16\\text{ cm/min}.\\]<p><strong>Svar:</strong> radien minskar med 0,16 cm/min. Minustecknet i derivatan visar att radien minskar.</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
       "procedur",
@@ -42140,17 +42160,18 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.16,
-    "tolerans": null,
+    "rättSvar": 0.15915494309189535,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
     "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
       "tillampningar_derivata"
-    ]
+    ],
+    "svarEnhet": "cm/min"
   },
   {
     "id": "2.183",
@@ -42430,8 +42451,8 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Efter en sten träffat en stilla vattenyta sprids en cirkelformad våg utåt. Omkretsen av den yttersta vågfronten ökar med 5,0 m/s.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkelformad våg med radien r\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"182\" cy=\"116\" r=\"76\" fill=\"#EEF7FA\" stroke=\"#527C91\" stroke-width=\"2.3\"/>\n<circle cx=\"182\" cy=\"116\" r=\"58\" fill=\"none\" stroke=\"#A7C6D3\" stroke-width=\"1.2\"/>\n<circle cx=\"182\" cy=\"116\" r=\"40\" fill=\"none\" stroke=\"#C8DDE5\" stroke-width=\"1.2\"/>\n<line x1=\"182\" y1=\"116\" x2=\"252\" y2=\"116\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M252 116 l-9 -5 v10 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"106\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"182\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">den yttersta vågfronten är en cirkel</text>\n</svg></span><p>När vågfrontens radie är 4,0 m:</p><p>a) bestäm hur snabbt radien ökar,<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) bestäm hur snabbt arean innanför vågfronten ökar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Omkretsen är \\(C=2\\pi r\\), så</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{dC}{dr}=2\\pi.\\]</p></li><li><p><strong>Kedjeregeln från formelbladet</strong> ger</p></li><li><p>\\[\\frac{dC}{dt}=\\frac{dC}{dr}\\frac{dr}{dt}.\\]</p></li><li><p>Därför</p></li><li><p>\\[5{,}0=2\\pi\\frac{dr}{dt}\\Rightarrow \\boxed{\\frac{dr}{dt}=\\frac{5}{2\\pi}\\approx0{,}80\\text{ m/s}}.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[A=\\pi r^2\\].</div></div></li><li><p>Då</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p></li><li><p>Vid \\(r=4,0\\) m:</p></li><li><p>\\[\\frac{dA}{dt}=2\\pi\\cdot4\\cdot\\frac{5}{2\\pi}=\\boxed{20\\text{ m}^2/\\text{s}}.\\]</p></li><li><p><strong>Insikt:</strong> Samma förändringshastighet för radien kan kopplas vidare till flera andra storheter.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
+    "t": "<p>När en sten träffar en stilla vattenyta sprids en cirkelformad våg utåt. Omkretsen av den yttersta vågfronten ökar med 5,0 m/s.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkelformad våg med radien r\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"182\" cy=\"116\" r=\"76\" fill=\"#EEF7FA\" stroke=\"#527C91\" stroke-width=\"2.3\"/>\n<circle cx=\"182\" cy=\"116\" r=\"58\" fill=\"none\" stroke=\"#A7C6D3\" stroke-width=\"1.2\"/>\n<circle cx=\"182\" cy=\"116\" r=\"40\" fill=\"none\" stroke=\"#C8DDE5\" stroke-width=\"1.2\"/>\n<line x1=\"182\" y1=\"116\" x2=\"252\" y2=\"116\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M252 116 l-9 -5 v10 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"106\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"182\" y=\"218\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">den yttersta vågfronten är en cirkel</text>\n</svg></span><p>När vågfrontens radie är 4,0 m:</p><p>a) Bestäm hur snabbt radien ökar,<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm hur snabbt arean innanför vågfronten ökar.</p><p>Svara i m/s med två decimaler i a) och i m²/s i b).</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><p>Omkretsen är \\(C=2\\pi r\\). Kedjeregeln ger</p>\\[\\frac{dC}{dt}=2\\pi\\frac{dr}{dt}.\\]<p>Omkretsen ökar med 5,0 m/s. Därför är</p>\\[\\frac{dr}{dt}=\\frac{5{,}0}{2\\pi}\\approx0{,}80\\text{ m/s}.\\]<p><strong>b)</strong></p><p>Vi behöver först radiens ökning. Eftersom \\(C=2\\pi r\\) och \\(dC/dt=5{,}0\\) m/s är \\(dr/dt=5/(2\\pi)\\) m/s.</p><p>Arean är \\(A=\\pi r^2\\). Kedjeregeln ger</p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]<p>Vid radien 4,0 m blir ökningen</p>\\[\\frac{dA}{dt}=2\\pi\\cdot4\\cdot\\frac{5}{2\\pi}=20\\text{ m}^2\\!/\\text{s}.\\]<p><strong>Svar:</strong> 20 m²/s.</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
       "procedur",
@@ -42440,11 +42461,11 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "flera_delar",
     "rättSvar": [
-      "5/(2*pi)",
+      0.7957747154594768,
       20
     ],
     "tolerans": [
-      null,
+      0.005,
       0
     ],
     "självrättning": [
@@ -42457,7 +42478,7 @@ window.BANKMATO2 = [
       "b"
     ],
     "svarFormat": [
-      "uttryck",
+      "numeriskt",
       "numeriskt"
     ],
     "svarEnhet": [
@@ -42467,20 +42488,20 @@ window.BANKMATO2 = [
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
     "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Efter en sten träffat en stilla vattenyta sprids en cirkelformad våg utåt. Omkretsen av den yttersta vågfronten ökar med 5,0 m/s.</p><p>När vågfrontens radie är 4,0 m:</p><span class=\"fig\"><svg aria-label=\"Cirkelformad våg med radien r\" height=\"235\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 390 235\" width=\"390\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"233\" rx=\"10\" stroke=\"#E4E3E6\" width=\"388\" x=\"1\" y=\"1\"></rect>\n<circle cx=\"182\" cy=\"116\" fill=\"#EEF7FA\" r=\"76\" stroke=\"#527C91\" stroke-width=\"2.3\"></circle>\n<circle cx=\"182\" cy=\"116\" fill=\"none\" r=\"58\" stroke=\"#A7C6D3\" stroke-width=\"1.2\"></circle>\n<circle cx=\"182\" cy=\"116\" fill=\"none\" r=\"40\" stroke=\"#C8DDE5\" stroke-width=\"1.2\"></circle>\n<line stroke=\"#268FA3\" stroke-width=\"2.2\" x1=\"182\" x2=\"252\" y1=\"116\" y2=\"116\"></line>\n<path d=\"M252 116 l-9 -5 v10 z\" fill=\"#268FA3\"></path>\n<text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"14\" x=\"216\" y=\"106\">r</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"182\" y=\"218\">den yttersta vågfronten är en cirkel</text>\n</svg></span>",
+    "spelIntro": "<p>När en sten träffar en stilla vattenyta sprids en cirkelformad våg utåt. Omkretsen av den yttersta vågfronten ökar med 5,0 m/s.</p><p>När vågfrontens radie är 4,0 m:</p><span class=\"fig\"><svg aria-label=\"Cirkelformad våg med radien r\" height=\"235\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 390 235\" width=\"390\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"233\" rx=\"10\" stroke=\"#E4E3E6\" width=\"388\" x=\"1\" y=\"1\"></rect>\n<circle cx=\"182\" cy=\"116\" fill=\"#EEF7FA\" r=\"76\" stroke=\"#527C91\" stroke-width=\"2.3\"></circle>\n<circle cx=\"182\" cy=\"116\" fill=\"none\" r=\"58\" stroke=\"#A7C6D3\" stroke-width=\"1.2\"></circle>\n<circle cx=\"182\" cy=\"116\" fill=\"none\" r=\"40\" stroke=\"#C8DDE5\" stroke-width=\"1.2\"></circle>\n<line stroke=\"#268FA3\" stroke-width=\"2.2\" x1=\"182\" x2=\"252\" y1=\"116\" y2=\"116\"></line>\n<path d=\"M252 116 l-9 -5 v10 z\" fill=\"#268FA3\"></path>\n<text fill=\"#268FA3\" font-family=\"sans-serif\" font-size=\"14\" x=\"216\" y=\"106\">r</text>\n<text fill=\"#5C575E\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"182\" y=\"218\">den yttersta vågfronten är en cirkel</text>\n</svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>bestäm hur snabbt radien ökar,</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Omkretsen är \\(C=2\\pi r\\), så</p></li><li><p>\\[\\frac{dC}{dr}=2\\pi.\\]</p></li><li><p>Kedjeregeln från formelbladet ger</p></li><li><p>\\[\\frac{dC}{dt}=\\frac{dC}{dr}\\frac{dr}{dt}.\\]</p></li><li><p>Därför</p></li><li><p>\\[5{,}0=2\\pi\\frac{dr}{dt}\\Rightarrow \\boxed{\\frac{dr}{dt}=\\frac{5}{2\\pi}\\approx0{,}80\\text{ m/s}}.\\]</p></li></ol></div>",
+        "fraga": "<p>Bestäm hur snabbt radien ökar. Svara i m/s med två decimaler.</p>",
+        "s": "<div class=\"facit-v2\"><p>Omkretsen är \\(C=2\\pi r\\). Kedjeregeln ger</p>\\[\\frac{dC}{dt}=2\\pi\\frac{dr}{dt}.\\]<p>Omkretsen ökar med 5,0 m/s. Därför är</p>\\[\\frac{dr}{dt}=\\frac{5{,}0}{2\\pi}\\approx0{,}80\\text{ m/s}.\\]</div>",
         "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 1
       },
       {
         "etikett": "b",
-        "fraga": "<p>bestäm hur snabbt arean innanför vågfronten ökar.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[A=\\pi r^2\\].</div></div></li><li><p>Då</p></li><li><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p></li><li><p>Vid \\(r=4,0\\) m:</p></li><li><p>\\[\\frac{dA}{dt}=2\\pi\\cdot4\\cdot\\frac{5}{2\\pi}=\\boxed{20\\text{ m}^2/\\text{s}}.\\]</p></li><li><p>Insikt: Samma förändringshastighet för radien kan kopplas vidare till flera andra storheter.</p></li></ol></div>",
+        "fraga": "<p>Bestäm hur snabbt arean innanför vågfronten ökar när radien är 4,0 m. Svara i m²/s.</p>",
+        "s": "<div class=\"facit-v2\"><p>Vi behöver först radiens ökning. Eftersom \\(C=2\\pi r\\) och \\(dC/dt=5{,}0\\) m/s är \\(dr/dt=5/(2\\pi)\\) m/s.</p><p>Arean är \\(A=\\pi r^2\\). Kedjeregeln ger</p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]<p>Vid radien 4,0 m blir ökningen</p>\\[\\frac{dA}{dt}=2\\pi\\cdot4\\cdot\\frac{5}{2\\pi}=20\\text{ m}^2\\!/\\text{s}.\\]<p><strong>Svar:</strong> 20 m²/s.</p></div>",
         "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 1
@@ -42850,8 +42871,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En cirkelformad fläck på en vattenyta växer. Arean ökar med 0,50 m² per minut.</p><p>Bestäm hur snabbt radien ökar när radien är 2,0 m.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sambandet mellan area och radie är</p><div class=\"facit-matte\">\\[A=\\pi r^2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Formelbladets kedjeregel:</strong></p><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{dA}{dt}=\\frac{dA}{dr}\\frac{dr}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p></li><li><p>När \\(r=2\\) och \\(dA/dt=0{,}50\\):</p></li><li><p>\\[0{,}50=4\\pi\\frac{dr}{dt}\\Rightarrow \\frac{dr}{dt}=\\frac{0{,}50}{4\\pi}\\approx\\boxed{0{,}0398\\text{ m/min}}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
+    "t": "<p>En cirkelformad fläck på en vattenyta växer. Arean ökar med 0,50 m² per minut.</p><p>Bestäm hur snabbt radien ökar när radien är 2,0 m.</p><p>Svara i m/min med fyra decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" role=\"img\" aria-label=\"Cirkelformad fläck med markerad radie\" style=\"color:#243447\" font-family=\"sans-serif\" font-size=\"15\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#d4dce4\"/><circle cx=\"200\" cy=\"125\" r=\"80\" fill=\"#e8f3fa\" stroke=\"#246b91\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"125\" r=\"3\" fill=\"#243447\"/><line x1=\"200\" y1=\"125\" x2=\"280\" y2=\"125\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"112\" text-anchor=\"middle\" fill=\"#243447\">r = 2,0 m</text><text x=\"200\" y=\"232\" text-anchor=\"middle\" fill=\"#243447\">Schematiskt, sett ovanifrån</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Arean är \\(A=\\pi r^2\\). Eftersom radien beror på tiden ger kedjeregeln</p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]<p>Arean ökar med 0,50 m²/min och radien är 2,0 m:</p>\\[0{,}50=4\\pi\\frac{dr}{dt}.\\]\\[\\frac{dr}{dt}=\\frac{0{,}50}{4\\pi}\\approx0{,}0398\\text{ m/min}.\\]<p><strong>Svar:</strong> 0,0398 m/min.</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
       "procedur",
@@ -42859,8 +42880,8 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0398,
-    "tolerans": null,
+    "rättSvar": 0.039788735772973836,
+    "tolerans": 5e-05,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
@@ -42869,7 +42890,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 2,
     "omrTidigare": [
       "tillampningar_derivata"
-    ]
+    ],
+    "svarEnhet": "m/min"
   },
   {
     "id": "2.233",
@@ -42964,37 +42986,37 @@ window.BANKMATO2 = [
     ]
   },
   {
-  "id": "2.237",
-  "kap": 3,
-  "omr": "forandringshastigheter",
-  "kurs": [
-    "2c"
-  ],
-  "niva": "C",
-  "poang": "0/3/0",
-  "miniräknare": true,
-  "geogebra": true,
-  "t": "<p>En konformad sandhög behåller hela tiden samma form: radien är hälften av höjden. Sand fylls på så att volymen ökar med 0,030 m³/min.</p><p>Bestäm hur snabbt högens höjd ökar när höjden är 1,5 m.</p><p>Svara i m/min med fyra decimaler.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Formelbladet:</strong> En kons volym är</p><div class=\"facit-matte\">\\[V=\\pi r^2h/3\\].</div></div></li><li><p>Eftersom \\(r=h/2\\) kan volymen först skrivas enbart som funktion av \\(h\\):</p></li><li><p>\\[V(h)=\\frac{\\pi(h/2)^2h}{3}=\\frac{\\pi h^3}{12}.\\]</p></li><li><p>Med kedjeregeln:</p></li><li><p>\\[\\frac{dV}{dt}=\\frac{dV}{dh}\\frac{dh}{dt}=\\frac{\\pi h^2}{4}\\frac{dh}{dt}.\\]</p></li><li><div class=\"facit-berakning\"><p>När</p><div class=\"facit-matte\">\\[h=1,5\\]:</div></div></li><li><p>\\[0{,}030=\\frac{\\pi(1,5)^2}{4}\\frac{dh}{dt}.\\]</p></li><li><div class=\"facit-berakning\"><p>Därför</p><div class=\"facit-matte\">\\[dh/dt=0{,}120/(2,25\\pi)\\approx\\boxed{0{,}0170\\text{ m/min}}\\].</div></div></li></ol></div><div class=\"facit-v2\"><p><strong>Svar:</strong> 0,0170 m/min, vilket motsvarar cirka 1,70 cm/min. Tiden mäts i minuter.</p></div>",
-  "familj": "Samband mellan förändringshastigheter",
-  "formaga": [
-    "procedur",
-    "resonemang"
-  ],
-  "svarstyp": "numeriskt",
-  "rättSvar": 0.0169765272631355,
-  "tolerans": 5e-05,
-  "självrättning": true,
-  "svarFormat": "numeriskt",
-  "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
-  "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
-  "traningsniva": 4,
-  "arbetsinsats": 2,
-  "omrTidigare": [
-    "tillampningar_derivata"
-  ],
-  "svarEnhet": "m/min"
-},
+    "id": "2.237",
+    "kap": 3,
+    "omr": "forandringshastigheter",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/3/0",
+    "miniräknare": true,
+    "geogebra": true,
+    "t": "<p>En konformad sandhög behåller hela tiden samma form: radien är hälften av höjden. Sand fylls på så att volymen ökar med 0,030 m³/min.</p><p>Bestäm hur snabbt högens höjd ökar när höjden är 1,5 m.</p><p>Svara i m/min med fyra decimaler.</p>",
+    "s": "<div class=\"facit-v2\"><p>Konens volym är \\(V=\\pi r^2h/3\\). Eftersom \\(r=h/2\\) kan vi skriva volymen med bara höjden:</p>\\[V(h)=\\frac{\\pi h^3}{12}.\\]<p>Derivatan med avseende på höjden är \\(dV/dh=\\pi h^2/4\\). Kedjeregeln ger</p>\\[\\frac{dV}{dt}=\\frac{\\pi h^2}{4}\\frac{dh}{dt}.\\]<p>Volymen ökar med 0,030 m³/min och höjden är 1,5 m:</p>\\[0{,}030=\\frac{\\pi\\cdot1{,}5^2}{4}\\frac{dh}{dt}.\\]\\[\\frac{dh}{dt}=\\frac{0{,}120}{2{,}25\\pi}\\approx0{,}0170\\text{ m/min}.\\]<p><strong>Svar:</strong> 0,0170 m/min, vilket motsvarar cirka 1,70 cm/min.</p></div>",
+    "familj": "Samband mellan förändringshastigheter",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.0169765272631355,
+    "tolerans": 5e-05,
+    "självrättning": true,
+    "svarFormat": "numeriskt",
+    "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
+    "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "omrTidigare": [
+      "tillampningar_derivata"
+    ],
+    "svarEnhet": "m/min"
+  },
   {
     "id": "2.242",
     "kap": 3,
@@ -43099,8 +43121,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Volymen hos en sfärisk ballong ökar med 500 cm³/s.</p><p>Hur snabbt ökar radien när radien är 8,0 cm?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Derivatan beskriver lokal förändring.</p></li><li><p>I en tillämpning måste därför den fysikaliska eller geometriska storheten först skrivas som en funktion innan ett nollställe eller en förändringshastighet tolkas.</p></li><li><p>För ett klot gäller \\(V=4\\pi r^3/3\\), så \\(dV/dr=4\\pi r^2\\).</p></li><li><p>\\[500=4\\pi\\cdot8^2\\frac{dr}{dt}.\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\frac{dr}{dt}=\\frac{500}{256\\pi}\\approx\\boxed{0{,}622\\text{ cm/s}}.\\]</p></li></ol></div>",
+    "t": "<p>Volymen hos en klotformad ballong ökar med 500 cm³/s.</p><p>Hur snabbt ökar radien när radien är 8,0 cm?</p><p>Svara i cm/s med tre decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 270\" width=\"420\" height=\"270\" role=\"img\" aria-label=\"Klotformad ballong med radien 8,0 cm\" style=\"color:#243447\" font-family=\"sans-serif\" font-size=\"15\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#d4dce4\"/><circle cx=\"200\" cy=\"125\" r=\"80\" fill=\"#e8f3fa\" stroke=\"#246b91\" stroke-width=\"2\"/><ellipse cx=\"200\" cy=\"125\" rx=\"80\" ry=\"22\" fill=\"none\" stroke=\"#246b91\" stroke-dasharray=\"5 4\"/><circle cx=\"200\" cy=\"125\" r=\"3\" fill=\"#243447\"/><line x1=\"200\" y1=\"125\" x2=\"280\" y2=\"125\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"92\" text-anchor=\"middle\" fill=\"#243447\">8,0 cm</text><text x=\"200\" y=\"235\" text-anchor=\"middle\" fill=\"#243447\">Ballongen växer</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Ballongens volym är \\(V=4\\pi r^3/3\\). Kedjeregeln ger</p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]<p>Volymen ökar med 500 cm³/s och radien är 8,0 cm:</p>\\[500=256\\pi\\frac{dr}{dt}.\\]\\[\\frac{dr}{dt}=\\frac{500}{256\\pi}\\approx0{,}622\\text{ cm/s}.\\]<p><strong>Svar:</strong> radien ökar med 0,622 cm/s.</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
       "procedur",
@@ -43108,8 +43130,8 @@ window.BANKMATO2 = [
       "resonemang"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.622,
-    "tolerans": null,
+    "rättSvar": 0.6216989964527162,
+    "tolerans": 0.0005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
@@ -43118,7 +43140,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 2,
     "omrTidigare": [
       "tillampningar_derivata"
-    ]
+    ],
+    "svarEnhet": "cm/s"
   },
   {
     "id": "2.459",
@@ -47683,7 +47706,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Vilken lodrät asymptot har funktionen \\(f(x)=\\ln x\\)?</p><p>A. \\(x=1\\)<br>B. \\(y=0\\)<br>C. \\(x=0\\)<br>D. Ingen</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Undersök definitionsmängd och gränsbeteende först.</p></li><li><p>Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p></li><li><p>När \\(x\\to0^+\\) går \\(\\ln x\\to-\\infty\\).</p></li><li><p>Därför är \\(x=0\\) en lodrät asymptot.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>När x är positivt och närmar sig 0 minskar \\(\\ln x\\) utan gräns. Grafen närmar sig därför y-axeln, alltså linjen \\(x=0\\).</p><p><strong>Svar:</strong> C, \\(x=0\\).</p></div>",
     "familj": "Grafanalys av specialfunktioner",
     "formaga": [
       "begrepp"
@@ -47694,7 +47717,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "val",
     "familjNyckel": "olika_grafer__grafanalys_av_specialfunktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Undersök vad som händer med ln x när x närmar sig 0 från höger.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -47746,7 +47769,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": false,
     "t": "<p>Vilken vågrät asymptot har \\(f(x)=e^{-x}\\) när \\(x\\to\\infty\\)?</p><p>A. \\(x=0\\)<br>B. \\(y=1\\)<br>C. \\(y=0\\)<br>D. Ingen</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Undersök definitionsmängd och gränsbeteende först.</p></li><li><p>Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p></li><li><p>När \\(x\\to\\infty\\) går \\(e^{-x}\\to0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Vi kan skriva \\(e^{-x}=1/e^x\\). När x växer blir nämnaren allt större och bråket närmar sig 0. Grafen närmar sig alltså linjen \\(y=0\\).</p><p><strong>Svar:</strong> C, \\(y=0\\).</p></div>",
     "familj": "Grafanalys av specialfunktioner",
     "formaga": [
       "begrepp"
@@ -47757,7 +47780,7 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "val",
     "familjNyckel": "olika_grafer__grafanalys_av_specialfunktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>Skriv \\(e^{-x}\\) som ett bråk. Vad händer när x växer?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
@@ -47912,8 +47935,8 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Funktionen är \\(f(x)=e^x-3\\).</p><p>Bestäm x-skärning och ange dess x-värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> En asymptot beskriver funktionens beteende nära ett förbjudet x-värde eller för stora absolutbelopp av x.</p></li><li><p>Därför måste man skilja en verklig asymptot från ett hål som uppstår när en faktor förkortas.</p></li><li><p><strong>Metod:</strong> Använd funktionens standardegenskaper och lös det relevanta villkoret.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1{,}098612\\).</p></div>",
+    "t": "<p>Funktionen är \\(f(x)=e^x-3\\). Grafen skär x-axeln i en punkt.</p><p>Bestäm punktens x-koordinat. Svara exakt eller med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 320\" width=\"430\" height=\"320\" role=\"img\" aria-label=\"Funktionsgraf med rutnät och koordinataxlar\" style=\"color:#243447\" font-family=\"sans-serif\" font-size=\"15\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#d4dce4\"/><line x1=\"55.00\" x2=\"55.00\" y1=\"24\" y2=\"244\" stroke=\"#e0e7ee\"/><text x=\"55.0\" y=\"264\" text-anchor=\"middle\" fill=\"#243447\">-1</text><line x1=\"163.33\" x2=\"163.33\" y1=\"24\" y2=\"244\" stroke=\"#e0e7ee\"/><line x1=\"271.67\" x2=\"271.67\" y1=\"24\" y2=\"244\" stroke=\"#e0e7ee\"/><text x=\"271.67\" y=\"264\" text-anchor=\"middle\" fill=\"#243447\">1</text><line x1=\"380.00\" x2=\"380.00\" y1=\"24\" y2=\"244\" stroke=\"#e0e7ee\"/><text x=\"380.0\" y=\"264\" text-anchor=\"middle\" fill=\"#243447\">2</text><line x1=\"55\" x2=\"380\" y1=\"244.00\" y2=\"244.00\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"249.0\" text-anchor=\"end\" fill=\"#243447\">-4</text><line x1=\"55\" x2=\"380\" y1=\"219.56\" y2=\"219.56\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"224.56\" text-anchor=\"end\" fill=\"#243447\">-3</text><line x1=\"55\" x2=\"380\" y1=\"195.11\" y2=\"195.11\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"200.11\" text-anchor=\"end\" fill=\"#243447\">-2</text><line x1=\"55\" x2=\"380\" y1=\"170.67\" y2=\"170.67\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"175.67\" text-anchor=\"end\" fill=\"#243447\">-1</text><line x1=\"55\" x2=\"380\" y1=\"146.22\" y2=\"146.22\" stroke=\"#e0e7ee\"/><line x1=\"55\" x2=\"380\" y1=\"121.78\" y2=\"121.78\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"126.78\" text-anchor=\"end\" fill=\"#243447\">1</text><line x1=\"55\" x2=\"380\" y1=\"97.33\" y2=\"97.33\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"102.33\" text-anchor=\"end\" fill=\"#243447\">2</text><line x1=\"55\" x2=\"380\" y1=\"72.89\" y2=\"72.89\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"77.89\" text-anchor=\"end\" fill=\"#243447\">3</text><line x1=\"55\" x2=\"380\" y1=\"48.44\" y2=\"48.44\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"53.44\" text-anchor=\"end\" fill=\"#243447\">4</text><line x1=\"55\" x2=\"380\" y1=\"24.00\" y2=\"24.00\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"29.0\" text-anchor=\"end\" fill=\"#243447\">5</text><path d=\"M55 146.22H380 M163.33 244V24\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.8\"/><path d=\"M55.00 210.56 L55.81 210.50 L56.62 210.43 L57.44 210.36 L58.25 210.29 L59.06 210.22 L59.88 210.15 L60.69 210.08 L61.50 210.01 L62.31 209.93 L63.12 209.86 L63.94 209.79 L64.75 209.72 L65.56 209.64 L66.38 209.57 L67.19 209.49 L68.00 209.42 L68.81 209.34 L69.62 209.26 L70.44 209.19 L71.25 209.11 L72.06 209.03 L72.88 208.95 L73.69 208.87 L74.50 208.79 L75.31 208.71 L76.12 208.63 L76.94 208.54 L77.75 208.46 L78.56 208.38 L79.38 208.29 L80.19 208.21 L81.00 208.12 L81.81 208.04 L82.62 207.95 L83.44 207.86 L84.25 207.78 L85.06 207.69 L85.88 207.60 L86.69 207.51 L87.50 207.42 L88.31 207.33 L89.12 207.23 L89.94 207.14 L90.75 207.05 L91.56 206.95 L92.38 206.86 L93.19 206.76 L94.00 206.67 L94.81 206.57 L95.62 206.47 L96.44 206.37 L97.25 206.27 L98.06 206.17 L98.88 206.07 L99.69 205.97 L100.50 205.87 L101.31 205.77 L102.12 205.66 L102.94 205.56 L103.75 205.45 L104.56 205.35 L105.38 205.24 L106.19 205.13 L107.00 205.02 L107.81 204.91 L108.62 204.80 L109.44 204.69 L110.25 204.58 L111.06 204.47 L111.88 204.35 L112.69 204.24 L113.50 204.12 L114.31 204.01 L115.12 203.89 L115.94 203.77 L116.75 203.65 L117.56 203.53 L118.38 203.41 L119.19 203.29 L120.00 203.17 L120.81 203.05 L121.62 202.92 L122.44 202.80 L123.25 202.67 L124.06 202.54 L124.88 202.42 L125.69 202.29 L126.50 202.16 L127.31 202.03 L128.12 201.89 L128.94 201.76 L129.75 201.63 L130.56 201.49 L131.38 201.36 L132.19 201.22 L133.00 201.08 L133.81 200.94 L134.62 200.80 L135.44 200.66 L136.25 200.52 L137.06 200.37 L137.88 200.23 L138.69 200.09 L139.50 199.94 L140.31 199.79 L141.12 199.64 L141.94 199.49 L142.75 199.34 L143.56 199.19 L144.38 199.04 L145.19 198.88 L146.00 198.73 L146.81 198.57 L147.62 198.41 L148.44 198.25 L149.25 198.09 L150.06 197.93 L150.88 197.77 L151.69 197.60 L152.50 197.44 L153.31 197.27 L154.12 197.10 L154.94 196.93 L155.75 196.76 L156.56 196.59 L157.38 196.42 L158.19 196.25 L159.00 196.07 L159.81 195.89 L160.62 195.71 L161.44 195.54 L162.25 195.35 L163.06 195.17 L163.88 194.99 L164.69 194.80 L165.50 194.62 L166.31 194.43 L167.12 194.24 L167.94 194.05 L168.75 193.86 L169.56 193.66 L170.38 193.47 L171.19 193.27 L172.00 193.08 L172.81 192.88 L173.62 192.68 L174.44 192.47 L175.25 192.27 L176.06 192.06 L176.88 191.86 L177.69 191.65 L178.50 191.44 L179.31 191.23 L180.12 191.01 L180.94 190.80 L181.75 190.58 L182.56 190.36 L183.38 190.14 L184.19 189.92 L185.00 189.70 L185.81 189.47 L186.62 189.25 L187.44 189.02 L188.25 188.79 L189.06 188.56 L189.88 188.32 L190.69 188.09 L191.50 187.85 L192.31 187.61 L193.12 187.37 L193.94 187.13 L194.75 186.89 L195.56 186.64 L196.38 186.39 L197.19 186.14 L198.00 185.89 L198.81 185.64 L199.62 185.38 L200.44 185.13 L201.25 184.87 L202.06 184.61 L202.88 184.34 L203.69 184.08 L204.50 183.81 L205.31 183.54 L206.12 183.27 L206.94 183.00 L207.75 182.72 L208.56 182.44 L209.38 182.17 L210.19 181.88 L211.00 181.60 L211.81 181.31 L212.62 181.03 L213.44 180.74 L214.25 180.44 L215.06 180.15 L215.88 179.85 L216.69 179.55 L217.50 179.25 L218.31 178.95 L219.12 178.64 L219.94 178.34 L220.75 178.03 L221.56 177.71 L222.38 177.40 L223.19 177.08 L224.00 176.76 L224.81 176.44 L225.62 176.11 L226.44 175.79 L227.25 175.46 L228.06 175.13 L228.88 174.79 L229.69 174.45 L230.50 174.12 L231.31 173.77 L232.12 173.43 L232.94 173.08 L233.75 172.73 L234.56 172.38 L235.38 172.02 L236.19 171.67 L237.00 171.31 L237.81 170.94 L238.63 170.58 L239.44 170.21 L240.25 169.84 L241.06 169.46 L241.88 169.08 L242.69 168.70 L243.50 168.32 L244.31 167.94 L245.12 167.55 L245.94 167.16 L246.75 166.76 L247.56 166.36 L248.38 165.96 L249.19 165.56 L250.00 165.15 L250.81 164.74 L251.62 164.33 L252.44 163.92 L253.25 163.50 L254.06 163.07 L254.88 162.65 L255.69 162.22 L256.50 161.79 L257.31 161.35 L258.12 160.92 L258.94 160.47 L259.75 160.03 L260.56 159.58 L261.38 159.13 L262.19 158.68 L263.00 158.22 L263.81 157.76 L264.62 157.29 L265.44 156.82 L266.25 156.35 L267.06 155.87 L267.88 155.39 L268.69 154.91 L269.50 154.42 L270.31 153.93 L271.12 153.44 L271.94 152.94 L272.75 152.44 L273.56 151.94 L274.38 151.43 L275.19 150.91 L276.00 150.40 L276.81 149.88 L277.62 149.35 L278.44 148.82 L279.25 148.29 L280.06 147.75 L280.88 147.21 L281.69 146.67 L282.50 146.12 L283.31 145.57 L284.12 145.01 L284.94 144.45 L285.75 143.88 L286.56 143.31 L287.38 142.74 L288.19 142.16 L289.00 141.58 L289.81 140.99 L290.62 140.40 L291.44 139.81 L292.25 139.20 L293.06 138.60 L293.88 137.99 L294.69 137.38 L295.50 136.76 L296.31 136.13 L297.12 135.51 L297.94 134.87 L298.75 134.24 L299.56 133.59 L300.38 132.95 L301.19 132.29 L302.00 131.64 L302.81 130.98 L303.62 130.31 L304.44 129.64 L305.25 128.96 L306.06 128.28 L306.88 127.59 L307.69 126.90 L308.50 126.20 L309.31 125.50 L310.12 124.79 L310.94 124.08 L311.75 123.36 L312.56 122.63 L313.38 121.90 L314.19 121.17 L315.00 120.43 L315.81 119.68 L316.62 118.93 L317.44 118.17 L318.25 117.41 L319.06 116.64 L319.88 115.87 L320.69 115.09 L321.50 114.30 L322.31 113.51 L323.12 112.71 L323.94 111.90 L324.75 111.09 L325.56 110.28 L326.38 109.45 L327.19 108.63 L328.00 107.79 L328.81 106.95 L329.62 106.10 L330.44 105.25 L331.25 104.39 L332.06 103.52 L332.88 102.65 L333.69 101.77 L334.50 100.88 L335.31 99.99 L336.13 99.09 L336.94 98.18 L337.75 97.26 L338.56 96.34 L339.38 95.42 L340.19 94.48 L341.00 93.54 L341.81 92.59 L342.62 91.64 L343.44 90.67 L344.25 89.70 L345.06 88.73 L345.88 87.74 L346.69 86.75 L347.50 85.75 L348.31 84.74 L349.12 83.73 L349.94 82.70 L350.75 81.67 L351.56 80.63 L352.38 79.59 L353.19 78.54 L354.00 77.47 L354.81 76.40 L355.62 75.33 L356.44 74.24 L357.25 73.15 L358.06 72.04 L358.88 70.93 L359.69 69.82 L360.50 68.69 L361.31 67.55 L362.12 66.41 L362.94 65.25 L363.75 64.09 L364.56 62.92 L365.38 61.74 L366.19 60.56 L367.00 59.36 L367.81 58.15 L368.62 56.94 L369.44 55.71 L370.25 54.48 L371.06 53.24 L371.88 51.99 L372.69 50.72 L373.50 49.45 L374.31 48.17 L375.12 46.88 L375.94 45.58 L376.75 44.27 L377.56 42.95 L378.38 41.62 L379.19 40.28 L380.00 38.93\" fill=\"none\" stroke=\"#246b91\" stroke-width=\"2.5\"/><text x=\"398\" y=\"151.22\" text-anchor=\"middle\" fill=\"#243447\">x</text><text x=\"176.33\" y=\"16\" text-anchor=\"middle\" fill=\"#243447\">y</text><text x=\"215\" y=\"300\" text-anchor=\"middle\" fill=\"#243447\">f(x) = eˣ − 3</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>På x-axeln är y-värdet 0. Vi löser därför \\(f(x)=0\\):</p>\\[e^x-3=0\\quad\\Rightarrow\\quad e^x=3.\\]<p>Ta den naturliga logaritmen på båda sidor:</p>\\[x=\\ln3\\approx1{,}10.\\]<p><strong>Svar:</strong> x-koordinaten är \\(\\ln3\\), ungefär 1,10.</p></div>",
     "familj": "Grafanalys av specialfunktioner",
     "formaga": [
       "procedur",
@@ -47925,11 +47948,14 @@ window.BANKMATO2 = [
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "olika_grafer__grafanalys_av_specialfunktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Vilket värde har \\(f(x)\\) där grafen skär x-axeln?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
       "grafer_asymptoter"
+    ],
+    "svarEtiketter": [
+      "x"
     ]
   },
   {
@@ -47943,8 +47969,8 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Funktionen är \\(f(x)=ln(x-2)\\).</p><p>Bestäm x-skärning och ange dess x-värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> En asymptot beskriver funktionens beteende nära ett förbjudet x-värde eller för stora absolutbelopp av x.</p></li><li><p>Därför måste man skilja en verklig asymptot från ett hål som uppstår när en faktor förkortas.</p></li><li><p><strong>Metod:</strong> Använd funktionens standardegenskaper och lös det relevanta villkoret.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3{,}000000\\).</p></div>",
+    "t": "<p>Funktionen är \\(f(x)=\\ln(x-2)\\). Grafen skär x-axeln i en punkt.</p><p>Bestäm punktens x-koordinat.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 430 320\" width=\"430\" height=\"320\" role=\"img\" aria-label=\"Funktionsgraf med rutnät och koordinataxlar\" style=\"color:#243447\" font-family=\"sans-serif\" font-size=\"15\"><rect x=\"1\" y=\"1\" width=\"428\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#d4dce4\"/><line x1=\"55.00\" x2=\"55.00\" y1=\"24\" y2=\"244\" stroke=\"#e0e7ee\"/><line x1=\"109.17\" x2=\"109.17\" y1=\"24\" y2=\"244\" stroke=\"#e0e7ee\"/><text x=\"109.17\" y=\"264\" text-anchor=\"middle\" fill=\"#243447\">1</text><line x1=\"163.33\" x2=\"163.33\" y1=\"24\" y2=\"244\" stroke=\"#e0e7ee\"/><text x=\"163.33\" y=\"264\" text-anchor=\"middle\" fill=\"#243447\">2</text><line x1=\"217.50\" x2=\"217.50\" y1=\"24\" y2=\"244\" stroke=\"#e0e7ee\"/><text x=\"217.5\" y=\"264\" text-anchor=\"middle\" fill=\"#243447\">3</text><line x1=\"271.67\" x2=\"271.67\" y1=\"24\" y2=\"244\" stroke=\"#e0e7ee\"/><text x=\"271.67\" y=\"264\" text-anchor=\"middle\" fill=\"#243447\">4</text><line x1=\"325.83\" x2=\"325.83\" y1=\"24\" y2=\"244\" stroke=\"#e0e7ee\"/><text x=\"325.83\" y=\"264\" text-anchor=\"middle\" fill=\"#243447\">5</text><line x1=\"380.00\" x2=\"380.00\" y1=\"24\" y2=\"244\" stroke=\"#e0e7ee\"/><text x=\"380.0\" y=\"264\" text-anchor=\"middle\" fill=\"#243447\">6</text><line x1=\"55\" x2=\"380\" y1=\"244.00\" y2=\"244.00\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"249.0\" text-anchor=\"end\" fill=\"#243447\">-3</text><line x1=\"55\" x2=\"380\" y1=\"200.00\" y2=\"200.00\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"205.0\" text-anchor=\"end\" fill=\"#243447\">-2</text><line x1=\"55\" x2=\"380\" y1=\"156.00\" y2=\"156.00\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"161.0\" text-anchor=\"end\" fill=\"#243447\">-1</text><line x1=\"55\" x2=\"380\" y1=\"112.00\" y2=\"112.00\" stroke=\"#e0e7ee\"/><line x1=\"55\" x2=\"380\" y1=\"68.00\" y2=\"68.00\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"73.0\" text-anchor=\"end\" fill=\"#243447\">1</text><line x1=\"55\" x2=\"380\" y1=\"24.00\" y2=\"24.00\" stroke=\"#e0e7ee\"/><text x=\"45\" y=\"29.0\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M55 112.00H380 M55.00 244V24\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.8\"/><path d=\"M166.31 239.62 L167.12 229.01 L167.94 220.46 L168.75 213.31 L169.56 207.16 L170.38 201.77 L171.19 196.96 L172.00 192.63 L172.81 188.69 L173.62 185.07 L174.44 181.73 L175.25 178.62 L176.06 175.72 L176.88 173.00 L177.69 170.43 L178.50 168.01 L179.31 165.71 L180.12 163.53 L180.94 161.45 L181.75 159.47 L182.56 157.57 L183.38 155.75 L184.19 154.00 L185.00 152.32 L185.81 150.70 L186.62 149.13 L187.44 147.63 L188.25 146.17 L189.06 144.76 L189.88 143.39 L190.69 142.06 L191.50 140.77 L192.31 139.52 L193.12 138.30 L193.94 137.12 L194.75 135.97 L195.56 134.84 L196.38 133.75 L197.19 132.68 L198.00 131.64 L198.81 130.62 L199.62 129.62 L200.44 128.65 L201.25 127.69 L202.06 126.76 L202.88 125.85 L203.69 124.95 L204.50 124.08 L205.31 123.22 L206.12 122.37 L206.94 121.54 L207.75 120.73 L208.56 119.93 L209.38 119.15 L210.19 118.38 L211.00 117.62 L211.81 116.88 L212.62 116.15 L213.44 115.43 L214.25 114.72 L215.06 114.03 L215.88 113.34 L216.69 112.67 L217.50 112.00 L218.31 111.34 L219.12 110.70 L219.94 110.06 L220.75 109.44 L221.56 108.82 L222.38 108.21 L223.19 107.61 L224.00 107.01 L224.81 106.43 L225.62 105.85 L226.44 105.28 L227.25 104.72 L228.06 104.16 L228.88 103.61 L229.69 103.07 L230.50 102.54 L231.31 102.01 L232.12 101.48 L232.94 100.97 L233.75 100.46 L234.56 99.95 L235.38 99.45 L236.19 98.96 L237.00 98.47 L237.81 97.99 L238.63 97.51 L239.44 97.04 L240.25 96.57 L241.06 96.11 L241.88 95.65 L242.69 95.20 L243.50 94.75 L244.31 94.31 L245.12 93.87 L245.94 93.43 L246.75 93.00 L247.56 92.58 L248.38 92.15 L249.19 91.73 L250.00 91.32 L250.81 90.91 L251.62 90.50 L252.44 90.10 L253.25 89.70 L254.06 89.30 L254.88 88.91 L255.69 88.52 L256.50 88.14 L257.31 87.76 L258.12 87.38 L258.94 87.00 L259.75 86.63 L260.56 86.26 L261.38 85.89 L262.19 85.53 L263.00 85.17 L263.81 84.81 L264.62 84.46 L265.44 84.11 L266.25 83.76 L267.06 83.41 L267.88 83.07 L268.69 82.73 L269.50 82.39 L270.31 82.05 L271.12 81.72 L271.94 81.39 L272.75 81.06 L273.56 80.74 L274.38 80.42 L275.19 80.09 L276.00 79.78 L276.81 79.46 L277.62 79.15 L278.44 78.83 L279.25 78.52 L280.06 78.22 L280.88 77.91 L281.69 77.61 L282.50 77.31 L283.31 77.01 L284.12 76.71 L284.94 76.42 L285.75 76.12 L286.56 75.83 L287.38 75.54 L288.19 75.26 L289.00 74.97 L289.81 74.69 L290.62 74.41 L291.44 74.13 L292.25 73.85 L293.06 73.57 L293.88 73.30 L294.69 73.02 L295.50 72.75 L296.31 72.48 L297.12 72.21 L297.94 71.95 L298.75 71.68 L299.56 71.42 L300.38 71.16 L301.19 70.90 L302.00 70.64 L302.81 70.38 L303.62 70.13 L304.44 69.87 L305.25 69.62 L306.06 69.37 L306.88 69.12 L307.69 68.87 L308.50 68.62 L309.31 68.38 L310.12 68.13 L310.94 67.89 L311.75 67.65 L312.56 67.41 L313.38 67.17 L314.19 66.93 L315.00 66.70 L315.81 66.46 L316.62 66.23 L317.44 66.00 L318.25 65.76 L319.06 65.53 L319.88 65.30 L320.69 65.08 L321.50 64.85 L322.31 64.62 L323.12 64.40 L323.94 64.18 L324.75 63.96 L325.56 63.73 L326.38 63.51 L327.19 63.30 L328.00 63.08 L328.81 62.86 L329.62 62.65 L330.44 62.43 L331.25 62.22 L332.06 62.01 L332.88 61.79 L333.69 61.58 L334.50 61.37 L335.31 61.17 L336.13 60.96 L336.94 60.75 L337.75 60.55 L338.56 60.34 L339.38 60.14 L340.19 59.94 L341.00 59.73 L341.81 59.53 L342.62 59.33 L343.44 59.14 L344.25 58.94 L345.06 58.74 L345.88 58.54 L346.69 58.35 L347.50 58.15 L348.31 57.96 L349.12 57.77 L349.94 57.58 L350.75 57.38 L351.56 57.19 L352.38 57.00 L353.19 56.82 L354.00 56.63 L354.81 56.44 L355.62 56.25 L356.44 56.07 L357.25 55.88 L358.06 55.70 L358.88 55.52 L359.69 55.33 L360.50 55.15 L361.31 54.97 L362.12 54.79 L362.94 54.61 L363.75 54.43 L364.56 54.26 L365.38 54.08 L366.19 53.90 L367.00 53.73 L367.81 53.55 L368.62 53.38 L369.44 53.20 L370.25 53.03 L371.06 52.86 L371.88 52.68 L372.69 52.51 L373.50 52.34 L374.31 52.17 L375.12 52.00 L375.94 51.84 L376.75 51.67 L377.56 51.50 L378.38 51.33 L379.19 51.17 L380.00 51.00\" fill=\"none\" stroke=\"#246b91\" stroke-width=\"2.5\"/><text x=\"398\" y=\"117.0\" text-anchor=\"middle\" fill=\"#243447\">x</text><text x=\"68.0\" y=\"16\" text-anchor=\"middle\" fill=\"#243447\">y</text><text x=\"215\" y=\"300\" text-anchor=\"middle\" fill=\"#243447\">f(x) = ln(x − 2)</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>På x-axeln är y-värdet 0:</p>\\[\\ln(x-2)=0.\\]<p>Eftersom \\(\\ln1=0\\) måste \\(x-2=1\\). Alltså är \\(x=3\\), som också uppfyller definitionsvillkoret \\(x&gt;2\\).</p><p><strong>Svar:</strong> x-koordinaten är 3.</p></div>",
     "familj": "Grafanalys av specialfunktioner",
     "formaga": [
       "procedur",
@@ -47952,15 +47978,18 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 3,
-    "tolerans": 0.001,
+    "tolerans": 0,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "olika_grafer__grafanalys_av_specialfunktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>På x-axeln är \\(f(x)=0\\). Vilket tal har den naturliga logaritmen 0?</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
       "grafer_asymptoter"
+    ],
+    "svarEtiketter": [
+      "x"
     ]
   },
   {
@@ -47974,8 +48003,8 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Funktionen är \\(f(x)=1/(x-4)+2\\).</p><p>Bestäm vertikal asymptot och ange dess x-värde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> En asymptot beskriver funktionens beteende nära ett förbjudet x-värde eller för stora absolutbelopp av x.</p></li><li><p>Därför måste man skilja en verklig asymptot från ett hål som uppstår när en faktor förkortas.</p></li><li><p><strong>Metod:</strong> Använd funktionens standardegenskaper och lös det relevanta villkoret.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4{,}000000\\).</p></div>",
+    "t": "<p>Funktionen är \\(f(x)=\\dfrac{1}{x-4}+2\\).</p><p>Den lodräta asymptoten har ekvationen \\(x=a\\). Bestäm \\(a\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Nämnaren är 0 när \\(x-4=0\\), alltså vid \\(x=4\\). Täljaren är 1, så bråket växer obegränsat i storlek när x närmar sig 4. Därför är \\(x=4\\) en lodrät asymptot.</p><p><strong>Svar:</strong> \\(a=4\\).</p></div>",
     "familj": "Grafanalys av specialfunktioner",
     "formaga": [
       "procedur",
@@ -47983,15 +48012,18 @@ window.BANKMATO2 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 4,
-    "tolerans": 0.001,
+    "tolerans": 0,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "olika_grafer__grafanalys_av_specialfunktioner",
-    "ledtrad": "<p>Undersök definitionsmängd och gränsbeteende först. Lodräta asymptoter kommer ofta från nämnarens nollställen och en sned asymptot kan tas fram med polynomdivision.</p>",
+    "ledtrad": "<p>För vilket x-värde blir nämnaren 0?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
       "grafer_asymptoter"
+    ],
+    "svarEtiketter": [
+      "a"
     ]
   },
   {

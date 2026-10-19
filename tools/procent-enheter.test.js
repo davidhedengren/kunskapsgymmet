@@ -7,7 +7,7 @@ const html=fs.readFileSync(require('node:path').join(__dirname,'../index.html'),
 const c=vm.createContext({stadaSvar:x=>String(x).trim()});
 const start=html.indexOf('const SI_PREFIX=');
 vm.runInContext(html.slice(start,html.indexOf('\nfunction numerisktSvar(',start)),c);
-for(const name of ['enhetMedOrd','delSvarRattBas']){
+for(const name of ['enhetMedOrd','friAvrundningRatt','delSvarRattBas']){
  const p=html.indexOf(`function ${name}(`);assert.ok(p>=0);
  vm.runInContext(html.slice(p,html.indexOf('\n}',p)+2),c);
 }

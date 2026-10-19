@@ -9,7 +9,7 @@ const c=vm.createContext({
   stadaSvar:x=>String(x).trim(),hogerled:x=>x,
   rentNumerisktSvar:(a,f)=>Number(a.replace(',','.'))===Number(f),
 });
-for(const marker of ['const ENHET_ALIAS=','function formatRatt(','function enhetMedOrd(','function delSvarRattBas(']){
+for(const marker of ['const ENHET_ALIAS=','function formatRatt(','function enhetMedOrd(','function friAvrundningRatt(','function delSvarRattBas(']){
   const start=html.indexOf(marker);
   assert.ok(start>=0);
   const end=marker.startsWith('const')?html.indexOf(';',start)+1:html.indexOf('\n}',start)+2;

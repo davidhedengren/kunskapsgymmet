@@ -4015,7 +4015,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-19-fellogg-2044";
+const BANK_VERSION="2026-10-19-derivatavarden";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10783,7 +10783,31 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
     return false;
   }finally{ delSvarDjup--; }
 }
+/* Utan uttalad precision jämförs ett decimalsvar med facit avrundat till
+   elevens precision. Det är inte en bred relativ felmarginal. */
+function friAvrundningRatt(anv,facit,enhet,t,format){
+  if(format!=="numeriskt" && format!=="procent") return false;
+  const text=String(t?.t||"").replace(/<[^>]*>/g," ");
+  if(/exakt|bråkform|decimal(?:er)?|värdesiffr|gällande siffr|signifikant|avrund|heltal|hela (?:kronor|tal)/i.test(text)) return false;
+  const f=typeof facit==="number"?facit:(isPureNumberExpression(String(facit))?numericValue(tillNerdamer(normalizeMathInput(String(facit)))):NaN);
+  if(!Number.isFinite(f) || Number.isInteger(f)) return false;
+  const a=normaliseraGrundpotens(enhetMedOrd(stadaSvar(anv))).replace(/^[a-z]\s*[=≈]\s*/i,"")
+    .replace(/\s*[⋅∙·×*]\s*10\s*\^\s*\(?([+-]?\d+)\)?/,"e$1");
+  const m=a.match(/^([+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+))(?:[eE]([+-]?\d+))?\s*(.*?)$/);
+  if(!m) return false;
+  const suffix=m[3], own=suffix?tolkaEnhet(suffix):null, expected=tolkaEnhet(enhet||"");
+  if(suffix && (!enhet || !own || !expected || !sammaDimension(own,expected))) return false;
+  const scale=own?own.f/expected.f:1;
+  const digits=(m[1].split(/[.,]/)[1]||"").length;
+  const quantum=Math.pow(10,Number(m[2]||0)-digits);
+  const val=Number(m[1].replace(",","."))*Math.pow(10,Number(m[2]||0));
+  const target=f/scale;
+  if(!Number.isFinite(quantum)||quantum<=0||!Number.isFinite(target)||val===0) return false;
+  const rounded=Math.sign(target)*Math.round(Math.abs(target)/quantum)*quantum;
+  return Math.abs(val-rounded)<=Math.abs(rounded)*1e-12;
+}
 function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
+  if(friAvrundningRatt(anv,facit,enhet,t,format)) return true;
   /* Facit skrivet i LaTeX jämförs i samma form som eleven skriver. */
   if(typeof facit==="string" && /\\[a-zA-Z]/.test(facit)){
     const p=latexToPlain(facit);

@@ -2,7 +2,7 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8'),c=vm.createContext({});
 const start=html.indexOf('const SI_PREFIX='),end=html.indexOf('\nfunction numerisktSvar(',start);vm.runInContext(html.slice(start,end),c);
-for(const name of ['stadaSvar','hogerled','enhetMedOrd','delSvarRattBas']){const s=html.indexOf(`function ${name}(`);vm.runInContext(html.slice(s,html.indexOf('\n}',s)+2),c);}
+for(const name of ['stadaSvar','hogerled','enhetMedOrd','friAvrundningRatt','delSvarRattBas']){const s=html.indexOf(`function ${name}(`);vm.runInContext(html.slice(s,html.indexOf('\n}',s)+2),c);}
 for(const name of ['naraNog','talAv','rentNumerisktSvar']){const s=html.indexOf(`function ${name}(`);vm.runInContext(html.slice(s,html.indexOf('\n}',s)+2),c);}
 const grade=(answer,value,unit,tolerance=0)=>c.delSvarRattBas(answer,value,unit,tolerance,{t:''},0,'numeriskt');
 test('Numeriska svar räknar hela prefixet innan någon enhet tas bort',()=>{

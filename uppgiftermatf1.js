@@ -22073,14 +22073,14 @@ window.BANKMATF1 = [
     "typ": "relaterade förändringshastigheter växande cirkel",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg width=\"255\" height=\"180\" viewBox=\"0 0 285 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Växande cirkelfläck\">\n<rect x=\"10\" y=\"10\" width=\"265\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"140\" cy=\"102\" r=\"58\" fill=\"#eef7ff\" stroke=\"#2c62a8\" stroke-width=\"2.4\"/>\n<circle cx=\"140\" cy=\"102\" r=\"3.7\" fill=\"#2c62a8\"/>\n<line x1=\"140\" y1=\"102\" x2=\"194\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.4\"/>\n<polygon points=\"198,102 188,97 188,107\" fill=\"#b45f32\"/>\n<text x=\"162\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">r = 6,0 cm</text>\n</svg></span><p>En cirkelformad fläck växer så att radien ökar med 0,40 cm/s. Hur snabbt ökar fläckens area när radien är 6,0 cm?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[A=\\pi r^2\\].</div></div></li><li><p>Derivera med avseende på tiden:</p></li><li><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p></li><li><p>Sätt in \\(r=6,0\\) cm och \\(dr/dt=0{,}40\\) cm/s:</p></li><li><p>\\[\\frac{dA}{dt}=2\\pi\\cdot6{,}0\\cdot0{,}40=4{,}8\\pi.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: arean ökar med \\(4{,}8\\pi\\ \\text{cm}^2/\\text{s}\\approx15{,}1\\ \\text{cm}^2/\\text{s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><p>Arean är \\(A=\\pi r^2\\). Kedjeregeln ger \\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p><p>Sätt in \\(r=6{,}0\\) cm och \\(dr/dt=0{,}40\\) cm/s:</p><p>\\[\\frac{dA}{dt}=2\\pi\\cdot6{,}0\\cdot0{,}40\\]\\[=4{,}8\\pi\\text{ cm}^2/\\text{s}.\\]</p><p><strong>Svar:</strong> \\(4{,}8\\pi\\text{ cm}^2/\\text{s}\\approx15{,}08\\text{ cm}^2/\\text{s}\\).</p></div>",
     "id": "3.20",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 15.1,
-    "tolerans": 0.01,
+    "rättSvar": 15.079644737231007,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22093,7 +22093,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "kap": 3,
     "omr": "linjar_approximation",
@@ -22154,15 +22156,15 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "cirkelns area via diameter",
     "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg width=\"255\" height=\"180\" viewBox=\"0 0 285 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med diameter\">\n<rect x=\"10\" y=\"10\" width=\"265\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"140\" cy=\"102\" r=\"58\" fill=\"#eef7ff\" stroke=\"#2c62a8\" stroke-width=\"2.4\"/>\n<line x1=\"82\" y1=\"102\" x2=\"198\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.4\"/>\n<polygon points=\"78,102 88,97 88,107\" fill=\"#b45f32\"/>\n<polygon points=\"202,102 192,97 192,107\" fill=\"#b45f32\"/>\n<text x=\"128\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">d = 16,0 cm</text>\n</svg></span><p>Diametern i en cirkel ökar med 0,60 cm/s. Hur snabbt ökar arean när diametern är 16,0 cm?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(d\\) vara diametern.</p></li><li><p>Då är radien \\(r=d/2\\), och arean blir</p></li><li><p>\\[A=\\pi r^2=\\pi\\left(\\frac d2\\right)^2=\\frac{\\pi}{4}d^2.\\]</p></li><li><p>Derivera med avseende på tiden:</p></li><li><p>\\[\\frac{dA}{dt}=\\frac{\\pi}{2}d\\frac{dd}{dt}.\\]</p></li><li><p>Sätt in \\(d=16,0\\) cm och \\(dd/dt=0{,}60\\) cm/s:</p></li><li><p>\\[\\frac{dA}{dt}=\\frac{\\pi}{2}\\cdot16{,}0\\cdot0{,}60=4{,}8\\pi.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: arean ökar med \\(4{,}8\\pi\\ \\text{cm}^2/\\text{s}\\approx15{,}1\\ \\text{cm}^2/\\text{s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
+    "t": "<span class=\"fig smal\"><svg width=\"255\" height=\"180\" viewBox=\"0 0 285 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med diameter\">\n<rect x=\"10\" y=\"10\" width=\"265\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"140\" cy=\"102\" r=\"58\" fill=\"#eef7ff\" stroke=\"#2c62a8\" stroke-width=\"2.4\"/>\n<line x1=\"82\" y1=\"102\" x2=\"198\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.4\"/>\n<polygon points=\"78,102 88,97 88,107\" fill=\"#b45f32\"/>\n<polygon points=\"202,102 192,97 192,107\" fill=\"#b45f32\"/>\n<text x=\"128\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">d = 16,0 cm</text>\n</svg></span><p>Diametern i en cirkel ökar med 0,60 cm/s. Hur snabbt ökar arean när diametern är 16,0 cm? Svara i cm²/s.</p>",
+    "s": "<div class=\"facit-v2\"><p>Radien är halva diametern. Därför är arean \\[A=\\pi\\left(\\frac d2\\right)^2=\\frac{\\pi d^2}{4}.\\]</p><p>Med kedjeregeln får vi \\[\\frac{dA}{dt}=\\frac{\\pi d}{2}\\frac{dd}{dt}.\\]</p><p>Sätt in diametern 16,0 cm och dess ökning 0,60 cm/s:</p><p>\\[\\frac{dA}{dt}=\\frac{\\pi}{2}\\cdot16{,}0\\cdot0{,}60\\]\\[=4{,}8\\pi\\text{ cm}^2/\\text{s}.\\]</p><p><strong>Svar:</strong> \\(4{,}8\\pi\\text{ cm}^2/\\text{s}\\approx15{,}08\\text{ cm}^2/\\text{s}\\).</p></div>",
     "id": "3.44",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 15.1,
-    "tolerans": 0.01,
+    "rättSvar": 15.079644737231007,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22174,7 +22176,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
@@ -22182,14 +22186,14 @@ window.BANKMATF1 = [
     "typ": "sfärens volym",
     "poang": "2/0/0",
     "t": "<span class=\"fig smal\"><svg width=\"270\" height=\"180\" viewBox=\"0 0 300 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sfär\">\n<rect x=\"10\" y=\"10\" width=\"280\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"145\" cy=\"102\" r=\"60\" fill=\"#f8fbff\" stroke=\"#6b6b6b\" stroke-width=\"2.3\"/>\n<ellipse cx=\"145\" cy=\"102\" rx=\"60\" ry=\"18\" fill=\"none\" stroke=\"#b3bcc8\" stroke-width=\"1.2\"/>\n<line x1=\"145\" y1=\"102\" x2=\"200\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.3\"/>\n<polygon points=\"204,102 194,97 194,107\" fill=\"#b45f32\"/>\n<text x=\"168\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">r = 5,0 cm</text>\n</svg></span><p>Radien i en sfär ökar med 0,20 cm/s. Hur snabbt ökar volymen när radien är 5,0 cm?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Volymen är</p><div class=\"facit-matte\">\\[V=\\frac43\\pi r^3\\].</div></div></li><li><p>Derivera:</p></li><li><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p></li><li><p>Sätt in \\(r=5,0\\) cm och \\(dr/dt=0{,}20\\) cm/s:</p></li><li><p>\\[\\frac{dV}{dt}=4\\pi\\cdot25\\cdot0{,}20=20\\pi.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: volymen ökar med \\(20\\pi\\ \\text{cm}^3/\\text{s}\\approx62{,}8\\ \\text{cm}^3/\\text{s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><p>Sfärens volym är \\(V=4\\pi r^3/3\\). Kedjeregeln ger \\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p><p>Sätt in \\(r=5{,}0\\) cm och \\(dr/dt=0{,}20\\) cm/s:</p><p>\\[\\frac{dV}{dt}=4\\pi\\cdot5{,}0^2\\cdot0{,}20\\]\\[=20\\pi\\text{ cm}^3/\\text{s}.\\]</p><p><strong>Svar:</strong> \\(20\\pi\\text{ cm}^3/\\text{s}\\approx62{,}83\\text{ cm}^3/\\text{s}\\).</p></div>",
     "id": "3.45",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 62.8,
-    "tolerans": 0.01,
+    "rättSvar": 62.83185307179586,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22201,7 +22205,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm³/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
@@ -22401,15 +22407,15 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "omkrets cirkel",
     "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg width=\"260\" height=\"180\" viewBox=\"0 0 290 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med minskande radie\">\n<rect x=\"10\" y=\"10\" width=\"270\" height=\"185\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<circle cx=\"140\" cy=\"105\" r=\"58\" fill=\"#f7fbff\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"140\" cy=\"105\" r=\"3.5\" fill=\"#2C62A8\"/>\n<line x1=\"140\" y1=\"105\" x2=\"194\" y2=\"105\" stroke=\"#b45f32\" stroke-width=\"2.2\"/>\n<polygon points=\"198,105 188,100 188,110\" fill=\"#b45f32\"/>\n<text x=\"163\" y=\"97\" font-size=\"14\">r</text>\n<text x=\"237\" y=\"100\" font-size=\"12\">dr/dt = -0,12 m/s</text>\n</svg></span><p>Radien i en cirkel minskar med 0,12 m/s. Hur snabbt förändras omkretsen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Omkretsen är</p><div class=\"facit-matte\">\\[O=2\\pi r\\].</div></div></li><li><p>Derivera:</p></li><li><p>\\[\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}.\\]</p></li><li><p>Sätt in \\(dr/dt=-0{,}12\\) m/s:</p></li><li><p>\\[\\frac{dO}{dt}=2\\pi\\cdot(-0,12)=-0{,}24\\pi.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: omkretsen minskar med \\(0{,}24\\pi\\ \\text{m/s}\\approx0{,}754\\ \\text{m/s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
+    "t": "<span class=\"fig smal\"><svg width=\"260\" height=\"180\" viewBox=\"0 0 290 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med minskande radie\">\n<rect x=\"10\" y=\"10\" width=\"270\" height=\"185\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<circle cx=\"140\" cy=\"105\" r=\"58\" fill=\"#f7fbff\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"140\" cy=\"105\" r=\"3.5\" fill=\"#2C62A8\"/>\n<line x1=\"140\" y1=\"105\" x2=\"194\" y2=\"105\" stroke=\"#b45f32\" stroke-width=\"2.2\"/>\n<polygon points=\"198,105 188,100 188,110\" fill=\"#b45f32\"/>\n<text x=\"163\" y=\"97\" font-size=\"14\" fill=\"#243247\">r</text>\n<text x=\"140\" y=\"180\" text-anchor=\"middle\" font-size=\"12\" fill=\"#243247\">dr/dt = −0,12 m/s</text>\n</svg></span><p>Radien i en cirkel minskar med 0,12 m/s. Med vilken hastighet minskar omkretsen? Svara i m/s.</p>",
+    "s": "<div class=\"facit-v2\"><p>Omkretsen är \\(O=2\\pi r\\), så \\[\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}.\\]</p><p>Radien minskar, alltså är \\(dr/dt=-0{,}12\\) m/s. Det ger</p><p>\\[\\frac{dO}{dt}=-0{,}24\\pi\\text{ m/s}.\\]</p><p>Minustecknet visar att omkretsen minskar. Den efterfrågade minskningshastigheten är storleken:</p><p><strong>Svar:</strong> \\(0{,}24\\pi\\text{ m/s}\\approx0{,}75\\text{ m/s}\\).</p></div>",
     "id": "3.79",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.754,
-    "tolerans": 0.01,
+    "rättSvar": 0.7539822368615503,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22421,7 +22427,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "m/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",

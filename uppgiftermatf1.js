@@ -47846,10 +47846,10 @@ window.BANKMATF1 = [
       "1/2"
     ],
     "tolerans": [
-      0.0001,
-      0.0001,
-      0.0001,
-      0.0001
+      null,
+      null,
+      null,
+      null
     ],
     "självrättning": true,
     "formaga": [
@@ -47857,10 +47857,10 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
     ],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
@@ -47870,12 +47870,12 @@ window.BANKMATF1 = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Integralerna är konvergenta. Beräkna deras värden exakt.</p>",
+    "spelIntro": "<p>Integralen är konvergent. Beräkna dess värde exakt.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "\\(\\displaystyle\\int_2^\\infty\\frac{1}{x^2}\\,dx\\)",
-        "t": "<p>Integralerna är konvergenta. Beräkna deras värden exakt.</p><p>\\(\\displaystyle\\int_2^\\infty\\frac{1}{x^2}\\,dx\\)</p>",
+        "t": "<p>Integralen är konvergent. Beräkna dess värde exakt.</p><p>\\(\\displaystyle\\int_2^\\infty\\frac{1}{x^2}\\,dx\\)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\left[-\\dfrac1x\\right]_2^b=\\dfrac12-\\dfrac1b\\to\\dfrac12\\) när \\(b\\to\\infty\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac12\\)</p></div>",
         "ledtrad": "<p>Integrera till en övre gräns \\(b\\) och låt \\(b\\to\\infty\\).</p>",
         "niva": "E",
@@ -47885,7 +47885,7 @@ window.BANKMATF1 = [
       {
         "etikett": "b",
         "fraga": "\\(\\displaystyle\\int_0^\\infty4e^{-4x}\\,dx\\)",
-        "t": "<p>Integralerna är konvergenta. Beräkna deras värden exakt.</p><p>\\(\\displaystyle\\int_0^\\infty4e^{-4x}\\,dx\\)</p>",
+        "t": "<p>Integralen är konvergent. Beräkna dess värde exakt.</p><p>\\(\\displaystyle\\int_0^\\infty4e^{-4x}\\,dx\\)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left[-e^{-4x}\\right]_0^b=1-e^{-4b}\\to1\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
         "ledtrad": "<p>Vad händer med \\(e^{-4b}\\) när \\(b\\) växer?</p>",
         "niva": "E",
@@ -47895,7 +47895,7 @@ window.BANKMATF1 = [
       {
         "etikett": "c",
         "fraga": "\\(\\displaystyle\\int_1^\\infty\\frac{dx}{x^4}\\)",
-        "t": "<p>Integralerna är konvergenta. Beräkna deras värden exakt.</p><p>\\(\\displaystyle\\int_1^\\infty\\frac{dx}{x^4}\\)</p>",
+        "t": "<p>Integralen är konvergent. Beräkna dess värde exakt.</p><p>\\(\\displaystyle\\int_1^\\infty\\frac{dx}{x^4}\\)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left[-\\dfrac{1}{3x^3}\\right]_1^b\\to\\dfrac13\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac13\\)</p></div>",
         "ledtrad": "<p>Skriv integranden som \\(x^{-4}\\).</p>",
         "niva": "E",
@@ -47905,9 +47905,9 @@ window.BANKMATF1 = [
       {
         "etikett": "d",
         "fraga": "\\(\\displaystyle\\int_{-\\infty}^0e^{2x}\\,dx\\)",
-        "t": "<p>Integralerna är konvergenta. Beräkna deras värden exakt.</p><p>\\(\\displaystyle\\int_{-\\infty}^0e^{2x}\\,dx\\)</p>",
+        "t": "<p>Integralen är konvergent. Beräkna dess värde exakt.</p><p>\\(\\displaystyle\\int_{-\\infty}^0e^{2x}\\,dx\\)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\left[\\dfrac{e^{2x}}{2}\\right]_a^0=\\dfrac12-\\dfrac{e^{2a}}{2}\\to\\dfrac12\\) när \\(a\\to-\\infty\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac12\\)</p></div>",
-        "ledtrad": "<p>Nu är det den undre gränsen som går mot oändligheten.</p>",
+        "ledtrad": "<p>Låt den undre integrationsgränsen gå mot minus oändligheten. Vad händer då med \\(e^{2x}\\)?</p>",
         "niva": "C",
         "poang": "0/1/0",
         "traningsniva": 3
@@ -47952,12 +47952,12 @@ window.BANKMATF1 = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Beräkna integralerna. Konstanterna är positiva.</p>",
+    "spelIntro": "<p>Beräkna integralen. Konstanterna är positiva.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "\\(\\displaystyle\\int_0^\\infty me^{-mx}\\,dx\\), där \\(m\\gt0\\)",
-        "t": "<p>Beräkna integralerna. Konstanterna är positiva.</p><p>\\(\\displaystyle\\int_0^\\infty me^{-mx}\\,dx\\), där \\(m\\gt0\\)</p>",
+        "t": "<p>Beräkna integralen. Konstanterna är positiva.</p><p>\\(\\displaystyle\\int_0^\\infty me^{-mx}\\,dx\\), där \\(m\\gt0\\)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left[-e^{-mx}\\right]_0^b=1-e^{-mb}\\to1\\].</div></li><li><p>Värdet beror inte på \\(m\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1</p></div>",
         "ledtrad": "<p>En primitiv funktion till \\(me^{-mx}\\) är \\(-e^{-mx}\\).</p>",
         "niva": "C",
@@ -47967,7 +47967,7 @@ window.BANKMATF1 = [
       {
         "etikett": "b",
         "fraga": "\\(\\displaystyle\\int_0^\\infty Qe^{-kx}\\,dx\\), där \\(k\\gt0\\)",
-        "t": "<p>Beräkna integralerna. Konstanterna är positiva.</p><p>\\(\\displaystyle\\int_0^\\infty Qe^{-kx}\\,dx\\), där \\(k\\gt0\\)</p>",
+        "t": "<p>Beräkna integralen. Konstanterna är positiva.</p><p>\\(\\displaystyle\\int_0^\\infty Qe^{-kx}\\,dx\\), där \\(k\\gt0\\)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left[-\\dfrac Qke^{-kx}\\right]_0^b\\to\\dfrac Qk\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac Qk\\)</p></div>",
         "ledtrad": "<p>Tänk på den inre derivatan \\(-k\\).</p>",
         "niva": "C",

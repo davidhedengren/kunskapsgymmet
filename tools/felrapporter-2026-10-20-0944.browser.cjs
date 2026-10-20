@@ -1,0 +1,21 @@
+/* Lokal server på 8027; inga elevdata eller rapportstatusar skrivs. */
+'use strict';
+const {chromium}=require('playwright'),fs=require('fs'),vm=require('vm'),assert=require('node:assert/strict');
+(async()=>{const browser=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});try{
+const page=await browser.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.route(/^https:\/\/cdn\.jsdelivr\.net\/npm\/(katex|nerdamer)@/,r=>{const m=new URL(r.request().url()).pathname.match(/^\/npm\/(katex|nerdamer)@[^/]+\/(.+)$/);return r.fulfill({path:'/tmp/review-deps/'+m[1]+'/package/'+m[2]});});
+await page.route('https://*.supabase.co/**',r=>r.abort());await page.route('https://fonts.googleapis.com/**',r=>r.fulfill({body:''}));
+await page.addInitScript(()=>localStorage.setItem('kunskapsgymmet-beta-info','2'));await page.goto('http://127.0.0.1:8027');await page.waitForFunction(()=>typeof selectCourse==='function'&&typeof nerdamer==='function');
+const banks={};for(const name of ['mato2','matf1']){const c={window:{}};vm.runInNewContext(fs.readFileSync(__dirname+'/../../Uppgiftslabbet/uppgifter'+name+'.js','utf8'),c);banks[name]=Object.values(c.window)[0];}
+await page.evaluate(banks=>{window.reviewBanks=banks;session=null;syncOwner=null;arLarare=false;finishAttempt=r=>{state.answered=true;window.result=r;};window.reviewTask=(id,part)=>{const p=reviewBanks[state.course].find(q=>q.id===id),q=part==null?p:expandGameTask(p)[part];state.view='training';state.currentTask=q;state.answered=false;state.solutionShown=false;state.partResults=[];state.partIndex=0;state.aktivRuta=0;state.altValda=new Set();window.result=null;renderTraining();hjalpSynk();return q;};},banks);
+let checks=0,views=0;const layout=[];
+async function check(id,part,input,want){const actual=await page.evaluate(([id,part,input])=>{reviewTask(id,part);document.getElementById('ans-0').value=input;checkAnswer();return window.result||state.partResults;},[id,part,input]);assert.ok(actual.length>0,id+' tom rättning');assert.equal(actual.every(Boolean),want,id+' '+input+' '+actual);checks++;}
+for(const width of [390,1280]){await page.setViewportSize({width,height:1000});await page.evaluate(()=>selectCourse('matf1'));
+for(const [part,good,bad]of [[0,'1/2','0.51'],[1,'1','0.99'],[2,'1/3','0.3333'],[3,'1/2','0.49']]){await check('3.322',part,good,true);await check('3.322',part,bad,false);}
+await check('3.323',0,'1',true);await check('3.323',1,'Q/k',true);await check('3.323',1,'k/Q',false);
+for(const [id,part]of [['3.322',0],['3.322',1],['3.322',2],['3.322',3],['3.323',0],['3.323',1]]){const v=await page.evaluate(([id,part])=>{const q=reviewTask(id,part);showSolution();return {id,part,t:q.t,latex:document.querySelectorAll('.katex-error').length,wide:document.documentElement.scrollWidth>innerWidth+1,clipped:[...document.querySelectorAll('.katex-display')].some(d=>[...d.querySelectorAll('.base')].some(b=>b.getBoundingClientRect().width>d.getBoundingClientRect().width+2))};},[id,part]);assert.ok(!/integralerna|deras värden/i.test(v.t),id);assert.equal((v.t.match(/\\int/g)||[]).length,1,id+' ska visa en integral');if(v.latex||v.wide||v.clipped)layout.push(v);views++;}
+await page.evaluate(()=>selectCourse('mato2'));for(const good of ['128*pi/15','128π/15','256*pi/30'])await check('3.220',null,good,true);for(const bad of ['26,81','128/15'])await check('3.220',null,bad,false);
+const v=await page.evaluate(()=>{const q=reviewTask('3.220',null);showSolution();return {t:q.t,latex:document.querySelectorAll('.katex-error').length,wide:document.documentElement.scrollWidth>innerWidth+1,clipped:[...document.querySelectorAll('.katex-display')].some(d=>[...d.querySelectorAll('.base')].some(b=>b.getBoundingClientRect().width>d.getBoundingClientRect().width+2))};});assert.ok(v.t.indexOf('Svara med ett exakt uttryck')<v.t.indexOf('<svg'));if(v.latex||v.wide||v.clipped)layout.push(v);views++;await page.locator('.task').screenshot({path:'/tmp/fellogg-2026-10-20-0944/3.220-'+width+'.png'});
+}
+assert.deepEqual(errors,[]);assert.deepEqual(layout,[]);console.log(JSON.stringify({checks,views,errors,layout}));
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1;});

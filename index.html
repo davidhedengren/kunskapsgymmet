@@ -4015,7 +4015,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-19-asymptoter";
+const BANK_VERSION="2026-10-20-fellogg-0703";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10786,7 +10786,7 @@ function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
 /* Utan uttalad precision jämförs ett decimalsvar med facit avrundat till
    elevens precision. Det är inte en bred relativ felmarginal. */
 function friAvrundningRatt(anv,facit,enhet,t,format){
-  if(format!=="numeriskt" && format!=="procent") return false;
+  if(!["numeriskt","procent","sannolikhet"].includes(format)) return false;
   const text=String(t?.t||"").replace(/<[^>]*>/g," ");
   if(/exakt|bråkform|decimal(?:er)?|värdesiffr|gällande siffr|signifikant|avrund|heltal|hela (?:kronor|tal)/i.test(text)) return false;
   const f=typeof facit==="number"?facit:(isPureNumberExpression(String(facit))?numericValue(tillNerdamer(normalizeMathInput(String(facit)))):NaN);
@@ -10796,8 +10796,9 @@ function friAvrundningRatt(anv,facit,enhet,t,format){
   const m=a.match(/^([+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+))(?:[eE]([+-]?\d+))?\s*(.*?)$/);
   if(!m) return false;
   const suffix=m[3], own=suffix?tolkaEnhet(suffix):null, expected=tolkaEnhet(enhet||"");
-  if(suffix && (!enhet || !own || !expected || !sammaDimension(own,expected))) return false;
-  const scale=own?own.f/expected.f:1;
+  const sannolikhetsprocent=format==="sannolikhet" && suffix==="%";
+  if(suffix && !sannolikhetsprocent && (!enhet || !own || !expected || !sammaDimension(own,expected))) return false;
+  const scale=sannolikhetsprocent?0.01:(own?own.f/expected.f:1);
   const digits=(m[1].split(/[.,]/)[1]||"").length;
   const quantum=Math.pow(10,Number(m[2]||0)-digits);
   const val=Number(m[1].replace(",","."))*Math.pow(10,Number(m[2]||0));

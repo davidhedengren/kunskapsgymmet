@@ -58183,8 +58183,8 @@ window.BANKMATO2 = [
       "problemlösning"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 4.58,
-    "tolerans": 0.01,
+    "rättSvar": 4.583662361046586,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
@@ -58194,7 +58194,9 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "integral_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "kWh"
+},
   {
     "id": "3.70",
     "kap": 4,
@@ -58509,8 +58511,8 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Effekten hos en maskin under åtta timmar modelleras av</p><p>\\[P(t)=2{,}5+1{,}2\\sin\\left(\\frac{\\pi t}{6}\\right)+0{,}08t^2\\]</p><p>kW.</p><p>Bestäm den energi som maskinen använder under de åtta timmarna.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Identifiera först vad integranden och differentialen betyder i situationen.</p></li><li><p>Kontrollera sedan enheten på den färdiga integralen.</p></li><li><p>Energin i kWh fås av</p></li><li><p>\\[E=\\int_0^8P(t)\\,dt.\\]</p></li><li><p>Beräkningen ger</p></li><li><p>\\[\\boxed{E\\approx37{,}09\\text{ kWh}}.\\]</p></li></ol></div>",
+    "t": "<p>Effekten hos en maskin under de första åtta timmarna ges av</p>\\[P(t)=2{,}5+1{,}2\\sin\\left(\\frac{\\pi t}{6}\\right)+0{,}08t^2,\\]<p>där \\(P\\) mäts i kW och \\(t\\) i timmar från start.</p><p>Bestäm energin som maskinen använder under dessa åtta timmar. Svara i kWh.</p>",
+    "s": "<div class=\"facit-v2\"><p>Energin är integralen av effekten. Enheten blir kW·h, alltså kWh.</p><p>En primitiv funktion till effekten är \\[F(t)=2{,}5t-\\frac{7{,}2}{\\pi}\\cos\\left(\\frac{\\pi t}{6}\\right)+\\frac{0{,}08}{3}t^3.\\]</p><p>Därför blir energin \\[E=F(8)-F(0)\\]\\[=20+\\frac{10{,}8}{\\pi}+\\frac{40{,}96}{3}\\]\\[\\approx37{,}0911\\text{ kWh}.\\]</p><p><strong>Svar:</strong> cirka 37,1 kWh.</p></div>",
     "familj": "Tillämpa integraler i modeller",
     "formaga": [
       "procedur",
@@ -58518,8 +58520,8 @@ window.BANKMATO2 = [
       "problemlösning"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 37.09,
-    "tolerans": 0.01,
+    "rättSvar": 37.09108010411828,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__tillampa_integraler_i_modeller",
@@ -58529,7 +58531,9 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "integral_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "kWh"
+},
   {
     "id": "3.84",
     "kap": 4,
@@ -58550,8 +58554,8 @@ window.BANKMATO2 = [
       "problemlösning"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 4.58,
-    "tolerans": 0.01,
+    "rättSvar": 4.583662361046586,
+    "tolerans": 0.005,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
@@ -58561,7 +58565,9 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "integral_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "kWh"
+},
   {
     "id": "3.87",
     "kap": 4,
@@ -59140,8 +59146,8 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Effekten från en liten solpanel kan under sex timmar modelleras med</p><p>\\[P(t)=600\\sin(\\pi t/6)\\text{ W},\\qquad0\\le t\\le6.\\]</p><p>Bestäm den producerade energin i kWh under perioden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> En bestämd integral är tecknad förändring eller area.</p></li><li><p class=\"facit-metod\">Bestäm först gränser och vilken funktion som ska ligga överst; dela intervallet om tecknet byts.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Energi är integralen av effekt över tid:</p></li><li><p>\\[E=\\int_0^6 600\\sin(\\pi t/6)dt.\\]</p></li><li><p>En primitiv funktion är \\(-3600/\\pi\\cos(\\pi t/6)\\), så</p></li><li><p>\\[E=\\frac{7200}{\\pi}\\text{ Wh}\\approx2292\\text{ Wh}=\\boxed{2{,}29\\text{ kWh}}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att area eller volym inte får ett negativt slutsvar.</p></li></ol></div>",
+    "t": "<p>Effekten från en liten solpanel kan under sex timmar modelleras med</p><p>Här mäts \\(t\\) i timmar från start.</p><p>\\[P(t)=600\\sin(\\pi t/6)\\text{ W},\\qquad0\\le t\\le6.\\]</p><p>Bestäm den producerade energin i kWh under perioden.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> En bestämd integral är tecknad förändring eller area.</p></li><li><p class=\"facit-metod\">Bestäm först gränser och vilken funktion som ska ligga överst; dela intervallet om tecknet byts.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Energi är integralen av effekt över tid:</p></li><li><p>\\[E=\\int_0^6 600\\sin(\\pi t/6)dt.\\]</p></li><li><p>En primitiv funktion är \\(-3600/\\pi\\cos(\\pi t/6)\\), så</p></li><li><p>\\[E=\\frac{7200}{\\pi}\\text{ Wh}\\approx2292\\text{ Wh}\\approx\\boxed{2{,}29\\text{ kWh}}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att area eller volym inte får ett negativt slutsvar.</p></li></ol></div>",
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
@@ -59150,8 +59156,8 @@ window.BANKMATO2 = [
       "problemlösning"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 2.29,
-    "tolerans": null,
+    "rättSvar": 2.291831180523293,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
@@ -59161,7 +59167,9 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "integral_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "kWh"
+},
   {
     "id": "3.135",
     "kap": 4,
@@ -59329,7 +59337,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Effekten från en solcellsanläggning modelleras under sex timmar av \\(P(t)=1200\\sin(\\pi t/6)\\) W<br>för \\(0\\le t\\le6\\).</p><p>Bestäm den producerade energin under intervallet. Svara i kWh.</p>",
+    "t": "<p>Effekten från en solcellsanläggning modelleras under sex timmar av \\(P(t)=1200\\sin(\\pi t/6)\\) W<br>för \\(0\\le t\\le6\\).</p><p>Tiden \\(t\\) mäts i timmar från start.</p><p>Bestäm den producerade energin under intervallet. Svara i kWh.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Översätt först situationen till en integral.</p></li><li><p>Kontrollera sedan vad integralens tecken och enhet betyder i sammanhanget.</p></li><li><p>Energin i Wh är</p></li><li><p>\\[E=\\int_0^6 1200\\sin(\\pi t/6)dt=\\frac{14400}{\\pi}\\text{ Wh}.\\]</p></li><li><p>Detta är \\(14{,}4/\\pi\\approx4{,}58\\) kWh.</p></li></ol><p class=\"facit-svar\"><strong>Cirka 4,58 kWh.</strong></p></div>",
     "familj": "Energi som integral av effekt",
     "formaga": [
@@ -59338,8 +59346,8 @@ window.BANKMATO2 = [
       "problemlösning"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 4.58,
-    "tolerans": 0.01,
+    "rättSvar": 4.583662361046586,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
@@ -59349,7 +59357,9 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "integral_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "kWh"
+},
   {
     "id": "3.477",
     "kap": 4,
@@ -60154,8 +60164,8 @@ window.BANKMATO2 = [
     "poang": "2/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Effekten från en solpanel under en del av dagen modelleras av</p><p>\\[P(t)=0{,}8t-0{,}05t^2\\]</p><p>där \\(P\\) mäts i kW och \\(t\\) i timmar, för \\(0\\le t\\le8\\).</p><p>Bestäm hur mycket energi panelen producerar under dessa 8 timmar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> En bestämd integral är tecknad förändring eller area.</p></li><li><p class=\"facit-metod\">Bestäm först gränser och vilken funktion som ska ligga överst; dela intervallet om tecknet byts.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Energin fås genom att integrera effekten över tiden:</p></li><li><p>\\[E=\\int_0^8(0,8t-0,05t^2)dt.\\]</p></li><li><p>\\[E=\\left[0,4t^2-\\frac{0,05}{3}t^3\\right]_0^8=25,6-\\frac{25,6}{3}=\\boxed{\\frac{256}{15}\\text{ kWh}\\approx17,1\\text{ kWh}}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Derivera den primitiva funktionen och kontrollera att area eller volym inte får ett negativt slutsvar.</p></li></ol></div>",
+    "t": "<p>Effekten från en solpanel under en del av dagen modelleras av</p><p>\\[P(t)=0{,}8t-0{,}05t^2\\]</p><p>där \\(P\\) mäts i kW och \\(t\\) i timmar, för \\(0\\le t\\le8\\).</p><p>Bestäm hur mycket energi panelen producerar under dessa 8 timmar. Svara i kWh.</p>",
+    "s": "<div class=\"facit-v2\"><p>Integralen av effekten ger energin. Eftersom effekten mäts i kW och tiden i timmar blir enheten kWh.</p>\\[E=\\int_0^8(0{,}8t-0{,}05t^2)\\,dt.\\]<p>En primitiv funktion är \\(0{,}4t^2-t^3/60\\), så</p>\\[E=0{,}4\\cdot8^2-\\frac{8^3}{60}\\]\\[=\\frac{256}{15}\\text{ kWh}\\approx17{,}0667\\text{ kWh}.\\]<p><strong>Svar:</strong> cirka 17,1 kWh.</p></div>",
     "familj": "Energi som integral av effekt",
     "formaga": [
       "procedur",
@@ -60163,8 +60173,8 @@ window.BANKMATO2 = [
       "problemlösning"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 17.1,
-    "tolerans": 0.1,
+    "rättSvar": 17.066666666666666,
+    "tolerans": 1e-09,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "familjNyckel": "integraler_storheter__energi_som_integral_av_effekt",
@@ -60174,7 +60184,9 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "integral_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "kWh"
+},
   {
     "id": "3.214",
     "kap": 4,
@@ -61646,21 +61658,21 @@ window.BANKMATO2 = [
     "niva": "E",
     "poang": "2/0/0",
     "miniräknare": true,
-    "geogebra": true,
-    "t": "<p>En slumpvariabel har täthetsfunktionen \\(f(x)=2x\\) för \\(0\\le x\\le1\\).</p><p>Bestäm \\(P(0,2\\le X\\le0,7)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> En täthetsfunktion måste ha total area 1.</p></li><li><p>Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p></li><li><p>\\[P(0,2\\le X\\le0,7)=\\int_{0,2}^{0,7}2x dx=[x^2]_{0,2}^{0,7}=0,49-0,04=\\boxed{0,45}.\\]</p></li></ol></div>",
+    "geogebra": false,
+    "t": "<p>En slumpvariabel \\(X\\) har täthetsfunktionen</p>\\[f(x)=\\frac3{16}(4-x^2),\\qquad0\\le x\\le2,\\]<p>och \\(f(x)=0\\) annars. Bestäm \\(P(0{,}5\\le X\\le1{,}5)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"250\" viewBox=\"0 0 390 250\" role=\"img\" aria-label=\"f(x) = 3(4 − x²)/16\" style=\"color:#243247;max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"248\" rx=\"8\" fill=\"#fff\" stroke=\"#dce1e7\"/><path d=\"M46 18 V204 H370\" fill=\"none\" stroke=\"#243247\" stroke-width=\"1.5\"/><text x=\"35\" y=\"220\" font-size=\"12\" fill=\"#243247\">0</text><text x=\"373\" y=\"208\" font-size=\"12\" fill=\"#243247\">x</text><text x=\"14\" y=\"25\" font-size=\"12\" fill=\"#243247\">y</text><polyline points=\"46.00,81.00 49.88,81.02 53.75,81.08 57.62,81.17 61.50,81.31 65.38,81.48 69.25,81.69 73.12,81.94 77.00,82.23 80.88,82.56 84.75,82.92 88.62,83.33 92.50,83.77 96.38,84.25 100.25,84.77 104.12,85.32 108.00,85.92 111.88,86.55 115.75,87.23 119.62,87.94 123.50,88.69 127.38,89.48 131.25,90.30 135.12,91.17 139.00,92.07 142.88,93.01 146.75,93.99 150.62,95.01 154.50,96.07 158.38,97.16 162.25,98.30 166.12,99.47 170.00,100.68 173.88,101.93 177.75,103.22 181.62,104.54 185.50,105.91 189.38,107.31 193.25,108.75 197.12,110.23 201.00,111.75 204.88,113.31 208.75,114.90 212.62,116.54 216.50,118.21 220.38,119.92 224.25,121.67 228.12,123.45 232.00,125.28 235.88,127.14 239.75,129.05 243.62,130.99 247.50,132.97 251.38,134.99 255.25,137.04 259.12,139.14 263.00,141.27 266.88,143.44 270.75,145.65 274.62,147.90 278.50,150.19 282.38,152.51 286.25,154.88 290.12,157.28 294.00,159.72 297.88,162.20 301.75,164.72 305.62,167.27 309.50,169.87 313.38,172.50 317.25,175.17 321.12,177.88 325.00,180.63 328.88,183.42 332.75,186.24 336.62,189.11 340.50,192.01 344.38,194.95 348.25,197.93 352.12,200.94 356.00,204.00\" fill=\"none\" stroke=\"#b43123\" stroke-width=\"2.5\"/><text x=\"356\" y=\"223\" text-anchor=\"middle\" fill=\"#243247\" font-size=\"12\">2</text><text x=\"160\" y=\"35\" fill=\"#243247\" font-size=\"12\">f(x) = 3(4 − x²)/16</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Sannolikheten är arean mellan 0,5 och 1,5 under täthetskurvan.</p><p>En primitiv funktion är \\[F(x)=\\frac3{16}\\left(4x-\\frac{x^3}{3}\\right).\\]</p><p>Därför blir sannolikheten \\[F(1{,}5)-F(0{,}5)=\\frac3{16}\\cdot\\frac{35}{12}\\]\\[=\\frac{35}{64}=0{,}546875.\\]</p><p><strong>Svar:</strong> \\(35/64\\), ungefär 0,55.</p></div>",
     "familj": "Sannolikhet och kvantiler från täthetsfunktion",
     "formaga": [
       "procedur",
       "begrepp"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 0.45,
+    "rättSvar": 0.546875,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "sannolikhet",
     "familjNyckel": "sannolikhetsfordelning__sannolikhet_och_kvantiler_fran_tathetsfunktion",
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Integrera tätheten över just det intervall som sannolikheten gäller.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -62181,8 +62193,8 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>\\(f(x)=kx\\) för 0≤x≤2. Bestäm k.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> En täthetsfunktions värde är inte i sig en sannolikhet.</p></li><li><p>Sannolikheten är arean, alltså en integral, och hela arean måste vara 1.</p></li><li><p>\\[\\int_0^2kx\\,dx=2k=1\\quad\\Rightarrow\\quad k=0{,}5\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{0{,}5}\\).</p></div>",
+    "t": "<p>Funktionen \\(f(x)=k(1+x)\\) för \\(1\\le x\\le3\\), och \\(f(x)=0\\) annars, ska vara en täthetsfunktion. Bestäm \\(k\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>För en täthetsfunktion ska den totala arean vara 1:</p><p>\\[1=k\\int_1^3(1+x)\\,dx\\]\\[=k\\left[x+\\frac{x^2}{2}\\right]_1^3=6k.\\]</p><p>Alltså är \\(k=1/6\\). Då är funktionen också icke-negativ på intervallet.</p></div>",
     "familj": "Normalisera täthetsfunktion och bestäm parameter",
     "formaga": [
       "procedur",
@@ -62190,10 +62202,10 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "sannolikhetsfordelning__normalisera_tathetsfunktion_och_bestam_parameter",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.5,
-    "tolerans": 0.01,
+    "rättSvar": 0.16666666666666666,
+    "tolerans": 1e-09,
     "självrättning": true,
-    "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
+    "ledtrad": "<p>Den totala arean under täthetsfunktionen ska vara 1. Ta med både den övre och den undre integrationsgränsen.</p>",
     "svarFormat": "numeriskt",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -62921,7 +62933,7 @@ window.BANKMATO2 = [
     "miniräknare": true,
     "geogebra": true,
     "t": "<p>Väntetiden \\(T\\) i minuter till en kundtjänst modelleras med täthetsfunktionen</p>\n<p>\\[\nf(t)=0{,}25e^{-0{,}25t},\\qquad t\\ge0.\n\\]</p>\n<p>a) Bestäm sannolikheten att väntetiden är högst 5 minuter.<br>\nb) Bestäm sannolikheten att väntetiden överstiger 6 minuter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Gör samma tillåtna operation i båda leden och håll en tydlig ekvivalenskedja.</p></li><li><p class=\"facit-metod\">För system väljer du den metod som enklast tar bort en variabel.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"></div></div>\n<ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\nP(T\\le5)=\\int_0^5 0,25e^{-0,25t}\\,dt\n=\\left[-e^{-0,25t}\\right]_0^5\n=1-e^{-1,25}\n\\approx 0,713.\n\\]</p></li></ol>\n<div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"></div></div>\n<ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\nP(T&gt;6)=\\int_6^\\infty0{,}25e^{-0{,}25t}\\,dt\n=e^{-1{,}5}\n\\approx 0{,}223.\n\\]</p></li></ol>\n<p class=\"facit-svar\"><strong>a) Cirka 71,3 %. b) Cirka 22,3 %.</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Sätt tillbaka varje lösning i ursprungsekvationen.</p></li><li><p class=\"facit-not\">Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Sannolikheten är arean under tätheten mellan 0 och 5 minuter:</p><p>\\[P(T\\le5)=\\int_0^5 0{,}25e^{-0{,}25t}\\,dt.\\]</p><p>En primitiv funktion är \\(-e^{-0{,}25t}\\), så \\[P(T\\le5)=1-e^{-1{,}25}\\]\\[\\approx0{,}713495.\\]</p><p><strong>Svar:</strong> cirka 0,71, alltså cirka 71 %.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Sannolikheten är svansarean efter 6 minuter. Fördelningens totala area är 1:</p><p>\\[P(T\\gt6)=1-P(T\\le6)\\]\\[=e^{-0{,}25\\cdot6}=e^{-1{,}5}\\]\\[\\approx0{,}223130.\\]</p><p><strong>Svar:</strong> cirka 0,22, alltså cirka 22 %.</p></div></div>",
     "familj": "Sannolikhet och kvantiler från täthetsfunktion",
     "formaga": [
       "procedur",
@@ -62929,14 +62941,8 @@ window.BANKMATO2 = [
       "modellering"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": [
-      0.713,
-      0.223
-    ],
-    "tolerans": [
-      0.001,
-      0.001
-    ],
+    "rättSvar": [0.7134952031398099, 0.22313016014842982],
+    "tolerans": [null, null],
     "självrättning": [
       true,
       true
@@ -62945,30 +62951,8 @@ window.BANKMATO2 = [
     "ledtrad": "<p>En täthetsfunktion måste ha total area 1. Sannolikheter fås som integraler över de intervall som motsvarar händelsen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Väntetiden \\(T\\) i minuter till en kundtjänst modelleras med täthetsfunktionen</p><p>\\[ f(t)=0{,}25e^{-0{,}25t},\\qquad t\\ge0. \\]</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>Bestäm sannolikheten att väntetiden är högst 5 minuter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Sannolikheten att väntetiden är högst 5 minuter är arean under täthetsfunktionen från 0 till 5.</p></li><li><p>\\[P(T\\le5)=\\int_0^5 0{,}25e^{-0{,}25t}\\,dt=1-e^{-1{,}25}\\approx0{,}713.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 0,713, alltså 71,3 %.</p></div>",
-        "niva": "C",
-        "poang": "0/1/0",
-        "traningsniva": 3,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>Bestäm sannolikheten att väntetiden överstiger 6 minuter.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Sannolikheten att väntetiden överstiger 6 minuter är svansarean från 6 till oändligheten.</p></li><li><p>\\[P(T&gt;6)=\\int_6^\\infty0{,}25e^{-0{,}25t}\\,dt=e^{-1{,}5}\\approx0{,}223.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 0,223, alltså 22,3 %.</p></div>",
-        "niva": "C",
-        "poang": "0/1/0",
-        "traningsniva": 3,
-        "arbetsinsats": 1
-      }
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "<p>Bestäm sannolikheten att väntetiden är högst 5 minuter.</p>", "s": "<div class=\"facit-v2\"><p>Sannolikheten är arean under tätheten mellan 0 och 5 minuter:</p><p>\\[P(T\\le5)=\\int_0^5 0{,}25e^{-0{,}25t}\\,dt.\\]</p><p>En primitiv funktion är \\(-e^{-0{,}25t}\\), så \\[P(T\\le5)=1-e^{-1{,}25}\\]\\[\\approx0{,}713495.\\]</p><p><strong>Svar:</strong> cirka 0,71, alltså cirka 71 %.</p></div>", "niva": "C", "poang": "0/1/0", "traningsniva": 3, "arbetsinsats": 1}, {"etikett": "b", "fraga": "<p>Bestäm sannolikheten att väntetiden överstiger 6 minuter.</p>", "s": "<div class=\"facit-v2\"><p>Sannolikheten är svansarean efter 6 minuter. Fördelningens totala area är 1:</p><p>\\[P(T\\gt6)=1-P(T\\le6)\\]\\[=e^{-0{,}25\\cdot6}=e^{-1{,}5}\\]\\[\\approx0{,}223130.\\]</p><p><strong>Svar:</strong> cirka 0,22, alltså cirka 22 %.</p></div>", "niva": "C", "poang": "0/1/0", "traningsniva": 3, "arbetsinsats": 1}],
+    "svarFormat": ["sannolikhet", "sannolikhet"],
     "svarsstruktur": "ordnad",
     "svarEtiketter": [
       "a",
@@ -63934,13 +63918,13 @@ window.BANKMATO2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen \\(f(x)=kx\\) för \\(0\\le x\\le2\\) är en täthetsfunktion. Bestäm \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\int_0^2kx\\,dx=2k=1\\quad\\Longrightarrow\\quad k=0{,}5\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,5</p></div>",
+    "t": "<p>Funktionen \\(f(x)=kx^2\\) för \\(1\\le x\\le2\\), och \\(f(x)=0\\) annars, ska vara en täthetsfunktion. Bestäm \\(k\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>En täthetsfunktion har total area 1. Därför gäller</p><p>\\[1=k\\int_1^2x^2\\,dx\\]\\[=\\frac{k}{3}(2^3-1^3)=\\frac{7k}{3}.\\]</p><p>Alltså är \\(k=3/7\\). Detta värde ger en icke-negativ täthet.</p></div>",
     "familj": "Normalisera täthetsfunktion och bestäm parameter",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 0.5,
+    "rättSvar": 0.42857142857142855,
     "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
@@ -63948,7 +63932,7 @@ window.BANKMATO2 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Den totala arean ska vara 1. Beräkna integralen uttryckt i \\(k\\).</p>",
+    "ledtrad": "<p>Sätt integralen över hela intervallet lika med 1. Kom ihåg att den undre gränsen är 1, inte 0.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -66076,19 +66060,15 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Området under grafen roteras kring x-axeln. Bestäm volymen.</p><p>a) \\(y=x\\)<br>för \\(0\\le x\\le2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=\\sqrt{x}\\)<br>för \\(0\\le x\\le4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=2\\)<br>för \\(0\\le x\\le3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Volymen byggs av tvärsnittsareor.</p></li><li><p>Vid rotation kring x-axeln är tvärsnitten cirkelskivor eller brickor, vilket förklarar både faktorn \\(\\pi\\) och kvadraten på radien.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[V=\\pi\\int_a^b y^2dx\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^2x^2dx=\\boxed{8\\pi/3}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^4x dx=\\pi[x^2/2]_0^4=\\boxed{8\\pi}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^34dx=\\boxed{12\\pi}\\].</div></li></ol></div></div></div>",
+    "t": "<p>Området under grafen roteras kring x-axeln. Bestäm volymen.</p><p>Figur till a):</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"250\" viewBox=\"0 0 390 250\" role=\"img\" aria-label=\"y = x + 1\" style=\"color:#243247;max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"248\" rx=\"8\" fill=\"#fff\" stroke=\"#dce1e7\"/><polygon points=\"46,204 46.00,157.14 49.88,155.97 53.75,154.80 57.62,153.63 61.50,152.46 65.38,151.29 69.25,150.11 73.12,148.94 77.00,147.77 80.88,146.60 84.75,145.43 88.62,144.26 92.50,143.09 96.38,141.91 100.25,140.74 104.12,139.57 108.00,138.40 111.88,137.23 115.75,136.06 119.62,134.89 123.50,133.71 127.38,132.54 131.25,131.37 135.12,130.20 139.00,129.03 142.88,127.86 146.75,126.69 150.62,125.51 154.50,124.34 158.38,123.17 162.25,122.00 166.12,120.83 170.00,119.66 173.88,118.49 177.75,117.31 181.62,116.14 185.50,114.97 189.38,113.80 193.25,112.63 197.12,111.46 201.00,110.29 204.88,109.11 208.75,107.94 212.62,106.77 216.50,105.60 220.38,104.43 224.25,103.26 228.12,102.09 232.00,100.91 235.88,99.74 239.75,98.57 243.62,97.40 247.50,96.23 251.38,95.06 255.25,93.89 259.12,92.71 263.00,91.54 266.88,90.37 270.75,89.20 274.62,88.03 278.50,86.86 282.38,85.69 286.25,84.51 290.12,83.34 294.00,82.17 297.88,81.00 301.75,79.83 305.62,78.66 309.50,77.49 313.38,76.31 317.25,75.14 321.12,73.97 325.00,72.80 328.88,71.63 332.75,70.46 336.62,69.29 340.50,68.11 344.38,66.94 348.25,65.77 352.12,64.60 356.00,63.43 356,204\" fill=\"#e4eef5\"/><path d=\"M46 18 V204 H370\" fill=\"none\" stroke=\"#243247\" stroke-width=\"1.5\"/><text x=\"35\" y=\"220\" font-size=\"12\" fill=\"#243247\">0</text><text x=\"373\" y=\"208\" font-size=\"12\" fill=\"#243247\">x</text><text x=\"14\" y=\"25\" font-size=\"12\" fill=\"#243247\">y</text><polyline points=\"46.00,157.14 49.88,155.97 53.75,154.80 57.62,153.63 61.50,152.46 65.38,151.29 69.25,150.11 73.12,148.94 77.00,147.77 80.88,146.60 84.75,145.43 88.62,144.26 92.50,143.09 96.38,141.91 100.25,140.74 104.12,139.57 108.00,138.40 111.88,137.23 115.75,136.06 119.62,134.89 123.50,133.71 127.38,132.54 131.25,131.37 135.12,130.20 139.00,129.03 142.88,127.86 146.75,126.69 150.62,125.51 154.50,124.34 158.38,123.17 162.25,122.00 166.12,120.83 170.00,119.66 173.88,118.49 177.75,117.31 181.62,116.14 185.50,114.97 189.38,113.80 193.25,112.63 197.12,111.46 201.00,110.29 204.88,109.11 208.75,107.94 212.62,106.77 216.50,105.60 220.38,104.43 224.25,103.26 228.12,102.09 232.00,100.91 235.88,99.74 239.75,98.57 243.62,97.40 247.50,96.23 251.38,95.06 255.25,93.89 259.12,92.71 263.00,91.54 266.88,90.37 270.75,89.20 274.62,88.03 278.50,86.86 282.38,85.69 286.25,84.51 290.12,83.34 294.00,82.17 297.88,81.00 301.75,79.83 305.62,78.66 309.50,77.49 313.38,76.31 317.25,75.14 321.12,73.97 325.00,72.80 328.88,71.63 332.75,70.46 336.62,69.29 340.50,68.11 344.38,66.94 348.25,65.77 352.12,64.60 356.00,63.43\" fill=\"none\" stroke=\"#b43123\" stroke-width=\"2.5\"/><text x=\"356\" y=\"223\" text-anchor=\"middle\" fill=\"#243247\" font-size=\"12\">2</text><text x=\"160\" y=\"35\" fill=\"#243247\" font-size=\"12\">y = x + 1</text></svg></span><p>a) \\(y=x+1\\)<br>för \\(0\\le x\\le2\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=\\sqrt{x}\\)<br>för \\(0\\le x\\le4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=2\\)<br>för \\(0\\le x\\le3\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Varför metoden fungerar:</strong> Volymen byggs av tvärsnittsareor.</p></li><li><p>Vid rotation kring x-axeln är tvärsnitten cirkelskivor eller brickor, vilket förklarar både faktorn \\(\\pi\\) och kvadraten på radien.</p></li><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[V=\\pi\\int_a^b y^2dx\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^2(x+1)^2dx=\\frac{\\pi}{3}(27-1)=\\boxed{26\\pi/3}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^4x dx=\\pi[x^2/2]_0^4=\\boxed{8\\pi}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^34dx=\\boxed{12\\pi}\\].</div></li></ol></div></div></div>",
     "familj": "Rotationsvolymer",
     "formaga": [
       "procedur",
       "problemlösning"
     ],
     "svarstyp": "flera_delar",
-    "rättSvar": [
-      "8*pi/3",
-      "8*pi",
-      "12*pi"
-    ],
+    "rättSvar": ["26*pi/3", "8*pi", "12*pi"],
     "tolerans": [
       null,
       null,
@@ -66111,35 +66091,7 @@ window.BANKMATO2 = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(y=x\\)<br>för \\(0\\le x\\le2\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[V=\\pi\\int_a^b y^2dx\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^2x^2dx=\\boxed{8\\pi/3}\\].</div></li></ol></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(y=\\sqrt{x}\\)<br>för \\(0\\le x\\le4\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[V=\\pi\\int_a^b y^2dx\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^4x dx=\\pi[x^2/2]_0^4=\\boxed{8\\pi}\\].</div></li></ol></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(y=2\\)<br>för \\(0\\le x\\le3\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[V=\\pi\\int_a^b y^2dx\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^34dx=\\boxed{12\\pi}\\].</div></li></ol></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "<p>\\(y=x+1\\) för \\(0\\le x\\le2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"250\" viewBox=\"0 0 390 250\" role=\"img\" aria-label=\"y = x + 1\" style=\"color:#243247;max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"248\" rx=\"8\" fill=\"#fff\" stroke=\"#dce1e7\"/><polygon points=\"46,204 46.00,157.14 49.88,155.97 53.75,154.80 57.62,153.63 61.50,152.46 65.38,151.29 69.25,150.11 73.12,148.94 77.00,147.77 80.88,146.60 84.75,145.43 88.62,144.26 92.50,143.09 96.38,141.91 100.25,140.74 104.12,139.57 108.00,138.40 111.88,137.23 115.75,136.06 119.62,134.89 123.50,133.71 127.38,132.54 131.25,131.37 135.12,130.20 139.00,129.03 142.88,127.86 146.75,126.69 150.62,125.51 154.50,124.34 158.38,123.17 162.25,122.00 166.12,120.83 170.00,119.66 173.88,118.49 177.75,117.31 181.62,116.14 185.50,114.97 189.38,113.80 193.25,112.63 197.12,111.46 201.00,110.29 204.88,109.11 208.75,107.94 212.62,106.77 216.50,105.60 220.38,104.43 224.25,103.26 228.12,102.09 232.00,100.91 235.88,99.74 239.75,98.57 243.62,97.40 247.50,96.23 251.38,95.06 255.25,93.89 259.12,92.71 263.00,91.54 266.88,90.37 270.75,89.20 274.62,88.03 278.50,86.86 282.38,85.69 286.25,84.51 290.12,83.34 294.00,82.17 297.88,81.00 301.75,79.83 305.62,78.66 309.50,77.49 313.38,76.31 317.25,75.14 321.12,73.97 325.00,72.80 328.88,71.63 332.75,70.46 336.62,69.29 340.50,68.11 344.38,66.94 348.25,65.77 352.12,64.60 356.00,63.43 356,204\" fill=\"#e4eef5\"/><path d=\"M46 18 V204 H370\" fill=\"none\" stroke=\"#243247\" stroke-width=\"1.5\"/><text x=\"35\" y=\"220\" font-size=\"12\" fill=\"#243247\">0</text><text x=\"373\" y=\"208\" font-size=\"12\" fill=\"#243247\">x</text><text x=\"14\" y=\"25\" font-size=\"12\" fill=\"#243247\">y</text><polyline points=\"46.00,157.14 49.88,155.97 53.75,154.80 57.62,153.63 61.50,152.46 65.38,151.29 69.25,150.11 73.12,148.94 77.00,147.77 80.88,146.60 84.75,145.43 88.62,144.26 92.50,143.09 96.38,141.91 100.25,140.74 104.12,139.57 108.00,138.40 111.88,137.23 115.75,136.06 119.62,134.89 123.50,133.71 127.38,132.54 131.25,131.37 135.12,130.20 139.00,129.03 142.88,127.86 146.75,126.69 150.62,125.51 154.50,124.34 158.38,123.17 162.25,122.00 166.12,120.83 170.00,119.66 173.88,118.49 177.75,117.31 181.62,116.14 185.50,114.97 189.38,113.80 193.25,112.63 197.12,111.46 201.00,110.29 204.88,109.11 208.75,107.94 212.62,106.77 216.50,105.60 220.38,104.43 224.25,103.26 228.12,102.09 232.00,100.91 235.88,99.74 239.75,98.57 243.62,97.40 247.50,96.23 251.38,95.06 255.25,93.89 259.12,92.71 263.00,91.54 266.88,90.37 270.75,89.20 274.62,88.03 278.50,86.86 282.38,85.69 286.25,84.51 290.12,83.34 294.00,82.17 297.88,81.00 301.75,79.83 305.62,78.66 309.50,77.49 313.38,76.31 317.25,75.14 321.12,73.97 325.00,72.80 328.88,71.63 332.75,70.46 336.62,69.29 340.50,68.11 344.38,66.94 348.25,65.77 352.12,64.60 356.00,63.43\" fill=\"none\" stroke=\"#b43123\" stroke-width=\"2.5\"/><text x=\"356\" y=\"223\" text-anchor=\"middle\" fill=\"#243247\" font-size=\"12\">2</text><text x=\"160\" y=\"35\" fill=\"#243247\" font-size=\"12\">y = x + 1</text></svg></span>", "s": "<div class=\"facit-v2\"><p>Vid rotation kring x-axeln är skivornas radie \\(x+1\\). Tvärsnittsarean är därför \\(\\pi(x+1)^2\\).</p><p>Volymen blir \\[V=\\pi\\int_0^2(x+1)^2\\,dx.\\]</p><p>En primitiv funktion är \\((x+1)^3/3\\). Därför är \\[V=\\frac{\\pi}{3}(3^3-1^3)=\\frac{26\\pi}{3}.\\]</p></div>", "niva": "E", "poang": "1/0/0", "traningsniva": 2, "arbetsinsats": 1}, {"etikett": "b", "fraga": "<p>\\(y=\\sqrt{x}\\)<br>för \\(0\\le x\\le4\\).</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[V=\\pi\\int_a^b y^2dx\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^4x dx=\\pi[x^2/2]_0^4=\\boxed{8\\pi}\\].</div></li></ol></div></div>", "niva": "E", "poang": "1/0/0", "traningsniva": 2, "arbetsinsats": 1}, {"etikett": "c", "fraga": "<p>\\(y=2\\)<br>för \\(0\\le x\\le3\\).</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[V=\\pi\\int_a^b y^2dx\\].</div></div></li></ol><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\int_0^34dx=\\boxed{12\\pi}\\].</div></li></ol></div></div>", "niva": "E", "poang": "1/0/0", "traningsniva": 1, "arbetsinsats": 1}],
     "familjNyckel": "skivmetoden__rotationsvolymer",
     "ledtrad": "<p>Rita ett typiskt tvärsnitt vinkelrätt mot rotationsaxeln. Bestäm ytterradie och eventuell innerradie innan du ställer upp volymintegralen.</p>",
     "spelIntro": "<p>Området under grafen roteras kring x-axeln. Bestäm volymen.</p>",

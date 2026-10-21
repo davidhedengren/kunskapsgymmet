@@ -98909,5 +98909,365 @@ window.BANKMATO2 = [
   "tolerans": 0.005,
   "svarFormat": "numeriskt",
   "svarEnhet": "km"
+},
+{
+  "id": "4.571",
+  "kap": 5,
+  "omr": "eulers_formel",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "avläsa exponentiell form på enhetscirkeln",
+  "t": "<p>Punkten \\(P\\) ligger på enhetscirkeln, och vinkeln \\(v\\) är \\(120^\\circ\\). Vilket tal motsvarar \\(P\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 360\" role=\"img\" aria-label=\"Enhetscirkeln med en pil från origo till en punkt P på cirkeln i andra kvadranten. Vinkeln från positiva reella axeln till pilen är markerad med v.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"144.7\" y1=\"22\" x2=\"144.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"241.3\" y1=\"22\" x2=\"241.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"338.0\" y1=\"22\" x2=\"338.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"318.0\" x2=\"338\" y2=\"318.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"219.3\" x2=\"338\" y2=\"219.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"120.7\" x2=\"338\" y2=\"120.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"338\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"170.0\" x2=\"348\" y2=\"170.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"352,170.0 342,165.0 342,175.0\" fill=\"#172b3a\"/><line x1=\"193.0\" y1=\"318\" x2=\"193.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"193.0,8 188.0,18 198.0,18\" fill=\"#172b3a\"/><text x=\"350\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"201.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1,5</text><text x=\"144.7\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−0,5</text><text x=\"241.3\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,5</text><text x=\"338.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1,5</text><text x=\"187.0\" y=\"322.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1,5</text><text x=\"187.0\" y=\"223.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−0,5</text><text x=\"187.0\" y=\"124.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0,5</text><text x=\"187.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1,5</text><text x=\"187.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><circle cx=\"193.0\" cy=\"170.0\" r=\"96.7\" fill=\"none\" stroke=\"#8a96a3\" stroke-width=\"1.6\"/><path d=\"M 226.8 170.0 A 33.8 33.8 0 0 0 176.1 140.1\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"219.6\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#172b3a\">v</text><clipPath id=\"ked7641b4\"><rect x=\"48\" y=\"22\" width=\"290\" height=\"296\"/></clipPath><circle cx=\"144.7\" cy=\"84.6\" r=\"5\" fill=\"#172b3a\"/><text x=\"122.7\" y=\"78.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">P</text><line x1=\"193.0\" y1=\"170.0\" x2=\"151.1\" y2=\"95.9\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polygon points=\"144.7,84.6 156.3,92.9 145.8,98.8\" fill=\"#2f6fca\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(120^\\circ=\\dfrac{2\\pi}{3}\\) radianer och \\(|P|=1\\), så \\(P=e^{i2\\pi/3}\\).</p><p>Med Eulers formel: \\(e^{i2\\pi/3}=\\cos\\dfrac{2\\pi}{3}+i\\sin\\dfrac{2\\pi}{3}=-\\dfrac12+\\dfrac{\\sqrt3}{2}i\\).</p></div>",
+  "familj": "Exponentiell form i talplanet",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Gör om vinkeln till radianer. Hur långt från origo ligger P?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(e^{i2\\pi/3}\\)",
+      "ratt": true,
+      "kommentar": "Beloppet är 1 och argumentet 2π/3 = 120°."
+    },
+    {
+      "txt": "\\(e^{i\\pi/3}\\)",
+      "ratt": false,
+      "kommentar": "π/3 = 60°, en punkt i första kvadranten."
+    },
+    {
+      "txt": "\\(2e^{i\\pi/3}\\)",
+      "ratt": false,
+      "kommentar": "P ligger på enhetscirkeln, så beloppet är 1."
+    },
+    {
+      "txt": "\\(e^{-i2\\pi/3}\\)",
+      "ratt": false,
+      "kommentar": "Det är spegelbilden i reella axeln, i tredje kvadranten."
+    }
+  ]
+},
+{
+  "id": "4.572",
+  "kap": 5,
+  "omr": "eulers_formel",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "exponentiell form till a + bi",
+  "t": "<p>Skriv \\(4e^{i\\pi}\\) på formen \\(a+bi\\). (Ange realdel och imaginärdel.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(4e^{i\\pi}=4(\\cos\\pi+i\\sin\\pi)=4(-1+0i)=-4\\). Realdelen är \\(-4\\) och imaginärdelen 0.</p><p>Geometriskt: avståndet 4 från origo i riktningen \\(\\pi\\), alltså rakt åt vänster.</p></div>",
+  "familj": "Exponentiell form i talplanet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad är cos π och sin π?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -4,
+    0
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "realdel",
+    "imaginärdel"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.573",
+  "kap": 5,
+  "omr": "eulers_formel",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "beloppet av ett tal i exponentiell form",
+  "t": "<p>Bestäm \\(\\left|3e^{2i}\\right|\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(|e^{iv}|=\\sqrt{\\cos^2v+\\sin^2v}=1\\) för alla reella \\(v\\). Därför är \\(|3e^{2i}|=3\\cdot1=3\\).</p><p>Talet ligger på cirkeln med radien 3. Vinkeln 2 radianer påverkar bara riktningen.</p></div>",
+  "familj": "Exponentiell form i talplanet",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur långt från origo ligger e^(iv)?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.574",
+  "kap": 5,
+  "omr": "eulers_formel",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "potens i exponentiell form",
+  "t": "<p>Talet är \\(z=2e^{i\\pi/6}\\). Beräkna \\(z^3\\) och skriv det på formen \\(a+bi\\). (Ange realdel och imaginärdel.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(z^3=2^3e^{i3\\pi/6}=8e^{i\\pi/2}\\). Beloppet upphöjs och argumentet multipliceras.</p><p>\\(8e^{i\\pi/2}=8(\\cos\\tfrac\\pi2+i\\sin\\tfrac\\pi2)=8i\\), alltså realdel 0 och imaginärdel 8.</p></div>",
+  "familj": "Exponentiell form i talplanet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Använd potenslagarna: (re^(iv))³ = r³e^(i3v).</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0,
+    8
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "realdel",
+    "imaginärdel"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.575",
+  "kap": 5,
+  "omr": "eulers_formel",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "konjugat i exponentiell form",
+  "t": "<p>Vilket tal är konjugatet till \\(5e^{i\\pi/3}\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Konjugatet speglar talet i reella axeln: beloppet är detsamma men argumentet byter tecken. Konjugatet är \\(5e^{-i\\pi/3}\\).</p><p>Kontroll: \\(5e^{i\\pi/3}=\\tfrac52+\\tfrac{5\\sqrt3}{2}i\\) och \\(5e^{-i\\pi/3}=\\tfrac52-\\tfrac{5\\sqrt3}{2}i\\).</p></div>",
+  "familj": "Exponentiell form i talplanet",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Konjugat betyder spegling i reella axeln. Vad händer med vinkeln?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(5e^{-i\\pi/3}\\)",
+      "ratt": true,
+      "kommentar": "Samma belopp, motsatt argument."
+    },
+    {
+      "txt": "\\(-5e^{i\\pi/3}\\)",
+      "ratt": false,
+      "kommentar": "Det är −z, en vridning med 180°."
+    },
+    {
+      "txt": "\\(\\tfrac15e^{-i\\pi/3}\\)",
+      "ratt": false,
+      "kommentar": "Det är 1/z. Konjugatet har samma belopp 5."
+    },
+    {
+      "txt": "\\(5e^{i2\\pi/3}\\)",
+      "ratt": false,
+      "kommentar": "Det är spegling i imaginära axeln, inte i reella axeln."
+    }
+  ]
+},
+{
+  "id": "4.576",
+  "kap": 5,
+  "omr": "eulers_formel",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "lösa e^(iv) = i",
+  "t": "<p>Bestäm \\(v\\) så att \\(e^{iv}=i\\) och \\(0\\le v\\lt2\\pi\\). (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(e^{iv}=\\cos v+i\\sin v=i\\) kräver \\(\\cos v=0\\) och \\(\\sin v=1\\). Det gäller för \\(v=\\dfrac\\pi2\\).</p><p>Geometriskt: \\(i\\) ligger på enhetscirkeln rakt uppåt, 90° från positiva reella axeln.</p></div>",
+  "familj": "Exponentiell form i talplanet",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Var på enhetscirkeln ligger talet i?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(v=\\dfrac{\\pi}{2}\\)",
+      "ratt": true,
+      "kommentar": "cos(π/2) = 0 och sin(π/2) = 1."
+    },
+    {
+      "txt": "\\(v=\\pi\\)",
+      "ratt": false,
+      "kommentar": "e^(iπ) = −1."
+    },
+    {
+      "txt": "\\(v=\\dfrac{3\\pi}{2}\\)",
+      "ratt": false,
+      "kommentar": "e^(i3π/2) = −i."
+    },
+    {
+      "txt": "\\(v=1\\)",
+      "ratt": false,
+      "kommentar": "e^(i·1) = cos 1 + i sin 1, som inte är i."
+    }
+  ]
+},
+{
+  "id": "4.577",
+  "kap": 5,
+  "omr": "eulers_formel",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "multiplikation som vridning och skalning",
+  "t": "<p>I figuren är \\(z=2e^{i\\pi/3}\\) och \\(w=e^{i\\pi/2}=i\\). Vilken punkt motsvarar \\(z\\cdot w\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 400\" role=\"img\" aria-label=\"Cirklar med radierna 1 och 2 kring origo. Pilen z går till cirkeln med radie 2 i vinkeln 60°, och pilen w går till i på enhetscirkeln. Fyra punkter A–D är markerade.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"398\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"89.2\" y1=\"22\" x2=\"89.2\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"130.5\" y1=\"22\" x2=\"130.5\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"171.8\" y1=\"22\" x2=\"171.8\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"213.0\" y1=\"22\" x2=\"213.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"254.2\" y1=\"22\" x2=\"254.2\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"295.5\" y1=\"22\" x2=\"295.5\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"336.8\" y1=\"22\" x2=\"336.8\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"358.0\" x2=\"378\" y2=\"358.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"316.0\" x2=\"378\" y2=\"316.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"274.0\" x2=\"378\" y2=\"274.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"232.0\" x2=\"378\" y2=\"232.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"190.0\" x2=\"378\" y2=\"190.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"148.0\" x2=\"378\" y2=\"148.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"106.0\" x2=\"378\" y2=\"106.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"64.0\" x2=\"378\" y2=\"64.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"378\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"190.0\" x2=\"388\" y2=\"190.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,190.0 382,185.0 382,195.0\" fill=\"#172b3a\"/><line x1=\"213.0\" y1=\"358\" x2=\"213.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"213.0,8 208.0,18 218.0,18\" fill=\"#172b3a\"/><text x=\"390\" y=\"181.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"221.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−4</text><text x=\"89.2\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"130.5\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"171.8\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"254.2\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"295.5\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"336.8\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"378.0\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"207.0\" y=\"362.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"207.0\" y=\"320.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"207.0\" y=\"278.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"207.0\" y=\"236.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"207.0\" y=\"152.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"207.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"207.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"207.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"207.0\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><circle cx=\"213.0\" cy=\"190.0\" r=\"41.2\" fill=\"none\" stroke=\"#8a96a3\" stroke-width=\"1.6\"/><circle cx=\"213.0\" cy=\"190.0\" r=\"82.5\" fill=\"none\" stroke=\"#8a96a3\" stroke-width=\"1.6\"/><clipPath id=\"kb53e6e3c\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"336\"/></clipPath><circle cx=\"141.6\" cy=\"148.0\" r=\"5\" fill=\"#172b3a\"/><text x=\"121.6\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">A</text><circle cx=\"284.4\" cy=\"148.0\" r=\"5\" fill=\"#172b3a\"/><text x=\"292.4\" y=\"142.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">B</text><circle cx=\"284.4\" cy=\"232.0\" r=\"5\" fill=\"#172b3a\"/><text x=\"292.4\" y=\"250.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">C</text><circle cx=\"105.8\" cy=\"127.0\" r=\"5\" fill=\"#172b3a\"/><text x=\"85.8\" y=\"119.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">D</text><line x1=\"213.0\" y1=\"190.0\" x2=\"247.8\" y2=\"128.6\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polygon points=\"254.2,117.3 253.1,131.5 242.6,125.6\" fill=\"#2f6fca\"/><text x=\"260.4\" y=\"139.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" font-style=\"italic\" fill=\"#2f6fca\">z</text><line x1=\"213.0\" y1=\"190.0\" x2=\"213.0\" y2=\"161.0\" stroke=\"#d9622b\" stroke-width=\"3\"/><polygon points=\"213.0,148.0 219.0,161.0 207.0,161.0\" fill=\"#d9622b\"/><text x=\"192.4\" y=\"166.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" font-style=\"italic\" fill=\"#d9622b\">w</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(zw=2e^{i\\pi/3}\\cdot e^{i\\pi/2}=2e^{i(\\pi/3+\\pi/2)}=2e^{i5\\pi/6}\\). Beloppen multipliceras (\\(2\\cdot1=2\\)) och argumenten adderas (\\(60^\\circ+90^\\circ=150^\\circ\\)).</p><p>Punkten A ligger på cirkeln med radie 2 i vinkeln 150°.</p></div>",
+  "familj": "Exponentiell form i talplanet",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Multiplicera beloppen och addera argumenten.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A",
+      "ratt": true,
+      "kommentar": "Belopp 2 och argument 150°."
+    },
+    {
+      "txt": "B",
+      "ratt": false,
+      "kommentar": "B har argumentet 30°: argumenten har subtraherats."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "C har argumentet −30°."
+    },
+    {
+      "txt": "D",
+      "ratt": false,
+      "kommentar": "D har rätt argument men beloppet 3: beloppen ska multipliceras, inte adderas."
+    }
+  ]
+},
+{
+  "id": "4.578",
+  "kap": 5,
+  "omr": "eulers_formel",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "produkt av två tal i exponentiell form",
+  "t": "<p>Beräkna \\(e^{i\\pi/4}\\cdot e^{i3\\pi/4}\\) och skriv svaret på formen \\(a+bi\\). (Ange realdel och imaginärdel.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(e^{i\\pi/4}\\cdot e^{i3\\pi/4}=e^{i(\\pi/4+3\\pi/4)}=e^{i\\pi}=-1\\).</p><p>Realdelen är \\(-1\\) och imaginärdelen 0. Två vridningar med 45° och 135° ger tillsammans en halv varvs vridning.</p></div>",
+  "familj": "Exponentiell form i talplanet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Addera exponenterna.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -1,
+    0
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "realdel",
+    "imaginärdel"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
 }
 ];

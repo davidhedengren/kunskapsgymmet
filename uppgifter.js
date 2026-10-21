@@ -197901,5 +197901,246 @@ window.BANK = [
       "kommentar": "Grafen har samma lutning hela tiden: lika mycket laddning passerar per sekund."
     }
   ]
+},
+{
+  "id": "7.225",
+  "kap": 7,
+  "omr": "varme",
+  "niva": "E",
+  "typ": "värmeledning i två material",
+  "poang": "(1/0/0)",
+  "t": "<p>Två lika långa och lika tjocka stavar har rumstemperatur. Ena änden av varje stav sätts i varmt vatten. Vilken stav leder värmen snabbast till smöret? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 265\" role=\"img\" aria-label=\"A är en aluminiumstav och B en plaststav. Stavarna står lodrätt i samma vatten vid 70 grader. En lika stor smörklick sitter vid varje stavs övre ände ovanför vattnet.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"265\" fill=\"white\"/><rect x=\"46\" y=\"125\" width=\"388\" height=\"109\" rx=\"0\" fill=\"#dceff7\" stroke=\"#dceff7\" stroke-width=\"2\"/><path d=\"M45 105V235H435V105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\"/><rect x=\"128\" y=\"55\" width=\"14\" height=\"140\" rx=\"0\" fill=\"#a6b1be\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"338\" y=\"55\" width=\"14\" height=\"140\" rx=\"0\" fill=\"#e2c8a9\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"135\" cy=\"46\" r=\"9\" fill=\"#ffe39a\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"345\" cy=\"46\" r=\"9\" fill=\"#ffe39a\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"135\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">A: aluminium</text><text x=\"345\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">B: plast</text><text x=\"240\" y=\"70\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Smör</text><path d=\"M214 64L145 48\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M266 64L335 48\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"240\" y=\"185\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">70 °C</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Stav A av aluminium.</strong> Aluminium leder värme mycket bättre än plast. Energi överförs därför snabbare längs aluminiumstaven till smöret.</p><p>Att ändarna står i samma varma vatten innebär inte att materialen leder värme lika snabbt.</p></div>",
+  "familj": "Värmeledning och strålning",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket material används ofta när man vill leda värme, och vilket används för att isolera?</p>",
+  "alternativ": [
+    {
+      "txt": "Stav B, eftersom plast leder värme bättre.",
+      "ratt": false,
+      "kommentar": "Plast är en dålig värmeledare jämfört med aluminium."
+    },
+    {
+      "txt": "Stav A, eftersom aluminium leder värme bättre.",
+      "ratt": true,
+      "kommentar": "Aluminium överför värme snabbare längs staven än plast."
+    },
+    {
+      "txt": "De leder värmen lika snabbt eftersom vattnet är lika varmt.",
+      "ratt": false,
+      "kommentar": "Samma temperatur vid ändarna ger inte samma värmeledning i olika material."
+    },
+    {
+      "txt": "Ingen av stavarna, eftersom bara vatten kan transportera värme.",
+      "ratt": false,
+      "kommentar": "Även fasta material kan överföra värme genom värmeledning."
+    }
+  ]
+},
+{
+  "id": "7.226",
+  "kap": 7,
+  "omr": "varme",
+  "niva": "E",
+  "typ": "värme som följer med strömmande vatten",
+  "poang": "(1/0/0)",
+  "t": "<p>Vatten värms underifrån och börjar röra sig som pilarna visar. Vad kallas den värmeöverföring som sker när vattnet rör sig? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"En behållare värms i botten. Varmare vatten stiger över värmaren, strömmar åt sidan och svalare vatten sjunker på andra sidan.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><rect x=\"141\" y=\"61\" width=\"198\" height=\"164\" rx=\"0\" fill=\"#dceff7\" stroke=\"#dceff7\" stroke-width=\"2\"/><path d=\"M140 45V225H340V45\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M220 198L220 83\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M224.16 90.98L220 83L215.84 90.98\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M220 83L300 83\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M292.02 87.16L300 83L292.02 78.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M300 83L300 198\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M295.84 190.02L300 198L304.16 190.02\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M300 198L220 198\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M227.98 193.84L220 198L227.98 202.16\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"190\" y=\"232\" width=\"100\" height=\"13\" rx=\"3\" fill=\"#d96f43\" stroke=\"#a63f25\" stroke-width=\"2\"/><text x=\"240\" y=\"277\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Värmare</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Värmeströmning, eller konvektion.</strong> Det varmare vattnet stiger och för med sig energi. Svalare vatten sjunker och ersätter det, så att en cirkulation uppstår.</p><p>Värmeledning innebär i stället att energi överförs utan att materialet som helhet strömmar från en plats till en annan.</p></div>",
+  "familj": "Värmeledning och strålning",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Följer energin med vatten som flyttar sig, eller överförs den utan en sådan rörelse?</p>",
+  "alternativ": [
+    {
+      "txt": "Strålning",
+      "ratt": false,
+      "kommentar": "Pilarna visar att själva vattnet rör sig och för med sig energi."
+    },
+    {
+      "txt": "Värmeledning",
+      "ratt": false,
+      "kommentar": "Värmeledning kräver inte att vattnet som helhet strömmar runt. Här är det strömningen som efterfrågas."
+    },
+    {
+      "txt": "Värmeströmning (konvektion)",
+      "ratt": true,
+      "kommentar": "Vattnet flyttar sig och för med sig energi från den uppvärmda delen."
+    },
+    {
+      "txt": "Avdunstning",
+      "ratt": false,
+      "kommentar": "Avdunstning är när vätska övergår till gas. Pilarna visar vatten som cirkulerar i vätskan."
+    }
+  ]
+},
+{
+  "id": "7.227",
+  "kap": 7,
+  "omr": "varme",
+  "niva": "E",
+  "typ": "värmeöverföring över ett tomrum",
+  "poang": "(1/0/0)",
+  "t": "<p>En elev säger att ett tomrum stoppar all värmeöverföring. Vad kan ändå överföra energi från den varma ytan till den kalla i figuren? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 285\" role=\"img\" aria-label=\"Två ytor, 60 grader och 20 grader, är åtskilda av ett tomrum. Inget material förbinder dem.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"285\" fill=\"white\"/><rect x=\"95\" y=\"55\" width=\"45\" height=\"155\" rx=\"0\" fill=\"#edb5a6\" stroke=\"#b74738\" stroke-width=\"2\"/><rect x=\"340\" y=\"55\" width=\"45\" height=\"155\" rx=\"0\" fill=\"#b7d7ef\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"117\" y=\"38\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">60 °C</text><text x=\"363\" y=\"38\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">20 °C</text><text x=\"240\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">Tomrum</text><text x=\"240\" y=\"259\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Inget material förbinder ytorna.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Värmestrålning.</strong> Strålning behöver inget material att färdas genom. Energi kan därför överföras mellan ytorna även genom tomrummet.</p><p>Ett tomrum hindrar värmeledning och värmeströmning genom mellanrummet, men stoppar inte strålningen.</p></div>",
+  "familj": "Värmeledning och strålning",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket sätt att överföra energi fungerar även utan luft eller annat material?</p>",
+  "alternativ": [
+    {
+      "txt": "Värmeledning genom tomrummet",
+      "ratt": false,
+      "kommentar": "Värmeledning genom mellanrummet kräver material där."
+    },
+    {
+      "txt": "Luft som strömmar mellan ytorna",
+      "ratt": false,
+      "kommentar": "I tomrummet finns ingen luft som kan strömma."
+    },
+    {
+      "txt": "Ingen energi kan överföras.",
+      "ratt": false,
+      "kommentar": "Strålning kan överföra energi genom ett tomrum."
+    },
+    {
+      "txt": "Värmestrålning",
+      "ratt": true,
+      "kommentar": "Strålning kan färdas genom tomrummet och överföra energi mellan ytorna."
+    }
+  ]
+},
+{
+  "id": "7.228",
+  "kap": 7,
+  "omr": "varme",
+  "niva": "E",
+  "typ": "jämföra avgiven värme ur temperaturkurvor",
+  "poang": "(1/0/0)",
+  "t": "<p>Behållarna A och B innehåller lika stor massa vatten. Diagrammet visar hur vattnet svalnar. Hur många gånger så mycket energi har vattnet i A avgett som vattnet i B efter 6 minuter? (Svara med ett tal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Båda vattenmängderna börjar vid 70 grader. Efter 6 minuter har A temperaturen 40 grader och B temperaturen 55 grader. A är heldragen och B streckad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><text x=\"65\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Temperatur (°C)</text><text x=\"365\" y=\"300\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">Tid (min)</text><path d=\"M65 255.0L365 255.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"53\" y=\"260.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">20</text><path d=\"M65 237.5L365 237.5\" fill=\"none\" stroke=\"#edf1f5\" stroke-width=\"1\"/><path d=\"M65 220.0L365 220.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"53\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">30</text><path d=\"M65 202.5L365 202.5\" fill=\"none\" stroke=\"#edf1f5\" stroke-width=\"1\"/><path d=\"M65 185.0L365 185.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"53\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">40</text><path d=\"M65 167.5L365 167.5\" fill=\"none\" stroke=\"#edf1f5\" stroke-width=\"1\"/><path d=\"M65 150.0L365 150.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"53\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">50</text><path d=\"M65 132.5L365 132.5\" fill=\"none\" stroke=\"#edf1f5\" stroke-width=\"1\"/><path d=\"M65 115.0L365 115.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"53\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">60</text><path d=\"M65 97.5L365 97.5\" fill=\"none\" stroke=\"#edf1f5\" stroke-width=\"1\"/><path d=\"M65 80.0L365 80.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"53\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">70</text><path d=\"M65 62.5L365 62.5\" fill=\"none\" stroke=\"#edf1f5\" stroke-width=\"1\"/><path d=\"M65 45.0L365 45.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"53\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">80</text><path d=\"M65.0 45L65.0 255\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"65.0\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M165.0 45L165.0 255\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"165.0\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M265.0 45L265.0 255\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"265.0\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M365.0 45L365.0 255\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"365.0\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">6</text><path d=\"M65 45L65 255\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 255L365 255\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><polyline points=\"65.0,80.0 165.0,129.0 265.0,164.0 365.0,185.0\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><circle cx=\"365\" cy=\"185.0\" r=\"4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"397\" y=\"191.0\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">A</text><polyline points=\"65.0,80.0 165.0,101.0 265.0,118.5 365.0,132.5\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\" stroke-dasharray=\"8 4\"/><circle cx=\"365\" cy=\"132.5\" r=\"4\" fill=\"#b74738\" stroke=\"#b74738\" stroke-width=\"2\"/><text x=\"397\" y=\"138.5\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">B</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Vattnet i A svalnar från 70 till 40 °C, alltså 30 grader. Vattnet i B svalnar från 70 till 55 °C, alltså 15 grader.</p><p>Massan och ämnet är samma. Den avgivna energin är därför proportionell mot temperatursänkningen.</p>\\[\\frac{Q_A}{Q_B}=\\frac{30}{15}=2\\]<p><strong>Svar: dubbelt så mycket energi.</strong></p></div>",
+  "familj": "Värmeledning och strålning",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur stor är temperatursänkningen i varje behållare? Jämför sänkningarna.</p>",
+  "svarFormat": "multipel",
+  "svarEnhet": null
+},
+{
+  "id": "7.229",
+  "kap": 7,
+  "omr": "varme",
+  "niva": "E",
+  "typ": "absorberad strålningsenergi",
+  "poang": "(1/0/0)",
+  "t": "<p>En platta tar emot strålning från en lampa enligt figuren. Hur mycket av lampans strålningsenergi absorberar plattan? (Svara i J.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" role=\"img\" aria-label=\"1200 J strålningsenergi kommer från lampan. 300 J reflekteras. Ingen strålning passerar genom plattan.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"280\" fill=\"white\"/><rect x=\"300\" y=\"45\" width=\"30\" height=\"160\" rx=\"0\" fill=\"#3a4650\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M45 85L288 85\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M280.02 89.16L288 85L280.02 80.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"167\" y=\"59\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">1200 J från lampan</text><path d=\"M288 151L45 151\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M52.98 146.84L45 151L52.98 155.16\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"167\" y=\"184\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">300 J reflekteras</text><text x=\"385\" y=\"130\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">Platta</text><text x=\"240\" y=\"256\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Ingen strålning passerar genom plattan.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Av de 1200 J som kommer fram reflekteras 300 J. Resten absorberas eftersom ingen strålning passerar igenom.</p>\\[E_\\text{absorberad}=1200-300=900\\,\\mathrm J\\]<p><strong>Svar: 900 J.</strong></p></div>",
+  "familj": "Värmeledning och strålning",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 900,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken del av den inkommande strålningsenergin lämnar plattan genom reflektion?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "J"
+},
+{
+  "id": "7.230",
+  "kap": 7,
+  "omr": "varme",
+  "niva": "E",
+  "typ": "samma temperatur trots olika massa",
+  "poang": "(1/0/0)",
+  "t": "<p>Två kopparbitar har samma temperatur men olika massa. Åt vilket håll överförs värme mellan bitarna precis när de sätts i kontakt? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" role=\"img\" aria-label=\"Två kopparbitar i kontakt. Den större har massan 2,0 kg och den mindre 0,20 kg. Båda är 40 grader.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"280\" fill=\"white\"/><rect x=\"65\" y=\"85\" width=\"175\" height=\"125\" rx=\"0\" fill=\"#edc1b3\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"240\" y=\"145\" width=\"70\" height=\"65\" rx=\"0\" fill=\"#edc1b3\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"152\" y=\"58\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">40 °C</text><text x=\"275\" y=\"127\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">40 °C</text><text x=\"152\" y=\"155\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">2,0 kg</text><text x=\"275\" y=\"186\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">0,20 kg</text><text x=\"240\" y=\"254\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Båda bitarna är av koppar.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Ingen av bitarna värmer den andra, eftersom de har samma temperatur.</strong> Det är temperaturskillnaden som avgör värmeöverföringens riktning, inte vilken bit som har störst massa.</p><p>Bitarna behöver inte ha lika stor inre energi för att ha samma temperatur.</p></div>",
+  "familj": "Värmeledning och strålning",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken storhet avgör åt vilket håll värme överförs mellan två föremål?</p>",
+  "alternativ": [
+    {
+      "txt": "Ingen av bitarna värmer den andra eftersom temperaturen är lika.",
+      "ratt": true,
+      "kommentar": "Utan temperaturskillnad finns ingen värmeöverföring med en bestämd riktning mellan bitarna."
+    },
+    {
+      "txt": "Från den stora till den lilla eftersom den stora har mer inre energi.",
+      "ratt": false,
+      "kommentar": "Mer inre energi innebär inte högre temperatur. Båda bitarna är 40 °C."
+    },
+    {
+      "txt": "Från den lilla till den stora eftersom den lilla innehåller mindre material.",
+      "ratt": false,
+      "kommentar": "Massan bestämmer inte riktningen. Här finns ingen temperaturskillnad."
+    },
+    {
+      "txt": "Från den stora till den lilla tills bitarna har lika stor inre energi.",
+      "ratt": false,
+      "kommentar": "Termisk jämvikt innebär samma temperatur, inte samma inre energi."
+    }
+  ]
 }
 ];

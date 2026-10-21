@@ -2433,6 +2433,18 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   .symtgt.enhet{font-size:14px}
 }
 
+/* Formelhjälp: förhandsvisning av elevens svar och byte av mobiltangentbord. */
+.formelvisning{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin:6px 2px 0;padding:6px 10px;
+  border-radius:10px;background:var(--surface2);border:1px solid var(--hair);font-size:12px;color:var(--ink3);min-height:0}
+.formelvisning[hidden]{display:none}
+.formelvisning .fv-lbl{font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+.formelvisning .fv-matte{color:var(--ink);font-size:17px;overflow-x:auto;overflow-y:hidden;max-width:100%;padding:6px 2px 4px;line-height:1.7}
+.formelvisning.varning{background:var(--warnSoft);border-color:transparent;color:var(--warn)}
+.tbvaxel{display:none;flex:none;align-self:center;margin-left:6px;height:34px;min-width:46px;padding:0 9px;border-radius:9px;
+  border:1px solid var(--hair);background:var(--surface);color:var(--ink2);font:inherit;font-size:12.5px;font-weight:700;letter-spacing:.02em}
+@media(hover:none){.tbvaxel{display:inline-block}}
+.symtgt.mall{font-family:var(--read);font-size:15px}
+.symtgt sup{font-size:.7em;line-height:0}
 .aacts{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
 @media(max-width:640px){
   .aacts>.btn{flex:1 1 0;min-width:0;min-height:46px;white-space:normal;text-align:center;line-height:1.2}
@@ -9821,7 +9833,10 @@ function stadaSvar(x){
   return String(x??"").trim()
     .replace(/^svar\s*:\s*/i,"")
     .replace(/[−–—]/g,"-")
-    .replace(/\u00a0/g," ");
+    .replace(/\u00a0/g," ")
+    /* LaTeX från eleven: \text{W} är enheten W och \, eller \; är mellanslag. */
+    .replace(/\\(?:text|mathrm|textrm|operatorname)\s*\{([^{}]*)\}/g,"$1")
+    .replace(/\\[,;: ]/g," ").trim();
 }
 
 function talAv(x){
@@ -10117,6 +10132,10 @@ function rentNumerisktSvar(anv,facit,meta){
 function rentBrakSvar(anv,facit,meta){
   let s=stadaSvar(hogerled(anv)).replace(/^\\\(|\\\)$/g,"").trim();
   s=s.replace(/\\(?:d?frac)\s*\{([^{}]+)\}\s*\{([^{}]+)\}/g,"$1/$2");
+  /* Kortformer som \frac74 och \frac{7}4, samt parenteser runt ett rent tal
+     som bråkknappen ger: (7)/(4). */
+  s=s.replace(/\\(?:d?frac)\s*\{?\s*([+-]?\d+)\s*\}?\s*\{?\s*(\d+)\s*\}?/g,"$1/$2")
+    .replace(/\(\s*([+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+))\s*\)/g,"$1");
   const blandat=s.match(/^([+-]?\d+)\s+(\d+)\s*\/\s*(\d+)$/);
   let v;
   if(blandat){
@@ -10948,7 +10967,59 @@ function diffekvationRatt(anv,facit){
   }catch(_){return false;}
 }
 
+/* ===== LaTeX i elevsvar =====
+   Elever kan skriva LaTeX, t.ex. \frac{7}{4}, x^{2}, e^{-2x} eller \sqrt{11}.
+   Svaret översätts då en gång, före all formatkontroll, till samma enkla text
+   som eleven annars skulle skriva: 7/4, x^2, e^(-2x) och √(11). Parenteser
+   läggs bara till där de behövs, så strikta format (bråk, förenklat polynom)
+   bedöms precis som för vanliga textsvar. Svar utan LaTeX lämnas orörda. */
+function arLatexSvar(s){ return /\\[a-zA-Z]|[\^_]\s*\{|\\[,;:!{}]|\{,\}/.test(String(s??"")); }
+function latexElevsvar(svar){
+  let x=String(svar??"");
+  if(!arLatexSvar(x)) return svar;
+  const VANSTER="\u0001",HOGER="\u0002";
+  x=x.trim().replace(/^\$+|\$+$/g,"").replace(/^\\\(|\\\)$/g,"").replace(/^\\\[|\\\]$/g,"")
+    .replace(/\\displaystyle|\\textstyle/g,"")
+    .replace(/\{,\}/g,",").replace(/\\!/g,"").replace(/\\[,;: ]|~/g," ")
+    .replace(/\\(?:text|mathrm|textrm|operatorname|mathit|mathbf)\s*\{([^{}]*)\}/g,"$1")
+    .replace(/\\\{/g,VANSTER).replace(/\\\}/g,HOGER)
+    .replace(/\\(?:left|right|bigl|bigr|Bigl|Bigr|big|Big)\s*\./g,"")
+    .replace(/\\(?:left|right|bigl|bigr|Bigl|Bigr|big|Big)(?![a-zA-Z])/g,"")
+    .replace(/\^\s*\{?\s*\\circ\s*\}?/g,"°").replace(/\\(?:circ|degree)(?![a-zA-Z])/g,"°")
+    /* Operatorer tar med mellanslagen runt sig: 2\cdot x blir 2*x. */
+    .replace(/\s*\\(?:cdot|times|ast)(?![a-zA-Z])\s*/g,"*").replace(/\s*\\div(?![a-zA-Z])\s*/g,"/")
+    .replace(/\s*\\(?:leq?|leqslant)(?![a-zA-Z])\s*/g,"<=").replace(/\s*\\(?:geq?|geqslant)(?![a-zA-Z])\s*/g,">=")
+    .replace(/\s*\\lt(?![a-zA-Z])\s*/g,"<").replace(/\s*\\gt(?![a-zA-Z])\s*/g,">").replace(/\s*\\neq?(?![a-zA-Z])\s*/g,"≠")
+    .replace(/\s*\\pm(?![a-zA-Z])\s*/g,"±").replace(/\s*\\approx(?![a-zA-Z])\s*/g,"≈")
+    .replace(/\\infty(?![a-zA-Z])/g,"∞").replace(/\\pi(?![a-zA-Z])/g,"π")
+    .replace(/\\(?:emptyset|varnothing)(?![a-zA-Z])/g,"∅").replace(/\\%/g,"%")
+    .replace(/\\(arcsin|arccos|arctan|sinh|cosh|tanh|sin|cos|tan|ln|lg|log|exp)(?![a-zA-Z])/g," $1");
+  const brak=(a,b)=>{ a=a.trim(); b=b.trim();
+    const t=/^[+-]?(?:\d+(?:[.,]\d+)?|[a-zA-Zπ])$/.test(a)||/^\d+(?:[.,]\d+)?[a-zA-Zπ]+$/.test(a) ? a : `(${a})`;
+    const n=/^(?:\d+(?:[.,]\d+)?|[a-zA-Zπ])$/.test(b) ? b : `(${b})`;
+    return `${t}/${n}`; };
+  const exp=e=>{ e=e.trim(); return /^(?:\d+|[a-zA-Zπ])$/.test(e) ? e : `(${e})`; };
+  const ARG="(\\{[^{}]*\\}|[0-9a-zA-Z])";
+  const inne=a=>a.startsWith("{")?a.slice(1,-1):a;
+  for(let varv=0;varv<8;varv++){
+    const fore=x;
+    x=x.replace(new RegExp("\\\\d?frac\\s*"+ARG+"\\s*"+ARG,"g"),(m,a,b)=>brak(inne(a),inne(b)))
+      .replace(/\\sqrt\s*\[([^\]]+)\]\s*\{([^{}]*)\}/g,(m,n,a)=>`(${a})^(1/${n})`)
+      .replace(new RegExp("\\\\sqrt\\s*"+ARG,"g"),(m,a)=>`√(${inne(a)})`)
+      .replace(/\^\s*\{([^{}]*)\}/g,(m,e)=>"^"+exp(e))
+      .replace(/_\s*\{([^{}]*)\}/g,"_$1")
+      /* Klammer runt en potensbas, {(x^2+1)}^2, grupperar bara. */
+      .replace(/\{([^{}]*)\}(?=\s*\^)/g,(m,a)=>/^[\w.,π]+$|^\(.*\)$/.test(a.trim())?a.trim():`(${a.trim()})`);
+    if(x===fore) break;
+  }
+  /* Klammer som bara grupperar ({x}^2) tas bort; mängdklammer \{ \} återställs. */
+  for(let varv=0;varv<4;varv++) x=x.replace(/\{([^{}]*)\}/g,"$1");
+  x=x.replace(new RegExp(VANSTER,"g"),"{").replace(new RegExp(HOGER,"g"),"}")
+    .replace(/\s+/g," ").trim().replace(/^([+-])\s+/,"$1").replace(/([=<>≤≥]\s*)([+-])\s+/g,"$1$2");
+  return x;
+}
 function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
+  if(typeof anv==="string" && format!=="kalkylbladsformel" && arLatexSvar(anv)) anv=latexElevsvar(anv);
   if(format==="diffekv_losning")return diffekvFamiljRatt(anv,facit);
   if(format==="diffekvation")return diffekvationRatt(anv,facit);
   if(format==="antal_satt")return antalSattRatt(anv,facit);
@@ -11485,10 +11556,10 @@ function sifferlage(facit,enhet,format,t){
 }
 
 const SYMBOLER={
-  matematik:[["−","−"],["(","("],[")",")"],["/","/"],["^","^"],
-             ["√","√"],["π","π"],["i","i"],["e","e"],["x","x"],["≈","≈"],["{","{"],["}","}"],["∅","∅"]],
-  fysik:    [["−","−"],[",",","],["·10^","·10^"],["^","^"],["√","√"],
-             ["π","π"],["/","/"],["(","("],[")",")"]]
+  matematik:[["−","−"],["x²","@kvadrat"],["xⁿ","@potens"],["a/b","@brak"],["√","@rot"],["(","("],[")",")"],
+             ["π","π"],["i","i"],["e","e"],["x","x"],["≈","≈"],["{","{"],["}","}"],["∅","∅"]],
+  fysik:    [["−","−"],[",",","],["·10ⁿ","@tiopotens"],["xⁿ","@potens"],["√","@rot"],
+             ["π","π"],["a/b","@brak"],["(","("],[")",")"]]
 };
 
 const SYMBOLNAMN={
@@ -11496,6 +11567,8 @@ const SYMBOLNAMN={
   "/":"Bråkstreck","^":"Upphöjt till","√":"Roten ur","π":"Pi",
   "i":"Imaginära enheten i","e":"Eulers tal e","x":"Variabeln x","≈":"Ungefär lika med",",":"Decimalkomma",
   "·10^":"Grundpotensform, tio upphöjt till","∅":"Tomma mängden",
+  "x²":"Upphöjt till två","xⁿ":"Upphöjt till, markören hamnar i exponenten","a/b":"Bråk, markören hamnar i täljaren",
+  "·10ⁿ":"Grundpotensform, markören hamnar i exponenten",
   "{":"Vänster mängdklammer","}":"Höger mängdklammer"
 };
 
@@ -11509,7 +11582,8 @@ function symbolrad(t){
       `<button type="button" class="symtgt${enhet?" enhet":""}"
         title="${esc(enhet?"Skriv enheten "+txt:(SYMBOLNAMN[txt]||("Skriv "+txt)))}"
         onmousedown="event.preventDefault()"
-        onclick="skrivTecken('${esc(tecken).replace(/'/g,"\\'")}')">${esc(txt)}</button>`;
+        onclick="${tecken.startsWith("@")?`skrivMall('${tecken.slice(1)}')`:`skrivTecken('${esc(tecken).replace(/'/g,"\\'")}')`}"${tecken.startsWith("@")?' data-mall="'+tecken.slice(1)+'"':""}>${
+          txt==="x²"?"x<sup>2</sup>":txt==="xⁿ"?"x<sup>n</sup>":txt==="·10ⁿ"?"·10<sup>n</sup>":esc(txt)}</button>`;
   const enhetsdel=enheter.length?`<span class="symenheter">
       <span class="symlbl">Enhet</span>${enheter.map(e=>knapp([e," "+e],true)).join("")}
     </span><span class="symsep" aria-hidden="true"></span>`:"";
@@ -11528,6 +11602,178 @@ function skrivTecken(tecken){
   const pos = start + tecken.length;
   el.focus();
   try{ el.setSelectionRange(pos,pos); }catch(_){}
+  uppdateraFormelvisning(i);
+}
+/* ===== Formelhjälp =====
+   Elevens svar förblir vanlig text som rättas precis som tidigare. formelLatex
+   visar bara hur texten läses: x^2+3 som x²+3 och (x+1)/(x-1) som ett bråk.
+   Inget förenklas, så förhandsvisningen visar det eleven faktiskt skrev. */
+const FORMEL_FN=["arcsin","arccos","arctan","sqrt","sin","cos","tan","exp","abs","ln","lg","log"];
+function formelTokens(src,kommaDecimal=true){
+  const ut=[];let i=0;
+  while(i<src.length){
+    const c=src[i];
+    if(c===" "){ i++; if(ut.length) ut[ut.length-1].mellanrum=true; continue; }
+    const tal=src.slice(i).match(kommaDecimal?/^\d+(?:[.,]\d+)?/:/^\d+(?:\.\d+)?/);
+    if(tal){ ut.push({t:"tal",v:tal[0]}); i+=tal[0].length; continue; }
+    const fn=FORMEL_FN.find(f=>src.slice(i,i+f.length).toLowerCase()===f && !/[a-zåäö]/i.test(src[i+f.length]||"" ) || (src.slice(i,i+f.length).toLowerCase()===f && src[i+f.length]==="("));
+    if(fn){ ut.push({t:"fn",v:fn}); i+=fn.length; continue; }
+    if(src.slice(i,i+2).toLowerCase()==="pi" && !/[a-zåäö]/i.test(src[i+2]||"")){ ut.push({t:"var",v:"\\pi"}); i+=2; continue; }
+    if(/[a-zåäöA-ZÅÄÖ]/.test(c)){ ut.push({t:"var",v:/[åäöÅÄÖ]/.test(c)?`\\text{${c}}`:c}); i++; continue; }
+    ut.push({t:"tkn",v:c}); i++;
+  }
+  return ut;
+}
+function formelLatex(text){
+  const src=String(text??"").replace(/[−–]/g,"-").replace(/\s+/g," ").trim()
+    .replace(/^\$+|\$+$/g,"").replace(/^\\\(|\\\)$/g,"").replace(/^\\\[|\\\]$/g,"").trim();
+  if(!src) return {latex:"",ok:true};
+  /* Skriver eleven LaTeX (\frac{3}{4}, x^{2}, \sqrt{2}) visas den som den är.
+     Rättningen tolkar samma LaTeX via latexToPlain. */
+  if(/\\[a-zA-Z]/.test(src)){
+    let djup=0,balans=true;
+    for(const c of src.replace(/\\[{}]/g,"")){ if(c==="{") djup++; else if(c==="}"&&--djup<0) balans=false; }
+    const ut=src.replace(/^\\\(|\\\)$/g,"").replace(/^\$+|\$+$/g,"").replace(/(\d),(\d)/g,"$1{,}$2");
+    return {latex:ut,ok:balans&&djup===0};
+  }
+  /* Ett talpar inom parentes med ett enda komma, (32/3,53/3), är en punkt och inte ett decimaltal. */
+  const punkt=/^\([^()]*\)$/.test(src) && (src.match(/,/g)||[]).length===1;
+  const tk=formelTokens(src,!punkt);let p=0,ok=true;
+  const nu=()=>tk[p], ar=v=>tk[p]&&tk[p].t==="tkn"&&tk[p].v===v;
+  const OP={"+":"+","-":"-","±":"\\pm ","=":"=","<":"\\lt ",">":"\\gt ","≤":"\\le ","≥":"\\ge ","≈":"\\approx ",
+    ",":",\\ ",";":";\\ ","≠":"\\ne "};
+  const EN={"π":"\\pi ","∞":"\\infty ","∅":"\\varnothing ","%":"\\%","°":"^{\\circ}","!":"!","'":"'"};
+  const startarAtom=()=>{const t=nu(); if(!t) return false;
+    return t.t!=="tkn" || ["(","[","{","√","π","∞","∅"].includes(t.v);};
+  /* Ett bråk behöver inte de parenteser som bara avgränsar täljare eller nämnare. */
+  const utanParentes=a=>{
+    if(!a.startsWith("\\left(") || !a.endsWith("\\right)")) return a;
+    const inne=a.slice(6,-7);let d=0;
+    for(let k=0;k<inne.length;k++){
+      if(inne.startsWith("\\left",k)) d++;
+      else if(inne.startsWith("\\right",k) && --d<0) return a;
+    }
+    return d===0?inne:a;
+  };
+  function grupp(stang){ const inne=uttryck(stang); if(ar(stang)) p++; else ok=false; return inne; }
+  function primar(){
+    const t=nu(); if(!t){ return ""; }
+    p++;
+    if(t.t==="tal") return t.v.replace(",","{,}");
+    if(t.t==="var") return t.v;
+    if(t.t==="fn"){
+      if(ar("(")){ p++; const inne=grupp(")");
+        if(t.v==="sqrt") return `\\sqrt{${inne}}`;
+        if(t.v==="abs") return `\\left|${inne}\\right|`;
+        const namn=t.v==="lg"?"\\lg":t.v==="exp"?"\\exp":t.v==="arcsin"?"\\arcsin":t.v==="arccos"?"\\arccos":t.v==="arctan"?"\\arctan":"\\"+t.v;
+        return `${namn}\\left(${inne}\\right)`;
+      }
+      return (t.v==="sqrt"?"\\sqrt{"+atom()+"}":"\\"+t.v+" "+(startarAtom()?atom():""));
+    }
+    const v=t.v;
+    if(v==="("){ return `\\left(${grupp(")")}\\right)`; }
+    if(v==="["){ return `\\left[${grupp("]")}\\right]`; }
+    if(v==="{"){ return `\\left\\{${grupp("}")}\\right\\}`; }
+    if(v==="|"){ const inne=uttryck("|"); if(ar("|")) p++; else ok=false; return `\\left|${inne}\\right|`; }
+    if(v==="√"){ if(ar("(")){ p++; return `\\sqrt{${grupp(")")}}`; } return `\\sqrt{${startarAtom()?primar():""}}`; }
+    if(EN[v]!==undefined) return EN[v];
+    if(v===")"||v==="]"||v==="}"){ ok=false; return v==="}"?"\\}":v; }
+    if(v==="\\") return "\\backslash ";
+    if("#$&_~".includes(v)) return "\\"+v;
+    return v;
+  }
+  function exponent(){
+    if(ar("(")){ p++; return grupp(")"); }
+    if(ar("{")){ p++; return grupp("}"); }
+    if(ar("-")||ar("+")){ const s=nu().v; p++; return s+primar(); }
+    return primar();
+  }
+  function atom(){
+    let a=primar();
+    while(nu()){
+      if(ar("^")){ p++; const e=exponent(); a=/[\^_]/.test(a)?`{${a}}^{${e}}`:`${a}^{${e}}`; }
+      else if(ar("_")){ p++; const e=exponent(); a=/[\^_]/.test(a)?`{${a}}_{${e}}`:`${a}_{${e}}`; }
+      else if(ar("!")||ar("%")||ar("°")||ar("'")){ a+=EN[nu().v]; p++; }
+      else break;
+    }
+    return a;
+  }
+  function produkt(){
+    const delar=[atom()];
+    while(nu()){
+      if(ar("*")||ar("·")||ar("×")||ar("⋅")){ p++; delar.push("\\cdot "); delar.push(atom()); }
+      else if(ar("/")||ar("÷")){
+        p++;
+        /* Täljaren är den osynliga produkten sedan senaste ·, så 2x/3 visas som 2x över 3. */
+        let k=delar.length; while(k>0 && delar[k-1]!=="\\cdot ") k--;
+        const taljare=delar.splice(k).join(" ");
+        delar.push(`\\frac{${utanParentes(taljare)}}{${utanParentes(atom())}}`);
+      }
+      else if(startarAtom()){ delar.push(atom()); }
+      else break;
+    }
+    return delar.join(" ");
+  }
+  function uttryck(stang){
+    const ut=[];
+    while(nu() && !(stang && ar(stang))){
+      const t=nu();
+      if(t.t==="tkn" && ["<",">","!"].includes(t.v) && tk[p+1]?.t==="tkn" && tk[p+1].v==="="){
+        ut.push({"<":"\\le ",">":"\\ge ","!":"\\ne "}[t.v]); p+=2; continue; }
+      if(t.t==="tkn" && OP[t.v]!==undefined){ ut.push(OP[t.v]); p++; continue; }
+      if(t.t==="tkn" && [")","]","}"].includes(t.v) && t.v!==stang){ ok=false; p++; continue; }
+      const fore=p; ut.push(produkt()); if(p===fore){ p++; }
+    }
+    return ut.join(" ");
+  }
+  const latex=uttryck(null);
+  return {latex,ok};
+}
+/* Förhandsvisningen behövs när svaret innehåller något som ser annorlunda ut i matte. */
+function formelBehovs(text){ return /[\^\/√π*·≤≥±\\()]|sqrt|pi\b|\b(?:sin|cos|tan|ln|lg|log)\b/i.test(String(text||"")); }
+function uppdateraFormelvisning(i){
+  const el=document.getElementById("ans-"+i), ruta=document.getElementById("fv-"+i);
+  if(!el||!ruta) return;
+  const text=el.value;
+  if(!formelBehovs(text)){ ruta.hidden=true; ruta.innerHTML=""; return; }
+  const {latex,ok}=formelLatex(text);
+  let html="";
+  try{ html=typeof katex!=="undefined" ? katex.renderToString(latex,{throwOnError:false,displayMode:false,strict:false}) : esc(text); }
+  catch(_){ html=esc(text); }
+  ruta.hidden=false;
+  ruta.classList.toggle("varning",!ok);
+  ruta.innerHTML=`<span class="fv-lbl">${ok?"Så läses ditt svar":"Kontrollera parenteserna"}</span><span class="fv-matte">${html}</span>`;
+}
+/* Mallknappar: markören hamnar där eleven ska skriva härnäst.
+   Markerad text omsluts, till exempel blir markerat x+1 täljare i ett bråk. */
+function skrivMall(typ){
+  const i=state.aktivRuta ?? state.partIndex ?? 0;
+  const el=document.getElementById("ans-"+i);
+  if(!el || el.readOnly || el.disabled) return;
+  const start=el.selectionStart ?? el.value.length, slut=el.selectionEnd ?? start;
+  const vald=el.value.slice(start,slut);
+  let ny,pos;
+  if(typ==="kvadrat"){ ny="^2"; pos=ny.length; if(vald){ ny="("+vald+")^2"; pos=ny.length; } }
+  else if(typ==="potens"){ ny=vald?"("+vald+")^()":"^()"; pos=ny.length-1; }
+  else if(typ==="rot"){ ny="√("+vald+")"; pos=vald?ny.length:2; }
+  else if(typ==="brak"){ ny=vald?"("+vald+")/()":"()/()"; pos=vald?ny.length-1:1; }
+  else if(typ==="tiopotens"){ ny="·10^()"; pos=ny.length-1; }
+  else return;
+  el.value=el.value.slice(0,start)+ny+el.value.slice(slut);
+  el.focus();
+  try{ el.setSelectionRange(start+pos,start+pos); }catch(_){}
+  uppdateraFormelvisning(i);
+}
+/* Mobilen visar siffertangentbord när facit är ett tal. Eleven kan alltid byta. */
+function vaxlaTangentbord(i){
+  const el=document.getElementById("ans-"+i), knapp=document.getElementById("tb-"+i);
+  if(!el) return;
+  const siffror=el.inputMode==="decimal";
+  el.inputMode=siffror?"text":"decimal";
+  if(knapp){ knapp.textContent=siffror?"123":"abc"; knapp.setAttribute("aria-label",siffror?"Byt till siffertangentbord":"Byt till bokstavstangentbord"); }
+  state.aktivRuta=i;
+  el.blur();
+  setTimeout(()=>{ el.focus(); try{ const n=el.value.length; el.setSelectionRange(n,n); }catch(_){} },40);
 }
 
 function toolIcons(t){
@@ -12925,11 +13171,16 @@ function renderTraining(){
                 : inputCount<2 ? (arRotLista(expectedInfo.answers[i]) ? "Alla lösningar, t.ex. x = 1, 4" : "Ditt svar")
                 : layout.ordnad ? "Svar "+String.fromCharCode(97+i) : "Svar "+(i+1)
               }"${laasta(i)?" disabled":""}
-              onfocus="state.aktivRuta=${i}"
-              onkeydown="if(event.key==='Enter' && ${canAuto})checkAnswer()">`
+              onfocus="state.aktivRuta=${i}" oninput="uppdateraFormelvisning(${i})"
+              onkeydown="if(event.key==='Enter' && ${canAuto})checkAnswer()">${
+              `<button type="button" class="tbvaxel" id="tb-${i}" onmousedown="event.preventDefault()"
+                onclick="vaxlaTangentbord(${i})" ${laasta(i)?"disabled":""}
+                aria-label="${sifferlage(expectedInfo.answers[i],rutEnhet(i),plan?.delar[plan.rutor[i].del].format[plan.rutor[i].plats],t)?"Byt till bokstavstangentbord":"Byt till siffertangentbord"}">${
+                sifferlage(expectedInfo.answers[i],rutEnhet(i),plan?.delar[plan.rutor[i].del].format[plan.rutor[i].plats],t)?"abc":"123"}</button>`}`
         }
         ${canAuto?`<span class="mark" aria-hidden="true"></span>`:""}
       </div>
+      <div class="formelvisning" id="fv-${i}" hidden aria-live="polite"></div>
       <div class="corr" id="corr-${i}" hidden></div>
       <div class="delfacit" id="delfacit-${i}" hidden></div>
     </div>`;

@@ -2,7 +2,7 @@
 const {test}=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
 const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8'),c=vm.createContext({window:{},hjalp:{grader:true},delSvarDjup:0});
 vm.runInContext(html.slice(html.indexOf('const MATTEFUNKTIONER='),html.indexOf('function explicitMultiplikation(')),c);
-for(const name of ['latexToPlain','normalizeDecimalComma','normalizeMathInput','explicitMultiplikation','isPureNumberExpression','tillNerdamer','numericValue','raknTolka','stadaSvar','antalSattRatt','delSvarRatt']){
+for(const name of ['latexToPlain','normalizeDecimalComma','normalizeMathInput','explicitMultiplikation','isPureNumberExpression','tillNerdamer','numericValue','raknTolka','stadaSvar','antalSattRatt','arLatexSvar','latexElevsvar','delSvarRatt']){
  const i=html.indexOf(`function ${name}(`);assert.ok(i>=0,name);vm.runInContext(html.slice(i,html.indexOf('\n}',i)+2),c);
 }
 c.delSvarRattBas=()=>{throw Error('Sätt får inte gå vidare till allmän numerisk tolerans');};

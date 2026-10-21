@@ -4,7 +4,7 @@ const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
 const c=vm.createContext({calls:[],delSvarDjup:0,delSvarRattBas:(input,answer,unit,tol)=>{
  c.calls.push({input,answer,unit,tol});const m=String(input).match(/^(-?\d+(?:\.\d+)?)\s*(.*)$/);return !!m&&(!m[2]||m[2]===unit)&&Math.abs(+m[1]-answer)<=(tol||0);
 }});
-for(const name of ['metadataForDel','expandGameTask','faltVarde','faltFlagga','svarsPlan','delSvarRatt']){
+for(const name of ['metadataForDel','expandGameTask','faltVarde','faltFlagga','svarsPlan','arLatexSvar','latexElevsvar','delSvarRatt']){
  const i=html.indexOf(`function ${name}(`);assert.ok(i>=0);vm.runInContext(html.slice(i,html.indexOf('\n}',i)+2),c);
 }
 const plain=v=>JSON.parse(JSON.stringify(v));

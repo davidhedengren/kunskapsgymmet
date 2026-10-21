@@ -146260,5 +146260,274 @@ window.BANKMA1 = [
   "rättSvar": 19,
   "tolerans": 0,
   "svarFormat": "heltal"
+},
+{
+  "id": "1.1191",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "ekvation ur rektangelns area",
+  "t": "<p>Rektangeln har arean 40 cm². Ställ upp en ekvation och bestäm \\(x\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"En rektangel med höjden 5 cm och bredden x + 3 cm. Inuti står Arean = 40 cm².\" style=\"width:100%;max-width:320px\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"40\" width=\"200\" height=\"100\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><text x=\"160.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"middle\">x + 3 cm</text><text x=\"52.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"end\">5 cm</text><text x=\"160.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" text-anchor=\"middle\">Arean = 40 cm²</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Arean är bredd gånger höjd: \\(5(x+3)=40\\).</p><p>\\(5x+15=40\\), \\(5x=25\\), \\(x=5\\). (Eller: dela med 5 direkt, \\(x+3=8\\).)</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Arean = bredd · höjd. Sätt parentes runt x + 3.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "1.1192",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "ekvation ur triangelns omkrets",
+  "t": "<p>Triangeln är likbent och har omkretsen 37 cm. Måtten är i cm. Bestäm \\(x\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"En likbent triangel med de två lika långa sidorna x + 4 cm och basen x − 1 cm.\" style=\"width:100%;max-width:320px\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60,160 260,160 160,30\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><text x=\"160.0\" y=\"182.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"middle\">x − 1</text><text x=\"96.0\" y=\"90.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"end\">x + 4</text><text x=\"224.0\" y=\"90.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"start\">x + 4</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Omkretsen: \\(2(x+4)+(x-1)=37\\).</p><p>\\(2x+8+x-1=37\\), \\(3x+7=37\\), \\(3x=30\\), \\(x=10\\).</p><p>Kontroll: sidorna är 14, 14 och 9 cm, och \\(14+14+9=37\\).</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Omkretsen är summan av alla tre sidorna. Två sidor är lika långa.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "1.1193",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "skillnad mellan två kvadraters areor",
+  "t": "<p>En kvadrat med sidan \\(x\\) förstoras så att sidan blir \\(x+3\\). Arean ökar då med 57 (det skuggade området). Bestäm \\(x\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"En liten kvadrat med sidan x i nedre vänstra hörnet av en större kvadrat med sidan x + 3. Det skuggade området mellan dem har arean 57.\" style=\"width:100%;max-width:320px\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"80\" y=\"30\" width=\"160\" height=\"160\" fill=\"#f3c7ae\" stroke=\"#d9622b\" stroke-width=\"2.5\"/><rect x=\"80\" y=\"80\" width=\"110\" height=\"110\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><text x=\"135.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"160.0\" y=\"22.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"middle\">x + 3</text><text x=\"266.0\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#b4471a\" text-anchor=\"start\">57</text><line x1=\"255\" y1=\"110\" x2=\"228\" y2=\"60\" stroke=\"#b4471a\" stroke-width=\"1.5\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Ökningen är den stora arean minus den lilla: \\((x+3)^2-x^2=57\\).</p><p>\\((x+3)^2=x^2+6x+9\\), så \\(x^2+6x+9-x^2=57\\), \\(6x+9=57\\), \\(6x=48\\), \\(x=8\\).</p><p>Kontroll: \\(11^2-8^2=121-64=57\\).</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv den stora kvadratens area minus den lilla. Vad händer med x²-termerna?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "1.1194",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "hitta felet i en lösning",
+  "t": "<p>Elin löser ekvationen \\(3(x-2)=12\\) så här:</p><p>Steg 1: \\(3x-2=12\\)<br>Steg 2: \\(3x=14\\)<br>Steg 3: \\(x=\\dfrac{14}{3}\\)</p><p>Vilket steg är fel? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>I steg 1 ska båda termerna i parentesen multipliceras med 3: \\(3(x-2)=3x-6\\).</p><p>Rätt lösning: \\(3x-6=12\\), \\(3x=18\\), \\(x=6\\).</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multipliceras både x och 2 med 3?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Steg 1",
+      "ratt": true,
+      "kommentar": "Talet 2 ska också multipliceras med 3: 3x − 6."
+    },
+    {
+      "txt": "Steg 2",
+      "ratt": false,
+      "kommentar": "Steg 2 följer korrekt av steg 1. Felet har uppstått tidigare."
+    },
+    {
+      "txt": "Steg 3",
+      "ratt": false,
+      "kommentar": "Divisionen med 3 är rätt utförd."
+    },
+    {
+      "txt": "Inget steg är fel",
+      "ratt": false,
+      "kommentar": "Kontrollera: x = 14/3 ger 3(14/3 − 2) = 8, inte 12."
+    }
+  ]
+},
+{
+  "id": "1.1195",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "ålderproblem med parenteser",
+  "t": "<p>Anna är 3 år äldre än Bo. Om 5 år är summan av deras åldrar 41 år. Hur gammal är Bo nu? Kalla Bos ålder nu för \\(x\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Om 5 år är Bo \\(x+5\\) år och Anna \\((x+3)+5\\) år. Ekvationen blir \\((x+5)+(x+3+5)=41\\).</p><p>\\(2x+13=41\\), \\(2x=28\\), \\(x=14\\). Bo är 14 år och Anna 17 år.</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv båda åldrarna om 5 år med hjälp av x.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 14,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "1.1196",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "rabatt per vara",
+  "t": "<p>En klass köper 24 biljetter. Varje biljett får 15 kr rabatt, och totalt betalar klassen 2 520 kr. Vad kostar en biljett utan rabatt?</p>",
+  "s": "<div class=\"facit-v2\"><p>Med priset \\(x\\) kr utan rabatt kostar en biljett \\(x-15\\) kr. Ekvationen blir \\(24(x-15)=2520\\).</p><p>\\(x-15=105\\), så \\(x=120\\) kr.</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad kostar en biljett med rabatt, uttryckt i x?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 120,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "kr"
+},
+{
+  "id": "1.1197",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "balansvåg med lådor",
+  "t": "<p>Vågen är i balans. Varje låda till vänster väger \\(x+2\\) kg och varje låda till höger väger \\(x+5\\) kg. Bestäm \\(x\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 150\" role=\"img\" aria-label=\"En balansvåg i jämvikt. På vänster sida ligger tre lådor märkta x + 2 och på höger sida två lådor märkta x + 5.\" style=\"width:100%;max-width:320px\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><g transform=\"translate(0,-80)\"><polygon points=\"160,190 145,215 175,215\" fill=\"#9aa7b4\"/><line x1=\"40\" y1=\"190\" x2=\"280\" y2=\"190\" stroke=\"#172b3a\" stroke-width=\"4\"/><rect x=\"42\" y=\"156\" width=\"46\" height=\"34\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"65.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#172b3a\" text-anchor=\"middle\">x + 2</text><rect x=\"90\" y=\"156\" width=\"46\" height=\"34\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"113.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#172b3a\" text-anchor=\"middle\">x + 2</text><rect x=\"66\" y=\"122\" width=\"46\" height=\"34\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"89.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#172b3a\" text-anchor=\"middle\">x + 2</text><rect x=\"186\" y=\"156\" width=\"46\" height=\"34\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"209.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#172b3a\" text-anchor=\"middle\">x + 5</text><rect x=\"234\" y=\"156\" width=\"46\" height=\"34\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"257.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#172b3a\" text-anchor=\"middle\">x + 5</text></g></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Vänster sida väger \\(3(x+2)\\) och höger sida \\(2(x+5)\\). Balans ger \\(3(x+2)=2(x+5)\\).</p><p>\\(3x+6=2x+10\\), så \\(x=4\\). Kontroll: \\(3\\cdot6=18\\) och \\(2\\cdot9=18\\).</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur mycket väger varje sida tillsammans?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "1.1198",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "tre på varandra följande heltal",
+  "t": "<p>Tre heltal följer direkt efter varandra. Deras summa är 6 mindre än fyra gånger det minsta talet. Vilket är det minsta talet?</p>",
+  "s": "<div class=\"facit-v2\"><p>Kalla talen \\(x\\), \\(x+1\\) och \\(x+2\\). Ekvationen blir \\(x+(x+1)+(x+2)=4x-6\\).</p><p>\\(3x+3=4x-6\\), så \\(x=9\\). Talen är 9, 10 och 11 med summan 30, och \\(4\\cdot9-6=30\\).</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "problemlösning",
+    "modellering"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv de tre talen med hjälp av det minsta talet x.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 9,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
 }
 ];

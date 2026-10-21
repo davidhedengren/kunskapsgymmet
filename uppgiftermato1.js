@@ -100028,5 +100028,352 @@ window.BANKMATO1 = [
       "kommentar": "Kubikroten är definierad för alla x."
     }
   ]
+},
+{
+  "id": "4.496",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "två vinklar med samma sinusvärde",
+  "t": "<p>Sinussatsen ger \\(\\sin B=0{,}6\\). Räknaren ger \\(B\\approx36{,}9^\\circ\\). Vilken annan vinkel mellan 0° och 180° har också sinusvärdet 0,6? (Svara i grader med en decimal.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\sin v=\\sin(180^\\circ-v)\\). Den andra vinkeln är \\(180^\\circ-36{,}9^\\circ\\approx143{,}1^\\circ\\).</p></div>",
+  "familj": "Sinussatsen med två fall",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd att sin v = sin(180° − v).</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 143.1,
+  "tolerans": 0.05,
+  "svarFormat": "grader"
+},
+{
+  "id": "4.497",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "supplementvinkel med samma sinus",
+  "t": "<p>För vilken trubbig vinkel \\(v\\) gäller \\(\\sin v=\\sin 40^\\circ\\)? (Svara i grader.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\sin v=\\sin(180^\\circ-v)\\), så \\(v=180^\\circ-40^\\circ=140^\\circ\\).</p></div>",
+  "familj": "Sinussatsen med två fall",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vinklarna v och 180° − v har samma sinusvärde.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 140,
+  "tolerans": 0,
+  "svarFormat": "grader"
+},
+{
+  "id": "4.498",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "antal möjliga trianglar i SSA-fallet",
+  "t": "<p>I en triangel är \\(A=30^\\circ\\), \\(b=8\\) och \\(a=5\\), där sidan a ligger mitt emot vinkeln A. Hur många olika trianglar uppfyller villkoren? (Svara med ett heltal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 290\" role=\"img\" aria-label=\"Vinkeln A = 30 grader och sidan b = 8 från A till C. Från C ska sidan a = 5 nå strålen från A.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"46.0\" y1=\"187.4\" x2=\"394.0\" y2=\"187.4\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"46.0\" y1=\"187.4\" x2=\"192.8\" y2=\"102.6\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M80.6 167.4 A40 40 0 0 1 86.0 187.4\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"105.9\" y=\"177.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">30°</text><circle cx=\"46.0\" cy=\"187.4\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"34.0\" y=\"205.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"192.8\" cy=\"102.6\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"192.8\" y=\"90.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><text x=\"104.6\" y=\"138.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">b = 8</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Höjden från C till strålen är \\(h=b\\sin A=8\\cdot\\sin30^\\circ=4\\).</p><p>\\(h=4\\lt a=5\\lt b=8\\), så sidan a når strålen på två ställen. Två trianglar finns.</p></div>",
+  "familj": "Antal möjliga trianglar",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beräkna höjden h = b·sin A och jämför a med h och b.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.499",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "antal möjliga trianglar i SSA-fallet",
+  "t": "<p>I en triangel är \\(A=30^\\circ\\), \\(b=8\\) och \\(a=3\\), där sidan a ligger mitt emot vinkeln A. Hur många olika trianglar uppfyller villkoren? (Svara med ett heltal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 290\" role=\"img\" aria-label=\"Vinkeln A = 30 grader och sidan b = 8 från A till C. Från C ska sidan a = 3 nå strålen från A.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"46.0\" y1=\"187.4\" x2=\"394.0\" y2=\"187.4\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"46.0\" y1=\"187.4\" x2=\"192.8\" y2=\"102.6\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M80.6 167.4 A40 40 0 0 1 86.0 187.4\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"105.9\" y=\"177.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">30°</text><circle cx=\"46.0\" cy=\"187.4\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"34.0\" y=\"205.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"192.8\" cy=\"102.6\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"192.8\" y=\"90.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><text x=\"104.6\" y=\"138.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">b = 8</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Höjden från C till strålen är \\(h=b\\sin A=8\\cdot\\sin30^\\circ=4\\).</p><p>\\(a=3\\lt h\\), så sidan a räcker inte ned till strålen. Ingen triangel finns.</p></div>",
+  "familj": "Antal möjliga trianglar",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beräkna höjden h = b·sin A och jämför a med h och b.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.500",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "antal möjliga trianglar i SSA-fallet",
+  "t": "<p>I en triangel är \\(A=30^\\circ\\), \\(b=8\\) och \\(a=4\\), där sidan a ligger mitt emot vinkeln A. Hur många olika trianglar uppfyller villkoren? (Svara med ett heltal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 290\" role=\"img\" aria-label=\"Vinkeln A = 30 grader och sidan b = 8 från A till C. Från C ska sidan a = 4 nå strålen från A.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"46.0\" y1=\"187.4\" x2=\"394.0\" y2=\"187.4\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"46.0\" y1=\"187.4\" x2=\"192.8\" y2=\"102.6\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M80.6 167.4 A40 40 0 0 1 86.0 187.4\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"105.9\" y=\"177.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">30°</text><circle cx=\"46.0\" cy=\"187.4\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"34.0\" y=\"205.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"192.8\" cy=\"102.6\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"192.8\" y=\"90.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><text x=\"104.6\" y=\"138.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">b = 8</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Höjden från C till strålen är \\(h=b\\sin A=8\\cdot\\sin30^\\circ=4\\).</p><p>\\(a=h=4\\), så sidan a når precis ned till strålen och bildar en rät vinkel. Exakt en triangel finns.</p></div>",
+  "familj": "Antal möjliga trianglar",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beräkna höjden h = b·sin A och jämför a med h och b.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 1,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.501",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "antal möjliga trianglar i SSA-fallet",
+  "t": "<p>I en triangel är \\(A=30^\\circ\\), \\(b=8\\) och \\(a=10\\), där sidan a ligger mitt emot vinkeln A. Hur många olika trianglar uppfyller villkoren? (Svara med ett heltal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 290\" role=\"img\" aria-label=\"Vinkeln A = 30 grader och sidan b = 8 från A till C. Från C ska sidan a = 10 nå strålen från A.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"46.0\" y1=\"182.8\" x2=\"394.0\" y2=\"182.8\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"46.0\" y1=\"182.8\" x2=\"176.8\" y2=\"107.2\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M80.6 162.8 A40 40 0 0 1 86.0 182.8\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"105.9\" y=\"172.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">30°</text><circle cx=\"46.0\" cy=\"182.8\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"34.0\" y=\"200.8\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"176.8\" cy=\"107.2\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"176.8\" y=\"95.2\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><text x=\"98.2\" y=\"139.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">b = 8</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Höjden från C till strålen är \\(h=b\\sin A=8\\cdot\\sin30^\\circ=4\\).</p><p>\\(a=10\\ge b=8\\), så sidan a når strålen bara på ett ställe till höger om A. Exakt en triangel finns.</p></div>",
+  "familj": "Antal möjliga trianglar",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beräkna höjden h = b·sin A och jämför a med h och b.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 1,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.502",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "båda möjliga vinklarna B",
+  "t": "<p>I en triangel är \\(A=40^\\circ\\), \\(a=7\\) och \\(b=10\\). Figuren visar de två möjliga lägena för hörnet B. Bestäm båda möjliga värdena på vinkeln \\(B\\). (Svara i grader med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 290\" role=\"img\" aria-label=\"Vinkeln A = 40 grader, sidan b = 10 och två möjliga lägen B1 och B2 där sidan a = 7 når strålen.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"46.0,203.4 235.5,203.4 185.1,86.6\" fill=\"#eef4fc\" stroke=\"none\"/><line x1=\"46.0\" y1=\"203.4\" x2=\"394.0\" y2=\"203.4\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"46.0\" y1=\"203.4\" x2=\"185.1\" y2=\"86.6\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M76.6 177.7 A40 40 0 0 1 86.0 203.4\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"104.3\" y=\"188.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">40°</text><line x1=\"185.1\" y1=\"86.6\" x2=\"134.8\" y2=\"203.4\" stroke=\"#c8372d\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"185.1\" y1=\"86.6\" x2=\"235.5\" y2=\"203.4\" stroke=\"#2f6fca\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><circle cx=\"134.8\" cy=\"203.4\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"134.8\" y=\"225.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B₁</text><circle cx=\"235.5\" cy=\"203.4\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"235.5\" y=\"225.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B₂</text><text x=\"230.3\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\">a = 7</text><circle cx=\"46.0\" cy=\"203.4\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"34.0\" y=\"221.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"185.1\" cy=\"86.6\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"185.1\" y=\"74.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><text x=\"102.9\" y=\"139.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">b = 10</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Sinussatsen: \\(\\sin B=\\dfrac{10\\sin40^\\circ}{7}\\approx0{,}9183\\).</p><p>\\(B_1\\approx66{,}7^\\circ\\) och \\(B_2=180^\\circ-B_1\\approx113{,}3^\\circ\\). Båda fungerar, eftersom \\(A+B_2\\lt180^\\circ\\).</p></div>",
+  "familj": "Sinussatsen med två fall",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Lös ut sin B med sinussatsen. Kom ihåg den trubbiga lösningen.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    66.7,
+    113.3
+  ],
+  "tolerans": [
+    0.1,
+    0.1
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "B",
+    "B"
+  ],
+  "svarFormat": [
+    "grader",
+    "grader"
+  ]
+},
+{
+  "id": "4.503",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "minsta möjliga vinkel C",
+  "t": "<p>I en triangel är \\(A=40^\\circ\\), \\(a=7\\) och \\(b=10\\). Det finns två möjliga trianglar. Bestäm den minsta möjliga vinkeln \\(C\\). (Svara i grader med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 290\" role=\"img\" aria-label=\"Vinkeln A = 40 grader, sidan b = 10 och två möjliga lägen B1 och B2 där sidan a = 7 når strålen.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"46.0,203.4 235.5,203.4 185.1,86.6\" fill=\"#eef4fc\" stroke=\"none\"/><line x1=\"46.0\" y1=\"203.4\" x2=\"394.0\" y2=\"203.4\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"46.0\" y1=\"203.4\" x2=\"185.1\" y2=\"86.6\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M76.6 177.7 A40 40 0 0 1 86.0 203.4\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"104.3\" y=\"188.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">40°</text><line x1=\"185.1\" y1=\"86.6\" x2=\"134.8\" y2=\"203.4\" stroke=\"#c8372d\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"185.1\" y1=\"86.6\" x2=\"235.5\" y2=\"203.4\" stroke=\"#2f6fca\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><circle cx=\"134.8\" cy=\"203.4\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"134.8\" y=\"225.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B₁</text><circle cx=\"235.5\" cy=\"203.4\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"235.5\" y=\"225.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B₂</text><text x=\"230.3\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\">a = 7</text><circle cx=\"46.0\" cy=\"203.4\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"34.0\" y=\"221.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"185.1\" cy=\"86.6\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"185.1\" y=\"74.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><text x=\"102.9\" y=\"139.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">b = 10</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(B\\approx66{,}7^\\circ\\) eller \\(B\\approx113{,}3^\\circ\\). Då är \\(C=180^\\circ-A-B\\), alltså \\(C\\approx73{,}3^\\circ\\) eller \\(C\\approx26{,}7^\\circ\\).</p><p>Den minsta är \\(C\\approx26{,}7^\\circ\\). Den hör till triangeln med den trubbiga vinkeln B.</p></div>",
+  "familj": "Sinussatsen med två fall",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm båda värdena på B först.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 26.7,
+  "tolerans": 0.1,
+  "svarFormat": "grader"
+},
+{
+  "id": "4.504",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "två möjliga längder på tredje sidan",
+  "t": "<p>I en triangel är \\(A=28^\\circ\\), \\(a=5\\) cm och \\(b=9\\) cm. Bestäm båda möjliga längderna på sidan \\(c\\). (Svara i cm med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 290\" role=\"img\" aria-label=\"Vinkeln A = 28 grader, sidan b = 9 och två möjliga lägen för B där sidan a = 5 når strålen.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"46.0,184.9 246.3,184.9 195.9,105.1\" fill=\"#eef4fc\" stroke=\"none\"/><line x1=\"46.0\" y1=\"184.9\" x2=\"394.0\" y2=\"184.9\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"46.0\" y1=\"184.9\" x2=\"195.9\" y2=\"105.1\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M81.3 166.1 A40 40 0 0 1 86.0 184.9\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"106.2\" y=\"175.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">28°</text><line x1=\"195.9\" y1=\"105.1\" x2=\"145.5\" y2=\"184.9\" stroke=\"#c8372d\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"195.9\" y1=\"105.1\" x2=\"246.3\" y2=\"184.9\" stroke=\"#2f6fca\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><circle cx=\"145.5\" cy=\"184.9\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"145.5\" y=\"206.9\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B₁</text><circle cx=\"246.3\" cy=\"184.9\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"246.3\" y=\"206.9\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B₂</text><text x=\"241.9\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\">a = 5</text><circle cx=\"46.0\" cy=\"184.9\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"34.0\" y=\"202.9\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"195.9\" cy=\"105.1\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"195.9\" y=\"93.1\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><text x=\"107.8\" y=\"139.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">b = 9</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\sin B=\\dfrac{9\\sin28^\\circ}{5}\\approx0{,}8450\\), så \\(B\\approx57{,}7^\\circ\\) eller \\(B\\approx122{,}3^\\circ\\).</p><p>\\(C=180^\\circ-A-B\\) och \\(c=\\dfrac{a\\sin C}{\\sin A}\\) ger \\(c\\approx5{,}3\\) cm eller \\(c\\approx10{,}6\\) cm.</p></div>",
+  "familj": "Sinussatsen med två fall",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm de två vinklarna B, sedan C, och använd sinussatsen igen för c.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5.3,
+    10.6
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "c",
+    "c"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "cm",
+    "cm"
+  ]
+},
+{
+  "id": "4.505",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "villkor för två trianglar",
+  "t": "<p>Vinkeln \\(A\\) är spetsig och \\(h=b\\sin A\\) är höjden från C mot strålen. När ger \\(A\\), \\(a\\) och \\(b\\) två olika trianglar? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 290\" role=\"img\" aria-label=\"Vinkeln A, sidan b och två möjliga lägen för B där sidan a når strålen.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"46.0,195.7 261.7,195.7 190.8,94.3\" fill=\"#eef4fc\" stroke=\"none\"/><line x1=\"46.0\" y1=\"195.7\" x2=\"394.0\" y2=\"195.7\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"46.0\" y1=\"195.7\" x2=\"190.8\" y2=\"94.3\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M78.8 172.7 A40 40 0 0 1 86.0 195.7\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"105.1\" y=\"183.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">35°</text><line x1=\"190.8\" y1=\"94.3\" x2=\"119.9\" y2=\"195.7\" stroke=\"#c8372d\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"190.8\" y1=\"94.3\" x2=\"261.7\" y2=\"195.7\" stroke=\"#2f6fca\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><circle cx=\"119.9\" cy=\"195.7\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"119.9\" y=\"217.7\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B₁</text><circle cx=\"261.7\" cy=\"195.7\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"261.7\" y=\"217.7\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B₂</text><text x=\"245.7\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\">a = 7</text><circle cx=\"46.0\" cy=\"195.7\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"34.0\" y=\"213.7\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"190.8\" cy=\"94.3\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"190.8\" y=\"82.3\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><text x=\"106.0\" y=\"139.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">b = 10</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Sidan a måste vara längre än höjden h för att nå strålen, men kortare än b för att nå den två gånger, en gång på var sida om höjdens fotpunkt.</p></div>",
+  "familj": "Antal möjliga trianglar",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Tänk dig sidan a som en passare med spetsen i C. Hur många gånger skär den strålen?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "När h < a < b",
+      "ratt": true,
+      "kommentar": "Då skär cirkeln strålen två gånger till höger om A."
+    },
+    {
+      "txt": "När a > b",
+      "ratt": false,
+      "kommentar": "Då finns bara en triangel."
+    },
+    {
+      "txt": "När a = h",
+      "ratt": false,
+      "kommentar": "Då finns exakt en, rätvinklig, triangel."
+    },
+    {
+      "txt": "När a < h",
+      "ratt": false,
+      "kommentar": "Då når sidan a inte strålen, och ingen triangel finns."
+    }
+  ]
 }
 ];

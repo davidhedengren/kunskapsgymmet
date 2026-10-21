@@ -103127,5 +103127,220 @@ window.BANKMATO1 = [
   "rättSvar": 1,
   "tolerans": 0,
   "svarFormat": "numeriskt"
+},
+{
+  "id": "1.856",
+  "kap": 1,
+  "omr": "algebra_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "area som polynom ur rutmodell",
+  "t": "<p>Den stora rektangeln är uppdelad i fyra delar. Skriv hela rektangelns area som ett polynom (utan parenteser).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" role=\"img\" aria-label=\"En rektangel med bredden x + 3 och höjden x + 2, uppdelad i fyra delar: x gånger x, 3 gånger x, x gånger 2 och 3 gånger 2.\" style=\"width:100%;max-width:320px\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"70\" y=\"40\" width=\"150\" height=\"130\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><rect x=\"220\" y=\"40\" width=\"70\" height=\"130\" fill=\"#fdeee5\" stroke=\"#d9622b\" stroke-width=\"2\"/><rect x=\"70\" y=\"170\" width=\"150\" height=\"50\" fill=\"#fdeee5\" stroke=\"#d9622b\" stroke-width=\"2\"/><rect x=\"220\" y=\"170\" width=\"70\" height=\"50\" fill=\"#f6f1d8\" stroke=\"#9a7b00\" stroke-width=\"2\"/><text x=\"145.0\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"middle\">x</text><text x=\"255.0\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"middle\">3</text><text x=\"60\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"end\">x</text><text x=\"60\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"end\">2</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Delarna har areorna \\(x\\cdot x=x^2\\), \\(3x\\), \\(2x\\) och \\(3\\cdot2=6\\).</p><p>Summan är \\(x^2+5x+6\\), vilket är samma sak som \\((x+3)(x+2)\\).</p></div>",
+  "familj": "Polynom i figurer och begrepp",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beräkna varje dels area och addera.</p>",
+  "svarstyp": "uttryck",
+  "rättSvar": "x^2+5x+6",
+  "tolerans": null,
+  "svarFormat": "uttryck"
+},
+{
+  "id": "1.857",
+  "kap": 1,
+  "omr": "algebra_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "gradtal och ledande koefficient för en volym",
+  "t": "<p>Från en kvadratisk kartongbit med sidan 20 cm klipps fyra kvadrater med sidan \\(x\\) cm bort i hörnen. Kanterna viks upp till en öppen låda. Volymen är \\(V(x)=x(20-2x)^2\\). Vilket gradtal har polynomet, och vilken koefficient står framför den högsta potensen av \\(x\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 260\" role=\"img\" aria-label=\"En kvadratisk kartongbit med sidan 20 cm. I varje hörn är en kvadrat med sidan x streckad, och streckade viklinjer visar lådans botten.\" style=\"width:100%;max-width:320px\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"20\" width=\"200\" height=\"200\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><rect x=\"60\" y=\"20\" width=\"40\" height=\"40\" fill=\"#ffffff\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><rect x=\"220\" y=\"20\" width=\"40\" height=\"40\" fill=\"#ffffff\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><rect x=\"60\" y=\"180\" width=\"40\" height=\"40\" fill=\"#ffffff\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><rect x=\"220\" y=\"180\" width=\"40\" height=\"40\" fill=\"#ffffff\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"100\" y1=\"60\" x2=\"220\" y2=\"60\" stroke=\"#172b3a\" stroke-dasharray=\"3 4\"/><line x1=\"100\" y1=\"180\" x2=\"220\" y2=\"180\" stroke=\"#172b3a\" stroke-dasharray=\"3 4\"/><line x1=\"100\" y1=\"60\" x2=\"100\" y2=\"180\" stroke=\"#172b3a\" stroke-dasharray=\"3 4\"/><line x1=\"220\" y1=\"60\" x2=\"220\" y2=\"180\" stroke=\"#172b3a\" stroke-dasharray=\"3 4\"/><text x=\"80\" y=\"16\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" text-anchor=\"middle\">x</text><text x=\"52\" y=\"46\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" text-anchor=\"end\">x</text><text x=\"160\" y=\"248\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"middle\">20 cm</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\((20-2x)^2=4x^2-80x+400\\), så \\(V(x)=x(4x^2-80x+400)=4x^3-80x^2+400x\\).</p><p>Gradtalet är 3 och koefficienten framför \\(x^3\\) är 4.</p></div>",
+  "familj": "Polynom i figurer och begrepp",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Utveckla kvadraten först och multiplicera sedan med x.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    3,
+    4
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "gradtal",
+    "koefficient"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "1.858",
+  "kap": 1,
+  "omr": "algebra_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "känna igen ett polynom",
+  "t": "<p>Vilket av uttrycken är ett polynom? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Ett polynom är en summa av termer av typen \\(ax^n\\), där \\(n\\) är ett naturligt tal (0, 1, 2, …).</p><p>\\(3x^4-2x+1\\) uppfyller det. \\(\\tfrac2x=2x^{-1}\\), \\(\\sqrt x=x^{1/2}\\) och \\(2^x\\) (variabeln i exponenten) gör det inte.</p></div>",
+  "familj": "Polynom i figurer och begrepp",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka exponenter får x ha i ett polynom?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(3x^4-2x+1\\)",
+      "ratt": true,
+      "kommentar": "Alla exponenter är naturliga tal."
+    },
+    {
+      "txt": "\\(\\dfrac{2}{x}+1\\)",
+      "ratt": false,
+      "kommentar": "2/x = 2x⁻¹ har en negativ exponent."
+    },
+    {
+      "txt": "\\(\\sqrt{x}+3\\)",
+      "ratt": false,
+      "kommentar": "√x = x^(1/2) har en exponent som inte är ett heltal."
+    },
+    {
+      "txt": "\\(2^x+x\\)",
+      "ratt": false,
+      "kommentar": "I 2ˣ står variabeln i exponenten. Det är en exponentialfunktion."
+    }
+  ]
+},
+{
+  "id": "1.859",
+  "kap": 1,
+  "omr": "algebra_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "koefficient i en kub",
+  "t": "<p>Utveckla \\((x+2)^3\\). Vilken koefficient får \\(x\\)-termen?</p>",
+  "s": "<div class=\"facit-v2\"><p>\\((x+2)^2=x^2+4x+4\\), och \\((x+2)^3=(x^2+4x+4)(x+2)=x^3+6x^2+12x+8\\).</p><p>Koefficienten för \\(x\\) är 12.</p></div>",
+  "familj": "Polynom i figurer och begrepp",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Utveckla (x + 2)² först och multiplicera sedan med (x + 2).</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "1.860",
+  "kap": 1,
+  "omr": "algebra_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "polynomvärde för negativt x",
+  "t": "<p>Polynomet är \\(p(x)=2x^3-x^2+4\\). Beräkna \\(p(-2)\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(p(-2)=2\\cdot(-8)-4+4=-16\\).</p><p>Observera att \\((-2)^3=-8\\) men \\(-(-2)^2=-4\\).</p></div>",
+  "familj": "Polynom i figurer och begrepp",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Sätt in −2 med parentes: (−2)³ och (−2)².</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": -16,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "1.861",
+  "kap": 1,
+  "omr": "algebra_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "ramens area som polynom",
+  "t": "<p>En tavla är \\(2x\\) dm bred och \\(x\\) dm hög. Runt den sitter en ram som är 2 dm bred. Skriv ramens area som ett polynom (utan parenteser).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 235\" role=\"img\" aria-label=\"En rektangulär tavla med bredden 2x och höjden x och en ram runt den med bredden 2 på alla sidor.\" style=\"width:100%;max-width:340px\"><rect x=\"1\" y=\"1\" width=\"338\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"30\" width=\"260\" height=\"170\" fill=\"#f6f1d8\" stroke=\"#9a7b00\" stroke-width=\"2\"/><rect x=\"80\" y=\"70\" width=\"180\" height=\"90\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"170\" y=\"120\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"middle\">tavla</text><text x=\"170\" y=\"64\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" text-anchor=\"middle\">2x</text><text x=\"74\" y=\"120\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" text-anchor=\"end\">x</text><line x1=\"300\" y1=\"70\" x2=\"300\" y2=\"30\" stroke=\"#172b3a\"/><text x=\"308\" y=\"55\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" text-anchor=\"start\">2</text><line x1=\"260\" y1=\"200\" x2=\"300\" y2=\"200\" stroke=\"#172b3a\"/><text x=\"280\" y=\"220\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" text-anchor=\"middle\">2</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Tavlan med ram är \\((2x+4)\\) dm bred och \\((x+4)\\) dm hög. Ramens area är hela arean minus tavlans:</p><p>\\((2x+4)(x+4)-2x\\cdot x=2x^2+12x+16-2x^2=12x+16\\).</p></div>",
+  "familj": "Polynom i figurer och begrepp",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hur bred och hög är tavlan med ram? Dra bort tavlans egen area.</p>",
+  "svarstyp": "uttryck",
+  "rättSvar": "12x+16",
+  "tolerans": null,
+  "svarFormat": "uttryck"
 }
 ];

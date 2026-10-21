@@ -11560,5 +11560,259 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "kommentar": "Liten spridning ger en liten positiv standardavvikelse."
     }
   ]
+},
+{
+  "id": "3.555",
+  "kap": 3,
+  "omr": "yttervinkelsatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "yttervinkel vid en sträcka i triangeln",
+  "t": "<p>Punkten D ligger på sidan BC. Bestäm vinkeln \\(x\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Triangel ABC med en sträcka från A till punkten D på sidan BC. Vinkeln vid B är 50 grader, vinkeln BAD är 25 grader och vinkeln ADC är x.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"247.2,46.0 72.7,254.0 367.3,254.0\" fill=\"#f2f6fb\" stroke=\"none\"/><line x1=\"247.2\" y1=\"46.0\" x2=\"72.7\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"72.7\" y1=\"254.0\" x2=\"367.3\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"367.3\" y1=\"254.0\" x2=\"247.2\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"247.2\" y1=\"46.0\" x2=\"191.5\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M92.0 231.0 A30 30 0 0 1 102.7 254.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"119.8\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">50°</text><path d=\"M238.4 78.8 A34 34 0 0 1 225.4 72.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"221.4\" y=\"101.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">25°</text><path d=\"M198.2 228.9 A26 26 0 0 1 217.5 254.0\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2\"/><text x=\"229.6\" y=\"230.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c8372d\">x</text><circle cx=\"247.2\" cy=\"46.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"247.2\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"72.7\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"60.7\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><circle cx=\"367.3\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"379.3\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><circle cx=\"191.5\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"191.5\" y=\"276.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">D</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Vinkeln \\(x=\\angle ADC\\) är en yttervinkel till triangeln \\(ABD\\), eftersom \\(BD\\) förlängs till \\(C\\).</p><p>Den är lika med summan av de två motstående inre vinklarna i \\(ABD\\): \\(x=50^\\circ+25^\\circ=75^\\circ\\).</p></div>",
+  "familj": "Hitta yttervinkeln i sammansatta figurer",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Titta på den mindre triangeln ABD. Vilken av dess sidor är förlängd?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 75,
+  "tolerans": 0,
+  "svarFormat": "grader"
+},
+{
+  "id": "3.556",
+  "kap": 3,
+  "omr": "yttervinkelsatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "vinkel vid en punkt inne i triangeln",
+  "t": "<p>Punkten D ligger inne i triangeln ABC. Bestäm vinkeln \\(x=\\angle BDC\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Triangel ABC med en punkt D inuti som är förbunden med B och C. Vinkeln vid A är 50 grader, vinkeln ABD är 20 grader, vinkeln ACD är 30 grader och vinkeln BDC är x.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"197.8,46.0 122.1,254.0 317.9,254.0\" fill=\"#f2f6fb\" stroke=\"none\"/><line x1=\"197.8\" y1=\"46.0\" x2=\"122.1\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"122.1\" y1=\"254.0\" x2=\"317.9\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"317.9\" y1=\"254.0\" x2=\"197.8\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"122.1\" y1=\"254.0\" x2=\"186.0\" y2=\"177.8\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"317.9\" y1=\"254.0\" x2=\"186.0\" y2=\"177.8\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M212.8 72.0 A30 30 0 0 1 187.5 74.2\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"202.3\" y=\"103.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">50°</text><path d=\"M138.5 208.9 A48 48 0 0 1 153.0 217.2\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"155.1\" y=\"202.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">20°</text><path d=\"M279.8 232.0 A44 44 0 0 1 295.9 215.9\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"274.1\" y=\"216.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">30°</text><path d=\"M205.1 188.8 A22 22 0 0 1 171.9 194.7\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2\"/><text x=\"192.9\" y=\"223.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c8372d\">x</text><circle cx=\"197.8\" cy=\"46.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"197.8\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"122.1\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"110.1\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><circle cx=\"317.9\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"329.9\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><circle cx=\"186.0\" cy=\"177.8\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"186.0\" y=\"167.8\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">D</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Dra en hjälplinje från A genom D till sidan BC. Vinkeln vid D delas i två yttervinklar, en för varje triangel med hörnet A.</p><p>Varje yttervinkel är summan av de motstående inre vinklarna, så tillsammans blir \\(x=50^\\circ+20^\\circ+30^\\circ=100^\\circ\\).</p></div>",
+  "familj": "Hitta yttervinkeln i sammansatta figurer",
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Dra en linje från A genom D. Använd yttervinkelsatsen i de två trianglar som bildas.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 100,
+  "tolerans": 0,
+  "svarFormat": "grader"
+},
+{
+  "id": "3.557",
+  "kap": 3,
+  "omr": "yttervinkelsatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "yttervinkel i en snett ritad triangel",
+  "t": "<p>Sidan CA är förlängd förbi A. Bestäm yttervinkeln \\(x\\) vid A. (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"En snett ritad triangel ABC där sidan CA är förlängd förbi A. Vinkeln vid B är 35 grader, vinkeln vid C är 72 grader och yttervinkeln vid A är x.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"202.8,71.7 191.9,254.0 306.0,110.1\" fill=\"#f2f6fb\" stroke=\"none\"/><line x1=\"202.8\" y1=\"71.7\" x2=\"191.9\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"191.9\" y1=\"254.0\" x2=\"306.0\" y2=\"110.1\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"110.1\" x2=\"202.8\" y2=\"71.7\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"202.8\" y1=\"71.7\" x2=\"134.0\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><path d=\"M194.3 214.1 A40 40 0 0 1 216.7 222.7\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"214.0\" y=\"202.1\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">35°</text><path d=\"M287.4 133.6 A30 30 0 0 1 277.9 99.6\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"256.0\" y=\"130.1\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">72°</text><path d=\"M201.2 97.6 A26 26 0 0 1 178.4 62.6\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2\"/><text x=\"162.6\" y=\"103.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c8372d\">x</text><circle cx=\"202.8\" cy=\"71.7\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"195.1\" y=\"59.2\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"191.9\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"184.7\" y=\"278.7\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><circle cx=\"306.0\" cy=\"110.1\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"324.0\" y=\"107.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Yttervinkeln vid A är lika med summan av de två inre vinklar som inte ligger vid A: \\(x=35^\\circ+72^\\circ=107^\\circ\\).</p></div>",
+  "familj": "Hitta yttervinkeln i sammansatta figurer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka två inre vinklar ligger inte intill yttervinkeln?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 107,
+  "tolerans": 0,
+  "svarFormat": "grader"
+},
+{
+  "id": "3.558",
+  "kap": 3,
+  "omr": "yttervinkelsatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "vertikalvinkel och yttervinkel",
+  "t": "<p>Bestäm yttervinkeln \\(x\\) vid B. (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Triangel ABC där sidorna BC och AC är förlängda förbi C och sidan CB förlängd förbi B. Vinkeln mellan de två förlängningarna vid C är 65 grader. Vinkeln vid A är 45 grader. Yttervinkeln vid B är x.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"211.4,46.0 150.4,213.6 289.6,213.6\" fill=\"#f2f6fb\" stroke=\"none\"/><line x1=\"211.4\" y1=\"46.0\" x2=\"150.4\" y2=\"213.6\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"150.4\" y1=\"213.6\" x2=\"289.6\" y2=\"213.6\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"289.6\" y1=\"213.6\" x2=\"211.4\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"289.6\" y1=\"213.6\" x2=\"334.1\" y2=\"213.6\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"289.6\" y1=\"213.6\" x2=\"308.4\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"150.4\" y1=\"213.6\" x2=\"105.9\" y2=\"213.6\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><path d=\"M315.6 213.6 A26 26 0 0 1 300.6 237.2\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"330.1\" y=\"245.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">65°</text><path d=\"M224.9 75.0 A32 32 0 0 1 200.5 76.1\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"213.8\" y=\"105.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">45°</text><path d=\"M124.4 213.6 A26 26 0 0 1 159.3 189.2\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2\"/><text x=\"122.9\" y=\"180.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c8372d\">x</text><circle cx=\"211.4\" cy=\"46.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"211.4\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"150.4\" cy=\"213.6\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"156.4\" y=\"235.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><circle cx=\"289.6\" cy=\"213.6\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"283.6\" y=\"235.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Vinkeln \\(65^\\circ\\) och den inre vinkeln vid C är vertikalvinklar, så \\(\\angle C=65^\\circ\\).</p><p>Yttervinkeln vid B: \\(x=\\angle A+\\angle C=45^\\circ+65^\\circ=110^\\circ\\).</p></div>",
+  "familj": "Hitta yttervinkeln i sammansatta figurer",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vinkeln mellan de två förlängningarna vid C är en vertikalvinkel. Vilken inre vinkel är den lika med?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 110,
+  "tolerans": 0,
+  "svarFormat": "grader"
+},
+{
+  "id": "3.559",
+  "kap": 3,
+  "omr": "yttervinkelsatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "ekvation med yttervinkel i delad triangel",
+  "t": "<p>Punkten D ligger på sidan BC. Bestäm \\(x\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Triangel ABC med en sträcka från A till D på sidan BC. Vinkeln BAD är x, vinkeln vid B är 2x och vinkeln ADC är 105 grader.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"170.6,46.0 94.9,254.0 345.1,254.0\" fill=\"#f2f6fb\" stroke=\"none\"/><line x1=\"170.6\" y1=\"46.0\" x2=\"94.9\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"94.9\" y1=\"254.0\" x2=\"345.1\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"345.1\" y1=\"254.0\" x2=\"170.6\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"170.6\" y1=\"46.0\" x2=\"226.3\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M105.1 225.8 A30 30 0 0 1 124.9 254.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"137.5\" y=\"230.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">2x</text><path d=\"M179.4 78.8 A34 34 0 0 1 159.0 77.9\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"168.1\" y=\"107.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">x</text><path d=\"M220.1 230.8 A24 24 0 0 1 250.3 254.0\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2\"/><text x=\"254.3\" y=\"223.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c8372d\">105°</text><circle cx=\"170.6\" cy=\"46.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"170.6\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"94.9\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"82.9\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><circle cx=\"345.1\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"357.1\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><circle cx=\"226.3\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"226.3\" y=\"276.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">D</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\angle ADC\\) är en yttervinkel till triangeln \\(ABD\\): \\(x+2x=105^\\circ\\), alltså \\(3x=105^\\circ\\) och \\(x=35^\\circ\\).</p></div>",
+  "familj": "Yttervinkelsatsen med ekvationer och likbenta trianglar",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilken triangel har vinkeln 105° som yttervinkel?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 35,
+  "tolerans": 0,
+  "svarFormat": "grader"
+},
+{
+  "id": "3.560",
+  "kap": 3,
+  "omr": "yttervinkelsatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "ekvation med punkt inne i triangeln",
+  "t": "<p>Punkten D ligger inne i triangeln ABC. Bestäm \\(x\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Triangel ABC med en punkt D inuti förbunden med B och C. Vinkeln vid A är x, vinkeln ABD är 30 grader, vinkeln ACD är 30 grader och vinkeln BDC är 2x.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"195.7,46.0 98.7,254.0 341.3,254.0\" fill=\"#f2f6fb\" stroke=\"none\"/><line x1=\"195.7\" y1=\"46.0\" x2=\"98.7\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"98.7\" y1=\"254.0\" x2=\"341.3\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"341.3\" y1=\"254.0\" x2=\"195.7\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"98.7\" y1=\"254.0\" x2=\"195.7\" y2=\"186.1\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"341.3\" y1=\"254.0\" x2=\"195.7\" y2=\"186.1\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M212.9 70.6 A30 30 0 0 1 183.0 73.2\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"200.2\" y=\"103.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">x</text><path d=\"M119.0 210.5 A48 48 0 0 1 138.0 226.5\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"141.1\" y=\"209.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">30°</text><path d=\"M301.4 235.4 A44 44 0 0 1 316.1 218.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"293.8\" y=\"220.1\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">30°</text><path d=\"M215.6 195.4 A22 22 0 0 1 177.7 198.7\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2\"/><text x=\"199.2\" y=\"231.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c8372d\">2x</text><circle cx=\"195.7\" cy=\"46.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"195.7\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"98.7\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"86.7\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><circle cx=\"341.3\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"353.3\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><circle cx=\"195.7\" cy=\"186.1\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"195.7\" y=\"176.1\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">D</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Med en hjälplinje från A genom D blir vinkeln vid D summan av vinkeln vid A och de två markerade vinklarna: \\(2x=x+30^\\circ+30^\\circ\\).</p><p>Det ger \\(x=60^\\circ\\). Kontroll: \\(\\angle BDC=120^\\circ=60^\\circ+30^\\circ+30^\\circ\\).</p></div>",
+  "familj": "Yttervinkelsatsen med ekvationer och likbenta trianglar",
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vinkeln BDC är lika med summan av vinkeln vid A och de två markerade vinklarna.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 60,
+  "tolerans": 0,
+  "svarFormat": "grader"
+},
+{
+  "id": "3.561",
+  "kap": 3,
+  "omr": "yttervinkelsatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "känna igen en yttervinkel",
+  "t": "<p>Vilken av de markerade vinklarna är en yttervinkel till triangeln \\(ABD\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Triangel ABC med en sträcka AD till sidan BC. Tre vinklar är markerade: alfa vid C, beta vinkeln ADC och gamma vinkeln BAD.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"220.0,46.0 74.4,254.0 365.6,254.0\" fill=\"#f2f6fb\" stroke=\"none\"/><line x1=\"220.0\" y1=\"46.0\" x2=\"74.4\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"74.4\" y1=\"254.0\" x2=\"365.6\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"365.6\" y1=\"254.0\" x2=\"220.0\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"220.0\" y1=\"46.0\" x2=\"201.8\" y2=\"254.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M335.6 254.0 A30 30 0 0 1 348.4 229.4\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"319.5\" y=\"236.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#2f6fca\">α</text><path d=\"M204.1 228.1 A26 26 0 0 1 227.8 254.0\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2\"/><text x=\"237.2\" y=\"227.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c8372d\">β</text><path d=\"M216.5 85.8 A40 40 0 0 1 197.1 78.8\" fill=\"none\" stroke=\"#2e9b6f\" stroke-width=\"2\"/><text x=\"198.8\" y=\"110.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#2e9b6f\">γ</text><circle cx=\"220.0\" cy=\"46.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"220.0\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"74.4\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"62.4\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><circle cx=\"365.6\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"377.6\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><circle cx=\"201.8\" cy=\"254.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"201.8\" y=\"276.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">D</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>En yttervinkel bildas mellan en sida och förlängningen av en angränsande sida. I triangeln ABD förlängs sidan BD förbi D till C. Vinkeln β mellan DA och DC är därför en yttervinkel till ABD.</p></div>",
+  "familj": "Hitta yttervinkeln i sammansatta figurer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken sida i triangeln ABD är förlängd?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "β",
+      "ratt": true,
+      "kommentar": "β ligger mellan sidan DA och förlängningen DC av BD."
+    },
+    {
+      "txt": "α",
+      "ratt": false,
+      "kommentar": "α ligger vid C, som inte är ett hörn i triangeln ABD."
+    },
+    {
+      "txt": "γ",
+      "ratt": false,
+      "kommentar": "γ är en inre vinkel i ABD."
+    }
+  ]
+},
+{
+  "id": "3.562",
+  "kap": 3,
+  "omr": "yttervinkelsatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "inre vinkel ur två yttervinklar",
+  "t": "<p>Bestäm vinkeln \\(x\\) vid A. (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Triangel ABC där sidan BC är förlängd åt båda hållen. Yttervinkeln vid B är 130 grader och yttervinkeln vid C är 115 grader. Vinkeln vid A är x.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"251.1,66.7 111.2,233.3 328.8,233.3\" fill=\"#f2f6fb\" stroke=\"none\"/><line x1=\"251.1\" y1=\"66.7\" x2=\"111.2\" y2=\"233.3\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"111.2\" y1=\"233.3\" x2=\"328.8\" y2=\"233.3\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"328.8\" y1=\"233.3\" x2=\"251.1\" y2=\"66.7\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"111.2\" y1=\"233.3\" x2=\"46.0\" y2=\"233.3\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"328.8\" y1=\"233.3\" x2=\"394.0\" y2=\"233.3\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><path d=\"M85.2 233.3 A26 26 0 0 1 128.0 213.4\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"90.1\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">130°</text><path d=\"M317.8 209.7 A26 26 0 0 1 354.8 233.3\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"355.6\" y=\"197.1\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">115°</text><path d=\"M262.0 90.3 A26 26 0 0 1 234.3 86.6\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2\"/><text x=\"244.8\" y=\"120.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c8372d\">x</text><circle cx=\"251.1\" cy=\"66.7\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"251.1\" y=\"56.7\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"111.2\" cy=\"233.3\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"115.2\" y=\"255.3\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><circle cx=\"328.8\" cy=\"233.3\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"324.8\" y=\"255.3\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>De inre vinklarna vid B och C är \\(180^\\circ-130^\\circ=50^\\circ\\) och \\(180^\\circ-115^\\circ=65^\\circ\\).</p><p>Vinkelsumman ger \\(x=180^\\circ-50^\\circ-65^\\circ=65^\\circ\\). Kontroll med yttervinkelsatsen: \\(130^\\circ=x+65^\\circ\\) ger också \\(x=65^\\circ\\).</p></div>",
+  "familj": "Beräkna vinklar med yttervinkelsatsen",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Bestäm först de inre vinklarna vid B och C.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 65,
+  "tolerans": 0,
+  "svarFormat": "grader"
 }
 ];

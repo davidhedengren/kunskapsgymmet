@@ -1986,6 +1986,16 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
 .passnav{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:4px 0 14px;font-size:13px;color:var(--ink2)}
 .passnav small{flex-basis:100%;font-size:12px;color:var(--ink3)}
 .passnav .btn:disabled{opacity:.45;cursor:default}
+/* Admin: bläddra mellan uppgifter utan att göra dem. */
+.adminblad{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:4px 0 14px;padding:8px 10px;border:1px dashed var(--hair2);border-radius:14px;background:var(--surface2);font-size:12.5px;color:var(--ink2)}
+.adminblad .ab-lbl{font-size:10.5px;font-weight:750;letter-spacing:.08em;text-transform:uppercase;color:var(--ink3)}
+.adminblad .ab-pos{font-variant-numeric:tabular-nums;white-space:nowrap}
+.adminblad .ab-id{font-family:var(--mono,monospace);font-weight:700;color:var(--ink)}
+.adminblad .btn:disabled{opacity:.45;cursor:default}
+.adminblad .ab-ga{display:flex;gap:4px;align-items:center;margin-left:auto}
+.adminblad .ab-ga input{width:92px;padding:5px 8px;border:1px solid var(--hair);border-radius:9px;background:var(--surface);color:var(--ink);font:inherit;font-size:12.5px}
+.adminblad small{flex-basis:100%;font-size:11.5px;color:var(--ink3)}
+@media(max-width:480px){.adminblad .ab-ga{margin-left:0}.adminblad small{display:none}}
 
 .ttop{
   position:sticky;top:0;z-index:30;
@@ -4022,6 +4032,8 @@ const PASS_LIVSTID=12*3600*1000;
 
 function sparaPagaendePass(){
   if(!state.currentTask || !state.course) return;
+  // En bläddrad adminuppgift får inte ersätta det pågående passet.
+  if(state.adminBlad) return;
   const h=state.passHistory||[],live=state.passLive?.status;
   const t=live?.currentTask || (state.passReview?h.at(-1)?.task:null) || state.currentTask;
   const status=live||state;
@@ -4095,7 +4107,7 @@ const state={
   course:null, track:null, data:null, view:"home",
   focusArea:null, focusFamily:null,
   currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0, lastArea:null,
-  passHistory:[],passIndex:-1,passReview:false,passLive:null,passCourse:null,
+  passHistory:[],passIndex:-1,passReview:false,passLive:null,passCourse:null,adminBlad:null,
   aktivRuta:0,
   focusOmr:null, focusNamn:null, focusNiva:null, senasteUrsprung:[],
   flervalKap:null, flervalValda:null, flervalTyp:null, flervalKort:null,
@@ -4523,6 +4535,7 @@ function navBackTo(view){
   return false;
 }
 function backToDashboard(){
+  state.adminBlad=null;
   if(navBackTo("dashboard")) return;
   navRecord("dashboard"); renderDashboard();
 }
@@ -9107,6 +9120,7 @@ function chooseTask(){
 }
 
 function beginSession(typ){
+  state.adminBlad=null;
   state.uppdragsDag=state.uppdragValForPass||null;state.uppdragValForPass=null;
   state.passHistory=[];state.passIndex=-1;state.passReview=false;state.passLive=null;
   state.passCourse=state.course;
@@ -9135,7 +9149,7 @@ function passSvarStatus(){
 }
 function passNavigationHtml(){
   const h=state.passHistory||[];
-  if(!h.length || state.passCourse!==state.course) return "";
+  if(state.adminBlad || !h.length || state.passCourse!==state.course) return "";
   const i=state.passIndex;
   return `<nav class="passnav" aria-label="Uppgifter i detta pass">
     <button class="btn sm" id="pass-back" onclick="passBakat()" ${i<=0?"disabled":""}>← Föregående</button>
@@ -9191,6 +9205,136 @@ function finishPassReview(delar){
   const kolla=document.getElementById("kollaknapp");
   if(kolla){kolla.textContent="Framåt →";kolla.onclick=passFramat;}
 }
+
+/* ===== Admin: bläddra mellan uppgifter =====
+   Kunskapsgymmet-admin kan stega genom uppgifterna i det valda urvalet
+   (område, delmoment och nivå) utan att svara. Bläddrade uppgifter
+   registreras aldrig: ingen XP, ingen historik, inga sedda uppgifter och
+   inget passframsteg. Den pågående passuppgiften sparas undan med sin DOM
+   och återställs oförändrad när admin går tillbaka till passet. */
+function adminBladSortering(a,b){
+  const delar=id=>String(id).split(/[.#]/).map(x=>{const m=x.match(/^(\d+)(.*)$/);return m?[Number(m[1]),m[2]]:[Infinity,x];});
+  const da=delar(a.id),db=delar(b.id);
+  for(let i=0;i<Math.max(da.length,db.length);i++){
+    const x=da[i]||[-1,""],y=db[i]||[-1,""];
+    if(x[0]!==y[0]) return x[0]-y[0];
+    if(x[1]!==y[1]) return x[1]<y[1]?-1:1;
+  }
+  return 0;
+}
+function adminBladLista(){
+  let pool=availableTasks();
+  if(state.focusOmr) pool=pool.filter(t=>state.focusOmr.includes(t.omr||"ovrigt"));
+  else if(state.focusArea) pool=pool.filter(t=>t.omr===state.focusArea);
+  if(state.focusFamily){
+    const vill=[].concat(state.focusFamily);
+    pool=pool.filter(t=>[].concat(t.familj).some(f=>vill.includes(f)));
+  }
+  if(state.focusNiva){
+    const vill=[].concat(state.focusNiva).map(String);
+    const pa=pool.filter(t=>vill.includes(levelOf(t)));
+    if(pa.length) pool=pa;
+  }
+  const omrOrdning=new Map(getAreas().map((a,i)=>[a.key,i]));
+  return pool.slice().sort((a,b)=>
+    (omrOrdning.get(a.omr||"ovrigt")??1e9)-(omrOrdning.get(b.omr||"ovrigt")??1e9) || adminBladSortering(a,b));
+}
+function adminBladHtml(){
+  if(!arAdmin || state.view!=="training") return "";
+  const b=state.adminBlad;
+  const lista=b?b.lista:adminBladLista();
+  const i=b?b.i:lista.findIndex(t=>t.id===state.currentTask?.id);
+  const t=state.currentTask;
+  return `<nav class="adminblad" aria-label="Admin: bläddra mellan uppgifter">
+    <span class="ab-lbl">Admin</span>
+    <button class="btn sm" id="ab-forra" onclick="adminBladGa(-1)" ${i===0?"disabled":""}>← Föregående</button>
+    <span class="ab-pos">${i>=0?`${i+1} / ${lista.length}`:`– / ${lista.length}`}</span>
+    <button class="btn sm" id="ab-nasta" onclick="adminBladGa(1)" ${i>=lista.length-1?"disabled":""}>Nästa →</button>
+    <span class="ab-id">${esc(t?.id||"")}</span>
+    <span class="ab-ga"><input id="ab-id" placeholder="Gå till ID" aria-label="Gå till uppgifts-ID"
+      onkeydown="if(event.key==='Enter'){event.preventDefault();adminBladGaTill(this.value)}">
+      <button class="btn sm" onclick="adminBladGaTill(document.getElementById('ab-id').value)">Gå</button></span>
+    ${b?`<button class="btn sm primary" onclick="adminBladAvsluta()">Tillbaka till passet</button>
+    <small>Bläddringsläge: svar, ledtrådar och lösningar registreras inte. Piltangenterna ← → bläddrar.</small>`
+      :`<small>Bläddra utan att svara. Inget registreras medan du bläddrar.</small>`}
+  </nav>`;
+}
+function adminBladVisa(t){
+  state.currentTask=t;
+  state.answered=false;state.solutionShown=false;state.noXp=true;
+  state.partResults=[];state.partIndex=0;state.aktivRuta=0;
+  state.hintUsed=false;state.hintVisible=false;state.ggForslag=null;
+  state.altValda=new Set();state.altMiss=null;state.altOrdning=null;state.altOrdningId=null;
+  tchatStang();stangKalla();
+  renderTraining();
+  window.scrollTo(0,0);
+}
+function adminBladStarta(){
+  if(state.adminBlad) return state.adminBlad;
+  const lista=adminBladLista();
+  state.adminBlad={
+    lista,
+    i:lista.findIndex(t=>t.id===state.currentTask?.id),
+    live:state.currentTask?{status:{...passSvarStatus(),passReview:state.passReview,passIndex:state.passIndex},nodes:[...app.childNodes]}:null
+  };
+  return state.adminBlad;
+}
+function adminBladGa(steg){
+  if(!arAdmin) return;
+  const b=adminBladStarta();
+  if(!b.lista.length){ toast("Urvalet innehåller inga uppgifter."); return; }
+  const i=Math.max(0,Math.min(b.lista.length-1,(b.i<0?(steg>0?-1:b.lista.length):b.i)+steg));
+  b.i=i;
+  adminBladVisa(b.lista[i]);
+}
+function adminBladGaTill(varde){
+  if(!arAdmin) return;
+  const id=String(varde||"").trim().replace(/^#/,"");
+  if(!id) return;
+  const alla=availableTasks().slice().sort(adminBladSortering);
+  const t=alla.find(x=>x.id===id) || alla.find(x=>x.ursprungsId===id);
+  if(!t){ toast(`Uppgift ${id} finns inte i den här kursen och kursvarianten.`); return; }
+  const b=adminBladStarta();
+  let i=b.lista.findIndex(x=>x.id===t.id);
+  if(i<0){ b.lista=alla; i=b.lista.findIndex(x=>x.id===t.id); }
+  b.i=i;
+  adminBladVisa(t);
+}
+function adminBladAvsluta(){
+  const b=state.adminBlad;
+  state.adminBlad=null;
+  if(b?.live){
+    Object.assign(state,b.live.status);
+    app.replaceChildren(...b.live.nodes);
+    state.view="training";
+    window.scrollTo(0,0);
+    return;
+  }
+  nextTask();
+}
+function finishAdminBlad(delar){
+  state.answered=true;state.noXp=true;
+  const ratt=delar.filter(Boolean).length;
+  const rubrik=ratt===delar.length?"Rätt!":ratt?`${ratt} av ${delar.length} rätt`:"Inte riktigt.";
+  const b=state.adminBlad,sist=!b || b.i>=b.lista.length-1;
+  const box=document.getElementById("answer-result");
+  if(box) box.innerHTML=`<div class="result ${ratt===delar.length?"good":"bad"}">
+    <div class="txt"><strong>${rubrik}</strong><small>Bläddringsläge: svaret registreras inte.</small></div>
+    <span class="xpchip" style="background:var(--surface3);color:var(--ink3)">0 XP</span>
+    </div><div class="aacts"><button class="btn" onclick="showSolution()">Visa lösning</button>
+    ${sist?"":`<button class="btn primary" onclick="adminBladGa(1)">Nästa →</button>`}</div>`;
+  const kolla=document.getElementById("kollaknapp");
+  if(kolla){ if(sist) kolla.remove(); else {kolla.textContent="Nästa →";kolla.onclick=()=>adminBladGa(1);} }
+}
+document.addEventListener("keydown",e=>{
+  if(!arAdmin || state.view!=="training" || e.altKey || e.ctrlKey || e.metaKey) return;
+  if(e.key!=="ArrowLeft" && e.key!=="ArrowRight") return;
+  const el=document.activeElement;
+  if(el && (/^(INPUT|TEXTAREA|SELECT)$/.test(el.tagName) || el.isContentEditable)) return;
+  if(document.querySelector(".modal.visa")) return;
+  e.preventDefault();
+  adminBladGa(e.key==="ArrowRight"?1:-1);
+});
 
 function startPass(typ){
   state.focusArea=null;state.focusNamn=null;state.focusFamily=null;
@@ -9401,6 +9545,7 @@ function startCardLevel(key,nivaer){
 }
 function continueSession(){ const niva=state.focusNiva;state.uppdragValForPass=state.uppdragsDag||null; beginSession(state.prov?"prov":undefined); state.focusNiva=niva; navRecord("training",true); nextTask(); }
 function nextTask(){
+  if(state.adminBlad) return adminBladAvsluta();
   if(state.passReview) return passFramat();
   tchatStang();
   const t=chooseTask();
@@ -12825,7 +12970,7 @@ function renderTraining(){
         <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
       </div>
-      ${passNavigationHtml()}
+      ${passNavigationHtml()}${adminBladHtml()}
       <article class="task">
         <div class="tmeta">${meta}${felFlaggaHtml(t)}</div>
         <div class="tbody">${t.t||""}</div>
@@ -12856,7 +13001,8 @@ function renderTraining(){
       </article>
     </div>`;
   afterRender();
-  setTimeout(()=>document.getElementById("ans-0")?.focus(),60);
+  // I adminens bläddringsläge ska piltangenterna bläddra, inte flytta markören.
+  if(!state.adminBlad) setTimeout(()=>document.getElementById("ans-0")?.focus(),60);
   if(state.solutionShown) showSolution();
 }
 
@@ -13065,7 +13211,7 @@ function renderAltTask(t){
         <div class="dots" title="${state.sessionDone} av ${state.sessionTarget}">${dots}</div>
         <button class="iconbtn" onclick="toggleTheme()" title="Byt färgläge">${themeIcon()}</button>
       </div>
-      ${passNavigationHtml()}
+      ${passNavigationHtml()}${adminBladHtml()}
       <article class="task">
         <div class="tmeta">${levelChip(t)}${felFlaggaHtml(t)}</div>
         <div class="tbody">${t.t||""}${kallRad(t)}</div>
@@ -13526,6 +13672,8 @@ function finishAttempt(resultat){
   if(state.answered) return;
   const t=state.currentTask;
   const delar=Array.isArray(resultat)?resultat.map(Boolean):[!!resultat];
+  // Admins bläddringsläge registrerar aldrig något.
+  if(state.adminBlad) return finishAdminBlad(delar);
   if(state.passReview || state.passHistory?.[state.passIndex]?.completed){
     state.passReview=true;
     return finishPassReview(delar);

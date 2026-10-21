@@ -4037,7 +4037,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-21-ma1-parenteser-2";
+const BANK_VERSION="2026-10-21-rapporter-1300";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -13156,13 +13156,14 @@ function renderTraining(){
     const bred=String(etikett).replace(/<[^>]*>/g,"").trim().length>4;
     return `
     <div class="apart${laasta(i)?" upcoming":""}${bedomsSjalv(i)?" egen":""}${bred?" bred":""}${etikett?"":" utan-etikett"}" id="part-${i}">
+      ${rutEnhet(i)?`<div class="svarsenhet" id="svarsenhet-${i}" style="margin:0 0 6px;font-size:.9rem">Svara i ${esc(rutEnhet(i))}</div>`:""}
       <div class="aline">
         ${etikett?`<label for="ans-${i}">${etikett}</label>`:""}
         ${isLongAnswer
-          ? `<textarea id="ans-${i}" name="kgsvar${i}" autocomplete="off" autocorrect="off"
+          ? `<textarea id="ans-${i}" name="kgsvar${i}"${rutEnhet(i)?` aria-describedby="svarsenhet-${i}"`:""} autocomplete="off" autocorrect="off"
               autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore
               data-form-type="other"${etikett?"":` aria-label="Ditt svar"`} placeholder="Skriv ditt svar här"${laasta(i)?" disabled":""} onfocus="state.aktivRuta=${i}"></textarea>`
-          : `<input id="ans-${i}" name="kgsvar${i}" autocomplete="off" autocorrect="off"
+          : `<input id="ans-${i}" name="kgsvar${i}"${rutEnhet(i)?` aria-describedby="svarsenhet-${i}"`:""} autocomplete="off" autocorrect="off"
               autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore
               data-form-type="other" type="text"${etikett?"":` aria-label="Ditt svar"`}
               inputmode="${sifferlage(expectedInfo.answers[i],rutEnhet(i),plan?.delar[plan.rutor[i].del].format[plan.rutor[i].plats],t)?"decimal":"text"}"

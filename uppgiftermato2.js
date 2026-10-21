@@ -21840,7 +21840,7 @@ window.BANKMATO2 = [
     "poang": "3/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>En minutvisare är 6,0 cm lång och rör sig från klockan 12 till klockan 4.</p><p>a) Hur stor vinkel har visaren vridits i radianer?<br>b) Hur lång sträcka har visaren spets rört sig?<br>c) Hur stor area sveper visaren över?</p>",
+    "t": "<p>En minutvisare är 6,0 cm lång och rör sig från klockan 12 till klockan 4.</p><p>a) Hur stor vinkel har visaren vridits i radianer?<br>b) Hur lång sträcka har visarens spets rört sig?<br>c) Hur stor area sveper visaren över?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln är \\(2\\pi/3\\) rad.</p></li><li><p>Båglängden blir \\(4\\pi\\) cm och sektorarean \\(12\\pi\\) cm².</p></li></ol></div>",
     "familj": "Båglängd, sektorarea och radianer",
     "formaga": [
@@ -21887,7 +21887,7 @@ window.BANKMATO2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "<p>Hur stor vinkel har visaren vridits?</p>",
+        "fraga": "<p>Hur stor vinkel har visaren vridits? (Svara i radianer.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från 12 till 4 är \\(4/12=1/3\\) varv, alltså \\(\\boxed{2\\pi/3}\\) rad.</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",

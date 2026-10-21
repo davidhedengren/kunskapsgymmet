@@ -97291,5 +97291,361 @@ window.BANKMATO2 = [
   "rättSvar": 30,
   "tolerans": 0,
   "svarFormat": "grader"
+},
+{
+  "id": "4.554",
+  "kap": 5,
+  "omr": "andragradsekv_komplexa",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "rent imaginära rötter",
+  "t": "<p>Lös ekvationen \\(x^2+9=0\\). (Ange båda lösningarna. Skriv i för den imaginära enheten.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(x^2=-9\\) ger \\(x=\\pm\\sqrt{-9}=\\pm3i\\).</p></div>",
+  "familj": "Andragradsekvationer med komplexa lösningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad är √(−9)?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "3*i",
+    "-3*i"
+  ],
+  "tolerans": null,
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x",
+    "x"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ]
+},
+{
+  "id": "4.555",
+  "kap": 5,
+  "omr": "andragradsekv_komplexa",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "pq-formeln med komplexa rötter",
+  "t": "<p>Lös ekvationen \\(x^2-2x+10=0\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(x=1\\pm\\sqrt{1-10}=1\\pm\\sqrt{-9}=1\\pm3i\\).</p></div>",
+  "familj": "Andragradsekvationer med komplexa lösningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd pq-formeln. Uttrycket under rottecknet blir negativt.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "1+3*i",
+    "1-3*i"
+  ],
+  "tolerans": null,
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x",
+    "x"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ]
+},
+{
+  "id": "4.556",
+  "kap": 5,
+  "omr": "andragradsekv_komplexa",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "pq-formeln med komplexa rötter",
+  "t": "<p>Lös ekvationen \\(x^2+6x+25=0\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(x=-3\\pm\\sqrt{9-25}=-3\\pm\\sqrt{-16}=-3\\pm4i\\).</p></div>",
+  "familj": "Andragradsekvationer med komplexa lösningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd pq-formeln. √(−16) = 4i.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "-3+4*i",
+    "-3-4*i"
+  ],
+  "tolerans": null,
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x",
+    "x"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ]
+},
+{
+  "id": "4.557",
+  "kap": 5,
+  "omr": "andragradsekv_komplexa",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "diskriminanten avgör rötternas typ",
+  "t": "<p>Vilket påstående stämmer om lösningarna till \\(x^2+4x+7=0\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\left(\\tfrac{p}{2}\\right)^2-q=4-7=-3\\lt0\\). Ekvationen har därför två icke-reella lösningar, \\(-2\\pm i\\sqrt3\\), som är konjugat till varandra.</p></div>",
+  "familj": "Andragradsekvationer med komplexa lösningar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Räkna ut uttrycket under rottecknet i pq-formeln. Är det positivt, noll eller negativt?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Två icke-reella lösningar som är konjugat till varandra",
+      "ratt": true,
+      "kommentar": "Uttrycket under roten är −3."
+    },
+    {
+      "txt": "Två olika reella lösningar",
+      "ratt": false,
+      "kommentar": "Det kräver ett positivt uttryck under roten."
+    },
+    {
+      "txt": "En dubbelrot",
+      "ratt": false,
+      "kommentar": "Det kräver att uttrycket under roten är 0."
+    },
+    {
+      "txt": "Inga lösningar alls",
+      "ratt": false,
+      "kommentar": "Bland de komplexa talen har ekvationen alltid lösningar."
+    }
+  ]
+},
+{
+  "id": "4.558",
+  "kap": 5,
+  "omr": "andragradsekv_komplexa",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "ekvation ur rötterna i talplanet",
+  "t": "<p>Figuren visar lösningarna till \\(x^2+px+q=0\\) i det komplexa talplanet. Bestäm \\(p\\) och \\(q\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 340\" role=\"img\" aria-label=\"Komplexa talplanet med två markerade punkter: 2 + 3i och 2 − 3i.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"77.0\" y1=\"22\" x2=\"77.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"106.0\" y1=\"22\" x2=\"106.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"135.0\" y1=\"22\" x2=\"135.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"164.0\" y1=\"22\" x2=\"164.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"193.0\" y1=\"22\" x2=\"193.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"222.0\" y1=\"22\" x2=\"222.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"251.0\" y1=\"22\" x2=\"251.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"280.0\" y1=\"22\" x2=\"280.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"309.0\" y1=\"22\" x2=\"309.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"338.0\" y1=\"22\" x2=\"338.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"298.0\" x2=\"338\" y2=\"298.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"270.4\" x2=\"338\" y2=\"270.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"242.8\" x2=\"338\" y2=\"242.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"215.2\" x2=\"338\" y2=\"215.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"187.6\" x2=\"338\" y2=\"187.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"160.0\" x2=\"338\" y2=\"160.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"132.4\" x2=\"338\" y2=\"132.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"104.8\" x2=\"338\" y2=\"104.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"77.2\" x2=\"338\" y2=\"77.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"49.6\" x2=\"338\" y2=\"49.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"338\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"160.0\" x2=\"348\" y2=\"160.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"352,160.0 342,155.0 342,165.0\" fill=\"#172b3a\"/><line x1=\"193.0\" y1=\"298\" x2=\"193.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"193.0,8 188.0,18 198.0,18\" fill=\"#172b3a\"/><text x=\"350\" y=\"151.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"201.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−5</text><text x=\"77.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−4</text><text x=\"106.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"135.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"164.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"222.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"251.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"280.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"309.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"338.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"187.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−5</text><text x=\"187.0\" y=\"274.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"187.0\" y=\"246.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"187.0\" y=\"219.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"187.0\" y=\"191.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"187.0\" y=\"136.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"187.0\" y=\"108.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"187.0\" y=\"81.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"187.0\" y=\"53.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"187.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"187.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kcb61d1f5\"><rect x=\"48\" y=\"22\" width=\"290\" height=\"276\"/></clipPath><circle cx=\"251.0\" cy=\"77.2\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"251.0\" cy=\"242.8\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Rötterna är \\(2\\pm3i\\). Summan är 4 och produkten \\((2+3i)(2-3i)=4+9=13\\).</p><p>Eftersom \\(x^2+px+q=(x-z_1)(x-z_2)\\) är \\(p=-(z_1+z_2)=-4\\) och \\(q=z_1z_2=13\\).</p></div>",
+  "familj": "Rötter i det komplexa talplanet",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Läs av rötterna. Använd att p = −(summan) och q = produkten.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -4,
+    13
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "p",
+    "q"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.559",
+  "kap": 5,
+  "omr": "andragradsekv_komplexa",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "konjugatrot",
+  "t": "<p>Ekvationen \\(x^2+px+q=0\\) har reella koefficienter. En av lösningarna är \\(1+2i\\). Vilken är den andra lösningen?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 340\" role=\"img\" aria-label=\"Komplexa talplanet med punkten 1 + 2i markerad.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"84.2\" y1=\"22\" x2=\"84.2\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"120.5\" y1=\"22\" x2=\"120.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"156.8\" y1=\"22\" x2=\"156.8\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"193.0\" y1=\"22\" x2=\"193.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"22\" x2=\"229.2\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"265.5\" y1=\"22\" x2=\"265.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"301.8\" y1=\"22\" x2=\"301.8\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"338.0\" y1=\"22\" x2=\"338.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"298.0\" x2=\"338\" y2=\"298.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"263.5\" x2=\"338\" y2=\"263.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"229.0\" x2=\"338\" y2=\"229.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"194.5\" x2=\"338\" y2=\"194.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"160.0\" x2=\"338\" y2=\"160.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"125.5\" x2=\"338\" y2=\"125.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"91.0\" x2=\"338\" y2=\"91.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"56.5\" x2=\"338\" y2=\"56.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"338\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"160.0\" x2=\"348\" y2=\"160.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"352,160.0 342,155.0 342,165.0\" fill=\"#172b3a\"/><line x1=\"193.0\" y1=\"298\" x2=\"193.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"193.0,8 188.0,18 198.0,18\" fill=\"#172b3a\"/><text x=\"350\" y=\"151.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"201.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−4</text><text x=\"84.2\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"120.5\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"156.8\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"229.2\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"265.5\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"301.8\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"338.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"187.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"187.0\" y=\"267.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"187.0\" y=\"233.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"187.0\" y=\"198.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"187.0\" y=\"129.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"187.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"187.0\" y=\"60.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"187.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"187.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kbae7d17e\"><rect x=\"48\" y=\"22\" width=\"290\" height=\"276\"/></clipPath><circle cx=\"229.2\" cy=\"91.0\" r=\"5\" fill=\"#172b3a\"/><text x=\"237.2\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">1 + 2i</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>När koefficienterna är reella kommer icke-reella lösningar i konjugerade par. Den andra lösningen är \\(1-2i\\), spegelbilden i realaxeln.</p></div>",
+  "familj": "Rötter i det komplexa talplanet",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vad händer med en lösning om man speglar den i realaxeln?</p>",
+  "svarstyp": "uttryck",
+  "rättSvar": "1-2*i",
+  "tolerans": null,
+  "svarFormat": "uttryck"
+},
+{
+  "id": "4.560",
+  "kap": 5,
+  "omr": "andragradsekv_komplexa",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "välja ekvation till rötter i talplanet",
+  "t": "<p>Figuren visar lösningarna till en andragradsekvation. Vilken ekvation är det? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 340\" role=\"img\" aria-label=\"Komplexa talplanet med punkterna −1 + 2i och −1 − 2i.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"84.2\" y1=\"22\" x2=\"84.2\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"120.5\" y1=\"22\" x2=\"120.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"156.8\" y1=\"22\" x2=\"156.8\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"193.0\" y1=\"22\" x2=\"193.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"22\" x2=\"229.2\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"265.5\" y1=\"22\" x2=\"265.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"301.8\" y1=\"22\" x2=\"301.8\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"338.0\" y1=\"22\" x2=\"338.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"298.0\" x2=\"338\" y2=\"298.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"263.5\" x2=\"338\" y2=\"263.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"229.0\" x2=\"338\" y2=\"229.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"194.5\" x2=\"338\" y2=\"194.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"160.0\" x2=\"338\" y2=\"160.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"125.5\" x2=\"338\" y2=\"125.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"91.0\" x2=\"338\" y2=\"91.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"56.5\" x2=\"338\" y2=\"56.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"338\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"160.0\" x2=\"348\" y2=\"160.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"352,160.0 342,155.0 342,165.0\" fill=\"#172b3a\"/><line x1=\"193.0\" y1=\"298\" x2=\"193.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"193.0,8 188.0,18 198.0,18\" fill=\"#172b3a\"/><text x=\"350\" y=\"151.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"201.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−4</text><text x=\"84.2\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"120.5\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"156.8\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"229.2\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"265.5\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"301.8\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"338.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"187.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"187.0\" y=\"267.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"187.0\" y=\"233.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"187.0\" y=\"198.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"187.0\" y=\"129.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"187.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"187.0\" y=\"60.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"187.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"187.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k7fd4fa42\"><rect x=\"48\" y=\"22\" width=\"290\" height=\"276\"/></clipPath><circle cx=\"156.8\" cy=\"91.0\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"156.8\" cy=\"229.0\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Rötterna är \\(-1\\pm2i\\). Summan är −2 och produkten \\(1+4=5\\), så ekvationen är \\(x^2+2x+5=0\\).</p><p>Kontroll: \\(x=-1\\pm\\sqrt{1-5}=-1\\pm2i\\).</p></div>",
+  "familj": "Rötter i det komplexa talplanet",
+  "formaga": [
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Summan av rötterna är −p och produkten är q.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "x² + 2x + 5 = 0",
+      "ratt": true,
+      "kommentar": "Summan −2 och produkten 5 stämmer."
+    },
+    {
+      "txt": "x² − 2x + 5 = 0",
+      "ratt": false,
+      "kommentar": "Den har rötterna 1 ± 2i."
+    },
+    {
+      "txt": "x² + 2x − 3 = 0",
+      "ratt": false,
+      "kommentar": "Den har de reella rötterna 1 och −3."
+    },
+    {
+      "txt": "x² + 5 = 0",
+      "ratt": false,
+      "kommentar": "Den har rötterna ±i√5 på imaginära axeln."
+    }
+  ]
+},
+{
+  "id": "4.561",
+  "kap": 5,
+  "omr": "andragradsekv_komplexa",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "parameter för icke-reella lösningar",
+  "t": "<p>Ekvationen \\(x^2+4x+k=0\\) ska ha två icke-reella lösningar. Vilket är det minsta heltal \\(k\\) som fungerar?</p>",
+  "s": "<div class=\"facit-v2\"><p>Uttrycket under roten i pq-formeln är \\(4-k\\). Lösningarna är icke-reella när \\(4-k\\lt0\\), alltså \\(k\\gt4\\). Det minsta heltalet är 5.</p></div>",
+  "familj": "Andragradsekvationer med komplexa lösningar",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>När blir uttrycket under rottecknet negativt?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.562",
+  "kap": 5,
+  "omr": "andragradsekv_komplexa",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "absolutbeloppet av en komplex rot",
+  "t": "<p>Lös \\(z^2-4z+13=0\\). Båda lösningarna har samma absolutbelopp \\(|z|\\). Bestäm \\(|z|\\). (Svara med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 340\" role=\"img\" aria-label=\"Komplexa talplanet med två markerade punkter symmetriskt kring realaxeln.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"77.0\" y1=\"22\" x2=\"77.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"106.0\" y1=\"22\" x2=\"106.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"135.0\" y1=\"22\" x2=\"135.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"164.0\" y1=\"22\" x2=\"164.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"193.0\" y1=\"22\" x2=\"193.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"222.0\" y1=\"22\" x2=\"222.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"251.0\" y1=\"22\" x2=\"251.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"280.0\" y1=\"22\" x2=\"280.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"309.0\" y1=\"22\" x2=\"309.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"338.0\" y1=\"22\" x2=\"338.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"298.0\" x2=\"338\" y2=\"298.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"270.4\" x2=\"338\" y2=\"270.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"242.8\" x2=\"338\" y2=\"242.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"215.2\" x2=\"338\" y2=\"215.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"187.6\" x2=\"338\" y2=\"187.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"160.0\" x2=\"338\" y2=\"160.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"132.4\" x2=\"338\" y2=\"132.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"104.8\" x2=\"338\" y2=\"104.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"77.2\" x2=\"338\" y2=\"77.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"49.6\" x2=\"338\" y2=\"49.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"338\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"160.0\" x2=\"348\" y2=\"160.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"352,160.0 342,155.0 342,165.0\" fill=\"#172b3a\"/><line x1=\"193.0\" y1=\"298\" x2=\"193.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"193.0,8 188.0,18 198.0,18\" fill=\"#172b3a\"/><text x=\"350\" y=\"151.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"201.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−5</text><text x=\"77.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−4</text><text x=\"106.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"135.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"164.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"222.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"251.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"280.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"309.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"338.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"187.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−5</text><text x=\"187.0\" y=\"274.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"187.0\" y=\"246.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"187.0\" y=\"219.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"187.0\" y=\"191.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"187.0\" y=\"136.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"187.0\" y=\"108.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"187.0\" y=\"81.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"187.0\" y=\"53.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"187.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"187.0\" y=\"177.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k26b80a4a\"><rect x=\"48\" y=\"22\" width=\"290\" height=\"276\"/></clipPath><circle cx=\"251.0\" cy=\"77.2\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"251.0\" cy=\"242.8\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(z=2\\pm\\sqrt{4-13}=2\\pm3i\\). Absolutbeloppet är avståndet till origo: \\(|z|=\\sqrt{2^2+3^2}=\\sqrt{13}\\approx3{,}61\\).</p></div>",
+  "familj": "Rötter i det komplexa talplanet",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Lös ekvationen och använd |a + bi| = √(a² + b²).</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 3.61,
+  "tolerans": 0.005,
+  "svarFormat": "numeriskt"
 }
 ];

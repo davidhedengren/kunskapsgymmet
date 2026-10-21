@@ -198142,5 +198142,225 @@ window.BANK = [
       "kommentar": "Termisk jämvikt innebär samma temperatur, inte samma inre energi."
     }
   ]
+},
+{
+  "id": "4.758",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "massa från ett tyngdkraftsdiagram",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet visar sambandet mellan massa och tyngdkraft på en modellplanet. Ett föremål har tyngdkraften 24 N. Vilken massa har föremålet? (Svara i kg.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"På modellplaneten är sambandet en rak linje genom origo och punkten 10 kg, 40 N. Axlarna har steg om 2 kg och 8 N.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><text x=\"65\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#243447\">Tyngdkraft (N)</text><text x=\"415\" y=\"286\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">Massa (kg)</text><path d=\"M65.0 50L65.0 240\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"65.0\" y=\"264\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M135.0 50L135.0 240\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"135.0\" y=\"264\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M205.0 50L205.0 240\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"205.0\" y=\"264\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M275.0 50L275.0 240\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"275.0\" y=\"264\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">6</text><path d=\"M345.0 50L345.0 240\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"345.0\" y=\"264\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">8</text><path d=\"M415.0 50L415.0 240\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"415.0\" y=\"264\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">10</text><path d=\"M65 240.0L415 240.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M65 202.0L415 202.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">8</text><path d=\"M65 164.0L415 164.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"169.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">16</text><path d=\"M65 126.0L415 126.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"131.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">24</text><path d=\"M65 88.0L415 88.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"93.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">32</text><path d=\"M65 50.0L415 50.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">40</text><path d=\"M65 50L65 240\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 240L415 240\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 240L415 50\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"4\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Gå från 24 N på den lodräta axeln till linjen och läs sedan av massan på den vågräta axeln.</p><p><strong>Svar: 6 kg.</strong></p></div>",
+  "familj": "Massa och tyngd",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken punkt på linjen ligger på höjden 24 N?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "kg"
+},
+{
+  "id": "4.759",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "kraftbild för en fritt fallande boll",
+  "poang": "(1/0/0)",
+  "t": "<p>En boll har släppts och faller. Bortse från luftmotståndet. Vilken bild visar krafterna på bollen under fallet? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 355\" role=\"img\" aria-label=\"Fyra kraftbilder: A har en pil uppåt, B har ingen kraftpil, C har en pil nedåt, D har en pil uppåt och en pil nedåt.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"355\" fill=\"white\"/><text x=\"125\" y=\"40\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">A</text><circle cx=\"125\" cy=\"105\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M125 105L125 57\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M129.16 64.98L125 57L120.84 64.98\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"355\" y=\"40\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">B</text><circle cx=\"355\" cy=\"105\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"355\" y=\"152\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Ingen kraft</text><text x=\"125\" y=\"210\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">C</text><circle cx=\"125\" cy=\"275\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M125 275L125 323\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M120.84 315.02L125 323L129.16 315.02\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"355\" y=\"210\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">D</text><circle cx=\"355\" cy=\"275\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M355 275L355 227\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M359.16 234.98L355 227L350.84 234.98\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M355 275L355 323\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M350.84 315.02L355 323L359.16 315.02\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Bild C.</strong> När bollen har släppts verkar tyngdkraften nedåt. Handen påverkar inte längre bollen och luftmotståndet ska försummas.</p><p>Att bollen faller betyder alltså inte att den är utan krafter.</p></div>",
+  "familj": "Massa och tyngd",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka föremål påverkar bollen efter att handen har släppt den?</p>",
+  "alternativ": [
+    {
+      "txt": "Bild D",
+      "ratt": false,
+      "kommentar": "Det finns ingen uppåtriktad kontaktkraft från handen när bollen är släppt och luftmotståndet försummas."
+    },
+    {
+      "txt": "Bild C",
+      "ratt": true,
+      "kommentar": "Tyngdkraften är den enda kraften och verkar nedåt."
+    },
+    {
+      "txt": "Bild A",
+      "ratt": false,
+      "kommentar": "Tyngdkraften är riktad nedåt, inte uppåt."
+    },
+    {
+      "txt": "Bild B",
+      "ratt": false,
+      "kommentar": "Även en fritt fallande boll påverkas av tyngdkraften."
+    }
+  ]
+},
+{
+  "id": "4.760",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "jämföra två kraftmätare på samma planet",
+  "poang": "(1/0/0)",
+  "t": "<p>Två föremål hänger stilla i varsin kraftmätare på samma modellplanet. Vad ska kraftmätaren vid B visa? (Svara i N.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 265\" role=\"img\" aria-label=\"Föremål A har massan 2,0 kg och kraftmätaren visar 15 N. Föremål B har massan 4,0 kg och dess kraftmätare har en tom avläsning.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"265\" fill=\"white\"/><path d=\"M35 35L445 35\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M125 35L125 60\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"83\" y=\"60\" width=\"84\" height=\"80\" rx=\"10\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"125\" y=\"92\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"125\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">15 N</text><path d=\"M125 140L125 175\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\"/><rect x=\"80\" y=\"175\" width=\"90\" height=\"60\" rx=\"4\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"125\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">2,0 kg</text><path d=\"M355 35L355 60\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"313\" y=\"60\" width=\"84\" height=\"80\" rx=\"10\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"355\" y=\"92\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">B</text><text x=\"355\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">? N</text><path d=\"M355 140L355 175\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\"/><rect x=\"310\" y=\"175\" width=\"90\" height=\"60\" rx=\"4\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"355\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">4,0 kg</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>B har dubbelt så stor massa som A. På samma planet är tyngdkraften proportionell mot massan, så kraftmätaren ska visa dubbelt så mycket.</p>\\[F_B=15\\cdot\\frac{4{,}0}{2{,}0}=30\\,\\mathrm N\\]<p><strong>Svar: 30 N.</strong></p></div>",
+  "familj": "Massa och tyngd",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 30,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många gånger så stor är massan vid B som vid A?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "N"
+},
+{
+  "id": "4.761",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "jämföra tyngdkraft på två planeter ur ett diagram",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet jämför två modellplaneter. Hur många gånger så stor tyngdkraft får ett och samma föremål på B som på A? (Svara med ett tal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Tyngdkraft som funktion av massa. På A ger 4 kg tyngdkraften 8 N. På B ger 4 kg tyngdkraften 20 N. A är heldragen och B streckad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><text x=\"65\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#243447\">Tyngdkraft (N)</text><text x=\"390\" y=\"286\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">Massa (kg)</text><path d=\"M65.0 50L65.0 240\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"65.0\" y=\"264\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M146.25 50L146.25 240\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"146.25\" y=\"264\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M227.5 50L227.5 240\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"227.5\" y=\"264\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M308.75 50L308.75 240\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"308.75\" y=\"264\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M390.0 50L390.0 240\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"390.0\" y=\"264\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M65 240.0L390 240.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M65 202.0L390 202.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M65 164.0L390 164.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"169.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">8</text><path d=\"M65 126.0L390 126.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"131.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">12</text><path d=\"M65 88.0L390 88.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"93.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">16</text><path d=\"M65 50.0L390 50.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">20</text><path d=\"M65 50L65 240\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 240L390 240\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 240L390 164\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"4\"/><text x=\"423\" y=\"170\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">A</text><path d=\"M65 240L390 50\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"4\" stroke-dasharray=\"8 4\"/><text x=\"423\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">B</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Jämför samma massa på båda planeterna. Vid 4 kg visar diagrammet 8 N på A och 20 N på B.</p>\\[\\frac{F_B}{F_A}=\\frac{20}{8}=2{,}5\\]<p><strong>Svar: 2,5 gånger så stor tyngdkraft.</strong> Samma förhållande gäller för alla massor i diagrammet.</p></div>",
+  "familj": "Massa och tyngd",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 2.5,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Välj en massa och läs av tyngdkraften på båda planeterna.</p>",
+  "svarFormat": "multipel",
+  "svarEnhet": null
+},
+{
+  "id": "4.762",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "större tyngdkraft men också större massa",
+  "poang": "(1/0/0)",
+  "t": "<p>Två bollar släpps från samma höjd. Pilarna visar tyngdkrafterna. Vilket påstående om bollarnas acceleration stämmer? Bortse från luftmotståndet. (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 305\" role=\"img\" aria-label=\"Boll A har massan 2,0 kg och boll B har massan 6,0 kg. Båda är på samma höjd. Tyngdkraftspilen på B är tre gånger så lång som den på A.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"305\" fill=\"white\"/><text x=\"125\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">A: 2,0 kg</text><text x=\"355\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">B: 6,0 kg</text><path d=\"M45 95L435 95\" fill=\"none\" stroke=\"#9aabbb\" stroke-width=\"1\"/><circle cx=\"125\" cy=\"95\" r=\"20\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"355\" cy=\"95\" r=\"20\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M125 95L125 140\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M120.84 132.02L125 140L129.16 132.02\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M355 95L355 230\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M350.84 222.02L355 230L359.16 222.02\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"240\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Pilarna visar tyngdkrafterna.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Bollarna får lika stor acceleration.</strong> B har tre gånger så stor massa men påverkas också av tre gånger så stor tyngdkraft. Kraften per kilogram är alltså samma.</p>\\[a=\\frac{F_g}{m}=\\frac{mg}{m}=g\\]<p>Därför beror fallaccelerationen inte på bollens massa i denna modell.</p></div>",
+  "familj": "Massa och tyngd",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför både krafterna och massorna. Vilket samband ger accelerationen?</p>",
+  "alternativ": [
+    {
+      "txt": "B får tre gånger så stor acceleration eftersom tyngdkraften är större.",
+      "ratt": false,
+      "kommentar": "Tyngdkraften är tre gånger större, men även massan är tre gånger större. Kraft per kilogram blir samma."
+    },
+    {
+      "txt": "Ingen av bollarna accelererar eftersom de faller fritt.",
+      "ratt": false,
+      "kommentar": "Tyngdkraften ger bollarna acceleration även när inget håller i dem."
+    },
+    {
+      "txt": "De får lika stor acceleration.",
+      "ratt": true,
+      "kommentar": "Kraften och massan ökar i samma proportion, så F/m blir lika."
+    },
+    {
+      "txt": "A får tre gånger så stor acceleration eftersom massan är mindre.",
+      "ratt": false,
+      "kommentar": "Även tyngdkraften på A är mindre. Förhållandet mellan kraft och massa är detsamma."
+    }
+  ]
+},
+{
+  "id": "4.763",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "tyngdkraften beror inte på rörelseriktningen",
+  "poang": "(1/0/0)",
+  "t": "<p>Tre bollar med samma massa är på samma höjd. Pilarna visar deras hastigheter just då; B vänder och har hastigheten noll. Vilken boll påverkas av störst tyngdkraft? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 275\" role=\"img\" aria-label=\"Tre bollar med samma massa på samma höjd. A rör sig uppåt, B har hastigheten noll i vändögonblicket och C rör sig nedåt. Pilarna visar hastigheternas riktningar.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"275\" fill=\"white\"/><path d=\"M30 130H450\" fill=\"none\" stroke=\"#9aabbb\" stroke-width=\"1.5\" stroke-dasharray=\"5 5\"/><text x=\"80\" y=\"31\" font-family=\"Arial,sans-serif\" font-size=\"25\" text-anchor=\"middle\" fill=\"#243447\">A</text><circle cx=\"80\" cy=\"130\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"31\" font-family=\"Arial,sans-serif\" font-size=\"25\" text-anchor=\"middle\" fill=\"#243447\">B</text><circle cx=\"240\" cy=\"130\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"400\" y=\"31\" font-family=\"Arial,sans-serif\" font-size=\"25\" text-anchor=\"middle\" fill=\"#243447\">C</text><circle cx=\"400\" cy=\"130\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M80 130L80 65\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"3\"/><path d=\"M84.16 72.98L80 65L75.84 72.98\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"3\"/><path d=\"M400 130L400 195\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"3\"/><path d=\"M395.84 187.02L400 195L404.16 187.02\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"3\"/><text x=\"240\" y=\"178\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">v = 0</text><text x=\"240\" y=\"247\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Bollarna har samma massa.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Tyngdkraften är lika stor på alla tre bollarna.</strong> Den beror på massan och tyngdaccelerationen på platsen, inte på om bollen rör sig uppåt, nedåt eller tillfälligt har hastigheten noll.</p><p>Även B påverkas alltså av tyngdkraften när den vänder.</p></div>",
+  "familj": "Massa och tyngd",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka storheter avgör tyngdkraften? Ändras de när en boll byter rörelseriktning?</p>",
+  "alternativ": [
+    {
+      "txt": "Alla tre påverkas av lika stor tyngdkraft.",
+      "ratt": true,
+      "kommentar": "Massorna och tyngdaccelerationen är lika. Hastigheterna ändrar inte tyngdkraften."
+    },
+    {
+      "txt": "A, eftersom den rör sig mot tyngdkraften.",
+      "ratt": false,
+      "kommentar": "Rörelseriktningen ändrar inte tyngdkraftens storlek."
+    },
+    {
+      "txt": "C, eftersom den rör sig i tyngdkraftens riktning.",
+      "ratt": false,
+      "kommentar": "Tyngdkraften blir inte större för att hastigheten är riktad nedåt."
+    },
+    {
+      "txt": "B, eftersom den står stilla just då.",
+      "ratt": false,
+      "kommentar": "Hastigheten noll betyder inte större tyngdkraft. Alla tre har samma massa och befinner sig på samma höjd."
+    }
+  ]
 }
 ];

@@ -144504,5 +144504,745 @@ window.BANKMA1 = [
     "variant": 2
   },
   "svarEnhet": "min"
+},
+{
+  "id": "1.1136",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(4(x+5)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4(x+5)=4\\cdot x+4\\cdot5\\]</div></li><li><div class=\"facit-matte\">\\[=4x+20\\]</div></li></ol><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"170\" viewBox=\"0 0 380 170\" role=\"img\" aria-label=\"En rektangel med höjden 4 delad i två delar med bredderna x och 5. Delarnas areor är 4x och 20.\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"40\" width=\"190\" height=\"100\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><rect x=\"250\" y=\"40\" width=\"100\" height=\"100\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"155\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">x</text><text x=\"300\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"45\" y=\"96\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"155\" y=\"97\" font-family=\"Arial,sans-serif\" font-size=\"19\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#216d87\">4x</text><text x=\"300\" y=\"97\" font-family=\"Arial,sans-serif\" font-size=\"19\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#c2410c\">20</text><text x=\"205\" y=\"162\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">Hela arean: 4(x + 5) = 4x + 20</text></svg></div></div>",
+  "ledtrad": "<p>Fyran ska multipliceras med båda termerna i parentesen. Vad blir \\(4\\cdot x\\) och \\(4\\cdot5\\)?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "4x+20",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1137",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(6(a-2)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6(a-2)=6\\cdot a-6\\cdot2\\]</div></li><li><div class=\"facit-matte\">\\[=6a-12\\]</div></li></ol></div>",
+  "ledtrad": "<p>Multiplicera sexan med \\(a\\) och med \\(2\\). Minustecknet mellan termerna står kvar.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "6a-12",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1138",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(3x+(2x-7)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Plustecken framför en parentes ändrar ingenting, så parentesen kan tas bort direkt.</p></li><li><div class=\"facit-matte\">\\[3x+(2x-7)=3x+2x-7\\]</div></li><li><div class=\"facit-matte\">\\[=5x-7\\]</div></li></ol></div>",
+  "ledtrad": "<p>Vad händer med termerna i en parentes som har ett plustecken framför sig?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "5x-7",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1139",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(5(1-2x)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5(1-2x)=5\\cdot1-5\\cdot2x\\]</div></li><li><div class=\"facit-matte\">\\[=5-10x\\]</div></li></ol></div>",
+  "ledtrad": "<p>Femman multipliceras både med \\(1\\) och med \\(2x\\).</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "5-10x",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1140",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(-(4-3m)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Minustecknet framför parentesen betyder \\(-1\\) gånger parentesen. Varje term byter tecken.</p></li><li><div class=\"facit-matte\">\\[-(4-3m)=-4+3m\\]</div></li><li><div class=\"facit-matte\">\\[=3m-4\\]</div></li></ol></div>",
+  "ledtrad": "<p>Minustecknet framför parentesen gäller båda termerna. Vilket tecken får \\(-3m\\) när det byter tecken?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "3m-4",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1141",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(-3(x+4)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-3(x+4)=(-3)\\cdot x+(-3)\\cdot4\\]</div></li><li><div class=\"facit-matte\">\\[=-3x-12\\]</div></li></ol></div>",
+  "ledtrad": "<p>Multiplicera \\(-3\\) med båda termerna. Vad blir \\((-3)\\cdot4\\)?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "-3x-12",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1142",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(-5(2a-3)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-5(2a-3)=(-5)\\cdot2a+(-5)\\cdot(-3)\\]</div></li><li><p>Minus gånger minus blir plus: \\((-5)\\cdot(-3)=15\\).</p></li><li><div class=\"facit-matte\">\\[=-10a+15\\]</div></li></ol></div>",
+  "ledtrad": "<p>Båda termerna ska multipliceras med \\(-5\\). Vilket tecken får produkten av två negativa tal?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "-10a+15",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1143",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(10-(4-x)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Minustecknet framför parentesen byter tecken på båda termerna i den.</p></li><li><div class=\"facit-matte\">\\[10-(4-x)=10-4+x\\]</div></li><li><div class=\"facit-matte\">\\[=x+6\\]</div></li></ol></div>",
+  "ledtrad": "<p>Ta bort parentesen och byt tecken på varje term i den. Blir det \\(-x\\) eller \\(+x\\)?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "x+6",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1144",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(3(2x-1)+4\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3(2x-1)+4=6x-3+4\\]</div></li><li><div class=\"facit-matte\">\\[=6x+1\\]</div></li></ol></div>",
+  "ledtrad": "<p>Multiplicera in trean först. Samla sedan de vanliga talen.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "6x+1",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1145",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(5y-2(y-6)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn framför parentesen är \\(-2\\), inklusive minustecknet.</p></li><li><div class=\"facit-matte\">\\[5y-2(y-6)=5y-2y+12\\]</div></li><li><div class=\"facit-matte\">\\[=3y+12\\]</div></li></ol></div>",
+  "ledtrad": "<p>Räkna med minustecknet som en del av faktorn: multiplicera in \\(-2\\). Vad blir \\((-2)\\cdot(-6)\\)?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "3y+12",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1146",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(2(x+3)-(x-5)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2(x+3)-(x-5)=2x+6-x+5\\]</div></li><li><div class=\"facit-matte\">\\[=x+11\\]</div></li></ol></div>",
+  "ledtrad": "<p>Multiplicera in tvåan. Byt sedan tecken på båda termerna i den andra parentesen.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "x+11",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1147",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(-(3x-2)-(x+4)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-(3x-2)-(x+4)=-3x+2-x-4\\]</div></li><li><div class=\"facit-matte\">\\[=-4x-2\\]</div></li></ol></div>",
+  "ledtrad": "<p>Båda parenteserna har ett minustecken framför sig. Byt tecken på alla fyra termerna innan du förenklar.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "-4x-2",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1148",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(4(a+2b)-3(a-b)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4(a+2b)-3(a-b)=4a+8b-3a+3b\\]</div></li><li><div class=\"facit-matte\">\\[=a+11b\\]</div></li></ol></div>",
+  "ledtrad": "<p>Multiplicera in \\(4\\) och \\(-3\\). Samla sedan \\(a\\)-termerna för sig och \\(b\\)-termerna för sig.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "a+11b",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true
+},
+{
+  "id": "1.1149",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(-2(x-1)-3(1-x)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2(x-1)-3(1-x)=-2x+2-3+3x\\]</div></li><li><div class=\"facit-matte\">\\[=x-1\\]</div></li></ol></div>",
+  "ledtrad": "<p>Multiplicera in \\(-2\\) och \\(-3\\). Håll koll på tecknet för varje term innan du samlar dem.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "x-1",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true
+},
+{
+  "id": "1.1150",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Vilket uttryck är lika med \\(-2(x-3)\\) för alla \\(x\\)?</p><p>A: \\(-2x-3\\)<br>B: \\(-2x-6\\)<br>C: \\(-2x+6\\)<br>D: \\(2x-6\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2(x-3)=(-2)\\cdot x+(-2)\\cdot(-3)=-2x+6\\]</div></li><li><p>A glömmer att multiplicera trean. B glömmer att minus gånger minus blir plus. D har fel tecken på båda termerna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C</p></div>",
+  "ledtrad": "<p>Multiplicera in \\(-2\\) själv först och jämför sedan med alternativen.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarstyp": "val",
+  "rättSvar": "C",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "kort_text",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1151",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Moa förenklar ett uttryck så här:</p><p>\\(7-2(x-3)=7-2x-6=1-2x\\)</p><p>Vilken förklaring rättar hennes fel?</p><p>A: Hon skulle först ha räknat \\(7-2=5\\), så svaret är \\(5x-15\\).<br>B: \\((-2)\\cdot(-3)\\) blir \\(+6\\), så svaret är \\(13-2x\\).<br>C: Minustecknet gäller bara \\(x\\), så svaret är \\(7-2x-3=4-2x\\).<br>D: Det är rätt, eftersom \\(7-6=1\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn framför parentesen är \\(-2\\). Den ska multipliceras med både \\(x\\) och \\(-3\\).</p></li><li><div class=\"facit-matte\">\\[7-2(x-3)=7-2x+6=13-2x\\]</div></li><li><p>Moa skrev \\(-6\\) i stället för \\(+6\\). Alternativ A bryter mot räkneordningen: multiplikationen ska göras före subtraktionen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B</p></div>",
+  "ledtrad": "<p>Vilket tecken får produkten \\((-2)\\cdot(-3)\\)?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "val",
+  "rättSvar": "B",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "kort_text",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true
+},
+{
+  "id": "1.1152",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Bestäm talet \\(a\\) så att \\(a(2x-3)=-8x+12\\) gäller för alla \\(x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera in \\(a\\): \\(a(2x-3)=2a\\,x-3a\\).</p></li><li><p>\\(x\\)-termerna ska vara lika: \\(2a=-8\\), alltså \\(a=-4\\).</p></li><li><p>Kontroll av konstanttermen: \\(-3\\cdot(-4)=12\\). Det stämmer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-4\\)</p></div>",
+  "ledtrad": "<p>Vad måste \\(a\\) vara för att \\(a\\cdot2x\\) ska bli \\(-8x\\)? Kontrollera sedan konstanttermen.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": -4,
+  "tolerans": 0,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1153",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>En konsertbiljett kostar \\(x\\) kr. Tre vänner köper var sin biljett och var sitt program för 15 kr. De betalar tillsammans med 500 kr.</p><p>Skriv ett uttryck med parentes för hur mycket de får tillbaka. Förenkla sedan uttrycket.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En person betalar \\(x+15\\) kr. Tre personer betalar \\(3(x+15)\\) kr.</p></li><li><div class=\"facit-matte\">\\[500-3(x+15)=500-3x-45\\]</div></li><li><div class=\"facit-matte\">\\[=455-3x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(455-3x\\) kr</p></div>",
+  "ledtrad": "<p>Vad kostar det för en person? Hur mycket kostar det då för tre? Dra det från 500.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "455-3x",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarEnhet": "kr"
+},
+{
+  "id": "1.1154",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Den skuggade figuren är en rektangel där ett hörn har klippts bort. Alla mått är i centimeter och \\(x\\gt1\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"270\" viewBox=\"0 0 440 270\" role=\"img\" aria-label=\"En skuggad figur: en rektangel med bredden x plus 3 och höjden 5 där en mindre rektangel med bredden x minus 1 och höjden 2 är bortklippt i övre högra hörnet. Måtten är i centimeter.\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 50 H190 V110 H370 V200 H70 Z\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2.5\"/><path d=\"M190 50 H370 V110\" fill=\"none\" stroke=\"#8a96a3\" stroke-width=\"1.5\" stroke-dasharray=\"6 5\"/><line x1=\"70\" y1=\"225\" x2=\"370\" y2=\"225\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"218\" x2=\"70\" y2=\"232\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"370\" y1=\"218\" x2=\"370\" y2=\"232\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"220\" y=\"250\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">x + 3</text><line x1=\"45\" y1=\"50\" x2=\"45\" y2=\"200\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"38\" y1=\"50\" x2=\"52\" y2=\"50\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"38\" y1=\"200\" x2=\"52\" y2=\"200\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"27\" y=\"131\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"190\" y1=\"32\" x2=\"370\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"190\" y1=\"25\" x2=\"190\" y2=\"39\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"370\" y1=\"25\" x2=\"370\" y2=\"39\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"280\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">x − 1</text><line x1=\"395\" y1=\"50\" x2=\"395\" y2=\"110\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"388\" y1=\"50\" x2=\"402\" y2=\"50\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"388\" y1=\"110\" x2=\"402\" y2=\"110\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"415\" y=\"86\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"280\" y=\"86\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#5b6773\">bortklippt</text></svg></div><p>Skriv ett förenklat uttryck för den skuggade figurens area.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hela rektangeln har arean \\(5(x+3)\\). Den bortklippta delen har arean \\(2(x-1)\\).</p></li><li><div class=\"facit-matte\">\\[5(x+3)-2(x-1)=5x+15-2x+2\\]</div></li><li><div class=\"facit-matte\">\\[=3x+17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((3x+17)\\) cm²</p></div>",
+  "ledtrad": "<p>Beräkna arean av hela rektangeln och dra bort arean av den bortklippta delen. Använd parenteser.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "3x+17",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarEnhet": "cm²"
+},
+{
+  "id": "1.1155",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(2\\big(3x-(x+4)\\big)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Börja med den inre parentesen. Minustecknet framför \\((x+4)\\) byter tecken på båda termerna.</p></li><li><div class=\"facit-matte\">\\[2\\big(3x-(x+4)\\big)=2(3x-x-4)\\]</div></li><li><div class=\"facit-matte\">\\[=2(2x-4)\\]</div></li><li><div class=\"facit-matte\">\\[=4x-8\\]</div></li></ol></div>",
+  "ledtrad": "<p>Förenkla det som står i den stora parentesen först. Multiplicera sedan in tvåan.</p>",
+  "niva": "C",
+  "poang": "0/1/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "4x-8",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true
+},
+{
+  "id": "1.1156",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Uttrycket \\(3(x+4)-2(x+6)\\) är givet.</p><p>a) Förenkla uttrycket.<br>b) Bestäm uttryckets värde när \\(x=2026\\).</p>",
+  "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-matte\">\\[3(x+4)-2(x+6)=3x+12-2x-12=x\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>Eftersom uttrycket är lika med \\(x\\) för alla \\(x\\) blir värdet \\(2026\\). Ingen stor multiplikation behövs.</p></div></div></div>",
+  "ledtrad": "<p>Förenkla först. Vad är det förenklade uttrycket värt när \\(x=2026\\)?</p>",
+  "niva": "C",
+  "poang": "1/1/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "x",
+    2026
+  ],
+  "tolerans": [
+    null,
+    0
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "svarFormat": [
+    "förenklat_polynom",
+    "numeriskt"
+  ],
+  "traningsniva": [
+    2,
+    3
+  ],
+  "arbetsinsats": [
+    1,
+    1
+  ],
+  "spel": true,
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelIntro": "<p>Uttrycket \\(3(x+4)-2(x+6)\\) är givet.</p>",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "<p>Förenkla uttrycket.</p>",
+      "s": "<div class=\"facit-v2\"><div class=\"facit-matte\">\\[3(x+4)-2(x+6)=3x+12-2x-12=x\\]</div></div>",
+      "ledtrad": "<p>Multiplicera in \\(3\\) och \\(-2\\). Vad händer med konstanttermerna?</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "fraga": "<p>Bestäm uttryckets värde när \\(x=2026\\).</p>",
+      "s": "<div class=\"facit-v2\"><div class=\"facit-matte\">\\[3(x+4)-2(x+6)=3x+12-2x-12=x\\]</div><p>Uttrycket är alltså lika med \\(x\\) för alla \\(x\\), så värdet är \\(2026\\). Genom att förenkla först slipper man räkna med stora tal.</p></div>",
+      "ledtrad": "<p>Förenkla uttrycket innan du sätter in \\(x=2026\\).</p>",
+      "niva": "C",
+      "poang": "0/1/0",
+      "traningsniva": 3,
+      "arbetsinsats": 1
+    }
+  ]
+},
+{
+  "id": "1.1157",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Ett tal saknas i rutan:</p><p>\\(4(x+3)-\\square\\,(x-2)=x+18\\)</p><p>Likheten ska gälla för alla \\(x\\). Vilket tal står i rutan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla talet \\(k\\). Multiplicera in:</p></li><li><div class=\"facit-matte\">\\[4x+12-kx+2k=(4-k)x+(12+2k)\\]</div></li><li><p>\\(x\\)-termen ska vara \\(1\\cdot x\\): \\(4-k=1\\), alltså \\(k=3\\).</p></li><li><p>Kontroll av konstanttermen: \\(12+2\\cdot3=18\\). Det stämmer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\)</p></div>",
+  "ledtrad": "<p>Kalla talet \\(k\\) och multiplicera in. Hur många \\(x\\) ska det finnas till slut?</p>",
+  "niva": "C",
+  "poang": "0/1/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true
+},
+{
+  "id": "1.1158",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Bestäm talen \\(a\\) och \\(b\\) så att</p><p>\\(a(x+2)-b(x-1)=5x+4\\)</p><p>gäller för alla \\(x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Likheten gäller för alla \\(x\\), så man kan välja värden på \\(x\\) som gör att en parentes blir noll.</p></li><li><p>\\(x=1\\): \\(a\\cdot3-b\\cdot0=5+4\\), alltså \\(3a=9\\) och \\(a=3\\).</p></li><li><p>\\(x=-2\\): \\(a\\cdot0-b\\cdot(-3)=-10+4\\), alltså \\(3b=-6\\) och \\(b=-2\\).</p></li><li><p>Kontroll: \\(3(x+2)+2(x-1)=3x+6+2x-2=5x+4\\).</p></li><li><p>Man kan också multiplicera in: \\((a-b)x+(2a+b)=5x+4\\) ger \\(a-b=5\\) och \\(2a+b=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\) och \\(b=-2\\)</p></div>",
+  "ledtrad": "<p>Likheten gäller för alla \\(x\\). Vilket värde på \\(x\\) gör den andra parentesen till noll? Vilket gör den första till noll?</p>",
+  "niva": "A",
+  "poang": "0/1/2",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    3,
+    -2
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "spel": true,
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "svarsstruktur": "ordnad"
 }
 ];

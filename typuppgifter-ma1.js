@@ -478,6 +478,39 @@ window.TYPUPPGIFTER_MA1 = {
     "komihag": "x och x² är olika slags termer och kan inte läggas ihop till en enda term.",
     "traningsfamilj": "Förenkla uttryck"
   },
+  "ma1-grund-1-02p": {
+    "kap": 1,
+    "omr": "forenkla_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "rubrik": "Förenkla uttryck med parenteser",
+    "niva": "E",
+    "t": "<p>Förenkla 5x − 3(x − 4) + (2x + 1).</p>",
+    "ram": "Talet framför en parentes multipliceras med varje term i parentesen. Minustecknet framför räknas som en del av talet. Ett plustecken framför en parentes ändrar ingenting.",
+    "steg": [
+      {
+        "rubrik": "Multiplicera in −3",
+        "text": "Faktorn är −3. Minus gånger minus blir plus, så (−3) · (−4) = +12.",
+        "matte": "\\[-3(x-4)={\\color{#D1495B}{-3x+12}}\\]"
+      },
+      {
+        "rubrik": "Ta bort parentesen med plustecken",
+        "text": "Plustecknet framför (2x + 1) gör att termerna står kvar som de är.",
+        "matte": "\\[5x{\\color{#D1495B}{-3x+12}}+2x+1\\]"
+      },
+      {
+        "rubrik": "Samla termerna",
+        "text": "x-termerna för sig och de vanliga talen för sig.",
+        "matte": "\\[5x-3x+2x+12+1=4x+13\\]"
+      }
+    ],
+    "svar": "\\(4x+13\\).",
+    "komihag": "Ett minustecken framför en parentes byter tecken på alla termer i parentesen, inte bara på den första.",
+    "traningsfamilj": "Uttryck med parenteser"
+  },
   "ma1-grund-1-03": {
     "kap": 1,
     "omr": "algebraiska_uttryck",

@@ -197523,5 +197523,182 @@ window.BANK = [
       "kommentar": "uud har +e och anti-u anti-u anti-d har −e. Summan är noll."
     }
   ]
+},
+{
+  "id": "5.623",
+  "kap": 5,
+  "omr": "effekt",
+  "niva": "E",
+  "typ": "effekt från ett arbetsdiagram",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet visar hur stort arbete en motor har utfört. Vilken effekt lämnar motorn mellan 0 och 6 s? (Svara i W.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Utfört arbete ökar linjärt från 0 kJ vid 0 s till 3 kJ vid 6 s.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><text x=\"65\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Utfört arbete (kJ)</text><text x=\"415\" y=\"275\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">Tid (s)</text><path d=\"M65.0 50L65.0 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"65.0\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M123.33333333333334 50L123.33333333333334 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"123.33333333333334\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M181.66666666666669 50L181.66666666666669 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"181.66666666666669\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M240.0 50L240.0 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"240.0\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M298.33333333333337 50L298.33333333333337 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"298.33333333333337\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M356.6666666666667 50L356.6666666666667 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"356.6666666666667\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">5</text><path d=\"M415.0 50L415.0 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"415.0\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">6</text><path d=\"M65 230.0L415 230.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">0,0</text><path d=\"M65 200.0L415 200.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">0,5</text><path d=\"M65 170.0L415 170.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"175.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">1,0</text><path d=\"M65 140.0L415 140.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">1,5</text><path d=\"M65 110.0L415 110.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">2,0</text><path d=\"M65 80.0L415 80.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">2,5</text><path d=\"M65 50.0L415 50.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">3,0</text><path d=\"M65 50L65 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 230L415 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 230L415 50\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"4\"/><circle cx=\"415\" cy=\"50\" r=\"4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Motorn utför 3 kJ arbete på 6 s. Omvandla först: \\(3\\,\\mathrm{kJ}=3000\\,\\mathrm J\\).</p><p>Effekten är arbetet per sekund:</p>\\[P=\\frac{W}{t}=\\frac{3000}{6}=500\\,\\mathrm W.\\]</div>",
+  "familj": "Effekt P = W/t",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 500,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur stort arbete har motorn utfört efter 6 s?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "W"
+},
+{
+  "id": "5.624",
+  "kap": 5,
+  "omr": "effekt",
+  "niva": "E",
+  "typ": "jämföra arbete per sekund",
+  "poang": "(1/0/0)",
+  "t": "<p>Två transportband utför de arbeten som tabellen visar. Vilket band har störst medeleffekt? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 250\" role=\"img\" aria-label=\"Band A utför 6,0 kJ på 12 s. Band B utför 9,0 kJ på 30 s.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"250\" fill=\"white\"/><rect x=\"25\" y=\"30\" width=\"430\" height=\"190\" rx=\"0\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"25\" y=\"30\" width=\"430\" height=\"55\" rx=\"0\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"95\" y=\"64\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Band</text><text x=\"245\" y=\"64\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Arbete</text><text x=\"385\" y=\"64\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Tid</text><path d=\"M25 85L455 85\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M25 152L455 152\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"95\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"245\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">6,0 kJ</text><text x=\"385\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">12 s</text><text x=\"95\" y=\"194\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">B</text><text x=\"245\" y=\"194\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">9,0 kJ</text><text x=\"385\" y=\"194\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">30 s</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Jämför arbetet per sekund, inte bara det sammanlagda arbetet.</p>\\[P_A=\\frac{6000}{12}=500\\,\\mathrm W\\]\\[P_B=\\frac{9000}{30}=300\\,\\mathrm W\\]<p><strong>Band A har störst medeleffekt.</strong> Band B utför mer arbete men använder också längre tid.</p></div>",
+  "familj": "Effekt P = W/t",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Räkna ut arbetet per sekund för vart och ett av banden.</p>",
+  "alternativ": [
+    {
+      "txt": "Band B, eftersom det utför ett större arbete.",
+      "ratt": false,
+      "kommentar": "Arbete är inte samma sak som effekt. B använder längre tid och ger bara 300 W i medeltal."
+    },
+    {
+      "txt": "De har lika stor medeleffekt.",
+      "ratt": false,
+      "kommentar": "A ger 500 W och B ger 300 W."
+    },
+    {
+      "txt": "Band A, eftersom det utför mer arbete per sekund.",
+      "ratt": true,
+      "kommentar": "6000/12 = 500 W, medan 9000/30 = 300 W."
+    },
+    {
+      "txt": "Det går inte att avgöra utan att veta bandens hastigheter.",
+      "ratt": false,
+      "kommentar": "Arbete och tid räcker för att bestämma medeleffekten."
+    }
+  ]
+},
+{
+  "id": "5.625",
+  "kap": 5,
+  "omr": "effekt",
+  "niva": "E",
+  "typ": "verkningsgrad ur ett energiflöde",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar hur energin i en motor fördelas. Arbetet räknas som nyttig energi. Hur stor är verkningsgraden? (Svara i %.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" role=\"img\" aria-label=\"Motorn tar emot 800 J och lämnar 600 J som arbete och 200 J som värme.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"280\" fill=\"white\"/><rect x=\"165\" y=\"72\" width=\"145\" height=\"80\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"237\" y=\"119\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">Motor</text><path d=\"M26 110L160 110\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M152.02 114.16L160 110L152.02 105.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"86\" y=\"77\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">800 J in</text><path d=\"M310 110L450 110\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M442.02 114.16L450 110L442.02 105.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"383\" y=\"77\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">600 J arbete</text><path d=\"M237 152L237 224\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M232.84 216.02L237 224L241.16 216.02\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"237\" y=\"254\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">200 J värme</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Verkningsgraden är den andel av den tillförda energin som blir nyttigt arbete.</p>\\[\\eta=\\frac{600}{800}=0{,}75=75\\,\\%.\\]<p>De återstående 25 procenten blir värme.</p></div>",
+  "familj": "Verkningsgrad",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 75,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken energimängd är nyttig, och vilken är den tillförda?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
+{
+  "id": "5.626",
+  "kap": 5,
+  "omr": "effekt",
+  "niva": "E",
+  "typ": "energi från två effektlägen",
+  "poang": "(1/0/0)",
+  "t": "<p>En värmare arbetar först med hög effekt och sedan med låg effekt, enligt diagrammet. Hur mycket energi använder den under de sex minuterna? (Svara i kWh.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Effekten är 1,2 kW under minut 0 till 2 och 0,3 kW under minut 2 till 6.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><text x=\"65\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Effekt (kW)</text><text x=\"415\" y=\"275\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">Tid (min)</text><path d=\"M65.0 50L65.0 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"65.0\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M123.33333333333334 50L123.33333333333334 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"123.33333333333334\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M181.66666666666669 50L181.66666666666669 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"181.66666666666669\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M240.0 50L240.0 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"240.0\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M298.33333333333337 50L298.33333333333337 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"298.33333333333337\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M356.6666666666667 50L356.6666666666667 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"356.6666666666667\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">5</text><path d=\"M415.0 50L415.0 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"415.0\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">6</text><path d=\"M65 230.0L415 230.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">0,0</text><path d=\"M65 185.0L415 185.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">0,3</text><path d=\"M65 140.0L415 140.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">0,6</text><path d=\"M65 95.00000000000003L415 95.00000000000003\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"100.00000000000003\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">0,9</text><path d=\"M65 50.0L415 50.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">1,2</text><path d=\"M65 50L65 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 230L415 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 50H181.667V185H415\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"4\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Första delen varar 2 minuter. Den andra varar \\(6-2=4\\) minuter. Omvandla tiderna till timmar när energin ska anges i kWh.</p>\\[E_1=1{,}2\\cdot\\frac{2}{60}=0{,}04\\,\\mathrm{kWh}\\]\\[E_2=0{,}3\\cdot\\frac{4}{60}=0{,}02\\,\\mathrm{kWh}\\]<p>Den sammanlagda energin är \\(0{,}04+0{,}02=0{,}06\\,\\mathrm{kWh}\\).</p></div>",
+  "familj": "Energi i kWh och vardagen",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.06,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur länge är varje effekt inkopplad? Räkna energin för delarna var för sig.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "kWh"
+},
+{
+  "id": "5.627",
+  "kap": 5,
+  "omr": "effekt",
+  "niva": "E",
+  "typ": "dragkraft från mekanisk effekt",
+  "poang": "(1/0/0)",
+  "t": "<p>En vinsch drar en låda med konstant fart. Vinschen överför 60 W till lådan. Hur stor är dragkraften? (Svara i N.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 245\" role=\"img\" aria-label=\"Vinsch överför 60 W. Lådan rör sig åt vänster med 0,50 m/s. Dragkraften F visas åt vänster.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"245\" fill=\"white\"/><path d=\"M20 210L460 210\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"45\" y=\"95\" width=\"100\" height=\"80\" rx=\"10\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"95\" y=\"126\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Vinsch</text><text x=\"95\" y=\"154\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">60 W</text><path d=\"M145 155L276 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\"/><rect x=\"278\" y=\"127\" width=\"90\" height=\"75\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"205\" r=\"9\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"347\" cy=\"205\" r=\"9\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M440 101L312 101\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"3\"/><path d=\"M319.98 96.84L312 101L319.98 105.16\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"3\"/><text x=\"376\" y=\"75\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">0,50 m/s</text><path d=\"M311 163L217 163\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M224.98 158.84L217 163L224.98 167.16\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"211\" y=\"193\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">F</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Effekt är kraft gånger fart när kraften verkar längs rörelsen.</p>\\[P=Fv\\quad\\Rightarrow\\quad F=\\frac{P}{v}\\]\\[F=\\frac{60}{0{,}50}=120\\,\\mathrm N.\\]</div>",
+  "familj": "Effekt och fart (P = F·v)",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 120,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket samband knyter ihop mekanisk effekt, kraft och fart?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "N"
+},
+{
+  "id": "5.628",
+  "kap": 5,
+  "omr": "effekt",
+  "niva": "E",
+  "typ": "medeleffekt från två energimätarvärden",
+  "poang": "(1/0/0)",
+  "t": "<p>En energimätare mäter bara en värmare. Bilderna visar mätarställningen före och efter 15 minuters användning. Vilken medeleffekt har värmaren? (Svara i kW.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 230\" role=\"img\" aria-label=\"Klockan 14:00 visar energimätaren 12,4 kWh och klockan 14:15 visar den 12,7 kWh.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"230\" fill=\"white\"/><rect x=\"20\" y=\"30\" width=\"200\" height=\"170\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"120\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">Före</text><rect x=\"35\" y=\"80\" width=\"170\" height=\"62\" rx=\"4\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"120\" y=\"120\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">12,4 kWh</text><text x=\"120\" y=\"177\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">14:00</text><rect x=\"260\" y=\"30\" width=\"200\" height=\"170\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"360\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">Efter</text><rect x=\"275\" y=\"80\" width=\"170\" height=\"62\" rx=\"4\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"360\" y=\"120\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">12,7 kWh</text><text x=\"360\" y=\"177\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">14:15</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Värmaren har använt \\(12{,}7-12{,}4=0{,}3\\,\\mathrm{kWh}\\). Mätarens startvärde ska inte räknas med.</p><p>Tiden är \\(15/60=0{,}25\\) timmar. Därför blir medeleffekten</p>\\[P=\\frac{0{,}3}{0{,}25}=1{,}2\\,\\mathrm{kW}.\\]</div>",
+  "familj": "Effekt P = W/t",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.2,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur mycket har mätarställningen ökat? Vilken tid är det i timmar?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "kW"
 }
 ];

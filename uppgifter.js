@@ -196897,5 +196897,276 @@ window.BANK = [
     }
   ],
   "ledtrad": "<p>Kontrollera en mätare i taget: först strömmen genom lampan, sedan spänningen över R.</p>"
+},
+{
+  "id": "9.436",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "spårämne inuti kroppen",
+  "poang": "(1/0/0)",
+  "t": "<p>Vilken bild visar en undersökning där patienten har fått ett radioaktivt spårämne? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 240\" role=\"img\" aria-label=\"Bild A: strålkälla utanför patienten och detektor på andra sidan. Bild B: strålkälla inuti patienten och detektor utanför.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"240\" fill=\"white\"/><text x=\"120\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Bild A</text><text x=\"355\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Bild B</text><circle cx=\"120\" cy=\"77\" r=\"14\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"95\" y=\"94\" width=\"50\" height=\"80\" rx=\"12\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M105 174L100 201\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M135 174L140 201\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"345\" cy=\"77\" r=\"14\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"320\" y=\"94\" width=\"50\" height=\"80\" rx=\"12\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M330 174L325 201\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M360 174L365 201\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"18\" y=\"112\" width=\"32\" height=\"36\" rx=\"5\" fill=\"#dbeaf7\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"35\" y=\"173\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">källa</text><rect x=\"195\" y=\"91\" width=\"12\" height=\"100\" rx=\"0\" fill=\"#d8e2ec\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"197\" y=\"220\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">detektor</text><path d=\"M53 130L91 130\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M83.02 134.16L91 130L83.02 125.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M150 130L188 130\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M180.02 134.16L188 130L180.02 125.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><circle cx=\"345\" cy=\"130\" r=\"7\" fill=\"#dc8151\" stroke=\"#985027\" stroke-width=\"2\"/><text x=\"345\" y=\"156\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\">källa</text><path d=\"M358 130L422 130\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M414.02 134.16L422 130L414.02 125.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"430\" y=\"91\" width=\"12\" height=\"100\" rx=\"0\" fill=\"#d8e2ec\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"432\" y=\"220\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">detektor</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Bild B.</strong> Spårämnet finns inne i kroppen. En del av strålningen tar sig ut och registreras av en detektor.</p><p>I A kommer strålningen från en källa utanför kroppen, som vid en röntgenundersökning.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Var finns strålkällan i respektive bild?</p>",
+  "alternativ": [
+    {
+      "txt": "Bild A",
+      "ratt": false,
+      "kommentar": "Strålkällan ligger utanför kroppen, som vid röntgen."
+    },
+    {
+      "txt": "Bild B",
+      "ratt": true,
+      "kommentar": "Spårämnet finns i kroppen och strålningen registreras utifrån."
+    },
+    {
+      "txt": "Båda bilderna",
+      "ratt": false,
+      "kommentar": "I A kommer strålningen från en källa utanför patienten."
+    },
+    {
+      "txt": "Ingen av bilderna",
+      "ratt": false,
+      "kommentar": "B visar strålning som kommer inifrån patienten."
+    }
+  ]
+},
+{
+  "id": "9.437",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "kontrast och minskad transmission",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet visar hur många röntgenfotoner som når en detektor före och efter att ett kontrastmedel har tillförts. Hur många procent minskar antalet? (Svara i procent.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 285\" role=\"img\" aria-label=\"Antal registrerade fotoner: Före 800, Efter 300\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"285\" fill=\"white\"/><text x=\"65\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Antal registrerade fotoner</text><path d=\"M65 230.0L450 230.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M65 193.0L450 193.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"198.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">200</text><path d=\"M65 156.0L450 156.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">400</text><path d=\"M65 119.0L450 119.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"124.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">600</text><path d=\"M65 82.0L450 82.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"87.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">800</text><path d=\"M65 45.0L450 45.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">1000</text><path d=\"M65 45L65 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 230L450 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"119.25\" y=\"82.0\" width=\"84\" height=\"148.0\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"161.25\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">800</text><text x=\"161.25\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Före</text><rect x=\"311.75\" y=\"174.5\" width=\"84\" height=\"55.5\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"353.75\" y=\"164.5\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">300</text><text x=\"353.75\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Efter</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Antalet minskar med \\(800-300=500\\) fotoner. Minskningen jämförs med antalet före:</p>\\[\\frac{500}{800}\\cdot100=62{,}5\\,\\%.\\]<p><strong>Minskningen är 62,5 %.</strong> Kontrastmedlet gör att mindre röntgenstrålning når detektorn i detta område.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 62.5,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför minskningen med antalet fotoner före förändringen.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
+{
+  "id": "9.438",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "dosbidrag från fyra strålar",
+  "poang": "(1/0/0)",
+  "t": "<p>En tumör bestrålas från fyra håll. Varje stråle ger dosen 0,8 Gy i tumören. Hur stor blir den sammanlagda dosen där? (Svara i Gy.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Fyra strålar, numrerade 1 till 4, riktas mot samma tumör.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><ellipse cx=\"240\" cy=\"150\" rx=\"135\" ry=\"100\" fill=\"#eff4f7\" stroke=\"#596b7c\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"150\" r=\"25\" fill=\"#f8d6cc\" stroke=\"#b74738\" stroke-width=\"2\"/><text x=\"240\" y=\"155\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">tumör</text><path d=\"M35 150L209 150\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M201.02 154.16L209 150L201.02 145.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"45\" y=\"132\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M240 15L240 118\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M235.84 110.02L240 118L244.16 110.02\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"307\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M445 150L272 150\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M279.98 145.84L272 150L279.98 154.16\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"433\" y=\"132\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M240 285L240 182\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M244.16 189.98L240 182L235.84 189.98\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"306\" y=\"283\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">4</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Alla fyra strålarna träffar tumören. Deras dosbidrag adderas:</p>\\[D=4\\cdot0{,}8=3{,}2\\ \\mathrm{Gy}.\\]<p><strong>Tumören får 3,2 Gy.</strong></p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 3.2,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många av strålarna bidrar med dos i tumören?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "Gy"
+},
+{
+  "id": "9.439",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "halveringstid ur medicinsk aktivitetsgraf",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet visar aktiviteten hos ett spårämne. Hur lång är halveringstiden? (Svara i h.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Aktiviteten är 160 MBq vid 0 h, 80 MBq vid 3 h, 40 MBq vid 6 h och 20 MBq vid 9 h.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><text x=\"65\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Aktivitet (MBq)</text><path d=\"M70 240.0L430 240.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M70 195.0L430 195.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">40</text><path d=\"M70 150.0L430 150.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">80</text><path d=\"M70 105.0L430 105.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">120</text><path d=\"M70 60.0L430 60.0\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"57\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">160</text><path d=\"M70 60L70 240\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"70\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M190 60L190 240\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"190\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M310 60L310 240\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"310\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">6</text><path d=\"M430 60L430 240\" fill=\"none\" stroke=\"#d8e1eb\" stroke-width=\"1\"/><text x=\"430\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">9</text><path d=\"M70 45L70 240\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M70 240L440 240\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"438\" y=\"291\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">Tid (h)</text><path d=\"M70.00 60.00 L73.00 63.09 L76.00 66.13 L79.00 69.12 L82.00 72.05 L85.00 74.94 L88.00 77.77 L91.00 80.56 L94.00 83.30 L97.00 85.99 L100.00 88.64 L103.00 91.24 L106.00 93.79 L109.00 96.31 L112.00 98.77 L115.00 101.20 L118.00 103.59 L121.00 105.93 L124.00 108.23 L127.00 110.50 L130.00 112.72 L133.00 114.91 L136.00 117.06 L139.00 119.17 L142.00 121.24 L145.00 123.28 L148.00 125.29 L151.00 127.26 L154.00 129.20 L157.00 131.10 L160.00 132.97 L163.00 134.81 L166.00 136.62 L169.00 138.39 L172.00 140.14 L175.00 141.85 L178.00 143.54 L181.00 145.20 L184.00 146.83 L187.00 148.43 L190.00 150.00 L193.00 151.55 L196.00 153.07 L199.00 154.56 L202.00 156.03 L205.00 157.47 L208.00 158.89 L211.00 160.28 L214.00 161.65 L217.00 163.00 L220.00 164.32 L223.00 165.62 L226.00 166.90 L229.00 168.15 L232.00 169.39 L235.00 170.60 L238.00 171.79 L241.00 172.96 L244.00 174.12 L247.00 175.25 L250.00 176.36 L253.00 177.45 L256.00 178.53 L259.00 179.58 L262.00 180.62 L265.00 181.64 L268.00 182.64 L271.00 183.63 L274.00 184.60 L277.00 185.55 L280.00 186.49 L283.00 187.41 L286.00 188.31 L289.00 189.20 L292.00 190.07 L295.00 190.93 L298.00 191.77 L301.00 192.60 L304.00 193.41 L307.00 194.21 L310.00 195.00 L313.00 195.77 L316.00 196.53 L319.00 197.28 L322.00 198.01 L325.00 198.73 L328.00 199.44 L331.00 200.14 L334.00 200.83 L337.00 201.50 L340.00 202.16 L343.00 202.81 L346.00 203.45 L349.00 204.08 L352.00 204.69 L355.00 205.30 L358.00 205.90 L361.00 206.48 L364.00 207.06 L367.00 207.62 L370.00 208.18 L373.00 208.73 L376.00 209.26 L379.00 209.79 L382.00 210.31 L385.00 210.82 L388.00 211.32 L391.00 211.82 L394.00 212.30 L397.00 212.78 L400.00 213.24 L403.00 213.70 L406.00 214.15 L409.00 214.60 L412.00 215.03 L415.00 215.46 L418.00 215.89 L421.00 216.30 L424.00 216.71 L427.00 217.11 L430.00 217.50\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><circle cx=\"190\" cy=\"150\" r=\"4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Startaktiviteten är 160 MBq. Hälften är 80 MBq.</p><p>Kurvan når 80 MBq efter 3 h. <strong>Halveringstiden är därför 3 h.</strong> Samma tid går mellan 80 och 40 MBq.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs av när aktiviteten första gången är hälften av startvärdet.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "h"
+},
+{
+  "id": "9.440",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "startaktivitet inför transport",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett parti fluor-18 ska ha aktiviteten 180 MBq när det kommer fram efter 220 min. Halveringstiden är 110 min. Hur stor ska aktiviteten vara från början? Räkna bara med radioaktivt sönderfall. (Svara i MBq.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 185\" role=\"img\" aria-label=\"Ett preparat lämnar klockan 08:00 och kommer fram 11:40 efter 220 min. Startaktivitet okänd, slutaktivitet 180 MBq.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"185\" fill=\"white\"/><rect x=\"38\" y=\"61\" width=\"63\" height=\"75\" rx=\"9\" fill=\"#e4edf5\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"53\" y=\"48\" width=\"33\" height=\"13\" rx=\"0\" fill=\"#c5d4e0\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"70\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">? MBq</text><text x=\"70\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">08:00</text><rect x=\"379\" y=\"61\" width=\"63\" height=\"75\" rx=\"9\" fill=\"#e4edf5\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"394\" y=\"48\" width=\"33\" height=\"13\" rx=\"0\" fill=\"#c5d4e0\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"410\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">180 MBq</text><text x=\"410\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">11:40</text><path d=\"M125 96L355 96\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M347.02 100.16L355 96L347.02 91.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"240\" y=\"76\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">220 min</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Transporten tar \\(220/110=2\\) halveringstider. Då återstår \\(1/4\\) av startaktiviteten.</p><p>För att en fjärdedel ska vara 180 MBq måste startaktiviteten vara</p>\\[A_0=4\\cdot180=720\\ \\mathrm{MBq}.\\]<p><strong>Startaktiviteten ska vara 720 MBq.</strong></p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 720,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur stor del av startaktiviteten återstår efter två halveringar?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "MBq"
+},
+{
+  "id": "9.441",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "bakgrund i kamerans mätning",
+  "poang": "(1/0/0)",
+  "t": "<p>Kameran registrerar 180 pulser på 30 s med spårämnet på plats. Utan spårämnet registreras i genomsnitt 60 pulser på samma tid. Hur många av de 180 pulserna uppskattas komma från spårämnet? (Svara med ett antal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 285\" role=\"img\" aria-label=\"Antal pulser under 30 s: Med spårämne 180, Utan spårämne 60\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"285\" fill=\"white\"/><text x=\"65\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Antal pulser under 30 s</text><path d=\"M65 230.0L450 230.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M65 183.75L450 183.75\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"188.75\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">50</text><path d=\"M65 137.5L450 137.5\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"142.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">100</text><path d=\"M65 91.25L450 91.25\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"96.25\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">150</text><path d=\"M65 45.0L450 45.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">200</text><path d=\"M65 45L65 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 230L450 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"119.25\" y=\"63.5\" width=\"84\" height=\"166.5\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"161.25\" y=\"53.5\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">180</text><text x=\"161.25\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Med spårämne</text><rect x=\"311.75\" y=\"174.5\" width=\"84\" height=\"55.5\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"353.75\" y=\"164.5\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">60</text><text x=\"353.75\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Utan spårämne</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Mätningen med spårämnet innehåller även pulser från bakgrunden. Dra därför bort bakgrundens bidrag för samma mättid:</p>\\[180-60=120.\\]<p><strong>Ungefär 120 pulser kommer från spårämnet.</strong> Detta är antalet registrerade pulser, inte spårämnets aktivitet.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 120,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Bakgrunden bidrar även när spårämnet finns på plats.</p>",
+  "svarFormat": "antal_satt",
+  "svarEnhet": null
+},
+{
+  "id": "9.442",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "samma energi men olika stråldos",
+  "poang": "(1/0/0)",
+  "t": "<p>Två vävnadsprover absorberar lika mycket strålningsenergi. Vilket prov får störst absorberad dos? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 225\" role=\"img\" aria-label=\"Prov A har massan 10 g och absorberar 2 mJ. Prov B har massan 20 g och absorberar 2 mJ.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"225\" fill=\"white\"/><text x=\"120\" y=\"26\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Prov A</text><text x=\"360\" y=\"26\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Prov B</text><text x=\"120\" y=\"66\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">2 mJ absorberas</text><text x=\"360\" y=\"66\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">2 mJ absorberas</text><path d=\"M120 83L120 119\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M115.84 111.02L120 119L124.16 111.02\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M360 83L360 119\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M355.84 111.02L360 119L364.16 111.02\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"80\" y=\"130\" width=\"80\" height=\"65\" rx=\"5\" fill=\"#e6eff7\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"285\" y=\"130\" width=\"150\" height=\"65\" rx=\"5\" fill=\"#e6eff7\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"120\" y=\"170\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">10 g</text><text x=\"360\" y=\"170\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">20 g</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Prov A får störst dos.</strong> Dosen är absorberad energi per kilogram.</p>\\[D_A=\\frac{0{,}002}{0{,}010}=0{,}20\\ \\mathrm{Gy},\\qquad D_B=\\frac{0{,}002}{0{,}020}=0{,}10\\ \\mathrm{Gy}.\\]<p>Samma energi i halva massan ger dubbelt så stor dos.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför hur mycket energi varje kilogram får.</p>",
+  "alternativ": [
+    {
+      "txt": "B, eftersom provet har större massa.",
+      "ratt": false,
+      "kommentar": "Med samma energi ger större massa mindre dos."
+    },
+    {
+      "txt": "De får samma dos eftersom energin är lika stor.",
+      "ratt": false,
+      "kommentar": "Dosen beror även på hur stor massa som absorberar energin."
+    },
+    {
+      "txt": "A, eftersom samma energi fördelas på mindre massa.",
+      "ratt": true,
+      "kommentar": "Absorberad dos är energi per kilogram."
+    },
+    {
+      "txt": "Det går inte att avgöra utan bestrålningstiden.",
+      "ratt": false,
+      "kommentar": "Tid behövs för dos per sekund, men inte för den totala absorberade dosen."
+    }
+  ]
+},
+{
+  "id": "9.443",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "C",
+  "typ": "välja halveringstid med två krav",
+  "poang": "(0/1/0)",
+  "t": "<p>Tre spårämnen har halveringstiderna i tabellen. Efter 2 h ska minst 25 % av startaktiviteten finnas kvar. Efter 24 h ska högst 1 % finnas kvar. Vilket ämne uppfyller båda kraven? Räkna bara med radioaktivt sönderfall. (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 240\" role=\"img\" aria-label=\"Tabell: ämne A halveringstid 20 min, B 2 h och C 10 dygn.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"240\" fill=\"white\"/><text x=\"105\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Ämne</text><text x=\"315\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Halveringstid</text><rect x=\"45\" y=\"52\" width=\"390\" height=\"52\" rx=\"4\" fill=\"#edf3f8\" stroke=\"#cbd7e3\" stroke-width=\"2\"/><text x=\"105\" y=\"85\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"315\" y=\"85\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">20 min</text><rect x=\"45\" y=\"109\" width=\"390\" height=\"52\" rx=\"4\" fill=\"white\" stroke=\"#cbd7e3\" stroke-width=\"2\"/><text x=\"105\" y=\"142\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">B</text><text x=\"315\" y=\"142\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">2 h</text><rect x=\"45\" y=\"166\" width=\"390\" height=\"52\" rx=\"4\" fill=\"#edf3f8\" stroke=\"#cbd7e3\" stroke-width=\"2\"/><text x=\"105\" y=\"199\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">C</text><text x=\"315\" y=\"199\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">10 dygn</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Ämne B uppfyller båda kraven.</strong> Efter 2 h har en halveringstid gått: 50 % finns kvar. Efter 24 h har tolv halveringstider gått:</p>\\[100\\cdot2^{-12}\\approx0{,}0244\\,\\%.\\]<p>A klarar inte det första kravet: efter sex halveringar återstår bara \\(100/64\\approx1{,}56\\,\\%\\).</p><p>C klarar inte det andra: efter ett dygn återstår \\(100\\cdot2^{-1/10}\\approx93{,}3\\,\\%\\).</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Kontrollera aktiviteten efter båda tiderna för varje ämne.</p>",
+  "alternativ": [
+    {
+      "txt": "Ämne A",
+      "ratt": false,
+      "kommentar": "Efter 2 h har sex halveringstider gått. Bara 1/64, ungefär 1,6 %, återstår."
+    },
+    {
+      "txt": "Ämne C",
+      "ratt": false,
+      "kommentar": "Efter ett dygn finns ungefär 93 % kvar, långt över 1 %."
+    },
+    {
+      "txt": "Alla tre ämnen",
+      "ratt": false,
+      "kommentar": "A minskar för snabbt i början och C för långsamt efteråt."
+    },
+    {
+      "txt": "Ämne B",
+      "ratt": true,
+      "kommentar": "Efter 2 h finns 50 % kvar, och efter 24 h ungefär 0,024 %."
+    }
+  ]
 }
 ];

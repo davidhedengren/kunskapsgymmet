@@ -14058,5 +14058,235 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "km/h",
     "km/h"
   ]
+},
+{
+  "id": "1.702",
+  "kap": 1,
+  "omr": "bestamma_linjara_funktioner",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "brinnande ljus",
+  "t": "<p>Ett ljus brinner lika fort hela tiden. Efter 2 timmar är det 18 cm långt och efter 5 timmar 12 cm långt (se figuren). Hur långt var ljuset från början, och efter hur många timmar har det brunnit ut?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Två mätpunkter för ett ljus: efter 2 timmar är det 18 cm och efter 5 timmar 12 cm.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"77.2\" y1=\"22\" x2=\"77.2\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"106.3\" y1=\"22\" x2=\"106.3\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"135.5\" y1=\"22\" x2=\"135.5\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"164.7\" y1=\"22\" x2=\"164.7\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"193.8\" y1=\"22\" x2=\"193.8\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"252.2\" y1=\"22\" x2=\"252.2\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"281.3\" y1=\"22\" x2=\"281.3\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"310.5\" y1=\"22\" x2=\"310.5\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"339.7\" y1=\"22\" x2=\"339.7\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"368.8\" y1=\"22\" x2=\"368.8\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"398\" y2=\"278.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.3\" x2=\"398\" y2=\"258.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"238.6\" x2=\"398\" y2=\"238.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"218.9\" x2=\"398\" y2=\"218.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"199.2\" x2=\"398\" y2=\"199.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"179.5\" x2=\"398\" y2=\"179.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"159.8\" x2=\"398\" y2=\"159.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"140.2\" x2=\"398\" y2=\"140.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"120.5\" x2=\"398\" y2=\"120.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"100.8\" x2=\"398\" y2=\"100.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"81.1\" x2=\"398\" y2=\"81.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"61.4\" x2=\"398\" y2=\"61.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"41.7\" x2=\"398\" y2=\"41.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"408\" y2=\"278.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,278.0 402,273.0 402,283.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"278\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"269.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">t (h)</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">cm</text><text x=\"77.2\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"106.3\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"135.5\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"164.7\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"193.8\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"223.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"252.2\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><text x=\"281.3\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"310.5\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">9</text><text x=\"339.7\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"368.8\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">11</text><text x=\"398.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">12</text><text x=\"42.0\" y=\"242.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"203.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"42.0\" y=\"163.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">12</text><text x=\"42.0\" y=\"124.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">16</text><text x=\"42.0\" y=\"85.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">20</text><text x=\"42.0\" y=\"45.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">24</text><text x=\"42.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k6e6c2dd8\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"256\"/></clipPath><circle cx=\"106.3\" cy=\"100.8\" r=\"5\" fill=\"#172b3a\"/><text x=\"114.3\" y=\"92.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">(2, 18)</text><circle cx=\"193.8\" cy=\"159.8\" r=\"5\" fill=\"#172b3a\"/><text x=\"201.8\" y=\"151.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">(5, 12)</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Lutningen är \\(\\dfrac{12-18}{5-2}=-2\\) cm per timme. Med \\(L(t)=-2t+m\\) och \\(L(2)=18\\) får vi \\(m=22\\).</p><p>Ljuset var 22 cm från början. \\(-2t+22=0\\) ger \\(t=11\\) timmar.</p></div>",
+  "familj": "Linjära modeller ur två mätningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Bestäm lutningen ur de två mätningarna. Vad är L(0)? När är L(t) = 0?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    22,
+    11
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "längd från början",
+    "tid tills det brunnit ut"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "cm",
+    "h"
+  ]
+},
+{
+  "id": "1.703",
+  "kap": 1,
+  "omr": "bestamma_linjara_funktioner",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "från Celsius till Fahrenheit",
+  "t": "<p>Vatten fryser vid 0 °C = 32 °F och kokar vid 100 °C = 212 °F. Sambandet mellan graderna är linjärt. Hur många grader Fahrenheit är 25 °C?</p>",
+  "s": "<div class=\"facit-v2\"><p>Lutningen är \\(\\dfrac{212-32}{100-0}=1{,}8\\), så \\(F=1{,}8C+32\\).</p><p>\\(C=25\\) ger \\(F=45+32=77\\) °F.</p></div>",
+  "familj": "Linjära modeller ur två mätningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ställ upp F = kC + m med hjälp av de två punkterna.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 77,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "°F"
+},
+{
+  "id": "1.704",
+  "kap": 1,
+  "omr": "bestamma_linjara_funktioner",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "fjäderns längd utan vikt",
+  "t": "<p>En fjäder är 20 cm lång när en vikt på 100 g hänger i den och 26 cm lång med 250 g. Längden ökar linjärt med vikten. Hur lång är fjädern utan vikt? (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 230\" role=\"img\" aria-label=\"Två fjädrar som hänger från ett tak. Den vänstra har en vikt på 100 g och är 20 cm lång. Den högra har en vikt på 250 g och är 26 cm lång.\" style=\"width:100%;max-width:300px\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30\" y1=\"20\" x2=\"270\" y2=\"20\" stroke=\"#172b3a\" stroke-width=\"4\"/><polyline points=\"90,20.0 99,32.0 81,44.0 99,56.0 81,68.0 99,80.0 81,92.0 99,104.0 81,116.0 99,128.0 90,140.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><rect x=\"68\" y=\"140\" width=\"44\" height=\"28\" rx=\"4\" fill=\"#eef1f4\" stroke=\"#172b3a\"/><text x=\"90\" y=\"159\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">100 g</text><text x=\"106\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\">20 cm</text><polyline points=\"210,20.0 219,35.6 201,51.2 219,66.8 201,82.4 219,98.0 201,113.6 219,129.2 201,144.8 219,160.4 210,176.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><rect x=\"188\" y=\"176\" width=\"44\" height=\"28\" rx=\"4\" fill=\"#eef1f4\" stroke=\"#172b3a\"/><text x=\"210\" y=\"195\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">250 g</text><text x=\"226\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\">26 cm</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Lutningen är \\(\\dfrac{26-20}{250-100}=0{,}04\\) cm per gram.</p><p>\\(L(m)=0{,}04m+L_0\\) och \\(L(100)=20\\) ger \\(L_0=20-4=16\\) cm.</p></div>",
+  "familj": "Linjära modeller ur två mätningar",
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hur mycket längre blir fjädern per gram? Räkna sedan bakåt till 0 g.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 16,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm"
+},
+{
+  "id": "1.705",
+  "kap": 1,
+  "omr": "bestamma_linjara_funktioner",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "mobilbatteriet tar slut",
+  "t": "<p>Ett mobilbatteri visar 80 % klockan 10.00 och 50 % klockan 13.00. Batteriet laddas ur lika fort hela tiden. Vilken hel timme är batteriet tomt? (Svara med klockslaget i hela timmar, till exempel 17.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Batteriet minskar med \\(\\dfrac{80-50}{3}=10\\) procentenheter per timme.</p><p>Från 50 % återstår 5 timmar, så batteriet är tomt klockan 18.00.</p></div>",
+  "familj": "Linjära modeller ur två mätningar",
+  "formaga": [
+    "modellering"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många procentenheter minskar batteriet per timme?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 18,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "1.706",
+  "kap": 1,
+  "omr": "bestamma_linjara_funktioner",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "startavgift och kilometerpris ur graf",
+  "t": "<p>Grafen visar priset för en taxiresa. Bestäm startavgiften och priset per kilometer. (Svara i kr och kr/km.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 330\" role=\"img\" aria-label=\"Taxipriset som funktion av sträckan, en rät linje genom de markerade punkterna (2, 95) och (6, 175).\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"91.8\" y1=\"22\" x2=\"91.8\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"135.5\" y1=\"22\" x2=\"135.5\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"179.2\" y1=\"22\" x2=\"179.2\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"266.8\" y1=\"22\" x2=\"266.8\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"310.5\" y1=\"22\" x2=\"310.5\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"354.2\" y1=\"22\" x2=\"354.2\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"288.0\" x2=\"398\" y2=\"288.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"263.8\" x2=\"398\" y2=\"263.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"239.6\" x2=\"398\" y2=\"239.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"215.5\" x2=\"398\" y2=\"215.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"191.3\" x2=\"398\" y2=\"191.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"167.1\" x2=\"398\" y2=\"167.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"142.9\" x2=\"398\" y2=\"142.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"118.7\" x2=\"398\" y2=\"118.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"94.5\" x2=\"398\" y2=\"94.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"70.4\" x2=\"398\" y2=\"70.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"46.2\" x2=\"398\" y2=\"46.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"288.0\" x2=\"408\" y2=\"288.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,288.0 402,283.0 402,293.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"288\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">km</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">kr</text><text x=\"91.8\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"135.5\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"179.2\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"223.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"266.8\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"310.5\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"354.2\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><text x=\"398.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"42.0\" y=\"243.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">40</text><text x=\"42.0\" y=\"195.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">80</text><text x=\"42.0\" y=\"146.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">120</text><text x=\"42.0\" y=\"98.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">160</text><text x=\"42.0\" y=\"50.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">200</text><text x=\"42.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k20ae2fa5\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"266\"/></clipPath><polyline clip-path=\"url(#k20ae2fa5)\" points=\"48.0,221.5 48.9,221.0 49.8,220.5 50.6,220.0 51.5,219.6 52.4,219.1 53.2,218.6 54.1,218.1 55.0,217.6 55.9,217.1 56.8,216.7 57.6,216.2 58.5,215.7 59.4,215.2 60.2,214.7 61.1,214.2 62.0,213.8 62.9,213.3 63.8,212.8 64.6,212.3 65.5,211.8 66.4,211.3 67.2,210.9 68.1,210.4 69.0,209.9 69.9,209.4 70.8,208.9 71.6,208.4 72.5,208.0 73.4,207.5 74.2,207.0 75.1,206.5 76.0,206.0 76.9,205.5 77.8,205.1 78.6,204.6 79.5,204.1 80.4,203.6 81.2,203.1 82.1,202.6 83.0,202.2 83.9,201.7 84.8,201.2 85.6,200.7 86.5,200.2 87.4,199.7 88.2,199.3 89.1,198.8 90.0,198.3 90.9,197.8 91.8,197.3 92.6,196.8 93.5,196.4 94.4,195.9 95.2,195.4 96.1,194.9 97.0,194.4 97.9,193.9 98.8,193.4 99.6,193.0 100.5,192.5 101.4,192.0 102.2,191.5 103.1,191.0 104.0,190.5 104.9,190.1 105.8,189.6 106.6,189.1 107.5,188.6 108.4,188.1 109.2,187.6 110.1,187.2 111.0,186.7 111.9,186.2 112.8,185.7 113.6,185.2 114.5,184.7 115.4,184.3 116.2,183.8 117.1,183.3 118.0,182.8 118.9,182.3 119.8,181.8 120.6,181.4 121.5,180.9 122.4,180.4 123.2,179.9 124.1,179.4 125.0,178.9 125.9,178.5 126.8,178.0 127.6,177.5 128.5,177.0 129.4,176.5 130.2,176.0 131.1,175.6 132.0,175.1 132.9,174.6 133.8,174.1 134.6,173.6 135.5,173.1 136.4,172.7 137.2,172.2 138.1,171.7 139.0,171.2 139.9,170.7 140.8,170.2 141.6,169.8 142.5,169.3 143.4,168.8 144.2,168.3 145.1,167.8 146.0,167.3 146.9,166.8 147.8,166.4 148.6,165.9 149.5,165.4 150.4,164.9 151.2,164.4 152.1,163.9 153.0,163.5 153.9,163.0 154.8,162.5 155.6,162.0 156.5,161.5 157.4,161.0 158.2,160.6 159.1,160.1 160.0,159.6 160.9,159.1 161.8,158.6 162.6,158.1 163.5,157.7 164.4,157.2 165.2,156.7 166.1,156.2 167.0,155.7 167.9,155.2 168.8,154.8 169.6,154.3 170.5,153.8 171.4,153.3 172.2,152.8 173.1,152.3 174.0,151.9 174.9,151.4 175.8,150.9 176.6,150.4 177.5,149.9 178.4,149.4 179.2,149.0 180.1,148.5 181.0,148.0 181.9,147.5 182.8,147.0 183.6,146.5 184.5,146.1 185.4,145.6 186.2,145.1 187.1,144.6 188.0,144.1 188.9,143.6 189.8,143.2 190.6,142.7 191.5,142.2 192.4,141.7 193.2,141.2 194.1,140.7 195.0,140.2 195.9,139.8 196.8,139.3 197.6,138.8 198.5,138.3 199.4,137.8 200.2,137.3 201.1,136.9 202.0,136.4 202.9,135.9 203.8,135.4 204.6,134.9 205.5,134.4 206.4,134.0 207.2,133.5 208.1,133.0 209.0,132.5 209.9,132.0 210.8,131.5 211.6,131.1 212.5,130.6 213.4,130.1 214.2,129.6 215.1,129.1 216.0,128.6 216.9,128.2 217.8,127.7 218.6,127.2 219.5,126.7 220.4,126.2 221.2,125.7 222.1,125.3 223.0,124.8 223.9,124.3 224.8,123.8 225.6,123.3 226.5,122.8 227.4,122.4 228.2,121.9 229.1,121.4 230.0,120.9 230.9,120.4 231.8,119.9 232.6,119.5 233.5,119.0 234.4,118.5 235.2,118.0 236.1,117.5 237.0,117.0 237.9,116.6 238.8,116.1 239.6,115.6 240.5,115.1 241.4,114.6 242.3,114.1 243.1,113.6 244.0,113.2 244.9,112.7 245.7,112.2 246.6,111.7 247.5,111.2 248.4,110.7 249.2,110.3 250.1,109.8 251.0,109.3 251.9,108.8 252.8,108.3 253.6,107.8 254.5,107.4 255.4,106.9 256.2,106.4 257.1,105.9 258.0,105.4 258.9,104.9 259.8,104.5 260.6,104.0 261.5,103.5 262.4,103.0 263.2,102.5 264.1,102.0 265.0,101.6 265.9,101.1 266.8,100.6 267.6,100.1 268.5,99.6 269.4,99.1 270.2,98.7 271.1,98.2 272.0,97.7 272.9,97.2 273.8,96.7 274.6,96.2 275.5,95.8 276.4,95.3 277.2,94.8 278.1,94.3 279.0,93.8 279.9,93.3 280.8,92.9 281.6,92.4 282.5,91.9 283.4,91.4 284.2,90.9 285.1,90.4 286.0,90.0 286.9,89.5 287.8,89.0 288.6,88.5 289.5,88.0 290.4,87.5 291.2,87.0 292.1,86.6 293.0,86.1 293.9,85.6 294.8,85.1 295.6,84.6 296.5,84.1 297.4,83.7 298.2,83.2 299.1,82.7 300.0,82.2 300.9,81.7 301.8,81.2 302.6,80.8 303.5,80.3 304.4,79.8 305.2,79.3 306.1,78.8 307.0,78.3 307.9,77.9 308.8,77.4 309.6,76.9 310.5,76.4 311.4,75.9 312.2,75.4 313.1,75.0 314.0,74.5 314.9,74.0 315.8,73.5 316.6,73.0 317.5,72.5 318.4,72.1 319.2,71.6 320.1,71.1 321.0,70.6 321.9,70.1 322.8,69.6 323.6,69.2 324.5,68.7 325.4,68.2 326.2,67.7 327.1,67.2 328.0,66.7 328.9,66.3 329.8,65.8 330.6,65.3 331.5,64.8 332.4,64.3 333.2,63.8 334.1,63.4 335.0,62.9 335.9,62.4 336.8,61.9 337.6,61.4 338.5,60.9 339.4,60.4 340.2,60.0 341.1,59.5 342.0,59.0 342.9,58.5 343.8,58.0 344.6,57.5 345.5,57.1 346.4,56.6 347.2,56.1 348.1,55.6 349.0,55.1 349.9,54.6 350.8,54.2 351.6,53.7 352.5,53.2 353.4,52.7 354.2,52.2 355.1,51.7 356.0,51.3 356.9,50.8 357.8,50.3 358.6,49.8 359.5,49.3 360.4,48.8 361.2,48.4 362.1,47.9 363.0,47.4 363.9,46.9 364.8,46.4 365.6,45.9 366.5,45.5 367.4,45.0 368.2,44.5 369.1,44.0 370.0,43.5 370.9,43.0 371.8,42.6 372.6,42.1 373.5,41.6 374.4,41.1 375.2,40.6 376.1,40.1 377.0,39.7 377.9,39.2 378.8,38.7 379.6,38.2 380.5,37.7 381.4,37.2 382.2,36.8 383.1,36.3 384.0,35.8 384.9,35.3 385.8,34.8 386.6,34.3 387.5,33.8 388.4,33.4 389.2,32.9 390.1,32.4 391.0,31.9 391.9,31.4 392.8,30.9 393.6,30.5 394.5,30.0 395.4,29.5 396.2,29.0 397.1,28.5 398.0,28.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><circle cx=\"135.5\" cy=\"173.1\" r=\"5\" fill=\"#172b3a\"/><text x=\"143.5\" y=\"191.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">(2, 95)</text><circle cx=\"310.5\" cy=\"76.4\" r=\"5\" fill=\"#172b3a\"/><text x=\"240.5\" y=\"68.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">(6, 175)</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Priset per kilometer är lutningen: \\(\\dfrac{175-95}{6-2}=20\\) kr/km.</p><p>Startavgiften är \\(95-2\\cdot20=55\\) kr, där linjen skär \\(y\\)-axeln.</p></div>",
+  "familj": "Linjära modeller ur två mätningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Lutningen är priset per km. Räkna bakåt från en punkt till 0 km.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    55,
+    20
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "startavgift",
+    "pris per km"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "kr",
+    "kr/km"
+  ]
+},
+{
+  "id": "1.707",
+  "kap": 1,
+  "omr": "bestamma_linjara_funktioner",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "linjär värdeminskning",
+  "t": "<p>En bil kostar 240 000 kr som ny och är värd 150 000 kr efter 3 år. Anta att värdet minskar linjärt. Efter hur många år är bilen värd 60 000 kr?</p>",
+  "s": "<div class=\"facit-v2\"><p>Värdet minskar med \\(\\dfrac{240\\,000-150\\,000}{3}=30\\,000\\) kr per år, så \\(V(t)=240\\,000-30\\,000t\\).</p><p>\\(240\\,000-30\\,000t=60\\,000\\) ger \\(t=6\\) år.</p></div>",
+  "familj": "Linjära modeller ur två mätningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur mycket minskar värdet per år?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "år"
 }
 ];

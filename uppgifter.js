@@ -195444,7 +195444,7 @@ window.BANK = [
   "typ": "koppla in amperemeter",
   "poang": "(1/0/0)",
   "t": "<p>Du ska mäta strömmen genom lampan L1. Hur ska multimetern kopplas? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Två lampor i var sin gren. P på huvudledningen, Q före L1 och R före L2.\" style=\"width:100%;max-width:440px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><path d=\"M55 150V60H145V210 M55 200V260H425V110H145 M145 210H425\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"175\" r=\"25\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"55\" y=\"172\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"55\" y=\"193\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><circle cx=\"285\" cy=\"110\" r=\"16\" fill=\"#fff8d6\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M275 100L295 120M275 120L295 100\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"285\" y=\"151\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L1</text><circle cx=\"285\" cy=\"210\" r=\"16\" fill=\"#fff8d6\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M275 200L295 220M275 220L295 200\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"285\" y=\"251\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L2</text><circle cx=\"145\" cy=\"110\" r=\"4\" fill=\"#243447\"/><circle cx=\"425\" cy=\"210\" r=\"4\" fill=\"#243447\"/><circle cx=\"105\" cy=\"60\" r=\"5\" fill=\"#9b5d00\"/><text x=\"105\" y=\"46\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">P</text><circle cx=\"205\" cy=\"110\" r=\"5\" fill=\"#9b5d00\"/><text x=\"205\" y=\"96\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Q</text><circle cx=\"205\" cy=\"210\" r=\"5\" fill=\"#9b5d00\"/><text x=\"205\" y=\"196\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">R</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>En amperemeter ska ligga i serie med den lampa vars ström mäts. Vid Q går strömmen genom L1, så mätaren ska sättas in där.</p><p>Vid R mäts i stället strömmen genom L2. En parallellkopplad amperemeter ger en väg med mycket liten resistans förbi lampan.</p></div>",
+  "s": "<div class=\"facit-v2\"><p>En amperemeter ska ligga i serie med den lampa vars ström mäts. Vid Q går strömmen genom L1, så mätaren ska sättas in där.</p><p>Vid R mäts i stället strömmen genom L2. En parallellkopplad amperemeter ger en väg med mycket liten resistans förbi lampan.</p><p>Placeringen spelar alltså roll: huvudledningen ger summan, medan grenarna mäts var för sig.</p></div>",
   "familj": "Koppla in multimetern i kretsen",
   "familjNyckel": "multimeter__koppla_in",
   "formaga": [
@@ -195470,9 +195470,9 @@ window.BANK = [
       "kommentar": "Q ligger i grenen med L1. Strömmen genom lampan går då genom mätaren."
     },
     {
-      "txt": "Parallellt med L2.",
+      "txt": "Det spelar ingen roll: bryt vid P, Q eller R.",
       "ratt": false,
-      "kommentar": "Amperemetern kortsluter L2 i stället för att mäta strömmen genom L1."
+      "kommentar": "P mäter hela strömmen. Q och R ligger i olika grenar och mäter var sin grenström."
     }
   ],
   "självrättning": true,
@@ -195580,7 +195580,7 @@ window.BANK = [
   "typ": "mäta ström i en gren",
   "poang": "(1/0/0)",
   "t": "<p>Du ska mäta strömmen genom L2. Hur ska multimetern kopplas? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Två parallella lampor: L2 i den vänstra grenen vid R, L1 i den högra vid Q. P ligger på huvudledningen.\" style=\"width:100%;max-width:440px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><path d=\"M55 125V45H340V260H55V175 M200 45V260\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"150\" r=\"25\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"55\" y=\"147\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"55\" y=\"168\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><circle cx=\"200\" cy=\"170\" r=\"16\" fill=\"#fff8d6\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M190 160L210 180M190 180L210 160\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"234\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#243447\">L2</text><circle cx=\"340\" cy=\"170\" r=\"16\" fill=\"#fff8d6\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M330 160L350 180M330 180L350 160\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"374\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#243447\">L1</text><circle cx=\"120\" cy=\"45\" r=\"5\" fill=\"#9b5d00\"/><text x=\"120\" y=\"31\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">P</text><circle cx=\"200\" cy=\"95\" r=\"5\" fill=\"#9b5d00\"/><text x=\"180\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">R</text><circle cx=\"340\" cy=\"95\" r=\"5\" fill=\"#9b5d00\"/><text x=\"320\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Q</text><circle cx=\"200\" cy=\"45\" r=\"4\" fill=\"#243447\"/><circle cx=\"200\" cy=\"260\" r=\"4\" fill=\"#243447\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Strömmen genom L2 passerar R. Sätt in amperemetern i serie där, så att samma ström går genom mätaren och L2.</p><p>Q ligger i grenen med L1. Vid P går den sammanlagda strömmen till båda lamporna. Koppling parallellt med en lampa kortsluter lampan genom mätaren.</p></div>",
+  "s": "<div class=\"facit-v2\"><p>Strömmen genom L2 passerar R. Sätt in amperemetern i serie där, så att samma ström går genom mätaren och L2.</p><p>Q ligger i grenen med L1. Vid P går den sammanlagda strömmen till båda lamporna. Koppling parallellt med en lampa kortsluter lampan genom mätaren.</p><p>Placeringen spelar alltså roll: huvudledningen ger summan, medan grenarna mäts var för sig.</p></div>",
   "familj": "Koppla in multimetern i kretsen",
   "familjNyckel": "multimeter__koppla_in",
   "formaga": [
@@ -195606,9 +195606,9 @@ window.BANK = [
       "kommentar": "Q ligger i grenen med L1, så där mäts strömmen genom L1."
     },
     {
-      "txt": "Parallellt med L1.",
+      "txt": "Det spelar ingen roll: bryt vid P, Q eller R.",
       "ratt": false,
-      "kommentar": "Det kortsluter L1 och mäter inte strömmen genom L2."
+      "kommentar": "P mäter hela strömmen. Q och R ligger i olika grenar och mäter var sin grenström."
     }
   ],
   "självrättning": true,
@@ -195898,7 +195898,7 @@ window.BANK = [
   "typ": "strömmen i en gren",
   "poang": "(1/0/0)",
   "t": "<p>Du ska mäta strömmen genom R₂. Hur ska multimetern kopplas? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"R0 ligger i huvudledningen före två parallella grenar med R1 och R2. P efter R0, Q före R1 och R före R2.\" style=\"width:100%;max-width:440px\"><rect width=\"480\" height=\"320\" fill=\"white\"/><path d=\"M55 145V60H215V230H435V125H215 M435 230V285H55V195\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"170\" r=\"25\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"55\" y=\"167\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"55\" y=\"188\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><rect x=\"102\" y=\"49\" width=\"56\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"130\" y=\"38\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₀</text><rect x=\"312\" y=\"114\" width=\"56\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"340\" y=\"103\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><rect x=\"312\" y=\"219\" width=\"56\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"340\" y=\"208\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><circle cx=\"185\" cy=\"60\" r=\"5\" fill=\"#9b5d00\"/><text x=\"185\" y=\"46\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">P</text><circle cx=\"265\" cy=\"125\" r=\"5\" fill=\"#9b5d00\"/><text x=\"265\" y=\"111\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Q</text><circle cx=\"265\" cy=\"230\" r=\"5\" fill=\"#9b5d00\"/><text x=\"265\" y=\"216\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">R</text><circle cx=\"215\" cy=\"125\" r=\"4\" fill=\"#243447\"/><circle cx=\"435\" cy=\"230\" r=\"4\" fill=\"#243447\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Sätt in amperemetern vid R. Den ligger då i serie med R₂ och mäter strömmen genom just det motståndet.</p><p>R₀ ligger före förgreningen. Vid P mäts därför summan av strömmarna genom R₁ och R₂. Amperemetern ska inte kopplas parallellt med något motstånd.</p></div>",
+  "s": "<div class=\"facit-v2\"><p>Sätt in amperemetern vid R. Den ligger då i serie med R₂ och mäter strömmen genom just det motståndet.</p><p>R₀ ligger före förgreningen. Vid P mäts därför summan av strömmarna genom R₁ och R₂. Amperemetern ska inte kopplas parallellt med något motstånd.</p><p>Placeringen spelar alltså roll: huvudledningen ger summan, medan grenarna mäts var för sig.</p></div>",
   "familj": "Koppla in multimetern i kretsen",
   "familjNyckel": "multimeter__koppla_in",
   "formaga": [
@@ -195924,9 +195924,9 @@ window.BANK = [
       "kommentar": "Genom R₀ går strömmen till båda grenarna, inte bara strömmen genom R₂."
     },
     {
-      "txt": "Parallellt med R₁.",
+      "txt": "Det spelar ingen roll: bryt vid P, Q eller R.",
       "ratt": false,
-      "kommentar": "Det kortsluter den andra grenen och mäter inte strömmen genom R₂."
+      "kommentar": "P mäter strömmen genom R₀ till båda grenarna. Q och R mäter var sin grenström."
     }
   ],
   "självrättning": true,
@@ -195945,7 +195945,7 @@ window.BANK = [
   "typ": "strömmen från batteriet",
   "poang": "(1/0/0)",
   "t": "<p>Du ska mäta hela strömmen från batteriet. Hur ska multimetern kopplas? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 330\" role=\"img\" aria-label=\"Tre parallella motstånd. P på den gemensamma återledningen, Q i grenen med R1 och R i grenen med R2. C och D ligger på batteriets två sidor.\" style=\"width:100%;max-width:440px\"><rect width=\"480\" height=\"330\" fill=\"white\"/><path d=\"M55 145V45H165V250H435V90H165 M165 170H435 M435 250V295H55V195\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"170\" r=\"25\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"55\" y=\"167\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"55\" y=\"188\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><rect x=\"282\" y=\"79\" width=\"56\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"310\" y=\"68\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><rect x=\"282\" y=\"159\" width=\"56\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"310\" y=\"148\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><rect x=\"282\" y=\"239\" width=\"56\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"310\" y=\"228\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₃</text><circle cx=\"110\" cy=\"295\" r=\"5\" fill=\"#9b5d00\"/><text x=\"110\" y=\"281\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">P</text><circle cx=\"225\" cy=\"90\" r=\"5\" fill=\"#9b5d00\"/><text x=\"225\" y=\"76\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Q</text><circle cx=\"225\" cy=\"170\" r=\"5\" fill=\"#9b5d00\"/><text x=\"225\" y=\"156\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">R</text><circle cx=\"110\" cy=\"45\" r=\"5\" fill=\"#9b5d00\"/><text x=\"110\" y=\"31\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">C</text><circle cx=\"55\" cy=\"250\" r=\"5\" fill=\"#9b5d00\"/><text x=\"33\" y=\"256\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">D</text><circle cx=\"165\" cy=\"90\" r=\"4\" fill=\"#243447\"/><circle cx=\"165\" cy=\"170\" r=\"4\" fill=\"#243447\"/><circle cx=\"435\" cy=\"170\" r=\"4\" fill=\"#243447\"/><circle cx=\"435\" cy=\"250\" r=\"4\" fill=\"#243447\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Amperemetern kopplas i serie vid P. Där har strömmarna genom alla tre grenarna gått ihop, så hela strömmen från batteriet passerar.</p><p>Vid Q mäts bara strömmen genom R₁. Parallellkoppling över batteriet eller ett motstånd ger en kortslutning genom amperemetern.</p></div>",
+  "s": "<div class=\"facit-v2\"><p>Amperemetern kopplas i serie vid P. Där har strömmarna genom alla tre grenarna gått ihop, så hela strömmen från batteriet passerar.</p><p>Vid Q går bara strömmen genom R₁ och vid R bara strömmen genom R₂. Det spelar alltså roll vilken punkt du väljer. En amperemeter parallellt med batteriet ger en kortslutning genom mätaren.</p></div>",
   "familj": "Koppla in multimetern i kretsen",
   "familjNyckel": "multimeter__koppla_in",
   "formaga": [
@@ -195971,9 +195971,9 @@ window.BANK = [
       "kommentar": "Där går bara strömmen genom R₁."
     },
     {
-      "txt": "Parallellt med R₂.",
+      "txt": "Det spelar ingen roll: bryt vid P, Q eller R.",
       "ratt": false,
-      "kommentar": "Det kortsluter R₂ och mäter inte batteriets hela ström."
+      "kommentar": "Vid P går hela strömmen. Vid Q eller R går bara strömmen i en gren."
     }
   ],
   "självrättning": true,
@@ -196503,5 +196503,399 @@ window.BANK = [
   "traningsniva": 2,
   "arbetsinsats": 1,
   "ledtrad": "<p>Tecknet beror på hur mätspetsarna är vända vid batteriet.</p>"
+},
+{
+  "id": "8.566",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "samma ström på olika platser i en seriekrets",
+  "poang": "(1/0/0)",
+  "t": "<p>En lampa och en motor är kopplade som i figuren. Var kan du sätta in en amperemeter för att mäta strömmen genom motorn? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Lampa och motor i serie. P före lampan, Q mellan lampan och motorn och R på återledningen. C och D ligger på var sin sida om motorn.\" style=\"width:100%;max-width:440px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><path d=\"M55 125V65H420V265H55V175\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"150\" r=\"25\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"55\" y=\"147\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"55\" y=\"168\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><circle cx=\"195\" cy=\"65\" r=\"16\" fill=\"#fff8d6\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M185 55L205 75M185 75L205 55\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"195\" y=\"106\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><circle cx=\"420\" cy=\"165\" r=\"20\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"420\" y=\"172\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">M</text><circle cx=\"110\" cy=\"65\" r=\"5\" fill=\"#9b5d00\"/><text x=\"110\" y=\"51\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">P</text><circle cx=\"300\" cy=\"65\" r=\"5\" fill=\"#9b5d00\"/><text x=\"300\" y=\"51\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Q</text><circle cx=\"285\" cy=\"265\" r=\"5\" fill=\"#9b5d00\"/><text x=\"285\" y=\"250\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">R</text><circle cx=\"420\" cy=\"110\" r=\"5\" fill=\"#9b5d00\"/><text x=\"447\" y=\"116\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">C</text><circle cx=\"420\" cy=\"225\" r=\"5\" fill=\"#9b5d00\"/><text x=\"447\" y=\"231\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">D</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>P, Q och R fungerar alla.</strong> Det finns bara en väg för strömmen, så lika stor ström går genom lampan, motorn och återledningen. Bryt ledningen vid någon av punkterna och koppla in amperemetern i serie.</p><p>En parallellkoppling över motorn eller lampan blir fel.</p></div>",
+  "familj": "Koppla in multimetern i kretsen",
+  "familjNyckel": "multimeter__koppla_in",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "alternativ": [
+    {
+      "txt": "Det spelar ingen roll: bryt vid P, Q eller R.",
+      "ratt": true,
+      "kommentar": "Det finns ingen förgrening. Samma ström går genom P, Q, R och motorn."
+    },
+    {
+      "txt": "Parallellt med motorn: mellan C och D.",
+      "ratt": false,
+      "kommentar": "Amperemetern kortsluter motorn. Den ska ligga i serie."
+    },
+    {
+      "txt": "Parallellt med lampan.",
+      "ratt": false,
+      "kommentar": "Lampan kortsluts, så kretsens ström ändras."
+    },
+    {
+      "txt": "Ingen inkoppling fungerar utan att motorn tas bort.",
+      "ratt": false,
+      "kommentar": "Motorn ska vara kvar. Mätaren sätts in i serie med kretsen."
+    }
+  ],
+  "ledtrad": "<p>Finns det någon punkt där strömmen kan dela upp sig?</p>"
+},
+{
+  "id": "8.567",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "mäta motorström i en parallellkrets",
+  "poang": "(1/0/0)",
+  "t": "<p>En lampa och en motor ligger i var sin gren. Hur ska multimetern kopplas för att mäta strömmen genom motorn? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Lampa i övre grenen och motor i den undre. P före förgreningen, Q i lampgrenen och R i motorgrenen. C och D ligger före och efter motorn.\" style=\"width:100%;max-width:440px\"><rect width=\"480\" height=\"320\" fill=\"white\"/><path d=\"M55 125V50H155V235H435V110H155 M435 235V280H55V175\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"150\" r=\"25\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"55\" y=\"147\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"55\" y=\"168\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><circle cx=\"315\" cy=\"110\" r=\"16\" fill=\"#fff8d6\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M305 100L325 120M305 120L325 100\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"315\" y=\"151\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><circle cx=\"315\" cy=\"235\" r=\"20\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"315\" y=\"242\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">M</text><circle cx=\"110\" cy=\"50\" r=\"5\" fill=\"#9b5d00\"/><text x=\"110\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">P</text><circle cx=\"220\" cy=\"110\" r=\"5\" fill=\"#9b5d00\"/><text x=\"220\" y=\"96\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Q</text><circle cx=\"220\" cy=\"235\" r=\"5\" fill=\"#9b5d00\"/><text x=\"220\" y=\"221\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">R</text><circle cx=\"270\" cy=\"235\" r=\"5\" fill=\"#9b5d00\"/><text x=\"270\" y=\"269\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">C</text><circle cx=\"385\" cy=\"235\" r=\"5\" fill=\"#9b5d00\"/><text x=\"385\" y=\"269\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">D</text><circle cx=\"155\" cy=\"110\" r=\"4\" fill=\"#243447\"/><circle cx=\"435\" cy=\"235\" r=\"4\" fill=\"#243447\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Koppla amperemetern i serie vid R.</strong> Där går strömmen genom motorn. P ligger i huvudledningen och mäter summan av grenarnas strömmar, medan Q mäter lampans ström.</p><p>Det spelar alltså roll vilken punkt som väljs. En parallellkopplad amperemeter kortsluter motorn.</p></div>",
+  "familj": "Koppla in multimetern i kretsen",
+  "familjNyckel": "multimeter__koppla_in",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "alternativ": [
+    {
+      "txt": "I serie med lampan: bryt vid Q.",
+      "ratt": false,
+      "kommentar": "Vid Q mäts bara strömmen genom lampan."
+    },
+    {
+      "txt": "I serie med motorn: bryt vid R.",
+      "ratt": true,
+      "kommentar": "R ligger i motorgrenen."
+    },
+    {
+      "txt": "Parallellt med motorn: mellan C och D.",
+      "ratt": false,
+      "kommentar": "Det kortsluter motorgrenen genom amperemetern."
+    },
+    {
+      "txt": "Det spelar ingen roll: bryt vid P, Q eller R.",
+      "ratt": false,
+      "kommentar": "P mäter summan, Q lampans ström och R motorns ström."
+    }
+  ],
+  "ledtrad": "<p>Följ den gren som innehåller motorn.</p>"
+},
+{
+  "id": "8.568",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "samma spänning mellan likvärdiga punktpar",
+  "poang": "(1/0/0)",
+  "t": "<p>Du ska mäta spänningen över R₂. Vilken inkoppling fungerar? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Två parallella motstånd. A och B omsluter R1, C och D omsluter R2 och E och F ligger på var sin sida om batteriet. P ligger i R2:s gren.\" style=\"width:100%;max-width:440px\"><rect width=\"480\" height=\"320\" fill=\"white\"/><path d=\"M55 125V60H165V235H435V115H165 M435 235V285H55V175\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"150\" r=\"25\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"55\" y=\"147\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"55\" y=\"168\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><rect x=\"287\" y=\"104\" width=\"56\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"315\" y=\"93\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><rect x=\"287\" y=\"224\" width=\"56\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"315\" y=\"213\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><circle cx=\"215\" cy=\"115\" r=\"5\" fill=\"#9b5d00\"/><text x=\"215\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">A</text><circle cx=\"395\" cy=\"115\" r=\"5\" fill=\"#9b5d00\"/><text x=\"395\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">B</text><circle cx=\"215\" cy=\"235\" r=\"5\" fill=\"#9b5d00\"/><text x=\"215\" y=\"221\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">C</text><circle cx=\"395\" cy=\"235\" r=\"5\" fill=\"#9b5d00\"/><text x=\"395\" y=\"221\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">D</text><circle cx=\"105\" cy=\"60\" r=\"5\" fill=\"#9b5d00\"/><text x=\"105\" y=\"46\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">E</text><circle cx=\"105\" cy=\"285\" r=\"5\" fill=\"#9b5d00\"/><text x=\"105\" y=\"271\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">F</text><circle cx=\"265\" cy=\"235\" r=\"5\" fill=\"#9b5d00\"/><text x=\"265\" y=\"266\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">P</text><circle cx=\"165\" cy=\"115\" r=\"4\" fill=\"#243447\"/><circle cx=\"435\" cy=\"235\" r=\"4\" fill=\"#243447\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Alla tre paren A–B, C–D och E–F fungerar.</strong> Motstånden är parallellkopplade till batteriet, så spänningen är lika stor mellan dessa punktpar.</p><p>A och C sitter däremot på samma ledning, liksom B och D. De paren ger 0 V. Voltmetern ska inte kopplas in i serie vid P.</p></div>",
+  "familj": "Koppla in multimetern i kretsen",
+  "familjNyckel": "multimeter__koppla_in",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "alternativ": [
+    {
+      "txt": "I serie med R₂: bryt vid P.",
+      "ratt": false,
+      "kommentar": "En voltmeter ska kopplas parallellt, inte sättas in i serie."
+    },
+    {
+      "txt": "Mellan A och C.",
+      "ratt": false,
+      "kommentar": "A och C ligger på samma ledning. Där mäts 0 V."
+    },
+    {
+      "txt": "Det spelar ingen roll: mellan A–B, C–D eller E–F.",
+      "ratt": true,
+      "kommentar": "Alla tre punktparen är anslutna till samma två ledningar. Spänningen är lika stor över båda parallellgrenarna och batteriet."
+    },
+    {
+      "txt": "Mellan B och D.",
+      "ratt": false,
+      "kommentar": "B och D ligger på samma ledning. Där mäts 0 V."
+    }
+  ],
+  "ledtrad": "<p>Följ ledningarna. Vilka punkter är förbundna utan någon komponent mellan sig?</p>"
+},
+{
+  "id": "8.569",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "spänning över en del av en seriekrets",
+  "poang": "(1/0/0)",
+  "t": "<p>Tre motstånd ligger i serie. Hur kopplar du multimetern för att mäta spänningen över R₂ och R₃ tillsammans? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Tre motstånd i serie. A före R1, B mellan R1 och R2, C mellan R2 och R3 och D efter R3. P före R2.\" style=\"width:100%;max-width:440px\"><rect width=\"480\" height=\"320\" fill=\"white\"/><path d=\"M55 130V60H420V275H55V180\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"155\" r=\"25\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"55\" y=\"152\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"55\" y=\"173\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><rect x=\"197\" y=\"49\" width=\"56\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"225\" y=\"38\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><rect x=\"409\" y=\"137\" width=\"22\" height=\"56\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"455\" y=\"171\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><rect x=\"212\" y=\"264\" width=\"56\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"240\" y=\"253\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₃</text><circle cx=\"125\" cy=\"60\" r=\"5\" fill=\"#9b5d00\"/><text x=\"125\" y=\"46\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">A</text><circle cx=\"355\" cy=\"60\" r=\"5\" fill=\"#9b5d00\"/><text x=\"355\" y=\"46\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">B</text><circle cx=\"420\" cy=\"235\" r=\"5\" fill=\"#9b5d00\"/><text x=\"447\" y=\"241\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">C</text><circle cx=\"115\" cy=\"275\" r=\"5\" fill=\"#9b5d00\"/><text x=\"115\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">D</text><circle cx=\"420\" cy=\"105\" r=\"5\" fill=\"#9b5d00\"/><text x=\"447\" y=\"111\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">P</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Mellan B och D.</strong> R₂ och R₃ ligger tillsammans mellan dessa punkter, så voltmetern ligger parallellt med just den delen av kretsen.</p><p>A–D ger spänningen över alla tre motstånden. B–C ger bara spänningen över R₂. Valet av punktpar spelar därför roll.</p></div>",
+  "familj": "Koppla in multimetern i kretsen",
+  "familjNyckel": "multimeter__koppla_in",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "alternativ": [
+    {
+      "txt": "Mellan A och D.",
+      "ratt": false,
+      "kommentar": "Då mäts spänningen över alla tre motstånden."
+    },
+    {
+      "txt": "Parallellt med R₂ och R₃: mellan B och D.",
+      "ratt": true,
+      "kommentar": "B ligger före R₂ och D efter R₃."
+    },
+    {
+      "txt": "Mellan B och C.",
+      "ratt": false,
+      "kommentar": "Det ger bara spänningen över R₂."
+    },
+    {
+      "txt": "I serie: bryt vid P.",
+      "ratt": false,
+      "kommentar": "Voltmetern ska mäta mellan två punkter över komponenterna, inte sättas in i serie."
+    },
+    {
+      "txt": "Det spelar ingen roll vilka två punkter som väljs.",
+      "ratt": false,
+      "kommentar": "Olika punktpar omsluter olika motstånd och ger olika spänningar."
+    }
+  ],
+  "ledtrad": "<p>Följ kretsen från en punkt före R₂ till en punkt efter R₃.</p>"
+},
+{
+  "id": "8.570",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "totalström före och efter förgrening",
+  "poang": "(1/0/0)",
+  "t": "<p>Lampan ligger före de två grenarna. Var kan du sätta in en amperemeter för att mäta hela strömmen från batteriet? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Lampa i huvudledningen följd av två parallella motstånd. P före lampan, Q i grenen med R1, R i grenen med R2 och S på den gemensamma återledningen.\" style=\"width:100%;max-width:440px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M55 135V55H215V235H440V125H215 M440 235V290H55V185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"160\" r=\"25\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"55\" y=\"157\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"55\" y=\"178\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><circle cx=\"140\" cy=\"55\" r=\"16\" fill=\"#fff8d6\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M130 45L150 65M130 65L150 45\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"140\" y=\"96\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><rect x=\"312\" y=\"114\" width=\"56\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"340\" y=\"103\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><rect x=\"312\" y=\"224\" width=\"56\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"340\" y=\"213\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><circle cx=\"90\" cy=\"55\" r=\"5\" fill=\"#9b5d00\"/><text x=\"90\" y=\"41\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">P</text><circle cx=\"270\" cy=\"125\" r=\"5\" fill=\"#9b5d00\"/><text x=\"270\" y=\"111\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Q</text><circle cx=\"270\" cy=\"235\" r=\"5\" fill=\"#9b5d00\"/><text x=\"270\" y=\"221\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">R</text><circle cx=\"260\" cy=\"290\" r=\"5\" fill=\"#9b5d00\"/><text x=\"260\" y=\"276\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">S</text><circle cx=\"215\" cy=\"125\" r=\"4\" fill=\"#243447\"/><circle cx=\"440\" cy=\"235\" r=\"4\" fill=\"#243447\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>P och S fungerar.</strong> Vid P har strömmen ännu inte delats upp. Vid S har grenarnas strömmar gått ihop igen. Båda punkterna ger hela strömmen från batteriet.</p><p>Q och R ger bara strömmen i respektive gren. Mätaren ska ligga i serie, inte parallellt med lampan.</p></div>",
+  "familj": "Koppla in multimetern i kretsen",
+  "familjNyckel": "multimeter__koppla_in",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "alternativ": [
+    {
+      "txt": "I serie med R₁: vid Q.",
+      "ratt": false,
+      "kommentar": "Q mäter bara strömmen genom den övre grenen."
+    },
+    {
+      "txt": "I serie med R₂: vid R.",
+      "ratt": false,
+      "kommentar": "R mäter bara strömmen genom den undre grenen."
+    },
+    {
+      "txt": "I serie vid P eller S.",
+      "ratt": true,
+      "kommentar": "Hela strömmen går genom båda punkterna, före respektive efter grenarna."
+    },
+    {
+      "txt": "Parallellt med lampan.",
+      "ratt": false,
+      "kommentar": "Det leder strömmen förbi lampan genom mätaren."
+    },
+    {
+      "txt": "Det spelar ingen roll: P, Q, R eller S.",
+      "ratt": false,
+      "kommentar": "P och S mäter hela strömmen. Q och R mäter var sin grenström."
+    }
+  ],
+  "ledtrad": "<p>Jämför en punkt före förgreningen med en punkt efter att grenarna gått ihop.</p>"
+},
+{
+  "id": "8.571",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "välj rätt spänningsmätning bland fyra kopplingsscheman",
+  "poang": "(1/0/0)",
+  "t": "<p>Vilken bild visar rätt koppling för att mäta spänningen över R₂? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 440\" role=\"img\" aria-label=\"Fyra bilder: A voltmeter över båda motstånden, B voltmeter i serie, C voltmeter parallellt med R2, D amperemeter parallellt med R2.\" style=\"width:100%;max-width:440px\"><rect width=\"620\" height=\"440\" fill=\"white\"/><g transform=\"translate(0,0)\"><text x=\"15\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"start\" fill=\"#243447\">Bild A</text><path d=\"M40 102V65H275V190H40V138\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"40\" cy=\"120\" r=\"18\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"40\" y=\"117\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"40\" y=\"138\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><rect x=\"90\" y=\"54\" width=\"40\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"110\" y=\"45\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><rect x=\"180\" y=\"54\" width=\"40\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"200\" y=\"45\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M70 65V132H240V65\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"70\" cy=\"65\" r=\"4\" fill=\"#243447\"/><circle cx=\"240\" cy=\"65\" r=\"4\" fill=\"#243447\"/><circle cx=\"155\" cy=\"132\" r=\"20\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"155\" y=\"139\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">V</text></g><g transform=\"translate(310,0)\"><text x=\"15\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"start\" fill=\"#243447\">Bild B</text><path d=\"M40 102V65H275V190H40V138\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"40\" cy=\"120\" r=\"18\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"40\" y=\"117\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"40\" y=\"138\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><rect x=\"90\" y=\"54\" width=\"40\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"110\" y=\"45\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><rect x=\"180\" y=\"54\" width=\"40\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"200\" y=\"45\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><circle cx=\"160\" cy=\"190\" r=\"20\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"160\" y=\"197\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">V</text></g><g transform=\"translate(0,220)\"><text x=\"15\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"start\" fill=\"#243447\">Bild C</text><path d=\"M40 102V65H275V190H40V138\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"40\" cy=\"120\" r=\"18\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"40\" y=\"117\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"40\" y=\"138\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><rect x=\"90\" y=\"54\" width=\"40\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"110\" y=\"45\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><rect x=\"180\" y=\"54\" width=\"40\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"200\" y=\"45\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M150 65V132H250V65\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"65\" r=\"4\" fill=\"#243447\"/><circle cx=\"250\" cy=\"65\" r=\"4\" fill=\"#243447\"/><circle cx=\"200\" cy=\"132\" r=\"20\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"200\" y=\"139\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">V</text></g><g transform=\"translate(310,220)\"><text x=\"15\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"start\" fill=\"#243447\">Bild D</text><path d=\"M40 102V65H275V190H40V138\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"40\" cy=\"120\" r=\"18\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"40\" y=\"117\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"40\" y=\"138\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><rect x=\"90\" y=\"54\" width=\"40\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"110\" y=\"45\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₁</text><rect x=\"180\" y=\"54\" width=\"40\" height=\"22\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"200\" y=\"45\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R₂</text><path d=\"M150 65V132H250V65\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"150\" cy=\"65\" r=\"4\" fill=\"#243447\"/><circle cx=\"250\" cy=\"65\" r=\"4\" fill=\"#243447\"/><circle cx=\"200\" cy=\"132\" r=\"20\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"200\" y=\"139\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">A</text></g></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Bild C.</strong> Spänningen över R₂ mäts med en voltmeter mellan punkterna på var sin sida om R₂.</p><p>A mäter spänningen över båda motstånden. B visar en voltmeter i serie. D visar en amperemeter parallellt med R₂, vilket kortsluter motståndet.</p></div>",
+  "familj": "Koppla in multimetern i kretsen",
+  "familjNyckel": "multimeter__koppla_in",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "alternativ": [
+    {
+      "txt": "Bild C",
+      "ratt": true,
+      "kommentar": "Voltmetern sitter parallellt med R₂."
+    },
+    {
+      "txt": "Bild A",
+      "ratt": false,
+      "kommentar": "Voltmetern omsluter båda motstånden och visar deras sammanlagda spänning."
+    },
+    {
+      "txt": "Bild B",
+      "ratt": false,
+      "kommentar": "Voltmetern sitter i serie i kretsen, inte över R₂."
+    },
+    {
+      "txt": "Bild D",
+      "ratt": false,
+      "kommentar": "Det är en amperemeter. Parallellt med R₂ ger den en kortslutning."
+    }
+  ],
+  "ledtrad": "<p>Kontrollera både bokstaven i mätarsymbolen och vilka punkter mätaren är ansluten till.</p>"
+},
+{
+  "id": "8.572",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "C",
+  "typ": "lampström när den andra grenen är bruten",
+  "poang": "(0/1/0)",
+  "t": "<p>Brytaren är öppen. Var kan en amperemeter mäta strömmen genom lampan? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Lampa i en sluten undre gren och motor i en övre gren med öppen brytare. P i huvudledningen, Q före lampan och R i motorgrenen.\" style=\"width:100%;max-width:440px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><path d=\"M55 125V50H145V235H435V110H145 M435 235V285H55V175\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"150\" r=\"25\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"55\" y=\"147\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"55\" y=\"168\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><rect x=\"213\" y=\"104\" width=\"62\" height=\"12\" fill=\"white\"/><circle cx=\"215\" cy=\"110\" r=\"4\" fill=\"#243447\"/><circle cx=\"275\" cy=\"110\" r=\"4\" fill=\"#243447\"/><path d=\"M215 110L269 82\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"243\" y=\"69\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">brytare</text><circle cx=\"340\" cy=\"110\" r=\"20\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"340\" y=\"117\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">M</text><circle cx=\"315\" cy=\"235\" r=\"16\" fill=\"#fff8d6\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M305 225L325 245M305 245L325 225\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"315\" y=\"276\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><circle cx=\"105\" cy=\"50\" r=\"5\" fill=\"#9b5d00\"/><text x=\"105\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">P</text><circle cx=\"210\" cy=\"235\" r=\"5\" fill=\"#9b5d00\"/><text x=\"210\" y=\"221\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Q</text><circle cx=\"390\" cy=\"110\" r=\"5\" fill=\"#9b5d00\"/><text x=\"390\" y=\"93\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">R</text><circle cx=\"145\" cy=\"110\" r=\"4\" fill=\"#243447\"/><circle cx=\"435\" cy=\"235\" r=\"4\" fill=\"#243447\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>P och Q fungerar.</strong> Den öppna brytaren hindrar strömmen genom motorn. Därför går hela batteriets ström genom lampan, och strömmen är lika stor vid P och Q.</p><p>Vid R visar en seriekopplad amperemeter 0 A. En parallellkoppling över lampan blir en kortslutning genom mätaren.</p></div>",
+  "familj": "Koppla in multimetern i kretsen",
+  "familjNyckel": "multimeter__koppla_in",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "alternativ": [
+    {
+      "txt": "I serie vid R.",
+      "ratt": false,
+      "kommentar": "Brytaren är öppen, så ingen ström går genom motorgrenen."
+    },
+    {
+      "txt": "I serie vid P eller Q.",
+      "ratt": true,
+      "kommentar": "Ingen ström går genom motorgrenen när brytaren är öppen. Hela strömmen går genom lampan."
+    },
+    {
+      "txt": "Parallellt med lampan.",
+      "ratt": false,
+      "kommentar": "Amperemetern leder då strömmen förbi lampan."
+    },
+    {
+      "txt": "Det spelar ingen roll: bryt vid P, Q eller R.",
+      "ratt": false,
+      "kommentar": "R ligger i den öppna grenen och ger 0 A. P och Q mäter lampans ström."
+    }
+  ],
+  "ledtrad": "<p>Kan det gå någon ström genom en gren med en öppen brytare?</p>"
+},
+{
+  "id": "8.573",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "C",
+  "typ": "två mätare för ström och spänning",
+  "poang": "(0/1/0)",
+  "t": "<p>Du har två multimetrar. Den ena ska mäta strömmen genom lampan och den andra spänningen över R. Vilken inkoppling är rätt? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 315\" role=\"img\" aria-label=\"Lampa och motstånd i serie. P före lampan, A och B på var sin sida om R. C före lampan och D på återledningen.\" style=\"width:100%;max-width:440px\"><rect width=\"480\" height=\"315\" fill=\"white\"/><path d=\"M55 130V60H420V270H55V180\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><circle cx=\"55\" cy=\"155\" r=\"25\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"55\" y=\"152\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"55\" y=\"173\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−</text><circle cx=\"230\" cy=\"60\" r=\"16\" fill=\"#fff8d6\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M220 50L240 70M220 70L240 50\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\" stroke-linejoin=\"round\" stroke-linecap=\"round\"/><text x=\"230\" y=\"101\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">L</text><rect x=\"409\" y=\"137\" width=\"22\" height=\"56\" fill=\"white\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"455\" y=\"171\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">R</text><circle cx=\"140\" cy=\"60\" r=\"5\" fill=\"#9b5d00\"/><text x=\"140\" y=\"46\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">P</text><circle cx=\"420\" cy=\"105\" r=\"5\" fill=\"#9b5d00\"/><text x=\"447\" y=\"111\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">A</text><circle cx=\"420\" cy=\"230\" r=\"5\" fill=\"#9b5d00\"/><text x=\"447\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">B</text><circle cx=\"90\" cy=\"60\" r=\"5\" fill=\"#9b5d00\"/><text x=\"90\" y=\"46\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">C</text><circle cx=\"110\" cy=\"270\" r=\"5\" fill=\"#9b5d00\"/><text x=\"110\" y=\"255\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">D</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Amperemetern i serie vid P och voltmetern mellan A och B.</strong> Samma ström går genom lampan och amperemetern. A och B ligger på var sin sida om R, så voltmetern är parallellkopplad med R.</p><p>C–D omsluter hela seriekretsen och ger därför inte bara spänningen över R. En voltmeter i serie eller amperemeter parallellt är felkopplad.</p></div>",
+  "familj": "Koppla in multimetern i kretsen",
+  "familjNyckel": "multimeter__koppla_in",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "alternativ": [
+    {
+      "txt": "Amperemetern parallellt med lampan; voltmetern mellan A och B.",
+      "ratt": false,
+      "kommentar": "Voltmetern är rätt kopplad men amperemetern ska ligga i serie."
+    },
+    {
+      "txt": "Amperemetern i serie vid P; voltmetern mellan C och D.",
+      "ratt": false,
+      "kommentar": "Strömmätningen är rätt, men voltmetern mäter spänningen över både lampan och R."
+    },
+    {
+      "txt": "Amperemetern i serie vid P; voltmetern mellan A och B.",
+      "ratt": true,
+      "kommentar": "Amperemetern mäter lampans ström och voltmetern spänningen över just R."
+    },
+    {
+      "txt": "Amperemetern i serie vid P; voltmetern i serie vid A.",
+      "ratt": false,
+      "kommentar": "Voltmetern ska ligga över R, inte i serie i kretsen."
+    }
+  ],
+  "ledtrad": "<p>Kontrollera en mätare i taget: först strömmen genom lampan, sedan spänningen över R.</p>"
 }
 ];

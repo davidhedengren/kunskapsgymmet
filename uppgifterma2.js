@@ -13767,5 +13767,296 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
   "rättSvar": 2,
   "tolerans": 0,
   "svarFormat": "numeriskt"
+},
+{
+  "id": "1.696",
+  "kap": 1,
+  "omr": "linjara_ekvationssystem",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "balansvågar",
+  "t": "<p>Båda vågarna är i balans. Alla äpplen väger lika mycket. Hur mycket väger ett äpple och hur mycket väger melonen? (Svara i gram.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 470 200\" role=\"img\" aria-label=\"Två balansvågar i jämvikt. Vänster våg: två äpplen och en melon väger lika mycket som 1 100 g. Höger våg: ett äpple och en melon väger lika mycket som 950 g.\" style=\"width:100%;max-width:470px\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"120,150 106,176 134,176\" fill=\"#9aa7b4\"/><line x1=\"20\" y1=\"150\" x2=\"220\" y2=\"150\" stroke=\"#172b3a\" stroke-width=\"4\"/><circle cx=\"40\" cy=\"136\" r=\"12\" fill=\"#e45a5a\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><circle cx=\"68\" cy=\"136\" r=\"12\" fill=\"#e45a5a\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><ellipse cx=\"106\" cy=\"130\" rx=\"22\" ry=\"18\" fill=\"#9fd08a\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><rect x=\"150\" y=\"118\" width=\"62\" height=\"30\" rx=\"4\" fill=\"#eef1f4\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"181\" y=\"139\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">1 100 g</text><polygon points=\"355,150 341,176 369,176\" fill=\"#9aa7b4\"/><line x1=\"255\" y1=\"150\" x2=\"455\" y2=\"150\" stroke=\"#172b3a\" stroke-width=\"4\"/><circle cx=\"275\" cy=\"136\" r=\"12\" fill=\"#e45a5a\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><ellipse cx=\"313\" cy=\"130\" rx=\"22\" ry=\"18\" fill=\"#9fd08a\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><rect x=\"385\" y=\"118\" width=\"62\" height=\"30\" rx=\"4\" fill=\"#eef1f4\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"416\" y=\"139\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">950 g</text><text x=\"120\" y=\"40\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" text-anchor=\"middle\">Våg 1</text><text x=\"355\" y=\"40\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" text-anchor=\"middle\">Våg 2</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Med äpplet \\(a\\) g och melonen \\(m\\) g: \\(2a+m=1100\\) och \\(a+m=950\\).</p><p>Subtrahera: \\(a=150\\). Då är \\(m=950-150=800\\).</p></div>",
+  "familj": "Ställa upp ekvationssystem i sammanhang",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför vågarna. Vad skiljer dem åt?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    150,
+    800
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "äpple",
+    "melon"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "g",
+    "g"
+  ]
+},
+{
+  "id": "1.697",
+  "kap": 1,
+  "omr": "linjara_ekvationssystem",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "rektangel med omkrets och skillnad",
+  "t": "<p>En rektangel har omkretsen 30 cm. Längden är 3 cm större än bredden. Bestäm längd och bredd. (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 175\" role=\"img\" aria-label=\"En rektangel med sidorna längd och bredd markerade.\" style=\"width:100%;max-width:320px\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"173\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"80\" y=\"40\" width=\"180\" height=\"110\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><text x=\"170\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" text-anchor=\"middle\">längd</text><text x=\"72\" y=\"100\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" text-anchor=\"end\">bredd</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Med längden \\(l\\) och bredden \\(b\\): \\(2l+2b=30\\) och \\(l=b+3\\).</p><p>Insättning: \\(2(b+3)+2b=30\\), \\(4b=24\\), \\(b=6\\) och \\(l=9\\).</p></div>",
+  "familj": "Ställa upp ekvationssystem i sammanhang",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv en ekvation för omkretsen och en för skillnaden.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    9,
+    6
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "längd",
+    "bredd"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "cm",
+    "cm"
+  ]
+},
+{
+  "id": "1.698",
+  "kap": 1,
+  "omr": "linjara_ekvationssystem",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "blanda två lösningar",
+  "t": "<p>En kemist ska blanda 20 liter av en lösning som innehåller 25 % syra. Hon har en lösning med 10 % syra och en med 40 % syra. Hur många liter ska hon ta av varje? (Ange 10 %-lösningen först.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Med \\(x\\) liter av 10 %-lösningen och \\(y\\) liter av 40 %-lösningen:</p><p>\\(x+y=20\\) (total volym) och \\(0{,}10x+0{,}40y=0{,}25\\cdot20=5\\) (mängd syra).</p><p>\\(x=20-y\\) ger \\(2-0{,}1y+0{,}4y=5\\), \\(0{,}3y=3\\), \\(y=10\\) och \\(x=10\\).</p></div>",
+  "familj": "Ställa upp ekvationssystem i sammanhang",
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Ställ upp en ekvation för volymen och en för mängden syra.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    10,
+    10
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "10 %",
+    "40 %"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "liter",
+    "liter"
+  ]
+},
+{
+  "id": "1.699",
+  "kap": 1,
+  "omr": "linjara_ekvationssystem",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "kvitto från kaféet",
+  "t": "<p>Två kaffe och tre bullar kostar 105 kr. Ett kaffe och två bullar kostar 60 kr. Vad kostar ett kaffe och vad kostar en bulle? (Svara i kr.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(2k+3b=105\\) och \\(k+2b=60\\). Multiplicera den andra med 2: \\(2k+4b=120\\).</p><p>Subtrahera den första: \\(b=15\\). Då är \\(k=60-30=30\\).</p></div>",
+  "familj": "Ställa upp ekvationssystem i sammanhang",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Gör så att antalet kaffe blir lika i båda ekvationerna.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    30,
+    15
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "kaffe",
+    "bulle"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "kr",
+    "kr"
+  ]
+},
+{
+  "id": "1.700",
+  "kap": 1,
+  "omr": "linjara_ekvationssystem",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "tvåsiffrigt tal",
+  "t": "<p>Siffersumman i ett tvåsiffrigt tal är 9. Om siffrorna byter plats blir talet 27 större. Vilket är talet?</p>",
+  "s": "<div class=\"facit-v2\"><p>Med tiotalssiffran \\(a\\) och entalssiffran \\(b\\) är talet \\(10a+b\\). Villkoren ger \\(a+b=9\\) och \\(10b+a=10a+b+27\\), alltså \\(b-a=3\\).</p><p>Addera ekvationerna: \\(2b=12\\), \\(b=6\\) och \\(a=3\\). Talet är 36 (och \\(63-36=27\\)).</p></div>",
+  "familj": "Ställa upp ekvationssystem i sammanhang",
+  "formaga": [
+    "problemlösning",
+    "modellering"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv talet som 10a + b.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 36,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "1.701",
+  "kap": 1,
+  "omr": "linjara_ekvationssystem",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "båt med och mot strömmen",
+  "t": "<p>En båt kör 24 km med strömmen på 2 timmar och samma sträcka mot strömmen på 3 timmar. Bestäm båtens fart i stilla vatten och strömmens fart. (Svara i km/h.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Med båtens fart \\(v\\) och strömmens fart \\(s\\): med strömmen \\(v+s=\\dfrac{24}{2}=12\\), mot strömmen \\(v-s=\\dfrac{24}{3}=8\\).</p><p>Addera: \\(2v=20\\), \\(v=10\\) km/h, och \\(s=2\\) km/h.</p></div>",
+  "familj": "Ställa upp ekvationssystem i sammanhang",
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm farten med och mot strömmen först.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    10,
+    2
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "båt",
+    "ström"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "km/h",
+    "km/h"
+  ]
 }
 ];

@@ -102753,5 +102753,181 @@ window.BANKMATO1 = [
       "kommentar": "Faktorn −0,5 gör derivatan negativ."
     }
   ]
+},
+{
+  "id": "4.506",
+  "kap": 4,
+  "omr": "areasatsen",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "okänd sida ur arean",
+  "t": "<p>Triangeln har arean 30 cm². Sidan \\(CB\\) är 10 cm och vinkeln \\(C\\) är \\(40^\\circ\\). Bestäm sidan \\(x=CA\\). (Svara i cm med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 240\" role=\"img\" aria-label=\"Triangel ABC där sidan CB är 10 cm, sidan CA är okänd och vinkeln C är 40 grader. Arean är 30 kvadratcentimeter.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"266.8,46.0 328.8,176.6 111.2,176.6\" fill=\"#f2f6fb\" stroke=\"none\"/><line x1=\"111.2\" y1=\"176.6\" x2=\"328.8\" y2=\"176.6\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"328.8\" y1=\"176.6\" x2=\"266.8\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"266.8\" y1=\"46.0\" x2=\"111.2\" y2=\"176.6\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><path d=\"M137.2 154.7 A34 34 0 0 1 145.2 176.6\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2\"/><text x=\"163.8\" y=\"163.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c8372d\">40°</text><circle cx=\"111.2\" cy=\"176.6\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"95.2\" y=\"192.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><circle cx=\"328.8\" cy=\"176.6\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"336.8\" y=\"192.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><circle cx=\"266.8\" cy=\"46.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"260.8\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><text x=\"220.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">10 cm</text><text x=\"167.8\" y=\"91.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">x</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Areasatsen: \\(\\tfrac12\\cdot10\\cdot x\\cdot\\sin40^\\circ=30\\).</p><p>\\(x=\\dfrac{60}{10\\sin40^\\circ}\\approx9{,}3\\) cm.</p></div>",
+  "familj": "Areasatsen i sammansatta figurer och omvända problem",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Sätt in de kända värdena i T = ab sin C / 2 och lös ut x.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 9.3,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm"
+},
+{
+  "id": "4.507",
+  "kap": 4,
+  "omr": "areasatsen",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "regelbunden sexhörning",
+  "t": "<p>En regelbunden sexhörning har sidan 4 cm. Den delas in i sex likadana trianglar från mittpunkten. Bestäm sexhörningens area. (Svara i cm² med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 260\" role=\"img\" aria-label=\"En regelbunden sexhörning med sidan 4 cm, uppdelad i sex likadana trianglar från mittpunkten. Vinkeln i mitten av en triangel är 60 grader.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"316.4,130.0 267.9,46.0 170.9,46.0 122.4,130.0 170.9,214.0 267.9,214.0\" fill=\"#f2f6fb\" stroke=\"none\"/><line x1=\"316.4\" y1=\"130.0\" x2=\"267.9\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"219.4\" y1=\"130.0\" x2=\"316.4\" y2=\"130.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"267.9\" y1=\"46.0\" x2=\"170.9\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"219.4\" y1=\"130.0\" x2=\"267.9\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"170.9\" y1=\"46.0\" x2=\"122.4\" y2=\"130.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"219.4\" y1=\"130.0\" x2=\"170.9\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"122.4\" y1=\"130.0\" x2=\"170.9\" y2=\"214.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"219.4\" y1=\"130.0\" x2=\"122.4\" y2=\"130.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"170.9\" y1=\"214.0\" x2=\"267.9\" y2=\"214.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"219.4\" y1=\"130.0\" x2=\"170.9\" y2=\"214.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"267.9\" y1=\"214.0\" x2=\"316.4\" y2=\"130.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"219.4\" y1=\"130.0\" x2=\"267.9\" y2=\"214.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><path d=\"M232.4 107.5 A26 26 0 0 1 245.4 130.0\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2\"/><text x=\"257.5\" y=\"114.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c8372d\">60°</text><text x=\"317.6\" y=\"71.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">4 cm</text><circle cx=\"219.4\" cy=\"130.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Varje triangel har vinkeln \\(\\dfrac{360^\\circ}{6}=60^\\circ\\) i mitten. Trianglarna är liksidiga, så sidorna från mitten är också 4 cm.</p><p>En triangel: \\(\\tfrac12\\cdot4\\cdot4\\cdot\\sin60^\\circ\\approx6{,}93\\) cm². Hela sexhörningen: \\(6\\cdot6{,}93\\approx41{,}6\\) cm².</p></div>",
+  "familj": "Areasatsen i sammansatta figurer och omvända problem",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hur stor är vinkeln i mitten av varje triangel? Hur långa är sidorna från mitten?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 41.6,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm²"
+},
+{
+  "id": "4.508",
+  "kap": 4,
+  "omr": "areasatsen",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "tomt delad i två trianglar",
+  "t": "<p>En tomt har formen av fyrhörningen \\(ABCD\\). Diagonalen \\(BD\\) delar den i två trianglar med måtten i figuren. Bestäm tomtens area. (Svara i hela m².)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Fyrhörningen ABCD, en tomt, delad av den streckade diagonalen BD i två trianglar. AB = 32 m, AD = 25 m och vinkel A = 80°. CB = 28 m, CD = 30 m och vinkel C = 79°.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"99.2,236.5 314.8,236.5 329.4,48.4 128.5,70.6\" fill=\"#f2f6fb\" stroke=\"none\"/><line x1=\"99.2\" y1=\"236.5\" x2=\"314.8\" y2=\"236.5\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"314.8\" y1=\"236.5\" x2=\"329.4\" y2=\"48.4\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"329.4\" y1=\"48.4\" x2=\"128.5\" y2=\"70.6\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"128.5\" y1=\"70.6\" x2=\"99.2\" y2=\"236.5\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"314.8\" y1=\"236.5\" x2=\"128.5\" y2=\"70.6\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><path d=\"M103.7 210.9 A26 26 0 0 1 125.2 236.5\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2\"/><text x=\"132.9\" y=\"214.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c8372d\">80°</text><path d=\"M327.4 74.3 A26 26 0 0 1 303.5 51.2\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2\"/><text x=\"297.4\" y=\"87.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c8372d\">79°</text><circle cx=\"99.2\" cy=\"236.5\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"83.2\" y=\"252.5\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"314.8\" cy=\"236.5\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"322.8\" y=\"252.5\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><circle cx=\"329.4\" cy=\"48.4\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"337.4\" y=\"44.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><circle cx=\"128.5\" cy=\"70.6\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"118.5\" y=\"60.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">D</text><text x=\"207.0\" y=\"254.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">32 m</text><text x=\"89.6\" y=\"153.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">25 m</text><text x=\"350.4\" y=\"146.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">28 m</text><text x=\"233.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">30 m</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Triangel \\(ABD\\): \\(\\tfrac12\\cdot32\\cdot25\\cdot\\sin80^\\circ\\approx393{,}9\\) m².</p><p>Triangel \\(BCD\\): \\(\\tfrac12\\cdot28\\cdot30\\cdot\\sin79^\\circ\\approx412{,}3\\) m².</p><p>Tomtens area är ungefär \\(806\\) m². Diagonalens längd behövs inte.</p></div>",
+  "familj": "Areasatsen i sammansatta figurer och omvända problem",
+  "formaga": [
+    "problemlösning",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Beräkna arean av de två trianglarna var för sig med areasatsen.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 806.2,
+  "tolerans": 0.75,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m²"
+},
+{
+  "id": "4.509",
+  "kap": 4,
+  "omr": "areasatsen",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "största möjliga area",
+  "t": "<p>En triangel har två sidor som är 6 cm och 10 cm. Vinkeln mellan dem kan ändras. Vilken är den största möjliga arean? (Svara i cm².)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(T=\\tfrac12\\cdot6\\cdot10\\cdot\\sin v=30\\sin v\\). Eftersom \\(\\sin v\\le1\\) blir arean störst, 30 cm², när \\(v=90^\\circ\\).</p></div>",
+  "familj": "Areasatsen i sammansatta figurer och omvända problem",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket är det största värdet som sin v kan ha?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 30,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm²"
+},
+{
+  "id": "4.510",
+  "kap": 4,
+  "omr": "areasatsen",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "parallellogrammens area",
+  "t": "<p>En parallellogram har sidorna 12 cm och 7 cm och en vinkel på \\(65^\\circ\\). Bestäm parallellogrammens area. (Svara i cm² med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 230\" role=\"img\" aria-label=\"Parallellogram ABCD med sidorna 12 cm och 7 cm och vinkeln 65 grader vid A. Diagonalen BD delar den i två likadana trianglar.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"77.5,166.9 306.1,166.9 362.5,46.0 133.9,46.0\" fill=\"#f2f6fb\" stroke=\"none\"/><line x1=\"77.5\" y1=\"166.9\" x2=\"306.1\" y2=\"166.9\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"306.1\" y1=\"166.9\" x2=\"362.5\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"362.5\" y1=\"46.0\" x2=\"133.9\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"133.9\" y1=\"46.0\" x2=\"77.5\" y2=\"166.9\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"306.1\" y1=\"166.9\" x2=\"133.9\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><path d=\"M89.4 141.5 A28 28 0 0 1 105.5 166.9\" fill=\"none\" stroke=\"#c8372d\" stroke-width=\"2\"/><text x=\"116.3\" y=\"148.1\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c8372d\">65°</text><text x=\"191.8\" y=\"184.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">12 cm</text><text x=\"85.1\" y=\"98.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">7 cm</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Diagonalen delar parallellogrammen i två likadana trianglar, var och en med arean \\(\\tfrac12\\cdot12\\cdot7\\cdot\\sin65^\\circ\\).</p><p>Hela arean: \\(12\\cdot7\\cdot\\sin65^\\circ\\approx76{,}1\\) cm².</p></div>",
+  "familj": "Areasatsen i sammansatta figurer och omvända problem",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Dela parallellogrammen med en diagonal. Hur många likadana trianglar får du?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 76.1,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm²"
+},
+{
+  "id": "4.511",
+  "kap": 4,
+  "omr": "areasatsen",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "toppvinkel ur arean i likbent triangel",
+  "t": "<p>En likbent triangel har två lika långa sidor som är 4 cm, och arean är 8 cm². Hur stor är vinkeln mellan de lika långa sidorna? (Svara i grader.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\tfrac12\\cdot4\\cdot4\\cdot\\sin v=8\\) ger \\(8\\sin v=8\\), alltså \\(\\sin v=1\\) och \\(v=90^\\circ\\).</p><p>Det är den största area en triangel med två sidor på 4 cm kan ha.</p></div>",
+  "familj": "Areasatsen i sammansatta figurer och omvända problem",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ställ upp areasatsen och lös ut sin v.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 90,
+  "tolerans": 0,
+  "svarFormat": "grader"
 }
 ];

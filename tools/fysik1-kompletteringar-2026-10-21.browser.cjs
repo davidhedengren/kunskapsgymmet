@@ -16,7 +16,7 @@ const batches={medicin:{ids:Array.from({length:8},(_,i)=>'9.'+(436+i)),numeric:{
  '9.439':{good:['3','3 h','180 min'],bad:['6','1.5','3 s']},
  '9.440':{good:['720','720 MBq','0.72 GBq'],bad:['45','180','360']},
  '9.441':{good:['120','180-60','5!'],bad:['100','119','180','60']}
-}}};
+}},standard:{ids:Array.from({length:8},(_,i)=>'9.'+(444+i)),numeric:{'9.448':{good:['21','7*3','3*(3+4)','21.0'],bad:['7','9','24','20.99']}}}};
 const batchName=process.argv[2]||'medicin',batch=batches[batchName];assert.ok(batch,batchName);
 let checks=0,views=0;const issues=[];await page.evaluate(()=>selectCourse('fy1'));
 for(const width of [390,1280]){await page.setViewportSize({width,height:1000});
@@ -30,6 +30,15 @@ for(const width of [390,1280]){await page.setViewportSize({width,height:1000});
   await page.evaluate(id=>{reviewTask(id);showSolution();scrollTo(0,0);},id);
   const status=await page.evaluate(()=>({latex:document.querySelectorAll('.katex-error').length,wide:document.documentElement.scrollWidth>innerWidth+1}));if(status.latex||status.wide)issues.push({id,width,...status});views++;
   await page.locator('.task').screenshot({path:`/tmp/fy1-komplettering/${batchName}-${id}-${width}.png`});
+ }
+}
+if(batchName==='standard')for(const width of [390,1280]){
+ await page.setViewportSize({width,height:1000});
+ for(const item of [{id:'9.261',good:['1','+1 e'],bad:['2']},{id:'9.262',good:['0','0 e'],bad:['1']},{id:'9.263',good:['2','2 e'],bad:['1']},{id:'9.264',good:['-1','-1 e'],bad:['1']},{id:'9.265',good:['1','1 e'],bad:['-1']},{id:'9.329',part:0,good:['3','3.0'],bad:['2']},{id:'9.329',part:1,good:['0','0.0'],bad:['1']}]){
+  for(const [list,want]of [[item.good,true],[item.bad,false]])for(const input of list){const result=await page.evaluate(([id,part,input])=>{reviewTask(id,part);document.getElementById('ans-0').value=input;checkAnswer();return window.result||state.partResults;},[item.id,item.part,input]);assert.ok(result.length,item.id);assert.equal(result.every(Boolean),want,item.id+' '+input);checks++;}
+  await page.evaluate(([id,part])=>{reviewTask(id,part);showSolution();},[item.id,item.part]);
+  const status=await page.evaluate(()=>({latex:document.querySelectorAll('.katex-error').length,wide:document.documentElement.scrollWidth>innerWidth+1}));if(status.latex||status.wide)issues.push({id:item.id,part:item.part,width,...status});views++;
+  await page.locator('.task').screenshot({path:`/tmp/fy1-komplettering/${batchName}-${item.id}-${item.part??'root'}-${width}.png`});
  }
 }
 const gallery=await browser.newPage({viewport:{width:1100,height:900}});let html='<html><body style="margin:24px;font-family:sans-serif;display:grid;grid-template-columns:1fr 1fr;gap:24px">';

@@ -146597,7 +146597,7 @@ window.BANK = [
     "omr": "standardmodellen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En proton består av två uppkvarkar och en nedkvark. Visa att deras sammanlagda laddning blir \\(+1e\\). Uppkvarken har laddningen \\(+\\frac23e\\) och nedkvarken \\(-\\frac13e\\).</p>",
+    "t": "<p>En proton består av två uppkvarkar och en nedkvark. Visa att deras sammanlagda laddning blir +e.</p>",
     "s": "<div class=\"facit-v2\"><p>Lägg ihop de två uppkvarkarnas och nedkvarkens laddningar.</p><p>\\[Q=(2/3+2/3-1/3)e=+e\\]</p></div>",
     "familj": "Elementarpartiklar och kvarkar",
     "formaga": [
@@ -180135,7 +180135,7 @@ window.BANK = [
     "omr": "standardmodellen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En proton består av två uppkvarkar och en nedkvark. Uppkvarken har laddningen +2/3 e och nedkvarken −1/3 e. Bestäm protonens laddning i enheten e.</p>",
+    "t": "<p>En proton består av två uppkvarkar och en nedkvark. Bestäm protonens laddning. (Svara i enheten e.)</p>",
     "s": "<div class=\"facit-v2\"><p>Summera laddningarna.</p><p>\\[Q/e=2/3+2/3-1/3=1\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
@@ -180145,7 +180145,7 @@ window.BANK = [
     "rättSvar": 1,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Lägg ihop de angivna laddningarna.</p>",
+    "ledtrad": "<p>Hitta kvarkarnas laddningar i formelsamlingen och lägg ihop dem.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -180161,7 +180161,7 @@ window.BANK = [
     "omr": "standardmodellen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En neutron består av en uppkvark och två nedkvarkar. Uppkvarken har laddningen +2/3 e och nedkvarken −1/3 e. Bestäm neutronens laddning i enheten e.</p>",
+    "t": "<p>En neutron består av en uppkvark och två nedkvarkar. Bestäm neutronens laddning. (Svara i enheten e.)</p>",
     "s": "<div class=\"facit-v2\"><p>Summera laddningarna.</p><p>\\[Q/e=2/3-1/3-1/3=0\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
@@ -180171,7 +180171,7 @@ window.BANK = [
     "rättSvar": 0,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Lägg ihop de angivna laddningarna.</p>",
+    "ledtrad": "<p>Hitta kvarkarnas laddningar i formelsamlingen och lägg ihop dem.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -180187,7 +180187,7 @@ window.BANK = [
     "omr": "standardmodellen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En partikel består av tre uppkvarkar. Varje uppkvark har laddningen +2/3 e. Bestäm partikelns laddning i enheten e.</p>",
+    "t": "<p>En partikel består av tre uppkvarkar. Bestäm partikelns laddning. (Svara i enheten e.)</p>",
     "s": "<div class=\"facit-v2\"><p>Summera laddningarna.</p><p>\\[Q/e=3\\cdot2/3=2\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
@@ -180197,7 +180197,7 @@ window.BANK = [
     "rättSvar": 2,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Lägg ihop de angivna laddningarna.</p>",
+    "ledtrad": "<p>Hitta kvarkarnas laddningar i formelsamlingen och lägg ihop dem.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -180213,7 +180213,7 @@ window.BANK = [
     "omr": "standardmodellen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En antiproton består av två anti-uppkvarkar och en anti-nedkvark. Uppkvarken har laddningen +2/3 e och nedkvarken −1/3 e. Antikvarkar har motsatt laddning. Bestäm antiprotonens laddning i enheten e.</p>",
+    "t": "<p>En antiproton består av två anti-uppkvarkar och en anti-nedkvark. Bestäm antiprotonens laddning. (Svara i enheten e.)</p>",
     "s": "<div class=\"facit-v2\"><p>Byt först tecken för antikvarkarna och summera sedan.</p><p>\\[Q/e=-2/3-2/3+1/3=-1\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
@@ -180223,7 +180223,7 @@ window.BANK = [
     "rättSvar": -1,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Lägg ihop de angivna laddningarna.</p>",
+    "ledtrad": "<p>Hitta kvarkarnas laddningar i formelsamlingen och lägg ihop dem. En antikvark har motsatt laddning mot motsvarande kvark.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -180239,7 +180239,7 @@ window.BANK = [
     "omr": "standardmodellen",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>En positiv pion består av en uppkvark och en anti-nedkvark. Uppkvarken har laddningen +2/3 e och nedkvarken −1/3 e. Antikvarkar har motsatt laddning. Bestäm pionens laddning i enheten e.</p>",
+    "t": "<p>En positiv pion består av en uppkvark och en anti-nedkvark. Bestäm pionens laddning. (Svara i enheten e.)</p>",
     "s": "<div class=\"facit-v2\"><p>Byt först tecken för antikvarkarna och summera sedan.</p><p>\\[Q/e=2/3+1/3=1\\]</p></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
@@ -180249,7 +180249,7 @@ window.BANK = [
     "rättSvar": 1,
     "tolerans": 0,
     "självrättning": true,
-    "ledtrad": "<p>Lägg ihop de angivna laddningarna.</p>",
+    "ledtrad": "<p>Hitta kvarkarnas laddningar i formelsamlingen och lägg ihop dem. En antikvark har motsatt laddning mot motsvarande kvark.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -180474,8 +180474,8 @@ window.BANK = [
     "omr": "standardmodellen",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>Baryoner består av tre kvarkar av typerna u och d. Uppkvarken har laddningen +2/3 e och nedkvarken −1/3 e.</p><p>a) En baryon består av tre kvarkar av typerna u och d. En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e. Baryonen har laddningen +2 e. Hur många u-kvarkar har den?</p><p>b) En baryon består av tre kvarkar av typerna u och d. En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e. Baryonen har laddningen −1 e. Hur många u-kvarkar har den?</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Med n uppkvarkar finns 3 − n nedkvarkar.</p><p>\\[Q/e=2n/3-(3-n)/3=n-1\\]</p><p>\\[n-1=2\\quad\\Rightarrow\\quad n=3\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Med n uppkvarkar finns 3 − n nedkvarkar.</p><p>\\[Q/e=2n/3-(3-n)/3=n-1\\]</p><p>\\[n-1=-1\\quad\\Rightarrow\\quad n=0\\]</p></div></div>",
+    "t": "<p>En viss baryon består av tre kvarkar av typerna u och d.</p><p>a) En baryon består av tre kvarkar av typerna u och d och har laddningen +2 e. Hur många u-kvarkar har den? (Svara med ett heltal.)</p><p>b) En baryon består av tre kvarkar av typerna u och d och har laddningen −1 e. Hur många u-kvarkar har den? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e.</p><p>Med n uppkvarkar finns 3 − n nedkvarkar.</p><p>\\[Q/e=2n/3-(3-n)/3=n-1\\]</p><p>\\[n-1=2\\quad\\Rightarrow\\quad n=3\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e.</p><p>Med n uppkvarkar finns 3 − n nedkvarkar.</p><p>\\[Q/e=2n/3-(3-n)/3=n-1\\]</p><p>\\[n-1=-1\\quad\\Rightarrow\\quad n=0\\]</p></div></div>",
     "familj": "Kvarkarnas laddning",
     "formaga": [
       "procedur",
@@ -180505,13 +180505,13 @@ window.BANK = [
       "b"
     ],
     "svarsstruktur": "ordnad",
-    "spelIntro": "<p>Baryoner består av tre kvarkar av typerna u och d. Uppkvarken har laddningen +2/3 e och nedkvarken −1/3 e.</p>",
+    "spelIntro": "<p>En viss baryon består av tre kvarkar av typerna u och d.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En baryon består av tre kvarkar av typerna u och d. En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e. Baryonen har laddningen +2 e. Hur många u-kvarkar har den?",
-        "s": "<div class=\"facit-v2\"><p>Med n uppkvarkar finns 3 − n nedkvarkar.</p><p>\\[Q/e=2n/3-(3-n)/3=n-1\\]</p><p>\\[n-1=2\\quad\\Rightarrow\\quad n=3\\]</p></div>",
+        "fraga": "En baryon består av tre kvarkar av typerna u och d och har laddningen +2 e. Hur många u-kvarkar har den? (Svara med ett heltal.)",
+        "s": "<div class=\"facit-v2\"><p>En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e.</p><p>Med n uppkvarkar finns 3 − n nedkvarkar.</p><p>\\[Q/e=2n/3-(3-n)/3=n-1\\]</p><p>\\[n-1=2\\quad\\Rightarrow\\quad n=3\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 3,
         "självrättning": true,
@@ -180523,14 +180523,14 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Låt n vara antalet u-kvarkar. Då finns 3 − n d-kvarkar.</p>",
-        "t": "<p>En baryon består av tre kvarkar av typerna u och d. En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e. Baryonen har laddningen +2 e. Hur många u-kvarkar har den?</p>",
+        "t": "<p>En baryon består av tre kvarkar av typerna u och d och har laddningen +2 e. Hur många u-kvarkar har den? (Svara med ett heltal.)</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       },
       {
         "etikett": "b",
-        "fraga": "En baryon består av tre kvarkar av typerna u och d. En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e. Baryonen har laddningen −1 e. Hur många u-kvarkar har den?",
-        "s": "<div class=\"facit-v2\"><p>Med n uppkvarkar finns 3 − n nedkvarkar.</p><p>\\[Q/e=2n/3-(3-n)/3=n-1\\]</p><p>\\[n-1=-1\\quad\\Rightarrow\\quad n=0\\]</p></div>",
+        "fraga": "En baryon består av tre kvarkar av typerna u och d och har laddningen −1 e. Hur många u-kvarkar har den? (Svara med ett heltal.)",
+        "s": "<div class=\"facit-v2\"><p>En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e.</p><p>Med n uppkvarkar finns 3 − n nedkvarkar.</p><p>\\[Q/e=2n/3-(3-n)/3=n-1\\]</p><p>\\[n-1=-1\\quad\\Rightarrow\\quad n=0\\]</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 0,
         "självrättning": true,
@@ -180542,7 +180542,7 @@ window.BANK = [
         "traningsniva": 3,
         "poang": "0/1/0",
         "ledtrad": "<p>Låt n vara antalet u-kvarkar. Då finns 3 − n d-kvarkar.</p>",
-        "t": "<p>En baryon består av tre kvarkar av typerna u och d. En u-kvark har laddningen +2/3 e och en d-kvark −1/3 e. Baryonen har laddningen −1 e. Hur många u-kvarkar har den?</p>",
+        "t": "<p>En baryon består av tre kvarkar av typerna u och d och har laddningen −1 e. Hur många u-kvarkar har den? (Svara med ett heltal.)</p>",
         "arbetsinsats": 2,
         "miniräknare": true
       }
@@ -197166,6 +197166,361 @@ window.BANK = [
       "txt": "Ämne B",
       "ratt": true,
       "kommentar": "Efter 2 h finns 50 % kvar, och efter 24 h ungefär 0,024 %."
+    }
+  ]
+},
+{
+  "id": "9.444",
+  "kap": 9,
+  "omr": "standardmodellen",
+  "niva": "E",
+  "typ": "Elementarpartikel i en atommodell",
+  "poang": "(1/0/0)",
+  "t": "<p>Vilken markerad del i atommodellen är en elementarpartikel? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"A pekar på elektronen, B på protonen, C på atomkärnan. D är hela atomen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><ellipse cx=\"240\" cy=\"150\" rx=\"140\" ry=\"100\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"150\" r=\"43\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"222\" cy=\"150\" r=\"15\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"222\" y=\"156\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><circle cx=\"258\" cy=\"150\" r=\"15\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"258\" y=\"156\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"380\" cy=\"150\" r=\"16\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"380\" y=\"156\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">e−</text><path d=\"M403 123L391 139\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"421\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">A</text><path d=\"M155 131L206 145\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"139\" y=\"128\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">B</text><path d=\"M240 79L240 107\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"67\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">C</text><text x=\"240\" y=\"280\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">D = hela atomen</text><text x=\"240\" y=\"306\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">Förenklad atommodell</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>A, elektronen, är en elementarpartikel.</strong> Den är inte uppbyggd av mindre partiklar enligt standardmodellen.</p><p>Protonen består av kvarkar. Atomkärnan består här av en proton och en neutron, och hela atomen innehåller dessutom en elektron.</p></div>",
+  "familj": "Elementarpartiklar och kvarkar",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka av delarna är själva uppbyggda av andra partiklar?</p>",
+  "alternativ": [
+    {
+      "txt": "B",
+      "ratt": false,
+      "kommentar": "B är en proton. Protoner består av kvarkar."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "C är atomkärnan. Den innehåller en proton och en neutron."
+    },
+    {
+      "txt": "A",
+      "ratt": true,
+      "kommentar": "A är elektronen, som är en elementarpartikel."
+    },
+    {
+      "txt": "D",
+      "ratt": false,
+      "kommentar": "D är hela atomen, som innehåller flera partiklar."
+    }
+  ]
+},
+{
+  "id": "9.445",
+  "kap": 9,
+  "omr": "standardmodellen",
+  "niva": "E",
+  "typ": "Neutronens kvarkinnehåll",
+  "poang": "(1/0/0)",
+  "t": "<p>Vilken bild visar kvarkinnehållet i en neutron? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 225\" role=\"img\" aria-label=\"Bild A: u, u, d. Bild B: u, d, d.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"225\" fill=\"white\"/><text x=\"130\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">Bild A</text><text x=\"350\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">Bild B</text><circle cx=\"130\" cy=\"133\" r=\"59\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"107\" cy=\"119\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"107\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"153\" cy=\"119\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"153\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"130\" cy=\"160\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"130\" y=\"166\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><circle cx=\"350\" cy=\"133\" r=\"59\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"327\" cy=\"119\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"327\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"373\" cy=\"119\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"373\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><circle cx=\"350\" cy=\"160\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"350\" y=\"166\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Bild B.</strong> En neutron innehåller en u-kvark och två d-kvarkar: udd.</p><p>Deras laddningar tar ut varandra: \\(\\frac{2}{3}e-\\frac{1}{3}e-\\frac{1}{3}e=0\\). Bild A visar protonens kvarkinnehåll, uud.</p></div>",
+  "familj": "Elementarpartiklar och kvarkar",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför de två partiklarnas kvarkinnehåll i formelsamlingen.</p>",
+  "alternativ": [
+    {
+      "txt": "Bild B",
+      "ratt": true,
+      "kommentar": "Neutronen har kvarkinnehållet udd."
+    },
+    {
+      "txt": "Bild A",
+      "ratt": false,
+      "kommentar": "uud är protonens kvarkinnehåll."
+    },
+    {
+      "txt": "Båda bilderna",
+      "ratt": false,
+      "kommentar": "Neutronen har udd. uud hör till protonen."
+    },
+    {
+      "txt": "Ingen av bilderna",
+      "ratt": false,
+      "kommentar": "Bild B visar neutronens kvarkinnehåll, udd."
+    }
+  ]
+},
+{
+  "id": "9.446",
+  "kap": 9,
+  "omr": "standardmodellen",
+  "niva": "E",
+  "typ": "Kvarkbyte vid beta-minus-sönderfall",
+  "poang": "(1/0/0)",
+  "t": "<p>En neutron omvandlas till en proton. En elektron och en antineutrino avges. Vilken förändring sker bland kvarkarna i neutronen? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 250\" role=\"img\" aria-label=\"Neutron med udd omvandlas till proton med uud. En elektron och en antineutrino avges.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"250\" fill=\"white\"/><text x=\"100\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Neutron</text><text x=\"310\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Proton</text><circle cx=\"100\" cy=\"120\" r=\"59\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"77\" cy=\"106\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"77\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"123\" cy=\"106\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"123\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><circle cx=\"100\" cy=\"147\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"100\" y=\"153\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><circle cx=\"310\" cy=\"120\" r=\"59\" fill=\"#f1f5fa\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"287\" cy=\"106\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"287\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"333\" cy=\"106\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"333\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">u</text><circle cx=\"310\" cy=\"147\" r=\"18\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"310\" y=\"153\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">d</text><path d=\"M171 118L238 118\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M230.02 122.16L238 118L230.02 113.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"240\" y=\"222\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">En elektron och en antineutrino avges.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>En d-kvark omvandlas till en u-kvark.</strong> Då ändras udd till uud.</p><p>Nukleonens laddning ökar från 0 till +e. Den avgivna elektronen har laddningen −e, så den sammanlagda laddningen är fortfarande noll. Antineutrinon är oladdad.</p></div>",
+  "familj": "Kvarkarnas laddning",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför bokstäverna före och efter omvandlingen.</p>",
+  "alternativ": [
+    {
+      "txt": "En u-kvark omvandlas till en d-kvark.",
+      "ratt": false,
+      "kommentar": "Då skulle antalet u-kvarkar minska. Här ökar det från en till två."
+    },
+    {
+      "txt": "En d-kvark omvandlas till en elektron.",
+      "ratt": false,
+      "kommentar": "Elektronen avges, men protonen har fortfarande tre kvarkar."
+    },
+    {
+      "txt": "En fjärde kvark läggs till.",
+      "ratt": false,
+      "kommentar": "Både neutronen och protonen innehåller tre kvarkar."
+    },
+    {
+      "txt": "En d-kvark omvandlas till en u-kvark.",
+      "ratt": true,
+      "kommentar": "udd blir uud: en av d-kvarkarna har blivit en u-kvark."
+    }
+  ]
+},
+{
+  "id": "9.447",
+  "kap": 9,
+  "omr": "standardmodellen",
+  "niva": "E",
+  "typ": "Neutral antipartikel",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar kvarkinnehållet i en neutron och en antineutron. Vilket påstående om antineutronen stämmer? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 245\" role=\"img\" aria-label=\"Neutron: u d d. Antineutron: anti-u anti-d anti-d.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"245\" fill=\"white\"/><rect x=\"20\" y=\"55\" width=\"200\" height=\"160\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"260\" y=\"55\" width=\"200\" height=\"160\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"120\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">Neutron</text><text x=\"360\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">Antineutron</text><text x=\"120\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">u</text><text x=\"120\" y=\"140\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">d</text><text x=\"120\" y=\"185\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">d</text><text x=\"360\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">anti-u</text><text x=\"360\" y=\"140\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">anti-d</text><text x=\"360\" y=\"185\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">anti-d</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Antineutronen är oladdad och består av antikvarkar.</strong> Antikvarkarna har motsatta laddningar mot motsvarande kvarkar.</p><p>Summan blir \\(-\\frac{2}{3}e+\\frac{1}{3}e+\\frac{1}{3}e=0\\). Noll laddning betyder alltså inte att neutronen och antineutronen är samma partikel.</p></div>",
+  "familj": "Elementarpartiklar och kvarkar",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>En antipartikel har motsatt laddning mot sin motsvarande partikel. Vad blir summan här?</p>",
+  "alternativ": [
+    {
+      "txt": "Den är samma partikel som neutronen eftersom båda är oladdade.",
+      "ratt": false,
+      "kommentar": "Samma totala laddning betyder inte samma partikel. Antineutronen består av antikvarkar."
+    },
+    {
+      "txt": "Den är oladdad och består av antikvarkar.",
+      "ratt": true,
+      "kommentar": "Antikvarkarnas laddningar summeras till noll."
+    },
+    {
+      "txt": "Den har laddningen +e.",
+      "ratt": false,
+      "kommentar": "Antikvarkarnas laddningar är −2e/3, +e/3 och +e/3. Summan är noll."
+    },
+    {
+      "txt": "Den kan inte finnas eftersom neutronens laddning är noll.",
+      "ratt": false,
+      "kommentar": "Även en oladdad partikel kan ha en antipartikel."
+    }
+  ]
+},
+{
+  "id": "9.448",
+  "kap": 9,
+  "omr": "standardmodellen",
+  "niva": "E",
+  "typ": "Räkna kvarkar i en atomkärna",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en förenklad modell av en atom. Hur många kvarkar finns sammanlagt i atomkärnan? (Svara med ett heltal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 325\" role=\"img\" aria-label=\"Atomkärnan innehåller tre protoner och fyra neutroner. Tre elektroner finns utanför kärnan.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"325\" fill=\"white\"/><ellipse cx=\"240\" cy=\"150\" rx=\"173\" ry=\"112\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"2\"/><ellipse cx=\"240\" cy=\"150\" rx=\"109\" ry=\"62\" fill=\"#f1f5fa\" stroke=\"#94a7b9\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"125\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"131\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><circle cx=\"240\" cy=\"125\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"131\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><circle cx=\"280\" cy=\"125\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"280\" y=\"131\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><circle cx=\"180\" cy=\"170\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"180\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"220\" cy=\"170\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"220\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"260\" cy=\"170\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"260\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"300\" cy=\"170\" r=\"17\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"300\" y=\"176\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><circle cx=\"413.0\" cy=\"150.0\" r=\"16\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"413.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">e−</text><circle cx=\"153.5\" cy=\"246.99\" r=\"16\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"153.5\" y=\"252.99\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">e−</text><circle cx=\"153.5\" cy=\"53.01\" r=\"16\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"153.5\" y=\"59.01\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">e−</text><text x=\"240\" y=\"299\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p = proton     n = neutron</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Kärnan innehåller 3 protoner och 4 neutroner, alltså \\(3+4=7\\) partiklar.</p><p>Varje proton och neutron innehåller tre kvarkar. Antalet blir därför \\(7\\cdot3=\\mathbf{21}\\).</p><p>Elektronerna utanför kärnan består inte av kvarkar och räknas inte med.</p></div>",
+  "familj": "Elementarpartiklar och kvarkar",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 21,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många protoner och neutroner finns i kärnan, och hur många kvarkar innehåller var och en?</p>",
+  "svarFormat": "antal_satt",
+  "svarEnhet": null
+},
+{
+  "id": "9.449",
+  "kap": 9,
+  "omr": "standardmodellen",
+  "niva": "E",
+  "typ": "Laddning avgör inte om en partikel är elementar",
+  "poang": "(1/0/0)",
+  "t": "<p>En elev säger: ”Alla oladdade partiklar är elementarpartiklar.” Vilken partikel i figuren visar att det är fel? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 230\" role=\"img\" aria-label=\"Neutron, foton och neutrino har alla laddningen noll.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"230\" fill=\"white\"/><rect x=\"20\" y=\"50\" width=\"130\" height=\"150\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"85\" y=\"32\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Neutron</text><circle cx=\"85\" cy=\"105\" r=\"27\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"85\" y=\"113\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">n</text><text x=\"85\" y=\"175\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Laddning 0</text><rect x=\"175\" y=\"50\" width=\"130\" height=\"150\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"32\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Foton</text><circle cx=\"240\" cy=\"105\" r=\"27\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"113\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">γ</text><text x=\"240\" y=\"175\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Laddning 0</text><rect x=\"330\" y=\"50\" width=\"130\" height=\"150\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"395\" y=\"32\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">Neutrino</text><circle cx=\"395\" cy=\"105\" r=\"27\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"395\" y=\"113\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">ν</text><text x=\"395\" y=\"175\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Laddning 0</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Neutronen.</strong> Den är oladdad men består av tre kvarkar. Den är därför ingen elementarpartikel.</p><p>Fotonen och neutrinon är elementarpartiklar enligt standardmodellen. Laddningen ensam avgör alltså inte om en partikel är elementar.</p></div>",
+  "familj": "Elementarpartiklar och kvarkar",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken av de oladdade partiklarna är uppbyggd av kvarkar?</p>",
+  "alternativ": [
+    {
+      "txt": "Neutronen",
+      "ratt": true,
+      "kommentar": "Neutronen är oladdad men består av kvarkar."
+    },
+    {
+      "txt": "Fotonen",
+      "ratt": false,
+      "kommentar": "Fotonen är oladdad och är en elementarpartikel."
+    },
+    {
+      "txt": "Neutrinon",
+      "ratt": false,
+      "kommentar": "Neutrinon är oladdad och är en elementarpartikel."
+    },
+    {
+      "txt": "Ingen: elevens påstående är rätt.",
+      "ratt": false,
+      "kommentar": "Neutronen är ett exempel som gör påståendet fel: den är oladdad men uppbyggd av kvarkar."
+    }
+  ]
+},
+{
+  "id": "9.450",
+  "kap": 9,
+  "omr": "standardmodellen",
+  "niva": "E",
+  "typ": "Bevara laddning vid beta-plus-sönderfall",
+  "poang": "(1/0/0)",
+  "t": "<p>En proton i en atomkärna omvandlas till en neutron. Samtidigt avges partikeln X och en oladdad neutrino. Vilken partikel kan X vara? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 245\" role=\"img\" aria-label=\"I en atomkärna: proton blir neutron plus X plus neutrino.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"245\" fill=\"white\"/><text x=\"75\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"start\" fill=\"#243447\">I en atomkärna</text><circle cx=\"65\" cy=\"120\" r=\"27\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"65\" y=\"126\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p</text><path d=\"M110 120L161 120\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M153.02 124.16L161 120L153.02 115.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><circle cx=\"210\" cy=\"120\" r=\"27\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"210\" y=\"126\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">n</text><text x=\"257\" y=\"129\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">+</text><circle cx=\"305\" cy=\"120\" r=\"27\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"305\" y=\"126\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">X</text><text x=\"351\" y=\"129\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">+</text><circle cx=\"404\" cy=\"120\" r=\"27\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"404\" y=\"126\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">ν</text><text x=\"305\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">okänd partikel</text><text x=\"404\" y=\"216\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">neutrino</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Laddningen måste vara lika stor före och efter omvandlingen.</p><p>Protonens laddning är +e. Neutronen och neutrinon är oladdade, så X måste bära hela laddningen +e.</p><p><strong>X är en positron</strong>, elektronens antipartikel med positiv laddning. Detta sker vid beta-plus-sönderfall i en atomkärna.</p></div>",
+  "familj": "Elementarpartiklar och kvarkar",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken laddning måste X ha för att den sammanlagda laddningen ska bevaras?</p>",
+  "alternativ": [
+    {
+      "txt": "En elektron",
+      "ratt": false,
+      "kommentar": "Elektronen har laddningen −e. Då skulle laddningen inte bevaras."
+    },
+    {
+      "txt": "En foton",
+      "ratt": false,
+      "kommentar": "Fotonen är oladdad och kan inte bära protonens positiva laddning."
+    },
+    {
+      "txt": "En positron",
+      "ratt": true,
+      "kommentar": "Positronen har laddningen +e. Laddningen bevaras."
+    },
+    {
+      "txt": "En neutron",
+      "ratt": false,
+      "kommentar": "Neutronen är oladdad. Då saknas laddningen +e efter omvandlingen."
+    }
+  ]
+},
+{
+  "id": "9.451",
+  "kap": 9,
+  "omr": "standardmodellen",
+  "niva": "C",
+  "typ": "Laddning hos ett partikelpar",
+  "poang": "(0/1/0)",
+  "t": "<p>Tabellen visar fyra partikelpar och deras kvarkinnehåll. Vilket par har den sammanlagda elektriska laddningen noll? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"A: uud och uud. B: udd och uud. C: uud och anti-u anti-u anti-d. D: udd och anti-u anti-u anti-d.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><rect x=\"15\" y=\"15\" width=\"450\" height=\"265\" rx=\"0\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"15\" y=\"15\" width=\"450\" height=\"45\" rx=\"0\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"50\" y=\"44\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Par</text><text x=\"160\" y=\"44\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Partikel 1</text><text x=\"345\" y=\"44\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Partikel 2</text><path d=\"M15 60L465 60\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"50\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"160\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">uud</text><text x=\"345\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">uud</text><path d=\"M15 115L465 115\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"50\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">B</text><text x=\"160\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">udd</text><text x=\"345\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">uud</text><path d=\"M15 170L465 170\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"50\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">C</text><text x=\"160\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">uud</text><text x=\"345\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">anti-u anti-u anti-d</text><path d=\"M15 225L465 225\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"50\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">D</text><text x=\"160\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">udd</text><text x=\"345\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">anti-u anti-u anti-d</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>För uud blir laddningen \\(\\frac23e+\\frac23e-\\frac13e=+e\\). För udd är summan 0.</p><p>Antikvarkar har motsatta laddningar. För anti-u anti-u anti-d blir summan \\(-\\frac23e-\\frac23e+\\frac13e=-e\\).</p><p><strong>Par C</strong> har därför \\(+e-e=0\\). De andra parens laddningar är A: +2e, B: +e och D: −e.</p></div>",
+  "familj": "Kvarkarnas laddning",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm först varje partikels laddning. Antikvarkarnas laddningar är motsatta kvarkarnas.</p>",
+  "alternativ": [
+    {
+      "txt": "Par B",
+      "ratt": false,
+      "kommentar": "udd är oladdad och uud har +e. Paret får laddningen +e."
+    },
+    {
+      "txt": "Par D",
+      "ratt": false,
+      "kommentar": "udd är oladdad och anti-u anti-u anti-d har −e. Paret får −e."
+    },
+    {
+      "txt": "Par A",
+      "ratt": false,
+      "kommentar": "Båda partiklarna har +e. Summan är +2e."
+    },
+    {
+      "txt": "Par C",
+      "ratt": true,
+      "kommentar": "uud har +e och anti-u anti-u anti-d har −e. Summan är noll."
     }
   ]
 }

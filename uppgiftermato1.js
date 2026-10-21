@@ -102929,5 +102929,203 @@ window.BANKMATO1 = [
   "rättSvar": 90,
   "tolerans": 0,
   "svarFormat": "grader"
+},
+{
+  "id": "1.850",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "rektangelns area som rationellt uttryck",
+  "t": "<p>Rektangeln har bredden \\(\\dfrac{x^2-4}{x}\\) och höjden \\(\\dfrac{x}{x+2}\\), där \\(x\\gt2\\). Skriv arean så enkelt som möjligt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 200\" role=\"img\" aria-label=\"En rektangel med bredden (x² − 4)/x och höjden x/(x + 2).\" style=\"width:100%;max-width:340px\"><rect x=\"1\" y=\"1\" width=\"338\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"110\" y=\"56\" width=\"190\" height=\"104\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><text x=\"205\" y=\"40\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">(x² − 4) / x</text><text x=\"100\" y=\"113\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#172b3a\">x / (x + 2)</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\dfrac{x^2-4}{x}\\cdot\\dfrac{x}{x+2}=\\dfrac{(x+2)(x-2)\\cdot x}{x\\cdot(x+2)}=x-2\\).</p><p>Faktorerna \\(x\\) och \\(x+2\\) förkortas bort.</p></div>",
+  "familj": "Rationella uttryck i tillämpningar och grafer",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Faktorisera x² − 4 med konjugatregeln och förkorta.</p>",
+  "svarstyp": "uttryck",
+  "rättSvar": "x-2",
+  "tolerans": null,
+  "svarFormat": "uttryck"
+},
+{
+  "id": "1.851",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "medelfart med rationella uttryck",
+  "t": "<p>En båt kör sträckan \\(\\dfrac{x^2-9}{2}\\) km på tiden \\(\\dfrac{x+3}{4}\\) h, där \\(x\\gt3\\). Bestäm båtens medelfart i km/h. Förenkla så långt som möjligt.</p>",
+  "s": "<div class=\"facit-v2\"><p>Fart = sträcka / tid: \\(\\dfrac{x^2-9}{2}\\div\\dfrac{x+3}{4}=\\dfrac{(x+3)(x-3)}{2}\\cdot\\dfrac{4}{x+3}=2(x-3)\\).</p><p>Medelfarten är \\(2x-6\\) km/h.</p></div>",
+  "familj": "Rationella uttryck i tillämpningar och grafer",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Dividera med ett bråk genom att multiplicera med det inverterade bråket.</p>",
+  "svarstyp": "uttryck",
+  "rättSvar": "2x-6",
+  "tolerans": null,
+  "svarFormat": "uttryck"
+},
+{
+  "id": "1.852",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "korrekt förkortning",
+  "t": "<p>Vilken av förenklingarna är korrekt? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\dfrac{2x+6}{x+3}=\\dfrac{2(x+3)}{x+3}=2\\) (för \\(x\\ne-3\\)). Man får bara förkorta med faktorer, inte med termer.</p></div>",
+  "familj": "Rationella uttryck i tillämpningar och grafer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv täljare och nämnare som produkter. Bara gemensamma faktorer får strykas.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(\\dfrac{2x+6}{x+3}=2\\)",
+      "ratt": true,
+      "kommentar": "Täljaren är 2(x + 3), så faktorn x + 3 kan förkortas bort."
+    },
+    {
+      "txt": "\\(\\dfrac{x+3}{x+5}=\\dfrac35\\)",
+      "ratt": false,
+      "kommentar": "x är en term, inte en faktor, och får inte strykas. Prova x = 1: 4/6 ≠ 3/5."
+    },
+    {
+      "txt": "\\(\\dfrac{x^2+x}{x}=x^2\\)",
+      "ratt": false,
+      "kommentar": "x² + x = x(x + 1), så resultatet blir x + 1."
+    },
+    {
+      "txt": "\\(\\dfrac{x-2}{2-x}=1\\)",
+      "ratt": false,
+      "kommentar": "2 − x = −(x − 2), så kvoten är −1."
+    }
+  ]
+},
+{
+  "id": "1.853",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "hål i grafen till ett rationellt uttryck",
+  "t": "<p>Figuren visar grafen till \\(y=\\dfrac{x^2-1}{x-1}\\). Grafen ser ut som en rät linje men har ett hål. För vilket \\(x\\) saknar uttrycket värde?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 320\" role=\"img\" aria-label=\"Grafen till y = (x² − 1)/(x − 1). Den ser ut som linjen y = x + 1, men punkten (1, 2) är ett hål, markerat med en ofylld ring.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"95.1\" y1=\"22\" x2=\"95.1\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"142.3\" y1=\"22\" x2=\"142.3\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"189.4\" y1=\"22\" x2=\"189.4\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"236.6\" y1=\"22\" x2=\"236.6\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"283.7\" y1=\"22\" x2=\"283.7\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"330.9\" y1=\"22\" x2=\"330.9\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"378\" y2=\"278.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"241.4\" x2=\"378\" y2=\"241.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"204.9\" x2=\"378\" y2=\"204.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"168.3\" x2=\"378\" y2=\"168.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"131.7\" x2=\"378\" y2=\"131.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"95.1\" x2=\"378\" y2=\"95.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"58.6\" x2=\"378\" y2=\"58.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"378\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"204.9\" x2=\"388\" y2=\"204.9\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,204.9 382,199.9 382,209.9\" fill=\"#172b3a\"/><line x1=\"189.4\" y1=\"278\" x2=\"189.4\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"189.4,8 184.4,18 194.4,18\" fill=\"#172b3a\"/><text x=\"390\" y=\"195.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"197.4\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"48.0\" y=\"221.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"95.1\" y=\"221.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"142.3\" y=\"221.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"236.6\" y=\"221.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"283.7\" y=\"221.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"330.9\" y=\"221.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"378.0\" y=\"221.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"183.4\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"183.4\" y=\"245.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"183.4\" y=\"172.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"183.4\" y=\"135.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"183.4\" y=\"99.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"183.4\" y=\"62.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"183.4\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"183.4\" y=\"221.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kedaa8b5e\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"256\"/></clipPath><polyline clip-path=\"url(#kedaa8b5e)\" points=\"48.0,278.0 48.8,277.4 49.7,276.7 50.5,276.1 51.3,275.4 52.1,274.8 53.0,274.2 53.8,273.5 54.6,272.9 55.4,272.2 56.2,271.6 57.1,271.0 57.9,270.3 58.7,269.7 59.6,269.0 60.4,268.4 61.2,267.8 62.0,267.1 62.8,266.5 63.7,265.8 64.5,265.2 65.3,264.6 66.1,263.9 67.0,263.3 67.8,262.6 68.6,262.0 69.5,261.4 70.3,260.7 71.1,260.1 71.9,259.4 72.8,258.8 73.6,258.2 74.4,257.5 75.2,256.9 76.0,256.2 76.9,255.6 77.7,255.0 78.5,254.3 79.3,253.7 80.2,253.0 81.0,252.4 81.8,251.8 82.6,251.1 83.5,250.5 84.3,249.8 85.1,249.2 86.0,248.6 86.8,247.9 87.6,247.3 88.4,246.6 89.2,246.0 90.1,245.4 90.9,244.7 91.7,244.1 92.5,243.4 93.4,242.8 94.2,242.2 95.0,241.5 95.8,240.9 96.7,240.2 97.5,239.6 98.3,239.0 99.2,238.3 100.0,237.7 100.8,237.0 101.6,236.4 102.5,235.8 103.3,235.1 104.1,234.5 104.9,233.8 105.8,233.2 106.6,232.6 107.4,231.9 108.2,231.3 109.0,230.6 109.9,230.0 110.7,229.4 111.5,228.7 112.4,228.1 113.2,227.4 114.0,226.8 114.8,226.2 115.7,225.5 116.5,224.9 117.3,224.2 118.1,223.6 119.0,223.0 119.8,222.3 120.6,221.7 121.4,221.0 122.2,220.4 123.1,219.8 123.9,219.1 124.7,218.5 125.6,217.8 126.4,217.2 127.2,216.6 128.0,215.9 128.9,215.3 129.7,214.6 130.5,214.0 131.3,213.4 132.2,212.7 133.0,212.1 133.8,211.4 134.6,210.8 135.4,210.2 136.3,209.5 137.1,208.9 137.9,208.2 138.8,207.6 139.6,207.0 140.4,206.3 141.2,205.7 142.1,205.0 142.9,204.4 143.7,203.8 144.5,203.1 145.3,202.5 146.2,201.8 147.0,201.2 147.8,200.6 148.6,199.9 149.5,199.3 150.3,198.6 151.1,198.0 151.9,197.4 152.8,196.7 153.6,196.1 154.4,195.4 155.2,194.8 156.1,194.2 156.9,193.5 157.7,192.9 158.6,192.2 159.4,191.6 160.2,191.0 161.0,190.3 161.9,189.7 162.7,189.0 163.5,188.4 164.3,187.8 165.1,187.1 166.0,186.5 166.8,185.8 167.6,185.2 168.5,184.6 169.3,183.9 170.1,183.3 170.9,182.6 171.8,182.0 172.6,181.4 173.4,180.7 174.2,180.1 175.0,179.4 175.9,178.8 176.7,178.2 177.5,177.5 178.3,176.9 179.2,176.2 180.0,175.6 180.8,175.0 181.6,174.3 182.5,173.7 183.3,173.0 184.1,172.4 184.9,171.8 185.8,171.1 186.6,170.5 187.4,169.8 188.2,169.2 189.1,168.6 189.9,167.9 190.7,167.3 191.6,166.6 192.4,166.0 193.2,165.4 194.0,164.7 194.8,164.1 195.7,163.4 196.5,162.8 197.3,162.2 198.2,161.5 199.0,160.9 199.8,160.2 200.6,159.6 201.4,159.0 202.3,158.3 203.1,157.7 203.9,157.0 204.8,156.4 205.6,155.8 206.4,155.1 207.2,154.5 208.0,153.8 208.9,153.2 209.7,152.6 210.5,151.9 211.3,151.3 212.2,150.6 213.0,150.0 213.8,149.4 214.7,148.7 215.5,148.1 216.3,147.4 217.1,146.8 218.0,146.2 218.8,145.5 219.6,144.9 220.4,144.2 221.2,143.6 222.1,143.0 222.9,142.3 223.7,141.7 224.6,141.0 225.4,140.4 226.2,139.8 227.0,139.1 227.9,138.5 228.7,137.8 229.5,137.2 230.3,136.6 231.1,135.9 232.0,135.3 232.8,134.6 233.6,134.0 234.5,133.4 235.3,132.7 236.1,132.1 236.9,131.4 237.8,130.8 238.6,130.2 239.4,129.5 240.2,128.9 241.0,128.2 241.9,127.6 242.7,127.0 243.5,126.3 244.3,125.7 245.2,125.0 246.0,124.4 246.8,123.8 247.7,123.1 248.5,122.5 249.3,121.8 250.1,121.2 250.9,120.6 251.8,119.9 252.6,119.3 253.4,118.6 254.2,118.0 255.1,117.4 255.9,116.7 256.7,116.1 257.6,115.4 258.4,114.8 259.2,114.2 260.0,113.5 260.8,112.9 261.7,112.2 262.5,111.6 263.3,111.0 264.1,110.3 265.0,109.7 265.8,109.0 266.6,108.4 267.5,107.8 268.3,107.1 269.1,106.5 269.9,105.8 270.8,105.2 271.6,104.6 272.4,103.9 273.2,103.3 274.0,102.6 274.9,102.0 275.7,101.4 276.5,100.7 277.4,100.1 278.2,99.4 279.0,98.8 279.8,98.2 280.6,97.5 281.5,96.9 282.3,96.2 283.1,95.6 283.9,95.0 284.8,94.3 285.6,93.7 286.4,93.0 287.2,92.4 288.1,91.8 288.9,91.1 289.7,90.5 290.5,89.8 291.4,89.2 292.2,88.6 293.0,87.9 293.9,87.3 294.7,86.6 295.5,86.0 296.3,85.4 297.1,84.7 298.0,84.1 298.8,83.4 299.6,82.8 300.5,82.2 301.3,81.5 302.1,80.9 302.9,80.2 303.8,79.6 304.6,79.0 305.4,78.3 306.2,77.7 307.1,77.0 307.9,76.4 308.7,75.8 309.5,75.1 310.4,74.5 311.2,73.8 312.0,73.2 312.8,72.6 313.6,71.9 314.5,71.3 315.3,70.6 316.1,70.0 317.0,69.4 317.8,68.7 318.6,68.1 319.4,67.4 320.2,66.8 321.1,66.2 321.9,65.5 322.7,64.9 323.6,64.2 324.4,63.6 325.2,63.0 326.0,62.3 326.8,61.7 327.7,61.0 328.5,60.4 329.3,59.8 330.2,59.1 331.0,58.5 331.8,57.8 332.6,57.2 333.4,56.6 334.3,55.9 335.1,55.3 335.9,54.6 336.8,54.0 337.6,53.4 338.4,52.7 339.2,52.1 340.1,51.4 340.9,50.8 341.7,50.2 342.5,49.5 343.3,48.9 344.2,48.2 345.0,47.6 345.8,47.0 346.7,46.3 347.5,45.7 348.3,45.0 349.1,44.4 349.9,43.8 350.8,43.1 351.6,42.5 352.4,41.8 353.2,41.2 354.1,40.6 354.9,39.9 355.7,39.3 356.5,38.6 357.4,38.0 358.2,37.4 359.0,36.7 359.9,36.1 360.7,35.4 361.5,34.8 362.3,34.2 363.1,33.5 364.0,32.9 364.8,32.2 365.6,31.6 366.4,31.0 367.3,30.3 368.1,29.7 368.9,29.0 369.8,28.4 370.6,27.8 371.4,27.1 372.2,26.5 373.1,25.8 373.9,25.2 374.7,24.6 375.5,23.9 376.4,23.3 377.2,22.6 378.0,22.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><circle cx=\"236.6\" cy=\"131.7\" r=\"5.5\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Uttrycket är inte definierat när nämnaren är 0, alltså för \\(x=1\\).</p><p>För alla andra \\(x\\) är \\(\\dfrac{(x+1)(x-1)}{x-1}=x+1\\), därför ser grafen ut som linjen \\(y=x+1\\) med ett hål i \\((1,\\,2)\\).</p></div>",
+  "familj": "Rationella uttryck i tillämpningar och grafer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>När blir nämnaren noll?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 1,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "1.854",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "antal bitar av ett rep",
+  "t": "<p>Ett rep är \\(\\dfrac{x^2-1}{6}\\) m långt. Det delas i bitar som är \\(\\dfrac{x+1}{3}\\) m långa (\\(x\\gt1\\)). Hur många bitar blir det? Förenkla så långt som möjligt.</p>",
+  "s": "<div class=\"facit-v2\"><p>Antal bitar = replängd / bitlängd: \\(\\dfrac{x^2-1}{6}\\cdot\\dfrac{3}{x+1}=\\dfrac{(x+1)(x-1)\\cdot3}{6(x+1)}=\\dfrac{x-1}{2}\\).</p></div>",
+  "familj": "Rationella uttryck i tillämpningar och grafer",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Dela repets längd med en bits längd.</p>",
+  "svarstyp": "uttryck",
+  "rättSvar": "(x-1)/2",
+  "tolerans": null,
+  "svarFormat": "uttryck"
+},
+{
+  "id": "1.855",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "förenkla före insättning",
+  "t": "<p>Beräkna värdet av \\(\\dfrac{x^2-4}{x+2}\\cdot\\dfrac{1}{x-2}\\) när \\(x=100\\). Förenkla först.</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\dfrac{(x+2)(x-2)}{x+2}\\cdot\\dfrac{1}{x-2}=1\\) för alla tillåtna \\(x\\) (\\(x\\ne\\pm2\\)).</p><p>Därför är värdet 1 även när \\(x=100\\).</p></div>",
+  "familj": "Rationella uttryck i tillämpningar och grafer",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Faktorisera x² − 4 och förkorta innan du sätter in.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 1,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
 }
 ];

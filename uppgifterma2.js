@@ -11814,5 +11814,337 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
   "rättSvar": 65,
   "tolerans": 0,
   "svarFormat": "grader"
+},
+{
+  "id": "2.770",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "modelltyp ur punktdiagram",
+  "t": "<p>Punktdiagrammet visar mätdata. Vilken modelltyp passar bäst? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 300\" role=\"img\" aria-label=\"Punkter som ökar allt snabbare, från 1 till 15.\" style=\"width:100%;max-width:380px\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"92.3\" y1=\"22\" x2=\"92.3\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"136.6\" y1=\"22\" x2=\"136.6\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"180.9\" y1=\"22\" x2=\"180.9\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"225.1\" y1=\"22\" x2=\"225.1\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"269.4\" y1=\"22\" x2=\"269.4\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"313.7\" y1=\"22\" x2=\"313.7\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"358.0\" y1=\"22\" x2=\"358.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"358\" y2=\"258.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"228.5\" x2=\"358\" y2=\"228.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"199.0\" x2=\"358\" y2=\"199.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"169.5\" x2=\"358\" y2=\"169.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"140.0\" x2=\"358\" y2=\"140.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"110.5\" x2=\"358\" y2=\"110.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"81.0\" x2=\"358\" y2=\"81.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"51.5\" x2=\"358\" y2=\"51.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"358\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"368\" y2=\"258.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"372,258.0 362,253.0 362,263.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"258\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"370\" y=\"249.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"92.3\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"136.6\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"180.9\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"225.1\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"269.4\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"313.7\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"358.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><text x=\"42.0\" y=\"232.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"203.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"42.0\" y=\"114.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><text x=\"42.0\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">12</text><text x=\"42.0\" y=\"55.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">14</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">16</text><text x=\"42.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kd0576e22\"><rect x=\"48\" y=\"22\" width=\"310\" height=\"236\"/></clipPath><circle cx=\"48.0\" cy=\"243.2\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"92.3\" cy=\"234.4\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"136.6\" cy=\"222.6\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"180.9\" cy=\"200.5\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"225.1\" cy=\"168.0\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"269.4\" cy=\"116.4\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"313.7\" cy=\"36.8\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Ökningen blir större för varje steg, och värdena ökar med ungefär samma faktor (cirka 1,6) varje gång. Det tyder på en exponentiell modell.</p></div>",
+  "familj": "Välja regressionsmodell",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ökar y med lika mycket eller med samma faktor i varje steg?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Exponentiell",
+      "ratt": true,
+      "kommentar": "Värdena ökar med ungefär samma faktor i varje steg."
+    },
+    {
+      "txt": "Linjär",
+      "ratt": false,
+      "kommentar": "Ökningen är inte konstant. Den blir större för varje steg."
+    },
+    {
+      "txt": "Konstant",
+      "ratt": false,
+      "kommentar": "Värdena ändras tydligt."
+    }
+  ]
+},
+{
+  "id": "2.771",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "modelltyp ur punktdiagram",
+  "t": "<p>Punktdiagrammet visar hur mycket bränsle (liter) som finns kvar i en tank efter \\(x\\) timmars körning. Vilken modelltyp passar bäst? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 300\" role=\"img\" aria-label=\"Punkter som minskar ungefär lika mycket varje timme, från 60 till 15.\" style=\"width:100%;max-width:380px\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"92.3\" y1=\"22\" x2=\"92.3\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"136.6\" y1=\"22\" x2=\"136.6\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"180.9\" y1=\"22\" x2=\"180.9\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"225.1\" y1=\"22\" x2=\"225.1\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"269.4\" y1=\"22\" x2=\"269.4\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"313.7\" y1=\"22\" x2=\"313.7\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"358.0\" y1=\"22\" x2=\"358.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"358\" y2=\"258.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"224.3\" x2=\"358\" y2=\"224.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"190.6\" x2=\"358\" y2=\"190.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"156.9\" x2=\"358\" y2=\"156.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"123.1\" x2=\"358\" y2=\"123.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"89.4\" x2=\"358\" y2=\"89.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"55.7\" x2=\"358\" y2=\"55.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"358\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"368\" y2=\"258.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"372,258.0 362,253.0 362,263.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"258\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"370\" y=\"249.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x (h)</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">liter</text><text x=\"92.3\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"136.6\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"180.9\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"225.1\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"269.4\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"313.7\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"358.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><text x=\"42.0\" y=\"228.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><text x=\"42.0\" y=\"194.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">20</text><text x=\"42.0\" y=\"160.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">30</text><text x=\"42.0\" y=\"127.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">40</text><text x=\"42.0\" y=\"93.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">50</text><text x=\"42.0\" y=\"59.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">60</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">70</text><text x=\"42.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k54770a2d\"><rect x=\"48\" y=\"22\" width=\"310\" height=\"236\"/></clipPath><circle cx=\"48.0\" cy=\"55.7\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"92.3\" cy=\"82.7\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"136.6\" cy=\"106.3\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"180.9\" cy=\"133.3\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"225.1\" cy=\"156.9\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"269.4\" cy=\"183.8\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"313.7\" cy=\"207.4\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Punkterna ligger nästan på en rät linje. Bränslet minskar med ungefär 7,5 liter per timme, alltså med lika mycket varje steg. En linjär modell med negativ lutning passar.</p></div>",
+  "familj": "Välja regressionsmodell",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Minskar värdet med lika mycket eller med samma andel varje timme?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Linjär (avtagande)",
+      "ratt": true,
+      "kommentar": "Ungefär lika stor minskning varje timme."
+    },
+    {
+      "txt": "Exponentiell (avtagande)",
+      "ratt": false,
+      "kommentar": "Då skulle minskningen bli mindre och mindre i liter."
+    },
+    {
+      "txt": "Andragradsmodell",
+      "ratt": false,
+      "kommentar": "Punkterna böjer inte av."
+    }
+  ]
+},
+{
+  "id": "2.772",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "modelltyp ur punktdiagram",
+  "t": "<p>Punktdiagrammet visar en bolls höjd (m) \\(x\\) tiondels sekunder efter kastet. Vilken modelltyp passar bäst? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 300\" role=\"img\" aria-label=\"Punkter som först stiger och sedan sjunker, med ett maximum kring x = 4.\" style=\"width:100%;max-width:380px\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"86.8\" y1=\"22\" x2=\"86.8\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"125.5\" y1=\"22\" x2=\"125.5\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"164.2\" y1=\"22\" x2=\"164.2\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"203.0\" y1=\"22\" x2=\"203.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"241.8\" y1=\"22\" x2=\"241.8\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"280.5\" y1=\"22\" x2=\"280.5\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"319.2\" y1=\"22\" x2=\"319.2\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"358.0\" y1=\"22\" x2=\"358.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"358\" y2=\"258.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"218.7\" x2=\"358\" y2=\"218.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"179.3\" x2=\"358\" y2=\"179.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"140.0\" x2=\"358\" y2=\"140.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"100.7\" x2=\"358\" y2=\"100.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"61.3\" x2=\"358\" y2=\"61.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"358\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"368\" y2=\"258.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"372,258.0 362,253.0 362,263.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"258\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"370\" y=\"249.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">h (m)</text><text x=\"86.8\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"125.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"164.2\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"203.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"241.8\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"280.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"319.2\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><text x=\"358.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"42.0\" y=\"222.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"183.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"42.0\" y=\"104.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"65.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k238c149e\"><rect x=\"48\" y=\"22\" width=\"310\" height=\"236\"/></clipPath><circle cx=\"48.0\" cy=\"199.0\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"86.8\" cy=\"132.1\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"125.5\" cy=\"84.9\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"164.2\" cy=\"61.3\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"203.0\" cy=\"57.4\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"241.8\" cy=\"77.1\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"280.5\" cy=\"116.4\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"319.2\" cy=\"175.4\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Värdena stiger, når ett maximum och sjunker igen. Det kan varken en linjär eller en exponentiell modell beskriva, men en andragradsmodell kan.</p></div>",
+  "familj": "Välja regressionsmodell",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Har punkterna en topp?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Andragradsmodell",
+      "ratt": true,
+      "kommentar": "Den kan ha ett maximum."
+    },
+    {
+      "txt": "Linjär",
+      "ratt": false,
+      "kommentar": "En linje kan inte både stiga och sjunka."
+    },
+    {
+      "txt": "Exponentiell",
+      "ratt": false,
+      "kommentar": "En exponentialfunktion är antingen växande eller avtagande."
+    }
+  ]
+},
+{
+  "id": "2.773",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "linjär regression med GeoGebra",
+  "t": "<p>Tabellen visar en valps längd i cm under sju veckor. Gör en linjär regression \\(y=kx+m\\) med GeoGebra. Bestäm \\(k\\) och \\(m\\). (Svara med en decimal.)</p><table class=\"data\" style=\"width:100%;max-width:520px;text-align:center\"><thead><tr><th scope=\"col\">Vecka x</th><th scope=\"col\">0</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>Längd y (cm)</td><td>52,1</td><td>55,8</td><td>60,2</td><td>63,7</td><td>68,1</td><td>71,6</td><td>76,0</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2\"><p>GeoGebras regressionsverktyg (linjär) ger \\(y\\approx3{,}97x+52{,}01\\), alltså \\(k\\approx4{,}0\\) och \\(m\\approx52{,}0\\).</p><p>Valpen växer med ungefär 4,0 cm per vecka enligt modellen.</p></div>",
+  "familj": "Välja regressionsmodell",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv in värdena som punkter eller i statistikverktyget och välj linjär regression.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    4.0,
+    52.0
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "k",
+    "m"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "2.774",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "exponentiell regression med GeoGebra",
+  "t": "<p>Antalet bakterier (tusental) i en odling mättes varje timme. Gör en exponentiell regression \\(y=a\\cdot b^x\\) med GeoGebra. Bestäm förändringsfaktorn \\(b\\). (Svara med två decimaler.)</p><table class=\"data\" style=\"width:100%;max-width:520px;text-align:center\"><thead><tr><th scope=\"col\">Timme x</th><th scope=\"col\">0</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th></tr></thead><tbody><tr><td>Antal y (tusental)</td><td>3,0</td><td>4,2</td><td>5,9</td><td>8,2</td><td>11,6</td><td>16,2</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2\"><p>GeoGebra ger \\(y\\approx3{,}00\\cdot1{,}40^x\\). Förändringsfaktorn är \\(b\\approx1{,}40\\): antalet ökar med ungefär 40 % per timme.</p></div>",
+  "familj": "Välja regressionsmodell",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Välj exponentiell regression i GeoGebras statistikverktyg. b är talet som upphöjs till x.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.4,
+  "tolerans": 0.01,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.775",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "prognos med exponentiell regressionsmodell",
+  "t": "<p>Använd en exponentiell regression \\(y=a\\cdot b^x\\) med GeoGebra på tabellens data. Hur många tusen bakterier förutsäger modellen efter 8 timmar? (Svara med ett heltal.)</p><table class=\"data\" style=\"width:100%;max-width:520px;text-align:center\"><thead><tr><th scope=\"col\">Timme x</th><th scope=\"col\">0</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th></tr></thead><tbody><tr><td>Antal y (tusental)</td><td>3,0</td><td>4,2</td><td>5,9</td><td>8,2</td><td>11,6</td><td>16,2</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2\"><p>Modellen \\(y\\approx3{,}00\\cdot1{,}40^x\\) ger \\(y(8)\\approx44{,}6\\), alltså ungefär 45 tusen bakterier.</p><p>Prognosen gäller bara om tillväxten fortsätter på samma sätt, vilket inte är säkert utanför mätperioden.</p></div>",
+  "familj": "Välja regressionsmodell",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm modellen först och sätt sedan in x = 8.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 44.6,
+  "tolerans": 0.65,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.776",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "välja modell med förklaringsgraden",
+  "t": "<p>GeoGebra har anpassat tre modeller till samma data. Tabellen visar förklaringsgraden \\(R^2\\). Vilken modell beskriver datan bäst? (Välj ett alternativ.)</p><table class=\"data\" style=\"width:100%;max-width:520px;text-align:center\"><thead><tr><th scope=\"col\">Modell</th><th scope=\"col\">Linjär</th><th scope=\"col\">Exponentiell</th><th scope=\"col\">Andragrad</th></tr></thead><tbody><tr><td>R²</td><td>0,88</td><td>0,995</td><td>0,97</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2\"><p>\\(R^2\\) nära 1 betyder att modellen följer punkterna väl. Den exponentiella modellen har högst \\(R^2\\), 0,995. Man bör ändå också se på punkterna och fundera över om modelltypen är rimlig.</p></div>",
+  "familj": "Jämföra modeller och modellkvalitet",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad betyder ett R² nära 1?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Den exponentiella modellen",
+      "ratt": true,
+      "kommentar": "Den har högst R², alltså närmast 1."
+    },
+    {
+      "txt": "Den linjära modellen",
+      "ratt": false,
+      "kommentar": "Den har lägst R²."
+    },
+    {
+      "txt": "Andragradsmodellen",
+      "ratt": false,
+      "kommentar": "R² = 0,97 är bra, men lägre än 0,995."
+    }
+  ]
+},
+{
+  "id": "2.777",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "modellens giltighetsområde",
+  "t": "<p>En linjär regression på barns längd mellan 2 och 10 års ålder ger \\(L(t)=6{,}0t+75\\) cm. Modellen ger \\(L(40)=315\\) cm. Vilken slutsats är riktig? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Modellen bygger på data för 2–10 år. Barn växer inte i samma takt hela livet, så modellen kan inte användas långt utanför mätområdet. Det kallas att extrapolera.</p></div>",
+  "familj": "Jämföra modeller och modellkvalitet",
+  "formaga": [
+    "resonemang",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>För vilka åldrar fanns data?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Modellen gäller inte långt utanför åldrarna 2–10 år, så värdet är orimligt.",
+      "ratt": true,
+      "kommentar": "Extrapolation långt utanför mätområdet ger fel."
+    },
+    {
+      "txt": "En 40-åring är troligen 315 cm lång.",
+      "ratt": false,
+      "kommentar": "Det är inte rimligt. Tillväxten avstannar i vuxen ålder."
+    },
+    {
+      "txt": "Modellen är fel eftersom k borde vara negativ.",
+      "ratt": false,
+      "kommentar": "Inom mätområdet växer barnen, så k > 0 är rimligt."
+    }
+  ]
 }
 ];

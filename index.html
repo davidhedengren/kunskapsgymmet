@@ -9208,9 +9208,10 @@ function finishPassReview(delar){
 
 /* ===== Admin: bläddra mellan uppgifter =====
    Kunskapsgymmet-admin kan stega genom uppgifterna i det valda urvalet
-   (område, delmoment och nivå) utan att svara. Bläddrade uppgifter
-   registreras aldrig: ingen XP, ingen historik, inga sedda uppgifter och
-   inget passframsteg. Den pågående passuppgiften sparas undan med sin DOM
+   (område, delmoment och nivå) utan att svara. Att bläddra registreras
+   inte: inga sedda uppgifter och inget passframsteg. Svarar admin på en
+   bläddrad uppgift ger den XP och historik som vanligt (finishAttempt),
+   men passets räknare och sparade pass lämnas orörda. Den pågående passuppgiften sparas undan med sin DOM
    och återställs oförändrad när admin går tillbaka till passet. */
 function adminBladSortering(a,b){
   const delar=id=>String(id).split(/[.#]/).map(x=>{const m=x.match(/^(\d+)(.*)$/);return m?[Number(m[1]),m[2]]:[Infinity,x];});
@@ -9255,13 +9256,13 @@ function adminBladHtml(){
       onkeydown="if(event.key==='Enter'){event.preventDefault();adminBladGaTill(this.value)}">
       <button class="btn sm" onclick="adminBladGaTill(document.getElementById('ab-id').value)">Gå</button></span>
     ${b?`<button class="btn sm primary" onclick="adminBladAvsluta()">Tillbaka till passet</button>
-    <small>Bläddringsläge: svar, ledtrådar och lösningar registreras inte. Piltangenterna ← → bläddrar.</small>`
-      :`<small>Bläddra utan att svara. Inget registreras medan du bläddrar.</small>`}
+    <small>Bläddringsläge: att bläddra registreras inte. Svarar du får du XP som vanligt, men passets framsteg påverkas inte. Piltangenterna ← → bläddrar.</small>`
+      :`<small>Bläddra utan att svara. Att bläddra förbi uppgifter registreras inte.</small>`}
   </nav>`;
 }
 function adminBladVisa(t){
   state.currentTask=t;
-  state.answered=false;state.solutionShown=false;state.noXp=true;
+  state.answered=false;state.solutionShown=false;state.noXp=false;state.passReview=false;
   state.partResults=[];state.partIndex=0;state.aktivRuta=0;
   state.hintUsed=false;state.hintVisible=false;state.ggForslag=null;
   state.altValda=new Set();state.altMiss=null;state.altOrdning=null;state.altOrdningId=null;
@@ -9311,20 +9312,6 @@ function adminBladAvsluta(){
     return;
   }
   nextTask();
-}
-function finishAdminBlad(delar){
-  state.answered=true;state.noXp=true;
-  const ratt=delar.filter(Boolean).length;
-  const rubrik=ratt===delar.length?"Rätt!":ratt?`${ratt} av ${delar.length} rätt`:"Inte riktigt.";
-  const b=state.adminBlad,sist=!b || b.i>=b.lista.length-1;
-  const box=document.getElementById("answer-result");
-  if(box) box.innerHTML=`<div class="result ${ratt===delar.length?"good":"bad"}">
-    <div class="txt"><strong>${rubrik}</strong><small>Bläddringsläge: svaret registreras inte.</small></div>
-    <span class="xpchip" style="background:var(--surface3);color:var(--ink3)">0 XP</span>
-    </div><div class="aacts"><button class="btn" onclick="showSolution()">Visa lösning</button>
-    ${sist?"":`<button class="btn primary" onclick="adminBladGa(1)">Nästa →</button>`}</div>`;
-  const kolla=document.getElementById("kollaknapp");
-  if(kolla){ if(sist) kolla.remove(); else {kolla.textContent="Nästa →";kolla.onclick=()=>adminBladGa(1);} }
 }
 document.addEventListener("keydown",e=>{
   if(!arAdmin || state.view!=="training" || e.altKey || e.ctrlKey || e.metaKey) return;
@@ -13672,19 +13659,23 @@ function finishAttempt(resultat){
   if(state.answered) return;
   const t=state.currentTask;
   const delar=Array.isArray(resultat)?resultat.map(Boolean):[!!resultat];
-  // Admins bläddringsläge registrerar aldrig något.
-  if(state.adminBlad) return finishAdminBlad(delar);
-  if(state.passReview || state.passHistory?.[state.passIndex]?.completed){
+  /* Admins bläddringsläge: själva bläddringen registreras inte, men ett svar
+     ger XP och räknas som vanligt. Det pågående passet påverkas inte. */
+  const blad=!!state.adminBlad;
+  if(!blad && (state.passReview || state.passHistory?.[state.passIndex]?.completed)){
     state.passReview=true;
     return finishPassReview(delar);
   }
   const ratt=delar.filter(Boolean).length;
   const andel=ratt/delar.length;
   const correct=ratt===delar.length;
-  state.answered=true; state.sessionDone++;
-  const passEntry=state.passHistory?.[state.passIndex];
-  if(passEntry) passEntry.completed=true;
-  if(!correct){ (state.sessionFel ||= []).push(t); }
+  state.answered=true;
+  if(!blad){
+    state.sessionDone++;
+    const passEntry=state.passHistory?.[state.passIndex];
+    if(passEntry) passEntry.completed=true;
+    if(!correct){ (state.sessionFel ||= []).push(t); }
+  }
 
   const xpBefore=profile.xp;
   const levelBefore=levelFromXP(profile.xp);
@@ -13721,8 +13712,10 @@ function finishAttempt(resultat){
   // Fire-and-forget: global + aggregerad adminstatistik får aldrig blockera ett svar.
   kgRegistreraForsok(correct,xp,state.course,!!state.hintUsed);
   profile.today=(profile.today||0)+1;
-  state.sessionXp+=xp;
-  if(correct) state.sessionCorrect++;
+  if(!blad){
+    state.sessionXp+=xp;
+    if(correct) state.sessionCorrect++;
+  }
 
   const cp=ensureCourseProfile();
   const fs=Array.isArray(t.familj)?t.familj:[t.familj].filter(Boolean);
@@ -13753,7 +13746,7 @@ function finishAttempt(resultat){
     ...(t.ursprungsId?{ursprungsId:t.ursprungsId,deluppgift:t.deluppgift}:{})});
   cp.history=cp.history.slice(-300);
   uppdragSvar(t,correct,lagat);
-  if(state.prov) provRegistrera(t,correct);
+  if(state.prov && !blad) provRegistrera(t,correct);
   const genomgangForslag=correct ? null : hittaGenomgangForslag(t,cp);
   state.ggForslag=genomgangForslag;
   tranarKommentar(t,nivaFore,tranarNivaLage(t.omr),genomgangForslag);
@@ -13786,7 +13779,10 @@ function finishAttempt(resultat){
   checkBadges(HYLLNING);
   saveProfile();
 
-  const last=state.sessionDone>=state.sessionTarget;
+  const last=!blad && state.sessionDone>=state.sessionTarget;
+  const bladSist=blad && state.adminBlad.i>=state.adminBlad.lista.length-1;
+  const nastaText=blad ? (bladSist?"Tillbaka till passet":"Nästa") : last?"Se passrapport":"Nästa uppgift";
+  const nastaGor=()=>blad ? (bladSist?adminBladAvsluta():adminBladGa(1)) : last?renderSessionDone():nextTask();
   const bonus = seriebonus(profile.run);
   const runTxt = correct && profile.run>=3
     ? `<span class="tag" style="margin-left:6px">${profile.run} i rad${bonus?` · +${bonus}\u00a0%`:""}</span>`
@@ -13817,15 +13813,17 @@ function finishAttempt(resultat){
       </div>
       ${kolla?"":`<div class="aacts">
         ${!correct?`<button class="btn" onclick="showSolution()">Visa lösning</button>`:""}
-        <button class="btn primary" id="nextbtn" onclick="${last?'renderSessionDone()':'nextTask()'}">
-          ${last?"Se passrapport":"Nästa uppgift"} <span aria-hidden="true">→</span>
+        <button class="btn primary" id="nextbtn">
+          ${nastaText} <span aria-hidden="true">→</span>
         </button>
       </div>`}`;
     /* Kontrollera-knappen blir Nästa, så att man inte behöver scrolla ned till resultatet. */
     if(kolla){
-      kolla.textContent=last?"Se passrapport →":"Nästa uppgift →";
-      kolla.onclick=()=>last?renderSessionDone():nextTask();
+      kolla.textContent=nastaText+" →";
+      kolla.onclick=nastaGor;
     }
+    const nastaKnapp=document.getElementById("nextbtn");
+    if(nastaKnapp) nastaKnapp.onclick=nastaGor;
     setTimeout(()=>(kolla||document.getElementById("nextbtn"))?.focus({preventScroll:true}),80);
     if(genomgangForslag) setTimeout(()=>tranarForeslarGenomgang(genomgangForslag),700);
   }

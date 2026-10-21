@@ -43,7 +43,7 @@ test('Admin bläddrar i det valda delmomentet i ID-ordning utan att lämna det',
   assert.deepEqual(visade,['1.1156a','1.1156b','1.1156b','1.1156b']);
   c.adminBladGa(-1);
   assert.equal(c.state.currentTask.id,'1.1156a');
-  assert.equal(c.state.noXp,true);assert.equal(c.state.answered,false);
+  assert.equal(c.state.noXp,false);assert.equal(c.state.answered,false);
 });
 
 test('Gå till ID hittar även uppgifter utanför urvalet och okända ID ger ett meddelande',()=>{
@@ -78,10 +78,20 @@ test('Bläddringen och raden finns bara för admin',()=>{
   assert.match(a.c.adminBladHtml(),/Nästa →/);
 });
 
-test('Bläddrade svar och visningar registreras aldrig',()=>{
-  assert.match(funktion('finishAttempt'),/if\(state\.adminBlad\) return finishAdminBlad\(delar\);/);
+test('Svar i bläddringsläget ger XP men påverkar inte det pågående passet',()=>{
   const fa=funktion('finishAttempt');
-  assert.ok(fa.indexOf('finishAdminBlad')<fa.indexOf('state.sessionDone++'),'spärren ligger före all registrering');
+  assert.match(fa,/const blad=!!state\.adminBlad;/);
+  /* Passgranskningens XP-lösa gren får inte fånga bläddrade svar. */
+  assert.match(fa,/if\(!blad && \(state\.passReview/);
+  /* Passets räknare, passhistorik, felkö, passsumma och prov ändras bara utanför bläddringen. */
+  assert.match(fa,/if\(!blad\)\{\s*state\.sessionDone\+\+;\s*const passEntry/);
+  assert.match(fa,/if\(!blad\)\{\s*state\.sessionXp\+=xp;/);
+  assert.match(fa,/if\(state\.prov && !blad\) provRegistrera/);
+  /* XP, historik och serverregistrering ligger kvar utanför spärrarna. */
+  for(const s of ['profile.xp+=xp;','kgRegistreraForsok(','cp.history.push(','saveProfile();'])assert.ok(fa.includes(s),s);
+  assert.doesNotMatch(html,/finishAdminBlad/);
+  /* En bläddrad uppgift startar som en vanlig uppgift som kan ge XP. */
+  assert.match(funktion('adminBladVisa'),/state\.noXp=false;state\.passReview=false;/);
   assert.match(funktion('sparaPagaendePass'),/if\(state\.adminBlad\) return;/);
   assert.match(funktion('nextTask'),/if\(state\.adminBlad\) return adminBladAvsluta\(\);/);
   assert.match(funktion('beginSession'),/state\.adminBlad=null;/);

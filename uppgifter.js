@@ -194958,11 +194958,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "COM",
-      "ratt": true,
-      "kommentar": "En av sladdarna sitter alltid i COM."
-    },
-    {
       "txt": "10A",
       "ratt": false,
       "kommentar": "10A används bara när du mäter stora strömmar."
@@ -194971,6 +194966,11 @@ window.BANK = [
       "txt": "µA mA V Ω Hz",
       "ratt": false,
       "kommentar": "Det här uttaget används för spänning, resistans och små strömmar, men inte vid stora strömmar."
+    },
+    {
+      "txt": "COM",
+      "ratt": true,
+      "kommentar": "En av sladdarna sitter alltid i COM."
     }
   ],
   "självrättning": true,
@@ -195084,11 +195084,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Flytta sladden från 10A till uttaget µA mA V Ω Hz.",
-      "ratt": true,
-      "kommentar": "Spänning mäts med en sladd i COM och en i det uttaget."
-    },
-    {
       "txt": "Flytta sladden från COM till 10A-uttaget.",
       "ratt": false,
       "kommentar": "En av sladdarna ska alltid sitta i COM."
@@ -195102,6 +195097,11 @@ window.BANK = [
       "txt": "Ingenting. Kopplingen är rätt.",
       "ratt": false,
       "kommentar": "Med en sladd i 10A-uttaget kan multimetern inte mäta spänning."
+    },
+    {
+      "txt": "Flytta sladden från 10A till uttaget µA mA V Ω Hz.",
+      "ratt": true,
+      "kommentar": "Spänning mäts med en sladd i COM och en i det uttaget."
     }
   ],
   "självrättning": true,
@@ -195220,14 +195220,14 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Ω",
-      "ratt": true,
-      "kommentar": "Ω (ohm) är enheten för resistans."
-    },
-    {
       "txt": "V",
       "ratt": false,
       "kommentar": "Det läget mäter spänning."
+    },
+    {
+      "txt": "Ω",
+      "ratt": true,
+      "kommentar": "Ω (ohm) är enheten för resistans."
     },
     {
       "txt": "4000 µA",
@@ -195267,11 +195267,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "400 mA",
-      "ratt": true,
-      "kommentar": "50 mA ryms i 400 mA-området."
-    },
-    {
       "txt": "4000 µA",
       "ratt": false,
       "kommentar": "4000 µA = 4 mA. Det är för litet för 50 mA."
@@ -195280,6 +195275,11 @@ window.BANK = [
       "txt": "10 A",
       "ratt": false,
       "kommentar": "10 A-läget används med 10A-uttaget och ger sämre noggrannhet."
+    },
+    {
+      "txt": "400 mA",
+      "ratt": true,
+      "kommentar": "50 mA ryms i 400 mA-området."
     },
     {
       "txt": "V",
@@ -195314,11 +195314,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "4000 µA",
-      "ratt": true,
-      "kommentar": "1500 µA ryms i 4000 µA-området och ger flest decimaler."
-    },
-    {
       "txt": "400 mA",
       "ratt": false,
       "kommentar": "Det fungerar, men ger sämre noggrannhet än det minsta område som räcker."
@@ -195332,6 +195327,11 @@ window.BANK = [
       "txt": "Ω",
       "ratt": false,
       "kommentar": "Det läget mäter resistans."
+    },
+    {
+      "txt": "4000 µA",
+      "ratt": true,
+      "kommentar": "1500 µA ryms i 4000 µA-området och ger flest decimaler."
     }
   ],
   "självrättning": true,
@@ -195408,14 +195408,14 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Flytta sladden från 10A till µA mA V Ω Hz och vrid vredet till V.",
-      "ratt": true,
-      "kommentar": "Både uttaget och vredet måste passa spänningsmätning."
-    },
-    {
       "txt": "Bara vrida vredet till V.",
       "ratt": false,
       "kommentar": "Sladden i 10A-uttaget ger en väg med mycket liten resistans. Batteriet kortsluts."
+    },
+    {
+      "txt": "Flytta sladden från 10A till µA mA V Ω Hz och vrid vredet till V.",
+      "ratt": true,
+      "kommentar": "Både uttaget och vredet måste passa spänningsmätning."
     },
     {
       "txt": "Bara flytta sladden från 10A till µA mA V Ω Hz.",
@@ -195455,14 +195455,14 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Bryt kretsen vid A och koppla in mätaren där, så att strömmen går genom mätaren.",
-      "ratt": true,
-      "kommentar": "En amperemeter kopplas i serie."
-    },
-    {
       "txt": "Koppla mätaren mellan A och B utan att bryta kretsen.",
       "ratt": false,
       "kommentar": "Då hamnar mätaren parallellt med lampan. Strömmen går förbi lampan genom mätaren."
+    },
+    {
+      "txt": "Bryt kretsen vid A och koppla in mätaren där, så att strömmen går genom mätaren.",
+      "ratt": true,
+      "kommentar": "En amperemeter kopplas i serie."
     },
     {
       "txt": "Koppla mätaren direkt över batteriets poler.",
@@ -195497,11 +195497,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Mellan A och B.",
-      "ratt": true,
-      "kommentar": "A och B ligger på var sin sida om lampan."
-    },
-    {
       "txt": "Mellan B och C.",
       "ratt": false,
       "kommentar": "Mellan B och C finns bara ledning, så spänningen blir nästan 0 V."
@@ -195510,6 +195505,11 @@ window.BANK = [
       "txt": "Bryt kretsen vid A och koppla in mätaren där.",
       "ratt": false,
       "kommentar": "Då hamnar voltmetern i serie. Den har mycket stor resistans, så lampan slocknar."
+    },
+    {
+      "txt": "Mellan A och B.",
+      "ratt": true,
+      "kommentar": "A och B ligger på var sin sida om lampan."
     }
   ],
   "självrättning": true,
@@ -195581,14 +195581,14 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Vid R",
-      "ratt": true,
-      "kommentar": "R ligger i grenen med L2."
-    },
-    {
       "txt": "Vid P",
       "ratt": false,
       "kommentar": "Vid P mäter du den totala strömmen genom båda lamporna."
+    },
+    {
+      "txt": "Vid R",
+      "ratt": true,
+      "kommentar": "R ligger i grenen med L2."
     },
     {
       "txt": "Vid Q",
@@ -195624,11 +195624,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Nästan all ström går genom amperemetern. Lampan slocknar och mätarens säkring kan gå sönder.",
-      "ratt": true,
-      "kommentar": "Amperemetern har mycket liten resistans och kortsluter lampan."
-    },
-    {
       "txt": "Mätaren visar strömmen genom lampan.",
       "ratt": false,
       "kommentar": "För det måste amperemetern kopplas i serie med lampan."
@@ -195637,6 +195632,11 @@ window.BANK = [
       "txt": "Ingenting händer, eftersom en amperemeter har mycket stor resistans.",
       "ratt": false,
       "kommentar": "Det är voltmetern som har mycket stor resistans. Amperemetern har mycket liten."
+    },
+    {
+      "txt": "Nästan all ström går genom amperemetern. Lampan slocknar och mätarens säkring kan gå sönder.",
+      "ratt": true,
+      "kommentar": "Amperemetern har mycket liten resistans och kortsluter lampan."
     }
   ],
   "självrättning": true,
@@ -195710,11 +195710,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Sladdar i COM och 10A, vredet på 10 A, mätaren inkopplad i serie vid Q.",
-      "ratt": true,
-      "kommentar": "Rätt uttag och läge för 1,2 A, och Q ligger i grenen med L1."
-    },
-    {
       "txt": "Sladdar i COM och µA mA V Ω Hz, vredet på 400 mA, mätaren inkopplad i serie vid Q.",
       "ratt": false,
       "kommentar": "1,2 A är mer än 400 mA. Säkringen i mA-uttaget går sönder."
@@ -195723,6 +195718,11 @@ window.BANK = [
       "txt": "Sladdar i COM och 10A, vredet på 10 A, mätaren inkopplad i serie vid P.",
       "ratt": false,
       "kommentar": "Vid P mäter du den totala strömmen genom båda lamporna."
+    },
+    {
+      "txt": "Sladdar i COM och 10A, vredet på 10 A, mätaren inkopplad i serie vid Q.",
+      "ratt": true,
+      "kommentar": "Rätt uttag och läge för 1,2 A, och Q ligger i grenen med L1."
     },
     {
       "txt": "Sladdar i COM och µA mA V Ω Hz, vredet på V, mätaren parallellt över L1.",
@@ -195758,14 +195758,14 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Koppla bort batteriet, lossa R från kretsen och mät sedan över R med vredet på Ω.",
-      "ratt": true,
-      "kommentar": "Resistans mäts på en komponent som inte har någon spänning över sig."
-    },
-    {
       "txt": "Låt allt sitta kvar. Ω-läget tar hänsyn till batteriet.",
       "ratt": false,
       "kommentar": "Batteriets spänning stör mätningen och kan skada mätaren."
+    },
+    {
+      "txt": "Koppla bort batteriet, lossa R från kretsen och mät sedan över R med vredet på Ω.",
+      "ratt": true,
+      "kommentar": "Resistans mäts på en komponent som inte har någon spänning över sig."
     },
     {
       "txt": "Koppla in mätaren i serie med R i stället, med vredet kvar på Ω.",
@@ -195804,16 +195804,16 @@ window.BANK = [
       "ratt": false
     },
     {
-      "txt": "B och C",
-      "ratt": true
-    },
-    {
       "txt": "B och F",
       "ratt": false
     },
     {
       "txt": "A och C",
       "ratt": false
+    },
+    {
+      "txt": "B och C",
+      "ratt": true
     }
   ],
   "självrättning": true,
@@ -195843,6 +195843,10 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
+      "txt": "A och C",
+      "ratt": true
+    },
+    {
       "txt": "B och F",
       "ratt": false
     },
@@ -195853,10 +195857,6 @@ window.BANK = [
     {
       "txt": "A och E",
       "ratt": false
-    },
-    {
-      "txt": "A och C",
-      "ratt": true
     }
   ],
   "självrättning": true,
@@ -195999,12 +195999,12 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "COM och µA mA V Ω Hz",
-      "ratt": true
-    },
-    {
       "txt": "COM och 10A",
       "ratt": false
+    },
+    {
+      "txt": "COM och µA mA V Ω Hz",
+      "ratt": true
     },
     {
       "txt": "10A och µA mA V Ω Hz",
@@ -196038,16 +196038,16 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "µA mA V Ω Hz",
-      "ratt": true
-    },
-    {
       "txt": "10A",
       "ratt": false
     },
     {
       "txt": "COM",
       "ratt": false
+    },
+    {
+      "txt": "µA mA V Ω Hz",
+      "ratt": true
     }
   ],
   "självrättning": true,
@@ -196077,16 +196077,16 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
+      "txt": "COM och µA mA V Ω Hz",
+      "ratt": true
+    },
+    {
       "txt": "10A och µA mA V Ω Hz",
       "ratt": false
     },
     {
       "txt": "COM och 10A",
       "ratt": false
-    },
-    {
-      "txt": "COM och µA mA V Ω Hz",
-      "ratt": true
     }
   ],
   "självrättning": true,
@@ -196155,10 +196155,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "V",
-      "ratt": true
-    },
-    {
       "txt": "Ω",
       "ratt": false
     },
@@ -196169,6 +196165,15 @@ window.BANK = [
     {
       "txt": "10 A",
       "ratt": false
+    },
+    {
+      "txt": "4000 µA",
+      "ratt": false,
+      "kommentar": "Det läget mäter små strömmar. Batteriets spänning mäts i läget V."
+    },
+    {
+      "txt": "V",
+      "ratt": true
     }
   ],
   "självrättning": true,
@@ -196202,12 +196207,12 @@ window.BANK = [
       "ratt": false
     },
     {
-      "txt": "400 mA",
-      "ratt": false
-    },
-    {
       "txt": "4000 µA",
       "ratt": true
+    },
+    {
+      "txt": "400 mA",
+      "ratt": false
     },
     {
       "txt": "V",
@@ -196245,12 +196250,12 @@ window.BANK = [
       "ratt": false
     },
     {
-      "txt": "0 V",
-      "ratt": true
-    },
-    {
       "txt": "3 V",
       "ratt": false
+    },
+    {
+      "txt": "0 V",
+      "ratt": true
     },
     {
       "txt": "12 V",
@@ -196292,12 +196297,12 @@ window.BANK = [
       "ratt": false
     },
     {
-      "txt": "10 A",
-      "ratt": true
-    },
-    {
       "txt": "V",
       "ratt": false
+    },
+    {
+      "txt": "10 A",
+      "ratt": true
     }
   ],
   "självrättning": true,
@@ -196328,6 +196333,10 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
+      "txt": "Flytta sladden från högra uttaget till 10A och vrida till 10 A.",
+      "ratt": true
+    },
+    {
       "txt": "Bara vrida till 10 A.",
       "ratt": false
     },
@@ -196338,10 +196347,6 @@ window.BANK = [
     {
       "txt": "Vrida till 4000 µA.",
       "ratt": false
-    },
-    {
-      "txt": "Flytta sladden från högra uttaget till 10A och vrida till 10 A.",
-      "ratt": true
     }
   ],
   "självrättning": true,
@@ -196376,12 +196381,12 @@ window.BANK = [
       "ratt": false
     },
     {
-      "txt": "10A och högra uttaget, vredet på 400 mA; i serie med motståndet.",
-      "ratt": false
-    },
-    {
       "txt": "COM och högra uttaget, vredet på 400 mA; i serie med motståndet.",
       "ratt": true
+    },
+    {
+      "txt": "10A och högra uttaget, vredet på 400 mA; i serie med motståndet.",
+      "ratt": false
     },
     {
       "txt": "COM och 10A, vredet på 10 A; i serie med motståndet.",
@@ -196415,16 +196420,16 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Byta plats på mätspetsarna vid batteriet.",
-      "ratt": true
-    },
-    {
       "txt": "Flytta sladden från högra uttaget till 10A.",
       "ratt": false
     },
     {
       "txt": "Vrida till 400 mA.",
       "ratt": false
+    },
+    {
+      "txt": "Byta plats på mätspetsarna vid batteriet.",
+      "ratt": true
     },
     {
       "txt": "Trycka på HOLD.",

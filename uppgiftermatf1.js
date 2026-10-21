@@ -4152,8 +4152,8 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "ordna grupper i block",
     "poang": "0/2/0",
-    "t": "<span class=\"fig\"><svg width=\"470\" height=\"215\" viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre block med geografiböcker, religionsböcker och romaner som ska stå tillsammans\">\n<rect width=\"480\" height=\"220\" fill=\"white\"/>\n<rect x=\"30\" y=\"60\" width=\"170\" height=\"86\" rx=\"7\" fill=\"#2C62A8\" fill-opacity=\".12\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/><text x=\"115\" y=\"98\" font-size=\"15\" text-anchor=\"middle\">6 geografiböcker</text><text x=\"115\" y=\"121\" font-size=\"14\" text-anchor=\"middle\" fill=\"#555\">ett block</text>\n<rect x=\"212\" y=\"60\" width=\"128\" height=\"86\" rx=\"7\" fill=\"#2E7D52\" fill-opacity=\".12\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/><text x=\"276\" y=\"98\" font-size=\"15\" text-anchor=\"middle\">4 religionsböcker</text><text x=\"276\" y=\"121\" font-size=\"14\" text-anchor=\"middle\" fill=\"#555\">ett block</text>\n<rect x=\"352\" y=\"60\" width=\"100\" height=\"86\" rx=\"7\" fill=\"#B48A18\" fill-opacity=\".12\" stroke=\"#B48A18\" stroke-width=\"2.2\"/><text x=\"402\" y=\"98\" font-size=\"15\" text-anchor=\"middle\">3 romaner</text><text x=\"402\" y=\"121\" font-size=\"14\" text-anchor=\"middle\" fill=\"#555\">ett block</text>\n<line x1=\"20\" y1=\"152\" x2=\"462\" y2=\"152\" stroke=\"#333\" stroke-width=\"4\"/>\n<text x=\"240\" y=\"188\" font-size=\"14\" text-anchor=\"middle\">Blocken kan byta plats, och böckerna kan flyttas om inom sitt block.</text>\n</svg></span><p>I en bokhylla ska 6 geografiböcker, 4 religionsböcker och 3 romaner ställas så att böcker av samma kategori står tillsammans. Alla böcker är olika. Hur många ordningar finns?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Här gör den det, vilket är signalen för permutationer. De tre kategoriblocken kan ordnas på \\(3!\\) sätt. Inom blocken finns \\(6!\\), \\(4!\\) respektive \\(3!\\) ordningar. Totalt</p><div class=\"facit-matte\">\\[3!\\cdot6!\\cdot4!\\cdot3!=\\mathbf{622\\,080}\\]</div></div>",
+    "t": "<span class=\"fig\"><svg width=\"470\" height=\"215\" viewBox=\"0 0 480 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Tre block med geografiböcker, religionsböcker och romaner som ska stå tillsammans\">\n<rect width=\"480\" height=\"220\" fill=\"white\"/>\n<rect x=\"30\" y=\"60\" width=\"170\" height=\"86\" rx=\"7\" fill=\"#2C62A8\" fill-opacity=\".12\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/><text x=\"115\" y=\"98\" font-size=\"15\" text-anchor=\"middle\">6 geografiböcker</text>\n<rect x=\"212\" y=\"60\" width=\"128\" height=\"86\" rx=\"7\" fill=\"#2E7D52\" fill-opacity=\".12\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/><text x=\"276\" y=\"98\" font-size=\"15\" text-anchor=\"middle\">4 religionsböcker</text>\n<rect x=\"352\" y=\"60\" width=\"100\" height=\"86\" rx=\"7\" fill=\"#B48A18\" fill-opacity=\".12\" stroke=\"#B48A18\" stroke-width=\"2.2\"/><text x=\"402\" y=\"98\" font-size=\"15\" text-anchor=\"middle\">3 romaner</text>\n<line x1=\"20\" y1=\"152\" x2=\"462\" y2=\"152\" stroke=\"#333\" stroke-width=\"4\"/>\n\n</svg></span><p>I en bokhylla ska 6 geografiböcker, 4 religionsböcker och 3 romaner ställas så att böcker av samma kategori står tillsammans. Alla böcker är olika. Hur många ordningar finns?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ordningen på böckerna spelar roll. De tre kategoriblocken kan ordnas på \\(3!\\) sätt. Inom blocken finns \\(6!\\), \\(4!\\) respektive \\(3!\\) ordningar. Totalt</p><div class=\"facit-matte\">\\[3!\\cdot6!\\cdot4!\\cdot3!=\\mathbf{622\\,080}\\]</div></div>",
     "id": "1.26",
     "miniräknare": true,
     "geogebra": false,
@@ -4434,7 +4434,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "permutationer med upprepade objekt",
     "poang": "0/2/0",
-    "t": "<span class=\"fig\"><svg width=\"556\" height=\"180\" viewBox=\"0 0 556 185\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Bokstavsbrickor för ordet MATEMATIK där M, A och T förekommer två gånger vardera\">\n<rect width=\"556\" height=\"185\" fill=\"white\"/>\n<rect x=\"35.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#B48A18\" fill-opacity=\".16\" stroke=\"#B48A18\" stroke-width=\"2\"/><text x=\"58.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">M</text><rect x=\"90.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#2C62A8\" fill-opacity=\".16\" stroke=\"#2C62A8\" stroke-width=\"2\"/><text x=\"113.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">A</text><rect x=\"145.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#2E7D52\" fill-opacity=\".16\" stroke=\"#2E7D52\" stroke-width=\"2\"/><text x=\"168.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">T</text><rect x=\"200.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#999\" fill-opacity=\".04\" stroke=\"#999\" stroke-width=\"2\"/><text x=\"223.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">E</text><rect x=\"255.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#B48A18\" fill-opacity=\".16\" stroke=\"#B48A18\" stroke-width=\"2\"/><text x=\"278.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">M</text><rect x=\"310.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#2C62A8\" fill-opacity=\".16\" stroke=\"#2C62A8\" stroke-width=\"2\"/><text x=\"333.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">A</text><rect x=\"365.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#2E7D52\" fill-opacity=\".16\" stroke=\"#2E7D52\" stroke-width=\"2\"/><text x=\"388.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">T</text><rect x=\"420.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#999\" fill-opacity=\".04\" stroke=\"#999\" stroke-width=\"2\"/><text x=\"443.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">I</text><rect x=\"475.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#999\" fill-opacity=\".04\" stroke=\"#999\" stroke-width=\"2\"/><text x=\"498.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">K</text><text x=\"139\" y=\"145\" font-size=\"14.5\" text-anchor=\"middle\" fill=\"#B48A18\">M: 2 gånger</text><text x=\"278\" y=\"145\" font-size=\"14.5\" text-anchor=\"middle\" fill=\"#2C62A8\">A: 2 gånger</text><text x=\"417\" y=\"145\" font-size=\"14.5\" text-anchor=\"middle\" fill=\"#2E7D52\">T: 2 gånger</text>\n<text x=\"278\" y=\"173\" font-size=\"14\" fill=\"#777\" text-anchor=\"middle\">9 brickor; tre bokstäver förekommer dubbelt</text>\n</svg></span><p>Hur många olika bokstavsordningar kan bildas av bokstäverna i ordet MATEMATIK?</p>",
+    "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 456 84\" style=\"width:100%;max-width:456px\" role=\"img\" aria-label=\"Bokstavsbrickor: MATEMATIK\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><rect x=\"12\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"32\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">M</text><rect x=\"60\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"80\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">A</text><rect x=\"108\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"128\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">T</text><rect x=\"156\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"176\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">E</text><rect x=\"204\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"224\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">M</text><rect x=\"252\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"272\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">A</text><rect x=\"300\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"320\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">T</text><rect x=\"348\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"368\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">I</text><rect x=\"396\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"416\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">K</text></svg></span><p>Hur många olika bokstavsordningar kan bildas av bokstäverna i ordet MATEMATIK?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Här gör den det, vilket är signalen för permutationer. Ordet har 9 bokstäver. A, M och T förekommer vardera två gånger. Därför blir antalet</p><div class=\"facit-matte\">\\[\\frac{9!}{2!2!2!}=\\mathbf{45\\,360}\\]</div></div>",
     "id": "1.40",
     "miniräknare": true,
@@ -4593,7 +4593,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "upprepade bokstäver",
     "poang": "0/2/0",
-    "t": "<span class=\"fig\"><svg width=\"556\" height=\"180\" viewBox=\"0 0 556 185\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Bokstavsbrickor för ordet STATISTIK där T förekommer tre gånger samt S och I två gånger\">\n<rect width=\"556\" height=\"185\" fill=\"white\"/>\n<rect x=\"35.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#2E7D52\" fill-opacity=\".16\" stroke=\"#2E7D52\" stroke-width=\"2\"/><text x=\"58.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">S</text><rect x=\"90.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#2E7D52\" fill-opacity=\".16\" stroke=\"#2E7D52\" stroke-width=\"2\"/><text x=\"113.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">T</text><rect x=\"145.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#999\" fill-opacity=\".04\" stroke=\"#999\" stroke-width=\"2\"/><text x=\"168.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">A</text><rect x=\"200.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#2E7D52\" fill-opacity=\".16\" stroke=\"#2E7D52\" stroke-width=\"2\"/><text x=\"223.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">T</text><rect x=\"255.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#B48A18\" fill-opacity=\".16\" stroke=\"#B48A18\" stroke-width=\"2\"/><text x=\"278.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">I</text><rect x=\"310.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#2E7D52\" fill-opacity=\".16\" stroke=\"#2E7D52\" stroke-width=\"2\"/><text x=\"333.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">S</text><rect x=\"365.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#2E7D52\" fill-opacity=\".16\" stroke=\"#2E7D52\" stroke-width=\"2\"/><text x=\"388.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">T</text><rect x=\"420.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#B48A18\" fill-opacity=\".16\" stroke=\"#B48A18\" stroke-width=\"2\"/><text x=\"443.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">I</text><rect x=\"475.0\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#999\" fill-opacity=\".04\" stroke=\"#999\" stroke-width=\"2\"/><text x=\"498.0\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">K</text><text x=\"139\" y=\"145\" font-size=\"14.5\" text-anchor=\"middle\" fill=\"#2E7D52\">T: 3 gånger</text><text x=\"278\" y=\"145\" font-size=\"14.5\" text-anchor=\"middle\" fill=\"#2E7D52\">S: 2 gånger</text><text x=\"417\" y=\"145\" font-size=\"14.5\" text-anchor=\"middle\" fill=\"#B48A18\">I: 2 gånger</text>\n<text x=\"278\" y=\"173\" font-size=\"14\" fill=\"#777\" text-anchor=\"middle\">9 brickor med upprepade bokstäver</text>\n</svg></span><p>Hur många olika bokstavsordningar kan bildas av bokstäverna i ordet <strong>STATISTIK</strong>?</p>",
+    "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 456 84\" style=\"width:100%;max-width:456px\" role=\"img\" aria-label=\"Bokstavsbrickor: STATISTIK\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><rect x=\"12\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"32\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">S</text><rect x=\"60\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"80\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">T</text><rect x=\"108\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"128\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">A</text><rect x=\"156\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"176\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">T</text><rect x=\"204\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"224\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">I</text><rect x=\"252\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"272\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">S</text><rect x=\"300\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"320\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">T</text><rect x=\"348\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"368\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">I</text><rect x=\"396\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"416\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">K</text></svg></span><p>Hur många olika bokstavsordningar kan bildas av bokstäverna i ordet <strong>STATISTIK</strong>?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Ordet har 9 bokstäver. T förekommer 3 gånger, S 2 gånger och I 2 gånger. Om alla bokstäver vore olika skulle vi ha \\(9!\\) ordningar, men byten mellan identiska bokstäver ger inga nya ord.</p><div class=\"facit-matte\">\\[\\frac{9!}{3!2!2!}=\\mathbf{15\\,120}\\]</div></div>",
     "id": "1.73",
     "miniräknare": true,
@@ -4889,7 +4889,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "permutation med upprepade bokstäver",
     "poang": "1/1/0",
-    "t": "<span class=\"fig\"><svg width=\"480\" height=\"180\" viewBox=\"0 0 480 185\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Bokstavsbrickor för ordet ANANAS där A förekommer tre gånger och N två gånger\">\n<rect width=\"480\" height=\"185\" fill=\"white\"/>\n<rect x=\"79.5\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#2C62A8\" fill-opacity=\".16\" stroke=\"#2C62A8\" stroke-width=\"2\"/><text x=\"102.5\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">A</text><rect x=\"134.5\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#B48A18\" fill-opacity=\".16\" stroke=\"#B48A18\" stroke-width=\"2\"/><text x=\"157.5\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">N</text><rect x=\"189.5\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#2C62A8\" fill-opacity=\".16\" stroke=\"#2C62A8\" stroke-width=\"2\"/><text x=\"212.5\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">A</text><rect x=\"244.5\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#B48A18\" fill-opacity=\".16\" stroke=\"#B48A18\" stroke-width=\"2\"/><text x=\"267.5\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">N</text><rect x=\"299.5\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#2C62A8\" fill-opacity=\".16\" stroke=\"#2C62A8\" stroke-width=\"2\"/><text x=\"322.5\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">A</text><rect x=\"354.5\" y=\"52\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#999\" fill-opacity=\".04\" stroke=\"#999\" stroke-width=\"2\"/><text x=\"377.5\" y=\"83\" font-size=\"22\" text-anchor=\"middle\" fill=\"#222\">S</text><text x=\"160\" y=\"145\" font-size=\"14.5\" text-anchor=\"middle\" fill=\"#2C62A8\">A: 3 gånger</text><text x=\"320\" y=\"145\" font-size=\"14.5\" text-anchor=\"middle\" fill=\"#B48A18\">N: 2 gånger</text>\n<text x=\"240\" y=\"173\" font-size=\"14\" fill=\"#777\" text-anchor=\"middle\">6 brickor med upprepade bokstäver</text>\n</svg></span><p>Hur många olika bokstavsordningar kan bildas av bokstäverna i ordet ANANAS?</p>",
+    "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 312 84\" style=\"width:100%;max-width:312px\" role=\"img\" aria-label=\"Bokstavsbrickor: ANANAS\"><rect width=\"100%\" height=\"100%\" fill=\"white\"/><rect x=\"12\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"32\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">A</text><rect x=\"60\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"80\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">N</text><rect x=\"108\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"128\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">A</text><rect x=\"156\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"176\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">N</text><rect x=\"204\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"224\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">A</text><rect x=\"252\" y=\"18\" width=\"40\" height=\"48\" rx=\"5\" fill=\"#edf3fb\" stroke=\"#2c62a8\" stroke-width=\"2\"/><text x=\"272\" y=\"50\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"24\" fill=\"#182435\">S</text></svg></span><p>Hur många olika bokstavsordningar kan bildas av bokstäverna i ordet ANANAS?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Det finns 6 bokstäver: A förekommer 3 gånger, N 2 gånger och S 1 gång. Därför är antalet olika ordningar</p><div class=\"facit-matte\">\\[\\frac{6!}{3!2!}=60\\]</div><p><strong>60 ordningar</strong>.</p></div>",
     "id": "1.137",
     "miniräknare": true,
@@ -4942,7 +4942,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "cirkulär placering introduktion",
     "poang": "0/2/0",
-    "t": "<span class=\"fig\"><svg width=\"450\" height=\"275\" viewBox=\"0 0 460 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Runt bord med sex platser där en plats är markerad som fixerad\">\n<rect width=\"460\" height=\"280\" fill=\"white\"/>\n<circle cx=\"225\" cy=\"140\" r=\"58\" fill=\"#999\" fill-opacity=\".10\" stroke=\"#666\" stroke-width=\"2\"/>\n<circle cx=\"225.0\" cy=\"48.0\" r=\"17\" fill=\"#B23A2E\" fill-opacity=\".14\" stroke=\"#B23A2E\" stroke-width=\"2\"/><text x=\"225.0\" y=\"54.0\" font-size=\"15\" text-anchor=\"middle\" fill=\"#B23A2E\">1</text><circle cx=\"304.7\" cy=\"94.0\" r=\"17\" fill=\"#2C62A8\" fill-opacity=\".14\" stroke=\"#2C62A8\" stroke-width=\"2\"/><circle cx=\"304.7\" cy=\"186.0\" r=\"17\" fill=\"#2C62A8\" fill-opacity=\".14\" stroke=\"#2C62A8\" stroke-width=\"2\"/><circle cx=\"225.0\" cy=\"232.0\" r=\"17\" fill=\"#2C62A8\" fill-opacity=\".14\" stroke=\"#2C62A8\" stroke-width=\"2\"/><circle cx=\"145.3\" cy=\"186.0\" r=\"17\" fill=\"#2C62A8\" fill-opacity=\".14\" stroke=\"#2C62A8\" stroke-width=\"2\"/><circle cx=\"145.3\" cy=\"94.0\" r=\"17\" fill=\"#2C62A8\" fill-opacity=\".14\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<line x1=\"243\" y1=\"46\" x2=\"300\" y2=\"36\" stroke=\"#B23A2E\" stroke-width=\"1.2\"/>\n<text x=\"306\" y=\"40\" font-size=\"14\" fill=\"#B23A2E\">en person fixeras</text>\n<text x=\"225\" y=\"262\" font-size=\"14\" text-anchor=\"middle\" fill=\"#777\">Placeringar som bara är vridna räknas som samma.</text>\n</svg></span><p>Sex personer sitter runt ett runt bord. Rotationer av samma placering räknas som samma. På hur många sätt kan de placeras?</p>",
+    "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 280\" style=\"width:100%;max-width:280px\" role=\"img\" aria-label=\"Runt bord med sex likvärdiga platser\"><rect width=\"280\" height=\"280\" fill=\"white\"/><circle cx=\"140\" cy=\"140\" r=\"58\" fill=\"#eef2f6\" stroke=\"#42526a\" stroke-width=\"2\"/><circle cx=\"140.0\" cy=\"48.0\" r=\"17\" fill=\"#dce9fa\" stroke=\"#2c62a8\" stroke-width=\"2\"/><circle cx=\"219.7\" cy=\"94.0\" r=\"17\" fill=\"#dce9fa\" stroke=\"#2c62a8\" stroke-width=\"2\"/><circle cx=\"219.7\" cy=\"186.0\" r=\"17\" fill=\"#dce9fa\" stroke=\"#2c62a8\" stroke-width=\"2\"/><circle cx=\"140.0\" cy=\"232.0\" r=\"17\" fill=\"#dce9fa\" stroke=\"#2c62a8\" stroke-width=\"2\"/><circle cx=\"60.3\" cy=\"186.0\" r=\"17\" fill=\"#dce9fa\" stroke=\"#2c62a8\" stroke-width=\"2\"/><circle cx=\"60.3\" cy=\"94.0\" r=\"17\" fill=\"#dce9fa\" stroke=\"#2c62a8\" stroke-width=\"2\"/></svg></span><p>Sex personer sitter runt ett runt bord. Rotationer av samma placering räknas som samma. På hur många sätt kan de placeras?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p>Fixera en person för att ta bort rotationerna. De övriga 5 kan ordnas på</p><div class=\"facit-matte\">\\[5!=120\\]</div><p>sätt.</p></div>",
     "id": "1.152",
     "miniräknare": true,
@@ -4956,7 +4956,7 @@ window.BANKMATF1 = [
       "procedur"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Fråga först: spelar ordningen roll? Om ja används permutation/ordnat urval; om nej används kombination.</p>",
+    "ledtrad": "<p>Vilka placeringar blir likadana om hela bordet vrids?</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "permutationer_kombinationer"
@@ -26844,14 +26844,14 @@ window.BANKMATF1 = [
   {
     "kap": 4,
     "omr": "inhomogena_andra",
-    "niva": "C",
+    "niva": "A",
     "typ": "exponentialterm som ingår i den homogena lösningen",
-    "poang": "0/3/0",
-    "t": "<p>Bestäm den allmänna lösningen till</p><p>\\[y''-3y'+2y=e^x.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Den homogena ekvationen har rötterna 1 och 2, så</p><div class=\"facit-matte\">\\[y_h=C_1e^x+C_2e^{2x}\\].</div></div></li><li><p>En vanlig ansats \\(Ae^x\\) fungerar inte eftersom \\(e^x\\) redan är en homogen lösning.</p></li><li><p>Vi multiplicerar därför med \\(x\\) och söker</p></li><li><p>\\[y_p=Axe^x.\\]</p></li><li><p>Då \\(y_p'=A(1+x)e^x\\) och \\(y_p''=A(x+2)e^x\\).</p></li><li><p>Insättning ger</p></li><li><p>\\[A[(x+2)-3(x+1)+2x]e^x=-Ae^x=e^x,\\]</p></li><li><div class=\"facit-berakning\"><p>så</p><div class=\"facit-matte\">\\[A=-1\\].</div></div></li><li><p><strong>\\(y=C_1e^x+C_2e^{2x}-xe^x\\)</strong>.</p></li></ol></div>",
+    "poang": "0/0/3",
+    "t": "<p><strong>Fördjupning utanför ordinarie Ma5-träning.</strong></p><p>Bestäm den allmänna lösningen till</p><p>\\[y''-3y'+2y=e^x.\\]</p>",
+    "s": "<div class=\"facit-v2\"><p>Den homogena ekvationens rötter är 1 och 2, vilket ger \\(y_h=C_1e^x+C_2e^{2x}\\).</p><p>Eftersom \\(e^x\\) redan ingår där prövar vi \\(y_p=Axe^x\\). Derivering ger</p>\\[y_p'=A(1+x)e^x,\\qquad y_p''=A(2+x)e^x.\\]<p>Insättning i differentialekvationen ger \\(-Ae^x=e^x\\), så \\(A=-1\\). Den allmänna lösningen är därför</p>\\[\\boxed{y=C_1e^x+C_2e^{2x}-xe^x.}\\]</div>",
     "id": "4.30",
     "miniräknare": true,
-    "geogebra": false,
+    "geogebra": true,
     "familj": "Inhomogena differentialekvationer av andra ordningen",
     "svarstyp": "text",
     "rättSvar": "C_1e^x+C_2e^{2x}-xe^x",
@@ -26863,13 +26863,14 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Kontrollera först om exponenten i högerledet är en rot till den karakteristiska ekvationen. Om den är det måste ansatsen multipliceras med \\(x\\).</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "omrTidigare": [
       "andra_ordningen"
     ],
     "familjTidigare": [
       "Homogena differentialekvationer av andra ordningen"
-    ]
+    ],
+    "spel": false
   },
   {
     "kap": 4,
@@ -26901,14 +26902,14 @@ window.BANKMATF1 = [
   {
     "kap": 4,
     "omr": "inhomogena_andra",
-    "niva": "C",
+    "niva": "A",
     "typ": "välja ansats när högerledet ingår i den homogena lösningen",
-    "poang": "0/2/0",
-    "t": "<p>För differentialekvationen</p><p>\\[y''-4y'+4y=e^{2x}\\]</p><p>förklarar en elev att ansatsen \\(y_p=Ae^{2x}\\) inte fungerar.</p><ol type=\"a\"><li>Förklara varför.</li><li>Ange en lämplig ansats för en partikulärlösning.</li></ol>",
+    "poang": "0/0/2",
+    "t": "<p><strong>Fördjupning utanför ordinarie Ma5-träning.</strong></p><p>För differentialekvationen</p><p>\\[y''-4y'+4y=e^{2x}\\]</p><p>förklarar en elev att ansatsen \\(y_p=Ae^{2x}\\) inte fungerar.</p><ol type=\"a\"><li>Förklara varför.</li><li>Ange en lämplig ansats för en partikulärlösning.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Den homogena karakteristiska ekvationen är</p><div class=\"facit-matte\">\\[(r-2)^2=0\\].</div></div></li><li><p>Därför innehåller den homogena lösningen både \\(e^{2x}\\) och \\(xe^{2x}\\).</p></li><li><p>Ansatsen \\(Ae^{2x}\\) ligger alltså redan i den homogena lösningsrymden.</p></li><li><p>Eftersom roten 2 är en <strong>dubbelrot</strong> måste ansatsen multipliceras med \\(x^2\\).</p></li><li><p>En lämplig ansats är <strong>\\(y_p=Ax^2e^{2x}\\)</strong>.</p></li></ol></div>",
     "id": "4.32",
     "miniräknare": true,
-    "geogebra": false,
+    "geogebra": true,
     "familj": "Inhomogena differentialekvationer av andra ordningen",
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -26919,7 +26920,7 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Bestäm multipliciteten för roten \\(r=2\\). Ansatsen måste multipliceras med \\(x\\) så många gånger att den inte längre ingår i den homogena lösningen.</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "spel": false,
     "omrTidigare": [
       "andra_ordningen"
@@ -26961,11 +26962,11 @@ window.BANKMATF1 = [
     "niva": "A",
     "typ": "periodiskt högerled som ingår i den homogena lösningen och begynnelsevillkor",
     "poang": "0/1/3",
-    "t": "<p>Lös</p><p>\\[y''+4y=6\\cos(2x),\\qquad y(0)=0,\\qquad y'(0)=0.\\]</p><p>Beskriv också vad som är speciellt med lösningens amplitud.</p>",
+    "t": "<p><strong>Fördjupning utanför ordinarie Ma5-träning.</strong></p><p>Lös</p><p>\\[y''+4y=6\\cos(2x),\\qquad y(0)=0,\\qquad y'(0)=0.\\]</p><p>Beskriv också vad som är speciellt med lösningens amplitud.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Den homogena lösningen är</p><div class=\"facit-matte\">\\[y_h=C_1\\cos2x+C_2\\sin2x\\].</div></div></li><li><p>Högerledets \\(\\cos2x\\) har alltså samma form som en term som redan finns i den homogena lösningen.</p></li><li><p>Därför fungerar inte en vanlig ansats med bara sinus och cosinus.</p></li><li><p>Vi prövar i stället</p></li><li><p>\\[y_p=Ax\\sin2x.\\]</p></li><li><p>Insättning ger \\(4A\\cos2x=6\\cos2x\\), alltså \\(A=3/2\\).</p></li><li><p>Den allmänna lösningen är</p></li><li><p>\\[y=C_1\\cos2x+C_2\\sin2x+\\frac32x\\sin2x.\\]</p></li><li><p>Begynnelsevillkoren ger \\(C_1=0\\) och \\(C_2=0\\).</p></li><li><p>Alltså</p></li><li><p><strong>\\(y=\\frac32x\\sin2x\\)</strong>.</p></li><li><p>Faktorn \\(x\\) gör att svängningarnas amplitud växer med tiden.</p></li><li><p>Lösningen är därför inte begränsad.</p></li></ol></div></div>",
     "id": "4.34",
     "miniräknare": true,
-    "geogebra": false,
+    "geogebra": true,
     "familj": "Begynnelsevärdesproblem",
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -27291,14 +27292,14 @@ window.BANKMATF1 = [
   {
     "kap": 4,
     "omr": "inhomogena_andra",
-    "niva": "C",
+    "niva": "A",
     "typ": "exponentialhögerled som ingår i den homogena lösningen",
-    "poang": "0/3/0",
-    "t": "<p>Lös</p><p>\\[y''-5y'+6y=e^{2x}.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den homogena ekvationen har rötterna 2 och 3:</p></li><li><p>\\[y_h=C_1e^{2x}+C_2e^{3x}.\\]</p></li><li><p>Högerledet \\(e^{2x}\\) har samma form som termen \\(e^{2x}\\) som redan finns i den homogena lösningen.</p></li><li><p>Därför fungerar inte ansatsen \\(Ae^{2x}\\).</p></li><li><p>Vi prövar i stället</p></li><li><p>\\[y_p=Axe^{2x}.\\]</p></li><li><p>Insättning i vänsterledet ger \\(-Ae^{2x}\\).</p></li><li><p>För att få högerledet \\(e^{2x}\\) krävs \\(A=-1\\).</p></li><li><p>Alltså</p></li></ol><p class=\"facit-svar\"><strong>\\[y=C_1e^{2x}+C_2e^{3x}-xe^{2x}.\\]</strong></p></div></div>",
+    "poang": "0/0/3",
+    "t": "<p><strong>Fördjupning utanför ordinarie Ma5-träning.</strong></p><p>Lös</p><p>\\[y''-5y'+6y=e^{2x}.\\]</p>",
+    "s": "<div class=\"facit-v2\"><p>Den homogena ekvationens rötter är 2 och 3, vilket ger \\(y_h=C_1e^{2x}+C_2e^{3x}\\).</p><p>Eftersom \\(e^{2x}\\) redan ingår där prövar vi \\(y_p=Axe^{2x}\\). Derivering ger</p>\\[y_p'=A(1+2x)e^{2x},\\qquad y_p''=A(4+4x)e^{2x}.\\]<p>Insättning i differentialekvationen ger \\(-Ae^{2x}=e^{2x}\\), så \\(A=-1\\). Den allmänna lösningen är därför</p>\\[\\boxed{y=C_1e^{2x}+C_2e^{3x}-xe^{2x}.}\\]</div>",
     "id": "4.153",
     "miniräknare": true,
-    "geogebra": false,
+    "geogebra": true,
     "familj": "Inhomogena differentialekvationer av andra ordningen",
     "svarstyp": "text",
     "rättSvar": null,
@@ -27309,10 +27310,11 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Högerledet \\(e^{2x}\\) motsvarar en enkel homogen rot. Multiplicera därför den vanliga ansatsen med \\(x\\).</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "omrTidigare": [
       "andra_ordningen"
-    ]
+    ],
+    "spel": false
   },
   {
     "kap": 4,
@@ -27350,10 +27352,10 @@ window.BANKMATF1 = [
     "traningsniva": 5,
     "typ": "parameterresonans vid dubbelrot",
     "miniräknare": true,
-    "geogebra": false,
+    "geogebra": true,
     "spel": false,
     "familj": "Inhomogena differentialekvationer av andra ordningen",
-    "t": "<p>Betrakta differentialekvationen</p><p>\\[y''-6y'+9y=e^{ax}.\\]</p><ol type=\"a\"><li>För vilket värde på parametern \\(a\\) fungerar inte standardansatsen \\(y_p=Ae^{ax}\\)? Motivera.</li><li>Bestäm en partikulärlösning för detta värde på \\(a\\).</li></ol>",
+    "t": "<p><strong>Fördjupning utanför ordinarie Ma5-träning.</strong></p><p>Betrakta differentialekvationen</p><p>\\[y''-6y'+9y=e^{ax}.\\]</p><ol type=\"a\"><li>För vilket värde på parametern \\(a\\) fungerar inte standardansatsen \\(y_p=Ae^{ax}\\)? Motivera.</li><li>Bestäm en partikulärlösning för detta värde på \\(a\\).</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den homogena karakteristiska ekvationen är</p></li><li><p>\\[r^2-6r+9=(r-3)^2=0.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Standardansatsen misslyckas när \\(a=3\\), eftersom \\(e^{3x}\\) redan ingår i den homogena lösningen.</p></li><li><p>Dessutom är \\(r=3\\) en dubbelrot, så även \\(xe^{3x}\\) ingår i den homogena lösningen.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Vi måste därför pröva</p><div class=\"facit-matte\">\\[y_p=Ax^2e^{3x}\\].</div></div></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatorna är</p></li><li><p>\\[y_p'=Ae^{3x}(2x+3x^2),\\]</p></li><li><p>\\[y_p''=Ae^{3x}(2+12x+9x^2).\\]</p></li><li><p>Insättning i vänsterledet ger</p></li><li><p>\\[Ae^{3x}\\bigl(2+12x+9x^2-6(2x+3x^2)+9x^2\\bigr)=2Ae^{3x}.\\]</p></li><li><p>För att få högerledet \\(e^{3x}\\) krävs \\(2A=1\\), alltså</p></li></ol><p class=\"facit-svar\"><strong>\\[y_p=\\frac12x^2e^{3x}.\\]</strong></p></div>",
     "svarstyp": "resonemang",
     "rättSvar": null,

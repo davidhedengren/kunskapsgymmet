@@ -20894,7 +20894,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "fältstyrka ur avlänkning",
     "poang": "(0/3/0)",
-    "t": "<p>En elektron med farten \\(5{,}4\\cdot10^6\\) m/s kommer in vinkelrätt mot fältet mellan två 2,25 cm långa plattor. När den lämnar fältet har den avlänkats 0,618 cm.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><ol type=\"a\"><li>Bestäm fältstyrkan.</li><li>Bestäm farten när elektronen lämnar fältet.</li></ol>",
+    "t": "<p>En elektron med farten \\(5{,}4\\cdot10^6\\) m/s kommer in vinkelrätt mot fältet mellan två 2,25 cm långa plattor. När den lämnar fältet har den avlänkats 0,618 cm.</p><p>Bortse från elektronens tyngdkraft.</p><ol type=\"a\"><li>Bestäm fältstyrkan.</li><li>Bestäm farten när elektronen lämnar fältet.</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{0{,}0225}{5{,}4\\cdot10^6}\\],</div></li><li><div class=\"facit-matte\">\\[a=\\dfrac{2y}{t^2}\\],</div></li><li><div class=\"facit-matte\">\\[E=\\dfrac{m_ea}{e}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,048\\) N/C</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(v_y=at\\approx2{,}97\\cdot10^6\\) m/s.</p></li><li><div class=\"facit-matte\">\\[v=\\sqrt{v_x^2+v_y^2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}16\\cdot10^{6}\\) m/s</p></li></ol></div>",
     "id": "3.337",
     "miniräknare": true,
@@ -20928,12 +20928,12 @@ window.BANK2 = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En elektron med farten \\(5{,}4\\cdot10^6\\) m/s kommer in vinkelrätt mot fältet mellan två 2,25 cm långa plattor. När den lämnar fältet har den avlänkats 0,618 cm.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p>",
+    "spelIntro": "<p>En elektron med farten \\(5{,}4\\cdot10^6\\) m/s kommer in vinkelrätt mot fältet mellan två 2,25 cm långa plattor. När den lämnar fältet har den avlänkats 0,618 cm.</p><p>Bortse från elektronens tyngdkraft.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Bestäm fältstyrkan.",
-        "t": "<p>En elektron med farten \\(5{,}4\\cdot10^6\\) m/s kommer in vinkelrätt mot fältet mellan två 2,25 cm långa plattor. När den lämnar fältet har den avlänkats 0,618 cm.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><p>Bestäm fältstyrkan.</p>",
+        "t": "<p>En elektron med farten \\(5{,}4\\cdot10^6\\) m/s kommer in vinkelrätt mot fältet mellan två 2,25 cm långa plattor. När den lämnar fältet har den avlänkats 0,618 cm.</p><p>Bortse från elektronens tyngdkraft.</p><p>Bestäm fältstyrkan.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[t=\\dfrac{0{,}0225}{5{,}4\\cdot10^6}\\],</div></li><li><div class=\"facit-matte\">\\[a=\\dfrac{2y}{t^2}\\],</div></li><li><div class=\"facit-matte\">\\[E=\\dfrac{m_ea}{e}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,048\\) N/C</p></div>",
         "ledtrad": "<p>Bestäm först tiden i fältet och sedan accelerationen.</p>",
         "niva": "C",
@@ -20943,7 +20943,7 @@ window.BANK2 = [
       {
         "etikett": "b",
         "fraga": "Bestäm farten när elektronen lämnar fältet.",
-        "t": "<p>En elektron med farten \\(5{,}4\\cdot10^6\\) m/s kommer in vinkelrätt mot fältet mellan två 2,25 cm långa plattor. När den lämnar fältet har den avlänkats 0,618 cm.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><p>Bestäm farten när elektronen lämnar fältet.</p>",
+        "t": "<p>En elektron med farten \\(5{,}4\\cdot10^6\\) m/s kommer in vinkelrätt mot fältet mellan två 2,25 cm långa plattor. När den lämnar fältet har den avlänkats 0,618 cm.</p><p>Bortse från elektronens tyngdkraft.</p><p>Bestäm farten när elektronen lämnar fältet.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(v_y=at\\approx2{,}97\\cdot10^6\\) m/s.</p></li><li><div class=\"facit-matte\">\\[v=\\sqrt{v_x^2+v_y^2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}16\\cdot10^{6}\\) m/s</p></div>",
         "ledtrad": "<p>Lägg ihop komposanterna.</p>",
         "niva": "C",
@@ -20961,7 +20961,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "fältstyrka ur spänning",
     "poang": "(1/2/0)",
-    "t": "<p>Två plattor 2,0 cm från varandra har spänningen 90 V. En elektron kommer in vinkelrätt mot fältet, mitt mellan plattorna, med farten \\(1{,}0\\cdot10^7\\) m/s. Plattorna är 5,0 cm långa.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><ol type=\"a\"><li>Hur mycket har elektronen avlänkats när den lämnar fältet?</li><li>Bestäm vinkeln mellan hastigheten och ursprungsriktningen efter fältet. (Svara i grader.)</li></ol>",
+    "t": "<p>Två plattor 2,0 cm från varandra har spänningen 90 V. En elektron kommer in vinkelrätt mot fältet, mitt mellan plattorna, med farten \\(1{,}0\\cdot10^7\\) m/s. Plattorna är 5,0 cm långa.</p><p>Bortse från elektronens tyngdkraft.</p><ol type=\"a\"><li>Hur mycket har elektronen avlänkats när den lämnar fältet?</li><li>Bestäm vinkeln mellan hastigheten och ursprungsriktningen efter fältet. (Svara i grader.)</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(E=\\dfrac Ud=4\\,500\\) N/C, \\(a=\\dfrac{eE}{m_e}\\),</p></li><li><div class=\"facit-matte\">\\[t=\\dfrac{0{,}050}{1{,}0\\cdot10^7}\\].</div></li><li><div class=\"facit-matte\">\\[y=\\dfrac{at^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0099\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan\\alpha=\\dfrac{at}{v_x}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(22\\) °</p></li></ol></div>",
     "id": "3.338",
     "miniräknare": true,
@@ -20995,12 +20995,12 @@ window.BANK2 = [
       "°"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Två plattor 2,0 cm från varandra har spänningen 90 V. En elektron kommer in vinkelrätt mot fältet, mitt mellan plattorna, med farten \\(1{,}0\\cdot10^7\\) m/s. Plattorna är 5,0 cm långa.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p>",
+    "spelIntro": "<p>Två plattor 2,0 cm från varandra har spänningen 90 V. En elektron kommer in vinkelrätt mot fältet, mitt mellan plattorna, med farten \\(1{,}0\\cdot10^7\\) m/s. Plattorna är 5,0 cm långa.</p><p>Bortse från elektronens tyngdkraft.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur mycket har elektronen avlänkats när den lämnar fältet?",
-        "t": "<p>Två plattor 2,0 cm från varandra har spänningen 90 V. En elektron kommer in vinkelrätt mot fältet, mitt mellan plattorna, med farten \\(1{,}0\\cdot10^7\\) m/s. Plattorna är 5,0 cm långa.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><p>Hur mycket har elektronen avlänkats när den lämnar fältet?</p>",
+        "t": "<p>Två plattor 2,0 cm från varandra har spänningen 90 V. En elektron kommer in vinkelrätt mot fältet, mitt mellan plattorna, med farten \\(1{,}0\\cdot10^7\\) m/s. Plattorna är 5,0 cm långa.</p><p>Bortse från elektronens tyngdkraft.</p><p>Hur mycket har elektronen avlänkats när den lämnar fältet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(E=\\dfrac Ud=4\\,500\\) N/C, \\(a=\\dfrac{eE}{m_e}\\),</p></li><li><div class=\"facit-matte\">\\[t=\\dfrac{0{,}050}{1{,}0\\cdot10^7}\\].</div></li><li><div class=\"facit-matte\">\\[y=\\dfrac{at^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0099\\) m</p></div>",
         "ledtrad": "<p>Bestäm fältstyrkan med \\(E=U/d\\).</p>",
         "niva": "C",
@@ -21010,7 +21010,7 @@ window.BANK2 = [
       {
         "etikett": "b",
         "fraga": "Bestäm vinkeln mellan hastigheten och ursprungsriktningen efter fältet. (Svara i grader.)",
-        "t": "<p>Två plattor 2,0 cm från varandra har spänningen 90 V. En elektron kommer in vinkelrätt mot fältet, mitt mellan plattorna, med farten \\(1{,}0\\cdot10^7\\) m/s. Plattorna är 5,0 cm långa.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><p>Bestäm vinkeln mellan hastigheten och ursprungsriktningen efter fältet. (Svara i grader.)</p>",
+        "t": "<p>Två plattor 2,0 cm från varandra har spänningen 90 V. En elektron kommer in vinkelrätt mot fältet, mitt mellan plattorna, med farten \\(1{,}0\\cdot10^7\\) m/s. Plattorna är 5,0 cm långa.</p><p>Bortse från elektronens tyngdkraft.</p><p>Bestäm vinkeln mellan hastigheten och ursprungsriktningen efter fältet. (Svara i grader.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan\\alpha=\\dfrac{at}{v_x}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(22\\) °</p></div>",
         "ledtrad": "<p>Jämför hastighetskomposanterna.</p>",
         "niva": "C",
@@ -21028,7 +21028,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "proton mellan plattor",
     "poang": "(1/2/0)",
-    "t": "<p>En proton skjuts in mitt mellan två plattor med farten \\(1{,}5\\cdot10^7\\) m/s. Plattorna är 12,0 cm långa och fältstyrkan är \\(4{,}0\\cdot10^5\\) N/C.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><ol type=\"a\"><li>Hur mycket har protonen avlänkats när den lämnar fältet?</li><li>Hur stor blir avlänkningsvinkeln? (Svara i grader.)</li></ol>",
+    "t": "<p>En proton skjuts in vinkelrätt mot fältet, mitt mellan två plattor med farten \\(1{,}5\\cdot10^7\\) m/s. Plattorna är 12,0 cm långa och fältstyrkan är \\(4{,}0\\cdot10^5\\) N/C.</p><p>Bortse från protonens tyngdkraft.</p><ol type=\"a\"><li>Hur mycket har protonen avlänkats när den lämnar fältet?</li><li>Hur stor blir avlänkningsvinkeln? (Svara i grader.)</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{eE}{m_p}\\],</div></li><li><div class=\"facit-matte\">\\[t=\\dfrac{0{,}120}{1{,}5\\cdot10^7}\\],</div></li><li><div class=\"facit-matte\">\\[y=\\dfrac{at^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0012\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan\\alpha=\\dfrac{at}{v_x}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\) °</p></li></ol></div>",
     "id": "3.339",
     "miniräknare": true,
@@ -21062,12 +21062,12 @@ window.BANK2 = [
       "°"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En proton skjuts in mitt mellan två plattor med farten \\(1{,}5\\cdot10^7\\) m/s. Plattorna är 12,0 cm långa och fältstyrkan är \\(4{,}0\\cdot10^5\\) N/C.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p>",
+    "spelIntro": "<p>En proton skjuts in vinkelrätt mot fältet, mitt mellan två plattor med farten \\(1{,}5\\cdot10^7\\) m/s. Plattorna är 12,0 cm långa och fältstyrkan är \\(4{,}0\\cdot10^5\\) N/C.</p><p>Bortse från protonens tyngdkraft.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur mycket har protonen avlänkats när den lämnar fältet?",
-        "t": "<p>En proton skjuts in mitt mellan två plattor med farten \\(1{,}5\\cdot10^7\\) m/s. Plattorna är 12,0 cm långa och fältstyrkan är \\(4{,}0\\cdot10^5\\) N/C.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><p>Hur mycket har protonen avlänkats när den lämnar fältet?</p>",
+        "t": "<p>En proton skjuts in vinkelrätt mot fältet, mitt mellan två plattor med farten \\(1{,}5\\cdot10^7\\) m/s. Plattorna är 12,0 cm långa och fältstyrkan är \\(4{,}0\\cdot10^5\\) N/C.</p><p>Bortse från protonens tyngdkraft.</p><p>Hur mycket har protonen avlänkats när den lämnar fältet?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{eE}{m_p}\\],</div></li><li><div class=\"facit-matte\">\\[t=\\dfrac{0{,}120}{1{,}5\\cdot10^7}\\],</div></li><li><div class=\"facit-matte\">\\[y=\\dfrac{at^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}0012\\) m</p></div>",
         "ledtrad": "<p>Använd protonens massa.</p>",
         "niva": "C",
@@ -21077,7 +21077,7 @@ window.BANK2 = [
       {
         "etikett": "b",
         "fraga": "Hur stor blir avlänkningsvinkeln? (Svara i grader.)",
-        "t": "<p>En proton skjuts in mitt mellan två plattor med farten \\(1{,}5\\cdot10^7\\) m/s. Plattorna är 12,0 cm långa och fältstyrkan är \\(4{,}0\\cdot10^5\\) N/C.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><p>Hur stor blir avlänkningsvinkeln? (Svara i grader.)</p>",
+        "t": "<p>En proton skjuts in vinkelrätt mot fältet, mitt mellan två plattor med farten \\(1{,}5\\cdot10^7\\) m/s. Plattorna är 12,0 cm långa och fältstyrkan är \\(4{,}0\\cdot10^5\\) N/C.</p><p>Bortse från protonens tyngdkraft.</p><p>Hur stor blir avlänkningsvinkeln? (Svara i grader.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan\\alpha=\\dfrac{at}{v_x}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}2\\) °</p></div>",
         "ledtrad": "<p>Jämför komposanterna.</p>",
         "niva": "C",
@@ -21095,7 +21095,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "fältstyrka ur avlänkningsvinkel",
     "poang": "(0/2/0)",
-    "t": "<p>En elektron med farten \\(3{,}00\\cdot10^6\\) m/s skjuts in vinkelrätt mot fältet mellan två 2,00 m långa plattor. Den avlänkas 10,0°. Bestäm fältstyrkan.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p>",
+    "t": "<p>En elektron med farten \\(3{,}00\\cdot10^6\\) m/s skjuts in vinkelrätt mot fältet mellan två 2,00 m långa plattor. Den avlänkas 10,0°. Bestäm fältstyrkan.</p><p>Bortse från elektronens tyngdkraft.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v_y=v_x\\tan10{,}0^\\circ\\],</div></li><li><div class=\"facit-matte\">\\[t=\\dfrac{2{,}00}{3{,}00\\cdot10^6}\\],</div></li><li><div class=\"facit-matte\">\\[a=\\dfrac{v_y}{t}\\],</div></li><li><div class=\"facit-matte\">\\[E=\\dfrac{m_ea}{e}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}51\\) N/C</p></div>",
     "id": "3.340",
     "miniräknare": true,
@@ -21118,10 +21118,10 @@ window.BANK2 = [
   {
     "kap": 3,
     "omr": "kast_elfalt",
-    "niva": "E",
+    "niva": "C",
     "typ": "avlänkning i tv-rör",
     "poang": "(2/0/0)",
-    "t": "<p>I ett tv-rör passerar elektroner med farten \\(2{,}7\\cdot10^6\\) m/s mellan två 3,0 cm långa plattor där fältstyrkan är 1,0 kV/m. Hur mycket avlänkas elektronerna?</p><p>Bortse från tyngdkraften på elektroner och protoner.</p>",
+    "t": "<p>I ett tv-rör passerar elektroner med farten \\(2{,}7\\cdot10^6\\) m/s vinkelrätt mot fältet mellan två 3,0 cm långa plattor där fältstyrkan är 1,0 kV/m. Hur långt åt sidan har elektronerna förflyttats när de lämnar plattorna? (Svara i m.)</p><p>Bortse från elektronernas tyngdkraft.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{eE}{m_e}\\],</div></li><li><div class=\"facit-matte\">\\[t=\\dfrac{0{,}030}{2{,}7\\cdot10^6}\\],</div></li><li><div class=\"facit-matte\">\\[y=\\dfrac{at^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}011\\) m</p></div>",
     "id": "3.341",
     "miniräknare": true,
@@ -21137,7 +21137,7 @@ window.BANK2 = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Tiden bestäms av den vågräta rörelsen.</p>",
-    "traningsniva": 2,
+    "traningsniva": 3,
     "svarEnhet": "m",
     "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt"
   },
@@ -21306,20 +21306,20 @@ window.BANK2 = [
     "niva": "C",
     "typ": "bläckstråleskrivare",
     "poang": "(1/2/0)",
-    "t": "<p>En bläckdroppe med massan \\(1{,}3\\cdot10^{-10}\\) kg och laddningen \\(-1{,}5\\cdot10^{-13}\\) C kommer med farten 18 m/s in i ett fält med styrkan \\(1{,}4\\cdot10^6\\) N/C mellan två 1,6 cm långa plattor.</p><ol type=\"a\"><li>Hur mycket avlänkas droppen?</li><li>Hur stor blir avlänkningsvinkeln? (Svara i grader.)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{qE}{m}\\],</div></li><li><div class=\"facit-matte\">\\[t=\\dfrac{0{,}016}{18}\\],</div></li><li><div class=\"facit-matte\">\\[y=\\dfrac{at^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00064\\) m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan\\alpha=\\dfrac{at}{v}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}6\\) °</p></li></ol></div>",
+    "t": "<p>En bläckdroppe med massan \\(1{,}3\\cdot10^{-10}\\) kg och laddningen \\(-1{,}5\\cdot10^{-13}\\) C kommer in vågrätt mellan två plattor med farten 18 m/s. Plattorna är 1,6 cm långa. Det elektriska fältet är riktat nedåt och har styrkan \\(1{,}4\\cdot10^6\\) N/C. Droppen påverkas även av tyngdkraften.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" style=\"width:100%;max-width:440px\" role=\"img\" aria-label=\"Negativ droppe mellan vågräta plattor. Övre plattan är positiv, undre negativ. Fältet är riktat nedåt.\"><rect width=\"440\" height=\"250\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"17\" fill=\"#182435\"><rect x=\"65\" y=\"40\" width=\"280\" height=\"10\" fill=\"#b43c3c\"/><rect x=\"65\" y=\"200\" width=\"280\" height=\"10\" fill=\"#275d9d\"/><text x=\"95\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"95\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"150\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"150\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"205\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"205\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"260\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"260\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"315\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"315\" y=\"233\" text-anchor=\"middle\">−</text><path d=\"M305 82V164\" stroke=\"#245e9e\" stroke-width=\"3\"/><path d=\"M299 154L305 166L311 154\" fill=\"none\" stroke=\"#245e9e\" stroke-width=\"3\"/><text x=\"322\" y=\"127\">E</text><circle cx=\"155\" cy=\"125\" r=\"12\" fill=\"#e4edf9\" stroke=\"#263e5c\" stroke-width=\"2\"/><text x=\"155\" y=\"131\" text-anchor=\"middle\">−</text><path d=\"M82 125H132 M123 119L135 125L123 131\" fill=\"none\" stroke=\"#182435\" stroke-width=\"2\"/><text x=\"87\" y=\"109\">18 m/s</text><path d=\"M65 65V183 M345 65V183\" stroke=\"#a3afbd\" stroke-dasharray=\"4 4\"/><text x=\"205\" y=\"185\" text-anchor=\"middle\">1,6 cm</text><path d=\"M70 169H340\" stroke=\"#42526a\"/><path d=\"M76 165L69 169L76 173 M334 165L341 169L334 173\" fill=\"none\" stroke=\"#42526a\"/></g></svg></span><ol type=\"a\"><li>Hur långt uppåt har droppen förflyttats när den lämnar plattorna? (Svara i m.)</li><li>Vilken vinkel bildar droppens hastighet med den vågräta riktningen när den lämnar plattorna? (Svara i grader.)</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><p>Droppen är negativ, så den elektriska kraften är riktad uppåt, motsatt fältet. Tyngdkraften verkar nedåt. Med uppåt som positiv riktning blir accelerationen</p>\\[a_y=\\frac{|q|E}{m}-g=\\frac{1{,}5\\cdot10^{-13}\\cdot1{,}4\\cdot10^6}{1{,}3\\cdot10^{-10}}-9{,}82\\approx1606\\ \\mathrm{m/s^2}.\\]<p>Den vågräta hastigheten är konstant. Tiden mellan plattorna blir</p>\\[t=\\frac{0{,}016}{18}\\approx8{,}89\\cdot10^{-4}\\ \\mathrm{s}.\\]<p>Droppen har ingen hastighet uppåt när den kommer in. Höjdändringen blir</p>\\[y=\\frac{a_yt^2}{2}\\approx0{,}000634\\ \\mathrm{m}.\\]<p><strong>Droppen avlänkas cirka 0,000634 m uppåt.</strong></p><p><strong>b)</strong></p><p>Droppen är negativ, så den elektriska kraften är riktad uppåt, motsatt fältet. Tyngdkraften verkar nedåt. Med uppåt som positiv riktning blir accelerationen</p>\\[a_y=\\frac{|q|E}{m}-g=\\frac{1{,}5\\cdot10^{-13}\\cdot1{,}4\\cdot10^6}{1{,}3\\cdot10^{-10}}-9{,}82\\approx1606\\ \\mathrm{m/s^2}.\\]<p>Den vågräta hastigheten är konstant. Tiden mellan plattorna blir</p>\\[t=\\frac{0{,}016}{18}\\approx8{,}89\\cdot10^{-4}\\ \\mathrm{s}.\\]<p>Vid plattornas slut är hastigheten uppåt</p>\\[v_y=a_yt\\approx1{,}43\\ \\mathrm{m/s}.\\]<p>Vinkeln mot den vågräta riktningen fås av hastighetens två komponenter:</p>\\[\\alpha=\\arctan\\left(\\frac{v_y}{18}\\right)\\approx4{,}53^\\circ.\\]<p><strong>Rörelseriktningen är cirka 4,53° över den vågräta riktningen.</strong></p></div>",
     "id": "3.346",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Laddningar som accelereras och böjs av i elektriska fält",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      0.0006381766381766383,
-      4.5609452031613085
+      0.0006342971320037988,
+      4.533334921301312
     ],
     "tolerans": [
-      9.57e-06,
-      0.0684
+      0,
+      0
     ],
     "självrättning": true,
     "formaga": [
@@ -21340,32 +21340,46 @@ window.BANK2 = [
       "°"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En bläckdroppe med massan \\(1{,}3\\cdot10^{-10}\\) kg och laddningen \\(-1{,}5\\cdot10^{-13}\\) C kommer med farten 18 m/s in i ett fält med styrkan \\(1{,}4\\cdot10^6\\) N/C mellan två 1,6 cm långa plattor.</p>",
+    "spelIntro": "<p>En bläckdroppe med massan \\(1{,}3\\cdot10^{-10}\\) kg och laddningen \\(-1{,}5\\cdot10^{-13}\\) C kommer in vågrätt mellan två plattor med farten 18 m/s. Plattorna är 1,6 cm långa. Det elektriska fältet är riktat nedåt och har styrkan \\(1{,}4\\cdot10^6\\) N/C. Droppen påverkas även av tyngdkraften.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" style=\"width:100%;max-width:440px\" role=\"img\" aria-label=\"Negativ droppe mellan vågräta plattor. Övre plattan är positiv, undre negativ. Fältet är riktat nedåt.\"><rect width=\"440\" height=\"250\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"17\" fill=\"#182435\"><rect x=\"65\" y=\"40\" width=\"280\" height=\"10\" fill=\"#b43c3c\"/><rect x=\"65\" y=\"200\" width=\"280\" height=\"10\" fill=\"#275d9d\"/><text x=\"95\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"95\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"150\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"150\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"205\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"205\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"260\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"260\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"315\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"315\" y=\"233\" text-anchor=\"middle\">−</text><path d=\"M305 82V164\" stroke=\"#245e9e\" stroke-width=\"3\"/><path d=\"M299 154L305 166L311 154\" fill=\"none\" stroke=\"#245e9e\" stroke-width=\"3\"/><text x=\"322\" y=\"127\">E</text><circle cx=\"155\" cy=\"125\" r=\"12\" fill=\"#e4edf9\" stroke=\"#263e5c\" stroke-width=\"2\"/><text x=\"155\" y=\"131\" text-anchor=\"middle\">−</text><path d=\"M82 125H132 M123 119L135 125L123 131\" fill=\"none\" stroke=\"#182435\" stroke-width=\"2\"/><text x=\"87\" y=\"109\">18 m/s</text><path d=\"M65 65V183 M345 65V183\" stroke=\"#a3afbd\" stroke-dasharray=\"4 4\"/><text x=\"205\" y=\"185\" text-anchor=\"middle\">1,6 cm</text><path d=\"M70 169H340\" stroke=\"#42526a\"/><path d=\"M76 165L69 169L76 173 M334 165L341 169L334 173\" fill=\"none\" stroke=\"#42526a\"/></g></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket avlänkas droppen?",
-        "t": "<p>En bläckdroppe med massan \\(1{,}3\\cdot10^{-10}\\) kg och laddningen \\(-1{,}5\\cdot10^{-13}\\) C kommer med farten 18 m/s in i ett fält med styrkan \\(1{,}4\\cdot10^6\\) N/C mellan två 1,6 cm långa plattor.</p><p>Hur mycket avlänkas droppen?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\dfrac{qE}{m}\\],</div></li><li><div class=\"facit-matte\">\\[t=\\dfrac{0{,}016}{18}\\],</div></li><li><div class=\"facit-matte\">\\[y=\\dfrac{at^2}{2}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}00064\\) m</p></div>",
-        "ledtrad": "<p>Tyngdkraften är försumbar jämfört med den elektriska kraften.</p>",
+        "fraga": "Hur långt uppåt har droppen förflyttats när den lämnar plattorna? (Svara i m.)",
+        "t": "<p>En bläckdroppe med massan \\(1{,}3\\cdot10^{-10}\\) kg och laddningen \\(-1{,}5\\cdot10^{-13}\\) C kommer in vågrätt mellan två plattor med farten 18 m/s. Plattorna är 1,6 cm långa. Det elektriska fältet är riktat nedåt och har styrkan \\(1{,}4\\cdot10^6\\) N/C. Droppen påverkas även av tyngdkraften.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" style=\"width:100%;max-width:440px\" role=\"img\" aria-label=\"Negativ droppe mellan vågräta plattor. Övre plattan är positiv, undre negativ. Fältet är riktat nedåt.\"><rect width=\"440\" height=\"250\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"17\" fill=\"#182435\"><rect x=\"65\" y=\"40\" width=\"280\" height=\"10\" fill=\"#b43c3c\"/><rect x=\"65\" y=\"200\" width=\"280\" height=\"10\" fill=\"#275d9d\"/><text x=\"95\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"95\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"150\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"150\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"205\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"205\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"260\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"260\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"315\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"315\" y=\"233\" text-anchor=\"middle\">−</text><path d=\"M305 82V164\" stroke=\"#245e9e\" stroke-width=\"3\"/><path d=\"M299 154L305 166L311 154\" fill=\"none\" stroke=\"#245e9e\" stroke-width=\"3\"/><text x=\"322\" y=\"127\">E</text><circle cx=\"155\" cy=\"125\" r=\"12\" fill=\"#e4edf9\" stroke=\"#263e5c\" stroke-width=\"2\"/><text x=\"155\" y=\"131\" text-anchor=\"middle\">−</text><path d=\"M82 125H132 M123 119L135 125L123 131\" fill=\"none\" stroke=\"#182435\" stroke-width=\"2\"/><text x=\"87\" y=\"109\">18 m/s</text><path d=\"M65 65V183 M345 65V183\" stroke=\"#a3afbd\" stroke-dasharray=\"4 4\"/><text x=\"205\" y=\"185\" text-anchor=\"middle\">1,6 cm</text><path d=\"M70 169H340\" stroke=\"#42526a\"/><path d=\"M76 165L69 169L76 173 M334 165L341 169L334 173\" fill=\"none\" stroke=\"#42526a\"/></g></svg></span><p>Hur långt uppåt har droppen förflyttats när den lämnar plattorna? (Svara i m.)</p>",
+        "s": "<div class=\"facit-v2\"><p>Droppen är negativ, så den elektriska kraften är riktad uppåt, motsatt fältet. Tyngdkraften verkar nedåt. Med uppåt som positiv riktning blir accelerationen</p>\\[a_y=\\frac{|q|E}{m}-g=\\frac{1{,}5\\cdot10^{-13}\\cdot1{,}4\\cdot10^6}{1{,}3\\cdot10^{-10}}-9{,}82\\approx1606\\ \\mathrm{m/s^2}.\\]<p>Den vågräta hastigheten är konstant. Tiden mellan plattorna blir</p>\\[t=\\frac{0{,}016}{18}\\approx8{,}89\\cdot10^{-4}\\ \\mathrm{s}.\\]<p>Droppen har ingen hastighet uppåt när den kommer in. Höjdändringen blir</p>\\[y=\\frac{a_yt^2}{2}\\approx0{,}000634\\ \\mathrm{m}.\\]<p><strong>Droppen avlänkas cirka 0,000634 m uppåt.</strong></p></div>",
+        "ledtrad": "<p>Bestäm den sammanlagda kraften och tiden mellan plattorna.</p>",
         "niva": "C",
         "poang": "(1/1/0)",
-        "traningsniva": 3
+        "traningsniva": 3,
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor blir avlänkningsvinkeln? (Svara i grader.)",
-        "t": "<p>En bläckdroppe med massan \\(1{,}3\\cdot10^{-10}\\) kg och laddningen \\(-1{,}5\\cdot10^{-13}\\) C kommer med farten 18 m/s in i ett fält med styrkan \\(1{,}4\\cdot10^6\\) N/C mellan två 1,6 cm långa plattor.</p><p>Hur stor blir avlänkningsvinkeln? (Svara i grader.)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan\\alpha=\\dfrac{at}{v}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}6\\) °</p></div>",
-        "ledtrad": "<p>Jämför komposanterna.</p>",
+        "fraga": "Vilken vinkel bildar droppens hastighet med den vågräta riktningen när den lämnar plattorna? (Svara i grader.)",
+        "t": "<p>En bläckdroppe med massan \\(1{,}3\\cdot10^{-10}\\) kg och laddningen \\(-1{,}5\\cdot10^{-13}\\) C kommer in vågrätt mellan två plattor med farten 18 m/s. Plattorna är 1,6 cm långa. Det elektriska fältet är riktat nedåt och har styrkan \\(1{,}4\\cdot10^6\\) N/C. Droppen påverkas även av tyngdkraften.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" style=\"width:100%;max-width:440px\" role=\"img\" aria-label=\"Negativ droppe mellan vågräta plattor. Övre plattan är positiv, undre negativ. Fältet är riktat nedåt.\"><rect width=\"440\" height=\"250\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"17\" fill=\"#182435\"><rect x=\"65\" y=\"40\" width=\"280\" height=\"10\" fill=\"#b43c3c\"/><rect x=\"65\" y=\"200\" width=\"280\" height=\"10\" fill=\"#275d9d\"/><text x=\"95\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"95\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"150\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"150\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"205\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"205\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"260\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"260\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"315\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"315\" y=\"233\" text-anchor=\"middle\">−</text><path d=\"M305 82V164\" stroke=\"#245e9e\" stroke-width=\"3\"/><path d=\"M299 154L305 166L311 154\" fill=\"none\" stroke=\"#245e9e\" stroke-width=\"3\"/><text x=\"322\" y=\"127\">E</text><circle cx=\"155\" cy=\"125\" r=\"12\" fill=\"#e4edf9\" stroke=\"#263e5c\" stroke-width=\"2\"/><text x=\"155\" y=\"131\" text-anchor=\"middle\">−</text><path d=\"M82 125H132 M123 119L135 125L123 131\" fill=\"none\" stroke=\"#182435\" stroke-width=\"2\"/><text x=\"87\" y=\"109\">18 m/s</text><path d=\"M65 65V183 M345 65V183\" stroke=\"#a3afbd\" stroke-dasharray=\"4 4\"/><text x=\"205\" y=\"185\" text-anchor=\"middle\">1,6 cm</text><path d=\"M70 169H340\" stroke=\"#42526a\"/><path d=\"M76 165L69 169L76 173 M334 165L341 169L334 173\" fill=\"none\" stroke=\"#42526a\"/></g></svg></span><p>Vilken vinkel bildar droppens hastighet med den vågräta riktningen när den lämnar plattorna? (Svara i grader.)</p>",
+        "s": "<div class=\"facit-v2\"><p>Droppen är negativ, så den elektriska kraften är riktad uppåt, motsatt fältet. Tyngdkraften verkar nedåt. Med uppåt som positiv riktning blir accelerationen</p>\\[a_y=\\frac{|q|E}{m}-g=\\frac{1{,}5\\cdot10^{-13}\\cdot1{,}4\\cdot10^6}{1{,}3\\cdot10^{-10}}-9{,}82\\approx1606\\ \\mathrm{m/s^2}.\\]<p>Den vågräta hastigheten är konstant. Tiden mellan plattorna blir</p>\\[t=\\frac{0{,}016}{18}\\approx8{,}89\\cdot10^{-4}\\ \\mathrm{s}.\\]<p>Vid plattornas slut är hastigheten uppåt</p>\\[v_y=a_yt\\approx1{,}43\\ \\mathrm{m/s}.\\]<p>Vinkeln mot den vågräta riktningen fås av hastighetens två komponenter:</p>\\[\\alpha=\\arctan\\left(\\frac{v_y}{18}\\right)\\approx4{,}53^\\circ.\\]<p><strong>Rörelseriktningen är cirka 4,53° över den vågräta riktningen.</strong></p></div>",
+        "ledtrad": "<p>Bestäm hastigheten uppåt när droppen lämnar plattorna och jämför med hastigheten åt höger.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3
+        "traningsniva": 4,
+        "miniräknare": true,
+        "geogebra": false
       }
     ],
-    "ledtrad": "<p>Samma kaströrelse som för elektroner, men med droppens massa och laddning.</p>",
-    "traningsniva": 3,
-    "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt"
+    "ledtrad": "<p>Bestäm den sammanlagda kraften och tiden mellan plattorna.</p>",
+    "traningsniva": 4,
+    "familjNyckel": "kast_elfalt__laddningar_som_accelereras_och_bojs_av_i_elektriska_falt",
+    "svarTabell": [
+      [
+        0.0006343050332383667,
+        0.0006343010826210827
+      ],
+      [
+        4.533391156203175,
+        4.533363038753338
+      ]
+    ]
   },
   {
     "id": "4.50",
@@ -28164,8 +28178,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "beräkna laddning i kondensator",
     "poang": "(2/0/0)",
-    "t": "<p>En kondensator har kapacitansen 22 μF och laddas till 9 V.</p><p>Hur stor laddning lagras?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Val av samband:</strong> Kapacitansen kopplar laddning och spänning genom</p><div class=\"facit-matte\">\\[Q=CU\\].</div></div></li><li><p>Lös ut den efterfrågade storheten och skriv mikro-prefix som \\(10^{-6}\\).</p></li></ol><div class=\"facit-v2\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[Q=CU\\].</div></div></li><li><p class=\"facit-metod\">Med C i μF blir Q direkt i μC när U anges i volt.</p></li><li><div class=\"facit-matte\">\\[Q=22\\cdot9=198\\ \\mu\\mathrm C\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Laddningen är \\(198\\ \\mu\\mathrm C\\).</p></div></div></div>",
+    "t": "<p>En kondensator har kapacitansen 22 μF och laddas till 9 V.</p><p>Hur stor laddning lagras? (Svara i µC.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 130\" style=\"width:100%;max-width:300px\" role=\"img\" aria-label=\"Kondensator: 22 µF, spänning 9 V.\"><rect width=\"300\" height=\"130\" fill=\"white\"/><path d=\"M35 67H140 M160 67H265 M140 39V95 M160 39V95\" fill=\"none\" stroke=\"#243b54\" stroke-width=\"3\"/><g font-family=\"sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#182435\"><text x=\"150\" y=\"25\">22 µF</text><text x=\"150\" y=\"121\">9 V</text></g><circle cx=\"35\" cy=\"67\" r=\"4\" fill=\"#243b54\"/><circle cx=\"265\" cy=\"67\" r=\"4\" fill=\"#243b54\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Skriv mikroenheterna med faktorn \\(10^{-6}\\) och använd sambandet mellan laddning, kapacitans och spänning.</p>\\[Q=CU=22\\cdot10^{-6}\\cdot9=198\\cdot10^{-6}\\ \\mathrm{C}=198\\ \\mathrm{\\mu C}.\\]</div>",
     "familj": "Kondensatorer",
     "familjNyckel": "kondensatorer__kondensatorer_kapacitans_och_energi",
     "formaga": [
@@ -28184,7 +28198,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Kondensatorer: kapacitans och energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "3.116",
@@ -28193,8 +28209,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "beräkna laddning i kondensator",
     "poang": "(2/0/0)",
-    "t": "<p>En kondensator har kapacitansen 100 μF och laddas till 5 V.</p><p>Hur stor laddning lagras?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Val av samband:</strong> Kapacitansen kopplar laddning och spänning genom</p><div class=\"facit-matte\">\\[Q=CU\\].</div></div></li><li><p>Lös ut den efterfrågade storheten och skriv mikro-prefix som \\(10^{-6}\\).</p></li></ol><div class=\"facit-v2\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[Q=CU\\].</div></div></li><li><p class=\"facit-metod\">Med C i μF blir Q direkt i μC när U anges i volt.</p></li><li><div class=\"facit-matte\">\\[Q=100\\cdot5=500\\ \\mu\\mathrm C\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Laddningen är \\(500\\ \\mu\\mathrm C\\).</p></div></div></div>",
+    "t": "<p>En kondensator har kapacitansen 100 μF och laddas till 5 V.</p><p>Hur stor laddning lagras? (Svara i µC.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 130\" style=\"width:100%;max-width:300px\" role=\"img\" aria-label=\"Kondensator: 100 µF, spänning 5 V.\"><rect width=\"300\" height=\"130\" fill=\"white\"/><path d=\"M35 67H140 M160 67H265 M140 39V95 M160 39V95\" fill=\"none\" stroke=\"#243b54\" stroke-width=\"3\"/><g font-family=\"sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#182435\"><text x=\"150\" y=\"25\">100 µF</text><text x=\"150\" y=\"121\">5 V</text></g><circle cx=\"35\" cy=\"67\" r=\"4\" fill=\"#243b54\"/><circle cx=\"265\" cy=\"67\" r=\"4\" fill=\"#243b54\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Skriv mikroenheterna med faktorn \\(10^{-6}\\) och använd sambandet mellan laddning, kapacitans och spänning.</p>\\[Q=CU=100\\cdot10^{-6}\\cdot5=500\\cdot10^{-6}\\ \\mathrm{C}=500\\ \\mathrm{\\mu C}.\\]</div>",
     "familj": "Kondensatorer",
     "familjNyckel": "kondensatorer__kondensatorer_kapacitans_och_energi",
     "formaga": [
@@ -28213,7 +28229,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Kondensatorer: kapacitans och energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "3.117",
@@ -28222,8 +28240,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "beräkna laddning i kondensator",
     "poang": "(2/0/0)",
-    "t": "<p>En kondensator har kapacitansen 470 μF och laddas till 12 V.</p><p>Hur stor laddning lagras?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Val av samband:</strong> Kapacitansen kopplar laddning och spänning genom</p><div class=\"facit-matte\">\\[Q=CU\\].</div></div></li><li><p>Lös ut den efterfrågade storheten och skriv mikro-prefix som \\(10^{-6}\\).</p></li></ol><div class=\"facit-v2\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[Q=CU\\].</div></div></li><li><p class=\"facit-metod\">Med C i μF blir Q direkt i μC när U anges i volt.</p></li><li><div class=\"facit-matte\">\\[Q=470\\cdot12=5640\\ \\mu\\mathrm C\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Laddningen är \\(5640\\ \\mu\\mathrm C\\).</p></div></div></div>",
+    "t": "<p>En kondensator har kapacitansen 470 μF och laddas till 12 V.</p><p>Hur stor laddning lagras? (Svara i µC.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 130\" style=\"width:100%;max-width:300px\" role=\"img\" aria-label=\"Kondensator: 470 µF, spänning 12 V.\"><rect width=\"300\" height=\"130\" fill=\"white\"/><path d=\"M35 67H140 M160 67H265 M140 39V95 M160 39V95\" fill=\"none\" stroke=\"#243b54\" stroke-width=\"3\"/><g font-family=\"sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#182435\"><text x=\"150\" y=\"25\">470 µF</text><text x=\"150\" y=\"121\">12 V</text></g><circle cx=\"35\" cy=\"67\" r=\"4\" fill=\"#243b54\"/><circle cx=\"265\" cy=\"67\" r=\"4\" fill=\"#243b54\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Skriv mikroenheterna med faktorn \\(10^{-6}\\) och använd sambandet mellan laddning, kapacitans och spänning.</p>\\[Q=CU=470\\cdot10^{-6}\\cdot12=5640\\cdot10^{-6}\\ \\mathrm{C}=5640\\ \\mathrm{\\mu C}.\\]</div>",
     "familj": "Kondensatorer",
     "familjNyckel": "kondensatorer__kondensatorer_kapacitans_och_energi",
     "formaga": [
@@ -28242,7 +28260,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Kondensatorer: kapacitans och energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "3.118",
@@ -28251,8 +28271,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "bestäm kapacitans från laddning och spänning",
     "poang": "(2/0/0)",
-    "t": "<p>En kondensator bär laddningen 360 μC när spänningen är 12 V.</p><p>Bestäm kapacitansen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Val av samband:</strong> Kapacitansen kopplar laddning och spänning genom</p><div class=\"facit-matte\">\\[Q=CU\\].</div></div></li><li><p>Lös ut den efterfrågade storheten och skriv mikro-prefix som \\(10^{-6}\\).</p></li></ol><div class=\"facit-v2\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Lös ut kapacitansen ur</p><div class=\"facit-matte\">\\[Q=CU\\].</div></div></li><li><div class=\"facit-matte\">\\[C=\\frac{Q}{U}=\\frac{360\\ \\mu C}{12\\ \\mathrm V}=30\\ \\mu\\mathrm F\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kapacitansen är \\(30\\ \\mu\\mathrm F\\).</p></div></div></div>",
+    "t": "<p>En kondensator bär laddningen 360 μC när spänningen är 12 V.</p><p>Bestäm kapacitansen. (Svara i µF.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 130\" style=\"width:100%;max-width:300px\" role=\"img\" aria-label=\"Kondensator: C, spänning 12 V.\"><rect width=\"300\" height=\"130\" fill=\"white\"/><path d=\"M35 67H140 M160 67H265 M140 39V95 M160 39V95\" fill=\"none\" stroke=\"#243b54\" stroke-width=\"3\"/><g font-family=\"sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#182435\"><text x=\"150\" y=\"25\">C</text><text x=\"150\" y=\"121\">12 V</text></g><circle cx=\"35\" cy=\"67\" r=\"4\" fill=\"#243b54\"/><circle cx=\"265\" cy=\"67\" r=\"4\" fill=\"#243b54\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Skriv mikroenheterna med faktorn \\(10^{-6}\\) och använd sambandet mellan laddning, kapacitans och spänning.</p>\\[C=\\frac{Q}{U}=\\frac{360\\cdot10^{-6}}{12}=30\\cdot10^{-6}\\ \\mathrm{F}=30\\ \\mathrm{\\mu F}.\\]</div>",
     "familj": "Kondensatorer",
     "familjNyckel": "kondensatorer__kondensatorer_kapacitans_och_energi",
     "formaga": [
@@ -28271,7 +28291,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Kondensatorer: kapacitans och energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "3.119",
@@ -28280,8 +28302,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "bestäm spänning från laddning och kapacitans",
     "poang": "(1/2/0)",
-    "t": "<p>En 25 μF-kondensator har laddningen 150 μC.</p><p>Bestäm spänningen över kondensatorn.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Val av samband:</strong> Kapacitansen kopplar laddning och spänning genom</p><div class=\"facit-matte\">\\[Q=CU\\].</div></div></li><li><p>Lös ut den efterfrågade storheten och skriv mikro-prefix som \\(10^{-6}\\).</p></li></ol><div class=\"facit-v2\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Lös ut spänningen ur</p><div class=\"facit-matte\">\\[Q=CU\\].</div></div></li><li><div class=\"facit-matte\">\\[U=\\frac{Q}{C}=\\frac{150}{25}=6{,}0\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Spänningen är \\(6\\ \\mathrm V\\).</p></div></div></div>",
+    "t": "<p>En 25 μF-kondensator har laddningen 150 μC.</p><p>Bestäm spänningen över kondensatorn. (Svara i V.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 130\" style=\"width:100%;max-width:300px\" role=\"img\" aria-label=\"Kondensator: 25 µF, spänning U.\"><rect width=\"300\" height=\"130\" fill=\"white\"/><path d=\"M35 67H140 M160 67H265 M140 39V95 M160 39V95\" fill=\"none\" stroke=\"#243b54\" stroke-width=\"3\"/><g font-family=\"sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#182435\"><text x=\"150\" y=\"25\">25 µF</text><text x=\"150\" y=\"121\">U</text></g><circle cx=\"35\" cy=\"67\" r=\"4\" fill=\"#243b54\"/><circle cx=\"265\" cy=\"67\" r=\"4\" fill=\"#243b54\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Skriv mikroenheterna med faktorn \\(10^{-6}\\) och använd sambandet mellan laddning, kapacitans och spänning.</p>\\[U=\\frac{Q}{C}=\\frac{150\\cdot10^{-6}}{25\\cdot10^{-6}}=6\\ \\mathrm{V}.\\]</div>",
     "familj": "Kondensatorer",
     "familjNyckel": "kondensatorer__kondensatorer_kapacitans_och_energi",
     "formaga": [
@@ -28300,7 +28322,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Kondensatorer: kapacitans och energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "3.120",
@@ -28309,8 +28333,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "beräkna energi i laddad kondensator",
     "poang": "(2/0/0)",
-    "t": "<p>En kondensator på 220 μF laddas till 12 V.</p><p>Hur mycket energi lagras?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Val av samband:</strong> Kondensatorns energi kopplas till kapacitans och spänning genom</p><div class=\"facit-matte\">\\[E=\\tfrac12CU^2\\].</div></div></li><li><p>Lös ut den efterfrågade storheten före insättning och kontrollera mikro-/milliprefix.</p></li></ol><div class=\"facit-v2\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Använd \\(W=\\tfrac12CU^2\\) och omvandla μF till F.</p></li><li><div class=\"facit-matte\">\\[W=\\frac12\\cdot220\\cdot10^{-6}\\cdot12^2=0{,}01584\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Energin är cirka \\(15{,}84\\ \\mathrm{mJ}\\).</p></div></div>",
+    "t": "<p>En kondensator på 220 μF laddas till 12 V.</p><p>Hur mycket energi lagras? (Svara i mJ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 130\" style=\"width:100%;max-width:300px\" role=\"img\" aria-label=\"Kondensator: 220 µF, spänning 12 V.\"><rect width=\"300\" height=\"130\" fill=\"white\"/><path d=\"M35 67H140 M160 67H265 M140 39V95 M160 39V95\" fill=\"none\" stroke=\"#243b54\" stroke-width=\"3\"/><g font-family=\"sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#182435\"><text x=\"150\" y=\"25\">220 µF</text><text x=\"150\" y=\"121\">12 V</text></g><circle cx=\"35\" cy=\"67\" r=\"4\" fill=\"#243b54\"/><circle cx=\"265\" cy=\"67\" r=\"4\" fill=\"#243b54\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Energin beräknas med kapacitansen i farad och spänningen i volt.</p>\\[W=\\frac{CU^2}{2}=\\frac{220\\cdot10^{-6}\\cdot12^2}{2}=0{,}01584\\ \\mathrm{J}=15{,}84\\ \\mathrm{mJ}.\\]</div>",
     "familj": "Kondensatorer",
     "familjNyckel": "kondensatorer__kondensatorer_kapacitans_och_energi",
     "formaga": [
@@ -28329,7 +28353,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Kondensatorer: kapacitans och energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "3.121",
@@ -28338,8 +28364,8 @@ window.BANK2 = [
     "niva": "E",
     "typ": "beräkna energi i laddad kondensator",
     "poang": "(2/0/0)",
-    "t": "<p>En kondensator på 47 μF laddas till 24 V.</p><p>Hur mycket energi lagras?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Val av samband:</strong> Kondensatorns energi kopplas till kapacitans och spänning genom</p><div class=\"facit-matte\">\\[E=\\tfrac12CU^2\\].</div></div></li><li><p>Lös ut den efterfrågade storheten före insättning och kontrollera mikro-/milliprefix.</p></li></ol><div class=\"facit-v2\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Använd \\(W=\\tfrac12CU^2\\) och omvandla μF till F.</p></li><li><div class=\"facit-matte\">\\[W=\\frac12\\cdot47\\cdot10^{-6}\\cdot24^2=0{,}01354\\ \\mathrm J\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Energin är cirka \\(13{,}54\\ \\mathrm{mJ}\\).</p></div></div>",
+    "t": "<p>En kondensator på 47 µF laddas till 24 V.</p><p>Hur mycket energi lagras i kondensatorn? (Svara i mJ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 130\" style=\"width:100%;max-width:300px\" role=\"img\" aria-label=\"Kondensator: 47 µF, spänning 24 V.\"><rect width=\"300\" height=\"130\" fill=\"white\"/><path d=\"M35 67H140 M160 67H265 M140 39V95 M160 39V95\" fill=\"none\" stroke=\"#243b54\" stroke-width=\"3\"/><g font-family=\"sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#182435\"><text x=\"150\" y=\"25\">47 µF</text><text x=\"150\" y=\"121\">24 V</text></g><circle cx=\"35\" cy=\"67\" r=\"4\" fill=\"#243b54\"/><circle cx=\"265\" cy=\"67\" r=\"4\" fill=\"#243b54\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Kapacitansen är \\(47\\cdot10^{-6}\\) F. Den lagrade energin blir</p>\\[W=\\frac{CU^2}{2}=\\frac{47\\cdot10^{-6}\\cdot24^2}{2}=0{,}013536\\ \\mathrm{J}=13{,}536\\ \\mathrm{mJ}.\\]<p><strong>Cirka 13,5 mJ.</strong></p></div>",
     "familj": "Kondensatorer",
     "familjNyckel": "kondensatorer__kondensatorer_kapacitans_och_energi",
     "formaga": [
@@ -28347,18 +28373,21 @@ window.BANK2 = [
     ],
     "svarstyp": "numeriskt",
     "rättSvar": 13.536,
-    "tolerans": 0.05,
+    "tolerans": 0,
     "självrättning": true,
     "svarFormat": "numeriskt",
     "svarEnhet": "mJ",
     "familjNyckelTidigare": "kondensatorer__energi_i_kondensator",
-    "ledtrad": "<p>Använd \\(W=\\tfrac12CU^2\\) och omvandla μF till F. Använd \\(Q=CU\\).</p>",
+    "ledtrad": "<p>Vilket samband kopplar energin till kapacitansen och spänningen?</p>",
     "omrTidigare": [
       "kondensatorer"
     ],
     "familjTidigare": [
       "Kondensatorer: kapacitans och energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "traningsniva": 2
   },
   {
     "id": "3.122",
@@ -28367,8 +28396,8 @@ window.BANK2 = [
     "niva": "C",
     "typ": "bestäm spänning från kondensatorenergi",
     "poang": "(1/2/0)",
-    "t": "<p>En kondensator på 100 μF lagrar 20 mJ.</p><p>Vilken spänning ligger över kondensatorn?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Val av samband:</strong> Kondensatorns energi kopplas till kapacitans och spänning genom</p><div class=\"facit-matte\">\\[E=\\tfrac12CU^2\\].</div></div></li><li><p>Lös ut den efterfrågade storheten före insättning och kontrollera mikro-/milliprefix.</p></li></ol><div class=\"facit-v2\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Lös ut U ur</p><div class=\"facit-matte\">\\[W=\\tfrac12CU^2\\].</div></div></li><li><div class=\"facit-matte\">\\[U=\\sqrt{\\frac{2W}{C}}=\\sqrt{\\frac{2\\cdot20\\cdot10^{-3}}{100\\cdot10^{-6}}}=20{,}00\\ \\mathrm V\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Spänningen är cirka \\(20\\ \\mathrm V\\).</p></div></div>",
+    "t": "<p>En kondensator på 100 μF lagrar 20 mJ.</p><p>Vilken spänning ligger över kondensatorn? (Svara i V.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 130\" style=\"width:100%;max-width:300px\" role=\"img\" aria-label=\"Kondensator: 100 µF, spänning U.\"><rect width=\"300\" height=\"130\" fill=\"white\"/><path d=\"M35 67H140 M160 67H265 M140 39V95 M160 39V95\" fill=\"none\" stroke=\"#243b54\" stroke-width=\"3\"/><g font-family=\"sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#182435\"><text x=\"150\" y=\"25\">100 µF</text><text x=\"150\" y=\"121\">U</text></g><circle cx=\"35\" cy=\"67\" r=\"4\" fill=\"#243b54\"/><circle cx=\"265\" cy=\"67\" r=\"4\" fill=\"#243b54\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Energin skrivs i joule och kapacitansen i farad.</p>\\[W=\\frac{CU^2}{2}\\quad\\Rightarrow\\quad U=\\sqrt{\\frac{2W}{C}}=\\sqrt{\\frac{2\\cdot20\\cdot10^{-3}}{100\\cdot10^{-6}}}=20\\ \\mathrm{V}.\\]</div>",
     "familj": "Kondensatorer",
     "familjNyckel": "kondensatorer__kondensatorer_kapacitans_och_energi",
     "formaga": [
@@ -28387,7 +28416,9 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Kondensatorer: kapacitans och energi"
-    ]
+    ],
+    "miniräknare": true,
+    "geogebra": false
   },
   {
     "id": "3.106",
@@ -29772,7 +29803,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "svävande oljedroppe",
     "poang": "(2/1/0)",
-    "t": "<p>En oljedroppe med massan \\(4{,}7\\cdot10^{-15}\\) kg svävar mellan två plattor som är 0,50 cm från varandra och har spänningen 120 V.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><ol type=\"a\"><li>Hur stor laddning har droppen?</li><li>Hur många elementarladdningar motsvarar det?</li></ol>",
+    "t": "<p>En oljedroppe med massan \\(4{,}7\\cdot10^{-15}\\) kg svävar mellan två plattor som är 0,50 cm från varandra och har spänningen 120 V.</p><ol type=\"a\"><li>Hur stor laddning har droppen?</li><li>Hur många elementarladdningar motsvarar det?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[qE=mg\\iff q=\\dfrac{mgd}{U}=\\dfrac{4{,}7\\cdot10^{-15}\\cdot9{,}82\\cdot0{,}0050}{120}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\cdot10^{-18}\\) C</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{q}{e}=\\dfrac{1{,}92\\cdot10^{-18}}{1{,}602\\cdot10^{-19}}\\approx12\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\)</p></li></ol></div>",
     "id": "3.353",
     "miniräknare": true,
@@ -29806,12 +29837,12 @@ window.BANK2 = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>En oljedroppe med massan \\(4{,}7\\cdot10^{-15}\\) kg svävar mellan två plattor som är 0,50 cm från varandra och har spänningen 120 V.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p>",
+    "spelIntro": "<p>En oljedroppe med massan \\(4{,}7\\cdot10^{-15}\\) kg svävar mellan två plattor som är 0,50 cm från varandra och har spänningen 120 V.</p>",
     "spelDelar": [
       {
         "etikett": "a",
         "fraga": "Hur stor laddning har droppen?",
-        "t": "<p>En oljedroppe med massan \\(4{,}7\\cdot10^{-15}\\) kg svävar mellan två plattor som är 0,50 cm från varandra och har spänningen 120 V.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><p>Hur stor laddning har droppen?</p>",
+        "t": "<p>En oljedroppe med massan \\(4{,}7\\cdot10^{-15}\\) kg svävar mellan två plattor som är 0,50 cm från varandra och har spänningen 120 V.</p><p>Hur stor laddning har droppen?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[qE=mg\\iff q=\\dfrac{mgd}{U}=\\dfrac{4{,}7\\cdot10^{-15}\\cdot9{,}82\\cdot0{,}0050}{120}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}9\\cdot10^{-18}\\) C</p></div>",
         "ledtrad": "<p>Den elektriska kraften balanserar tyngdkraften.</p>",
         "niva": "E",
@@ -29821,7 +29852,7 @@ window.BANK2 = [
       {
         "etikett": "b",
         "fraga": "Hur många elementarladdningar motsvarar det?",
-        "t": "<p>En oljedroppe med massan \\(4{,}7\\cdot10^{-15}\\) kg svävar mellan två plattor som är 0,50 cm från varandra och har spänningen 120 V.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><p>Droppens laddning är \\(1{,}92\\cdot10^{-18}\\) C.</p><p>Hur många elementarladdningar motsvarar det?</p>",
+        "t": "<p>En oljedroppe med massan \\(4{,}7\\cdot10^{-15}\\) kg svävar mellan två plattor som är 0,50 cm från varandra och har spänningen 120 V.</p><p>Droppens laddning är \\(1{,}92\\cdot10^{-18}\\) C.</p><p>Hur många elementarladdningar motsvarar det?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{q}{e}=\\dfrac{1{,}92\\cdot10^{-18}}{1{,}602\\cdot10^{-19}}\\approx12\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\)</p></div>",
         "ledtrad": "<p>Dela med elementarladdningen.</p>",
         "niva": "E",
@@ -29839,22 +29870,22 @@ window.BANK2 = [
     "niva": "C",
     "typ": "oljedroppe med känd storlek",
     "poang": "(2/2/0)",
-    "t": "<p>Oljedroppar med diametern 1,00 µm och densiteten 0,820 g/cm³ sprutas in mellan två vågräta plattor 2,25 cm från varandra.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><ol type=\"a\"><li>Vilken fältstyrka krävs för att en droppe med 5 överskottselektroner ska sväva?</li><li>Vilken spänning krävs då?</li><li>En likadan droppe svävar vid spänningen 73,8 V. Hur många överskottselektroner har den?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(m=\\rho\\cdot\\tfrac43\\pi r^3\\approx4{,}29\\cdot10^{-16}\\) kg.</p></li><li><div class=\"facit-matte\">\\[E=\\dfrac{mg}{5e}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,264\\) V/m</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[U=Ed=E\\cdot0{,}0225\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(118\\) V</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[n=\\dfrac{mgd}{eU}\\approx8\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}0\\)</p></li></ol></div>",
+    "t": "<p>En rund oljedroppe har diametern 1,00 µm och densiteten 0,820 g/cm³. Den befinner sig mellan två vågräta plattor med avståndet 2,25 cm. Den övre plattan är positiv och den undre är negativ. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" style=\"width:100%;max-width:440px\" role=\"img\" aria-label=\"Negativ droppe mellan vågräta plattor. Övre plattan är positiv, undre negativ. Fältet är riktat nedåt.\"><rect width=\"440\" height=\"250\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"17\" fill=\"#182435\"><rect x=\"65\" y=\"40\" width=\"280\" height=\"10\" fill=\"#b43c3c\"/><rect x=\"65\" y=\"200\" width=\"280\" height=\"10\" fill=\"#275d9d\"/><text x=\"95\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"95\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"150\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"150\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"205\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"205\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"260\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"260\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"315\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"315\" y=\"233\" text-anchor=\"middle\">−</text><path d=\"M305 82V164\" stroke=\"#245e9e\" stroke-width=\"3\"/><path d=\"M299 154L305 166L311 154\" fill=\"none\" stroke=\"#245e9e\" stroke-width=\"3\"/><text x=\"322\" y=\"127\">E</text><circle cx=\"155\" cy=\"125\" r=\"12\" fill=\"#e4edf9\" stroke=\"#263e5c\" stroke-width=\"2\"/><text x=\"155\" y=\"131\" text-anchor=\"middle\">−</text><path d=\"M380 50V200 M373 50H387 M373 200H387\" stroke=\"#42526a\" stroke-width=\"2\"/><text x=\"371\" y=\"133\" text-anchor=\"end\">d</text></g></svg></span><ol type=\"a\"><li>Droppen har 5 överskottselektroner. Vilken fältstyrka behövs för att den ska sväva? (Svara i V/m.)</li><li>Droppen har 5 överskottselektroner. Vilken spänning mellan plattorna behövs för att den ska sväva? (Svara i V.)</li><li>Droppen svävar när spänningen mellan plattorna är 73,8 V. Hur många överskottselektroner har den?</li></ol>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><p>Radien är halva diametern, \\(r=0{,}50\\cdot10^{-6}\\) m, och densiteten är \\(820\\ \\mathrm{kg/m^3}\\). Droppens massa blir</p>\\[m=\\rho\\frac{4\\pi r^3}{3}=820\\cdot\\frac{4\\pi(0{,}50\\cdot10^{-6})^3}{3}\\approx4{,}29\\cdot10^{-16}\\ \\mathrm{kg}.\\]<p>Fältet går nedåt. Den negativa droppen påverkas därför av en elektrisk kraft uppåt. När droppen svävar är den lika stor som tyngdkraften: \\(5eE=mg\\).</p>\\[E=\\frac{mg}{5e}\\approx5{,}26\\cdot10^3\\ \\mathrm{V/m}.\\]<p><strong>Fältstyrkan är cirka 5 260 V/m.</strong></p><p><strong>b)</strong></p><p>Radien är halva diametern, \\(r=0{,}50\\cdot10^{-6}\\) m, och densiteten är \\(820\\ \\mathrm{kg/m^3}\\). Droppens massa blir</p>\\[m=\\rho\\frac{4\\pi r^3}{3}=820\\cdot\\frac{4\\pi(0{,}50\\cdot10^{-6})^3}{3}\\approx4{,}29\\cdot10^{-16}\\ \\mathrm{kg}.\\]<p>Fältet går nedåt. Den negativa droppen påverkas därför av en elektrisk kraft uppåt. När droppen svävar är den lika stor som tyngdkraften: \\(5eE=mg\\).</p><p>Spänningen är fältstyrkan gånger avståndet mellan plattorna:</p>\\[U=Ed=\\frac{mgd}{5e}=\\frac{m\\cdot9{,}82\\cdot0{,}0225}{5\\cdot1{,}602\\,176\\,634\\cdot10^{-19}}\\approx118{,}42\\ \\mathrm{V}.\\]<p><strong>Spänningen är cirka 118 V.</strong> Den oavrundade massan används i beräkningen.</p><p><strong>c)</strong></p><p>Radien är halva diametern, \\(r=0{,}50\\cdot10^{-6}\\) m, och densiteten är \\(820\\ \\mathrm{kg/m^3}\\). Droppens massa blir</p>\\[m=\\rho\\frac{4\\pi r^3}{3}=820\\cdot\\frac{4\\pi(0{,}50\\cdot10^{-6})^3}{3}\\approx4{,}29\\cdot10^{-16}\\ \\mathrm{kg}.\\]<p>Om droppen har \\(n\\) överskottselektroner är laddningens storlek \\(ne\\). För att den ska sväva måste \\(neU/d=mg\\). Därför blir</p>\\[n=\\frac{mgd}{eU}=\\frac{m\\cdot9{,}82\\cdot0{,}0225}{1{,}602\\,176\\,634\\cdot10^{-19}\\cdot73{,}8}\\approx8{,}02.\\]<p>Antalet elektroner måste vara ett heltal. Avvikelsen från 8 beror på att uppgiftens mätvärden är avrundade.</p><p><strong>Droppen har 8 överskottselektroner.</strong></p></div>",
     "id": "3.354",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Elektrisk kraft och fältstyrka",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      5263.703845977206,
-      118.43333653448713,
+      5263.123542254508,
+      118.42027970072643,
       8
     ],
     "tolerans": [
-      79.0,
-      5.1,
-      0.5
+      0,
+      0,
+      0
     ],
     "självrättning": true,
     "formaga": [
@@ -29878,42 +29909,73 @@ window.BANK2 = [
       null
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Oljedroppar med diametern 1,00 µm och densiteten 0,820 g/cm³ sprutas in mellan två vågräta plattor 2,25 cm från varandra.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p>",
+    "spelIntro": "<p>En rund oljedroppe har diametern 1,00 µm och densiteten 0,820 g/cm³. Den befinner sig mellan två vågräta plattor med avståndet 2,25 cm. Den övre plattan är positiv och den undre är negativ. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" style=\"width:100%;max-width:440px\" role=\"img\" aria-label=\"Negativ droppe mellan vågräta plattor. Övre plattan är positiv, undre negativ. Fältet är riktat nedåt.\"><rect width=\"440\" height=\"250\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"17\" fill=\"#182435\"><rect x=\"65\" y=\"40\" width=\"280\" height=\"10\" fill=\"#b43c3c\"/><rect x=\"65\" y=\"200\" width=\"280\" height=\"10\" fill=\"#275d9d\"/><text x=\"95\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"95\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"150\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"150\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"205\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"205\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"260\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"260\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"315\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"315\" y=\"233\" text-anchor=\"middle\">−</text><path d=\"M305 82V164\" stroke=\"#245e9e\" stroke-width=\"3\"/><path d=\"M299 154L305 166L311 154\" fill=\"none\" stroke=\"#245e9e\" stroke-width=\"3\"/><text x=\"322\" y=\"127\">E</text><circle cx=\"155\" cy=\"125\" r=\"12\" fill=\"#e4edf9\" stroke=\"#263e5c\" stroke-width=\"2\"/><text x=\"155\" y=\"131\" text-anchor=\"middle\">−</text><path d=\"M380 50V200 M373 50H387 M373 200H387\" stroke=\"#42526a\" stroke-width=\"2\"/><text x=\"371\" y=\"133\" text-anchor=\"end\">d</text></g></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Vilken fältstyrka krävs för att en droppe med 5 överskottselektroner ska sväva?",
-        "t": "<p>Oljedroppar med diametern 1,00 µm och densiteten 0,820 g/cm³ sprutas in mellan två vågräta plattor 2,25 cm från varandra.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><p>Vilken fältstyrka krävs för att en droppe med 5 överskottselektroner ska sväva?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(m=\\rho\\cdot\\tfrac43\\pi r^3\\approx4{,}29\\cdot10^{-16}\\) kg.</p></li><li><div class=\"facit-matte\">\\[E=\\dfrac{mg}{5e}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\,264\\) V/m</p></div>",
+        "fraga": "Droppen har 5 överskottselektroner. Vilken fältstyrka behövs för att den ska sväva? (Svara i V/m.)",
+        "t": "<p>En rund oljedroppe har diametern 1,00 µm och densiteten 0,820 g/cm³. Den befinner sig mellan två vågräta plattor med avståndet 2,25 cm. Den övre plattan är positiv och den undre är negativ. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" style=\"width:100%;max-width:440px\" role=\"img\" aria-label=\"Negativ droppe mellan vågräta plattor. Övre plattan är positiv, undre negativ. Fältet är riktat nedåt.\"><rect width=\"440\" height=\"250\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"17\" fill=\"#182435\"><rect x=\"65\" y=\"40\" width=\"280\" height=\"10\" fill=\"#b43c3c\"/><rect x=\"65\" y=\"200\" width=\"280\" height=\"10\" fill=\"#275d9d\"/><text x=\"95\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"95\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"150\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"150\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"205\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"205\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"260\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"260\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"315\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"315\" y=\"233\" text-anchor=\"middle\">−</text><path d=\"M305 82V164\" stroke=\"#245e9e\" stroke-width=\"3\"/><path d=\"M299 154L305 166L311 154\" fill=\"none\" stroke=\"#245e9e\" stroke-width=\"3\"/><text x=\"322\" y=\"127\">E</text><circle cx=\"155\" cy=\"125\" r=\"12\" fill=\"#e4edf9\" stroke=\"#263e5c\" stroke-width=\"2\"/><text x=\"155\" y=\"131\" text-anchor=\"middle\">−</text><path d=\"M380 50V200 M373 50H387 M373 200H387\" stroke=\"#42526a\" stroke-width=\"2\"/><text x=\"371\" y=\"133\" text-anchor=\"end\">d</text></g></svg></span><p>Droppen har 5 överskottselektroner. Vilken fältstyrka behövs för att den ska sväva? (Svara i V/m.)</p>",
+        "s": "<div class=\"facit-v2\"><p>Radien är halva diametern, \\(r=0{,}50\\cdot10^{-6}\\) m, och densiteten är \\(820\\ \\mathrm{kg/m^3}\\). Droppens massa blir</p>\\[m=\\rho\\frac{4\\pi r^3}{3}=820\\cdot\\frac{4\\pi(0{,}50\\cdot10^{-6})^3}{3}\\approx4{,}29\\cdot10^{-16}\\ \\mathrm{kg}.\\]<p>Fältet går nedåt. Den negativa droppen påverkas därför av en elektrisk kraft uppåt. När droppen svävar är den lika stor som tyngdkraften: \\(5eE=mg\\).</p>\\[E=\\frac{mg}{5e}\\approx5{,}26\\cdot10^3\\ \\mathrm{V/m}.\\]<p><strong>Fältstyrkan är cirka 5 260 V/m.</strong></p></div>",
         "ledtrad": "<p>Beräkna droppens massa ur volym och densitet.</p>",
         "niva": "C",
         "poang": "(1/1/0)",
-        "traningsniva": 3
+        "traningsniva": 3,
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
-        "fraga": "Vilken spänning krävs då?",
-        "t": "<p>Oljedroppar med diametern 1,00 µm och densiteten 0,820 g/cm³ sprutas in mellan två vågräta plattor 2,25 cm från varandra.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><p>Fältstyrkan som krävs är \\(5{,}3\\cdot10^3\\) V/m.</p><p>Vilken spänning krävs då?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[U=Ed=E\\cdot0{,}0225\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(118\\) V</p></div>",
-        "ledtrad": "<p>\\(U=Ed\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2
+        "fraga": "Droppen har 5 överskottselektroner. Vilken spänning mellan plattorna behövs för att den ska sväva? (Svara i V.)",
+        "t": "<p>En rund oljedroppe har diametern 1,00 µm och densiteten 0,820 g/cm³. Den befinner sig mellan två vågräta plattor med avståndet 2,25 cm. Den övre plattan är positiv och den undre är negativ. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" style=\"width:100%;max-width:440px\" role=\"img\" aria-label=\"Negativ droppe mellan vågräta plattor. Övre plattan är positiv, undre negativ. Fältet är riktat nedåt.\"><rect width=\"440\" height=\"250\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"17\" fill=\"#182435\"><rect x=\"65\" y=\"40\" width=\"280\" height=\"10\" fill=\"#b43c3c\"/><rect x=\"65\" y=\"200\" width=\"280\" height=\"10\" fill=\"#275d9d\"/><text x=\"95\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"95\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"150\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"150\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"205\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"205\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"260\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"260\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"315\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"315\" y=\"233\" text-anchor=\"middle\">−</text><path d=\"M305 82V164\" stroke=\"#245e9e\" stroke-width=\"3\"/><path d=\"M299 154L305 166L311 154\" fill=\"none\" stroke=\"#245e9e\" stroke-width=\"3\"/><text x=\"322\" y=\"127\">E</text><circle cx=\"155\" cy=\"125\" r=\"12\" fill=\"#e4edf9\" stroke=\"#263e5c\" stroke-width=\"2\"/><text x=\"155\" y=\"131\" text-anchor=\"middle\">−</text><path d=\"M380 50V200 M373 50H387 M373 200H387\" stroke=\"#42526a\" stroke-width=\"2\"/><text x=\"371\" y=\"133\" text-anchor=\"end\">d</text></g></svg></span><p>Droppen har 5 överskottselektroner. Vilken spänning mellan plattorna behövs för att den ska sväva? (Svara i V.)</p>",
+        "s": "<div class=\"facit-v2\"><p>Radien är halva diametern, \\(r=0{,}50\\cdot10^{-6}\\) m, och densiteten är \\(820\\ \\mathrm{kg/m^3}\\). Droppens massa blir</p>\\[m=\\rho\\frac{4\\pi r^3}{3}=820\\cdot\\frac{4\\pi(0{,}50\\cdot10^{-6})^3}{3}\\approx4{,}29\\cdot10^{-16}\\ \\mathrm{kg}.\\]<p>Fältet går nedåt. Den negativa droppen påverkas därför av en elektrisk kraft uppåt. När droppen svävar är den lika stor som tyngdkraften: \\(5eE=mg\\).</p><p>Spänningen är fältstyrkan gånger avståndet mellan plattorna:</p>\\[U=Ed=\\frac{mgd}{5e}=\\frac{m\\cdot9{,}82\\cdot0{,}0225}{5\\cdot1{,}602\\,176\\,634\\cdot10^{-19}}\\approx118{,}42\\ \\mathrm{V}.\\]<p><strong>Spänningen är cirka 118 V.</strong> Den oavrundade massan används i beräkningen.</p></div>",
+        "ledtrad": "<p>Den elektriska kraften ska balansera tyngdkraften. Koppla sedan fältstyrkan till spänningen.</p>",
+        "niva": "C",
+        "poang": "(0/1/0)",
+        "traningsniva": 3,
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "c",
-        "fraga": "En likadan droppe svävar vid spänningen 73,8 V. Hur många överskottselektroner har den?",
-        "t": "<p>Oljedroppar med diametern 1,00 µm och densiteten 0,820 g/cm³ sprutas in mellan två vågräta plattor 2,25 cm från varandra.</p><p>Bortse från tyngdkraften på elektroner och protoner.</p><p>En likadan droppe svävar vid spänningen 73,8 V. Hur många överskottselektroner har den?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[n=\\dfrac{mgd}{eU}\\approx8\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}0\\)</p></div>",
+        "fraga": "Droppen svävar när spänningen mellan plattorna är 73,8 V. Hur många överskottselektroner har den?",
+        "t": "<p>En rund oljedroppe har diametern 1,00 µm och densiteten 0,820 g/cm³. Den befinner sig mellan två vågräta plattor med avståndet 2,25 cm. Den övre plattan är positiv och den undre är negativ. Bortse från luftens lyftkraft.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" style=\"width:100%;max-width:440px\" role=\"img\" aria-label=\"Negativ droppe mellan vågräta plattor. Övre plattan är positiv, undre negativ. Fältet är riktat nedåt.\"><rect width=\"440\" height=\"250\" fill=\"white\"/><g font-family=\"sans-serif\" font-size=\"17\" fill=\"#182435\"><rect x=\"65\" y=\"40\" width=\"280\" height=\"10\" fill=\"#b43c3c\"/><rect x=\"65\" y=\"200\" width=\"280\" height=\"10\" fill=\"#275d9d\"/><text x=\"95\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"95\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"150\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"150\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"205\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"205\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"260\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"260\" y=\"233\" text-anchor=\"middle\">−</text><text x=\"315\" y=\"30\" text-anchor=\"middle\">+</text><text x=\"315\" y=\"233\" text-anchor=\"middle\">−</text><path d=\"M305 82V164\" stroke=\"#245e9e\" stroke-width=\"3\"/><path d=\"M299 154L305 166L311 154\" fill=\"none\" stroke=\"#245e9e\" stroke-width=\"3\"/><text x=\"322\" y=\"127\">E</text><circle cx=\"155\" cy=\"125\" r=\"12\" fill=\"#e4edf9\" stroke=\"#263e5c\" stroke-width=\"2\"/><text x=\"155\" y=\"131\" text-anchor=\"middle\">−</text><path d=\"M380 50V200 M373 50H387 M373 200H387\" stroke=\"#42526a\" stroke-width=\"2\"/><text x=\"371\" y=\"133\" text-anchor=\"end\">d</text></g></svg></span><p>Droppen svävar när spänningen mellan plattorna är 73,8 V. Hur många överskottselektroner har den?</p>",
+        "s": "<div class=\"facit-v2\"><p>Radien är halva diametern, \\(r=0{,}50\\cdot10^{-6}\\) m, och densiteten är \\(820\\ \\mathrm{kg/m^3}\\). Droppens massa blir</p>\\[m=\\rho\\frac{4\\pi r^3}{3}=820\\cdot\\frac{4\\pi(0{,}50\\cdot10^{-6})^3}{3}\\approx4{,}29\\cdot10^{-16}\\ \\mathrm{kg}.\\]<p>Om droppen har \\(n\\) överskottselektroner är laddningens storlek \\(ne\\). För att den ska sväva måste \\(neU/d=mg\\). Därför blir</p>\\[n=\\frac{mgd}{eU}=\\frac{m\\cdot9{,}82\\cdot0{,}0225}{1{,}602\\,176\\,634\\cdot10^{-19}\\cdot73{,}8}\\approx8{,}02.\\]<p>Antalet elektroner måste vara ett heltal. Avvikelsen från 8 beror på att uppgiftens mätvärden är avrundade.</p><p><strong>Droppen har 8 överskottselektroner.</strong></p></div>",
         "ledtrad": "<p>Lös ut laddningen och dela med \\(e\\).</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3
+        "traningsniva": 3,
+        "miniräknare": true,
+        "geogebra": false
       }
     ],
     "ledtrad": "<p>Millikans försök: \\(qE=mg\\).</p>",
     "traningsniva": 3,
-    "familjNyckel": "elektriska_falt__elektrisk_kraft_och_faltstyrka"
+    "familjNyckel": "elektriska_falt__elektrisk_kraft_och_faltstyrka",
+    "svarTabell": [
+      [
+        5252.40434970409,
+        5252.98347154548,
+        5257.763945979299,
+        5258.343658761342,
+        5259.5497008849115,
+        5263.123542254508,
+        5263.703845977206,
+        5264.916588334794,
+        5270.283475784678
+      ],
+      [
+        118.17909786834204,
+        118.1921281097733,
+        118.29968878453421,
+        118.3127323221302,
+        118.33986826991051,
+        118.42027970072641,
+        118.43333653448711,
+        118.46062323753287,
+        118.58137820515523
+      ],
+      []
+    ]
   },
   {
     "kap": 3,

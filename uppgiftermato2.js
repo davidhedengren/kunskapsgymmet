@@ -98587,5 +98587,327 @@ window.BANKMATO2 = [
   "rättSvar": 2,
   "tolerans": 0,
   "svarFormat": "numeriskt"
+},
+{
+  "id": "4.563",
+  "kap": 5,
+  "omr": "komplexa_vektorer",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "addition som parallellogram",
+  "t": "<p>Figuren visar talen \\(z_1\\) och \\(z_2\\) som pilar i det komplexa talplanet. Punkten \\(S\\) är det fjärde hörnet i parallellogrammen. Vilket komplext tal motsvarar \\(S\\)? (Ange realdel och imaginärdel.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 400\" role=\"img\" aria-label=\"Två pilar från origo: z₁ till punkten 3 + i och z₂ till punkten 1 + 3i. Med streckade linjer bildas en parallellogram, vars fjärde hörn är markerat med S.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"398\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"106.3\" y1=\"22\" x2=\"106.3\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"164.7\" y1=\"22\" x2=\"164.7\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"281.3\" y1=\"22\" x2=\"281.3\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"339.7\" y1=\"22\" x2=\"339.7\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"358.0\" x2=\"398\" y2=\"358.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"302.0\" x2=\"398\" y2=\"302.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"246.0\" x2=\"398\" y2=\"246.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"190.0\" x2=\"398\" y2=\"190.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"134.0\" x2=\"398\" y2=\"134.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"78.0\" x2=\"398\" y2=\"78.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"302.0\" x2=\"408\" y2=\"302.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,302.0 402,297.0 402,307.0\" fill=\"#172b3a\"/><line x1=\"106.3\" y1=\"358\" x2=\"106.3\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"106.3,8 101.3,18 111.3,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"293.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"114.3\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"319.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"164.7\" y=\"319.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"223.0\" y=\"319.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"281.3\" y=\"319.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"339.7\" y=\"319.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"398.0\" y=\"319.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"100.3\" y=\"362.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"100.3\" y=\"250.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"100.3\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"100.3\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"100.3\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"100.3\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"100.3\" y=\"319.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k6ec6c1c5\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"336\"/></clipPath><circle cx=\"339.7\" cy=\"78.0\" r=\"5\" fill=\"#172b3a\"/><text x=\"347.7\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">S</text><line x1=\"281.3\" y1=\"246.0\" x2=\"339.7\" y2=\"78.0\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"164.7\" y1=\"134.0\" x2=\"339.7\" y2=\"78.0\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"106.3\" y1=\"302.0\" x2=\"269.0\" y2=\"250.0\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polygon points=\"281.3,246.0 270.8,255.7 267.1,244.2\" fill=\"#2f6fca\"/><text x=\"223.0\" y=\"282.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" font-style=\"italic\" fill=\"#2f6fca\">z₁</text><line x1=\"106.3\" y1=\"302.0\" x2=\"160.4\" y2=\"146.3\" stroke=\"#d9622b\" stroke-width=\"3\"/><polygon points=\"164.7,134.0 166.1,148.2 154.7,144.3\" fill=\"#d9622b\"/><text x=\"115.1\" y=\"178.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" font-style=\"italic\" fill=\"#d9622b\">z₂</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Diagonalen i parallellogrammen är summan av pilarna: \\(S=z_1+z_2\\).</p><p>\\(z_1=3+i\\) och \\(z_2=1+3i\\) ger \\(S=4+4i\\).</p></div>",
+  "familj": "Räkna med komplexa tal som vektorer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs av z₁ och z₂. Parallellogrammens diagonal är summan.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    4,
+    4
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "realdel",
+    "imaginärdel"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.564",
+  "kap": 5,
+  "omr": "komplexa_vektorer",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "subtraktion som pil mellan punkter",
+  "t": "<p>Pilen i figuren går från \\(z_1\\) till \\(z_2\\). Vilket komplext tal motsvarar pilen? (Ange realdel och imaginärdel.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 360\" role=\"img\" aria-label=\"Två punkter: z₁ = −1 + 2i och z₂ = 3 − i. En pil går från z₁ till z₂.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"106.3\" y1=\"22\" x2=\"106.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"164.7\" y1=\"22\" x2=\"164.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"281.3\" y1=\"22\" x2=\"281.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"339.7\" y1=\"22\" x2=\"339.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"318.0\" x2=\"398\" y2=\"318.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.8\" x2=\"398\" y2=\"258.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"199.6\" x2=\"398\" y2=\"199.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"140.4\" x2=\"398\" y2=\"140.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"81.2\" x2=\"398\" y2=\"81.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"199.6\" x2=\"408\" y2=\"199.6\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,199.6 402,194.6 402,204.6\" fill=\"#172b3a\"/><line x1=\"164.7\" y1=\"318\" x2=\"164.7\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"164.7,8 159.7,18 169.7,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"190.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"172.7\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"216.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"106.3\" y=\"216.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"223.0\" y=\"216.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"281.3\" y=\"216.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"339.7\" y=\"216.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"398.0\" y=\"216.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"158.7\" y=\"322.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"158.7\" y=\"262.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"158.7\" y=\"144.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"158.7\" y=\"85.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"158.7\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"158.7\" y=\"216.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kea39fbdc\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"296\"/></clipPath><circle cx=\"106.3\" cy=\"81.2\" r=\"5\" fill=\"#172b3a\"/><text x=\"82.3\" y=\"73.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">z₁</text><circle cx=\"339.7\" cy=\"258.8\" r=\"5\" fill=\"#172b3a\"/><text x=\"347.7\" y=\"276.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">z₂</text><line x1=\"106.3\" y1=\"81.2\" x2=\"329.3\" y2=\"250.9\" stroke=\"#2e9b6f\" stroke-width=\"3\"/><polygon points=\"339.7,258.8 325.7,255.7 333.0,246.2\" fill=\"#2e9b6f\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Pilen från \\(z_1\\) till \\(z_2\\) är \\(z_2-z_1\\), eftersom \\(z_1+(z_2-z_1)=z_2\\).</p><p>\\(z_2-z_1=(3-i)-(-1+2i)=4-3i\\). Pilen går 4 steg åt höger och 3 steg nedåt.</p></div>",
+  "familj": "Räkna med komplexa tal som vektorer",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många steg i realled och imaginärled går pilen?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    4,
+    -3
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "realdel",
+    "imaginärdel"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.565",
+  "kap": 5,
+  "omr": "komplexa_vektorer",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "multiplikation med i som vridning",
+  "t": "<p>Figuren visar talet \\(z\\). Vilken punkt motsvarar \\(i\\cdot z\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 400\" role=\"img\" aria-label=\"Pilen z går från origo till 3 + i. Fyra punkter är markerade: A i andra kvadranten, B i fjärde kvadranten nära imaginära axeln, C i tredje kvadranten och D i fjärde kvadranten nära reella axeln.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"398\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"91.8\" y1=\"22\" x2=\"91.8\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"135.5\" y1=\"22\" x2=\"135.5\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"179.2\" y1=\"22\" x2=\"179.2\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"266.8\" y1=\"22\" x2=\"266.8\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"310.5\" y1=\"22\" x2=\"310.5\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"354.2\" y1=\"22\" x2=\"354.2\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"358.0\" x2=\"398\" y2=\"358.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"316.0\" x2=\"398\" y2=\"316.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"274.0\" x2=\"398\" y2=\"274.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"232.0\" x2=\"398\" y2=\"232.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"190.0\" x2=\"398\" y2=\"190.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"148.0\" x2=\"398\" y2=\"148.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"106.0\" x2=\"398\" y2=\"106.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"64.0\" x2=\"398\" y2=\"64.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"190.0\" x2=\"408\" y2=\"190.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,190.0 402,185.0 402,195.0\" fill=\"#172b3a\"/><line x1=\"223.0\" y1=\"358\" x2=\"223.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"223.0,8 218.0,18 228.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"181.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"231.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−4</text><text x=\"91.8\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"135.5\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"179.2\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"266.8\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"310.5\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"354.2\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"398.0\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"217.0\" y=\"362.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"217.0\" y=\"320.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"217.0\" y=\"278.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"217.0\" y=\"236.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"217.0\" y=\"152.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"217.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"217.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"217.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"217.0\" y=\"207.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k767e8f0e\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"336\"/></clipPath><circle cx=\"179.2\" cy=\"64.0\" r=\"5\" fill=\"#172b3a\"/><text x=\"187.2\" y=\"56.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">A</text><circle cx=\"266.8\" cy=\"316.0\" r=\"5\" fill=\"#172b3a\"/><text x=\"274.8\" y=\"310.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">B</text><circle cx=\"91.8\" cy=\"232.0\" r=\"5\" fill=\"#172b3a\"/><text x=\"71.8\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">C</text><circle cx=\"354.2\" cy=\"232.0\" r=\"5\" fill=\"#172b3a\"/><text x=\"362.2\" y=\"250.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">D</text><line x1=\"223.0\" y1=\"190.0\" x2=\"341.9\" y2=\"152.0\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polygon points=\"354.2,148.0 343.7,157.7 340.0,146.2\" fill=\"#2f6fca\"/><text x=\"293.0\" y=\"141.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" font-style=\"italic\" fill=\"#2f6fca\">z</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(z=3+i\\) ger \\(iz=3i+i^2=-1+3i\\), alltså punkten A.</p><p>Geometriskt vrider multiplikation med \\(i\\) pilen \\(90^\\circ\\) moturs runt origo, utan att ändra längden.</p></div>",
+  "familj": "Räkna med komplexa tal som vektorer",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Räkna ut i(3 + i). Vad händer med pilen?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A",
+      "ratt": true,
+      "kommentar": "iz = −1 + 3i: pilen vrids 90° moturs."
+    },
+    {
+      "txt": "B",
+      "ratt": false,
+      "kommentar": "B är −iz = 1 − 3i: vridning 90° medurs."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "C är −z: vridning 180°."
+    },
+    {
+      "txt": "D",
+      "ratt": false,
+      "kommentar": "D är konjugatet 3 − i: spegling i reella axeln."
+    }
+  ]
+},
+{
+  "id": "4.566",
+  "kap": 5,
+  "omr": "komplexa_vektorer",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "absolutbeloppet av en summa",
+  "t": "<p>I figuren är \\(z_1=2+i\\) och \\(z_2=1+3i\\) ritade efter varandra. Bestäm \\(|z_1+z_2|\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 380\" role=\"img\" aria-label=\"Pilen z₁ från origo till 2 + i och pilen z₂ placerad i spetsen av z₁, från 2 + i till 3 + 4i. En streckad pil går från origo till 3 + 4i.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"378\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"118.0\" y1=\"22\" x2=\"118.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"188.0\" y1=\"22\" x2=\"188.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"258.0\" y1=\"22\" x2=\"258.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"328.0\" y1=\"22\" x2=\"328.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"338.0\" x2=\"398\" y2=\"338.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"285.3\" x2=\"398\" y2=\"285.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"232.7\" x2=\"398\" y2=\"232.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"180.0\" x2=\"398\" y2=\"180.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"127.3\" x2=\"398\" y2=\"127.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"74.7\" x2=\"398\" y2=\"74.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"285.3\" x2=\"408\" y2=\"285.3\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,285.3 402,280.3 402,290.3\" fill=\"#172b3a\"/><line x1=\"118.0\" y1=\"338\" x2=\"118.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"118.0,8 113.0,18 123.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"276.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"126.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"302.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"188.0\" y=\"302.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"258.0\" y=\"302.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"328.0\" y=\"302.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"398.0\" y=\"302.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"112.0\" y=\"342.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"112.0\" y=\"236.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"112.0\" y=\"184.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"112.0\" y=\"131.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"112.0\" y=\"78.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"112.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"112.0\" y=\"302.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k1fcb6a9c\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"316\"/></clipPath><line x1=\"118.0\" y1=\"285.3\" x2=\"245.8\" y2=\"237.2\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polygon points=\"258.0,232.7 247.9,242.9 243.7,231.6\" fill=\"#2f6fca\"/><text x=\"188.0\" y=\"285.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" font-style=\"italic\" fill=\"#2f6fca\">z₁</text><line x1=\"258.0\" y1=\"232.7\" x2=\"322.7\" y2=\"86.6\" stroke=\"#d9622b\" stroke-width=\"3\"/><polygon points=\"328.0,74.7 328.2,89.0 317.2,84.1\" fill=\"#d9622b\"/><text x=\"307.0\" y=\"169.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" font-style=\"italic\" fill=\"#d9622b\">z₂</text><line x1=\"118.0\" y1=\"285.3\" x2=\"318.8\" y2=\"83.9\" stroke=\"#2e9b6f\" stroke-width=\"3\" stroke-dasharray=\"7 5\"/><polygon points=\"328.0,74.7 323.1,88.1 314.6,79.6\" fill=\"#2e9b6f\"/><text x=\"132.0\" y=\"127.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" font-style=\"italic\" fill=\"#2e9b6f\">z₁ + z₂</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(z_1+z_2=3+4i\\), och \\(|3+4i|=\\sqrt{3^2+4^2}=5\\).</p><p>Jämför: \\(|z_1|+|z_2|=\\sqrt5+\\sqrt{10}\\approx5{,}40\\), vilket är större. Den raka vägen är kortare än omvägen.</p></div>",
+  "familj": "Räkna med komplexa tal som vektorer",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Addera först, beräkna sedan beloppet.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.567",
+  "kap": 5,
+  "omr": "komplexa_vektorer",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "förflyttning genom addition",
+  "t": "<p>Alla hörn i den blå triangeln har adderats med samma komplexa tal \\(w\\). Resultatet är den orangea triangeln. Bestäm \\(w\\). (Ange realdel och imaginärdel.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 380\" role=\"img\" aria-label=\"En blå triangel med hörnen 1 + i, 3 + i och 2 + 3i och en orange kopia av den, flyttad 3 steg åt vänster och 2 steg uppåt. Hörnet A flyttas till A′.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"378\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"98.0\" y1=\"22\" x2=\"98.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"148.0\" y1=\"22\" x2=\"148.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"198.0\" y1=\"22\" x2=\"198.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"248.0\" y1=\"22\" x2=\"248.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"298.0\" y1=\"22\" x2=\"298.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"348.0\" y1=\"22\" x2=\"348.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"338.0\" x2=\"398\" y2=\"338.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"292.9\" x2=\"398\" y2=\"292.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"247.7\" x2=\"398\" y2=\"247.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"202.6\" x2=\"398\" y2=\"202.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"157.4\" x2=\"398\" y2=\"157.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"112.3\" x2=\"398\" y2=\"112.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"67.1\" x2=\"398\" y2=\"67.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"292.9\" x2=\"408\" y2=\"292.9\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,292.9 402,287.9 402,297.9\" fill=\"#172b3a\"/><line x1=\"198.0\" y1=\"338\" x2=\"198.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"198.0,8 193.0,18 203.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"283.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"206.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"309.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"98.0\" y=\"309.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"148.0\" y=\"309.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"248.0\" y=\"309.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"298.0\" y=\"309.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"348.0\" y=\"309.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"398.0\" y=\"309.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"192.0\" y=\"342.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"192.0\" y=\"251.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"192.0\" y=\"206.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"192.0\" y=\"161.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"192.0\" y=\"116.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"192.0\" y=\"71.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"192.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"192.0\" y=\"309.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k2cf7b3f3\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"316\"/></clipPath><circle cx=\"248.0\" cy=\"247.7\" r=\"5\" fill=\"#172b3a\"/><text x=\"254.0\" y=\"265.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">A</text><circle cx=\"98.0\" cy=\"157.4\" r=\"5\" fill=\"#172b3a\"/><text x=\"74.0\" y=\"161.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">A′</text><line x1=\"248.0\" y1=\"247.7\" x2=\"348.0\" y2=\"247.7\" stroke=\"#2f6fca\" stroke-width=\"2.6\"/><line x1=\"348.0\" y1=\"247.7\" x2=\"298.0\" y2=\"157.4\" stroke=\"#2f6fca\" stroke-width=\"2.6\"/><line x1=\"298.0\" y1=\"157.4\" x2=\"248.0\" y2=\"247.7\" stroke=\"#2f6fca\" stroke-width=\"2.6\"/><line x1=\"98.0\" y1=\"157.4\" x2=\"198.0\" y2=\"157.4\" stroke=\"#d9622b\" stroke-width=\"2.6\"/><line x1=\"198.0\" y1=\"157.4\" x2=\"148.0\" y2=\"67.1\" stroke=\"#d9622b\" stroke-width=\"2.6\"/><line x1=\"148.0\" y1=\"67.1\" x2=\"98.0\" y2=\"157.4\" stroke=\"#d9622b\" stroke-width=\"2.6\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Hörnet \\(A=1+i\\) har flyttats till \\(A^{\\prime}=-2+3i\\). Då är \\(w=A^{\\prime}-A=-3+2i\\).</p><p>Addition med ett komplext tal är en parallellförflyttning: varje punkt flyttas lika långt i samma riktning.</p></div>",
+  "familj": "Räkna med komplexa tal som vektorer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför ett hörn med sin bild. Hur långt har det flyttats i realled och i imaginärled?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -3,
+    2
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "realdel",
+    "imaginärdel"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.568",
+  "kap": 5,
+  "omr": "komplexa_vektorer",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "multiplikation med ett reellt tal",
+  "t": "<p>Punkten \\(P\\) motsvarar talet \\(t\\cdot z\\), där \\(t\\) är ett reellt tal. Bestäm \\(t\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 360\" role=\"img\" aria-label=\"Pilen z från origo till 2 + i och en punkt P på samma linje genom origo men på motsatt sida, dubbelt så långt bort: −4 − 2i.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"86.9\" y1=\"22\" x2=\"86.9\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"125.8\" y1=\"22\" x2=\"125.8\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"164.7\" y1=\"22\" x2=\"164.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"203.6\" y1=\"22\" x2=\"203.6\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"242.4\" y1=\"22\" x2=\"242.4\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"281.3\" y1=\"22\" x2=\"281.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"320.2\" y1=\"22\" x2=\"320.2\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"359.1\" y1=\"22\" x2=\"359.1\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"318.0\" x2=\"398\" y2=\"318.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"275.7\" x2=\"398\" y2=\"275.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"233.4\" x2=\"398\" y2=\"233.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"191.1\" x2=\"398\" y2=\"191.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"148.9\" x2=\"398\" y2=\"148.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"106.6\" x2=\"398\" y2=\"106.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"64.3\" x2=\"398\" y2=\"64.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"191.1\" x2=\"408\" y2=\"191.1\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,191.1 402,186.1 402,196.1\" fill=\"#172b3a\"/><line x1=\"242.4\" y1=\"318\" x2=\"242.4\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"242.4,8 237.4,18 247.4,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"182.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"250.4\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"208.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−5</text><text x=\"86.9\" y=\"208.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−4</text><text x=\"125.8\" y=\"208.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"164.7\" y=\"208.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"203.6\" y=\"208.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"281.3\" y=\"208.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"320.2\" y=\"208.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"359.1\" y=\"208.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"398.0\" y=\"208.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"236.4\" y=\"322.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"236.4\" y=\"279.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"236.4\" y=\"237.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"236.4\" y=\"152.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"236.4\" y=\"110.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"236.4\" y=\"68.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"236.4\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"236.4\" y=\"208.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k3579f313\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"296\"/></clipPath><circle cx=\"86.9\" cy=\"275.7\" r=\"5\" fill=\"#172b3a\"/><text x=\"78.9\" y=\"297.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">P</text><line x1=\"48.0\" y1=\"296.9\" x2=\"398.0\" y2=\"106.6\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"242.4\" y1=\"191.1\" x2=\"308.8\" y2=\"155.1\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polygon points=\"320.2,148.9 311.7,160.3 305.9,149.8\" fill=\"#2f6fca\"/><text x=\"281.3\" y=\"148.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" font-style=\"italic\" fill=\"#2f6fca\">z</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(z=2+i\\) och \\(P=-4-2i=-2(2+i)\\), så \\(t=-2\\).</p><p>Multiplikation med ett reellt tal ändrar pilens längd. Ett negativt tal vänder dessutom pilen åt motsatt håll.</p></div>",
+  "familj": "Räkna med komplexa tal som vektorer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>P ligger på samma linje som z. Hur många gånger så långt bort, och åt vilket håll?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": -2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.569",
+  "kap": 5,
+  "omr": "komplexa_vektorer",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "när belopp kan adderas",
+  "t": "<p>För vilka komplexa tal \\(z\\) och \\(w\\) (båda skilda från 0) gäller \\(|z+w|=|z|+|w|\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Om pilarna läggs efter varandra blir \\(|z+w|\\) avståndet rakt från start till mål, och \\(|z|+|w|\\) är längden av omvägen.</p><p>De är lika bara när det inte finns någon omväg, alltså när pilarna pekar åt exakt samma håll: \\(w=tz\\) för ett positivt reellt tal \\(t\\).</p></div>",
+  "familj": "Räkna med komplexa tal som vektorer",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Rita pilarna efter varandra. När är den raka vägen lika lång som de två pilarna tillsammans?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "När z och w pekar åt samma håll.",
+      "ratt": true,
+      "kommentar": "Då ligger pilarna på en rät linje och ingen omväg uppstår."
+    },
+    {
+      "txt": "Alltid.",
+      "ratt": false,
+      "kommentar": "Prova z = 1 och w = i: |1 + i| = √2, men |1| + |i| = 2."
+    },
+    {
+      "txt": "När z och w är vinkelräta.",
+      "ratt": false,
+      "kommentar": "Då är |z + w| hypotenusan, som är kortare än summan av kateterna."
+    },
+    {
+      "txt": "När z och w pekar åt motsatt håll.",
+      "ratt": false,
+      "kommentar": "Då tar pilarna delvis ut varandra, så |z + w| blir mindre."
+    }
+  ]
+},
+{
+  "id": "4.570",
+  "kap": 5,
+  "omr": "komplexa_vektorer",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "förflyttningar som summa",
+  "t": "<p>En båt lämnar hamnen \\(H\\) och kör först förflyttningen \\(z=3+4i\\) och sedan \\(w=-5+2i\\) (enhet: km). Den hamnar i \\(B\\). Hur långt från hamnen är båten? (Svara i km med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 400\" role=\"img\" aria-label=\"En båts väg: först pilen z från origo till 3 + 4i och sedan pilen w från 3 + 4i till −2 + 6i. Hamnen H ligger i origo.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"398\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"98.0\" y1=\"22\" x2=\"98.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"148.0\" y1=\"22\" x2=\"148.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"198.0\" y1=\"22\" x2=\"198.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"248.0\" y1=\"22\" x2=\"248.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"298.0\" y1=\"22\" x2=\"298.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"348.0\" y1=\"22\" x2=\"348.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"358\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"358.0\" x2=\"398\" y2=\"358.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"316.0\" x2=\"398\" y2=\"316.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"274.0\" x2=\"398\" y2=\"274.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"232.0\" x2=\"398\" y2=\"232.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"190.0\" x2=\"398\" y2=\"190.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"148.0\" x2=\"398\" y2=\"148.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"106.0\" x2=\"398\" y2=\"106.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"64.0\" x2=\"398\" y2=\"64.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"316.0\" x2=\"408\" y2=\"316.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,316.0 402,311.0 402,321.0\" fill=\"#172b3a\"/><line x1=\"198.0\" y1=\"358\" x2=\"198.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"198.0,8 193.0,18 203.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"307.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"206.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"333.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"98.0\" y=\"333.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"148.0\" y=\"333.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"248.0\" y=\"333.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"298.0\" y=\"333.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"348.0\" y=\"333.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"398.0\" y=\"333.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"192.0\" y=\"362.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"192.0\" y=\"278.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"192.0\" y=\"236.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"192.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"192.0\" y=\"152.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"192.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"192.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"192.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">7</text><text x=\"192.0\" y=\"333.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k8995e1b2\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"336\"/></clipPath><circle cx=\"198.0\" cy=\"316.0\" r=\"5\" fill=\"#172b3a\"/><text x=\"204.0\" y=\"336.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">H</text><circle cx=\"98.0\" cy=\"64.0\" r=\"5\" fill=\"#172b3a\"/><text x=\"78.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">B</text><line x1=\"198.0\" y1=\"316.0\" x2=\"339.3\" y2=\"157.7\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polygon points=\"348.0,148.0 343.8,161.7 334.9,153.7\" fill=\"#2f6fca\"/><text x=\"290.5\" y=\"242.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" font-style=\"italic\" fill=\"#2f6fca\">z</text><line x1=\"348.0\" y1=\"148.0\" x2=\"110.3\" y2=\"68.1\" stroke=\"#d9622b\" stroke-width=\"3\"/><polygon points=\"98.0,64.0 112.2,62.5 108.4,73.8\" fill=\"#d9622b\"/><text x=\"228.0\" y=\"80.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" font-style=\"italic\" fill=\"#d9622b\">w</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Den totala förflyttningen är \\(z+w=-2+6i\\).</p><p>Avståndet är \\(|-2+6i|=\\sqrt{4+36}=\\sqrt{40}\\approx6{,}32\\) km.</p></div>",
+  "familj": "Räkna med komplexa tal som vektorer",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Addera förflyttningarna och beräkna beloppet av summan.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 6.32,
+  "tolerans": 0.005,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "km"
 }
 ];

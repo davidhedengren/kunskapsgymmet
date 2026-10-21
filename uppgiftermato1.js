@@ -100667,5 +100667,323 @@ window.BANKMATO1 = [
   "rättSvar": 4,
   "tolerans": 0,
   "svarFormat": "numeriskt"
+},
+{
+  "id": "2.1124",
+  "kap": 2,
+  "omr": "derivatans_definition",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "differenskvoten som sekantens lutning",
+  "t": "<p>Figuren visar grafen till \\(f\\) och sekanten genom \\(P=(a,\\ f(a))\\) och \\(Q=(a+h,\\ f(a+h))\\). Vilket uttryck är sekantens lutning? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Graf med punkterna P vid x = a och Q vid x = a + h, en röd sekant genom dem och en rätvinklig triangel med sidorna h och f(a+h) − f(a).\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"82.8\" y1=\"221.0\" x2=\"84.8\" y2=\"221.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"84.8\" y1=\"221.0\" x2=\"86.9\" y2=\"220.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"86.9\" y1=\"220.9\" x2=\"88.9\" y2=\"220.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"88.9\" y1=\"220.8\" x2=\"91.0\" y2=\"220.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"91.0\" y1=\"220.6\" x2=\"93.0\" y2=\"220.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"93.0\" y1=\"220.4\" x2=\"95.1\" y2=\"220.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"95.1\" y1=\"220.1\" x2=\"97.1\" y2=\"219.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"97.1\" y1=\"219.8\" x2=\"99.2\" y2=\"219.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"99.2\" y1=\"219.4\" x2=\"101.2\" y2=\"218.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"101.2\" y1=\"218.9\" x2=\"103.3\" y2=\"218.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"103.3\" y1=\"218.4\" x2=\"105.3\" y2=\"217.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"105.3\" y1=\"217.9\" x2=\"107.4\" y2=\"217.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"107.4\" y1=\"217.3\" x2=\"109.4\" y2=\"216.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"109.4\" y1=\"216.7\" x2=\"111.5\" y2=\"216.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"111.5\" y1=\"216.0\" x2=\"113.5\" y2=\"215.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"113.5\" y1=\"215.2\" x2=\"115.6\" y2=\"214.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"115.6\" y1=\"214.4\" x2=\"117.6\" y2=\"213.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"117.6\" y1=\"213.6\" x2=\"119.7\" y2=\"212.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"119.7\" y1=\"212.7\" x2=\"121.8\" y2=\"211.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"121.8\" y1=\"211.7\" x2=\"123.8\" y2=\"210.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"123.8\" y1=\"210.7\" x2=\"125.9\" y2=\"209.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"125.9\" y1=\"209.7\" x2=\"127.9\" y2=\"208.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"127.9\" y1=\"208.6\" x2=\"130.0\" y2=\"207.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"130.0\" y1=\"207.4\" x2=\"132.0\" y2=\"206.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"132.0\" y1=\"206.2\" x2=\"134.1\" y2=\"205.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"134.1\" y1=\"205.0\" x2=\"136.1\" y2=\"203.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"136.1\" y1=\"203.7\" x2=\"138.2\" y2=\"202.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"138.2\" y1=\"202.3\" x2=\"140.2\" y2=\"200.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"140.2\" y1=\"200.9\" x2=\"142.3\" y2=\"199.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"142.3\" y1=\"199.4\" x2=\"144.3\" y2=\"197.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"144.3\" y1=\"197.9\" x2=\"146.4\" y2=\"196.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"196.4\" x2=\"148.4\" y2=\"194.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"148.4\" y1=\"194.7\" x2=\"150.5\" y2=\"193.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"150.5\" y1=\"193.1\" x2=\"152.5\" y2=\"191.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"152.5\" y1=\"191.4\" x2=\"154.6\" y2=\"189.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"154.6\" y1=\"189.6\" x2=\"156.6\" y2=\"187.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"156.6\" y1=\"187.8\" x2=\"158.7\" y2=\"185.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"158.7\" y1=\"185.9\" x2=\"160.7\" y2=\"184.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"160.7\" y1=\"184.0\" x2=\"162.8\" y2=\"182.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"162.8\" y1=\"182.0\" x2=\"164.9\" y2=\"180.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"164.9\" y1=\"180.0\" x2=\"166.9\" y2=\"177.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"166.9\" y1=\"177.9\" x2=\"169.0\" y2=\"175.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"169.0\" y1=\"175.8\" x2=\"171.0\" y2=\"173.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"171.0\" y1=\"173.6\" x2=\"173.1\" y2=\"171.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"173.1\" y1=\"171.3\" x2=\"175.1\" y2=\"169.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"175.1\" y1=\"169.1\" x2=\"177.2\" y2=\"166.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"177.2\" y1=\"166.7\" x2=\"179.2\" y2=\"164.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"179.2\" y1=\"164.3\" x2=\"181.3\" y2=\"161.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"181.3\" y1=\"161.9\" x2=\"183.3\" y2=\"159.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"183.3\" y1=\"159.4\" x2=\"185.4\" y2=\"156.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"185.4\" y1=\"156.9\" x2=\"187.4\" y2=\"154.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"187.4\" y1=\"154.3\" x2=\"189.5\" y2=\"151.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"189.5\" y1=\"151.6\" x2=\"191.5\" y2=\"148.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"191.5\" y1=\"148.9\" x2=\"193.6\" y2=\"146.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"193.6\" y1=\"146.2\" x2=\"195.6\" y2=\"143.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"195.6\" y1=\"143.4\" x2=\"197.7\" y2=\"140.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"197.7\" y1=\"140.6\" x2=\"199.7\" y2=\"137.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"199.7\" y1=\"137.7\" x2=\"201.8\" y2=\"134.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"201.8\" y1=\"134.7\" x2=\"203.8\" y2=\"131.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"203.8\" y1=\"131.7\" x2=\"205.9\" y2=\"128.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"205.9\" y1=\"128.7\" x2=\"207.9\" y2=\"125.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"207.9\" y1=\"125.6\" x2=\"210.0\" y2=\"122.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"122.4\" x2=\"212.1\" y2=\"119.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"212.1\" y1=\"119.2\" x2=\"214.1\" y2=\"115.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"214.1\" y1=\"115.9\" x2=\"216.2\" y2=\"112.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"216.2\" y1=\"112.6\" x2=\"218.2\" y2=\"109.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"218.2\" y1=\"109.3\" x2=\"220.3\" y2=\"105.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"220.3\" y1=\"105.9\" x2=\"222.3\" y2=\"102.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"222.3\" y1=\"102.4\" x2=\"224.4\" y2=\"98.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"224.4\" y1=\"98.9\" x2=\"226.4\" y2=\"95.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"226.4\" y1=\"95.3\" x2=\"228.5\" y2=\"91.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"228.5\" y1=\"91.7\" x2=\"230.5\" y2=\"88.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"230.5\" y1=\"88.0\" x2=\"232.6\" y2=\"84.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"232.6\" y1=\"84.3\" x2=\"234.6\" y2=\"80.5\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"234.6\" y1=\"80.5\" x2=\"236.7\" y2=\"76.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"236.7\" y1=\"76.7\" x2=\"238.7\" y2=\"72.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"238.7\" y1=\"72.8\" x2=\"240.8\" y2=\"68.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"240.8\" y1=\"68.9\" x2=\"242.8\" y2=\"64.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"242.8\" y1=\"64.9\" x2=\"244.9\" y2=\"60.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"244.9\" y1=\"60.9\" x2=\"246.9\" y2=\"56.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"246.9\" y1=\"56.8\" x2=\"249.0\" y2=\"52.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"249.0\" y1=\"52.7\" x2=\"251.0\" y2=\"48.5\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"251.0\" y1=\"48.5\" x2=\"253.1\" y2=\"44.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"253.1\" y1=\"44.3\" x2=\"255.1\" y2=\"40.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"82.8\" y1=\"241.5\" x2=\"337.2\" y2=\"241.5\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"82.8\" y1=\"241.5\" x2=\"82.8\" y2=\"44.5\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"144.3\" y1=\"197.9\" x2=\"210.0\" y2=\"197.9\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"210.0\" y1=\"197.9\" x2=\"210.0\" y2=\"122.4\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"95.1\" y1=\"254.6\" x2=\"242.8\" y2=\"84.6\" stroke=\"#c8372d\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><circle cx=\"144.3\" cy=\"197.9\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"132.3\" y=\"189.9\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">P</text><circle cx=\"210.0\" cy=\"122.4\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"200.0\" y=\"112.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">Q</text><text x=\"177.2\" y=\"216.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">h</text><text x=\"265.4\" y=\"164.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">f(a+h) − f(a)</text><text x=\"144.3\" y=\"260.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">a</text><text x=\"210.0\" y=\"260.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">a+h</text><line x1=\"144.3\" y1=\"241.5\" x2=\"144.3\" y2=\"197.9\" stroke=\"#172b3a\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"210.0\" y1=\"241.5\" x2=\"210.0\" y2=\"197.9\" stroke=\"#172b3a\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Lutningen är \\(\\dfrac{\\Delta y}{\\Delta x}\\). Förflyttningen i x-led är \\(h\\) och i y-led \\(f(a+h)-f(a)\\), så lutningen är \\(\\dfrac{f(a+h)-f(a)}{h}\\). Uttrycket kallas differenskvot.</p></div>",
+  "familj": "Tolka differenskvoter och gränsvärden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Lutning = ändring i y delat med ändring i x. Vilka sträckor är markerade i figuren?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "(f(a+h) − f(a)) / h",
+      "ratt": true,
+      "kommentar": "Δy delat med Δx."
+    },
+    {
+      "txt": "(f(a+h) − f(a)) / a",
+      "ratt": false,
+      "kommentar": "Δx är h, inte a."
+    },
+    {
+      "txt": "f(a+h) / h",
+      "ratt": false,
+      "kommentar": "Man måste ta skillnaden mellan y-värdena."
+    },
+    {
+      "txt": "(f(a) − f(h)) / h",
+      "ratt": false,
+      "kommentar": "Q har x-koordinaten a + h, inte h."
+    }
+  ]
+},
+{
+  "id": "2.1125",
+  "kap": 2,
+  "omr": "derivatans_definition",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "känna igen funktion och punkt i gränsvärdet",
+  "t": "<p>Gränsvärdet \\(\\displaystyle\\lim_{h\\to0}\\frac{(2+h)^3-8}{h}\\) är derivatan \\(f'(a)\\) för en viss funktion i en viss punkt. Vilken? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Jämför med \\(\\dfrac{f(a+h)-f(a)}{h}\\). Här är \\(f(a+h)=(2+h)^3\\) och \\(f(a)=8=2^3\\). Alltså \\(f(x)=x^3\\) och \\(a=2\\).</p></div>",
+  "familj": "Tolka differenskvoter och gränsvärden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad står på platsen för f(a + h) och för f(a)?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "f(x) = x³ och a = 2",
+      "ratt": true,
+      "kommentar": "f(2 + h) = (2 + h)³ och f(2) = 8."
+    },
+    {
+      "txt": "f(x) = x³ och a = 8",
+      "ratt": false,
+      "kommentar": "8 är funktionsvärdet f(2), inte punkten."
+    },
+    {
+      "txt": "f(x) = x² och a = 2",
+      "ratt": false,
+      "kommentar": "Uttrycket innehåller en tredjepotens."
+    },
+    {
+      "txt": "f(x) = 2x³ och a = 1",
+      "ratt": false,
+      "kommentar": "Då skulle uttrycket vara (2(1 + h)³ − 2)/h."
+    }
+  ]
+},
+{
+  "id": "2.1126",
+  "kap": 2,
+  "omr": "derivatans_definition",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "differenskvot för ett litet h",
+  "t": "<p>För \\(f(x)=x^2\\) och \\(a=3\\): beräkna differenskvoten \\(\\dfrac{f(3+h)-f(3)}{h}\\) när \\(h=0{,}1\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\dfrac{3{,}1^2-9}{0{,}1}=\\dfrac{9{,}61-9}{0{,}1}=\\dfrac{0{,}61}{0{,}1}=6{,}1\\). Det ligger nära \\(f'(3)=6\\).</p></div>",
+  "familj": "Derivatans definition",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Räkna ut f(3,1) först.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 6.1,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.1127",
+  "kap": 2,
+  "omr": "derivatans_definition",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "symmetrisk differenskvot ur tabell",
+  "t": "<p>Tabellen visar några värden för en funktion \\(f\\). Uppskatta \\(f'(2)\\) med den symmetriska differenskvoten \\(\\dfrac{f(2{,}1)-f(1{,}9)}{0{,}2}\\).</p><table class=\"data\" style=\"width:100%;max-width:360px;text-align:center\"><thead><tr><th>x</th><th>1,9</th><th>2,0</th><th>2,1</th></tr></thead><tbody><tr><td>f(x)</td><td>3,61</td><td>4,00</td><td>4,41</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\dfrac{4{,}41-3{,}61}{0{,}2}=\\dfrac{0{,}80}{0{,}2}=4\\). Alltså \\(f'(2)\\approx4\\).</p></div>",
+  "familj": "Derivatans definition",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ta skillnaden mellan funktionsvärdena på var sida om 2 och dela med 0,2.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.1128",
+  "kap": 2,
+  "omr": "derivatans_definition",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "tolka derivatan i ett sammanhang",
+  "t": "<p>Volymen vatten i en tank är \\(V(t)\\) liter efter \\(t\\) minuter. Det gäller att \\(\\displaystyle\\lim_{h\\to0}\\frac{V(5+h)-V(5)}{h}=12\\). Vad betyder det? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Gränsvärdet är \\(V'(5)\\), alltså hur snabbt volymen ändras just vid \\(t=5\\). Enheten är liter per minut. Volymen ökar med 12 liter/min i det ögonblicket.</p></div>",
+  "familj": "Tolka differenskvoter och gränsvärden",
+  "formaga": [
+    "begrepp",
+    "modellering"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilken enhet har täljaren och vilken har nämnaren?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Vid t = 5 min ökar volymen med 12 liter per minut.",
+      "ratt": true,
+      "kommentar": "Det är V′(5) med enheten liter/min."
+    },
+    {
+      "txt": "Efter 5 minuter är volymen 12 liter.",
+      "ratt": false,
+      "kommentar": "Det vore V(5) = 12."
+    },
+    {
+      "txt": "Under de första 5 minuterna ökar volymen med 12 liter.",
+      "ratt": false,
+      "kommentar": "Det är en total ändring, inte en ändringshastighet."
+    },
+    {
+      "txt": "Volymen är 12 liter större efter 5 + h minuter.",
+      "ratt": false,
+      "kommentar": "Gränsvärdet beskriver ändringshastigheten när h → 0."
+    }
+  ]
+},
+{
+  "id": "2.1129",
+  "kap": 2,
+  "omr": "derivatans_definition",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "förenkla innan gränsövergången",
+  "t": "<p>Med derivatans definition får en elev \\(f'(a)=\\displaystyle\\lim_{h\\to0}\\frac{h^2+6h}{h}\\). Bestäm \\(f'(a)\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Förenkla först: \\(\\dfrac{h^2+6h}{h}=h+6\\) för \\(h\\ne0\\). När \\(h\\to0\\) går \\(h+6\\) mot 6.</p></div>",
+  "familj": "Derivatans definition",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bryt ut h i täljaren och förkorta innan du låter h gå mot 0.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.1130",
+  "kap": 2,
+  "omr": "derivatans_definition",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "derivera med definitionen",
+  "t": "<p>Bestäm \\(f'(x)\\) med derivatans definition när \\(f(x)=3x^2\\). (Svara med ett uttryck i \\(x\\).)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\dfrac{3(x+h)^2-3x^2}{h}=\\dfrac{6xh+3h^2}{h}=6x+3h\\to6x\\) när \\(h\\to0\\).</p></div>",
+  "familj": "Derivatans definition",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Utveckla 3(x + h)², förenkla och förkorta med h.</p>",
+  "svarstyp": "uttryck",
+  "rättSvar": "6x",
+  "tolerans": null,
+  "svarFormat": "uttryck"
+},
+{
+  "id": "2.1131",
+  "kap": 2,
+  "omr": "derivatans_definition",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "när h går mot noll",
+  "t": "<p>I figuren dras sekanter från P till punkter Q med allt mindre \\(h\\). Vad händer när \\(h\\to0\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Graf med punkten P och flera sekanter till punkter allt närmare P. Sekanterna vrids mot tangenten i P.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"85.1\" y1=\"219.8\" x2=\"87.1\" y2=\"219.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"87.1\" y1=\"219.8\" x2=\"89.1\" y2=\"219.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"89.1\" y1=\"219.7\" x2=\"91.1\" y2=\"219.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"91.1\" y1=\"219.6\" x2=\"93.2\" y2=\"219.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"93.2\" y1=\"219.4\" x2=\"95.2\" y2=\"219.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"95.2\" y1=\"219.2\" x2=\"97.2\" y2=\"218.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"97.2\" y1=\"218.9\" x2=\"99.2\" y2=\"218.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"99.2\" y1=\"218.6\" x2=\"101.2\" y2=\"218.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"101.2\" y1=\"218.2\" x2=\"103.2\" y2=\"217.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"103.2\" y1=\"217.8\" x2=\"105.2\" y2=\"217.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"105.2\" y1=\"217.3\" x2=\"107.3\" y2=\"216.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"107.3\" y1=\"216.8\" x2=\"109.3\" y2=\"216.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"109.3\" y1=\"216.2\" x2=\"111.3\" y2=\"215.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"111.3\" y1=\"215.6\" x2=\"113.3\" y2=\"214.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"113.3\" y1=\"214.9\" x2=\"115.3\" y2=\"214.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"115.3\" y1=\"214.1\" x2=\"117.3\" y2=\"213.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"117.3\" y1=\"213.4\" x2=\"119.3\" y2=\"212.5\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"119.3\" y1=\"212.5\" x2=\"121.4\" y2=\"211.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"121.4\" y1=\"211.6\" x2=\"123.4\" y2=\"210.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"123.4\" y1=\"210.7\" x2=\"125.4\" y2=\"209.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"125.4\" y1=\"209.7\" x2=\"127.4\" y2=\"208.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"127.4\" y1=\"208.7\" x2=\"129.4\" y2=\"207.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"129.4\" y1=\"207.6\" x2=\"131.4\" y2=\"206.5\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"131.4\" y1=\"206.5\" x2=\"133.4\" y2=\"205.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"133.4\" y1=\"205.3\" x2=\"135.5\" y2=\"204.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"135.5\" y1=\"204.1\" x2=\"137.5\" y2=\"202.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"137.5\" y1=\"202.8\" x2=\"139.5\" y2=\"201.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"139.5\" y1=\"201.4\" x2=\"141.5\" y2=\"200.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"141.5\" y1=\"200.1\" x2=\"143.5\" y2=\"198.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"143.5\" y1=\"198.6\" x2=\"145.5\" y2=\"197.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"145.5\" y1=\"197.1\" x2=\"147.5\" y2=\"195.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"147.5\" y1=\"195.6\" x2=\"149.6\" y2=\"194.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"149.6\" y1=\"194.0\" x2=\"151.6\" y2=\"192.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"151.6\" y1=\"192.4\" x2=\"153.6\" y2=\"190.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"153.6\" y1=\"190.7\" x2=\"155.6\" y2=\"189.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"155.6\" y1=\"189.0\" x2=\"157.6\" y2=\"187.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"157.6\" y1=\"187.2\" x2=\"159.6\" y2=\"185.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"159.6\" y1=\"185.3\" x2=\"161.6\" y2=\"183.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"161.6\" y1=\"183.4\" x2=\"163.7\" y2=\"181.5\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"163.7\" y1=\"181.5\" x2=\"165.7\" y2=\"179.5\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"165.7\" y1=\"179.5\" x2=\"167.7\" y2=\"177.5\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"167.7\" y1=\"177.5\" x2=\"169.7\" y2=\"175.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"169.7\" y1=\"175.4\" x2=\"171.7\" y2=\"173.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"171.7\" y1=\"173.2\" x2=\"173.7\" y2=\"171.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"173.7\" y1=\"171.1\" x2=\"175.8\" y2=\"168.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"175.8\" y1=\"168.8\" x2=\"177.8\" y2=\"166.5\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"177.8\" y1=\"166.5\" x2=\"179.8\" y2=\"164.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"179.8\" y1=\"164.2\" x2=\"181.8\" y2=\"161.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"181.8\" y1=\"161.8\" x2=\"183.8\" y2=\"159.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"183.8\" y1=\"159.3\" x2=\"185.8\" y2=\"156.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"185.8\" y1=\"156.8\" x2=\"187.8\" y2=\"154.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"187.8\" y1=\"154.3\" x2=\"189.9\" y2=\"151.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"189.9\" y1=\"151.7\" x2=\"191.9\" y2=\"149.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"191.9\" y1=\"149.1\" x2=\"193.9\" y2=\"146.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"193.9\" y1=\"146.4\" x2=\"195.9\" y2=\"143.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"195.9\" y1=\"143.6\" x2=\"197.9\" y2=\"140.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"197.9\" y1=\"140.8\" x2=\"199.9\" y2=\"138.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"199.9\" y1=\"138.0\" x2=\"201.9\" y2=\"135.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"201.9\" y1=\"135.1\" x2=\"204.0\" y2=\"132.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"204.0\" y1=\"132.1\" x2=\"206.0\" y2=\"129.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"206.0\" y1=\"129.1\" x2=\"208.0\" y2=\"126.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"208.0\" y1=\"126.1\" x2=\"210.0\" y2=\"123.0\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"123.0\" x2=\"212.0\" y2=\"119.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"212.0\" y1=\"119.9\" x2=\"214.0\" y2=\"116.7\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"214.0\" y1=\"116.7\" x2=\"216.0\" y2=\"113.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"216.0\" y1=\"113.4\" x2=\"218.1\" y2=\"110.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"218.1\" y1=\"110.1\" x2=\"220.1\" y2=\"106.8\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"220.1\" y1=\"106.8\" x2=\"222.1\" y2=\"103.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"222.1\" y1=\"103.4\" x2=\"224.1\" y2=\"99.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"224.1\" y1=\"99.9\" x2=\"226.1\" y2=\"96.4\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"226.1\" y1=\"96.4\" x2=\"228.1\" y2=\"92.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"228.1\" y1=\"92.9\" x2=\"230.1\" y2=\"89.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"230.1\" y1=\"89.3\" x2=\"232.2\" y2=\"85.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"232.2\" y1=\"85.6\" x2=\"234.2\" y2=\"81.9\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"234.2\" y1=\"81.9\" x2=\"236.2\" y2=\"78.2\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"236.2\" y1=\"78.2\" x2=\"238.2\" y2=\"74.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"238.2\" y1=\"74.3\" x2=\"240.2\" y2=\"70.5\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"240.2\" y1=\"70.5\" x2=\"242.2\" y2=\"66.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"242.2\" y1=\"66.6\" x2=\"244.2\" y2=\"62.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"244.2\" y1=\"62.6\" x2=\"246.3\" y2=\"58.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"246.3\" y1=\"58.6\" x2=\"248.3\" y2=\"54.6\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"248.3\" y1=\"54.6\" x2=\"250.3\" y2=\"50.5\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"250.3\" y1=\"50.5\" x2=\"252.3\" y2=\"46.3\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"252.3\" y1=\"46.3\" x2=\"254.3\" y2=\"42.1\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"85.1\" y1=\"240.0\" x2=\"334.9\" y2=\"240.0\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"85.1\" y1=\"240.0\" x2=\"85.1\" y2=\"46.5\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"145.5\" y1=\"197.1\" x2=\"234.2\" y2=\"197.1\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"234.2\" y1=\"197.1\" x2=\"234.2\" y2=\"81.9\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"97.2\" y1=\"260.0\" x2=\"266.4\" y2=\"40.0\" stroke=\"#c8372d\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"113.3\" y1=\"231.0\" x2=\"218.1\" y2=\"121.0\" stroke=\"#e0a21a\" stroke-width=\"2\" stroke-linecap=\"round\"/><circle cx=\"193.9\" cy=\"146.4\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><line x1=\"113.3\" y1=\"225.3\" x2=\"189.9\" y2=\"158.4\" stroke=\"#e0a21a\" stroke-width=\"2\" stroke-linecap=\"round\"/><circle cx=\"165.7\" cy=\"179.5\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><circle cx=\"145.5\" cy=\"197.1\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"133.5\" y=\"189.1\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">P</text><circle cx=\"234.2\" cy=\"81.9\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"224.2\" y=\"71.9\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">Q</text><text x=\"189.9\" y=\"215.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\">h</text><text x=\"288.6\" y=\"143.6\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">f(a+h) − f(a)</text><text x=\"145.5\" y=\"258.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">a</text><text x=\"234.2\" y=\"258.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">a+h</text><line x1=\"145.5\" y1=\"240.0\" x2=\"145.5\" y2=\"197.1\" stroke=\"#172b3a\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><line x1=\"234.2\" y1=\"240.0\" x2=\"234.2\" y2=\"197.1\" stroke=\"#172b3a\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Q glider längs kurvan mot P, och sekanterna vrids mot tangenten i P. Sekanternas lutning närmar sig tangentens lutning, som är \\(f'(a)\\).</p></div>",
+  "familj": "Tolka differenskvoter och gränsvärden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Följ punkterna Q när h blir mindre.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Q närmar sig P och sekantens lutning närmar sig tangentens lutning f′(a).",
+      "ratt": true,
+      "kommentar": "Det är grundidén bakom derivatan."
+    },
+    {
+      "txt": "Sekanten blir vågrät.",
+      "ratt": false,
+      "kommentar": "Den närmar sig tangenten, som här inte är vågrät."
+    },
+    {
+      "txt": "Differenskvoten blir 0/0 och saknar därför värde.",
+      "ratt": false,
+      "kommentar": "Gränsvärdet kan finnas fast uttrycket inte får sättas in direkt."
+    },
+    {
+      "txt": "Sekantens lutning blir större och större.",
+      "ratt": false,
+      "kommentar": "Den stabiliseras mot ett gränsvärde."
+    }
+  ]
 }
 ];

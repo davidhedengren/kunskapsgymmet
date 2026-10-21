@@ -40759,7 +40759,7 @@ window.BANKMATO2 = [
     "poang": "0/0/3",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En laser sitter på en skiva som roterar så att vinkeln ökar med \\(C\\) rad/s. Avståndet från skivans centrum till en rak vägg är \\(L\\) meter.</p>\n<p>Efter tiden \\(t\\) har laserstrålen vridits vinkeln \\(v=Ct\\). Ljuspunktens avstånd längs väggen från punkten rakt framför skivans centrum är \\(x\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"270\" viewBox=\"0 0 470 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Roterande laser på avståndet L från en rak vägg, med vinkeln v från normalen och avståndet x längs väggen\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"60\" y1=\"60\" x2=\"410\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"72\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">vägg</text><line x1=\"235\" y1=\"215\" x2=\"235\" y2=\"60\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-dasharray=\"5 4\"/><line x1=\"235\" y1=\"215\" x2=\"365.1\" y2=\"60\" stroke=\"#B43123\" stroke-width=\"3\"/><circle cx=\"365.1\" cy=\"60\" r=\"5\" fill=\"#B43123\"/><circle cx=\"235\" cy=\"215\" r=\"22\" fill=\"#F4F8F9\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"235\" cy=\"215\" r=\"3.5\" fill=\"#2B2527\"/><text x=\"235\" y=\"255\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">roterande skiva</text><path d=\"M235 167 A48 48 0 0 1 265.9 178.2\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"256.2\" y=\"160.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">v</text><line x1=\"205\" y1=\"64\" x2=\"205\" y2=\"215\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"199\" y1=\"64\" x2=\"211\" y2=\"64\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"199\" y1=\"215\" x2=\"211\" y2=\"215\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><text x=\"196\" y=\"141.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">L</text><line x1=\"235\" y1=\"82\" x2=\"365.1\" y2=\"82\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"235\" y1=\"76\" x2=\"235\" y2=\"88\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"365.1\" y1=\"76\" x2=\"365.1\" y2=\"88\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><text x=\"300\" y=\"101\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">x</text></svg></span><p>Bestäm ett uttryck för ljuspunktens hastighet \\(\\frac{dx}{dt}\\) i termer av \\(L\\), \\(C\\) och \\(t\\).</p>",
+    "t": "<p>En laser sitter på en skiva som roterar så att vinkeln ökar med \\(C\\) rad/s. Avståndet från skivans centrum till en rak vägg är \\(L\\) meter.</p>\n<p>Efter tiden \\(t\\) har laserstrålen vridits vinkeln \\(v=Ct\\). Ljuspunktens avstånd längs väggen från punkten rakt framför skivans centrum är \\(x\\).</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"470\" height=\"270\" viewBox=\"0 0 470 270\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Roterande laser på avståndet L från en rak vägg, med vinkeln v från normalen och avståndet x längs väggen\"><rect x=\"1\" y=\"1\" width=\"468\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"60\" y1=\"60\" x2=\"410\" y2=\"60\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"72\" y=\"48\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#2B2527\">vägg</text><line x1=\"235\" y1=\"215\" x2=\"235\" y2=\"60\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-dasharray=\"5 4\"/><line x1=\"235\" y1=\"215\" x2=\"365.1\" y2=\"60\" stroke=\"#B43123\" stroke-width=\"3\"/><circle cx=\"365.1\" cy=\"60\" r=\"5\" fill=\"#B43123\"/><circle cx=\"235\" cy=\"215\" r=\"22\" fill=\"#F4F8F9\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"235\" cy=\"215\" r=\"3.5\" fill=\"#2B2527\"/><text x=\"235\" y=\"255\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"11\" fill=\"#2B2527\">roterande skiva</text><path d=\"M235 167 A48 48 0 0 1 265.9 178.2\" fill=\"none\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"256.2\" y=\"160.7\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">v</text><line x1=\"205\" y1=\"64\" x2=\"205\" y2=\"215\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"199\" y1=\"64\" x2=\"211\" y2=\"64\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"199\" y1=\"215\" x2=\"211\" y2=\"215\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><text x=\"196\" y=\"141.5\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">L</text><line x1=\"235\" y1=\"82\" x2=\"365.1\" y2=\"82\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"235\" y1=\"76\" x2=\"235\" y2=\"88\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><line x1=\"365.1\" y1=\"76\" x2=\"365.1\" y2=\"88\" stroke=\"#268FA3\" stroke-width=\"1.4\"/><text x=\"300\" y=\"101\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">x</text></svg></span><p>Bestäm ett uttryck för ljuspunktens hastighet \\(\\frac{dx}{dt}\\) i termer av \\(L\\), \\(C\\) och \\(t\\).</p><p>Svara i m/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Av den rätvinkliga triangeln fås</p></li><li><p>\\[\\tan v=\\frac{x}{L}.\\]</p></li><li><p>Alltså</p></li><li><p>\\[x=L\\tan v.\\]</p></li><li><p>Eftersom \\(v=Ct\\) blir</p></li><li><p>\\[x=L\\tan(Ct).\\]</p></li><li><p>Derivera med kedjeregeln.</p></li><li><p>Eftersom \\((\\tan u)'=1/\\cos^2u\\) får vi</p></li><li><p>\\[\\frac{dx}{dt}=L\\cdot\\frac{1}{\\cos^2(Ct)}\\cdot C.\\]</p></li></ol><p class=\"facit-svar\"><strong>\\[\\boxed{\\frac{dx}{dt}=\\frac{LC}{\\cos^2(Ct)}}.\\]</strong></p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -40882,7 +40882,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En cirkelformad häxring växer så att radien ökar med \\(0{,}20\\) m per år.</p>\n<p>Hur snabbt ökar ringens area när radien är \\(0{,}75\\) m?</p>",
+    "t": "<p>En cirkelformad häxring växer så att radien ökar med \\(0{,}20\\) m per år.</p>\n<p>Hur snabbt ökar ringens area när radien är \\(0{,}75\\) m?</p><p>Svara i m²/år.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Arean är</p></li><li><p>\\[\nA=\\pi r^2.\n\\]</p></li><li><p>Derivera med avseende på tiden:</p></li><li><p>\\[\n\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\n\\]</p></li><li><p>Sätt in \\(r=0{,}75\\) och \\(\\frac{dr}{dt}=0{,}20\\):</p></li><li><p>\\[\n\\frac{dA}{dt}=2\\pi\\cdot0{,}75\\cdot0{,}20\n=0{,}30\\pi\n\\approx0{,}94.\n\\]</p></li></ol>\n\n\n\n\n\n<p class=\"facit-svar\"><strong>Arean ökar med cirka \\(0{,}94\\text{ m}^2/\\text{år}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -41117,7 +41117,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En kubs sidlängd ökar med \\(0{,}12\\) cm/s.</p>\n<p>Hur snabbt ökar kubens volym när sidlängden är \\(15\\) cm?</p>",
+    "t": "<p>En kubs sidlängd ökar med \\(0{,}12\\) cm/s.</p>\n<p>Hur snabbt ökar kubens volym när sidlängden är \\(15\\) cm?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymen är</p></li><li><p>\\[\nV=a^3.\n\\]</p></li><li><p>Derivera med avseende på tiden:</p></li><li><p>\\[\n\\frac{dV}{dt}=3a^2\\frac{da}{dt}.\n\\]</p></li><li><p>Sätt in \\(a=15\\) och \\(\\frac{da}{dt}=0{,}12\\):</p></li><li><p>\\[\n\\frac{dV}{dt}\n=3\\cdot15^2\\cdot0{,}12\n=81.\n\\]</p></li></ol>\n\n\n\n\n\n<p class=\"facit-svar\"><strong>Volymen ökar med \\(81\\text{ cm}^3/\\text{s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -41461,7 +41461,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En klotformad ballong blåses upp. Vid ett visst ögonblick är radien 5,0 cm och ökar med 0,40 cm/s.</p><p>Med vilken hastighet ökar ballongens volym i detta ögonblick?</p>",
+    "t": "<p>En klotformad ballong blåses upp. Vid ett visst ögonblick är radien 5,0 cm och ökar med 0,40 cm/s.</p><p>Med vilken hastighet ökar ballongens volym i detta ögonblick?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Volymen är</p><div class=\"facit-matte\">\\[V=\\frac43\\pi r^3\\].</div></div></li><li><p>Derivera med avseende på tiden:</p></li><li><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p></li><li><p>Vid \\(r=5,0\\) och \\(dr/dt=0{,}40\\):</p></li><li><p>\\[\\frac{dV}{dt}=4\\pi\\cdot25\\cdot0{,}40=\\boxed{40\\pi}\\approx\\boxed{126\\text{ cm}^3/\\text{s}}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -41694,27 +41694,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En klotformad ballong blåses upp. Vid ett visst ögonblick är radien 10 cm och ökar då med 0,40 cm/s.</p><span class=\"fig\"><svg aria-label=\"Klotformad ballong med radie r markerad\" height=\"245\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 360 245\" width=\"360\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect fill=\"#fff\" height=\"243\" rx=\"10\" stroke=\"#E4E3E6\" width=\"358\" x=\"1\" y=\"1\"></rect>\n<circle cx=\"170\" cy=\"120\" fill=\"#F4F5F7\" r=\"78\" stroke=\"#2B2527\" stroke-width=\"2\"></circle>\n<circle cx=\"170\" cy=\"120\" fill=\"#2B2527\" r=\"3.5\"></circle><line stroke=\"#B43123\" stroke-width=\"2.4\" x1=\"170\" x2=\"241\" y1=\"120\" y2=\"88\"></line><path d=\"M241 88 l-11 1 l5 9 z\" fill=\"#B43123\"></path><text fill=\"#B43123\" font-family=\"sans-serif\" font-size=\"14\" x=\"198\" y=\"86\">r</text><text fill=\"#50494B\" font-family=\"sans-serif\" font-size=\"12\" text-anchor=\"middle\" x=\"170\" y=\"221\">V = 4πr³/3</text>\n</svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>Bestäm hur snabbt ballongens volym ökar vid detta ögonblick.</p>",
-        "s": "<div class=\"facit-v2\"><p>Klotets volym är \\(V=4\\pi r^3/3\\). Radien beror på tiden, så</p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]<p>Vid radien 10 cm och ökningen 0,40 cm/s:</p>\\[\\frac{dV}{dt}=4\\pi\\cdot10^2\\cdot0{,}40.\\]<p><strong>Svar:</strong> \\(160\\pi\\) cm³/s, ungefär 503 cm³/s.</p></div>",
-        "niva": "C",
-        "traningsniva": 3,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>Anta att en tom klotformad ballong fylls med den konstanta volymökningen \\(160\\pi\\,\\text{cm}^3/\\text{s}\\). Hur lång tid tar det tills radien är 15 cm?</p>",
-        "s": "<div class=\"facit-v2\"><p>Först beräknar vi volymen vid radien 15 cm:</p>\\[V=\\frac{4\\pi\\cdot15^3}{3}=4500\\pi\\text{ cm}^3.\\]<p>Ballongen börjar tom och volymen ökar med \\(160\\pi\\) cm³ varje sekund. Tiden är därför</p>\\[t=\\frac{4500\\pi}{160\\pi}=28{,}125\\text{ s}.\\]<p><strong>Svar:</strong> ungefär 28,1 sekunder.</p></div>",
-        "niva": "E",
-        "traningsniva": 2,
-        "arbetsinsats": 1,
-        "t": "<p>Anta att en tom klotformad ballong fylls med den konstanta volymökningen \\(160\\pi\\,\\text{cm}^3/\\text{s}\\). Hur lång tid tar det tills radien är 15 cm?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"Klotformad ballong med radien 15 centimeter\"><rect width=\"360\" height=\"230\" fill=\"white\"/><circle cx=\"170\" cy=\"110\" r=\"85\" fill=\"none\" stroke=\"#164e63\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"110\" r=\"3\" fill=\"#164e63\"/><path d=\"M170 110H255\" stroke=\"#164e63\" stroke-width=\"2\"/><text x=\"206\" y=\"96\" text-anchor=\"middle\" fill=\"#172033\" font-size=\"17\">15 cm</text></svg></span>",
-        "poang": "1/0/0",
-        "ledtrad": "<p>Beräkna först volymen vid radien 15 cm. Hur kopplas volym, tid och konstant volymökning ihop?</p>"
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "<p>Bestäm hur snabbt ballongens volym ökar vid detta ögonblick.</p><p>Svara i cm³/s.</p>", "s": "<div class=\"facit-v2\"><p>Klotets volym är \\(V=4\\pi r^3/3\\). Radien beror på tiden, så</p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]<p>Vid radien 10 cm och ökningen 0,40 cm/s:</p>\\[\\frac{dV}{dt}=4\\pi\\cdot10^2\\cdot0{,}40.\\]<p><strong>Svar:</strong> \\(160\\pi\\) cm³/s, ungefär 503 cm³/s.</p></div>", "niva": "C", "traningsniva": 3, "arbetsinsats": 1}, {"etikett": "b", "fraga": "<p>Anta att en tom klotformad ballong fylls med den konstanta volymökningen \\(160\\pi\\,\\text{cm}^3/\\text{s}\\). Hur lång tid tar det tills radien är 15 cm?</p>", "s": "<div class=\"facit-v2\"><p>Först beräknar vi volymen vid radien 15 cm:</p>\\[V=\\frac{4\\pi\\cdot15^3}{3}=4500\\pi\\text{ cm}^3.\\]<p>Ballongen börjar tom och volymen ökar med \\(160\\pi\\) cm³ varje sekund. Tiden är därför</p>\\[t=\\frac{4500\\pi}{160\\pi}=28{,}125\\text{ s}.\\]<p><strong>Svar:</strong> ungefär 28,1 sekunder.</p></div>", "niva": "E", "traningsniva": 2, "arbetsinsats": 1, "t": "<p>Anta att en tom klotformad ballong fylls med den konstanta volymökningen \\(160\\pi\\,\\text{cm}^3/\\text{s}\\). Hur lång tid tar det tills radien är 15 cm?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"Klotformad ballong med radien 15 centimeter\"><rect width=\"360\" height=\"230\" fill=\"white\"/><circle cx=\"170\" cy=\"110\" r=\"85\" fill=\"none\" stroke=\"#164e63\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"110\" r=\"3\" fill=\"#164e63\"/><path d=\"M170 110H255\" stroke=\"#164e63\" stroke-width=\"2\"/><text x=\"206\" y=\"96\" text-anchor=\"middle\" fill=\"#172033\" font-size=\"17\">15 cm</text></svg></span><p>Svara i s.</p>", "poang": "1/0/0", "ledtrad": "<p>Beräkna först volymen vid radien 15 cm. Hur kopplas volym, tid och konstant volymökning ihop?</p>"}],
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42027,7 +42007,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En cirkelformad mossfläck växer utåt. Radien ökar med 18 cm per år.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"180\" cy=\"116\" r=\"76\" fill=\"#EAF4E8\" stroke=\"#5C7D58\" stroke-width=\"2.2\"/>\n<circle cx=\"180\" cy=\"116\" r=\"3.5\" fill=\"#2B2527\"/>\n<line x1=\"180\" y1=\"116\" x2=\"250\" y2=\"86\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M250 86 l-10 1 5 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"92\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"180\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">cirkelns storlek förändras med tiden</text>\n</svg></span><p>Bestäm hur snabbt mossfläckens area ökar när radien är 75 cm.</p>",
+    "t": "<p>En cirkelformad mossfläck växer utåt. Radien ökar med 18 cm per år.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"230\" viewBox=\"0 0 390 230\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"180\" cy=\"116\" r=\"76\" fill=\"#EAF4E8\" stroke=\"#5C7D58\" stroke-width=\"2.2\"/>\n<circle cx=\"180\" cy=\"116\" r=\"3.5\" fill=\"#2B2527\"/>\n<line x1=\"180\" y1=\"116\" x2=\"250\" y2=\"86\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M250 86 l-10 1 5 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"92\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<text x=\"180\" y=\"214\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#5C575E\">cirkelns storlek förändras med tiden</text>\n</svg></span><p>Bestäm hur snabbt mossfläckens area ökar när radien är 75 cm.</p><p>Svara i cm²/år.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Formel från formelbladet:</strong> Kedjeregeln.</p></li><li><p>Arean beror på radien, och radien beror på tiden, så</p></li><li><p>\\[\\frac{dA}{dt}=\\frac{dA}{dr}\\cdot\\frac{dr}{dt}.\\]</p></li><li><p>För en cirkel är \\(A=\\pi r^2\\), så</p></li><li><p>\\[\\frac{dA}{dr}=2\\pi r.\\]</p></li><li><p>Vi räknar i meter: \\(r=0{,}75\\) m och \\(dr/dt=0{,}18\\) m/år.</p></li><li><p>\\[\\frac{dA}{dt}=2\\pi\\cdot0{,}75\\cdot0{,}18=0{,}27\\pi\\approx0{,}85.\\]</p></li></ol><p class=\"facit-svar\"><strong>Arean ökar med ungefär \\(\\boxed{0{,}85\\text{ m}^2/\\text{år}}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -42123,7 +42103,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En klotformad ballong blåses upp. Radien ökar med 0,60 cm/s.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"240\" viewBox=\"0 0 390 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Klot med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"182\" cy=\"118\" r=\"76\" fill=\"#E6F1F7\" stroke=\"#527C91\" stroke-width=\"2.2\"/>\n<ellipse cx=\"182\" cy=\"118\" rx=\"76\" ry=\"25\" fill=\"none\" stroke=\"#9DB7C4\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/>\n<line x1=\"182\" y1=\"118\" x2=\"242\" y2=\"74\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M242 74 l-10 2 6 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"88\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n</svg></span><p>Hur snabbt ökar ballongens volym när radien är 12 cm?</p>",
+    "t": "<p>En klotformad ballong blåses upp. Radien ökar med 0,60 cm/s.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"240\" viewBox=\"0 0 390 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Klot med radien r markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<circle cx=\"182\" cy=\"118\" r=\"76\" fill=\"#E6F1F7\" stroke=\"#527C91\" stroke-width=\"2.2\"/>\n<ellipse cx=\"182\" cy=\"118\" rx=\"76\" ry=\"25\" fill=\"none\" stroke=\"#9DB7C4\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/>\n<line x1=\"182\" y1=\"118\" x2=\"242\" y2=\"74\" stroke=\"#268FA3\" stroke-width=\"2.2\"/>\n<path d=\"M242 74 l-10 2 6 8 z\" fill=\"#268FA3\"/>\n<text x=\"216\" y=\"88\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n</svg></span><p>Hur snabbt ökar ballongens volym när radien är 12 cm?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymen av ett klot är</p></li><li><p>\\[V=\\frac{4\\pi r^3}{3}.\\]</p></li><li><p>Eftersom \\(V\\) beror på \\(r\\), som i sin tur beror på tiden, använder vi <strong>kedjeregeln från formelbladet</strong>:</p></li><li><p>\\[\\frac{dV}{dt}=\\frac{dV}{dr}\\frac{dr}{dt}.\\]</p></li><li><p>\\[\\frac{dV}{dr}=4\\pi r^2.\\]</p></li><li><p>Vid \\(r=12\\) cm och \\(dr/dt=0{,}60\\) cm/s:</p></li><li><p>\\[\\frac{dV}{dt}=4\\pi\\cdot12^2\\cdot0{,}60=345{,}6\\pi\\approx1086.\\]</p></li></ol><p class=\"facit-svar\"><strong>Volymen ökar med ungefär \\(\\boxed{1{,}09\\cdot10^3\\text{ cm}^3/\\text{s}}\\).</strong></p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -42187,7 +42167,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En kubformad modell förstoras så att sidlängden ökar med 0,30 cm/s.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kub med sidlängden s markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<polygon points=\"125,78 238,78 292,42 180,42\" fill=\"#F0F5F7\" stroke=\"#5C6570\" stroke-width=\"2\"/>\n<polygon points=\"238,78 292,42 292,154 238,190\" fill=\"#E2EDF1\" stroke=\"#5C6570\" stroke-width=\"2\"/>\n<rect x=\"125\" y=\"78\" width=\"113\" height=\"112\" fill=\"#EAF3F6\" stroke=\"#5C6570\" stroke-width=\"2\"/>\n<line x1=\"125\" y1=\"207\" x2=\"238\" y2=\"207\" stroke=\"#268FA3\" stroke-width=\"2\"/>\n<path d=\"M125 207 l9 -5 v10 z\" fill=\"#268FA3\"/><path d=\"M238 207 l-9 -5 v10 z\" fill=\"#268FA3\"/>\n<text x=\"182\" y=\"226\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">s</text>\n</svg></span><p>Bestäm hur snabbt kubens volym ökar när sidlängden är 8,0 cm.</p>",
+    "t": "<p>En kubformad modell förstoras så att sidlängden ökar med 0,30 cm/s.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"245\" viewBox=\"0 0 390 245\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kub med sidlängden s markerad\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<polygon points=\"125,78 238,78 292,42 180,42\" fill=\"#F0F5F7\" stroke=\"#5C6570\" stroke-width=\"2\"/>\n<polygon points=\"238,78 292,42 292,154 238,190\" fill=\"#E2EDF1\" stroke=\"#5C6570\" stroke-width=\"2\"/>\n<rect x=\"125\" y=\"78\" width=\"113\" height=\"112\" fill=\"#EAF3F6\" stroke=\"#5C6570\" stroke-width=\"2\"/>\n<line x1=\"125\" y1=\"207\" x2=\"238\" y2=\"207\" stroke=\"#268FA3\" stroke-width=\"2\"/>\n<path d=\"M125 207 l9 -5 v10 z\" fill=\"#268FA3\"/><path d=\"M238 207 l-9 -5 v10 z\" fill=\"#268FA3\"/>\n<text x=\"182\" y=\"226\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">s</text>\n</svg></span><p>Bestäm hur snabbt kubens volym ökar när sidlängden är 8,0 cm.</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt sidlängden vara \\(s\\).</p></li><li><p>Volymen är \\(V=s^3\\), alltså</p></li><li><p>\\[\\frac{dV}{ds}=3s^2.\\]</p></li><li><p><strong>Kedjeregeln från formelbladet</strong> ger</p></li><li><p>\\[\\frac{dV}{dt}=\\frac{dV}{ds}\\frac{ds}{dt}=3s^2\\frac{ds}{dt}.\\]</p></li><li><p>Vid \\(s=8,0\\) cm och \\(ds/dt=0{,}30\\) cm/s:</p></li><li><p>\\[\\frac{dV}{dt}=3\\cdot8^2\\cdot0{,}30=57{,}6.\\]</p></li></ol><p class=\"facit-svar\"><strong>Volymen ökar med \\(\\boxed{57{,}6\\text{ cm}^3/\\text{s}}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -42284,26 +42264,7 @@ window.BANKMATO2 = [
     "ledtrad": "<p>Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden. Sätt in de givna värdena först efter deriveringen.</p>",
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En kvadratisk ljusbild på en vägg växer men behåller sin form. När sidlängden är 3,0 m ökar bildens area med 1,8 m²/s.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"Kvadratisk ljusbild med sidlängden s lika med 3,0 meter\"><rect width=\"360\" height=\"230\" fill=\"white\"/><rect x=\"105\" y=\"25\" width=\"150\" height=\"150\" fill=\"#dbeafe\" stroke=\"#164e63\" stroke-width=\"2\"/><path d=\"M105 185v15M255 185v15M105 193H255\" fill=\"none\" stroke=\"#164e63\" stroke-width=\"2\"/><text x=\"180\" y=\"222\" text-anchor=\"middle\" fill=\"#172033\" font-size=\"17\">s = 3,0 m</text></svg></span>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>Bestäm \\(dA/ds\\) när \\(s=3,0\\) m.</p>",
-        "s": "<div class=\"facit-v2\"><p>En kvadrat med sidan \\(s\\) har arean \\(A=s^2\\). Derivera med avseende på sidan:</p>\\[\\frac{dA}{ds}=2s.\\]<p>Vid \\(s=3{,}0\\) m blir värdet \\(2\\cdot3{,}0=6{,}0\\) m. Enheten är m²/m = m.</p></div>",
-        "niva": "E",
-        "traningsniva": 2,
-        "arbetsinsats": 1,
-        "poang": "1/0/0",
-        "ledtrad": "<p>Skriv kvadratens area som en funktion av sidlängden och derivera med avseende på sidan.</p>"
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>Bestäm hur snabbt sidlängden ökar. Svara i m/s.</p>",
-        "s": "<div class=\"facit-v2\"><p>Arean är \\(A=s^2\\), och sidan förändras med tiden. Kedjeregeln ger</p>\\[\\frac{dA}{dt}=2s\\frac{ds}{dt}.\\]<p>Sätt in \\(s=3{,}0\\) m och areans ökning 1,8 m²/s:</p>\\[1{,}8=6{,}0\\frac{ds}{dt}.\\]\\[\\frac{ds}{dt}=\\frac{1{,}8}{6{,}0}=0{,}30\\text{ m/s}.\\]<p>Sidlängden ökar alltså med 0,30 m varje sekund.</p></div>",
-        "niva": "C",
-        "traningsniva": 3,
-        "arbetsinsats": 1
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "<p>Bestäm \\(dA/ds\\) när \\(s=3,0\\) m.</p><p>Svara i m.</p>", "s": "<div class=\"facit-v2\"><p>En kvadrat med sidan \\(s\\) har arean \\(A=s^2\\). Derivera med avseende på sidan:</p>\\[\\frac{dA}{ds}=2s.\\]<p>Vid \\(s=3{,}0\\) m blir värdet \\(2\\cdot3{,}0=6{,}0\\) m. Enheten är m²/m = m.</p></div>", "niva": "E", "traningsniva": 2, "arbetsinsats": 1, "poang": "1/0/0", "ledtrad": "<p>Skriv kvadratens area som en funktion av sidlängden och derivera med avseende på sidan.</p>"}, {"etikett": "b", "fraga": "<p>Bestäm hur snabbt sidlängden ökar. Svara i m/s.</p>", "s": "<div class=\"facit-v2\"><p>Arean är \\(A=s^2\\), och sidan förändras med tiden. Kedjeregeln ger</p>\\[\\frac{dA}{dt}=2s\\frac{ds}{dt}.\\]<p>Sätt in \\(s=3{,}0\\) m och areans ökning 1,8 m²/s:</p>\\[1{,}8=6{,}0\\frac{ds}{dt}.\\]\\[\\frac{ds}{dt}=\\frac{1{,}8}{6{,}0}=0{,}30\\text{ m/s}.\\]<p>Sidlängden ökar alltså med 0,30 m varje sekund.</p></div>", "niva": "C", "traningsniva": 3, "arbetsinsats": 1}],
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
@@ -42325,7 +42286,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En cylindrisk bassäng har den konstanta höjden 1,5 m. Bassängens radie ökar med 4,0 cm/min när den vecklas ut.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"255\" viewBox=\"0 0 390 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cylinder med radie r och fast höjd h\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<ellipse cx=\"185\" cy=\"60\" rx=\"78\" ry=\"24\" fill=\"#E8F3F6\" stroke=\"#527C91\" stroke-width=\"2\"/>\n<path d=\"M107 60 L107 188 M263 60 L263 188\" stroke=\"#527C91\" stroke-width=\"2\"/>\n<ellipse cx=\"185\" cy=\"188\" rx=\"78\" ry=\"24\" fill=\"#E8F3F6\" stroke=\"#527C91\" stroke-width=\"2\"/>\n<line x1=\"185\" y1=\"60\" x2=\"250\" y2=\"60\" stroke=\"#268FA3\" stroke-width=\"2\"/>\n<path d=\"M250 60 l-9 -5 v10 z\" fill=\"#268FA3\"/>\n<text x=\"218\" y=\"50\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<line x1=\"287\" y1=\"60\" x2=\"287\" y2=\"188\" stroke=\"#5C575E\" stroke-width=\"1.6\"/>\n<path d=\"M287 60 l-5 9 h10 z M287 188 l-5 -9 h10 z\" fill=\"#5C575E\"/>\n<text x=\"300\" y=\"129\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#5C575E\">h</text>\n</svg></span><p>Bestäm hur snabbt bassängens volym ökar när radien är 2,0 m.</p>",
+    "t": "<p>En cylindrisk bassäng har den konstanta höjden 1,5 m. Bassängens radie ökar med 4,0 cm/min när den vecklas ut.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"390\" height=\"255\" viewBox=\"0 0 390 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cylinder med radie r och fast höjd h\">\n<rect x=\"1\" y=\"1\" width=\"388\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n<ellipse cx=\"185\" cy=\"60\" rx=\"78\" ry=\"24\" fill=\"#E8F3F6\" stroke=\"#527C91\" stroke-width=\"2\"/>\n<path d=\"M107 60 L107 188 M263 60 L263 188\" stroke=\"#527C91\" stroke-width=\"2\"/>\n<ellipse cx=\"185\" cy=\"188\" rx=\"78\" ry=\"24\" fill=\"#E8F3F6\" stroke=\"#527C91\" stroke-width=\"2\"/>\n<line x1=\"185\" y1=\"60\" x2=\"250\" y2=\"60\" stroke=\"#268FA3\" stroke-width=\"2\"/>\n<path d=\"M250 60 l-9 -5 v10 z\" fill=\"#268FA3\"/>\n<text x=\"218\" y=\"50\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#268FA3\">r</text>\n<line x1=\"287\" y1=\"60\" x2=\"287\" y2=\"188\" stroke=\"#5C575E\" stroke-width=\"1.6\"/>\n<path d=\"M287 60 l-5 9 h10 z M287 188 l-5 -9 h10 z\" fill=\"#5C575E\"/>\n<text x=\"300\" y=\"129\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#5C575E\">h</text>\n</svg></span><p>Bestäm hur snabbt bassängens volym ökar när radien är 2,0 m.</p><p>Svara i m³/min.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom höjden är konstant kan volymen skrivas som en funktion av radien:</p></li><li><p>\\[V=\\pi r^2h=1{,}5\\pi r^2.\\]</p></li><li><p>Då</p></li><li><p>\\[\\frac{dV}{dr}=3\\pi r.\\]</p></li><li><p>Omvandla först \\(4{,}0\\) cm/min till \\(0{,}040\\) m/min.</p></li><li><p><strong>Kedjeregeln från formelbladet</strong> ger</p></li><li><p>\\[\\frac{dV}{dt}=\\frac{dV}{dr}\\frac{dr}{dt}=3\\pi\\cdot2{,}0\\cdot0{,}040=0{,}24\\pi.\\]</p></li></ol><p class=\"facit-svar\"><strong>Volymen ökar med ungefär \\(\\boxed{0{,}75\\text{ m}^3/\\text{min}}\\).</strong></p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -42695,7 +42656,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>En cylinder har konstant höjd 10 cm men dess radie ökar. När radien är 4 cm ökar volymen med \\(80\\pi\\text{ cm}^3/\\text{s}\\). Bestäm hur snabbt radien ökar då.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cylinder med radie r och höjd h\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><ellipse cx=\"175\" cy=\"65\" rx=\"70\" ry=\"22\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"105\" y1=\"65\" x2=\"105\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"245\" y1=\"65\" x2=\"245\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\"/><ellipse cx=\"175\" cy=\"190\" rx=\"70\" ry=\"22\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"175\" y1=\"65\" x2=\"245\" y2=\"65\" stroke=\"#268FA3\" stroke-width=\"2\"/><line x1=\"205\" y1=\"35\" x2=\"205\" y2=\"61\" stroke=\"#268FA3\" stroke-width=\"1\"/><text x=\"202\" y=\"30\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">r</text><line x1=\"270\" y1=\"65\" x2=\"270\" y2=\"190\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"278\" y=\"132\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">h</text></svg></span>",
+    "t": "<p>En cylinder har konstant höjd 10 cm men dess radie ökar. När radien är 4 cm ökar volymen med \\(80\\pi\\text{ cm}^3/\\text{s}\\). Bestäm hur snabbt radien ökar då.</p><span class=\"fig\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cylinder med radie r och höjd h\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><ellipse cx=\"175\" cy=\"65\" rx=\"70\" ry=\"22\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"105\" y1=\"65\" x2=\"105\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"245\" y1=\"65\" x2=\"245\" y2=\"190\" stroke=\"#2B2527\" stroke-width=\"2\"/><ellipse cx=\"175\" cy=\"190\" rx=\"70\" ry=\"22\" fill=\"#F7FAFB\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"175\" y1=\"65\" x2=\"245\" y2=\"65\" stroke=\"#268FA3\" stroke-width=\"2\"/><line x1=\"205\" y1=\"35\" x2=\"205\" y2=\"61\" stroke=\"#268FA3\" stroke-width=\"1\"/><text x=\"202\" y=\"30\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">r</text><line x1=\"270\" y1=\"65\" x2=\"270\" y2=\"190\" stroke=\"#268FA3\" stroke-width=\"2\"/><text x=\"278\" y=\"132\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#268FA3\">h</text></svg></span><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2\"><p>Höjden är konstant, så volymen är \\(V=10\\pi r^2\\). Kedjeregeln ger</p>\\[\\frac{dV}{dt}=20\\pi r\\frac{dr}{dt}.\\]<p>Vid radien 4 cm är volymökningen \\(80\\pi\\) cm³/s:</p>\\[80\\pi=80\\pi\\frac{dr}{dt}.\\]<p>Dividera båda leden med \\(80\\pi\\).</p><p><strong>Svar:</strong> radien ökar med 1 cm/s.</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -42727,7 +42688,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En kvadrat har sidan \\(s\\), som växer med 1,5 cm/s. Hur snabbt växer arean när sidan är 8 cm?</p>",
+    "t": "<p>En kvadrat har sidan \\(s\\), som växer med 1,5 cm/s. Hur snabbt växer arean när sidan är 8 cm?</p><p>Svara i cm²/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden.</p></li><li><p>Sätt in de givna värdena först efter deriveringen.</p></li><li><p>\\(A=s^2\\), så \\(dA/ds=2s\\).</p></li><li><p>Kedjeregeln:</p></li><li><p>\\[dA/dt=2s\\,ds/dt=2\\cdot8\\cdot1{,}5=\\boxed{24\\text{ cm}^2/s}.\\]</p></li></ol></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -42789,7 +42750,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En cirkels area ökar med \\(10\\pi\\text{ cm}^2/s\\) när radien är 5 cm. Hur snabbt ökar radien då?</p>",
+    "t": "<p>En cirkels area ökar med \\(10\\pi\\text{ cm}^2/s\\) när radien är 5 cm. Hur snabbt ökar radien då?</p><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv sambandet mellan storheterna innan du deriverar med avseende på tiden.</p></li><li><p>Sätt in de givna värdena först efter deriveringen.</p></li><li><p>\\(A=\\pi r^2\\), så \\(dA/dt=2\\pi r\\,dr/dt\\).</p></li><li><p>\\[10\\pi=2\\pi\\cdot5\\,dr/dt\\Rightarrow\\boxed{dr/dt=1\\text{ cm/s}}.\\]</p></li></ol></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -42808,7 +42769,9 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "tillampningar_derivata"
     ]
-  },
+  ,
+  "svarEnhet": "cm/s"
+},
   {
     "id": "2.223",
     "kap": 3,
@@ -42820,7 +42783,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En cylinder har höjden \\(h=2r\\). Radien ökar med 0,5 cm/s. Bestäm hur snabbt cylinderns volym ökar när \\(r=3\\) cm.</p>",
+    "t": "<p>En cylinder har höjden \\(h=2r\\). Radien ökar med 0,5 cm/s. Bestäm hur snabbt cylinderns volym ökar när \\(r=3\\) cm.</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(h=2r\\) kan volymen först skrivas enbart med r:</p></li><li><p>\\[V=\\pi r^2h=2\\pi r^3.\\]</p></li><li><p>Då \\(dV/dr=6\\pi r^2\\), och</p></li><li><p>\\[dV/dt=6\\pi r^2dr/dt=6\\pi\\cdot9\\cdot0{,}5=\\boxed{27\\pi\\text{ cm}^3/s}.\\]</p></li></ol></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -43100,7 +43063,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Radien hos en sfärisk ballong ökar med 0,8 cm/s.</p><p>Hur snabbt ökar ballongens volym när radien är 10 cm?</p>",
+    "t": "<p>Radien hos en sfärisk ballong ökar med 0,8 cm/s.</p><p>Hur snabbt ökar ballongens volym när radien är 10 cm?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Formelbladet:</strong></p><div class=\"facit-matte\">\\[V=4\\pi r^3/3\\].</div></div></li><li><p>Med kedjeregeln</p></li><li><p>\\[\\frac{dV}{dt}=\\frac{dV}{dr}\\frac{dr}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p></li><li><p>Vid \\(r=10\\) och \\(dr/dt=0,8\\):</p></li><li><p>\\[\\frac{dV}{dt}=4\\pi\\cdot100\\cdot0{,}8=\\boxed{320\\pi\\text{ cm}^3/\\text{s}}.\\]</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -43196,7 +43159,7 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En kvadrat växer så att diagonalen \\(D\\) ökar med 4,0 cm/s.</p><span class=\"fig smal\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"290\" viewBox=\"0 0 360 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kvadrat med diagonal D\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"85\" y=\"45\" width=\"190\" height=\"190\" fill=\"#DCEFF2\" fill-opacity=\".55\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"85\" y1=\"235\" x2=\"275\" y2=\"45\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"184\" y=\"126\" font-family=\"sans-serif\" font-size=\"13\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">D</text><text x=\"184\" y=\"126\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#B43123\">D</text><text x=\"178\" y=\"255\" font-family=\"sans-serif\" font-size=\"12\">s</text></svg></span><p>Bestäm hur snabbt kvadratens area ökar när diagonalen är 10 cm.</p>",
+    "t": "<p>En kvadrat växer så att diagonalen \\(D\\) ökar med 4,0 cm/s.</p><span class=\"fig smal\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"290\" viewBox=\"0 0 360 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kvadrat med diagonal D\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"85\" y=\"45\" width=\"190\" height=\"190\" fill=\"#DCEFF2\" fill-opacity=\".55\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"85\" y1=\"235\" x2=\"275\" y2=\"45\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"184\" y=\"126\" font-family=\"sans-serif\" font-size=\"13\" stroke=\"#fff\" stroke-width=\"3.6\" stroke-linejoin=\"round\" fill=\"#fff\">D</text><text x=\"184\" y=\"126\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#B43123\">D</text><text x=\"178\" y=\"255\" font-family=\"sans-serif\" font-size=\"12\">s</text></svg></span><p>Bestäm hur snabbt kvadratens area ökar när diagonalen är 10 cm.</p><p>Svara i cm²/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om sidan är \\(s\\) ger Pythagoras sats \\(D^2=2s^2\\).</p></li><li><p>Eftersom \\(A=s^2\\) fås sambandet</p></li><li><p>\\[A=\\frac{D^2}{2}.\\]</p></li><li><p>Med kedjeregeln:</p></li><li><p>\\[\\frac{dA}{dt}=\\frac{dA}{dD}\\frac{dD}{dt}=D\\frac{dD}{dt}.\\]</p></li><li><p>Vid \\(D=10\\) och \\(dD/dt=4\\): <strong>\\(dA/dt=40\\text{ cm}^2/\\text{s}\\)</strong>.</p></li></ol></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -43290,7 +43253,7 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>En cylinder har konstant höjd 12 cm medan radien ökar med 0,20 cm/s.</p><span class=\"fig smal\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cylinder med radie r och höjd 12 cm\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><ellipse cx=\"180\" cy=\"70\" rx=\"95\" ry=\"28\" fill=\"#DCEFF2\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M85 70 V230 M275 70 V230\" stroke=\"#2B2527\" stroke-width=\"2\"/><ellipse cx=\"180\" cy=\"230\" rx=\"95\" ry=\"28\" fill=\"#DCEFF2\" fill-opacity=\".65\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"180\" y1=\"230\" x2=\"275\" y2=\"230\" stroke=\"#B43123\" stroke-width=\"1.8\"/><text x=\"228\" y=\"222\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">r</text><line x1=\"300\" y1=\"70\" x2=\"300\" y2=\"230\" stroke=\"#268FA3\" stroke-width=\"1.6\"/><text x=\"308\" y=\"154\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">12 cm</text></svg></span><p>Hur snabbt ökar cylinderns volym när radien är 5,0 cm?</p>",
+    "t": "<p>En cylinder har konstant höjd 12 cm medan radien ökar med 0,20 cm/s.</p><span class=\"fig smal\"><svg preserveAspectRatio=\"xMidYMid meet\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cylinder med radie r och höjd 12 cm\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><ellipse cx=\"180\" cy=\"70\" rx=\"95\" ry=\"28\" fill=\"#DCEFF2\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M85 70 V230 M275 70 V230\" stroke=\"#2B2527\" stroke-width=\"2\"/><ellipse cx=\"180\" cy=\"230\" rx=\"95\" ry=\"28\" fill=\"#DCEFF2\" fill-opacity=\".65\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"180\" y1=\"230\" x2=\"275\" y2=\"230\" stroke=\"#B43123\" stroke-width=\"1.8\"/><text x=\"228\" y=\"222\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#B43123\">r</text><line x1=\"300\" y1=\"70\" x2=\"300\" y2=\"230\" stroke=\"#268FA3\" stroke-width=\"1.6\"/><text x=\"308\" y=\"154\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#268FA3\">12 cm</text></svg></span><p>Hur snabbt ökar cylinderns volym när radien är 5,0 cm?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Formelbladet:</strong></p><div class=\"facit-matte\">\\[V=\\pi r^2h\\].</div></div></li><li><p>Här är \\(h=12\\), så</p></li><li><p>\\[V(r)=12\\pi r^2,\\qquad \\frac{dV}{dr}=24\\pi r.\\]</p></li><li><p>Kedjeregeln ger</p></li><li><p>\\[\\frac{dV}{dt}=24\\pi r\\frac{dr}{dt}.\\]</p></li><li><p>Vid \\(r=5\\) och \\(dr/dt=0{,}20\\): <strong>\\(dV/dt=24\\pi\\text{ cm}^3/\\text{s}\\)</strong>.</p></li></ol></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -43320,7 +43283,7 @@ window.BANKMATO2 = [
     "poang": "0/3/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Arean av en cirkel ökar med 12 cm²/s. Bestäm hur snabbt omkretsen ökar när radien är 3,0 cm.</p>",
+    "t": "<p>Arean av en cirkel ökar med 12 cm²/s. Bestäm hur snabbt omkretsen ökar när radien är 3,0 cm.</p><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Arean är \\(A=\\pi r^2\\) och omkretsen \\(O=2\\pi r\\).</p></li><li><p>Först bestäms \\(dr/dt\\):</p></li><li><p>\\[12=2\\pi r\\frac{dr}{dt}=6\\pi\\frac{dr}{dt}\\Rightarrow \\frac{dr}{dt}=\\frac{2}{\\pi}.\\]</p></li><li><p>Sedan</p></li><li><p>\\[\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}=2\\pi\\cdot\\frac{2}{\\pi}=\\boxed{4\\text{ cm/s}}.\\]</p></li></ol></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -43339,7 +43302,9 @@ window.BANKMATO2 = [
     "omrTidigare": [
       "tillampningar_derivata"
     ]
-  },
+  ,
+  "svarEnhet": "cm/s"
+},
   {
     "id": "2.260",
     "kap": 3,
@@ -43664,7 +43629,7 @@ window.BANKMATO2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En sten faller så att sträckan är \\(s(t)=5t^2\\) meter efter \\(t\\) sekunder. Bestäm stenens hastighet efter 3 sekunder.</p>",
+    "t": "<p>En sten faller så att sträckan är \\(s(t)=5t^2\\) meter efter \\(t\\) sekunder. Bestäm stenens hastighet efter 3 sekunder.</p><p>Svara i m/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hastigheten är derivatan: \\(s'(t)=10t\\), så \\(s'(3)=30\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 m/s</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "geogebra": false,
@@ -43761,7 +43726,7 @@ window.BANKMATO2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vattennivån i en sjö modelleras med \\(h(t)=2+0{,}3t-0{,}01t^2\\) meter, där \\(t\\) är tiden i timmar. Hur snabbt stiger nivån när \\(t=5\\)?</p>",
+    "t": "<p>Vattennivån i en sjö modelleras med \\(h(t)=2+0{,}3t-0{,}01t^2\\) meter, där \\(t\\) är tiden i timmar. Hur snabbt stiger nivån när \\(t=5\\)?</p><p>Svara i m/h.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(h'(t)=0{,}3-0{,}02t\\), så \\(h'(5)=0{,}3-0{,}1=0{,}2\\) m/h.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,2 m/h</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "geogebra": false,
@@ -43794,7 +43759,7 @@ window.BANKMATO2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Kostnaden för att tillverka \\(x\\) produkter är \\(K(x)=500+20x+0{,}1x^2\\) kronor. Bestäm \\(K'(50)\\), alltså ungefär vad en produkt till kostar när man tillverkar 50.</p>",
+    "t": "<p>Kostnaden för att tillverka \\(x\\) produkter är \\(K(x)=500+20x+0{,}1x^2\\) kronor. Bestäm \\(K'(50)\\), alltså ungefär vad en produkt till kostar när man tillverkar 50.</p><p>Svara i kr/st.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(K'(x)=20+0{,}2x\\), så \\(K'(50)=20+10=30\\) kr per produkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 kr/st</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "geogebra": false,
@@ -95843,7 +95808,7 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vattenvolymen i en tank är \\(V(t)=3t^2+2t\\) liter efter \\(t\\) minuter. Hur snabbt ökar volymen när \\(t=2\\)?</p>",
+    "t": "<p>Vattenvolymen i en tank är \\(V(t)=3t^2+2t\\) liter efter \\(t\\) minuter. Hur snabbt ökar volymen när \\(t=2\\)?</p><p>Svara i l/min.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Volymens ändringshastighet är derivatan:</p><div class=\"facit-matte\">\\[V'(t)=6t+2\\].</div></div></li><li><p>\\[V'(2)=6\\cdot2+2=14\\]</p></li><li><p>Volymen ökar med \\(14\\) liter per minut vid den tidpunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(14\\) liter per minut</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -95876,7 +95841,7 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Temperaturen i ett rum är \\(T(t)=20+4t-0{,}5t^2\\) °C, där \\(t\\) är tiden i timmar. Bestäm \\(T'(2)\\) och tolka svaret.</p>",
+    "t": "<p>Temperaturen i ett rum är \\(T(t)=20+4t-0{,}5t^2\\) °C, där \\(t\\) är tiden i timmar. Bestäm \\(T'(2)\\) och tolka svaret.</p><p>Svara i °C/h.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(T'(t)=4-t\\), så \\(T'(2)=4-2=2\\).</p></li><li><p><strong>Tolkning:</strong> Efter två timmar stiger temperaturen med \\(2\\) °C per timme.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(T'(2)=2\\) °C per timme</p></div>",
     "familj": "Samband mellan förändringshastigheter",
     "formaga": [
@@ -95939,30 +95904,7 @@ window.BANKMATO2 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>Tor flyger drake med en 65 m lång lina som hålls sträckt och lika lång hela tiden. Draken är på höjden \\(h\\) m och linan bildar vinkeln \\(\\theta\\) rad mot marken, så att \\(h=65\\sin\\theta\\). Just nu är \\(h=40\\) m.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Vinkeln ökar med 0,20 rad/s. Hur snabbt stiger draken? Svara med två värdesiffror.",
-        "t": "<p>Tor flyger drake med en 65 m lång lina som hålls sträckt och lika lång hela tiden. Draken är på höjden \\(h\\) m och linan bildar vinkeln \\(\\theta\\) rad mot marken, så att \\(h=65\\sin\\theta\\). Just nu är \\(h=40\\) m.</p><p>Vinkeln ökar med 0,20 rad/s. Hur snabbt stiger draken? Svara med två värdesiffror.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{\\mathrm dh}{\\mathrm dt}=65\\cos\\theta\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\].</div></li><li><div class=\"facit-matte\">\\[65\\cos\\theta=\\sqrt{65^2-40^2}\\approx51{,}2\\].</div></li><li><p>\\(\\dfrac{\\mathrm dh}{\\mathrm dt}\\approx51{,}2\\cdot0{,}20\\approx10\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 10 m/s</p></div>",
-        "ledtrad": "<p>Derivera \\(h=65\\sin\\theta\\) med avseende på tiden. \\(65\\cos\\theta\\) är den vågräta sträckan.</p>",
-        "niva": "C",
-        "poang": "0/2/0",
-        "traningsniva": 3,
-        "arbetsinsats": 2
-      },
-      {
-        "etikett": "b",
-        "fraga": "Draken sjunker med 2,0 m/s. Bestäm \\(\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\). Svara med två värdesiffror.",
-        "t": "<p>Tor flyger drake med en 65 m lång lina som hålls sträckt och lika lång hela tiden. Draken är på höjden \\(h\\) m och linan bildar vinkeln \\(\\theta\\) rad mot marken, så att \\(h=65\\sin\\theta\\). Just nu är \\(h=40\\) m.</p><p>Draken sjunker med 2,0 m/s. Bestäm \\(\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\). Svara med två värdesiffror.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(-2{,}0=65\\cos\\theta\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\iff\\dfrac{\\mathrm d\\theta}{\\mathrm dt}=\\dfrac{-2{,}0}{51{,}2}\\approx-0{,}039\\) rad/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx-0{,}039\\) rad/s</p></div>",
-        "ledtrad": "<p>Använd samma samband som för höjden, men lös ut vinkelhastigheten.</p>",
-        "niva": "C",
-        "poang": "0/2/0",
-        "traningsniva": 3,
-        "arbetsinsats": 2
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "Vinkeln ökar med 0,20 rad/s. Hur snabbt stiger draken? Svara med två värdesiffror.", "t": "<p>Tor flyger drake med en 65 m lång lina som hålls sträckt och lika lång hela tiden. Draken är på höjden \\(h\\) m och linan bildar vinkeln \\(\\theta\\) rad mot marken, så att \\(h=65\\sin\\theta\\). Just nu är \\(h=40\\) m.</p><p>Vinkeln ökar med 0,20 rad/s. Hur snabbt stiger draken? Svara med två värdesiffror.</p><p>Svara i m/s.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{\\mathrm dh}{\\mathrm dt}=65\\cos\\theta\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\].</div></li><li><div class=\"facit-matte\">\\[65\\cos\\theta=\\sqrt{65^2-40^2}\\approx51{,}2\\].</div></li><li><p>\\(\\dfrac{\\mathrm dh}{\\mathrm dt}\\approx51{,}2\\cdot0{,}20\\approx10\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 10 m/s</p></div>", "ledtrad": "<p>Derivera \\(h=65\\sin\\theta\\) med avseende på tiden. \\(65\\cos\\theta\\) är den vågräta sträckan.</p>", "niva": "C", "poang": "0/2/0", "traningsniva": 3, "arbetsinsats": 2}, {"etikett": "b", "fraga": "Draken sjunker med 2,0 m/s. Bestäm \\(\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\). Svara med två värdesiffror.", "t": "<p>Tor flyger drake med en 65 m lång lina som hålls sträckt och lika lång hela tiden. Draken är på höjden \\(h\\) m och linan bildar vinkeln \\(\\theta\\) rad mot marken, så att \\(h=65\\sin\\theta\\). Just nu är \\(h=40\\) m.</p><p>Draken sjunker med 2,0 m/s. Bestäm \\(\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\). Svara med två värdesiffror.</p><p>Svara i rad/s.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(-2{,}0=65\\cos\\theta\\dfrac{\\mathrm d\\theta}{\\mathrm dt}\\iff\\dfrac{\\mathrm d\\theta}{\\mathrm dt}=\\dfrac{-2{,}0}{51{,}2}\\approx-0{,}039\\) rad/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\approx-0{,}039\\) rad/s</p></div>", "ledtrad": "<p>Använd samma samband som för höjden, men lös ut vinkelhastigheten.</p>", "niva": "C", "poang": "0/2/0", "traningsniva": 3, "arbetsinsats": 2}],
     "ledtrad": "<p>Vinklar i radianer, och derivatan av \\(\\sin\\theta\\) är \\(\\cos\\theta\\).</p>",
     "traningsniva": 3,
     "kurs": [
@@ -96097,7 +96039,7 @@ window.BANKMATO2 = [
     "niva": "C",
     "typ": "ballong med areaökning",
     "poang": "0/2/0",
-    "t": "<p>Arean av en sfärisk ballong ökar med 15 cm²/s när radien är 7,0 cm. Hur snabbt ökar volymen då? Svara med två värdesiffror.</p>",
+    "t": "<p>Arean av en sfärisk ballong ökar med 15 cm²/s när radien är 7,0 cm. Hur snabbt ökar volymen då? Svara med två värdesiffror.</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=4\\pi r^2\\Rightarrow\\dfrac{\\mathrm dA}{\\mathrm dt}=8\\pi r\\dfrac{\\mathrm dr}{\\mathrm dt}\\].</div></li><li><div class=\"facit-matte\">\\[V=\\tfrac43\\pi r^3\\Rightarrow\\dfrac{\\mathrm dV}{\\mathrm dt}=4\\pi r^2\\dfrac{\\mathrm dr}{\\mathrm dt}=\\dfrac r2\\dfrac{\\mathrm dA}{\\mathrm dt}\\].</div></li><li><p>\\(\\dfrac{\\mathrm dV}{\\mathrm dt}=3{,}5\\cdot15\\approx53\\) cm³/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 53 cm³/s</p></div>",
     "id": "3.530",
     "miniräknare": true,

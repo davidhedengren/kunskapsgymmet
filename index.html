@@ -4015,7 +4015,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-20-fellogg-1305";
+const BANK_VERSION="2026-10-21-fellogg-0910";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9005,7 +9005,9 @@ function farskaUppgifter(pool,h){
   const historik=state.passHistory?.length ? state.passHistory.map(x=>x.task.id) : state.lastIds;
   const antal=new Map();for(const id of historik)antal.set(id,(antal.get(id)||0)+1);
   const iPasset=new Set(historik);
-  const karens=Math.max(2,Math.min(SEDDA_KARENS_MAX,Math.floor(pool.length*.6)));
+  // Ett helt varv i urvalet innan ett nyligen visat kort blir färskt igen.
+  // 60 % gav återträffar redan i nästa åttapass trots osedda alternativ.
+  const karens=Math.max(2,Math.min(SEDDA_KARENS_MAX,pool.length-1));
   const farska=pool.filter(t=>!iPasset.has(t.id) && uppgiftsAlder(h,t.id)>karens);
   if(farska.length) return farska;
 
@@ -10738,7 +10740,85 @@ function antalSattRatt(anv,facit){
   });
 }
 
+/* Jämför affina lösningsfamiljer, inte namnen/ordningen på fria konstanter.
+   Koefficienter bestäms vid en punkt men likheten verifieras symboliskt för
+   alla x. Enskilda lösningar och beroende konstanter räcker inte. */
+function diffekvFamiljRatt(anv,facit){
+  if(typeof nerdamer!=="function")return false;
+  try{
+    const zero=e=>nerdamer(e).expand().toString()==="0";
+    const parse=s=>{
+      s=latexToPlain(String(s)).replace(/^\s*y\s*=\s*/i,"");
+      if(s.length>500||s.includes("="))throw Error("Uttryck krävs");
+      // C1, C_1, C₁ och C_{1} får egna symboler före multiplikationsparsern.
+      const names=[];
+      s=s.replace(/([A-DKLMN]|[abcdklmn])(?:_?([12])|([₁₂]))?/g,(m,c,n,sub,at,all)=>{
+        if(/[a-z]/i.test(all[at-1]||""))return m;
+        if(/[a-z]/i.test(all[at+m.length]||"") && !/^(?:e|x|sin|cos|exp)/.test(all.slice(at+m.length)))return m;
+        const key=c.toLowerCase()+(n||({"₁":"1","₂":"2"}[sub])||"");
+        if(!names.includes(key))names.push(key);
+        if(names.length>2)throw Error("För många konstanter");
+        return ["u","v"][names.indexOf(key)];
+      });
+      s=s.replace(/e\^(-?\d*(?:[.,]\d+)?x)(?![a-z])/gi,"e^($1)");
+      const e=nerdamer(tillNerdamer(normalizeMathInput(s))).expand();
+      const constants=["u","v"].filter(v=>e.variables().includes(v));
+      if(!constants.length||e.variables().some(v=>!["x",...constants].includes(v)))throw Error("Okänd variabel");
+      const base=constants.reduce((z,v)=>z.sub(v,0),e);
+      const basis=constants.map(v=>nerdamer.diff(e,v).expand());
+      if(basis.some(b=>b.variables().some(v=>v!=="x")))throw Error("Konstanterna måste vara linjära");
+      if(!zero(`(${e})-(${base})-${basis.map((b,i)=>`(${constants[i]})*(${b})`).join('-')}`))throw Error("Inte affin");
+      return {base,basis};
+    };
+    const a=parse(anv),f=parse(facit),n=f.basis.length;
+    if(a.basis.length!==n)return false;
+    const belongs=(expr,basis)=>{
+      for(const x of [0,1,-1]){
+        const val=e=>nerdamer(e).sub('x',x);
+        const b=basis.map(e=>val(e));
+        if(n===1){if(zero(b[0]))continue;const k=nerdamer(`(${val(expr)})/(${b[0]})`);return zero(`(${expr})-(${k})*(${basis[0]})`);}
+        const d=basis.map(e=>val(nerdamer.diff(e,'x'))),det=nerdamer(`(${b[0]})*(${d[1]})-(${b[1]})*(${d[0]})`).expand();
+        if(zero(det))continue;
+        const y=val(expr),dy=val(nerdamer.diff(expr,'x'));
+        const k=nerdamer(`((${y})*(${d[1]})-(${dy})*(${b[1]}))/(${det})`);
+        const l=nerdamer(`((${dy})*(${b[0]})-(${y})*(${d[0]}))/(${det})`);
+        return zero(`(${expr})-(${k})*(${basis[0]})-(${l})*(${basis[1]})`);
+      }
+      return false;
+    };
+    // Båda riktningarna krävs: samma antal symboler kan ändå ge lägre rang.
+    return a.basis.every(b=>belongs(b,f.basis)) && f.basis.every(b=>belongs(b,a.basis))
+      && belongs(nerdamer(`(${a.base})-(${f.base})`).expand(),f.basis);
+  }catch(_){return false;}
+}
+/* Linjära differentialekvationer skrivna med alla termer i valfritt led.
+   Endast en konstant, icke-noll multipel tillåts, aldrig t.ex. y gånger
+   ekvationen (det skulle kunna lägga till lösningar). */
+function diffekvationRatt(anv,facit){
+  if(typeof nerdamer!=="function")return false;
+  try{
+    const parse=s=>{
+      s=latexToPlain(String(s)).replace(/[′’]/g,"'").replace(/″/g,"''");
+      if(/[uv]/i.test(s))return null; // Interna derivatasymboler är inte elevvariabler.
+      s=s.replace(/y\s*''/gi,'v').replace(/y\s*'/gi,'u');
+      if(s.length>500)return null;
+      const sides=s.split('=');if(sides.length!==2||sides.some(x=>!x.trim()))return null;
+      const e=nerdamer(`(${tillNerdamer(normalizeMathInput(sides[0]))})-(${tillNerdamer(normalizeMathInput(sides[1]))})`).expand();
+      if(e.variables().some(v=>!['x','y','u','v'].includes(v)))return null;
+      return e;
+    };
+    const a=parse(anv),f=parse(facit);if(!a||!f)return false;
+    const variable=f.variables().includes('v')?'v':'u';
+    const af=nerdamer.diff(a,variable),ff=nerdamer.diff(f,variable);
+    const k=nerdamer(`(${af})/(${ff})`).expand();
+    if(k.variables().length||!Number.isFinite(Number(k.evaluate().text('decimals')))||k.toString()==='0')return false;
+    return nerdamer(`(${a})-(${k})*(${f})`).expand().toString()==='0';
+  }catch(_){return false;}
+}
+
 function delSvarRatt(anv,facit,enhet,tol,t,idx,format){
+  if(format==="diffekv_losning")return diffekvFamiljRatt(anv,facit);
+  if(format==="diffekvation")return diffekvationRatt(anv,facit);
   if(format==="antal_satt")return antalSattRatt(anv,facit);
   if(format==="primtalsfaktorisering")return primtalsfaktoriseringRatt(anv,facit);
   if(format==="brak_i_intervall")return exempelBrakRatt(anv,t?.svarVillkor);
@@ -11274,7 +11354,7 @@ function sifferlage(facit,enhet,format,t){
 
 const SYMBOLER={
   matematik:[["−","−"],["(","("],[")",")"],["/","/"],["^","^"],
-             ["√","√"],["π","π"],["i","i"],["e","e"],["x","x"],["≈","≈"],["∅","∅"]],
+             ["√","√"],["π","π"],["i","i"],["e","e"],["x","x"],["≈","≈"],["{","{"],["}","}"],["∅","∅"]],
   fysik:    [["−","−"],[",",","],["·10^","·10^"],["^","^"],["√","√"],
              ["π","π"],["/","/"],["(","("],[")",")"]]
 };
@@ -11283,7 +11363,8 @@ const SYMBOLNAMN={
   "−":"Minustecken","(":"Vänsterparentes",")":"Högerparentes",
   "/":"Bråkstreck","^":"Upphöjt till","√":"Roten ur","π":"Pi",
   "i":"Imaginära enheten i","e":"Eulers tal e","x":"Variabeln x","≈":"Ungefär lika med",",":"Decimalkomma",
-  "·10^":"Grundpotensform, tio upphöjt till","∅":"Tomma mängden"
+  "·10^":"Grundpotensform, tio upphöjt till","∅":"Tomma mängden",
+  "{":"Vänster mängdklammer","}":"Höger mängdklammer"
 };
 
 function symbolrad(t){

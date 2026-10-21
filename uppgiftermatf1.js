@@ -241,8 +241,8 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "tolka antal i Venn-diagram",
     "poang": "3/0/0",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder A, B och C och antal i varje område\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text><text x=\"302\" y=\"56\" font-size=\"17\">B</text><text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"122\" y=\"116\" font-size=\"15\">10</text><text x=\"291\" y=\"116\" font-size=\"15\">1</text><text x=\"210\" y=\"222\" font-size=\"15\">9</text>\n<text x=\"210\" y=\"91\" font-size=\"15\">10</text><text x=\"168\" y=\"171\" font-size=\"15\">6</text><text x=\"258\" y=\"171\" font-size=\"15\">2</text>\n<text x=\"211\" y=\"143\" font-size=\"15\" font-weight=\"700\">2</text>\n</svg></span><p>I diagrammet är \\(A\\), \\(B\\) och \\(C\\) tre elevgrupper.</p><ol type=\"a\"><li>Bestäm \\(|A\\cap B|\\).</li><li>Bestäm \\(|A\\cup C|\\).</li><li>Beskriv med ord mängden \\(A\\setminus B\\).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_05_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_05_s_1_Aclip)\"><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I \\(A\\cap B\\) ingår både området som ligger i bara \\(A\\) och \\(B\\) och mittenområdet som ligger i alla tre mängder.</p></li><li><div class=\"facit-berakning\"><p>Därför blir</p><div class=\"facit-matte\">\\[|A\\cap B|=10+2=12\\].</div></div></li></ol></div></div><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A union C är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_05_s_2_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_2_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_2_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Unionen \\(A\\cup C\\) består av alla områden som ligger i \\(A\\) eller i \\(C\\).</p></li><li><div class=\"facit-berakning\"><p>Då blir</p><div class=\"facit-matte\">\\[|A\\cup C|=10+10+6+2+2+9=39\\].</div></div></li></ol></div></div><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A utan B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"white\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det markerade området är den del av \\(A\\) som ligger utanför \\(B\\).</p></li><li><p>Med ord: <strong>de elever som tillhör \\(A\\) men inte \\(B\\)</strong>.</p></li></ol></div></div></div></div>",
+    "t": "<span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder A, B och C och antal i varje område\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"130\" y=\"78\" font-size=\"17\">A</text><text x=\"286\" y=\"78\" font-size=\"17\">B</text><text x=\"210\" y=\"246\" font-size=\"17\">C</text>\n<text x=\"122\" y=\"116\" font-size=\"15\">10</text><text x=\"291\" y=\"116\" font-size=\"15\">1</text><text x=\"210\" y=\"222\" font-size=\"15\">9</text>\n<text x=\"210\" y=\"91\" font-size=\"15\">10</text><text x=\"168\" y=\"171\" font-size=\"15\">6</text><text x=\"258\" y=\"171\" font-size=\"15\">2</text>\n<text x=\"211\" y=\"143\" font-size=\"15\" font-weight=\"700\">2</text>\n</svg></span><p>I diagrammet är \\(A\\), \\(B\\) och \\(C\\) tre elevgrupper.</p><ol type=\"a\"><li>Bestäm \\(|A\\cap B|\\).</li><li>Bestäm \\(|A\\cup C|\\).</li><li>Beskriv med ord mängden \\(A\\setminus B\\).</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_05_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_05_s_1_Aclip)\"><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"130\" y=\"78\" font-size=\"17\">A</text>\n<text x=\"286\" y=\"78\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"246\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I \\(A\\cap B\\) ingår både området som ligger i bara \\(A\\) och \\(B\\) och mittenområdet som ligger i alla tre mängder.</p></li><li><div class=\"facit-berakning\"><p>Därför blir</p><div class=\"facit-matte\">\\[|A\\cap B|=10+2=12\\].</div></div></li></ol></div></div><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A union C är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_05_s_2_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_2_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_05_s_2_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"130\" y=\"78\" font-size=\"17\">A</text>\n<text x=\"286\" y=\"78\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"246\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Unionen \\(A\\cup C\\) består av alla områden som ligger i \\(A\\) eller i \\(C\\).</p></li><li><div class=\"facit-berakning\"><p>Då blir</p><div class=\"facit-matte\">\\[|A\\cup C|=10+10+6+2+2+9=39\\].</div></div></li></ol></div></div><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A utan B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"white\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"130\" y=\"78\" font-size=\"17\">A</text>\n<text x=\"286\" y=\"78\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"246\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det markerade området är den del av \\(A\\) som ligger utanför \\(B\\).</p></li><li><p>Med ord: <strong>de elever som tillhör \\(A\\) men inte \\(B\\)</strong>.</p></li></ol></div></div></div></div>",
     "id": "1.05",
     "miniräknare": true,
     "geogebra": false,
@@ -382,8 +382,8 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "markera mängder i Venn-diagram",
     "poang": "4/0/0",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>I Venn-diagrammet ska följande områden markeras.</p><ol type=\"a\"><li>\\(A\\cup B\\)</li><li>\\(A\\cap(B\\cup C)\\)</li><li>\\(A^c\\cup B\\)</li><li>\\((B\\cup C)\\setminus A\\)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A union B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(A\\cup B\\) är allt som ligger i \\(A\\) eller \\(B\\).</p></li></ol></div></div><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt (B union C) är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_2_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_2_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_2_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_07_s_2_Aclip)\"><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/></g><g clip-path=\"url(#matf1_1_07_s_2_Aclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(A\\cap(B\\cup C)\\) är de delar av \\(A\\) som samtidigt ligger i \\(B\\) eller \\(C\\).</p></li></ol></div></div><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A-komplement union B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_3_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_3_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_3_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"#E7B07A\"/><circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"white\"/><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(A^c\\cup B\\) är allt utanför \\(A\\), tillsammans med hela \\(B\\).</p></li></ol></div></div><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där (B union C) utan A är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_4_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_4_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_4_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/><circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"white\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\((B\\cup C)\\setminus A\\) är de delar av \\(B\\) eller \\(C\\) som ligger utanför \\(A\\).</p></li></ol></div></div></div></div>",
+    "t": "<span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"130\" y=\"78\" font-size=\"17\">A</text>\n<text x=\"286\" y=\"78\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"246\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>I Venn-diagrammet ska följande områden markeras.</p><ol type=\"a\"><li>\\(A\\cup B\\)</li><li>\\(A\\cap(B\\cup C)\\)</li><li>\\(A^c\\cup B\\)</li><li>\\((B\\cup C)\\setminus A\\)</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A union B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"130\" y=\"78\" font-size=\"17\">A</text>\n<text x=\"286\" y=\"78\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"246\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(A\\cup B\\) är allt som ligger i \\(A\\) eller \\(B\\).</p></li></ol></div></div><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt (B union C) är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_2_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_2_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_2_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_07_s_2_Aclip)\"><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/></g><g clip-path=\"url(#matf1_1_07_s_2_Aclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"130\" y=\"78\" font-size=\"17\">A</text>\n<text x=\"286\" y=\"78\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"246\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(A\\cap(B\\cup C)\\) är de delar av \\(A\\) som samtidigt ligger i \\(B\\) eller \\(C\\).</p></li></ol></div></div><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A-komplement union B är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_3_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_3_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_3_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"#E7B07A\"/><circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"white\"/><circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"130\" y=\"78\" font-size=\"17\">A</text>\n<text x=\"286\" y=\"78\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"246\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(A^c\\cup B\\) är allt utanför \\(A\\), tillsammans med hela \\(B\\).</p></li></ol></div></div><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där (B union C) utan A är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_07_s_4_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_4_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_07_s_4_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#E7B07A\"/><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/><circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"white\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"130\" y=\"78\" font-size=\"17\">A</text>\n<text x=\"286\" y=\"78\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"246\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\((B\\cup C)\\setminus A\\) är de delar av \\(B\\) eller \\(C\\) som ligger utanför \\(A\\).</p></li></ol></div></div></div></div>",
     "id": "1.07",
     "miniräknare": true,
     "geogebra": false,
@@ -489,8 +489,8 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "beskriva skuggat Venn-område med symboler",
     "poang": "1/0/0",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>Ett område i ett Venn-diagram består av de element som ligger i både \\(A\\), \\(B\\) och \\(C\\). Beskriv området med mängdsymboler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p></li></ol><span class=\"fig smal\"><svg width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt B snitt C är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_09_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_09_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_09_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_09_s_1_Aclip)\"><g clip-path=\"url(#matf1_1_09_s_1_Bclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/></g></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"118\" y=\"56\" font-size=\"17\">A</text>\n<text x=\"302\" y=\"56\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"260\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><ol class=\"facit-steglista\" role=\"list\"><li><p>Området ligger samtidigt i alla tre mängderna.</p></li><li><p>Därför är området <strong>\\(A\\cap B\\cap C\\)</strong>.</p></li></ol></div>",
+    "t": "<span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med tre mängder\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E3B52B\" fill-opacity=\".10\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"130\" y=\"78\" font-size=\"17\">A</text>\n<text x=\"286\" y=\"78\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"246\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><p>Ett område i ett Venn-diagram består av de element som ligger i både \\(A\\), \\(B\\) och \\(C\\). Beskriv området med mängdsymboler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p></li></ol><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"234\" viewBox=\"0 0 430 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt B snitt C är markerat\">\n<rect x=\"15\" y=\"15\" width=\"400\" height=\"250\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_09_s_1_Aclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"165\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_09_s_1_Bclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"265\" cy=\"118\" r=\"82\"/></clipPath>\n<clipPath id=\"matf1_1_09_s_1_Cclip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"215\" cy=\"184\" r=\"72\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_09_s_1_Aclip)\"><g clip-path=\"url(#matf1_1_09_s_1_Bclip)\"><circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"#E7B07A\"/></g></g>\n<circle cx=\"165\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<circle cx=\"265\" cy=\"118\" r=\"82\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<circle cx=\"215\" cy=\"184\" r=\"72\" fill=\"none\" stroke=\"#B48A18\" stroke-width=\"2\"/>\n<text x=\"130\" y=\"78\" font-size=\"17\">A</text>\n<text x=\"286\" y=\"78\" font-size=\"17\">B</text>\n<text x=\"210\" y=\"246\" font-size=\"17\">C</text>\n<text x=\"28\" y=\"35\" font-size=\"15\">U</text>\n</svg></span><ol class=\"facit-steglista\" role=\"list\"><li><p>Området ligger samtidigt i alla tre mängderna.</p></li><li><p>Därför är området <strong>\\(A\\cap B\\cap C\\)</strong>.</p></li></ol></div>",
     "id": "1.09",
     "miniräknare": true,
     "geogebra": false,
@@ -749,8 +749,8 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "översätta områdesbeskrivning till mängdsymboler",
     "poang": "1/1/0",
-    "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder A och B\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><p>Beskriv följande två områden med mängdsymboler.</p><ol type=\"a\"><li>De element som ligger i \\(B\\) men inte i \\(A\\).</li><li>De element i grundmängden som ligger varken i \\(A\\) eller \\(B\\).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p></li></ol><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där B men inte A är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_12_s_1_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_12_s_1_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/><circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Området är <strong>\\(B\\setminus A\\)</strong>.</p></li></ol></div></div><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där området utanför både A och B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_12_s_2_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_12_s_2_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"#E7B07A\"/><circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"white\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Området är <strong>\\((A\\cup B)^c\\)</strong>.</p></li></ol></div></div></div>",
+    "t": "<span class=\"fig smal\"><svg fill=\"#243447\" height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder A och B\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"140\" y=\"90\" font-size=\"18\">A</text>\n<text x=\"275\" y=\"90\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><p>Beskriv följande två områden med mängdsymboler.</p><ol type=\"a\"><li>De element som ligger i \\(B\\) men inte i \\(A\\).</li><li>De element i grundmängden som ligger varken i \\(A\\) eller \\(B\\).</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Läs mängdnotationen bokstavligt: kontrollera först vilka element som faktiskt tillhör mängden och skilj på ett element, till exempel 2, och en mängd som själv är ett element, till exempel {2}.</p></li></ol><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där B men inte A är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_12_s_1_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_12_s_1_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/><circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"140\" y=\"90\" font-size=\"18\">A</text>\n<text x=\"275\" y=\"90\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Området är <strong>\\(B\\setminus A\\)</strong>.</p></li></ol></div></div><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där området utanför både A och B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_12_s_2_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_12_s_2_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"#E7B07A\"/><circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"white\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"140\" y=\"90\" font-size=\"18\">A</text>\n<text x=\"275\" y=\"90\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Området är <strong>\\((A\\cup B)^c\\)</strong>.</p></li></ol></div></div></div>",
     "id": "1.12",
     "miniräknare": true,
     "geogebra": false,
@@ -835,8 +835,8 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "tolka sektorer i Venn-diagram",
     "poang": "1/1/0",
-    "t": "<span class=\"fig smal\"><svg height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder A och B\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><p>Beskriv med mängdsymboler</p><ol type=\"a\"><li>den del av \\(A\\) som ligger utanför \\(B\\),</li><li>området utanför både \\(A\\) och \\(B\\).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden.</p></li><li><p>Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p></li></ol><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A men inte B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_14_s_1_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_14_s_1_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Området är <strong>\\(A\\setminus B\\)</strong>.</p></li></ol></div></div><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där området utanför både A och B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_14_s_2_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_14_s_2_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"#E7B07A\"/><circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"white\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Området är <strong>\\((A\\cup B)^c\\)</strong>.</p></li></ol></div></div></div>",
+    "t": "<span class=\"fig smal\"><svg fill=\"#243447\" height=\"223\" width=\"360\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder A och B\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"140\" y=\"90\" font-size=\"18\">A</text>\n<text x=\"275\" y=\"90\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><p>Beskriv med mängdsymboler</p><ol type=\"a\"><li>den del av \\(A\\) som ligger utanför \\(B\\),</li><li>området utanför både \\(A\\) och \\(B\\).</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden.</p></li><li><p>Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p></li></ol><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A men inte B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_14_s_1_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_14_s_1_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"140\" y=\"90\" font-size=\"18\">A</text>\n<text x=\"275\" y=\"90\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Området är <strong>\\(A\\setminus B\\)</strong>.</p></li></ol></div></div><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där området utanför både A och B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_14_s_2_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_14_s_2_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"#E7B07A\"/><circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"white\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"140\" y=\"90\" font-size=\"18\">A</text>\n<text x=\"275\" y=\"90\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Området är <strong>\\((A\\cup B)^c\\)</strong>.</p></li></ol></div></div></div>",
     "id": "1.14",
     "miniräknare": true,
     "geogebra": false,
@@ -1020,8 +1020,8 @@ window.BANKMATF1 = [
     "typ": "avläsa element i Venn-diagram",
     "poang": "2/0/0",
     "id": "1.161",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><ol type=\"a\"><li>Skriv mängden \\(A\\cap B\\).</li><li>Skriv mängden \\(A\\setminus B\\).</li><li>Skriv mängden \\((A\\cup B)^c\\).</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden.</p></li><li><p>Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p></li></ol><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_161_s_1_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_161_s_1_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_161_s_1_A2clip)\"><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/></g>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A\\cap B=\\{5,7\\}\\].</div></li></ol></div></div><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A minus B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_161_s_2_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_161_s_2_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A\\setminus B=\\{1,3\\}\\].</div></li></ol></div></div><span class=\"fig smal\"><svg width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där området utanför A union B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_161_s_3_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_161_s_3_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"#E7B07A\"/><circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"white\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(A\\cup B)^c=\\{11\\}\\].</div></li></ol></div></div></div>",
+    "t": "<span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"139\" y=\"94\" font-size=\"18\">A</text>\n<text x=\"279\" y=\"94\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><ol type=\"a\"><li>Skriv mängden \\(A\\cap B\\).</li><li>Skriv mängden \\(A\\setminus B\\).</li><li>Skriv mängden \\((A\\cup B)^c\\).</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden.</p></li><li><p>Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p></li></ol><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A snitt B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_161_s_1_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_161_s_1_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<g clip-path=\"url(#matf1_1_161_s_1_A2clip)\"><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/></g>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A\\cap B=\\{5,7\\}\\].</div></li></ol></div></div><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där A minus B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_161_s_2_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_161_s_2_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"#E7B07A\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A\\setminus B=\\{1,3\\}\\].</div></li></ol></div></div><span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"223\" viewBox=\"0 0 420 260\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram där området utanför A union B är markerat\">\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<defs>\n<clipPath id=\"matf1_1_161_s_3_A2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"170\" cy=\"130\" r=\"75\"/></clipPath>\n<clipPath id=\"matf1_1_161_s_3_B2clip\" clipPathUnits=\"userSpaceOnUse\"><circle cx=\"250\" cy=\"130\" r=\"75\"/></clipPath>\n</defs>\n<rect x=\"18\" y=\"18\" width=\"384\" height=\"224\" fill=\"#E7B07A\"/><circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"white\"/><circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"white\"/>\n<circle cx=\"170\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"250\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"126\" y=\"70\" font-size=\"18\">A</text>\n<text x=\"284\" y=\"70\" font-size=\"18\">B</text>\n<text x=\"34\" y=\"40\" font-size=\"16\">U</text>\n</svg></span><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(A\\cup B)^c=\\{11\\}\\].</div></li></ol></div></div></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Venndiagram och områden",
@@ -1048,26 +1048,7 @@ window.BANKMATF1 = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Skriv mängden \\(A\\cap B\\).</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden.</p></li><li><p>Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A\\cap B=\\{5,7\\}\\].</div></li></ol></div></div></div></div>",
-        "niva": "E"
-      },
-      {
-        "etikett": "b",
-        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Skriv mängden \\(A\\setminus B\\).</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden.</p></li><li><p>Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A\\setminus B=\\{1,3\\}\\].</div></li></ol></div></div></div></div>",
-        "niva": "E"
-      },
-      {
-        "etikett": "c",
-        "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"120\" y=\"72\" font-size=\"18\">A</text>\n<text x=\"296\" y=\"72\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Skriv mängden \\((A\\cup B)^c\\).</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Komplementet består av de element i grundmängden som inte ligger i den aktuella mängden.</p></li><li><p>Börja därför med att hålla reda på hela grundmängden och stryk sedan elementen som redan finns i mängden.</p></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(A\\cup B)^c=\\{11\\}\\].</div></li></ol></div></div></div></div>",
-        "niva": "E"
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "t": "<span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"139\" y=\"94\" font-size=\"18\">A</text>\n<text x=\"279\" y=\"94\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Skriv mängden \\(A\\cap B\\).</div>", "s": "<div class=\"facit-v2\"><p>Snittet innehåller talen som ligger i båda cirklarna.</p><p><strong>Svar:</strong> \\(\\{5,7\\}\\).</p></div>", "niva": "E"}, {"etikett": "b", "t": "<span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"139\" y=\"94\" font-size=\"18\">A</text>\n<text x=\"279\" y=\"94\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Skriv mängden \\(A\\setminus B\\).</div>", "s": "<div class=\"facit-v2\"><p>Ta talen som ligger i A men utanför B.</p><p><strong>Svar:</strong> \\(\\{1,3\\}\\).</p></div>", "niva": "E"}, {"etikett": "c", "t": "<span class=\"fig smal\"><svg fill=\"#243447\" width=\"360\" height=\"249\" viewBox=\"0 0 420 290\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Venn-diagram med två mängder där talen 1, 3, 5, 7, 9 och 11 är utplacerade\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"255\" fill=\"white\" stroke=\"#777\" stroke-width=\"1.5\"/>\n<circle cx=\"170\" cy=\"140\" r=\"88\" fill=\"#2C62A8\" fill-opacity=\".08\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"258\" cy=\"140\" r=\"88\" fill=\"#2E7D52\" fill-opacity=\".08\" stroke=\"#2E7D52\" stroke-width=\"2.2\"/>\n<text x=\"139\" y=\"94\" font-size=\"18\">A</text>\n<text x=\"279\" y=\"94\" font-size=\"18\">B</text>\n<text x=\"32\" y=\"40\" font-size=\"16\">U</text>\n<text x=\"112\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">1</text>\n<text x=\"126\" y=\"180\" font-size=\"17\" text-anchor=\"middle\">3</text>\n<text x=\"214\" y=\"126\" font-size=\"17\" text-anchor=\"middle\">5</text>\n<text x=\"214\" y=\"172\" font-size=\"17\" text-anchor=\"middle\">7</text>\n<text x=\"312\" y=\"134\" font-size=\"17\" text-anchor=\"middle\">9</text>\n<text x=\"366\" y=\"248\" font-size=\"17\" text-anchor=\"middle\">11</text>\n</svg></span><p>I diagrammet är elementen i grundmängden utplacerade i mängderna \\(A\\) och \\(B\\).</p><div class=\"spel-en-del\">Skriv mängden \\((A\\cup B)^c\\).</div>", "s": "<div class=\"facit-v2\"><p>Komplementet består av talen utanför båda cirklarna, men innanför grundmängdens ram.</p><p><strong>Svar:</strong> \\(\\{11\\}\\).</p></div>", "niva": "E"}],
     "ledtrad": "<p>Läs en region i taget: \\(\\cap\\) betyder ”i båda”, \\(\\cup\\) ”i minst en”, \\(\\setminus\\) ”i den första men inte den andra” och komplement ”utanför”.</p>",
     "traningsniva": 1,
     "omrTidigare": [
@@ -19903,7 +19884,7 @@ window.BANKMATF1 = [
     "niva": "A",
     "typ": "partiell integration två gånger",
     "poang": "0/2/1",
-    "t": "<p>Beräkna \\(\\displaystyle\\int x^2e^{-2x}\\,dx\\).</p>",
+    "t": "<p>Bestäm alla primitiva funktioner till \\(x^2e^{-2x}\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör den första partiella integrationen</p><p>Välj \\(u=x^2\\) och \\(dv=e^{-2x}\\,dx\\). Då är \\(du=2x\\,dx\\) och \\(v=-\\frac12e^{-2x}\\). Formeln \\(\\int u\\,dv=uv-\\int v\\,du\\) ger</p><div class=\"facit-matte\">\\[\\int x^2e^{-2x}\\,dx=-\\frac12x^2e^{-2x}+\\int xe^{-2x}\\,dx.\\]</div></li><li><p class=\"facit-rubrik\">Integrera den återstående produkten</p><p>Välj nu \\(u=x\\), \\(du=dx\\), \\(dv=e^{-2x}\\,dx\\) och \\(v=-\\frac12e^{-2x}\\):</p><div class=\"facit-matte\">\\[\\int xe^{-2x}\\,dx=-\\frac12xe^{-2x}+\\frac12\\int e^{-2x}\\,dx.\\]</div><div class=\"facit-matte\">\\[=-\\frac12xe^{-2x}-\\frac14e^{-2x}+C.\\]</div></li><li><p class=\"facit-rubrik\">Sätt ihop resultaten</p><div class=\"facit-matte\">\\[\\int x^2e^{-2x}\\,dx=-e^{-2x}\\left(\\frac{x^2}{2}+\\frac{x}{2}+\\frac14\\right)+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom derivering</p><p>Med produktregeln försvinner de extra termerna:</p><div class=\"facit-matte\">\\[\\frac{d}{dx}\\left[-e^{-2x}\\left(\\frac{x^2}{2}+\\frac{x}{2}+\\frac14\\right)\\right]=e^{-2x}\\left(x^2+x+\\frac12-x-\\frac12\\right)=x^2e^{-2x}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-e^{-2x}\\left(\\frac{x^2}{2}+\\frac{x}{2}+\\frac14\\right)+C\\).</p></div>",
     "id": "3.01",
     "miniräknare": true,
@@ -19917,7 +19898,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "primitiva",
     "ledtrad": "<p>Partiell integration behöver göras mer än en gång. Välj först polynomet eller logaritmuttrycket som \\(u\\), så att det förenklas vid derivering, och fortsätt tills den återstående integralen är elementär.</p>",
     "traningsniva": 4
   },
@@ -19927,7 +19908,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "partiell integration av x e^x",
     "poang": "2/0/0",
-    "t": "<p>Beräkna \\(\\displaystyle\\int xe^x\\,dx\\).</p>",
+    "t": "<p>Bestäm alla primitiva funktioner till \\(xe^x\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj faktorer för partiell integration</p><p>Välj \\(u=x\\), så att derivering förenklar faktorn, och \\(dv=e^x\\,dx\\), som är lätt att integrera:</p><div class=\"facit-matte\">\\[du=dx,\\qquad v=e^x.\\]</div></li><li><p class=\"facit-rubrik\">Använd integrationsformeln</p><div class=\"facit-matte\">\\[\\int xe^x\\,dx=xe^x-\\int e^x\\,dx=xe^x-e^x+C.\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera och kontrollera</p><div class=\"facit-matte\">\\[xe^x-e^x=e^x(x-1).\\]</div><div class=\"facit-matte\">\\[\\left(e^x(x-1)\\right)\\prime=e^x(x-1)+e^x=xe^x.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^x(x-1)+C\\).</p></div>",
     "id": "3.02",
     "miniräknare": true,
@@ -19940,18 +19921,18 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "primitiva",
     "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
     "traningsniva": 1
   },
   {
     "kap": 3,
     "omr": "partiell_integration",
-    "niva": "E",
+    "niva": "C",
     "typ": "partiell integration logaritm",
-    "poang": "2/0/0",
-    "t": "<p>Beräkna \\(\\displaystyle\\int \\ln x\\,dx\\), \\(x\\gt 0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><div class=\"facit-berakning\"><p>Skriv</p><div class=\"facit-matte\">\\[\\ln x=1\\cdot\\ln x\\].</div></div></li><li><div class=\"facit-berakning\"><p>Med</p><div class=\"facit-matte\">\\[u=\\ln x\\],</div></div></li><li><p>\\(dv=dx\\) fås \\(du=dx/x\\),</p></li><li><div class=\"facit-matte\">\\[v=x\\]:</div></li><li><p><strong>\\(x\\ln x-x+C\\)</strong>.</p></li></ol></div>",
+    "poang": "0/2/0",
+    "t": "<p>Bestäm alla primitiva funktioner till \\(\\ln x\\), där \\(x\\gt0\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Använd partiell integration med \\(u=\\ln x\\) och \\(dv=dx\\). Då är \\(du=dx/x\\) och \\(v=x\\).</p>\\[\\int\\ln x\\,dx=x\\ln x-\\int1\\,dx.\\]<p><strong>Svar:</strong> \\(F(x)=x\\ln x-x+C\\), där \\(C\\) är en godtycklig konstant. Inga integrationsgränser behövs när vi söker primitiva funktioner.</p></div>",
     "id": "3.03",
     "miniräknare": true,
     "geogebra": false,
@@ -19963,9 +19944,9 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "primitiva",
     "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
-    "traningsniva": 2
+    "traningsniva": 3
   },
   {
     "kap": 3,
@@ -19996,7 +19977,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "partiell integration trigonometrisk funktion",
     "poang": "2/0/0",
-    "t": "<p>Bestäm</p><p>\\[\\int x\\cos x\\,dx.\\]</p>",
+    "t": "<p>Bestäm alla primitiva funktioner till \\(x\\cos x\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><p>Välj \\(u=x\\) och \\(dv=\\cos x\\,dx\\).</p></li><li><p>Då är \\(du=dx\\) och \\(v=\\sin x\\).</p></li><li><p>\\[\\int x\\cos x\\,dx=x\\sin x-\\int\\sin x\\,dx=x\\sin x+\\cos x+C.\\]</p></li></ol></div>",
     "id": "3.14",
     "miniräknare": true,
@@ -20009,7 +19990,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "primitiva",
     "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
     "traningsniva": 1
   },
@@ -20019,7 +20000,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "partiell integration med logaritm",
     "poang": "0/2/0",
-    "t": "<p>Bestäm</p><p>\\[\\int x^2\\ln x\\,dx,\\qquad x\\gt 0.\\]</p>",
+    "t": "<p>Bestäm alla primitiva funktioner till \\(x^2\\ln x\\), där \\(x\\gt0\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><p>Välj \\(u=\\ln x\\) och \\(dv=x^2dx\\).</p></li><li><p>Då är \\(du=dx/x\\) och \\(v=x^3/3\\).</p></li><li><p>\\[\\int x^2\\ln x\\,dx=\\frac{x^3}{3}\\ln x-\\frac13\\int x^2dx\\]</p></li><li><p>\\[=\\frac{x^3}{3}\\ln x-\\frac{x^3}{9}+C.\\]</p></li></ol></div>",
     "id": "3.15",
     "miniräknare": true,
@@ -20032,7 +20013,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "primitiva",
     "ledtrad": "<p>Partiell integration behöver göras mer än en gång. Välj först polynomet eller logaritmuttrycket som \\(u\\), så att det förenklas vid derivering, och fortsätt tills den återstående integralen är elementär.</p>",
     "traningsniva": 3
   },
@@ -20042,7 +20023,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "partiell integration x gånger exponential",
     "poang": "2/0/0",
-    "t": "<p>Bestäm \\(\\int xe^{2x}\\,dx\\).</p>",
+    "t": "<p>Bestäm alla primitiva funktioner till \\(xe^{2x}\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><div class=\"facit-berakning\"><p>Välj</p><div class=\"facit-matte\">\\[u=x\\],</div></div></li><li><div class=\"facit-matte\">\\[dv=e^{2x}dx\\].</div></li><li><p>Då \\(du=dx\\) och \\(v=\\frac12e^{2x}\\).</p></li><li><p>\\[\\int xe^{2x}dx=\\frac{x}{2}e^{2x}-\\frac12\\int e^{2x}dx=\\frac{x}{2}e^{2x}-\\frac14e^{2x}+C.\\]</p></li></ol></div>",
     "id": "3.30",
     "miniräknare": true,
@@ -20055,7 +20036,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "primitiva",
     "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
     "traningsniva": 2
   },
@@ -20065,7 +20046,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "partiell integration x sin",
     "poang": "2/0/0",
-    "t": "<p>Bestäm \\(\\int x\\sin x\\,dx\\).</p>",
+    "t": "<p>Bestäm alla primitiva funktioner till \\(x\\sin x\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj \\(u\\) så att det blir enklare när det deriveras och välj \\(dv\\) så att det är lätt att integrera.</p></li><li><p>Använd sedan \\(\\int u\\,dv=uv-\\int v\\,du\\) och glöm inte att sätta in gränserna om integralen är bestämd.</p></li><li><div class=\"facit-berakning\"><p>Välj</p><div class=\"facit-matte\">\\[u=x\\],</div></div></li><li><div class=\"facit-matte\">\\[dv=\\sin x\\,dx\\].</div></li><li><div class=\"facit-berakning\"><p>Då</p><div class=\"facit-matte\">\\[v=-\\cos x\\]:</div></div></li><li><p>\\[\\int x\\sin x\\,dx=-x\\cos x+\\int\\cos x\\,dx=-x\\cos x+\\sin x+C.\\]</p></li></ol></div>",
     "id": "3.31",
     "miniräknare": true,
@@ -20078,7 +20059,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "primitiva",
     "ledtrad": "<p>Använd \\(\\int u\\,dv=uv-\\int v\\,du\\). Välj \\(u\\) så att det blir enklare när det deriveras, och välj \\(dv\\) så att det är lätt att integrera.</p>",
     "traningsniva": 1
   },
@@ -21267,13 +21248,13 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "divergent exponential åt plus",
     "poang": "2/0/0",
-    "t": "<p>Avgör om \\(\\int_0^{\\infty}e^x\\,dx\\) konvergerar.</p>",
+    "t": "<p>Avgör om \\(\\int_0^{\\infty}e^x\\,dx\\) konvergerar eller divergerar. Välj ett alternativ.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> En oändlig eller singulär integral beräknas som ett gränsvärde.</p></li><li><p>Ersätt därför den problematiska gränsen med en variabel, integrera på ett vanligt intervall och undersök sedan om gränsvärdet blir ändligt.</p></li><li><p>\\[\\int_0^b e^x dx=e^b-1.\\]</p></li><li><p>När \\(b\\to\\infty\\) går detta mot oändligheten.</p></li><li><p>Integralen <strong>divergerar</strong>.</p></li></ol></div>",
     "id": "3.60",
     "miniräknare": false,
     "geogebra": false,
     "familj": "Generaliserade integraler",
-    "svarstyp": "val",
+    "svarstyp": "alternativ",
     "rättSvar": "divergerar",
     "tolerans": null,
     "självrättning": true,
@@ -21285,7 +21266,9 @@ window.BANKMATF1 = [
     "svarFormat": "uttryck",
     "ledtrad": "<p>Ersätt den problematiska gränsen med en parameter. Integralen konvergerar bara om det beräknade gränsvärdet blir ändligt.</p>",
     "traningsniva": 1
-  },
+  ,
+  "alternativ": [{"txt": "Konvergerar", "ratt": false}, {"txt": "Divergerar", "ratt": true}]
+},
   {
     "kap": 3,
     "omr": "generaliserade_integraler",
@@ -21956,7 +21939,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterade förändringshastigheter två fordon",
     "poang": "0/3/0",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 420 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två bilar på vinkelräta vägar\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"225\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<rect x=\"182\" y=\"25\" width=\"56\" height=\"205\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"25\" y=\"102\" width=\"370\" height=\"56\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"170\" y=\"90\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.6\"/>\n<circle cx=\"210\" cy=\"70\" r=\"4.5\" fill=\"#8b1e3f\"/><rect x=\"198\" y=\"57\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#c95477\" stroke=\"#8b1e3f\"/>\n<circle cx=\"318\" cy=\"130\" r=\"4.5\" fill=\"#0e5d9e\"/><rect x=\"306\" y=\"121\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#5fa8dd\" stroke=\"#0e5d9e\"/>\n<line x1=\"210\" y1=\"130\" x2=\"210\" y2=\"70\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"130\" x2=\"318\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"70\" x2=\"318\" y2=\"130\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"192\" y=\"103\" font-size=\"15\">y</text>\n<text x=\"260\" y=\"124\" font-size=\"15\">x</text>\n<text x=\"256\" y=\"96\" font-size=\"15\">s</text>\n<line x1=\"210\" y1=\"54\" x2=\"210\" y2=\"32\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"210,28 205,38 215,38\" fill=\"#8b1e3f\"/>\n<line x1=\"334\" y1=\"130\" x2=\"356\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"360,130 350,125 350,135\" fill=\"#0e5d9e\"/>\n<text x=\"116\" y=\"50\" font-size=\"12\">90 km/h</text><text x=\"307\" y=\"166\" font-size=\"12\">v km/h</text>\n<text x=\"223\" y=\"145\" font-size=\"13\">korsning</text>\n<text x=\"195\" y=\"50\" font-size=\"13\">A</text>\n<text x=\"334\" y=\"145\" font-size=\"13\">B</text>\n</svg></span><p>Två raka vägar korsar varandra vinkelrätt. Bil A är 300 m norr om korsningen och kör söderut med 90 km/h. Bil B är 400 m öster om korsningen och kör österut. I detta ögonblick ökar avståndet mellan bilarna med 18 km/h.</p><p>Bestäm bil B:s hastighet.</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 420 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två bilar på vinkelräta vägar\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"225\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<rect x=\"182\" y=\"25\" width=\"56\" height=\"205\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"25\" y=\"102\" width=\"370\" height=\"56\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"170\" y=\"90\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.6\"/>\n<circle cx=\"210\" cy=\"70\" r=\"4.5\" fill=\"#8b1e3f\"/><rect x=\"198\" y=\"57\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#c95477\" stroke=\"#8b1e3f\"/>\n<circle cx=\"318\" cy=\"130\" r=\"4.5\" fill=\"#0e5d9e\"/><rect x=\"306\" y=\"121\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#5fa8dd\" stroke=\"#0e5d9e\"/>\n<line x1=\"210\" y1=\"130\" x2=\"210\" y2=\"70\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"130\" x2=\"318\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"70\" x2=\"318\" y2=\"130\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"192\" y=\"103\" font-size=\"15\">y</text>\n<text x=\"260\" y=\"124\" font-size=\"15\">x</text>\n<text x=\"256\" y=\"96\" font-size=\"15\">s</text>\n<line x1=\"210\" y1=\"54\" x2=\"210\" y2=\"32\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"210,28 205,38 215,38\" fill=\"#8b1e3f\"/>\n<line x1=\"334\" y1=\"130\" x2=\"356\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"360,130 350,125 350,135\" fill=\"#0e5d9e\"/>\n<text x=\"116\" y=\"50\" font-size=\"12\">90 km/h</text><text x=\"307\" y=\"166\" font-size=\"12\">v km/h</text>\n<text x=\"223\" y=\"145\" font-size=\"13\">korsning</text>\n<text x=\"195\" y=\"50\" font-size=\"13\">A</text>\n<text x=\"334\" y=\"145\" font-size=\"13\">B</text>\n</svg></span><p>Två raka vägar korsar varandra vinkelrätt. Bil A är 300 m norr om korsningen och kör söderut med 90 km/h. Bil B är 400 m öster om korsningen och kör österut. I detta ögonblick ökar avståndet mellan bilarna med 18 km/h.</p><p>Bestäm bil B:s hastighet.</p><p>Svara i km/h.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten.</p></li><li><p class=\"facit-metod\">Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p></li></ol><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 420 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till bilar på vinkelräta vägar\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"225\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<rect x=\"182\" y=\"25\" width=\"56\" height=\"205\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"25\" y=\"102\" width=\"370\" height=\"56\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"170\" y=\"90\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.6\"/>\n<circle cx=\"210\" cy=\"70\" r=\"4.5\" fill=\"#8b1e3f\"/><rect x=\"198\" y=\"57\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#c95477\" stroke=\"#8b1e3f\"/>\n<circle cx=\"318\" cy=\"130\" r=\"4.5\" fill=\"#0e5d9e\"/><rect x=\"306\" y=\"121\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#5fa8dd\" stroke=\"#0e5d9e\"/>\n<line x1=\"210\" y1=\"130\" x2=\"210\" y2=\"70\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"130\" x2=\"318\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"70\" x2=\"318\" y2=\"130\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"192\" y=\"103\" font-size=\"15\">y</text>\n<text x=\"260\" y=\"124\" font-size=\"15\">x</text>\n<text x=\"256\" y=\"96\" font-size=\"15\">s</text>\n<line x1=\"210\" y1=\"54\" x2=\"210\" y2=\"32\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"210,28 205,38 215,38\" fill=\"#8b1e3f\"/>\n<line x1=\"334\" y1=\"130\" x2=\"356\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"360,130 350,125 350,135\" fill=\"#0e5d9e\"/>\n<text x=\"116\" y=\"50\" font-size=\"12\">90 km/h</text><text x=\"307\" y=\"166\" font-size=\"12\">v km/h</text>\n<text x=\"223\" y=\"145\" font-size=\"13\">korsning</text>\n<text x=\"195\" y=\"50\" font-size=\"13\">A</text>\n<text x=\"334\" y=\"145\" font-size=\"13\">B</text>\n</svg></span><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt <strong>x</strong> vara bil B:s avstånd från korsningen, <strong>y</strong> bil A:s avstånd från korsningen och <strong>s</strong> avståndet mellan bilarna.</p></li><li><p>Vi räknar i km.</p></li><li><p>I detta ögonblick är</p></li><li><p>\\[x=0{,}4,\\qquad y=0{,}3,\\qquad s=0{,}5.\\]</p></li><li><div class=\"facit-berakning\"><p>Bil A närmar sig korsningen, alltså</p><div class=\"facit-matte\">\\[y'=-90\\].</div></div></li><li><div class=\"facit-berakning\"><p>Bil B kör bort från korsningen, så</p><div class=\"facit-matte\">\\[x'=v\\].</div></div></li><li><div class=\"facit-berakning\"><p>Dessutom är</p><div class=\"facit-matte\">\\[s'=18\\].</div></div></li><li><p>Av figuren ser vi en rätvinklig triangel, så Pythagoras sats ger</p></li><li><p>\\[s^2=x^2+y^2.\\]</p></li><li><p>Derivera med avseende på tiden:</p></li><li><p>\\[2ss'=2xx'+2yy'\\quad\\Rightarrow\\quad ss'=xx'+yy'.\\]</p></li><li><p>Sätt in värdena:</p></li><li><p>\\[0{,}5\\cdot18=0{,}4v+0{,}3\\cdot(-90).\\]</p></li><li><p>Det ger</p></li><li><p>\\[9=0{,}4v-27\\Rightarrow 0{,}4v=36\\Rightarrow v=90.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: bil B kör \\(90\\ \\text{km/h}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
     "id": "3.09",
     "miniräknare": true,
@@ -21964,7 +21947,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 90,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -21978,22 +21961,24 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "km/h"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterade förändringshastigheter ballong",
     "poang": "0/3/0",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ballong och cyklist\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"220\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"35\" y1=\"195\" x2=\"385\" y2=\"195\" stroke=\"#666\" stroke-width=\"2\"/>\n<ellipse cx=\"230\" cy=\"70\" rx=\"28\" ry=\"34\" fill=\"#f0c36d\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"104\" x2=\"230\" y2=\"130\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<rect x=\"220\" y=\"130\" width=\"20\" height=\"15\" fill=\"#d9a65e\" stroke=\"#916d1b\"/>\n<circle cx=\"302\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<circle cx=\"324\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<line x1=\"302\" y1=\"195\" x2=\"324\" y2=\"195\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"312\" y1=\"187\" x2=\"312\" y2=\"178\" stroke=\"#333\" stroke-width=\"2\"/>\n<circle cx=\"312\" cy=\"171\" r=\"6\" fill=\"#333\"/>\n<line x1=\"230\" y1=\"195\" x2=\"230\" y2=\"122\" stroke=\"#999\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n<line x1=\"230\" y1=\"195\" x2=\"312\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"230\" y2=\"195\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"312\" y2=\"195\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"265\" y=\"188\" font-size=\"15\">x</text>\n<text x=\"214\" y=\"168\" font-size=\"15\">y</text>\n<text x=\"270\" y=\"154\" font-size=\"15\">s</text>\n<line x1=\"230\" y1=\"40\" x2=\"230\" y2=\"25\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"230,21 225,31 235,31\" fill=\"#8b1e3f\"/>\n<text x=\"238\" y=\"33\" font-size=\"12\">1,5 m/s</text>\n<line x1=\"334\" y1=\"195\" x2=\"354\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"358,195 348,190 348,200\" fill=\"#0e5d9e\"/>\n<text x=\"300\" y=\"181\" font-size=\"12\">6,0 m/s</text>\n<text x=\"239\" y=\"122\" font-size=\"13\">ballong</text>\n<text x=\"316\" y=\"166\" font-size=\"13\">cyklist</text>\n</svg></span><p>En ballong stiger lodrätt med 1,5 m/s. När den är 18 m över marken passerar en cyklist rakt under den och fortsätter horisontellt med 6,0 m/s.</p><p>Hur snabbt ökar avståndet mellan dem 4,0 s senare?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ballong och cyklist\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"220\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"35\" y1=\"195\" x2=\"385\" y2=\"195\" stroke=\"#666\" stroke-width=\"2\"/>\n<ellipse cx=\"230\" cy=\"70\" rx=\"28\" ry=\"34\" fill=\"#f0c36d\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"104\" x2=\"230\" y2=\"130\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<rect x=\"220\" y=\"130\" width=\"20\" height=\"15\" fill=\"#d9a65e\" stroke=\"#916d1b\"/>\n<circle cx=\"302\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<circle cx=\"324\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<line x1=\"302\" y1=\"195\" x2=\"324\" y2=\"195\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"312\" y1=\"187\" x2=\"312\" y2=\"178\" stroke=\"#333\" stroke-width=\"2\"/>\n<circle cx=\"312\" cy=\"171\" r=\"6\" fill=\"#333\"/>\n<line x1=\"230\" y1=\"195\" x2=\"230\" y2=\"122\" stroke=\"#999\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n<line x1=\"230\" y1=\"195\" x2=\"312\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"230\" y2=\"195\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"312\" y2=\"195\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"265\" y=\"188\" font-size=\"15\">x</text>\n<text x=\"214\" y=\"168\" font-size=\"15\">y</text>\n<text x=\"270\" y=\"154\" font-size=\"15\">s</text>\n<line x1=\"230\" y1=\"40\" x2=\"230\" y2=\"25\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"230,21 225,31 235,31\" fill=\"#8b1e3f\"/>\n<text x=\"238\" y=\"33\" font-size=\"12\">1,5 m/s</text>\n<line x1=\"334\" y1=\"195\" x2=\"354\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"358,195 348,190 348,200\" fill=\"#0e5d9e\"/>\n<text x=\"300\" y=\"181\" font-size=\"12\">6,0 m/s</text>\n<text x=\"239\" y=\"122\" font-size=\"13\">ballong</text>\n<text x=\"316\" y=\"166\" font-size=\"13\">cyklist</text>\n</svg></span><p>En ballong stiger lodrätt med 1,5 m/s. När den är 18 m över marken passerar en cyklist rakt under den och fortsätter horisontellt med 6,0 m/s.</p><p>Hur snabbt ökar avståndet mellan dem 4,0 s senare?</p><p>Svara i m/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten.</p></li><li><p class=\"facit-metod\">Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p></li></ol><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"215\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till ballong och cyklist\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"220\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"35\" y1=\"195\" x2=\"385\" y2=\"195\" stroke=\"#666\" stroke-width=\"2\"/>\n<ellipse cx=\"230\" cy=\"70\" rx=\"28\" ry=\"34\" fill=\"#f0c36d\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"104\" x2=\"230\" y2=\"130\" stroke=\"#916d1b\" stroke-width=\"2\"/>\n<rect x=\"220\" y=\"130\" width=\"20\" height=\"15\" fill=\"#d9a65e\" stroke=\"#916d1b\"/>\n<circle cx=\"302\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<circle cx=\"324\" cy=\"195\" r=\"4\" fill=\"#333\"/>\n<line x1=\"302\" y1=\"195\" x2=\"324\" y2=\"195\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"312\" y1=\"187\" x2=\"312\" y2=\"178\" stroke=\"#333\" stroke-width=\"2\"/>\n<circle cx=\"312\" cy=\"171\" r=\"6\" fill=\"#333\"/>\n<line x1=\"230\" y1=\"195\" x2=\"230\" y2=\"122\" stroke=\"#999\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/>\n<line x1=\"230\" y1=\"195\" x2=\"312\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"230\" y2=\"195\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"145\" x2=\"312\" y2=\"195\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"265\" y=\"188\" font-size=\"15\">x</text>\n<text x=\"214\" y=\"168\" font-size=\"15\">y</text>\n<text x=\"270\" y=\"154\" font-size=\"15\">s</text>\n<line x1=\"230\" y1=\"40\" x2=\"230\" y2=\"25\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"230,21 225,31 235,31\" fill=\"#8b1e3f\"/>\n<text x=\"238\" y=\"33\" font-size=\"12\">1,5 m/s</text>\n<line x1=\"334\" y1=\"195\" x2=\"354\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"358,195 348,190 348,200\" fill=\"#0e5d9e\"/>\n<text x=\"300\" y=\"181\" font-size=\"12\">6,0 m/s</text>\n<text x=\"239\" y=\"122\" font-size=\"13\">ballong</text>\n<text x=\"316\" y=\"166\" font-size=\"13\">cyklist</text>\n</svg></span><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt <strong>x</strong> vara cyklistens horisontella avstånd från punkten rakt under ballongen, <strong>y</strong> ballongens höjd över marken och <strong>s</strong> avståndet mellan ballongen och cyklisten.</p></li><li><p>Efter 4,0 s är</p></li><li><p>\\[x=6{,}0\\cdot4{,}0=24\\ \\text{m},\\qquad y=18+1{,}5\\cdot4{,}0=24\\ \\text{m}.\\]</p></li><li><p>Dessutom är \\(x'=6,0\\) m/s och \\(y'=1,5\\) m/s.</p></li><li><p>Pythagoras sats ger</p></li><li><p>\\[s^2=x^2+y^2.\\]</p></li><li><p>Derivera:</p></li><li><p>\\[ss'=xx'+yy'.\\]</p></li><li><p>När \\(x=y=24\\) blir</p></li><li><p>\\[s=\\sqrt{24^2+24^2}=24\\sqrt2.\\]</p></li><li><p>Sätt in:</p></li><li><p>\\[(24\\sqrt2)s'=24\\cdot6{,}0+24\\cdot1{,}5=180.\\]</p></li><li><p>Alltså</p></li><li><p>\\[s'=\\frac{180}{24\\sqrt2}=\\frac{7{,}5}{\\sqrt2}\\approx5{,}3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: avståndet ökar med ungefär \\(5{,}3\\ \\text{m/s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
     "id": "3.10",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 5.3,
-    "tolerans": 0.01,
+    "rättSvar": 5.303300858899107,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22007,7 +21992,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "m/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
@@ -22021,8 +22008,8 @@ window.BANKMATF1 = [
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 1.59,
-    "tolerans": 0.01,
+    "rättSvar": 1.5915494309189535,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22036,14 +22023,16 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm/min"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterade förändringshastigheter stege",
     "poang": "0/3/0",
-    "t": "<span class=\"fig smal\"><svg width=\"340\" height=\"215\" viewBox=\"0 0 380 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Stege mot vägg\">\n<rect x=\"10\" y=\"10\" width=\"360\" height=\"220\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"45\" y=\"195\" width=\"275\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"320\" y=\"35\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#9c5e2d\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<line x1=\"127\" y1=\"188\" x2=\"307\" y2=\"92\" stroke=\"#d8b48a\" stroke-width=\"1.8\" opacity=\"0.55\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"195\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"320\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"300\" y2=\"185\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"310\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<circle cx=\"115\" cy=\"195\" r=\"4.2\" fill=\"#666\"/>\n<circle cx=\"320\" cy=\"85\" r=\"4.2\" fill=\"#666\"/>\n<text x=\"198\" y=\"133\" font-size=\"13\" fill=\"#6d421f\">5,0 m</text>\n<text x=\"205\" y=\"188\" font-size=\"13\" fill=\"#1f5687\">x = 3,0 m</text>\n<text x=\"328\" y=\"145\" font-size=\"13\" fill=\"#7f1f3d\">y</text>\n<line x1=\"118\" y1=\"208\" x2=\"142\" y2=\"208\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"146,208 136,203 136,213\" fill=\"#2e8b57\"/>\n<text x=\"77\" y=\"223\" font-size=\"12\" fill=\"#2e8b57\">0,80 m/s</text>\n</svg></span><p>En 5,0 m lång stege står mot en lodrät vägg. Stegens fot glider bort från väggen med hastigheten 0,80 m/s.</p><p>Hur snabbt rör sig stegens övre ände nedåt när foten är 3,0 m från väggen?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"340\" height=\"215\" viewBox=\"0 0 380 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Stege mot vägg\">\n<rect x=\"10\" y=\"10\" width=\"360\" height=\"220\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"45\" y=\"195\" width=\"275\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"320\" y=\"35\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#9c5e2d\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<line x1=\"127\" y1=\"188\" x2=\"307\" y2=\"92\" stroke=\"#d8b48a\" stroke-width=\"1.8\" opacity=\"0.55\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"195\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"320\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"300\" y2=\"185\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"310\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<circle cx=\"115\" cy=\"195\" r=\"4.2\" fill=\"#666\"/>\n<circle cx=\"320\" cy=\"85\" r=\"4.2\" fill=\"#666\"/>\n<text x=\"198\" y=\"133\" font-size=\"13\" fill=\"#6d421f\">5,0 m</text>\n<text x=\"205\" y=\"188\" font-size=\"13\" fill=\"#1f5687\">x = 3,0 m</text>\n<text x=\"328\" y=\"145\" font-size=\"13\" fill=\"#7f1f3d\">y</text>\n<line x1=\"118\" y1=\"208\" x2=\"142\" y2=\"208\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"146,208 136,203 136,213\" fill=\"#2e8b57\"/>\n<text x=\"77\" y=\"223\" font-size=\"12\" fill=\"#2e8b57\">0,80 m/s</text>\n</svg></span><p>En 5,0 m lång stege står mot en lodrät vägg. Stegens fot glider bort från väggen med hastigheten 0,80 m/s.</p><p>Hur snabbt rör sig stegens övre ände nedåt när foten är 3,0 m från väggen?</p><p>Svara i m/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><span class=\"fig smal\"><svg width=\"340\" height=\"215\" viewBox=\"0 0 380 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till stege mot vägg\">\n<rect x=\"10\" y=\"10\" width=\"360\" height=\"220\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"45\" y=\"195\" width=\"275\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"320\" y=\"35\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#9c5e2d\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<line x1=\"127\" y1=\"188\" x2=\"307\" y2=\"92\" stroke=\"#d8b48a\" stroke-width=\"1.8\" opacity=\"0.55\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"195\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"320\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"300\" y2=\"185\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"310\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<circle cx=\"115\" cy=\"195\" r=\"4.2\" fill=\"#666\"/>\n<circle cx=\"320\" cy=\"85\" r=\"4.2\" fill=\"#666\"/>\n<text x=\"198\" y=\"133\" font-size=\"13\" fill=\"#6d421f\">5,0 m</text>\n<text x=\"205\" y=\"188\" font-size=\"13\" fill=\"#1f5687\">x = 3,0 m</text>\n<text x=\"328\" y=\"145\" font-size=\"13\" fill=\"#7f1f3d\">y</text>\n<line x1=\"118\" y1=\"208\" x2=\"142\" y2=\"208\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"146,208 136,203 136,213\" fill=\"#2e8b57\"/>\n<text x=\"77\" y=\"223\" font-size=\"12\" fill=\"#2e8b57\">0,80 m/s</text>\n</svg></span><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(x\\) vara stegens fotavstånd från väggen och \\(y\\) höjden upp på väggen.</p></li><li><p>Eftersom stegen är 5,0 m lång gäller</p></li><li><p>\\[x^2+y^2=25.\\]</p></li><li><p>När \\(x=3,0\\) m fås</p></li><li><p>\\[y=\\sqrt{25-9}=4,0\\ \\text{m}.\\]</p></li><li><p>Derivera sambandet:</p></li><li><p>\\[2xx'+2yy'=0\\quad\\Rightarrow\\quad xx'+yy'=0.\\]</p></li><li><p>Här är \\(x'=0{,}80\\) m/s.</p></li><li><p>Sätt in värdena:</p></li><li><p>\\[3{,}0\\cdot0{,}80+4{,}0y'=0.\\]</p></li><li><p>Alltså</p></li><li><p>\\[y'=-0{,}60\\ \\text{m/s}.\\]</p></li><li><p>Minustecknet visar att höjden minskar.</p></li></ol><p class=\"facit-svar\"><strong>Svar: stegens övre ände rör sig nedåt med \\(0{,}60\\ \\text{m/s}\\).</strong></p></div>",
     "id": "3.19",
     "miniräknare": true,
@@ -22051,7 +22040,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 0.6,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22065,14 +22054,16 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "m/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter växande cirkel",
     "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg width=\"255\" height=\"180\" viewBox=\"0 0 285 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Växande cirkelfläck\">\n<rect x=\"10\" y=\"10\" width=\"265\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"140\" cy=\"102\" r=\"58\" fill=\"#eef7ff\" stroke=\"#2c62a8\" stroke-width=\"2.4\"/>\n<circle cx=\"140\" cy=\"102\" r=\"3.7\" fill=\"#2c62a8\"/>\n<line x1=\"140\" y1=\"102\" x2=\"194\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.4\"/>\n<polygon points=\"198,102 188,97 188,107\" fill=\"#b45f32\"/>\n<text x=\"162\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">r = 6,0 cm</text>\n</svg></span><p>En cirkelformad fläck växer så att radien ökar med 0,40 cm/s. Hur snabbt ökar fläckens area när radien är 6,0 cm?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"255\" height=\"180\" viewBox=\"0 0 285 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Växande cirkelfläck\">\n<rect x=\"10\" y=\"10\" width=\"265\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"140\" cy=\"102\" r=\"58\" fill=\"#eef7ff\" stroke=\"#2c62a8\" stroke-width=\"2.4\"/>\n<circle cx=\"140\" cy=\"102\" r=\"3.7\" fill=\"#2c62a8\"/>\n<line x1=\"140\" y1=\"102\" x2=\"194\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.4\"/>\n<polygon points=\"198,102 188,97 188,107\" fill=\"#b45f32\"/>\n<text x=\"162\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">r = 6,0 cm</text>\n</svg></span><p>En cirkelformad fläck växer så att radien ökar med 0,40 cm/s. Hur snabbt ökar fläckens area när radien är 6,0 cm?</p><p>Svara i cm²/s.</p>",
     "s": "<div class=\"facit-v2\"><p>Arean är \\(A=\\pi r^2\\). Kedjeregeln ger \\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p><p>Sätt in \\(r=6{,}0\\) cm och \\(dr/dt=0{,}40\\) cm/s:</p><p>\\[\\frac{dA}{dt}=2\\pi\\cdot6{,}0\\cdot0{,}40\\]\\[=4{,}8\\pi\\text{ cm}^2/\\text{s}.\\]</p><p><strong>Svar:</strong> \\(4{,}8\\pi\\text{ cm}^2/\\text{s}\\approx15{,}08\\text{ cm}^2/\\text{s}\\).</p></div>",
     "id": "3.20",
     "miniräknare": true,
@@ -22129,14 +22120,14 @@ window.BANKMATF1 = [
     "typ": "relaterade förändringshastigheter för kvadrat",
     "poang": "2/0/0",
     "id": "3.27",
-    "t": "<span class=\"fig smal\"><svg width=\"240\" height=\"190\" viewBox=\"0 0 260 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kvadrat vars sida ökar\">\n<rect x=\"10\" y=\"10\" width=\"240\" height=\"190\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"70\" y=\"50\" width=\"110\" height=\"110\" fill=\"#eef6ff\" stroke=\"#2c62a8\" stroke-width=\"2.5\"/>\n<text x=\"118\" y=\"42\" font-size=\"14\" fill=\"#2c62a8\">s</text>\n<text x=\"55\" y=\"110\" font-size=\"14\" fill=\"#2c62a8\">s</text>\n<line x1=\"125\" y1=\"44\" x2=\"125\" y2=\"30\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"125,26 120,36 130,36\" fill=\"#2e8b57\"/>\n<line x1=\"186\" y1=\"105\" x2=\"200\" y2=\"105\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"204,105 194,100 194,110\" fill=\"#2e8b57\"/>\n<line x1=\"125\" y1=\"166\" x2=\"125\" y2=\"180\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"125,184 120,174 130,174\" fill=\"#2e8b57\"/>\n<line x1=\"64\" y1=\"105\" x2=\"50\" y2=\"105\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"46,105 56,100 56,110\" fill=\"#2e8b57\"/>\n<text x=\"186\" y=\"92\" font-size=\"12\" fill=\"#2e8b57\">0,6 cm/s</text>\n</svg></span><p>Sidan \\(s\\) i en kvadrat ökar med hastigheten \\(0{,}6\\ \\text{cm/s}\\).</p><p>Hur snabbt ökar kvadratens area när \\(s=5,0\\ \\text{cm}\\)?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"240\" height=\"190\" viewBox=\"0 0 260 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kvadrat vars sida ökar\">\n<rect x=\"10\" y=\"10\" width=\"240\" height=\"190\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"70\" y=\"50\" width=\"110\" height=\"110\" fill=\"#eef6ff\" stroke=\"#2c62a8\" stroke-width=\"2.5\"/>\n<text x=\"118\" y=\"42\" font-size=\"14\" fill=\"#2c62a8\">s</text>\n<text x=\"55\" y=\"110\" font-size=\"14\" fill=\"#2c62a8\">s</text>\n<line x1=\"125\" y1=\"44\" x2=\"125\" y2=\"30\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"125,26 120,36 130,36\" fill=\"#2e8b57\"/>\n<line x1=\"186\" y1=\"105\" x2=\"200\" y2=\"105\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"204,105 194,100 194,110\" fill=\"#2e8b57\"/>\n<line x1=\"125\" y1=\"166\" x2=\"125\" y2=\"180\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"125,184 120,174 130,174\" fill=\"#2e8b57\"/>\n<line x1=\"64\" y1=\"105\" x2=\"50\" y2=\"105\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"46,105 56,100 56,110\" fill=\"#2e8b57\"/>\n<text x=\"186\" y=\"92\" font-size=\"12\" fill=\"#2e8b57\">0,6 cm/s</text>\n</svg></span><p>Sidan \\(s\\) i en kvadrat ökar med hastigheten \\(0{,}6\\ \\text{cm/s}\\).</p><p>Hur snabbt ökar kvadratens area när \\(s=5,0\\ \\text{cm}\\)?</p><p>Svara i cm²/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Arean är</p><div class=\"facit-matte\">\\[A=s^2\\].</div></div></li><li><p>Derivera med avseende på tiden:</p></li><li><p>\\[\\frac{dA}{dt}=2s\\frac{ds}{dt}.\\]</p></li><li><p>Sätt in \\(s=5,0\\) och \\(ds/dt=0,6\\):</p></li><li><p>\\[\\frac{dA}{dt}=2\\cdot5{,}0\\cdot0{,}6=6{,}0.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: arean ökar med \\(6{,}0\\ \\text{cm}^2/\\text{s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 6,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22149,7 +22140,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
@@ -22185,7 +22178,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "sfärens volym",
     "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg width=\"270\" height=\"180\" viewBox=\"0 0 300 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sfär\">\n<rect x=\"10\" y=\"10\" width=\"280\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"145\" cy=\"102\" r=\"60\" fill=\"#f8fbff\" stroke=\"#6b6b6b\" stroke-width=\"2.3\"/>\n<ellipse cx=\"145\" cy=\"102\" rx=\"60\" ry=\"18\" fill=\"none\" stroke=\"#b3bcc8\" stroke-width=\"1.2\"/>\n<line x1=\"145\" y1=\"102\" x2=\"200\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.3\"/>\n<polygon points=\"204,102 194,97 194,107\" fill=\"#b45f32\"/>\n<text x=\"168\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">r = 5,0 cm</text>\n</svg></span><p>Radien i en sfär ökar med 0,20 cm/s. Hur snabbt ökar volymen när radien är 5,0 cm?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"270\" height=\"180\" viewBox=\"0 0 300 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sfär\">\n<rect x=\"10\" y=\"10\" width=\"280\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"145\" cy=\"102\" r=\"60\" fill=\"#f8fbff\" stroke=\"#6b6b6b\" stroke-width=\"2.3\"/>\n<ellipse cx=\"145\" cy=\"102\" rx=\"60\" ry=\"18\" fill=\"none\" stroke=\"#b3bcc8\" stroke-width=\"1.2\"/>\n<line x1=\"145\" y1=\"102\" x2=\"200\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.3\"/>\n<polygon points=\"204,102 194,97 194,107\" fill=\"#b45f32\"/>\n<text x=\"168\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">r = 5,0 cm</text>\n</svg></span><p>Radien i en sfär ökar med 0,20 cm/s. Hur snabbt ökar volymen när radien är 5,0 cm?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2\"><p>Sfärens volym är \\(V=4\\pi r^3/3\\). Kedjeregeln ger \\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p><p>Sätt in \\(r=5{,}0\\) cm och \\(dr/dt=0{,}20\\) cm/s:</p><p>\\[\\frac{dV}{dt}=4\\pi\\cdot5{,}0^2\\cdot0{,}20\\]\\[=20\\pi\\text{ cm}^3/\\text{s}.\\]</p><p><strong>Svar:</strong> \\(20\\pi\\text{ cm}^3/\\text{s}\\approx62{,}83\\text{ cm}^3/\\text{s}\\).</p></div>",
     "id": "3.45",
     "miniräknare": true,
@@ -22241,7 +22234,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "stege mot vägg",
     "poang": "0/2/0",
-    "t": "<span class=\"fig smal\"><svg width=\"340\" height=\"215\" viewBox=\"0 0 380 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Stege mot vägg\">\n<rect x=\"10\" y=\"10\" width=\"360\" height=\"220\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"45\" y=\"195\" width=\"275\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"320\" y=\"35\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#9c5e2d\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<line x1=\"127\" y1=\"188\" x2=\"307\" y2=\"92\" stroke=\"#d8b48a\" stroke-width=\"1.8\" opacity=\"0.55\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"195\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"320\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"300\" y2=\"185\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"310\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<circle cx=\"115\" cy=\"195\" r=\"4.2\" fill=\"#666\"/>\n<circle cx=\"320\" cy=\"85\" r=\"4.2\" fill=\"#666\"/>\n<text x=\"198\" y=\"133\" font-size=\"13\" fill=\"#6d421f\">10 m</text>\n<text x=\"205\" y=\"188\" font-size=\"13\" fill=\"#1f5687\">x = 6,0 m</text>\n<text x=\"328\" y=\"145\" font-size=\"13\" fill=\"#7f1f3d\">y</text>\n<line x1=\"118\" y1=\"208\" x2=\"142\" y2=\"208\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"146,208 136,203 136,213\" fill=\"#2e8b57\"/>\n<text x=\"77\" y=\"223\" font-size=\"12\" fill=\"#2e8b57\">0,50 m/s</text>\n</svg></span><p>En 10 m lång stege står mot en vägg. Foten glider bort från väggen med 0,50 m/s. Hur snabbt rör sig stegens överände nedåt när foten är 6,0 m från väggen?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"340\" height=\"215\" viewBox=\"0 0 380 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Stege mot vägg\">\n<rect x=\"10\" y=\"10\" width=\"360\" height=\"220\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"45\" y=\"195\" width=\"275\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"320\" y=\"35\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#9c5e2d\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<line x1=\"127\" y1=\"188\" x2=\"307\" y2=\"92\" stroke=\"#d8b48a\" stroke-width=\"1.8\" opacity=\"0.55\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"195\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"320\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"300\" y2=\"185\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"310\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<circle cx=\"115\" cy=\"195\" r=\"4.2\" fill=\"#666\"/>\n<circle cx=\"320\" cy=\"85\" r=\"4.2\" fill=\"#666\"/>\n<text x=\"198\" y=\"133\" font-size=\"13\" fill=\"#6d421f\">10 m</text>\n<text x=\"205\" y=\"188\" font-size=\"13\" fill=\"#1f5687\">x = 6,0 m</text>\n<text x=\"328\" y=\"145\" font-size=\"13\" fill=\"#7f1f3d\">y</text>\n<line x1=\"118\" y1=\"208\" x2=\"142\" y2=\"208\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"146,208 136,203 136,213\" fill=\"#2e8b57\"/>\n<text x=\"77\" y=\"223\" font-size=\"12\" fill=\"#2e8b57\">0,50 m/s</text>\n</svg></span><p>En 10 m lång stege står mot en vägg. Foten glider bort från väggen med 0,50 m/s. Hur snabbt rör sig stegens överände nedåt när foten är 6,0 m från väggen?</p><p>Svara i m/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten.</p></li><li><p class=\"facit-metod\">Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p></li></ol><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"340\" height=\"215\" viewBox=\"0 0 380 240\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till stege 10 m\">\n<rect x=\"10\" y=\"10\" width=\"360\" height=\"220\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"45\" y=\"195\" width=\"275\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"320\" y=\"35\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#9c5e2d\" stroke-width=\"6\" stroke-linecap=\"round\"/>\n<line x1=\"127\" y1=\"188\" x2=\"307\" y2=\"92\" stroke=\"#d8b48a\" stroke-width=\"1.8\" opacity=\"0.55\"/>\n<line x1=\"115\" y1=\"195\" x2=\"320\" y2=\"195\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"320\" y1=\"195\" x2=\"320\" y2=\"85\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"300\" y2=\"185\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<line x1=\"310\" y1=\"185\" x2=\"310\" y2=\"175\" stroke=\"#333\" stroke-width=\"1.4\"/>\n<circle cx=\"115\" cy=\"195\" r=\"4.2\" fill=\"#666\"/>\n<circle cx=\"320\" cy=\"85\" r=\"4.2\" fill=\"#666\"/>\n<text x=\"198\" y=\"133\" font-size=\"13\" fill=\"#6d421f\">10 m</text>\n<text x=\"205\" y=\"188\" font-size=\"13\" fill=\"#1f5687\">x = 6,0 m</text>\n<text x=\"328\" y=\"145\" font-size=\"13\" fill=\"#7f1f3d\">y</text>\n<line x1=\"118\" y1=\"208\" x2=\"142\" y2=\"208\" stroke=\"#2e8b57\" stroke-width=\"2.3\"/>\n<polygon points=\"146,208 136,203 136,213\" fill=\"#2e8b57\"/>\n<text x=\"77\" y=\"223\" font-size=\"12\" fill=\"#2e8b57\">0,50 m/s</text>\n</svg></span><ol class=\"facit-steglista\" role=\"list\"><li><p>Med beteckningarna i figuren gäller</p></li><li><p>\\[x^2+y^2=10^2=100.\\]</p></li><li><p>När \\(x=6,0\\) m är</p></li><li><p>\\[y=\\sqrt{100-36}=8,0\\ \\text{m}.\\]</p></li><li><p>Derivera:</p></li><li><p>\\[xx'+yy'=0.\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt in</p><div class=\"facit-matte\">\\[x=6,0\\],</div></div></li><li><p>\\(x'=0{,}50\\) och \\(y=8,0\\):</p></li><li><p>\\[6{,}0\\cdot0{,}50+8{,}0y'=0.\\]</p></li><li><p>Då fås</p></li><li><p>\\[y'=-0{,}375\\ \\text{m/s}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: överänden rör sig nedåt med \\(0{,}375\\ \\text{m/s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
     "id": "3.47",
     "miniräknare": true,
@@ -22249,7 +22242,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 0.375,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22263,7 +22256,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "m/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
@@ -22297,7 +22292,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "rektangel area",
     "poang": "2/0/0",
-    "t": "<p>En rektangels längd ökar med 2 cm/s och bredden ökar med 1 cm/s. Hur snabbt ökar arean när längden är 8 cm och bredden 5 cm?</p>",
+    "t": "<p>En rektangels längd ökar med 2 cm/s och bredden ökar med 1 cm/s. Hur snabbt ökar arean när längden är 8 cm och bredden 5 cm?</p><p>Svara i cm²/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv först ett samband mellan de geometriska storheterna.</p></li><li><p>Derivera sedan hela sambandet med avseende på tiden, så att varje storhet som förändras ger en tidsderivata, och sätt in det aktuella ögonblickets värden sist.</p></li><li><div class=\"facit-matte\">\\[A=lb\\].</div></li><li><p>Produktregeln ger</p></li><li><p>\\[A'=l'b+lb'=2\\cdot5+8\\cdot1=18.\\]</p></li><li><p><strong>18 cm²/s</strong>.</p></li></ol></div>",
     "id": "3.66",
     "miniräknare": true,
@@ -22305,7 +22300,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 18,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22317,49 +22312,53 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "cylinder volym",
     "poang": "2/0/0",
-    "t": "<p>En cylindrisk behållare har konstant radie 3 dm. Vattenhöjden ökar med 0,4 dm/min. Hur snabbt ökar volymen?</p>",
+    "t": "<p>En cylindrisk behållare har konstant radie 3 dm. Vattenhöjden ökar med 0,4 dm/min. Hur snabbt ökar volymen?</p><p>Svara i dm³/min.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv först ett samband mellan de geometriska storheterna.</p></li><li><p>Derivera sedan hela sambandet med avseende på tiden, så att varje storhet som förändras ger en tidsderivata, och sätt in det aktuella ögonblickets värden sist.</p></li><li><div class=\"facit-matte\">\\[V=\\pi r^2h=9\\pi h\\].</div></li><li><p>Därför</p></li><li><p>\\[V'=9\\pi h'=9\\pi\\cdot0{,}4=3{,}6\\pi\\text{ dm}^3/\\text{min}.\\]</p></li></ol></div>",
     "id": "3.67",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "uttryck",
-    "rättSvar": "3.6*pi",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11.309733552923255,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
     "traningsniva": 1,
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "dm³/min"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "skugga likformiga trianglar",
     "poang": "0/2/0",
-    "t": "<span class=\"fig smal\"><svg width=\"370\" height=\"210\" viewBox=\"0 0 420 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Person som går bort från en gatlykta\">\n<rect x=\"12\" y=\"12\" width=\"396\" height=\"211\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"35\" y=\"185\" width=\"355\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<line x1=\"90\" y1=\"55\" x2=\"90\" y2=\"185\" stroke=\"#555\" stroke-width=\"5\"/>\n<circle cx=\"105\" cy=\"47\" r=\"7\" fill=\"#f3ca62\" stroke=\"#a77b13\"/>\n<line x1=\"240\" y1=\"185\" x2=\"240\" y2=\"128\" stroke=\"#333\" stroke-width=\"3\"/>\n<circle cx=\"240\" cy=\"118\" r=\"10\" fill=\"#333\"/>\n<line x1=\"105\" y1=\"47\" x2=\"305\" y2=\"185\" stroke=\"#d8a62a\" stroke-width=\"2.4\"/>\n<line x1=\"90\" y1=\"185\" x2=\"240\" y2=\"185\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"240\" y1=\"185\" x2=\"305\" y2=\"185\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"156\" y=\"177\" font-size=\"14\" fill=\"#1f5687\">x</text>\n<text x=\"266\" y=\"177\" font-size=\"14\" fill=\"#7f1f3d\">s</text>\n<text x=\"98\" y=\"117\" font-size=\"13\" fill=\"#555\">6,0 m</text>\n<text x=\"250\" y=\"150\" font-size=\"13\" fill=\"#555\">1,8 m</text>\n<line x1=\"240\" y1=\"205\" x2=\"260\" y2=\"205\" stroke=\"#2e8b57\" stroke-width=\"2.2\"/><polygon points=\"264,205 254,200 254,210\" fill=\"#2e8b57\"/>\n</svg></span><p>En 1,8 m lång person går bort från en 6,0 m hög gatlykta med 1,5 m/s. Hur snabbt växer personens skugga?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"370\" height=\"210\" viewBox=\"0 0 420 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Person som går bort från en gatlykta\">\n<rect x=\"12\" y=\"12\" width=\"396\" height=\"211\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"35\" y=\"185\" width=\"355\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<line x1=\"90\" y1=\"55\" x2=\"90\" y2=\"185\" stroke=\"#555\" stroke-width=\"5\"/>\n<circle cx=\"105\" cy=\"47\" r=\"7\" fill=\"#f3ca62\" stroke=\"#a77b13\"/>\n<line x1=\"240\" y1=\"185\" x2=\"240\" y2=\"128\" stroke=\"#333\" stroke-width=\"3\"/>\n<circle cx=\"240\" cy=\"118\" r=\"10\" fill=\"#333\"/>\n<line x1=\"105\" y1=\"47\" x2=\"305\" y2=\"185\" stroke=\"#d8a62a\" stroke-width=\"2.4\"/>\n<line x1=\"90\" y1=\"185\" x2=\"240\" y2=\"185\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"240\" y1=\"185\" x2=\"305\" y2=\"185\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"156\" y=\"177\" font-size=\"14\" fill=\"#1f5687\">x</text>\n<text x=\"266\" y=\"177\" font-size=\"14\" fill=\"#7f1f3d\">s</text>\n<text x=\"98\" y=\"117\" font-size=\"13\" fill=\"#555\">6,0 m</text>\n<text x=\"250\" y=\"150\" font-size=\"13\" fill=\"#555\">1,8 m</text>\n<line x1=\"240\" y1=\"205\" x2=\"260\" y2=\"205\" stroke=\"#2e8b57\" stroke-width=\"2.2\"/><polygon points=\"264,205 254,200 254,210\" fill=\"#2e8b57\"/>\n</svg></span><p>En 1,8 m lång person går bort från en 6,0 m hög gatlykta med 1,5 m/s. Hur snabbt växer personens skugga?</p><p>Svara i m/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><span class=\"fig smal\"><svg width=\"370\" height=\"210\" viewBox=\"0 0 420 235\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till gatlykta och skugga\">\n<rect x=\"12\" y=\"12\" width=\"396\" height=\"211\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"35\" y=\"185\" width=\"355\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<line x1=\"90\" y1=\"55\" x2=\"90\" y2=\"185\" stroke=\"#555\" stroke-width=\"5\"/>\n<circle cx=\"105\" cy=\"47\" r=\"7\" fill=\"#f3ca62\" stroke=\"#a77b13\"/>\n<line x1=\"240\" y1=\"185\" x2=\"240\" y2=\"128\" stroke=\"#333\" stroke-width=\"3\"/>\n<circle cx=\"240\" cy=\"118\" r=\"10\" fill=\"#333\"/>\n<line x1=\"105\" y1=\"47\" x2=\"305\" y2=\"185\" stroke=\"#d8a62a\" stroke-width=\"2.4\"/>\n<line x1=\"90\" y1=\"185\" x2=\"240\" y2=\"185\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"240\" y1=\"185\" x2=\"305\" y2=\"185\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"156\" y=\"177\" font-size=\"14\" fill=\"#1f5687\">x</text>\n<text x=\"266\" y=\"177\" font-size=\"14\" fill=\"#7f1f3d\">s</text>\n<text x=\"98\" y=\"117\" font-size=\"13\" fill=\"#555\">6,0 m</text>\n<text x=\"250\" y=\"150\" font-size=\"13\" fill=\"#555\">1,8 m</text>\n<line x1=\"240\" y1=\"205\" x2=\"260\" y2=\"205\" stroke=\"#2e8b57\" stroke-width=\"2.2\"/><polygon points=\"264,205 254,200 254,210\" fill=\"#2e8b57\"/>\n</svg></span><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(x\\) vara personens avstånd till lyktan och \\(s\\) skuggans längd.</p></li><li><p>Av likformiga trianglar i figuren får vi</p></li><li><p>\\[\\frac{6{,}0}{x+s}=\\frac{1{,}8}{s}.\\]</p></li><li><p>Korsmultiplicera:</p></li><li><p>\\[6{,}0s=1{,}8(x+s)=1{,}8x+1{,}8s.\\]</p></li><li><p>Alltså</p></li><li><p>\\[4{,}2s=1{,}8x\\quad\\Rightarrow\\quad s=\\frac{1{,}8}{4{,}2}x=\\frac37x.\\]</p></li><li><p>Derivera:</p></li><li><p>\\[s'=\\frac37x'.\\]</p></li><li><p>Eftersom \\(x'=1,5\\) m/s blir</p></li><li><p>\\[s'=\\frac37\\cdot1{,}5=\\frac{9}{14}\\approx0{,}643.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: skuggan växer med ungefär \\(0{,}64\\ \\text{m/s}\\).</strong></p></div>",
     "id": "3.68",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.64,
-    "tolerans": 0.01,
+    "rättSvar": 0.6428571428571429,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22373,22 +22372,24 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "m/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "sfär area mot volym",
     "poang": "0/2/0",
-    "t": "<span class=\"fig smal\"><svg width=\"270\" height=\"180\" viewBox=\"0 0 300 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sfär med växande volym\">\n<rect x=\"10\" y=\"10\" width=\"280\" height=\"185\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<circle cx=\"145\" cy=\"102\" r=\"60\" fill=\"#f8f8ff\" stroke=\"#555\" stroke-width=\"2.2\"/>\n<ellipse cx=\"145\" cy=\"102\" rx=\"60\" ry=\"18\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1.3\"/>\n<line x1=\"145\" y1=\"102\" x2=\"200\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.2\"/>\n<polygon points=\"204,102 194,97 194,107\" fill=\"#b45f32\"/>\n<text x=\"168\" y=\"94\" font-size=\"14\">r = 3 cm</text>\n\n</svg></span><p>Volymen av en sfär ökar med 12 cm³/s. Hur snabbt ökar radien när \\(r=3\\) cm?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"270\" height=\"180\" viewBox=\"0 0 300 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sfär med växande volym\">\n<rect x=\"10\" y=\"10\" width=\"280\" height=\"185\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<circle cx=\"145\" cy=\"102\" r=\"60\" fill=\"#f8f8ff\" stroke=\"#555\" stroke-width=\"2.2\"/>\n<ellipse cx=\"145\" cy=\"102\" rx=\"60\" ry=\"18\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1.3\"/>\n<line x1=\"145\" y1=\"102\" x2=\"200\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.2\"/>\n<polygon points=\"204,102 194,97 194,107\" fill=\"#b45f32\"/>\n<text x=\"168\" y=\"94\" font-size=\"14\">r = 3 cm</text>\n\n</svg></span><p>Volymen av en sfär ökar med 12 cm³/s. Hur snabbt ökar radien när \\(r=3\\) cm?</p><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Volymen är</p><div class=\"facit-matte\">\\[V=\\frac43\\pi r^3\\].</div></div></li><li><p>Derivera:</p></li><li><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p></li><li><p>Sätt in \\(dV/dt=12\\) cm³/s och \\(r=3\\) cm:</p></li><li><p>\\[12=4\\pi\\cdot3^2\\frac{dr}{dt}=36\\pi\\frac{dr}{dt}.\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\frac{dr}{dt}=\\frac{12}{36\\pi}=\\frac{1}{3\\pi}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(dr/dt=\\frac{1}{3\\pi}\\ \\text{cm/s}\\approx0{,}106\\ \\text{cm/s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
     "id": "3.69",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.106,
-    "tolerans": 0.01,
+    "rättSvar": 0.1061032953945969,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22400,7 +22401,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
@@ -22436,15 +22439,15 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "relaterad förändringshastighet cirkel via omkrets",
     "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg width=\"255\" height=\"180\" viewBox=\"0 0 285 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med växande omkrets\">\n<rect x=\"10\" y=\"10\" width=\"265\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"140\" cy=\"102\" r=\"58\" fill=\"#eef7ff\" stroke=\"#2c62a8\" stroke-width=\"2.4\"/>\n<circle cx=\"140\" cy=\"102\" r=\"3.7\" fill=\"#2c62a8\"/>\n<line x1=\"140\" y1=\"102\" x2=\"194\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.4\"/>\n<polygon points=\"198,102 188,97 188,107\" fill=\"#b45f32\"/>\n<text x=\"162\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">r = 5,0 cm</text>\n</svg></span><p>En cirkels omkrets ökar med \\(0{,}80\\pi\\) cm/s. Hur snabbt ökar cirkelns area när radien är 5,0 cm?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"255\" height=\"180\" viewBox=\"0 0 285 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med växande omkrets\">\n<rect x=\"10\" y=\"10\" width=\"265\" height=\"185\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<circle cx=\"140\" cy=\"102\" r=\"58\" fill=\"#eef7ff\" stroke=\"#2c62a8\" stroke-width=\"2.4\"/>\n<circle cx=\"140\" cy=\"102\" r=\"3.7\" fill=\"#2c62a8\"/>\n<line x1=\"140\" y1=\"102\" x2=\"194\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.4\"/>\n<polygon points=\"198,102 188,97 188,107\" fill=\"#b45f32\"/>\n<text x=\"162\" y=\"94\" font-size=\"14\" fill=\"#7a3d19\">r = 5,0 cm</text>\n</svg></span><p>En cirkels omkrets ökar med \\(0{,}80\\pi\\) cm/s. Hur snabbt ökar cirkelns area när radien är 5,0 cm?</p><p>Svara i cm²/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Omkretsen är</p><div class=\"facit-matte\">\\[O=2\\pi r\\].</div></div></li><li><p>Derivera:</p></li><li><p>\\[\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}.\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt in</p><div class=\"facit-matte\">\\[dO/dt=0{,}80\\pi\\]:</div></div></li><li><p>\\[0{,}80\\pi=2\\pi\\frac{dr}{dt}\\Rightarrow \\frac{dr}{dt}=0{,}40\\ \\text{cm/s}.\\]</p></li><li><p>Arean är \\(A=\\pi r^2\\), så</p></li><li><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p></li><li><p>När \\(r=5,0\\) cm blir</p></li><li><p>\\[\\frac{dA}{dt}=2\\pi\\cdot5{,}0\\cdot0{,}40=4\\pi.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4\\pi\\ \\text{cm}^2/\\text{s}\\approx12{,}6\\ \\text{cm}^2/\\text{s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
     "id": "3.98",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 12.6,
-    "tolerans": 0.01,
+    "rättSvar": 12.566370614359172,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22457,7 +22460,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "kap": 3,
     "omr": "linjar_approximation",
@@ -22491,7 +22496,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterad förändringshastighet båt och rep",
     "poang": "0/3/0",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Båt som dras mot en kaj\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"300\" y=\"35\" width=\"34\" height=\"180\" rx=\"3\" fill=\"#d8dde6\" stroke=\"#8f98a3\"/>\n<rect x=\"35\" y=\"183\" width=\"265\" height=\"8\" rx=\"4\" fill=\"#82bfe9\"/>\n<polygon points=\"110,185 155,185 145,170 120,170\" fill=\"#9c5e2d\" stroke=\"#6b3b1a\"/>\n<line x1=\"300\" y1=\"70\" x2=\"145\" y2=\"170\" stroke=\"#b45f32\" stroke-width=\"2.6\"/>\n<line x1=\"145\" y1=\"170\" x2=\"300\" y2=\"170\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"300\" y1=\"170\" x2=\"300\" y2=\"70\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"163\" font-size=\"14\" fill=\"#1f5687\">x</text>\n<text x=\"311\" y=\"123\" font-size=\"14\" fill=\"#7f1f3d\">3 m</text>\n<text x=\"224\" y=\"113\" font-size=\"14\" fill=\"#7a3d19\">s</text>\n<line x1=\"169\" y1=\"177\" x2=\"150\" y2=\"177\" stroke=\"#2e8b57\" stroke-width=\"2.2\"/>\n<polygon points=\"146,177 156,172 156,182\" fill=\"#2e8b57\"/>\n<text x=\"154\" y=\"195\" font-size=\"12\" fill=\"#2e8b57\">båten rör sig mot kajen</text>\n</svg></span><p>Ett rep går från toppen av en kaj ned till en båt. Fästpunkten på kajen ligger 3,0 m över vattenytan. Repet dras in med hastigheten 0,60 m/s.</p><p>Hur snabbt närmar sig båten kajen när den är 4,0 m från kajen?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Båt som dras mot en kaj\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"300\" y=\"35\" width=\"34\" height=\"180\" rx=\"3\" fill=\"#d8dde6\" stroke=\"#8f98a3\"/>\n<rect x=\"35\" y=\"183\" width=\"265\" height=\"8\" rx=\"4\" fill=\"#82bfe9\"/>\n<polygon points=\"110,185 155,185 145,170 120,170\" fill=\"#9c5e2d\" stroke=\"#6b3b1a\"/>\n<line x1=\"300\" y1=\"70\" x2=\"145\" y2=\"170\" stroke=\"#b45f32\" stroke-width=\"2.6\"/>\n<line x1=\"145\" y1=\"170\" x2=\"300\" y2=\"170\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"300\" y1=\"170\" x2=\"300\" y2=\"70\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"163\" font-size=\"14\" fill=\"#1f5687\">x</text>\n<text x=\"311\" y=\"123\" font-size=\"14\" fill=\"#7f1f3d\">3 m</text>\n<text x=\"224\" y=\"113\" font-size=\"14\" fill=\"#7a3d19\">s</text>\n<line x1=\"169\" y1=\"177\" x2=\"150\" y2=\"177\" stroke=\"#2e8b57\" stroke-width=\"2.2\"/>\n<polygon points=\"146,177 156,172 156,182\" fill=\"#2e8b57\"/>\n<text x=\"154\" y=\"195\" font-size=\"12\" fill=\"#2e8b57\">båten rör sig mot kajen</text>\n</svg></span><p>Ett rep går från toppen av en kaj ned till en båt. Fästpunkten på kajen ligger 3,0 m över vattenytan. Repet dras in med hastigheten 0,60 m/s.</p><p>Hur snabbt närmar sig båten kajen när den är 4,0 m från kajen?</p><p>Svara i m/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten.</p></li><li><p class=\"facit-metod\">Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p></li></ol><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till båt och rep\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"300\" y=\"35\" width=\"34\" height=\"180\" rx=\"3\" fill=\"#d8dde6\" stroke=\"#8f98a3\"/>\n<rect x=\"35\" y=\"183\" width=\"265\" height=\"8\" rx=\"4\" fill=\"#82bfe9\"/>\n<polygon points=\"110,185 155,185 145,170 120,170\" fill=\"#9c5e2d\" stroke=\"#6b3b1a\"/>\n<line x1=\"300\" y1=\"70\" x2=\"145\" y2=\"170\" stroke=\"#b45f32\" stroke-width=\"2.6\"/>\n<line x1=\"145\" y1=\"170\" x2=\"300\" y2=\"170\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"300\" y1=\"170\" x2=\"300\" y2=\"70\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"214\" y=\"163\" font-size=\"14\" fill=\"#1f5687\">x</text>\n<text x=\"311\" y=\"123\" font-size=\"14\" fill=\"#7f1f3d\">3 m</text>\n<text x=\"224\" y=\"113\" font-size=\"14\" fill=\"#7a3d19\">s</text>\n<line x1=\"169\" y1=\"177\" x2=\"150\" y2=\"177\" stroke=\"#2e8b57\" stroke-width=\"2.2\"/>\n<polygon points=\"146,177 156,172 156,182\" fill=\"#2e8b57\"/>\n<text x=\"154\" y=\"195\" font-size=\"12\" fill=\"#2e8b57\">båten rör sig mot kajen</text>\n</svg></span><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(x\\) vara båtens horisontella avstånd till kajen och \\(s\\) repets längd.</p></li><li><p>Av figuren gäller Pythagoras sats:</p></li><li><p>\\[s^2=x^2+3^2=x^2+9.\\]</p></li><li><p>Derivera med avseende på tiden:</p></li><li><p>\\[2ss'=2xx'\\quad\\Rightarrow\\quad ss'=xx'.\\]</p></li><li><p>När \\(x=4,0\\) m är</p></li><li><p>\\[s=\\sqrt{4^2+3^2}=5,0\\ \\text{m}.\\]</p></li><li><p>Repet blir kortare, alltså är \\(s'=-0{,}60\\) m/s.</p></li><li><p>Sätt in:</p></li><li><p>\\[5{,}0\\cdot(-0,60)=4{,}0x'.\\]</p></li><li><p>Det ger</p></li><li><p>\\[x'=-0{,}75\\ \\text{m/s}.\\]</p></li><li><p>Minustecknet visar att avståndet minskar.</p></li></ol><p class=\"facit-svar\"><strong>Svar: båten närmar sig kajen med \\(0{,}75\\ \\text{m/s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
     "id": "3.100",
     "miniräknare": true,
@@ -22499,7 +22504,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 0.75,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22513,22 +22518,24 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "m/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "C",
     "typ": "relaterad förändringshastighet sfär",
     "poang": "0/2/0",
-    "t": "<span class=\"fig smal\"><svg width=\"270\" height=\"180\" viewBox=\"0 0 300 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sfär med växande volym\">\n<rect x=\"10\" y=\"10\" width=\"280\" height=\"185\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<circle cx=\"145\" cy=\"102\" r=\"60\" fill=\"#f8f8ff\" stroke=\"#555\" stroke-width=\"2.2\"/>\n<ellipse cx=\"145\" cy=\"102\" rx=\"60\" ry=\"18\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1.3\"/>\n<line x1=\"145\" y1=\"102\" x2=\"200\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.2\"/>\n<polygon points=\"204,102 194,97 194,107\" fill=\"#b45f32\"/>\n<text x=\"168\" y=\"94\" font-size=\"14\">r = 2,0 cm</text>\n\n</svg></span><p>Volymen av en sfär ökar med \\(30\\text{ cm}^3/\\text{s}\\). Hur snabbt ökar radien när \\(r=2,0\\) cm?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"270\" height=\"180\" viewBox=\"0 0 300 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Sfär med växande volym\">\n<rect x=\"10\" y=\"10\" width=\"280\" height=\"185\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<circle cx=\"145\" cy=\"102\" r=\"60\" fill=\"#f8f8ff\" stroke=\"#555\" stroke-width=\"2.2\"/>\n<ellipse cx=\"145\" cy=\"102\" rx=\"60\" ry=\"18\" fill=\"none\" stroke=\"#aaa\" stroke-width=\"1.3\"/>\n<line x1=\"145\" y1=\"102\" x2=\"200\" y2=\"102\" stroke=\"#b45f32\" stroke-width=\"2.2\"/>\n<polygon points=\"204,102 194,97 194,107\" fill=\"#b45f32\"/>\n<text x=\"168\" y=\"94\" font-size=\"14\">r = 2,0 cm</text>\n\n</svg></span><p>Volymen av en sfär ökar med \\(30\\text{ cm}^3/\\text{s}\\). Hur snabbt ökar radien när \\(r=2,0\\) cm?</p><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Volymen av en sfär är</p><div class=\"facit-matte\">\\[V=\\frac43\\pi r^3\\].</div></div></li><li><p>Då</p></li><li><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}.\\]</p></li><li><p>Sätt in \\(dV/dt=30\\) cm³/s och \\(r=2,0\\) cm:</p></li><li><p>\\[30=4\\pi\\cdot2^2\\frac{dr}{dt}=16\\pi\\frac{dr}{dt}.\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\frac{dr}{dt}=\\frac{30}{16\\pi}=\\frac{15}{8\\pi}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(dr/dt=\\frac{15}{8\\pi}\\ \\text{cm/s}\\approx0{,}597\\ \\text{cm/s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
     "id": "3.101",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.597,
-    "tolerans": 0.01,
+    "rättSvar": 0.5968310365946076,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22541,7 +22548,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm/s"
+},
   {
     "id": "3.110",
     "kap": 3,
@@ -22549,14 +22558,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "relaterad förändringshastighet för kvadrat via diagonal",
     "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg width=\"240\" height=\"190\" viewBox=\"0 0 260 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kvadrat med diagonal d\">\n<rect x=\"10\" y=\"10\" width=\"240\" height=\"190\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"70\" y=\"50\" width=\"110\" height=\"110\" fill=\"#eef6ff\" stroke=\"#2c62a8\" stroke-width=\"2.5\"/>\n<line x1=\"70\" y1=\"160\" x2=\"180\" y2=\"50\" stroke=\"#b45f32\" stroke-width=\"2.4\"/>\n<text x=\"122\" y=\"101\" font-size=\"14\" fill=\"#7a3d19\">d</text>\n</svg></span><p>En kvadrats diagonal \\(d\\) ökar med 0,80 cm/s. Hur snabbt ökar kvadratens area när diagonalen är 10 cm?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"240\" height=\"190\" viewBox=\"0 0 260 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Kvadrat med diagonal d\">\n<rect x=\"10\" y=\"10\" width=\"240\" height=\"190\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"70\" y=\"50\" width=\"110\" height=\"110\" fill=\"#eef6ff\" stroke=\"#2c62a8\" stroke-width=\"2.5\"/>\n<line x1=\"70\" y1=\"160\" x2=\"180\" y2=\"50\" stroke=\"#b45f32\" stroke-width=\"2.4\"/>\n<text x=\"122\" y=\"101\" font-size=\"14\" fill=\"#7a3d19\">d</text>\n</svg></span><p>En kvadrats diagonal \\(d\\) ökar med 0,80 cm/s. Hur snabbt ökar kvadratens area när diagonalen är 10 cm?</p><p>Svara i cm²/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För en kvadrat gäller \\(A=\\frac{d^2}{2}\\), eftersom \\(d=s\\sqrt2\\).</p></li><li><p>Derivera:</p></li><li><p>\\[\\frac{dA}{dt}=d\\frac{dd}{dt}.\\]</p></li><li><p>Sätt in \\(d=10\\) cm och \\(dd/dt=0{,}80\\) cm/s:</p></li><li><p>\\[\\frac{dA}{dt}=10\\cdot0{,}80=8{,}0.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: arean ökar med \\(8{,}0\\ \\text{cm}^2/\\text{s}\\).</strong></p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 8,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22569,7 +22578,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "id": "3.111",
     "kap": 3,
@@ -22577,14 +22588,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "cylinder med känt inflöde",
     "poang": "2/0/0",
-    "t": "<span class=\"fig smal\"><svg width=\"270\" height=\"200\" viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cylinder med konstant radie\">\n<rect x=\"10\" y=\"10\" width=\"280\" height=\"200\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<ellipse cx=\"145\" cy=\"55\" rx=\"52\" ry=\"16\" fill=\"#f8fbff\" stroke=\"#555\" stroke-width=\"2\"/>\n<line x1=\"93\" y1=\"55\" x2=\"93\" y2=\"165\" stroke=\"#555\" stroke-width=\"2\"/>\n<line x1=\"197\" y1=\"55\" x2=\"197\" y2=\"165\" stroke=\"#555\" stroke-width=\"2\"/>\n<ellipse cx=\"145\" cy=\"165\" rx=\"52\" ry=\"16\" fill=\"#eef6ff\" stroke=\"#555\" stroke-width=\"2\"/>\n<line x1=\"145\" y1=\"165\" x2=\"145\" y2=\"55\" stroke=\"#b45f32\" stroke-width=\"2\"/>\n<text x=\"154\" y=\"111\" font-size=\"14\">h</text>\n<line x1=\"145\" y1=\"55\" x2=\"193\" y2=\"55\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<text x=\"153\" y=\"47\" font-size=\"13\">r = 2 dm</text>\n</svg></span><p>En cylindrisk behållare har konstant radie 2 dm. Volymen ökar med 1,6 dm³/min.</p><p>Hur snabbt stiger vätskenivån?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"270\" height=\"200\" viewBox=\"0 0 300 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cylinder med konstant radie\">\n<rect x=\"10\" y=\"10\" width=\"280\" height=\"200\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<ellipse cx=\"145\" cy=\"55\" rx=\"52\" ry=\"16\" fill=\"#f8fbff\" stroke=\"#555\" stroke-width=\"2\"/>\n<line x1=\"93\" y1=\"55\" x2=\"93\" y2=\"165\" stroke=\"#555\" stroke-width=\"2\"/>\n<line x1=\"197\" y1=\"55\" x2=\"197\" y2=\"165\" stroke=\"#555\" stroke-width=\"2\"/>\n<ellipse cx=\"145\" cy=\"165\" rx=\"52\" ry=\"16\" fill=\"#eef6ff\" stroke=\"#555\" stroke-width=\"2\"/>\n<line x1=\"145\" y1=\"165\" x2=\"145\" y2=\"55\" stroke=\"#b45f32\" stroke-width=\"2\"/>\n<text x=\"154\" y=\"111\" font-size=\"14\">h</text>\n<line x1=\"145\" y1=\"55\" x2=\"193\" y2=\"55\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<text x=\"153\" y=\"47\" font-size=\"13\">r = 2 dm</text>\n</svg></span><p>En cylindrisk behållare har konstant radie 2 dm. Volymen ökar med 1,6 dm³/min.</p><p>Hur snabbt stiger vätskenivån?</p><p>Svara i dm/min.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Volymen av en cylinder är</p><div class=\"facit-matte\">\\[V=\\pi r^2h\\].</div></div></li><li><p>Här är \\(r=2\\) dm konstant, så</p></li><li><p>\\[V=4\\pi h.\\]</p></li><li><p>Derivera:</p></li><li><p>\\[\\frac{dV}{dt}=4\\pi\\frac{dh}{dt}.\\]</p></li><li><p>Sätt in \\(dV/dt=1,6\\) dm³/min:</p></li><li><p>\\[1{,}6=4\\pi\\frac{dh}{dt}\\Rightarrow \\frac{dh}{dt}=\\frac{0{,}4}{\\pi}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(dh/dt=\\frac{0{,}4}{\\pi}\\ \\text{dm/min}\\approx0{,}127\\ \\text{dm/min}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.127,
-    "tolerans": 0.01,
+    "rättSvar": 0.12732395447351627,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22596,7 +22607,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "dm/min"
+},
   {
     "id": "3.112",
     "kap": 3,
@@ -22604,14 +22617,14 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterade förändringshastigheter två fordon ny variant",
     "poang": "0/2/0",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 420 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två fordon på vinkelräta vägar\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"225\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<rect x=\"182\" y=\"25\" width=\"56\" height=\"205\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"25\" y=\"102\" width=\"370\" height=\"56\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"170\" y=\"90\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.6\"/>\n<circle cx=\"210\" cy=\"70\" r=\"4.5\" fill=\"#8b1e3f\"/><rect x=\"198\" y=\"57\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#c95477\" stroke=\"#8b1e3f\"/>\n<circle cx=\"318\" cy=\"130\" r=\"4.5\" fill=\"#0e5d9e\"/><rect x=\"306\" y=\"121\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#5fa8dd\" stroke=\"#0e5d9e\"/>\n<line x1=\"210\" y1=\"130\" x2=\"210\" y2=\"70\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"130\" x2=\"318\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"70\" x2=\"318\" y2=\"130\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"192\" y=\"103\" font-size=\"15\">y</text>\n<text x=\"260\" y=\"124\" font-size=\"15\">x</text>\n<text x=\"256\" y=\"96\" font-size=\"15\">s</text>\n<line x1=\"210\" y1=\"54\" x2=\"210\" y2=\"32\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"210,28 205,38 215,38\" fill=\"#8b1e3f\"/>\n<line x1=\"334\" y1=\"130\" x2=\"356\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"360,130 350,125 350,135\" fill=\"#0e5d9e\"/>\n<text x=\"116\" y=\"50\" font-size=\"12\">72 km/h</text><text x=\"307\" y=\"166\" font-size=\"12\">v km/h</text>\n<text x=\"223\" y=\"145\" font-size=\"13\">korsning</text>\n<text x=\"195\" y=\"50\" font-size=\"13\">A</text>\n<text x=\"334\" y=\"145\" font-size=\"13\">B</text>\n</svg></span><p>Två vägar korsar varandra vinkelrätt. En buss är 500 m väster om korsningen och kör österut med 72 km/h. En lastbil är 1200 m norr om korsningen och kör norrut. I detta ögonblick ökar avståndet mellan dem med 84 km/h.</p><p>Bestäm lastbilens hastighet.</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 420 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Två fordon på vinkelräta vägar\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"225\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<rect x=\"182\" y=\"25\" width=\"56\" height=\"205\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"25\" y=\"102\" width=\"370\" height=\"56\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"170\" y=\"90\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.6\"/>\n<circle cx=\"210\" cy=\"70\" r=\"4.5\" fill=\"#8b1e3f\"/><rect x=\"198\" y=\"57\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#c95477\" stroke=\"#8b1e3f\"/>\n<circle cx=\"318\" cy=\"130\" r=\"4.5\" fill=\"#0e5d9e\"/><rect x=\"306\" y=\"121\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#5fa8dd\" stroke=\"#0e5d9e\"/>\n<line x1=\"210\" y1=\"130\" x2=\"210\" y2=\"70\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"130\" x2=\"318\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"70\" x2=\"318\" y2=\"130\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"192\" y=\"103\" font-size=\"15\">y</text>\n<text x=\"260\" y=\"124\" font-size=\"15\">x</text>\n<text x=\"256\" y=\"96\" font-size=\"15\">s</text>\n<line x1=\"210\" y1=\"54\" x2=\"210\" y2=\"32\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"210,28 205,38 215,38\" fill=\"#8b1e3f\"/>\n<line x1=\"334\" y1=\"130\" x2=\"356\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"360,130 350,125 350,135\" fill=\"#0e5d9e\"/>\n<text x=\"116\" y=\"50\" font-size=\"12\">72 km/h</text><text x=\"307\" y=\"166\" font-size=\"12\">v km/h</text>\n<text x=\"223\" y=\"145\" font-size=\"13\">korsning</text>\n<text x=\"195\" y=\"50\" font-size=\"13\">A</text>\n<text x=\"334\" y=\"145\" font-size=\"13\">B</text>\n</svg></span><p>Två vägar korsar varandra vinkelrätt. En buss är 500 m väster om korsningen och kör österut med 72 km/h. En lastbil är 1200 m norr om korsningen och kör norrut. I detta ögonblick ökar avståndet mellan dem med 84 km/h.</p><p>Bestäm lastbilens hastighet.</p><p>Svara i km/h.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 420 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till två fordon på vinkelräta vägar\">\n<rect x=\"15\" y=\"15\" width=\"390\" height=\"225\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<rect x=\"182\" y=\"25\" width=\"56\" height=\"205\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"25\" y=\"102\" width=\"370\" height=\"56\" fill=\"#ececec\" stroke=\"#777\"/>\n<rect x=\"170\" y=\"90\" width=\"12\" height=\"12\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.6\"/>\n<circle cx=\"210\" cy=\"70\" r=\"4.5\" fill=\"#8b1e3f\"/><rect x=\"198\" y=\"57\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#c95477\" stroke=\"#8b1e3f\"/>\n<circle cx=\"318\" cy=\"130\" r=\"4.5\" fill=\"#0e5d9e\"/><rect x=\"306\" y=\"121\" width=\"24\" height=\"18\" rx=\"3\" fill=\"#5fa8dd\" stroke=\"#0e5d9e\"/>\n<line x1=\"210\" y1=\"130\" x2=\"210\" y2=\"70\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"130\" x2=\"318\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"210\" y1=\"70\" x2=\"318\" y2=\"130\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"192\" y=\"103\" font-size=\"15\">x</text>\n<text x=\"260\" y=\"124\" font-size=\"15\">y</text>\n<text x=\"256\" y=\"96\" font-size=\"15\">s</text>\n<line x1=\"210\" y1=\"54\" x2=\"210\" y2=\"32\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<polygon points=\"210,28 205,38 215,38\" fill=\"#8b1e3f\"/>\n<line x1=\"334\" y1=\"130\" x2=\"356\" y2=\"130\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<polygon points=\"360,130 350,125 350,135\" fill=\"#0e5d9e\"/>\n<text x=\"116\" y=\"50\" font-size=\"12\">72 km/h</text><text x=\"307\" y=\"166\" font-size=\"12\">v km/h</text>\n<text x=\"223\" y=\"145\" font-size=\"13\">korsning</text>\n<text x=\"195\" y=\"50\" font-size=\"13\">A</text>\n<text x=\"334\" y=\"145\" font-size=\"13\">B</text>\n</svg></span><ol class=\"facit-steglista\" role=\"list\"><li><p>Vi räknar i km.</p></li><li><p>Låt \\(x\\) vara bussens avstånd till korsningen och \\(y\\) lastbilens avstånd till korsningen.</p></li><li><div class=\"facit-berakning\"><p>Då är</p><div class=\"facit-matte\">\\[x=0,5\\],</div></div></li><li><div class=\"facit-matte\">\\[y=1,2\\].</div></li><li><div class=\"facit-berakning\"><p>Bussen närmar sig korsningen, så</p><div class=\"facit-matte\">\\[x'=-72\\].</div></div></li><li><div class=\"facit-berakning\"><p>Lastbilen kör bort från korsningen, så</p><div class=\"facit-matte\">\\[y'=v\\].</div></div></li><li><p>Avståndet mellan dem betecknas \\(s\\), och \\(s'=84\\).</p></li><li><p>Pythagoras ger \\(s^2=x^2+y^2\\), alltså \\(ss'=xx'+yy'\\).</p></li><li><p>Först är \\(s=\\sqrt{0{,}5^2+1{,}2^2}=1,3\\) km.</p></li><li><p>Sätt in:</p></li><li><p>\\[1{,}3\\cdot84=0{,}5\\cdot(-72)+1{,}2v.\\]</p></li><li><p>Det ger \\(109{,}2=-36+1{,}2v\\), alltså \\(1{,}2v=145,2\\) och</p></li><li><p>\\[v=121.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: lastbilen kör \\(121\\ \\text{km/h}\\).</strong></p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 121,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22625,7 +22638,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "km/h"
+},
   {
     "id": "3.113",
     "kap": 3,
@@ -22633,14 +22648,14 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "konisk behållare med sambandet r lika med 2h",
     "poang": "0/2/0",
-    "t": "<span class=\"fig smal\"><svg width=\"300\" height=\"225\" viewBox=\"0 0 340 255\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Konisk behållare med r = 2h\">\n<rect x=\"10\" y=\"10\" width=\"320\" height=\"235\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"95\" y1=\"45\" x2=\"170\" y2=\"205\" stroke=\"#555\" stroke-width=\"2.4\"/>\n<line x1=\"245\" y1=\"45\" x2=\"170\" y2=\"205\" stroke=\"#555\" stroke-width=\"2.4\"/>\n<line x1=\"95\" y1=\"45\" x2=\"245\" y2=\"45\" stroke=\"#555\" stroke-width=\"2.4\"/>\n<line x1=\"170\" y1=\"205\" x2=\"170\" y2=\"115\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<text x=\"178\" y=\"166\" font-size=\"14\">h</text>\n<line x1=\"170\" y1=\"115\" x2=\"208\" y2=\"115\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<text x=\"182\" y=\"108\" font-size=\"14\">r = 2h</text>\n<line x1=\"72\" y1=\"62\" x2=\"72\" y2=\"204\" stroke=\"#999\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/>\n<line x1=\"265\" y1=\"45\" x2=\"265\" y2=\"205\" stroke=\"#999\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/>\n\n<line x1=\"270\" y1=\"48\" x2=\"270\" y2=\"22\" stroke=\"#2E7D52\" stroke-width=\"2\"/>\n<polygon points=\"270,18 265,28 275,28\" fill=\"#2E7D52\"/>\n<text x=\"248\" y=\"32\" font-size=\"12\">dV/dt = 3,0 dm³/s</text>\n</svg></span><p>I en konisk behållare gäller hela tiden sambandet \\(r=2h\\) för vätskans yta. Volymen ökar med 3,0 dm³/s.</p><p>Bestäm \\(dh/dt\\) när \\(h=2,0\\) dm.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Volymen ges av</p><div class=\"facit-matte\">\\[V=\\frac13\\pi r^2h\\].</div></div></li><li><p>Med \\(r=2h\\) får vi</p></li><li><p>\\[V=\\frac13\\pi(2h)^2h=\\frac43\\pi h^3.\\]</p></li><li><p>Derivera:</p></li><li><p>\\[\\frac{dV}{dt}=4\\pi h^2\\frac{dh}{dt}.\\]</p></li><li><p>När \\(h=2,0\\) dm blir</p></li><li><p>\\[3{,}0=4\\pi\\cdot2{,}0^2\\frac{dh}{dt}=16\\pi\\frac{dh}{dt}.\\]</p></li><li><p>Alltså</p></li><li><p>\\[\\frac{dh}{dt}=\\frac{3}{16\\pi}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(dh/dt=\\frac{3}{16\\pi}\\ \\text{dm/s}\\approx0{,}0597\\ \\text{dm/s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
+    "t": "<span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 290\" width=\"380\" height=\"290\" role=\"img\" aria-label=\"Konisk behållare med spetsen nedåt och vatten till höjden 2,0 dm\" font-family=\"sans-serif\" font-size=\"15\" fill=\"#243447\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"288\" rx=\"9\" fill=\"white\" stroke=\"#ccd6df\"/><path d=\"M55 72 L190 242 L325 72\" fill=\"none\" stroke=\"#425466\" stroke-width=\"2\"/><ellipse cx=\"190\" cy=\"72\" rx=\"135\" ry=\"32\" fill=\"none\" stroke=\"#425466\" stroke-width=\"2\"/><path d=\"M110 141 L190 242 L270 141 A80 19 0 0 0 110 141\" fill=\"#55aadd\" fill-opacity=\".3\"/><ellipse cx=\"190\" cy=\"141\" rx=\"80\" ry=\"19\" fill=\"#55aadd\" fill-opacity=\".24\" stroke=\"#2674a2\"/><path d=\"M190 141 V242 M190 141 H270\" stroke=\"#243447\" stroke-dasharray=\"4 3\" fill=\"none\"/><text x=\"203\" y=\"192\">h = 2,0 dm</text><text x=\"218\" y=\"111\">r = 2h</text><text x=\"190\" y=\"271\" text-anchor=\"middle\">Vatten fylls på: 3,0 dm³/s</text><text x=\"190\" y=\"27\" text-anchor=\"middle\">Schematisk figur</text></svg></span><p>I en konisk behållare gäller hela tiden sambandet \\(r=2h\\) för vätskans yta. Volymen ökar med 3,0 dm³/s.</p><p>Bestäm \\(dh/dt\\) när \\(h=2,0\\) dm.</p><p>Svara i dm/s.</p>",
+    "s": "<div class=\"facit-v2\"><p>Med \\(r=2h\\) blir vätskans volym</p>\\[V=\\frac13\\pi(2h)^2h=\\frac43\\pi h^3.\\]<p>Derivera med avseende på tiden:</p>\\[\\frac{dV}{dt}=4\\pi h^2\\frac{dh}{dt}.\\]<p>Sätt in \\(dV/dt=3\\) dm³/s och \\(h=2\\) dm:</p>\\[3=16\\pi\\frac{dh}{dt}.\\]<p><strong>Svar:</strong> \\(dh/dt=3/(16\\pi)\\approx0{,}0597\\) dm/s.</p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.0597,
-    "tolerans": 0.0005,
+    "rättSvar": 0.05968310365946075,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22653,7 +22668,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "dm/s"
+},
   {
     "id": "3.114",
     "kap": 3,
@@ -22661,14 +22678,14 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterade förändringshastigheter strålkastare och vägg",
     "poang": "0/2/0",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Strålkastare som lyser mot en vägg\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"65\" y=\"205\" width=\"280\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"305\" y=\"45\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<circle cx=\"105\" cy=\"205\" r=\"6\" fill=\"#444\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#d8a62a\" stroke-width=\"3\"/>\n<circle cx=\"305\" cy=\"120\" r=\"5\" fill=\"#f3ca62\" stroke=\"#a77b13\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"205\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"305\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"194\" y=\"198\" font-size=\"14\" fill=\"#1f5687\">12 m</text>\n<text x=\"314\" y=\"166\" font-size=\"14\" fill=\"#7f1f3d\">y</text>\n<path d=\"M123 205 A18 18 0 0 0 121.566 197.959\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"128\" y=\"198\" font-size=\"13\" fill=\"#333\">v</text>\n</svg></span><p>En strålkastare står på marken 12 m från en lodrät vägg. Ljuskäglans träffpunkt på väggen rör sig uppåt med 3,0 m/s.</p><p>Hur snabbt ändras vinkeln \\(v\\) mellan marken och ljusstrålen när träffpunkten ligger 5,0 m över marken?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Strålkastare som lyser mot en vägg\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"65\" y=\"205\" width=\"280\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"305\" y=\"45\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<circle cx=\"105\" cy=\"205\" r=\"6\" fill=\"#444\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#d8a62a\" stroke-width=\"3\"/>\n<circle cx=\"305\" cy=\"120\" r=\"5\" fill=\"#f3ca62\" stroke=\"#a77b13\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"205\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"305\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"194\" y=\"198\" font-size=\"14\" fill=\"#1f5687\">12 m</text>\n<text x=\"314\" y=\"166\" font-size=\"14\" fill=\"#7f1f3d\">y</text>\n<path d=\"M123 205 A18 18 0 0 0 121.566 197.959\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"128\" y=\"198\" font-size=\"13\" fill=\"#333\">v</text>\n</svg></span><p>En strålkastare står på marken 12 m från en lodrät vägg. Ljuskäglans träffpunkt på väggen rör sig uppåt med 3,0 m/s.</p><p>Hur snabbt ändras vinkeln \\(v\\) mellan marken och ljusstrålen när träffpunkten ligger 5,0 m över marken?</p><p>Svara i rad/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Derivatan beskriver förändringshastigheten.</p></li><li><p class=\"facit-metod\">Derivera med en regel i taget, lös sedan rätt ekvation och tolka teckenbytet eller enheten i sammanhanget.</p></li></ol><div class=\"facit-arbete\"><span class=\"fig smal\"><svg width=\"360\" height=\"220\" viewBox=\"0 0 410 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till strålkastare och vägg\">\n<rect x=\"10\" y=\"10\" width=\"390\" height=\"230\" rx=\"10\" fill=\"#fcfcfd\" stroke=\"#d8dde6\"/>\n<rect x=\"65\" y=\"205\" width=\"280\" height=\"8\" rx=\"4\" fill=\"#d6c7b2\"/>\n<rect x=\"305\" y=\"45\" width=\"8\" height=\"168\" rx=\"4\" fill=\"#d8dde6\"/>\n<circle cx=\"105\" cy=\"205\" r=\"6\" fill=\"#444\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#d8a62a\" stroke-width=\"3\"/>\n<circle cx=\"305\" cy=\"120\" r=\"5\" fill=\"#f3ca62\" stroke=\"#a77b13\"/>\n<line x1=\"105\" y1=\"205\" x2=\"305\" y2=\"205\" stroke=\"#2a72b5\" stroke-width=\"2.4\"/>\n<line x1=\"305\" y1=\"205\" x2=\"305\" y2=\"120\" stroke=\"#a92d51\" stroke-width=\"2.4\"/>\n<text x=\"194\" y=\"198\" font-size=\"14\" fill=\"#1f5687\">12 m</text>\n<text x=\"314\" y=\"166\" font-size=\"14\" fill=\"#7f1f3d\">y</text>\n<path d=\"M87 197 A18 18 0 0 1 96 181\" fill=\"none\" stroke=\"#333\" stroke-width=\"1.5\"/>\n<text x=\"92\" y=\"186\" font-size=\"13\" fill=\"#333\">v</text>\n</svg></span><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(y\\) vara höjden på väggen och \\(v\\) vinkeln mellan marken och ljusstrålen.</p></li><li><p>Av figuren gäller</p></li><li><p>\\[\\tan v=\\frac{y}{12}.\\]</p></li><li><p>Derivera med avseende på tiden:</p></li><li><p>\\[\\sec^2(v)\\,v'=\\frac{1}{12}y'.\\]</p></li><li><p>När \\(y=5,0\\) m gäller \\(\\tan v=5/12\\).</p></li><li><p>Då får vi från en 5-12-13-triangel att</p></li><li><p>\\[\\sec^2(v)=\\left(\\frac{13}{12}\\right)^2=\\frac{169}{144}.\\]</p></li><li><p>Sätt in \\(y'=3,0\\) m/s:</p></li><li><p>\\[\\frac{169}{144}v'=\\frac{3{,}0}{12}=\\frac14.\\]</p></li><li><p>Alltså</p></li><li><p>\\[v'=\\frac14\\cdot\\frac{144}{169}=\\frac{36}{169}\\approx0{,}213.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: vinkeln ändras med ungefär \\(0{,}213\\ \\text{rad/s}\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera tecknet och enheten.</p></li><li><p class=\"facit-not\">Alla längder och hastigheter måste vara uttryckta i kompatibla enheter innan du sätter in dem.</p></li></ol></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 0.213,
-    "tolerans": 0.01,
+    "rättSvar": 0.21301775147928995,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22682,7 +22699,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "rad/s"
+},
   {
     "id": "3.115",
     "kap": 3,
@@ -22690,14 +22709,14 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterade förändringshastigheter helikopter",
     "poang": "0/3/0",
-    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"225\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Helikopter och observatör på marken\">\n<rect x=\"12\" y=\"12\" width=\"396\" height=\"226\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"40\" y1=\"195\" x2=\"390\" y2=\"195\" stroke=\"#666\" stroke-width=\"2.5\"/>\n<circle cx=\"90\" cy=\"195\" r=\"4\" fill=\"#333\"/><text x=\"64\" y=\"212\" font-size=\"13\">O</text>\n<line x1=\"250\" y1=\"85\" x2=\"282\" y2=\"85\" stroke=\"#333\" stroke-width=\"3\"/>\n<rect x=\"250\" y=\"90\" width=\"34\" height=\"13\" rx=\"5\" fill=\"#5fa8dd\" stroke=\"#0e5d9e\"/>\n<line x1=\"267\" y1=\"85\" x2=\"267\" y2=\"72\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"245\" y1=\"72\" x2=\"289\" y2=\"72\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"250\" y1=\"195\" x2=\"250\" y2=\"98\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"90\" y1=\"195\" x2=\"250\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"90\" y1=\"195\" x2=\"267\" y2=\"96\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"171\" y=\"188\" font-size=\"14\">x</text>\n<text x=\"254\" y=\"151\" font-size=\"14\">1,2 km</text>\n<text x=\"178\" y=\"136\" font-size=\"14\">s</text>\n</svg></span><p>En helikopter flyger horisontellt på höjden 1,2 km. När den är 1,6 km horisontellt från en observatör på marken ökar avståndet mellan observatören och helikoptern med 150 km/h.</p><p>Bestäm helikopterns hastighet.</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"360\" height=\"225\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Helikopter och observatör på marken\">\n<rect x=\"12\" y=\"12\" width=\"396\" height=\"226\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"40\" y1=\"195\" x2=\"390\" y2=\"195\" stroke=\"#666\" stroke-width=\"2.5\"/>\n<circle cx=\"90\" cy=\"195\" r=\"4\" fill=\"#333\"/><text x=\"64\" y=\"212\" font-size=\"13\">O</text>\n<line x1=\"250\" y1=\"85\" x2=\"282\" y2=\"85\" stroke=\"#333\" stroke-width=\"3\"/>\n<rect x=\"250\" y=\"90\" width=\"34\" height=\"13\" rx=\"5\" fill=\"#5fa8dd\" stroke=\"#0e5d9e\"/>\n<line x1=\"267\" y1=\"85\" x2=\"267\" y2=\"72\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"245\" y1=\"72\" x2=\"289\" y2=\"72\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"250\" y1=\"195\" x2=\"250\" y2=\"98\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"90\" y1=\"195\" x2=\"250\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"90\" y1=\"195\" x2=\"267\" y2=\"96\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"171\" y=\"188\" font-size=\"14\">x</text>\n<text x=\"254\" y=\"151\" font-size=\"14\">1,2 km</text>\n<text x=\"178\" y=\"136\" font-size=\"14\">s</text>\n</svg></span><p>En helikopter flyger horisontellt på höjden 1,2 km. När den är 1,6 km horisontellt från en observatör på marken ökar avståndet mellan observatören och helikoptern med 150 km/h.</p><p>Bestäm helikopterns hastighet.</p><p>Svara i km/h.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><span class=\"fig smal\"><svg width=\"360\" height=\"225\" viewBox=\"0 0 420 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Facitfigur till helikopter\">\n<rect x=\"12\" y=\"12\" width=\"396\" height=\"226\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<line x1=\"40\" y1=\"195\" x2=\"390\" y2=\"195\" stroke=\"#666\" stroke-width=\"2.5\"/>\n<circle cx=\"90\" cy=\"195\" r=\"4\" fill=\"#333\"/><text x=\"64\" y=\"212\" font-size=\"13\">O</text>\n<line x1=\"250\" y1=\"85\" x2=\"282\" y2=\"85\" stroke=\"#333\" stroke-width=\"3\"/>\n<rect x=\"250\" y=\"90\" width=\"34\" height=\"13\" rx=\"5\" fill=\"#5fa8dd\" stroke=\"#0e5d9e\"/>\n<line x1=\"267\" y1=\"85\" x2=\"267\" y2=\"72\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"245\" y1=\"72\" x2=\"289\" y2=\"72\" stroke=\"#333\" stroke-width=\"2\"/>\n<line x1=\"250\" y1=\"195\" x2=\"250\" y2=\"98\" stroke=\"#8b1e3f\" stroke-width=\"2\"/>\n<line x1=\"90\" y1=\"195\" x2=\"250\" y2=\"195\" stroke=\"#0e5d9e\" stroke-width=\"2\"/>\n<line x1=\"90\" y1=\"195\" x2=\"267\" y2=\"96\" stroke=\"#b48a18\" stroke-width=\"2.2\"/>\n<text x=\"171\" y=\"188\" font-size=\"14\">x</text>\n<text x=\"254\" y=\"151\" font-size=\"14\">1,2 km</text>\n<text x=\"178\" y=\"136\" font-size=\"14\">s</text>\n</svg></span><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt \\(x\\) vara det horisontella avståndet från observatören till punkten rakt under helikoptern och \\(s\\) avståndet till helikoptern.</p></li><li><p>Höjden är konstant 1,2 km.</p></li><li><p>Vi har sambandet</p></li><li><p>\\[s^2=x^2+1{,}2^2.\\]</p></li><li><p>Derivera:</p></li><li><p>\\[2ss'=2xx'\\quad\\Rightarrow\\quad ss'=xx'.\\]</p></li><li><p>När \\(x=1,6\\) km blir</p></li><li><p>\\[s=\\sqrt{1{,}6^2+1{,}2^2}=2,0\\ \\text{km}.\\]</p></li><li><p>Eftersom \\(s'=150\\) km/h får vi</p></li><li><p>\\[2{,}0\\cdot150=1{,}6x'.\\]</p></li><li><p>Alltså</p></li><li><p>\\[x'=\\frac{300}{1{,}6}=187{,}5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: helikopterns hastighet är \\(187{,}5\\ \\text{km/h}\\).</strong></p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 187.5,
-    "tolerans": null,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22711,7 +22730,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "km/h"
+},
   {
     "id": "3.116",
     "kap": 3,
@@ -22746,26 +22767,28 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "cirkelns omkrets från areaändring",
     "poang": "0/2/0",
-    "t": "<span class=\"fig smal\"><svg width=\"260\" height=\"180\" viewBox=\"0 0 290 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med växande area\">\n<rect x=\"10\" y=\"10\" width=\"270\" height=\"185\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<circle cx=\"140\" cy=\"105\" r=\"58\" fill=\"#f7fbff\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"140\" cy=\"105\" r=\"3.5\" fill=\"#2C62A8\"/>\n<line x1=\"140\" y1=\"105\" x2=\"194\" y2=\"105\" stroke=\"#b45f32\" stroke-width=\"2.2\"/>\n<polygon points=\"198,105 188,100 188,110\" fill=\"#b45f32\"/>\n<text x=\"163\" y=\"97\" font-size=\"14\">r</text>\n\n</svg></span><p>En cirkels area ökar med \\(6\\pi\\ \\text{cm}^2/\\text{s}\\). Hur snabbt ökar omkretsen när radien är 3,0 cm?</p>",
+    "t": "<span class=\"fig smal\"><svg width=\"260\" height=\"180\" viewBox=\"0 0 290 205\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Cirkel med växande area\">\n<rect x=\"10\" y=\"10\" width=\"270\" height=\"185\" rx=\"8\" fill=\"white\" stroke=\"#d0d0d0\"/>\n<circle cx=\"140\" cy=\"105\" r=\"58\" fill=\"#f7fbff\" stroke=\"#2C62A8\" stroke-width=\"2.2\"/>\n<circle cx=\"140\" cy=\"105\" r=\"3.5\" fill=\"#2C62A8\"/>\n<line x1=\"140\" y1=\"105\" x2=\"194\" y2=\"105\" stroke=\"#b45f32\" stroke-width=\"2.2\"/>\n<polygon points=\"198,105 188,100 188,110\" fill=\"#b45f32\"/>\n<text x=\"163\" y=\"97\" font-size=\"14\">r</text>\n\n</svg></span><p>En cirkels area ökar med \\(6\\pi\\ \\text{cm}^2/\\text{s}\\). Hur snabbt ökar omkretsen när radien är 3,0 cm?</p><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vi använder först sambandet för arean:</p></li><li><p>\\[A=\\pi r^2\\Rightarrow \\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p></li><li><p>När \\(r=3,0\\) cm och \\(dA/dt=6\\pi\\) får vi</p></li><li><p>\\[6\\pi=2\\pi\\cdot3{,}0\\cdot\\frac{dr}{dt}.\\]</p></li><li><p>Därför är \\(dr/dt=1,0\\) cm/s.</p></li><li><p>Omkretsen är \\(O=2\\pi r\\), alltså</p></li><li><p>\\[\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}=2\\pi\\cdot1{,}0=2\\pi.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: omkretsen ökar med \\(2\\pi\\ \\text{cm/s}\\).</strong></p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "uttryck",
-    "rättSvar": "2*pi",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 6.283185307179586,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
       "problemlösning"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "numeriskt",
     "ledtrad": "<p>Definiera de storheter som ändras och skriv först ett geometriskt samband mellan dem. Derivera sambandet med avseende på tiden innan du sätter in de givna värdena.</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm/s"
+},
   {
     "kap": 3,
     "omr": "linjar_approximation",
@@ -22853,7 +22876,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterad förändringshastighet med likformiga trianglar",
     "poang": "0/2/0",
-    "t": "<p>En konformad behållare har höjd 15 cm och toppradie 6 cm. Vätskedjupet ökar med 0,4 cm/s.</p><p>Bestäm \\(dV/dt\\) när djupet är 5 cm. Svara exakt.</p>",
+    "t": "<p>En konformad behållare har höjd 15 cm och toppradie 6 cm. Vätskedjupet ökar med 0,4 cm/s.</p><p>Bestäm \\(dV/dt\\) när djupet är 5 cm. Svara exakt.</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Metod:</strong> Likformighet ger</p><div class=\"facit-matte\">\\[r=(6/15)h=0{,}4h\\].</div></div></li><li><p>\\[V=\\frac13\\pi r^2h=\\frac13\\pi(0,4h)^2h.\\]</p></li><li><p>Derivera med avseende på tiden:</p></li><li><p>\\[\\frac{dV}{dt}=\\pi(0,4)^2h^2\\frac{dh}{dt}.\\]</p></li><li><p>Med \\(h=5\\) och \\(dh/dt=0,4\\) fås</p></li><li><p>\\[\\frac{dV}{dt}=\\pi\\cdot0{,}16\\cdot25\\cdot0{,}4=1{,}6\\pi.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(1{,}6\\pi\\,\\text{cm}^3/\\text{s}\\).</strong></p></div>",
     "id": "3.205",
     "miniräknare": true,
@@ -22875,7 +22898,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm³/s"
+},
   {
     "id": "3.242",
     "kap": 3,
@@ -22883,14 +22908,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "relaterad förändringshastighet för rektangelarea",
     "poang": "2/0/0",
-    "t": "<p>En rektangel har längden 1,2 m och bredden 0,60 m. Längden minskar med 0,06 m/s samtidigt som bredden ökar med 0,08 m/s.</p><p>Hur snabbt förändras rektangelns area i detta ögonblick?</p>",
+    "t": "<p>En rektangel har längden 1,2 m och bredden 0,60 m. Längden minskar med 0,06 m/s samtidigt som bredden ökar med 0,08 m/s.</p><p>Hur snabbt förändras rektangelns area i detta ögonblick?</p><p>Svara i m²/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Arean beror på två storheter som båda förändras.</p></li><li><p>\\[A=lb\\quad\\Rightarrow\\quad A'=l'b+lb'.\\]</p></li><li><div class=\"facit-berakning\"><p>Sätt in</p><div class=\"facit-matte\">\\[l=1,2\\],</div></div></li><li><div class=\"facit-matte\">\\[b=0{,}60\\],</div></li><li><p>\\(l'=-0{,}06\\) och \\(b'=0{,}08\\):</p></li><li><p>\\[A'=(-0,06)(0,60)+(1,2)(0,08)=0{,}060.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: arean ökar med \\(0{,}060\\,\\text{m}^2/\\text{s}\\).</strong></p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 0.06,
-    "tolerans": 0.001,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22902,7 +22927,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "m²/s"
+},
   {
     "id": "3.243",
     "kap": 3,
@@ -22910,14 +22937,14 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterad förändringshastighet med konstant area",
     "poang": "0/2/0",
-    "t": "<p>En rektangel har konstant area 100 cm². I ett visst ögonblick är basen 16 cm och minskar med 1,0 cm/s.</p><p>Hur snabbt måste höjden öka i detta ögonblick?</p>",
+    "t": "<p>En rektangel har konstant area 100 cm². I ett visst ögonblick är basen 16 cm och minskar med 1,0 cm/s.</p><p>Hur snabbt måste höjden öka i detta ögonblick?</p><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom arean är konstant gäller \\(A=bh=100\\) och därför \\(A'=0\\).</p></li><li><p>När \\(b=16\\) är \\(h=100/16=6{,}25\\) cm.</p></li><li><p>Derivera:</p></li><li><p>\\[0=A'=b'h+bh'.\\]</p></li><li><p>\\[0=(-1,0)(6,25)+16h'\\Rightarrow h'=\\frac{6{,}25}{16}=0{,}390625.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: höjden ökar med cirka \\(0{,}391\\,\\text{cm/s}\\).</strong></p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 0.390625,
-    "tolerans": 0.002,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22929,7 +22956,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm/s"
+},
   {
     "id": "3.244",
     "kap": 3,
@@ -22944,7 +22973,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": -1,
-    "tolerans": 0.001,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22957,7 +22986,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "rad/s"
+},
   {
     "id": "3.245",
     "kap": 3,
@@ -22972,7 +23003,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 0.2,
-    "tolerans": 0.001,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -22985,7 +23016,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "rad/s"
+},
   {
     "kap": 3,
     "omr": "integraler_area",
@@ -24371,32 +24404,7 @@ window.BANKMATF1 = [
       "d"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\">\\(y'=3y\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Här förekommer både den okända funktionen \\(y\\) och derivatan \\(y'\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ja.</p></div>",
-        "niva": "E"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\">\\(2x+5=11\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Detta är en vanlig algebraisk ekvation i \\(x\\); ingen okänd funktion eller derivata förekommer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> nej.</p></div>",
-        "niva": "E"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\">\\(y''+y=0\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Här förekommer den okända funktionen \\(y\\) och dess andraderivata \\(y''\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ja.</p></div>",
-        "niva": "E"
-      },
-      {
-        "etikett": "d",
-        "t": "<p>Avgör om uttrycket är en differentialekvation. En differentialekvation innehåller en okänd funktion och minst en derivata av den.</p><div class=\"spel-en-del\">\\(f(x)=x^2\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Detta definierar en funktion men innehåller ingen derivata, så det är inte en differentialekvation.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> nej.</p></div>",
-        "niva": "E"
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "t": "<p>Är detta en differentialekvation? Svara ja eller nej.</p><div class=\"spel-en-del\">\\(y'=3y\\)</div>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Här förekommer både den okända funktionen \\(y\\) och derivatan \\(y'\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ja.</p></div>", "niva": "E"}, {"etikett": "b", "t": "<p>Är detta en differentialekvation? Svara ja eller nej.</p><div class=\"spel-en-del\">\\(2x+5=11\\)</div>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Detta är en vanlig algebraisk ekvation i \\(x\\); ingen okänd funktion eller derivata förekommer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> nej.</p></div>", "niva": "E"}, {"etikett": "c", "t": "<p>Är detta en differentialekvation? Svara ja eller nej.</p><div class=\"spel-en-del\">\\(y''+y=0\\)</div>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Här förekommer den okända funktionen \\(y\\) och dess andraderivata \\(y''\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> ja.</p></div>", "niva": "E"}, {"etikett": "d", "t": "<p>Är detta en differentialekvation? Svara ja eller nej.</p><div class=\"spel-en-del\">\\(f(x)=x^2\\)</div>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Detta definierar en funktion men innehåller ingen derivata, så det är inte en differentialekvation.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> nej.</p></div>", "niva": "E"}],
     "ledtrad": "<p>En differentialekvation innehåller en okänd funktion och minst en av dess derivator.</p>",
     "traningsniva": 1,
     "omrTidigare": [
@@ -24756,7 +24764,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekvation",
     "ledtrad": "<p>Derivera lösningsfamiljen och försök skriva resultatet med hjälp av \\(y-3\\) i stället för konstanten \\(C\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
@@ -25481,7 +25489,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekvation",
     "ledtrad": "<p>Derivera lösningsfamiljen och skriv sedan \\(Ce^{-5x}\\) som \\(y-3\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
@@ -25978,7 +25986,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "inhomogen differentialekvation av andra ordningen med resonans",
     "poang": "0/3/0",
-    "t": "<p>Lös \\(y''+4y=\\cos(2x)\\).</p>",
+    "t": "<p><strong>Fördjupning utanför ordinarie Ma5-träning.</strong></p><p>Lös \\(y''+4y=\\cos(2x)\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den homogena lösningen är</p></li><li><p>\\[y_h=C_1\\cos2x+C_2\\sin2x.\\]</p></li><li><p>Eftersom högerledet \\(\\cos2x\\) ligger i den homogena lösningen uppstår resonans.</p></li><li><p>Pröva</p></li><li><p>\\[y_p=Ax\\sin2x.\\]</p></li><li><p>Insättning ger \\(4A\\cos2x=\\cos2x\\), alltså \\(A=1/4\\).</p></li></ol><p class=\"facit-svar\"><strong>\\[y=C_1\\cos2x+C_2\\sin2x+\\frac14x\\sin2x.\\]</strong></p></div>",
     "id": "4.386",
     "miniräknare": true,
@@ -25994,12 +26002,14 @@ window.BANKMATF1 = [
       "problemlösning"
     ],
     "ledtrad": "<p>Den vanliga trigonometriska ansatsen ligger redan i den homogena lösningen. Multiplicera därför ansatsen med \\(x\\).</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "svarFormat": "uttryck",
     "omrTidigare": [
       "andra_ordningen"
     ]
-  },
+  ,
+  "spel": false
+},
   {
     "kap": 4,
     "omr": "homogena_andra",
@@ -26065,7 +26075,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "andra ordningens homogen med två reella rötter",
     "poang": "2/0/0",
-    "t": "<p>Lös differentialekvationen \\(y''-12y'+32y=0\\).</p>",
+    "t": "<p>Lös differentialekvationen \\(y''-12y'+32y=0\\).</p><p>Du kan kalla de godtyckliga konstanterna C och D.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> För en homogen linjär differentialekvation med konstanta koefficienter använder vi den karakteristiska ekvationen.</p></li><li><p>\\[r^2-12r+32=0=(r-4)(r-8).\\]</p></li><li><p>Rötterna är \\(r=4\\) och \\(r=8\\).</p></li><li><p>Två olika reella rötter ger <strong>\\(y=Ae^{4x}+Be^{8x}\\)</strong>.</p></li></ol></div>",
     "id": "4.04",
     "miniräknare": true,
@@ -26079,7 +26089,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 1,
     "omrTidigare": [
@@ -26122,8 +26132,8 @@ window.BANKMATF1 = [
     "typ": "andra ordningens homogen med reella rötter",
     "poang": "2/0/0",
     "id": "4.53",
-    "t": "<p>Lös differentialekvationen</p><p>\\[y''-5y'+6y=0.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> Sätt</p><div class=\"facit-matte\">\\[y=e^{rx}\\].</div></div></li><li><p>Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\).</p></li><li><p>Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p></li><li><p>Karakteristiska ekvationen är</p></li><li><p>\\[r^2-5r+6=0=(r-2)(r-3).\\]</p></li><li><p>Rötterna är \\(r=2\\) och \\(r=3\\).</p></li><li><p>Därför blir den allmänna lösningen</p></li><li><p><strong>\\(y=C_1e^{2x}+C_2e^{3x}\\)</strong>.</p></li></ol></div>",
+    "t": "<p>Lös differentialekvationen</p><p>\\[y''-5y'+6y=0.\\]</p><p>Du kan kalla de godtyckliga konstanterna C och D.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> Sätt</p><div class=\"facit-matte\">\\[y=e^{rx}\\].</div></div></li><li><p>Då omvandlas differentialekvationen till en karakteristisk andragradsekvation i \\(r\\).</p></li><li><p>Roternas typ avgör lösningsformen: två reella rötter, dubbelrot eller ett komplext konjugatpar.</p></li><li><p>Karakteristiska ekvationen är</p></li><li><p>\\[r^2-5r+6=0=(r-2)(r-3).\\]</p></li><li><p>Rötterna är \\(r=2\\) och \\(r=3\\).</p></li><li><p>Därför blir den allmänna lösningen</p></li><li><p><strong>\\(y=Ce^{2x}+De^{3x}\\)</strong>.</p></li></ol></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Homogena differentialekvationer av andra ordningen",
@@ -26135,7 +26145,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 1,
     "omrTidigare": [
@@ -26162,7 +26172,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 1,
     "omrTidigare": [
@@ -26188,7 +26198,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 1,
     "omrTidigare": [
@@ -26214,7 +26224,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 1,
     "omrTidigare": [
@@ -26270,7 +26280,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -26323,7 +26333,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Lös den karakteristiska ekvationen. När du kontrollerar lösningen räcker det att visa att insättning ger vänsterledet 0 för godtyckliga konstanter.</p>",
     "traningsniva": 3,
     "spel": false,
@@ -26409,7 +26419,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -26436,7 +26446,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -26464,7 +26474,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekvation",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 3,
     "omrTidigare": [
@@ -26491,7 +26501,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -26578,7 +26588,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -26605,7 +26615,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -26632,7 +26642,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekvation",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 3,
     "omrTidigare": [
@@ -26643,8 +26653,8 @@ window.BANKMATF1 = [
     "id": "4.514",
     "kap": 4,
     "omr": "verifiering",
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Funktionerna \\(y=e^{2x}+Ce^{-x}\\), där \\(C\\) är en godtycklig konstant, löser alla differentialekvationen</p><p>\\[y'+y=ae^{2x}.\\]</p><p>Bestäm konstanten \\(a\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y'=2e^{2x}-Ce^{-x}\\].</div></li><li><p>Då är</p></li><li><p>\\[y'+y=2e^{2x}-Ce^{-x}+e^{2x}+Ce^{-x}=3e^{2x}.\\]</p></li><li><p>Termerna med \\(C\\) tar ut varandra.</p></li><li><p>Det måste de göra, eftersom \\(Ce^{-x}\\) är lösningen till den homogena ekvationen \\(y'+y=0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\)</p></div>",
     "familj": "Verifiera och bestämma differentialekvation från lösning",
@@ -26657,7 +26667,7 @@ window.BANKMATF1 = [
     "självrättning": true,
     "ledtrad": "<p>Derivera \\(y\\) och sätt in i vänster led.</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 2,
     "svarstyp": "numeriskt",
     "rättSvar": 3,
     "tolerans": null,
@@ -26714,7 +26724,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -26728,13 +26738,13 @@ window.BANKMATF1 = [
     "typ": "begynnelsevillkor dämpad svängning",
     "poang": "0/2/0",
     "t": "<p>Lös \\(y''+4y'+13y=0\\), \\(y(0)=2\\), \\(y'(0)=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm först den allmänna lösningen.</p></li><li><p>Sätt därefter in begynnelsevillkoren i både \\(y\\) och, när det behövs, \\(y'\\) för att få ekvationer som bestämmer de fria konstanterna.</p></li><li><p>Rötterna är \\(-2\\pm3i\\).</p></li><li><p>Alltså</p></li><li><p>\\[y=e^{-2x}(C_1\\cos3x+C_2\\sin3x).\\]</p></li><li><div class=\"facit-matte\">\\[C_1=2\\].</div></li><li><div class=\"facit-berakning\"><p>Derivering vid 0 ger</p><div class=\"facit-matte\">\\[-2C_1+3C_2=0\\Rightarrow C_2=4/3\\].</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2\"><p>Den karakteristiska ekvationen har rötterna \\(-2\\pm3i\\), så</p>\\[y=e^{-2x}(C\\cos3x+D\\sin3x).\\]<p>Villkoret \\(y(0)=2\\) ger \\(C=2\\). Derivering vid 0 ger \\(y^{\\prime}(0)=-2C+3D=0\\), alltså \\(D=4/3\\).</p><p><strong>Svar:</strong></p>\\[y=e^{-2x}\\left(2\\cos3x+\\frac43\\sin3x\\right).\\]</div>",
     "id": "4.102",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Begynnelsevärdesproblem",
     "svarstyp": "text",
-    "rättSvar": "e^{-2x}(C_1\\cos3x+C_2\\sin3x)",
+    "rättSvar": "e^(-2*x)*(2*cos(3*x)+4*sin(3*x)/3)",
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -26756,8 +26766,8 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "andra ordningens inhomogen med konstant högerled",
     "poang": "2/0/0",
-    "t": "<p>Bestäm den allmänna lösningen till</p><p>\\[y''-3y'+2y=6.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den homogena ekvationen har karakteristiska ekvationen</p></li><li><p>\\[r^2-3r+2=0\\quad\\Rightarrow\\quad r=1{,}2.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[y_h=C_1e^x+C_2e^{2x}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Eftersom högerledet är konstant söker vi en partikulär lösning</p><div class=\"facit-matte\">\\[y_p=A\\].</div></div></li><li><p>Insättning ger \\(2A=6\\), alltså \\(A=3\\).</p></li><li><p><strong>\\(y=C_1e^x+C_2e^{2x}+3\\)</strong>.</p></li></ol></div>",
+    "t": "<p>Bestäm den allmänna lösningen till</p><p>\\[y''-3y'+2y=6.\\]</p><p>Du kan kalla de godtyckliga konstanterna C och D.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den homogena ekvationen har karakteristiska ekvationen</p></li><li><p>\\[r^2-3r+2=0\\quad\\Rightarrow\\quad r=1\\text{ eller }r=2.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså</p><div class=\"facit-matte\">\\[y_h=Ce^x+De^{2x}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Eftersom högerledet är konstant söker vi en partikulär lösning</p><div class=\"facit-matte\">\\[y_p=A\\].</div></div></li><li><p>Insättning ger \\(2A=6\\), alltså \\(A=3\\).</p></li><li><p><strong>\\(y=Ce^x+De^{2x}+3\\)</strong>.</p></li></ol></div>",
     "id": "4.27",
     "miniräknare": true,
     "geogebra": false,
@@ -26770,7 +26780,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -26797,7 +26807,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Lös först den homogena ekvationen. Eftersom högerledet är linjärt söker du en partikulärlösning \\(ax+b\\).</p>",
     "traningsniva": 3,
     "omrTidigare": [
@@ -26824,7 +26834,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Lös först den homogena ekvationen. Pröva sedan \\(y_p=Ae^x\\) och kontrollera att exponenten 1 inte är en homogen rot.</p>",
     "traningsniva": 3,
     "omrTidigare": [
@@ -26851,7 +26861,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Kontrollera först om exponenten i högerledet är en rot till den karakteristiska ekvationen. Om den är det måste ansatsen multipliceras med \\(x\\).</p>",
     "traningsniva": 4,
     "omrTidigare": [
@@ -26881,7 +26891,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Efter den homogena lösningen kan du pröva \\(y_p=A\\cos x+B\\sin x\\). Frekvensen 1 är inte en homogen frekvens här.</p>",
     "traningsniva": 3,
     "omrTidigare": [
@@ -27020,7 +27030,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -27100,7 +27110,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Sätt \\(y=e^{rx}\\), lös den karakteristiska ekvationen och låt rotens typ bestämma lösningsformen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -27159,7 +27169,7 @@ window.BANKMATF1 = [
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Lös först \\(y''+y=0\\). För högerledet \\(3x-2\\) räcker en linjär partikuläransats.</p>",
     "traningsniva": 3,
     "omrTidigare": [
@@ -27172,7 +27182,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "exponentialterm som ingår i den homogena lösningen",
     "poang": "0/2/0",
-    "t": "<p>Bestäm en partikulärlösning till \\(y''-4y'+4y=e^{2x}\\).</p>",
+    "t": "<p><strong>Fördjupning utanför ordinarie Ma5-träning.</strong></p><p>Bestäm en partikulärlösning till \\(y''-4y'+4y=e^{2x}\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den homogena ekvationen har dubbelroten \\(r=2\\), så både \\(e^{2x}\\) och \\(xe^{2x}\\) ingår i den homogena lösningen.</p></li><li><div class=\"facit-berakning\"><p>Därför behövs ansatsen</p><div class=\"facit-matte\">\\[y_p=Ax^2e^{2x}\\].</div></div></li><li><p>Insättning ger \\(2Ae^{2x}=e^{2x}\\), så \\(A=1/2\\).</p></li><li><p><strong>\\(y_p=\\frac12x^2e^{2x}\\)</strong>.</p></li></ol></div></div>",
     "id": "4.106",
     "miniräknare": true,
@@ -27188,14 +27198,16 @@ window.BANKMATF1 = [
     ],
     "svarFormat": "uttryck",
     "ledtrad": "<p>Här är \\(r=2\\) en dubbelrot. Därför krävs två extra faktorer av \\(x\\) jämfört med \\(Ae^{2x}\\).</p>",
-    "traningsniva": 4,
+    "traningsniva": 5,
     "omrTidigare": [
       "andra_ordningen"
     ],
     "familjTidigare": [
       "Homogena differentialekvationer av andra ordningen"
     ]
-  },
+  ,
+  "spel": false
+},
   {
     "kap": 4,
     "omr": "inhomogena_andra",
@@ -27242,7 +27254,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -27269,7 +27281,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Lös först den homogena ekvationen med den karakteristiska ekvationen. Välj sedan en partikulär ansats som passar högerledet och kontrollera om ansatsen redan ingår i den homogena lösningen.</p>",
     "traningsniva": 2,
     "omrTidigare": [
@@ -27322,7 +27334,7 @@ window.BANKMATF1 = [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "uttryck",
+    "svarFormat": "diffekv_losning",
     "ledtrad": "<p>Den homogena frekvensen är 2 medan högerledets frekvens är 1, så en vanlig trigonometrisk ansats fungerar.</p>",
     "traningsniva": 3,
     "omrTidigare": [
@@ -28880,29 +28892,7 @@ window.BANKMATF1 = [
       "(2,3)"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkterna</p><div class=\"spel-en-del\">\\((0,1)\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p></li><li><p><strong></strong></p></li></ol><div class=\"spel-en-del\"></div><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\cdot0-1=-1\\].</div></li><li><p><strong></strong></p></li></ol></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkterna</p><div class=\"spel-en-del\">\\((1,0)\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p></li><li><p><strong></strong></p></li></ol><div class=\"spel-en-del\"></div><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\cdot1-0=2\\].</div></li><li><p><strong></strong></p></li></ol></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkterna</p><div class=\"spel-en-del\">\\((2,3)\\).</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lutningen fås genom att sätta in punktens koordinater i \\(2x-y\\).</p></li><li><p><strong></strong></p></li></ol><div class=\"spel-en-del\"></div><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\cdot2-3=1\\].</div></li></ol></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkten</p><div class=\"spel-en-del\">\\((0,1)\\)</div>", "s": "<div class=\"facit-v2\"><p>Sätt in punktens koordinater i differentialekvationens högerled. Lutningen blir</p>\\[2\\cdot0-1=-1.\\]</div>", "niva": "E", "poang": "1/0/0"}, {"etikett": "b", "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkten</p><div class=\"spel-en-del\">\\((1,0)\\)</div>", "s": "<div class=\"facit-v2\"><p>Sätt in punktens koordinater i differentialekvationens högerled. Lutningen blir</p>\\[2\\cdot1-0=2.\\]</div>", "niva": "E", "poang": "1/0/0"}, {"etikett": "c", "t": "<p>För differentialekvationen \\(y'=2x-y\\), bestäm riktningsfältets lutning i punkten</p><div class=\"spel-en-del\">\\((2,3)\\).</div>", "s": "<div class=\"facit-v2\"><p>Sätt in punktens koordinater i differentialekvationens högerled. Lutningen blir</p>\\[2\\cdot2-3=1.\\]</div>", "niva": "E", "poang": "1/0/0"}],
     "ledtrad": "<p>Sätt in punktens koordinater i högerledet för att få lutningen. För horisontella segment eller jämvikter sätter du \\(y'=0\\).</p>",
     "traningsniva": 1
   },
@@ -29132,29 +29122,7 @@ window.BANKMATF1 = [
       "(2,3)"
     ],
     "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkterna</p><div class=\"spel-en-del\">\\((0,2)\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in koordinaterna i \\(y-x^2\\).</p></li><li><p><strong></strong></p></li></ol><div class=\"spel-en-del\"></div><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2-0^2=2\\].</div></li><li><p><strong></strong></p></li></ol></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkterna</p><div class=\"spel-en-del\">\\((1,1)\\)</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in koordinaterna i \\(y-x^2\\).</p></li><li><p><strong></strong></p></li></ol><div class=\"spel-en-del\"></div><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1-1^2=0\\].</div></li><li><p><strong></strong></p></li></ol></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkterna</p><div class=\"spel-en-del\">\\((2,3)\\).</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in koordinaterna i \\(y-x^2\\).</p></li><li><p><strong></strong></p></li></ol><div class=\"spel-en-del\"></div><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3-2^2=-1\\].</div></li></ol></div>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkten</p><div class=\"spel-en-del\">\\((0,2)\\)</div>", "s": "<div class=\"facit-v2\"><p>Sätt in punktens koordinater i differentialekvationens högerled. Lutningen blir</p>\\[2-0^2=2.\\]</div>", "niva": "E", "poang": "1/0/0"}, {"etikett": "b", "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkten</p><div class=\"spel-en-del\">\\((1,1)\\)</div>", "s": "<div class=\"facit-v2\"><p>Sätt in punktens koordinater i differentialekvationens högerled. Lutningen blir</p>\\[1-1^2=0.\\]</div>", "niva": "E", "poang": "1/0/0"}, {"etikett": "c", "t": "<p>För differentialekvationen \\(y'=y-x^2\\), bestäm lutningen i punkten</p><div class=\"spel-en-del\">\\((2,3)\\).</div>", "s": "<div class=\"facit-v2\"><p>Sätt in punktens koordinater i differentialekvationens högerled. Lutningen blir</p>\\[3-2^2=-1.\\]</div>", "niva": "E", "poang": "1/0/0"}],
     "ledtrad": "<p>Sätt in punktens koordinater i högerledet för att få lutningen. För horisontella segment eller jämvikter sätter du \\(y'=0\\).</p>",
     "traningsniva": 1
   },
@@ -37199,15 +37167,15 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>Radien i en cirkel är 60 cm och ökar med 30 cm/s. Hur snabbt ökar arean just då?</p>",
+    "t": "<p>Radien i en cirkel är 60 cm och ökar med 30 cm/s. Hur snabbt ökar arean just då?</p><p>Svara i cm²/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}=2\\pi\\cdot60\\cdot30.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(11309{,}7\\) cm²/s (avrundat).</p></div>",
     "id": "3.246",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 11309.7336,
-    "tolerans": 10,
+    "rättSvar": 11309.733552923255,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37219,22 +37187,24 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>Radien i en cirkel är 5 cm och ökar med 2 cm/s. Hur snabbt ökar arean just då?</p>",
+    "t": "<p>Radien i en cirkel är 5 cm och ökar med 2 cm/s. Hur snabbt ökar arean just då?</p><p>Svara i cm²/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}=2\\pi\\cdot5\\cdot2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(62{,}8319\\) cm²/s (avrundat).</p></div>",
     "id": "3.247",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 62.8319,
-    "tolerans": 0.1,
+    "rättSvar": 62.83185307179586,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37246,22 +37216,24 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>Radien i en cirkel är 10 cm och ökar med 3 cm/s. Hur snabbt ökar arean just då?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}=2\\pi\\cdot10\\cdot3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(188{,}496\\) cm²/s (avrundat).</p></div>",
+    "t": "<p>Radien i en cirkel är 10 cm och ökar med 3 cm/s. Hur snabbt ökar arean just då?</p><p>Svara i cm²/s.</p>",
+    "s": "<div class=\"facit-v2\"><p>Cirkelns area är \\(A=\\pi r^2\\). Derivera med avseende på tiden:</p>\\[A^{\\prime}=2\\pi r r^{\\prime}.\\]<p>Sätt in radien och dess förändringshastighet:</p>\\[A^{\\prime}=2\\pi\\cdot10\\cdot3=60\\pi\\ \\text{cm}^2/\\text{s}.\\]<p><strong>Svar:</strong> \\(60\\pi\\ \\text{cm}^2/\\text{s}\\).</p></div>",
     "id": "3.248",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 188.4956,
-    "tolerans": 0.5,
+    "rättSvar": 188.49555921538757,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37273,14 +37245,16 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>Sidan i en kvadrat är 5 cm och minskar med 0,6 cm/s. Bestäm areans förändringshastighet.</p>",
+    "t": "<p>Sidan i en kvadrat är 5 cm och minskar med 0,6 cm/s. Bestäm areans förändringshastighet.</p><p>Svara i cm²/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dA}{dt}=2s\\frac{ds}{dt}=2\\cdot5\\cdot(-0,6).\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-6\\) cm²/s (avrundat).</p></div>",
     "id": "3.249",
     "miniräknare": true,
@@ -37288,7 +37262,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": -6.0,
-    "tolerans": 0.02,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37300,14 +37274,16 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>Sidan i en kvadrat är 8 cm och ökar med 0,4 cm/s. Bestäm areans förändringshastighet.</p>",
+    "t": "<p>Sidan i en kvadrat är 8 cm och ökar med 0,4 cm/s. Bestäm areans förändringshastighet.</p><p>Svara i cm²/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dA}{dt}=2s\\frac{ds}{dt}=2\\cdot8\\cdot(0,4).\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}4\\) cm²/s (avrundat).</p></div>",
     "id": "3.250",
     "miniräknare": true,
@@ -37315,7 +37291,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 6.4,
-    "tolerans": 0.02,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37327,14 +37303,16 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>Sidan i en kvadrat är 12 cm och minskar med 0,5 cm/s. Bestäm areans förändringshastighet.</p>",
+    "t": "<p>Sidan i en kvadrat är 12 cm och minskar med 0,5 cm/s. Bestäm areans förändringshastighet.</p><p>Svara i cm²/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dA}{dt}=2s\\frac{ds}{dt}=2\\cdot12\\cdot(-0,5).\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-12\\) cm²/s (avrundat).</p></div>",
     "id": "3.251",
     "miniräknare": true,
@@ -37342,7 +37320,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": -12.0,
-    "tolerans": 0.02,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37354,14 +37332,16 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>Sidan i en kub är 3 cm och ökar med 4 cm/s. Hur snabbt ökar volymen?</p>",
+    "t": "<p>Sidan i en kub är 3 cm och ökar med 4 cm/s. Hur snabbt ökar volymen?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dV}{dt}=3s^2\\frac{ds}{dt}=3\\cdot3^2\\cdot4.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(108\\) cm³/s (avrundat).</p></div>",
     "id": "3.252",
     "miniräknare": true,
@@ -37369,7 +37349,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 108,
-    "tolerans": 0.02,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37381,14 +37361,16 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm³/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>Sidan i en kub är 5 cm och ökar med 1 cm/s. Hur snabbt ökar volymen?</p>",
+    "t": "<p>Sidan i en kub är 5 cm och ökar med 1 cm/s. Hur snabbt ökar volymen?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dV}{dt}=3s^2\\frac{ds}{dt}=3\\cdot5^2\\cdot1.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(75\\) cm³/s (avrundat).</p></div>",
     "id": "3.253",
     "miniräknare": true,
@@ -37396,7 +37378,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 75,
-    "tolerans": 0.02,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37408,14 +37390,16 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm³/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>Sidan i en kub är 2 cm och ökar med 0,5 cm/s. Hur snabbt ökar volymen?</p>",
+    "t": "<p>Sidan i en kub är 2 cm och ökar med 0,5 cm/s. Hur snabbt ökar volymen?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dV}{dt}=3s^2\\frac{ds}{dt}=3\\cdot2^2\\cdot0{,}5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\) cm³/s (avrundat).</p></div>",
     "id": "3.254",
     "miniräknare": true,
@@ -37423,7 +37407,7 @@ window.BANKMATF1 = [
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 6.0,
-    "tolerans": 0.02,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37435,22 +37419,24 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm³/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>Radien i ett klot är 2 cm och ökar med 1 cm/s. Hur snabbt ökar volymen?</p>",
+    "t": "<p>Radien i ett klot är 2 cm och ökar med 1 cm/s. Hur snabbt ökar volymen?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}=4\\pi\\cdot2^2\\cdot1.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(50{,}2655\\) cm³/s (avrundat).</p></div>",
     "id": "3.255",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 50.2655,
-    "tolerans": 0.1,
+    "rättSvar": 50.26548245743669,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37462,22 +37448,24 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm³/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>Radien i ett klot är 3 cm och ökar med 0,5 cm/s. Hur snabbt ökar volymen?</p>",
+    "t": "<p>Radien i ett klot är 3 cm och ökar med 0,5 cm/s. Hur snabbt ökar volymen?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}=4\\pi\\cdot3^2\\cdot0{,}5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(56{,}5487\\) cm³/s (avrundat).</p></div>",
     "id": "3.256",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 56.5487,
-    "tolerans": 0.1,
+    "rättSvar": 56.548667764616276,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37489,22 +37477,24 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm³/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>En cylinder har konstant radie 2 cm. Höjden ökar med 3 cm/s. Hur snabbt ökar volymen?</p>",
+    "t": "<p>En cylinder har konstant radie 2 cm. Höjden ökar med 3 cm/s. Hur snabbt ökar volymen?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dV}{dt}=\\pi r^2\\frac{dh}{dt}=\\pi\\cdot(2)^2\\cdot3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(37{,}6991\\) cm³/s (avrundat).</p></div>",
     "id": "3.257",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 37.6991,
-    "tolerans": 0.02,
+    "rättSvar": 37.69911184307752,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37516,22 +37506,24 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm³/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>En cylinder har konstant radie 0,5 cm. Höjden ökar med 4 cm/s. Hur snabbt ökar volymen?</p>",
+    "t": "<p>En cylinder har konstant radie 0,5 cm. Höjden ökar med 4 cm/s. Hur snabbt ökar volymen?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dV}{dt}=\\pi r^2\\frac{dh}{dt}=\\pi\\cdot(0,5)^2\\cdot4.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}1416\\) cm³/s (avrundat).</p></div>",
     "id": "3.258",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 3.1416,
-    "tolerans": 0.02,
+    "rättSvar": 3.141592653589793,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37543,22 +37535,24 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm³/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>En cirkel har radien 4 cm. Radien förändras med 2 cm/s. Bestäm omkretsens förändringshastighet.</p>",
+    "t": "<p>En cirkel har radien 4 cm. Radien förändras med 2 cm/s. Bestäm omkretsens förändringshastighet.</p><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}=2\\pi\\cdot(2).\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12{,}5664\\) cm/s (avrundat).</p></div>",
     "id": "3.259",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": 12.5664,
-    "tolerans": 0.05,
+    "rättSvar": 12.566370614359172,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37570,22 +37564,24 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterade förändringshastigheter – grundrutin",
     "poang": "1/0/0",
-    "t": "<p>En cirkel har radien 7 cm. Radien minskar med 1,0 cm/s. Bestäm omkretsens förändringshastighet.</p>",
+    "t": "<p>En cirkel har radien 7 cm. Radien minskar med 1,0 cm/s. Bestäm omkretsens förändringshastighet.</p><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Skriv först sambandet mellan storheterna och derivera med avseende på tiden.</p></li><li><p>\\[\\frac{dO}{dt}=2\\pi\\frac{dr}{dt}=2\\pi\\cdot(-1).\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-6{,}2832\\) cm/s (avrundat).</p></div>",
     "id": "3.260",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
-    "rättSvar": -6.2832,
-    "tolerans": 0.02,
+    "rättSvar": -6.283185307179586,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -37597,7 +37593,9 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm/s"
+},
   {
     "kap": 1,
     "omr": "venndiagram",
@@ -46695,42 +46693,44 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "relaterad förändringshastighet – grundfall",
     "poang": "1/0/0",
-    "t": "<p>Radien i en cirkel ökar med 30 cm/s. Hur snabbt ökar arean när radien är 60 cm?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Utgå från \\(A=\\pi r^2\\) och derivera med avseende på tiden.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{dA}{dt}=2\\pi r\\frac{dr}{dt}.\\]</p></li><li><p>Med \\(r=60\\) och \\(dr/dt=30\\):</p></li><li><p>\\[\\frac{dA}{dt}=2\\pi\\cdot60\\cdot30=3600\\pi\\;\\text{cm}^2/\\text{s}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3600\\pi\\)</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera både tecken och enhet.</p></li></ol></div>",
+    "t": "<p>Radien i en cirkel ökar med 30 cm/s. Hur snabbt ökar arean när radien är 60 cm?</p><p>Svara i cm²/s.</p>",
+    "s": "<div class=\"facit-v2\"><p>Cirkelns area är \\(A=\\pi r^2\\). Derivera med avseende på tiden:</p>\\[A^{\\prime}=2\\pi r r^{\\prime}.\\]<p>Sätt in radien och dess förändringshastighet:</p>\\[A^{\\prime}=2\\pi\\cdot60\\cdot30=3600\\pi\\ \\text{cm}^2/\\text{s}.\\]<p><strong>Svar:</strong> \\(3600\\pi\\ \\text{cm}^2/\\text{s}\\).</p></div>",
     "id": "3.261",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "uttryck",
-    "rättSvar": "3600*pi",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 11309.733552923255,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "traningsniva": 1,
-    "svarFormat": "uttryck",
+    "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet – grundfall",
     "poang": "1/0/0",
-    "t": "<p>Sidan i en kvadrat minskar med 6,0 mm/s. Hur snabbt minskar arean när sidan är 5,0 cm? Ange förändringshastigheten i cm²/s.</p>",
+    "t": "<p>Sidan i en kvadrat minskar med 6,0 mm/s. Bestäm areans förändringshastighet när sidan är 5,0 cm? Ange förändringshastigheten i cm²/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Använd samma längdenhet innan du deriverar.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(6{,}0\\text{ mm/s}=0{,}60\\text{ cm/s}\\), alltså \\(ds/dt=-0{,}60\\).</p></li><li><div class=\"facit-matte\">\\[A=s^2\\Rightarrow dA/dt=2s\\,ds/dt\\].</div></li><li><p>\\[2\\cdot5{,}0\\cdot(-0,60)=-6{,}0.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> -6</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera både tecken och enhet.</p></li></ol></div>",
     "id": "3.262",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": -6,
-    "tolerans": 0,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -46742,22 +46742,24 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm²/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet – grundfall",
     "poang": "1/0/0",
-    "t": "<p>Sidan i en kub ökar med 4,0 cm/s. Hur snabbt ökar volymen när sidan är 3,0 cm?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> Kubens volym är</p><div class=\"facit-matte\">\\[V=s^3\\].</div></div></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{dV}{dt}=3s^2\\frac{ds}{dt}=3\\cdot3^2\\cdot4=108\\;\\text{cm}^3/\\text{s}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 108</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera både tecken och enhet.</p></li></ol></div>",
+    "t": "<p>Sidan i en kub ökar med 4,0 cm/s. Hur snabbt ökar volymen när sidan är 3,0 cm?</p><p>Svara i cm³/s.</p>",
+    "s": "<div class=\"facit-v2\"><p>Volymen är \\(V=s^3\\). Eftersom sidan ändras med tiden får vi</p>\\[\\frac{dV}{dt}=3s^2\\frac{ds}{dt}.\\]<p>Med \\(s=3\\) cm och \\(ds/dt=4\\) cm/s blir det</p>\\[\\frac{dV}{dt}=3\\cdot3^2\\cdot4=108\\ \\text{cm}^3/\\text{s}.\\]</div>",
     "id": "3.263",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
     "svarstyp": "numeriskt",
     "rättSvar": 108,
-    "tolerans": 0,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -46769,61 +46771,67 @@ window.BANKMATF1 = [
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm³/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet – grundfall",
     "poang": "1/0/0",
-    "t": "<p>Radien i ett klot ökar med 5,0 cm/s. Hur snabbt ökar volymen när radien är 24 cm?</p>",
+    "t": "<p>Radien i ett klot ökar med 5,0 cm/s. Hur snabbt ökar volymen när radien är 24 cm?</p><p>Svara i cm³/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> Utgå från</p><div class=\"facit-matte\">\\[V=\\frac43\\pi r^3\\].</div></div></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{dV}{dt}=4\\pi r^2\\frac{dr}{dt}=4\\pi\\cdot24^2\\cdot5=11520\\pi.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(11520\\pi\\)</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera både tecken och enhet.</p></li></ol></div>",
     "id": "3.264",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "uttryck",
-    "rättSvar": "11520*pi",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 36191.14736935442,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "traningsniva": 2,
-    "svarFormat": "uttryck",
+    "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm³/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
     "niva": "E",
     "typ": "relaterad förändringshastighet – grundfall",
     "poang": "1/0/0",
-    "t": "<p>Vattenvolymen i ett cylinderformat mätglas ökar med 3,0 cm³/s. Radien är konstant 0,50 cm. Hur snabbt stiger vattenytan?</p>",
+    "t": "<p>Vattenvolymen i ett cylinderformat mätglas ökar med 3,0 cm³/s. Radien är konstant 0,50 cm. Hur snabbt stiger vattenytan?</p><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> När radien är konstant är</p><div class=\"facit-matte\">\\[V=\\pi r^2h\\].</div></div></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{dV}{dt}=\\pi r^2\\frac{dh}{dt}.\\]</p></li><li><p>\\[3=\\pi(0,50)^2\\frac{dh}{dt}=0{,}25\\pi\\frac{dh}{dt}.\\]</p></li><li><p>Alltså \\(dh/dt=12/\\pi\\) cm/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{12}{\\pi}\\)</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera både tecken och enhet.</p></li></ol></div>",
     "id": "3.265",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "uttryck",
-    "rättSvar": "12/pi",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.819718634205488,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "traningsniva": 2,
-    "svarFormat": "uttryck",
+    "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
@@ -46836,21 +46844,23 @@ window.BANKMATF1 = [
     "miniräknare": true,
     "geogebra": false,
     "familj": "Relaterade förändringshastigheter",
-    "svarstyp": "uttryck",
-    "rättSvar": "1680*pi",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 5277.875658030853,
+    "tolerans": 1e-09,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
     "traningsniva": 2,
-    "svarFormat": "uttryck",
+    "svarFormat": "numeriskt",
     "ledtrad": "<p>Skriv först sambandet mellan storheterna, till exempel \\(A=\\pi r^2\\) eller \\(V=s^3\\). Derivera sedan båda leden med avseende på tiden och sätt in värden sist.</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
-  },
+  ,
+  "svarEnhet": "cm³/s"
+},
   {
     "kap": 3,
     "omr": "forandringshastigheter",
@@ -46986,7 +46996,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "relaterade hastigheter",
     "poang": "1/1/0",
-    "t": "<p>Den totala begränsningsarean av en kub minskar med 9,0 cm²/s. Bestäm \\(\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}\\) för kubens sida \\(x\\) när volymen är 125 cm³.</p>",
+    "t": "<p>Den totala begränsningsarean av en kub minskar med 9,0 cm²/s. Bestäm \\(\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}\\) för kubens sida \\(x\\) när volymen är 125 cm³.</p><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V=125\\Rightarrow x=5{,}0\\) cm.</p></li><li><div class=\"facit-matte\">\\[A=6x^2\\Rightarrow\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=12x\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}\\].</div></li><li><div class=\"facit-matte\">\\[\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=\\dfrac{-9{,}0}{12\\cdot5{,}0}=-0{,}15\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −0,15 cm/s</p></div>",
     "id": "3.292",
     "miniräknare": true,
@@ -47011,7 +47021,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterade hastigheter",
     "poang": "0/2/0",
-    "t": "<p>En kub har volymen 0,125 m³, och volymen ökar med 0,25 m³/h. Hur snabbt ökar kubens totala begränsningsarea?</p>",
+    "t": "<p>En kub har volymen 0,125 m³, och volymen ökar med 0,25 m³/h. Hur snabbt ökar kubens totala begränsningsarea?</p><p>Svara i m²/h.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x=\\sqrt[3]{0{,}125}=0{,}5\\) m.</p></li><li><p>\\(V=x^3\\Rightarrow\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=\\dfrac{0{,}25}{3\\cdot0{,}5^2}=\\dfrac13\\) m/h.</p></li><li><div class=\"facit-matte\">\\[A=6x^2\\Rightarrow\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=12x\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=12\\cdot0{,}5\\cdot\\dfrac13=2{,}0\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,0 m²/h</p></div>",
     "id": "3.293",
     "miniräknare": true,
@@ -47061,7 +47071,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "relaterade hastigheter",
     "poang": "1/1/0",
-    "t": "<p>Vatten rinner ner i ett cylinderformat mätglas med radien 0,50 cm med hastigheten 3,0 cm³/s. Hur snabbt stiger vattenytan när vattnet står 7,0 cm högt? Svara med två värdesiffror.</p>",
+    "t": "<p>Vatten rinner ner i ett cylinderformat mätglas med radien 0,50 cm med hastigheten 3,0 cm³/s. Hur snabbt stiger vattenytan när vattnet står 7,0 cm högt? Svara med två värdesiffror.</p><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi r^2h=0{,}25\\pi h\\Rightarrow\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=0{,}25\\pi\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\].</div></li><li><p>\\(\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}=\\dfrac{3{,}0}{0{,}25\\pi}\\approx3{,}8\\) cm/s.</p></li><li><p>Höjden 7,0 cm påverkar inte svaret, eftersom glaset är lika brett överallt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 3,8 cm/s</p></div>",
     "id": "3.295",
     "miniräknare": true,
@@ -47086,7 +47096,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterade hastigheter",
     "poang": "0/2/1",
-    "t": "<p>En konformad vas står med spetsen nedåt. Vasens höjd är dubbelt så stor som öppningens diameter. Man fyller på vatten med 30 cm³/s. Hur snabbt stiger vattenytan när vattnet står 5,0 cm högt? Svara med två värdesiffror.</p>",
+    "t": "<p>En konformad vas står med spetsen nedåt. Vasens höjd är dubbelt så stor som öppningens diameter. Man fyller på vatten med 30 cm³/s. Hur snabbt stiger vattenytan när vattnet står 5,0 cm högt? Svara med två värdesiffror.</p><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Vattnet bildar en mindre kon med samma form: höjden är fyra gånger radien,</p><div class=\"facit-matte\">\\[r=\\dfrac h4\\].</div></div></li><li><div class=\"facit-matte\">\\[V=\\dfrac{\\pi r^2h}{3}=\\dfrac{\\pi h^3}{48}\\Rightarrow\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=\\dfrac{\\pi h^2}{16}\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\].</div></li><li><div class=\"facit-matte\">\\[\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}=\\dfrac{30\\cdot16}{\\pi\\cdot5{,}0^2}\\approx6{,}1\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 6,1 cm/s</p></div>",
     "id": "3.296",
     "miniräknare": true,
@@ -47211,28 +47221,7 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>En sten kastas i en sjö. En cirkulär våg rör sig utåt från nedslagsplatsen med den konstanta farten 1,0 m/s.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur snabbt ökar arean innanför vågen efter 2,0 s? Svara med två värdesiffror.",
-        "t": "<p>En sten kastas i en sjö. En cirkulär våg rör sig utåt från nedslagsplatsen med den konstanta farten 1,0 m/s.</p><p>Hur snabbt ökar arean innanför vågen efter 2,0 s? Svara med två värdesiffror.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=t\\), så \\(\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=2\\pi r\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=2\\pi\\cdot2{,}0\\cdot1{,}0\\approx13\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 13 m²/s</p></div>",
-        "ledtrad": "<p>Hur stor är radien efter 2,0 s?</p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur snabbt ökar arean innanför vågen efter 4,0 s? Svara med två värdesiffror.",
-        "t": "<p>En sten kastas i en sjö. En cirkulär våg rör sig utåt från nedslagsplatsen med den konstanta farten 1,0 m/s.</p><p>Hur snabbt ökar arean innanför vågen efter 4,0 s? Svara med två värdesiffror.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=4{,}0\\) m: \\(\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=2\\pi\\cdot4{,}0\\cdot1{,}0\\approx25\\).</p></li><li><p>Areaökningen växer alltså med tiden trots att vågen rör sig med konstant fart.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 25 m²/s</p></div>",
-        "ledtrad": "<p>Hur stor är radien efter 4,0 s?</p>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "Hur snabbt ökar arean innanför vågen efter 2,0 s? Svara med två värdesiffror.", "t": "<p>En sten kastas i en sjö. En cirkulär våg rör sig utåt från nedslagsplatsen med den konstanta farten 1,0 m/s.</p><p>Hur snabbt ökar arean innanför vågen efter 2,0 s? Svara med två värdesiffror.</p><p>Svara i m²/s.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=t\\), så \\(\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=2\\pi r\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=2\\pi\\cdot2{,}0\\cdot1{,}0\\approx13\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 13 m²/s</p></div>", "ledtrad": "<p>Hur stor är radien efter 2,0 s?</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 1}, {"etikett": "b", "fraga": "Hur snabbt ökar arean innanför vågen efter 4,0 s? Svara med två värdesiffror.", "t": "<p>En sten kastas i en sjö. En cirkulär våg rör sig utåt från nedslagsplatsen med den konstanta farten 1,0 m/s.</p><p>Hur snabbt ökar arean innanför vågen efter 4,0 s? Svara med två värdesiffror.</p><p>Svara i m²/s.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=4{,}0\\) m: \\(\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=2\\pi\\cdot4{,}0\\cdot1{,}0\\approx25\\).</p></li><li><p>Areaökningen växer alltså med tiden trots att vågen rör sig med konstant fart.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 25 m²/s</p></div>", "ledtrad": "<p>Hur stor är radien efter 4,0 s?</p>", "niva": "E", "poang": "1/0/0", "traningsniva": 1}],
     "ledtrad": "<p>Derivera \\(A=\\pi r^2\\) med avseende på tiden.</p>",
     "traningsniva": 1
   },
@@ -47267,7 +47256,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterade hastigheter",
     "poang": "0/2/0",
-    "t": "<p>Luft pumpas in i en sfärisk ballong med hastigheten \\(6\\pi\\) m³/min. Hur snabbt ökar ballongens area när radien är 2,0 m? Svara exakt.</p>",
+    "t": "<p>Luft pumpas in i en sfärisk ballong med hastigheten \\(6\\pi\\) m³/min. Hur snabbt ökar ballongens area när radien är 2,0 m? Svara exakt.</p><p>Svara i m²/min.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=4\\pi r^2\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}\\Rightarrow\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=\\dfrac{6\\pi}{4\\pi\\cdot4}=\\dfrac38\\) m/min.</p></li><li><div class=\"facit-matte\">\\[A=4\\pi r^2\\Rightarrow\\dfrac{\\mathrm{d}A}{\\mathrm{d}t}=8\\pi r\\dfrac{\\mathrm{d}r}{\\mathrm{d}t}=8\\pi\\cdot2\\cdot\\dfrac38=6\\pi\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6\\pi\\) m²/min</p></div>",
     "id": "3.300",
     "miniräknare": false,
@@ -47342,7 +47331,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterade hastigheter",
     "poang": "0/2/1",
-    "t": "<span class=\"fig\"><svg width=\"380\" height=\"210\" viewBox=\"0 0 380 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett tråg format som ett prisma. Gaveln är en likbent triangel med spetsen nedåt, bredden 3,0 m upptill och djupet 4,0 m. Tråget är 10,0 m långt. Vattnet står 1,0 m över botten.\"><g transform=\"translate(44,0)\"><polygon points=\"40,40 130,40 85,190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><polygon points=\"200,15 290,15 245,165\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><line x1=\"40\" y1=\"40\" x2=\"200\" y2=\"15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"40\" x2=\"290\" y2=\"15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"85\" y1=\"190\" x2=\"245\" y2=\"165\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"73.75,152.5 96.25,152.5 85,190\" fill=\"#5aa0e6\" fill-opacity=\"0.55\" stroke=\"#2f78c4\" stroke-width=\"1\"/><line x1=\"22\" y1=\"40\" x2=\"22\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"16\" y=\"120\" text-anchor=\"end\" font-size=\"13\" fill=\"currentColor\">4,0 m</text><text x=\"85\" y=\"31\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">3,0 m</text><text x=\"214\" y=\"196\" font-size=\"13\" fill=\"currentColor\">10,0 m</text><line x1=\"104\" y1=\"152.5\" x2=\"104\" y2=\"190\" stroke=\"#2f78c4\" stroke-width=\"1\"/><text x=\"110\" y=\"177\" font-size=\"12\" fill=\"#2f78c4\">1,0 m</text></g></svg></span><p>Ett tråg har formen av ett prisma, 10,0 m långt. Gaveln är en likbent triangel med spetsen nedåt, 3,0 m bred upptill och 4,0 m djup. Vatten rinner ut i botten med 5,0 m³/min. Bestäm \\(\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\) när vattnet står 1,0 m över botten. Svara med två värdesiffror.</p>",
+    "t": "<span class=\"fig\"><svg width=\"380\" height=\"210\" viewBox=\"0 0 380 210\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ett tråg format som ett prisma. Gaveln är en likbent triangel med spetsen nedåt, bredden 3,0 m upptill och djupet 4,0 m. Tråget är 10,0 m långt. Vattnet står 1,0 m över botten.\"><g transform=\"translate(44,0)\"><polygon points=\"40,40 130,40 85,190\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><polygon points=\"200,15 290,15 245,165\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><line x1=\"40\" y1=\"40\" x2=\"200\" y2=\"15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"40\" x2=\"290\" y2=\"15\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"85\" y1=\"190\" x2=\"245\" y2=\"165\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"73.75,152.5 96.25,152.5 85,190\" fill=\"#5aa0e6\" fill-opacity=\"0.55\" stroke=\"#2f78c4\" stroke-width=\"1\"/><line x1=\"22\" y1=\"40\" x2=\"22\" y2=\"190\" stroke=\"currentColor\" stroke-width=\"1\"/><text x=\"16\" y=\"120\" text-anchor=\"end\" font-size=\"13\" fill=\"currentColor\">4,0 m</text><text x=\"85\" y=\"31\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">3,0 m</text><text x=\"214\" y=\"196\" font-size=\"13\" fill=\"currentColor\">10,0 m</text><line x1=\"104\" y1=\"152.5\" x2=\"104\" y2=\"190\" stroke=\"#2f78c4\" stroke-width=\"1\"/><text x=\"110\" y=\"177\" font-size=\"12\" fill=\"#2f78c4\">1,0 m</text></g></svg></span><p>Ett tråg har formen av ett prisma, 10,0 m långt. Gaveln är en likbent triangel med spetsen nedåt, 3,0 m bred upptill och 4,0 m djup. Vatten rinner ut i botten med 5,0 m³/min. Bestäm \\(\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\) när vattnet står 1,0 m över botten. Svara med två värdesiffror.</p><p>Svara i m/min.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid djupet \\(h\\) är vattenytans bredd \\(\\dfrac34h\\) (likformighet).</p></li><li><p>Tvärsnittsarean är \\(\\dfrac12\\cdot\\dfrac34h\\cdot h=\\dfrac38h^2\\) och \\(V=10\\cdot\\dfrac38h^2=\\dfrac{15}{4}h^2\\).</p></li><li><div class=\"facit-matte\">\\[\\dfrac{\\mathrm{d}V}{\\mathrm{d}t}=7{,}5h\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}\\Rightarrow\\dfrac{\\mathrm{d}h}{\\mathrm{d}t}=\\dfrac{-5{,}0}{7{,}5\\cdot1{,}0}\\approx-0{,}67\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka −0,67 m/min</p></div>",
     "id": "3.303",
     "miniräknare": true,
@@ -47493,28 +47482,7 @@ window.BANKMATF1 = [
     ],
     "spelDelning": "deluppgifter",
     "spelIntro": "<p>I en rätvinklig triangel är den ena kateten 12 cm och ökar med 3,0 cm/h, medan den andra kateten är 16 cm och minskar med 3,0 cm/h.</p>",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Bestäm hur snabbt hypotenusan förändras. (Ett negativt svar betyder att den minskar.)",
-        "t": "<p>I en rätvinklig triangel är den ena kateten 12 cm och ökar med 3,0 cm/h, medan den andra kateten är 16 cm och minskar med 3,0 cm/h.</p><p>Bestäm hur snabbt hypotenusan förändras. (Ett negativt svar betyder att den minskar.)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s^2=x^2+y^2\\Rightarrow2s\\,s^{\\prime}=2x\\,x^{\\prime}+2y\\,y^{\\prime}\\].</div></li><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[s=20\\].</div></div></li><li><div class=\"facit-matte\">\\[s^{\\prime}=\\dfrac{12\\cdot3{,}0+16\\cdot(-3{,}0)}{20}=-0{,}60\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −0,60 cm/h (hypotenusan minskar)</p></div>",
-        "ledtrad": "<p>Derivera Pythagoras sats med avseende på tiden.</p>",
-        "niva": "C",
-        "poang": "0/2/0",
-        "traningsniva": 3
-      },
-      {
-        "etikett": "b",
-        "fraga": "Bestäm hur snabbt triangelns area förändras.",
-        "t": "<p>I en rätvinklig triangel är den ena kateten 12 cm och ökar med 3,0 cm/h, medan den andra kateten är 16 cm och minskar med 3,0 cm/h.</p><p>Bestäm hur snabbt triangelns area förändras.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=\\dfrac{xy}{2}\\Rightarrow A^{\\prime}=\\dfrac{x^{\\prime}y+xy^{\\prime}}{2}=\\dfrac{3{,}0\\cdot16+12\\cdot(-3{,}0)}{2}=6{,}0\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,0 cm²/h (arean ökar)</p></div>",
-        "ledtrad": "<p>Arean är en produkt av två storheter som båda ändras. Använd produktregeln.</p>",
-        "niva": "C",
-        "poang": "0/2/0",
-        "traningsniva": 3
-      }
-    ],
+    "spelDelar": [{"etikett": "a", "fraga": "Bestäm hur snabbt hypotenusan förändras. (Ett negativt svar betyder att den minskar.)", "t": "<p>I en rätvinklig triangel är den ena kateten 12 cm och ökar med 3,0 cm/h, medan den andra kateten är 16 cm och minskar med 3,0 cm/h.</p><p>Bestäm hur snabbt hypotenusan förändras. (Ett negativt svar betyder att den minskar.)</p><p>Svara i cm/h.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s^2=x^2+y^2\\Rightarrow2s\\,s^{\\prime}=2x\\,x^{\\prime}+2y\\,y^{\\prime}\\].</div></li><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[s=20\\].</div></div></li><li><div class=\"facit-matte\">\\[s^{\\prime}=\\dfrac{12\\cdot3{,}0+16\\cdot(-3{,}0)}{20}=-0{,}60\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −0,60 cm/h (hypotenusan minskar)</p></div>", "ledtrad": "<p>Derivera Pythagoras sats med avseende på tiden.</p>", "niva": "C", "poang": "0/2/0", "traningsniva": 3}, {"etikett": "b", "fraga": "Bestäm hur snabbt triangelns area förändras.", "t": "<p>I en rätvinklig triangel är den ena kateten 12 cm och ökar med 3,0 cm/h, medan den andra kateten är 16 cm och minskar med 3,0 cm/h.</p><p>Bestäm hur snabbt triangelns area förändras.</p><p>Svara i cm²/h.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=\\dfrac{xy}{2}\\Rightarrow A^{\\prime}=\\dfrac{x^{\\prime}y+xy^{\\prime}}{2}=\\dfrac{3{,}0\\cdot16+12\\cdot(-3{,}0)}{2}=6{,}0\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,0 cm²/h (arean ökar)</p></div>", "ledtrad": "<p>Arean är en produkt av två storheter som båda ändras. Använd produktregeln.</p>", "niva": "C", "poang": "0/2/0", "traningsniva": 3}],
     "ledtrad": "<p>Båda kateterna ändras samtidigt.</p>",
     "traningsniva": 3
   },
@@ -47524,7 +47492,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterade hastigheter",
     "poang": "0/2/0",
-    "t": "<p>En rektangel har arean 100 cm². Basen är 16 cm och minskar med 1,0 cm/s. Hur snabbt måste höjden öka för att arean ska vara konstant? Svara med två värdesiffror.</p>",
+    "t": "<p>En rektangel har arean 100 cm². Basen är 16 cm och minskar med 1,0 cm/s. Hur snabbt måste höjden öka för att arean ska vara konstant? Svara med två värdesiffror.</p><p>Svara i cm/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(h=\\dfrac{100}{16}=6{,}25\\) cm.</p></li><li><p>\\(A=bh\\) konstant ger \\(0=b^{\\prime}h+bh^{\\prime}\\).</p></li><li><div class=\"facit-matte\">\\[h^{\\prime}=-\\dfrac{b^{\\prime}h}{b}=\\dfrac{1{,}0\\cdot6{,}25}{16}\\approx0{,}39\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 0,39 cm/s</p></div>",
     "id": "3.307",
     "miniräknare": true,
@@ -47549,7 +47517,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterade hastigheter",
     "poang": "0/2/0",
-    "t": "<span class=\"fig\"><svg width=\"220\" height=\"220\" viewBox=\"0 0 220 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kvadrat med sidan 12 cm. I mitten ligger en cirkel med radien 3,0 cm. Området mellan cirkeln och kvadraten är skuggat.\"><path d=\"M20,20 H200 V200 H20 Z M155,110 A45,45 0 1,0 65,110 A45,45 0 1,0 155,110 Z\" fill=\"#5aa0e6\" fill-opacity=\"0.35\" fill-rule=\"evenodd\" stroke=\"none\"/><rect x=\"20\" y=\"20\" width=\"180\" height=\"180\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><circle cx=\"110\" cy=\"110\" r=\"45\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"110\" y1=\"110\" x2=\"155\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1.2\"/><circle cx=\"110\" cy=\"110\" r=\"2.2\" fill=\"currentColor\"/><text x=\"132\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">3,0 cm</text><text x=\"110\" y=\"214\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">12 cm</text></svg></span><p>En cirkel med radien 3,0 cm ligger mitt i en kvadrat med sidan 12 cm. Cirkelns radie ökar med 4,0 cm/min samtidigt som kvadratens sida ökar med 2,0 cm/min. Hur snabbt förändras arean av området mellan cirkeln och kvadraten? Svara med två värdesiffror.</p>",
+    "t": "<span class=\"fig\"><svg width=\"220\" height=\"220\" viewBox=\"0 0 220 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"En kvadrat med sidan 12 cm. I mitten ligger en cirkel med radien 3,0 cm. Området mellan cirkeln och kvadraten är skuggat.\"><path d=\"M20,20 H200 V200 H20 Z M155,110 A45,45 0 1,0 65,110 A45,45 0 1,0 155,110 Z\" fill=\"#5aa0e6\" fill-opacity=\"0.35\" fill-rule=\"evenodd\" stroke=\"none\"/><rect x=\"20\" y=\"20\" width=\"180\" height=\"180\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"/><circle cx=\"110\" cy=\"110\" r=\"45\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\"/><line x1=\"110\" y1=\"110\" x2=\"155\" y2=\"110\" stroke=\"currentColor\" stroke-width=\"1.2\"/><circle cx=\"110\" cy=\"110\" r=\"2.2\" fill=\"currentColor\"/><text x=\"132\" y=\"104\" text-anchor=\"middle\" font-size=\"12\" fill=\"currentColor\">3,0 cm</text><text x=\"110\" y=\"214\" text-anchor=\"middle\" font-size=\"13\" fill=\"currentColor\">12 cm</text></svg></span><p>En cirkel med radien 3,0 cm ligger mitt i en kvadrat med sidan 12 cm. Cirkelns radie ökar med 4,0 cm/min samtidigt som kvadratens sida ökar med 2,0 cm/min. Hur snabbt förändras arean av området mellan cirkeln och kvadraten? Svara med två värdesiffror.</p><p>Svara i cm²/min.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=x^2-\\pi r^2\\Rightarrow A^{\\prime}=2x\\,x^{\\prime}-2\\pi r\\,r^{\\prime}=2\\cdot12\\cdot2{,}0-2\\pi\\cdot3{,}0\\cdot4{,}0\\approx48-75{,}4\\approx-27\\].</div></li><li><p>Området minskar alltså, trots att kvadraten växer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka −27 cm²/min</p></div>",
     "id": "3.308",
     "miniräknare": true,
@@ -47574,7 +47542,7 @@ window.BANKMATF1 = [
     "niva": "C",
     "typ": "relaterade hastigheter",
     "poang": "0/2/0",
-    "t": "<p>En 5,0 m lång stege lutar mot en lodrät vägg. När stegens fot är 3,0 m från väggen glider foten bort från väggen med 10 m/s. Bestäm hastigheten \\(\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}\\) för stegens övre ände längs väggen.</p>",
+    "t": "<p>En 5,0 m lång stege lutar mot en lodrät vägg. När stegens fot är 3,0 m från väggen glider foten bort från väggen med 10 m/s. Bestäm hastigheten \\(\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}\\) för stegens övre ände längs väggen.</p><p>Svara i m/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2+y^2=5{,}0^2\\].</div></li><li><p>När \\(x=3{,}0\\) är \\(y=4{,}0\\).</p></li><li><div class=\"facit-matte\">\\[2x\\,x^{\\prime}+2y\\,y^{\\prime}=0\\Rightarrow y^{\\prime}=-\\dfrac{x\\,x^{\\prime}}{y}=-\\dfrac{3{,}0\\cdot10}{4{,}0}=-7{,}5\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −7,5 m/s</p></div>",
     "id": "3.309",
     "miniräknare": false,
@@ -47599,7 +47567,7 @@ window.BANKMATF1 = [
     "niva": "A",
     "typ": "relaterade hastigheter",
     "poang": "0/1/1",
-    "t": "<p>En stege lutar mot en lodrät vägg. När foten är 1,8 m från väggen glider foten bort med 8,2 m/s samtidigt som den övre änden glider nedåt med 7,6 m/s. Hur lång är stegen? Svara med två värdesiffror.</p>",
+    "t": "<p>En stege lutar mot en lodrät vägg. När foten är 1,8 m från väggen glider foten bort med 8,2 m/s samtidigt som den övre änden glider nedåt med 7,6 m/s. Hur lång är stegen? Svara med två värdesiffror.</p><p>Svara i m.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x^2+y^2=L^2\\) med \\(L\\) konstant ger \\(x\\,x^{\\prime}+y\\,y^{\\prime}=0\\).</p></li><li><p>\\(1{,}8\\cdot8{,}2+y\\cdot(-7{,}6)=0\\iff y=\\dfrac{1{,}8\\cdot8{,}2}{7{,}6}\\approx1{,}94\\) m.</p></li><li><p>\\(L=\\sqrt{1{,}8^2+1{,}94^2}\\approx2{,}6\\) m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 2,6 m</p></div>",
     "id": "3.310",
     "miniräknare": true,
@@ -47623,7 +47591,7 @@ window.BANKMATF1 = [
     "niva": "A",
     "typ": "relaterade hastigheter",
     "poang": "0/1/2",
-    "t": "<p>Två cyklister lämnar samma punkt samtidigt med farterna 12 m/s och 16 m/s. Vinkeln mellan deras raka färdvägar är 120°. Hur snabbt ökar avståndet mellan dem efter 2,0 minuter? Svara med två värdesiffror.</p>",
+    "t": "<p>Två cyklister lämnar samma punkt samtidigt med farterna 12 m/s och 16 m/s. Vinkeln mellan deras raka färdvägar är 120°. Hur snabbt ökar avståndet mellan dem efter 2,0 minuter? Svara med två värdesiffror.</p><p>Svara i m/s.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter tiden \\(t\\) är sträckorna \\(12t\\) och \\(16t\\).</p></li><li><div class=\"facit-berakning\"><p>Cosinussatsen ger</p><div class=\"facit-matte\">\\[s^2=(12t)^2+(16t)^2-2\\cdot12t\\cdot16t\\cos120°=592t^2\\].</div></div></li><li><p>\\(s=\\sqrt{592}\\,t\\approx24{,}3t\\), så \\(s^{\\prime}\\approx24\\) m/s, oberoende av tiden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 24 m/s</p></div>",
     "id": "3.311",
     "miniräknare": true,
@@ -47792,8 +47760,8 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "generaliserad integral – standardfall",
     "poang": "1/0/0",
-    "t": "<p>Beräkna \\(\\int_0^1 \\ln x\\,dx\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Integralen är generaliserad vid 0.</p></li><li><p class=\"facit-metod\">Använd en primitiv funktion till \\(\\ln x\\).</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är \\(x\\ln x-x\\).</p></li><li><p>\\[\\lim_{a\\to0^+}[x\\ln x-x]_a^1=-1-0=-1,\\]</p></li><li><p>eftersom \\(a\\ln a\\to0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> -1</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Konvergens kräver ett ändligt gränsvärde.</p></li></ol></div>",
+    "t": "<p>Beräkna den generaliserade integralen \\(\\int_0^1\\ln x\\,dx\\).</p><p>Du får använda att \\(F(x)=x\\ln x-x\\) är en primitiv funktion och att \\(\\lim_{x\\to0^+}x\\ln x=0\\).</p>",
+    "s": "<div class=\"facit-v2\"><p>Funktionen är inte definierad vid 0. Börja därför integralen vid ett positivt tal \\(a\\) och låt sedan \\(a\\) gå mot 0.</p>\\[\\int_a^1\\ln x\\,dx=-1-a\\ln a+a.\\]<p>Det givna gränsvärdet ger \\(a\\ln a\\to0\\), och även \\(a\\to0\\).</p><p><strong>Svar:</strong> Integralen konvergerar till \\(-1\\).</p></div>",
     "id": "3.275",
     "miniräknare": false,
     "geogebra": false,
@@ -47808,7 +47776,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Ersätt den problematiska gränsen med en parameter. Beräkna först en vanlig bestämd integral och ta sedan gränsvärdet.</p>"
+    "ledtrad": "<p>Sätt in gränserna i den givna primitiva funktionen. Låt sedan den undre gränsen närma sig 0 från höger.</p>"
   },
   {
     "kap": 3,
@@ -48181,7 +48149,7 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "linjär approximation – grundträning",
     "poang": "1/0/0",
-    "t": "<p>Bestäm den linjära approximationen till \\(\\ln x\\) vid \\(x=1\\) genom att ange konstanttermen i formen \\(L(x)=x+c\\).</p>",
+    "t": "<p>Tangenten till kurvan \\(y=\\ln x\\) vid \\(x=1\\) kan skrivas \\(y=x+c\\).</p><p>Bestäm konstanten \\(c\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> Använd</p><div class=\"facit-matte\">\\[L(x)=f(a)+f'(a)(x-a)\\].</div></div></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(a=1\\): \\(f(1)=0\\),</p></li><li><div class=\"facit-matte\">\\[f'(1)=1\\].</div></li><li><p>\\(L(x)=0+1(x-1)=x-1\\), alltså \\(c=-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> -1</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Approximationen ska ligga nära det exakta värdet när \\(x\\) ligger nära utvecklingspunkten.</p></li></ol></div>",
     "id": "3.284",
     "miniräknare": false,
@@ -48197,7 +48165,7 @@ window.BANKMATF1 = [
     ],
     "traningsniva": 2,
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Använd \\(L(x)=f(a)+f'(a)(x-a)\\). Välj en punkt \\(a\\) nära det tal du vill uppskatta och där \\(f(a)\\) är enkel att beräkna.</p>",
+    "ledtrad": "<p>Tangenten går genom punkten på kurvan där \\(x=1\\). Sätt in punktens koordinater i \\(y=x+c\\).</p>",
     "omrTidigare": [
       "derivata_tillampningar"
     ]
@@ -51900,5 +51868,494 @@ window.BANKMATF1 = [
       }
     ],
     "spel": true
-  }
+  },
+{
+  "id": "3.330",
+  "kap": 3,
+  "omr": "repetition_derivator",
+  "familj": "Derivata och ekvationer med digitala verktyg",
+  "niva": "E",
+  "poang": "2/0/0",
+  "traningsniva": 2,
+  "typ": "Funktionen är \\(f(x)=\\ln(1+x^2)\\)",
+  "t": "<p>Funktionen är \\(f(x)=\\ln(1+x^2)\\). Bestäm tangentens lutning vid \\(x=1\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Kedjeregeln ger \\(f^{\\prime}(x)=2x/(1+x^2)\\). Vid \\(x=1\\) blir lutningen \\(2/2=1\\).</p></div>",
+  "ledtrad": "<p>Använd kedjeregeln.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1,
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+{
+  "id": "3.331",
+  "kap": 3,
+  "omr": "repetition_derivator",
+  "familj": "Derivata och ekvationer med digitala verktyg",
+  "niva": "E",
+  "poang": "2/0/0",
+  "traningsniva": 2,
+  "typ": "Funktionen är \\(f(x)=x^3-3x^2\\)",
+  "t": "<p>Funktionen är \\(f(x)=x^3-3x^2\\). Bestäm \\(f^{\\prime\\prime}(2)\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Derivera två gånger: \\(f^{\\prime}(x)=3x^2-6x\\) och \\(f^{\\prime\\prime}(x)=6x-6\\). Alltså är \\(f^{\\prime\\prime}(2)=6\\).</p></div>",
+  "ledtrad": "<p>Derivera två gånger innan du sätter in x-värdet.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 6,
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+{
+  "id": "3.332",
+  "kap": 3,
+  "omr": "repetition_derivator",
+  "familj": "Derivata och ekvationer med digitala verktyg",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "typ": "Bestäm det \\(x\\)-värde där \\(f(x)=xe^{-x}\\) har sitt största värde",
+  "t": "<p>Bestäm det \\(x\\)-värde där \\(f(x)=xe^{-x}\\) har sitt största värde.</p>",
+  "s": "<div class=\"facit-v2\"><p>Produktregeln ger \\(f^{\\prime}(x)=e^{-x}(1-x)\\). Exponentialfaktorn är positiv. Derivatan är därför positiv för \\(x\\lt1\\) och negativ för \\(x\\gt1\\).</p><p><strong>Svar:</strong> Maximum fås vid \\(x=1\\).</p></div>",
+  "ledtrad": "<p>Derivera med produktregeln och undersök tecknet på derivatan.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1,
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+{
+  "id": "3.333",
+  "kap": 3,
+  "omr": "repetition_derivator",
+  "familj": "Derivata och ekvationer med digitala verktyg",
+  "niva": "E",
+  "poang": "2/0/0",
+  "traningsniva": 2,
+  "typ": "Kurvan är \\(y=x^3-3x\\)",
+  "t": "<p>Kurvan är \\(y=x^3-3x\\). Vid vilka \\(x\\)-värden har tangenten lutningen 3? Svara exakt.</p>",
+  "s": "<div class=\"facit-v2\"><p>Sätt derivatan lika med den sökta lutningen:</p>\\[3x^2-3=3\\Rightarrow x^2=2.\\]<p><strong>Svar:</strong> \\(x=\\pm\\sqrt2\\).</p></div>",
+  "ledtrad": "<p>Tangentens lutning är derivatans värde.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_svar",
+  "rättSvar": [
+    "-sqrt(2)",
+    "sqrt(2)"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": null
+},
+{
+  "id": "3.334",
+  "kap": 3,
+  "omr": "repetition_derivator",
+  "familj": "Derivata och ekvationer med digitala verktyg",
+  "niva": "E",
+  "poang": "2/0/0",
+  "traningsniva": 2,
+  "typ": "Funktionen är \\(f(x)=x^3-3x^2\\)",
+  "t": "<p>Funktionen är \\(f(x)=x^3-3x^2\\). Bestäm \\(x\\)-koordinaten för den lokala maximipunkten.</p>",
+  "s": "<div class=\"facit-v2\"><p>Stationära punkter fås från \\(f^{\\prime}(x)=3x(x-2)=0\\): \\(x=0\\) och \\(x=2\\). Eftersom \\(f^{\\prime\\prime}(0)=-6\\lt0\\) är \\(x=0\\) en lokal maximipunkt. Vid 2 finns i stället ett lokalt minimum.</p></div>",
+  "ledtrad": "<p>Bestäm stationära punkter och skilj maximum från minimum.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0,
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+{
+  "id": "3.335",
+  "kap": 3,
+  "omr": "repetition_derivator",
+  "familj": "Derivata och ekvationer med digitala verktyg",
+  "niva": "E",
+  "poang": "2/0/0",
+  "traningsniva": 2,
+  "typ": "Funktionen är \\(f(x)=x^2+ax\\)",
+  "t": "<p>Funktionen är \\(f(x)=x^2+ax\\). Tangenten vid \\(x=2\\) har lutningen 1. Bestäm \\(a\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Derivatan är \\(f^{\\prime}(x)=2x+a\\). Villkoret ger \\(4+a=1\\), alltså \\(a=-3\\).</p></div>",
+  "ledtrad": "<p>Skriv tangentvillkoret som en ekvation för derivatan.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": -3,
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+{
+  "id": "3.336",
+  "kap": 3,
+  "omr": "repetition_derivator",
+  "familj": "Derivata och ekvationer med digitala verktyg",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "typ": "Bestäm det minsta funktionsvärdet för \\(f(x)=x^4-8x^2\\)",
+  "t": "<p>Bestäm det minsta funktionsvärdet för \\(f(x)=x^4-8x^2\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Skriv om funktionen:</p>\\[f(x)=(x^2-4)^2-16.\\]<p>Kvadraten är minst 0, vilket fås när \\(x=\\pm2\\). Det minsta funktionsvärdet är därför \\(-16\\). Även en derivataundersökning ger samma minimum.</p></div>",
+  "ledtrad": "<p>Sök stationära punkter, eller prova att kvadratkomplettera uttrycket.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": -16,
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+{
+  "id": "3.337",
+  "kap": 3,
+  "omr": "repetition_derivator",
+  "familj": "Derivata och ekvationer med digitala verktyg",
+  "niva": "E",
+  "poang": "2/0/0",
+  "traningsniva": 2,
+  "typ": "Vid vilket \\(x\\)-värde är tangenten till \\(y=x^2\\) parallell med linjen \\(y=6x+1\\)?",
+  "t": "<p>Vid vilket \\(x\\)-värde är tangenten till \\(y=x^2\\) parallell med linjen \\(y=6x+1\\)?</p>",
+  "s": "<div class=\"facit-v2\"><p>Parallella linjer har samma lutning. Sätt \\(y^{\\prime}=2x=6\\). Då är \\(x=3\\).</p></div>",
+  "ledtrad": "<p>Jämför linjens lutning med derivatan.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+{
+  "id": "3.338",
+  "kap": 3,
+  "omr": "repetition_derivator",
+  "familj": "Derivata och ekvationer med digitala verktyg",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "typ": "Ekvationen \\(e^x=3x\\) har två reella lösningar",
+  "t": "<p>Ekvationen \\(e^x=3x\\) har två reella lösningar. Bestäm den större lösningen med tre decimaler.</p>",
+  "s": "<div class=\"facit-v2\"><p>Rita \\(y=e^x\\) och \\(y=3x\\) eller bestäm nollställena till \\(e^x-3x\\) numeriskt. Den högra skärningen ligger vid \\(x\\approx1{,}51213455\\).</p><p><strong>Svar:</strong> \\(x\\approx1{,}512\\).</p></div>",
+  "ledtrad": "<p>Bestäm båda skärningarna digitalt och välj den med störst x-värde.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.5121345516578424,
+  "svarFormat": "numeriskt",
+  "tolerans": 0.0005
+},
+{
+  "id": "3.339",
+  "kap": 3,
+  "omr": "repetition_derivator",
+  "familj": "Derivata och ekvationer med digitala verktyg",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "typ": "Funktionen \\(f(x)=\\ln x-x/2\\) är definierad för \\(x\\gt0\\)",
+  "t": "<p>Funktionen \\(f(x)=\\ln x-x/2\\) är definierad för \\(x\\gt0\\). Vid vilket \\(x\\)-värde har den sitt största värde?</p>",
+  "s": "<div class=\"facit-v2\"><p>Derivatan är \\(f^{\\prime}(x)=1/x-1/2\\). Den är 0 vid \\(x=2\\), positiv före 2 och negativ efter 2.</p><p><strong>Svar:</strong> \\(x=2\\).</p></div>",
+  "ledtrad": "<p>Undersök var derivatan byter tecken från positiv till negativ.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+{
+  "id": "4.569",
+  "kap": 4,
+  "omr": "verifiering",
+  "familj": "Verifiera och bestämma differentialekvation från lösning",
+  "niva": "E",
+  "poang": "2/0/0",
+  "traningsniva": 2,
+  "typ": "Alla funktioner \\(y=Ce^{-3x}+2\\) löser \\(y^{\\prime}+3y=a\\)",
+  "t": "<p>Alla funktioner \\(y=Ce^{-3x}+2\\) löser \\(y^{\\prime}+3y=a\\). Bestäm \\(a\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Derivering ger \\(y^{\\prime}=-3Ce^{-3x}\\). Vid insättning tar exponentialtermerna ut varandra: \\(y^{\\prime}+3y=6\\). Alltså är \\(a=6\\).</p></div>",
+  "ledtrad": "<p>Derivera och sätt in i vänsterledet.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 6,
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+{
+  "id": "4.570",
+  "kap": 4,
+  "omr": "verifiering",
+  "familj": "Verifiera och bestämma differentialekvation från lösning",
+  "niva": "E",
+  "poang": "2/0/0",
+  "traningsniva": 2,
+  "typ": "Funktionen \\(y=5e^{kx}\\) löser \\(y^{\\prime}=4y\\)",
+  "t": "<p>Funktionen \\(y=5e^{kx}\\) löser \\(y^{\\prime}=4y\\). Bestäm \\(k\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Insättning ger \\(5ke^{kx}=20e^{kx}\\). Dela med den positiva faktorn \\(5e^{kx}\\): \\(k=4\\).</p></div>",
+  "ledtrad": "<p>Derivera funktionen och jämför med fyra gånger funktionen.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4,
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+{
+  "id": "4.571",
+  "kap": 4,
+  "omr": "verifiering",
+  "familj": "Verifiera och bestämma differentialekvation från lösning",
+  "niva": "E",
+  "poang": "2/0/0",
+  "traningsniva": 1,
+  "typ": "Alla funktioner \\(y=x^2+C\\) löser \\(y^{\\prime}=ax\\)",
+  "t": "<p>Alla funktioner \\(y=x^2+C\\) löser \\(y^{\\prime}=ax\\). Bestäm \\(a\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Den konstanta termen har derivatan 0. Därför är \\(y^{\\prime}=2x\\), så \\(a=2\\).</p></div>",
+  "ledtrad": "<p>Vad blir derivatan av en konstant?</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+{
+  "id": "4.572",
+  "kap": 4,
+  "omr": "verifiering",
+  "familj": "Verifiera och bestämma differentialekvation från lösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "typ": "Alla funktioner \\(y=Ce^x+x\\) löser \\(y^{\\prime}-y=ax+b\\)",
+  "t": "<p>Alla funktioner \\(y=Ce^x+x\\) löser \\(y^{\\prime}-y=ax+b\\). Bestäm \\(a\\) och \\(b\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Eftersom \\(y^{\\prime}=Ce^x+1\\) får vi \\(y^{\\prime}-y=1-x\\). Jämförelse med \\(ax+b\\) ger \\(a=-1\\) och \\(b=1\\).</p></div>",
+  "ledtrad": "<p>Derivera, subtrahera y och jämför koefficienterna.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -1,
+    1
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": 1e-09,
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ]
+},
+{
+  "id": "4.573",
+  "kap": 4,
+  "omr": "verifiering",
+  "familj": "Verifiera och bestämma differentialekvation från lösning",
+  "niva": "E",
+  "poang": "2/0/0",
+  "traningsniva": 1,
+  "typ": "En funktion uppfyller \\(y^{\\prime}=2y+1\\) och \\(y(0)=3\\)",
+  "t": "<p>En funktion uppfyller \\(y^{\\prime}=2y+1\\) och \\(y(0)=3\\). Bestäm \\(y^{\\prime}(0)\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Sätt in \\(y(0)=3\\) i differentialekvationen. Då blir \\(y^{\\prime}(0)=2\\cdot3+1=7\\). Hela funktionen behöver inte bestämmas.</p></div>",
+  "ledtrad": "<p>Använd det givna funktionsvärdet direkt i differentialekvationen.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 7,
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+{
+  "id": "4.574",
+  "kap": 4,
+  "omr": "verifiering",
+  "familj": "Verifiera och bestämma differentialekvation från lösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "typ": "Alla funktioner \\(y=(C+Dx)e^x\\) löser \\(y^{\\prime\\prime}+ay^{\\prime}+by=0\\)",
+  "t": "<p>Alla funktioner \\(y=(C+Dx)e^x\\) löser \\(y^{\\prime\\prime}+ay^{\\prime}+by=0\\). Bestäm \\(a\\) och \\(b\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Derivatorna är \\(y^{\\prime}=(C+D+Dx)e^x\\) och \\(y^{\\prime\\prime}=(C+2D+Dx)e^x\\). Efter insättning måste koefficienterna för både C och D bli 0.</p>\\[1+a+b=0,\\qquad 2+a=0.\\]<p><strong>Svar:</strong> \\(a=-2\\), \\(b=1\\).</p></div>",
+  "ledtrad": "<p>Derivera två gånger. Likheten ska gälla för alla val av C och D.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -2,
+    1
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": 1e-09,
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ]
+},
+{
+  "id": "4.575",
+  "kap": 4,
+  "omr": "verifiering",
+  "familj": "Verifiera och bestämma differentialekvation från lösning",
+  "niva": "E",
+  "poang": "2/0/0",
+  "traningsniva": 2,
+  "typ": "Funktionen \\(y=\\cos(kx)\\), där \\(k\\gt0\\), löser \\(y^{\\prime\\prime}+25y=0\\)",
+  "t": "<p>Funktionen \\(y=\\cos(kx)\\), där \\(k\\gt0\\), löser \\(y^{\\prime\\prime}+25y=0\\). Bestäm \\(k\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Andraderivatan är \\(-k^2\\cos(kx)\\). Insättning ger \\((25-k^2)\\cos(kx)=0\\) för alla x. Alltså \\(k^2=25\\). Villkoret \\(k\\gt0\\) ger \\(k=5\\).</p></div>",
+  "ledtrad": "<p>Derivera två gånger och jämför faktorn framför cosinus.</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 5,
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+{
+  "id": "4.576",
+  "kap": 4,
+  "omr": "verifiering",
+  "familj": "Verifiera och bestämma differentialekvation från lösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "typ": "Funktionen \\(y=3e^{-2x}+4\\) löser \\(y^{\\prime}+ay=b\\) för alla x",
+  "t": "<p>Funktionen \\(y=3e^{-2x}+4\\) löser \\(y^{\\prime}+ay=b\\) för alla x. Bestäm konstanterna \\(a\\) och \\(b\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Insättning ger \\((-6+3a)e^{-2x}+4a=b\\). Exponentialtermen måste försvinna: \\(-6+3a=0\\), så \\(a=2\\). Då är \\(b=4a=8\\).</p></div>",
+  "ledtrad": "<p>Vänsterledet ska vara konstant för alla x. Vilken term måste därför försvinna?</p>",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    2,
+    8
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": 1e-09,
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ]
+}
 ];

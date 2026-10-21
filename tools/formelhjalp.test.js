@@ -45,6 +45,17 @@ test('Förhandsvisningen visar det eleven skrev utan att förenkla',()=>{
   assert.equal(c.formelLatex('\\frac{1}{2').ok,false);assert.equal(c.formelLatex('\\frac{1}{2}').latex,'\\frac{1}{2}');
 });
 
+test('Funktioner utan parentes visas som rättningen läser dem',()=>{
+  const fall={
+    'cosx':'\\cos \\left(x\\right)','cos x':'\\cos \\left(x\\right)','cos2x':'\\cos \\left(2x\\right)',
+    'sin^2x':'\\sin ^{2}\\left(x\\right)','sin x^2':'\\sin \\left(x^{2}\\right)','sinx^2':'\\sin \\left(x\\right)^{2}',
+    'lnx':'\\ln \\left(x\\right)','cosxsinx':'\\cos \\left(x\\right) \\sin \\left(x\\right)',
+    '2xcosx':'2 x \\cos \\left(x\\right)','ln(x+1)':'\\ln \\left(x + 1\\right)',
+  };
+  for(const [in_,ut] of Object.entries(fall)) assert.equal(c.formelLatex(in_).latex,ut,in_);
+  for(const s of ['cosx','sin2x','lnx','tanx']) assert.equal(c.formelBehovs(s),true,s);
+});
+
 test('Förhandsvisningen visas bara när den tillför något',()=>{
   for(const s of ['42','-3,5','x+1','12 cm']) assert.equal(c.formelBehovs(s),false,s);
   for(const s of ['x^2','3/4','√2','(x+1','\\frac{1}{2}','2·x','sin(x)']) assert.equal(c.formelBehovs(s),true,s);

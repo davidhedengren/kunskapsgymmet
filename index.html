@@ -11608,7 +11608,7 @@ function skrivTecken(tecken){
    Elevens svar förblir vanlig text som rättas precis som tidigare. formelLatex
    visar bara hur texten läses: x^2+3 som x²+3 och (x+1)/(x-1) som ett bråk.
    Inget förenklas, så förhandsvisningen visar det eleven faktiskt skrev. */
-const FORMEL_FN=["arcsin","arccos","arctan","sqrt","sin","cos","tan","exp","abs","ln","lg","log"];
+const FORMEL_FN=["arcsin","arccos","arctan","sinh","cosh","tanh","sqrt","sin","cos","tan","exp","abs","log","ln","lg"];
 function formelTokens(src,kommaDecimal=true){
   const ut=[];let i=0;
   while(i<src.length){
@@ -11616,7 +11616,8 @@ function formelTokens(src,kommaDecimal=true){
     if(c===" "){ i++; if(ut.length) ut[ut.length-1].mellanrum=true; continue; }
     const tal=src.slice(i).match(kommaDecimal?/^\d+(?:[.,]\d+)?/:/^\d+(?:\.\d+)?/);
     if(tal){ ut.push({t:"tal",v:tal[0]}); i+=tal[0].length; continue; }
-    const fn=FORMEL_FN.find(f=>src.slice(i,i+f.length).toLowerCase()===f && !/[a-zåäö]/i.test(src[i+f.length]||"" ) || (src.slice(i,i+f.length).toLowerCase()===f && src[i+f.length]==="("));
+    /* Funktionsnamn känns igen även direkt följda av argumentet: cosx, sin2x, lnx. */
+    const fn=FORMEL_FN.find(f=>src.slice(i,i+f.length).toLowerCase()===f);
     if(fn){ ut.push({t:"fn",v:fn}); i+=fn.length; continue; }
     if(src.slice(i,i+2).toLowerCase()==="pi" && !/[a-zåäö]/i.test(src[i+2]||"")){ ut.push({t:"var",v:"\\pi"}); i+=2; continue; }
     if(/[a-zåäöA-ZÅÄÖ]/.test(c)){ ut.push({t:"var",v:/[åäöÅÄÖ]/.test(c)?`\\text{${c}}`:c}); i++; continue; }
@@ -11662,13 +11663,25 @@ function formelLatex(text){
     if(t.t==="tal") return t.v.replace(",","{,}");
     if(t.t==="var") return t.v;
     if(t.t==="fn"){
-      if(ar("(")){ p++; const inne=grupp(")");
-        if(t.v==="sqrt") return `\\sqrt{${inne}}`;
-        if(t.v==="abs") return `\\left|${inne}\\right|`;
-        const namn=t.v==="lg"?"\\lg":t.v==="exp"?"\\exp":t.v==="arcsin"?"\\arcsin":t.v==="arccos"?"\\arccos":t.v==="arctan"?"\\arctan":"\\"+t.v;
-        return `${namn}\\left(${inne}\\right)`;
+      const namn="\\"+t.v+" ";
+      /* sin^2x och sin^2(x) betyder (sin x)^2. */
+      let potens="";
+      if(ar("^")){ p++; potens=`^{${exponent()}}`; }
+      let arg;
+      if(ar("(")){ p++; arg=grupp(")"); }
+      else{
+        /* Utan parentes läses argumentet som i rättningen: cosx och cos x som cos(x),
+           cos2x som cos(2x) och sin x^2 (med mellanslag) som sin(x^2). */
+        const a=nu();
+        if(a?.t==="tal"){ p++; arg=a.v.replace(",","{,}"); if(!a.mellanrum && nu()?.t==="var"){ arg+=nu().v; p++; } }
+        else if(a?.t==="var"){ p++; arg=a.v; if(t.mellanrum && ar("^")){ p++; arg=`${arg}^{${exponent()}}`; } }
+        else if(a?.t==="tkn" && a.v==="π"){ p++; arg="\\pi "; }
+        else if(startarAtom()) arg=atom();
+        else return namn+potens;
       }
-      return (t.v==="sqrt"?"\\sqrt{"+atom()+"}":"\\"+t.v+" "+(startarAtom()?atom():""));
+      if(t.v==="sqrt") return `\\sqrt{${arg}}`;
+      if(t.v==="abs") return `\\left|${arg}\\right|`;
+      return `${namn}${potens}\\left(${arg}\\right)`;
     }
     const v=t.v;
     if(v==="("){ return `\\left(${grupp(")")}\\right)`; }
@@ -11730,7 +11743,7 @@ function formelLatex(text){
   return {latex,ok};
 }
 /* Förhandsvisningen behövs när svaret innehåller något som ser annorlunda ut i matte. */
-function formelBehovs(text){ return /[\^\/√π*·≤≥±\\()]|sqrt|pi\b|\b(?:sin|cos|tan|ln|lg|log)\b/i.test(String(text||"")); }
+function formelBehovs(text){ return /[\^\/√π*·≤≥±\\()]|sqrt|pi\b|sin|cos|tan|ln|lg|log|exp/i.test(String(text||"")); }
 function uppdateraFormelvisning(i){
   const el=document.getElementById("ans-"+i), ruta=document.getElementById("fv-"+i);
   if(!el||!ruta) return;

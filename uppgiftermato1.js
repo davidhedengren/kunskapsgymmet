@@ -99393,5 +99393,238 @@ window.BANKMATO1 = [
     "tolerans": 0,
     "svarFormat": "grader",
     "svarEnhet": "°"
+  },
+  {
+    "id": "2.1116",
+    "kap": 2,
+    "omr": "derivata_exponential",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen är \\(f(x)=-2e^{0{,}5x}\\). Bestäm kvoten \\(\\dfrac{f'(x)}{f(x)}\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=-2\\cdot0{,}5e^{0{,}5x}=-e^{0{,}5x}\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{f'(x)}{f(x)}=\\frac{-e^{0{,}5x}}{-2e^{0{,}5x}}=0{,}5\\]</div></li><li><p>För \\(f(x)=Ce^{kx}\\) är kvoten alltid \\(k\\), oavsett konstanten \\(C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}5\\)</p></div>",
+    "familj": "Derivatan är proportionell mot funktionsvärdet",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Derivera och förkorta. Vad händer med konstanten \\(-2\\)?</p>",
+    "spel": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 0.5,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1117",
+    "kap": 2,
+    "omr": "derivata_exponential",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Figuren visar grafen till \\(f(x)=2e^{0{,}3x}\\). Punkten \\(P\\) på grafen har \\(y\\)-koordinaten 6.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Grafen till y = 2e upphöjt till 0,3x för x från 0 till 6. Punkten P på kurvan har y-koordinaten 6.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"128.3\" y1=\"30\" x2=\"128.3\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"196.7\" y1=\"30\" x2=\"196.7\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"265.0\" y1=\"30\" x2=\"265.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"333.3\" y1=\"30\" x2=\"333.3\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"401.7\" y1=\"30\" x2=\"401.7\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"470.0\" y1=\"30\" x2=\"470.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"470\" y2=\"255.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"222.9\" x2=\"470\" y2=\"222.9\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"190.7\" x2=\"470\" y2=\"190.7\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"158.6\" x2=\"470\" y2=\"158.6\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"126.4\" x2=\"470\" y2=\"126.4\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"94.3\" x2=\"470\" y2=\"94.3\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"62.1\" x2=\"470\" y2=\"62.1\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"470\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"478\" y2=\"255.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"255\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"478.0\" y=\"243.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">x</text><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">y</text><line x1=\"128.3\" y1=\"251.0\" x2=\"128.3\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"128.3\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"196.7\" y1=\"251.0\" x2=\"196.7\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"196.7\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"265.0\" y1=\"251.0\" x2=\"265.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"265.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"333.3\" y1=\"251.0\" x2=\"333.3\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"333.3\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"401.7\" y1=\"251.0\" x2=\"401.7\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"401.7\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"470.0\" y1=\"251.0\" x2=\"470.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"470.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"56.0\" y1=\"222.9\" x2=\"64.0\" y2=\"222.9\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"227.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"56.0\" y1=\"190.7\" x2=\"64.0\" y2=\"190.7\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"195.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><line x1=\"56.0\" y1=\"158.6\" x2=\"64.0\" y2=\"158.6\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"163.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><line x1=\"56.0\" y1=\"126.4\" x2=\"64.0\" y2=\"126.4\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"131.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><line x1=\"56.0\" y1=\"94.3\" x2=\"64.0\" y2=\"94.3\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"99.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"56.0\" y1=\"62.1\" x2=\"64.0\" y2=\"62.1\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"67.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">12</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">14</text><line x1=\"60.0\" y1=\"158.6\" x2=\"310.2\" y2=\"158.6\" stroke=\"#8a96a3\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><polyline points=\"60.0,222.9 61.0,222.7 62.0,222.6 63.1,222.4 64.1,222.3 65.1,222.1 66.2,222.0 67.2,221.8 68.2,221.7 69.2,221.5 70.2,221.4 71.3,221.2 72.3,221.1 73.3,220.9 74.3,220.8 75.4,220.6 76.4,220.5 77.4,220.3 78.5,220.1 79.5,220.0 80.5,219.8 81.5,219.7 82.5,219.5 83.6,219.4 84.6,219.2 85.6,219.0 86.7,218.9 87.7,218.7 88.7,218.5 89.7,218.4 90.8,218.2 91.8,218.0 92.8,217.9 93.8,217.7 94.8,217.5 95.9,217.4 96.9,217.2 97.9,217.0 98.9,216.9 100.0,216.7 101.0,216.5 102.0,216.3 103.0,216.2 104.1,216.0 105.1,215.8 106.1,215.6 107.2,215.5 108.2,215.3 109.2,215.1 110.2,214.9 111.2,214.7 112.3,214.6 113.3,214.4 114.3,214.2 115.3,214.0 116.4,213.8 117.4,213.6 118.4,213.5 119.4,213.3 120.5,213.1 121.5,212.9 122.5,212.7 123.5,212.5 124.6,212.3 125.6,212.1 126.6,211.9 127.7,211.7 128.7,211.5 129.7,211.4 130.7,211.2 131.8,211.0 132.8,210.8 133.8,210.6 134.8,210.4 135.9,210.2 136.9,210.0 137.9,209.8 138.9,209.5 139.9,209.3 141.0,209.1 142.0,208.9 143.0,208.7 144.1,208.5 145.1,208.3 146.1,208.1 147.1,207.9 148.2,207.7 149.2,207.5 150.2,207.2 151.2,207.0 152.2,206.8 153.3,206.6 154.3,206.4 155.3,206.2 156.3,205.9 157.4,205.7 158.4,205.5 159.4,205.3 160.4,205.0 161.5,204.8 162.5,204.6 163.5,204.4 164.6,204.1 165.6,203.9 166.6,203.7 167.6,203.4 168.7,203.2 169.7,203.0 170.7,202.7 171.7,202.5 172.8,202.3 173.8,202.0 174.8,201.8 175.8,201.6 176.8,201.3 177.9,201.1 178.9,200.8 179.9,200.6 180.9,200.3 182.0,200.1 183.0,199.8 184.0,199.6 185.1,199.3 186.1,199.1 187.1,198.8 188.1,198.6 189.2,198.3 190.2,198.1 191.2,197.8 192.2,197.6 193.2,197.3 194.3,197.0 195.3,196.8 196.3,196.5 197.3,196.3 198.4,196.0 199.4,195.7 200.4,195.5 201.4,195.2 202.5,194.9 203.5,194.6 204.5,194.4 205.5,194.1 206.6,193.8 207.6,193.6 208.6,193.3 209.7,193.0 210.7,192.7 211.7,192.4 212.7,192.2 213.8,191.9 214.8,191.6 215.8,191.3 216.8,191.0 217.8,190.7 218.9,190.4 219.9,190.1 220.9,189.9 222.0,189.6 223.0,189.3 224.0,189.0 225.0,188.7 226.1,188.4 227.1,188.1 228.1,187.8 229.1,187.5 230.2,187.2 231.2,186.9 232.2,186.5 233.2,186.2 234.2,185.9 235.3,185.6 236.3,185.3 237.3,185.0 238.3,184.7 239.4,184.4 240.4,184.0 241.4,183.7 242.4,183.4 243.5,183.1 244.5,182.7 245.5,182.4 246.6,182.1 247.6,181.8 248.6,181.4 249.6,181.1 250.7,180.8 251.7,180.4 252.7,180.1 253.7,179.8 254.8,179.4 255.8,179.1 256.8,178.7 257.8,178.4 258.9,178.0 259.9,177.7 260.9,177.4 261.9,177.0 263.0,176.6 264.0,176.3 265.0,175.9 266.0,175.6 267.1,175.2 268.1,174.9 269.1,174.5 270.1,174.1 271.1,173.8 272.2,173.4 273.2,173.0 274.2,172.7 275.2,172.3 276.3,171.9 277.3,171.6 278.3,171.2 279.4,170.8 280.4,170.4 281.4,170.0 282.4,169.7 283.5,169.3 284.5,168.9 285.5,168.5 286.5,168.1 287.6,167.7 288.6,167.3 289.6,166.9 290.6,166.5 291.7,166.1 292.7,165.7 293.7,165.3 294.7,164.9 295.8,164.5 296.8,164.1 297.8,163.7 298.8,163.3 299.9,162.9 300.9,162.5 301.9,162.0 302.9,161.6 303.9,161.2 305.0,160.8 306.0,160.3 307.0,159.9 308.0,159.5 309.1,159.1 310.1,158.6 311.1,158.2 312.1,157.8 313.2,157.3 314.2,156.9 315.2,156.4 316.2,156.0 317.3,155.5 318.3,155.1 319.3,154.6 320.4,154.2 321.4,153.7 322.4,153.3 323.4,152.8 324.4,152.4 325.5,151.9 326.5,151.4 327.5,151.0 328.6,150.5 329.6,150.0 330.6,149.6 331.6,149.1 332.7,148.6 333.7,148.1 334.7,147.6 335.7,147.2 336.8,146.7 337.8,146.2 338.8,145.7 339.8,145.2 340.9,144.7 341.9,144.2 342.9,143.7 343.9,143.2 344.9,142.7 346.0,142.2 347.0,141.7 348.0,141.2 349.1,140.7 350.1,140.1 351.1,139.6 352.1,139.1 353.1,138.6 354.2,138.1 355.2,137.5 356.2,137.0 357.2,136.5 358.3,135.9 359.3,135.4 360.3,134.9 361.4,134.3 362.4,133.8 363.4,133.2 364.4,132.7 365.4,132.1 366.5,131.6 367.5,131.0 368.5,130.5 369.6,129.9 370.6,129.3 371.6,128.8 372.6,128.2 373.6,127.6 374.7,127.0 375.7,126.5 376.7,125.9 377.8,125.3 378.8,124.7 379.8,124.1 380.8,123.5 381.9,122.9 382.9,122.4 383.9,121.8 384.9,121.2 385.9,120.6 387.0,119.9 388.0,119.3 389.0,118.7 390.1,118.1 391.1,117.5 392.1,116.9 393.1,116.2 394.1,115.6 395.2,115.0 396.2,114.4 397.2,113.7 398.2,113.1 399.3,112.5 400.3,111.8 401.3,111.2 402.3,110.5 403.4,109.9 404.4,109.2 405.4,108.5 406.5,107.9 407.5,107.2 408.5,106.6 409.5,105.9 410.6,105.2 411.6,104.5 412.6,103.9 413.6,103.2 414.7,102.5 415.7,101.8 416.7,101.1 417.7,100.4 418.8,99.7 419.8,99.0 420.8,98.3 421.8,97.6 422.8,96.9 423.9,96.2 424.9,95.5 425.9,94.8 426.9,94.0 428.0,93.3 429.0,92.6 430.0,91.8 431.0,91.1 432.1,90.4 433.1,89.6 434.1,88.9 435.2,88.1 436.2,87.4 437.2,86.6 438.2,85.9 439.2,85.1 440.3,84.3 441.3,83.6 442.3,82.8 443.4,82.0 444.4,81.2 445.4,80.5 446.4,79.7 447.4,78.9 448.5,78.1 449.5,77.3 450.5,76.5 451.6,75.7 452.6,74.9 453.6,74.1 454.6,73.2 455.6,72.4 456.7,71.6 457.7,70.8 458.7,69.9 459.8,69.1 460.8,68.3 461.8,67.4 462.8,66.6 463.9,65.7 464.9,64.9 465.9,64.0 466.9,63.2 467.9,62.3 469.0,61.4 470.0,60.5\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"310.2\" cy=\"158.6\" r=\"5\" fill=\"#c2410c\"/><text x=\"296.2\" y=\"148.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">P</text></svg></div><p>Bestäm kurvans lutning i \\(P\\) utan att först bestämma \\(x\\)-koordinaten.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=0{,}3\\cdot2e^{0{,}3x}=0{,}3f(x)\\]</div></li><li><div class=\"facit-matte\">\\[f'(x_P)=0{,}3\\cdot6=1{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}8\\)</p></div>",
+    "familj": "Derivatan är proportionell mot funktionsvärdet",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Uttryck derivatan med hjälp av funktionsvärdet.</p>",
+    "spel": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1.8,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1118",
+    "kap": 2,
+    "omr": "derivata_exponential",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En funktion uppfyller \\(f'(x)=-0{,}2f(x)\\) och \\(f(0)=50\\). Funktionen är en exponentialfunktion av typen \\(f(x)=Ce^{kx}\\).</p><p>Bestäm \\(f(x)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(f(x)=Ce^{kx}\\) är \\(f'(x)=kf(x)\\), så \\(k=-0{,}2\\).</p></li><li><div class=\"facit-matte\">\\[f(0)=Ce^0=C=50\\]</div></li><li><div class=\"facit-matte\">\\[f(x)=50e^{-0{,}2x}\\]</div></li></ol></div>",
+    "familj": "Derivatan är proportionell mot funktionsvärdet",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken konstant i \\(Ce^{kx}\\) bestäms av \\(f'(x)=-0{,}2f(x)\\), och vilken av \\(f(0)\\)?</p>",
+    "spel": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "rättSvar": "50e^(-0.2x)",
+    "tolerans": null
+  },
+  {
+    "id": "2.1119",
+    "kap": 2,
+    "omr": "derivata_exponential",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Funktionen är \\(f(x)=4e^{kx}\\). I den punkt på grafen där \\(f(x)=12\\) är tangentens lutning \\(-6\\).</p><p>Bestäm \\(k\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f'(x)=kf(x)\\]</div></li><li><div class=\"facit-matte\">\\[-6=k\\cdot12\\;\\Rightarrow\\;k=-0{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=-0{,}5\\)</p></div>",
+    "familj": "Derivatan är proportionell mot funktionsvärdet",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Samma samband mellan derivata och funktionsvärde gäller i alla punkter på grafen.</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -0.5,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1120",
+    "kap": 2,
+    "omr": "derivata_exponential",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Temperaturen i en kopp te sjunker enligt \\(T(t)=20+60e^{-0{,}05t}\\), där \\(T\\) är temperaturen i °C och \\(t\\) är tiden i minuter.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Grafen till T(t) = 20 + 60e upphöjt till minus 0,05t för t från 0 till 60 minuter. Kurvan börjar på 80 grader och närmar sig 20 grader. Punkten där T är 50 är markerad.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"128.3\" y1=\"30\" x2=\"128.3\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"196.7\" y1=\"30\" x2=\"196.7\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"265.0\" y1=\"30\" x2=\"265.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"333.3\" y1=\"30\" x2=\"333.3\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"401.7\" y1=\"30\" x2=\"401.7\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"470.0\" y1=\"30\" x2=\"470.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"470\" y2=\"255.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"230.0\" x2=\"470\" y2=\"230.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"205.0\" x2=\"470\" y2=\"205.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"180.0\" x2=\"470\" y2=\"180.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"155.0\" x2=\"470\" y2=\"155.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"130.0\" x2=\"470\" y2=\"130.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"105.0\" x2=\"470\" y2=\"105.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"80.0\" x2=\"470\" y2=\"80.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"55.0\" x2=\"470\" y2=\"55.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"470\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"478\" y2=\"255.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"255\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"478.0\" y=\"243.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">t (min)</text><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">T (°C)</text><line x1=\"128.3\" y1=\"251.0\" x2=\"128.3\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"128.3\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"196.7\" y1=\"251.0\" x2=\"196.7\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"196.7\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><line x1=\"265.0\" y1=\"251.0\" x2=\"265.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"265.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><line x1=\"333.3\" y1=\"251.0\" x2=\"333.3\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"333.3\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><line x1=\"401.7\" y1=\"251.0\" x2=\"401.7\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"401.7\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">50</text><line x1=\"470.0\" y1=\"251.0\" x2=\"470.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"470.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">60</text><line x1=\"56.0\" y1=\"230.0\" x2=\"64.0\" y2=\"230.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"56.0\" y1=\"205.0\" x2=\"64.0\" y2=\"205.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"56.0\" y1=\"180.0\" x2=\"64.0\" y2=\"180.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"185.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"56.0\" y1=\"155.0\" x2=\"64.0\" y2=\"155.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"56.0\" y1=\"130.0\" x2=\"64.0\" y2=\"130.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">50</text><line x1=\"56.0\" y1=\"105.0\" x2=\"64.0\" y2=\"105.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">60</text><line x1=\"56.0\" y1=\"80.0\" x2=\"64.0\" y2=\"80.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">70</text><line x1=\"56.0\" y1=\"55.0\" x2=\"64.0\" y2=\"55.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"60.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">80</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">90</text><line x1=\"60.0\" y1=\"205.0\" x2=\"470.0\" y2=\"205.0\" stroke=\"#8a96a3\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><line x1=\"60.0\" y1=\"130.0\" x2=\"154.7\" y2=\"130.0\" stroke=\"#8a96a3\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><polyline points=\"60.0,55.0 61.0,56.1 62.0,57.2 63.1,58.3 64.1,59.4 65.1,60.5 66.2,61.6 67.2,62.7 68.2,63.7 69.2,64.8 70.2,65.8 71.3,66.9 72.3,67.9 73.3,68.9 74.3,70.0 75.4,71.0 76.4,72.0 77.4,73.0 78.5,73.9 79.5,74.9 80.5,75.9 81.5,76.9 82.5,77.8 83.6,78.8 84.6,79.7 85.6,80.6 86.7,81.6 87.7,82.5 88.7,83.4 89.7,84.3 90.8,85.2 91.8,86.1 92.8,87.0 93.8,87.9 94.8,88.8 95.9,89.6 96.9,90.5 97.9,91.3 99.0,92.2 100.0,93.0 101.0,93.9 102.0,94.7 103.0,95.5 104.1,96.3 105.1,97.2 106.1,98.0 107.2,98.8 108.2,99.6 109.2,100.3 110.2,101.1 111.2,101.9 112.3,102.7 113.3,103.4 114.3,104.2 115.3,105.0 116.4,105.7 117.4,106.4 118.4,107.2 119.4,107.9 120.5,108.6 121.5,109.4 122.5,110.1 123.5,110.8 124.6,111.5 125.6,112.2 126.6,112.9 127.7,113.6 128.7,114.2 129.7,114.9 130.7,115.6 131.8,116.3 132.8,116.9 133.8,117.6 134.8,118.2 135.8,118.9 136.9,119.5 137.9,120.2 138.9,120.8 139.9,121.4 141.0,122.1 142.0,122.7 143.0,123.3 144.1,123.9 145.1,124.5 146.1,125.1 147.1,125.7 148.2,126.3 149.2,126.9 150.2,127.5 151.2,128.1 152.2,128.6 153.3,129.2 154.3,129.8 155.3,130.3 156.3,130.9 157.4,131.4 158.4,132.0 159.4,132.5 160.4,133.1 161.5,133.6 162.5,134.1 163.5,134.7 164.6,135.2 165.6,135.7 166.6,136.2 167.6,136.8 168.7,137.3 169.7,137.8 170.7,138.3 171.7,138.8 172.8,139.3 173.8,139.8 174.8,140.2 175.8,140.7 176.9,141.2 177.9,141.7 178.9,142.2 179.9,142.6 180.9,143.1 182.0,143.6 183.0,144.0 184.0,144.5 185.1,144.9 186.1,145.4 187.1,145.8 188.1,146.3 189.2,146.7 190.2,147.1 191.2,147.6 192.2,148.0 193.2,148.4 194.3,148.8 195.3,149.3 196.3,149.7 197.3,150.1 198.4,150.5 199.4,150.9 200.4,151.3 201.4,151.7 202.5,152.1 203.5,152.5 204.5,152.9 205.6,153.3 206.6,153.7 207.6,154.1 208.6,154.4 209.7,154.8 210.7,155.2 211.7,155.6 212.7,155.9 213.8,156.3 214.8,156.7 215.8,157.0 216.8,157.4 217.8,157.7 218.9,158.1 219.9,158.4 220.9,158.8 221.9,159.1 223.0,159.5 224.0,159.8 225.0,160.2 226.1,160.5 227.1,160.8 228.1,161.2 229.1,161.5 230.2,161.8 231.2,162.1 232.2,162.5 233.2,162.8 234.2,163.1 235.3,163.4 236.3,163.7 237.3,164.0 238.3,164.3 239.4,164.6 240.4,164.9 241.4,165.2 242.4,165.5 243.5,165.8 244.5,166.1 245.5,166.4 246.6,166.7 247.6,167.0 248.6,167.3 249.6,167.5 250.6,167.8 251.7,168.1 252.7,168.4 253.7,168.7 254.8,168.9 255.8,169.2 256.8,169.5 257.8,169.7 258.9,170.0 259.9,170.3 260.9,170.5 261.9,170.8 262.9,171.0 264.0,171.3 265.0,171.5 266.0,171.8 267.1,172.0 268.1,172.3 269.1,172.5 270.1,172.8 271.1,173.0 272.2,173.2 273.2,173.5 274.2,173.7 275.2,173.9 276.3,174.2 277.3,174.4 278.3,174.6 279.4,174.9 280.4,175.1 281.4,175.3 282.4,175.5 283.5,175.8 284.5,176.0 285.5,176.2 286.5,176.4 287.5,176.6 288.6,176.8 289.6,177.0 290.6,177.3 291.6,177.5 292.7,177.7 293.7,177.9 294.7,178.1 295.8,178.3 296.8,178.5 297.8,178.7 298.8,178.9 299.9,179.1 300.9,179.3 301.9,179.5 302.9,179.6 304.0,179.8 305.0,180.0 306.0,180.2 307.0,180.4 308.0,180.6 309.1,180.8 310.1,180.9 311.1,181.1 312.1,181.3 313.2,181.5 314.2,181.6 315.2,181.8 316.2,182.0 317.3,182.2 318.3,182.3 319.3,182.5 320.4,182.7 321.4,182.8 322.4,183.0 323.4,183.2 324.4,183.3 325.5,183.5 326.5,183.7 327.5,183.8 328.5,184.0 329.6,184.1 330.6,184.3 331.6,184.4 332.6,184.6 333.7,184.8 334.7,184.9 335.7,185.1 336.8,185.2 337.8,185.3 338.8,185.5 339.8,185.6 340.9,185.8 341.9,185.9 342.9,186.1 343.9,186.2 345.0,186.4 346.0,186.5 347.0,186.6 348.0,186.8 349.1,186.9 350.1,187.0 351.1,187.2 352.1,187.3 353.1,187.4 354.2,187.6 355.2,187.7 356.2,187.8 357.2,188.0 358.3,188.1 359.3,188.2 360.3,188.3 361.4,188.5 362.4,188.6 363.4,188.7 364.4,188.8 365.4,189.0 366.5,189.1 367.5,189.2 368.5,189.3 369.6,189.4 370.6,189.5 371.6,189.7 372.6,189.8 373.6,189.9 374.7,190.0 375.7,190.1 376.7,190.2 377.8,190.3 378.8,190.4 379.8,190.6 380.8,190.7 381.9,190.8 382.9,190.9 383.9,191.0 384.9,191.1 385.9,191.2 387.0,191.3 388.0,191.4 389.0,191.5 390.0,191.6 391.1,191.7 392.1,191.8 393.1,191.9 394.1,192.0 395.2,192.1 396.2,192.2 397.2,192.3 398.2,192.4 399.3,192.5 400.3,192.6 401.3,192.7 402.4,192.7 403.4,192.8 404.4,192.9 405.4,193.0 406.5,193.1 407.5,193.2 408.5,193.3 409.5,193.4 410.6,193.5 411.6,193.5 412.6,193.6 413.6,193.7 414.6,193.8 415.7,193.9 416.7,194.0 417.7,194.1 418.8,194.1 419.8,194.2 420.8,194.3 421.8,194.4 422.9,194.5 423.9,194.5 424.9,194.6 425.9,194.7 426.9,194.8 428.0,194.8 429.0,194.9 430.0,195.0 431.0,195.1 432.1,195.1 433.1,195.2 434.1,195.3 435.1,195.4 436.2,195.4 437.2,195.5 438.2,195.6 439.2,195.6 440.3,195.7 441.3,195.8 442.3,195.9 443.4,195.9 444.4,196.0 445.4,196.1 446.4,196.1 447.5,196.2 448.5,196.3 449.5,196.3 450.5,196.4 451.6,196.5 452.6,196.5 453.6,196.6 454.6,196.6 455.6,196.7 456.7,196.8 457.7,196.8 458.7,196.9 459.8,197.0 460.8,197.0 461.8,197.1 462.8,197.1 463.9,197.2 464.9,197.2 465.9,197.3 466.9,197.4 467.9,197.4 469.0,197.5 470.0,197.5\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"154.7\" cy=\"130.0\" r=\"5\" fill=\"#c2410c\"/></svg></div><p>Bestäm \\(T'(t)\\) i det ögonblick då teet är 50 °C. (Svara i °C/min.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T'(t)=60\\cdot(-0{,}05)e^{-0{,}05t}=-0{,}05\\cdot60e^{-0{,}05t}\\]</div></li><li><p>Eftersom \\(60e^{-0{,}05t}=T(t)-20\\) är \\(T'(t)=-0{,}05\\,(T(t)-20)\\).</p></li><li><div class=\"facit-matte\">\\[T'=-0{,}05\\cdot(50-20)=-1{,}5\\]</div></li><li><p>Temperaturen sjunker med 1,5 °C per minut. Hastigheten är proportionell mot skillnaden mot rumstemperaturen, inte mot själva temperaturen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(T'=-1{,}5\\) °C/min. Temperaturen sjunker med 1,5 °C per minut.</p></div>",
+    "familj": "Derivatan är proportionell mot funktionsvärdet",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv derivatan med hjälp av \\(T(t)-20\\) i stället för med \\(t\\).</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -1.5,
+    "tolerans": 0.01,
+    "svarEnhet": "°C/min"
+  },
+  {
+    "id": "2.1121",
+    "kap": 2,
+    "omr": "derivata_exponential",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken funktion uppfyller \\(f'(x)=2f(x)\\) för alla \\(x\\)?</p><p>Välj ett alternativ.</p><p>A. \\(f(x)=e^{2x}+1\\)<br>B. \\(f(x)=3e^{2x}\\)<br>C. \\(f(x)=2e^{x}\\)<br>D. \\(f(x)=e^{x^2}\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>B: \\(f'(x)=6e^{2x}=2\\cdot3e^{2x}=2f(x)\\).</p></li><li><p>A ger \\(f'=2e^{2x}\\), men \\(2f=2e^{2x}+2\\). C ger \\(f'=f\\). D ger \\(f'=2xe^{x^2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B</p></div>",
+    "familj": "Derivatan är proportionell mot funktionsvärdet",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Derivera varje alternativ och jämför med två gånger funktionen.</p>",
+    "spel": true,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarstyp": "val",
+    "svarFormat": "kort_text",
+    "rättSvar": "B",
+    "tolerans": null
+  },
+  {
+    "id": "2.1122",
+    "kap": 2,
+    "omr": "derivata_exponential",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Mängden av ett radioaktivt ämne minskar så att sönderfallshastigheten hela tiden är 4,0 % av den mängd som finns kvar, räknat per timme.</p><p>Hur lång är halveringstiden? (Svara i timmar med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[N'(t)=-0{,}040\\,N(t)\\;\\Rightarrow\\;N(t)=N_0e^{-0{,}040t}\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{N_0}{2}=N_0e^{-0{,}040T}\\;\\Rightarrow\\;T=\\frac{\\ln2}{0{,}040}\\]</div></li><li><div class=\"facit-matte\">\\[T\\approx17{,}3\\ \\text{h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 17,3 timmar</p></div>",
+    "familj": "Derivatan är proportionell mot funktionsvärdet",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken exponentialfunktion har derivatan \\(-0{,}040\\) gånger funktionsvärdet? När är hälften kvar?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 17.32867951,
+    "tolerans": 0.05,
+    "svarEnhet": "h"
+  },
+  {
+    "id": "2.1123",
+    "kap": 2,
+    "omr": "derivata_exponential",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Grafen till \\(f(x)=ae^{kx}\\) går genom punkten \\((0,\\,3)\\). Där har grafen lutningen \\(-1{,}5\\).</p><p>I vilken punkt har grafen lutningen \\(-0{,}3\\)? Ange \\(x\\)-koordinaten exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(0)=a=3,\\qquad f'(0)=ka=-1{,}5\\;\\Rightarrow\\;k=-0{,}5\\]</div></li><li><p>Lutningen är \\(f'(x)=-0{,}5f(x)\\). Lutningen \\(-0{,}3\\) ger \\(f(x)=0{,}6\\).</p></li><li><div class=\"facit-matte\">\\[3e^{-0{,}5x}=0{,}6\\;\\Rightarrow\\;e^{-0{,}5x}=0{,}2\\;\\Rightarrow\\;x=-2\\ln0{,}2=2\\ln5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\ln5\\)</p></div>",
+    "familj": "Derivatan är proportionell mot funktionsvärdet",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm \\(a\\) och \\(k\\). Använd sedan sambandet mellan lutning och funktionsvärde för att få ett enklare villkor.</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "rättSvar": "2ln(5)",
+    "tolerans": null
   }
 ];

@@ -96062,5 +96062,651 @@ window.BANKMATO2 = [
     ],
     "familjNyckel": "forandringshastigheter__samband_mellan_forandringshastigheter",
     "arbetsinsats": 2
+  },
+  {
+    "id": "2.589",
+    "kap": 2,
+    "omr": "asinx_bcosx",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Elias påstår att funktionen \\(f(x)=7\\sin x+24\\cos x\\) kan anta värdet 26 för något \\(x\\), eftersom både sinus och cosinus kan vara positiva samtidigt.</p><p>Har Elias rätt? Välj ett alternativ.</p><p>A. Ja, för \\(x=45^\\circ\\) blir värdet större än 26.<br>B. Ja, största värdet är \\(7+24=31\\).<br>C. Nej, största värdet är \\(\\sqrt{7^2+24^2}=25\\).<br>D. Nej, största värdet är 24.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7\\sin x+24\\cos x=R\\sin(x+v),\\qquad R=\\sqrt{7^2+24^2}=\\sqrt{625}=25\\]</div></li><li><p>Sinus och cosinus kan inte vara 1 samtidigt. Det största värdet är därför 25, och 26 kan aldrig nås. Vid \\(x=45^\\circ\\) blir värdet bara \\(31\\cdot\\tfrac{\\sqrt2}{2}\\approx21{,}9\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C</p></div>",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Kan \\(\\sin x\\) och \\(\\cos x\\) båda vara 1 för samma \\(x\\)? Vilket är då det största värdet?</p>",
+    "spel": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "svarstyp": "val",
+    "svarFormat": "kort_text",
+    "rättSvar": "C",
+    "tolerans": null
+  },
+  {
+    "id": "2.590",
+    "kap": 2,
+    "omr": "asinx_bcosx",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vattennivån i en tank, mätt i centimeter över ett märke, varierar som \\(h(x)=8\\sin x+15\\cos x-4\\), där \\(x\\) är en vinkel i grader som ökar med tiden.</p><p>Hur högt och hur lågt når vattnet i förhållande till märket? Svara med det högsta värdet först. (Svara i cm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8\\sin x+15\\cos x=17\\sin(x+v),\\qquad \\sqrt{8^2+15^2}=17\\]</div></li><li><div class=\"facit-matte\">\\[\\text{högst: }17-4=13,\\qquad \\text{lägst: }-17-4=-21\\]</div></li><li><p>Vattnet når som högst 13 cm över märket och som lägst 21 cm under det.</p></li></ol></div>",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv sinus- och cosinusdelen som en enda sinusfunktion. Mellan vilka värden varierar den?</p>",
+    "spel": true,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      13,
+      -21
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarEtiketter": [
+      "Högsta nivå",
+      "Lägsta nivå"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "cm",
+      "cm"
+    ]
+  },
+  {
+    "id": "2.591",
+    "kap": 2,
+    "omr": "asinx_bcosx",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Skriv \\(2\\sin x+2\\sqrt3\\cos x\\) på formen \\(R\\sin(x+v)\\), där \\(R\\gt0\\) och \\(-90^\\circ\\lt v\\lt90^\\circ\\). Ange \\(R\\) och \\(v\\) exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[R=\\sqrt{2^2+(2\\sqrt3)^2}=\\sqrt{16}=4\\]</div></li><li><div class=\"facit-matte\">\\[R\\cos v=2,\\quad R\\sin v=2\\sqrt3\\;\\Rightarrow\\;\\tan v=\\sqrt3,\\;v=60^\\circ\\]</div></li><li><div class=\"facit-matte\">\\[2\\sin x+2\\sqrt3\\cos x=4\\sin(x+60^\\circ)\\]</div></li></ol></div>",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Jämför med \\(R\\sin(x+v)=R\\cos v\\sin x+R\\sin v\\cos x\\).</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      60
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "grader"
+    ],
+    "tolerans": [
+      0,
+      0.05
+    ],
+    "svarEtiketter": [
+      "R",
+      "v"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      null,
+      "°"
+    ]
+  },
+  {
+    "id": "2.592",
+    "kap": 2,
+    "omr": "asinx_bcosx",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Figuren visar grafen till \\(y=a\\sin x+b\\cos x\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Grafen till y = a sin x + b cos x från 0 till 360 grader. Grafen skär y-axeln i minus 3 och har värdet 2 vid x = 90 grader.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"111.2\" y1=\"30\" x2=\"111.2\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"162.5\" y1=\"30\" x2=\"162.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"213.8\" y1=\"30\" x2=\"213.8\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"265.0\" y1=\"30\" x2=\"265.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"316.2\" y1=\"30\" x2=\"316.2\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"367.5\" y1=\"30\" x2=\"367.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"418.8\" y1=\"30\" x2=\"418.8\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"470.0\" y1=\"30\" x2=\"470.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"470\" y2=\"255.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"226.9\" x2=\"470\" y2=\"226.9\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"198.8\" x2=\"470\" y2=\"198.8\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"170.6\" x2=\"470\" y2=\"170.6\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"142.5\" x2=\"470\" y2=\"142.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"114.4\" x2=\"470\" y2=\"114.4\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"86.2\" x2=\"470\" y2=\"86.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"58.1\" x2=\"470\" y2=\"58.1\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"470\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"142.5\" x2=\"478\" y2=\"142.5\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"255\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"478.0\" y=\"130.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">x</text><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">y</text><line x1=\"111.2\" y1=\"138.5\" x2=\"111.2\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"111.2\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">45°</text><line x1=\"162.5\" y1=\"138.5\" x2=\"162.5\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"162.5\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">90°</text><line x1=\"213.8\" y1=\"138.5\" x2=\"213.8\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"213.8\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">135°</text><line x1=\"265.0\" y1=\"138.5\" x2=\"265.0\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"265.0\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">180°</text><line x1=\"316.2\" y1=\"138.5\" x2=\"316.2\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"316.2\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">225°</text><line x1=\"367.5\" y1=\"138.5\" x2=\"367.5\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"367.5\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">270°</text><line x1=\"418.8\" y1=\"138.5\" x2=\"418.8\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"418.8\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">315°</text><line x1=\"470.0\" y1=\"138.5\" x2=\"470.0\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"470.0\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">360°</text><line x1=\"56.0\" y1=\"255.0\" x2=\"64.0\" y2=\"255.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"260.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><line x1=\"56.0\" y1=\"226.9\" x2=\"64.0\" y2=\"226.9\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"231.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><line x1=\"56.0\" y1=\"198.8\" x2=\"64.0\" y2=\"198.8\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"203.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><line x1=\"56.0\" y1=\"170.6\" x2=\"64.0\" y2=\"170.6\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"175.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><line x1=\"56.0\" y1=\"114.4\" x2=\"64.0\" y2=\"114.4\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"119.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><line x1=\"56.0\" y1=\"86.2\" x2=\"64.0\" y2=\"86.2\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"91.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"56.0\" y1=\"58.1\" x2=\"64.0\" y2=\"58.1\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"63.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><line x1=\"60.0\" y1=\"86.2\" x2=\"162.5\" y2=\"86.2\" stroke=\"#8a96a3\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><line x1=\"162.5\" y1=\"142.5\" x2=\"162.5\" y2=\"86.2\" stroke=\"#8a96a3\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><polyline points=\"60.0,226.9 61.0,226.0 62.0,225.1 63.1,224.1 64.1,223.2 65.1,222.2 66.2,221.2 67.2,220.2 68.2,219.2 69.2,218.1 70.2,217.0 71.3,215.9 72.3,214.8 73.3,213.7 74.3,212.6 75.4,211.4 76.4,210.2 77.4,209.0 78.5,207.8 79.5,206.6 80.5,205.4 81.5,204.1 82.5,202.8 83.6,201.5 84.6,200.2 85.6,198.9 86.7,197.6 87.7,196.3 88.7,194.9 89.7,193.5 90.8,192.1 91.8,190.7 92.8,189.3 93.8,187.9 94.8,186.5 95.9,185.1 96.9,183.6 97.9,182.1 99.0,180.7 100.0,179.2 101.0,177.7 102.0,176.2 103.0,174.7 104.1,173.2 105.1,171.7 106.1,170.1 107.2,168.6 108.2,167.0 109.2,165.5 110.2,163.9 111.2,162.4 112.3,160.8 113.3,159.3 114.3,157.7 115.3,156.1 116.4,154.5 117.4,152.9 118.4,151.4 119.5,149.8 120.5,148.2 121.5,146.6 122.5,145.0 123.5,143.4 124.6,141.8 125.6,140.2 126.6,138.6 127.7,137.0 128.7,135.4 129.7,133.9 130.7,132.3 131.8,130.7 132.8,129.1 133.8,127.5 134.8,126.0 135.8,124.4 136.9,122.8 137.9,121.3 138.9,119.7 139.9,118.2 141.0,116.6 142.0,115.1 143.0,113.5 144.1,112.0 145.1,110.5 146.1,109.0 147.1,107.5 148.2,106.0 149.2,104.5 150.2,103.1 151.2,101.6 152.2,100.1 153.3,98.7 154.3,97.3 155.3,95.8 156.3,94.4 157.4,93.0 158.4,91.7 159.4,90.3 160.4,88.9 161.5,87.6 162.5,86.2 163.5,84.9 164.6,83.6 165.6,82.3 166.6,81.1 167.6,79.8 168.7,78.6 169.7,77.3 170.7,76.1 171.7,74.9 172.8,73.7 173.8,72.6 174.8,71.4 175.8,70.3 176.8,69.2 177.9,68.1 178.9,67.0 179.9,66.0 180.9,64.9 182.0,63.9 183.0,62.9 184.0,62.0 185.1,61.0 186.1,60.1 187.1,59.1 188.1,58.2 189.2,57.4 190.2,56.5 191.2,55.7 192.2,54.9 193.2,54.1 194.3,53.3 195.3,52.6 196.3,51.8 197.3,51.1 198.4,50.5 199.4,49.8 200.4,49.2 201.5,48.6 202.5,48.0 203.5,47.4 204.5,46.9 205.5,46.3 206.6,45.8 207.6,45.4 208.6,44.9 209.7,44.5 210.7,44.1 211.7,43.7 212.7,43.4 213.8,43.1 214.8,42.8 215.8,42.5 216.8,42.2 217.8,42.0 218.9,41.8 219.9,41.6 220.9,41.5 221.9,41.4 223.0,41.3 224.0,41.2 225.0,41.1 226.1,41.1 227.1,41.1 228.1,41.1 229.1,41.2 230.2,41.2 231.2,41.3 232.2,41.5 233.2,41.6 234.2,41.8 235.3,42.0 236.3,42.2 237.3,42.5 238.3,42.7 239.4,43.0 240.4,43.3 241.4,43.7 242.4,44.1 243.5,44.5 244.5,44.9 245.5,45.3 246.6,45.8 247.6,46.3 248.6,46.8 249.6,47.3 250.7,47.9 251.7,48.5 252.7,49.1 253.7,49.7 254.8,50.4 255.8,51.0 256.8,51.7 257.8,52.5 258.9,53.2 259.9,54.0 260.9,54.8 261.9,55.6 262.9,56.4 264.0,57.3 265.0,58.1 266.0,59.0 267.1,59.9 268.1,60.9 269.1,61.8 270.1,62.8 271.1,63.8 272.2,64.8 273.2,65.8 274.2,66.9 275.2,68.0 276.3,69.1 277.3,70.2 278.3,71.3 279.4,72.4 280.4,73.6 281.4,74.8 282.4,76.0 283.4,77.2 284.5,78.4 285.5,79.6 286.5,80.9 287.6,82.2 288.6,83.5 289.6,84.8 290.6,86.1 291.7,87.4 292.7,88.7 293.7,90.1 294.7,91.5 295.8,92.9 296.8,94.3 297.8,95.7 298.8,97.1 299.9,98.5 300.9,99.9 301.9,101.4 302.9,102.9 303.9,104.3 305.0,105.8 306.0,107.3 307.0,108.8 308.0,110.3 309.1,111.8 310.1,113.3 311.1,114.9 312.1,116.4 313.2,118.0 314.2,119.5 315.2,121.1 316.2,122.6 317.3,124.2 318.3,125.7 319.3,127.3 320.4,128.9 321.4,130.5 322.4,132.1 323.4,133.6 324.4,135.2 325.5,136.8 326.5,138.4 327.5,140.0 328.6,141.6 329.6,143.2 330.6,144.8 331.6,146.4 332.7,148.0 333.7,149.6 334.7,151.1 335.7,152.7 336.8,154.3 337.8,155.9 338.8,157.5 339.8,159.0 340.8,160.6 341.9,162.2 342.9,163.7 343.9,165.3 344.9,166.8 346.0,168.4 347.0,169.9 348.0,171.5 349.1,173.0 350.1,174.5 351.1,176.0 352.1,177.5 353.1,179.0 354.2,180.5 355.2,181.9 356.2,183.4 357.2,184.9 358.3,186.3 359.3,187.7 360.3,189.2 361.4,190.6 362.4,192.0 363.4,193.3 364.4,194.7 365.4,196.1 366.5,197.4 367.5,198.8 368.5,200.1 369.6,201.4 370.6,202.7 371.6,203.9 372.6,205.2 373.6,206.4 374.7,207.7 375.7,208.9 376.7,210.1 377.8,211.3 378.8,212.4 379.8,213.6 380.8,214.7 381.9,215.8 382.9,216.9 383.9,218.0 384.9,219.0 385.9,220.1 387.0,221.1 388.0,222.1 389.0,223.0 390.1,224.0 391.1,224.9 392.1,225.9 393.1,226.8 394.1,227.6 395.2,228.5 396.2,229.3 397.2,230.1 398.2,230.9 399.3,231.7 400.3,232.4 401.3,233.2 402.4,233.9 403.4,234.5 404.4,235.2 405.4,235.8 406.4,236.4 407.5,237.0 408.5,237.6 409.5,238.1 410.6,238.7 411.6,239.2 412.6,239.6 413.6,240.1 414.6,240.5 415.7,240.9 416.7,241.3 417.7,241.6 418.8,241.9 419.8,242.2 420.8,242.5 421.8,242.8 422.9,243.0 423.9,243.2 424.9,243.4 425.9,243.5 426.9,243.6 428.0,243.7 429.0,243.8 430.0,243.9 431.1,243.9 432.1,243.9 433.1,243.9 434.1,243.8 435.1,243.8 436.2,243.7 437.2,243.5 438.2,243.4 439.2,243.2 440.3,243.0 441.3,242.8 442.3,242.5 443.4,242.3 444.4,242.0 445.4,241.7 446.4,241.3 447.4,240.9 448.5,240.5 449.5,240.1 450.5,239.7 451.6,239.2 452.6,238.7 453.6,238.2 454.6,237.7 455.6,237.1 456.7,236.5 457.7,235.9 458.7,235.3 459.8,234.6 460.8,234.0 461.8,233.3 462.8,232.5 463.9,231.8 464.9,231.0 465.9,230.2 466.9,229.4 467.9,228.6 469.0,227.7 470.0,226.9\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"60.0\" cy=\"226.9\" r=\"5\" fill=\"#c2410c\"/><circle cx=\"162.5\" cy=\"86.2\" r=\"5\" fill=\"#c2410c\"/></svg></div><p>Bestäm \\(a\\) och \\(b\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(x=0^\\circ\\) är \\(\\sin x=0\\) och \\(\\cos x=1\\), så \\(y(0)=b=-3\\).</p></li><li><p>För \\(x=90^\\circ\\) är \\(\\sin x=1\\) och \\(\\cos x=0\\), så \\(y(90^\\circ)=a=2\\).</p></li><li><p>Kontroll: amplituden är \\(\\sqrt{2^2+3^2}\\approx3{,}6\\), vilket stämmer med grafens största värde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2\\) och \\(b=-3\\)</p></div>",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilka värden har \\(\\sin x\\) och \\(\\cos x\\) när \\(x=0^\\circ\\) och när \\(x=90^\\circ\\)?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      -3
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.593",
+    "kap": 2,
+    "omr": "asinx_bcosx",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös ekvationen \\(\\sin x+\\sqrt3\\cos x=1\\) för \\(0^\\circ\\le x\\lt360^\\circ\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin x+\\sqrt3\\cos x=2\\sin(x+60^\\circ)\\]</div></li><li><div class=\"facit-matte\">\\[2\\sin(x+60^\\circ)=1\\;\\Rightarrow\\;\\sin(x+60^\\circ)=\\tfrac12\\]</div></li><li><div class=\"facit-matte\">\\[x+60^\\circ=30^\\circ+n\\cdot360^\\circ\\quad\\text{eller}\\quad x+60^\\circ=150^\\circ+n\\cdot360^\\circ\\]</div></li><li><p>I intervallet: \\(x=90^\\circ\\) och \\(x=-30^\\circ+360^\\circ=330^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=90^\\circ\\) eller \\(x=330^\\circ\\)</p></div>",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv vänsterledet som en enda sinusfunktion först.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      90,
+      330
+    ],
+    "svarFormat": [
+      "grader",
+      "grader"
+    ],
+    "tolerans": [
+      0.05,
+      0.05
+    ],
+    "svarEtiketter": [
+      "x₁",
+      "x₂"
+    ],
+    "svarsstruktur": "mängd"
+  },
+  {
+    "id": "2.594",
+    "kap": 2,
+    "omr": "asinx_bcosx",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En mekanisk arm svänger så att dess utslag i millimeter ges av \\(y=20\\sin x+21\\cos x\\), där \\(x\\) är en vridningsvinkel i grader.</p><p>Bestäm det största utslaget och den minsta positiva vinkel \\(x\\) där det inträffar. Ange vinkeln med en decimal.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[R=\\sqrt{20^2+21^2}=\\sqrt{841}=29\\]</div></li><li><div class=\"facit-matte\">\\[\\tan v=\\frac{21}{20}\\;\\Rightarrow\\;v\\approx46{,}40^\\circ\\]</div></li><li><div class=\"facit-matte\">\\[\\text{största värdet när }x+v=90^\\circ\\;\\Rightarrow\\;x\\approx43{,}6^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 29 mm vid \\(x\\approx43{,}6^\\circ\\)</p></div>",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv om till \\(R\\sin(x+v)\\). När är sinus som störst?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      29,
+      43.60281897
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "grader"
+    ],
+    "tolerans": [
+      0,
+      0.06
+    ],
+    "svarEtiketter": [
+      "Största utslag",
+      "Vinkel"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      "mm",
+      "°"
+    ]
+  },
+  {
+    "id": "2.595",
+    "kap": 2,
+    "omr": "asinx_bcosx",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket uttryck har största värdet 5?</p><p>Välj ett alternativ.</p><p>A. \\(4\\sin x-3\\cos x\\)<br>B. \\(5\\sin x+5\\cos x\\)<br>C. \\(2\\sin x+3\\cos x\\)<br>D. \\(\\sin x+4\\cos x\\)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största värdet är \\(\\sqrt{a^2+b^2}\\).</p></li><li><div class=\"facit-matte\">\\[A:\\ \\sqrt{16+9}=5,\\quad B:\\ \\sqrt{50}\\approx7{,}1,\\quad C:\\ \\sqrt{13}\\approx3{,}6,\\quad D:\\ \\sqrt{17}\\approx4{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A</p></div>",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Ett minustecken framför en term påverkar inte amplituden. Varför?</p>",
+    "spel": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "svarstyp": "val",
+    "svarFormat": "kort_text",
+    "rättSvar": "A",
+    "tolerans": null
+  },
+  {
+    "id": "2.596",
+    "kap": 2,
+    "omr": "asinx_bcosx",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/1/2",
+    "t": "<p>Funktionen \\(f(x)=a\\sin x+b\\cos x\\), där \\(a\\gt0\\) och \\(b\\gt0\\), har största värdet 10. Det största värdet antas för \\(x=30^\\circ\\).</p><p>Bestäm \\(a\\) och \\(b\\) exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(x)=10\\sin(x+v),\\quad \\text{max när }x+v=90^\\circ\\]</div></li><li><div class=\"facit-matte\">\\[30^\\circ+v=90^\\circ\\;\\Rightarrow\\;v=60^\\circ\\]</div></li><li><div class=\"facit-matte\">\\[a=10\\cos60^\\circ=5,\\qquad b=10\\sin60^\\circ=5\\sqrt3\\]</div></li><li><p>Kontroll: \\(f(30^\\circ)=5\\cdot\\tfrac12+5\\sqrt3\\cdot\\tfrac{\\sqrt3}{2}=2{,}5+7{,}5=10\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\) och \\(b=5\\sqrt3\\)</p></div>",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Skriv \\(f\\) som \\(R\\sin(x+v)\\). Vad vet du om \\(R\\), och vad måste \\(v\\) vara för att maximum ska ligga vid \\(30^\\circ\\)?</p>",
+    "spel": true,
+    "traningsniva": 5,
+    "arbetsinsats": 3,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      "5sqrt(3)"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "uttryck"
+    ],
+    "tolerans": [
+      0,
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.597",
+    "kap": 2,
+    "omr": "sinusformad_kurva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Figuren visar grafen till \\(y=a\\sin x\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Grafen till y = a sin x från 0 till 360 grader. Största värdet 2,5 vid 90 grader och minsta värdet minus 2,5 vid 270 grader.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"111.2\" y1=\"30\" x2=\"111.2\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"162.5\" y1=\"30\" x2=\"162.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"213.8\" y1=\"30\" x2=\"213.8\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"265.0\" y1=\"30\" x2=\"265.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"316.2\" y1=\"30\" x2=\"316.2\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"367.5\" y1=\"30\" x2=\"367.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"418.8\" y1=\"30\" x2=\"418.8\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"470.0\" y1=\"30\" x2=\"470.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"470\" y2=\"255.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"236.2\" x2=\"470\" y2=\"236.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"217.5\" x2=\"470\" y2=\"217.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"198.8\" x2=\"470\" y2=\"198.8\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"180.0\" x2=\"470\" y2=\"180.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"161.2\" x2=\"470\" y2=\"161.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"142.5\" x2=\"470\" y2=\"142.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"123.8\" x2=\"470\" y2=\"123.8\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"105.0\" x2=\"470\" y2=\"105.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"86.2\" x2=\"470\" y2=\"86.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"67.5\" x2=\"470\" y2=\"67.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"48.8\" x2=\"470\" y2=\"48.8\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"470\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"142.5\" x2=\"478\" y2=\"142.5\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"255\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"478.0\" y=\"130.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">x</text><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">y</text><line x1=\"111.2\" y1=\"138.5\" x2=\"111.2\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"111.2\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">45°</text><line x1=\"162.5\" y1=\"138.5\" x2=\"162.5\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"162.5\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">90°</text><line x1=\"213.8\" y1=\"138.5\" x2=\"213.8\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"213.8\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">135°</text><line x1=\"265.0\" y1=\"138.5\" x2=\"265.0\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"265.0\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">180°</text><line x1=\"316.2\" y1=\"138.5\" x2=\"316.2\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"316.2\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">225°</text><line x1=\"367.5\" y1=\"138.5\" x2=\"367.5\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"367.5\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">270°</text><line x1=\"418.8\" y1=\"138.5\" x2=\"418.8\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"418.8\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">315°</text><line x1=\"470.0\" y1=\"138.5\" x2=\"470.0\" y2=\"146.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"470.0\" y=\"162.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">360°</text><line x1=\"56.0\" y1=\"255.0\" x2=\"64.0\" y2=\"255.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"260.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><line x1=\"56.0\" y1=\"236.2\" x2=\"64.0\" y2=\"236.2\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"241.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2,5</text><line x1=\"56.0\" y1=\"217.5\" x2=\"64.0\" y2=\"217.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"222.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><line x1=\"56.0\" y1=\"198.8\" x2=\"64.0\" y2=\"198.8\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"56.0\" y1=\"180.0\" x2=\"64.0\" y2=\"180.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"185.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><line x1=\"56.0\" y1=\"161.2\" x2=\"64.0\" y2=\"161.2\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"56.0\" y1=\"123.8\" x2=\"64.0\" y2=\"123.8\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"56.0\" y1=\"105.0\" x2=\"64.0\" y2=\"105.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><line x1=\"56.0\" y1=\"86.2\" x2=\"64.0\" y2=\"86.2\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"56.0\" y1=\"67.5\" x2=\"64.0\" y2=\"67.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"72.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"56.0\" y1=\"48.8\" x2=\"64.0\" y2=\"48.8\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"53.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2,5</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><polyline points=\"60.0,142.5 61.0,141.0 62.0,139.6 63.1,138.1 64.1,136.6 65.1,135.1 66.2,133.7 67.2,132.2 68.2,130.8 69.2,129.3 70.2,127.8 71.3,126.4 72.3,124.9 73.3,123.5 74.3,122.0 75.4,120.6 76.4,119.2 77.4,117.8 78.5,116.3 79.5,114.9 80.5,113.5 81.5,112.1 82.5,110.7 83.6,109.4 84.6,108.0 85.6,106.6 86.7,105.3 87.7,103.9 88.7,102.6 89.7,101.3 90.8,99.9 91.8,98.6 92.8,97.3 93.8,96.1 94.8,94.8 95.9,93.5 96.9,92.3 97.9,91.0 99.0,89.8 100.0,88.6 101.0,87.4 102.0,86.2 103.0,85.0 104.1,83.9 105.1,82.7 106.1,81.6 107.2,80.5 108.2,79.4 109.2,78.3 110.2,77.3 111.2,76.2 112.3,75.2 113.3,74.2 114.3,73.2 115.3,72.2 116.4,71.2 117.4,70.3 118.4,69.3 119.5,68.4 120.5,67.5 121.5,66.7 122.5,65.8 123.5,65.0 124.6,64.1 125.6,63.3 126.6,62.6 127.7,61.8 128.7,61.1 129.7,60.3 130.7,59.6 131.8,59.0 132.8,58.3 133.8,57.7 134.8,57.1 135.8,56.5 136.9,55.9 137.9,55.3 138.9,54.8 139.9,54.3 141.0,53.8 142.0,53.3 143.0,52.9 144.1,52.5 145.1,52.1 146.1,51.7 147.1,51.3 148.2,51.0 149.2,50.7 150.2,50.4 151.2,50.1 152.2,49.9 153.3,49.7 154.3,49.5 155.3,49.3 156.3,49.2 157.4,49.0 158.4,48.9 159.4,48.9 160.4,48.8 161.5,48.8 162.5,48.8 163.5,48.8 164.6,48.8 165.6,48.9 166.6,48.9 167.6,49.0 168.7,49.2 169.7,49.3 170.7,49.5 171.7,49.7 172.8,49.9 173.8,50.1 174.8,50.4 175.8,50.7 176.8,51.0 177.9,51.3 178.9,51.7 179.9,52.1 180.9,52.5 182.0,52.9 183.0,53.3 184.0,53.8 185.1,54.3 186.1,54.8 187.1,55.3 188.1,55.9 189.2,56.5 190.2,57.1 191.2,57.7 192.2,58.3 193.2,59.0 194.3,59.6 195.3,60.3 196.3,61.1 197.3,61.8 198.4,62.6 199.4,63.3 200.4,64.1 201.5,65.0 202.5,65.8 203.5,66.7 204.5,67.5 205.5,68.4 206.6,69.3 207.6,70.3 208.6,71.2 209.7,72.2 210.7,73.2 211.7,74.2 212.7,75.2 213.8,76.2 214.8,77.3 215.8,78.3 216.8,79.4 217.8,80.5 218.9,81.6 219.9,82.7 220.9,83.9 221.9,85.0 223.0,86.2 224.0,87.4 225.0,88.6 226.1,89.8 227.1,91.0 228.1,92.3 229.1,93.5 230.2,94.8 231.2,96.1 232.2,97.3 233.2,98.6 234.2,99.9 235.3,101.3 236.3,102.6 237.3,103.9 238.3,105.3 239.4,106.6 240.4,108.0 241.4,109.4 242.4,110.7 243.5,112.1 244.5,113.5 245.5,114.9 246.6,116.3 247.6,117.8 248.6,119.2 249.6,120.6 250.7,122.0 251.7,123.5 252.7,124.9 253.7,126.4 254.8,127.8 255.8,129.3 256.8,130.8 257.8,132.2 258.9,133.7 259.9,135.1 260.9,136.6 261.9,138.1 262.9,139.6 264.0,141.0 265.0,142.5 266.0,144.0 267.1,145.4 268.1,146.9 269.1,148.4 270.1,149.9 271.1,151.3 272.2,152.8 273.2,154.2 274.2,155.7 275.2,157.2 276.3,158.6 277.3,160.1 278.3,161.5 279.4,163.0 280.4,164.4 281.4,165.8 282.4,167.2 283.4,168.7 284.5,170.1 285.5,171.5 286.5,172.9 287.6,174.3 288.6,175.6 289.6,177.0 290.6,178.4 291.7,179.7 292.7,181.1 293.7,182.4 294.7,183.7 295.8,185.1 296.8,186.4 297.8,187.7 298.8,188.9 299.9,190.2 300.9,191.5 301.9,192.7 302.9,194.0 303.9,195.2 305.0,196.4 306.0,197.6 307.0,198.8 308.0,200.0 309.1,201.1 310.1,202.3 311.1,203.4 312.1,204.5 313.2,205.6 314.2,206.7 315.2,207.7 316.2,208.8 317.3,209.8 318.3,210.8 319.3,211.8 320.4,212.8 321.4,213.8 322.4,214.7 323.4,215.7 324.4,216.6 325.5,217.5 326.5,218.3 327.5,219.2 328.6,220.0 329.6,220.9 330.6,221.7 331.6,222.4 332.7,223.2 333.7,223.9 334.7,224.7 335.7,225.4 336.8,226.0 337.8,226.7 338.8,227.3 339.8,227.9 340.8,228.5 341.9,229.1 342.9,229.7 343.9,230.2 344.9,230.7 346.0,231.2 347.0,231.7 348.0,232.1 349.1,232.5 350.1,232.9 351.1,233.3 352.1,233.7 353.1,234.0 354.2,234.3 355.2,234.6 356.2,234.9 357.2,235.1 358.3,235.3 359.3,235.5 360.3,235.7 361.4,235.8 362.4,236.0 363.4,236.1 364.4,236.1 365.4,236.2 366.5,236.2 367.5,236.2 368.5,236.2 369.6,236.2 370.6,236.1 371.6,236.1 372.6,236.0 373.6,235.8 374.7,235.7 375.7,235.5 376.7,235.3 377.8,235.1 378.8,234.9 379.8,234.6 380.8,234.3 381.9,234.0 382.9,233.7 383.9,233.3 384.9,232.9 385.9,232.5 387.0,232.1 388.0,231.7 389.0,231.2 390.1,230.7 391.1,230.2 392.1,229.7 393.1,229.1 394.1,228.5 395.2,227.9 396.2,227.3 397.2,226.7 398.2,226.0 399.3,225.4 400.3,224.7 401.3,223.9 402.4,223.2 403.4,222.4 404.4,221.7 405.4,220.9 406.4,220.0 407.5,219.2 408.5,218.3 409.5,217.5 410.6,216.6 411.6,215.7 412.6,214.7 413.6,213.8 414.6,212.8 415.7,211.8 416.7,210.8 417.7,209.8 418.8,208.8 419.8,207.7 420.8,206.7 421.8,205.6 422.9,204.5 423.9,203.4 424.9,202.3 425.9,201.1 426.9,200.0 428.0,198.8 429.0,197.6 430.0,196.4 431.1,195.2 432.1,194.0 433.1,192.7 434.1,191.5 435.1,190.2 436.2,188.9 437.2,187.7 438.2,186.4 439.2,185.1 440.3,183.7 441.3,182.4 442.3,181.1 443.4,179.7 444.4,178.4 445.4,177.0 446.4,175.6 447.4,174.3 448.5,172.9 449.5,171.5 450.5,170.1 451.6,168.7 452.6,167.2 453.6,165.8 454.6,164.4 455.6,163.0 456.7,161.5 457.7,160.1 458.7,158.6 459.8,157.2 460.8,155.7 461.8,154.2 462.8,152.8 463.9,151.3 464.9,149.9 465.9,148.4 466.9,146.9 467.9,145.4 469.0,144.0 470.0,142.5\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/></svg></div><p>Bestäm \\(a\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största värdet är 2,5 vid \\(x=90^\\circ\\), där \\(\\sin x=1\\).</p></li><li><div class=\"facit-matte\">\\[a=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2{,}5\\)</p></div>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilket värde har \\(\\sin x\\) där grafen är som högst?</p>",
+    "spel": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2.5,
+    "tolerans": 0
+  },
+  {
+    "id": "2.598",
+    "kap": 2,
+    "omr": "sinusformad_kurva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Figuren visar grafen till \\(y=\\cos(bx)+c\\), där \\(b\\gt0\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Grafen till y = cos(bx) + c från 0 till 360 grader. Största värdet 3 vid 0, 180 och 360 grader, minsta värdet 1 vid 90 och 270 grader.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"111.2\" y1=\"30\" x2=\"111.2\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"162.5\" y1=\"30\" x2=\"162.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"213.8\" y1=\"30\" x2=\"213.8\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"265.0\" y1=\"30\" x2=\"265.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"316.2\" y1=\"30\" x2=\"316.2\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"367.5\" y1=\"30\" x2=\"367.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"418.8\" y1=\"30\" x2=\"418.8\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"470.0\" y1=\"30\" x2=\"470.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"470\" y2=\"255.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"198.8\" x2=\"470\" y2=\"198.8\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"142.5\" x2=\"470\" y2=\"142.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"86.2\" x2=\"470\" y2=\"86.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"470\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"478\" y2=\"255.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"255\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"478.0\" y=\"243.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">x</text><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">y</text><line x1=\"111.2\" y1=\"251.0\" x2=\"111.2\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"111.2\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">45°</text><line x1=\"162.5\" y1=\"251.0\" x2=\"162.5\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"162.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">90°</text><line x1=\"213.8\" y1=\"251.0\" x2=\"213.8\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"213.8\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">135°</text><line x1=\"265.0\" y1=\"251.0\" x2=\"265.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"265.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">180°</text><line x1=\"316.2\" y1=\"251.0\" x2=\"316.2\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"316.2\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">225°</text><line x1=\"367.5\" y1=\"251.0\" x2=\"367.5\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"367.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">270°</text><line x1=\"418.8\" y1=\"251.0\" x2=\"418.8\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"418.8\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">315°</text><line x1=\"470.0\" y1=\"251.0\" x2=\"470.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"470.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">360°</text><line x1=\"56.0\" y1=\"198.8\" x2=\"64.0\" y2=\"198.8\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"203.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><line x1=\"56.0\" y1=\"142.5\" x2=\"64.0\" y2=\"142.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"147.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"56.0\" y1=\"86.2\" x2=\"64.0\" y2=\"86.2\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"91.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><polyline points=\"60.0,86.2 61.0,86.3 62.0,86.4 63.1,86.5 64.1,86.7 65.1,86.9 66.2,87.2 67.2,87.6 68.2,88.0 69.2,88.5 70.2,89.0 71.3,89.6 72.3,90.2 73.3,90.9 74.3,91.6 75.4,92.4 76.4,93.2 77.4,94.1 78.5,95.0 79.5,96.0 80.5,97.0 81.5,98.1 82.5,99.2 83.6,100.3 84.6,101.5 85.6,102.7 86.7,104.0 87.7,105.3 88.7,106.6 89.7,108.0 90.8,109.4 91.8,110.9 92.8,112.4 93.8,113.9 94.8,115.4 95.9,117.0 96.9,118.5 97.9,120.2 99.0,121.8 100.0,123.4 101.0,125.1 102.0,126.8 103.0,128.5 104.1,130.2 105.1,132.0 106.1,133.7 107.2,135.5 108.2,137.2 109.2,139.0 110.2,140.7 111.2,142.5 112.3,144.3 113.3,146.0 114.3,147.8 115.3,149.5 116.4,151.3 117.4,153.0 118.4,154.8 119.5,156.5 120.5,158.2 121.5,159.9 122.5,161.6 123.5,163.2 124.6,164.8 125.6,166.5 126.6,168.0 127.7,169.6 128.7,171.1 129.7,172.6 130.7,174.1 131.8,175.6 132.8,177.0 133.8,178.4 134.8,179.7 135.8,181.0 136.9,182.3 137.9,183.5 138.9,184.7 139.9,185.8 141.0,186.9 142.0,188.0 143.0,189.0 144.1,190.0 145.1,190.9 146.1,191.8 147.1,192.6 148.2,193.4 149.2,194.1 150.2,194.8 151.2,195.4 152.2,196.0 153.3,196.5 154.3,197.0 155.3,197.4 156.3,197.8 157.4,198.1 158.4,198.3 159.4,198.5 160.4,198.6 161.5,198.7 162.5,198.8 163.5,198.7 164.6,198.6 165.6,198.5 166.6,198.3 167.6,198.1 168.7,197.8 169.7,197.4 170.7,197.0 171.7,196.5 172.8,196.0 173.8,195.4 174.8,194.8 175.8,194.1 176.8,193.4 177.9,192.6 178.9,191.8 179.9,190.9 180.9,190.0 182.0,189.0 183.0,188.0 184.0,186.9 185.1,185.8 186.1,184.7 187.1,183.5 188.1,182.3 189.2,181.0 190.2,179.7 191.2,178.4 192.2,177.0 193.2,175.6 194.3,174.1 195.3,172.6 196.3,171.1 197.3,169.6 198.4,168.0 199.4,166.5 200.4,164.8 201.5,163.2 202.5,161.6 203.5,159.9 204.5,158.2 205.5,156.5 206.6,154.8 207.6,153.0 208.6,151.3 209.7,149.5 210.7,147.8 211.7,146.0 212.7,144.3 213.8,142.5 214.8,140.7 215.8,139.0 216.8,137.2 217.8,135.5 218.9,133.7 219.9,132.0 220.9,130.2 221.9,128.5 223.0,126.8 224.0,125.1 225.0,123.4 226.1,121.8 227.1,120.2 228.1,118.5 229.1,117.0 230.2,115.4 231.2,113.9 232.2,112.4 233.2,110.9 234.2,109.4 235.3,108.0 236.3,106.6 237.3,105.3 238.3,104.0 239.4,102.7 240.4,101.5 241.4,100.3 242.4,99.2 243.5,98.1 244.5,97.0 245.5,96.0 246.6,95.0 247.6,94.1 248.6,93.2 249.6,92.4 250.7,91.6 251.7,90.9 252.7,90.2 253.7,89.6 254.8,89.0 255.8,88.5 256.8,88.0 257.8,87.6 258.9,87.2 259.9,86.9 260.9,86.7 261.9,86.5 262.9,86.4 264.0,86.3 265.0,86.2 266.0,86.3 267.1,86.4 268.1,86.5 269.1,86.7 270.1,86.9 271.1,87.2 272.2,87.6 273.2,88.0 274.2,88.5 275.2,89.0 276.3,89.6 277.3,90.2 278.3,90.9 279.4,91.6 280.4,92.4 281.4,93.2 282.4,94.1 283.4,95.0 284.5,96.0 285.5,97.0 286.5,98.1 287.6,99.2 288.6,100.3 289.6,101.5 290.6,102.7 291.7,104.0 292.7,105.3 293.7,106.6 294.7,108.0 295.8,109.4 296.8,110.9 297.8,112.4 298.8,113.9 299.9,115.4 300.9,117.0 301.9,118.5 302.9,120.2 303.9,121.8 305.0,123.4 306.0,125.1 307.0,126.8 308.0,128.5 309.1,130.2 310.1,132.0 311.1,133.7 312.1,135.5 313.2,137.2 314.2,139.0 315.2,140.7 316.2,142.5 317.3,144.3 318.3,146.0 319.3,147.8 320.4,149.5 321.4,151.3 322.4,153.0 323.4,154.8 324.4,156.5 325.5,158.2 326.5,159.9 327.5,161.6 328.6,163.2 329.6,164.8 330.6,166.5 331.6,168.0 332.7,169.6 333.7,171.1 334.7,172.6 335.7,174.1 336.8,175.6 337.8,177.0 338.8,178.4 339.8,179.7 340.8,181.0 341.9,182.3 342.9,183.5 343.9,184.7 344.9,185.8 346.0,186.9 347.0,188.0 348.0,189.0 349.1,190.0 350.1,190.9 351.1,191.8 352.1,192.6 353.1,193.4 354.2,194.1 355.2,194.8 356.2,195.4 357.2,196.0 358.3,196.5 359.3,197.0 360.3,197.4 361.4,197.8 362.4,198.1 363.4,198.3 364.4,198.5 365.4,198.6 366.5,198.7 367.5,198.8 368.5,198.7 369.6,198.6 370.6,198.5 371.6,198.3 372.6,198.1 373.6,197.8 374.7,197.4 375.7,197.0 376.7,196.5 377.8,196.0 378.8,195.4 379.8,194.8 380.8,194.1 381.9,193.4 382.9,192.6 383.9,191.8 384.9,190.9 385.9,190.0 387.0,189.0 388.0,188.0 389.0,186.9 390.1,185.8 391.1,184.7 392.1,183.5 393.1,182.3 394.1,181.0 395.2,179.7 396.2,178.4 397.2,177.0 398.2,175.6 399.3,174.1 400.3,172.6 401.3,171.1 402.4,169.6 403.4,168.0 404.4,166.5 405.4,164.8 406.4,163.2 407.5,161.6 408.5,159.9 409.5,158.2 410.6,156.5 411.6,154.8 412.6,153.0 413.6,151.3 414.6,149.5 415.7,147.8 416.7,146.0 417.7,144.3 418.8,142.5 419.8,140.7 420.8,139.0 421.8,137.2 422.9,135.5 423.9,133.7 424.9,132.0 425.9,130.2 426.9,128.5 428.0,126.8 429.0,125.1 430.0,123.4 431.1,121.8 432.1,120.2 433.1,118.5 434.1,117.0 435.1,115.4 436.2,113.9 437.2,112.4 438.2,110.9 439.2,109.4 440.3,108.0 441.3,106.6 442.3,105.3 443.4,104.0 444.4,102.7 445.4,101.5 446.4,100.3 447.4,99.2 448.5,98.1 449.5,97.0 450.5,96.0 451.6,95.0 452.6,94.1 453.6,93.2 454.6,92.4 455.6,91.6 456.7,90.9 457.7,90.2 458.7,89.6 459.8,89.0 460.8,88.5 461.8,88.0 462.8,87.6 463.9,87.2 464.9,86.9 465.9,86.7 466.9,86.5 467.9,86.4 469.0,86.3 470.0,86.2\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/></svg></div><p>Bestäm \\(b\\) och \\(c\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medellinjen ligger mitt emellan 3 och 1, så \\(c=2\\).</p></li><li><p>Två närliggande maximipunkter ligger vid \\(0^\\circ\\) och \\(180^\\circ\\), så perioden är \\(180^\\circ\\).</p></li><li><div class=\"facit-matte\">\\[\\frac{360^\\circ}{b}=180^\\circ\\;\\Rightarrow\\;b=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=2\\) och \\(c=2\\)</p></div>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Var ligger medellinjen? Hur lång är en period?</p>",
+    "spel": true,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      2
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarEtiketter": [
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.599",
+    "kap": 2,
+    "omr": "sinusformad_kurva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Grafen nedan hör till en cosinusfunktion av typen \\(y=a\\cos x+c\\). Den börjar i ett minimum när \\(x=0^\\circ\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"300\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Grafen till y = a cos x + c från 0 till 360 grader. Minsta värdet minus 1 vid 0 och 360 grader, största värdet 3 vid 180 grader.\"><rect x=\"1\" y=\"1\" width=\"498\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"111.2\" y1=\"30\" x2=\"111.2\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"162.5\" y1=\"30\" x2=\"162.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"213.8\" y1=\"30\" x2=\"213.8\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"265.0\" y1=\"30\" x2=\"265.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"316.2\" y1=\"30\" x2=\"316.2\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"367.5\" y1=\"30\" x2=\"367.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"418.8\" y1=\"30\" x2=\"418.8\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"470.0\" y1=\"30\" x2=\"470.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"470\" y2=\"255.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"217.5\" x2=\"470\" y2=\"217.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"180.0\" x2=\"470\" y2=\"180.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"142.5\" x2=\"470\" y2=\"142.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"105.0\" x2=\"470\" y2=\"105.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"67.5\" x2=\"470\" y2=\"67.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"470\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"180.0\" x2=\"478\" y2=\"180.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"255\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"478.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\">x</text><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">y</text><line x1=\"111.2\" y1=\"176.0\" x2=\"111.2\" y2=\"184.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"111.2\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">45°</text><line x1=\"162.5\" y1=\"176.0\" x2=\"162.5\" y2=\"184.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"162.5\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">90°</text><line x1=\"213.8\" y1=\"176.0\" x2=\"213.8\" y2=\"184.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"213.8\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">135°</text><line x1=\"265.0\" y1=\"176.0\" x2=\"265.0\" y2=\"184.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"265.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">180°</text><line x1=\"316.2\" y1=\"176.0\" x2=\"316.2\" y2=\"184.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"316.2\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">225°</text><line x1=\"367.5\" y1=\"176.0\" x2=\"367.5\" y2=\"184.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"367.5\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">270°</text><line x1=\"418.8\" y1=\"176.0\" x2=\"418.8\" y2=\"184.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"418.8\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">315°</text><line x1=\"470.0\" y1=\"176.0\" x2=\"470.0\" y2=\"184.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"470.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">360°</text><line x1=\"56.0\" y1=\"255.0\" x2=\"64.0\" y2=\"255.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"260.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><line x1=\"56.0\" y1=\"217.5\" x2=\"64.0\" y2=\"217.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"222.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><line x1=\"56.0\" y1=\"142.5\" x2=\"64.0\" y2=\"142.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"147.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><line x1=\"56.0\" y1=\"105.0\" x2=\"64.0\" y2=\"105.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"56.0\" y1=\"67.5\" x2=\"64.0\" y2=\"67.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"72.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><polyline points=\"60.0,217.5 61.0,217.5 62.0,217.5 63.1,217.4 64.1,217.4 65.1,217.3 66.2,217.2 67.2,217.0 68.2,216.9 69.2,216.8 70.2,216.6 71.3,216.4 72.3,216.2 73.3,215.9 74.3,215.7 75.4,215.4 76.4,215.1 77.4,214.8 78.5,214.5 79.5,214.2 80.5,213.8 81.5,213.5 82.5,213.1 83.6,212.7 84.6,212.2 85.6,211.8 86.7,211.3 87.7,210.9 88.7,210.4 89.7,209.9 90.8,209.3 91.8,208.8 92.8,208.2 93.8,207.6 94.8,207.1 95.9,206.4 96.9,205.8 97.9,205.2 99.0,204.5 100.0,203.9 101.0,203.2 102.0,202.5 103.0,201.8 104.1,201.0 105.1,200.3 106.1,199.5 107.2,198.8 108.2,198.0 109.2,197.2 110.2,196.4 111.2,195.5 112.3,194.7 113.3,193.8 114.3,193.0 115.3,192.1 116.4,191.2 117.4,190.3 118.4,189.4 119.5,188.5 120.5,187.5 121.5,186.6 122.5,185.6 123.5,184.7 124.6,183.7 125.6,182.7 126.6,181.7 127.7,180.7 128.7,179.7 129.7,178.6 130.7,177.6 131.8,176.5 132.8,175.5 133.8,174.4 134.8,173.4 135.8,172.3 136.9,171.2 137.9,170.1 138.9,169.0 139.9,167.9 141.0,166.8 142.0,165.7 143.0,164.6 144.1,163.4 145.1,162.3 146.1,161.2 147.1,160.0 148.2,158.9 149.2,157.7 150.2,156.6 151.2,155.4 152.2,154.2 153.3,153.1 154.3,151.9 155.3,150.7 156.3,149.6 157.4,148.4 158.4,147.2 159.4,146.0 160.4,144.9 161.5,143.7 162.5,142.5 163.5,141.3 164.6,140.1 165.6,139.0 166.6,137.8 167.6,136.6 168.7,135.4 169.7,134.3 170.7,133.1 171.7,131.9 172.8,130.8 173.8,129.6 174.8,128.4 175.8,127.3 176.8,126.1 177.9,125.0 178.9,123.8 179.9,122.7 180.9,121.6 182.0,120.4 183.0,119.3 184.0,118.2 185.1,117.1 186.1,116.0 187.1,114.9 188.1,113.8 189.2,112.7 190.2,111.6 191.2,110.6 192.2,109.5 193.2,108.5 194.3,107.4 195.3,106.4 196.3,105.3 197.3,104.3 198.4,103.3 199.4,102.3 200.4,101.3 201.5,100.3 202.5,99.4 203.5,98.4 204.5,97.5 205.5,96.5 206.6,95.6 207.6,94.7 208.6,93.8 209.7,92.9 210.7,92.0 211.7,91.2 212.7,90.3 213.8,89.5 214.8,88.6 215.8,87.8 216.8,87.0 217.8,86.2 218.9,85.5 219.9,84.7 220.9,84.0 221.9,83.2 223.0,82.5 224.0,81.8 225.0,81.1 226.1,80.5 227.1,79.8 228.1,79.2 229.1,78.6 230.2,77.9 231.2,77.4 232.2,76.8 233.2,76.2 234.2,75.7 235.3,75.1 236.3,74.6 237.3,74.1 238.3,73.7 239.4,73.2 240.4,72.8 241.4,72.3 242.4,71.9 243.5,71.5 244.5,71.2 245.5,70.8 246.6,70.5 247.6,70.2 248.6,69.9 249.6,69.6 250.7,69.3 251.7,69.1 252.7,68.8 253.7,68.6 254.8,68.4 255.8,68.2 256.8,68.1 257.8,68.0 258.9,67.8 259.9,67.7 260.9,67.6 261.9,67.6 262.9,67.5 264.0,67.5 265.0,67.5 266.0,67.5 267.1,67.5 268.1,67.6 269.1,67.6 270.1,67.7 271.1,67.8 272.2,68.0 273.2,68.1 274.2,68.2 275.2,68.4 276.3,68.6 277.3,68.8 278.3,69.1 279.4,69.3 280.4,69.6 281.4,69.9 282.4,70.2 283.4,70.5 284.5,70.8 285.5,71.2 286.5,71.5 287.6,71.9 288.6,72.3 289.6,72.8 290.6,73.2 291.7,73.7 292.7,74.1 293.7,74.6 294.7,75.1 295.8,75.7 296.8,76.2 297.8,76.8 298.8,77.4 299.9,77.9 300.9,78.6 301.9,79.2 302.9,79.8 303.9,80.5 305.0,81.1 306.0,81.8 307.0,82.5 308.0,83.2 309.1,84.0 310.1,84.7 311.1,85.5 312.1,86.2 313.2,87.0 314.2,87.8 315.2,88.6 316.2,89.5 317.3,90.3 318.3,91.2 319.3,92.0 320.4,92.9 321.4,93.8 322.4,94.7 323.4,95.6 324.4,96.5 325.5,97.5 326.5,98.4 327.5,99.4 328.6,100.3 329.6,101.3 330.6,102.3 331.6,103.3 332.7,104.3 333.7,105.3 334.7,106.4 335.7,107.4 336.8,108.5 337.8,109.5 338.8,110.6 339.8,111.6 340.8,112.7 341.9,113.8 342.9,114.9 343.9,116.0 344.9,117.1 346.0,118.2 347.0,119.3 348.0,120.4 349.1,121.6 350.1,122.7 351.1,123.8 352.1,125.0 353.1,126.1 354.2,127.3 355.2,128.4 356.2,129.6 357.2,130.8 358.3,131.9 359.3,133.1 360.3,134.3 361.4,135.4 362.4,136.6 363.4,137.8 364.4,139.0 365.4,140.1 366.5,141.3 367.5,142.5 368.5,143.7 369.6,144.9 370.6,146.0 371.6,147.2 372.6,148.4 373.6,149.6 374.7,150.7 375.7,151.9 376.7,153.1 377.8,154.2 378.8,155.4 379.8,156.6 380.8,157.7 381.9,158.9 382.9,160.0 383.9,161.2 384.9,162.3 385.9,163.4 387.0,164.6 388.0,165.7 389.0,166.8 390.1,167.9 391.1,169.0 392.1,170.1 393.1,171.2 394.1,172.3 395.2,173.4 396.2,174.4 397.2,175.5 398.2,176.5 399.3,177.6 400.3,178.6 401.3,179.7 402.4,180.7 403.4,181.7 404.4,182.7 405.4,183.7 406.4,184.7 407.5,185.6 408.5,186.6 409.5,187.5 410.6,188.5 411.6,189.4 412.6,190.3 413.6,191.2 414.6,192.1 415.7,193.0 416.7,193.8 417.7,194.7 418.8,195.5 419.8,196.4 420.8,197.2 421.8,198.0 422.9,198.8 423.9,199.5 424.9,200.3 425.9,201.0 426.9,201.8 428.0,202.5 429.0,203.2 430.0,203.9 431.1,204.5 432.1,205.2 433.1,205.8 434.1,206.4 435.1,207.1 436.2,207.6 437.2,208.2 438.2,208.8 439.2,209.3 440.3,209.9 441.3,210.4 442.3,210.9 443.4,211.3 444.4,211.8 445.4,212.2 446.4,212.7 447.4,213.1 448.5,213.5 449.5,213.8 450.5,214.2 451.6,214.5 452.6,214.8 453.6,215.1 454.6,215.4 455.6,215.7 456.7,215.9 457.7,216.2 458.7,216.4 459.8,216.6 460.8,216.8 461.8,216.9 462.8,217.0 463.9,217.2 464.9,217.3 465.9,217.4 466.9,217.4 467.9,217.5 469.0,217.5 470.0,217.5\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/></svg></div><p>Bestäm \\(a\\) och \\(c\\). Tänk på att \\(a\\) kan vara negativt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största värdet är 3 och minsta \\(-1\\). Medellinjen: \\(c=\\frac{3+(-1)}{2}=1\\). Amplituden är 2.</p></li><li><p>Vid \\(x=0^\\circ\\) är \\(\\cos x=1\\), men grafen har sitt minsta värde där. Därför är \\(a\\) negativt: \\(a=-2\\).</p></li><li><p>Kontroll: \\(y(0)=-2\\cdot1+1=-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-2\\) och \\(c=1\\)</p></div>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>En vanlig cosinuskurva börjar i ett maximum. Hur börjar den här?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      1
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarEtiketter": [
+      "a",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.600",
+    "kap": 2,
+    "omr": "sinusformad_kurva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Kurvan \\(y=a\\sin(bx)+c\\), där \\(a\\gt0\\) och \\(b\\gt0\\), har en maximipunkt i \\((15^\\circ;\\,5)\\). Närmaste minimipunkt till höger är \\((45^\\circ;\\,-1)\\).</p><p>Bestäm \\(a\\), \\(b\\) och \\(c\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\frac{5-(-1)}{2}=3,\\qquad c=\\frac{5+(-1)}{2}=2\\]</div></li><li><p>Från maximum till närmaste minimum är en halv period: \\(45^\\circ-15^\\circ=30^\\circ\\). Perioden är \\(60^\\circ\\).</p></li><li><div class=\"facit-matte\">\\[\\frac{360^\\circ}{b}=60^\\circ\\;\\Rightarrow\\;b=6\\]</div></li><li><p>Kontroll: \\(3\\sin(6\\cdot15^\\circ)+2=3\\cdot1+2=5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\), \\(b=6\\) och \\(c=2\\)</p></div>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Hur stor del av en period är det mellan ett maximum och närmaste minimum?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      6,
+      2
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.601",
+    "kap": 2,
+    "omr": "sinusformad_kurva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett pariserhjul har radien 20 m och mittpunkten 25 m över marken. Hjulet snurrar ett varv på 8 minuter. En gondol startar i hjulets lägsta punkt vid \\(t=0\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Ett pariserhjul med radien 20 m. Hjulets mittpunkt ligger 25 m över marken. En gondol vid hjulets lägsta punkt är markerad som start.\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40\" y1=\"270\" x2=\"300\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"130\" r=\"100\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"3\"/><line x1=\"170\" y1=\"130\" x2=\"130\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"3\"/><line x1=\"170\" y1=\"130\" x2=\"210\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"3\"/><line x1=\"170\" y1=\"130\" x2=\"270.0\" y2=\"130.0\" stroke=\"#b9cfdb\" stroke-width=\"1.5\"/><rect x=\"263.0\" y=\"123.0\" width=\"14\" height=\"14\" rx=\"3\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><line x1=\"170\" y1=\"130\" x2=\"240.7\" y2=\"200.7\" stroke=\"#b9cfdb\" stroke-width=\"1.5\"/><rect x=\"233.7\" y=\"193.7\" width=\"14\" height=\"14\" rx=\"3\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><line x1=\"170\" y1=\"130\" x2=\"170.0\" y2=\"230.0\" stroke=\"#b9cfdb\" stroke-width=\"1.5\"/><rect x=\"163.0\" y=\"223.0\" width=\"14\" height=\"14\" rx=\"3\" fill=\"#c2410c\" stroke=\"#c2410c\"/><line x1=\"170\" y1=\"130\" x2=\"99.3\" y2=\"200.7\" stroke=\"#b9cfdb\" stroke-width=\"1.5\"/><rect x=\"92.3\" y=\"193.7\" width=\"14\" height=\"14\" rx=\"3\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><line x1=\"170\" y1=\"130\" x2=\"70.0\" y2=\"130.0\" stroke=\"#b9cfdb\" stroke-width=\"1.5\"/><rect x=\"63.0\" y=\"123.0\" width=\"14\" height=\"14\" rx=\"3\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><line x1=\"170\" y1=\"130\" x2=\"99.3\" y2=\"59.3\" stroke=\"#b9cfdb\" stroke-width=\"1.5\"/><rect x=\"92.3\" y=\"52.3\" width=\"14\" height=\"14\" rx=\"3\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><line x1=\"170\" y1=\"130\" x2=\"170.0\" y2=\"30.0\" stroke=\"#b9cfdb\" stroke-width=\"1.5\"/><rect x=\"163.0\" y=\"23.0\" width=\"14\" height=\"14\" rx=\"3\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><line x1=\"170\" y1=\"130\" x2=\"240.7\" y2=\"59.3\" stroke=\"#b9cfdb\" stroke-width=\"1.5\"/><rect x=\"233.7\" y=\"52.3\" width=\"14\" height=\"14\" rx=\"3\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><line x1=\"330\" y1=\"270\" x2=\"330\" y2=\"130\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"324\" y1=\"130\" x2=\"336\" y2=\"130\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"324\" y1=\"270\" x2=\"336\" y2=\"270\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><text x=\"342.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#5b6773\">25 m</text><line x1=\"170\" y1=\"130\" x2=\"270\" y2=\"130\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"220.0\" y=\"122.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\">20 m</text><text x=\"178.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\">start</text></svg></div><p>Gondolens höjd över marken kan skrivas \\(h(t)=c-a\\cos(bt)\\), där \\(t\\) är tiden i minuter och vinkeln \\(bt\\) mäts i grader. Bestäm \\(a\\), \\(b\\) och \\(c\\), där \\(a\\gt0\\) och \\(b\\gt0\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Höjden svänger kring mittpunktens höjd, så \\(c=25\\). Amplituden är radien: \\(a=20\\).</p></li><li><p>Ett varv, \\(360^\\circ\\), tar 8 min: \\(b\\cdot8=360\\), så \\(b=45\\).</p></li><li><p>Kontroll: \\(h(0)=25-20\\cos0^\\circ=5\\) m, alltså lägsta punkten. \\(h(4)=25-20\\cos180^\\circ=45\\) m, högsta punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=20\\), \\(b=45\\) och \\(c=25\\)</p></div>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vilken höjd svänger gondolen kring? Hur många grader vrids hjulet per minut?</p>",
+    "spel": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      45,
+      25
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
+  },
+  {
+    "id": "2.602",
+    "kap": 2,
+    "omr": "sinusformad_kurva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kurvan har ekvationen \\(y=4\\sin(2x)+1\\), där \\(x\\) mäts i grader.</p><p>Bestäm kurvans största värde, minsta värde och period. Svara i den ordningen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\text{största: }4+1=5,\\qquad\\text{minsta: }-4+1=-3\\]</div></li><li><div class=\"facit-matte\">\\[\\text{period: }\\frac{360^\\circ}{2}=180^\\circ\\]</div></li></ol></div>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Amplituden, medellinjen och perioden kan läsas direkt ur \\(a\\), \\(c\\) och \\(b\\).</p>",
+    "spel": true,
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      -3,
+      180
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "grader"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "svarEtiketter": [
+      "Största värde",
+      "Minsta värde",
+      "Period"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEnhet": [
+      null,
+      null,
+      "°"
+    ]
+  },
+  {
+    "id": "2.603",
+    "kap": 2,
+    "omr": "sinusformad_kurva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Under ett dygn varierar temperaturen sinusformigt. Den är högst, 24 °C, klockan 15.00 och lägst, 12 °C, klockan 03.00. Perioden är 24 timmar.</p><p>Vilken temperatur har modellen klockan 07.00? (Svara i °C.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T(t)=c+a\\sin(b(t-d)),\\quad c=\\frac{24+12}{2}=18,\\quad a=\\frac{24-12}{2}=6,\\quad b=\\frac{360^\\circ}{24}=15^\\circ\\]</div></li><li><p>Medellinjen passeras på väg uppåt mitt emellan minimum och maximum, klockan 09.00. Därför är \\(d=9\\).</p></li><li><div class=\"facit-matte\">\\[T(7)=18+6\\sin(15^\\circ\\cdot(7-9))=18+6\\sin(-30^\\circ)=18-3=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 °C</p></div>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Bestäm medellinje, amplitud och period. När passerar temperaturen medellinjen på väg uppåt?</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 15.0,
+    "tolerans": 0.05,
+    "svarEnhet": "°C"
+  },
+  {
+    "id": "2.604",
+    "kap": 2,
+    "omr": "sinusformad_kurva",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Kurvan \\(y=a\\sin(bx)+c\\), där \\(a\\gt0\\) och \\(b\\gt0\\), skär \\(y\\)-axeln i \\(y=3\\) och har största värdet 7. För \\(x\\gt0\\) antar kurvan värdet 5 för första gången vid \\(x=10^\\circ\\).</p><p>Bestäm \\(a\\), \\(b\\) och \\(c\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y(0)=a\\sin0+c=c=3,\\qquad a=7-3=4\\]</div></li><li><div class=\"facit-matte\">\\[4\\sin(10b)+3=5\\;\\Rightarrow\\;\\sin(10b)=\\tfrac12\\]</div></li><li><p>Första positiva lösningen är \\(10b=30^\\circ\\), så \\(b=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\), \\(b=3\\) och \\(c=3\\)</p></div>",
+    "familj": "Bestäm trigonometrisk funktion från graf och egenskaper",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "självrättning": true,
+    "ledtrad": "<p>Vad blir \\(\\sin(bx)\\) när \\(x=0\\)? Det ger \\(c\\) direkt.</p>",
+    "spel": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      3,
+      3
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      0,
+      0,
+      0
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad"
   }
 ];

@@ -193931,5 +193931,295 @@ window.BANK = [
     "problemlösning"
   ],
   "ledtrad": "<p>Hur mycket tid finns för själva flygningen? Skriv båda flygtiderna med samma okända avstånd.</p>"
+},
+{
+  "id": "9.428",
+  "kap": 9,
+  "omr": "fyra_krafterna",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Vilken kraft håller månen kvar i sin bana runt jorden?</p><p>Markera det korrekta alternativet.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jorden och månen attraherar varandra med gravitationen. Den har obegränsad räckvidd och verkar mellan alla massor.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Jorden och månen är i stort sett elektriskt neutrala, så den elektromagnetiska kraften mellan dem är försumbar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gravitationen.</p></div>",
+  "familj": "De fyra fundamentala krafterna",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vilken kraft verkar mellan alla föremål som har massa?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Gravitationen",
+      "ratt": true
+    },
+    {
+      "txt": "Den elektromagnetiska kraften",
+      "ratt": false
+    },
+    {
+      "txt": "Den starka kraften",
+      "ratt": false,
+      "kommentar": "Den har mycket kort räckvidd, ungefär en atomkärnas storlek."
+    },
+    {
+      "txt": "Den svaga kraften",
+      "ratt": false,
+      "kommentar": "Den har ännu kortare räckvidd och orsakar bland annat betasönderfall."
+    }
+  ]
+},
+{
+  "id": "9.429",
+  "kap": 9,
+  "omr": "fyra_krafterna",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Du står på ett golv. Golvet trycker uppåt på dina fötter, så att du inte sjunker igenom.</p><p>Vilken av de fyra fundamentala krafterna ligger bakom golvets kraft på dig?</p><p>Markera det korrekta alternativet.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Normalkraften uppstår när elektronskalen i fötternas och golvets atomer kommer nära varandra och stöter bort varandra.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vardagens kontaktkrafter, som normalkraft och friktion, är elektromagnetiska krafter mellan atomer.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den elektromagnetiska kraften.</p></div>",
+  "familj": "De fyra fundamentala krafterna",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vad händer mellan atomerna i dina fötter och i golvet när de kommer nära varandra?</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Gravitationen",
+      "ratt": false,
+      "kommentar": "Gravitationen drar dig nedåt. Den kan inte förklara att golvet trycker uppåt."
+    },
+    {
+      "txt": "Den elektromagnetiska kraften",
+      "ratt": true
+    },
+    {
+      "txt": "Den starka kraften",
+      "ratt": false,
+      "kommentar": "Den verkar bara inne i atomkärnor."
+    },
+    {
+      "txt": "Den svaga kraften",
+      "ratt": false
+    }
+  ]
+},
+{
+  "id": "9.430",
+  "kap": 9,
+  "omr": "fyra_krafterna",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>I solens kärna omvandlas en del protoner till neutroner när vätekärnor fusioneras till helium.</p><p>Vilken kraft gör det möjligt för en proton att omvandlas till en neutron?</p><p>Markera det korrekta alternativet.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Omvandlingar mellan protoner och neutroner, som vid betasönderfall, sker genom den svaga kraften.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Den svaga kraften förmedlas av W- och Z-bosoner och kan ändra en kvarks typ, till exempel en uppkvark till en nedkvark.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den svaga kraften.</p></div>",
+  "familj": "De fyra fundamentala krafterna",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vilken kraft står bakom betasönderfall?</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Gravitationen",
+      "ratt": false
+    },
+    {
+      "txt": "Den elektromagnetiska kraften",
+      "ratt": false
+    },
+    {
+      "txt": "Den starka kraften",
+      "ratt": false,
+      "kommentar": "Den håller ihop nukleonerna men ändrar inte en proton till en neutron."
+    },
+    {
+      "txt": "Den svaga kraften",
+      "ratt": true
+    }
+  ]
+},
+{
+  "id": "9.431",
+  "kap": 9,
+  "omr": "fyra_krafterna",
+  "niva": "C",
+  "poang": "(0/1/0)",
+  "t": "<p>I en väteatom attraherar protonen och elektronen varandra både elektriskt och med gravitation. Båda krafterna avtar som \\(1/r^2\\).</p><p>Hur många gånger större är den elektriska kraften än gravitationskraften mellan protonen och elektronen? (Svara med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{F_e}{F_g}=\\frac{ke^2/r^2}{Gm_em_p/r^2}=\\frac{ke^2}{Gm_em_p}\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{8{,}99\\cdot10^9\\cdot(1{,}602\\cdot10^{-19})^2}{6{,}674\\cdot10^{-11}\\cdot9{,}109\\cdot10^{-31}\\cdot1{,}673\\cdot10^{-27}}\\approx2{,}3\\cdot10^{39}\\]</div></li><li><p>Avståndet tar ut sig, så kvoten gäller oberoende av avståndet. Gravitationen är helt försumbar i atomen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 2,3·10³⁹ gånger</p></div>",
+  "familj": "De fyra fundamentala krafterna",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Ställ upp kvoten mellan krafterna. Vad händer med avståndet? Konstanterna och partikelmassorna finns i formelsamlingen.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.268463887e+39,
+  "tolerans": 1e+38
+},
+{
+  "id": "9.432",
+  "kap": 9,
+  "omr": "fyra_krafterna",
+  "niva": "C",
+  "poang": "(0/1/0)",
+  "t": "<p>Två protoner i en atomkärna befinner sig 2,0 fm från varandra (1 fm = 10⁻¹⁵ m).</p><p>Hur stor är den elektriska repulsionen mellan dem? (Svara i N med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\frac{ke^2}{r^2}=\\frac{8{,}99\\cdot10^9\\cdot(1{,}602\\cdot10^{-19})^2}{(2{,}0\\cdot10^{-15})^2}\\ \\text{N}\\]</div></li><li><div class=\"facit-matte\">\\[F\\approx58\\ \\text{N}\\]</div></li><li><p>Det är en stor kraft på en så liten partikel. Ändå hålls kärnan ihop, eftersom den starka kraften är ännu starkare på detta avstånd.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 58 N</p></div>",
+  "familj": "De fyra fundamentala krafterna",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Använd Coulombs lag med elementarladdningen. Glöm inte att omvandla femtometer till meter.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 57.6799299,
+  "tolerans": 1,
+  "svarEnhet": "N"
+},
+{
+  "id": "9.433",
+  "kap": 9,
+  "omr": "fyra_krafterna",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>När du drar en låda över ett golv bromsas den av friktion.</p><p>Vilken av de fyra fundamentala krafterna ligger bakom friktionen?</p><p>Markera det korrekta alternativet.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Friktion uppstår när atomerna i lådans och golvets ytor växelverkar elektriskt där ytorna är i kontakt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den elektromagnetiska kraften.</p></div>",
+  "familj": "De fyra fundamentala krafterna",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Friktion är en kontaktkraft mellan två ytor. Vilken kraft verkar mellan atomerna i ytorna?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Gravitationen",
+      "ratt": false,
+      "kommentar": "Tyngden påverkar hur hårt lådan trycker mot golvet, men själva friktionen är elektromagnetisk."
+    },
+    {
+      "txt": "Den elektromagnetiska kraften",
+      "ratt": true
+    },
+    {
+      "txt": "Den starka kraften",
+      "ratt": false
+    },
+    {
+      "txt": "Den svaga kraften",
+      "ratt": false
+    }
+  ]
+},
+{
+  "id": "9.434",
+  "kap": 9,
+  "omr": "fyra_krafterna",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet visar ungefär hur starka de fyra fundamentala krafterna är i förhållande till varandra. Skalan är logaritmisk.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"290\" viewBox=\"0 0 480 290\" role=\"img\" aria-label=\"Stapeldiagram med logaritmisk skala över de fyra krafternas relativa styrka. Stapel A har styrkan 1, B ungefär 10 upphöjt till minus 2, C ungefär 10 upphöjt till minus 6 och D ungefär 10 upphöjt till minus 38.\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"80\" y1=\"40\" x2=\"80\" y2=\"250\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"80\" y1=\"250\" x2=\"450\" y2=\"250\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"76\" y1=\"50.0\" x2=\"450\" y2=\"50.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><line x1=\"76\" y1=\"100.0\" x2=\"450\" y2=\"100.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10<tspan dy=\"−6\" font−size=\"10\">−10</tspan></text><line x1=\"76\" y1=\"150.0\" x2=\"450\" y2=\"150.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10<tspan dy=\"−6\" font−size=\"10\">−20</tspan></text><line x1=\"76\" y1=\"200.0\" x2=\"450\" y2=\"200.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10<tspan dy=\"−6\" font−size=\"10\">−30</tspan></text><line x1=\"76\" y1=\"250.0\" x2=\"450\" y2=\"250.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"70.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10<tspan dy=\"−6\" font−size=\"10\">−40</tspan></text><rect x=\"120\" y=\"50.0\" width=\"50\" height=\"200.0\" fill=\"#216d87\"/><text x=\"145.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><rect x=\"205\" y=\"60.0\" width=\"50\" height=\"190.0\" fill=\"#3f8fb0\"/><text x=\"230.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><rect x=\"290\" y=\"80.0\" width=\"50\" height=\"170.0\" fill=\"#7fb3c9\"/><text x=\"315.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><rect x=\"375\" y=\"240.0\" width=\"50\" height=\"10.0\" fill=\"#c2410c\"/><text x=\"400.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"265.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">Relativ styrka mellan två protoner på kort avstånd</text></svg></div><p>Vilken stapel visar gravitationen?</p><p>Markera det korrekta alternativet.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gravitationen är den överlägset svagaste kraften, ungefär 10⁻³⁸ gånger den starka kraften. Det är den lägsta stapeln, D.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">A är den starka kraften, B den elektromagnetiska och C den svaga.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Stapel D.</p></div>",
+  "familj": "De fyra fundamentala krafterna",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vilken av de fyra krafterna är svagast?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Stapel A",
+      "ratt": false,
+      "kommentar": "Det är den starkaste kraften, den starka kraften."
+    },
+    {
+      "txt": "Stapel B",
+      "ratt": false,
+      "kommentar": "Det är den elektromagnetiska kraften."
+    },
+    {
+      "txt": "Stapel C",
+      "ratt": false,
+      "kommentar": "Det är den svaga kraften."
+    },
+    {
+      "txt": "Stapel D",
+      "ratt": true
+    }
+  ]
+},
+{
+  "id": "9.435",
+  "kap": 9,
+  "omr": "fyra_krafterna",
+  "niva": "C",
+  "poang": "(0/1/0)",
+  "t": "<p>Två blykulor med massan 1,0 kg vardera ligger 0,10 m från varandra. De attraherar varandra med gravitationen.</p><p>Anta att varje kula fick lika många extra elektroner. Hur många extra elektroner skulle varje kula behöva för att den elektriska repulsionen ska bli lika stor som gravitationen? (Svara med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{kq^2}{r^2}=\\frac{Gm^2}{r^2}\\;\\Rightarrow\\;q=m\\sqrt{\\frac{G}{k}}\\]</div></li><li><div class=\"facit-matte\">\\[q=1{,}0\\cdot\\sqrt{\\frac{6{,}674\\cdot10^{-11}}{8{,}99\\cdot10^9}}\\ \\text{C}\\approx8{,}6\\cdot10^{-11}\\ \\text{C}\\]</div></li><li><div class=\"facit-matte\">\\[N=\\frac{q}{e}=\\frac{8{,}6\\cdot10^{-11}}{1{,}602\\cdot10^{-19}}\\approx5{,}4\\cdot10^8\\]</div></li><li><p>En kula med massan 1 kg innehåller ungefär 10²⁶ elektroner. Det räcker alltså med ett överskott på ungefär en elektron på 10¹⁸ för att den elektriska kraften ska bli lika stor som gravitationen. Därför märks gravitationen bara när föremålen är mycket nära neutrala.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 5,4·10⁸ elektroner</p></div>",
+  "familj": "De fyra fundamentala krafterna",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Sätt Coulombkraften lika med gravitationskraften. Avståndet tar ut sig. Dela sedan laddningen med elementarladdningen.</p>",
+  "spel": true,
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 537837083.9,
+  "tolerans": 10000000.0
 }
 ];

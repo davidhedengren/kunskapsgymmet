@@ -145244,5 +145244,785 @@ window.BANKMA1 = [
     "b"
   ],
   "svarsstruktur": "ordnad"
+},
+{
+  "id": "1.1159",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>En trädgårdsrabatt består av två rektangulära delar med samma höjd.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"200\" viewBox=\"0 0 420 200\" role=\"img\" aria-label=\"En rektangel med höjden 3 som är delad i två delar med bredderna 2x och 7.\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"70\" y=\"45\" width=\"200\" height=\"105\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><rect x=\"270\" y=\"45\" width=\"110\" height=\"105\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"70\" y1=\"30\" x2=\"270\" y2=\"30\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"23\" x2=\"70\" y2=\"37\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"270\" y1=\"23\" x2=\"270\" y2=\"37\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"170.0\" y=\"22\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">2x</text><line x1=\"270\" y1=\"30\" x2=\"380\" y2=\"30\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"270\" y1=\"23\" x2=\"270\" y2=\"37\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"380\" y1=\"23\" x2=\"380\" y2=\"37\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"325.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><line x1=\"48\" y1=\"45\" x2=\"48\" y2=\"150\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"41\" y1=\"45\" x2=\"55\" y2=\"45\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"41\" y1=\"150\" x2=\"55\" y2=\"150\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"36\" y=\"103.5\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"225\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\">Alla mått i meter</text></svg></div><p>Hela rabattens area kan skrivas \\(3(2x+7)\\) m². Skriv arean som ett uttryck utan parentes.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Arean är höjden gånger hela bredden. Varje del ger sin egen area: \\(3\\cdot2x\\) och \\(3\\cdot7\\).</p></li><li><div class=\"facit-matte\">\\[3(2x+7)=3\\cdot2x+3\\cdot7\\]</div></li><li><div class=\"facit-matte\">\\[=6x+21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((6x+21)\\) m²</p></div>",
+  "ledtrad": "<p>Beräkna arean av varje del för sig och lägg ihop.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "6x+21",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "svarEnhet": "m²"
+},
+{
+  "id": "1.1160",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Sexhörningen är regelbunden, så alla sex sidor är lika långa. En sida är \\((2r-3)\\) cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" role=\"img\" aria-label=\"En regelbunden sexhörning där en sida är markerad med 2r minus 3 centimeter.\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"295.0,125.0 252.5,198.6 167.5,198.6 125.0,125.0 167.5,51.4 252.5,51.4\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2.5\"/><line x1=\"252.5\" y1=\"198.6\" x2=\"167.5\" y2=\"198.6\" stroke=\"#c2410c\" stroke-width=\"4\"/><text x=\"210\" y=\"226.6121593216773\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">2r − 3</text></svg></div><p>Skriv ett förenklat uttryck för sexhörningens omkrets.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Omkretsen är sex sidor: \\(6(2r-3)\\).</p></li><li><div class=\"facit-matte\">\\[6(2r-3)=12r-18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((12r-18)\\) cm</p></div>",
+  "ledtrad": "<p>Hur många sidor har figuren? Skriv omkretsen som antalet sidor gånger en sida.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "12r-18",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "svarEnhet": "cm"
+},
+{
+  "id": "1.1161",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Rektangeln har sidorna \\((3t-2)\\) cm och \\((t+5)\\) cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"En rektangel med sidorna 3t minus 2 och t plus 5 centimeter.\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"70\" y=\"40\" width=\"270\" height=\"120\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2.5\"/><line x1=\"70\" y1=\"180\" x2=\"340\" y2=\"180\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"173\" x2=\"70\" y2=\"187\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"340\" y1=\"173\" x2=\"340\" y2=\"187\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"205.0\" y=\"204\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">3t − 2</text><line x1=\"365\" y1=\"40\" x2=\"365\" y2=\"160\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"358\" y1=\"40\" x2=\"372\" y2=\"40\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"358\" y1=\"160\" x2=\"372\" y2=\"160\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"377\" y=\"106.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">t + 5</text></svg></div><p>Skriv ett förenklat uttryck för rektangelns omkrets.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två sidor av varje sort: \\(2(3t-2)+2(t+5)\\).</p></li><li><div class=\"facit-matte\">\\[=6t-4+2t+10\\]</div></li><li><div class=\"facit-matte\">\\[=8t+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((8t+6)\\) cm</p></div>",
+  "ledtrad": "<p>En rektangel har två långsidor och två kortsidor. Skriv omkretsen med två parenteser och multiplicera in.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "8t+6",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarEnhet": "cm"
+},
+{
+  "id": "1.1162",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>En list sågas i fyra delar. Tre av delarna är lika långa, \\((2z-5)\\) cm. Den fjärde delen är 7 cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"190\" viewBox=\"0 0 460 190\" role=\"img\" aria-label=\"En sträcka som består av tre lika delar med längden 2z minus 5 och en del med längden 7.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"60\" width=\"110\" height=\"50\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"95\" y=\"92\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">2z − 5</text><rect x=\"150\" y=\"60\" width=\"110\" height=\"50\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"205\" y=\"92\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">2z − 5</text><rect x=\"260\" y=\"60\" width=\"110\" height=\"50\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"315\" y=\"92\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">2z − 5</text><rect x=\"370\" y=\"60\" width=\"55\" height=\"50\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"397.5\" y=\"92\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><line x1=\"40\" y1=\"140\" x2=\"425\" y2=\"140\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"133\" x2=\"40\" y2=\"147\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"425\" y1=\"133\" x2=\"425\" y2=\"147\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"232.5\" y=\"164\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">Hela längden</text><text x=\"232\" y=\"40\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\">Alla mått i cm</text></svg></div><p>Skriv ett förenklat uttryck för listens hela längd.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tre lika delar och en del på 7 cm: \\(3(2z-5)+7\\).</p></li><li><div class=\"facit-matte\">\\[3(2z-5)+7=6z-15+7\\]</div></li><li><div class=\"facit-matte\">\\[=6z-8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((6z-8)\\) cm</p></div>",
+  "ledtrad": "<p>Skriv de tre lika delarna som tre gånger en parentes. Glöm inte den fjärde delen.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "6z-8",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarEnhet": "cm"
+},
+{
+  "id": "1.1163",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>En hage byggs mot en husvägg. Staket behövs bara på de tre sidor som inte ligger mot väggen. Måtten är i meter.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"230\" viewBox=\"0 0 440 230\" role=\"img\" aria-label=\"En rektangulär hage mot en husvägg. Staketet går längs tre sidor: två sidor på w plus 1 meter och en sida på 3w minus 4 meter.\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50\" y1=\"40\" x2=\"390\" y2=\"40\" stroke=\"#5b6773\" stroke-width=\"5\"/><line x1=\"60\" y1=\"40\" x2=\"72\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"40\" x2=\"92\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"100\" y1=\"40\" x2=\"112\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"120\" y1=\"40\" x2=\"132\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"140\" y1=\"40\" x2=\"152\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"160\" y1=\"40\" x2=\"172\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"180\" y1=\"40\" x2=\"192\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"40\" x2=\"212\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"220\" y1=\"40\" x2=\"232\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"240\" y1=\"40\" x2=\"252\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"260\" y1=\"40\" x2=\"272\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"280\" y1=\"40\" x2=\"292\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"300\" y1=\"40\" x2=\"312\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"320\" y1=\"40\" x2=\"332\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"340\" y1=\"40\" x2=\"352\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><line x1=\"360\" y1=\"40\" x2=\"372\" y2=\"28\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><text x=\"220\" y=\"22\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\">Husvägg (inget staket)</text><rect x=\"90\" y=\"40\" width=\"260\" height=\"110\" fill=\"#eef6e8\"/><path d=\"M90 40 V150 H350 V40\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"70\" y1=\"40\" x2=\"70\" y2=\"150\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"63\" y1=\"40\" x2=\"77\" y2=\"40\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"63\" y1=\"150\" x2=\"77\" y2=\"150\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"58\" y=\"101.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">w + 1</text><line x1=\"372\" y1=\"40\" x2=\"372\" y2=\"150\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"365\" y1=\"40\" x2=\"379\" y2=\"40\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"365\" y1=\"150\" x2=\"379\" y2=\"150\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"384\" y=\"101.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">w + 1</text><line x1=\"90\" y1=\"172\" x2=\"350\" y2=\"172\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"90\" y1=\"165\" x2=\"90\" y2=\"179\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"350\" y1=\"165\" x2=\"350\" y2=\"179\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"220.0\" y=\"196\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">3w − 4</text></svg></div><p>Skriv ett förenklat uttryck för hur många meter staket som behövs.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två sidor på \\((w+1)\\) m och en sida på \\((3w-4)\\) m. Väggsidan räknas inte.</p></li><li><div class=\"facit-matte\">\\[2(w+1)+(3w-4)=2w+2+3w-4\\]</div></li><li><div class=\"facit-matte\">\\[=5w-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((5w-2)\\) m</p></div>",
+  "ledtrad": "<p>Vilka sidor behöver staket? Det finns två sidor av samma längd.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "5w-2",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarEnhet": "m"
+},
+{
+  "id": "1.1164",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>En skylt består av två rektanglar som sitter ihop.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"262\" viewBox=\"0 0 460 262\" role=\"img\" aria-label=\"Två rektanglar bredvid varandra. Den vänstra har höjden 6 och bredden p minus 1. Den högra har höjden 4 och bredden 2p plus 3.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"260\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"70\" y=\"40\" width=\"130\" height=\"150\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><rect x=\"200\" y=\"90\" width=\"200\" height=\"100\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"50\" y1=\"40\" x2=\"50\" y2=\"190\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"43\" y1=\"40\" x2=\"57\" y2=\"40\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"43\" y1=\"190\" x2=\"57\" y2=\"190\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"38\" y=\"121.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">6</text><line x1=\"420\" y1=\"90\" x2=\"420\" y2=\"190\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"413\" y1=\"90\" x2=\"427\" y2=\"90\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"413\" y1=\"190\" x2=\"427\" y2=\"190\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"432\" y=\"146.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">4</text><line x1=\"70\" y1=\"212\" x2=\"200\" y2=\"212\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"205\" x2=\"70\" y2=\"219\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"205\" x2=\"200\" y2=\"219\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"135.0\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">p − 1</text><line x1=\"200\" y1=\"212\" x2=\"400\" y2=\"212\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"205\" x2=\"200\" y2=\"219\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"400\" y1=\"205\" x2=\"400\" y2=\"219\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"300.0\" y=\"236\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">2p + 3</text><text x=\"300\" y=\"60\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\">Alla mått i dm</text></svg></div><p>Skriv ett förenklat uttryck för skyltens area i dm².</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vänstra delen: \\(6(p-1)\\). Högra delen: \\(4(2p+3)\\).</p></li><li><div class=\"facit-matte\">\\[6(p-1)+4(2p+3)=6p-6+8p+12\\]</div></li><li><div class=\"facit-matte\">\\[=14p+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((14p+6)\\) dm²</p></div>",
+  "ledtrad": "<p>Beräkna arean av varje rektangel för sig som höjd gånger bredd. Lägg sedan ihop.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "14p+6",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarEnhet": "dm²"
+},
+{
+  "id": "1.1165",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>En rektangel har sidorna \\((x+5)\\) cm och \\(2x\\) cm. En kvadrat har sidan \\((x+2)\\) cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"230\" viewBox=\"0 0 460 230\" role=\"img\" aria-label=\"Till vänster en rektangel med sidorna x plus 5 och 2x. Till höger en kvadrat med sidan x plus 2.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"55\" y=\"40\" width=\"200\" height=\"120\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><line x1=\"55\" y1=\"182\" x2=\"255\" y2=\"182\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"55\" y1=\"175\" x2=\"55\" y2=\"189\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"255\" y1=\"175\" x2=\"255\" y2=\"189\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"155.0\" y=\"206\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">x + 5</text><line x1=\"275\" y1=\"40\" x2=\"275\" y2=\"160\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"268\" y1=\"40\" x2=\"282\" y2=\"40\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"268\" y1=\"160\" x2=\"282\" y2=\"160\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"287\" y=\"106.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">2x</text><rect x=\"330\" y=\"80\" width=\"80\" height=\"80\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"330\" y1=\"182\" x2=\"410\" y2=\"182\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"330\" y1=\"175\" x2=\"330\" y2=\"189\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"410\" y1=\"175\" x2=\"410\" y2=\"189\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"370.0\" y=\"206\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">x + 2</text><text x=\"155\" y=\"28\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">Rektangel</text><text x=\"370\" y=\"68\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">Kvadrat</text></svg></div><p>Hur mycket längre är rektangelns omkrets än kvadratens omkrets? Svara med ett förenklat uttryck.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rektangelns omkrets: \\(2(x+5)+2\\cdot2x=6x+10\\).</p></li><li><p>Kvadratens omkrets: \\(4(x+2)=4x+8\\).</p></li><li><div class=\"facit-matte\">\\[(6x+10)-(4x+8)=6x+10-4x-8\\]</div></li><li><div class=\"facit-matte\">\\[=2x+2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((2x+2)\\) cm</p></div>",
+  "ledtrad": "<p>Skriv båda omkretsarna. Subtrahera sedan kvadratens omkrets. Använd en parentes runt den, eftersom hela omkretsen ska dras bort.</p>",
+  "niva": "C",
+  "poang": "0/1/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "2x+2",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarEnhet": "cm"
+},
+{
+  "id": "1.1166",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Noah springer tre varv runt en rektangulär bana. Banan har långsidan \\((2d+15)\\) m och kortsidan \\(d\\) m.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"230\" viewBox=\"0 0 440 230\" role=\"img\" aria-label=\"En rektangulär bana med långsidan 2d plus 15 meter och kortsidan d meter. En pil visar att man springer runt banan.\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"80\" y=\"45\" width=\"260\" height=\"120\" rx=\"6\" fill=\"#eef6e8\" stroke=\"#216d87\" stroke-width=\"5\"/><rect x=\"110\" y=\"75\" width=\"200\" height=\"60\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"210\" y=\"111\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">3 varv</text><path d=\"M300 58 H330 V80\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.5\"/><path d=\"M324 74 L330 86 L336 74\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.5\"/><line x1=\"80\" y1=\"190\" x2=\"340\" y2=\"190\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"80\" y1=\"183\" x2=\"80\" y2=\"197\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"340\" y1=\"183\" x2=\"340\" y2=\"197\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"210.0\" y=\"214\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">2d + 15</text><line x1=\"362\" y1=\"45\" x2=\"362\" y2=\"165\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"355\" y1=\"45\" x2=\"369\" y2=\"45\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"355\" y1=\"165\" x2=\"369\" y2=\"165\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"374\" y=\"111.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#172b3a\">d</text></svg></div><p>Skriv ett förenklat uttryck för hur långt Noah springer.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett varv är omkretsen: \\(2(2d+15)+2d=4d+30+2d=6d+30\\).</p></li><li><div class=\"facit-matte\">\\[3(6d+30)=18d+90\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((18d+90)\\) m</p></div>",
+  "ledtrad": "<p>Bestäm först längden av ett varv. Multiplicera sedan med antalet varv.</p>",
+  "niva": "C",
+  "poang": "0/1/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "18d+90",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarEnhet": "m"
+},
+{
+  "id": "1.1167",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>En rektangel har omkretsen \\(6(x+4)\\) cm. Den ena sidan är \\((x+5)\\) cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"230\" viewBox=\"0 0 440 230\" role=\"img\" aria-label=\"En rektangel där den ena sidan är x plus 5 centimeter och den andra sidan är okänd. Omkretsen är 6 gånger parentesen x plus 4 centimeter.\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"110\" y=\"50\" width=\"250\" height=\"110\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2.5\"/><line x1=\"90\" y1=\"50\" x2=\"90\" y2=\"160\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"83\" y1=\"50\" x2=\"97\" y2=\"50\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"83\" y1=\"160\" x2=\"97\" y2=\"160\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"78\" y=\"111.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#172b3a\">x + 5</text><line x1=\"110\" y1=\"182\" x2=\"360\" y2=\"182\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"110\" y1=\"175\" x2=\"110\" y2=\"189\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"360\" y1=\"175\" x2=\"360\" y2=\"189\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"235.0\" y=\"206\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">?</text><text x=\"235\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">Omkrets: 6(x + 4)</text></svg></div><p>Skriv ett förenklat uttryck för den andra sidans längd.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Omkretsen är \\(6x+24\\). En långsida och en kortsida är tillsammans halva omkretsen: \\(3x+12\\).</p></li><li><div class=\"facit-matte\">\\[(3x+12)-(x+5)=3x+12-x-5\\]</div></li><li><div class=\"facit-matte\">\\[=2x+7\\]</div></li><li><p>Kontroll: \\(2(x+5)+2(2x+7)=2x+10+4x+14=6x+24=6(x+4)\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((2x+7)\\) cm</p></div>",
+  "ledtrad": "<p>Hur lång är en sida av varje sort tillsammans, alltså halva omkretsen? Dra sedan bort den kända sidan.</p>",
+  "niva": "C",
+  "poang": "0/1/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "2x+7",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarEnhet": "cm"
+},
+{
+  "id": "1.1168",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(\\tfrac{1}{2}(8x+6)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera båda termerna med \\(\\tfrac12\\), det vill säga dela båda med 2.</p></li><li><div class=\"facit-matte\">\\[\\tfrac12\\cdot8x+\\tfrac12\\cdot6=4x+3\\]</div></li></ol></div>",
+  "ledtrad": "<p>Att multiplicera med en halv är samma sak som att dela med två. Gör det med båda termerna.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "4x+3",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1169",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(0{,}2(15n+40)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}2\\cdot15n+0{,}2\\cdot40=3n+8\\]</div></li><li><p>Tips: \\(0{,}2\\) är en femtedel, så det går att dela med 5.</p></li></ol></div>",
+  "ledtrad": "<p>Multiplicera \\(0{,}2\\) med båda termerna. Att ta \\(0{,}2\\) gånger ett tal är samma sak som att dela med 5.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "3n+8",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1170",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(-2(3p-q+4)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Parentesen har tre termer, och alla tre ska multipliceras med \\(-2\\).</p></li><li><div class=\"facit-matte\">\\[(-2)\\cdot3p+(-2)\\cdot(-q)+(-2)\\cdot4\\]</div></li><li><div class=\"facit-matte\">\\[=-6p+2q-8\\]</div></li></ol></div>",
+  "ledtrad": "<p>Räkna ut tre produkter: \\(-2\\) gånger \\(3p\\), gånger \\(-q\\) och gånger \\(4\\).</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "-6p+2q-8",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1171",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(12-(5w-3+2w)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Minustecknet byter tecken på alla tre termerna i parentesen.</p></li><li><div class=\"facit-matte\">\\[12-(5w-3+2w)=12-5w+3-2w\\]</div></li><li><div class=\"facit-matte\">\\[=15-7w\\]</div></li></ol></div>",
+  "ledtrad": "<p>Ta bort parentesen och byt tecken på varje term i den. Samla sedan termerna.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "15-7w",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1172",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Vilket tal ska stå i rutan för att likheten ska gälla för alla \\(x\\)?</p><p>\\(6(x+\\square)=6x-30\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sexan multipliceras med talet i rutan och ska ge \\(-30\\).</p></li><li><div class=\"facit-matte\">\\[6\\cdot\\square=-30\\;\\Rightarrow\\;\\square=-5\\]</div></li><li><p>Kontroll: \\(6(x-5)=6x-30\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-5\\)</p></div>",
+  "ledtrad": "<p>Vad ska 6 multipliceras med för att bli \\(-30\\)?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "begrepp"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": -5,
+  "tolerans": 0,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1173",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Vilket tal ska stå i rutan för att likheten ska gälla för alla \\(n\\)?</p><p>\\(\\square\\,(5-2n)=-15+6n\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talet gånger 5 ska bli \\(-15\\), så talet är \\(-3\\).</p></li><li><p>Kontroll av den andra termen: \\((-3)\\cdot(-2n)=6n\\). Det stämmer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\)</p></div>",
+  "ledtrad": "<p>Titta på konstanttermen: vad gånger 5 blir \\(-15\\)? Kontrollera sedan \\(n\\)-termen.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "begrepp"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": -3,
+  "tolerans": 0,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1174",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Tre av uttrycken är lika med \\(6-3(x-2)\\) för alla \\(x\\). Vilket uttryck är <strong>inte</strong> det?</p><p>A: \\(12-3x\\)<br>B: \\(6-3x+6\\)<br>C: \\(-3x+12\\)<br>D: \\(3x-12\\)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6-3(x-2)=6-3x+6=12-3x\\]</div></li><li><p>A, B och C är samma uttryck skrivna på olika sätt. D har motsatt tecken på båda termerna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D</p></div>",
+  "ledtrad": "<p>Förenkla \\(6-3(x-2)\\) själv. Jämför sedan med varje alternativ.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "begrepp"
+  ],
+  "svarstyp": "val",
+  "rättSvar": "D",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "kort_text",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true
+},
+{
+  "id": "1.1175",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Ali förenklar ett uttryck så här:</p><p>\\(-(6y-4)+2y=-6y-4+2y=-4y-4\\)</p><p>Vilket påstående om Alis lösning stämmer?</p><p>A: Rätt svar är \\(-4y+4\\), eftersom minustecknet byter tecken även på \\(-4\\).<br>B: Rätt svar är \\(-8y-4\\), eftersom \\(2y\\) också ska byta tecken.<br>C: Rätt svar är \\(8y-4\\), eftersom minustecknet bara gäller \\(6y\\).<br>D: Lösningen är rätt.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Minustecknet framför parentesen gäller båda termerna i den: \\(-6y\\) och \\(+4\\).</p></li><li><div class=\"facit-matte\">\\[-(6y-4)+2y=-6y+4+2y=-4y+4\\]</div></li><li><p>\\(2y\\) står utanför parentesen och påverkas inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A</p></div>",
+  "ledtrad": "<p>Vilka termer står inne i parentesen? Vad händer med \\(-4\\) när hela parentesen byter tecken?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "val",
+  "rättSvar": "A",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "kort_text",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true
+},
+{
+  "id": "1.1176",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Beräkna värdet av \\(4(3-n)+3(2n-1)\\) när \\(n=-5\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förenkla först:</p></li><li><div class=\"facit-matte\">\\[4(3-n)+3(2n-1)=12-4n+6n-3=2n+9\\]</div></li><li><p>Sätt in \\(n=-5\\):</p></li><li><div class=\"facit-matte\">\\[2\\cdot(-5)+9=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\)</p></div>",
+  "ledtrad": "<p>Förenkla uttrycket innan du sätter in \\(n=-5\\). Det blir färre negativa tal att hålla reda på.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": -1,
+  "tolerans": 0,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true
+},
+{
+  "id": "1.1177",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Uttrycken \\(A=5(2c+3)\\) och \\(B=2(5c-1)\\) är givna.</p><p>Visa att \\(A\\) alltid är lika mycket större än \\(B\\), oavsett värdet på \\(c\\). Hur mycket större är \\(A\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=10c+15,\\quad B=10c-2\\]</div></li><li><div class=\"facit-matte\">\\[A-B=(10c+15)-(10c-2)=10c+15-10c+2=17\\]</div></li><li><p>\\(c\\)-termerna tar ut varandra, så skillnaden är 17 för alla \\(c\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\)</p></div>",
+  "ledtrad": "<p>Förenkla båda uttrycken. Beräkna sedan \\(A-B\\) och tänk på att hela \\(B\\) ska dras bort.</p>",
+  "niva": "C",
+  "poang": "0/1/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 17,
+  "tolerans": 0,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true
+},
+{
+  "id": "1.1178",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>I ett frågesportspel får man 5 poäng för varje rätt svar och förlorar 2 poäng för varje fel svar. Elsa svarar på 20 frågor och har \\(r\\) rätt. Alla andra svar är fel.</p><p>Skriv ett förenklat uttryck för Elsas poäng.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Antalet fel är \\(20-r\\). Poängen blir \\(5r-2(20-r)\\).</p></li><li><div class=\"facit-matte\">\\[5r-2(20-r)=5r-40+2r\\]</div></li><li><div class=\"facit-matte\">\\[=7r-40\\]</div></li><li><p>Kontroll: 15 rätt ger \\(75-10=65\\) och \\(7\\cdot15-40=65\\).</p></li></ol></div>",
+  "ledtrad": "<p>Hur många fel svar har Elsa? Varje fel ger \\(-2\\) poäng.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "7r-40",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true
+},
+{
+  "id": "1.1179",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>En tröja kostar \\(p\\) kr. Ett par byxor kostar 150 kr mer än en tröja. Under en rea sänks priset på varje plagg med 50 kr.</p><p>Skriv ett förenklat uttryck för vad två tröjor och tre par byxor kostar på rean.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Reapris för en tröja: \\(p-50\\). Reapris för ett par byxor: \\(p+150-50=p+100\\).</p></li><li><div class=\"facit-matte\">\\[2(p-50)+3(p+100)=2p-100+3p+300\\]</div></li><li><div class=\"facit-matte\">\\[=5p+200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((5p+200)\\) kr</p></div>",
+  "ledtrad": "<p>Skriv först reapriset för en tröja och för ett par byxor. Multiplicera sedan med antalet.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "5p+200",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarEnhet": "kr"
+},
+{
+  "id": "1.1180",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Förenkla \\(15-2\\big(4-(x-3)\\big)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Börja inifrån: \\(4-(x-3)=4-x+3=7-x\\).</p></li><li><div class=\"facit-matte\">\\[15-2(7-x)=15-14+2x\\]</div></li><li><div class=\"facit-matte\">\\[=2x+1\\]</div></li></ol></div>",
+  "ledtrad": "<p>Förenkla den inre parentesen först. Multiplicera sedan in \\(-2\\).</p>",
+  "niva": "C",
+  "poang": "0/1/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "2x+1",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true
+},
+{
+  "id": "1.1181",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Det gäller att \\(A=2(x+5)\\) och \\(B=3(x-1)\\). Bestäm ett förenklat uttryck \\(C\\) så att \\(A+B+C=0\\) för alla \\(x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A+B=2x+10+3x-3=5x+7\\]</div></li><li><p>\\(C\\) ska ta ut summan, så \\(C=-(5x+7)\\).</p></li><li><div class=\"facit-matte\">\\[C=-5x-7\\]</div></li></ol></div>",
+  "ledtrad": "<p>Förenkla \\(A+B\\). Vilket uttryck ger 0 när det läggs till summan?</p>",
+  "niva": "C",
+  "poang": "0/1/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "-5x-7",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true
+},
+{
+  "id": "1.1182",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Två positiva heltal ska stå i rutorna så att likheten gäller för alla \\(x\\):</p><p>\\(\\square\\,(2x-\\square)=6x-15\\)</p><p>Vilka tal står i den första och den andra rutan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla talen \\(a\\) och \\(b\\): \\(a(2x-b)=2a\\,x-ab\\).</p></li><li><p>\\(2a=6\\) ger \\(a=3\\). Sedan ger \\(ab=15\\) att \\(b=5\\).</p></li><li><p>Kontroll: \\(3(2x-5)=6x-15\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> första rutan 3, andra rutan 5</p></div>",
+  "ledtrad": "<p>Vilket tal gånger 2 ger 6? Använd sedan det talet för att få \\(-15\\).</p>",
+  "niva": "C",
+  "poang": "0/1/0",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    3,
+    5
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarEtiketter": [
+    "Första rutan",
+    "Andra rutan"
+  ],
+  "svarsstruktur": "ordnad"
+},
+{
+  "id": "1.1183",
+  "kap": 1,
+  "omr": "forenkla_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Uttrycket \\(4(ax-3)-3(2x-a)\\) innehåller talet \\(a\\).</p><p>Bestäm \\(a\\) så att uttrycket får samma värde för alla \\(x\\). Vilket värde får uttrycket då?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4(ax-3)-3(2x-a)=4ax-12-6x+3a=(4a-6)x+(3a-12)\\]</div></li><li><p>Uttrycket beror inte på \\(x\\) om \\(x\\)-termen försvinner: \\(4a-6=0\\), alltså \\(a=1{,}5\\).</p></li><li><div class=\"facit-matte\">\\[3\\cdot1{,}5-12=-7{,}5\\]</div></li><li><p>Kontroll: \\(4(1{,}5x-3)-3(2x-1{,}5)=6x-12-6x+4{,}5=-7{,}5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=1{,}5\\); uttrycket är då \\(-7{,}5\\)</p></div>",
+  "ledtrad": "<p>Multiplicera in och samla \\(x\\)-termerna. Vad måste gälla för att \\(x\\) inte ska påverka värdet?</p>",
+  "niva": "A",
+  "poang": "0/1/1",
+  "familj": "Uttryck med parenteser",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1.5,
+    -7.5
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "självrättning": true,
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "spel": true,
+  "svarEtiketter": [
+    "a",
+    "Uttryckets värde"
+  ],
+  "svarsstruktur": "ordnad"
 }
 ];

@@ -197700,5 +197700,182 @@ window.BANK = [
   "ledtrad": "<p>Hur mycket har mätarställningen ökat? Vilken tid är det i timmar?</p>",
   "svarFormat": "numeriskt",
   "svarEnhet": "kW"
+},
+{
+  "id": "8.574",
+  "kap": 8,
+  "omr": "strom",
+  "niva": "E",
+  "typ": "ström från ett laddningsdiagram",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet visar den sammanlagda laddning som har passerat en punkt i en ledning. Hur stor är strömmen? (Svara i A.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Laddningen ökar linjärt från 0 C vid 0 s till 18 C vid 6 s.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><text x=\"65\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#243447\">Laddning (C)</text><text x=\"415\" y=\"276\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">Tid (s)</text><path d=\"M65.0 50L65.0 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"65.0\" y=\"255\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M123.33333333333334 50L123.33333333333334 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"123.33333333333334\" y=\"255\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M181.66666666666669 50L181.66666666666669 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"181.66666666666669\" y=\"255\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M240.0 50L240.0 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"240.0\" y=\"255\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M298.33333333333337 50L298.33333333333337 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"298.33333333333337\" y=\"255\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M356.6666666666667 50L356.6666666666667 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"356.6666666666667\" y=\"255\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">5</text><path d=\"M415.0 50L415.0 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"415.0\" y=\"255\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">6</text><path d=\"M65 230.0L415 230.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M65 200.0L415 200.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">3</text><path d=\"M65 170.0L415 170.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"175.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">6</text><path d=\"M65 140.0L415 140.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">9</text><path d=\"M65 110.0L415 110.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">12</text><path d=\"M65 80.0L415 80.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">15</text><path d=\"M65 50.0L415 50.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">18</text><path d=\"M65 50L65 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 230L415 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 230L415 50\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"4\"/><circle cx=\"415\" cy=\"50\" r=\"4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>På 6 s har 18 C passerat punkten. Strömmen är laddningen per sekund.</p>\\[I=\\frac{Q}{t}=\\frac{18}{6}=3\\,\\mathrm A.\\]<p>Den raka linjen visar att strömmen är konstant.</p></div>",
+  "familj": "Ström och laddning i kretsar",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur stor laddning har passerat efter 6 s?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "A"
+},
+{
+  "id": "8.575",
+  "kap": 8,
+  "omr": "strom",
+  "niva": "E",
+  "typ": "medelström mellan två tabellvärden",
+  "poang": "(1/0/0)",
+  "t": "<p>Tabellen visar den sammanlagda laddning som har passerat en punkt i en ledning. Hur stor är medelströmmen mellan 2 s och 5 s? (Svara i A.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 290\" role=\"img\" aria-label=\"Vid 0, 2, 5 och 8 s har sammanlagt 0, 1, 7 respektive 10 C passerat.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"290\" fill=\"white\"/><rect x=\"80\" y=\"25\" width=\"320\" height=\"240\" rx=\"0\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"80\" y=\"25\" width=\"320\" height=\"48\" rx=\"0\" fill=\"#e4f0f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"155\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Tid (s)</text><text x=\"310\" y=\"56\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Laddning (C)</text><path d=\"M80 73L400 73\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"155\" y=\"104\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">0</text><text x=\"310\" y=\"104\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M80 121L400 121\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"155\" y=\"152\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">2</text><text x=\"310\" y=\"152\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M80 169L400 169\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"155\" y=\"200\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">5</text><text x=\"310\" y=\"200\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">7</text><path d=\"M80 217L400 217\" fill=\"none\" stroke=\"#94a7b9\" stroke-width=\"1\"/><text x=\"155\" y=\"248\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">8</text><text x=\"310\" y=\"248\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">10</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Under just detta intervall passerar \\(7-1=6\\,\\mathrm C\\). Tiden är \\(5-2=3\\,\\mathrm s\\).</p>\\[I_\\text{medel}=\\frac{6}{3}=2\\,\\mathrm A.\\]<p>De 7 C vid sluttiden innehåller också laddningen som passerade före 2 s. Därför behöver startvärdet dras bort.</p></div>",
+  "familj": "Ström och laddning i kretsar",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ta skillnaden mellan laddningarna och skillnaden mellan tiderna.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "A"
+},
+{
+  "id": "8.576",
+  "kap": 8,
+  "omr": "strom",
+  "niva": "E",
+  "typ": "laddning vid två strömnivåer",
+  "poang": "(1/0/0)",
+  "t": "<p>En liten motor går först med hög ström och sedan med låg ström, enligt figuren. Hur stor laddning passerar motorn under hela körningen? (Svara i C.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 260\" role=\"img\" aria-label=\"Först 0,40 A under 10 s, sedan 0,10 A under 20 s. Sammanlagt 30 s.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"260\" fill=\"white\"/><rect x=\"25\" y=\"45\" width=\"190\" height=\"140\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"265\" y=\"45\" width=\"190\" height=\"140\" rx=\"12\" fill=\"#edf3fb\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"120\" y=\"79\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">Först</text><text x=\"360\" y=\"79\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">Sedan</text><text x=\"120\" y=\"119\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">0,40 A</text><text x=\"360\" y=\"119\" font-family=\"Arial,sans-serif\" font-size=\"27\" text-anchor=\"middle\" fill=\"#243447\">0,10 A</text><text x=\"120\" y=\"159\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">10 s</text><text x=\"360\" y=\"159\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">20 s</text><path d=\"M220 115L259 115\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M251.02 119.16L259 115L251.02 110.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"240\" y=\"230\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">Sammanlagt 30 s</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Räkna laddningen för varje del av körningen.</p>\\[Q_1=I_1t_1=0{,}40\\cdot10=4\\,\\mathrm C\\]\\[Q_2=I_2t_2=0{,}10\\cdot20=2\\,\\mathrm C\\]<p>Totalt passerar \\(4+2=6\\,\\mathrm C\\).</p></div>",
+  "familj": "Ström och laddning i kretsar",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur stor laddning passerar under varje del av körningen?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "C"
+},
+{
+  "id": "8.577",
+  "kap": 8,
+  "omr": "strom",
+  "niva": "E",
+  "typ": "ström i en förgrening",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en del av en krets. Hur stor är strömmen I i den nedre ledningen? (Svara i A.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" role=\"img\" aria-label=\"1,20 A går in i förgreningen. 0,45 A går ut i övre ledningen och strömmen I går ut i nedre ledningen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"280\" fill=\"white\"/><text x=\"240\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Del av en krets</text><path d=\"M25 155L220 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M220 155L350 70\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M350 70L450 70\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M220 155L350 240\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M350 240L450 240\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\"/><circle cx=\"220\" cy=\"155\" r=\"5\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M70 155L170 155\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M162.02 159.16L170 155L162.02 150.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"120\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">1,20 A</text><path d=\"M355 70L425 70\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M417.02 74.16L425 70L417.02 65.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"395\" y=\"51\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">0,45 A</text><path d=\"M355 240L425 240\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M417.02 244.16L425 240L417.02 235.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"395\" y=\"216\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">I = ?</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Strömmen som går in i förgreningen är lika stor som strömmarna ut tillsammans.</p>\\[I=1{,}20-0{,}45=0{,}75\\,\\mathrm A.\\]<p>Kontroll: \\(0{,}45+0{,}75=1{,}20\\,\\mathrm A\\).</p></div>",
+  "familj": "Ström och laddning i kretsar",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.75,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Följ pilarna: vilka strömmar går in och vilka går ut?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "A"
+},
+{
+  "id": "8.578",
+  "kap": 8,
+  "omr": "strom",
+  "niva": "E",
+  "typ": "medelström för en kort signal",
+  "poang": "(1/0/0)",
+  "t": "<p>En sensor sänder en kort signal varannan sekund. Diagrammet visar strömmen under en sådan tvåsekundersperiod. Hur stor är medelströmmen under perioden? (Svara i mA.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Strömmen är 0,60 A från 0 till 0,20 s och noll från 0,20 till 2,0 s.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><text x=\"65\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#243447\">Ström (A)</text><text x=\"415\" y=\"276\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">Tid (s)</text><path d=\"M65.0 50L65.0 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"65.0\" y=\"255\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M100.0 50L100.0 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"100.0\" y=\"255\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0,20</text><path d=\"M240.0 50L240.0 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"240.0\" y=\"255\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1,0</text><path d=\"M415.0 50L415.0 230\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"415.0\" y=\"255\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2,0</text><path d=\"M65 230.0L415 230.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M65 140.0L415 140.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0,30</text><path d=\"M65 50.0L415 50.0\" fill=\"none\" stroke=\"#d6dfe8\" stroke-width=\"1\"/><text x=\"55\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0,60</text><path d=\"M65 50L65 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 230L415 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 50H100V230H415\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"4\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Ström går bara under signalens 0,20 s. Då passerar laddningen</p>\\[Q=It=0{,}60\\cdot0{,}20=0{,}12\\,\\mathrm C.\\]<p>Fördela den laddningen över hela perioden på 2,0 s:</p>\\[I_\\text{medel}=\\frac{0{,}12}{2{,}0}=0{,}060\\,\\mathrm A.\\]<p>Det är 60 mA.</p></div>",
+  "familj": "Ström och laddning i kretsar",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 60,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur stor laddning passerar under signalen? Jämför med hela periodens längd.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "mA"
+},
+{
+  "id": "8.579",
+  "kap": 8,
+  "omr": "strom",
+  "niva": "E",
+  "typ": "konstant ström i ett laddningsdiagram",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammen visar sammanlagd laddning som har passerat en punkt i en ledning. Vilket diagram visar konstant ström under hela mätningen? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 395\" role=\"img\" aria-label=\"Fyra Q-t-diagram. A böjer uppåt, B är en rak stigande linje, C har två olika lutningar och D böjer nedåt.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"395\" fill=\"white\"/><text x=\"120\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"45\" y=\"53\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Q (C)</text><text x=\"207\" y=\"181\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">t (s)</text><path d=\"M45 65L45 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M45 155L195 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><polyline points=\"45.00,155.00 48.75,154.94 52.50,154.78 56.25,154.49 60.00,154.10 63.75,153.59 67.50,152.97 71.25,152.24 75.00,151.40 78.75,150.44 82.50,149.38 86.25,148.19 90.00,146.90 93.75,145.49 97.50,143.97 101.25,142.34 105.00,140.60 108.75,138.74 112.50,136.78 116.25,134.69 120.00,132.50 123.75,130.19 127.50,127.77 131.25,125.24 135.00,122.60 138.75,119.84 142.50,116.97 146.25,113.99 150.00,110.90 153.75,107.69 157.50,104.38 161.25,100.94 165.00,97.40 168.75,93.74 172.50,89.98 176.25,86.09 180.00,82.10 183.75,77.99 187.50,73.78 191.25,69.44 195.00,65.00\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"350\" y=\"30\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">B</text><text x=\"275\" y=\"53\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Q (C)</text><text x=\"437\" y=\"181\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">t (s)</text><path d=\"M275 65L275 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M275 155L425 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><polyline points=\"275.00,155.00 278.75,152.75 282.50,150.50 286.25,148.25 290.00,146.00 293.75,143.75 297.50,141.50 301.25,139.25 305.00,137.00 308.75,134.75 312.50,132.50 316.25,130.25 320.00,128.00 323.75,125.75 327.50,123.50 331.25,121.25 335.00,119.00 338.75,116.75 342.50,114.50 346.25,112.25 350.00,110.00 353.75,107.75 357.50,105.50 361.25,103.25 365.00,101.00 368.75,98.75 372.50,96.50 376.25,94.25 380.00,92.00 383.75,89.75 387.50,87.50 391.25,85.25 395.00,83.00 398.75,80.75 402.50,78.50 406.25,76.25 410.00,74.00 413.75,71.75 417.50,69.50 421.25,67.25 425.00,65.00\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"120\" y=\"225\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">C</text><text x=\"45\" y=\"248\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Q (C)</text><text x=\"207\" y=\"376\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">t (s)</text><path d=\"M45 260L45 350\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M45 350L195 350\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><polyline points=\"45.00,350.00 48.75,349.10 52.50,348.20 56.25,347.30 60.00,346.40 63.75,345.50 67.50,344.60 71.25,343.70 75.00,342.80 78.75,341.90 82.50,341.00 86.25,340.10 90.00,339.20 93.75,338.30 97.50,337.40 101.25,336.50 105.00,335.60 108.75,334.70 112.50,333.80 116.25,332.90 120.00,332.00 123.75,328.40 127.50,324.80 131.25,321.20 135.00,317.60 138.75,314.00 142.50,310.40 146.25,306.80 150.00,303.20 153.75,299.60 157.50,296.00 161.25,292.40 165.00,288.80 168.75,285.20 172.50,281.60 176.25,278.00 180.00,274.40 183.75,270.80 187.50,267.20 191.25,263.60 195.00,260.00\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"350\" y=\"225\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">D</text><text x=\"275\" y=\"248\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Q (C)</text><text x=\"437\" y=\"376\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">t (s)</text><path d=\"M275 260L275 350\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M275 350L425 350\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><polyline points=\"275.00,350.00 278.75,345.56 282.50,341.23 286.25,337.01 290.00,332.90 293.75,328.91 297.50,325.02 301.25,321.26 305.00,317.60 308.75,314.06 312.50,310.62 316.25,307.31 320.00,304.10 323.75,301.01 327.50,298.02 331.25,295.16 335.00,292.40 338.75,289.76 342.50,287.23 346.25,284.81 350.00,282.50 353.75,280.31 357.50,278.23 361.25,276.26 365.00,274.40 368.75,272.66 372.50,271.02 376.25,269.51 380.00,268.10 383.75,266.81 387.50,265.62 391.25,264.56 395.00,263.60 398.75,262.76 402.50,262.02 406.25,261.41 410.00,260.90 413.75,260.51 417.50,260.23 421.25,260.06 425.00,260.00\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p><strong>Diagram B.</strong> Vid konstant ström passerar lika stor laddning under varje lika långt tidsintervall. Därför är Q–t-grafen en rak linje med samma lutning hela tiden.</p><p>I A ökar lutningen och strömmen. I C ändras lutningen efter halva tiden. I D minskar lutningen och strömmen.</p></div>",
+  "familj": "Ström och laddning i kretsar",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket diagram visar att lika stor laddning passerar under lika långa tider?</p>",
+  "alternativ": [
+    {
+      "txt": "Diagram A",
+      "ratt": false,
+      "kommentar": "Kurvan blir allt brantare, så laddningen per sekund och därmed strömmen ökar."
+    },
+    {
+      "txt": "Diagram D",
+      "ratt": false,
+      "kommentar": "Kurvan blir allt flackare, så strömmen minskar."
+    },
+    {
+      "txt": "Diagram C",
+      "ratt": false,
+      "kommentar": "De två delarna har olika lutning och därmed olika ström."
+    },
+    {
+      "txt": "Diagram B",
+      "ratt": true,
+      "kommentar": "Grafen har samma lutning hela tiden: lika mycket laddning passerar per sekund."
+    }
+  ]
 }
 ];

@@ -146024,5 +146024,241 @@ window.BANKMA1 = [
     "Uttryckets värde"
   ],
   "svarsstruktur": "ordnad"
+},
+{
+  "id": "1.1184",
+  "kap": 1,
+  "omr": "monster_samband",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "prickmönster, figur 10",
+  "t": "<p>Figurerna är byggda av prickar i ett L-format mönster. Mönstret fortsätter på samma sätt. Hur många prickar har figur 10?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 170\" role=\"img\" aria-label=\"Tre L-formade figurer av prickar. Figur 1 har 3 prickar, figur 2 har 5 och figur 3 har 7. Varje figur får en prick till på varje arm.\" style=\"width:100%;max-width:330px\"><rect x=\"1\" y=\"1\" width=\"328\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"39.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"39.0\" cy=\"112.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"57.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"48.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 1</text><circle cx=\"125.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"125.0\" cy=\"112.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"125.0\" cy=\"94.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"143.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"161.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"143.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 2</text><circle cx=\"229.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"229.0\" cy=\"112.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"229.0\" cy=\"94.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"229.0\" cy=\"76.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"247.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"265.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"283.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"256.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 3</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Varje ny figur får en prick till på båda armarna, alltså 2 prickar fler: 3, 5, 7, … Figur \\(n\\) har \\(2n+1\\) prickar.</p><p>Figur 10 har \\(2\\cdot10+1=21\\) prickar.</p></div>",
+  "familj": "Figurmönster i bilder",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många prickar tillkommer från en figur till nästa?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 21,
+  "tolerans": 0,
+  "svarFormat": "heltal"
+},
+{
+  "id": "1.1185",
+  "kap": 1,
+  "omr": "monster_samband",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "uttryck för stickmönster",
+  "t": "<p>Trianglar läggs i en rad av tändstickor. Skriv ett uttryck för antalet stickor i figur \\(n\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 150\" role=\"img\" aria-label=\"Tre figurer av tändstickor. Figur 1 är en triangel av 3 stickor, figur 2 är två trianglar i rad av 5 stickor och figur 3 är tre trianglar i rad av 7 stickor.\" style=\"width:100%;max-width:330px\"><rect x=\"1\" y=\"1\" width=\"328\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"24.0\" y1=\"106.0\" x2=\"64.0\" y2=\"106.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"44.0\" y1=\"71.4\" x2=\"64.0\" y2=\"106.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"24.0\" y1=\"106.0\" x2=\"44.0\" y2=\"71.4\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"44.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 1</text><line x1=\"108.0\" y1=\"106.0\" x2=\"148.0\" y2=\"106.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"128.0\" y1=\"71.4\" x2=\"148.0\" y2=\"106.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"108.0\" y1=\"106.0\" x2=\"128.0\" y2=\"71.4\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"128.0\" y1=\"71.4\" x2=\"168.0\" y2=\"71.4\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"148.0\" y1=\"106.0\" x2=\"168.0\" y2=\"71.4\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"138.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 2</text><line x1=\"212.0\" y1=\"106.0\" x2=\"252.0\" y2=\"106.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"232.0\" y1=\"71.4\" x2=\"252.0\" y2=\"106.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"212.0\" y1=\"106.0\" x2=\"232.0\" y2=\"71.4\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"232.0\" y1=\"71.4\" x2=\"272.0\" y2=\"71.4\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"252.0\" y1=\"106.0\" x2=\"272.0\" y2=\"71.4\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"252.0\" y1=\"106.0\" x2=\"292.0\" y2=\"106.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"272.0\" y1=\"71.4\" x2=\"292.0\" y2=\"106.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"252.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 3</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Antalet stickor är 3, 5, 7, … Varje ny triangel kräver 2 nya stickor, eftersom den delar en sticka med den förra.</p><p>Figur \\(n\\) har \\(3+2(n-1)=2n+1\\) stickor.</p></div>",
+  "familj": "Figurmönster i bilder",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många nya stickor behövs för varje ny triangel? Hur många har figur 1?</p>",
+  "svarstyp": "uttryck",
+  "rättSvar": "2n+1",
+  "tolerans": null,
+  "svarFormat": "uttryck"
+},
+{
+  "id": "1.1186",
+  "kap": 1,
+  "omr": "monster_samband",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "kantplattor runt en kvadrat",
+  "t": "<p>Kvadratiska uteplatser läggs med grå plattor längs kanten och vita plattor inuti. I figur 1 är sidan 3 plattor, i figur 2 är den 4 plattor och så vidare. Hur många grå plattor behövs när sidan är 10 plattor?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 170\" role=\"img\" aria-label=\"Tre kvadratiska uteplatser av plattor med en ram av grå plattor runt vita plattor. Figur 1 är 3 gånger 3 med 8 grå plattor, figur 2 är 4 gånger 4 med 12 grå och figur 3 är 5 gånger 5 med 16 grå.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"24.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"24.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"24.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"40.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"40.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"40.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"56.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"56.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"56.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><text x=\"48.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 1</text><rect x=\"112.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"112.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"112.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"112.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><text x=\"144.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 2</text><rect x=\"216.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><text x=\"256.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 3</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Antalet grå plattor är 8, 12, 16, …: 4 fler för varje gång sidan ökar med 1.</p><p>En sida med \\(s\\) plattor ger \\(4s-4\\) grå plattor (fyra sidor, men hörnen räknas bara en gång). För \\(s=10\\): \\(40-4=36\\).</p></div>",
+  "familj": "Figurmönster i bilder",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Räkna fyra sidor, men se upp så att du inte räknar hörnen två gånger.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 36,
+  "tolerans": 0,
+  "svarFormat": "heltal"
+},
+{
+  "id": "1.1187",
+  "kap": 1,
+  "omr": "monster_samband",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "likvärdiga uttryck för samma mönster",
+  "t": "<p>Tre elever beskriver antalet grå plattor runt en kvadratisk uteplats med sidan \\(s\\) plattor (se figuren). Vilka uttryck är rätt? (Välj alla som stämmer.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 170\" role=\"img\" aria-label=\"Tre kvadratiska uteplatser av plattor med en ram av grå plattor runt vita plattor. Figur 1 är 3 gånger 3 med 8 grå plattor, figur 2 är 4 gånger 4 med 12 grå och figur 3 är 5 gånger 5 med 16 grå.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"24.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"24.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"24.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"40.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"40.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"40.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"56.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"56.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"56.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><text x=\"48.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 1</text><rect x=\"112.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"112.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"112.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"112.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"128.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"144.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"160.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><text x=\"144.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 2</text><rect x=\"216.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"216.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"232.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"248.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#ffffff\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"264.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"50.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"66.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"82.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"98.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><rect x=\"280.0\" y=\"114.0\" width=\"15\" height=\"15\" fill=\"#9aa7b4\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><text x=\"256.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 3</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Testa med \\(s=3\\), där det finns 8 grå plattor: \\(4(s-1)=8\\), \\(4s-4=8\\) och \\(s^2-(s-2)^2=9-1=8\\). \\(4s=12\\) är fel.</p><p>De tre rätta uttrycken är olika sätt att tänka: fyra sidor med \\(s-1\\) plattor, fyra sidor minus fyra dubbelräknade hörn, och hela kvadraten minus den vita insidan. Algebraiskt är \\(s^2-(s-2)^2=s^2-(s^2-4s+4)=4s-4\\).</p></div>",
+  "familj": "Figurmönster i bilder",
+  "formaga": [
+    "resonemang",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Pröva varje uttryck med s = 3 och s = 4.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(4(s-1)\\)",
+      "ratt": true,
+      "kommentar": "Fyra sidor med s − 1 plattor vardera."
+    },
+    {
+      "txt": "\\(4s-4\\)",
+      "ratt": true,
+      "kommentar": "Fyra sidor med s plattor, minus de fyra hörnen som räknats två gånger."
+    },
+    {
+      "txt": "\\(s^2-(s-2)^2\\)",
+      "ratt": true,
+      "kommentar": "Hela kvadraten minus den vita kvadraten inuti."
+    },
+    {
+      "txt": "\\(4s\\)",
+      "ratt": false,
+      "kommentar": "Hörnen räknas två gånger: s = 3 ger 12, men det finns 8 grå plattor."
+    }
+  ]
+},
+{
+  "id": "1.1188",
+  "kap": 1,
+  "omr": "monster_samband",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "rektangelmönster av prickar",
+  "t": "<p>Prickarna bildar rektanglar. Figur 1 har 2 prickar, figur 2 har 6 och figur 3 har 12. Hur många prickar har figur 7?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 150\" role=\"img\" aria-label=\"Tre rektanglar av prickar: figur 1 är 1 rad med 2 prickar, figur 2 är 2 rader med 3 prickar och figur 3 är 3 rader med 4 prickar.\" style=\"width:100%;max-width:330px\"><rect x=\"1\" y=\"1\" width=\"328\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"39.0\" cy=\"110.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"57.0\" cy=\"110.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"48.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 1</text><circle cx=\"125.0\" cy=\"110.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"125.0\" cy=\"92.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"143.0\" cy=\"110.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"143.0\" cy=\"92.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"161.0\" cy=\"110.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"161.0\" cy=\"92.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"143.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 2</text><circle cx=\"229.0\" cy=\"110.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"229.0\" cy=\"92.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"229.0\" cy=\"74.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"247.0\" cy=\"110.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"247.0\" cy=\"92.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"247.0\" cy=\"74.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"265.0\" cy=\"110.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"265.0\" cy=\"92.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"265.0\" cy=\"74.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"283.0\" cy=\"110.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"283.0\" cy=\"92.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"283.0\" cy=\"74.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"256.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 3</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Figur \\(n\\) har \\(n\\) rader med \\(n+1\\) prickar, alltså \\(n(n+1)\\) prickar.</p><p>Figur 7: \\(7\\cdot8=56\\) prickar. Ökningen är inte konstant (4, 6, 8, …), så mönstret är inte linjärt.</p></div>",
+  "familj": "Figurmönster i bilder",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hur många rader och hur många prickar per rad har figur n?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 56,
+  "tolerans": 0,
+  "svarFormat": "heltal"
+},
+{
+  "id": "1.1189",
+  "kap": 1,
+  "omr": "monster_samband",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "figurnummer ur antal",
+  "t": "<p>I L-mönstret av prickar har figur 1 3 prickar, figur 2 5 prickar och figur 3 7 prickar. Vilken figur har 61 prickar?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 170\" role=\"img\" aria-label=\"Samma tre L-formade figurer av prickar: 3, 5 och 7 prickar.\" style=\"width:100%;max-width:330px\"><rect x=\"1\" y=\"1\" width=\"328\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"39.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"39.0\" cy=\"112.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"57.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"48.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 1</text><circle cx=\"125.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"125.0\" cy=\"112.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"125.0\" cy=\"94.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"143.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"161.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"143.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 2</text><circle cx=\"229.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"229.0\" cy=\"112.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"229.0\" cy=\"94.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"229.0\" cy=\"76.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"247.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"265.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"283.0\" cy=\"130.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"256.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 3</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Figur \\(n\\) har \\(2n+1\\) prickar. \\(2n+1=61\\) ger \\(2n=60\\) och \\(n=30\\).</p></div>",
+  "familj": "Figurmönster i bilder",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv ett uttryck för antalet prickar i figur n och lös en ekvation.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 30,
+  "tolerans": 0,
+  "svarFormat": "heltal"
+},
+{
+  "id": "1.1190",
+  "kap": 1,
+  "omr": "monster_samband",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "största figur med begränsat antal stickor",
+  "t": "<p>Sexhörningar läggs i en rad av tändstickor. Den första kräver 6 stickor, och varje ny sexhörning delar en sticka med den förra. Hur många sexhörningar kan man som mest lägga i rad med 100 stickor?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 140\" role=\"img\" aria-label=\"Tre figurer av tändstickor: en sexhörning av 6 stickor, två sexhörningar i rad av 11 stickor och tre sexhörningar i rad av 16 stickor. Intilliggande sexhörningar delar en sticka.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"138\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"41.3\" y1=\"100.0\" x2=\"58.6\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"24.0\" y1=\"90.0\" x2=\"41.3\" y2=\"100.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"24.0\" y1=\"70.0\" x2=\"24.0\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"24.0\" y1=\"70.0\" x2=\"41.3\" y2=\"60.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"41.3\" y1=\"60.0\" x2=\"58.6\" y2=\"70.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"58.6\" y1=\"70.0\" x2=\"58.6\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"41.3\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 1</text><line x1=\"116.0\" y1=\"100.0\" x2=\"133.3\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"98.6\" y1=\"90.0\" x2=\"116.0\" y2=\"100.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"98.6\" y1=\"70.0\" x2=\"98.6\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"98.6\" y1=\"70.0\" x2=\"116.0\" y2=\"60.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"116.0\" y1=\"60.0\" x2=\"133.3\" y2=\"70.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"133.3\" y1=\"70.0\" x2=\"133.3\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"150.6\" y1=\"100.0\" x2=\"167.9\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"133.3\" y1=\"90.0\" x2=\"150.6\" y2=\"100.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"133.3\" y1=\"70.0\" x2=\"150.6\" y2=\"60.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"150.6\" y1=\"60.0\" x2=\"167.9\" y2=\"70.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"167.9\" y1=\"70.0\" x2=\"167.9\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"133.3\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 2</text><line x1=\"225.2\" y1=\"100.0\" x2=\"242.6\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"207.9\" y1=\"90.0\" x2=\"225.2\" y2=\"100.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"207.9\" y1=\"70.0\" x2=\"207.9\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"207.9\" y1=\"70.0\" x2=\"225.2\" y2=\"60.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"225.2\" y1=\"60.0\" x2=\"242.6\" y2=\"70.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"242.6\" y1=\"70.0\" x2=\"242.6\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"259.9\" y1=\"100.0\" x2=\"277.2\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"242.6\" y1=\"90.0\" x2=\"259.9\" y2=\"100.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"242.6\" y1=\"70.0\" x2=\"259.9\" y2=\"60.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"259.9\" y1=\"60.0\" x2=\"277.2\" y2=\"70.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"277.2\" y1=\"70.0\" x2=\"277.2\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"294.5\" y1=\"100.0\" x2=\"311.8\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"277.2\" y1=\"90.0\" x2=\"294.5\" y2=\"100.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"277.2\" y1=\"70.0\" x2=\"294.5\" y2=\"60.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"294.5\" y1=\"60.0\" x2=\"311.8\" y2=\"70.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"311.8\" y1=\"70.0\" x2=\"311.8\" y2=\"90.0\" stroke=\"#d9622b\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"259.9\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">Figur 3</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Varje ny sexhörning kräver 5 nya stickor, så \\(n\\) sexhörningar kräver \\(6+5(n-1)=5n+1\\) stickor.</p><p>\\(5n+1\\le100\\) ger \\(n\\le19{,}8\\). Det blir 19 sexhörningar, som kräver 96 stickor.</p></div>",
+  "familj": "Figurmönster i bilder",
+  "formaga": [
+    "problemlösning",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv ett uttryck för antalet stickor. Antalet sexhörningar måste vara ett heltal.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 19,
+  "tolerans": 0,
+  "svarFormat": "heltal"
 }
 ];

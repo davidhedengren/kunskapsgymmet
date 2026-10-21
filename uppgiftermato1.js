@@ -24129,7 +24129,7 @@ window.BANKMATO1 = [
   {
     "id": "2.278",
     "kap": 3,
-    "omr": "deriverbarhet",
+    "omr": "extrempunkter",
     "kurs": [
       "1b",
       "1c"
@@ -24138,7 +24138,7 @@ window.BANKMATO1 = [
     "poang": "0/2/0",
     "t": "<p>För en deriverbar funktion gäller \\(f^{\\prime}(x)>0\\) för alla \\(x\\neq2\\), medan \\(f^{\\prime}(2)=0\\).</p><p>Kan funktionen ha en maximi- eller minimipunkt vid \\(x=2\\)? Förklara.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nej.</p></li><li><p>Derivatan är positiv på båda sidor om \\(x=2\\), så funktionen är växande både före och efter punkten.</p></li><li><p>Det sker inget teckenbyte i derivatan, alltså är punkten inte ett maximum eller minimum.</p></li><li><p>Den kan däremot vara en terrasspunkt.</p></li></ol></div>",
-    "familj": "Deriverbarhet",
+    "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "resonemang",
@@ -24154,10 +24154,12 @@ window.BANKMATO1 = [
     "arbetsinsats": 2,
     "spel": false,
     "omrTidigare": [
-      "funktion_derivata_grafer"
+      "funktion_derivata_grafer",
+      "deriverbarhet"
     ],
     "familjTidigare": [
-      "Punkt där derivatan är noll utan extremum"
+      "Punkt där derivatan är noll utan extremum",
+      "Deriverbarhet"
     ]
   },
   {
@@ -53795,7 +53797,7 @@ window.BANKMATO1 = [
   {
     "id": "3.633",
     "kap": 3,
-    "omr": "deriverbarhet",
+    "omr": "extrempunkter",
     "kurs": [
       "1b",
       "1c"
@@ -53804,7 +53806,7 @@ window.BANKMATO1 = [
     "poang": "1/0/0",
     "t": "<p>För en deriverbar funktion gäller \\[f^{\\prime}(x)=(x-1)(x-3).\\]</p><p>Vid vilket x-värde har f en lokal maximipunkt?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll vid \\(x=1\\) och \\(x=3\\).</p></li><li><p>För \\(x\\lt1\\) är \\(f'(x)\\gt0\\), för \\(1\\lt x\\lt3\\) är \\(f'(x)\\lt0\\), och för \\(x\\gt3\\) är \\(f'(x)\\gt0\\).</p></li><li><p>Vid \\(x=1\\) går funktionen alltså från växande till avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\).</p></div>",
-    "familj": "Deriverbarhet",
+    "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -53821,16 +53823,18 @@ window.BANKMATO1 = [
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": [
-      "grafanalys_derivata"
+      "grafanalys_derivata",
+      "deriverbarhet"
     ],
     "familjTidigare": [
-      "Bestämma extrempunkter med derivata"
+      "Bestämma extrempunkter med derivata",
+      "Deriverbarhet"
     ]
   },
   {
     "id": "3.634",
     "kap": 3,
-    "omr": "deriverbarhet",
+    "omr": "extrempunkter",
     "kurs": [
       "1b",
       "1c"
@@ -53839,7 +53843,7 @@ window.BANKMATO1 = [
     "poang": "1/0/0",
     "t": "<p>För en deriverbar funktion gäller \\[f^{\\prime}(x)=-(x+2)(x-1).\\]</p><p>Vid vilket x-värde har f en lokal minimipunkt?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll vid \\(x=-2\\) och \\(x=1\\).</p></li><li><p>Vid \\(x=-2\\) byter \\(f'\\) tecken från negativt till positivt, så där går funktionen från avtagande till växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\).</p></div>",
-    "familj": "Deriverbarhet",
+    "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -53856,16 +53860,18 @@ window.BANKMATO1 = [
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": [
-      "grafanalys_derivata"
+      "grafanalys_derivata",
+      "deriverbarhet"
     ],
     "familjTidigare": [
-      "Bestämma extrempunkter med derivata"
+      "Bestämma extrempunkter med derivata",
+      "Deriverbarhet"
     ]
   },
   {
     "id": "3.635",
     "kap": 3,
-    "omr": "deriverbarhet",
+    "omr": "extrempunkter",
     "kurs": [
       "1b",
       "1c"
@@ -53874,7 +53880,7 @@ window.BANKMATO1 = [
     "poang": "1/0/0",
     "t": "<p>För en deriverbar funktion gäller</p><p>\\[f'(x)=x(x-4).\\]</p><p>Hur många lokala extrempunkter har \\(f\\)?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll vid \\(x=0\\) och \\(x=4\\).</p></li><li><p>Tecknet är positivt före 0, negativt mellan 0 och 4 och positivt efter 4.</p></li><li><p>Derivatan byter alltså tecken vid båda nollställena.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\) lokala extrempunkter.</p></div>",
-    "familj": "Deriverbarhet",
+    "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -53891,16 +53897,18 @@ window.BANKMATO1 = [
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": [
-      "grafanalys_derivata"
+      "grafanalys_derivata",
+      "deriverbarhet"
     ],
     "familjTidigare": [
-      "Antal extrempunkter från derivatans tecken"
+      "Antal extrempunkter från derivatans tecken",
+      "Deriverbarhet"
     ]
   },
   {
     "id": "3.636",
     "kap": 3,
-    "omr": "deriverbarhet",
+    "omr": "derivatan_och_grafen",
     "kurs": [
       "1b",
       "1c"
@@ -53909,7 +53917,7 @@ window.BANKMATO1 = [
     "poang": "1/0/0",
     "t": "<p>För en deriverbar funktion gäller</p><p>\\[f'(x)=-(x+1)(x-2).\\]</p><p>Var är \\(f\\) växande?</p><p>A. \\(-1\\lt x\\lt2\\)<br>B. \\(x\\lt-1\\)<br>C. \\(x\\gt2\\)<br>D. \\(x\\lt-1\\) eller \\(x\\gt2\\)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mellan nollställena \\(-1\\) och \\(2\\) är \\((x+1)(x-2)\\) negativ.</p></li><li><p>Minustecknet framför gör därför \\(f'(x)\\) positiv där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A, \\(-1\\lt x\\lt2\\).</p></div>",
-    "familj": "Deriverbarhet",
+    "familj": "Växande och avtagande",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
@@ -53924,16 +53932,18 @@ window.BANKMATO1 = [
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": [
-      "grafanalys_derivata"
+      "grafanalys_derivata",
+      "deriverbarhet"
     ],
     "familjTidigare": [
-      "Bestämma växande och avtagande med derivata"
+      "Bestämma växande och avtagande med derivata",
+      "Deriverbarhet"
     ]
   },
   {
     "id": "3.637",
     "kap": 3,
-    "omr": "deriverbarhet",
+    "omr": "extrempunkter",
     "kurs": [
       "1b",
       "1c"
@@ -53942,7 +53952,7 @@ window.BANKMATO1 = [
     "poang": "0/2/0",
     "t": "<p>För en deriverbar funktion gäller \\[f^{\\prime}(x)=3(x-2)^2.\\]</p><p>Hur många extrempunkter ger derivatans enda nollställe?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(3(x-2)^2\\ge0\\) är derivatan positiv på båda sidor om \\(x=2\\) och noll bara i själva punkten.</p></li><li><p>Något teckenbyte sker alltså inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0\\) extrempunkter.</p></div>",
-    "familj": "Deriverbarhet",
+    "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -53959,16 +53969,18 @@ window.BANKMATO1 = [
     "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": [
-      "grafanalys_derivata"
+      "grafanalys_derivata",
+      "deriverbarhet"
     ],
     "familjTidigare": [
-      "Terrasspunkter och teckenbyten i derivatan"
+      "Terrasspunkter och teckenbyten i derivatan",
+      "Deriverbarhet"
     ]
   },
   {
     "id": "3.638",
     "kap": 3,
-    "omr": "deriverbarhet",
+    "omr": "extrempunkter",
     "kurs": [
       "1b",
       "1c"
@@ -53977,7 +53989,7 @@ window.BANKMATO1 = [
     "poang": "0/2/0",
     "t": "<p>För en deriverbar funktion gäller</p><p>\\[f'(x)=-(x+1)^2.\\]</p><p>Vad kan du säga om punkten där \\(x=-1\\)?</p><p>A. En lokal maximipunkt, eftersom \\(f'\\) byter från positivt till negativt.<br>B. En lokal minimipunkt, eftersom \\(f'\\) byter från negativt till positivt.<br>C. En horisontell tangent utan extrempunkt, eftersom \\(f'\\) inte byter tecken.<br>D. En punkt där funktionen inte är deriverbar, eftersom \\(f'\\) blir noll.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ på båda sidor om \\(x=-1\\) och noll i själva punkten.</p></li><li><p>Funktionen är alltså avtagande både före och efter punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
-    "familj": "Deriverbarhet",
+    "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "val",
@@ -53993,16 +54005,18 @@ window.BANKMATO1 = [
     "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": [
-      "grafanalys_derivata"
+      "grafanalys_derivata",
+      "deriverbarhet"
     ],
     "familjTidigare": [
-      "Terrasspunkter och teckenbyten i derivatan"
+      "Terrasspunkter och teckenbyten i derivatan",
+      "Deriverbarhet"
     ]
   },
   {
     "id": "3.639",
     "kap": 3,
-    "omr": "deriverbarhet",
+    "omr": "extrempunkter",
     "kurs": [
       "1b",
       "1c"
@@ -54011,7 +54025,7 @@ window.BANKMATO1 = [
     "poang": "0/2/0",
     "t": "<p>För en deriverbar funktion gäller \\[f^{\\prime}(x)=(x+3)(x-1)(x-4).\\]</p><p>Hur många lokala minimipunkter har f?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatans nollställen är \\(-3\\),</p></li><li><p>\\(1\\) och \\(4\\).</p></li><li><p>Eftersom alla tre är enkla nollställen växlar derivatans tecken:</p></li><li><p>\\[-,\\ +,\\ -,\\ +.\\]</p></li><li><p>Lokala minimipunkter fås där tecknet går från minus till plus, alltså vid \\(x=-3\\) och \\(x=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\) lokala minimipunkter.</p></div>",
-    "familj": "Deriverbarhet",
+    "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -54028,16 +54042,18 @@ window.BANKMATO1 = [
     "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": [
-      "grafanalys_derivata"
+      "grafanalys_derivata",
+      "deriverbarhet"
     ],
     "familjTidigare": [
-      "Terrasspunkter och teckenbyten i derivatan"
+      "Terrasspunkter och teckenbyten i derivatan",
+      "Deriverbarhet"
     ]
   },
   {
     "id": "3.640",
     "kap": 3,
-    "omr": "deriverbarhet",
+    "omr": "extrempunkter",
     "kurs": [
       "1b",
       "1c"
@@ -54046,7 +54062,7 @@ window.BANKMATO1 = [
     "poang": "0/2/0",
     "t": "<p>För en deriverbar funktion gäller \\[f^{\\prime}(x)=-(x+2)(x-2)(x-5).\\]</p><p>Vid vilket x-värde har f sin lokala minimipunkt?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Nollställena till derivatan är</p><div class=\"facit-matte\">\\[x=-2\\],</div></div></li><li><p>\\(x=2\\) och \\(x=5\\).</p></li><li><p>Teckenföljden för \\(f'\\) blir</p></li><li><p>\\[+,\\ -,\\ +,\\ -.\\]</p></li><li><p>Vid \\(x=2\\) går derivatan från negativ till positiv, vilket ger en lokal minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\).</p></div>",
-    "familj": "Deriverbarhet",
+    "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -54063,10 +54079,12 @@ window.BANKMATO1 = [
     "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": [
-      "grafanalys_derivata"
+      "grafanalys_derivata",
+      "deriverbarhet"
     ],
     "familjTidigare": [
-      "Terrasspunkter och teckenbyten i derivatan"
+      "Terrasspunkter och teckenbyten i derivatan",
+      "Deriverbarhet"
     ]
   },
   {
@@ -75337,7 +75355,7 @@ window.BANKMATO1 = [
   {
     "id": "2.638",
     "kap": 3,
-    "omr": "deriverbarhet",
+    "omr": "andraderivatan",
     "kurs": [
       "1b",
       "1c"
@@ -75346,7 +75364,7 @@ window.BANKMATO1 = [
     "poang": "2/0/0",
     "t": "<p>För en två gånger deriverbar funktion gäller \\(f'(2)=0\\) och \\(f^{\\prime\\prime}(2)=6\\). Avgör om \\(x=2\\) ger en lokal maxpunkt eller minpunkt och motivera.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(f'(2)=0\\) är \\(x=2\\) en kandidat till extrempunkt.</p></li><li><p>Dessutom är \\(f^{\\prime\\prime}(2)=6&gt;0\\), vilket betyder att grafen är uppåtböjd där.</p></li><li><p>Alltså är punkten en lokal minpunkt.</p></li></ol></div>",
-    "familj": "Deriverbarhet",
+    "familj": "Andraderivatan och funktionens graf",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "resonemang",
@@ -75363,16 +75381,18 @@ window.BANKMATO1 = [
     "spel": false,
     "svarFormat": null,
     "omrTidigare": [
-      "funktion_derivata_grafer"
+      "funktion_derivata_grafer",
+      "deriverbarhet"
     ],
     "familjTidigare": [
-      "Grafanalys med första och andra derivatan"
+      "Grafanalys med första och andra derivatan",
+      "Deriverbarhet"
     ]
   },
   {
     "id": "2.639",
     "kap": 3,
-    "omr": "deriverbarhet",
+    "omr": "andraderivatan",
     "kurs": [
       "1b",
       "1c"
@@ -75381,7 +75401,7 @@ window.BANKMATO1 = [
     "poang": "2/0/0",
     "t": "<p>För en två gånger deriverbar funktion gäller \\(f'(-1)=0\\) och \\(f^{\\prime\\prime}(-1)=-4\\). Avgör om \\(x=-1\\) ger en lokal maxpunkt eller minpunkt och motivera.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(f'(-1)=0\\) är punkten en kandidat till extrempunkt.</p></li><li><p>Andraderivatan är negativ, så grafen är nedåtböjd där.</p></li><li><p>Alltså är punkten en lokal maxpunkt.</p></li></ol></div>",
-    "familj": "Deriverbarhet",
+    "familj": "Andraderivatan och funktionens graf",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "resonemang",
@@ -75398,10 +75418,12 @@ window.BANKMATO1 = [
     "spel": false,
     "svarFormat": null,
     "omrTidigare": [
-      "funktion_derivata_grafer"
+      "funktion_derivata_grafer",
+      "deriverbarhet"
     ],
     "familjTidigare": [
-      "Grafanalys med första och andra derivatan"
+      "Grafanalys med första och andra derivatan",
+      "Deriverbarhet"
     ]
   },
   {
@@ -76538,7 +76560,7 @@ window.BANKMATO1 = [
   {
     "id": "2.673",
     "kap": 3,
-    "omr": "deriverbarhet",
+    "omr": "extrempunkter",
     "kurs": [
       "1b",
       "1c"
@@ -76547,7 +76569,7 @@ window.BANKMATO1 = [
     "poang": "1/0/0",
     "t": "<p>Funktionen \\(f\\) är deriverbar i en omgivning av \\(x=3\\) och har en lokal extrempunkt vid \\(x=3\\). Bestäm \\(f'(3)\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en inre lokal extrempunkt för en deriverbar funktion är tangentens lutning 0.</p></li><li><div class=\"facit-berakning\"><p>Därför är</p><div class=\"facit-matte\">\\[f'(3)=0\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
-    "familj": "Deriverbarhet",
+    "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "numeriskt",
@@ -76563,10 +76585,12 @@ window.BANKMATO1 = [
     "spel": true,
     "svarFormat": "numeriskt",
     "omrTidigare": [
-      "funktion_derivata_grafer"
+      "funktion_derivata_grafer",
+      "deriverbarhet"
     ],
     "familjTidigare": [
-      "Derivatans tecken och extrempunkter"
+      "Derivatans tecken och extrempunkter",
+      "Deriverbarhet"
     ]
   },
   {
@@ -76710,7 +76734,7 @@ window.BANKMATO1 = [
   {
     "id": "2.678",
     "kap": 3,
-    "omr": "deriverbarhet",
+    "omr": "derivatan_och_grafen",
     "kurs": [
       "1b",
       "1c"
@@ -76719,7 +76743,7 @@ window.BANKMATO1 = [
     "poang": "2/0/0",
     "t": "<p>För en deriverbar funktion gäller \\(f'(x)&lt;0\\) när \\(-2&lt;x&lt;3\\). Förklara vad detta innebär för funktionen på detta område. Hur stämmer det med att \\(x=-2\\) är en lokal maxpunkt och \\(x=3\\) en lokal minpunkt?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(f'(x)&lt;0\\) för \\(-2&lt;x&lt;3\\) är funktionen avtagande mellan de två punkterna.</p></li><li><p>Det stämmer med att grafen lämnar en lokal maxpunkt vid \\(x=-2\\) och fortsätter nedåt mot en lokal minpunkt vid \\(x=3\\).</p></li></ol></div>",
-    "familj": "Deriverbarhet",
+    "familj": "Växande och avtagande",
     "geogebra": false,
     "miniräknare": true,
     "svarstyp": "resonemang",
@@ -76736,10 +76760,12 @@ window.BANKMATO1 = [
     "spel": false,
     "svarFormat": null,
     "omrTidigare": [
-      "funktion_derivata_grafer"
+      "funktion_derivata_grafer",
+      "deriverbarhet"
     ],
     "familjTidigare": [
-      "Derivatans tecken och monotoni"
+      "Derivatans tecken och monotoni",
+      "Deriverbarhet"
     ]
   },
   {

@@ -49,6 +49,7 @@ window.OMR = {
   "coulomb": "Coulombs lag och ledare",
   "strom": "Kretsar och ström",
   "kretsar": "Spänning och resistans",
+  "multimeter": "Mäta med multimeter",
   "seriekoppling": "Seriekoppling",
   "parallellkoppling": "Parallellkoppling",
   "kopplingar": "Komplexa kopplingar och effektutveckling",

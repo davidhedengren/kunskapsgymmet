@@ -8938,6 +8938,22 @@ function tranarKommentar(t,fore,efter,ggForslag){
   // Har tränaren nyss berättat om ett klart uppdrag får nivåkommentaren vänta tills det är läst.
   if(text) setTimeout(()=>tranarenSager(text,{html:true}), Date.now()-(state.uppdragPratAt||0)<3000 ? 7500 : 1300);
 }
+/* Nådd nivå (användarbeslut 2026-10-22): har eleven klarat NADD_RATT uppgifter
+   utan ledtråd på en nivå i området är nivån nådd. Den håller då även om eleven
+   svarar fel någon gång, och passet läggs tyngst på den högsta nådda nivån. Bara
+   upprepade fel på samma nivå (se kamparPa) flyttar ner eleven en tid. */
+const NADD_RATT=2, NADD_GATE=.8;
+const NIVA_TYNGD={"-1":1.4,"0":2.2,"1":1.2,"2":.7,"3":.45,"4":.3};
+function naddNiva(area,L){
+  const cp=ensureCourseProfile();
+  const st=cp.levels?.[area]?.[L];
+  if(st && (st.n||0)>=8 && st.s>=.6) return true;
+  let n=0;
+  for(const h of cp.history||[]){
+    if(h && h.ok && !h.hint && h.area===area && nivaForId(h.id)===L && ++n>=NADD_RATT) return true;
+  }
+  return false;
+}
 function levelWeights(area,finns={}){
   const m=Object.fromEntries(NIVAER.map(L=>[L,behärskar(scopeLevel(L,area))]));
   const w={};
@@ -8948,13 +8964,23 @@ function levelWeights(area,finns={}){
     if(kamparUnder) oppen[L]=false;
     else if(kamparPa(area,L)) kamparUnder=L;
   });
+  const nadd=Object.fromEntries(NIVAER.map(L=>[L,!!(finns[L] && oppen[L] && naddNiva(area,L))]));
+  let topp=null;
+  NIVAER.forEach(L=>{ if(nadd[L]) topp=L; });
+  if(kamparUnder && topp && topp>kamparUnder) topp=kamparUnder;
   NIVAER.forEach((L,i)=>{
     const lagre=NIVAER.slice(0,i).filter(K=>finns[K]);
     const redo=lagre.length ? Math.min(...lagre.map(K=>m[K])) : 1;
     // En liten läcka uppåt ger variation, men högre nivåer växer först när
     // de lägre nivåer som faktiskt finns i området börjar sitta.
-    const gate=i===0 ? 1 : !oppen[L] ? 0 : Math.max(.04,redo);
+    // En nådd nivå behåller sin plats även om en lägre nivå fått ett fel.
+    let gate=i===0 ? 1 : !oppen[L] ? 0 : Math.max(.04,redo);
+    if(gate && nadd[L]) gate=Math.max(gate,NADD_GATE);
     w[L]=gate*(1-.65*m[L]);
+  });
+  if(topp) NIVAER.forEach(L=>{
+    const d=Number(topp)-Number(L);
+    w[L]*=d<-1 ? 1 : NIVA_TYNGD[String(Math.min(4,d))];
   });
   if(kamparUnder) w[kamparUnder]*=KAMPAR_VIKT;
 

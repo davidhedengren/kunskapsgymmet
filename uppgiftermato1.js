@@ -106260,5 +106260,224 @@ window.BANKMATO1 = [
     "1b",
     "1c"
   ]
+},
+{
+  "id": "3.1195",
+  "kap": 3,
+  "omr": "primitiva_villkor",
+  "niva": "E",
+  "typ": "välja primitiv graf från ett startvärde",
+  "poang": "1/0/0",
+  "t": "<p>De tre kurvorna är primitiva funktioner till \\(f(x)=2x\\). Vilken kurva uppfyller \\(F(0)=2\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Tre parabler: A skär y-axeln vid −2, B vid 2 och C vid 0.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-villkor1195\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M121.667 42L121.667 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"121.667\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M368.333 42L368.333 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"368.333\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M60 250.25L430 250.25\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"255.25\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-2</text><path d=\"M60 190.75L430 190.75\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"195.75\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 131.25L430 131.25\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"136.25\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 71.75L430 71.75\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"76.75\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 190.75L430 190.75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">F(x)</text><path d=\"M60.0 183.312 L62.313 184.975 L64.625 186.618 L66.937 188.239 L69.25 189.839 L71.562 191.418 L73.875 192.977 L76.188 194.514 L78.5 196.031 L80.812 197.526 L83.125 199.001 L85.438 200.455 L87.75 201.888 L90.062 203.3 L92.375 204.691 L94.688 206.061 L97.0 207.41 L99.312 208.738 L101.625 210.046 L103.938 211.332 L106.25 212.598 L108.562 213.842 L110.875 215.066 L113.188 216.269 L115.5 217.451 L117.812 218.612 L120.125 219.752 L122.438 220.871 L124.75 221.969 L127.062 223.046 L129.375 224.103 L131.688 225.138 L134.0 226.153 L136.312 227.146 L138.625 228.119 L140.938 229.071 L143.25 230.001 L145.562 230.911 L147.875 231.8 L150.188 232.668 L152.5 233.516 L154.812 234.342 L157.125 235.147 L159.438 235.932 L161.75 236.695 L164.062 237.438 L166.375 238.159 L168.688 238.86 L171.0 239.54 L173.312 240.199 L175.625 240.837 L177.938 241.454 L180.25 242.05 L182.562 242.625 L184.875 243.18 L187.188 243.713 L189.5 244.226 L191.813 244.717 L194.125 245.188 L196.438 245.638 L198.75 246.066 L201.062 246.474 L203.375 246.861 L205.687 247.227 L208.0 247.572 L210.312 247.897 L212.625 248.2 L214.938 248.482 L217.25 248.744 L219.562 248.984 L221.875 249.204 L224.188 249.403 L226.5 249.581 L228.812 249.738 L231.125 249.873 L233.438 249.989 L235.75 250.083 L238.062 250.156 L240.375 250.208 L242.688 250.24 L245.0 250.25 L247.312 250.24 L249.625 250.208 L251.938 250.156 L254.25 250.083 L256.562 249.989 L258.875 249.873 L261.188 249.738 L263.5 249.581 L265.812 249.403 L268.125 249.204 L270.438 248.984 L272.75 248.744 L275.062 248.482 L277.375 248.2 L279.688 247.897 L282.0 247.572 L284.312 247.227 L286.625 246.861 L288.938 246.474 L291.25 246.066 L293.562 245.638 L295.875 245.188 L298.188 244.717 L300.5 244.226 L302.812 243.713 L305.125 243.18 L307.438 242.625 L309.75 242.05 L312.062 241.454 L314.375 240.837 L316.687 240.199 L319.0 239.54 L321.312 238.86 L323.625 238.159 L325.938 237.438 L328.25 236.695 L330.562 235.932 L332.875 235.147 L335.188 234.342 L337.5 233.516 L339.812 232.668 L342.125 231.8 L344.438 230.911 L346.75 230.001 L349.062 229.071 L351.375 228.119 L353.688 227.146 L356.0 226.153 L358.313 225.138 L360.625 224.103 L362.937 223.046 L365.25 221.969 L367.562 220.871 L369.875 219.752 L372.188 218.612 L374.5 217.451 L376.812 216.269 L379.125 215.066 L381.438 213.842 L383.75 212.598 L386.062 211.332 L388.375 210.046 L390.688 208.738 L393.0 207.41 L395.312 206.061 L397.625 204.691 L399.938 203.3 L402.25 201.888 L404.562 200.455 L406.875 199.001 L409.188 197.526 L411.5 196.031 L413.812 194.514 L416.125 192.977 L418.438 191.418 L420.75 189.839 L423.062 188.239 L425.375 186.618 L427.688 184.975 L430.0 183.312\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-villkor1195)\"/><path d=\"M430 183.312L439 183.312\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><text x=\"451\" y=\"189.312\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#2b67a2\">A</text><path d=\"M60.0 64.312 L62.313 65.975 L64.625 67.618 L66.937 69.239 L69.25 70.839 L71.562 72.418 L73.875 73.977 L76.188 75.514 L78.5 77.031 L80.812 78.526 L83.125 80.001 L85.438 81.455 L87.75 82.888 L90.062 84.3 L92.375 85.691 L94.688 87.061 L97.0 88.41 L99.312 89.738 L101.625 91.046 L103.938 92.332 L106.25 93.598 L108.562 94.842 L110.875 96.066 L113.188 97.269 L115.5 98.451 L117.812 99.612 L120.125 100.752 L122.438 101.871 L124.75 102.969 L127.062 104.046 L129.375 105.103 L131.688 106.138 L134.0 107.152 L136.312 108.146 L138.625 109.119 L140.938 110.071 L143.25 111.001 L145.562 111.911 L147.875 112.8 L150.188 113.668 L152.5 114.516 L154.812 115.342 L157.125 116.147 L159.438 116.932 L161.75 117.695 L164.062 118.438 L166.375 119.159 L168.688 119.86 L171.0 120.54 L173.312 121.199 L175.625 121.837 L177.938 122.454 L180.25 123.05 L182.562 123.625 L184.875 124.18 L187.188 124.713 L189.5 125.226 L191.813 125.717 L194.125 126.188 L196.438 126.638 L198.75 127.066 L201.062 127.474 L203.375 127.861 L205.687 128.227 L208.0 128.572 L210.312 128.897 L212.625 129.2 L214.938 129.482 L217.25 129.744 L219.562 129.984 L221.875 130.204 L224.188 130.403 L226.5 130.581 L228.812 130.738 L231.125 130.873 L233.438 130.989 L235.75 131.083 L238.062 131.156 L240.375 131.208 L242.688 131.24 L245.0 131.25 L247.312 131.24 L249.625 131.208 L251.938 131.156 L254.25 131.083 L256.562 130.989 L258.875 130.873 L261.188 130.738 L263.5 130.581 L265.812 130.403 L268.125 130.204 L270.438 129.984 L272.75 129.744 L275.062 129.482 L277.375 129.2 L279.688 128.897 L282.0 128.572 L284.312 128.227 L286.625 127.861 L288.938 127.474 L291.25 127.066 L293.562 126.638 L295.875 126.188 L298.188 125.717 L300.5 125.226 L302.812 124.713 L305.125 124.18 L307.438 123.625 L309.75 123.05 L312.062 122.454 L314.375 121.837 L316.687 121.199 L319.0 120.54 L321.312 119.86 L323.625 119.159 L325.938 118.438 L328.25 117.695 L330.562 116.932 L332.875 116.147 L335.188 115.342 L337.5 114.516 L339.812 113.668 L342.125 112.8 L344.438 111.911 L346.75 111.001 L349.062 110.071 L351.375 109.119 L353.688 108.146 L356.0 107.153 L358.313 106.138 L360.625 105.103 L362.937 104.046 L365.25 102.969 L367.562 101.871 L369.875 100.752 L372.188 99.612 L374.5 98.451 L376.812 97.269 L379.125 96.066 L381.438 94.842 L383.75 93.598 L386.062 92.332 L388.375 91.046 L390.688 89.738 L393.0 88.41 L395.312 87.061 L397.625 85.691 L399.938 84.3 L402.25 82.888 L404.562 81.455 L406.875 80.001 L409.188 78.526 L411.5 77.031 L413.812 75.514 L416.125 73.977 L418.438 72.418 L420.75 70.839 L423.062 69.239 L425.375 67.618 L427.688 65.975 L430.0 64.312\" stroke=\"#087f8c\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-villkor1195)\"/><path d=\"M430 64.312L439 64.312\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"1.5\"/><text x=\"451\" y=\"70.312\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#087f8c\">B</text><path d=\"M60.0 123.812 L62.313 125.475 L64.625 127.118 L66.937 128.739 L69.25 130.339 L71.562 131.918 L73.875 133.477 L76.188 135.014 L78.5 136.531 L80.812 138.026 L83.125 139.501 L85.438 140.955 L87.75 142.388 L90.062 143.8 L92.375 145.191 L94.688 146.561 L97.0 147.91 L99.312 149.238 L101.625 150.546 L103.938 151.832 L106.25 153.098 L108.562 154.342 L110.875 155.566 L113.188 156.769 L115.5 157.951 L117.812 159.112 L120.125 160.252 L122.438 161.371 L124.75 162.469 L127.062 163.546 L129.375 164.603 L131.688 165.638 L134.0 166.653 L136.312 167.646 L138.625 168.619 L140.938 169.571 L143.25 170.501 L145.562 171.411 L147.875 172.3 L150.188 173.168 L152.5 174.016 L154.812 174.842 L157.125 175.647 L159.438 176.432 L161.75 177.195 L164.062 177.938 L166.375 178.659 L168.688 179.36 L171.0 180.04 L173.312 180.699 L175.625 181.337 L177.938 181.954 L180.25 182.55 L182.562 183.125 L184.875 183.68 L187.188 184.213 L189.5 184.726 L191.813 185.217 L194.125 185.688 L196.438 186.138 L198.75 186.566 L201.062 186.974 L203.375 187.361 L205.687 187.727 L208.0 188.072 L210.312 188.397 L212.625 188.7 L214.938 188.982 L217.25 189.244 L219.562 189.484 L221.875 189.704 L224.188 189.903 L226.5 190.081 L228.812 190.238 L231.125 190.373 L233.438 190.489 L235.75 190.583 L238.062 190.656 L240.375 190.708 L242.688 190.74 L245.0 190.75 L247.312 190.74 L249.625 190.708 L251.938 190.656 L254.25 190.583 L256.562 190.489 L258.875 190.373 L261.188 190.238 L263.5 190.081 L265.812 189.903 L268.125 189.704 L270.438 189.484 L272.75 189.244 L275.062 188.982 L277.375 188.7 L279.688 188.397 L282.0 188.072 L284.312 187.727 L286.625 187.361 L288.938 186.974 L291.25 186.566 L293.562 186.138 L295.875 185.688 L298.188 185.217 L300.5 184.726 L302.812 184.213 L305.125 183.68 L307.438 183.125 L309.75 182.55 L312.062 181.954 L314.375 181.337 L316.687 180.699 L319.0 180.04 L321.312 179.36 L323.625 178.659 L325.938 177.938 L328.25 177.195 L330.562 176.432 L332.875 175.647 L335.188 174.842 L337.5 174.016 L339.812 173.168 L342.125 172.3 L344.438 171.411 L346.75 170.501 L349.062 169.571 L351.375 168.619 L353.688 167.646 L356.0 166.653 L358.313 165.638 L360.625 164.603 L362.937 163.546 L365.25 162.469 L367.562 161.371 L369.875 160.252 L372.188 159.112 L374.5 157.951 L376.812 156.769 L379.125 155.566 L381.438 154.342 L383.75 153.098 L386.062 151.832 L388.375 150.546 L390.688 149.238 L393.0 147.91 L395.312 146.561 L397.625 145.191 L399.938 143.8 L402.25 142.388 L404.562 140.955 L406.875 139.501 L409.188 138.026 L411.5 136.531 L413.812 135.014 L416.125 133.477 L418.438 131.918 L420.75 130.339 L423.062 128.739 L425.375 127.118 L427.688 125.475 L430.0 123.812\" stroke=\"#b74738\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-villkor1195)\"/><path d=\"M430 123.812L439 123.812\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"1.5\"/><text x=\"451\" y=\"129.812\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#b74738\">C</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Villkoret anger värdet på F när x=0, alltså var grafen skär den lodräta axeln. Kurva B skär axeln vid 2.</p><p class=\"facit-svar\"><strong>Svar:</strong> Kurva B.</p></div>",
+  "familj": "Primitiv funktion genom en given punkt",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs av kurvorna där x=0.</p>",
+  "alternativ": [
+    {
+      "txt": "Kurva A.",
+      "ratt": false,
+      "kommentar": "A har värdet −2 när x=0."
+    },
+    {
+      "txt": "Kurva B.",
+      "ratt": true,
+      "kommentar": "B har värdet 2 när x=0."
+    },
+    {
+      "txt": "Kurva C.",
+      "ratt": false,
+      "kommentar": "C har värdet 0 när x=0."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "3.1196",
+  "kap": 3,
+  "omr": "primitiva_villkor",
+  "niva": "E",
+  "typ": "konstant derivata ger ändring från ett känt värde",
+  "poang": "1/0/0",
+  "t": "<p>Funktionen har derivatan \\(F^{\\prime}(x)=2\\) för alla \\(x\\). Dessutom är \\(F(3)=10\\). Bestäm \\(F(4)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Derivatan F′ är konstant lika med 2. Intervallet från x=3 till x=4 är markerat.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-villkor1196\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M134.0 42L134.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"134.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M208.0 42L208.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"208.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M282.0 42L282.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"282.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M356.0 42L356.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"356.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">5</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 200.667L430 200.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"205.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1</text><path d=\"M60 121.333L430 121.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"126.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">3</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">F′(x)</text><rect x=\"282.0\" y=\"121.333\" width=\"74.0\" height=\"158.667\" fill=\"#087f8c\" opacity=\"0.14\"/><path d=\"M60.0 121.333 L62.312 121.333 L64.625 121.333 L66.938 121.333 L69.25 121.333 L71.562 121.333 L73.875 121.333 L76.188 121.333 L78.5 121.333 L80.812 121.333 L83.125 121.333 L85.438 121.333 L87.75 121.333 L90.062 121.333 L92.375 121.333 L94.688 121.333 L97.0 121.333 L99.312 121.333 L101.625 121.333 L103.938 121.333 L106.25 121.333 L108.562 121.333 L110.875 121.333 L113.188 121.333 L115.5 121.333 L117.812 121.333 L120.125 121.333 L122.438 121.333 L124.75 121.333 L127.062 121.333 L129.375 121.333 L131.688 121.333 L134.0 121.333 L136.312 121.333 L138.625 121.333 L140.938 121.333 L143.25 121.333 L145.562 121.333 L147.875 121.333 L150.188 121.333 L152.5 121.333 L154.812 121.333 L157.125 121.333 L159.438 121.333 L161.75 121.333 L164.062 121.333 L166.375 121.333 L168.688 121.333 L171.0 121.333 L173.312 121.333 L175.625 121.333 L177.938 121.333 L180.25 121.333 L182.562 121.333 L184.875 121.333 L187.188 121.333 L189.5 121.333 L191.812 121.333 L194.125 121.333 L196.438 121.333 L198.75 121.333 L201.062 121.333 L203.375 121.333 L205.688 121.333 L208.0 121.333 L210.312 121.333 L212.625 121.333 L214.938 121.333 L217.25 121.333 L219.562 121.333 L221.875 121.333 L224.188 121.333 L226.5 121.333 L228.812 121.333 L231.125 121.333 L233.438 121.333 L235.75 121.333 L238.062 121.333 L240.375 121.333 L242.688 121.333 L245.0 121.333 L247.312 121.333 L249.625 121.333 L251.938 121.333 L254.25 121.333 L256.562 121.333 L258.875 121.333 L261.188 121.333 L263.5 121.333 L265.812 121.333 L268.125 121.333 L270.438 121.333 L272.75 121.333 L275.062 121.333 L277.375 121.333 L279.688 121.333 L282.0 121.333 L284.312 121.333 L286.625 121.333 L288.938 121.333 L291.25 121.333 L293.562 121.333 L295.875 121.333 L298.188 121.333 L300.5 121.333 L302.812 121.333 L305.125 121.333 L307.438 121.333 L309.75 121.333 L312.062 121.333 L314.375 121.333 L316.688 121.333 L319.0 121.333 L321.312 121.333 L323.625 121.333 L325.938 121.333 L328.25 121.333 L330.562 121.333 L332.875 121.333 L335.188 121.333 L337.5 121.333 L339.812 121.333 L342.125 121.333 L344.438 121.333 L346.75 121.333 L349.062 121.333 L351.375 121.333 L353.688 121.333 L356.0 121.333 L358.312 121.333 L360.625 121.333 L362.938 121.333 L365.25 121.333 L367.562 121.333 L369.875 121.333 L372.188 121.333 L374.5 121.333 L376.812 121.333 L379.125 121.333 L381.438 121.333 L383.75 121.333 L386.062 121.333 L388.375 121.333 L390.688 121.333 L393.0 121.333 L395.312 121.333 L397.625 121.333 L399.938 121.333 L402.25 121.333 L404.562 121.333 L406.875 121.333 L409.188 121.333 L411.5 121.333 L413.812 121.333 L416.125 121.333 L418.438 121.333 L420.75 121.333 L423.062 121.333 L425.375 121.333 L427.688 121.333 L430.0 121.333\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-villkor1196)\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Derivatan är konstant. När x ökar med 1 ökar F därför med 2.</p><div class=\"facit-matte\">\\[\\begin{aligned}F(4)&=F(3)+2\\cdot(4-3)\\\\&=10+2=12\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(4)=12\\).</p></div>",
+  "familj": "Primitiv funktion genom en given punkt",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur mycket ändras F när x ökar från 3 till 4?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "3.1197",
+  "kap": 3,
+  "omr": "primitiva_villkor",
+  "niva": "E",
+  "typ": "rätta konstanten med ett negativt punktvillkor",
+  "poang": "1/0/0",
+  "t": "<p>En primitiv funktion \\(F\\) till \\(f(x)=3x^2\\) ska gå genom punkten \\(P=(-1,4)\\). Kim föreslår \\(F(x)=x^3+3\\).</p><p>Bestäm den funktion \\(F(x)\\) som uppfyller båda villkoren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Punkten P vid x=−1 och F(x)=4. Funktionskurvan är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-villkor1197\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-2</text><path d=\"M152.5 42L152.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"152.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M337.5 42L337.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"337.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 200.667L430 200.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"205.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 121.333L430 121.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"126.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">6</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">F(x)</text><circle cx=\"152.5\" cy=\"121.333\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"132.5\" y=\"107.333\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">P</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>En primitiv funktion är x³+C. Sätt in punktens x- och y-värde. Eftersom (−1)³=−1 måste konstanten vara 5, inte 3.</p><div class=\"facit-matte\">\\[\\begin{aligned}F(-1)&=(-1)^3+C=4\\\\-1+C&=4\\quad\\Rightarrow\\quad C=5\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^3+5\\). Derivatan är 3x² och F(−1)=4.</p></div>",
+  "familj": "Primitiv funktion genom en given punkt",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "x^3+5",
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Pröva det föreslagna uttrycket i punkten P.</p>",
+  "svarFormat": "uttryck",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "3.1198",
+  "kap": 3,
+  "omr": "primitiva_villkor",
+  "niva": "C",
+  "typ": "bestämma en parameter och integrationskonstant från två punkter",
+  "poang": "0/1/0",
+  "t": "<p>För en funktion gäller \\(F^{\\prime}(x)=ax+2\\), där \\(a\\) är en konstant. Grafen till \\(F\\) går genom \\(P=(1,2)\\) och \\(Q=(3,14)\\).</p><p>Bestäm \\(F(x)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Två punkter på en okänd funktionskurva: P=(1,2) och Q=(3,14).\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-villkor1198\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M152.5 42L152.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"152.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M337.5 42L337.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"337.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 220.5L430 220.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"225.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">8</text><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"106.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">12</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">16</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">F(x)</text><circle cx=\"152.5\" cy=\"250.25\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"166.5\" y=\"262.25\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">P</text><circle cx=\"337.5\" cy=\"71.75\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"351.5\" y=\"89.75\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Q</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Integrera uttrycket med a kvar. De två punkterna ger två ekvationer. Subtrahera dem för att få bort C.</p><div class=\"facit-matte\">\\[\\begin{aligned}F(x)&=\\frac a2x^2+2x+C\\\\F(1)=2&\\Rightarrow\\frac a2+C=0\\\\F(3)=14&\\Rightarrow\\frac{9a}2+C=8\\\\4a&=8\\Rightarrow a=2\\\\1+C&=0\\Rightarrow C=-1\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^2+2x-1\\).</p></div>",
+  "familj": "Primitiv funktion genom en given punkt",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "x^2+2x-1",
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Du behöver bestämma både a och integrationskonstanten.</p>",
+  "svarFormat": "uttryck",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "3.1199",
+  "kap": 3,
+  "omr": "primitiva_villkor",
+  "niva": "C",
+  "typ": "bestämma integrationskonstant från en integral av den sökta funktionen",
+  "poang": "0/1/0",
+  "t": "<p>Funktionen \\(F\\) uppfyller</p><p>\\[\\begin{aligned}F^{\\prime}(x)&=2x\\\\\\int_0^2 F(x)\\,dx&=\\frac{14}{3}.\\end{aligned}\\]</p><p>Bestäm \\(F(x)\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Först ger derivatan F(x)=x²+C. Sätt in detta uttryck i integralen. Integralen gäller F, inte dess derivata.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\int_0^2(x^2+C)\\,dx&=\\frac{14}{3}\\\\\\left[\\frac{x^3}{3}+Cx\\right]_0^2&=\\frac{14}{3}\\\\\\frac83+2C&=\\frac{14}{3}\\\\C&=1\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=x^2+1\\).</p></div>",
+  "familj": "Återskapa funktion från derivata",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "x^2+1",
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv först F med en okänd konstant och använd sedan integralvillkoret.</p>",
+  "svarFormat": "uttryck",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "3.1200",
+  "kap": 3,
+  "omr": "primitiva_villkor",
+  "niva": "C",
+  "typ": "avgöra om ett skillnadsvillkor verkligen bestämmer konstanten",
+  "poang": "0/1/0",
+  "t": "<p>En funktion uppfyller båda sambanden i tabellen.</p><table class=\"data\" style=\"width:100%;max-width:340px;text-align:center\"><tr><th>Givet samband</th></tr><tr><td>\\(F^{\\prime}(x)=2x\\)</td></tr><tr><td>\\(F(2)-F(0)=4\\)</td></tr></table><p>Räcker detta för att bestämma värdet på \\(F(0)\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Alla primitiva funktioner har formen F(x)=x²+C. När skillnaden beräknas försvinner konstanten. Därför är det andra villkoret uppfyllt för vilket C som helst.</p><div class=\"facit-matte\">\\[F(2)-F(0)=(4+C)-C=4\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Nej. F(0)=C kan vara vilket reellt tal som helst. Ett värde på F i en bestämd punkt skulle behövas.</p></div>",
+  "familj": "Återskapa funktion från derivata",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Undersök vad som händer med konstanten C när två funktionsvärden subtraheras.</p>",
+  "alternativ": [
+    {
+      "txt": "Ja, F(0)=0 eftersom derivatan är noll vid x=0.",
+      "ratt": false,
+      "kommentar": "Derivatans värde är inte samma sak som funktionens värde."
+    },
+    {
+      "txt": "Ja, F(0)=4 eftersom skillnaden är 4.",
+      "ratt": false,
+      "kommentar": "Skillnaden säger hur mycket värdet ändras, inte vilket startvärdet är."
+    },
+    {
+      "txt": "Ja, F(0)=2 eftersom derivatans talfaktor är 2.",
+      "ratt": false,
+      "kommentar": "Talfaktorn i derivatan bestämmer inte konstanttermen i F."
+    },
+    {
+      "txt": "Nej, alla funktioner F(x)=x²+C uppfyller båda villkoren.",
+      "ratt": true,
+      "kommentar": "Konstanten C försvinner ur skillnaden F(2)−F(0)."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
 }
 ];

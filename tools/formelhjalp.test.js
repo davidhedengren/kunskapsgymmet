@@ -9,7 +9,8 @@ function kod(name){
 }
 const c=vm.createContext({});
 vm.runInContext(html.slice(html.indexOf('const FORMEL_FN='),html.indexOf(';',html.indexOf('const FORMEL_FN='))+1).replace('const ','var '),c);
-for(const n of ['formelTokens','formelLatex','formelBehovs','arLatexSvar','latexElevsvar','stadaSvar']) vm.runInContext(kod(n),c);
+for(const n of ['ENHETSBASER','ENHETSORD']){const i=html.indexOf('const '+n+'=');vm.runInContext(html.slice(i,html.indexOf('\n',i)).replace('const ','var '),c);}
+for(const n of ['formelTokens','arEnhetsord','delaEnhet','formelLatex','formelBehovs','arLatexSvar','latexElevsvar','stadaSvar']) vm.runInContext(kod(n),c);
 
 test('Elevens LaTeX översätts till samma enkla text som annars skrivs',()=>{
   const fall={

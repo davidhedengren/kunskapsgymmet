@@ -4037,7 +4037,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-22-normalfordelning-sammanhang";
+const BANK_VERSION="2026-10-22-felrapporter-1541";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10078,6 +10078,8 @@ function textSvarRatt(anv,facit){
   const alt=f.includes(" eller ")?f.split(" eller "):[f];
   const svans=alt.length>1?(alt[alt.length-1].match(/\s(\S+)$/)||[,""])[1]:"";
   const ka=textKarna(a);
+  /* Ett ensamt ord i bestämd form: "medelpunktsvinkeln" för "medelpunktsvinkel". */
+  if(/^[a-zåäö]{5,}$/.test(f) && ["n","en","et","t"].some(e=>a===f+e)) return true;
   return alt.some(x=>{
     const hel=svans && !x.endsWith(svans) ? x+" "+svans : x;
     return textKarna(x)===ka || textKarna(hel)===ka;
@@ -11629,10 +11631,30 @@ function formelTokens(src,kommaDecimal=true){
   }
   return ut;
 }
+/* En enhet efter talet ("24 kg·m/s", "3,0 m/s", "5 m/s^2") ska visas som enhet och inte
+   som variabler som multipliceras. Bara kända enheter (med prefix) räknas, så "2 x" påverkas inte. */
+const ENHETSBASER=["m","s","g","N","J","W","Wh","Pa","V","A","Ω","Hz","K","C","T","F","eV","mol","L","l","h","Bq","Sv","Gy","rad","dB"];
+const ENHETSORD=["min","år","ljusår","dygn","u","bar","atm","°C","°"];
+function arEnhetsord(w){
+  const atom=a=>ENHETSORD.includes(a) || ENHETSBASER.includes(a)
+    || (a.length>1 && "pnµμmcdkMGT".includes(a[0]) && ENHETSBASER.includes(a.slice(1)));
+  const ok=[true];
+  for(let i=1;i<=w.length;i++){ ok[i]=false; for(let j=Math.max(0,i-6);j<i;j++) if(ok[j]&&atom(w.slice(j,i))){ ok[i]=true; break; } }
+  return ok[w.length];
+}
+function delaEnhet(text){
+  const m=String(text??"").trim().match(/^(.*?[\d)π])\s+((?:[A-Za-zåäöµμΩ°]+(?:\^-?\d+)?)(?:\s*[·⋅*\/ ]\s*[A-Za-zåäöµμΩ°]+(?:\^-?\d+)?)*)$/);
+  if(!m || /[A-Za-zåäöµμΩ]/.test(m[1])) return null;
+  if(!m[2].match(/[A-Za-zåäöµμΩ°]+/g).every(arEnhetsord)) return null;
+  const latex="\\mathrm{"+m[2].replace(/\s*[·⋅*]\s*/g,"\\cdot{}").replace(/\s*\/\s*/g,"/").replace(/\^(-?\d+)/g,"^{$1}").replace(/\s+/g,"\\,")+"}";
+  return {tal:m[1],enhet:m[2],latex};
+}
 function formelLatex(text){
   const src=String(text??"").replace(/[−–]/g,"-").replace(/\s+/g," ").trim()
     .replace(/^\$+|\$+$/g,"").replace(/^\\\(|\\\)$/g,"").replace(/^\\\[|\\\]$/g,"").trim();
   if(!src) return {latex:"",ok:true};
+  const enhet=!/\\[a-zA-Z]/.test(src) && delaEnhet(src);
+  if(enhet){ const v=formelLatex(enhet.tal); return {latex:v.latex+"\\ "+enhet.latex,ok:v.ok}; }
   /* Skriver eleven LaTeX (\frac{3}{4}, x^{2}, \sqrt{2}) visas den som den är.
      Rättningen tolkar samma LaTeX via latexToPlain. */
   if(/\\[a-zA-Z]/.test(src)){
@@ -11747,7 +11769,11 @@ function formelLatex(text){
   return {latex,ok};
 }
 /* Förhandsvisningen behövs när svaret innehåller något som ser annorlunda ut i matte. */
-function formelBehovs(text){ return /[\^\/√π*·≤≥±\\()]|sqrt|pi\b|sin|cos|tan|ln|lg|log|exp/i.test(String(text||"")); }
+function formelBehovs(text){
+  const enhet=delaEnhet(text);
+  if(enhet) return formelBehovs(enhet.tal) || /\^/.test(enhet.enhet);
+  return /[\^\/√π*·≤≥±\\()]|sqrt|pi\b|sin|cos|tan|ln|lg|log|exp/i.test(String(text||""));
+}
 function uppdateraFormelvisning(i){
   const el=document.getElementById("ans-"+i), ruta=document.getElementById("fv-"+i);
   if(!el||!ruta) return;

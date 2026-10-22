@@ -100777,5 +100777,314 @@ window.BANKMATO2 = [
     "numeriskt",
     "numeriskt"
   ]
+},
+{
+  "id": "4.600",
+  "kap": 5,
+  "omr": "polynomekv_hogre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "rötter ur graf",
+  "t": "<p>Figuren visar grafen till ett tredjegradspolynom \\(p(x)\\). Lös ekvationen \\(p(x)=0\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 330\" role=\"img\" aria-label=\"Grafen till ett tredjegradspolynom som skär x-axeln i x = −2, x = 1 och x = 3.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"95.1\" y1=\"22\" x2=\"95.1\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"142.3\" y1=\"22\" x2=\"142.3\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"189.4\" y1=\"22\" x2=\"189.4\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"236.6\" y1=\"22\" x2=\"236.6\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"283.7\" y1=\"22\" x2=\"283.7\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"330.9\" y1=\"22\" x2=\"330.9\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"288.0\" x2=\"378\" y2=\"288.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"265.8\" x2=\"378\" y2=\"265.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"243.7\" x2=\"378\" y2=\"243.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"221.5\" x2=\"378\" y2=\"221.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"199.3\" x2=\"378\" y2=\"199.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"177.2\" x2=\"378\" y2=\"177.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"155.0\" x2=\"378\" y2=\"155.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"132.8\" x2=\"378\" y2=\"132.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"110.7\" x2=\"378\" y2=\"110.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"88.5\" x2=\"378\" y2=\"88.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"66.3\" x2=\"378\" y2=\"66.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"44.2\" x2=\"378\" y2=\"44.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"378\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"155.0\" x2=\"388\" y2=\"155.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,155.0 382,150.0 382,160.0\" fill=\"#172b3a\"/><line x1=\"189.4\" y1=\"288\" x2=\"189.4\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"189.4,8 184.4,18 194.4,18\" fill=\"#172b3a\"/><text x=\"390\" y=\"146.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"197.4\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"48.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"95.1\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"142.3\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"236.6\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"283.7\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"330.9\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"378.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"183.4\" y=\"292.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−6</text><text x=\"183.4\" y=\"247.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"183.4\" y=\"203.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"183.4\" y=\"114.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"183.4\" y=\"70.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"183.4\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"183.4\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k95be089f\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"266\"/></clipPath><polyline clip-path=\"url(#k95be089f)\" points=\"48.0,421.0 48.8,414.4 49.7,408.0 50.5,401.6 51.3,395.2 52.1,389.0 53.0,382.8 53.8,376.6 54.6,370.6 55.4,364.6 56.2,358.7 57.1,352.9 57.9,347.1 58.7,341.4 59.6,335.8 60.4,330.3 61.2,324.8 62.0,319.4 62.8,314.0 63.7,308.8 64.5,303.6 65.3,298.4 66.1,293.4 67.0,288.4 67.8,283.4 68.6,278.5 69.5,273.7 70.3,269.0 71.1,264.3 71.9,259.7 72.8,255.2 73.6,250.7 74.4,246.3 75.2,241.9 76.0,237.6 76.9,233.4 77.7,229.2 78.5,225.1 79.3,221.1 80.2,217.1 81.0,213.2 81.8,209.3 82.6,205.5 83.5,201.7 84.3,198.1 85.1,194.4 86.0,190.9 86.8,187.4 87.6,183.9 88.4,180.5 89.2,177.2 90.1,173.9 90.9,170.7 91.7,167.5 92.5,164.4 93.4,161.4 94.2,158.4 95.0,155.4 95.8,152.5 96.7,149.7 97.5,146.9 98.3,144.2 99.2,141.5 100.0,138.9 100.8,136.3 101.6,133.8 102.5,131.3 103.3,128.9 104.1,126.5 104.9,124.2 105.8,122.0 106.6,119.7 107.4,117.6 108.2,115.5 109.0,113.4 109.9,111.4 110.7,109.4 111.5,107.5 112.4,105.6 113.2,103.8 114.0,102.0 114.8,100.2 115.7,98.5 116.5,96.9 117.3,95.3 118.1,93.7 119.0,92.2 119.8,90.8 120.6,89.3 121.4,88.0 122.2,86.6 123.1,85.3 123.9,84.1 124.7,82.9 125.6,81.7 126.4,80.6 127.2,79.5 128.0,78.4 128.9,77.4 129.7,76.4 130.5,75.5 131.3,74.6 132.2,73.8 133.0,73.0 133.8,72.2 134.6,71.4 135.4,70.7 136.3,70.1 137.1,69.5 137.9,68.9 138.8,68.3 139.6,67.8 140.4,67.3 141.2,66.9 142.1,66.4 142.9,66.1 143.7,65.7 144.5,65.4 145.3,65.1 146.2,64.9 147.0,64.7 147.8,64.5 148.6,64.3 149.5,64.2 150.3,64.1 151.1,64.1 151.9,64.0 152.8,64.0 153.6,64.1 154.4,64.1 155.2,64.2 156.1,64.3 156.9,64.5 157.7,64.6 158.6,64.8 159.4,65.1 160.2,65.3 161.0,65.6 161.9,65.9 162.7,66.2 163.5,66.6 164.3,66.9 165.1,67.4 166.0,67.8 166.8,68.2 167.6,68.7 168.5,69.2 169.3,69.7 170.1,70.3 170.9,70.8 171.8,71.4 172.6,72.0 173.4,72.7 174.2,73.3 175.0,74.0 175.9,74.7 176.7,75.4 177.5,76.1 178.3,76.8 179.2,77.6 180.0,78.4 180.8,79.2 181.6,80.0 182.5,80.8 183.3,81.7 184.1,82.6 184.9,83.4 185.8,84.3 186.6,85.3 187.4,86.2 188.2,87.1 189.1,88.1 189.9,89.1 190.7,90.0 191.6,91.0 192.4,92.0 193.2,93.1 194.0,94.1 194.8,95.1 195.7,96.2 196.5,97.3 197.3,98.4 198.2,99.4 199.0,100.5 199.8,101.6 200.6,102.8 201.4,103.9 202.3,105.0 203.1,106.2 203.9,107.3 204.8,108.5 205.6,109.6 206.4,110.8 207.2,112.0 208.0,113.2 208.9,114.4 209.7,115.5 210.5,116.7 211.3,117.9 212.2,119.2 213.0,120.4 213.8,121.6 214.7,122.8 215.5,124.0 216.3,125.2 217.1,126.5 218.0,127.7 218.8,128.9 219.6,130.1 220.4,131.4 221.2,132.6 222.1,133.8 222.9,135.1 223.7,136.3 224.6,137.5 225.4,138.7 226.2,140.0 227.0,141.2 227.9,142.4 228.7,143.6 229.5,144.8 230.3,146.0 231.1,147.2 232.0,148.4 232.8,149.6 233.6,150.8 234.5,152.0 235.3,153.2 236.1,154.3 236.9,155.5 237.8,156.7 238.6,157.8 239.4,158.9 240.2,160.1 241.0,161.2 241.9,162.3 242.7,163.4 243.5,164.5 244.3,165.6 245.2,166.7 246.0,167.8 246.8,168.8 247.7,169.9 248.5,170.9 249.3,171.9 250.1,172.9 250.9,173.9 251.8,174.9 252.6,175.9 253.4,176.9 254.2,177.8 255.1,178.7 255.9,179.6 256.7,180.5 257.6,181.4 258.4,182.3 259.2,183.1 260.0,184.0 260.8,184.8 261.7,185.6 262.5,186.4 263.3,187.1 264.1,187.9 265.0,188.6 265.8,189.3 266.6,190.0 267.5,190.7 268.3,191.3 269.1,192.0 269.9,192.6 270.8,193.2 271.6,193.7 272.4,194.3 273.2,194.8 274.0,195.3 274.9,195.8 275.7,196.2 276.5,196.7 277.4,197.1 278.2,197.4 279.0,197.8 279.8,198.1 280.6,198.4 281.5,198.7 282.3,199.0 283.1,199.2 283.9,199.4 284.8,199.6 285.6,199.7 286.4,199.8 287.2,199.9 288.1,200.0 288.9,200.0 289.7,200.0 290.5,200.0 291.4,199.9 292.2,199.8 293.0,199.7 293.9,199.6 294.7,199.4 295.5,199.2 296.3,198.9 297.1,198.6 298.0,198.3 298.8,198.0 299.6,197.6 300.5,197.2 301.3,196.7 302.1,196.3 302.9,195.7 303.8,195.2 304.6,194.6 305.4,194.0 306.2,193.3 307.1,192.6 307.9,191.9 308.7,191.1 309.5,190.3 310.4,189.4 311.2,188.6 312.0,187.6 312.8,186.7 313.6,185.7 314.5,184.6 315.3,183.5 316.1,182.4 317.0,181.2 317.8,180.0 318.6,178.8 319.4,177.5 320.2,176.1 321.1,174.8 321.9,173.3 322.7,171.9 323.6,170.4 324.4,168.8 325.2,167.2 326.0,165.6 326.8,163.9 327.7,162.1 328.5,160.3 329.3,158.5 330.2,156.6 331.0,154.7 331.8,152.8 332.6,150.7 333.4,148.7 334.3,146.6 335.1,144.4 335.9,142.2 336.8,139.9 337.6,137.6 338.4,135.2 339.2,132.8 340.1,130.4 340.9,127.8 341.7,125.3 342.5,122.6 343.3,120.0 344.2,117.2 345.0,114.5 345.8,111.6 346.7,108.7 347.5,105.8 348.3,102.8 349.1,99.8 349.9,96.7 350.8,93.5 351.6,90.3 352.4,87.0 353.2,83.7 354.1,80.3 354.9,76.8 355.7,73.3 356.5,69.8 357.4,66.1 358.2,62.5 359.0,58.7 359.9,54.9 360.7,51.1 361.5,47.1 362.3,43.2 363.1,39.1 364.0,35.0 364.8,30.8 365.6,26.6 366.4,22.3 367.3,18.0 368.1,13.6 368.9,9.1 369.8,4.5 370.6,-0.1 371.4,-4.7 372.2,-9.5 373.1,-14.3 373.9,-19.2 374.7,-24.1 375.5,-29.1 376.4,-34.2 377.2,-39.3 378.0,-44.5\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"52.7\" y=\"39.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">y = p(x)</text><circle cx=\"95.1\" cy=\"155.0\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"236.6\" cy=\"155.0\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"330.9\" cy=\"155.0\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Lösningarna är \\(x\\)-koordinaterna där grafen skär \\(x\\)-axeln: \\(x=-2\\), \\(x=1\\) och \\(x=3\\).</p><p>Polynomet kan skrivas \\(p(x)=k(x+2)(x-1)(x-3)\\). I figuren är \\(k=0{,}5\\).</p></div>",
+  "familj": "Rötter ur grafer och faktorer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true,
+    true
+  ],
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Var skär grafen x-axeln?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -2,
+    1,
+    3
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x",
+    "x",
+    "x"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.601",
+  "kap": 5,
+  "omr": "polynomekv_hogre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "komplexa rötter när en rot är känd",
+  "t": "<p>Ekvationen \\(x^3-2x^2+x-2=0\\) har roten \\(x=2\\). De två andra rötterna har realdelen 0. Bestäm deras imaginärdelar.</p>",
+  "s": "<div class=\"facit-v2\"><p>Faktorisera: \\(x^3-2x^2+x-2=x^2(x-2)+(x-2)=(x-2)(x^2+1)\\).</p><p>\\(x^2+1=0\\) ger \\(x=\\pm i\\). Imaginärdelarna är \\(1\\) och \\(-1\\).</p></div>",
+  "familj": "Rötter ur grafer och faktorer",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bryt ut (x − 2), till exempel genom gruppering eller polynomdivision.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -1,
+    1
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "Im",
+    "Im"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.602",
+  "kap": 5,
+  "omr": "polynomekv_hogre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "minsta antal reella rötter",
+  "t": "<p>Ett tredjegradspolynom har reella koefficienter. Hur många reella rötter har det minst?</p>",
+  "s": "<div class=\"facit-v2\"><p>Icke-reella rötter kommer i konjugerade par. Av tre rötter kan alltså högst två vara icke-reella, så minst en är reell.</p><p>Grafiskt: en tredjegradskurva går från \\(-\\infty\\) till \\(+\\infty\\) (eller tvärtom) och måste därför skära \\(x\\)-axeln.</p></div>",
+  "familj": "Rötter ur grafer och faktorer",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många icke-reella rötter kan det finnas om de kommer i par?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 1,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.603",
+  "kap": 5,
+  "omr": "polynomekv_hogre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "antal rötter för fjärdegradsekvation",
+  "t": "<p>Hur många rötter har ekvationen \\(x^4-3x^3+x-7=0\\) över de komplexa talen (räknat med multiplicitet)?</p>",
+  "s": "<div class=\"facit-v2\"><p>Algebrans fundamentalsats: en polynomekvation av grad \\(n\\) har exakt \\(n\\) komplexa rötter räknat med multiplicitet. Här är \\(n=4\\).</p></div>",
+  "familj": "Rötter ur grafer och faktorer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket gradtal har polynomet?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.604",
+  "kap": 5,
+  "omr": "polynomekv_hogre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "bikvadratisk ekvation",
+  "t": "<p>Lös ekvationen \\(x^4-5x^2+4=0\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Sätt \\(t=x^2\\): \\(t^2-5t+4=0\\), alltså \\((t-1)(t-4)=0\\) och \\(t=1\\) eller \\(t=4\\).</p><p>\\(x^2=1\\) ger \\(x=\\pm1\\), och \\(x^2=4\\) ger \\(x=\\pm2\\).</p></div>",
+  "familj": "Rötter ur grafer och faktorer",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Inför t = x² och lös andragradsekvationen.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -2,
+    -1,
+    1,
+    2
+  ],
+  "tolerans": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x",
+    "x",
+    "x",
+    "x"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.605",
+  "kap": 5,
+  "omr": "polynomekv_hogre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "övriga rötter efter faktorsatsen",
+  "t": "<p>Polynomet \\(p(x)=x^3-7x+6\\) har roten \\(x=1\\). Bestäm de två andra rötterna.</p>",
+  "s": "<div class=\"facit-v2\"><p>Division med \\((x-1)\\): \\(x^3-7x+6=(x-1)(x^2+x-6)=(x-1)(x+3)(x-2)\\).</p><p>De andra rötterna är \\(x=-3\\) och \\(x=2\\).</p></div>",
+  "familj": "Rötter ur grafer och faktorer",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Dividera p(x) med (x − 1) och lös andragradsekvationen.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -3,
+    2
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x",
+    "x"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.606",
+  "kap": 5,
+  "omr": "polynomekv_hogre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "konstantterm ur rötter",
+  "t": "<p>Ett polynom av formen \\(x^3+bx^2+cx+d\\) har rötterna \\(2\\), \\(i\\) och \\(-i\\). Bestäm \\(d\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(p(x)=(x-2)(x-i)(x+i)=(x-2)(x^2+1)=x^3-2x^2+x-2\\).</p><p>Konstanttermen är \\(d=-2\\).</p></div>",
+  "familj": "Rötter ur grafer och faktorer",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv polynomet i faktorform och multiplicera ihop.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": -2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.607",
+  "kap": 5,
+  "omr": "polynomekv_hogre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "olika reella rötter med dubbelrot",
+  "t": "<p>Figuren visar grafen till fjärdegradspolynomet \\(q(x)=\\tfrac14(x+2)(x-1)^2(x-3)\\). Hur många <strong>olika</strong> reella rötter har \\(q(x)=0\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 330\" role=\"img\" aria-label=\"Grafen till ett fjärdegradspolynom. Den skär x-axeln i x = −2 och x = 3 och nuddar x-axeln i x = 1.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"95.1\" y1=\"22\" x2=\"95.1\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"142.3\" y1=\"22\" x2=\"142.3\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"189.4\" y1=\"22\" x2=\"189.4\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"236.6\" y1=\"22\" x2=\"236.6\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"283.7\" y1=\"22\" x2=\"283.7\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"330.9\" y1=\"22\" x2=\"330.9\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"288.0\" x2=\"378\" y2=\"288.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.4\" x2=\"378\" y2=\"258.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"228.9\" x2=\"378\" y2=\"228.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"199.3\" x2=\"378\" y2=\"199.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"169.8\" x2=\"378\" y2=\"169.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"140.2\" x2=\"378\" y2=\"140.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"110.7\" x2=\"378\" y2=\"110.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"81.1\" x2=\"378\" y2=\"81.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"51.6\" x2=\"378\" y2=\"51.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"378\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"169.8\" x2=\"388\" y2=\"169.8\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,169.8 382,164.8 382,174.8\" fill=\"#172b3a\"/><line x1=\"189.4\" y1=\"288\" x2=\"189.4\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"189.4,8 184.4,18 194.4,18\" fill=\"#172b3a\"/><text x=\"390\" y=\"160.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"197.4\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"48.0\" y=\"186.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"95.1\" y=\"186.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"142.3\" y=\"186.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"236.6\" y=\"186.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"283.7\" y=\"186.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"330.9\" y=\"186.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"378.0\" y=\"186.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"183.4\" y=\"292.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"183.4\" y=\"262.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"183.4\" y=\"232.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"183.4\" y=\"203.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"183.4\" y=\"144.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"183.4\" y=\"114.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"183.4\" y=\"85.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"183.4\" y=\"55.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"183.4\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"183.4\" y=\"186.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k058362eb\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"266\"/></clipPath><polyline clip-path=\"url(#k058362eb)\" points=\"48.8,-244.0 49.7,-244.0 50.5,-244.0 51.3,-244.0 52.1,-244.0 53.0,-244.0 53.8,-244.0 54.6,-244.0 55.4,-244.0 56.2,-244.0 57.1,-244.0 57.9,-244.0 58.7,-244.0 59.6,-244.0 60.4,-244.0 61.2,-244.0 62.0,-236.0 62.8,-221.0 63.7,-206.2 64.5,-191.7 65.3,-177.6 66.1,-163.7 67.0,-150.0 67.8,-136.7 68.6,-123.6 69.5,-110.8 70.3,-98.3 71.1,-86.0 71.9,-74.0 72.8,-62.3 73.6,-50.8 74.4,-39.5 75.2,-28.5 76.0,-17.7 76.9,-7.2 77.7,3.0 78.5,13.1 79.3,22.9 80.2,32.5 81.0,41.8 81.8,51.0 82.6,59.9 83.5,68.6 84.3,77.0 85.1,85.3 86.0,93.4 86.8,101.2 87.6,108.9 88.4,116.3 89.2,123.6 90.1,130.6 90.9,137.5 91.7,144.1 92.5,150.6 93.4,156.9 94.2,163.0 95.0,168.9 95.8,174.7 96.7,180.3 97.5,185.7 98.3,190.9 99.2,196.0 100.0,200.9 100.8,205.7 101.6,210.3 102.5,214.7 103.3,219.0 104.1,223.1 104.9,227.1 105.8,230.9 106.6,234.6 107.4,238.1 108.2,241.5 109.0,244.8 109.9,248.0 110.7,251.0 111.5,253.8 112.4,256.6 113.2,259.2 114.0,261.7 114.8,264.1 115.7,266.3 116.5,268.5 117.3,270.5 118.1,272.4 119.0,274.2 119.8,275.9 120.6,277.5 121.4,279.0 122.2,280.3 123.1,281.6 123.9,282.8 124.7,283.9 125.6,284.9 126.4,285.8 127.2,286.6 128.0,287.3 128.9,288.0 129.7,288.5 130.5,289.0 131.3,289.4 132.2,289.7 133.0,290.0 133.8,290.1 134.6,290.2 135.4,290.3 136.3,290.2 137.1,290.1 137.9,289.9 138.8,289.7 139.6,289.4 140.4,289.0 141.2,288.6 142.1,288.1 142.9,287.6 143.7,287.0 144.5,286.4 145.3,285.7 146.2,285.0 147.0,284.2 147.8,283.4 148.6,282.5 149.5,281.6 150.3,280.7 151.1,279.7 151.9,278.6 152.8,277.6 153.6,276.5 154.4,275.4 155.2,274.2 156.1,273.0 156.9,271.8 157.7,270.5 158.6,269.3 159.4,268.0 160.2,266.6 161.0,265.3 161.9,263.9 162.7,262.6 163.5,261.2 164.3,259.7 165.1,258.3 166.0,256.9 166.8,255.4 167.6,253.9 168.5,252.4 169.3,250.9 170.1,249.4 170.9,247.9 171.8,246.4 172.6,244.9 173.4,243.3 174.2,241.8 175.0,240.3 175.9,238.7 176.7,237.2 177.5,235.7 178.3,234.1 179.2,232.6 180.0,231.1 180.8,229.5 181.6,228.0 182.5,226.5 183.3,225.0 184.1,223.5 184.9,222.0 185.8,220.5 186.6,219.1 187.4,217.6 188.2,216.2 189.1,214.7 189.9,213.3 190.7,211.9 191.6,210.5 192.4,209.1 193.2,207.8 194.0,206.4 194.8,205.1 195.7,203.8 196.5,202.5 197.3,201.2 198.2,200.0 199.0,198.7 199.8,197.5 200.6,196.3 201.4,195.2 202.3,194.0 203.1,192.9 203.9,191.8 204.8,190.7 205.6,189.7 206.4,188.6 207.2,187.6 208.0,186.7 208.9,185.7 209.7,184.8 210.5,183.9 211.3,183.0 212.2,182.1 213.0,181.3 213.8,180.5 214.7,179.8 215.5,179.0 216.3,178.3 217.1,177.6 218.0,177.0 218.8,176.3 219.6,175.7 220.4,175.2 221.2,174.6 222.1,174.1 222.9,173.6 223.7,173.2 224.6,172.8 225.4,172.4 226.2,172.0 227.0,171.6 227.9,171.3 228.7,171.1 229.5,170.8 230.3,170.6 231.1,170.4 232.0,170.2 232.8,170.1 233.6,170.0 234.5,169.9 235.3,169.8 236.1,169.8 236.9,169.8 237.8,169.8 238.6,169.9 239.4,169.9 240.2,170.0 241.0,170.2 241.9,170.3 242.7,170.5 243.5,170.7 244.3,170.9 245.2,171.2 246.0,171.5 246.8,171.8 247.7,172.1 248.5,172.5 249.3,172.8 250.1,173.2 250.9,173.6 251.8,174.1 252.6,174.5 253.4,175.0 254.2,175.5 255.1,176.0 255.9,176.5 256.7,177.1 257.6,177.6 258.4,178.2 259.2,178.8 260.0,179.4 260.8,180.0 261.7,180.6 262.5,181.3 263.3,181.9 264.1,182.6 265.0,183.3 265.8,184.0 266.6,184.7 267.5,185.4 268.3,186.1 269.1,186.8 269.9,187.5 270.8,188.2 271.6,188.9 272.4,189.7 273.2,190.4 274.0,191.1 274.9,191.9 275.7,192.6 276.5,193.3 277.4,194.0 278.2,194.7 279.0,195.5 279.8,196.2 280.6,196.8 281.5,197.5 282.3,198.2 283.1,198.9 283.9,199.5 284.8,200.2 285.6,200.8 286.4,201.4 287.2,202.0 288.1,202.5 288.9,203.1 289.7,203.6 290.5,204.1 291.4,204.6 292.2,205.0 293.0,205.5 293.9,205.9 294.7,206.2 295.5,206.6 296.3,206.9 297.1,207.2 298.0,207.4 298.8,207.6 299.6,207.8 300.5,207.9 301.3,208.0 302.1,208.0 302.9,208.0 303.8,208.0 304.6,207.9 305.4,207.7 306.2,207.5 307.1,207.3 307.9,207.0 308.7,206.6 309.5,206.2 310.4,205.7 311.2,205.2 312.0,204.6 312.8,203.9 313.6,203.2 314.5,202.4 315.3,201.5 316.1,200.6 317.0,199.6 317.8,198.5 318.6,197.3 319.4,196.1 320.2,194.8 321.1,193.4 321.9,191.9 322.7,190.3 323.6,188.7 324.4,186.9 325.2,185.1 326.0,183.1 326.8,181.1 327.7,179.0 328.5,176.7 329.3,174.4 330.2,172.0 331.0,169.4 331.8,166.8 332.6,164.0 333.4,161.1 334.3,158.1 335.1,155.0 335.9,151.8 336.8,148.4 337.6,144.9 338.4,141.3 339.2,137.6 340.1,133.7 340.9,129.7 341.7,125.6 342.5,121.3 343.3,116.9 344.2,112.3 345.0,107.6 345.8,102.8 346.7,97.8 347.5,92.6 348.3,87.3 349.1,81.9 349.9,76.2 350.8,70.4 351.6,64.5 352.4,58.4 353.2,52.1 354.1,45.6 354.9,39.0 355.7,32.1 356.5,25.1 357.4,18.0 358.2,10.6 359.0,3.0 359.9,-4.7 360.7,-12.6 361.5,-20.8 362.3,-29.1 363.1,-37.7 364.0,-46.4 364.8,-55.4 365.6,-64.5 366.4,-73.9 367.3,-83.5 368.1,-93.3 368.9,-103.3 369.8,-113.6 370.6,-124.1 371.4,-134.8 372.2,-145.8 373.1,-156.9 373.9,-168.4 374.7,-180.0 375.5,-192.0 376.4,-204.1 377.2,-216.5 378.0,-229.2\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"118.7\" y=\"39.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">y = q(x)</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Rötterna är \\(-2\\), \\(1\\) (dubbelrot, där grafen nuddar axeln) och \\(3\\). Det är tre olika reella rötter men fyra räknat med multiplicitet.</p></div>",
+  "familj": "Rötter ur grafer och faktorer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>En dubbelrot räknas en gång när man räknar olika rötter.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
 }
 ];

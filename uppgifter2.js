@@ -55236,5 +55236,223 @@ window.BANK2 = [
   "tolerans": 50000000.0,
   "svarFormat": "numeriskt",
   "svarEnhet": "m"
+},
+{
+  "id": "3.441",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "magnetisk pol vid geografiska nordpolen",
+  "t": "<p>En kompassnåls nordände pekar mot den geografiska nordpolen. Vilken sorts magnetisk pol finns alltså i jorden nära den geografiska nordpolen? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Olika poler attraherar varandra. Kompassens nordpol dras mot en magnetisk sydpol. Nära den geografiska nordpolen finns därför jordens magnetiska sydpol.</p></div>",
+  "familj": "Jordens magnetfält i praktiken",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka poler attraherar varandra?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "En magnetisk sydpol",
+      "ratt": true,
+      "kommentar": "Den drar till sig kompassnålens nordände."
+    },
+    {
+      "txt": "En magnetisk nordpol",
+      "ratt": false,
+      "kommentar": "Då skulle den stöta bort kompassnålens nordände."
+    },
+    {
+      "txt": "Ingen pol, fältet är vågrätt där.",
+      "ratt": false,
+      "kommentar": "Nära polerna är fältet nästan lodrätt."
+    },
+    {
+      "txt": "Både en nord- och en sydpol",
+      "ratt": false,
+      "kommentar": "En magnet har sina två poler i var sin ände."
+    }
+  ]
+},
+{
+  "id": "3.442",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "var fältet är vågrätt",
+  "t": "<p>Var på jorden är jordmagnetfältet ungefär vågrätt, så att inklinationsvinkeln är nära 0°? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Fältlinjerna går ut från ena polområdet och in vid det andra. Mitt emellan, nära den magnetiska ekvatorn, går de parallellt med jordytan. Där är inklinationen nära 0°.</p><p>Nära polerna är fältet nästan lodrätt (inklination nära 90°). I Sverige är inklinationen ungefär 70–75°.</p></div>",
+  "familj": "Jordens magnetfält i praktiken",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Tänk på hur fältlinjerna kring en stavmagnet går mitt emellan polerna.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Nära den magnetiska ekvatorn",
+      "ratt": true,
+      "kommentar": "Där löper fältlinjerna parallellt med jordytan."
+    },
+    {
+      "txt": "Nära de magnetiska polerna",
+      "ratt": false,
+      "kommentar": "Där är fältet nästan lodrätt."
+    },
+    {
+      "txt": "I Sverige",
+      "ratt": false,
+      "kommentar": "Inklinationen i Sverige är ungefär 70–75°."
+    },
+    {
+      "txt": "Överallt på jorden",
+      "ratt": false,
+      "kommentar": "Inklinationen varierar från 0° till 90°."
+    }
+  ]
+},
+{
+  "id": "3.443",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "vågrät komposant ur inklination",
+  "t": "<p>På en plats är jordmagnetfältet 50 µT och lutar 70° under horisontalplanet. Hur stor är den vågräta komposanten, som styr en kompass? (Svara i µT med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"Jordmagnetfältets vektor B, 50 mikrotesla, riktad snett nedåt med 70 grader under horisontalplanet. Den vågräta komposanten är streckad och okänd.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40\" y1=\"50\" x2=\"320\" y2=\"50\" stroke=\"#9aa7b4\" stroke-width=\"1.5\"/><text x=\"320\" y=\"42\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">horisontalplan</text><line x1=\"80\" y1=\"50\" x2=\"138.1\" y2=\"209.7\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polygon points=\"138.1,209.7 134.1,196.7 145.1,199.7\" fill=\"#2f6fca\"/><line x1=\"80\" y1=\"50\" x2=\"138.1\" y2=\"50\" stroke=\"#d9622b\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><line x1=\"138.1\" y1=\"50\" x2=\"138.1\" y2=\"209.7\" stroke=\"#9aa7b4\" stroke-width=\"1.5\" stroke-dasharray=\"4 4\"/><path d=\"M 120 50 A 40 40 0 0 1 93.7 87.6\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"126\" y=\"80\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\">70°</text><text x=\"98\" y=\"175\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#2f6fca\" text-anchor=\"end\">B = 50 µT</text><text x=\"109.1\" y=\"42\" font-family=\"Arial,sans-serif\" font-size=\"14\" font-style=\"italic\" text-anchor=\"middle\" fill=\"#d9622b\">Bₕ = ?</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(B_h=B\\cos70^\\circ=50\\cdot\\cos70^\\circ\\approx17{,}1\\) µT.</p><p>Den lodräta komposanten, \\(B\\sin70^\\circ\\approx47\\) µT, påverkar inte en vågrät kompass.</p></div>",
+  "familj": "Jordens magnetfält i praktiken",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Den vågräta komposanten är närliggande katet till vinkeln 70°.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 17.1,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "µT"
+},
+{
+  "id": "3.444",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "varför norrsken syns nära polerna",
+  "t": "<p>Norrsken uppstår när laddade partiklar från solen kolliderar med atomer i atmosfären. Varför syns norrsken främst nära polerna? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Laddade partiklar som rör sig i ett magnetfält påverkas av en kraft vinkelrät mot rörelsen och fältet. De rör sig i spiraler längs fältlinjerna.</p><p>Nära polerna går fältlinjerna nästan lodrätt ned mot jorden, så där kan partiklarna nå atmosfären.</p></div>",
+  "familj": "Jordens magnetfält i praktiken",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur rör sig laddade partiklar i ett magnetfält? Vart leder fältlinjerna?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Partiklarna styrs längs fältlinjerna, som når jordytan nära polerna.",
+      "ratt": true,
+      "kommentar": "Där går fältlinjerna ned i atmosfären."
+    },
+    {
+      "txt": "Det är kallare nära polerna.",
+      "ratt": false,
+      "kommentar": "Temperaturen har inget med partiklarnas väg att göra."
+    },
+    {
+      "txt": "Solen lyser mest på polerna.",
+      "ratt": false,
+      "kommentar": "Solinstrålningen är tvärtom svagast nära polerna."
+    },
+    {
+      "txt": "Magnetfältet stoppar partiklarna helt vid ekvatorn och släpper igenom dem vid polerna av en slump.",
+      "ratt": false,
+      "kommentar": "Det är fältlinjernas riktning som avgör."
+    }
+  ]
+},
+{
+  "id": "3.445",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "C",
+  "poang": "(0/1/0)",
+  "typ": "kompass under en strömförande ledning",
+  "t": "<p>Magnetfältet kring en lång rak ledare är \\(B=\\dfrac{\\mu_0I}{2\\pi r}\\).</p><p>En lång ledning går i nord-sydlig riktning 4,0 cm ovanför en kompass. När strömmen 10 A slås på vrids kompassnålen. Jordfältets vågräta komposant är 15 µT. Hur många grader vrids nålen? (Svara i hela grader.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Ledningens fält vid kompassen: \\(B=\\dfrac{4\\pi\\cdot10^{-7}\\cdot10}{2\\pi\\cdot0{,}040}=50\\) µT, riktat i öst-västlig riktning.</p><p>Nålen ställer in sig efter summan av de vinkelräta fälten: \\(\\tan v=\\dfrac{50}{15}\\), så \\(v\\approx73^\\circ\\).</p></div>",
+  "familj": "Jordens magnetfält i praktiken",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Ledningens fält är vinkelrätt mot jordfältets vågräta komposant.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 73,
+  "tolerans": 0.5,
+  "svarFormat": "grader",
+  "svarEnhet": "°"
+},
+{
+  "id": "3.446",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "kraft på en kraftledning",
+  "t": "<p>Kraften på en strömförande ledare i ett magnetfält är \\(F=BIl\\) när ledaren är vinkelrät mot fältet.</p><p>En 100 m lång kraftledning leder 500 A. Den del av jordmagnetfältet som är vinkelrät mot ledningen är 30 µT. Hur stor kraft verkar på ledningen? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(F=BIl=30\\cdot10^{-6}\\cdot500\\cdot100=1{,}5\\) N.</p><p>Kraften är liten jämfört med ledningens tyngd, så den märks inte.</p></div>",
+  "familj": "Jordens magnetfält i praktiken",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Gör om µT till T och sätt in i F = BIl.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.5,
+  "tolerans": 0.005,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "N"
 }
 ];

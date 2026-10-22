@@ -18567,7 +18567,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(5^x=12\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv om med samma bas när det går.</p></li><li><p>Annars logaritmera båda leden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\frac{\\ln12}{\\ln5}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Ta ln på båda sidor. Exponenten x kan då skrivas framför logaritmen.</p><div class=\"facit-matte\">\\[\\ln(5^x)=\\ln12\\]</div><p>Eftersom ln(5ˣ)=x ln 5 delar vi sedan båda leden med ln 5.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\dfrac{\\ln12}{\\ln5}\\).</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -18579,7 +18579,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Isolera potensen med \\(e\\) eller \\(a^x\\) innan du tar logaritmen. Använd sedan \\(\\ln(e^u)=u\\) eller \\(\\ln(a^x)=x\\ln a\\). Logaritmen är alltså verktyget som ”tar ner” den okända ur exponenten.</p>",
+    "ledtrad": "<p>Vilken logaritmlag låter dig skriva exponenten framför logaritmen?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -18768,7 +18768,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(e^x=7\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv om med samma bas när det går.</p></li><li><p>Annars logaritmera båda leden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\ln7\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Ln och exponentialfunktionen med basen e är varandras inverser. Ta ln på båda sidor.</p><div class=\"facit-matte\">\\[\\ln(e^x)=\\ln7\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\ln7\\).</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -18780,7 +18780,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Målet är först att isolera exponentialtermen. När den står ensam kan båda leden logaritmeras, eftersom ln och exponentialfunktionen är inverser. Därefter blir exponenten en vanlig linjär eller algebraisk ekvation.</p>",
+    "ledtrad": "<p>Vilken funktion gör om en potens med basen e till dess exponent?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -18934,7 +18934,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(4\\cdot2^x=40\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv om med samma bas när det går.</p></li><li><p>Annars logaritmera båda leden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\frac{\\ln10}{\\ln2}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Dela först båda leden med 4, så att 2ˣ=10. Ta därefter ln på båda sidor.</p><div class=\"facit-matte\">\\[x\\ln2=\\ln10\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\dfrac{\\ln10}{\\ln2}\\).</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -18946,7 +18946,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Först när exponentialtermen är ensam är logaritmeringen enkel att följa. Ta ln på båda sidor, förenkla med logaritmlagarna och lös den återstående ekvationen. Kontrollera till sist att eventuella definitionsvillkor är uppfyllda.</p>",
+    "ledtrad": "<p>Börja med att få potensen 2ˣ ensam.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -29002,7 +29002,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen exakt:</p><p>\\[e^x=12.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ta naturliga logaritmen i båda led:</p></li><li><p>\\[\\ln(e^x)=\\ln12\\Rightarrow x=\\ln12.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=\\ln12}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Ta ln på båda sidor. Eftersom ln(eˣ)=x återstår x i vänsterledet.</p><div class=\"facit-matte\">\\[\\ln(e^x)=\\ln12\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\ln12\\).</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -29014,7 +29014,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Först när exponentialtermen är ensam är logaritmeringen enkel att följa. Ta ln på båda sidor, förenkla med logaritmlagarna och lös den återstående ekvationen. Kontrollera till sist att eventuella definitionsvillkor är uppfyllda.</p>",
+    "ledtrad": "<p>Vilken funktion ger exponenten när basen är e?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -29036,7 +29036,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Lös ekvationen exakt:</p><p>\\[\\ln x=3.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Definitionen av naturlig logaritm ger</p></li><li><p>\\[\\ln x=3\\iff x=e^3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{x=e^3}\\).</p></div>",
+    "s": "<div class=\"facit-v2\"><p>Ln x=3 betyder att e upphöjt till 3 är x. Det är sambandet som definierar den naturliga logaritmen.</p><div class=\"facit-matte\">\\[\\ln x=3\\quad\\Longleftrightarrow\\quad x=e^3\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=e^3\\).</p></div>",
     "familj": "Naturliga logaritmer och ekvationer",
     "geogebra": false,
     "miniräknare": true,
@@ -29048,7 +29048,7 @@ window.BANKMATO1 = [
       "procedur"
     ],
     "svarFormat": "uttryck",
-    "ledtrad": "<p>Tänk så här: Målet är först att isolera exponentialtermen. När den står ensam kan båda leden logaritmeras, eftersom ln och exponentialfunktionen är inverser. Därefter blir exponenten en vanlig linjär eller algebraisk ekvation.</p>",
+    "ledtrad": "<p>Vilket samband kopplar den naturliga logaritmen till potenser med basen e?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -104467,6 +104467,309 @@ window.BANKMATO1 = [
   "ledtrad": "<p>Utveckla produkten av längden, bredden och höjden.</p>",
   "svarFormat": "numeriskt",
   "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1150",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "niva": "E",
+  "typ": "hitta indata till ln",
+  "poang": "1/0/0",
+  "t": "<p>När ett tal \\(x\\) matas in i ln-funktionen blir resultatet −2. Vilket tal matades in? (Svara exakt.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 165\" role=\"img\" aria-label=\"Funktionsmaskin: x går genom ln och ger -2.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"165\" fill=\"white\"/><rect x=\"30\" y=\"65\" width=\"90\" height=\"65\" rx=\"10\" fill=\"white\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"75\" y=\"106\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">x</text><path d=\"M130 97L175 97\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M167.02 101.16L175 97L167.02 92.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"185\" y=\"65\" width=\"110\" height=\"65\" rx=\"10\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"240\" y=\"106\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">ln</text><path d=\"M305 97L350 97\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M342.02 101.16L350 97L342.02 92.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"360\" y=\"65\" width=\"90\" height=\"65\" rx=\"10\" fill=\"white\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"405\" y=\"106\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">−2</text><text x=\"75\" y=\"43\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Indata</text><text x=\"405\" y=\"43\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Utdata</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Ln frågar vilken exponent e ska ha. Om ln x=−2 är x därför e upphöjt till −2.</p><div class=\"facit-matte\">\\[\\ln x=-2\\quad\\Longleftrightarrow\\quad x=e^{-2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=e^{-2}\\), vilket också kan skrivas \\(1/e^2\\).</p></div>",
+  "familj": "Naturliga logaritmer och ekvationer",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "e^(-2)",
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv sambandet mellan en naturlig logaritm och en potens med basen e.</p>",
+  "svarFormat": "uttryck",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1151",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "niva": "E",
+  "typ": "ln och exponentialfunktionen tar ut varandra",
+  "poang": "1/0/0",
+  "t": "<p>Ett tal passerar två funktioner, som i figuren. Vad är \\(e^{\\ln8}\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 155\" role=\"img\" aria-label=\"Talet 8 går först genom ln och sedan genom exponentialfunktionen med basen e.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"155\" fill=\"white\"/><text x=\"35\" y=\"100\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">8</text><path d=\"M55 92L90 92\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M82.02 96.16L90 92L82.02 87.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"100\" y=\"58\" width=\"90\" height=\"65\" rx=\"10\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"145\" y=\"100\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">ln</text><path d=\"M200 92L240 92\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M232.02 96.16L240 92L232.02 87.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><rect x=\"250\" y=\"58\" width=\"90\" height=\"65\" rx=\"10\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"295\" y=\"100\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">eˣ</text><path d=\"M350 92L390 92\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M382.02 96.16L390 92L382.02 87.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"422\" y=\"100\" font-family=\"Arial,sans-serif\" font-size=\"26\" text-anchor=\"middle\" fill=\"#243447\">?</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Ln 8 är den exponent som e ska upphöjas till för att resultatet ska bli 8. Funktionerna tar därför ut varandra.</p><div class=\"facit-matte\">\\[e^{\\ln8}=8\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div>",
+  "familj": "Naturliga logaritmer och ekvationer",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": false,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad betyder talet ln 8 som exponent till e?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1152",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "niva": "E",
+  "typ": "tecknet på ln mellan noll och ett",
+  "poang": "1/0/0",
+  "t": "<p>Grafen visar \\(y=\\ln x\\). Vilket tecken har \\(\\ln x\\) när \\(0\\lt x\\lt1\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Grafen y = ln x, som skär x-axeln vid x = 1.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-1152\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M183.333 42L183.333 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"183.333\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M306.667 42L306.667 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"306.667\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-2</text><path d=\"M60 220.5L430 220.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"225.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-1</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"106.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">y</text><path d=\"M76.691 280.0 L78.9 272.607 L81.108 266.033 L83.316 260.112 L85.524 254.728 L87.732 249.792 L89.94 245.233 L92.149 240.999 L94.357 237.046 L96.565 233.34 L98.773 229.851 L100.981 226.556 L103.19 223.433 L105.398 220.466 L107.606 217.64 L109.814 214.942 L112.022 212.362 L114.23 209.888 L116.439 207.513 L118.647 205.23 L120.855 203.031 L123.063 200.91 L125.271 198.862 L127.479 196.883 L129.688 194.967 L131.896 193.111 L134.104 191.311 L136.312 189.563 L138.52 187.866 L140.729 186.216 L142.937 184.61 L145.145 183.047 L147.353 181.523 L149.561 180.038 L151.769 178.589 L153.978 177.174 L156.186 175.792 L158.394 174.442 L160.602 173.121 L162.81 171.829 L165.019 170.565 L167.227 169.327 L169.435 168.114 L171.643 166.925 L173.851 165.76 L176.059 164.617 L178.268 163.495 L180.476 162.395 L182.684 161.314 L184.892 160.253 L187.1 159.21 L189.308 158.185 L191.517 157.178 L193.725 156.187 L195.933 155.212 L198.141 154.254 L200.349 153.31 L202.558 152.381 L204.766 151.467 L206.974 150.566 L209.182 149.679 L211.39 148.804 L213.598 147.943 L215.807 147.093 L218.015 146.256 L220.223 145.43 L222.431 144.616 L224.639 143.812 L226.848 143.02 L229.056 142.237 L231.264 141.465 L233.472 140.703 L235.68 139.95 L237.888 139.207 L240.097 138.473 L242.305 137.748 L244.513 137.032 L246.721 136.324 L248.929 135.624 L251.137 134.933 L253.346 134.249 L255.554 133.574 L257.762 132.906 L259.97 132.245 L262.178 131.592 L264.387 130.945 L266.595 130.306 L268.803 129.673 L271.011 129.047 L273.219 128.428 L275.427 127.815 L277.636 127.208 L279.844 126.607 L282.052 126.013 L284.26 125.424 L286.468 124.841 L288.677 124.264 L290.885 123.692 L293.093 123.125 L295.301 122.564 L297.509 122.009 L299.717 121.458 L301.926 120.912 L304.134 120.372 L306.342 119.836 L308.55 119.305 L310.758 118.779 L312.967 118.257 L315.175 117.74 L317.383 117.227 L319.591 116.719 L321.799 116.215 L324.007 115.715 L326.216 115.22 L328.424 114.728 L330.632 114.241 L332.84 113.757 L335.048 113.278 L337.256 112.802 L339.465 112.33 L341.673 111.862 L343.881 111.397 L346.089 110.936 L348.297 110.478 L350.506 110.024 L352.714 109.574 L354.922 109.127 L357.13 108.683 L359.338 108.242 L361.546 107.805 L363.755 107.371 L365.963 106.94 L368.171 106.512 L370.379 106.087 L372.587 105.665 L374.796 105.247 L377.004 104.831 L379.212 104.418 L381.42 104.007 L383.628 103.6 L385.836 103.195 L388.045 102.794 L390.253 102.394 L392.461 101.998 L394.669 101.604 L396.877 101.213 L399.085 100.824 L401.294 100.438 L403.502 100.054 L405.71 99.673 L407.918 99.294 L410.126 98.917 L412.335 98.543 L414.543 98.172 L416.751 97.802 L418.959 97.435 L421.167 97.07 L423.375 96.708 L425.584 96.347 L427.792 95.989 L430.0 95.633\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-1152)\"/><circle cx=\"183.333\" cy=\"161.0\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>I intervallet 0 &lt; x &lt; 1 ligger grafen under x-axeln. Där är funktionsvärdena negativa.</p><p class=\"facit-svar\"><strong>Svar:</strong> Ln x är negativt.</p></div>",
+  "familj": "Naturliga logaritmer och ekvationer",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför grafens läge med x-axeln i det givna intervallet.</p>",
+  "alternativ": [
+    {
+      "txt": "Positivt",
+      "ratt": false,
+      "kommentar": "Mellan 0 och 1 ligger ln-grafen under x-axeln."
+    },
+    {
+      "txt": "Negativt",
+      "ratt": true,
+      "kommentar": "För 0<x<1 är ln x mindre än 0."
+    },
+    {
+      "txt": "Noll",
+      "ratt": false,
+      "kommentar": "Ln x är 0 bara när x=1, som inte ingår i intervallet."
+    },
+    {
+      "txt": "Det kan vara både positivt och negativt.",
+      "ratt": false,
+      "kommentar": "Ln x är negativt i hela det givna intervallet."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1153",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "niva": "E",
+  "typ": "ln av en potens med basen e",
+  "poang": "1/0/0",
+  "t": "<p>Bestäm det exakta värdet av \\(\\ln(e^4)\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Den naturliga logaritmen ger exponenten när basen är e.</p><div class=\"facit-matte\">\\[\\ln(e^4)=4\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 4.</p></div>",
+  "familj": "Naturliga logaritmer och ekvationer",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": false,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken exponent har e i talet du tar ln av?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1154",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "niva": "E",
+  "typ": "bestäm skärningspunkt med ln och miniräknare",
+  "poang": "1/0/0",
+  "t": "<p>Kurvan \\(y=e^x\\) skär den streckade linjen \\(y=3\\). Beräkna skärningspunktens x-koordinat. (Svara med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Exponentialkurvan y = e upphöjt till x och den vågräta linjen y = 3.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-1154\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 220.5L430 220.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"225.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"106.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">6</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">8</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">y</text><path d=\"M60.0 250.25 L62.312 249.876 L64.625 249.497 L66.938 249.113 L69.25 248.725 L71.562 248.331 L73.875 247.933 L76.188 247.53 L78.5 247.121 L80.812 246.708 L83.125 246.289 L85.438 245.865 L87.75 245.435 L90.062 245.001 L92.375 244.56 L94.688 244.115 L97.0 243.663 L99.312 243.206 L101.625 242.743 L103.938 242.275 L106.25 241.8 L108.562 241.32 L110.875 240.833 L113.188 240.341 L115.5 239.842 L117.812 239.337 L120.125 238.825 L122.438 238.307 L124.75 237.783 L127.062 237.252 L129.375 236.714 L131.688 236.17 L134.0 235.618 L136.312 235.06 L138.625 234.495 L140.938 233.922 L143.25 233.343 L145.562 232.756 L147.875 232.162 L150.188 231.56 L152.5 230.951 L154.812 230.334 L157.125 229.709 L159.438 229.076 L161.75 228.436 L164.062 227.787 L166.375 227.13 L168.688 226.465 L171.0 225.792 L173.312 225.11 L175.625 224.42 L177.938 223.721 L180.25 223.013 L182.562 222.296 L184.875 221.57 L187.188 220.835 L189.5 220.091 L191.812 219.337 L194.125 218.574 L196.438 217.802 L198.75 217.019 L201.062 216.227 L203.375 215.425 L205.688 214.613 L208.0 213.79 L210.312 212.957 L212.625 212.114 L214.938 211.26 L217.25 210.396 L219.562 209.52 L221.875 208.633 L224.188 207.736 L226.5 206.827 L228.812 205.906 L231.125 204.974 L233.438 204.031 L235.75 203.075 L238.062 202.108 L240.375 201.128 L242.688 200.136 L245.0 199.131 L247.312 198.114 L249.625 197.084 L251.938 196.041 L254.25 194.985 L256.562 193.916 L258.875 192.833 L261.188 191.736 L263.5 190.626 L265.812 189.502 L268.125 188.364 L270.438 187.211 L272.75 186.044 L275.062 184.862 L277.375 183.665 L279.688 182.454 L282.0 181.227 L284.312 179.984 L286.625 178.726 L288.938 177.452 L291.25 176.162 L293.562 174.856 L295.875 173.534 L298.188 172.194 L300.5 170.838 L302.812 169.465 L305.125 168.075 L307.438 166.667 L309.75 165.242 L312.062 163.798 L314.375 162.336 L316.688 160.856 L319.0 159.358 L321.312 157.84 L323.625 156.304 L325.938 154.748 L328.25 153.172 L330.562 151.577 L332.875 149.962 L335.188 148.326 L337.5 146.67 L339.812 144.993 L342.125 143.294 L344.438 141.575 L346.75 139.834 L349.062 138.071 L351.375 136.285 L353.688 134.478 L356.0 132.647 L358.312 130.794 L360.625 128.917 L362.938 127.017 L365.25 125.092 L367.562 123.144 L369.875 121.171 L372.188 119.173 L374.5 117.15 L376.812 115.102 L379.125 113.027 L381.438 110.927 L383.75 108.801 L386.062 106.647 L388.375 104.467 L390.688 102.259 L393.0 100.023 L395.312 97.759 L397.625 95.467 L399.938 93.146 L402.25 90.795 L404.562 88.415 L406.875 86.006 L409.188 83.565 L411.5 81.095 L413.812 78.593 L416.125 76.059 L418.438 73.494 L420.75 70.897 L423.062 68.266 L425.375 65.603 L427.688 62.906 L430.0 60.176\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-1154)\"/><path d=\"M60.0 190.75 L62.312 190.75 L64.625 190.75 L66.938 190.75 L69.25 190.75 L71.562 190.75 L73.875 190.75 L76.188 190.75 L78.5 190.75 L80.812 190.75 L83.125 190.75 L85.438 190.75 L87.75 190.75 L90.062 190.75 L92.375 190.75 L94.688 190.75 L97.0 190.75 L99.312 190.75 L101.625 190.75 L103.938 190.75 L106.25 190.75 L108.562 190.75 L110.875 190.75 L113.188 190.75 L115.5 190.75 L117.812 190.75 L120.125 190.75 L122.438 190.75 L124.75 190.75 L127.062 190.75 L129.375 190.75 L131.688 190.75 L134.0 190.75 L136.312 190.75 L138.625 190.75 L140.938 190.75 L143.25 190.75 L145.562 190.75 L147.875 190.75 L150.188 190.75 L152.5 190.75 L154.812 190.75 L157.125 190.75 L159.438 190.75 L161.75 190.75 L164.062 190.75 L166.375 190.75 L168.688 190.75 L171.0 190.75 L173.312 190.75 L175.625 190.75 L177.938 190.75 L180.25 190.75 L182.562 190.75 L184.875 190.75 L187.188 190.75 L189.5 190.75 L191.812 190.75 L194.125 190.75 L196.438 190.75 L198.75 190.75 L201.062 190.75 L203.375 190.75 L205.688 190.75 L208.0 190.75 L210.312 190.75 L212.625 190.75 L214.938 190.75 L217.25 190.75 L219.562 190.75 L221.875 190.75 L224.188 190.75 L226.5 190.75 L228.812 190.75 L231.125 190.75 L233.438 190.75 L235.75 190.75 L238.062 190.75 L240.375 190.75 L242.688 190.75 L245.0 190.75 L247.312 190.75 L249.625 190.75 L251.938 190.75 L254.25 190.75 L256.562 190.75 L258.875 190.75 L261.188 190.75 L263.5 190.75 L265.812 190.75 L268.125 190.75 L270.438 190.75 L272.75 190.75 L275.062 190.75 L277.375 190.75 L279.688 190.75 L282.0 190.75 L284.312 190.75 L286.625 190.75 L288.938 190.75 L291.25 190.75 L293.562 190.75 L295.875 190.75 L298.188 190.75 L300.5 190.75 L302.812 190.75 L305.125 190.75 L307.438 190.75 L309.75 190.75 L312.062 190.75 L314.375 190.75 L316.688 190.75 L319.0 190.75 L321.312 190.75 L323.625 190.75 L325.938 190.75 L328.25 190.75 L330.562 190.75 L332.875 190.75 L335.188 190.75 L337.5 190.75 L339.812 190.75 L342.125 190.75 L344.438 190.75 L346.75 190.75 L349.062 190.75 L351.375 190.75 L353.688 190.75 L356.0 190.75 L358.312 190.75 L360.625 190.75 L362.938 190.75 L365.25 190.75 L367.562 190.75 L369.875 190.75 L372.188 190.75 L374.5 190.75 L376.812 190.75 L379.125 190.75 L381.438 190.75 L383.75 190.75 L386.062 190.75 L388.375 190.75 L390.688 190.75 L393.0 190.75 L395.312 190.75 L397.625 190.75 L399.938 190.75 L402.25 190.75 L404.562 190.75 L406.875 190.75 L409.188 190.75 L411.5 190.75 L413.812 190.75 L416.125 190.75 L418.438 190.75 L420.75 190.75 L423.062 190.75 L425.375 190.75 L427.688 190.75 L430.0 190.75\" stroke=\"#087f8c\" fill=\"none\" stroke-width=\"3\" stroke-dasharray=\"8 5\" clip-path=\"url(#clip-ma3-1154)\"/><text x=\"41\" y=\"195.75\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">3</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>I skärningspunkten är eˣ=3. Ta ln på båda sidor och beräkna sedan värdet med miniräknaren.</p><div class=\"facit-matte\">\\[x=\\ln3\\approx1{,}10\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx1{,}10\\).</p></div>",
+  "familj": "Naturliga logaritmer och ekvationer",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.0986122886681098,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken logaritm ger exponenten till e?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1155",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "niva": "E",
+  "typ": "tillåtna indata för naturliga logaritmen",
+  "poang": "1/0/0",
+  "t": "<p>Vilka av talen kan du ta den naturliga logaritmen av och få ett reellt tal? (Markera alla riktiga alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Ln x är definierad för positiva x. Talet behöver inte vara större än 1. Varken 0 eller negativa tal är tillåtna.</p><p class=\"facit-svar\"><strong>Svar:</strong> 0,5 och 3.</p></div>",
+  "familj": "Naturliga logaritmer och ekvationer",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka värden kan en potens med basen e anta?</p>",
+  "alternativ": [
+    {
+      "txt": "−2",
+      "ratt": false,
+      "kommentar": "Det finns ingen reell exponent som gör e upphöjt till exponenten negativt."
+    },
+    {
+      "txt": "0",
+      "ratt": false,
+      "kommentar": "Exponentialfunktionen med basen e når aldrig värdet 0."
+    },
+    {
+      "txt": "0,5",
+      "ratt": true,
+      "kommentar": "Alla positiva tal har en naturlig logaritm, även tal som är mindre än 1."
+    },
+    {
+      "txt": "3",
+      "ratt": true,
+      "kommentar": "3 är positivt och har därför en naturlig logaritm."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1156",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "niva": "E",
+  "typ": "summa som en enda naturlig logaritm",
+  "poang": "1/0/0",
+  "t": "<p>Skriv \\(\\ln2+\\ln7\\) som en enda naturlig logaritm.</p>",
+  "s": "<div class=\"facit-v2\"><p>En summa av logaritmer med samma bas kan skrivas som logaritmen av produkten.</p><div class=\"facit-matte\">\\[\\ln2+\\ln7=\\ln(2\\cdot7)=\\ln14\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\ln14\\).</p></div>",
+  "familj": "Naturliga logaritmer och ekvationer",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "ln(14)",
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": false,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken logaritmlag kopplar ihop en summa av logaritmer med en produkt?</p>",
+  "svarFormat": "en_logaritm",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1157",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "niva": "E",
+  "typ": "hitta felaktig logaritmlag",
+  "poang": "1/0/0",
+  "t": "<p>Nora skriver \\(\\ln(2+3)=\\ln2+\\ln3\\). Vilket påstående är riktigt? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Vänsterledet är ln 5. På höger sida gäller produktregeln för logaritmer.</p><div class=\"facit-matte\">\\[\\ln2+\\ln3=\\ln(2\\cdot3)=\\ln6\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Nora har fel. Ln 5 och ln 6 är olika tal.</p></div>",
+  "familj": "Naturliga logaritmer och ekvationer",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket räknesätt inne i logaritmen hör ihop med en summa av två logaritmer?</p>",
+  "alternativ": [
+    {
+      "txt": "Nora har rätt: en logaritm kan fördelas över addition.",
+      "ratt": false,
+      "kommentar": "Logaritmen av en summa får inte delas upp så."
+    },
+    {
+      "txt": "Nora har fel: ln 2 + ln 3 är ln 6.",
+      "ratt": true,
+      "kommentar": "Produktregeln ger ln 2+ln 3=ln(2·3), medan vänsterledet är ln 5."
+    },
+    {
+      "txt": "Nora har fel: ln 2 + ln 3 är ln 1.",
+      "ratt": false,
+      "kommentar": "Det är en produkt som hör ihop med summan av logaritmer, inte en differens."
+    },
+    {
+      "txt": "Nora har rätt bara om man avrundar till två decimaler.",
+      "ratt": false,
+      "kommentar": "Ln 5≈1,61 och ln 6≈1,79 är olika även efter denna avrundning."
+    }
+  ],
   "kurs": [
     "1b",
     "1c"

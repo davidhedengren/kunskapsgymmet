@@ -14784,5 +14784,598 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
   "rättSvar": 0.999,
   "tolerans": 0.0005,
   "svarFormat": "numeriskt"
+},
+{
+  "id": "4.450",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Bestäm standardavvikelsen Sx för talen 4, 6 och 8.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(n=3\\) värden och medelvärdet \\(\\bar x=6\\).</p></li><li><div class=\"facit-matte\">\\[\\sum(x-\\bar x)^2=8\\]</div></li><li><div class=\"facit-matte\">\\[S_x=\\sqrt{\\frac{\\sum(x-\\bar x)^2}{n-1}}=\\sqrt{\\frac{8}{2}}\\approx2\\]</div></li><li><p>I GeoGebra (eller på räknaren) visas samma värde som Sx.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(S_x=2\\)</p></div>",
+  "familj": "Beräkna och tolka standardavvikelse",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Medelvärdet är 6. Hur långt från medelvärdet ligger varje tal? Kvadrera, summera, dela med \\(n-1\\) och dra roten ur.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.0,
+  "tolerans": 0.005
+},
+{
+  "id": "4.451",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Varje prick visar hur många timmar en elev lade på läxor en viss vecka.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"270\" viewBox=\"0 0 480 270\" role=\"img\" aria-label=\"Prickdiagram över läxtid för åtta elever: en prick vid 2, två vid 3, tre vid 4, en vid 5 och en vid 7 timmar.\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50\" y1=\"200\" x2=\"450\" y2=\"200\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"50.0\" y1=\"200\" x2=\"50.0\" y2=\"207\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"50.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"100.0\" y1=\"200\" x2=\"100.0\" y2=\"207\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"100.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"150.0\" y1=\"200\" x2=\"150.0\" y2=\"207\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"150.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"200.0\" y1=\"200\" x2=\"200.0\" y2=\"207\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"200.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"250.0\" y1=\"200\" x2=\"250.0\" y2=\"207\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"250.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"300.0\" y1=\"200\" x2=\"300.0\" y2=\"207\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"300.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"350.0\" y1=\"200\" x2=\"350.0\" y2=\"207\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"350.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"400.0\" y1=\"200\" x2=\"400.0\" y2=\"207\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"400.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><line x1=\"450.0\" y1=\"200\" x2=\"450.0\" y2=\"207\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"450.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><circle cx=\"150.0\" cy=\"184\" r=\"9\" fill=\"#216d87\"/><circle cx=\"200.0\" cy=\"184\" r=\"9\" fill=\"#216d87\"/><circle cx=\"200.0\" cy=\"160\" r=\"9\" fill=\"#216d87\"/><circle cx=\"250.0\" cy=\"184\" r=\"9\" fill=\"#216d87\"/><circle cx=\"250.0\" cy=\"160\" r=\"9\" fill=\"#216d87\"/><circle cx=\"250.0\" cy=\"136\" r=\"9\" fill=\"#216d87\"/><circle cx=\"300.0\" cy=\"184\" r=\"9\" fill=\"#216d87\"/><circle cx=\"400.0\" cy=\"184\" r=\"9\" fill=\"#216d87\"/><text x=\"250.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">Läxtid (h) en vecka</text></svg></div><p>Bestäm standardavvikelsen Sx för läxtiderna. (Svara i h med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Läs av värdena: 2, 3, 3, 4, 4, 4, 5, 7.</p></li><li><p>\\(n=8\\) värden och medelvärdet \\(\\bar x=4\\ \\text{h}\\).</p></li><li><div class=\"facit-matte\">\\[\\sum(x-\\bar x)^2=16\\]</div></li><li><div class=\"facit-matte\">\\[S_x=\\sqrt{\\frac{\\sum(x-\\bar x)^2}{n-1}}=\\sqrt{\\frac{16}{7}}\\approx1{,}51\\ \\text{h}\\]</div></li><li><p>I GeoGebra (eller på räknaren) visas samma värde som Sx.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(S_x\\approx1{,}51\\) h</p></div>",
+  "familj": "Beräkna och tolka standardavvikelse",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Skriv först ut alla åtta värden. En stapel med tre prickar betyder att värdet finns tre gånger.</p><p>Skriv in värdena i en lista i GeoGebra och använd statistikverktyget (en variabel). Välj Sx, där nämnaren är n − 1.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.511857892,
+  "tolerans": 0.005,
+  "svarEnhet": "h"
+},
+{
+  "id": "4.452",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Tabellen visar hur många tusen steg Maja gick varje dag under en vecka.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:center\"><thead><tr><th scope=\"col\">Mån</th><th scope=\"col\">Tis</th><th scope=\"col\">Ons</th><th scope=\"col\">Tor</th><th scope=\"col\">Fre</th><th scope=\"col\">Lör</th><th scope=\"col\">Sön</th></tr></thead><tbody><tr><td>6,2</td><td>8,5</td><td>7,1</td><td>9,8</td><td>5,4</td><td>10,3</td><td>7,7</td></tr></tbody></table><p>Bestäm standardavvikelsen Sx. (Svara i tusen steg med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(n=7\\) värden och medelvärdet \\(\\bar x=7{,}8571\\ \\text{tusen steg}\\).</p></li><li><div class=\"facit-matte\">\\[\\sum(x-\\bar x)^2=19{,}5371\\]</div></li><li><div class=\"facit-matte\">\\[S_x=\\sqrt{\\frac{\\sum(x-\\bar x)^2}{n-1}}=\\sqrt{\\frac{19{,}5371}{6}}\\approx1{,}8\\ \\text{tusen steg}\\]</div></li><li><p>I GeoGebra (eller på räknaren) visas samma värde som Sx.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(S_x\\approx1{,}8\\) tusen steg</p></div>",
+  "familj": "Beräkna och tolka standardavvikelse",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Skriv in värdena i en lista i GeoGebra och använd statistikverktyget (en variabel). Välj Sx, där nämnaren är n − 1.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.80449175,
+  "tolerans": 0.05
+},
+{
+  "id": "4.453",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En klubb har frågat sina 15 medlemmar om deras skostorlek.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:center\"><thead><tr><th scope=\"col\">Skostorlek</th><th scope=\"col\">Antal medlemmar</th></tr></thead><tbody><tr><td>38</td><td>3</td></tr><tr><td>39</td><td>4</td></tr><tr><td>40</td><td>5</td></tr><tr><td>41</td><td>2</td></tr><tr><td>42</td><td>1</td></tr></tbody></table><p>Bestäm standardavvikelsen Sx för skostorlekarna. (Svara med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Frekvenserna räknas som observationer: \\(n=15\\) värden och medelvärdet \\(\\bar x=39{,}6\\).</p></li><li><div class=\"facit-matte\">\\[\\sum(x-\\bar x)^2=19{,}6\\]</div></li><li><div class=\"facit-matte\">\\[S_x=\\sqrt{\\frac{\\sum(x-\\bar x)^2}{n-1}}=\\sqrt{\\frac{19{,}6}{14}}\\approx1{,}18\\]</div></li><li><p>I GeoGebra (eller på räknaren) visas samma värde som Sx.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(S_x\\approx1{,}18\\)</p></div>",
+  "familj": "Beräkna och tolka standardavvikelse",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Varje rad ska räknas lika många gånger som antalet medlemmar. I GeoGebra kan du skriva värdena med frekvenser eller lista alla 15 värden.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.183215957,
+  "tolerans": 0.005
+},
+{
+  "id": "4.454",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Två bågskyttar sköt sex pilar var. Tabellen visar poängen för varje pil.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:center\"><thead><tr><th scope=\"col\">Pil</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>Ali</td><td>9</td><td>8</td><td>10</td><td>9</td><td>7</td><td>9</td></tr><tr><td>Bo</td><td>10</td><td>6</td><td>10</td><td>9</td><td>7</td><td>10</td></tr></tbody></table><p>Båda har medelvärdet 8,7 poäng (avrundat). Bestäm standardavvikelsen Sx för var och en. (Svara med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[S_{x,\\text{Ali}}\\approx1{,}03,\\qquad S_{x,\\text{Bo}}\\approx1{,}75\\]</div></li><li><p>Ali har lägre standardavvikelse och skjuter jämnare. Bo har fler toppskott men också sämre pilar, så hans poäng varierar mer.</p></li></ol></div>",
+  "familj": "Jämföra spridning och förändring",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Skriv in värdena i en lista i GeoGebra och använd statistikverktyget (en variabel). Välj Sx, där nämnaren är n − 1.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1.032795559,
+    1.751190072
+  ],
+  "tolerans": [
+    0.005,
+    0.005
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEtiketter": [
+    "Ali",
+    "Bo"
+  ],
+  "svarsstruktur": "ordnad"
+},
+{
+  "id": "4.455",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Diagrammet visar hur många mål ett lag gjorde i var och en av säsongens matcher.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"300\" viewBox=\"0 0 460 300\" role=\"img\" aria-label=\"Stolpdiagram över antal mål per match under 15 matcher: 0 mål i 4 matcher, 1 mål i 6, 2 mål i 3, 3 mål i 1 och 4 mål i 1 match.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60\" y1=\"230.0\" x2=\"435\" y2=\"230.0\" stroke=\"#e6ebf0\"/><text x=\"52.0\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"60\" y1=\"202.9\" x2=\"435\" y2=\"202.9\" stroke=\"#e6ebf0\"/><text x=\"52.0\" y=\"207.9\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\">1</text><line x1=\"60\" y1=\"175.7\" x2=\"435\" y2=\"175.7\" stroke=\"#e6ebf0\"/><text x=\"52.0\" y=\"180.7\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\">2</text><line x1=\"60\" y1=\"148.6\" x2=\"435\" y2=\"148.6\" stroke=\"#e6ebf0\"/><text x=\"52.0\" y=\"153.6\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\">3</text><line x1=\"60\" y1=\"121.4\" x2=\"435\" y2=\"121.4\" stroke=\"#e6ebf0\"/><text x=\"52.0\" y=\"126.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\">4</text><line x1=\"60\" y1=\"94.3\" x2=\"435\" y2=\"94.3\" stroke=\"#e6ebf0\"/><text x=\"52.0\" y=\"99.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\">5</text><line x1=\"60\" y1=\"67.1\" x2=\"435\" y2=\"67.1\" stroke=\"#e6ebf0\"/><text x=\"52.0\" y=\"72.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\">6</text><line x1=\"60\" y1=\"40.0\" x2=\"435\" y2=\"40.0\" stroke=\"#e6ebf0\"/><text x=\"52.0\" y=\"45.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\">7</text><rect x=\"75.0\" y=\"121.4\" width=\"45.0\" height=\"108.6\" fill=\"#216d87\"/><text x=\"97.5\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><rect x=\"150.0\" y=\"67.1\" width=\"45.0\" height=\"162.9\" fill=\"#216d87\"/><text x=\"172.5\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><rect x=\"225.0\" y=\"148.6\" width=\"45.0\" height=\"81.4\" fill=\"#216d87\"/><text x=\"247.5\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><rect x=\"300.0\" y=\"202.9\" width=\"45.0\" height=\"27.1\" fill=\"#216d87\"/><text x=\"322.5\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><rect x=\"375.0\" y=\"202.9\" width=\"45.0\" height=\"27.1\" fill=\"#216d87\"/><text x=\"397.5\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"60\" y1=\"230\" x2=\"435\" y2=\"230\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"60\" y1=\"230\" x2=\"60\" y2=\"30\" stroke=\"#34495e\" stroke-width=\"2\"/><text x=\"247.5\" y=\"278.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">Antal mål per match</text><text x=\"56.0\" y=\"22.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\">Antal</text></svg></div><p>Bestäm standardavvikelsen Sx för antalet mål per match. (Svara med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Läs av frekvenserna: 0 mål 4 gånger, 1 mål 6 gånger, 2 mål 3 gånger, 3 och 4 mål en gång var.</p></li><li><p>Frekvenserna räknas som observationer: \\(n=15\\) värden och medelvärdet \\(\\bar x=1{,}2667\\).</p></li><li><div class=\"facit-matte\">\\[\\sum(x-\\bar x)^2=18{,}9333\\]</div></li><li><div class=\"facit-matte\">\\[S_x=\\sqrt{\\frac{\\sum(x-\\bar x)^2}{n-1}}=\\sqrt{\\frac{18{,}9333}{14}}\\approx1{,}16\\]</div></li><li><p>I GeoGebra (eller på räknaren) visas samma värde som Sx.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(S_x\\approx1{,}16\\)</p></div>",
+  "familj": "Beräkna och tolka standardavvikelse",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Hur många matcher är det totalt? Varje match är en observation.</p><p>Skriv in värdena i en lista i GeoGebra och använd statistikverktyget (en variabel). Välj Sx, där nämnaren är n − 1.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.162919151,
+  "tolerans": 0.005
+},
+{
+  "id": "4.456",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "t": "<p>Sex elever sprang 80 m före och efter en träningsperiod. Tabellen visar tiderna i sekunder.</p><table class=\"data\" style=\"width:100%;max-width:430px;text-align:center\"><thead><tr><th scope=\"col\">Elev</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>Före</td><td>12,4</td><td>13,1</td><td>11,8</td><td>12,9</td><td>13,5</td><td>12,2</td></tr><tr><td>Efter</td><td>12</td><td>12,4</td><td>11,6</td><td>12,1</td><td>12,6</td><td>12</td></tr></tbody></table><p>Förbättringen för en elev är tiden före minus tiden efter. Bestäm standardavvikelsen Sx för förbättringarna. (Svara i s med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förbättringarna är 0,4, 0,7, 0,2, 0,8, 0,9, 0,2 s.</p></li><li><p>\\(n=6\\) värden och medelvärdet \\(\\bar x=0{,}5333\\ \\text{s}\\).</p></li><li><div class=\"facit-matte\">\\[\\sum(x-\\bar x)^2=0{,}4733\\]</div></li><li><div class=\"facit-matte\">\\[S_x=\\sqrt{\\frac{\\sum(x-\\bar x)^2}{n-1}}=\\sqrt{\\frac{0{,}4733}{5}}\\approx0{,}31\\ \\text{s}\\]</div></li><li><p>I GeoGebra (eller på räknaren) visas samma värde som Sx.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(S_x\\approx0{,}31\\) s</p></div>",
+  "familj": "Beräkna och tolka standardavvikelse",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Beräkna först förbättringen för varje elev. Det är de sex skillnaderna som ska ha en standardavvikelse, inte tiderna.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.3076794869,
+  "tolerans": 0.005,
+  "svarEnhet": "s"
+},
+{
+  "id": "4.457",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "t": "<p>Talen 5, 9 och \\(x\\) har medelvärdet 9.</p><p>Bestäm \\(x\\) och standardavvikelsen Sx för de tre talen.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{5+9+x}{3}=9\\;\\Rightarrow\\;x=13\\]</div></li><li><p>\\(n=3\\) värden och medelvärdet \\(\\bar x=9\\).</p></li><li><div class=\"facit-matte\">\\[\\sum(x-\\bar x)^2=32\\]</div></li><li><div class=\"facit-matte\">\\[S_x=\\sqrt{\\frac{\\sum(x-\\bar x)^2}{n-1}}=\\sqrt{\\frac{32}{2}}\\approx4\\]</div></li><li><p>I GeoGebra (eller på räknaren) visas samma värde som Sx.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=13\\) och \\(S_x=4\\)</p></div>",
+  "familj": "Beräkna och tolka standardavvikelse",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Bestäm först \\(x\\) med hjälp av medelvärdet.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    13,
+    4.0
+  ],
+  "tolerans": [
+    0,
+    0.005
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEtiketter": [
+    "x",
+    "Sx"
+  ],
+  "svarsstruktur": "ordnad"
+},
+{
+  "id": "4.458",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/1/2",
+  "t": "<p>Talen 2, 4 och \\(x\\), där \\(x\\gt4\\), har standardavvikelsen \\(S_x=4\\).</p><p>Bestäm \\(x\\). (Svara med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\bar x=\\frac{6+x}{3}\\]</div></li><li><div class=\"facit-matte\">\\[\\sum(x_i-\\bar x)^2=2^2+4^2+x^2-3\\bar x^2=\\frac{2x^2-12x+24}{3}\\]</div></li><li><div class=\"facit-matte\">\\[S_x^2=\\frac{1}{2}\\cdot\\frac{2x^2-12x+24}{3}=16\\;\\Rightarrow\\;x^2-6x-36=0\\]</div></li><li><div class=\"facit-matte\">\\[x=3+\\sqrt{45}\\approx9{,}71\\]</div></li><li><p>Kontroll i GeoGebra: Sx för 2, 4 och 9,71 blir 4,00. Det går också att pröva sig fram med en glidare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx9{,}71\\)</p></div>",
+  "familj": "Beräkna och tolka standardavvikelse",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Ställ upp Sx som ett uttryck i \\(x\\), eller låt \\(x\\) vara en glidare i GeoGebra och se när Sx blir 4.</p>",
+  "spel": true,
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9.708203932,
+  "tolerans": 0.005
+},
+{
+  "id": "4.459",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Åtta ägg från samma kartong vägdes. Vikterna i gram var 62, 57, 65, 61, 59, 63, 60 och 64.</p><p>Bestäm medelvärdet och standardavvikelsen Sx. (Svara i g med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(n=8\\) värden och medelvärdet \\(\\bar x=61{,}375\\ \\text{g}\\).</p></li><li><div class=\"facit-matte\">\\[\\sum(x-\\bar x)^2=49{,}875\\]</div></li><li><div class=\"facit-matte\">\\[S_x=\\sqrt{\\frac{\\sum(x-\\bar x)^2}{n-1}}=\\sqrt{\\frac{49{,}875}{7}}\\approx2{,}7\\ \\text{g}\\]</div></li><li><p>I GeoGebra (eller på räknaren) visas samma värde som Sx.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Medelvärdet är 61,4 g och \\(S_x\\approx2{,}7\\) g.</p></div>",
+  "familj": "Beräkna och tolka standardavvikelse",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Skriv in värdena i en lista i GeoGebra och använd statistikverktyget (en variabel). Välj Sx, där nämnaren är n − 1.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    61.375,
+    2.669269563
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "g",
+    "g"
+  ],
+  "svarEtiketter": [
+    "Medelvärde",
+    "Sx"
+  ],
+  "svarsstruktur": "ordnad"
+},
+{
+  "id": "4.460",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vad beskriver standardavvikelsen för ett datamaterial?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Standardavvikelsen bygger på hur långt varje värde ligger från medelvärdet, som pilarna i figuren. Den är ett slags typiskt avstånd till medelvärdet.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"250\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Fem värden på en tallinje med medelvärdet 8 markerat som en streckad linje. Pilar visar varje värdes avstånd till medelvärdet.\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40\" y1=\"190\" x2=\"420\" y2=\"190\" stroke=\"#34495e\" stroke-width=\"2\"/><line x1=\"50\" y1=\"190\" x2=\"50\" y2=\"197\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"84\" y1=\"190\" x2=\"84\" y2=\"197\" stroke=\"#34495e\"/><text x=\"84.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"118\" y1=\"190\" x2=\"118\" y2=\"197\" stroke=\"#34495e\"/><text x=\"118.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"152\" y1=\"190\" x2=\"152\" y2=\"197\" stroke=\"#34495e\"/><text x=\"152.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"186\" y1=\"190\" x2=\"186\" y2=\"197\" stroke=\"#34495e\"/><text x=\"186.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"220\" y1=\"190\" x2=\"220\" y2=\"197\" stroke=\"#34495e\"/><text x=\"220.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><line x1=\"254\" y1=\"190\" x2=\"254\" y2=\"197\" stroke=\"#34495e\"/><text x=\"254.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><line x1=\"288\" y1=\"190\" x2=\"288\" y2=\"197\" stroke=\"#34495e\"/><text x=\"288.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">9</text><line x1=\"322\" y1=\"190\" x2=\"322\" y2=\"197\" stroke=\"#34495e\"/><text x=\"322.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"356\" y1=\"190\" x2=\"356\" y2=\"197\" stroke=\"#34495e\"/><text x=\"356.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">11</text><line x1=\"390\" y1=\"190\" x2=\"390\" y2=\"197\" stroke=\"#34495e\"/><text x=\"390.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">12</text><line x1=\"424\" y1=\"190\" x2=\"424\" y2=\"197\" stroke=\"#34495e\"/><text x=\"424.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">13</text><circle cx=\"118\" cy=\"176\" r=\"8\" fill=\"#216d87\"/><circle cx=\"220\" cy=\"176\" r=\"8\" fill=\"#216d87\"/><circle cx=\"254\" cy=\"176\" r=\"8\" fill=\"#216d87\"/><circle cx=\"288\" cy=\"176\" r=\"8\" fill=\"#216d87\"/><circle cx=\"390\" cy=\"176\" r=\"8\" fill=\"#216d87\"/><line x1=\"254\" y1=\"40\" x2=\"254\" y2=\"190\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><text x=\"254.0\" y=\"32.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\">medelvärde 8</text><line x1=\"254.0\" y1=\"150.0\" x2=\"118.0\" y2=\"150.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><polygon points=\"118.0,150.0 128.1,145.7 128.1,154.3\" fill=\"#c2410c\"/><line x1=\"254.0\" y1=\"128.0\" x2=\"220.0\" y2=\"128.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><polygon points=\"220.0,128.0 230.1,123.7 230.1,132.3\" fill=\"#c2410c\"/><line x1=\"254.0\" y1=\"84.0\" x2=\"288.0\" y2=\"84.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><polygon points=\"288.0,84.0 277.9,88.3 277.9,79.7\" fill=\"#c2410c\"/><line x1=\"254.0\" y1=\"62.0\" x2=\"390.0\" y2=\"62.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><polygon points=\"390.0,62.0 379.9,66.3 379.9,57.7\" fill=\"#c2410c\"/><text x=\"220.0\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Pilarna visar avvikelserna från medelvärdet</text></svg></div></li><li><p>Skillnaden mellan största och minsta värdet är variationsbredden. Det mittersta värdet är medianen och det vanligaste är typvärdet.</p></li></ol></div>",
+  "familj": "Uppskatta och tolka spridning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vilket mått använder avståndet från varje värde till medelvärdet?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Hur långt värdena typiskt ligger från medelvärdet",
+      "ratt": true,
+      "kommentar": "Standardavvikelsen bygger på varje värdes avvikelse från medelvärdet."
+    },
+    {
+      "txt": "Skillnaden mellan det största och det minsta värdet",
+      "ratt": false,
+      "kommentar": "Det är variationsbredden."
+    },
+    {
+      "txt": "Det värde som ligger i mitten när värdena sorteras",
+      "ratt": false,
+      "kommentar": "Det är medianen."
+    },
+    {
+      "txt": "Det värde som förekommer flest gånger",
+      "ratt": false,
+      "kommentar": "Det är typvärdet."
+    }
+  ]
+},
+{
+  "id": "4.461",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>De två datamaterialen har samma medelvärde (5) och samma variationsbredd (8).</p><p>A: 1, 5, 5, 5, 9<br>B: 1, 1, 5, 9, 9</p><p>Vilket påstående stämmer?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I A ligger tre av värdena exakt på medelvärdet. I B ligger fyra värden 4 steg från medelvärdet. Värdena i B ligger alltså i genomsnitt längre från medelvärdet.</p></li><li><div class=\"facit-matte\">\\[S_{x,A}=\\sqrt{\\frac{16+16}{4}}\\approx2{,}83,\\qquad S_{x,B}=\\sqrt{\\frac{4\\cdot16}{4}}=4\\]</div></li><li><p>Samma variationsbredd betyder inte samma standardavvikelse. Variationsbredden använder bara största och minsta värdet.</p></li></ol></div>",
+  "familj": "Uppskatta och tolka spridning",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Jämför hur långt alla värden, inte bara ytterpunkterna, ligger från medelvärdet 5.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "B har störst standardavvikelse.",
+      "ratt": true,
+      "kommentar": "Fler värden ligger långt från medelvärdet i B."
+    },
+    {
+      "txt": "A har störst standardavvikelse.",
+      "ratt": false,
+      "kommentar": "I A ligger de flesta värdena på medelvärdet."
+    },
+    {
+      "txt": "De har samma standardavvikelse eftersom variationsbredden är lika.",
+      "ratt": false,
+      "kommentar": "Variationsbredden beror bara på största och minsta värdet."
+    },
+    {
+      "txt": "Det går inte att jämföra utan att känna till medianen.",
+      "ratt": false,
+      "kommentar": "Standardavvikelsen beror på avstånden till medelvärdet."
+    }
+  ]
+},
+{
+  "id": "4.462",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Varför ger standardavvikelsen ofta en bättre bild av spridningen än variationsbredden?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Variationsbredden beräknas bara från två värden, det största och det minsta. Standardavvikelsen använder alla värden och hur långt var och ett ligger från medelvärdet.</p></li></ol></div>",
+  "familj": "Uppskatta och tolka spridning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur många av värdena används när man räknar ut variationsbredden?</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Den bygger på alla värden, inte bara det största och det minsta.",
+      "ratt": true
+    },
+    {
+      "txt": "Den påverkas aldrig av ett enskilt extremt värde.",
+      "ratt": false,
+      "kommentar": "Ett extremt värde ökar också standardavvikelsen."
+    },
+    {
+      "txt": "Den är alltid större än variationsbredden.",
+      "ratt": false,
+      "kommentar": "Standardavvikelsen är tvärtom mindre än variationsbredden."
+    },
+    {
+      "txt": "Den har ingen enhet och kan därför jämföras mellan alla material.",
+      "ratt": false,
+      "kommentar": "Standardavvikelsen har samma enhet som värdena."
+    }
+  ]
+},
+{
+  "id": "4.463",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "t": "<p>Lisa beräknar standardavvikelsen Sx för talen 2, 4, 6 och 8 för hand och får 2,24. Facit säger 2,58.</p><p>Vad är den troligaste förklaringen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\bar x=5,\\qquad \\sum(x-\\bar x)^2=9+1+1+9=20\\]</div></li><li><div class=\"facit-matte\">\\[S_x=\\sqrt{\\frac{20}{4-1}}\\approx2{,}58\\]</div></li><li><p>Delar man i stället med 4 får man \\(\\sqrt{20/4}\\approx2{,}24\\), vilket är Lisas svar. För Sx ska kvadratsumman delas med \\(n-1=3\\). Därför är Lisas värde lite för litet.</p></li></ol></div>",
+  "familj": "Jämföra spridning och förändring",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Räkna själv: vad ska kvadratsumman delas med när man beräknar Sx?</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Lisa har delat kvadratsumman med n = 4 i stället för n − 1 = 3.",
+      "ratt": true
+    },
+    {
+      "txt": "Lisa har glömt att dra roten ur.",
+      "ratt": false,
+      "kommentar": "Utan roten hade hon fått 5 eller 6,67."
+    },
+    {
+      "txt": "Lisa har räknat med medianen i stället för medelvärdet.",
+      "ratt": false,
+      "kommentar": "Här är medianen och medelvärdet båda 5."
+    },
+    {
+      "txt": "Facit har avrundat fel.",
+      "ratt": false,
+      "kommentar": "2,58 är korrekt avrundat för Sx."
+    }
+  ]
+},
+{
+  "id": "4.464",
+  "kap": 4,
+  "omr": "standardavvikelse",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Väntetiden i en kundtjänst har medelvärdet 20 minuter och standardavvikelsen 2 minuter.</p><p>Vilken beskrivning passar bäst?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En liten standardavvikelse i förhållande till medelvärdet betyder att de flesta väntetider ligger nära 20 minuter, typiskt ett par minuter ifrån.</p></li></ol></div>",
+  "familj": "Uppskatta och tolka spridning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Standardavvikelsen anger ett typiskt avstånd från medelvärdet. Är 2 minuter mycket jämfört med 20 minuter?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "De flesta väntar ungefär 20 minuter, oftast bara några minuter mer eller mindre.",
+      "ratt": true
+    },
+    {
+      "txt": "Alla väntar mellan 18 och 22 minuter.",
+      "ratt": false,
+      "kommentar": "Standardavvikelsen är inte en gräns. Enstaka väntetider kan ligga längre bort."
+    },
+    {
+      "txt": "Väntetiden är 2 minuter för de flesta.",
+      "ratt": false,
+      "kommentar": "2 minuter är spridningen, inte väntetiden."
+    },
+    {
+      "txt": "Hälften väntar mer än 22 minuter.",
+      "ratt": false,
+      "kommentar": "Ungefär hälften väntar mer än medelvärdet, inte mer än 22 minuter."
+    }
+  ]
 }
 ];

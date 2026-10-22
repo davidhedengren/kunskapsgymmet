@@ -100210,5 +100210,312 @@ window.BANKMATO2 = [
       "kommentar": "Det är bara punkten −2."
     }
   ]
+},
+{
+  "id": "4.592",
+  "kap": 5,
+  "omr": "ekvationen_zn",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "antal lösningar",
+  "t": "<p>Hur många komplexa lösningar har ekvationen \\(z^5=32\\)?</p>",
+  "s": "<div class=\"facit-v2\"><p>En ekvation \\(z^n=a\\) med \\(a\\ne0\\) har exakt \\(n\\) komplexa lösningar. Här är \\(n=5\\).</p><p>En av dem är reell, \\(z=2\\). De övriga fyra ligger också på cirkeln med radien 2.</p></div>",
+  "familj": "Rötternas läge i talplanet",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur hänger antalet lösningar ihop med exponenten?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.593",
+  "kap": 5,
+  "omr": "ekvationen_zn",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "lösningarna till z⁴ = 16",
+  "t": "<p>Figuren visar lösningarna till \\(z^4=16\\). Vilka är de? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 360\" role=\"img\" aria-label=\"Fyra punkter på en cirkel med radien 2 kring origo: på positiva och negativa reella axeln och på positiva och negativa imaginära axeln.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"96.3\" y1=\"22\" x2=\"96.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"144.7\" y1=\"22\" x2=\"144.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"193.0\" y1=\"22\" x2=\"193.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"241.3\" y1=\"22\" x2=\"241.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"289.7\" y1=\"22\" x2=\"289.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"338.0\" y1=\"22\" x2=\"338.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"318.0\" x2=\"338\" y2=\"318.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"268.7\" x2=\"338\" y2=\"268.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"219.3\" x2=\"338\" y2=\"219.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"170.0\" x2=\"338\" y2=\"170.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"120.7\" x2=\"338\" y2=\"120.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"71.3\" x2=\"338\" y2=\"71.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"338\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"170.0\" x2=\"348\" y2=\"170.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"352,170.0 342,165.0 342,175.0\" fill=\"#172b3a\"/><line x1=\"193.0\" y1=\"318\" x2=\"193.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"193.0,8 188.0,18 198.0,18\" fill=\"#172b3a\"/><text x=\"350\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"201.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"96.3\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"144.7\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"241.3\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"289.7\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"338.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"187.0\" y=\"322.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"187.0\" y=\"272.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"187.0\" y=\"223.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"187.0\" y=\"124.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"187.0\" y=\"75.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"187.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"187.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><circle cx=\"193.0\" cy=\"173.0\" r=\"96.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><clipPath id=\"k56aa5a6f\"><rect x=\"48\" y=\"22\" width=\"290\" height=\"296\"/></clipPath><circle cx=\"289.7\" cy=\"170.0\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"193.0\" cy=\"71.3\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"96.3\" cy=\"170.0\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"193.0\" cy=\"268.7\" r=\"5\" fill=\"#172b3a\"/><line x1=\"289.7\" y1=\"170.0\" x2=\"193.0\" y2=\"71.3\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"193.0\" y1=\"71.3\" x2=\"96.3\" y2=\"170.0\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"96.3\" y1=\"170.0\" x2=\"193.0\" y2=\"268.7\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"193.0\" y1=\"268.7\" x2=\"289.7\" y2=\"170.0\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Beloppet är \\(\\sqrt[4]{16}=2\\). Lösningarna ligger med \\(90^\\circ\\) mellanrum: \\(2,\\ 2i,\\ -2,\\ -2i\\).</p><p>Kontroll: \\((2i)^4=16i^4=16\\).</p></div>",
+  "familj": "Rötternas läge i talplanet",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs av punkterna i figuren och kontrollera en av dem.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(2,\\ 2i,\\ -2,\\ -2i\\)",
+      "ratt": true,
+      "kommentar": "Fyra punkter på cirkeln med radien 2."
+    },
+    {
+      "txt": "\\(2\\) och \\(-2\\)",
+      "ratt": false,
+      "kommentar": "Det är bara de reella lösningarna. Det finns fyra."
+    },
+    {
+      "txt": "\\(4,\\ 4i,\\ -4,\\ -4i\\)",
+      "ratt": false,
+      "kommentar": "Beloppet är fjärde roten ur 16, alltså 2."
+    },
+    {
+      "txt": "\\(1+i,\\ 1-i,\\ -1+i,\\ -1-i\\)",
+      "ratt": false,
+      "kommentar": "(1 + i)⁴ = −4, inte 16."
+    }
+  ]
+},
+{
+  "id": "4.594",
+  "kap": 5,
+  "omr": "ekvationen_zn",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "vinkel mellan närliggande rötter",
+  "t": "<p>Lösningarna till \\(z^6=1\\) bildar en regelbunden sexhörning på enhetscirkeln. Hur stor är vinkeln mellan två närliggande lösningar, sett från origo? (Svara i grader.)</p>",
+  "s": "<div class=\"facit-v2\"><p>De sex lösningarna delar varvet lika: \\(\\dfrac{360^\\circ}{6}=60^\\circ\\).</p></div>",
+  "familj": "Rötternas läge i talplanet",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många lika stora delar delas varvet i?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 60,
+  "tolerans": 0,
+  "svarFormat": "grader"
+},
+{
+  "id": "4.595",
+  "kap": 5,
+  "omr": "ekvationen_zn",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "reell lösning till z³ = −27",
+  "t": "<p>Ekvationen \\(z^3=-27\\) har en reell lösning. Vilken?</p>",
+  "s": "<div class=\"facit-v2\"><p>\\((-3)^3=-27\\), så \\(z=-3\\). De två andra lösningarna är icke-reella och ligger på cirkeln med radien 3.</p></div>",
+  "familj": "Rötternas läge i talplanet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket tal upphöjt till tre ger −27?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": -3,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.596",
+  "kap": 5,
+  "omr": "ekvationen_zn",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "summan av alla rötter",
+  "t": "<p>Figuren visar de fem lösningarna till en ekvation \\(z^5=a\\). Vad är summan av alla fem lösningarna? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 360\" role=\"img\" aria-label=\"Fem punkter som bildar en regelbunden femhörning på en cirkel med radien 2 kring origo, med en punkt rakt uppåt.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"96.3\" y1=\"22\" x2=\"96.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"144.7\" y1=\"22\" x2=\"144.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"193.0\" y1=\"22\" x2=\"193.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"241.3\" y1=\"22\" x2=\"241.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"289.7\" y1=\"22\" x2=\"289.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"338.0\" y1=\"22\" x2=\"338.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"318.0\" x2=\"338\" y2=\"318.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"268.7\" x2=\"338\" y2=\"268.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"219.3\" x2=\"338\" y2=\"219.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"170.0\" x2=\"338\" y2=\"170.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"120.7\" x2=\"338\" y2=\"120.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"71.3\" x2=\"338\" y2=\"71.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"338\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"170.0\" x2=\"348\" y2=\"170.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"352,170.0 342,165.0 342,175.0\" fill=\"#172b3a\"/><line x1=\"193.0\" y1=\"318\" x2=\"193.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"193.0,8 188.0,18 198.0,18\" fill=\"#172b3a\"/><text x=\"350\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"201.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"96.3\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"144.7\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"241.3\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"289.7\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"338.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"187.0\" y=\"322.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"187.0\" y=\"272.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"187.0\" y=\"223.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"187.0\" y=\"124.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"187.0\" y=\"75.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"187.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"187.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><circle cx=\"193.0\" cy=\"173.0\" r=\"96.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><clipPath id=\"kc7a9f142\"><rect x=\"48\" y=\"22\" width=\"290\" height=\"296\"/></clipPath><circle cx=\"193.0\" cy=\"71.3\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"101.1\" cy=\"139.5\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"136.2\" cy=\"249.8\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"249.8\" cy=\"249.8\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"284.9\" cy=\"139.5\" r=\"5\" fill=\"#172b3a\"/><line x1=\"193.0\" y1=\"71.3\" x2=\"101.1\" y2=\"139.5\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"101.1\" y1=\"139.5\" x2=\"136.2\" y2=\"249.8\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"136.2\" y1=\"249.8\" x2=\"249.8\" y2=\"249.8\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"249.8\" y1=\"249.8\" x2=\"284.9\" y2=\"139.5\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"284.9\" y1=\"139.5\" x2=\"193.0\" y2=\"71.3\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Lösningarna ligger symmetriskt runt origo. Om man lägger dem efter varandra som pilar bildar de en sluten femhörning, så summan är 0.</p><p>Det gäller för alla ekvationer \\(z^n=a\\) med \\(n\\ge2\\).</p></div>",
+  "familj": "Rötternas läge i talplanet",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Tänk på lösningarna som pilar från origo. Vad händer när man adderar symmetriskt fördelade pilar?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "0",
+      "ratt": true,
+      "kommentar": "Pilarna tar ut varandra."
+    },
+    {
+      "txt": "5a",
+      "ratt": false,
+      "kommentar": "Summan beror inte på a."
+    },
+    {
+      "txt": "10",
+      "ratt": false,
+      "kommentar": "5 · 2 vore summan av beloppen, inte av talen."
+    },
+    {
+      "txt": "2i",
+      "ratt": false,
+      "kommentar": "Det är bara en av lösningarna."
+    }
+  ]
+},
+{
+  "id": "4.597",
+  "kap": 5,
+  "omr": "ekvationen_zn",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "lösningar till z² = −9",
+  "t": "<p>Lös \\(z^2=-9\\). Ange lösningarnas imaginärdelar (båda har realdelen 0).</p>",
+  "s": "<div class=\"facit-v2\"><p>\\((3i)^2=9i^2=-9\\) och \\((-3i)^2=-9\\). Lösningarna är \\(z=\\pm3i\\).</p></div>",
+  "familj": "Rötternas läge i talplanet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket tal i gånger sig självt ger −9?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -3,
+    3
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "Im",
+    "Im"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.598",
+  "kap": 5,
+  "omr": "ekvationen_zn",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "argument för rot i första kvadranten",
+  "t": "<p>Figuren visar lösningarna till \\(z^3=8i\\). Vilket argument har lösningen \\(z_1\\) i första kvadranten? (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 360\" role=\"img\" aria-label=\"Tre punkter på en cirkel med radien 2 kring origo: en i första kvadranten, en i andra kvadranten och en rakt nedåt på imaginära axeln.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"96.3\" y1=\"22\" x2=\"96.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"144.7\" y1=\"22\" x2=\"144.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"193.0\" y1=\"22\" x2=\"193.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"241.3\" y1=\"22\" x2=\"241.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"289.7\" y1=\"22\" x2=\"289.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"338.0\" y1=\"22\" x2=\"338.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"318.0\" x2=\"338\" y2=\"318.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"268.7\" x2=\"338\" y2=\"268.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"219.3\" x2=\"338\" y2=\"219.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"170.0\" x2=\"338\" y2=\"170.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"120.7\" x2=\"338\" y2=\"120.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"71.3\" x2=\"338\" y2=\"71.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"338\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"170.0\" x2=\"348\" y2=\"170.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"352,170.0 342,165.0 342,175.0\" fill=\"#172b3a\"/><line x1=\"193.0\" y1=\"318\" x2=\"193.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"193.0,8 188.0,18 198.0,18\" fill=\"#172b3a\"/><text x=\"350\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"201.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"96.3\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"144.7\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"241.3\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"289.7\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"338.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"187.0\" y=\"322.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"187.0\" y=\"272.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"187.0\" y=\"223.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"187.0\" y=\"124.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"187.0\" y=\"75.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"187.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"187.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><circle cx=\"193.0\" cy=\"173.0\" r=\"96.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><clipPath id=\"k0bd692ff\"><rect x=\"48\" y=\"22\" width=\"290\" height=\"296\"/></clipPath><circle cx=\"276.7\" cy=\"120.7\" r=\"5\" fill=\"#172b3a\"/><text x=\"282.7\" y=\"114.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">z1</text><circle cx=\"109.3\" cy=\"120.7\" r=\"5\" fill=\"#172b3a\"/><text x=\"115.3\" y=\"114.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">z2</text><circle cx=\"193.0\" cy=\"268.7\" r=\"5\" fill=\"#172b3a\"/><text x=\"199.0\" y=\"262.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">z3</text><line x1=\"276.7\" y1=\"120.7\" x2=\"109.3\" y2=\"120.7\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"109.3\" y1=\"120.7\" x2=\"193.0\" y2=\"268.7\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"193.0\" y1=\"268.7\" x2=\"276.7\" y2=\"120.7\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(8i=8(\\cos90^\\circ+i\\sin90^\\circ)\\). Med \\(z=r(\\cos v+i\\sin v)\\) ger de Moivres formel \\(r^3=8\\) och \\(3v=90^\\circ+n\\cdot360^\\circ\\).</p><p>\\(r=2\\) och \\(v=30^\\circ+n\\cdot120^\\circ\\): 30°, 150° och 270°. Lösningen i första kvadranten har argumentet 30°.</p></div>",
+  "familj": "Rötternas läge i talplanet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv 8i i polär form och dela argumentet med 3.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 30,
+  "tolerans": 0,
+  "svarFormat": "grader"
+},
+{
+  "id": "4.599",
+  "kap": 5,
+  "omr": "ekvationen_zn",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "ekvation ur rötternas figur",
+  "t": "<p>Figuren visar alla lösningar till en ekvation \\(z^n=a\\), där \\(a\\) är ett positivt reellt tal. Vilken ekvation är det? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 360\" role=\"img\" aria-label=\"Sex punkter som bildar en regelbunden sexhörning på en cirkel med radien 2 kring origo, med en punkt på positiva reella axeln.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"96.3\" y1=\"22\" x2=\"96.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"144.7\" y1=\"22\" x2=\"144.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"193.0\" y1=\"22\" x2=\"193.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"241.3\" y1=\"22\" x2=\"241.3\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"289.7\" y1=\"22\" x2=\"289.7\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"338.0\" y1=\"22\" x2=\"338.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"318.0\" x2=\"338\" y2=\"318.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"268.7\" x2=\"338\" y2=\"268.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"219.3\" x2=\"338\" y2=\"219.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"170.0\" x2=\"338\" y2=\"170.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"120.7\" x2=\"338\" y2=\"120.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"71.3\" x2=\"338\" y2=\"71.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"338\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"170.0\" x2=\"348\" y2=\"170.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"352,170.0 342,165.0 342,175.0\" fill=\"#172b3a\"/><line x1=\"193.0\" y1=\"318\" x2=\"193.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"193.0,8 188.0,18 198.0,18\" fill=\"#172b3a\"/><text x=\"350\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"201.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"96.3\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"144.7\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"241.3\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"289.7\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"338.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"187.0\" y=\"322.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"187.0\" y=\"272.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"187.0\" y=\"223.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"187.0\" y=\"124.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"187.0\" y=\"75.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"187.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"187.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><circle cx=\"193.0\" cy=\"173.0\" r=\"96.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><clipPath id=\"k584936b0\"><rect x=\"48\" y=\"22\" width=\"290\" height=\"296\"/></clipPath><circle cx=\"289.7\" cy=\"170.0\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"241.3\" cy=\"84.6\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"144.7\" cy=\"84.6\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"96.3\" cy=\"170.0\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"144.7\" cy=\"255.4\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"241.3\" cy=\"255.4\" r=\"5\" fill=\"#172b3a\"/><line x1=\"289.7\" y1=\"170.0\" x2=\"241.3\" y2=\"84.6\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"241.3\" y1=\"84.6\" x2=\"144.7\" y2=\"84.6\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"144.7\" y1=\"84.6\" x2=\"96.3\" y2=\"170.0\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"96.3\" y1=\"170.0\" x2=\"144.7\" y2=\"255.4\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"144.7\" y1=\"255.4\" x2=\"241.3\" y2=\"255.4\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"241.3\" y1=\"255.4\" x2=\"289.7\" y2=\"170.0\" stroke=\"#8a96a3\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Det finns sex lösningar, så \\(n=6\\). De ligger på cirkeln med radien 2, och \\(z=2\\) är en lösning. Då är \\(a=2^6=64\\).</p></div>",
+  "familj": "Rötternas läge i talplanet",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Räkna lösningarna och läs av radien. Sätt in den reella lösningen.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(z^6=64\\)",
+      "ratt": true,
+      "kommentar": "Sex lösningar på cirkeln med radien 2, och 2⁶ = 64."
+    },
+    {
+      "txt": "\\(z^6=2\\)",
+      "ratt": false,
+      "kommentar": "Då vore radien sjätte roten ur 2, ungefär 1,12."
+    },
+    {
+      "txt": "\\(z^6=12\\)",
+      "ratt": false,
+      "kommentar": "2⁶ = 64, inte 6 · 2."
+    },
+    {
+      "txt": "\\(z^3=8\\)",
+      "ratt": false,
+      "kommentar": "Den har bara tre lösningar."
+    }
+  ]
 }
 ];

@@ -146529,5 +146529,302 @@ window.BANKMA1 = [
   "rättSvar": 9,
   "tolerans": 0,
   "svarFormat": "numeriskt"
+},
+{
+  "id": "4.588",
+  "kap": 4,
+  "omr": "omkrets_area",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "golvmaterial med spill",
+  "t": "<p>Ett rum ska få nytt laminatgolv. Ritningen visar rummets mått. Man räknar med 10 % spill, och ett paket laminat räcker till 2,2 m². Hur många paket behövs?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 225\" role=\"img\" aria-label=\"Ritning av ett L-format rum: 5,0 m brett och 4,0 m djupt, men i nedre högra hörnet saknas en bit som är 1,5 m bred och 1,0 m hög.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"223\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><g transform=\"translate(30,0)\"><polygon points=\"40,30 240,30 240,150 180,150 180,190 40,190\" fill=\"#f3ede2\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><text x=\"140.0\" y=\"22.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">5,0 m</text><text x=\"32.0\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"end\">4,0 m</text><text x=\"250.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"start\">3,0 m</text><text x=\"210.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#172b3a\" text-anchor=\"middle\">1,5 m</text><text x=\"110.0\" y=\"208.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">3,5 m</text><text x=\"174.0\" y=\"176.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#172b3a\" text-anchor=\"end\">1,0 m</text></g></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Hela rektangeln är \\(5{,}0\\cdot4{,}0=20\\) m². Hörnet som saknas är \\(1{,}5\\cdot1{,}0=1{,}5\\) m². Golvarean är \\(18{,}5\\) m².</p><p>Med 10 % spill: \\(18{,}5\\cdot1{,}10\\approx20{,}4\\) m². \\(\\dfrac{20{,}35}{2{,}2}\\approx9{,}25\\), så det behövs 10 paket.</p></div>",
+  "familj": "Arbetslivsuppgifter med ritningar",
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Dela upp golvet i rektanglar. Lägg på spillet och avrunda antalet paket uppåt.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 0,
+  "svarFormat": "heltal",
+  "svarEnhet": "paket"
+},
+{
+  "id": "4.589",
+  "kap": 4,
+  "omr": "omkrets_area",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "kakelplattor på en vägg",
+  "t": "<p>En vägg som är 2,40 m bred och 1,50 m hög ska kaklas med kvadratiska plattor med sidan 20 cm. Den nedersta raden måste kapas (se figuren), men varje kapad platta räknas som en hel. Hur många plattor går åt?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" role=\"img\" aria-label=\"En vägg kaklad med kvadratiska plattor: 12 plattor i bredd och 7 hela rader plus en kapad rad nederst, markerad med annan färg.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><g transform=\"translate(30,0)\"><rect x=\"30\" y=\"30\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"30\" y=\"50\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"30\" y=\"70\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"30\" y=\"90\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"30\" y=\"110\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"30\" y=\"130\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"30\" y=\"150\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"50\" y=\"30\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"50\" y=\"50\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"50\" y=\"70\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"50\" y=\"90\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"50\" y=\"110\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"50\" y=\"130\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"50\" y=\"150\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"70\" y=\"30\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"70\" y=\"50\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"70\" y=\"70\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"70\" y=\"90\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"70\" y=\"110\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"70\" y=\"130\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"70\" y=\"150\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"90\" y=\"30\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"90\" y=\"50\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"90\" y=\"70\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"90\" y=\"90\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"90\" y=\"110\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"90\" y=\"130\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"90\" y=\"150\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"110\" y=\"30\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"110\" y=\"50\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"110\" y=\"70\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"110\" y=\"90\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"110\" y=\"110\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"110\" y=\"130\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"110\" y=\"150\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"130\" y=\"30\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"130\" y=\"50\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"130\" y=\"70\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"130\" y=\"90\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"130\" y=\"110\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"130\" y=\"130\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"130\" y=\"150\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"150\" y=\"30\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"150\" y=\"50\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"150\" y=\"70\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"150\" y=\"90\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"150\" y=\"110\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"150\" y=\"130\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"150\" y=\"150\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"170\" y=\"30\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"170\" y=\"50\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"170\" y=\"70\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"170\" y=\"90\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"170\" y=\"110\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"170\" y=\"130\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"170\" y=\"150\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"190\" y=\"30\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"190\" y=\"50\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"190\" y=\"70\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"190\" y=\"90\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"190\" y=\"110\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"190\" y=\"130\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"190\" y=\"150\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"210\" y=\"30\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"210\" y=\"50\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"210\" y=\"70\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"210\" y=\"90\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"210\" y=\"110\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"210\" y=\"130\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"210\" y=\"150\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"230\" y=\"30\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"230\" y=\"50\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"230\" y=\"70\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"230\" y=\"90\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"230\" y=\"110\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"230\" y=\"130\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"230\" y=\"150\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"250\" y=\"30\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"250\" y=\"50\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"250\" y=\"70\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"250\" y=\"90\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"250\" y=\"110\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"250\" y=\"130\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"250\" y=\"150\" width=\"20\" height=\"20\" fill=\"#eef4fb\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"30\" y=\"170\" width=\"20\" height=\"10\" fill=\"#fdeee5\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"50\" y=\"170\" width=\"20\" height=\"10\" fill=\"#fdeee5\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"70\" y=\"170\" width=\"20\" height=\"10\" fill=\"#fdeee5\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"90\" y=\"170\" width=\"20\" height=\"10\" fill=\"#fdeee5\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"110\" y=\"170\" width=\"20\" height=\"10\" fill=\"#fdeee5\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"130\" y=\"170\" width=\"20\" height=\"10\" fill=\"#fdeee5\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"150\" y=\"170\" width=\"20\" height=\"10\" fill=\"#fdeee5\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"170\" y=\"170\" width=\"20\" height=\"10\" fill=\"#fdeee5\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"190\" y=\"170\" width=\"20\" height=\"10\" fill=\"#fdeee5\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"210\" y=\"170\" width=\"20\" height=\"10\" fill=\"#fdeee5\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"230\" y=\"170\" width=\"20\" height=\"10\" fill=\"#fdeee5\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"250\" y=\"170\" width=\"20\" height=\"10\" fill=\"#fdeee5\" stroke=\"#9aa7b4\" stroke-width=\"1\"/><rect x=\"30\" y=\"30\" width=\"240\" height=\"150\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><text x=\"150.0\" y=\"22.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">2,40 m</text><text x=\"22.0\" y=\"108.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"end\">1,50 m</text></g></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Bredden: \\(240/20=12\\) plattor. Höjden: \\(150/20=7{,}5\\), alltså 7 hela rader och en kapad rad, 8 rader.</p><p>Antal plattor: \\(12\\cdot8=96\\).</p></div>",
+  "familj": "Arbetslivsuppgifter med ritningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Gör om till cm. Hur många plattor får plats på bredden och hur många rader behövs?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 96,
+  "tolerans": 0,
+  "svarFormat": "heltal",
+  "svarEnhet": "plattor"
+},
+{
+  "id": "4.590",
+  "kap": 4,
+  "omr": "omkrets_area",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "area ur skalritning",
+  "t": "<p>Ritningen av ett förråd är gjord i skala 1 : 50. På ritningen är förrådet 9,0 cm × 6,0 cm. Hur stor är förrådets verkliga golvarea? (Svara i m².)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" role=\"img\" aria-label=\"Ritning av ett rektangulärt förråd, 9,0 cm gånger 6,0 cm på ritningen, i skala 1 till 50.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><g transform=\"translate(30,0)\"><rect x=\"60\" y=\"40\" width=\"180\" height=\"120\" fill=\"#f3ede2\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><text x=\"150.0\" y=\"32.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">9,0 cm</text><text x=\"52.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"end\">6,0 cm</text><text x=\"150.0\" y=\"186.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" text-anchor=\"middle\">Skala 1 : 50</text></g></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Verkliga mått: \\(9{,}0\\cdot50=450\\) cm \\(=4{,}5\\) m och \\(6{,}0\\cdot50=300\\) cm \\(=3{,}0\\) m.</p><p>Arean är \\(4{,}5\\cdot3{,}0=13{,}5\\) m². (Observera att arean inte är 50 utan \\(50^2\\) gånger större än på ritningen.)</p></div>",
+  "familj": "Arbetslivsuppgifter med ritningar",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Räkna först om sidorna till verkliga längder.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 13.5,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m²"
+},
+{
+  "id": "4.591",
+  "kap": 4,
+  "omr": "omkrets_area",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "staket runt tomt med sned sida",
+  "t": "<p>En tomt har formen i figuren. Hur många meter staket behövs runt hela tomten? (Svara i m med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 215\" role=\"img\" aria-label=\"En tomt formad som en parallelltrapets med rät vinkel till höger: nedre sidan 20 m, högra sidan 12 m, övre sidan 14 m och en sned vänstersida markerad med frågetecken.\" style=\"width:100%;max-width:380px\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"213\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><g transform=\"translate(30,0)\"><polygon points=\"40,180 280,180 280,36 112,36\" fill=\"#eaf5ee\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"112\" y1=\"36\" x2=\"112\" y2=\"180\" stroke=\"#9aa7b4\" stroke-dasharray=\"5 4\"/><text x=\"160.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">20 m</text><text x=\"290.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"start\">12 m</text><text x=\"196.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">14 m</text><text x=\"66.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#d9622b\" text-anchor=\"middle\">?</text></g></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Den sneda sidan är hypotenusan i en rätvinklig triangel med kateterna \\(20-14=6\\) m och 12 m.</p><p>\\(\\sqrt{6^2+12^2}=\\sqrt{180}\\approx13{,}4\\) m. Omkretsen är \\(20+12+14+13{,}4\\approx59{,}4\\) m.</p></div>",
+  "familj": "Arbetslivsuppgifter med ritningar",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Använd Pythagoras sats för den sneda sidan.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 59.4,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m"
+},
+{
+  "id": "4.592",
+  "kap": 4,
+  "omr": "omkrets_area",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "enhetsbyte för area",
+  "t": "<p>En skiva har arean 3 500 cm². Hur många m² är det?</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(1\\ \\text{m}^2=100\\cdot100\\ \\text{cm}^2=10\\,000\\ \\text{cm}^2\\). Därför är \\(3\\,500\\ \\text{cm}^2=0{,}35\\ \\text{m}^2\\).</p></div>",
+  "familj": "Arbetslivsuppgifter med ritningar",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många cm² går det på 1 m²?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.35,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m²"
+},
+{
+  "id": "4.593",
+  "kap": 4,
+  "omr": "volym",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "betong till en platta",
+  "t": "<p>En betongplatta ska gjutas. Den är 4,0 m lång, 3,0 m bred och 12 cm tjock. Hur många kubikmeter betong behövs? (Svara i m³.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 175\" role=\"img\" aria-label=\"En rektangulär betongplatta i perspektiv, 4,0 m lång, 3,0 m bred och 12 cm tjock.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"173\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><g transform=\"translate(30,0)\"><polygon points=\"40,120 200,120 260,80 100,80\" fill=\"#e8e8e8\" stroke=\"#172b3a\" stroke-width=\"2\"/><polygon points=\"40,120 200,120 200,138 40,138\" fill=\"#cfcfcf\" stroke=\"#172b3a\" stroke-width=\"2\"/><polygon points=\"200,120 260,80 260,98 200,138\" fill=\"#bdbdbd\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"120.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">4,0 m</text><text x=\"242.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"start\">3,0 m</text><text x=\"34.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"end\">12 cm</text></g></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Gör om tjockleken till meter: 12 cm = 0,12 m. Volymen är \\(4{,}0\\cdot3{,}0\\cdot0{,}12=1{,}44\\) m³.</p></div>",
+  "familj": "Material och förbrukning med ritningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Alla mått måste ha samma enhet.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.44,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m³"
+},
+{
+  "id": "4.594",
+  "kap": 4,
+  "omr": "volym",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "grus i säckar",
+  "t": "<p>En gångväg som är 15 m lång och 1,2 m bred ska täckas med grus till djupet 8 cm. Gruset säljs i säckar med 25 liter. Hur många säckar behövs?</p>",
+  "s": "<div class=\"facit-v2\"><p>Volymen är \\(15\\cdot1{,}2\\cdot0{,}08=1{,}44\\) m³ \\(=1\\,440\\) liter.</p><p>\\(\\dfrac{1440}{25}=57{,}6\\), så det behövs 58 säckar.</p></div>",
+  "familj": "Material och förbrukning med ritningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Räkna volymen i m³ och gör om till liter (1 m³ = 1 000 liter). Avrunda uppåt.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 58,
+  "tolerans": 0,
+  "svarFormat": "heltal",
+  "svarEnhet": "säckar"
+},
+{
+  "id": "4.595",
+  "kap": 4,
+  "omr": "volym",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "vatten i en cylindrisk tank",
+  "t": "<p>En cylindrisk tank har diametern 1,2 m och höjden 1,8 m. Den är fylld till 75 %. Hur många liter vatten innehåller den? (Svara i hela tiotal liter.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 215\" role=\"img\" aria-label=\"En stående cylindrisk tank med diametern 1,2 m och höjden 1,8 m, fylld till tre fjärdedelar med vatten.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"213\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><g transform=\"translate(30,0)\"><ellipse cx=\"150\" cy=\"40\" rx=\"70\" ry=\"14\" fill=\"#eef4fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"80\" y=\"40\" width=\"140\" height=\"150\" fill=\"#eef4fb\" stroke=\"none\"/><rect x=\"80\" y=\"77\" width=\"140\" height=\"113\" fill=\"#bcd6f2\"/><line x1=\"80\" y1=\"40\" x2=\"80\" y2=\"190\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"220\" y1=\"40\" x2=\"220\" y2=\"190\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M80,190 A70,14 0 0 0 220,190\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"80\" y1=\"77\" x2=\"220\" y2=\"77\" stroke=\"#2f6fca\" stroke-width=\"1.5\" stroke-dasharray=\"5 3\"/><text x=\"150.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">1,2 m</text><text x=\"232.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"start\">1,8 m</text><text x=\"150.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2f6fca\" text-anchor=\"middle\">75 % full</text></g></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Hela tankens volym: \\(\\pi\\cdot0{,}6^2\\cdot1{,}8\\approx2{,}036\\) m³. 75 % av den är \\(\\approx1{,}527\\) m³ \\(\\approx1\\,530\\) liter.</p></div>",
+  "familj": "Material och förbrukning med ritningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd radien, inte diametern. 1 m³ = 1 000 liter.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 1527,
+  "tolerans": 3.5,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "liter"
+},
+{
+  "id": "4.596",
+  "kap": 4,
+  "omr": "volym",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "färg till en bod",
+  "t": "<p>De fyra ytterväggarna på en bod ska målas två gånger. Boden är 3,0 m lång, 2,0 m bred och 2,2 m hög. Dörren (0,9 m × 2,0 m) målas inte. En liter färg räcker till 10 m² per strykning. Hur många liter färg går åt? (Svara med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"En bod formad som ett rätblock: 3,0 m lång, 2,0 m bred och 2,2 m hög, med en dörr på framsidan som är 0,9 m bred och 2,0 m hög.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><g transform=\"translate(30,0)\"><polygon points=\"40,90 190,90 190,190 40,190\" fill=\"#f3e3cf\" stroke=\"#172b3a\" stroke-width=\"2\"/><polygon points=\"190,90 260,60 260,160 190,190\" fill=\"#e8d3b5\" stroke=\"#172b3a\" stroke-width=\"2\"/><polygon points=\"40,90 110,60 260,60 190,90\" fill=\"#cfcfcf\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"95\" y=\"122\" width=\"40\" height=\"68\" fill=\"#a9825a\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"115.0\" y=\"208.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">3,0 m</text><text x=\"236.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"start\">2,0 m</text><text x=\"32.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"end\">2,2 m</text><text x=\"115.0\" y=\"116.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" fill=\"#172b3a\" text-anchor=\"middle\">dörr 0,9 × 2,0 m</text></g></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Väggarna: \\(2\\cdot3{,}0\\cdot2{,}2+2\\cdot2{,}0\\cdot2{,}2=22{,}0\\) m². Minus dörren 1,8 m² ger \\(20{,}2\\) m².</p><p>Två strykningar: \\(2\\cdot20{,}2=40{,}4\\) m². Färg: \\(\\dfrac{40{,}4}{10}\\approx4{,}0\\) liter.</p></div>",
+  "familj": "Material och förbrukning med ritningar",
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Räkna väggarnas area, dra bort dörren och tänk på att det ska strykas två gånger.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 4.0,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "liter"
+},
+{
+  "id": "4.597",
+  "kap": 4,
+  "omr": "volym",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "enhetsbyte för volym",
+  "t": "<p>En container rymmer 2,5 m³. Hur många liter är det?</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(1\\ \\text{m}^3=1\\,000\\ \\text{dm}^3=1\\,000\\) liter. Därför är \\(2{,}5\\ \\text{m}^3=2\\,500\\) liter.</p></div>",
+  "familj": "Material och förbrukning med ritningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många liter går det på 1 m³?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 2500,
+  "tolerans": 0,
+  "svarFormat": "heltal",
+  "svarEnhet": "liter"
 }
 ];

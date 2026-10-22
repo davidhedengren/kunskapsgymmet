@@ -1585,7 +1585,7 @@ window.BANK = [
     "typ": "beräkna volym och densitet för ett rätblock ur måtten och massan, ur diagram, sökt volym och densitet",
     "poang": "(3/0/0)",
     "t": "<p>Ett rätblock har måtten 10 cm × 6,0 cm × 4,0 cm och massan 288 g.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">10 cm</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">6,0 cm</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#293747\">4,0 cm</text><text x=\"205\" y=\"32\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#293747\">m = 288 g</text></svg></span><ol type=\"a\"><li>Bestäm volymen i cm³.</li><li>Bestäm densiteten i g/cm³.</li><li>Bestäm densiteten i kg/m³.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är</p><div class=\"facit-matte\">\\[10\\cdot 6\\cdot 4=240\\, \\mathrm{cm^3}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är 240 cm³ och densiteten</p><div class=\"facit-matte\">\\[\\frac{288}{240}=1{,}20\\,\\mathrm{g/cm^3}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymen är 240 cm³.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Densiteten är</p><div class=\"facit-matte\">\\[\\frac{288}{240}=1{,}20\\,\\mathrm{g/cm^3}=1200\\, \\mathrm{kg/m^3}\\]</div></div></div></div></div></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p>Rätblockets volym är längd gånger bredd gånger höjd.</p>\\[V=10\\cdot6{,}0\\cdot4{,}0=240\\,\\mathrm{cm^3}.\\]</div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>Volymen är \\(10\\cdot6{,}0\\cdot4{,}0=240\\,\\mathrm{cm^3}\\). Densitet är massa per volym:</p>\\[\\rho=\\frac{288}{240}=1{,}2\\,\\mathrm{g/cm^3}.\\]</div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p>Volymen är \\(240\\,\\mathrm{cm^3}\\), så densiteten är \\(288/240=1{,}2\\,\\mathrm{g/cm^3}\\).</p><p>Eftersom \\(1\\,\\mathrm{g}=0{,}001\\,\\mathrm{kg}\\) och \\(1\\,\\mathrm{cm^3}=10^{-6}\\,\\mathrm{m^3}\\) motsvarar varje g/cm³ tusen kg/m³.</p>\\[\\rho=1200\\,\\mathrm{kg/m^3}.\\]</div></div></div>",
     "familj": "Densitet med geometri",
     "formaga": [
       "procedur"
@@ -1632,9 +1632,9 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm volymen i cm³.",
-        "t": "<p>Ett rätblock har måtten 10 cm × 6,0 cm × 4,0 cm och massan 288 g.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">10 cm</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">6,0 cm</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#293747\">4,0 cm</text><text x=\"205\" y=\"32\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#293747\">m = 288 g</text></svg></span><p>Bestäm volymen i cm³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är</p><div class=\"facit-matte\">\\[10\\cdot 6\\cdot 4=240\\, \\mathrm{cm^3}\\]</div></div></div></div></div>",
-        "ledtrad": "<p>Börja med rätblockets volym och håll mass- och volymenheterna konsekventa.</p>",
+        "t": "<p>Ett rätblock har måtten 10 cm × 6,0 cm × 4,0 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">10 cm</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">6,0 cm</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#293747\">4,0 cm</text></svg></span><p>Bestäm volymen i cm³.</p>",
+        "s": "<div class=\"facit-v2\"><p>Rätblockets volym är längd gånger bredd gånger höjd.</p>\\[V=10\\cdot6{,}0\\cdot4{,}0=240\\,\\mathrm{cm^3}.\\]</div>",
+        "ledtrad": "<p>Multiplicera rätblockets längd, bredd och höjd.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -1644,8 +1644,8 @@ window.BANK = [
         "etikett": "b",
         "fraga": "Bestäm densiteten i g/cm³.",
         "t": "<p>Ett rätblock har måtten 10 cm × 6,0 cm × 4,0 cm och massan 288 g.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">10 cm</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">6,0 cm</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#293747\">4,0 cm</text><text x=\"205\" y=\"32\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#293747\">m = 288 g</text></svg></span><p>Bestäm densiteten i g/cm³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är 240 cm³ och densiteten</p><div class=\"facit-matte\">\\[\\frac{288}{240}=1{,}20\\,\\mathrm{g/cm^3}\\]</div></div></div></div></div>",
-        "ledtrad": "<p>Börja med rätblockets volym och håll mass- och volymenheterna konsekventa.</p>",
+        "s": "<div class=\"facit-v2\"><p>Volymen är \\(10\\cdot6{,}0\\cdot4{,}0=240\\,\\mathrm{cm^3}\\). Densitet är massa per volym:</p>\\[\\rho=\\frac{288}{240}=1{,}2\\,\\mathrm{g/cm^3}.\\]</div>",
+        "ledtrad": "<p>Beräkna volymen och dividera massan med volymen.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
@@ -1655,8 +1655,8 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Bestäm densiteten i kg/m³.",
         "t": "<p>Ett rätblock har måtten 10 cm × 6,0 cm × 4,0 cm och massan 288 g.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"266\" viewBox=\"0 0 550 305\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:266px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l85,-65 h245 l-85,65 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"245\" height=\"80\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M315,133 l85,-65 v80 l-85,65 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"217\" x2=\"70\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"315\" y1=\"217\" x2=\"315\" y2=\"243\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"238\" x2=\"315\" y2=\"238\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"234\" x2=\"70\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"315\" y1=\"234\" x2=\"315\" y2=\"242\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"192.5\" y=\"261\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">10 cm</text><line x1=\"317.4298004302832\" y1=\"216.1774313319088\" x2=\"336.2607537649779\" y2=\"240.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"402.4298004302832\" y1=\"151.1774313319088\" x2=\"421.2607537649779\" y2=\"175.80252415420188\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"333.2235032271239\" y1=\"236.83073498931589\" x2=\"418.2235032271239\" y2=\"171.83073498931589\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"330.7937027968407\" y1=\"233.6533036574071\" x2=\"335.6533036574071\" y2=\"240.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"415.7937027968407\" y1=\"168.6533036574071\" x2=\"420.6533036574071\" y2=\"175.00816632122468\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"386.6576051633983\" y=\"223.62917598290542\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">6,0 cm</text><line x1=\"404\" y1=\"148\" x2=\"450\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"404\" y1=\"68\" x2=\"450\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"445\" y1=\"148\" x2=\"445\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"148\" x2=\"449\" y2=\"148\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"441\" y1=\"68\" x2=\"449\" y2=\"68\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"457\" y=\"113\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#293747\">4,0 cm</text><text x=\"205\" y=\"32\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#293747\">m = 288 g</text></svg></span><p>Bestäm densiteten i kg/m³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymen är 240 cm³.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Densiteten är</p><div class=\"facit-matte\">\\[\\frac{288}{240}=1{,}20\\,\\mathrm{g/cm^3}=1200\\, \\mathrm{kg/m^3}\\]</div></div></div></div></div>",
-        "ledtrad": "<p>Börja med rätblockets volym och håll mass- och volymenheterna konsekventa.</p>",
+        "s": "<div class=\"facit-v2\"><p>Volymen är \\(240\\,\\mathrm{cm^3}\\), så densiteten är \\(288/240=1{,}2\\,\\mathrm{g/cm^3}\\).</p><p>Eftersom \\(1\\,\\mathrm{g}=0{,}001\\,\\mathrm{kg}\\) och \\(1\\,\\mathrm{cm^3}=10^{-6}\\,\\mathrm{m^3}\\) motsvarar varje g/cm³ tusen kg/m³.</p>\\[\\rho=1200\\,\\mathrm{kg/m^3}.\\]</div>",
+        "ledtrad": "<p>Beräkna densiteten i g/cm³. Hur många kg/m³ motsvarar 1 g/cm³?</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
@@ -1674,16 +1674,16 @@ window.BANK = [
     "niva": "C",
     "typ": "beräkna densiteten hos en legering ur två ingående metallers massa och densitet, ur text, sökt volym och densitet",
     "poang": "(0/2/0)",
-    "t": "<p>Mässing tillverkas av koppar och zink. En bit mässing innehåller 200 g koppar och 100 g zink. Koppar har densiteten 8,96 g/cm³ och zink 7,14 g/cm³. Anta att mässingens volym är summan av kopparns och zinkens volymer.</p>\n<p>Vilken densitet har mässingen?<br>(Svara med två decimaler.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna kopparns och zinkens volymer var för sig. Enligt modellen kan volymerna läggas ihop. Behåll de oavrundade värdena när densiteten beräknas.</p><div class=\"facit-matte\">\\[V_{\\mathrm{Cu}}=\\frac{200}{8{,}96}\\approx22{,}32\\,\\mathrm{cm^3}\\]</div><div class=\"facit-matte\">\\[V_{\\mathrm{Zn}}=\\frac{100}{7{,}14}\\approx14{,}01\\,\\mathrm{cm^3}\\]</div><div class=\"facit-matte\">\\[\\rho=\\frac{200+100}{200/8{,}96+100/7{,}14}\\approx8{,}26\\,\\mathrm{g/cm^3}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 8,26 g/cm³.</p></div>",
+    "t": "<p>Mässing tillverkas av koppar och zink. En bit mässing innehåller 200 g koppar och 100 g zink. Koppar har densiteten 8,96 g/cm³ och zink 7,14 g/cm³. Anta att mässingens volym är summan av kopparns och zinkens volymer.</p>\n<p>Vilken densitet har mässingen? (Svara i g/cm³ med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Beräkna kopparns och zinkens volymer var för sig. Enligt modellen kan volymerna läggas ihop. Behåll de oavrundade värdena när densiteten beräknas.</p><div class=\"facit-matte\">\\[V_{\\mathrm{Cu}}=\\frac{200}{8{,}96}\\approx22{,}32\\,\\mathrm{cm^3}\\]</div><div class=\"facit-matte\">\\[V_{\\mathrm{Zn}}=\\frac{100}{7{,}14}\\approx14{,}01\\,\\mathrm{cm^3}\\]</div><div class=\"facit-matte\">\\[\\rho=\\frac{200+100}{V_{\\mathrm{Cu}}+V_{\\mathrm{Zn}}}.\\]<p>Dividera den sammanlagda massan med den sammanlagda volymen. Använd de oavrundade volymerna.</p>\\[\\rho\\approx8{,}26\\,\\mathrm{g/cm^3}.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 8,26 g/cm³.</p></div>",
     "familj": "Sammansatta och ihåliga föremål",
     "formaga": [
       "problemlösning"
     ],
     "familjNyckel": "densitet__sammansatt_densitet_och_ihaliga_foremal",
     "svarstyp": "numeriskt",
-    "rättSvar": 8.26,
-    "tolerans": 0,
+    "rättSvar": 8.258313253012048,
+    "tolerans": 0.005,
     "självrättning": true,
     "familjNyckelTidigare": "densitet__sammansatt_densitet",
     "ledtrad": "<p>Vilken volym upptar varje metall för sig?</p>",
@@ -2199,7 +2199,7 @@ window.BANK = [
     "typ": "beräkna volym och densitet för en kub ur sidlängd och massa, ur diagram, sökt volym och densitet",
     "poang": "(4/0/0)",
     "t": "<p>En metallkub har sidan 5,0 cm och massan 1,05 kg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"301\" viewBox=\"0 0 550 345\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:301px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l65,-55 h150 l-65,55 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"150\" height=\"150\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M220,133 l65,-55 v150 l-65,55 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"287\" x2=\"70\" y2=\"313\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"220\" y1=\"287\" x2=\"220\" y2=\"313\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"308\" x2=\"220\" y2=\"308\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"304\" x2=\"70\" y2=\"312\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"220\" y1=\"304\" x2=\"220\" y2=\"312\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"145\" y=\"331\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">5,0 cm</text><line x1=\"222.5837689658647\" y1=\"286.05354514147643\" x2=\"242.6079784513161\" y2=\"309.718519987919\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"287.5837689658647\" y1=\"231.05354514147646\" x2=\"307.60797845131606\" y2=\"254.718519987919\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"239.37826724398522\" y1=\"305.9015885610734\" x2=\"304.3782672439852\" y2=\"250.90158856107342\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"236.79449827812053\" y1=\"302.848043419597\" x2=\"241.9620362098499\" y2=\"308.95513370254986\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"301.7944982781205\" y1=\"247.84804341959696\" x2=\"306.9620362098499\" y2=\"253.9551337025499\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"283.5052275903763\" y=\"297.1425416977175\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">5,0 cm</text><line x1=\"289\" y1=\"228\" x2=\"335\" y2=\"228\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"289\" y1=\"78\" x2=\"335\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"228\" x2=\"330\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"326\" y1=\"228\" x2=\"334\" y2=\"228\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"326\" y1=\"78\" x2=\"334\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"342\" y=\"158\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#293747\">5,0 cm</text><text x=\"205\" y=\"32\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#293747\">m = 1,05 kg</text></svg></span><ol type=\"a\"><li>Bestäm volymen i cm³.</li><li>Ange massan i g.</li><li>Bestäm densiteten i g/cm³.</li><li>Bestäm densiteten i kg/m³.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är</p><div class=\"facit-matte\">\\[5^{3}=125\\, \\mathrm{cm^3}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1{,}05 \\mathrm{kg}=1050\\, \\mathrm{g}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymen är 125 cm³.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Densiteten är</p><div class=\"facit-matte\">\\[\\frac{1050}{125}=8{,}40\\,\\mathrm{g/cm^3}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{1050}{125}=8{,}40\\,\\mathrm{g/cm^3}=8400\\, \\mathrm{kg/m^3}\\]</div></div></div></div></div></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p>En kub har lika lång längd, bredd och höjd.</p>\\[V=(5{,}0)^3=125\\,\\mathrm{cm^3}.\\]<p>Med två värdesiffror blir svaret \\(1{,}3\\cdot10^2\\,\\mathrm{cm^3}\\). Behåll 125 i fortsatta beräkningar.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>Ett kilogram motsvarar tusen gram.</p>\\[m=1{,}05\\cdot1000=1050\\,\\mathrm{g}.\\]</div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p>Kubens volym är \\(5{,}0^3=125\\,\\mathrm{cm^3}\\) och massan är \\(1050\\,\\mathrm{g}\\).</p>\\[\\rho=\\frac{m}{V}=\\frac{1050}{125}=8{,}4\\,\\mathrm{g/cm^3}.\\]</div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><p>Kubens volym är \\(125\\,\\mathrm{cm^3}\\) och massan är \\(1050\\,\\mathrm{g}\\). Densiteten är därför \\(1050/125=8{,}4\\,\\mathrm{g/cm^3}\\).</p><p>En g/cm³ motsvarar tusen kg/m³.</p>\\[\\rho=8{,}4\\cdot10^3\\,\\mathrm{kg/m^3}.\\]</div></div></div>",
     "familj": "Densitet med geometri",
     "formaga": [
       "procedur"
@@ -2213,7 +2213,7 @@ window.BANK = [
       8400
     ],
     "tolerans": [
-      0,
+      5,
       0,
       0,
       0
@@ -2251,20 +2251,21 @@ window.BANK = [
       {
         "etikett": "a",
         "fraga": "Bestäm volymen i cm³.",
-        "t": "<p>En metallkub har sidan 5,0 cm och massan 1,05 kg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"301\" viewBox=\"0 0 550 345\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:301px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l65,-55 h150 l-65,55 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"150\" height=\"150\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M220,133 l65,-55 v150 l-65,55 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"287\" x2=\"70\" y2=\"313\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"220\" y1=\"287\" x2=\"220\" y2=\"313\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"308\" x2=\"220\" y2=\"308\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"304\" x2=\"70\" y2=\"312\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"220\" y1=\"304\" x2=\"220\" y2=\"312\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"145\" y=\"331\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">5,0 cm</text><line x1=\"222.5837689658647\" y1=\"286.05354514147643\" x2=\"242.6079784513161\" y2=\"309.718519987919\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"287.5837689658647\" y1=\"231.05354514147646\" x2=\"307.60797845131606\" y2=\"254.718519987919\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"239.37826724398522\" y1=\"305.9015885610734\" x2=\"304.3782672439852\" y2=\"250.90158856107342\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"236.79449827812053\" y1=\"302.848043419597\" x2=\"241.9620362098499\" y2=\"308.95513370254986\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"301.7944982781205\" y1=\"247.84804341959696\" x2=\"306.9620362098499\" y2=\"253.9551337025499\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"283.5052275903763\" y=\"297.1425416977175\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">5,0 cm</text><line x1=\"289\" y1=\"228\" x2=\"335\" y2=\"228\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"289\" y1=\"78\" x2=\"335\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"228\" x2=\"330\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"326\" y1=\"228\" x2=\"334\" y2=\"228\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"326\" y1=\"78\" x2=\"334\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"342\" y=\"158\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#293747\">5,0 cm</text><text x=\"205\" y=\"32\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#293747\">m = 1,05 kg</text></svg></span><p>Bestäm volymen i cm³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Volymen är</p><div class=\"facit-matte\">\\[5^{3}=125\\, \\mathrm{cm^3}\\]</div></div></div></div></div>",
-        "ledtrad": "<p>Skriv massan i gram och beräkna kubens volym i kubikcentimeter.</p>",
+        "t": "<p>En metallkub har sidan 5,0 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"301\" viewBox=\"0 0 550 345\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:301px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l65,-55 h150 l-65,55 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"150\" height=\"150\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M220,133 l65,-55 v150 l-65,55 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"287\" x2=\"70\" y2=\"313\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"220\" y1=\"287\" x2=\"220\" y2=\"313\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"308\" x2=\"220\" y2=\"308\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"304\" x2=\"70\" y2=\"312\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"220\" y1=\"304\" x2=\"220\" y2=\"312\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"145\" y=\"331\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">5,0 cm</text><line x1=\"222.5837689658647\" y1=\"286.05354514147643\" x2=\"242.6079784513161\" y2=\"309.718519987919\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"287.5837689658647\" y1=\"231.05354514147646\" x2=\"307.60797845131606\" y2=\"254.718519987919\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"239.37826724398522\" y1=\"305.9015885610734\" x2=\"304.3782672439852\" y2=\"250.90158856107342\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"236.79449827812053\" y1=\"302.848043419597\" x2=\"241.9620362098499\" y2=\"308.95513370254986\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"301.7944982781205\" y1=\"247.84804341959696\" x2=\"306.9620362098499\" y2=\"253.9551337025499\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"283.5052275903763\" y=\"297.1425416977175\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">5,0 cm</text><line x1=\"289\" y1=\"228\" x2=\"335\" y2=\"228\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"289\" y1=\"78\" x2=\"335\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"228\" x2=\"330\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"326\" y1=\"228\" x2=\"334\" y2=\"228\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"326\" y1=\"78\" x2=\"334\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"342\" y=\"158\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#293747\">5,0 cm</text></svg></span><p>Bestäm volymen i cm³.</p>",
+        "s": "<div class=\"facit-v2\"><p>En kub har lika lång längd, bredd och höjd.</p>\\[V=(5{,}0)^3=125\\,\\mathrm{cm^3}.\\]<p>Med två värdesiffror blir svaret \\(1{,}3\\cdot10^2\\,\\mathrm{cm^3}\\). Behåll 125 i fortsatta beräkningar.</p></div>",
+        "ledtrad": "<p>Alla tre kanter är lika långa. Hur beräknas kubens volym?</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "svarVardesiffror": 2
       },
       {
         "etikett": "b",
         "fraga": "Ange massan i g.",
-        "t": "<p>En metallkub har sidan 5,0 cm och massan 1,05 kg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"301\" viewBox=\"0 0 550 345\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:301px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l65,-55 h150 l-65,55 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"150\" height=\"150\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M220,133 l65,-55 v150 l-65,55 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"287\" x2=\"70\" y2=\"313\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"220\" y1=\"287\" x2=\"220\" y2=\"313\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"308\" x2=\"220\" y2=\"308\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"304\" x2=\"70\" y2=\"312\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"220\" y1=\"304\" x2=\"220\" y2=\"312\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"145\" y=\"331\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">5,0 cm</text><line x1=\"222.5837689658647\" y1=\"286.05354514147643\" x2=\"242.6079784513161\" y2=\"309.718519987919\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"287.5837689658647\" y1=\"231.05354514147646\" x2=\"307.60797845131606\" y2=\"254.718519987919\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"239.37826724398522\" y1=\"305.9015885610734\" x2=\"304.3782672439852\" y2=\"250.90158856107342\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"236.79449827812053\" y1=\"302.848043419597\" x2=\"241.9620362098499\" y2=\"308.95513370254986\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"301.7944982781205\" y1=\"247.84804341959696\" x2=\"306.9620362098499\" y2=\"253.9551337025499\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"283.5052275903763\" y=\"297.1425416977175\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">5,0 cm</text><line x1=\"289\" y1=\"228\" x2=\"335\" y2=\"228\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"289\" y1=\"78\" x2=\"335\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"228\" x2=\"330\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"326\" y1=\"228\" x2=\"334\" y2=\"228\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"326\" y1=\"78\" x2=\"334\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"342\" y=\"158\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#293747\">5,0 cm</text><text x=\"205\" y=\"32\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#293747\">m = 1,05 kg</text></svg></span><p>Ange massan i g.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[1{,}05 \\mathrm{kg}=1050\\, \\mathrm{g}\\]</div></div></div></div></div>",
-        "ledtrad": "<p>Skriv massan i gram och beräkna kubens volym i kubikcentimeter.</p>",
+        "t": "<p>En metallkub har massan 1,05 kg.</p><p>Ange massan i g.</p>",
+        "s": "<div class=\"facit-v2\"><p>Ett kilogram motsvarar tusen gram.</p>\\[m=1{,}05\\cdot1000=1050\\,\\mathrm{g}.\\]</div>",
+        "ledtrad": "<p>Ett kilogram är tusen gram.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -2274,28 +2275,31 @@ window.BANK = [
         "etikett": "c",
         "fraga": "Bestäm densiteten i g/cm³.",
         "t": "<p>En metallkub har sidan 5,0 cm och massan 1,05 kg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"301\" viewBox=\"0 0 550 345\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:301px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l65,-55 h150 l-65,55 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"150\" height=\"150\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M220,133 l65,-55 v150 l-65,55 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"287\" x2=\"70\" y2=\"313\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"220\" y1=\"287\" x2=\"220\" y2=\"313\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"308\" x2=\"220\" y2=\"308\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"304\" x2=\"70\" y2=\"312\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"220\" y1=\"304\" x2=\"220\" y2=\"312\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"145\" y=\"331\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">5,0 cm</text><line x1=\"222.5837689658647\" y1=\"286.05354514147643\" x2=\"242.6079784513161\" y2=\"309.718519987919\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"287.5837689658647\" y1=\"231.05354514147646\" x2=\"307.60797845131606\" y2=\"254.718519987919\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"239.37826724398522\" y1=\"305.9015885610734\" x2=\"304.3782672439852\" y2=\"250.90158856107342\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"236.79449827812053\" y1=\"302.848043419597\" x2=\"241.9620362098499\" y2=\"308.95513370254986\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"301.7944982781205\" y1=\"247.84804341959696\" x2=\"306.9620362098499\" y2=\"253.9551337025499\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"283.5052275903763\" y=\"297.1425416977175\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">5,0 cm</text><line x1=\"289\" y1=\"228\" x2=\"335\" y2=\"228\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"289\" y1=\"78\" x2=\"335\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"228\" x2=\"330\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"326\" y1=\"228\" x2=\"334\" y2=\"228\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"326\" y1=\"78\" x2=\"334\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"342\" y=\"158\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#293747\">5,0 cm</text><text x=\"205\" y=\"32\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#293747\">m = 1,05 kg</text></svg></span><p>Bestäm densiteten i g/cm³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymen är 125 cm³.</p></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Densiteten är</p><div class=\"facit-matte\">\\[\\frac{1050}{125}=8{,}40\\,\\mathrm{g/cm^3}\\]</div></div></div></div></div>",
-        "ledtrad": "<p>Skriv massan i gram och beräkna kubens volym i kubikcentimeter.</p>",
+        "s": "<div class=\"facit-v2\"><p>Kubens volym är \\(5{,}0^3=125\\,\\mathrm{cm^3}\\) och massan är \\(1050\\,\\mathrm{g}\\).</p>\\[\\rho=\\frac{m}{V}=\\frac{1050}{125}=8{,}4\\,\\mathrm{g/cm^3}.\\]</div>",
+        "ledtrad": "<p>Beräkna kubens volym i cm³ och skriv massan i gram innan du dividerar.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "svarVardesiffror": 2
       },
       {
         "etikett": "d",
         "fraga": "Bestäm densiteten i kg/m³.",
         "t": "<p>En metallkub har sidan 5,0 cm och massan 1,05 kg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"301\" viewBox=\"0 0 550 345\" style=\"display:block;width:480px;max-width:100%;height:auto;max-height:301px;margin:12px auto\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rätblock med mått utanför respektive kant\"><title>Rätblock med mått utanför respektive kant</title><path d=\"M70,133 l65,-55 h150 l-65,55 Z\" fill=\"#e4edf3\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"70\" y=\"133\" width=\"150\" height=\"150\" rx=\"2\" fill=\"#f9fbfc\" stroke=\"#293747\" stroke-width=\"1.7\"/><path d=\"M220,133 l65,-55 v150 l-65,55 Z\" fill=\"#cbdde8\" stroke=\"#293747\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><line x1=\"70\" y1=\"287\" x2=\"70\" y2=\"313\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"220\" y1=\"287\" x2=\"220\" y2=\"313\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"70\" y1=\"308\" x2=\"220\" y2=\"308\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"70\" y1=\"304\" x2=\"70\" y2=\"312\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"220\" y1=\"304\" x2=\"220\" y2=\"312\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"145\" y=\"331\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">5,0 cm</text><line x1=\"222.5837689658647\" y1=\"286.05354514147643\" x2=\"242.6079784513161\" y2=\"309.718519987919\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"287.5837689658647\" y1=\"231.05354514147646\" x2=\"307.60797845131606\" y2=\"254.718519987919\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"239.37826724398522\" y1=\"305.9015885610734\" x2=\"304.3782672439852\" y2=\"250.90158856107342\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"236.79449827812053\" y1=\"302.848043419597\" x2=\"241.9620362098499\" y2=\"308.95513370254986\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"301.7944982781205\" y1=\"247.84804341959696\" x2=\"306.9620362098499\" y2=\"253.9551337025499\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"283.5052275903763\" y=\"297.1425416977175\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#293747\">5,0 cm</text><line x1=\"289\" y1=\"228\" x2=\"335\" y2=\"228\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"289\" y1=\"78\" x2=\"335\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1\"/><line x1=\"330\" y1=\"228\" x2=\"330\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"326\" y1=\"228\" x2=\"334\" y2=\"228\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><line x1=\"326\" y1=\"78\" x2=\"334\" y2=\"78\" stroke=\"#8494a0\" stroke-width=\"1.3\"/><text x=\"342\" y=\"158\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#293747\">5,0 cm</text><text x=\"205\" y=\"32\" font-family=\"DejaVu Sans,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#293747\">m = 1,05 kg</text></svg></span><p>Bestäm densiteten i kg/m³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\frac{1050}{125}=8{,}40\\,\\mathrm{g/cm^3}=8400\\, \\mathrm{kg/m^3}\\]</div></div></div></div></div>",
-        "ledtrad": "<p>Skriv massan i gram och beräkna kubens volym i kubikcentimeter.</p>",
+        "s": "<div class=\"facit-v2\"><p>Kubens volym är \\(125\\,\\mathrm{cm^3}\\) och massan är \\(1050\\,\\mathrm{g}\\). Densiteten är därför \\(1050/125=8{,}4\\,\\mathrm{g/cm^3}\\).</p><p>En g/cm³ motsvarar tusen kg/m³.</p>\\[\\rho=8{,}4\\cdot10^3\\,\\mathrm{kg/m^3}.\\]</div>",
+        "ledtrad": "<p>Beräkna först densiteten i g/cm³ och omvandla sedan till kg/m³.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "svarVardesiffror": 2
       }
     ],
     "familjTidigare": [
       "Densitet med geometri och volymberäkning"
-    ]
+    ],
+    "svarVardesiffror": [2, null, 2, 2]
   },
   {
     "id": "2.27",
@@ -2303,8 +2307,8 @@ window.BANK = [
     "omr": "densitet",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>1,0 g guld med densiteten 19,3 g/cm³ hamras till en jämntjock folie med arean 0,50 m². I en förenklad modell är varje atomlager 0,29 nm tjockt. (Svara med tre värdesiffror.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Tunn guldfolie, schematiskt ritad\"><title>Tunn guldfolie, schematiskt ritad</title><polygon points=\"90,145 335,145 410,80 165,80\" fill=\"#f4e5b6\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"90,145 335,145 335,155 90,155\" fill=\"#dfcb93\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"335,145 410,80 410,90 335,155\" fill=\"#e8d49f\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"123\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">A = 0,50 m²</text><line x1=\"365\" y1=\"151\" x2=\"412\" y2=\"192\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"417\" y=\"217\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">t = ?</text><text x=\"170\" y=\"211\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">m = 1,0 g</text></svg></span><ol type=\"a\"><li>Hur tjock är folien i nm?</li><li>Ungefär hur många atomlager motsvarar foliens tjocklek?</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymen är 1/19,3 cm³ och arean 5000 cm².</p></div><div class=\"facit-stycke\"><p>Tjockleken blir \\((1/19{,}3)/5000\\) cm = 103,6269… nm, alltså 104 nm.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Utan mellanavrundning blir antalet \\(((1/19{,}3)/5000)\\cdot10^7/0{,}29=357{,}334…\\), alltså ungefär 357 lager.</p></div><div class=\"facit-stycke\"><p>Modellen bortser från kristallstrukturens detaljer.</p></div></div></div></div></div>",
+    "t": "<p>1,0 g guld med densiteten 19,3 g/cm³ hamras till en jämntjock folie med arean 0,50 m². I en förenklad modell är varje atomlager 0,29 nm tjockt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Tunn guldfolie, schematiskt ritad\"><title>Tunn guldfolie, schematiskt ritad</title><polygon points=\"90,145 335,145 410,80 165,80\" fill=\"#f4e5b6\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"90,145 335,145 335,155 90,155\" fill=\"#dfcb93\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"335,145 410,80 410,90 335,155\" fill=\"#e8d49f\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"123\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">A = 0,50 m²</text><line x1=\"365\" y1=\"151\" x2=\"412\" y2=\"192\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"417\" y=\"217\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">t = ?</text><text x=\"170\" y=\"211\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">m = 1,0 g</text></svg></span><ol type=\"a\"><li>Hur tjock är folien? (Svara i nm med tre värdesiffror.)</li><li>Ungefär hur många atomlager motsvarar foliens tjocklek? (Svara med tre värdesiffror.)</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p>Guldets volym är \\(V=m/\\rho=1{,}0/19{,}3\\,\\mathrm{cm^3}\\). Arean \\(0{,}50\\,\\mathrm{m^2}\\) motsvarar \\(5000\\,\\mathrm{cm^2}\\).</p><p>Folien är ett tunt rätblock, så tjockleken är volymen delad med arean.</p>\\[t=\\frac{1{,}0/19{,}3}{5000}\\,\\mathrm{cm}.\\]<p>Eftersom en centimeter är \\(10^7\\) nanometer blir tjockleken \\(103{,}6269\\ldots\\,\\mathrm{nm}\\).</p><p><strong>Svar:</strong> \\(104\\,\\mathrm{nm}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>Guldets volym är \\(V=m/\\rho=1{,}0/19{,}3\\,\\mathrm{cm^3}\\). Arean \\(0{,}50\\,\\mathrm{m^2}\\) motsvarar \\(5000\\,\\mathrm{cm^2}\\).</p><p>Folien är ett tunt rätblock, så tjockleken är volymen delad med arean.</p>\\[t=\\frac{1{,}0/19{,}3}{5000}\\,\\mathrm{cm}.\\]<p>Eftersom en centimeter är \\(10^7\\) nanometer blir tjockleken \\(103{,}6269\\ldots\\,\\mathrm{nm}\\).</p><p>Dividera foliens tjocklek med tjockleken hos ett atomlager. Använd det oavrundade värdet:</p>\\[N=\\frac{103{,}6269\\ldots}{0{,}29}\\approx357.\\]<p><strong>Svar:</strong> ungefär 357 atomlager i den förenklade modellen.</p></div></div></div>",
     "familj": "Densitet med geometri",
     "formaga": [
       "problemlösning"
@@ -2312,12 +2316,12 @@ window.BANK = [
     "familjNyckel": "densitet__densitet_med_geometri_och_volymberakning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      104,
-      357
+      103.62694300518133,
+      357.3342862247632
     ],
     "tolerans": [
-      0,
-      0
+      0.5,
+      0.5
     ],
     "självrättning": true,
     "familjNyckelTidigare": "densitet__densitet_med_geometrisk_volym",
@@ -2341,13 +2345,13 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>1,0 g guld med densiteten 19,3 g/cm³ hamras till en jämntjock folie med arean 0,50 m². I en förenklad modell är varje atomlager 0,29 nm tjockt. (Svara med tre värdesiffror.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Tunn guldfolie, schematiskt ritad\"><title>Tunn guldfolie, schematiskt ritad</title><polygon points=\"90,145 335,145 410,80 165,80\" fill=\"#f4e5b6\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"90,145 335,145 335,155 90,155\" fill=\"#dfcb93\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"335,145 410,80 410,90 335,155\" fill=\"#e8d49f\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"123\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">A = 0,50 m²</text><line x1=\"365\" y1=\"151\" x2=\"412\" y2=\"192\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"417\" y=\"217\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">t = ?</text><text x=\"170\" y=\"211\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">m = 1,0 g</text></svg></span>",
+    "spelIntro": "<p>1,0 g guld med densiteten 19,3 g/cm³ hamras till en jämntjock folie med arean 0,50 m². I en förenklad modell är varje atomlager 0,29 nm tjockt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Tunn guldfolie, schematiskt ritad\"><title>Tunn guldfolie, schematiskt ritad</title><polygon points=\"90,145 335,145 410,80 165,80\" fill=\"#f4e5b6\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"90,145 335,145 335,155 90,155\" fill=\"#dfcb93\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"335,145 410,80 410,90 335,155\" fill=\"#e8d49f\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"123\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">A = 0,50 m²</text><line x1=\"365\" y1=\"151\" x2=\"412\" y2=\"192\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"417\" y=\"217\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">t = ?</text><text x=\"170\" y=\"211\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">m = 1,0 g</text></svg></span>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur tjock är folien i nm?",
-        "t": "<p>1,0 g guld med densiteten 19,3 g/cm³ hamras till en jämntjock folie med arean 0,50 m². I en förenklad modell är varje atomlager 0,29 nm tjockt. (Svara med tre värdesiffror.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Tunn guldfolie, schematiskt ritad\"><title>Tunn guldfolie, schematiskt ritad</title><polygon points=\"90,145 335,145 410,80 165,80\" fill=\"#f4e5b6\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"90,145 335,145 335,155 90,155\" fill=\"#dfcb93\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"335,145 410,80 410,90 335,155\" fill=\"#e8d49f\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"123\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">A = 0,50 m²</text><line x1=\"365\" y1=\"151\" x2=\"412\" y2=\"192\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"417\" y=\"217\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">t = ?</text><text x=\"170\" y=\"211\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">m = 1,0 g</text></svg></span><p>Hur tjock är folien i nm?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymen är 1/19,3 cm³ och arean 5000 cm².</p></div><div class=\"facit-stycke\"><p>Tjockleken blir \\((1/19{,}3)/5000\\) cm = 103,6269… nm, alltså 104 nm.</p></div></div></div>",
+        "fraga": "Hur tjock är folien? (Svara i nm med tre värdesiffror.)",
+        "t": "<p>1,0 g guld med densiteten 19,3 g/cm³ hamras till en jämntjock folie med arean 0,50 m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Tunn guldfolie, schematiskt ritad\"><title>Tunn guldfolie, schematiskt ritad</title><polygon points=\"90,145 335,145 410,80 165,80\" fill=\"#f4e5b6\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"90,145 335,145 335,155 90,155\" fill=\"#dfcb93\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"335,145 410,80 410,90 335,155\" fill=\"#e8d49f\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"123\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">A = 0,50 m²</text><line x1=\"365\" y1=\"151\" x2=\"412\" y2=\"192\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"417\" y=\"217\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">t = ?</text><text x=\"170\" y=\"211\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">m = 1,0 g</text></svg></span><p>Hur tjock är folien? (Svara i nm med tre värdesiffror.)</p>",
+        "s": "<div class=\"facit-v2\"><p>Guldets volym är \\(V=m/\\rho=1{,}0/19{,}3\\,\\mathrm{cm^3}\\). Arean \\(0{,}50\\,\\mathrm{m^2}\\) motsvarar \\(5000\\,\\mathrm{cm^2}\\).</p><p>Folien är ett tunt rätblock, så tjockleken är volymen delad med arean.</p>\\[t=\\frac{1{,}0/19{,}3}{5000}\\,\\mathrm{cm}.\\]<p>Eftersom en centimeter är \\(10^7\\) nanometer blir tjockleken \\(103{,}6269\\ldots\\,\\mathrm{nm}\\).</p><p><strong>Svar:</strong> \\(104\\,\\mathrm{nm}\\).</p></div>",
         "ledtrad": "<p>Folien är ett mycket tunt rätblock. Hur hänger area, tjocklek och volym ihop?</p>",
         "niva": "C",
         "traningsniva": 3,
@@ -2356,10 +2360,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Ungefär hur många atomlager motsvarar foliens tjocklek?",
-        "t": "<p>1,0 g guld med densiteten 19,3 g/cm³ hamras till en jämntjock folie med arean 0,50 m². I en förenklad modell är varje atomlager 0,29 nm tjockt. (Svara med tre värdesiffror.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Tunn guldfolie, schematiskt ritad\"><title>Tunn guldfolie, schematiskt ritad</title><polygon points=\"90,145 335,145 410,80 165,80\" fill=\"#f4e5b6\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"90,145 335,145 335,155 90,155\" fill=\"#dfcb93\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"335,145 410,80 410,90 335,155\" fill=\"#e8d49f\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"123\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">A = 0,50 m²</text><line x1=\"365\" y1=\"151\" x2=\"412\" y2=\"192\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"417\" y=\"217\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">t = ?</text><text x=\"170\" y=\"211\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">m = 1,0 g</text></svg></span><p>Ungefär hur många atomlager motsvarar foliens tjocklek?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Utan mellanavrundning blir antalet \\(((1/19{,}3)/5000)\\cdot10^7/0{,}29=357{,}334…\\), alltså ungefär 357 lager.</p></div><div class=\"facit-stycke\"><p>Modellen bortser från kristallstrukturens detaljer.</p></div></div></div>",
-        "ledtrad": "<p>Folien är ett mycket tunt rätblock. Hur hänger area, tjocklek och volym ihop?</p>",
+        "fraga": "Ungefär hur många atomlager motsvarar foliens tjocklek? (Svara med tre värdesiffror.)",
+        "t": "<p>1,0 g guld med densiteten 19,3 g/cm³ hamras till en jämntjock folie med arean 0,50 m². I en förenklad modell är varje atomlager 0,29 nm tjockt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"290\" viewBox=\"0 0 520 290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Tunn guldfolie, schematiskt ritad\"><title>Tunn guldfolie, schematiskt ritad</title><polygon points=\"90,145 335,145 410,80 165,80\" fill=\"#f4e5b6\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"90,145 335,145 335,155 90,155\" fill=\"#dfcb93\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"335,145 410,80 410,90 335,155\" fill=\"#e8d49f\" stroke=\"#293747\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"123\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">A = 0,50 m²</text><line x1=\"365\" y1=\"151\" x2=\"412\" y2=\"192\" stroke=\"#788a99\" stroke-width=\"1.8\"/><text x=\"417\" y=\"217\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"15\" fill=\"#293747\">t = ?</text><text x=\"170\" y=\"211\" text-anchor=\"middle\" font-family=\"DejaVu Sans, sans-serif\" font-size=\"16\" fill=\"#293747\">m = 1,0 g</text></svg></span><p>Ungefär hur många atomlager motsvarar foliens tjocklek? (Svara med tre värdesiffror.)</p>",
+        "s": "<div class=\"facit-v2\"><p>Guldets volym är \\(V=m/\\rho=1{,}0/19{,}3\\,\\mathrm{cm^3}\\). Arean \\(0{,}50\\,\\mathrm{m^2}\\) motsvarar \\(5000\\,\\mathrm{cm^2}\\).</p><p>Folien är ett tunt rätblock, så tjockleken är volymen delad med arean.</p>\\[t=\\frac{1{,}0/19{,}3}{5000}\\,\\mathrm{cm}.\\]<p>Eftersom en centimeter är \\(10^7\\) nanometer blir tjockleken \\(103{,}6269\\ldots\\,\\mathrm{nm}\\).</p><p>Dividera foliens tjocklek med tjockleken hos ett atomlager. Använd det oavrundade värdet:</p>\\[N=\\frac{103{,}6269\\ldots}{0{,}29}\\approx357.\\]<p><strong>Svar:</strong> ungefär 357 atomlager i den förenklade modellen.</p></div>",
+        "ledtrad": "<p>Beräkna foliens tjocklek och dividera med tjockleken hos ett atomlager. Avrunda först på slutet.</p>",
         "niva": "C",
         "traningsniva": 3,
         "arbetsinsats": 2,
@@ -3561,7 +3565,7 @@ window.BANK = [
     "typ": "beräkna massa ur densitet och volym, ur text, sökt massa",
     "poang": "(2/0/0)",
     "t": "<p>En massiv järnbalk har volymen 0,25 m³. Järnets densitet är 7870 kg/m³.</p><ol type=\"a\"><li>Bestäm balkens massa i kg.</li><li>Ange samma massa i ton.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=7870\\cdot 0{,}25=1967{,}5\\, \\mathrm{kg}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>m = 7870·0,25 = 1967,5 kg = 1,9675 ton.</p></div></div></div></div></div>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p>Densiteten anger massan per kubikmeter. Därför får vi massan genom att multiplicera densiteten med volymen.</p>\\[m=\\rho V=7870\\cdot0{,}25\\,\\mathrm{kg}.\\]<p>Beräkningsvärdet är \\(1967{,}5\\,\\mathrm{kg}\\).</p><p><strong>Svar med två värdesiffror:</strong> \\(2{,}0\\cdot10^3\\,\\mathrm{kg}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>Densiteten anger massan per kubikmeter. Därför får vi massan genom att multiplicera densiteten med volymen.</p>\\[m=\\rho V=7870\\cdot0{,}25\\,\\mathrm{kg}.\\]<p>Beräkningsvärdet är \\(1967{,}5\\,\\mathrm{kg}\\).</p><p>Ett ton är tusen kilogram. Dela därför massan i kg med 1000:</p>\\[m=1{,}9675\\,\\mathrm{ton}\\approx2{,}0\\,\\mathrm{ton}.\\]</div></div></div>",
     "familj": "Massa, volym och densitet",
     "formaga": [
       "procedur"
@@ -3573,8 +3577,8 @@ window.BANK = [
       1.9675
     ],
     "tolerans": [
-      0,
-      0
+      50,
+      0.05
     ],
     "självrättning": true,
     "familjNyckelTidigare": "densitet__densitet_med_geometrisk_volym",
@@ -3604,25 +3608,28 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Bestäm massan i kg.",
         "t": "<p>En massiv järnbalk har volymen 0,25 m³. Järnets densitet är 7870 kg/m³.</p><p>Bestäm massan i kg.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=7870\\cdot 0{,}25=1967{,}5\\, \\mathrm{kg}\\]</div></div></div></div></div>",
+        "s": "<div class=\"facit-v2\"><p>Densiteten anger massan per kubikmeter. Därför får vi massan genom att multiplicera densiteten med volymen.</p>\\[m=\\rho V=7870\\cdot0{,}25\\,\\mathrm{kg}.\\]<p>Beräkningsvärdet är \\(1967{,}5\\,\\mathrm{kg}\\).</p><p><strong>Svar med två värdesiffror:</strong> \\(2{,}0\\cdot10^3\\,\\mathrm{kg}\\).</p></div>",
         "ledtrad": "<p>Densiteten anger massan hos en kubikmeter järn.</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "svarVardesiffror": 2
       },
       {
         "etikett": "b",
         "fraga": "Bestäm massan i ton.",
         "t": "<p>En massiv järnbalk har volymen 0,25 m³. Järnets densitet är 7870 kg/m³.</p><p>Bestäm massan i ton.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>m = 7870·0,25 = 1967,5 kg = 1,9675 ton.</p></div></div></div>",
+        "s": "<div class=\"facit-v2\"><p>Densiteten anger massan per kubikmeter. Därför får vi massan genom att multiplicera densiteten med volymen.</p>\\[m=\\rho V=7870\\cdot0{,}25\\,\\mathrm{kg}.\\]<p>Beräkningsvärdet är \\(1967{,}5\\,\\mathrm{kg}\\).</p><p>Ett ton är tusen kilogram. Dela därför massan i kg med 1000:</p>\\[m=1{,}9675\\,\\mathrm{ton}\\approx2{,}0\\,\\mathrm{ton}.\\]</div>",
         "ledtrad": "<p>Densiteten anger massan hos en kubikmeter järn.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "svarVardesiffror": 2
       }
-    ]
+    ],
+    "svarVardesiffror": [2, 2]
   },
   {
     "id": "2.39",
@@ -3817,9 +3824,9 @@ window.BANK = [
         "fraga": "Massan är 540 g och volymen 200 cm³. Bestäm densiteten i g/cm³.",
         "t": "<p>Massan är 540 g och volymen 200 cm³. Bestäm densiteten i g/cm³.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[\\rho=\\frac{m}{V}=\\frac{540}{200}=2{,}70\\,\\mathrm{g/cm^3}\\]</div></div></div></div></div>",
-        "ledtrad": "<p>Vilken storhet söks? Välj en lämplig form av densitetssambandet och kontrollera enheterna.</p>",
+        "ledtrad": "<p>Densitet är massa per volym.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -3828,9 +3835,9 @@ window.BANK = [
         "fraga": "Densiteten är 11,3 g/cm³ och volymen 50 cm³. Bestäm massan i g.",
         "t": "<p>Densiteten är 11,3 g/cm³ och volymen 50 cm³. Bestäm massan i g.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[m=\\rho V=11{,}3\\cdot 50=565\\, \\mathrm{g}\\]</div></div></div></div></div>",
-        "ledtrad": "<p>Vilken storhet söks? Välj en lämplig form av densitetssambandet och kontrollera enheterna.</p>",
+        "ledtrad": "<p>Densiteten anger massan hos varje kubikcentimeter.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -3839,9 +3846,9 @@ window.BANK = [
         "fraga": "Densiteten är 0,92 g/cm³ och massan 460 g. Bestäm volymen i cm³.",
         "t": "<p>Densiteten är 0,92 g/cm³ och massan 460 g. Bestäm volymen i cm³.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{460}{0{,}92}=500\\, \\mathrm{cm^3}\\]</div></div></div></div></div>",
-        "ledtrad": "<p>Vilken storhet söks? Välj en lämplig form av densitetssambandet och kontrollera enheterna.</p>",
+        "ledtrad": "<p>Dividera massan med densiteten för att få volymen.</p>",
         "niva": "E",
-        "traningsniva": 2,
+        "traningsniva": 1,
         "arbetsinsats": 1,
         "poang": "(1/0/0)"
       },
@@ -3850,7 +3857,7 @@ window.BANK = [
         "fraga": "Massan är 1,5 kg och volymen 0,20 dm³. Bestäm densiteten i g/cm³.",
         "t": "<p>Massan är 1,5 kg och volymen 0,20 dm³. Bestäm densiteten i g/cm³.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">1,5 kg = 1500 g och</p><div class=\"facit-matte\">\\[0{,}20 \\mathrm{dm}^{3}=200\\, \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Densiteten är</p><div class=\"facit-matte\">\\[\\frac{1500}{200}=7{,}5\\,\\mathrm{g/cm^3}\\]</div></div></div></div></div>",
-        "ledtrad": "<p>Vilken storhet söks? Välj en lämplig form av densitetssambandet och kontrollera enheterna.</p>",
+        "ledtrad": "<p>Skriv massan i gram och volymen i cm³ innan du beräknar densiteten.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
@@ -4745,16 +4752,16 @@ window.BANK = [
     "niva": "C",
     "typ": "sammansatt sfär med två material",
     "poang": "(0/2/0)",
-    "t": "<p>En sfärisk kula har ytterradien \\(3\\,\\mathrm{cm}\\). Den består av en aluminiumkärna med radien \\(2\\,\\mathrm{cm}\\) och ett skal av stål. Densiteterna är \\(2{,}70\\,\\mathrm{g/cm^3}\\) för aluminium och \\(7{,}80\\,\\mathrm{g/cm^3}\\) för stål. Bestäm kulans massa.<br>(Svara med en decimal.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kärnans volym är \\(4\\pi\\cdot2^3/3\\approx33{,}51\\) cm³.</p></div><div class=\"facit-stycke\"><p>Stålskalets volym är \\(4\\pi(3^3-2^3)/3\\approx79{,}59\\) cm³.</p></div><div class=\"facit-stycke\"><p>Massan är summan \\(2{,}70\\cdot4\\pi\\cdot2^3/3+7{,}80\\cdot4\\pi(3^3-2^3)/3\\approx711{,}3\\) g.</p></div></div></div>",
+    "t": "<p>En sfärisk kula har ytterradien \\(3\\,\\mathrm{cm}\\). Den består av en aluminiumkärna med radien \\(2\\,\\mathrm{cm}\\) och ett skal av stål. Densiteterna är \\(2{,}70\\,\\mathrm{g/cm^3}\\) för aluminium och \\(7{,}80\\,\\mathrm{g/cm^3}\\) för stål. Bestäm kulans massa. (Svara i g med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Genomskärning av kulan. Aluminiumkärnans radie är 2 cm och hela kulans radie är 3 cm.\"><circle cx=\"125\" cy=\"117\" r=\"90\" fill=\"#e2e8f0\" stroke=\"#334155\" stroke-width=\"2\"/><circle cx=\"125\" cy=\"117\" r=\"60\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><circle cx=\"125\" cy=\"117\" r=\"3\" fill=\"#0f172a\"/><path d=\"M125 117h60M125 117v90\" fill=\"none\" stroke=\"#0f172a\" stroke-width=\"2\"/><g font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#0f172a\"><text x=\"139\" y=\"108\">2 cm</text><text x=\"134\" y=\"155\">3 cm</text><text x=\"232\" y=\"78\">Aluminium</text><text x=\"232\" y=\"158\">Stål</text><text x=\"65\" y=\"232\">Genomskärning</text></g><path d=\"M170 87l49-16h8M195 156h32\" fill=\"none\" stroke=\"#475569\" stroke-width=\"1.5\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Beräkna aluminiumkärnans volym med dess radie, 2 cm:</p>\\[V_{\\mathrm{Al}}=\\frac{4\\pi\\cdot2^3}{3}\\approx33{,}51\\,\\mathrm{cm^3}.\\]<p>Stålskalet är den del av hela kulan som ligger utanför kärnan. Subtrahera därför kärnans volym från hela kulans volym.</p>\\[V_{\\mathrm{stål}}=\\frac{4\\pi(3^3-2^3)}{3}\\approx79{,}59\\,\\mathrm{cm^3}.\\]<p>Massan är summan av materialens massor. Behåll oavrundade volymer i beräkningen:</p>\\[m=2{,}70V_{\\mathrm{Al}}+7{,}80V_{\\mathrm{stål}}.\\]<p><strong>Svar:</strong> \\(m\\approx711{,}3\\,\\mathrm{g}\\).</p></div>",
     "familj": "Sammansatta och ihåliga föremål",
     "formaga": [
       "problemlösning"
     ],
     "familjNyckel": "densitet__sammansatt_densitet_och_ihaliga_foremal",
     "svarstyp": "numeriskt",
-    "rättSvar": 711.3,
-    "tolerans": 0,
+    "rättSvar": 711.2565767727292,
+    "tolerans": 0.05,
     "självrättning": true,
     "miniräknare": true,
     "geogebra": false,
@@ -4804,8 +4811,8 @@ window.BANK = [
     "omr": "densitet",
     "niva": "E",
     "poang": "(3/0/0)",
-    "t": "<p>Ett massivt blyklot ska ha massan 15 kg. Blyets densitet är 11,3 g/cm³. (Svara med tre värdesiffror.)</p><ol type=\"a\"><li>Bestäm volymen i cm³.</li><li>Bestäm radien i cm.</li><li>Bestäm radien i cm om massan i stället är 30 kg.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>V = 15 000/11,3 = 1327,43… cm³, alltså 1330 cm³.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymen är 15 000/11,3 cm³.</p></div><div class=\"facit-stycke\"><p>Ur \\(V=4\\pi r^3/3\\) fås \\(r=\\sqrt[3]{3V/(4\\pi)}\\approx6{,}82\\) cm.</p></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymen är 30 000/11,3 cm³ och \\(r=\\sqrt[3]{3V/(4\\pi)}\\approx8{,}59\\) cm.</p></div><div class=\"facit-stycke\"><p>Dubbel massa ger radiefaktorn \\(\\sqrt[3]2\\), inte dubbel radie.</p></div></div></div></div></div>",
+    "t": "<p>Ett massivt blyklot ska ha massan 15 kg. Blyets densitet är 11,3 g/cm³.</p><ol type=\"a\"><li>Bestäm volymen. (Svara i cm³ med tre värdesiffror.)</li><li>Bestäm radien. (Svara i cm med tre värdesiffror.)</li><li>Bestäm radien om massan i stället är 30 kg. (Svara i cm med tre värdesiffror.)</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p>Skriv massan i gram så att enheterna passar densiteten.</p>\\[V=\\frac{m}{\\rho}=\\frac{15000}{11{,}3}\\,\\mathrm{cm^3}.\\]<p>Beräkningsvärdet är \\(1327{,}43\\ldots\\,\\mathrm{cm^3}\\).</p><p><strong>Svar:</strong> \\(1{,}33\\cdot10^3\\,\\mathrm{cm^3}\\). Behåll det oavrundade värdet vid fortsatt beräkning.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>Beräkna volymen från massan och densiteten:</p>\\[V=\\frac{15000}{11{,}3}\\,\\mathrm{cm^3}.\\]<p>Klotets volym är \\(V=4\\pi r^3/3\\). Lös ut radien och använd den oavrundade volymen:</p>\\[r=\\sqrt[3]{\\frac{3V}{4\\pi}}.\\]<p><strong>Svar:</strong> \\(r\\approx6{,}82\\,\\mathrm{cm}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><p>Beräkna volymen från massan och densiteten:</p>\\[V=\\frac{30000}{11{,}3}\\,\\mathrm{cm^3}.\\]<p>Klotets volym är \\(V=4\\pi r^3/3\\). Lös ut radien och använd den oavrundade volymen:</p>\\[r=\\sqrt[3]{\\frac{3V}{4\\pi}}.\\]<p><strong>Svar:</strong> \\(r\\approx8{,}59\\,\\mathrm{cm}\\).</p></div></div></div>",
     "familj": "Densitet med geometri",
     "formaga": [
       "procedur"
@@ -4813,14 +4820,14 @@ window.BANK = [
     "familjNyckel": "densitet__densitet_med_geometri_och_volymberakning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      1330,
-      6.82,
-      8.59
+      1327.433628318584,
+      6.817755181191924,
+      8.589833265813539
     ],
     "tolerans": [
-      0,
-      0,
-      0
+      5,
+      0.005,
+      0.005
     ],
     "självrättning": true,
     "familjNyckelTidigare": "densitet__densitet_med_geometrisk_volym",
@@ -4847,14 +4854,14 @@ window.BANK = [
       "c"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Ett massivt blyklot ska ha massan 15 kg. Blyets densitet är 11,3 g/cm³. (Svara med tre värdesiffror.)</p>",
+    "spelIntro": "<p>Ett massivt blyklot ska ha massan 15 kg. Blyets densitet är 11,3 g/cm³.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm volymen i cm³.",
-        "t": "<p>Ett massivt blyklot ska ha massan 15 kg. Blyets densitet är 11,3 g/cm³. (Svara med tre värdesiffror.)</p><p>Bestäm volymen i cm³.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>V = 15 000/11,3 = 1327,43… cm³, alltså 1330 cm³.</p></div></div></div>",
-        "ledtrad": "<p>Gå från massa till volym och sedan från klotvolym till radie.</p>",
+        "fraga": "Bestäm volymen. (Svara i cm³ med tre värdesiffror.)",
+        "t": "<p>Ett massivt blyklot ska ha massan 15 kg. Blyets densitet är 11,3 g/cm³.</p><p>Bestäm volymen. (Svara i cm³ med tre värdesiffror.)</p>",
+        "s": "<div class=\"facit-v2\"><p>Skriv massan i gram så att enheterna passar densiteten.</p>\\[V=\\frac{m}{\\rho}=\\frac{15000}{11{,}3}\\,\\mathrm{cm^3}.\\]<p>Beräkningsvärdet är \\(1327{,}43\\ldots\\,\\mathrm{cm^3}\\).</p><p><strong>Svar:</strong> \\(1{,}33\\cdot10^3\\,\\mathrm{cm^3}\\). Behåll det oavrundade värdet vid fortsatt beräkning.</p></div>",
+        "ledtrad": "<p>Skriv massan i gram och använd sambandet mellan densitet, massa och volym.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
@@ -4862,9 +4869,9 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm radien i cm.",
-        "t": "<p>Ett massivt blyklot ska ha massan 15 kg. Blyets densitet är 11,3 g/cm³. (Svara med tre värdesiffror.)</p><p>Bestäm radien i cm.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymen är 15 000/11,3 cm³.</p></div><div class=\"facit-stycke\"><p>Ur \\(V=4\\pi r^3/3\\) fås \\(r=\\sqrt[3]{3V/(4\\pi)}\\approx6{,}82\\) cm.</p></div></div></div>",
+        "fraga": "Bestäm radien. (Svara i cm med tre värdesiffror.)",
+        "t": "<p>Ett massivt blyklot ska ha massan 15 kg. Blyets densitet är 11,3 g/cm³.</p><p>Bestäm radien. (Svara i cm med tre värdesiffror.)</p>",
+        "s": "<div class=\"facit-v2\"><p>Beräkna volymen från massan och densiteten:</p>\\[V=\\frac{15000}{11{,}3}\\,\\mathrm{cm^3}.\\]<p>Klotets volym är \\(V=4\\pi r^3/3\\). Lös ut radien och använd den oavrundade volymen:</p>\\[r=\\sqrt[3]{\\frac{3V}{4\\pi}}.\\]<p><strong>Svar:</strong> \\(r\\approx6{,}82\\,\\mathrm{cm}\\).</p></div>",
         "ledtrad": "<p>Gå från massa till volym och sedan från klotvolym till radie.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -4873,9 +4880,9 @@ window.BANK = [
       },
       {
         "etikett": "c",
-        "fraga": "Bestäm radien i cm om massan i stället är 30 kg.",
-        "t": "<p>Ett massivt blyklot ska ha massan 15 kg. Blyets densitet är 11,3 g/cm³. (Svara med tre värdesiffror.)</p><p>Bestäm radien i cm om massan i stället är 30 kg.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Volymen är 30 000/11,3 cm³ och \\(r=\\sqrt[3]{3V/(4\\pi)}\\approx8{,}59\\) cm.</p></div><div class=\"facit-stycke\"><p>Dubbel massa ger radiefaktorn \\(\\sqrt[3]2\\), inte dubbel radie.</p></div></div></div>",
+        "fraga": "Bestäm radien. (Svara i cm med tre värdesiffror.)",
+        "t": "<p>Ett massivt blyklot ska ha massan 30 kg. Blyets densitet är 11,3 g/cm³.</p><p>Bestäm radien. (Svara i cm med tre värdesiffror.)</p>",
+        "s": "<div class=\"facit-v2\"><p>Beräkna volymen från massan och densiteten:</p>\\[V=\\frac{30000}{11{,}3}\\,\\mathrm{cm^3}.\\]<p>Klotets volym är \\(V=4\\pi r^3/3\\). Lös ut radien och använd den oavrundade volymen:</p>\\[r=\\sqrt[3]{\\frac{3V}{4\\pi}}.\\]<p><strong>Svar:</strong> \\(r\\approx8{,}59\\,\\mathrm{cm}\\).</p></div>",
         "ledtrad": "<p>Gå från massa till volym och sedan från klotvolym till radie.</p>",
         "niva": "E",
         "traningsniva": 3,
@@ -4893,8 +4900,8 @@ window.BANK = [
     "omr": "densitet",
     "niva": "C",
     "poang": "(0/2/0)",
-    "t": "<p>Mässing är en legering av koppar (8930 kg/m³) och zink (7130 kg/m³). En viss mässing består av 60 volymprocent koppar och 40 volymprocent zink.</p>\n<p>Bestäm legeringens densitet.</p><p>Anta att kopparns och zinkens volymer tillsammans blir legeringens volym.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><div class=\"facit-arbete\"><p class=\"facit-metod\">Välj till exempel totalvolymen \\(1{,}00\\ \\mathrm{m^3}\\).</p><p class=\"facit-metod\">Massan blir summan av de båda delarnas massor.</p><div class=\"facit-matte\">\\[m=0{,}60\\rho_{\\mathrm{Cu}}+0{,}40\\rho_{\\mathrm{Zn}}\\]\\[\\rho_{\\mathrm{mässing}}=0{,}60\\cdot8930+0{,}40\\cdot7130=8210\\ \\mathrm{kg/m^3}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Legeringens densitet är \\(8{,}21\\cdot10^3\\ \\mathrm{kg/m^3}\\).</p></div>",
+    "t": "<p>Mässing är en legering av koppar (8930 kg/m³) och zink (7130 kg/m³). En viss mässing består av 60 volymprocent koppar och 40 volymprocent zink.</p>\n<p>Bestäm legeringens densitet. (Svara i kg/m³.)</p><p>Anta att kopparns och zinkens volymer tillsammans blir legeringens volym.</p>",
+    "s": "<div class=\"facit-v2\"><p>Välj en totalvolym på \\(1\\,\\mathrm{m^3}\\). Eftersom andelarna är volymprocent finns då \\(0{,}60\\,\\mathrm{m^3}\\) koppar och \\(0{,}40\\,\\mathrm{m^3}\\) zink.</p><p>Beräkna varje materials massa med \\(m=\\rho V\\):</p>\\[m_{\\mathrm{Cu}}=8930\\cdot0{,}60=5358\\,\\mathrm{kg},\\]\\[m_{\\mathrm{Zn}}=7130\\cdot0{,}40=2852\\,\\mathrm{kg}.\\]<p>Den sammanlagda massan är \\(8210\\,\\mathrm{kg}\\) och volymen är \\(1\\,\\mathrm{m^3}\\).</p>\\[\\rho=\\frac{8210}{1}=8210\\,\\mathrm{kg/m^3}.\\]<p>Metoden bygger på volymandelarna; vid massprocent skulle beräkningen behöva göras på ett annat sätt.</p></div>",
     "familj": "Sammansatta och ihåliga föremål",
     "formaga": [
       "modellering"
@@ -4923,8 +4930,8 @@ window.BANK = [
     "omr": "densitet",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>Koppar har densiteten 8,96 g/cm³. (Svara med tre värdesiffror.)</p><ol type=\"a\"><li>Bestäm volymen i cm³ hos en massiv kopparbit med massan 450 g.</li><li>Bestäm massan i g hos en massiv kopparkub med sidan 3,0 cm.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{450}{8{,}96}\\approx 50{,}2\\, \\mathrm{cm^3}\\]</div></div></div></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=3^{3}=27\\, \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Massan är</p><div class=\"facit-matte\">\\[8{,}96\\cdot 27=241{,}92 g\\approx 242\\, \\mathrm{g}\\]</div></div></div></div></div></div></div>",
+    "t": "<p>Koppar har densiteten 8,96 g/cm³.</p><ol type=\"a\"><li>Bestäm volymen hos en massiv kopparbit med massan 450 g. (Svara i cm³ med tre värdesiffror.)</li><li>Bestäm massan hos en massiv kopparkub med sidan 3,0 cm. (Svara i g med tre värdesiffror.)</li></ol>",
+    "s": "<div class=\"facit-v2\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><p>Lös ut volymen ur \\(\\rho=m/V\\):</p>\\[V=\\frac{450}{8{,}96}\\,\\mathrm{cm^3}.\\]<p>Det ger \\(50{,}223\\ldots\\,\\mathrm{cm^3}\\), som avrundas till tre värdesiffror.</p><p><strong>Svar:</strong> \\(50{,}2\\,\\mathrm{cm^3}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><p>Kubens volym är \\(V=(3{,}0)^3=27\\,\\mathrm{cm^3}\\).</p><p>Massan fås genom att multiplicera volymen med densiteten:</p>\\[m=8{,}96\\cdot27=241{,}92\\,\\mathrm{g}.\\]<p><strong>Svar:</strong> \\(242\\,\\mathrm{g}\\), med de tre värdesiffror som frågan anger.</p></div></div></div>",
     "familj": "Densitet med geometri",
     "formaga": [
       "procedur"
@@ -4932,12 +4939,12 @@ window.BANK = [
     "familjNyckel": "densitet__densitet_med_geometri_och_volymberakning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      50.2,
-      242
+      50.22321428571428,
+      241.92000000000002
     ],
     "tolerans": [
-      0,
-      0
+      0.05,
+      0.5
     ],
     "självrättning": true,
     "familjNyckelTidigare": "densitet__densitet_med_geometrisk_volym",
@@ -4961,14 +4968,14 @@ window.BANK = [
       "b"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>Koppar har densiteten 8,96 g/cm³. (Svara med tre värdesiffror.)</p>",
+    "spelIntro": "<p>Koppar har densiteten 8,96 g/cm³.</p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm volymen i cm³ hos en massiv kopparbit med massan 450 g.",
-        "t": "<p>Koppar har densiteten 8,96 g/cm³. (Svara med tre värdesiffror.)</p><p>Bestäm volymen i cm³ hos en massiv kopparbit med massan 450 g.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{450}{8{,}96}\\approx 50{,}2\\, \\mathrm{cm^3}\\]</div></div></div></div></div>",
-        "ledtrad": "<p>Skilj mellan att söka volymen och att söka massan.</p>",
+        "fraga": "Bestäm volymen hos en massiv kopparbit med massan 450 g. (Svara i cm³ med tre värdesiffror.)",
+        "t": "<p>Koppar har densiteten 8,96 g/cm³.</p><p>Bestäm volymen hos en massiv kopparbit med massan 450 g. (Svara i cm³ med tre värdesiffror.)</p>",
+        "s": "<div class=\"facit-v2\"><p>Lös ut volymen ur \\(\\rho=m/V\\):</p>\\[V=\\frac{450}{8{,}96}\\,\\mathrm{cm^3}.\\]<p>Det ger \\(50{,}223\\ldots\\,\\mathrm{cm^3}\\), som avrundas till tre värdesiffror.</p><p><strong>Svar:</strong> \\(50{,}2\\,\\mathrm{cm^3}\\).</p></div>",
+        "ledtrad": "<p>Densiteten anger massan hos varje kubikcentimeter. Hur får du volymen från massan?</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
@@ -4976,10 +4983,10 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm massan i g hos en massiv kopparkub med sidan 3,0 cm.",
-        "t": "<p>Koppar har densiteten 8,96 g/cm³. (Svara med tre värdesiffror.)</p><p>Bestäm massan i g hos en massiv kopparkub med sidan 3,0 cm.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-berakning\"><div class=\"facit-matte\">\\[V=3^{3}=27\\, \\mathrm{cm^3}\\]</div></div></div><div class=\"facit-stycke\"><div class=\"facit-berakning\"><p class=\"facit-metod\">Massan är</p><div class=\"facit-matte\">\\[8{,}96\\cdot 27=241{,}92 g\\approx 242\\, \\mathrm{g}\\]</div></div></div></div></div>",
-        "ledtrad": "<p>Skilj mellan att söka volymen och att söka massan.</p>",
+        "fraga": "Bestäm massan hos en massiv kopparkub med sidan 3,0 cm. (Svara i g med tre värdesiffror.)",
+        "t": "<p>Koppar har densiteten 8,96 g/cm³.</p><p>Bestäm massan hos en massiv kopparkub med sidan 3,0 cm. (Svara i g med tre värdesiffror.)</p>",
+        "s": "<div class=\"facit-v2\"><p>Kubens volym är \\(V=(3{,}0)^3=27\\,\\mathrm{cm^3}\\).</p><p>Massan fås genom att multiplicera volymen med densiteten:</p>\\[m=8{,}96\\cdot27=241{,}92\\,\\mathrm{g}.\\]<p><strong>Svar:</strong> \\(242\\,\\mathrm{g}\\), med de tre värdesiffror som frågan anger.</p></div>",
+        "ledtrad": "<p>Beräkna först kubens volym. Multiplicera sedan med densiteten.</p>",
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,

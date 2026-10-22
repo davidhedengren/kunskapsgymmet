@@ -56682,5 +56682,2016 @@ window.BANK2 = [
   "svarEnhet": "MeV",
   "typ": "beräkna rörelseenergi i MeV ur gammafaktor, sökt energi",
   "familjNyckel": "relativistisk_energi__relativistisk_energi"
+},
+{
+  "id": "3.460",
+  "kap": 3,
+  "omr": "magnetism",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En 0,50 m lång ledare i ett magnetfält med flödestätheten 0,25 T för strömmen 4,0 A. Ledaren är vinkelrät mot fältet.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Strömförande ledare med strömmen åt höger i ett magnetfält ut ur pappret\" style=\"max-width:100%;height:auto\"><title>Strömförande ledare med strömmen åt höger i ett magnetfält ut ur pappret</title><rect width=\"480\" height=\"280\" fill=\"white\"/><rect x=\"25\" y=\"25\" width=\"430\" height=\"230\" rx=\"3\" fill=\"#f8fafc\" stroke=\"#d9e2eb\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"70\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"130\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"130\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"190\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"190\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"250\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"250\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"250\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"250\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"310\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"310\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"370\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"370\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"430\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"430\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><text x=\"47\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#2867a8\" text-anchor=\"middle\">B</text><line x1=\"65\" y1=\"140\" x2=\"415\" y2=\"140\" stroke=\"#b87333\" stroke-width=\"11\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"140\" x2=\"415\" y2=\"140\" stroke=\"#e0a370\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"170.2,140.0 149.2,151.6 149.2,128.4\" fill=\"#b54b42\"/><polygon points=\"327.8,140.0 306.8,151.6 306.8,128.4\" fill=\"#b54b42\"/><text x=\"318.8\" y=\"172.0\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#b54b42\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">I</text></svg></span><p>Hur stor kraft verkar på ledaren? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ledaren är vinkelrät mot fältet, så kraften är \\(F=BIl\\).</p></li><li><div class=\"facit-matte\">\\[F=0{,}25\\cdot4{,}0\\cdot0{,}50=0{,}50\\ \\text{N}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,50 N.</p></div>",
+  "familj": "Kraft på en strömförande ledare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Kraften beror på flödestätheten, strömmen och ledarens längd i fältet.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.5,
+  "tolerans": 0.005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N",
+  "typ": "beräkna kraft på ledare, sökt kraft",
+  "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+},
+{
+  "id": "3.461",
+  "kap": 3,
+  "omr": "magnetism",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En 20 cm lång metallstav ligger vinkelrätt mot ett magnetfält med flödestätheten 0,080 T. Strömmen genom staven är 2,5 A.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Metallstav med strömmen uppåt i ett magnetfält in i pappret\" style=\"max-width:100%;height:auto\"><title>Metallstav med strömmen uppåt i ett magnetfält in i pappret</title><rect width=\"480\" height=\"280\" fill=\"white\"/><rect x=\"25\" y=\"25\" width=\"430\" height=\"230\" rx=\"3\" fill=\"#f8fafc\" stroke=\"#d9e2eb\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M63.2 58.2 L76.8 71.8 M76.8 58.2 L63.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M63.2 133.2 L76.8 146.8 M76.8 133.2 L63.2 146.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M63.2 208.2 L76.8 221.8 M76.8 208.2 L63.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M123.2 58.2 L136.8 71.8 M136.8 58.2 L123.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M123.2 133.2 L136.8 146.8 M136.8 133.2 L123.2 146.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M123.2 208.2 L136.8 221.8 M136.8 208.2 L123.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M183.2 58.2 L196.8 71.8 M196.8 58.2 L183.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M183.2 133.2 L196.8 146.8 M196.8 133.2 L183.2 146.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M183.2 208.2 L196.8 221.8 M196.8 208.2 L183.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M303.2 58.2 L316.8 71.8 M316.8 58.2 L303.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M303.2 133.2 L316.8 146.8 M316.8 133.2 L303.2 146.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M303.2 208.2 L316.8 221.8 M316.8 208.2 L303.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M363.2 58.2 L376.8 71.8 M376.8 58.2 L363.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M363.2 133.2 L376.8 146.8 M376.8 133.2 L363.2 146.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M363.2 208.2 L376.8 221.8 M376.8 208.2 L363.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M423.2 58.2 L436.8 71.8 M436.8 58.2 L423.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M423.2 133.2 L436.8 146.8 M436.8 133.2 L423.2 146.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M423.2 208.2 L436.8 221.8 M436.8 208.2 L423.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><text x=\"47\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#2867a8\" text-anchor=\"middle\">B</text><line x1=\"240\" y1=\"240\" x2=\"240\" y2=\"40\" stroke=\"#b87333\" stroke-width=\"11\" stroke-linecap=\"round\"/><line x1=\"240\" y1=\"240\" x2=\"240\" y2=\"40\" stroke=\"#e0a370\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"240.0,176.0 251.6,197.0 228.4,197.0\" fill=\"#b54b42\"/><polygon points=\"240.0,86.0 251.6,107.0 228.4,107.0\" fill=\"#b54b42\"/><text x=\"266.0\" y=\"101.0\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#b54b42\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">I</text></svg></span><p>Hur stor är den magnetiska kraften på staven? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Längden ska vara i meter: 20 cm = 0,20 m.</p></li><li><div class=\"facit-matte\">\\[F=BIl=0{,}080\\cdot2{,}5\\cdot0{,}20=0{,}040\\ \\text{N}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,040 N.</p></div>",
+  "familj": "Kraft på en strömförande ledare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Räkna om längden till meter först.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.04,
+  "tolerans": 0.0004,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N",
+  "typ": "beräkna kraft på ledare med längd i cm, sökt kraft",
+  "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+},
+{
+  "id": "3.462",
+  "kap": 3,
+  "omr": "magnetism",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En 0,40 m lång ledare med strömmen 3,0 A påverkas av kraften 0,12 N. Ledaren är vinkelrät mot magnetfältet.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Ledare med strömmen åt höger i ett magnetfält uppåt\" style=\"max-width:100%;height:auto\"><title>Ledare med strömmen åt höger i ett magnetfält uppåt</title><rect width=\"480\" height=\"280\" fill=\"white\"/><rect x=\"25\" y=\"25\" width=\"430\" height=\"230\" rx=\"3\" fill=\"#f8fafc\" stroke=\"#d9e2eb\" stroke-width=\"2\"/><line x1=\"75\" y1=\"235\" x2=\"75\" y2=\"51\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><polygon points=\"75.0,45.0 80.5,55.0 69.5,55.0\" fill=\"#2867a8\"/><line x1=\"150\" y1=\"235\" x2=\"150\" y2=\"51\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><polygon points=\"150.0,45.0 155.5,55.0 144.5,55.0\" fill=\"#2867a8\"/><line x1=\"330\" y1=\"235\" x2=\"330\" y2=\"51\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><polygon points=\"330.0,45.0 335.5,55.0 324.5,55.0\" fill=\"#2867a8\"/><line x1=\"405\" y1=\"235\" x2=\"405\" y2=\"51\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><polygon points=\"405.0,45.0 410.5,55.0 399.5,55.0\" fill=\"#2867a8\"/><text x=\"47\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#2867a8\" text-anchor=\"middle\">B</text><line x1=\"65\" y1=\"140\" x2=\"415\" y2=\"140\" stroke=\"#b87333\" stroke-width=\"11\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"140\" x2=\"415\" y2=\"140\" stroke=\"#e0a370\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"170.2,140.0 149.2,151.6 149.2,128.4\" fill=\"#b54b42\"/><polygon points=\"327.8,140.0 306.8,151.6 306.8,128.4\" fill=\"#b54b42\"/><text x=\"318.8\" y=\"172.0\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#b54b42\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">I</text></svg></span><p>Hur stor är magnetfältets flödestäthet? (Svara i T.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[B=\\frac{F}{Il}=\\frac{0{,}12}{3{,}0\\cdot0{,}40}=0{,}10\\ \\text{T}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,10 T.</p></div>",
+  "familj": "Kraft på en strömförande ledare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Lös ut \\(B\\) ur sambandet för kraften på en ledare.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.1,
+  "tolerans": 0.001,
+  "svarVardesiffror": 2,
+  "svarEnhet": "T",
+  "typ": "beräkna flödestäthet ur kraft, sökt B",
+  "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+},
+{
+  "id": "3.463",
+  "kap": 3,
+  "omr": "magnetism",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En 10 cm lång ledare ligger vinkelrätt mot ett magnetfält med flödestätheten 0,30 T. Den magnetiska kraften på ledaren är 0,060 N.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Ledare med strömmen uppåt i ett magnetfält ut ur pappret\" style=\"max-width:100%;height:auto\"><title>Ledare med strömmen uppåt i ett magnetfält ut ur pappret</title><rect width=\"480\" height=\"280\" fill=\"white\"/><rect x=\"25\" y=\"25\" width=\"430\" height=\"230\" rx=\"3\" fill=\"#f8fafc\" stroke=\"#d9e2eb\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"70\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"140\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"70\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"130\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"130\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"140\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"130\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"190\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"190\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"140\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"190\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"310\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"310\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"140\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"310\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"370\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"370\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"140\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"370\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"430\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"430\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"140\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"430\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><text x=\"47\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#2867a8\" text-anchor=\"middle\">B</text><line x1=\"240\" y1=\"240\" x2=\"240\" y2=\"40\" stroke=\"#b87333\" stroke-width=\"11\" stroke-linecap=\"round\"/><line x1=\"240\" y1=\"240\" x2=\"240\" y2=\"40\" stroke=\"#e0a370\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"240.0,176.0 251.6,197.0 228.4,197.0\" fill=\"#b54b42\"/><polygon points=\"240.0,86.0 251.6,107.0 228.4,107.0\" fill=\"#b54b42\"/><text x=\"266.0\" y=\"101.0\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#b54b42\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">I</text></svg></span><p>Hur stor är strömmen genom ledaren? (Svara i A.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I=\\frac{F}{Bl}=\\frac{0{,}060}{0{,}30\\cdot0{,}10}=2{,}0\\ \\text{A}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,0 A.</p></div>",
+  "familj": "Kraft på en strömförande ledare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Lös ut \\(I\\). Glöm inte att räkna om centimeter till meter.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.0,
+  "tolerans": 0.02,
+  "svarVardesiffror": 2,
+  "svarEnhet": "A",
+  "typ": "beräkna ström ur kraft, sökt ström",
+  "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+},
+{
+  "id": "3.464",
+  "kap": 3,
+  "omr": "magnetism",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En ledare för ström åt höger i ett magnetfält som är riktat in i pappret.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Ledare med strömmen åt höger i ett magnetfält in i pappret\" style=\"max-width:100%;height:auto\"><title>Ledare med strömmen åt höger i ett magnetfält in i pappret</title><rect width=\"480\" height=\"280\" fill=\"white\"/><rect x=\"25\" y=\"25\" width=\"430\" height=\"230\" rx=\"3\" fill=\"#f8fafc\" stroke=\"#d9e2eb\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M63.2 58.2 L76.8 71.8 M76.8 58.2 L63.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M63.2 208.2 L76.8 221.8 M76.8 208.2 L63.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M123.2 58.2 L136.8 71.8 M136.8 58.2 L123.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M123.2 208.2 L136.8 221.8 M136.8 208.2 L123.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M183.2 58.2 L196.8 71.8 M196.8 58.2 L183.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M183.2 208.2 L196.8 221.8 M196.8 208.2 L183.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"250\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M243.2 58.2 L256.8 71.8 M256.8 58.2 L243.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"250\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M243.2 208.2 L256.8 221.8 M256.8 208.2 L243.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M303.2 58.2 L316.8 71.8 M316.8 58.2 L303.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M303.2 208.2 L316.8 221.8 M316.8 208.2 L303.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M363.2 58.2 L376.8 71.8 M376.8 58.2 L363.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M363.2 208.2 L376.8 221.8 M376.8 208.2 L363.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M423.2 58.2 L436.8 71.8 M436.8 58.2 L423.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M423.2 208.2 L436.8 221.8 M436.8 208.2 L423.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><text x=\"47\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#2867a8\" text-anchor=\"middle\">B</text><line x1=\"65\" y1=\"140\" x2=\"415\" y2=\"140\" stroke=\"#b87333\" stroke-width=\"11\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"140\" x2=\"415\" y2=\"140\" stroke=\"#e0a370\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"170.2,140.0 149.2,151.6 149.2,128.4\" fill=\"#b54b42\"/><polygon points=\"327.8,140.0 306.8,151.6 306.8,128.4\" fill=\"#b54b42\"/><text x=\"318.8\" y=\"172.0\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#b54b42\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">I</text></svg></span><p>Åt vilket håll verkar kraften på ledaren?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd högerhandsregeln: tummen i strömmens riktning (höger), fingrarna i fältets riktning (in i pappret). Handflatan visar kraften, som är riktad uppåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Uppåt.</p></div>",
+  "familj": "Riktningen på kraften på en ledare",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Högerhandsregeln: tummen längs strömmen, fingrarna längs fältet.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "uppåt",
+      "ratt": true
+    },
+    {
+      "txt": "nedåt",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln igen."
+    },
+    {
+      "txt": "åt höger",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln igen."
+    },
+    {
+      "txt": "åt vänster",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln igen."
+    },
+    {
+      "txt": "in i pappret",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln igen."
+    },
+    {
+      "txt": "ut ur pappret",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln igen."
+    }
+  ],
+  "typ": "avgöra kraftens riktning på ledare, sökt riktning",
+  "familjNyckel": "magnetism__riktningsfragor_kraft_pa_ledare_i_magnetfalt"
+},
+{
+  "id": "3.465",
+  "kap": 3,
+  "omr": "magnetism",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En strömförande ledare ligger parallellt med magnetfältets riktning.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Ledare med strömmen åt höger i ett magnetfält åt höger\" style=\"max-width:100%;height:auto\"><title>Ledare med strömmen åt höger i ett magnetfält åt höger</title><rect width=\"480\" height=\"280\" fill=\"white\"/><rect x=\"25\" y=\"25\" width=\"430\" height=\"230\" rx=\"3\" fill=\"#f8fafc\" stroke=\"#d9e2eb\" stroke-width=\"2\"/><line x1=\"50\" y1=\"72\" x2=\"424\" y2=\"72\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><polygon points=\"430.0,72.0 420.0,77.5 420.0,66.5\" fill=\"#2867a8\"/><line x1=\"50\" y1=\"110\" x2=\"424\" y2=\"110\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><polygon points=\"430.0,110.0 420.0,115.5 420.0,104.5\" fill=\"#2867a8\"/><line x1=\"50\" y1=\"190\" x2=\"424\" y2=\"190\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><polygon points=\"430.0,190.0 420.0,195.5 420.0,184.5\" fill=\"#2867a8\"/><line x1=\"50\" y1=\"228\" x2=\"424\" y2=\"228\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><polygon points=\"430.0,228.0 420.0,233.5 420.0,222.5\" fill=\"#2867a8\"/><text x=\"47\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#2867a8\" text-anchor=\"middle\">B</text><line x1=\"65\" y1=\"140\" x2=\"415\" y2=\"140\" stroke=\"#b87333\" stroke-width=\"11\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"140\" x2=\"415\" y2=\"140\" stroke=\"#e0a370\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"170.2,140.0 149.2,151.6 149.2,128.4\" fill=\"#b54b42\"/><polygon points=\"327.8,140.0 306.8,151.6 306.8,128.4\" fill=\"#b54b42\"/><text x=\"318.8\" y=\"172.0\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#b54b42\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">I</text></svg></span><p>Hur stor är den magnetiska kraften på ledaren?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kraften är \\(F=BIl\\sin\\theta\\), där \\(\\theta\\) är vinkeln mellan ström och fält. När de är parallella är \\(\\sin0^\\circ=0\\), så kraften är noll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kraften är noll.</p></div>",
+  "familj": "Kraft på en strömförande ledare",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Kraften beror på vinkeln mellan strömmen och fältet.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Noll",
+      "ratt": true
+    },
+    {
+      "txt": "Största möjliga",
+      "ratt": false,
+      "kommentar": "Kraften är störst när ledaren är vinkelrät mot fältet."
+    },
+    {
+      "txt": "Hälften av den största kraften",
+      "ratt": false,
+      "kommentar": "Vid parallell ström och fält blir kraften noll."
+    },
+    {
+      "txt": "Det beror på strömmens storlek",
+      "ratt": false,
+      "kommentar": "Oavsett ström blir kraften noll när de är parallella."
+    }
+  ],
+  "typ": "ledare parallell med fältet, begrepp",
+  "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+},
+{
+  "id": "3.466",
+  "kap": 3,
+  "omr": "magnetism",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En ledare i ett magnetfält påverkas av kraften 0,30 N. Strömmen genom ledaren fördubblas, medan allt annat är oförändrat.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Ledare med ström i ett magnetfält in i pappret\" style=\"max-width:100%;height:auto\"><title>Ledare med ström i ett magnetfält in i pappret</title><rect width=\"480\" height=\"280\" fill=\"white\"/><rect x=\"25\" y=\"25\" width=\"430\" height=\"230\" rx=\"3\" fill=\"#f8fafc\" stroke=\"#d9e2eb\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M63.2 58.2 L76.8 71.8 M76.8 58.2 L63.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M63.2 208.2 L76.8 221.8 M76.8 208.2 L63.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M123.2 58.2 L136.8 71.8 M136.8 58.2 L123.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M123.2 208.2 L136.8 221.8 M136.8 208.2 L123.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M183.2 58.2 L196.8 71.8 M196.8 58.2 L183.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M183.2 208.2 L196.8 221.8 M196.8 208.2 L183.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"250\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M243.2 58.2 L256.8 71.8 M256.8 58.2 L243.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"250\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M243.2 208.2 L256.8 221.8 M256.8 208.2 L243.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M303.2 58.2 L316.8 71.8 M316.8 58.2 L303.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M303.2 208.2 L316.8 221.8 M316.8 208.2 L303.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M363.2 58.2 L376.8 71.8 M376.8 58.2 L363.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M363.2 208.2 L376.8 221.8 M376.8 208.2 L363.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M423.2 58.2 L436.8 71.8 M436.8 58.2 L423.2 71.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M423.2 208.2 L436.8 221.8 M436.8 208.2 L423.2 221.8\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><text x=\"47\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#2867a8\" text-anchor=\"middle\">B</text><line x1=\"65\" y1=\"140\" x2=\"415\" y2=\"140\" stroke=\"#b87333\" stroke-width=\"11\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"140\" x2=\"415\" y2=\"140\" stroke=\"#e0a370\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"170.2,140.0 149.2,151.6 149.2,128.4\" fill=\"#b54b42\"/><polygon points=\"327.8,140.0 306.8,151.6 306.8,128.4\" fill=\"#b54b42\"/><text x=\"318.8\" y=\"172.0\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#b54b42\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">I</text></svg></span><p>Hur stor blir kraften? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kraften \\(F=BIl\\) är proportionell mot strömmen. Dubbel ström ger dubbel kraft.</p></li><li><div class=\"facit-matte\">\\[F=2\\cdot0{,}30=0{,}60\\ \\text{N}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,60 N.</p></div>",
+  "familj": "Kraft på en strömförande ledare",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur beror kraften på strömmen?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.6,
+  "tolerans": 0.006,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N",
+  "typ": "proportionalitet kraft och ström, begrepp",
+  "familjNyckel": "magnetism__kraft_pa_en_stromforande_ledare"
+},
+{
+  "id": "3.467",
+  "kap": 3,
+  "omr": "magnetism",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En ledare för ström nedåt i ett magnetfält som är riktat ut ur pappret.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Ledare med strömmen nedåt i ett magnetfält ut ur pappret\" style=\"max-width:100%;height:auto\"><title>Ledare med strömmen nedåt i ett magnetfält ut ur pappret</title><rect width=\"480\" height=\"280\" fill=\"white\"/><rect x=\"25\" y=\"25\" width=\"430\" height=\"230\" rx=\"3\" fill=\"#f8fafc\" stroke=\"#d9e2eb\" stroke-width=\"2\"/><circle cx=\"70\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"70\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"140\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"70\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"130\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"130\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"140\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"130\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"130\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"190\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"190\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"140\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"190\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"310\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"310\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"140\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"310\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"310\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"370\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"370\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"140\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"370\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"430\" cy=\"65\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"65\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"430\" cy=\"140\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"140\" r=\"2.9\" fill=\"#2867a8\"/><circle cx=\"430\" cy=\"215\" r=\"11\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"430\" cy=\"215\" r=\"2.9\" fill=\"#2867a8\"/><text x=\"47\" y=\"52\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#2867a8\" text-anchor=\"middle\">B</text><line x1=\"240\" y1=\"40\" x2=\"240\" y2=\"240\" stroke=\"#b87333\" stroke-width=\"11\" stroke-linecap=\"round\"/><line x1=\"240\" y1=\"40\" x2=\"240\" y2=\"240\" stroke=\"#e0a370\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"240.0,104.0 228.4,83.0 251.6,83.0\" fill=\"#b54b42\"/><polygon points=\"240.0,194.0 228.4,173.0 251.6,173.0\" fill=\"#b54b42\"/><text x=\"214.0\" y=\"191.0\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#b54b42\" text-anchor=\"middle\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">I</text></svg></span><p>Åt vilket håll verkar kraften på ledaren?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tummen nedåt längs strömmen och fingrarna ut ur pappret. Handflatan pekar åt vänster.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Åt vänster.</p></div>",
+  "familj": "Riktningen på kraften på en ledare",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Högerhandsregeln: tummen längs strömmen, fingrarna längs fältet.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "uppåt",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln igen."
+    },
+    {
+      "txt": "nedåt",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln igen."
+    },
+    {
+      "txt": "åt höger",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln igen."
+    },
+    {
+      "txt": "åt vänster",
+      "ratt": true
+    },
+    {
+      "txt": "in i pappret",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln igen."
+    },
+    {
+      "txt": "ut ur pappret",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln igen."
+    }
+  ],
+  "typ": "avgöra kraftens riktning på ledare, sökt riktning",
+  "familjNyckel": "magnetism__riktningsfragor_kraft_pa_ledare_i_magnetfalt"
+},
+{
+  "id": "3.468",
+  "kap": 3,
+  "omr": "orsted",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En lång rak ledare för strömmen 10 A. Punkten \\(P\\) ligger 5,0 cm från ledaren.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Rak ledare sedd i tvärsnitt med strömmen ut ur pappret och punkten P 5,0 cm bort\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"130\" r=\"40\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"110\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"16\" fill=\"#f3d3b5\" stroke=\"#b87333\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"130\" r=\"9\" fill=\"none\" stroke=\"#b54b42\" stroke-width=\"2.2\"/><circle cx=\"180\" cy=\"130\" r=\"2.3\" fill=\"#b54b42\"/><rect x=\"141.1\" y=\"118.2\" width=\"21.9\" height=\"24.6\" rx=\"3\" fill=\"#fff\"/><text x=\"152.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I</text><line x1=\"196.0\" y1=\"130.0\" x2=\"290.0\" y2=\"130.0\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"290\" cy=\"130\" r=\"4.5\" fill=\"#172b3a\"/><rect x=\"303.0\" y=\"103.2\" width=\"21.2\" height=\"23.2\" rx=\"3\" fill=\"#fff\"/><text x=\"308.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><rect x=\"235.5\" y=\"140.2\" width=\"73.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"272.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">5,0 cm</text></svg></span><p>Hur stor är magnetfältets flödestäthet i \\(P\\)? (Svara i T.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kring en lång rak ledare är \\(B=\\dfrac{\\mu_0 I}{2\\pi a}\\), där \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Vs/Am.</p></li><li><div class=\"facit-matte\">\\[B=\\frac{4\\pi\\cdot10^{-7}\\cdot10}{2\\pi\\cdot0{,}050}=4\\cdot10^{-5}\\ \\text{T}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\cdot10^{-5}\\) T.</p></div>",
+  "familj": "Magnetfält kring raka ledare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Avståndet ska vara i meter.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4e-05,
+  "tolerans": 4.0000000000000003e-07,
+  "svarVardesiffror": 2,
+  "svarEnhet": "T",
+  "typ": "beräkna B kring rak ledare, sökt B",
+  "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+},
+{
+  "id": "3.469",
+  "kap": 3,
+  "omr": "orsted",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En kabel till en elspis för strömmen 3,0 A.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Kabel sedd i tvärsnitt med strömmen in i pappret och punkten P 2,0 cm bort\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"130\" r=\"40\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"110\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"16\" fill=\"#f3d3b5\" stroke=\"#b87333\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"130\" r=\"9\" fill=\"none\" stroke=\"#b54b42\" stroke-width=\"2.2\"/><path d=\"M174.4 124.4 L185.6 135.6 M185.6 124.4 L174.4 135.6\" stroke=\"#b54b42\" stroke-width=\"2.2\"/><rect x=\"141.1\" y=\"118.2\" width=\"21.9\" height=\"24.6\" rx=\"3\" fill=\"#fff\"/><text x=\"152.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I</text><line x1=\"196.0\" y1=\"130.0\" x2=\"290.0\" y2=\"130.0\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"290\" cy=\"130\" r=\"4.5\" fill=\"#172b3a\"/><rect x=\"303.0\" y=\"103.2\" width=\"21.2\" height=\"23.2\" rx=\"3\" fill=\"#fff\"/><text x=\"308.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><rect x=\"235.5\" y=\"140.2\" width=\"73.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"272.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">2,0 cm</text></svg></span><p>Hur stark är flödestätheten 2,0 cm från kabeln? (Svara i T.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kring en lång rak ledare är \\(B=\\dfrac{\\mu_0 I}{2\\pi a}\\), där \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Vs/Am.</p></li><li><div class=\"facit-matte\">\\[B=\\frac{4\\pi\\cdot10^{-7}\\cdot3{,}0}{2\\pi\\cdot0{,}020}=3\\cdot10^{-5}\\ \\text{T}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\cdot10^{-5}\\) T.</p></div>",
+  "familj": "Magnetfält kring raka ledare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Räkna om avståndet till meter.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.9999999999999997e-05,
+  "tolerans": 3e-07,
+  "svarVardesiffror": 2,
+  "svarEnhet": "T",
+  "typ": "beräkna B nära en kabel, sökt B",
+  "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+},
+{
+  "id": "3.470",
+  "kap": 3,
+  "omr": "orsted",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>På avståndet \\(a\\) från en rak ledare är flödestätheten \\(B\\). Man flyttar sig till det dubbla avståndet \\(2a\\).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Rak ledare med koncentriska fältlinjer\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"130\" r=\"40\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"110\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"16\" fill=\"#f3d3b5\" stroke=\"#b87333\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"130\" r=\"9\" fill=\"none\" stroke=\"#b54b42\" stroke-width=\"2.2\"/><circle cx=\"180\" cy=\"130\" r=\"2.3\" fill=\"#b54b42\"/><rect x=\"141.1\" y=\"118.2\" width=\"21.9\" height=\"24.6\" rx=\"3\" fill=\"#fff\"/><text x=\"152.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I</text></svg></span><p>Hur stor blir flödestätheten?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(B\\) är omvänt proportionell mot avståndet: dubbla avståndet ger halva flödestätheten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(B/2\\).</p></div>",
+  "familj": "Magnetfält kring raka ledare",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Avståndet står i nämnaren.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(B/2\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(B/4\\)",
+      "ratt": false,
+      "kommentar": "B avtar som 1/a, inte 1/a²."
+    },
+    {
+      "txt": "\\(2B\\)",
+      "ratt": false,
+      "kommentar": "Fältet blir svagare längre bort."
+    },
+    {
+      "txt": "Oförändrat \\(B\\)",
+      "ratt": false,
+      "kommentar": "Fältet avtar med avståndet."
+    }
+  ],
+  "typ": "avstånd och flödestäthet, begrepp",
+  "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+},
+{
+  "id": "3.471",
+  "kap": 3,
+  "omr": "orsted",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Strömmen i den raka ledaren går ut ur pappret, mot dig.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Rak ledare med strömmen ut ur pappret och cirkelformade fältlinjer\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"130\" r=\"40\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"110\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"16\" fill=\"#f3d3b5\" stroke=\"#b87333\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"130\" r=\"9\" fill=\"none\" stroke=\"#b54b42\" stroke-width=\"2.2\"/><circle cx=\"180\" cy=\"130\" r=\"2.3\" fill=\"#b54b42\"/><rect x=\"141.1\" y=\"118.2\" width=\"21.9\" height=\"24.6\" rx=\"3\" fill=\"#fff\"/><text x=\"152.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I</text></svg></span><p>Åt vilket håll går fältlinjerna runt ledaren, sett från dig?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Högerhandsregeln: tummen i strömmens riktning, mot dig. Fingrarna böjer sig moturs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Moturs.</p></div>",
+  "familj": "Riktningen på fältet kring en rak ledare",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Peka med höger tumme i strömmens riktning.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Moturs",
+      "ratt": true
+    },
+    {
+      "txt": "Medurs",
+      "ratt": false,
+      "kommentar": "Det gäller när strömmen går in i pappret."
+    },
+    {
+      "txt": "Rakt ut från ledaren",
+      "ratt": false,
+      "kommentar": "Fältlinjerna är cirklar runt ledaren."
+    },
+    {
+      "txt": "Rakt in mot ledaren",
+      "ratt": false,
+      "kommentar": "Fältlinjerna är cirklar runt ledaren."
+    }
+  ],
+  "typ": "avgöra fältets riktning kring rak ledare, sökt rotationsriktning",
+  "familjNyckel": "magnetism__riktningsfragor_magnetfalt_kring_rak_ledare"
+},
+{
+  "id": "3.472",
+  "kap": 3,
+  "omr": "orsted",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>På avståndet 0,10 m från en rak ledare är flödestätheten \\(2{,}0\\cdot10^{-5}\\) T.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Rak ledare med punkten P 0,10 m bort\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"130\" r=\"40\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"110\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"16\" fill=\"#f3d3b5\" stroke=\"#b87333\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"130\" r=\"9\" fill=\"none\" stroke=\"#b54b42\" stroke-width=\"2.2\"/><path d=\"M174.4 124.4 L185.6 135.6 M185.6 124.4 L174.4 135.6\" stroke=\"#b54b42\" stroke-width=\"2.2\"/><rect x=\"141.1\" y=\"118.2\" width=\"21.9\" height=\"24.6\" rx=\"3\" fill=\"#fff\"/><text x=\"152.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I</text><line x1=\"196.0\" y1=\"130.0\" x2=\"290.0\" y2=\"130.0\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"290\" cy=\"130\" r=\"4.5\" fill=\"#172b3a\"/><rect x=\"303.0\" y=\"103.2\" width=\"21.2\" height=\"23.2\" rx=\"3\" fill=\"#fff\"/><text x=\"308.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><rect x=\"235.5\" y=\"140.2\" width=\"73.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"272.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">0,10 m</text></svg></span><p>Hur stor är strömmen i ledaren? (Svara i A.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kring en lång rak ledare är \\(B=\\dfrac{\\mu_0 I}{2\\pi a}\\), där \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Vs/Am.</p></li><li><div class=\"facit-matte\">\\[I=\\frac{2\\pi aB}{\\mu_0}=\\frac{2\\pi\\cdot0{,}10\\cdot2{,}0\\cdot10^{-5}}{4\\pi\\cdot10^{-7}}=10\\ \\text{A}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 A.</p></div>",
+  "familj": "Magnetfält kring raka ledare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Lös ut \\(I\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10.000000000000002,
+  "tolerans": 0.10000000000000002,
+  "svarVardesiffror": 2,
+  "svarEnhet": "A",
+  "typ": "beräkna ström ur flödestäthet, sökt ström",
+  "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+},
+{
+  "id": "3.473",
+  "kap": 3,
+  "omr": "orsted",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En kraftledning för strömmen 200 A. En person står 10 m från ledningen.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Kraftledning sedd i tvärsnitt och en punkt 10 m bort\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"130\" r=\"40\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"110\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"16\" fill=\"#f3d3b5\" stroke=\"#b87333\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"130\" r=\"9\" fill=\"none\" stroke=\"#b54b42\" stroke-width=\"2.2\"/><circle cx=\"180\" cy=\"130\" r=\"2.3\" fill=\"#b54b42\"/><rect x=\"141.1\" y=\"118.2\" width=\"21.9\" height=\"24.6\" rx=\"3\" fill=\"#fff\"/><text x=\"152.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I</text><line x1=\"196.0\" y1=\"130.0\" x2=\"290.0\" y2=\"130.0\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><circle cx=\"290\" cy=\"130\" r=\"4.5\" fill=\"#172b3a\"/><rect x=\"303.0\" y=\"103.2\" width=\"21.2\" height=\"23.2\" rx=\"3\" fill=\"#fff\"/><text x=\"308.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><rect x=\"246.0\" y=\"140.2\" width=\"52.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"272.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">10 m</text></svg></span><p>Hur stor är flödestätheten från ledningen där personen står? (Svara i T.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kring en lång rak ledare är \\(B=\\dfrac{\\mu_0 I}{2\\pi a}\\), där \\(\\mu_0=4\\pi\\cdot10^{-7}\\) Vs/Am.</p></li><li><div class=\"facit-matte\">\\[B=\\frac{4\\pi\\cdot10^{-7}\\cdot200}{2\\pi\\cdot10}=4\\cdot10^{-6}\\ \\text{T}\\]</div></li><li><p>Det är mindre än en tiondel av jordens magnetfält.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\cdot10^{-6}\\) T.</p></div>",
+  "familj": "Magnetfält kring raka ledare",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Sätt in strömmen och avståndet i sambandet för en rak ledare.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4.000000000000001e-06,
+  "tolerans": 4.000000000000001e-08,
+  "svarVardesiffror": 2,
+  "svarEnhet": "T",
+  "typ": "beräkna B under en kraftledning, sökt B",
+  "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+},
+{
+  "id": "3.474",
+  "kap": 3,
+  "omr": "orsted",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Järnfilspån strös på en skiva runt en lodrät ledare med likström. Filspånen ordnar sig efter magnetfältet.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Ledare sedd ovanifrån med fältlinjer runt\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"130\" r=\"40\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"110\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"16\" fill=\"#f3d3b5\" stroke=\"#b87333\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"130\" r=\"9\" fill=\"none\" stroke=\"#b54b42\" stroke-width=\"2.2\"/><circle cx=\"180\" cy=\"130\" r=\"2.3\" fill=\"#b54b42\"/><rect x=\"141.1\" y=\"118.2\" width=\"21.9\" height=\"24.6\" rx=\"3\" fill=\"#fff\"/><text x=\"152.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I</text></svg></span><p>Vilken form får fältlinjerna?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Fältlinjerna kring en rak ledare är koncentriska cirklar med ledaren i mitten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirklar runt ledaren.</p></div>",
+  "familj": "Magnetfält kring raka ledare",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Tänk på högerhandsregeln: fingrarna sluter sig runt ledaren.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Koncentriska cirklar runt ledaren",
+      "ratt": true
+    },
+    {
+      "txt": "Raka linjer ut från ledaren",
+      "ratt": false,
+      "kommentar": "Så ser ett elektriskt fält kring en laddning ut."
+    },
+    {
+      "txt": "Raka parallella linjer",
+      "ratt": false,
+      "kommentar": "Så ser fältet ut i en spole."
+    },
+    {
+      "txt": "Inga fältlinjer bildas",
+      "ratt": false,
+      "kommentar": "En ström ger alltid ett magnetfält."
+    }
+  ],
+  "typ": "fältlinjernas form kring rak ledare, begrepp",
+  "familjNyckel": "orsted__magnetfalt_kring_raka_ledare"
+},
+{
+  "id": "3.475",
+  "kap": 3,
+  "omr": "orsted",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Strömmen i den raka ledaren går in i pappret, bort från dig.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Rak ledare med strömmen in i pappret\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"130\" r=\"40\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"75\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"110\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.4\" stroke-dasharray=\"5 5\"/><circle cx=\"180\" cy=\"130\" r=\"16\" fill=\"#f3d3b5\" stroke=\"#b87333\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"130\" r=\"9\" fill=\"none\" stroke=\"#b54b42\" stroke-width=\"2.2\"/><path d=\"M174.4 124.4 L185.6 135.6 M185.6 124.4 L174.4 135.6\" stroke=\"#b54b42\" stroke-width=\"2.2\"/><rect x=\"141.1\" y=\"118.2\" width=\"21.9\" height=\"24.6\" rx=\"3\" fill=\"#fff\"/><text x=\"152.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I</text></svg></span><p>Åt vilket håll går fältlinjerna runt ledaren, sett från dig?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tummen pekar in i pappret. Fingrarna böjer sig medurs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Medurs.</p></div>",
+  "familj": "Riktningen på fältet kring en rak ledare",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Peka med höger tumme i strömmens riktning.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Medurs",
+      "ratt": true
+    },
+    {
+      "txt": "Moturs",
+      "ratt": false,
+      "kommentar": "Det gäller när strömmen går ut ur pappret."
+    },
+    {
+      "txt": "Fältet pekar in i pappret",
+      "ratt": false,
+      "kommentar": "Fältlinjerna går runt ledaren."
+    },
+    {
+      "txt": "Fältet pekar ut ur pappret",
+      "ratt": false,
+      "kommentar": "Fältlinjerna går runt ledaren."
+    }
+  ],
+  "typ": "avgöra fältets riktning kring rak ledare, sökt rotationsriktning",
+  "familjNyckel": "magnetism__riktningsfragor_magnetfalt_kring_rak_ledare"
+},
+{
+  "id": "3.476",
+  "kap": 3,
+  "omr": "spolar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En spole har 500 varv och är 25 cm lång. Strömmen genom spolen är 2,0 A.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 210\" width=\"440\" height=\"210\" role=\"img\" aria-label=\"Spole med 500 varv, längden 25 cm och strömmen 2,0 A\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><ellipse cx=\"95.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"113.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"132.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"150.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"169.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"187.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"206.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"224.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"243.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"261.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"280.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"298.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"317.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"335.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><line x1=\"95.0\" y1=\"59.0\" x2=\"40.0\" y2=\"59.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"335.5\" y1=\"151.0\" x2=\"400.0\" y2=\"151.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"172.0\" x2=\"345.0\" y2=\"172.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"164.0\" x2=\"86.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"345.0\" y1=\"164.0\" x2=\"345.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"215.0\" y=\"196.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">l = 25 cm</text><text x=\"220.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">N = 500 varv</text><text x=\"52.0\" y=\"48.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I = 2,0 A</text></svg></span><p>Hur stor är flödestätheten inne i spolen? (Svara i T.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Inne i en lång spole är \\(B=\\dfrac{\\mu_0 NI}{l}\\).</p></li><li><div class=\"facit-matte\">\\[B=\\frac{4\\pi\\cdot10^{-7}\\cdot500\\cdot2{,}0}{0{,}25}\\approx5\\cdot10^{-3}\\ \\text{T}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(5\\cdot10^{-3}\\) T.</p></div>",
+  "familj": "Magnetfält i en spole",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Längden ska vara i meter.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.005026548245743669,
+  "tolerans": 5.026548245743669e-05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "T",
+  "typ": "beräkna B i spole, sökt B",
+  "familjNyckel": "spolar__magnetfalt_i_en_spole"
+},
+{
+  "id": "3.477",
+  "kap": 3,
+  "omr": "spolar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En lång spole i ett skollaboratorium har 1200 varv och längden 0,40 m. Strömmen är 0,50 A.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 210\" width=\"440\" height=\"210\" role=\"img\" aria-label=\"Spole med 1200 varv, längden 0,40 m och strömmen 0,50 A\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><ellipse cx=\"95.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"113.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"132.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"150.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"169.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"187.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"206.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"224.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"243.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"261.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"280.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"298.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"317.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"335.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><line x1=\"95.0\" y1=\"59.0\" x2=\"40.0\" y2=\"59.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"335.5\" y1=\"151.0\" x2=\"400.0\" y2=\"151.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"172.0\" x2=\"345.0\" y2=\"172.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"164.0\" x2=\"86.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"345.0\" y1=\"164.0\" x2=\"345.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"215.0\" y=\"196.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">l = 0,40 m</text><text x=\"220.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">N = 1200 varv</text><text x=\"52.0\" y=\"48.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I = 0,50 A</text></svg></span><p>Bestäm flödestätheten inne i spolen. (Svara i T.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Inne i en lång spole är \\(B=\\dfrac{\\mu_0 NI}{l}\\).</p></li><li><div class=\"facit-matte\">\\[B=\\frac{4\\pi\\cdot10^{-7}\\cdot1200\\cdot0{,}50}{0{,}40}\\approx1{,}9\\cdot10^{-3}\\ \\text{T}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1{,}9\\cdot10^{-3}\\) T.</p></div>",
+  "familj": "Magnetfält i en spole",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Sätt in varvtal, ström och längd.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.0018849555921538759,
+  "tolerans": 1.8849555921538758e-05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "T",
+  "typ": "beräkna B i spole, sökt B",
+  "familjNyckel": "spolar__magnetfalt_i_en_spole"
+},
+{
+  "id": "3.478",
+  "kap": 3,
+  "omr": "spolar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Man lindar om en spole så att den får dubbelt så många varv på samma längd. Strömmen är densamma.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 210\" width=\"440\" height=\"210\" role=\"img\" aria-label=\"Spole där varvtalet fördubblas\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><ellipse cx=\"95.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"113.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"132.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"150.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"169.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"187.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"206.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"224.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"243.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"261.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"280.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"298.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"317.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"335.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><line x1=\"95.0\" y1=\"59.0\" x2=\"40.0\" y2=\"59.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"335.5\" y1=\"151.0\" x2=\"400.0\" y2=\"151.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"172.0\" x2=\"345.0\" y2=\"172.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"164.0\" x2=\"86.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"345.0\" y1=\"164.0\" x2=\"345.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"215.0\" y=\"196.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">samma längd</text><text x=\"220.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">N → 2N</text><text x=\"52.0\" y=\"48.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">samma I</text></svg></span><p>Vad händer med flödestätheten inne i spolen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(B=\\mu_0NI/l\\) är proportionell mot \\(N\\). Dubbelt så många varv ger dubbelt så stark flödestäthet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den fördubblas.</p></div>",
+  "familj": "Magnetfält i en spole",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur beror \\(B\\) på antalet varv?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Den fördubblas",
+      "ratt": true
+    },
+    {
+      "txt": "Den halveras",
+      "ratt": false,
+      "kommentar": "Fler varv ger starkare fält."
+    },
+    {
+      "txt": "Den fyrdubblas",
+      "ratt": false,
+      "kommentar": "B är proportionell mot N, inte N²."
+    },
+    {
+      "txt": "Den är oförändrad",
+      "ratt": false,
+      "kommentar": "Fler varv ger starkare fält."
+    }
+  ],
+  "typ": "varvtal och flödestäthet, begrepp",
+  "familjNyckel": "spolar__magnetfalt_i_en_spole"
+},
+{
+  "id": "3.479",
+  "kap": 3,
+  "omr": "spolar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En järnkärna skjuts in i en strömförande spole.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 210\" width=\"440\" height=\"210\" role=\"img\" aria-label=\"Spole med en järnkärna inuti\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"90\" y=\"82\" width=\"260\" height=\"46\" rx=\"4\" fill=\"#9ca3af\" stroke=\"#4b5563\" stroke-width=\"1.6\"/><rect x=\"146.8\" y=\"178.3\" width=\"146.5\" height=\"18.8\" rx=\"3\" fill=\"#fff\"/><text x=\"220.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#111827\" font-weight=\"bold\">järnkärna (grå)</text><ellipse cx=\"95.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"113.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"132.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"150.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"169.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"187.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"206.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"224.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"243.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"261.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"280.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"298.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"317.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"335.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><line x1=\"95.0\" y1=\"59.0\" x2=\"40.0\" y2=\"59.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"335.5\" y1=\"151.0\" x2=\"400.0\" y2=\"151.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"172.0\" x2=\"345.0\" y2=\"172.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"164.0\" x2=\"86.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"345.0\" y1=\"164.0\" x2=\"345.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"52.0\" y=\"48.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I</text></svg></span><p>Hur påverkas magnetfältet?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Järnet magnetiseras och förstärker fältet kraftigt. Det är principen för en elektromagnet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det blir mycket starkare.</p></div>",
+  "familj": "Magnetfält i en spole",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Varför har elektromagneter ofta en järnkärna?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Fältet blir mycket starkare",
+      "ratt": true
+    },
+    {
+      "txt": "Fältet försvinner",
+      "ratt": false,
+      "kommentar": "Järn leder magnetfältet bra och förstärker det."
+    },
+    {
+      "txt": "Fältet byter riktning",
+      "ratt": false,
+      "kommentar": "Riktningen bestäms av strömmen."
+    },
+    {
+      "txt": "Ingenting händer",
+      "ratt": false,
+      "kommentar": "Järn är ferromagnetiskt och påverkar fältet."
+    }
+  ],
+  "typ": "järnkärna i spole, begrepp",
+  "familjNyckel": "spolar__magnetfalt_i_en_spole"
+},
+{
+  "id": "3.480",
+  "kap": 3,
+  "omr": "spolar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En spole med 800 varv är 30 cm lång. Inne i spolen ska flödestätheten vara 4,0 mT.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 210\" width=\"440\" height=\"210\" role=\"img\" aria-label=\"Spole med 800 varv och längden 30 cm\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><ellipse cx=\"95.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"113.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"132.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"150.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"169.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"187.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"206.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"224.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"243.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"261.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"280.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"298.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"317.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"335.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><line x1=\"95.0\" y1=\"59.0\" x2=\"40.0\" y2=\"59.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"335.5\" y1=\"151.0\" x2=\"400.0\" y2=\"151.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"172.0\" x2=\"345.0\" y2=\"172.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"164.0\" x2=\"86.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"345.0\" y1=\"164.0\" x2=\"345.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"215.0\" y=\"196.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">l = 30 cm</text><text x=\"220.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">N = 800 varv</text><text x=\"52.0\" y=\"48.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I = ?</text></svg></span><p>Hur stor ström behövs? (Svara i A.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Inne i en lång spole är \\(B=\\dfrac{\\mu_0 NI}{l}\\).</p></li><li><div class=\"facit-matte\">\\[I=\\frac{Bl}{\\mu_0N}=\\frac{4{,}0\\cdot10^{-3}\\cdot0{,}30}{4\\pi\\cdot10^{-7}\\cdot800}\\approx1{,}19\\ \\text{A}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,2 A.</p></div>",
+  "familj": "Magnetfält i en spole",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Räkna om mT till T och cm till m.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.193662073189215,
+  "tolerans": 0.01193662073189215,
+  "svarVardesiffror": 2,
+  "svarEnhet": "A",
+  "typ": "beräkna ström i spole ur B, sökt ström",
+  "familjNyckel": "spolar__magnetfalt_i_en_spole"
+},
+{
+  "id": "3.481",
+  "kap": 3,
+  "omr": "spolar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En lång spole är lindad med 3000 varv per meter. Strömmen genom spolen är 1,5 A.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 210\" width=\"440\" height=\"210\" role=\"img\" aria-label=\"Spole med 3000 varv per meter och strömmen 1,5 A\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><ellipse cx=\"95.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"113.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"132.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"150.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"169.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"187.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"206.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"224.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"243.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"261.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"280.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"298.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"317.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"335.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><line x1=\"95.0\" y1=\"59.0\" x2=\"40.0\" y2=\"59.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"335.5\" y1=\"151.0\" x2=\"400.0\" y2=\"151.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"172.0\" x2=\"345.0\" y2=\"172.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"164.0\" x2=\"86.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"345.0\" y1=\"164.0\" x2=\"345.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"220.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3000 varv per meter</text><text x=\"52.0\" y=\"48.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I = 1,5 A</text></svg></span><p>Hur stor är flödestätheten inne i spolen? (Svara i T.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(N/l\\) är antalet varv per meter, 3000 per meter.</p></li><li><div class=\"facit-matte\">\\[B=\\mu_0\\frac{N}{l}I=4\\pi\\cdot10^{-7}\\cdot3000\\cdot1{,}5\\approx5{,}7\\cdot10^{-3}\\ \\text{T}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(5{,}7\\cdot10^{-3}\\) T.</p></div>",
+  "familj": "Magnetfält i en spole",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Varvtätheten ersätter \\(N/l\\) i formeln.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.005654866776461627,
+  "tolerans": 5.6548667764616275e-05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "T",
+  "typ": "beräkna B ur varvtäthet, sökt B",
+  "familjNyckel": "spolar__magnetfalt_i_en_spole"
+},
+{
+  "id": "3.482",
+  "kap": 3,
+  "omr": "spolar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En lång spole för en konstant ström.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 210\" width=\"440\" height=\"210\" role=\"img\" aria-label=\"Lång spole med konstant ström\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><ellipse cx=\"95.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"113.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"132.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"150.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"169.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"187.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"206.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"224.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"243.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"261.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"280.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"298.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"317.0\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><ellipse cx=\"335.5\" cy=\"105\" rx=\"9\" ry=\"46\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3.2\"/><line x1=\"95.0\" y1=\"59.0\" x2=\"40.0\" y2=\"59.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"335.5\" y1=\"151.0\" x2=\"400.0\" y2=\"151.0\" stroke=\"#b87333\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"172.0\" x2=\"345.0\" y2=\"172.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"86.0\" y1=\"164.0\" x2=\"86.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"345.0\" y1=\"164.0\" x2=\"345.0\" y2=\"180.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"52.0\" y=\"48.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">I</text></svg></span><p>Hur ser magnetfältet ut inne i spolen, långt från ändarna?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Inne i en lång spole är fältet nästan homogent: fältlinjerna är raka, parallella med spolens axel och lika täta.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Homogent och parallellt med axeln.</p></div>",
+  "familj": "Magnetfält i en spole",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Tänk på hur fältlinjerna går genom spolen.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Nästan homogent och parallellt med spolens axel",
+      "ratt": true
+    },
+    {
+      "txt": "Cirklar runt spolens axel",
+      "ratt": false,
+      "kommentar": "Det gäller kring en rak ledare."
+    },
+    {
+      "txt": "Noll",
+      "ratt": false,
+      "kommentar": "Fältet är starkast inne i spolen."
+    },
+    {
+      "txt": "Starkast vid spoltrådarna och noll i mitten",
+      "ratt": false,
+      "kommentar": "Fältet är jämnt inne i spolen."
+    }
+  ],
+  "typ": "fältet inne i en spole, begrepp",
+  "familjNyckel": "spolar__magnetfalt_i_en_spole"
+},
+{
+  "id": "3.483",
+  "kap": 3,
+  "omr": "spolar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Du tittar in i ena änden av en spole. Strömmen går moturs sett från dig.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Spole sedd framifrån med strömmen moturs\" xmlns=\"http://www.w3.org/2000/svg\"><title>Spole sedd framifrån med strömmen moturs</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"187\" cy=\"109\" r=\"66\" fill=\"none\" stroke=\"#e7c6a5\" stroke-width=\"7\"/><circle cx=\"194\" cy=\"103\" r=\"66\" fill=\"none\" stroke=\"#f1dcc8\" stroke-width=\"7\"/><circle cx=\"180\" cy=\"115\" r=\"66\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"8\"/><polygon points=\"233.0,155.3 227.6,173.9 214.4,160.7\" fill=\"#b54b42\"/><polygon points=\"139.7,168.0 121.1,162.6 134.3,149.4\" fill=\"#b54b42\"/><polygon points=\"127.0,74.7 132.4,56.1 145.6,69.3\" fill=\"#b54b42\"/><polygon points=\"220.3,62.0 238.9,67.4 225.7,80.6\" fill=\"#b54b42\"/><text x=\"268\" y=\"122\" font-family=\"Arial, sans-serif\" font-size=\"20\" font-weight=\"bold\" fill=\"#b54b42\" text-anchor=\"middle\">I</text></svg></span><p>Är änden som vetter mot dig en nordpol eller en sydpol?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Högerhandsregeln för spolar: fingrarna följer strömmen moturs, och tummen pekar mot dig. Fältet kommer ut ur änden mot dig, så den är en nordpol.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nordpol.</p></div>",
+  "familj": "Spolens nordpol och sydpol",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Låt höger hands fingrar följa strömmen. Tummen visar nordpolen.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Nordpol",
+      "ratt": true
+    },
+    {
+      "txt": "Sydpol",
+      "ratt": false,
+      "kommentar": "Moturs ström sett från dig ger fältet mot dig."
+    },
+    {
+      "txt": "Ingen pol",
+      "ratt": false,
+      "kommentar": "En strömförande spole har alltid två poler."
+    },
+    {
+      "txt": "Det beror på strömmens storlek",
+      "ratt": false,
+      "kommentar": "Polen bestäms av strömmens riktning."
+    }
+  ],
+  "typ": "spolens pol ur strömriktning, sökt pol",
+  "familjNyckel": "magnetism__riktningsfragor_for_spolar_och_stromslingor"
+},
+{
+  "id": "3.484",
+  "kap": 3,
+  "omr": "laddade_partiklar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En elektron rör sig med farten \\(2{,}0\\cdot10^{6}\\) m/s vinkelrätt mot ett magnetfält med flödestätheten 0,050 T.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 260\" width=\"420\" height=\"260\" role=\"img\" aria-label=\"Elektron som rör sig vinkelrätt mot ett magnetfält in i pappret\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"50\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M44.4 89.4 L55.6 100.6 M55.6 89.4 L44.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M44.4 144.4 L55.6 155.6 M55.6 144.4 L44.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M44.4 199.4 L55.6 210.6 M55.6 199.4 L44.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M99.4 34.4 L110.6 45.6 M110.6 34.4 L99.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M99.4 89.4 L110.6 100.6 M110.6 89.4 L99.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 34.4 L165.6 45.6 M165.6 34.4 L154.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 89.4 L165.6 100.6 M165.6 89.4 L154.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 144.4 L165.6 155.6 M165.6 144.4 L154.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 199.4 L165.6 210.6 M165.6 199.4 L154.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 34.4 L220.6 45.6 M220.6 34.4 L209.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 89.4 L220.6 100.6 M220.6 89.4 L209.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 144.4 L220.6 155.6 M220.6 144.4 L209.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 199.4 L220.6 210.6 M220.6 199.4 L209.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 34.4 L275.6 45.6 M275.6 34.4 L264.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 89.4 L275.6 100.6 M275.6 89.4 L264.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 144.4 L275.6 155.6 M275.6 144.4 L264.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 199.4 L275.6 210.6 M275.6 199.4 L264.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 34.4 L330.6 45.6 M330.6 34.4 L319.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 89.4 L330.6 100.6 M330.6 89.4 L319.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 144.4 L330.6 155.6 M330.6 144.4 L319.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 199.4 L330.6 210.6 M330.6 199.4 L319.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 34.4 L385.6 45.6 M385.6 34.4 L374.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 89.4 L385.6 100.6 M385.6 89.4 L374.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 144.4 L385.6 155.6 M385.6 144.4 L374.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 199.4 L385.6 210.6 M385.6 199.4 L374.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"200\" r=\"14\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><polygon points=\"120.0,140.0 127.7,154.0 112.3,154.0\" fill=\"#b54b42\"/><line x1=\"120.0\" y1=\"184.0\" x2=\"120.0\" y2=\"152.0\" stroke=\"#b54b42\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"16.7\" y=\"11.1\" width=\"22.6\" height=\"26.1\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#2867a8\" font-weight=\"bold\">B</text><rect x=\"88.5\" y=\"152.2\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"104.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#b54b42\" font-weight=\"bold\">v</text><rect x=\"71.4\" y=\"215.3\" width=\"29.6\" height=\"20.3\" rx=\"3\" fill=\"#fff\"/><text x=\"96.0\" y=\"230.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">e⁻</text></svg></span><p>Hur stor är den magnetiska kraften på elektronen? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kraften på en laddning som rör sig vinkelrätt mot fältet är \\(F=qvB\\). Elementarladdningen finns i formelsamlingen.</p></li><li><div class=\"facit-matte\">\\[F=1{,}602\\cdot10^{-19}\\cdot2{,}0\\cdot10^{6}\\cdot0{,}050\\approx1{,}6\\cdot10^{-14}\\ \\text{N}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1{,}6\\cdot10^{-14}\\) N.</p></div>",
+  "familj": "Magnetisk kraft och banradie",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Använd \\(F=qvB\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.6021766339999998e-14,
+  "tolerans": 1.602176634e-16,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N",
+  "typ": "beräkna magnetisk kraft på elektron, sökt kraft",
+  "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+},
+{
+  "id": "3.485",
+  "kap": 3,
+  "omr": "laddade_partiklar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En proton rör sig med farten \\(3{,}0\\cdot10^{5}\\) m/s vinkelrätt mot ett magnetfält på 0,20 T.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 260\" width=\"420\" height=\"260\" role=\"img\" aria-label=\"Proton som rör sig vinkelrätt mot ett magnetfält ut ur pappret\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"50\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"50\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"50\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"105\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"105\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"160\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"160\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"160\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"160\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"215\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"215\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"215\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"215\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"270\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"270\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"270\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"270\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"325\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"325\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"325\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"325\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"380\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"380\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"380\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"380\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"120\" cy=\"200\" r=\"14\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"2\"/><polygon points=\"120.0,140.0 127.7,154.0 112.3,154.0\" fill=\"#b54b42\"/><line x1=\"120.0\" y1=\"184.0\" x2=\"120.0\" y2=\"152.0\" stroke=\"#b54b42\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"16.7\" y=\"11.1\" width=\"22.6\" height=\"26.1\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#2867a8\" font-weight=\"bold\">B</text><rect x=\"88.5\" y=\"152.2\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"104.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#b54b42\" font-weight=\"bold\">v</text><rect x=\"71.4\" y=\"215.3\" width=\"29.6\" height=\"20.3\" rx=\"3\" fill=\"#fff\"/><text x=\"96.0\" y=\"230.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">p⁺</text></svg></span><p>Hur stor kraft verkar på protonen? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=qvB=1{,}602\\cdot10^{-19}\\cdot3{,}0\\cdot10^{5}\\cdot0{,}20\\approx9{,}6\\cdot10^{-15}\\ \\text{N}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(9{,}6\\cdot10^{-15}\\) N.</p></div>",
+  "familj": "Magnetisk kraft och banradie",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Protonens laddning är elementarladdningen.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9.613059803999999e-15,
+  "tolerans": 9.613059803999999e-17,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N",
+  "typ": "beräkna magnetisk kraft på proton, sökt kraft",
+  "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+},
+{
+  "id": "3.486",
+  "kap": 3,
+  "omr": "laddade_partiklar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En proton med farten \\(1{,}0\\cdot10^{6}\\) m/s rör sig i en cirkelbana vinkelrätt mot ett magnetfält på 0,50 T.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 260\" width=\"420\" height=\"260\" role=\"img\" aria-label=\"Proton i cirkelbana i ett magnetfält ut ur pappret\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"50\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"50\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"50\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"105\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"105\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"160\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"160\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"160\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"160\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"215\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"215\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"215\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"270\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"270\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"270\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"325\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"325\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"325\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"325\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"380\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"380\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"380\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"380\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><path d=\"M120 200 A90 90 0 0 1 300 200\" fill=\"none\" stroke=\"#d97706\" stroke-width=\"2.4\" stroke-dasharray=\"7 5\"/><circle cx=\"120\" cy=\"200\" r=\"14\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"2\"/><polygon points=\"120.0,140.0 127.7,154.0 112.3,154.0\" fill=\"#b54b42\"/><line x1=\"120.0\" y1=\"184.0\" x2=\"120.0\" y2=\"152.0\" stroke=\"#b54b42\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"16.7\" y=\"11.1\" width=\"22.6\" height=\"26.1\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#2867a8\" font-weight=\"bold\">B</text><rect x=\"88.5\" y=\"152.2\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"104.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#b54b42\" font-weight=\"bold\">v</text><rect x=\"71.4\" y=\"215.3\" width=\"29.6\" height=\"20.3\" rx=\"3\" fill=\"#fff\"/><text x=\"96.0\" y=\"230.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">p⁺</text></svg></span><p>Hur stor är banans radie? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den magnetiska kraften är centripetalkraft: \\(qvB=\\dfrac{mv^2}{r}\\), så \\(r=\\dfrac{mv}{qB}\\).</p></li><li><div class=\"facit-matte\">\\[r=\\frac{1{,}673\\cdot10^{-27}\\cdot1{,}0\\cdot10^{6}}{1{,}602\\cdot10^{-19}\\cdot0{,}50}\\approx0{,}021\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,021 m.</p></div>",
+  "familj": "Magnetisk kraft och banradie",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Sätt den magnetiska kraften lika med centripetalkraften.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.02087936978364397,
+  "tolerans": 0.0002087936978364397,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m",
+  "typ": "beräkna banradie för proton, sökt radie",
+  "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+},
+{
+  "id": "3.487",
+  "kap": 3,
+  "omr": "laddade_partiklar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En elektron med farten \\(5{,}0\\cdot10^{6}\\) m/s kommer in vinkelrätt mot ett magnetfält med flödestätheten 2,0 mT.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 260\" width=\"420\" height=\"260\" role=\"img\" aria-label=\"Elektron i cirkelbana i ett magnetfält in i pappret\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"50\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M44.4 89.4 L55.6 100.6 M55.6 89.4 L44.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M44.4 144.4 L55.6 155.6 M55.6 144.4 L44.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M44.4 199.4 L55.6 210.6 M55.6 199.4 L44.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M99.4 34.4 L110.6 45.6 M110.6 34.4 L99.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M99.4 89.4 L110.6 100.6 M110.6 89.4 L99.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 34.4 L165.6 45.6 M165.6 34.4 L154.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 89.4 L165.6 100.6 M165.6 89.4 L154.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 144.4 L165.6 155.6 M165.6 144.4 L154.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 199.4 L165.6 210.6 M165.6 199.4 L154.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 34.4 L220.6 45.6 M220.6 34.4 L209.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 144.4 L220.6 155.6 M220.6 144.4 L209.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 199.4 L220.6 210.6 M220.6 199.4 L209.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 34.4 L275.6 45.6 M275.6 34.4 L264.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 89.4 L275.6 100.6 M275.6 89.4 L264.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 199.4 L275.6 210.6 M275.6 199.4 L264.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 34.4 L330.6 45.6 M330.6 34.4 L319.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 89.4 L330.6 100.6 M330.6 89.4 L319.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 144.4 L330.6 155.6 M330.6 144.4 L319.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 199.4 L330.6 210.6 M330.6 199.4 L319.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 34.4 L385.6 45.6 M385.6 34.4 L374.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 89.4 L385.6 100.6 M385.6 89.4 L374.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 144.4 L385.6 155.6 M385.6 144.4 L374.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 199.4 L385.6 210.6 M385.6 199.4 L374.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M120 200 A90 90 0 0 1 300 200\" fill=\"none\" stroke=\"#d97706\" stroke-width=\"2.4\" stroke-dasharray=\"7 5\"/><circle cx=\"120\" cy=\"200\" r=\"14\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><polygon points=\"120.0,140.0 127.7,154.0 112.3,154.0\" fill=\"#b54b42\"/><line x1=\"120.0\" y1=\"184.0\" x2=\"120.0\" y2=\"152.0\" stroke=\"#b54b42\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"16.7\" y=\"11.1\" width=\"22.6\" height=\"26.1\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#2867a8\" font-weight=\"bold\">B</text><rect x=\"88.5\" y=\"152.2\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"104.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#b54b42\" font-weight=\"bold\">v</text><rect x=\"71.4\" y=\"215.3\" width=\"29.6\" height=\"20.3\" rx=\"3\" fill=\"#fff\"/><text x=\"96.0\" y=\"230.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">e⁻</text></svg></span><p>Hur stor blir banans radie? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=\\frac{mv}{qB}=\\frac{9{,}109\\cdot10^{-31}\\cdot5{,}0\\cdot10^{6}}{1{,}602\\cdot10^{-19}\\cdot2{,}0\\cdot10^{-3}}\\approx0{,}0142\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,014 m.</p></div>",
+  "familj": "Magnetisk kraft och banradie",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Räkna om mT till T.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.014214075256573741,
+  "tolerans": 0.00014214075256573742,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m",
+  "typ": "beräkna banradie för elektron, sökt radie",
+  "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+},
+{
+  "id": "3.488",
+  "kap": 3,
+  "omr": "laddade_partiklar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En proton rör sig parallellt med ett homogent magnetfält.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"160\" viewBox=\"0 0 420 160\" role=\"img\" aria-label=\"Proton som rör sig parallellt med magnetfältets linjer\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"30.0\" x2=\"390.0\" y2=\"30.0\" stroke=\"#2867a8\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"390.0,30.0 380.0,35.5 380.0,24.5\" fill=\"#2867a8\"/><line x1=\"30.0\" y1=\"130.0\" x2=\"390.0\" y2=\"130.0\" stroke=\"#2867a8\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"390.0,130.0 380.0,135.5 380.0,124.5\" fill=\"#2867a8\"/><circle cx=\"120\" cy=\"80\" r=\"13\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"2\"/><text x=\"120.0\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">p⁺</text><line x1=\"140.0\" y1=\"80.0\" x2=\"230.0\" y2=\"80.0\" stroke=\"#b54b42\" stroke-width=\"3\"/><polygon points=\"230.0,80.0 219.9,84.3 219.9,75.7\" fill=\"#b54b42\"/><text x=\"185.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">v</text><text x=\"30.0\" y=\"62.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#2867a8\" font-weight=\"bold\">B</text></svg></div><p>Hur stor är den magnetiska kraften på protonen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den magnetiska kraften är \\(F=qvB\\sin\\theta\\). När hastigheten är parallell med fältet är \\(\\theta=0^\\circ\\), och kraften blir noll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Noll.</p></div>",
+  "familj": "Magnetisk kraft och banradie",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Kraften beror på vinkeln mellan hastigheten och fältet.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Noll",
+      "ratt": true
+    },
+    {
+      "txt": "Största möjliga",
+      "ratt": false,
+      "kommentar": "Kraften är störst när hastigheten är vinkelrät mot fältet."
+    },
+    {
+      "txt": "qvB",
+      "ratt": false,
+      "kommentar": "Det gäller bara vinkelrät rörelse."
+    },
+    {
+      "txt": "Den beror på protonens massa",
+      "ratt": false,
+      "kommentar": "Kraften beror inte på massan."
+    }
+  ],
+  "typ": "partikel parallell med fältet, begrepp",
+  "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+},
+{
+  "id": "3.489",
+  "kap": 3,
+  "omr": "laddade_partiklar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En elektron rör sig i en cirkelbana i ett homogent magnetfält.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 260\" width=\"420\" height=\"260\" role=\"img\" aria-label=\"Elektron i cirkelbana i ett magnetfält\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"50\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M44.4 89.4 L55.6 100.6 M55.6 89.4 L44.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M44.4 144.4 L55.6 155.6 M55.6 144.4 L44.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M44.4 199.4 L55.6 210.6 M55.6 199.4 L44.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M99.4 34.4 L110.6 45.6 M110.6 34.4 L99.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M99.4 89.4 L110.6 100.6 M110.6 89.4 L99.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 34.4 L165.6 45.6 M165.6 34.4 L154.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 89.4 L165.6 100.6 M165.6 89.4 L154.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 144.4 L165.6 155.6 M165.6 144.4 L154.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 199.4 L165.6 210.6 M165.6 199.4 L154.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 34.4 L220.6 45.6 M220.6 34.4 L209.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 144.4 L220.6 155.6 M220.6 144.4 L209.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 199.4 L220.6 210.6 M220.6 199.4 L209.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 34.4 L275.6 45.6 M275.6 34.4 L264.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 89.4 L275.6 100.6 M275.6 89.4 L264.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 199.4 L275.6 210.6 M275.6 199.4 L264.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 34.4 L330.6 45.6 M330.6 34.4 L319.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 89.4 L330.6 100.6 M330.6 89.4 L319.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 144.4 L330.6 155.6 M330.6 144.4 L319.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 199.4 L330.6 210.6 M330.6 199.4 L319.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 34.4 L385.6 45.6 M385.6 34.4 L374.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 89.4 L385.6 100.6 M385.6 89.4 L374.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 144.4 L385.6 155.6 M385.6 144.4 L374.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 199.4 L385.6 210.6 M385.6 199.4 L374.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M120 200 A90 90 0 0 1 300 200\" fill=\"none\" stroke=\"#d97706\" stroke-width=\"2.4\" stroke-dasharray=\"7 5\"/><circle cx=\"120\" cy=\"200\" r=\"14\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><polygon points=\"120.0,140.0 127.7,154.0 112.3,154.0\" fill=\"#b54b42\"/><line x1=\"120.0\" y1=\"184.0\" x2=\"120.0\" y2=\"152.0\" stroke=\"#b54b42\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"16.7\" y=\"11.1\" width=\"22.6\" height=\"26.1\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#2867a8\" font-weight=\"bold\">B</text><rect x=\"88.5\" y=\"152.2\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"104.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#b54b42\" font-weight=\"bold\">v</text><rect x=\"71.4\" y=\"215.3\" width=\"29.6\" height=\"20.3\" rx=\"3\" fill=\"#fff\"/><text x=\"96.0\" y=\"230.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">e⁻</text></svg></span><p>Hur påverkar den magnetiska kraften elektronens fart?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den magnetiska kraften är hela tiden vinkelrät mot rörelsen. Den ändrar riktningen men utför inget arbete, så farten är konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten ändras inte.</p></div>",
+  "familj": "Magnetisk kraft och banradie",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vilken vinkel har kraften mot rörelseriktningen?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Farten ändras inte, bara riktningen",
+      "ratt": true
+    },
+    {
+      "txt": "Farten ökar hela tiden",
+      "ratt": false,
+      "kommentar": "Kraften är vinkelrät mot rörelsen och utför inget arbete."
+    },
+    {
+      "txt": "Farten minskar hela tiden",
+      "ratt": false,
+      "kommentar": "Kraften är vinkelrät mot rörelsen och utför inget arbete."
+    },
+    {
+      "txt": "Elektronen stannar",
+      "ratt": false,
+      "kommentar": "En vinkelrät kraft kan inte bromsa."
+    }
+  ],
+  "typ": "magnetisk kraft och fart, begrepp",
+  "familjNyckel": "laddade_partiklar__magnetisk_kraft_och_banradie"
+},
+{
+  "id": "3.490",
+  "kap": 3,
+  "omr": "laddade_partiklar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>I ett hastighetsfilter är det elektriska fältet \\(4{,}0\\cdot10^{4}\\) V/m och den magnetiska flödestätheten 0,020 T. Fälten är vinkelräta mot varandra och mot partiklarnas rörelse.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 260\" width=\"420\" height=\"260\" role=\"img\" aria-label=\"Laddad partikel i ett hastighetsfilter med magnetfält in i pappret\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"50\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M44.4 89.4 L55.6 100.6 M55.6 89.4 L44.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M44.4 144.4 L55.6 155.6 M55.6 144.4 L44.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M44.4 199.4 L55.6 210.6 M55.6 199.4 L44.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M99.4 34.4 L110.6 45.6 M110.6 34.4 L99.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M99.4 89.4 L110.6 100.6 M110.6 89.4 L99.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 34.4 L165.6 45.6 M165.6 34.4 L154.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 89.4 L165.6 100.6 M165.6 89.4 L154.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 144.4 L165.6 155.6 M165.6 144.4 L154.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M154.4 199.4 L165.6 210.6 M165.6 199.4 L154.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 34.4 L220.6 45.6 M220.6 34.4 L209.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 89.4 L220.6 100.6 M220.6 89.4 L209.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 144.4 L220.6 155.6 M220.6 144.4 L209.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M209.4 199.4 L220.6 210.6 M220.6 199.4 L209.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 34.4 L275.6 45.6 M275.6 34.4 L264.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 89.4 L275.6 100.6 M275.6 89.4 L264.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 144.4 L275.6 155.6 M275.6 144.4 L264.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M264.4 199.4 L275.6 210.6 M275.6 199.4 L264.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 34.4 L330.6 45.6 M330.6 34.4 L319.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 89.4 L330.6 100.6 M330.6 89.4 L319.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 144.4 L330.6 155.6 M330.6 144.4 L319.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M319.4 199.4 L330.6 210.6 M330.6 199.4 L319.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 34.4 L385.6 45.6 M385.6 34.4 L374.4 45.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 89.4 L385.6 100.6 M385.6 89.4 L374.4 100.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 144.4 L385.6 155.6 M385.6 144.4 L374.4 155.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M374.4 199.4 L385.6 210.6 M385.6 199.4 L374.4 210.6\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"200\" r=\"14\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"2\"/><polygon points=\"120.0,140.0 127.7,154.0 112.3,154.0\" fill=\"#b54b42\"/><line x1=\"120.0\" y1=\"184.0\" x2=\"120.0\" y2=\"152.0\" stroke=\"#b54b42\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"16.7\" y=\"11.1\" width=\"22.6\" height=\"26.1\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#2867a8\" font-weight=\"bold\">B</text><rect x=\"88.5\" y=\"152.2\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"104.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#b54b42\" font-weight=\"bold\">v</text><rect x=\"81.2\" y=\"215.3\" width=\"19.8\" height=\"20.3\" rx=\"3\" fill=\"#fff\"/><text x=\"96.0\" y=\"230.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">+</text></svg></span><p>Vilken fart har de partiklar som passerar rakt igenom? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Partikeln går rakt fram när den elektriska och den magnetiska kraften tar ut varandra: \\(qE=qvB\\), alltså \\(v=E/B\\).</p></li><li><div class=\"facit-matte\">\\[v=\\frac{4{,}0\\cdot10^{4}}{0{,}020}=2\\cdot10^{6}\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\cdot10^{6}\\) m/s.</p></div>",
+  "familj": "Hastighetsfilter och masspektrometer",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Sätt den elektriska kraften lika med den magnetiska.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2000000.0,
+  "tolerans": 20000.0,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m/s",
+  "typ": "beräkna fart i hastighetsfilter, sökt fart",
+  "familjNyckel": "laddade_partiklar__hastighetsfilter_och_masspektrometer"
+},
+{
+  "id": "3.491",
+  "kap": 3,
+  "omr": "laddade_partiklar",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En positiv jon rör sig uppåt i ett magnetfält som är riktat ut ur pappret.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 260\" width=\"420\" height=\"260\" role=\"img\" aria-label=\"Positiv jon som rör sig uppåt i ett magnetfält ut ur pappret\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"50\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"50\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"50\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"50\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"105\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"105\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"105\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"160\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"160\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"160\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"160\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"160\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"215\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"215\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"215\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"215\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"215\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"270\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"270\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"270\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"270\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"325\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"325\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"325\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"325\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"325\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"380\" cy=\"40\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"40\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"380\" cy=\"95\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"95\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"380\" cy=\"150\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"150\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"380\" cy=\"205\" r=\"9\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"380\" cy=\"205\" r=\"2.3\" fill=\"#2867a8\"/><circle cx=\"120\" cy=\"200\" r=\"14\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"2\"/><polygon points=\"120.0,140.0 127.7,154.0 112.3,154.0\" fill=\"#b54b42\"/><line x1=\"120.0\" y1=\"184.0\" x2=\"120.0\" y2=\"152.0\" stroke=\"#b54b42\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"16.7\" y=\"11.1\" width=\"22.6\" height=\"26.1\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#2867a8\" font-weight=\"bold\">B</text><rect x=\"88.5\" y=\"152.2\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"104.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#b54b42\" font-weight=\"bold\">v</text><rect x=\"81.2\" y=\"215.3\" width=\"19.8\" height=\"20.3\" rx=\"3\" fill=\"#fff\"/><text x=\"96.0\" y=\"230.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">+</text></svg></span><p>Åt vilket håll verkar den magnetiska kraften på jonen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Högerhandsregeln för en positiv laddning: tummen längs hastigheten (uppåt) och fingrarna längs fältet (ut ur pappret). Handflatan pekar åt höger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Åt höger.</p></div>",
+  "familj": "Riktningen på kraften på en laddad partikel",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>För en positiv laddning används högerhandsregeln som för en ström.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "uppåt",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln för en positiv laddning."
+    },
+    {
+      "txt": "nedåt",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln för en positiv laddning."
+    },
+    {
+      "txt": "åt höger",
+      "ratt": true
+    },
+    {
+      "txt": "åt vänster",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln för en positiv laddning."
+    },
+    {
+      "txt": "in i pappret",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln för en positiv laddning."
+    },
+    {
+      "txt": "ut ur pappret",
+      "ratt": false,
+      "kommentar": "Kontrollera högerhandsregeln för en positiv laddning."
+    }
+  ],
+  "typ": "riktning på kraft på positiv laddning, sökt riktning",
+  "familjNyckel": "laddade_partiklar__riktningsfragor_kraft_pa_laddad_partikel"
+},
+{
+  "id": "3.492",
+  "kap": 3,
+  "omr": "induktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En platt slinga med arean 0,050 m² ligger vinkelrätt mot ett magnetfält med flödestätheten 0,40 T.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 250\" width=\"400\" height=\"250\" role=\"img\" aria-label=\"Slinga med arean 0,050 kvadratmeter i ett magnetfält\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"40\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 85.0 L45.0 95.0 M45.0 85.0 L35.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"40\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 135.0 L45.0 145.0 M45.0 135.0 L35.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"40\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 185.0 L45.0 195.0 M45.0 185.0 L35.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 85.0 L95.0 95.0 M95.0 85.0 L85.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 135.0 L95.0 145.0 M95.0 135.0 L85.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 185.0 L95.0 195.0 M95.0 185.0 L85.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"140\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M135.0 85.0 L145.0 95.0 M145.0 85.0 L135.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"140\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M135.0 135.0 L145.0 145.0 M145.0 135.0 L135.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M185.0 35.0 L195.0 45.0 M195.0 35.0 L185.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M185.0 85.0 L195.0 95.0 M195.0 85.0 L185.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M185.0 135.0 L195.0 145.0 M195.0 135.0 L185.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"240\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M235.0 35.0 L245.0 45.0 M245.0 35.0 L235.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"240\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M235.0 85.0 L245.0 95.0 M245.0 85.0 L235.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"240\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M235.0 135.0 L245.0 145.0 M245.0 135.0 L235.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"290\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M285.0 35.0 L295.0 45.0 M295.0 35.0 L285.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 35.0 L345.0 45.0 M345.0 35.0 L335.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 85.0 L345.0 95.0 M345.0 85.0 L335.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 135.0 L345.0 145.0 M345.0 135.0 L335.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 185.0 L345.0 195.0 M345.0 185.0 L335.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><rect x=\"115\" y=\"60\" width=\"160\" height=\"130\" fill=\"#2867a8\" fill-opacity=\".15\" stroke=\"#b87333\" stroke-width=\"5\"/><rect x=\"127.0\" y=\"206.2\" width=\"136.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"195.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A = 0,050 m²</text><rect x=\"15.0\" y=\"8.2\" width=\"115.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"20.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2867a8\" font-weight=\"bold\">B = 0,40 T</text></svg></span><p>Hur stort är det magnetiska flödet genom slingan? (Svara i Wb.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Magnetiskt flöde är \\(\\Phi=BA\\) när fältet är vinkelrätt mot ytan.</p></li><li><div class=\"facit-matte\">\\[\\Phi=0{,}40\\cdot0{,}050=0{,}020\\ \\text{Wb}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,020 Wb.</p></div>",
+  "familj": "Magnetiskt flöde och Faradays lag",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Flödet är flödestätheten gånger arean.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.02,
+  "tolerans": 0.0002,
+  "svarVardesiffror": 2,
+  "svarEnhet": "Wb",
+  "typ": "beräkna magnetiskt flöde, sökt flöde",
+  "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion"
+},
+{
+  "id": "3.493",
+  "kap": 3,
+  "omr": "induktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En kvadratisk slinga med sidan 10 cm ligger vinkelrätt mot ett magnetfält på 0,30 T.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 250\" width=\"400\" height=\"250\" role=\"img\" aria-label=\"Kvadratisk slinga med sidan 10 cm i ett magnetfält\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"40\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 85.0 L45.0 95.0 M45.0 85.0 L35.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"40\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 135.0 L45.0 145.0 M45.0 135.0 L35.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"40\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 185.0 L45.0 195.0 M45.0 185.0 L35.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 85.0 L95.0 95.0 M95.0 85.0 L85.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 135.0 L95.0 145.0 M95.0 135.0 L85.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 185.0 L95.0 195.0 M95.0 185.0 L85.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"140\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M135.0 85.0 L145.0 95.0 M145.0 85.0 L135.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"140\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M135.0 135.0 L145.0 145.0 M145.0 135.0 L135.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M185.0 35.0 L195.0 45.0 M195.0 35.0 L185.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M185.0 85.0 L195.0 95.0 M195.0 85.0 L185.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M185.0 135.0 L195.0 145.0 M195.0 135.0 L185.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"240\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M235.0 35.0 L245.0 45.0 M245.0 35.0 L235.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"240\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M235.0 85.0 L245.0 95.0 M245.0 85.0 L235.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"240\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M235.0 135.0 L245.0 145.0 M245.0 135.0 L235.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"290\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M285.0 35.0 L295.0 45.0 M295.0 35.0 L285.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 35.0 L345.0 45.0 M345.0 35.0 L335.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 85.0 L345.0 95.0 M345.0 85.0 L335.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 135.0 L345.0 145.0 M345.0 135.0 L335.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 185.0 L345.0 195.0 M345.0 185.0 L335.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><rect x=\"115\" y=\"60\" width=\"160\" height=\"130\" fill=\"#2867a8\" fill-opacity=\".15\" stroke=\"#b87333\" stroke-width=\"5\"/><rect x=\"132.2\" y=\"206.2\" width=\"125.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"195.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">sidan 10 cm</text><rect x=\"15.0\" y=\"8.2\" width=\"115.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"20.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2867a8\" font-weight=\"bold\">B = 0,30 T</text></svg></span><p>Hur stort är flödet genom slingan? (Svara i Wb.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=0{,}10^2=0{,}010\\ \\text{m}^2\\]</div></li><li><div class=\"facit-matte\">\\[\\Phi=BA=0{,}30\\cdot0{,}010=3{,}0\\cdot10^{-3}\\ \\text{Wb}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\cdot10^{-3}\\) Wb.</p></div>",
+  "familj": "Magnetiskt flöde och Faradays lag",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Räkna först ut arean i m².</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.003,
+  "tolerans": 3e-05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "Wb",
+  "typ": "beräkna flöde genom kvadratisk slinga, sökt flöde",
+  "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion"
+},
+{
+  "id": "3.494",
+  "kap": 3,
+  "omr": "induktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Flödet genom en spole med 200 varv ändras med \\(3{,}0\\cdot10^{-3}\\) Wb på 0,10 s.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 250\" width=\"400\" height=\"250\" role=\"img\" aria-label=\"Spole i ett magnetfält som ändras\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"40\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 85.0 L45.0 95.0 M45.0 85.0 L35.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"40\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 135.0 L45.0 145.0 M45.0 135.0 L35.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"40\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 185.0 L45.0 195.0 M45.0 185.0 L35.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 85.0 L95.0 95.0 M95.0 85.0 L85.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 135.0 L95.0 145.0 M95.0 135.0 L85.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 185.0 L95.0 195.0 M95.0 185.0 L85.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"140\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M135.0 35.0 L145.0 45.0 M145.0 35.0 L135.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"140\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M135.0 85.0 L145.0 95.0 M145.0 85.0 L135.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M185.0 35.0 L195.0 45.0 M195.0 35.0 L185.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M185.0 85.0 L195.0 95.0 M195.0 85.0 L185.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"240\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M235.0 35.0 L245.0 45.0 M245.0 35.0 L235.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"240\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M235.0 85.0 L245.0 95.0 M245.0 85.0 L235.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"290\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M285.0 35.0 L295.0 45.0 M295.0 35.0 L285.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 35.0 L345.0 45.0 M345.0 35.0 L335.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 85.0 L345.0 95.0 M345.0 85.0 L335.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 135.0 L345.0 145.0 M345.0 135.0 L335.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 185.0 L345.0 195.0 M345.0 185.0 L335.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><rect x=\"115\" y=\"60\" width=\"160\" height=\"130\" fill=\"#2867a8\" fill-opacity=\".15\" stroke=\"#b87333\" stroke-width=\"5\"/><rect x=\"15.0\" y=\"8.2\" width=\"94.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"20.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2867a8\" font-weight=\"bold\">B ändras</text><rect x=\"127.0\" y=\"114.2\" width=\"136.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"195.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">N = 200 varv</text></svg></span><p>Hur stor spänning induceras i spolen? (Svara i V.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faradays lag: \\(|e|=N\\dfrac{\\Delta\\Phi}{\\Delta t}\\).</p></li><li><div class=\"facit-matte\">\\[|e|=200\\cdot\\frac{3{,}0\\cdot10^{-3}}{0{,}10}=6{,}0\\ \\text{V}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,0 V.</p></div>",
+  "familj": "Magnetiskt flöde och Faradays lag",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Multiplicera flödesändringen per sekund med antalet varv.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6.0,
+  "tolerans": 0.06,
+  "svarVardesiffror": 2,
+  "svarEnhet": "V",
+  "typ": "beräkna inducerad spänning i spole, sökt spänning",
+  "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion"
+},
+{
+  "id": "3.495",
+  "kap": 3,
+  "omr": "induktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Flödet genom en enda slinga minskar jämnt med 0,020 Wb på 0,50 s.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 250\" width=\"400\" height=\"250\" role=\"img\" aria-label=\"En slinga i ett magnetfält som minskar\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"40\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 85.0 L45.0 95.0 M45.0 85.0 L35.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"40\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 135.0 L45.0 145.0 M45.0 135.0 L35.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"40\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 185.0 L45.0 195.0 M45.0 185.0 L35.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 85.0 L95.0 95.0 M95.0 85.0 L85.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 135.0 L95.0 145.0 M95.0 135.0 L85.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 185.0 L95.0 195.0 M95.0 185.0 L85.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"140\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M135.0 35.0 L145.0 45.0 M145.0 35.0 L135.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"140\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M135.0 85.0 L145.0 95.0 M145.0 85.0 L135.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"140\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M135.0 135.0 L145.0 145.0 M145.0 135.0 L135.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M185.0 35.0 L195.0 45.0 M195.0 35.0 L185.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M185.0 85.0 L195.0 95.0 M195.0 85.0 L185.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M185.0 135.0 L195.0 145.0 M195.0 135.0 L185.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"240\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M235.0 35.0 L245.0 45.0 M245.0 35.0 L235.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"240\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M235.0 85.0 L245.0 95.0 M245.0 85.0 L235.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"240\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M235.0 135.0 L245.0 145.0 M245.0 135.0 L235.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"290\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M285.0 35.0 L295.0 45.0 M295.0 35.0 L285.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 35.0 L345.0 45.0 M345.0 35.0 L335.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 85.0 L345.0 95.0 M345.0 85.0 L335.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 135.0 L345.0 145.0 M345.0 135.0 L335.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 185.0 L345.0 195.0 M345.0 185.0 L335.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><rect x=\"115\" y=\"60\" width=\"160\" height=\"130\" fill=\"#2867a8\" fill-opacity=\".15\" stroke=\"#b87333\" stroke-width=\"5\"/><rect x=\"142.8\" y=\"206.2\" width=\"104.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"195.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">en slinga</text><rect x=\"15.0\" y=\"8.2\" width=\"104.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"20.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2867a8\" font-weight=\"bold\">B minskar</text></svg></span><p>Hur stor är den inducerade spänningen? (Svara i V.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[|e|=\\frac{\\Delta\\Phi}{\\Delta t}=\\frac{0{,}020}{0{,}50}=0{,}040\\ \\text{V}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,040 V.</p></div>",
+  "familj": "Magnetiskt flöde och Faradays lag",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Med ett varv är \\(N=1\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.04,
+  "tolerans": 0.0004,
+  "svarVardesiffror": 2,
+  "svarEnhet": "V",
+  "typ": "beräkna inducerad spänning i en slinga, sökt spänning",
+  "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion"
+},
+{
+  "id": "3.496",
+  "kap": 3,
+  "omr": "induktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En stavmagnet förs med nordpolen före mot en spole.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 180\" width=\"440\" height=\"180\" role=\"img\" aria-label=\"Stavmagnet med nordpolen mot en spole, magneten rör sig mot spolen\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><ellipse cx=\"250\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"266\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"282\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"298\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"314\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"330\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"346\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"362\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><rect x=\"60\" y=\"72\" width=\"60\" height=\"36\" fill=\"#2563eb\"/><rect x=\"120\" y=\"72\" width=\"60\" height=\"36\" fill=\"#dc2626\"/><text x=\"90.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">S</text><text x=\"150.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">N</text><polygon points=\"230.0,140.0 218.0,146.6 218.0,133.4\" fill=\"#172b3a\"/><line x1=\"150.0\" y1=\"140.0\" x2=\"220.0\" y2=\"140.0\" stroke=\"#172b3a\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"150.0\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">magneten rör sig mot spolen</text><text x=\"306.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">spole</text></svg></span><p>Vilken pol får spolens ände närmast magneten?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enligt Lenz lag motverkar den inducerade strömmen förändringen. Spolen stöter bort den annalkande magneten, så änden närmast magneten blir en nordpol.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nordpol.</p></div>",
+  "familj": "Lenz lag",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Den inducerade strömmen motverkar rörelsen som orsakar den.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Nordpol",
+      "ratt": true
+    },
+    {
+      "txt": "Sydpol",
+      "ratt": false,
+      "kommentar": "En sydpol skulle dra till sig magneten och förstärka förändringen."
+    },
+    {
+      "txt": "Ingen pol",
+      "ratt": false,
+      "kommentar": "En ström induceras när magneten rör sig."
+    },
+    {
+      "txt": "Båda ändarna blir sydpoler",
+      "ratt": false,
+      "kommentar": "En spole har en nordpol och en sydpol."
+    }
+  ],
+  "typ": "Lenz lag när nordpol närmar sig, sökt pol",
+  "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion"
+},
+{
+  "id": "3.497",
+  "kap": 3,
+  "omr": "induktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En stavmagnet ligger stilla inne i en spole.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 180\" width=\"440\" height=\"180\" role=\"img\" aria-label=\"Stavmagnet som ligger stilla vid en spole\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><ellipse cx=\"250\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"266\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"282\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"298\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"314\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"330\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"346\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"362\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><rect x=\"60\" y=\"72\" width=\"60\" height=\"36\" fill=\"#2563eb\"/><rect x=\"120\" y=\"72\" width=\"60\" height=\"36\" fill=\"#dc2626\"/><text x=\"90.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">S</text><text x=\"150.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">N</text><text x=\"120.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">magneten ligger stilla</text><text x=\"306.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">spole</text></svg></span><p>Induceras det någon ström i spolen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det induceras bara en spänning när flödet genom spolen ändras. En stilla magnet ger ett konstant flöde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej.</p></div>",
+  "familj": "Lenz lag",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vad måste ändras för att en spänning ska induceras?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Nej, flödet genom spolen ändras inte",
+      "ratt": true
+    },
+    {
+      "txt": "Ja, eftersom magneten är stark",
+      "ratt": false,
+      "kommentar": "Styrkan spelar ingen roll om flödet är konstant."
+    },
+    {
+      "txt": "Ja, en konstant ström",
+      "ratt": false,
+      "kommentar": "Konstant flöde ger ingen inducerad spänning."
+    },
+    {
+      "txt": "Bara om spolen är av järn",
+      "ratt": false,
+      "kommentar": "Materialet avgör inte. Flödet måste ändras."
+    }
+  ],
+  "typ": "induktion när magneten är stilla, begrepp",
+  "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion"
+},
+{
+  "id": "3.498",
+  "kap": 3,
+  "omr": "induktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En magnet förs in i en spole. Andra gången förs den in dubbelt så snabbt.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 180\" width=\"440\" height=\"180\" role=\"img\" aria-label=\"Stavmagnet som förs mot en spole\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><ellipse cx=\"250\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"266\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"282\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"298\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"314\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"330\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"346\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"362\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><rect x=\"60\" y=\"72\" width=\"60\" height=\"36\" fill=\"#2563eb\"/><rect x=\"120\" y=\"72\" width=\"60\" height=\"36\" fill=\"#dc2626\"/><text x=\"90.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">S</text><text x=\"150.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">N</text><polygon points=\"230.0,140.0 218.0,146.6 218.0,133.4\" fill=\"#172b3a\"/><line x1=\"150.0\" y1=\"140.0\" x2=\"220.0\" y2=\"140.0\" stroke=\"#172b3a\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"150.0\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">magneten rör sig mot spolen</text><text x=\"306.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">spole</text></svg></span><p>Hur påverkas den inducerade spänningen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Samma flödesändring sker på halva tiden. Enligt Faradays lag blir den inducerade spänningen dubbelt så stor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den blir ungefär dubbelt så stor.</p></div>",
+  "familj": "Magnetiskt flöde och Faradays lag",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Den inducerade spänningen beror på hur snabbt flödet ändras.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Den blir ungefär dubbelt så stor",
+      "ratt": true
+    },
+    {
+      "txt": "Den blir lika stor",
+      "ratt": false,
+      "kommentar": "Snabbare ändring ger större spänning."
+    },
+    {
+      "txt": "Den blir hälften så stor",
+      "ratt": false,
+      "kommentar": "Snabbare ändring ger större spänning."
+    },
+    {
+      "txt": "Den blir noll",
+      "ratt": false,
+      "kommentar": "Flödet ändras fortfarande."
+    }
+  ],
+  "typ": "snabbare förändring ger större spänning, begrepp",
+  "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion"
+},
+{
+  "id": "3.499",
+  "kap": 3,
+  "omr": "induktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En spole med 50 varv och tvärsnittsarean 0,020 m² står vinkelrätt mot ett magnetfält. Fältet ökar jämnt från 0,10 T till 0,50 T på 0,20 s.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 250\" width=\"400\" height=\"250\" role=\"img\" aria-label=\"Spole med arean 0,020 kvadratmeter där magnetfältet ökar\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"40\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 85.0 L45.0 95.0 M45.0 85.0 L35.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"40\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 135.0 L45.0 145.0 M45.0 135.0 L35.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"40\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M35.0 185.0 L45.0 195.0 M45.0 185.0 L35.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 85.0 L95.0 95.0 M95.0 85.0 L85.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 135.0 L95.0 145.0 M95.0 135.0 L85.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"90\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M85.0 185.0 L95.0 195.0 M95.0 185.0 L85.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"140\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M135.0 85.0 L145.0 95.0 M145.0 85.0 L135.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"190\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M185.0 85.0 L195.0 95.0 M195.0 85.0 L185.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"240\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M235.0 35.0 L245.0 45.0 M245.0 35.0 L235.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"240\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M235.0 85.0 L245.0 95.0 M245.0 85.0 L235.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"290\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M285.0 35.0 L295.0 45.0 M295.0 35.0 L285.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"40\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 35.0 L345.0 45.0 M345.0 35.0 L335.0 45.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"90\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 85.0 L345.0 95.0 M345.0 85.0 L335.0 95.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"140\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 135.0 L345.0 145.0 M345.0 135.0 L335.0 145.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"340\" cy=\"190\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M335.0 185.0 L345.0 195.0 M345.0 185.0 L335.0 195.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><rect x=\"115\" y=\"60\" width=\"160\" height=\"130\" fill=\"#2867a8\" fill-opacity=\".15\" stroke=\"#b87333\" stroke-width=\"5\"/><rect x=\"127.0\" y=\"206.2\" width=\"136.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"195.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A = 0,020 m²</text><rect x=\"15.0\" y=\"8.2\" width=\"199.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"20.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2867a8\" font-weight=\"bold\">B: 0,10 T → 0,50 T</text><rect x=\"132.2\" y=\"114.2\" width=\"125.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"195.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">N = 50 varv</text></svg></span><p>Hur stor spänning induceras? (Svara i V.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta\\Phi=\\Delta B\\cdot A=(0{,}50-0{,}10)\\cdot0{,}020=8{,}0\\cdot10^{-3}\\ \\text{Wb}\\]</div></li><li><div class=\"facit-matte\">\\[|e|=N\\frac{\\Delta\\Phi}{\\Delta t}=50\\cdot\\frac{8{,}0\\cdot10^{-3}}{0{,}20}=2{,}0\\ \\text{V}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,0 V.</p></div>",
+  "familj": "Magnetiskt flöde och Faradays lag",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Flödesändringen är ändringen i \\(B\\) gånger arean.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.0,
+  "tolerans": 0.02,
+  "svarVardesiffror": 2,
+  "svarEnhet": "V",
+  "typ": "inducerad spänning när B ändras, sökt spänning",
+  "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion"
+},
+{
+  "id": "3.500",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En 0,20 m lång metallstav glider på två skenor med farten 3,0 m/s vinkelrätt mot ett magnetfält på 0,50 T.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 240\" width=\"440\" height=\"240\" role=\"img\" aria-label=\"Metallstav som glider på skenor genom ett magnetfält in i pappret\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"70\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 30.0 L75.0 40.0 M75.0 30.0 L65.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 75.0 L75.0 85.0 M75.0 75.0 L65.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 120.0 L75.0 130.0 M75.0 120.0 L65.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 165.0 L75.0 175.0 M75.0 165.0 L65.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 210.0 L75.0 220.0 M75.0 210.0 L65.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 30.0 L125.0 40.0 M125.0 30.0 L115.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 75.0 L125.0 85.0 M125.0 75.0 L115.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 120.0 L125.0 130.0 M125.0 120.0 L115.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 165.0 L125.0 175.0 M125.0 165.0 L115.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 210.0 L125.0 220.0 M125.0 210.0 L115.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 30.0 L175.0 40.0 M175.0 30.0 L165.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 75.0 L175.0 85.0 M175.0 75.0 L165.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 165.0 L175.0 175.0 M175.0 165.0 L165.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 210.0 L175.0 220.0 M175.0 210.0 L165.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 30.0 L225.0 40.0 M225.0 30.0 L215.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 75.0 L225.0 85.0 M225.0 75.0 L215.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 165.0 L225.0 175.0 M225.0 165.0 L215.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 210.0 L225.0 220.0 M225.0 210.0 L215.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M265.0 30.0 L275.0 40.0 M275.0 30.0 L265.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 30.0 L325.0 40.0 M325.0 30.0 L315.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 165.0 L325.0 175.0 M325.0 165.0 L315.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 210.0 L325.0 220.0 M325.0 210.0 L315.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 30.0 L375.0 40.0 M375.0 30.0 L365.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 75.0 L375.0 85.0 M375.0 75.0 L365.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 120.0 L375.0 130.0 M375.0 120.0 L365.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 165.0 L375.0 175.0 M375.0 165.0 L365.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 210.0 L375.0 220.0 M375.0 210.0 L365.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><line x1=\"40.0\" y1=\"60.0\" x2=\"410.0\" y2=\"60.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"40.0\" y1=\"190.0\" x2=\"410.0\" y2=\"190.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"40.0\" y1=\"60.0\" x2=\"40.0\" y2=\"190.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"250.0\" y1=\"52.0\" x2=\"250.0\" y2=\"198.0\" stroke=\"#b87333\" stroke-width=\"9\" stroke-linecap=\"round\"/><polygon points=\"330.0,125.0 317.0,132.2 317.0,117.8\" fill=\"#b54b42\"/><line x1=\"262.0\" y1=\"125.0\" x2=\"320.0\" y2=\"125.0\" stroke=\"#b54b42\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"250.2\" y=\"88.2\" width=\"83.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"292.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">3,0 m/s</text><rect x=\"164.0\" y=\"112.2\" width=\"73.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"232.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">0,20 m</text><rect x=\"9.0\" y=\"10.2\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"14.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2867a8\" font-weight=\"bold\">B</text></svg></span><p>Hur stor spänning induceras i staven? (Svara i V.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en ledare som rör sig vinkelrätt mot fältet induceras \\(e=Blv\\).</p></li><li><div class=\"facit-matte\">\\[e=0{,}50\\cdot0{,}20\\cdot3{,}0=0{,}30\\ \\text{V}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,30 V.</p></div>",
+  "familj": "Inducerad spänning i en rörlig ledare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Spänningen beror på fältet, längden och farten.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.3,
+  "tolerans": 0.003,
+  "svarVardesiffror": 2,
+  "svarEnhet": "V",
+  "typ": "beräkna inducerad spänning i rörlig stav, sökt spänning",
+  "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion"
+},
+{
+  "id": "3.501",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett flygplan med vingbredden 30 m flyger vågrätt med farten 250 m/s. Den lodräta komponenten av jordens magnetfält är \\(4{,}5\\cdot10^{-5}\\) T.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 240\" width=\"440\" height=\"240\" role=\"img\" aria-label=\"Flygplansvinge som rör sig genom jordens magnetfält\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"70\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 75.0 L75.0 85.0 M75.0 75.0 L65.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 120.0 L75.0 130.0 M75.0 120.0 L65.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 165.0 L75.0 175.0 M75.0 165.0 L65.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 210.0 L75.0 220.0 M75.0 210.0 L65.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 30.0 L125.0 40.0 M125.0 30.0 L115.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 75.0 L125.0 85.0 M125.0 75.0 L115.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 120.0 L125.0 130.0 M125.0 120.0 L115.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 165.0 L125.0 175.0 M125.0 165.0 L115.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 210.0 L125.0 220.0 M125.0 210.0 L115.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 30.0 L175.0 40.0 M175.0 30.0 L165.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 75.0 L175.0 85.0 M175.0 75.0 L165.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 120.0 L175.0 130.0 M175.0 120.0 L165.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 165.0 L175.0 175.0 M175.0 165.0 L165.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 210.0 L175.0 220.0 M175.0 210.0 L165.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 30.0 L225.0 40.0 M225.0 30.0 L215.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 75.0 L225.0 85.0 M225.0 75.0 L215.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 165.0 L225.0 175.0 M225.0 165.0 L215.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 210.0 L225.0 220.0 M225.0 210.0 L215.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M265.0 30.0 L275.0 40.0 M275.0 30.0 L265.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 30.0 L325.0 40.0 M325.0 30.0 L315.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 165.0 L325.0 175.0 M325.0 165.0 L315.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 210.0 L325.0 220.0 M325.0 210.0 L315.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 30.0 L375.0 40.0 M375.0 30.0 L365.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 75.0 L375.0 85.0 M375.0 75.0 L365.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 120.0 L375.0 130.0 M375.0 120.0 L365.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 165.0 L375.0 175.0 M375.0 165.0 L365.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 210.0 L375.0 220.0 M375.0 210.0 L365.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><line x1=\"40.0\" y1=\"60.0\" x2=\"410.0\" y2=\"60.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"40.0\" y1=\"190.0\" x2=\"410.0\" y2=\"190.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"40.0\" y1=\"60.0\" x2=\"40.0\" y2=\"190.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"250.0\" y1=\"52.0\" x2=\"250.0\" y2=\"198.0\" stroke=\"#b87333\" stroke-width=\"9\" stroke-linecap=\"round\"/><polygon points=\"330.0,125.0 317.0,132.2 317.0,117.8\" fill=\"#b54b42\"/><line x1=\"262.0\" y1=\"125.0\" x2=\"320.0\" y2=\"125.0\" stroke=\"#b54b42\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"250.2\" y=\"88.2\" width=\"83.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"292.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">250 m/s</text><rect x=\"185.0\" y=\"112.2\" width=\"52.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"232.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">30 m</text><rect x=\"9.0\" y=\"10.2\" width=\"94.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"14.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2867a8\" font-weight=\"bold\">B lodrät</text></svg></span><p>Hur stor spänning induceras mellan vingspetsarna? (Svara i V.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vingen är en ledare som rör sig vinkelrätt mot den lodräta fältkomponenten.</p></li><li><div class=\"facit-matte\">\\[e=Blv=4{,}5\\cdot10^{-5}\\cdot30\\cdot250\\approx0{,}34\\ \\text{V}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,34 V.</p></div>",
+  "familj": "Inducerad spänning i en rörlig ledare",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Det är bara den lodräta komponenten av fältet som räknas.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.3375,
+  "tolerans": 0.0033750000000000004,
+  "svarVardesiffror": 2,
+  "svarEnhet": "V",
+  "typ": "inducerad spänning i flygplansvinge, sökt spänning",
+  "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion"
+},
+{
+  "id": "3.502",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En 15 cm lång stav rör sig vinkelrätt mot ett magnetfält på 0,40 T. Mellan stavens ändar mäts spänningen 0,12 V.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 240\" width=\"440\" height=\"240\" role=\"img\" aria-label=\"Stav som rör sig genom ett magnetfält med okänd fart\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"70\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 30.0 L75.0 40.0 M75.0 30.0 L65.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 75.0 L75.0 85.0 M75.0 75.0 L65.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 120.0 L75.0 130.0 M75.0 120.0 L65.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 165.0 L75.0 175.0 M75.0 165.0 L65.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 210.0 L75.0 220.0 M75.0 210.0 L65.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 30.0 L125.0 40.0 M125.0 30.0 L115.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 75.0 L125.0 85.0 M125.0 75.0 L115.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 120.0 L125.0 130.0 M125.0 120.0 L115.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 165.0 L125.0 175.0 M125.0 165.0 L115.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 210.0 L125.0 220.0 M125.0 210.0 L115.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 30.0 L175.0 40.0 M175.0 30.0 L165.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 75.0 L175.0 85.0 M175.0 75.0 L165.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 165.0 L175.0 175.0 M175.0 165.0 L165.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 210.0 L175.0 220.0 M175.0 210.0 L165.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 30.0 L225.0 40.0 M225.0 30.0 L215.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 75.0 L225.0 85.0 M225.0 75.0 L215.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 165.0 L225.0 175.0 M225.0 165.0 L215.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 210.0 L225.0 220.0 M225.0 210.0 L215.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M265.0 30.0 L275.0 40.0 M275.0 30.0 L265.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 30.0 L325.0 40.0 M325.0 30.0 L315.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 165.0 L325.0 175.0 M325.0 165.0 L315.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 210.0 L325.0 220.0 M325.0 210.0 L315.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 30.0 L375.0 40.0 M375.0 30.0 L365.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 75.0 L375.0 85.0 M375.0 75.0 L365.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 120.0 L375.0 130.0 M375.0 120.0 L365.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 165.0 L375.0 175.0 M375.0 165.0 L365.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 210.0 L375.0 220.0 M375.0 210.0 L365.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><line x1=\"40.0\" y1=\"60.0\" x2=\"410.0\" y2=\"60.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"40.0\" y1=\"190.0\" x2=\"410.0\" y2=\"190.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"40.0\" y1=\"60.0\" x2=\"40.0\" y2=\"190.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"250.0\" y1=\"52.0\" x2=\"250.0\" y2=\"198.0\" stroke=\"#b87333\" stroke-width=\"9\" stroke-linecap=\"round\"/><polygon points=\"330.0,125.0 317.0,132.2 317.0,117.8\" fill=\"#b54b42\"/><line x1=\"262.0\" y1=\"125.0\" x2=\"320.0\" y2=\"125.0\" stroke=\"#b54b42\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"260.8\" y=\"88.2\" width=\"62.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"292.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">v = ?</text><rect x=\"174.5\" y=\"112.2\" width=\"62.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"232.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">15 cm</text><rect x=\"9.0\" y=\"10.2\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"14.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2867a8\" font-weight=\"bold\">B</text></svg></span><p>Hur fort rör sig staven? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\frac{e}{Bl}=\\frac{0{,}12}{0{,}40\\cdot0{,}15}=2{,}0\\ \\text{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,0 m/s.</p></div>",
+  "familj": "Inducerad spänning i en rörlig ledare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Lös ut \\(v\\) ur \\(e=Blv\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.0,
+  "tolerans": 0.02,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m/s",
+  "typ": "beräkna fart ur inducerad spänning, sökt fart",
+  "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion"
+},
+{
+  "id": "3.503",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>I en stav som glider på skenor induceras spänningen 0,60 V. Skenorna är kopplade till ett motstånd på 3,0 Ω, och resten av kretsen har försumbar resistans.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 240\" width=\"440\" height=\"240\" role=\"img\" aria-label=\"Stav som glider på skenor kopplade till ett motstånd\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"70\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 30.0 L75.0 40.0 M75.0 30.0 L65.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 75.0 L75.0 85.0 M75.0 75.0 L65.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 120.0 L75.0 130.0 M75.0 120.0 L65.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 165.0 L75.0 175.0 M75.0 165.0 L65.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 210.0 L75.0 220.0 M75.0 210.0 L65.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 30.0 L125.0 40.0 M125.0 30.0 L115.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 75.0 L125.0 85.0 M125.0 75.0 L115.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 120.0 L125.0 130.0 M125.0 120.0 L115.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 165.0 L125.0 175.0 M125.0 165.0 L115.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 210.0 L125.0 220.0 M125.0 210.0 L115.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 30.0 L175.0 40.0 M175.0 30.0 L165.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 75.0 L175.0 85.0 M175.0 75.0 L165.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 120.0 L175.0 130.0 M175.0 120.0 L165.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 165.0 L175.0 175.0 M175.0 165.0 L165.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 210.0 L175.0 220.0 M175.0 210.0 L165.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 30.0 L225.0 40.0 M225.0 30.0 L215.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 75.0 L225.0 85.0 M225.0 75.0 L215.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 120.0 L225.0 130.0 M225.0 120.0 L215.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 165.0 L225.0 175.0 M225.0 165.0 L215.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 210.0 L225.0 220.0 M225.0 210.0 L215.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M265.0 30.0 L275.0 40.0 M275.0 30.0 L265.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 30.0 L325.0 40.0 M325.0 30.0 L315.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 75.0 L325.0 85.0 M325.0 75.0 L315.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 165.0 L325.0 175.0 M325.0 165.0 L315.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 210.0 L325.0 220.0 M325.0 210.0 L315.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 30.0 L375.0 40.0 M375.0 30.0 L365.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 75.0 L375.0 85.0 M375.0 75.0 L365.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 120.0 L375.0 130.0 M375.0 120.0 L365.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 165.0 L375.0 175.0 M375.0 165.0 L365.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 210.0 L375.0 220.0 M375.0 210.0 L365.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><line x1=\"40.0\" y1=\"60.0\" x2=\"410.0\" y2=\"60.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"40.0\" y1=\"190.0\" x2=\"410.0\" y2=\"190.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"40.0\" y1=\"60.0\" x2=\"40.0\" y2=\"190.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"250.0\" y1=\"52.0\" x2=\"250.0\" y2=\"198.0\" stroke=\"#b87333\" stroke-width=\"9\" stroke-linecap=\"round\"/><polygon points=\"330.0,125.0 317.0,132.2 317.0,117.8\" fill=\"#b54b42\"/><line x1=\"262.0\" y1=\"125.0\" x2=\"320.0\" y2=\"125.0\" stroke=\"#b54b42\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"281.8\" y=\"88.2\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"292.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">v</text><rect x=\"9.0\" y=\"10.2\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"14.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2867a8\" font-weight=\"bold\">B</text></svg></span><p>Hur stor ström går i kretsen? (Svara i A.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den inducerade spänningen driver strömmen genom motståndet.</p></li><li><div class=\"facit-matte\">\\[I=\\frac{e}{R}=\\frac{0{,}60}{3{,}0}=0{,}20\\ \\text{A}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,20 A.</p></div>",
+  "familj": "Inducerad spänning i en rörlig ledare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Använd Ohms lag.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.2,
+  "tolerans": 0.002,
+  "svarVardesiffror": 2,
+  "svarEnhet": "A",
+  "typ": "beräkna ström i krets med rörlig stav, sökt ström",
+  "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion"
+},
+{
+  "id": "3.504",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En metallstav förs fram och tillbaka parallellt med magnetfältets riktning.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"150\" viewBox=\"0 0 420 150\" role=\"img\" aria-label=\"Metallstav som rör sig parallellt med magnetfältets linjer\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"35.0\" x2=\"390.0\" y2=\"35.0\" stroke=\"#2867a8\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"390.0,35.0 380.0,40.5 380.0,29.5\" fill=\"#2867a8\"/><line x1=\"30.0\" y1=\"75.0\" x2=\"390.0\" y2=\"75.0\" stroke=\"#2867a8\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"390.0,75.0 380.0,80.5 380.0,69.5\" fill=\"#2867a8\"/><line x1=\"30.0\" y1=\"115.0\" x2=\"390.0\" y2=\"115.0\" stroke=\"#2867a8\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><polygon points=\"390.0,115.0 380.0,120.5 380.0,109.5\" fill=\"#2867a8\"/><line x1=\"150.0\" y1=\"20.0\" x2=\"150.0\" y2=\"130.0\" stroke=\"#b87333\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"165.0\" y1=\"75.0\" x2=\"250.0\" y2=\"75.0\" stroke=\"#b54b42\" stroke-width=\"3\"/><polygon points=\"250.0,75.0 239.9,79.3 239.9,70.7\" fill=\"#b54b42\"/><text x=\"207.0\" y=\"62.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">v</text></svg></div><p>Induceras det någon spänning i staven?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Staven skär inga fältlinjer när den rör sig längs fältet. Då induceras ingen spänning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej.</p></div>",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>En spänning induceras när ledaren skär fältlinjer.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Nej, staven skär inga fältlinjer",
+      "ratt": true
+    },
+    {
+      "txt": "Ja, största möjliga spänning",
+      "ratt": false,
+      "kommentar": "Störst spänning fås när staven rör sig vinkelrätt mot fältet."
+    },
+    {
+      "txt": "Ja, men bara om staven är av järn",
+      "ratt": false,
+      "kommentar": "Materialet avgör inte."
+    },
+    {
+      "txt": "Ja, en växelspänning",
+      "ratt": false,
+      "kommentar": "Utan att fältlinjer skärs induceras ingen spänning."
+    }
+  ],
+  "typ": "stav parallell med fältet, begrepp"
+},
+{
+  "id": "3.505",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>När en stav rör sig med farten 2,0 m/s genom ett magnetfält induceras spänningen 0,25 V. Farten ökas till 4,0 m/s.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 240\" width=\"440\" height=\"240\" role=\"img\" aria-label=\"Stav som rör sig snabbare genom ett magnetfält\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"70\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 30.0 L75.0 40.0 M75.0 30.0 L65.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 75.0 L75.0 85.0 M75.0 75.0 L65.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 120.0 L75.0 130.0 M75.0 120.0 L65.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 165.0 L75.0 175.0 M75.0 165.0 L65.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"70\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M65.0 210.0 L75.0 220.0 M75.0 210.0 L65.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 30.0 L125.0 40.0 M125.0 30.0 L115.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 75.0 L125.0 85.0 M125.0 75.0 L115.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 120.0 L125.0 130.0 M125.0 120.0 L115.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 165.0 L125.0 175.0 M125.0 165.0 L115.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"120\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M115.0 210.0 L125.0 220.0 M125.0 210.0 L115.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 30.0 L175.0 40.0 M175.0 30.0 L165.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 75.0 L175.0 85.0 M175.0 75.0 L165.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 120.0 L175.0 130.0 M175.0 120.0 L165.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 165.0 L175.0 175.0 M175.0 165.0 L165.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"170\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M165.0 210.0 L175.0 220.0 M175.0 210.0 L165.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 30.0 L225.0 40.0 M225.0 30.0 L215.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 75.0 L225.0 85.0 M225.0 75.0 L215.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 120.0 L225.0 130.0 M225.0 120.0 L215.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 165.0 L225.0 175.0 M225.0 165.0 L215.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"220\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M215.0 210.0 L225.0 220.0 M225.0 210.0 L215.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"270\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M265.0 30.0 L275.0 40.0 M275.0 30.0 L265.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 30.0 L325.0 40.0 M325.0 30.0 L315.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 165.0 L325.0 175.0 M325.0 165.0 L315.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"320\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M315.0 210.0 L325.0 220.0 M325.0 210.0 L315.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"35\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 30.0 L375.0 40.0 M375.0 30.0 L365.0 40.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"80\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 75.0 L375.0 85.0 M375.0 75.0 L365.0 85.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"125\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 120.0 L375.0 130.0 M375.0 120.0 L365.0 130.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"170\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 165.0 L375.0 175.0 M375.0 165.0 L365.0 175.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><circle cx=\"370\" cy=\"215\" r=\"8\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><path d=\"M365.0 210.0 L375.0 220.0 M375.0 210.0 L365.0 220.0\" stroke=\"#2867a8\" stroke-width=\"1.6\"/><line x1=\"40.0\" y1=\"60.0\" x2=\"410.0\" y2=\"60.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"40.0\" y1=\"190.0\" x2=\"410.0\" y2=\"190.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"40.0\" y1=\"60.0\" x2=\"40.0\" y2=\"190.0\" stroke=\"#6b7280\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"250.0\" y1=\"52.0\" x2=\"250.0\" y2=\"198.0\" stroke=\"#b87333\" stroke-width=\"9\" stroke-linecap=\"round\"/><polygon points=\"330.0,125.0 317.0,132.2 317.0,117.8\" fill=\"#b54b42\"/><line x1=\"262.0\" y1=\"125.0\" x2=\"320.0\" y2=\"125.0\" stroke=\"#b54b42\" stroke-width=\"3\" stroke-linecap=\"round\"/><rect x=\"250.2\" y=\"88.2\" width=\"83.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"292.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#b54b42\" font-weight=\"bold\">4,0 m/s</text><rect x=\"9.0\" y=\"10.2\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"14.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2867a8\" font-weight=\"bold\">B</text></svg></span><p>Hur stor blir den inducerade spänningen? (Svara i V.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(e=Blv\\) är proportionell mot farten. Dubbel fart ger dubbel spänning.</p></li><li><div class=\"facit-matte\">\\[e=2\\cdot0{,}25=0{,}50\\ \\text{V}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,50 V.</p></div>",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur beror spänningen på farten?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.5,
+  "tolerans": 0.005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "V",
+  "typ": "dubblerad fart och inducerad spänning, sökt spänning"
+},
+{
+  "id": "3.506",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Grafen visar den inducerade spänningen i en stav som funktion av stavens fart genom ett magnetfält.</p><span class=\"fig smal\"><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"260\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"Graf där den inducerade spänningen ökar linjärt med farten, 0,20 volt per meter per sekund\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"30.0\" x2=\"50.0\" y2=\"220.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"50.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"110.0\" y1=\"30.0\" x2=\"110.0\" y2=\"220.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"110.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"170.0\" y1=\"30.0\" x2=\"170.0\" y2=\"220.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"170.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"230.0\" y1=\"30.0\" x2=\"230.0\" y2=\"220.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"230.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"290.0\" y1=\"30.0\" x2=\"290.0\" y2=\"220.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"290.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"350.0\" y1=\"30.0\" x2=\"350.0\" y2=\"220.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"350.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"50.0\" y1=\"220.0\" x2=\"350.0\" y2=\"220.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"50.0\" y1=\"182.0\" x2=\"350.0\" y2=\"182.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"186.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,2</text><line x1=\"50.0\" y1=\"144.0\" x2=\"350.0\" y2=\"144.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"148.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,4</text><line x1=\"50.0\" y1=\"106.0\" x2=\"350.0\" y2=\"106.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,6</text><line x1=\"50.0\" y1=\"68.0\" x2=\"350.0\" y2=\"68.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,8</text><line x1=\"50.0\" y1=\"30.0\" x2=\"350.0\" y2=\"30.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"34.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"50.0\" y1=\"220.0\" x2=\"350.0\" y2=\"220.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"220.0\" x2=\"50.0\" y2=\"26.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"220.0\" x2=\"350.0\" y2=\"30.0\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"200.0\" y=\"256.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">fart (m/s)</text><text x=\"14\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 14 125)\">spänning (V)</text></svg></div></span><p>Hur stor är den inducerade spänningen när farten är 4,0 m/s? (Svara i V.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid 4 m/s ligger linjen vid 0,8 V.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8 V.</p></div>",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Gå upp från 4 på den vågräta axeln till linjen.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.8,
+  "tolerans": 0.05,
+  "svarEnhet": "V",
+  "typ": "avläsa inducerad spänning i graf, sökt spänning"
+},
+{
+  "id": "3.507",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En cykeldynamo får lampan att lysa när hjulet snurrar. Inne i dynamon roterar en magnet bredvid en spole.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 180\" width=\"440\" height=\"180\" role=\"img\" aria-label=\"Magnet bredvid en spole som i en cykeldynamo\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><ellipse cx=\"250\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"266\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"282\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"298\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"314\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"330\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"346\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><ellipse cx=\"362\" cy=\"90\" rx=\"8\" ry=\"40\" fill=\"none\" stroke=\"#b87333\" stroke-width=\"3\"/><rect x=\"60\" y=\"72\" width=\"60\" height=\"36\" fill=\"#2563eb\"/><rect x=\"120\" y=\"72\" width=\"60\" height=\"36\" fill=\"#dc2626\"/><text x=\"90.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">S</text><text x=\"150.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">N</text><text x=\"306.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">spole</text></svg></span><p>Vilket fysikaliskt fenomen gör att det blir ström?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När magneten roterar ändras flödet genom spolen hela tiden. Då induceras en spänning (elektromagnetisk induktion).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Induktion.</p></div>",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vad händer med flödet genom spolen när magneten roterar?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Elektromagnetisk induktion",
+      "ratt": true
+    },
+    {
+      "txt": "Friktion som laddar upp lampan",
+      "ratt": false,
+      "kommentar": "Det är det ändrade magnetiska flödet som ger strömmen."
+    },
+    {
+      "txt": "Ørsteds upptäckt att ström ger magnetfält",
+      "ratt": false,
+      "kommentar": "Här är det tvärtom: ändrat magnetfält ger spänning."
+    },
+    {
+      "txt": "Fotoelektrisk effekt",
+      "ratt": false,
+      "kommentar": "Den handlar om ljus som frigör elektroner."
+    }
+  ],
+  "typ": "tillämpning av induktion, begrepp"
+},
+{
+  "id": "3.508",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>I Sverige är jordens magnetfält ungefär 50 µT. Fältet lutar 70° nedåt mot markytan (inklinationen är 70°).</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Jordens magnetfält 50 mikrotesla med inklinationen 70 grader, uppdelat i en vågrät och en lodrät komponent\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"40.0\" x2=\"380.0\" y2=\"40.0\" stroke=\"#16a34a\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"378.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#166534\">markytan</text><line x1=\"110.0\" y1=\"40.0\" x2=\"178.4\" y2=\"40.0\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"178.4,40.0 166.4,46.6 166.4,33.4\" fill=\"#216d87\"/><line x1=\"178.4\" y1=\"40.0\" x2=\"178.4\" y2=\"227.9\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"178.4,227.9 171.8,215.9 185.0,215.9\" fill=\"#216d87\"/><line x1=\"110.0\" y1=\"40.0\" x2=\"178.4\" y2=\"227.9\" stroke=\"#b54b42\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><polygon points=\"178.4,227.9 166.4,217.4 180.9,212.1\" fill=\"#b54b42\"/><rect x=\"107.7\" y=\"9.2\" width=\"73.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"144.2\" y=\"25.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">Bₕ = ?</text><rect x=\"185.4\" y=\"118.2\" width=\"31.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"190.4\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">Bᵥ</text><rect x=\"28.7\" y=\"124.2\" width=\"104.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"128.2\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#b54b42\" font-weight=\"bold\">B = 50 µT</text><path d=\"M152.0 40 A42 42 0 0 1 124.4 79.5\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"149.0\" y=\"89.3\" width=\"39.4\" height=\"20.3\" rx=\"3\" fill=\"#fff\"/><text x=\"154.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">70°</text></svg></span><p>Hur stor är den vågräta komponenten? (Svara i µT.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[B_h=B\\cos70^\\circ=50\\cdot\\cos70^\\circ\\approx17\\ \\mu\\text{T}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 17 µT.</p></div>",
+  "familj": "Jordens magnetfält som vektor",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Den vågräta komponenten ligger intill vinkeln.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 17.101007166283445,
+  "tolerans": 0.17101007166283444,
+  "svarVardesiffror": 2,
+  "svarEnhet": "µT",
+  "typ": "beräkna horisontalkomponent, sökt B",
+  "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass"
+},
+{
+  "id": "3.509",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Jordens magnetfält är 50 µT och lutar 70° nedåt mot markytan.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Jordens magnetfält 50 mikrotesla med inklinationen 70 grader och den okända lodräta komponenten\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"40.0\" x2=\"380.0\" y2=\"40.0\" stroke=\"#16a34a\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"378.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#166534\">markytan</text><line x1=\"110.0\" y1=\"40.0\" x2=\"178.4\" y2=\"40.0\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"178.4,40.0 166.4,46.6 166.4,33.4\" fill=\"#216d87\"/><line x1=\"178.4\" y1=\"40.0\" x2=\"178.4\" y2=\"227.9\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"178.4,227.9 171.8,215.9 185.0,215.9\" fill=\"#216d87\"/><line x1=\"110.0\" y1=\"40.0\" x2=\"178.4\" y2=\"227.9\" stroke=\"#b54b42\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><polygon points=\"178.4,227.9 166.4,217.4 180.9,212.1\" fill=\"#b54b42\"/><rect x=\"128.7\" y=\"9.2\" width=\"31.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"144.2\" y=\"25.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">Bₕ</text><rect x=\"185.4\" y=\"118.2\" width=\"73.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"190.4\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">Bᵥ = ?</text><rect x=\"28.7\" y=\"124.2\" width=\"104.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"128.2\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#b54b42\" font-weight=\"bold\">B = 50 µT</text><path d=\"M152.0 40 A42 42 0 0 1 124.4 79.5\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"149.0\" y=\"89.3\" width=\"39.4\" height=\"20.3\" rx=\"3\" fill=\"#fff\"/><text x=\"154.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">70°</text></svg></span><p>Hur stor är den lodräta komponenten? (Svara i µT.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[B_v=B\\sin70^\\circ=50\\cdot\\sin70^\\circ\\approx47\\ \\mu\\text{T}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 47 µT.</p></div>",
+  "familj": "Jordens magnetfält som vektor",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Den lodräta komponenten ligger mittemot vinkeln.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 46.98463103929542,
+  "tolerans": 0.4698463103929542,
+  "svarVardesiffror": 2,
+  "svarEnhet": "µT",
+  "typ": "beräkna vertikalkomponent, sökt B",
+  "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass"
+},
+{
+  "id": "3.510",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>På en ort är jordfältets vågräta komponent 18 µT och den lodräta komponenten 48 µT.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Jordens magnetfält med den vågräta komponenten 18 och den lodräta 48 mikrotesla\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"40.0\" x2=\"380.0\" y2=\"40.0\" stroke=\"#16a34a\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"378.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#166534\">markytan</text><line x1=\"110.0\" y1=\"40.0\" x2=\"180.4\" y2=\"40.0\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"180.4,40.0 168.4,46.6 168.4,33.4\" fill=\"#216d87\"/><line x1=\"180.4\" y1=\"40.0\" x2=\"180.4\" y2=\"227.2\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"180.4,227.2 173.8,215.2 187.0,215.2\" fill=\"#216d87\"/><line x1=\"110.0\" y1=\"40.0\" x2=\"180.4\" y2=\"227.2\" stroke=\"#b54b42\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><polygon points=\"180.4,227.2 168.2,216.8 182.7,211.4\" fill=\"#b54b42\"/><rect x=\"87.7\" y=\"9.2\" width=\"115.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"145.2\" y=\"25.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">Bₕ = 18 µT</text><rect x=\"187.4\" y=\"117.9\" width=\"115.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"192.4\" y=\"133.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">Bᵥ = 48 µT</text><rect x=\"71.7\" y=\"123.9\" width=\"62.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"129.2\" y=\"139.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#b54b42\" font-weight=\"bold\">B = ?</text></svg></span><p>Hur stark är jordens totala magnetfält där? (Svara i µT.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[B=\\sqrt{18^2+48^2}\\approx51\\ \\mu\\text{T}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 51 µT.</p></div>",
+  "familj": "Jordens magnetfält som vektor",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Komponenterna är kateter i en rätvinklig triangel.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 51.264022471905186,
+  "tolerans": 0.5126402247190519,
+  "svarVardesiffror": 2,
+  "svarEnhet": "µT",
+  "typ": "beräkna totalfält ur komponenter, sökt B",
+  "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass"
+},
+{
+  "id": "3.511",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Jordfältets vågräta komponent är 15 µT och den lodräta är 45 µT.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Jordens magnetfält med komponenterna 15 och 45 mikrotesla och den okända inklinationen\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"40.0\" x2=\"380.0\" y2=\"40.0\" stroke=\"#16a34a\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"378.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#166534\">markytan</text><line x1=\"110.0\" y1=\"40.0\" x2=\"173.1\" y2=\"40.0\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"173.1,40.0 161.1,46.6 161.1,33.4\" fill=\"#216d87\"/><line x1=\"173.1\" y1=\"40.0\" x2=\"173.1\" y2=\"229.8\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"173.1,229.8 166.5,217.8 179.7,217.8\" fill=\"#216d87\"/><line x1=\"110.0\" y1=\"40.0\" x2=\"173.1\" y2=\"229.8\" stroke=\"#b54b42\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><polygon points=\"173.1,229.8 161.4,218.9 176.0,214.1\" fill=\"#b54b42\"/><rect x=\"84.1\" y=\"9.2\" width=\"115.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"141.6\" y=\"25.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">Bₕ = 15 µT</text><rect x=\"180.1\" y=\"119.1\" width=\"115.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"185.1\" y=\"134.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">Bᵥ = 45 µT</text><rect x=\"110.1\" y=\"125.1\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"125.6\" y=\"140.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#b54b42\" font-weight=\"bold\">B</text><path d=\"M152.0 40 A42 42 0 0 1 123.3 79.9\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"149.0\" y=\"89.3\" width=\"59.0\" height=\"20.3\" rx=\"3\" fill=\"#fff\"/><text x=\"154.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">i = ?</text></svg></span><p>Hur stor är inklinationen, alltså fältets vinkel mot markytan? (Svara i grader.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan i=\\frac{B_v}{B_h}=\\frac{45}{15}=3{,}0\\]</div></li><li><div class=\"facit-matte\">\\[i=\\arctan3{,}0\\approx72^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 72°.</p></div>",
+  "familj": "Jordens magnetfält som vektor",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Använd tangens.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 71.56505117707799,
+  "tolerans": 0.7156505117707799,
+  "svarVardesiffror": 2,
+  "svarEnhet": "°",
+  "typ": "beräkna inklination ur komponenter, sökt vinkel",
+  "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass"
+},
+{
+  "id": "3.512",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En kompassnål ställer in sig i jordens magnetfält.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 200\" width=\"400\" height=\"200\" role=\"img\" aria-label=\"Kompass där nålens röda nordände pekar uppåt\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"110\" cy=\"100\" r=\"62\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"3\"/><path d=\"M110 46 L122 100 L110 154 L98 100 Z\" fill=\"#e5e7eb\" stroke=\"#475569\"/><path d=\"M110 46 L122 100 L98 100 Z\" fill=\"#dc2626\"/><text x=\"110.0\" y=\"34.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">N</text><text x=\"110.0\" y=\"180.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">S</text></svg></span><p>Vilken magnetisk pol ligger nära den geografiska nordpolen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kompassnålens nordände dras mot en magnetisk sydpol. Nålen pekar mot norr, så nära den geografiska nordpolen finns en magnetisk sydpol.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En magnetisk sydpol.</p></div>",
+  "familj": "Magneter och kompass",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Olika poler attraherar varandra.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "En magnetisk sydpol",
+      "ratt": true
+    },
+    {
+      "txt": "En magnetisk nordpol",
+      "ratt": false,
+      "kommentar": "Nålens nordände skulle då stötas bort."
+    },
+    {
+      "txt": "Ingen magnetisk pol",
+      "ratt": false,
+      "kommentar": "Jordens fält har poler nära de geografiska polerna."
+    },
+    {
+      "txt": "Både nord- och sydpol",
+      "ratt": false,
+      "kommentar": "Det finns en pol vid varje ände."
+    }
+  ],
+  "typ": "kompassnålens riktning, begrepp",
+  "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass"
+},
+{
+  "id": "3.513",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Inklinationen är vinkeln mellan jordens magnetfält och markytan. I Sverige är den ungefär 70°.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Jordens magnetfält uppdelat i komponenter\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"40.0\" x2=\"380.0\" y2=\"40.0\" stroke=\"#16a34a\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"378.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#166534\">markytan</text><line x1=\"110.0\" y1=\"40.0\" x2=\"178.4\" y2=\"40.0\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"178.4,40.0 166.4,46.6 166.4,33.4\" fill=\"#216d87\"/><line x1=\"178.4\" y1=\"40.0\" x2=\"178.4\" y2=\"227.9\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"178.4,227.9 171.8,215.9 185.0,215.9\" fill=\"#216d87\"/><line x1=\"110.0\" y1=\"40.0\" x2=\"178.4\" y2=\"227.9\" stroke=\"#b54b42\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><polygon points=\"178.4,227.9 166.4,217.4 180.9,212.1\" fill=\"#b54b42\"/><rect x=\"128.7\" y=\"9.2\" width=\"31.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"144.2\" y=\"25.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">Bₕ</text><rect x=\"185.4\" y=\"118.2\" width=\"31.0\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"190.4\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">Bᵥ</text><rect x=\"112.7\" y=\"124.2\" width=\"20.5\" height=\"21.8\" rx=\"3\" fill=\"#fff\"/><text x=\"128.2\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#b54b42\" font-weight=\"bold\">B</text></svg></span><p>Ungefär hur stor är inklinationen vid ekvatorn?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid ekvatorn går fältlinjerna nästan parallellt med markytan, så inklinationen är nära 0°. Vid de magnetiska polerna är den nära 90°.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nära 0°.</p></div>",
+  "familj": "Jordens magnetfält som vektor",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur går fältlinjerna mitt emellan polerna?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Nära 0°",
+      "ratt": true
+    },
+    {
+      "txt": "Nära 90°",
+      "ratt": false,
+      "kommentar": "Det gäller nära de magnetiska polerna."
+    },
+    {
+      "txt": "Ungefär 70° som i Sverige",
+      "ratt": false,
+      "kommentar": "Inklinationen beror på var på jorden man är."
+    },
+    {
+      "txt": "Ungefär 45°",
+      "ratt": false,
+      "kommentar": "Vid ekvatorn är fältet nästan vågrätt."
+    }
+  ],
+  "typ": "inklination vid ekvatorn, begrepp",
+  "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass"
+},
+{
+  "id": "3.514",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Norrsken syns oftast nära polerna. Det uppstår när laddade partiklar från solen träffar atmosfären.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" width=\"400\" height=\"260\" role=\"img\" aria-label=\"Jordens magnetfält\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"40.0\" x2=\"380.0\" y2=\"40.0\" stroke=\"#16a34a\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"378.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#166534\">markytan</text><line x1=\"110.0\" y1=\"40.0\" x2=\"178.4\" y2=\"40.0\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"178.4,40.0 166.4,46.6 166.4,33.4\" fill=\"#216d87\"/><line x1=\"178.4\" y1=\"40.0\" x2=\"178.4\" y2=\"227.9\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"178.4,227.9 171.8,215.9 185.0,215.9\" fill=\"#216d87\"/><line x1=\"110.0\" y1=\"40.0\" x2=\"178.4\" y2=\"227.9\" stroke=\"#b54b42\" stroke-width=\"3.4\" stroke-linecap=\"round\"/><polygon points=\"178.4,227.9 166.4,217.4 180.9,212.1\" fill=\"#b54b42\"/></svg></span><p>Varför syns norrsken mest nära polerna?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Laddade partiklar påverkas av jordens magnetfält och följer fältlinjerna, som går ner mot jorden nära polerna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Magnetfältet styr partiklarna mot polerna.</p></div>",
+  "familj": "Magneter och kompass",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur påverkas laddade partiklar av ett magnetfält?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Magnetfältet styr de laddade partiklarna mot polområdena",
+      "ratt": true
+    },
+    {
+      "txt": "Det är kallare vid polerna",
+      "ratt": false,
+      "kommentar": "Temperaturen orsakar inte norrsken."
+    },
+    {
+      "txt": "Solen lyser starkare på polerna",
+      "ratt": false,
+      "kommentar": "Solinstrålningen är svagare vid polerna."
+    },
+    {
+      "txt": "Isen reflekterar solljuset",
+      "ratt": false,
+      "kommentar": "Norrsken skapas av partiklar i atmosfären."
+    }
+  ],
+  "typ": "norrsken och magnetfältet, begrepp",
+  "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass"
+},
+{
+  "id": "3.515",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En kompass placeras till vänster om en stavmagnet, nära magnetens sydpol.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 200\" width=\"400\" height=\"200\" role=\"img\" aria-label=\"Kompass till vänster om en stavmagnet vars sydpol är närmast kompassen\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"110\" cy=\"100\" r=\"62\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"3\"/><circle cx=\"110\" cy=\"100\" r=\"5\" fill=\"#475569\"/><text x=\"110.0\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"26\" text-anchor=\"middle\" fill=\"#475569\" font-weight=\"bold\">?</text><rect x=\"230\" y=\"82\" width=\"70\" height=\"36\" fill=\"#2563eb\"/><rect x=\"300\" y=\"82\" width=\"70\" height=\"36\" fill=\"#dc2626\"/><text x=\"265.0\" y=\"106.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">S</text><text x=\"335.0\" y=\"106.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">N</text></svg></span><p>Åt vilket håll pekar kompassnålens nordände?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nålens nordände dras mot magnetens sydpol, som ligger till höger om kompassen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Åt höger, mot magnetens sydpol.</p></div>",
+  "familj": "Magneter och kompass",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Olika poler attraherar varandra.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Åt höger, mot magnetens sydpol",
+      "ratt": true
+    },
+    {
+      "txt": "Åt vänster, bort från magneten",
+      "ratt": false,
+      "kommentar": "Nordände och sydpol attraherar varandra."
+    },
+    {
+      "txt": "Rakt uppåt mot geografiska norr",
+      "ratt": false,
+      "kommentar": "Nära magneten är magnetens fält mycket starkare än jordens."
+    },
+    {
+      "txt": "Nålen snurrar runt hela tiden",
+      "ratt": false,
+      "kommentar": "Nålen ställer in sig i fältets riktning."
+    }
+  ],
+  "typ": "kompass nära en stavmagnet, begrepp",
+  "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass"
 }
 ];

@@ -15726,5 +15726,2944 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "kommentar": "Måtten reagerar olika starkt på ett enda extremvärde."
     }
   ]
+},
+{
+  "id": "3.600",
+  "kap": 3,
+  "omr": "topptriangel_transversal",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I triangeln är \\(DE\\parallel BC\\). Punkten \\(D\\) är mittpunkt på \\(AB\\) och \\(BC=18\\) cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"295\" viewBox=\"0 0 420 295\" role=\"img\" aria-label=\"Triangel ABC där D är mittpunkt på AB och DE är parallell med BC, BC är 18 cm\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,34.0 52.0,236.0 372.0,236.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"131.0\" y1=\"135.0\" x2=\"291.0\" y2=\"135.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M210.3 139.6 L218.0 135.0 L210.3 130.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><path d=\"M211.3 240.6 L219.0 236.0 L211.3 231.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"210.0\" cy=\"34.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"210.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"52.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"38.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"372.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"386.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"131.0\" cy=\"135.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"115.0\" y=\"137.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><circle cx=\"291.0\" cy=\"135.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"307.0\" y=\"137.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E</text><text x=\"212.0\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">18 cm</text></svg></div><p>Hur lång är \\(DE\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(D\\) är mittpunkt är \\(AD\\) hälften av \\(AB\\). Den lilla triangeln \\(ADE\\) är alltså hälften så stor i alla längder.</p></li><li><div class=\"facit-matte\">\\[DE=\\frac{18}{2}=9\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(DE=9\\) cm.</p></div>",
+  "familj": "Topptriangelsatsen",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Mittpunkten ger längdskalan \\(\\tfrac12\\) från den stora till den lilla triangeln.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.601",
+  "kap": 3,
+  "omr": "topptriangel_transversal",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En klätterställning har formen av ett A. Benen står 1,2 m från varandra på marken. Mitt på benen sitter en vågrät tvärslå som är parallell med marken.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"295\" viewBox=\"0 0 420 295\" role=\"img\" aria-label=\"A-format klätterställning med en vågrät tvärslå mitt på benen\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,34.0 52.0,236.0 372.0,236.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"131.0\" y1=\"135.0\" x2=\"291.0\" y2=\"135.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M210.3 139.6 L218.0 135.0 L210.3 130.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><path d=\"M211.3 240.6 L219.0 236.0 L211.3 231.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"210.0\" cy=\"34.0\" r=\"3.5\" fill=\"#172b3a\"/><circle cx=\"52.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><circle cx=\"372.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><circle cx=\"131.0\" cy=\"135.0\" r=\"3.5\" fill=\"#172b3a\"/><circle cx=\"291.0\" cy=\"135.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"212.0\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">1,2 m</text></svg></div><p>Hur lång är tvärslån? (Svara i meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tvärslån sitter mitt på benen och är parallell med marken. Topptriangeln har därför hälften så långa sidor som hela triangeln.</p></li><li><div class=\"facit-matte\">\\[\\frac{1{,}2}{2}=0{,}6\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,6 m.</p></div>",
+  "familj": "Topptriangelsatsen",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Tvärslån och marken är parallella. Hur stor del av benet ligger ovanför tvärslån?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.6,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.602",
+  "kap": 3,
+  "omr": "topptriangel_transversal",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I triangeln \\(ABC\\) är \\(DE\\parallel BC\\). Sträckan \\(AD\\) är en tredjedel av \\(AB\\), och \\(BC=24\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"295\" viewBox=\"0 0 420 295\" role=\"img\" aria-label=\"Triangel ABC med DE parallell med BC, AD är en tredjedel av AB\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,34.0 52.0,236.0 372.0,236.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"157.3\" y1=\"101.3\" x2=\"264.0\" y2=\"101.3\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M210.0 106.0 L217.7 101.3 L210.0 96.7\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><path d=\"M211.3 240.6 L219.0 236.0 L211.3 231.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"210.0\" cy=\"34.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"210.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"52.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"38.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"372.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"386.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"157.3\" cy=\"101.3\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"141.3\" y=\"103.3\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><circle cx=\"264.0\" cy=\"101.3\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"280.0\" y=\"103.3\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E</text><text x=\"212.0\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">24</text></svg></div><p>Bestäm \\(DE\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Topptriangeln \\(ADE\\) är likformig med \\(ABC\\) med längdskalan \\(\\tfrac13\\).</p></li><li><div class=\"facit-matte\">\\[DE=\\frac{24}{3}=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(DE=8\\).</p></div>",
+  "familj": "Topptriangelsatsen",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Längdskalan mellan topptriangeln och hela triangeln är \\(AD/AB\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.603",
+  "kap": 3,
+  "omr": "topptriangel_transversal",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I figuren är \\(DE\\parallel BC\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"295\" viewBox=\"0 0 420 295\" role=\"img\" aria-label=\"Triangel ABC med DE parallell med BC, AD är 4\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,34.0 52.0,236.0 372.0,236.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"146.8\" y1=\"114.8\" x2=\"274.8\" y2=\"114.8\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M210.1 119.4 L217.8 114.8 L210.1 110.2\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><path d=\"M211.3 240.6 L219.0 236.0 L211.3 231.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"210.0\" cy=\"34.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"210.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"52.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"38.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"372.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"386.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"146.8\" cy=\"114.8\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"130.8\" y=\"116.8\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><circle cx=\"274.8\" cy=\"114.8\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"290.8\" y=\"116.8\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E</text><text x=\"161.9\" y=\"66.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">4</text></svg></div><p>Vilket förhållande stämmer enligt topptriangelsatsen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Topptriangeln \\(ADE\\) och hela triangeln \\(ABC\\) är likformiga. Motsvarande sidor har samma förhållande:</p></li><li><div class=\"facit-matte\">\\[\\frac{AD}{AB}=\\frac{AE}{AC}=\\frac{DE}{BC}\\]</div></li><li><p>Observera att \\(DB\\) inte är en sida i någon av de två trianglarna.</p></li></ol></div>",
+  "familj": "Topptriangelsatsen",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Jämför den lilla triangeln \\(ADE\\) med hela triangeln \\(ABC\\). Vilka sidor motsvarar varandra?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(\\dfrac{AD}{AB}=\\dfrac{DE}{BC}\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(\\dfrac{AD}{DB}=\\dfrac{DE}{BC}\\)",
+      "ratt": false,
+      "kommentar": "DB är inte en sida i triangeln ABC. Använd hela sidan AB."
+    },
+    {
+      "txt": "\\(\\dfrac{AD}{AE}=\\dfrac{BC}{DE}\\)",
+      "ratt": false,
+      "kommentar": "Förhållandet blandar sidor från olika trianglar på fel sätt."
+    },
+    {
+      "txt": "\\(AD\\cdot DE=AB\\cdot BC\\)",
+      "ratt": false,
+      "kommentar": "Topptriangelsatsen handlar om kvoter, inte om produkter."
+    }
+  ]
+},
+{
+  "id": "3.604",
+  "kap": 3,
+  "omr": "topptriangel_transversal",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I triangeln är \\(DE\\parallel BC\\), \\(AD=5\\) och \\(AB=20\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"295\" viewBox=\"0 0 420 295\" role=\"img\" aria-label=\"Triangel ABC med DE parallell med BC, AD är 5 och AB är 20\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,34.0 52.0,236.0 372.0,236.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"170.5\" y1=\"84.5\" x2=\"250.5\" y2=\"84.5\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M209.8 89.1 L217.5 84.5 L209.8 79.9\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><path d=\"M211.3 240.6 L219.0 236.0 L211.3 231.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"210.0\" cy=\"34.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"210.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"52.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"38.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"372.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"386.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"170.5\" cy=\"84.5\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"154.5\" y=\"86.5\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><circle cx=\"250.5\" cy=\"84.5\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"266.5\" y=\"86.5\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E</text><text x=\"173.7\" y=\"51.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">5</text></svg></div><p>Bestäm längdskalan från triangeln \\(ABC\\) till triangeln \\(ADE\\). Svara i decimalform.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\text{längdskala}=\\frac{AD}{AB}=\\frac{5}{20}=0{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,25.</p></div>",
+  "familj": "Topptriangelsatsen",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Dela en sida i den lilla triangeln med motsvarande sida i den stora.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.25,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.605",
+  "kap": 3,
+  "omr": "topptriangel_transversal",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Ett tält ses rakt framifrån och har formen av en triangel. Tältets botten är 2,4 m bred. En stödlina spänns parallellt med botten, två tredjedelar av vägen ner från toppen längs tältduken.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"295\" viewBox=\"0 0 420 295\" role=\"img\" aria-label=\"Tält sett framifrån med en stödlina parallell med botten två tredjedelar ner\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,34.0 52.0,236.0 372.0,236.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"104.7\" y1=\"168.7\" x2=\"318.0\" y2=\"168.7\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M210.6 173.3 L218.3 168.7 L210.6 164.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><path d=\"M211.3 240.6 L219.0 236.0 L211.3 231.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"210.0\" cy=\"34.0\" r=\"3.5\" fill=\"#172b3a\"/><circle cx=\"52.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><circle cx=\"372.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><circle cx=\"104.7\" cy=\"168.7\" r=\"3.5\" fill=\"#172b3a\"/><circle cx=\"318.0\" cy=\"168.7\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"212.0\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">2,4 m</text></svg></div><p>Hur lång är stödlinan? (Svara i meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Triangeln ovanför linan är likformig med hela tältet, och längdskalan är \\(\\tfrac23\\).</p></li><li><div class=\"facit-matte\">\\[\\frac23\\cdot2{,}4=1{,}6\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,6 m.</p></div>",
+  "familj": "Topptriangelsatsen",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur stor del av tältduken ligger mellan toppen och linan?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.6,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.606",
+  "kap": 3,
+  "omr": "topptriangel_transversal",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I figuren är \\(DE\\parallel BC\\). Punkten \\(D\\) delar \\(AB\\) mitt itu.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"295\" viewBox=\"0 0 420 295\" role=\"img\" aria-label=\"Triangel med DE parallell med BC, AD och DB är 4, AE är 7 och EC är x\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,34.0 52.0,236.0 372.0,236.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"131.0\" y1=\"135.0\" x2=\"291.0\" y2=\"135.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M210.3 139.6 L218.0 135.0 L210.3 130.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><path d=\"M211.3 240.6 L219.0 236.0 L211.3 231.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"210.0\" cy=\"34.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"210.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"52.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"38.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"372.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"386.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"131.0\" cy=\"135.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"115.0\" y=\"137.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><circle cx=\"291.0\" cy=\"135.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"307.0\" y=\"137.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E</text><text x=\"154.0\" y=\"76.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">4</text><text x=\"75.0\" y=\"177.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">4</text><text x=\"266.9\" y=\"76.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">7</text><text x=\"347.9\" y=\"177.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">x</text></svg></div><p>Bestäm \\(x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Transversalsatsen ger \\(\\dfrac{AD}{DB}=\\dfrac{AE}{EC}\\).</p></li><li><div class=\"facit-matte\">\\[\\frac44=\\frac7x\\ \\Rightarrow\\ x=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\).</p></div>",
+  "familj": "Transversalsatsen och delningsförhållanden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>En parallell linje delar de två sidorna i samma förhållande.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 7,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.607",
+  "kap": 3,
+  "omr": "topptriangel_transversal",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Linjen \\(DE\\) är parallell med \\(BC\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"295\" viewBox=\"0 0 420 295\" role=\"img\" aria-label=\"Triangel med DE parallell med BC, AD är 2, DB är 6, AE är 3 och EC är x\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,34.0 52.0,236.0 372.0,236.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"170.5\" y1=\"84.5\" x2=\"250.5\" y2=\"84.5\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M209.8 89.1 L217.5 84.5 L209.8 79.9\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><path d=\"M211.3 240.6 L219.0 236.0 L211.3 231.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"210.0\" cy=\"34.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"210.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"52.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"38.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"372.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"386.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"170.5\" cy=\"84.5\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"154.5\" y=\"86.5\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><circle cx=\"250.5\" cy=\"84.5\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"266.5\" y=\"86.5\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E</text><text x=\"173.7\" y=\"51.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">2</text><text x=\"94.7\" y=\"152.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">6</text><text x=\"246.6\" y=\"51.1\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">3</text><text x=\"327.6\" y=\"152.1\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">x</text></svg></div><p>Hur stort är \\(x\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På sidan \\(AB\\) är \\(DB\\) tre gånger så lång som \\(AD\\). Då är också \\(EC\\) tre gånger så lång som \\(AE\\).</p></li><li><div class=\"facit-matte\">\\[x=3\\cdot3=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=9\\).</p></div>",
+  "familj": "Transversalsatsen och delningsförhållanden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur många gånger längre är \\(DB\\) än \\(AD\\)?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.608",
+  "kap": 3,
+  "omr": "topptriangel_transversal",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I triangeln \\(ABC\\) är \\(DE\\parallel BC\\). Punkten \\(D\\) ligger på \\(AB\\) och \\(E\\) ligger på \\(AC\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"295\" viewBox=\"0 0 420 295\" role=\"img\" aria-label=\"Triangel ABC med DE parallell med BC\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,34.0 52.0,236.0 372.0,236.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"138.9\" y1=\"124.9\" x2=\"282.9\" y2=\"124.9\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M210.2 129.5 L217.9 124.9 L210.2 120.3\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><path d=\"M211.3 240.6 L219.0 236.0 L211.3 231.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"210.0\" cy=\"34.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"210.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"52.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"38.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"372.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"386.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"138.9\" cy=\"124.9\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"122.9\" y=\"126.9\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><circle cx=\"282.9\" cy=\"124.9\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"298.9\" y=\"126.9\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E</text></svg></div><p>Vilken kvot är lika med \\(\\dfrac{AD}{DB}\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Transversalsatsen: en linje parallell med en sida delar de två andra sidorna i samma förhållande.</p></li><li><div class=\"facit-matte\">\\[\\frac{AD}{DB}=\\frac{AE}{EC}\\]</div></li></ol></div>",
+  "familj": "Transversalsatsen och delningsförhållanden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Följ sidan \\(AC\\) på samma sätt som du följer sidan \\(AB\\): först biten närmast \\(A\\), sedan biten närmast basen.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(\\dfrac{AE}{EC}\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(\\dfrac{EC}{AE}\\)",
+      "ratt": false,
+      "kommentar": "Kvoten är vänd. AD hör ihop med AE."
+    },
+    {
+      "txt": "\\(\\dfrac{DE}{BC}\\)",
+      "ratt": false,
+      "kommentar": "Det är längdskalan AD/AB, inte AD/DB."
+    },
+    {
+      "txt": "\\(\\dfrac{AE}{AC}\\)",
+      "ratt": false,
+      "kommentar": "AC är hela sidan. Jämför med delarna."
+    }
+  ]
+},
+{
+  "id": "3.609",
+  "kap": 3,
+  "omr": "topptriangel_transversal",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I triangeln \\(ABC\\) är \\(DE\\parallel BC\\). Punkten \\(D\\) delar \\(AB\\) i förhållandet \\(AD:DB=1:2\\), och \\(AE=4\\) cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"295\" viewBox=\"0 0 420 295\" role=\"img\" aria-label=\"Triangel med DE parallell med BC där AD:DB är 1:2 och AE är 4 cm\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,34.0 52.0,236.0 372.0,236.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"157.3\" y1=\"101.3\" x2=\"264.0\" y2=\"101.3\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M210.0 106.0 L217.7 101.3 L210.0 96.7\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><path d=\"M211.3 240.6 L219.0 236.0 L211.3 231.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"210.0\" cy=\"34.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"210.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"52.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"38.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"372.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"386.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"157.3\" cy=\"101.3\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"141.3\" y=\"103.3\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><circle cx=\"264.0\" cy=\"101.3\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"280.0\" y=\"103.3\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E</text><text x=\"264.3\" y=\"50.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">4 cm</text></svg></div><p>Hur lång är \\(EC\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sidan \\(AC\\) delas i samma förhållande, \\(AE:EC=1:2\\).</p></li><li><div class=\"facit-matte\">\\[EC=2\\cdot4=8\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 cm.</p></div>",
+  "familj": "Transversalsatsen och delningsförhållanden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Delningsförhållandet är detsamma på båda sidorna.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.610",
+  "kap": 3,
+  "omr": "topptriangel_transversal",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Två raka vägar utgår från en korsning \\(A\\). Två parallella cykelbanor, \\(DE\\) och \\(BC\\), går tvärs över vägarna.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"295\" viewBox=\"0 0 420 295\" role=\"img\" aria-label=\"Två vägar från en korsning A och två parallella cykelbanor DE och BC\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,34.0 52.0,236.0 372.0,236.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"131.0\" y1=\"135.0\" x2=\"291.0\" y2=\"135.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M210.3 139.6 L218.0 135.0 L210.3 130.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><path d=\"M211.3 240.6 L219.0 236.0 L211.3 231.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"210.0\" cy=\"34.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"210.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"52.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"38.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"372.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"386.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"131.0\" cy=\"135.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"115.0\" y=\"137.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><circle cx=\"291.0\" cy=\"135.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"307.0\" y=\"137.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E</text><text x=\"137.7\" y=\"63.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">300 m</text><text x=\"58.7\" y=\"164.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">300 m</text><text x=\"282.9\" y=\"63.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">420 m</text></svg></div><p>Hur lång är vägsträckan \\(EC\\)? (Svara i meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cykelbanorna är parallella, så vägarna delas i samma förhållande. På den ena vägen är \\(AD=DB\\).</p></li><li><div class=\"facit-matte\">\\[EC=AE=420\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 420 m.</p></div>",
+  "familj": "Transversalsatsen och delningsförhållanden",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Jämför \\(AD\\) och \\(DB\\). Vad betyder det för \\(AE\\) och \\(EC\\)?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 420,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.611",
+  "kap": 3,
+  "omr": "topptriangel_transversal",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I triangeln är \\(DE\\parallel BC\\), \\(AD=3\\), \\(DB=3\\) och \\(EC=5{,}5\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"295\" viewBox=\"0 0 420 295\" role=\"img\" aria-label=\"Triangel med DE parallell med BC, AD och DB är 3, EC är 5,5 och AE är x\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,34.0 52.0,236.0 372.0,236.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"131.0\" y1=\"135.0\" x2=\"291.0\" y2=\"135.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><path d=\"M210.3 139.6 L218.0 135.0 L210.3 130.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><path d=\"M211.3 240.6 L219.0 236.0 L211.3 231.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"210.0\" cy=\"34.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"210.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"52.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"38.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"372.0\" cy=\"236.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"386.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"131.0\" cy=\"135.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"115.0\" y=\"137.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><circle cx=\"291.0\" cy=\"135.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"307.0\" y=\"137.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E</text><text x=\"154.0\" y=\"76.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">3</text><text x=\"75.0\" y=\"177.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">3</text><text x=\"353.7\" y=\"172.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">5,5</text><text x=\"266.9\" y=\"76.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">x</text></svg></div><p>Bestäm \\(x=AE\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(AD=DB\\) är \\(D\\) mittpunkt på \\(AB\\). Då är också \\(E\\) mittpunkt på \\(AC\\).</p></li><li><div class=\"facit-matte\">\\[x=EC=5{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5{,}5\\).</p></div>",
+  "familj": "Transversalsatsen och delningsförhållanden",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Delas \\(AB\\) mitt itu delas också \\(AC\\) mitt itu.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5.5,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.612",
+  "kap": 3,
+  "omr": "kordasatsen_biskarningssatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Kordorna \\(AB\\) och \\(CD\\) skär varandra i punkten \\(P\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"345\" viewBox=\"0 0 360 345\" role=\"img\" aria-label=\"Cirkel där kordorna AB och CD skär varandra i P, PA är 2, PB är 6, PC är 3 och PD är x\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"343\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"172\" r=\"130\" fill=\"#d9ecf2\" fill-opacity=\".25\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><line x1=\"57.8\" y1=\"216.5\" x2=\"302.2\" y2=\"127.5\" stroke=\"#216d87\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"115.0\" y1=\"59.4\" x2=\"224.5\" y2=\"294.2\" stroke=\"#c2410c\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"169.3\" cy=\"175.9\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"177.0\" y=\"163.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">P</text><circle cx=\"57.8\" cy=\"216.5\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"37.2\" y=\"230.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"302.2\" cy=\"127.5\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"322.8\" y=\"126.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"115.0\" cy=\"59.4\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"104.0\" y=\"46.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"224.5\" cy=\"294.2\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"232.0\" y=\"320.8\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"108.4\" y=\"187.1\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">2</text><text x=\"230.6\" y=\"142.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">6</text><text x=\"155.8\" y=\"116.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">3</text><text x=\"210.5\" y=\"233.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">x</text></svg></div><p>Bestäm \\(x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kordasatsen: \\(PA\\cdot PB=PC\\cdot PD\\).</p></li><li><div class=\"facit-matte\">\\[2\\cdot6=3x\\ \\Rightarrow\\ x=\\frac{12}{3}=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\).</p></div>",
+  "familj": "Kordasatsen med givna längder",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Multiplicera de två delarna av den ena kordan.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.613",
+  "kap": 3,
+  "omr": "kordasatsen_biskarningssatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I cirkeln skär kordorna \\(AB\\) och \\(CD\\) varandra i \\(P\\). Det gäller att \\(PA=4\\) och \\(PB=5\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"345\" viewBox=\"0 0 360 345\" role=\"img\" aria-label=\"Cirkel där kordorna AB och CD skär varandra i P, PA är 4 och PB är 5\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"343\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"172\" r=\"130\" fill=\"#d9ecf2\" fill-opacity=\".25\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><line x1=\"67.4\" y1=\"237.0\" x2=\"305.6\" y2=\"138.4\" stroke=\"#216d87\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"135.5\" y1=\"49.8\" x2=\"245.0\" y2=\"284.6\" stroke=\"#c2410c\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"197.7\" cy=\"183.1\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"204.9\" y=\"170.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">P</text><circle cx=\"67.4\" cy=\"237.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"48.4\" y=\"254.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"305.6\" cy=\"138.4\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"326.8\" y=\"138.7\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"135.5\" cy=\"49.8\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"128.0\" y=\"35.2\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"245.0\" cy=\"284.6\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"256.0\" y=\"309.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"126.8\" y=\"201.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">4</text><text x=\"245.9\" y=\"151.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">5</text></svg></div><p>Hur stor är produkten \\(PC\\cdot PD\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enligt kordasatsen är produkten av delarna lika för båda kordorna.</p></li><li><div class=\"facit-matte\">\\[PC\\cdot PD=PA\\cdot PB=4\\cdot5=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20.</p></div>",
+  "familj": "Kordasatsen med givna längder",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Produkten av delarna är densamma för båda kordorna.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 20,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.614",
+  "kap": 3,
+  "omr": "kordasatsen_biskarningssatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Kordorna \\(AB\\) och \\(CD\\) skär varandra i \\(P\\). Delarna betecknas \\(a\\), \\(b\\), \\(c\\) och \\(d\\) i figuren.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"345\" viewBox=\"0 0 360 345\" role=\"img\" aria-label=\"Cirkel där kordorna skär varandra i P med delarna a, b, c och d\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"343\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"172\" r=\"130\" fill=\"#d9ecf2\" fill-opacity=\".25\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><line x1=\"52.0\" y1=\"194.6\" x2=\"292.6\" y2=\"107.0\" stroke=\"#216d87\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"96.4\" y1=\"72.4\" x2=\"202.6\" y2=\"300.0\" stroke=\"#c2410c\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"138.7\" cy=\"163.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"146.3\" y=\"150.5\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">P</text><circle cx=\"52.0\" cy=\"194.6\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"30.3\" y=\"204.4\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"292.6\" cy=\"107.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"311.6\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"96.4\" cy=\"72.4\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"82.3\" y=\"61.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"202.6\" cy=\"300.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"206.4\" y=\"327.7\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"90.2\" y=\"169.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">a</text><text x=\"210.5\" y=\"125.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">b</text><text x=\"131.2\" y=\"116.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">c</text><text x=\"184.2\" y=\"230.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">d</text></svg></div><p>Vilken likhet gäller enligt kordasatsen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Delarna av den ena kordan är \\(a\\) och \\(b\\), och delarna av den andra är \\(c\\) och \\(d\\). Produkterna är lika:</p></li><li><div class=\"facit-matte\">\\[a\\cdot b=c\\cdot d\\]</div></li></ol></div>",
+  "familj": "Kordasatsen med givna längder",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Varje produkt ska innehålla båda delarna av samma korda.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(ab=cd\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(a+b=c+d\\)",
+      "ratt": false,
+      "kommentar": "Kordorna behöver inte vara lika långa."
+    },
+    {
+      "txt": "\\(ac=bd\\)",
+      "ratt": false,
+      "kommentar": "Varje produkt ska bestå av delarna av samma korda."
+    },
+    {
+      "txt": "\\(\\dfrac ab=\\dfrac cd\\)",
+      "ratt": false,
+      "kommentar": "Kordasatsen handlar om produkter, inte kvoter."
+    }
+  ]
+},
+{
+  "id": "3.615",
+  "kap": 3,
+  "omr": "kordasatsen_biskarningssatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Två kordor skär varandra i en cirkel. Den ena kordan delas mitt itu i två delar som är 6 cm vardera. Den andra kordan delas i en del som är 3 cm och en del som är \\(x\\) cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"345\" viewBox=\"0 0 360 345\" role=\"img\" aria-label=\"Cirkel där den ena kordan delas i 6 och 6 och den andra i 3 och x\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"343\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"172\" r=\"130\" fill=\"#d9ecf2\" fill-opacity=\".25\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><line x1=\"54.4\" y1=\"205.6\" x2=\"305.6\" y2=\"205.6\" stroke=\"#216d87\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"157.4\" y1=\"44.0\" x2=\"146.4\" y2=\"297.6\" stroke=\"#c2410c\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"150.4\" cy=\"205.6\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"164.2\" y=\"226.1\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">P</text><circle cx=\"54.4\" cy=\"205.6\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"33.2\" y=\"217.3\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"305.6\" cy=\"205.6\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"326.8\" y=\"217.3\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"157.4\" cy=\"44.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"153.6\" y=\"28.3\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"146.4\" cy=\"297.6\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"140.7\" y=\"324.8\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"102.4\" y=\"195.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">6</text><text x=\"228.0\" y=\"195.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">6</text><text x=\"168.9\" y=\"130.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">3</text><text x=\"163.3\" y=\"257.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">x</text></svg></div><p>Bestäm \\(x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6\\cdot6=3x\\]</div></li><li><div class=\"facit-matte\">\\[x=\\frac{36}{3}=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=12\\).</p></div>",
+  "familj": "Kordasatsen med givna längder",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Ställ upp kordasatsen med de två delarna av varje korda.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.616",
+  "kap": 3,
+  "omr": "kordasatsen_biskarningssatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Kordorna skär varandra i \\(P\\). Måtten är angivna i decimeter.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"345\" viewBox=\"0 0 360 345\" role=\"img\" aria-label=\"Cirkel där kordorna skär varandra, delarna är 2,5 och 4 respektive 2 och x\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"343\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"172\" r=\"130\" fill=\"#d9ecf2\" fill-opacity=\".25\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><line x1=\"62.2\" y1=\"226.9\" x2=\"297.8\" y2=\"117.1\" stroke=\"#216d87\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"105.4\" y1=\"65.5\" x2=\"234.9\" y2=\"289.8\" stroke=\"#c2410c\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"169.7\" cy=\"176.8\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"175.7\" y=\"163.7\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">P</text><circle cx=\"62.2\" cy=\"226.9\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"42.2\" y=\"242.2\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"297.8\" cy=\"117.1\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"317.8\" y=\"113.8\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"105.4\" cy=\"65.5\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"92.8\" y=\"53.5\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"234.9\" cy=\"289.8\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"244.2\" y=\"315.8\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"108.8\" y=\"191.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">2,5</text><text x=\"227.4\" y=\"138.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">4</text><text x=\"150.6\" y=\"118.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">2</text><text x=\"215.3\" y=\"230.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">x</text></svg></div><p>Bestäm \\(x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2{,}5\\cdot4=2x\\]</div></li><li><div class=\"facit-matte\">\\[10=2x\\ \\Rightarrow\\ x=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\) dm.</p></div>",
+  "familj": "Kordasatsen med givna längder",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Räkna först ut produkten \\(2{,}5\\cdot4\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.617",
+  "kap": 3,
+  "omr": "kordasatsen_biskarningssatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En rund pizza delas med två raka snitt som korsar varandra. Det ena snittet delas av korsningen i 8 cm och 18 cm. Det andra snittet delas i 12 cm och \\(x\\) cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"345\" viewBox=\"0 0 360 345\" role=\"img\" aria-label=\"Rund pizza med två raka snitt som korsar varandra, delarna är 8 och 18 respektive 12 och x\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"343\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"172\" r=\"130\" fill=\"#d9ecf2\" fill-opacity=\".25\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><line x1=\"57.8\" y1=\"127.5\" x2=\"302.2\" y2=\"216.5\" stroke=\"#216d87\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"224.5\" y1=\"49.8\" x2=\"105.4\" y2=\"278.5\" stroke=\"#c2410c\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"163.9\" cy=\"166.1\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"171.2\" y=\"190.8\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">P</text><circle cx=\"57.8\" cy=\"127.5\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"37.2\" y=\"126.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"302.2\" cy=\"216.5\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"322.8\" y=\"230.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"224.5\" cy=\"49.8\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"232.0\" y=\"35.2\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"105.4\" cy=\"278.5\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"92.8\" y=\"302.5\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"116.0\" y=\"137.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">8</text><text x=\"238.2\" y=\"182.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">18</text><text x=\"209.2\" y=\"120.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">12</text><text x=\"148.0\" y=\"234.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">x</text></svg></div><p>Hur lång är den okända delen \\(x\\)? (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Snitten är kordor i cirkeln, så kordasatsen gäller.</p></li><li><div class=\"facit-matte\">\\[8\\cdot18=12x\\ \\Rightarrow\\ x=\\frac{144}{12}=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 cm.</p></div>",
+  "familj": "Kordasatsen i tillämpningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Varje snitt är en korda. Använd kordasatsen.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.618",
+  "kap": 3,
+  "omr": "kordasatsen_biskarningssatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I en rund park korsar två raka stigar varandra. Den ena stigen delas av korsningen i 20 m och 45 m. Den andra stigen delas i 30 m och \\(x\\) m.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"345\" viewBox=\"0 0 360 345\" role=\"img\" aria-label=\"Rund park med två raka stigar som korsar varandra, delarna är 20 och 45 meter respektive 30 meter och x\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"343\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"172\" r=\"130\" fill=\"#d9ecf2\" fill-opacity=\".25\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><line x1=\"57.8\" y1=\"216.5\" x2=\"310.0\" y2=\"172.0\" stroke=\"#216d87\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"46.4\" x2=\"180.0\" y2=\"302.0\" stroke=\"#c2410c\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"166.2\" cy=\"197.4\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"150.1\" y=\"191.5\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">P</text><circle cx=\"57.8\" cy=\"216.5\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"37.2\" y=\"230.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"310.0\" cy=\"172.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"332.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"146.4\" cy=\"46.4\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"140.7\" y=\"31.2\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"180.0\" cy=\"302.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"180.0\" y=\"330.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"108.7\" y=\"193.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">20 m</text><text x=\"234.8\" y=\"171.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">45 m</text><text x=\"186.8\" y=\"122.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">30 m</text><text x=\"188.0\" y=\"252.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">x</text></svg></div><p>Hur lång är delen \\(x\\)? (Svara i meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[20\\cdot45=30x\\]</div></li><li><div class=\"facit-matte\">\\[x=\\frac{900}{30}=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 m.</p></div>",
+  "familj": "Kordasatsen i tillämpningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Stigarna är kordor i en cirkel.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 30,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.619",
+  "kap": 3,
+  "omr": "kordasatsen_biskarningssatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>När gäller kordasatsen \\(PA\\cdot PB=PC\\cdot PD\\)?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"345\" viewBox=\"0 0 360 345\" role=\"img\" aria-label=\"Cirkel med två kordor som skär varandra i punkten P\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"343\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"172\" r=\"130\" fill=\"#d9ecf2\" fill-opacity=\".25\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><line x1=\"73.5\" y1=\"246.6\" x2=\"286.5\" y2=\"97.4\" stroke=\"#216d87\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"96.4\" y1=\"72.4\" x2=\"245.0\" y2=\"284.6\" stroke=\"#c2410c\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"170.7\" cy=\"178.5\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"190.4\" y=\"188.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">P</text><circle cx=\"73.5\" cy=\"246.6\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"55.5\" y=\"265.2\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"286.5\" cy=\"97.4\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"304.5\" y=\"90.8\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"96.4\" cy=\"72.4\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"82.3\" y=\"61.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"245.0\" cy=\"284.6\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"256.0\" y=\"309.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text></svg></div><p>Välj det påstående som stämmer.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kordasatsen gäller för två kordor som skär varandra i en punkt inne i cirkeln. Kordorna behöver inte gå genom medelpunkten och behöver inte vara vinkelräta.</p></li></ol></div>",
+  "familj": "Kordasatsen med givna längder",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Titta på figuren: vad har de två sträckorna gemensamt?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "När två kordor skär varandra i en punkt inne i cirkeln",
+      "ratt": true
+    },
+    {
+      "txt": "Bara när kordorna går genom cirkelns medelpunkt",
+      "ratt": false,
+      "kommentar": "Kordorna kan ligga var som helst i cirkeln."
+    },
+    {
+      "txt": "Bara när kordorna skär varandra under rät vinkel",
+      "ratt": false,
+      "kommentar": "Vinkeln mellan kordorna spelar ingen roll."
+    },
+    {
+      "txt": "När två kordor är parallella",
+      "ratt": false,
+      "kommentar": "Parallella kordor skär inte varandra."
+    }
+  ]
+},
+{
+  "id": "3.620",
+  "kap": 3,
+  "omr": "kordasatsen_biskarningssatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I triangeln \\(ABC\\) delar \\(AD\\) vinkeln \\(A\\) mitt itu, så \\(AD\\) är en bisektris.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"270\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"Triangel ABC med bisektrisen AD, AB är 6, AC är 9, BD är 4 och DC är x\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"150.0,40.0 40.0,230.0 380.0,230.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"150.0\" y1=\"40.0\" x2=\"184.1\" y2=\"230.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><path d=\"M135.0 66.0 A30 30 0 0 0 155.3 69.5\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><path d=\"M156.4 75.4 A36 36 0 0 0 177.8 62.9\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"150.0\" cy=\"40.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"150.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"40.0\" cy=\"230.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"26.0\" y=\"246.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"380.0\" cy=\"230.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"394.0\" y=\"246.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"184.1\" cy=\"230.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"184.1\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"76.0\" y=\"129.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">6</text><text x=\"279.0\" y=\"123.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">9</text><text x=\"112.1\" y=\"213.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">4</text><text x=\"282.1\" y=\"213.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">x</text></svg></div><p>Bestäm \\(x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bisektrissatsen: \\(\\dfrac{BD}{DC}=\\dfrac{AB}{AC}\\).</p></li><li><div class=\"facit-matte\">\\[\\frac4x=\\frac69\\ \\Rightarrow\\ x=\\frac{4\\cdot9}{6}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\).</p></div>",
+  "familj": "Bisektrissatsen",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Bisektrisen delar motstående sida i samma förhållande som de närliggande sidorna.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.621",
+  "kap": 3,
+  "omr": "kordasatsen_biskarningssatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Triangeln \\(ABC\\) är likbent med \\(AB=AC\\). Bisektrisen till vinkeln \\(A\\) träffar \\(BC\\) i \\(D\\), och \\(BC=10\\) cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Likbent triangel ABC med bisektrisen AD och basen BC som är 10 cm\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,40.0 40.0,230.0 380.0,230.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"210.0\" y1=\"40.0\" x2=\"210.0\" y2=\"230.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><path d=\"M190.0 62.4 A30 30 0 0 0 210.0 70.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><path d=\"M210.0 76.0 A36 36 0 0 0 234.0 66.8\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"210.0\" cy=\"40.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"210.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"40.0\" cy=\"230.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"26.0\" y=\"246.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"380.0\" cy=\"230.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"394.0\" y=\"246.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"210.0\" cy=\"230.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"210.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"210.0\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">10 cm</text></svg></div><p>Hur lång är \\(BD\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bisektrissatsen ger \\(\\dfrac{BD}{DC}=\\dfrac{AB}{AC}=1\\), eftersom \\(AB=AC\\). Alltså är \\(BD=DC\\).</p></li><li><div class=\"facit-matte\">\\[BD=\\frac{10}{2}=5\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 cm.</p></div>",
+  "familj": "Bisektrissatsen",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vad blir kvoten \\(AB/AC\\) när sidorna är lika långa?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.622",
+  "kap": 3,
+  "omr": "kordasatsen_biskarningssatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I triangeln \\(ABC\\) är \\(AD\\) bisektris till vinkeln \\(A\\). Bisektrisen delar \\(BC\\) så att \\(BD:DC=2:3\\). Sidan \\(AB\\) är 8 cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"270\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"Triangel ABC med bisektrisen AD, AB är 8 cm och AC är okänd\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"150.0,40.0 40.0,230.0 380.0,230.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"150.0\" y1=\"40.0\" x2=\"184.1\" y2=\"230.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><path d=\"M135.0 66.0 A30 30 0 0 0 155.3 69.5\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><path d=\"M156.4 75.4 A36 36 0 0 0 177.8 62.9\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"150.0\" cy=\"40.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"150.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"40.0\" cy=\"230.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"26.0\" y=\"246.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"380.0\" cy=\"230.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"394.0\" y=\"246.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"184.1\" cy=\"230.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"184.1\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"67.7\" y=\"124.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">8 cm</text><text x=\"279.0\" y=\"123.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">?</text></svg></div><p>Hur lång är \\(AC\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bisektrissatsen ger \\(AB:AC=BD:DC=2:3\\).</p></li><li><div class=\"facit-matte\">\\[AC=\\frac32\\cdot8=12\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 cm.</p></div>",
+  "familj": "Bisektrissatsen",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Förhållandet \\(AB:AC\\) är detsamma som \\(BD:DC\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.623",
+  "kap": 3,
+  "omr": "kordasatsen_biskarningssatsen",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Ett runt bord har två raka lister inlagda i skivan som korsar varandra. Den ena listen delas av korsningen i 30 cm och 50 cm. Den andra delas i 25 cm och \\(x\\) cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"345\" viewBox=\"0 0 360 345\" role=\"img\" aria-label=\"Runt bord med två raka lister som korsar varandra, delarna är 30 och 50 respektive 25 och x centimeter\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"343\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"180\" cy=\"172\" r=\"130\" fill=\"#d9ecf2\" fill-opacity=\".25\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><line x1=\"50.5\" y1=\"183.3\" x2=\"308.0\" y2=\"149.4\" stroke=\"#216d87\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"168.7\" y1=\"42.5\" x2=\"125.1\" y2=\"289.8\" stroke=\"#c2410c\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"146.1\" cy=\"170.7\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"132.2\" y=\"162.3\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">P</text><circle cx=\"50.5\" cy=\"183.3\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"28.6\" y=\"191.2\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"308.0\" cy=\"149.4\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"329.7\" y=\"151.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"168.7\" cy=\"42.5\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"166.8\" y=\"26.6\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><circle cx=\"125.1\" cy=\"289.8\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"115.8\" y=\"315.8\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"96.3\" y=\"167.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">30</text><text x=\"225.1\" y=\"150.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">50</text><text x=\"174.9\" y=\"114.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">25</text><text x=\"150.3\" y=\"237.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">x</text></svg></div><p>Bestäm \\(x\\). (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[30\\cdot50=25x\\]</div></li><li><div class=\"facit-matte\">\\[x=\\frac{1500}{25}=60\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 cm.</p></div>",
+  "familj": "Kordasatsen i tillämpningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Listerna är kordor i bordsskivans cirkel.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 60,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.624",
+  "kap": 3,
+  "omr": "pythagoras",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Triangeln i figuren är rätvinklig.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" role=\"img\" aria-label=\"Rätvinklig triangel med kateterna 9 och 40 och hypotenusan c\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70.0,220.0 70.0,50.0 330.0,220.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><path d=\"M70.0 207.0 L83.0 207.0 L83.0 220.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><text x=\"44.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">9</text><text x=\"200.0\" y=\"243.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">40</text><text x=\"215.3\" y=\"116.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">c</text></svg></div><p>Bestäm hypotenusan \\(c\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[c^2=9^2+40^2=81+1600=1681\\]</div></li><li><div class=\"facit-matte\">\\[c=\\sqrt{1681}=41\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c=41\\).</p></div>",
+  "familj": "Beräkna sidor i rätvinkliga trianglar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hypotenusan ligger mittemot den räta vinkeln: \\(c^2=a^2+b^2\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 41,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.625",
+  "kap": 3,
+  "omr": "pythagoras",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Triangeln i figuren är rätvinklig. Hypotenusan är 26 cm och den ena kateten är 10 cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" role=\"img\" aria-label=\"Rätvinklig triangel med en katet 10 cm, hypotenusan 26 cm och den andra kateten x\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70.0,220.0 70.0,50.0 330.0,220.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><path d=\"M70.0 207.0 L83.0 207.0 L83.0 220.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><text x=\"27.6\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">10 cm</text><text x=\"200.0\" y=\"243.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">x</text><text x=\"218.7\" y=\"111.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">26 cm</text></svg></div><p>Bestäm \\(x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2+10^2=26^2\\]</div></li><li><div class=\"facit-matte\">\\[x^2=676-100=576\\]</div></li><li><div class=\"facit-matte\">\\[x=\\sqrt{576}=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=24\\) cm.</p></div>",
+  "familj": "Beräkna sidor i rätvinkliga trianglar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Dra bort katetens kvadrat från hypotenusans kvadrat.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 24,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.626",
+  "kap": 3,
+  "omr": "pythagoras",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilken sida är hypotenusan i den rätvinkliga triangeln \\(PQR\\)?</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" role=\"img\" aria-label=\"Rätvinklig triangel PQR med den räta vinkeln vid P\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70.0,220.0 70.0,50.0 330.0,220.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><path d=\"M70.0 207.0 L83.0 207.0 L83.0 220.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><text x=\"56.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">P</text><text x=\"56.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Q</text><text x=\"344.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">R</text></svg></div><p>Den räta vinkeln sitter vid hörnet \\(P\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hypotenusan är den längsta sidan och ligger mittemot den räta vinkeln. Mittemot \\(P\\) ligger sidan \\(QR\\).</p></li></ol></div>",
+  "familj": "Beräkna sidor i rätvinkliga trianglar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hypotenusan ligger mittemot den räta vinkeln.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(QR\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(PQ\\)",
+      "ratt": false,
+      "kommentar": "PQ går ut från den räta vinkeln och är en katet."
+    },
+    {
+      "txt": "\\(PR\\)",
+      "ratt": false,
+      "kommentar": "PR går ut från den räta vinkeln och är en katet."
+    },
+    {
+      "txt": "Alla sidor kan vara hypotenusa",
+      "ratt": false,
+      "kommentar": "Hypotenusan är alltid sidan mittemot den räta vinkeln."
+    }
+  ]
+},
+{
+  "id": "3.627",
+  "kap": 3,
+  "omr": "pythagoras",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I den rätvinkliga triangeln är sidorna \\(p\\), \\(q\\) och \\(r\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" role=\"img\" aria-label=\"Rätvinklig triangel med kateterna p och q och hypotenusan r\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70.0,220.0 70.0,50.0 356.0,220.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><path d=\"M70.0 207.0 L83.0 207.0 L83.0 220.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><text x=\"44.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">p</text><text x=\"213.0\" y=\"243.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">q</text><text x=\"227.3\" y=\"115.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">r</text></svg></div><p>Vilken likhet stämmer enligt Pythagoras sats?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sidan \\(r\\) ligger mittemot den räta vinkeln och är hypotenusan. Summan av katetrarnas kvadrater är hypotenusans kvadrat.</p></li><li><div class=\"facit-matte\">\\[p^2+q^2=r^2\\]</div></li></ol></div>",
+  "familj": "Beräkna sidor i rätvinkliga trianglar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vilken sida ligger mittemot den räta vinkeln?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(p^2+q^2=r^2\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(p+q=r\\)",
+      "ratt": false,
+      "kommentar": "Pythagoras sats gäller kvadraterna på sidorna."
+    },
+    {
+      "txt": "\\(p^2+r^2=q^2\\)",
+      "ratt": false,
+      "kommentar": "q är en katet. Hypotenusan är r."
+    },
+    {
+      "txt": "\\(r^2+q^2=p^2\\)",
+      "ratt": false,
+      "kommentar": "p är en katet, inte hypotenusan."
+    }
+  ]
+},
+{
+  "id": "3.628",
+  "kap": 3,
+  "omr": "pythagoras",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En mobilskärm är 7 cm bred och 15 cm hög. Storleken på en skärm anges ofta med diagonalens längd.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"260\" height=\"300\" viewBox=\"0 0 260 300\" role=\"img\" aria-label=\"Mobilskärm 7 cm bred och 15 cm hög med en diagonal\"><rect x=\"1\" y=\"1\" width=\"258\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"80\" y=\"20\" width=\"100\" height=\"250\" rx=\"14\" fill=\"#d9ecf2\" stroke=\"#172b3a\" stroke-width=\"2.6\"/><line x1=\"90.0\" y1=\"35.0\" x2=\"170.0\" y2=\"255.0\" stroke=\"#c2410c\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><text x=\"130.0\" y=\"290.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">7 cm</text><text x=\"72.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">15 cm</text></svg></div><p>Hur lång är skärmens diagonal? Svara i cm med en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Diagonalen är hypotenusan i en rätvinklig triangel med kateterna 7 cm och 15 cm.</p></li><li><div class=\"facit-matte\">\\[d=\\sqrt{7^2+15^2}=\\sqrt{274}\\approx16{,}6\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 16,6 cm.</p></div>",
+  "familj": "Diagonaler och tillämpningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Diagonalen delar skärmen i två rätvinkliga trianglar.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 16.55294535724685,
+  "tolerans": 0.05
+},
+{
+  "id": "3.629",
+  "kap": 3,
+  "omr": "pythagoras",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En fotbollsplan är 100 m lång och 64 m bred. Elin springer diagonalt från ett hörn till det motsatta hörnet.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" role=\"img\" aria-label=\"Rektangulär fotbollsplan 100 m lång och 64 m bred med diagonalen markerad\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"40\" width=\"340\" height=\"190\" fill=\"#bbf7d0\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><line x1=\"210.0\" y1=\"40.0\" x2=\"210.0\" y2=\"230.0\" stroke=\"#fff\" stroke-width=\"2\" stroke-linecap=\"round\"/><circle cx=\"210\" cy=\"135\" r=\"30\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\"/><line x1=\"40.0\" y1=\"230.0\" x2=\"380.0\" y2=\"40.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><text x=\"210.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">100 m</text><text x=\"400.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">64 m</text></svg></div><p>Hur långt springer hon? Svara i hela meter.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[d=\\sqrt{100^2+64^2}=\\sqrt{14\\,096}\\approx118{,}7\\approx119\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 119 m.</p></div>",
+  "familj": "Diagonaler och tillämpningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Planens längd och bredd är kateter i en rätvinklig triangel.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 118.72657663724664,
+  "tolerans": 0.6
+},
+{
+  "id": "3.630",
+  "kap": 3,
+  "omr": "pythagoras",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Linan till en drake är 50 m lång och spänd rakt. Draken flyger rakt ovanför en punkt som ligger 30 m från personen som håller linan.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" role=\"img\" aria-label=\"Drakens lina 50 m som hypotenusa, 30 m vågrätt avstånd och höjden h\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70.0,220.0 70.0,50.0 330.0,220.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><path d=\"M70.0 207.0 L83.0 207.0 L83.0 220.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><text x=\"44.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">h</text><text x=\"200.0\" y=\"243.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">30 m</text><text x=\"217.4\" y=\"113.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">50 m</text></svg></div><p>Hur högt över handen flyger draken? (Svara i meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[h^2+30^2=50^2\\]</div></li><li><div class=\"facit-matte\">\\[h=\\sqrt{2500-900}=\\sqrt{1600}=40\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40 m.</p></div>",
+  "familj": "Diagonaler och tillämpningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Linan är hypotenusan i en rätvinklig triangel.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 40,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.631",
+  "kap": 3,
+  "omr": "pythagoras",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Punkterna \\(A\\) och \\(B\\) är markerade i rutnätet. Varje ruta är 1 cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"260\" viewBox=\"0 0 300 260\" role=\"img\" aria-label=\"Rutnät där B ligger 3 rutor åt höger och 4 rutor uppåt från A\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"20.0\" x2=\"30.0\" y2=\"240.0\" stroke=\"#d5dde6\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"70.0\" y1=\"20.0\" x2=\"70.0\" y2=\"240.0\" stroke=\"#d5dde6\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"20.0\" x2=\"110.0\" y2=\"240.0\" stroke=\"#d5dde6\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"150.0\" y1=\"20.0\" x2=\"150.0\" y2=\"240.0\" stroke=\"#d5dde6\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"190.0\" y1=\"20.0\" x2=\"190.0\" y2=\"240.0\" stroke=\"#d5dde6\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"230.0\" y1=\"20.0\" x2=\"230.0\" y2=\"240.0\" stroke=\"#d5dde6\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"270.0\" y1=\"20.0\" x2=\"270.0\" y2=\"240.0\" stroke=\"#d5dde6\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"30.0\" y1=\"20.0\" x2=\"270.0\" y2=\"20.0\" stroke=\"#d5dde6\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"30.0\" y1=\"60.0\" x2=\"270.0\" y2=\"60.0\" stroke=\"#d5dde6\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"30.0\" y1=\"100.0\" x2=\"270.0\" y2=\"100.0\" stroke=\"#d5dde6\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"30.0\" y1=\"140.0\" x2=\"270.0\" y2=\"140.0\" stroke=\"#d5dde6\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"30.0\" y1=\"180.0\" x2=\"270.0\" y2=\"180.0\" stroke=\"#d5dde6\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"30.0\" y1=\"220.0\" x2=\"270.0\" y2=\"220.0\" stroke=\"#d5dde6\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"70.0\" y1=\"220.0\" x2=\"190.0\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-dasharray=\"6 4\"/><line x1=\"190.0\" y1=\"220.0\" x2=\"190.0\" y2=\"60.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-dasharray=\"6 4\"/><line x1=\"70.0\" y1=\"220.0\" x2=\"190.0\" y2=\"60.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"70.0\" cy=\"220.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"58.0\" y=\"236.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"190.0\" cy=\"60.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"202.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text></svg></div><p>Hur långt är det mellan \\(A\\) och \\(B\\) längs en rak linje? (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från \\(A\\) till \\(B\\) är det 3 cm åt sidan och 4 cm uppåt. Sträckan \\(AB\\) är hypotenusan.</p></li><li><div class=\"facit-matte\">\\[AB=\\sqrt{3^2+4^2}=\\sqrt{25}=5\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 cm.</p></div>",
+  "familj": "Diagonaler och tillämpningar",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Räkna rutorna åt sidan och uppåt. De är kateterna.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.632",
+  "kap": 3,
+  "omr": "pythagoras",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En ramp ska byggas upp till en tröskel som är 0,5 m hög. Rampen ska börja 6 m från tröskeln, mätt längs marken.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"450\" height=\"260\" viewBox=\"0 0 450 260\" role=\"img\" aria-label=\"Ramp med höjden 0,5 m och den vågräta längden 6 m\"><rect x=\"1\" y=\"1\" width=\"448\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70.0,220.0 70.0,50.0 408.0,220.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><path d=\"M70.0 207.0 L83.0 207.0 L83.0 220.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><text x=\"27.6\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">0,5 m</text><text x=\"239.0\" y=\"243.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">6 m</text><text x=\"254.3\" y=\"109.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">rampen</text></svg></div><p>Hur lång blir rampen? Svara i meter med två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L=\\sqrt{6^2+0{,}5^2}=\\sqrt{36{,}25}\\approx6{,}02\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 6,02 m.</p></div>",
+  "familj": "Diagonaler och tillämpningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Rampen är hypotenusan i en rätvinklig triangel.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6.020797289396148,
+  "tolerans": 0.005
+},
+{
+  "id": "3.633",
+  "kap": 3,
+  "omr": "pythagoras",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En triangel har sidlängderna 8 cm, 15 cm och 17 cm.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"220\" viewBox=\"0 0 380 220\" role=\"img\" aria-label=\"Triangel med sidorna 8, 15 och 17 cm\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60,180 300,180 60,52\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><text x=\"180.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">15 cm</text><text x=\"36.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">8 cm</text><text x=\"200.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">17 cm</text></svg></div><p>Är triangeln rätvinklig?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8^2+15^2=64+225=289\\]</div></li><li><div class=\"facit-matte\">\\[17^2=289\\]</div></li><li><p>Summan av de två kortaste sidornas kvadrater är lika med den längsta sidans kvadrat. Enligt Pythagoras sats omvändning är triangeln rätvinklig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja.</p></div>",
+  "familj": "Omvändning, bevis och resonemang",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Jämför \\(8^2+15^2\\) med \\(17^2\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ja, eftersom \\(8^2+15^2=17^2\\)",
+      "ratt": true
+    },
+    {
+      "txt": "Nej, eftersom \\(8+15\\neq17\\)",
+      "ratt": false,
+      "kommentar": "Det är kvadraterna som ska jämföras."
+    },
+    {
+      "txt": "Det går inte att avgöra utan en vinkel",
+      "ratt": false,
+      "kommentar": "Pythagoras sats omvändning räcker."
+    },
+    {
+      "txt": "Nej, eftersom ingen sida är dubbelt så lång som en annan",
+      "ratt": false,
+      "kommentar": "Det har inget med rät vinkel att göra."
+    }
+  ]
+},
+{
+  "id": "3.634",
+  "kap": 3,
+  "omr": "pythagoras",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Saga har tre pinnar som är 5 dm, 6 dm och 8 dm långa. Hon lägger dem som en triangel.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"220\" viewBox=\"0 0 380 220\" role=\"img\" aria-label=\"Triangel av tre pinnar med längderna 5, 6 och 8 dm\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60,180 300,180 110,70\" fill=\"#fef3c7\" stroke=\"#8b5a2b\" stroke-width=\"5\" stroke-linejoin=\"round\"/><text x=\"180.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">8 dm</text><text x=\"64.0\" y=\"118.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">5 dm</text><text x=\"225.0\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">6 dm</text></svg></div><p>Blir triangeln rätvinklig?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5^2+6^2=25+36=61\\]</div></li><li><div class=\"facit-matte\">\\[8^2=64\\]</div></li><li><p>Eftersom \\(61\\neq64\\) är triangeln inte rätvinklig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej.</p></div>",
+  "familj": "Omvändning, bevis och resonemang",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Kontrollera om de två kortaste sidornas kvadrater tillsammans blir den längsta sidans kvadrat.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Nej, eftersom \\(5^2+6^2\\neq8^2\\)",
+      "ratt": true
+    },
+    {
+      "txt": "Ja, eftersom alla sidor är heltal",
+      "ratt": false,
+      "kommentar": "Heltalssidor räcker inte."
+    },
+    {
+      "txt": "Ja, eftersom \\(5+6\\gt 8\\)",
+      "ratt": false,
+      "kommentar": "Det visar bara att pinnarna räcker till en triangel."
+    },
+    {
+      "txt": "Det beror på hur Saga lägger pinnarna",
+      "ratt": false,
+      "kommentar": "Tre givna längder ger alltid samma vinklar."
+    }
+  ]
+},
+{
+  "id": "3.635",
+  "kap": 3,
+  "omr": "pythagoras",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En tv-skärm är 80 cm bred och 45 cm hög.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"240\" viewBox=\"0 0 400 240\" role=\"img\" aria-label=\"Tv-skärm 80 cm bred och 45 cm hög med diagonalen markerad\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"30\" width=\"280\" height=\"158\" rx=\"6\" fill=\"#1f2937\" stroke=\"#172b3a\" stroke-width=\"3\"/><line x1=\"52.0\" y1=\"176.0\" x2=\"308.0\" y2=\"42.0\" stroke=\"#fbbf24\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><rect x=\"160\" y=\"190\" width=\"40\" height=\"18\" fill=\"#172b3a\"/><text x=\"180.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">80 cm</text><text x=\"330.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">45 cm</text></svg></div><p>Hur lång är diagonalen? Svara i cm med en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[d=\\sqrt{80^2+45^2}=\\sqrt{8425}\\approx91{,}8\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 91,8 cm.</p></div>",
+  "familj": "Beräkna sidor i rätvinkliga trianglar",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Bredden och höjden är kateterna. Diagonalen är hypotenusan.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 91.7877987534291,
+  "tolerans": 0.05
+},
+{
+  "id": "3.636",
+  "kap": 3,
+  "omr": "likformighet",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>De två trianglarna är likformiga.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" role=\"img\" aria-label=\"Två likformiga trianglar, den lilla har sidorna 3, 4 och 5 och den stora 6, 8 och x\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70.0,120.0 40.0,210.0 160.0,210.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><text x=\"39.8\" y=\"164.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">3</text><text x=\"100.0\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">4</text><text x=\"126.3\" y=\"158.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">5</text><polygon points=\"270.0,30.0 210.0,210.0 450.0,210.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><text x=\"224.8\" y=\"119.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">6</text><text x=\"330.0\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">8</text><text x=\"371.3\" y=\"113.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">x</text></svg></div><p>Bestäm \\(x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den stora triangelns sidor är dubbelt så långa: \\(6=2\\cdot3\\) och \\(8=2\\cdot4\\).</p></li><li><div class=\"facit-matte\">\\[x=2\\cdot5=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\).</p></div>",
+  "familj": "Motsvarande sidor och längdskala",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur många gånger större är den stora triangeln?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.637",
+  "kap": 3,
+  "omr": "likformighet",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En modellbil är byggd i skala 1:20. Modellen är 21 cm lång.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Modellbil 21 cm lång i skala 1:20\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M60 110 L90 75 L200 75 L240 110 Z\" fill=\"#d9ecf2\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><rect x=\"40\" y=\"110\" width=\"230\" height=\"30\" rx=\"8\" fill=\"#216d87\"/><circle cx=\"85\" cy=\"142\" r=\"14\" fill=\"#374151\"/><circle cx=\"225\" cy=\"142\" r=\"14\" fill=\"#374151\"/><line x1=\"40.0\" y1=\"160.0\" x2=\"270.0\" y2=\"160.0\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><text x=\"155.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">21 cm</text><text x=\"350.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">skala 1:20</text></svg></div><p>Hur lång är den riktiga bilen? (Svara i meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skalan 1:20 betyder att den riktiga bilen är 20 gånger så lång som modellen.</p></li><li><div class=\"facit-matte\">\\[20\\cdot21=420\\ \\text{cm}=4{,}2\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,2 m.</p></div>",
+  "familj": "Motsvarande sidor och längdskala",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Varje centimeter på modellen motsvarar 20 cm i verkligheten.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4.2,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.638",
+  "kap": 3,
+  "omr": "likformighet",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Ett foto som är 10 cm brett och 15 cm högt förstoras så att det blir 20 cm brett. Förstoringen är likformig.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"230\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"Ett foto 10 gånger 15 cm och en förstoring som är 20 cm bred\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"100\" width=\"60\" height=\"90\" fill=\"#d9ecf2\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"150\" y=\"10\" width=\"120\" height=\"180\" fill=\"#d9ecf2\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"60.0\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">10 cm</text><text x=\"14.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">15</text><text x=\"210.0\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">20 cm</text><text x=\"290.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">?</text></svg></div><p>Hur hög blir förstoringen? (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bredden fördubblas, så längdskalan är 2. Höjden fördubblas också.</p></li><li><div class=\"facit-matte\">\\[2\\cdot15=30\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 cm.</p></div>",
+  "familj": "Motsvarande sidor och längdskala",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Alla längder förstoras lika många gånger.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 30,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.639",
+  "kap": 3,
+  "omr": "likformighet",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>De två trianglarna i figuren är likformiga.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" role=\"img\" aria-label=\"Två likformiga trianglar där motsvarande sidor är 4 cm och 12 cm\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70.0,120.0 40.0,210.0 160.0,210.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><text x=\"100.0\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">4 cm</text><polygon points=\"276.0,12.0 210.0,210.0 474.0,210.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><text x=\"342.0\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" stroke=\"#fff\" stroke-width=\"4\" paint-order=\"stroke\">12 cm</text></svg></div><p>Bestäm längdskalan från den lilla till den stora triangeln.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\text{längdskala}=\\frac{12}{4}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3.</p></div>",
+  "familj": "Motsvarande sidor och längdskala",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Dela den stora triangelns sida med motsvarande sida i den lilla.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.640",
+  "kap": 3,
+  "omr": "likformighet",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>På en ritning i skala 1:50 är ett rum 8 cm långt.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"220\" viewBox=\"0 0 380 220\" role=\"img\" aria-label=\"Ritning av ett rum som är 8 cm långt i skala 1:50\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"50\" y=\"40\" width=\"240\" height=\"140\" fill=\"#f8fafc\" stroke=\"#172b3a\" stroke-width=\"3\"/><rect x=\"200\" y=\"40\" width=\"40\" height=\"6\" fill=\"#fff\"/><line x1=\"50.0\" y1=\"196.0\" x2=\"290.0\" y2=\"196.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"170.0\" y=\"214.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">8 cm</text><text x=\"330.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\">1:50</text></svg></div><p>Hur långt är rummet i verkligheten? (Svara i meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8\\cdot50=400\\ \\text{cm}=4\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 m.</p></div>",
+  "familj": "Motsvarande sidor och längdskala",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>1 cm på ritningen är 50 cm i verkligheten.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.641",
+  "kap": 3,
+  "omr": "likformighet",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Två rektanglar är likformiga. Den lilla är 2 cm bred och 5 cm lång. Den stora är 6 cm bred.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"220\" viewBox=\"0 0 380 220\" role=\"img\" aria-label=\"Två likformiga rektanglar, den lilla 2 gånger 5 cm och den stora 6 cm bred\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"110\" width=\"40\" height=\"100\" fill=\"#d9ecf2\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"150\" y=\"10\" width=\"120\" height=\"200\" fill=\"#d9ecf2\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"50.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">2 cm</text><text x=\"92.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">5 cm</text><text x=\"210.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">6 cm</text><text x=\"300.0\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">?</text></svg></div><p>Hur lång är den stora rektangeln?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bredden är tre gånger så stor, eftersom \\(6=3\\cdot2\\). Längden blir också tre gånger så stor.</p></li><li><div class=\"facit-matte\">\\[3\\cdot5=15\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 cm.</p></div>",
+  "familj": "Motsvarande sidor och längdskala",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur många gånger bredare är den stora rektangeln?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 15,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.642",
+  "kap": 3,
+  "omr": "likformighet",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Två trädgårdsland är likformiga trianglar. Längdskalan från det lilla till det stora landet är 3. Det lilla landet har omkretsen 12 m.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" role=\"img\" aria-label=\"Två likformiga triangulära trädgårdsland där det stora är tre gånger så stort i alla längder\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"64.0,138.0 40.0,210.0 136.0,210.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><polygon points=\"252.0,12.0 186.0,210.0 450.0,210.0\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.4\"/></svg></div><p>Hur stor är det stora landets omkrets? (Svara i meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Omkretsen är en längd, så den blir också 3 gånger så stor.</p></li><li><div class=\"facit-matte\">\\[3\\cdot12=36\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 36 m.</p></div>",
+  "familj": "Motsvarande sidor och längdskala",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Omkretsen följer längdskalan.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 36,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.643",
+  "kap": 3,
+  "omr": "likformighet",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En 1 m lång pinne kastar en 2 m lång skugga. Vid samma tid kastar en flaggstång en 16 m lång skugga.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" role=\"img\" aria-label=\"En pinne med skuggan 2 m och en flaggstång med skuggan 16 m i samma solljus\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20.0\" y1=\"200.0\" x2=\"460.0\" y2=\"200.0\" stroke=\"#6b7280\" stroke-width=\"2\" stroke-linecap=\"round\"/><circle cx=\"452\" cy=\"32\" r=\"16\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><line x1=\"120.0\" y1=\"168.0\" x2=\"56.0\" y2=\"200.0\" stroke=\"#d97706\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-dasharray=\"6 5\"/><line x1=\"120.0\" y1=\"200.0\" x2=\"56.0\" y2=\"200.0\" stroke=\"#374151\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"120.0\" y1=\"200.0\" x2=\"120.0\" y2=\"168.0\" stroke=\"#8b5a2b\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"130.0\" y=\"189.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">1 m</text><text x=\"88.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">2 m</text><text x=\"120.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\">pinne</text><line x1=\"400.0\" y1=\"80.0\" x2=\"160.0\" y2=\"200.0\" stroke=\"#d97706\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-dasharray=\"6 5\"/><line x1=\"400.0\" y1=\"200.0\" x2=\"160.0\" y2=\"200.0\" stroke=\"#374151\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"400.0\" y1=\"200.0\" x2=\"400.0\" y2=\"80.0\" stroke=\"#216d87\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"280.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">16 m</text><text x=\"400.0\" y=\"70.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\">flaggstång</text></svg></div><p>Hur hög är flaggstången? (Svara i meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Solstrålarna är parallella, så pinnen med skugga och flaggstången med skugga bildar likformiga trianglar. Skuggan är dubbelt så lång som föremålet.</p></li><li><div class=\"facit-matte\">\\[\\text{höjd}=\\frac{16}{2}=8\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 m.</p></div>",
+  "familj": "Indirekt mätning",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Jämför pinnens höjd med dess skugga.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.644",
+  "kap": 3,
+  "omr": "likformighet",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En 1,5 m lång person står i solen och har en 3 m lång skugga. Samtidigt är skuggan av ett träd 18 m lång.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" role=\"img\" aria-label=\"En person med skuggan 3 m och ett träd med skuggan 18 m\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20.0\" y1=\"200.0\" x2=\"460.0\" y2=\"200.0\" stroke=\"#6b7280\" stroke-width=\"2\" stroke-linecap=\"round\"/><circle cx=\"452\" cy=\"32\" r=\"16\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><line x1=\"120.0\" y1=\"168.0\" x2=\"56.0\" y2=\"200.0\" stroke=\"#d97706\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-dasharray=\"6 5\"/><line x1=\"120.0\" y1=\"200.0\" x2=\"56.0\" y2=\"200.0\" stroke=\"#374151\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"120.0\" y1=\"200.0\" x2=\"120.0\" y2=\"168.0\" stroke=\"#8b5a2b\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"130.0\" y=\"189.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">1,5 m</text><text x=\"88.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">3 m</text><text x=\"120.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\">person</text><line x1=\"400.0\" y1=\"80.0\" x2=\"160.0\" y2=\"200.0\" stroke=\"#d97706\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-dasharray=\"6 5\"/><line x1=\"400.0\" y1=\"200.0\" x2=\"160.0\" y2=\"200.0\" stroke=\"#374151\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"400.0\" y1=\"200.0\" x2=\"400.0\" y2=\"80.0\" stroke=\"#216d87\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"280.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">18 m</text><text x=\"400.0\" y=\"70.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\">träd</text></svg></div><p>Hur högt är trädet? (Svara i meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trädets skugga är 6 gånger så lång som personens, eftersom \\(18/3=6\\). Då är trädet 6 gånger så högt.</p></li><li><div class=\"facit-matte\">\\[6\\cdot1{,}5=9\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9 m.</p></div>",
+  "familj": "Indirekt mätning",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur många gånger längre är trädets skugga?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.645",
+  "kap": 3,
+  "omr": "likformighet",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Två trianglar har två vinklar som är lika stora: båda har vinklarna 50° och 70°.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"210\" viewBox=\"0 0 440 210\" role=\"img\" aria-label=\"Två trianglar som båda har vinklarna 50 och 70 grader men olika storlek\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"30,180 150,180 66,90\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><polygon points=\"200,180 410,180 263,22\" fill=\"#d9ecf2\" fill-opacity=\".35\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><text x=\"58.0\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">70°</text><text x=\"108.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">50°</text><text x=\"240.0\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">70°</text><text x=\"364.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">50°</text></svg></div><p>Är trianglarna likformiga?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkelsumman i en triangel är 180°, så den tredje vinkeln är 60° i båda. Alla tre vinklar är lika, och då är trianglarna likformiga. Storleken spelar ingen roll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja.</p></div>",
+  "familj": "Indirekt mätning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vad blir den tredje vinkeln i varje triangel?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ja, eftersom vinklarna är lika stora",
+      "ratt": true
+    },
+    {
+      "txt": "Nej, eftersom trianglarna är olika stora",
+      "ratt": false,
+      "kommentar": "Likformiga figurer får ha olika storlek."
+    },
+    {
+      "txt": "Det går inte att avgöra utan sidlängder",
+      "ratt": false,
+      "kommentar": "Två lika vinklar räcker för trianglar."
+    },
+    {
+      "txt": "Bara om de har samma omkrets",
+      "ratt": false,
+      "kommentar": "Lika omkrets har inget med likformighet att göra."
+    }
+  ]
+},
+{
+  "id": "3.646",
+  "kap": 3,
+  "omr": "likformighet",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Två likformiga figurer har längdskalan 2 från den lilla till den stora. Den lilla figuren har arean 7 cm².</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"200\" viewBox=\"0 0 380 200\" role=\"img\" aria-label=\"Två likformiga figurer där den stora har dubbelt så långa sidor\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40,170 100,170 120,130 70,110\" fill=\"#d9ecf2\" stroke=\"#172b3a\" stroke-width=\"2\"/><polygon points=\"170,170 290,170 330,90 230,50\" fill=\"#d9ecf2\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"80.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">7 cm²</text><text x=\"250.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">?</text></svg></div><p>Hur stor är den stora figurens area?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Areaskalan är längdskalan i kvadrat: \\(2^2=4\\).</p></li><li><div class=\"facit-matte\">\\[4\\cdot7=28\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28 cm².</p></div>",
+  "familj": "Areaskala",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Arean förändras med längdskalan i kvadrat.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 28,
+  "tolerans": 1e-09
+},
+{
+  "id": "3.647",
+  "kap": 3,
+  "omr": "likformighet",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Alla sidor i en kvadrat fördubblas.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"200\" viewBox=\"0 0 380 200\" role=\"img\" aria-label=\"En liten kvadrat och en kvadrat med dubbelt så långa sidor uppdelad i fyra små kvadrater\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"110\" width=\"60\" height=\"60\" fill=\"#d9ecf2\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"170\" y=\"50\" width=\"120\" height=\"120\" fill=\"#d9ecf2\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"230.0\" y1=\"50.0\" x2=\"230.0\" y2=\"170.0\" stroke=\"#172b3a\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"5 4\"/><line x1=\"170.0\" y1=\"110.0\" x2=\"290.0\" y2=\"110.0\" stroke=\"#172b3a\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"5 4\"/></svg></div><p>Hur många gånger större blir arean?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Som figuren visar får fyra kopior av den lilla kvadraten plats i den stora. Areaskalan är \\(2^2=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 gånger.</p></div>",
+  "familj": "Areaskala",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Räkna hur många små kvadrater som får plats i den stora.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "4 gånger",
+      "ratt": true
+    },
+    {
+      "txt": "2 gånger",
+      "ratt": false,
+      "kommentar": "Det är längdskalan. Arean växer i två riktningar."
+    },
+    {
+      "txt": "8 gånger",
+      "ratt": false,
+      "kommentar": "8 gäller volymen av en kub, inte arean."
+    },
+    {
+      "txt": "Arean blir lika stor",
+      "ratt": false,
+      "kommentar": "Sidorna blir längre, så arean ökar."
+    }
+  ]
+},
+{
+  "id": "4.500",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Klass 2B röstade om vilken frukt som ska serveras på friluftsdagen. Stapeldiagrammet visar resultatet.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"280\" viewBox=\"0 0 440 280\" role=\"img\" aria-label=\"Stapeldiagram: äpple 9, banan 6, päron 3, apelsin 8 röster\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"224.0\" x2=\"424.0\" y2=\"224.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"56.0\" y1=\"183.2\" x2=\"424.0\" y2=\"183.2\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"188.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"56.0\" y1=\"142.4\" x2=\"424.0\" y2=\"142.4\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"147.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"56.0\" y1=\"101.6\" x2=\"424.0\" y2=\"101.6\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"106.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"56.0\" y1=\"60.8\" x2=\"424.0\" y2=\"60.8\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"65.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">8</text><line x1=\"56.0\" y1=\"20.0\" x2=\"424.0\" y2=\"20.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"25.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">10</text><rect x=\"72.6\" y=\"40.4\" width=\"58.9\" height=\"183.6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"102.0\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">äpple</text><rect x=\"164.6\" y=\"101.6\" width=\"58.9\" height=\"122.4\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"194.0\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">banan</text><rect x=\"256.6\" y=\"162.8\" width=\"58.9\" height=\"61.2\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"286.0\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">päron</text><rect x=\"348.6\" y=\"60.8\" width=\"58.9\" height=\"163.2\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"378.0\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">apelsin</text><line x1=\"56.0\" y1=\"224.0\" x2=\"424.0\" y2=\"224.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"56.0\" y1=\"224.0\" x2=\"56.0\" y2=\"14.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"16\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 16 122)\">antal röster</text></svg></div><p>Hur många röstade på banan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Stapeln för banan når upp till 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 elever.</p></div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Följ stapelns överkant vågrätt in till den lodräta axeln.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.501",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Stapeldiagrammet visar hur många böcker som lånades på skolbiblioteket under fyra veckor.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"280\" viewBox=\"0 0 440 280\" role=\"img\" aria-label=\"Stapeldiagram: vecka 36 35 lån, vecka 37 50, vecka 38 45, vecka 39 20\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"224.0\" x2=\"424.0\" y2=\"224.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"56.0\" y1=\"190.0\" x2=\"424.0\" y2=\"190.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"195.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"56.0\" y1=\"156.0\" x2=\"424.0\" y2=\"156.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"56.0\" y1=\"122.0\" x2=\"424.0\" y2=\"122.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"127.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">30</text><line x1=\"56.0\" y1=\"88.0\" x2=\"424.0\" y2=\"88.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"93.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">40</text><line x1=\"56.0\" y1=\"54.0\" x2=\"424.0\" y2=\"54.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"59.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">50</text><line x1=\"56.0\" y1=\"20.0\" x2=\"424.0\" y2=\"20.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"25.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">60</text><rect x=\"72.6\" y=\"105.0\" width=\"58.9\" height=\"119.0\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"102.0\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">v. 36</text><rect x=\"164.6\" y=\"54.0\" width=\"58.9\" height=\"170.0\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"194.0\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">v. 37</text><rect x=\"256.6\" y=\"71.0\" width=\"58.9\" height=\"153.0\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"286.0\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">v. 38</text><rect x=\"348.6\" y=\"156.0\" width=\"58.9\" height=\"68.0\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"378.0\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">v. 39</text><line x1=\"56.0\" y1=\"224.0\" x2=\"424.0\" y2=\"224.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"56.0\" y1=\"224.0\" x2=\"56.0\" y2=\"14.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"16\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 16 122)\">antal lån</text></svg></div><p>Hur många fler böcker lånades vecka 37 än vecka 39?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[50-20=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 böcker.</p></div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Läs av båda staplarna och räkna ut skillnaden.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 30,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.502",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Linjediagrammet visar temperaturen utomhus en sommardag.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"280\" viewBox=\"0 0 440 280\" role=\"img\" aria-label=\"Linjediagram över temperaturen från klockan 6 till 18\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"220.0\" x2=\"420.0\" y2=\"220.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"56.0\" y1=\"195.0\" x2=\"420.0\" y2=\"195.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">12</text><line x1=\"56.0\" y1=\"170.0\" x2=\"420.0\" y2=\"170.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"175.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">14</text><line x1=\"56.0\" y1=\"145.0\" x2=\"420.0\" y2=\"145.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">16</text><line x1=\"56.0\" y1=\"120.0\" x2=\"420.0\" y2=\"120.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">18</text><line x1=\"56.0\" y1=\"95.0\" x2=\"420.0\" y2=\"95.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"56.0\" y1=\"70.0\" x2=\"420.0\" y2=\"70.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"75.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">22</text><line x1=\"56.0\" y1=\"45.0\" x2=\"420.0\" y2=\"45.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">24</text><line x1=\"56.0\" y1=\"20.0\" x2=\"420.0\" y2=\"20.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"25.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">26</text><line x1=\"56.0\" y1=\"220.0\" x2=\"56.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">06</text><line x1=\"116.7\" y1=\"220.0\" x2=\"116.7\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"116.7\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">08</text><line x1=\"177.3\" y1=\"220.0\" x2=\"177.3\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"177.3\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"238.0\" y1=\"220.0\" x2=\"238.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"238.0\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">12</text><line x1=\"298.7\" y1=\"220.0\" x2=\"298.7\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"298.7\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">14</text><line x1=\"359.3\" y1=\"220.0\" x2=\"359.3\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"359.3\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">16</text><line x1=\"420.0\" y1=\"220.0\" x2=\"420.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"420.0\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">18</text><line x1=\"56.0\" y1=\"220.0\" x2=\"420.0\" y2=\"220.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"56.0\" y1=\"220.0\" x2=\"56.0\" y2=\"14.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><polyline points=\"56.0,195.0 116.7,170.0 177.3,120.0 238.0,70.0 298.7,45.0 359.3,82.5 420.0,132.5\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"56.0\" cy=\"195.0\" r=\"4\" fill=\"#216d87\"/><circle cx=\"116.7\" cy=\"170.0\" r=\"4\" fill=\"#216d87\"/><circle cx=\"177.3\" cy=\"120.0\" r=\"4\" fill=\"#216d87\"/><circle cx=\"238.0\" cy=\"70.0\" r=\"4\" fill=\"#216d87\"/><circle cx=\"298.7\" cy=\"45.0\" r=\"4\" fill=\"#216d87\"/><circle cx=\"359.3\" cy=\"82.5\" r=\"4\" fill=\"#216d87\"/><circle cx=\"420.0\" cy=\"132.5\" r=\"4\" fill=\"#216d87\"/><text x=\"238.0\" y=\"266.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">klockslag</text><text x=\"16\" y=\"120\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 16 120)\">temperatur (°C)</text></svg></div><p>Vilken temperatur var det klockan 12? (Svara i °C.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten vid klockan 12 ligger på 22 °C.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 22 °C.</p></div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Gå upp från 12 på den vågräta axeln till linjen och läs av temperaturen.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 22,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.503",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Linjediagrammet visar hur många besökare en simhall hade olika tider på en lördag.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"280\" viewBox=\"0 0 440 280\" role=\"img\" aria-label=\"Linjediagram över besökare i en simhall från klockan 9 till 19\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"220.0\" x2=\"420.0\" y2=\"220.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"56.0\" y1=\"195.0\" x2=\"420.0\" y2=\"195.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"56.0\" y1=\"170.0\" x2=\"420.0\" y2=\"170.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"175.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">40</text><line x1=\"56.0\" y1=\"145.0\" x2=\"420.0\" y2=\"145.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">60</text><line x1=\"56.0\" y1=\"120.0\" x2=\"420.0\" y2=\"120.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">80</text><line x1=\"56.0\" y1=\"95.0\" x2=\"420.0\" y2=\"95.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">100</text><line x1=\"56.0\" y1=\"70.0\" x2=\"420.0\" y2=\"70.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"75.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">120</text><line x1=\"56.0\" y1=\"45.0\" x2=\"420.0\" y2=\"45.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">140</text><line x1=\"56.0\" y1=\"20.0\" x2=\"420.0\" y2=\"20.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"25.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">160</text><line x1=\"56.0\" y1=\"220.0\" x2=\"56.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">9</text><line x1=\"128.8\" y1=\"220.0\" x2=\"128.8\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"128.8\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">11</text><line x1=\"201.6\" y1=\"220.0\" x2=\"201.6\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"201.6\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">13</text><line x1=\"274.4\" y1=\"220.0\" x2=\"274.4\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"274.4\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">15</text><line x1=\"347.2\" y1=\"220.0\" x2=\"347.2\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"347.2\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">17</text><line x1=\"420.0\" y1=\"220.0\" x2=\"420.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"420.0\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">19</text><line x1=\"56.0\" y1=\"220.0\" x2=\"420.0\" y2=\"220.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"56.0\" y1=\"220.0\" x2=\"56.0\" y2=\"14.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><polyline points=\"56.0,170.0 128.8,82.5 201.6,32.5 274.4,57.5 347.2,107.5 420.0,182.5\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"56.0\" cy=\"170.0\" r=\"4\" fill=\"#216d87\"/><circle cx=\"128.8\" cy=\"82.5\" r=\"4\" fill=\"#216d87\"/><circle cx=\"201.6\" cy=\"32.5\" r=\"4\" fill=\"#216d87\"/><circle cx=\"274.4\" cy=\"57.5\" r=\"4\" fill=\"#216d87\"/><circle cx=\"347.2\" cy=\"107.5\" r=\"4\" fill=\"#216d87\"/><circle cx=\"420.0\" cy=\"182.5\" r=\"4\" fill=\"#216d87\"/><text x=\"238.0\" y=\"266.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">klockslag</text><text x=\"16\" y=\"120\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 16 120)\">besökare</text></svg></div><p>Vid vilken tid var det flest besökare?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Linjen når sin högsta punkt vid klockan 13, med 150 besökare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Klockan 13.</p></div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Leta upp den högsta punkten på linjen.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Klockan 13",
+      "ratt": true
+    },
+    {
+      "txt": "Klockan 15",
+      "ratt": false,
+      "kommentar": "Då var det 130 besökare, färre än klockan 13."
+    },
+    {
+      "txt": "Klockan 11",
+      "ratt": false,
+      "kommentar": "Kurvan fortsätter uppåt efter klockan 11."
+    },
+    {
+      "txt": "Klockan 19",
+      "ratt": false,
+      "kommentar": "Då var det färst besökare."
+    }
+  ]
+},
+{
+  "id": "4.504",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>200 elever fick välja en idrott till friluftsdagen. Cirkeldiagrammet visar fördelningen.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" role=\"img\" aria-label=\"Cirkeldiagram: fotboll 40 %, orientering 25 %, bad 20 %, klättring 15 %\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M140 130 L140.0 25.0 A105 105 0 0 1 201.7 214.9 Z\" fill=\"#93c5fd\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"201.9\" y=\"114.9\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">40 %</text><rect x=\"270\" y=\"50\" width=\"18\" height=\"18\" fill=\"#93c5fd\"/><text x=\"296.0\" y=\"64.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">fotboll</text><path d=\"M140 130 L201.7 214.9 A105 105 0 0 1 55.1 191.7 Z\" fill=\"#fcd34d\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"129.8\" y=\"199.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">25 %</text><rect x=\"270\" y=\"84\" width=\"18\" height=\"18\" fill=\"#fcd34d\"/><text x=\"296.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">orientering</text><path d=\"M140 130 L55.1 191.7 A105 105 0 0 1 55.1 68.3 Z\" fill=\"#86efac\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"74.9\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">20 %</text><rect x=\"270\" y=\"118\" width=\"18\" height=\"18\" fill=\"#86efac\"/><text x=\"296.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">bad</text><path d=\"M140 130 L55.1 68.3 A105 105 0 0 1 140.0 25.0 Z\" fill=\"#fca5a5\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"110.4\" y=\"77.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">15 %</text><rect x=\"270\" y=\"152\" width=\"18\" height=\"18\" fill=\"#fca5a5\"/><text x=\"296.0\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">klättring</text></svg></div><p>Hur många elever valde orientering?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}25\\cdot200=50\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 elever.</p></div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Räkna ut 25 % av 200.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 50,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.505",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Cirkeldiagrammet visar hur ett hushåll använder sin el under ett år.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" role=\"img\" aria-label=\"Cirkeldiagram: uppvärmning 45 %, varmvatten 25 %, hushållsel 18 %, övrigt 12 %\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M140 130 L140.0 25.0 A105 105 0 0 1 172.4 229.9 Z\" fill=\"#93c5fd\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"204.3\" y=\"124.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">45 %</text><rect x=\"270\" y=\"50\" width=\"18\" height=\"18\" fill=\"#93c5fd\"/><text x=\"296.0\" y=\"64.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">uppvärmning</text><path d=\"M140 130 L172.4 229.9 A105 105 0 0 1 40.1 162.4 Z\" fill=\"#fcd34d\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"110.4\" y=\"193.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">25 %</text><rect x=\"270\" y=\"84\" width=\"18\" height=\"18\" fill=\"#fcd34d\"/><text x=\"296.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">varmvatten</text><path d=\"M140 130 L40.1 162.4 A105 105 0 0 1 68.1 53.5 Z\" fill=\"#86efac\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"76.9\" y=\"118.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">18 %</text><rect x=\"270\" y=\"118\" width=\"18\" height=\"18\" fill=\"#86efac\"/><text x=\"296.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">hushållsel</text><path d=\"M140 130 L68.1 53.5 A105 105 0 0 1 140.0 25.0 Z\" fill=\"#fca5a5\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"116.0\" y=\"74.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">12 %</text><rect x=\"270\" y=\"152\" width=\"18\" height=\"18\" fill=\"#fca5a5\"/><text x=\"296.0\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">övrigt</text></svg></div><p>Vilken användning står för mest el?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den största sektorn är uppvärmning med 45 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Uppvärmning.</p></div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Den största sektorn har störst andel.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Uppvärmning",
+      "ratt": true
+    },
+    {
+      "txt": "Varmvatten",
+      "ratt": false,
+      "kommentar": "25 % är mindre än 45 %."
+    },
+    {
+      "txt": "Hushållsel",
+      "ratt": false,
+      "kommentar": "18 % är mindre än 45 %."
+    },
+    {
+      "txt": "Övrigt",
+      "ratt": false,
+      "kommentar": "Övrigt är den minsta delen."
+    }
+  ]
+},
+{
+  "id": "4.506",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Tabellen visar hur många matcher ett innebandylag vann under fyra säsonger.</p><table class=\"data\" style=\"width:100%;max-width:420px;text-align:center\"><thead><tr><th scope=\"col\">Säsong</th><th scope=\"col\">Vunna matcher</th></tr></thead><tbody><tr><td>2022</td><td>11</td></tr><tr><td>2023</td><td>14</td></tr><tr><td>2024</td><td>9</td></tr><tr><td>2025</td><td>16</td></tr></tbody></table><p>Hur många matcher vann laget sammanlagt under de fyra säsongerna?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[11+14+9+16=50\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 matcher.</p></div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Addera talen i högra kolumnen.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 50,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.507",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Frekvenstabellen visar skostorlekarna i ett fotbollslag.</p><table class=\"data\" style=\"width:100%;max-width:420px;text-align:center\"><thead><tr><th scope=\"col\">Skostorlek</th><th scope=\"col\">Antal spelare</th></tr></thead><tbody><tr><td>38</td><td>2</td></tr><tr><td>39</td><td>5</td></tr><tr><td>40</td><td>7</td></tr><tr><td>41</td><td>4</td></tr><tr><td>42</td><td>2</td></tr></tbody></table><p>Hur många spelare har skostorlek 40 eller större?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7+4+2=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13 spelare.</p></div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Addera antalet för storlek 40, 41 och 42.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 13,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.508",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Linjediagrammet visar priset på en liter mjölk några olika år.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"280\" viewBox=\"0 0 440 280\" role=\"img\" aria-label=\"Linjediagram över mjölkpriset 2020 till 2024\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"220.0\" x2=\"420.0\" y2=\"220.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"56.0\" y1=\"180.0\" x2=\"420.0\" y2=\"180.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"185.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">12</text><line x1=\"56.0\" y1=\"140.0\" x2=\"420.0\" y2=\"140.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">14</text><line x1=\"56.0\" y1=\"100.0\" x2=\"420.0\" y2=\"100.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">16</text><line x1=\"56.0\" y1=\"60.0\" x2=\"420.0\" y2=\"60.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">18</text><line x1=\"56.0\" y1=\"20.0\" x2=\"420.0\" y2=\"20.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"25.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"56.0\" y1=\"220.0\" x2=\"56.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">2020</text><line x1=\"147.0\" y1=\"220.0\" x2=\"147.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"147.0\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">2021</text><line x1=\"238.0\" y1=\"220.0\" x2=\"238.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"238.0\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">2022</text><line x1=\"329.0\" y1=\"220.0\" x2=\"329.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"329.0\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">2023</text><line x1=\"420.0\" y1=\"220.0\" x2=\"420.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"420.0\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">2024</text><line x1=\"56.0\" y1=\"220.0\" x2=\"420.0\" y2=\"220.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"56.0\" y1=\"220.0\" x2=\"56.0\" y2=\"14.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><polyline points=\"56.0,180.0 147.0,180.0 238.0,140.0 329.0,80.0 420.0,60.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"56.0\" cy=\"180.0\" r=\"4\" fill=\"#216d87\"/><circle cx=\"147.0\" cy=\"180.0\" r=\"4\" fill=\"#216d87\"/><circle cx=\"238.0\" cy=\"140.0\" r=\"4\" fill=\"#216d87\"/><circle cx=\"329.0\" cy=\"80.0\" r=\"4\" fill=\"#216d87\"/><circle cx=\"420.0\" cy=\"60.0\" r=\"4\" fill=\"#216d87\"/><text x=\"238.0\" y=\"266.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">år</text><text x=\"16\" y=\"120\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 16 120)\">pris (kr)</text></svg></div><p>Hur mycket steg priset från 2020 till 2024? (Svara i kronor.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[18-12=6\\ \\text{kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 kr.</p></div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Läs av priset båda åren och subtrahera.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.509",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Tabellen visar antalet invånare i fyra orter.</p><table class=\"data\" style=\"width:100%;max-width:420px;text-align:center\"><thead><tr><th scope=\"col\">Ort</th><th scope=\"col\">Invånare</th></tr></thead><tbody><tr><td>Bergby</td><td>4200</td></tr><tr><td>Dalsta</td><td>2700</td></tr><tr><td>Ekhult</td><td>6100</td></tr><tr><td>Furuvik</td><td>3900</td></tr></tbody></table><p>Hur många fler invånare har Ekhult än Bergby?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6100-4200=1900\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 900 invånare.</p></div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Subtrahera Bergbys antal från Ekhults.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1900,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.510",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Stapeldiagrammet visar hur många minuter Noah läste varje dag under en vecka.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"280\" viewBox=\"0 0 460 280\" role=\"img\" aria-label=\"Stapeldiagram över lästid: 20, 30, 10, 40, 20, 50 och 30 minuter\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"224.0\" x2=\"444.0\" y2=\"224.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"56.0\" y1=\"190.0\" x2=\"444.0\" y2=\"190.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"195.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"56.0\" y1=\"156.0\" x2=\"444.0\" y2=\"156.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"56.0\" y1=\"122.0\" x2=\"444.0\" y2=\"122.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"127.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">30</text><line x1=\"56.0\" y1=\"88.0\" x2=\"444.0\" y2=\"88.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"93.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">40</text><line x1=\"56.0\" y1=\"54.0\" x2=\"444.0\" y2=\"54.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"59.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">50</text><line x1=\"56.0\" y1=\"20.0\" x2=\"444.0\" y2=\"20.0\" stroke=\"#e5eaf0\" stroke-width=\"1\"/><text x=\"48.0\" y=\"25.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">60</text><rect x=\"66.0\" y=\"156.0\" width=\"35.5\" height=\"68.0\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"83.7\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">mån</text><rect x=\"121.4\" y=\"122.0\" width=\"35.5\" height=\"102.0\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"139.1\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tis</text><rect x=\"176.8\" y=\"190.0\" width=\"35.5\" height=\"34.0\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"194.6\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">ons</text><rect x=\"232.3\" y=\"88.0\" width=\"35.5\" height=\"136.0\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"250.0\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tor</text><rect x=\"287.7\" y=\"156.0\" width=\"35.5\" height=\"68.0\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"305.4\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">fre</text><rect x=\"343.1\" y=\"54.0\" width=\"35.5\" height=\"170.0\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"360.9\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">lör</text><rect x=\"398.5\" y=\"122.0\" width=\"35.5\" height=\"102.0\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"416.3\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">sön</text><line x1=\"56.0\" y1=\"224.0\" x2=\"444.0\" y2=\"224.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"56.0\" y1=\"224.0\" x2=\"56.0\" y2=\"14.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"16\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 16 122)\">minuter</text></svg></div><p>Vilken dag läste Noah minst?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den lägsta stapeln är onsdagens, 10 minuter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Onsdag.</p></div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Leta upp den lägsta stapeln.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Onsdag",
+      "ratt": true
+    },
+    {
+      "txt": "Måndag",
+      "ratt": false,
+      "kommentar": "På måndagen läste Noah 20 minuter."
+    },
+    {
+      "txt": "Fredag",
+      "ratt": false,
+      "kommentar": "På fredagen läste Noah 20 minuter."
+    },
+    {
+      "txt": "Söndag",
+      "ratt": false,
+      "kommentar": "På söndagen läste Noah 30 minuter."
+    }
+  ]
+},
+{
+  "id": "4.511",
+  "kap": 4,
+  "omr": "tabeller_diagram",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Cirkeldiagrammet visar hur 40 elever svarade på frågan om hur de oftast tar sig till skolan.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"260\" viewBox=\"0 0 420 260\" role=\"img\" aria-label=\"Cirkeldiagram: cykel 50 %, buss 25 %, går 15 %, bil 10 %\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M140 130 L140.0 25.0 A105 105 0 0 1 140.0 235.0 Z\" fill=\"#93c5fd\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"205.1\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">50 %</text><rect x=\"270\" y=\"50\" width=\"18\" height=\"18\" fill=\"#93c5fd\"/><text x=\"296.0\" y=\"64.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">cykel</text><path d=\"M140 130 L140.0 235.0 A105 105 0 0 1 35.0 130.0 Z\" fill=\"#fcd34d\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"94.0\" y=\"181.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">25 %</text><rect x=\"270\" y=\"84\" width=\"18\" height=\"18\" fill=\"#fcd34d\"/><text x=\"296.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">buss</text><path d=\"M140 130 L35.0 130.0 A105 105 0 0 1 78.3 45.1 Z\" fill=\"#86efac\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"82.0\" y=\"105.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">15 %</text><rect x=\"270\" y=\"118\" width=\"18\" height=\"18\" fill=\"#86efac\"/><text x=\"296.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">går</text><path d=\"M140 130 L78.3 45.1 A105 105 0 0 1 140.0 25.0 Z\" fill=\"#fca5a5\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"119.9\" y=\"73.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">10 %</text><rect x=\"270\" y=\"152\" width=\"18\" height=\"18\" fill=\"#fca5a5\"/><text x=\"296.0\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">bil</text></svg></div><p>Hur många av eleverna cyklar?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hälften av eleverna cyklar.</p></li><li><div class=\"facit-matte\">\\[0{,}50\\cdot40=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 elever.</p></div>",
+  "familj": "Avläsa tabeller och diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>50 % är hälften.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 20,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.512",
+  "kap": 4,
+  "omr": "kvartiler_percentiler",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Sju elever räknade hur många sms de skickade under en dag. Värdena är sorterade:</p><p>4, 7, 8, 11, 13, 15, 20</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"90\" viewBox=\"0 0 420 90\" role=\"img\" aria-label=\"De sju sorterade värdena där det mittersta, 11, är markerat\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"88\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"43.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">4</text><rect x=\"76\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"99.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">7</text><rect x=\"132\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"155.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">8</text><rect x=\"188\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#fbe3d6\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"211.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">11</text><rect x=\"244\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"267.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">13</text><rect x=\"300\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"323.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">15</text><rect x=\"356\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"379.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">20</text></svg></div><p>Bestäm medianen.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med sju värden är medianen det fjärde värdet i ordning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Medianen är 11.</p></div>",
+  "familj": "Median, kvartiler och kvartilavstånd",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Medianen är det mittersta värdet när värdena är sorterade.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 11,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.513",
+  "kap": 4,
+  "omr": "kvartiler_percentiler",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Sex löpare sprang 1 km. Deras tider i minuter, sorterade, var:</p><p>12, 15, 18, 22, 25, 30</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"90\" viewBox=\"0 0 380 90\" role=\"img\" aria-label=\"Sex sorterade värden där de två mittersta, 18 och 22, är markerade\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"88\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"20\" width=\"48\" height=\"46\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"44.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">12</text><rect x=\"78\" y=\"20\" width=\"48\" height=\"46\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"102.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">15</text><rect x=\"136\" y=\"20\" width=\"48\" height=\"46\" rx=\"6\" fill=\"#fbe3d6\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"160.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">18</text><rect x=\"194\" y=\"20\" width=\"48\" height=\"46\" rx=\"6\" fill=\"#fbe3d6\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"218.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">22</text><rect x=\"252\" y=\"20\" width=\"48\" height=\"46\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"276.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">25</text><rect x=\"310\" y=\"20\" width=\"48\" height=\"46\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"334.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">30</text></svg></div><p>Bestäm medianen. (Svara i minuter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med ett jämnt antal värden är medianen medelvärdet av de två mittersta.</p></li><li><div class=\"facit-matte\">\\[\\frac{18+22}{2}=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 minuter.</p></div>",
+  "familj": "Median, kvartiler och kvartilavstånd",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Ta medelvärdet av de två mittersta värdena.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 20.0,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.514",
+  "kap": 4,
+  "omr": "kvartiler_percentiler",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Lådagrammet visar hur långa (i cm) eleverna i en klass är.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"160\" viewBox=\"0 0 440 160\" role=\"img\" aria-label=\"Lådagram: minsta värde 152, nedre kvartil 160, median 166, övre kvartil 171, största värde 184\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"51.7\" y1=\"60.0\" x2=\"138.6\" y2=\"60.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"258.0\" y1=\"60.0\" x2=\"399.1\" y2=\"60.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"51.7\" y1=\"48.0\" x2=\"51.7\" y2=\"72.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"399.1\" y1=\"48.0\" x2=\"399.1\" y2=\"72.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"138.6\" y=\"38\" width=\"119.4\" height=\"44\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><line x1=\"203.7\" y1=\"38.0\" x2=\"203.7\" y2=\"82.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><line x1=\"30.0\" y1=\"110.0\" x2=\"410.0\" y2=\"110.0\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"30.0\" y1=\"110.0\" x2=\"30.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"30.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">150</text><line x1=\"84.3\" y1=\"110.0\" x2=\"84.3\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"84.3\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">155</text><line x1=\"138.6\" y1=\"110.0\" x2=\"138.6\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"138.6\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">160</text><line x1=\"192.9\" y1=\"110.0\" x2=\"192.9\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"192.9\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">165</text><line x1=\"247.1\" y1=\"110.0\" x2=\"247.1\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"247.1\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">170</text><line x1=\"301.4\" y1=\"110.0\" x2=\"301.4\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"301.4\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">175</text><line x1=\"355.7\" y1=\"110.0\" x2=\"355.7\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"355.7\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">180</text><line x1=\"410.0\" y1=\"110.0\" x2=\"410.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"410.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">185</text><text x=\"436.0\" y=\"154.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">cm</text></svg></div><p>Vilken är medianlängden? (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medianen är det lodräta strecket inne i lådan, vid 166 cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 166 cm.</p></div>",
+  "familj": "Median, kvartiler och kvartilavstånd",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Medianen är strecket inne i lådan.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 166,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.515",
+  "kap": 4,
+  "omr": "kvartiler_percentiler",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Lådagrammet visar hur många minuter det tog för eleverna i en klass att ta sig till skolan.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"160\" viewBox=\"0 0 440 160\" role=\"img\" aria-label=\"Lådagram: minsta värde 5, nedre kvartil 12, median 18, övre kvartil 30, största värde 45\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"68.0\" y1=\"60.0\" x2=\"121.2\" y2=\"60.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"258.0\" y1=\"60.0\" x2=\"372.0\" y2=\"60.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"68.0\" y1=\"48.0\" x2=\"68.0\" y2=\"72.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"372.0\" y1=\"48.0\" x2=\"372.0\" y2=\"72.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"121.2\" y=\"38\" width=\"136.8\" height=\"44\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><line x1=\"166.8\" y1=\"38.0\" x2=\"166.8\" y2=\"82.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><line x1=\"30.0\" y1=\"110.0\" x2=\"410.0\" y2=\"110.0\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"30.0\" y1=\"110.0\" x2=\"30.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"30.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"68.0\" y1=\"110.0\" x2=\"68.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"68.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"106.0\" y1=\"110.0\" x2=\"106.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"106.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"144.0\" y1=\"110.0\" x2=\"144.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"144.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">15</text><line x1=\"182.0\" y1=\"110.0\" x2=\"182.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"182.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><line x1=\"220.0\" y1=\"110.0\" x2=\"220.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"220.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">25</text><line x1=\"258.0\" y1=\"110.0\" x2=\"258.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"258.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><line x1=\"296.0\" y1=\"110.0\" x2=\"296.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"296.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">35</text><line x1=\"334.0\" y1=\"110.0\" x2=\"334.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"334.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><line x1=\"372.0\" y1=\"110.0\" x2=\"372.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"372.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">45</text><line x1=\"410.0\" y1=\"110.0\" x2=\"410.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"410.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">50</text><text x=\"436.0\" y=\"154.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">minuter</text></svg></div><p>Bestäm kvartilavståndet. (Svara i minuter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lådan går från den nedre kvartilen 12 till den övre kvartilen 30.</p></li><li><div class=\"facit-matte\">\\[Q_3-Q_1=30-12=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18 minuter.</p></div>",
+  "familj": "Median, kvartiler och kvartilavstånd",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Kvartilavståndet är lådans bredd: övre kvartil minus nedre kvartil.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 18,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.516",
+  "kap": 4,
+  "omr": "kvartiler_percentiler",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Ett lådagram har en låda som går från den nedre kvartilen \\(Q_1\\) till den övre kvartilen \\(Q_3\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"160\" viewBox=\"0 0 440 160\" role=\"img\" aria-label=\"Lådagram med lådan mellan nedre och övre kvartilen\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"60.0\" x2=\"125.0\" y2=\"60.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"258.0\" y1=\"60.0\" x2=\"410.0\" y2=\"60.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"30.0\" y1=\"48.0\" x2=\"30.0\" y2=\"72.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"410.0\" y1=\"48.0\" x2=\"410.0\" y2=\"72.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"125.0\" y=\"38\" width=\"133.0\" height=\"44\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><line x1=\"182.0\" y1=\"38.0\" x2=\"182.0\" y2=\"82.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><line x1=\"30.0\" y1=\"110.0\" x2=\"410.0\" y2=\"110.0\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"30.0\" y1=\"110.0\" x2=\"30.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"30.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"77.5\" y1=\"110.0\" x2=\"77.5\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"77.5\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">15</text><line x1=\"125.0\" y1=\"110.0\" x2=\"125.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"125.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><line x1=\"172.5\" y1=\"110.0\" x2=\"172.5\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"172.5\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">25</text><line x1=\"220.0\" y1=\"110.0\" x2=\"220.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"220.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><line x1=\"267.5\" y1=\"110.0\" x2=\"267.5\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"267.5\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">35</text><line x1=\"315.0\" y1=\"110.0\" x2=\"315.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"315.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><line x1=\"362.5\" y1=\"110.0\" x2=\"362.5\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"362.5\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">45</text><line x1=\"410.0\" y1=\"110.0\" x2=\"410.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"410.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">50</text></svg></div><p>Ungefär hur stor andel av värdena ligger inne i lådan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Under \\(Q_1\\) ligger en fjärdedel av värdena och över \\(Q_3\\) ligger en fjärdedel. Kvar i lådan är hälften.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 50 %.</p></div>",
+  "familj": "Median, kvartiler och kvartilavstånd",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur stor andel ligger under \\(Q_1\\), och hur stor andel ligger över \\(Q_3\\)?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ungefär 50 %",
+      "ratt": true
+    },
+    {
+      "txt": "Ungefär 25 %",
+      "ratt": false,
+      "kommentar": "25 % ligger mellan Q1 och medianen."
+    },
+    {
+      "txt": "Ungefär 75 %",
+      "ratt": false,
+      "kommentar": "75 % ligger under Q3."
+    },
+    {
+      "txt": "Alla värden",
+      "ratt": false,
+      "kommentar": "Strecken utanför lådan visar att det finns värden utanför."
+    }
+  ]
+},
+{
+  "id": "4.517",
+  "kap": 4,
+  "omr": "kvartiler_percentiler",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Ett datamaterial har sju sorterade värden:</p><p>1, 3, 4, 6, 8, 9, 12</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"100\" viewBox=\"0 0 420 100\" role=\"img\" aria-label=\"Sju sorterade värden där den nedre halvan 1, 3, 4 är markerad och mittvärdet 6 är grått\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"98\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"43.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">1</text><rect x=\"76\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"99.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3</text><rect x=\"132\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"155.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">4</text><rect x=\"188\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#e5e7eb\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"211.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">6</text><rect x=\"244\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"267.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">8</text><rect x=\"300\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"323.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">9</text><rect x=\"356\" y=\"20\" width=\"46\" height=\"46\" rx=\"6\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"379.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">12</text><text x=\"104.0\" y=\"88.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#216d87\">nedre halvan</text></svg></div><p>Bestäm den nedre kvartilen \\(Q_1\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medianen är 6. Den nedre halvan är 1, 3, 4, och dess median är 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(Q_1=3\\).</p></div>",
+  "familj": "Median, kvartiler och kvartilavstånd",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Den nedre kvartilen är medianen av den nedre halvan.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.518",
+  "kap": 4,
+  "omr": "kvartiler_percentiler",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>200 elever skrev samma prov. Ali hamnade på den 90:e percentilen.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"80\" viewBox=\"0 0 420 80\" role=\"img\" aria-label=\"En stapel där 90 procent är skuggade fram till Alis resultat\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"78\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"25\" width=\"380\" height=\"30\" fill=\"#f1f5f9\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><rect x=\"20\" y=\"25\" width=\"342\" height=\"30\" fill=\"#d9ecf2\"/><line x1=\"362.0\" y1=\"20.0\" x2=\"362.0\" y2=\"65.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><text x=\"362.0\" y=\"12.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">Ali</text><text x=\"190.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">90 %</text></svg></div><p>Ungefär hur många elever fick ett resultat som är lika med eller lägre än Alis?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}90\\cdot200=180\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 180 elever.</p></div>",
+  "familj": "Percentiler",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>90:e percentilen betyder att 90 % ligger på eller under värdet.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 180,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.519",
+  "kap": 4,
+  "omr": "kvartiler_percentiler",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Medianen är ett av de vanligaste lägesmåtten. Den kan också uttryckas som en percentil.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"160\" viewBox=\"0 0 440 160\" role=\"img\" aria-label=\"Lådagram där medianen är markerad\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"68.0\" y1=\"60.0\" x2=\"125.0\" y2=\"60.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"258.0\" y1=\"60.0\" x2=\"410.0\" y2=\"60.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"68.0\" y1=\"48.0\" x2=\"68.0\" y2=\"72.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"410.0\" y1=\"48.0\" x2=\"410.0\" y2=\"72.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"125.0\" y=\"38\" width=\"133.0\" height=\"44\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><line x1=\"182.0\" y1=\"38.0\" x2=\"182.0\" y2=\"82.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><line x1=\"30.0\" y1=\"110.0\" x2=\"410.0\" y2=\"110.0\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"30.0\" y1=\"110.0\" x2=\"30.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"30.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"68.0\" y1=\"110.0\" x2=\"68.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"68.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"106.0\" y1=\"110.0\" x2=\"106.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"106.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"144.0\" y1=\"110.0\" x2=\"144.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"144.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"182.0\" y1=\"110.0\" x2=\"182.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"182.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><line x1=\"220.0\" y1=\"110.0\" x2=\"220.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"220.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"258.0\" y1=\"110.0\" x2=\"258.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"258.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">12</text><line x1=\"296.0\" y1=\"110.0\" x2=\"296.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"296.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">14</text><line x1=\"334.0\" y1=\"110.0\" x2=\"334.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"334.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">16</text><line x1=\"372.0\" y1=\"110.0\" x2=\"372.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"372.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">18</text><line x1=\"410.0\" y1=\"110.0\" x2=\"410.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"410.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">20</text></svg></div><p>Vilken percentil är medianen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hälften av värdena ligger på eller under medianen. Medianen är alltså den 50:e percentilen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den 50:e percentilen.</p></div>",
+  "familj": "Percentiler",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur stor andel av värdena ligger under medianen?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 50,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.520",
+  "kap": 4,
+  "omr": "kvartiler_percentiler",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>På barnavårdscentralen jämförs barns längd med en tillväxtkurva. En pojke ligger på den 25:e percentilen för längd.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"80\" viewBox=\"0 0 420 80\" role=\"img\" aria-label=\"En stapel där 25 procent är skuggade fram till pojkens längd\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"78\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"25\" width=\"380\" height=\"30\" fill=\"#f1f5f9\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><rect x=\"20\" y=\"25\" width=\"95\" height=\"30\" fill=\"#d9ecf2\"/><line x1=\"115.0\" y1=\"20.0\" x2=\"115.0\" y2=\"65.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><text x=\"115.0\" y=\"12.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">pojken</text><text x=\"68.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">25 %</text></svg></div><p>Vad betyder det?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den 25:e percentilen betyder att ungefär 25 % av barnen i samma ålder är lika långa eller kortare. Ungefär 75 % är längre.</p></li></ol></div>",
+  "familj": "Percentiler",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Percentilen anger hur stor andel som ligger på eller under värdet.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ungefär 25 % av barnen i samma ålder är lika långa eller kortare",
+      "ratt": true
+    },
+    {
+      "txt": "Pojken är 25 % kortare än genomsnittet",
+      "ratt": false,
+      "kommentar": "Percentilen jämför med andra barn, inte med ett genomsnitt i procent."
+    },
+    {
+      "txt": "Pojken är längre än 75 % av barnen",
+      "ratt": false,
+      "kommentar": "Det skulle vara den 75:e percentilen."
+    },
+    {
+      "txt": "Pojken växer 25 % långsammare än andra barn",
+      "ratt": false,
+      "kommentar": "Percentilen säger inget om hur snabbt man växer."
+    }
+  ]
+},
+{
+  "id": "4.521",
+  "kap": 4,
+  "omr": "kvartiler_percentiler",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Lådagrammet visar hur många mål ett lag gjorde per säsong under tio säsonger.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"160\" viewBox=\"0 0 440 160\" role=\"img\" aria-label=\"Lådagram: minsta 18, nedre kvartil 24, median 31, övre kvartil 36, största 47 mål\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"62.6\" y1=\"60.0\" x2=\"127.7\" y2=\"60.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"258.0\" y1=\"60.0\" x2=\"377.4\" y2=\"60.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"62.6\" y1=\"48.0\" x2=\"62.6\" y2=\"72.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"377.4\" y1=\"48.0\" x2=\"377.4\" y2=\"72.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"127.7\" y=\"38\" width=\"130.3\" height=\"44\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><line x1=\"203.7\" y1=\"38.0\" x2=\"203.7\" y2=\"82.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><line x1=\"30.0\" y1=\"110.0\" x2=\"410.0\" y2=\"110.0\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"30.0\" y1=\"110.0\" x2=\"30.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"30.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">15</text><line x1=\"84.3\" y1=\"110.0\" x2=\"84.3\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"84.3\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><line x1=\"138.6\" y1=\"110.0\" x2=\"138.6\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"138.6\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">25</text><line x1=\"192.9\" y1=\"110.0\" x2=\"192.9\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"192.9\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><line x1=\"247.1\" y1=\"110.0\" x2=\"247.1\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"247.1\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">35</text><line x1=\"301.4\" y1=\"110.0\" x2=\"301.4\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"301.4\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><line x1=\"355.7\" y1=\"110.0\" x2=\"355.7\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"355.7\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">45</text><line x1=\"410.0\" y1=\"110.0\" x2=\"410.0\" y2=\"116.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"410.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">50</text><text x=\"436.0\" y=\"154.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">mål</text></svg></div><p>Hur många mål gjorde laget den säsong det gjorde flest mål?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det största värdet är strecket längst till höger, vid 47.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 47 mål.</p></div>",
+  "familj": "Median, kvartiler och kvartilavstånd",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Det största värdet är strecket längst till höger.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 47,
+  "tolerans": 1e-09
+},
+{
+  "id": "4.522",
+  "kap": 4,
+  "omr": "normalfordelning_digitala_verktyg",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vikten hos äpplen från en odling är normalfördelad med \\(\\mu=150\\) g och \\(\\sigma=20\\) g.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"560\" height=\"240\" viewBox=\"0 0 560 240\" role=\"img\" aria-label=\"Normalfördelningskurva för äpplenas vikt med området under 175 g skuggat\"><rect x=\"1\" y=\"1\" width=\"558\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M40.0 186 L40.0 185.8 L44.0 185.7 L48.1 185.7 L52.1 185.6 L56.2 185.5 L60.2 185.4 L64.3 185.2 L68.3 185.1 L72.3 184.9 L76.4 184.6 L80.4 184.3 L84.5 184.0 L88.5 183.6 L92.5 183.2 L96.6 182.7 L100.6 182.1 L104.7 181.4 L108.7 180.6 L112.8 179.7 L116.8 178.7 L120.8 177.6 L124.9 176.3 L128.9 174.8 L133.0 173.2 L137.0 171.4 L141.0 169.4 L145.1 167.2 L149.1 164.7 L153.2 162.1 L157.2 159.2 L161.2 156.1 L165.3 152.8 L169.3 149.2 L173.4 145.4 L177.4 141.3 L181.5 137.0 L185.5 132.5 L189.5 127.8 L193.6 123.0 L197.6 118.0 L201.7 112.8 L205.7 107.5 L209.8 102.2 L213.8 96.8 L217.8 91.5 L221.9 86.2 L225.9 80.9 L230.0 75.8 L234.0 70.9 L238.0 66.2 L242.1 61.8 L246.1 57.7 L250.2 53.9 L254.2 50.5 L258.2 47.6 L262.3 45.1 L266.3 43.0 L270.4 41.5 L274.4 40.5 L278.5 40.0 L282.5 40.1 L286.5 40.7 L290.6 41.8 L294.6 43.5 L298.7 45.6 L302.7 48.2 L306.8 51.3 L310.8 54.8 L314.8 58.6 L318.9 62.8 L322.9 67.3 L327.0 72.1 L331.0 77.0 L335.0 82.2 L339.1 87.4 L343.1 92.7 L347.2 98.1 L351.2 103.5 L355.2 108.8 L359.3 114.0 L363.3 119.2 L363.3 186 Z\" fill=\"#fbe3d6\"/><path d=\"M40.0 185.8 L43.0 185.7 L46.0 185.7 L49.0 185.6 L52.0 185.6 L55.0 185.5 L58.0 185.4 L61.0 185.3 L64.0 185.2 L67.0 185.1 L70.0 185.0 L73.0 184.8 L76.0 184.6 L79.0 184.4 L82.0 184.2 L85.0 184.0 L88.0 183.7 L91.0 183.4 L94.0 183.0 L97.0 182.6 L100.0 182.2 L103.0 181.7 L106.0 181.2 L109.0 180.6 L112.0 179.9 L115.0 179.2 L118.0 178.4 L121.0 177.5 L124.0 176.6 L127.0 175.5 L130.0 174.4 L133.0 173.2 L136.0 171.8 L139.0 170.4 L142.0 168.9 L145.0 167.2 L148.0 165.4 L151.0 163.5 L154.0 161.5 L157.0 159.4 L160.0 157.1 L163.0 154.7 L166.0 152.2 L169.0 149.5 L172.0 146.7 L175.0 143.8 L178.0 140.7 L181.0 137.5 L184.0 134.2 L187.0 130.8 L190.0 127.3 L193.0 123.7 L196.0 120.0 L199.0 116.2 L202.0 112.4 L205.0 108.5 L208.0 104.5 L211.0 100.5 L214.0 96.6 L217.0 92.6 L220.0 88.6 L223.0 84.7 L226.0 80.8 L229.0 77.0 L232.0 73.3 L235.0 69.7 L238.0 66.3 L241.0 63.0 L244.0 59.8 L247.0 56.8 L250.0 54.1 L253.0 51.5 L256.0 49.2 L259.0 47.1 L262.0 45.2 L265.0 43.6 L268.0 42.3 L271.0 41.3 L274.0 40.6 L277.0 40.1 L280.0 40.0 L283.0 40.1 L286.0 40.6 L289.0 41.3 L292.0 42.3 L295.0 43.6 L298.0 45.2 L301.0 47.1 L304.0 49.2 L307.0 51.5 L310.0 54.1 L313.0 56.8 L316.0 59.8 L319.0 63.0 L322.0 66.3 L325.0 69.7 L328.0 73.3 L331.0 77.0 L334.0 80.8 L337.0 84.7 L340.0 88.6 L343.0 92.6 L346.0 96.6 L349.0 100.5 L352.0 104.5 L355.0 108.5 L358.0 112.4 L361.0 116.2 L364.0 120.0 L367.0 123.7 L370.0 127.3 L373.0 130.8 L376.0 134.2 L379.0 137.5 L382.0 140.7 L385.0 143.8 L388.0 146.7 L391.0 149.5 L394.0 152.2 L397.0 154.7 L400.0 157.1 L403.0 159.4 L406.0 161.5 L409.0 163.5 L412.0 165.4 L415.0 167.2 L418.0 168.9 L421.0 170.4 L424.0 171.8 L427.0 173.2 L430.0 174.4 L433.0 175.5 L436.0 176.6 L439.0 177.5 L442.0 178.4 L445.0 179.2 L448.0 179.9 L451.0 180.6 L454.0 181.2 L457.0 181.7 L460.0 182.2 L463.0 182.6 L466.0 183.0 L469.0 183.4 L472.0 183.7 L475.0 184.0 L478.0 184.2 L481.0 184.4 L484.0 184.6 L487.0 184.8 L490.0 185.0 L493.0 185.1 L496.0 185.2 L499.0 185.3 L502.0 185.4 L505.0 185.5 L508.0 185.6 L511.0 185.6 L514.0 185.7 L517.0 185.7 L520.0 185.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.5\"/><line x1=\"26\" y1=\"186\" x2=\"534\" y2=\"186\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M534 181 L544 186 L534 191 Z\" fill=\"#172b3a\"/><line x1=\"363.3\" y1=\"119.2\" x2=\"363.3\" y2=\"192\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"363.3\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">175</text><text x=\"540.0\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#5b6773\">g</text></svg></div><p>Bestäm med GeoGebra hur stor andel av äpplena som väger mindre än 175 g. Svara i procent med en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I GeoGebras sannolikhetskalkylator väljer du Normal och skriver in \\(\\mu\\) och \\(\\sigma\\).</p></li><li><p>Välj området till vänster om 175.</p></li><li><div class=\"facit-matte\">\\[P\\approx89{,}4\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 89,4 %.</p></div>",
+  "familj": "Sannolikhet över, under och i intervall",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Markera området till vänster om 175 i sannolikhetskalkylatorn.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 89.4,
+  "tolerans": 0.2,
+  "svarEnhet": "%"
+},
+{
+  "id": "4.523",
+  "kap": 4,
+  "omr": "normalfordelning_digitala_verktyg",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Ett bageri bakar limpor vars vikt är normalfördelad med \\(\\mu=800\\) g och \\(\\sigma=15\\) g.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"560\" height=\"240\" viewBox=\"0 0 560 240\" role=\"img\" aria-label=\"Normalfördelningskurva för limpornas vikt med området över 820 g skuggat\"><rect x=\"1\" y=\"1\" width=\"558\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M368.9 186 L368.9 126.0 L370.8 128.2 L372.7 130.4 L374.6 132.6 L376.4 134.7 L378.3 136.8 L380.2 138.8 L382.1 140.8 L384.0 142.8 L385.9 144.6 L387.8 146.5 L389.7 148.3 L391.6 150.0 L393.4 151.7 L395.3 153.3 L397.2 154.9 L399.1 156.4 L401.0 157.9 L402.9 159.3 L404.8 160.7 L406.7 162.0 L408.6 163.3 L410.4 164.5 L412.3 165.6 L414.2 166.8 L416.1 167.8 L418.0 168.9 L419.9 169.8 L421.8 170.8 L423.7 171.7 L425.6 172.5 L427.4 173.3 L429.3 174.1 L431.2 174.9 L433.1 175.6 L435.0 176.2 L436.9 176.8 L438.8 177.4 L440.7 178.0 L442.6 178.5 L444.4 179.0 L446.3 179.5 L448.2 180.0 L450.1 180.4 L452.0 180.8 L453.9 181.1 L455.8 181.5 L457.7 181.8 L459.6 182.1 L461.4 182.4 L463.3 182.7 L465.2 182.9 L467.1 183.2 L469.0 183.4 L470.9 183.6 L472.8 183.8 L474.7 183.9 L476.6 184.1 L478.4 184.3 L480.3 184.4 L482.2 184.5 L484.1 184.7 L486.0 184.8 L487.9 184.9 L489.8 185.0 L491.7 185.1 L493.6 185.1 L495.4 185.2 L497.3 185.3 L499.2 185.3 L501.1 185.4 L503.0 185.5 L504.9 185.5 L506.8 185.6 L508.7 185.6 L510.6 185.6 L512.4 185.7 L514.3 185.7 L516.2 185.7 L518.1 185.8 L520.0 185.8 L520.0 186 Z\" fill=\"#fbe3d6\"/><path d=\"M40.0 185.8 L43.0 185.7 L46.0 185.7 L49.0 185.6 L52.0 185.6 L55.0 185.5 L58.0 185.4 L61.0 185.3 L64.0 185.2 L67.0 185.1 L70.0 185.0 L73.0 184.8 L76.0 184.6 L79.0 184.4 L82.0 184.2 L85.0 184.0 L88.0 183.7 L91.0 183.4 L94.0 183.0 L97.0 182.6 L100.0 182.2 L103.0 181.7 L106.0 181.2 L109.0 180.6 L112.0 179.9 L115.0 179.2 L118.0 178.4 L121.0 177.5 L124.0 176.6 L127.0 175.5 L130.0 174.4 L133.0 173.2 L136.0 171.8 L139.0 170.4 L142.0 168.9 L145.0 167.2 L148.0 165.4 L151.0 163.5 L154.0 161.5 L157.0 159.4 L160.0 157.1 L163.0 154.7 L166.0 152.2 L169.0 149.5 L172.0 146.7 L175.0 143.8 L178.0 140.7 L181.0 137.5 L184.0 134.2 L187.0 130.8 L190.0 127.3 L193.0 123.7 L196.0 120.0 L199.0 116.2 L202.0 112.4 L205.0 108.5 L208.0 104.5 L211.0 100.5 L214.0 96.6 L217.0 92.6 L220.0 88.6 L223.0 84.7 L226.0 80.8 L229.0 77.0 L232.0 73.3 L235.0 69.7 L238.0 66.3 L241.0 63.0 L244.0 59.8 L247.0 56.8 L250.0 54.1 L253.0 51.5 L256.0 49.2 L259.0 47.1 L262.0 45.2 L265.0 43.6 L268.0 42.3 L271.0 41.3 L274.0 40.6 L277.0 40.1 L280.0 40.0 L283.0 40.1 L286.0 40.6 L289.0 41.3 L292.0 42.3 L295.0 43.6 L298.0 45.2 L301.0 47.1 L304.0 49.2 L307.0 51.5 L310.0 54.1 L313.0 56.8 L316.0 59.8 L319.0 63.0 L322.0 66.3 L325.0 69.7 L328.0 73.3 L331.0 77.0 L334.0 80.8 L337.0 84.7 L340.0 88.6 L343.0 92.6 L346.0 96.6 L349.0 100.5 L352.0 104.5 L355.0 108.5 L358.0 112.4 L361.0 116.2 L364.0 120.0 L367.0 123.7 L370.0 127.3 L373.0 130.8 L376.0 134.2 L379.0 137.5 L382.0 140.7 L385.0 143.8 L388.0 146.7 L391.0 149.5 L394.0 152.2 L397.0 154.7 L400.0 157.1 L403.0 159.4 L406.0 161.5 L409.0 163.5 L412.0 165.4 L415.0 167.2 L418.0 168.9 L421.0 170.4 L424.0 171.8 L427.0 173.2 L430.0 174.4 L433.0 175.5 L436.0 176.6 L439.0 177.5 L442.0 178.4 L445.0 179.2 L448.0 179.9 L451.0 180.6 L454.0 181.2 L457.0 181.7 L460.0 182.2 L463.0 182.6 L466.0 183.0 L469.0 183.4 L472.0 183.7 L475.0 184.0 L478.0 184.2 L481.0 184.4 L484.0 184.6 L487.0 184.8 L490.0 185.0 L493.0 185.1 L496.0 185.2 L499.0 185.3 L502.0 185.4 L505.0 185.5 L508.0 185.6 L511.0 185.6 L514.0 185.7 L517.0 185.7 L520.0 185.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.5\"/><line x1=\"26\" y1=\"186\" x2=\"534\" y2=\"186\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M534 181 L544 186 L534 191 Z\" fill=\"#172b3a\"/><line x1=\"368.9\" y1=\"126.0\" x2=\"368.9\" y2=\"192\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"368.9\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">820</text><text x=\"540.0\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#5b6773\">g</text></svg></div><p>Hur stor andel av limporna väger mer än 820 g? Använd GeoGebra och svara i procent med en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I GeoGebras sannolikhetskalkylator väljer du Normal och skriver in \\(\\mu\\) och \\(\\sigma\\).</p></li><li><p>Välj området till höger om 820.</p></li><li><div class=\"facit-matte\">\\[P\\approx9{,}1\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 9,1 %.</p></div>",
+  "familj": "Sannolikhet över, under och i intervall",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>”Mer än 820 g” är området till höger om 820.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9.1,
+  "tolerans": 0.2,
+  "svarEnhet": "%"
+},
+{
+  "id": "4.524",
+  "kap": 4,
+  "omr": "normalfordelning_digitala_verktyg",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Längden hos 18-åriga kvinnor i en undersökning är normalfördelad med \\(\\mu=167\\) cm och \\(\\sigma=6\\) cm.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"560\" height=\"240\" viewBox=\"0 0 560 240\" role=\"img\" aria-label=\"Normalfördelningskurva för längden med området under 160 cm skuggat\"><rect x=\"1\" y=\"1\" width=\"558\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M40.0 186 L40.0 185.8 L42.0 185.8 L44.1 185.7 L46.1 185.7 L48.1 185.7 L50.1 185.6 L52.2 185.6 L54.2 185.5 L56.2 185.5 L58.3 185.4 L60.3 185.4 L62.3 185.3 L64.3 185.2 L66.4 185.1 L68.4 185.1 L70.4 185.0 L72.4 184.9 L74.5 184.7 L76.5 184.6 L78.5 184.5 L80.6 184.3 L82.6 184.2 L84.6 184.0 L86.6 183.8 L88.7 183.6 L90.7 183.4 L92.7 183.2 L94.8 182.9 L96.8 182.7 L98.8 182.4 L100.8 182.1 L102.9 181.7 L104.9 181.4 L106.9 181.0 L108.9 180.6 L111.0 180.1 L113.0 179.7 L115.0 179.2 L117.1 178.6 L119.1 178.1 L121.1 177.5 L123.1 176.8 L125.2 176.2 L127.2 175.4 L129.2 174.7 L131.3 173.9 L133.3 173.0 L135.3 172.2 L137.3 171.2 L139.4 170.2 L141.4 169.2 L143.4 168.1 L145.4 167.0 L147.5 165.8 L149.5 164.5 L151.5 163.2 L153.6 161.8 L155.6 160.4 L157.6 158.9 L159.6 157.4 L161.7 155.8 L163.7 154.1 L165.7 152.4 L167.8 150.6 L169.8 148.8 L171.8 146.9 L173.8 144.9 L175.9 142.9 L177.9 140.8 L179.9 138.7 L181.9 136.5 L184.0 134.3 L186.0 132.0 L188.0 129.6 L190.1 127.2 L192.1 124.8 L194.1 122.3 L196.1 119.8 L198.2 117.3 L200.2 114.7 L202.2 112.1 L202.2 186 Z\" fill=\"#fbe3d6\"/><path d=\"M40.0 185.8 L43.0 185.7 L46.0 185.7 L49.0 185.6 L52.0 185.6 L55.0 185.5 L58.0 185.4 L61.0 185.3 L64.0 185.2 L67.0 185.1 L70.0 185.0 L73.0 184.8 L76.0 184.6 L79.0 184.4 L82.0 184.2 L85.0 184.0 L88.0 183.7 L91.0 183.4 L94.0 183.0 L97.0 182.6 L100.0 182.2 L103.0 181.7 L106.0 181.2 L109.0 180.6 L112.0 179.9 L115.0 179.2 L118.0 178.4 L121.0 177.5 L124.0 176.6 L127.0 175.5 L130.0 174.4 L133.0 173.2 L136.0 171.8 L139.0 170.4 L142.0 168.9 L145.0 167.2 L148.0 165.4 L151.0 163.5 L154.0 161.5 L157.0 159.4 L160.0 157.1 L163.0 154.7 L166.0 152.2 L169.0 149.5 L172.0 146.7 L175.0 143.8 L178.0 140.7 L181.0 137.5 L184.0 134.2 L187.0 130.8 L190.0 127.3 L193.0 123.7 L196.0 120.0 L199.0 116.2 L202.0 112.4 L205.0 108.5 L208.0 104.5 L211.0 100.5 L214.0 96.6 L217.0 92.6 L220.0 88.6 L223.0 84.7 L226.0 80.8 L229.0 77.0 L232.0 73.3 L235.0 69.7 L238.0 66.3 L241.0 63.0 L244.0 59.8 L247.0 56.8 L250.0 54.1 L253.0 51.5 L256.0 49.2 L259.0 47.1 L262.0 45.2 L265.0 43.6 L268.0 42.3 L271.0 41.3 L274.0 40.6 L277.0 40.1 L280.0 40.0 L283.0 40.1 L286.0 40.6 L289.0 41.3 L292.0 42.3 L295.0 43.6 L298.0 45.2 L301.0 47.1 L304.0 49.2 L307.0 51.5 L310.0 54.1 L313.0 56.8 L316.0 59.8 L319.0 63.0 L322.0 66.3 L325.0 69.7 L328.0 73.3 L331.0 77.0 L334.0 80.8 L337.0 84.7 L340.0 88.6 L343.0 92.6 L346.0 96.6 L349.0 100.5 L352.0 104.5 L355.0 108.5 L358.0 112.4 L361.0 116.2 L364.0 120.0 L367.0 123.7 L370.0 127.3 L373.0 130.8 L376.0 134.2 L379.0 137.5 L382.0 140.7 L385.0 143.8 L388.0 146.7 L391.0 149.5 L394.0 152.2 L397.0 154.7 L400.0 157.1 L403.0 159.4 L406.0 161.5 L409.0 163.5 L412.0 165.4 L415.0 167.2 L418.0 168.9 L421.0 170.4 L424.0 171.8 L427.0 173.2 L430.0 174.4 L433.0 175.5 L436.0 176.6 L439.0 177.5 L442.0 178.4 L445.0 179.2 L448.0 179.9 L451.0 180.6 L454.0 181.2 L457.0 181.7 L460.0 182.2 L463.0 182.6 L466.0 183.0 L469.0 183.4 L472.0 183.7 L475.0 184.0 L478.0 184.2 L481.0 184.4 L484.0 184.6 L487.0 184.8 L490.0 185.0 L493.0 185.1 L496.0 185.2 L499.0 185.3 L502.0 185.4 L505.0 185.5 L508.0 185.6 L511.0 185.6 L514.0 185.7 L517.0 185.7 L520.0 185.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.5\"/><line x1=\"26\" y1=\"186\" x2=\"534\" y2=\"186\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M534 181 L544 186 L534 191 Z\" fill=\"#172b3a\"/><line x1=\"202.2\" y1=\"112.1\" x2=\"202.2\" y2=\"192\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"202.2\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">160</text><text x=\"540.0\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#5b6773\">cm</text></svg></div><p>Hur stor andel är kortare än 160 cm? Använd GeoGebra och svara i procent med en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I GeoGebras sannolikhetskalkylator väljer du Normal och skriver in \\(\\mu\\) och \\(\\sigma\\).</p></li><li><p>Välj området till vänster om 160.</p></li><li><div class=\"facit-matte\">\\[P\\approx12{,}2\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 12,2 %.</p></div>",
+  "familj": "Sannolikhet över, under och i intervall",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Kortare än 160 cm är området till vänster om 160.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12.2,
+  "tolerans": 0.2,
+  "svarEnhet": "%"
+},
+{
+  "id": "4.525",
+  "kap": 4,
+  "omr": "normalfordelning_digitala_verktyg",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En kaffeautomat fyller muggar med kaffe. Mängden är normalfördelad med \\(\\mu=200\\) ml och \\(\\sigma=4\\) ml.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"560\" height=\"240\" viewBox=\"0 0 560 240\" role=\"img\" aria-label=\"Normalfördelningskurva för kaffemängden med området under 195 ml skuggat\"><rect x=\"1\" y=\"1\" width=\"558\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M40.0 186 L40.0 185.8 L42.0 185.8 L43.9 185.7 L45.9 185.7 L47.8 185.7 L49.8 185.6 L51.8 185.6 L53.7 185.5 L55.7 185.5 L57.6 185.4 L59.6 185.4 L61.5 185.3 L63.5 185.3 L65.5 185.2 L67.4 185.1 L69.4 185.0 L71.3 184.9 L73.3 184.8 L75.3 184.7 L77.2 184.6 L79.2 184.4 L81.1 184.3 L83.1 184.1 L85.0 184.0 L87.0 183.8 L89.0 183.6 L90.9 183.4 L92.9 183.2 L94.8 182.9 L96.8 182.7 L98.8 182.4 L100.7 182.1 L102.7 181.8 L104.6 181.4 L106.6 181.0 L108.5 180.7 L110.5 180.2 L112.5 179.8 L114.4 179.3 L116.4 178.8 L118.3 178.3 L120.3 177.7 L122.2 177.1 L124.2 176.5 L126.2 175.8 L128.1 175.1 L130.1 174.4 L132.0 173.6 L134.0 172.7 L136.0 171.9 L137.9 170.9 L139.9 170.0 L141.8 169.0 L143.8 167.9 L145.7 166.8 L147.7 165.6 L149.7 164.4 L151.6 163.1 L153.6 161.8 L155.5 160.4 L157.5 159.0 L159.5 157.5 L161.4 156.0 L163.4 154.4 L165.3 152.7 L167.3 151.0 L169.2 149.3 L171.2 147.4 L173.2 145.6 L175.1 143.6 L177.1 141.7 L179.0 139.6 L181.0 137.5 L183.0 135.4 L184.9 133.2 L186.9 131.0 L188.8 128.7 L190.8 126.4 L192.7 124.0 L194.7 121.6 L196.7 119.2 L196.7 186 Z\" fill=\"#fbe3d6\"/><path d=\"M40.0 185.8 L43.0 185.7 L46.0 185.7 L49.0 185.6 L52.0 185.6 L55.0 185.5 L58.0 185.4 L61.0 185.3 L64.0 185.2 L67.0 185.1 L70.0 185.0 L73.0 184.8 L76.0 184.6 L79.0 184.4 L82.0 184.2 L85.0 184.0 L88.0 183.7 L91.0 183.4 L94.0 183.0 L97.0 182.6 L100.0 182.2 L103.0 181.7 L106.0 181.2 L109.0 180.6 L112.0 179.9 L115.0 179.2 L118.0 178.4 L121.0 177.5 L124.0 176.6 L127.0 175.5 L130.0 174.4 L133.0 173.2 L136.0 171.8 L139.0 170.4 L142.0 168.9 L145.0 167.2 L148.0 165.4 L151.0 163.5 L154.0 161.5 L157.0 159.4 L160.0 157.1 L163.0 154.7 L166.0 152.2 L169.0 149.5 L172.0 146.7 L175.0 143.8 L178.0 140.7 L181.0 137.5 L184.0 134.2 L187.0 130.8 L190.0 127.3 L193.0 123.7 L196.0 120.0 L199.0 116.2 L202.0 112.4 L205.0 108.5 L208.0 104.5 L211.0 100.5 L214.0 96.6 L217.0 92.6 L220.0 88.6 L223.0 84.7 L226.0 80.8 L229.0 77.0 L232.0 73.3 L235.0 69.7 L238.0 66.3 L241.0 63.0 L244.0 59.8 L247.0 56.8 L250.0 54.1 L253.0 51.5 L256.0 49.2 L259.0 47.1 L262.0 45.2 L265.0 43.6 L268.0 42.3 L271.0 41.3 L274.0 40.6 L277.0 40.1 L280.0 40.0 L283.0 40.1 L286.0 40.6 L289.0 41.3 L292.0 42.3 L295.0 43.6 L298.0 45.2 L301.0 47.1 L304.0 49.2 L307.0 51.5 L310.0 54.1 L313.0 56.8 L316.0 59.8 L319.0 63.0 L322.0 66.3 L325.0 69.7 L328.0 73.3 L331.0 77.0 L334.0 80.8 L337.0 84.7 L340.0 88.6 L343.0 92.6 L346.0 96.6 L349.0 100.5 L352.0 104.5 L355.0 108.5 L358.0 112.4 L361.0 116.2 L364.0 120.0 L367.0 123.7 L370.0 127.3 L373.0 130.8 L376.0 134.2 L379.0 137.5 L382.0 140.7 L385.0 143.8 L388.0 146.7 L391.0 149.5 L394.0 152.2 L397.0 154.7 L400.0 157.1 L403.0 159.4 L406.0 161.5 L409.0 163.5 L412.0 165.4 L415.0 167.2 L418.0 168.9 L421.0 170.4 L424.0 171.8 L427.0 173.2 L430.0 174.4 L433.0 175.5 L436.0 176.6 L439.0 177.5 L442.0 178.4 L445.0 179.2 L448.0 179.9 L451.0 180.6 L454.0 181.2 L457.0 181.7 L460.0 182.2 L463.0 182.6 L466.0 183.0 L469.0 183.4 L472.0 183.7 L475.0 184.0 L478.0 184.2 L481.0 184.4 L484.0 184.6 L487.0 184.8 L490.0 185.0 L493.0 185.1 L496.0 185.2 L499.0 185.3 L502.0 185.4 L505.0 185.5 L508.0 185.6 L511.0 185.6 L514.0 185.7 L517.0 185.7 L520.0 185.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.5\"/><line x1=\"26\" y1=\"186\" x2=\"534\" y2=\"186\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M534 181 L544 186 L534 191 Z\" fill=\"#172b3a\"/><line x1=\"196.7\" y1=\"119.2\" x2=\"196.7\" y2=\"192\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"196.7\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">195</text><text x=\"540.0\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#5b6773\">ml</text></svg></div><p>Hur stor andel av muggarna får mindre än 195 ml? Använd GeoGebra och svara i procent med en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I GeoGebras sannolikhetskalkylator väljer du Normal och skriver in \\(\\mu\\) och \\(\\sigma\\).</p></li><li><p>Välj området till vänster om 195.</p></li><li><div class=\"facit-matte\">\\[P\\approx10{,}6\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 10,6 %.</p></div>",
+  "familj": "Sannolikhet över, under och i intervall",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Mindre än 195 ml är området till vänster om 195.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10.6,
+  "tolerans": 0.2,
+  "svarEnhet": "%"
+},
+{
+  "id": "4.526",
+  "kap": 4,
+  "omr": "normalfordelning_digitala_verktyg",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Juiceförpackningar fylls med i genomsnitt 1000 ml. Mängden är normalfördelad med \\(\\mu=1000\\) ml och \\(\\sigma=8\\) ml.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"560\" height=\"240\" viewBox=\"0 0 560 240\" role=\"img\" aria-label=\"Normalfördelningskurva för juicemängden med området mellan 990 och 1010 ml skuggat\"><rect x=\"1\" y=\"1\" width=\"558\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M196.7 186 L196.7 119.2 L198.7 116.5 L200.8 113.9 L202.9 111.2 L205.0 108.5 L207.1 105.7 L209.2 103.0 L211.2 100.2 L213.3 97.4 L215.4 94.7 L217.5 91.9 L219.6 89.2 L221.7 86.4 L223.7 83.7 L225.8 81.0 L227.9 78.4 L230.0 75.8 L232.1 73.2 L234.2 70.7 L236.2 68.3 L238.3 65.9 L240.4 63.6 L242.5 61.4 L244.6 59.2 L246.7 57.2 L248.7 55.2 L250.8 53.3 L252.9 51.6 L255.0 49.9 L257.1 48.4 L259.2 47.0 L261.2 45.7 L263.3 44.5 L265.4 43.5 L267.5 42.5 L269.6 41.8 L271.7 41.1 L273.8 40.6 L275.8 40.3 L277.9 40.1 L280.0 40.0 L282.1 40.1 L284.2 40.3 L286.2 40.6 L288.3 41.1 L290.4 41.8 L292.5 42.5 L294.6 43.5 L296.7 44.5 L298.8 45.7 L300.8 47.0 L302.9 48.4 L305.0 49.9 L307.1 51.6 L309.2 53.3 L311.3 55.2 L313.3 57.2 L315.4 59.2 L317.5 61.4 L319.6 63.6 L321.7 65.9 L323.8 68.3 L325.8 70.7 L327.9 73.2 L330.0 75.8 L332.1 78.4 L334.2 81.0 L336.3 83.7 L338.3 86.4 L340.4 89.2 L342.5 91.9 L344.6 94.7 L346.7 97.4 L348.8 100.2 L350.8 103.0 L352.9 105.7 L355.0 108.5 L357.1 111.2 L359.2 113.9 L361.3 116.5 L363.3 119.2 L363.3 186 Z\" fill=\"#fbe3d6\"/><path d=\"M40.0 185.8 L43.0 185.7 L46.0 185.7 L49.0 185.6 L52.0 185.6 L55.0 185.5 L58.0 185.4 L61.0 185.3 L64.0 185.2 L67.0 185.1 L70.0 185.0 L73.0 184.8 L76.0 184.6 L79.0 184.4 L82.0 184.2 L85.0 184.0 L88.0 183.7 L91.0 183.4 L94.0 183.0 L97.0 182.6 L100.0 182.2 L103.0 181.7 L106.0 181.2 L109.0 180.6 L112.0 179.9 L115.0 179.2 L118.0 178.4 L121.0 177.5 L124.0 176.6 L127.0 175.5 L130.0 174.4 L133.0 173.2 L136.0 171.8 L139.0 170.4 L142.0 168.9 L145.0 167.2 L148.0 165.4 L151.0 163.5 L154.0 161.5 L157.0 159.4 L160.0 157.1 L163.0 154.7 L166.0 152.2 L169.0 149.5 L172.0 146.7 L175.0 143.8 L178.0 140.7 L181.0 137.5 L184.0 134.2 L187.0 130.8 L190.0 127.3 L193.0 123.7 L196.0 120.0 L199.0 116.2 L202.0 112.4 L205.0 108.5 L208.0 104.5 L211.0 100.5 L214.0 96.6 L217.0 92.6 L220.0 88.6 L223.0 84.7 L226.0 80.8 L229.0 77.0 L232.0 73.3 L235.0 69.7 L238.0 66.3 L241.0 63.0 L244.0 59.8 L247.0 56.8 L250.0 54.1 L253.0 51.5 L256.0 49.2 L259.0 47.1 L262.0 45.2 L265.0 43.6 L268.0 42.3 L271.0 41.3 L274.0 40.6 L277.0 40.1 L280.0 40.0 L283.0 40.1 L286.0 40.6 L289.0 41.3 L292.0 42.3 L295.0 43.6 L298.0 45.2 L301.0 47.1 L304.0 49.2 L307.0 51.5 L310.0 54.1 L313.0 56.8 L316.0 59.8 L319.0 63.0 L322.0 66.3 L325.0 69.7 L328.0 73.3 L331.0 77.0 L334.0 80.8 L337.0 84.7 L340.0 88.6 L343.0 92.6 L346.0 96.6 L349.0 100.5 L352.0 104.5 L355.0 108.5 L358.0 112.4 L361.0 116.2 L364.0 120.0 L367.0 123.7 L370.0 127.3 L373.0 130.8 L376.0 134.2 L379.0 137.5 L382.0 140.7 L385.0 143.8 L388.0 146.7 L391.0 149.5 L394.0 152.2 L397.0 154.7 L400.0 157.1 L403.0 159.4 L406.0 161.5 L409.0 163.5 L412.0 165.4 L415.0 167.2 L418.0 168.9 L421.0 170.4 L424.0 171.8 L427.0 173.2 L430.0 174.4 L433.0 175.5 L436.0 176.6 L439.0 177.5 L442.0 178.4 L445.0 179.2 L448.0 179.9 L451.0 180.6 L454.0 181.2 L457.0 181.7 L460.0 182.2 L463.0 182.6 L466.0 183.0 L469.0 183.4 L472.0 183.7 L475.0 184.0 L478.0 184.2 L481.0 184.4 L484.0 184.6 L487.0 184.8 L490.0 185.0 L493.0 185.1 L496.0 185.2 L499.0 185.3 L502.0 185.4 L505.0 185.5 L508.0 185.6 L511.0 185.6 L514.0 185.7 L517.0 185.7 L520.0 185.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.5\"/><line x1=\"26\" y1=\"186\" x2=\"534\" y2=\"186\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M534 181 L544 186 L534 191 Z\" fill=\"#172b3a\"/><line x1=\"196.7\" y1=\"119.2\" x2=\"196.7\" y2=\"192\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"196.7\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">990</text><line x1=\"363.3\" y1=\"119.2\" x2=\"363.3\" y2=\"192\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"363.3\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">1010</text><text x=\"540.0\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#5b6773\">ml</text></svg></div><p>Hur stor andel av förpackningarna innehåller mellan 990 ml och 1010 ml? Använd GeoGebra och svara i procent med en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I GeoGebras sannolikhetskalkylator väljer du Normal och skriver in \\(\\mu\\) och \\(\\sigma\\).</p></li><li><p>Välj intervallet mellan 990 och 1010.</p></li><li><div class=\"facit-matte\">\\[P\\approx78{,}9\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 78,9 %.</p></div>",
+  "familj": "Sannolikhet över, under och i intervall",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Välj ett intervall i sannolikhetskalkylatorn, från 990 till 1010.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 78.9,
+  "tolerans": 0.2,
+  "svarEnhet": "%"
+},
+{
+  "id": "4.527",
+  "kap": 4,
+  "omr": "normalfordelning_digitala_verktyg",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Eleverna i en årskurs sprang 60 m. Tiderna var normalfördelade med \\(\\mu=9{,}0\\) s och \\(\\sigma=0{,}6\\) s.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"560\" height=\"240\" viewBox=\"0 0 560 240\" role=\"img\" aria-label=\"Normalfördelningskurva för löptiderna med området under 8,5 s skuggat\"><rect x=\"1\" y=\"1\" width=\"558\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M40.0 186 L40.0 185.8 L42.3 185.7 L44.6 185.7 L46.9 185.7 L49.2 185.6 L51.5 185.6 L53.8 185.5 L56.1 185.5 L58.4 185.4 L60.8 185.3 L63.1 185.3 L65.4 185.2 L67.7 185.1 L70.0 185.0 L72.3 184.9 L74.6 184.7 L76.9 184.6 L79.2 184.4 L81.5 184.3 L83.8 184.1 L86.1 183.9 L88.4 183.7 L90.7 183.4 L93.0 183.1 L95.3 182.9 L97.6 182.5 L99.9 182.2 L102.2 181.8 L104.6 181.4 L106.9 181.0 L109.2 180.5 L111.5 180.0 L113.8 179.5 L116.1 178.9 L118.4 178.3 L120.7 177.6 L123.0 176.9 L125.3 176.1 L127.6 175.3 L129.9 174.4 L132.2 173.5 L134.5 172.5 L136.8 171.4 L139.1 170.3 L141.4 169.2 L143.7 167.9 L146.1 166.6 L148.4 165.2 L150.7 163.8 L153.0 162.2 L155.3 160.6 L157.6 158.9 L159.9 157.2 L162.2 155.4 L164.5 153.4 L166.8 151.5 L169.1 149.4 L171.4 147.2 L173.7 145.0 L176.0 142.7 L178.3 140.4 L180.6 137.9 L182.9 135.4 L185.2 132.8 L187.6 130.2 L189.9 127.5 L192.2 124.7 L194.5 121.9 L196.8 119.0 L199.1 116.1 L201.4 113.2 L203.7 110.2 L206.0 107.1 L208.3 104.1 L210.6 101.1 L212.9 98.0 L215.2 94.9 L217.5 91.9 L219.8 88.8 L222.1 85.8 L224.4 82.8 L224.4 186 Z\" fill=\"#fbe3d6\"/><path d=\"M40.0 185.8 L43.0 185.7 L46.0 185.7 L49.0 185.6 L52.0 185.6 L55.0 185.5 L58.0 185.4 L61.0 185.3 L64.0 185.2 L67.0 185.1 L70.0 185.0 L73.0 184.8 L76.0 184.6 L79.0 184.4 L82.0 184.2 L85.0 184.0 L88.0 183.7 L91.0 183.4 L94.0 183.0 L97.0 182.6 L100.0 182.2 L103.0 181.7 L106.0 181.2 L109.0 180.6 L112.0 179.9 L115.0 179.2 L118.0 178.4 L121.0 177.5 L124.0 176.6 L127.0 175.5 L130.0 174.4 L133.0 173.2 L136.0 171.8 L139.0 170.4 L142.0 168.9 L145.0 167.2 L148.0 165.4 L151.0 163.5 L154.0 161.5 L157.0 159.4 L160.0 157.1 L163.0 154.7 L166.0 152.2 L169.0 149.5 L172.0 146.7 L175.0 143.8 L178.0 140.7 L181.0 137.5 L184.0 134.2 L187.0 130.8 L190.0 127.3 L193.0 123.7 L196.0 120.0 L199.0 116.2 L202.0 112.4 L205.0 108.5 L208.0 104.5 L211.0 100.5 L214.0 96.6 L217.0 92.6 L220.0 88.6 L223.0 84.7 L226.0 80.8 L229.0 77.0 L232.0 73.3 L235.0 69.7 L238.0 66.3 L241.0 63.0 L244.0 59.8 L247.0 56.8 L250.0 54.1 L253.0 51.5 L256.0 49.2 L259.0 47.1 L262.0 45.2 L265.0 43.6 L268.0 42.3 L271.0 41.3 L274.0 40.6 L277.0 40.1 L280.0 40.0 L283.0 40.1 L286.0 40.6 L289.0 41.3 L292.0 42.3 L295.0 43.6 L298.0 45.2 L301.0 47.1 L304.0 49.2 L307.0 51.5 L310.0 54.1 L313.0 56.8 L316.0 59.8 L319.0 63.0 L322.0 66.3 L325.0 69.7 L328.0 73.3 L331.0 77.0 L334.0 80.8 L337.0 84.7 L340.0 88.6 L343.0 92.6 L346.0 96.6 L349.0 100.5 L352.0 104.5 L355.0 108.5 L358.0 112.4 L361.0 116.2 L364.0 120.0 L367.0 123.7 L370.0 127.3 L373.0 130.8 L376.0 134.2 L379.0 137.5 L382.0 140.7 L385.0 143.8 L388.0 146.7 L391.0 149.5 L394.0 152.2 L397.0 154.7 L400.0 157.1 L403.0 159.4 L406.0 161.5 L409.0 163.5 L412.0 165.4 L415.0 167.2 L418.0 168.9 L421.0 170.4 L424.0 171.8 L427.0 173.2 L430.0 174.4 L433.0 175.5 L436.0 176.6 L439.0 177.5 L442.0 178.4 L445.0 179.2 L448.0 179.9 L451.0 180.6 L454.0 181.2 L457.0 181.7 L460.0 182.2 L463.0 182.6 L466.0 183.0 L469.0 183.4 L472.0 183.7 L475.0 184.0 L478.0 184.2 L481.0 184.4 L484.0 184.6 L487.0 184.8 L490.0 185.0 L493.0 185.1 L496.0 185.2 L499.0 185.3 L502.0 185.4 L505.0 185.5 L508.0 185.6 L511.0 185.6 L514.0 185.7 L517.0 185.7 L520.0 185.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.5\"/><line x1=\"26\" y1=\"186\" x2=\"534\" y2=\"186\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M534 181 L544 186 L534 191 Z\" fill=\"#172b3a\"/><line x1=\"224.4\" y1=\"82.8\" x2=\"224.4\" y2=\"192\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"224.4\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">8,5</text><text x=\"540.0\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#5b6773\">s</text></svg></div><p>Hur stor andel sprang på kortare tid än 8,5 s? Använd GeoGebra och svara i procent med en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I GeoGebras sannolikhetskalkylator väljer du Normal och skriver in \\(\\mu\\) och \\(\\sigma\\).</p></li><li><p>Välj området till vänster om 8,5.</p></li><li><div class=\"facit-matte\">\\[P\\approx20{,}2\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 20,2 %.</p></div>",
+  "familj": "Sannolikhet över, under och i intervall",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>En kortare tid än 8,5 s är området till vänster om 8,5.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 20.2,
+  "tolerans": 0.2,
+  "svarEnhet": "%"
+},
+{
+  "id": "4.528",
+  "kap": 4,
+  "omr": "normalfordelning_digitala_verktyg",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Höjden hos granplantor i en plantskola är normalfördelad med medelvärdet 40 cm och standardavvikelsen 5 cm.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"560\" height=\"240\" viewBox=\"0 0 560 240\" role=\"img\" aria-label=\"Normalfördelningskurva för granplantornas höjd med medelvärdet 40 cm\"><rect x=\"1\" y=\"1\" width=\"558\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M40.0 185.8 L43.0 185.7 L46.0 185.7 L49.0 185.6 L52.0 185.6 L55.0 185.5 L58.0 185.4 L61.0 185.3 L64.0 185.2 L67.0 185.1 L70.0 185.0 L73.0 184.8 L76.0 184.6 L79.0 184.4 L82.0 184.2 L85.0 184.0 L88.0 183.7 L91.0 183.4 L94.0 183.0 L97.0 182.6 L100.0 182.2 L103.0 181.7 L106.0 181.2 L109.0 180.6 L112.0 179.9 L115.0 179.2 L118.0 178.4 L121.0 177.5 L124.0 176.6 L127.0 175.5 L130.0 174.4 L133.0 173.2 L136.0 171.8 L139.0 170.4 L142.0 168.9 L145.0 167.2 L148.0 165.4 L151.0 163.5 L154.0 161.5 L157.0 159.4 L160.0 157.1 L163.0 154.7 L166.0 152.2 L169.0 149.5 L172.0 146.7 L175.0 143.8 L178.0 140.7 L181.0 137.5 L184.0 134.2 L187.0 130.8 L190.0 127.3 L193.0 123.7 L196.0 120.0 L199.0 116.2 L202.0 112.4 L205.0 108.5 L208.0 104.5 L211.0 100.5 L214.0 96.6 L217.0 92.6 L220.0 88.6 L223.0 84.7 L226.0 80.8 L229.0 77.0 L232.0 73.3 L235.0 69.7 L238.0 66.3 L241.0 63.0 L244.0 59.8 L247.0 56.8 L250.0 54.1 L253.0 51.5 L256.0 49.2 L259.0 47.1 L262.0 45.2 L265.0 43.6 L268.0 42.3 L271.0 41.3 L274.0 40.6 L277.0 40.1 L280.0 40.0 L283.0 40.1 L286.0 40.6 L289.0 41.3 L292.0 42.3 L295.0 43.6 L298.0 45.2 L301.0 47.1 L304.0 49.2 L307.0 51.5 L310.0 54.1 L313.0 56.8 L316.0 59.8 L319.0 63.0 L322.0 66.3 L325.0 69.7 L328.0 73.3 L331.0 77.0 L334.0 80.8 L337.0 84.7 L340.0 88.6 L343.0 92.6 L346.0 96.6 L349.0 100.5 L352.0 104.5 L355.0 108.5 L358.0 112.4 L361.0 116.2 L364.0 120.0 L367.0 123.7 L370.0 127.3 L373.0 130.8 L376.0 134.2 L379.0 137.5 L382.0 140.7 L385.0 143.8 L388.0 146.7 L391.0 149.5 L394.0 152.2 L397.0 154.7 L400.0 157.1 L403.0 159.4 L406.0 161.5 L409.0 163.5 L412.0 165.4 L415.0 167.2 L418.0 168.9 L421.0 170.4 L424.0 171.8 L427.0 173.2 L430.0 174.4 L433.0 175.5 L436.0 176.6 L439.0 177.5 L442.0 178.4 L445.0 179.2 L448.0 179.9 L451.0 180.6 L454.0 181.2 L457.0 181.7 L460.0 182.2 L463.0 182.6 L466.0 183.0 L469.0 183.4 L472.0 183.7 L475.0 184.0 L478.0 184.2 L481.0 184.4 L484.0 184.6 L487.0 184.8 L490.0 185.0 L493.0 185.1 L496.0 185.2 L499.0 185.3 L502.0 185.4 L505.0 185.5 L508.0 185.6 L511.0 185.6 L514.0 185.7 L517.0 185.7 L520.0 185.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.5\"/><line x1=\"26\" y1=\"186\" x2=\"534\" y2=\"186\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M534 181 L544 186 L534 191 Z\" fill=\"#172b3a\"/><line x1=\"280.0\" y1=\"40.0\" x2=\"280.0\" y2=\"192\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"280.0\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><text x=\"540.0\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#5b6773\">cm</text></svg></div><p>Vilka värden ska du skriva in i GeoGebras sannolikhetskalkylator för att beskriva fördelningen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Normalfördelningen bestäms av medelvärdet \\(\\mu\\) och standardavvikelsen \\(\\sigma\\).</p></li><li><div class=\"facit-matte\">\\[\\mu=40,\\quad \\sigma=5\\]</div></li></ol></div>",
+  "familj": "Sannolikhet över, under och i intervall",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Vilket tal är medelvärdet och vilket är standardavvikelsen?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(\\mu=40\\) och \\(\\sigma=5\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(\\mu=5\\) och \\(\\sigma=40\\)",
+      "ratt": false,
+      "kommentar": "Medelvärdet och standardavvikelsen är förväxlade."
+    },
+    {
+      "txt": "\\(\\mu=40\\) och \\(\\sigma=45\\)",
+      "ratt": false,
+      "kommentar": "45 är medelvärdet plus en standardavvikelse."
+    },
+    {
+      "txt": "\\(\\mu=35\\) och \\(\\sigma=45\\)",
+      "ratt": false,
+      "kommentar": "35 och 45 är gränserna för μ ± σ."
+    }
+  ]
+},
+{
+  "id": "4.529",
+  "kap": 4,
+  "omr": "normalfordelning_digitala_verktyg",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I GeoGebra har någon räknat ut \\(P(X\\le 60)\\) för en normalfördelning med \\(\\mu=50\\).</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"560\" height=\"240\" viewBox=\"0 0 560 240\" role=\"img\" aria-label=\"Normalfördelningskurva där området till vänster om 60 är skuggat\"><rect x=\"1\" y=\"1\" width=\"558\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M40.0 186 L40.0 185.8 L44.0 185.7 L48.1 185.7 L52.1 185.6 L56.2 185.5 L60.2 185.4 L64.2 185.2 L68.3 185.1 L72.3 184.9 L76.4 184.6 L80.4 184.3 L84.5 184.0 L88.5 183.6 L92.5 183.2 L96.6 182.7 L100.6 182.1 L104.7 181.4 L108.7 180.6 L112.8 179.7 L116.8 178.7 L120.8 177.6 L124.9 176.3 L128.9 174.8 L133.0 173.2 L137.0 171.4 L141.0 169.4 L145.1 167.2 L149.1 164.7 L153.2 162.1 L157.2 159.2 L161.2 156.1 L165.3 152.8 L169.3 149.2 L173.4 145.4 L177.4 141.3 L181.5 137.0 L185.5 132.5 L189.5 127.8 L193.6 123.0 L197.6 118.0 L201.7 112.8 L205.7 107.5 L209.7 102.2 L213.8 96.8 L217.8 91.5 L221.9 86.2 L225.9 80.9 L230.0 75.8 L234.0 70.9 L238.0 66.2 L242.1 61.8 L246.1 57.7 L250.2 53.9 L254.2 50.5 L258.2 47.6 L262.3 45.1 L266.3 43.0 L270.4 41.5 L274.4 40.5 L278.5 40.0 L282.5 40.1 L286.5 40.7 L290.6 41.8 L294.6 43.5 L298.7 45.6 L302.7 48.2 L306.8 51.3 L310.8 54.8 L314.8 58.6 L318.9 62.8 L322.9 67.3 L327.0 72.1 L331.0 77.0 L335.0 82.2 L339.1 87.4 L343.1 92.7 L347.2 98.1 L351.2 103.5 L355.3 108.8 L359.3 114.0 L363.3 119.2 L363.3 186 Z\" fill=\"#fbe3d6\"/><path d=\"M40.0 185.8 L43.0 185.7 L46.0 185.7 L49.0 185.6 L52.0 185.6 L55.0 185.5 L58.0 185.4 L61.0 185.3 L64.0 185.2 L67.0 185.1 L70.0 185.0 L73.0 184.8 L76.0 184.6 L79.0 184.4 L82.0 184.2 L85.0 184.0 L88.0 183.7 L91.0 183.4 L94.0 183.0 L97.0 182.6 L100.0 182.2 L103.0 181.7 L106.0 181.2 L109.0 180.6 L112.0 179.9 L115.0 179.2 L118.0 178.4 L121.0 177.5 L124.0 176.6 L127.0 175.5 L130.0 174.4 L133.0 173.2 L136.0 171.8 L139.0 170.4 L142.0 168.9 L145.0 167.2 L148.0 165.4 L151.0 163.5 L154.0 161.5 L157.0 159.4 L160.0 157.1 L163.0 154.7 L166.0 152.2 L169.0 149.5 L172.0 146.7 L175.0 143.8 L178.0 140.7 L181.0 137.5 L184.0 134.2 L187.0 130.8 L190.0 127.3 L193.0 123.7 L196.0 120.0 L199.0 116.2 L202.0 112.4 L205.0 108.5 L208.0 104.5 L211.0 100.5 L214.0 96.6 L217.0 92.6 L220.0 88.6 L223.0 84.7 L226.0 80.8 L229.0 77.0 L232.0 73.3 L235.0 69.7 L238.0 66.3 L241.0 63.0 L244.0 59.8 L247.0 56.8 L250.0 54.1 L253.0 51.5 L256.0 49.2 L259.0 47.1 L262.0 45.2 L265.0 43.6 L268.0 42.3 L271.0 41.3 L274.0 40.6 L277.0 40.1 L280.0 40.0 L283.0 40.1 L286.0 40.6 L289.0 41.3 L292.0 42.3 L295.0 43.6 L298.0 45.2 L301.0 47.1 L304.0 49.2 L307.0 51.5 L310.0 54.1 L313.0 56.8 L316.0 59.8 L319.0 63.0 L322.0 66.3 L325.0 69.7 L328.0 73.3 L331.0 77.0 L334.0 80.8 L337.0 84.7 L340.0 88.6 L343.0 92.6 L346.0 96.6 L349.0 100.5 L352.0 104.5 L355.0 108.5 L358.0 112.4 L361.0 116.2 L364.0 120.0 L367.0 123.7 L370.0 127.3 L373.0 130.8 L376.0 134.2 L379.0 137.5 L382.0 140.7 L385.0 143.8 L388.0 146.7 L391.0 149.5 L394.0 152.2 L397.0 154.7 L400.0 157.1 L403.0 159.4 L406.0 161.5 L409.0 163.5 L412.0 165.4 L415.0 167.2 L418.0 168.9 L421.0 170.4 L424.0 171.8 L427.0 173.2 L430.0 174.4 L433.0 175.5 L436.0 176.6 L439.0 177.5 L442.0 178.4 L445.0 179.2 L448.0 179.9 L451.0 180.6 L454.0 181.2 L457.0 181.7 L460.0 182.2 L463.0 182.6 L466.0 183.0 L469.0 183.4 L472.0 183.7 L475.0 184.0 L478.0 184.2 L481.0 184.4 L484.0 184.6 L487.0 184.8 L490.0 185.0 L493.0 185.1 L496.0 185.2 L499.0 185.3 L502.0 185.4 L505.0 185.5 L508.0 185.6 L511.0 185.6 L514.0 185.7 L517.0 185.7 L520.0 185.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.5\"/><line x1=\"26\" y1=\"186\" x2=\"534\" y2=\"186\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M534 181 L544 186 L534 191 Z\" fill=\"#172b3a\"/><line x1=\"363.3\" y1=\"119.2\" x2=\"363.3\" y2=\"192\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"363.3\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">60</text></svg></div><p>Vad betyder \\(P(X\\le 60)\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(P(X\\le 60)\\) är sannolikheten att ett värde är högst 60. Det är arean till vänster om 60 under kurvan.</p></li></ol></div>",
+  "familj": "Sannolikhet över, under och i intervall",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Vilken sida om 60 är skuggad?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Sannolikheten att ett värde är högst 60",
+      "ratt": true
+    },
+    {
+      "txt": "Sannolikheten att ett värde är exakt 50",
+      "ratt": false,
+      "kommentar": "Det skuggade området går hela vägen upp till 60."
+    },
+    {
+      "txt": "Sannolikheten att ett värde är större än 60",
+      "ratt": false,
+      "kommentar": "Det är området till höger om 60."
+    },
+    {
+      "txt": "Andelen värden mellan 50 och 60",
+      "ratt": false,
+      "kommentar": "Området börjar längst till vänster, inte vid 50."
+    }
+  ]
+},
+{
+  "id": "4.530",
+  "kap": 4,
+  "omr": "normalfordelning_digitala_verktyg",
+  "kurs": [
+    "2a",
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Restiden till jobbet för en pendlare är normalfördelad med \\(\\mu=25\\) min och \\(\\sigma=4\\) min.</p><div class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"560\" height=\"240\" viewBox=\"0 0 560 240\" role=\"img\" aria-label=\"Normalfördelningskurva för restiden med området över 32 minuter skuggat\"><rect x=\"1\" y=\"1\" width=\"558\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M396.7 186 L396.7 154.4 L398.2 155.7 L399.8 156.9 L401.3 158.1 L402.8 159.3 L404.4 160.4 L405.9 161.5 L407.5 162.5 L409.0 163.5 L410.5 164.5 L412.1 165.5 L413.6 166.4 L415.2 167.3 L416.7 168.2 L418.2 169.0 L419.8 169.8 L421.3 170.6 L422.9 171.3 L424.4 172.0 L426.0 172.7 L427.5 173.4 L429.0 174.0 L430.6 174.6 L432.1 175.2 L433.7 175.8 L435.2 176.3 L436.8 176.8 L438.3 177.3 L439.8 177.8 L441.4 178.2 L442.9 178.6 L444.5 179.0 L446.0 179.4 L447.5 179.8 L449.1 180.1 L450.6 180.5 L452.2 180.8 L453.7 181.1 L455.2 181.4 L456.8 181.7 L458.3 181.9 L459.9 182.2 L461.4 182.4 L463.0 182.6 L464.5 182.8 L466.0 183.0 L467.6 183.2 L469.1 183.4 L470.7 183.6 L472.2 183.7 L473.8 183.9 L475.3 184.0 L476.8 184.1 L478.4 184.3 L479.9 184.4 L481.5 184.5 L483.0 184.6 L484.5 184.7 L486.1 184.8 L487.6 184.9 L489.2 184.9 L490.7 185.0 L492.3 185.1 L493.8 185.1 L495.3 185.2 L496.9 185.3 L498.4 185.3 L500.0 185.4 L501.5 185.4 L503.0 185.5 L504.6 185.5 L506.1 185.5 L507.7 185.6 L509.2 185.6 L510.8 185.6 L512.3 185.7 L513.8 185.7 L515.4 185.7 L516.9 185.7 L518.5 185.8 L520.0 185.8 L520.0 186 Z\" fill=\"#fbe3d6\"/><path d=\"M40.0 185.8 L43.0 185.7 L46.0 185.7 L49.0 185.6 L52.0 185.6 L55.0 185.5 L58.0 185.4 L61.0 185.3 L64.0 185.2 L67.0 185.1 L70.0 185.0 L73.0 184.8 L76.0 184.6 L79.0 184.4 L82.0 184.2 L85.0 184.0 L88.0 183.7 L91.0 183.4 L94.0 183.0 L97.0 182.6 L100.0 182.2 L103.0 181.7 L106.0 181.2 L109.0 180.6 L112.0 179.9 L115.0 179.2 L118.0 178.4 L121.0 177.5 L124.0 176.6 L127.0 175.5 L130.0 174.4 L133.0 173.2 L136.0 171.8 L139.0 170.4 L142.0 168.9 L145.0 167.2 L148.0 165.4 L151.0 163.5 L154.0 161.5 L157.0 159.4 L160.0 157.1 L163.0 154.7 L166.0 152.2 L169.0 149.5 L172.0 146.7 L175.0 143.8 L178.0 140.7 L181.0 137.5 L184.0 134.2 L187.0 130.8 L190.0 127.3 L193.0 123.7 L196.0 120.0 L199.0 116.2 L202.0 112.4 L205.0 108.5 L208.0 104.5 L211.0 100.5 L214.0 96.6 L217.0 92.6 L220.0 88.6 L223.0 84.7 L226.0 80.8 L229.0 77.0 L232.0 73.3 L235.0 69.7 L238.0 66.3 L241.0 63.0 L244.0 59.8 L247.0 56.8 L250.0 54.1 L253.0 51.5 L256.0 49.2 L259.0 47.1 L262.0 45.2 L265.0 43.6 L268.0 42.3 L271.0 41.3 L274.0 40.6 L277.0 40.1 L280.0 40.0 L283.0 40.1 L286.0 40.6 L289.0 41.3 L292.0 42.3 L295.0 43.6 L298.0 45.2 L301.0 47.1 L304.0 49.2 L307.0 51.5 L310.0 54.1 L313.0 56.8 L316.0 59.8 L319.0 63.0 L322.0 66.3 L325.0 69.7 L328.0 73.3 L331.0 77.0 L334.0 80.8 L337.0 84.7 L340.0 88.6 L343.0 92.6 L346.0 96.6 L349.0 100.5 L352.0 104.5 L355.0 108.5 L358.0 112.4 L361.0 116.2 L364.0 120.0 L367.0 123.7 L370.0 127.3 L373.0 130.8 L376.0 134.2 L379.0 137.5 L382.0 140.7 L385.0 143.8 L388.0 146.7 L391.0 149.5 L394.0 152.2 L397.0 154.7 L400.0 157.1 L403.0 159.4 L406.0 161.5 L409.0 163.5 L412.0 165.4 L415.0 167.2 L418.0 168.9 L421.0 170.4 L424.0 171.8 L427.0 173.2 L430.0 174.4 L433.0 175.5 L436.0 176.6 L439.0 177.5 L442.0 178.4 L445.0 179.2 L448.0 179.9 L451.0 180.6 L454.0 181.2 L457.0 181.7 L460.0 182.2 L463.0 182.6 L466.0 183.0 L469.0 183.4 L472.0 183.7 L475.0 184.0 L478.0 184.2 L481.0 184.4 L484.0 184.6 L487.0 184.8 L490.0 185.0 L493.0 185.1 L496.0 185.2 L499.0 185.3 L502.0 185.4 L505.0 185.5 L508.0 185.6 L511.0 185.6 L514.0 185.7 L517.0 185.7 L520.0 185.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.5\"/><line x1=\"26\" y1=\"186\" x2=\"534\" y2=\"186\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M534 181 L544 186 L534 191 Z\" fill=\"#172b3a\"/><line x1=\"396.7\" y1=\"154.4\" x2=\"396.7\" y2=\"192\" stroke=\"#172b3a\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"396.7\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">32</text><text x=\"540.0\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#5b6773\">min</text></svg></div><p>Hur stor är sannolikheten att en resa tar mer än 32 minuter? Använd GeoGebra och svara i procent med en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I GeoGebras sannolikhetskalkylator väljer du Normal och skriver in \\(\\mu\\) och \\(\\sigma\\).</p></li><li><p>Välj området till höger om 32.</p></li><li><div class=\"facit-matte\">\\[P\\approx4\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 4 %.</p></div>",
+  "familj": "Sannolikhet över, under och i intervall",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Mer än 32 minuter är området till höger om 32.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4.0,
+  "tolerans": 0.2,
+  "svarEnhet": "%"
+},
+{
+  "id": "2.900",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En lärare mätte hur mycket vatten som fanns kvar i en dunk när eleverna tappade upp vatten under en dag.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Punktdiagram där vattenmängden minskar jämnt från 20 till 8 liter\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"380.0\" y2=\"230.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"50.0\" y2=\"14.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"50.0\" cy=\"39.1\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"97.1\" cy=\"57.2\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"144.3\" cy=\"78.2\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"191.4\" cy=\"95.4\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"238.6\" cy=\"115.5\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"285.7\" cy=\"133.6\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"332.9\" cy=\"154.6\" r=\"4.5\" fill=\"#216d87\"/><text x=\"215.0\" y=\"266.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tid (h)</text><text x=\"18\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 18 125)\">vatten (liter)</text></svg></div><p>Vilken modelltyp passar bäst?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkterna ligger nästan på en rät linje: vattnet minskar med ungefär 2 liter varje timme.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En linjär modell.</p></div>",
+  "familj": "Välja regressionsmodell",
+  "formaga": [
+    "begrepp",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Ligger punkterna längs en rät linje eller en kurva?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Linjär modell",
+      "ratt": true
+    },
+    {
+      "txt": "Exponentiell modell",
+      "ratt": false,
+      "kommentar": "En exponentiell minskning blir långsammare och långsammare."
+    },
+    {
+      "txt": "Andragradsmodell",
+      "ratt": false,
+      "kommentar": "Punkterna böjer inte av som en parabel."
+    }
+  ]
+},
+{
+  "id": "2.901",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Antalet bakterier i en odling räknades varje timme.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Punktdiagram där antalet bakterier ökar allt snabbare\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"380.0\" y2=\"230.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"50.0\" y2=\"14.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"50.0\" cy=\"213.2\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"97.1\" cy=\"204.8\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"144.3\" cy=\"192.2\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"191.4\" cy=\"172.9\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"238.6\" cy=\"145.2\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"285.7\" cy=\"102.3\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"332.9\" cy=\"38.5\" r=\"4.5\" fill=\"#216d87\"/><text x=\"215.0\" y=\"266.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tid (h)</text><text x=\"18\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 18 125)\">antal (tusental)</text></svg></div><p>Vilken modelltyp passar bäst?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Antalet ökar med ungefär samma faktor, 1,5, varje timme. Det är typiskt för exponentiell tillväxt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En exponentiell modell.</p></div>",
+  "familj": "Välja regressionsmodell",
+  "formaga": [
+    "begrepp",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Ökar värdena med lika mycket eller med samma faktor varje timme?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Linjär modell",
+      "ratt": false,
+      "kommentar": "Ökningen blir större för varje timme."
+    },
+    {
+      "txt": "Exponentiell modell",
+      "ratt": true
+    },
+    {
+      "txt": "Andragradsmodell",
+      "ratt": false,
+      "kommentar": "Bakterietillväxt beskrivs med samma faktor per tidsenhet."
+    }
+  ]
+},
+{
+  "id": "2.902",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En boll kastas snett uppåt. Diagrammet visar bollens höjd vid olika tidpunkter.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Punktdiagram där höjden först ökar och sedan minskar som en båge\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"380.0\" y2=\"230.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"50.0\" y2=\"14.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"50.0\" cy=\"195.0\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"97.1\" cy=\"118.0\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"144.3\" cy=\"71.3\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"191.4\" cy=\"52.7\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"238.6\" cy=\"64.3\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"285.7\" cy=\"104.0\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"332.9\" cy=\"174.0\" r=\"4.5\" fill=\"#216d87\"/><text x=\"215.0\" y=\"266.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tid (s)</text><text x=\"18\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 18 125)\">höjd (m)</text></svg></div><p>Vilken modelltyp passar bäst?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkterna bildar en båge som först går upp och sedan ner. En andragradsfunktion har den formen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En andragradsmodell.</p></div>",
+  "familj": "Välja regressionsmodell",
+  "formaga": [
+    "begrepp",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vilken graf går först uppåt och sedan nedåt?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Linjär modell",
+      "ratt": false,
+      "kommentar": "En rät linje kan inte både öka och minska."
+    },
+    {
+      "txt": "Exponentiell modell",
+      "ratt": false,
+      "kommentar": "En exponentialfunktion vänder aldrig."
+    },
+    {
+      "txt": "Andragradsmodell",
+      "ratt": true
+    }
+  ]
+},
+{
+  "id": "2.903",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>En linjär regression beskriver kostnaden \\(y\\) kr för att hyra en elsparkcykel i \\(x\\) minuter:</p><p>\\(y=3{,}5x+12\\)</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Punktdiagram över kostnaden för att hyra en elsparkcykel\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"380.0\" y2=\"230.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"50.0\" y2=\"14.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"110.0\" cy=\"151.2\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"170.0\" cy=\"124.2\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"230.0\" cy=\"97.5\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"290.0\" cy=\"68.1\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"350.0\" cy=\"41.0\" r=\"4.5\" fill=\"#216d87\"/><text x=\"215.0\" y=\"266.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tid (min)</text><text x=\"18\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 18 125)\">kostnad (kr)</text></svg></div><p>Vad kostar det enligt modellen att hyra cykeln i 4 minuter? (Svara i kronor.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y=3{,}5\\cdot4+12=26\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 26 kr.</p></div>",
+  "familj": "Jämföra modeller och modellkvalitet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Sätt in \\(x=4\\) i modellen.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 26,
+  "tolerans": 1e-09
+},
+{
+  "id": "2.904",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Värdet \\(y\\) kr på en moped efter \\(x\\) år beskrivs av en exponentiell regressionsmodell:</p><p>\\(y=24\\,000\\cdot0{,}85^x\\)</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Punktdiagram där mopedens värde minskar med samma faktor varje år\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"380.0\" y2=\"230.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"50.0\" y2=\"14.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"50.0\" cy=\"36.2\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"91.2\" cy=\"65.2\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"132.5\" cy=\"89.9\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"173.8\" cy=\"111.0\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"215.0\" cy=\"128.8\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"256.2\" cy=\"144.0\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"297.5\" cy=\"156.9\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"338.8\" cy=\"167.9\" r=\"4.5\" fill=\"#216d87\"/><text x=\"215.0\" y=\"266.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tid (år)</text><text x=\"18\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 18 125)\">värde (tusental kr)</text></svg></div><p>Med hur många procent minskar värdet varje år enligt modellen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förändringsfaktorn är 0,85. Värdet behåller 85 % varje år och minskar alltså med 15 %.</p></li><li><div class=\"facit-matte\">\\[1-0{,}85=0{,}15=15\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 %.</p></div>",
+  "familj": "Jämföra modeller och modellkvalitet",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Förändringsfaktorn 0,85 betyder att 85 % av värdet finns kvar.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 15,
+  "tolerans": 1e-09
+},
+{
+  "id": "2.905",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>GeoGebra anpassar en modell till mätdata och anger förklaringsgraden \\(R^2=0{,}98\\). Diagrammet visar mätpunkterna och modellen.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Punktdiagram där punkterna ligger mycket nära en rät linje\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"380.0\" y2=\"230.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"50.0\" y2=\"14.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"91.2\" cy=\"191.7\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"132.5\" cy=\"165.8\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"173.8\" cy=\"146.0\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"215.0\" cy=\"117.6\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"256.2\" cy=\"95.4\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"297.5\" cy=\"66.9\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"338.8\" cy=\"47.2\" r=\"4.5\" fill=\"#216d87\"/><text x=\"215.0\" y=\"266.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">x</text><text x=\"18\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 18 125)\">y</text><line x1=\"91.2\" y1=\"192.9\" x2=\"338.8\" y2=\"44.7\" stroke=\"#c2410c\" stroke-width=\"2.4\"/></svg></div><p>Vad betyder det?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(R^2\\) ligger mellan 0 och 1. Ett värde nära 1 betyder att modellen följer mätpunkterna mycket väl.</p></li></ol></div>",
+  "familj": "Jämföra modeller och modellkvalitet",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Ju närmare 1 förklaringsgraden är, desto bättre passar modellen.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Modellen passar mätpunkterna mycket bra",
+      "ratt": true
+    },
+    {
+      "txt": "98 % av mätpunkterna ligger exakt på kurvan",
+      "ratt": false,
+      "kommentar": "R² anger hur väl modellen följer punkterna, inte hur många som ligger exakt på kurvan."
+    },
+    {
+      "txt": "Modellen passar dåligt",
+      "ratt": false,
+      "kommentar": "Ett värde nära 1 betyder bra anpassning."
+    },
+    {
+      "txt": "Modellen ökar med 98 % per steg",
+      "ratt": false,
+      "kommentar": "R² säger inget om förändringstakten."
+    }
+  ]
+},
+{
+  "id": "2.906",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Bränslet i en tank minskar under en körning. En linjär regression ger modellen \\(y=-2{,}5x+40\\), där \\(y\\) är antalet liter och \\(x\\) antalet timmar.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Punktdiagram där bränslet minskar jämnt\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"380.0\" y2=\"230.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"50.0\" y1=\"230.0\" x2=\"50.0\" y2=\"14.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"50.0\" cy=\"42.4\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"110.0\" cy=\"67.1\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"170.0\" cy=\"89.5\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"230.0\" cy=\"112.4\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"290.0\" cy=\"137.6\" r=\"4.5\" fill=\"#216d87\"/><circle cx=\"350.0\" cy=\"159.5\" r=\"4.5\" fill=\"#216d87\"/><text x=\"215.0\" y=\"266.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">tid (h)</text><text x=\"18\" y=\"125\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" transform=\"rotate(-90 18 125)\">bränsle (liter)</text></svg></div><p>Hur mycket bränsle fanns i tanken från början enligt modellen? (Svara i liter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från början är \\(x=0\\). Då är \\(y=40\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40 liter.</p></div>",
+  "familj": "Jämföra modeller och modellkvalitet",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vad blir \\(y\\) när \\(x=0\\)?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 40,
+  "tolerans": 1e-09
+},
+{
+  "id": "2.907",
+  "kap": 2,
+  "omr": "regressionsanalys_olika_modeller",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Tabellen visar hur många som följde ett nytt konto på sociala medier de första veckorna.</p><table class=\"data\" style=\"width:100%;max-width:420px;text-align:center\"><thead><tr><th scope=\"col\">Vecka</th><th scope=\"col\">0</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr></thead><tbody><tr><td>Följare</td><td>50</td><td>100</td><td>200</td><td>400</td><td>800</td></tr></tbody></table><p>Vilken modelltyp passar bäst?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Antalet följare fördubblas varje vecka. Samma faktor varje steg ger en exponentiell modell.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En exponentiell modell.</p></div>",
+  "familj": "Välja regressionsmodell",
+  "formaga": [
+    "begrepp",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Jämför hur antalet förändras från vecka till vecka.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Linjär modell",
+      "ratt": false,
+      "kommentar": "Ökningen är inte lika stor varje vecka: 50, 100, 200, 400."
+    },
+    {
+      "txt": "Exponentiell modell",
+      "ratt": true
+    },
+    {
+      "txt": "Andragradsmodell",
+      "ratt": false,
+      "kommentar": "Antalet fördubblas, vilket ger exponentiell tillväxt."
+    }
+  ]
 }
 ];

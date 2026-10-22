@@ -147198,5 +147198,2952 @@ window.BANKMA1 = [
   "tolerans": 0.05,
   "svarFormat": "numeriskt",
   "svarEnhet": "m"
+},
+{
+  "id": "1.1300",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "x-termer i båda leden, utan konstant till vänster",
+  "t": "<p>Lös ekvationen \\(5x=2x+12\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5x-2x=12\\]</div></li><li><div class=\"facit-matte\">\\[3x=12\\]</div></li><li><div class=\"facit-matte\">\\[x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Subtrahera 2x från båda leden.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0
+},
+{
+  "id": "1.1301",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "balansvåg med lådor och vikter",
+  "t": "<p>Vågen är i balans. Alla lådor väger lika mycket, x kg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"150\" viewBox=\"0 0 420 150\" role=\"img\" aria-label=\"Balansvåg: fyra lådor x och en vikt på 3 kg väger lika mycket som två lådor x och en vikt på 11 kg.\"><title>Balansvåg: fyra lådor x och en vikt på 3 kg väger lika mycket som två lådor x och en vikt på 11 kg.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210,100 194,134 226,134\" fill=\"#9aa7b4\"/><line x1=\"18\" y1=\"100\" x2=\"402\" y2=\"100\" stroke=\"#172b3a\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"134\" x2=\"270\" y2=\"134\" stroke=\"#172b3a\" stroke-width=\"3\"/><rect x=\"37.0\" y=\"66\" width=\"44\" height=\"34\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"59.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><rect x=\"87.0\" y=\"66\" width=\"44\" height=\"34\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"109.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><rect x=\"137.0\" y=\"66\" width=\"44\" height=\"34\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"159.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><rect x=\"61.599999999999994\" y=\"30\" width=\"44\" height=\"34\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"83.6\" y=\"53.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><path d=\"M111.6 64 L116.6 34 L151.4 34 L156.4 64 Z\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><path d=\"M129.0 34 q5 -10 10 0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"134.0\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3 kg</text><rect x=\"233.0\" y=\"66\" width=\"44\" height=\"34\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"255.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><rect x=\"283.0\" y=\"66\" width=\"44\" height=\"34\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"305.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><path d=\"M333.0 100 L338.0 70 L380.0 70 L385.0 100 Z\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><path d=\"M354.0 70 q5 -10 10 0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"359.0\" y=\"91.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">11 kg</text></svg></span><p>Hur mycket väger en låda?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x+3=2x+11\\]</div></li><li><p>Ta bort två lådor från varje sida:</p></li><li><div class=\"facit-matte\">\\[2x+3=11\\]</div></li><li><div class=\"facit-matte\">\\[2x=8\\]</div></li><li><div class=\"facit-matte\">\\[x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En låda väger 4 kg.</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad händer om du tar bort lika många lådor från båda sidorna?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0,
+  "svarEnhet": "kg"
+},
+{
+  "id": "1.1302",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "x-term bara kvar till vänster efter subtraktion",
+  "t": "<p>Lös ekvationen \\(8x-6=5x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8x-5x-6=0\\]</div></li><li><div class=\"facit-matte\">\\[3x=6\\]</div></li><li><div class=\"facit-matte\">\\[x=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Samla x-termerna i vänsterledet.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0
+},
+{
+  "id": "1.1303",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "kontrollera en föreslagen lösning",
+  "t": "<p>Är \\(x=3\\) en lösning till ekvationen \\(4x-2=2x+4\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in \\(x=3\\) i båda leden.</p></li><li><div class=\"facit-matte\">\\[\\text{VL}=4\\cdot3-2=10\\]</div></li><li><div class=\"facit-matte\">\\[\\text{HL}=2\\cdot3+4=10\\]</div></li><li><p>Leden är lika, så \\(x=3\\) är en lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja.</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Sätt in x = 3 i vänsterledet och i högerledet. Blir de lika?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ja, båda leden blir 10",
+      "ratt": true
+    },
+    {
+      "txt": "Nej, vänsterledet blir 10 och högerledet 7",
+      "ratt": false,
+      "kommentar": "Räkna högerledet igen: 2 · 3 + 4 = 10."
+    },
+    {
+      "txt": "Nej, vänsterledet blir 12",
+      "ratt": false,
+      "kommentar": "4 · 3 − 2 = 10."
+    },
+    {
+      "txt": "Det går inte att avgöra utan att lösa ekvationen",
+      "ratt": false,
+      "kommentar": "Det räcker att sätta in värdet."
+    }
+  ]
+},
+{
+  "id": "1.1304",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "välja första steget",
+  "t": "<p>Kalle ska lösa \\(7x+2=3x+18\\). Han vill först samla alla x-termer i vänsterledet. Hur ser ekvationen ut efter det steget?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Subtrahera 3x från båda leden:</p></li><li><div class=\"facit-matte\">\\[7x-3x+2=18\\]</div></li><li><div class=\"facit-matte\">\\[4x+2=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x+2=18\\)</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad ska du subtrahera från båda leden för att x-termen till höger ska försvinna?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "4x + 2 = 18",
+      "ratt": true
+    },
+    {
+      "txt": "10x + 2 = 18",
+      "ratt": false,
+      "kommentar": "3x ska subtraheras, inte adderas."
+    },
+    {
+      "txt": "4x = 16 + 3x",
+      "ratt": false,
+      "kommentar": "Då har du ändrat fel term."
+    },
+    {
+      "txt": "7x = 3x + 16",
+      "ratt": false,
+      "kommentar": "Det steget flyttar talet 2, inte x-termen."
+    }
+  ]
+},
+{
+  "id": "1.1305",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "påsar med kulor",
+  "t": "<p>Alla påsar innehåller lika många kulor. Det ligger lika många kulor på båda sidorna av vågen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"126\" viewBox=\"0 0 420 126\" role=\"img\" aria-label=\"Balansvåg: tre påsar och fem kulor på vänster sida, en påse och tretton kulor på höger sida.\"><title>Balansvåg: tre påsar och fem kulor på vänster sida, en påse och tretton kulor på höger sida.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"124\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210,76 194,110 226,110\" fill=\"#9aa7b4\"/><line x1=\"18\" y1=\"76\" x2=\"402\" y2=\"76\" stroke=\"#172b3a\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"150\" y1=\"110\" x2=\"270\" y2=\"110\" stroke=\"#172b3a\" stroke-width=\"3\"/><circle cx=\"160.5\" cy=\"69\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"175.5\" cy=\"69\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"190.5\" cy=\"69\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"205.5\" cy=\"69\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"183.0\" cy=\"56\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><path d=\"M15.0 76 Q11.0 50 23.0 42 L43.0 42 Q55.0 50 51.0 76 Z\" fill=\"#f3ead8\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><line x1=\"23.0\" y1=\"42\" x2=\"43.0\" y2=\"42\" stroke=\"#8a6d3b\" stroke-width=\"3\"/><text x=\"33.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><path d=\"M61.0 76 Q57.0 50 69.0 42 L89.0 42 Q101.0 50 97.0 76 Z\" fill=\"#f3ead8\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><line x1=\"69.0\" y1=\"42\" x2=\"89.0\" y2=\"42\" stroke=\"#8a6d3b\" stroke-width=\"3\"/><text x=\"79.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><path d=\"M107.0 76 Q103.0 50 115.0 42 L135.0 42 Q147.0 50 143.0 76 Z\" fill=\"#f3ead8\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><line x1=\"115.0\" y1=\"42\" x2=\"135.0\" y2=\"42\" stroke=\"#8a6d3b\" stroke-width=\"3\"/><text x=\"125.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><circle cx=\"314.5\" cy=\"69\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"329.5\" cy=\"69\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"344.5\" cy=\"69\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"359.5\" cy=\"69\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"314.5\" cy=\"56\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"329.5\" cy=\"56\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"344.5\" cy=\"56\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"359.5\" cy=\"56\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"314.5\" cy=\"43\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"329.5\" cy=\"43\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"344.5\" cy=\"43\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"359.5\" cy=\"43\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><circle cx=\"337.0\" cy=\"30\" r=\"6.5\" fill=\"#9bc3a5\" stroke=\"#2f6b3c\" stroke-width=\"1.5\"/><path d=\"M261.0 76 Q257.0 50 269.0 42 L289.0 42 Q301.0 50 297.0 76 Z\" fill=\"#f3ead8\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><line x1=\"269.0\" y1=\"42\" x2=\"289.0\" y2=\"42\" stroke=\"#8a6d3b\" stroke-width=\"3\"/><text x=\"279.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text></svg></span><p>Hur många kulor finns i varje påse?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x+5=x+13\\]</div></li><li><div class=\"facit-matte\">\\[2x+5=13\\]</div></li><li><div class=\"facit-matte\">\\[2x=8\\]</div></li><li><div class=\"facit-matte\">\\[x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 kulor i varje påse.</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv en ekvation där x är antalet kulor i en påse.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0,
+  "svarEnhet": "kulor"
+},
+{
+  "id": "1.1306",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "värdetabell för två uttryck",
+  "t": "<p>Tabellen visar värdet av två uttryck för några värden på x.</p><table class=\"data\"><tbody><tr><th>\\(x\\)</th><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><th>\\(2x+5\\)</th><td>7</td><td>9</td><td>11</td><td>13</td></tr><tr><th>\\(4x-1\\)</th><td>3</td><td>7</td><td>11</td><td>15</td></tr></tbody></table><p>Vilket värde på x löser ekvationen \\(2x+5=4x-1\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Leta efter kolumnen där uttrycken har samma värde: för \\(x=3\\) är båda 11.</p></li><li><div class=\"facit-matte\">\\[2\\cdot3+5=11=4\\cdot3-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>I vilken kolumn är värdena lika?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0
+},
+{
+  "id": "1.1307",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "lösning ur grafer",
+  "t": "<p>Figuren visar graferna till \\(y=2x+1\\) och \\(y=-x+7\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Två räta linjer, y = 2x + 1 och y = −x + 7, som skär varandra i punkten (2, 5).\"><title>Två räta linjer, y = 2x + 1 och y = −x + 7, som skär varandra i punkten (2, 5).</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"55.0\" y1=\"26\" x2=\"55.0\" y2=\"256\" stroke=\"#e6ebf0\"/><line x1=\"111.7\" y1=\"26\" x2=\"111.7\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"111.7\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"168.3\" y1=\"26\" x2=\"168.3\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"168.3\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"225.0\" y1=\"26\" x2=\"225.0\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"225.0\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"281.7\" y1=\"26\" x2=\"281.7\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"281.7\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"338.3\" y1=\"26\" x2=\"338.3\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"338.3\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"395.0\" y1=\"26\" x2=\"395.0\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"395.0\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"55\" y1=\"256.0\" x2=\"395\" y2=\"256.0\" stroke=\"#e6ebf0\"/><line x1=\"55\" y1=\"233.0\" x2=\"395\" y2=\"233.0\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"237.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"55\" y1=\"210.0\" x2=\"395\" y2=\"210.0\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"214.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"55\" y1=\"187.0\" x2=\"395\" y2=\"187.0\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"191.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"55\" y1=\"164.0\" x2=\"395\" y2=\"164.0\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"55\" y1=\"141.0\" x2=\"395\" y2=\"141.0\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"55\" y1=\"118.0\" x2=\"395\" y2=\"118.0\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"122.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"55\" y1=\"95.0\" x2=\"395\" y2=\"95.0\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"99.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">7</text><line x1=\"55\" y1=\"72.0\" x2=\"395\" y2=\"72.0\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"76.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">8</text><line x1=\"55\" y1=\"49.0\" x2=\"395\" y2=\"49.0\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"53.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">9</text><line x1=\"55\" y1=\"26.0\" x2=\"395\" y2=\"26.0\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"55\" y1=\"256\" x2=\"401\" y2=\"256\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"55\" y1=\"256\" x2=\"55\" y2=\"20\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"395.0\" y=\"290.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">x</text><text x=\"61.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text><line x1=\"55.0\" y1=\"233.0\" x2=\"310.0\" y2=\"26.0\" stroke=\"#2f6fca\" stroke-width=\"2.8\"/><rect x=\"202.5\" y=\"20.7\" width=\"86.0\" height=\"19\" fill=\"#fff\"/><text x=\"284.5\" y=\"34.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#2f6fca\" font-weight=\"bold\">y = 2x + 1</text><line x1=\"55.0\" y1=\"95.0\" x2=\"395.0\" y2=\"233.0\" stroke=\"#c2410c\" stroke-width=\"2.8\"/><rect x=\"279.0\" y=\"229.2\" width=\"86.0\" height=\"19\" fill=\"#fff\"/><text x=\"361.0\" y=\"243.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">y = −x + 7</text></svg></span><p>Använd figuren för att lösa ekvationen \\(2x+1=-x+7\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lösningen är x-koordinaten för skärningspunkten. Linjerna skär varandra i \\((2,\\ 5)\\).</p></li><li><div class=\"facit-matte\">\\[2\\cdot2+1=5=-2+7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Var har uttrycken samma värde? Titta där linjerna möts.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0
+},
+{
+  "id": "1.1308",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "ingen lösning",
+  "t": "<p>Hur många lösningar har ekvationen \\(6x+1=6x+4\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Subtrahera 6x från båda leden:</p></li><li><div class=\"facit-matte\">\\[1=4\\]</div></li><li><p>Det är aldrig sant, så ekvationen saknar lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ingen lösning.</p></div>",
+  "familj": "Antal lösningar och parametrar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad blir kvar om du tar bort 6x från båda leden?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ingen lösning",
+      "ratt": true
+    },
+    {
+      "txt": "Exakt en lösning",
+      "ratt": false,
+      "kommentar": "x-termerna tar ut varandra, och kvar står 1 = 4."
+    },
+    {
+      "txt": "Oändligt många lösningar",
+      "ratt": false,
+      "kommentar": "Det gäller om det som blir kvar är sant, till exempel 4 = 4."
+    }
+  ]
+},
+{
+  "id": "1.1309",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "oändligt många lösningar",
+  "t": "<p>Hur många lösningar har ekvationen \\(3x+6=3(x+2)\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3(x+2)=3x+6\\]</div></li><li><p>Leden är identiska, så varje x är en lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Oändligt många.</p></div>",
+  "familj": "Antal lösningar och parametrar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera in i parentesen. Hur ser högerledet då ut?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Oändligt många lösningar",
+      "ratt": true
+    },
+    {
+      "txt": "Ingen lösning",
+      "ratt": false,
+      "kommentar": "Kvar står 6 = 6, vilket alltid är sant."
+    },
+    {
+      "txt": "Exakt en lösning",
+      "ratt": false,
+      "kommentar": "Båda leden är samma uttryck."
+    }
+  ]
+},
+{
+  "id": "1.1310",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "x-termer med minustecken",
+  "t": "<p>Lös ekvationen \\(10-x=x+2\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10=2x+2\\]</div></li><li><div class=\"facit-matte\">\\[8=2x\\]</div></li><li><div class=\"facit-matte\">\\[x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Addera x till båda leden.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0
+},
+{
+  "id": "1.1311",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "negativ lösning",
+  "t": "<p>För vilket värde på x har uttrycken \\(2x+9\\) och \\(5x+15\\) samma värde?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[9=3x+15\\]</div></li><li><div class=\"facit-matte\">\\[-6=3x\\]</div></li><li><div class=\"facit-matte\">\\[x=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Samla x-termerna där det blir flest x.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -2,
+  "tolerans": 0
+},
+{
+  "id": "1.1312",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "två mobilabonnemang",
+  "t": "<p>Med abonnemang A kostar varje minut 3 kr. Med abonnemang B betalar man 40 kr per månad och 1 kr per minut. Kostnaden är lika när</p><p>\\(3x=40+x\\)</p><p>där x är antalet samtalsminuter. Lös ekvationen. Hur många minuter är det?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x-x=40\\]</div></li><li><div class=\"facit-matte\">\\[2x=40\\]</div></li><li><div class=\"facit-matte\">\\[x=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 minuter.</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Subtrahera x från båda leden.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 20,
+  "tolerans": 0,
+  "svarEnhet": "min"
+},
+{
+  "id": "1.1313",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "två ljus brinner ned",
+  "t": "<p>Ljus A är 20 cm långt och blir 2 cm kortare varje timme. Ljus B är 14 cm och blir 1 cm kortare varje timme. Efter x timmar är ljusen lika långa:</p><p>\\(20-2x=14-x\\)</p><p>Efter hur många timmar är ljusen lika långa?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[20-14=2x-x\\]</div></li><li><div class=\"facit-matte\">\\[6=x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 6 timmar.</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Addera 2x till båda leden och subtrahera 14.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "svarEnhet": "h"
+},
+{
+  "id": "1.1314",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "decimaltal i båda leden",
+  "t": "<p>Lös ekvationen \\(1{,}5x+2=0{,}5x+6\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}5x-0{,}5x=6-2\\]</div></li><li><div class=\"facit-matte\">\\[x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur mycket blir 1,5x − 0,5x?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0
+},
+{
+  "id": "1.1315",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "bestäm konstanten så att x = 2 är en lösning",
+  "t": "<p>Bestäm talet c så att \\(x=2\\) är en lösning till \\(3x+c=x+10\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in \\(x=2\\):</p></li><li><div class=\"facit-matte\">\\[6+c=12\\]</div></li><li><div class=\"facit-matte\">\\[c=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c=6\\)</p></div>",
+  "familj": "Antal lösningar och parametrar",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Sätt in x = 2 och lös ut c.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0
+},
+{
+  "id": "1.1316",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "bestäm koefficienten så att x = 5 är en lösning",
+  "t": "<p>Ekvationen \\(ax=2x+15\\) har lösningen \\(x=5\\). Bestäm a.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5a=2\\cdot5+15\\]</div></li><li><div class=\"facit-matte\">\\[5a=25\\]</div></li><li><div class=\"facit-matte\">\\[a=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\)</p></div>",
+  "familj": "Antal lösningar och parametrar",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Sätt in x = 5. Då blir det en ekvation där a är okänt.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0
+},
+{
+  "id": "1.1317",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "hitta felet i en lösning",
+  "t": "<p>Mira löser \\(6x+4=2x+16\\) så här:</p><p>Steg 1: \\(8x+4=16\\)<br>Steg 2: \\(8x=12\\)<br>Steg 3: \\(x=1{,}5\\)</p><p>Vilket steg är fel?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I steg 1 har 2x adderats till vänsterledet i stället för att subtraheras.</p></li><li><div class=\"facit-matte\">\\[6x-2x+4=16\\]</div></li><li><div class=\"facit-matte\">\\[4x=12\\]</div></li><li><div class=\"facit-matte\">\\[x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Steg 1. Rätt lösning är \\(x=3\\).</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kontrollera vad som har gjorts med 2x i första steget.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Steg 1",
+      "ratt": true,
+      "kommentar": "2x ska subtraheras från båda leden: 4x + 4 = 16."
+    },
+    {
+      "txt": "Steg 2",
+      "ratt": false,
+      "kommentar": "Steg 2 följer av steg 1."
+    },
+    {
+      "txt": "Steg 3",
+      "ratt": false,
+      "kommentar": "12/8 = 1,5 är rätt räknat."
+    },
+    {
+      "txt": "Inget steg är fel",
+      "ratt": false,
+      "kommentar": "Kontrollera: x = 1,5 ger 13 i vänsterledet och 19 i högerledet."
+    }
+  ]
+},
+{
+  "id": "1.1318",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "två vattentankar fylls",
+  "t": "<p>Tank A innehåller 200 liter och fylls på med 30 liter per minut. Tank B innehåller 500 liter och fylls på med 10 liter per minut.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Två linjer som visar vattenmängden i tank A och tank B mot tiden. De skär varandra vid 15 minuter och 650 liter.\"><title>Två linjer som visar vattenmängden i tank A och tank B mot tiden. De skär varandra vid 15 minuter och 650 liter.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"55.0\" y1=\"26\" x2=\"55.0\" y2=\"256\" stroke=\"#e6ebf0\"/><line x1=\"140.0\" y1=\"26\" x2=\"140.0\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"140.0\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"225.0\" y1=\"26\" x2=\"225.0\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"225.0\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><line x1=\"310.0\" y1=\"26\" x2=\"310.0\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"310.0\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">15</text><line x1=\"395.0\" y1=\"26\" x2=\"395.0\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"395.0\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">20</text><line x1=\"55\" y1=\"256.0\" x2=\"395\" y2=\"256.0\" stroke=\"#e6ebf0\"/><line x1=\"55\" y1=\"230.4\" x2=\"395\" y2=\"230.4\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"234.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">100</text><line x1=\"55\" y1=\"204.9\" x2=\"395\" y2=\"204.9\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"208.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">200</text><line x1=\"55\" y1=\"179.3\" x2=\"395\" y2=\"179.3\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"183.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">300</text><line x1=\"55\" y1=\"153.8\" x2=\"395\" y2=\"153.8\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"157.8\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">400</text><line x1=\"55\" y1=\"128.2\" x2=\"395\" y2=\"128.2\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"132.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">500</text><line x1=\"55\" y1=\"102.7\" x2=\"395\" y2=\"102.7\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"106.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">600</text><line x1=\"55\" y1=\"77.1\" x2=\"395\" y2=\"77.1\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"81.1\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">700</text><line x1=\"55\" y1=\"51.6\" x2=\"395\" y2=\"51.6\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"55.6\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">800</text><line x1=\"55\" y1=\"26.0\" x2=\"395\" y2=\"26.0\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">900</text><line x1=\"55\" y1=\"256\" x2=\"401\" y2=\"256\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"55\" y1=\"256\" x2=\"55\" y2=\"20\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"395.0\" y=\"290.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">tid (min)</text><text x=\"61.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">liter</text><line x1=\"55.0\" y1=\"204.9\" x2=\"395.0\" y2=\"51.6\" stroke=\"#2f6fca\" stroke-width=\"2.8\"/><rect x=\"310.2\" y=\"40.9\" width=\"54.8\" height=\"19\" fill=\"#fff\"/><text x=\"361.0\" y=\"54.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#2f6fca\" font-weight=\"bold\">tank A</text><line x1=\"55.0\" y1=\"128.2\" x2=\"395.0\" y2=\"77.1\" stroke=\"#c2410c\" stroke-width=\"2.8\"/><rect x=\"310.2\" y=\"92.2\" width=\"54.8\" height=\"19\" fill=\"#fff\"/><text x=\"361.0\" y=\"106.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">tank B</text></svg></span><p>Efter x minuter innehåller tankarna lika mycket: \\(200+30x=500+10x\\). Lös ekvationen.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[30x-10x=500-200\\]</div></li><li><div class=\"facit-matte\">\\[20x=300\\]</div></li><li><div class=\"facit-matte\">\\[x=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 15 minuter.</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Samla x-termerna till vänster och talen till höger.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 15,
+  "tolerans": 0,
+  "svarEnhet": "min"
+},
+{
+  "id": "1.1319",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "sparande i två spargrisar",
+  "t": "<p>Noah har 120 kr i spargrisen och sparar 15 kr i veckan. Ella har 30 kr och sparar 25 kr i veckan.</p><p>Efter x veckor har de lika mycket: \\(120+15x=30+25x\\). Efter hur många veckor är det?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[120-30=25x-15x\\]</div></li><li><div class=\"facit-matte\">\\[90=10x\\]</div></li><li><div class=\"facit-matte\">\\[x=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 9 veckor.</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Subtrahera 15x och 30 från båda leden.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9,
+  "tolerans": 0,
+  "svarEnhet": "veckor"
+},
+{
+  "id": "1.1320",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "lika omkrets för två figurer",
+  "t": "<p>En kvadrat har sidan x cm. En rektangel har sidorna x cm och 6 cm. Kvadratens omkrets är 4x och rektangelns omkrets är 2x + 12.</p><p>Figurerna har samma omkrets: \\(4x=2x+12\\). Bestäm x.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x-2x=12\\]</div></li><li><div class=\"facit-matte\">\\[2x=12\\]</div></li><li><div class=\"facit-matte\">\\[x=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Subtrahera 2x från båda leden.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "svarEnhet": "cm"
+},
+{
+  "id": "1.1321",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "variabeln i högerledet blir störst",
+  "t": "<p>Lös ekvationen \\(x+11=4x+2\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[11=3x+2\\]</div></li><li><div class=\"facit-matte\">\\[9=3x\\]</div></li><li><div class=\"facit-matte\">\\[x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Subtrahera x från båda leden, så att x-termen hamnar till höger.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0
+},
+{
+  "id": "1.1322",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "vilket värde gör leden lika",
+  "t": "<p>Vilket av talen 1, 2, 3 och 4 är lösningen till \\(9x-7=5x+5\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x=12\\]</div></li><li><div class=\"facit-matte\">\\[x=3\\]</div></li><li><p>Kontroll: \\(9\\cdot3-7=20\\) och \\(5\\cdot3+5=20\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
+  "familj": "Antal lösningar och parametrar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Pröva talen eller lös ekvationen.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "3",
+      "ratt": true
+    },
+    {
+      "txt": "1",
+      "ratt": false,
+      "kommentar": "Vänsterledet blir 2 och högerledet 10."
+    },
+    {
+      "txt": "2",
+      "ratt": false,
+      "kommentar": "Vänsterledet blir 11 och högerledet 15."
+    },
+    {
+      "txt": "4",
+      "ratt": false,
+      "kommentar": "Vänsterledet blir 29 och högerledet 25."
+    }
+  ]
+},
+{
+  "id": "1.1323",
+  "kap": 1,
+  "omr": "ekv_flera_variabeltermer",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "x-termer i båda leden, båda negativa konstanter",
+  "t": "<p>Lös ekvationen \\(7x-9=4x-3\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x-9=-3\\]</div></li><li><div class=\"facit-matte\">\\[3x=6\\]</div></li><li><div class=\"facit-matte\">\\[x=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+  "familj": "Variabeltermer i båda leden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Subtrahera 4x och addera 9.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0
+},
+{
+  "id": "1.1324",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "parentes gånger tal, enkel",
+  "t": "<p>Lös ekvationen \\(2(x+3)=14\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela båda leden med 2:</p></li><li><div class=\"facit-matte\">\\[x+3=7\\]</div></li><li><div class=\"facit-matte\">\\[x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Du kan börja med att dela båda leden med 2.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0
+},
+{
+  "id": "1.1325",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "parentes och x-term i högerledet",
+  "t": "<p>Bestäm x så att \\(3(x-1)\\) blir lika mycket som \\(2x+5\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x-3=2x+5\\]</div></li><li><div class=\"facit-matte\">\\[x=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera in 3 i parentesen först.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 0
+},
+{
+  "id": "1.1326",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "minustecken framför parentes, ensam",
+  "t": "<p>Lös ekvationen \\(-(x-4)=1\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-x+4=1\\]</div></li><li><div class=\"facit-matte\">\\[-x=-3\\]</div></li><li><div class=\"facit-matte\">\\[x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
+  "familj": "Minustecken framför parentes",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ett minustecken framför en parentes byter tecken på alla termer i den.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0
+},
+{
+  "id": "1.1327",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "minus parentes med minus inuti",
+  "t": "<p>Lös ekvationen \\(12-(x-3)=10\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[12-x+3=10\\]</div></li><li><div class=\"facit-matte\">\\[15-x=10\\]</div></li><li><div class=\"facit-matte\">\\[x=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+  "familj": "Minustecken framför parentes",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>−(x − 3) blir −x + 3.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0
+},
+{
+  "id": "1.1328",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "ta bort parentes med minustecken",
+  "t": "<p>Vilket uttryck är lika med \\(9-(2x-1)\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[9-(2x-1)=9-2x+1=10-2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10-2x\\)</p></div>",
+  "familj": "Minustecken framför parentes",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Byt tecken på båda termerna i parentesen.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "10 − 2x",
+      "ratt": true
+    },
+    {
+      "txt": "8 − 2x",
+      "ratt": false,
+      "kommentar": "−(−1) blir +1, inte −1."
+    },
+    {
+      "txt": "9 − 2x − 1",
+      "ratt": false,
+      "kommentar": "Tecknet framför 1 ska bytas."
+    },
+    {
+      "txt": "10 + 2x",
+      "ratt": false,
+      "kommentar": "Tecknet framför 2x ska bytas till minus."
+    }
+  ]
+},
+{
+  "id": "1.1329",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "hitta felet med minustecken",
+  "t": "<p>Elias löser \\(4-(x+3)=2\\) så här:</p><p>Steg 1: \\(4-x+3=2\\)<br>Steg 2: \\(7-x=2\\)<br>Steg 3: \\(x=5\\)</p><p>Vilket steg är fel?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I steg 1 ska båda termerna byta tecken: \\(-(x+3)=-x-3\\).</p></li><li><div class=\"facit-matte\">\\[4-x-3=2\\]</div></li><li><div class=\"facit-matte\">\\[1-x=2\\]</div></li><li><div class=\"facit-matte\">\\[x=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Steg 1. Rätt lösning är \\(x=-1\\).</p></div>",
+  "familj": "Minustecken framför parentes",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad blir −(x + 3) när parentesen tas bort?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Steg 1",
+      "ratt": true,
+      "kommentar": "−(x + 3) = −x − 3."
+    },
+    {
+      "txt": "Steg 2",
+      "ratt": false,
+      "kommentar": "Steg 2 följer av steg 1."
+    },
+    {
+      "txt": "Steg 3",
+      "ratt": false,
+      "kommentar": "7 − x = 2 ger x = 5."
+    },
+    {
+      "txt": "Inget steg är fel",
+      "ratt": false,
+      "kommentar": "Kontrollera: 4 − (5 + 3) = −4, inte 2."
+    }
+  ]
+},
+{
+  "id": "1.1330",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "kvadrat och triangel med samma omkrets",
+  "t": "<p>Kvadraten har sidan x cm. Den liksidiga triangeln har sidan x + 2 cm. Figurerna har samma omkrets.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"En kvadrat med sidan x och en liksidig triangel med sidan x + 2.\"><title>En kvadrat med sidan x och en liksidig triangel med sidan x + 2.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"35\" width=\"110\" height=\"110\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><text x=\"95.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><polygon points=\"230,145 380,145 305,15\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><text x=\"305.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x + 2</text></svg></span><p>Lös ekvationen \\(4x=3(x+2)\\) och bestäm x.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x=3x+6\\]</div></li><li><div class=\"facit-matte\">\\[x=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera in 3 i parentesen.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "svarEnhet": "cm"
+},
+{
+  "id": "1.1331",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "biobesök med popcorn",
+  "t": "<p>Fyra vänner köper varsin biobiljett för x kr och varsin popcorn för 25 kr. Totalt betalar de 380 kr, alltså</p><p>\\(4(x+25)=380\\).</p><p>Vad kostar en biljett?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+25=95\\]</div></li><li><div class=\"facit-matte\">\\[x=70\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 70 kr.</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad betalar varje person? Dela båda leden med 4.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 70,
+  "tolerans": 0,
+  "svarEnhet": "kr"
+},
+{
+  "id": "1.1332",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "parentes med koefficient inuti",
+  "t": "<p>Lös ekvationen \\(3(2x-1)=15\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6x-3=15\\]</div></li><li><div class=\"facit-matte\">\\[6x=18\\]</div></li><li><div class=\"facit-matte\">\\[x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera in 3, eller dela båda leden med 3 först.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0
+},
+{
+  "id": "1.1333",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "dela först med talet framför parentesen",
+  "t": "<p>Lös ekvationen \\(6(x+4)=42\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+4=7\\]</div></li><li><div class=\"facit-matte\">\\[x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>42 är delbart med 6.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0
+},
+{
+  "id": "1.1334",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "kontrollera lösning med parentes",
+  "t": "<p>Är \\(x=2\\) en lösning till \\(3(x+1)=4x+1\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\text{VL}=3(2+1)=9\\]</div></li><li><div class=\"facit-matte\">\\[\\text{HL}=4\\cdot2+1=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja, båda leden blir 9.</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Sätt in x = 2 i båda leden.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ja",
+      "ratt": true,
+      "kommentar": "Båda leden blir 9."
+    },
+    {
+      "txt": "Nej",
+      "ratt": false,
+      "kommentar": "Räkna igen: 3 · 3 = 9 och 4 · 2 + 1 = 9."
+    }
+  ]
+},
+{
+  "id": "1.1335",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "parenteser i båda leden",
+  "t": "<p>Lös ekvationen \\(2(x+5)=3(x+2)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x+10=3x+6\\]</div></li><li><div class=\"facit-matte\">\\[4=x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera in i båda parenteserna först.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0
+},
+{
+  "id": "1.1336",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "negativt tal framför parentesen",
+  "t": "<p>Lös ekvationen \\(-2(x-3)=4\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2x+6=4\\]</div></li><li><div class=\"facit-matte\">\\[-2x=-2\\]</div></li><li><div class=\"facit-matte\">\\[x=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div>",
+  "familj": "Minustecken framför parentes",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>−2 · (−3) = +6.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1,
+  "tolerans": 0
+},
+{
+  "id": "1.1337",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "rektangelns area",
+  "t": "<p>Rektangeln har arean 32 cm².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"200\" viewBox=\"0 0 440 200\" role=\"img\" aria-label=\"Rektangel med höjden 4 och bredden x + 3.\"><title>Rektangel med höjden 4 och bredden x + 3.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"116.2\" y=\"25\" width=\"227.5\" height=\"130.0\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><text x=\"230.0\" y=\"181.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x + 3</text><text x=\"106.2\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">4</text><text x=\"230.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">32 cm²</text></svg></span><p>Bestäm x.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4(x+3)=32\\]</div></li><li><div class=\"facit-matte\">\\[x+3=8\\]</div></li><li><div class=\"facit-matte\">\\[x=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Arean är höjden gånger bredden.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0
+},
+{
+  "id": "1.1338",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "multiplicera in i parentesen",
+  "t": "<p>Hur ser ekvationen \\(5(x-2)=20\\) ut när parentesen har multiplicerats in?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5(x-2)=5x-10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x-10=20\\)</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Både x och 2 ska multipliceras med 5.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "5x − 10 = 20",
+      "ratt": true
+    },
+    {
+      "txt": "5x − 2 = 20",
+      "ratt": false,
+      "kommentar": "Även 2 ska multipliceras med 5."
+    },
+    {
+      "txt": "5x + 10 = 20",
+      "ratt": false,
+      "kommentar": "5 · (−2) = −10."
+    },
+    {
+      "txt": "x − 10 = 20",
+      "ratt": false,
+      "kommentar": "x ska också multipliceras med 5."
+    }
+  ]
+},
+{
+  "id": "1.1339",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "påsar med godis och extra bitar",
+  "t": "<p>Tre påsar innehåller vardera x godisbitar. Leo lägger 2 extra bitar i varje påse. Totalt finns det då 18 bitar i påsarna:</p><p>\\(3(x+2)=18\\)</p><p>Hur många bitar fanns det i varje påse från början?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+2=6\\]</div></li><li><div class=\"facit-matte\">\\[x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 bitar.</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många bitar finns i en påse efter påfyllningen?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0,
+  "svarEnhet": "bitar"
+},
+{
+  "id": "1.1340",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "parentes och konstant i samma led",
+  "t": "<p>Lös ekvationen \\(4(x-2)+3=11\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x-8+3=11\\]</div></li><li><div class=\"facit-matte\">\\[4x-5=11\\]</div></li><li><div class=\"facit-matte\">\\[4x=16\\]</div></li><li><div class=\"facit-matte\">\\[x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera in 4 och förenkla vänsterledet.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0
+},
+{
+  "id": "1.1341",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "dubbla skillnaden är talet självt",
+  "t": "<p>Lös ekvationen \\(2(x-4)=x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x-8=x\\]</div></li><li><div class=\"facit-matte\">\\[x=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera in 2 och subtrahera x från båda leden.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 0
+},
+{
+  "id": "1.1342",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "staket runt en hage",
+  "t": "<p>En rektangulär hage är x m bred och 10 m lång. Staketet runt hagen är 32 m långt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"200\" viewBox=\"0 0 440 200\" role=\"img\" aria-label=\"Rektangulär hage med längden 10 m och bredden x.\"><title>Rektangulär hage med längden 10 m och bredden x.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"121.7\" y=\"25\" width=\"216.7\" height=\"130.0\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><text x=\"230.0\" y=\"181.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">10 m</text><text x=\"111.7\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">x</text></svg></span><p>Omkretsen ges av \\(2(x+10)=32\\). Hur bred är hagen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+10=16\\]</div></li><li><div class=\"facit-matte\">\\[x=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 m.</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Dela båda leden med 2.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "svarEnhet": "m"
+},
+{
+  "id": "1.1343",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "minus parentes i högerledet",
+  "t": "<p>Lös ekvationen \\(3x=20-(x+4)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x=20-x-4\\]</div></li><li><div class=\"facit-matte\">\\[3x=16-x\\]</div></li><li><div class=\"facit-matte\">\\[4x=16\\]</div></li><li><div class=\"facit-matte\">\\[x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+  "familj": "Minustecken framför parentes",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ta bort parentesen och byt tecken på termerna i den.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0
+},
+{
+  "id": "1.1344",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "decimal i lösningen",
+  "t": "<p>Lös ekvationen \\(2(x+1)=7\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+1=3{,}5\\]</div></li><li><div class=\"facit-matte\">\\[x=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2{,}5\\)</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Dela båda leden med 2.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.5,
+  "tolerans": 0
+},
+{
+  "id": "1.1345",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "välj ekvation för medlemsavgifter",
+  "t": "<p>En förening har x medlemmar. Varje medlem betalar 150 kr i årsavgift och 50 kr för en tröja. Föreningen får in 6 000 kr.</p><p>Vilken ekvation beskriver situationen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje medlem betalar \\(150+50\\) kr, och det finns \\(x\\) medlemmar.</p></li><li><div class=\"facit-matte\">\\[x(150+50)=6000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x(150+50)=6000\\)</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "modellering"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur mycket betalar en medlem? Hur många medlemmar finns det?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "x(150 + 50) = 6 000",
+      "ratt": true
+    },
+    {
+      "txt": "150x + 50 = 6 000",
+      "ratt": false,
+      "kommentar": "Då betalar bara en person för tröjan."
+    },
+    {
+      "txt": "150 + 50x = 6 000",
+      "ratt": false,
+      "kommentar": "Då betalar bara en person årsavgiften."
+    },
+    {
+      "txt": "x + 150 + 50 = 6 000",
+      "ratt": false,
+      "kommentar": "Avgifterna ska multipliceras med antalet medlemmar."
+    }
+  ]
+},
+{
+  "id": "1.1346",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "x delat med tal",
+  "t": "<p>Lös ekvationen \\(\\frac{x}{4}=6\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=6\\cdot4=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=24\\)</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera båda leden med 4.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 24,
+  "tolerans": 0
+},
+{
+  "id": "1.1347",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "x delat med tal och subtraktion",
+  "t": "<p>Lös ekvationen \\(\\frac{x}{5}-2=1\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{x}{5}=3\\]</div></li><li><div class=\"facit-matte\">\\[x=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=15\\)</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Addera 2 först.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 15,
+  "tolerans": 0
+},
+{
+  "id": "1.1348",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "koefficient i täljaren",
+  "t": "<p>Lös ekvationen \\(\\frac{2x}{3}=8\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x=24\\]</div></li><li><div class=\"facit-matte\">\\[x=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=12\\)</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera båda leden med 3.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0
+},
+{
+  "id": "1.1349",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "summa i täljaren",
+  "t": "<p>Lös ekvationen \\(\\frac{x+3}{2}=7\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+3=14\\]</div></li><li><div class=\"facit-matte\">\\[x=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=11\\)</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera båda leden med 2.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 11,
+  "tolerans": 0
+},
+{
+  "id": "1.1350",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "medelvärde av två tal",
+  "t": "<p>Medelvärdet av x och 10 är 8. Det ger ekvationen \\(\\frac{x+10}{2}=8\\). Bestäm x.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+10=16\\]</div></li><li><div class=\"facit-matte\">\\[x=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera båda leden med 2.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0
+},
+{
+  "id": "1.1351",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "dela en nota",
+  "t": "<p>Tre vänner delar lika på en restaurangnota på x kr. Var och en betalar 145 kr, alltså \\(\\frac{x}{3}=145\\). Hur stor var notan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=3\\cdot145=435\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 435 kr.</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera båda leden med 3.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 435,
+  "tolerans": 0,
+  "svarEnhet": "kr"
+},
+{
+  "id": "1.1352",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "två halvor",
+  "t": "<p>Förenkla \\(\\frac{x}{2}+\\frac{x}{2}\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{x}{2}+\\frac{x}{2}=\\frac{2x}{2}=x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\)</p></div>",
+  "familj": "Bråk i uttryck",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Två halvor är en hel.</p>",
+  "svarstyp": "uttryck",
+  "svarFormat": "förenklat_polynom",
+  "rättSvar": "x",
+  "tolerans": null
+},
+{
+  "id": "1.1353",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "x i nämnaren",
+  "t": "<p>Lös ekvationen \\(\\frac{12}{x}=3\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[12=3x\\]</div></li><li><div class=\"facit-matte\">\\[x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera båda leden med x.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0
+},
+{
+  "id": "1.1354",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "multiplicera bort nämnaren",
+  "t": "<p>Malin vill bli av med nämnaren i \\(\\frac{x}{5}+1=4\\) genom att multiplicera båda leden med 5. Vilken ekvation får hon?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5\\cdot\\frac{x}{5}+5\\cdot1=5\\cdot4\\]</div></li><li><div class=\"facit-matte\">\\[x+5=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+5=20\\)</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Alla termer i båda leden ska multipliceras med 5.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "x + 5 = 20",
+      "ratt": true
+    },
+    {
+      "txt": "x + 1 = 20",
+      "ratt": false,
+      "kommentar": "Även 1 ska multipliceras med 5."
+    },
+    {
+      "txt": "x + 5 = 4",
+      "ratt": false,
+      "kommentar": "Högerledet ska också multipliceras med 5."
+    },
+    {
+      "txt": "5x + 5 = 20",
+      "ratt": false,
+      "kommentar": "5 · x/5 = x."
+    }
+  ]
+},
+{
+  "id": "1.1355",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "en tredjedel av klassen cyklar",
+  "t": "<p>En tredjedel av eleverna i en klass cyklar till skolan. Det är 9 elever.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"150\" viewBox=\"0 0 420 150\" role=\"img\" aria-label=\"Stapelmodell: hela klassen x är delad i tre lika delar. En del är 9 elever.\"><title>Stapelmodell: hela klassen x är delad i tre lika delar. En del är 9 elever.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30.0\" y=\"50\" width=\"120.0\" height=\"44\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><rect x=\"150.0\" y=\"50\" width=\"120.0\" height=\"44\" fill=\"#eef4fb\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><rect x=\"270.0\" y=\"50\" width=\"120.0\" height=\"44\" fill=\"#eef4fb\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><path d=\"M30 42 q0 -14 14 -14 L376 28 q14 0 14 14\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.5\"/><rect x=\"150.0\" y=\"14\" width=\"120\" height=\"22\" fill=\"#fff\"/><text x=\"210.0\" y=\"31.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x elever</text><path d=\"M30 102 q0 12 12 12 L138.0 114 q12 0 12 -12\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"1.5\"/><text x=\"90.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">9 elever</text></svg></span><p>Lös \\(\\frac{x}{3}=9\\). Hur många elever går i klassen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=3\\cdot9=27\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 27 elever.</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Om en del är 9, hur mycket är tre delar?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 27,
+  "tolerans": 0,
+  "svarEnhet": "elever"
+},
+{
+  "id": "1.1356",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "värdet av ett uttryck med bråk",
+  "t": "<p>Beräkna värdet av \\(\\frac{x}{3}+\\frac{x}{6}\\) när \\(x=12\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{12}{3}+\\frac{12}{6}=4+2=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
+  "familj": "Bråk i uttryck",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Sätt in 12 i stället för x i båda bråken.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0
+},
+{
+  "id": "1.1357",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "förkorta ett bråk med x",
+  "t": "<p>Förenkla \\(\\frac{6x}{3}\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{6x}{3}=2x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x\\)</p></div>",
+  "familj": "Bråk i uttryck",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Dela 6 med 3.</p>",
+  "svarstyp": "uttryck",
+  "svarFormat": "förenklat_polynom",
+  "rättSvar": "2x",
+  "tolerans": null
+},
+{
+  "id": "1.1358",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "två fjärdedelar",
+  "t": "<p>Förenkla \\(\\frac{x}{4}+\\frac{x}{4}\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{x}{4}+\\frac{x}{4}=\\frac{2x}{4}=\\frac{x}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{x}{2}\\)</p></div>",
+  "familj": "Bråk i uttryck",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Bråken har samma nämnare. Addera täljarna.</p>",
+  "svarstyp": "uttryck",
+  "svarFormat": "förenklat_polynom",
+  "rättSvar": "x/2",
+  "tolerans": null
+},
+{
+  "id": "1.1359",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "tre fjärdedelar av x",
+  "t": "<p>Lös ekvationen \\(\\frac{3x}{4}=9\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x=36\\]</div></li><li><div class=\"facit-matte\">\\[x=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=12\\)</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera båda leden med 4 och dela sedan med 3.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0
+},
+{
+  "id": "1.1360",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "differens i täljaren",
+  "t": "<p>Lös ekvationen \\(\\frac{x-1}{3}=4\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x-1=12\\]</div></li><li><div class=\"facit-matte\">\\[x=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=13\\)</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera båda leden med 3.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 13,
+  "tolerans": 0
+},
+{
+  "id": "1.1361",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "hälften av ett tal plus tre",
+  "t": "<p>Hälften av ett tal ökat med 3 är 10. Det ger \\(\\frac{x}{2}+3=10\\). Vilket är talet?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{x}{2}=7\\]</div></li><li><div class=\"facit-matte\">\\[x=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Subtrahera 3 och multiplicera sedan med 2.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 14,
+  "tolerans": 0
+},
+{
+  "id": "1.1362",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "hitta felet: dividera i stället för multiplicera",
+  "t": "<p>Lova löser \\(\\frac{x}{4}=3\\) och skriver \\(x=\\frac{3}{4}\\). Vad har hon gjort fel?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För att få x ensamt ska båda leden multipliceras med 4, inte divideras.</p></li><li><div class=\"facit-matte\">\\[x=3\\cdot4=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hon har dividerat med 4 i stället för att multiplicera. Rätt svar är \\(x=12\\).</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad är motsatsen till att dela med 4?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Hon har dividerat med 4 i stället för att multiplicera. Rätt svar är x = 12.",
+      "ratt": true
+    },
+    {
+      "txt": "Inget, x = 3/4 är rätt.",
+      "ratt": false,
+      "kommentar": "Kontrollera: (3/4)/4 = 3/16, inte 3."
+    },
+    {
+      "txt": "Hon skulle ha subtraherat 4. Rätt svar är x = −1.",
+      "ratt": false,
+      "kommentar": "x är delat med 4, inte ökat med 4."
+    },
+    {
+      "txt": "Hon skulle ha adderat 4. Rätt svar är x = 7.",
+      "ratt": false,
+      "kommentar": "Det upphäver inte en division."
+    }
+  ]
+},
+{
+  "id": "1.1363",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "en fjärdedel av en sträcka",
+  "t": "<p>Sara har cyklat en fjärdedel av vägen till sin mormor. Det är 3 km.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"150\" viewBox=\"0 0 420 150\" role=\"img\" aria-label=\"Stapelmodell: hela sträckan x är delad i fyra lika delar. En del är 3 km.\"><title>Stapelmodell: hela sträckan x är delad i fyra lika delar. En del är 3 km.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30.0\" y=\"50\" width=\"90.0\" height=\"44\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><rect x=\"120.0\" y=\"50\" width=\"90.0\" height=\"44\" fill=\"#eef4fb\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><rect x=\"210.0\" y=\"50\" width=\"90.0\" height=\"44\" fill=\"#eef4fb\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><rect x=\"300.0\" y=\"50\" width=\"90.0\" height=\"44\" fill=\"#eef4fb\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><path d=\"M30 42 q0 -14 14 -14 L376 28 q14 0 14 14\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.5\"/><rect x=\"150.0\" y=\"14\" width=\"120\" height=\"22\" fill=\"#fff\"/><text x=\"210.0\" y=\"31.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x km</text><path d=\"M30 102 q0 12 12 12 L108.0 114 q12 0 12 -12\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"1.5\"/><text x=\"75.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">3 km</text></svg></span><p>Hur lång är hela vägen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{x}{4}=3\\]</div></li><li><div class=\"facit-matte\">\\[x=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 km.</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>En del av fyra är 3 km.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0,
+  "svarEnhet": "km"
+},
+{
+  "id": "1.1364",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "två femtedelar",
+  "t": "<p>Lös ekvationen \\(\\frac{2x}{5}=4\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x=20\\]</div></li><li><div class=\"facit-matte\">\\[x=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\)</p></div>",
+  "familj": "Ekvationer med nämnare",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera båda leden med 5.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 0
+},
+{
+  "id": "1.1365",
+  "kap": 1,
+  "omr": "ekv_brak",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "samma sak som x/2",
+  "t": "<p>Vilket uttryck är lika med \\(\\frac{x}{2}\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{x}{2}=\\frac12\\cdot x=0{,}5x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}5x\\)</p></div>",
+  "familj": "Bråk i uttryck",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Att dela med 2 är samma sak som att ta hälften.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "0,5x",
+      "ratt": true
+    },
+    {
+      "txt": "2x",
+      "ratt": false,
+      "kommentar": "Det är dubbla x, inte hälften."
+    },
+    {
+      "txt": "x − 2",
+      "ratt": false,
+      "kommentar": "Det är att subtrahera 2."
+    },
+    {
+      "txt": "x/0,5",
+      "ratt": false,
+      "kommentar": "Att dela med 0,5 ger dubbla x."
+    }
+  ]
+},
+{
+  "id": "1.1366",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "tänk på ett tal",
+  "t": "<p>Lisa tänker på ett tal. Hon multiplicerar det med 3 och adderar 5. Då får hon 26.</p><p>Vilket tal tänkte hon på?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x+5=26\\]</div></li><li><div class=\"facit-matte\">\\[3x=21\\]</div></li><li><div class=\"facit-matte\">\\[x=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kalla talet x och skriv en ekvation.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 7,
+  "tolerans": 0
+},
+{
+  "id": "1.1367",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "biljetter och avgift",
+  "t": "<p>Fyra konsertbiljetter kostar lika mycket var. Dessutom tillkommer en serviceavgift på 30 kr. Totalt kostar det 230 kr.</p><p>Vad kostar en biljett?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x+30=230\\]</div></li><li><div class=\"facit-matte\">\\[4x=200\\]</div></li><li><div class=\"facit-matte\">\\[x=50\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 kr.</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kalla priset för en biljett x.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 50,
+  "tolerans": 0,
+  "svarEnhet": "kr"
+},
+{
+  "id": "1.1368",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "välj ekvation för gymkort",
+  "t": "<p>Ett gym tar 200 kr i startavgift och 150 kr per månad. Leo har betalat 1 250 kr totalt. Låt x vara antalet månader.</p><p>Vilken ekvation beskriver situationen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[200+150x=1250\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(200+150x=1250\\)</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Startavgiften betalas en gång. Månadsavgiften betalas x gånger.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "200 + 150x = 1 250",
+      "ratt": true
+    },
+    {
+      "txt": "200x + 150 = 1 250",
+      "ratt": false,
+      "kommentar": "Då betalas startavgiften varje månad."
+    },
+    {
+      "txt": "(200 + 150)x = 1 250",
+      "ratt": false,
+      "kommentar": "Startavgiften betalas bara en gång."
+    },
+    {
+      "txt": "150x = 1 250 + 200",
+      "ratt": false,
+      "kommentar": "Startavgiften ingår i de 1 250 kr."
+    }
+  ]
+},
+{
+  "id": "1.1369",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "taxiresa",
+  "t": "<p>En taxiresa kostar 45 kr i startavgift och 12 kr per kilometer. En resa kostade 189 kr.</p><p>Hur lång var resan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[45+12x=189\\]</div></li><li><div class=\"facit-matte\">\\[12x=144\\]</div></li><li><div class=\"facit-matte\">\\[x=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 km.</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Subtrahera startavgiften först.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0,
+  "svarEnhet": "km"
+},
+{
+  "id": "1.1370",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "ålder: tre gånger så gammal",
+  "t": "<p>Mamma är tre gånger så gammal som Leo. Tillsammans är de 48 år.</p><p>Hur gammal är Leo?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+3x=48\\]</div></li><li><div class=\"facit-matte\">\\[4x=48\\]</div></li><li><div class=\"facit-matte\">\\[x=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 år.</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kalla Leos ålder x. Hur gammal är då mamma?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0,
+  "svarEnhet": "år"
+},
+{
+  "id": "1.1371",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "vinklar i en triangel",
+  "t": "<p>Vinkelsumman i en triangel är 180°.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"230\" viewBox=\"0 0 420 230\" role=\"img\" aria-label=\"Triangel med vinklarna x, 2x och 60 grader.\"><title>Triangel med vinklarna x, 2x och 60 grader.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40,200 380,200 150,30\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"76.8\" y=\"186.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">x</text><text x=\"319.3\" y=\"186.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">60°</text><text x=\"155.4\" y=\"65.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">2x</text></svg></span><p>Bestäm x.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+2x+60=180\\]</div></li><li><div class=\"facit-matte\">\\[3x=120\\]</div></li><li><div class=\"facit-matte\">\\[x=40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=40^\\circ\\)</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Summan av de tre vinklarna är 180°.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 40,
+  "tolerans": 0,
+  "svarEnhet": "°"
+},
+{
+  "id": "1.1372",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "läsa skärningspunkt mellan två prislinjer",
+  "t": "<p>Grafen visar kostnaden för att hyra en släpvagn hos två firmor. Firma A tar 300 kr plus 2 kr per km. Firma B tar 100 kr plus 4 kr per km.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Två linjer som visar kostnaden mot körsträckan för firma A och firma B. De skär varandra vid 100 km och 500 kr.\"><title>Två linjer som visar kostnaden mot körsträckan för firma A och firma B. De skär varandra vid 100 km och 500 kr.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"55.0\" y1=\"26\" x2=\"55.0\" y2=\"256\" stroke=\"#e6ebf0\"/><line x1=\"97.5\" y1=\"26\" x2=\"97.5\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"97.5\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">25</text><line x1=\"140.0\" y1=\"26\" x2=\"140.0\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"140.0\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">50</text><line x1=\"182.5\" y1=\"26\" x2=\"182.5\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"182.5\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">75</text><line x1=\"225.0\" y1=\"26\" x2=\"225.0\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"225.0\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">100</text><line x1=\"267.5\" y1=\"26\" x2=\"267.5\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"267.5\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">125</text><line x1=\"310.0\" y1=\"26\" x2=\"310.0\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"310.0\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">150</text><line x1=\"352.5\" y1=\"26\" x2=\"352.5\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"352.5\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">175</text><line x1=\"395.0\" y1=\"26\" x2=\"395.0\" y2=\"256\" stroke=\"#e6ebf0\"/><text x=\"395.0\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">200</text><line x1=\"55\" y1=\"256.0\" x2=\"395\" y2=\"256.0\" stroke=\"#e6ebf0\"/><line x1=\"55\" y1=\"230.4\" x2=\"395\" y2=\"230.4\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"234.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">100</text><line x1=\"55\" y1=\"204.9\" x2=\"395\" y2=\"204.9\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"208.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">200</text><line x1=\"55\" y1=\"179.3\" x2=\"395\" y2=\"179.3\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"183.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">300</text><line x1=\"55\" y1=\"153.8\" x2=\"395\" y2=\"153.8\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"157.8\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">400</text><line x1=\"55\" y1=\"128.2\" x2=\"395\" y2=\"128.2\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"132.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">500</text><line x1=\"55\" y1=\"102.7\" x2=\"395\" y2=\"102.7\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"106.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">600</text><line x1=\"55\" y1=\"77.1\" x2=\"395\" y2=\"77.1\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"81.1\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">700</text><line x1=\"55\" y1=\"51.6\" x2=\"395\" y2=\"51.6\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"55.6\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">800</text><line x1=\"55\" y1=\"26.0\" x2=\"395\" y2=\"26.0\" stroke=\"#e6ebf0\"/><text x=\"48.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">900</text><line x1=\"55\" y1=\"256\" x2=\"401\" y2=\"256\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"55\" y1=\"256\" x2=\"55\" y2=\"20\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"395.0\" y=\"290.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">km</text><text x=\"61.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">kr</text><line x1=\"55.0\" y1=\"179.3\" x2=\"395.0\" y2=\"77.1\" stroke=\"#2f6fca\" stroke-width=\"2.8\"/><rect x=\"349.2\" y=\"97.3\" width=\"15.8\" height=\"19\" fill=\"#fff\"/><text x=\"361.0\" y=\"111.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#2f6fca\" font-weight=\"bold\">A</text><line x1=\"55.0\" y1=\"230.4\" x2=\"395.0\" y2=\"26.0\" stroke=\"#c2410c\" stroke-width=\"2.8\"/><rect x=\"349.2\" y=\"20.4\" width=\"15.8\" height=\"19\" fill=\"#fff\"/><text x=\"361.0\" y=\"34.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">B</text></svg></span><p>Vid vilken körsträcka kostar firmorna lika mycket?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Linjerna skär varandra vid 100 km.</p></li><li><div class=\"facit-matte\">\\[300+2\\cdot100=500=100+4\\cdot100\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vid 100 km.</p></div>",
+  "familj": "Jämföra kostnader med ekvationer",
+  "formaga": [
+    "begrepp",
+    "modellering"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Var möts linjerna?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 100,
+  "tolerans": 0,
+  "svarEnhet": "km"
+},
+{
+  "id": "1.1373",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "tre tal i rad",
+  "t": "<p>Summan av tre heltal som kommer direkt efter varandra är 48. Kalla det minsta talet x.</p><p>Vilket är det minsta talet?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+(x+1)+(x+2)=48\\]</div></li><li><div class=\"facit-matte\">\\[3x+3=48\\]</div></li><li><div class=\"facit-matte\">\\[3x=45\\]</div></li><li><div class=\"facit-matte\">\\[x=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>De andra två talen är x + 1 och x + 2.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 15,
+  "tolerans": 0
+},
+{
+  "id": "1.1374",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "cykla dubbelt så långt",
+  "t": "<p>Ella cyklar x km på måndagen och dubbelt så långt på tisdagen. Totalt cyklar hon 27 km.</p><p>Hur långt cyklar hon på måndagen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+2x=27\\]</div></li><li><div class=\"facit-matte\">\\[3x=27\\]</div></li><li><div class=\"facit-matte\">\\[x=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9 km.</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur långt cyklar hon på tisdagen, uttryckt i x?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9,
+  "tolerans": 0,
+  "svarEnhet": "km"
+},
+{
+  "id": "1.1375",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "påsar och lösa bullar",
+  "t": "<p>Fem påsar innehåller lika många bullar. Dessutom finns 3 lösa bullar. Totalt finns det 43 bullar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"110\" viewBox=\"0 0 420 110\" role=\"img\" aria-label=\"Fem påsar märkta x och tre lösa bullar.\"><title>Fem påsar märkta x och tre lösa bullar.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"108\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M32 80 Q28 54 40 46 L60 46 Q72 54 68 80 Z\" fill=\"#f3ead8\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><line x1=\"40\" y1=\"46\" x2=\"60\" y2=\"46\" stroke=\"#8a6d3b\" stroke-width=\"3\"/><text x=\"50.0\" y=\"69.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><path d=\"M84 80 Q80 54 92 46 L112 46 Q124 54 120 80 Z\" fill=\"#f3ead8\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><line x1=\"92\" y1=\"46\" x2=\"112\" y2=\"46\" stroke=\"#8a6d3b\" stroke-width=\"3\"/><text x=\"102.0\" y=\"69.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><path d=\"M136 80 Q132 54 144 46 L164 46 Q176 54 172 80 Z\" fill=\"#f3ead8\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><line x1=\"144\" y1=\"46\" x2=\"164\" y2=\"46\" stroke=\"#8a6d3b\" stroke-width=\"3\"/><text x=\"154.0\" y=\"69.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><path d=\"M188 80 Q184 54 196 46 L216 46 Q228 54 224 80 Z\" fill=\"#f3ead8\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><line x1=\"196\" y1=\"46\" x2=\"216\" y2=\"46\" stroke=\"#8a6d3b\" stroke-width=\"3\"/><text x=\"206.0\" y=\"69.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><path d=\"M240 80 Q236 54 248 46 L268 46 Q280 54 276 80 Z\" fill=\"#f3ead8\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><line x1=\"248\" y1=\"46\" x2=\"268\" y2=\"46\" stroke=\"#8a6d3b\" stroke-width=\"3\"/><text x=\"258.0\" y=\"69.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><circle cx=\"318\" cy=\"68\" r=\"12\" fill=\"#e7b46a\" stroke=\"#8a6d3b\" stroke-width=\"1.8\"/><circle cx=\"348\" cy=\"68\" r=\"12\" fill=\"#e7b46a\" stroke=\"#8a6d3b\" stroke-width=\"1.8\"/><circle cx=\"378\" cy=\"68\" r=\"12\" fill=\"#e7b46a\" stroke=\"#8a6d3b\" stroke-width=\"1.8\"/></svg></span><p>Hur många bullar finns det i varje påse?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5x+3=43\\]</div></li><li><div class=\"facit-matte\">\\[5x=40\\]</div></li><li><div class=\"facit-matte\">\\[x=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 bullar.</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv en ekvation där x är antalet bullar i en påse.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 0,
+  "svarEnhet": "bullar"
+},
+{
+  "id": "1.1376",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "timlön och bonus",
+  "t": "<p>Amir har 130 kr i timmen och fick dessutom 200 kr i bonus. Totalt tjänade han 2 280 kr.</p><p>Hur många timmar arbetade han?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[130x+200=2280\\]</div></li><li><div class=\"facit-matte\">\\[130x=2080\\]</div></li><li><div class=\"facit-matte\">\\[x=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 timmar.</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Dra bort bonusen först.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 16,
+  "tolerans": 0,
+  "svarEnhet": "h"
+},
+{
+  "id": "1.1377",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "dubblat och minskat",
+  "t": "<p>När ett tal dubbleras och sedan minskas med 7 blir resultatet 25.</p><p>Vilket är talet?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x-7=25\\]</div></li><li><div class=\"facit-matte\">\\[2x=32\\]</div></li><li><div class=\"facit-matte\">\\[x=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kalla talet x. Vad är det dubbla talet minus 7?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 16,
+  "tolerans": 0
+},
+{
+  "id": "1.1378",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "likbent triangel med känd omkrets",
+  "t": "<p>Triangeln är likbent och har omkretsen 34 cm. Måtten är i cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" role=\"img\" aria-label=\"Likbent triangel med basen 10 cm och två lika långa sidor x.\"><title>Likbent triangel med basen 10 cm och två lika långa sidor x.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"80,205 340,205 210,25\" fill=\"#eef4fb\" stroke=\"#2f6fca\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"210.0\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">10</text><text x=\"296.8\" y=\"110.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text><text x=\"123.2\" y=\"110.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">x</text></svg></span><p>Bestäm x.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+x+10=34\\]</div></li><li><div class=\"facit-matte\">\\[2x=24\\]</div></li><li><div class=\"facit-matte\">\\[x=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 cm.</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>De två lika långa sidorna och basen ska tillsammans bli 34.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0,
+  "svarEnhet": "cm"
+},
+{
+  "id": "1.1379",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "streamingtjänst",
+  "t": "<p>En streamingtjänst kostar 99 kr i månaden. Hittills har Noor betalat 594 kr.</p><p>Hur många månader har hon haft tjänsten?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[99x=594\\]</div></li><li><div class=\"facit-matte\">\\[x=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 månader.</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Dela den totala kostnaden med månadskostnaden.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "svarEnhet": "månader"
+},
+{
+  "id": "1.1380",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "ett tal och dess dubbla",
+  "t": "<p>Jonna lägger ihop ett tal med dubbla talet och får 36. Vilket tal började hon med?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+2x=36\\]</div></li><li><div class=\"facit-matte\">\\[3x=36\\]</div></li><li><div class=\"facit-matte\">\\[x=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Talet är x. Vad är det dubbla?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "12",
+      "ratt": true
+    },
+    {
+      "txt": "18",
+      "ratt": false,
+      "kommentar": "18 + 36 = 54."
+    },
+    {
+      "txt": "9",
+      "ratt": false,
+      "kommentar": "9 + 18 = 27."
+    },
+    {
+      "txt": "24",
+      "ratt": false,
+      "kommentar": "24 + 48 = 72."
+    }
+  ]
+},
+{
+  "id": "1.1381",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "penna och sudd",
+  "t": "<p>Ett sudd kostar 8 kr mindre än en penna. Tillsammans kostar de 30 kr.</p><p>Vad kostar pennan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+(x-8)=30\\]</div></li><li><div class=\"facit-matte\">\\[2x-8=30\\]</div></li><li><div class=\"facit-matte\">\\[2x=38\\]</div></li><li><div class=\"facit-matte\">\\[x=19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19 kr.</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kalla pennans pris x. Vad kostar då suddet?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 19,
+  "tolerans": 0,
+  "svarEnhet": "kr"
+},
+{
+  "id": "1.1382",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "dela ett rep",
+  "t": "<p>Ett 20 m långt rep delas i två delar. Den ena delen är 4 m längre än den andra.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"100\" viewBox=\"0 0 420 100\" role=\"img\" aria-label=\"Ett rep på 20 m delat i två delar, x och x + 4.\"><title>Ett rep på 20 m delat i två delar, x och x + 4.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"98\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30\" y1=\"45\" x2=\"190\" y2=\"45\" stroke=\"#2f6fca\" stroke-width=\"8\" stroke-linecap=\"round\"/><line x1=\"196\" y1=\"45\" x2=\"390\" y2=\"45\" stroke=\"#c2410c\" stroke-width=\"8\" stroke-linecap=\"round\"/><text x=\"110.0\" y=\"78.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">x</text><text x=\"293.0\" y=\"78.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">x + 4</text><text x=\"210.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">20 m</text></svg></span><p>Hur lång är den kortare delen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+(x+4)=20\\]</div></li><li><div class=\"facit-matte\">\\[2x+4=20\\]</div></li><li><div class=\"facit-matte\">\\[x=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 m.</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kalla den kortare delen x.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 0,
+  "svarEnhet": "m"
+},
+{
+  "id": "1.1383",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "kvadratens sida ur omkretsen",
+  "t": "<p>En kvadrat har omkretsen 36 cm.</p><p>Hur lång är en sida?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x=36\\]</div></li><li><div class=\"facit-matte\">\\[x=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9 cm.</p></div>",
+  "familj": "Ställa upp och lösa ekvationer",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>En kvadrat har fyra lika långa sidor.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9,
+  "tolerans": 0,
+  "svarEnhet": "cm"
+},
+{
+  "id": "1.1384",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "spara till en cykel",
+  "t": "<p>Tyra har 600 kr och sparar 150 kr i månaden. Hon vill köpa en cykel för 2 400 kr.</p><p>Hur många månader måste hon spara?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[600+150x=2400\\]</div></li><li><div class=\"facit-matte\">\\[150x=1800\\]</div></li><li><div class=\"facit-matte\">\\[x=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 månader.</p></div>",
+  "familj": "Problemlösning i flera steg",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur mycket saknas? Hur många månader tar det att spara ihop det?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0,
+  "svarEnhet": "månader"
+},
+{
+  "id": "1.1385",
+  "kap": 1,
+  "omr": "ekv_problemlosning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "två cykeluthyrningar",
+  "t": "<p>Uthyrning A tar 40 kr per timme. Uthyrning B tar 60 kr i grundavgift och 25 kr per timme. Efter x timmar kostar de lika mycket:</p><p>\\(40x=60+25x\\)</p><p>Efter hur många timmar kostar de lika mycket?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[15x=60\\]</div></li><li><div class=\"facit-matte\">\\[x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 4 timmar.</p></div>",
+  "familj": "Jämföra kostnader med ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Subtrahera 25x från båda leden.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0,
+  "svarEnhet": "h"
 }
 ];

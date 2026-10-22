@@ -199497,5 +199497,641 @@ window.BANK = [
   "svarFormat": "numeriskt",
   "svarEnhet": "W",
   "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar"
+},
+{
+  "id": "3.600",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "läsa av accelerationen i en hiss",
+  "poang": "(1/0/0)",
+  "t": "<p>En hiss startar och åker uppåt. Diagrammet visar hissens acceleration. Uppåt är positiv riktning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram för en hiss: 1 meter per sekundkvadrat mellan 0 och 2 s, noll mellan 2 och 6 s och minus 1 mellan 6 och 8 s.\"><title>a-t-diagram för en hiss: 1 meter per sekundkvadrat mellan 0 och 2 s, noll mellan 2 och 6 s och minus 1 mellan 6 och 8 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"102.5\" y1=\"40\" x2=\"102.5\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"102.5\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"145.0\" y1=\"40\" x2=\"145.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"145.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"187.5\" y1=\"40\" x2=\"187.5\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"187.5\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"230.0\" y1=\"40\" x2=\"230.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"230.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"272.5\" y1=\"40\" x2=\"272.5\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"272.5\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"315.0\" y1=\"40\" x2=\"315.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"315.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"357.5\" y1=\"40\" x2=\"357.5\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"357.5\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−1,5</text><line x1=\"60\" y1=\"190.0\" x2=\"400\" y2=\"190.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><line x1=\"60\" y1=\"160.0\" x2=\"400\" y2=\"160.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−0,5</text><line x1=\"60\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"100.0\" x2=\"400\" y2=\"100.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0,5</text><line x1=\"60\" y1=\"70.0\" x2=\"400\" y2=\"70.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"74.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1,5</text><line x1=\"60\" y1=\"130.0\" x2=\"408\" y2=\"130.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><line x1=\"60.0\" y1=\"70.0\" x2=\"145.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"145.0\" y1=\"70.0\" x2=\"145.0\" y2=\"130.0\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"145.0\" y1=\"130.0\" x2=\"315.0\" y2=\"130.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"315.0\" y1=\"130.0\" x2=\"315.0\" y2=\"190.0\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"315.0\" y1=\"190.0\" x2=\"400.0\" y2=\"190.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Hur stor är hissens acceleration vid t = 1 s? (Svara i m/s².)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mellan 0 och 2 s ligger grafen på 1 m/s².</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 m/s².</p></div>",
+  "familj": "Tolka a-t-diagram",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs av grafens höjd vid t = 1 s.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1,
+  "tolerans": 0.01,
+  "svarEnhet": "m/s²"
+},
+{
+  "id": "3.601",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "accelerationen när hissen åker jämnt",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet visar accelerationen hos en hiss under en resa uppåt, från start till stopp. Uppåt är positiv riktning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram för en hiss: 1 meter per sekundkvadrat mellan 0 och 2 s, noll mellan 2 och 6 s och minus 1 mellan 6 och 8 s.\"><title>a-t-diagram för en hiss: 1 meter per sekundkvadrat mellan 0 och 2 s, noll mellan 2 och 6 s och minus 1 mellan 6 och 8 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"102.5\" y1=\"40\" x2=\"102.5\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"102.5\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"145.0\" y1=\"40\" x2=\"145.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"145.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"187.5\" y1=\"40\" x2=\"187.5\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"187.5\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"230.0\" y1=\"40\" x2=\"230.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"230.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"272.5\" y1=\"40\" x2=\"272.5\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"272.5\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"315.0\" y1=\"40\" x2=\"315.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"315.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"357.5\" y1=\"40\" x2=\"357.5\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"357.5\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−1,5</text><line x1=\"60\" y1=\"190.0\" x2=\"400\" y2=\"190.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><line x1=\"60\" y1=\"160.0\" x2=\"400\" y2=\"160.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−0,5</text><line x1=\"60\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"100.0\" x2=\"400\" y2=\"100.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0,5</text><line x1=\"60\" y1=\"70.0\" x2=\"400\" y2=\"70.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"74.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1,5</text><line x1=\"60\" y1=\"130.0\" x2=\"408\" y2=\"130.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><line x1=\"60.0\" y1=\"70.0\" x2=\"145.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"145.0\" y1=\"70.0\" x2=\"145.0\" y2=\"130.0\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"145.0\" y1=\"130.0\" x2=\"315.0\" y2=\"130.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"315.0\" y1=\"130.0\" x2=\"315.0\" y2=\"190.0\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"315.0\" y1=\"190.0\" x2=\"400.0\" y2=\"190.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Hur stor är accelerationen vid t = 4 s? (Svara i m/s².)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mellan 2 och 6 s ligger grafen på t-axeln, alltså \\(a=0\\). Hissen åker då med konstant hastighet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0 m/s².</p></div>",
+  "familj": "Tolka a-t-diagram",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Var ligger grafen vid t = 4 s?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0,
+  "tolerans": 0.01,
+  "svarEnhet": "m/s²"
+},
+{
+  "id": "3.602",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "hur länge accelererar bilen",
+  "poang": "(1/0/0)",
+  "t": "<p>En bil startar vid ett trafikljus. Diagrammet visar bilens acceleration.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram: 2 meter per sekundkvadrat från 0 till 6 s, sedan noll till 10 s.\"><title>a-t-diagram: 2 meter per sekundkvadrat från 0 till 6 s, sedan noll till 10 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"94.0\" y1=\"40\" x2=\"94.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"94.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"128.0\" y1=\"40\" x2=\"128.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"128.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"162.0\" y1=\"40\" x2=\"162.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"162.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"196.0\" y1=\"40\" x2=\"196.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"196.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"230.0\" y1=\"40\" x2=\"230.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"230.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"264.0\" y1=\"40\" x2=\"264.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"264.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"298.0\" y1=\"40\" x2=\"298.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"298.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"332.0\" y1=\"40\" x2=\"332.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"332.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"366.0\" y1=\"40\" x2=\"366.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"366.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">9</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"160.0\" x2=\"400\" y2=\"160.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"60\" y1=\"100.0\" x2=\"400\" y2=\"100.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"60\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"60.0\" y1=\"100.0\" x2=\"264.0\" y2=\"100.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"264.0\" y1=\"100.0\" x2=\"264.0\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"264.0\" y1=\"220.0\" x2=\"400.0\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Under hur lång tid accelererar bilen? (Svara i s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Accelerationen är skild från noll mellan 0 och 6 s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 s.</p></div>",
+  "familj": "Tolka a-t-diagram",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>När blir accelerationen noll?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0.06,
+  "svarEnhet": "s"
+},
+{
+  "id": "3.603",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "välja diagram för konstant hastighet",
+  "poang": "(1/0/0)",
+  "t": "<p>En tågvagn rullar med konstant hastighet 12 m/s på en rak räls.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"Fyra små a-t-diagram. A: vågrät linje på t-axeln. B: linje som stiger från noll. C: vågrät linje ovanför t-axeln. D: vågrät linje under t-axeln.\"><title>Fyra små a-t-diagram. A: vågrät linje på t-axeln. B: linje som stiger från noll. C: vågrät linje ovanför t-axeln. D: vågrät linje under t-axeln.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"45.0\" y1=\"35\" x2=\"45.0\" y2=\"125\" stroke=\"#e3e8ee\"/><line x1=\"85.0\" y1=\"35\" x2=\"85.0\" y2=\"125\" stroke=\"#e3e8ee\"/><line x1=\"125.0\" y1=\"35\" x2=\"125.0\" y2=\"125\" stroke=\"#e3e8ee\"/><line x1=\"165.0\" y1=\"35\" x2=\"165.0\" y2=\"125\" stroke=\"#e3e8ee\"/><line x1=\"205.0\" y1=\"35\" x2=\"205.0\" y2=\"125\" stroke=\"#e3e8ee\"/><line x1=\"45\" y1=\"125.0\" x2=\"205\" y2=\"125.0\" stroke=\"#e3e8ee\"/><line x1=\"45\" y1=\"102.5\" x2=\"205\" y2=\"102.5\" stroke=\"#e3e8ee\"/><line x1=\"45\" y1=\"80.0\" x2=\"205\" y2=\"80.0\" stroke=\"#e3e8ee\"/><line x1=\"45\" y1=\"57.5\" x2=\"205\" y2=\"57.5\" stroke=\"#e3e8ee\"/><line x1=\"45\" y1=\"35.0\" x2=\"205\" y2=\"35.0\" stroke=\"#e3e8ee\"/><line x1=\"45\" y1=\"80.0\" x2=\"213\" y2=\"80.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"45\" y1=\"125\" x2=\"45\" y2=\"27\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"23.0\" y=\"45.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><text x=\"53.0\" y=\"29.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"start\" fill=\"#5b6773\">a</text><text x=\"211.0\" y=\"75.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">t</text><polyline points=\"45.0,80.0 205.0,80.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.8\"/><line x1=\"250.0\" y1=\"35\" x2=\"250.0\" y2=\"125\" stroke=\"#e3e8ee\"/><line x1=\"290.0\" y1=\"35\" x2=\"290.0\" y2=\"125\" stroke=\"#e3e8ee\"/><line x1=\"330.0\" y1=\"35\" x2=\"330.0\" y2=\"125\" stroke=\"#e3e8ee\"/><line x1=\"370.0\" y1=\"35\" x2=\"370.0\" y2=\"125\" stroke=\"#e3e8ee\"/><line x1=\"410.0\" y1=\"35\" x2=\"410.0\" y2=\"125\" stroke=\"#e3e8ee\"/><line x1=\"250\" y1=\"125.0\" x2=\"410\" y2=\"125.0\" stroke=\"#e3e8ee\"/><line x1=\"250\" y1=\"102.5\" x2=\"410\" y2=\"102.5\" stroke=\"#e3e8ee\"/><line x1=\"250\" y1=\"80.0\" x2=\"410\" y2=\"80.0\" stroke=\"#e3e8ee\"/><line x1=\"250\" y1=\"57.5\" x2=\"410\" y2=\"57.5\" stroke=\"#e3e8ee\"/><line x1=\"250\" y1=\"35.0\" x2=\"410\" y2=\"35.0\" stroke=\"#e3e8ee\"/><line x1=\"250\" y1=\"125.0\" x2=\"418\" y2=\"125.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"250\" y1=\"125\" x2=\"250\" y2=\"27\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"228.0\" y=\"45.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><text x=\"258.0\" y=\"29.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"start\" fill=\"#5b6773\">a</text><text x=\"416.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">t</text><polyline points=\"250.0,125.0 410.0,35.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.8\"/><line x1=\"45.0\" y1=\"170\" x2=\"45.0\" y2=\"260\" stroke=\"#e3e8ee\"/><line x1=\"85.0\" y1=\"170\" x2=\"85.0\" y2=\"260\" stroke=\"#e3e8ee\"/><line x1=\"125.0\" y1=\"170\" x2=\"125.0\" y2=\"260\" stroke=\"#e3e8ee\"/><line x1=\"165.0\" y1=\"170\" x2=\"165.0\" y2=\"260\" stroke=\"#e3e8ee\"/><line x1=\"205.0\" y1=\"170\" x2=\"205.0\" y2=\"260\" stroke=\"#e3e8ee\"/><line x1=\"45\" y1=\"260.0\" x2=\"205\" y2=\"260.0\" stroke=\"#e3e8ee\"/><line x1=\"45\" y1=\"237.5\" x2=\"205\" y2=\"237.5\" stroke=\"#e3e8ee\"/><line x1=\"45\" y1=\"215.0\" x2=\"205\" y2=\"215.0\" stroke=\"#e3e8ee\"/><line x1=\"45\" y1=\"192.5\" x2=\"205\" y2=\"192.5\" stroke=\"#e3e8ee\"/><line x1=\"45\" y1=\"170.0\" x2=\"205\" y2=\"170.0\" stroke=\"#e3e8ee\"/><line x1=\"45\" y1=\"215.0\" x2=\"213\" y2=\"215.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"45\" y1=\"260\" x2=\"45\" y2=\"162\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"23.0\" y=\"180.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><text x=\"53.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"start\" fill=\"#5b6773\">a</text><text x=\"211.0\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">t</text><polyline points=\"45.0,192.5 205.0,192.5\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.8\"/><line x1=\"250.0\" y1=\"170\" x2=\"250.0\" y2=\"260\" stroke=\"#e3e8ee\"/><line x1=\"290.0\" y1=\"170\" x2=\"290.0\" y2=\"260\" stroke=\"#e3e8ee\"/><line x1=\"330.0\" y1=\"170\" x2=\"330.0\" y2=\"260\" stroke=\"#e3e8ee\"/><line x1=\"370.0\" y1=\"170\" x2=\"370.0\" y2=\"260\" stroke=\"#e3e8ee\"/><line x1=\"410.0\" y1=\"170\" x2=\"410.0\" y2=\"260\" stroke=\"#e3e8ee\"/><line x1=\"250\" y1=\"260.0\" x2=\"410\" y2=\"260.0\" stroke=\"#e3e8ee\"/><line x1=\"250\" y1=\"237.5\" x2=\"410\" y2=\"237.5\" stroke=\"#e3e8ee\"/><line x1=\"250\" y1=\"215.0\" x2=\"410\" y2=\"215.0\" stroke=\"#e3e8ee\"/><line x1=\"250\" y1=\"192.5\" x2=\"410\" y2=\"192.5\" stroke=\"#e3e8ee\"/><line x1=\"250\" y1=\"170.0\" x2=\"410\" y2=\"170.0\" stroke=\"#e3e8ee\"/><line x1=\"250\" y1=\"215.0\" x2=\"418\" y2=\"215.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"250\" y1=\"260\" x2=\"250\" y2=\"162\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"228.0\" y=\"180.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"258.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"start\" fill=\"#5b6773\">a</text><text x=\"416.0\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">t</text><polyline points=\"250.0,237.5 410.0,237.5\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.8\"/></svg></span><p>Vilket a-t-diagram passar för tågvagnen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Konstant hastighet betyder att hastigheten inte ändras. Då är accelerationen noll hela tiden, och grafen ligger på t-axeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+  "familj": "Tolka a-t-diagram",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ändras hastigheten? Vad betyder det för accelerationen?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A",
+      "ratt": true
+    },
+    {
+      "txt": "B",
+      "ratt": false,
+      "kommentar": "Där ökar accelerationen hela tiden."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "Där är accelerationen positiv, så hastigheten ökar."
+    },
+    {
+      "txt": "D",
+      "ratt": false,
+      "kommentar": "Där är accelerationen negativ, så hastigheten minskar."
+    }
+  ]
+},
+{
+  "id": "3.604",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "negativ acceleration när man rör sig framåt",
+  "poang": "(1/0/0)",
+  "t": "<p>En cyklist rör sig framåt, som är positiv riktning. Hennes a-t-diagram är en vågrät linje under t-axeln.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram med en vågrät linje på minus 1 meter per sekundkvadrat mellan 0 och 4 s.\"><title>a-t-diagram med en vågrät linje på minus 1 meter per sekundkvadrat mellan 0 och 4 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"145.0\" y1=\"40\" x2=\"145.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"145.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"230.0\" y1=\"40\" x2=\"230.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"230.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"315.0\" y1=\"40\" x2=\"315.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"315.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−2</text><line x1=\"60\" y1=\"175.0\" x2=\"400\" y2=\"175.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"179.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><line x1=\"60\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"85.0\" x2=\"400\" y2=\"85.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"60\" y1=\"130.0\" x2=\"408\" y2=\"130.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><line x1=\"60.0\" y1=\"175.0\" x2=\"400.0\" y2=\"175.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Vad händer med cyklistens fart?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Accelerationen är negativ medan hastigheten är positiv. Accelerationen är alltså riktad bakåt, och farten minskar med 1 m/s varje sekund.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten minskar.</p></div>",
+  "familj": "Tolka a-t-diagram",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Accelerationen och hastigheten har olika tecken.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Farten minskar",
+      "ratt": true
+    },
+    {
+      "txt": "Farten ökar",
+      "ratt": false,
+      "kommentar": "Det gäller om accelerationen har samma tecken som hastigheten."
+    },
+    {
+      "txt": "Farten är konstant",
+      "ratt": false,
+      "kommentar": "Det gäller om a = 0."
+    },
+    {
+      "txt": "Cyklisten står stilla",
+      "ratt": false,
+      "kommentar": "Hon rör sig framåt enligt texten."
+    }
+  ]
+},
+{
+  "id": "3.605",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "vad arean betyder",
+  "poang": "(1/0/0)",
+  "t": "<p>Under en a-t-graf kan man beräkna en area. Rektangelns sidor är en acceleration (m/s²) och en tid (s).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram: 2 meter per sekundkvadrat mellan 0 och 3 s, sedan noll.\"><title>a-t-diagram: 2 meter per sekundkvadrat mellan 0 och 3 s, sedan noll.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"128.0\" y1=\"40\" x2=\"128.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"128.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"196.0\" y1=\"40\" x2=\"196.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"196.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"264.0\" y1=\"40\" x2=\"264.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"264.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"332.0\" y1=\"40\" x2=\"332.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"332.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"160.0\" x2=\"400\" y2=\"160.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"60\" y1=\"100.0\" x2=\"400\" y2=\"100.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"60\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"60.0\" y1=\"100.0\" x2=\"264.0\" y2=\"100.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"264.0\" y1=\"100.0\" x2=\"264.0\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"264.0\" y1=\"220.0\" x2=\"400.0\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Vad motsvarar arean under grafen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Arean är \\(a\\cdot t\\), och det är hur mycket hastigheten ändras.</p></li><li><div class=\"facit-matte\">\\[2\\ \\mathrm{m/s^2}\\cdot3\\ \\mathrm s=6\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hastighetsändringen.</p></div>",
+  "familj": "Tolka a-t-diagram",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken enhet får du om du multiplicerar m/s² med s?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Hastighetsändringen",
+      "ratt": true
+    },
+    {
+      "txt": "Sträckan",
+      "ratt": false,
+      "kommentar": "Sträckan är arean under en v-t-graf."
+    },
+    {
+      "txt": "Hastigheten vid t = 0",
+      "ratt": false,
+      "kommentar": "Arean visar hur mycket hastigheten ändras, inte startvärdet."
+    },
+    {
+      "txt": "Accelerationens ändring",
+      "ratt": false,
+      "kommentar": "Den ändringen syns som höjdskillnader i grafen."
+    }
+  ]
+},
+{
+  "id": "3.606",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "fritt fall i ett a-t-diagram",
+  "poang": "(1/0/0)",
+  "t": "<p>En sten släpps från en bro och faller fritt. Uppåt är positiv riktning. Bortse från luftmotståndet.</p><p>Hur ser stenens a-t-diagram ut medan den faller?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I fritt fall är accelerationen konstant och lika med tyngdaccelerationen, riktad nedåt. Med uppåt som positiv riktning ligger grafen därför på \\(-9{,}82\\ \\mathrm{m/s^2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En vågrät linje på −9,82 m/s².</p></div>",
+  "familj": "Tolka a-t-diagram",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Är accelerationen konstant under ett fritt fall? Åt vilket håll är den riktad?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "En vågrät linje på −9,82 m/s²",
+      "ratt": true
+    },
+    {
+      "txt": "En vågrät linje på +9,82 m/s²",
+      "ratt": false,
+      "kommentar": "Accelerationen är riktad nedåt, och uppåt är positiv."
+    },
+    {
+      "txt": "En linje som sjunker från 0 och nedåt",
+      "ratt": false,
+      "kommentar": "Det beskriver hastigheten, inte accelerationen."
+    },
+    {
+      "txt": "En vågrät linje på 0",
+      "ratt": false,
+      "kommentar": "Stenen ökar sin fart, så accelerationen är inte noll."
+    }
+  ]
+},
+{
+  "id": "3.607",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "när ökar hastigheten snabbast",
+  "poang": "(1/0/0)",
+  "t": "<p>En leksaksbil rör sig framåt. Diagrammet visar bilens acceleration.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram: 1 mellan 0 och 2 s, 3 mellan 2 och 4 s och 0,5 mellan 4 och 7 s.\"><title>a-t-diagram: 1 mellan 0 och 2 s, 3 mellan 2 och 4 s och 0,5 mellan 4 och 7 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"108.6\" y1=\"40\" x2=\"108.6\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"108.6\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"157.1\" y1=\"40\" x2=\"157.1\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"157.1\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"205.7\" y1=\"40\" x2=\"205.7\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"205.7\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"254.3\" y1=\"40\" x2=\"254.3\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"254.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"302.9\" y1=\"40\" x2=\"302.9\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"302.9\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"351.4\" y1=\"40\" x2=\"351.4\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"351.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"175.0\" x2=\"400\" y2=\"175.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"179.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"60\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"60\" y1=\"85.0\" x2=\"400\" y2=\"85.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"60\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"60.0\" y1=\"175.0\" x2=\"157.1\" y2=\"175.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"157.1\" y1=\"175.0\" x2=\"157.1\" y2=\"85.0\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"157.1\" y1=\"85.0\" x2=\"254.3\" y2=\"85.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"254.3\" y1=\"85.0\" x2=\"254.3\" y2=\"197.5\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"254.3\" y1=\"197.5\" x2=\"400.0\" y2=\"197.5\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Under vilket tidsintervall ökar bilens hastighet snabbast?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hastigheten ökar snabbast där accelerationen är störst, alltså där grafen ligger högst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2–4 s.</p></div>",
+  "familj": "Tolka a-t-diagram",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Accelerationen anger hur snabbt hastigheten ändras.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "2–4 s",
+      "ratt": true
+    },
+    {
+      "txt": "0–2 s",
+      "ratt": false,
+      "kommentar": "Där är accelerationen bara 1 m/s²."
+    },
+    {
+      "txt": "4–7 s",
+      "ratt": false,
+      "kommentar": "Intervallet är längst, men accelerationen är minst."
+    },
+    {
+      "txt": "Lika snabbt hela tiden",
+      "ratt": false,
+      "kommentar": "Accelerationen är olika stor i de tre intervallen."
+    }
+  ]
+},
+{
+  "id": "3.608",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "enheten för arean",
+  "poang": "(1/0/0)",
+  "t": "<p>Vilken enhet får arean under en graf i ett a-t-diagram, där a är i m/s² och t i s?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\mathrm{\\frac{m}{s^2}\\cdot s=\\frac{m}{s}}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> m/s.</p></div>",
+  "familj": "Tolka a-t-diagram",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera enheterna på axlarna.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "m/s",
+      "ratt": true
+    },
+    {
+      "txt": "m",
+      "ratt": false,
+      "kommentar": "Det får man ur en v-t-graf."
+    },
+    {
+      "txt": "m/s²",
+      "ratt": false,
+      "kommentar": "Det är enheten på a-axeln."
+    },
+    {
+      "txt": "m/s³",
+      "ratt": false,
+      "kommentar": "Sekunderna ska förkortas, inte multipliceras in i nämnaren."
+    }
+  ]
+},
+{
+  "id": "3.609",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "hastighetsändring ur en rektangel",
+  "poang": "(1/0/0)",
+  "t": "<p>En elsparkcykel accelererar på en rak väg. Diagrammet visar accelerationen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram: 2 meter per sekundkvadrat mellan 0 och 5 s, sedan noll.\"><title>a-t-diagram: 2 meter per sekundkvadrat mellan 0 och 5 s, sedan noll.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"108.6\" y1=\"40\" x2=\"108.6\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"108.6\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"157.1\" y1=\"40\" x2=\"157.1\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"157.1\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"205.7\" y1=\"40\" x2=\"205.7\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"205.7\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"254.3\" y1=\"40\" x2=\"254.3\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"254.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"302.9\" y1=\"40\" x2=\"302.9\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"302.9\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"351.4\" y1=\"40\" x2=\"351.4\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"351.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"160.0\" x2=\"400\" y2=\"160.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"60\" y1=\"100.0\" x2=\"400\" y2=\"100.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"60\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"60.0\" y1=\"100.0\" x2=\"302.9\" y2=\"100.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"302.9\" y1=\"100.0\" x2=\"302.9\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"302.9\" y1=\"220.0\" x2=\"400.0\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Hur mycket ökar hastigheten under de första 5 sekunderna? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta v=a\\cdot t=2\\cdot5=10\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 m/s.</p></div>",
+  "familj": "Hastighetsändring ur a-t-diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beräkna arean under grafen mellan 0 och 5 s.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 0.1,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "3.610",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "sluthastighet med starthastighet",
+  "poang": "(1/0/0)",
+  "t": "<p>En bil har hastigheten 4 m/s vid t = 0. Diagrammet visar bilens acceleration.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram: 1 meter per sekundkvadrat mellan 0 och 6 s.\"><title>a-t-diagram: 1 meter per sekundkvadrat mellan 0 och 6 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"116.7\" y1=\"40\" x2=\"116.7\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"116.7\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"173.3\" y1=\"40\" x2=\"173.3\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"173.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"230.0\" y1=\"40\" x2=\"230.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"230.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"286.7\" y1=\"40\" x2=\"286.7\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"286.7\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"343.3\" y1=\"40\" x2=\"343.3\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"343.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"175.0\" x2=\"400\" y2=\"175.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"179.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0,5</text><line x1=\"60\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"60\" y1=\"85.0\" x2=\"400\" y2=\"85.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1,5</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"60\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"60.0\" y1=\"130.0\" x2=\"400.0\" y2=\"130.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Vilken hastighet har bilen vid t = 6 s? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta v=1\\cdot6=6\\ \\mathrm{m/s}\\]</div></li><li><div class=\"facit-matte\">\\[v=4+6=10\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 m/s.</p></div>",
+  "familj": "Hastighetsändring ur a-t-diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Arean ger hur mycket hastigheten ökar. Lägg till starthastigheten.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 0.1,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "3.611",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "inbromsning med negativ acceleration",
+  "poang": "(1/0/0)",
+  "t": "<p>En bil kör i 20 m/s när föraren bromsar. Diagrammet visar bilens acceleration. Färdriktningen är positiv.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram: minus 4 meter per sekundkvadrat mellan 0 och 5 s.\"><title>a-t-diagram: minus 4 meter per sekundkvadrat mellan 0 och 5 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"128.0\" y1=\"40\" x2=\"128.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"128.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"196.0\" y1=\"40\" x2=\"196.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"196.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"264.0\" y1=\"40\" x2=\"264.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"264.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"332.0\" y1=\"40\" x2=\"332.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"332.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−5</text><line x1=\"60\" y1=\"190.0\" x2=\"400\" y2=\"190.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−4</text><line x1=\"60\" y1=\"160.0\" x2=\"400\" y2=\"160.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−3</text><line x1=\"60\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−2</text><line x1=\"60\" y1=\"100.0\" x2=\"400\" y2=\"100.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><line x1=\"60\" y1=\"70.0\" x2=\"400\" y2=\"70.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"60\" y1=\"70.0\" x2=\"408\" y2=\"70.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"75.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><line x1=\"60.0\" y1=\"190.0\" x2=\"400.0\" y2=\"190.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Vilken hastighet har bilen vid t = 3 s? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta v=-4\\cdot3=-12\\ \\mathrm{m/s}\\]</div></li><li><div class=\"facit-matte\">\\[v=20-12=8\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 m/s.</p></div>",
+  "familj": "Hastighetsändring ur a-t-diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Arean under t-axeln är en minskning av hastigheten.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 0.08,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "3.612",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "hiss som får fart",
+  "poang": "(1/0/0)",
+  "t": "<p>En hiss står stilla och startar uppåt. Diagrammet visar hissens acceleration under starten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram: 1,2 meter per sekundkvadrat mellan 0 och 2,5 s, sedan noll.\"><title>a-t-diagram: 1,2 meter per sekundkvadrat mellan 0 och 2,5 s, sedan noll.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"102.5\" y1=\"40\" x2=\"102.5\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"102.5\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">0,5</text><line x1=\"145.0\" y1=\"40\" x2=\"145.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"145.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"187.5\" y1=\"40\" x2=\"187.5\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"187.5\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1,5</text><line x1=\"230.0\" y1=\"40\" x2=\"230.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"230.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"272.5\" y1=\"40\" x2=\"272.5\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"272.5\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2,5</text><line x1=\"315.0\" y1=\"40\" x2=\"315.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"315.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"357.5\" y1=\"40\" x2=\"357.5\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"357.5\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3,5</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"175.0\" x2=\"400\" y2=\"175.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"179.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0,4</text><line x1=\"60\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0,8</text><line x1=\"60\" y1=\"85.0\" x2=\"400\" y2=\"85.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1,2</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1,6</text><line x1=\"60\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"60.0\" y1=\"85.0\" x2=\"272.5\" y2=\"85.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"272.5\" y1=\"85.0\" x2=\"272.5\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"272.5\" y1=\"220.0\" x2=\"400.0\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Vilken hastighet har hissen när accelerationen har upphört? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=1{,}2\\cdot2{,}5=3{,}0\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,0 m/s.</p></div>",
+  "familj": "Hastighetsändring ur a-t-diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beräkna arean under grafen.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3.0,
+  "tolerans": 0.03,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "3.613",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "raket med kort brinntid",
+  "poang": "(1/0/0)",
+  "t": "<p>En modellraket skjuts upp från marken. Diagrammet visar raketens acceleration medan motorn brinner.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram: 15 meter per sekundkvadrat mellan 0 och 4 s.\"><title>a-t-diagram: 15 meter per sekundkvadrat mellan 0 och 4 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"128.0\" y1=\"40\" x2=\"128.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"128.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"196.0\" y1=\"40\" x2=\"196.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"196.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"264.0\" y1=\"40\" x2=\"264.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"264.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"332.0\" y1=\"40\" x2=\"332.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"332.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"175.0\" x2=\"400\" y2=\"175.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"179.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"60\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"60\" y1=\"85.0\" x2=\"400\" y2=\"85.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">15</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"60\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"60.0\" y1=\"85.0\" x2=\"332.0\" y2=\"85.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"332.0\" y1=\"85.0\" x2=\"332.0\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"332.0\" y1=\"220.0\" x2=\"400.0\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Hur stor är raketens hastighet när motorn slutar brinna efter 4 s? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=15\\cdot4=60\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 m/s.</p></div>",
+  "familj": "Hastighetsändring ur a-t-diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Raketen startar från vila. Beräkna arean.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 60,
+  "tolerans": 0.6,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "3.614",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "tåg som accelererar länge",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett tåg lämnar en station. Diagrammet visar tågets acceleration under de första 60 sekunderna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram: 0,5 meter per sekundkvadrat mellan 0 och 40 s, sedan noll till 60 s.\"><title>a-t-diagram: 0,5 meter per sekundkvadrat mellan 0 och 40 s, sedan noll till 60 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"116.7\" y1=\"40\" x2=\"116.7\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"116.7\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><line x1=\"173.3\" y1=\"40\" x2=\"173.3\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"173.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">20</text><line x1=\"230.0\" y1=\"40\" x2=\"230.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"230.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">30</text><line x1=\"286.7\" y1=\"40\" x2=\"286.7\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"286.7\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">40</text><line x1=\"343.3\" y1=\"40\" x2=\"343.3\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"343.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">50</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">60</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"175.0\" x2=\"400\" y2=\"175.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"179.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0,2</text><line x1=\"60\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0,4</text><line x1=\"60\" y1=\"85.0\" x2=\"400\" y2=\"85.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0,6</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0,8</text><line x1=\"60\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"60.0\" y1=\"107.5\" x2=\"286.7\" y2=\"107.5\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"286.7\" y1=\"107.5\" x2=\"286.7\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"286.7\" y1=\"220.0\" x2=\"400.0\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Vilken hastighet har tåget efter 60 s? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta v=0{,}5\\cdot40=20\\ \\mathrm{m/s}\\]</div></li><li><p>Mellan 40 och 60 s är \\(a=0\\), så hastigheten ändras inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 m/s.</p></div>",
+  "familj": "Hastighetsändring ur a-t-diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ändras hastigheten när accelerationen är noll?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 20,
+  "tolerans": 0.2,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "3.615",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "konstant hastighet när a = 0",
+  "poang": "(1/0/0)",
+  "t": "<p>En vagn har hastigheten 5 m/s vid t = 0. Diagrammet visar vagnens acceleration.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram där accelerationen är noll mellan 0 och 4 s.\"><title>a-t-diagram där accelerationen är noll mellan 0 och 4 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"145.0\" y1=\"40\" x2=\"145.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"145.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"230.0\" y1=\"40\" x2=\"230.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"230.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"315.0\" y1=\"40\" x2=\"315.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"315.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><line x1=\"60\" y1=\"175.0\" x2=\"400\" y2=\"175.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"179.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−0,5</text><line x1=\"60\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"85.0\" x2=\"400\" y2=\"85.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0,5</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"60\" y1=\"130.0\" x2=\"408\" y2=\"130.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><line x1=\"60.0\" y1=\"130.0\" x2=\"400.0\" y2=\"130.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Vilken hastighet har vagnen vid t = 4 s? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Accelerationen är noll, så hastigheten ändras inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 m/s.</p></div>",
+  "familj": "Hastighetsändring ur a-t-diagram",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Arean under grafen är noll.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0.05,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "3.616",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "hastighetsändring i ett senare intervall",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet visar accelerationen hos en löpare som spurtar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram: noll mellan 0 och 2 s, 3 meter per sekundkvadrat mellan 2 och 4 s och noll mellan 4 och 6 s.\"><title>a-t-diagram: noll mellan 0 och 2 s, 3 meter per sekundkvadrat mellan 2 och 4 s och noll mellan 4 och 6 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"116.7\" y1=\"40\" x2=\"116.7\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"116.7\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"173.3\" y1=\"40\" x2=\"173.3\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"173.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"230.0\" y1=\"40\" x2=\"230.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"230.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"286.7\" y1=\"40\" x2=\"286.7\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"286.7\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"343.3\" y1=\"40\" x2=\"343.3\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"343.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"175.0\" x2=\"400\" y2=\"175.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"179.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"60\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"60\" y1=\"85.0\" x2=\"400\" y2=\"85.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"60\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"60.0\" y1=\"220.0\" x2=\"173.3\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"173.3\" y1=\"220.0\" x2=\"173.3\" y2=\"85.0\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"173.3\" y1=\"85.0\" x2=\"286.7\" y2=\"85.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><line x1=\"286.7\" y1=\"85.0\" x2=\"286.7\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"1.4\" stroke-dasharray=\"4 4\"/><line x1=\"286.7\" y1=\"220.0\" x2=\"400.0\" y2=\"220.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Hur mycket ökar löparens hastighet mellan t = 2 s och t = 4 s? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta v=3\\cdot(4-2)=6\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 m/s.</p></div>",
+  "familj": "Hastighetsändring ur a-t-diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Arean har höjden 3 och bredden 2.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0.06,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "3.617",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "hiss som bromsar in",
+  "poang": "(1/0/0)",
+  "t": "<p>En hiss på väg uppåt bromsar in före en våning. Uppåt är positiv riktning. Diagrammet visar accelerationen under inbromsningen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"a-t-diagram: minus 0,8 meter per sekundkvadrat mellan 0 och 2,5 s.\"><title>a-t-diagram: minus 0,8 meter per sekundkvadrat mellan 0 och 2,5 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"128.0\" y1=\"40\" x2=\"128.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"128.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">0,5</text><line x1=\"196.0\" y1=\"40\" x2=\"196.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"196.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"264.0\" y1=\"40\" x2=\"264.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"264.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1,5</text><line x1=\"332.0\" y1=\"40\" x2=\"332.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"332.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2,5</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−1,2</text><line x1=\"60\" y1=\"175.0\" x2=\"400\" y2=\"175.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"179.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−0,8</text><line x1=\"60\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">−0,4</text><line x1=\"60\" y1=\"85.0\" x2=\"400\" y2=\"85.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0,4</text><line x1=\"60\" y1=\"85.0\" x2=\"408\" y2=\"85.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">a (m/s²)</text><text x=\"414.0\" y=\"90.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><line x1=\"60.0\" y1=\"175.0\" x2=\"400.0\" y2=\"175.0\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg></span><p>Hur stor är hastighetsändringen under inbromsningen? (Svara i m/s och ange tecknet.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta v=-0{,}8\\cdot2{,}5=-2{,}0\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −2,0 m/s.</p></div>",
+  "familj": "Hastighetsändring ur a-t-diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Arean ligger under t-axeln, så hastighetsändringen är negativ.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -2.0,
+  "tolerans": 0.02,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "3.618",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "accelerationen ur lutningen i ett v-t-diagram",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet visar hastigheten hos en bil som kör ut på en motorväg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"v-t-diagram: rät linje från 15 meter per sekund vid 0 s till 27 meter per sekund vid 6 s.\"><title>v-t-diagram: rät linje från 15 meter per sekund vid 0 s till 27 meter per sekund vid 6 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"116.7\" y1=\"40\" x2=\"116.7\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"116.7\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"173.3\" y1=\"40\" x2=\"173.3\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"173.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"230.0\" y1=\"40\" x2=\"230.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"230.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"286.7\" y1=\"40\" x2=\"286.7\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"286.7\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"343.3\" y1=\"40\" x2=\"343.3\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"343.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"190.0\" x2=\"400\" y2=\"190.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"60\" y1=\"160.0\" x2=\"400\" y2=\"160.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"60\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">15</text><line x1=\"60\" y1=\"100.0\" x2=\"400\" y2=\"100.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"60\" y1=\"70.0\" x2=\"400\" y2=\"70.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"74.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">25</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">30</text><line x1=\"60\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">v (m/s)</text><text x=\"414.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><polyline points=\"60.0,130.0 400.0,58.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></svg></span><p>Bilens a-t-diagram är en vågrät linje. På vilken höjd ligger den? (Svara i m/s².)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\frac{\\Delta v}{\\Delta t}=\\frac{27-15}{6}=2\\ \\mathrm{m/s^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 m/s².</p></div>",
+  "familj": "Lutning och area i rörelsediagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Accelerationen är lutningen i v-t-diagrammet.</p>",
+  "familjNyckel": "at_diagram__lutning_och_area_i_rorelsediagram",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0.02,
+  "svarEnhet": "m/s²"
+},
+{
+  "id": "3.619",
+  "kap": 3,
+  "omr": "at_diagram",
+  "niva": "E",
+  "typ": "från v-t-diagram till acceleration vid inbromsning",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet visar hastigheten hos en skidåkare som bromsar in.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"v-t-diagram: rät linje från 12 meter per sekund vid 0 s till noll vid 4 s.\"><title>v-t-diagram: rät linje från 12 meter per sekund vid 0 s till noll vid 4 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"40\" x2=\"60.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"145.0\" y1=\"40\" x2=\"145.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"145.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"230.0\" y1=\"40\" x2=\"230.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"230.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"315.0\" y1=\"40\" x2=\"315.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"315.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"60\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><line x1=\"60\" y1=\"184.0\" x2=\"400\" y2=\"184.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"188.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"60\" y1=\"148.0\" x2=\"400\" y2=\"148.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"152.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"60\" y1=\"112.0\" x2=\"400\" y2=\"112.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"116.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">9</text><line x1=\"60\" y1=\"76.0\" x2=\"400\" y2=\"76.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">12</text><line x1=\"60\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">15</text><line x1=\"60\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60\" y1=\"220\" x2=\"60\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"60.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">v (m/s)</text><text x=\"414.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><text x=\"53.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><polyline points=\"60.0,76.0 400.0,220.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></svg></span><p>Vilken acceleration har skidåkaren? (Svara i m/s² och ange tecknet.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\frac{0-12}{4-0}=-3\\ \\mathrm{m/s^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −3 m/s².</p></div>",
+  "familj": "Lutning och area i rörelsediagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beräkna lutningen. Hastigheten minskar, så lutningen är negativ.</p>",
+  "familjNyckel": "at_diagram__lutning_och_area_i_rorelsediagram",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -3,
+  "tolerans": 0.03,
+  "svarEnhet": "m/s²"
 }
 ];

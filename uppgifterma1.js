@@ -146826,5 +146826,199 @@ window.BANKMA1 = [
   "tolerans": 0,
   "svarFormat": "heltal",
   "svarEnhet": "liter"
+},
+{
+  "id": "6.422",
+  "kap": 6,
+  "omr": "programmering",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "villkor med if och elif",
+  "t": "<p>Programmet räknar ut priset på en biobiljett. Vad skriver programmet ut?</p><p><code>alder = 15</code><br><code>if alder &lt; 12:</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;pris = 40</code><br><code>elif alder &lt; 18:</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;pris = 60</code><br><code>else:</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;pris = 90</code><br><code>print(pris)</code></p>",
+  "s": "<div class=\"facit-v2\"><p>Villkoret <code>alder &lt; 12</code> är falskt eftersom 15 inte är mindre än 12. Nästa villkor, <code>alder &lt; 18</code>, är sant, så <code>pris = 60</code>.</p><p>Programmet skriver ut 60.</p></div>",
+  "familj": "Läsa och felsöka program",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Pröva villkoren uppifrån och ned. Det första som är sant bestämmer priset.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 60,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "6.423",
+  "kap": 6,
+  "omr": "programmering",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "räkna tal som uppfyller ett villkor",
+  "t": "<p>Vad skriver programmet ut? (<code>x % 4</code> är resten när \\(x\\) delas med 4, och <code>range(1, 31)</code> ger talen 1 till 30.)</p><p><code>antal = 0</code><br><code>for x in range(1, 31):</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;if x % 4 == 0:</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;antal = antal + 1</code><br><code>print(antal)</code></p>",
+  "s": "<div class=\"facit-v2\"><p>Programmet räknar hur många av talen 1–30 som är delbara med 4: 4, 8, 12, 16, 20, 24 och 28. Det är 7 tal.</p></div>",
+  "familj": "Läsa och felsöka program",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka tal mellan 1 och 30 ger resten 0 vid division med 4?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 7,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "6.424",
+  "kap": 6,
+  "omr": "programmering",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "stegvis sökning efter en lösning",
+  "t": "<p>Programmet söker en lösning till en ekvation genom att öka \\(x\\) i små steg. Vad skriver programmet ut? (Svara med en decimal.)</p><p><code>x = 0</code><br><code>while x*x &lt; 50:</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;x = x + 0.1</code><br><code>print(round(x, 1))</code></p>",
+  "s": "<div class=\"facit-v2\"><p>Loopen fortsätter så länge \\(x^2\\lt50\\). Eftersom \\(7{,}0^2=49\\lt50\\) och \\(7{,}1^2=50{,}41\\ge50\\) stannar den när \\(x=7{,}1\\).</p><p>Programmet ger alltså ett närmevärde till \\(\\sqrt{50}\\approx7{,}07\\), avrundat uppåt till närmaste tiondel.</p></div>",
+  "familj": "Läsa och felsöka program",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>När slutar villkoret x·x < 50 att vara sant?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 7.1,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "6.425",
+  "kap": 6,
+  "omr": "programmering",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "hitta felet i ett program",
+  "t": "<p>Programmet ska beräkna medelvärdet av talen i listan, men det skriver ut fel svar. Vilken rad är fel? (Välj ett alternativ.)</p><p><code>tal = [4, 8, 6, 2]</code><br><code>summa = 0</code><br><code>for t in tal:</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;summa = summa + t</code><br><code>medel = summa / 3</code><br><code>print(medel)</code></p>",
+  "s": "<div class=\"facit-v2\"><p>Listan innehåller fyra tal, men summan delas med 3. Raden ska vara <code>medel = summa / 4</code>, eller ännu bättre <code>medel = summa / len(tal)</code>.</p><p>Då blir medelvärdet \\(\\dfrac{20}{4}=5\\).</p></div>",
+  "familj": "Läsa och felsöka program",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många tal finns i listan?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "medel = summa / 3",
+      "ratt": true,
+      "kommentar": "Det finns fyra tal, så summan ska delas med 4."
+    },
+    {
+      "txt": "summa = 0",
+      "ratt": false,
+      "kommentar": "Summan måste börja på 0."
+    },
+    {
+      "txt": "summa = summa + t",
+      "ratt": false,
+      "kommentar": "Raden lägger till varje tal, vilket är rätt."
+    },
+    {
+      "txt": "for t in tal:",
+      "ratt": false,
+      "kommentar": "Loopen går igenom alla tal i listan."
+    }
+  ]
+},
+{
+  "id": "6.426",
+  "kap": 6,
+  "omr": "programmering",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "Pythagoras sats i kod",
+  "t": "<p>I Python betyder <code>**</code> upphöjt till. Vilket tal skriver programmet ut?</p><p><code>a = 6</code><br><code>b = 8</code><br><code>c = (a**2 + b**2) ** 0.5</code><br><code>print(c)</code></p>",
+  "s": "<div class=\"facit-v2\"><p>\\(c=\\sqrt{6^2+8^2}=\\sqrt{100}=10\\). Att upphöja till 0,5 är samma sak som att dra kvadratroten.</p><p>Programmet beräknar hypotenusan i en rätvinklig triangel med kateterna 6 och 8.</p></div>",
+  "familj": "Läsa och felsöka program",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad betyder ** 0.5?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "6.427",
+  "kap": 6,
+  "omr": "programmering",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "sparande med insättning och ränta",
+  "t": "<p>Programmet beskriver ett sparande. Vad skriver programmet ut?</p><p><code>saldo = 0</code><br><code>for ar in range(3):</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;saldo = saldo + 1000</code><br><code>&nbsp;&nbsp;&nbsp;&nbsp;saldo = saldo * 1.05</code><br><code>print(round(saldo))</code></p>",
+  "s": "<div class=\"facit-v2\"><p>Varje år sätts 1 000 kr in, och sedan växer hela saldot med 5 %.</p><ul><li>År 1: \\((0+1000)\\cdot1{,}05=1050\\)</li><li>År 2: \\((1050+1000)\\cdot1{,}05=2152{,}5\\)</li><li>År 3: \\((2152{,}5+1000)\\cdot1{,}05\\approx3310{,}1\\)</li></ul><p>Programmet skriver ut 3310.</p></div>",
+  "familj": "Läsa och felsöka program",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Gå igenom loopen ett varv i taget och skriv upp saldot.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 3310,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
 }
 ];

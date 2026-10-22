@@ -104270,5 +104270,206 @@ window.BANKMATO1 = [
     "1b",
     "1c"
   ]
+},
+{
+  "id": "1.868",
+  "kap": 1,
+  "omr": "polynom",
+  "niva": "E",
+  "typ": "konstantterm ur värdetabell",
+  "poang": "1/0/0",
+  "t": "<p>Tabellen hör till polynomet \\(p(x)=ax^2+bx+c\\). Bestäm konstanttermen \\(c\\).</p><table class=\"data\" style=\"width:100%;max-width:330px;text-align:center\"><thead><tr><th>x</th><th>p(x)</th></tr></thead><tbody><tr><td>−1</td><td>4</td></tr><tr><td>0</td><td>−3</td></tr><tr><td>1</td><td>−6</td></tr><tr><td>2</td><td>−5</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2\"><p>När x=0 försvinner termerna med x. Då återstår bara konstanttermen.</p><div class=\"facit-matte\">\\[p(0)=a\\cdot0^2+b\\cdot0+c=c\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(c=-3\\), enligt tabellens rad för x=0.</p></div>",
+  "familj": "Polynombegrepp, grad och värden",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": -3,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket x-värde gör att bara konstanttermen finns kvar?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.869",
+  "kap": 1,
+  "omr": "polynom",
+  "niva": "E",
+  "typ": "polynomgrad i en rektangels area",
+  "poang": "1/0/0",
+  "t": "<p>Rektangelns sidlängder är \\(x+4\\) cm och \\(x+1\\) cm, där \\(x\\gt0\\). Arean \\(A(x)\\) kan skrivas som ett polynom. Vilken grad har det?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 250\" role=\"img\" aria-label=\"Rektangel med sidlängderna x+4 cm och x+1 cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"250\" fill=\"white\"/><rect x=\"130\" y=\"50\" width=\"280\" height=\"135\" rx=\"0\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"270\" y=\"216\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">x + 4 cm</text><text x=\"112\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">x + 1 cm</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Arean är produkten av sidlängderna.</p><div class=\"facit-matte\">\\[A(x)=(x+4)(x+1)=x^2+5x+4\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Grad 2, eftersom den högsta exponenten på x är 2.</p></div>",
+  "familj": "Polynombegrepp, grad och värden",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv arean som en produkt och titta på termen med högst exponent.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.870",
+  "kap": 1,
+  "omr": "polynom",
+  "niva": "E",
+  "typ": "pi som tillåten polynomkoefficient",
+  "poang": "1/0/0",
+  "t": "<p>En cirkel har radien \\(x\\) cm. Arean är \\(A(x)=\\pi x^2\\). Är areauttrycket ett polynom i \\(x\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 250\" role=\"img\" aria-label=\"En cirkel med radien x cm markerad från mitten till cirkellinjen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"250\" fill=\"white\"/><circle cx=\"240\" cy=\"128\" r=\"90\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M240 128L330 128\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"128\" r=\"3\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"282\" y=\"111\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">x cm</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>I ett polynom ska exponenterna på variabeln vara icke-negativa heltal. Koefficienterna behöver däremot inte vara heltal. Här är π en konstant koefficient.</p><p class=\"facit-svar\"><strong>Svar:</strong> Ja. Uttrycket πx² är ett polynom av grad 2.</p></div>",
+  "familj": "Polynombegrepp, grad och värden",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skilj mellan talet framför x och exponenten på x.</p>",
+  "alternativ": [
+    {
+      "txt": "Nej, eftersom π inte är ett heltal.",
+      "ratt": false,
+      "kommentar": "Koefficienterna får vara vilka reella tal som helst, även π."
+    },
+    {
+      "txt": "Nej, eftersom cirkeln inte har några raka sidor.",
+      "ratt": false,
+      "kommentar": "Figurens form avgör inte om uttrycket är ett polynom."
+    },
+    {
+      "txt": "Ja, π är en koefficient och x har exponenten 2.",
+      "ratt": true,
+      "kommentar": "πx² är ett andragradspolynom i x."
+    },
+    {
+      "txt": "Ja, men graden är π.",
+      "ratt": false,
+      "kommentar": "Graden bestäms av exponenten på x, inte av koefficienten."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.871",
+  "kap": 1,
+  "omr": "polynom",
+  "niva": "E",
+  "typ": "konstantterm från polynomgraf",
+  "poang": "1/0/0",
+  "t": "<p>Grafen hör till \\(p(x)=ax^3+bx^2+cx+d\\). Bestäm \\(d\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Tredjegradskurva som skär y-axeln vid -2.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-871\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-3</text><path d=\"M121.667 42L121.667 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"121.667\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-2</text><path d=\"M183.333 42L183.333 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"183.333\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M306.667 42L306.667 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"306.667\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M368.333 42L368.333 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"368.333\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-6</text><path d=\"M60 220.5L430 220.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"225.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-4</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-2</text><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"106.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">y</text><path d=\"M60.0 272.562 L62.313 266.241 L64.625 260.106 L66.937 254.155 L69.25 248.384 L71.562 242.793 L73.875 237.377 L76.188 232.136 L78.5 227.067 L80.812 222.168 L83.125 217.435 L85.438 212.867 L87.75 208.461 L90.062 204.216 L92.375 200.128 L94.688 196.196 L97.0 192.416 L99.312 188.787 L101.625 185.306 L103.938 181.972 L106.25 178.78 L108.562 175.73 L110.875 172.819 L113.188 170.044 L115.5 167.404 L117.812 164.895 L120.125 162.516 L122.438 160.263 L124.75 158.136 L127.062 156.13 L129.375 154.245 L131.688 152.478 L134.0 150.826 L136.312 149.286 L138.625 147.858 L140.938 146.537 L143.25 145.323 L145.562 144.212 L147.875 143.202 L150.188 142.291 L152.5 141.477 L154.812 140.756 L157.125 140.128 L159.438 139.589 L161.75 139.137 L164.062 138.769 L166.375 138.484 L168.688 138.279 L171.0 138.152 L173.312 138.1 L175.625 138.121 L177.938 138.213 L180.25 138.372 L182.562 138.598 L184.875 138.887 L187.188 139.238 L189.5 139.647 L191.813 140.113 L194.125 140.633 L196.438 141.204 L198.75 141.825 L201.062 142.493 L203.375 143.206 L205.687 143.961 L208.0 144.756 L210.312 145.589 L212.625 146.457 L214.938 147.359 L217.25 148.29 L219.562 149.25 L221.875 150.236 L224.188 151.245 L226.5 152.276 L228.812 153.325 L231.125 154.391 L233.438 155.471 L235.75 156.563 L238.062 157.664 L240.375 158.772 L242.688 159.885 L245.0 161.0 L247.312 162.115 L249.625 163.228 L251.938 164.336 L254.25 165.437 L256.562 166.529 L258.875 167.609 L261.188 168.675 L263.5 169.724 L265.812 170.755 L268.125 171.764 L270.438 172.75 L272.75 173.71 L275.062 174.641 L277.375 175.543 L279.688 176.411 L282.0 177.244 L284.312 178.039 L286.625 178.794 L288.938 179.507 L291.25 180.175 L293.562 180.796 L295.875 181.367 L298.188 181.887 L300.5 182.353 L302.812 182.762 L305.125 183.113 L307.438 183.402 L309.75 183.628 L312.062 183.787 L314.375 183.879 L316.687 183.9 L319.0 183.848 L321.312 183.721 L323.625 183.516 L325.938 183.231 L328.25 182.863 L330.562 182.411 L332.875 181.872 L335.188 181.244 L337.5 180.523 L339.812 179.709 L342.125 178.798 L344.438 177.788 L346.75 176.677 L349.062 175.463 L351.375 174.142 L353.688 172.714 L356.0 171.175 L358.313 169.522 L360.625 167.755 L362.937 165.87 L365.25 163.864 L367.562 161.737 L369.875 159.484 L372.188 157.105 L374.5 154.596 L376.812 151.956 L379.125 149.181 L381.438 146.27 L383.75 143.22 L386.062 140.028 L388.375 136.694 L390.688 133.213 L393.0 129.584 L395.312 125.804 L397.625 121.872 L399.938 117.784 L402.25 113.539 L404.562 109.133 L406.875 104.565 L409.188 99.832 L411.5 94.933 L413.812 89.864 L416.125 84.623 L418.438 79.207 L420.75 73.616 L423.062 67.845 L425.375 61.894 L427.688 55.759 L430.0 49.438\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-871)\"/><circle cx=\"245.0\" cy=\"161.0\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Konstanttermen d är funktionsvärdet när x=0, alltså där kurvan skär y-axeln.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(d=-2\\).</p></div>",
+  "familj": "Polynombegrepp, grad och värden",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": -2,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad blir p(0) när du sätter in x=0 i uttrycket?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.872",
+  "kap": 1,
+  "omr": "polynom",
+  "niva": "E",
+  "typ": "grad efter att högsta termer tar ut varandra",
+  "poang": "1/0/0",
+  "t": "<p>Polynomet skrivs som \\(p(x)=3x^4+2x^2-3x^4+x^3\\). Vilken grad har \\(p\\) efter förenkling?</p>",
+  "s": "<div class=\"facit-v2\"><p>Termerna 3x⁴ och −3x⁴ tar ut varandra. De bidrar därför inte till polynomets grad.</p><div class=\"facit-matte\">\\[p(x)=x^3+2x^2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Grad 3.</p></div>",
+  "familj": "Polynombegrepp, grad och värden",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Samla termer med samma exponent innan du bestämmer graden.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.873",
+  "kap": 1,
+  "omr": "polynom",
+  "niva": "E",
+  "typ": "ledande koefficient i volympolynom",
+  "poang": "1/0/0",
+  "t": "<p>Lådans mått är \\(x\\) cm, \\(2x\\) cm och \\(x+1\\) cm, där \\(x\\gt0\\). Volymen \\(V(x)\\) är ett polynom. Vilken är koefficienten framför \\(x^3\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 285\" role=\"img\" aria-label=\"Rätblock med höjd x cm, bredd 2x cm och djup x+1 cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"285\" fill=\"white\"/><path d=\"M110 110L300 110L370 55L180 55Z\" fill=\"#e7f1fb\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M110 110L300 110L300 230L110 230Z\" fill=\"#f4f8fd\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M300 110L370 55L370 175L300 230Z\" fill=\"#d2e5f6\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"205\" y=\"260\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">2x cm</text><text x=\"94\" y=\"178\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">x cm</text><text x=\"385\" y=\"222\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">x + 1 cm</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Multiplicera lådans tre mått för att få volymen.</p><div class=\"facit-matte\">\\[V(x)=x\\cdot2x\\cdot(x+1)=2x^3+2x^2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Koefficienten framför x³ är 2.</p></div>",
+  "familj": "Polynombegrepp, grad och värden",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Utveckla produkten av längden, bredden och höjden.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
 }
 ];

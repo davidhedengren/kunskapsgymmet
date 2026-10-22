@@ -3542,6 +3542,7 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 .prov-elevlista label{padding:8px 0}.prov-elevlista span{overflow-wrap:anywhere}.prov-valda{margin:12px 0}
 .lar-elevpass .btn{white-space:normal;max-width:100%;text-align:center}
 @media(max-width:420px){.prov-mottagarrad{flex-wrap:wrap}.prov-elevlista{grid-template-columns:1fr}}
+.kurs-tidigare{display:block;margin-top:6px;font-size:16px;font-weight:500;line-height:1.4;letter-spacing:normal;}
 </style>
 <link rel="stylesheet" href="uppdragsbok.css?v=2026-10-14-progress">
 </head>
@@ -6923,7 +6924,7 @@ function kurskortHtml(id,span,nr){
       ${spar}
       <button class="kursoppna" onclick="oppnaKurs('${id}')"${beskr?` aria-label="${esc(c.name)}, ${esc(beskr)}"`:""}>
         ${flera?"":`<span class="kurskod" style="background:linear-gradient(160deg,${c.tint},${c.tint}bb)">${esc(c.code)}</span>`}
-        <h3>${esc(c.name)}</h3>
+        <h3>${esc(c.name.replace(/\s+\([^)]*\)$/, ""))}${c.name.match(/\([^)]*\)$/)?`<span class="kurs-tidigare">${esc(c.name.match(/\([^)]*\)$/)[0])}</span>`:""}</h3>
         ${c.under?`<span class="kursstampel">Under uppbyggnad</span>`:""}
         ${status}
       </button>

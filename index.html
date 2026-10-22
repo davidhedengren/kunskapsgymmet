@@ -4037,7 +4037,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-22-fellogg-vardesiffror";
+const BANK_VERSION="2026-10-22-fellogg-1541-vardesiffror";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -8939,6 +8939,22 @@ function tranarKommentar(t,fore,efter,ggForslag){
   // Har tränaren nyss berättat om ett klart uppdrag får nivåkommentaren vänta tills det är läst.
   if(text) setTimeout(()=>tranarenSager(text,{html:true}), Date.now()-(state.uppdragPratAt||0)<3000 ? 7500 : 1300);
 }
+/* Nådd nivå (användarbeslut 2026-10-22): har eleven klarat NADD_RATT uppgifter
+   utan ledtråd på en nivå i området är nivån nådd. Den håller då även om eleven
+   svarar fel någon gång, och passet läggs tyngst på den högsta nådda nivån. Bara
+   upprepade fel på samma nivå (se kamparPa) flyttar ner eleven en tid. */
+const NADD_RATT=2, NADD_GATE=.8;
+const NIVA_TYNGD={"-1":1.4,"0":2.2,"1":1.2,"2":.7,"3":.45,"4":.3};
+function naddNiva(area,L){
+  const cp=ensureCourseProfile();
+  const st=cp.levels?.[area]?.[L];
+  if(st && (st.n||0)>=8 && st.s>=.6) return true;
+  let n=0;
+  for(const h of cp.history||[]){
+    if(h && h.ok && !h.hint && h.area===area && nivaForId(h.id)===L && ++n>=NADD_RATT) return true;
+  }
+  return false;
+}
 function levelWeights(area,finns={}){
   const m=Object.fromEntries(NIVAER.map(L=>[L,behärskar(scopeLevel(L,area))]));
   const w={};
@@ -8949,13 +8965,23 @@ function levelWeights(area,finns={}){
     if(kamparUnder) oppen[L]=false;
     else if(kamparPa(area,L)) kamparUnder=L;
   });
+  const nadd=Object.fromEntries(NIVAER.map(L=>[L,!!(finns[L] && oppen[L] && naddNiva(area,L))]));
+  let topp=null;
+  NIVAER.forEach(L=>{ if(nadd[L]) topp=L; });
+  if(kamparUnder && topp && topp>kamparUnder) topp=kamparUnder;
   NIVAER.forEach((L,i)=>{
     const lagre=NIVAER.slice(0,i).filter(K=>finns[K]);
     const redo=lagre.length ? Math.min(...lagre.map(K=>m[K])) : 1;
     // En liten läcka uppåt ger variation, men högre nivåer växer först när
     // de lägre nivåer som faktiskt finns i området börjar sitta.
-    const gate=i===0 ? 1 : !oppen[L] ? 0 : Math.max(.04,redo);
+    // En nådd nivå behåller sin plats även om en lägre nivå fått ett fel.
+    let gate=i===0 ? 1 : !oppen[L] ? 0 : Math.max(.04,redo);
+    if(gate && nadd[L]) gate=Math.max(gate,NADD_GATE);
     w[L]=gate*(1-.65*m[L]);
+  });
+  if(topp) NIVAER.forEach(L=>{
+    const d=Number(topp)-Number(L);
+    w[L]*=d<-1 ? 1 : NIVA_TYNGD[String(Math.min(4,d))];
   });
   if(kamparUnder) w[kamparUnder]*=KAMPAR_VIKT;
 
@@ -10079,6 +10105,8 @@ function textSvarRatt(anv,facit){
   const alt=f.includes(" eller ")?f.split(" eller "):[f];
   const svans=alt.length>1?(alt[alt.length-1].match(/\s(\S+)$/)||[,""])[1]:"";
   const ka=textKarna(a);
+  /* Ett ensamt ord i bestämd form: "medelpunktsvinkeln" för "medelpunktsvinkel". */
+  if(/^[a-zåäö]{5,}$/.test(f) && ["n","en","et","t"].some(e=>a===f+e)) return true;
   return alt.some(x=>{
     const hel=svans && !x.endsWith(svans) ? x+" "+svans : x;
     return textKarna(x)===ka || textKarna(hel)===ka;
@@ -11678,6 +11706,24 @@ function formelTokens(src,kommaDecimal=true){
   }
   return ut;
 }
+/* En enhet efter talet ("24 kg·m/s", "3,0 m/s", "5 m/s^2") ska visas som enhet och inte
+   som variabler som multipliceras. Bara kända enheter (med prefix) räknas, så "2 x" påverkas inte. */
+const ENHETSBASER=["m","s","g","N","J","W","Wh","Pa","V","A","Ω","Hz","K","C","T","F","eV","mol","L","l","h","Bq","Sv","Gy","rad","dB"];
+const ENHETSORD=["min","år","ljusår","dygn","u","bar","atm","°C","°"];
+function arEnhetsord(w){
+  const atom=a=>ENHETSORD.includes(a) || ENHETSBASER.includes(a)
+    || (a.length>1 && "pnµμmcdkMGT".includes(a[0]) && ENHETSBASER.includes(a.slice(1)));
+  const ok=[true];
+  for(let i=1;i<=w.length;i++){ ok[i]=false; for(let j=Math.max(0,i-6);j<i;j++) if(ok[j]&&atom(w.slice(j,i))){ ok[i]=true; break; } }
+  return ok[w.length];
+}
+function delaEnhet(text){
+  const m=String(text??"").trim().match(/^(.*?[\d)π])\s+((?:[A-Za-zåäöµμΩ°]+(?:\^-?\d+)?)(?:\s*[·⋅*\/ ]\s*[A-Za-zåäöµμΩ°]+(?:\^-?\d+)?)*)$/);
+  if(!m || /[A-Za-zåäöµμΩ]/.test(m[1])) return null;
+  if(!m[2].match(/[A-Za-zåäöµμΩ°]+/g).every(arEnhetsord)) return null;
+  const latex="\\mathrm{"+m[2].replace(/\s*[·⋅*]\s*/g,"\\cdot{}").replace(/\s*\/\s*/g,"/").replace(/\^(-?\d+)/g,"^{$1}").replace(/\s+/g,"\\,")+"}";
+  return {tal:m[1],enhet:m[2],latex};
+}
 function formelLatex(text){
   const src=String(text??"").replace(/[−–]/g,"-").replace(/\s+/g," ").trim()
     .replace(/^\$+|\$+$/g,"").replace(/^\\\(|\\\)$/g,"").replace(/^\\\[|\\\]$/g,"").trim();
@@ -11700,6 +11746,8 @@ function formelLatex(text){
       return {latex:number.latex+"\\,"+u,ok:number.ok};
     }
   }
+  const enhet=!/\\[a-zA-Z]/.test(src) && delaEnhet(src);
+  if(enhet){ const v=formelLatex(enhet.tal); return {latex:v.latex+"\\ "+enhet.latex,ok:v.ok}; }
   /* Skriver eleven LaTeX (\frac{3}{4}, x^{2}, \sqrt{2}) visas den som den är.
      Rättningen tolkar samma LaTeX via latexToPlain. */
   if(/\\[a-zA-Z]/.test(src)){
@@ -11814,7 +11862,11 @@ function formelLatex(text){
   return {latex,ok};
 }
 /* Förhandsvisningen behövs när svaret innehåller något som ser annorlunda ut i matte. */
-function formelBehovs(text){ return /[\^\/√π*·≤≥±\\()]|sqrt|pi\b|sin|cos|tan|ln|lg|log|exp/i.test(String(text||"")); }
+function formelBehovs(text){
+  const enhet=delaEnhet(text);
+  if(enhet) return formelBehovs(enhet.tal) || /\^/.test(enhet.enhet);
+  return /[\^\/√π*·≤≥±\\()]|sqrt|pi\b|sin|cos|tan|ln|lg|log|exp/i.test(String(text||""));
+}
 function uppdateraFormelvisning(i){
   const el=document.getElementById("ans-"+i), ruta=document.getElementById("fv-"+i);
   if(!el||!ruta) return;

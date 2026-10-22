@@ -40,3 +40,9 @@ test('Sammansatta enheter är upprätta och avskilda från talet i förhandsvisn
  assert.equal(c.formelLatex('1,5x').latex,'1{,}5 x');
  assert.equal(c.formelLatex('(x+1)/(x-1)').latex,'\\frac{x + 1}{x - 1}');
 });
+
+test('Samma enhetstext som facit godtas även när enheten saknas i enhetstabellen (ljusår)',()=>{
+ const ly=(s)=>c.fysikVardesiffrorRatt(s,1.8307,'ljusår',{t:'Hur långt är avståndet?',svarVardesiffror:2},0,'numeriskt');
+ for(const s of ['1,8 ljusår','1.83 ljusår','1,8','1,8 Ljusår'])assert.equal(ly(s),true,s);
+ for(const s of ['1,9 ljusår','1,8 km','2 ljusår x'])assert.equal(ly(s),false,s);
+});

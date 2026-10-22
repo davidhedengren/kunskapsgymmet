@@ -55719,5 +55719,968 @@ window.BANK2 = [
       "kommentar": "På mittlinjen är vägskillnaden alltid 0."
     }
   ]
+},
+{
+  "id": "6.320",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett rymdskepp rör sig med farten \\(0{,}60c\\) relativt jorden.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Rymdskepp som rör sig med farten 0,60c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,60c</text></svg></div><p>Hur stor är gammafaktorn \\(\\gamma\\) för rymdskeppet?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Gammafaktorn är \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}6^2}}\\approx1{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx1{,}25\\).</p></div>",
+  "familj": "Gammafaktorn",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Sätt in \\(v/c\\) direkt i formeln för gammafaktorn.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.25,
+  "tolerans": 0.0125,
+  "svarVardesiffror": 2,
+  "typ": "beräkna gammafaktorn ur fart, sökt gamma",
+  "familjNyckel": "tidsdilatation__tidsdilatation_och_egentid"
+},
+{
+  "id": "6.321",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En partikel i en accelerator har farten \\(0{,}80c\\) i laboratoriet.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"120\" viewBox=\"0 0 420 120\" role=\"img\" aria-label=\"Partikel som rör sig med farten 0,80c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"118\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"120\" cy=\"60\" r=\"14\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"140.0\" y1=\"60.0\" x2=\"300.0\" y2=\"60.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"300.0,60.0 289.9,64.3 289.9,55.7\" fill=\"#c2410c\"/><text x=\"220.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v = 0,80c</text></svg></div><p>Hur stor är gammafaktorn \\(\\gamma\\) för partikeln?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Gammafaktorn är \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}8^2}}\\approx1{,}667\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx1{,}67\\).</p></div>",
+  "familj": "Gammafaktorn",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Sätt in \\(v/c\\) direkt i formeln för gammafaktorn.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.666666666666667,
+  "tolerans": 0.01666666666666667,
+  "svarVardesiffror": 2,
+  "typ": "beräkna gammafaktorn ur fart, sökt gamma",
+  "familjNyckel": "tidsdilatation__tidsdilatation_och_egentid"
+},
+{
+  "id": "6.322",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En proton i den kosmiska strålningen rör sig med farten \\(0{,}99c\\) relativt jorden.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"120\" viewBox=\"0 0 420 120\" role=\"img\" aria-label=\"Partikel som rör sig med farten 0,99c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"118\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"120\" cy=\"60\" r=\"14\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"140.0\" y1=\"60.0\" x2=\"300.0\" y2=\"60.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"300.0,60.0 289.9,64.3 289.9,55.7\" fill=\"#c2410c\"/><text x=\"220.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v = 0,99c</text></svg></div><p>Hur stor är gammafaktorn \\(\\gamma\\) för protonen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Gammafaktorn är \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}99^2}}\\approx7{,}089\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma\\approx7{,}09\\).</p></div>",
+  "familj": "Gammafaktorn",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Sätt in \\(v/c\\) direkt i formeln för gammafaktorn.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 7.088812050083354,
+  "tolerans": 0.07088812050083354,
+  "svarVardesiffror": 2,
+  "typ": "beräkna gammafaktorn ur fart, sökt gamma",
+  "familjNyckel": "tidsdilatation__tidsdilatation_och_egentid"
+},
+{
+  "id": "6.323",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En klocka i ett rymdskepp mäter att ett experiment tar 2,0 s. Rymdskeppet rör sig med farten \\(0{,}60c\\) relativt jorden.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Klockan i rymdskeppet visar 2,0 sekunder, klockan på jorden är okänd\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"110\" cy=\"70\" r=\"48\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"28.0\" x2=\"110.0\" y2=\"22.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"131.0\" y1=\"33.6\" x2=\"134.0\" y2=\"28.4\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"49.0\" x2=\"151.6\" y2=\"46.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"152.0\" y1=\"70.0\" x2=\"158.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"91.0\" x2=\"151.6\" y2=\"94.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"131.0\" y1=\"106.4\" x2=\"134.0\" y2=\"111.6\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"112.0\" x2=\"110.0\" y2=\"118.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"89.0\" y1=\"106.4\" x2=\"86.0\" y2=\"111.6\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"73.6\" y1=\"91.0\" x2=\"68.4\" y2=\"94.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"68.0\" y1=\"70.0\" x2=\"62.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"73.6\" y1=\"49.0\" x2=\"68.4\" y2=\"46.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"89.0\" y1=\"33.6\" x2=\"86.0\" y2=\"28.4\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"70.0\" x2=\"110.0\" y2=\"36.4\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"70.0\" x2=\"131.6\" y2=\"79.6\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"110.0\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">i rymdskeppet</text><text x=\"110.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">2,0 s</text><circle cx=\"310\" cy=\"70\" r=\"48\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"3\"/><line x1=\"310.0\" y1=\"28.0\" x2=\"310.0\" y2=\"22.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"331.0\" y1=\"33.6\" x2=\"334.0\" y2=\"28.4\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"346.4\" y1=\"49.0\" x2=\"351.6\" y2=\"46.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"352.0\" y1=\"70.0\" x2=\"358.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"346.4\" y1=\"91.0\" x2=\"351.6\" y2=\"94.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"331.0\" y1=\"106.4\" x2=\"334.0\" y2=\"111.6\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"112.0\" x2=\"310.0\" y2=\"118.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"289.0\" y1=\"106.4\" x2=\"286.0\" y2=\"111.6\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"273.6\" y1=\"91.0\" x2=\"268.4\" y2=\"94.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"268.0\" y1=\"70.0\" x2=\"262.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"273.6\" y1=\"49.0\" x2=\"268.4\" y2=\"46.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"289.0\" y1=\"33.6\" x2=\"286.0\" y2=\"28.4\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"70.0\" x2=\"310.0\" y2=\"36.4\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"70.0\" x2=\"331.6\" y2=\"79.6\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"310.0\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">på jorden</text><text x=\"310.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">?</text></svg></div><p>Hur lång tid tar experimentet mätt från jorden? (Svara i s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Klockan i rymdskeppet är i vila relativt experimentet och mäter egentiden \\(\\Delta t_0\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}60^2}}=1{,}25\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta t=\\gamma\\Delta t_0=1{,}25\\cdot2{,}0=2{,}5\\ \\text{s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 s.</p></div>",
+  "familj": "Tidsdilatation och egentid",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Den tid som mäts i rymdskeppet är egentiden. Från jorden blir tiden längre.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.5,
+  "tolerans": 0.025,
+  "svarVardesiffror": 2,
+  "svarEnhet": "s",
+  "typ": "beräkna dilaterad tid ur egentid och fart, sökt tid",
+  "familjNyckel": "tidsdilatation__tidsdilatation_och_egentid"
+},
+{
+  "id": "6.324",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En myon har medellivslängden 2,2 µs i sitt eget vilosystem. Myonen rör sig med farten \\(0{,}98c\\) genom atmosfären.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" role=\"img\" aria-label=\"Myon som rör sig nedåt genom atmosfären med farten 0,98c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"20\" width=\"380\" height=\"150\" fill=\"#dbeafe\"/><rect x=\"20\" y=\"170\" width=\"380\" height=\"30\" fill=\"#bbf7d0\"/><line x1=\"20.0\" y1=\"170.0\" x2=\"400.0\" y2=\"170.0\" stroke=\"#15803d\" stroke-width=\"2\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"34\" r=\"6\" fill=\"#c2410c\"/><line x1=\"200.0\" y1=\"42.0\" x2=\"200.0\" y2=\"160.0\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><polygon points=\"200.0,160.0 195.7,149.9 204.3,149.9\" fill=\"#c2410c\"/><text x=\"212.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">v = 0,98c</text><text x=\"214.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\">myon</text><text x=\"380.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#166534\">mark</text></svg></div><p>Hur lång är myonens medellivslängd mätt från jorden? (Svara i µs.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}98^2}}\\approx5{,}03\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta t=\\gamma\\Delta t_0\\approx5{,}03\\cdot2{,}2\\approx11{,}1\\ \\mu\\text{s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 11 µs.</p></div>",
+  "familj": "Tidsdilatation och egentid",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Livslängden i myonens vilosystem är egentiden.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 11.055415967851323,
+  "tolerans": 0.11055415967851323,
+  "svarVardesiffror": 2,
+  "svarEnhet": "µs",
+  "typ": "beräkna myonens livstid sett från jorden, sökt tid",
+  "familjNyckel": "tidsdilatation__tidsdilatation_och_egentid"
+},
+{
+  "id": "6.325",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett rymdskepp passerar jorden. En astronaut i skeppet mäter tiden mellan två blinkningar från en lampa som sitter fast i skeppet. Samtidigt mäter en observatör på jorden tiden mellan samma två blinkningar.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"En klocka i rymdskeppet och en klocka på jorden mäter tiden mellan samma två blinkningar\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"110\" cy=\"70\" r=\"48\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"28.0\" x2=\"110.0\" y2=\"22.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"131.0\" y1=\"33.6\" x2=\"134.0\" y2=\"28.4\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"49.0\" x2=\"151.6\" y2=\"46.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"152.0\" y1=\"70.0\" x2=\"158.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"91.0\" x2=\"151.6\" y2=\"94.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"131.0\" y1=\"106.4\" x2=\"134.0\" y2=\"111.6\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"112.0\" x2=\"110.0\" y2=\"118.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"89.0\" y1=\"106.4\" x2=\"86.0\" y2=\"111.6\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"73.6\" y1=\"91.0\" x2=\"68.4\" y2=\"94.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"68.0\" y1=\"70.0\" x2=\"62.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"73.6\" y1=\"49.0\" x2=\"68.4\" y2=\"46.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"89.0\" y1=\"33.6\" x2=\"86.0\" y2=\"28.4\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"70.0\" x2=\"110.0\" y2=\"36.4\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"70.0\" x2=\"131.6\" y2=\"79.6\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"110.0\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">i rymdskeppet</text><text x=\"110.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">Δt₀ ?</text><circle cx=\"310\" cy=\"70\" r=\"48\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"3\"/><line x1=\"310.0\" y1=\"28.0\" x2=\"310.0\" y2=\"22.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"331.0\" y1=\"33.6\" x2=\"334.0\" y2=\"28.4\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"346.4\" y1=\"49.0\" x2=\"351.6\" y2=\"46.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"352.0\" y1=\"70.0\" x2=\"358.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"346.4\" y1=\"91.0\" x2=\"351.6\" y2=\"94.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"331.0\" y1=\"106.4\" x2=\"334.0\" y2=\"111.6\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"112.0\" x2=\"310.0\" y2=\"118.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"289.0\" y1=\"106.4\" x2=\"286.0\" y2=\"111.6\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"273.6\" y1=\"91.0\" x2=\"268.4\" y2=\"94.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"268.0\" y1=\"70.0\" x2=\"262.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"273.6\" y1=\"49.0\" x2=\"268.4\" y2=\"46.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"289.0\" y1=\"33.6\" x2=\"286.0\" y2=\"28.4\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"70.0\" x2=\"310.0\" y2=\"36.4\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"70.0\" x2=\"331.6\" y2=\"79.6\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"310.0\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">på jorden</text><text x=\"310.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">Δt ?</text></svg></div><p>Vem mäter egentiden?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Egentiden mäts av den som är i vila relativt händelserna. Lampan sitter fast i skeppet, så båda blinkningarna sker på samma plats för astronauten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Astronauten i rymdskeppet.</p></div>",
+  "familj": "Tidsdilatation och egentid",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>För vem sker båda blinkningarna på samma plats?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Astronauten i rymdskeppet",
+      "ratt": true
+    },
+    {
+      "txt": "Observatören på jorden",
+      "ratt": false,
+      "kommentar": "För observatören på jorden sker blinkningarna på olika platser."
+    },
+    {
+      "txt": "Båda mäter egentiden",
+      "ratt": false,
+      "kommentar": "Bara den som är i vila relativt lampan mäter egentiden."
+    },
+    {
+      "txt": "Ingen av dem",
+      "ratt": false,
+      "kommentar": "Astronauten är i vila relativt lampan."
+    }
+  ],
+  "typ": "avgöra vem som mäter egentid, begrepp",
+  "familjNyckel": "tidsdilatation__tidsdilatation_och_egentid"
+},
+{
+  "id": "6.326",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Grafen visar gammafaktorn \\(\\gamma\\) som funktion av \\(v/c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"290\" viewBox=\"0 0 400 290\" role=\"img\" aria-label=\"Graf över gammafaktorn som funktion av v/c från 0 till nära 1\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"50.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"50.0\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"83.4\" y1=\"244.0\" x2=\"83.4\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"116.8\" y1=\"244.0\" x2=\"116.8\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"116.8\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,2</text><line x1=\"150.2\" y1=\"244.0\" x2=\"150.2\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"183.6\" y1=\"244.0\" x2=\"183.6\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"183.6\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,4</text><line x1=\"217.0\" y1=\"244.0\" x2=\"217.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"250.4\" y1=\"244.0\" x2=\"250.4\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"250.4\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,6</text><line x1=\"283.8\" y1=\"244.0\" x2=\"283.8\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"317.2\" y1=\"244.0\" x2=\"317.2\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"317.2\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,8</text><line x1=\"350.6\" y1=\"244.0\" x2=\"350.6\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"384.0\" y1=\"244.0\" x2=\"384.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"384.0\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"50.0\" y1=\"244.0\" x2=\"384.0\" y2=\"244.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"50.0\" y1=\"206.0\" x2=\"384.0\" y2=\"206.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"50.0\" y1=\"168.0\" x2=\"384.0\" y2=\"168.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"50.0\" y1=\"130.0\" x2=\"384.0\" y2=\"130.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"50.0\" y1=\"92.0\" x2=\"384.0\" y2=\"92.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"50.0\" y1=\"54.0\" x2=\"384.0\" y2=\"54.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"50.0\" y1=\"16.0\" x2=\"384.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">7</text><polyline points=\"50.0,244.0 51.7,244.0 53.3,244.0 55.0,244.0 56.7,244.0 58.4,244.0 60.0,244.0 61.7,244.0 63.4,244.0 65.0,244.0 66.7,244.0 68.4,243.9 70.0,243.9 71.7,243.9 73.4,243.9 75.0,243.9 76.7,243.9 78.4,243.9 80.1,243.8 81.7,243.8 83.4,243.8 85.1,243.8 86.7,243.8 88.4,243.7 90.1,243.7 91.8,243.7 93.4,243.7 95.1,243.6 96.8,243.6 98.4,243.6 100.1,243.6 101.8,243.5 103.4,243.5 105.1,243.5 106.8,243.4 108.4,243.4 110.1,243.4 111.8,243.3 113.5,243.3 115.1,243.3 116.8,243.2 118.5,243.2 120.1,243.1 121.8,243.1 123.5,243.0 125.2,243.0 126.8,243.0 128.5,242.9 130.2,242.9 131.8,242.8 133.5,242.8 135.2,242.7 136.8,242.6 138.5,242.6 140.2,242.5 141.9,242.5 143.5,242.4 145.2,242.4 146.9,242.3 148.5,242.2 150.2,242.2 151.9,242.1 153.5,242.0 155.2,242.0 156.9,241.9 158.6,241.8 160.2,241.7 161.9,241.7 163.6,241.6 165.2,241.5 166.9,241.4 168.6,241.4 170.2,241.3 171.9,241.2 173.6,241.1 175.2,241.0 176.9,240.9 178.6,240.8 180.3,240.7 181.9,240.6 183.6,240.5 185.3,240.4 186.9,240.3 188.6,240.2 190.3,240.1 191.9,240.0 193.6,239.9 195.3,239.8 197.0,239.7 198.6,239.6 200.3,239.4 202.0,239.3 203.6,239.2 205.3,239.1 207.0,238.9 208.7,238.8 210.3,238.7 212.0,238.5 213.7,238.4 215.3,238.3 217.0,238.1 218.7,238.0 220.3,237.8 222.0,237.7 223.7,237.5 225.3,237.4 227.0,237.2 228.7,237.0 230.4,236.9 232.0,236.7 233.7,236.5 235.4,236.3 237.0,236.1 238.7,235.9 240.4,235.8 242.0,235.6 243.7,235.4 245.4,235.1 247.1,234.9 248.7,234.7 250.4,234.5 252.1,234.3 253.7,234.0 255.4,233.8 257.1,233.6 258.8,233.3 260.4,233.1 262.1,232.8 263.8,232.5 265.4,232.3 267.1,232.0 268.8,231.7 270.4,231.4 272.1,231.1 273.8,230.8 275.5,230.5 277.1,230.2 278.8,229.8 280.5,229.5 282.1,229.1 283.8,228.8 285.5,228.4 287.1,228.0 288.8,227.6 290.5,227.2 292.1,226.8 293.8,226.4 295.5,226.0 297.2,225.5 298.8,225.0 300.5,224.5 302.2,224.0 303.8,223.5 305.5,223.0 307.2,222.4 308.9,221.9 310.5,221.3 312.2,220.7 313.9,220.0 315.5,219.4 317.2,218.7 318.9,217.9 320.5,217.2 322.2,216.4 323.9,215.6 325.6,214.8 327.2,213.9 328.9,212.9 330.6,212.0 332.2,210.9 333.9,209.9 335.6,208.7 337.2,207.5 338.9,206.3 340.6,204.9 342.2,203.5 343.9,202.0 345.6,200.4 347.3,198.7 348.9,196.8 350.6,194.8 352.3,192.7 353.9,190.3 355.6,187.8 357.3,185.0 358.9,182.0 360.6,178.6 362.3,174.9 364.0,170.6 365.6,165.8 367.3,160.3 369.0,153.9 370.6,146.3 372.3,137.1 374.0,125.7 375.6,111.0 377.3,91.0 379.0,61.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"384.0\" y2=\"244.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"217.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\">v/c</text><text x=\"18.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\">γ</text></svg></div><p>Vad händer med \\(\\gamma\\) när farten närmar sig ljusets fart?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(v\\) närmar sig \\(c\\) närmar sig nämnaren \\(\\sqrt{1-v^2/c^2}\\) noll. Då växer \\(\\gamma\\) utan gräns, som grafen visar.</p></li></ol></div>",
+  "familj": "Gammafaktorn",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Titta på hur kurvan beter sig längst till höger.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Den växer utan gräns",
+      "ratt": true
+    },
+    {
+      "txt": "Den närmar sig 1",
+      "ratt": false,
+      "kommentar": "γ är nära 1 vid låga farter."
+    },
+    {
+      "txt": "Den blir 2 när v = c",
+      "ratt": false,
+      "kommentar": "γ är inte definierad för v = c och växer utan gräns."
+    },
+    {
+      "txt": "Den blir negativ",
+      "ratt": false,
+      "kommentar": "γ är alltid minst 1."
+    }
+  ],
+  "typ": "tolka hur gammafaktorn beror av farten, begrepp",
+  "familjNyckel": "tidsdilatation__tidsdilatation_och_egentid"
+},
+{
+  "id": "6.327",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Grafen visar gammafaktorn \\(\\gamma\\) som funktion av \\(v/c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"290\" viewBox=\"0 0 400 290\" role=\"img\" aria-label=\"Graf över gammafaktorn som funktion av v/c från 0 till nära 1\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"50.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"50.0\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"83.4\" y1=\"244.0\" x2=\"83.4\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"116.8\" y1=\"244.0\" x2=\"116.8\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"116.8\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,2</text><line x1=\"150.2\" y1=\"244.0\" x2=\"150.2\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"183.6\" y1=\"244.0\" x2=\"183.6\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"183.6\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,4</text><line x1=\"217.0\" y1=\"244.0\" x2=\"217.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"250.4\" y1=\"244.0\" x2=\"250.4\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"250.4\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,6</text><line x1=\"283.8\" y1=\"244.0\" x2=\"283.8\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"317.2\" y1=\"244.0\" x2=\"317.2\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"317.2\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,8</text><line x1=\"350.6\" y1=\"244.0\" x2=\"350.6\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"384.0\" y1=\"244.0\" x2=\"384.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"384.0\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"50.0\" y1=\"244.0\" x2=\"384.0\" y2=\"244.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"50.0\" y1=\"206.0\" x2=\"384.0\" y2=\"206.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"50.0\" y1=\"168.0\" x2=\"384.0\" y2=\"168.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"50.0\" y1=\"130.0\" x2=\"384.0\" y2=\"130.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"50.0\" y1=\"92.0\" x2=\"384.0\" y2=\"92.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"50.0\" y1=\"54.0\" x2=\"384.0\" y2=\"54.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"50.0\" y1=\"16.0\" x2=\"384.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">7</text><polyline points=\"50.0,244.0 51.7,244.0 53.3,244.0 55.0,244.0 56.7,244.0 58.4,244.0 60.0,244.0 61.7,244.0 63.4,244.0 65.0,244.0 66.7,244.0 68.4,243.9 70.0,243.9 71.7,243.9 73.4,243.9 75.0,243.9 76.7,243.9 78.4,243.9 80.1,243.8 81.7,243.8 83.4,243.8 85.1,243.8 86.7,243.8 88.4,243.7 90.1,243.7 91.8,243.7 93.4,243.7 95.1,243.6 96.8,243.6 98.4,243.6 100.1,243.6 101.8,243.5 103.4,243.5 105.1,243.5 106.8,243.4 108.4,243.4 110.1,243.4 111.8,243.3 113.5,243.3 115.1,243.3 116.8,243.2 118.5,243.2 120.1,243.1 121.8,243.1 123.5,243.0 125.2,243.0 126.8,243.0 128.5,242.9 130.2,242.9 131.8,242.8 133.5,242.8 135.2,242.7 136.8,242.6 138.5,242.6 140.2,242.5 141.9,242.5 143.5,242.4 145.2,242.4 146.9,242.3 148.5,242.2 150.2,242.2 151.9,242.1 153.5,242.0 155.2,242.0 156.9,241.9 158.6,241.8 160.2,241.7 161.9,241.7 163.6,241.6 165.2,241.5 166.9,241.4 168.6,241.4 170.2,241.3 171.9,241.2 173.6,241.1 175.2,241.0 176.9,240.9 178.6,240.8 180.3,240.7 181.9,240.6 183.6,240.5 185.3,240.4 186.9,240.3 188.6,240.2 190.3,240.1 191.9,240.0 193.6,239.9 195.3,239.8 197.0,239.7 198.6,239.6 200.3,239.4 202.0,239.3 203.6,239.2 205.3,239.1 207.0,238.9 208.7,238.8 210.3,238.7 212.0,238.5 213.7,238.4 215.3,238.3 217.0,238.1 218.7,238.0 220.3,237.8 222.0,237.7 223.7,237.5 225.3,237.4 227.0,237.2 228.7,237.0 230.4,236.9 232.0,236.7 233.7,236.5 235.4,236.3 237.0,236.1 238.7,235.9 240.4,235.8 242.0,235.6 243.7,235.4 245.4,235.1 247.1,234.9 248.7,234.7 250.4,234.5 252.1,234.3 253.7,234.0 255.4,233.8 257.1,233.6 258.8,233.3 260.4,233.1 262.1,232.8 263.8,232.5 265.4,232.3 267.1,232.0 268.8,231.7 270.4,231.4 272.1,231.1 273.8,230.8 275.5,230.5 277.1,230.2 278.8,229.8 280.5,229.5 282.1,229.1 283.8,228.8 285.5,228.4 287.1,228.0 288.8,227.6 290.5,227.2 292.1,226.8 293.8,226.4 295.5,226.0 297.2,225.5 298.8,225.0 300.5,224.5 302.2,224.0 303.8,223.5 305.5,223.0 307.2,222.4 308.9,221.9 310.5,221.3 312.2,220.7 313.9,220.0 315.5,219.4 317.2,218.7 318.9,217.9 320.5,217.2 322.2,216.4 323.9,215.6 325.6,214.8 327.2,213.9 328.9,212.9 330.6,212.0 332.2,210.9 333.9,209.9 335.6,208.7 337.2,207.5 338.9,206.3 340.6,204.9 342.2,203.5 343.9,202.0 345.6,200.4 347.3,198.7 348.9,196.8 350.6,194.8 352.3,192.7 353.9,190.3 355.6,187.8 357.3,185.0 358.9,182.0 360.6,178.6 362.3,174.9 364.0,170.6 365.6,165.8 367.3,160.3 369.0,153.9 370.6,146.3 372.3,137.1 374.0,125.7 375.6,111.0 377.3,91.0 379.0,61.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"384.0\" y2=\"244.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"217.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\">v/c</text><text x=\"18.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\">γ</text></svg></div><p>Läs av \\(\\gamma\\) för en partikel med farten \\(0{,}90c\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(v/c=0{,}9\\) ligger kurvan vid ungefär \\(\\gamma\\approx2{,}3\\).</p></li><li><div class=\"facit-matte\">\\[\\text{Kontroll: }\\gamma=\\frac{1}{\\sqrt{1-0{,}90^2}}\\approx2{,}29\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 2,3.</p></div>",
+  "familj": "Tolka tidsdilatation i grafer och situationer",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Gå upp från 0,9 på den vågräta axeln till kurvan.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.294157338705618,
+  "tolerans": 0.15,
+  "typ": "avläsa gammafaktorn i en graf, sökt gamma"
+},
+{
+  "id": "6.328",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>I ett rymdskepp tar en måltid 5,0 min mätt med skeppets klocka. Skeppets gammafaktor relativt jorden är \\(\\gamma=2{,}0\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Måltiden tar 5,0 minuter i skeppet, tiden mätt från jorden är okänd\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"110\" cy=\"70\" r=\"48\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"3\"/><line x1=\"110.0\" y1=\"28.0\" x2=\"110.0\" y2=\"22.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"131.0\" y1=\"33.6\" x2=\"134.0\" y2=\"28.4\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"49.0\" x2=\"151.6\" y2=\"46.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"152.0\" y1=\"70.0\" x2=\"158.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"146.4\" y1=\"91.0\" x2=\"151.6\" y2=\"94.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"131.0\" y1=\"106.4\" x2=\"134.0\" y2=\"111.6\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"112.0\" x2=\"110.0\" y2=\"118.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"89.0\" y1=\"106.4\" x2=\"86.0\" y2=\"111.6\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"73.6\" y1=\"91.0\" x2=\"68.4\" y2=\"94.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"68.0\" y1=\"70.0\" x2=\"62.0\" y2=\"70.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"73.6\" y1=\"49.0\" x2=\"68.4\" y2=\"46.0\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"89.0\" y1=\"33.6\" x2=\"86.0\" y2=\"28.4\" stroke=\"#216d87\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"70.0\" x2=\"110.0\" y2=\"36.4\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"110.0\" y1=\"70.0\" x2=\"131.6\" y2=\"79.6\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"110.0\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">i rymdskeppet</text><text x=\"110.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">5,0 min</text><circle cx=\"310\" cy=\"70\" r=\"48\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"3\"/><line x1=\"310.0\" y1=\"28.0\" x2=\"310.0\" y2=\"22.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"331.0\" y1=\"33.6\" x2=\"334.0\" y2=\"28.4\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"346.4\" y1=\"49.0\" x2=\"351.6\" y2=\"46.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"352.0\" y1=\"70.0\" x2=\"358.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"346.4\" y1=\"91.0\" x2=\"351.6\" y2=\"94.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"331.0\" y1=\"106.4\" x2=\"334.0\" y2=\"111.6\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"112.0\" x2=\"310.0\" y2=\"118.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"289.0\" y1=\"106.4\" x2=\"286.0\" y2=\"111.6\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"273.6\" y1=\"91.0\" x2=\"268.4\" y2=\"94.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"268.0\" y1=\"70.0\" x2=\"262.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"273.6\" y1=\"49.0\" x2=\"268.4\" y2=\"46.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"289.0\" y1=\"33.6\" x2=\"286.0\" y2=\"28.4\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"70.0\" x2=\"310.0\" y2=\"36.4\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"310.0\" y1=\"70.0\" x2=\"331.6\" y2=\"79.6\" stroke=\"#172b3a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"310.0\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">på jorden</text><text x=\"310.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">?</text></svg></div><p>Hur lång tid tar måltiden mätt från jorden? (Svara i min.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta t=\\gamma\\Delta t_0=2{,}0\\cdot5{,}0=10\\ \\text{min}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 min.</p></div>",
+  "familj": "Tidsdilatation och egentid",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Multiplicera egentiden med gammafaktorn.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10.0,
+  "tolerans": 0.1,
+  "svarVardesiffror": 2,
+  "svarEnhet": "min",
+  "typ": "beräkna dilaterad tid ur gammafaktor, sökt tid",
+  "familjNyckel": "tidsdilatation__tidsdilatation_och_egentid"
+},
+{
+  "id": "6.329",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En astronauts hjärta slår en gång per sekund mätt i rymdskeppet. Skeppet rör sig med farten \\(0{,}80c\\) relativt jorden.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Rymdskepp med farten 0,80c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,80c</text><text x=\"180.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1,0 s mellan hjärtslagen</text></svg></div><p>Hur lång tid går det mellan hjärtslagen mätt från jorden? (Svara i s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}80^2}}=\\frac{1}{0{,}60}\\approx1{,}67\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta t=1{,}67\\cdot1{,}0\\approx1{,}7\\ \\text{s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,7 s.</p></div>",
+  "familj": "Tidsdilatation och egentid",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Tiden i skeppet är egentiden.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.666666666666667,
+  "tolerans": 0.01666666666666667,
+  "svarVardesiffror": 2,
+  "svarEnhet": "s",
+  "typ": "beräkna tiden mellan hjärtslag sett från jorden, sökt tid",
+  "familjNyckel": "tidsdilatation__tidsdilatation_och_egentid"
+},
+{
+  "id": "6.330",
+  "kap": 6,
+  "omr": "langdkontraktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett rymdskepp är 100 m långt när det står still. Det flyger förbi jorden med farten \\(0{,}60c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Rymdskepp med vilolängden 100 m och farten 0,60c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,60c</text><line x1=\"48.0\" y1=\"136.0\" x2=\"290.0\" y2=\"136.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"48.0\" y1=\"128.0\" x2=\"48.0\" y2=\"144.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"290.0\" y1=\"128.0\" x2=\"290.0\" y2=\"144.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"169.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">L₀ = 100 m</text></svg></div><p>Hur långt är rymdskeppet mätt från jorden? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>100 m är egenlängden \\(L_0\\), uppmätt i skeppets vilosystem.</p></li><li><div class=\"facit-matte\">\\[L=\\frac{L_0}{\\gamma}=100\\cdot\\sqrt{1-0{,}60^2}=100\\cdot0{,}80=80\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 80 m.</p></div>",
+  "familj": "Längdkontraktion och egenlängd",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>En längd i rörelse blir kortare med faktorn \\(1/\\gamma\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 80.0,
+  "tolerans": 0.8,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m",
+  "typ": "beräkna kontraherad längd ur egenlängd och fart, sökt längd",
+  "familjNyckel": "langdkontraktion__langdkontraktion_och_egenlangd"
+},
+{
+  "id": "6.331",
+  "kap": 6,
+  "omr": "langdkontraktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En mätstav är 2,0 m lång i sitt vilosystem. Den rör sig i sin längdriktning med farten \\(0{,}80c\\) förbi ett laboratorium.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Mätstav med vilolängden 2,0 m och farten 0,80c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L228.0 58 Q268.0 80 228.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"139.3\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"167.3\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"195.3\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"278.0\" y1=\"80.0\" x2=\"338.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"338.0,80.0 327.9,84.3 327.9,75.7\" fill=\"#c2410c\"/><text x=\"308.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,80c</text><line x1=\"48.0\" y1=\"136.0\" x2=\"268.0\" y2=\"136.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"48.0\" y1=\"128.0\" x2=\"48.0\" y2=\"144.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"268.0\" y1=\"128.0\" x2=\"268.0\" y2=\"144.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"158.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">L₀ = 2,0 m</text></svg></div><p>Hur lång är staven mätt i laboratoriet? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L=L_0\\sqrt{1-0{,}80^2}=2{,}0\\cdot0{,}60=1{,}2\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,2 m.</p></div>",
+  "familj": "Längdkontraktion och egenlängd",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Beräkna \\(\\sqrt{1-v^2/c^2}\\) först.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.2,
+  "tolerans": 0.012,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m",
+  "typ": "beräkna kontraherad längd hos en stav, sökt längd",
+  "familjNyckel": "langdkontraktion__langdkontraktion_och_egenlangd"
+},
+{
+  "id": "6.332",
+  "kap": 6,
+  "omr": "langdkontraktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Avståndet från jorden till en stjärna är 4,2 ljusår mätt från jorden. Ett rymdskepp reser dit med farten \\(0{,}90c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"150\" viewBox=\"0 0 420 150\" role=\"img\" aria-label=\"Jorden och en stjärna 4,2 ljusår bort, ett rymdskepp reser med farten 0,90c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"50\" cy=\"75\" r=\"22\" fill=\"#60a5fa\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><path d=\"M370 55 l6 14 15 1 -11 10 4 15 -14 -8 -14 8 4 -15 -11 -10 15 -1 Z\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><line x1=\"50.0\" y1=\"120.0\" x2=\"370.0\" y2=\"120.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"210.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">4,2 ljusår</text><line x1=\"150.0\" y1=\"72.0\" x2=\"260.0\" y2=\"72.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"260.0,72.0 249.9,76.3 249.9,67.7\" fill=\"#c2410c\"/><text x=\"205.0\" y=\"60.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,90c</text></svg></div><p>Hur långt är avståndet mätt av resenärerna? (Svara i ljusår.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Jorden och stjärnan är i vila relativt varandra, så 4,2 ljusår är egenlängden.</p></li><li><div class=\"facit-matte\">\\[L=4{,}2\\cdot\\sqrt{1-0{,}90^2}\\approx1{,}83\\ \\text{ljusår}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,8 ljusår.</p></div>",
+  "familj": "Resor, myoner och paradoxer",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Avståndet mellan jorden och stjärnan är egenlängden.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.830737556287083,
+  "tolerans": 0.01830737556287083,
+  "svarVardesiffror": 2,
+  "svarEnhet": "ljusår",
+  "typ": "beräkna avstånd till stjärna i resenärens system, sökt avstånd",
+  "familjNyckel": "langdkontraktion__langdkontraktion_och_egenlangd"
+},
+{
+  "id": "6.333",
+  "kap": 6,
+  "omr": "langdkontraktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett kubformat rymdskepp flyger åt höger med en fart nära ljusets.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Rymdskepp som flyger åt höger med en fart nära ljusets\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v</text></svg></div><p>Vilka mått på skeppet blir kortare mätt från jorden?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Längdkontraktion sker bara i rörelseriktningen. Höjden och bredden vinkelrätt mot rörelsen är oförändrade.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bara längden i rörelseriktningen.</p></div>",
+  "familj": "Längdkontraktion och egenlängd",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Längdkontraktion gäller i en riktning.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Bara längden i rörelseriktningen",
+      "ratt": true
+    },
+    {
+      "txt": "Alla mått lika mycket",
+      "ratt": false,
+      "kommentar": "Mått vinkelrätt mot rörelsen påverkas inte."
+    },
+    {
+      "txt": "Bara höjden",
+      "ratt": false,
+      "kommentar": "Höjden är vinkelrät mot rörelsen och påverkas inte."
+    },
+    {
+      "txt": "Inga mått",
+      "ratt": false,
+      "kommentar": "Längden i rörelseriktningen blir kortare."
+    }
+  ],
+  "typ": "avgöra riktning för längdkontraktion, begrepp",
+  "familjNyckel": "langdkontraktion__langdkontraktion_och_egenlangd"
+},
+{
+  "id": "6.334",
+  "kap": 6,
+  "omr": "langdkontraktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett rymdskepp flyger förbi en rymdstation. En astronaut i skeppet och en tekniker på stationen mäter båda skeppets längd.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Rymdskepp som flyger förbi en rymdstation\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,5c</text></svg></div><p>Vem mäter skeppets egenlängd?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Egenlängden mäts i det system där föremålet är i vila. Skeppet är i vila relativt astronauten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Astronauten.</p></div>",
+  "familj": "Längdkontraktion och egenlängd",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>I vilket system står skeppet still?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Astronauten i skeppet",
+      "ratt": true
+    },
+    {
+      "txt": "Teknikern på stationen",
+      "ratt": false,
+      "kommentar": "För teknikern rör sig skeppet."
+    },
+    {
+      "txt": "Båda mäter samma längd",
+      "ratt": false,
+      "kommentar": "Teknikern mäter en kortare längd."
+    },
+    {
+      "txt": "Den som rör sig snabbast",
+      "ratt": false,
+      "kommentar": "Rörelse är relativ. Det som avgör är var skeppet är i vila."
+    }
+  ],
+  "typ": "avgöra vem som mäter egenlängd, begrepp",
+  "familjNyckel": "langdkontraktion__langdkontraktion_och_egenlangd"
+},
+{
+  "id": "6.335",
+  "kap": 6,
+  "omr": "langdkontraktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En rymdsond är 50 m lång i vila. Relativt en planet har den gammafaktorn \\(\\gamma=2{,}5\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Rymdsond med vilolängden 50 m och gammafaktorn 2,5\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">γ = 2,5</text><line x1=\"48.0\" y1=\"136.0\" x2=\"290.0\" y2=\"136.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"48.0\" y1=\"128.0\" x2=\"48.0\" y2=\"144.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"290.0\" y1=\"128.0\" x2=\"290.0\" y2=\"144.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"169.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">L₀ = 50 m</text></svg></div><p>Hur lång är sonden mätt från planeten? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L=\\frac{L_0}{\\gamma}=\\frac{50}{2{,}5}=20\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 m.</p></div>",
+  "familj": "Längdkontraktion och egenlängd",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Dela egenlängden med gammafaktorn.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 20.0,
+  "tolerans": 0.2,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m",
+  "typ": "beräkna kontraherad längd ur gammafaktor, sökt längd",
+  "familjNyckel": "langdkontraktion__langdkontraktion_och_egenlangd"
+},
+{
+  "id": "6.336",
+  "kap": 6,
+  "omr": "langdkontraktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En myon bildas 15 km ovanför marken och rör sig rakt nedåt med farten \\(0{,}995c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" role=\"img\" aria-label=\"Myon 15 kilometer ovanför marken som rör sig nedåt med farten 0,995c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"20\" width=\"380\" height=\"150\" fill=\"#dbeafe\"/><rect x=\"20\" y=\"170\" width=\"380\" height=\"30\" fill=\"#bbf7d0\"/><line x1=\"20.0\" y1=\"170.0\" x2=\"400.0\" y2=\"170.0\" stroke=\"#15803d\" stroke-width=\"2\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"34\" r=\"6\" fill=\"#c2410c\"/><line x1=\"200.0\" y1=\"42.0\" x2=\"200.0\" y2=\"160.0\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><polygon points=\"200.0,160.0 195.7,149.9 204.3,149.9\" fill=\"#c2410c\"/><text x=\"212.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">v = 0,995c</text><text x=\"214.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\">myon</text><line x1=\"60.0\" y1=\"34.0\" x2=\"60.0\" y2=\"170.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"52.0\" y1=\"34.0\" x2=\"68.0\" y2=\"34.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><line x1=\"52.0\" y1=\"170.0\" x2=\"68.0\" y2=\"170.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"76.0\" y=\"108.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">15 km</text><text x=\"380.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#166534\">mark</text></svg></div><p>Hur lång är sträckan till marken i myonens vilosystem? (Svara i km.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sträckan 15 km är mätt från jorden, där atmosfären är i vila. Den är egenlängden.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}995^2}}\\approx10\\]</div></li><li><div class=\"facit-matte\">\\[L=\\frac{15}{10}\\approx1{,}5\\ \\text{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,5 km.</p></div>",
+  "familj": "Resor, myoner och paradoxer",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>För myonen rör sig atmosfären, och sträckan blir kortare.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.49812382665786,
+  "tolerans": 0.0149812382665786,
+  "svarVardesiffror": 2,
+  "svarEnhet": "km",
+  "typ": "beräkna atmosfärens tjocklek i myonens system, sökt längd",
+  "familjNyckel": "langdkontraktion__langdkontraktion_och_egenlangd"
+},
+{
+  "id": "6.337",
+  "kap": 6,
+  "omr": "langdkontraktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En tunnel är 300 m lång. Ett tänkt tåg kör genom tunneln med farten \\(0{,}50c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"150\" viewBox=\"0 0 420 150\" role=\"img\" aria-label=\"Tunnel som är 300 m lång och ett tåg med farten 0,50c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M40 110 L40 50 Q210 0 380 50 L380 110\" fill=\"#d6d3d1\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"70\" y=\"72\" width=\"100\" height=\"34\" rx=\"6\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><line x1=\"180.0\" y1=\"89.0\" x2=\"250.0\" y2=\"89.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"250.0,89.0 239.9,93.3 239.9,84.7\" fill=\"#c2410c\"/><text x=\"215.0\" y=\"77.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,50c</text><line x1=\"40.0\" y1=\"128.0\" x2=\"380.0\" y2=\"128.0\" stroke=\"#216d87\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><text x=\"210.0\" y=\"146.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">300 m</text></svg></div><p>Hur lång är tunneln mätt från tåget? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L=300\\cdot\\sqrt{1-0{,}50^2}\\approx260\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 260 m.</p></div>",
+  "familj": "Längdkontraktion och egenlängd",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Tunneln är i vila relativt marken. 300 m är dess egenlängd.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 259.8076211353316,
+  "tolerans": 2.598076211353316,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m",
+  "typ": "beräkna tunnelns längd sett från tåget, sökt längd",
+  "familjNyckel": "langdkontraktion__langdkontraktion_och_egenlangd"
+},
+{
+  "id": "6.338",
+  "kap": 6,
+  "omr": "langdkontraktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett föremål rör sig med farten \\(0{,}60c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Föremål som rör sig med farten 0,60c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L206.0 58 Q246.0 80 206.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"131.6\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"159.6\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"187.6\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"256.0\" y1=\"80.0\" x2=\"316.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"316.0,80.0 305.9,84.3 305.9,75.7\" fill=\"#c2410c\"/><text x=\"286.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,60c</text></svg></div><p>Hur många procent av sin vilolängd är föremålet mätt av en observatör som ser det passera? (Svara i %.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_0}=\\sqrt{1-0{,}60^2}=0{,}80=80\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 80 %.</p></div>",
+  "familj": "Längdkontraktion och egenlängd",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Kvoten \\(L/L_0\\) är \\(\\sqrt{1-v^2/c^2}\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 80.0,
+  "tolerans": 0.8,
+  "svarVardesiffror": 2,
+  "svarEnhet": "%",
+  "typ": "beräkna andel av egenlängden, sökt procent",
+  "familjNyckel": "langdkontraktion__langdkontraktion_och_egenlangd"
+},
+{
+  "id": "6.339",
+  "kap": 6,
+  "omr": "langdkontraktion",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En astronaut färdas med farten \\(0{,}9c\\) relativt jorden och mäter sitt eget rymdskepp med ett måttband.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Astronaut i ett rymdskepp med farten 0,9c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M70 58 L250.0 58 Q290.0 80 250.0 102 L70 102 Z\" fill=\"#e5e7eb\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M70 58 L48 40 L100 58 Z M70 102 L48 120 L100 102 Z\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"147.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"175.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><circle cx=\"203.0\" cy=\"80\" r=\"7\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"80.0\" x2=\"360.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"360.0,80.0 349.9,84.3 349.9,75.7\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"68.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,9c</text></svg></div><p>Vad visar astronautens mätning?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Astronauten är i vila relativt skeppet och mäter egenlängden. Hen märker ingen förkortning.</p></li></ol></div>",
+  "familj": "Resor, myoner och paradoxer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Rör sig skeppet relativt astronauten?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Samma längd som när skeppet stod still på jorden",
+      "ratt": true
+    },
+    {
+      "txt": "En kortare längd än i vila",
+      "ratt": false,
+      "kommentar": "Astronauten är i vila relativt skeppet."
+    },
+    {
+      "txt": "En längre längd än i vila",
+      "ratt": false,
+      "kommentar": "Rörelse gör aldrig föremål längre."
+    },
+    {
+      "txt": "Längden går inte att mäta",
+      "ratt": false,
+      "kommentar": "Astronauten kan mäta som vanligt."
+    }
+  ],
+  "typ": "avgöra om astronauten märker sin egen kontraktion, begrepp",
+  "familjNyckel": "langdkontraktion__langdkontraktion_och_egenlangd"
+},
+{
+  "id": "6.340",
+  "kap": 6,
+  "omr": "relativistisk_energi",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett gem har massan 1,0 g.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Massan 1,0 gram omvandlas till energi enligt E = mc²\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"60\" width=\"110\" height=\"70\" rx=\"10\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"95.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">m = 1,0 g</text><line x1=\"165.0\" y1=\"95.0\" x2=\"255.0\" y2=\"95.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"255.0,95.0 244.9,99.3 244.9,90.7\" fill=\"#c2410c\"/><text x=\"210.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">E = mc²</text><path d=\"M330 50 L344 82 L378 84 L352 104 L362 138 L330 118 L298 138 L308 104 L282 84 L316 82 Z\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"330.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E₀ = ?</text></svg></div><p>Hur stor är gemets viloenergi? (Svara i J.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E_0=mc^2=1{,}0\\cdot10^{-3}\\cdot(2{,}998\\cdot10^8)^2\\approx9\\cdot10^{13}\\ \\text{J}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(9\\cdot10^{13}\\) J.</p></div>",
+  "familj": "Viloenergi och E = mc²",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Räkna om massan till kg.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 89875517873681.77,
+  "tolerans": 898755178736.8176,
+  "svarVardesiffror": 2,
+  "svarEnhet": "J",
+  "typ": "beräkna viloenergi ur massa, sökt energi",
+  "familjNyckel": "massa_och_energi__massaenergi_ekvivalens"
+},
+{
+  "id": "6.341",
+  "kap": 6,
+  "omr": "relativistisk_energi",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En vattenflaska med vatten har massan 2,0 kg.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Massan 2,0 kilogram och dess viloenergi\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"60\" width=\"110\" height=\"70\" rx=\"10\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"95.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">m = 2,0 kg</text><line x1=\"165.0\" y1=\"95.0\" x2=\"255.0\" y2=\"95.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"255.0,95.0 244.9,99.3 244.9,90.7\" fill=\"#c2410c\"/><text x=\"210.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">E = mc²</text><path d=\"M330 50 L344 82 L378 84 L352 104 L362 138 L330 118 L298 138 L308 104 L282 84 L316 82 Z\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"330.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E₀ = ?</text></svg></div><p>Hur stor viloenergi motsvarar massan? (Svara i J.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E_0=mc^2=2{,}0\\cdot(2{,}998\\cdot10^8)^2\\approx1{,}8\\cdot10^{17}\\ \\text{J}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1{,}8\\cdot10^{17}\\) J.</p></div>",
+  "familj": "Viloenergi och E = mc²",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Multiplicera massan med ljusfarten i kvadrat.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.7975103574736352e+17,
+  "tolerans": 1797510357473635.2,
+  "svarVardesiffror": 2,
+  "svarEnhet": "J",
+  "typ": "beräkna viloenergi ur massa i kg, sökt energi",
+  "familjNyckel": "massa_och_energi__massaenergi_ekvivalens"
+},
+{
+  "id": "6.342",
+  "kap": 6,
+  "omr": "relativistisk_energi",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Sverige använder ungefär \\(4{,}5\\cdot10^{16}\\) J elenergi per månad.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Okänd massa som motsvarar energin 4,5 gånger 10 upphöjt till 16 joule\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"60\" width=\"110\" height=\"70\" rx=\"10\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"95.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">m = ?</text><line x1=\"165.0\" y1=\"95.0\" x2=\"255.0\" y2=\"95.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"255.0,95.0 244.9,99.3 244.9,90.7\" fill=\"#c2410c\"/><text x=\"210.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">E = mc²</text><path d=\"M330 50 L344 82 L378 84 L352 104 L362 138 L330 118 L298 138 L308 104 L282 84 L316 82 Z\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"330.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">4,5·10¹⁶ J</text></svg></div><p>Hur stor massa motsvarar denna energi enligt \\(E=mc^2\\)? (Svara i kg.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=\\frac{E}{c^2}=\\frac{4{,}5\\cdot10^{16}}{(2{,}998\\cdot10^8)^2}\\approx0{,}5\\ \\text{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,50 kg.</p></div>",
+  "familj": "Viloenergi och E = mc²",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Lös ut \\(m\\) ur \\(E=mc^2\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.5006925252241283,
+  "tolerans": 0.005006925252241283,
+  "svarVardesiffror": 2,
+  "svarEnhet": "kg",
+  "typ": "beräkna massa ur energi, sökt massa",
+  "familjNyckel": "massa_och_energi__massaenergi_ekvivalens"
+},
+{
+  "id": "6.343",
+  "kap": 6,
+  "omr": "relativistisk_energi",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En proton rör sig med farten \\(0{,}80c\\) i en accelerator.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"120\" viewBox=\"0 0 420 120\" role=\"img\" aria-label=\"Proton som rör sig med farten 0,80c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"118\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"120\" cy=\"60\" r=\"16\" fill=\"#fecaca\" stroke=\"#b91c1c\" stroke-width=\"2\"/><text x=\"120.0\" y=\"66.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#b91c1c\" font-weight=\"bold\">p</text><line x1=\"142.0\" y1=\"60.0\" x2=\"300.0\" y2=\"60.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"300.0,60.0 289.9,64.3 289.9,55.7\" fill=\"#c2410c\"/><text x=\"220.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v = 0,80c</text></svg></div><p>Hur stor är protonens totala energi? (Svara i J.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Protonens massa finns i formelsamlingen.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}80^2}}\\approx1{,}667\\]</div></li><li><div class=\"facit-matte\">\\[E=\\gamma mc^2=1{,}667\\cdot1{,}673\\cdot10^{-27}\\cdot(2{,}998\\cdot10^8)^2\\approx2{,}5\\cdot10^{-10}\\ \\text{J}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}5\\cdot10^{-10}\\) J.</p></div>",
+  "familj": "Total energi och rörelseenergi",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Total energi är \\(E=\\gamma mc^2\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.505462687781199e-10,
+  "tolerans": 2.5054626877811986e-12,
+  "svarVardesiffror": 2,
+  "svarEnhet": "J",
+  "typ": "beräkna total energi för proton, sökt energi",
+  "familjNyckel": "relativistisk_energi__relativistisk_energi"
+},
+{
+  "id": "6.344",
+  "kap": 6,
+  "omr": "relativistisk_energi",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En elektron i ett tv-rör rör sig med farten \\(0{,}60c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"120\" viewBox=\"0 0 420 120\" role=\"img\" aria-label=\"Elektron som rör sig med farten 0,60c\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"118\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"120\" cy=\"60\" r=\"12\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"120.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#1d4ed8\" font-weight=\"bold\">e⁻</text><line x1=\"140.0\" y1=\"60.0\" x2=\"300.0\" y2=\"60.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"300.0,60.0 289.9,64.3 289.9,55.7\" fill=\"#c2410c\"/><text x=\"220.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v = 0,60c</text></svg></div><p>Hur stor är elektronens rörelseenergi? (Svara i J.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Elektronens massa finns i formelsamlingen.</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac{1}{\\sqrt{1-0{,}60^2}}=1{,}25\\]</div></li><li><div class=\"facit-matte\">\\[E_k=(\\gamma-1)mc^2=0{,}25\\cdot9{,}109\\cdot10^{-31}\\cdot(2{,}998\\cdot10^8)^2\\approx2\\cdot10^{-14}\\ \\text{J}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2\\cdot10^{-14}\\) J.</p></div>",
+  "familj": "Total energi och rörelseenergi",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Rörelseenergin är den totala energin minus viloenergin.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.0467764438689382e-14,
+  "tolerans": 2.0467764438689381e-16,
+  "svarVardesiffror": 2,
+  "svarEnhet": "J",
+  "typ": "beräkna rörelseenergi för elektron, sökt energi",
+  "familjNyckel": "relativistisk_energi__relativistisk_energi"
+},
+{
+  "id": "6.345",
+  "kap": 6,
+  "omr": "relativistisk_energi",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En partikel accelereras till allt högre fart, närmare och närmare ljusets fart \\(c\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"290\" viewBox=\"0 0 400 290\" role=\"img\" aria-label=\"Graf över gammafaktorn som funktion av v/c från 0 till nära 1\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"50.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"50.0\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"83.4\" y1=\"244.0\" x2=\"83.4\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"116.8\" y1=\"244.0\" x2=\"116.8\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"116.8\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,2</text><line x1=\"150.2\" y1=\"244.0\" x2=\"150.2\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"183.6\" y1=\"244.0\" x2=\"183.6\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"183.6\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,4</text><line x1=\"217.0\" y1=\"244.0\" x2=\"217.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"250.4\" y1=\"244.0\" x2=\"250.4\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"250.4\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,6</text><line x1=\"283.8\" y1=\"244.0\" x2=\"283.8\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"317.2\" y1=\"244.0\" x2=\"317.2\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"317.2\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,8</text><line x1=\"350.6\" y1=\"244.0\" x2=\"350.6\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><line x1=\"384.0\" y1=\"244.0\" x2=\"384.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"384.0\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"50.0\" y1=\"244.0\" x2=\"384.0\" y2=\"244.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"50.0\" y1=\"206.0\" x2=\"384.0\" y2=\"206.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"50.0\" y1=\"168.0\" x2=\"384.0\" y2=\"168.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"50.0\" y1=\"130.0\" x2=\"384.0\" y2=\"130.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"50.0\" y1=\"92.0\" x2=\"384.0\" y2=\"92.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"50.0\" y1=\"54.0\" x2=\"384.0\" y2=\"54.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"50.0\" y1=\"16.0\" x2=\"384.0\" y2=\"16.0\" stroke=\"#e5eaf0\" stroke-width=\"1\" stroke-linecap=\"round\"/><text x=\"42.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">7</text><polyline points=\"50.0,244.0 51.7,244.0 53.3,244.0 55.0,244.0 56.7,244.0 58.4,244.0 60.0,244.0 61.7,244.0 63.4,244.0 65.0,244.0 66.7,244.0 68.4,243.9 70.0,243.9 71.7,243.9 73.4,243.9 75.0,243.9 76.7,243.9 78.4,243.9 80.1,243.8 81.7,243.8 83.4,243.8 85.1,243.8 86.7,243.8 88.4,243.7 90.1,243.7 91.8,243.7 93.4,243.7 95.1,243.6 96.8,243.6 98.4,243.6 100.1,243.6 101.8,243.5 103.4,243.5 105.1,243.5 106.8,243.4 108.4,243.4 110.1,243.4 111.8,243.3 113.5,243.3 115.1,243.3 116.8,243.2 118.5,243.2 120.1,243.1 121.8,243.1 123.5,243.0 125.2,243.0 126.8,243.0 128.5,242.9 130.2,242.9 131.8,242.8 133.5,242.8 135.2,242.7 136.8,242.6 138.5,242.6 140.2,242.5 141.9,242.5 143.5,242.4 145.2,242.4 146.9,242.3 148.5,242.2 150.2,242.2 151.9,242.1 153.5,242.0 155.2,242.0 156.9,241.9 158.6,241.8 160.2,241.7 161.9,241.7 163.6,241.6 165.2,241.5 166.9,241.4 168.6,241.4 170.2,241.3 171.9,241.2 173.6,241.1 175.2,241.0 176.9,240.9 178.6,240.8 180.3,240.7 181.9,240.6 183.6,240.5 185.3,240.4 186.9,240.3 188.6,240.2 190.3,240.1 191.9,240.0 193.6,239.9 195.3,239.8 197.0,239.7 198.6,239.6 200.3,239.4 202.0,239.3 203.6,239.2 205.3,239.1 207.0,238.9 208.7,238.8 210.3,238.7 212.0,238.5 213.7,238.4 215.3,238.3 217.0,238.1 218.7,238.0 220.3,237.8 222.0,237.7 223.7,237.5 225.3,237.4 227.0,237.2 228.7,237.0 230.4,236.9 232.0,236.7 233.7,236.5 235.4,236.3 237.0,236.1 238.7,235.9 240.4,235.8 242.0,235.6 243.7,235.4 245.4,235.1 247.1,234.9 248.7,234.7 250.4,234.5 252.1,234.3 253.7,234.0 255.4,233.8 257.1,233.6 258.8,233.3 260.4,233.1 262.1,232.8 263.8,232.5 265.4,232.3 267.1,232.0 268.8,231.7 270.4,231.4 272.1,231.1 273.8,230.8 275.5,230.5 277.1,230.2 278.8,229.8 280.5,229.5 282.1,229.1 283.8,228.8 285.5,228.4 287.1,228.0 288.8,227.6 290.5,227.2 292.1,226.8 293.8,226.4 295.5,226.0 297.2,225.5 298.8,225.0 300.5,224.5 302.2,224.0 303.8,223.5 305.5,223.0 307.2,222.4 308.9,221.9 310.5,221.3 312.2,220.7 313.9,220.0 315.5,219.4 317.2,218.7 318.9,217.9 320.5,217.2 322.2,216.4 323.9,215.6 325.6,214.8 327.2,213.9 328.9,212.9 330.6,212.0 332.2,210.9 333.9,209.9 335.6,208.7 337.2,207.5 338.9,206.3 340.6,204.9 342.2,203.5 343.9,202.0 345.6,200.4 347.3,198.7 348.9,196.8 350.6,194.8 352.3,192.7 353.9,190.3 355.6,187.8 357.3,185.0 358.9,182.0 360.6,178.6 362.3,174.9 364.0,170.6 365.6,165.8 367.3,160.3 369.0,153.9 370.6,146.3 372.3,137.1 374.0,125.7 375.6,111.0 377.3,91.0 379.0,61.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"384.0\" y2=\"244.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"50.0\" y1=\"244.0\" x2=\"50.0\" y2=\"10.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"217.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\">v/c</text><text x=\"18.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\">γ</text></svg></div><p>Vad händer med den energi som krävs för att öka farten ytterligare?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rörelseenergin är \\((\\gamma-1)mc^2\\), och \\(\\gamma\\) växer utan gräns när \\(v\\) närmar sig \\(c\\). Därför krävs oändligt mycket energi för att nå \\(c\\).</p></li></ol></div>",
+  "familj": "Total energi och rörelseenergi",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur beror rörelseenergin på \\(\\gamma\\)?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Den växer utan gräns, så c kan aldrig nås",
+      "ratt": true
+    },
+    {
+      "txt": "Den blir mindre och mindre",
+      "ratt": false,
+      "kommentar": "Energin ökar snabbare ju närmare c partikeln kommer."
+    },
+    {
+      "txt": "Den blir konstant",
+      "ratt": false,
+      "kommentar": "Energin fortsätter att öka."
+    },
+    {
+      "txt": "Den följer formeln mv²/2 hela vägen",
+      "ratt": false,
+      "kommentar": "Den klassiska formeln gäller bara vid låga farter."
+    }
+  ],
+  "typ": "tolka rörelseenergi nära ljusfarten, begrepp",
+  "familjNyckel": "relativistisk_energi__relativistisk_energi"
+},
+{
+  "id": "6.346",
+  "kap": 6,
+  "omr": "relativistisk_energi",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En partikels totala energi är tre gånger så stor som dess viloenergi.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"150\" viewBox=\"0 0 420 150\" role=\"img\" aria-label=\"Stapel för viloenergin och en tre gånger så hög stapel för den totala energin\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"100\" y=\"100\" width=\"70\" height=\"30\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><rect x=\"250\" y=\"40\" width=\"70\" height=\"90\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"250.0\" y1=\"70.0\" x2=\"320.0\" y2=\"70.0\" stroke=\"#c2410c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"4 3\"/><line x1=\"250.0\" y1=\"100.0\" x2=\"320.0\" y2=\"100.0\" stroke=\"#c2410c\" stroke-width=\"1\" stroke-linecap=\"round\" stroke-dasharray=\"4 3\"/><text x=\"135.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E₀</text><text x=\"285.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E = 3E₀</text></svg></div><p>Hur stor är partikelns gammafaktor \\(\\gamma\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(E=\\gamma mc^2=\\gamma E_0\\) är \\(\\gamma=E/E_0\\).</p></li><li><div class=\"facit-matte\">\\[\\gamma=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\gamma=3\\).</p></div>",
+  "familj": "Total energi och rörelseenergi",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Jämför \\(E=\\gamma E_0\\) med \\(E=3E_0\\).</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 1e-09,
+  "typ": "bestämma gammafaktor ur energikvot, sökt gamma",
+  "familjNyckel": "relativistisk_energi__relativistisk_energi"
+},
+{
+  "id": "6.347",
+  "kap": 6,
+  "omr": "relativistisk_energi",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Einsteins samband \\(E=mc^2\\) är en av fysikens mest kända formler.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Massa och energi kopplas samman av E = mc²\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"60\" width=\"110\" height=\"70\" rx=\"10\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"95.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">massa</text><line x1=\"165.0\" y1=\"95.0\" x2=\"255.0\" y2=\"95.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"255.0,95.0 244.9,99.3 244.9,90.7\" fill=\"#c2410c\"/><text x=\"210.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">E = mc²</text><path d=\"M330 50 L344 82 L378 84 L352 104 L362 138 L330 118 L298 138 L308 104 L282 84 L316 82 Z\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"330.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">energi</text></svg></div><p>Vad betyder sambandet?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Massa är en form av energi. Varje massa \\(m\\) motsvarar viloenergin \\(mc^2\\), och när energi frigörs i till exempel kärnreaktioner minskar den totala massan.</p></li></ol></div>",
+  "familj": "Viloenergi och E = mc²",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Tänk på vad som händer med massan i en kärnreaktion.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Massa och energi är ekvivalenta: massa motsvarar energin mc²",
+      "ratt": true
+    },
+    {
+      "txt": "Energi kan bara finnas hos föremål som rör sig med farten c",
+      "ratt": false,
+      "kommentar": "Även vilande föremål har viloenergi."
+    },
+    {
+      "txt": "Massan ökar alltid när ett föremål värms",
+      "ratt": false,
+      "kommentar": "Sambandet handlar om ekvivalens, inte om uppvärmning i första hand."
+    },
+    {
+      "txt": "Formeln gäller bara för ljus",
+      "ratt": false,
+      "kommentar": "Formeln gäller all massa."
+    }
+  ],
+  "typ": "tolka massa-energi-ekvivalens, begrepp",
+  "familjNyckel": "massa_och_energi__massaenergi_ekvivalens"
+},
+{
+  "id": "6.348",
+  "kap": 6,
+  "omr": "relativistisk_energi",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>När 1,0 kg uran klyvs i en kärnreaktor minskar den totala massan med 0,90 g.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"Massförlusten 0,90 gram omvandlas till frigjord energi\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"60\" width=\"110\" height=\"70\" rx=\"10\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"95.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Δm = 0,90 g</text><line x1=\"165.0\" y1=\"95.0\" x2=\"255.0\" y2=\"95.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"255.0,95.0 244.9,99.3 244.9,90.7\" fill=\"#c2410c\"/><text x=\"210.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">E = mc²</text><path d=\"M330 50 L344 82 L378 84 L352 104 L362 138 L330 118 L298 138 L308 104 L282 84 L316 82 Z\" fill=\"#fde68a\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"330.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E = ?</text></svg></div><p>Hur mycket energi frigörs? (Svara i J.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[E=\\Delta m\\,c^2=0{,}90\\cdot10^{-3}\\cdot(2{,}998\\cdot10^8)^2\\approx8{,}1\\cdot10^{13}\\ \\text{J}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(8{,}1\\cdot10^{13}\\) J.</p></div>",
+  "familj": "Viloenergi och E = mc²",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Det är massminskningen som omvandlas till energi.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 80887966086313.58,
+  "tolerans": 808879660863.1357,
+  "svarVardesiffror": 2,
+  "svarEnhet": "J",
+  "typ": "beräkna frigjord energi ur massförlust, sökt energi",
+  "familjNyckel": "massa_och_energi__massaenergi_ekvivalens"
+},
+{
+  "id": "6.349",
+  "kap": 6,
+  "omr": "relativistisk_energi",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>En elektron har gammafaktorn \\(\\gamma=2{,}0\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"150\" viewBox=\"0 0 420 150\" role=\"img\" aria-label=\"Stapel för viloenergin och en dubbelt så hög stapel för den totala energin\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"100\" y=\"80\" width=\"70\" height=\"50\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><rect x=\"250\" y=\"30\" width=\"70\" height=\"100\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"250.0\" y1=\"80.0\" x2=\"320.0\" y2=\"80.0\" stroke=\"#c2410c\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-dasharray=\"4 3\"/><text x=\"135.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E₀</text><text x=\"285.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">E = 2,0·E₀</text><text x=\"342.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">Eₖ</text></svg></div><p>Hur stor är elektronens rörelseenergi? (Svara i MeV.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Elektronens viloenergi är 0,511 MeV.</p></li><li><div class=\"facit-matte\">\\[E_k=(\\gamma-1)E_0=(2{,}0-1)\\cdot0{,}511\\approx0{,}51\\ \\text{MeV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,51 MeV.</p></div>",
+  "familj": "Total energi och rörelseenergi",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Rörelseenergin är \\((\\gamma-1)E_0\\). Elektronens viloenergi i MeV finns i formelsamlingen.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.511,
+  "tolerans": 0.00511,
+  "svarVardesiffror": 2,
+  "svarEnhet": "MeV",
+  "typ": "beräkna rörelseenergi i MeV ur gammafaktor, sökt energi",
+  "familjNyckel": "relativistisk_energi__relativistisk_energi"
 }
 ];

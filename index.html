@@ -4049,7 +4049,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-22-kapitel-blandat-ma2-omgang3";
+const BANK_VERSION="2026-10-22-fy2-niva1-relativitet";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11181,8 +11181,10 @@ function fysikVardesiffrorRatt(anv,facit,enhet,t,idx,format){
   const a=skrivetMattal(anv);
   if(!a || a.digits<Math.max(1,n-2) || a.digits>n+2) return false;
   const own=a.enhet?tolkaEnhet(a.enhet):null,expected=tolkaEnhet(enhet||"");
-  if(a.enhet && (!enhet || !own || !expected || !sammaDimension(own,expected))) return false;
-  const target=own?facit*expected.f/own.f:facit;
+  /* Samma enhet som facit räknas lika även om enheten saknas i enhetstabellen (t.ex. ljusår). */
+  const sammaEnhetstext=!!(a.enhet && enhet && String(a.enhet).replace(/\s+/g,"").toLowerCase()===String(enhet).replace(/\s+/g,"").toLowerCase());
+  if(a.enhet && !sammaEnhetstext && (!enhet || !own || !expected || !sammaDimension(own,expected))) return false;
+  const target=own&&expected&&!sammaEnhetstext?facit*expected.f/own.f:facit;
   const exponent=target===0?0:Math.floor(Math.log10(Math.abs(target)));
   const step=10**(exponent-a.digits+1),scaled=Math.abs(target)/step;
   const rounded=target===0?0:Math.sign(target)*Math.round(scaled+Number.EPSILON*scaled*2)*step;

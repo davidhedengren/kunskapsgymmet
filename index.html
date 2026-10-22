@@ -3571,21 +3571,21 @@ details.kgstat-panel summary{cursor:pointer;font-size:13px;font-weight:600}
 
 const COURSES = {
   fy1:{
-    name:"Fysik nivå 1", code:"Fy1", subject:"Fysik",
+    name:"Fysik nivå 1 (Fy1)", code:"Fy1", subject:"Fysik",
     files:["struktur.js","uppgifter.js"],
     globals:{bank:"BANK",kap:"KAPNAMN",kapSpar:"KAPNAMNSPAR",omr:"OMR",grupp:"GRUPP"},
     typfil:"typuppgifter-fy1.js", typGlobal:"TYPUPPGIFTER_FY1",
     tracks:[], tint:"#16A99A"
   },
   fy2:{
-    name:"Fysik nivå 2", code:"Fy2", subject:"Fysik",
+    name:"Fysik nivå 2 (Fy2)", code:"Fy2", subject:"Fysik",
     files:["struktur2.js","uppgifter2.js"],
     globals:{bank:"BANK2",kap:"KAPNAMN2",kapSpar:"KAPNAMN2SPAR",omr:"OMR2",grupp:"GRUPP2"},
     typfil:"typuppgifter-fy2.js", typGlobal:"TYPUPPGIFTER_FY2",
     tracks:[], tint:"#8A63EE"
   },
   ma1:{
-    name:"Matematik nivå 1", code:"Ma1", subject:"Matematik",
+    name:"Matematik nivå 1 (Ma1a/Ma1b/Ma1c)", code:"Ma1", subject:"Matematik",
     files:["strukturma1.js","uppgifterma1.js"],
     typfil:"typuppgifter-ma1.js", typGlobal:"TYPUPPGIFTER_MA1",
     globals:{bank:"BANKMA1",kap:"KAPNAMNMA1",kapSpar:"KAPNAMNMA1SPAR",omr:"OMRMA1",grupp:"GRUPPMA1"},
@@ -3594,21 +3594,21 @@ const COURSES = {
     utanOmraden:["digitala verktyg, problemlösning och modellering"]
   },
   ma2:{
-    name:"Matematik nivå 2", code:"Ma2", subject:"Matematik",
+    name:"Matematik nivå 2 (Ma2a/Ma2b/Ma2c)", code:"Ma2", subject:"Matematik",
     files:["strukturma2.js","uppgifterma2.js"],
     typfil:"typuppgifter-ma2.js", typGlobal:"TYPUPPGIFTER_MA2",
     globals:{bank:"BANKMA2",kap:"KAPNAMNMA2",kapSpar:"KAPNAMNMA2SPAR",omr:"OMRMA2",grupp:"GRUPPMA2"},
     tracks:["2a","2b","2c"], defaultTrack:"2c", tint:"#3A6FE2"
   },
   mato1:{
-    name:"Matematik – fortsättning nivå 1", code:"Ma forts 1", subject:"Matematik",
+    name:"Matematik – fortsättning nivå 1 (Ma3b/Ma3c)", code:"Ma forts 1", subject:"Matematik",
     files:["strukturmato1.js","uppgiftermato1.js"],
     typfil:"typuppgifter-mato1.js", typGlobal:"TYPUPPGIFTER_MATO1",
     globals:{bank:"BANKMATO1",kap:"KAPNAMNMATO1",kapSpar:"KAPNAMNMATO1SPAR",omr:"OMRMATO1",grupp:"GRUPPMATO1"},
     tracks:["1b","1c"], defaultTrack:"1c", tint:"#5A8FE8"
   },
   mato2:{
-    name:"Matematik – fortsättning nivå 2", code:"Ma forts 2", subject:"Matematik",
+    name:"Matematik – fortsättning nivå 2 (Ma4)", code:"Ma forts 2", subject:"Matematik",
     files:["strukturmato2.js","uppgiftermato2.js"],
     typfil:"typuppgifter-mato2.js", typGlobal:"TYPUPPGIFTER_MATO2",
     globals:{bank:"BANKMATO2",kap:"KAPNAMNMATO2",kapSpar:"KAPNAMNMATO2SPAR",omr:"OMRMATO2",grupp:"GRUPPMATO2"},
@@ -3622,13 +3622,22 @@ const COURSES = {
     under:true, kod:"historia"
   },
   matf1:{
-    name:"Matematik – fördjupning nivå 1", code:"Ma fördj 1", subject:"Matematik",
+    name:"Matematik – fördjupning nivå 1 (Ma5)", code:"Ma fördj 1", subject:"Matematik",
     files:["strukturmatf1.js","uppgiftermatf1.js"],
     typfil:"typuppgifter-matf1.js", typGlobal:"TYPUPPGIFTER_MATF1",
     globals:{bank:"BANKMATF1",kap:"KAPNAMNMATF1",kapSpar:"KAPNAMNMATF1SPAR",omr:"OMRMATF1",grupp:"GRUPPMATF1"},
     tracks:[], tint:"#6D6FE0"
   }
 };
+
+/* Kursöversikten visar alla spår; vald kurs visar sitt tidigare kursnamn. */
+function courseName(id,track){
+  const name=COURSES[id]?.name||id;
+  if(!COURSES[id]?.tracks.includes(track)) return name;
+  const old=id==="mato1"?"Ma3"+track.slice(-1)
+    : id==="ma1"||id==="ma2"?"Ma"+track:null;
+  return old?name.replace(/\([^)]*\)$/,`(${old})`):name;
+}
 
 const COURSE_ORDER=["ma1","ma2","mato1","mato2","matf1","fy1","fy2","hist"];
 
@@ -8437,7 +8446,7 @@ function ptKort(){
 }
 
 function renderDashboard(){
-  document.title=COURSES[state.course].name+" · Kunskapsgymmet";
+  document.title=courseName(state.course,state.track)+" · Kunskapsgymmet";
   state.view="dashboard";
   const c=COURSES[state.course];
   const kort=getCards(), cp=ensureCourseProfile();
@@ -8502,7 +8511,7 @@ function renderDashboard(){
       <div class="t">
         <button class="crumb" onclick="goHome()"><span aria-hidden="true">←</span> Alla kurser</button>
         <div class="titelrad">
-          <h1>${esc(c.name)}</h1>
+          <h1>${esc(courseName(state.course,state.track))}</h1>
           ${trackHTML}
         </div>
       </div>

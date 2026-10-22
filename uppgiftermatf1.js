@@ -53749,5 +53749,242 @@ window.BANKMATF1 = [
   "rättSvar": 33,
   "tolerans": 0,
   "svarFormat": "numeriskt"
+},
+{
+  "id": "2.708",
+  "kap": 2,
+  "omr": "direkta_bevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "motexempel till en primtalsformel",
+  "t": "<p>Någon påstår att \\(n^2+n+41\\) är ett primtal för alla positiva heltal \\(n\\). Det stämmer för \\(n=1,2,3,\\dots\\) en lång bit. Vilket är det minsta positiva \\(n\\) som är ett motexempel?</p>",
+  "s": "<div class=\"facit-v2\"><p>För \\(n=40\\): \\(40^2+40+41=1600+40+41=1681=41^2\\), som inte är ett primtal.</p><p>Alla mindre \\(n\\) ger primtal. Ett enda motexempel räcker för att visa att påståendet är falskt, hur många exempel som än stämmer.</p></div>",
+  "familj": "Motexempel, omvändningar och felsökning i bevis",
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Pröva n = 40 och n = 41. Kan uttrycket skrivas som en produkt?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 40,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.709",
+  "kap": 2,
+  "omr": "direkta_bevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "påstående och omvändning",
+  "t": "<p>Påståendet \"Om \\(n\\) är delbart med 6, så är \\(n\\) jämnt\" är sant. Vad gäller om omvändningen \"Om \\(n\\) är jämnt, så är \\(n\\) delbart med 6\"? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Omvändningen är falsk. Motexempel: \\(n=4\\) är jämnt men inte delbart med 6.</p><p>Att ett påstående är sant säger ingenting om att dess omvändning är sann.</p></div>",
+  "familj": "Motexempel, omvändningar och felsökning i bevis",
+  "formaga": [
+    "resonemang",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hitta ett jämnt tal som inte är delbart med 6.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Den är falsk, till exempel för n = 4.",
+      "ratt": true,
+      "kommentar": "4 är jämnt men inte delbart med 6."
+    },
+    {
+      "txt": "Den är sann, eftersom påståendet är sant.",
+      "ratt": false,
+      "kommentar": "En omvändning behöver inte ha samma sanningsvärde."
+    },
+    {
+      "txt": "Den är sann för alla n större än 6.",
+      "ratt": false,
+      "kommentar": "n = 8 är ett motexempel."
+    },
+    {
+      "txt": "Det går inte att avgöra.",
+      "ratt": false,
+      "kommentar": "Ett enda motexempel avgör att den är falsk."
+    }
+  ]
+},
+{
+  "id": "2.710",
+  "kap": 2,
+  "omr": "direkta_bevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "vinkelsumman i en fyrhörning",
+  "t": "<p>Man vill bevisa att vinkelsumman i en fyrhörning är \\(360^\\circ\\). Vilket argument bygger ett korrekt direkt bevis utifrån figuren? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 240\" role=\"img\" aria-label=\"En fyrhörning ABCD med diagonalen AC dragen, så att fyrhörningen delas i två trianglar ABC och ACD.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"102.8,194.0 300.2,194.0 337.2,70.7 152.2,46.0\" fill=\"#f2f6fb\" stroke=\"none\"/><line x1=\"102.8\" y1=\"194.0\" x2=\"300.2\" y2=\"194.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"300.2\" y1=\"194.0\" x2=\"337.2\" y2=\"70.7\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"337.2\" y1=\"70.7\" x2=\"152.2\" y2=\"46.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"152.2\" y1=\"46.0\" x2=\"102.8\" y2=\"194.0\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\"/><line x1=\"102.8\" y1=\"194.0\" x2=\"337.2\" y2=\"70.7\" stroke=\"#172b3a\" stroke-width=\"2.5\" stroke-linecap=\"round\" stroke-dasharray=\"7 5\"/><circle cx=\"102.8\" cy=\"194.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"86.8\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><circle cx=\"300.2\" cy=\"194.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"308.2\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><circle cx=\"337.2\" cy=\"70.7\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"345.2\" y=\"66.7\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text><circle cx=\"152.2\" cy=\"46.0\" r=\"3.5\" fill=\"#172b3a\" stroke=\"#172b3a\"/><text x=\"140.2\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">D</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Diagonalen \\(AC\\) delar fyrhörningen i två trianglar. Vinklarna i de två trianglarna utgör tillsammans exakt fyrhörningens vinklar.</p><p>Varje triangel har vinkelsumman \\(180^\\circ\\), så fyrhörningens vinkelsumma är \\(2\\cdot180^\\circ=360^\\circ\\).</p></div>",
+  "familj": "Motexempel, omvändningar och felsökning i bevis",
+  "formaga": [
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad vet du om vinkelsumman i en triangel?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Diagonalen delar fyrhörningen i två trianglar med vinkelsumman 180° vardera.",
+      "ratt": true,
+      "kommentar": "Trianglarnas vinklar utgör tillsammans fyrhörningens vinklar."
+    },
+    {
+      "txt": "Man mäter vinklarna i figuren och får 360°.",
+      "ratt": false,
+      "kommentar": "En mätning i en figur är inget bevis för alla fyrhörningar."
+    },
+    {
+      "txt": "En kvadrat har fyra räta vinklar, alltså gäller det alla fyrhörningar.",
+      "ratt": false,
+      "kommentar": "Ett specialfall bevisar inte det allmänna fallet."
+    },
+    {
+      "txt": "Fyrhörningen har fyra sidor, så vinkelsumman är 4 · 90°.",
+      "ratt": false,
+      "kommentar": "Vinklarna behöver inte vara räta."
+    }
+  ]
+},
+{
+  "id": "2.711",
+  "kap": 2,
+  "omr": "direkta_bevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "motexempel med negativa tal",
+  "t": "<p>Påståendet \"Om \\(a^2\\gt b^2\\), så är \\(a\\gt b\\)\" är falskt. Vilket talpar är ett motexempel? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Med \\(a=-3\\) och \\(b=2\\) är \\(a^2=9\\gt4=b^2\\), men \\(a=-3\\lt2=b\\). Förutsättningen gäller men slutsatsen inte.</p></div>",
+  "familj": "Motexempel, omvändningar och felsökning i bevis",
+  "formaga": [
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ett motexempel måste uppfylla förutsättningen men inte slutsatsen. Tänk på negativa tal.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(a=-3,\\ b=2\\)",
+      "ratt": true,
+      "kommentar": "a² > b² men a < b."
+    },
+    {
+      "txt": "\\(a=3,\\ b=2\\)",
+      "ratt": false,
+      "kommentar": "Här är a > b, så slutsatsen gäller."
+    },
+    {
+      "txt": "\\(a=1,\\ b=2\\)",
+      "ratt": false,
+      "kommentar": "Förutsättningen a² > b² gäller inte."
+    },
+    {
+      "txt": "\\(a=-2,\\ b=-3\\)",
+      "ratt": false,
+      "kommentar": "Här är a² = 4 < 9 = b², så förutsättningen gäller inte."
+    }
+  ]
+},
+{
+  "id": "2.712",
+  "kap": 2,
+  "omr": "direkta_bevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "felet i ett \"bevis\" för 2 = 1",
+  "t": "<p>Ett \"bevis\" att 2 = 1: Låt \\(a=b\\). Då är \\(a^2=ab\\), alltså \\(a^2-b^2=ab-b^2\\), som ger \\((a+b)(a-b)=b(a-b)\\). Division med \\((a-b)\\) ger \\(a+b=b\\), alltså \\(2b=b\\) och \\(2=1\\). Vilket steg är felaktigt? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Eftersom \\(a=b\\) är \\(a-b=0\\). Division med \\((a-b)\\) är division med noll, vilket inte är tillåtet. Där blir beviset fel.</p></div>",
+  "familj": "Motexempel, omvändningar och felsökning i bevis",
+  "formaga": [
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vad är värdet av a − b?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Divisionen med (a − b), eftersom a − b = 0.",
+      "ratt": true,
+      "kommentar": "Man får inte dividera med noll."
+    },
+    {
+      "txt": "Steget från a = b till a² = ab.",
+      "ratt": false,
+      "kommentar": "Multiplikation av båda leden med a är tillåten."
+    },
+    {
+      "txt": "Faktoriseringen a² − b² = (a + b)(a − b).",
+      "ratt": false,
+      "kommentar": "Konjugatregeln är korrekt."
+    },
+    {
+      "txt": "Steget från 2b = b till 2 = 1.",
+      "ratt": false,
+      "kommentar": "Det är också division, med b, men felet har redan uppstått tidigare."
+    }
+  ]
+},
+{
+  "id": "2.713",
+  "kap": 2,
+  "omr": "direkta_bevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "saknad siffra med niondelsregeln",
+  "t": "<p>Ett tal är delbart med 9 om och endast om dess siffersumma är delbar med 9. Talet \\(47\\square2\\) är delbart med 9. Vilken siffra står i rutan?</p>",
+  "s": "<div class=\"facit-v2\"><p>Siffersumman är \\(4+7+\\square+2=13+\\square\\). Den ska vara delbar med 9, och den enda siffran som ger det är \\(\\square=5\\) (summan 18).</p><p>Kontroll: \\(4752=9\\cdot528\\).</p></div>",
+  "familj": "Motexempel, omvändningar och felsökning i bevis",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken siffra gör 13 + siffran delbar med 9?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
 }
 ];

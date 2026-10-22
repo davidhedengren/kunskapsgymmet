@@ -70,7 +70,10 @@ window.BANK2 = [
       "Centripetalacceleration och centripetalkraft"
     ],
     "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
-    "ledtrad": "<p>Centripetalaccelerationen är riktad in mot kurvans mitt. Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\).</p>"
+    "ledtrad": "<p>Centripetalaccelerationen är riktad in mot kurvans mitt. Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\).</p>",
+    "svarVardesiffror": 2,
+    "geogebra": false,
+    "miniräknare": true
   },
   {
     "id": "1.3",
@@ -88,8 +91,8 @@ window.BANK2 = [
     "familjNyckel": "cirkel__centripetalacceleration_och_centripetalkraft",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      35,
-      3.1
+      34.55751918948772,
+      3.1415926535897927
     ],
     "tolerans": [
       0.525,
@@ -123,7 +126,10 @@ window.BANK2 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Sträckan under ett varv är cirkelns omkrets.</p></li><li><div class=\"facit-matte\">\\[s=2\\pi r=2\\pi\\cdot5{,}5=34{,}6\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Personen färdas ungefär \\(35\\ \\mathrm m\\) per varv.</p></div></div>",
         "ledtrad": "<p>Börja med sträckan under ett helt varv: den är cirkelns omkrets \\(2\\pi r\\). När sträckan är känd får du farten genom att dividera med tiden för ett varv.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "svarVardesiffror": 2,
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
@@ -131,9 +137,15 @@ window.BANK2 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\frac{s}{T}=\\frac{34{,}6}{11}=3{,}14\\ \\mathrm{m/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Farten är \\(3{,}1\\ \\mathrm{m/s}\\).</p></div></div>",
         "ledtrad": "<p>Börja med sträckan under ett helt varv: den är cirkelns omkrets \\(2\\pi r\\). När sträckan är känd får du farten genom att dividera med tiden för ett varv.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "svarVardesiffror": 2,
+        "miniräknare": true,
+        "geogebra": false
       }
-    ]
+    ],
+    "svarVardesiffror": [2, 2],
+    "geogebra": false,
+    "miniräknare": true
   },
   {
     "id": "1.4",
@@ -143,7 +155,7 @@ window.BANK2 = [
     "typ": "beräkna centripetalkraft ur massa fart och radie, ur diagram, sökt kraft",
     "poang": "(2/0/0)",
     "t": "<p>En boll med massan 0,18 kg svängs runt i ett snöre. Den rör sig i en cirkel med radien 0,60 m och har farten 7,2 m/s.</p>\n<ol><li>Hur stor är bollens centripetalacceleration?</li>\n<li>Hur stor är den resulterande kraften som verkar på bollen? Ange endast kraftens storlek i svarsrutan.</li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Cirkelbana med radie och tangentiell hastighet\" style=\"max-width:100%;height:auto\"><title>Cirkelbana med radie och tangentiell hastighet</title><rect width=\"480\" height=\"280\" fill=\"white\"/><circle cx=\"230\" cy=\"140\" r=\"83\" fill=\"none\" stroke=\"#7b8797\" stroke-width=\"2\"/><circle cx=\"230\" cy=\"140\" r=\"3\" fill=\"#223047\" stroke=\"#223047\" stroke-width=\"2\"/><line x1=\"230.000\" y1=\"140.000\" x2=\"313.000\" y2=\"140.000\" stroke=\"#7b8797\" stroke-width=\"1.5\" stroke-dasharray=\"5 5\"/><text x=\"270.00\" y=\"128.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">0,60 m</text><circle cx=\"313\" cy=\"140\" r=\"8\" fill=\"#2867a8\" stroke=\"#2867a8\" stroke-width=\"2\"/><line x1=\"313.000\" y1=\"140.000\" x2=\"313.000\" y2=\"64.300\" stroke=\"#2867a8\" stroke-width=\"2.4\"/><polygon points=\"313,58 309.0,67.0 317.0,67.0\" fill=\"#2867a8\"/><text x=\"340.00\" y=\"65.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">7,2 m/s</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a_{\\mathrm c}=\\frac{v^2}{r}=\\frac{7{,}2^2}{0{,}60}=86{,}4\\ \\mathrm{m/s^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Centripetalaccelerationen är \\(86\\ \\mathrm{m/s^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Den resulterande kraften fås med Newtons andra lag.</p></li><li><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=ma_{\\mathrm c}=0{,}18\\cdot86{,}4=15{,}6\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den resulterande kraften är \\(16\\ \\mathrm N\\), riktad in mot cirkelns mitt.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Snöret ger kraften inåt.</p></li><li><p class=\"facit-not\">Om snöret klipps av är hastigheten tangentiell i släppögonblicket.</p></li><li><p class=\"facit-not\">Därefter påverkar bland annat tyngdkraften den fortsatta banan.</p></li></ol></div></div></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a_{\\mathrm c}=\\frac{v^2}{r}=\\frac{7{,}2^2}{0{,}60}=86{,}4\\ \\mathrm{m/s^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Centripetalaccelerationen är \\(86\\ \\mathrm{m/s^2}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Den resulterande kraften fås med Newtons andra lag.</p></li><li><div class=\"facit-matte\">\\[\\begin{gathered}F_{\\mathrm{res}}=ma_{\\mathrm c}\\\\=0{,}18\\cdot86{,}4=15{,}552\\,\\mathrm N.\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den resulterande kraften är \\(16\\ \\mathrm N\\), riktad in mot cirkelns mitt.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Snöret ger kraften inåt.</p></li><li><p class=\"facit-not\">Om snöret klipps av är hastigheten tangentiell i släppögonblicket.</p></li><li><p class=\"facit-not\">Därefter påverkar bland annat tyngdkraften den fortsatta banan.</p></li></ol></div></div></div>",
     "familj": "Centripetalkraft och konisk pendel",
     "formaga": [
       "procedur"
@@ -152,7 +164,7 @@ window.BANK2 = [
     "svarstyp": "flera_delar",
     "rättSvar": [
       86.4,
-      16
+      15.552000000000001
     ],
     "tolerans": [
       0.6,
@@ -193,17 +205,26 @@ window.BANK2 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a_{\\mathrm c}=\\frac{v^2}{r}=\\frac{7{,}2^2}{0{,}60}=86{,}4\\ \\mathrm{m/s^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Centripetalaccelerationen är \\(86\\ \\mathrm{m/s^2}\\).</p></div></div>",
         "ledtrad": "<p>Den resulterande kraften fås med Newtons andra lag. Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\).</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "svarVardesiffror": 2,
+        "miniräknare": true,
+        "geogebra": false
       },
       {
         "etikett": "b",
         "t": "<p>En boll med massan 0,18 kg svängs runt i ett snöre. Den rör sig i en cirkel med radien 0,60 m och har farten 7,2 m/s.</p>\n<span class=\"fig\"><svg aria-label=\"Cirkelbana med radie och tangentiell hastighet\" height=\"280\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" style=\"max-width:100%;height:auto\" viewbox=\"0 0 480 280\" width=\"480\" xmlns=\"http://www.w3.org/2000/svg\"><title>Cirkelbana med radie och tangentiell hastighet</title><rect fill=\"white\" height=\"280\" width=\"480\"></rect><circle cx=\"230\" cy=\"140\" fill=\"none\" r=\"83\" stroke=\"#7b8797\" stroke-width=\"2\"></circle><circle cx=\"230\" cy=\"140\" fill=\"#223047\" r=\"3\" stroke=\"#223047\" stroke-width=\"2\"></circle><line stroke=\"#7b8797\" stroke-dasharray=\"5 5\" stroke-width=\"1.5\" x1=\"230.000\" x2=\"313.000\" y1=\"140.000\" y2=\"140.000\"></line><text fill=\"#223047\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" x=\"270.00\" y=\"128.00\">0,60 m</text><circle cx=\"313\" cy=\"140\" fill=\"#2867a8\" r=\"8\" stroke=\"#2867a8\" stroke-width=\"2\"></circle><line stroke=\"#2867a8\" stroke-width=\"2.4\" x1=\"313.000\" x2=\"313.000\" y1=\"140.000\" y2=\"64.300\"></line><polygon fill=\"#2867a8\" points=\"313,58 309.0,67.0 317.0,67.0\"></polygon><text fill=\"#223047\" font-family=\"Arial, sans-serif\" font-size=\"16\" text-anchor=\"middle\" x=\"340.00\" y=\"65.00\">7,2 m/s</text></svg></span><div class=\"spel-en-del\"><p>Hur stor är den resulterande kraften som verkar på bollen? Ange endast kraftens storlek i svarsrutan.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Den resulterande kraften fås med Newtons andra lag.</p></li><li><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=ma_{\\mathrm c}=0{,}18\\cdot86{,}4=15{,}6\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den resulterande kraften är \\(16\\ \\mathrm N\\), riktad in mot cirkelns mitt.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Snöret ger kraften inåt.</p></li><li><p class=\"facit-not\">Om snöret klipps av är hastigheten tangentiell i släppögonblicket.</p></li><li><p class=\"facit-not\">Därefter påverkar bland annat tyngdkraften den fortsatta banan.</p></li></ol></div></div>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Den resulterande kraften fås med Newtons andra lag.</p></li><li><div class=\"facit-matte\">\\[\\begin{gathered}F_{\\mathrm{res}}=ma_{\\mathrm c}\\\\=0{,}18\\cdot86{,}4=15{,}552\\,\\mathrm N.\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den resulterande kraften är \\(16\\ \\mathrm N\\), riktad in mot cirkelns mitt.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Snöret ger kraften inåt.</p></li><li><p class=\"facit-not\">Om snöret klipps av är hastigheten tangentiell i släppögonblicket.</p></li><li><p class=\"facit-not\">Därefter påverkar bland annat tyngdkraften den fortsatta banan.</p></li></ol></div></div>",
         "ledtrad": "<p>Den resulterande kraften fås med Newtons andra lag. Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\).</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "svarVardesiffror": 2,
+        "miniräknare": true,
+        "geogebra": false
       }
-    ]
+    ],
+    "svarVardesiffror": [2, 2],
+    "geogebra": false,
+    "miniräknare": true
   },
   {
     "id": "1.5",
@@ -274,7 +295,10 @@ window.BANK2 = [
       "Centripetalacceleration och centripetalkraft"
     ],
     "familjNyckelFöreHierarki": "cirkel__centripetalkraft_och_centripetalacceleration",
-    "ledtrad": "<p>Lös ut radien ur sambandet för centripetalacceleration. Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\).</p>"
+    "ledtrad": "<p>Lös ut radien ur sambandet för centripetalacceleration. Vid cirkelrörelse pekar accelerationen mot centrum och har beloppet \\(a_c=v^2/r=\\omega^2r\\).</p>",
+    "svarVardesiffror": 2,
+    "geogebra": false,
+    "miniräknare": true
   },
   {
     "id": "1.7",

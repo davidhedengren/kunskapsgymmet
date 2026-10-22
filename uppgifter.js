@@ -190,7 +190,8 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "svarVardesiffror": 2
       },
       {
         "etikett": "b",
@@ -201,12 +202,14 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 2,
         "arbetsinsats": 1,
-        "poang": "(1/0/0)"
+        "poang": "(1/0/0)",
+        "svarVardesiffror": 2
       }
     ],
     "familjTidigare": [
       "Densitet med geometri och volymberäkning"
-    ]
+    ],
+    "svarVardesiffror": [2, 2]
   },
   {
     "id": "2.3",
@@ -57225,8 +57228,8 @@ window.BANK = [
     "niva": "C",
     "typ": "energiförlust i utförsbacke",
     "poang": "(2/1/0)",
-    "t": "<p>En cyklist med cykel har massan 80 kg och rullar från vila nedför en väg som är 90 m lång och har höjdskillnaden 12 m. Slutfarten är 12 m/s. Cyklisten trampar inte. Bortse från hjulens rotationsenergi.</p><ol type=\"a\"><li>Hur mycket minskar lägesenergin? (Svara i J. Avrunda vid behov till 1 decimal.)</li><li>Bestäm den mekaniska energi som omvandlas till andra energiformer. (Svara i J. Avrunda vid behov till 1 decimal.)</li><li>Under vägsträckan omvandlas 3667,2 J mekanisk energi till andra energiformer. Bestäm den bromsande kraftens medelvärde över vägsträckan, som en positiv storlek. (Svara i N. Avrunda vid behov till 2 decimaler.)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p class=\"facit-metod\">Minskningen är</p>\\[m g h=80\\cdot 9{,}82\\cdot 12=9427{,}2\\, \\mathrm{J}\\]<p class=\"facit-svar\">Svar: 9427,2 J.</p><p><strong>b)</strong></p><p class=\"facit-metod\">E_k,slut =</p>\\[\\frac{80\\cdot 12^{2}}{2}=5760\\, \\mathrm{J}\\]<p class=\"facit-metod\">Minskningen av lägesenergin är</p>\\[80\\cdot 9{,}82\\cdot 12=9427{,}2\\, \\mathrm{J}\\]<p class=\"facit-metod\">Förlusten är</p>\\[9427{,}2-5760=3667{,}2\\, \\mathrm{J}\\]<p class=\"facit-svar\">Svar: 3667,2 J.</p><p><strong>c)</strong></p><p>Den bortbromsade energin är kraftens medelvärde över sträckan gånger sträckan.</p>\\[F_\\text{medel}=\\frac{E}{s}=\\frac{3667{,}2}{90}\\approx40{,}75\\,\\mathrm N\\]<p><strong>Svar: 40,75 N.</strong></p></div>",
+    "t": "<p>En cyklist med cykel har massan 80 kg och rullar från vila nedför en väg som är 90 m lång och har höjdskillnaden 12 m. Slutfarten är 12 m/s. Cyklisten trampar inte. Bortse från hjulens rotationsenergi.</p><ol type=\"a\"><li>Hur mycket minskar lägesenergin? (Svara i J med två värdesiffror.)</li><li>Bestäm den mekaniska energi som omvandlas till andra energiformer. (Svara i J. Avrunda vid behov till 1 decimal.)</li><li>Under vägsträckan omvandlas 3667,2 J mekanisk energi till andra energiformer. Bestäm den bromsande kraftens medelvärde över vägsträckan, som en positiv storlek. (Svara i N. Avrunda vid behov till 2 decimaler.)</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p class=\"facit-metod\">Minskningen är</p>\\[m g h=80\\cdot 9{,}82\\cdot 12=9427{,}2\\, \\mathrm{J}\\]<p class=\"facit-svar\">Svar: 9400 J, alltså \\(9{,}4\\cdot10^3\\,\\mathrm J\\) med två värdesiffror.</p><p><strong>b)</strong></p><p class=\"facit-metod\">E_k,slut =</p>\\[\\frac{80\\cdot 12^{2}}{2}=5760\\, \\mathrm{J}\\]<p class=\"facit-metod\">Minskningen av lägesenergin är</p>\\[80\\cdot 9{,}82\\cdot 12=9427{,}2\\, \\mathrm{J}\\]<p class=\"facit-metod\">Förlusten är</p>\\[9427{,}2-5760=3667{,}2\\, \\mathrm{J}\\]<p class=\"facit-svar\">Svar: 3667,2 J.</p><p><strong>c)</strong></p><p>Den bortbromsade energin är kraftens medelvärde över sträckan gånger sträckan.</p>\\[F_\\text{medel}=\\frac{E}{s}=\\frac{3667{,}2}{90}\\approx40{,}75\\,\\mathrm N\\]<p><strong>Svar: 40,75 N.</strong></p></div>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
       "procedur"
@@ -57239,7 +57242,7 @@ window.BANK = [
       40.74666666666668
     ],
     "tolerans": [
-      0.05,
+      50,
       0.05,
       0.005
     ],
@@ -57273,9 +57276,9 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur mycket minskar lägesenergin? (Svara i J. Avrunda vid behov till 1 decimal.)",
-        "t": "<p>En cyklist med cykel har massan 80 kg och rullar nedför en backe med höjdskillnaden 12 m.</p><p>Hur mycket minskar lägesenergin? (Svara i J. Avrunda vid behov till 1 decimal.)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Minskningen är</p>\\[m g h=80\\cdot 9{,}82\\cdot 12=9427{,}2\\, \\mathrm{J}\\]<p class=\"facit-svar\">Svar: 9427,2 J.</p></div>",
+        "fraga": "Hur mycket minskar lägesenergin? (Svara i J med två värdesiffror.)",
+        "t": "<p>En cyklist med cykel har massan 80 kg och rullar nedför en backe med höjdskillnaden 12 m.</p><p>Hur mycket minskar lägesenergin? (Svara i J med två värdesiffror.)</p>",
+        "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-metod\">Minskningen är</p>\\[m g h=80\\cdot 9{,}82\\cdot 12=9427{,}2\\, \\mathrm{J}\\]<p class=\"facit-svar\">Svar: 9400 J, alltså \\(9{,}4\\cdot10^3\\,\\mathrm J\\) med två värdesiffror.</p></div>",
         "ledtrad": "<p>Här är det höjdskillnaden som behövs.</p>",
         "niva": "E",
         "traningsniva": 1,
@@ -57357,7 +57360,7 @@ window.BANK = [
     "niva": "C",
     "typ": "vertikal fjäder och lägesenergi",
     "poang": "(1/2/0)",
-    "t": "<p>En lodrät fjäder med k = 500 N/m är hoptryckt 0,12 m och skjuter upp en kula på 0,080 kg från vila. Kulan ligger löst ovanpå fjädern och lämnar den när den varken är utdragen eller hoptryckt. Bortse från friktion, luftmotstånd och fjäderns massa.</p><ol type=\"a\"><li>Bestäm fjäderenergin från början. (Svara i J. Avrunda vid behov till 2 decimaler.)</li><li>Bestäm kulans fart när den lämnar fjädern. (Svara i m/s. Avrunda vid behov till 2 decimaler.)</li><li>Bestäm kulans största höjd över startläget med hoptryckt fjäder. (Svara i m. Avrunda vid behov till 2 decimaler.)</li></ol>",
+    "t": "<p>En lodrät fjäder med k = 500 N/m är hoptryckt 0,12 m och skjuter upp en kula på 0,080 kg från vila. Kulan ligger löst ovanpå fjädern och lämnar den när den varken är utdragen eller hoptryckt. Bortse från friktion, luftmotstånd och fjäderns massa.</p><ol type=\"a\"><li>Hur stor energi är lagrad i fjädern när den är hoptryckt 0,12 m? (Svara i J. Avrunda vid behov till 2 decimaler.)</li><li>Bestäm kulans fart när den lämnar fjädern. (Svara i m/s. Avrunda vid behov till 2 decimaler.)</li><li>Bestäm kulans största höjd över startläget med hoptryckt fjäder. (Svara i m. Avrunda vid behov till 2 decimaler.)</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p>\\[E_{\\mathrm{f}}=\\frac{k x^{2}}{2}=\\frac{500\\cdot 0{,}12^{2}}{2}=3{,}6\\, \\mathrm{J}\\]<p class=\"facit-svar\">Svar: 3,6 J.</p><p><strong>b)</strong></p><p>Fjäderenergin blir både rörelseenergi och lägesenergi medan kulan stiger 0,12 m.</p>\\[\\begin{gathered}E_f=\\frac{500\\cdot0{,}12^2}{2}=3{,}6\\,\\mathrm J\\\\E_k=3{,}6-0{,}080\\cdot9{,}82\\cdot0{,}12\\\\=3{,}505728\\,\\mathrm J\\\\v=\\sqrt{\\frac{2\\cdot3{,}505728}{0{,}080}}\\approx9{,}36\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 9,36 m/s.</strong></p><p><strong>c)</strong></p><p>I högsta läget är kulan stilla och har lämnat fjädern. All energi från fjädern har blivit lägesenergi, räknad från startläget.</p>\\[\\begin{gathered}E_f=\\frac{500\\cdot0{,}12^2}{2}=3{,}6\\,\\mathrm J\\\\mgh=E_f\\\\h=\\frac{3{,}6}{0{,}080\\cdot9{,}82}\\approx4{,}58\\,\\mathrm m\\end{gathered}\\]<p><strong>Svar: 4,58 m över startläget.</strong></p></div>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
@@ -57406,10 +57409,10 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm fjäderenergin från början. (Svara i J. Avrunda vid behov till 2 decimaler.)",
-        "t": "<p>En fjäder med fjäderkonstanten 500 N/m trycks ihop 0,12 m.</p><p>Bestäm fjäderenergin från början. (Svara i J. Avrunda vid behov till 2 decimaler.)</p>",
+        "fraga": "Hur stor energi är lagrad i fjädern när den är hoptryckt 0,12 m? (Svara i J. Avrunda vid behov till 2 decimaler.)",
+        "t": "<p>En fjäder med fjäderkonstanten 500 N/m trycks ihop 0,12 m.</p><p>Hur stor energi är lagrad i fjädern när den är hoptryckt 0,12 m? (Svara i J. Avrunda vid behov till 2 decimaler.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\">\\[E_{\\mathrm{f}}=\\frac{k x^{2}}{2}=\\frac{500\\cdot 0{,}12^{2}}{2}=3{,}6\\, \\mathrm{J}\\]<p class=\"facit-svar\">Svar: 3,6 J.</p></div>",
-        "ledtrad": "<p>Hur mycket är fjädern hoptryckt från början?</p>",
+        "ledtrad": "<p>Hur beror energin i en fjäder på fjäderkonstanten och hoptryckningen?</p>",
         "niva": "E",
         "traningsniva": 1,
         "arbetsinsats": 1,
@@ -58530,7 +58533,7 @@ window.BANK = [
     "niva": "E",
     "typ": "stopptid och medelkraft",
     "poang": "(2/0/0)",
-    "t": "<p>En passagerare på 75 kg rör sig vågrätt med 14 m/s och bromsas till vila. Jämför två förenklade fall med stopptiderna 0,12 s och 0,020 s. Frågorna gäller den sammanlagda vågräta kraften på passageraren.</p><ol type=\"a\"><li>Hur stor är den sammanlagda vågräta medelkraften på passageraren? (Svara i N. Svara med ett heltal.)</li><li>Hur stor är den sammanlagda vågräta medelkraften på passageraren? (Svara i N. Svara med ett heltal.)</li></ol>",
+    "t": "<p>En passagerare på 75 kg rör sig vågrätt med 14 m/s och bromsas till vila. Jämför två förenklade fall med stopptiderna 0,12 s och 0,020 s. Frågorna gäller den sammanlagda vågräta kraften på passageraren.</p><ol type=\"a\"><li>Hur stor är den sammanlagda vågräta medelkraften på passageraren under inbromsningen? (Svara i N. Svara med ett heltal.)</li><li>Hur stor är den sammanlagda vågräta medelkraften på passageraren under inbromsningen? (Svara i N. Svara med ett heltal.)</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Den bromsande impulsen har storleken massa gånger ändringen i fart. Medelkraftens storlek är impulsen delad med stopptiden.</p>\\[I=75\\cdot(14-0)=1050\\,\\mathrm{N\\,s}\\]\\[F_\\text{medel}=\\frac{1050}{0{,}12}=8750\\,\\mathrm N\\]<p><strong>Svar: 8750 N, mot rörelsen.</strong></p><p><strong>b)</strong></p><p>Den bromsande impulsen har storleken massa gånger ändringen i fart. Medelkraftens storlek är impulsen delad med stopptiden.</p>\\[I=75\\cdot(14-0)=1050\\,\\mathrm{N\\,s}\\]\\[F_\\text{medel}=\\frac{1050}{0{,}020}=52\\,500\\,\\mathrm N\\]<p><strong>Svar: 52 500 N, mot rörelsen.</strong></p></div>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
@@ -58573,8 +58576,8 @@ window.BANK = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Hur stor är den sammanlagda vågräta medelkraften på passageraren? (Svara i N. Svara med ett heltal.)",
-        "t": "<p>En passagerare på 75 kg rör sig vågrätt med 14 m/s och bromsas till vila på 0,12 s.</p><p>Hur stor är den sammanlagda vågräta medelkraften på passageraren? (Svara i N. Svara med ett heltal.)</p>",
+        "fraga": "Hur stor är den sammanlagda vågräta medelkraften på passageraren under inbromsningen? (Svara i N. Svara med ett heltal.)",
+        "t": "<p>En passagerare på 75 kg rör sig vågrätt med 14 m/s och bromsas till vila på 0,12 s.</p><p>Hur stor är den sammanlagda vågräta medelkraften på passageraren under inbromsningen? (Svara i N. Svara med ett heltal.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den bromsande impulsen har storleken massa gånger ändringen i fart. Medelkraftens storlek är impulsen delad med stopptiden.</p>\\[I=75\\cdot(14-0)=1050\\,\\mathrm{N\\,s}\\]\\[F_\\text{medel}=\\frac{1050}{0{,}12}=8750\\,\\mathrm N\\]<p><strong>Svar: 8750 N, mot rörelsen.</strong></p></div>",
         "ledtrad": "<p>Vilken rörelsemängd måste bromsas bort?</p>",
         "niva": "E",
@@ -58587,8 +58590,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Hur stor är den sammanlagda vågräta medelkraften på passageraren? (Svara i N. Svara med ett heltal.)",
-        "t": "<p>En passagerare på 75 kg rör sig vågrätt med 14 m/s och bromsas till vila på 0,020 s.</p><p>Hur stor är den sammanlagda vågräta medelkraften på passageraren? (Svara i N. Svara med ett heltal.)</p>",
+        "fraga": "Hur stor är den sammanlagda vågräta medelkraften på passageraren under inbromsningen? (Svara i N. Svara med ett heltal.)",
+        "t": "<p>En passagerare på 75 kg rör sig vågrätt med 14 m/s och bromsas till vila på 0,020 s.</p><p>Hur stor är den sammanlagda vågräta medelkraften på passageraren under inbromsningen? (Svara i N. Svara med ett heltal.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den bromsande impulsen har storleken massa gånger ändringen i fart. Medelkraftens storlek är impulsen delad med stopptiden.</p>\\[I=75\\cdot(14-0)=1050\\,\\mathrm{N\\,s}\\]\\[F_\\text{medel}=\\frac{1050}{0{,}020}=52\\,500\\,\\mathrm N\\]<p><strong>Svar: 52 500 N, mot rörelsen.</strong></p></div>",
         "ledtrad": "<p>Hur påverkas medelkraften när samma impuls fördelas över kortare tid?</p>",
         "niva": "E",
@@ -58975,7 +58978,7 @@ window.BANK = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>Dragkraftens arbete ger både rörelseenergi, ökad lägesenergi och arbete mot friktion.</p>\\[\\begin{gathered}\\Delta E_k=\\frac{45\\cdot3{,}0^2}{2}=202{,}5\\,\\mathrm J\\\\h=6{,}0\\sin15^\\circ\\\\W_g=45\\cdot9{,}82h\\approx686{,}233\\,\\mathrm J\\\\W_f=0{,}25\\cdot45\\cdot9{,}82\\cos15^\\circ\\cdot6{,}0\\\\\\approx640{,}264\\,\\mathrm J\\\\F=\\frac{202{,}5+W_g+W_f}{6{,}0}\\approx254{,}83\\,\\mathrm N\\end{gathered}\\]<p><strong>Svar: 254,83 N.</strong></p></div>",
         "ledtrad": "<p>Dragkraftens arbete ska räcka till både fartökning och två motverkande krafter.</p>",
         "niva": "C",
-        "traningsniva": 3,
+        "traningsniva": 4,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -121196,8 +121199,8 @@ window.BANK = [
       },
       {
         "etikett": "b",
-        "fraga": "Bollen kommer mot foten med 13 m/s och sparkas rakt tillbaka med 18 m/s. Hur lång är kontakttiden? (Svara i s. Svara med tre värdesiffror.)",
-        "t": "<p>En fotboll på 420 g sparkas iväg med 18 m/s. Den sammanlagda vågräta medelkraften under sparken är 650 N i bollens nya riktning.</p><p>Bollen kommer mot foten med 13 m/s och sparkas rakt tillbaka med 18 m/s. Hur lång är kontakttiden? (Svara i s. Svara med tre värdesiffror.)</p>",
+        "fraga": "Hur lång är kontakttiden mellan foten och bollen? (Svara i s med tre värdesiffror.)",
+        "t": "<p>En fotboll med massan 420 g kommer mot en fot med farten 13 m/s. Vid sparken vänder bollen och lämnar foten med farten 18 m/s i motsatt riktning. Under kontakten är den sammanlagda vågräta medelkraften på bollen 650 N i bollens nya rörelseriktning.</p><p>Hur lång är kontakttiden mellan foten och bollen? (Svara i s med tre värdesiffror.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><p>420 g = 0,420 kg. Välj bollens nya riktning som positiv. Hastigheten ändras från −13 till +18 m/s.</p>\\[\\begin{gathered}I=0{,}420\\bigl(18-(-13)\\bigr)=13{,}02\\,\\mathrm{N\\,s}\\\\\\Delta t=\\frac{13{,}02}{650}\\approx0{,}0200\\,\\mathrm{s}\\end{gathered}\\]<p><strong>Svar: 0,0200 s.</strong></p></div>",
         "ledtrad": "<p>Hastighetsändringen blir större.</p>",
         "niva": "C",
@@ -121854,7 +121857,7 @@ window.BANK = [
         "ledtrad": "<p>Beräkna först farten före kontakten. Golvets kraft ska både bromsa bollen och motverka tyngdkraften.</p>",
         "niva": "C",
         "poang": "(0/1/0)",
-        "traningsniva": 3,
+        "traningsniva": 4,
         "arbetsinsats": 2
       },
       {
@@ -121870,7 +121873,7 @@ window.BANK = [
       }
     ],
     "ledtrad": "<p>Kontakttiden avgör kraften.</p>",
-    "traningsniva": 3,
+    "traningsniva": 4,
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 2,
     "spel": true
@@ -121881,8 +121884,8 @@ window.BANK = [
     "niva": "C",
     "typ": "äpple i gräsmatta",
     "poang": "(0/1/0)",
-    "t": "<p>Ett äpple på 0,10 kg släpps från vila. Tyngdpunkten faller 2,0 m innan äpplet träffar marken och rör sig sedan 0,060 m nedåt tills äpplet stannar. Räkna med konstant acceleration under stoppet. Bara markens kraft och tyngdkraften verkar under stoppet. Bortse från luftmotståndet.  Hur stor är markens kraft på äpplet? (Svara i N.)<br>(Svara med tre värdesiffror.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Farten vid markkontakten bestäms av fallet från vila.</p>\\[v^2=2gh=2\\cdot9{,}82\\cdot2{,}0=39{,}28\\,\\mathrm{m^2/s^2}\\]<p>Konstant acceleration under bromssträckan ger bromsningens storlek b.</p>\\[b=\\frac{v^2}{2s}=\\frac{39{,}28}{2\\cdot0{,}060}\\approx327{,}33\\,\\mathrm{m/s^2}\\]<p>Markens kraft verkar uppåt och tyngdkraften nedåt. Använd det oavrundade värdet på b.</p>\\[\\begin{gathered}F_\\text{mark}-mg=mb\\\\F_\\text{mark}=0{,}10(b+9{,}82)\\approx33{,}7\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 33,7 N, uppåt.</strong></p></div>",
+    "t": "<p>Ett äpple på 0,10 kg släpps från vila. Tyngdpunkten faller 2,0 m innan äpplet träffar marken och rör sig sedan 0,060 m nedåt tills äpplet stannar. Räkna med konstant acceleration under stoppet. Bara markens kraft och tyngdkraften verkar under stoppet. Bortse från luftmotståndet.  Hur stor är markens kraft på äpplet? (Svara i N med tre värdesiffror.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Farten vid markkontakten bestäms av fallet från vila.</p>\\[\\begin{gathered}v^2=2gh=2\\cdot9{,}82\\cdot2{,}0\\\\=39{,}28\\,\\mathrm{m^2/s^2}.\\end{gathered}\\]<p>Konstant acceleration under bromssträckan ger bromsningens storlek b.</p>\\[b=\\frac{v^2}{2s}=\\frac{39{,}28}{2\\cdot0{,}060}\\approx327{,}33\\,\\mathrm{m/s^2}\\]<p>Markens kraft verkar uppåt och tyngdkraften nedåt. Använd det oavrundade värdet på b.</p>\\[\\begin{gathered}F_\\text{mark}-mg=mb\\\\F_\\text{mark}=0{,}10(b+9{,}82)\\approx33{,}7\\,\\mathrm{N}\\end{gathered}\\]<p><strong>Svar: 33,7 N, uppåt.</strong></p></div>",
     "id": "5.396",
     "miniräknare": true,
     "geogebra": false,
@@ -121897,7 +121900,7 @@ window.BANK = [
     ],
     "svarFormat": "numeriskt",
     "ledtrad": "<p>Beräkna farten vid markkontakten och sedan bromsningens storlek. Markens kraft ska också motverka tyngdkraften.</p>",
-    "traningsniva": 3,
+    "traningsniva": 5,
     "svarEnhet": "N",
     "familjNyckel": "rorelsemangd__impuls_och_medelkraft",
     "arbetsinsats": 2,
@@ -133472,7 +133475,7 @@ window.BANK = [
     "typ": "uppförseffekt och fri nedfärd",
     "poang": "(0/2/0)",
     "t": "<p>Petra och cykeln har sammanlagda massan 72 kg. Backen stiger 2 m i höjd för varje 21 m längs backen. En konstant motståndskraft på 25 N verkar mot rörelsen. Bortse från hjulens rotationsenergi.</p><ol type=\"a\"><li>Vilken effekt krävs när Petra cyklar uppför med konstant fart 5,0 m/s? (Svara i kW. Avrunda vid behov till 3 decimaler.)</li><li>Petra rullar nedför utan att trampa. Startfarten är 5,0 m/s. Bestäm farten efter 180 m längs backen. (Svara i m/s. Avrunda vid behov till 2 decimaler.)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Höjdökningen per meter längs backen är 2/21. Vid konstant fart balanserar drivkraften både tyngdkraftens komponent och motståndet.</p>\\[\\begin{gathered}F_d=72\\cdot9{,}82\\cdot\\frac{2}{21}+25\\approx92{,}3371\\,\\mathrm N\\\\P=F_d v\\approx92{,}3371\\cdot5{,}0\\approx461{,}686\\,\\mathrm W\\\\\\approx0{,}462\\,\\mathrm{kW}\\end{gathered}\\]<p><strong>Svar: 0,462 kW.</strong> Beräkna med oavrundad kraft.</p><p><strong>b)</strong></p><p>Tyngdkraften ökar rörelseenergin, men motståndet tar bort en del av energin.</p>\\[\\begin{gathered}h=180\\cdot\\frac{2}{21}\\approx17{,}1429\\,\\mathrm m\\\\E_\\text{start}=\\frac{72\\cdot5{,}0^2}{2}=900\\,\\mathrm J\\\\W_g=72\\cdot9{,}82h\\approx12\\,120{,}686\\,\\mathrm J\\\\W_\\text{mot}=-25\\cdot180=-4500\\,\\mathrm J\\\\E_\\text{slut}=900+W_g-4500\\approx8520{,}686\\,\\mathrm J\\\\v=\\sqrt{\\frac{2E_\\text{slut}}{72}}\\approx15{,}38\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 15,38 m/s.</strong> Använd oavrundad höjd och energi.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p><strong>a)</strong></p><p>Backen stiger 2 m för varje 21 m längs vägen. Vid konstant fart måste cyklistens drivkraft balansera både tyngdkraftens komponent längs backen och motståndskraften.</p>\\[\\begin{gathered}F_d=mg\\frac{2}{21}+25\\\\=72\\cdot9{,}82\\cdot\\frac{2}{21}+25\\\\\\approx92{,}3371\\,\\mathrm N.\\end{gathered}\\]<p>Arbetet över en sträcka är \\(W=F_ds\\). Effekten blir därför \\(P=W/t=F_d(s/t)=F_dv\\).</p>\\[\\begin{gathered}P=F_d\\cdot5{,}0\\approx461{,}686\\,\\mathrm W\\\\\\approx0{,}462\\,\\mathrm{kW}.\\end{gathered}\\]<p><strong>Svar: 0,462 kW.</strong> Behåll oavrundade mellanresultat.</p><p><strong>b)</strong></p><p>Tyngdkraften ökar rörelseenergin, men motståndet tar bort en del av energin.</p>\\[\\begin{gathered}h=180\\cdot\\frac{2}{21}\\approx17{,}1429\\,\\mathrm m\\\\E_\\text{start}=\\frac{72\\cdot5{,}0^2}{2}=900\\,\\mathrm J\\\\W_g=72\\cdot9{,}82h\\approx12\\,120{,}686\\,\\mathrm J\\\\W_\\text{mot}=-25\\cdot180=-4500\\,\\mathrm J\\\\E_\\text{slut}=900+W_g-4500\\approx8520{,}686\\,\\mathrm J\\\\v=\\sqrt{\\frac{2E_\\text{slut}}{72}}\\approx15{,}38\\,\\mathrm{m/s}\\end{gathered}\\]<p><strong>Svar: 15,38 m/s.</strong> Använd oavrundad höjd och energi.</p></div>",
     "familj": "Blandat – energi och rörelsemängd",
     "formaga": [
       "modellering",
@@ -133492,7 +133495,7 @@ window.BANK = [
     "miniräknare": true,
     "geogebra": false,
     "ledtrad": "<p>Vilka krafter måste drivkraften balansera uppför?</p>",
-    "traningsniva": 3,
+    "traningsniva": 5,
     "arbetsinsats": 2,
     "spel": true,
     "svarEnhet": [
@@ -133515,10 +133518,10 @@ window.BANK = [
         "etikett": "a",
         "fraga": "Vilken effekt krävs när Petra cyklar uppför med konstant fart 5,0 m/s? (Svara i kW. Avrunda vid behov till 3 decimaler.)",
         "t": "<p>Petra och cykeln har sammanlagda massan 72 kg. Backen stiger 2 m i höjd för varje 21 m längs backen. En konstant motståndskraft på 25 N verkar mot rörelsen. Bortse från hjulens rotationsenergi.</p><p>Vilken effekt krävs när Petra cyklar uppför med konstant fart 5,0 m/s? (Svara i kW. Avrunda vid behov till 3 decimaler.)</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><p>Höjdökningen per meter längs backen är 2/21. Vid konstant fart balanserar drivkraften både tyngdkraftens komponent och motståndet.</p>\\[\\begin{gathered}F_d=72\\cdot9{,}82\\cdot\\frac{2}{21}+25\\approx92{,}3371\\,\\mathrm N\\\\P=F_d v\\approx92{,}3371\\cdot5{,}0\\approx461{,}686\\,\\mathrm W\\\\\\approx0{,}462\\,\\mathrm{kW}\\end{gathered}\\]<p><strong>Svar: 0,462 kW.</strong> Beräkna med oavrundad kraft.</p></div>",
+        "s": "<div class=\"facit-v2\"><p>Backen stiger 2 m för varje 21 m längs vägen. Vid konstant fart måste cyklistens drivkraft balansera både tyngdkraftens komponent längs backen och motståndskraften.</p>\\[\\begin{gathered}F_d=mg\\frac{2}{21}+25\\\\=72\\cdot9{,}82\\cdot\\frac{2}{21}+25\\\\\\approx92{,}3371\\,\\mathrm N.\\end{gathered}\\]<p>Arbetet över en sträcka är \\(W=F_ds\\). Effekten blir därför \\(P=W/t=F_d(s/t)=F_dv\\).</p>\\[\\begin{gathered}P=F_d\\cdot5{,}0\\approx461{,}686\\,\\mathrm W\\\\\\approx0{,}462\\,\\mathrm{kW}.\\end{gathered}\\]<p><strong>Svar: 0,462 kW.</strong> Behåll oavrundade mellanresultat.</p></div>",
         "ledtrad": "<p>Vilka krafter måste drivkraften balansera uppför?</p>",
         "niva": "C",
-        "traningsniva": 3,
+        "traningsniva": 5,
         "arbetsinsats": 2,
         "poang": "(0/1/0)",
         "formaga": [
@@ -181725,8 +181728,8 @@ window.BANK = [
     "omr": "fusion",
     "niva": "E",
     "poang": "(2/0/0)",
-    "t": "<p>I solens inre finns fria protoner. Temperaturen är 2,0·10⁷ K. </p><p>a) Bestäm den genomsnittliga rörelseenergin i J.</p><p>b) Vilken fart motsvarar denna rörelseenergi? (Svara i m/s.)</p>",
-    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>\\[E_k=1{,}5\\cdot1{,}3806\\cdot10^{-23}\\cdot2\\cdot10^7\\]</p><p>\\[E_k\\approx4{,}14\\cdot10^{-16}\\ \\mathrm{J}\\]</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>\\[v=\\sqrt{2E_k/m}\\]</p><p><div class=\"facit-v2\"><p>\\[v=\\sqrt{2E_k/m}\\]</p><p>\\[v\\approx704000\\ \\mathrm{m/s}\\]</p></div></p></div></div>",
+    "t": "<p>I solens inre finns fria protoner. Protonerna behandlas som partiklar i en ideal gas. Temperaturen är 2,0·10⁷ K. </p><p>a) Bestäm den genomsnittliga rörelseenergin för en proton. (Svara i J.)</p><p>b) Vilken fart motsvarar denna rörelseenergi? (Svara i m/s.)</p>",
+    "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Temperaturen bestämmer den genomsnittliga rörelseenergin <em>per partikel</em>. För en proton i en ideal gas gäller</p>\\[\\begin{gathered}\\overline E_k=\\frac32kT\\\\=\\frac32\\cdot1{,}3806\\cdot10^{-23}\\cdot2{,}0\\cdot10^7\\\\\\approx4{,}1\\cdot10^{-16}\\,\\mathrm J.\\end{gathered}\\]<p>Detta är energin för en proton i genomsnitt. Antalet protoner skulle behövas för att beräkna hela gasens energi.</p></div><p><strong>b)</strong></p><p>Den fart som motsvarar denna energi fås ur \\(E_k=mv^2/2\\). Använd protonens massa och den oavrundade energin från a).</p>\\[v=\\sqrt{\\frac{2E_k}{m_p}}=\\sqrt{\\frac{2\\cdot4{,}1418\\cdot10^{-16}}{1{,}6735\\cdot10^{-27}}}\\approx7{,}0\\cdot10^5\\,\\mathrm{m/s}.\\]</div>",
     "id": "9.415",
     "miniräknare": true,
     "geogebra": false,
@@ -181761,12 +181764,12 @@ window.BANK = [
       "m/s"
     ],
     "spelDelning": "deluppgifter",
-    "spelIntro": "<p>I solens inre finns fria protoner. Temperaturen är 2,0·10⁷ K. </p>",
+    "spelIntro": "<p>I solens inre finns fria protoner. Protonerna behandlas som partiklar i en ideal gas. Temperaturen är 2,0·10⁷ K. </p>",
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "En gas har temperaturen 2,0·10⁷ K.  Bestäm energin i J.",
-        "s": "<div class=\"facit-v2\"><p>\\[E_k=1{,}5\\cdot1{,}3806\\cdot10^{-23}\\cdot2\\cdot10^7\\]</p><p>\\[E_k\\approx4{,}14\\cdot10^{-16}\\ \\mathrm{J}\\]</p></div>",
+        "fraga": "Bestäm den genomsnittliga rörelseenergin för en proton. (Svara i J.)",
+        "s": "<div class=\"facit-v2\"><p>Temperaturen bestämmer den genomsnittliga rörelseenergin <em>per partikel</em>. För en proton i en ideal gas gäller</p>\\[\\begin{gathered}\\overline E_k=\\frac32kT\\\\=\\frac32\\cdot1{,}3806\\cdot10^{-23}\\cdot2{,}0\\cdot10^7\\\\\\approx4{,}1\\cdot10^{-16}\\,\\mathrm J.\\end{gathered}\\]<p>Detta är energin för en proton i genomsnitt. Antalet protoner skulle behövas för att beräkna hela gasens energi.</p></div>",
         "svarstyp": "numeriskt",
         "rättSvar": 4.1417999999999996e-16,
         "självrättning": true,
@@ -181777,10 +181780,11 @@ window.BANK = [
         "niva": "E",
         "traningsniva": 1,
         "poang": "1/0/0",
-        "ledtrad": "<p>Sätt temperaturen och k i den givna formeln.</p>",
-        "t": "<p>En gas har temperaturen 2,0·10⁷ K.  Bestäm energin i J.</p>",
+        "ledtrad": "<p>Vilket samband kopplar temperaturen till den genomsnittliga rörelseenergin hos en gaspartikel?</p>",
+        "t": "<p>I solens inre finns fria protoner vid temperaturen \\(2{,}0\\cdot10^7\\,\\mathrm K\\). Behandla protonerna som partiklar i en ideal gas.</p><p>Bestäm den genomsnittliga rörelseenergin för en proton. (Svara i J.)</p>",
         "arbetsinsats": 1,
-        "miniräknare": true
+        "miniräknare": true,
+        "svarVardesiffror": 2
       },
       {
         "etikett": "b",
@@ -181799,7 +181803,8 @@ window.BANK = [
         "ledtrad": "<p>Lös ut v ur Eₖ = mv²/2.</p>",
         "t": "<p>En proton har rörelseenergin 4,1·10⁻¹⁶ J och massan 1,6735·10⁻²⁷ kg. Vilken fart har den? (Svara i m/s.)</p>",
         "arbetsinsats": 1,
-        "miniräknare": true
+        "miniräknare": true,
+        "svarVardesiffror": 2
       }
     ],
     "ledtrad": "<p>Sätt temperaturen och k i den givna formeln.</p>",
@@ -181807,7 +181812,8 @@ window.BANK = [
     "familjNyckel": "fusion__fusion_och_energi",
     "arbetsinsats": 2,
     "spel": true,
-    "manuellKomplettering": false
+    "manuellKomplettering": false,
+    "svarVardesiffror": [2, 2]
   },
   {
     "kap": 9,

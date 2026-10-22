@@ -54419,5 +54419,225 @@ window.BANK2 = [
   "tolerans": 0.6,
   "svarFormat": "numeriskt",
   "svarEnhet": "dygn"
+},
+{
+  "id": "3.429",
+  "kap": 3,
+  "omr": "kast_elfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "elektronens bana mellan plattorna",
+  "t": "<p>I ett homogent fält mellan plattorna: \\(F=qE\\), \\(E=\\dfrac Ud\\). Farten parallellt med plattorna är konstant.</p><p>En elektron skjuts in vinkelrätt mot fältet mitt mellan två laddade plattor. Den övre plattan är positiv. Vilken bana följer elektronen? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 230\" role=\"img\" aria-label=\"Två plattor, den övre positiv och den nedre negativ. En elektron skjuts in från vänster mitt emellan. Fyra banor: A böjer uppåt i en kurva, B böjer nedåt i en kurva, C går rakt fram och D går snett uppåt i en rät linje.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"120\" y=\"30\" width=\"200\" height=\"10\" fill=\"#c0392b\"/><text x=\"330\" y=\"40\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#c0392b\">+</text><rect x=\"120\" y=\"190\" width=\"200\" height=\"10\" fill=\"#2f6fca\"/><text x=\"330\" y=\"202\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#2f6fca\">−</text><circle cx=\"40\" cy=\"115\" r=\"9\" fill=\"#eef1f4\" stroke=\"#172b3a\"/><text x=\"40\" y=\"120\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\">e⁻</text><line x1=\"50\" y1=\"115\" x2=\"110\" y2=\"115\" stroke=\"#172b3a\" stroke-width=\"2\"/><polygon points=\"116,115 106,110 106,120\" fill=\"#172b3a\"/><polyline points=\"120.0,115.0 122.0,115.0 124.0,115.0 126.0,115.0 128.0,114.9 130.0,114.9 132.0,114.9 134.0,114.8 136.0,114.7 138.0,114.7 140.0,114.6 142.0,114.5 144.0,114.4 146.0,114.3 148.0,114.2 150.0,114.1 152.0,114.0 154.0,113.8 156.0,113.7 158.0,113.6 160.0,113.4 162.0,113.2 164.0,113.1 166.0,112.9 168.0,112.7 170.0,112.5 172.0,112.3 174.0,112.1 176.0,111.9 178.0,111.6 180.0,111.4 182.0,111.2 184.0,110.9 186.0,110.6 188.0,110.4 190.0,110.1 192.0,109.8 194.0,109.5 196.0,109.2 198.0,108.9 200.0,108.6 202.0,108.3 204.0,107.9 206.0,107.6 208.0,107.3 210.0,106.9 212.0,106.5 214.0,106.2 216.0,105.8 218.0,105.4 220.0,105.0 222.0,104.6 224.0,104.2 226.0,103.8 228.0,103.3 230.0,102.9 232.0,102.5 234.0,102.0 236.0,101.5 238.0,101.1 240.0,100.6 242.0,100.1 244.0,99.6 246.0,99.1 248.0,98.6 250.0,98.1 252.0,97.6 254.0,97.0 256.0,96.5 258.0,96.0 260.0,95.4 262.0,94.8 264.0,94.3 266.0,93.7 268.0,93.1 270.0,92.5 272.0,91.9 274.0,91.3 276.0,90.7 278.0,90.0 280.0,89.4 282.0,88.8 284.0,88.1 286.0,87.4 288.0,86.8 290.0,86.1 292.0,85.4 294.0,84.7 296.0,84.0 298.0,83.3 300.0,82.6 302.0,81.9 304.0,81.1 306.0,80.4 308.0,79.7 310.0,78.9 312.0,78.1 314.0,77.4 316.0,76.6 318.0,75.8 320.0,75.0 420.0,35.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"2.5\"/><text x=\"380\" y=\"38\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#d9622b\">A</text><polyline points=\"120.0,115.0 122.0,115.0 124.0,115.0 126.0,115.0 128.0,115.1 130.0,115.1 132.0,115.1 134.0,115.2 136.0,115.3 138.0,115.3 140.0,115.4 142.0,115.5 144.0,115.6 146.0,115.7 148.0,115.8 150.0,115.9 152.0,116.0 154.0,116.2 156.0,116.3 158.0,116.4 160.0,116.6 162.0,116.8 164.0,116.9 166.0,117.1 168.0,117.3 170.0,117.5 172.0,117.7 174.0,117.9 176.0,118.1 178.0,118.4 180.0,118.6 182.0,118.8 184.0,119.1 186.0,119.4 188.0,119.6 190.0,119.9 192.0,120.2 194.0,120.5 196.0,120.8 198.0,121.1 200.0,121.4 202.0,121.7 204.0,122.1 206.0,122.4 208.0,122.7 210.0,123.1 212.0,123.5 214.0,123.8 216.0,124.2 218.0,124.6 220.0,125.0 222.0,125.4 224.0,125.8 226.0,126.2 228.0,126.7 230.0,127.1 232.0,127.5 234.0,128.0 236.0,128.5 238.0,128.9 240.0,129.4 242.0,129.9 244.0,130.4 246.0,130.9 248.0,131.4 250.0,131.9 252.0,132.4 254.0,133.0 256.0,133.5 258.0,134.0 260.0,134.6 262.0,135.2 264.0,135.7 266.0,136.3 268.0,136.9 270.0,137.5 272.0,138.1 274.0,138.7 276.0,139.3 278.0,140.0 280.0,140.6 282.0,141.2 284.0,141.9 286.0,142.6 288.0,143.2 290.0,143.9 292.0,144.6 294.0,145.3 296.0,146.0 298.0,146.7 300.0,147.4 302.0,148.1 304.0,148.9 306.0,149.6 308.0,150.3 310.0,151.1 312.0,151.9 314.0,152.6 316.0,153.4 318.0,154.2 320.0,155.0 420.0,195.0\" fill=\"none\" stroke=\"#2e9b6f\" stroke-width=\"2.5\"/><text x=\"368\" y=\"160\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2e9b6f\">B</text><polyline points=\"120.0,115.0 320.0,115.0 420.0,115.0\" fill=\"none\" stroke=\"#9b4fb0\" stroke-width=\"2.5\"/><text x=\"400\" y=\"106\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#9b4fb0\">C</text><polyline points=\"120.0,115.0 320.0,75.0 420.0,55.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><text x=\"382\" y=\"84\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">D</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Elektronen är negativ och dras mot den positiva plattan. Kraften är konstant och riktad uppåt, medan farten framåt är konstant. Banan blir en parabel som böjer uppåt, som en kastbana: A.</p><p>Efter plattorna verkar ingen kraft, så elektronen fortsätter i en rät linje.</p></div>",
+  "familj": "Banor och samband i elektriska fält",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Åt vilket håll verkar kraften på elektronen? Är kraften konstant?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A",
+      "ratt": true,
+      "kommentar": "Konstant kraft mot den positiva plattan ger en parabel uppåt."
+    },
+    {
+      "txt": "B",
+      "ratt": false,
+      "kommentar": "En positiv partikel skulle böjas nedåt mot den negativa plattan."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "Elektronen påverkas av en kraft och kan inte gå rakt fram."
+    },
+    {
+      "txt": "D",
+      "ratt": false,
+      "kommentar": "En rät linje snett uppåt kräver att farten uppåt är konstant från början. Här ökar den gradvis."
+    }
+  ]
+},
+{
+  "id": "3.430",
+  "kap": 3,
+  "omr": "kast_elfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "elektron och proton i samma fält",
+  "t": "<p>I ett homogent fält mellan plattorna: \\(F=qE\\), \\(E=\\dfrac Ud\\). Farten parallellt med plattorna är konstant.</p><p>En elektron och en proton skjuts in med samma fart mellan samma plattor. Vilket påstående stämmer? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Partiklarna har lika stor laddning men motsatt tecken, så kraften är lika stor men motsatt riktad.</p><p>Accelerationen \\(a=\\dfrac{qE}{m}\\) är cirka 1 800 gånger större för elektronen, som har mycket mindre massa. Elektronen böjs därför av mycket mer.</p></div>",
+  "familj": "Banor och samband i elektriska fält",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför krafterna och massorna.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "De böjs av åt olika håll, och elektronen böjs av mycket mer.",
+      "ratt": true,
+      "kommentar": "Samma kraft men mycket mindre massa ger större acceleration."
+    },
+    {
+      "txt": "De böjs av lika mycket åt olika håll.",
+      "ratt": false,
+      "kommentar": "Kraften är lika stor, men massorna skiljer sig."
+    },
+    {
+      "txt": "De böjs av åt samma håll, protonen mest.",
+      "ratt": false,
+      "kommentar": "Motsatta laddningar ger motsatta krafter."
+    },
+    {
+      "txt": "Protonen böjs av mest eftersom den är tyngst.",
+      "ratt": false,
+      "kommentar": "Större massa ger mindre acceleration."
+    }
+  ]
+},
+{
+  "id": "3.431",
+  "kap": 3,
+  "omr": "kast_elfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "dubbel spänning över plattorna",
+  "t": "<p>I ett homogent fält mellan plattorna: \\(F=qE\\), \\(E=\\dfrac Ud\\). Farten parallellt med plattorna är konstant.</p><p>Spänningen mellan plattorna fördubblas, medan elektronens fart och plattornas mått är oförändrade. Hur ändras elektronens avböjning när den lämnar plattorna? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Avböjningen är \\(y=\\tfrac12at^2\\), där tiden mellan plattorna inte ändras. \\(a=\\dfrac{eU}{md}\\) fördubblas när \\(U\\) fördubblas, så avböjningen fördubblas.</p></div>",
+  "familj": "Banor och samband i elektriska fält",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka storheter i y = at²/2 ändras?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Den fördubblas.",
+      "ratt": true,
+      "kommentar": "Accelerationen fördubblas och tiden är densamma."
+    },
+    {
+      "txt": "Den blir fyra gånger så stor.",
+      "ratt": false,
+      "kommentar": "Avböjningen är proportionell mot a, inte mot a²."
+    },
+    {
+      "txt": "Den halveras.",
+      "ratt": false,
+      "kommentar": "Större spänning ger starkare fält och större kraft."
+    },
+    {
+      "txt": "Den ändras inte.",
+      "ratt": false,
+      "kommentar": "Kraften beror på fältstyrkan E = U/d."
+    }
+  ]
+},
+{
+  "id": "3.432",
+  "kap": 3,
+  "omr": "kast_elfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "dubbel inskjutningsfart",
+  "t": "<p>I ett homogent fält mellan plattorna: \\(F=qE\\), \\(E=\\dfrac Ud\\). Farten parallellt med plattorna är konstant.</p><p>En elektron skjuts in med dubbelt så stor fart som tidigare mellan samma plattor och med samma spänning. Hur många gånger så stor blir avböjningen när den lämnar plattorna? (Svara med ett decimaltal.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Tiden mellan plattorna är \\(t=\\dfrac{l}{v}\\), alltså halva tiden. Avböjningen \\(y=\\tfrac12at^2\\) är proportionell mot \\(t^2\\).</p><p>\\(\\left(\\tfrac12\\right)^2=0{,}25\\): avböjningen blir en fjärdedel.</p></div>",
+  "familj": "Banor och samband i elektriska fält",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hur ändras tiden mellan plattorna? Hur beror y på t?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.25,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.433",
+  "kap": 3,
+  "omr": "kast_elfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "tid mellan plattorna",
+  "t": "<p>I ett homogent fält mellan plattorna: \\(F=qE\\), \\(E=\\dfrac Ud\\). Farten parallellt med plattorna är konstant.</p><p>En elektron skjuts in vinkelrätt mot fältet med farten \\(2{,}0\\cdot10^7\\) m/s. Plattorna är 4,0 cm långa. Hur lång tid är elektronen mellan plattorna? (Svara i s med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Fältet påverkar bara rörelsen vinkelrätt mot plattorna. Farten längs plattorna är konstant, så</p><p>\\(t=\\dfrac{l}{v}=\\dfrac{0{,}040}{2{,}0\\cdot10^7}=2{,}0\\cdot10^{-9}\\) s.</p></div>",
+  "familj": "Banor och samband i elektriska fält",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken fart är konstant?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 2e-09,
+  "tolerans": 5e-11,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "s"
+},
+{
+  "id": "3.434",
+  "kap": 3,
+  "omr": "kast_elfalt",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "svävande oljedroppe",
+  "t": "<p>I ett homogent fält mellan plattorna: \\(F=qE\\), \\(E=\\dfrac Ud\\). Farten parallellt med plattorna är konstant.</p><p>En oljedroppe med massan \\(3{,}2\\cdot10^{-15}\\) kg har tre extra elektroner. Den svävar stilla mellan två vågräta plattor. Hur stor är fältstyrkan? (Svara i V/m med två värdesiffror.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" role=\"img\" aria-label=\"En oljedroppe svävar stilla mellan två vågräta plattor. Den elektriska kraften pekar uppåt och tyngdkraften nedåt, lika långa pilar.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"25\" width=\"240\" height=\"10\" fill=\"#c0392b\"/><text x=\"310\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#c0392b\">+</text><rect x=\"60\" y=\"185\" width=\"240\" height=\"10\" fill=\"#2f6fca\"/><text x=\"310\" y=\"198\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#2f6fca\">−</text><circle cx=\"180\" cy=\"110\" r=\"9\" fill=\"#f6e3a1\" stroke=\"#172b3a\"/><line x1=\"180\" y1=\"100\" x2=\"180\" y2=\"60\" stroke=\"#d9622b\" stroke-width=\"3\"/><polygon points=\"180,52 174,64 186,64\" fill=\"#d9622b\"/><text x=\"190\" y=\"66\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#d9622b\">F = qE</text><line x1=\"180\" y1=\"120\" x2=\"180\" y2=\"160\" stroke=\"#172b3a\" stroke-width=\"3\"/><polygon points=\"180,168 174,156 186,156\" fill=\"#172b3a\"/><text x=\"190\" y=\"160\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#172b3a\">mg</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Droppen svävar, så den elektriska kraften balanserar tyngdkraften: \\(qE=mg\\).</p><p>\\(q=3e=4{,}81\\cdot10^{-19}\\) C, så \\(E=\\dfrac{mg}{q}=\\dfrac{3{,}2\\cdot10^{-15}\\cdot9{,}82}{4{,}81\\cdot10^{-19}}\\approx6{,}5\\cdot10^4\\) V/m.</p></div>",
+  "familj": "Banor och samband i elektriska fält",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka två krafter tar ut varandra?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 65000.0,
+  "tolerans": 500.0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "V/m"
 }
 ];

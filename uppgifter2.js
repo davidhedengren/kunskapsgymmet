@@ -10464,7 +10464,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "bestämma avstånd som ger minimum vid interferens från två högtalare, ur figur, sökt avstånd",
     "poang": "(1/2/0)",
-    "t": "<p>Två små högtalare är kopplade i fas till samma tongenerator med frekvensen 850 Hz. I en punkt P är avståndet till den ena högtalaren 3,20 m. Vilket närmaste större avstånd till den andra högtalaren ger första ljudminimum i P?</p><span class=\"fig smal\"><svg viewBox=\"3.959 4.353 266.898 172.122\" width=\"380\" height=\"245\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två högtalare i fas; avståndet till den ena högtalaren söks.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Två högtalare i fas; avståndet till den ena högtalaren söks.</title><g transform=\"translate(-33.8,-1.59)\"><g transform=\"translate(62,60) scale(0.95,0.95)\"><rect x=\"-13\" y=\"-13\" width=\"11\" height=\"26\" rx=\"2.6\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M -2 -9 L 9 -17 L 9 17 L -2 9 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 11 -4.8 A 6 6 0 0 1 11 4.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -8.8 A 11 11 0 0 1 11 8.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -12.8 A 16 16 0 0 1 11 12.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></g><g transform=\"translate(62,152) scale(0.95,0.95)\"><rect x=\"-13\" y=\"-13\" width=\"11\" height=\"26\" rx=\"2.6\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M -2 -9 L 9 -17 L 9 17 L -2 9 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 11 -4.8 A 6 6 0 0 1 11 4.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -8.8 A 11 11 0 0 1 11 8.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -12.8 A 16 16 0 0 1 11 12.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></g><line x1=\"92\" y1=\"60\" x2=\"272\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"182\" y=\"74\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">3,20 m</text><line x1=\"92\" y1=\"152\" x2=\"272\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"182\" y=\"144\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">?</text><circle cx=\"280\" cy=\"106\" r=\"5.2\" fill=\"#B43123\"/><text x=\"291\" y=\"110\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"11.5\" font-weight=\"700\" fill=\"#B43123\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">P</text><text x=\"160\" y=\"22\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9.5\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">f = 850 Hz, källorna i fas</text><text x=\"276\" y=\"140\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9.5\" font-weight=\"600\" fill=\"#B43123\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">minimum i P</text></g></svg></span>",
+    "t": "<p>Två små högtalare är kopplade i fas till samma tongenerator med frekvensen 850 Hz. I en punkt P är avståndet till den ena högtalaren 3,20 m. Vilket närmaste större avstånd till den andra högtalaren ger första ljudminimum i P? (Svara i m.)</p><span class=\"fig smal\"><svg viewBox=\"3.959 4.353 266.898 172.122\" width=\"380\" height=\"245\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två högtalare i fas; avståndet till den ena högtalaren söks.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Två högtalare i fas; avståndet till den ena högtalaren söks.</title><g transform=\"translate(-33.8,-1.59)\"><g transform=\"translate(62,60) scale(0.95,0.95)\"><rect x=\"-13\" y=\"-13\" width=\"11\" height=\"26\" rx=\"2.6\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M -2 -9 L 9 -17 L 9 17 L -2 9 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 11 -4.8 A 6 6 0 0 1 11 4.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -8.8 A 11 11 0 0 1 11 8.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -12.8 A 16 16 0 0 1 11 12.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></g><g transform=\"translate(62,152) scale(0.95,0.95)\"><rect x=\"-13\" y=\"-13\" width=\"11\" height=\"26\" rx=\"2.6\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M -2 -9 L 9 -17 L 9 17 L -2 9 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 11 -4.8 A 6 6 0 0 1 11 4.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -8.8 A 11 11 0 0 1 11 8.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -12.8 A 16 16 0 0 1 11 12.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></g><line x1=\"92\" y1=\"60\" x2=\"272\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"182\" y=\"74\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">3,20 m</text><line x1=\"92\" y1=\"152\" x2=\"272\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"182\" y=\"144\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">?</text><circle cx=\"280\" cy=\"106\" r=\"5.2\" fill=\"#B43123\"/><text x=\"291\" y=\"110\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"11.5\" font-weight=\"700\" fill=\"#B43123\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">P</text><text x=\"160\" y=\"22\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9.5\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">f = 850 Hz, källorna i fas</text><text x=\"276\" y=\"140\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9.5\" font-weight=\"600\" fill=\"#B43123\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">minimum i P</text></g></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">För två källor i fas fås första minimum när vägskillnaden är \\(\\lambda/2\\).</p></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{v}{f}=\\frac{340}{850}=0{,}40\\ \\mathrm m\\]\\[\\Delta r=\\frac{\\lambda}{2}=0{,}20\\ \\mathrm m\\]\\[r_2=3{,}20+0{,}20=3{,}40\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det närmaste större avståndet är \\(3{,}40\\ \\mathrm m\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Eftersom källorna är i fas ger första minimum vägskillnaden \\(\\lambda/2\\).</p></li><li><p class=\"facit-not\">Formuleringen ”närmaste större avstånd” väljer den lösning där avståndet från den andra ljudkällan till lyssnaren är \\(\\lambda/2\\) längre.</p></li></ol></div>",
     "familj": "Bestämma våglängd och frekvens",
     "formaga": [
@@ -10472,15 +10472,20 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.4,
+    "tolerans": 0.01,
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__interferens_fran_tva_kallor",
     "ledtrad": "<p>För två källor i fas fås första minimum när vägskillnaden är \\(\\lambda/2\\).</p>",
     "familjTidigare": [
       "Interferens från flera källor"
-    ]
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m",
+    "traningsniva": 3,
+    "miniräknare": true,
+    "svarVardesiffror": 3
   },
   {
     "id": "2.79",
@@ -10664,7 +10669,8 @@ window.BANK2 = [
     "ledtrad": "<p>För första minimum från två källor i fas är vägskillnaden \\(\\lambda/2\\).</p>",
     "familjTidigare": [
       "Interferens från flera källor"
-    ]
+    ],
+    "traningsniva": 3
   },
   {
     "id": "2.86",
@@ -10787,14 +10793,26 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Högtalarna sänder i fas. Jämför vägskillnaden med våglängden.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "traningsniva": 1,
+    "miniräknare": true,
+    "alternativ": [
+      {
+        "txt": "Förstärkt (maximum)",
+        "ratt": true
+      },
+      {
+        "txt": "Försvagat (minimum)",
+        "ratt": false
+      }
     ]
   },
   {
@@ -10901,7 +10919,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "bestämma våglängd från en sekvens av interferensmaxima och minima när vägskillnaden förändras",
     "poang": "(0/3/0)",
-    "t": "<p>Två högtalare sänder i fas. I A hörs ett maximum. När mikrofonen flyttas till B hörs i ordning minimum, maximum, minimum och slutligen maximum i B. Mellan A och B ökar skillnaden mellan de två gångvägarna med 0,80 m. Bestäm våglängden och frekvensen.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två hela interferensperioder när gångvägsskillnaden ökar\" style=\"max-width:100%;height:auto\"><title>Två hela interferensperioder när gångvägsskillnaden ökar</title><rect width=\"480\" height=\"280\" fill=\"white\"/><line x1=\"45.000\" y1=\"153.000\" x2=\"433.700\" y2=\"153.000\" stroke=\"#7b8797\" stroke-width=\"2.4\"/><polygon points=\"440,153 431.0,149.0 431.0,157.0\" fill=\"#7b8797\"/><polyline points=\"55.000,87.000 56.850,87.124 58.700,87.497 60.550,88.116 62.400,88.979 64.250,90.083 66.100,91.424 67.950,92.996 69.800,94.793 71.650,96.807 73.500,99.032 75.350,101.458 77.200,104.075 79.050,106.874 80.900,109.842 82.750,112.970 84.600,116.243 86.450,119.650 88.300,123.176 90.150,126.808 92.000,130.532 93.850,134.333 95.700,138.195 97.550,142.104 99.400,146.044 101.250,150.000 103.100,153.956 104.950,157.896 106.800,161.805 108.650,165.667 110.500,169.468 112.350,173.192 114.200,176.824 116.050,180.350 117.900,183.757 119.750,187.030 121.600,190.158 123.450,193.126 125.300,195.925 127.150,198.542 129.000,200.968 130.850,203.193 132.700,205.207 134.550,207.004 136.400,208.576 138.250,209.917 140.100,211.021 141.950,211.884 143.800,212.503 145.650,212.876 147.500,213.000 149.350,212.876 151.200,212.503 153.050,211.884 154.900,211.021 156.750,209.917 158.600,208.576 160.450,207.004 162.300,205.207 164.150,203.193 166.000,200.968 167.850,198.542 169.700,195.925 171.550,193.126 173.400,190.158 175.250,187.030 177.100,183.757 178.950,180.350 180.800,176.824 182.650,173.192 184.500,169.468 186.350,165.667 188.200,161.805 190.050,157.896 191.900,153.956 193.750,150.000 195.600,146.044 197.450,142.104 199.300,138.195 201.150,134.333 203.000,130.532 204.850,126.808 206.700,123.176 208.550,119.650 210.400,116.243 212.250,112.970 214.100,109.842 215.950,106.874 217.800,104.075 219.650,101.458 221.500,99.032 223.350,96.807 225.200,94.793 227.050,92.996 228.900,91.424 230.750,90.083 232.600,88.979 234.450,88.116 236.300,87.497 238.150,87.124 240.000,87.000 241.850,87.124 243.700,87.497 245.550,88.116 247.400,88.979 249.250,90.083 251.100,91.424 252.950,92.996 254.800,94.793 256.650,96.807 258.500,99.032 260.350,101.458 262.200,104.075 264.050,106.874 265.900,109.842 267.750,112.970 269.600,116.243 271.450,119.650 273.300,123.176 275.150,126.808 277.000,130.532 278.850,134.333 280.700,138.195 282.550,142.104 284.400,146.044 286.250,150.000 288.100,153.956 289.950,157.896 291.800,161.805 293.650,165.667 295.500,169.468 297.350,173.192 299.200,176.824 301.050,180.350 302.900,183.757 304.750,187.030 306.600,190.158 308.450,193.126 310.300,195.925 312.150,198.542 314.000,200.968 315.850,203.193 317.700,205.207 319.550,207.004 321.400,208.576 323.250,209.917 325.100,211.021 326.950,211.884 328.800,212.503 330.650,212.876 332.500,213.000 334.350,212.876 336.200,212.503 338.050,211.884 339.900,211.021 341.750,209.917 343.600,208.576 345.450,207.004 347.300,205.207 349.150,203.193 351.000,200.968 352.850,198.542 354.700,195.925 356.550,193.126 358.400,190.158 360.250,187.030 362.100,183.757 363.950,180.350 365.800,176.824 367.650,173.192 369.500,169.468 371.350,165.667 373.200,161.805 375.050,157.896 376.900,153.956 378.750,150.000 380.600,146.044 382.450,142.104 384.300,138.195 386.150,134.333 388.000,130.532 389.850,126.808 391.700,123.176 393.550,119.650 395.400,116.243 397.250,112.970 399.100,109.842 400.950,106.874 402.800,104.075 404.650,101.458 406.500,99.032 408.350,96.807 410.200,94.793 412.050,92.996 413.900,91.424 415.750,90.083 417.600,88.979 419.450,88.116 421.300,87.497 423.150,87.124 425.000,87.000\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"2.4\"/><text x=\"55.00\" y=\"75.00\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#223047\" text-anchor=\"middle\">A</text><text x=\"425.00\" y=\"75.00\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#223047\" text-anchor=\"middle\">B</text><line x1=\"55.000\" y1=\"242.000\" x2=\"425.000\" y2=\"242.000\" stroke=\"#7b8797\" stroke-width=\"1.2\"/><line x1=\"55.000\" y1=\"247.000\" x2=\"55.000\" y2=\"237.000\" stroke=\"#7b8797\" stroke-width=\"1.2\"/><line x1=\"425.000\" y1=\"247.000\" x2=\"425.000\" y2=\"237.000\" stroke=\"#7b8797\" stroke-width=\"1.2\"/><text x=\"240.00\" y=\"232.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">Gångvägsskillnaden ökar med 0,80 m</text><text x=\"240.00\" y=\"274.00\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#7b8797\" text-anchor=\"middle\">Horisontell axel: gångvägsskillnad, inte mikrofonens position</text></svg></span>",
+    "t": "<p>Två högtalare sänder i fas. I A hörs ett maximum. När mikrofonen flyttas till B hörs i ordning minimum, maximum, minimum och slutligen maximum i B. Mellan A och B ökar skillnaden mellan de två gångvägarna med 0,80 m. Bestäm våglängden och frekvensen. (Svara i m och Hz.)</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två hela interferensperioder när gångvägsskillnaden ökar\" style=\"max-width:100%;height:auto\"><title>Två hela interferensperioder när gångvägsskillnaden ökar</title><rect width=\"480\" height=\"280\" fill=\"white\"/><line x1=\"45.000\" y1=\"153.000\" x2=\"433.700\" y2=\"153.000\" stroke=\"#7b8797\" stroke-width=\"2.4\"/><polygon points=\"440,153 431.0,149.0 431.0,157.0\" fill=\"#7b8797\"/><polyline points=\"55.000,87.000 56.850,87.124 58.700,87.497 60.550,88.116 62.400,88.979 64.250,90.083 66.100,91.424 67.950,92.996 69.800,94.793 71.650,96.807 73.500,99.032 75.350,101.458 77.200,104.075 79.050,106.874 80.900,109.842 82.750,112.970 84.600,116.243 86.450,119.650 88.300,123.176 90.150,126.808 92.000,130.532 93.850,134.333 95.700,138.195 97.550,142.104 99.400,146.044 101.250,150.000 103.100,153.956 104.950,157.896 106.800,161.805 108.650,165.667 110.500,169.468 112.350,173.192 114.200,176.824 116.050,180.350 117.900,183.757 119.750,187.030 121.600,190.158 123.450,193.126 125.300,195.925 127.150,198.542 129.000,200.968 130.850,203.193 132.700,205.207 134.550,207.004 136.400,208.576 138.250,209.917 140.100,211.021 141.950,211.884 143.800,212.503 145.650,212.876 147.500,213.000 149.350,212.876 151.200,212.503 153.050,211.884 154.900,211.021 156.750,209.917 158.600,208.576 160.450,207.004 162.300,205.207 164.150,203.193 166.000,200.968 167.850,198.542 169.700,195.925 171.550,193.126 173.400,190.158 175.250,187.030 177.100,183.757 178.950,180.350 180.800,176.824 182.650,173.192 184.500,169.468 186.350,165.667 188.200,161.805 190.050,157.896 191.900,153.956 193.750,150.000 195.600,146.044 197.450,142.104 199.300,138.195 201.150,134.333 203.000,130.532 204.850,126.808 206.700,123.176 208.550,119.650 210.400,116.243 212.250,112.970 214.100,109.842 215.950,106.874 217.800,104.075 219.650,101.458 221.500,99.032 223.350,96.807 225.200,94.793 227.050,92.996 228.900,91.424 230.750,90.083 232.600,88.979 234.450,88.116 236.300,87.497 238.150,87.124 240.000,87.000 241.850,87.124 243.700,87.497 245.550,88.116 247.400,88.979 249.250,90.083 251.100,91.424 252.950,92.996 254.800,94.793 256.650,96.807 258.500,99.032 260.350,101.458 262.200,104.075 264.050,106.874 265.900,109.842 267.750,112.970 269.600,116.243 271.450,119.650 273.300,123.176 275.150,126.808 277.000,130.532 278.850,134.333 280.700,138.195 282.550,142.104 284.400,146.044 286.250,150.000 288.100,153.956 289.950,157.896 291.800,161.805 293.650,165.667 295.500,169.468 297.350,173.192 299.200,176.824 301.050,180.350 302.900,183.757 304.750,187.030 306.600,190.158 308.450,193.126 310.300,195.925 312.150,198.542 314.000,200.968 315.850,203.193 317.700,205.207 319.550,207.004 321.400,208.576 323.250,209.917 325.100,211.021 326.950,211.884 328.800,212.503 330.650,212.876 332.500,213.000 334.350,212.876 336.200,212.503 338.050,211.884 339.900,211.021 341.750,209.917 343.600,208.576 345.450,207.004 347.300,205.207 349.150,203.193 351.000,200.968 352.850,198.542 354.700,195.925 356.550,193.126 358.400,190.158 360.250,187.030 362.100,183.757 363.950,180.350 365.800,176.824 367.650,173.192 369.500,169.468 371.350,165.667 373.200,161.805 375.050,157.896 376.900,153.956 378.750,150.000 380.600,146.044 382.450,142.104 384.300,138.195 386.150,134.333 388.000,130.532 389.850,126.808 391.700,123.176 393.550,119.650 395.400,116.243 397.250,112.970 399.100,109.842 400.950,106.874 402.800,104.075 404.650,101.458 406.500,99.032 408.350,96.807 410.200,94.793 412.050,92.996 413.900,91.424 415.750,90.083 417.600,88.979 419.450,88.116 421.300,87.497 423.150,87.124 425.000,87.000\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"2.4\"/><text x=\"55.00\" y=\"75.00\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#223047\" text-anchor=\"middle\">A</text><text x=\"425.00\" y=\"75.00\" font-family=\"Arial, sans-serif\" font-size=\"17\" fill=\"#223047\" text-anchor=\"middle\">B</text><line x1=\"55.000\" y1=\"242.000\" x2=\"425.000\" y2=\"242.000\" stroke=\"#7b8797\" stroke-width=\"1.2\"/><line x1=\"55.000\" y1=\"247.000\" x2=\"55.000\" y2=\"237.000\" stroke=\"#7b8797\" stroke-width=\"1.2\"/><line x1=\"425.000\" y1=\"247.000\" x2=\"425.000\" y2=\"237.000\" stroke=\"#7b8797\" stroke-width=\"1.2\"/><text x=\"240.00\" y=\"232.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">Gångvägsskillnaden ökar med 0,80 m</text><text x=\"240.00\" y=\"274.00\" font-family=\"Arial, sans-serif\" font-size=\"12\" fill=\"#7b8797\" text-anchor=\"middle\">Horisontell axel: gångvägsskillnad, inte mikrofonens position</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Mellan två intilliggande maxima ändras vägskillnaden med en våglängd.</p></li><li><p class=\"facit-metod\">Sträckan innehåller två sådana steg.</p></li><li><div class=\"facit-matte\">\\[2\\lambda=0{,}80\\ \\mathrm m\\quad\\Longrightarrow\\quad \\lambda=0{,}40\\ \\mathrm m\\]\\[f=\\frac{v}{\\lambda}=\\frac{340}{0{,}40}=850\\ \\mathrm{Hz}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Våglängden är \\(0{,}40\\ \\mathrm m\\) och frekvensen \\(850\\ \\mathrm{Hz}\\).</p></div>",
     "familj": "Bestämma våglängd och frekvens",
     "formaga": [
@@ -10909,14 +10927,39 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.4,
+      850
+    ],
+    "tolerans": [
+      0.004,
+      8.5
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Mellan två intilliggande maxima ändras vägskillnaden med en våglängd. Sträckan innehåller två sådana steg.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "m",
+      "Hz"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Våglängd",
+      "Frekvens"
+    ],
+    "traningsniva": 3,
+    "miniräknare": true,
+    "svarVardesiffror": [
+      2,
+      2
     ]
   },
   {
@@ -11438,14 +11481,34 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Vid superposition adderas vågornas elongationer punkt för punkt.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "traningsniva": 1,
+    "miniräknare": true,
+    "alternativ": [
+      {
+        "txt": "Amplituden fördubblas",
+        "ratt": true
+      },
+      {
+        "txt": "Amplituden blir noll",
+        "ratt": false
+      },
+      {
+        "txt": "Amplituden är oförändrad",
+        "ratt": false
+      },
+      {
+        "txt": "Amplituden halveras",
+        "ratt": false
+      }
     ]
   },
   {
@@ -11463,14 +11526,26 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>För vågor som startar i fas fås konstruktiv interferens när vägskillnaden är ett helt antal våglängder.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "traningsniva": 1,
+    "miniräknare": true,
+    "alternativ": [
+      {
+        "txt": "Konstruktiv",
+        "ratt": true
+      },
+      {
+        "txt": "Destruktiv",
+        "ratt": false
+      }
     ]
   },
   {
@@ -11488,14 +11563,26 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>För vågor som startar i fas fås destruktiv interferens vid en udda multipel av en halv våglängd.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "traningsniva": 1,
+    "miniräknare": true,
+    "alternativ": [
+      {
+        "txt": "Destruktiv",
+        "ratt": true
+      },
+      {
+        "txt": "Konstruktiv",
+        "ratt": false
+      }
     ]
   },
   {
@@ -11557,7 +11644,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avgöra maximum eller minimum ur vägskillnad för källor i fas, ur figur, sökt interferenstyp",
     "poang": "(2/0/0)",
-    "t": "<p>Två vågkällor svänger i fas och sänder vågor med våglängden 0,60 m. Till en punkt P är avstånden 5,10 m respektive 6,00 m. Avgör om P ligger i ett maximum eller minimum och motivera.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två koherenta källor och olika gångvägar till P\" style=\"max-width:100%;height:auto\"><title>Två koherenta källor och olika gångvägar till P</title><rect width=\"480\" height=\"280\" fill=\"white\"/><circle cx=\"90\" cy=\"65\" r=\"12\" fill=\"#2867a8\" stroke=\"#2867a8\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"210\" r=\"12\" fill=\"#2867a8\" stroke=\"#2867a8\" stroke-width=\"2\"/><circle cx=\"400\" cy=\"138\" r=\"5\" fill=\"#223047\" stroke=\"#223047\" stroke-width=\"2\"/><line x1=\"104.000\" y1=\"65.000\" x2=\"400.000\" y2=\"138.000\" stroke=\"#2867a8\" stroke-width=\"2\"/><line x1=\"104.000\" y1=\"210.000\" x2=\"400.000\" y2=\"138.000\" stroke=\"#b54b42\" stroke-width=\"2\"/><text x=\"68.00\" y=\"48.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">S₁</text><text x=\"68.00\" y=\"236.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">S₂</text><text x=\"425.00\" y=\"143.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">P</text><text x=\"245.00\" y=\"81.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">r₁</text><text x=\"245.00\" y=\"197.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">r₂</text></svg></span>",
+    "t": "<p>Två vågkällor svänger i fas och sänder vågor med våglängden 0,60 m. Till en punkt P är avstånden 5,10 m respektive 6,00 m. Ligger P i ett maximum eller ett minimum?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två koherenta källor och olika gångvägar till P\" style=\"max-width:100%;height:auto\"><title>Två koherenta källor och olika gångvägar till P</title><rect width=\"480\" height=\"280\" fill=\"white\"/><circle cx=\"90\" cy=\"65\" r=\"12\" fill=\"#2867a8\" stroke=\"#2867a8\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"210\" r=\"12\" fill=\"#2867a8\" stroke=\"#2867a8\" stroke-width=\"2\"/><circle cx=\"400\" cy=\"138\" r=\"5\" fill=\"#223047\" stroke=\"#223047\" stroke-width=\"2\"/><line x1=\"104.000\" y1=\"65.000\" x2=\"400.000\" y2=\"138.000\" stroke=\"#2867a8\" stroke-width=\"2\"/><line x1=\"104.000\" y1=\"210.000\" x2=\"400.000\" y2=\"138.000\" stroke=\"#b54b42\" stroke-width=\"2\"/><text x=\"68.00\" y=\"48.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">S₁</text><text x=\"68.00\" y=\"236.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">S₂</text><text x=\"425.00\" y=\"143.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">P</text><text x=\"245.00\" y=\"81.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">r₁</text><text x=\"245.00\" y=\"197.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">r₂</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Källorna svänger i fas.</p></li><li><p class=\"facit-metod\">Jämför vägskillnaden med våglängden.</p></li><li><div class=\"facit-matte\">\\[\\Delta s=6{,}00-5{,}10=0{,}90\\ \\mathrm m\\]\\[\\frac{\\Delta s}{\\lambda}=\\frac{0{,}90}{0{,}60}=1{,}5=1+\\frac12\\]</div></li><li><p>En udda halv multipel av \\(\\lambda\\) ger destruktiv interferens.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> P ligger i ett interferensminimum.</p></div>",
     "familj": "Maximum eller minimum ur vägskillnaden",
     "formaga": [
@@ -11565,14 +11652,26 @@ window.BANK2 = [
       "resonemang"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Källorna svänger i fas. Jämför vägskillnaden med våglängden.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "traningsniva": 1,
+    "miniräknare": true,
+    "alternativ": [
+      {
+        "txt": "Minimum",
+        "ratt": true
+      },
+      {
+        "txt": "Maximum",
+        "ratt": false
+      }
     ]
   },
   {
@@ -11582,7 +11681,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "bestämma våglängd och frekvens ur ändrad vägskillnad mellan maxima, ur figur, sökt våglängd och frekvens",
     "poang": "(1/2/0)",
-    "t": "<p>Två högtalare sänder ljud i fas. När en mikrofon flyttas längs en viss linje från A till B ökar vägskillnaden mellan högtalarna och mikrofonen med 18 cm. På sträckan går signalen från ett maximum i A via ett mellanliggande maximum till ett maximum i B. Bestäm ljudets våglängd och frekvens.</p><span class=\"fig smal\"><svg viewBox=\"0 0 291.6 172\" width=\"380\" height=\"224\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mikrofon som flyttas från A till B via ett mellanliggande maximum.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mikrofon som flyttas från A till B via ett mellanliggande maximum.</title><g transform=\"translate(-19.4,-14)\"><g transform=\"translate(46,44) scale(0.85,0.85)\"><rect x=\"-13\" y=\"-13\" width=\"11\" height=\"26\" rx=\"2.6\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M -2 -9 L 9 -17 L 9 17 L -2 9 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 11 -4.8 A 6 6 0 0 1 11 4.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -8.8 A 11 11 0 0 1 11 8.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -12.8 A 16 16 0 0 1 11 12.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></g><g transform=\"translate(46,156) scale(0.85,0.85)\"><rect x=\"-13\" y=\"-13\" width=\"11\" height=\"26\" rx=\"2.6\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M -2 -9 L 9 -17 L 9 17 L -2 9 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 11 -4.8 A 6 6 0 0 1 11 4.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -8.8 A 11 11 0 0 1 11 8.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -12.8 A 16 16 0 0 1 11 12.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></g><line x1=\"70\" y1=\"100\" x2=\"296\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"84\" cy=\"100\" r=\"4.6\" fill=\"#2B2527\"/><text x=\"84\" y=\"88\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#2A5D9E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">max</text><text x=\"84\" y=\"120\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"11.5\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">A</text><circle cx=\"183\" cy=\"100\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"183\" y=\"88\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#2A5D9E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">max</text><circle cx=\"282\" cy=\"100\" r=\"4.6\" fill=\"#2B2527\"/><text x=\"282\" y=\"88\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#2A5D9E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">max</text><text x=\"282\" y=\"120\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"11.5\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">B</text></g></svg></span>",
+    "t": "<p>Två högtalare sänder ljud i fas. När en mikrofon flyttas längs en viss linje från A till B ökar vägskillnaden mellan högtalarna och mikrofonen med 18 cm. På sträckan går signalen från ett maximum i A via ett mellanliggande maximum till ett maximum i B. Bestäm ljudets våglängd och frekvens. (Svara i m och Hz.)</p><span class=\"fig smal\"><svg viewBox=\"0 0 291.6 172\" width=\"380\" height=\"224\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mikrofon som flyttas från A till B via ett mellanliggande maximum.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mikrofon som flyttas från A till B via ett mellanliggande maximum.</title><g transform=\"translate(-19.4,-14)\"><g transform=\"translate(46,44) scale(0.85,0.85)\"><rect x=\"-13\" y=\"-13\" width=\"11\" height=\"26\" rx=\"2.6\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M -2 -9 L 9 -17 L 9 17 L -2 9 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 11 -4.8 A 6 6 0 0 1 11 4.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -8.8 A 11 11 0 0 1 11 8.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -12.8 A 16 16 0 0 1 11 12.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></g><g transform=\"translate(46,156) scale(0.85,0.85)\"><rect x=\"-13\" y=\"-13\" width=\"11\" height=\"26\" rx=\"2.6\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M -2 -9 L 9 -17 L 9 17 L -2 9 Z\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 11 -4.8 A 6 6 0 0 1 11 4.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -8.8 A 11 11 0 0 1 11 8.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><path d=\"M 11 -12.8 A 16 16 0 0 1 11 12.8\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-linecap=\"round\"/></g><line x1=\"70\" y1=\"100\" x2=\"296\" y2=\"100\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"84\" cy=\"100\" r=\"4.6\" fill=\"#2B2527\"/><text x=\"84\" y=\"88\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#2A5D9E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">max</text><text x=\"84\" y=\"120\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"11.5\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">A</text><circle cx=\"183\" cy=\"100\" r=\"3.6\" fill=\"#2B2527\"/><text x=\"183\" y=\"88\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#2A5D9E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">max</text><circle cx=\"282\" cy=\"100\" r=\"4.6\" fill=\"#2B2527\"/><text x=\"282\" y=\"88\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#2A5D9E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">max</text><text x=\"282\" y=\"120\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"11.5\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">B</text></g></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Mellan intilliggande maxima ändras vägskillnaden med en våglängd.</p></li><li><p class=\"facit-metod\">Från A till B finns två sådana intervall.</p></li><li><div class=\"facit-matte\">\\[18\\ \\mathrm{cm}=2\\lambda\\quad\\Longrightarrow\\quad \\lambda=9{,}0\\ \\mathrm{cm}=0{,}090\\ \\mathrm m\\]\\[f=\\frac{v}{\\lambda}=\\frac{340}{0{,}090}=3{,}78\\cdot10^3\\ \\mathrm{Hz}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Våglängden är \\(9{,}0\\ \\mathrm{cm}\\) och frekvensen ungefär \\(3{,}8\\ \\mathrm{kHz}\\).</p></div>",
     "familj": "Bestämma våglängd och frekvens",
     "formaga": [
@@ -11590,14 +11689,39 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.09,
+      3777.777777777778
+    ],
+    "tolerans": [
+      0.001,
+      38
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Mellan intilliggande maxima ändras vägskillnaden med en våglängd. Från A till B finns två sådana intervall.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "m",
+      "Hz"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Våglängd",
+      "Frekvens"
+    ],
+    "traningsniva": 3,
+    "miniräknare": true,
+    "svarVardesiffror": [
+      2,
+      2
     ]
   },
   {
@@ -11635,7 +11759,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "avgöra interferenstyp när källorna svänger i motfas, ur figur, sökt interferenstyp",
     "poang": "(1/2/0)",
-    "t": "<p>Två koherenta vågkällor har våglängden 0,60 m men svänger i motfas. Till en punkt P är avstånden 4,20 m och 5,10 m. Avgör om interferensen i P är konstruktiv eller destruktiv. Hur mycket måste den längre vägen minst ändras, med den kortare oförändrad, för att P ska byta från maximum till minimum?</p><span class=\"fig smal\"><svg viewBox=\"6.402 0.000 269.856 148.000\" width=\"380\" height=\"208\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två källor i motfas; avstånden till P är 4,20 m och 5,10 m.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Två källor i motfas; avstånden till P är 4,20 m och 5,10 m.</title><g transform=\"translate(-20.4,-32)\"><circle cx=\"58\" cy=\"54\" r=\"7\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 67.03 44.65 A 13 13 0 0 1 67.03 63.35\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" opacity=\"0.8\"/><path d=\"M 71.89 39.61 A 20 20 0 0 1 71.89 68.39\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" opacity=\"0.8\"/><path d=\"M 76.76 34.58 A 27 27 0 0 1 76.76 73.42\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" opacity=\"0.8\"/><circle cx=\"58\" cy=\"158\" r=\"7\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 67.03 148.65 A 13 13 0 0 1 67.03 167.35\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" opacity=\"0.8\"/><path d=\"M 71.89 143.61 A 20 20 0 0 1 71.89 172.39\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" opacity=\"0.8\"/><path d=\"M 76.76 138.58 A 27 27 0 0 1 76.76 177.42\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" opacity=\"0.8\"/><text x=\"46\" y=\"58\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10.5\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">S₁</text><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10.5\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">S₂</text><line x1=\"88\" y1=\"54\" x2=\"263\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"175.5\" y=\"71\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">4,20 m</text><line x1=\"88\" y1=\"158\" x2=\"263\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"175.5\" y=\"147\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">5,10 m</text><circle cx=\"272\" cy=\"106\" r=\"5.2\" fill=\"#B43123\"/><text x=\"283\" y=\"110\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"11.5\" font-weight=\"700\" fill=\"#B43123\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">P</text></g></svg></span>",
+    "t": "<p>Två koherenta vågkällor har våglängden 0,60 m men svänger i motfas. Till en punkt P är avstånden 4,20 m och 5,10 m. Är interferensen i P konstruktiv eller destruktiv? (Svara med ett ord.) Hur mycket måste den längre vägen minst ändras, med den kortare oförändrad, för att P ska byta från maximum till minimum? (Svara i m.)</p><span class=\"fig smal\"><svg viewBox=\"6.402 0.000 269.856 148.000\" width=\"380\" height=\"208\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två källor i motfas; avstånden till P är 4,20 m och 5,10 m.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Två källor i motfas; avstånden till P är 4,20 m och 5,10 m.</title><g transform=\"translate(-20.4,-32)\"><circle cx=\"58\" cy=\"54\" r=\"7\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 67.03 44.65 A 13 13 0 0 1 67.03 63.35\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" opacity=\"0.8\"/><path d=\"M 71.89 39.61 A 20 20 0 0 1 71.89 68.39\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" opacity=\"0.8\"/><path d=\"M 76.76 34.58 A 27 27 0 0 1 76.76 73.42\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" opacity=\"0.8\"/><circle cx=\"58\" cy=\"158\" r=\"7\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2.2\"/><path d=\"M 67.03 148.65 A 13 13 0 0 1 67.03 167.35\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" opacity=\"0.8\"/><path d=\"M 71.89 143.61 A 20 20 0 0 1 71.89 172.39\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" opacity=\"0.8\"/><path d=\"M 76.76 138.58 A 27 27 0 0 1 76.76 177.42\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\" opacity=\"0.8\"/><text x=\"46\" y=\"58\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10.5\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">S₁</text><text x=\"46\" y=\"162\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10.5\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">S₂</text><line x1=\"88\" y1=\"54\" x2=\"263\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"175.5\" y=\"71\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">4,20 m</text><line x1=\"88\" y1=\"158\" x2=\"263\" y2=\"106\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"175.5\" y=\"147\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">5,10 m</text><circle cx=\"272\" cy=\"106\" r=\"5.2\" fill=\"#B43123\"/><text x=\"283\" y=\"110\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"11.5\" font-weight=\"700\" fill=\"#B43123\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">P</text></g></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Ta med både vägskillnadens fas och källornas inbyggda fasskillnad \\(\\pi\\).</p></li><li><div class=\"facit-matte\">\\[\\Delta s=5{,}10-4{,}20=0{,}90\\ \\mathrm m=1{,}5\\lambda\\]\\[\\Delta\\varphi_{\\mathrm{väg}}=2\\pi\\frac{\\Delta s}{\\lambda}=3\\pi\\]\\[\\Delta\\varphi_{\\mathrm{tot}}=3\\pi+\\pi=4\\pi\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Interferensen i P är konstruktiv.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från maximum till närmaste minimum måste den totala fasen ändras med \\(\\pi\\), vilket motsvarar en halv våglängd.</p></li><li><div class=\"facit-matte\">\\[|\\Delta(\\Delta s)|_{\\min}=\\frac{\\lambda}{2}=\\frac{0{,}60}{2}=0{,}30\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den längre vägen måste ändras minst \\(0{,}30\\ \\mathrm m\\).</p></div></div></div>",
     "familj": "Maximum eller minimum ur vägskillnaden",
     "formaga": [
@@ -11643,17 +11767,39 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.3,
-    "tolerans": 0.01,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "konstruktiv",
+      0.3
+    ],
+    "tolerans": [
+      null,
+      0.003
+    ],
     "självrättning": true,
-    "svarFormat": "numeriskt",
-    "svarEnhet": "m",
-    "manuellKomplettering": true,
+    "svarFormat": [
+      "text",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "m"
+    ],
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Ta med både vägskillnadens fas och källornas inbyggda fasskillnad \\(\\pi\\).</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Interferens",
+      "Minsta ändring"
+    ],
+    "traningsniva": 3,
+    "miniräknare": true,
+    "svarVardesiffror": [
+      null,
+      2
     ]
   },
   {
@@ -12354,7 +12500,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(1/2/0)",
     "typ": "beräkna vägskillnad med Pythagoras och möjliga våglängder för utsläckning, ur figur, sökt våglängd",
-    "t": "<p>Två högtalare spelar samma ton i fas. Punkten A ligger 2,0 m rakt framför den vänstra högtalaren, och högtalarna står 3,0 m från varandra. I A är det helt tyst. Hur stor är vägskillnaden från A till de båda högtalarna? Vilken är den längsta våglängd högtalarna kan sända ut? Ange två andra våglängder som också ger tystnad i A.</p><span class=\"fig smal\"><svg viewBox=\"6.229 6.491 278.136 182.392\" width=\"380\" height=\"249\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Punkt A rakt framför den vänstra av två högtalare.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Punkt A rakt framför den vänstra av två högtalare.</title><g transform=\"translate(0,-33.64)\"><rect x=\"67\" y=\"147\" width=\"30\" height=\"42\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"82\" cy=\"162.12\" r=\"9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"82\" cy=\"179.76\" r=\"3.9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><rect x=\"243\" y=\"147\" width=\"30\" height=\"42\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"258\" cy=\"162.12\" r=\"9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"258\" cy=\"179.76\" r=\"3.9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><circle cx=\"82\" cy=\"62\" r=\"5\" fill=\"#2B2527\"/><text x=\"70\" y=\"56\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">A</text><line x1=\"82\" y1=\"62\" x2=\"82\" y2=\"146\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"82\" y1=\"62\" x2=\"258\" y2=\"146\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"52\" y1=\"62\" x2=\"52\" y2=\"168\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"47\" y1=\"62\" x2=\"57\" y2=\"62\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"47\" y1=\"168\" x2=\"57\" y2=\"168\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"43\" y=\"119\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">2,0 m</text><line x1=\"82\" y1=\"200\" x2=\"258\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"82\" y1=\"195\" x2=\"82\" y2=\"205\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"258\" y1=\"195\" x2=\"258\" y2=\"205\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"170\" y=\"214\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">3,0 m</text></g></svg></span>",
+    "t": "<p>Två högtalare spelar samma ton i fas. Punkten A ligger 2,0 m rakt framför den vänstra högtalaren, och högtalarna står 3,0 m från varandra. I A är det helt tyst. Hur stor är vägskillnaden från A till de båda högtalarna? Vilken är den längsta våglängd högtalarna kan sända ut? Bestäm också den näst längsta och den tredje längsta våglängden som ger tystnad i A. (Svara i m.)</p><span class=\"fig smal\"><svg viewBox=\"6.229 6.491 278.136 182.392\" width=\"380\" height=\"249\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Punkt A rakt framför den vänstra av två högtalare.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Punkt A rakt framför den vänstra av två högtalare.</title><g transform=\"translate(0,-33.64)\"><rect x=\"67\" y=\"147\" width=\"30\" height=\"42\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"82\" cy=\"162.12\" r=\"9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"82\" cy=\"179.76\" r=\"3.9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><rect x=\"243\" y=\"147\" width=\"30\" height=\"42\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"258\" cy=\"162.12\" r=\"9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"258\" cy=\"179.76\" r=\"3.9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><circle cx=\"82\" cy=\"62\" r=\"5\" fill=\"#2B2527\"/><text x=\"70\" y=\"56\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">A</text><line x1=\"82\" y1=\"62\" x2=\"82\" y2=\"146\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"82\" y1=\"62\" x2=\"258\" y2=\"146\" stroke=\"#2B2527\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"52\" y1=\"62\" x2=\"52\" y2=\"168\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"47\" y1=\"62\" x2=\"57\" y2=\"62\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"47\" y1=\"168\" x2=\"57\" y2=\"168\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"43\" y=\"119\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">2,0 m</text><line x1=\"82\" y1=\"200\" x2=\"258\" y2=\"200\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"82\" y1=\"195\" x2=\"82\" y2=\"205\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"258\" y1=\"195\" x2=\"258\" y2=\"205\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"170\" y=\"214\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">3,0 m</text></g></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Beräkna först de båda gångvägarna.</p></li><li><p class=\"facit-metod\">Den vänstra är \\(r_1=2{,}0\\ \\mathrm m\\); den högra fås med Pythagoras sats.</p></li><li><div class=\"facit-matte\">\\[r_2=\\sqrt{2{,}0^2+3{,}0^2}=\\sqrt{13}=3{,}606\\ \\mathrm m\\]\\[\\Delta r=r_2-r_1=3{,}606-2{,}0=1{,}606\\ \\mathrm m\\]</div></li><li><p class=\"facit-metod\">För två källor i fas uppstår minimum när \\(\\Delta r=(n+\\tfrac12)\\lambda\\), där \\(n=0,1,2,\\ldots\\).</p></li><li><div class=\"facit-matte\">\\[n=0:quad\\lambda=2\\Delta r=3{,}21\\ \\mathrm m\\]\\[n=1:quad\\lambda=\\frac{\\Delta r}{1{,}5}=1{,}07\\ \\mathrm m\\]\\[n=2:quad\\lambda=\\frac{\\Delta r}{2{,}5}=0{,}642\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vägskillnaden är \\(1{,}61\\ \\mathrm m\\). Längsta våglängden är \\(3{,}21\\ \\mathrm m\\); två andra är \\(1{,}07\\ \\mathrm m\\) och \\(0{,}642\\ \\mathrm m\\).</p></div>",
     "familj": "Vägskillnad med Pythagoras sats",
     "formaga": [
@@ -12362,14 +12508,51 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.6055512754639891,
+      3.2111025509279782,
+      1.0703675169759927,
+      0.6422205101855957
+    ],
+    "tolerans": [
+      0.01,
+      0.02,
+      0.01,
+      0.005
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__interferens_fran_tva_kallor",
     "ledtrad": "<p>Beräkna först de båda gångvägarna. Den vänstra är \\(r_1=2{,}0\\ \\mathrm m\\); den högra fås med Pythagoras sats.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Vägskillnad",
+      "Längsta våglängd",
+      "Näst längsta",
+      "Tredje längsta"
+    ],
+    "traningsniva": 4,
+    "miniräknare": true,
+    "svarVardesiffror": [
+      2,
+      2,
+      2,
+      2
     ]
   },
   {
@@ -12397,7 +12580,8 @@ window.BANK2 = [
     "ledtrad": "<p>Högtalarna ligger \\(7{,}0\\ \\mathrm m\\) på var sida om centrallinjen. Från A blir de vågräta avstånden \\(6{,}20\\ \\mathrm m\\) respektive \\(7{,}80\\ \\mathrm m\\).</p>",
     "familjTidigare": [
       "Interferens från flera källor"
-    ]
+    ],
+    "traningsniva": 4
   },
   {
     "id": "2.150",
@@ -12406,7 +12590,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(1/2/0)",
     "typ": "bestämma våglängd och frekvens ur läget för första minimum, ur figur, sökt frekvens",
-    "t": "<p>Två högtalare står 2,4 m från varandra och spelar samma ton i fas. En mikrofon flyttas längs en linje 4,0 m framför högtalarna. I mittpunkten M är ljudet starkast. Det första stället där ljudet försvinner ligger i punkten P, 0,42 m från M. Bestäm våglängden och frekvensen.</p><span class=\"fig smal\"><svg viewBox=\"5.480 5.594 310.137 204.983\" width=\"380\" height=\"251\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mikrofon som flyttas längs en linje framför två högtalare.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mikrofon som flyttas längs en linje framför två högtalare.</title><g transform=\"translate(16,-16.59)\"><rect x=\"47\" y=\"151\" width=\"30\" height=\"42\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"62\" cy=\"166.12\" r=\"9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"62\" cy=\"183.76\" r=\"3.9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><rect x=\"247\" y=\"151\" width=\"30\" height=\"42\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"262\" cy=\"166.12\" r=\"9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"262\" cy=\"183.76\" r=\"3.9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"56\" x2=\"292\" y2=\"56\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><line x1=\"162\" y1=\"56\" x2=\"162\" y2=\"148\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-dasharray=\"6 5\"/><circle cx=\"162\" cy=\"56\" r=\"5\" fill=\"#2B2527\"/><text x=\"150\" y=\"50\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">M</text><circle cx=\"214\" cy=\"56\" r=\"5\" fill=\"#B43123\"/><text x=\"224\" y=\"50\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">P</text><line x1=\"172\" y1=\"72\" x2=\"197.9\" y2=\"72\" stroke=\"#B43123\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"208,72 198.5,76.4 198.5,67.6\" fill=\"#B43123\"/><line x1=\"162\" y1=\"46\" x2=\"214\" y2=\"46\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"162\" y1=\"41\" x2=\"162\" y2=\"51\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"214\" y1=\"41\" x2=\"214\" y2=\"51\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"188\" y=\"37\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9.5\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">0,42 m</text><line x1=\"36\" y1=\"56\" x2=\"36\" y2=\"172\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"31\" y1=\"56\" x2=\"41\" y2=\"56\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"31\" y1=\"172\" x2=\"41\" y2=\"172\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"27\" y=\"118\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">4,0 m</text><line x1=\"62\" y1=\"204\" x2=\"262\" y2=\"204\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"62\" y1=\"199\" x2=\"62\" y2=\"209\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"262\" y1=\"199\" x2=\"262\" y2=\"209\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"162\" y=\"218\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">2,4 m</text></g></svg></span>",
+    "t": "<p>Två högtalare står 2,4 m från varandra och spelar samma ton i fas. En mikrofon flyttas längs en linje 4,0 m framför högtalarna. I mittpunkten M är ljudet starkast. Det första stället där ljudet försvinner ligger i punkten P, 0,42 m från M. Bestäm våglängden och frekvensen. (Svara i m och Hz.)</p><span class=\"fig smal\"><svg viewBox=\"5.480 5.594 310.137 204.983\" width=\"380\" height=\"251\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mikrofon som flyttas längs en linje framför två högtalare.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mikrofon som flyttas längs en linje framför två högtalare.</title><g transform=\"translate(16,-16.59)\"><rect x=\"47\" y=\"151\" width=\"30\" height=\"42\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"62\" cy=\"166.12\" r=\"9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"62\" cy=\"183.76\" r=\"3.9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><rect x=\"247\" y=\"151\" width=\"30\" height=\"42\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"262\" cy=\"166.12\" r=\"9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.6\"/><circle cx=\"262\" cy=\"183.76\" r=\"3.9\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"56\" x2=\"292\" y2=\"56\" stroke=\"#5C575E\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><line x1=\"162\" y1=\"56\" x2=\"162\" y2=\"148\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-linecap=\"round\" stroke-dasharray=\"6 5\"/><circle cx=\"162\" cy=\"56\" r=\"5\" fill=\"#2B2527\"/><text x=\"150\" y=\"50\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"12\" font-weight=\"700\" fill=\"#2B2527\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">M</text><circle cx=\"214\" cy=\"56\" r=\"5\" fill=\"#B43123\"/><text x=\"224\" y=\"50\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"12\" font-weight=\"700\" fill=\"#B43123\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">P</text><line x1=\"172\" y1=\"72\" x2=\"197.9\" y2=\"72\" stroke=\"#B43123\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"208,72 198.5,76.4 198.5,67.6\" fill=\"#B43123\"/><line x1=\"162\" y1=\"46\" x2=\"214\" y2=\"46\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"162\" y1=\"41\" x2=\"162\" y2=\"51\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"214\" y1=\"41\" x2=\"214\" y2=\"51\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"188\" y=\"37\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9.5\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">0,42 m</text><line x1=\"36\" y1=\"56\" x2=\"36\" y2=\"172\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"31\" y1=\"56\" x2=\"41\" y2=\"56\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"31\" y1=\"172\" x2=\"41\" y2=\"172\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"27\" y=\"118\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">4,0 m</text><line x1=\"62\" y1=\"204\" x2=\"262\" y2=\"204\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"62\" y1=\"199\" x2=\"62\" y2=\"209\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"262\" y1=\"199\" x2=\"262\" y2=\"209\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"162\" y=\"218\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">2,4 m</text></g></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Från P är de vågräta avstånden till högtalarna \\(1{,}2-0{,}42=0{,}78\\ \\mathrm m\\) och \\(1{,}2+0{,}42=1{,}62\\ \\mathrm m\\).</p></li><li><div class=\"facit-matte\">\\[r_1=\\sqrt{0{,}78^2+4{,}0^2}=4{,}075\\ \\mathrm m\\]\\[r_2=\\sqrt{1{,}62^2+4{,}0^2}=4{,}316\\ \\mathrm m\\]\\[\\Delta r=r_2-r_1=0{,}240\\ \\mathrm m\\]</div></li><li><div class=\"facit-berakning\"><p>Första minimum för källor i fas innebär</p><div class=\"facit-matte\">\\[\\Delta r=\\lambda/2\\].</div></div></li><li><div class=\"facit-matte\">\\[\\lambda=2\\Delta r=0{,}481\\ \\mathrm m\\]\\[f=\\frac{v}{\\lambda}=\\frac{340}{0{,}481}=707\\ \\mathrm{Hz}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Våglängden är cirka \\(0{,}48\\ \\mathrm m\\) och frekvensen cirka \\(710\\ \\mathrm{Hz}\\).</p></div>",
     "familj": "Bestämma våglängd och frekvens",
     "formaga": [
@@ -12414,14 +12598,39 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.4805182682817879,
+      707.5693525987143
+    ],
+    "tolerans": [
+      0.005,
+      7
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Från P är de vågräta avstånden till högtalarna \\(1{,}2-0{,}42=0{,}78\\ \\mathrm m\\) och \\(1{,}2+0{,}42=1{,}62\\ \\mathrm m\\).</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "m",
+      "Hz"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Våglängd",
+      "Frekvens"
+    ],
+    "traningsniva": 3,
+    "miniräknare": true,
+    "svarVardesiffror": [
+      2,
+      2
     ]
   },
   {
@@ -12439,14 +12648,34 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>C ligger på symmetrilinjen, så avstånden till högtalarna är lika.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "traningsniva": 1,
+    "miniräknare": true,
+    "alternativ": [
+      {
+        "txt": "Vägskillnaden är 0. I fas hörs ett maximum, i motfas ett minimum.",
+        "ratt": true
+      },
+      {
+        "txt": "Vägskillnaden är 0. I fas hörs ett minimum, i motfas ett maximum.",
+        "ratt": false
+      },
+      {
+        "txt": "Vägskillnaden är en halv våglängd. I fas hörs ett minimum.",
+        "ratt": false
+      },
+      {
+        "txt": "Vägskillnaden är 0. Maximum hörs i båda fallen.",
+        "ratt": false
+      }
     ]
   },
   {
@@ -12456,7 +12685,7 @@ window.BANK2 = [
     "niva": "E",
     "poang": "(2/0/0)",
     "typ": "avgöra maximum eller minimum ur vägskillnad för två högtalare i fas",
-    "t": "<p>På ett festivalområde spelar två synkroniserade högtalare samma ton i fas. Våglängden är 0,80 m. Avstånden från de två högtalarna till punkten P är 6,4 m respektive 7,2 m.</p><span class=\"fig bred\"><svg viewBox=\"1.886 19.486 436.229 185.429\" width=\"620\" height=\"264\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Festivalområde med två högtalare och en lyssnare med två markerade ljudvägar.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Festivalområde med två högtalare och en lyssnare med två markerade ljudvägar.</title><rect x=\"20\" y=\"158\" width=\"400\" height=\"10\" fill=\"#EDEEF1\"/><g transform=\"translate(75 130)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(75 55)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"350\" cy=\"105\" r=\"5\" fill=\"#B43123\"/><text x=\"362\" y=\"109\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">P</text><line x1=\"102\" y1=\"130\" x2=\"350\" y2=\"105\" stroke=\"#B43123\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"102\" y1=\"55\" x2=\"350\" y2=\"105\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"225\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">6,4 m</text><text x=\"225\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#2A5D9E\">7,2 m</text><text x=\"220\" y=\"195\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">festivalområde</text></svg></span><p>Hörs ett interferensmaximum eller ett interferensminimum i P? Motivera.</p>",
+    "t": "<p>På ett festivalområde spelar två synkroniserade högtalare samma ton i fas. Våglängden är 0,80 m. Avstånden från de två högtalarna till punkten P är 6,4 m respektive 7,2 m.</p><span class=\"fig bred\"><svg viewBox=\"1.886 19.486 436.229 185.429\" width=\"620\" height=\"264\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Festivalområde med två högtalare och en lyssnare med två markerade ljudvägar.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Festivalområde med två högtalare och en lyssnare med två markerade ljudvägar.</title><rect x=\"20\" y=\"158\" width=\"400\" height=\"10\" fill=\"#EDEEF1\"/><g transform=\"translate(75 130)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(75 55)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"350\" cy=\"105\" r=\"5\" fill=\"#B43123\"/><text x=\"362\" y=\"109\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">P</text><line x1=\"102\" y1=\"130\" x2=\"350\" y2=\"105\" stroke=\"#B43123\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"102\" y1=\"55\" x2=\"350\" y2=\"105\" stroke=\"#2A5D9E\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"225\" y=\"133\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">6,4 m</text><text x=\"225\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#2A5D9E\">7,2 m</text><text x=\"220\" y=\"195\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">festivalområde</text></svg></span><p>Hörs ett interferensmaximum eller ett interferensminimum i P?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna vägskillnaden.</p><div class=\"facit-matte\">\\[\\Delta r=7{,}2-6{,}4=0{,}80\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför med våglängden.</p><div class=\"facit-matte\">\\[\\Delta r=1\\lambda\\]</div><p>För källor i fas ger ett helt antal våglängder konstruktiv interferens.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> I P hörs ett maximum eftersom vägskillnaden är exakt en våglängd.</p></div>",
     "familj": "Maximum eller minimum ur vägskillnaden",
     "formaga": [
@@ -12464,14 +12693,26 @@ window.BANK2 = [
       "resonemang"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>För källor i fas ger ett helt antal våglängder konstruktiv interferens.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "traningsniva": 1,
+    "miniräknare": true,
+    "alternativ": [
+      {
+        "txt": "Interferensmaximum",
+        "ratt": true
+      },
+      {
+        "txt": "Interferensminimum",
+        "ratt": false
+      }
     ]
   },
   {
@@ -12535,7 +12776,8 @@ window.BANK2 = [
     "ledtrad": "<p>Det första minimumet för källor i fas uppstår när vägskillnaden är en halv våglängd.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
-    ]
+    ],
+    "traningsniva": 2
   },
   {
     "id": "2.154",
@@ -12544,7 +12786,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "resonera om aktiv bullerdämpning med källor i motfas",
-    "t": "<p>Ett system för aktiv bullerdämpning skapar ett motljud med samma frekvens och amplitud som fläktljudet, men i motfas. Det betyder att när fläktljudet skickar ut en vågtopp skickar högtalaren samtidigt ut en vågdal, och tvärtom. Ljudets våglängd är 0,60 m.</p><span class=\"fig bred\"><svg viewBox=\"4.400 66.000 431.200 98.686\" width=\"620\" height=\"142\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Principbild av aktiv bullerdämpning med huvudljud, motljud och en lyssnare.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Principbild av aktiv bullerdämpning med huvudljud, motljud och en lyssnare.</title><rect x=\"22\" y=\"150\" width=\"396\" height=\"9\" fill=\"#EDEEF1\"/><g transform=\"translate(75 98)\"><circle cx=\"0\" cy=\"0\" r=\"22\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M-8,-8 Q0,-18 8,-8 M-8,8 Q0,18 8,8\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\">fläkt</text></g><g transform=\"translate(185 98)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">motljud</text></g><g transform=\"translate(360 98)\"><path d=\"M2,-17 C-15,-17 -17,1 -8,8 C-2,13 -6,19 2,19 C10,19 11,10 8,5 C5,1 12,-3 8,-9 C6,-13 1,-12 -1,-8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\"/><path d=\"M-1,-7 C5,-8 7,-2 3,2 C0,5 0,9 3,11\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">öra</text></g><path d=\"M100 90 Q135 65 160 90 T220 90 T280 90 T335 90\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.3\"/><path d=\"M212 108 Q245 133 275 108 T335 108\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"/></svg></span><ol><li>Vad händer i en punkt som ligger lika långt från fläkten som från högtalaren?</li><li>Vad händer om motljudets väg i stället blir 0,30 m längre?</li></ol>",
+    "t": "<p>Ett system för aktiv bullerdämpning skapar ett motljud med samma frekvens och amplitud som fläktljudet, men i motfas. Det betyder att när fläktljudet skickar ut en vågtopp skickar högtalaren samtidigt ut en vågdal, och tvärtom. Ljudets våglängd är 0,60 m.</p><span class=\"fig bred\"><svg viewBox=\"4.400 66.000 431.200 98.686\" width=\"620\" height=\"142\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Principbild av aktiv bullerdämpning med huvudljud, motljud och en lyssnare.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Principbild av aktiv bullerdämpning med huvudljud, motljud och en lyssnare.</title><rect x=\"22\" y=\"150\" width=\"396\" height=\"9\" fill=\"#EDEEF1\"/><g transform=\"translate(75 98)\"><circle cx=\"0\" cy=\"0\" r=\"22\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M-8,-8 Q0,-18 8,-8 M-8,8 Q0,18 8,8\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\">fläkt</text></g><g transform=\"translate(185 98)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">motljud</text></g><g transform=\"translate(360 98)\"><path d=\"M2,-17 C-15,-17 -17,1 -8,8 C-2,13 -6,19 2,19 C10,19 11,10 8,5 C5,1 12,-3 8,-9 C6,-13 1,-12 -1,-8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\" stroke-linecap=\"round\"/><path d=\"M-1,-7 C5,-8 7,-2 3,2 C0,5 0,9 3,11\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><text x=\"0\" y=\"38\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">öra</text></g><path d=\"M100 90 Q135 65 160 90 T220 90 T280 90 T335 90\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.3\"/><path d=\"M212 108 Q245 133 275 108 T335 108\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"/></svg></span><ol><li>Vad händer i en punkt som ligger lika långt från fläkten som från högtalaren? (Svara med maximum eller minimum.)</li><li>Vad händer om motljudets väg i stället blir 0,30 m längre? (Svara med maximum eller minimum.)</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">När vägarna är lika långa kommer vågtoppen från det ena ljudet fram samtidigt som vågdalen från det andra.</p></li><li><p>Om ljuden har lika stor amplitud tar de ut varandra.</p></li><li><p>Lyssnaren befinner sig då i ett minimum.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Den extra vägen är en halv våglängd.</p></li><li><div class=\"facit-matte\">\\[\\Delta r=0{,}30\\ \\mathrm m=\\frac{\\lambda}{2}\\]</div></li><li><p>Under en halv våglängd byter en vågtopp plats med en vågdal.</p></li><li><p>Motljudet vänds därför en gång till, så de båda ljuden kommer fram med vågtoppar och vågdalar samtidigt och förstärker varandra.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lika långa vägar ger minimum. Om motljudets väg blir \\(0{,}30\\ \\mathrm m\\) längre blir det i stället maximum.</p></div>",
     "familj": "Maximum eller minimum ur vägskillnaden",
     "formaga": [
@@ -12552,17 +12794,23 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "minimum",
+      "maximum"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>När vägarna är lika långa kommer vågtoppen från det ena ljudet fram samtidigt som vågdalen från det andra.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett system för aktiv bullerdämpning skapar ett motljud med samma frekvens och amplitud som fläktljudet, men i motfas. Det betyder att när fläktljudet skickar ut en vågtopp skickar högtalaren samtidigt ut en vågdal, och tvärtom. Ljudets våglängd är 0,60 m.</p><span class=\"fig bred\"><svg aria-label=\"Principbild av aktiv bullerdämpning med huvudljud, motljud och en lyssnare.\" height=\"142\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"4.400 66.000 431.200 98.686\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Principbild av aktiv bullerdämpning med huvudljud, motljud och en lyssnare.</title><rect fill=\"#EDEEF1\" height=\"9\" width=\"396\" x=\"22\" y=\"150\"></rect><g transform=\"translate(75 98)\"><circle cx=\"0\" cy=\"0\" fill=\"#EDEEF1\" r=\"22\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><path d=\"M-8,-8 Q0,-18 8,-8 M-8,8 Q0,18 8,8\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"></path><text font-family=\"IBM Plex Mono\" font-size=\"10\" text-anchor=\"middle\" x=\"0\" y=\"39\">fläkt</text></g><g transform=\"translate(185 98)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">motljud</text></g><g transform=\"translate(360 98)\"><path d=\"M2,-17 C-15,-17 -17,1 -8,8 C-2,13 -6,19 2,19 C10,19 11,10 8,5 C5,1 12,-3 8,-9 C6,-13 1,-12 -1,-8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"2\"></path><path d=\"M-1,-7 C5,-8 7,-2 3,2 C0,5 0,9 3,11\" fill=\"none\" stroke=\"#9A959C\" stroke-linecap=\"round\" stroke-width=\"1.5\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"38\">öra</text></g><path d=\"M100 90 Q135 65 160 90 T220 90 T280 90 T335 90\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.3\"></path><path d=\"M212 108 Q245 133 275 108 T335 108\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"></path></svg></span><div class=\"spel-en-del\"><p>Vad händer i en punkt som ligger lika långt från fläkten som från högtalaren?</p></div>",
+        "t": "<p>Ett system för aktiv bullerdämpning skapar ett motljud med samma frekvens och amplitud som fläktljudet, men i motfas. Det betyder att när fläktljudet skickar ut en vågtopp skickar högtalaren samtidigt ut en vågdal, och tvärtom. Ljudets våglängd är 0,60 m.</p><span class=\"fig bred\"><svg aria-label=\"Principbild av aktiv bullerdämpning med huvudljud, motljud och en lyssnare.\" height=\"142\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"4.400 66.000 431.200 98.686\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Principbild av aktiv bullerdämpning med huvudljud, motljud och en lyssnare.</title><rect fill=\"#EDEEF1\" height=\"9\" width=\"396\" x=\"22\" y=\"150\"></rect><g transform=\"translate(75 98)\"><circle cx=\"0\" cy=\"0\" fill=\"#EDEEF1\" r=\"22\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><path d=\"M-8,-8 Q0,-18 8,-8 M-8,8 Q0,18 8,8\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"></path><text font-family=\"IBM Plex Mono\" font-size=\"10\" text-anchor=\"middle\" x=\"0\" y=\"39\">fläkt</text></g><g transform=\"translate(185 98)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">motljud</text></g><g transform=\"translate(360 98)\"><path d=\"M2,-17 C-15,-17 -17,1 -8,8 C-2,13 -6,19 2,19 C10,19 11,10 8,5 C5,1 12,-3 8,-9 C6,-13 1,-12 -1,-8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"2\"></path><path d=\"M-1,-7 C5,-8 7,-2 3,2 C0,5 0,9 3,11\" fill=\"none\" stroke=\"#9A959C\" stroke-linecap=\"round\" stroke-width=\"1.5\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"38\">öra</text></g><path d=\"M100 90 Q135 65 160 90 T220 90 T280 90 T335 90\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.3\"></path><path d=\"M212 108 Q245 133 275 108 T335 108\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"></path></svg></span><div class=\"spel-en-del\"><p>Vad händer i en punkt som ligger lika långt från fläkten som från högtalaren? (Svara med maximum eller minimum.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">När vägarna är lika långa kommer vågtoppen från det ena ljudet fram samtidigt som vågdalen från det andra.</p></li><li><p>Om ljuden har lika stor amplitud tar de ut varandra.</p></li><li><p>Lyssnaren befinner sig då i ett minimum.</p></li></ol></div></div>",
         "ledtrad": "<p>När vägarna är lika långa kommer vågtoppen från det ena ljudet fram samtidigt som vågdalen från det andra.</p>",
         "niva": "C",
@@ -12570,7 +12818,7 @@ window.BANK2 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Ett system för aktiv bullerdämpning skapar ett motljud med samma frekvens och amplitud som fläktljudet, men i motfas. Det betyder att när fläktljudet skickar ut en vågtopp skickar högtalaren samtidigt ut en vågdal, och tvärtom. Ljudets våglängd är 0,60 m.</p><span class=\"fig bred\"><svg aria-label=\"Principbild av aktiv bullerdämpning med huvudljud, motljud och en lyssnare.\" height=\"142\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"4.400 66.000 431.200 98.686\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Principbild av aktiv bullerdämpning med huvudljud, motljud och en lyssnare.</title><rect fill=\"#EDEEF1\" height=\"9\" width=\"396\" x=\"22\" y=\"150\"></rect><g transform=\"translate(75 98)\"><circle cx=\"0\" cy=\"0\" fill=\"#EDEEF1\" r=\"22\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><path d=\"M-8,-8 Q0,-18 8,-8 M-8,8 Q0,18 8,8\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"></path><text font-family=\"IBM Plex Mono\" font-size=\"10\" text-anchor=\"middle\" x=\"0\" y=\"39\">fläkt</text></g><g transform=\"translate(185 98)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">motljud</text></g><g transform=\"translate(360 98)\"><path d=\"M2,-17 C-15,-17 -17,1 -8,8 C-2,13 -6,19 2,19 C10,19 11,10 8,5 C5,1 12,-3 8,-9 C6,-13 1,-12 -1,-8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"2\"></path><path d=\"M-1,-7 C5,-8 7,-2 3,2 C0,5 0,9 3,11\" fill=\"none\" stroke=\"#9A959C\" stroke-linecap=\"round\" stroke-width=\"1.5\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"38\">öra</text></g><path d=\"M100 90 Q135 65 160 90 T220 90 T280 90 T335 90\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.3\"></path><path d=\"M212 108 Q245 133 275 108 T335 108\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"></path></svg></span><div class=\"spel-en-del\"><p>Vad händer om motljudets väg i stället blir 0,30 m längre?</p></div>",
+        "t": "<p>Ett system för aktiv bullerdämpning skapar ett motljud med samma frekvens och amplitud som fläktljudet, men i motfas. Det betyder att när fläktljudet skickar ut en vågtopp skickar högtalaren samtidigt ut en vågdal, och tvärtom. Ljudets våglängd är 0,60 m.</p><span class=\"fig bred\"><svg aria-label=\"Principbild av aktiv bullerdämpning med huvudljud, motljud och en lyssnare.\" height=\"142\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"4.400 66.000 431.200 98.686\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Principbild av aktiv bullerdämpning med huvudljud, motljud och en lyssnare.</title><rect fill=\"#EDEEF1\" height=\"9\" width=\"396\" x=\"22\" y=\"150\"></rect><g transform=\"translate(75 98)\"><circle cx=\"0\" cy=\"0\" fill=\"#EDEEF1\" r=\"22\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><path d=\"M-8,-8 Q0,-18 8,-8 M-8,8 Q0,18 8,8\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2\"></path><text font-family=\"IBM Plex Mono\" font-size=\"10\" text-anchor=\"middle\" x=\"0\" y=\"39\">fläkt</text></g><g transform=\"translate(185 98)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">motljud</text></g><g transform=\"translate(360 98)\"><path d=\"M2,-17 C-15,-17 -17,1 -8,8 C-2,13 -6,19 2,19 C10,19 11,10 8,5 C5,1 12,-3 8,-9 C6,-13 1,-12 -1,-8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-linecap=\"round\" stroke-width=\"2\"></path><path d=\"M-1,-7 C5,-8 7,-2 3,2 C0,5 0,9 3,11\" fill=\"none\" stroke=\"#9A959C\" stroke-linecap=\"round\" stroke-width=\"1.5\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"38\">öra</text></g><path d=\"M100 90 Q135 65 160 90 T220 90 T280 90 T335 90\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2.3\"></path><path d=\"M212 108 Q245 133 275 108 T335 108\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2.3\"></path></svg></span><div class=\"spel-en-del\"><p>Vad händer om motljudets väg i stället blir 0,30 m längre? (Svara med maximum eller minimum.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Den extra vägen är en halv våglängd.</p></li><li><div class=\"facit-matte\">\\[\\Delta r=0{,}30\\ \\mathrm m=\\frac{\\lambda}{2}\\]</div></li><li><p>Under en halv våglängd byter en vågtopp plats med en vågdal.</p></li><li><p>Motljudet vänds därför en gång till, så de båda ljuden kommer fram med vågtoppar och vågdalar samtidigt och förstärker varandra.</p></li></ol></div></div>",
         "ledtrad": "<p>När vägarna är lika långa kommer vågtoppen från det ena ljudet fram samtidigt som vågdalen från det andra.</p>",
         "niva": "C",
@@ -12579,7 +12827,22 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Interferens från flera källor"
-    ]
+    ],
+    "svarFormat": [
+      "text",
+      "text"
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Lika långa vägar",
+      "0,30 m längre väg"
+    ],
+    "traningsniva": 2,
+    "miniräknare": true
   },
   {
     "id": "2.155",
@@ -12588,7 +12851,7 @@ window.BANK2 = [
     "niva": "E",
     "poang": "(2/0/0)",
     "typ": "bestämma våglängd och frekvens från närliggande maximum och minimum",
-    "t": "<p>I en laboration flyttas en mikrofon från ett interferensmaximum till närmaste minimum. Under förflyttningen ändras vägskillnaden med 8,5 cm. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg viewBox=\"20.114 55.943 385.943 150.229\" width=\"620\" height=\"241\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Laborationsbana där en mikrofon flyttas från ett maximum till närmaste minimum.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Laborationsbana där en mikrofon flyttas från ett maximum till närmaste minimum.</title><g transform=\"translate(55 90)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(55 155)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><line x1=\"115\" y1=\"125\" x2=\"390\" y2=\"125\" stroke=\"#9A959C\" stroke-width=\"2\"/><line x1=\"250\" y1=\"115\" x2=\"250\" y2=\"135\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"335\" y1=\"115\" x2=\"335\" y2=\"135\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"250\" cy=\"125\" r=\"5\" fill=\"#B43123\"/><text x=\"250\" y=\"149\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">max</text><circle cx=\"335\" cy=\"125\" r=\"5\" fill=\"#B43123\"/><text x=\"335\" y=\"149\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\">min</text><line x1=\"250\" y1=\"170\" x2=\"335\" y2=\"170\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"250\" y1=\"164\" x2=\"250\" y2=\"176\" stroke=\"#5C575E\"/><line x1=\"335\" y1=\"164\" x2=\"335\" y2=\"176\" stroke=\"#5C575E\"/><text x=\"292\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">vägskillnaden ändras 8,5 cm</text></svg></span><p>Bestäm tonens våglängd och frekvens.</p>",
+    "t": "<p>I en laboration flyttas en mikrofon från ett interferensmaximum till närmaste minimum. Under förflyttningen ändras vägskillnaden med 8,5 cm. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg viewBox=\"20.114 55.943 385.943 150.229\" width=\"620\" height=\"241\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Laborationsbana där en mikrofon flyttas från ett maximum till närmaste minimum.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Laborationsbana där en mikrofon flyttas från ett maximum till närmaste minimum.</title><g transform=\"translate(55 90)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(55 155)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><line x1=\"115\" y1=\"125\" x2=\"390\" y2=\"125\" stroke=\"#9A959C\" stroke-width=\"2\"/><line x1=\"250\" y1=\"115\" x2=\"250\" y2=\"135\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"335\" y1=\"115\" x2=\"335\" y2=\"135\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"250\" cy=\"125\" r=\"5\" fill=\"#B43123\"/><text x=\"250\" y=\"149\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\">max</text><circle cx=\"335\" cy=\"125\" r=\"5\" fill=\"#B43123\"/><text x=\"335\" y=\"149\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\">min</text><line x1=\"250\" y1=\"170\" x2=\"335\" y2=\"170\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><line x1=\"250\" y1=\"164\" x2=\"250\" y2=\"176\" stroke=\"#5C575E\"/><line x1=\"335\" y1=\"164\" x2=\"335\" y2=\"176\" stroke=\"#5C575E\"/><text x=\"292\" y=\"190\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">vägskillnaden ändras 8,5 cm</text></svg></span><p>Bestäm tonens våglängd och frekvens. (Svara i m och Hz.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Mellan ett maximum och närmaste minimum ändras vägskillnaden med en halv våglängd.</p><div class=\"facit-matte\">\\[\\frac{\\lambda}{2}=8{,}5\\ \\mathrm{cm}\\quad\\Rightarrow\\quad\\lambda=17{,}0\\ \\mathrm{cm}=0{,}170\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna frekvensen.</p><div class=\"facit-matte\">\\[f=\\frac{v}{\\lambda}=\\frac{340}{0{,}170}=2{,}00\\cdot10^3\\ \\mathrm{Hz}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Våglängden är \\(0{,}170\\ \\mathrm m\\) och frekvensen \\(2{,}00\\ \\mathrm{kHz}\\).</p></div>",
     "familj": "Bestämma våglängd och frekvens",
     "formaga": [
@@ -12596,14 +12859,39 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.17,
+      2000
+    ],
+    "tolerans": [
+      0.002,
+      20
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Mellan ett maximum och närmaste minimum ändras vägskillnaden med en halv våglängd.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "m",
+      "Hz"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Våglängd",
+      "Frekvens"
+    ],
+    "traningsniva": 2,
+    "miniräknare": true,
+    "svarVardesiffror": [
+      2,
+      2
     ]
   },
   {
@@ -12621,14 +12909,26 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Beräkna vägskillnaden. För källor i fas ger heltalsmultiplar av \\(\\lambda\\) maximum och halvtalsmultiplar minimum; för gitter kan du använda \\(d\\sin\\theta=m\\lambda\\).</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "traningsniva": 1,
+    "miniräknare": true,
+    "alternativ": [
+      {
+        "txt": "Försvagat, P ligger i ett minimum",
+        "ratt": true
+      },
+      {
+        "txt": "Förstärkt, P ligger i ett maximum",
+        "ratt": false
+      }
     ]
   },
   {
@@ -12638,7 +12938,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "beräkna vägskillnad med Pythagoras och avgöra ljudminimum",
-    "t": "<p>I en teatersalong står två högtalare 3,0 m från varandra och spelar i fas med frekvensen 510 Hz. Platsen P ligger 4,0 m rakt framför den vänstra högtalaren.</p><span class=\"fig\"><svg viewBox=\"31.429 40.214 348.229 188.503\" width=\"500\" height=\"271\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Teatersalong med två högtalare tre meter från varandra och en plats fyra meter framför den vänstra.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Teatersalong med två högtalare tre meter från varandra och en plats fyra meter framför den vänstra.</title><g transform=\"translate(75 165)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(315 165)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"75\" cy=\"55\" r=\"5\" fill=\"#B43123\"/><text x=\"87\" y=\"59\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">P</text><line x1=\"75\" y1=\"55\" x2=\"75\" y2=\"140\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><line x1=\"75\" y1=\"55\" x2=\"315\" y2=\"165\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"75\" y1=\"202\" x2=\"315\" y2=\"202\" stroke=\"#5C575E\"/><line x1=\"75\" y1=\"196\" x2=\"75\" y2=\"208\" stroke=\"#5C575E\"/><line x1=\"315\" y1=\"196\" x2=\"315\" y2=\"208\" stroke=\"#5C575E\"/><text x=\"195\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">3,0 m</text><text x=\"54\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#2A5D9E\" transform=\"rotate(-90 54 112)\">4,0 m</text><text x=\"220\" y=\"100\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">r₂</text></svg></span><ol><li>Bestäm avståndet från varje högtalare till P och skillnaden mellan avstånden.</li><li>Avgör om P ligger i ett maximum eller minimum.</li></ol>",
+    "t": "<p>I en teatersalong står två högtalare 3,0 m från varandra och spelar i fas med frekvensen 510 Hz. Platsen P ligger 4,0 m rakt framför den vänstra högtalaren.</p><span class=\"fig\"><svg viewBox=\"31.429 40.214 348.229 188.503\" width=\"500\" height=\"271\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Teatersalong med två högtalare tre meter från varandra och en plats fyra meter framför den vänstra.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Teatersalong med två högtalare tre meter från varandra och en plats fyra meter framför den vänstra.</title><g transform=\"translate(75 165)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(315 165)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"75\" cy=\"55\" r=\"5\" fill=\"#B43123\"/><text x=\"87\" y=\"59\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">P</text><line x1=\"75\" y1=\"55\" x2=\"75\" y2=\"140\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><line x1=\"75\" y1=\"55\" x2=\"315\" y2=\"165\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"75\" y1=\"202\" x2=\"315\" y2=\"202\" stroke=\"#5C575E\"/><line x1=\"75\" y1=\"196\" x2=\"75\" y2=\"208\" stroke=\"#5C575E\"/><line x1=\"315\" y1=\"196\" x2=\"315\" y2=\"208\" stroke=\"#5C575E\"/><text x=\"195\" y=\"218\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">3,0 m</text><text x=\"54\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#2A5D9E\" transform=\"rotate(-90 54 112)\">4,0 m</text><text x=\"220\" y=\"100\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">r₂</text></svg></span><ol><li>Bestäm avståndet från varje högtalare till P och skillnaden mellan avstånden. (Svara i m.)</li><li>Avgör om P ligger i ett maximum eller minimum. (Svara med maximum eller minimum.)</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Den korta vägen är given.</p><p class=\"facit-metod\">Den andra är hypotenusan i en rätvinklig triangel.</p><div class=\"facit-matte\">\\[r_1=4{,}0\\ \\mathrm m\\]\\[r_2=\\sqrt{4{,}0^2+3{,}0^2}=5{,}0\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vägskillnaden och våglängden blir</p><div class=\"facit-matte\">\\[\\Delta r=5{,}0-4{,}0=1{,}0\\ \\mathrm m\\]\\[\\lambda=\\frac{340}{510}=0{,}667\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför vägskillnaden med våglängden.</p><div class=\"facit-matte\">\\[\\Delta r=1{,}5\\lambda\\]</div><p>För källor i fas är detta destruktiv interferens.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ljudvägarna är \\(4{,}0\\ \\mathrm m\\) och \\(5{,}0\\ \\mathrm m\\). P ligger i ett minimum.</p></div>",
     "familj": "Vägskillnad med Pythagoras sats",
     "formaga": [
@@ -12646,25 +12946,45 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        4.0,
+        5.0,
+        1.0
+      ],
+      "minimum"
+    ],
+    "tolerans": [
+      [
+        0.05,
+        0.05,
+        0.05
+      ],
+      null
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Den korta vägen är given. Den andra är hypotenusan i en rätvinklig triangel.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>I en teatersalong står två högtalare 3,0 m från varandra och spelar i fas med frekvensen 510 Hz. Platsen P ligger 4,0 m rakt framför den vänstra högtalaren.</p><span class=\"fig\"><svg aria-label=\"Teatersalong med två högtalare tre meter från varandra och en plats fyra meter framför den vänstra.\" height=\"271\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"31.429 40.214 348.229 188.503\" width=\"500\" xmlns=\"http://www.w3.org/2000/svg\"><title>Teatersalong med två högtalare tre meter från varandra och en plats fyra meter framför den vänstra.</title><g transform=\"translate(75 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₁</text></g><g transform=\"translate(315 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₂</text></g><circle cx=\"75\" cy=\"55\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"start\" x=\"87\" y=\"59\">P</text><line stroke=\"#2A5D9E\" stroke-width=\"2\" x1=\"75\" x2=\"75\" y1=\"55\" y2=\"140\"></line><line stroke=\"#B43123\" stroke-width=\"2\" x1=\"75\" x2=\"315\" y1=\"55\" y2=\"165\"></line><line stroke=\"#5C575E\" x1=\"75\" x2=\"315\" y1=\"202\" y2=\"202\"></line><line stroke=\"#5C575E\" x1=\"75\" x2=\"75\" y1=\"196\" y2=\"208\"></line><line stroke=\"#5C575E\" x1=\"315\" x2=\"315\" y1=\"196\" y2=\"208\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" x=\"195\" y=\"218\">3,0 m</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" transform=\"rotate(-90 54 112)\" x=\"54\" y=\"112\">4,0 m</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"220\" y=\"100\">r₂</text></svg></span><div class=\"spel-en-del\"><p>Bestäm avståndet från varje högtalare till P och skillnaden mellan avstånden.</p></div>",
+        "t": "<p>I en teatersalong står två högtalare 3,0 m från varandra och spelar i fas med frekvensen 510 Hz. Platsen P ligger 4,0 m rakt framför den vänstra högtalaren.</p><span class=\"fig\"><svg aria-label=\"Teatersalong med två högtalare tre meter från varandra och en plats fyra meter framför den vänstra.\" height=\"271\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"31.429 40.214 348.229 188.503\" width=\"500\" xmlns=\"http://www.w3.org/2000/svg\"><title>Teatersalong med två högtalare tre meter från varandra och en plats fyra meter framför den vänstra.</title><g transform=\"translate(75 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₁</text></g><g transform=\"translate(315 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₂</text></g><circle cx=\"75\" cy=\"55\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"start\" x=\"87\" y=\"59\">P</text><line stroke=\"#2A5D9E\" stroke-width=\"2\" x1=\"75\" x2=\"75\" y1=\"55\" y2=\"140\"></line><line stroke=\"#B43123\" stroke-width=\"2\" x1=\"75\" x2=\"315\" y1=\"55\" y2=\"165\"></line><line stroke=\"#5C575E\" x1=\"75\" x2=\"315\" y1=\"202\" y2=\"202\"></line><line stroke=\"#5C575E\" x1=\"75\" x2=\"75\" y1=\"196\" y2=\"208\"></line><line stroke=\"#5C575E\" x1=\"315\" x2=\"315\" y1=\"196\" y2=\"208\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" x=\"195\" y=\"218\">3,0 m</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" transform=\"rotate(-90 54 112)\" x=\"54\" y=\"112\">4,0 m</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"220\" y=\"100\">r₂</text></svg></span><div class=\"spel-en-del\"><p>Bestäm avståndet från varje högtalare till P och skillnaden mellan avstånden. (Svara i m.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_1=4{,}0\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[r_2=\\sqrt{4{,}0^2+3{,}0^2}=5{,}0\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta r=5{,}0-4{,}0=1{,}0\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ljudvägarna är 4,0 m och 5,0 m; vägskillnaden är 1,0 m.</p></div></div>",
         "ledtrad": "<p>Den korta vägen är given. Den andra är hypotenusan i en rätvinklig triangel.</p>",
         "niva": "C",
-        "poang": "0/1/0"
+        "poang": "0/1/0",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Till vänster högtalare",
+          "Till höger högtalare",
+          "Skillnad"
+        ]
       },
       {
         "etikett": "b",
-        "t": "<p>I en teatersalong står två högtalare 3,0 m från varandra och spelar i fas med frekvensen 510 Hz. Platsen P ligger 4,0 m rakt framför den vänstra högtalaren.</p><span class=\"fig\"><svg aria-label=\"Teatersalong med två högtalare tre meter från varandra och en plats fyra meter framför den vänstra.\" height=\"271\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"31.429 40.214 348.229 188.503\" width=\"500\" xmlns=\"http://www.w3.org/2000/svg\"><title>Teatersalong med två högtalare tre meter från varandra och en plats fyra meter framför den vänstra.</title><g transform=\"translate(75 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₁</text></g><g transform=\"translate(315 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₂</text></g><circle cx=\"75\" cy=\"55\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"start\" x=\"87\" y=\"59\">P</text><line stroke=\"#2A5D9E\" stroke-width=\"2\" x1=\"75\" x2=\"75\" y1=\"55\" y2=\"140\"></line><line stroke=\"#B43123\" stroke-width=\"2\" x1=\"75\" x2=\"315\" y1=\"55\" y2=\"165\"></line><line stroke=\"#5C575E\" x1=\"75\" x2=\"315\" y1=\"202\" y2=\"202\"></line><line stroke=\"#5C575E\" x1=\"75\" x2=\"75\" y1=\"196\" y2=\"208\"></line><line stroke=\"#5C575E\" x1=\"315\" x2=\"315\" y1=\"196\" y2=\"208\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" x=\"195\" y=\"218\">3,0 m</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" transform=\"rotate(-90 54 112)\" x=\"54\" y=\"112\">4,0 m</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"220\" y=\"100\">r₂</text></svg></span><div class=\"spel-en-del\"><p>Avgör om P ligger i ett maximum eller minimum.</p></div>",
+        "t": "<p>I en teatersalong står två högtalare 3,0 m från varandra och spelar i fas med frekvensen 510 Hz. Platsen P ligger 4,0 m rakt framför den vänstra högtalaren.</p><span class=\"fig\"><svg aria-label=\"Teatersalong med två högtalare tre meter från varandra och en plats fyra meter framför den vänstra.\" height=\"271\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"31.429 40.214 348.229 188.503\" width=\"500\" xmlns=\"http://www.w3.org/2000/svg\"><title>Teatersalong med två högtalare tre meter från varandra och en plats fyra meter framför den vänstra.</title><g transform=\"translate(75 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₁</text></g><g transform=\"translate(315 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₂</text></g><circle cx=\"75\" cy=\"55\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"start\" x=\"87\" y=\"59\">P</text><line stroke=\"#2A5D9E\" stroke-width=\"2\" x1=\"75\" x2=\"75\" y1=\"55\" y2=\"140\"></line><line stroke=\"#B43123\" stroke-width=\"2\" x1=\"75\" x2=\"315\" y1=\"55\" y2=\"165\"></line><line stroke=\"#5C575E\" x1=\"75\" x2=\"315\" y1=\"202\" y2=\"202\"></line><line stroke=\"#5C575E\" x1=\"75\" x2=\"75\" y1=\"196\" y2=\"208\"></line><line stroke=\"#5C575E\" x1=\"315\" x2=\"315\" y1=\"196\" y2=\"208\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" x=\"195\" y=\"218\">3,0 m</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" transform=\"rotate(-90 54 112)\" x=\"54\" y=\"112\">4,0 m</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"220\" y=\"100\">r₂</text></svg></span><div class=\"spel-en-del\"><p>Avgör om P ligger i ett maximum eller minimum. (Svara med maximum eller minimum.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\lambda=\\frac{340}{510}=0{,}667\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta r=1{,}5\\lambda\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\Delta r=1{,}5\\lambda\\), vilket ger destruktiv interferens för källor i fas. P ligger i ett minimum.</p></div></div>",
         "ledtrad": "<p>Den korta vägen är given. Den andra är hypotenusan i en rätvinklig triangel.</p>",
         "niva": "C",
@@ -12673,7 +12993,30 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Interferens från flera källor"
-    ]
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt",
+        "numeriskt"
+      ],
+      "text"
+    ],
+    "svarEnhet": [
+      [
+        "m",
+        "m",
+        "m"
+      ],
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Avstånd och skillnad",
+      "Maximum eller minimum"
+    ],
+    "traningsniva": 2,
+    "miniräknare": true
   },
   {
     "id": "2.158",
@@ -12682,7 +13025,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "bestämma frekvens ur geometrisk vägskillnad och maximumordning",
-    "t": "<p>Två vågkällor i en hamnbassäng står 2,4 m från varandra och svänger i fas. Punkten P ligger 1,8 m rakt framför den vänstra källan. I P observeras maximum av ordning 2, alltså Δr = 2λ. Våghastigheten är 0,48 m/s.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 220\" width=\"620\" height=\"310\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vågbassäng med två källor 2,4 meter från varandra och en mätpunkt 1,8 meter framför den ena.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Vågbassäng med två källor 2,4 meter från varandra och en mätpunkt 1,8 meter framför den ena.</title><rect x=\"20\" y=\"20\" width=\"400\" height=\"190\" rx=\"8\" fill=\"#DCE6F2\" stroke=\"#2A5D9E\" stroke-width=\"1.5\"/><circle cx=\"85\" cy=\"175\" r=\"7\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"325\" cy=\"175\" r=\"7\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"85\" cy=\"55\" r=\"6\" fill=\"#B43123\"/><line x1=\"85\" y1=\"55\" x2=\"85\" y2=\"175\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"85\" y1=\"55\" x2=\"325\" y2=\"175\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"64\" y=\"118\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">1,8 m</text><text x=\"205\" y=\"202\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">2,4 m</text><text x=\"96\" y=\"50\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">P</text><text x=\"68\" y=\"192\" font-family=\"IBM Plex Mono\" font-size=\"11\">K₁</text><text x=\"331\" y=\"192\" font-family=\"IBM Plex Mono\" font-size=\"11\">K₂</text></svg></span><p>Bestäm våglängden och frekvensen.</p>",
+    "t": "<p>Två vågkällor i en hamnbassäng står 2,4 m från varandra och svänger i fas. Punkten P ligger 1,8 m rakt framför den vänstra källan. I P observeras maximum av ordning 2, alltså Δr = 2λ. Våghastigheten är 0,48 m/s.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 220\" width=\"620\" height=\"310\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Vågbassäng med två källor 2,4 meter från varandra och en mätpunkt 1,8 meter framför den ena.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Vågbassäng med två källor 2,4 meter från varandra och en mätpunkt 1,8 meter framför den ena.</title><rect x=\"20\" y=\"20\" width=\"400\" height=\"190\" rx=\"8\" fill=\"#DCE6F2\" stroke=\"#2A5D9E\" stroke-width=\"1.5\"/><circle cx=\"85\" cy=\"175\" r=\"7\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"325\" cy=\"175\" r=\"7\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"85\" cy=\"55\" r=\"6\" fill=\"#B43123\"/><line x1=\"85\" y1=\"55\" x2=\"85\" y2=\"175\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"85\" y1=\"55\" x2=\"325\" y2=\"175\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"64\" y=\"118\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">1,8 m</text><text x=\"205\" y=\"202\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">2,4 m</text><text x=\"96\" y=\"50\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">P</text><text x=\"68\" y=\"192\" font-family=\"IBM Plex Mono\" font-size=\"11\">K₁</text><text x=\"331\" y=\"192\" font-family=\"IBM Plex Mono\" font-size=\"11\">K₂</text></svg></span><p>Bestäm våglängden och frekvensen. (Svara i m och Hz.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna vägen från den högra källan med Pythagoras sats.</p><div class=\"facit-matte\">\\[r_1=1{,}8\\ \\mathrm m\\]\\[r_2=\\sqrt{1{,}8^2+2{,}4^2}=3{,}0\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vägskillnaden är</p><div class=\"facit-matte\">\\[\\Delta r=3{,}0-1{,}8=1{,}2\\ \\mathrm m=2\\lambda\\quad\\Rightarrow\\quad\\lambda=0{,}60\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd vågekvationen.</p><div class=\"facit-matte\">\\[f=\\frac{0{,}48}{0{,}60}=0{,}80\\ \\mathrm{Hz}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Våglängden är \\(0{,}60\\ \\mathrm m\\) och frekvensen \\(0{,}80\\ \\mathrm{Hz}\\).</p></div>",
     "familj": "Bestämma våglängd och frekvens",
     "formaga": [
@@ -12690,14 +13033,39 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.6,
+      0.8
+    ],
+    "tolerans": [
+      0.006,
+      0.008
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Beräkna vägen från den högra källan med Pythagoras sats. Beräkna vägskillnaden.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "m",
+      "Hz"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Våglängd",
+      "Frekvens"
+    ],
+    "traningsniva": 3,
+    "miniräknare": true,
+    "svarVardesiffror": [
+      2,
+      2
     ]
   },
   {
@@ -12707,7 +13075,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "bestämma alla frekvenser i ett intervall som ger interferensmaximum",
-    "t": "<p>Två högtalare på en idrottsarena står 6,0 m från varandra och spelar i fas. Mätpunkten P ligger 8,0 m rakt framför den vänstra högtalaren. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg viewBox=\"1.257 30.164 437.486 194.809\" width=\"620\" height=\"276\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Idrottsarena med två högtalare sex meter från varandra och en mätpunkt åtta meter framför den ena.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Idrottsarena med två högtalare sex meter från varandra och en mätpunkt åtta meter framför den ena.</title><path d=\"M20 190 Q220 150 420 190\" fill=\"#E8EDF5\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(80 165)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(320 165)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"80\" cy=\"45\" r=\"5\" fill=\"#B43123\"/><text x=\"92\" y=\"49\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">P</text><line x1=\"80\" y1=\"45\" x2=\"80\" y2=\"140\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"80\" y1=\"45\" x2=\"320\" y2=\"165\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"58\" y=\"112\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">8,0 m</text><text x=\"202\" y=\"116\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#2A5D9E\">10,0 m</text><text x=\"200\" y=\"213\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">6,0 m mellan högtalarna</text></svg></span><p>Bestäm alla frekvenser mellan 300 Hz och 1000 Hz som ger ett maximum i P.</p>",
+    "t": "<p>Två högtalare på en idrottsarena står 6,0 m från varandra och spelar i fas. Mätpunkten P ligger 8,0 m rakt framför den vänstra högtalaren. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg viewBox=\"1.257 30.164 437.486 194.809\" width=\"620\" height=\"276\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Idrottsarena med två högtalare sex meter från varandra och en mätpunkt åtta meter framför den ena.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Idrottsarena med två högtalare sex meter från varandra och en mätpunkt åtta meter framför den ena.</title><path d=\"M20 190 Q220 150 420 190\" fill=\"#E8EDF5\" stroke=\"#2B2527\" stroke-width=\"2\"/><g transform=\"translate(80 165)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(320 165)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"80\" cy=\"45\" r=\"5\" fill=\"#B43123\"/><text x=\"92\" y=\"49\" text-anchor=\"start\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">P</text><line x1=\"80\" y1=\"45\" x2=\"80\" y2=\"140\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"80\" y1=\"45\" x2=\"320\" y2=\"165\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"58\" y=\"112\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">8,0 m</text><text x=\"202\" y=\"116\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#2A5D9E\">10,0 m</text><text x=\"200\" y=\"213\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">6,0 m mellan högtalarna</text></svg></span><p>Bestäm alla frekvenser mellan 300 Hz och 1000 Hz som ger ett maximum i P. (Svara i Hz.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Avståndet från den högra högtalaren till P fås med Pythagoras sats.</p><div class=\"facit-matte\">\\[r_1=8{,}0\\ \\mathrm m,\\qquad r_2=\\sqrt{8{,}0^2+6{,}0^2}=10{,}0\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid maximum för källor i fas gäller</p><div class=\"facit-matte\">\\[\\Delta r=2{,}0\\ \\mathrm m=n\\lambda=n\\frac{v}{f}\\quad\\Rightarrow\\quad f=\\frac{nv}{\\Delta r}=170n\\ \\mathrm{Hz}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Välj heltal som ger frekvenser i intervallet.</p><div class=\"facit-matte\">\\[n=2,3,4,5\\]</div><p>Nästa värde, n=6, ger 1020 Hz och ligger utanför intervallet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Frekvenserna är \\(340\\), \\(510\\), \\(680\\) och \\(850\\ \\mathrm{Hz}\\).</p></div>",
     "familj": "Bestämma våglängd och frekvens",
     "formaga": [
@@ -12715,15 +13083,46 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      340,
+      510,
+      680,
+      850
+    ],
+    "tolerans": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Avståndet från den högra högtalaren till P fås med Pythagoras sats. Beräkna vägskillnaden.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "Hz",
+      "Hz",
+      "Hz"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "Frekvens",
+      "Frekvens",
+      "Frekvens",
+      "Frekvens"
+    ],
+    "traningsniva": 3,
+    "miniräknare": true
   },
   {
     "id": "2.160",
@@ -12732,7 +13131,7 @@ window.BANK2 = [
     "niva": "A",
     "poang": "(2/2/2)",
     "typ": "bestämma källornas fas och frekvens ur centralminimum och andra maximumlinjen",
-    "t": "<p>Två sirener i ett varningssystem står 6,0 m från varandra och sänder samma ton. På centrallinjen Q är ljudet minimalt. Punkten P ligger 8,0 m rakt framför den vänstra sirenen och befinner sig på den andra maximumlinjen räknat från centrallinjen. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg viewBox=\"1.886 23.249 436.229 207.353\" width=\"620\" height=\"295\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.</title><rect x=\"20\" y=\"190\" width=\"400\" height=\"10\" fill=\"#EDEEF1\"/><g transform=\"translate(75 165)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(315 165)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"195\" cy=\"45\" r=\"5\" fill=\"#B43123\"/><text x=\"183\" y=\"42\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">Q</text><circle cx=\"75\" cy=\"65\" r=\"5\" fill=\"#B43123\"/><text x=\"63\" y=\"62\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">P</text><line x1=\"75\" y1=\"65\" x2=\"75\" y2=\"140\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"75\" y1=\"65\" x2=\"315\" y2=\"165\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><line x1=\"195\" y1=\"45\" x2=\"75\" y2=\"165\" stroke=\"#9A959C\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"195\" y1=\"45\" x2=\"315\" y2=\"165\" stroke=\"#9A959C\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"90\" y=\"56\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">2:a maximum</text><text x=\"210\" y=\"42\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">minimum</text><text x=\"47\" y=\"125\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">8,0 m</text><text x=\"206\" y=\"107\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#2A5D9E\">10,0 m</text><text x=\"195\" y=\"219\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">6,0 m</text></svg></span><ol><li>Är sirenerna i fas eller i motfas?</li><li>Bestäm tonens frekvens.</li><li>Blir en punkt med vägskillnaden 4,0 m ett maximum eller minimum?</li></ol>",
+    "t": "<p>Två sirener i ett varningssystem står 6,0 m från varandra och sänder samma ton. På centrallinjen Q är ljudet minimalt. Punkten P ligger 8,0 m rakt framför den vänstra sirenen och befinner sig på den andra maximumlinjen räknat från centrallinjen. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg viewBox=\"1.886 23.249 436.229 207.353\" width=\"620\" height=\"295\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.</title><rect x=\"20\" y=\"190\" width=\"400\" height=\"10\" fill=\"#EDEEF1\"/><g transform=\"translate(75 165)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(315 165)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"195\" cy=\"45\" r=\"5\" fill=\"#B43123\"/><text x=\"183\" y=\"42\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">Q</text><circle cx=\"75\" cy=\"65\" r=\"5\" fill=\"#B43123\"/><text x=\"63\" y=\"62\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">P</text><line x1=\"75\" y1=\"65\" x2=\"75\" y2=\"140\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"75\" y1=\"65\" x2=\"315\" y2=\"165\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><line x1=\"195\" y1=\"45\" x2=\"75\" y2=\"165\" stroke=\"#9A959C\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><line x1=\"195\" y1=\"45\" x2=\"315\" y2=\"165\" stroke=\"#9A959C\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"90\" y=\"56\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">2:a maximum</text><text x=\"210\" y=\"42\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">minimum</text><text x=\"47\" y=\"125\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#B43123\">8,0 m</text><text x=\"206\" y=\"107\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#2A5D9E\">10,0 m</text><text x=\"195\" y=\"219\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" fill=\"#5C575E\">6,0 m</text></svg></span><ol><li>Är sirenerna i fas eller i motfas? (Svara ”i fas” eller ”motfas”.)</li><li>Bestäm tonens frekvens. (Svara i Hz.)</li><li>Blir en punkt med vägskillnaden 4,0 m ett maximum eller minimum? (Svara med maximum eller minimum.)</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">På centrallinjen är vägskillnaden noll.</p><p class=\"facit-metod\">Ett minimum där innebär att källorna är i motfas.</p><div class=\"facit-matte\">\\[\\Delta r_Q=0\\quad\\Rightarrow\\quad\\Delta\\phi_0=\\pi\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna avståndet från varje siren till P.</p><div class=\"facit-matte\">\\[r_1=8{,}0\\ \\mathrm m\\]\\[r_2=\\sqrt{8{,}0^2+6{,}0^2}=10{,}0\\ \\mathrm m\\]\\[\\Delta r_P=2{,}0\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För motfaskällor ligger den första maximumlinjen vid λ/2 och den andra vid 3λ/2.</p><div class=\"facit-matte\">\\[2{,}0=\\frac{3\\lambda}{2}\\quad\\Rightarrow\\quad\\lambda=1{,}333\\ \\mathrm m\\]\\[f=\\frac{340}{1{,}333}=255\\ \\mathrm{Hz}\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">4</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Vid vägskillnaden 4,0 m gäller</p><div class=\"facit-matte\">\\[\\Delta r=4{,}0\\ \\mathrm m=3\\lambda\\]</div><p>För källor i motfas ger ett helt antal våglängder ett minimum.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Sirenerna är i motfas och frekvensen är \\(255\\ \\mathrm{Hz}\\). En vägskillnad på \\(4{,}0\\ \\mathrm m\\) ger minimum.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Att centrallinjen är ett minimum trots noll vägskillnad avslöjar direkt att källorna är i motfas.</p></li><li><p class=\"facit-not\">Därefter måste maximum- och minimumvillkoren skrivas för motfas, inte för de vanligare källorna i fas.</p></li></ol></div>",
     "familj": "Bestämma våglängd och frekvens",
     "formaga": [
@@ -12740,17 +13139,25 @@ window.BANK2 = [
       "resonemang"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "motfas",
+      255,
+      "minimum"
+    ],
+    "tolerans": [
+      null,
+      3.8,
+      null
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>På centrallinjen är vägskillnaden noll. Ett minimum där innebär att källorna är i motfas.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Två sirener i ett varningssystem står 6,0 m från varandra och sänder samma ton. På centrallinjen Q är ljudet minimalt. Punkten P ligger 8,0 m rakt framför den vänstra sirenen och befinner sig på den andra maximumlinjen räknat från centrallinjen. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg aria-label=\"Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.\" height=\"295\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"1.886 23.249 436.229 207.353\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.</title><rect fill=\"#EDEEF1\" height=\"10\" width=\"400\" x=\"20\" y=\"190\"></rect><g transform=\"translate(75 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₁</text></g><g transform=\"translate(315 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₂</text></g><circle cx=\"195\" cy=\"45\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"end\" x=\"183\" y=\"42\">Q</text><circle cx=\"75\" cy=\"65\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"end\" x=\"63\" y=\"62\">P</text><line stroke=\"#B43123\" stroke-width=\"2\" x1=\"75\" x2=\"75\" y1=\"65\" y2=\"140\"></line><line stroke=\"#2A5D9E\" stroke-width=\"2\" x1=\"75\" x2=\"315\" y1=\"65\" y2=\"165\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"195\" x2=\"75\" y1=\"45\" y2=\"165\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"195\" x2=\"315\" y1=\"45\" y2=\"165\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"90\" y=\"56\">2:a maximum</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"210\" y=\"42\">minimum</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"47\" y=\"125\">8,0 m</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"206\" y=\"107\">10,0 m</text><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" x=\"195\" y=\"219\">6,0 m</text></svg></span><div class=\"spel-en-del\"><p>Är sirenerna i fas eller i motfas?</p></div>",
+        "t": "<p>Två sirener i ett varningssystem står 6,0 m från varandra och sänder samma ton. På centrallinjen Q är ljudet minimalt. Punkten P ligger 8,0 m rakt framför den vänstra sirenen och befinner sig på den andra maximumlinjen räknat från centrallinjen. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg aria-label=\"Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.\" height=\"295\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"1.886 23.249 436.229 207.353\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.</title><rect fill=\"#EDEEF1\" height=\"10\" width=\"400\" x=\"20\" y=\"190\"></rect><g transform=\"translate(75 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₁</text></g><g transform=\"translate(315 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₂</text></g><circle cx=\"195\" cy=\"45\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"end\" x=\"183\" y=\"42\">Q</text><circle cx=\"75\" cy=\"65\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"end\" x=\"63\" y=\"62\">P</text><line stroke=\"#B43123\" stroke-width=\"2\" x1=\"75\" x2=\"75\" y1=\"65\" y2=\"140\"></line><line stroke=\"#2A5D9E\" stroke-width=\"2\" x1=\"75\" x2=\"315\" y1=\"65\" y2=\"165\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"195\" x2=\"75\" y1=\"45\" y2=\"165\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"195\" x2=\"315\" y1=\"45\" y2=\"165\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"90\" y=\"56\">2:a maximum</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"210\" y=\"42\">minimum</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"47\" y=\"125\">8,0 m</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"206\" y=\"107\">10,0 m</text><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" x=\"195\" y=\"219\">6,0 m</text></svg></span><div class=\"spel-en-del\"><p>Är sirenerna i fas eller i motfas? (Svara ”i fas” eller ”motfas”.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta r_Q=0\\quad\\Rightarrow\\quad\\Delta\\phi_0=\\pi\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sirenerna är i motfas, eftersom centrallinjen är ett minimum trots noll vägskillnad.</p></div></div>",
         "ledtrad": "<p>På centrallinjen är vägskillnaden noll. Ett minimum där innebär att källorna är i motfas.</p>",
         "niva": "A",
@@ -12758,7 +13165,7 @@ window.BANK2 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Två sirener i ett varningssystem står 6,0 m från varandra och sänder samma ton. På centrallinjen Q är ljudet minimalt. Punkten P ligger 8,0 m rakt framför den vänstra sirenen och befinner sig på den andra maximumlinjen räknat från centrallinjen. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg aria-label=\"Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.\" height=\"295\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"1.886 23.249 436.229 207.353\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.</title><rect fill=\"#EDEEF1\" height=\"10\" width=\"400\" x=\"20\" y=\"190\"></rect><g transform=\"translate(75 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₁</text></g><g transform=\"translate(315 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₂</text></g><circle cx=\"195\" cy=\"45\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"end\" x=\"183\" y=\"42\">Q</text><circle cx=\"75\" cy=\"65\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"end\" x=\"63\" y=\"62\">P</text><line stroke=\"#B43123\" stroke-width=\"2\" x1=\"75\" x2=\"75\" y1=\"65\" y2=\"140\"></line><line stroke=\"#2A5D9E\" stroke-width=\"2\" x1=\"75\" x2=\"315\" y1=\"65\" y2=\"165\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"195\" x2=\"75\" y1=\"45\" y2=\"165\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"195\" x2=\"315\" y1=\"45\" y2=\"165\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"90\" y=\"56\">2:a maximum</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"210\" y=\"42\">minimum</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"47\" y=\"125\">8,0 m</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"206\" y=\"107\">10,0 m</text><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" x=\"195\" y=\"219\">6,0 m</text></svg></span><div class=\"spel-en-del\"><p>Bestäm tonens frekvens.</p></div>",
+        "t": "<p>Två sirener i ett varningssystem står 6,0 m från varandra och sänder samma ton. På centrallinjen Q är ljudet minimalt. Punkten P ligger 8,0 m rakt framför den vänstra sirenen och befinner sig på den andra maximumlinjen räknat från centrallinjen. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg aria-label=\"Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.\" height=\"295\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"1.886 23.249 436.229 207.353\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.</title><rect fill=\"#EDEEF1\" height=\"10\" width=\"400\" x=\"20\" y=\"190\"></rect><g transform=\"translate(75 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₁</text></g><g transform=\"translate(315 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₂</text></g><circle cx=\"195\" cy=\"45\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"end\" x=\"183\" y=\"42\">Q</text><circle cx=\"75\" cy=\"65\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"end\" x=\"63\" y=\"62\">P</text><line stroke=\"#B43123\" stroke-width=\"2\" x1=\"75\" x2=\"75\" y1=\"65\" y2=\"140\"></line><line stroke=\"#2A5D9E\" stroke-width=\"2\" x1=\"75\" x2=\"315\" y1=\"65\" y2=\"165\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"195\" x2=\"75\" y1=\"45\" y2=\"165\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"195\" x2=\"315\" y1=\"45\" y2=\"165\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"90\" y=\"56\">2:a maximum</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"210\" y=\"42\">minimum</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"47\" y=\"125\">8,0 m</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"206\" y=\"107\">10,0 m</text><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" x=\"195\" y=\"219\">6,0 m</text></svg></span><div class=\"spel-en-del\"><p>Bestäm tonens frekvens. (Svara i Hz.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_1=8{,}0\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[r_2=\\sqrt{8{,}0^2+6{,}0^2}=10{,}0\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta r_P=2{,}0\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[2{,}0=\\frac{3\\lambda}{2}\\quad\\Rightarrow\\quad\\lambda=1{,}333\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[f=\\frac{340}{1{,}333}=255\\ \\mathrm{Hz}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Frekvensen är \\(255\\ \\mathrm{Hz}\\).</p></div></div>",
         "ledtrad": "<p>På centrallinjen är vägskillnaden noll. Ett minimum där innebär att källorna är i motfas.</p>",
         "niva": "A",
@@ -12766,7 +13173,7 @@ window.BANK2 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Två sirener i ett varningssystem står 6,0 m från varandra och sänder samma ton. På centrallinjen Q är ljudet minimalt. Punkten P ligger 8,0 m rakt framför den vänstra sirenen och befinner sig på den andra maximumlinjen räknat från centrallinjen. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg aria-label=\"Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.\" height=\"295\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"1.886 23.249 436.229 207.353\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.</title><rect fill=\"#EDEEF1\" height=\"10\" width=\"400\" x=\"20\" y=\"190\"></rect><g transform=\"translate(75 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₁</text></g><g transform=\"translate(315 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₂</text></g><circle cx=\"195\" cy=\"45\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"end\" x=\"183\" y=\"42\">Q</text><circle cx=\"75\" cy=\"65\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"end\" x=\"63\" y=\"62\">P</text><line stroke=\"#B43123\" stroke-width=\"2\" x1=\"75\" x2=\"75\" y1=\"65\" y2=\"140\"></line><line stroke=\"#2A5D9E\" stroke-width=\"2\" x1=\"75\" x2=\"315\" y1=\"65\" y2=\"165\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"195\" x2=\"75\" y1=\"45\" y2=\"165\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"195\" x2=\"315\" y1=\"45\" y2=\"165\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"90\" y=\"56\">2:a maximum</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"210\" y=\"42\">minimum</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"47\" y=\"125\">8,0 m</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"206\" y=\"107\">10,0 m</text><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" x=\"195\" y=\"219\">6,0 m</text></svg></span><div class=\"spel-en-del\"><p>Blir en punkt med vägskillnaden 4,0 m ett maximum eller minimum?</p></div>",
+        "t": "<p>Två sirener i ett varningssystem står 6,0 m från varandra och sänder samma ton. På centrallinjen Q är ljudet minimalt. Punkten P ligger 8,0 m rakt framför den vänstra sirenen och befinner sig på den andra maximumlinjen räknat från centrallinjen. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg aria-label=\"Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.\" height=\"295\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"1.886 23.249 436.229 207.353\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Varningssystem med två sirener, en punkt på centrallinjen och en punkt i en 6–8–10-triangel.</title><rect fill=\"#EDEEF1\" height=\"10\" width=\"400\" x=\"20\" y=\"190\"></rect><g transform=\"translate(75 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₁</text></g><g transform=\"translate(315 165)\"><rect fill=\"#EDEEF1\" height=\"50\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"26\" x=\"-18\" y=\"-25\"></rect><polygon fill=\"#fff\" points=\"8,-13 27,-23 27,23 8,13\" stroke=\"#2B2527\" stroke-width=\"2\"></polygon><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"></path><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"></path><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"42\">S₂</text></g><circle cx=\"195\" cy=\"45\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"end\" x=\"183\" y=\"42\">Q</text><circle cx=\"75\" cy=\"65\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"end\" x=\"63\" y=\"62\">P</text><line stroke=\"#B43123\" stroke-width=\"2\" x1=\"75\" x2=\"75\" y1=\"65\" y2=\"140\"></line><line stroke=\"#2A5D9E\" stroke-width=\"2\" x1=\"75\" x2=\"315\" y1=\"65\" y2=\"165\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"195\" x2=\"75\" y1=\"45\" y2=\"165\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.5\" x1=\"195\" x2=\"315\" y1=\"45\" y2=\"165\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"90\" y=\"56\">2:a maximum</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"210\" y=\"42\">minimum</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"47\" y=\"125\">8,0 m</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"11\" x=\"206\" y=\"107\">10,0 m</text><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"11\" text-anchor=\"middle\" x=\"195\" y=\"219\">6,0 m</text></svg></span><div class=\"spel-en-del\"><p>Blir en punkt med vägskillnaden 4,0 m ett maximum eller minimum? (Svara med maximum eller minimum.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta r=4{,}0\\ \\mathrm m=3\\lambda\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En vägskillnad på 4,0 m är \\(3\\lambda\\). För källor i motfas ger det ett minimum.</p></div></div>",
         "ledtrad": "<p>På centrallinjen är vägskillnaden noll. Ett minimum där innebär att källorna är i motfas.</p>",
         "niva": "A",
@@ -12775,6 +13182,29 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "svarFormat": [
+      "text",
+      "numeriskt",
+      "text"
+    ],
+    "svarEnhet": [
+      null,
+      "Hz",
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Fas",
+      "Frekvens",
+      "Maximum eller minimum"
+    ],
+    "traningsniva": 4,
+    "miniräknare": true,
+    "svarVardesiffror": [
+      null,
+      2,
+      null
     ]
   },
   {
@@ -12784,7 +13214,7 @@ window.BANK2 = [
     "niva": "A",
     "poang": "(0/2/2)",
     "typ": "bestämma alla frekvenser som samtidigt ger minimum och maximum i två punkter",
-    "t": "<p>I en akustisk testkammare står två högtalare 3,0 m från varandra och spelar i fas. Punkterna P och Q ligger rakt framför den vänstra högtalaren. Avstånden från högtalarna är 2,25 m och 3,75 m till P samt 1,25 m och 3,25 m till Q. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 240\" width=\"620\" height=\"338\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Akustisk testkammare med två högtalare och två mätpunkter framför den vänstra högtalaren.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Akustisk testkammare med två högtalare och två mätpunkter framför den vänstra högtalaren.</title><rect x=\"18\" y=\"18\" width=\"404\" height=\"202\" rx=\"8\" fill=\"#F7F7F8\" stroke=\"#9A959C\" stroke-width=\"1.5\"/><g transform=\"translate(80 185)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(320 185)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"80\" cy=\"55\" r=\"5\" fill=\"#B43123\"/><text x=\"68\" y=\"52\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">P</text><circle cx=\"80\" cy=\"112\" r=\"5\" fill=\"#B43123\"/><text x=\"68\" y=\"109\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">Q</text><line x1=\"80\" y1=\"55\" x2=\"80\" y2=\"160\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"80\" y1=\"55\" x2=\"320\" y2=\"185\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><line x1=\"80\" y1=\"112\" x2=\"320\" y2=\"185\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"98\" y=\"52\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">minimum</text><text x=\"98\" y=\"109\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">maximum</text><text x=\"42\" y=\"82\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#B43123\">2,25 m</text><text x=\"42\" y=\"146\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#B43123\">1,25 m</text><text x=\"207\" y=\"102\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#2A5D9E\">3,75 m</text><text x=\"216\" y=\"158\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#2A5D9E\">3,25 m</text><text x=\"200\" y=\"214\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#5C575E\">3,0 m</text></svg></span><p>Bestäm alla frekvenser mellan 200 Hz och 1200 Hz som samtidigt ger minimum i P och maximum i Q.</p>",
+    "t": "<p>I en akustisk testkammare står två högtalare 3,0 m från varandra och spelar i fas. Punkterna P och Q ligger rakt framför den vänstra högtalaren. Avstånden från högtalarna är 2,25 m och 3,75 m till P samt 1,25 m och 3,25 m till Q. Ljudhastigheten är 340 m/s.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 240\" width=\"620\" height=\"338\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Akustisk testkammare med två högtalare och två mätpunkter framför den vänstra högtalaren.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Akustisk testkammare med två högtalare och två mätpunkter framför den vänstra högtalaren.</title><rect x=\"18\" y=\"18\" width=\"404\" height=\"202\" rx=\"8\" fill=\"#F7F7F8\" stroke=\"#9A959C\" stroke-width=\"1.5\"/><g transform=\"translate(80 185)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(320 185)\"><rect x=\"-18\" y=\"-25\" width=\"26\" height=\"50\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><polygon points=\"8,-13 27,-23 27,23 8,13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><path d=\"M33,-14 Q47,0 33,14\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.8\"/><path d=\"M39,-21 Q60,0 39,21\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"1.4\"/><text x=\"0\" y=\"42\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"80\" cy=\"55\" r=\"5\" fill=\"#B43123\"/><text x=\"68\" y=\"52\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">P</text><circle cx=\"80\" cy=\"112\" r=\"5\" fill=\"#B43123\"/><text x=\"68\" y=\"109\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#B43123\">Q</text><line x1=\"80\" y1=\"55\" x2=\"80\" y2=\"160\" stroke=\"#B43123\" stroke-width=\"2\"/><line x1=\"80\" y1=\"55\" x2=\"320\" y2=\"185\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><line x1=\"80\" y1=\"112\" x2=\"320\" y2=\"185\" stroke=\"#2A5D9E\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><text x=\"98\" y=\"52\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">minimum</text><text x=\"98\" y=\"109\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">maximum</text><text x=\"42\" y=\"82\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#B43123\">2,25 m</text><text x=\"42\" y=\"146\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#B43123\">1,25 m</text><text x=\"207\" y=\"102\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#2A5D9E\">3,75 m</text><text x=\"216\" y=\"158\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#2A5D9E\">3,25 m</text><text x=\"200\" y=\"214\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" fill=\"#5C575E\">3,0 m</text></svg></span><p>Bestäm alla frekvenser mellan 200 Hz och 1200 Hz som samtidigt ger minimum i P och maximum i Q. (Svara i Hz.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna vägskillnaderna.</p><div class=\"facit-matte\">\\[\\Delta r_P=3{,}75-2{,}25=1{,}50\\ \\mathrm m\\]\\[\\Delta r_Q=3{,}25-1{,}25=2{,}00\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">För källor i fas ska P vara minimum och Q maximum.</p><div class=\"facit-matte\">\\[1{,}50=\\left(n+\\frac12\\right)\\lambda\\]\\[2{,}00=m\\lambda\\]</div><p>Här är n ett icke-negativt heltal och m ett positivt heltal.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Sätt λ=2,00/m i det första villkoret.</p><div class=\"facit-matte\">\\[\\frac{1{,}50m}{2{,}00}=n+\\frac12\\quad\\Rightarrow\\quad3m=4n+2\\]</div><p>Det blir ett heltal när m=2,6,10,…</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">4</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Frekvensen kan skrivas</p><div class=\"facit-matte\">\\[f=\\frac{v}{\\lambda}=\\frac{340m}{2{,}00}=170m\\ \\mathrm{Hz}\\]</div><p>I intervallet 200–1200 Hz är endast m=2 och m=6 möjliga.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> De två frekvenserna är \\(340\\ \\mathrm{Hz}\\) och \\(1020\\ \\mathrm{Hz}\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Problemet kräver att två interferensvillkor gäller samtidigt.</p></li><li><p class=\"facit-not\">Genom att eliminera \\(\\lambda\\) fås ett heltalsvillkor för ordningstalen; därefter återstår att filtrera lösningarna till det angivna frekvensintervallet.</p></li></ol></div>",
     "familj": "Bestämma våglängd och frekvens",
     "formaga": [
@@ -12792,15 +13222,36 @@ window.BANK2 = [
       "resonemang"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      340,
+      1020
+    ],
+    "tolerans": [
+      3,
+      10
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Bestäm först vägskillnaden mellan vågorna. Jämför sedan vägskillnaden med våglängden för att avgöra om interferensen är konstruktiv eller destruktiv.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "Hz",
+      "Hz"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "Frekvens",
+      "Frekvens"
+    ],
+    "traningsniva": 5,
+    "miniräknare": true
   },
   {
     "id": "2.162",
@@ -12809,7 +13260,7 @@ window.BANK2 = [
     "niva": "E",
     "poang": "(2/0/0)",
     "typ": "beräkna två ljudvägar med Pythagoras sats och avgöra minimum",
-    "t": "<p>I en aula står två högtalare 3,0 m från varandra och spelar samma ton i fas. En mätlinje ligger 4,0 m framför högtalarna. Punkten P ligger 0,50 m från mittpunkten M. Våglängden är 0,70 m.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 255\" width=\"620\" height=\"359\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mätlinje i en aula framför två högtalare; punkten P ligger 0,50 meter från mittpunkten M.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje i en aula framför två högtalare; punkten P ligger 0,50 meter från mittpunkten M.</title><rect x=\"20\" y=\"32\" width=\"400\" height=\"176\" rx=\"8\" fill=\"#FAFAFB\" stroke=\"#D5D2D7\" stroke-width=\"1.4\"/><line x1=\"42\" y1=\"48\" x2=\"408\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.7\"/><text x=\"405\" y=\"40\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" fill=\"#5C575E\">mätlinje</text><line x1=\"220\" y1=\"48\" x2=\"220\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"5 5\"/><g transform=\"translate(110 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(330 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"220\" cy=\"48\" r=\"5\" fill=\"#2B2527\"/><text x=\"210\" y=\"39\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#2B2527\">M</text><circle cx=\"256.6666666666667\" cy=\"48\" r=\"5\" fill=\"#B43123\"/><text x=\"266.6666666666667\" y=\"39\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#B43123\">P</text><line x1=\"110\" y1=\"190\" x2=\"256.6666666666667\" y2=\"48\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"330\" y1=\"190\" x2=\"256.6666666666667\" y2=\"48\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><text x=\"173.33333333333334\" y=\"129\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">r₂</text><text x=\"301.33333333333337\" y=\"111\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">r₁</text><line x1=\"220\" y1=\"72\" x2=\"256.6666666666667\" y2=\"72\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"67\" x2=\"220\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"256.6666666666667\" y1=\"67\" x2=\"256.6666666666667\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><text x=\"238.33333333333334\" y=\"79\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">0,50 m</text><line x1=\"58\" y1=\"48\" x2=\"58\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"48\" x2=\"63\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"190\" x2=\"63\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"49\" y=\"119\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">4 m</text><line x1=\"110\" y1=\"228\" x2=\"330\" y2=\"228\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"223\" x2=\"110\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"223\" x2=\"330\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"220\" y=\"244\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">3 m</text></svg></span><ol><li>Beräkna avståndet från varje högtalare till punkten P.</li><li>Avgör om P ligger i ett maximum eller minimum.</li></ol>",
+    "t": "<p>I en aula står två högtalare 3,0 m från varandra och spelar samma ton i fas. En mätlinje ligger 4,0 m framför högtalarna. Punkten P ligger 0,50 m från mittpunkten M. Våglängden är 0,70 m.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 255\" width=\"620\" height=\"359\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mätlinje i en aula framför två högtalare; punkten P ligger 0,50 meter från mittpunkten M.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje i en aula framför två högtalare; punkten P ligger 0,50 meter från mittpunkten M.</title><rect x=\"20\" y=\"32\" width=\"400\" height=\"176\" rx=\"8\" fill=\"#FAFAFB\" stroke=\"#D5D2D7\" stroke-width=\"1.4\"/><line x1=\"42\" y1=\"48\" x2=\"408\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.7\"/><text x=\"405\" y=\"40\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" fill=\"#5C575E\">mätlinje</text><line x1=\"220\" y1=\"48\" x2=\"220\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"5 5\"/><g transform=\"translate(110 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(330 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"220\" cy=\"48\" r=\"5\" fill=\"#2B2527\"/><text x=\"210\" y=\"39\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#2B2527\">M</text><circle cx=\"256.6666666666667\" cy=\"48\" r=\"5\" fill=\"#B43123\"/><text x=\"266.6666666666667\" y=\"39\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#B43123\">P</text><line x1=\"110\" y1=\"190\" x2=\"256.6666666666667\" y2=\"48\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"330\" y1=\"190\" x2=\"256.6666666666667\" y2=\"48\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><text x=\"173.33333333333334\" y=\"129\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">r₂</text><text x=\"301.33333333333337\" y=\"111\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">r₁</text><line x1=\"220\" y1=\"72\" x2=\"256.6666666666667\" y2=\"72\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"67\" x2=\"220\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"256.6666666666667\" y1=\"67\" x2=\"256.6666666666667\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><text x=\"238.33333333333334\" y=\"79\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">0,50 m</text><line x1=\"58\" y1=\"48\" x2=\"58\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"48\" x2=\"63\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"190\" x2=\"63\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"49\" y=\"119\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">4 m</text><line x1=\"110\" y1=\"228\" x2=\"330\" y2=\"228\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"223\" x2=\"110\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"223\" x2=\"330\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"220\" y=\"244\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">3 m</text></svg></span><ol><li>Beräkna avståndet från varje högtalare till punkten P. (Svara i m.)</li><li>Avgör om P ligger i ett maximum eller minimum. (Svara med maximum eller minimum.)</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">De vågräta avstånden från P till högtalarna är 1,0 m och 2,0 m.</p></li><li><p class=\"facit-metod\">Använd Pythagoras sats.</p></li><li><div class=\"facit-matte\">\\[r_1=\\sqrt{4{,}0^2+1{,}0^2}=4{,}12\\ \\mathrm m\\]\\[r_2=\\sqrt{4{,}0^2+2{,}0^2}=4{,}47\\ \\mathrm m\\]</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Beräkna vägskillnaden och jämför med våglängden.</p></li><li><div class=\"facit-matte\">\\[\\Delta r=4{,}47-4{,}12=0{,}35\\ \\mathrm m=\\frac{\\lambda}{2}\\]</div></li><li><p>En halv våglängds vägskillnad ger minimum när högtalarna spelar i fas.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Avstånden från högtalarna till P är cirka \\(4{,}12\\ \\mathrm m\\) och \\(4{,}47\\ \\mathrm m\\). P ligger i ett minimum.</p></div>",
     "familj": "Vägskillnad med Pythagoras sats",
     "formaga": [
@@ -12817,17 +13268,29 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        4.123105625617661,
+        4.47213595499958
+      ],
+      "minimum"
+    ],
+    "tolerans": [
+      [
+        0.01,
+        0.01
+      ],
+      null
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Bestäm först vägskillnaden mellan vågorna. Jämför sedan vägskillnaden med våglängden för att avgöra om interferensen är konstruktiv eller destruktiv.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>I en aula står två högtalare 3,0 m från varandra och spelar samma ton i fas. En mätlinje ligger 4,0 m framför högtalarna. Punkten P ligger 0,50 m från mittpunkten M. Våglängden är 0,70 m.</p><span class=\"fig bred\"><svg aria-label=\"Mätlinje i en aula framför två högtalare; punkten P ligger 0,50 meter från mittpunkten M.\" height=\"359\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 440 255\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje i en aula framför två högtalare; punkten P ligger 0,50 meter från mittpunkten M.</title><rect fill=\"#FAFAFB\" height=\"176\" rx=\"8\" stroke=\"#D5D2D7\" stroke-width=\"1.4\" width=\"400\" x=\"20\" y=\"32\"></rect><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"42\" x2=\"408\" y1=\"48\" y2=\"48\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" text-anchor=\"end\" x=\"405\" y=\"40\">mätlinje</text><line stroke=\"#9A959C\" stroke-dasharray=\"5 5\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"48\" y2=\"190\"></line><g transform=\"translate(110 190)\"><rect fill=\"#EDEEF1\" height=\"48\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"34\" x=\"-17\" y=\"-24\"></rect><circle cx=\"0\" cy=\"-7\" fill=\"#C9CCD2\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"1.5\"></circle><circle cx=\"0\" cy=\"12\" fill=\"#C9CCD2\" r=\"4\" stroke=\"#2B2527\" stroke-width=\"1.3\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"39\">S₁</text></g><g transform=\"translate(330 190)\"><rect fill=\"#EDEEF1\" height=\"48\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"34\" x=\"-17\" y=\"-24\"></rect><circle cx=\"0\" cy=\"-7\" fill=\"#C9CCD2\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"1.5\"></circle><circle cx=\"0\" cy=\"12\" fill=\"#C9CCD2\" r=\"4\" stroke=\"#2B2527\" stroke-width=\"1.3\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"39\">S₂</text></g><circle cx=\"220\" cy=\"48\" fill=\"#2B2527\" r=\"5\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" text-anchor=\"end\" x=\"210\" y=\"39\">M</text><circle cx=\"256.6666666666667\" cy=\"48\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" x=\"266.6666666666667\" y=\"39\">P</text><line stroke=\"#B43123\" stroke-dasharray=\"6 4\" stroke-width=\"1.8\" x1=\"110\" x2=\"256.6666666666667\" y1=\"190\" y2=\"48\"></line><line stroke=\"#2A5D9E\" stroke-dasharray=\"6 4\" stroke-width=\"1.8\" x1=\"330\" x2=\"256.6666666666667\" y1=\"190\" y2=\"48\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"173.33333333333334\" y=\"129\">r₂</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"301.33333333333337\" y=\"111\">r₁</text><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"220\" x2=\"256.6666666666667\" y1=\"72\" y2=\"72\"></line><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"67\" y2=\"77\"></line><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"256.6666666666667\" x2=\"256.6666666666667\" y1=\"67\" y2=\"77\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"238.33333333333334\" y=\"79\">0,50 m</text><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"58\" x2=\"58\" y1=\"48\" y2=\"190\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"53\" x2=\"63\" y1=\"48\" y2=\"48\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"53\" x2=\"63\" y1=\"190\" y2=\"190\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"end\" x=\"49\" y=\"119\">4 m</text><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"110\" x2=\"330\" y1=\"228\" y2=\"228\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"110\" x2=\"110\" y1=\"223\" y2=\"233\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"330\" x2=\"330\" y1=\"223\" y2=\"233\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"220\" y=\"244\">3 m</text></svg></span><div class=\"spel-en-del\"><p>Beräkna avståndet från varje högtalare till punkten P.</p></div>",
+        "t": "<p>I en aula står två högtalare 3,0 m från varandra och spelar samma ton i fas. En mätlinje ligger 4,0 m framför högtalarna. Punkten P ligger 0,50 m från mittpunkten M. Våglängden är 0,70 m.</p><span class=\"fig bred\"><svg aria-label=\"Mätlinje i en aula framför två högtalare; punkten P ligger 0,50 meter från mittpunkten M.\" height=\"359\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 440 255\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje i en aula framför två högtalare; punkten P ligger 0,50 meter från mittpunkten M.</title><rect fill=\"#FAFAFB\" height=\"176\" rx=\"8\" stroke=\"#D5D2D7\" stroke-width=\"1.4\" width=\"400\" x=\"20\" y=\"32\"></rect><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"42\" x2=\"408\" y1=\"48\" y2=\"48\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" text-anchor=\"end\" x=\"405\" y=\"40\">mätlinje</text><line stroke=\"#9A959C\" stroke-dasharray=\"5 5\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"48\" y2=\"190\"></line><g transform=\"translate(110 190)\"><rect fill=\"#EDEEF1\" height=\"48\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"34\" x=\"-17\" y=\"-24\"></rect><circle cx=\"0\" cy=\"-7\" fill=\"#C9CCD2\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"1.5\"></circle><circle cx=\"0\" cy=\"12\" fill=\"#C9CCD2\" r=\"4\" stroke=\"#2B2527\" stroke-width=\"1.3\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"39\">S₁</text></g><g transform=\"translate(330 190)\"><rect fill=\"#EDEEF1\" height=\"48\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"34\" x=\"-17\" y=\"-24\"></rect><circle cx=\"0\" cy=\"-7\" fill=\"#C9CCD2\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"1.5\"></circle><circle cx=\"0\" cy=\"12\" fill=\"#C9CCD2\" r=\"4\" stroke=\"#2B2527\" stroke-width=\"1.3\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"39\">S₂</text></g><circle cx=\"220\" cy=\"48\" fill=\"#2B2527\" r=\"5\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" text-anchor=\"end\" x=\"210\" y=\"39\">M</text><circle cx=\"256.6666666666667\" cy=\"48\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" x=\"266.6666666666667\" y=\"39\">P</text><line stroke=\"#B43123\" stroke-dasharray=\"6 4\" stroke-width=\"1.8\" x1=\"110\" x2=\"256.6666666666667\" y1=\"190\" y2=\"48\"></line><line stroke=\"#2A5D9E\" stroke-dasharray=\"6 4\" stroke-width=\"1.8\" x1=\"330\" x2=\"256.6666666666667\" y1=\"190\" y2=\"48\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"173.33333333333334\" y=\"129\">r₂</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"301.33333333333337\" y=\"111\">r₁</text><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"220\" x2=\"256.6666666666667\" y1=\"72\" y2=\"72\"></line><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"67\" y2=\"77\"></line><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"256.6666666666667\" x2=\"256.6666666666667\" y1=\"67\" y2=\"77\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"238.33333333333334\" y=\"79\">0,50 m</text><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"58\" x2=\"58\" y1=\"48\" y2=\"190\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"53\" x2=\"63\" y1=\"48\" y2=\"48\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"53\" x2=\"63\" y1=\"190\" y2=\"190\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"end\" x=\"49\" y=\"119\">4 m</text><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"110\" x2=\"330\" y1=\"228\" y2=\"228\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"110\" x2=\"110\" y1=\"223\" y2=\"233\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"330\" x2=\"330\" y1=\"223\" y2=\"233\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"220\" y=\"244\">3 m</text></svg></span><div class=\"spel-en-del\"><p>Beräkna avståndet från varje högtalare till punkten P. (Svara i m.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">De vågräta avstånden från P till högtalarna är 1,0 m och 2,0 m.</p></li><li><p class=\"facit-metod\">Använd Pythagoras sats.</p></li><li><div class=\"facit-matte\">\\[r_1=\\sqrt{4{,}0^2+1{,}0^2}=4{,}12\\ \\mathrm m\\]\\[r_2=\\sqrt{4{,}0^2+2{,}0^2}=4{,}47\\ \\mathrm m\\]</div></li></ol></div></div>",
         "ledtrad": "<p>Bestäm först vägskillnaden mellan vågorna. Jämför sedan vägskillnaden med våglängden för att avgöra om interferensen är konstruktiv eller destruktiv.</p>",
         "niva": "E",
@@ -12835,7 +13298,7 @@ window.BANK2 = [
       },
       {
         "etikett": "b",
-        "t": "<p>I en aula står två högtalare 3,0 m från varandra och spelar samma ton i fas. En mätlinje ligger 4,0 m framför högtalarna. Punkten P ligger 0,50 m från mittpunkten M. Våglängden är 0,70 m.</p><span class=\"fig bred\"><svg aria-label=\"Mätlinje i en aula framför två högtalare; punkten P ligger 0,50 meter från mittpunkten M.\" height=\"359\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 440 255\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje i en aula framför två högtalare; punkten P ligger 0,50 meter från mittpunkten M.</title><rect fill=\"#FAFAFB\" height=\"176\" rx=\"8\" stroke=\"#D5D2D7\" stroke-width=\"1.4\" width=\"400\" x=\"20\" y=\"32\"></rect><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"42\" x2=\"408\" y1=\"48\" y2=\"48\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" text-anchor=\"end\" x=\"405\" y=\"40\">mätlinje</text><line stroke=\"#9A959C\" stroke-dasharray=\"5 5\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"48\" y2=\"190\"></line><g transform=\"translate(110 190)\"><rect fill=\"#EDEEF1\" height=\"48\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"34\" x=\"-17\" y=\"-24\"></rect><circle cx=\"0\" cy=\"-7\" fill=\"#C9CCD2\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"1.5\"></circle><circle cx=\"0\" cy=\"12\" fill=\"#C9CCD2\" r=\"4\" stroke=\"#2B2527\" stroke-width=\"1.3\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"39\">S₁</text></g><g transform=\"translate(330 190)\"><rect fill=\"#EDEEF1\" height=\"48\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"34\" x=\"-17\" y=\"-24\"></rect><circle cx=\"0\" cy=\"-7\" fill=\"#C9CCD2\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"1.5\"></circle><circle cx=\"0\" cy=\"12\" fill=\"#C9CCD2\" r=\"4\" stroke=\"#2B2527\" stroke-width=\"1.3\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"39\">S₂</text></g><circle cx=\"220\" cy=\"48\" fill=\"#2B2527\" r=\"5\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" text-anchor=\"end\" x=\"210\" y=\"39\">M</text><circle cx=\"256.6666666666667\" cy=\"48\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" x=\"266.6666666666667\" y=\"39\">P</text><line stroke=\"#B43123\" stroke-dasharray=\"6 4\" stroke-width=\"1.8\" x1=\"110\" x2=\"256.6666666666667\" y1=\"190\" y2=\"48\"></line><line stroke=\"#2A5D9E\" stroke-dasharray=\"6 4\" stroke-width=\"1.8\" x1=\"330\" x2=\"256.6666666666667\" y1=\"190\" y2=\"48\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"173.33333333333334\" y=\"129\">r₂</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"301.33333333333337\" y=\"111\">r₁</text><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"220\" x2=\"256.6666666666667\" y1=\"72\" y2=\"72\"></line><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"67\" y2=\"77\"></line><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"256.6666666666667\" x2=\"256.6666666666667\" y1=\"67\" y2=\"77\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"238.33333333333334\" y=\"79\">0,50 m</text><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"58\" x2=\"58\" y1=\"48\" y2=\"190\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"53\" x2=\"63\" y1=\"48\" y2=\"48\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"53\" x2=\"63\" y1=\"190\" y2=\"190\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"end\" x=\"49\" y=\"119\">4 m</text><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"110\" x2=\"330\" y1=\"228\" y2=\"228\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"110\" x2=\"110\" y1=\"223\" y2=\"233\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"330\" x2=\"330\" y1=\"223\" y2=\"233\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"220\" y=\"244\">3 m</text></svg></span><div class=\"spel-en-del\"><p>Avgör om P ligger i ett maximum eller minimum.</p></div>",
+        "t": "<p>I en aula står två högtalare 3,0 m från varandra och spelar samma ton i fas. En mätlinje ligger 4,0 m framför högtalarna. Punkten P ligger 0,50 m från mittpunkten M. Våglängden är 0,70 m.</p><span class=\"fig bred\"><svg aria-label=\"Mätlinje i en aula framför två högtalare; punkten P ligger 0,50 meter från mittpunkten M.\" height=\"359\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"0 0 440 255\" width=\"620\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje i en aula framför två högtalare; punkten P ligger 0,50 meter från mittpunkten M.</title><rect fill=\"#FAFAFB\" height=\"176\" rx=\"8\" stroke=\"#D5D2D7\" stroke-width=\"1.4\" width=\"400\" x=\"20\" y=\"32\"></rect><line stroke=\"#5C575E\" stroke-width=\"1.7\" x1=\"42\" x2=\"408\" y1=\"48\" y2=\"48\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" text-anchor=\"end\" x=\"405\" y=\"40\">mätlinje</text><line stroke=\"#9A959C\" stroke-dasharray=\"5 5\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"48\" y2=\"190\"></line><g transform=\"translate(110 190)\"><rect fill=\"#EDEEF1\" height=\"48\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"34\" x=\"-17\" y=\"-24\"></rect><circle cx=\"0\" cy=\"-7\" fill=\"#C9CCD2\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"1.5\"></circle><circle cx=\"0\" cy=\"12\" fill=\"#C9CCD2\" r=\"4\" stroke=\"#2B2527\" stroke-width=\"1.3\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"39\">S₁</text></g><g transform=\"translate(330 190)\"><rect fill=\"#EDEEF1\" height=\"48\" rx=\"3\" stroke=\"#2B2527\" stroke-width=\"2\" width=\"34\" x=\"-17\" y=\"-24\"></rect><circle cx=\"0\" cy=\"-7\" fill=\"#C9CCD2\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"1.5\"></circle><circle cx=\"0\" cy=\"12\" fill=\"#C9CCD2\" r=\"4\" stroke=\"#2B2527\" stroke-width=\"1.3\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" x=\"0\" y=\"39\">S₂</text></g><circle cx=\"220\" cy=\"48\" fill=\"#2B2527\" r=\"5\"></circle><text fill=\"#2B2527\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" text-anchor=\"end\" x=\"210\" y=\"39\">M</text><circle cx=\"256.6666666666667\" cy=\"48\" fill=\"#B43123\" r=\"5\"></circle><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" x=\"266.6666666666667\" y=\"39\">P</text><line stroke=\"#B43123\" stroke-dasharray=\"6 4\" stroke-width=\"1.8\" x1=\"110\" x2=\"256.6666666666667\" y1=\"190\" y2=\"48\"></line><line stroke=\"#2A5D9E\" stroke-dasharray=\"6 4\" stroke-width=\"1.8\" x1=\"330\" x2=\"256.6666666666667\" y1=\"190\" y2=\"48\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"173.33333333333334\" y=\"129\">r₂</text><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" x=\"301.33333333333337\" y=\"111\">r₁</text><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"220\" x2=\"256.6666666666667\" y1=\"72\" y2=\"72\"></line><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"220\" x2=\"220\" y1=\"67\" y2=\"77\"></line><line stroke=\"#B43123\" stroke-width=\"1.2\" x1=\"256.6666666666667\" x2=\"256.6666666666667\" y1=\"67\" y2=\"77\"></line><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"238.33333333333334\" y=\"79\">0,50 m</text><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"58\" x2=\"58\" y1=\"48\" y2=\"190\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"53\" x2=\"63\" y1=\"48\" y2=\"48\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"53\" x2=\"63\" y1=\"190\" y2=\"190\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"end\" x=\"49\" y=\"119\">4 m</text><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"110\" x2=\"330\" y1=\"228\" y2=\"228\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"110\" x2=\"110\" y1=\"223\" y2=\"233\"></line><line stroke=\"#5C575E\" stroke-width=\"1.2\" x1=\"330\" x2=\"330\" y1=\"223\" y2=\"233\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" text-anchor=\"middle\" x=\"220\" y=\"244\">3 m</text></svg></span><div class=\"spel-en-del\"><p>Avgör om P ligger i ett maximum eller minimum. (Svara med maximum eller minimum.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Beräkna vägskillnaden och jämför med våglängden.</p></li><li><div class=\"facit-matte\">\\[\\Delta r=4{,}47-4{,}12=0{,}35\\ \\mathrm m=\\frac{\\lambda}{2}\\]</div></li><li><p>En halv våglängds vägskillnad ger minimum när högtalarna spelar i fas.</p></li></ol></div></div>",
         "ledtrad": "<p>Bestäm först vägskillnaden mellan vågorna. Jämför sedan vägskillnaden med våglängden för att avgöra om interferensen är konstruktiv eller destruktiv.</p>",
         "niva": "E",
@@ -12844,7 +13307,28 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Interferens från flera källor"
-    ]
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "text"
+    ],
+    "svarEnhet": [
+      [
+        "m",
+        "m"
+      ],
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Avstånd",
+      "Maximum eller minimum"
+    ],
+    "traningsniva": 2,
+    "miniräknare": true
   },
   {
     "id": "2.163",
@@ -12853,7 +13337,7 @@ window.BANK2 = [
     "niva": "E",
     "poang": "(2/0/0)",
     "typ": "beräkna vägskillnad med Pythagoras sats och avgöra maximum",
-    "t": "<p>Vid en utomhusbio står två högtalare 4,0 m från varandra och spelar i fas. Mätlinjen ligger 3,0 m framför dem och P ligger 1,0 m från M. Våglängden är 1,08 m.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 255\" width=\"620\" height=\"359\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mätlinje vid en utomhusbio framför två högtalare; punkten P ligger 1,0 meter från M.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje vid en utomhusbio framför två högtalare; punkten P ligger 1,0 meter från M.</title><rect x=\"20\" y=\"32\" width=\"400\" height=\"176\" rx=\"8\" fill=\"#FAFAFB\" stroke=\"#D5D2D7\" stroke-width=\"1.4\"/><line x1=\"42\" y1=\"48\" x2=\"408\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.7\"/><text x=\"405\" y=\"40\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" fill=\"#5C575E\">mätlinje</text><line x1=\"220\" y1=\"48\" x2=\"220\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"5 5\"/><g transform=\"translate(110 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(330 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"220\" cy=\"48\" r=\"5\" fill=\"#2B2527\"/><text x=\"210\" y=\"39\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#2B2527\">M</text><circle cx=\"275\" cy=\"48\" r=\"5\" fill=\"#B43123\"/><text x=\"285\" y=\"39\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#B43123\">P</text><line x1=\"110\" y1=\"190\" x2=\"275\" y2=\"48\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"330\" y1=\"190\" x2=\"275\" y2=\"48\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><text x=\"182.5\" y=\"129\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">r₂</text><text x=\"310.5\" y=\"111\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">r₁</text><line x1=\"220\" y1=\"72\" x2=\"275\" y2=\"72\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"67\" x2=\"220\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"275\" y1=\"67\" x2=\"275\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><text x=\"247.5\" y=\"79\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">1,0 m</text><line x1=\"58\" y1=\"48\" x2=\"58\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"48\" x2=\"63\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"190\" x2=\"63\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"49\" y=\"119\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">3 m</text><line x1=\"110\" y1=\"228\" x2=\"330\" y2=\"228\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"223\" x2=\"110\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"223\" x2=\"330\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"220\" y=\"244\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">4 m</text></svg></span><p>Beräkna vägskillnaden och avgör om ljudet förstärks eller försvagas i P.</p>",
+    "t": "<p>Vid en utomhusbio står två högtalare 4,0 m från varandra och spelar i fas. Mätlinjen ligger 3,0 m framför dem och P ligger 1,0 m från M. Våglängden är 1,08 m.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 255\" width=\"620\" height=\"359\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mätlinje vid en utomhusbio framför två högtalare; punkten P ligger 1,0 meter från M.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje vid en utomhusbio framför två högtalare; punkten P ligger 1,0 meter från M.</title><rect x=\"20\" y=\"32\" width=\"400\" height=\"176\" rx=\"8\" fill=\"#FAFAFB\" stroke=\"#D5D2D7\" stroke-width=\"1.4\"/><line x1=\"42\" y1=\"48\" x2=\"408\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.7\"/><text x=\"405\" y=\"40\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" fill=\"#5C575E\">mätlinje</text><line x1=\"220\" y1=\"48\" x2=\"220\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"5 5\"/><g transform=\"translate(110 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(330 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"220\" cy=\"48\" r=\"5\" fill=\"#2B2527\"/><text x=\"210\" y=\"39\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#2B2527\">M</text><circle cx=\"275\" cy=\"48\" r=\"5\" fill=\"#B43123\"/><text x=\"285\" y=\"39\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#B43123\">P</text><line x1=\"110\" y1=\"190\" x2=\"275\" y2=\"48\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"330\" y1=\"190\" x2=\"275\" y2=\"48\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><text x=\"182.5\" y=\"129\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">r₂</text><text x=\"310.5\" y=\"111\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">r₁</text><line x1=\"220\" y1=\"72\" x2=\"275\" y2=\"72\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"67\" x2=\"220\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"275\" y1=\"67\" x2=\"275\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><text x=\"247.5\" y=\"79\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">1,0 m</text><line x1=\"58\" y1=\"48\" x2=\"58\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"48\" x2=\"63\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"190\" x2=\"63\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"49\" y=\"119\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">3 m</text><line x1=\"110\" y1=\"228\" x2=\"330\" y2=\"228\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"223\" x2=\"110\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"223\" x2=\"330\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"220\" y=\"244\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">4 m</text></svg></span><p>Beräkna vägskillnaden och avgör om ljudet förstärks eller försvagas i P. (Svara med vägskillnaden i m och ordet förstärks eller försvagas.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">De vågräta avstånden är 1,0 m och 3,0 m.</p><div class=\"facit-matte\">\\[r_1=\\sqrt{3{,}0^2+1{,}0^2}=3{,}16\\ \\mathrm m\\]\\[r_2=\\sqrt{3{,}0^2+3{,}0^2}=4{,}24\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Jämför vägskillnaden med våglängden.</p><div class=\"facit-matte\">\\[\\Delta r=4{,}24-3{,}16=1{,}08\\ \\mathrm m=\\lambda\\]</div><p>En hel våglängds vägskillnad ger maximum.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ljudet förstärks i P; punkten ligger i ett maximum.</p></div>",
     "familj": "Vägskillnad med Pythagoras sats",
     "formaga": [
@@ -12861,14 +13345,39 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1.0803630269509052,
+      "förstärks"
+    ],
+    "tolerans": [
+      0.01,
+      null
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Bestäm först vägskillnaden mellan vågorna. Jämför sedan vägskillnaden med våglängden för att avgöra om interferensen är konstruktiv eller destruktiv.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "text"
+    ],
+    "svarEnhet": [
+      "m",
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Vägskillnad",
+      "Förstärks eller försvagas"
+    ],
+    "traningsniva": 2,
+    "miniräknare": true,
+    "svarVardesiffror": [
+      3,
+      null
     ]
   },
   {
@@ -12886,14 +13395,26 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Beräkna avstånden från källorna till P. Beräkna vägskillnaden.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "traningsniva": 2,
+    "miniräknare": true,
+    "alternativ": [
+      {
+        "txt": "Minimum",
+        "ratt": true
+      },
+      {
+        "txt": "Maximum",
+        "ratt": false
+      }
     ]
   },
   {
@@ -12911,14 +13432,26 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Beräkna avståndet från varje högtalare till P och skillnaden mellan avstånden.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "traningsniva": 2,
+    "miniräknare": true,
+    "alternativ": [
+      {
+        "txt": "Starkt, P ligger i ett maximum",
+        "ratt": true
+      },
+      {
+        "txt": "Svagt, P ligger i ett minimum",
+        "ratt": false
+      }
     ]
   },
   {
@@ -12936,14 +13469,26 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Beräkna vägskillnaden. För källor i fas ger heltalsmultiplar av \\(\\lambda\\) maximum och halvtalsmultiplar minimum; för gitter kan du använda \\(d\\sin\\theta=m\\lambda\\).</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "traningsniva": 2,
+    "miniräknare": true,
+    "alternativ": [
+      {
+        "txt": "Minimum",
+        "ratt": true
+      },
+      {
+        "txt": "Maximum",
+        "ratt": false
+      }
     ]
   },
   {
@@ -12953,7 +13498,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "bestämma frekvens ur första minimum och två geometriska ljudvägar",
-    "t": "<p>I en konsertsal står två högtalare 2,4 m från varandra och spelar i fas. Mätlinjen ligger 5,0 m framför dem. Det första minimumet finns i P, 0,80 m från M.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 255\" width=\"620\" height=\"359\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mätlinje i en konsertsal framför två högtalare; det första minimumet P ligger 0,80 meter från M.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje i en konsertsal framför två högtalare; det första minimumet P ligger 0,80 meter från M.</title><rect x=\"20\" y=\"32\" width=\"400\" height=\"176\" rx=\"8\" fill=\"#FAFAFB\" stroke=\"#D5D2D7\" stroke-width=\"1.4\"/><line x1=\"42\" y1=\"48\" x2=\"408\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.7\"/><text x=\"405\" y=\"40\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" fill=\"#5C575E\">mätlinje</text><line x1=\"220\" y1=\"48\" x2=\"220\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"5 5\"/><g transform=\"translate(110 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(330 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"220\" cy=\"48\" r=\"5\" fill=\"#2B2527\"/><text x=\"210\" y=\"39\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#2B2527\">M</text><circle cx=\"293.33333333333337\" cy=\"48\" r=\"5\" fill=\"#B43123\"/><text x=\"303.33333333333337\" y=\"39\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#B43123\">P</text><line x1=\"110\" y1=\"190\" x2=\"293.33333333333337\" y2=\"48\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"330\" y1=\"190\" x2=\"293.33333333333337\" y2=\"48\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><text x=\"191.66666666666669\" y=\"129\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">r₂</text><text x=\"319.6666666666667\" y=\"111\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">r₁</text><line x1=\"220\" y1=\"72\" x2=\"293.33333333333337\" y2=\"72\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"67\" x2=\"220\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"293.33333333333337\" y1=\"67\" x2=\"293.33333333333337\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><text x=\"256.6666666666667\" y=\"79\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">0,80 m</text><line x1=\"58\" y1=\"48\" x2=\"58\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"48\" x2=\"63\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"190\" x2=\"63\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"49\" y=\"119\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">5 m</text><line x1=\"110\" y1=\"228\" x2=\"330\" y2=\"228\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"223\" x2=\"110\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"223\" x2=\"330\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"220\" y=\"244\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">2,4 m</text></svg></span><p>Bestäm ljudets våglängd och frekvens.</p>",
+    "t": "<p>I en konsertsal står två högtalare 2,4 m från varandra och spelar i fas. Mätlinjen ligger 5,0 m framför dem. Det första minimumet finns i P, 0,80 m från M.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 255\" width=\"620\" height=\"359\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mätlinje i en konsertsal framför två högtalare; det första minimumet P ligger 0,80 meter från M.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje i en konsertsal framför två högtalare; det första minimumet P ligger 0,80 meter från M.</title><rect x=\"20\" y=\"32\" width=\"400\" height=\"176\" rx=\"8\" fill=\"#FAFAFB\" stroke=\"#D5D2D7\" stroke-width=\"1.4\"/><line x1=\"42\" y1=\"48\" x2=\"408\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.7\"/><text x=\"405\" y=\"40\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" fill=\"#5C575E\">mätlinje</text><line x1=\"220\" y1=\"48\" x2=\"220\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"5 5\"/><g transform=\"translate(110 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(330 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"220\" cy=\"48\" r=\"5\" fill=\"#2B2527\"/><text x=\"210\" y=\"39\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#2B2527\">M</text><circle cx=\"293.33333333333337\" cy=\"48\" r=\"5\" fill=\"#B43123\"/><text x=\"303.33333333333337\" y=\"39\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#B43123\">P</text><line x1=\"110\" y1=\"190\" x2=\"293.33333333333337\" y2=\"48\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"330\" y1=\"190\" x2=\"293.33333333333337\" y2=\"48\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><text x=\"191.66666666666669\" y=\"129\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">r₂</text><text x=\"319.6666666666667\" y=\"111\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">r₁</text><line x1=\"220\" y1=\"72\" x2=\"293.33333333333337\" y2=\"72\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"67\" x2=\"220\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"293.33333333333337\" y1=\"67\" x2=\"293.33333333333337\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><text x=\"256.6666666666667\" y=\"79\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">0,80 m</text><line x1=\"58\" y1=\"48\" x2=\"58\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"48\" x2=\"63\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"190\" x2=\"63\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"49\" y=\"119\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">5 m</text><line x1=\"110\" y1=\"228\" x2=\"330\" y2=\"228\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"223\" x2=\"110\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"223\" x2=\"330\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"220\" y=\"244\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">2,4 m</text></svg></span><p>Bestäm ljudets våglängd och frekvens. (Svara i m och Hz.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">De vågräta avstånden är 0,40 m och 2,00 m.</p><div class=\"facit-matte\">\\[r_1=\\sqrt{5{,}0^2+0{,}40^2}=5{,}016\\ \\mathrm m\\]\\[r_2=\\sqrt{5{,}0^2+2{,}00^2}=5{,}385\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna vägskillnaden.</p><p class=\"facit-metod\">Vid det första minimumet är den en halv våglängd.</p><div class=\"facit-matte\">\\[\\Delta r=5{,}385-5{,}016=0{,}369\\ \\mathrm m\\]\\[\\lambda=2\\Delta r=0{,}738\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Använd vågekvationen.</p><div class=\"facit-matte\">\\[f=\\frac{340}{0{,}738}=461\\ \\mathrm{Hz}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Våglängden är cirka \\(0{,}74\\ \\mathrm m\\) och frekvensen cirka \\(460\\ \\mathrm{Hz}\\).</p></div>",
     "familj": "Bestämma våglängd och frekvens",
     "formaga": [
@@ -12961,14 +13506,39 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.7383806510814459,
+      460.46710392807523
+    ],
+    "tolerans": [
+      0.007,
+      6
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Bestäm först vägskillnaden mellan vågorna. Jämför sedan vägskillnaden med våglängden för att avgöra om interferensen är konstruktiv eller destruktiv.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "m",
+      "Hz"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Våglängd",
+      "Frekvens"
+    ],
+    "traningsniva": 3,
+    "miniräknare": true,
+    "svarVardesiffror": [
+      2,
+      2
     ]
   },
   {
@@ -12978,7 +13548,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "bestämma frekvens ur första maximum utanför mittlinjen",
-    "t": "<p>Två sirener står 3,6 m från varandra och sänder samma ton i fas. Mätlinjen ligger 4,8 m framför dem. I M är ljudet starkt. Det första maximumet utanför M finns i P, 0,60 m från M.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 255\" width=\"620\" height=\"359\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mätlinje framför två sirener; det första maximumet utanför M ligger 0,60 meter från M.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje framför två sirener; det första maximumet utanför M ligger 0,60 meter från M.</title><rect x=\"20\" y=\"32\" width=\"400\" height=\"176\" rx=\"8\" fill=\"#FAFAFB\" stroke=\"#D5D2D7\" stroke-width=\"1.4\"/><line x1=\"42\" y1=\"48\" x2=\"408\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.7\"/><text x=\"405\" y=\"40\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" fill=\"#5C575E\">mätlinje</text><line x1=\"220\" y1=\"48\" x2=\"220\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"5 5\"/><g transform=\"translate(110 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(330 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"220\" cy=\"48\" r=\"5\" fill=\"#2B2527\"/><text x=\"210\" y=\"39\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#2B2527\">M</text><circle cx=\"256.6666666666667\" cy=\"48\" r=\"5\" fill=\"#B43123\"/><text x=\"266.6666666666667\" y=\"39\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#B43123\">P</text><line x1=\"110\" y1=\"190\" x2=\"256.6666666666667\" y2=\"48\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"330\" y1=\"190\" x2=\"256.6666666666667\" y2=\"48\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><text x=\"173.33333333333334\" y=\"129\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">r₂</text><text x=\"301.33333333333337\" y=\"111\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">r₁</text><line x1=\"220\" y1=\"72\" x2=\"256.6666666666667\" y2=\"72\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"67\" x2=\"220\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"256.6666666666667\" y1=\"67\" x2=\"256.6666666666667\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><text x=\"238.33333333333334\" y=\"79\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">0,60 m</text><line x1=\"58\" y1=\"48\" x2=\"58\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"48\" x2=\"63\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"190\" x2=\"63\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"49\" y=\"119\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">4,8 m</text><line x1=\"110\" y1=\"228\" x2=\"330\" y2=\"228\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"223\" x2=\"110\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"223\" x2=\"330\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"220\" y=\"244\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">3,6 m</text></svg></span><p>Bestäm tonens våglängd och frekvens.</p>",
+    "t": "<p>Två sirener står 3,6 m från varandra och sänder samma ton i fas. Mätlinjen ligger 4,8 m framför dem. I M är ljudet starkt. Det första maximumet utanför M finns i P, 0,60 m från M.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 255\" width=\"620\" height=\"359\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mätlinje framför två sirener; det första maximumet utanför M ligger 0,60 meter från M.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje framför två sirener; det första maximumet utanför M ligger 0,60 meter från M.</title><rect x=\"20\" y=\"32\" width=\"400\" height=\"176\" rx=\"8\" fill=\"#FAFAFB\" stroke=\"#D5D2D7\" stroke-width=\"1.4\"/><line x1=\"42\" y1=\"48\" x2=\"408\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.7\"/><text x=\"405\" y=\"40\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" fill=\"#5C575E\">mätlinje</text><line x1=\"220\" y1=\"48\" x2=\"220\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"5 5\"/><g transform=\"translate(110 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(330 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"220\" cy=\"48\" r=\"5\" fill=\"#2B2527\"/><text x=\"210\" y=\"39\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#2B2527\">M</text><circle cx=\"256.6666666666667\" cy=\"48\" r=\"5\" fill=\"#B43123\"/><text x=\"266.6666666666667\" y=\"39\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#B43123\">P</text><line x1=\"110\" y1=\"190\" x2=\"256.6666666666667\" y2=\"48\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"330\" y1=\"190\" x2=\"256.6666666666667\" y2=\"48\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><text x=\"173.33333333333334\" y=\"129\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">r₂</text><text x=\"301.33333333333337\" y=\"111\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">r₁</text><line x1=\"220\" y1=\"72\" x2=\"256.6666666666667\" y2=\"72\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"67\" x2=\"220\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"256.6666666666667\" y1=\"67\" x2=\"256.6666666666667\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><text x=\"238.33333333333334\" y=\"79\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">0,60 m</text><line x1=\"58\" y1=\"48\" x2=\"58\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"48\" x2=\"63\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"190\" x2=\"63\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"49\" y=\"119\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">4,8 m</text><line x1=\"110\" y1=\"228\" x2=\"330\" y2=\"228\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"223\" x2=\"110\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"223\" x2=\"330\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"220\" y=\"244\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">3,6 m</text></svg></span><p>Bestäm tonens våglängd och frekvens. (Svara i m och Hz.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">De vågräta avstånden från P är 1,2 m och 2,4 m.</p><div class=\"facit-matte\">\\[r_1=\\sqrt{4{,}8^2+1{,}2^2}=4{,}948\\ \\mathrm m\\]\\[r_2=\\sqrt{4{,}8^2+2{,}4^2}=5{,}367\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Det första maximumet utanför M uppstår när vägskillnaden är en våglängd.</p><div class=\"facit-matte\">\\[\\lambda=\\Delta r=5{,}367-4{,}948=0{,}419\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">3</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna frekvensen.</p><div class=\"facit-matte\">\\[f=\\frac{340}{0{,}419}=812\\ \\mathrm{Hz}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Våglängden är cirka \\(0{,}42\\ \\mathrm m\\) och frekvensen cirka \\(810\\ \\mathrm{Hz}\\).</p></div>",
     "familj": "Bestämma våglängd och frekvens",
     "formaga": [
@@ -12986,14 +13556,39 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.4188363952583032,
+      811.7728159471826
+    ],
+    "tolerans": [
+      0.004,
+      8
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Bestäm först vägskillnaden mellan vågorna. Jämför sedan vägskillnaden med våglängden för att avgöra om interferensen är konstruktiv eller destruktiv.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "m",
+      "Hz"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Våglängd",
+      "Frekvens"
+    ],
+    "traningsniva": 3,
+    "miniräknare": true,
+    "svarVardesiffror": [
+      2,
+      2
     ]
   },
   {
@@ -13003,7 +13598,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "bestämma vilket interferensmaximum en punkt ligger i",
-    "t": "<p>I en lagerhall står två högtalare 4,0 m från varandra och spelar i fas med frekvensen 630 Hz. Mätlinjen ligger 5,0 m framför högtalarna och P ligger 1,5 m från M.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 255\" width=\"620\" height=\"359\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mätlinje i en lagerhall framför två högtalare; punkten P ligger 1,5 meter från M.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje i en lagerhall framför två högtalare; punkten P ligger 1,5 meter från M.</title><rect x=\"20\" y=\"32\" width=\"400\" height=\"176\" rx=\"8\" fill=\"#FAFAFB\" stroke=\"#D5D2D7\" stroke-width=\"1.4\"/><line x1=\"42\" y1=\"48\" x2=\"408\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.7\"/><text x=\"405\" y=\"40\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" fill=\"#5C575E\">mätlinje</text><line x1=\"220\" y1=\"48\" x2=\"220\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"5 5\"/><g transform=\"translate(110 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(330 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"220\" cy=\"48\" r=\"5\" fill=\"#2B2527\"/><text x=\"210\" y=\"39\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#2B2527\">M</text><circle cx=\"302.5\" cy=\"48\" r=\"5\" fill=\"#B43123\"/><text x=\"312.5\" y=\"39\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#B43123\">P</text><line x1=\"110\" y1=\"190\" x2=\"302.5\" y2=\"48\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"330\" y1=\"190\" x2=\"302.5\" y2=\"48\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><text x=\"196.25\" y=\"129\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">r₂</text><text x=\"324.25\" y=\"111\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">r₁</text><line x1=\"220\" y1=\"72\" x2=\"302.5\" y2=\"72\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"67\" x2=\"220\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"302.5\" y1=\"67\" x2=\"302.5\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><text x=\"261.25\" y=\"79\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">1,5 m</text><line x1=\"58\" y1=\"48\" x2=\"58\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"48\" x2=\"63\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"190\" x2=\"63\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"49\" y=\"119\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">5 m</text><line x1=\"110\" y1=\"228\" x2=\"330\" y2=\"228\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"223\" x2=\"110\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"223\" x2=\"330\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"220\" y=\"244\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">4 m</text></svg></span><p>Avgör om P ligger i ett maximum eller minimum. Ange också vilket maximum eller minimum det är räknat från M.</p>",
+    "t": "<p>I en lagerhall står två högtalare 4,0 m från varandra och spelar i fas med frekvensen 630 Hz. Mätlinjen ligger 5,0 m framför högtalarna och P ligger 1,5 m från M.</p><span class=\"fig bred\"><svg viewBox=\"0 0 440 255\" width=\"620\" height=\"359\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Mätlinje i en lagerhall framför två högtalare; punkten P ligger 1,5 meter från M.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Mätlinje i en lagerhall framför två högtalare; punkten P ligger 1,5 meter från M.</title><rect x=\"20\" y=\"32\" width=\"400\" height=\"176\" rx=\"8\" fill=\"#FAFAFB\" stroke=\"#D5D2D7\" stroke-width=\"1.4\"/><line x1=\"42\" y1=\"48\" x2=\"408\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.7\"/><text x=\"405\" y=\"40\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"9.5\" fill=\"#5C575E\">mätlinje</text><line x1=\"220\" y1=\"48\" x2=\"220\" y2=\"190\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"5 5\"/><g transform=\"translate(110 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₁</text></g><g transform=\"translate(330 190)\"><rect x=\"-17\" y=\"-24\" width=\"34\" height=\"48\" rx=\"3\" fill=\"#EDEEF1\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"0\" cy=\"-7\" r=\"8\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><circle cx=\"0\" cy=\"12\" r=\"4\" fill=\"#C9CCD2\" stroke=\"#2B2527\" stroke-width=\"1.3\"/><text x=\"0\" y=\"39\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\">S₂</text></g><circle cx=\"220\" cy=\"48\" r=\"5\" fill=\"#2B2527\"/><text x=\"210\" y=\"39\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#2B2527\">M</text><circle cx=\"302.5\" cy=\"48\" r=\"5\" fill=\"#B43123\"/><text x=\"312.5\" y=\"39\" font-family=\"IBM Plex Mono\" font-size=\"11\" font-weight=\"700\" fill=\"#B43123\">P</text><line x1=\"110\" y1=\"190\" x2=\"302.5\" y2=\"48\" stroke=\"#B43123\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"330\" y1=\"190\" x2=\"302.5\" y2=\"48\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><text x=\"196.25\" y=\"129\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">r₂</text><text x=\"324.25\" y=\"111\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\">r₁</text><line x1=\"220\" y1=\"72\" x2=\"302.5\" y2=\"72\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"220\" y1=\"67\" x2=\"220\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><line x1=\"302.5\" y1=\"67\" x2=\"302.5\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"1.2\"/><text x=\"261.25\" y=\"79\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#B43123\">1,5 m</text><line x1=\"58\" y1=\"48\" x2=\"58\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"48\" x2=\"63\" y2=\"48\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"53\" y1=\"190\" x2=\"63\" y2=\"190\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"49\" y=\"119\" text-anchor=\"end\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">5 m</text><line x1=\"110\" y1=\"228\" x2=\"330\" y2=\"228\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"110\" y1=\"223\" x2=\"110\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><line x1=\"330\" y1=\"223\" x2=\"330\" y2=\"233\" stroke=\"#5C575E\" stroke-width=\"1.2\"/><text x=\"220\" y=\"244\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"10\" font-weight=\"600\" fill=\"#5C575E\">4 m</text></svg></span><p>Avgör om P ligger i ett maximum eller minimum. Ange också vilket maximum eller minimum det är räknat från M. (Svara med maximum eller minimum och ordningsnumret.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">1</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna avståndet från varje högtalare till P och skillnaden mellan avstånden.</p><div class=\"facit-matte\">\\[r_1=\\sqrt{5{,}0^2+0{,}5^2}=5{,}025\\ \\mathrm m\\]\\[r_2=\\sqrt{5{,}0^2+3{,}5^2}=6{,}103\\ \\mathrm m\\]\\[\\Delta r=1{,}078\\ \\mathrm m\\]</div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">2</span><div class=\"facit-arbete\"><p class=\"facit-metod\">Beräkna våglängden och jämför.</p><div class=\"facit-matte\">\\[\\lambda=\\frac{340}{630}=0{,}540\\ \\mathrm m\\]\\[\\Delta r\\approx2\\lambda\\]</div><p>Två hela våglängder ger maximum.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> P ligger i det andra maximumet utanför M.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">För källor i fas anger \\(\\Delta r/\\lambda\\) direkt ordningen när kvoten är ett heltal.</p></li><li><p class=\"facit-not\">Att P ligger på ena sidan om mittlinjen påverkar inte ordningsnumret, bara vilken symmetrisk gren av maximumlinjen det är.</p></li></ol></div>",
     "familj": "Vägskillnad med Pythagoras sats",
     "formaga": [
@@ -13011,15 +13606,36 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "maximum",
+      2
+    ],
+    "tolerans": [
+      null,
+      0
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__konstruktiv_och_destruktiv_interferens",
     "ledtrad": "<p>Beräkna avståndet från varje högtalare till P och skillnaden mellan avstånden.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
-    ]
+    ],
+    "svarFormat": [
+      "text",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Maximum eller minimum",
+      "Ordning"
+    ],
+    "traningsniva": 3,
+    "miniräknare": true
   },
   {
     "id": "2.170",
@@ -13046,7 +13662,8 @@ window.BANK2 = [
     "ledtrad": "<p>Beräkna våglängden. Vid det första minimumet ska vägskillnaden vara en halv våglängd.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
-    ]
+    ],
+    "traningsniva": 4
   },
   {
     "id": "2.171",
@@ -13107,7 +13724,8 @@ window.BANK2 = [
     "ledtrad": "<p>Bestäm först vägskillnaden mellan vågorna. Jämför sedan vägskillnaden med våglängden för att avgöra om interferensen är konstruktiv eller destruktiv.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
-    ]
+    ],
+    "traningsniva": 4
   },
   {
     "id": "3.1",
@@ -27595,7 +28213,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avgöra om två ljudvågor förstärker eller släcker varandra ur vägskillnaden, ur text, sökt interferenstyp",
     "poang": "(2/0/0)",
-    "t": "<p>Två högtalare sänder samma ton i fas. Till en punkt P är avstånden 3,40 m respektive 4,08 m. Ljudets våglängd är 0,34 m.</p><p>Bestäm vägskillnaden och avgör om det blir förstärkning eller släckning i P.</p>",
+    "t": "<p>Två högtalare sänder samma ton i fas. Till en punkt P är avstånden 3,40 m respektive 4,08 m. Ljudets våglängd är 0,34 m.</p><p>Bestäm vägskillnaden och avgör om det blir förstärkning eller släckning i P. (Svara med vägskillnaden i m och ordet förstärkning eller släckning.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Jämför vägskillnaden med våglängden.</p></li><li><div class=\"facit-matte\">\\[\\Delta r=4{,}08-3{,}40=0{,}68\\ \\mathrm m\\]\\[\\frac{\\Delta r}{\\lambda}=\\frac{0{,}68}{0{,}34}=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vägskillnaden är \\(0{,}68\\ \\mathrm m\\), vilket är exakt två hela våglängder. Vågorna kommer fram i fas och det blir förstärkning i P.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Ett helt antal våglängder ger alltid förstärkning när källorna sänder i fas.</p></li><li><p class=\"facit-not\">Hade vägskillnaden varit ett udda antal halva våglängder hade det i stället blivit släckning.</p></li></ol></div>",
     "familj": "Maximum eller minimum ur vägskillnaden",
     "formaga": [
@@ -27603,14 +28221,39 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "interferens__interferens_fran_flera_kallor",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      0.68,
+      "förstärkning"
+    ],
+    "tolerans": [
+      0.005,
+      null
+    ],
+    "självrättning": true,
     "familjNyckelTidigare": "interferens__interferens_fran_tva_kallor",
     "ledtrad": "<p>Jämför vägskillnaden med våglängden. Beräkna vägskillnaden.</p>",
     "familjTidigare": [
       "Interferens från flera källor"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "text"
+    ],
+    "svarEnhet": [
+      "m",
+      null
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Vägskillnad",
+      "Förstärkning eller släckning"
+    ],
+    "traningsniva": 1,
+    "miniräknare": true,
+    "svarVardesiffror": [
+      2,
+      null
     ]
   },
   {
@@ -58693,5 +59336,880 @@ window.BANK2 = [
   ],
   "typ": "kompass nära en stavmagnet, begrepp",
   "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass"
+},
+{
+  "id": "2.600",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Två datorhögtalare H₁ och H₂ står 1,2 m från varandra. Elin sitter i P, 1,6 m rakt framför H₂.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"490\" height=\"354\" viewBox=\"0 0 490 354\" role=\"img\" aria-label=\"Högtalarna H1 och H2 med 1,2 meter mellan sig och punkten P 1,6 meter rakt framför H2\"><title>Högtalarna H1 och H2 med 1,2 meter mellan sig och punkten P 1,6 meter rakt framför H2</title><rect x=\"1\" y=\"1\" width=\"488\" height=\"352\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"138\" y1=\"62.0\" x2=\"410.0\" y2=\"272.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"272.0\" x2=\"410.0\" y2=\"272.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"264.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,264.0 137,256.0 137,288.0 125,280.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"291.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"306.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"410.0\" cy=\"272.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"417.0\" y=\"261.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"422.0\" y=\"277.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><line x1=\"88\" y1=\"62.0\" x2=\"88\" y2=\"272.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"62.0\" x2=\"94\" y2=\"62.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"272.0\" x2=\"94\" y2=\"272.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"30.6\" y=\"158.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"79.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">1,2 m</text><line x1=\"138.0\" y1=\"320.0\" x2=\"410.0\" y2=\"320.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"138.0\" y1=\"314.0\" x2=\"138.0\" y2=\"326.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"410.0\" y1=\"314.0\" x2=\"410.0\" y2=\"326.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"247.3\" y=\"326.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"274.0\" y=\"340.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,6 m</text></svg></span><p>Hur långt är det från H₁ till Elin? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sträckan från H₁ till P är hypotenusan i en rätvinklig triangel med kateterna 1,2 m och 1,6 m.</p></li><li><div class=\"facit-matte\">\\[r_1=\\sqrt{1{,}2^2+1{,}6^2}=2{,}0\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,0 m.</p></div>",
+  "familj": "Vägskillnad med Pythagoras sats",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Rita den rätvinkliga triangeln H₁H₂P. Vilken sida är hypotenusan?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.0,
+  "tolerans": 0.02,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m",
+  "typ": "avstånd till P med Pythagoras sats",
+  "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+},
+{
+  "id": "2.601",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>I en vågbassäng finns två vågkällor K₁ och K₂. Punkten P ligger 12 cm framför K₁ och 5,0 cm åt sidan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"299\" height=\"290\" viewBox=\"0 0 299 290\" role=\"img\" aria-label=\"Vågbassäng med källorna K1 och K2. P ligger 12 cm framför och 5 cm åt sidan från K1.\"><title>Vågbassäng med källorna K1 och K2. P ligger 12 cm framför och 5 cm åt sidan från K1.</title><rect x=\"1\" y=\"1\" width=\"297\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"22\" width=\"238.7\" height=\"246.0\" rx=\"8\" fill=\"#e6f1f7\" stroke=\"#7aa7c2\" stroke-width=\"1.4\"/><line x1=\"92.6\" y1=\"238.7\" x2=\"163.5\" y2=\"68.4\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"206.1\" y1=\"238.7\" x2=\"163.5\" y2=\"68.4\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"92.6\" y1=\"238.7\" x2=\"92.6\" y2=\"68.4\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"92.6\" y1=\"68.4\" x2=\"163.5\" y2=\"68.4\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"36.2\" y=\"139.5\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"84.6\" y=\"153.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">12 cm</text><rect x=\"97.0\" y=\"44.4\" width=\"62.1\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"128.1\" y=\"58.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">5,0 cm</text><circle cx=\"92.6\" cy=\"238.7\" r=\"6\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"78.3\" y=\"247.7\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"92.6\" y=\"262.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K₁</text><circle cx=\"206.1\" cy=\"238.7\" r=\"6\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"191.8\" y=\"247.7\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"206.1\" y=\"262.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K₂</text><circle cx=\"163.5\" cy=\"68.4\" r=\"5.5\" fill=\"#c2410c\"/><rect x=\"170.5\" y=\"44.4\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"175.5\" y=\"60.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">P</text></svg></span><p>Hur långt är det från K₁ till P? (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_1=\\sqrt{12^2+5{,}0^2}=\\sqrt{169}=13\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13 cm.</p></div>",
+  "familj": "Vägskillnad med Pythagoras sats",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Sträckan K₁P är hypotenusan i en rätvinklig triangel.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 13,
+  "tolerans": 0.13,
+  "svarVardesiffror": 2,
+  "svarEnhet": "cm",
+  "typ": "avstånd i vågbassäng med Pythagoras sats",
+  "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+},
+{
+  "id": "2.602",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Två radiomaster A och B står 60 m från varandra. En väg går från A, vinkelrätt mot linjen AB. En bil står på vägen 80 m från A.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"338\" height=\"322\" viewBox=\"0 0 338 322\" role=\"img\" aria-label=\"Radiomasterna B och A med 60 meter mellan sig och en bil 80 meter från A längs en väg vinkelrätt mot AB\"><title>Radiomasterna B och A med 60 meter mellan sig och en bil 80 meter från A längs en väg vinkelrätt mot AB</title><rect x=\"1\" y=\"1\" width=\"336\" height=\"320\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"213.5\" y=\"20\" width=\"28\" height=\"240.0\" fill=\"#eef1f4\"/><line x1=\"227.5\" y1=\"24\" x2=\"227.5\" y2=\"260.0\" stroke=\"#fff\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"244.5\" y=\"27.0\" width=\"34.2\" height=\"18.2\" rx=\"3\" fill=\"#fff\"/><text x=\"249.5\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">väg</text><line x1=\"72\" y1=\"242.0\" x2=\"227.5\" y2=\"50.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><rect x=\"218.5\" y=\"36.0\" width=\"18\" height=\"28\" rx=\"5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"92.3\" y=\"122.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"140.8\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">r = ?</text><line x1=\"267.5\" y1=\"50.0\" x2=\"267.5\" y2=\"242.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"261.5\" y1=\"50.0\" x2=\"273.5\" y2=\"50.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"261.5\" y1=\"242.0\" x2=\"273.5\" y2=\"242.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"271.5\" y=\"137.0\" width=\"44.7\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"276.5\" y=\"151.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">80 m</text><polygon points=\"61,274 70,242 79,274\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"263\" x2=\"76\" y2=\"263\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><circle cx=\"70\" cy=\"240\" r=\"3\" fill=\"#172b3a\"/><path d=\"M78 232 q7 8 0 16 M83 227 q11 13 0 26\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><polygon points=\"218.5,274 227.5,242 236.5,274\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"221.5\" y1=\"263\" x2=\"233.5\" y2=\"263\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><circle cx=\"227.5\" cy=\"240\" r=\"3\" fill=\"#172b3a\"/><path d=\"M235.5 232 q7 8 0 16 M240.5 227 q11 13 0 26\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"33.7\" y=\"253.0\" width=\"19.3\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"48.0\" y=\"268.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">B</text><rect x=\"191.2\" y=\"253.0\" width=\"19.3\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"205.5\" y=\"268.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">A</text><line x1=\"70.0\" y1=\"282\" x2=\"227.5\" y2=\"282\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"276\" x2=\"70.0\" y2=\"288\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"227.5\" y1=\"276\" x2=\"227.5\" y2=\"288\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"126.4\" y=\"288.0\" width=\"44.7\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"148.8\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">60 m</text></svg></span><p>Hur långt är det från mast B till bilen? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=\\sqrt{60^2+80^2}=\\sqrt{10\\,000}=100\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100 m.</p></div>",
+  "familj": "Vägskillnad med Pythagoras sats",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vägen är vinkelrät mot AB, så B, A och bilen bildar en rätvinklig triangel.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 100,
+  "tolerans": 1.0,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m",
+  "typ": "avstånd från radiomast till bil",
+  "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+},
+{
+  "id": "2.603",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Två radiomaster sänder samma signal i fas med våglängden 50 m. En mottagare ligger 350 m från den ena masten och 375 m från den andra.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"490\" height=\"264\" viewBox=\"0 0 490 264\" role=\"img\" aria-label=\"Två radiomaster och en mottagare P. Avstånden är 350 m och 375 m.\"><title>Två radiomaster och en mottagare P. Avstånden är 350 m och 375 m.</title><rect x=\"1\" y=\"1\" width=\"488\" height=\"262\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"138\" y1=\"62.0\" x2=\"410.0\" y2=\"174.5\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"212.0\" x2=\"410.0\" y2=\"174.5\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><polygon points=\"121,78 130,46 139,78\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"124\" y1=\"67\" x2=\"136\" y2=\"67\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><circle cx=\"130\" cy=\"44\" r=\"3\" fill=\"#172b3a\"/><path d=\"M138 36 q7 8 0 16 M143 31 q11 13 0 26\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><polygon points=\"121,228 130,196 139,228\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"124\" y1=\"217\" x2=\"136\" y2=\"217\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><circle cx=\"130\" cy=\"194\" r=\"3\" fill=\"#172b3a\"/><path d=\"M138 186 q7 8 0 16 M143 181 q11 13 0 26\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"118.3\" y=\"23.0\" width=\"19.3\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><rect x=\"118.3\" y=\"231.0\" width=\"19.3\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"246.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"410.0\" cy=\"174.5\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"417.0\" y=\"163.5\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"422.0\" y=\"179.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><rect x=\"247.3\" y=\"96.2\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"274.0\" y=\"110.2\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">350 m</text><rect x=\"247.3\" y=\"197.2\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"274.0\" y=\"211.2\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">375 m</text></svg></span><p>Hur många våglängder är vägskillnaden? (Svara med ett tal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta s=375-350=25\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{\\Delta s}{\\lambda}=\\frac{25}{50}=0{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vägskillnaden är 0,5 våglängder, alltså en halv våglängd.</p></div>",
+  "familj": "Maximum eller minimum ur vägskillnaden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Beräkna först vägskillnaden och dela den med våglängden.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.5,
+  "tolerans": 0.01,
+  "typ": "vägskillnad uttryckt i våglängder",
+  "familjNyckel": "interferens__maximum_eller_minimum_ur_vagskillnaden"
+},
+{
+  "id": "2.604",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Två vågkällor i en vågbassäng svänger i fas. Våglängden är 1,5 cm. Avståndet från K₁ till P är 9,0 cm och från K₂ till P 12,0 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"290\" viewBox=\"0 0 340 290\" role=\"img\" aria-label=\"Vågbassäng med källorna K1 och K2 och punkten P. Avstånden till P är 9,0 cm och 12,0 cm.\"><title>Vågbassäng med källorna K1 och K2 och punkten P. Avstånden till P är 9,0 cm och 12,0 cm.</title><rect x=\"1\" y=\"1\" width=\"338\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"22\" width=\"279.5\" height=\"246.0\" rx=\"8\" fill=\"#e6f1f7\" stroke=\"#7aa7c2\" stroke-width=\"1.4\"/><polyline points=\"156.5,233.4 156.4,232.7 156.4,232.0 156.4,231.3 156.3,230.6 156.2,229.9 156.1,229.2 156.0,228.5 155.9,227.9 155.7,227.2 155.5,226.5 155.4,225.8 155.1,225.2 154.9,224.5 154.7,223.8 154.4,223.2 154.2,222.6 153.9,221.9 153.6,221.3 153.2,220.7 152.9,220.1 152.5,219.5 152.2,218.9 151.8,218.3 151.4,217.7 151.0,217.2 150.5,216.6 150.1,216.1 149.6,215.6 149.1,215.1 148.7,214.6 148.2,214.1 147.6,213.6 147.1,213.2 146.6,212.7 146.0,212.3 145.5,211.9 144.9,211.5 144.3,211.1 143.7,210.7 143.1,210.3 142.5,210.0 141.9,209.7 141.3,209.4 140.7,209.1 140.0,208.8 139.4,208.5 138.7,208.3 138.1,208.1 137.4,207.9 136.7,207.7 136.1,207.5 135.4,207.4 134.7,207.2 134.0,207.1 133.3,207.0 132.6,206.9 131.9,206.9 131.2,206.8 130.5,206.8 129.8,206.8 129.1,206.8 128.4,206.8 127.8,206.9 127.1,206.9 126.4,207.0 125.7,207.1 125.0,207.2 124.3,207.4 123.6,207.5 123.0,207.7 122.3,207.9 121.6,208.1 121.0,208.3 120.3,208.5 119.7,208.8 119.0,209.1 118.4,209.4 117.8,209.7 117.1,210.0 116.5,210.3 115.9,210.7 115.3,211.1 114.8,211.5 114.2,211.9 113.6,212.3 113.1,212.7 112.6,213.2 112.0,213.6 111.5,214.1 111.0,214.6 110.5,215.1 110.1,215.6 109.6,216.1 109.2,216.6 108.7,217.2 108.3,217.7 107.9,218.3 107.5,218.9 107.1,219.5 106.8,220.1 106.5,220.7 106.1,221.3 105.8,221.9 105.5,222.6 105.3,223.2 105.0,223.8 104.8,224.5 104.5,225.2 104.3,225.8 104.1,226.5 104.0,227.2 103.8,227.9 103.7,228.5 103.6,229.2 103.5,229.9 103.4,230.6 103.3,231.3 103.3,232.0 103.2,232.7 103.2,233.4 103.2,234.1 103.3,234.8 103.3,235.5 103.4,236.2 103.5,236.9 103.6,237.6 103.7,238.2 103.8,238.9 104.0,239.6 104.1,240.3 104.3,240.9 104.5,241.6 104.8,242.3 105.0,242.9 105.3,243.6 105.5,244.2 105.8,244.8 106.1,245.5 106.5,246.1 106.8,246.7 107.1,247.3 107.5,247.9 107.9,248.5 108.3,249.0 108.7,249.6 109.2,250.1 109.6,250.7 110.1,251.2 110.5,251.7 111.0,252.2 111.5,252.7 112.0,253.2 112.6,253.6 113.1,254.1 113.6,254.5 114.2,254.9 114.8,255.3 115.3,255.7 115.9,256.1 116.5,256.4 117.1,256.8 117.8,257.1 118.4,257.4 119.0,257.7 119.7,258.0 120.3,258.2 121.0,258.5 121.6,258.7 122.3,258.9 123.0,259.1 123.6,259.3 124.3,259.4 125.0,259.6 125.7,259.7 126.4,259.8 127.1,259.9 127.8,259.9 128.4,260.0 129.1,260.0 129.8,260.0 130.5,260.0 131.2,260.0 131.9,259.9 132.6,259.9 133.3,259.8 134.0,259.7 134.7,259.6 135.4,259.4 136.1,259.3 136.7,259.1 137.4,258.9 138.1,258.7 138.7,258.5 139.4,258.2 140.0,258.0 140.7,257.7 141.3,257.4 141.9,257.1 142.5,256.8 143.1,256.4 143.7,256.1 144.3,255.7 144.9,255.3 145.5,254.9 146.0,254.5 146.6,254.1 147.1,253.6 147.6,253.2 148.2,252.7 148.7,252.2 149.1,251.7 149.6,251.2 150.1,250.7 150.5,250.1 151.0,249.6 151.4,249.0 151.8,248.5 152.2,247.9 152.5,247.3 152.9,246.7 153.2,246.1 153.6,245.5 153.9,244.8 154.2,244.2 154.4,243.6 154.7,242.9 154.9,242.3 155.1,241.6 155.4,240.9 155.5,240.3 155.7,239.6 155.9,238.9 156.0,238.2 156.1,237.6 156.2,236.9 156.3,236.2 156.4,235.5 156.4,234.8 156.4,234.1 156.5,233.4\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"183.1,233.4 183.0,232.0 183.0,230.6 182.9,229.2 182.8,227.8 182.6,226.4 182.4,225.1 182.2,223.7 181.9,222.3 181.6,221.0 181.3,219.6 180.9,218.3 180.5,216.9 180.0,215.6 179.5,214.3 179.0,213.0 178.5,211.7 177.9,210.5 177.3,209.2 176.6,208.0 175.9,206.8 175.2,205.6 174.5,204.4 173.7,203.2 172.9,202.1 172.1,201.0 171.2,199.9 170.3,198.8 169.4,197.8 168.4,196.7 167.5,195.8 166.5,194.8 165.5,193.8 164.4,192.9 163.3,192.0 162.2,191.2 161.1,190.3 160.0,189.5 158.8,188.7 157.6,188.0 156.5,187.3 155.2,186.6 154.0,186.0 152.8,185.3 151.5,184.8 150.2,184.2 148.9,183.7 147.6,183.2 146.3,182.8 145.0,182.4 143.6,182.0 142.3,181.6 140.9,181.3 139.5,181.1 138.2,180.8 136.8,180.6 135.4,180.5 134.0,180.3 132.6,180.2 131.2,180.2 129.8,180.2 128.4,180.2 127.1,180.2 125.7,180.3 124.3,180.5 122.9,180.6 121.5,180.8 120.1,181.1 118.8,181.3 117.4,181.6 116.1,182.0 114.7,182.4 113.4,182.8 112.1,183.2 110.8,183.7 109.5,184.2 108.2,184.8 106.9,185.3 105.7,186.0 104.4,186.6 103.2,187.3 102.0,188.0 100.8,188.7 99.7,189.5 98.6,190.3 97.4,191.2 96.3,192.0 95.3,192.9 94.2,193.8 93.2,194.8 92.2,195.8 91.2,196.7 90.3,197.8 89.4,198.8 88.5,199.9 87.6,201.0 86.8,202.1 86.0,203.2 85.2,204.4 84.5,205.6 83.7,206.8 83.1,208.0 82.4,209.2 81.8,210.5 81.2,211.7 80.7,213.0 80.1,214.3 79.7,215.6 79.2,216.9 78.8,218.3 78.4,219.6 78.1,221.0 77.8,222.3 77.5,223.7 77.3,225.1 77.1,226.4 76.9,227.8 76.8,229.2 76.7,230.6 76.6,232.0 76.6,233.4 76.6,234.8 76.7,236.2 76.8,237.6 76.9,239.0 77.1,240.3 77.3,241.7 77.5,243.1 77.8,244.5 78.1,245.8 78.4,247.2 78.8,248.5 79.2,249.8 79.7,251.2 80.1,252.5 80.7,253.8 81.2,255.0 81.8,256.3 82.4,257.6 83.1,258.8 83.7,260.0 84.5,261.2\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"175.2,261.2 175.9,260.0 176.6,258.8 177.3,257.6 177.9,256.3 178.5,255.0 179.0,253.8 179.5,252.5 180.0,251.2 180.5,249.8 180.9,248.5 181.3,247.2 181.6,245.8 181.9,244.5 182.2,243.1 182.4,241.7 182.6,240.3 182.8,239.0 182.9,237.6 183.0,236.2 183.0,234.8 183.1,233.4\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"209.7,233.4 209.7,231.3 209.6,229.2 209.4,227.1 209.2,225.0 209.0,223.0 208.7,220.9 208.3,218.8 207.9,216.8 207.5,214.7 207.0,212.7 206.4,210.7 205.8,208.7 205.1,206.7 204.4,204.8 203.6,202.8 202.8,200.9 201.9,199.0 201.0,197.1 200.0,195.3 199.0,193.5 197.9,191.7 196.8,189.9 195.6,188.2 194.4,186.5 193.2,184.8 191.9,183.1 190.5,181.5 189.2,180.0 187.8,178.4 186.3,176.9 184.8,175.5 183.3,174.1 181.7,172.7 180.1,171.3 178.4,170.0 176.8,168.8 175.1,167.6 173.3,166.4 171.6,165.3 169.8,164.2 167.9,163.2 166.1,162.3 164.2,161.3 162.3,160.5 160.4,159.6 158.5,158.9 156.5,158.1 154.5,157.5 152.5,156.8 150.5,156.3 148.5,155.8 146.4,155.3 144.4,154.9 142.3,154.5 140.3,154.2 138.2,154.0 136.1,153.8 134.0,153.7 131.9,153.6 129.8,153.5 127.7,153.6 125.7,153.7 123.6,153.8 121.5,154.0 119.4,154.2 117.3,154.5 115.3,154.9 113.2,155.3 111.2,155.8 109.2,156.3 107.2,156.8 105.2,157.5 103.2,158.1 101.2,158.9 99.3,159.6 97.4,160.5 95.5,161.3 93.6,162.3 91.7,163.2 89.9,164.2 88.1,165.3 86.4,166.4 84.6,167.6 82.9,168.8 81.2,170.0 79.6,171.3 78.0,172.7 76.4,174.1 74.9,175.5 73.4,176.9 71.9,178.4 70.5,180.0 69.1,181.5 67.8,183.1 66.5,184.8 65.2,186.5 64.0,188.2 62.9,189.9 61.8,191.7 60.7,193.5 59.7,195.3 58.7,197.1 57.8,199.0 56.9,200.9 56.1,202.8 55.3,204.8 54.6,206.7 53.9,208.7 53.3,210.7 52.7,212.7 52.2,214.7 51.7,216.8 51.3,218.8 51.0,220.9 50.7,223.0 50.4,225.0 50.2,227.1 50.1,229.2 50.0,231.3 50.0,233.4 50.0,235.5 50.1,237.6 50.2,239.7 50.4,241.7 50.7,243.8 51.0,245.9 51.3,247.9 51.7,250.0 52.2,252.0 52.7,254.1 53.3,256.1 53.9,258.1 54.6,260.0 55.3,262.0\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"204.4,262.0 205.1,260.0 205.8,258.1 206.4,256.1 207.0,254.1 207.5,252.0 207.9,250.0 208.3,247.9 208.7,245.9 209.0,243.8 209.2,241.7 209.4,239.7 209.6,237.6 209.7,235.5 209.7,233.4\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"236.3,233.4 236.3,230.6 236.1,227.8 236.0,225.0 235.7,222.3 235.4,219.5 235.0,216.7 234.5,214.0 234.0,211.3 233.3,208.5 232.7,205.8 231.9,203.2 231.1,200.5 230.2,197.9 229.2,195.2 228.2,192.6 227.1,190.1 225.9,187.6 224.7,185.1 223.4,182.6 222.0,180.2 220.6,177.8 219.1,175.4 217.6,173.1 216.0,170.8 214.3,168.6 212.6,166.4 210.8,164.3 208.9,162.2 207.1,160.1 205.1,158.1 203.1,156.2 201.1,154.3 199.0,152.4 196.8,150.7 194.6,148.9 192.4,147.3 190.1,145.7 187.8,144.1 185.5,142.6 183.1,141.2 180.6,139.8 178.2,138.5 175.7,137.3 173.1,136.1 170.6,135.0 168.0,134.0 165.4,133.0 162.7,132.1 160.1,131.3 157.4,130.6 154.7,129.9 152.0,129.3 149.2,128.7 146.5,128.2 143.7,127.8 141.0,127.5 138.2,127.3 135.4,127.1 132.6,127.0 129.8,126.9 127.1,127.0 124.3,127.1 121.5,127.3 118.7,127.5 115.9,127.8 113.2,128.2 110.4,128.7 107.7,129.3 105.0,129.9 102.3,130.6 99.6,131.3 96.9,132.1 94.3,133.0 91.7,134.0 89.1,135.0 86.5,136.1 84.0,137.3 81.5,138.5 79.0,139.8 76.6,141.2 74.2,142.6 71.9,144.1 69.5,145.7 67.3,147.3 65.0,148.9 62.8,150.7 60.7,152.4 58.6,154.3 56.6,156.2 54.6,158.1 52.6,160.1 50.7,162.2 48.9,164.3 47.1,166.4 45.4,168.6 43.7,170.8 42.1,173.1 40.6,175.4 39.1,177.8 37.6,180.2 36.3,182.6\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"232.7,260.9 233.3,258.2 234.0,255.5 234.5,252.8 235.0,250.0 235.4,247.3 235.7,244.5 236.0,241.7 236.1,239.0 236.3,236.2 236.3,233.4\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"262.9,233.4 262.9,229.9 262.7,226.4 262.5,222.9 262.2,219.5 261.8,216.0 261.3,212.6 260.7,209.1 260.0,205.7 259.2,202.3 258.4,198.9 257.4,195.6 256.4,192.3 255.3,189.0 254.1,185.7 252.8,182.5 251.4,179.3 249.9,176.1 248.4,173.0 246.8,169.9 245.1,166.9 243.3,163.9 241.4,160.9 239.5,158.0 237.5,155.2 235.4,152.4 233.2,149.6 231.0,147.0 228.7,144.3 226.4,141.8 223.9,139.3 221.4,136.9 218.9,134.5 216.3,132.2 213.6,130.0 210.8,127.8 208.1,125.7 205.2,123.7 202.3,121.8 199.4,119.9 196.4,118.1 193.3,116.4 190.2,114.8 187.1,113.3 184.0,111.8 180.8,110.5 177.5,109.2 174.3,108.0 171.0,106.8 167.6,105.8 164.3,104.9 160.9,104.0 157.5,103.2 154.1,102.6 150.7,102.0 147.2,101.5 143.7,101.1 140.3,100.7 136.8,100.5 133.3,100.4 129.8,100.3 126.4,100.4 122.9,100.5 119.4,100.7 115.9,101.1 112.5,101.5 109.0,102.0 105.6,102.6 102.2,103.2 98.8,104.0 95.4,104.9 92.0,105.8 88.7,106.8 85.4,108.0 82.2,109.2 78.9,110.5 75.7,111.8 72.6,113.3 69.4,114.8 66.3,116.4 63.3,118.1 60.3,119.9 57.4,121.8 54.5,123.7 51.6,125.7 48.8,127.8 46.1,130.0 43.4,132.2 40.8,134.5 38.2,136.9\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"260.0,261.1 260.7,257.6 261.3,254.2 261.8,250.8 262.2,247.3 262.5,243.8 262.7,240.4 262.9,236.9 262.9,233.4\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"289.5,233.4 289.5,229.2 289.3,225.0 289.0,220.9 288.6,216.7 288.2,212.5 287.6,208.4 286.8,204.3 286.0,200.2 285.1,196.1 284.1,192.1 282.9,188.0 281.7,184.0 280.4,180.1 278.9,176.2 277.4,172.3 275.7,168.4 274.0,164.6 272.1,160.9 270.2,157.2 268.1,153.5 266.0,150.0 263.8,146.4 261.4,142.9 259.0,139.5 256.5,136.2 253.9,132.9 251.3,129.7 248.5,126.5 245.7,123.5 242.7,120.5 239.8,117.6 236.7,114.7 233.5,112.0 230.3,109.3 227.0,106.7 223.7,104.2 220.3,101.8 216.8,99.5 213.3,97.2 209.7,95.1 206.0,93.1 202.3,91.1 198.6,89.3 194.8,87.5 190.9,85.9 187.1,84.3 183.1,82.9 179.2,81.5 175.2,80.3 171.2,79.2 167.1,78.1 163.0,77.2 158.9,76.4 154.8,75.7 150.7,75.1 146.5,74.6 142.4,74.2 138.2,73.9 134.0,73.8 129.8,73.7 125.7,73.8 121.5,73.9 117.3,74.2 113.1,74.6 109.0,75.1 104.9,75.7 100.7,76.4 96.6,77.2 92.6,78.1 88.5,79.2 84.5,80.3 80.5,81.5 76.5,82.9 72.6,84.3 68.7,85.9 64.9,87.5 61.1,89.3 57.3,91.1 53.6,93.1 50.0,95.1 46.4,97.2 42.9,99.5 39.4,101.8\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"287.6,258.4 288.2,254.2 288.6,250.1 289.0,245.9 289.3,241.7 289.5,237.6 289.5,233.4\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"301.9,162.1 300.0,157.6 298.0,153.2 295.8,148.8 293.6,144.5 291.2,140.2 288.7,136.1 286.1,131.9 283.4,127.9 280.6,123.9 277.6,120.0 274.6,116.2 271.5,112.4 268.3,108.7 265.0,105.2 261.6,101.7 258.1,98.3 254.5,94.9 250.8,91.7 247.1,88.6 243.2,85.6 239.3,82.7 235.4,79.9 231.3,77.2 227.2,74.5 223.0,72.1 218.7,69.7 214.4,67.4 210.0,65.2 205.6,63.2 201.1,61.3 196.6,59.5 192.0,57.8 187.4,56.2 182.7,54.8 178.1,53.4 173.3,52.2 168.6,51.2 163.8,50.2 159.0,49.4 154.2,48.7 149.3,48.1 144.5,47.7 139.6,47.4 134.7,47.2 129.8,47.1 125.0,47.2 120.1,47.4 115.2,47.7 110.4,48.1 105.5,48.7 100.7,49.4 95.9,50.2 91.1,51.2 86.4,52.2 81.6,53.4 76.9,54.8 72.3,56.2 67.7,57.8 63.1,59.5 58.5,61.3 54.1,63.2 49.6,65.2 45.3,67.4 40.9,69.7 36.7,72.1\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"302.1,108.2 298.7,103.8 295.3,99.4 291.7,95.1 288.1,90.9 284.3,86.8 280.4,82.8 276.4,79.0 272.3,75.2 268.1,71.5 263.8,67.9 259.4,64.5 255.0,61.1 250.4,57.9 245.8,54.8 241.1,51.9 236.3,49.0 231.4,46.3 226.5,43.7 221.5,41.2 216.4,38.9 211.3,36.7 206.1,34.6 200.9,32.7 195.6,30.9 190.3,29.3\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"69.4,29.3 64.0,30.9 58.8,32.7 53.5,34.6 48.4,36.7 43.2,38.9 38.2,41.2\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"299.2,64.0 294.7,59.6 290.1,55.4 285.4,51.3 280.6,47.2 275.6,43.4 270.6,39.6 265.5,36.0 260.3,32.5 255.0,29.2\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"262.9,233.4 262.9,232.7 262.9,232.0 262.8,231.3 262.8,230.6 262.7,229.9 262.6,229.2 262.5,228.5 262.3,227.9 262.2,227.2 262.0,226.5 261.8,225.8 261.6,225.2 261.4,224.5 261.1,223.8 260.9,223.2 260.6,222.6 260.3,221.9 260.0,221.3 259.7,220.7 259.3,220.1 259.0,219.5 258.6,218.9 258.2,218.3 257.8,217.7 257.4,217.2 257.0,216.6 256.5,216.1 256.1,215.6 255.6,215.1 255.1,214.6 254.6,214.1 254.1,213.6 253.6,213.2 253.0,212.7 252.5,212.3 251.9,211.9 251.4,211.5 250.8,211.1 250.2,210.7 249.6,210.3 249.0,210.0 248.4,209.7 247.7,209.4 247.1,209.1 246.5,208.8 245.8,208.5 245.2,208.3 244.5,208.1 243.8,207.9 243.2,207.7 242.5,207.5 241.8,207.4 241.1,207.2 240.5,207.1 239.8,207.0 239.1,206.9 238.4,206.9 237.7,206.8 237.0,206.8 236.3,206.8 235.6,206.8 234.9,206.8 234.2,206.9 233.5,206.9 232.8,207.0 232.1,207.1 231.4,207.2 230.8,207.4 230.1,207.5 229.4,207.7 228.7,207.9 228.1,208.1 227.4,208.3 226.8,208.5 226.1,208.8 225.5,209.1 224.8,209.4 224.2,209.7 223.6,210.0 223.0,210.3 222.4,210.7 221.8,211.1 221.2,211.5 220.6,211.9 220.1,212.3 219.5,212.7 219.0,213.2 218.5,213.6 218.0,214.1 217.5,214.6 217.0,215.1 216.5,215.6 216.1,216.1 215.6,216.6 215.2,217.2 214.8,217.7 214.4,218.3 214.0,218.9 213.6,219.5 213.2,220.1 212.9,220.7 212.6,221.3 212.3,221.9 212.0,222.6 211.7,223.2 211.4,223.8 211.2,224.5 211.0,225.2 210.8,225.8 210.6,226.5 210.4,227.2 210.3,227.9 210.1,228.5 210.0,229.2 209.9,229.9 209.8,230.6 209.8,231.3 209.7,232.0 209.7,232.7 209.7,233.4 209.7,234.1 209.7,234.8 209.8,235.5 209.8,236.2 209.9,236.9 210.0,237.6 210.1,238.2 210.3,238.9 210.4,239.6 210.6,240.3 210.8,240.9 211.0,241.6 211.2,242.3 211.4,242.9 211.7,243.6 212.0,244.2 212.3,244.8 212.6,245.5 212.9,246.1 213.2,246.7 213.6,247.3 214.0,247.9 214.4,248.5 214.8,249.0 215.2,249.6 215.6,250.1 216.1,250.7 216.5,251.2 217.0,251.7 217.5,252.2 218.0,252.7 218.5,253.2 219.0,253.6 219.5,254.1 220.1,254.5 220.6,254.9 221.2,255.3 221.8,255.7 222.4,256.1 223.0,256.4 223.6,256.8 224.2,257.1 224.8,257.4 225.5,257.7 226.1,258.0 226.8,258.2 227.4,258.5 228.1,258.7 228.7,258.9 229.4,259.1 230.1,259.3 230.8,259.4 231.4,259.6 232.1,259.7 232.8,259.8 233.5,259.9 234.2,259.9 234.9,260.0 235.6,260.0 236.3,260.0 237.0,260.0 237.7,260.0 238.4,259.9 239.1,259.9 239.8,259.8 240.5,259.7 241.1,259.6 241.8,259.4 242.5,259.3 243.2,259.1 243.8,258.9 244.5,258.7 245.2,258.5 245.8,258.2 246.5,258.0 247.1,257.7 247.7,257.4 248.4,257.1 249.0,256.8 249.6,256.4 250.2,256.1 250.8,255.7 251.4,255.3 251.9,254.9 252.5,254.5 253.0,254.1 253.6,253.6 254.1,253.2 254.6,252.7 255.1,252.2 255.6,251.7 256.1,251.2 256.5,250.7 257.0,250.1 257.4,249.6 257.8,249.0 258.2,248.5 258.6,247.9 259.0,247.3 259.3,246.7 259.7,246.1 260.0,245.5 260.3,244.8 260.6,244.2 260.9,243.6 261.1,242.9 261.4,242.3 261.6,241.6 261.8,240.9 262.0,240.3 262.2,239.6 262.3,238.9 262.5,238.2 262.6,237.6 262.7,236.9 262.8,236.2 262.8,235.5 262.9,234.8 262.9,234.1 262.9,233.4\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"289.5,233.4 289.5,232.0 289.4,230.6 289.4,229.2 289.2,227.8 289.1,226.4 288.9,225.1 288.6,223.7 288.4,222.3 288.0,221.0 287.7,219.6 287.3,218.3 286.9,216.9 286.5,215.6 286.0,214.3 285.5,213.0 284.9,211.7 284.3,210.5 283.7,209.2 283.1,208.0 282.4,206.8 281.7,205.6 280.9,204.4 280.2,203.2 279.4,202.1 278.5,201.0 277.7,199.9 276.8,198.8 275.8,197.8 274.9,196.7 273.9,195.8 272.9,194.8 271.9,193.8 270.9,192.9 269.8,192.0 268.7,191.2 267.6,190.3 266.4,189.5 265.3,188.7 264.1,188.0 262.9,187.3 261.7,186.6 260.5,186.0 259.2,185.3 257.9,184.8 256.7,184.2 255.4,183.7 254.1,183.2 252.7,182.8 251.4,182.4 250.1,182.0 248.7,181.6 247.4,181.3 246.0,181.1 244.6,180.8 243.2,180.6 241.9,180.5 240.5,180.3 239.1,180.2 237.7,180.2 236.3,180.2 234.9,180.2 233.5,180.2 232.1,180.3 230.7,180.5 229.3,180.6 228.0,180.8 226.6,181.1 225.2,181.3 223.9,181.6 222.5,182.0 221.2,182.4 219.8,182.8 218.5,183.2 217.2,183.7 215.9,184.2 214.6,184.8 213.4,185.3 212.1,186.0 210.9,186.6 209.7,187.3 208.5,188.0 207.3,188.7 206.1,189.5 205.0,190.3 203.9,191.2 202.8,192.0 201.7,192.9 200.7,193.8 199.7,194.8 198.7,195.8 197.7,196.7 196.7,197.8 195.8,198.8 194.9,199.9 194.1,201.0 193.2,202.1 192.4,203.2 191.7,204.4 190.9,205.6 190.2,206.8 189.5,208.0 188.9,209.2 188.2,210.5 187.7,211.7 187.1,213.0 186.6,214.3 186.1,215.6 185.7,216.9 185.3,218.3 184.9,219.6 184.5,221.0 184.2,222.3 184.0,223.7 183.7,225.1 183.5,226.4 183.4,227.8 183.2,229.2 183.1,230.6 183.1,232.0 183.1,233.4 183.1,234.8 183.1,236.2 183.2,237.6 183.4,239.0 183.5,240.3 183.7,241.7 184.0,243.1 184.2,244.5 184.5,245.8 184.9,247.2 185.3,248.5 185.7,249.8 186.1,251.2 186.6,252.5 187.1,253.8 187.7,255.0 188.2,256.3 188.9,257.6 189.5,258.8 190.2,260.0 190.9,261.2\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"281.7,261.2 282.4,260.0 283.1,258.8 283.7,257.6 284.3,256.3 284.9,255.0 285.5,253.8 286.0,252.5 286.5,251.2 286.9,249.8 287.3,248.5 287.7,247.2 288.0,245.8 288.4,244.5 288.6,243.1 288.9,241.7 289.1,240.3 289.2,239.0 289.4,237.6 289.4,236.2 289.5,234.8 289.5,233.4\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"303.2,189.9 302.1,188.2 300.9,186.5 299.6,184.8 298.3,183.1 297.0,181.5 295.6,180.0 294.2,178.4 292.7,176.9 291.2,175.5 289.7,174.1 288.1,172.7 286.5,171.3 284.9,170.0 283.2,168.8 281.5,167.6 279.8,166.4 278.0,165.3 276.2,164.2 274.4,163.2 272.5,162.3 270.7,161.3 268.8,160.5 266.8,159.6 264.9,158.9 262.9,158.1 261.0,157.5 259.0,156.8 257.0,156.3 254.9,155.8 252.9,155.3 250.8,154.9 248.8,154.5 246.7,154.2 244.6,154.0 242.6,153.8 240.5,153.7 238.4,153.6 236.3,153.5 234.2,153.6 232.1,153.7 230.0,153.8 227.9,154.0 225.9,154.2 223.8,154.5 221.7,154.9 219.7,155.3 217.7,155.8 215.6,156.3 213.6,156.8 211.6,157.5 209.6,158.1 207.7,158.9 205.7,159.6 203.8,160.5 201.9,161.3 200.0,162.3 198.2,163.2 196.4,164.2 194.6,165.3 192.8,166.4 191.1,167.6 189.4,168.8 187.7,170.0 186.0,171.3 184.4,172.7 182.9,174.1 181.3,175.5 179.8,176.9 178.4,178.4 177.0,180.0 175.6,181.5 174.2,183.1 173.0,184.8 171.7,186.5 170.5,188.2 169.3,189.9 168.2,191.7 167.1,193.5 166.1,195.3 165.2,197.1 164.2,199.0 163.4,200.9 162.5,202.8 161.8,204.8 161.0,206.7 160.4,208.7 159.7,210.7 159.2,212.7 158.7,214.7 158.2,216.8 157.8,218.8 157.4,220.9 157.1,223.0 156.9,225.0 156.7,227.1 156.6,229.2 156.5,231.3 156.5,233.4 156.5,235.5 156.6,237.6 156.7,239.7 156.9,241.7 157.1,243.8 157.4,245.9 157.8,247.9 158.2,250.0 158.7,252.0 159.2,254.1 159.7,256.1 160.4,258.1 161.0,260.0 161.8,262.0\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"303.3,150.7 301.1,148.9 298.9,147.3 296.6,145.7 294.3,144.1 291.9,142.6 289.5,141.2 287.1,139.8 284.6,138.5 282.1,137.3 279.6,136.1 277.0,135.0 274.4,134.0 271.8,133.0 269.2,132.1 266.5,131.3 263.8,130.6 261.1,129.9 258.4,129.3 255.7,128.7 252.9,128.2 250.2,127.8 247.4,127.5 244.6,127.3 241.9,127.1 239.1,127.0 236.3,126.9 233.5,127.0 230.7,127.1 227.9,127.3 225.2,127.5 222.4,127.8 219.6,128.2 216.9,128.7 214.2,129.3 211.4,129.9 208.7,130.6 206.1,131.3 203.4,132.1 200.8,133.0 198.1,134.0 195.6,135.0 193.0,136.1 190.5,137.3 188.0,138.5 185.5,139.8 183.1,141.2 180.7,142.6 178.3,144.1 176.0,145.7 173.7,147.3 171.5,148.9 169.3,150.7 167.2,152.4 165.1,154.3 163.0,156.2 161.0,158.1 159.1,160.1 157.2,162.2 155.3,164.3 153.6,166.4 151.8,168.6 150.2,170.8 148.6,173.1 147.0,175.4 145.5,177.8 144.1,180.2 142.7,182.6 141.4,185.1 140.2,187.6 139.0,190.1 137.9,192.6 136.9,195.2 135.9,197.9 135.0,200.5 134.2,203.2 133.5,205.8 132.8,208.5 132.2,211.3 131.6,214.0 131.1,216.7 130.7,219.5 130.4,222.3 130.2,225.0 130.0,227.8 129.9,230.6 129.8,233.4 129.9,236.2 130.0,239.0 130.2,241.7 130.4,244.5 130.7,247.3 131.1,250.0 131.6,252.8 132.2,255.5 132.8,258.2 133.5,260.9\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"302.8,118.1 299.8,116.4 296.7,114.8 293.6,113.3 290.4,111.8 287.2,110.5 284.0,109.2 280.7,108.0 277.4,106.8 274.1,105.8 270.7,104.9 267.4,104.0 264.0,103.2 260.5,102.6 257.1,102.0 253.7,101.5 250.2,101.1 246.7,100.7 243.3,100.5 239.8,100.4 236.3,100.3 232.8,100.4 229.3,100.5 225.9,100.7 222.4,101.1 218.9,101.5 215.5,102.0 212.0,102.6 208.6,103.2 205.2,104.0 201.9,104.9 198.5,105.8 195.2,106.8 191.9,108.0 188.6,109.2 185.4,110.5 182.2,111.8 179.0,113.3 175.9,114.8 172.8,116.4 169.8,118.1 166.8,119.9 163.8,121.8 160.9,123.7 158.1,125.7 155.3,127.8 152.6,130.0 149.9,132.2 147.3,134.5 144.7,136.9 142.2,139.3 139.8,141.8 137.4,144.3 135.1,147.0 132.9,149.6 130.7,152.4 128.6,155.2 126.6,158.0 124.7,160.9 122.8,163.9 121.1,166.9 119.4,169.9 117.7,173.0 116.2,176.1 114.7,179.3 113.4,182.5 112.1,185.7 110.9,189.0 109.7,192.3 108.7,195.6 107.8,198.9 106.9,202.3 106.1,205.7 105.5,209.1 104.9,212.6 104.4,216.0 104.0,219.5 103.6,222.9 103.4,226.4 103.3,229.9 103.2,233.4 103.3,236.9 103.4,240.4 103.6,243.8 104.0,247.3 104.4,250.8 104.9,254.2 105.5,257.6 106.1,261.1\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"301.2,87.5 297.4,85.9 293.5,84.3 289.6,82.9 285.6,81.5 281.6,80.3 277.6,79.2 273.6,78.1 269.5,77.2 265.4,76.4 261.3,75.7 257.1,75.1 253.0,74.6 248.8,74.2 244.6,73.9 240.5,73.8 236.3,73.7 232.1,73.8 227.9,73.9 223.8,74.2 219.6,74.6 215.4,75.1 211.3,75.7 207.2,76.4 203.1,77.2 199.0,78.1 195.0,79.2 190.9,80.3 186.9,81.5 183.0,82.9 179.1,84.3 175.2,85.9 171.3,87.5 167.5,89.3 163.8,91.1 160.1,93.1 156.5,95.1 152.9,97.2 149.3,99.5 145.8,101.8 142.4,104.2 139.1,106.7 135.8,109.3 132.6,112.0 129.4,114.7 126.4,117.6 123.4,120.5 120.5,123.5 117.6,126.5 114.9,129.7 112.2,132.9 109.6,136.2 107.1,139.5 104.7,142.9 102.4,146.4 100.1,150.0 98.0,153.5 96.0,157.2 94.0,160.9 92.2,164.6 90.4,168.4 88.8,172.3 87.2,176.2 85.8,180.1 84.4,184.0 83.2,188.0 82.1,192.1 81.0,196.1 80.1,200.2 79.3,204.3 78.6,208.4 78.0,212.5 77.5,216.7 77.1,220.9 76.8,225.0 76.7,229.2 76.6,233.4 76.7,237.6 76.8,241.7 77.1,245.9 77.5,250.1 78.0,254.2 78.6,258.4\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"303.1,59.5 298.5,57.8 293.9,56.2 289.2,54.8 284.5,53.4 279.8,52.2 275.0,51.2 270.2,50.2 265.4,49.4 260.6,48.7 255.8,48.1 250.9,47.7 246.0,47.4 241.2,47.2 236.3,47.1 231.4,47.2 226.5,47.4 221.7,47.7 216.8,48.1 212.0,48.7 207.1,49.4 202.3,50.2 197.6,51.2 192.8,52.2 188.1,53.4 183.4,54.8 178.7,56.2 174.1,57.8 169.5,59.5 165.0,61.3 160.5,63.2 156.1,65.2 151.7,67.4 147.4,69.7 143.1,72.1 139.0,74.5 134.8,77.2 130.8,79.9 126.8,82.7 122.9,85.6 119.1,88.6 115.3,91.7 111.6,94.9 108.1,98.3 104.6,101.7 101.2,105.2 97.8,108.7 94.6,112.4 91.5,116.2 88.5,120.0 85.6,123.9 82.8,127.9 80.1,131.9 77.5,136.1 75.0,140.2 72.6,144.5 70.3,148.8 68.1,153.2 66.1,157.6 64.2,162.1 62.4,166.6 60.7,171.2 59.1,175.8 57.7,180.5 56.3,185.2 55.1,189.9 54.1,194.7 53.1,199.4 52.3,204.2 51.6,209.1 51.0,213.9 50.6,218.8 50.3,223.6 50.1,228.5 50.0,233.4 50.1,238.3 50.3,243.1 50.6,248.0 51.0,252.9 51.6,257.7\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"302.1,30.9 296.8,29.3\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"175.8,29.3 170.5,30.9 165.2,32.7 160.0,34.6 154.8,36.7 149.7,38.9 144.6,41.2 139.6,43.7 134.7,46.3 129.8,49.0 125.0,51.9 120.3,54.8 115.7,57.9 111.1,61.1 106.7,64.5 102.3,67.9 98.0,71.5 93.8,75.2 89.7,79.0 85.7,82.8 81.9,86.8 78.1,90.9 74.4,95.1 70.8,99.4 67.4,103.8 64.0,108.2 60.8,112.8 57.7,117.4 54.8,122.1 51.9,126.9 49.2,131.8 46.6,136.7 44.1,141.7 41.8,146.8 39.6,151.9 37.5,157.1\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"111.1,29.2 105.8,32.5 100.6,36.0 95.5,39.6 90.5,43.4 85.6,47.2 80.7,51.3 76.0,55.4 71.4,59.6 66.9,64.0 62.6,68.5 58.3,73.1 54.2,77.8 50.2,82.7 46.3,87.6 42.5,92.6 38.9,97.7\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><polyline points=\"63.5,31.0 58.2,35.6 53.1,40.3 48.1,45.2 43.2,50.2 38.5,55.3\" fill=\"none\" stroke=\"#b9d3e2\" stroke-width=\"1\"/><line x1=\"129.8\" y1=\"233.4\" x2=\"103.2\" y2=\"75.5\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"236.3\" y1=\"233.4\" x2=\"103.2\" y2=\"75.5\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"129.8\" cy=\"233.4\" r=\"6\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"115.5\" y=\"242.4\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"129.8\" y=\"257.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K₁</text><circle cx=\"236.3\" cy=\"233.4\" r=\"6\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"222.0\" y=\"242.4\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"236.3\" y=\"257.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K₂</text><circle cx=\"103.2\" cy=\"75.5\" r=\"5.5\" fill=\"#c2410c\"/><rect x=\"110.2\" y=\"51.5\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"115.2\" y=\"67.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">P</text><rect x=\"45.5\" y=\"132.4\" width=\"62.1\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"102.5\" y=\"146.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">9,0 cm</text><rect x=\"178.8\" y=\"158.4\" width=\"70.8\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"183.8\" y=\"172.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">12,0 cm</text></svg></span><p>Ligger P i ett maximum eller ett minimum? (Svara med maximum eller minimum.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta s=12{,}0-9{,}0=3{,}0\\ \\mathrm{cm}=2\\lambda\\]</div></li><li><p>Vägskillnaden är ett helt antal våglängder. Källorna svänger i fas, så vågtopp möter vågtopp.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Maximum.</p></div>",
+  "familj": "Maximum eller minimum ur vägskillnaden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Är vägskillnaden ett helt eller ett halvt antal våglängder?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "kort_text",
+  "svarFormat": "kort_text",
+  "rättSvar": "maximum",
+  "tolerans": null,
+  "typ": "maximum eller minimum i vågbassäng",
+  "familjNyckel": "interferens__maximum_eller_minimum_ur_vagskillnaden"
+},
+{
+  "id": "2.605",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Två radiosändare sänder samma program i fas med våglängden 3,0 m. En bilradio befinner sig 1200 m från den ena sändaren och 1207,5 m från den andra.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"490\" height=\"264\" viewBox=\"0 0 490 264\" role=\"img\" aria-label=\"Två radiosändare och en bil P. Avstånden är 1200 m och 1207,5 m.\"><title>Två radiosändare och en bil P. Avstånden är 1200 m och 1207,5 m.</title><rect x=\"1\" y=\"1\" width=\"488\" height=\"262\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"138\" y1=\"62.0\" x2=\"410.0\" y2=\"107.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"212.0\" x2=\"410.0\" y2=\"107.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><polygon points=\"121,78 130,46 139,78\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"124\" y1=\"67\" x2=\"136\" y2=\"67\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><circle cx=\"130\" cy=\"44\" r=\"3\" fill=\"#172b3a\"/><path d=\"M138 36 q7 8 0 16 M143 31 q11 13 0 26\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><polygon points=\"121,228 130,196 139,228\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"124\" y1=\"217\" x2=\"136\" y2=\"217\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><circle cx=\"130\" cy=\"194\" r=\"3\" fill=\"#172b3a\"/><path d=\"M138 186 q7 8 0 16 M143 181 q11 13 0 26\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"118.3\" y=\"23.0\" width=\"19.3\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><rect x=\"118.3\" y=\"231.0\" width=\"19.3\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"246.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"410.0\" cy=\"107.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"417.0\" y=\"96.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"422.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><rect x=\"243.0\" y=\"62.5\" width=\"62.1\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"274.0\" y=\"76.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">1200 m</text><rect x=\"234.3\" y=\"163.5\" width=\"79.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"274.0\" y=\"177.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">1207,5 m</text></svg></span><p>Ligger bilen i ett maximum eller ett minimum för mottagningen? (Svara med maximum eller minimum.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta s=1207{,}5-1200=7{,}5\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{7{,}5}{3{,}0}=2{,}5\\]</div></li><li><p>Vägskillnaden är 2,5 våglängder, ett halvt antal. Vågtopp möter vågdal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Minimum.</p></div>",
+  "familj": "Maximum eller minimum ur vägskillnaden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur många våglängder är vägskillnaden?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "kort_text",
+  "svarFormat": "kort_text",
+  "rättSvar": "minimum",
+  "tolerans": null,
+  "typ": "radiomottagning i maximum eller minimum",
+  "familjNyckel": "interferens__maximum_eller_minimum_ur_vagskillnaden"
+},
+{
+  "id": "2.606",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>På en scen har en högtalarkabel kopplats fel, så att högtalarna H₁ och H₂ svänger i motfas. När H₁ skickar ut en förtätning skickar H₂ ut en förtunning. Ljudteknikern står i P på mittpunktsnormalen, lika långt från båda högtalarna.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"510\" height=\"314\" viewBox=\"0 0 510 314\" role=\"img\" aria-label=\"Högtalarna H1 och H2 och punkten P på mittpunktsnormalen, lika långt från båda\"><title>Högtalarna H1 och H2 och punkten P på mittpunktsnormalen, lika långt från båda</title><rect x=\"1\" y=\"1\" width=\"508\" height=\"312\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"162.0\" x2=\"460.0\" y2=\"162.0\" stroke=\"#b8c2cc\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><line x1=\"138\" y1=\"62.0\" x2=\"430.0\" y2=\"162.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"262.0\" x2=\"430.0\" y2=\"162.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"254.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,254.0 137,246.0 137,278.0 125,270.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"281.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"296.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"430.0\" cy=\"162.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"437.0\" y=\"151.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"442.0\" y=\"167.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><rect x=\"274.7\" y=\"90.0\" width=\"18.7\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"284.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">r</text><rect x=\"274.7\" y=\"216.0\" width=\"18.7\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"284.0\" y=\"230.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">r</text></svg></span><p>Hör teknikern ett maximum eller ett minimum? (Svara med maximum eller minimum.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vägskillnaden är noll, så ljudet från högtalarna kommer fram i samma läge som det sändes ut.</p></li><li><p>Högtalarna svänger i motfas. Förtätning möter då förtunning, och ljuden släcker ut varandra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Minimum.</p></div>",
+  "familj": "Maximum eller minimum ur vägskillnaden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vägskillnaden är noll. Vad gäller då för källor i motfas?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "kort_text",
+  "svarFormat": "kort_text",
+  "rättSvar": "minimum",
+  "tolerans": null,
+  "typ": "felkopplad högtalare på mittpunktsnormalen",
+  "familjNyckel": "interferens__maximum_eller_minimum_ur_vagskillnaden"
+},
+{
+  "id": "2.607",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Två högtalare H₁ och H₂ är kopplade till samma tongenerator så att de svänger i fas. Våglängden är 0,80 m. Sara går från mittpunktsnormalen och stannar i P, vid det första ljudminimumet.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"510\" height=\"314\" viewBox=\"0 0 510 314\" role=\"img\" aria-label=\"Sara går från mittpunktsnormalen till det första ljudminimumet P\"><title>Sara går från mittpunktsnormalen till det första ljudminimumet P</title><rect x=\"1\" y=\"1\" width=\"508\" height=\"312\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"162.0\" x2=\"460.0\" y2=\"162.0\" stroke=\"#b8c2cc\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><line x1=\"430.0\" y1=\"40.0\" x2=\"430.0\" y2=\"274.0\" stroke=\"#b8c2cc\" stroke-width=\"1.2\"/><line x1=\"138\" y1=\"62.0\" x2=\"430.0\" y2=\"226.4\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"262.0\" x2=\"430.0\" y2=\"226.4\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"430.0\" cy=\"162.0\" r=\"6\" fill=\"#fff\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"2 2\"/><line x1=\"446.0\" y1=\"170.0\" x2=\"446.0\" y2=\"216.4\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"446.0,216.4 442.1,208.3 449.9,208.3\" fill=\"#172b3a\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"254.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,254.0 137,246.0 137,278.0 125,270.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"281.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"296.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"430.0\" cy=\"226.4\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"437.0\" y=\"232.4\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"442.0\" y=\"248.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text></svg></span><p>Hur mycket längre är vägen från H₁ till P än från H₂ till P? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I det första minimumet räknat från mittpunktsnormalen är vägskillnaden en halv våglängd.</p></li><li><div class=\"facit-matte\">\\[\\Delta s=\\frac{\\lambda}{2}=\\frac{0{,}80}{2}=0{,}40\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,40 m.</p></div>",
+  "familj": "Maximum eller minimum ur vägskillnaden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>På mittpunktsnormalen är vägskillnaden noll. Hur stor är den vid det första minimumet?</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.4,
+  "tolerans": 0.004,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m",
+  "typ": "vägskillnad i första minimum",
+  "familjNyckel": "interferens__maximum_eller_minimum_ur_vagskillnaden"
+},
+{
+  "id": "2.608",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Två högtalare i ett klassrum svänger i fas. I punkten P, det första ljudminimumet räknat från mittpunktsnormalen, är vägskillnaden 0,34 m.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"502\" height=\"324\" viewBox=\"0 0 502 324\" role=\"img\" aria-label=\"Två högtalare och det första ljudminimumet P bredvid mittpunktsnormalen\"><title>Två högtalare och det första ljudminimumet P bredvid mittpunktsnormalen</title><rect x=\"1\" y=\"1\" width=\"500\" height=\"322\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"167.0\" x2=\"451.7\" y2=\"167.0\" stroke=\"#b8c2cc\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><line x1=\"421.7\" y1=\"40.0\" x2=\"421.7\" y2=\"284.0\" stroke=\"#b8c2cc\" stroke-width=\"1.2\"/><line x1=\"138\" y1=\"62.0\" x2=\"421.7\" y2=\"226.5\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"272.0\" x2=\"421.7\" y2=\"226.5\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"421.7\" cy=\"167.0\" r=\"6\" fill=\"#fff\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"2 2\"/><line x1=\"437.7\" y1=\"175.0\" x2=\"437.7\" y2=\"216.5\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"437.7,216.5 433.8,208.4 441.6,208.4\" fill=\"#172b3a\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"264.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,264.0 137,256.0 137,288.0 125,280.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"291.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"306.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"421.7\" cy=\"226.5\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"428.7\" y=\"232.5\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"433.7\" y=\"248.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text></svg></span><p>Vilken våglängd har ljudet? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta s=\\frac{\\lambda}{2}\\]</div></li><li><div class=\"facit-matte\">\\[\\lambda=2\\cdot0{,}34=0{,}68\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,68 m.</p></div>",
+  "familj": "Bestämma våglängd och frekvens",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vid det första minimumet är vägskillnaden en halv våglängd.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.68,
+  "tolerans": 0.0068000000000000005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m",
+  "typ": "våglängd ur första minimum",
+  "familjNyckel": "interferens__bestamma_vaglangd_och_frekvens"
+},
+{
+  "id": "2.609",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Två vågkällor K₁ och K₂ i en vågbassäng svänger i fas. Våglängden är 4,0 cm. Punkten P ligger på den tredje nodlinjen räknat från mittpunktsnormalen. Längs en nodlinje är vattnet nästan stilla.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"261\" viewBox=\"0 0 420 261\" role=\"img\" aria-label=\"Vågbassäng med källorna K1 och K2, mittpunktsnormalen och tre streckade nodlinjer på var sida. P ligger på den tredje nodlinjen till vänster.\"><title>Vågbassäng med källorna K1 och K2, mittpunktsnormalen och tre streckade nodlinjer på var sida. P ligger på den tredje nodlinjen till vänster.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"259\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"22\" width=\"360.0\" height=\"216.8\" rx=\"8\" fill=\"#e6f1f7\" stroke=\"#7aa7c2\" stroke-width=\"1.4\"/><line x1=\"210.0\" y1=\"212.3\" x2=\"210.0\" y2=\"33.8\" stroke=\"#5b6773\" stroke-width=\"1.4\" stroke-dasharray=\"2 4\"/><polyline points=\"197.7,212.3 197.7,209.0 197.7,205.8 197.7,202.5 197.6,199.2 197.6,195.9 197.5,192.6 197.5,189.3 197.4,186.0 197.3,182.6 197.3,179.3 197.2,175.9 197.1,172.4 196.9,169.0 196.8,165.5 196.7,162.0 196.6,158.5 196.4,154.9 196.2,151.2 196.1,147.6 195.9,143.9 195.7,140.1 195.5,136.3 195.3,132.4 195.1,128.5 194.9,124.5 194.6,120.4 194.4,116.3 194.1,112.1 193.8,107.9 193.5,103.6 193.2,99.1 192.9,94.7 192.6,90.1 192.3,85.4 191.9,80.7 191.6,75.8 191.2,70.9 190.8,65.9 190.4,60.7 190.0,55.5 189.6,50.1 189.1,44.6 188.7,39.0\" fill=\"none\" stroke=\"#7aa7c2\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><polyline points=\"222.3,212.3 222.3,209.0 222.3,205.8 222.3,202.5 222.4,199.2 222.4,195.9 222.5,192.6 222.5,189.3 222.6,186.0 222.7,182.6 222.7,179.3 222.8,175.9 222.9,172.4 223.1,169.0 223.2,165.5 223.3,162.0 223.4,158.5 223.6,154.9 223.8,151.2 223.9,147.6 224.1,143.9 224.3,140.1 224.5,136.3 224.7,132.4 224.9,128.5 225.1,124.5 225.4,120.4 225.6,116.3 225.9,112.1 226.2,107.9 226.5,103.6 226.8,99.1 227.1,94.7 227.4,90.1 227.7,85.4 228.1,80.7 228.4,75.8 228.8,70.9 229.2,65.9 229.6,60.7 230.0,55.5 230.4,50.1 230.9,44.6 231.3,39.0\" fill=\"none\" stroke=\"#7aa7c2\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><polyline points=\"173.1,212.3 173.1,209.2 173.0,206.0 173.0,202.9 172.9,199.8 172.7,196.6 172.6,193.4 172.4,190.3 172.2,187.1 172.0,183.9 171.8,180.6 171.5,177.4 171.2,174.1 170.8,170.8 170.5,167.5 170.1,164.1 169.7,160.7 169.2,157.2 168.7,153.8 168.2,150.2 167.7,146.7 167.1,143.1 166.5,139.4 165.9,135.7 165.3,131.9 164.6,128.1 163.8,124.2 163.1,120.3 162.3,116.3 161.5,112.2 160.6,108.0 159.7,103.8 158.8,99.5 157.8,95.1 156.8,90.7 155.8,86.1 154.7,81.5 153.6,76.7 152.4,71.9 151.2,67.0 150.0,61.9 148.7,56.8 147.4,51.5 146.0,46.2 144.6,40.7 143.1,35.1\" fill=\"none\" stroke=\"#7aa7c2\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><polyline points=\"246.9,212.3 246.9,209.2 247.0,206.0 247.0,202.9 247.1,199.8 247.3,196.6 247.4,193.4 247.6,190.3 247.8,187.1 248.0,183.9 248.2,180.6 248.5,177.4 248.8,174.1 249.2,170.8 249.5,167.5 249.9,164.1 250.3,160.7 250.8,157.2 251.3,153.8 251.8,150.2 252.3,146.7 252.9,143.1 253.5,139.4 254.1,135.7 254.7,131.9 255.4,128.1 256.2,124.2 256.9,120.3 257.7,116.3 258.5,112.2 259.4,108.0 260.3,103.8 261.2,99.5 262.2,95.1 263.2,90.7 264.2,86.1 265.3,81.5 266.4,76.7 267.6,71.9 268.8,67.0 270.0,61.9 271.3,56.8 272.6,51.5 274.0,46.2 275.4,40.7 276.9,35.1\" fill=\"none\" stroke=\"#7aa7c2\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><polyline points=\"148.5,212.3 148.4,209.5 148.4,206.6 148.3,203.8 148.1,200.9 147.9,198.1 147.7,195.2 147.4,192.3 147.1,189.4 146.7,186.5 146.3,183.5 145.8,180.6 145.3,177.6 144.7,174.6 144.1,171.6 143.5,168.5 142.8,165.4 142.0,162.3 141.2,159.2 140.4,156.0 139.5,152.7 138.6,149.4 137.6,146.1 136.5,142.8 135.4,139.3 134.3,135.9 133.1,132.3 131.8,128.8 130.5,125.1 129.1,121.4 127.7,117.6 126.2,113.8 124.7,109.9 123.1,105.9 121.4,101.9 119.7,97.7 117.9,93.5 116.0,89.2 114.1,84.8 112.1,80.4 110.0,75.8 107.9,71.1 105.7,66.4 103.4,61.5 101.0,56.5 98.6,51.4 96.1,46.2 93.5,40.9 90.8,35.4\" fill=\"none\" stroke=\"#7aa7c2\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><polyline points=\"271.5,212.3 271.6,209.5 271.6,206.6 271.7,203.8 271.9,200.9 272.1,198.1 272.3,195.2 272.6,192.3 272.9,189.4 273.3,186.5 273.7,183.5 274.2,180.6 274.7,177.6 275.3,174.6 275.9,171.6 276.5,168.5 277.2,165.4 278.0,162.3 278.8,159.2 279.6,156.0 280.5,152.7 281.4,149.4 282.4,146.1 283.5,142.8 284.6,139.3 285.7,135.9 286.9,132.3 288.2,128.8 289.5,125.1 290.9,121.4 292.3,117.6 293.8,113.8 295.3,109.9 296.9,105.9 298.6,101.9 300.3,97.7 302.1,93.5 304.0,89.2 305.9,84.8 307.9,80.4 310.0,75.8 312.1,71.1 314.3,66.4 316.6,61.5 319.0,56.5 321.4,51.4 323.9,46.2 326.5,40.9 329.2,35.4\" fill=\"none\" stroke=\"#7aa7c2\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><line x1=\"86.9\" y1=\"212.3\" x2=\"104.8\" y2=\"64.6\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"333.1\" y1=\"212.3\" x2=\"104.8\" y2=\"64.6\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"86.9\" cy=\"212.3\" r=\"6\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"72.6\" y=\"221.3\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"86.9\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K₁</text><circle cx=\"333.1\" cy=\"212.3\" r=\"6\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"318.8\" y=\"221.3\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"333.1\" y=\"236.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K₂</text><circle cx=\"104.8\" cy=\"64.6\" r=\"5.5\" fill=\"#c2410c\"/><rect x=\"111.8\" y=\"40.6\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"116.8\" y=\"56.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">P</text></svg></span><p>Hur stor är vägskillnaden till P? (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nodlinjerna är minimum. Den första har vägskillnaden \\(\\tfrac12\\lambda\\), den andra \\(\\tfrac32\\lambda\\) och den tredje \\(\\tfrac52\\lambda\\).</p></li><li><div class=\"facit-matte\">\\[\\Delta s=2{,}5\\cdot4{,}0=10\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 cm.</p></div>",
+  "familj": "Maximum eller minimum ur vägskillnaden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vägskillnaden ökar med en våglängd från en nodlinje till nästa. Den första har en halv våglängd.</p>",
+  "spel": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 0.1,
+  "svarVardesiffror": 2,
+  "svarEnhet": "cm",
+  "typ": "vägskillnad på tredje nodlinjen",
+  "familjNyckel": "interferens__maximum_eller_minimum_ur_vagskillnaden"
+},
+{
+  "id": "2.610",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(2/0/0)",
+  "t": "<p>Två högtalare H₁ och H₂ är kopplade till samma tongenerator så att de svänger i fas. De står i en gymnastiksal 1,5 m från varandra. Moa går från en punkt på mittpunktsnormalen, 2,0 m från högtalarna, och stannar vid det första ljudminimumet, som ligger rakt framför H₂.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"490\" height=\"354\" viewBox=\"0 0 490 354\" role=\"img\" aria-label=\"Moa går från mittpunktsnormalen till det första ljudminimumet rakt framför H2\"><title>Moa går från mittpunktsnormalen till det första ljudminimumet rakt framför H2</title><rect x=\"1\" y=\"1\" width=\"488\" height=\"352\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"167.0\" x2=\"440.0\" y2=\"167.0\" stroke=\"#b8c2cc\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><line x1=\"410.0\" y1=\"40.0\" x2=\"410.0\" y2=\"284.0\" stroke=\"#b8c2cc\" stroke-width=\"1.2\"/><line x1=\"138\" y1=\"62.0\" x2=\"410.0\" y2=\"272.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"272.0\" x2=\"410.0\" y2=\"272.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"410.0\" cy=\"167.0\" r=\"6\" fill=\"#fff\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"2 2\"/><line x1=\"426.0\" y1=\"175.0\" x2=\"426.0\" y2=\"262.0\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"426.0,262.0 422.1,253.9 429.9,253.9\" fill=\"#172b3a\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"264.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,264.0 137,256.0 137,288.0 125,280.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"291.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"306.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"410.0\" cy=\"272.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"417.0\" y=\"278.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"422.0\" y=\"294.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><line x1=\"88\" y1=\"62.0\" x2=\"88\" y2=\"272.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"62.0\" x2=\"94\" y2=\"62.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"272.0\" x2=\"94\" y2=\"272.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"30.6\" y=\"158.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"79.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">1,5 m</text><line x1=\"138.0\" y1=\"320.0\" x2=\"410.0\" y2=\"320.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"138.0\" y1=\"314.0\" x2=\"138.0\" y2=\"326.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"410.0\" y1=\"314.0\" x2=\"410.0\" y2=\"326.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"247.3\" y=\"326.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"274.0\" y=\"340.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2,0 m</text></svg></span><p>Bestäm ljudets frekvens. (Svara i Hz.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_2=2{,}0\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[r_1=\\sqrt{2{,}0^2+1{,}5^2}=2{,}5\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta s=2{,}5-2{,}0=0{,}50\\ \\mathrm m\\]</div></li><li><p>Första minimum: \\(\\Delta s=\\tfrac12\\lambda\\), så \\(\\lambda=1{,}0\\ \\mathrm m\\).</p></li><li><div class=\"facit-matte\">\\[f=\\frac{v}{\\lambda}=\\frac{340}{1{,}0}=340\\ \\mathrm{Hz}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 340 Hz.</p></div>",
+  "familj": "Bestämma våglängd och frekvens",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Beräkna avståndet från H₁ till P med Pythagoras sats. Vid det första minimumet är vägskillnaden en halv våglängd.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 340,
+  "tolerans": 6.8,
+  "svarEnhet": "Hz",
+  "typ": "frekvens ur första minimum rakt framför högtalaren",
+  "familjNyckel": "interferens__bestamma_vaglangd_och_frekvens"
+},
+{
+  "id": "2.611",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>I en vågbassäng ligger två vågkällor K₁ och K₂ i punkterna (−3, 0) och (3, 0). Punkten P har koordinaterna (−3, 8). Enheten är cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"330\" height=\"290\" viewBox=\"0 0 330 290\" role=\"img\" aria-label=\"Koordinatsystem i en vågbassäng med K1 i (−3, 0), K2 i (3, 0) och P i (−3, 8)\"><title>Koordinatsystem i en vågbassäng med K1 i (−3, 0), K2 i (3, 0) och P i (−3, 8)</title><rect x=\"1\" y=\"1\" width=\"328\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"22\" width=\"269.6\" height=\"246.0\" rx=\"8\" fill=\"#e6f1f7\" stroke=\"#7aa7c2\" stroke-width=\"1.4\"/><line x1=\"50.0\" y1=\"40.0\" x2=\"50.0\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"69.1\" y1=\"40.0\" x2=\"69.1\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"88.3\" y1=\"40.0\" x2=\"88.3\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"107.4\" y1=\"40.0\" x2=\"107.4\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"126.5\" y1=\"40.0\" x2=\"126.5\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"145.7\" y1=\"40.0\" x2=\"145.7\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"164.8\" y1=\"40.0\" x2=\"164.8\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"1.4\"/><line x1=\"183.9\" y1=\"40.0\" x2=\"183.9\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"203.0\" y1=\"40.0\" x2=\"203.0\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"222.2\" y1=\"40.0\" x2=\"222.2\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"241.3\" y1=\"40.0\" x2=\"241.3\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"260.4\" y1=\"40.0\" x2=\"260.4\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"279.6\" y1=\"40.0\" x2=\"279.6\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"50.0\" y1=\"250.4\" x2=\"279.6\" y2=\"250.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"50.0\" y1=\"231.3\" x2=\"279.6\" y2=\"231.3\" stroke=\"#c9dce8\" stroke-width=\"1.4\"/><line x1=\"50.0\" y1=\"212.2\" x2=\"279.6\" y2=\"212.2\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"50.0\" y1=\"193.0\" x2=\"279.6\" y2=\"193.0\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"50.0\" y1=\"173.9\" x2=\"279.6\" y2=\"173.9\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"50.0\" y1=\"154.8\" x2=\"279.6\" y2=\"154.8\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"50.0\" y1=\"135.7\" x2=\"279.6\" y2=\"135.7\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"50.0\" y1=\"116.5\" x2=\"279.6\" y2=\"116.5\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"50.0\" y1=\"97.4\" x2=\"279.6\" y2=\"97.4\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"50.0\" y1=\"78.3\" x2=\"279.6\" y2=\"78.3\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"50.0\" y1=\"59.1\" x2=\"279.6\" y2=\"59.1\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><line x1=\"50.0\" y1=\"40.0\" x2=\"279.6\" y2=\"40.0\" stroke=\"#c9dce8\" stroke-width=\"0.8\"/><rect x=\"225.9\" y=\"237.3\" width=\"54.6\" height=\"16.8\" rx=\"3\" fill=\"#fff\"/><text x=\"275.6\" y=\"249.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">x (cm)</text><rect x=\"165.8\" y=\"42.0\" width=\"54.6\" height=\"16.8\" rx=\"3\" fill=\"#fff\"/><text x=\"170.8\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">y (cm)</text><line x1=\"107.4\" y1=\"231.3\" x2=\"107.4\" y2=\"78.3\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"222.2\" y1=\"231.3\" x2=\"107.4\" y2=\"78.3\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"107.4\" cy=\"231.3\" r=\"6\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"93.1\" y=\"240.3\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"107.4\" y=\"255.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K₁</text><circle cx=\"222.2\" cy=\"231.3\" r=\"6\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"207.9\" y=\"240.3\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"222.2\" y=\"255.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K₂</text><circle cx=\"107.4\" cy=\"78.3\" r=\"5.5\" fill=\"#c2410c\"/><rect x=\"114.4\" y=\"54.3\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"119.4\" y=\"70.3\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">P</text></svg></span><p>Bestäm vägskillnaden för vågorna från K₁ och K₂ till P. (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_1=8\\ \\mathrm{cm}\\]</div></li><li><div class=\"facit-matte\">\\[r_2=\\sqrt{6^2+8^2}=10\\ \\mathrm{cm}\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta s=10-8=2{,}0\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,0 cm.</p></div>",
+  "familj": "Vägskillnad med Pythagoras sats",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>P ligger rakt ovanför K₁. Avståndet från K₂ är hypotenusan i en triangel med kateterna 6 och 8.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.0,
+  "tolerans": 0.02,
+  "svarVardesiffror": 2,
+  "svarEnhet": "cm",
+  "typ": "vägskillnad med koordinater i vågbassäng",
+  "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+},
+{
+  "id": "2.612",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(2/0/0)",
+  "t": "<p>Två radiomaster A och B står 60 m från varandra och sänder samma signal i fas med våglängden 12 m. En bil står på en väg som går från A vinkelrätt mot AB, 45 m från A.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"430\" height=\"322\" viewBox=\"0 0 430 322\" role=\"img\" aria-label=\"Radiomasterna B och A med 60 meter mellan sig och en bil 45 meter från A längs vägen\"><title>Radiomasterna B och A med 60 meter mellan sig och en bil 45 meter från A längs vägen</title><rect x=\"1\" y=\"1\" width=\"428\" height=\"320\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"306.0\" y=\"20\" width=\"28\" height=\"240.0\" fill=\"#eef1f4\"/><line x1=\"320.0\" y1=\"24\" x2=\"320.0\" y2=\"260.0\" stroke=\"#fff\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"337.0\" y=\"27.0\" width=\"34.2\" height=\"18.2\" rx=\"3\" fill=\"#fff\"/><text x=\"342.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">väg</text><line x1=\"72\" y1=\"242.0\" x2=\"320.0\" y2=\"72.5\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><rect x=\"311.0\" y=\"58.5\" width=\"18\" height=\"28\" rx=\"5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"360.0\" y1=\"72.5\" x2=\"360.0\" y2=\"242.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"354.0\" y1=\"72.5\" x2=\"366.0\" y2=\"72.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"354.0\" y1=\"242.0\" x2=\"366.0\" y2=\"242.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"364.0\" y=\"148.2\" width=\"44.7\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"369.0\" y=\"162.2\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">45 m</text><polygon points=\"61,274 70,242 79,274\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"263\" x2=\"76\" y2=\"263\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><circle cx=\"70\" cy=\"240\" r=\"3\" fill=\"#172b3a\"/><path d=\"M78 232 q7 8 0 16 M83 227 q11 13 0 26\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><polygon points=\"311.0,274 320.0,242 329.0,274\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"314.0\" y1=\"263\" x2=\"326.0\" y2=\"263\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><circle cx=\"320.0\" cy=\"240\" r=\"3\" fill=\"#172b3a\"/><path d=\"M328.0 232 q7 8 0 16 M333.0 227 q11 13 0 26\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"33.7\" y=\"253.0\" width=\"19.3\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"48.0\" y=\"268.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">B</text><rect x=\"283.7\" y=\"253.0\" width=\"19.3\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"298.0\" y=\"268.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">A</text><line x1=\"70.0\" y1=\"282\" x2=\"320.0\" y2=\"282\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"276\" x2=\"70.0\" y2=\"288\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"320.0\" y1=\"276\" x2=\"320.0\" y2=\"288\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"172.6\" y=\"288.0\" width=\"44.7\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"195.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">60 m</text></svg></span><p>Bestäm vägskillnaden och avgör om bilen befinner sig i ett maximum eller ett minimum. (Svara med vägskillnaden i m och ordet maximum eller minimum.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_B=\\sqrt{60^2+45^2}=75\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta s=75-45=30\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{30}{12}=2{,}5\\]</div></li><li><p>Vägskillnaden är ett halvt antal våglängder, så bilen är i ett minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 m, minimum.</p></div>",
+  "familj": "Vägskillnad med Pythagoras sats",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Beräkna avståndet från B till bilen med Pythagoras sats och jämför vägskillnaden med våglängden.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    30,
+    "minimum"
+  ],
+  "tolerans": [
+    0.3,
+    null
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "kort_text"
+  ],
+  "svarEnhet": [
+    "m",
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Vägskillnad",
+    "Maximum eller minimum"
+  ],
+  "svarVardesiffror": [
+    2,
+    null
+  ],
+  "typ": "radiomottagning längs en väg",
+  "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+},
+{
+  "id": "2.613",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(2/0/0)",
+  "t": "<p>På ett museum står två högtalare H₁ och H₂ 2,4 m från varandra och spelar samma ton i fas med frekvensen 850 Hz. En besökare går längs en gång 7,0 m från högtalarna, från mittpunktsnormalen till en punkt rakt framför H₁.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"510\" height=\"247\" viewBox=\"0 0 510 247\" role=\"img\" aria-label=\"Besökaren går från mittpunktsnormalen till punkten P rakt framför H1\"><title>Besökaren går från mittpunktsnormalen till punkten P rakt framför H1</title><rect x=\"1\" y=\"1\" width=\"508\" height=\"245\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"113.4\" x2=\"460.0\" y2=\"113.4\" stroke=\"#b8c2cc\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><line x1=\"430.0\" y1=\"40.0\" x2=\"430.0\" y2=\"176.9\" stroke=\"#b8c2cc\" stroke-width=\"1.2\"/><line x1=\"138\" y1=\"62.0\" x2=\"430.0\" y2=\"62.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"164.9\" x2=\"430.0\" y2=\"62.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"430.0\" cy=\"113.4\" r=\"6\" fill=\"#fff\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"2 2\"/><line x1=\"446.0\" y1=\"105.4\" x2=\"446.0\" y2=\"72.0\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"446.0,72.0 449.9,80.1 442.1,80.1\" fill=\"#172b3a\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"156.85714285714283\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,156.85714285714283 137,148.85714285714283 137,180.85714285714283 125,172.85714285714283\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"183.9\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"198.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"430.0\" cy=\"62.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"437.0\" y=\"34.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"442.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><line x1=\"88\" y1=\"62.0\" x2=\"88\" y2=\"164.9\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"62.0\" x2=\"94\" y2=\"62.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"164.9\" x2=\"94\" y2=\"164.9\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"30.6\" y=\"104.4\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"79.0\" y=\"118.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">2,4 m</text><line x1=\"138.0\" y1=\"212.85714285714283\" x2=\"430.0\" y2=\"212.85714285714283\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"138.0\" y1=\"206.85714285714283\" x2=\"138.0\" y2=\"218.85714285714283\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"430.0\" y1=\"206.85714285714283\" x2=\"430.0\" y2=\"218.85714285714283\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"257.3\" y=\"218.9\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"284.0\" y=\"232.9\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">7,0 m</text></svg></span><p>Bestäm vägskillnaden i P och avgör om besökaren hör ett maximum eller ett minimum där. (Svara med vägskillnaden i m och ordet maximum eller minimum.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_1=7{,}0\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[r_2=\\sqrt{7{,}0^2+2{,}4^2}=7{,}4\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta s=7{,}4-7{,}0=0{,}40\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{v}{f}=\\frac{340}{850}=0{,}40\\ \\mathrm m\\]</div></li><li><p>Vägskillnaden är en hel våglängd, så besökaren hör ett maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,40 m, maximum.</p></div>",
+  "familj": "Vägskillnad med Pythagoras sats",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Beräkna avståndet från H₂ till P med Pythagoras sats. Beräkna också våglängden.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0.4,
+    "maximum"
+  ],
+  "tolerans": [
+    0.004,
+    null
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "kort_text"
+  ],
+  "svarEnhet": [
+    "m",
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Vägskillnad",
+    "Maximum eller minimum"
+  ],
+  "svarVardesiffror": [
+    2,
+    null
+  ],
+  "typ": "maximum eller minimum rakt framför en högtalare",
+  "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+},
+{
+  "id": "2.614",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Två högtalare H₁ och H₂ spelar samma ton i fas med frekvensen 850 Hz. En lyssnare i P hör ett ljudmaximum. Man flyttar H₂ rakt bort från lyssnaren.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"510\" height=\"294\" viewBox=\"0 0 510 294\" role=\"img\" aria-label=\"Högtalare H2 flyttas rakt bort från lyssnaren i P\"><title>Högtalare H2 flyttas rakt bort från lyssnaren i P</title><rect x=\"1\" y=\"1\" width=\"508\" height=\"292\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"138\" y1=\"62.0\" x2=\"430.0\" y2=\"242.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"242.0\" x2=\"430.0\" y2=\"242.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"234.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,234.0 137,226.0 137,258.0 125,250.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"261.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"276.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"430.0\" cy=\"242.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"437.0\" y=\"231.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"442.0\" y=\"247.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><line x1=\"108.0\" y1=\"242.0\" x2=\"68.0\" y2=\"242.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><polygon points=\"68.0,242.0 76.1,238.1 76.1,245.9\" fill=\"#c2410c\"/><rect x=\"76.3\" y=\"213.0\" width=\"19.3\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"86.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">?</text></svg></span><p>Hur långt måste H₂ minst flyttas för att lyssnaren ska hamna i ett minimum? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\lambda=\\frac{v}{f}=\\frac{340}{850}=0{,}40\\ \\mathrm m\\]</div></li><li><p>Vägen från H₂ blir lika mycket längre som högtalaren flyttas. För att gå från maximum till minimum ska vägskillnaden ändras med en halv våglängd.</p></li><li><div class=\"facit-matte\">\\[\\frac{\\lambda}{2}=0{,}20\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,20 m.</p></div>",
+  "familj": "Maximum eller minimum ur vägskillnaden",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur mycket ska vägskillnaden ändras för att ett maximum ska bli ett minimum?</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.2,
+  "tolerans": 0.004,
+  "svarEnhet": "m",
+  "typ": "flytta en högtalare från maximum till minimum",
+  "familjNyckel": "interferens__maximum_eller_minimum_ur_vagskillnaden"
+},
+{
+  "id": "2.615",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(2/0/0)",
+  "t": "<p>I ett ljudlabb står två högtalare H₁ och H₂ 0,50 m från varandra och svänger i fas. En mikrofon flyttas längs en räls 1,2 m från högtalarna. Den startar på mittpunktsnormalen och registrerar det första ljudminimumet rakt framför H₁.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"510\" height=\"269\" viewBox=\"0 0 510 269\" role=\"img\" aria-label=\"Mikrofonen flyttas från mittpunktsnormalen till det första ljudminimumet rakt framför H1\"><title>Mikrofonen flyttas från mittpunktsnormalen till det första ljudminimumet rakt framför H1</title><rect x=\"1\" y=\"1\" width=\"508\" height=\"267\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"124.5\" x2=\"460.0\" y2=\"124.5\" stroke=\"#b8c2cc\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><line x1=\"430.0\" y1=\"40.0\" x2=\"430.0\" y2=\"199.0\" stroke=\"#b8c2cc\" stroke-width=\"1.2\"/><line x1=\"138\" y1=\"62.0\" x2=\"430.0\" y2=\"62.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"187.0\" x2=\"430.0\" y2=\"62.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"430.0\" cy=\"124.5\" r=\"6\" fill=\"#fff\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"2 2\"/><line x1=\"446.0\" y1=\"116.5\" x2=\"446.0\" y2=\"72.0\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"446.0,72.0 449.9,80.1 442.1,80.1\" fill=\"#172b3a\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"179.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,179.0 137,171.0 137,203.0 125,195.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"206.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"221.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"430.0\" cy=\"62.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"437.0\" y=\"34.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"442.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><line x1=\"88\" y1=\"62.0\" x2=\"88\" y2=\"187.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"62.0\" x2=\"94\" y2=\"62.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"187.0\" x2=\"94\" y2=\"187.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"21.9\" y=\"115.5\" width=\"62.1\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"79.0\" y=\"129.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">0,50 m</text><line x1=\"138.0\" y1=\"235.0\" x2=\"430.0\" y2=\"235.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"138.0\" y1=\"229.0\" x2=\"138.0\" y2=\"241.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"430.0\" y1=\"229.0\" x2=\"430.0\" y2=\"241.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"257.3\" y=\"241.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"284.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,2 m</text></svg></span><p>Bestäm ljudets frekvens. (Svara i Hz.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_1=1{,}2\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[r_2=\\sqrt{1{,}2^2+0{,}50^2}=1{,}3\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta s=1{,}3-1{,}2=0{,}10\\ \\mathrm m=\\frac{\\lambda}{2}\\]</div></li><li><div class=\"facit-matte\">\\[\\lambda=0{,}20\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[f=\\frac{340}{0{,}20}=1700\\ \\mathrm{Hz}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1700 Hz.</p></div>",
+  "familj": "Bestämma våglängd och frekvens",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Avståndet från H₂ till mikrofonen är hypotenusan. Vid det första minimumet är vägskillnaden en halv våglängd.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1700,
+  "tolerans": 34.0,
+  "svarEnhet": "Hz",
+  "typ": "frekvens ur första minimum med mikrofon på räls",
+  "familjNyckel": "interferens__bestamma_vaglangd_och_frekvens"
+},
+{
+  "id": "2.616",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "C",
+  "poang": "(1/2/0)",
+  "t": "<p>Två högtalare H₁ och H₂ är kopplade till samma tongenerator så att de svänger i fas. De står på en labbbänk 27,0 cm från varandra. En elev för en liten mikrofon längs en linjal 36,0 cm från högtalarna. Mikrofonen startar på mittpunktsnormalen och stannar vid det andra ljudminimumet, rakt framför H₁.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"490\" height=\"354\" viewBox=\"0 0 490 354\" role=\"img\" aria-label=\"Mikrofonen förs från mittpunktsnormalen till det andra ljudminimumet rakt framför H1\"><title>Mikrofonen förs från mittpunktsnormalen till det andra ljudminimumet rakt framför H1</title><rect x=\"1\" y=\"1\" width=\"488\" height=\"352\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"167.0\" x2=\"440.0\" y2=\"167.0\" stroke=\"#b8c2cc\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><line x1=\"410.0\" y1=\"40.0\" x2=\"410.0\" y2=\"284.0\" stroke=\"#b8c2cc\" stroke-width=\"1.2\"/><line x1=\"138\" y1=\"62.0\" x2=\"410.0\" y2=\"62.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"272.0\" x2=\"410.0\" y2=\"62.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"410.0\" cy=\"167.0\" r=\"6\" fill=\"#fff\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"2 2\"/><line x1=\"426.0\" y1=\"159.0\" x2=\"426.0\" y2=\"72.0\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"426.0,72.0 429.9,80.1 422.1,80.1\" fill=\"#172b3a\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"264.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,264.0 137,256.0 137,288.0 125,280.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"291.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"306.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"410.0\" cy=\"62.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"417.0\" y=\"34.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"422.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><line x1=\"88\" y1=\"62.0\" x2=\"88\" y2=\"272.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"62.0\" x2=\"94\" y2=\"62.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"272.0\" x2=\"94\" y2=\"272.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"13.2\" y=\"158.0\" width=\"70.8\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"79.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">27,0 cm</text><line x1=\"138.0\" y1=\"320.0\" x2=\"410.0\" y2=\"320.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"138.0\" y1=\"314.0\" x2=\"138.0\" y2=\"326.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"410.0\" y1=\"314.0\" x2=\"410.0\" y2=\"326.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"238.6\" y=\"326.0\" width=\"70.8\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"274.0\" y=\"340.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">36,0 cm</text></svg></span><p>Bestäm ljudets frekvens. (Svara i Hz.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_1=36{,}0\\ \\mathrm{cm}\\]</div></li><li><div class=\"facit-matte\">\\[r_2=\\sqrt{36{,}0^2+27{,}0^2}=45{,}0\\ \\mathrm{cm}\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta s=9{,}0\\ \\mathrm{cm}=0{,}090\\ \\mathrm m\\]</div></li><li><p>Det andra minimumet har vägskillnaden \\(\\tfrac32\\lambda\\).</p></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{0{,}090}{1{,}5}=0{,}060\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[f=\\frac{340}{0{,}060}\\approx5700\\ \\mathrm{Hz}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 5,7 kHz.</p></div>",
+  "familj": "Bestämma våglängd och frekvens",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Det första minimumet har vägskillnaden en halv våglängd. Hur stor är den vid det andra?</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5666.666666666667,
+  "tolerans": 113.333333,
+  "svarEnhet": "Hz",
+  "typ": "frekvens ur andra minimum, mått i cm",
+  "familjNyckel": "interferens__bestamma_vaglangd_och_frekvens"
+},
+{
+  "id": "2.617",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "C",
+  "poang": "(0/2/0)",
+  "t": "<p>Två radiomaster A och B står 50 m från varandra och sänder i fas med våglängden 12 m. En väg börjar vid A och går vinkelrätt bort från linjen AB. En bil kör från A och mycket långt bort längs vägen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"430\" height=\"292\" viewBox=\"0 0 430 292\" role=\"img\" aria-label=\"Radiomasterna B och A med 50 meter mellan sig och en väg som går från A vinkelrätt bort från AB\"><title>Radiomasterna B och A med 50 meter mellan sig och en väg som går från A vinkelrätt bort från AB</title><rect x=\"1\" y=\"1\" width=\"428\" height=\"290\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"306.0\" y=\"20\" width=\"28\" height=\"210.0\" fill=\"#eef1f4\"/><line x1=\"320.0\" y1=\"24\" x2=\"320.0\" y2=\"230.0\" stroke=\"#fff\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"337.0\" y=\"27.0\" width=\"34.2\" height=\"18.2\" rx=\"3\" fill=\"#fff\"/><text x=\"342.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">väg</text><line x1=\"350.0\" y1=\"190.0\" x2=\"350.0\" y2=\"50.0\" stroke=\"#5b6773\" stroke-width=\"1.8\"/><polygon points=\"350.0,50.0 353.9,58.1 346.1,58.1\" fill=\"#5b6773\"/><polygon points=\"61,244 70,212 79,244\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"233\" x2=\"76\" y2=\"233\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><circle cx=\"70\" cy=\"210\" r=\"3\" fill=\"#172b3a\"/><path d=\"M78 202 q7 8 0 16 M83 197 q11 13 0 26\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><polygon points=\"311.0,244 320.0,212 329.0,244\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"314.0\" y1=\"233\" x2=\"326.0\" y2=\"233\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><circle cx=\"320.0\" cy=\"210\" r=\"3\" fill=\"#172b3a\"/><path d=\"M328.0 202 q7 8 0 16 M333.0 197 q11 13 0 26\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"33.7\" y=\"223.0\" width=\"19.3\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"48.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">B</text><rect x=\"283.7\" y=\"223.0\" width=\"19.3\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"298.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">A</text><line x1=\"70.0\" y1=\"252\" x2=\"320.0\" y2=\"252\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"246\" x2=\"70.0\" y2=\"258\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"320.0\" y1=\"246\" x2=\"320.0\" y2=\"258\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"172.6\" y=\"258.0\" width=\"44.7\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"195.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">50 m</text></svg></span><p>Hur många mottagningsmaximum passerar bilen? (Svara med ett heltal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid A är vägskillnaden \\(\\Delta s=50\\ \\mathrm m\\). Långt bort på vägen är avstånden till A och B nästan lika, så \\(\\Delta s\\) minskar mot 0.</p></li><li><p>Maximum fås där \\(\\Delta s=n\\lambda\\): 12 m, 24 m, 36 m och 48 m. Nästa, 60 m, är större än 50 m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 maximum.</p></div>",
+  "familj": "Vägskillnad med Pythagoras sats",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur stor är vägskillnaden vid A, och vad händer med den långt bort?</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0,
+  "typ": "antal maximum längs en väg",
+  "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+},
+{
+  "id": "2.618",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "C",
+  "poang": "(0/2/0)",
+  "t": "<p>Två högtalare H₁ och H₂ står 2,0 m från varandra och spelar samma ton i fas med frekvensen 2800 Hz. Oskar går längs en linje 4,8 m från högtalarna, från mittpunktsnormalen till punkten P rakt framför H₂.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"510\" height=\"269\" viewBox=\"0 0 510 269\" role=\"img\" aria-label=\"Oskar går från mittpunktsnormalen till P rakt framför H2\"><title>Oskar går från mittpunktsnormalen till P rakt framför H2</title><rect x=\"1\" y=\"1\" width=\"508\" height=\"267\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"124.5\" x2=\"460.0\" y2=\"124.5\" stroke=\"#b8c2cc\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><line x1=\"430.0\" y1=\"40.0\" x2=\"430.0\" y2=\"199.0\" stroke=\"#b8c2cc\" stroke-width=\"1.2\"/><line x1=\"138\" y1=\"62.0\" x2=\"430.0\" y2=\"187.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"187.0\" x2=\"430.0\" y2=\"187.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"430.0\" cy=\"124.5\" r=\"6\" fill=\"#fff\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"2 2\"/><line x1=\"446.0\" y1=\"132.5\" x2=\"446.0\" y2=\"177.0\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"446.0,177.0 442.1,168.9 449.9,168.9\" fill=\"#172b3a\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"179.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,179.0 137,171.0 137,203.0 125,195.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"206.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"221.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"430.0\" cy=\"187.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"437.0\" y=\"193.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"442.0\" y=\"209.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><line x1=\"88\" y1=\"62.0\" x2=\"88\" y2=\"187.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"62.0\" x2=\"94\" y2=\"62.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"187.0\" x2=\"94\" y2=\"187.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"30.6\" y=\"115.5\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"79.0\" y=\"129.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">2,0 m</text><line x1=\"138.0\" y1=\"235.0\" x2=\"430.0\" y2=\"235.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"138.0\" y1=\"229.0\" x2=\"138.0\" y2=\"241.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"430.0\" y1=\"229.0\" x2=\"430.0\" y2=\"241.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"257.3\" y=\"241.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"284.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4,8 m</text></svg></span><p>Hur många ljudminimum passerar han på vägen? (Svara med ett heltal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_1=\\sqrt{4{,}8^2+2{,}0^2}=5{,}2\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta s_P=5{,}2-4{,}8=0{,}40\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{340}{2800}=0{,}121\\ \\mathrm m\\]</div></li><li><p>Minimum fås där \\(\\Delta s=0{,}5\\lambda,\\ 1{,}5\\lambda,\\ 2{,}5\\lambda,\\ldots\\), alltså 0,061 m, 0,18 m, 0,30 m och 0,42 m.</p></li><li><p>Vägskillnaden ökar från 0 till 0,40 m. De tre första värdena ryms, men inte 0,42 m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 minimum.</p></div>",
+  "familj": "Vägskillnad med Pythagoras sats",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Beräkna vägskillnaden i P och våglängden. Hur många halva våglängder (0,5λ, 1,5λ, …) är mindre än vägskillnaden?</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "typ": "antal minimum mellan mittpunktsnormalen och P",
+  "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+},
+{
+  "id": "2.619",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "C",
+  "poang": "(1/2/0)",
+  "t": "<p>I en vågbassäng svänger två vågkällor K₁ och K₂ i fas med frekvensen 6,0 Hz. Källorna ligger 4,0 cm från varandra. Punkten P ligger 3,0 cm rakt framför K₁ och på den andra nodlinjen räknat från mittpunktsnormalen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"393\" height=\"290\" viewBox=\"0 0 393 290\" role=\"img\" aria-label=\"Vågbassäng med K1 och K2 4,0 cm från varandra. P ligger 3,0 cm rakt framför K1 på den andra nodlinjen.\"><title>Vågbassäng med K1 och K2 4,0 cm från varandra. P ligger 3,0 cm rakt framför K1 på den andra nodlinjen.</title><rect x=\"1\" y=\"1\" width=\"391\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"22\" width=\"333.3\" height=\"246.0\" rx=\"8\" fill=\"#e6f1f7\" stroke=\"#7aa7c2\" stroke-width=\"1.4\"/><polyline points=\"186.9,216.0 186.9,214.5 186.9,212.9 186.9,211.4 186.8,209.8 186.8,208.3 186.8,206.7 186.7,205.1 186.7,203.6 186.6,202.0 186.5,200.4 186.5,198.8 186.4,197.2 186.3,195.5 186.2,193.9 186.1,192.2 186.0,190.6 185.9,188.9 185.7,187.2 185.6,185.4 185.5,183.7 185.3,181.9 185.2,180.1 185.0,178.3 184.8,176.4 184.6,174.5 184.4,172.6 184.2,170.7 184.0,168.7 183.8,166.7 183.6,164.6 183.4,162.5 183.1,160.4 182.9,158.3 182.6,156.1 182.3,153.8 182.0,151.5 181.7,149.2 181.4,146.8 181.1,144.4 180.8,141.9 180.4,139.4 180.1,136.8 179.7,134.1 179.3,131.4 179.0,128.7 178.6,125.9 178.1,123.0 177.7,120.0 177.3,117.0 176.8,113.9 176.4,110.7 175.9,107.5 175.4,104.2 174.9,100.8 174.3,97.3 173.8,93.7 173.2,90.1 172.7,86.3 172.1,82.5 171.5,78.6 170.8,74.6 170.2,70.4 169.5,66.2 168.8,61.9 168.1,57.4 167.4,52.9 166.7,48.2 165.9,43.4 165.1,38.5 164.3,33.4 163.5,28.3\" fill=\"none\" stroke=\"#7aa7c2\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><polyline points=\"167.3,216.0 167.3,214.6 167.3,213.3 167.2,211.9 167.2,210.6 167.1,209.2 167.0,207.8 166.8,206.5 166.7,205.1 166.5,203.7 166.3,202.3 166.1,200.9 165.8,199.5 165.6,198.0 165.3,196.6 165.0,195.1 164.6,193.7 164.3,192.2 163.9,190.7 163.5,189.1 163.1,187.6 162.6,186.0 162.1,184.5 161.6,182.8 161.1,181.2 160.6,179.6 160.0,177.9 159.4,176.2 158.8,174.4 158.1,172.7 157.4,170.9 156.7,169.0 156.0,167.2 155.2,165.3 154.4,163.4 153.6,161.4 152.7,159.4 151.9,157.3 150.9,155.2 150.0,153.1 149.0,150.9 148.0,148.7 146.9,146.4 145.8,144.1 144.7,141.7 143.6,139.3 142.4,136.8 141.1,134.3 139.8,131.7 138.5,129.0 137.2,126.3 135.8,123.5 134.3,120.7 132.8,117.8 131.3,114.8 129.7,111.7 128.1,108.6 126.4,105.4 124.7,102.1 122.9,98.8 121.1,95.3 119.2,91.8 117.2,88.1 115.2,84.4 113.2,80.6 111.1,76.7 108.9,72.7 106.7,68.6 104.4,64.4 102.0,60.1 99.6,55.7 97.1,51.1 94.5,46.4 91.8,41.7 89.1,36.8 86.3,31.7 83.4,26.6\" fill=\"none\" stroke=\"#7aa7c2\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><line x1=\"138.0\" y1=\"216.0\" x2=\"138.0\" y2=\"128.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"255.3\" y1=\"216.0\" x2=\"138.0\" y2=\"128.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138.0\" y1=\"242.4\" x2=\"255.3\" y2=\"242.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"165.6\" y=\"246.4\" width=\"62.1\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"196.7\" y=\"260.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4,0 cm</text><rect x=\"70.9\" y=\"155.1\" width=\"62.1\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"169.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">3,0 cm</text><circle cx=\"138.0\" cy=\"216.0\" r=\"6\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"123.7\" y=\"225.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"138.0\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K₁</text><circle cx=\"255.3\" cy=\"216.0\" r=\"6\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"241.0\" y=\"225.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"255.3\" y=\"240.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K₂</text><circle cx=\"138.0\" cy=\"128.0\" r=\"5.5\" fill=\"#c2410c\"/><rect x=\"145.0\" y=\"104.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"150.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">P</text></svg></span><p>Bestäm vågornas utbredningshastighet. (Svara i cm/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_1=3{,}0\\ \\mathrm{cm}\\]</div></li><li><div class=\"facit-matte\">\\[r_2=\\sqrt{3{,}0^2+4{,}0^2}=5{,}0\\ \\mathrm{cm}\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta s=2{,}0\\ \\mathrm{cm}\\]</div></li><li><p>Den andra nodlinjen: \\(\\Delta s=\\tfrac32\\lambda\\).</p></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{2{,}0}{1{,}5}=1{,}33\\ \\mathrm{cm}\\]</div></li><li><div class=\"facit-matte\">\\[v=f\\lambda=6{,}0\\cdot1{,}33=8{,}0\\ \\mathrm{cm/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,0 cm/s.</p></div>",
+  "familj": "Bestämma våglängd och frekvens",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Beräkna vägskillnaden med Pythagoras sats. Vid den andra nodlinjen är vägskillnaden 1,5 våglängder.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 8.0,
+  "tolerans": 0.08,
+  "svarVardesiffror": 2,
+  "svarEnhet": "cm/s",
+  "typ": "vågornas fart ur andra nodlinjen",
+  "familjNyckel": "interferens__bestamma_vaglangd_och_frekvens"
+},
+{
+  "id": "2.620",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "C",
+  "poang": "(0/2/0)",
+  "t": "<p>Två högtalare H₁ och H₂ står 1,6 m från varandra och spelar samma ton med frekvensen 425 Hz, men i motfas. En person går från mittpunktsnormalen, 1,2 m från högtalarna, och stannar i P rakt framför H₂.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"354\" viewBox=\"0 0 380 354\" role=\"img\" aria-label=\"Personen går från mittpunktsnormalen till P rakt framför H2. Högtalarna är i motfas.\"><title>Personen går från mittpunktsnormalen till P rakt framför H2. Högtalarna är i motfas.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"352\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"167.0\" x2=\"330.0\" y2=\"167.0\" stroke=\"#b8c2cc\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><line x1=\"300.0\" y1=\"40.0\" x2=\"300.0\" y2=\"284.0\" stroke=\"#b8c2cc\" stroke-width=\"1.2\"/><line x1=\"138\" y1=\"62.0\" x2=\"300.0\" y2=\"272.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"272.0\" x2=\"300.0\" y2=\"272.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"300.0\" cy=\"167.0\" r=\"6\" fill=\"#fff\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"2 2\"/><line x1=\"316.0\" y1=\"175.0\" x2=\"316.0\" y2=\"262.0\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"316.0,262.0 312.1,253.9 319.9,253.9\" fill=\"#172b3a\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"264.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,264.0 137,256.0 137,288.0 125,280.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"291.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"306.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"300.0\" cy=\"272.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"307.0\" y=\"278.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"312.0\" y=\"294.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><line x1=\"88\" y1=\"62.0\" x2=\"88\" y2=\"272.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"62.0\" x2=\"94\" y2=\"62.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"272.0\" x2=\"94\" y2=\"272.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"30.6\" y=\"158.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"79.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">1,6 m</text><line x1=\"138.0\" y1=\"320.0\" x2=\"300.0\" y2=\"320.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"138.0\" y1=\"314.0\" x2=\"138.0\" y2=\"326.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"300.0\" y1=\"314.0\" x2=\"300.0\" y2=\"326.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"192.3\" y=\"326.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"219.0\" y=\"340.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,2 m</text></svg></span><p>Bestäm vägskillnaden i P och avgör om personen hör ett maximum eller ett minimum. (Svara med vägskillnaden i m och ordet maximum eller minimum.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_1=\\sqrt{1{,}2^2+1{,}6^2}=2{,}0\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta s=2{,}0-1{,}2=0{,}80\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{340}{425}=0{,}80\\ \\mathrm m\\]</div></li><li><p>Vägskillnaden är en hel våglängd. För källor i fas skulle det ge maximum, men källorna är i motfas, så det blir ett minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,80 m, minimum.</p></div>",
+  "familj": "Vägskillnad med Pythagoras sats",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>För källor i motfas byter maximum och minimum plats jämfört med källor i fas.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0.8,
+    "minimum"
+  ],
+  "tolerans": [
+    0.008,
+    null
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "kort_text"
+  ],
+  "svarEnhet": [
+    "m",
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Vägskillnad",
+    "Maximum eller minimum"
+  ],
+  "svarVardesiffror": [
+    2,
+    null
+  ],
+  "typ": "högtalare i motfas, punkt rakt framför en högtalare",
+  "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+},
+{
+  "id": "2.621",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "C",
+  "poang": "(0/2/0)",
+  "t": "<p>Två högtalare H₁ och H₂ är kopplade till samma tongenerator så att de svänger i fas. De står 1,0 m från varandra. Lisa går från mittpunktsnormalen längs en linje 2,4 m från högtalarna. På vägen passerar hon två ljudminimum. När hon står rakt framför H₂ hör hon ett ljudmaximum igen.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"510\" height=\"269\" viewBox=\"0 0 510 269\" role=\"img\" aria-label=\"Lisa går från mittpunktsnormalen till ett ljudmaximum rakt framför H2\"><title>Lisa går från mittpunktsnormalen till ett ljudmaximum rakt framför H2</title><rect x=\"1\" y=\"1\" width=\"508\" height=\"267\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"124.5\" x2=\"460.0\" y2=\"124.5\" stroke=\"#b8c2cc\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><line x1=\"430.0\" y1=\"40.0\" x2=\"430.0\" y2=\"199.0\" stroke=\"#b8c2cc\" stroke-width=\"1.2\"/><line x1=\"138\" y1=\"62.0\" x2=\"430.0\" y2=\"187.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"187.0\" x2=\"430.0\" y2=\"187.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"430.0\" cy=\"124.5\" r=\"6\" fill=\"#fff\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"2 2\"/><line x1=\"446.0\" y1=\"132.5\" x2=\"446.0\" y2=\"177.0\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"446.0,177.0 442.1,168.9 449.9,168.9\" fill=\"#172b3a\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"179.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,179.0 137,171.0 137,203.0 125,195.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"206.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"221.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"430.0\" cy=\"187.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"437.0\" y=\"193.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"442.0\" y=\"209.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><line x1=\"88\" y1=\"62.0\" x2=\"88\" y2=\"187.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"62.0\" x2=\"94\" y2=\"62.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"187.0\" x2=\"94\" y2=\"187.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"30.6\" y=\"115.5\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"79.0\" y=\"129.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">1,0 m</text><line x1=\"138.0\" y1=\"235.0\" x2=\"430.0\" y2=\"235.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"138.0\" y1=\"229.0\" x2=\"138.0\" y2=\"241.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"430.0\" y1=\"229.0\" x2=\"430.0\" y2=\"241.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"257.3\" y=\"241.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"284.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2,4 m</text></svg></span><p>Bestäm ljudets frekvens. (Svara i Hz.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_1=\\sqrt{2{,}4^2+1{,}0^2}=2{,}6\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta s=2{,}6-2{,}4=0{,}20\\ \\mathrm m\\]</div></li><li><p>Från mittpunktsnormalen: minimum vid \\(0{,}5\\lambda\\), maximum vid \\(\\lambda\\), minimum vid \\(1{,}5\\lambda\\) och maximum vid \\(2\\lambda\\). Efter två minimum är hon alltså vid \\(\\Delta s=2\\lambda\\).</p></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{0{,}20}{2}=0{,}10\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[f=\\frac{340}{0{,}10}=3400\\ \\mathrm{Hz}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3,4 kHz.</p></div>",
+  "familj": "Bestämma våglängd och frekvens",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Skriv upp i vilken ordning maximum och minimum kommer när vägskillnaden växer från 0.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3400,
+  "tolerans": 68.0,
+  "svarEnhet": "Hz",
+  "typ": "frekvens när två minimum passeras",
+  "familjNyckel": "interferens__bestamma_vaglangd_och_frekvens"
+},
+{
+  "id": "2.622",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "C",
+  "poang": "(0/2/0)",
+  "t": "<p>Två högtalare H₁ och H₂ står 2,1 m från varandra och spelar samma ton i fas med frekvensen 1700 Hz. En person går från mittpunktsnormalen längs en linje 2,0 m från högtalarna och stannar i P rakt framför H₂.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"410\" height=\"354\" viewBox=\"0 0 410 354\" role=\"img\" aria-label=\"Personen går från mittpunktsnormalen till P rakt framför H2\"><title>Personen går från mittpunktsnormalen till P rakt framför H2</title><rect x=\"1\" y=\"1\" width=\"408\" height=\"352\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"167.0\" x2=\"360.0\" y2=\"167.0\" stroke=\"#b8c2cc\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><line x1=\"330.0\" y1=\"40.0\" x2=\"330.0\" y2=\"284.0\" stroke=\"#b8c2cc\" stroke-width=\"1.2\"/><line x1=\"138\" y1=\"62.0\" x2=\"330.0\" y2=\"272.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"272.0\" x2=\"330.0\" y2=\"272.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><circle cx=\"330.0\" cy=\"167.0\" r=\"6\" fill=\"#fff\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"2 2\"/><line x1=\"346.0\" y1=\"175.0\" x2=\"346.0\" y2=\"262.0\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"346.0,262.0 342.1,253.9 349.9,253.9\" fill=\"#172b3a\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"264.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,264.0 137,256.0 137,288.0 125,280.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"291.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"306.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"330.0\" cy=\"272.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"337.0\" y=\"278.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"342.0\" y=\"294.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><line x1=\"88\" y1=\"62.0\" x2=\"88\" y2=\"272.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"62.0\" x2=\"94\" y2=\"62.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"272.0\" x2=\"94\" y2=\"272.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"30.6\" y=\"158.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"79.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">2,1 m</text><line x1=\"138.0\" y1=\"320.0\" x2=\"330.0\" y2=\"320.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"138.0\" y1=\"314.0\" x2=\"138.0\" y2=\"326.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"330.0\" y1=\"314.0\" x2=\"330.0\" y2=\"326.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"207.3\" y=\"326.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"234.0\" y=\"340.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2,0 m</text></svg></span><p>Hör personen ett maximum eller ett minimum i P, och vilket i ordningen räknat från mittpunktsnormalen är det? (Svara med maximum eller minimum och ordningsnumret.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_1=\\sqrt{2{,}0^2+2{,}1^2}=2{,}9\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta s=2{,}9-2{,}0=0{,}90\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{340}{1700}=0{,}20\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{\\Delta s}{\\lambda}=4{,}5\\]</div></li><li><p>Minimum ligger vid 0,5λ, 1,5λ, 2,5λ, 3,5λ och 4,5λ. P är alltså det femte minimumet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Minimum, det femte.</p></div>",
+  "familj": "Maximum eller minimum ur vägskillnaden",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Dela vägskillnaden med våglängden. Ett halvt antal ger minimum.</p>",
+  "spel": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "minimum",
+    5
+  ],
+  "tolerans": [
+    null,
+    0
+  ],
+  "svarFormat": [
+    "kort_text",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Maximum eller minimum",
+    "Ordning"
+  ],
+  "typ": "vilket minimum rakt framför en högtalare",
+  "familjNyckel": "interferens__maximum_eller_minimum_ur_vagskillnaden"
+},
+{
+  "id": "2.623",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "t": "<p>Två högtalare på en skolgård spelar samma ton i fas. Punkten P ligger 2,30 m från den ena högtalaren och 3,05 m från den andra. P är det tredje ljudminimumet räknat från mittpunktsnormalen.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"490\" height=\"264\" viewBox=\"0 0 490 264\" role=\"img\" aria-label=\"Två högtalare och punkten P. Avstånden är 2,30 m och 3,05 m.\"><title>Två högtalare och punkten P. Avstånden är 2,30 m och 3,05 m.</title><rect x=\"1\" y=\"1\" width=\"488\" height=\"262\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"137.0\" x2=\"440.0\" y2=\"137.0\" stroke=\"#b8c2cc\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><line x1=\"138\" y1=\"62.0\" x2=\"410.0\" y2=\"182.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"212.0\" x2=\"410.0\" y2=\"182.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"204\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,204 137,196 137,228 125,220\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"231.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"246.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"410.0\" cy=\"182.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"417.0\" y=\"171.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"422.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><rect x=\"243.0\" y=\"100.0\" width=\"62.1\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"274.0\" y=\"114.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">3,05 m</text><rect x=\"243.0\" y=\"201.0\" width=\"62.1\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"274.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">2,30 m</text></svg></span><p>Bestäm ljudets våglängd. (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta s=3{,}05-2{,}30=0{,}75\\ \\mathrm m\\]</div></li><li><p>Det tredje minimumet har \\(\\Delta s=\\tfrac52\\lambda\\).</p></li><li><div class=\"facit-matte\">\\[\\lambda=\\frac{0{,}75}{2{,}5}=0{,}30\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,30 m.</p></div>",
+  "familj": "Bestämma våglängd och frekvens",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Minimum: 0,5λ, 1,5λ, 2,5λ … Vilket värde hör till det tredje?</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.3,
+  "tolerans": 0.003,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m",
+  "typ": "våglängd ur tredje minimum",
+  "familjNyckel": "interferens__bestamma_vaglangd_och_frekvens"
+},
+{
+  "id": "2.624",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "A",
+  "poang": "(0/1/2)",
+  "t": "<p>Två radiomaster A och B står 60 m från varandra och sänder i fas med våglängden 12 m. En väg går från A vinkelrätt bort från AB. En bil kör från A längs vägen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"268\" height=\"322\" viewBox=\"0 0 268 322\" role=\"img\" aria-label=\"Radiomasterna B och A med 60 meter mellan sig och en bil på vägen på det okända avståndet s från A\"><title>Radiomasterna B och A med 60 meter mellan sig och en bil på vägen på det okända avståndet s från A</title><rect x=\"1\" y=\"1\" width=\"266\" height=\"320\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"143.5\" y=\"20\" width=\"28\" height=\"240.0\" fill=\"#eef1f4\"/><line x1=\"157.5\" y1=\"24\" x2=\"157.5\" y2=\"260.0\" stroke=\"#fff\" stroke-width=\"2\" stroke-dasharray=\"10 8\"/><rect x=\"174.5\" y=\"27.0\" width=\"34.2\" height=\"18.2\" rx=\"3\" fill=\"#fff\"/><text x=\"179.5\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">väg</text><line x1=\"72\" y1=\"242.0\" x2=\"157.5\" y2=\"50.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><rect x=\"148.5\" y=\"36.0\" width=\"18\" height=\"28\" rx=\"5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"197.5\" y1=\"50.0\" x2=\"197.5\" y2=\"242.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"191.5\" y1=\"50.0\" x2=\"203.5\" y2=\"50.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"191.5\" y1=\"242.0\" x2=\"203.5\" y2=\"242.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"201.5\" y=\"137.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"206.5\" y=\"151.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">s = ?</text><polygon points=\"61,274 70,242 79,274\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"263\" x2=\"76\" y2=\"263\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><circle cx=\"70\" cy=\"240\" r=\"3\" fill=\"#172b3a\"/><path d=\"M78 232 q7 8 0 16 M83 227 q11 13 0 26\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><polygon points=\"148.5,274 157.5,242 166.5,274\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"151.5\" y1=\"263\" x2=\"163.5\" y2=\"263\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><circle cx=\"157.5\" cy=\"240\" r=\"3\" fill=\"#172b3a\"/><path d=\"M165.5 232 q7 8 0 16 M170.5 227 q11 13 0 26\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"33.7\" y=\"253.0\" width=\"19.3\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"48.0\" y=\"268.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">B</text><rect x=\"121.2\" y=\"253.0\" width=\"19.3\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"135.5\" y=\"268.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">A</text><line x1=\"70.0\" y1=\"282\" x2=\"157.5\" y2=\"282\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"70.0\" y1=\"276\" x2=\"70.0\" y2=\"288\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"157.5\" y1=\"276\" x2=\"157.5\" y2=\"288\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"91.4\" y=\"288.0\" width=\"44.7\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"113.8\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">60 m</text></svg></span><p>Hur långt från A ligger det mottagningsmaximum som ligger längst bort från A? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Långt bort går vägskillnaden mot 0. Det sista maximumet har därför \\(\\Delta s=\\lambda=12\\ \\mathrm m\\).</p></li><li><div class=\"facit-matte\">\\[\\sqrt{s^2+60^2}-s=12\\]</div></li><li><div class=\"facit-matte\">\\[s^2+3600=(s+12)^2=s^2+24s+144\\]</div></li><li><div class=\"facit-matte\">\\[s=\\frac{3600-144}{24}=144\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 144 m från A.</p></div>",
+  "familj": "Vägskillnad med Pythagoras sats",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Vilken vägskillnad har det maximum som ligger längst bort? Ställ upp en ekvation med Pythagoras sats.</p>",
+  "spel": true,
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 144,
+  "tolerans": 1.44,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m",
+  "typ": "sista maximum längs en väg",
+  "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+},
+{
+  "id": "2.625",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "A",
+  "poang": "(0/1/2)",
+  "t": "<p>Två högtalare H₁ och H₂ är kopplade till samma tongenerator så att de svänger i fas. De står 1,6 m från varandra. En person går längs en linje 3,0 m från högtalarna, från mittpunktsnormalen mot H₂. Det första ljudmaximumet hör hon i P, 0,40 m från mittpunktsnormalen.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"550\" height=\"306\" viewBox=\"0 0 550 306\" role=\"img\" aria-label=\"Linje 3,0 m framför högtalarna. P ligger 0,40 m från mittpunktsnormalen. Läget för nästa maximum är okänt.\"><title>Linje 3,0 m framför högtalarna. P ligger 0,40 m från mittpunktsnormalen. Läget för nästa maximum är okänt.</title><rect x=\"1\" y=\"1\" width=\"548\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"130\" y1=\"142.0\" x2=\"460.0\" y2=\"142.0\" stroke=\"#b8c2cc\" stroke-width=\"1.4\" stroke-dasharray=\"3 5\"/><line x1=\"430.0\" y1=\"40.0\" x2=\"430.0\" y2=\"237.9\" stroke=\"#b8c2cc\" stroke-width=\"1.2\"/><line x1=\"138\" y1=\"62.0\" x2=\"430.0\" y2=\"182.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"222.0\" x2=\"430.0\" y2=\"182.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"214.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,214.0 137,206.0 137,238.0 125,230.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"241.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"256.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"430.0\" cy=\"182.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"401.1\" y=\"171.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"416.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">P</text><circle cx=\"430.0\" cy=\"223.9\" r=\"6.5\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"2.2\" stroke-dasharray=\"3 2\"/><rect x=\"401.1\" y=\"212.9\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"416.0\" y=\"228.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">?</text><line x1=\"460.0\" y1=\"142.0\" x2=\"460.0\" y2=\"182.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"454.0\" y1=\"142.0\" x2=\"466.0\" y2=\"142.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"454.0\" y1=\"182.0\" x2=\"466.0\" y2=\"182.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"464.0\" y=\"153.0\" width=\"62.1\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"469.0\" y=\"167.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">0,40 m</text><line x1=\"88\" y1=\"62.0\" x2=\"88\" y2=\"222.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"62.0\" x2=\"94\" y2=\"62.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"222.0\" x2=\"94\" y2=\"222.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"30.6\" y=\"133.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"79.0\" y=\"147.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">1,6 m</text><line x1=\"138.0\" y1=\"271.93780769869795\" x2=\"430.0\" y2=\"271.93780769869795\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"138.0\" y1=\"265.93780769869795\" x2=\"138.0\" y2=\"277.93780769869795\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"430.0\" y1=\"265.93780769869795\" x2=\"430.0\" y2=\"277.93780769869795\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"257.3\" y=\"277.9\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"284.0\" y=\"291.9\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">3,0 m</text></svg></span><p>Hur långt från mittpunktsnormalen ligger nästa ljudmaximum åt samma håll? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från P är de vågräta avstånden till högtalarna 1,2 m och 0,40 m.</p></li><li><div class=\"facit-matte\">\\[\\lambda=\\Delta s_P=\\sqrt{3{,}0^2+1{,}2^2}-\\sqrt{3{,}0^2+0{,}40^2}=0{,}2045\\ \\mathrm m\\]</div></li><li><p>Nästa maximum har \\(\\Delta s=2\\lambda\\). Med avståndet \\(x\\) från mittpunktsnormalen gäller</p></li><li><div class=\"facit-matte\">\\[\\sqrt{3{,}0^2+(0{,}80+x)^2}-\\sqrt{3{,}0^2+(0{,}80-x)^2}=2\\cdot0{,}2045\\]</div></li><li><p>Lös ekvationen med GeoGebra: \\(x\\approx0{,}82\\ \\mathrm m\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,82 m från mittpunktsnormalen.</p></div>",
+  "familj": "Vägskillnad med Pythagoras sats",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "självrättning": true,
+  "ledtrad": "<p>Bestäm våglängden ur P. Ställ sedan upp en ekvation för den punkt där vägskillnaden är två våglängder.</p>",
+  "spel": true,
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.8193780769869794,
+  "tolerans": 0.008193780769869794,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m",
+  "typ": "läget för nästa maximum med digitalt verktyg",
+  "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+},
+{
+  "id": "2.626",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "A",
+  "poang": "(0/1/2)",
+  "t": "<p>Två högtalare H₁ och H₂ står 2,0 m från varandra och svänger i fas. Punkten P ligger 1,5 m rakt framför H₂. Tongeneratorns frekvens kan ställas in mellan 300 Hz och 1300 Hz.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"354\" viewBox=\"0 0 380 354\" role=\"img\" aria-label=\"Punkten P ligger 1,5 meter rakt framför H2. Högtalarna står 2,0 meter från varandra.\"><title>Punkten P ligger 1,5 meter rakt framför H2. Högtalarna står 2,0 meter från varandra.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"352\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"138\" y1=\"62.0\" x2=\"300.0\" y2=\"272.0\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"272.0\" x2=\"300.0\" y2=\"272.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"264.0\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,264.0 137,256.0 137,288.0 125,280.0\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"291.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"306.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"300.0\" cy=\"272.0\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"307.0\" y=\"261.0\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"312.0\" y=\"277.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><line x1=\"88\" y1=\"62.0\" x2=\"88\" y2=\"272.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"62.0\" x2=\"94\" y2=\"62.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"272.0\" x2=\"94\" y2=\"272.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"30.6\" y=\"158.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"79.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">2,0 m</text><line x1=\"138.0\" y1=\"320.0\" x2=\"300.0\" y2=\"320.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"138.0\" y1=\"314.0\" x2=\"138.0\" y2=\"326.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"300.0\" y1=\"314.0\" x2=\"300.0\" y2=\"326.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"192.3\" y=\"326.0\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"219.0\" y=\"340.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,5 m</text></svg></span><p>Vilka frekvenser i intervallet ger ett ljudminimum i P? (Svara i Hz.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r_1=\\sqrt{1{,}5^2+2{,}0^2}=2{,}5\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta s=2{,}5-1{,}5=1{,}0\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta s=\\left(n+\\tfrac12\\right)\\lambda\\quad\\Rightarrow\\quad f=\\frac{v}{\\lambda}=\\frac{(n+\\tfrac12)\\cdot340}{1{,}0}\\]</div></li><li><p>n = 0, 1, 2, 3, 4 ger 170 Hz, 510 Hz, 850 Hz, 1190 Hz och 1530 Hz.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 510 Hz, 850 Hz och 1190 Hz.</p></div>",
+  "familj": "Bestämma våglängd och frekvens",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Beräkna vägskillnaden. Vilka våglängder gör vägskillnaden till ett halvt antal våglängder?</p>",
+  "spel": true,
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    510.0,
+    850.0,
+    1190.0
+  ],
+  "tolerans": [
+    10.2,
+    17.0,
+    23.8
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "Hz",
+    "Hz",
+    "Hz"
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "Frekvens",
+    "Frekvens",
+    "Frekvens"
+  ],
+  "typ": "frekvenser som ger minimum i en punkt",
+  "familjNyckel": "interferens__bestamma_vaglangd_och_frekvens"
+},
+{
+  "id": "2.627",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "A",
+  "poang": "(0/1/2)",
+  "t": "<p>Två högtalare H₁ och H₂ står 1,2 m från varandra och spelar en ton med frekvensen 850 Hz i fas. Längs en linje rakt framför H₂ finns flera ljudminimum.</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"510\" height=\"247\" viewBox=\"0 0 510 247\" role=\"img\" aria-label=\"Punkten P ligger på det okända avståndet L rakt framför H2\"><title>Punkten P ligger på det okända avståndet L rakt framför H2</title><rect x=\"1\" y=\"1\" width=\"508\" height=\"245\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"138\" y1=\"62.0\" x2=\"430.0\" y2=\"164.9\" stroke=\"#216d87\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"138\" y1=\"164.9\" x2=\"430.0\" y2=\"164.9\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><rect x=\"115\" y=\"54\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,54 137,46 137,78 125,70\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"115\" y=\"156.85714285714283\" width=\"10\" height=\"16\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"125,156.85714285714283 137,148.85714285714283 137,180.85714285714283 125,172.85714285714283\" fill=\"#e8edf2\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><rect x=\"113.7\" y=\"23.0\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₁</text><rect x=\"113.7\" y=\"183.9\" width=\"28.6\" height=\"21.0\" rx=\"3\" fill=\"#fff\"/><text x=\"128.0\" y=\"198.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">H₂</text><circle cx=\"430.0\" cy=\"164.9\" r=\"6.5\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><rect x=\"437.0\" y=\"153.9\" width=\"19.9\" height=\"22.4\" rx=\"3\" fill=\"#fff\"/><text x=\"442.0\" y=\"169.9\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><line x1=\"88\" y1=\"62.0\" x2=\"88\" y2=\"164.9\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"62.0\" x2=\"94\" y2=\"62.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"82\" y1=\"164.9\" x2=\"94\" y2=\"164.9\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"30.6\" y=\"104.4\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"79.0\" y=\"118.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">1,2 m</text><line x1=\"138.0\" y1=\"212.85714285714283\" x2=\"430.0\" y2=\"212.85714285714283\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"138.0\" y1=\"206.85714285714283\" x2=\"138.0\" y2=\"218.85714285714283\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"430.0\" y1=\"206.85714285714283\" x2=\"430.0\" y2=\"218.85714285714283\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"257.3\" y=\"218.9\" width=\"53.4\" height=\"19.6\" rx=\"3\" fill=\"#fff\"/><text x=\"284.0\" y=\"232.9\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">L = ?</text></svg></span><p>Hur långt framför H₂ ligger det ljudminimum som är längst bort från högtalarna? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\lambda=\\frac{340}{850}=0{,}40\\ \\mathrm m\\]</div></li><li><p>Rakt framför H₂ är \\(\\Delta s=\\sqrt{L^2+1{,}2^2}-L\\). Den minskar mot 0 när \\(L\\) växer, så det yttersta minimumet har \\(\\Delta s=\\tfrac12\\lambda=0{,}20\\ \\mathrm m\\).</p></li><li><div class=\"facit-matte\">\\[\\sqrt{L^2+1{,}44}=L+0{,}20\\]</div></li><li><div class=\"facit-matte\">\\[L^2+1{,}44=L^2+0{,}40L+0{,}04\\]</div></li><li><div class=\"facit-matte\">\\[L=\\frac{1{,}40}{0{,}40}=3{,}5\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,5 m framför H₂.</p></div>",
+  "familj": "Vägskillnad med Pythagoras sats",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Hur ändras vägskillnaden när man går längre bort? Vilken vägskillnad har det minimum som ligger längst bort?</p>",
+  "spel": true,
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3.4999999999999996,
+  "tolerans": 0.07,
+  "svarEnhet": "m",
+  "typ": "avstånd till det yttersta minimumet framför en högtalare",
+  "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
 }
 ];

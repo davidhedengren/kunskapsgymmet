@@ -4058,7 +4058,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-22-fy2-niva1-magnetism";
+const BANK_VERSION="2026-10-22-fy2-interferens";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10135,8 +10135,10 @@ const TEXT_ORDKLASSER=[
   [/^(?:ingen|inget|inga|ingen lösning|inga lösningar|saknar lösning|ingen reell lösning|inga reella lösningar|ingen korrelation|ingen tydlig korrelation)$/,"ingen"],
   [/^(?:en|1|en lösning|exakt en|exakt en lösning|unik|en unik lösning)$/,"en"],
   [/^(?:oändligt många|oändligt många lösningar|oändligt)$/,"oändligt många"],
-  [/^(?:största|ett största|maximum|max)$/,"största"],
-  [/^(?:minsta|ett minsta|minimum|min)$/,"minsta"],
+  [/^(?:största|ett största|maximum|max|interferensmaximum|förstärkning|förstärks|förstärkt|förstärkas|förstärker varandra|konstruktiv|konstruktiv interferens)$/,"största"],
+  [/^(?:minsta|ett minsta|minimum|min|interferensminimum|försvagning|försvagas|försvagat|försvagad|släckning|utsläckning|släcks ut|tyst|tystnad|destruktiv|destruktiv interferens)$/,"minsta"],
+  [/^(?:motfas|i motfas|är i motfas|motsatt fas)$/,"motfas"],
+  [/^(?:i fas|fas|är i fas|samma fas)$/,"i fas"],
   [/^(?:motsatt|motsatt riktning|omvänd riktning)$/,"motsatt"],
   [/^(?:rät cirkulär kon|cirkulär kon|rak kon|kon|en kon)$/,"kon"],
 ];
@@ -10146,7 +10148,7 @@ function textKarna(x){
   const tidig=klass(s); if(tidig) return tidig;
   s=s.replace(/\s+(?:funktion|funktionen|modell|modellen|korrelation|korrelationen|samband|sambandet|värde|värdet|mätningen|riktning)$/,"");
   const mitt=klass(s); if(mitt) return mitt;
-  s=s.replace(/^(?:det är|den är|det blir|den blir|det har|den har|det|den|de|en|ett)\s+(?=\S)/,"");
+  for(let i=0;i<2;i++) s=s.replace(/^(?:det är|den är|de är|det blir|den blir|det har|den har|det|den|de|en|ett)\s+(?=\S)/,"");
   const sen=klass(s); if(sen) return sen;
   s=s.replace(/^(?:taxi|abonnemang|alternativ|konto|lån|modell|graf|system|lag|bolag|klass|företag)\s+([a-d])$/,"$1");
   s=s.replace(/^([a-z])\(x\)$/,"$1");

@@ -100517,5 +100517,265 @@ window.BANKMATO2 = [
       "kommentar": "Den har bara tre lösningar."
     }
   ]
+},
+{
+  "id": "2.648",
+  "kap": 3,
+  "omr": "grafer_derivator",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "minsta värde för x + 9/x",
+  "t": "<p>Bestäm det minsta värdet av \\(f(x)=x+\\dfrac9x\\) för \\(x\\gt0\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(f^{\\prime}(x)=1-\\dfrac{9}{x^2}=0\\) ger \\(x^2=9\\), alltså \\(x=3\\) (eftersom \\(x\\gt0\\)).</p><p>\\(f^{\\prime}\\) är negativ för \\(0\\lt x\\lt3\\) och positiv för \\(x\\gt3\\), så det är ett minimum: \\(f(3)=3+3=6\\).</p></div>",
+  "familj": "Extrempunkter, terrasspunkter och inflexion",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Derivera, sätt derivatan lika med 0 och kontrollera att det är ett minimum.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.649",
+  "kap": 3,
+  "omr": "grafer_derivator",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "extrempunkter för x²e^(−x)",
+  "t": "<p>Bestäm \\(x\\)-koordinaterna för extrempunkterna till \\(f(x)=x^2e^{-x}\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Produktregeln: \\(f^{\\prime}(x)=2xe^{-x}-x^2e^{-x}=x(2-x)e^{-x}\\).</p><p>\\(e^{-x}\\gt0\\), så \\(f^{\\prime}(x)=0\\) när \\(x=0\\) eller \\(x=2\\). Teckenstudium: minimum i \\(x=0\\) och maximum i \\(x=2\\).</p></div>",
+  "familj": "Extrempunkter, terrasspunkter och inflexion",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Använd produktregeln och bryt ut e^(−x).</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0,
+    2
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x",
+    "x"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "2.650",
+  "kap": 3,
+  "omr": "grafer_derivator",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "maximum för ln x − x/2",
+  "t": "<p>Funktionen \\(f(x)=\\ln x-\\dfrac x2\\), \\(x\\gt0\\), har en maximipunkt. Bestäm dess \\(x\\)-koordinat.</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(f^{\\prime}(x)=\\dfrac1x-\\dfrac12=0\\) ger \\(x=2\\). För \\(x\\lt2\\) är \\(f^{\\prime}\\gt0\\) och för \\(x\\gt2\\) är \\(f^{\\prime}\\lt0\\): ett maximum.</p></div>",
+  "familj": "Extrempunkter, terrasspunkter och inflexion",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Derivatan av ln x är 1/x.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.651",
+  "kap": 3,
+  "omr": "grafer_derivator",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "parameter så att extrempunkter saknas",
+  "t": "<p>Funktionen \\(f(x)=x^3+ax^2+3x\\) saknar extrempunkter för vissa värden på \\(a\\). Bestäm det största sådana värdet på \\(a\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(f^{\\prime}(x)=3x^2+2ax+3\\). Extrempunkter saknas om \\(f^{\\prime}\\) aldrig byter tecken, alltså om \\(3x^2+2ax+3=0\\) har högst en lösning.</p><p>Diskriminanten: \\(\\left(\\tfrac{2a}{6}\\right)^2-1\\le0\\), vilket ger \\(a^2\\le9\\), alltså \\(-3\\le a\\le3\\). Det största värdet är \\(a=3\\) (då finns en terrasspunkt).</p></div>",
+  "familj": "Extrempunkter, terrasspunkter och inflexion",
+  "formaga": [
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>f′ är en andragradsfunktion. När byter den inte tecken?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.652",
+  "kap": 3,
+  "omr": "grafer_derivator",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "antal extrempunkter ur derivatans graf",
+  "t": "<p>Figuren visar grafen till derivatan \\(f^{\\prime}\\). Hur många extrempunkter har \\(f\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 340\" role=\"img\" aria-label=\"Grafen till derivatan f′. Den är en nedåtvänd parabel som skär x-axeln i x = −1 och x = 3.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"89.2\" y1=\"22\" x2=\"89.2\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"130.5\" y1=\"22\" x2=\"130.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"171.8\" y1=\"22\" x2=\"171.8\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"213.0\" y1=\"22\" x2=\"213.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"254.2\" y1=\"22\" x2=\"254.2\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"295.5\" y1=\"22\" x2=\"295.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"336.8\" y1=\"22\" x2=\"336.8\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"298.0\" x2=\"378\" y2=\"298.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"272.9\" x2=\"378\" y2=\"272.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"247.8\" x2=\"378\" y2=\"247.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"222.7\" x2=\"378\" y2=\"222.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"197.6\" x2=\"378\" y2=\"197.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"172.5\" x2=\"378\" y2=\"172.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"147.5\" x2=\"378\" y2=\"147.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"122.4\" x2=\"378\" y2=\"122.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"97.3\" x2=\"378\" y2=\"97.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"72.2\" x2=\"378\" y2=\"72.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"47.1\" x2=\"378\" y2=\"47.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"378\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"172.5\" x2=\"388\" y2=\"172.5\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,172.5 382,167.5 382,177.5\" fill=\"#172b3a\"/><line x1=\"171.8\" y1=\"298\" x2=\"171.8\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"171.8,8 166.8,18 176.8,18\" fill=\"#172b3a\"/><text x=\"390\" y=\"163.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"179.8\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"48.0\" y=\"189.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"89.2\" y=\"189.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"130.5\" y=\"189.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"213.0\" y=\"189.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"254.2\" y=\"189.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"295.5\" y=\"189.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"336.8\" y=\"189.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"378.0\" y=\"189.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"165.8\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−5</text><text x=\"165.8\" y=\"276.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"165.8\" y=\"251.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"165.8\" y=\"226.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"165.8\" y=\"201.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"165.8\" y=\"151.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"165.8\" y=\"126.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"165.8\" y=\"101.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"165.8\" y=\"76.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"165.8\" y=\"51.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"165.8\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"165.8\" y=\"189.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kdb3028cc\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"276\"/></clipPath><polyline clip-path=\"url(#kdb3028cc)\" points=\"48.0,473.6 48.8,469.6 49.6,465.6 50.5,461.7 51.3,457.7 52.1,453.8 53.0,449.9 53.8,446.0 54.6,442.2 55.4,438.3 56.3,434.5 57.1,430.7 57.9,426.9 58.7,423.1 59.6,419.4 60.4,415.7 61.2,412.0 62.0,408.3 62.8,404.6 63.7,401.0 64.5,397.4 65.3,393.8 66.2,390.2 67.0,386.6 67.8,383.1 68.6,379.5 69.5,376.0 70.3,372.6 71.1,369.1 71.9,365.7 72.8,362.2 73.6,358.8 74.4,355.4 75.2,352.1 76.1,348.7 76.9,345.4 77.7,342.1 78.5,338.8 79.3,335.6 80.2,332.3 81.0,329.1 81.8,325.9 82.6,322.7 83.5,319.6 84.3,316.4 85.1,313.3 85.9,310.2 86.8,307.1 87.6,304.1 88.4,301.0 89.2,298.0 90.1,295.0 90.9,292.0 91.7,289.1 92.6,286.1 93.4,283.2 94.2,280.3 95.0,277.4 95.8,274.6 96.7,271.7 97.5,268.9 98.3,266.1 99.2,263.3 100.0,260.6 100.8,257.8 101.6,255.1 102.5,252.4 103.3,249.7 104.1,247.1 104.9,244.4 105.8,241.8 106.6,239.2 107.4,236.6 108.2,234.1 109.0,231.5 109.9,229.0 110.7,226.5 111.5,224.0 112.4,221.6 113.2,219.1 114.0,216.7 114.8,214.3 115.6,211.9 116.5,209.6 117.3,207.2 118.1,204.9 119.0,202.6 119.8,200.3 120.6,198.1 121.4,195.8 122.2,193.6 123.1,191.4 123.9,189.2 124.7,187.1 125.5,185.0 126.4,182.8 127.2,180.7 128.0,178.7 128.8,176.6 129.7,174.6 130.5,172.5 131.3,170.5 132.2,168.6 133.0,166.6 133.8,164.7 134.6,162.8 135.4,160.9 136.3,159.0 137.1,157.1 137.9,155.3 138.8,153.5 139.6,151.7 140.4,149.9 141.2,148.1 142.1,146.4 142.9,144.7 143.7,143.0 144.5,141.3 145.3,139.7 146.2,138.0 147.0,136.4 147.8,134.8 148.6,133.2 149.5,131.7 150.3,130.2 151.1,128.6 151.9,127.1 152.8,125.7 153.6,124.2 154.4,122.8 155.2,121.4 156.1,120.0 156.9,118.6 157.7,117.2 158.6,115.9 159.4,114.6 160.2,113.3 161.0,112.0 161.8,110.8 162.7,109.5 163.5,108.3 164.3,107.1 165.1,105.9 166.0,104.8 166.8,103.7 167.6,102.5 168.4,101.4 169.3,100.4 170.1,99.3 170.9,98.3 171.8,97.3 172.6,96.3 173.4,95.3 174.2,94.4 175.1,93.4 175.9,92.5 176.7,91.6 177.5,90.7 178.3,89.9 179.2,89.1 180.0,88.2 180.8,87.4 181.7,86.7 182.5,85.9 183.3,85.2 184.1,84.5 184.9,83.8 185.8,83.1 186.6,82.5 187.4,81.8 188.2,81.2 189.1,80.6 189.9,80.1 190.7,79.5 191.6,79.0 192.4,78.5 193.2,78.0 194.0,77.5 194.8,77.0 195.7,76.6 196.5,76.2 197.3,75.8 198.2,75.4 199.0,75.1 199.8,74.8 200.6,74.4 201.5,74.1 202.3,73.9 203.1,73.6 203.9,73.4 204.8,73.2 205.6,73.0 206.4,72.8 207.2,72.7 208.0,72.5 208.9,72.4 209.7,72.3 210.5,72.3 211.3,72.2 212.2,72.2 213.0,72.2 213.8,72.2 214.7,72.2 215.5,72.3 216.3,72.3 217.1,72.4 218.0,72.5 218.8,72.7 219.6,72.8 220.4,73.0 221.2,73.2 222.1,73.4 222.9,73.6 223.7,73.9 224.6,74.1 225.4,74.4 226.2,74.8 227.0,75.1 227.9,75.4 228.7,75.8 229.5,76.2 230.3,76.6 231.2,77.0 232.0,77.5 232.8,78.0 233.6,78.5 234.4,79.0 235.3,79.5 236.1,80.1 236.9,80.6 237.7,81.2 238.6,81.8 239.4,82.5 240.2,83.1 241.0,83.8 241.9,84.5 242.7,85.2 243.5,85.9 244.3,86.7 245.2,87.4 246.0,88.2 246.8,89.1 247.7,89.9 248.5,90.7 249.3,91.6 250.1,92.5 250.9,93.4 251.8,94.4 252.6,95.3 253.4,96.3 254.2,97.3 255.1,98.3 255.9,99.3 256.7,100.4 257.6,101.4 258.4,102.5 259.2,103.7 260.0,104.8 260.9,105.9 261.7,107.1 262.5,108.3 263.3,109.5 264.1,110.8 265.0,112.0 265.8,113.3 266.6,114.6 267.5,115.9 268.3,117.2 269.1,118.6 269.9,120.0 270.8,121.4 271.6,122.8 272.4,124.2 273.2,125.7 274.1,127.1 274.9,128.6 275.7,130.2 276.5,131.7 277.4,133.2 278.2,134.8 279.0,136.4 279.8,138.0 280.6,139.7 281.5,141.3 282.3,143.0 283.1,144.7 283.9,146.4 284.8,148.1 285.6,149.9 286.4,151.7 287.2,153.5 288.1,155.3 288.9,157.1 289.7,159.0 290.5,160.9 291.4,162.8 292.2,164.7 293.0,166.6 293.9,168.6 294.7,170.5 295.5,172.5 296.3,174.6 297.1,176.6 298.0,178.7 298.8,180.7 299.6,182.8 300.5,185.0 301.3,187.1 302.1,189.2 302.9,191.4 303.8,193.6 304.6,195.8 305.4,198.1 306.2,200.3 307.1,202.6 307.9,204.9 308.7,207.2 309.5,209.6 310.4,211.9 311.2,214.3 312.0,216.7 312.8,219.1 313.7,221.6 314.5,224.0 315.3,226.5 316.1,229.0 316.9,231.5 317.8,234.1 318.6,236.6 319.4,239.2 320.2,241.8 321.1,244.4 321.9,247.1 322.7,249.7 323.6,252.4 324.4,255.1 325.2,257.8 326.0,260.6 326.8,263.3 327.7,266.1 328.5,268.9 329.3,271.7 330.1,274.6 331.0,277.4 331.8,280.3 332.6,283.2 333.4,286.1 334.3,289.1 335.1,292.0 335.9,295.0 336.8,298.0 337.6,301.0 338.4,304.1 339.2,307.1 340.1,310.2 340.9,313.3 341.7,316.4 342.5,319.6 343.4,322.7 344.2,325.9 345.0,329.1 345.8,332.3 346.7,335.6 347.5,338.8 348.3,342.1 349.1,345.4 349.9,348.7 350.8,352.1 351.6,355.4 352.4,358.8 353.2,362.2 354.1,365.7 354.9,369.1 355.7,372.6 356.6,376.0 357.4,379.5 358.2,383.1 359.0,386.6 359.8,390.2 360.7,393.8 361.5,397.4 362.3,401.0 363.1,404.6 364.0,408.3 364.8,412.0 365.6,415.7 366.4,419.4 367.3,423.1 368.1,426.9 368.9,430.7 369.8,434.5 370.6,438.3 371.4,442.2 372.2,446.0 373.1,449.9 373.9,453.8 374.7,457.7 375.5,461.7 376.4,465.6 377.2,469.6 378.0,473.6\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"307.9\" y=\"84.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">y = f′(x)</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(f\\) har extrempunkter där \\(f^{\\prime}\\) byter tecken. Grafen skär \\(x\\)-axeln (och byter tecken) i \\(x=-1\\) och \\(x=3\\): två extrempunkter.</p><p>I \\(x=-1\\) går \\(f^{\\prime}\\) från − till +: minimum. I \\(x=3\\) från + till −: maximum.</p></div>",
+  "familj": "Extrempunkter, terrasspunkter och inflexion",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Var byter f′ tecken?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.653",
+  "kap": 3,
+  "omr": "grafer_derivator",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "terrasspunkt ur derivatans graf",
+  "t": "<p>Figuren visar grafen till derivatan \\(f^{\\prime}\\). För vilket \\(x\\) har \\(f\\) en terrasspunkt?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 340\" role=\"img\" aria-label=\"Grafen till derivatan f′. Den skär x-axeln i x = −2 och nuddar x-axeln i x = 1 utan att byta tecken.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"75.5\" y1=\"22\" x2=\"75.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"103.0\" y1=\"22\" x2=\"103.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"130.5\" y1=\"22\" x2=\"130.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"158.0\" y1=\"22\" x2=\"158.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"185.5\" y1=\"22\" x2=\"185.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"213.0\" y1=\"22\" x2=\"213.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"240.5\" y1=\"22\" x2=\"240.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"268.0\" y1=\"22\" x2=\"268.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"295.5\" y1=\"22\" x2=\"295.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"323.0\" y1=\"22\" x2=\"323.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"350.5\" y1=\"22\" x2=\"350.5\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"298.0\" x2=\"378\" y2=\"298.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"270.4\" x2=\"378\" y2=\"270.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"242.8\" x2=\"378\" y2=\"242.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"215.2\" x2=\"378\" y2=\"215.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"187.6\" x2=\"378\" y2=\"187.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"160.0\" x2=\"378\" y2=\"160.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"132.4\" x2=\"378\" y2=\"132.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"104.8\" x2=\"378\" y2=\"104.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"77.2\" x2=\"378\" y2=\"77.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"49.6\" x2=\"378\" y2=\"49.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"378\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"187.6\" x2=\"388\" y2=\"187.6\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,187.6 382,182.6 382,192.6\" fill=\"#172b3a\"/><line x1=\"213.0\" y1=\"298\" x2=\"213.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"213.0,8 208.0,18 218.0,18\" fill=\"#172b3a\"/><text x=\"390\" y=\"178.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"221.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"48.0\" y=\"204.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"103.0\" y=\"204.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"158.0\" y=\"204.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"268.0\" y=\"204.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"323.0\" y=\"204.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"378.0\" y=\"204.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"207.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"207.0\" y=\"274.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"207.0\" y=\"246.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"207.0\" y=\"219.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"207.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"207.0\" y=\"136.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"207.0\" y=\"108.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"207.0\" y=\"81.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"207.0\" y=\"53.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"207.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"207.0\" y=\"204.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k26075d4c\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"276\"/></clipPath><polyline clip-path=\"url(#k26075d4c)\" points=\"48.0,574.0 48.8,574.0 49.6,574.0 50.5,574.0 51.3,574.0 52.1,574.0 52.9,571.6 53.8,562.4 54.6,553.2 55.4,544.2 56.2,535.3 57.1,526.5 57.9,517.9 58.7,509.3 59.5,500.8 60.4,492.4 61.2,484.2 62.0,476.0 62.9,467.9 63.7,460.0 64.5,452.1 65.3,444.3 66.2,436.7 67.0,429.1 67.8,421.6 68.6,414.3 69.5,407.0 70.3,399.8 71.1,392.8 71.9,385.8 72.8,378.9 73.6,372.1 74.4,365.4 75.2,358.8 76.0,352.3 76.9,345.9 77.7,339.6 78.5,333.4 79.3,327.2 80.2,321.2 81.0,315.2 81.8,309.4 82.6,303.6 83.5,297.9 84.3,292.3 85.1,286.8 85.9,281.3 86.8,276.0 87.6,270.7 88.4,265.6 89.2,260.5 90.1,255.5 90.9,250.6 91.7,245.7 92.6,241.0 93.4,236.3 94.2,231.7 95.0,227.2 95.9,222.8 96.7,218.4 97.5,214.1 98.3,209.9 99.2,205.8 100.0,201.8 100.8,197.8 101.6,193.9 102.5,190.1 103.3,186.4 104.1,182.7 104.9,179.1 105.8,175.6 106.6,172.1 107.4,168.8 108.2,165.5 109.1,162.2 109.9,159.1 110.7,156.0 111.5,153.0 112.3,150.0 113.2,147.1 114.0,144.3 114.8,141.6 115.6,138.9 116.5,136.3 117.3,133.7 118.1,131.2 119.0,128.8 119.8,126.5 120.6,124.2 121.4,121.9 122.2,119.8 123.1,117.7 123.9,115.6 124.7,113.6 125.5,111.7 126.4,109.8 127.2,108.0 128.0,106.3 128.8,104.6 129.7,102.9 130.5,101.3 131.3,99.8 132.2,98.4 133.0,96.9 133.8,95.6 134.6,94.3 135.4,93.0 136.3,91.8 137.1,90.7 137.9,89.6 138.8,88.5 139.6,87.5 140.4,86.6 141.2,85.7 142.1,84.8 142.9,84.0 143.7,83.3 144.5,82.6 145.3,81.9 146.2,81.3 147.0,80.7 147.8,80.2 148.6,79.7 149.5,79.3 150.3,78.9 151.1,78.5 151.9,78.2 152.8,78.0 153.6,77.7 154.4,77.6 155.2,77.4 156.1,77.3 156.9,77.2 157.7,77.2 158.5,77.2 159.4,77.3 160.2,77.3 161.0,77.4 161.8,77.6 162.7,77.8 163.5,78.0 164.3,78.3 165.1,78.5 166.0,78.9 166.8,79.2 167.6,79.6 168.4,80.0 169.3,80.4 170.1,80.9 170.9,81.4 171.8,81.9 172.6,82.5 173.4,83.1 174.2,83.7 175.1,84.3 175.9,85.0 176.7,85.7 177.5,86.4 178.3,87.1 179.2,87.9 180.0,88.7 180.8,89.5 181.7,90.3 182.5,91.2 183.3,92.0 184.1,92.9 185.0,93.8 185.8,94.8 186.6,95.7 187.4,96.7 188.2,97.7 189.1,98.7 189.9,99.7 190.7,100.7 191.6,101.7 192.4,102.8 193.2,103.9 194.0,105.0 194.8,106.1 195.7,107.2 196.5,108.3 197.3,109.4 198.2,110.6 199.0,111.7 199.8,112.9 200.6,114.1 201.5,115.3 202.3,116.5 203.1,117.7 203.9,118.9 204.8,120.1 205.6,121.3 206.4,122.5 207.2,123.7 208.1,125.0 208.9,126.2 209.7,127.4 210.5,128.7 211.4,129.9 212.2,131.2 213.0,132.4 213.8,133.6 214.7,134.9 215.5,136.1 216.3,137.4 217.1,138.6 218.0,139.8 218.8,141.1 219.6,142.3 220.4,143.5 221.2,144.7 222.1,145.9 222.9,147.1 223.7,148.3 224.6,149.5 225.4,150.7 226.2,151.9 227.0,153.1 227.9,154.2 228.7,155.4 229.5,156.5 230.3,157.6 231.2,158.7 232.0,159.8 232.8,160.9 233.6,162.0 234.5,163.1 235.3,164.1 236.1,165.1 236.9,166.1 237.8,167.1 238.6,168.1 239.4,169.1 240.2,170.0 241.0,171.0 241.9,171.9 242.7,172.8 243.5,173.6 244.3,174.5 245.2,175.3 246.0,176.1 246.8,176.9 247.7,177.7 248.5,178.4 249.3,179.1 250.1,179.8 250.9,180.5 251.8,181.1 252.6,181.7 253.4,182.3 254.2,182.9 255.1,183.4 255.9,183.9 256.7,184.4 257.6,184.8 258.4,185.2 259.2,185.6 260.0,185.9 260.9,186.3 261.7,186.5 262.5,186.8 263.3,187.0 264.1,187.2 265.0,187.4 265.8,187.5 266.6,187.5 267.5,187.6 268.3,187.6 269.1,187.6 269.9,187.5 270.8,187.4 271.6,187.2 272.4,187.1 273.2,186.8 274.1,186.6 274.9,186.3 275.7,185.9 276.5,185.5 277.4,185.1 278.2,184.6 279.0,184.1 279.8,183.5 280.7,182.9 281.5,182.2 282.3,181.5 283.1,180.8 283.9,180.0 284.8,179.1 285.6,178.2 286.4,177.3 287.2,176.3 288.1,175.2 288.9,174.1 289.7,173.0 290.5,171.8 291.4,170.5 292.2,169.2 293.0,167.9 293.9,166.4 294.7,165.0 295.5,163.5 296.3,161.9 297.1,160.2 298.0,158.5 298.8,156.8 299.6,155.0 300.5,153.1 301.3,151.2 302.1,149.2 302.9,147.1 303.8,145.0 304.6,142.9 305.4,140.6 306.2,138.3 307.1,136.0 307.9,133.6 308.7,131.1 309.5,128.5 310.3,125.9 311.2,123.2 312.0,120.5 312.8,117.7 313.7,114.8 314.5,111.8 315.3,108.8 316.1,105.7 316.9,102.6 317.8,99.3 318.6,96.0 319.4,92.7 320.2,89.2 321.1,85.7 321.9,82.1 322.7,78.4 323.6,74.7 324.4,70.9 325.2,67.0 326.0,63.0 326.9,59.0 327.7,54.9 328.5,50.7 329.3,46.4 330.1,42.0 331.0,37.6 331.8,33.1 332.6,28.5 333.5,23.8 334.3,19.1 335.1,14.2 335.9,9.3 336.8,4.3 337.6,-0.8 338.4,-5.9 339.2,-11.2 340.0,-16.5 340.9,-22.0 341.7,-27.5 342.5,-33.1 343.4,-38.8 344.2,-44.6 345.0,-50.4 345.8,-56.4 346.6,-62.4 347.5,-68.6 348.3,-74.8 349.1,-81.1 349.9,-87.5 350.8,-94.0 351.6,-100.6 352.4,-107.3 353.2,-114.1 354.1,-121.0 354.9,-128.0 355.7,-135.0 356.6,-142.2 357.4,-149.5 358.2,-156.8 359.0,-164.3 359.8,-171.9 360.7,-179.5 361.5,-187.3 362.3,-195.2 363.2,-203.1 364.0,-211.2 364.8,-219.4 365.6,-227.6 366.4,-236.0 367.3,-244.5 368.1,-253.1 368.9,-254.0 369.8,-254.0 370.6,-254.0 371.4,-254.0 372.2,-254.0 373.1,-254.0 373.9,-254.0 374.7,-254.0 375.5,-254.0 376.4,-254.0 377.2,-254.0 378.0,-254.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"224.0\" y=\"44.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">y = f′(x)</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>En terrasspunkt finns där \\(f^{\\prime}=0\\) men inte byter tecken. Grafen nuddar \\(x\\)-axeln i \\(x=1\\) och är positiv på båda sidor: terrasspunkt.</p><p>I \\(x=-2\\) byter \\(f^{\\prime}\\) tecken från − till +, så där har \\(f\\) en minimipunkt.</p></div>",
+  "familj": "Extrempunkter, terrasspunkter och inflexion",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Var är f′ = 0 utan att byta tecken?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 1,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.654",
+  "kap": 3,
+  "omr": "grafer_derivator",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "inflexionspunkt",
+  "t": "<p>Bestäm \\(x\\)-koordinaten för inflexionspunkten till \\(f(x)=x^3-6x^2+4\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(f^{\\prime}(x)=3x^2-12x\\) och \\(f^{\\prime\\prime}(x)=6x-12\\). \\(f^{\\prime\\prime}(x)=0\\) ger \\(x=2\\), och \\(f^{\\prime\\prime}\\) byter tecken där.</p><p>Grafen går från konkav (böjer nedåt) till konvex (böjer uppåt) i \\(x=2\\).</p></div>",
+  "familj": "Extrempunkter, terrasspunkter och inflexion",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Inflexionspunkter finns där f″ byter tecken.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.655",
+  "kap": 3,
+  "omr": "grafer_derivator",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "minsta lutning",
+  "t": "<p>För vilket \\(x\\) har grafen till \\(f(x)=x^3-3x^2+5\\) sin minsta lutning, och hur stor är den? (Ange \\(x\\) och lutningen.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Lutningen är \\(f^{\\prime}(x)=3x^2-6x\\). Den är minst där \\(f^{\\prime\\prime}(x)=6x-6=0\\), alltså \\(x=1\\).</p><p>\\(f^{\\prime}(1)=3-6=-3\\). Minsta lutningen är \\(-3\\), i inflexionspunkten.</p></div>",
+  "familj": "Extrempunkter, terrasspunkter och inflexion",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Lutningen är f′. Var har f′ sitt minsta värde?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1,
+    -3
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "x",
+    "lutning"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
 }
 ];

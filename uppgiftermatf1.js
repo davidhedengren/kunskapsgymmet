@@ -53513,5 +53513,241 @@ window.BANKMATF1 = [
     "numeriskt",
     "numeriskt"
   ]
+},
+{
+  "id": "2.702",
+  "kap": 2,
+  "omr": "induktionsbevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "dominoliknelsen",
+  "t": "<p>Ett induktionsbevis brukar jämföras med en lång rad dominobrickor. Vad i beviset motsvarar att <strong>den första brickan faller</strong>? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 190\" role=\"img\" aria-label=\"En rad dominobrickor. Den första brickan, nummer 1, håller på att falla mot nästa.\" style=\"width:100%;max-width:380px\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20\" y1=\"141\" x2=\"360\" y2=\"141\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"40\" y=\"60\" width=\"14\" height=\"80\" rx=\"2\" fill=\"#d9622b\" stroke=\"#172b3a\" stroke-width=\"1.5\" transform=\"rotate(25 54 140)\"/><rect x=\"86\" y=\"60\" width=\"14\" height=\"80\" rx=\"2\" fill=\"#eef1f4\" stroke=\"#172b3a\" stroke-width=\"1.5\" transform=\"rotate(0 100 140)\"/><rect x=\"132\" y=\"60\" width=\"14\" height=\"80\" rx=\"2\" fill=\"#eef1f4\" stroke=\"#172b3a\" stroke-width=\"1.5\" transform=\"rotate(0 146 140)\"/><rect x=\"178\" y=\"60\" width=\"14\" height=\"80\" rx=\"2\" fill=\"#eef1f4\" stroke=\"#172b3a\" stroke-width=\"1.5\" transform=\"rotate(0 192 140)\"/><rect x=\"224\" y=\"60\" width=\"14\" height=\"80\" rx=\"2\" fill=\"#eef1f4\" stroke=\"#172b3a\" stroke-width=\"1.5\" transform=\"rotate(0 238 140)\"/><rect x=\"270\" y=\"60\" width=\"14\" height=\"80\" rx=\"2\" fill=\"#eef1f4\" stroke=\"#172b3a\" stroke-width=\"1.5\" transform=\"rotate(0 284 140)\"/><rect x=\"316\" y=\"60\" width=\"14\" height=\"80\" rx=\"2\" fill=\"#eef1f4\" stroke=\"#172b3a\" stroke-width=\"1.5\" transform=\"rotate(0 330 140)\"/><text x=\"47\" y=\"168\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"323\" y=\"168\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">…</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Att den första brickan faller motsvarar basfallet: påståendet gäller för det första värdet, till exempel \\(n=1\\).</p><p>Att varje bricka som faller fäller nästa motsvarar induktionssteget: om påståendet gäller för \\(n=k\\) så gäller det för \\(n=k+1\\).</p></div>",
+  "familj": "Delar av induktionsbevis",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken del av beviset sätter igång kedjan?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Basfallet: påståendet gäller för det första värdet.",
+      "ratt": true,
+      "kommentar": "Utan basfall faller ingen bricka."
+    },
+    {
+      "txt": "Induktionssteget: P(k) medför P(k + 1).",
+      "ratt": false,
+      "kommentar": "Det motsvarar att varje bricka fäller nästa."
+    },
+    {
+      "txt": "Slutsatsen: påståendet gäller för alla n.",
+      "ratt": false,
+      "kommentar": "Det motsvarar att alla brickor har fallit."
+    },
+    {
+      "txt": "Induktionsantagandet: påståendet antas gälla för n = k.",
+      "ratt": false,
+      "kommentar": "Det är en del av induktionssteget."
+    }
+  ]
+},
+{
+  "id": "2.703",
+  "kap": 2,
+  "omr": "induktionsbevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "rätt basfall för en olikhet",
+  "t": "<p>Påståendet \\(2^n\\gt n^2\\) ska bevisas med induktion för alla heltal \\(n\\ge n_0\\). Vilket är det minsta värde \\(n_0\\) som fungerar som basfall, så att påståendet gäller för \\(n_0\\) och alla större heltal?</p>",
+  "s": "<div class=\"facit-v2\"><p>Pröva: \\(n=1\\): \\(2\\gt1\\) sant. \\(n=2\\): \\(4\\gt4\\) falskt. \\(n=3\\): \\(8\\gt9\\) falskt. \\(n=4\\): \\(16\\gt16\\) falskt. \\(n=5\\): \\(32\\gt25\\) sant, och därefter gäller olikheten för alla större \\(n\\).</p><p>Basfallet ska därför vara \\(n_0=5\\).</p></div>",
+  "familj": "Delar av induktionsbevis",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Pröva n = 1, 2, 3, … och leta efter det värde från vilket olikheten alltid gäller.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.704",
+  "kap": 2,
+  "omr": "induktionsbevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "algebran i induktionssteget",
+  "t": "<p>I ett bevis av \\(1+2+\\dots+n=\\dfrac{n(n+1)}{2}\\) antar man att formeln gäller för \\(n=k\\). Summan för \\(n=k+1\\) blir då \\(\\dfrac{k(k+1)}{2}+(k+1)\\). Vilket uttryck är det lika med? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\dfrac{k(k+1)}{2}+(k+1)=\\dfrac{k(k+1)+2(k+1)}{2}=\\dfrac{(k+1)(k+2)}{2}\\).</p><p>Det är formeln med \\(n=k+1\\) insatt, vilket är det som skulle visas.</p></div>",
+  "familj": "Delar av induktionsbevis",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv på gemensamt bråkstreck och bryt ut (k + 1).</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(\\dfrac{(k+1)(k+2)}{2}\\)",
+      "ratt": true,
+      "kommentar": "Formeln med n = k + 1."
+    },
+    {
+      "txt": "\\(\\dfrac{k(k+2)}{2}\\)",
+      "ratt": false,
+      "kommentar": "Faktorn k + 1 har försvunnit."
+    },
+    {
+      "txt": "\\(\\dfrac{(k+1)^2}{2}\\)",
+      "ratt": false,
+      "kommentar": "Kontrollera med k = 1: summan ska vara 3, men detta ger 2."
+    },
+    {
+      "txt": "\\(\\dfrac{k(k+1)}{2}+k\\)",
+      "ratt": false,
+      "kommentar": "Den nya termen är k + 1, inte k."
+    }
+  ]
+},
+{
+  "id": "2.705",
+  "kap": 2,
+  "omr": "induktionsbevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "omskrivning i ett delbarhetsbevis",
+  "t": "<p>Man vill visa att \\(7^n-1\\) är delbart med 6 för alla \\(n\\ge1\\). I induktionssteget antas \\(7^k-1\\) vara delbart med 6. Vilken omskrivning av \\(7^{k+1}-1\\) gör det lätt att avsluta beviset? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(7^{k+1}-1=7\\cdot7^k-7+6=7(7^k-1)+6\\).</p><p>Båda termerna är delbara med 6: den första enligt induktionsantagandet och den andra direkt. Alltså är \\(7^{k+1}-1\\) delbart med 6.</p></div>",
+  "familj": "Delar av induktionsbevis",
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Försök få fram uttrycket 7ᵏ − 1 som en faktor.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(7(7^k-1)+6\\)",
+      "ratt": true,
+      "kommentar": "Båda termerna är delbara med 6."
+    },
+    {
+      "txt": "\\(7^k\\cdot7-1\\)",
+      "ratt": false,
+      "kommentar": "Riktigt, men 7ᵏ − 1 syns inte, så antagandet kan inte användas."
+    },
+    {
+      "txt": "\\((7^k-1)+7\\)",
+      "ratt": false,
+      "kommentar": "Det är lika med 7ᵏ + 6, inte 7ᵏ⁺¹ − 1."
+    },
+    {
+      "txt": "\\(6(7^k-1)+1\\)",
+      "ratt": false,
+      "kommentar": "Det är inte lika med 7ᵏ⁺¹ − 1."
+    }
+  ]
+},
+{
+  "id": "2.706",
+  "kap": 2,
+  "omr": "induktionsbevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "felet i hästbeviset",
+  "t": "<p>Ett felaktigt \"bevis\" säger att alla hästar har samma färg. Basfallet: en häst har samma färg som sig själv. Steget: om alla grupper med \\(k\\) hästar har samma färg, ta en grupp med \\(k+1\\) hästar. Ta bort den första och den sista hästen var för sig; båda grupperna med \\(k\\) hästar är enfärgade och överlappar, så alla har samma färg. Var fallerar beviset? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Argumentet kräver att de två grupperna med \\(k\\) hästar har minst en gemensam häst. När \\(k=1\\) och gruppen har 2 hästar finns ingen överlappning: den ena gruppen är häst 1 och den andra häst 2.</p><p>Steget från \\(n=1\\) till \\(n=2\\) fungerar alltså inte, och då faller hela kedjan.</p></div>",
+  "familj": "Delar av induktionsbevis",
+  "formaga": [
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Pröva steget för en grupp med två hästar. Överlappar grupperna?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Steget från 1 till 2 hästar: grupperna överlappar inte.",
+      "ratt": true,
+      "kommentar": "Utan gemensam häst kan färgerna inte jämföras."
+    },
+    {
+      "txt": "Basfallet är fel.",
+      "ratt": false,
+      "kommentar": "En häst har verkligen samma färg som sig själv."
+    },
+    {
+      "txt": "Induktion kan inte användas på hästar.",
+      "ratt": false,
+      "kommentar": "Induktion fungerar för alla påståenden om heltal, även antal hästar."
+    },
+    {
+      "txt": "Steget fallerar bara för mycket stora grupper.",
+      "ratt": false,
+      "kommentar": "För stora grupper överlappar delgrupperna. Felet ligger vid två hästar."
+    }
+  ]
+},
+{
+  "id": "2.707",
+  "kap": 2,
+  "omr": "induktionsbevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "följd att gissa och bevisa",
+  "t": "<p>En följd definieras av \\(a_1=2\\) och \\(a_{n+1}=2a_n-1\\). Man kan visa med induktion att \\(a_n=2^{n-1}+1\\). Bestäm \\(a_6\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Med formeln: \\(a_6=2^5+1=33\\).</p><p>Kontroll med rekursionen: 2, 3, 5, 9, 17, 33.</p></div>",
+  "familj": "Delar av induktionsbevis",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Sätt in n = 6 i formeln, eller räkna fram termerna steg för steg.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 33,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
 }
 ];

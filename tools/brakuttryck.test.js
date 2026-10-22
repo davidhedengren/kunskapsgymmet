@@ -8,12 +8,18 @@ const vm=require('node:vm');
 // Använd samma parser som appen, inklusive dess normalisering av elevsvar.
 const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
 const context=vm.createContext({});
-for(const name of ['stadaSvar','forenklatPolynom','sammaForenkladePolynom']){
+for(const name of ['stadaSvar','hogerled','forenklatPolynom','sammaForenkladePolynom','formatRatt']){
   const start=html.indexOf(`function ${name}(`);
   assert.ok(start>=0,`Saknar ${name}`);
   vm.runInContext(html.slice(start,html.indexOf('\n}',start)+2),context);
 }
 const correct=(answer,expected)=>context.sammaForenkladePolynom(answer,expected);
+
+test('Svarsetiketter får föregå förenklade polynom utan att kravet försvinner',()=>{
+ const check=(a,b)=>context.formatRatt(a,b,{format:'förenklat_polynom'});
+ for(const a of ['3x','y=3x','f(x)=3x','F(X) = 3X'])assert.ok(check(a,'3x'),a);
+ for(const a of ['y=2x+x','f(x)=(6/x)/(2/x^2)','y=6x/2','y=4x','x+1=3x','y=3x=0'])assert.equal(check(a,'3x'),false,a);
+});
 
 test('Stora variabelbokstäver godtas utan att förenklingskravet försvinner',()=>{
   for(const [answer,expected] of [['10X+3','10x+3'],['3+10X','10x+3'],['5A-5','5a-5'],['Y+11','y+11'],['X/3','x/3'],['3YX','3xy']])

@@ -10577,7 +10577,7 @@ function formatRatt(anv,facit,meta){
       {
       const unit=String(meta.enhet||"");
       const strip=x=>unit&&x.trim().endsWith(unit)?x.trim().slice(0,-unit.length).trim():x;
-      return sammaForenkladePolynom(strip(a),strip(f));
+      return sammaForenkladePolynom(strip(hogerled(a)),strip(hogerled(f)));
       }
     case "decimalform": {
       // Kontrollera representationen och, om den anges, just den begärda enheten.

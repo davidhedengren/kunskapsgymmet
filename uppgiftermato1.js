@@ -104975,5 +104975,308 @@ window.BANKMATO1 = [
     "1b",
     "1c"
   ]
+},
+{
+  "id": "1.880",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "niva": "E",
+  "typ": "invers bredd och höjd ger konstant area",
+  "poang": "1/0/0",
+  "t": "<p>En rektangel har höjden \\(x\\) cm och bredden \\(12/x\\) cm, där \\(x\\gt0\\). Hur stor är arean? Svara i cm².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 235\" role=\"img\" aria-label=\"Rektangel med höjd x cm och bredd 12/x cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"235\" fill=\"white\"/><rect x=\"120\" y=\"50\" width=\"245\" height=\"120\" rx=\"0\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"243\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">12/x cm</text><text x=\"102\" y=\"116\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">x cm</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Arean är höjden gånger bredden. Faktorn x förkortas bort, eftersom x är större än noll.</p><div class=\"facit-matte\">\\[A=x\\cdot\\frac{12}{x}=12\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 12 cm².</p></div>",
+  "familj": "Multiplicera rationella uttryck",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera rektangelns höjd med dess bredd.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm²",
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.881",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "niva": "E",
+  "typ": "välja omvänd faktor vid bråkdivision",
+  "poang": "1/0/0",
+  "t": "<p>Divisionen \\(\\dfrac5x\\div\\dfrac{x+2}{3}\\) ska skrivas som en multiplikation. Vad ska du multiplicera \\(5/x\\) med? Här är \\(x\\ne0\\) och \\(x\\ne-2\\). (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Byt plats på täljare och nämnare i bråket som du dividerar med. Det första bråket ändras inte.</p><div class=\"facit-matte\">\\[\\frac5x\\div\\frac{x+2}{3}=\\frac5x\\cdot\\frac3{x+2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac3{x+2}\\).</p></div>",
+  "familj": "Dividera rationella uttryck",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket är det omvända värdet av bråket du dividerar med?</p>",
+  "alternativ": [
+    {
+      "txt": "\\(\\dfrac{x+2}{3}\\)",
+      "ratt": false,
+      "kommentar": "Detta är samma bråk som divisorn, inte dess omvända värde."
+    },
+    {
+      "txt": "\\(\\dfrac{x-2}{3}\\)",
+      "ratt": false,
+      "kommentar": "Division byter inte tecken i täljaren."
+    },
+    {
+      "txt": "\\(\\dfrac{3}{x+2}\\)",
+      "ratt": true,
+      "kommentar": "Vid division med ett bråk multiplicerar man med dess omvända värde."
+    },
+    {
+      "txt": "\\(\\dfrac3x+2\\)",
+      "ratt": false,
+      "kommentar": "Hela x+2 ska stå i nämnaren."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.882",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "niva": "E",
+  "typ": "fyllningstid som kvot",
+  "poang": "1/0/0",
+  "t": "<p>En behållare rymmer \\(6x\\) liter. Den är tom och fylls med \\(2x\\) liter per minut, där \\(x\\gt0\\). Hur många minuter tar det att fylla behållaren?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 240\" role=\"img\" aria-label=\"En tom behållare rymmer 6x liter och fylls med 2x liter per minut.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"240\" fill=\"white\"/><rect x=\"165\" y=\"65\" width=\"150\" height=\"115\" rx=\"0\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><rect x=\"168\" y=\"133\" width=\"144\" height=\"44\" rx=\"0\" fill=\"#bee5ee\" stroke=\"none\" stroke-width=\"2\"/><text x=\"240\" y=\"121\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">6x liter</text><path d=\"M60 30L210 30\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"5\"/><path d=\"M210 30L210 50\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"5\"/><path d=\"M210 55L210 90\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"3\"/><path d=\"M205.84 82.02L210 90L214.16 82.02\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"3\"/><text x=\"60\" y=\"165\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">2x liter/min</text><text x=\"240\" y=\"211\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Tom från början</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Tiden fås genom att dela volymen med mängden vatten som kommer in varje minut. Samma faktor x finns i täljare och nämnare.</p><div class=\"facit-matte\">\\[t=\\frac{6x}{2x}=3\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 3 minuter.</p></div>",
+  "familj": "Rationella uttryck i tillämpningar och grafer",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Dela behållarens volym med flödet.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "min",
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.883",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "niva": "E",
+  "typ": "pris per anteckningsbok",
+  "poang": "1/0/0",
+  "t": "<p>Fyra likadana anteckningsböcker kostar tillsammans \\(\\dfrac{x+4}{x}\\) kr, där \\(x\\gt0\\). Vilket uttryck ger priset för en bok? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 245\" role=\"img\" aria-label=\"Fyra likadana anteckningsböcker med sammanlagt pris (x+4)/x kronor.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"245\" fill=\"white\"/><rect x=\"70\" y=\"60\" width=\"64\" height=\"100\" rx=\"4\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M80 60L80 160\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1\"/><path d=\"M91 90L123 90\" fill=\"none\" stroke=\"#8497a9\" stroke-width=\"1\"/><path d=\"M91 105L123 105\" fill=\"none\" stroke=\"#8497a9\" stroke-width=\"1\"/><rect x=\"160\" y=\"60\" width=\"64\" height=\"100\" rx=\"4\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M170 60L170 160\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1\"/><path d=\"M181 90L213 90\" fill=\"none\" stroke=\"#8497a9\" stroke-width=\"1\"/><path d=\"M181 105L213 105\" fill=\"none\" stroke=\"#8497a9\" stroke-width=\"1\"/><rect x=\"250\" y=\"60\" width=\"64\" height=\"100\" rx=\"4\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M260 60L260 160\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1\"/><path d=\"M271 90L303 90\" fill=\"none\" stroke=\"#8497a9\" stroke-width=\"1\"/><path d=\"M271 105L303 105\" fill=\"none\" stroke=\"#8497a9\" stroke-width=\"1\"/><rect x=\"340\" y=\"60\" width=\"64\" height=\"100\" rx=\"4\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M350 60L350 160\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1\"/><path d=\"M361 90L393 90\" fill=\"none\" stroke=\"#8497a9\" stroke-width=\"1\"/><path d=\"M361 105L393 105\" fill=\"none\" stroke=\"#8497a9\" stroke-width=\"1\"/><path d=\"M70 185L404 185\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M70 179L70 192\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M404 179L404 192\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"237\" y=\"218\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">Totalt (x + 4)/x kr</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Varje bok kostar en fjärdedel av totalpriset. Division med 4 är samma sak som multiplikation med 1/4.</p><div class=\"facit-matte\">\\[\\frac{x+4}{x}\\div4=\\frac{x+4}{x}\\cdot\\frac14=\\frac{x+4}{4x}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{x+4}{4x}\\) kr.</p></div>",
+  "familj": "Dividera rationella uttryck",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Totalpriset ska delas lika mellan de fyra böckerna.</p>",
+  "alternativ": [
+    {
+      "txt": "\\(\\dfrac{4(x+4)}x\\)",
+      "ratt": false,
+      "kommentar": "Här har totalpriset multiplicerats med 4 i stället för att delas med 4."
+    },
+    {
+      "txt": "\\(\\dfrac{x+1}x\\)",
+      "ratt": false,
+      "kommentar": "Hela täljaren måste delas med 4, inte bara talet 4."
+    },
+    {
+      "txt": "\\(\\dfrac{x+4}{x+4}\\)",
+      "ratt": false,
+      "kommentar": "Att dela med 4 innebär inte att lägga till 4 i nämnaren."
+    },
+    {
+      "txt": "\\(\\dfrac{x+4}{4x}\\)",
+      "ratt": true,
+      "kommentar": "Dela totalpriset med 4: det ger fyra gånger så stor nämnare."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.884",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "niva": "E",
+  "typ": "värde oberoende av en gemensam parentes",
+  "poang": "1/0/0",
+  "t": "<p>Vilket värde har \\(\\dfrac{x+3}{5}\\cdot\\dfrac{10}{x+3}\\)? Här är \\(x\\ne-3\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Hela parentesen x+3 är en gemensam faktor som kan förkortas bort. Villkoret x≠−3 gör att faktorn inte är noll.</p><div class=\"facit-matte\">\\[\\frac{x+3}{5}\\cdot\\frac{10}{x+3}=\\frac{10}{5}=2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div>",
+  "familj": "Multiplicera rationella uttryck",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Leta efter en hel faktor som finns både i täljaren och nämnaren.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.885",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "niva": "E",
+  "typ": "skilja noll täljare från otillåten divisor",
+  "poang": "1/0/0",
+  "t": "<p>För vilka värden på \\(x\\) saknar uttrycket ett värde? \\[\\frac{x-1}{x+2}\\div\\frac{x-3}{x+2}.\\] Markera alla alternativ som stämmer.</p>",
+  "s": "<div class=\"facit-v2\"><p>Nämnarna får inte bli noll, så x=−2 utesluts. Bråket som vi dividerar med får inte heller vara noll; därför utesluts x=3. Däremot är det tillåtet att det första bråket är noll, som vid x=1.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\) och \\(x=3\\).</p></div>",
+  "familj": "Dividera rationella uttryck",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kontrollera både nämnarna och värdet på bråket som står efter divisionstecknet.</p>",
+  "alternativ": [
+    {
+      "txt": "\\(x=1\\)",
+      "ratt": false,
+      "kommentar": "Det första bråket blir noll, vilket är tillåtet. Det andra bråket är inte noll."
+    },
+    {
+      "txt": "\\(x=-2\\)",
+      "ratt": true,
+      "kommentar": "Båda bråken har nämnaren x+2, som blir noll."
+    },
+    {
+      "txt": "\\(x=0\\)",
+      "ratt": false,
+      "kommentar": "Båda nämnarna och bråket som du dividerar med är skilda från noll."
+    },
+    {
+      "txt": "\\(x=3\\)",
+      "ratt": true,
+      "kommentar": "Bråket som du dividerar med blir noll, och division med noll är inte tillåten."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.886",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "niva": "E",
+  "typ": "division med ett bråk som har x i kvadrat",
+  "poang": "1/0/0",
+  "t": "<p>Förenkla \\(\\dfrac6x\\div\\dfrac2{x^2}\\) så långt som möjligt. Här är \\(x\\ne0\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Multiplicera med det omvända värdet av det andra bråket. Därefter förkortas 6/2 till 3 och x²/x till x.</p><div class=\"facit-matte\">\\[\\frac6x\\div\\frac2{x^2}=\\frac6x\\cdot\\frac{x^2}{2}=3x\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x\\).</p></div>",
+  "familj": "Dividera rationella uttryck",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "3x",
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vänd på det andra bråket när du byter division mot multiplikation.</p>",
+  "svarFormat": "förenklat_polynom",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.887",
+  "kap": 1,
+  "omr": "rakna_rationella",
+  "niva": "E",
+  "typ": "jämföra två areor med variabla sidor",
+  "poang": "1/0/0",
+  "t": "<p>Rektanglarna har samma höjd \\(x\\) cm. Deras bredder är \\(8/x\\) cm respektive \\(3/x\\) cm, där \\(x\\gt0\\). Hur många gånger så stor är arean av A som arean av B? Svara exakt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 320\" role=\"img\" aria-label=\"Rektangel A har höjd x och bredd 8/x cm. B har höjd x och bredd 3/x cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"320\" fill=\"white\"/><rect x=\"100\" y=\"35\" width=\"285\" height=\"85\" rx=\"0\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><rect x=\"100\" y=\"180\" width=\"107\" height=\"85\" rx=\"0\" fill=\"#d8eee7\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"243\" y=\"86\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"154\" y=\"231\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">B</text><text x=\"243\" y=\"147\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">8/x cm</text><text x=\"154\" y=\"292\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">3/x cm</text><text x=\"82\" y=\"82\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">x cm</text><text x=\"82\" y=\"227\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">x cm</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Areorna blir 8 cm² och 3 cm² efter att x förkortats bort. Jämför dem genom att dela A:s area med B:s.</p><div class=\"facit-matte\">\\[\\frac{A_A}{A_B}=\\frac{x\\cdot(8/x)}{x\\cdot(3/x)}=\\frac83\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac83\\) gånger.</p></div>",
+  "familj": "Rationella uttryck i tillämpningar och grafer",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "8/3",
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beräkna först de två areorna. Dela sedan den större med den mindre.</p>",
+  "svarFormat": "uttryck",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
 }
 ];

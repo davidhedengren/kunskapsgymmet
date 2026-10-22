@@ -55044,5 +55044,197 @@ window.BANK2 = [
   "rättSvar": 0.013,
   "tolerans": 0.0005,
   "svarFormat": "numeriskt"
+},
+{
+  "id": "5.389",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "störst parallax",
+  "t": "<p>Figuren visar (inte skalenligt) hur tre stjärnor A, B och C ses från jorden med ett halvårs mellanrum. Vilken stjärna har störst parallax? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 260\" role=\"img\" aria-label=\"Jordens bana runt solen nederst. Tre stjärnor A, B och C ligger på olika avstånd rakt ovanför. Från jordens två lägen i banan dras linjer till varje stjärna, och vinklarna blir mindre ju längre bort stjärnan ligger.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><ellipse cx=\"210\" cy=\"225\" rx=\"90\" ry=\"18\" fill=\"none\" stroke=\"#9aa7b4\" stroke-dasharray=\"5 4\"/><circle cx=\"210\" cy=\"225\" r=\"9\" fill=\"#f5c542\" stroke=\"#172b3a\"/><circle cx=\"120\" cy=\"225\" r=\"6\" fill=\"#2f6fca\"/><circle cx=\"300\" cy=\"225\" r=\"6\" fill=\"#2f6fca\"/><text x=\"120\" y=\"250\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">jorden i januari</text><text x=\"300\" y=\"250\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">jorden i juli</text><line x1=\"120\" y1=\"225\" x2=\"210\" y2=\"150\" stroke=\"#d9622b\" stroke-width=\"1.2\"/><line x1=\"300\" y1=\"225\" x2=\"210\" y2=\"150\" stroke=\"#d9622b\" stroke-width=\"1.2\"/><circle cx=\"210\" cy=\"150\" r=\"5\" fill=\"#172b3a\"/><text x=\"222\" y=\"155\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">A</text><line x1=\"120\" y1=\"225\" x2=\"210\" y2=\"90\" stroke=\"#d9622b\" stroke-width=\"1.2\"/><line x1=\"300\" y1=\"225\" x2=\"210\" y2=\"90\" stroke=\"#d9622b\" stroke-width=\"1.2\"/><circle cx=\"210\" cy=\"90\" r=\"5\" fill=\"#172b3a\"/><text x=\"222\" y=\"95\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">B</text><line x1=\"120\" y1=\"225\" x2=\"210\" y2=\"30\" stroke=\"#d9622b\" stroke-width=\"1.2\"/><line x1=\"300\" y1=\"225\" x2=\"210\" y2=\"30\" stroke=\"#d9622b\" stroke-width=\"1.2\"/><circle cx=\"210\" cy=\"30\" r=\"5\" fill=\"#172b3a\"/><text x=\"222\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">C</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Parallaxen är halva vinkeln vid stjärnan mellan siktlinjerna från jordens två lägen. Ju närmare stjärnan är, desto större blir vinkeln. A ligger närmast och har störst parallax.</p><p>Sambandet är \\(d=\\dfrac1p\\) (d i parsec, p i bågsekunder): stor parallax ger litet avstånd.</p></div>",
+  "familj": "Parallax, ljus och radar i rymden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur ändras vinkeln vid stjärnan när avståndet ökar?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A",
+      "ratt": true,
+      "kommentar": "Närmast stjärna ger störst vinkel."
+    },
+    {
+      "txt": "B",
+      "ratt": false,
+      "kommentar": "B ligger längre bort än A."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "C ligger längst bort och har minst parallax."
+    }
+  ]
+},
+{
+  "id": "5.390",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "avstånd ur ljusstyrka",
+  "t": "<p>Två stjärnor har lika stor luminositet. Den ena ser bara \\(\\tfrac19\\) så ljusstark ut som den andra från jorden. Hur många gånger längre bort är den? </p>",
+  "s": "<div class=\"facit-v2\"><p>Ljusstyrkan som når oss avtar med kvadraten på avståndet: \\(I\\propto\\dfrac{1}{d^2}\\).</p><p>\\(\\tfrac19\\) av ljusstyrkan betyder \\(d^2\\) nio gånger så stort, alltså \\(d\\) tre gånger så stort.</p></div>",
+  "familj": "Parallax, ljus och radar i rymden",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur beror ljusstyrkan på avståndet?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "5.391",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "ljusets tid från solen",
+  "t": "<p>Avståndet mellan jorden och solen är \\(1{,}496\\cdot10^{11}\\) m. Hur lång tid tar det för ljuset att nå jorden? (Svara i minuter med en decimal.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(t=\\dfrac{s}{c}=\\dfrac{1{,}496\\cdot10^{11}}{2{,}998\\cdot10^8}\\approx499\\) s \\(\\approx8{,}3\\) minuter.</p><p>Vi ser alltså solen som den var för drygt åtta minuter sedan.</p></div>",
+  "familj": "Parallax, ljus och radar i rymden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd t = s/v med ljusets hastighet.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 8.3,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "min"
+},
+{
+  "id": "5.392",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "definitionen av parsec",
+  "t": "<p>Vad är en parsec? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>En parsec är det avstånd från vilket jordbanans radie, 1 AE, ser ut att vara 1 bågsekund stor. Det motsvarar en stjärna med parallaxen 1″, ungefär 3,26 ljusår.</p></div>",
+  "familj": "Parallax, ljus och radar i rymden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ordet kommer från \"parallax\" och \"sekund\".</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Avståndet där 1 AE syns under vinkeln 1 bågsekund.",
+      "ratt": true,
+      "kommentar": "En stjärna på 1 pc har parallaxen 1″."
+    },
+    {
+      "txt": "Den sträcka ljuset går på ett år.",
+      "ratt": false,
+      "kommentar": "Det är ett ljusår. 1 pc ≈ 3,26 ljusår."
+    },
+    {
+      "txt": "Avståndet mellan jorden och solen.",
+      "ratt": false,
+      "kommentar": "Det är en astronomisk enhet, AE."
+    },
+    {
+      "txt": "En tidsenhet för hur länge en stjärna lyser.",
+      "ratt": false,
+      "kommentar": "Parsec är en längdenhet."
+    }
+  ]
+},
+{
+  "id": "5.393",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "gränsen för parallaxmätning",
+  "t": "<p>Rymdteleskopet Gaia kan mäta parallaxer ned till ungefär 20 mikrobågsekunder (\\(20\\cdot10^{-6}\\)″). Hur långt bort ligger en stjärna med den parallaxen? (Svara i parsec.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(d=\\dfrac1p=\\dfrac{1}{20\\cdot10^{-6}}=50\\,000\\) pc.</p><p>Det är ungefär avståndet till Stora Magellanska molnet. Längre bort måste man använda andra metoder, till exempel standardljus.</p></div>",
+  "familj": "Parallax, ljus och radar i rymden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd d = 1/p med p i bågsekunder.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 50000,
+  "tolerans": 50,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "pc"
+},
+{
+  "id": "5.394",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "radareko från Venus",
+  "t": "<p>En radarsignal skickas mot Venus. Ekot kommer tillbaka efter 276 s. Hur långt bort är Venus? (Svara i m med tre värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Signalen går fram och tillbaka, så sträckan till Venus är hälften: \\(d=\\dfrac{ct}{2}=\\dfrac{2{,}998\\cdot10^8\\cdot276}{2}\\approx4{,}14\\cdot10^{10}\\) m.</p></div>",
+  "familj": "Parallax, ljus och radar i rymden",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Tänk på att signalen färdas både dit och tillbaka.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 41400000000.0,
+  "tolerans": 50000000.0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m"
 }
 ];

@@ -104774,5 +104774,206 @@ window.BANKMATO1 = [
     "1b",
     "1c"
   ]
+},
+{
+  "id": "1.874",
+  "kap": 1,
+  "omr": "faktorisera_polynom",
+  "niva": "E",
+  "typ": "gemensam talfaktor som rektangelhöjd",
+  "poang": "1/0/0",
+  "t": "<p>Rektangeln består av två delar. Hela arean är \\(3x+12\\) cm². Skriv areauttrycket i faktorform.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 225\" role=\"img\" aria-label=\"Två rektangeldelar med gemensam höjd 3 cm och bredder x cm och 4 cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"225\" fill=\"white\"/><rect x=\"100\" y=\"55\" width=\"170\" height=\"110\" rx=\"0\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><rect x=\"270\" y=\"55\" width=\"105\" height=\"110\" rx=\"0\" fill=\"#d8eee7\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"185\" y=\"195\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">x cm</text><text x=\"322\" y=\"195\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">4 cm</text><text x=\"82\" y=\"116\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">3 cm</text><text x=\"185\" y=\"116\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">3x</text><text x=\"322\" y=\"116\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">12</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Båda termerna innehåller faktorn 3. I bilden motsvarar det den gemensamma höjden. Hela bredden är x+4.</p><div class=\"facit-matte\">\\[3x+12=3(x+4)\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(x+4)\\).</p></div>",
+  "familj": "Faktorisera polynom",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "3(x+4)",
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken faktor finns i båda termerna?</p>",
+  "svarFormat": "faktoriserat",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.875",
+  "kap": 1,
+  "omr": "faktorisera_polynom",
+  "niva": "E",
+  "typ": "gemensam variabelfaktor i en area",
+  "poang": "1/0/0",
+  "t": "<p>Den blå delen är en kvadrat. Tillsammans har delarna arean \\(x^2+5x\\) cm². Faktorisera \\(x^2+5x\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 250\" role=\"img\" aria-label=\"En kvadrat med sida x cm och en rektangel med höjd x cm och bredd 5 cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"250\" fill=\"white\"/><rect x=\"100\" y=\"40\" width=\"155\" height=\"155\" rx=\"0\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><rect x=\"255\" y=\"40\" width=\"95\" height=\"155\" rx=\"0\" fill=\"#d8eee7\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"177\" y=\"225\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">x cm</text><text x=\"302\" y=\"225\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">5 cm</text><text x=\"82\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">x cm</text><text x=\"177\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">x²</text><text x=\"302\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">5x</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Termerna x² och 5x innehåller båda faktorn x. Efter att x brutits ut återstår x respektive 5.</p><div class=\"facit-matte\">\\[x^2+5x=x(x+5)\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x(x+5)\\).</p></div>",
+  "familj": "Faktorisera polynom",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "x(x+5)",
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv x² som x·x för att se den gemensamma faktorn.</p>",
+  "svarFormat": "faktoriserat",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.876",
+  "kap": 1,
+  "omr": "faktorisera_polynom",
+  "niva": "E",
+  "typ": "konjugatregeln för en utskuren kvadrat",
+  "poang": "1/0/0",
+  "t": "<p>En kvadrat med sidan 4 cm klipps bort från en större kvadrat med sidan \\(x\\) cm, där \\(x\\gt4\\). Den blå arean är \\(x^2-16\\) cm². Skriv areauttrycket i faktorform.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 295\" role=\"img\" aria-label=\"En kvadrat med sida x cm har fått en kvadrat med sida 4 cm bortklippt ur hörnet.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"295\" fill=\"white\"/><path d=\"M120 35L330 35L330 160L245 160L245 245L120 245Z\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M245 160L330 160\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"2\"/><path d=\"M245 160L245 245\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"2\"/><path d=\"M330 160L330 245\" fill=\"none\" stroke=\"#7b8794\" stroke-width=\"1\"/><path d=\"M245 245L330 245\" fill=\"none\" stroke=\"#7b8794\" stroke-width=\"1\"/><text x=\"225\" y=\"22\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">x cm</text><text x=\"102\" y=\"144\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">x cm</text><text x=\"287\" y=\"270\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">4 cm</text><text x=\"348\" y=\"207\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#243447\">4 cm</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>16 är kvadraten på 4. Skillnaden mellan två kvadrater kan faktoriseras med konjugatregeln.</p><div class=\"facit-matte\">\\[x^2-16=x^2-4^2=(x-4)(x+4)\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\((x-4)(x+4)\\).</p></div>",
+  "familj": "Faktorisera polynom",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "(x-4)(x+4)",
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv 16 som ett tal i kvadrat.</p>",
+  "svarFormat": "faktoriserat",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.877",
+  "kap": 1,
+  "omr": "faktorisera_polynom",
+  "niva": "E",
+  "typ": "hitta saknat tal i faktorform",
+  "poang": "1/0/0",
+  "t": "<p>Vilket tal ska stå i rutan för att likheten ska gälla för alla \\(x\\)? \\[(x-3)(x+\\boxed{\\phantom{5}})=x^2+2x-15.\\]</p>",
+  "s": "<div class=\"facit-v2\"><p>Om talet är a blir produkten x²+(a−3)x−3a. Konstanttermen ska vara −15, alltså är a=5. Då blir också koefficienten framför x lika med 5−3=2.</p><div class=\"facit-matte\">\\[(x-3)(x+5)=x^2+2x-15\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div>",
+  "familj": "Faktorisera polynom",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför konstanttermen efter att parenteserna multiplicerats.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.878",
+  "kap": 1,
+  "omr": "faktorisera_polynom",
+  "niva": "E",
+  "typ": "kvadratkompletterad area och felaktiga faktorer",
+  "poang": "1/0/0",
+  "t": "<p>Kvadraten består av de fyra delarna i figuren. Vilken faktorform är rätt för summan \\(x^2+6x+9\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 305\" role=\"img\" aria-label=\"En kvadrat delad i x², två rektanglar med area 3x och en kvadrat med area 9.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"305\" fill=\"white\"/><rect x=\"100\" y=\"30\" width=\"145\" height=\"145\" rx=\"0\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><rect x=\"245\" y=\"30\" width=\"75\" height=\"145\" rx=\"0\" fill=\"#d8eee7\" stroke=\"#087f8c\" stroke-width=\"2\"/><rect x=\"100\" y=\"175\" width=\"145\" height=\"75\" rx=\"0\" fill=\"#d8eee7\" stroke=\"#087f8c\" stroke-width=\"2\"/><rect x=\"245\" y=\"175\" width=\"75\" height=\"75\" rx=\"0\" fill=\"#fff0d1\" stroke=\"#9c6b19\" stroke-width=\"2\"/><text x=\"172\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">x²</text><text x=\"283\" y=\"112\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">3x</text><text x=\"172\" y=\"220\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">3x</text><text x=\"283\" y=\"220\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">9</text><text x=\"172\" y=\"277\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">x cm</text><text x=\"283\" y=\"277\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">3 cm</text><text x=\"82\" y=\"110\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">x cm</text><text x=\"82\" y=\"220\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">3 cm</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Varje sida är x+3. Arean kan därför skrivas som kvadraten av x+3. De två rektanglarna ger tillsammans mittenledet 6x.</p><div class=\"facit-matte\">\\[x^2+6x+9=(x+3)^2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\((x+3)^2\\).</p></div>",
+  "familj": "Faktorisera polynom",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur lång är hela sidan på kvadraten?</p>",
+  "alternativ": [
+    {
+      "txt": "\\((x+3)(x-3)\\)",
+      "ratt": false,
+      "kommentar": "Den produkten blir x²−9 och saknar termen 6x."
+    },
+    {
+      "txt": "\\((x+6)^2\\)",
+      "ratt": false,
+      "kommentar": "Den kvadraten blir x²+12x+36."
+    },
+    {
+      "txt": "\\((x-3)^2\\)",
+      "ratt": false,
+      "kommentar": "Den kvadraten blir x²−6x+9, med fel tecken på mittenledet."
+    },
+    {
+      "txt": "\\((x+3)^2\\)",
+      "ratt": true,
+      "kommentar": "Hela kvadraten har sidan x+3. Arean är därför (x+3)²."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "1.879",
+  "kap": 1,
+  "omr": "faktorisera_polynom",
+  "niva": "E",
+  "typ": "bryta ut en gemensam parentes",
+  "poang": "1/0/0",
+  "t": "<p>Faktorisera \\(2(x+1)+x(x+1)\\) till en produkt av förstagradsfaktorer.</p>",
+  "s": "<div class=\"facit-v2\"><p>Hela parentesen x+1 är gemensam faktor. När den bryts ut återstår 2 från första termen och x från andra.</p><div class=\"facit-matte\">\\[2(x+1)+x(x+1)=(x+1)(x+2)\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\((x+1)(x+2)\\).</p></div>",
+  "familj": "Faktorisera polynom",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "(x+1)(x+2)",
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Leta efter en hel parentes som finns som faktor i båda termerna.</p>",
+  "svarFormat": "faktoriserat",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
 }
 ];

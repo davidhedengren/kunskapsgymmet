@@ -53986,5 +53986,221 @@ window.BANKMATF1 = [
   "rättSvar": 5,
   "tolerans": 0,
   "svarFormat": "numeriskt"
+},
+{
+  "id": "2.714",
+  "kap": 2,
+  "omr": "indirekta_bevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "negation av ett allpåstående",
+  "t": "<p>Vad är negationen av påståendet \"Alla primtal är udda\"? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Negationen av \"alla \\(x\\) har egenskapen\" är \"det finns minst ett \\(x\\) som saknar egenskapen\". Här: det finns ett primtal som är jämnt.</p><p>Negationen är sann, eftersom 2 är ett jämnt primtal. Därför är ursprungspåståendet falskt.</p></div>",
+  "familj": "Negation, lådprincip och bevissteg",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Negationen av \"alla\" är \"det finns minst en som inte\".</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Det finns minst ett primtal som är jämnt.",
+      "ratt": true,
+      "kommentar": "Ett enda jämnt primtal räcker för att påståendet ska vara falskt."
+    },
+    {
+      "txt": "Alla primtal är jämna.",
+      "ratt": false,
+      "kommentar": "Det är för starkt. Negationen kräver bara ett motexempel."
+    },
+    {
+      "txt": "Inga primtal är udda.",
+      "ratt": false,
+      "kommentar": "Det säger att alla primtal är jämna."
+    },
+    {
+      "txt": "Alla udda tal är primtal.",
+      "ratt": false,
+      "kommentar": "Det är omvändningen, inte negationen."
+    }
+  ]
+},
+{
+  "id": "2.715",
+  "kap": 2,
+  "omr": "indirekta_bevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "lådprincipen med strumpor",
+  "t": "<p>I en låda finns många röda och många blå strumpor. Du tar strumpor i mörker. Hur många måste du minst ta för att vara säker på att få två av samma färg?</p>",
+  "s": "<div class=\"facit-v2\"><p>Det finns två färger (två \"lådor\"). Med två strumpor kan du ha otur och få en av varje. Med tre strumpor måste två hamna i samma färg.</p><p>Svaret är 3.</p></div>",
+  "familj": "Negation, lådprincip och bevissteg",
+  "formaga": [
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många färger finns det? Vad är värsta tänkbara fall?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.716",
+  "kap": 2,
+  "omr": "indirekta_bevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "lådprincipen med födelsemånader",
+  "t": "<p>Hur många personer måste minst finnas i ett rum för att det säkert ska finnas två som fyller år samma månad?</p>",
+  "s": "<div class=\"facit-v2\"><p>Det finns 12 månader. Tolv personer kan alla fylla år olika månader. Med 13 personer måste minst två dela månad enligt lådprincipen.</p></div>",
+  "familj": "Negation, lådprincip och bevissteg",
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Tänk på det värsta fallet: hur många kan ha olika månader?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 13,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.717",
+  "kap": 2,
+  "omr": "indirekta_bevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "kontraposition av ett konkret påstående",
+  "t": "<p>Vilket påstående är kontrapositionen till \"Om \\(x^2\\ne4\\), så är \\(x\\ne2\\)\"? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Kontrapositionen till \"Om \\(P\\) så \\(Q\\)\" är \"Om inte \\(Q\\) så inte \\(P\\)\". Här: om \\(x=2\\), så är \\(x^2=4\\).</p><p>Kontrapositionen är logiskt likvärdig med det ursprungliga påståendet.</p></div>",
+  "familj": "Negation, lådprincip och bevissteg",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Byt plats på förutsättning och slutsats och negera båda.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Om \\(x=2\\), så är \\(x^2=4\\).",
+      "ratt": true,
+      "kommentar": "Om inte Q så inte P."
+    },
+    {
+      "txt": "Om \\(x^2=4\\), så är \\(x=2\\).",
+      "ratt": false,
+      "kommentar": "Det är omvändningens negation, och den är falsk (x = −2)."
+    },
+    {
+      "txt": "Om \\(x\\ne2\\), så är \\(x^2\\ne4\\).",
+      "ratt": false,
+      "kommentar": "Det är omvändningen, och den är falsk (x = −2)."
+    },
+    {
+      "txt": "Om \\(x^2\\ne4\\), så är \\(x=2\\).",
+      "ratt": false,
+      "kommentar": "Slutsatsen har negerats men inte förutsättningen."
+    }
+  ]
+},
+{
+  "id": "2.718",
+  "kap": 2,
+  "omr": "indirekta_bevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "Euklides tal behöver inte vara primtal",
+  "t": "<p>I Euklides bevis för att det finns oändligt många primtal bildas talet \\(N=2\\cdot3\\cdot5\\cdot7\\cdot11\\cdot13+1=30\\,031\\). Talet är inte ett primtal. Vilket är det minsta primtal som delar \\(N\\)?</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(30\\,031=59\\cdot509\\). Det minsta primtalet som delar \\(N\\) är 59.</p><p>Beviset kräver inte att \\(N\\) är ett primtal. Det räcker att \\(N\\) har en primfaktor som inte finns bland 2, 3, 5, 7, 11 och 13, eftersom de alla ger resten 1. Här är det 59 (och 509).</p></div>",
+  "familj": "Negation, lådprincip och bevissteg",
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Pröva att dividera med primtal större än 13. Inget av 2–13 delar N.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 59,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.719",
+  "kap": 2,
+  "omr": "indirekta_bevis",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "ett steg i beviset att √2 är irrationellt",
+  "t": "<p>I beviset att \\(\\sqrt2\\) är irrationellt antar man \\(\\sqrt2=\\dfrac pq\\) i förkortad form och får \\(p^2=2q^2\\). Då är \\(p\\) jämnt, så \\(p=2k\\). Vad blir \\(q^2\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Insättning: \\((2k)^2=2q^2\\), alltså \\(4k^2=2q^2\\) och \\(q^2=2k^2\\).</p><p>Då är också \\(q\\) jämnt. Både \\(p\\) och \\(q\\) är jämna, vilket motsäger att bråket var förkortat.</p></div>",
+  "familj": "Negation, lådprincip och bevissteg",
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Sätt in p = 2k i p² = 2q² och lös ut q².</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(q^2=2k^2\\)",
+      "ratt": true,
+      "kommentar": "4k² = 2q² ger q² = 2k²."
+    },
+    {
+      "txt": "\\(q^2=4k^2\\)",
+      "ratt": false,
+      "kommentar": "Glöm inte att dela med 2."
+    },
+    {
+      "txt": "\\(q^2=k^2\\)",
+      "ratt": false,
+      "kommentar": "4k² = 2q² ger q² = 2k²."
+    },
+    {
+      "txt": "\\(q^2=2k\\)",
+      "ratt": false,
+      "kommentar": "k ska också kvadreras."
+    }
+  ]
 }
 ];

@@ -103342,5 +103342,267 @@ window.BANKMATO1 = [
   "rättSvar": "12x+16",
   "tolerans": null,
   "svarFormat": "uttryck"
+},
+{
+  "id": "3.1189",
+  "kap": 3,
+  "omr": "deriverbarhet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "antal punkter där funktionen inte är deriverbar",
+  "t": "<p>Figuren visar grafen till en funktion \\(f\\) för \\(0\\lt x\\lt7\\). I hur många punkter i intervallet är \\(f\\) inte deriverbar?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"En graf av raka linjestycken mellan punkterna (0, 1), (2, 4), (4, 4), (5, 1) och (7, 3). Grafen har knyckar i x = 2, x = 4 och x = 5.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"98.0\" y1=\"22\" x2=\"98.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"148.0\" y1=\"22\" x2=\"148.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"198.0\" y1=\"22\" x2=\"198.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"248.0\" y1=\"22\" x2=\"248.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"298.0\" y1=\"22\" x2=\"298.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"348.0\" y1=\"22\" x2=\"348.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"398\" y2=\"258.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"210.8\" x2=\"398\" y2=\"210.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"163.6\" x2=\"398\" y2=\"163.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"116.4\" x2=\"398\" y2=\"116.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"69.2\" x2=\"398\" y2=\"69.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"408\" y2=\"258.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,258.0 402,253.0 402,263.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"258\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"249.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"98.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"148.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"198.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"248.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"298.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"348.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"398.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><text x=\"42.0\" y=\"214.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"167.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"120.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"42.0\" y=\"73.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"42.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kd14572fc\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"236\"/></clipPath><polyline clip-path=\"url(#kd14572fc)\" points=\"48.0,210.8 48.9,209.6 49.8,208.3 50.6,207.1 51.5,205.8 52.4,204.6 53.2,203.4 54.1,202.1 55.0,200.9 55.9,199.6 56.8,198.4 57.6,197.2 58.5,195.9 59.4,194.7 60.2,193.5 61.1,192.2 62.0,191.0 62.9,189.7 63.8,188.5 64.6,187.3 65.5,186.0 66.4,184.8 67.2,183.5 68.1,182.3 69.0,181.1 69.9,179.8 70.8,178.6 71.6,177.3 72.5,176.1 73.4,174.9 74.2,173.6 75.1,172.4 76.0,171.2 76.9,169.9 77.8,168.7 78.6,167.4 79.5,166.2 80.4,165.0 81.2,163.7 82.1,162.5 83.0,161.2 83.9,160.0 84.8,158.8 85.6,157.5 86.5,156.3 87.4,155.0 88.2,153.8 89.1,152.6 90.0,151.3 90.9,150.1 91.8,148.8 92.6,147.6 93.5,146.4 94.4,145.1 95.2,143.9 96.1,142.7 97.0,141.4 97.9,140.2 98.8,138.9 99.6,137.7 100.5,136.5 101.4,135.2 102.2,134.0 103.1,132.7 104.0,131.5 104.9,130.3 105.8,129.0 106.6,127.8 107.5,126.5 108.4,125.3 109.2,124.1 110.1,122.8 111.0,121.6 111.9,120.4 112.8,119.1 113.6,117.9 114.5,116.6 115.4,115.4 116.2,114.2 117.1,112.9 118.0,111.7 118.9,110.4 119.8,109.2 120.6,108.0 121.5,106.7 122.4,105.5 123.2,104.2 124.1,103.0 125.0,101.8 125.9,100.5 126.8,99.3 127.6,98.1 128.5,96.8 129.4,95.6 130.2,94.3 131.1,93.1 132.0,91.9 132.9,90.6 133.8,89.4 134.6,88.1 135.5,86.9 136.4,85.7 137.2,84.4 138.1,83.2 139.0,81.9 139.9,80.7 140.8,79.5 141.6,78.2 142.5,77.0 143.4,75.7 144.2,74.5 145.1,73.3 146.0,72.0 146.9,70.8 147.8,69.6 148.6,69.2 149.5,69.2 150.4,69.2 151.2,69.2 152.1,69.2 153.0,69.2 153.9,69.2 154.8,69.2 155.6,69.2 156.5,69.2 157.4,69.2 158.2,69.2 159.1,69.2 160.0,69.2 160.9,69.2 161.8,69.2 162.6,69.2 163.5,69.2 164.4,69.2 165.2,69.2 166.1,69.2 167.0,69.2 167.9,69.2 168.8,69.2 169.6,69.2 170.5,69.2 171.4,69.2 172.2,69.2 173.1,69.2 174.0,69.2 174.9,69.2 175.8,69.2 176.6,69.2 177.5,69.2 178.4,69.2 179.2,69.2 180.1,69.2 181.0,69.2 181.9,69.2 182.7,69.2 183.6,69.2 184.5,69.2 185.4,69.2 186.2,69.2 187.1,69.2 188.0,69.2 188.9,69.2 189.8,69.2 190.6,69.2 191.5,69.2 192.4,69.2 193.2,69.2 194.1,69.2 195.0,69.2 195.9,69.2 196.8,69.2 197.6,69.2 198.5,69.2 199.4,69.2 200.2,69.2 201.1,69.2 202.0,69.2 202.9,69.2 203.8,69.2 204.6,69.2 205.5,69.2 206.4,69.2 207.2,69.2 208.1,69.2 209.0,69.2 209.9,69.2 210.8,69.2 211.6,69.2 212.5,69.2 213.4,69.2 214.2,69.2 215.1,69.2 216.0,69.2 216.9,69.2 217.8,69.2 218.6,69.2 219.5,69.2 220.4,69.2 221.2,69.2 222.1,69.2 223.0,69.2 223.9,69.2 224.8,69.2 225.6,69.2 226.5,69.2 227.4,69.2 228.2,69.2 229.1,69.2 230.0,69.2 230.9,69.2 231.8,69.2 232.6,69.2 233.5,69.2 234.4,69.2 235.2,69.2 236.1,69.2 237.0,69.2 237.9,69.2 238.8,69.2 239.6,69.2 240.5,69.2 241.4,69.2 242.2,69.2 243.1,69.2 244.0,69.2 244.9,69.2 245.8,69.2 246.6,69.2 247.5,69.2 248.4,70.3 249.3,72.7 250.1,75.2 251.0,77.7 251.9,80.2 252.8,82.7 253.6,85.1 254.5,87.6 255.4,90.1 256.2,92.6 257.1,95.0 258.0,97.5 258.9,100.0 259.8,102.5 260.6,105.0 261.5,107.4 262.4,109.9 263.2,112.4 264.1,114.9 265.0,117.3 265.9,119.8 266.8,122.3 267.6,124.8 268.5,127.3 269.4,129.7 270.2,132.2 271.1,134.7 272.0,137.2 272.9,139.6 273.8,142.1 274.6,144.6 275.5,147.1 276.4,149.6 277.2,152.0 278.1,154.5 279.0,157.0 279.9,159.5 280.8,161.9 281.6,164.4 282.5,166.9 283.4,169.4 284.2,171.9 285.1,174.3 286.0,176.8 286.9,179.3 287.8,181.8 288.6,184.2 289.5,186.7 290.4,189.2 291.2,191.7 292.1,194.2 293.0,196.6 293.9,199.1 294.8,201.6 295.6,204.1 296.5,206.6 297.4,209.0 298.2,210.6 299.1,209.7 300.0,208.9 300.9,208.1 301.8,207.3 302.6,206.4 303.5,205.6 304.4,204.8 305.2,204.0 306.1,203.1 307.0,202.3 307.9,201.5 308.8,200.7 309.6,199.8 310.5,199.0 311.4,198.2 312.2,197.3 313.1,196.5 314.0,195.7 314.9,194.9 315.8,194.0 316.6,193.2 317.5,192.4 318.4,191.6 319.2,190.7 320.1,189.9 321.0,189.1 321.9,188.3 322.8,187.4 323.6,186.6 324.5,185.8 325.4,185.0 326.2,184.1 327.1,183.3 328.0,182.5 328.9,181.7 329.8,180.8 330.6,180.0 331.5,179.2 332.4,178.3 333.2,177.5 334.1,176.7 335.0,175.9 335.9,175.0 336.8,174.2 337.6,173.4 338.5,172.6 339.4,171.7 340.2,170.9 341.1,170.1 342.0,169.3 342.9,168.4 343.8,167.6 344.6,166.8 345.5,166.0 346.4,165.1 347.3,164.3 348.1,163.5 349.0,162.7 349.9,161.8 350.8,161.0 351.6,160.2 352.5,159.4 353.4,158.5 354.2,157.7 355.1,156.9 356.0,156.0 356.9,155.2 357.8,154.4 358.6,153.6 359.5,152.7 360.4,151.9 361.2,151.1 362.1,150.3 363.0,149.4 363.9,148.6 364.8,147.8 365.6,147.0 366.5,146.1 367.4,145.3 368.2,144.5 369.1,143.7 370.0,142.8 370.9,142.0 371.8,141.2 372.6,140.4 373.5,139.5 374.4,138.7 375.2,137.9 376.1,137.1 377.0,136.2 377.9,135.4 378.8,134.6 379.6,133.7 380.5,132.9 381.4,132.1 382.2,131.3 383.1,130.4 384.0,129.6 384.9,128.8 385.8,128.0 386.6,127.1 387.5,126.3 388.4,125.5 389.2,124.7 390.1,123.8 391.0,123.0 391.9,122.2 392.8,121.4 393.6,120.5 394.5,119.7 395.4,118.9 396.2,118.1 397.1,117.2 398.0,116.4\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>En funktion är inte deriverbar där grafen har en spets eller ett hörn, eftersom lutningen från vänster och höger är olika.</p><p>Grafen har hörn i \\(x=2\\), \\(x=4\\) och \\(x=5\\): tre punkter.</p></div>",
+  "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Leta efter knyckar där lutningen ändras plötsligt.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.1190",
+  "kap": 3,
+  "omr": "deriverbarhet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "acceleration vid ett hörn i v–t-graf",
+  "t": "<p>Grafen visar en bils hastighet \\(v(t)\\). Accelerationen är derivatan \\(v^{\\prime}(t)\\). Vilket påstående om tiden \\(t=4\\) s stämmer? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"En bils hastighet: den ökar jämnt från 0 till 20 m/s under 4 sekunder och är sedan konstant 20 m/s. Grafen har ett hörn vid t = 4.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"91.8\" y1=\"22\" x2=\"91.8\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"135.5\" y1=\"22\" x2=\"135.5\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"179.2\" y1=\"22\" x2=\"179.2\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"266.8\" y1=\"22\" x2=\"266.8\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"310.5\" y1=\"22\" x2=\"310.5\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"354.2\" y1=\"22\" x2=\"354.2\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"398\" y2=\"258.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"210.8\" x2=\"398\" y2=\"210.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"163.6\" x2=\"398\" y2=\"163.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"116.4\" x2=\"398\" y2=\"116.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"69.2\" x2=\"398\" y2=\"69.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"408\" y2=\"258.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,258.0 402,253.0 402,263.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"258\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"249.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">t (s)</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">v (m/s)</text><text x=\"91.8\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"135.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"179.2\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"223.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"266.8\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"310.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"354.2\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><text x=\"398.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"42.0\" y=\"214.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"42.0\" y=\"167.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><text x=\"42.0\" y=\"120.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">15</text><text x=\"42.0\" y=\"73.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">20</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">25</text><text x=\"42.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k1924fc7e\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"236\"/></clipPath><polyline clip-path=\"url(#k1924fc7e)\" points=\"48.0,258.0 48.9,257.1 49.8,256.1 50.6,255.2 51.5,254.2 52.4,253.3 53.2,252.3 54.1,251.4 55.0,250.4 55.9,249.5 56.8,248.6 57.6,247.6 58.5,246.7 59.4,245.7 60.2,244.8 61.1,243.8 62.0,242.9 62.9,242.0 63.8,241.0 64.6,240.1 65.5,239.1 66.4,238.2 67.2,237.2 68.1,236.3 69.0,235.3 69.9,234.4 70.8,233.5 71.6,232.5 72.5,231.6 73.4,230.6 74.2,229.7 75.1,228.7 76.0,227.8 76.9,226.8 77.8,225.9 78.6,225.0 79.5,224.0 80.4,223.1 81.2,222.1 82.1,221.2 83.0,220.2 83.9,219.3 84.8,218.4 85.6,217.4 86.5,216.5 87.4,215.5 88.2,214.6 89.1,213.6 90.0,212.7 90.9,211.7 91.8,210.8 92.6,209.9 93.5,208.9 94.4,208.0 95.2,207.0 96.1,206.1 97.0,205.1 97.9,204.2 98.8,203.2 99.6,202.3 100.5,201.4 101.4,200.4 102.2,199.5 103.1,198.5 104.0,197.6 104.9,196.6 105.8,195.7 106.6,194.8 107.5,193.8 108.4,192.9 109.2,191.9 110.1,191.0 111.0,190.0 111.9,189.1 112.8,188.1 113.6,187.2 114.5,186.3 115.4,185.3 116.2,184.4 117.1,183.4 118.0,182.5 118.9,181.5 119.8,180.6 120.6,179.6 121.5,178.7 122.4,177.8 123.2,176.8 124.1,175.9 125.0,174.9 125.9,174.0 126.8,173.0 127.6,172.1 128.5,171.2 129.4,170.2 130.2,169.3 131.1,168.3 132.0,167.4 132.9,166.4 133.8,165.5 134.6,164.5 135.5,163.6 136.4,162.7 137.2,161.7 138.1,160.8 139.0,159.8 139.9,158.9 140.8,157.9 141.6,157.0 142.5,156.0 143.4,155.1 144.2,154.2 145.1,153.2 146.0,152.3 146.9,151.3 147.8,150.4 148.6,149.4 149.5,148.5 150.4,147.6 151.2,146.6 152.1,145.7 153.0,144.7 153.9,143.8 154.8,142.8 155.6,141.9 156.5,140.9 157.4,140.0 158.2,139.1 159.1,138.1 160.0,137.2 160.9,136.2 161.8,135.3 162.6,134.3 163.5,133.4 164.4,132.4 165.2,131.5 166.1,130.6 167.0,129.6 167.9,128.7 168.8,127.7 169.6,126.8 170.5,125.8 171.4,124.9 172.2,124.0 173.1,123.0 174.0,122.1 174.9,121.1 175.8,120.2 176.6,119.2 177.5,118.3 178.4,117.3 179.2,116.4 180.1,115.5 181.0,114.5 181.9,113.6 182.8,112.6 183.6,111.7 184.5,110.7 185.4,109.8 186.2,108.8 187.1,107.9 188.0,107.0 188.9,106.0 189.8,105.1 190.6,104.1 191.5,103.2 192.4,102.2 193.2,101.3 194.1,100.4 195.0,99.4 195.9,98.5 196.8,97.5 197.6,96.6 198.5,95.6 199.4,94.7 200.2,93.7 201.1,92.8 202.0,91.9 202.9,90.9 203.8,90.0 204.6,89.0 205.5,88.1 206.4,87.1 207.2,86.2 208.1,85.2 209.0,84.3 209.9,83.4 210.8,82.4 211.6,81.5 212.5,80.5 213.4,79.6 214.2,78.6 215.1,77.7 216.0,76.8 216.9,75.8 217.8,74.9 218.6,73.9 219.5,73.0 220.4,72.0 221.2,71.1 222.1,70.1 223.0,69.2 223.9,69.2 224.8,69.2 225.6,69.2 226.5,69.2 227.4,69.2 228.2,69.2 229.1,69.2 230.0,69.2 230.9,69.2 231.8,69.2 232.6,69.2 233.5,69.2 234.4,69.2 235.2,69.2 236.1,69.2 237.0,69.2 237.9,69.2 238.8,69.2 239.6,69.2 240.5,69.2 241.4,69.2 242.3,69.2 243.1,69.2 244.0,69.2 244.9,69.2 245.7,69.2 246.6,69.2 247.5,69.2 248.4,69.2 249.2,69.2 250.1,69.2 251.0,69.2 251.9,69.2 252.8,69.2 253.6,69.2 254.5,69.2 255.4,69.2 256.2,69.2 257.1,69.2 258.0,69.2 258.9,69.2 259.8,69.2 260.6,69.2 261.5,69.2 262.4,69.2 263.2,69.2 264.1,69.2 265.0,69.2 265.9,69.2 266.8,69.2 267.6,69.2 268.5,69.2 269.4,69.2 270.2,69.2 271.1,69.2 272.0,69.2 272.9,69.2 273.8,69.2 274.6,69.2 275.5,69.2 276.4,69.2 277.2,69.2 278.1,69.2 279.0,69.2 279.9,69.2 280.8,69.2 281.6,69.2 282.5,69.2 283.4,69.2 284.2,69.2 285.1,69.2 286.0,69.2 286.9,69.2 287.8,69.2 288.6,69.2 289.5,69.2 290.4,69.2 291.2,69.2 292.1,69.2 293.0,69.2 293.9,69.2 294.8,69.2 295.6,69.2 296.5,69.2 297.4,69.2 298.2,69.2 299.1,69.2 300.0,69.2 300.9,69.2 301.8,69.2 302.6,69.2 303.5,69.2 304.4,69.2 305.2,69.2 306.1,69.2 307.0,69.2 307.9,69.2 308.8,69.2 309.6,69.2 310.5,69.2 311.4,69.2 312.2,69.2 313.1,69.2 314.0,69.2 314.9,69.2 315.8,69.2 316.6,69.2 317.5,69.2 318.4,69.2 319.2,69.2 320.1,69.2 321.0,69.2 321.9,69.2 322.8,69.2 323.6,69.2 324.5,69.2 325.4,69.2 326.2,69.2 327.1,69.2 328.0,69.2 328.9,69.2 329.8,69.2 330.6,69.2 331.5,69.2 332.4,69.2 333.2,69.2 334.1,69.2 335.0,69.2 335.9,69.2 336.8,69.2 337.6,69.2 338.5,69.2 339.4,69.2 340.2,69.2 341.1,69.2 342.0,69.2 342.9,69.2 343.8,69.2 344.6,69.2 345.5,69.2 346.4,69.2 347.2,69.2 348.1,69.2 349.0,69.2 349.9,69.2 350.8,69.2 351.6,69.2 352.5,69.2 353.4,69.2 354.2,69.2 355.1,69.2 356.0,69.2 356.9,69.2 357.8,69.2 358.6,69.2 359.5,69.2 360.4,69.2 361.2,69.2 362.1,69.2 363.0,69.2 363.9,69.2 364.8,69.2 365.6,69.2 366.5,69.2 367.4,69.2 368.2,69.2 369.1,69.2 370.0,69.2 370.9,69.2 371.8,69.2 372.6,69.2 373.5,69.2 374.4,69.2 375.2,69.2 376.1,69.2 377.0,69.2 377.9,69.2 378.8,69.2 379.6,69.2 380.5,69.2 381.4,69.2 382.2,69.2 383.1,69.2 384.0,69.2 384.9,69.2 385.8,69.2 386.6,69.2 387.5,69.2 388.4,69.2 389.2,69.2 390.1,69.2 391.0,69.2 391.9,69.2 392.8,69.2 393.6,69.2 394.5,69.2 395.4,69.2 396.2,69.2 397.1,69.2 398.0,69.2\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Före \\(t=4\\) är lutningen \\(\\dfrac{20}{4}=5\\) m/s², efter är den 0. Lutningen från vänster och höger är olika, så \\(v\\) är inte deriverbar i \\(t=4\\).</p><p>I modellen ändras accelerationen tvärt. En verklig bil ändrar accelerationen snabbt men inte momentant.</p></div>",
+  "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+  "formaga": [
+    "begrepp",
+    "modellering"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför lutningen strax före och strax efter t = 4.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "v är inte deriverbar där: accelerationen hoppar från 5 m/s² till 0.",
+      "ratt": true,
+      "kommentar": "Olika lutning från vänster och höger."
+    },
+    {
+      "txt": "Accelerationen är 5 m/s² vid t = 4.",
+      "ratt": false,
+      "kommentar": "Det gäller bara strax före t = 4."
+    },
+    {
+      "txt": "Accelerationen är 2,5 m/s² vid t = 4, medelvärdet.",
+      "ratt": false,
+      "kommentar": "Derivatan är inte ett medelvärde av lutningarna."
+    },
+    {
+      "txt": "v är inte kontinuerlig vid t = 4.",
+      "ratt": false,
+      "kommentar": "Grafen hänger ihop: v är kontinuerlig men har ett hörn."
+    }
+  ]
+},
+{
+  "id": "3.1191",
+  "kap": 3,
+  "omr": "deriverbarhet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "differenskvoter från vänster och höger",
+  "t": "<p>Tabellen visar differenskvoter för en kontinuerlig funktion \\(f\\) nära \\(x=1\\). Vilken slutsats är riktig? (Välj ett alternativ.)</p><table class=\"data\" style=\"width:100%;max-width:440px;text-align:center\"><thead><tr><th scope=\"col\">\\(h\\)</th><th scope=\"col\">−0,1</th><th scope=\"col\">−0,01</th><th scope=\"col\">0,01</th><th scope=\"col\">0,1</th></tr></thead><tbody><tr><td>\\(\\dfrac{f(1+h)-f(1)}{h}\\)</td><td>2,0</td><td>2,0</td><td>−1,0</td><td>−1,0</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2\"><p>Från vänster (\\(h\\lt0\\)) närmar sig kvoten 2, och från höger (\\(h\\gt0\\)) närmar den sig \\(-1\\). Gränsvärdet finns inte, eftersom de två sidorna ger olika värden.</p><p>\\(f\\) är alltså inte deriverbar i \\(x=1\\). Grafen har ett hörn där.</p></div>",
+  "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Ger negativa och positiva h samma värde?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "f är inte deriverbar i x = 1.",
+      "ratt": true,
+      "kommentar": "Vänster- och högergränsvärdet är olika (2 och −1)."
+    },
+    {
+      "txt": "f′(1) = 2",
+      "ratt": false,
+      "kommentar": "Det är bara gränsvärdet från vänster."
+    },
+    {
+      "txt": "f′(1) = 0,5, medelvärdet av 2 och −1.",
+      "ratt": false,
+      "kommentar": "Derivatan är inte medelvärdet av två olika lutningar."
+    },
+    {
+      "txt": "f′(1) = −1",
+      "ratt": false,
+      "kommentar": "Det är bara gränsvärdet från höger."
+    }
+  ]
+},
+{
+  "id": "3.1192",
+  "kap": 3,
+  "omr": "deriverbarhet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "kontinuerlig men inte deriverbar",
+  "t": "<p>Funktionen är \\(f(x)=x+a\\) för \\(x\\lt2\\) och \\(f(x)=x^2\\) för \\(x\\ge2\\). Bestäm \\(a\\) så att \\(f\\) blir kontinuerlig i \\(x=2\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Kontinuitet kräver att delarna möts: \\(2+a=2^2=4\\), alltså \\(a=2\\).</p><p>Funktionen är ändå inte deriverbar i \\(x=2\\): lutningen är 1 från vänster men \\(2\\cdot2=4\\) från höger.</p></div>",
+  "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Sätt in x = 2 i båda uttrycken och kräv att de är lika.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.1193",
+  "kap": 3,
+  "omr": "deriverbarhet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "skarv i en vägprofil",
+  "t": "<p>En väg byggs med profilen \\(h(x)=0{,}1x^2\\) för \\(0\\le x\\le10\\) och \\(h(x)=2x-10\\) för \\(x\\gt10\\) (meter). Är skarven i \\(x=10\\) jämn, alltså är \\(h\\) deriverbar där? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"En vägprofil som först är en parabelbåge från origo till punkten (10, 10) och sedan fortsätter som en rät linje uppför.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"69.9\" y1=\"22\" x2=\"69.9\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"91.8\" y1=\"22\" x2=\"91.8\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"113.6\" y1=\"22\" x2=\"113.6\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"135.5\" y1=\"22\" x2=\"135.5\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"157.4\" y1=\"22\" x2=\"157.4\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"179.2\" y1=\"22\" x2=\"179.2\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"201.1\" y1=\"22\" x2=\"201.1\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"244.9\" y1=\"22\" x2=\"244.9\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"266.8\" y1=\"22\" x2=\"266.8\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"288.6\" y1=\"22\" x2=\"288.6\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"310.5\" y1=\"22\" x2=\"310.5\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"332.4\" y1=\"22\" x2=\"332.4\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"354.2\" y1=\"22\" x2=\"354.2\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"376.1\" y1=\"22\" x2=\"376.1\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"398\" y2=\"278.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"256.7\" x2=\"398\" y2=\"256.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"235.3\" x2=\"398\" y2=\"235.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"214.0\" x2=\"398\" y2=\"214.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"192.7\" x2=\"398\" y2=\"192.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"171.3\" x2=\"398\" y2=\"171.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"150.0\" x2=\"398\" y2=\"150.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"128.7\" x2=\"398\" y2=\"128.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"107.3\" x2=\"398\" y2=\"107.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"86.0\" x2=\"398\" y2=\"86.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"64.7\" x2=\"398\" y2=\"64.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"43.3\" x2=\"398\" y2=\"43.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"408\" y2=\"278.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,278.0 402,273.0 402,283.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"278\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"269.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x (m)</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">h (m)</text><text x=\"91.8\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"135.5\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"179.2\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"223.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"266.8\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"310.5\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">12</text><text x=\"354.2\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">14</text><text x=\"398.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">16</text><text x=\"42.0\" y=\"239.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"196.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"42.0\" y=\"154.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">12</text><text x=\"42.0\" y=\"111.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">16</text><text x=\"42.0\" y=\"68.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">20</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">24</text><text x=\"42.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kcc55cdae\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"256\"/></clipPath><polyline clip-path=\"url(#kcc55cdae)\" points=\"48.0,278.0 48.9,278.0 49.8,278.0 50.6,278.0 51.5,278.0 52.4,278.0 53.2,277.9 54.1,277.9 55.0,277.9 55.9,277.9 56.8,277.8 57.6,277.8 58.5,277.8 59.4,277.7 60.2,277.7 61.1,277.6 62.0,277.6 62.9,277.5 63.8,277.4 64.6,277.4 65.5,277.3 66.4,277.2 67.2,277.2 68.1,277.1 69.0,277.0 69.9,276.9 70.8,276.8 71.6,276.8 72.5,276.7 73.4,276.6 74.2,276.5 75.1,276.4 76.0,276.3 76.9,276.1 77.8,276.0 78.6,275.9 79.5,275.8 80.4,275.7 81.2,275.5 82.1,275.4 83.0,275.3 83.9,275.1 84.8,275.0 85.6,274.8 86.5,274.7 87.4,274.5 88.2,274.4 89.1,274.2 90.0,274.1 90.9,273.9 91.8,273.7 92.6,273.6 93.5,273.4 94.4,273.2 95.2,273.0 96.1,272.8 97.0,272.6 97.9,272.5 98.8,272.3 99.6,272.1 100.5,271.9 101.4,271.6 102.2,271.4 103.1,271.2 104.0,271.0 104.9,270.8 105.8,270.6 106.6,270.3 107.5,270.1 108.4,269.9 109.2,269.6 110.1,269.4 111.0,269.2 111.9,268.9 112.8,268.7 113.6,268.4 114.5,268.1 115.4,267.9 116.2,267.6 117.1,267.3 118.0,267.1 118.9,266.8 119.8,266.5 120.6,266.2 121.5,266.0 122.4,265.7 123.2,265.4 124.1,265.1 125.0,264.8 125.9,264.5 126.8,264.2 127.6,263.9 128.5,263.6 129.4,263.2 130.2,262.9 131.1,262.6 132.0,262.3 132.9,261.9 133.8,261.6 134.6,261.3 135.5,260.9 136.4,260.6 137.2,260.2 138.1,259.9 139.0,259.5 139.9,259.2 140.8,258.8 141.6,258.5 142.5,258.1 143.4,257.7 144.2,257.3 145.1,257.0 146.0,256.6 146.9,256.2 147.8,255.8 148.6,255.4 149.5,255.0 150.4,254.6 151.2,254.2 152.1,253.8 153.0,253.4 153.9,253.0 154.8,252.6 155.6,252.2 156.5,251.8 157.4,251.3 158.2,250.9 159.1,250.5 160.0,250.0 160.9,249.6 161.8,249.2 162.6,248.7 163.5,248.3 164.4,247.8 165.2,247.4 166.1,246.9 167.0,246.4 167.9,246.0 168.8,245.5 169.6,245.0 170.5,244.5 171.4,244.1 172.2,243.6 173.1,243.1 174.0,242.6 174.9,242.1 175.8,241.6 176.6,241.1 177.5,240.6 178.4,240.1 179.2,239.6 180.1,239.1 181.0,238.6 181.9,238.0 182.8,237.5 183.6,237.0 184.5,236.5 185.4,235.9 186.2,235.4 187.1,234.9 188.0,234.3 188.9,233.8 189.8,233.2 190.6,232.7 191.5,232.1 192.4,231.5 193.2,231.0 194.1,230.4 195.0,229.8 195.9,229.3 196.8,228.7 197.6,228.1 198.5,227.5 199.4,226.9 200.2,226.3 201.1,225.7 202.0,225.1 202.9,224.5 203.8,223.9 204.6,223.3 205.5,222.7 206.4,222.1 207.2,221.5 208.1,220.8 209.0,220.2 209.9,219.6 210.8,219.0 211.6,218.3 212.5,217.7 213.4,217.0 214.2,216.4 215.1,215.7 216.0,215.1 216.9,214.4 217.8,213.8 218.6,213.1 219.5,212.4 220.4,211.8 221.2,211.1 222.1,210.4 223.0,209.7 223.9,209.0 224.8,208.4 225.6,207.7 226.5,207.0 227.4,206.3 228.2,205.6 229.1,204.9 230.0,204.2 230.9,203.5 231.8,202.7 232.6,202.0 233.5,201.3 234.4,200.6 235.2,199.8 236.1,199.1 237.0,198.4 237.9,197.6 238.8,196.9 239.6,196.1 240.5,195.4 241.4,194.6 242.3,193.9 243.1,193.1 244.0,192.4 244.9,191.6 245.7,190.8 246.6,190.1 247.5,189.3 248.4,188.5 249.2,187.7 250.1,186.9 251.0,186.1 251.9,185.3 252.8,184.5 253.6,183.7 254.5,182.9 255.4,182.1 256.2,181.3 257.1,180.5 258.0,179.7 258.9,178.9 259.8,178.1 260.6,177.2 261.5,176.4 262.4,175.6 263.2,174.7 264.1,173.9 265.0,173.0 265.9,172.2 266.8,171.3 267.6,170.5 268.5,169.6 269.4,168.8 270.2,167.9 271.1,167.1 272.0,166.2 272.9,165.4 273.8,164.5 274.6,163.7 275.5,162.8 276.4,161.9 277.2,161.1 278.1,160.2 279.0,159.4 279.9,158.5 280.8,157.7 281.6,156.8 282.5,156.0 283.4,155.1 284.2,154.3 285.1,153.4 286.0,152.6 286.9,151.7 287.8,150.9 288.6,150.0 289.5,149.1 290.4,148.3 291.2,147.4 292.1,146.6 293.0,145.7 293.9,144.9 294.8,144.0 295.6,143.2 296.5,142.3 297.4,141.5 298.2,140.6 299.1,139.8 300.0,138.9 300.9,138.1 301.8,137.2 302.6,136.3 303.5,135.5 304.4,134.6 305.2,133.8 306.1,132.9 307.0,132.1 307.9,131.2 308.8,130.4 309.6,129.5 310.5,128.7 311.4,127.8 312.2,127.0 313.1,126.1 314.0,125.3 314.9,124.4 315.8,123.5 316.6,122.7 317.5,121.8 318.4,121.0 319.2,120.1 320.1,119.3 321.0,118.4 321.9,117.6 322.8,116.7 323.6,115.9 324.5,115.0 325.4,114.2 326.2,113.3 327.1,112.5 328.0,111.6 328.9,110.7 329.8,109.9 330.6,109.0 331.5,108.2 332.4,107.3 333.2,106.5 334.1,105.6 335.0,104.8 335.9,103.9 336.8,103.1 337.6,102.2 338.5,101.4 339.4,100.5 340.2,99.7 341.1,98.8 342.0,97.9 342.9,97.1 343.8,96.2 344.6,95.4 345.5,94.5 346.4,93.7 347.2,92.8 348.1,92.0 349.0,91.1 349.9,90.3 350.8,89.4 351.6,88.6 352.5,87.7 353.4,86.9 354.2,86.0 355.1,85.1 356.0,84.3 356.9,83.4 357.8,82.6 358.6,81.7 359.5,80.9 360.4,80.0 361.2,79.2 362.1,78.3 363.0,77.5 363.9,76.6 364.8,75.8 365.6,74.9 366.5,74.1 367.4,73.2 368.2,72.3 369.1,71.5 370.0,70.6 370.9,69.8 371.8,68.9 372.6,68.1 373.5,67.2 374.4,66.4 375.2,65.5 376.1,64.7 377.0,63.8 377.9,63.0 378.8,62.1 379.6,61.3 380.5,60.4 381.4,59.5 382.2,58.7 383.1,57.8 384.0,57.0 384.9,56.1 385.8,55.3 386.6,54.4 387.5,53.6 388.4,52.7 389.2,51.9 390.1,51.0 391.0,50.2 391.9,49.3 392.8,48.5 393.6,47.6 394.5,46.7 395.4,45.9 396.2,45.0 397.1,44.2 398.0,43.3\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><circle cx=\"266.8\" cy=\"171.3\" r=\"5\" fill=\"#172b3a\"/><text x=\"200.8\" y=\"163.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">(10, 10)</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Värdena möts: \\(0{,}1\\cdot10^2=10\\) och \\(2\\cdot10-10=10\\).</p><p>Lutningarna möts också: \\(h^{\\prime}(x)=0{,}2x\\) ger \\(2\\) i \\(x=10\\), och den räta linjen har lutningen 2. Skarven är jämn och \\(h\\) är deriverbar i \\(x=10\\).</p></div>",
+  "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Kontrollera både värdet och lutningen från båda hållen.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ja, både höjden och lutningen är lika från båda hållen.",
+      "ratt": true,
+      "kommentar": "h(10) = 10 och lutningen är 2 från båda sidor."
+    },
+    {
+      "txt": "Nej, eftersom funktionen byter formel i x = 10.",
+      "ratt": false,
+      "kommentar": "En formelväxling betyder inte att funktionen saknar derivata."
+    },
+    {
+      "txt": "Nej, höjderna möts inte.",
+      "ratt": false,
+      "kommentar": "Båda delarna ger h(10) = 10."
+    },
+    {
+      "txt": "Ja, eftersom höjderna möts. Lutningen behöver inte kontrolleras.",
+      "ratt": false,
+      "kommentar": "Kontinuitet räcker inte. Lutningarna måste också vara lika."
+    }
+  ]
+},
+{
+  "id": "3.1194",
+  "kap": 3,
+  "omr": "deriverbarhet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "deriverbar för alla x",
+  "t": "<p>Vilken av funktionerna är deriverbar för alla reella \\(x\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Polynom som \\(x^3-2x\\) är deriverbara överallt: \\(f^{\\prime}(x)=3x^2-2\\).</p><p>\\(\\dfrac1x\\) är inte definierad i \\(x=0\\). En funktion som hoppar är inte kontinuerlig där och kan inte vara deriverbar. Ett hörn ger olika lutning från vänster och höger.</p></div>",
+  "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Tänk på hörn, hopp och punkter där funktionen inte är definierad.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(f(x)=x^3-2x\\)",
+      "ratt": true,
+      "kommentar": "Ett polynom saknar hörn och hopp."
+    },
+    {
+      "txt": "\\(f(x)=\\dfrac{1}{x}\\)",
+      "ratt": false,
+      "kommentar": "Den är inte definierad i x = 0."
+    },
+    {
+      "txt": "\\(f(x)=1\\) för \\(x\\lt0\\) och \\(f(x)=2\\) för \\(x\\ge0\\)",
+      "ratt": false,
+      "kommentar": "Funktionen hoppar i x = 0."
+    },
+    {
+      "txt": "\\(f(x)=x\\) för \\(x\\lt0\\) och \\(f(x)=2x\\) för \\(x\\ge0\\)",
+      "ratt": false,
+      "kommentar": "Lutningen är 1 från vänster och 2 från höger: ett hörn."
+    }
+  ]
 }
 ];

@@ -200133,5 +200133,1367 @@ window.BANK = [
   "rättSvar": -3,
   "tolerans": 0.03,
   "svarEnhet": "m/s²"
+},
+{
+  "id": "4.800",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "bok på ett bord",
+  "poang": "(1/0/0)",
+  "t": "<p>En bok med massan 1,5 kg ligger stilla på ett vågrätt bord.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"En bok på ett bord med tyngdkraften nedåt och normalkraften uppåt.\"><title>En bok på ett bord med tyngdkraften nedåt och normalkraften uppåt.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"160\" width=\"280\" height=\"14\" fill=\"#d9c7a7\" stroke=\"#8a6d3b\" stroke-width=\"1.5\"/><text x=\"310.0\" y=\"196.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">bord</text><rect x=\"135\" y=\"110\" width=\"90\" height=\"50\" rx=\"6\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"125.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">bok</text><line x1=\"180.0\" y1=\"135.0\" x2=\"180.0\" y2=\"232.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"180.0,232.0 175.1,221.0 184.9,221.0\" fill=\"#c2410c\"/><rect x=\"72.0\" y=\"211.0\" width=\"98.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"166.0\" y=\"226.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">tyngdkraft</text><line x1=\"200.0\" y1=\"160.0\" x2=\"200.0\" y2=\"40.0\" stroke=\"#2f7d4a\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"200.0,40.0 204.9,51.0 195.1,51.0\" fill=\"#2f7d4a\"/><rect x=\"206.0\" y=\"37.0\" width=\"143.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"210.0\" y=\"52.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">normalkraft = ?</text><circle cx=\"180\" cy=\"135\" r=\"3\" fill=\"#172b3a\"/></svg></span><p>Hur stor är normalkraften från bordet på boken? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Boken är i vila, så normalkraften är lika stor som tyngdkraften.</p></li><li><div class=\"facit-matte\">\\[F_N=mg=1{,}5\\cdot9{,}82\\approx14{,}7\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 15 N.</p></div>",
+  "familj": "Normalkraft vid vila",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Boken är i vila. Vilka krafter tar ut varandra?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 14.73,
+  "tolerans": 0.14730000000000001,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.801",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "dator på ett skrivbord",
+  "poang": "(1/0/0)",
+  "t": "<p>En bärbar dator med massan 2,2 kg står stilla på ett skrivbord. Hur stor normalkraft verkar på datorn? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_N=mg=2{,}2\\cdot9{,}82\\approx22\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 22 N.</p></div>",
+  "familj": "Normalkraft vid vila",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Normalkraft och tyngdkraft är lika stora när datorn är i vila.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 21.604000000000003,
+  "tolerans": 0.21604000000000004,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.802",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "normalkraftens riktning",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda står på ett vågrätt golv. Åt vilket håll verkar normalkraften från golvet på lådan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Normalkraften verkar vinkelrätt ut från underlaget. På ett vågrätt golv är det rakt uppåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Rakt uppåt.</p></div>",
+  "familj": "Normalkraft vid vila",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Normalkraften är vinkelrät mot underlaget.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Rakt uppåt",
+      "ratt": true
+    },
+    {
+      "txt": "Rakt nedåt",
+      "ratt": false,
+      "kommentar": "Nedåt verkar tyngdkraften."
+    },
+    {
+      "txt": "Vågrätt",
+      "ratt": false,
+      "kommentar": "Golvet är vågrätt, och normalkraften är vinkelrät mot det."
+    },
+    {
+      "txt": "Det beror på lådans massa",
+      "ratt": false,
+      "kommentar": "Riktningen beror på underlaget, inte på massan."
+    }
+  ]
+},
+{
+  "id": "4.803",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "normalkraften på en ramp",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda står stilla på en lutande ramp. Figuren visar fyra pilar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"270\" viewBox=\"0 0 400 270\" role=\"img\" aria-label=\"En låda på en lutande ramp med fyra pilar: A rakt uppåt, B vinkelrätt ut från rampen, C rakt nedåt och D längs rampen nedåt.\"><title>En låda på en lutande ramp med fyra pilar: A rakt uppåt, B vinkelrätt ut från rampen, C rakt nedåt och D längs rampen nedåt.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40,230 360,230 360,70\" fill=\"#efe6d4\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><polygon points=\"183.2,158.4 236.8,131.6 218.9,95.8 165.3,122.6\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"201.1\" y1=\"127.1\" x2=\"201.1\" y2=\"57.1\" stroke=\"#2f7d4a\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"201.1,57.1 205.9,68.1 196.2,68.1\" fill=\"#2f7d4a\"/><rect x=\"178.1\" y=\"38.1\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"191.1\" y=\"53.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#2f7d4a\" font-weight=\"bold\">A</text><line x1=\"201.1\" y1=\"127.1\" x2=\"169.8\" y2=\"64.5\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"169.8,64.5 179.0,72.1 170.3,76.5\" fill=\"#216d87\"/><rect x=\"148.8\" y=\"43.5\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"161.8\" y=\"58.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">B</text><line x1=\"201.1\" y1=\"127.1\" x2=\"201.1\" y2=\"197.1\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"201.1,197.1 196.2,186.2 205.9,186.2\" fill=\"#c2410c\"/><rect x=\"209.1\" y=\"182.1\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"213.1\" y=\"197.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">C</text><line x1=\"201.1\" y1=\"127.1\" x2=\"138.4\" y2=\"158.4\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"138.4,158.4 146.1,149.1 150.4,157.9\" fill=\"#5b6773\"/><rect x=\"113.4\" y=\"159.4\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"126.4\" y=\"174.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">D</text></svg></span><p>Vilken pil visar normalkraften från rampen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Normalkraften är alltid vinkelrät mot underlaget. På rampen pekar den snett uppåt, vinkelrätt ut från ytan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+  "familj": "Normalkraft vid vila",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Normalkraften är vinkelrät mot ytan som föremålet står på.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "B",
+      "ratt": true
+    },
+    {
+      "txt": "A",
+      "ratt": false,
+      "kommentar": "Rakt uppåt är bara vinkelrätt mot ytan när den är vågrät."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "C är tyngdkraften."
+    },
+    {
+      "txt": "D",
+      "ratt": false,
+      "kommentar": "En kraft längs rampen är friktion eller en komponent av tyngdkraften."
+    }
+  ]
+},
+{
+  "id": "4.804",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "hiss med konstant fart",
+  "poang": "(1/0/0)",
+  "t": "<p>En person med massan 70 kg står i en hiss som åker uppåt med konstant fart.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"260\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"En person i en hiss som åker uppåt med konstant fart.\"><title>En person i en hiss som åker uppåt med konstant fart.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"180\" y1=\"10\" x2=\"180\" y2=\"40\" stroke=\"#5b6773\" stroke-width=\"3\"/><rect x=\"110\" y=\"40\" width=\"140\" height=\"190\" rx=\"6\" fill=\"#f6f8fb\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><rect x=\"140\" y=\"212\" width=\"60\" height=\"10\" rx=\"2\" fill=\"#cfd8e3\" stroke=\"#5b6773\"/><circle cx=\"170\" cy=\"110\" r=\"13\" fill=\"#f3d9c4\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><path d=\"M170 123 L170 175 M170 140 L152 160 M170 140 L188 160 M170 175 L158 210 M170 175 L182 210\" stroke=\"#172b3a\" stroke-width=\"2.6\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"290.0\" y1=\"160.0\" x2=\"290.0\" y2=\"80.0\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"290.0,80.0 294.9,91.0 285.1,91.0\" fill=\"#216d87\"/><rect x=\"296.0\" y=\"114.0\" width=\"16.4\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"300.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">v</text></svg></span><p>Hur stor är normalkraften från golvet på personen? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Konstant fart betyder att accelerationen är noll. Krafterna tar då ut varandra.</p></li><li><div class=\"facit-matte\">\\[F_N=mg=70\\cdot9{,}82\\approx690\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 690 N.</p></div>",
+  "familj": "Normalkraft i hiss",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad gäller för krafterna när farten är konstant?</p>",
+  "familjNyckel": "normalkraft__normalkraft_i_hiss",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 687.4,
+  "tolerans": 6.874,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.805",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "hiss som accelererar uppåt",
+  "poang": "(1/0/0)",
+  "t": "<p>En hiss startar uppåt från en våning, så att den accelererar uppåt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"260\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"En person i en hiss som accelererar uppåt.\"><title>En person i en hiss som accelererar uppåt.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"180\" y1=\"10\" x2=\"180\" y2=\"40\" stroke=\"#5b6773\" stroke-width=\"3\"/><rect x=\"110\" y=\"40\" width=\"140\" height=\"190\" rx=\"6\" fill=\"#f6f8fb\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><rect x=\"140\" y=\"212\" width=\"60\" height=\"10\" rx=\"2\" fill=\"#cfd8e3\" stroke=\"#5b6773\"/><circle cx=\"170\" cy=\"110\" r=\"13\" fill=\"#f3d9c4\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><path d=\"M170 123 L170 175 M170 140 L152 160 M170 140 L188 160 M170 175 L158 210 M170 175 L182 210\" stroke=\"#172b3a\" stroke-width=\"2.6\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"290.0\" y1=\"160.0\" x2=\"290.0\" y2=\"80.0\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"290.0,80.0 294.9,91.0 285.1,91.0\" fill=\"#216d87\"/><rect x=\"296.0\" y=\"114.0\" width=\"16.4\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"300.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">a</text></svg></span><p>Hur förhåller sig normalkraften på personen till tyngdkraften?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nettokraften måste peka uppåt, i accelerationens riktning. Då är normalkraften större än tyngdkraften.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften är större.</p></div>",
+  "familj": "Normalkraft i hiss",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Åt vilket håll måste nettokraften peka?</p>",
+  "familjNyckel": "normalkraft__normalkraft_i_hiss",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Normalkraften är större än tyngdkraften",
+      "ratt": true
+    },
+    {
+      "txt": "Normalkraften är lika stor som tyngdkraften",
+      "ratt": false,
+      "kommentar": "Då skulle accelerationen vara noll."
+    },
+    {
+      "txt": "Normalkraften är mindre än tyngdkraften",
+      "ratt": false,
+      "kommentar": "Då skulle accelerationen peka nedåt."
+    },
+    {
+      "txt": "Normalkraften är noll",
+      "ratt": false,
+      "kommentar": "Det gäller bara i fritt fall."
+    }
+  ]
+},
+{
+  "id": "4.806",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "hiss som accelererar nedåt",
+  "poang": "(1/0/0)",
+  "t": "<p>En hiss startar nedåt från en våning, så att den accelererar nedåt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"260\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"En person i en hiss som accelererar nedåt.\"><title>En person i en hiss som accelererar nedåt.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"180\" y1=\"10\" x2=\"180\" y2=\"40\" stroke=\"#5b6773\" stroke-width=\"3\"/><rect x=\"110\" y=\"40\" width=\"140\" height=\"190\" rx=\"6\" fill=\"#f6f8fb\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><rect x=\"140\" y=\"212\" width=\"60\" height=\"10\" rx=\"2\" fill=\"#cfd8e3\" stroke=\"#5b6773\"/><circle cx=\"170\" cy=\"110\" r=\"13\" fill=\"#f3d9c4\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><path d=\"M170 123 L170 175 M170 140 L152 160 M170 140 L188 160 M170 175 L158 210 M170 175 L182 210\" stroke=\"#172b3a\" stroke-width=\"2.6\" fill=\"none\" stroke-linecap=\"round\"/><line x1=\"290.0\" y1=\"80.0\" x2=\"290.0\" y2=\"160.0\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"290.0,160.0 285.1,149.0 294.9,149.0\" fill=\"#216d87\"/><rect x=\"296.0\" y=\"114.0\" width=\"16.4\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"300.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">a</text></svg></span><p>Hur förhåller sig normalkraften på personen till tyngdkraften?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nettokraften pekar nedåt, så normalkraften är mindre än tyngdkraften. Personen känner sig lättare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften är mindre.</p></div>",
+  "familj": "Normalkraft i hiss",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Åt vilket håll måste nettokraften peka?</p>",
+  "familjNyckel": "normalkraft__normalkraft_i_hiss",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Normalkraften är mindre än tyngdkraften",
+      "ratt": true
+    },
+    {
+      "txt": "Normalkraften är större än tyngdkraften",
+      "ratt": false,
+      "kommentar": "Då skulle accelerationen peka uppåt."
+    },
+    {
+      "txt": "Normalkraften är lika stor som tyngdkraften",
+      "ratt": false,
+      "kommentar": "Då skulle accelerationen vara noll."
+    },
+    {
+      "txt": "Tyngdkraften blir mindre",
+      "ratt": false,
+      "kommentar": "Tyngdkraften mg ändras inte i hissen."
+    }
+  ]
+},
+{
+  "id": "4.807",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "fritt fall i en hiss",
+  "poang": "(1/0/0)",
+  "t": "<p>I en nöjesattraktion faller en vagn fritt en kort stund, med en person sittande i den. Hur stor är normalkraften från sätet på personen under det fria fallet?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I fritt fall är accelerationen \\(g\\). Då behövs ingen annan kraft än tyngdkraften, och normalkraften är noll. Personen känner sig tyngdlös.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Noll.</p></div>",
+  "familj": "Normalkraft i hiss",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken kraft räcker för att ge accelerationen g?</p>",
+  "familjNyckel": "normalkraft__normalkraft_i_hiss",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Noll",
+      "ratt": true
+    },
+    {
+      "txt": "Lika stor som tyngdkraften",
+      "ratt": false,
+      "kommentar": "Då skulle personen inte accelerera."
+    },
+    {
+      "txt": "Dubbelt så stor som tyngdkraften",
+      "ratt": false,
+      "kommentar": "Det gäller vid en kraftig acceleration uppåt."
+    },
+    {
+      "txt": "Lite mindre än tyngdkraften",
+      "ratt": false,
+      "kommentar": "Vid fritt fall är den helt borta."
+    }
+  ]
+},
+{
+  "id": "4.808",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "våg som visar kilogram",
+  "poang": "(1/0/0)",
+  "t": "<p>En personvåg mäter normalkraften men visar den omräknad till kilogram. Leo står stilla på vågen, och den visar 60 kg.</p><p>Hur stor är normalkraften från vågen på Leo? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_N=mg=60\\cdot9{,}82\\approx590\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 590 N.</p></div>",
+  "familj": "Normalkraft vid vila",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vågen visar massan som ger samma tyngdkraft.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 589.2,
+  "tolerans": 5.892,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.809",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "massa ur normalkraften",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda står stilla på ett vågrätt golv. Normalkraften från golvet är 245 N. Vilken massa har lådan? (Svara i kg.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[mg=245\\]</div></li><li><div class=\"facit-matte\">\\[m=\\frac{245}{9{,}82}\\approx25\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 25 kg.</p></div>",
+  "familj": "Normalkraft vid vila",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Normalkraften är lika stor som tyngdkraften mg.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 24.94908350305499,
+  "tolerans": 0.2494908350305499,
+  "svarVardesiffror": 2,
+  "svarEnhet": "kg"
+},
+{
+  "id": "4.810",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "katt på en pall",
+  "poang": "(1/0/0)",
+  "t": "<p>En katt med massan 4,0 kg sitter stilla på en pall.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"En katt på en pall med tyngdkraften nedåt och normalkraften uppåt.\"><title>En katt på en pall med tyngdkraften nedåt och normalkraften uppåt.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"160\" width=\"280\" height=\"14\" fill=\"#d9c7a7\" stroke=\"#8a6d3b\" stroke-width=\"1.5\"/><text x=\"310.0\" y=\"196.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">pall</text><rect x=\"135\" y=\"110\" width=\"90\" height=\"50\" rx=\"6\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"125.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">katt</text><line x1=\"180.0\" y1=\"135.0\" x2=\"180.0\" y2=\"232.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"180.0,232.0 175.1,221.0 184.9,221.0\" fill=\"#c2410c\"/><rect x=\"72.0\" y=\"211.0\" width=\"98.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"166.0\" y=\"226.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">tyngdkraft</text><line x1=\"200.0\" y1=\"160.0\" x2=\"200.0\" y2=\"40.0\" stroke=\"#2f7d4a\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"200.0,40.0 204.9,51.0 195.1,51.0\" fill=\"#2f7d4a\"/><rect x=\"206.0\" y=\"37.0\" width=\"143.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"210.0\" y=\"52.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">normalkraft = ?</text><circle cx=\"180\" cy=\"135\" r=\"3\" fill=\"#172b3a\"/></svg></span><p>Hur stor kraft påverkar pallen katten med? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_N=mg=4{,}0\\cdot9{,}82\\approx39\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 39 N.</p></div>",
+  "familj": "Normalkraft vid vila",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Katten är i vila.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 39.28,
+  "tolerans": 0.39280000000000004,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.811",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "varför krafterna är lika stora",
+  "poang": "(1/0/0)",
+  "t": "<p>En bok ligger stilla på ett bord. Tyngdkraften och normalkraften på boken är lika stora. Varför?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Boken är i vila, så nettokraften är noll enligt Newtons första lag. De två krafterna på boken måste då ta ut varandra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Boken är i vila, så krafterna måste ta ut varandra.</p></div>",
+  "familj": "Normalkraft vid vila",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad säger Newtons första lag om ett föremål i vila?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Boken är i vila, så nettokraften måste vara noll",
+      "ratt": true
+    },
+    {
+      "txt": "De är kraft och motkraft enligt Newtons tredje lag",
+      "ratt": false,
+      "kommentar": "Båda krafterna verkar på boken. Kraft och motkraft verkar på olika föremål."
+    },
+    {
+      "txt": "Normalkraften är alltid lika stor som tyngdkraften",
+      "ratt": false,
+      "kommentar": "I en hiss som accelererar är de olika stora."
+    },
+    {
+      "txt": "Bordet väger lika mycket som boken",
+      "ratt": false,
+      "kommentar": "Bordets massa spelar ingen roll."
+    }
+  ]
+},
+{
+  "id": "4.812",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "astronaut på månen",
+  "poang": "(1/0/0)",
+  "t": "<p>En astronaut med massan 80 kg, inklusive dräkten, står stilla på månens yta. Hur stor är normalkraften från marken? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_N=mg_{\\text{månen}}=80\\cdot1{,}62\\approx130\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 130 N.</p></div>",
+  "familj": "Normalkraft vid vila",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd tyngdaccelerationen på månen ur formelsamlingen.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 129.60000000000002,
+  "tolerans": 1.2960000000000003,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.813",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "massa ur vågens utslag i en stillastående hiss",
+  "poang": "(1/0/0)",
+  "t": "<p>En kraftmätande våg står på golvet i en hiss som står stilla. När Sara står på vågen visar den 650 N. Vilken massa har Sara? (Svara i kg.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=\\frac{650}{9{,}82}\\approx66\\ \\mathrm{kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 66 kg.</p></div>",
+  "familj": "Normalkraft i hiss",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>När hissen står stilla är normalkraften lika med mg.</p>",
+  "familjNyckel": "normalkraft__normalkraft_i_hiss",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 66.19144602851324,
+  "tolerans": 0.6619144602851325,
+  "svarVardesiffror": 2,
+  "svarEnhet": "kg"
+},
+{
+  "id": "4.814",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "välj pilen för normalkraften",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda står på ett bord. Figuren visar tyngdkraften och normalkraften på lådan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"250\" viewBox=\"0 0 360 250\" role=\"img\" aria-label=\"En låda på ett bord. Pil 1 pekar nedåt från lådans mitt och pil 2 pekar uppåt från bordets yta.\"><title>En låda på ett bord. Pil 1 pekar nedåt från lådans mitt och pil 2 pekar uppåt från bordets yta.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"160\" width=\"280\" height=\"14\" fill=\"#d9c7a7\" stroke=\"#8a6d3b\" stroke-width=\"1.5\"/><text x=\"310.0\" y=\"196.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">bord</text><rect x=\"135\" y=\"110\" width=\"90\" height=\"50\" rx=\"6\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"125.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">låda</text><line x1=\"180.0\" y1=\"135.0\" x2=\"180.0\" y2=\"232.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"180.0,232.0 175.1,221.0 184.9,221.0\" fill=\"#c2410c\"/><rect x=\"153.0\" y=\"211.0\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"166.0\" y=\"226.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">1</text><line x1=\"200.0\" y1=\"160.0\" x2=\"200.0\" y2=\"40.0\" stroke=\"#2f7d4a\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"200.0,40.0 204.9,51.0 195.1,51.0\" fill=\"#2f7d4a\"/><rect x=\"206.0\" y=\"37.0\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"210.0\" y=\"52.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">2</text><circle cx=\"180\" cy=\"135\" r=\"3\" fill=\"#172b3a\"/></svg></span><p>Vilken av pilarna 1 och 2 visar normalkraften?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Normalkraften verkar från bordet på lådan, uppåt, och angriper där lådan rör vid bordet. Det är pil 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Pil 2.</p></div>",
+  "familj": "Normalkraft vid vila",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Normalkraften är en kontaktkraft från underlaget.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Pil 2",
+      "ratt": true
+    },
+    {
+      "txt": "Pil 1",
+      "ratt": false,
+      "kommentar": "Pil 1 pekar nedåt från tyngdpunkten. Det är tyngdkraften."
+    }
+  ]
+},
+{
+  "id": "4.815",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "vem påverkar med normalkraften",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda står på ett golv. Normalkraften på lådan verkar från</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Normalkraften är en kontaktkraft från det som lådan står på.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> golvet.</p></div>",
+  "familj": "Normalkraft vid vila",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket föremål rör lådan vid?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "golvet",
+      "ratt": true
+    },
+    {
+      "txt": "jorden, genom gravitationen",
+      "ratt": false,
+      "kommentar": "Det är tyngdkraften."
+    },
+    {
+      "txt": "lådan själv",
+      "ratt": false,
+      "kommentar": "Ett föremål kan inte påverka sig självt med en kraft."
+    },
+    {
+      "txt": "luften",
+      "ratt": false,
+      "kommentar": "Luften ger bara en mycket liten lyftkraft."
+    }
+  ]
+},
+{
+  "id": "4.816",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "bok som trycks mot en vägg",
+  "poang": "(1/0/0)",
+  "t": "<p>Moa trycker en bok vågrätt mot en vägg med kraften 30 N. Boken hålls stilla. Hur stor är normalkraften från väggen på boken? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vågrätt är boken i jämvikt. Väggens normalkraft är vinkelrät mot väggen och tar ut handens kraft.</p></li><li><div class=\"facit-matte\">\\[F_N=30\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 N, riktad ut från väggen.</p></div>",
+  "familj": "Normalkraft vid vila",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Normalkraften är vinkelrät mot väggen. Vilken vågrät kraft ska den ta ut?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 30,
+  "tolerans": 0.3,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.817",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "bil på en vågrät väg",
+  "poang": "(1/0/0)",
+  "t": "<p>En bil med massan 1 200 kg står parkerad på en vågrät väg. Hur stor är den sammanlagda normalkraften från vägen på bilens fyra hjul? (Svara i kN.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_N=mg=1200\\cdot9{,}82\\approx11\\,800\\ \\mathrm N\\approx12\\ \\mathrm{kN}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 12 kN.</p></div>",
+  "familj": "Normalkraft vid vila",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Bilen står stilla.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 11.784,
+  "tolerans": 0.11784000000000001,
+  "svarVardesiffror": 2,
+  "svarEnhet": "kN"
+},
+{
+  "id": "4.818",
+  "kap": 4,
+  "omr": "normalkraft",
+  "niva": "E",
+  "typ": "hiss som bromsar på väg uppåt",
+  "poang": "(1/0/0)",
+  "t": "<p>En hiss är på väg uppåt men bromsar in före en våning. Accelerationen är då riktad nedåt. Hur förhåller sig normalkraften på en person i hissen till tyngdkraften?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Accelerationen pekar nedåt, så nettokraften pekar nedåt. Normalkraften är mindre än tyngdkraften.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Normalkraften är mindre.</p></div>",
+  "familj": "Normalkraft i hiss",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Det är accelerationens riktning som avgör, inte rörelsens.</p>",
+  "familjNyckel": "normalkraft__normalkraft_i_hiss",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Normalkraften är mindre än tyngdkraften",
+      "ratt": true
+    },
+    {
+      "txt": "Normalkraften är större, eftersom hissen åker uppåt",
+      "ratt": false,
+      "kommentar": "Accelerationen pekar nedåt när hissen bromsar."
+    },
+    {
+      "txt": "Normalkraften är lika stor som tyngdkraften",
+      "ratt": false,
+      "kommentar": "Det gäller vid konstant fart."
+    },
+    {
+      "txt": "Normalkraften är noll",
+      "ratt": false,
+      "kommentar": "Det gäller bara i fritt fall."
+    }
+  ]
+},
+{
+  "id": "4.819",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "barn som drar i en tung låda",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett barn drar i en tung låda med kraften 120 N, men lådan står kvar. Hur stor kraft drar lådan i barnet med? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enligt Newtons tredje lag drar lådan i barnet med en lika stor och motriktad kraft.</p></li><li><div class=\"facit-matte\">\\[F=120\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 120 N.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kraft och motkraft är lika stora.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 120,
+  "tolerans": 1.2,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.820",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "jorden och månen",
+  "poang": "(1/0/0)",
+  "t": "<p>Jorden drar månen med en gravitationskraft. Hur stor är kraften som månen drar jorden med?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Krafterna är ett kraft–motkraftpar och är därför lika stora, trots att jorden har mycket större massa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lika stor.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Newtons tredje lag gäller oavsett massorna.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Lika stor",
+      "ratt": true
+    },
+    {
+      "txt": "Mycket mindre, eftersom månen har mindre massa",
+      "ratt": false,
+      "kommentar": "Kraft och motkraft är alltid lika stora."
+    },
+    {
+      "txt": "Mycket större",
+      "ratt": false,
+      "kommentar": "Kraft och motkraft är alltid lika stora."
+    },
+    {
+      "txt": "Noll",
+      "ratt": false,
+      "kommentar": "Månen drar också i jorden. Det syns till exempel i tidvattnet."
+    }
+  ]
+},
+{
+  "id": "4.821",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "fot som sparkar en boll",
+  "poang": "(1/0/0)",
+  "t": "<p>Vid en spark påverkar foten bollen med kraften 600 N framåt. Hur stor kraft påverkar bollen foten med? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bollen påverkar foten med en lika stor kraft, riktad bakåt.</p></li><li><div class=\"facit-matte\">\\[F=600\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 600 N bakåt.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kraft och motkraft är lika stora och motriktade.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 600,
+  "tolerans": 6.0,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.822",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "raket som trycker ut gaser",
+  "poang": "(1/0/0)",
+  "t": "<p>En raketmotor trycker ut förbränningsgaser bakåt. Vad driver raketen framåt?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Raketen trycker gaserna bakåt. Enligt tredje lagen trycker gaserna då raketen framåt med en lika stor kraft.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Gaserna trycker raketen framåt.</p></div>",
+  "familj": "Tredje lagen och rörelse",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad är motkraften till raketens kraft på gaserna?</p>",
+  "familjNyckel": "newton3__tredje_lagen_och_rorelse",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Gaserna trycker raketen framåt",
+      "ratt": true
+    },
+    {
+      "txt": "Gaserna trycker mot luften bakom raketen",
+      "ratt": false,
+      "kommentar": "En raket fungerar även i rymden där det inte finns luft."
+    },
+    {
+      "txt": "Tyngdkraften drar raketen framåt",
+      "ratt": false,
+      "kommentar": "Tyngdkraften är riktad mot jorden."
+    },
+    {
+      "txt": "Raketen trycker sig själv framåt",
+      "ratt": false,
+      "kommentar": "Ett föremål kan inte påverka sig självt med en kraft."
+    }
+  ]
+},
+{
+  "id": "4.823",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "att gå framåt",
+  "poang": "(1/0/0)",
+  "t": "<p>När du går trycker foten bakåt mot marken. Vilken kraft driver dig framåt?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Marken trycker tillbaka på foten med en lika stor kraft framåt. Det är en friktionskraft från marken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Marken trycker foten framåt.</p></div>",
+  "familj": "Tredje lagen och rörelse",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad är motkraften till fotens kraft på marken?</p>",
+  "familjNyckel": "newton3__tredje_lagen_och_rorelse",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Marken trycker foten framåt",
+      "ratt": true
+    },
+    {
+      "txt": "Benmusklerna trycker kroppen framåt",
+      "ratt": false,
+      "kommentar": "Inre krafter kan inte ge hela kroppen en acceleration."
+    },
+    {
+      "txt": "Tyngdkraften",
+      "ratt": false,
+      "kommentar": "Tyngdkraften är riktad nedåt."
+    },
+    {
+      "txt": "Luften trycker dig framåt",
+      "ratt": false,
+      "kommentar": "Luften bromsar snarare."
+    }
+  ]
+},
+{
+  "id": "4.824",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "fluga mot en vindruta",
+  "poang": "(1/0/0)",
+  "t": "<p>En fluga träffar vindrutan på en bil i hög fart. Vilket påstående om krafterna under krocken stämmer?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Flugan och bilen påverkar varandra med lika stora krafter. Flugan har mycket liten massa och får därför en enorm acceleration.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Krafterna är lika stora.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skilj på kraft och verkan. Vad avgör hur stor accelerationen blir?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Krafterna på flugan och bilen är lika stora",
+      "ratt": true
+    },
+    {
+      "txt": "Kraften på flugan är mycket större",
+      "ratt": false,
+      "kommentar": "Verkan är större på flugan, men krafterna är lika stora."
+    },
+    {
+      "txt": "Kraften på bilen är mycket större",
+      "ratt": false,
+      "kommentar": "Kraft och motkraft är lika stora."
+    },
+    {
+      "txt": "Bara flugan påverkas av en kraft",
+      "ratt": false,
+      "kommentar": "Flugan påverkar också bilen."
+    }
+  ]
+},
+{
+  "id": "4.825",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "hand som håller en mobil",
+  "poang": "(1/0/0)",
+  "t": "<p>Du håller en mobil i handen. Handen trycker mobilen uppåt med kraften 2 N. Vilken är motkraften?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Motkraften verkar på det andra föremålet, handen: mobilen trycker handen nedåt med 2 N.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mobilen trycker handen nedåt med 2 N.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Motkraften verkar på det föremål som utövar kraften.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Mobilen trycker handen nedåt med 2 N",
+      "ratt": true
+    },
+    {
+      "txt": "Tyngdkraften på mobilen",
+      "ratt": false,
+      "kommentar": "Den verkar också på mobilen och är inte motkraften."
+    },
+    {
+      "txt": "Handen trycker mobilen nedåt med 2 N",
+      "ratt": false,
+      "kommentar": "Riktning och föremål är fel."
+    },
+    {
+      "txt": "Jorden drar handen nedåt",
+      "ratt": false,
+      "kommentar": "Det är en annan kraft."
+    }
+  ]
+},
+{
+  "id": "4.826",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "satellit och jorden",
+  "poang": "(1/0/0)",
+  "t": "<p>Jorden drar en satellit med kraften 3 200 N. Hur stor kraft drar satelliten jorden med? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=3\\,200\\ \\mathrm N\\]</div></li><li><p>Kraften verkar på jorden, riktad mot satelliten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 200 N.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kraft och motkraft är lika stora.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3200,
+  "tolerans": 32.0,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.827",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "två skridskoåkare som knuffar varandra",
+  "poang": "(1/0/0)",
+  "t": "<p>Två barn står på skridskor och knuffar på varandra. Barn A påverkas av kraften 60 N. Hur stor kraft påverkas barn B av? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F_B=F_A=60\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 N, åt motsatt håll.</p></div>",
+  "familj": "Tredje lagen och rörelse",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Knuffarna är ett kraft–motkraftpar.</p>",
+  "familjNyckel": "newton3__tredje_lagen_och_rorelse",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 60,
+  "tolerans": 0.6,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.828",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "kraft och motkraft verkar på olika föremål",
+  "poang": "(1/0/0)",
+  "t": "<p>Vilket påstående om kraft och motkraft är rätt?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kraft och motkraft är lika stora, motriktade och verkar på två olika föremål. Därför tar de inte ut varandra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> De verkar på olika föremål.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Om A påverkar B, vem påverkas då av motkraften?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "De verkar på olika föremål",
+      "ratt": true
+    },
+    {
+      "txt": "De verkar på samma föremål och tar ut varandra",
+      "ratt": false,
+      "kommentar": "Då skulle inget föremål kunna accelerera."
+    },
+    {
+      "txt": "Motkraften är alltid lite mindre",
+      "ratt": false,
+      "kommentar": "Krafterna är exakt lika stora."
+    },
+    {
+      "txt": "Motkraften kommer en kort stund efter kraften",
+      "ratt": false,
+      "kommentar": "Krafterna verkar samtidigt."
+    }
+  ]
+},
+{
+  "id": "4.829",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "kraft och motkraft är av samma slag",
+  "poang": "(1/0/0)",
+  "t": "<p>Jorden drar ett äpple nedåt med gravitationskraft. Vilket slags kraft är motkraften?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kraft och motkraft är alltid av samma slag. Motkraften är äpplets gravitationskraft på jorden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En gravitationskraft på jorden.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kraft och motkraft är alltid av samma slag.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "En gravitationskraft från äpplet på jorden",
+      "ratt": true
+    },
+    {
+      "txt": "Normalkraften från marken på äpplet",
+      "ratt": false,
+      "kommentar": "Den verkar på äpplet och är en kontaktkraft."
+    },
+    {
+      "txt": "Luftmotståndet på äpplet",
+      "ratt": false,
+      "kommentar": "Det verkar på äpplet och är en annan sorts kraft."
+    },
+    {
+      "txt": "Det finns ingen motkraft",
+      "ratt": false,
+      "kommentar": "Varje kraft har en motkraft."
+    }
+  ]
+},
+{
+  "id": "4.830",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "boxare som slår en sandsäck",
+  "poang": "(1/0/0)",
+  "t": "<p>En boxare slår en sandsäck med kraften 900 N. Hur stor kraft påverkar sandsäcken handen med? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=900\\ \\mathrm N\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 900 N.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Det är därför det kan göra ont i handen.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 900,
+  "tolerans": 9.0,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.831",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "dragkamp, kraft i repet",
+  "poang": "(1/0/0)",
+  "t": "<p>I en dragkamp drar lag A i repet med kraften 500 N. Hur stor kraft drar repet i lag A med? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=500\\ \\mathrm N\\]</div></li><li><p>Repet drar i lag A med lika stor kraft, åt motsatt håll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 500 N.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Lag A och repet påverkar varandra.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 500,
+  "tolerans": 5.0,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.832",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "hoppa ur en båt",
+  "poang": "(1/0/0)",
+  "t": "<p>Elsa står i en liten roddbåt som ligger stilla. Hon hoppar framåt mot bryggan. Vad händer med båten?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Elsa trycker båten bakåt när hon hoppar framåt. Båten påverkas av motkraften och rör sig bakåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Båten rör sig bakåt.</p></div>",
+  "familj": "Tredje lagen och rörelse",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken kraft påverkar båten när Elsa trycker ifrån?</p>",
+  "familjNyckel": "newton3__tredje_lagen_och_rorelse",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Båten rör sig bakåt",
+      "ratt": true
+    },
+    {
+      "txt": "Båten rör sig framåt med Elsa",
+      "ratt": false,
+      "kommentar": "Elsa trycker båten bakåt."
+    },
+    {
+      "txt": "Båten ligger kvar helt stilla",
+      "ratt": false,
+      "kommentar": "Båten påverkas av en kraft och accelererar."
+    },
+    {
+      "txt": "Båten sjunker",
+      "ratt": false,
+      "kommentar": "Krafterna är främst vågräta."
+    }
+  ]
+},
+{
+  "id": "4.833",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "boll som studsar mot golvet",
+  "poang": "(1/0/0)",
+  "t": "<p>När en boll studsar trycker den mot golvet med kraften 40 N. Hur stor kraft trycker golvet bollen med? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=40\\ \\mathrm N\\]</div></li><li><p>Golvets kraft på bollen är riktad uppåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40 N uppåt.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kraft och motkraft är lika stora.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 40,
+  "tolerans": 0.4,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.834",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "välj pilen för motkraften",
+  "poang": "(1/0/0)",
+  "t": "<p>Kim knuffar en låda åt höger. Pilen F visar kraften från Kim på lådan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"200\" viewBox=\"0 0 420 200\" role=\"img\" aria-label=\"Kim till vänster rör vid en låda till höger. Pilen F pekar åt höger på lådan.\"><title>Kim till vänster rör vid en låda till höger. Pilen F pekar åt höger på lådan.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20\" y1=\"160\" x2=\"400\" y2=\"160\" stroke=\"#5b6773\" stroke-width=\"2\"/><line x1=\"200\" y1=\"66\" x2=\"200\" y2=\"80\" stroke=\"#216d87\" stroke-width=\"1.5\" stroke-dasharray=\"3 3\"/><rect x=\"80\" y=\"80\" width=\"120\" height=\"80\" rx=\"6\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"140.0\" y=\"126.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Kim</text><rect x=\"200\" y=\"80\" width=\"120\" height=\"80\" rx=\"6\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><text x=\"260.0\" y=\"126.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">låda</text><line x1=\"200.0\" y1=\"60.0\" x2=\"280.0\" y2=\"60.0\" stroke=\"#216d87\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"280.0,60.0 269.0,64.9 269.0,55.1\" fill=\"#216d87\"/><rect x=\"231.5\" y=\"33.0\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"240.0\" y=\"48.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">F</text></svg></span><p>Vilken är motkraften till F?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Motkraften verkar från lådan på Kim. Den är lika stor och riktad åt vänster.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lådan trycker Kim åt vänster med lika stor kraft.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Byt plats på föremålen: vem påverkar vem?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Lådan trycker Kim åt vänster med lika stor kraft",
+      "ratt": true
+    },
+    {
+      "txt": "Friktionen från golvet på lådan",
+      "ratt": false,
+      "kommentar": "Den verkar på lådan och är en annan kraft."
+    },
+    {
+      "txt": "Kim trycker lådan åt vänster",
+      "ratt": false,
+      "kommentar": "Föremålen ska byta plats."
+    },
+    {
+      "txt": "Lådan trycker Kim åt höger",
+      "ratt": false,
+      "kommentar": "Motkraften är motriktad."
+    }
+  ]
+},
+{
+  "id": "4.835",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "astronaut kastar ett verktyg",
+  "poang": "(1/0/0)",
+  "t": "<p>En astronaut svävar stilla i rymden och kastar en skiftnyckel åt vänster. Vad händer med astronauten?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skiftnyckeln trycker astronauten åt höger med en lika stor kraft. Astronauten börjar röra sig åt höger, men långsammare eftersom hen har större massa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Astronauten rör sig åt höger.</p></div>",
+  "familj": "Tredje lagen och rörelse",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken kraft verkar på astronauten under kastet?</p>",
+  "familjNyckel": "newton3__tredje_lagen_och_rorelse",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Astronauten rör sig åt höger",
+      "ratt": true
+    },
+    {
+      "txt": "Astronauten följer med åt vänster",
+      "ratt": false,
+      "kommentar": "Motkraften är riktad åt höger."
+    },
+    {
+      "txt": "Astronauten svävar kvar på samma plats",
+      "ratt": false,
+      "kommentar": "Astronauten påverkas av en kraft under kastet."
+    },
+    {
+      "txt": "Astronauten börjar snurra men flyttar sig inte",
+      "ratt": false,
+      "kommentar": "Kraften ger en förflyttning."
+    }
+  ]
+},
+{
+  "id": "4.836",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "E",
+  "typ": "skateboard och vägg",
+  "poang": "(1/0/0)",
+  "t": "<p>Ali står stilla på en skateboard vid en vägg och trycker mot väggen med händerna. Han börjar rulla bort från väggen. Vilken kraft får honom att rulla?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Väggen trycker tillbaka på Ali med en lika stor kraft, riktad bort från väggen. Det är den kraften som accelererar honom.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Väggens kraft på Ali.</p></div>",
+  "familj": "Tredje lagen och rörelse",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ali trycker på väggen. Vad gör väggen?</p>",
+  "familjNyckel": "newton3__tredje_lagen_och_rorelse",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Väggens kraft på Ali, bort från väggen",
+      "ratt": true
+    },
+    {
+      "txt": "Alis kraft på väggen",
+      "ratt": false,
+      "kommentar": "Den verkar på väggen, inte på Ali."
+    },
+    {
+      "txt": "Tyngdkraften",
+      "ratt": false,
+      "kommentar": "Den är lodrät."
+    },
+    {
+      "txt": "Skateboardens hjul",
+      "ratt": false,
+      "kommentar": "Hjulen gör att han kan rulla, men driver honom inte."
+    }
+  ]
 }
 ];

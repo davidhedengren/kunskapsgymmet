@@ -14529,5 +14529,260 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "numeriskt",
     "numeriskt"
   ]
+},
+{
+  "id": "4.396",
+  "kap": 4,
+  "omr": "linjar_regression",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "stark negativ korrelation ur punktdiagram",
+  "t": "<p>Vilket av punktdiagrammen visar en korrelationskoefficient nära \\(r=-0{,}9\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 190\" role=\"img\" aria-label=\"Tre punktdiagram. I A ligger punkterna nära en fallande linje, i B nära en stigande linje och i C är punkterna utspridda utan mönster.\" style=\"width:100%;max-width:480px\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"20\" width=\"140\" height=\"140\" fill=\"#f8fafc\" stroke=\"#c9d3de\"/><circle cx=\"36.0\" cy=\"55.0\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"46.8\" cy=\"65.6\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"57.6\" cy=\"66.5\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"68.4\" cy=\"83.0\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"79.2\" cy=\"84.4\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"90.0\" cy=\"94.9\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"100.8\" cy=\"107.5\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"111.6\" cy=\"109.1\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"122.4\" cy=\"124.0\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"133.2\" cy=\"126.4\" r=\"3.5\" fill=\"#2f6fca\"/><text x=\"90.0\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">A</text><rect x=\"175\" y=\"20\" width=\"140\" height=\"140\" fill=\"#f8fafc\" stroke=\"#c9d3de\"/><circle cx=\"191.0\" cy=\"134.0\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"201.8\" cy=\"126.1\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"212.6\" cy=\"113.8\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"223.4\" cy=\"100.4\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"234.2\" cy=\"103.0\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"245.0\" cy=\"94.0\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"255.8\" cy=\"80.6\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"266.6\" cy=\"68.4\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"277.4\" cy=\"66.2\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"288.2\" cy=\"61.2\" r=\"3.5\" fill=\"#2f6fca\"/><text x=\"245.0\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">B</text><rect x=\"330\" y=\"20\" width=\"140\" height=\"140\" fill=\"#f8fafc\" stroke=\"#c9d3de\"/><circle cx=\"451.4\" cy=\"133.5\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"438.7\" cy=\"110.2\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"361.6\" cy=\"126.7\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"379.3\" cy=\"59.7\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"365.5\" cy=\"82.2\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"415.0\" cy=\"102.2\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"405.2\" cy=\"132.0\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"352.4\" cy=\"118.2\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"419.5\" cy=\"97.0\" r=\"3.5\" fill=\"#2f6fca\"/><circle cx=\"379.9\" cy=\"81.8\" r=\"3.5\" fill=\"#2f6fca\"/><text x=\"400.0\" y=\"180\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" text-anchor=\"middle\" fill=\"#172b3a\">C</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(r\\) nära \\(-1\\) betyder att punkterna ligger nära en fallande rät linje. Det gäller A (\\(r\\approx-0{,}99\\)).</p><p>B har stark positiv korrelation och C nästan ingen korrelation.</p></div>",
+  "familj": "Korrelation och avvikande värden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad betyder tecknet på r? Vad betyder ett värde nära ±1?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A",
+      "ratt": true,
+      "kommentar": "Punkterna ligger nära en fallande linje."
+    },
+    {
+      "txt": "B",
+      "ratt": false,
+      "kommentar": "B har stark positiv korrelation, r nära +1."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "C har svag korrelation, r nära 0."
+    }
+  ]
+},
+{
+  "id": "4.397",
+  "kap": 4,
+  "omr": "linjar_regression",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "svag korrelation",
+  "t": "<p>En undersökning ger korrelationskoefficienten \\(r=0{,}12\\) mellan antal timmar sömn och resultatet på ett prov. Vad betyder det? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(r=0{,}12\\) ligger nära 0. Det finns bara ett mycket svagt linjärt samband, och en linjär modell förklarar nästan ingenting av variationen.</p></div>",
+  "familj": "Korrelation och avvikande värden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur nära 0 eller ±1 är r?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Det finns nästan inget linjärt samband.",
+      "ratt": true,
+      "kommentar": "r nära 0 betyder svag linjär korrelation."
+    },
+    {
+      "txt": "Mer sömn ger 12 % bättre resultat.",
+      "ratt": false,
+      "kommentar": "r är inget mått på hur mycket y ökar."
+    },
+    {
+      "txt": "Det finns ett starkt positivt samband.",
+      "ratt": false,
+      "kommentar": "Ett starkt samband ger r nära 1."
+    },
+    {
+      "txt": "Sömn påverkar inte provresultatet alls.",
+      "ratt": false,
+      "kommentar": "r mäter bara linjärt samband i datan, inte orsak eller verkan."
+    }
+  ]
+},
+{
+  "id": "4.398",
+  "kap": 4,
+  "omr": "linjar_regression",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "korrelation och orsak",
+  "t": "<p>Under ett år finns en stark positiv korrelation mellan glassförsäljning och antalet drunkningsolyckor. Vilken slutsats är rimligast? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Korrelation betyder inte att det ena orsakar det andra. Här styrs båda troligen av en tredje faktor: varmt väder, som både ökar glassköpen och badandet.</p></div>",
+  "familj": "Korrelation och avvikande värden",
+  "formaga": [
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kan något tredje påverka båda storheterna?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Båda beror troligen på en tredje faktor, till exempel varmt väder.",
+      "ratt": true,
+      "kommentar": "Det kallas en bakomliggande variabel."
+    },
+    {
+      "txt": "Glass orsakar drunkningsolyckor.",
+      "ratt": false,
+      "kommentar": "Korrelation visar inte orsak."
+    },
+    {
+      "txt": "Drunkningsolyckor ökar glassförsäljningen.",
+      "ratt": false,
+      "kommentar": "Korrelation visar inte orsak."
+    },
+    {
+      "txt": "Sambandet måste vara slumpmässigt.",
+      "ratt": false,
+      "kommentar": "Ett starkt samband under ett helt år är knappast slump."
+    }
+  ]
+},
+{
+  "id": "4.399",
+  "kap": 4,
+  "omr": "linjar_regression",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "avvikande värde och lutning",
+  "t": "<p>Den streckade linjen är regressionslinjen för alla sex punkter. Hur ändras linjens lutning om den avvikande punkten \\((6,\\,25)\\) tas bort? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 320\" role=\"img\" aria-label=\"Punktdiagram med fem punkter nära en rät linje och en sjätte punkt (6, 25) som ligger långt ovanför. En streckad regressionslinje för alla sex punkter är ritad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"95.1\" y1=\"22\" x2=\"95.1\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"142.3\" y1=\"22\" x2=\"142.3\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"189.4\" y1=\"22\" x2=\"189.4\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"236.6\" y1=\"22\" x2=\"236.6\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"283.7\" y1=\"22\" x2=\"283.7\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"330.9\" y1=\"22\" x2=\"330.9\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"378\" y2=\"278.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"259.7\" x2=\"378\" y2=\"259.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"241.4\" x2=\"378\" y2=\"241.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"223.1\" x2=\"378\" y2=\"223.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"204.9\" x2=\"378\" y2=\"204.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"186.6\" x2=\"378\" y2=\"186.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"168.3\" x2=\"378\" y2=\"168.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"150.0\" x2=\"378\" y2=\"150.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"131.7\" x2=\"378\" y2=\"131.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"113.4\" x2=\"378\" y2=\"113.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"95.1\" x2=\"378\" y2=\"95.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"76.9\" x2=\"378\" y2=\"76.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"58.6\" x2=\"378\" y2=\"58.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"40.3\" x2=\"378\" y2=\"40.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"378\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"388\" y2=\"278.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,278.0 382,273.0 382,283.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"278\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"390\" y=\"269.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"95.1\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"142.3\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"189.4\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"236.6\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"283.7\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"330.9\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"378.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><text x=\"42.0\" y=\"245.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"208.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"42.0\" y=\"172.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">12</text><text x=\"42.0\" y=\"135.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">16</text><text x=\"42.0\" y=\"99.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">20</text><text x=\"42.0\" y=\"62.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">24</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">28</text><text x=\"42.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k51653a5c\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"256\"/></clipPath><polyline clip-path=\"url(#k51653a5c)\" points=\"48.0,305.0 48.8,304.4 49.6,303.8 50.5,303.2 51.3,302.6 52.1,302.0 53.0,301.4 53.8,300.9 54.6,300.3 55.4,299.7 56.2,299.1 57.1,298.5 57.9,297.9 58.7,297.3 59.5,296.7 60.4,296.1 61.2,295.5 62.0,294.9 62.9,294.3 63.7,293.7 64.5,293.1 65.3,292.6 66.2,292.0 67.0,291.4 67.8,290.8 68.6,290.2 69.5,289.6 70.3,289.0 71.1,288.4 71.9,287.8 72.8,287.2 73.6,286.6 74.4,286.0 75.2,285.4 76.0,284.8 76.9,284.2 77.7,283.7 78.5,283.1 79.3,282.5 80.2,281.9 81.0,281.3 81.8,280.7 82.7,280.1 83.5,279.5 84.3,278.9 85.1,278.3 86.0,277.7 86.8,277.1 87.6,276.5 88.4,275.9 89.2,275.4 90.1,274.8 90.9,274.2 91.7,273.6 92.5,273.0 93.4,272.4 94.2,271.8 95.0,271.2 95.8,270.6 96.7,270.0 97.5,269.4 98.3,268.8 99.2,268.2 100.0,267.6 100.8,267.1 101.6,266.5 102.5,265.9 103.3,265.3 104.1,264.7 104.9,264.1 105.8,263.5 106.6,262.9 107.4,262.3 108.2,261.7 109.0,261.1 109.9,260.5 110.7,259.9 111.5,259.3 112.4,258.8 113.2,258.2 114.0,257.6 114.8,257.0 115.7,256.4 116.5,255.8 117.3,255.2 118.1,254.6 119.0,254.0 119.8,253.4 120.6,252.8 121.4,252.2 122.2,251.6 123.1,251.0 123.9,250.5 124.7,249.9 125.6,249.3 126.4,248.7 127.2,248.1 128.0,247.5 128.9,246.9 129.7,246.3 130.5,245.7 131.3,245.1 132.2,244.5 133.0,243.9 133.8,243.3 134.6,242.7 135.4,242.2 136.3,241.6 137.1,241.0 137.9,240.4 138.8,239.8 139.6,239.2 140.4,238.6 141.2,238.0 142.1,237.4 142.9,236.8 143.7,236.2 144.5,235.6 145.3,235.0 146.2,234.4 147.0,233.9 147.8,233.3 148.6,232.7 149.5,232.1 150.3,231.5 151.1,230.9 151.9,230.3 152.8,229.7 153.6,229.1 154.4,228.5 155.2,227.9 156.1,227.3 156.9,226.7 157.7,226.1 158.6,225.6 159.4,225.0 160.2,224.4 161.0,223.8 161.9,223.2 162.7,222.6 163.5,222.0 164.3,221.4 165.1,220.8 166.0,220.2 166.8,219.6 167.6,219.0 168.5,218.4 169.3,217.8 170.1,217.3 170.9,216.7 171.8,216.1 172.6,215.5 173.4,214.9 174.2,214.3 175.0,213.7 175.9,213.1 176.7,212.5 177.5,211.9 178.3,211.3 179.2,210.7 180.0,210.1 180.8,209.5 181.6,208.9 182.5,208.4 183.3,207.8 184.1,207.2 184.9,206.6 185.8,206.0 186.6,205.4 187.4,204.8 188.2,204.2 189.1,203.6 189.9,203.0 190.7,202.4 191.6,201.8 192.4,201.2 193.2,200.6 194.0,200.1 194.8,199.5 195.7,198.9 196.5,198.3 197.3,197.7 198.2,197.1 199.0,196.5 199.8,195.9 200.6,195.3 201.4,194.7 202.3,194.1 203.1,193.5 203.9,192.9 204.8,192.3 205.6,191.8 206.4,191.2 207.2,190.6 208.0,190.0 208.9,189.4 209.7,188.8 210.5,188.2 211.3,187.6 212.2,187.0 213.0,186.4 213.8,185.8 214.7,185.2 215.5,184.6 216.3,184.0 217.1,183.5 218.0,182.9 218.8,182.3 219.6,181.7 220.4,181.1 221.2,180.5 222.1,179.9 222.9,179.3 223.7,178.7 224.6,178.1 225.4,177.5 226.2,176.9 227.0,176.3 227.9,175.7 228.7,175.2 229.5,174.6 230.3,174.0 231.1,173.4 232.0,172.8 232.8,172.2 233.6,171.6 234.5,171.0 235.3,170.4 236.1,169.8 236.9,169.2 237.8,168.6 238.6,168.0 239.4,167.4 240.2,166.9 241.0,166.3 241.9,165.7 242.7,165.1 243.5,164.5 244.3,163.9 245.2,163.3 246.0,162.7 246.8,162.1 247.7,161.5 248.5,160.9 249.3,160.3 250.1,159.7 250.9,159.1 251.8,158.6 252.6,158.0 253.4,157.4 254.2,156.8 255.1,156.2 255.9,155.6 256.7,155.0 257.6,154.4 258.4,153.8 259.2,153.2 260.0,152.6 260.8,152.0 261.7,151.4 262.5,150.8 263.3,150.3 264.1,149.7 265.0,149.1 265.8,148.5 266.6,147.9 267.5,147.3 268.3,146.7 269.1,146.1 269.9,145.5 270.8,144.9 271.6,144.3 272.4,143.7 273.2,143.1 274.0,142.5 274.9,142.0 275.7,141.4 276.5,140.8 277.4,140.2 278.2,139.6 279.0,139.0 279.8,138.4 280.6,137.8 281.5,137.2 282.3,136.6 283.1,136.0 283.9,135.4 284.8,134.8 285.6,134.2 286.4,133.6 287.2,133.1 288.1,132.5 288.9,131.9 289.7,131.3 290.5,130.7 291.4,130.1 292.2,129.5 293.0,128.9 293.9,128.3 294.7,127.7 295.5,127.1 296.3,126.5 297.1,125.9 298.0,125.3 298.8,124.8 299.6,124.2 300.5,123.6 301.3,123.0 302.1,122.4 302.9,121.8 303.8,121.2 304.6,120.6 305.4,120.0 306.2,119.4 307.1,118.8 307.9,118.2 308.7,117.6 309.5,117.0 310.4,116.5 311.2,115.9 312.0,115.3 312.8,114.7 313.6,114.1 314.5,113.5 315.3,112.9 316.1,112.3 317.0,111.7 317.8,111.1 318.6,110.5 319.4,109.9 320.2,109.3 321.1,108.7 321.9,108.2 322.7,107.6 323.6,107.0 324.4,106.4 325.2,105.8 326.0,105.2 326.8,104.6 327.7,104.0 328.5,103.4 329.3,102.8 330.2,102.2 331.0,101.6 331.8,101.0 332.6,100.4 333.4,99.9 334.3,99.3 335.1,98.7 335.9,98.1 336.8,97.5 337.6,96.9 338.4,96.3 339.2,95.7 340.1,95.1 340.9,94.5 341.7,93.9 342.5,93.3 343.3,92.7 344.2,92.1 345.0,91.6 345.8,91.0 346.7,90.4 347.5,89.8 348.3,89.2 349.1,88.6 349.9,88.0 350.8,87.4 351.6,86.8 352.4,86.2 353.2,85.6 354.1,85.0 354.9,84.4 355.7,83.8 356.5,83.3 357.4,82.7 358.2,82.1 359.0,81.5 359.9,80.9 360.7,80.3 361.5,79.7 362.3,79.1 363.1,78.5 364.0,77.9 364.8,77.3 365.6,76.7 366.4,76.1 367.3,75.5 368.1,75.0 368.9,74.4 369.8,73.8 370.6,73.2 371.4,72.6 372.2,72.0 373.1,71.4 373.9,70.8 374.7,70.2 375.5,69.6 376.4,69.0 377.2,68.4 378.0,67.8\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><circle cx=\"95.1\" cy=\"249.7\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"142.3\" cy=\"233.2\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"189.4\" cy=\"212.2\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"236.6\" cy=\"197.5\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"283.7\" cy=\"176.5\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"330.9\" cy=\"49.4\" r=\"5\" fill=\"#172b3a\"/><text x=\"272.9\" y=\"53.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">(6, 25)</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Den avvikande punkten ligger långt ovanför de andra och drar upp linjen i höger ände. Med alla sex punkter är \\(k\\approx3{,}7\\), utan den är \\(k\\approx2{,}0\\).</p><p>Lutningen blir alltså mindre. Ett enda avvikande värde kan påverka modellen kraftigt.</p></div>",
+  "familj": "Korrelation och avvikande värden",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Drar den avvikande punkten linjen uppåt eller nedåt i högra änden?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Lutningen blir mindre.",
+      "ratt": true,
+      "kommentar": "Punkten drog upp linjens högra ände."
+    },
+    {
+      "txt": "Lutningen blir större.",
+      "ratt": false,
+      "kommentar": "Punkten ligger ovanför trenden längst till höger och ökar lutningen."
+    },
+    {
+      "txt": "Lutningen ändras inte.",
+      "ratt": false,
+      "kommentar": "En punkt långt från trenden påverkar regressionslinjen."
+    },
+    {
+      "txt": "Linjen blir fallande.",
+      "ratt": false,
+      "kommentar": "De övriga punkterna visar ett tydligt stigande samband."
+    }
+  ]
+},
+{
+  "id": "4.400",
+  "kap": 4,
+  "omr": "linjar_regression",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "lutning med GeoGebra",
+  "t": "<p>Gör en linjär regression med GeoGebra för datan i tabellen. Bestäm riktningskoefficienten \\(k\\). (Svara med två decimaler.)</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:center\"><thead><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th><th scope=\"col\">7</th><th scope=\"col\">8</th></tr></thead><tbody><tr><td>\\(y\\)</td><td>14,2</td><td>16,1</td><td>18,5</td><td>20,1</td><td>22,4</td><td>24,6</td><td>26,3</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2\"><p>GeoGebras linjära regression ger \\(y\\approx2{,}04x+10{,}10\\), alltså \\(k\\approx2{,}04\\).</p><p>\\(y\\) ökar med ungefär 2 enheter när \\(x\\) ökar med 1.</p></div>",
+  "familj": "Korrelation och avvikande värden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv in datan i GeoGebras statistikverktyg och välj linjär regression.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 2.04,
+  "tolerans": 0.005,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.401",
+  "kap": 4,
+  "omr": "linjar_regression",
+  "kurs": [
+    "2b",
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "korrelationskoefficient med GeoGebra",
+  "t": "<p>Bestäm korrelationskoefficienten \\(r\\) för datan i tabellen med GeoGebra. (Svara med tre decimaler.)</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:center\"><thead><tr><th scope=\"col\">\\(x\\)</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th><th scope=\"col\">7</th><th scope=\"col\">8</th></tr></thead><tbody><tr><td>\\(y\\)</td><td>14,2</td><td>16,1</td><td>18,5</td><td>20,1</td><td>22,4</td><td>24,6</td><td>26,3</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2\"><p>GeoGebra ger \\(r\\approx0{,}999\\). Värdet är mycket nära 1, så sambandet är starkt, positivt och nästan linjärt.</p></div>",
+  "familj": "Korrelation och avvikande värden",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>I GeoGebras statistikverktyg (Tvåvariabelanalys) visas r bland statistiken.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.999,
+  "tolerans": 0.0005,
+  "svarFormat": "numeriskt"
 }
 ];

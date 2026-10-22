@@ -101086,5 +101086,280 @@ window.BANKMATO2 = [
   "rättSvar": 3,
   "tolerans": 0,
   "svarFormat": "numeriskt"
+},
+{
+  "id": "4.608",
+  "kap": 5,
+  "omr": "de_moivre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "potens på enhetscirkeln",
+  "t": "<p>Beräkna realdelen av \\((\\cos20^\\circ+i\\sin20^\\circ)^3\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>de Moivres formel: \\((\\cos20^\\circ+i\\sin20^\\circ)^3=\\cos60^\\circ+i\\sin60^\\circ\\).</p><p>Realdelen är \\(\\cos60^\\circ=0{,}5\\).</p></div>",
+  "familj": "Potenser i polär form och i talplanet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera argumentet med exponenten.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.5,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.609",
+  "kap": 5,
+  "omr": "de_moivre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "(1 + i)⁴",
+  "t": "<p>Beräkna \\((1+i)^4\\) med de Moivres formel. (Ange realdel och imaginärdel.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(1+i=\\sqrt2(\\cos45^\\circ+i\\sin45^\\circ)\\). Då är \\((1+i)^4=(\\sqrt2)^4(\\cos180^\\circ+i\\sin180^\\circ)=4\\cdot(-1)=-4\\).</p></div>",
+  "familj": "Potenser i polär form och i talplanet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv 1 + i i polär form först.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -4,
+    0
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "realdel",
+    "imaginärdel"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.610",
+  "kap": 5,
+  "omr": "de_moivre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "(√3 + i)⁶",
+  "t": "<p>Beräkna \\((\\sqrt3+i)^6\\). (Ange realdel och imaginärdel.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(|\\sqrt3+i|=2\\) och argumentet är \\(30^\\circ\\). Då är \\((\\sqrt3+i)^6=2^6(\\cos180^\\circ+i\\sin180^\\circ)=-64\\).</p></div>",
+  "familj": "Potenser i polär form och i talplanet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm belopp och argument för √3 + i.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -64,
+    0
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "realdel",
+    "imaginärdel"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.611",
+  "kap": 5,
+  "omr": "de_moivre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "beloppet av en potens",
+  "t": "<p>Bestäm \\(|(1+2i)^5|\\). (Svara med en decimal.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(|z^n|=|z|^n\\). \\(|1+2i|=\\sqrt5\\), så \\(|(1+2i)^5|=(\\sqrt5)^5=25\\sqrt5\\approx55{,}9\\).</p></div>",
+  "familj": "Potenser i polär form och i talplanet",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beloppet av en potens är beloppet upphöjt till exponenten.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 55.9,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.612",
+  "kap": 5,
+  "omr": "de_moivre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "minsta n som ger 1",
+  "t": "<p>Bestäm det minsta positiva heltalet \\(n\\) sådant att \\((\\cos45^\\circ+i\\sin45^\\circ)^n=1\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>\\((\\cos45^\\circ+i\\sin45^\\circ)^n=\\cos(45n)^\\circ+i\\sin(45n)^\\circ\\). Det är 1 när \\(45n\\) är en multipel av \\(360\\).</p><p>Det minsta positiva \\(n\\) är \\(n=8\\).</p></div>",
+  "familj": "Potenser i polär form och i talplanet",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>När blir argumentet ett helt antal varv?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.613",
+  "kap": 5,
+  "omr": "de_moivre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "z³ på enhetscirkeln",
+  "t": "<p>Figuren visar talet \\(z\\) på enhetscirkeln med argumentet \\(40^\\circ\\). Vilken punkt motsvarar \\(z^3\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 360\" role=\"img\" aria-label=\"Enhetscirkeln med pilen z i vinkeln 40 grader och fyra markerade punkter A, B, C och D på cirkeln.\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"84.2\" y1=\"22\" x2=\"84.2\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"120.5\" y1=\"22\" x2=\"120.5\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"156.8\" y1=\"22\" x2=\"156.8\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"193.0\" y1=\"22\" x2=\"193.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"229.2\" y1=\"22\" x2=\"229.2\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"265.5\" y1=\"22\" x2=\"265.5\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"301.8\" y1=\"22\" x2=\"301.8\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"338.0\" y1=\"22\" x2=\"338.0\" y2=\"318\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"318.0\" x2=\"338\" y2=\"318.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"281.0\" x2=\"338\" y2=\"281.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"244.0\" x2=\"338\" y2=\"244.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"207.0\" x2=\"338\" y2=\"207.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"170.0\" x2=\"338\" y2=\"170.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"133.0\" x2=\"338\" y2=\"133.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"96.0\" x2=\"338\" y2=\"96.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"59.0\" x2=\"338\" y2=\"59.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"338\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"170.0\" x2=\"348\" y2=\"170.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"352,170.0 342,165.0 342,175.0\" fill=\"#172b3a\"/><line x1=\"193.0\" y1=\"318\" x2=\"193.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"193.0,8 188.0,18 198.0,18\" fill=\"#172b3a\"/><text x=\"350\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"201.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"120.5\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"265.5\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"338.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"187.0\" y=\"322.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"187.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"187.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"187.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"187.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><ellipse cx=\"193.0\" cy=\"170.0\" rx=\"72.5\" ry=\"74.0\" fill=\"none\" stroke=\"#8a96a3\" stroke-width=\"1.5\"/><clipPath id=\"kd5321945\"><rect x=\"48\" y=\"22\" width=\"290\" height=\"296\"/></clipPath><circle cx=\"156.8\" cy=\"105.9\" r=\"5\" fill=\"#172b3a\"/><text x=\"138.8\" y=\"99.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">A</text><circle cx=\"229.2\" cy=\"105.9\" r=\"5\" fill=\"#172b3a\"/><text x=\"237.2\" y=\"99.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">B</text><circle cx=\"205.6\" cy=\"97.1\" r=\"5\" fill=\"#172b3a\"/><text x=\"213.6\" y=\"91.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">C</text><circle cx=\"156.7\" cy=\"234.1\" r=\"5\" fill=\"#172b3a\"/><text x=\"138.7\" y=\"228.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">D</text><line x1=\"193.0\" y1=\"170.0\" x2=\"238.7\" y2=\"130.9\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polygon points=\"248.5,122.4 242.6,135.4 234.8,126.3\" fill=\"#2f6fca\"/><text x=\"232.9\" y=\"155.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" font-style=\"italic\" fill=\"#2f6fca\">z</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(|z^3|=1\\) och \\(\\arg z^3=3\\cdot40^\\circ=120^\\circ\\). Punkten A ligger på enhetscirkeln i vinkeln \\(120^\\circ\\).</p></div>",
+  "familj": "Potenser i polär form och i talplanet",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Multiplicera argumentet med 3.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A",
+      "ratt": true,
+      "kommentar": "Argumentet 120°."
+    },
+    {
+      "txt": "B",
+      "ratt": false,
+      "kommentar": "B har argumentet 60°, alltså z²."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "C har argumentet 80°."
+    },
+    {
+      "txt": "D",
+      "ratt": false,
+      "kommentar": "D har argumentet 240°, alltså z⁶."
+    }
+  ]
+},
+{
+  "id": "4.614",
+  "kap": 5,
+  "omr": "de_moivre",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "formel för dubbla vinkeln",
+  "t": "<p>Utveckla \\((\\cos v+i\\sin v)^2\\) och jämför med de Moivres formel. Vilken formel får man när man jämför realdelarna? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Utveckling: \\((\\cos v+i\\sin v)^2=\\cos^2v-\\sin^2v+2i\\sin v\\cos v\\).</p><p>de Moivre: \\((\\cos v+i\\sin v)^2=\\cos2v+i\\sin2v\\). Realdelarna ger \\(\\cos2v=\\cos^2v-\\sin^2v\\).</p></div>",
+  "familj": "Potenser i polär form och i talplanet",
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Kvadrera binomet. Kom ihåg att i² = −1.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(\\cos2v=\\cos^2v-\\sin^2v\\)",
+      "ratt": true,
+      "kommentar": "Realdelarna i båda uttrycken."
+    },
+    {
+      "txt": "\\(\\cos2v=2\\cos v\\)",
+      "ratt": false,
+      "kommentar": "Cosinus är inte linjär."
+    },
+    {
+      "txt": "\\(\\sin2v=2\\sin v\\cos v\\)",
+      "ratt": false,
+      "kommentar": "Den formeln får man från imaginärdelarna."
+    },
+    {
+      "txt": "\\(\\cos2v=\\cos^2v+\\sin^2v\\)",
+      "ratt": false,
+      "kommentar": "Det är lika med 1. Tecknet ska vara minus, eftersom i² = −1."
+    }
+  ]
 }
 ];

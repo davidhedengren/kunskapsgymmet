@@ -147020,5 +147020,183 @@ window.BANKMA1 = [
   "rättSvar": 3310,
   "tolerans": 0,
   "svarFormat": "numeriskt"
+},
+{
+  "id": "4.598",
+  "kap": 4,
+  "omr": "kvadratrotter",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "stege mot en vägg",
+  "t": "<p>En 5,0 m lång stege står mot en lodrät vägg. Stegens fot står 1,4 m från väggen. Hur högt upp på väggen når stegen? (Svara i m med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 240\" role=\"img\" aria-label=\"En stege lutad mot en lodrät vägg. Stegen är 5,0 m lång och dess fot står 1,4 m från väggen. Höjden h längs väggen är okänd.\" style=\"width:100%;max-width:320px\"><rect x=\"1\" y=\"1\" width=\"318\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"200\" y=\"20\" width=\"16\" height=\"190\" fill=\"#e6dccb\" stroke=\"#172b3a\"/><line x1=\"40\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"148\" y1=\"210\" x2=\"200\" y2=\"30\" stroke=\"#d9622b\" stroke-width=\"6\" stroke-linecap=\"round\"/><polyline points=\"188,210 188,198 200,198\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"170.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">1,4 m</text><text x=\"160.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#d9622b\" text-anchor=\"end\">5,0 m</text><text x=\"228.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172b3a\" text-anchor=\"start\">h</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Stegen, väggen och marken bildar en rätvinklig triangel där stegen är hypotenusan.</p><p>\\(h^2+1{,}4^2=5{,}0^2\\) ger \\(h^2=25-1{,}96=23{,}04\\) och \\(h=\\sqrt{23{,}04}=4{,}80\\) m.</p></div>",
+  "familj": "Pythagoras och kvadratrötter i arbetslivet",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken sida är hypotenusan? Använd Pythagoras sats.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 4.8,
+  "tolerans": 0.005,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m"
+},
+{
+  "id": "4.599",
+  "kap": 4,
+  "omr": "kvadratrotter",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "kontrollera rät vinkel på bygget",
+  "t": "<p>En snickare vill kontrollera att ett hörn är rätvinkligt. Hon mäter 1,2 m längs den ena väggen och 1,6 m längs den andra. Hur långt ska avståndet mellan mätpunkterna vara om hörnet är rätvinkligt? (Svara i m.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 240\" role=\"img\" aria-label=\"En rätvinklig triangel i ett hörn. Kateterna är 1,2 m och 1,6 m. Avståndet mellan ändpunkterna är okänt.\" style=\"width:100%;max-width:300px\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60,200 60,60 240,200\" fill=\"#f3ede2\" stroke=\"#172b3a\" stroke-width=\"2\"/><polyline points=\"74,200 74,186 60,186\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"52.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"end\">1,2 m</text><text x=\"150.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">1,6 m</text><text x=\"162.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#d9622b\" text-anchor=\"start\">?</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\sqrt{1{,}2^2+1{,}6^2}=\\sqrt{1{,}44+2{,}56}=\\sqrt{4}=2{,}0\\) m.</p><p>Det är samma sak som 3–4–5-regeln, skalad med 0,4.</p></div>",
+  "familj": "Pythagoras och kvadratrötter i arbetslivet",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beräkna hypotenusan med Pythagoras sats.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 2.0,
+  "tolerans": 0.005,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m"
+},
+{
+  "id": "4.600",
+  "kap": 4,
+  "omr": "kvadratrotter",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "diagonal på en tv-skärm",
+  "t": "<p>En tv-skärm är 121 cm bred och 68 cm hög. Hur lång är diagonalen? (Svara i hela cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 330 200\" role=\"img\" aria-label=\"En rektangulär tv-skärm, 121 cm bred och 68 cm hög, med en streckad diagonal.\" style=\"width:100%;max-width:330px\"><rect x=\"1\" y=\"1\" width=\"328\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"50\" y=\"40\" width=\"220\" height=\"124\" rx=\"4\" fill=\"#2b3440\" stroke=\"#172b3a\" stroke-width=\"3\"/><line x1=\"50\" y1=\"164\" x2=\"270\" y2=\"40\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"160.0\" y=\"186.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">121 cm</text><text x=\"282.0\" y=\"106.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"start\">68 cm</text><text x=\"150.0\" y=\"92.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#d9622b\" text-anchor=\"middle\">diagonal</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(d=\\sqrt{121^2+68^2}=\\sqrt{14\\,641+4\\,624}=\\sqrt{19\\,265}\\approx139\\) cm.</p><p>Det motsvarar ungefär 55 tum, eftersom 1 tum = 2,54 cm.</p></div>",
+  "familj": "Pythagoras och kvadratrötter i arbetslivet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Diagonalen är hypotenusan i en rätvinklig triangel.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 139,
+  "tolerans": 0.5,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm"
+},
+{
+  "id": "4.601",
+  "kap": 4,
+  "omr": "kvadratrotter",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "takstolens längd",
+  "t": "<p>Ett hustak är 8,0 m brett och nocken ligger 1,5 m över takfoten (se figuren). Hur lång måste en takstol från takfoten till nocken vara? (Svara i m med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 205\" role=\"img\" aria-label=\"Ett tak i genomskärning: en likbent triangel som är 8,0 m bred. Från mitten går en streckad höjd på 1,5 m upp till nocken. Halva bredden, 4,0 m, är markerad.\" style=\"width:100%;max-width:340px\"><rect x=\"1\" y=\"1\" width=\"338\" height=\"203\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40,170 300,170 170,90\" fill=\"#f3e3cf\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"170\" y1=\"90\" x2=\"170\" y2=\"170\" stroke=\"#9aa7b4\" stroke-dasharray=\"5 4\"/><polyline points=\"180,170 180,160 170,160\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"105.0\" y=\"188.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"middle\">4,0 m</text><text x=\"178.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172b3a\" text-anchor=\"start\">1,5 m</text><text x=\"96.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#d9622b\" text-anchor=\"end\">takstol</text><line x1=\"100\" y1=\"124\" x2=\"110\" y2=\"132\" stroke=\"#d9622b\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Takstolen är hypotenusan i en rätvinklig triangel med kateterna 4,0 m (halva bredden) och 1,5 m.</p><p>\\(\\sqrt{4{,}0^2+1{,}5^2}=\\sqrt{18{,}25}\\approx4{,}27\\) m.</p></div>",
+  "familj": "Pythagoras och kvadratrötter i arbetslivet",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd halva takets bredd som ena kateten.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 4.27,
+  "tolerans": 0.005,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m"
+},
+{
+  "id": "4.602",
+  "kap": 4,
+  "omr": "kvadratrotter",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "radie ur area",
+  "t": "<p>En rund bordsskiva ska ha arean 1,13 m². Vilken radie ska skivan ha? (Svara i m med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\pi r^2=1{,}13\\) ger \\(r^2=\\dfrac{1{,}13}{\\pi}\\approx0{,}360\\) och \\(r=\\sqrt{0{,}360}\\approx0{,}60\\) m.</p></div>",
+  "familj": "Pythagoras och kvadratrötter i arbetslivet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Lös ut r² ur formeln för cirkelns area och dra roten ur.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.6,
+  "tolerans": 0.005,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m"
+},
+{
+  "id": "4.603",
+  "kap": 4,
+  "omr": "kvadratrotter",
+  "kurs": [
+    "1a"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "kvadratens sida ur diagonalen",
+  "t": "<p>Diagonalen i ett kvadratiskt golv är 8,5 m. Hur lång är en sida? (Svara i m med en decimal.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Med sidan \\(x\\) ger Pythagoras sats \\(x^2+x^2=8{,}5^2\\), alltså \\(2x^2=72{,}25\\).</p><p>\\(x^2=36{,}125\\) och \\(x=\\sqrt{36{,}125}\\approx6{,}0\\) m.</p></div>",
+  "familj": "Pythagoras och kvadratrötter i arbetslivet",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Båda kateterna är lika långa. Kalla dem x.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 6.0,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m"
 }
 ];

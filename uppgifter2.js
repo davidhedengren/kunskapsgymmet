@@ -23096,280 +23096,475 @@ window.BANK2 = [
       "Astronomisk avståndsmätning"
     ]
   },
-  {
-    "id": "5.30",
-    "kap": 5,
-    "omr": "magnituder",
-    "niva": "E",
-    "poang": "(2/0/0)",
-    "typ": "beräkna luminositet från absolut magnitud, ur text, sökt luminositet",
-    "t": "<p>En stjärna har den absoluta magnituden M = +0,58. Beräkna dess luminositet a) i enheter av solens luminositet och b) i watt.</p><p>Solens absoluta bolometriska magnitud är +4,74 och luminositeten 3,828·10<sup>26</sup> W.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Magnituderna avser här den totala strålningen.</p></li><li><p>Använd samma bolometriska magnitudskala i alla steg.</p></li><li><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=10^{-0{,}4(M-M_{\\odot,\\mathrm{bol}})}=10^{-0{,}4(0{,}58-4{,}74)}\\approx46{,}1\\]</div></li><li><div class=\"facit-matte\">\\[L=46{,}1\\cdot3{,}828\\cdot10^{26}\\approx177\\cdot10^{26}\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(46{,}1L_\\odot\\). b) \\(1{,}77\\cdot10^{28}\\ \\mathrm W\\).</p></div>",
-    "familj": "Magnitud och luminositet",
-    "formaga": [
-      "modellering",
-      "procedur"
+{
+  "id": "5.30",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "A",
+  "poang": "0/1/1",
+  "typ": "beräkna luminositet från absolut magnitud, ur text, sökt luminositet",
+  "t": "<p>En stjärna har absolut magnitud \\(M=+0{,}58\\).</p><p>Solen har absolut magnitud \\(+4{,}74\\) och strålar ut \\(3{,}828\\cdot10^{26}\\) W.</p><p>Magnituderna gäller stjärnornas totala strålning, vid alla våglängder.</p><p><strong>a)</strong> Hur många gånger större effekt strålar stjärnan ut än solen? (Svara med en faktor.)</p><p><strong>b)</strong> Hur stor effekt strålar stjärnan ut? (Svara i W.)</p>",
+  "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2\"><p>Skillnaden i absolut magnitud bestämmer hur stor effekt stjärnan strålar ut jämfört med solen.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=10^{(4{,}74-0{,}58)/2{,}5}\\approx46{,}1\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Stjärnan strålar ut cirka 46,1 gånger solens effekt.</p></div><p><strong>b)</strong></p><div class=\"facit-v2\"><p>Skillnaden i absolut magnitud bestämmer hur stor effekt stjärnan strålar ut jämfört med solen.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=10^{(4{,}74-0{,}58)/2{,}5}\\approx46{,}1\\]</div><p>Multiplicera kvoten med solens utstrålade effekt. Behåll fler siffror i beräkningen än i det avrundade svaret.</p><div class=\"facit-matte\">\\[\\begin{aligned}L&=10^{4{,}16/2{,}5}\\cdot3{,}828\\cdot10^{26}\\\\&\\approx1{,}77\\cdot10^{28}\\ \\mathrm W\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}77\\cdot10^{28}\\) W.</p></div></div>",
+  "familj": "Magnitud och luminositet",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    46.13175745603795,
+    1.7659236754171329e+28
+  ],
+  "tolerans": [
+    0.9226351491207591,
+    3.531847350834266e+26
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>En stjärna har absolut magnitud \\(M=+0{,}58\\).</p><p>Solen har absolut magnitud \\(+4{,}74\\) och strålar ut \\(3{,}828\\cdot10^{26}\\) W.</p><p>Magnituderna gäller stjärnornas totala strålning, vid alla våglängder.</p><p>Hur många gånger större effekt strålar stjärnan ut än solen? (Svara med en faktor.)</p>",
+      "s": "<div class=\"facit-v2\"><p>Skillnaden i absolut magnitud bestämmer hur stor effekt stjärnan strålar ut jämfört med solen.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=10^{(4{,}74-0{,}58)/2{,}5}\\approx46{,}1\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Stjärnan strålar ut cirka 46,1 gånger solens effekt.</p></div>",
+      "ledtrad": "<p>Jämför den absoluta magnituden med solens.</p>",
+      "niva": "C",
+      "poang": "0/1/0",
+      "traningsniva": 4,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "b",
+      "t": "<p>En stjärna har absolut magnitud \\(M=+0{,}58\\).</p><p>Solen har absolut magnitud \\(+4{,}74\\) och strålar ut \\(3{,}828\\cdot10^{26}\\) W.</p><p>Magnituderna gäller stjärnornas totala strålning, vid alla våglängder.</p><p>Hur stor effekt strålar stjärnan ut? (Svara i W.)</p>",
+      "s": "<div class=\"facit-v2\"><p>Skillnaden i absolut magnitud bestämmer hur stor effekt stjärnan strålar ut jämfört med solen.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=10^{(4{,}74-0{,}58)/2{,}5}\\approx46{,}1\\]</div><p>Multiplicera kvoten med solens utstrålade effekt. Behåll fler siffror i beräkningen än i det avrundade svaret.</p><div class=\"facit-matte\">\\[\\begin{aligned}L&=10^{4{,}16/2{,}5}\\cdot3{,}828\\cdot10^{26}\\\\&\\approx1{,}77\\cdot10^{28}\\ \\mathrm W\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}77\\cdot10^{28}\\) W.</p></div>",
+      "ledtrad": "<p>Beräkna först effektkvoten och därefter effekten i watt.</p>",
+      "niva": "A",
+      "poang": "0/0/1",
+      "traningsniva": 5,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 3
+    }
+  ],
+  "svarFormat": [
+    "multipel",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    null,
+    "W"
+  ],
+  "ledtrad": "<p>Magnitudskillnaden ger förhållandet mellan stjärnans och solens utstrålade effekt.</p>",
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "omrTidigare": [
+    "farg_ljusstyrka"
+  ],
+  "familjTidigare": [
+    "Stjärnors färg, temperatur och ljusstyrka"
+  ],
+  "traningsniva": 5,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "arbetsinsats": 3
+},
+{
+  "id": "5.31",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "beräkna absolut magnitud från luminositet, ur text, sökt magnitud",
+  "t": "<p>En röd dvärgstjärna strålar ut 6,89·10<sup>23</sup> W. Bestäm stjärnans absoluta magnitud.</p><p>Solens luminositet är 3,828·10<sup>26</sup> W och absoluta magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
+  "s": "<div class=\"facit-v2\"><p>Jämför först stjärnans utstrålade effekt med solens. Därefter kan skillnaden i magnitud beräknas.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{L}{L_\\odot}&=\\frac{6{,}89\\cdot10^{23}}{3{,}828\\cdot10^{26}}\\approx0{,}00180\\\\M&=4{,}74-2{,}5\\lg(L/L_\\odot)\\\\&\\approx11{,}6\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Den absoluta magnituden är cirka +11,6.</p></div>",
+  "familj": "Magnitud och luminositet",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
+  "svarstyp": "numeriskt",
+  "rättSvar": 11.60188176799295,
+  "tolerans": 0.232037635359859,
+  "självrättning": true,
+  "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+  "ledtrad": "<p>Skriv först luminositeten som andel av solens och använd sedan magnitudformeln.</p>",
+  "svarEnhet": null,
+  "svarFormat": "numeriskt",
+  "omrTidigare": [
+    "farg_ljusstyrka"
+  ],
+  "familjTidigare": [
+    "Stjärnors färg, temperatur och ljusstyrka"
+  ],
+  "traningsniva": 4,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "arbetsinsats": 2
+},
+{
+  "id": "5.32",
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "A",
+  "poang": "0/1/1",
+  "typ": "beräkna luminositet och absolut magnitud från radie och temperatur, ur text, sökt två storheter",
+  "t": "<p>En blåvit stjärna har radien 3,4 R<sub>sol</sub> och yttemperaturen 12 000 K.</p><ol><li>Beräkna luminositeten i enheter av solens luminositet.</li><li>Bestäm stjärnans absoluta magnitud.</li></ol><p>Solens effektiva temperatur är 5772 K och absoluta magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
+  "s": "<div class=\"facit-v2\"><p>Jämför stjärnans radie och temperatur med solens i Stefan–Boltzmanns lag.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=3{,}4^2\\left(\\frac{12000}{5772}\\right)^4\\approx216\\]</div><p>Jämför därefter den utstrålade effekten med solens för att bestämma magnituden. Använd den oavrundade effektkvoten.</p><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg(L/L_\\odot)\\approx-1{,}10\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(216L_\\odot\\). b) \\(M\\approx-1{,}10\\).</p></div>",
+  "familj": "Luminositet, radie och temperatur",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    215.9620933967342,
+    -1.0959438214729573
+  ],
+  "tolerans": [
+    4.319241867934684,
+    0.021918876429459146
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "L☉",
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+  "ledtrad": "<p>I förhållande till solen kan Stefan–Boltzmanns lag skrivas utan att konstanten behöver sättas in.</p>",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>En blåvit stjärna har radien 3,4 R<sub>sol</sub> och yttemperaturen 12 000 K.</p><p>Solens effektiva temperatur är 5772 K och absoluta magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Beräkna luminositeten i enheter av solens luminositet.</p></div>",
+      "s": "<div class=\"facit-v2\"><p>Jämför stjärnans radie och temperatur med solens i Stefan–Boltzmanns lag.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=3{,}4^2\\left(\\frac{12000}{5772}\\right)^4\\approx216\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(216L_\\odot\\).</p></div>",
+      "ledtrad": "<p>Jämför med solen med hjälp av radien och temperaturen.</p>",
+      "niva": "C",
+      "poang": "0/1/0",
+      "traningsniva": 3,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "b",
+      "t": "<p>En blåvit stjärna har radien 3,4 R<sub>sol</sub> och yttemperaturen 12 000 K.</p><p>Solens effektiva temperatur är 5772 K och absoluta magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm stjärnans absoluta magnitud.</p></div>",
+      "s": "<div class=\"facit-v2\"><p>Jämför stjärnans radie och temperatur med solens i Stefan–Boltzmanns lag.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=3{,}4^2\\left(\\frac{12000}{5772}\\right)^4\\approx216\\]</div><p>Jämför därefter den utstrålade effekten med solens för att bestämma magnituden. Använd den oavrundade effektkvoten.</p><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg(L/L_\\odot)\\approx-1{,}10\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(M\\approx-1{,}10\\).</p></div>",
+      "ledtrad": "<p>Beräkna först effektkvoten, därefter magnituden.</p>",
+      "niva": "A",
+      "poang": "0/0/1",
+      "traningsniva": 5,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 3
+    }
+  ],
+  "familjTidigare": [
+    "Stjärnors färg, temperatur och ljusstyrka"
+  ],
+  "traningsniva": 5,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "arbetsinsats": 3
+},
+{
+  "id": "5.33",
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "A",
+  "poang": "0/0/1",
+  "typ": "beräkna stjärnradie från absolut magnitud och temperatur, ur text, sökt radie",
+  "t": "<p>En varm stjärna har absolut magnitud M = −3,55 och yttemperaturen 21 000 K. Bestäm radien i enheter av solens radie.</p><p>Solens absoluta magnitud är +4,74 och effektiva temperatur 5772 K.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
+  "s": "<div class=\"facit-v2\"><p>Den absoluta magnituden ger först förhållandet mellan stjärnans och solens utstrålade effekt.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=10^{8{,}29/2{,}5}\\]</div><p>Stefan–Boltzmanns lag kopplar denna effekt till radien och temperaturen.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\left(\\frac{R}{R_\\odot}\\right)^2\\left(\\frac{T}{T_\\odot}\\right)^4\\]</div><p>Lös ut den sökta storheten och sätt in värdena.</p><div class=\"facit-matte\">\\[\\frac{R}{R_\\odot}=\\sqrt{10^{8{,}29/2{,}5}}\\left(\\frac{5772}{21000}\\right)^2\\approx3{,}44\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}44R_\\odot\\).</p></div>",
+  "familj": "Luminositet, radie och temperatur",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
+  "svarstyp": "numeriskt",
+  "rättSvar": 3.43727322724491,
+  "tolerans": 0.0687454645448982,
+  "självrättning": true,
+  "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+  "ledtrad": "<p>Den absoluta magnituden ger luminositeten. Därefter löses radien ut ur Stefan–Boltzmanns lag i relativ form.</p>",
+  "svarEnhet": "R☉",
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Stjärnors färg, temperatur och ljusstyrka"
+  ],
+  "traningsniva": 5,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "arbetsinsats": 3
+},
+{
+  "id": "5.34",
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "A",
+  "poang": "0/0/1",
+  "typ": "beräkna stjärntemperatur från absolut magnitud och radie, ur text, sökt temperatur",
+  "t": "<p>En superjätte har absolut magnitud M = −6,93 och radien 203 R<sub>sol</sub>. Bestäm stjärnans yttemperatur.</p><p>Solens absoluta magnitud är +4,74 och effektiva temperatur 5772 K.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
+  "s": "<div class=\"facit-v2\"><p>Den absoluta magnituden ger först förhållandet mellan stjärnans och solens utstrålade effekt.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=10^{11{,}67/2{,}5}\\]</div><p>Stefan–Boltzmanns lag kopplar denna effekt till radien och temperaturen.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\left(\\frac{R}{R_\\odot}\\right)^2\\left(\\frac{T}{T_\\odot}\\right)^4\\]</div><p>Lös ut den sökta storheten och sätt in värdena.</p><div class=\"facit-matte\">\\[T=5772\\left(\\frac{10^{11{,}67/2{,}5}}{203^2}\\right)^{1/4}\\approx5951\\ \\mathrm K\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}95\\cdot10^3\\ \\mathrm K\\).</p></div>",
+  "familj": "Luminositet, radie och temperatur",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
+  "svarstyp": "numeriskt",
+  "rättSvar": 5950.840409721987,
+  "tolerans": 119.01680819443975,
+  "självrättning": true,
+  "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+  "ledtrad": "<p>Bestäm först luminositetskvoten och lös sedan ut temperaturkvoten ur \\(L/L_\\odot=(R/R_\\odot)^2(T/T_\\odot)^4\\).</p>",
+  "svarEnhet": "K",
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Stjärnors färg, temperatur och ljusstyrka"
+  ],
+  "traningsniva": 5,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "arbetsinsats": 3
+},
+{
+  "id": "5.35",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "A",
+  "poang": "0/1/2",
+  "typ": "jämföra två stjärnors luminositet, absoluta magnitud och avstånd, ur tabell, sökt flera storheter",
+  "t": "<p>Två stjärnor har följande egenskaper:</p><table class=\"data\" style=\"width:100%;text-align:center\"><tr><th>Stjärna</th><th>Radie<br>(solradier)</th><th>Temperatur<br>(K)</th><th>Skenbar<br>magnitud</th></tr><tr><td>A</td><td>2,8</td><td>10300</td><td>+1,58</td></tr><tr><td>B</td><td>8,8</td><td>4700</td><td>+1,14</td></tr></table><p>Solens yttemperatur är 5772 K och dess absoluta magnitud är \\(+4{,}74\\).</p><p>Magnituderna gäller stjärnornas totala strålning, vid alla våglängder.</p><p><strong>a)</strong> Hur många gånger solens effekt strålar respektive stjärna ut? (Ange faktorn för A och för B.)</p><p><strong>b)</strong> Bestäm den absoluta magnituden för A och för B.</p><p><strong>c)</strong> Hur långt bort ligger A och B? (Svara i pc.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Stefan–Boltzmanns lag ger effekten från hela stjärnans yta. Jämför radie och temperatur med solen:</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{L_A}{L_\\odot}&=2{,}8^2\\left(\\frac{10300}{5772}\\right)^4\\approx79{,}5\\\\\\frac{L_B}{L_\\odot}&=8{,}8^2\\left(\\frac{4700}{5772}\\right)^4\\approx34{,}0\\end{aligned}\\]</div><p>Använd sedan effektkvoterna för att bestämma de absoluta magnituderna. Beräkna vidare med de oavrundade kvoterna.</p><div class=\"facit-matte\">\\[\\begin{aligned}M_A&=4{,}74-2{,}5\\lg(L_A/L_\\odot)\\\\&\\approx-0{,}0109\\\\M_B&=4{,}74-2{,}5\\lg(L_B/L_\\odot)\\\\&\\approx+0{,}910\\end{aligned}\\]</div><p>Jämför skenbar magnitud m med absolut magnitud M för att bestämma avståndet.</p><div class=\"facit-matte\">\\[\\begin{aligned}d_A&=10^{(1{,}58-M_A+5)/5}\\approx20{,}8\\ \\mathrm{pc}\\\\d_B&=10^{(1{,}14-M_B+5)/5}\\approx11{,}1\\ \\mathrm{pc}\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> a) A: 79,5, B: 34,0 gånger solens effekt. b) A: −0,0109, B: +0,910. c) A: 20,8 pc, B: 11,1 pc.</p></div>",
+  "familj": "Magnitud och luminositet",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    [
+      79.49863499655105,
+      34.04485480692806
     ],
-    "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      46.13175745603795,
-      1.7659236754171329e+28
+    [
+      -0.010899179548252036,
+      0.9098712841065479
     ],
-    "tolerans": [
-      0.9226351491207591,
-      3.531847350834266e+26
-    ],
-    "självrättning": [
-      true,
-      true
-    ],
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>En stjärna har absolut magnitud \\(M=+0{,}58\\). Bestäm luminositeten i enheter av solens luminositet. Solens absoluta bolometriska magnitud är \\(+4{,}74\\).</p><p>Magnituderna är bolometriska.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd skillnaden mellan stjärnans och solens bolometriska magnitud:</p><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=10^{-0{,}4(0{,}58-4{,}74)}\\approx46{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L\\approx46{,}1L_\\odot\\).</p></div>",
-        "ledtrad": "<p>Använd magnitudskillnaden för att bestämma luminositetskvoten. Multiplicera med solens luminositet om svaret ska vara i watt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>En stjärna har absolut magnitud \\(M=+0{,}58\\). Bestäm luminositeten i watt. Solens absoluta bolometriska magnitud är \\(+4{,}74\\) och luminositeten \\(3{,}828\\cdot10^{26}\\) W.</p><p>Magnituderna är bolometriska.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Magnitudskillnaden ger först luminositeten i solenheter.</p></li><li><p>Omvandla sedan till watt:</p><div class=\"facit-matte\">\\[L=10^{-0{,}4(0{,}58-4{,}74)}\\cdot3{,}828\\cdot10^{26}\\ \\mathrm W\\approx1{,}77\\cdot10^{28}\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L\\approx1{,}77\\cdot10^{28}\\ \\mathrm W\\).</p></div>",
-        "ledtrad": "<p>Använd magnitudskillnaden för att bestämma luminositetskvoten. Multiplicera med solens luminositet om svaret ska vara i watt.</p>",
-        "niva": "E",
-        "poang": "1/0/0"
-      }
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarEnhet": [
-      "L☉",
-      "W"
-    ],
-    "ledtrad": "<p>Magnitudskillnaden motsvarar en luminositetskvot enligt \\(L/L_\\odot=10^{-0{,}4(M-M_\\odot)}\\).</p>",
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "omrTidigare": [
-      "farg_ljusstyrka"
-    ],
-    "familjTidigare": [
-      "Stjärnors färg, temperatur och ljusstyrka"
+    [
+      20.805580417996847,
+      11.11797628088402
     ]
-  },
-  {
-    "id": "5.31",
-    "kap": 5,
-    "omr": "magnituder",
-    "niva": "E",
-    "poang": "(2/0/0)",
-    "typ": "beräkna absolut magnitud från luminositet, ur text, sökt magnitud",
-    "t": "<p>En röd dvärgstjärna strålar ut 6,89·10<sup>23</sup> W. Bestäm stjärnans absoluta magnitud.</p><p>Solens luminositet är 3,828·10<sup>26</sup> W och absoluta bolometriska magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Magnituderna avser här den totala strålningen.</p></li><li><p>Använd samma bolometriska magnitudskala i alla steg.</p></li><li><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=\\frac{6{,}89\\cdot10^{23}}{3{,}828\\cdot10^{26}}=0{,}0018\\]</div></li><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\log_{10}(0{,}0018)\\approx11{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(M\\approx+11{,}6\\).</p></div>",
-    "familj": "Magnitud och luminositet",
-    "formaga": [
-      "modellering",
-      "procedur"
+  ],
+  "tolerans": [
+    [
+      0.5,
+      0.5
     ],
-    "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "numeriskt",
-    "rättSvar": 11.60188176799295,
-    "tolerans": 0.232037635359859,
-    "självrättning": true,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
-    "ledtrad": "<p>Skriv först luminositeten som andel av solens och använd sedan magnitudformeln.</p>",
-    "svarEnhet": null,
-    "svarFormat": "numeriskt",
-    "omrTidigare": [
-      "farg_ljusstyrka"
+    [
+      0.0005,
+      0.005
     ],
-    "familjTidigare": [
-      "Stjärnors färg, temperatur och ljusstyrka"
+    [
+      0.1,
+      0.1
     ]
-  },
-  {
-    "id": "5.32",
-    "kap": 5,
-    "omr": "farg_ljusstyrka",
-    "niva": "C",
-    "poang": "(2/2/0)",
-    "typ": "beräkna luminositet och absolut magnitud från radie och temperatur, ur text, sökt två storheter",
-    "t": "<p>En blåvit stjärna har radien 3,4 R<sub>sol</sub> och yttemperaturen 12 000 K.</p><ol><li>Beräkna luminositeten i enheter av solens luminositet.</li><li>Bestäm stjärnans absoluta magnitud.</li></ol><p>Solens effektiva temperatur är 5772 K och absoluta bolometriska magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Magnituderna avser här den totala strålningen.</p></li><li><p>Använd samma bolometriska magnitudskala i alla steg.</p></li><li><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=3{,}4^2\\left(\\frac{12000}{5772}\\right)^4\\approx216\\]</div></li><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\log_{10}(216)\\approx-1{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L\\approx216L_\\odot\\), \\(M\\approx-1{,}1\\).</p></div>",
-    "familj": "Luminositet, radie och temperatur",
-    "formaga": [
-      "modellering",
-      "procedur"
-    ],
-    "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      215.9620933967342,
-      -1.0959438214729573
-    ],
-    "tolerans": [
-      4.319241867934684,
-      0.021918876429459146
-    ],
-    "självrättning": [
-      true,
-      true
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarEnhet": [
-      "L☉",
+  ],
+  "självrättning": [
+    true,
+    true,
+    true
+  ],
+  "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+  "ledtrad": "<p>Gå från radie och temperatur till effekt, sedan till magnitud och avstånd.</p>",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Två stjärnor har följande egenskaper:</p><table class=\"data\" style=\"width:100%;text-align:center\"><tr><th>Stjärna</th><th>Radie<br>(solradier)</th><th>Temperatur<br>(K)</th><th>Skenbar<br>magnitud</th></tr><tr><td>A</td><td>2,8</td><td>10300</td><td>+1,58</td></tr><tr><td>B</td><td>8,8</td><td>4700</td><td>+1,14</td></tr></table><p>Solens yttemperatur är 5772 K och dess absoluta magnitud är \\(+4{,}74\\).</p><p>Magnituderna gäller stjärnornas totala strålning, vid alla våglängder.</p><p>Hur många gånger solens effekt strålar respektive stjärna ut? (Ange faktorn för A och för B.)</p>",
+      "s": "<div class=\"facit-v2\"><p>Stefan–Boltzmanns lag ger effekten från hela stjärnans yta. Jämför radie och temperatur med solen:</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{L_A}{L_\\odot}&=2{,}8^2\\left(\\frac{10300}{5772}\\right)^4\\approx79{,}5\\\\\\frac{L_B}{L_\\odot}&=8{,}8^2\\left(\\frac{4700}{5772}\\right)^4\\approx34{,}0\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> A: 79,5 gånger solens effekt. B: 34,0 gånger solens effekt.</p></div>",
+      "ledtrad": "<p>Jämför stjärnornas radier och temperaturer med solens.</p>",
+      "niva": "C",
+      "poang": "0/1/0",
+      "traningsniva": 3,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 2,
+      "rättSvar": [
+        79.49863499655105,
+        34.04485480692806
+      ],
+      "svarEtiketter": [
+        "A",
+        "B"
+      ],
+      "svarsstruktur": "ordnad",
+      "svarEnhet": [
+        null,
+        null
+      ],
+      "tolerans": [
+        0.5,
+        0.5
+      ],
+      "svarFormat": [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "självrättning": [
+        true,
+        true
+      ]
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Två stjärnor har följande egenskaper:</p><table class=\"data\" style=\"width:100%;text-align:center\"><tr><th>Stjärna</th><th>Radie<br>(solradier)</th><th>Temperatur<br>(K)</th><th>Skenbar<br>magnitud</th></tr><tr><td>A</td><td>2,8</td><td>10300</td><td>+1,58</td></tr><tr><td>B</td><td>8,8</td><td>4700</td><td>+1,14</td></tr></table><p>Solens yttemperatur är 5772 K och dess absoluta magnitud är \\(+4{,}74\\).</p><p>Magnituderna gäller stjärnornas totala strålning, vid alla våglängder.</p><p>Bestäm den absoluta magnituden för A och för B.</p>",
+      "s": "<div class=\"facit-v2\"><p>Stefan–Boltzmanns lag ger effekten från hela stjärnans yta. Jämför radie och temperatur med solen:</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{L_A}{L_\\odot}&=2{,}8^2\\left(\\frac{10300}{5772}\\right)^4\\approx79{,}5\\\\\\frac{L_B}{L_\\odot}&=8{,}8^2\\left(\\frac{4700}{5772}\\right)^4\\approx34{,}0\\end{aligned}\\]</div><p>Använd sedan effektkvoterna för att bestämma de absoluta magnituderna. Beräkna vidare med de oavrundade kvoterna.</p><div class=\"facit-matte\">\\[\\begin{aligned}M_A&=4{,}74-2{,}5\\lg(L_A/L_\\odot)\\\\&\\approx-0{,}0109\\\\M_B&=4{,}74-2{,}5\\lg(L_B/L_\\odot)\\\\&\\approx+0{,}910\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> A: −0,0109. B: +0,910.</p></div>",
+      "ledtrad": "<p>Beräkna effekten relativt solen innan du bestämmer magnituden.</p>",
+      "niva": "A",
+      "poang": "0/0/1",
+      "traningsniva": 5,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 3,
+      "rättSvar": [
+        -0.010899179548252036,
+        0.9098712841065479
+      ],
+      "svarEtiketter": [
+        "A",
+        "B"
+      ],
+      "svarsstruktur": "ordnad",
+      "svarEnhet": [
+        null,
+        null
+      ],
+      "tolerans": [
+        0.0005,
+        0.005
+      ],
+      "svarFormat": [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "självrättning": [
+        true,
+        true
+      ]
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Två stjärnor har följande egenskaper:</p><table class=\"data\" style=\"width:100%;text-align:center\"><tr><th>Stjärna</th><th>Radie<br>(solradier)</th><th>Temperatur<br>(K)</th><th>Skenbar<br>magnitud</th></tr><tr><td>A</td><td>2,8</td><td>10300</td><td>+1,58</td></tr><tr><td>B</td><td>8,8</td><td>4700</td><td>+1,14</td></tr></table><p>Solens yttemperatur är 5772 K och dess absoluta magnitud är \\(+4{,}74\\).</p><p>Magnituderna gäller stjärnornas totala strålning, vid alla våglängder.</p><p>Hur långt bort ligger A och B? (Svara i pc.)</p>",
+      "s": "<div class=\"facit-v2\"><p>Stefan–Boltzmanns lag ger effekten från hela stjärnans yta. Jämför radie och temperatur med solen:</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{L_A}{L_\\odot}&=2{,}8^2\\left(\\frac{10300}{5772}\\right)^4\\approx79{,}5\\\\\\frac{L_B}{L_\\odot}&=8{,}8^2\\left(\\frac{4700}{5772}\\right)^4\\approx34{,}0\\end{aligned}\\]</div><p>Använd sedan effektkvoterna för att bestämma de absoluta magnituderna. Beräkna vidare med de oavrundade kvoterna.</p><div class=\"facit-matte\">\\[\\begin{aligned}M_A&=4{,}74-2{,}5\\lg(L_A/L_\\odot)\\\\&\\approx-0{,}0109\\\\M_B&=4{,}74-2{,}5\\lg(L_B/L_\\odot)\\\\&\\approx+0{,}910\\end{aligned}\\]</div><p>Jämför skenbar magnitud m med absolut magnitud M för att bestämma avståndet.</p><div class=\"facit-matte\">\\[\\begin{aligned}d_A&=10^{(1{,}58-M_A+5)/5}\\approx20{,}8\\ \\mathrm{pc}\\\\d_B&=10^{(1{,}14-M_B+5)/5}\\approx11{,}1\\ \\mathrm{pc}\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> A: 20,8 pc. B: 11,1 pc.</p></div>",
+      "ledtrad": "<p>Bestäm först absolut magnitud och jämför med den skenbara.</p>",
+      "niva": "A",
+      "poang": "0/0/1",
+      "traningsniva": 5,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 3,
+      "rättSvar": [
+        20.805580417996847,
+        11.11797628088402
+      ],
+      "svarEtiketter": [
+        "A",
+        "B"
+      ],
+      "svarsstruktur": "ordnad",
+      "svarEnhet": [
+        "pc",
+        "pc"
+      ],
+      "tolerans": [
+        0.1,
+        0.1
+      ],
+      "svarFormat": [
+        "numeriskt",
+        "numeriskt"
+      ],
+      "självrättning": [
+        true,
+        true
+      ]
+    }
+  ],
+  "omrTidigare": [
+    "farg_ljusstyrka"
+  ],
+  "familjTidigare": [
+    "Stjärnors färg, temperatur och ljusstyrka"
+  ],
+  "traningsniva": 5,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "arbetsinsats": 3,
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    [
+      null,
       null
     ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
+    [
+      null,
+      null
     ],
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
-    "ledtrad": "<p>I förhållande till solen kan Stefan–Boltzmanns lag skrivas utan att konstanten behöver sättas in.</p>",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>En blåvit stjärna har radien 3,4 R<sub>sol</sub> och yttemperaturen 12 000 K.</p><p>Solens effektiva temperatur är 5772 K och absoluta bolometriska magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Beräkna luminositeten i enheter av solens luminositet.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=3{,}4^2\\left(\\frac{12000}{5772}\\right)^4\\approx216\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Luminositeten är cirka \\(216L_\\odot\\).</p></div></div>",
-        "ledtrad": "<p>I förhållande till solen kan Stefan–Boltzmanns lag skrivas utan att konstanten behöver sättas in.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>En blåvit stjärna har radien 3,4 R<sub>sol</sub> och yttemperaturen 12 000 K.</p><p>Solens effektiva temperatur är 5772 K och absoluta bolometriska magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm stjärnans absoluta magnitud.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\log_{10}(216)\\approx-1{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den absoluta magnituden är cirka \\(M=-1{,}10\\).</p></div></div>",
-        "ledtrad": "<p>I förhållande till solen kan Stefan–Boltzmanns lag skrivas utan att konstanten behöver sättas in.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ],
-    "familjTidigare": [
-      "Stjärnors färg, temperatur och ljusstyrka"
+    [
+      "pc",
+      "pc"
     ]
-  },
-  {
-    "id": "5.33",
-    "kap": 5,
-    "omr": "farg_ljusstyrka",
-    "niva": "C",
-    "poang": "(2/2/0)",
-    "typ": "beräkna stjärnradie från absolut magnitud och temperatur, ur text, sökt radie",
-    "t": "<p>En varm stjärna har absolut magnitud M = −3,55 och yttemperaturen 21 000 K. Bestäm radien i enheter av solens radie.</p><p>Solens absoluta bolometriska magnitud är +4,74 och effektiva temperatur 5772 K.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Magnituderna avser här den totala strålningen.</p></li><li><p>Använd samma bolometriska magnitudskala i alla steg.</p></li><li><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=10^{-0{,}4(-3{,}55-4{,}74)}\\approx2{,}07\\cdot10^{3}\\]</div></li><li><div class=\"facit-matte\">\\[\\frac R{R_\\odot}=\\sqrt{\\frac L{L_\\odot}}\\left(\\frac{T_\\odot}{T}\\right)^2\\approx3{,}44\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Radien är cirka \\(3{,}44R_\\odot\\).</p></div>",
-    "familj": "Luminositet, radie och temperatur",
-    "formaga": [
-      "modellering",
-      "procedur"
-    ],
-    "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "numeriskt",
-    "rättSvar": 3.43727322724491,
-    "tolerans": 0.0687454645448982,
-    "självrättning": true,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
-    "ledtrad": "<p>Den absoluta magnituden ger luminositeten. Därefter löses radien ut ur Stefan–Boltzmanns lag i relativ form.</p>",
-    "svarEnhet": "R☉",
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Stjärnors färg, temperatur och ljusstyrka"
-    ]
-  },
-  {
-    "id": "5.34",
-    "kap": 5,
-    "omr": "farg_ljusstyrka",
-    "niva": "C",
-    "poang": "(2/2/0)",
-    "typ": "beräkna stjärntemperatur från absolut magnitud och radie, ur text, sökt temperatur",
-    "t": "<p>En superjätte har absolut magnitud M = −6,93 och radien 203 R<sub>sol</sub>. Bestäm stjärnans yttemperatur.</p><p>Solens absoluta bolometriska magnitud är +4,74 och effektiva temperatur 5772 K.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Magnituderna avser här den totala strålningen.</p></li><li><p>Använd samma bolometriska magnitudskala i alla steg.</p></li><li><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=10^{-0{,}4(-6{,}93-4{,}74)}\\approx4{,}66\\cdot10^{4}\\]</div></li><li><div class=\"facit-matte\">\\[T=5772\\left(\\frac{4{,}66\\cdot10^{4}}{203^2}\\right)^{1/4}\\approx5{,}95\\cdot10^{3}\\ \\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen är cirka \\(5{,}95\\cdot10^{3}\\ \\mathrm K\\).</p></div>",
-    "familj": "Luminositet, radie och temperatur",
-    "formaga": [
-      "modellering",
-      "procedur"
-    ],
-    "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "numeriskt",
-    "rättSvar": 5950.840409721987,
-    "tolerans": 119.01680819443975,
-    "självrättning": true,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
-    "ledtrad": "<p>Bestäm först luminositetskvoten och lös sedan ut temperaturkvoten ur \\(L/L_\\odot=(R/R_\\odot)^2(T/T_\\odot)^4\\).</p>",
-    "svarEnhet": "K",
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Stjärnors färg, temperatur och ljusstyrka"
-    ]
-  },
-  {
-    "id": "5.35",
-    "kap": 5,
-    "omr": "magnituder",
-    "niva": "C",
-    "poang": "(2/3/0)",
-    "typ": "jämföra två stjärnors luminositet, absoluta magnitud och avstånd, ur tabell, sökt flera storheter",
-    "t": "<p>Två stjärnor observeras med följande data:</p><table class=\"facit-tabell\"><thead><tr><th>Stjärna</th><th>Radie</th><th>Temperatur</th><th>Apparent magnitud</th></tr></thead><tbody><tr><td>A</td><td>2,8 R<sub>sol</sub></td><td>10 300 K</td><td>+1,58</td></tr><tr><td>B</td><td>8,8 R<sub>sol</sub></td><td>4700 K</td><td>+1,14</td></tr></tbody></table><p>Bestäm för båda stjärnorna a) luminositeten i L<sub>sol</sub>, b) den absoluta magnituden och c) avståndet i parsec.</p><p>Solens effektiva temperatur är 5772 K och absoluta bolometriska magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Magnituderna avser här den totala strålningen.</p></li><li><p>Använd samma bolometriska magnitudskala i alla steg.</p></li><li><p>A:</p><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=2{,}8^2\\left(\\frac{10300}{5772}\\right)^4\\approx79{,}5\\]</div></li><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\log_{10}(79{,}5)\\approx-0{,}0109\\]</div></li><li><div class=\"facit-matte\">\\[d=10^{(m-M+5)/5}\\ \\mathrm{pc}\\approx20{,}8\\ \\mathrm{pc}\\]</div></li><li><p>B:</p><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=8{,}8^2\\left(\\frac{4700}{5772}\\right)^4\\approx34\\]</div></li><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\log_{10}(34)\\approx0{,}91\\]</div></li><li><div class=\"facit-matte\">\\[d=10^{(m-M+5)/5}\\ \\mathrm{pc}\\approx11{,}1\\ \\mathrm{pc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: \\(79{,}5L_\\odot\\), \\(M=-0{,}0109\\), \\(d=20{,}8\\ \\mathrm{pc}\\). B: \\(34L_\\odot\\), \\(M=0{,}91\\), \\(d=11{,}1\\ \\mathrm{pc}\\).</p></div>",
-    "familj": "Magnitud och luminositet",
-    "formaga": [
-      "modellering",
-      "procedur"
-    ],
-    "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
-    "ledtrad": "<p>Först används Stefan–Boltzmanns lag relativt solen. Sedan omvandlas luminositeten till absolut magnitud och avståndsmodulen ger avståndet.</p>",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Två stjärnor observeras med följande data:</p><table class=\"facit-tabell\"><thead><tr><th>Stjärna</th><th>Radie</th><th>Temperatur</th><th>Apparent magnitud</th></tr></thead><tbody><tr><td>A</td><td>2,8 R<sub>sol</sub></td><td>10 300 K</td><td>+1,58</td></tr><tr><td>B</td><td>8,8 R<sub>sol</sub></td><td>4700 K</td><td>+1,14</td></tr></tbody></table><p>Solens effektiva temperatur är 5772 K och absoluta bolometriska magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm luminositeten för båda stjärnorna i enheter av solens luminositet.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=2{,}8^2\\left(\\frac{10300}{5772}\\right)^4\\approx79{,}5\\]</div></li><li><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=8{,}8^2\\left(\\frac{4700}{5772}\\right)^4\\approx34\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: \\(79{,}5L_\\odot\\). B: cirka \\(34L_\\odot\\).</p></div></div>",
-        "ledtrad": "<p>Först används Stefan–Boltzmanns lag relativt solen. Sedan omvandlas luminositeten till absolut magnitud och avståndsmodulen ger avståndet.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Två stjärnor observeras med följande data:</p><table class=\"facit-tabell\"><thead><tr><th>Stjärna</th><th>Radie</th><th>Temperatur</th><th>Apparent magnitud</th></tr></thead><tbody><tr><td>A</td><td>2,8 R<sub>sol</sub></td><td>10 300 K</td><td>+1,58</td></tr><tr><td>B</td><td>8,8 R<sub>sol</sub></td><td>4700 K</td><td>+1,14</td></tr></tbody></table><p>Solens effektiva temperatur är 5772 K och absoluta bolometriska magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm den absoluta magnituden för båda stjärnorna.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\log_{10}(79{,}5)\\approx-0{,}0109\\]</div></li><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\log_{10}(34)\\approx0{,}91\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: \\(M\\approx-0{,}011\\). B: \\(M\\approx0{,}91\\).</p></div></div>",
-        "ledtrad": "<p>Först används Stefan–Boltzmanns lag relativt solen. Sedan omvandlas luminositeten till absolut magnitud och avståndsmodulen ger avståndet.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>Två stjärnor observeras med följande data:</p><table class=\"facit-tabell\"><thead><tr><th>Stjärna</th><th>Radie</th><th>Temperatur</th><th>Apparent magnitud</th></tr></thead><tbody><tr><td>A</td><td>2,8 R<sub>sol</sub></td><td>10 300 K</td><td>+1,58</td></tr><tr><td>B</td><td>8,8 R<sub>sol</sub></td><td>4700 K</td><td>+1,14</td></tr></tbody></table><p>Solens effektiva temperatur är 5772 K och absoluta bolometriska magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm avståndet till båda stjärnorna i parsec.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[d=10^{(m-M+5)/5}\\ \\mathrm{pc}\\approx20{,}8\\ \\mathrm{pc}\\]</div></li><li><div class=\"facit-matte\">\\[d=10^{(m-M+5)/5}\\ \\mathrm{pc}\\approx11{,}1\\ \\mathrm{pc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: \\(d\\approx20{,}8\\ \\mathrm{pc}\\). B: \\(d\\approx11{,}1\\ \\mathrm{pc}\\).</p></div></div>",
-        "ledtrad": "<p>Först används Stefan–Boltzmanns lag relativt solen. Sedan omvandlas luminositeten till absolut magnitud och avståndsmodulen ger avståndet.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ],
-    "omrTidigare": [
-      "farg_ljusstyrka"
-    ],
-    "familjTidigare": [
-      "Stjärnors färg, temperatur och ljusstyrka"
-    ]
-  },
+  ]
+},
   {
     "id": "5.36",
     "kap": 5,
@@ -23549,72 +23744,87 @@ window.BANK2 = [
       "Stjärnors färg, temperatur och ljusstyrka"
     ]
   },
-  {
-    "id": "5.39",
-    "kap": 5,
-    "omr": "farg_ljusstyrka",
-    "niva": "C",
-    "poang": "(2/2/0)",
-    "typ": "beräkna luminositet och absolut magnitud från temperatur och radie, ur text, sökt två storheter",
-    "t": "<p>Stjärnan Procyon har yttemperaturen 6530 K och radien 2,05 R<sub>sol</sub>.</p><ol><li>Beräkna luminositeten i L<sub>sol</sub>.</li><li>Bestäm den absoluta magnituden.</li></ol><p>Solens effektiva temperatur är 5772 K och absoluta bolometriska magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Magnituderna avser här den totala strålningen.</p></li><li><p>Använd samma bolometriska magnitudskala i alla steg.</p></li><li><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=2{,}05^2\\left(\\frac{6530}{5772}\\right)^4\\approx6{,}88\\]</div></li><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\log_{10}(6{,}88)\\approx2{,}65\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L\\approx6{,}88L_\\odot\\) och \\(M\\approx+2{,}65\\).</p></div>",
-    "familj": "Luminositet, radie och temperatur",
-    "formaga": [
-      "modellering",
-      "procedur"
-    ],
-    "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      6.884226607511908,
-      2.645362106185056
-    ],
-    "tolerans": [
-      0.13768453215023818,
-      0.05290724212370112
-    ],
-    "självrättning": [
-      true,
-      true
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarEnhet": [
-      "L☉",
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
-    "ledtrad": "<p>Beräkna först luminositeten relativt solen och använd därefter magnitudskalan.</p>",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Stjärnan Procyon har yttemperaturen 6530 K och radien 2,05 R<sub>sol</sub>.</p><p>Solens effektiva temperatur är 5772 K och absoluta bolometriska magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Beräkna luminositeten i L<sub>sol</sub>.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=2{,}05^2\\left(\\frac{6530}{5772}\\right)^4\\approx6{,}88\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Luminositeten är cirka \\(6{,}88L_\\odot\\).</p></div></div>",
-        "ledtrad": "<p>Beräkna först luminositeten relativt solen och använd därefter magnitudskalan.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Stjärnan Procyon har yttemperaturen 6530 K och radien 2,05 R<sub>sol</sub>.</p><p>Solens effektiva temperatur är 5772 K och absoluta bolometriska magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm den absoluta magnituden.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\log_{10}(6{,}88)\\approx2{,}65\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den absoluta magnituden är cirka \\(2{,}65\\).</p></div></div>",
-        "ledtrad": "<p>Beräkna först luminositeten relativt solen och använd därefter magnitudskalan.</p>",
-        "niva": "C",
-        "poang": "0/1/0"
-      }
-    ],
-    "familjTidigare": [
-      "Stjärnors färg, temperatur och ljusstyrka"
-    ]
-  },
+{
+  "id": "5.39",
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "A",
+  "poang": "0/1/1",
+  "typ": "beräkna luminositet och absolut magnitud från temperatur och radie, ur text, sökt två storheter",
+  "t": "<p>Stjärnan Procyon har yttemperaturen 6530 K och radien 2,05 R<sub>sol</sub>.</p><ol><li>Beräkna luminositeten i L<sub>sol</sub>.</li><li>Bestäm den absoluta magnituden.</li></ol><p>Solens effektiva temperatur är 5772 K och absoluta magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
+  "s": "<div class=\"facit-v2\"><p>Jämför stjärnans radie och temperatur med solens i Stefan–Boltzmanns lag.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=2{,}05^2\\left(\\frac{6530}{5772}\\right)^4\\approx6{,}88\\]</div><p>Jämför därefter den utstrålade effekten med solens för att bestämma magnituden. Använd den oavrundade effektkvoten.</p><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg(L/L_\\odot)\\approx+2{,}65\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(6{,}88L_\\odot\\). b) \\(M\\approx+2{,}65\\).</p></div>",
+  "familj": "Luminositet, radie och temperatur",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    6.884226607511908,
+    2.645362106185056
+  ],
+  "tolerans": [
+    0.13768453215023818,
+    0.05290724212370112
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "L☉",
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+  "ledtrad": "<p>Beräkna först luminositeten relativt solen och använd därefter magnitudskalan.</p>",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Stjärnan Procyon har yttemperaturen 6530 K och radien 2,05 R<sub>sol</sub>.</p><p>Solens effektiva temperatur är 5772 K och absoluta magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Beräkna luminositeten i L<sub>sol</sub>.</p></div>",
+      "s": "<div class=\"facit-v2\"><p>Jämför stjärnans radie och temperatur med solens i Stefan–Boltzmanns lag.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=2{,}05^2\\left(\\frac{6530}{5772}\\right)^4\\approx6{,}88\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}88L_\\odot\\).</p></div>",
+      "ledtrad": "<p>Jämför med solen med hjälp av radien och temperaturen.</p>",
+      "niva": "C",
+      "poang": "0/1/0",
+      "traningsniva": 3,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Stjärnan Procyon har yttemperaturen 6530 K och radien 2,05 R<sub>sol</sub>.</p><p>Solens effektiva temperatur är 5772 K och absoluta magnitud +4,74.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm den absoluta magnituden.</p></div>",
+      "s": "<div class=\"facit-v2\"><p>Jämför stjärnans radie och temperatur med solens i Stefan–Boltzmanns lag.</p><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=2{,}05^2\\left(\\frac{6530}{5772}\\right)^4\\approx6{,}88\\]</div><p>Jämför därefter den utstrålade effekten med solens för att bestämma magnituden. Använd den oavrundade effektkvoten.</p><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg(L/L_\\odot)\\approx+2{,}65\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(M\\approx+2{,}65\\).</p></div>",
+      "ledtrad": "<p>Beräkna först effektkvoten, därefter magnituden.</p>",
+      "niva": "A",
+      "poang": "0/0/1",
+      "traningsniva": 5,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 3
+    }
+  ],
+  "familjTidigare": [
+    "Stjärnors färg, temperatur och ljusstyrka"
+  ],
+  "traningsniva": 5,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "arbetsinsats": 3
+},
   {
     "id": "5.40",
     "kap": 5,
@@ -23712,159 +23922,220 @@ window.BANK2 = [
       "Astronomisk avståndsmätning"
     ]
   },
-  {
-    "id": "5.41",
-    "kap": 5,
-    "omr": "magnituder",
-    "niva": "C",
-    "poang": "(2/2/0)",
-    "typ": "beräkna luminositetskvot från skillnad i absolut magnitud, ur text, sökt kvot",
-    "t": "<p>Stjärna A har 3,83 magnitudenheter lägre absolut magnitud än stjärna B.</p><p>Hur många gånger större luminositet har A än B?</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En skillnad i absolut magnitud kopplas till luminositetskvoten med</p><div class=\"facit-matte\">\\[L_A/L_B=10^{-0{,}4(M_A-M_B)}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[M_A-M_B=-3{,}83\\].</div></div></li><li><div class=\"facit-matte\">\\[\\frac{L_A}{L_B}=10^{-0{,}4(-3{,}83)}=10^{1{,}532}=34{,}0\\]</div></li><li><p class=\"facit-metod\">Det är viktigt att använda faktorn 0,4 i exponenten; magnitudskalan är logaritmisk.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A har cirka 34 gånger större luminositet än B.</p></div>",
-    "familj": "Magnitud och luminositet",
-    "formaga": [
-      "modellering",
-      "procedur"
-    ],
-    "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
-    "ledtrad": "<p>En skillnad i absolut magnitud kopplas till luminositetskvoten med \\(L_A/L_B=10^{-0{,}4(M_A-M_B)}\\). Här är \\(M_A-M_B=-3{,}83\\).</p>",
-    "omrTidigare": [
-      "farg_ljusstyrka"
-    ],
-    "familjTidigare": [
-      "Stjärnors färg, temperatur och ljusstyrka"
-    ]
-  },
-  {
-    "id": "5.42",
-    "kap": 5,
-    "omr": "magnituder",
-    "niva": "A",
-    "poang": "(2/2/2)",
-    "typ": "kombinera parallax, magnitud, Wiens lag, luminositet och fotonenergi, ur text, sökt sex storheter",
-    "t": "<p>En stjärna har apparent magnitud +4,36, parallaxen 0,01925 bågsekunder och strålningsmaximum vid våglängden 632 nm.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"283\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,01925″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><ol><li>Bestäm avståndet.</li><li>Bestäm den absoluta magnituden.</li><li>Bestäm yttemperaturen.</li><li>Bestäm luminositeten.</li><li>Bestäm strålningsflödet vid jorden.</li><li>Ett teleskop har öppningsradien 3,0 m. Hur många fotoner per sekund träffar öppningen om allt infallande ljus förenklat antas ha våglängden 632 nm?</li></ol><p>Solens absoluta bolometriska magnitud är +4,74 och luminositeten 3,828·10<sup>26</sup> W.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Magnituderna avser här den totala strålningen.</p></li><li><p>Använd samma bolometriska magnitudskala i alla steg.</p></li><li><div class=\"facit-matte\">\\[d=\\frac1{0{,}01925}=51{,}948\\ \\mathrm{pc}\\]</div></li><li><div class=\"facit-matte\">\\[M=4{,}36+5-5\\log_{10}(d/\\mathrm{pc})\\approx0{,}7822\\]</div></li><li><div class=\"facit-matte\">\\[T=\\frac{2{,}898\\cdot10^{-3}}{632\\cdot10^{-9}}\\approx4585\\ \\mathrm K\\]</div></li><li><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=10^{-0{,}4(M-4{,}74)}\\approx38{,}3\\]</div></li><li><div class=\"facit-matte\">\\[F=\\frac{L}{4\\pi(d\\cdot3{,}086\\cdot10^{16}\\ \\mathrm{m/pc})^2}\\approx4{,}54\\cdot10^{-10}\\ \\mathrm{W/m^2}\\]</div></li><li><div class=\"facit-matte\">\\[\\dot N=\\frac{F\\pi(3{,}0\\ \\mathrm m)^2}{hc/\\lambda}\\approx4{,}08\\cdot10^{10}\\ \\mathrm{s^{-1}}\\]</div></li><li><p>Fotonantalet gäller den angivna enfärgsmodellen.</p></li><li><p>Det är inte i sig en övre gräns för ett verkligt stjärnspektrum; detektorns registrerade antal beror dessutom på våglängdsområde och verkningsgrad.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avstånd \\(51{,}948\\ \\mathrm{pc}\\), magnitud \\(0{,}7822\\), temperatur \\(4585\\ \\mathrm K\\), luminositet \\(38{,}3L_\\odot\\), flöde \\(4{,}54\\cdot10^{-10}\\ \\mathrm{W/m^2}\\) och cirka \\(4{,}08\\cdot10^{10}\\) fotoner/s.</p></div>",
-    "familj": "Magnitud och luminositet",
-    "formaga": [
-      "modellering",
-      "problemlösning"
-    ],
-    "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      51.94805194805195,
-      0.7821536692225965,
-      4585.443037974683,
-      38.29468771635267,
-      4.5391049219603156e-10,
-      40804399956.27891
-    ],
-    "tolerans": [
-      1.0389610389610389,
-      0.015643073384451932,
-      91.70886075949366,
-      0.7658937543270534,
-      9.078209843920631e-12,
-      816087999.1255782
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt",
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarEnhet": [
-      "pc",
-      null,
-      "K",
-      "L☉",
-      "W/m²",
-      "fotoner/s"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d",
-      "e",
-      "f"
-    ],
-    "familjNyckelTidigare": "avstandsmatning__parallax",
-    "ledtrad": "<p>Lös delarna i ordning. Varje resultat används i nästa steg.</p>",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>En stjärna har apparent magnitud +4,36, parallaxen 0,01925 bågsekunder och strålningsmaximum vid våglängden 632 nm.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"283\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,01925″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Solens absoluta bolometriska magnitud är +4,74 och luminositeten 3,828·10<sup>26</sup> W.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm avståndet.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[d=\\frac1{0{,}01925}=51{,}948\\ \\mathrm{pc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är \\(51{,}95\\ \\mathrm{pc}\\).</p></div></div>",
-        "ledtrad": "<p>Lös delarna i ordning. Varje resultat används i nästa steg.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>En stjärna har apparent magnitud +4,36, parallaxen 0,01925 bågsekunder och strålningsmaximum vid våglängden 632 nm.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"283\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,01925″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Solens absoluta bolometriska magnitud är +4,74 och luminositeten 3,828·10<sup>26</sup> W.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm den absoluta magnituden.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=4{,}36+5-5\\log_{10}(d/\\mathrm{pc})\\approx0{,}7822\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den absoluta magnituden är cirka \\(0{,}782\\).</p></div></div>",
-        "ledtrad": "<p>Lös delarna i ordning. Varje resultat används i nästa steg.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>En stjärna har apparent magnitud +4,36, parallaxen 0,01925 bågsekunder och strålningsmaximum vid våglängden 632 nm.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"283\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,01925″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Solens absoluta bolometriska magnitud är +4,74 och luminositeten 3,828·10<sup>26</sup> W.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm yttemperaturen.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=\\frac{2{,}898\\cdot10^{-3}}{632\\cdot10^{-9}}\\approx4585\\ \\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Yttemperaturen är cirka \\(4585\\ \\mathrm K\\).</p></div></div>",
-        "ledtrad": "<p>Lös delarna i ordning. Varje resultat används i nästa steg.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      },
-      {
-        "etikett": "d",
-        "t": "<p>En stjärna har apparent magnitud +4,36, parallaxen 0,01925 bågsekunder och strålningsmaximum vid våglängden 632 nm.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"283\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,01925″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Solens absoluta bolometriska magnitud är +4,74 och luminositeten 3,828·10<sup>26</sup> W.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm luminositeten.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac L{L_\\odot}=10^{-0{,}4(M-4{,}74)}\\approx38{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Luminositeten är cirka \\(38{,}3L_\\odot\\).</p></div></div>",
-        "ledtrad": "<p>Lös delarna i ordning. Varje resultat används i nästa steg.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      },
-      {
-        "etikett": "e",
-        "t": "<p>En stjärna har apparent magnitud +4,36, parallaxen 0,01925 bågsekunder och strålningsmaximum vid våglängden 632 nm.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"283\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,01925″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Solens absoluta bolometriska magnitud är +4,74 och luminositeten 3,828·10<sup>26</sup> W.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm strålningsflödet vid jorden.</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F=\\frac{L}{4\\pi(d\\cdot3{,}086\\cdot10^{16}\\ \\mathrm{m/pc})^2}\\approx4{,}54\\cdot10^{-10}\\ \\mathrm{W/m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Strålningsflödet vid jorden är cirka \\(4{,}54\\cdot10^{-10}\\ \\mathrm{W/m^2}\\).</p></div></div>",
-        "ledtrad": "<p>Lös delarna i ordning. Varje resultat används i nästa steg.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      },
-      {
-        "etikett": "f",
-        "t": "<p>En stjärna har apparent magnitud +4,36, parallaxen 0,01925 bågsekunder och strålningsmaximum vid våglängden 632 nm.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"283\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,01925″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Solens absoluta bolometriska magnitud är +4,74 och luminositeten 3,828·10<sup>26</sup> W.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Ett teleskop har öppningsradien 3,0 m. Hur många fotoner per sekund träffar öppningen om allt infallande ljus förenklat antas ha våglängden 632 nm?</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dot N=\\frac{F\\pi(3{,}0\\ \\mathrm m)^2}{hc/\\lambda}\\approx4{,}08\\cdot10^{10}\\ \\mathrm{s^{-1}}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> I den förenklade enfärgsmodellen träffar cirka \\(4{,}08\\cdot10^{10}\\) fotoner per sekund teleskopöppningen.</p></div></div>",
-        "ledtrad": "<p>Lös delarna i ordning. Varje resultat används i nästa steg.</p>",
-        "niva": "A",
-        "poang": "0/0/1"
-      }
-    ],
-    "omrTidigare": [
-      "avstandsmatning"
-    ],
-    "familjTidigare": [
-      "Astronomisk avståndsmätning"
-    ]
-  },
+{
+  "id": "5.41",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "tolka absolut magnitud utan magnitudberäkning",
+  "t": "<p>Stjärna A har absolut magnitud −1,83 och stjärna B har absolut magnitud +2,00. Magnituderna gäller den totala strålningen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 210\" role=\"img\" aria-label=\"Två stjärnor med angivna magnituder. Symbolernas storlek visar inte stjärnornas verkliga storlek.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"210\" fill=\"white\"/><rect x=\"35\" y=\"35\" width=\"185\" height=\"140\" rx=\"12\" fill=\"#f0f5fb\" stroke=\"#2b67a2\" stroke-width=\"2\"/><rect x=\"260\" y=\"35\" width=\"185\" height=\"140\" rx=\"12\" fill=\"#f0f5fb\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"127\" cy=\"75\" r=\"15\" fill=\"#f6cc64\" stroke=\"#846024\" stroke-width=\"2\"/><text x=\"127\" y=\"119\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"127\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">M = −1,83</text><circle cx=\"352\" cy=\"75\" r=\"15\" fill=\"#f6cc64\" stroke=\"#846024\" stroke-width=\"2\"/><text x=\"352\" y=\"119\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">B</text><text x=\"352\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">M = +2,00</text></svg></span><p>Vilken stjärna strålar ut mest energi per sekund? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Absolut magnitud jämför hur ljusstarka stjärnorna skulle vara på samma avstånd. Lägre absolut magnitud betyder större utstrålad effekt.</p><p class=\"facit-svar\"><strong>Svar:</strong> Stjärna A.</p></div>",
+  "familj": "Magnitud och luminositet",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+  "ledtrad": "<p>Vid jämförelse av absolut magnitud tänker man sig samma avstånd till stjärnorna.</p>",
+  "omrTidigare": [
+    "farg_ljusstyrka"
+  ],
+  "familjTidigare": [
+    "Stjärnors färg, temperatur och ljusstyrka"
+  ],
+  "alternativ": [
+    {
+      "txt": "Stjärna B.",
+      "ratt": false,
+      "kommentar": "B har högre absolut magnitud och strålar därför ut mindre effekt."
+    },
+    {
+      "txt": "De strålar ut lika mycket energi per sekund.",
+      "ratt": false,
+      "kommentar": "Då skulle de ha samma absoluta magnitud."
+    },
+    {
+      "txt": "Stjärna A.",
+      "ratt": true,
+      "kommentar": "A har lägre absolut magnitud och därmed större utstrålad effekt."
+    },
+    {
+      "txt": "Det går inte att avgöra utan avstånden.",
+      "ratt": false,
+      "kommentar": "Absolut magnitud är redan jämförelsen vid samma avstånd."
+    }
+  ],
+  "traningsniva": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "arbetsinsats": 1
+},
+{
+  "id": "5.42",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "A",
+  "poang": "2/1/3",
+  "typ": "kombinera parallax, magnitud, Wiens lag, luminositet och fotonenergi, ur text, sökt sex storheter",
+  "t": "<p>En stjärna har skenbar magnitud +4,36, parallaxen 0,01925 bågsekunder och strålningsmaximum vid 632 nm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 225\" role=\"img\" aria-label=\"Parallax p vid stjärnan. Vinkelrät sträcka 1 AU från solen till jorden.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"225\" fill=\"white\"/><path d=\"M65 145L410 145\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 55L410 145\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 55L65 145\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"145\" r=\"9\" fill=\"#f6cc64\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"55\" r=\"6\" fill=\"#2b67a2\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"410\" cy=\"145\" r=\"8\" fill=\"#f6cc64\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"36\" y=\"170\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">Solen</text><text x=\"65\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Jorden</text><text x=\"410\" y=\"173\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Stjärnan</text><text x=\"90\" y=\"105\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#243447\">1 AU</text><path d=\"M77 145L77 133\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M77 133L65 133\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"235\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">Figuren är inte skalenlig.</text><text x=\"242\" y=\"201\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Avstånd d</text><path d=\"M350 145 A60 60 0 0 1 351.94 129.85\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"300\" y=\"136\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">p</text></svg></span><p>Solen har absolut magnitud \\(+4{,}74\\) och strålar ut \\(3{,}828\\cdot10^{26}\\) W.</p><p>Magnituderna gäller stjärnornas totala strålning, vid alla våglängder.</p><p>Ljuset antas nå jorden utan att absorberas på vägen.</p><p><strong>a)</strong> Hur långt bort ligger stjärnan? (Svara i pc.)</p><p><strong>b)</strong> Bestäm stjärnans absoluta magnitud.</p><p><strong>c)</strong> Vilken yttemperatur har stjärnan? (Svara i K.)</p><p><strong>d)</strong> Hur många gånger solens effekt strålar stjärnan ut? (Svara med en faktor.)</p><p><strong>e)</strong> Vilken intensitet har strålningen vid jorden? (Svara i W/m².)</p><p><strong>f)</strong> Ett teleskop har en cirkelformad öppning med radien 3,0 m. Hur många fotoner träffar öppningen varje sekund? Räkna som om alla infallande fotoner har våglängden 632 nm. (Svara i fotoner/s.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Parallaxen ger avståndet i parsec.</p><div class=\"facit-matte\">\\[d=\\frac1{0{,}01925}\\approx51{,}948\\ \\mathrm{pc}\\]</div><p>Jämför skenbar och absolut magnitud med hjälp av avståndet.</p><div class=\"facit-matte\">\\[\\begin{aligned}M&=4{,}36+5-5\\lg(51{,}948)\\\\&\\approx0{,}78215\\end{aligned}\\]</div><p>Wiens lag kopplar strålningsmaximum till temperaturen.</p><div class=\"facit-matte\">\\[T=\\frac{2{,}898\\cdot10^{-3}}{632\\cdot10^{-9}}\\approx4585\\ \\mathrm K\\]</div><p>Den absoluta magnituden ger utstrålad effekt relativt solen.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{L}{L_\\odot}&=10^{(4{,}74-M)/2{,}5}\\approx38{,}2947\\\\L&\\approx1{,}466\\cdot10^{28}\\ \\mathrm W\\end{aligned}\\]</div><p>Effekten sprids över en sfär med radien lika med avståndet. Omvandla avståndet till meter.</p><div class=\"facit-matte\">\\[\\begin{aligned}d&\\approx51{,}948\\cdot3{,}086\\cdot10^{16}\\ \\mathrm m\\\\I&=\\frac{L}{4\\pi d^2}\\approx4{,}54\\cdot10^{-10}\\ \\mathrm{W/m^2}\\end{aligned}\\]</div><p>Teleskopets öppning tar emot effekten P=IA. Varje foton har energin E=hc/λ. Effekten dividerad med energin per foton ger antalet fotoner varje sekund.</p><div class=\"facit-matte\">\\[\\begin{aligned}A&=\\pi\\cdot3{,}0^2\\approx28{,}27\\ \\mathrm{m^2}\\\\P&=IA\\approx1{,}283\\cdot10^{-8}\\ \\mathrm W\\\\E&=\\frac{hc}{632\\cdot10^{-9}}\\approx3{,}14\\cdot10^{-19}\\ \\mathrm J\\\\\\frac{N}{t}&=\\frac{P}{E}\\approx4{,}08\\cdot10^{10}\\ \\mathrm{s^{-1}}\\end{aligned}\\]</div><p>Här räknas alla fotoner som om de hade våglängden 632 nm, precis som frågan anger. Det behövs ingen extra formel utöver sambanden ovan.</p><p class=\"facit-svar\"><strong>Svar:</strong> a) 51,95 pc.<br>b) +0,782.<br>c) 4585 K.<br>d) 38,3 gånger solens effekt.<br>e) \\(4{,}54\\cdot10^{-10}\\) W/m².<br>f) \\(4{,}08\\cdot10^{10}\\) fotoner/s.</p></div>",
+  "familj": "Magnitud och luminositet",
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    51.94805194805195,
+    0.7821536692225965,
+    4585.443037974683,
+    38.29468771635267,
+    4.5391049219603156e-10,
+    40804399956.27891
+  ],
+  "tolerans": [
+    1.0389610389610389,
+    0.015643073384451932,
+    91.70886075949366,
+    0.7658937543270534,
+    9.078209843920631e-12,
+    816087999.1255782
+  ],
+  "självrättning": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt",
+    "multipel",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "pc",
+    null,
+    "K",
+    null,
+    "W/m²",
+    "fotoner/s"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f"
+  ],
+  "familjNyckelTidigare": "avstandsmatning__parallax",
+  "ledtrad": "<p>Avstånd och magnitud ger utstrålad effekt. Intensitet och öppningens area ger mottagen effekt. Jämför sedan med energin per foton.</p>",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>En stjärnas parallax är 0,01925 bågsekunder.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 225\" role=\"img\" aria-label=\"Parallax p vid stjärnan. Vinkelrät sträcka 1 AU från solen till jorden.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"225\" fill=\"white\"/><path d=\"M65 145L410 145\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 55L410 145\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M65 55L65 145\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"145\" r=\"9\" fill=\"#f6cc64\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"65\" cy=\"55\" r=\"6\" fill=\"#2b67a2\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"410\" cy=\"145\" r=\"8\" fill=\"#f6cc64\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"36\" y=\"170\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">Solen</text><text x=\"65\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Jorden</text><text x=\"410\" y=\"173\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Stjärnan</text><text x=\"90\" y=\"105\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#243447\">1 AU</text><path d=\"M77 145L77 133\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M77 133L65 133\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"235\" y=\"24\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">Figuren är inte skalenlig.</text><text x=\"242\" y=\"201\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Avstånd d</text><path d=\"M350 145 A60 60 0 0 1 351.94 129.85\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"300\" y=\"136\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">p</text></svg></span><p>Hur långt bort ligger stjärnan? (Svara i pc.)</p>",
+      "s": "<div class=\"facit-v2\"><p>Parallaxen ger avståndet i parsec.</p><div class=\"facit-matte\">\\[d=\\frac1{0{,}01925}\\approx51{,}948\\ \\mathrm{pc}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 51,95 pc.</p></div>",
+      "ledtrad": "<p>Parallaxen anges i bågsekunder.</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "t": "<p>En stjärna har skenbar magnitud +4,36, parallaxen 0,01925 bågsekunder och strålningsmaximum vid 632 nm.</p><p>Solen har absolut magnitud \\(+4{,}74\\) och strålar ut \\(3{,}828\\cdot10^{26}\\) W.</p><p>Magnituderna gäller stjärnornas totala strålning, vid alla våglängder.</p><p>Ljuset antas nå jorden utan att absorberas på vägen.</p><p>Bestäm stjärnans absoluta magnitud.</p>",
+      "s": "<div class=\"facit-v2\"><p>Parallaxen ger avståndet i parsec.</p><div class=\"facit-matte\">\\[d=\\frac1{0{,}01925}\\approx51{,}948\\ \\mathrm{pc}\\]</div><p>Jämför skenbar och absolut magnitud med hjälp av avståndet.</p><div class=\"facit-matte\">\\[\\begin{aligned}M&=4{,}36+5-5\\lg(51{,}948)\\\\&\\approx0{,}78215\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> +0,782.</p></div>",
+      "ledtrad": "<p>Bestäm avståndet innan du beräknar den absoluta magnituden.</p>",
+      "niva": "C",
+      "poang": "0/1/0",
+      "traningsniva": 4,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 2
+    },
+    {
+      "etikett": "c",
+      "t": "<p>En stjärna har strålningsmaximum vid våglängden 632 nm.</p><p>Vilken yttemperatur har stjärnan? (Svara i K.)</p>",
+      "s": "<div class=\"facit-v2\"><p>Wiens lag kopplar strålningsmaximum till temperaturen.</p><div class=\"facit-matte\">\\[T=\\frac{2{,}898\\cdot10^{-3}}{632\\cdot10^{-9}}\\approx4585\\ \\mathrm K\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 4585 K.</p></div>",
+      "ledtrad": "<p>Koppla våglängden vid maximum till temperaturen.</p>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "d",
+      "t": "<p>En stjärna har skenbar magnitud +4,36, parallaxen 0,01925 bågsekunder och strålningsmaximum vid 632 nm.</p><p>Solen har absolut magnitud \\(+4{,}74\\) och strålar ut \\(3{,}828\\cdot10^{26}\\) W.</p><p>Magnituderna gäller stjärnornas totala strålning, vid alla våglängder.</p><p>Ljuset antas nå jorden utan att absorberas på vägen.</p><p>Hur många gånger solens effekt strålar stjärnan ut? (Svara med en faktor.)</p>",
+      "s": "<div class=\"facit-v2\"><p>Parallaxen ger avståndet i parsec.</p><div class=\"facit-matte\">\\[d=\\frac1{0{,}01925}\\approx51{,}948\\ \\mathrm{pc}\\]</div><p>Jämför skenbar och absolut magnitud med hjälp av avståndet.</p><div class=\"facit-matte\">\\[\\begin{aligned}M&=4{,}36+5-5\\lg(51{,}948)\\\\&\\approx0{,}78215\\end{aligned}\\]</div><p>Den absoluta magnituden ger utstrålad effekt relativt solen.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{L}{L_\\odot}&=10^{(4{,}74-M)/2{,}5}\\approx38{,}2947\\\\L&\\approx1{,}466\\cdot10^{28}\\ \\mathrm W\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 38,3 gånger solens effekt.</p></div>",
+      "ledtrad": "<p>Bestäm avstånd och absolut magnitud först.</p>",
+      "niva": "A",
+      "poang": "0/0/1",
+      "traningsniva": 5,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 3
+    },
+    {
+      "etikett": "e",
+      "t": "<p>En stjärna har skenbar magnitud +4,36, parallaxen 0,01925 bågsekunder och strålningsmaximum vid 632 nm.</p><p>Solen har absolut magnitud \\(+4{,}74\\) och strålar ut \\(3{,}828\\cdot10^{26}\\) W.</p><p>Magnituderna gäller stjärnornas totala strålning, vid alla våglängder.</p><p>Ljuset antas nå jorden utan att absorberas på vägen.</p><p>Vilken intensitet har strålningen vid jorden? (Svara i W/m².)</p>",
+      "s": "<div class=\"facit-v2\"><p>Parallaxen ger avståndet i parsec.</p><div class=\"facit-matte\">\\[d=\\frac1{0{,}01925}\\approx51{,}948\\ \\mathrm{pc}\\]</div><p>Jämför skenbar och absolut magnitud med hjälp av avståndet.</p><div class=\"facit-matte\">\\[\\begin{aligned}M&=4{,}36+5-5\\lg(51{,}948)\\\\&\\approx0{,}78215\\end{aligned}\\]</div><p>Den absoluta magnituden ger utstrålad effekt relativt solen.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{L}{L_\\odot}&=10^{(4{,}74-M)/2{,}5}\\approx38{,}2947\\\\L&\\approx1{,}466\\cdot10^{28}\\ \\mathrm W\\end{aligned}\\]</div><p>Effekten sprids över en sfär med radien lika med avståndet. Omvandla avståndet till meter.</p><div class=\"facit-matte\">\\[\\begin{aligned}d&\\approx51{,}948\\cdot3{,}086\\cdot10^{16}\\ \\mathrm m\\\\I&=\\frac{L}{4\\pi d^2}\\approx4{,}54\\cdot10^{-10}\\ \\mathrm{W/m^2}\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}54\\cdot10^{-10}\\) W/m².</p></div>",
+      "ledtrad": "<p>Beräkna utstrålad effekt och hur den sprids på vägen hit.</p>",
+      "niva": "A",
+      "poang": "0/0/1",
+      "traningsniva": 5,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 3
+    },
+    {
+      "etikett": "f",
+      "t": "<p>En stjärna har skenbar magnitud +4,36, parallaxen 0,01925 bågsekunder och strålningsmaximum vid 632 nm.</p><p>Solen har absolut magnitud \\(+4{,}74\\) och strålar ut \\(3{,}828\\cdot10^{26}\\) W.</p><p>Magnituderna gäller stjärnornas totala strålning, vid alla våglängder.</p><p>Ljuset antas nå jorden utan att absorberas på vägen.</p><p>Ett teleskop har en cirkelformad öppning med radien 3,0 m. Hur många fotoner träffar öppningen varje sekund? Räkna som om alla infallande fotoner har våglängden 632 nm. (Svara i fotoner/s.)</p>",
+      "s": "<div class=\"facit-v2\"><p>Parallaxen ger avståndet i parsec.</p><div class=\"facit-matte\">\\[d=\\frac1{0{,}01925}\\approx51{,}948\\ \\mathrm{pc}\\]</div><p>Jämför skenbar och absolut magnitud med hjälp av avståndet.</p><div class=\"facit-matte\">\\[\\begin{aligned}M&=4{,}36+5-5\\lg(51{,}948)\\\\&\\approx0{,}78215\\end{aligned}\\]</div><p>Den absoluta magnituden ger utstrålad effekt relativt solen.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{L}{L_\\odot}&=10^{(4{,}74-M)/2{,}5}\\approx38{,}2947\\\\L&\\approx1{,}466\\cdot10^{28}\\ \\mathrm W\\end{aligned}\\]</div><p>Effekten sprids över en sfär med radien lika med avståndet. Omvandla avståndet till meter.</p><div class=\"facit-matte\">\\[\\begin{aligned}d&\\approx51{,}948\\cdot3{,}086\\cdot10^{16}\\ \\mathrm m\\\\I&=\\frac{L}{4\\pi d^2}\\approx4{,}54\\cdot10^{-10}\\ \\mathrm{W/m^2}\\end{aligned}\\]</div><p>Teleskopets öppning tar emot effekten P=IA. Varje foton har energin E=hc/λ. Effekten dividerad med energin per foton ger antalet fotoner varje sekund.</p><div class=\"facit-matte\">\\[\\begin{aligned}A&=\\pi\\cdot3{,}0^2\\approx28{,}27\\ \\mathrm{m^2}\\\\P&=IA\\approx1{,}283\\cdot10^{-8}\\ \\mathrm W\\\\E&=\\frac{hc}{632\\cdot10^{-9}}\\approx3{,}14\\cdot10^{-19}\\ \\mathrm J\\\\\\frac{N}{t}&=\\frac{P}{E}\\approx4{,}08\\cdot10^{10}\\ \\mathrm{s^{-1}}\\end{aligned}\\]</div><p>Här räknas alla fotoner som om de hade våglängden 632 nm, precis som frågan anger. Det behövs ingen extra formel utöver sambanden ovan.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}08\\cdot10^{10}\\) fotoner/s.</p></div>",
+      "ledtrad": "<p>Bestäm först intensiteten vid jorden, sedan mottagen effekt och energi per foton.</p>",
+      "niva": "A",
+      "poang": "0/0/1",
+      "traningsniva": 5,
+      "miniräknare": true,
+      "geogebra": false,
+      "spel": true,
+      "arbetsinsats": 3
+    }
+  ],
+  "omrTidigare": [
+    "avstandsmatning"
+  ],
+  "familjTidigare": [
+    "Astronomisk avståndsmätning"
+  ],
+  "traningsniva": 5,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "arbetsinsats": 3
+},
   {
     "id": "5.43",
     "kap": 5,
@@ -26406,35 +26677,61 @@ window.BANK2 = [
       "Stjärnors utveckling och HR-diagram"
     ]
   },
-  {
-    "id": "5.48",
-    "kap": 5,
-    "omr": "magnituder",
-    "niva": "E",
-    "typ": "jämföra hur ljusstarka två stjärnor ser ut ur deras apparenta magnituder, ur text, sökt ljusstyrkeförhållande",
-    "poang": "(2/0/0)",
-    "t": "<p>Sirius har den apparenta magnituden −1,46 och Polstjärnan +1,98.</p><p>Vilken av stjärnorna ser ljusast ut från jorden, och hur många gånger ljusare ser den ut? En skillnad på 5 magnitudenheter motsvarar faktorn 100 i ljusstyrka.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Lägre magnitud betyder ljusare.</p></li><li><p class=\"facit-metod\">Skillnaden i magnitud räknas om till en faktor.</p></li><li><div class=\"facit-matte\">\\[\\Delta m=1{,}98-(-1{,}46)=3{,}44\\]\\[\\frac{I_1}{I_2}=100^{\\Delta m/5}=100^{3{,}44/5}=23{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sirius ser ljusast ut, ungefär \\(24\\) gånger ljusare än Polstjärnan.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Skalan är omvänd och logaritmisk.</p></li><li><p class=\"facit-not\">Att Sirius har negativ magnitud betyder inte något konstigt utan bara att den är ljusare än det nollvärde skalan en gång lades vid.</p></li></ol></div>",
-    "familj": "Apparent och absolut magnitud",
-    "formaga": [
-      "procedur"
-    ],
-    "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "numeriskt",
-    "rättSvar": 24,
-    "tolerans": 0.36,
-    "självrättning": true,
-    "svarFormat": "numeriskt",
-    "svarEnhet": null,
-    "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
-    "ledtrad": "<p>Lägre magnitud betyder ljusare. Skillnaden i magnitud räknas om till en faktor.</p>",
-    "omrTidigare": [
-      "farg_ljusstyrka"
-    ],
-    "familjTidigare": [
-      "Stjärnors färg, temperatur och ljusstyrka"
-    ]
-  },
+{
+  "id": "5.48",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "E",
+  "typ": "skilja skenbar ljusstyrka från utstrålad effekt",
+  "poang": "1/0/0",
+  "t": "<p>Sirius har skenbar magnitud −1,46 och Polstjärnan +1,98.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 255\" role=\"img\" aria-label=\"Skenbar magnitud: Sirius −1,46 och Polstjärnan +1,98 på samma skala.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"255\" fill=\"white\"/><path d=\"M60 110L420 110\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 105L60 115\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"60\" y=\"138\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">−2</text><path d=\"M132 105L132 115\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"132\" y=\"138\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">−1</text><path d=\"M204 105L204 115\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"204\" y=\"138\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M276 105L276 115\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"276\" y=\"138\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M348 105L348 115\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"348\" y=\"138\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M420 105L420 115\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"420\" y=\"138\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">3</text><circle cx=\"98.88\" cy=\"110\" r=\"5\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M98.88 100L98.88 68\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><text x=\"98.88\" y=\"57\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#2b67a2\">Sirius</text><circle cx=\"346.56\" cy=\"110\" r=\"5\" fill=\"#087f8c\" stroke=\"#087f8c\" stroke-width=\"2\"/><path d=\"M346.56 100L346.56 68\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"1.5\"/><text x=\"346.56\" y=\"57\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#087f8c\">Polstjärnan</text><text x=\"240\" y=\"235\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Skenbar magnitud</text></svg></span><p>Vilket påstående stämmer? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Lägre skenbar magnitud betyder att stjärnan ser ljusare ut från jorden. Men en närbelägen stjärna kan se ljus ut utan att stråla ut mest energi.</p><p class=\"facit-svar\"><strong>Svar:</strong> Sirius ser ljusast ut. För att jämföra stjärnornas utstrålade effekt behövs också deras avstånd.</p></div>",
+  "familj": "Apparent och absolut magnitud",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
+  "ledtrad": "<p>Skilj på hur ljus stjärnan ser ut härifrån och hur mycket energi den strålar ut.</p>",
+  "omrTidigare": [
+    "farg_ljusstyrka"
+  ],
+  "familjTidigare": [
+    "Stjärnors färg, temperatur och ljusstyrka"
+  ],
+  "alternativ": [
+    {
+      "txt": "Polstjärnan ser ljusast ut eftersom +1,98 är det största talet.",
+      "ratt": false,
+      "kommentar": "Magnitudskalan går åt andra hållet: lägre tal betyder ljusare."
+    },
+    {
+      "txt": "Sirius ser ljusast ut, men avstånden behövs för att jämföra utstrålad effekt.",
+      "ratt": true,
+      "kommentar": "Skenbar magnitud beskriver ljuset som når oss, inte stjärnans effekt ensam."
+    },
+    {
+      "txt": "Sirius ser ljusast ut och måste därför stråla ut mest energi per sekund.",
+      "ratt": false,
+      "kommentar": "Hur mycket ljus som når oss beror också på avståndet."
+    },
+    {
+      "txt": "Det går inte att avgöra vilken stjärna som ser ljusast ut.",
+      "ratt": false,
+      "kommentar": "Det är just detta som de skenbara magnituderna visar."
+    }
+  ],
+  "traningsniva": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "arbetsinsats": 1
+},
   {
     "id": "1.81",
     "kap": 1,

@@ -54003,5 +54003,223 @@ window.BANK2 = [
   "tolerans": 0.5,
   "svarFormat": "numeriskt",
   "svarEnhet": "mH"
+},
+{
+  "id": "6.303",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "fart ur graf för gammafaktorn",
+  "t": "<p>Tidsdilatation: \\(\\Delta t=\\gamma\\,\\Delta t_0\\), där \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p><p>Figuren visar \\(\\gamma\\) som funktion av \\(v/c\\). Vid vilken fart är \\(\\gamma=2\\)? (Svara uttryckt i c med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 330\" role=\"img\" aria-label=\"Gammafaktorn som funktion av v/c. Kurvan börjar i 1, är nästan vågrät för små farter och växer brant när v närmar sig c. En streckad linje visar γ = 2.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"85.0\" y1=\"22\" x2=\"85.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"122.0\" y1=\"22\" x2=\"122.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"159.0\" y1=\"22\" x2=\"159.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"196.0\" y1=\"22\" x2=\"196.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"233.0\" y1=\"22\" x2=\"233.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"270.0\" y1=\"22\" x2=\"270.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"307.0\" y1=\"22\" x2=\"307.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"344.0\" y1=\"22\" x2=\"344.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"381.0\" y1=\"22\" x2=\"381.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"418.0\" y1=\"22\" x2=\"418.0\" y2=\"288\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"288.0\" x2=\"418\" y2=\"288.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"265.8\" x2=\"418\" y2=\"265.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"243.7\" x2=\"418\" y2=\"243.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"221.5\" x2=\"418\" y2=\"221.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"199.3\" x2=\"418\" y2=\"199.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"177.2\" x2=\"418\" y2=\"177.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"155.0\" x2=\"418\" y2=\"155.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"132.8\" x2=\"418\" y2=\"132.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"110.7\" x2=\"418\" y2=\"110.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"88.5\" x2=\"418\" y2=\"88.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"66.3\" x2=\"418\" y2=\"66.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"44.2\" x2=\"418\" y2=\"44.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"418\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"288.0\" x2=\"428\" y2=\"288.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"432,288.0 422,283.0 422,293.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"288\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"430\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">v/c</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">γ</text><text x=\"85.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,1</text><text x=\"122.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,2</text><text x=\"159.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,3</text><text x=\"196.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,4</text><text x=\"233.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,5</text><text x=\"270.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,6</text><text x=\"307.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,7</text><text x=\"344.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,8</text><text x=\"381.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,9</text><text x=\"418.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"247.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"203.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"159.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"42.0\" y=\"114.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"70.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"305.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kfba7d3ac\"><rect x=\"48\" y=\"22\" width=\"370\" height=\"266\"/></clipPath><polyline clip-path=\"url(#kfba7d3ac)\" points=\"48.0,243.7 48.9,243.7 49.9,243.7 50.8,243.7 51.7,243.7 52.6,243.7 53.5,243.7 54.5,243.7 55.4,243.7 56.3,243.7 57.2,243.7 58.2,243.6 59.1,243.6 60.0,243.6 61.0,243.6 61.9,243.6 62.8,243.6 63.7,243.6 64.7,243.6 65.6,243.6 66.5,243.6 67.4,243.6 68.3,243.6 69.3,243.6 70.2,243.6 71.1,243.6 72.0,243.6 73.0,243.6 73.9,243.6 74.8,243.5 75.8,243.5 76.7,243.5 77.6,243.5 78.5,243.5 79.5,243.5 80.4,243.5 81.3,243.5 82.2,243.5 83.2,243.5 84.1,243.5 85.0,243.4 85.9,243.4 86.8,243.4 87.8,243.4 88.7,243.4 89.6,243.4 90.6,243.4 91.5,243.4 92.4,243.3 93.3,243.3 94.2,243.3 95.2,243.3 96.1,243.3 97.0,243.3 98.0,243.3 98.9,243.2 99.8,243.2 100.7,243.2 101.7,243.2 102.6,243.2 103.5,243.2 104.4,243.1 105.3,243.1 106.3,243.1 107.2,243.1 108.1,243.1 109.1,243.1 110.0,243.0 110.9,243.0 111.8,243.0 112.8,243.0 113.7,243.0 114.6,242.9 115.5,242.9 116.5,242.9 117.4,242.9 118.3,242.8 119.2,242.8 120.2,242.8 121.1,242.8 122.0,242.8 122.9,242.7 123.8,242.7 124.8,242.7 125.7,242.7 126.6,242.6 127.5,242.6 128.5,242.6 129.4,242.6 130.3,242.5 131.2,242.5 132.2,242.5 133.1,242.4 134.0,242.4 134.9,242.4 135.9,242.4 136.8,242.3 137.7,242.3 138.6,242.3 139.6,242.2 140.5,242.2 141.4,242.2 142.4,242.2 143.3,242.1 144.2,242.1 145.1,242.1 146.1,242.0 147.0,242.0 147.9,242.0 148.8,241.9 149.8,241.9 150.7,241.9 151.6,241.8 152.5,241.8 153.4,241.7 154.4,241.7 155.3,241.7 156.2,241.6 157.1,241.6 158.1,241.6 159.0,241.5 159.9,241.5 160.8,241.4 161.8,241.4 162.7,241.4 163.6,241.3 164.6,241.3 165.5,241.2 166.4,241.2 167.3,241.2 168.2,241.1 169.2,241.1 170.1,241.0 171.0,241.0 171.9,240.9 172.9,240.9 173.8,240.9 174.7,240.8 175.6,240.8 176.6,240.7 177.5,240.7 178.4,240.6 179.3,240.6 180.3,240.5 181.2,240.5 182.1,240.4 183.0,240.4 184.0,240.3 184.9,240.3 185.8,240.2 186.8,240.2 187.7,240.1 188.6,240.1 189.5,240.0 190.5,240.0 191.4,239.9 192.3,239.9 193.2,239.8 194.2,239.7 195.1,239.7 196.0,239.6 196.9,239.6 197.9,239.5 198.8,239.5 199.7,239.4 200.6,239.3 201.5,239.3 202.5,239.2 203.4,239.1 204.3,239.1 205.2,239.0 206.2,239.0 207.1,238.9 208.0,238.8 208.9,238.8 209.9,238.7 210.8,238.6 211.7,238.6 212.7,238.5 213.6,238.4 214.5,238.4 215.4,238.3 216.3,238.2 217.3,238.1 218.2,238.1 219.1,238.0 220.1,237.9 221.0,237.8 221.9,237.8 222.8,237.7 223.8,237.6 224.7,237.5 225.6,237.5 226.5,237.4 227.4,237.3 228.4,237.2 229.3,237.1 230.2,237.1 231.2,237.0 232.1,236.9 233.0,236.8 233.9,236.7 234.8,236.6 235.8,236.5 236.7,236.5 237.6,236.4 238.6,236.3 239.5,236.2 240.4,236.1 241.3,236.0 242.2,235.9 243.2,235.8 244.1,235.7 245.0,235.6 246.0,235.5 246.9,235.4 247.8,235.3 248.7,235.2 249.7,235.1 250.6,235.0 251.5,234.9 252.4,234.8 253.4,234.7 254.3,234.6 255.2,234.5 256.1,234.4 257.0,234.3 258.0,234.2 258.9,234.0 259.8,233.9 260.8,233.8 261.7,233.7 262.6,233.6 263.5,233.5 264.4,233.3 265.4,233.2 266.3,233.1 267.2,233.0 268.1,232.8 269.1,232.7 270.0,232.6 270.9,232.5 271.9,232.3 272.8,232.2 273.7,232.1 274.6,231.9 275.5,231.8 276.5,231.6 277.4,231.5 278.3,231.4 279.2,231.2 280.2,231.1 281.1,230.9 282.0,230.8 283.0,230.6 283.9,230.5 284.8,230.3 285.7,230.1 286.6,230.0 287.6,229.8 288.5,229.7 289.4,229.5 290.4,229.3 291.3,229.2 292.2,229.0 293.1,228.8 294.1,228.6 295.0,228.5 295.9,228.3 296.8,228.1 297.8,227.9 298.7,227.7 299.6,227.5 300.5,227.3 301.5,227.1 302.4,227.0 303.3,226.7 304.2,226.5 305.1,226.3 306.1,226.1 307.0,225.9 307.9,225.7 308.8,225.5 309.8,225.3 310.7,225.0 311.6,224.8 312.6,224.6 313.5,224.4 314.4,224.1 315.3,223.9 316.2,223.6 317.2,223.4 318.1,223.1 319.0,222.9 319.9,222.6 320.9,222.4 321.8,222.1 322.7,221.8 323.6,221.5 324.6,221.3 325.5,221.0 326.4,220.7 327.4,220.4 328.3,220.1 329.2,219.8 330.1,219.5 331.1,219.2 332.0,218.8 332.9,218.5 333.8,218.2 334.8,217.8 335.7,217.5 336.6,217.2 337.5,216.8 338.4,216.4 339.4,216.1 340.3,215.7 341.2,215.3 342.2,214.9 343.1,214.5 344.0,214.1 344.9,213.7 345.9,213.3 346.8,212.8 347.7,212.4 348.6,212.0 349.5,211.5 350.5,211.0 351.4,210.5 352.3,210.1 353.2,209.6 354.2,209.0 355.1,208.5 356.0,208.0 356.9,207.4 357.9,206.9 358.8,206.3 359.7,205.7 360.6,205.1 361.6,204.5 362.5,203.8 363.4,203.2 364.3,202.5 365.3,201.8 366.2,201.1 367.1,200.4 368.1,199.6 369.0,198.9 369.9,198.1 370.8,197.3 371.8,196.4 372.7,195.6 373.6,194.7 374.5,193.7 375.4,192.8 376.4,191.8 377.3,190.8 378.2,189.7 379.2,188.6 380.1,187.5 381.0,186.3 381.9,185.1 382.9,183.8 383.8,182.5 384.7,181.1 385.6,179.6 386.6,178.1 387.5,176.5 388.4,174.9 389.3,173.1 390.2,171.3 391.2,169.4 392.1,167.4 393.0,165.3 394.0,163.0 394.9,160.6 395.8,158.1 396.7,155.3 397.6,152.5 398.6,149.4 399.5,146.0 400.4,142.4 401.3,138.5 402.3,134.3 403.2,129.7 404.1,124.6 405.1,119.0 406.0,112.7 406.9,105.6 407.8,97.6 408.8,88.5 409.7,77.8 410.6,65.2 411.5,50.0 412.4,31.1 413.4,6.7 414.3,-26.3 415.2,-74.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"381.0\" y=\"48.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">γ</text><polyline clip-path=\"url(#kfba7d3ac)\" points=\"48.0,199.3 48.9,199.3 49.9,199.3 50.8,199.3 51.7,199.3 52.6,199.3 53.5,199.3 54.5,199.3 55.4,199.3 56.3,199.3 57.2,199.3 58.2,199.3 59.1,199.3 60.0,199.3 61.0,199.3 61.9,199.3 62.8,199.3 63.7,199.3 64.7,199.3 65.6,199.3 66.5,199.3 67.4,199.3 68.3,199.3 69.3,199.3 70.2,199.3 71.1,199.3 72.0,199.3 73.0,199.3 73.9,199.3 74.8,199.3 75.8,199.3 76.7,199.3 77.6,199.3 78.5,199.3 79.5,199.3 80.4,199.3 81.3,199.3 82.2,199.3 83.2,199.3 84.1,199.3 85.0,199.3 85.9,199.3 86.8,199.3 87.8,199.3 88.7,199.3 89.6,199.3 90.6,199.3 91.5,199.3 92.4,199.3 93.3,199.3 94.2,199.3 95.2,199.3 96.1,199.3 97.0,199.3 98.0,199.3 98.9,199.3 99.8,199.3 100.7,199.3 101.7,199.3 102.6,199.3 103.5,199.3 104.4,199.3 105.3,199.3 106.3,199.3 107.2,199.3 108.1,199.3 109.1,199.3 110.0,199.3 110.9,199.3 111.8,199.3 112.8,199.3 113.7,199.3 114.6,199.3 115.5,199.3 116.5,199.3 117.4,199.3 118.3,199.3 119.2,199.3 120.2,199.3 121.1,199.3 122.0,199.3 122.9,199.3 123.8,199.3 124.8,199.3 125.7,199.3 126.6,199.3 127.5,199.3 128.5,199.3 129.4,199.3 130.3,199.3 131.2,199.3 132.2,199.3 133.1,199.3 134.0,199.3 134.9,199.3 135.9,199.3 136.8,199.3 137.7,199.3 138.6,199.3 139.6,199.3 140.5,199.3 141.4,199.3 142.4,199.3 143.3,199.3 144.2,199.3 145.1,199.3 146.1,199.3 147.0,199.3 147.9,199.3 148.8,199.3 149.8,199.3 150.7,199.3 151.6,199.3 152.5,199.3 153.4,199.3 154.4,199.3 155.3,199.3 156.2,199.3 157.1,199.3 158.1,199.3 159.0,199.3 159.9,199.3 160.8,199.3 161.8,199.3 162.7,199.3 163.6,199.3 164.6,199.3 165.5,199.3 166.4,199.3 167.3,199.3 168.2,199.3 169.2,199.3 170.1,199.3 171.0,199.3 171.9,199.3 172.9,199.3 173.8,199.3 174.7,199.3 175.6,199.3 176.6,199.3 177.5,199.3 178.4,199.3 179.3,199.3 180.3,199.3 181.2,199.3 182.1,199.3 183.0,199.3 184.0,199.3 184.9,199.3 185.8,199.3 186.8,199.3 187.7,199.3 188.6,199.3 189.5,199.3 190.5,199.3 191.4,199.3 192.3,199.3 193.2,199.3 194.2,199.3 195.1,199.3 196.0,199.3 196.9,199.3 197.9,199.3 198.8,199.3 199.7,199.3 200.6,199.3 201.5,199.3 202.5,199.3 203.4,199.3 204.3,199.3 205.2,199.3 206.2,199.3 207.1,199.3 208.0,199.3 208.9,199.3 209.9,199.3 210.8,199.3 211.7,199.3 212.7,199.3 213.6,199.3 214.5,199.3 215.4,199.3 216.3,199.3 217.3,199.3 218.2,199.3 219.1,199.3 220.1,199.3 221.0,199.3 221.9,199.3 222.8,199.3 223.8,199.3 224.7,199.3 225.6,199.3 226.5,199.3 227.4,199.3 228.4,199.3 229.3,199.3 230.2,199.3 231.2,199.3 232.1,199.3 233.0,199.3 233.9,199.3 234.8,199.3 235.8,199.3 236.7,199.3 237.6,199.3 238.6,199.3 239.5,199.3 240.4,199.3 241.3,199.3 242.2,199.3 243.2,199.3 244.1,199.3 245.0,199.3 246.0,199.3 246.9,199.3 247.8,199.3 248.7,199.3 249.7,199.3 250.6,199.3 251.5,199.3 252.4,199.3 253.4,199.3 254.3,199.3 255.2,199.3 256.1,199.3 257.0,199.3 258.0,199.3 258.9,199.3 259.8,199.3 260.8,199.3 261.7,199.3 262.6,199.3 263.5,199.3 264.4,199.3 265.4,199.3 266.3,199.3 267.2,199.3 268.1,199.3 269.1,199.3 270.0,199.3 270.9,199.3 271.9,199.3 272.8,199.3 273.7,199.3 274.6,199.3 275.5,199.3 276.5,199.3 277.4,199.3 278.3,199.3 279.2,199.3 280.2,199.3 281.1,199.3 282.0,199.3 283.0,199.3 283.9,199.3 284.8,199.3 285.7,199.3 286.6,199.3 287.6,199.3 288.5,199.3 289.4,199.3 290.4,199.3 291.3,199.3 292.2,199.3 293.1,199.3 294.1,199.3 295.0,199.3 295.9,199.3 296.8,199.3 297.8,199.3 298.7,199.3 299.6,199.3 300.5,199.3 301.5,199.3 302.4,199.3 303.3,199.3 304.2,199.3 305.1,199.3 306.1,199.3 307.0,199.3 307.9,199.3 308.8,199.3 309.8,199.3 310.7,199.3 311.6,199.3 312.6,199.3 313.5,199.3 314.4,199.3 315.3,199.3 316.2,199.3 317.2,199.3 318.1,199.3 319.0,199.3 319.9,199.3 320.9,199.3 321.8,199.3 322.7,199.3 323.6,199.3 324.6,199.3 325.5,199.3 326.4,199.3 327.4,199.3 328.3,199.3 329.2,199.3 330.1,199.3 331.1,199.3 332.0,199.3 332.9,199.3 333.8,199.3 334.8,199.3 335.7,199.3 336.6,199.3 337.5,199.3 338.4,199.3 339.4,199.3 340.3,199.3 341.2,199.3 342.2,199.3 343.1,199.3 344.0,199.3 344.9,199.3 345.9,199.3 346.8,199.3 347.7,199.3 348.6,199.3 349.5,199.3 350.5,199.3 351.4,199.3 352.3,199.3 353.2,199.3 354.2,199.3 355.1,199.3 356.0,199.3 356.9,199.3 357.9,199.3 358.8,199.3 359.7,199.3 360.6,199.3 361.6,199.3 362.5,199.3 363.4,199.3 364.3,199.3 365.3,199.3 366.2,199.3 367.1,199.3 368.1,199.3 369.0,199.3 369.9,199.3 370.8,199.3 371.8,199.3 372.7,199.3 373.6,199.3 374.5,199.3 375.4,199.3 376.4,199.3 377.3,199.3 378.2,199.3 379.2,199.3 380.1,199.3 381.0,199.3 381.9,199.3 382.9,199.3 383.8,199.3 384.7,199.3 385.6,199.3 386.6,199.3 387.5,199.3 388.4,199.3 389.3,199.3 390.2,199.3 391.2,199.3 392.1,199.3 393.0,199.3 394.0,199.3 394.9,199.3 395.8,199.3 396.7,199.3 397.6,199.3 398.6,199.3 399.5,199.3 400.4,199.3 401.3,199.3 402.3,199.3 403.2,199.3 404.1,199.3 405.1,199.3 406.0,199.3 406.9,199.3 407.8,199.3 408.8,199.3 409.7,199.3 410.6,199.3 411.5,199.3 412.4,199.3 413.4,199.3 414.3,199.3 415.2,199.3 416.1,199.3 417.1,199.3 418.0,199.3\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Linjen \\(\\gamma=2\\) skär kurvan ungefär vid \\(v/c\\approx0{,}87\\).</p><p>Beräkning: \\(\\sqrt{1-v^2/c^2}=\\tfrac12\\) ger \\(v^2/c^2=\\tfrac34\\) och \\(v=\\tfrac{\\sqrt3}{2}c\\approx0{,}87c\\).</p></div>",
+  "familj": "Tolka tidsdilatation i grafer och situationer",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs av var kurvan når γ = 2, eller lös ekvationen.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.87,
+  "tolerans": 0.01,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "c"
+},
+{
+  "id": "6.304",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "vem mäter egentiden",
+  "t": "<p>Tidsdilatation: \\(\\Delta t=\\gamma\\,\\Delta t_0\\), där \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p><p>En astronaut i ett rymdskepp som rör sig snabbt förbi jorden tar tid på hur länge hon sover. Personer på jorden mäter samma sömn. Vem mäter egentiden \\(\\Delta t_0\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Egentiden mäts av en klocka som är i vila i förhållande till händelserna, alltså på samma plats som de inträffar. Astronauten somnar och vaknar på samma plats i skeppet.</p><p>Observatörerna på jorden mäter en längre tid, \\(\\Delta t=\\gamma\\Delta t_0\\).</p></div>",
+  "familj": "Tolka tidsdilatation i grafer och situationer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vem befinner sig på samma plats som händelserna?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Astronauten",
+      "ratt": true,
+      "kommentar": "Hon är i vila i förhållande till sin säng: båda händelserna sker där hon är."
+    },
+    {
+      "txt": "Personerna på jorden",
+      "ratt": false,
+      "kommentar": "För dem sker insomnandet och uppvaknandet på olika platser."
+    },
+    {
+      "txt": "Båda mäter samma tid",
+      "ratt": false,
+      "kommentar": "Tiden blir olika eftersom de rör sig i förhållande till varandra."
+    },
+    {
+      "txt": "Den som har snabbast klocka",
+      "ratt": false,
+      "kommentar": "Egentid handlar om vilket system händelserna sker i vila i."
+    }
+  ]
+},
+{
+  "id": "6.305",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "tvillingarnas åldersskillnad",
+  "t": "<p>Tidsdilatation: \\(\\Delta t=\\gamma\\,\\Delta t_0\\), där \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p><p>Den ena av två tvillingar reser till en stjärna och tillbaka med farten 0,60c. Enligt jordens klockor tar resan 8,0 år. Hur mycket yngre än sin tvilling är resenären när hon kommer hem? (Svara i år.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\gamma=\\dfrac{1}{\\sqrt{1-0{,}36}}=\\dfrac{1}{0{,}8}=1{,}25\\).</p><p>Resenärens egentid är \\(\\Delta t_0=\\dfrac{8{,}0}{1{,}25}=6{,}4\\) år. Hon är \\(8{,}0-6{,}4=1{,}6\\) år yngre.</p></div>",
+  "familj": "Tolka tidsdilatation i grafer och situationer",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Beräkna γ. Vilken tid är egentid här?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.6,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "år"
+},
+{
+  "id": "6.306",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "varför vi inte märker tidsdilatation",
+  "t": "<p>Tidsdilatation: \\(\\Delta t=\\gamma\\,\\Delta t_0\\), där \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p><p>Ett flygplan flyger med farten 300 m/s. Varför märker passagerarna inte av tidsdilatationen? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\dfrac{v}{c}=10^{-6}\\), så \\(\\gamma\\approx1+\\tfrac12\\cdot10^{-12}\\). Klockorna ombord tappar bara ungefär 0,3 mikrosekunder per vecka, vilket inte märks utan atomur.</p></div>",
+  "familj": "Tolka tidsdilatation i grafer och situationer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur stor är v/c? Vad blir γ då?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Farten är så liten jämfört med c att γ är nästan exakt 1.",
+      "ratt": true,
+      "kommentar": "v/c = 10⁻⁶ ger γ ≈ 1,0000000000005."
+    },
+    {
+      "txt": "Tidsdilatation gäller bara i rymden.",
+      "ratt": false,
+      "kommentar": "Den gäller för alla farter, även på jorden. Den har mätts med atomur i flygplan."
+    },
+    {
+      "txt": "Tidsdilatation gäller bara för ljus.",
+      "ratt": false,
+      "kommentar": "Den gäller för klockor och alla förlopp i rörelse."
+    },
+    {
+      "txt": "Tiden går snabbare i flygplanet, så det tar ut sig.",
+      "ratt": false,
+      "kommentar": "Den rörliga klockan går långsammare, inte snabbare."
+    }
+  ]
+},
+{
+  "id": "6.307",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "fart ur blinkande lampa",
+  "t": "<p>Tidsdilatation: \\(\\Delta t=\\gamma\\,\\Delta t_0\\), där \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p><p>En lampa på ett rymdskepp blinkar en gång per sekund mätt ombord. Från jorden mäts tiden mellan blinkningarna till 1,25 s (efter korrektion för ljusets gångtid). Bestäm skeppets fart. (Svara uttryckt i c.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\gamma=\\dfrac{\\Delta t}{\\Delta t_0}=1{,}25\\). Då är \\(\\sqrt{1-v^2/c^2}=0{,}8\\), \\(v^2/c^2=0{,}36\\) och \\(v=0{,}60c\\).</p></div>",
+  "familj": "Tolka tidsdilatation i grafer och situationer",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Bestäm γ ur kvoten mellan tiderna.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.6,
+  "tolerans": 0.005,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "c"
+},
+{
+  "id": "6.308",
+  "kap": 6,
+  "omr": "tidsdilatation",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "gammafaktorn nära ljusets hastighet",
+  "t": "<p>Tidsdilatation: \\(\\Delta t=\\gamma\\,\\Delta t_0\\), där \\(\\gamma=\\dfrac{1}{\\sqrt{1-v^2/c^2}}\\).</p><p>Vad händer med \\(\\gamma\\) när farten närmar sig ljusets hastighet? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>När \\(v\\to c\\) går \\(1-v^2/c^2\\to0\\), så nämnaren går mot 0 och \\(\\gamma\\) växer obegränsat. Därför kan inget föremål med massa nå ljusets hastighet.</p></div>",
+  "familj": "Tolka tidsdilatation i grafer och situationer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad händer med nämnaren i γ?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "γ växer utan gräns.",
+      "ratt": true,
+      "kommentar": "Nämnaren √(1 − v²/c²) går mot 0."
+    },
+    {
+      "txt": "γ närmar sig 2.",
+      "ratt": false,
+      "kommentar": "γ = 2 nås redan vid 0,87c, och γ fortsätter att växa."
+    },
+    {
+      "txt": "γ blir 0.",
+      "ratt": false,
+      "kommentar": "γ är alltid minst 1."
+    },
+    {
+      "txt": "γ närmar sig 1.",
+      "ratt": false,
+      "kommentar": "γ är nära 1 för låga farter, inte nära c."
+    }
+  ]
 }
 ];

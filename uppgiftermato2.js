@@ -99839,5 +99839,376 @@ window.BANKMATO2 = [
   "rättSvar": 5.28,
   "tolerans": 0.005,
   "svarFormat": "numeriskt"
+},
+{
+  "id": "4.584",
+  "kap": 5,
+  "omr": "avlasa_rita",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "villkor till en cirkel",
+  "t": "<p>Figuren visar en cirkel i det komplexa talplanet. Vilket villkor beskriver cirkeln? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 380\" role=\"img\" aria-label=\"En cirkel med medelpunkten 2 + i och radien 3 i det komplexa talplanet. Medelpunkten är markerad.\" style=\"width:100%;max-width:380px\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"378\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"86.8\" y1=\"22\" x2=\"86.8\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"125.5\" y1=\"22\" x2=\"125.5\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"164.2\" y1=\"22\" x2=\"164.2\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"203.0\" y1=\"22\" x2=\"203.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"241.8\" y1=\"22\" x2=\"241.8\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"280.5\" y1=\"22\" x2=\"280.5\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"319.2\" y1=\"22\" x2=\"319.2\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"358.0\" y1=\"22\" x2=\"358.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"338.0\" x2=\"358\" y2=\"338.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"298.5\" x2=\"358\" y2=\"298.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"259.0\" x2=\"358\" y2=\"259.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"219.5\" x2=\"358\" y2=\"219.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"180.0\" x2=\"358\" y2=\"180.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"140.5\" x2=\"358\" y2=\"140.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"101.0\" x2=\"358\" y2=\"101.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"61.5\" x2=\"358\" y2=\"61.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"358\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"219.5\" x2=\"368\" y2=\"219.5\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"372,219.5 362,214.5 362,224.5\" fill=\"#172b3a\"/><line x1=\"125.5\" y1=\"338\" x2=\"125.5\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"125.5,8 120.5,18 130.5,18\" fill=\"#172b3a\"/><text x=\"370\" y=\"210.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"133.5\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"236.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"86.8\" y=\"236.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"164.2\" y=\"236.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"203.0\" y=\"236.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"241.8\" y=\"236.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"280.5\" y=\"236.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"319.2\" y=\"236.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"358.0\" y=\"236.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"119.5\" y=\"342.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"119.5\" y=\"302.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"119.5\" y=\"263.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"119.5\" y=\"184.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"119.5\" y=\"144.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"119.5\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"119.5\" y=\"65.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"119.5\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"119.5\" y=\"236.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><circle cx=\"203.0\" cy=\"180.0\" r=\"116.2\" fill=\"none\" fill-opacity=\"0.55\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><clipPath id=\"kdb052b81\"><rect x=\"48\" y=\"22\" width=\"310\" height=\"316\"/></clipPath><circle cx=\"203.0\" cy=\"180.0\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Cirkeln har medelpunkten \\(2+i\\) och radien 3. Alla punkter på den har avståndet 3 till \\(2+i\\): \\(|z-(2+i)|=3\\).</p></div>",
+  "familj": "Tolka ortslinjer och områden i figurer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs av medelpunkt och radie. |z − a| är avståndet från z till a.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(|z-(2+i)|=3\\)",
+      "ratt": true,
+      "kommentar": "Avståndet till medelpunkten 2 + i är 3."
+    },
+    {
+      "txt": "\\(|z+(2+i)|=3\\)",
+      "ratt": false,
+      "kommentar": "Det är en cirkel kring −2 − i."
+    },
+    {
+      "txt": "\\(|z-(2+i)|=9\\)",
+      "ratt": false,
+      "kommentar": "Radien är 3, inte 9."
+    },
+    {
+      "txt": "\\(|z|=3\\)",
+      "ratt": false,
+      "kommentar": "Det är en cirkel kring origo."
+    }
+  ]
+},
+{
+  "id": "4.585",
+  "kap": 5,
+  "omr": "avlasa_rita",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "medelpunkt och radie ur villkor",
+  "t": "<p>Villkoret \\(|z+1-2i|=4\\) beskriver en cirkel. Bestäm medelpunktens realdel och imaginärdel samt radien.</p>",
+  "s": "<div class=\"facit-v2\"><p>Skriv om: \\(|z-(-1+2i)|=4\\). Medelpunkten är \\(-1+2i\\) och radien 4.</p></div>",
+  "familj": "Tolka ortslinjer och områden i figurer",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true,
+    true
+  ],
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv villkoret på formen |z − a| = r.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -1,
+    2,
+    4
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "realdel",
+    "imaginärdel",
+    "radie"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.586",
+  "kap": 5,
+  "omr": "avlasa_rita",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "tillhör punkten området",
+  "t": "<p>Det skuggade området i figuren är alla \\(z\\) med \\(|z-1|\\le2\\). Tillhör punkten \\(P=2+2i\\) området? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 380\" role=\"img\" aria-label=\"En fylld cirkelskiva med medelpunkten 1 och radien 2. Punkten P = 2 + 2i är markerad strax utanför kanten.\" style=\"width:100%;max-width:380px\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"378\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"99.7\" y1=\"22\" x2=\"99.7\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"151.3\" y1=\"22\" x2=\"151.3\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"203.0\" y1=\"22\" x2=\"203.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"254.7\" y1=\"22\" x2=\"254.7\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"306.3\" y1=\"22\" x2=\"306.3\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"358.0\" y1=\"22\" x2=\"358.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"338.0\" x2=\"358\" y2=\"338.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"285.3\" x2=\"358\" y2=\"285.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"232.7\" x2=\"358\" y2=\"232.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"180.0\" x2=\"358\" y2=\"180.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"127.3\" x2=\"358\" y2=\"127.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"74.7\" x2=\"358\" y2=\"74.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"358\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"232.7\" x2=\"368\" y2=\"232.7\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"372,232.7 362,227.7 362,237.7\" fill=\"#172b3a\"/><line x1=\"151.3\" y1=\"338\" x2=\"151.3\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"151.3,8 146.3,18 156.3,18\" fill=\"#172b3a\"/><text x=\"370\" y=\"223.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"159.3\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"249.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"99.7\" y=\"249.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"203.0\" y=\"249.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"254.7\" y=\"249.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"306.3\" y=\"249.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"358.0\" y=\"249.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"145.3\" y=\"342.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"145.3\" y=\"289.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"145.3\" y=\"184.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"145.3\" y=\"131.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"145.3\" y=\"78.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"145.3\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"145.3\" y=\"249.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><circle cx=\"203.0\" cy=\"232.7\" r=\"103.3\" fill=\"#bcd6f2\" fill-opacity=\"0.55\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><clipPath id=\"k3219e52d\"><rect x=\"48\" y=\"22\" width=\"310\" height=\"316\"/></clipPath><circle cx=\"203.0\" cy=\"232.7\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"254.7\" cy=\"127.3\" r=\"5\" fill=\"#172b3a\"/><text x=\"262.7\" y=\"121.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">P</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Avståndet från \\(P\\) till 1 är \\(|2+2i-1|=|1+2i|=\\sqrt{1+4}=\\sqrt5\\approx2{,}24\\).</p><p>Eftersom \\(\\sqrt5\\gt2\\) ligger \\(P\\) utanför området, även om den ser nära ut i figuren.</p></div>",
+  "familj": "Tolka ortslinjer och områden i figurer",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beräkna avståndet från P till medelpunkten.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Nej, avståndet till 1 är √5 ≈ 2,24, som är större än 2.",
+      "ratt": true,
+      "kommentar": "Punkten ligger strax utanför cirkeln."
+    },
+    {
+      "txt": "Ja, avståndet till 1 är 2.",
+      "ratt": false,
+      "kommentar": "Avståndet är √(1² + 2²) = √5."
+    },
+    {
+      "txt": "Ja, eftersom realdelen 2 är mindre än 1 + 2.",
+      "ratt": false,
+      "kommentar": "Både realdel och imaginärdel påverkar avståndet."
+    },
+    {
+      "txt": "Det går inte att avgöra.",
+      "ratt": false,
+      "kommentar": "Avståndet kan beräknas exakt."
+    }
+  ]
+},
+{
+  "id": "4.587",
+  "kap": 5,
+  "omr": "avlasa_rita",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "lika långt från två punkter",
+  "t": "<p>Mängden av alla \\(z\\) som uppfyller \\(|z-2|=|z-2i|\\) är en rät linje. Vilken? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 380\" role=\"img\" aria-label=\"Två markerade punkter: 2 på reella axeln och 2i på imaginära axeln. En streckad linje genom origo med lutningen 1 är dragen.\" style=\"width:100%;max-width:380px\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"378\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"92.3\" y1=\"22\" x2=\"92.3\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"136.6\" y1=\"22\" x2=\"136.6\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"180.9\" y1=\"22\" x2=\"180.9\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"225.1\" y1=\"22\" x2=\"225.1\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"269.4\" y1=\"22\" x2=\"269.4\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"313.7\" y1=\"22\" x2=\"313.7\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"358.0\" y1=\"22\" x2=\"358.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"338.0\" x2=\"358\" y2=\"338.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"292.9\" x2=\"358\" y2=\"292.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"247.7\" x2=\"358\" y2=\"247.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"202.6\" x2=\"358\" y2=\"202.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"157.4\" x2=\"358\" y2=\"157.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"112.3\" x2=\"358\" y2=\"112.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"67.1\" x2=\"358\" y2=\"67.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"358\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"202.6\" x2=\"368\" y2=\"202.6\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"372,202.6 362,197.6 362,207.6\" fill=\"#172b3a\"/><line x1=\"180.9\" y1=\"338\" x2=\"180.9\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"180.9,8 175.9,18 185.9,18\" fill=\"#172b3a\"/><text x=\"370\" y=\"193.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"188.9\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"219.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"92.3\" y=\"219.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"136.6\" y=\"219.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"225.1\" y=\"219.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"269.4\" y=\"219.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"313.7\" y=\"219.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"358.0\" y=\"219.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"174.9\" y=\"342.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"174.9\" y=\"296.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"174.9\" y=\"251.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"174.9\" y=\"161.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"174.9\" y=\"116.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"174.9\" y=\"71.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"174.9\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"174.9\" y=\"219.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kd0439849\"><rect x=\"48\" y=\"22\" width=\"310\" height=\"316\"/></clipPath><circle cx=\"269.4\" cy=\"202.6\" r=\"5\" fill=\"#172b3a\"/><text x=\"275.4\" y=\"220.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">2</text><circle cx=\"180.9\" cy=\"112.3\" r=\"5\" fill=\"#172b3a\"/><text x=\"188.9\" y=\"108.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">2i</text><line x1=\"48.0\" y1=\"338.0\" x2=\"358.0\" y2=\"22.0\" stroke=\"#d9622b\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Punkterna ligger lika långt från \\(2\\) och \\(2i\\), alltså på mittpunktsnormalen till sträckan mellan dem.</p><p>Med \\(z=x+iy\\): \\((x-2)^2+y^2=x^2+(y-2)^2\\), som förenklas till \\(y=x\\). Det är den streckade linjen.</p></div>",
+  "familj": "Tolka ortslinjer och områden i figurer",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Sätt z = x + iy och kvadrera båda leden.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(\\operatorname{Im}z=\\operatorname{Re}z\\), alltså linjen \\(y=x\\)",
+      "ratt": true,
+      "kommentar": "Mittpunktsnormalen till sträckan mellan 2 och 2i."
+    },
+    {
+      "txt": "\\(\\operatorname{Re}z=2\\)",
+      "ratt": false,
+      "kommentar": "Det är en lodrät linje genom 2."
+    },
+    {
+      "txt": "\\(\\operatorname{Im}z=2\\)",
+      "ratt": false,
+      "kommentar": "Det är en vågrät linje genom 2i."
+    },
+    {
+      "txt": "\\(y=-x\\)",
+      "ratt": false,
+      "kommentar": "Den linjen går inte mitt emellan punkterna."
+    }
+  ]
+},
+{
+  "id": "4.588",
+  "kap": 5,
+  "omr": "avlasa_rita",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "punkt i ett område",
+  "t": "<p>Det skuggade området består av alla \\(z\\) med \\(\\operatorname{Re}z\\gt1\\) och \\(\\operatorname{Im}z\\lt2\\). Vilken punkt ligger i området? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 380\" role=\"img\" aria-label=\"Ett skuggat område där realdelen är större än 1 och imaginärdelen är mindre än 2. Fyra punkter A till D är markerade.\" style=\"width:100%;max-width:380px\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"378\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"92.3\" y1=\"22\" x2=\"92.3\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"136.6\" y1=\"22\" x2=\"136.6\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"180.9\" y1=\"22\" x2=\"180.9\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"225.1\" y1=\"22\" x2=\"225.1\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"269.4\" y1=\"22\" x2=\"269.4\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"313.7\" y1=\"22\" x2=\"313.7\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"358.0\" y1=\"22\" x2=\"358.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"338.0\" x2=\"358\" y2=\"338.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"292.9\" x2=\"358\" y2=\"292.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"247.7\" x2=\"358\" y2=\"247.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"202.6\" x2=\"358\" y2=\"202.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"157.4\" x2=\"358\" y2=\"157.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"112.3\" x2=\"358\" y2=\"112.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"67.1\" x2=\"358\" y2=\"67.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"358\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"247.7\" x2=\"368\" y2=\"247.7\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"372,247.7 362,242.7 362,252.7\" fill=\"#172b3a\"/><line x1=\"136.6\" y1=\"338\" x2=\"136.6\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"136.6,8 131.6,18 141.6,18\" fill=\"#172b3a\"/><text x=\"370\" y=\"238.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"144.6\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"264.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"92.3\" y=\"264.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"180.9\" y=\"264.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"225.1\" y=\"264.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"269.4\" y=\"264.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"313.7\" y=\"264.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"358.0\" y=\"264.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"130.6\" y=\"342.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"130.6\" y=\"296.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"130.6\" y=\"206.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"130.6\" y=\"161.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"130.6\" y=\"116.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"130.6\" y=\"71.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"130.6\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"130.6\" y=\"264.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><rect x=\"180.9\" y=\"157.4\" width=\"177.1\" height=\"180.6\" fill=\"#bcd6f2\" fill-opacity=\"0.55\"/><clipPath id=\"k7556c809\"><rect x=\"48\" y=\"22\" width=\"310\" height=\"316\"/></clipPath><circle cx=\"269.4\" cy=\"202.6\" r=\"5\" fill=\"#172b3a\"/><text x=\"277.4\" y=\"196.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">A</text><circle cx=\"136.6\" cy=\"202.6\" r=\"5\" fill=\"#172b3a\"/><text x=\"144.6\" y=\"196.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">B</text><circle cx=\"269.4\" cy=\"112.3\" r=\"5\" fill=\"#172b3a\"/><text x=\"277.4\" y=\"106.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">C</text><circle cx=\"92.3\" cy=\"292.9\" r=\"5\" fill=\"#172b3a\"/><text x=\"100.3\" y=\"286.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">D</text><line x1=\"180.9\" y1=\"338.0\" x2=\"180.9\" y2=\"22.0\" stroke=\"#2f6fca\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/><line x1=\"48.0\" y1=\"157.4\" x2=\"358.0\" y2=\"157.4\" stroke=\"#2f6fca\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(A=3+i\\): realdelen \\(3\\gt1\\) och imaginärdelen \\(1\\lt2\\). Båda villkoren gäller.</p></div>",
+  "familj": "Tolka ortslinjer och områden i figurer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kontrollera båda villkoren för varje punkt.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A = 3 + i",
+      "ratt": true,
+      "kommentar": "Re = 3 > 1 och Im = 1 < 2."
+    },
+    {
+      "txt": "B = i",
+      "ratt": false,
+      "kommentar": "Re = 0 är inte större än 1."
+    },
+    {
+      "txt": "C = 3 + 3i",
+      "ratt": false,
+      "kommentar": "Im = 3 är inte mindre än 2."
+    },
+    {
+      "txt": "D = −1 − i",
+      "ratt": false,
+      "kommentar": "Re = −1 är inte större än 1."
+    }
+  ]
+},
+{
+  "id": "4.589",
+  "kap": 5,
+  "omr": "avlasa_rita",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "största avstånd till en punkt",
+  "t": "<p>Talet \\(z\\) ligger på cirkeln \\(|z|=2\\). Bestäm det största möjliga värdet av \\(|z+3|\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Cirkeln |z| = 2 kring origo och punkten −3 markerad på reella axeln. Den punkt på cirkeln som ligger längst från −3 är 2.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"86.9\" y1=\"22\" x2=\"86.9\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"125.8\" y1=\"22\" x2=\"125.8\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"164.7\" y1=\"22\" x2=\"164.7\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"203.6\" y1=\"22\" x2=\"203.6\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"242.4\" y1=\"22\" x2=\"242.4\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"281.3\" y1=\"22\" x2=\"281.3\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"320.2\" y1=\"22\" x2=\"320.2\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"359.1\" y1=\"22\" x2=\"359.1\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"398\" y2=\"258.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"218.7\" x2=\"398\" y2=\"218.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"179.3\" x2=\"398\" y2=\"179.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"140.0\" x2=\"398\" y2=\"140.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"100.7\" x2=\"398\" y2=\"100.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"61.3\" x2=\"398\" y2=\"61.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"140.0\" x2=\"408\" y2=\"140.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,140.0 402,135.0 402,145.0\" fill=\"#172b3a\"/><line x1=\"281.3\" y1=\"258\" x2=\"281.3\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"281.3,8 276.3,18 286.3,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"131.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"289.3\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−6</text><text x=\"86.9\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−5</text><text x=\"125.8\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−4</text><text x=\"164.7\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"203.6\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"242.4\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"320.2\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"359.1\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"398.0\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"275.3\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"275.3\" y=\"222.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"275.3\" y=\"183.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"275.3\" y=\"104.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"275.3\" y=\"65.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"275.3\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"275.3\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><circle cx=\"281.3\" cy=\"140.0\" r=\"77.8\" fill=\"none\" fill-opacity=\"0.55\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><clipPath id=\"k8756c413\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"236\"/></clipPath><circle cx=\"164.7\" cy=\"140.0\" r=\"5\" fill=\"#172b3a\"/><text x=\"154.7\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">−3</text><circle cx=\"359.1\" cy=\"140.0\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(|z+3|=|z-(-3)|\\) är avståndet från \\(z\\) till \\(-3\\). Det är störst för den punkt på cirkeln som ligger längst bort, \\(z=2\\).</p><p>Avståndet blir \\(2+3=5\\): radien plus avståndet från origo till \\(-3\\).</p></div>",
+  "familj": "Tolka ortslinjer och områden i figurer",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Tolka |z + 3| som ett avstånd. Vilken punkt på cirkeln ligger längst från −3?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "4.590",
+  "kap": 5,
+  "omr": "avlasa_rita",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "skärning mellan cirkel och linje",
+  "t": "<p>Cirkeln \\(|z|=5\\) och linjen \\(\\operatorname{Re}z=3\\) skär varandra i två punkter. Bestäm deras imaginärdelar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 380\" role=\"img\" aria-label=\"Cirkeln |z| = 5 och den lodräta linjen Re z = 3, som skär cirkeln i två punkter.\" style=\"width:100%;max-width:380px\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"378\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"73.8\" y1=\"22\" x2=\"73.8\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"99.7\" y1=\"22\" x2=\"99.7\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"125.5\" y1=\"22\" x2=\"125.5\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"151.3\" y1=\"22\" x2=\"151.3\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"177.2\" y1=\"22\" x2=\"177.2\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"203.0\" y1=\"22\" x2=\"203.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"228.8\" y1=\"22\" x2=\"228.8\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"254.7\" y1=\"22\" x2=\"254.7\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"280.5\" y1=\"22\" x2=\"280.5\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"306.3\" y1=\"22\" x2=\"306.3\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"332.2\" y1=\"22\" x2=\"332.2\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"358.0\" y1=\"22\" x2=\"358.0\" y2=\"338\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"338.0\" x2=\"358\" y2=\"338.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"311.7\" x2=\"358\" y2=\"311.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"285.3\" x2=\"358\" y2=\"285.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"259.0\" x2=\"358\" y2=\"259.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"232.7\" x2=\"358\" y2=\"232.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"206.3\" x2=\"358\" y2=\"206.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"180.0\" x2=\"358\" y2=\"180.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"153.7\" x2=\"358\" y2=\"153.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"127.3\" x2=\"358\" y2=\"127.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"101.0\" x2=\"358\" y2=\"101.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"74.7\" x2=\"358\" y2=\"74.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"48.3\" x2=\"358\" y2=\"48.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"358\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"180.0\" x2=\"368\" y2=\"180.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"372,180.0 362,175.0 362,185.0\" fill=\"#172b3a\"/><line x1=\"203.0\" y1=\"338\" x2=\"203.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"203.0,8 198.0,18 208.0,18\" fill=\"#172b3a\"/><text x=\"370\" y=\"171.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"211.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−6</text><text x=\"73.8\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−5</text><text x=\"99.7\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−4</text><text x=\"125.5\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"151.3\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"177.2\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"228.8\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"254.7\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"280.5\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"306.3\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"332.2\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"358.0\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"197.0\" y=\"342.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−6</text><text x=\"197.0\" y=\"315.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−5</text><text x=\"197.0\" y=\"289.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"197.0\" y=\"263.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"197.0\" y=\"236.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"197.0\" y=\"210.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"197.0\" y=\"157.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"197.0\" y=\"131.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"197.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"197.0\" y=\"78.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"197.0\" y=\"52.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"197.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"197.0\" y=\"197.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><circle cx=\"203.0\" cy=\"180.0\" r=\"129.2\" fill=\"none\" fill-opacity=\"0.55\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><clipPath id=\"kf3c8fecb\"><rect x=\"48\" y=\"22\" width=\"310\" height=\"316\"/></clipPath><circle cx=\"280.5\" cy=\"74.7\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"280.5\" cy=\"285.3\" r=\"5\" fill=\"#172b3a\"/><line x1=\"280.5\" y1=\"338.0\" x2=\"280.5\" y2=\"22.0\" stroke=\"#d9622b\" stroke-width=\"1.8\" stroke-dasharray=\"6 5\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>På linjen är \\(z=3+iy\\). Villkoret \\(|z|=5\\) ger \\(3^2+y^2=25\\), alltså \\(y^2=16\\) och \\(y=\\pm4\\).</p><p>Skärningspunkterna är \\(3+4i\\) och \\(3-4i\\).</p></div>",
+  "familj": "Tolka ortslinjer och områden i figurer",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Sätt z = 3 + iy i |z| = 5.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -4,
+    4
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "Im",
+    "Im"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.591",
+  "kap": 5,
+  "omr": "avlasa_rita",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "typ": "villkor till en lodrät linje",
+  "t": "<p>Figuren visar en mängd punkter i det komplexa talplanet. Vilket villkor beskriver den? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 300\" role=\"img\" aria-label=\"En lodrät linje genom −2 på reella axeln i det komplexa talplanet.\" style=\"width:100%;max-width:380px\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"86.8\" y1=\"22\" x2=\"86.8\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"125.5\" y1=\"22\" x2=\"125.5\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"164.2\" y1=\"22\" x2=\"164.2\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"203.0\" y1=\"22\" x2=\"203.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"241.8\" y1=\"22\" x2=\"241.8\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"280.5\" y1=\"22\" x2=\"280.5\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"319.2\" y1=\"22\" x2=\"319.2\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"358.0\" y1=\"22\" x2=\"358.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"358\" y2=\"258.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"218.7\" x2=\"358\" y2=\"218.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"179.3\" x2=\"358\" y2=\"179.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"140.0\" x2=\"358\" y2=\"140.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"100.7\" x2=\"358\" y2=\"100.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"61.3\" x2=\"358\" y2=\"61.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"358\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"140.0\" x2=\"368\" y2=\"140.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"372,140.0 362,135.0 362,145.0\" fill=\"#172b3a\"/><line x1=\"241.8\" y1=\"258\" x2=\"241.8\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"241.8,8 236.8,18 246.8,18\" fill=\"#172b3a\"/><text x=\"370\" y=\"131.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">Re</text><text x=\"249.8\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">Im</text><text x=\"48.0\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−5</text><text x=\"86.8\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−4</text><text x=\"125.5\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−3</text><text x=\"164.2\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−2</text><text x=\"203.0\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"280.5\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"319.2\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"358.0\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"235.8\" y=\"262.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−3</text><text x=\"235.8\" y=\"222.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"235.8\" y=\"183.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"235.8\" y=\"104.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"235.8\" y=\"65.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"235.8\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"235.8\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"ka27e788c\"><rect x=\"48\" y=\"22\" width=\"310\" height=\"236\"/></clipPath><line x1=\"164.2\" y1=\"258.0\" x2=\"164.2\" y2=\"22.0\" stroke=\"#2f6fca\" stroke-width=\"2.6\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Alla punkter på linjen har realdelen \\(-2\\), medan imaginärdelen kan vara vad som helst: \\(\\operatorname{Re}z=-2\\).</p></div>",
+  "familj": "Tolka ortslinjer och områden i figurer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad har alla punkter på linjen gemensamt?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(\\operatorname{Re}z=-2\\)",
+      "ratt": true,
+      "kommentar": "Alla punkter har realdelen −2."
+    },
+    {
+      "txt": "\\(\\operatorname{Im}z=-2\\)",
+      "ratt": false,
+      "kommentar": "Det är en vågrät linje."
+    },
+    {
+      "txt": "\\(|z|=2\\)",
+      "ratt": false,
+      "kommentar": "Det är en cirkel kring origo."
+    },
+    {
+      "txt": "\\(|z+2|=0\\)",
+      "ratt": false,
+      "kommentar": "Det är bara punkten −2."
+    }
+  ]
 }
 ];

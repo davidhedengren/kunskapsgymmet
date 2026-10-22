@@ -55454,5 +55454,240 @@ window.BANK2 = [
   "tolerans": 0.005,
   "svarFormat": "numeriskt",
   "svarEnhet": "N"
+},
+{
+  "id": "2.538",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "ordning för ett maximum",
+  "t": "<p>Två källor i fas: maximum när vägskillnaden \\(\\Delta s=n\\lambda\\), minimum när \\(\\Delta s=(n+\\tfrac12)\\lambda\\).</p><p>Två högtalare sänder i fas med våglängden 0,50 m. Till punkten P är vägskillnaden 1,5 m. Vilket ordningstal \\(n\\) har maximumet i P?</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(\\Delta s=n\\lambda\\) ger \\(n=\\dfrac{1{,}5}{0{,}50}=3\\). P ligger i tredje ordningens maximum.</p></div>",
+  "familj": "Interferensmönster och begrepp",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många hela våglängder ryms i vägskillnaden?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.539",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "maximum eller minimum ur vågbild",
+  "t": "<p>Figuren visar vågtoppar (heldragna) och vågdalar (streckade) från två källor i fas. Vad gäller i punkterna P och Q? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Två punktkällor S1 och S2 som sänder ut cirkulära vågor. Heldragna cirklar är vågtoppar och streckade cirklar vågdalar. Punkten P ligger där en vågtopp från S1 korsar en vågdal från S2, och Q där två vågtoppar korsas.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><clipPath id=\"vbklipp\"><rect x=\"2\" y=\"2\" width=\"416\" height=\"296\"/></clipPath><g clip-path=\"url(#vbklipp)\"><circle cx=\"150\" cy=\"260\" r=\"40\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"150\" cy=\"260\" r=\"20.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><circle cx=\"150\" cy=\"260\" r=\"80\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"150\" cy=\"260\" r=\"60.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><circle cx=\"150\" cy=\"260\" r=\"120\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"150\" cy=\"260\" r=\"100.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><circle cx=\"150\" cy=\"260\" r=\"160\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"150\" cy=\"260\" r=\"140.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><circle cx=\"150\" cy=\"260\" r=\"200\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"150\" cy=\"260\" r=\"180.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><circle cx=\"150\" cy=\"260\" r=\"240\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"150\" cy=\"260\" r=\"220.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><circle cx=\"150\" cy=\"260\" r=\"280\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"150\" cy=\"260\" r=\"260.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><circle cx=\"270\" cy=\"260\" r=\"40\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"270\" cy=\"260\" r=\"20.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><circle cx=\"270\" cy=\"260\" r=\"80\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"270\" cy=\"260\" r=\"60.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><circle cx=\"270\" cy=\"260\" r=\"120\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"270\" cy=\"260\" r=\"100.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><circle cx=\"270\" cy=\"260\" r=\"160\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"270\" cy=\"260\" r=\"140.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><circle cx=\"270\" cy=\"260\" r=\"200\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"270\" cy=\"260\" r=\"180.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><circle cx=\"270\" cy=\"260\" r=\"240\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"270\" cy=\"260\" r=\"220.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/><circle cx=\"270\" cy=\"260\" r=\"280\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.6\" opacity=\"0.8\"/><circle cx=\"270\" cy=\"260\" r=\"260.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\" opacity=\"0.6\"/></g><circle cx=\"241.7\" cy=\"82.2\" r=\"6\" fill=\"#172b3a\"/><text x=\"250.7\" y=\"76.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#172b3a\">P</text><circle cx=\"210.0\" cy=\"111.7\" r=\"6\" fill=\"#172b3a\"/><text x=\"219.0\" y=\"105.7\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#172b3a\">Q</text><circle cx=\"150\" cy=\"260\" r=\"5\" fill=\"#172b3a\"/><text x=\"150\" y=\"282\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">S1</text><circle cx=\"270\" cy=\"260\" r=\"5\" fill=\"#172b3a\"/><text x=\"270\" y=\"282\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">S2</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>I Q möts två vågtoppar: förstärkning (maximum). I P möts en vågtopp och en vågdal: utsläckning (minimum).</p></div>",
+  "familj": "Interferensmönster och begrepp",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad händer när en topp möter en topp, respektive en topp möter en dal?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Minimum i P och maximum i Q",
+      "ratt": true,
+      "kommentar": "Topp + dal släcker ut, topp + topp förstärker."
+    },
+    {
+      "txt": "Maximum i P och minimum i Q",
+      "ratt": false,
+      "kommentar": "Det är tvärtom."
+    },
+    {
+      "txt": "Maximum i båda punkterna",
+      "ratt": false,
+      "kommentar": "I P möter en topp en dal."
+    },
+    {
+      "txt": "Minimum i båda punkterna",
+      "ratt": false,
+      "kommentar": "I Q möts två toppar."
+    }
+  ]
+},
+{
+  "id": "2.540",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "antal maximilinjer mellan källorna",
+  "t": "<p>Två källor i fas: maximum när vägskillnaden \\(\\Delta s=n\\lambda\\), minimum när \\(\\Delta s=(n+\\tfrac12)\\lambda\\).</p><p>Två källor i fas står 2,0 m från varandra och sänder vågor med våglängden 0,50 m. Hur många maximilinjer (linjer med förstärkning) skär sträckan mellan källorna?</p>",
+  "s": "<div class=\"facit-v2\"><p>Mellan källorna kan vägskillnaden variera från \\(-2{,}0\\) m till \\(2{,}0\\) m. Maximum kräver \\(\\Delta s=n\\cdot0{,}50\\) där \\(|\\Delta s|\\lt2{,}0\\).</p><p>\\(n=-3,-2,\\dots,3\\) ger 7 maximilinjer. (\\(n=\\pm4\\) svarar mot punkterna bakom källorna.)</p></div>",
+  "familj": "Interferensmönster och begrepp",
+  "formaga": [
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilka värden kan vägskillnaden anta mellan källorna?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 7,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "2.541",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "aktiv bullerdämpning",
+  "t": "<p>Hörlurar med aktiv brusreducering spelar upp ett motljud. Vilken egenskap måste motljudet ha för att släcka ut bruset? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Motljudet ska ha samma frekvens och amplitud men vara förskjutet en halv period (motfas). Då möts en topp med en dal och vågorna släcker ut varandra.</p></div>",
+  "familj": "Interferensmönster och begrepp",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad krävs för destruktiv interferens?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Samma frekvens och amplitud, men i motfas",
+      "ratt": true,
+      "kommentar": "Topp möter dal och ljudet släcks ut."
+    },
+    {
+      "txt": "Samma frekvens, i fas",
+      "ratt": false,
+      "kommentar": "Då förstärks bruset."
+    },
+    {
+      "txt": "Dubbel frekvens",
+      "ratt": false,
+      "kommentar": "Olika frekvenser ger inte en stabil utsläckning."
+    },
+    {
+      "txt": "Mycket högre amplitud",
+      "ratt": false,
+      "kommentar": "Det gör ljudet starkare."
+    }
+  ]
+},
+{
+  "id": "2.542",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "mönstret vid högre frekvens",
+  "t": "<p>Två högtalare i fas ger ett interferensmönster. Frekvensen fördubblas. Hur ändras mönstret? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Våglängden \\(\\lambda=\\dfrac vf\\) halveras. Då räcker en mindre vägskillnad för att gå från ett maximum till nästa, så maxima och minima ligger tätare.</p></div>",
+  "familj": "Interferensmönster och begrepp",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur beror våglängden på frekvensen?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Maxima och minima ligger tätare.",
+      "ratt": true,
+      "kommentar": "Kortare våglängd ger tätare mönster."
+    },
+    {
+      "txt": "Maxima och minima ligger glesare.",
+      "ratt": false,
+      "kommentar": "Det skulle kräva längre våglängd."
+    },
+    {
+      "txt": "Mönstret ändras inte.",
+      "ratt": false,
+      "kommentar": "Läget för maxima beror på våglängden."
+    },
+    {
+      "txt": "Alla minima försvinner.",
+      "ratt": false,
+      "kommentar": "Det finns fortfarande punkter med utsläckning."
+    }
+  ]
+},
+{
+  "id": "2.543",
+  "kap": 2,
+  "omr": "interferens",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "källor i motfas på mittlinjen",
+  "t": "<p>Två högtalare svänger i motfas. En punkt ligger på mittlinjen, lika långt från båda högtalarna. Vad hörs där? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Vägskillnaden är 0, men eftersom källorna är i motfas kommer vågorna fram i motfas. Det blir ett minimum på mittlinjen.</p></div>",
+  "familj": "Interferensmönster och begrepp",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken fas har vågorna när de kommer fram, om vägskillnaden är 0?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ett minimum",
+      "ratt": true,
+      "kommentar": "Vägskillnad 0 och motfas ger utsläckning."
+    },
+    {
+      "txt": "Ett maximum",
+      "ratt": false,
+      "kommentar": "Det gäller för källor i fas."
+    },
+    {
+      "txt": "Dubbelt så hög frekvens",
+      "ratt": false,
+      "kommentar": "Interferens ändrar inte frekvensen."
+    },
+    {
+      "txt": "Det beror bara på avståndet till högtalarna.",
+      "ratt": false,
+      "kommentar": "På mittlinjen är vägskillnaden alltid 0."
+    }
+  ]
 }
 ];

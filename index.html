@@ -1236,6 +1236,18 @@ html[data-theme="dark"] .kursstampel{color:#EB8076;border-color:#EB8076;backgrou
    Statusfärgen (--tone) lever kvar i ringen och i statustexten. */
 .area-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
 .area-grid.stagger>.area{animation-fill-mode:backwards}
+.chapter-mix{grid-column:1/-1;display:flex;align-items:center;gap:14px;width:100%;
+  padding:16px 18px;border:1px solid var(--hair2);border-radius:18px;text-align:left;
+  color:var(--ink);background:linear-gradient(110deg,var(--accSoft),var(--surface));
+  cursor:pointer;transition:border-color .2s,background .2s}
+.chapter-mix:hover{border-color:var(--acc)}
+.chapter-mix:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.chapter-mix-icon{display:grid;place-items:center;flex:0 0 42px;height:42px;
+  border-radius:13px;background:var(--surface);color:var(--accInk)}
+.chapter-mix-icon svg{width:24px;height:24px}
+.chapter-mix-text{display:flex;flex-direction:column;gap:3px;min-width:0}
+.chapter-mix-text strong{font-size:15px}.chapter-mix-text small{color:var(--ink3);font-size:12px}
+.chapter-mix-arrow{margin-left:auto;color:var(--accInk);font-size:22px}
 .area{
   --lyft:cubic-bezier(.34,1.56,.64,1);
   --tone:#7d93a2;--toneDisc:rgba(125,147,162,.12);
@@ -4037,7 +4049,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-22-densitet-ma2-niva1";
+const BANK_VERSION="2026-10-22-kapitel-blandat-densitet-ma2";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -4061,6 +4073,7 @@ function sparaPagaendePass(){
       xp:state.sessionXp, ratt:state.sessionCorrect,
       uppdragsDag:state.uppdragsDag||null,
       passTyp:state.passTyp, omr:state.focusOmr, namn:state.focusNamn,
+      mixChapter:state.mixChapter,
       area:state.focusArea, family:state.focusFamily, niva:state.focusNiva||null,
       felKo:state.felKo||null, lastIds:(state.lastIds||[]).slice(-60)
     }));
@@ -4089,6 +4102,7 @@ function aterupptaPass(d){
   state.sessionDone=d.done||0; state.sessionTarget=d.target||8;
   state.sessionXp=d.xp||0; state.sessionCorrect=d.ratt||0;
   state.passTyp=d.passTyp||null;
+  state.mixChapter=d.mixChapter==null?null:String(d.mixChapter);
   state.focusOmr=d.omr||null; state.focusNamn=d.namn||null;
   state.focusArea=d.area||null; state.focusFamily=d.family||null;
   state.focusNiva=d.niva||null;
@@ -4121,7 +4135,7 @@ const state={
   currentTask:null, sessionDone:0, sessionTarget:8, sessionXp:0, sessionCorrect:0, lastArea:null,
   passHistory:[],passIndex:-1,passReview:false,passLive:null,passCourse:null,adminBlad:null,
   aktivRuta:0,
-  focusOmr:null, focusNamn:null, focusNiva:null, senasteUrsprung:[],
+  focusOmr:null, focusNamn:null, focusNiva:null, mixChapter:null, senasteUrsprung:[],
   flervalKap:null, flervalValda:null, flervalTyp:null, flervalKort:null,
   openChapters:null, partResults:[], partIndex:0, noXp:false,
   toppSort:"dag", toppVy:"elever", minKlass:undefined,
@@ -4522,7 +4536,7 @@ const navStack=[];
 function navDesc(view){
   return {view,larLage:larLage(),course:view==="larare"?null:state.course,track:state.track,
           area:state.focusArea,omr:state.focusOmr,namn:state.focusNamn,
-          family:state.focusFamily,niva:state.focusNiva,pass:state.passTyp};
+          family:state.focusFamily,niva:state.focusNiva,pass:state.passTyp,mixChapter:state.mixChapter};
 }
 function navRecord(view,replace){
   stangKunskap();
@@ -4576,6 +4590,7 @@ async function navRestore(st){
   state.focusFamily=st.family||null;
   state.focusNiva=st.niva||null;
   state.passTyp=st.pass||null;
+  state.mixChapter=st.mixChapter==null?null:String(st.mixChapter);
   applyAccent();
   switch(st.view){
     case "picker":   showAreaPicker(false); break;
@@ -5086,6 +5101,18 @@ function chapterHead(kap,namn,omraden,tranaKnapp){
       : `<button class="kaptrana valj" onclick="oppnaFlerval('${esc(String(kap))}')"
           title="Välj flera områden att blanda">Träna flera</button>`)}
   </div>`;
+}
+
+function chapterMixedCard(kap){
+  return `<button class="chapter-mix" data-mix-chapter="${esc(String(kap))}"
+      onclick="startChapter('${esc(String(kap))}')" aria-label="Blandat: ${esc(chapterName(kap))}">
+    <span class="chapter-mix-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M3 6h3c5 0 7 12 12 12h3m-4-4 4 4-4 4M3 18h3c2 0 3-2 4-4m4-4c1-2 2-4 4-4h3m-4-4 4 4-4 4"/>
+    </svg></span>
+    <span class="chapter-mix-text"><strong>Blandat</strong><small>Träna på alla områden i kapitlet</small></span>
+    <span class="chapter-mix-arrow" aria-hidden="true">→</span>
+  </button>`;
 }
 
 function chapterKnowledge(kap){
@@ -7013,7 +7040,7 @@ async function selectCourse(id,opts){
     state.track=c.defaultTrack || (c.tracks[0]||null);
     state.data={bank,kap,kapSpar,omr,grupp};
     state.focusArea=null;state.focusOmr=null;state.focusNamn=null;
-    state.focusFamily=null;state.currentTask=null;
+    state.focusFamily=null;state.currentTask=null;state.mixChapter=null;
     state.openChapters=null;
     ensureCourseProfile();
     migreraFamiljer();
@@ -7310,7 +7337,7 @@ async function oppnaSpar(id,spar){
 function setTrack(track){
   state.track=track; applyAccent(); state.openChapters=null;
   state.focusArea=null; state.focusOmr=null; state.focusNamn=null;
-  state.focusFamily=null; state.currentTask=null;
+  state.focusFamily=null; state.currentTask=null;state.mixChapter=null;
   renderDashboard();
 }
 
@@ -8450,6 +8477,7 @@ function renderDashboard(){
               aria-label="Punktträna delmoment i ${esc(a.name)}">${PUNKT_IKON}</button>`:""}
           </div>`;
         }).join("")}
+        ${chapterMixedCard(kap)}
       </div>
       </div>
     </section>`;}).join("");
@@ -8596,6 +8624,7 @@ function showAreaPicker(record){
               </span>
             </div>`;
           }).join("")}
+          ${chapterMixedCard(kap)}
         </div>
         </div>
       </section>`;}).join("")}
@@ -9020,6 +9049,18 @@ function chooseArea(pool){
     .sort((x,y)=>x.k-y.k)[0].a;
 }
 
+/* Ge kapitlets områden en tur var, utan att ett stort område tar över.
+   Fräscha uppgifter och elevens nivå väljs fortfarande av vanliga motorn. */
+function chooseChapterArea(pool){
+  const counts=new Map([...new Set(pool.map(t=>t.omr||"ovrigt"))].map(a=>[a,0]));
+  for(const {task} of state.passHistory||[]){
+    const a=task.omr||"ovrigt";
+    if(counts.has(a))counts.set(a,counts.get(a)+1);
+  }
+  const min=Math.min(...counts.values());
+  return chooseArea(pool.filter(t=>counts.get(t.omr||"ovrigt")===min));
+}
+
 /* Historik över visade uppgifter som överlever mellan pass och omladdningar.
    Lagras per konto och kurs i localStorage (inte i molnprofilen, för att
    hålla synken liten). Varje visning får ett löpnummer, så "ålder" mäts i
@@ -9089,6 +9130,7 @@ function chooseTask(){
     if(t) return t;
   }
   let pool=availableTasks();
+  if(state.mixChapter!=null) pool=pool.filter(t=>String(t.kap)===state.mixChapter);
   if(state.focusOmr) pool=pool.filter(t=>state.focusOmr.includes(t.omr||"ovrigt"));
   else if(state.focusArea) pool=pool.filter(t=>t.omr===state.focusArea);
   if(state.focusFamily){
@@ -9112,7 +9154,8 @@ function chooseTask(){
   const sedda=lasSedda();
   pool=farskaUppgifter(pool,sedda);
 
-  const area = state.focusArea || (state.prov ? provValjOmrade(pool) : chooseArea(pool));
+  const area = state.focusArea || (state.prov ? provValjOmrade(pool)
+    : state.mixChapter!=null ? chooseChapterArea(pool) : chooseArea(pool));
   if(!state.focusArea) pool=pool.filter(t=>(t.omr||"ovrigt")===area);
 
   const buckets=Object.fromEntries(NIVAER.map(L=>[L,[]]));
@@ -9163,6 +9206,7 @@ function chooseTask(){
 }
 
 function beginSession(typ){
+  state.mixChapter=null;
   state.adminBlad=null;
   state.uppdragsDag=state.uppdragValForPass||null;state.uppdragValForPass=null;
   state.passHistory=[];state.passIndex=-1;state.passReview=false;state.passLive=null;
@@ -9268,6 +9312,7 @@ function adminBladSortering(a,b){
 }
 function adminBladLista(){
   let pool=availableTasks();
+  if(state.mixChapter!=null) pool=pool.filter(t=>String(t.kap)===state.mixChapter);
   if(state.focusOmr) pool=pool.filter(t=>state.focusOmr.includes(t.omr||"ovrigt"));
   else if(state.focusArea) pool=pool.filter(t=>t.omr===state.focusArea);
   if(state.focusFamily){
@@ -9532,10 +9577,13 @@ function startaPunkt(familjer){
 }
 
 function startChapter(kap){
-  const omr=getAreas().filter(a=>String(a.kap)===String(kap)).map(a=>a.key);
+  // Samma områdesnyckel kan förekomma i flera kapitel. Utgå från uppgifternas
+  // kapitel här, inte områdeslistans första förekomst av nyckeln.
+  const omr=[...new Set(availableTasks().filter(t=>String(t.kap)===String(kap)).map(t=>t.omr||"ovrigt"))];
   if(!omr.length) return;
-  state.focusArea=null;state.focusOmr=omr;state.focusNamn=chapterName(kap);
+  state.focusArea=null;state.focusOmr=omr;state.focusNamn="Blandat · "+chapterName(kap);
   state.focusFamily=null;beginSession();
+  state.mixChapter=String(kap);
   navRecord("training");nextTask();
 }
 
@@ -9573,7 +9621,7 @@ function startCardLevel(key,nivaer){
   state.focusNiva=L; state.sessionTarget=6;
   navRecord("training"); nextTask();
 }
-function continueSession(){ const niva=state.focusNiva;state.uppdragValForPass=state.uppdragsDag||null; beginSession(state.prov?"prov":undefined); state.focusNiva=niva; navRecord("training",true); nextTask(); }
+function continueSession(){ const niva=state.focusNiva,mixChapter=state.mixChapter;state.uppdragValForPass=state.uppdragsDag||null; beginSession(state.prov?"prov":undefined); state.focusNiva=niva;state.mixChapter=mixChapter; navRecord("training",true); nextTask(); }
 function nextTask(){
   if(state.adminBlad) return adminBladAvsluta();
   if(state.passReview) return passFramat();

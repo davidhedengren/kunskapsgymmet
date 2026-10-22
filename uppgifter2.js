@@ -54639,5 +54639,199 @@ window.BANK2 = [
   "tolerans": 500.0,
   "svarFormat": "numeriskt",
   "svarEnhet": "V/m"
+},
+{
+  "id": "3.435",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "vilken ände blir positiv",
+  "t": "<p>Inducerad spänning i en rak ledare: \\(e=Blv\\) när ledaren, farten och fältet är vinkelräta mot varandra.</p><p>Staven i figuren rör sig åt höger genom ett magnetfält som är riktat in i pappret. Vilken ände av staven blir positiv? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"En lodrät metallstav med ändarna P upptill och Q nedtill rör sig åt höger i ett magnetfält som är riktat in i pappret (kryss).\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"30\" x2=\"45\" y2=\"40\"/><line x1=\"35\" y1=\"40\" x2=\"45\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"70\" x2=\"45\" y2=\"80\"/><line x1=\"35\" y1=\"80\" x2=\"45\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"110\" x2=\"45\" y2=\"120\"/><line x1=\"35\" y1=\"120\" x2=\"45\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"150\" x2=\"45\" y2=\"160\"/><line x1=\"35\" y1=\"160\" x2=\"45\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"190\" x2=\"45\" y2=\"200\"/><line x1=\"35\" y1=\"200\" x2=\"45\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"30\" x2=\"85\" y2=\"40\"/><line x1=\"75\" y1=\"40\" x2=\"85\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"70\" x2=\"85\" y2=\"80\"/><line x1=\"75\" y1=\"80\" x2=\"85\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"110\" x2=\"85\" y2=\"120\"/><line x1=\"75\" y1=\"120\" x2=\"85\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"150\" x2=\"85\" y2=\"160\"/><line x1=\"75\" y1=\"160\" x2=\"85\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"190\" x2=\"85\" y2=\"200\"/><line x1=\"75\" y1=\"200\" x2=\"85\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"30\" x2=\"125\" y2=\"40\"/><line x1=\"115\" y1=\"40\" x2=\"125\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"70\" x2=\"125\" y2=\"80\"/><line x1=\"115\" y1=\"80\" x2=\"125\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"110\" x2=\"125\" y2=\"120\"/><line x1=\"115\" y1=\"120\" x2=\"125\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"150\" x2=\"125\" y2=\"160\"/><line x1=\"115\" y1=\"160\" x2=\"125\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"190\" x2=\"125\" y2=\"200\"/><line x1=\"115\" y1=\"200\" x2=\"125\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"30\" x2=\"205\" y2=\"40\"/><line x1=\"195\" y1=\"40\" x2=\"205\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"70\" x2=\"205\" y2=\"80\"/><line x1=\"195\" y1=\"80\" x2=\"205\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"110\" x2=\"205\" y2=\"120\"/><line x1=\"195\" y1=\"120\" x2=\"205\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"150\" x2=\"205\" y2=\"160\"/><line x1=\"195\" y1=\"160\" x2=\"205\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"190\" x2=\"205\" y2=\"200\"/><line x1=\"195\" y1=\"200\" x2=\"205\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"30\" x2=\"245\" y2=\"40\"/><line x1=\"235\" y1=\"40\" x2=\"245\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"70\" x2=\"245\" y2=\"80\"/><line x1=\"235\" y1=\"80\" x2=\"245\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"110\" x2=\"245\" y2=\"120\"/><line x1=\"235\" y1=\"120\" x2=\"245\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"150\" x2=\"245\" y2=\"160\"/><line x1=\"235\" y1=\"160\" x2=\"245\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"190\" x2=\"245\" y2=\"200\"/><line x1=\"235\" y1=\"200\" x2=\"245\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"30\" x2=\"285\" y2=\"40\"/><line x1=\"275\" y1=\"40\" x2=\"285\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"70\" x2=\"285\" y2=\"80\"/><line x1=\"275\" y1=\"80\" x2=\"285\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"110\" x2=\"285\" y2=\"120\"/><line x1=\"275\" y1=\"120\" x2=\"285\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"150\" x2=\"285\" y2=\"160\"/><line x1=\"275\" y1=\"160\" x2=\"285\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"190\" x2=\"285\" y2=\"200\"/><line x1=\"275\" y1=\"200\" x2=\"285\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"30\" x2=\"325\" y2=\"40\"/><line x1=\"315\" y1=\"40\" x2=\"325\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"70\" x2=\"325\" y2=\"80\"/><line x1=\"315\" y1=\"80\" x2=\"325\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"110\" x2=\"325\" y2=\"120\"/><line x1=\"315\" y1=\"120\" x2=\"325\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"150\" x2=\"325\" y2=\"160\"/><line x1=\"315\" y1=\"160\" x2=\"325\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"190\" x2=\"325\" y2=\"200\"/><line x1=\"315\" y1=\"200\" x2=\"325\" y2=\"190\"/></g><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"190\" stroke=\"#172b3a\" stroke-width=\"6\" stroke-linecap=\"round\"/><text x=\"160\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#172b3a\" text-anchor=\"end\">P</text><text x=\"160\" y=\"204\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#172b3a\" text-anchor=\"end\">Q</text><line x1=\"185\" y1=\"115\" x2=\"245\" y2=\"115\" stroke=\"#d9622b\" stroke-width=\"3\"/><polygon points=\"252,115 242,109 242,121\" fill=\"#d9622b\"/><text x=\"214\" y=\"105\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#d9622b\">v</text><text x=\"348\" y=\"222\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#172b3a\" text-anchor=\"end\">B in i pappret</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Kraften på en positiv laddning som rör sig åt höger i ett fält in i pappret är riktad uppåt (högerhandsregeln, \\(\\vec F=q\\vec v\\times\\vec B\\)).</p><p>Positiva laddningar samlas därför i P och elektroner trycks mot Q. P blir positiv.</p></div>",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd högerhandsregeln för en positiv laddning som följer med staven.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "P (övre änden)",
+      "ratt": true,
+      "kommentar": "Kraften på positiva laddningar är riktad uppåt."
+    },
+    {
+      "txt": "Q (nedre änden)",
+      "ratt": false,
+      "kommentar": "Dit trycks elektronerna, så Q blir negativ."
+    },
+    {
+      "txt": "Ingen ände, eftersom staven inte är kopplad till något.",
+      "ratt": false,
+      "kommentar": "Laddningarna förskjuts ändå, så att en spänning uppstår mellan ändarna."
+    }
+  ]
+},
+{
+  "id": "3.436",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "magnetfältet ur en graf",
+  "t": "<p>Inducerad spänning i en rak ledare: \\(e=Blv\\) när ledaren, farten och fältet är vinkelräta mot varandra.</p><p>En 0,40 m lång stav rör sig vinkelrätt mot ett magnetfält. Grafen visar den inducerade spänningen som funktion av farten. Bestäm magnetfältets flödestäthet. (Svara i T.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Inducerad spänning som funktion av farten, en rät linje genom origo och den markerade punkten (5, 1,0).\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"83.0\" y1=\"22\" x2=\"83.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"118.0\" y1=\"22\" x2=\"118.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"153.0\" y1=\"22\" x2=\"153.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"188.0\" y1=\"22\" x2=\"188.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"258.0\" y1=\"22\" x2=\"258.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"293.0\" y1=\"22\" x2=\"293.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"328.0\" y1=\"22\" x2=\"328.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"363.0\" y1=\"22\" x2=\"363.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"398\" y2=\"278.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"252.4\" x2=\"398\" y2=\"252.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"226.8\" x2=\"398\" y2=\"226.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"201.2\" x2=\"398\" y2=\"201.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"175.6\" x2=\"398\" y2=\"175.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"150.0\" x2=\"398\" y2=\"150.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"124.4\" x2=\"398\" y2=\"124.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"98.8\" x2=\"398\" y2=\"98.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"73.2\" x2=\"398\" y2=\"73.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"47.6\" x2=\"398\" y2=\"47.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"408\" y2=\"278.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,278.0 402,273.0 402,283.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"278\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"269.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">v (m/s)</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">e (V)</text><text x=\"83.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"118.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"153.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"188.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"223.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"258.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"293.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><text x=\"328.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"363.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">9</text><text x=\"398.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"42.0\" y=\"230.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0,5</text><text x=\"42.0\" y=\"179.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"128.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1,5</text><text x=\"42.0\" y=\"77.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2,5</text><text x=\"42.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kdb63e354\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"256\"/></clipPath><polyline clip-path=\"url(#kdb63e354)\" points=\"48.0,278.0 48.9,277.5 49.8,277.0 50.6,276.5 51.5,276.0 52.4,275.4 53.2,274.9 54.1,274.4 55.0,273.9 55.9,273.4 56.8,272.9 57.6,272.4 58.5,271.9 59.4,271.3 60.2,270.8 61.1,270.3 62.0,269.8 62.9,269.3 63.8,268.8 64.6,268.3 65.5,267.8 66.4,267.2 67.2,266.7 68.1,266.2 69.0,265.7 69.9,265.2 70.8,264.7 71.6,264.2 72.5,263.7 73.4,263.2 74.2,262.6 75.1,262.1 76.0,261.6 76.9,261.1 77.8,260.6 78.6,260.1 79.5,259.6 80.4,259.1 81.2,258.5 82.1,258.0 83.0,257.5 83.9,257.0 84.8,256.5 85.6,256.0 86.5,255.5 87.4,255.0 88.2,254.4 89.1,253.9 90.0,253.4 90.9,252.9 91.8,252.4 92.6,251.9 93.5,251.4 94.4,250.9 95.2,250.4 96.1,249.8 97.0,249.3 97.9,248.8 98.8,248.3 99.6,247.8 100.5,247.3 101.4,246.8 102.2,246.3 103.1,245.7 104.0,245.2 104.9,244.7 105.8,244.2 106.6,243.7 107.5,243.2 108.4,242.7 109.2,242.2 110.1,241.6 111.0,241.1 111.9,240.6 112.8,240.1 113.6,239.6 114.5,239.1 115.4,238.6 116.2,238.1 117.1,237.6 118.0,237.0 118.9,236.5 119.8,236.0 120.6,235.5 121.5,235.0 122.4,234.5 123.2,234.0 124.1,233.5 125.0,232.9 125.9,232.4 126.8,231.9 127.6,231.4 128.5,230.9 129.4,230.4 130.2,229.9 131.1,229.4 132.0,228.8 132.9,228.3 133.8,227.8 134.6,227.3 135.5,226.8 136.4,226.3 137.2,225.8 138.1,225.3 139.0,224.8 139.9,224.2 140.8,223.7 141.6,223.2 142.5,222.7 143.4,222.2 144.2,221.7 145.1,221.2 146.0,220.7 146.9,220.1 147.8,219.6 148.6,219.1 149.5,218.6 150.4,218.1 151.2,217.6 152.1,217.1 153.0,216.6 153.9,216.0 154.8,215.5 155.6,215.0 156.5,214.5 157.4,214.0 158.2,213.5 159.1,213.0 160.0,212.5 160.9,212.0 161.8,211.4 162.6,210.9 163.5,210.4 164.4,209.9 165.2,209.4 166.1,208.9 167.0,208.4 167.9,207.9 168.8,207.3 169.6,206.8 170.5,206.3 171.4,205.8 172.2,205.3 173.1,204.8 174.0,204.3 174.9,203.8 175.8,203.2 176.6,202.7 177.5,202.2 178.4,201.7 179.2,201.2 180.1,200.7 181.0,200.2 181.9,199.7 182.8,199.2 183.6,198.6 184.5,198.1 185.4,197.6 186.2,197.1 187.1,196.6 188.0,196.1 188.9,195.6 189.8,195.1 190.6,194.5 191.5,194.0 192.4,193.5 193.2,193.0 194.1,192.5 195.0,192.0 195.9,191.5 196.8,191.0 197.6,190.4 198.5,189.9 199.4,189.4 200.2,188.9 201.1,188.4 202.0,187.9 202.9,187.4 203.8,186.9 204.6,186.4 205.5,185.8 206.4,185.3 207.2,184.8 208.1,184.3 209.0,183.8 209.9,183.3 210.8,182.8 211.6,182.3 212.5,181.7 213.4,181.2 214.2,180.7 215.1,180.2 216.0,179.7 216.9,179.2 217.8,178.7 218.6,178.2 219.5,177.6 220.4,177.1 221.2,176.6 222.1,176.1 223.0,175.6 223.9,175.1 224.8,174.6 225.6,174.1 226.5,173.6 227.4,173.0 228.2,172.5 229.1,172.0 230.0,171.5 230.9,171.0 231.8,170.5 232.6,170.0 233.5,169.5 234.4,168.9 235.2,168.4 236.1,167.9 237.0,167.4 237.9,166.9 238.8,166.4 239.6,165.9 240.5,165.4 241.4,164.8 242.2,164.3 243.1,163.8 244.0,163.3 244.9,162.8 245.8,162.3 246.6,161.8 247.5,161.3 248.4,160.8 249.2,160.2 250.1,159.7 251.0,159.2 251.9,158.7 252.8,158.2 253.6,157.7 254.5,157.2 255.4,156.7 256.2,156.1 257.1,155.6 258.0,155.1 258.9,154.6 259.8,154.1 260.6,153.6 261.5,153.1 262.4,152.6 263.2,152.0 264.1,151.5 265.0,151.0 265.9,150.5 266.8,150.0 267.6,149.5 268.5,149.0 269.4,148.5 270.2,148.0 271.1,147.4 272.0,146.9 272.9,146.4 273.8,145.9 274.6,145.4 275.5,144.9 276.4,144.4 277.2,143.9 278.1,143.3 279.0,142.8 279.9,142.3 280.8,141.8 281.6,141.3 282.5,140.8 283.4,140.3 284.2,139.8 285.1,139.2 286.0,138.7 286.9,138.2 287.8,137.7 288.6,137.2 289.5,136.7 290.4,136.2 291.2,135.7 292.1,135.2 293.0,134.6 293.9,134.1 294.8,133.6 295.6,133.1 296.5,132.6 297.4,132.1 298.2,131.6 299.1,131.1 300.0,130.5 300.9,130.0 301.8,129.5 302.6,129.0 303.5,128.5 304.4,128.0 305.2,127.5 306.1,127.0 307.0,126.4 307.9,125.9 308.8,125.4 309.6,124.9 310.5,124.4 311.4,123.9 312.2,123.4 313.1,122.9 314.0,122.4 314.9,121.8 315.8,121.3 316.6,120.8 317.5,120.3 318.4,119.8 319.2,119.3 320.1,118.8 321.0,118.3 321.9,117.7 322.8,117.2 323.6,116.7 324.5,116.2 325.4,115.7 326.2,115.2 327.1,114.7 328.0,114.2 328.9,113.6 329.8,113.1 330.6,112.6 331.5,112.1 332.4,111.6 333.2,111.1 334.1,110.6 335.0,110.1 335.9,109.6 336.8,109.0 337.6,108.5 338.5,108.0 339.4,107.5 340.2,107.0 341.1,106.5 342.0,106.0 342.9,105.5 343.8,104.9 344.6,104.4 345.5,103.9 346.4,103.4 347.3,102.9 348.1,102.4 349.0,101.9 349.9,101.4 350.8,100.8 351.6,100.3 352.5,99.8 353.4,99.3 354.2,98.8 355.1,98.3 356.0,97.8 356.9,97.3 357.8,96.8 358.6,96.2 359.5,95.7 360.4,95.2 361.2,94.7 362.1,94.2 363.0,93.7 363.9,93.2 364.8,92.7 365.6,92.1 366.5,91.6 367.4,91.1 368.2,90.6 369.1,90.1 370.0,89.6 370.9,89.1 371.8,88.6 372.6,88.0 373.5,87.5 374.4,87.0 375.2,86.5 376.1,86.0 377.0,85.5 377.9,85.0 378.8,84.5 379.6,84.0 380.5,83.4 381.4,82.9 382.2,82.4 383.1,81.9 384.0,81.4 384.9,80.9 385.8,80.4 386.6,79.9 387.5,79.3 388.4,78.8 389.2,78.3 390.1,77.8 391.0,77.3 391.9,76.8 392.8,76.3 393.6,75.8 394.5,75.2 395.4,74.7 396.2,74.2 397.1,73.7 398.0,73.2\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><circle cx=\"223.0\" cy=\"175.6\" r=\"5\" fill=\"#172b3a\"/><text x=\"231.0\" y=\"167.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">(5; 1,0)</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>\\(e=Bl\\cdot v\\), så lutningen i grafen är \\(Bl=\\dfrac{1{,}0}{5}=0{,}20\\) V/(m/s).</p><p>\\(B=\\dfrac{0{,}20}{0{,}40}=0{,}50\\) T.</p></div>",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vad motsvarar lutningen i grafen?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.5,
+  "tolerans": 0.005,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "T"
+},
+{
+  "id": "3.437",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "rörelse längs fältet",
+  "t": "<p>Inducerad spänning i en rak ledare: \\(e=Blv\\) när ledaren, farten och fältet är vinkelräta mot varandra.</p><p>En stav rör sig parallellt med magnetfältets riktning. Hur stor spänning induceras? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Laddningarna i staven rör sig parallellt med fältet, och då verkar ingen magnetisk kraft på dem. Ingen spänning induceras.</p><p>Staven \"skär\" inga fältlinjer.</p></div>",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Påverkas en laddning som rör sig längs fältlinjerna av någon magnetisk kraft?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ingen spänning.",
+      "ratt": true,
+      "kommentar": "Rörelse längs fältet ger ingen magnetisk kraft på laddningarna."
+    },
+    {
+      "txt": "Spänningen blir Blv.",
+      "ratt": false,
+      "kommentar": "Det gäller när rörelsen är vinkelrät mot fältet."
+    },
+    {
+      "txt": "Spänningen blir dubbelt så stor som Blv.",
+      "ratt": false,
+      "kommentar": "Spänningen kan som mest bli Blv."
+    },
+    {
+      "txt": "Det beror på stavens material.",
+      "ratt": false,
+      "kommentar": "Den inducerade spänningen beror inte på materialet."
+    }
+  ]
+},
+{
+  "id": "3.438",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "snett mot fältet",
+  "t": "<p>Inducerad spänning i en rak ledare: \\(e=Blv\\) när ledaren, farten och fältet är vinkelräta mot varandra.</p><p>En 0,50 m lång stav rör sig med farten 4,0 m/s. Staven är vinkelrät mot fältet, men hastigheten bildar vinkeln 30° med fältet. Flödestätheten är 0,60 T. Bestäm den inducerade spänningen. (Svara i V.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Bara hastighetskomposanten vinkelrät mot fältet bidrar: \\(v_\\perp=v\\sin30^\\circ=2{,}0\\) m/s.</p><p>\\(e=Blv_\\perp=0{,}60\\cdot0{,}50\\cdot2{,}0=0{,}60\\) V.</p></div>",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Dela upp hastigheten i en del längs fältet och en del vinkelrätt mot det.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.6,
+  "tolerans": 0.005,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "V"
+},
+{
+  "id": "3.439",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "effekt i motståndet",
+  "t": "<p>Inducerad spänning i en rak ledare: \\(e=Blv\\) när ledaren, farten och fältet är vinkelräta mot varandra.</p><p>En 0,40 m lång stav dras med farten 5,0 m/s på skenor i ett fält på 0,50 T. Skenorna är kopplade till ett motstånd på 2,0 Ω. Övriga resistanser försummas. Vilken effekt utvecklas i motståndet? (Svara i W.)</p>",
+  "s": "<div class=\"facit-v2\"><p>\\(e=0{,}50\\cdot0{,}40\\cdot5{,}0=1{,}0\\) V. Effekten är \\(P=\\dfrac{e^2}{R}=\\dfrac{1{,}0^2}{2{,}0}=0{,}50\\) W.</p><p>Den energin kommer från arbetet som den som drar staven måste uträtta mot bromskraften.</p></div>",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beräkna spänningen först och använd P = U²/R.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.5,
+  "tolerans": 0.005,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "W"
+},
+{
+  "id": "3.440",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "poang": "(1/0/0)",
+  "typ": "spänning över en tågaxel",
+  "t": "<p>Inducerad spänning i en rak ledare: \\(e=Blv\\) när ledaren, farten och fältet är vinkelräta mot varandra.</p><p>Ett tåg kör med 30 m/s. Hjulaxeln förbinder rälerna, som ligger 1,435 m från varandra. Jordmagnetfältets lodräta komponent är 40 µT. Hur stor spänning induceras mellan rälerna? (Svara i mV med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Axeln är en ledare som rör sig vinkelrätt mot den lodräta fältkomposanten: \\(e=Blv=40\\cdot10^{-6}\\cdot1{,}435\\cdot30\\approx1{,}7\\cdot10^{-3}\\) V \\(=1{,}7\\) mV.</p></div>",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken del av jordmagnetfältet skär axeln?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.7,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "mV"
 }
 ];

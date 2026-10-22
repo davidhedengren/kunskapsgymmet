@@ -2125,7 +2125,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       ],
       "traningsniva": 2,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -4573,7 +4574,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -4585,7 +4587,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -4614,7 +4617,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -4709,7 +4713,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -4721,7 +4726,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -4750,7 +4756,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -4845,7 +4852,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -4857,7 +4865,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -4886,7 +4895,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -4981,7 +4991,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -4993,7 +5004,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -5022,7 +5034,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -5117,7 +5130,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -5129,7 +5143,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -5158,7 +5173,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -5253,7 +5269,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -5265,7 +5282,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -5294,7 +5312,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -5389,7 +5408,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -5401,7 +5421,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -5430,7 +5451,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -5525,7 +5547,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -5537,7 +5560,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -5566,7 +5590,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -5661,7 +5686,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -5673,7 +5699,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -5702,7 +5729,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -5797,7 +5825,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -5809,7 +5838,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -5838,7 +5868,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -5933,7 +5964,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -5945,7 +5977,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -5974,7 +6007,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -6069,7 +6103,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -6081,7 +6116,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -6110,7 +6146,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -6205,7 +6242,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -6217,7 +6255,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -6246,7 +6285,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -6341,7 +6381,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -6353,7 +6394,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -6382,7 +6424,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -6477,7 +6520,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -6489,7 +6533,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -6518,7 +6563,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -6613,7 +6659,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -6625,7 +6672,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -6654,7 +6702,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -6749,7 +6798,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -6761,7 +6811,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -6790,7 +6841,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -6900,7 +6952,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -6917,7 +6970,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       ],
       "svarsstruktur": "mängd",
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -6946,7 +7000,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -7195,7 +7250,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -7212,7 +7268,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       ],
       "svarsstruktur": "mängd",
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -7241,7 +7298,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "0/1/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -7380,7 +7438,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "0/1/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -7777,7 +7836,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -7789,7 +7849,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "d",
@@ -7801,7 +7862,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "e",
@@ -8823,7 +8885,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "b",
@@ -8835,7 +8898,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     },
     {
       "etikett": "c",
@@ -8864,7 +8928,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "poang": "1/0/0",
       "arbetsinsats": 1,
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -9084,7 +9149,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       ],
       "svarsstruktur": "ordnad",
       "geogebra": true,
-      "miniräknare": true
+      "miniräknare": true,
+      "spel": false
     }
   ]
 },
@@ -9454,7 +9520,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "traningsniva": 2,
       "niva": "E",
       "poang": "1/0/0",
-      "arbetsinsats": 1
+      "arbetsinsats": 1,
+      "spel": false
     }
   ]
 },

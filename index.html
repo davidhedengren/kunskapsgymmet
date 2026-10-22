@@ -4037,7 +4037,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-22-standardavvikelse";
+const BANK_VERSION="2026-10-22-sx-delkort";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -7053,11 +7053,15 @@ function metadataForDel(varde,index,antal){
   return Array.isArray(varde) && varde.length===antal ? varde[index] : varde;
 }
 function expandGameTask(t){
-  if(t?.spelDelning!=="deluppgifter" || !Array.isArray(t.spelDelar) || t.spelDelar.length<2){
-    return [t];
-  }
+  if(t?.spelDelning!=="deluppgifter" || !Array.isArray(t.spelDelar)) return [t];
+  /* Ett delkort med spel:false finns kvar i läraruppgiften men visas inte i
+     träningen, t.ex. en mediandel i ett standardavvikelseområde. Indexen räknas
+     mot alla delar så att svarmetadata fortfarande hamnar rätt. */
+  const synliga=t.spelDelar.map((del,i)=>[del,i]).filter(([del])=>del?.spel!==false);
+  const dolda=synliga.length<t.spelDelar.length;
+  if(!synliga.length || (!dolda && t.spelDelar.length<2)) return [t];
   const antal=t.spelDelar.length;
-  return t.spelDelar.map((del,i)=>{
+  return synliga.map(([del,i])=>{
     const etikett=String(del?.etikett || String.fromCharCode(97+i)).toLowerCase();
     /* Ett lärarblad kan ha fler delar än de som används i träningen.
        Matcha a/b/... mot originalets etiketter innan svarmetadata plockas ut. */

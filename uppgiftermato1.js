@@ -105551,5 +105551,279 @@ window.BANKMATO1 = [
     "1b",
     "1c"
   ]
+},
+{
+  "id": "4.512",
+  "kap": 4,
+  "omr": "areasatsen",
+  "niva": "E",
+  "typ": "välja areauttryck från två sidor och mellanliggande vinkel",
+  "poang": "1/0/0",
+  "t": "<p>Vilket uttryck ger triangelns area i cm²? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Triangel med sidor 8 cm och 6 cm samt vinkeln 50 grader mellan dem.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-angle=\"50\" data-side-a=\"8\" data-side-b=\"6\" points=\"75,240 355,240 209.98539803417327,79.13066694501461\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"215.0\" y=\"269\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">8 cm</text><text x=\"125.63972126846912\" y=\"145.42400605940344\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">6 cm</text><path data-angle-arc=\"50\" d=\"M104 240 A29 29 0 0 0 93.64084068090963 217.78471114954965\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"140.2541606666388\" y=\"214.57148515466963\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">50°</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Areasatsen använder två sidor och vinkeln mellan dem. Här är sidorna 8 cm och 6 cm, och den mellanliggande vinkeln är 50°.</p><div class=\"facit-matte\">\\[A=\\frac{8\\cdot6\\sin50^\\circ}{2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{8\\cdot6\\sin50^\\circ}{2}\\) cm².</p></div>",
+  "familj": "Areasatsen",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken vinkel ligger mellan de två markerade sidorna?</p>",
+  "alternativ": [
+    {
+      "txt": "\\(8\\cdot6\\sin50^\\circ\\)",
+      "ratt": false,
+      "kommentar": "Detta ger dubbla triangelns area. Faktorn 1/2 saknas."
+    },
+    {
+      "txt": "\\(\\dfrac{8\\cdot6\\cos50^\\circ}{2}\\)",
+      "ratt": false,
+      "kommentar": "Höjden bestäms med sinus av vinkeln mellan sidorna, inte cosinus."
+    },
+    {
+      "txt": "\\(\\dfrac{8\\cdot6\\sin50^\\circ}{2}\\)",
+      "ratt": true,
+      "kommentar": "De givna sidorna och vinkeln mellan dem används i areasatsen."
+    },
+    {
+      "txt": "\\(\\dfrac{8\\cdot6}{2}\\)",
+      "ratt": false,
+      "kommentar": "Sidorna är inte vinkelräta. Den sneda sidan är därför inte triangelns höjd."
+    }
+  ],
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.513",
+  "kap": 4,
+  "omr": "areasatsen",
+  "niva": "E",
+  "typ": "tygåtgång till ett triangulärt segel",
+  "poang": "1/0/0",
+  "t": "<p>Ett triangulärt segel har två kanter som är 7 m och 12 m. Vinkeln mellan dem är 30°. Hur stor är seglets area? Svara i m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Triangulärt segel med kanterna 7 m och 12 m och vinkeln 30 grader mellan dem.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-angle=\"30\" data-side-a=\"7\" data-side-b=\"12\" points=\"65,250 289,250 397.55375505322445,58.00000000000003\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"177.0\" y=\"279\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">7 m</text><text x=\"220.27687752661222\" y=\"134.94744111674234\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">12 m</text><path data-angle-arc=\"30\" d=\"M94 250 A29 29 0 0 0 90.11473670974873 235.5\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"134.54665949281292\" y=\"236.3650287526185\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">30°</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>De två kända sidorna möts i den kända vinkeln. Sätt in dem i areasatsen.</p><div class=\"facit-matte\">\\[A=\\frac{7\\cdot12\\sin30^\\circ}{2}=21\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 21 m².</p></div>",
+  "familj": "Areasatsen",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 21,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd de två kända sidorna och vinkeln mellan dem i areasatsen.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m²",
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.514",
+  "kap": 4,
+  "omr": "areasatsen",
+  "niva": "E",
+  "typ": "fördubblad sida med samma mellanliggande vinkel",
+  "poang": "1/0/0",
+  "t": "<p>I triangel II är den sneda sidan dubbelt så lång som i triangel I. Den andra markerade sidan och vinkeln mellan sidorna är oförändrade. Hur många gånger så stor är arean av II som arean av I?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 265\" role=\"img\" aria-label=\"Två trianglar med bas 4 cm och mellanliggande vinkel 60 grader. Den andra sidan är 3 cm i I och 6 cm i II.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"265\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-angle=\"60\" data-side-a=\"4\" data-side-b=\"3\" points=\"55,210 155,210 92.5,145.0480947161671\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"105.0\" y=\"239\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">4 cm</text><text x=\"54.697441116742354\" y=\"166.52404735808355\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">3 cm</text><path data-angle-arc=\"60\" d=\"M84 210 A29 29 0 0 0 69.5 184.8852632902513\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"102\" y=\"194\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">60°</text><text x=\"105\" y=\"118\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">I</text><polygon data-geometry=\"triangle\" data-angle=\"60\" data-side-a=\"4\" data-side-b=\"6\" points=\"290,210 390,210 365.0,80.0961894323342\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"340.0\" y=\"239\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">4 cm</text><text x=\"308.44744111674237\" y=\"134.0480947161671\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">6 cm</text><path data-angle-arc=\"60\" d=\"M319 210 A29 29 0 0 0 304.5 184.8852632902513\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"352.3538290724796\" y=\"179.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">60°</text><text x=\"350\" y=\"55\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#243447\">II</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>I areasatsen multipliceras de två sidlängderna. När bara den ena fördubblas blir produkten, och därmed arean, dubbelt så stor.</p><p class=\"facit-svar\"><strong>Svar:</strong> 2 gånger så stor.</p></div>",
+  "familj": "Areasatsen",
+  "formaga": [
+    "begrepp"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur påverkas en produkt när en av faktorerna fördubblas?</p>",
+  "svarFormat": "multipel",
+  "svarEnhet": null,
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.515",
+  "kap": 4,
+  "omr": "areasatsen",
+  "niva": "E",
+  "typ": "jämföra spetsig och trubbig mellanliggande vinkel",
+  "poang": "1/0/0",
+  "t": "<p>Jämför trianglarnas areor. Vilket påstående stämmer? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 445\" role=\"img\" aria-label=\"Två trianglar med två sidor på 6 cm. Mellanliggande vinkel är 60 grader i I och 120 grader i II.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"445\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-angle=\"60\" data-side-a=\"6\" data-side-b=\"6\" points=\"120,180 270,180 195.0,50.0961894323342\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"195.0\" y=\"209\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">6 cm</text><text x=\"138.44744111674234\" y=\"104.0480947161671\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">6 cm</text><path data-angle-arc=\"60\" d=\"M149 180 A29 29 0 0 0 134.5 154.8852632902513\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"182.35382907247958\" y=\"149.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">60°</text><text x=\"40\" y=\"36.0961894323342\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"start\" fill=\"#243447\">I</text><polygon data-geometry=\"triangle\" data-angle=\"120\" data-side-a=\"6\" data-side-b=\"6\" points=\"245,395 395,395 170.00000000000003,265.0961894323342\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"320.0\" y=\"424\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">6 cm</text><text x=\"176\" y=\"341\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">6 cm</text><path data-angle-arc=\"120\" d=\"M270 395 A25 25 0 0 0 232.5 373.34936490538905\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"268.5\" y=\"359.29680602213136\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">120°</text><text x=\"40\" y=\"251.0961894323342\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"start\" fill=\"#243447\">II</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Sidprodukterna är lika. Dessutom är sin 60° och sin 120° lika, så areasatsen ger samma area i båda trianglarna.</p><div class=\"facit-matte\">\\[A_{\\mathrm I}=18\\sin60^\\circ,\\qquad A_{\\mathrm {II}}=18\\sin120^\\circ\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Trianglarna har lika stor area.</p></div>",
+  "familj": "Areasatsen",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför sinusvärdena för de två vinklarna.</p>",
+  "alternativ": [
+    {
+      "txt": "Triangel I har större area.",
+      "ratt": false,
+      "kommentar": "Sinusvärdena för 60° och 120° är lika, så areorna är lika."
+    },
+    {
+      "txt": "Trianglarna har lika stor area.",
+      "ratt": true,
+      "kommentar": "Båda har produkten 6·6 och sin 60°=sin 120°."
+    },
+    {
+      "txt": "Triangel II har större area.",
+      "ratt": false,
+      "kommentar": "En större vinkel ger inte alltid en större area; sin 120°=sin 60°."
+    },
+    {
+      "txt": "Det går inte att jämföra utan den tredje sidan.",
+      "ratt": false,
+      "kommentar": "Två sidor och vinkeln mellan dem räcker för att bestämma arean."
+    }
+  ],
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.516",
+  "kap": 4,
+  "omr": "areasatsen",
+  "niva": "E",
+  "typ": "triangel som halva en parallellogram",
+  "poang": "1/0/0",
+  "t": "<p>Parallellogrammen har arean 58 cm². Diagonalen AC delar den i två trianglar. Bestäm arean av triangeln ABC. Svara i cm².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 285\" role=\"img\" aria-label=\"Parallellogram ABCD med diagonal AC. Hela arean är 58 kvadratcentimeter och triangeln ABC är markerad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"285\" fill=\"white\"/><polygon points=\"70,235 310,235 390,70 150,70\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><polygon points=\"70,235 310,235 390,70\" fill=\"#cbe6e5\" stroke=\"none\"/><path d=\"M70 235L390 70\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"59\" y=\"257\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">A</text><text x=\"319\" y=\"257\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">B</text><text x=\"405\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">C</text><text x=\"138\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">D</text><text x=\"245\" y=\"35\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">Hela arean: 58 cm²</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Diagonalen delar parallellogrammen i två trianglar med lika stor area. Det är också förklaringen till faktorn 1/2 i triangelns areasats.</p><div class=\"facit-matte\">\\[A_{ABC}=\\frac{58}{2}=29\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 29 cm².</p></div>",
+  "familj": "Areasatsen",
+  "formaga": [
+    "begrepp"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 29,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur stor del av parallellogrammens area har var och en av de två trianglarna?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm²",
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.517",
+  "kap": 4,
+  "omr": "areasatsen",
+  "niva": "E",
+  "typ": "läsa areans maximum i ett vinkeldiagram",
+  "poang": "1/0/0",
+  "t": "<p>Två av en triangels sidor har fasta längder. Grafen visar hur arean beror på vinkeln \\(v\\) mellan dessa sidor. Vid vilken vinkel är arean störst? Svara i grader.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Area som funktion av vinkeln från 0 till 180 grader. Kurvan har sin högsta punkt vid 90 grader och arean 30 kvadratcentimeter.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-area517\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M121.667 42L121.667 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"121.667\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">30</text><path d=\"M183.333 42L183.333 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"183.333\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">60</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">90</text><path d=\"M306.667 42L306.667 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"306.667\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">120</text><path d=\"M368.333 42L368.333 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"368.333\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">150</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">180</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 212.0L430 212.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">10</text><path d=\"M60 144.0L430 144.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"149.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">20</text><path d=\"M60 76.0L430 76.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"81.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">30</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">v (grader)</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Area (cm²)</text><path d=\"M60.0 280.0 L62.312 275.995 L64.625 271.991 L66.938 267.99 L69.25 263.994 L71.562 260.005 L73.875 256.022 L76.188 252.049 L78.5 248.087 L80.812 244.138 L83.125 240.202 L85.438 236.281 L87.75 232.377 L90.062 228.492 L92.375 224.626 L94.688 220.782 L97.0 216.961 L99.312 213.163 L101.625 209.392 L103.938 205.648 L106.25 201.933 L108.562 198.247 L110.875 194.593 L113.188 190.973 L115.5 187.386 L117.812 183.835 L120.125 180.321 L122.438 176.846 L124.75 173.41 L127.062 170.016 L129.375 166.664 L131.688 163.355 L134.0 160.092 L136.312 156.875 L138.625 153.705 L140.938 150.584 L143.25 147.513 L145.562 144.493 L147.875 141.525 L150.188 138.61 L152.5 135.75 L154.812 132.946 L157.125 130.198 L159.438 127.508 L161.75 124.877 L164.062 122.306 L166.375 119.795 L168.688 117.347 L171.0 114.961 L173.312 112.638 L175.625 110.38 L177.938 108.188 L180.25 106.061 L182.562 104.002 L184.875 102.011 L187.188 100.088 L189.5 98.235 L191.812 96.451 L194.125 94.739 L196.438 93.098 L198.75 91.529 L201.062 90.032 L203.375 88.609 L205.688 87.26 L208.0 85.984 L210.312 84.784 L212.625 83.659 L214.938 82.61 L217.25 81.637 L219.562 80.74 L221.875 79.92 L224.188 79.177 L226.5 78.512 L228.812 77.924 L231.125 77.414 L233.438 76.982 L235.75 76.629 L238.062 76.354 L240.375 76.157 L242.688 76.039 L245.0 76.0 L247.312 76.039 L249.625 76.157 L251.938 76.354 L254.25 76.629 L256.562 76.982 L258.875 77.414 L261.188 77.924 L263.5 78.512 L265.812 79.177 L268.125 79.92 L270.438 80.74 L272.75 81.637 L275.062 82.61 L277.375 83.659 L279.688 84.784 L282.0 85.984 L284.312 87.26 L286.625 88.609 L288.938 90.032 L291.25 91.529 L293.562 93.098 L295.875 94.739 L298.188 96.451 L300.5 98.235 L302.812 100.088 L305.125 102.011 L307.438 104.002 L309.75 106.061 L312.062 108.188 L314.375 110.38 L316.688 112.638 L319.0 114.961 L321.312 117.347 L323.625 119.795 L325.938 122.306 L328.25 124.877 L330.562 127.508 L332.875 130.198 L335.188 132.946 L337.5 135.75 L339.812 138.61 L342.125 141.525 L344.438 144.493 L346.75 147.513 L349.062 150.584 L351.375 153.705 L353.688 156.875 L356.0 160.092 L358.312 163.355 L360.625 166.664 L362.938 170.016 L365.25 173.41 L367.562 176.846 L369.875 180.321 L372.188 183.835 L374.5 187.386 L376.812 190.973 L379.125 194.593 L381.438 198.247 L383.75 201.933 L386.062 205.648 L388.375 209.392 L390.688 213.163 L393.0 216.961 L395.312 220.782 L397.625 224.626 L399.938 228.492 L402.25 232.377 L404.562 236.281 L406.875 240.202 L409.188 244.138 L411.5 248.087 L413.812 252.049 L416.125 256.022 L418.438 260.005 L420.75 263.994 L423.062 267.99 L425.375 271.991 L427.688 275.995 L430.0 280.0\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-area517)\"/><circle cx=\"245.0\" cy=\"76.0\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Läs av vinkeln vid grafens högsta punkt. Den ligger vid v=90°. Då är de två fasta sidorna vinkelräta mot varandra.</p><p class=\"facit-svar\"><strong>Svar:</strong> 90°.</p></div>",
+  "familj": "Areasatsen",
+  "formaga": [
+    "begrepp"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 90,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Leta efter grafens högsta punkt och läs av vinkeln på den vågräta axeln.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "°",
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.518",
+  "kap": 4,
+  "omr": "areasatsen",
+  "niva": "E",
+  "typ": "rektangelskiva med utskuren triangel",
+  "poang": "1/0/0",
+  "t": "<p>En skiva är 12 cm lång och 5 cm bred. Den orange triangeln skärs bort. Hur stor area har den del som blir kvar? Svara i cm².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Rektangelskiva 12 gånger 5 cm. Triangeln som skärs bort har sidor 8 cm och 6 cm med mellanliggande vinkel 30 grader.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><rect x=\"65\" y=\"110\" width=\"336\" height=\"140\" rx=\"0\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2\"/><polygon data-geometry=\"triangle\" data-angle=\"30\" data-side-a=\"8\" data-side-b=\"6\" points=\"65,250 289,250 210.4922678357857,166\" fill=\"#f8d9c9\" stroke=\"#b74738\" stroke-width=\"2.5\"/><text x=\"233\" y=\"88\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">12 cm</text><text x=\"418\" y=\"185.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#243447\">5 cm</text><text x=\"177\" y=\"279\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">8 cm</text><text x=\"124.74613391789285\" y=\"184.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">6 cm</text><path data-angle-arc=\"30\" d=\"M94 250 A29 29 0 0 0 90.11473670974873 235.5\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"2\"/><text x=\"137.44443697168012\" y=\"235.58857161731095\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">30°</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Beräkna först rektangelns area och den bortskurna triangelns area. Subtrahera sedan triangelns area.</p><div class=\"facit-matte\">\\[\\begin{aligned}A_{\\text{rektangel}}&=12\\cdot5=60\\\\A_{\\text{triangel}}&=\\frac{8\\cdot6\\sin30^\\circ}{2}=12\\\\A_{\\text{kvar}}&=60-12=48\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 48 cm².</p></div>",
+  "familj": "Areasatsen i sammansatta figurer och omvända problem",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 48,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Räkna ut hela skivans area och dra bort den markerade triangelns area.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm²",
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.519",
+  "kap": 4,
+  "omr": "areasatsen",
+  "niva": "E",
+  "typ": "bestämma mellanliggande vinkel före areaberäkning",
+  "poang": "1/0/0",
+  "t": "<p>Bestäm triangelns area med hjälp av måtten i figuren. Svara i cm².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 290\" role=\"img\" aria-label=\"Likbent triangel med två sidor 6 cm och båda basvinklarna 75 grader.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"290\" fill=\"white\"/><polygon data-geometry=\"isosceles\" data-equal-side=\"6\" data-apex-angle=\"30\" points=\"240,50 187.20091479908575,247.04886856296994 292.79908520091425,247.04886856296994\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"182.60045739954288\" y=\"148.52443428148496\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">6 cm</text><text x=\"297.39954260045715\" y=\"148.52443428148496\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">6 cm</text><path d=\"M210.20091479908575 247.04886856296994 A23 23 0 0 0 193.15375283644372 224.83257455832137\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"218.93504841073516\" y=\"225.6984114026211\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#087f8c\">75°</text><path d=\"M269.79908520091425 247.04886856296994 A23 23 0 0 1 286.84624716355626 224.83257455832137\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"261.06495158926487\" y=\"225.6984114026211\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#087f8c\">75°</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Vinkeln mellan de två kända sidorna är toppvinkeln. Triangelns vinkelsumma ger först denna vinkel. Använd sedan areasatsen.</p><div class=\"facit-matte\">\\[\\begin{aligned}v&=180^\\circ-75^\\circ-75^\\circ=30^\\circ\\\\A&=\\frac{6\\cdot6\\sin30^\\circ}{2}=9\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 9 cm².</p></div>",
+  "familj": "Areasatsen",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 9,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Bestäm först vinkeln mellan de två sidorna som är 6 cm.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm²",
+  "kurs": [
+    "1c"
+  ]
 }
 ];

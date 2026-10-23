@@ -13,7 +13,7 @@ test('Parsec, kiloparsec, ljusår och AE',()=>{
   for(const s of ['1000 pc','1000','1 kpc','1,0 kpc','3300 ljusår','3,3·10^3 ljusår'])assert.equal(grade(s,1000,'pc'),true,s);
   for(const s of ['100 pc','1 Mpc','1000 ljusår','1000 m'])assert.equal(grade(s,1000,'pc'),false,s);
   for(const s of ['13 ljusår','13','4,0 pc'])assert.equal(grade(s,4*3.2616,'ljusår'),true,s);
-  for(const s of ['206000 AE','206265 AE','2,06·10^5 AE','1,0 pc'])assert.equal(grade(s,206264.8,'AE',4),true,s);
+  for(const s of ['206000 AE','206265 AU','2,06·10^5 AU','1,0 pc'])assert.equal(grade(s,206264.8,'AU',4),true,s);
   assert.equal(grade('206000 AE',206264.8,'AE',4),true);
 });
 

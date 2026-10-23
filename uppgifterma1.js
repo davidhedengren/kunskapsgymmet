@@ -65073,58 +65073,57 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.27",
-    "kap": 3,
-    "omr": "index",
-    "kurs": [
-      "1b"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Du känner priset på en vara år 2008 och vill beräkna motsvarande pris år 2024 med hjälp av en indextabell.</p><p>Vilka indextal behöver du känna till?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> Du behöver indextalet för 2008 och indextalet för 2024. När båda är kända räcker kvoten mellan dem; basåret behöver inte användas separat.</p></div>",
-    "familj": "Tolka och beräkna index",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "ledtrad": "<p>Vilka två år behöver jämföras för att flytta ett känt pris från 2008 till 2024?</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "alternativ": [
-      {
-        "txt": "Indextalet för 2008 och indextalet för 2024.",
-        "ratt": true,
-        "kommentar": "Ja. Kvoten mellan dessa två indextal ger förändringsfaktorn mellan åren."
-      },
-      {
-        "txt": "Bara indextalet för 2024 och vilket år som är basår.",
-        "ratt": false,
-        "kommentar": "Nej. Det räcker inte när priset du känner gäller 2008."
-      },
-      {
-        "txt": "Indextalet för basåret och indextalet för 2024.",
-        "ratt": false,
-        "kommentar": "Nej. Du behöver knyta 2024 till året för det kända priset, alltså 2008."
-      },
-      {
-        "txt": "Indextalet för 2008 och indextalet för basåret.",
-        "ratt": false,
-        "kommentar": "Nej. Då saknas förändringen fram till 2024."
-      }
-    ],
-    "svarFormat": "kort_text",
-    "familjTidigare": [
-      "Beräkna och tolka index"
-    ]
-  },
+  "id": "3.27",
+  "kap": 3,
+  "omr": "index",
+  "kurs": [
+    "1b"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Du känner priset på en vara år 2008 och vill beräkna motsvarande pris år 2024 med hjälp av en indextabell.</p><p>Vilka indextal behöver du känna till?</p><p>Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> Du behöver indextalet för 2008 och indextalet för 2024. När båda är kända räcker kvoten mellan dem; basåret behöver inte användas separat.</p></div>",
+  "familj": "Tolka och beräkna index",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Vilka två år behöver jämföras för att flytta ett känt pris från 2008 till 2024?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "alternativ": [
+    {
+      "txt": "Indextalet för 2008 och indextalet för 2024.",
+      "ratt": true,
+      "kommentar": "Ja. Kvoten mellan dessa två indextal ger förändringsfaktorn mellan åren."
+    },
+    {
+      "txt": "Bara indextalet för 2024 och vilket år som är basår.",
+      "ratt": false,
+      "kommentar": "Nej. Det räcker inte när priset du känner gäller 2008."
+    },
+    {
+      "txt": "Indextalet för basåret och indextalet för 2024.",
+      "ratt": false,
+      "kommentar": "Nej. Du behöver knyta 2024 till året för det kända priset, alltså 2008."
+    },
+    {
+      "txt": "Indextalet för 2008 och indextalet för basåret.",
+      "ratt": false,
+      "kommentar": "Nej. Då saknas förändringen fram till 2024."
+    }
+  ],
+  "familjTidigare": [
+    "Beräkna och tolka index"
+  ]
+},
   {
     "id": "3.28",
     "kap": 3,
@@ -65484,37 +65483,39 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.35",
-    "kap": 3,
-    "omr": "upprepade_forandringar",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Under en tvåårsperiod ökar en population först med 15 % och minskar året därpå med 15 %. Samma tvåårsmönster upprepas i totalt 40 år.</p><p>Hur stor är den totala procentuella förändringen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Steg 1:</strong> Tvåårs-faktorn är</p><div class=\"facit-matte\">\\[1{,}15\\cdot0{,}85=0{,}9775\\].</div></div></li><li><p>Under 40 år sker 20 sådana par.</p></li><li><div class=\"facit-matte\">\\[0{,}9775^{20}\\approx0{,}6344\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Populationen minskar med cirka 36,6 %.</strong></p></div></div>",
-    "familj": "Problemlösning med förändringar i flera steg",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": "36.6",
-    "tolerans": 0.1,
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "modellering"
-    ],
-    "ledtrad": "<p>Bestäm först förändringsfaktorn för en hel tvåårsperiod. Hur många sådana perioder ryms i 40 år?</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Upprepade procentuella förändringar"
-    ]
-  },
+  "id": "3.35",
+  "kap": 3,
+  "omr": "upprepade_forandringar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Under en tvåårsperiod ökar en population först med 15 % och minskar året därpå med 15 %. Samma tvåårsmönster upprepas i totalt 40 år.</p><p>Med hur många procent har populationen minskat efter de 40 åren?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna faktorn för två år</p><div class=\"facit-matte\">\\[1{,}15\\cdot0{,}85=0{,}9775\\]</div></li><li><p class=\"facit-rubrik\">Upprepa tvåårsfaktorn 20 gånger</p><p>40 år består av 20 tvåårsperioder.</p><div class=\"facit-matte\">\\[q=0{,}9775^{20}\\approx0{,}6343593\\]</div></li><li><p class=\"facit-rubrik\">Jämför med ursprungspopulationen</p><div class=\"facit-matte\">\\[(1-0{,}9775^{20})\\cdot100\\]</div><div class=\"facit-matte\">\\[\\approx36{,}5641\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Populationen har minskat med cirka \\(36{,}6\\,\\%\\).</p></div>",
+  "familj": "Problemlösning med förändringar i flera steg",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 36.56406851722382,
+  "tolerans": 1e-10,
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "modellering"
+  ],
+  "ledtrad": "<p>Bestäm först förändringsfaktorn för en hel tvåårsperiod. Hur många sådana perioder ryms i 40 år?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Upprepade procentuella förändringar"
+  ],
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
   {
     "id": "3.36",
     "kap": 3,
@@ -67014,60 +67015,59 @@ window.BANKMA1 = [
   "svarEnhet": "%"
 },
   {
-    "id": "3.72",
-    "kap": 3,
-    "omr": "procent",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Vilka av påståendena är sanna? Markera alla sanna påståenden.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En minskning med 8 % har förändringsfaktorn</p><div class=\"facit-matte\">\\[1-0{,}08=0{,}92\\].</div></div></li><li><p>Sant.</p></li><li><p>En ökning från 200 kr till 260 kr är \\((260-200)/200=0{,}30=30\\,\\%\\), inte 13 %.</p></li><li><p>Falskt.</p></li><li><p>En höjning med 25 % följd av en sänkning med 20 % ger \\(1{,}25\\cdot0{,}80=1\\), alltså ursprungspriset.</p></li><li><p>Sant.</p></li><li><p>Kvoten 1,40 mellan nytt och gammalt värde betyder en ökning med 40 %.</p></li><li><p>Sant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla påståenden utom det om 13 % är sanna.</p></div>",
-    "familj": "Procentuell ökning och minskning",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "ledtrad": "<p>Kontrollera varje påstående separat. För procentuell ökning ska skillnaden jämföras med ursprungsvärdet.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "alternativ": [
-      {
-        "txt": "En minskning med 8 % har förändringsfaktorn 0,92.",
-        "ratt": true,
-        "kommentar": "Ja. 100 % − 8 % = 92 %, alltså faktor 0,92."
-      },
-      {
-        "txt": "En ökning från 200 kr till 260 kr är 13 %.",
-        "ratt": false,
-        "kommentar": "Nej. Ökningen är 60/200 = 30 %."
-      },
-      {
-        "txt": "En höjning med 25 % följd av en sänkning med 20 % ger ursprungspriset tillbaka.",
-        "ratt": true,
-        "kommentar": "Ja. 1,25 · 0,80 = 1."
-      },
-      {
-        "txt": "Om nytt värde dividerat med gammalt värde är 1,40 har värdet ökat med 40 %.",
-        "ratt": true,
-        "kommentar": "Ja. Faktor 1,40 motsvarar 140 % av ursprungsvärdet."
-      }
-    ],
-    "svarFormat": "kort_text",
-    "familjTidigare": [
-      "Beräkna procent och procentuell förändring"
-    ]
-  },
+  "id": "3.72",
+  "kap": 3,
+  "omr": "procent",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Vilka av påståendena är sanna? Markera alla sanna påståenden.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minskning med 8 %</p><div class=\"facit-matte\">\\[1-0{,}08=0{,}92\\]</div><p>Påståendet om faktorn 0,92 är sant.</p></li><li><p class=\"facit-rubrik\">Ökning från 200 kr till 260 kr</p><div class=\"facit-matte\">\\[\\frac{260-200}{200}\\cdot100=30\\]</div><p>Ökningen är 30 %, så påståendet om 13 % är falskt.</p></li><li><p class=\"facit-rubrik\">Höjning med 25 % och sänkning med 20 %</p><div class=\"facit-matte\">\\[1{,}25\\cdot0{,}80=1\\]</div><p>Priset återgår till det ursprungliga. Påståendet är sant.</p></li><li><p class=\"facit-rubrik\">Förändringsfaktorn 1,40</p><p>Det nya värdet är 140 % av det gamla, alltså 40 % större. Påståendet är sant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla påståenden utom det om 13 % är sanna.</p></div>",
+  "familj": "Procentuell ökning och minskning",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "ledtrad": "<p>Kontrollera varje påstående separat. För procentuell ökning ska skillnaden jämföras med ursprungsvärdet.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "spel": true,
+  "alternativ": [
+    {
+      "txt": "En minskning med 8 % har förändringsfaktorn 0,92.",
+      "ratt": true,
+      "kommentar": "Ja. 100 % − 8 % = 92 %, alltså faktor 0,92."
+    },
+    {
+      "txt": "En ökning från 200 kr till 260 kr är 13 %.",
+      "ratt": false,
+      "kommentar": "Nej. Ökningen är 60/200 = 30 %."
+    },
+    {
+      "txt": "En höjning med 25 % följd av en sänkning med 20 % ger ursprungspriset tillbaka.",
+      "ratt": true,
+      "kommentar": "Ja. 1,25 · 0,80 = 1."
+    },
+    {
+      "txt": "Om nytt värde dividerat med gammalt värde är 1,40 har värdet ökat med 40 %.",
+      "ratt": true,
+      "kommentar": "Ja. Faktor 1,40 motsvarar 140 % av ursprungsvärdet."
+    }
+  ],
+  "familjTidigare": [
+    "Beräkna procent och procentuell förändring"
+  ]
+},
   {
     "id": "3.73",
     "kap": 3,
@@ -68503,37 +68503,39 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.108",
-    "kap": 3,
-    "omr": "upprepade_forandringar",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Ett pris höjs med 12 % och sänks därefter med 12 %.</p><p>Bestäm den totala procentuella förändringen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv varje procentuell förändring som en förändringsfaktor.</p></li><li><p>Vid flera steg multipliceras förändringsfaktorerna med varandra; procenttalen ska inte bara adderas.</p></li><li><div class=\"facit-berakning\"><p>Total faktor</p><div class=\"facit-matte\">\\[1{,}12\\cdot0{,}88=0{,}9856\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Minskning med 1,44 %.</strong></p></div>",
-    "familj": "Problemlösning med förändringar i flera steg",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": "1.44",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "ledtrad": "<p>Den totala faktorn är \\(1{,}12\\cdot0{,}88\\). Jämför produkten med 1.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Upprepade procentuella förändringar"
-    ]
-  },
+  "id": "3.108",
+  "kap": 3,
+  "omr": "upprepade_forandringar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Ett pris höjs med 12 % och sänks därefter med 12 %.</p><p>Med hur många procent är priset lägre efter båda ändringarna?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera förändringsfaktorerna</p><div class=\"facit-matte\">\\[1{,}12\\cdot0{,}88=0{,}9856\\]</div></li><li><p class=\"facit-rubrik\">Jämför med ursprungspriset</p><p>Det nya priset är 98,56 % av det gamla. Skillnaden är därför:</p><div class=\"facit-matte\">\\[100-98{,}56=1{,}44\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Priset är \\(1{,}44\\,\\%\\) lägre.</p></div>",
+  "familj": "Problemlösning med förändringar i flera steg",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.44,
+  "tolerans": 1e-10,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "ledtrad": "<p>Den totala faktorn är \\(1{,}12\\cdot0{,}88\\). Jämför produkten med 1.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Upprepade procentuella förändringar"
+  ],
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
   {
     "id": "3.109",
     "kap": 3,
@@ -69500,35 +69502,37 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.134",
-    "kap": 3,
-    "omr": "genomsnittlig_forandring",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En bils värde minskar från 250 000 kr till 170 000 kr på sex år. Anta samma procentuella minskning varje år. Bestäm den genomsnittliga årliga minskningen i procent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^6=\\frac{170000}{250000}=0{,}68\\],</div></li><li><p>\\(q\\approx0{,}93775\\),</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Minskningen är cirka 6,23 % per år,</strong></p></div>",
-    "familj": "Genomsnittlig förändring i problem",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": "6.23",
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Jämför 170 000 med 250 000 och bestäm den faktor som upprepad sex gånger ger samma totalförändring.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Genomsnittlig årlig minskning"
-    ]
-  },
+  "id": "3.134",
+  "kap": 3,
+  "omr": "genomsnittlig_forandring",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En bils värde minskar från 250 000 kr till 170 000 kr på sex år. Anta samma procentuella minskning varje år. Bestäm den genomsnittliga årliga minskningen i procent.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm faktorn för ett år</p><p>Låt q vara den faktor som bilens värde multipliceras med varje år.</p><div class=\"facit-matte\">\\[q^6=\\frac{170000}{250000}=0{,}68\\]</div><div class=\"facit-matte\">\\[q=0{,}68^{1/6}\\approx0{,}9377451\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut den årliga minskningen</p><div class=\"facit-matte\">\\[(1-0{,}68^{1/6})\\cdot100\\approx6{,}2255\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(6{,}23\\,\\%\\) per år.</p></div>",
+  "familj": "Genomsnittlig förändring i problem",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 6.225486701788963,
+  "tolerans": 1e-10,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Jämför 170 000 med 250 000 och bestäm den faktor som upprepad sex gånger ger samma totalförändring.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Genomsnittlig årlig minskning"
+  ],
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
   {
     "id": "3.135",
     "kap": 3,
@@ -69709,35 +69713,37 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.138",
-    "kap": 3,
-    "omr": "genomsnittlig_forandring",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En bil minskar i värde från 300 000 kr till 192 000 kr på fyra år. Anta samma procentuella minskning varje år. Bestäm den årliga minskningen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^4=\\frac{192000}{300000}=0{,}64\\].</div></li><li><p>\\(q\\approx0{,}894\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Cirka 10,6 % per år.</strong></p></div>",
-    "familj": "Genomsnittlig förändring i problem",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": "10.6",
-    "tolerans": 0.1,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Totala faktorn är 192 000/300 000. Den årliga faktorn upprepad fyra gånger ska ge den kvoten.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Genomsnittlig årlig minskning"
-    ]
-  },
+  "id": "3.138",
+  "kap": 3,
+  "omr": "genomsnittlig_forandring",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En bil minskar i värde från 300 000 kr till 192 000 kr på fyra år. Anta samma procentuella minskning varje år. Bestäm den årliga minskningen i procent.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm faktorn för ett år</p><div class=\"facit-matte\">\\[q^4=\\frac{192000}{300000}=0{,}64\\]</div><div class=\"facit-matte\">\\[q=0{,}64^{1/4}\\approx0{,}8944272\\]</div></li><li><p class=\"facit-rubrik\">Omvandla faktorn till procentuell minskning</p><div class=\"facit-matte\">\\[(1-0{,}64^{1/4})\\cdot100\\approx10{,}5573\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(10{,}6\\,\\%\\) per år.</p></div>",
+  "familj": "Genomsnittlig förändring i problem",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 10.557280900008415,
+  "tolerans": 1e-10,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Totala faktorn är 192 000/300 000. Den årliga faktorn upprepad fyra gånger ska ge den kvoten.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Genomsnittlig årlig minskning"
+  ],
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
   {
     "id": "3.139",
     "kap": 3,
@@ -71013,36 +71019,38 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.168",
-    "kap": 3,
-    "omr": "upprepade_forandringar",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>En hyra ökar med 3,5 % per år. Hur stor är den sammanlagda procentuella ökningen efter 6 år?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv varje procentuell förändring som en förändringsfaktor.</p></li><li><p>Vid flera steg multipliceras förändringsfaktorerna med varandra; procenttalen ska inte bara adderas.</p></li><li><p>Faktor \\(1{,}035^6\\approx1{,}2293\\).</p></li><li><p>Ökningen är därför <strong>22,9 %</strong>.</p></li></ol></div>",
-    "familj": "Upprepad procentuell förändring",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": "22.9",
-    "tolerans": 0.1,
-    "självrättning": true,
-    "formaga": [
-      "modellering"
-    ],
-    "ledtrad": "<p>Beräkna den totala faktorn \\(1{,}035^6\\). Hur långt över 1 ligger den?</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Upprepade procentuella förändringar"
-    ]
-  },
+  "id": "3.168",
+  "kap": 3,
+  "omr": "upprepade_forandringar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>En hyra ökar med 3,5 % per år. Hur stor är den sammanlagda procentuella ökningen efter 6 år?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna faktorn för sex år</p><p>Varje höjning räknas på den nya hyran. Därför multipliceras faktorn 1,035 sex gånger.</p><div class=\"facit-matte\">\\[q=1{,}035^6\\approx1{,}2292553\\]</div></li><li><p class=\"facit-rubrik\">Jämför med den ursprungliga hyran</p><div class=\"facit-matte\">\\[(1{,}035^6-1)\\cdot100\\approx22{,}9255\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hyran har ökat med cirka \\(22{,}9\\,\\%\\).</p></div>",
+  "familj": "Upprepad procentuell förändring",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 22.925532634451496,
+  "tolerans": 1e-10,
+  "självrättning": true,
+  "formaga": [
+    "modellering"
+  ],
+  "ledtrad": "<p>Beräkna den totala faktorn \\(1{,}035^6\\). Hur långt över 1 ligger den?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Upprepade procentuella förändringar"
+  ],
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
   {
     "id": "3.169",
     "kap": 3,
@@ -71321,36 +71329,38 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.175",
-    "kap": 3,
-    "omr": "procent",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En vara säljs med 65 % rabatt. Med hur många procent måste reapriset höjas för att komma tillbaka till det ordinarie priset?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> Efter rabatten återstår 35 % av ursprungspriset.</p></li><li><p>Faktorn tillbaka är \\(\\frac{1}{0{,}35}\\approx2{,}857\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Priset måste höjas med cirka 185,7 %.</strong></p></div></div>",
-    "familj": "Procentuell ökning och minskning",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": "185.7",
-    "tolerans": 0.1,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Efter 65 % rabatt återstår 35 % av ordinarie pris. Jämför den nödvändiga ökningen med just reapriset.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Jämföra procent, procentenheter och procentuell skillnad"
-    ]
-  },
+  "id": "3.175",
+  "kap": 3,
+  "omr": "procent",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>En vara säljs med 65 % rabatt. Med hur många procent måste reapriset höjas för att komma tillbaka till det ordinarie priset?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utgå från ett ordinarie pris på 100 kr</p><p>Efter 65 % rabatt kostar varan 35 kr. För att nå 100 kr behöver priset höjas med 65 kr.</p></li><li><p class=\"facit-rubrik\">Jämför höjningen med reapriset</p><div class=\"facit-matte\">\\[\\frac{65}{35}\\cdot100=\\frac{1300}{7}\\]</div><div class=\"facit-matte\">\\[\\frac{1300}{7}\\approx185{,}7143\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Reapriset måste höjas med cirka \\(186\\,\\%\\).</p></div>",
+  "familj": "Procentuell ökning och minskning",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 185.71428571428572,
+  "tolerans": 1e-10,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Efter 65 % rabatt återstår 35 % av ordinarie pris. Jämför den nödvändiga ökningen med just reapriset.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Jämföra procent, procentenheter och procentuell skillnad"
+  ],
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
   {
     "id": "3.176",
     "kap": 3,

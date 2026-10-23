@@ -4059,7 +4059,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-23-felrapporter-1345";
+const BANK_VERSION="2026-10-23-felrapporter-1408";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11230,8 +11230,17 @@ function friAvrundningRatt(anv,facit,enhet,t,format){
   const val=Number(m[1].replace(",","."))*Math.pow(10,Number(m[2]||0));
   const target=f/scale;
   if(!Number.isFinite(quantum)||quantum<=0||!Number.isFinite(target)||val===0) return false;
-  const rounded=Math.sign(target)*Math.round(Math.abs(target)/quantum)*quantum;
-  return Math.abs(val-rounded)<=Math.abs(rounded)*1e-12;
+  // Avslutande nollor i ett heltal anger inte säkert dess precision.
+  // 190 kan vara 185,714... avrundat till två värdesiffror. Pröva också
+  // dessa grövre steg, men behåll uttrycklig decimal-/grundpotensprecision.
+  const nollor=m[2]===undefined && !/[.,]/.test(m[1])
+    ? (m[1].match(/0+$/)?.[0].length||0) : 0;
+  for(let i=0;i<=nollor;i++){
+    const steg=quantum*Math.pow(10,i);
+    const rounded=Math.sign(target)*Math.round(Math.abs(target)/steg)*steg;
+    if(Math.abs(val-rounded)<=Math.abs(rounded)*1e-12) return true;
+  }
+  return false;
 }
 function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
   if(t?.svarVardesiffror!=null){

@@ -106479,5 +106479,341 @@ window.BANKMATO1 = [
     "1b",
     "1c"
   ]
+},
+{
+  "id": "2.1176",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "niva": "E",
+  "typ": "välja rätt förändringskvot från en tabell",
+  "poang": "1/0/0",
+  "t": "<p>Tabellen visar två värden för en funktion.</p><table class=\"data\" style=\"width:100%;max-width:380px;text-align:center\"><tr><th>x</th><th>f(x)</th></tr><tr><td>2</td><td>12</td></tr><tr><td>6</td><td>24</td></tr></table><p>Vilket uttryck ger den genomsnittliga förändringshastigheten från x=2 till x=6? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Förändringen i funktionsvärde delas med förändringen i x. Ta värdena i samma ordning i täljare och nämnare.</p><div class=\"facit-matte\">\\[\\frac{f(6)-f(2)}{6-2}=\\frac{24-12}{6-2}=3\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{24-12}{6-2}\\).</p></div>",
+  "familj": "Förändringskvot och sekantens lutning",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka två förändringar ska jämföras?</p>",
+  "alternativ": [
+    {
+      "txt": "\\(\\dfrac{24}{6}\\)",
+      "ratt": false,
+      "kommentar": "Då används bara det sista värdeparet, inte förändringen mellan punkterna."
+    },
+    {
+      "txt": "\\(\\dfrac{6-2}{24-12}\\)",
+      "ratt": false,
+      "kommentar": "Förändringen i funktionsvärde ska stå i täljaren."
+    },
+    {
+      "txt": "\\(\\dfrac{24-12}{6-2}\\)",
+      "ratt": true,
+      "kommentar": "Båda förändringarna beräknas från den första till den sista punkten."
+    },
+    {
+      "txt": "\\(\\dfrac{24+12}{6+2}\\)",
+      "ratt": false,
+      "kommentar": "En förändring beräknas med subtraktion, inte addition."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1177",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "niva": "E",
+  "typ": "tolka förändringskvotens enhet",
+  "poang": "1/0/0",
+  "t": "<p>Kostnaden för en hyrbil beskrivs av \\(K(x)\\), där \\(K\\) mäts i kronor och \\(x\\) i kilometer.</p><p>Vilken enhet har kostnadens genomsnittliga förändringshastighet när körsträckan ökar? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Förändringskvoten är förändringen i kostnad delad med förändringen i körsträcka. Enheten blir därför kronor per kilometer.</p><div class=\"facit-matte\">\\[\\frac{\\text{kr}}{\\text{km}}=\\text{kr/km}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> kr/km.</p></div>",
+  "familj": "Genomsnittlig förändringshastighet i sammanhang",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken enhet har täljaren och vilken har nämnaren?</p>",
+  "alternativ": [
+    {
+      "txt": "km/kr",
+      "ratt": false,
+      "kommentar": "Det är körsträcka per krona, alltså den omvända kvoten."
+    },
+    {
+      "txt": "kr/km",
+      "ratt": true,
+      "kommentar": "Det anger hur många kronor kostnaden ändras per kilometer."
+    },
+    {
+      "txt": "kr",
+      "ratt": false,
+      "kommentar": "Det beskriver en kostnad, men inte kostnadsändringen per kilometer."
+    },
+    {
+      "txt": "km",
+      "ratt": false,
+      "kommentar": "Det beskriver en körsträcka, inte hur kostnaden ändras."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1178",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "niva": "E",
+  "typ": "läsa negativ förändringshastighet ur en linjär graf",
+  "poang": "1/0/0",
+  "t": "<p>Grafen visar vattennivån i ett kärl som töms. Bestäm vattennivåns genomsnittliga förändringshastighet mellan 1 och 4 minuter. (Svara i cm/min.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Vattennivån sjunker längs en rät linje. De markerade punkterna är (1 min, 10 cm) och (4 min, 4 cm).\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-kvot1178\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M134.0 42L134.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"134.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M208.0 42L208.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"208.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M282.0 42L282.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"282.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M356.0 42L356.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"356.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">5</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 240.333L430 240.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"245.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 200.667L430 200.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"205.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">6</text><path d=\"M60 121.333L430 121.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"126.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">8</text><path d=\"M60 81.667L430 81.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"86.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">10</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">12</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">Tid (min)</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">Vattennivå (cm)</text><path d=\"M60.0 42.0 L62.312 43.24 L64.625 44.479 L66.938 45.719 L69.25 46.958 L71.562 48.198 L73.875 49.438 L76.188 50.677 L78.5 51.917 L80.812 53.156 L83.125 54.396 L85.438 55.635 L87.75 56.875 L90.062 58.115 L92.375 59.354 L94.688 60.594 L97.0 61.833 L99.312 63.073 L101.625 64.312 L103.938 65.552 L106.25 66.792 L108.562 68.031 L110.875 69.271 L113.188 70.51 L115.5 71.75 L117.812 72.99 L120.125 74.229 L122.438 75.469 L124.75 76.708 L127.062 77.948 L129.375 79.188 L131.688 80.427 L134.0 81.667 L136.312 82.906 L138.625 84.146 L140.938 85.385 L143.25 86.625 L145.562 87.865 L147.875 89.104 L150.188 90.344 L152.5 91.583 L154.812 92.823 L157.125 94.062 L159.438 95.302 L161.75 96.542 L164.062 97.781 L166.375 99.021 L168.688 100.26 L171.0 101.5 L173.312 102.74 L175.625 103.979 L177.938 105.219 L180.25 106.458 L182.562 107.698 L184.875 108.938 L187.188 110.177 L189.5 111.417 L191.812 112.656 L194.125 113.896 L196.438 115.135 L198.75 116.375 L201.062 117.615 L203.375 118.854 L205.688 120.094 L208.0 121.333 L210.312 122.573 L212.625 123.812 L214.938 125.052 L217.25 126.292 L219.562 127.531 L221.875 128.771 L224.188 130.01 L226.5 131.25 L228.812 132.49 L231.125 133.729 L233.438 134.969 L235.75 136.208 L238.062 137.448 L240.375 138.688 L242.688 139.927 L245.0 141.167 L247.312 142.406 L249.625 143.646 L251.938 144.885 L254.25 146.125 L256.562 147.365 L258.875 148.604 L261.188 149.844 L263.5 151.083 L265.812 152.323 L268.125 153.562 L270.438 154.802 L272.75 156.042 L275.062 157.281 L277.375 158.521 L279.688 159.76 L282.0 161.0 L284.312 162.24 L286.625 163.479 L288.938 164.719 L291.25 165.958 L293.562 167.198 L295.875 168.438 L298.188 169.677 L300.5 170.917 L302.812 172.156 L305.125 173.396 L307.438 174.635 L309.75 175.875 L312.062 177.115 L314.375 178.354 L316.688 179.594 L319.0 180.833 L321.312 182.073 L323.625 183.312 L325.938 184.552 L328.25 185.792 L330.562 187.031 L332.875 188.271 L335.188 189.51 L337.5 190.75 L339.812 191.99 L342.125 193.229 L344.438 194.469 L346.75 195.708 L349.062 196.948 L351.375 198.188 L353.688 199.427 L356.0 200.667 L358.312 201.906 L360.625 203.146 L362.938 204.385 L365.25 205.625 L367.562 206.865 L369.875 208.104 L372.188 209.344 L374.5 210.583 L376.812 211.823 L379.125 213.062 L381.438 214.302 L383.75 215.542 L386.062 216.781 L388.375 218.021 L390.688 219.26 L393.0 220.5 L395.312 221.74 L397.625 222.979 L399.938 224.219 L402.25 225.458 L404.562 226.698 L406.875 227.938 L409.188 229.177 L411.5 230.417 L413.812 231.656 L416.125 232.896 L418.438 234.135 L420.75 235.375 L423.062 236.615 L425.375 237.854 L427.688 239.094 L430.0 240.333\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-kvot1178)\"/><circle cx=\"134.0\" cy=\"81.667\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"356.0\" cy=\"200.667\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Nivån ändras från 10 cm till 4 cm på 3 minuter. Det negativa tecknet visar att nivån sjunker.</p><div class=\"facit-matte\">\\[\\frac{4-10}{4-1}=\\frac{-6}{3}=-2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\) cm/min.</p></div>",
+  "familj": "Förändring ur grafer, tabeller och sammanhang",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": -2,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs av nivån i de två markerade punkterna.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm/min",
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1179",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "niva": "E",
+  "typ": "förändring på ett intervall med längden ett",
+  "poang": "1/0/0",
+  "t": "<p>Tabellen visar två värden för en funktion.</p><table class=\"data\" style=\"width:100%;max-width:380px;text-align:center\"><tr><th>x</th><th>f(x)</th></tr><tr><td>7</td><td>11</td></tr><tr><td>8</td><td>8</td></tr></table><p>Hur stor är förändringskvoten från x=7 till x=8?</p>",
+  "s": "<div class=\"facit-v2\"><p>När x ökar med 1 minskar funktionsvärdet med 3. Förändringskvoten är därför −3.</p><div class=\"facit-matte\">\\[\\frac{8-11}{8-7}=\\frac{-3}{1}=-3\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\).</p></div>",
+  "familj": "Förändringskvot och sekantens lutning",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": -3,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Beräkna skillnaden mellan funktionsvärdena i rätt ordning.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1180",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "niva": "E",
+  "typ": "jämföra tillväxt under olika långa mätperioder",
+  "poang": "1/0/0",
+  "t": "<p>Två plantors tillväxt mäts under olika långa perioder.</p><table class=\"data\" style=\"width:100%;max-width:380px;text-align:center\"><tr><th>Planta</th><th>Mättid (dygn)</th><th>Ökad höjd (cm)</th></tr><tr><td>A</td><td>4</td><td>12</td></tr><tr><td>B</td><td>6</td><td>15</td></tr></table><p>Vilken planta växte snabbast i genomsnitt under sin mätperiod? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Jämför höjdökning per dygn. Plantan med störst total ökning behöver inte ha vuxit snabbast.</p><div class=\"facit-matte\">\\[\\begin{aligned}A:&\\quad 12/4=3\\text{ cm/dygn}\\\\B:&\\quad 15/6=2{,}5\\text{ cm/dygn}\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Planta A.</p></div>",
+  "familj": "Förändring ur grafer, tabeller och sammanhang",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Mätperioderna är olika långa. Jämför ökningen under lika lång tid.</p>",
+  "alternativ": [
+    {
+      "txt": "Planta B, eftersom den ökade mest i höjd.",
+      "ratt": false,
+      "kommentar": "B ökade mer totalt men hade också längre tid på sig."
+    },
+    {
+      "txt": "De växte lika snabbt i genomsnitt.",
+      "ratt": false,
+      "kommentar": "A ökade 3 cm per dygn och B 2,5 cm per dygn."
+    },
+    {
+      "txt": "Det går inte att avgöra utan deras starthöjder.",
+      "ratt": false,
+      "kommentar": "Ökningen och tiden räcker; starthöjderna behövs inte."
+    },
+    {
+      "txt": "Planta A, eftersom den ökade mer per dygn.",
+      "ratt": true,
+      "kommentar": "A ökade 3 cm per dygn, jämfört med B:s 2,5 cm per dygn."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1181",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "niva": "E",
+  "typ": "rekonstruera ett saknat tabellvärde",
+  "poang": "1/0/0",
+  "t": "<p>En tank fylls med vatten. Mellan t=2 min och t=5 min ökar vattenvolymen i genomsnitt med 12 liter per minut.</p><table class=\"data\" style=\"width:100%;max-width:380px;text-align:center\"><tr><th>Tid (min)</th><th>Volym (liter)</th></tr><tr><td>2</td><td>38</td></tr><tr><td>5</td><td>?</td></tr></table><p>Hur mycket vatten finns i tanken efter 5 minuter? (Svara i liter.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Mellan mätningarna går 3 minuter. Volymen ökar med 12·3=36 liter. Lägg ökningen till volymen vid den första mätningen.</p><div class=\"facit-matte\">\\[\\begin{aligned}V(5)&=38+12(5-2)\\\\&=38+36=74\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 74 liter.</p></div>",
+  "familj": "Genomsnittlig förändringshastighet i sammanhang",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 74,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skilj mellan ökningen under perioden och hela volymen vid slutet.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "liter",
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1182",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "niva": "C",
+  "typ": "väga samman genomsnitt för olika långa intervall",
+  "poang": "0/1/0",
+  "t": "<p>Temperaturen ökar i genomsnitt med 2 °C/h under de första 3 timmarna. Under de följande 6 timmarna minskar den i genomsnitt med 1 °C/h.</p><p>Bestäm temperaturens genomsnittliga förändringshastighet under hela perioden på 9 timmar. (Svara i °C/h.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 220\" role=\"img\" aria-label=\"Tidslinje: under timmarna 0–3 är temperaturens genomsnittliga ändring +2 °C/h, under timmarna 3–9 är den −1 °C/h.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"220\" fill=\"white\"/><path d=\"M55 105L425 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M55 96L55 114\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M178.33 96L178.33 114\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M425 96L425 114\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"55\" y=\"145\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">0</text><text x=\"178.33\" y=\"145\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">3</text><text x=\"425\" y=\"145\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">9</text><text x=\"435\" y=\"185\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">Tid (h)</text><text x=\"116.7\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">+2 °C/h</text><text x=\"301.7\" y=\"65\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">−1 °C/h</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Räkna först hur mycket temperaturen ändras under varje del av perioden. Ökningen och minskningen är lika stora, så sluttemperaturen är samma som starttemperaturen.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\Delta T&=2\\cdot3-1\\cdot6=0\\text{ °C}\\\\\\frac{\\Delta T}{\\Delta t}&=\\frac{0}{9}=0\\text{ °C/h}\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0 °C/h. Man kan inte ta ett vanligt medelvärde av 2 och −1, eftersom perioderna är olika långa.</p></div>",
+  "familj": "Genomsnittlig förändringshastighet i sammanhang",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 0,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hur stor blir den sammanlagda temperaturändringen?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "°C/h",
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1183",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "niva": "C",
+  "typ": "bestämma en parameter ur en känd förändringskvot",
+  "poang": "0/1/0",
+  "t": "<p>Funktionen är \\(f(x)=x^2+ax\\), där \\(a\\) är en konstant. Den genomsnittliga förändringshastigheten från \\(x=1\\) till \\(x=4\\) är 8.</p><p>Bestäm \\(a\\).</p>",
+  "s": "<div class=\"facit-v2\"><p>Skriv de två funktionsvärdena med a kvar. Förändringskvoten ger en ekvation för a.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{f(4)-f(1)}{4-1}&=8\\\\\\frac{(16+4a)-(1+a)}{3}&=8\\\\5+a&=8\\\\a&=3\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\).</p></div>",
+  "familj": "Förändringskvot och sekantens lutning",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vad blir f(4) och f(1) uttryckta med a?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "2.1184",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "niva": "C",
+  "typ": "hitta intervallets okända slutpunkt",
+  "poang": "0/1/0",
+  "t": "<p>För funktionen \\(f(x)=x^2+2x\\) börjar ett intervall vid \\(x=1\\) och slutar vid \\(x=b\\), där \\(b\\gt1\\). Förändringskvoten på intervallet är 8.</p><p>Bestäm \\(b\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Grafen till f(x)=x²+2x. Den kända startpunkten P=(1,3) är markerad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-kvot1184\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M121.667 42L121.667 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"121.667\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M183.333 42L183.333 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"183.333\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M306.667 42L306.667 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"306.667\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M368.333 42L368.333 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"368.333\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">5</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">6</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 232.4L430 232.4\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"237.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">10</text><path d=\"M60 184.8L430 184.8\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"189.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">20</text><path d=\"M60 137.2L430 137.2\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"142.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">30</text><path d=\"M60 89.6L430 89.6\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"94.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">40</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">50</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">f(x)</text><path d=\"M60.0 280.0 L62.312 279.636 L64.625 279.259 L66.938 278.869 L69.25 278.465 L71.562 278.048 L73.875 277.617 L76.188 277.173 L78.5 276.716 L80.812 276.245 L83.125 275.761 L85.438 275.263 L87.75 274.752 L90.062 274.228 L92.375 273.69 L94.688 273.139 L97.0 272.574 L99.312 271.997 L101.625 271.405 L103.938 270.801 L106.25 270.183 L108.562 269.551 L110.875 268.906 L113.188 268.248 L115.5 267.576 L117.812 266.891 L120.125 266.193 L122.438 265.481 L124.75 264.756 L127.062 264.018 L129.375 263.266 L131.688 262.5 L134.0 261.722 L136.312 260.93 L138.625 260.124 L140.938 259.305 L143.25 258.473 L145.562 257.627 L147.875 256.768 L150.188 255.896 L152.5 255.01 L154.812 254.111 L157.125 253.198 L159.438 252.272 L161.75 251.333 L164.062 250.38 L166.375 249.414 L168.688 248.435 L171.0 247.442 L173.312 246.435 L175.625 245.416 L177.938 244.383 L180.25 243.336 L182.562 242.276 L184.875 241.203 L187.188 240.116 L189.5 239.016 L191.813 237.903 L194.125 236.776 L196.438 235.636 L198.75 234.483 L201.062 233.316 L203.375 232.135 L205.687 230.942 L208.0 229.734 L210.312 228.514 L212.625 227.28 L214.938 226.033 L217.25 224.772 L219.562 223.498 L221.875 222.211 L224.188 220.91 L226.5 219.596 L228.812 218.268 L231.125 216.927 L233.438 215.573 L235.75 214.205 L238.062 212.824 L240.375 211.429 L242.688 210.021 L245.0 208.6 L247.312 207.165 L249.625 205.717 L251.938 204.256 L254.25 202.781 L256.562 201.293 L258.875 199.791 L261.188 198.276 L263.5 196.748 L265.812 195.206 L268.125 193.651 L270.438 192.082 L272.75 190.5 L275.062 188.905 L277.375 187.296 L279.688 185.674 L282.0 184.038 L284.312 182.39 L286.625 180.727 L288.938 179.052 L291.25 177.363 L293.562 175.66 L295.875 173.944 L298.188 172.215 L300.5 170.472 L302.812 168.716 L305.125 166.947 L307.438 165.164 L309.75 163.368 L312.062 161.559 L314.375 159.736 L316.687 157.899 L319.0 156.05 L321.312 154.187 L323.625 152.31 L325.938 150.42 L328.25 148.517 L330.562 146.6 L332.875 144.67 L335.188 142.727 L337.5 140.77 L339.812 138.8 L342.125 136.816 L344.438 134.819 L346.75 132.809 L349.062 130.785 L351.375 128.748 L353.688 126.698 L356.0 124.634 L358.313 122.556 L360.625 120.466 L362.937 118.362 L365.25 116.244 L367.562 114.113 L369.875 111.969 L372.188 109.811 L374.5 107.64 L376.812 105.456 L379.125 103.258 L381.438 101.047 L383.75 98.822 L386.062 96.585 L388.375 94.333 L390.688 92.069 L393.0 89.79 L395.312 87.499 L397.625 85.194 L399.938 82.876 L402.25 80.544 L404.562 78.199 L406.875 75.841 L409.188 73.469 L411.5 71.084 L413.812 68.685 L416.125 66.273 L418.438 63.848 L420.75 61.409 L423.062 58.957 L425.375 56.491 L427.688 54.012 L430.0 51.52\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-kvot1184)\"/><circle cx=\"121.667\" cy=\"265.72\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"135.667\" y=\"250.72000000000003\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">P</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Sätt in funktionsvärdena i förändringskvoten. Täljaren kan faktoriseras. Eftersom b är större än 1 får faktorn b−1 förkortas bort.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{b^2+2b-3}{b-1}&=8\\\\\\frac{(b-1)(b+3)}{b-1}&=8\\\\b+3&=8\\\\b&=5\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=5\\). Kontroll: \\((f(5)-f(1))/(5-1)=(35-3)/4=8\\).</p></div>",
+  "familj": "Förändringskvot och sekantens lutning",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv först en ekvation med förändringskvoten.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
 }
 ];

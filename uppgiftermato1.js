@@ -107061,5 +107061,223 @@ window.BANKMATO1 = [
     "1b",
     "1c"
   ]
+},
+{
+  "id": "4.520",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "niva": "E",
+  "typ": "välja cosinussatsens samband från en figur",
+  "poang": "1/0/0",
+  "t": "<p>Vilket samband stämmer för längden \\(x\\) i figuren? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 305\" role=\"img\" aria-label=\"Triangel med sidorna 7 cm och 4 cm, vinkeln 60 grader mellan dem och den motstående sidan x cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"305\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"7\" data-side-b=\"4\" data-angle=\"60\" points=\"80.0,245.0 400.0,245.0 171.42857142857144,86.64106902227408\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"240.0\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">7 cm</text><text x=\"100.59954900453701\" y=\"156.32053451113705\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">4 cm</text><text x=\"302.2296348403792\" y=\"146.98268135186024\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">x cm</text><path data-angle-arc=\"60\" d=\"M107.0 245.0 A27 27 0 0 0 93.5 221.61731409782016\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"138.0237020535574\" y=\"216.5\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">60°</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Sidan x ligger mittemot den kända vinkeln. Cosinussatsen kopplar den till de två sidor som möts i vinkeln.</p><div class=\"facit-matte\">\\[x^2=7^2+4^2-2\\cdot7\\cdot4\\cos60^\\circ\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^2=7^2+4^2-2\\cdot7\\cdot4\\cos60^\\circ\\).</p></div>",
+  "familj": "Använda cosinussatsen",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken sida ligger mittemot vinkeln 60°?</p>",
+  "alternativ": [
+    {
+      "txt": "\\(x^2=7^2+4^2\\)",
+      "ratt": false,
+      "kommentar": "Detta gäller om den mellanliggande vinkeln är 90°, men här är den 60°."
+    },
+    {
+      "txt": "\\(x^2=7^2+4^2-2\\cdot7\\cdot4\\cos60^\\circ\\)",
+      "ratt": true,
+      "kommentar": "Cosinustermen använder de två kända sidorna och vinkeln mellan dem."
+    },
+    {
+      "txt": "\\(x^2=7^2+4^2+2\\cdot7\\cdot4\\cos60^\\circ\\)",
+      "ratt": false,
+      "kommentar": "Här har cosinustermen fått fel tecken."
+    },
+    {
+      "txt": "\\(x^2=7^2+4^2-2\\cdot7\\cdot4\\sin60^\\circ\\)",
+      "ratt": false,
+      "kommentar": "Cosinussatsen använder cosinus, inte sinus."
+    }
+  ],
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.521",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "niva": "E",
+  "typ": "genväg över ett trubbigt hörn",
+  "poang": "1/0/0",
+  "t": "<p>Två stigar möts i vinkeln 120°. En person står 5 m från korsningen på den ena stigen och en annan står 3 m från korsningen på den andra. Hur långt är det rakt mellan personerna? (Svara i m.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 305\" role=\"img\" aria-label=\"Två sträckor från en korsning, 5 m och 3 m, bildar vinkeln 120 grader. Avståndet mellan deras ändpunkter är x.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"305\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"5\" data-side-b=\"3\" data-angle=\"120\" points=\"153.8461538461538,245.0 400.0,245.0 79.99999999999997,117.09470959491365\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"276.9230769230769\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">5 m</text><text x=\"91.80834021332817\" y=\"200.54735479745682\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">3 m</text><text x=\"250.7634585898923\" y=\"159.1187833688854\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">x</text><path data-angle-arc=\"120\" d=\"M180.8461538461538 245.0 A27 27 0 0 0 140.3461538461538 221.61731409782016\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"177.8461538461538\" y=\"208.43078061834694\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">120°</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Avståndet mellan personerna är sidan mittemot vinkeln 120°. Cosinusvärdet är negativt, så den sista termen ökar x².</p><div class=\"facit-matte\">\\[\\begin{aligned}x^2&=5^2+3^2-2\\cdot5\\cdot3\\cos120^\\circ\\\\&=25+9+15=49\\\\x&=\\sqrt{49}=7\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 7 m.</p></div>",
+  "familj": "Använda cosinussatsen",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 7,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Koppla de två kända sträckorna till vinkeln mellan dem.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m",
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.522",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "niva": "E",
+  "typ": "öppna en vinkel mellan fasta sidor",
+  "poang": "1/0/0",
+  "t": "<p>Trianglarna har två sidor som är 5 cm. Vinkeln mellan dem är större i triangel II. Jämför de motstående sidorna \\(x\\) och \\(y\\). (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 580\" role=\"img\" aria-label=\"Två trianglar i samma skala. Båda har två sidor 5 cm. Mellanliggande vinkel är 40 grader i I och 100 grader i II. Motstående sidor är x och y.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"580\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"5\" data-side-b=\"5\" data-angle=\"40\" points=\"152.5,245 327.5,245 286.5577775458211,132.51216830485563\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"240.0\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">5 cm</text><text x=\"200.88804809200093\" y=\"171.54079530197748\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">5 cm</text><text x=\"334.27997477570193\" y=\"183.83749999598342\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">x</text><path data-angle-arc=\"40\" d=\"M179.5 245 A27 27 0 0 0 173.1831999642124 227.64473453846344\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"215.45940559265586\" y=\"227.0846503971802\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">40°</text><text x=\"240\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">I</text><polygon data-geometry=\"triangle\" data-side-a=\"5\" data-side-b=\"5\" data-angle=\"100\" points=\"167.6942155458564,520 342.6942155458564,520 137.30578445414358,347.6586432228636\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"255.19421554585642\" y=\"554.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">5 cm</text><text x=\"123.94057516264597\" y=\"443.8651187637728\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">5 cm</text><text x=\"258.64084068090966\" y=\"416.61403276098144\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">y</text><path data-angle-arc=\"100\" d=\"M194.6942155458564 520 A27 27 0 0 0 163.00571474884927 493.4101906686704\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"198.54802081081027\" y=\"488.2298667302891\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">100°</text><text x=\"240\" y=\"320\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"middle\" fill=\"#243447\">II</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>När två sidlängder hålls fasta blir den motstående sidan längre när vinkeln mellan sidorna ökar. I cosinussatsen minskar cosinusvärdet när vinkeln ökar från 40° till 100°, vilket gör den tredje sidans kvadrat större.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(y\\gt x\\).</p></div>",
+  "familj": "Använda cosinussatsen",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Tänk på hur avståndet mellan ändarna på en sax ändras när du öppnar den.</p>",
+  "alternativ": [
+    {
+      "txt": "\\(y\\lt x\\)",
+      "ratt": false,
+      "kommentar": "Den större vinkeln ger större avstånd mellan de fria ändpunkterna."
+    },
+    {
+      "txt": "\\(y=x\\)",
+      "ratt": false,
+      "kommentar": "Två lika sidlängder räcker inte för samma tredje sida när vinkeln ändras."
+    },
+    {
+      "txt": "Det går inte att jämföra utan fler mått.",
+      "ratt": false,
+      "kommentar": "De två sidlängderna och vinkeln bestämmer den tredje sidan."
+    },
+    {
+      "txt": "\\(y\\gt x\\)",
+      "ratt": true,
+      "kommentar": "Den större mellanliggande vinkeln ger den längre motstående sidan."
+    }
+  ],
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.523",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "niva": "E",
+  "typ": "bestämma en trubbig vinkel från tre sidlängder",
+  "poang": "1/0/0",
+  "t": "<p>Beräkna den markerade vinkeln \\(v\\). (Svara i grader med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 305\" role=\"img\" aria-label=\"Triangel med sidor 7 cm, 5 cm och 10 cm. Vinkeln v ligger mellan sidorna 7 och 5 cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"305\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"7\" data-side-b=\"5\" data-angle=\"111.80374798938259\" points=\"147.0967741935484,245.0 400.0,245.0 80.0,77.27791680751568\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"273.5483870967742\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">7 cm</text><text x=\"86.62300266998074\" y=\"176.9103869751864\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">5 cm</text><text x=\"253.46269221339674\" y=\"140.45324411804356\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">10 cm</text><path data-angle-arc=\"111.80374798938259\" d=\"M174.0967741935484 245.0 A27 27 0 0 0 137.06820276497697 219.9315386371233\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"174.00614590145503\" y=\"210.2522237818804\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">v</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Sidan 10 cm ligger mittemot v. Lös ut cos v ur cosinussatsen och använd sedan invers cosinus.</p><div class=\"facit-matte\">\\[\\begin{aligned}10^2&=7^2+5^2-2\\cdot7\\cdot5\\cos v\\\\\\cos v&=\\frac{49+25-100}{70}=-\\frac{13}{35}\\\\v&=\\arccos\\!\\left(-\\frac{13}{35}\\right)\\approx111{,}8^\\circ\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(v\\approx111{,}8^\\circ\\).</p></div>",
+  "familj": "Använda cosinussatsen",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 111.80374798938259,
+  "tolerans": 0.05,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken av de tre sidorna ligger mittemot vinkeln som söks?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "°",
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.524",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "niva": "C",
+  "typ": "bestämma en parallellograms sida från båda diagonalerna",
+  "poang": "0/1/0",
+  "t": "<p>Parallellogrammens diagonaler är 8 cm och 10 cm. En av sidlängderna är 6 cm.</p><p>Bestäm den andra sidlängden \\(x\\). (Svara i cm med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 335\" role=\"img\" aria-label=\"Parallellogram med diagonalerna 8 cm och 10 cm. En sida är 6 cm och en angränsande sida är x cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"335\" fill=\"white\"/><polygon data-geometry=\"parallelogram\" points=\"90,270 270,270 315,71.5686516701557 135,71.5686516701557\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><path d=\"M90 270L315 71.5686516701557\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2.5\"/><path d=\"M270 270L135 71.5686516701557\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"2.5\"/><text x=\"180\" y=\"301\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">6 cm</text><text x=\"79\" y=\"174\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">x cm</text><text x=\"264\" y=\"174\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">10 cm</text><text x=\"202\" y=\"116\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">8 cm</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Låt vinkeln mellan sidorna 6 och x vara v. Vinkeln i nästa hörn är 180°−v. Cosinusvärdena har motsatta tecken. Skriv cosinussatsen för båda diagonalerna och addera ekvationerna så att cosinustermerna försvinner.</p><div class=\"facit-matte\">\\[\\begin{aligned}8^2&=6^2+x^2-12x\\cos v\\\\10^2&=6^2+x^2+12x\\cos v\\\\164&=72+2x^2\\\\x^2&=46\\\\x&=\\sqrt{46}\\approx6{,}78\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx6{,}78\\) cm.</p></div>",
+  "familj": "Använda cosinussatsen",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 6.782329983125268,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>De två vinklar som ligger mittemot diagonalerna har summan 180°. Vad händer om du adderar två cosinussamband?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm",
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.525",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "niva": "C",
+  "typ": "två okända lika sidor i samma cosinussamband",
+  "poang": "0/1/0",
+  "t": "<p>En likbent triangel har två lika långa sidor, båda \\(x\\) cm. Vinkeln mellan dem är 120° och den tredje sidan är 12 cm.</p><p>Bestäm \\(x\\). (Svara i cm med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 305\" role=\"img\" aria-label=\"Likbent triangel med två sidor x cm, vinkeln 120 grader mellan dem och motstående sida 12 cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"305\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"6.928203230275509\" data-side-b=\"6.928203230275509\" data-angle=\"120\" points=\"188.03847577293368,245.0 395.88457268119896,245.0 84.11542731880107,65.0\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"291.9615242270663\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">x cm</text><text x=\"110.96221483611863\" y=\"174.5\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">x cm</text><text x=\"254.5\" y=\"134.8852632902513\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">12 cm</text><path data-angle-arc=\"120\" d=\"M215.03847577293368 245.0 A27 27 0 0 0 174.53847577293368 221.61731409782016\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"212.03847577293368\" y=\"208.43078061834694\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">120°</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Båda sidorna intill vinkeln är x, så de ska båda ersättas med x i cosinussatsen. Eftersom cos 120°=−1/2 blir den sista termen positiv.</p><div class=\"facit-matte\">\\[\\begin{aligned}12^2&=x^2+x^2-2x^2\\cos120^\\circ\\\\144&=2x^2+x^2=3x^2\\\\x^2&=48\\\\x&=\\sqrt{48}\\approx6{,}93\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx6{,}93\\) cm.</p></div>",
+  "familj": "Använda cosinussatsen",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 6.928203230275509,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Använd samma obekanta sidlängd på båda ställena i cosinussatsen.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm",
+  "kurs": [
+    "1c"
+  ]
 }
 ];

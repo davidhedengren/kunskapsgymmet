@@ -106815,5 +106815,251 @@ window.BANKMATO1 = [
     "1b",
     "1c"
   ]
+},
+{
+  "id": "3.1201",
+  "kap": 3,
+  "omr": "andraderivatan",
+  "niva": "E",
+  "typ": "andraderivatan som lutning på en rät derivatagraf",
+  "poang": "1/0/0",
+  "t": "<p>Figuren visar grafen till derivatan \\(f^{\\prime}\\). Bestäm \\(f^{\\prime\\prime}(2)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Grafen till f′ är en rät linje genom de markerade punkterna (1,2) och (3,0).\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-andra1201\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M152.5 42L152.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"152.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M337.5 42L337.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"337.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-2</text><path d=\"M60 200.667L430 200.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"205.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 121.333L430 121.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"126.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 200.667L430 200.667\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">f′(x)</text><path d=\"M60.0 81.667 L62.312 82.658 L64.625 83.65 L66.938 84.642 L69.25 85.633 L71.562 86.625 L73.875 87.617 L76.188 88.608 L78.5 89.6 L80.812 90.592 L83.125 91.583 L85.438 92.575 L87.75 93.567 L90.062 94.558 L92.375 95.55 L94.688 96.542 L97.0 97.533 L99.312 98.525 L101.625 99.517 L103.938 100.508 L106.25 101.5 L108.562 102.492 L110.875 103.483 L113.188 104.475 L115.5 105.467 L117.812 106.458 L120.125 107.45 L122.438 108.442 L124.75 109.433 L127.062 110.425 L129.375 111.417 L131.688 112.408 L134.0 113.4 L136.312 114.392 L138.625 115.383 L140.938 116.375 L143.25 117.367 L145.562 118.358 L147.875 119.35 L150.188 120.342 L152.5 121.333 L154.812 122.325 L157.125 123.317 L159.438 124.308 L161.75 125.3 L164.062 126.292 L166.375 127.283 L168.688 128.275 L171.0 129.267 L173.312 130.258 L175.625 131.25 L177.938 132.242 L180.25 133.233 L182.562 134.225 L184.875 135.217 L187.188 136.208 L189.5 137.2 L191.812 138.192 L194.125 139.183 L196.438 140.175 L198.75 141.167 L201.062 142.158 L203.375 143.15 L205.688 144.142 L208.0 145.133 L210.312 146.125 L212.625 147.117 L214.938 148.108 L217.25 149.1 L219.562 150.092 L221.875 151.083 L224.188 152.075 L226.5 153.067 L228.812 154.058 L231.125 155.05 L233.438 156.042 L235.75 157.033 L238.062 158.025 L240.375 159.017 L242.688 160.008 L245.0 161.0 L247.312 161.992 L249.625 162.983 L251.938 163.975 L254.25 164.967 L256.562 165.958 L258.875 166.95 L261.188 167.942 L263.5 168.933 L265.812 169.925 L268.125 170.917 L270.438 171.908 L272.75 172.9 L275.062 173.892 L277.375 174.883 L279.688 175.875 L282.0 176.867 L284.312 177.858 L286.625 178.85 L288.938 179.842 L291.25 180.833 L293.562 181.825 L295.875 182.817 L298.188 183.808 L300.5 184.8 L302.812 185.792 L305.125 186.783 L307.438 187.775 L309.75 188.767 L312.062 189.758 L314.375 190.75 L316.688 191.742 L319.0 192.733 L321.312 193.725 L323.625 194.717 L325.938 195.708 L328.25 196.7 L330.562 197.692 L332.875 198.683 L335.188 199.675 L337.5 200.667 L339.812 201.658 L342.125 202.65 L344.438 203.642 L346.75 204.633 L349.062 205.625 L351.375 206.617 L353.688 207.608 L356.0 208.6 L358.312 209.592 L360.625 210.583 L362.938 211.575 L365.25 212.567 L367.562 213.558 L369.875 214.55 L372.188 215.542 L374.5 216.533 L376.812 217.525 L379.125 218.517 L381.438 219.508 L383.75 220.5 L386.062 221.492 L388.375 222.483 L390.688 223.475 L393.0 224.467 L395.312 225.458 L397.625 226.45 L399.938 227.442 L402.25 228.433 L404.562 229.425 L406.875 230.417 L409.188 231.408 L411.5 232.4 L413.812 233.392 L416.125 234.383 L418.438 235.375 L420.75 236.367 L423.062 237.358 L425.375 238.35 L427.688 239.342 L430.0 240.333\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-andra1201)\"/><circle cx=\"152.5\" cy=\"121.333\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"337.5\" cy=\"200.667\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Andraderivatan är lutningen på grafen till f′. Linjen har samma lutning överallt, alltså även vid x=2.</p><div class=\"facit-matte\">\\[f^{\\prime\\prime}(2)=\\frac{0-2}{3-1}=-1\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(f^{\\prime\\prime}(2)=-1\\).</p></div>",
+  "familj": "Andraderivatans tecken och grafens form",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": -1,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Det är grafen till f′ som visas. Vad beskriver då dess lutning?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "3.1202",
+  "kap": 3,
+  "omr": "andraderivatan",
+  "niva": "E",
+  "typ": "konstant negativ förstaderivata men noll andraderivata",
+  "poang": "1/0/0",
+  "t": "<p>Grafen till \\(f^{\\prime}\\) är den vågräta linjen i figuren. Hur stor är \\(f^{\\prime\\prime}(1)\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Grafen till f′ är vågrät på höjden −4.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-andra1202\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M152.5 42L152.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"152.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M337.5 42L337.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"337.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-6</text><path d=\"M60 212.0L430 212.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-4</text><path d=\"M60 144.0L430 144.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"149.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-2</text><path d=\"M60 76.0L430 76.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"81.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 76.0L430 76.0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">f′(x)</text><path d=\"M60.0 212.0 L62.312 212.0 L64.625 212.0 L66.938 212.0 L69.25 212.0 L71.562 212.0 L73.875 212.0 L76.188 212.0 L78.5 212.0 L80.812 212.0 L83.125 212.0 L85.438 212.0 L87.75 212.0 L90.062 212.0 L92.375 212.0 L94.688 212.0 L97.0 212.0 L99.312 212.0 L101.625 212.0 L103.938 212.0 L106.25 212.0 L108.562 212.0 L110.875 212.0 L113.188 212.0 L115.5 212.0 L117.812 212.0 L120.125 212.0 L122.438 212.0 L124.75 212.0 L127.062 212.0 L129.375 212.0 L131.688 212.0 L134.0 212.0 L136.312 212.0 L138.625 212.0 L140.938 212.0 L143.25 212.0 L145.562 212.0 L147.875 212.0 L150.188 212.0 L152.5 212.0 L154.812 212.0 L157.125 212.0 L159.438 212.0 L161.75 212.0 L164.062 212.0 L166.375 212.0 L168.688 212.0 L171.0 212.0 L173.312 212.0 L175.625 212.0 L177.938 212.0 L180.25 212.0 L182.562 212.0 L184.875 212.0 L187.188 212.0 L189.5 212.0 L191.812 212.0 L194.125 212.0 L196.438 212.0 L198.75 212.0 L201.062 212.0 L203.375 212.0 L205.688 212.0 L208.0 212.0 L210.312 212.0 L212.625 212.0 L214.938 212.0 L217.25 212.0 L219.562 212.0 L221.875 212.0 L224.188 212.0 L226.5 212.0 L228.812 212.0 L231.125 212.0 L233.438 212.0 L235.75 212.0 L238.062 212.0 L240.375 212.0 L242.688 212.0 L245.0 212.0 L247.312 212.0 L249.625 212.0 L251.938 212.0 L254.25 212.0 L256.562 212.0 L258.875 212.0 L261.188 212.0 L263.5 212.0 L265.812 212.0 L268.125 212.0 L270.438 212.0 L272.75 212.0 L275.062 212.0 L277.375 212.0 L279.688 212.0 L282.0 212.0 L284.312 212.0 L286.625 212.0 L288.938 212.0 L291.25 212.0 L293.562 212.0 L295.875 212.0 L298.188 212.0 L300.5 212.0 L302.812 212.0 L305.125 212.0 L307.438 212.0 L309.75 212.0 L312.062 212.0 L314.375 212.0 L316.688 212.0 L319.0 212.0 L321.312 212.0 L323.625 212.0 L325.938 212.0 L328.25 212.0 L330.562 212.0 L332.875 212.0 L335.188 212.0 L337.5 212.0 L339.812 212.0 L342.125 212.0 L344.438 212.0 L346.75 212.0 L349.062 212.0 L351.375 212.0 L353.688 212.0 L356.0 212.0 L358.312 212.0 L360.625 212.0 L362.938 212.0 L365.25 212.0 L367.562 212.0 L369.875 212.0 L372.188 212.0 L374.5 212.0 L376.812 212.0 L379.125 212.0 L381.438 212.0 L383.75 212.0 L386.062 212.0 L388.375 212.0 L390.688 212.0 L393.0 212.0 L395.312 212.0 L397.625 212.0 L399.938 212.0 L402.25 212.0 L404.562 212.0 L406.875 212.0 L409.188 212.0 L411.5 212.0 L413.812 212.0 L416.125 212.0 L418.438 212.0 L420.75 212.0 L423.062 212.0 L425.375 212.0 L427.688 212.0 L430.0 212.0\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-andra1202)\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Förstaderivatan är −4 och förändras inte. Lutningen på dess graf är därför 0, även om grafen ligger under x-axeln.</p><div class=\"facit-matte\">\\[f^{\\prime}(x)=-4\\quad\\Rightarrow\\quad f^{\\prime\\prime}(x)=0\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(f^{\\prime\\prime}(1)=0\\).</p></div>",
+  "familj": "Andraderivatans tecken och grafens form",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 0,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skilj linjens höjd från dess lutning.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "3.1203",
+  "kap": 3,
+  "omr": "andraderivatan",
+  "niva": "E",
+  "typ": "positiv andraderivata trots negativ förstaderivata",
+  "poang": "1/0/0",
+  "t": "<p>Figuren visar grafen till \\(f^{\\prime}\\). Vilket tecken har \\(f^{\\prime\\prime}(x)\\) när \\(0\\lt x\\lt4\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Grafen till f′ stiger från −3 vid x=0 till −1 vid x=4.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-andra1203\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M152.5 42L152.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"152.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M337.5 42L337.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"337.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-4</text><path d=\"M60 232.4L430 232.4\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"237.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-3</text><path d=\"M60 184.8L430 184.8\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"189.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-2</text><path d=\"M60 137.2L430 137.2\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"142.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-1</text><path d=\"M60 89.6L430 89.6\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"94.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 89.6L430 89.6\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">f′(x)</text><path d=\"M60.0 232.4 L62.312 231.805 L64.625 231.21 L66.938 230.615 L69.25 230.02 L71.562 229.425 L73.875 228.83 L76.188 228.235 L78.5 227.64 L80.812 227.045 L83.125 226.45 L85.438 225.855 L87.75 225.26 L90.062 224.665 L92.375 224.07 L94.688 223.475 L97.0 222.88 L99.312 222.285 L101.625 221.69 L103.938 221.095 L106.25 220.5 L108.562 219.905 L110.875 219.31 L113.188 218.715 L115.5 218.12 L117.812 217.525 L120.125 216.93 L122.438 216.335 L124.75 215.74 L127.062 215.145 L129.375 214.55 L131.688 213.955 L134.0 213.36 L136.312 212.765 L138.625 212.17 L140.938 211.575 L143.25 210.98 L145.562 210.385 L147.875 209.79 L150.188 209.195 L152.5 208.6 L154.812 208.005 L157.125 207.41 L159.438 206.815 L161.75 206.22 L164.062 205.625 L166.375 205.03 L168.688 204.435 L171.0 203.84 L173.312 203.245 L175.625 202.65 L177.938 202.055 L180.25 201.46 L182.562 200.865 L184.875 200.27 L187.188 199.675 L189.5 199.08 L191.812 198.485 L194.125 197.89 L196.438 197.295 L198.75 196.7 L201.062 196.105 L203.375 195.51 L205.688 194.915 L208.0 194.32 L210.312 193.725 L212.625 193.13 L214.938 192.535 L217.25 191.94 L219.562 191.345 L221.875 190.75 L224.188 190.155 L226.5 189.56 L228.812 188.965 L231.125 188.37 L233.438 187.775 L235.75 187.18 L238.062 186.585 L240.375 185.99 L242.688 185.395 L245.0 184.8 L247.312 184.205 L249.625 183.61 L251.938 183.015 L254.25 182.42 L256.562 181.825 L258.875 181.23 L261.188 180.635 L263.5 180.04 L265.812 179.445 L268.125 178.85 L270.438 178.255 L272.75 177.66 L275.062 177.065 L277.375 176.47 L279.688 175.875 L282.0 175.28 L284.312 174.685 L286.625 174.09 L288.938 173.495 L291.25 172.9 L293.562 172.305 L295.875 171.71 L298.188 171.115 L300.5 170.52 L302.812 169.925 L305.125 169.33 L307.438 168.735 L309.75 168.14 L312.062 167.545 L314.375 166.95 L316.688 166.355 L319.0 165.76 L321.312 165.165 L323.625 164.57 L325.938 163.975 L328.25 163.38 L330.562 162.785 L332.875 162.19 L335.188 161.595 L337.5 161.0 L339.812 160.405 L342.125 159.81 L344.438 159.215 L346.75 158.62 L349.062 158.025 L351.375 157.43 L353.688 156.835 L356.0 156.24 L358.312 155.645 L360.625 155.05 L362.938 154.455 L365.25 153.86 L367.562 153.265 L369.875 152.67 L372.188 152.075 L374.5 151.48 L376.812 150.885 L379.125 150.29 L381.438 149.695 L383.75 149.1 L386.062 148.505 L388.375 147.91 L390.688 147.315 L393.0 146.72 L395.312 146.125 L397.625 145.53 L399.938 144.935 L402.25 144.34 L404.562 143.745 L406.875 143.15 L409.188 142.555 L411.5 141.96 L413.812 141.365 L416.125 140.77 L418.438 140.175 L420.75 139.58 L423.062 138.985 L425.375 138.39 L427.688 137.795 L430.0 137.2\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-andra1203)\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Grafen till f′ stiger när x ökar. Dess lutning är positiv, trots att dess värden är negativa. Andraderivatan är just denna lutning.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(f^{\\prime\\prime}(x)\\gt0\\).</p></div>",
+  "familj": "Andraderivatans tecken och grafens form",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Titta på om den visade linjen stiger eller sjunker.</p>",
+  "alternativ": [
+    {
+      "txt": "Positivt.",
+      "ratt": true,
+      "kommentar": "Förstaderivatan ökar, så andraderivatan är positiv."
+    },
+    {
+      "txt": "Negativt.",
+      "ratt": false,
+      "kommentar": "Att grafen ligger under x-axeln betyder att f′ är negativ. Andraderivatans tecken bestäms av lutningen."
+    },
+    {
+      "txt": "Noll.",
+      "ratt": false,
+      "kommentar": "Den visade linjen lutar; den är inte vågrät."
+    },
+    {
+      "txt": "Det går inte att avgöra utan att veta f(0).",
+      "ratt": false,
+      "kommentar": "Startvärdet på f behövs inte för att avgöra hur f′ förändras."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "3.1204",
+  "kap": 3,
+  "omr": "andraderivatan",
+  "niva": "E",
+  "typ": "beräkna andraderivatan i en markerad minimipunkt",
+  "poang": "1/0/0",
+  "t": "<p>Funktionen är \\(f(x)=x^3-3x\\). Punkten \\(P=(1,-2)\\) är markerad i grafen.</p><p>Beräkna \\(f^{\\prime\\prime}(1)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Grafen till f(x)=x³−3x med punkten P=(1,−2) markerad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-andra1204\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-2</text><path d=\"M152.5 42L152.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"152.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M337.5 42L337.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"337.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-3</text><path d=\"M60 240.333L430 240.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"245.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-2</text><path d=\"M60 200.667L430 200.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"205.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-1</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 121.333L430 121.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"126.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1</text><path d=\"M60 81.667L430 81.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"86.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">3</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">f(x)</text><path d=\"M60.0 240.333 L62.312 231.556 L64.625 223.073 L66.938 214.88 L69.25 206.974 L71.562 199.35 L73.875 192.004 L76.188 184.934 L78.5 178.136 L80.812 171.605 L83.125 165.339 L85.438 159.332 L87.75 153.582 L90.062 148.085 L92.375 142.838 L94.688 137.835 L97.0 133.075 L99.312 128.552 L101.625 124.264 L103.938 120.206 L106.25 116.375 L108.562 112.767 L110.875 109.379 L113.188 106.206 L115.5 103.245 L117.812 100.493 L120.125 97.945 L122.438 95.598 L124.75 93.448 L127.063 91.491 L129.375 89.724 L131.688 88.143 L134.0 86.744 L136.312 85.524 L138.625 84.478 L140.938 83.604 L143.25 82.896 L145.562 82.353 L147.875 81.969 L150.188 81.742 L152.5 81.667 L154.812 81.74 L157.125 81.959 L159.438 82.319 L161.75 82.817 L164.062 83.449 L166.375 84.21 L168.688 85.098 L171.0 86.109 L173.312 87.239 L175.625 88.484 L177.938 89.841 L180.25 91.306 L182.562 92.874 L184.875 94.543 L187.188 96.309 L189.5 98.168 L191.812 100.116 L194.125 102.15 L196.438 104.265 L198.75 106.458 L201.062 108.726 L203.375 111.065 L205.688 113.47 L208.0 115.939 L210.312 118.467 L212.625 121.051 L214.938 123.687 L217.25 126.371 L219.562 129.1 L221.875 131.87 L224.188 134.677 L226.5 137.517 L228.812 140.388 L231.125 143.284 L233.438 146.202 L235.75 149.14 L238.062 152.092 L240.375 155.055 L242.688 158.026 L245.0 161.0 L247.312 163.974 L249.625 166.945 L251.938 169.908 L254.25 172.86 L256.562 175.798 L258.875 178.716 L261.188 181.612 L263.5 184.483 L265.812 187.323 L268.125 190.13 L270.438 192.9 L272.75 195.629 L275.062 198.313 L277.375 200.949 L279.688 203.533 L282.0 206.061 L284.312 208.53 L286.625 210.935 L288.938 213.274 L291.25 215.542 L293.562 217.735 L295.875 219.85 L298.188 221.884 L300.5 223.832 L302.812 225.691 L305.125 227.457 L307.438 229.126 L309.75 230.694 L312.062 232.159 L314.375 233.516 L316.688 234.761 L319.0 235.891 L321.312 236.902 L323.625 237.79 L325.938 238.551 L328.25 239.183 L330.562 239.681 L332.875 240.041 L335.188 240.26 L337.5 240.333 L339.812 240.258 L342.125 240.031 L344.438 239.647 L346.75 239.104 L349.062 238.396 L351.375 237.522 L353.688 236.476 L356.0 235.256 L358.312 233.857 L360.625 232.276 L362.938 230.509 L365.25 228.552 L367.562 226.402 L369.875 224.055 L372.188 221.507 L374.5 218.755 L376.812 215.794 L379.125 212.621 L381.438 209.233 L383.75 205.625 L386.062 201.794 L388.375 197.736 L390.688 193.448 L393.0 188.925 L395.312 184.165 L397.625 179.162 L399.938 173.915 L402.25 168.418 L404.562 162.668 L406.875 156.661 L409.188 150.395 L411.5 143.864 L413.812 137.066 L416.125 129.996 L418.438 122.65 L420.75 115.026 L423.062 107.12 L425.375 98.927 L427.688 90.444 L430.0 81.667\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-andra1204)\"/><circle cx=\"337.5\" cy=\"240.333\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"351.5\" y=\"258.33299999999997\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">P</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Derivera två gånger och sätt sedan in x=1 i andraderivatan. Det är inte punktens y-värde som efterfrågas.</p><div class=\"facit-matte\">\\[\\begin{aligned}f^{\\prime}(x)&=3x^2-3\\\\f^{\\prime\\prime}(x)&=6x\\\\f^{\\prime\\prime}(1)&=6\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(f^{\\prime\\prime}(1)=6\\). Den positiva andraderivatan stämmer med grafens minimipunkt.</p></div>",
+  "familj": "Andraderivatans tecken och grafens form",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Bestäm först f′ och derivera sedan en gång till.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": null,
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "3.1205",
+  "kap": 3,
+  "omr": "andraderivatan",
+  "niva": "C",
+  "typ": "kombinera förstaderivatans värde med dess lutning",
+  "poang": "0/1/0",
+  "t": "<p>Figuren visar grafen till \\(f^{\\prime}\\). Vid vilket av följande x-värden är \\(f\\) växande samtidigt som dess lutning minskar? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Grafen till f′ är en nedåtvänd parabel med topp vid (2,3). Punkterna vid x=0, 1, 2 och 3 är markerade.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-andra1205\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M152.5 42L152.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"152.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M337.5 42L337.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"337.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-2</text><path d=\"M60 240.333L430 240.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"245.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-1</text><path d=\"M60 200.667L430 200.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"205.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1</text><path d=\"M60 121.333L430 121.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"126.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 81.667L430 81.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"86.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">3</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 200.667L430 200.667\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">f′(x)</text><path d=\"M60.0 240.333 L62.312 236.391 L64.625 232.499 L66.938 228.656 L69.25 224.863 L71.562 221.12 L73.875 217.426 L76.188 213.781 L78.5 210.187 L80.812 206.641 L83.125 203.146 L85.438 199.7 L87.75 196.303 L90.062 192.956 L92.375 189.659 L94.688 186.411 L97.0 183.213 L99.312 180.065 L101.625 176.966 L103.938 173.916 L106.25 170.917 L108.562 167.966 L110.875 165.066 L113.188 162.215 L115.5 159.413 L117.812 156.661 L120.125 153.959 L122.438 151.306 L124.75 148.703 L127.062 146.15 L129.375 143.646 L131.688 141.191 L134.0 138.787 L136.312 136.431 L138.625 134.126 L140.938 131.87 L143.25 129.663 L145.562 127.506 L147.875 125.399 L150.188 123.341 L152.5 121.333 L154.812 119.375 L157.125 117.466 L159.438 115.606 L161.75 113.797 L164.062 112.036 L166.375 110.326 L168.688 108.665 L171.0 107.053 L173.312 105.491 L175.625 103.979 L177.938 102.516 L180.25 101.103 L182.562 99.74 L184.875 98.426 L187.188 97.161 L189.5 95.947 L191.812 94.781 L194.125 93.666 L196.438 92.6 L198.75 91.583 L201.062 90.616 L203.375 89.699 L205.688 88.831 L208.0 88.013 L210.312 87.245 L212.625 86.526 L214.938 85.856 L217.25 85.237 L219.562 84.666 L221.875 84.146 L224.188 83.675 L226.5 83.253 L228.812 82.881 L231.125 82.559 L233.438 82.286 L235.75 82.063 L238.062 81.89 L240.375 81.766 L242.688 81.691 L245.0 81.667 L247.312 81.691 L249.625 81.766 L251.938 81.89 L254.25 82.063 L256.562 82.286 L258.875 82.559 L261.188 82.881 L263.5 83.253 L265.812 83.675 L268.125 84.146 L270.438 84.666 L272.75 85.237 L275.062 85.856 L277.375 86.526 L279.688 87.245 L282.0 88.013 L284.312 88.831 L286.625 89.699 L288.938 90.616 L291.25 91.583 L293.562 92.6 L295.875 93.666 L298.188 94.781 L300.5 95.947 L302.812 97.161 L305.125 98.426 L307.438 99.74 L309.75 101.103 L312.062 102.516 L314.375 103.979 L316.688 105.491 L319.0 107.053 L321.312 108.665 L323.625 110.326 L325.938 112.036 L328.25 113.797 L330.562 115.606 L332.875 117.466 L335.188 119.375 L337.5 121.333 L339.812 123.341 L342.125 125.399 L344.438 127.506 L346.75 129.663 L349.062 131.87 L351.375 134.126 L353.688 136.431 L356.0 138.787 L358.312 141.191 L360.625 143.646 L362.938 146.15 L365.25 148.703 L367.562 151.306 L369.875 153.959 L372.188 156.661 L374.5 159.413 L376.812 162.215 L379.125 165.066 L381.438 167.966 L383.75 170.917 L386.062 173.916 L388.375 176.966 L390.688 180.065 L393.0 183.213 L395.312 186.411 L397.625 189.659 L399.938 192.956 L402.25 196.303 L404.562 199.7 L406.875 203.146 L409.188 206.641 L411.5 210.187 L413.812 213.781 L416.125 217.426 L418.438 221.12 L420.75 224.863 L423.062 228.656 L425.375 232.499 L427.688 236.391 L430.0 240.333\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-andra1205)\"/><circle cx=\"60.0\" cy=\"240.333\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"152.5\" cy=\"121.333\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"245.0\" cy=\"81.667\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"337.5\" cy=\"121.333\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Att f är växande betyder att f′ är positiv. Att lutningen minskar betyder att f′ sjunker, alltså att f″ är negativ. Vid x=3 ligger derivatagrafen över x-axeln och lutar nedåt.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\).</p></div>",
+  "familj": "Andraderivatans tecken och grafens form",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Du behöver läsa av både höjden och lutningen på grafen till f′.</p>",
+  "alternativ": [
+    {
+      "txt": "x=2",
+      "ratt": false,
+      "kommentar": "Där är f′ positiv, men grafen till f′ har vågrät tangent: f″=0."
+    },
+    {
+      "txt": "x=0",
+      "ratt": false,
+      "kommentar": "Där är f′ negativ, så f är avtagande."
+    },
+    {
+      "txt": "x=3",
+      "ratt": true,
+      "kommentar": "Där är f′ positiv och f″ negativ: f ökar, men lutningen minskar."
+    },
+    {
+      "txt": "x=1",
+      "ratt": false,
+      "kommentar": "Där är f′ positiv och ökande: även lutningen hos f ökar."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
+},
+{
+  "id": "3.1206",
+  "kap": 3,
+  "omr": "andraderivatan",
+  "niva": "C",
+  "typ": "avgöra vad en positiv andraderivata faktiskt säger",
+  "poang": "0/1/0",
+  "t": "<p>Figuren visar att \\(f^{\\prime\\prime}(x)=2\\) på intervallet \\(0\\lt x\\lt2\\). Måste funktionen \\(f\\) vara växande på detta intervall? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Grafen till f″ är vågrät på höjden 2 för x mellan 0 och 2.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-andra1206\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 200.667L430 200.667\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"205.667\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1</text><path d=\"M60 121.333L430 121.333\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"126.333\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">3</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">f″(x)</text><path d=\"M60.0 121.333 L62.312 121.333 L64.625 121.333 L66.938 121.333 L69.25 121.333 L71.562 121.333 L73.875 121.333 L76.188 121.333 L78.5 121.333 L80.812 121.333 L83.125 121.333 L85.438 121.333 L87.75 121.333 L90.062 121.333 L92.375 121.333 L94.688 121.333 L97.0 121.333 L99.312 121.333 L101.625 121.333 L103.938 121.333 L106.25 121.333 L108.562 121.333 L110.875 121.333 L113.188 121.333 L115.5 121.333 L117.812 121.333 L120.125 121.333 L122.438 121.333 L124.75 121.333 L127.062 121.333 L129.375 121.333 L131.688 121.333 L134.0 121.333 L136.312 121.333 L138.625 121.333 L140.938 121.333 L143.25 121.333 L145.562 121.333 L147.875 121.333 L150.188 121.333 L152.5 121.333 L154.812 121.333 L157.125 121.333 L159.438 121.333 L161.75 121.333 L164.062 121.333 L166.375 121.333 L168.688 121.333 L171.0 121.333 L173.312 121.333 L175.625 121.333 L177.938 121.333 L180.25 121.333 L182.562 121.333 L184.875 121.333 L187.188 121.333 L189.5 121.333 L191.812 121.333 L194.125 121.333 L196.438 121.333 L198.75 121.333 L201.062 121.333 L203.375 121.333 L205.688 121.333 L208.0 121.333 L210.312 121.333 L212.625 121.333 L214.938 121.333 L217.25 121.333 L219.562 121.333 L221.875 121.333 L224.188 121.333 L226.5 121.333 L228.812 121.333 L231.125 121.333 L233.438 121.333 L235.75 121.333 L238.062 121.333 L240.375 121.333 L242.688 121.333 L245.0 121.333 L247.312 121.333 L249.625 121.333 L251.938 121.333 L254.25 121.333 L256.562 121.333 L258.875 121.333 L261.188 121.333 L263.5 121.333 L265.812 121.333 L268.125 121.333 L270.438 121.333 L272.75 121.333 L275.062 121.333 L277.375 121.333 L279.688 121.333 L282.0 121.333 L284.312 121.333 L286.625 121.333 L288.938 121.333 L291.25 121.333 L293.562 121.333 L295.875 121.333 L298.188 121.333 L300.5 121.333 L302.812 121.333 L305.125 121.333 L307.438 121.333 L309.75 121.333 L312.062 121.333 L314.375 121.333 L316.688 121.333 L319.0 121.333 L321.312 121.333 L323.625 121.333 L325.938 121.333 L328.25 121.333 L330.562 121.333 L332.875 121.333 L335.188 121.333 L337.5 121.333 L339.812 121.333 L342.125 121.333 L344.438 121.333 L346.75 121.333 L349.062 121.333 L351.375 121.333 L353.688 121.333 L356.0 121.333 L358.312 121.333 L360.625 121.333 L362.938 121.333 L365.25 121.333 L367.562 121.333 L369.875 121.333 L372.188 121.333 L374.5 121.333 L376.812 121.333 L379.125 121.333 L381.438 121.333 L383.75 121.333 L386.062 121.333 L388.375 121.333 L390.688 121.333 L393.0 121.333 L395.312 121.333 L397.625 121.333 L399.938 121.333 L402.25 121.333 L404.562 121.333 L406.875 121.333 L409.188 121.333 L411.5 121.333 L413.812 121.333 L416.125 121.333 L418.438 121.333 L420.75 121.333 L423.062 121.333 L425.375 121.333 L427.688 121.333 L430.0 121.333\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-andra1206)\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Den positiva andraderivatan säger att f′ ökar. Den säger inte att f′ är positiv. Som motexempel kan vi välja f(x)=x²−6x. Då är f″=2, men f′=2x−6 är negativ på hela det givna intervallet.</p><div class=\"facit-matte\">\\[\\begin{aligned}f(x)&=x^2-6x\\\\f^{\\prime}(x)&=2x-6\\lt0\\quad(0\\lt x\\lt2)\\\\f^{\\prime\\prime}(x)&=2\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Nej. Funktionen kan vara avtagande även när dess lutning ökar.</p></div>",
+  "familj": "Andraderivatans tecken och grafens form",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Betyder en ökande derivata att derivatans värde måste vara positivt?</p>",
+  "alternativ": [
+    {
+      "txt": "Ja, eftersom en positiv andraderivata betyder att f är växande.",
+      "ratt": false,
+      "kommentar": "Det är förstaderivatans tecken som avgör om f är växande."
+    },
+    {
+      "txt": "Nej, f′ kan vara negativ även om f′ ökar.",
+      "ratt": true,
+      "kommentar": "En negativ derivata kan öka, till exempel från −6 till −2, utan att bli positiv."
+    },
+    {
+      "txt": "Nej, f måste i stället vara avtagande.",
+      "ratt": false,
+      "kommentar": "Andraderivatan bestämmer inte förstaderivatans tecken. Funktionen kan också vara växande."
+    },
+    {
+      "txt": "Ja, eftersom f′ är konstant lika med 2.",
+      "ratt": false,
+      "kommentar": "Det är f″ som är 2. Förstaderivatan ökar med 2 per x-enhet."
+    }
+  ],
+  "kurs": [
+    "1b",
+    "1c"
+  ]
 }
 ];

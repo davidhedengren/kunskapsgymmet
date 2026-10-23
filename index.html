@@ -11562,6 +11562,8 @@ function tolkaEnhet(str){
     .replace(/\s+/g,"")
     .replace(/^varv(?:per|\/)(?:s|sek|sekund)$/i,"Hz");   // "varv/s", "varv per sekund"
   if(!x) return {f:1,d:{}};
+  // Ett ensamt gångertecken i början eller slutet ("ljusår x") är ingen enhet.
+  if(/^\*|\*$|\*\*/.test(x)) return null;
   const delar=x.split("/");
   const res={f:1,d:{}};
   for(let i=0;i<delar.length;i++){

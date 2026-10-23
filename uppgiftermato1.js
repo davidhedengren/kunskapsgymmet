@@ -107907,5 +107907,515 @@ window.BANKMATO1 = [
   "tolerans": 0,
   "svarFormat": "numeriskt",
   "svarEnhet": null
+},
+{
+  "id": "1.900",
+  "kap": 1,
+  "omr": "faktorisera_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "typ": "Saknad faktor i en uppdelad rektangel",
+  "poang": "(1/0/0)",
+  "familj": "Faktorisera polynom",
+  "t": "<p>Rektangeln har höjden 3 cm och arean \\(6x+15\\) cm², där \\(x\\gt0\\). Fyll i parentesen: \\[6x+15=3\\bigl(\\boxed{\\phantom{2x+5}}\\bigr).\\] Svara med ett förenklat uttryck för det som ska stå i rutan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 250\" role=\"img\" aria-label=\"Två rektangeldelar med gemensam höjd 3 och areorna 6x och 15.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"250\" fill=\"white\"/><rect x=\"100\" y=\"65\" width=\"185\" height=\"115\" rx=\"0\" fill=\"#e3eff8\" stroke=\"#2b67a2\" stroke-width=\"2\"/><rect x=\"285\" y=\"65\" width=\"100\" height=\"115\" rx=\"0\" fill=\"#e9f3ef\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"192\" y=\"130\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">6x</text><text x=\"335\" y=\"130\" font-family=\"Arial,sans-serif\" font-size=\"24\" text-anchor=\"middle\" fill=\"#243447\">15</text><text x=\"82\" y=\"130\" font-family=\"Arial,sans-serif\" font-size=\"21\" text-anchor=\"end\" fill=\"#243447\">3</text><text x=\"240\" y=\"225\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Längder i cm, areor i cm²</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Dela varje delarea med höjden 3. Bredderna blir 2x och 5. Hela bredden, och därmed den saknade faktorn, är 2x+5.</p><div class=\"facit-matte\">\\[6x+15=3(2x+5).\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x+5\\).</p></div>",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken bredd har varje rektangeldel?</p>",
+  "svarstyp": "uttryck",
+  "rättSvar": "2x+5",
+  "tolerans": null,
+  "svarFormat": "förenklat_polynom",
+  "svarEnhet": null
+},
+{
+  "id": "1.901",
+  "kap": 1,
+  "omr": "faktorisera_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "typ": "Känna igen en fullständig faktorform",
+  "poang": "(1/0/0)",
+  "familj": "Faktorisera polynom",
+  "t": "<p>Vilket uttryck visar \\(x^2-5x+6\\) som en produkt av två förstagradsfaktorer? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2\"><p>I faktorformen multipliceras två parenteser. Faktorerna x−2 och x−3 ger konstanttermen 6 och tillsammans x-termen −5x.</p><div class=\"facit-matte\">\\[(x-2)(x-3)=x^2-5x+6.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\((x-2)(x-3)\\).</p></div>",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kontrollera både produkten av konstanttalen och koefficienten framför x.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(x(x-5)+6\\)",
+      "ratt": false,
+      "kommentar": "Detta är fortfarande en summa, inte en produkt av två förstagradsfaktorer."
+    },
+    {
+      "txt": "\\((x-2)(x-3)\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\((x+2)(x+3)\\)",
+      "ratt": false,
+      "kommentar": "Produkten ger +5x, inte −5x."
+    },
+    {
+      "txt": "\\((x-1)(x-6)\\)",
+      "ratt": false,
+      "kommentar": "Produkten ger −7x, inte −5x."
+    }
+  ]
+},
+{
+  "id": "1.902",
+  "kap": 1,
+  "omr": "faktorisera_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "typ": "Faktorisering genom två grupper",
+  "poang": "(0/1/0)",
+  "familj": "Faktorisera polynom",
+  "t": "<p>Faktorisera \\(x^3+4x^2+3x+12\\) som en produkt av ett förstagradspolynom och ett andragradspolynom.</p>",
+  "s": "<div class=\"facit-v2\"><p>De två första termerna har faktorn x² och de två sista faktorn 3. Efter utbrytning syns en gemensam parentes.</p><div class=\"facit-matte\">\\[\\begin{gathered}x^3+4x^2+3x+12\\\\=x^2(x+4)+3(x+4)\\\\=(x+4)(x^2+3)\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\((x+4)(x^2+3)\\).</p></div>",
+  "formaga": [
+    "problemlosning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Kan termerna delas i två grupper som ger samma parentes?</p>",
+  "svarstyp": "uttryck",
+  "rättSvar": "(x+4)(x^2+3)",
+  "tolerans": null,
+  "svarFormat": "faktoriserat",
+  "svarEnhet": null
+},
+{
+  "id": "1.903",
+  "kap": 1,
+  "omr": "faktorisera_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "typ": "Varför behöver kvadreringsregeln en mittenterm?",
+  "poang": "(1/0/0)",
+  "familj": "Faktorisera polynom",
+  "t": "<p>Från en kvadrat med sidan \\(2x\\) cm klipps en 3 cm bred remsa bort upptill och en till höger. Den blå kvadraten blir kvar, och \\(x\\gt1{,}5\\). Vilket polynom beskriver dess area i cm²? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 365\" role=\"img\" aria-label=\"Kvadrat med sidan 2x. En remsa med bredd 3 tas bort överst och en med bredd 3 till höger.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"365\" fill=\"white\"/><rect x=\"95\" y=\"45\" width=\"240\" height=\"240\" rx=\"0\" fill=\"#f6eadf\" stroke=\"#8f7050\" stroke-width=\"2\"/><rect x=\"95\" y=\"105\" width=\"180\" height=\"180\" rx=\"0\" fill=\"#dceaf7\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M95 105L335 105\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1\"/><path d=\"M275 45L275 285\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1\"/><path d=\"M95 31L335 31\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"215\" y=\"22\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">2x</text><text x=\"78\" y=\"177\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">2x</text><text x=\"305\" y=\"310\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">3</text><text x=\"355\" y=\"81\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">3</text><text x=\"240\" y=\"347\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Den blå kvadraten blir kvar.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Den kvarvarande sidan är 2x−3. Arean är kvadraten av hela den längden. Om man i stället tar bort båda remsorna från den stora kvadraten räknas hörnet 3·3 bort två gånger och måste läggas tillbaka en gång.</p><div class=\"facit-matte\">\\[(2x-3)^2=4x^2-12x+9.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x^2-12x+9\\).</p></div>",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur lång är sidan på den kvarvarande kvadraten?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(4x^2-9\\)",
+      "ratt": false,
+      "kommentar": "Detta skulle vara skillnaden mellan två kvadraters areor, inte kvadraten av 2x−3."
+    },
+    {
+      "txt": "\\(4x^2-12x\\)",
+      "ratt": false,
+      "kommentar": "Hörnet har då räknats bort två gånger."
+    },
+    {
+      "txt": "\\(4x^2-6x+9\\)",
+      "ratt": false,
+      "kommentar": "Båda remsorna påverkar arean; mittentermen ska vara −12x."
+    },
+    {
+      "txt": "\\(4x^2-12x+9\\)",
+      "ratt": true
+    }
+  ]
+},
+{
+  "id": "1.904",
+  "kap": 1,
+  "omr": "faktorisera_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "typ": "Faktorform med ett dubbelt nollställe",
+  "poang": "(0/1/0)",
+  "familj": "Faktorform och nollställen",
+  "t": "<p>Grafen visar ett tredjegradspolynom där koefficienten framför \\(x^3\\) är 1. Den tangerar x-axeln vid \\(x=-1\\) och skär den vid \\(x=2\\). Skriv polynomet i fullständig faktorform.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Tredjegradskurva som tangerar x-axeln vid −1 och skär den vid 2.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-904\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M97.0 42L97.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"97.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-2</text><path d=\"M171.0 42L171.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"171.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M319.0 42L319.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"319.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M393.0 42L393.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"393.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-8</text><path d=\"M60 246.0L430 246.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"251.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-6</text><path d=\"M60 212.0L430 212.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"217.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-4</text><path d=\"M60 178.0L430 178.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"183.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-2</text><path d=\"M60 144.0L430 144.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"149.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 110.0L430 110.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 76.0L430 76.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"81.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">6</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 144.0L430 144.0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">y</text><path d=\"M60.0 316.125 L62.312 307.882 L64.625 299.885 L66.938 292.13 L69.25 284.615 L71.562 277.337 L73.875 270.292 L76.188 263.478 L78.5 256.891 L80.812 250.528 L83.125 244.385 L85.438 238.461 L87.75 232.752 L90.062 227.254 L92.375 221.965 L94.688 216.881 L97.0 212.0 L99.312 207.318 L101.625 202.832 L103.938 198.539 L106.25 194.436 L108.562 190.519 L110.875 186.786 L113.188 183.234 L115.5 179.859 L117.812 176.659 L120.125 173.63 L122.438 170.768 L124.75 168.072 L127.062 165.538 L129.375 163.162 L131.688 160.942 L134.0 158.875 L136.312 156.957 L138.625 155.185 L140.938 153.557 L143.25 152.068 L145.562 150.717 L147.875 149.499 L150.188 148.412 L152.5 147.453 L154.812 146.618 L157.125 145.905 L159.438 145.31 L161.75 144.83 L164.062 144.462 L166.375 144.203 L168.688 144.05 L171.0 144.0 L173.312 144.049 L175.625 144.195 L177.938 144.434 L180.25 144.764 L182.562 145.18 L184.875 145.681 L187.188 146.262 L189.5 146.922 L191.812 147.656 L194.125 148.462 L196.438 149.336 L198.75 150.275 L201.062 151.277 L203.375 152.338 L205.688 153.455 L208.0 154.625 L210.312 155.845 L212.625 157.111 L214.938 158.421 L217.25 159.771 L219.562 161.159 L221.875 162.581 L224.188 164.034 L226.5 165.516 L228.812 167.022 L231.125 168.55 L233.438 170.096 L235.75 171.658 L238.062 173.233 L240.375 174.817 L242.688 176.407 L245.0 178.0 L247.312 179.593 L249.625 181.183 L251.938 182.767 L254.25 184.342 L256.562 185.904 L258.875 187.45 L261.188 188.978 L263.5 190.484 L265.812 191.966 L268.125 193.419 L270.438 194.841 L272.75 196.229 L275.062 197.579 L277.375 198.889 L279.688 200.155 L282.0 201.375 L284.312 202.545 L286.625 203.662 L288.938 204.723 L291.25 205.725 L293.562 206.664 L295.875 207.538 L298.188 208.344 L300.5 209.078 L302.812 209.738 L305.125 210.319 L307.438 210.82 L309.75 211.236 L312.062 211.566 L314.375 211.805 L316.688 211.951 L319.0 212.0 L321.312 211.95 L323.625 211.797 L325.938 211.538 L328.25 211.17 L330.562 210.69 L332.875 210.095 L335.188 209.382 L337.5 208.547 L339.812 207.588 L342.125 206.501 L344.438 205.283 L346.75 203.932 L349.062 202.443 L351.375 200.815 L353.688 199.043 L356.0 197.125 L358.312 195.058 L360.625 192.838 L362.938 190.462 L365.25 187.928 L367.562 185.232 L369.875 182.37 L372.188 179.341 L374.5 176.141 L376.812 172.766 L379.125 169.214 L381.438 165.481 L383.75 161.564 L386.062 157.461 L388.375 153.168 L390.688 148.682 L393.0 144.0 L395.312 139.119 L397.625 134.035 L399.938 128.746 L402.25 123.248 L404.562 117.539 L406.875 111.615 L409.188 105.472 L411.5 99.109 L413.812 92.522 L416.125 85.708 L418.438 78.663 L420.75 71.385 L423.062 63.87 L425.375 56.115 L427.688 48.118 L430.0 39.875\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-904)\"/><circle cx=\"171.0\" cy=\"144.0\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"393.0\" cy=\"144.0\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>När grafen tangerar x-axeln är nollstället dubbelt här. Därför behövs två faktorer x+1 och en faktor x−2. Produkten har redan koefficienten 1 framför x³.</p><div class=\"facit-matte\">\\[p(x)=(x+1)^2(x-2).\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\((x+1)^2(x-2)\\).</p></div>",
+  "formaga": [
+    "begrepp",
+    "problemlosning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hur många förstagradsfaktorer behövs för ett tredjegradspolynom?</p>",
+  "svarstyp": "uttryck",
+  "rättSvar": "(x+1)^2(x-2)",
+  "tolerans": null,
+  "svarFormat": "faktoriserat",
+  "svarEnhet": null
+},
+{
+  "id": "1.905",
+  "kap": 1,
+  "omr": "faktorisera_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "typ": "Två nollställen bestämmer en koefficient",
+  "poang": "(0/1/0)",
+  "familj": "Faktorform och nollställen",
+  "t": "<p>Polynomet \\(p(x)=x^3+ax^2+bx+6\\) har de två nollställena i tabellen. Bestäm \\(a\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 195\" role=\"img\" aria-label=\"Två nollställen\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"195\" fill=\"white\"/><text x=\"240\" y=\"28\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Två nollställen</text><rect x=\"60.0\" y=\"45\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"#eaf1fa\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"74\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">x</text><rect x=\"240.0\" y=\"45\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"#eaf1fa\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"74\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">p(x)</text><rect x=\"60.0\" y=\"90\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"119\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">1</text><rect x=\"240.0\" y=\"90\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"119\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">0</text><rect x=\"60.0\" y=\"135\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"164\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">−2</text><rect x=\"240.0\" y=\"135\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"164\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">0</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Två kända nollställen ger faktorerna x−1 och x+2. Eftersom koefficienten framför x³ är 1 kan den tredje faktorn skrivas x−r. Konstanttermen bestämmer r.</p><div class=\"facit-matte\">\\[\\begin{gathered}p(x)=(x-1)(x+2)(x-r)\\\\(-1)\\cdot2\\cdot(-r)=6\\Rightarrow r=3\\\\p(x)=(x^2+x-2)(x-3)\\\\=x^3-2x^2-5x+6\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> a = −2.</p></div>",
+  "formaga": [
+    "problemlosning",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Börja med faktorerna som tabellens nollställen ger. Vad säger konstanttermen om den tredje faktorn?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": -2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": null
+},
+{
+  "id": "1.906",
+  "kap": 1,
+  "omr": "polynomekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "typ": "Båda faktorerna kan vara noll",
+  "poang": "(1/0/0)",
+  "familj": "Lösa polynomekvationer",
+  "t": "<p>Lös ekvationen \\(x(x+4)=0\\). Ange båda lösningarna, en i varje ruta. Ordningen spelar ingen roll.</p>",
+  "s": "<div class=\"facit-v2\"><p>Produkten är noll om den första faktorn eller den andra faktorn är noll.</p><div class=\"facit-matte\">\\[x=0\\quad\\text{eller}\\quad x+4=0.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) eller \\(x=-4\\).</p></div>",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Sätt en faktor i taget lika med noll.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0,
+    -4
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "mängd",
+  "svarEnhet": [
+    null,
+    null
+  ]
+},
+{
+  "id": "1.907",
+  "kap": 1,
+  "omr": "polynomekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "typ": "Lösningar genom grafens skärningar",
+  "poang": "(1/0/0)",
+  "familj": "Lösa polynomekvationer",
+  "t": "<p>Grafen visar \\(y=p(x)\\). Lös ekvationen \\(p(x)=0\\) genom att läsa av grafen. Ange båda x-värdena, en i varje ruta. Ordningen spelar ingen roll.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Andragradskurva med markerade skärningar vid x=−2 och x=3.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-907\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-3</text><path d=\"M112.857 42L112.857 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"112.857\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-2</text><path d=\"M165.714 42L165.714 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"165.714\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-1</text><path d=\"M218.571 42L218.571 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"218.571\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M271.429 42L271.429 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"271.429\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M324.286 42L324.286 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"324.286\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M377.143 42L377.143 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"377.143\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-8</text><path d=\"M60 220.5L430 220.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"225.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-4</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"106.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">8</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M218.571 42L218.571 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">y</text><path d=\"M60.0 71.75 L62.313 76.277 L64.625 80.747 L66.938 85.16 L69.25 89.516 L71.562 93.816 L73.875 98.058 L76.188 102.243 L78.5 106.372 L80.812 110.443 L83.125 114.458 L85.438 118.415 L87.75 122.316 L90.062 126.159 L92.375 129.946 L94.688 133.676 L97.0 137.349 L99.312 140.965 L101.625 144.524 L103.938 148.026 L106.25 151.471 L108.562 154.859 L110.875 158.19 L113.188 161.464 L115.5 164.682 L117.812 167.842 L120.125 170.945 L122.438 173.992 L124.75 176.981 L127.062 179.914 L129.375 182.79 L131.688 185.608 L134.0 188.37 L136.312 191.075 L138.625 193.723 L140.938 196.314 L143.25 198.848 L145.562 201.325 L147.875 203.745 L150.188 206.108 L152.5 208.414 L154.812 210.663 L157.125 212.856 L159.438 214.991 L161.75 217.069 L164.062 219.091 L166.375 221.055 L168.688 222.963 L171.0 224.814 L173.312 226.607 L175.625 228.344 L177.938 230.024 L180.25 231.647 L182.562 233.213 L184.875 234.722 L187.188 236.174 L189.5 237.569 L191.812 238.907 L194.125 240.188 L196.437 241.413 L198.75 242.58 L201.063 243.69 L203.375 244.744 L205.688 245.74 L208.0 246.68 L210.312 247.563 L212.625 248.388 L214.938 249.157 L217.25 249.869 L219.562 250.524 L221.875 251.122 L224.188 251.663 L226.5 252.147 L228.812 252.574 L231.125 252.944 L233.438 253.257 L235.75 253.513 L238.062 253.713 L240.375 253.855 L242.688 253.94 L245.0 253.969 L247.312 253.94 L249.625 253.855 L251.938 253.713 L254.25 253.513 L256.562 253.257 L258.875 252.944 L261.188 252.574 L263.5 252.147 L265.812 251.663 L268.125 251.122 L270.438 250.524 L272.75 249.869 L275.062 249.157 L277.375 248.388 L279.688 247.563 L282.0 246.68 L284.312 245.74 L286.625 244.744 L288.938 243.69 L291.25 242.58 L293.562 241.413 L295.875 240.188 L298.188 238.907 L300.5 237.569 L302.812 236.174 L305.125 234.722 L307.438 233.213 L309.75 231.647 L312.062 230.024 L314.375 228.344 L316.688 226.607 L319.0 224.814 L321.312 222.963 L323.625 221.055 L325.938 219.091 L328.25 217.069 L330.563 214.991 L332.875 212.856 L335.188 210.663 L337.5 208.414 L339.812 206.108 L342.125 203.745 L344.437 201.325 L346.75 198.848 L349.062 196.314 L351.375 193.723 L353.688 191.075 L356.0 188.37 L358.312 185.608 L360.625 182.79 L362.938 179.914 L365.25 176.981 L367.562 173.992 L369.875 170.945 L372.188 167.842 L374.5 164.682 L376.812 161.464 L379.125 158.19 L381.438 154.859 L383.75 151.471 L386.062 148.026 L388.375 144.524 L390.688 140.965 L393.0 137.349 L395.312 133.676 L397.625 129.946 L399.938 126.159 L402.25 122.316 L404.562 118.415 L406.875 114.458 L409.188 110.443 L411.5 106.372 L413.812 102.243 L416.125 98.058 L418.438 93.816 L420.75 89.516 L423.062 85.16 L425.375 80.747 L427.688 76.277 L430.0 71.75\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-907)\"/><circle cx=\"112.857\" cy=\"161.0\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"377.143\" cy=\"161.0\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Ekvationen p(x)=0 frågar efter de x-värden där grafen har höjden noll, alltså där den möter x-axeln.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\) eller \\(x=3\\).</p></div>",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Leta där grafen möter x-axeln.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -2,
+    3
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "mängd",
+  "svarEnhet": [
+    null,
+    null
+  ]
+},
+{
+  "id": "1.908",
+  "kap": 1,
+  "omr": "polynomekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "typ": "En lösning försvann när eleven dividerade",
+  "poang": "(1/0/0)",
+  "familj": "Lösa polynomekvationer",
+  "t": "<p>Leo löser \\(x^3=9x\\). Han dividerar båda leden med \\(x\\), får \\(x^2=9\\) och svarar \\(x=-3\\) eller \\(x=3\\). Vilken lösning har han missat?</p>",
+  "s": "<div class=\"facit-v2\"><p>Division med x förutsätter att x inte är noll. Men x=0 uppfyller ursprungsekvationen: båda leden blir noll. Flytta i stället allt till samma led och faktorisera om du vill behålla alla lösningar.</p><div class=\"facit-matte\">\\[x^3-9x=x(x-3)(x+3)=0.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> x = 0.</p></div>",
+  "formaga": [
+    "resonemang",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket värde får x inte ha när man dividerar med x?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": null
+},
+{
+  "id": "1.909",
+  "kap": 1,
+  "omr": "polynomekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "typ": "Vilken rot kan vara en längd?",
+  "poang": "(1/0/0)",
+  "familj": "Lösa polynomekvationer",
+  "t": "<p>Rektangeln har arean 10 cm² och sidlängderna \\(x\\) cm och \\(x+3\\) cm. Hur lång är den kortare sidan? (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 265\" role=\"img\" aria-label=\"Rektangel med area 10 kvadratcentimeter och sidorna x och x+3 cm.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"265\" fill=\"white\"/><rect x=\"100\" y=\"55\" width=\"280\" height=\"150\" rx=\"0\" fill=\"#e3eff8\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"240\" y=\"143\" font-family=\"Arial,sans-serif\" font-size=\"23\" text-anchor=\"middle\" fill=\"#243447\">Area: 10 cm²</text><text x=\"240\" y=\"242\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">x + 3 cm</text><text x=\"80\" y=\"136\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">x cm</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Arean ger ekvationen x(x+3)=10. Efter faktorisering får vi två algebraiska lösningar, men en sidlängd måste vara positiv.</p><div class=\"facit-matte\">\\[\\begin{gathered}x^2+3x-10=(x-2)(x+5)=0\\\\x=2\\quad\\text{eller}\\quad x=-5\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2 cm.</p></div>",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skriv en ekvation för arean. Kontrollera sedan vilka lösningar som kan vara längder.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm"
+},
+{
+  "id": "1.910",
+  "kap": 1,
+  "omr": "polynomekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "typ": "Skärningar mellan en kubisk kurva och en linje",
+  "poang": "(0/1/0)",
+  "familj": "Lösa polynomekvationer",
+  "t": "<p>Funktionerna är \\(f(x)=x^3-3x^2\\) och \\(g(x)=4x-12\\). Bestäm exakt de tre x-koordinater där graferna skär varandra. Ange ett x-värde i varje ruta. Ordningen spelar ingen roll.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 390\" role=\"img\" aria-label=\"Blå kurva f(x)=x³−3x² och röd linje g(x)=4x−12.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"390\" fill=\"white\"/><defs><clipPath id=\"clip-ma3-910\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-3</text><path d=\"M112.857 42L112.857 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"112.857\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-2</text><path d=\"M165.714 42L165.714 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"165.714\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">-1</text><path d=\"M218.571 42L218.571 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"218.571\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M271.429 42L271.429 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"271.429\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M324.286 42L324.286 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"324.286\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M377.143 42L377.143 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"377.143\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-30</text><path d=\"M60 232.4L430 232.4\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"237.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-20</text><path d=\"M60 184.8L430 184.8\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"189.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">-10</text><path d=\"M60 137.2L430 137.2\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"142.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 89.6L430 89.6\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"94.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">10</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">20</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 137.2L430 137.2\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M218.571 42L218.571 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">x</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">y</text><path d=\"M60.0 394.24 L62.313 384.978 L64.625 375.932 L66.938 367.099 L69.25 358.479 L71.562 350.067 L73.875 341.862 L76.188 333.862 L78.5 326.063 L80.812 318.464 L83.125 311.062 L85.438 303.855 L87.75 296.84 L90.062 290.015 L92.375 283.378 L94.688 276.925 L97.0 270.656 L99.312 264.567 L101.625 258.656 L103.938 252.921 L106.25 247.359 L108.562 241.967 L110.875 236.744 L113.188 231.688 L115.5 226.795 L117.812 222.063 L120.125 217.49 L122.438 213.073 L124.75 208.811 L127.062 204.7 L129.375 200.738 L131.688 196.924 L134.0 193.254 L136.312 189.726 L138.625 186.338 L140.938 183.087 L143.25 179.971 L145.562 176.988 L147.875 174.135 L150.188 171.409 L152.5 168.809 L154.812 166.332 L157.125 163.976 L159.438 161.738 L161.75 159.616 L164.062 157.607 L166.375 155.709 L168.688 153.92 L171.0 152.237 L173.312 150.658 L175.625 149.18 L177.938 147.802 L180.25 146.52 L182.562 145.332 L184.875 144.237 L187.188 143.231 L189.5 142.312 L191.812 141.477 L194.125 140.725 L196.437 140.054 L198.75 139.459 L201.063 138.94 L203.375 138.493 L205.688 138.117 L208.0 137.809 L210.312 137.567 L212.625 137.388 L214.938 137.269 L217.25 137.209 L219.562 137.205 L221.875 137.255 L224.188 137.355 L226.5 137.505 L228.812 137.701 L231.125 137.942 L233.438 138.224 L235.75 138.545 L238.062 138.903 L240.375 139.296 L242.688 139.721 L245.0 140.175 L247.312 140.657 L249.625 141.164 L251.938 141.693 L254.25 142.242 L256.562 142.81 L258.875 143.392 L261.188 143.988 L263.5 144.594 L265.812 145.208 L268.125 145.829 L270.438 146.452 L272.75 147.077 L275.062 147.7 L277.375 148.32 L279.688 148.933 L282.0 149.538 L284.312 150.132 L286.625 150.712 L288.938 151.277 L291.25 151.824 L293.562 152.35 L295.875 152.854 L298.188 153.332 L300.5 153.782 L302.812 154.202 L305.125 154.59 L307.438 154.943 L309.75 155.259 L312.062 155.535 L314.375 155.769 L316.688 155.959 L319.0 156.102 L321.312 156.196 L323.625 156.238 L325.938 156.226 L328.25 156.158 L330.563 156.031 L332.875 155.842 L335.188 155.591 L337.5 155.273 L339.812 154.887 L342.125 154.43 L344.437 153.901 L346.75 153.295 L349.062 152.612 L351.375 151.849 L353.688 151.002 L356.0 150.071 L358.312 149.052 L360.625 147.944 L362.938 146.743 L365.25 145.447 L367.562 144.055 L369.875 142.563 L372.188 140.969 L374.5 139.271 L376.812 137.467 L379.125 135.553 L381.438 133.528 L383.75 131.389 L386.062 129.135 L388.375 126.761 L390.688 124.267 L393.0 121.649 L395.312 118.906 L397.625 116.034 L399.938 113.032 L402.25 109.897 L404.562 106.627 L406.875 103.219 L409.188 99.671 L411.5 95.98 L413.812 92.145 L416.125 88.162 L418.438 84.03 L420.75 79.746 L423.062 75.307 L425.375 70.711 L427.688 65.956 L430.0 61.04\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-910)\"/><path d=\"M60.0 251.44 L62.313 250.607 L64.625 249.774 L66.938 248.941 L69.25 248.108 L71.562 247.275 L73.875 246.442 L76.188 245.609 L78.5 244.776 L80.812 243.943 L83.125 243.11 L85.438 242.277 L87.75 241.444 L90.062 240.611 L92.375 239.778 L94.688 238.945 L97.0 238.112 L99.312 237.279 L101.625 236.446 L103.938 235.613 L106.25 234.78 L108.562 233.947 L110.875 233.114 L113.188 232.281 L115.5 231.448 L117.812 230.615 L120.125 229.782 L122.438 228.949 L124.75 228.116 L127.062 227.283 L129.375 226.45 L131.688 225.617 L134.0 224.784 L136.312 223.951 L138.625 223.118 L140.938 222.285 L143.25 221.452 L145.562 220.619 L147.875 219.786 L150.188 218.953 L152.5 218.12 L154.812 217.287 L157.125 216.454 L159.438 215.621 L161.75 214.788 L164.062 213.955 L166.375 213.122 L168.688 212.289 L171.0 211.456 L173.312 210.623 L175.625 209.79 L177.938 208.957 L180.25 208.124 L182.562 207.291 L184.875 206.458 L187.188 205.625 L189.5 204.792 L191.812 203.959 L194.125 203.126 L196.437 202.293 L198.75 201.46 L201.063 200.627 L203.375 199.794 L205.688 198.961 L208.0 198.128 L210.312 197.295 L212.625 196.462 L214.938 195.629 L217.25 194.796 L219.562 193.963 L221.875 193.13 L224.188 192.297 L226.5 191.464 L228.812 190.631 L231.125 189.798 L233.438 188.965 L235.75 188.132 L238.062 187.299 L240.375 186.466 L242.688 185.633 L245.0 184.8 L247.312 183.967 L249.625 183.134 L251.938 182.301 L254.25 181.468 L256.562 180.635 L258.875 179.802 L261.188 178.969 L263.5 178.136 L265.812 177.303 L268.125 176.47 L270.438 175.637 L272.75 174.804 L275.062 173.971 L277.375 173.138 L279.688 172.305 L282.0 171.472 L284.312 170.639 L286.625 169.806 L288.938 168.973 L291.25 168.14 L293.562 167.307 L295.875 166.474 L298.188 165.641 L300.5 164.808 L302.812 163.975 L305.125 163.142 L307.438 162.309 L309.75 161.476 L312.062 160.643 L314.375 159.81 L316.688 158.977 L319.0 158.144 L321.312 157.311 L323.625 156.478 L325.938 155.645 L328.25 154.812 L330.563 153.979 L332.875 153.146 L335.188 152.313 L337.5 151.48 L339.812 150.647 L342.125 149.814 L344.437 148.981 L346.75 148.148 L349.062 147.315 L351.375 146.482 L353.688 145.649 L356.0 144.816 L358.312 143.983 L360.625 143.15 L362.938 142.317 L365.25 141.484 L367.562 140.651 L369.875 139.818 L372.188 138.985 L374.5 138.152 L376.812 137.319 L379.125 136.486 L381.438 135.653 L383.75 134.82 L386.062 133.987 L388.375 133.154 L390.688 132.321 L393.0 131.488 L395.312 130.655 L397.625 129.822 L399.938 128.989 L402.25 128.156 L404.562 127.323 L406.875 126.49 L409.188 125.657 L411.5 124.824 L413.812 123.991 L416.125 123.158 L418.438 122.325 L420.75 121.492 L423.062 120.659 L425.375 119.826 L427.688 118.993 L430.0 118.16\" stroke=\"#b74738\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-ma3-910)\"/><path d=\"M85 362L115 362\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"125\" y=\"368\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#243447\">f</text><path d=\"M270 362L300 362\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"310\" y=\"368\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"start\" fill=\"#243447\">g</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Vid en skärning har graferna samma y-värde. Sätt därför f(x)=g(x) och samla termerna. Två grupper ger den gemensamma faktorn x−3.</p><div class=\"facit-matte\">\\[\\begin{gathered}x^3-3x^2-4x+12=0\\\\x^2(x-3)-4(x-3)=0\\\\(x-3)(x-2)(x+2)=0\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2,\\ 2\\) eller \\(3\\).</p></div>",
+  "formaga": [
+    "problemlosning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilken ekvation gäller när två grafer har samma höjd?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -2,
+    2,
+    3
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "mängd",
+  "svarEnhet": [
+    null,
+    null,
+    null
+  ]
+},
+{
+  "id": "1.911",
+  "kap": 1,
+  "omr": "polynomekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "typ": "Två olika lådor med samma volym",
+  "poang": "(0/2/0)",
+  "familj": "Lösa polynomekvationer",
+  "t": "<p>En plåt är 20 cm lång och 16 cm bred. Lika stora kvadrater med sidan \\(x\\) cm klipps bort i hörnen. Kanterna viks upp till en låda utan lock. Vilka två värden på \\(x\\) ger volymen 384 cm³? Du får använda GeoGebra för ekvationen. (Svara i cm, ett värde i varje ruta. Ordningen spelar ingen roll.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 355\" role=\"img\" aria-label=\"Plåt 20 gånger 16 cm. Fyra lika kvadrater klipps bort i hörnen och de återstående kanterna viks upp.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"355\" fill=\"white\"/><rect x=\"80\" y=\"55\" width=\"300\" height=\"240\" rx=\"0\" fill=\"#edf4fc\" stroke=\"#2b67a2\" stroke-width=\"2\"/><rect x=\"80\" y=\"55\" width=\"45\" height=\"45\" rx=\"0\" fill=\"#f4e6dc\" stroke=\"#9a6842\" stroke-width=\"2\"/><rect x=\"335\" y=\"55\" width=\"45\" height=\"45\" rx=\"0\" fill=\"#f4e6dc\" stroke=\"#9a6842\" stroke-width=\"2\"/><rect x=\"80\" y=\"250\" width=\"45\" height=\"45\" rx=\"0\" fill=\"#f4e6dc\" stroke=\"#9a6842\" stroke-width=\"2\"/><rect x=\"335\" y=\"250\" width=\"45\" height=\"45\" rx=\"0\" fill=\"#f4e6dc\" stroke=\"#9a6842\" stroke-width=\"2\"/><path d=\"M125 55V295\" stroke=\"#243447\" stroke-width=\"1.5\" stroke-dasharray=\"6 5\"/><path d=\"M335 55V295\" stroke=\"#243447\" stroke-width=\"1.5\" stroke-dasharray=\"6 5\"/><path d=\"M80 100H380\" stroke=\"#243447\" stroke-width=\"1.5\" stroke-dasharray=\"6 5\"/><path d=\"M80 250H380\" stroke=\"#243447\" stroke-width=\"1.5\" stroke-dasharray=\"6 5\"/><text x=\"230\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">20 cm</text><text x=\"65\" y=\"183\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">16 cm</text><text x=\"102\" y=\"84\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">x</text><text x=\"357\" y=\"84\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">x</text><text x=\"230\" y=\"185\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#243447\">botten</text><text x=\"230\" y=\"331\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Hörnen klipps bort; kanterna viks upp.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Lådans höjd blir x, och bottnens sidor blir 20−2x och 16−2x. En verklig låda kräver 0 &lt; x &lt; 8. Volymvillkoret ger en tredjegradsekvation som kan lösas med GeoGebra.</p><div class=\"facit-matte\">\\[\\begin{gathered}x(20-2x)(16-2x)=384\\\\4x^3-72x^2+320x-384=0\\\\4(x-2)(x-4)(x-12)=0\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\) cm eller \\(x=4\\) cm. Lösningen 12 cm är omöjlig: hörnen skulle överlappa.</p></div>",
+  "formaga": [
+    "modellering",
+    "problemlosning"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilka mått får bottnen efter att hörnen har klippts bort? Vilka x-värden går att använda på den ursprungliga plåten?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    2,
+    4
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "mängd",
+  "svarEnhet": [
+    "cm",
+    "cm"
+  ]
+},
+{
+  "id": "1.912",
+  "kap": 1,
+  "omr": "polynomekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "typ": "Exakt två olika nollställen",
+  "poang": "(1/0/0)",
+  "familj": "Parameter och antal lösningar",
+  "t": "<p>Polynomet är \\(p(x)=(x-a)(x+2)(x-4)\\). Vilka två värden på \\(a\\) gör att polynomet har exakt två olika nollställen? Ange ett värde i varje ruta. Ordningen spelar ingen roll.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 240\" role=\"img\" aria-label=\"Faktorer och nollställen\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"240\" fill=\"white\"/><text x=\"240\" y=\"28\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Faktorer och nollställen</text><rect x=\"60.0\" y=\"45\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"#eaf1fa\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"74\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Faktor</text><rect x=\"240.0\" y=\"45\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"#eaf1fa\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"74\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Nollställe</text><rect x=\"60.0\" y=\"90\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"119\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">x − a</text><rect x=\"240.0\" y=\"90\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"119\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">a</text><rect x=\"60.0\" y=\"135\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"164\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">x + 2</text><rect x=\"240.0\" y=\"135\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"164\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">−2</text><rect x=\"60.0\" y=\"180\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"209\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">x − 4</text><rect x=\"240.0\" y=\"180\" width=\"180.0\" height=\"45\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"209\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">4</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Nollställena −2 och 4 finns alltid. Det tredje, a, får inte ge ett nytt x-värde om antalet olika nollställen ska vara två. Därför måste a sammanfalla med något av de två fasta nollställena.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-2\\) eller \\(a=4\\).</p></div>",
+  "formaga": [
+    "resonemang",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>När ger två olika faktorer samma nollställe?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -2,
+    4
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "mängd",
+  "svarEnhet": [
+    null,
+    null
+  ]
 }
 ];

@@ -150145,5 +150145,461 @@ window.BANKMA1 = [
   "rättSvar": 4,
   "tolerans": 0,
   "svarEnhet": "h"
+},
+{
+  "id": "1.1386",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "tre parenteser och x i båda leden",
+  "t": "<p>Lös ekvationen.</p>\\[5(2x-3)-2(3x+4)=3(x-5)+1\\]",
+  "s": "<div class=\"facit-v2\"><p>Multiplicera in i varje parentes. Minustecknet framför den andra parentesen gäller båda termerna.</p><div class=\"facit-matte\">\\[\\begin{gathered}10x-15-6x-8=3x-15+1\\\\4x-23=3x-14\\\\x=9\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=9\\).</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv först båda leden utan parenteser. Samla sedan x-termerna på en sida.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9,
+  "tolerans": 0
+},
+{
+  "id": "1.1387",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "minus framför en parentes som innehåller en parentes",
+  "t": "<p>Lös ekvationen.</p>\\[7-3[2-(x-4)]=2(x+1)\\]",
+  "s": "<div class=\"facit-v2\"><p>Börja inifrån: \\(2-(x-4)=6-x\\). När −3 multipliceras in blir x-termen positiv.</p><div class=\"facit-matte\">\\[\\begin{gathered}7-3(6-x)=2x+2\\\\7-18+3x=2x+2\\\\x=13\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=13\\).</p></div>",
+  "familj": "Minustecken framför parentes",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Förenkla uttrycket i hakparentesen innan du multiplicerar med −3.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 13,
+  "tolerans": 0
+},
+{
+  "id": "1.1388",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "tre olika nämnare med parenteser",
+  "t": "<p>Lös ekvationen.</p>\\[\\frac{2x-1}{3}-\\frac{x+4}{2}=\\frac{x-5}{4}\\]",
+  "s": "<div class=\"facit-v2\"><p>Multiplicera hela ekvationen med 12. Då försvinner alla nämnare, men minustecknet gäller fortfarande hela den andra täljaren.</p><div class=\"facit-matte\">\\[\\begin{gathered}4(2x-1)-6(x+4)=3(x-5)\\\\8x-4-6x-24=3x-15\\\\2x-28=3x-15\\\\x=-13\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-13\\).</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilket tal är delbart med både 2, 3 och 4? Multiplicera varje term med det talet.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -13,
+  "tolerans": 0
+},
+{
+  "id": "1.1389",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "decimala faktorer och tre parenteser",
+  "t": "<p>Lös ekvationen.</p>\\[0{,}4(5x-2)-0{,}6(x+1)=0{,}5(2x+3)\\]",
+  "s": "<div class=\"facit-v2\"><p>Utveckla parenteserna och samla termer. Räknaren kan hjälpa med decimaltalen.</p><div class=\"facit-matte\">\\[\\begin{gathered}2x-0{,}8-0{,}6x-0{,}6=x+1{,}5\\\\1{,}4x-1{,}4=x+1{,}5\\\\0{,}4x=2{,}9\\\\x=7{,}25\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7{,}25\\).</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Multiplicera in faktorerna i parenteserna. Ett alternativ är att först multiplicera hela ekvationen med 10.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 7.25,
+  "tolerans": 0
+},
+{
+  "id": "1.1390",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "olika typer av parenteser i båda leden",
+  "t": "<p>Lös ekvationen.</p>\\[4(3-x)=2[5-(x+1)]+3x\\]",
+  "s": "<div class=\"facit-v2\"><p>I högerledet är \\(5-(x+1)=4-x\\). Förenkla sedan båda leden.</p><div class=\"facit-matte\">\\[\\begin{gathered}12-4x=2(4-x)+3x\\\\12-4x=8+x\\\\4=5x\\\\x=0{,}8\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0{,}8\\).</p></div>",
+  "familj": "Minustecken framför parentes",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Börja med parentesen inne i hakparentesen och håll reda på minustecknet.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.8,
+  "tolerans": 0
+},
+{
+  "id": "1.1391",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "bråk med en term utanför parentesen",
+  "t": "<p>Lös ekvationen.</p>\\[\\frac{3(x-2)}4=\\frac{5(x+1)}6-2\\]",
+  "s": "<div class=\"facit-v2\"><p>Multiplicera varje term med 12, även talet −2. Därefter kan parenteserna utvecklas.</p><div class=\"facit-matte\">\\[\\begin{gathered}9(x-2)=10(x+1)-24\\\\9x-18=10x+10-24\\\\9x-18=10x-14\\\\x=-4\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-4\\).</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Ta bort nämnarna med samma faktor i båda leden. Glöm inte termen som saknar nämnare.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -4,
+  "tolerans": 0
+},
+{
+  "id": "1.1392",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "nästlade parenteser med två negativa faktorer",
+  "t": "<p>Lös ekvationen.</p>\\[\\begin{aligned}&2[3x-(x-4)]\\\\&\\quad-3[x-2(x+1)]=5(x+2)-6\\end{aligned}\\]",
+  "s": "<div class=\"facit-v2\"><p>Förenkla de två hakparenteserna var för sig: \\(3x-(x-4)=2x+4\\) och \\(x-2(x+1)=-x-2\\).</p><div class=\"facit-matte\">\\[\\begin{aligned}&2(2x+4)-3(-x-2)\\\\&\\quad=5x+4\\end{aligned}\\]</div><div class=\"facit-matte\">\\[\\begin{gathered}4x+8+3x+6=5x+4\\\\2x=-10\\\\x=-5\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\).</p></div>",
+  "familj": "Minustecken framför parentes",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Förenkla varje hakparentes för sig. När −3 multipliceras med ett negativt uttryck behöver båda tecknen kontrolleras.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -5,
+  "tolerans": 0
+},
+{
+  "id": "1.1393",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "parentesuttryck i båda täljarna",
+  "t": "<p>Lös ekvationen.</p>\\[\\frac{3(2x-1)-2(x+4)}5=\\frac{2(x-3)+1}3\\]",
+  "s": "<div class=\"facit-v2\"><p>Förenkla först täljarna. Multiplicera därefter hela ekvationen med 15.</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{4x-11}5=\\frac{2x-5}3\\\\3(4x-11)=5(2x-5)\\\\12x-33=10x-25\\\\2x=8\\\\x=4\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\).</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Titta på varje täljare som ett eget uttryck. När de är förenklade kan du ta bort nämnarna.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0
+},
+{
+  "id": "1.1394",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "skillnad mellan två parentesprodukter",
+  "t": "<p>Lös ekvationen.</p>\\[(x+4)(x-2)-(x+1)(x-3)=17\\]",
+  "s": "<div class=\"facit-v2\"><p>Utveckla produkterna var för sig. Den andra produktens alla termer ska subtraheras.</p><div class=\"facit-matte\">\\[\\begin{gathered}(x^2+2x-8)-(x^2-2x-3)=17\\\\x^2+2x-8-x^2+2x+3=17\\\\4x-5=17\\\\x=5{,}5\\end{gathered}\\]</div><p>Kvadrattermerna tar ut varandra, så den sista ekvationen är linjär.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5{,}5\\).</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Behåll en parentes runt den andra produktens utvecklade uttryck tills du tar hand om minustecknet.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5.5,
+  "tolerans": 0
+},
+{
+  "id": "1.1395",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "nämnare och dubbelt minustecken",
+  "t": "<p>Lös ekvationen.</p>\\[\\frac{3(2x-1)}4-\\frac{5-2(x+3)}6=\\frac{x+7}3\\]<p>Svara exakt.</p>",
+  "s": "<div class=\"facit-v2\"><p>Förenkla den andra täljaren till \\(-2x-1\\). Multiplicera alla termer med 12.</p><div class=\"facit-matte\">\\[\\begin{gathered}9(2x-1)-2(-2x-1)=4(x+7)\\\\18x-9+4x+2=4x+28\\\\18x=35\\\\x=\\frac{35}{18}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\frac{35}{18}\\).</p></div>",
+  "familj": "Minustecken framför parentes",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Ta först hand om den inre parentesen i den andra täljaren. Det finns ytterligare ett minustecken framför hela bråket.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "bråk",
+  "rättSvar": "35/18",
+  "tolerans": 0
+},
+{
+  "id": "1.1396",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "förlängd rektangel och skillnad mellan areor",
+  "t": "<p>En rektangel förlängs åt höger utan att höjden ändras. Den tillagda ytan är 56 cm². Längderna i figuren anges i cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 340\" style=\"width:100%;max-width:480px\" role=\"img\" aria-label=\"En rektangel förlängs åt höger. Höjden är x plus 2 cm, den gamla bredden x minus 1 cm och hela bredden x plus 6 cm. Den tillagda remsan är markerad.\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"338\" rx=\"12\" fill=\"#fff\"/><g font-family=\"Arial,sans-serif\" fill=\"#243447\" font-size=\"18\"><rect x=\"110\" y=\"65\" width=\"125\" height=\"200\" fill=\"#edf3f8\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"235\" y=\"65\" width=\"175\" height=\"200\" fill=\"#c5e8df\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M110 52V38H410V52\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M110 280V290H235V280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"260\" y=\"26\" text-anchor=\"middle\">x + 6</text><text x=\"172\" y=\"319\" text-anchor=\"middle\">x − 1</text><text x=\"63\" y=\"171\" text-anchor=\"middle\">x + 2</text><text x=\"322\" y=\"157\" text-anchor=\"middle\">Tillagd yta</text><text x=\"322\" y=\"185\" text-anchor=\"middle\">56 cm²</text><text x=\"172\" y=\"171\" text-anchor=\"middle\">Ursprunglig</text></g></svg></span><p>Bestäm \\(x\\). (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Den nya arean minus den ursprungliga arean är 56 cm². Båda rektanglarna har samma höjd.</p><div class=\"facit-matte\">\\[\\begin{gathered}(x+6)(x+2)-(x-1)(x+2)=56\\\\(x^2+8x+12)-(x^2+x-2)=56\\\\7x+14=56\\\\x=6\\end{gathered}\\]</div><p>Det går också att se att den tillagda remsans bredd är \\((x+6)-(x-1)=7\\) cm. Då räcker ekvationen \\(7(x+2)=56\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\) cm.</p></div>",
+  "familj": "Ställa upp ekvationer med parenteser",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Skriv ett uttryck för den nya arean och ett för den ursprungliga. Vad blir skillnaden?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "svarEnhet": "cm"
+},
+{
+  "id": "1.1397",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "typ": "återskapa korrekt lösning från ett teckenfel",
+  "t": "<p>I ekvationen nedan är \\(k\\) ett bestämt tal.</p>\\[2[3x-(x+2)]=3(x-4)+k\\]<p>Lo gör ett teckenfel och skriver</p>\\[2(2x+2)=3(x-4)+k.\\]<p>Efter detta räknar Lo rätt och får \\(x=2\\). Vad är lösningen till den ursprungliga ekvationen?</p>",
+  "s": "<div class=\"facit-v2\"><p>Lösningen \\(x=2\\) stämmer med Los felaktiga ekvation. Sätt in den där för att hitta k.</p><div class=\"facit-matte\">\\[\\begin{gathered}2(4+2)=3(2-4)+k\\\\12=-6+k\\quad\\Rightarrow\\quad k=18\\\\2(2x-2)=3x-12+18\\\\4x-4=3x+6\\\\x=10\\end{gathered}\\]</div><p>Det felaktiga ledet \\(2x+2\\) ska vara \\(2x-2\\), eftersom \\(-(x+2)=-x-2\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\).</p></div>",
+  "familj": "Minustecken framför parentes",
+  "formaga": [
+    "resonemang",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Använd Los svar i den felaktiga ekvationen för att få fram k. Lös sedan den ursprungliga ekvationen med samma k.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 0
+},
+{
+  "id": "1.1398",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "A",
+  "poang": "0/0/3",
+  "typ": "två konstanter när alla x ska vara lösningar",
+  "t": "<p>Talen \\(a\\) och \\(b\\) ska väljas så att ekvationen gäller för alla värden på \\(x\\).</p>\\[\\begin{aligned}&2a(x-3)+4(x+1)\\\\&\\quad=(a+9)(x-2)+b\\end{aligned}\\]<p>Vilket värde måste \\(b\\) ha?</p>",
+  "s": "<div class=\"facit-v2\"><p>Om likheten ska gälla för alla x måste både x-koefficienterna och de konstanta termerna vara lika.</p><div class=\"facit-matte\">\\[\\begin{gathered}\\text{VL}=(2a+4)x-6a+4\\\\\\text{HL}=(a+9)x-2a-18+b\\\\2a+4=a+9\\quad\\Rightarrow\\quad a=5\\\\-6\\cdot5+4=-2\\cdot5-18+b\\\\-26=-28+b\\quad\\Rightarrow\\quad b=2\\end{gathered}\\]</div><p>Med \\(a=5\\) och \\(b=2\\) blir båda leden \\(14x-26\\), oavsett x.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=2\\).</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "resonemang",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Utveckla parenteserna. Jämför först talen framför x och sedan termerna utan x.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0
+},
+{
+  "id": "1.1399",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "A",
+  "poang": "0/0/3",
+  "typ": "två ekvationer måste få samma lösning",
+  "t": "<p>Talet \\(a\\) ska väljas så att de två ekvationerna får samma lösning \\(x\\).</p>\\[3(x-2)-2(1-x)=a+4\\]\\[2[3-(x-1)]=x+2a\\]<p>Bestäm \\(a\\). (Svara exakt.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Förenkla den första ekvationen och uttryck a med hjälp av x. Sätt in det uttrycket i den andra ekvationen.</p><div class=\"facit-matte\">\\[\\begin{gathered}3x-6-2+2x=a+4\\\\a=5x-12\\\\8-2x=x+2(5x-12)\\\\32=13x\\quad\\Rightarrow\\quad x=\\frac{32}{13}\\\\a=5\\cdot\\frac{32}{13}-12=\\frac4{13}\\end{gathered}\\]</div><p>Med detta a blir den första ekvationen \\(5x=160/13\\) och den andra \\(3x=96/13\\). Båda ger \\(x=32/13\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=\\frac4{13}\\).</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Få fram ett uttryck för a ur den första ekvationen. Ersätt sedan a med det uttrycket i den andra.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "bråk",
+  "rättSvar": "4/13",
+  "tolerans": 0
+},
+{
+  "id": "1.1400",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "A",
+  "poang": "0/0/3",
+  "typ": "ändra en konstant så att lösningen flyttas",
+  "t": "<p>Ekvationen är</p>\\[\\begin{aligned}&\\frac23\\left(3x-\\frac{x-2}{4}\\right)\\\\&\\quad-\\frac12\\left(x-\\frac{2x+1}{3}\\right)=\\frac{x+5}{2}.\\end{aligned}\\]<p>Du ska byta ut enbart talet 5 i högerledet. Det nya värdet på \\(x\\) ska bli exakt 1 mindre än det ursprungliga. Vilket tal ska stå i stället för 5? (Svara exakt.)</p>",
+  "s": "<div class=\"facit-v2\"><p>Kalla talet som ersätter 5 för k. Förenkla först vänsterledets två delar.</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac23\\left(3x-\\frac{x-2}4\\right)=\\frac{11x+2}6\\\\\\frac12\\left(x-\\frac{2x+1}3\\right)=\\frac{x-1}6\\\\\\frac{10x+3}6=\\frac{x+k}2\\\\10x+3=3x+3k\\\\7x=3k-3\\\\k=5\\quad\\Rightarrow\\quad x=\\frac{12}7\\\\x_{\\text{ny}}=\\frac{12}7-1=\\frac57\\\\7\\cdot\\frac57=3k-3\\\\k=\\frac83\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Talet \\(\\frac83\\) ska ersätta 5.</p></div>",
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Förenkla vänsterledet först. Undersök sedan hur talet i högerledet påverkar lösningen.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "bråk",
+  "rättSvar": "8/3",
+  "tolerans": 0
 }
 ];

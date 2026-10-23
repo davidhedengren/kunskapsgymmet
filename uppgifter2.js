@@ -22092,14 +22092,31 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur",
     "ledtrad": "<p>Wiens förskjutningslag visar att maximumets våglängd är omvänt proportionell mot temperaturen.</p>",
     "familjTidigare": [
       "Stjärnors färg, temperatur och ljusstyrka"
+    ],
+    "traningsniva": 1,
+    "alternativ": [
+      {
+        "txt": "Stjärnan med 9 000 K",
+        "ratt": true
+      },
+      {
+        "txt": "Stjärnan med 4 500 K",
+        "ratt": false,
+        "kommentar": "Varmare stjärna ger maximum vid kortare våglängd."
+      },
+      {
+        "txt": "Båda har maximum vid samma våglängd",
+        "ratt": false,
+        "kommentar": "Våglängden beror på temperaturen."
+      }
     ]
   },
   {
@@ -22109,7 +22126,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "beräkna luminositetsförhållande ur radie med Stefan-Boltzmanns lag, ur text, sökt förhållande",
     "poang": "(1/2/0)",
-    "t": "<p>Stjärna A har samma yttemperatur som solen men radien 3,0 gånger solens.</p><ol><li>Hur många gånger större luminositet har A än solen?</li><li>Om A och solen låg på samma avstånd, hur skulle deras observerade flöden förhålla sig?</li></ol><div class=\"fig\"></div>",
+    "t": "<p>Stjärna A har samma yttemperatur som solen men radien 3,0 gånger solens.</p><ol><li>Hur många gånger större luminositet har A än solen? (Svara med ett tal.)</li><li>Om A och solen låg på samma avstånd, hur många gånger större flöde skulle vi då observera från A? (Svara med ett tal.)</li></ol><div class=\"fig\"></div>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför stjärnornas luminositet</p><p>Stefan–Boltzmanns lag ger \\(L=4\\pi R^2\\sigma T^4\\). Temperaturerna är lika, så temperaturfaktorerna och konstanterna förkortas bort:</p><div class=\"facit-matte\">\\[\\frac{L_A}{L_\\odot}=\\left(\\frac{R_A}{R_\\odot}\\right)^2=3{,}0^2=9.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stjärna A har 9 gånger solens luminositet.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför stjärnornas luminositet</p><p>Stefan–Boltzmanns lag ger \\(L=4\\pi R^2\\sigma T^4\\). Temperaturerna är lika, så temperaturfaktorerna och konstanterna förkortas bort:</p><div class=\"facit-matte\">\\[\\frac{L_A}{L_\\odot}=\\left(\\frac{R_A}{R_\\odot}\\right)^2=3{,}0^2=9.\\]</div></li><li><p class=\"facit-rubrik\">Jämför flöden på samma avstånd</p><p>Det observerade flödet är luminositeten fördelad över en sfär med radien lika med avståndet till stjärnan:</p><div class=\"facit-matte\">\\[F=\\frac L{4\\pi d^2}.\\]</div><p>När avstånden är lika förkortas även avståndsfaktorerna bort:</p><div class=\"facit-matte\">\\[\\frac{F_A}{F_\\odot}=\\frac{L_A}{L_\\odot}=9.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A skulle ge 9 gånger större observerat flöde.</p></div></div></div></div>",
     "familj": "Luminositet, radie och temperatur",
     "formaga": [
@@ -22117,17 +22134,26 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      9,
+      9
+    ],
+    "tolerans": [
+      0.05,
+      0.05
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur",
     "ledtrad": "<p>En stjärnas luminositet är \\(L=4\\pi R^2\\sigma T^4\\). När temperaturerna är lika återstår radieberoendet.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Stjärna A har samma yttemperatur som solen men radien 3,0 gånger solens.</p><div class=\"fig\"></div><div class=\"spel-en-del\"><p>Hur många gånger större luminositet har A än solen?</p></div>",
+        "t": "<p>Stjärna A har samma yttemperatur som solen men radien 3,0 gånger solens.</p><div class=\"fig\"></div><div class=\"spel-en-del\"><p>Hur många gånger större luminositet har A än solen? (Svara med ett tal.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför stjärnornas luminositet</p><p>Stefan–Boltzmanns lag ger \\(L=4\\pi R^2\\sigma T^4\\). Temperaturerna är lika, så temperaturfaktorerna och konstanterna förkortas bort:</p><div class=\"facit-matte\">\\[\\frac{L_A}{L_\\odot}=\\left(\\frac{R_A}{R_\\odot}\\right)^2=3{,}0^2=9.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stjärna A har 9 gånger solens luminositet.</p></div>",
         "ledtrad": "<p>En stjärnas luminositet är \\(L=4\\pi R^2\\sigma T^4\\). När temperaturerna är lika återstår radieberoendet.</p>",
         "niva": "C",
@@ -22135,7 +22161,7 @@ window.BANK2 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Stjärna A har samma yttemperatur som solen men radien 3,0 gånger solens.</p><div class=\"fig\"></div><div class=\"spel-en-del\"><p>Om A och solen låg på samma avstånd, hur skulle deras observerade flöden förhålla sig?</p></div>",
+        "t": "<p>Stjärna A har samma yttemperatur som solen men radien 3,0 gånger solens.</p><div class=\"fig\"></div><div class=\"spel-en-del\"><p>Om A och solen låg på samma avstånd, hur många gånger större flöde skulle vi då observera från A? (Svara med ett tal.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför stjärnornas luminositet</p><p>Stefan–Boltzmanns lag ger \\(L=4\\pi R^2\\sigma T^4\\). Temperaturerna är lika, så temperaturfaktorerna och konstanterna förkortas bort:</p><div class=\"facit-matte\">\\[\\frac{L_A}{L_\\odot}=\\left(\\frac{R_A}{R_\\odot}\\right)^2=3{,}0^2=9.\\]</div></li><li><p class=\"facit-rubrik\">Jämför flöden på samma avstånd</p><p>Det observerade flödet är luminositeten fördelad över en sfär med radien lika med avståndet till stjärnan:</p><div class=\"facit-matte\">\\[F=\\frac L{4\\pi d^2}.\\]</div><p>När avstånden är lika förkortas även avståndsfaktorerna bort:</p><div class=\"facit-matte\">\\[\\frac{F_A}{F_\\odot}=\\frac{L_A}{L_\\odot}=9.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A skulle ge 9 gånger större observerat flöde.</p></div>",
         "ledtrad": "<p>En stjärnas luminositet är \\(L=4\\pi R^2\\sigma T^4\\). När temperaturerna är lika återstår radieberoendet.</p>",
         "niva": "C",
@@ -22144,7 +22170,21 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Stjärnors färg, temperatur och ljusstyrka"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 1
   },
   {
     "id": "5.3",
@@ -22153,7 +22193,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "jämföra avstånd till två stjärnor med samma observerade flöde, ur figur, sökt jämförelse",
     "poang": "(0/3/0)",
-    "t": "<p>Två stjärnor har samma observerade bolometriska flöde från jorden. Stjärna A har temperaturen 6000 K och radien 1,0 R☉. Stjärna B har temperaturen 3000 K och radien 4,0 R☉.</p><p>Bestäm förhållandet mellan deras luminositeter och avgör vilken stjärna som ligger längst bort.</p><div class=\"fig\"></div>",
+    "t": "<p>Två stjärnor har samma observerade bolometriska flöde från jorden. Stjärna A har temperaturen 6000 K och radien 1,0 R☉. Stjärna B har temperaturen 3000 K och radien 4,0 R☉.</p><p>Bestäm kvoten \\(L_B/L_A\\) och avgör vilken stjärna som ligger längst bort. (Svara med kvoten och A, B eller lika.)</p><div class=\"fig\"></div>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Jämför luminositeterna med \\(L\\propto R^2T^4\\).</p></li><li><div class=\"facit-matte\">\\[\\frac{L_B}{L_A}=\\left(\\frac{4{,}0}{1{,}0}\\right)^2\\left(\\frac{3000}{6000}\\right)^4=16\\left(\\frac12\\right)^4=1\\]</div></li><li><p class=\"facit-metod\">De har alltså samma luminositet.</p></li><li><p class=\"facit-metod\">Eftersom även de observerade flödena är lika ger \\(F=L/(4\\pi d^2)\\) samma avstånd.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L_B/L_A=1\\). Ingen ligger längre bort; de befinner sig på samma avstånd enligt uppgifternas antaganden.</p></div>",
     "familj": "Luminositet, radie och temperatur",
     "formaga": [
@@ -22161,15 +22201,38 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      "lika"
+    ],
+    "tolerans": [
+      0.02,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur",
     "ledtrad": "<p>Jämför luminositeterna med \\(L\\propto R^2T^4\\). Koppla färg/toppvåglängd till temperatur med Wiens lag.</p>",
     "familjTidigare": [
       "Stjärnors färg, temperatur och ljusstyrka"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "kort_text"
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ],
+    "svarEtiketter": [
+      "Kvoten L_B/L_A",
+      "Längst bort"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2
   },
   {
     "id": "5.4",
@@ -22265,14 +22328,36 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "stjarnornas_utveckling__stjarnors_livscykel",
     "ledtrad": "<p>En stjärna med ungefär solens massa blir inte tillräckligt varm i centrum för att fortsätta fusionen genom alla tyngre ämnen. Efter röd-jättefasen stöts de yttre lagren bort.</p>",
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
+    ],
+    "traningsniva": 1,
+    "alternativ": [
+      {
+        "txt": "En vit dvärg",
+        "ratt": true
+      },
+      {
+        "txt": "En neutronstjärna",
+        "ratt": false,
+        "kommentar": "Neutronstjärnor bildas av mycket massivare stjärnor."
+      },
+      {
+        "txt": "Ett svart hål",
+        "ratt": false,
+        "kommentar": "Det kräver en mycket massiv stjärna."
+      },
+      {
+        "txt": "En röd dvärg",
+        "ratt": false,
+        "kommentar": "Röda dvärgar är små huvudseriestjärnor, inte slutstadier."
+      }
     ]
   },
   {
@@ -22282,23 +22367,25 @@ window.BANK2 = [
     "niva": "C",
     "typ": "beräkna livslängd ur luminositet och massa, ur text, sökt livslängd",
     "poang": "(1/2/0)",
-    "t": "<p>En huvudseriestjärna har ungefär 8 gånger solens luminositet men bara 2 gånger solens massa.</p><p>Om den tillgängliga mängden kärnbränsle antas vara proportionell mot massan, uppskatta stjärnans livslängd på huvudserien relativt solens.</p><div class=\"fig\"></div>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv reaktionen så att laddningstal och masstal balanserar.</p></li><li><p class=\"facit-metod\">Vid sönderfall minskar antalet kärnor exponentiellt, medan frigjord energi kommer från masskillnaden.</p></li><li><p class=\"facit-metod\">Livslängden kan uppskattas som tillgängligt bränsle delat med energiförbrukning.</p></li><li><div class=\"facit-matte\">\\[t\\propto\\frac ML\\Rightarrow \\frac{t_\\star}{t_\\odot}=\\frac{M_\\star/M_\\odot}{L_\\star/L_\\odot}=\\frac28=0{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stjärnans huvudserielivslängd är ungefär en fjärdedel av solens.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Den förenklade livslängdsmodellen jämför bränslemängd med förbrukningstakt: mer massa ger mer bränsle, men hög luminositet förbrukar bränslet snabbare.</p></li><li><p class=\"facit-not\">Därför är det kvoten \\(M/L\\) som styr.</p></li><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Antalet kärnor och aktiviteten ska minska med samma halveringsfaktor.</p></li><li><p class=\"facit-not\">Kontrollera att masskillnaden ger positiv frigjord energi.</p></li></ol></div>",
+    "t": "<p>En huvudseriestjärna har ungefär 8 gånger solens luminositet men bara 2 gånger solens massa.</p><p>Om den tillgängliga mängden kärnbränsle antas vara proportionell mot massan, hur många gånger solens livslängd på huvudserien får stjärnan? (Svara med ett tal.)</p><div class=\"fig\"></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Livslängden kan uppskattas som tillgängligt bränsle delat med energiförbrukning.</p></li><li><div class=\"facit-matte\">\\[t\\propto\\frac ML\\Rightarrow \\frac{t_\\star}{t_\\odot}=\\frac{M_\\star/M_\\odot}{L_\\star/L_\\odot}=\\frac28=0{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stjärnans huvudserielivslängd är ungefär en fjärdedel av solens.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Den förenklade livslängdsmodellen jämför bränslemängd med förbrukningstakt: mer massa ger mer bränsle, men hög luminositet förbrukar bränslet snabbare.</p></li><li><p class=\"facit-not\">Därför är det kvoten \\(M/L\\) som styr.</p></li></ol></div>",
     "familj": "Stjärnors livslängd och slutstadier",
     "formaga": [
       "modellering",
       "procedur"
     ],
     "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.25,
+    "tolerans": 0.01,
+    "självrättning": true,
     "familjNyckelTidigare": "stjarnornas_utveckling__hr_diagram_och_huvudserien",
     "ledtrad": "<p>Livslängden kan uppskattas som tillgängligt bränsle delat med energiförbrukning.</p>",
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
-    ]
+    ],
+    "svarFormat": "numeriskt",
+    "traningsniva": 2
   },
   {
     "id": "5.9",
@@ -22307,7 +22394,7 @@ window.BANK2 = [
     "niva": "A",
     "typ": "bestämma stjärnhopens ålder ur avvikelsepunkten, ur figur, sökt ålder",
     "poang": "(0/2/2)",
-    "t": "<p>En stjärnhop innehåller många stjärnor som bildades samtidigt. I ett HR-diagram ser man att stjärnor med massor över ungefär 3 M☉ redan har lämnat huvudserien, medan mindre massiva stjärnor fortfarande ligger kvar.</p><p>I den grova stjärnmodellen gäller L∝M³·⁵ och huvudserielivslängden t∝M/L. Om solen lever 10 miljarder år på huvudserien, uppskatta stjärnhopens ålder.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"HR-diagram med hög temperatur till vänster\" style=\"max-width:100%;height:auto\"><title>HR-diagram med hög temperatur till vänster</title><rect width=\"480\" height=\"280\" fill=\"white\"/><line x1=\"65.000\" y1=\"230.000\" x2=\"433.700\" y2=\"230.000\" stroke=\"#7b8797\" stroke-width=\"2.4\"/><polygon points=\"440,230 431.0,226.0 431.0,234.0\" fill=\"#7b8797\"/><line x1=\"65.000\" y1=\"230.000\" x2=\"65.000\" y2=\"36.300\" stroke=\"#7b8797\" stroke-width=\"2.4\"/><polygon points=\"65,30 61.0,39.0 69.0,39.0\" fill=\"#7b8797\"/><polyline points=\"95.000,48.000 142.000,91.000 190.000,125.000 245.000,155.000 300.000,179.000 385.000,208.000\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"13\"/><text x=\"230.00\" y=\"120.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">Huvudserien</text><circle cx=\"345\" cy=\"68\" r=\"30\" fill=\"#f8d9c8\" stroke=\"#b54b42\" stroke-width=\"2\"/><text x=\"345.00\" y=\"73.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">Jättar</text><circle cx=\"142\" cy=\"192\" r=\"18\" fill=\"#eaf2f8\" stroke=\"#2867a8\" stroke-width=\"2\"/><text x=\"195.00\" y=\"213.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">Vita dvärgar</text><text x=\"45.00\" y=\"24.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">L</text><text x=\"90.00\" y=\"253.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">varmare</text><text x=\"402.00\" y=\"253.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">svalare</text></svg></span>",
+    "t": "<p>En stjärnhop innehåller många stjärnor som bildades samtidigt. I ett HR-diagram ser man att stjärnor med massor över ungefär 3 M☉ redan har lämnat huvudserien, medan mindre massiva stjärnor fortfarande ligger kvar.</p><p>I den grova stjärnmodellen gäller L∝M³·⁵ och huvudserielivslängden t∝M/L. Om solen lever 10 miljarder år på huvudserien, uppskatta stjärnhopens ålder. (Svara i miljoner år.)</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 280\" width=\"480\" height=\"280\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"HR-diagram med hög temperatur till vänster\" style=\"max-width:100%;height:auto\"><title>HR-diagram med hög temperatur till vänster</title><rect width=\"480\" height=\"280\" fill=\"white\"/><line x1=\"65.000\" y1=\"230.000\" x2=\"433.700\" y2=\"230.000\" stroke=\"#7b8797\" stroke-width=\"2.4\"/><polygon points=\"440,230 431.0,226.0 431.0,234.0\" fill=\"#7b8797\"/><line x1=\"65.000\" y1=\"230.000\" x2=\"65.000\" y2=\"36.300\" stroke=\"#7b8797\" stroke-width=\"2.4\"/><polygon points=\"65,30 61.0,39.0 69.0,39.0\" fill=\"#7b8797\"/><polyline points=\"95.000,48.000 142.000,91.000 190.000,125.000 245.000,155.000 300.000,179.000 385.000,208.000\" fill=\"none\" stroke=\"#2867a8\" stroke-width=\"13\"/><text x=\"230.00\" y=\"120.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">Huvudserien</text><circle cx=\"345\" cy=\"68\" r=\"30\" fill=\"#f8d9c8\" stroke=\"#b54b42\" stroke-width=\"2\"/><text x=\"345.00\" y=\"73.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">Jättar</text><circle cx=\"142\" cy=\"192\" r=\"18\" fill=\"#eaf2f8\" stroke=\"#2867a8\" stroke-width=\"2\"/><text x=\"195.00\" y=\"213.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">Vita dvärgar</text><text x=\"45.00\" y=\"24.00\" font-family=\"Arial, sans-serif\" font-size=\"16\" fill=\"#223047\" text-anchor=\"middle\">L</text><text x=\"90.00\" y=\"253.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">varmare</text><text x=\"402.00\" y=\"253.00\" font-family=\"Arial, sans-serif\" font-size=\"14\" fill=\"#223047\" text-anchor=\"middle\">svalare</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Med \\(L\\propto M^{3{,}5}\\) och \\(t\\propto M/L\\) fås</p></li><li><div class=\"facit-matte\">\\[t\\propto M^{-2{,}5}\\]</div></li><li><p class=\"facit-metod\">Avvikelsepunkten vid \\(3M_\\odot\\) anger livslängden för de stjärnor som just lämnar huvudserien.</p></li><li><div class=\"facit-matte\">\\[t=10\\cdot3^{-2{,}5}\\ \\text{miljarder år}=0{,}641\\ \\text{miljarder år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stjärnhopens ålder är cirka \\(6{,}4\\cdot10^8\\) år, alltså 640 miljoner år.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">I en stjärnhop som bildades samtidigt fungerar huvudseriens avvikelsepunkt som en klocka.</p></li><li><p class=\"facit-not\">Massan hos de stjärnor som just lämnar huvudserien ger deras huvudserielivslängd och därmed ungefär hopens ålder.</p></li></ol></div>",
     "familj": "Läsa HR-diagrammet",
     "formaga": [
@@ -22315,10 +22402,10 @@ window.BANK2 = [
       "problemlösning"
     ],
     "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 641.5002990995841,
+    "tolerans": 6.415002990995841,
+    "självrättning": true,
     "familjNyckelTidigare": "stjarnornas_utveckling__hr_diagram_och_huvudserien",
     "ledtrad": "<p>Med \\(L\\propto M^{3{,}5}\\) och \\(t\\propto M/L\\) fås Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt.</p>",
     "omrTidigare": [
@@ -22326,7 +22413,11 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
-    ]
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "miljoner år",
+    "svarVardesiffror": 2,
+    "traningsniva": 3
   },
   {
     "id": "5.10",
@@ -22530,7 +22621,7 @@ window.BANK2 = [
     "niva": "E",
     "poang": "(2/0/0)",
     "typ": "beräkna avstånd från föremålets diameter och synvinkel, ur figur, sökt tre avstånd",
-    "t": "<p>En drönarkamera ser en cirkelformad landningsmarkering med diametern 0,60 m.</p><span class=\"fig bred\"><svg viewBox=\"26.743 36.367 439.771 153.633\" width=\"620\" height=\"217\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"En observatör ser en cirkelformad markering under synvinkeln alfa.\"><title>En observatör ser en cirkelformad markering under synvinkeln alfa.</title><circle cx=\"54\" cy=\"94\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"62\" y1=\"94\" x2=\"446\" y2=\"45\" stroke=\"#5C575E\" stroke-width=\"1.8\"/><line x1=\"62\" y1=\"94\" x2=\"446\" y2=\"143\" stroke=\"#5C575E\" stroke-width=\"1.8\"/><line x1=\"446\" y1=\"45\" x2=\"446\" y2=\"143\" stroke=\"#B43123\" stroke-width=\"4\"/><path d=\"M112 88 A58 58 0 0 1 112 100\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"120\" y=\"80\" font-family=\"IBM Plex Mono\" font-size=\"15\" fill=\"#2A5D9E\">α</text><line x1=\"72\" y1=\"164\" x2=\"436\" y2=\"164\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><line x1=\"72\" y1=\"158\" x2=\"72\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><line x1=\"436\" y1=\"158\" x2=\"436\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"254\" y=\"184\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" fill=\"#5C575E\">avstånd d</text><text x=\"388\" y=\"98\" font-family=\"IBM Plex Mono\" font-size=\"13\" fill=\"#B43123\" text-anchor=\"end\">diameter D</text></svg></span><p>Hur långt från markeringen är kameran när markeringens synvinkel är a) 2,0°, b) 2,0 bågminuter och c) 2,0 bågsekunder?</p>",
+    "t": "<p>En drönarkamera ser en cirkelformad landningsmarkering med diametern 0,60 m.</p><span class=\"fig bred\"><svg viewBox=\"26.743 36.367 439.771 153.633\" width=\"620\" height=\"217\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"En observatör ser en cirkelformad markering under synvinkeln alfa.\"><title>En observatör ser en cirkelformad markering under synvinkeln alfa.</title><circle cx=\"54\" cy=\"94\" r=\"8\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"62\" y1=\"94\" x2=\"446\" y2=\"45\" stroke=\"#5C575E\" stroke-width=\"1.8\"/><line x1=\"62\" y1=\"94\" x2=\"446\" y2=\"143\" stroke=\"#5C575E\" stroke-width=\"1.8\"/><line x1=\"446\" y1=\"45\" x2=\"446\" y2=\"143\" stroke=\"#B43123\" stroke-width=\"4\"/><path d=\"M112 88 A58 58 0 0 1 112 100\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2\"/><text x=\"120\" y=\"80\" font-family=\"IBM Plex Mono\" font-size=\"15\" fill=\"#2A5D9E\">α</text><line x1=\"72\" y1=\"164\" x2=\"436\" y2=\"164\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><line x1=\"72\" y1=\"158\" x2=\"72\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><line x1=\"436\" y1=\"158\" x2=\"436\" y2=\"170\" stroke=\"#9A959C\" stroke-width=\"1.4\"/><text x=\"254\" y=\"184\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" fill=\"#5C575E\">avstånd d</text><text x=\"388\" y=\"98\" font-family=\"IBM Plex Mono\" font-size=\"13\" fill=\"#B43123\" text-anchor=\"end\">diameter D</text></svg></span><p>Hur långt från markeringen är kameran när markeringens synvinkel är a) 2,0°, b) 2,0 bågminuter och c) 2,0 bågsekunder? (Svara i m, km respektive km.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">För en liten synvinkel i radianer gäller \\(\\alpha\\approx D/d\\), alltså \\(d\\approx D/\\alpha\\).</p></li><li><p class=\"facit-metod\">Vinklarna måste först skrivas i radianer.</p></li><li><div class=\"facit-matte\">\\[2{,}0^\\circ=0{,}03491\\ \\mathrm{rad}\\Rightarrow d=\\frac{0{,}60}{0{,}03491}=17{,}2\\ \\mathrm m\\]\\[2{,}0'=\\frac{2}{60}^\\circ=5{,}818\\cdot10^{-4}\\ \\mathrm{rad}\\Rightarrow d=1{,}03\\cdot10^3\\ \\mathrm m\\]\\[2{,}0''=\\frac{2}{3600}^\\circ=9{,}696\\cdot10^{-6}\\ \\mathrm{rad}\\Rightarrow d=6{,}19\\cdot10^4\\ \\mathrm m\\]</div></li><li><p class=\"facit-metod\">När synvinkeln blir mycket mindre måste föremålet vara mycket längre bort för att se lika litet ut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avstånden är a) \\(17\\ \\mathrm m\\), b) \\(1{,}03\\ \\mathrm{km}\\) och c) \\(61{,}9\\ \\mathrm{km}\\).</p></div>",
     "familj": "Synvinkel, parallax och avståndsenheter",
     "formaga": [
@@ -22538,37 +22629,41 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
+    "svarstyp": "flera_delar",
     "rättSvar": [
-      17.2,
-      1.03,
-      61.9
+      17.188733853924695,
+      1.0313240312354817,
+      61.87944187412891
     ],
     "tolerans": [
-      0.3,
-      0.03,
-      1
+      0.17188733853924695,
+      0.010313240312354817,
+      0.618794418741289
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En cirkelformad landningsmarkering har diametern 0,60 m. Markeringens synvinkel är 2,0°. Bestäm kamerans avstånd i meter.</p><span class=\"fig bred\"><svg aria-label=\"En observatör ser en cirkelformad markering under synvinkeln alfa.\" height=\"217\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"26.743 36.367 439.771 153.633\" width=\"620\"><title>En observatör ser en cirkelformad markering under synvinkeln alfa.</title><circle cx=\"54\" cy=\"94\" fill=\"#fff\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.8\" x1=\"62\" x2=\"446\" y1=\"94\" y2=\"45\"></line><line stroke=\"#5C575E\" stroke-width=\"1.8\" x1=\"62\" x2=\"446\" y1=\"94\" y2=\"143\"></line><line stroke=\"#B43123\" stroke-width=\"4\" x1=\"446\" x2=\"446\" y1=\"45\" y2=\"143\"></line><path d=\"M112 88 A58 58 0 0 1 112 100\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2\"></path><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"15\" x=\"120\" y=\"80\">α</text><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"72\" x2=\"436\" y1=\"164\" y2=\"164\"></line><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"72\" x2=\"72\" y1=\"158\" y2=\"170\"></line><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"436\" x2=\"436\" y1=\"158\" y2=\"170\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"middle\" x=\"254\" y=\"184\">avstånd d</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"end\" x=\"388\" y=\"98\">diameter D</text></svg></span>",
+        "t": "<p>En cirkelformad landningsmarkering har diametern 0,60 m. Markeringens synvinkel är 2,0°. Bestäm kamerans avstånd. (Svara i m.)</p><span class=\"fig bred\"><svg aria-label=\"En observatör ser en cirkelformad markering under synvinkeln alfa.\" height=\"217\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"26.743 36.367 439.771 153.633\" width=\"620\"><title>En observatör ser en cirkelformad markering under synvinkeln alfa.</title><circle cx=\"54\" cy=\"94\" fill=\"#fff\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.8\" x1=\"62\" x2=\"446\" y1=\"94\" y2=\"45\"></line><line stroke=\"#5C575E\" stroke-width=\"1.8\" x1=\"62\" x2=\"446\" y1=\"94\" y2=\"143\"></line><line stroke=\"#B43123\" stroke-width=\"4\" x1=\"446\" x2=\"446\" y1=\"45\" y2=\"143\"></line><path d=\"M112 88 A58 58 0 0 1 112 100\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2\"></path><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"15\" x=\"120\" y=\"80\">α</text><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"72\" x2=\"436\" y1=\"164\" y2=\"164\"></line><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"72\" x2=\"72\" y1=\"158\" y2=\"170\"></line><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"436\" x2=\"436\" y1=\"158\" y2=\"170\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"middle\" x=\"254\" y=\"184\">avstånd d</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"end\" x=\"388\" y=\"98\">diameter D</text></svg></span>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2{,}0^\\circ=0{,}03491\\,\\mathrm{rad}\\].</div></li><li><p>Med \\(d\\approx D/\\alpha\\) fås \\(d\\approx0{,}60/0{,}03491=17,2\\,\\mathrm m\\).</p></li></ol></div>",
         "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>",
         "niva": "E"
       },
       {
         "etikett": "b",
-        "t": "<p>En cirkelformad landningsmarkering har diametern 0,60 m. Markeringens synvinkel är 2,0 bågminuter. Bestäm kamerans avstånd i kilometer.</p><span class=\"fig bred\"><svg aria-label=\"En observatör ser en cirkelformad markering under synvinkeln alfa.\" height=\"217\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"26.743 36.367 439.771 153.633\" width=\"620\"><title>En observatör ser en cirkelformad markering under synvinkeln alfa.</title><circle cx=\"54\" cy=\"94\" fill=\"#fff\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.8\" x1=\"62\" x2=\"446\" y1=\"94\" y2=\"45\"></line><line stroke=\"#5C575E\" stroke-width=\"1.8\" x1=\"62\" x2=\"446\" y1=\"94\" y2=\"143\"></line><line stroke=\"#B43123\" stroke-width=\"4\" x1=\"446\" x2=\"446\" y1=\"45\" y2=\"143\"></line><path d=\"M112 88 A58 58 0 0 1 112 100\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2\"></path><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"15\" x=\"120\" y=\"80\">α</text><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"72\" x2=\"436\" y1=\"164\" y2=\"164\"></line><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"72\" x2=\"72\" y1=\"158\" y2=\"170\"></line><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"436\" x2=\"436\" y1=\"158\" y2=\"170\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"middle\" x=\"254\" y=\"184\">avstånd d</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"end\" x=\"388\" y=\"98\">diameter D</text></svg></span>",
+        "t": "<p>En cirkelformad landningsmarkering har diametern 0,60 m. Markeringens synvinkel är 2,0 bågminuter. Bestäm kamerans avstånd. (Svara i km.)</p><span class=\"fig bred\"><svg aria-label=\"En observatör ser en cirkelformad markering under synvinkeln alfa.\" height=\"217\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"26.743 36.367 439.771 153.633\" width=\"620\"><title>En observatör ser en cirkelformad markering under synvinkeln alfa.</title><circle cx=\"54\" cy=\"94\" fill=\"#fff\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.8\" x1=\"62\" x2=\"446\" y1=\"94\" y2=\"45\"></line><line stroke=\"#5C575E\" stroke-width=\"1.8\" x1=\"62\" x2=\"446\" y1=\"94\" y2=\"143\"></line><line stroke=\"#B43123\" stroke-width=\"4\" x1=\"446\" x2=\"446\" y1=\"45\" y2=\"143\"></line><path d=\"M112 88 A58 58 0 0 1 112 100\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2\"></path><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"15\" x=\"120\" y=\"80\">α</text><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"72\" x2=\"436\" y1=\"164\" y2=\"164\"></line><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"72\" x2=\"72\" y1=\"158\" y2=\"170\"></line><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"436\" x2=\"436\" y1=\"158\" y2=\"170\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"middle\" x=\"254\" y=\"184\">avstånd d</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"end\" x=\"388\" y=\"98\">diameter D</text></svg></span>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2{,}0'=(2/60)^\\circ=5{,}818\\cdot10^{-4}\\,\\mathrm{rad}\\].</div></li><li><p>Då blir \\(d\\approx0{,}60/\\alpha\\approx1{,}03\\,\\mathrm{km}\\).</p></li></ol></div>",
         "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>",
         "niva": "E"
       },
       {
         "etikett": "c",
-        "t": "<p>En cirkelformad landningsmarkering har diametern 0,60 m. Markeringens synvinkel är 2,0 bågsekunder. Bestäm kamerans avstånd i kilometer.</p><span class=\"fig bred\"><svg aria-label=\"En observatör ser en cirkelformad markering under synvinkeln alfa.\" height=\"217\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"26.743 36.367 439.771 153.633\" width=\"620\"><title>En observatör ser en cirkelformad markering under synvinkeln alfa.</title><circle cx=\"54\" cy=\"94\" fill=\"#fff\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.8\" x1=\"62\" x2=\"446\" y1=\"94\" y2=\"45\"></line><line stroke=\"#5C575E\" stroke-width=\"1.8\" x1=\"62\" x2=\"446\" y1=\"94\" y2=\"143\"></line><line stroke=\"#B43123\" stroke-width=\"4\" x1=\"446\" x2=\"446\" y1=\"45\" y2=\"143\"></line><path d=\"M112 88 A58 58 0 0 1 112 100\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2\"></path><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"15\" x=\"120\" y=\"80\">α</text><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"72\" x2=\"436\" y1=\"164\" y2=\"164\"></line><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"72\" x2=\"72\" y1=\"158\" y2=\"170\"></line><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"436\" x2=\"436\" y1=\"158\" y2=\"170\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"middle\" x=\"254\" y=\"184\">avstånd d</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"end\" x=\"388\" y=\"98\">diameter D</text></svg></span>",
+        "t": "<p>En cirkelformad landningsmarkering har diametern 0,60 m. Markeringens synvinkel är 2,0 bågsekunder. Bestäm kamerans avstånd. (Svara i km.)</p><span class=\"fig bred\"><svg aria-label=\"En observatör ser en cirkelformad markering under synvinkeln alfa.\" height=\"217\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"26.743 36.367 439.771 153.633\" width=\"620\"><title>En observatör ser en cirkelformad markering under synvinkeln alfa.</title><circle cx=\"54\" cy=\"94\" fill=\"#fff\" r=\"8\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.8\" x1=\"62\" x2=\"446\" y1=\"94\" y2=\"45\"></line><line stroke=\"#5C575E\" stroke-width=\"1.8\" x1=\"62\" x2=\"446\" y1=\"94\" y2=\"143\"></line><line stroke=\"#B43123\" stroke-width=\"4\" x1=\"446\" x2=\"446\" y1=\"45\" y2=\"143\"></line><path d=\"M112 88 A58 58 0 0 1 112 100\" fill=\"none\" stroke=\"#2A5D9E\" stroke-width=\"2\"></path><text fill=\"#2A5D9E\" font-family=\"IBM Plex Mono\" font-size=\"15\" x=\"120\" y=\"80\">α</text><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"72\" x2=\"436\" y1=\"164\" y2=\"164\"></line><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"72\" x2=\"72\" y1=\"158\" y2=\"170\"></line><line stroke=\"#9A959C\" stroke-width=\"1.4\" x1=\"436\" x2=\"436\" y1=\"158\" y2=\"170\"></line><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"middle\" x=\"254\" y=\"184\">avstånd d</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"end\" x=\"388\" y=\"98\">diameter D</text></svg></span>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2{,}0''=(2/3600)^\\circ=9{,}696\\cdot10^{-6}\\,\\mathrm{rad}\\].</div></li><li><p>Då blir \\(d\\approx61{,}9\\,\\mathrm{km}\\).</p></li></ol></div>",
         "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>",
         "niva": "E"
@@ -22587,6 +22682,18 @@ window.BANK2 = [
     "ledtrad": "<p>Rita hastigheten tangent till banan och kraftresultanten mot centrum. Använd sedan \\(a_c=v^2/r\\) eller periodens samband.</p>",
     "familjTidigare": [
       "Astronomisk avståndsmätning"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "svarVardesiffror": [
+      2,
+      2,
+      2
     ]
   },
   {
@@ -22596,7 +22703,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "bestämma största och minsta avstånd från varierande synvinkel, ur text, sökt avståndsintervall",
-    "t": "<p>Månens diameter är 3474 km. Under en månad varierar dess synvinkel mellan 0,491° och 0,568°.</p><div class=\"fig smal\"><svg width=\"460\" height=\"220\" viewBox=\"0 0 460 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Synvinkeln mot ett avlägset föremål\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><circle cx=\"320\" cy=\"110\" r=\"55\" fill=\"#e5e7eb\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"302\" cy=\"96\" r=\"9\" fill=\"#d1d5db\"/><circle cx=\"336\" cy=\"128\" r=\"12\" fill=\"#d1d5db\"/><line x1=\"50\" y1=\"110\" x2=\"320\" y2=\"55\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"110\" x2=\"320\" y2=\"165\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"320\" y1=\"55\" x2=\"320\" y2=\"165\" stroke=\"#c0392b\" stroke-width=\"2\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><ellipse cx=\"50\" cy=\"110\" rx=\"9\" ry=\"6\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"1.5\"/><circle cx=\"52\" cy=\"110\" r=\"2.5\" fill=\"#24262b\"/><path d=\"M118.6 96.0 A70 70 0 0 1 118.6 124.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"138\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">v</text><text x=\"408\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3474 km</text><line x1=\"50\" y1=\"190\" x2=\"320\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"185\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d</text><text x=\"230\" y=\"26\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Beräkna månens största och minsta avstånd från jorden. Förklara vilken av vinklarna som hör ihop med det största avståndet.</p>",
+    "t": "<p>Månens diameter är 3474 km. Under en månad varierar dess synvinkel mellan 0,491° och 0,568°.</p><div class=\"fig smal\"><svg width=\"460\" height=\"220\" viewBox=\"0 0 460 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Synvinkeln mot ett avlägset föremål\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><circle cx=\"320\" cy=\"110\" r=\"55\" fill=\"#e5e7eb\" stroke=\"#24262b\" stroke-width=\"2\"/><circle cx=\"302\" cy=\"96\" r=\"9\" fill=\"#d1d5db\"/><circle cx=\"336\" cy=\"128\" r=\"12\" fill=\"#d1d5db\"/><line x1=\"50\" y1=\"110\" x2=\"320\" y2=\"55\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"50\" y1=\"110\" x2=\"320\" y2=\"165\" stroke=\"#24262b\" stroke-width=\"1.5\"/><line x1=\"320\" y1=\"55\" x2=\"320\" y2=\"165\" stroke=\"#c0392b\" stroke-width=\"2\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><ellipse cx=\"50\" cy=\"110\" rx=\"9\" ry=\"6\" fill=\"#fff\" stroke=\"#24262b\" stroke-width=\"1.5\"/><circle cx=\"52\" cy=\"110\" r=\"2.5\" fill=\"#24262b\"/><path d=\"M118.6 96.0 A70 70 0 0 1 118.6 124.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"138\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">v</text><text x=\"408\" y=\"116\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">3474 km</text><line x1=\"50\" y1=\"190\" x2=\"320\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"185\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d</text><text x=\"230\" y=\"26\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Beräkna månens största och minsta avstånd från jorden. (Svara i km, största avståndet först.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd den exakta geometrin</p><div class=\"facit-matte\">\\[d=D/[2\\tan(\\alpha/2)]\\].</div></div></li><li><p class=\"facit-metod\">En mindre synvinkel betyder ett större avstånd.</p></li><li><div class=\"facit-matte\">\\[d_{\\max}=\\frac{3474}{2\\tan(0{,}491^\\circ/2)}=4{,}05\\cdot10^5\\ \\mathrm{km}\\]\\[d_{\\min}=\\frac{3474}{2\\tan(0{,}568^\\circ/2)}=3{,}50\\cdot10^5\\ \\mathrm{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet varierar ungefär mellan \\(3{,}50\\cdot10^5\\) km och \\(4{,}05\\cdot10^5\\) km. Den mindre vinkeln, 0,491°, ger det största avståndet.</p></div>",
     "familj": "Synvinkel, parallax och avståndsenheter",
     "formaga": [
@@ -22604,13 +22711,40 @@ window.BANK2 = [
       "resonemang"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      405385.58026516007,
+      350429.4153070424
+    ],
+    "tolerans": [
+      4053.8558026516007,
+      3504.2941530704243
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "ledtrad": "<p>Använd den exakta geometrin \\(d=D/[2\\tan(\\alpha/2)]\\). En mindre synvinkel betyder ett större avstånd.</p>",
     "familjTidigare": [
       "Astronomisk avståndsmätning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "km",
+      "km"
+    ],
+    "svarEtiketter": [
+      "Största avståndet",
+      "Minsta avståndet"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "svarVardesiffror": [
+      3,
+      3
     ]
   },
   {
@@ -22620,7 +22754,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "jämföra två planeters synvinklar från diameter och avstånd, ur tabell, sökt vinklar och jämförelse",
-    "t": "<p>Vid två observationer samlas följande data in:</p><table class=\"facit-tabell\"><thead><tr><th>Planet</th><th>Diameter</th><th>Avstånd från jorden</th></tr></thead><tbody><tr><td>Mars</td><td>6779 km</td><td>62·10<sup>6</sup> km</td></tr><tr><td>Venus</td><td>12 104 km</td><td>45·10<sup>6</sup> km</td></tr></tbody></table><p>Beräkna planeternas synvinklar i bågsekunder och avgör vilken planet som ser störst ut.</p>",
+    "t": "<p>Vid två observationer samlas följande data in:</p><table class=\"facit-tabell\"><thead><tr><th>Planet</th><th>Diameter</th><th>Avstånd från jorden</th></tr></thead><tbody><tr><td>Mars</td><td>6779 km</td><td>62·10<sup>6</sup> km</td></tr><tr><td>Venus</td><td>12 104 km</td><td>45·10<sup>6</sup> km</td></tr></tbody></table><p>Beräkna planeternas synvinklar och avgör vilken planet som ser störst ut. (Svara med synvinklarna i bågsekunder och namnet på planeten.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">För små vinklar gäller \\(\\alpha\\approx D/d\\).</p></li><li><p class=\"facit-metod\">Resultatet i radianer multipliceras med 206 265 för att få bågsekunder.</p></li><li><div class=\"facit-matte\">\\[\\alpha_{\\mathrm{Mars}}=\\frac{6779}{62\\cdot10^6}\\cdot206265=22{,}6''\\]\\[\\alpha_{\\mathrm{Venus}}=\\frac{12104}{45\\cdot10^6}\\cdot206265=55{,}5''\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mars synvinkel är cirka \\(22{,}6''\\) och Venus synvinkel cirka \\(55{,}5''\\). Venus ser störst ut.</p></div>",
     "familj": "Synvinkel, parallax och avståndsenheter",
     "formaga": [
@@ -22628,13 +22762,47 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      22.552727766920423,
+      55.48064921810788,
+      "Venus"
+    ],
+    "tolerans": [
+      0.22552727766920425,
+      0.5548064921810788,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "ledtrad": "<p>Skriv vad som faktiskt observeras och vilket astronomiskt samband som kopplar observationen till den sökta storheten.</p>",
     "familjTidigare": [
       "Astronomisk avståndsmätning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "kort_text"
+    ],
+    "svarEnhet": [
+      "″",
+      "″",
+      null
+    ],
+    "svarEtiketter": [
+      "Mars synvinkel",
+      "Venus synvinkel",
+      "Ser störst ut"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "svarVardesiffror": [
+      2,
+      2,
+      null
     ]
   },
   {
@@ -22644,7 +22812,7 @@ window.BANK2 = [
     "niva": "E",
     "poang": "(2/0/0)",
     "typ": "omvandla ett astronomiskt avstånd från kiloparsec till meter och ljusår, ur text, sökt två enheter",
-    "t": "<p>En dvärggalax ligger 62 kpc från jorden. Bestäm avståndet i a) meter och b) ljusår.</p>",
+    "t": "<p>En dvärggalax ligger 62 kpc från jorden. Bestäm avståndet i a) meter och b) ljusår. (Svara i m och ljusår.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Prefixet kilo betyder tusen, så</p><div class=\"facit-matte\">\\[62\\ \\mathrm{kpc}=62\\,000\\ \\mathrm{pc}\\].</div></div></li><li><div class=\"facit-matte\">\\[d=62000\\cdot3{,}086\\cdot10^{16}=1{,}91\\cdot10^{21}\\ \\mathrm m\\]\\[d=62000\\cdot3{,}262=2{,}02\\cdot10^5\\ \\mathrm{ljusår}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är a) \\(1{,}91\\cdot10^{21}\\ \\mathrm m\\) och b) cirka \\(202\\,000\\) ljusår.</p></div>",
     "familj": "Synvinkel, parallax och avståndsenheter",
     "formaga": [
@@ -22652,21 +22820,24 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
+    "svarstyp": "flera_delar",
     "rättSvar": [
-      1.913e+21,
-      202244
+      1.9131201005246478e+21,
+      202219.2
     ],
     "tolerans": [
-      30000000000000000000,
-      3000
+      1.9131201005246476e+19,
+      2022.1920000000002
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En dvärggalax ligger 62 kpc från jorden. Bestäm avståndet i meter.</p>",
+        "t": "<p>En dvärggalax ligger 62 kpc från jorden. Bestäm avståndet. (Svara i m.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(62\\,\\mathrm{kpc}=62000\\,\\mathrm{pc}\\), så \\(d=62000\\cdot3{,}086\\cdot10^{16}\\approx1{,}91\\cdot10^{21}\\,\\mathrm m\\).</p></li></ol></div>",
         "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>",
         "niva": "E",
@@ -22674,7 +22845,7 @@ window.BANK2 = [
       },
       {
         "etikett": "b",
-        "t": "<p>En dvärggalax ligger 62 kpc från jorden. Bestäm avståndet i ljusår.</p>",
+        "t": "<p>En dvärggalax ligger 62 kpc från jorden. Bestäm avståndet. (Svara i ljusår.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[62\\,\\mathrm{kpc}=62000\\,\\mathrm{pc}\\].</div></li><li><p>Därför blir \\(d=62000\\cdot3{,}262\\approx2{,}02\\cdot10^5\\) ljusår.</p></li></ol></div>",
         "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>",
         "niva": "E",
@@ -22692,6 +22863,16 @@ window.BANK2 = [
     "ledtrad": "<p>Prefixet kilo betyder tusen, så \\(62\\ \\mathrm{kpc}=62\\,000\\ \\mathrm{pc}\\).</p>",
     "familjTidigare": [
       "Astronomisk avståndsmätning"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "svarVardesiffror": [
+      2,
+      2
     ]
   },
   {
@@ -22701,7 +22882,7 @@ window.BANK2 = [
     "niva": "E",
     "poang": "(2/0/0)",
     "typ": "beräkna stjärnavstånd från parallax och omvandla till meter, ur figur, sökt två enheter",
-    "t": "<p>En stjärnas parallax mäts till 0,393 bågsekunder.</p><span class=\"fig\"><svg viewBox=\"72.514 10.034 394.971 219.966\" width=\"500\" height=\"278\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Jorden observerar en närbelägen stjärna från två platser i sin bana med sex månaders mellanrum.\"><title>Jorden observerar en närbelägen stjärna från två platser i sin bana med sex månaders mellanrum.</title><circle cx=\"270\" cy=\"188\" r=\"17\" fill=\"#F4C95D\" stroke=\"#2B2527\" stroke-width=\"2\"/><ellipse cx=\"270\" cy=\"188\" rx=\"174\" ry=\"28\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.5\" stroke-dasharray=\"7 6\"/><circle cx=\"96\" cy=\"188\" r=\"7\" fill=\"#2A5D9E\"/><circle cx=\"444\" cy=\"188\" r=\"7\" fill=\"#2A5D9E\"/><circle cx=\"270\" cy=\"34\" r=\"7\" fill=\"#fff\" stroke=\"#B43123\" stroke-width=\"2.5\"/><line x1=\"96\" y1=\"188\" x2=\"270\" y2=\"34\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><line x1=\"444\" y1=\"188\" x2=\"270\" y2=\"34\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><line x1=\"270\" y1=\"188\" x2=\"270\" y2=\"34\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><path d=\"M252 50 A25 25 0 0 0 270 59\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"245\" y=\"68\" font-family=\"IBM Plex Mono\" font-size=\"15\" fill=\"#B43123\">p</text><text x=\"270\" y=\"217\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" fill=\"#5C575E\">jordens bana</text><text x=\"287\" y=\"30\" font-family=\"IBM Plex Mono\" font-size=\"13\" fill=\"#B43123\">stjärna</text></svg></span><p>Bestäm avståndet i a) parsec och b) meter.</p>",
+    "t": "<p>En stjärnas parallax mäts till 0,393 bågsekunder.</p><span class=\"fig\"><svg viewBox=\"72.514 10.034 394.971 219.966\" width=\"500\" height=\"278\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Jorden observerar en närbelägen stjärna från två platser i sin bana med sex månaders mellanrum.\"><title>Jorden observerar en närbelägen stjärna från två platser i sin bana med sex månaders mellanrum.</title><circle cx=\"270\" cy=\"188\" r=\"17\" fill=\"#F4C95D\" stroke=\"#2B2527\" stroke-width=\"2\"/><ellipse cx=\"270\" cy=\"188\" rx=\"174\" ry=\"28\" fill=\"none\" stroke=\"#9A959C\" stroke-width=\"1.5\" stroke-dasharray=\"7 6\"/><circle cx=\"96\" cy=\"188\" r=\"7\" fill=\"#2A5D9E\"/><circle cx=\"444\" cy=\"188\" r=\"7\" fill=\"#2A5D9E\"/><circle cx=\"270\" cy=\"34\" r=\"7\" fill=\"#fff\" stroke=\"#B43123\" stroke-width=\"2.5\"/><line x1=\"96\" y1=\"188\" x2=\"270\" y2=\"34\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><line x1=\"444\" y1=\"188\" x2=\"270\" y2=\"34\" stroke=\"#5C575E\" stroke-width=\"1.6\"/><line x1=\"270\" y1=\"188\" x2=\"270\" y2=\"34\" stroke=\"#9A959C\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><path d=\"M252 50 A25 25 0 0 0 270 59\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"/><text x=\"245\" y=\"68\" font-family=\"IBM Plex Mono\" font-size=\"15\" fill=\"#B43123\">p</text><text x=\"270\" y=\"217\" text-anchor=\"middle\" font-family=\"IBM Plex Mono\" font-size=\"13\" fill=\"#5C575E\">jordens bana</text><text x=\"287\" y=\"30\" font-family=\"IBM Plex Mono\" font-size=\"13\" fill=\"#B43123\">stjärna</text></svg></span><p>Bestäm avståndet i a) parsec och b) meter. (Svara i pc och m.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">När parallaxen \\(p\\) anges i bågsekunder fås avståndet i parsec direkt från \\(d=1/p\\).</p></li><li><div class=\"facit-matte\">\\[d=\\frac{1}{0{,}393}=2{,}54\\ \\mathrm{pc}\\]\\[d=2{,}54\\cdot3{,}086\\cdot10^{16}=7{,}85\\cdot10^{16}\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är a) \\(2{,}54\\ \\mathrm{pc}\\) och b) \\(7{,}85\\cdot10^{16}\\ \\mathrm m\\).</p></div>",
     "familj": "Synvinkel, parallax och avståndsenheter",
     "formaga": [
@@ -22709,22 +22890,25 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
+    "svarstyp": "flera_delar",
     "rättSvar": [
-      2.5445,
-      78520000000000000
+      2.544529262086514,
+      7.851596899469128e+16
     ],
     "tolerans": [
-      0.04,
-      1200000000000000
+      0.02544529262086514,
+      785159689946912.9
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "avstandsmatning__parallax",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En stjärnas parallax är 0,393 bågsekunder. Bestäm avståndet i parsec.</p><span class=\"fig\"><svg aria-label=\"Jorden observerar en närbelägen stjärna från två platser i sin bana med sex månaders mellanrum.\" height=\"278\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"72.514 10.034 394.971 219.966\" width=\"500\"><title>Jorden observerar en närbelägen stjärna från två platser i sin bana med sex månaders mellanrum.</title><circle cx=\"270\" cy=\"188\" fill=\"#F4C95D\" r=\"17\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><ellipse cx=\"270\" cy=\"188\" fill=\"none\" rx=\"174\" ry=\"28\" stroke=\"#9A959C\" stroke-dasharray=\"7 6\" stroke-width=\"1.5\"></ellipse><circle cx=\"96\" cy=\"188\" fill=\"#2A5D9E\" r=\"7\"></circle><circle cx=\"444\" cy=\"188\" fill=\"#2A5D9E\" r=\"7\"></circle><circle cx=\"270\" cy=\"34\" fill=\"#fff\" r=\"7\" stroke=\"#B43123\" stroke-width=\"2.5\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.6\" x1=\"96\" x2=\"270\" y1=\"188\" y2=\"34\"></line><line stroke=\"#5C575E\" stroke-width=\"1.6\" x1=\"444\" x2=\"270\" y1=\"188\" y2=\"34\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.3\" x1=\"270\" x2=\"270\" y1=\"188\" y2=\"34\"></line><path d=\"M252 50 A25 25 0 0 0 270 59\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"></path><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"15\" x=\"245\" y=\"68\">p</text><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"middle\" x=\"270\" y=\"217\">jordens bana</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"13\" x=\"287\" y=\"30\">stjärna</text></svg></span>",
+        "t": "<p>En stjärnas parallax är 0,393 bågsekunder. Bestäm avståndet. (Svara i pc.)</p><span class=\"fig\"><svg aria-label=\"Jorden observerar en närbelägen stjärna från två platser i sin bana med sex månaders mellanrum.\" height=\"278\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"72.514 10.034 394.971 219.966\" width=\"500\"><title>Jorden observerar en närbelägen stjärna från två platser i sin bana med sex månaders mellanrum.</title><circle cx=\"270\" cy=\"188\" fill=\"#F4C95D\" r=\"17\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><ellipse cx=\"270\" cy=\"188\" fill=\"none\" rx=\"174\" ry=\"28\" stroke=\"#9A959C\" stroke-dasharray=\"7 6\" stroke-width=\"1.5\"></ellipse><circle cx=\"96\" cy=\"188\" fill=\"#2A5D9E\" r=\"7\"></circle><circle cx=\"444\" cy=\"188\" fill=\"#2A5D9E\" r=\"7\"></circle><circle cx=\"270\" cy=\"34\" fill=\"#fff\" r=\"7\" stroke=\"#B43123\" stroke-width=\"2.5\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.6\" x1=\"96\" x2=\"270\" y1=\"188\" y2=\"34\"></line><line stroke=\"#5C575E\" stroke-width=\"1.6\" x1=\"444\" x2=\"270\" y1=\"188\" y2=\"34\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.3\" x1=\"270\" x2=\"270\" y1=\"188\" y2=\"34\"></line><path d=\"M252 50 A25 25 0 0 0 270 59\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"></path><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"15\" x=\"245\" y=\"68\">p</text><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"middle\" x=\"270\" y=\"217\">jordens bana</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"13\" x=\"287\" y=\"30\">stjärna</text></svg></span>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När parallaxen anges i bågsekunder gäller \\(d=1/p\\): \\(d=1/0{,}393\\approx2{,}54\\,\\mathrm{pc}\\).</p></li></ol></div>",
         "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>",
         "niva": "E",
@@ -22732,7 +22916,7 @@ window.BANK2 = [
       },
       {
         "etikett": "b",
-        "t": "<p>En stjärnas parallax är 0,393 bågsekunder. Bestäm avståndet i meter.</p><span class=\"fig\"><svg aria-label=\"Jorden observerar en närbelägen stjärna från två platser i sin bana med sex månaders mellanrum.\" height=\"278\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"72.514 10.034 394.971 219.966\" width=\"500\"><title>Jorden observerar en närbelägen stjärna från två platser i sin bana med sex månaders mellanrum.</title><circle cx=\"270\" cy=\"188\" fill=\"#F4C95D\" r=\"17\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><ellipse cx=\"270\" cy=\"188\" fill=\"none\" rx=\"174\" ry=\"28\" stroke=\"#9A959C\" stroke-dasharray=\"7 6\" stroke-width=\"1.5\"></ellipse><circle cx=\"96\" cy=\"188\" fill=\"#2A5D9E\" r=\"7\"></circle><circle cx=\"444\" cy=\"188\" fill=\"#2A5D9E\" r=\"7\"></circle><circle cx=\"270\" cy=\"34\" fill=\"#fff\" r=\"7\" stroke=\"#B43123\" stroke-width=\"2.5\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.6\" x1=\"96\" x2=\"270\" y1=\"188\" y2=\"34\"></line><line stroke=\"#5C575E\" stroke-width=\"1.6\" x1=\"444\" x2=\"270\" y1=\"188\" y2=\"34\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.3\" x1=\"270\" x2=\"270\" y1=\"188\" y2=\"34\"></line><path d=\"M252 50 A25 25 0 0 0 270 59\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"></path><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"15\" x=\"245\" y=\"68\">p</text><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"middle\" x=\"270\" y=\"217\">jordens bana</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"13\" x=\"287\" y=\"30\">stjärna</text></svg></span>",
+        "t": "<p>En stjärnas parallax är 0,393 bågsekunder. Bestäm avståndet. (Svara i m.)</p><span class=\"fig\"><svg aria-label=\"Jorden observerar en närbelägen stjärna från två platser i sin bana med sex månaders mellanrum.\" height=\"278\" preserveaspectratio=\"xMidYMid meet\" role=\"img\" viewbox=\"72.514 10.034 394.971 219.966\" width=\"500\"><title>Jorden observerar en närbelägen stjärna från två platser i sin bana med sex månaders mellanrum.</title><circle cx=\"270\" cy=\"188\" fill=\"#F4C95D\" r=\"17\" stroke=\"#2B2527\" stroke-width=\"2\"></circle><ellipse cx=\"270\" cy=\"188\" fill=\"none\" rx=\"174\" ry=\"28\" stroke=\"#9A959C\" stroke-dasharray=\"7 6\" stroke-width=\"1.5\"></ellipse><circle cx=\"96\" cy=\"188\" fill=\"#2A5D9E\" r=\"7\"></circle><circle cx=\"444\" cy=\"188\" fill=\"#2A5D9E\" r=\"7\"></circle><circle cx=\"270\" cy=\"34\" fill=\"#fff\" r=\"7\" stroke=\"#B43123\" stroke-width=\"2.5\"></circle><line stroke=\"#5C575E\" stroke-width=\"1.6\" x1=\"96\" x2=\"270\" y1=\"188\" y2=\"34\"></line><line stroke=\"#5C575E\" stroke-width=\"1.6\" x1=\"444\" x2=\"270\" y1=\"188\" y2=\"34\"></line><line stroke=\"#9A959C\" stroke-dasharray=\"5 4\" stroke-width=\"1.3\" x1=\"270\" x2=\"270\" y1=\"188\" y2=\"34\"></line><path d=\"M252 50 A25 25 0 0 0 270 59\" fill=\"none\" stroke=\"#B43123\" stroke-width=\"2\"></path><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"15\" x=\"245\" y=\"68\">p</text><text fill=\"#5C575E\" font-family=\"IBM Plex Mono\" font-size=\"13\" text-anchor=\"middle\" x=\"270\" y=\"217\">jordens bana</text><text fill=\"#B43123\" font-family=\"IBM Plex Mono\" font-size=\"13\" x=\"287\" y=\"30\">stjärna</text></svg></span>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Först</p><div class=\"facit-matte\">\\[d=1/0{,}393\\approx2{,}54\\,\\mathrm{pc}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Därefter</p><div class=\"facit-matte\">\\[d\\approx2{,}54\\cdot3{,}086\\cdot10^{16}=7{,}85\\cdot10^{16}\\,\\mathrm m\\].</div></div></li></ol></div>",
         "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>",
         "niva": "E",
@@ -22750,6 +22934,16 @@ window.BANK2 = [
     "ledtrad": "<p>När parallaxen \\(p\\) anges i bågsekunder fås avståndet i parsec direkt från \\(d=1/p\\).</p>",
     "familjTidigare": [
       "Astronomisk avståndsmätning"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 1,
+    "svarVardesiffror": [
+      3,
+      3
     ]
   },
   {
@@ -22759,7 +22953,7 @@ window.BANK2 = [
     "niva": "E",
     "poang": "(2/0/0)",
     "typ": "omvandla ljusår till parsec och bestämma parallax, ur text, sökt parallax",
-    "t": "<p>Stjärnan Procyon ligger 11,40 ljusår från jorden. Bestäm avståndet i parsec och stjärnans parallax.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">Procyon</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"308\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = ?</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = 11,40 ljusår</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div>",
+    "t": "<p>Stjärnan Procyon ligger 11,40 ljusår från jorden. Bestäm avståndet i parsec och stjärnans parallax. (Svara i pc och bågsekunder.)</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">Procyon</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"308\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = ?</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = 11,40 ljusår</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Omvandla först avståndet till parsec och använd sedan</p><div class=\"facit-matte\">\\[p=1/d\\].</div></div></li><li><div class=\"facit-matte\">\\[d=\\frac{11{,}40}{3{,}262}=3{,}495\\ \\mathrm{pc}\\]\\[p=\\frac{1}{3{,}495}=0{,}286''\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är \\(3{,}50\\ \\mathrm{pc}\\) och parallaxen är \\(0{,}286''\\).</p></div>",
     "familj": "Synvinkel, parallax och avståndsenheter",
     "formaga": [
@@ -22767,14 +22961,41 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.495217071376012,
+      0.2861052631578947
+    ],
+    "tolerans": [
+      0.03495217071376012,
+      0.0028610526315789473
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "avstandsmatning__parallax",
     "ledtrad": "<p>Omvandla först avståndet till parsec och använd sedan \\(p=1/d\\).</p>",
     "familjTidigare": [
       "Astronomisk avståndsmätning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "pc",
+      "″"
+    ],
+    "svarEtiketter": [
+      "Avstånd",
+      "Parallax"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "svarVardesiffror": [
+      3,
+      3
     ]
   },
   {
@@ -22784,7 +23005,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "beräkna avstånd med felmarginal från parallax med osäkerhet, ur text, sökt avstånd och osäkerhet",
-    "t": "<p>Parallaxen för en närbelägen stjärna mäts till (0,76850 ± 0,00020) bågsekunder.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"283\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,76850″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Bestäm avståndet i ljusår med osäkerhet.</p>",
+    "t": "<p>Parallaxen för en närbelägen stjärna mäts till (0,76850 ± 0,00020) bågsekunder.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"283\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,76850″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Bestäm avståndet i ljusår och dess osäkerhet. (Svara med avståndet och osäkerheten i ljusår.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Eftersom \\(d=1/p\\) får avståndet samma relativa osäkerhet som parallaxen.</p></li><li><div class=\"facit-matte\">\\[d=\\frac{1}{0{,}76850}\\cdot3{,}262=4{,}2441\\ \\mathrm{ljusår}\\]\\[\\Delta d=d\\frac{\\Delta p}{p}=4{,}2441\\frac{0{,}00020}{0{,}76850}=0{,}0011\\ \\mathrm{ljusår}\\]</div></li><li><p class=\"facit-metod\">Fler decimaler än så stöds inte av mätosäkerheten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är \\((4{,}244\\pm0{,}001)\\) ljusår.</p></div>",
     "familj": "Synvinkel, parallax och avståndsenheter",
     "formaga": [
@@ -22792,15 +23013,38 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4.244111906310995,
+      0.001104518388109563
+    ],
+    "tolerans": [
+      0.0015,
+      0.0002
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "avstandsmatning__parallax",
     "ledtrad": "<p>Eftersom \\(d=1/p\\) får avståndet samma relativa osäkerhet som parallaxen.</p>",
     "familjTidigare": [
       "Astronomisk avståndsmätning"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "ljusår",
+      "ljusår"
+    ],
+    "svarEtiketter": [
+      "Avstånd",
+      "Osäkerhet"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3
   },
   {
     "id": "5.23",
@@ -22809,7 +23053,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(0/3/0)",
     "typ": "beräkna förändrad parallax för en stjärna med radialhastighet, ur text, sökt framtida parallax",
-    "t": "<p>En stjärna har i dag parallaxen 0,54831 bågsekunder och rör sig rakt bort från solsystemet med 110 km/s.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"283\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,54831″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Vilken parallax får stjärnan om 100 år?</p>",
+    "t": "<p>En stjärna har i dag parallaxen 0,54831 bågsekunder och rör sig rakt bort från solsystemet med 110 km/s.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"283\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,54831″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Vilken parallax får stjärnan om 100 år? (Svara i bågsekunder med fem decimaler.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Beräkna först dagens avstånd, lägg sedan till den sträcka stjärnan rör sig på 100 år och omvandla tillbaka till parallax.</p></li><li><div class=\"facit-matte\">\\[d_0=\\frac{1}{0{,}54831}\\cdot3{,}262=5{,}948\\ \\mathrm{ljusår}\\]\\[\\Delta d=\\frac{110\\cdot100\\cdot365{,}25\\cdot24\\cdot3600}{9{,}461\\cdot10^{12}}=0{,}0367\\ \\mathrm{ljusår}\\]\\[d_1=5{,}985\\ \\mathrm{ljusår}=1{,}835\\ \\mathrm{pc}\\]\\[p_1=\\frac{1}{1{,}835}=0{,}54495''\\]</div></li><li><p class=\"facit-metod\">Parallaxen minskar eftersom stjärnan kommer längre bort.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 100 år är parallaxen cirka \\(0{,}54495''\\).</p></div>",
     "familj": "Synvinkel, parallax och avståndsenheter",
     "formaga": [
@@ -22817,15 +23061,18 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5449485413903403,
+    "tolerans": 3e-05,
+    "självrättning": true,
     "familjNyckelTidigare": "avstandsmatning__parallax",
     "ledtrad": "<p>Beräkna först dagens avstånd, lägg sedan till den sträcka stjärnan rör sig på 100 år och omvandla tillbaka till parallax.</p>",
     "familjTidigare": [
       "Astronomisk avståndsmätning"
-    ]
+    ],
+    "svarFormat": "numeriskt",
+    "svarEnhet": "″",
+    "traningsniva": 4
   },
   {
     "id": "5.24",
@@ -22834,7 +23081,7 @@ window.BANK2 = [
     "niva": "E",
     "poang": "(2/0/0)",
     "typ": "tolka apparent och absolut magnitud samt avståndsmodulen, ur text, sökt jämförelse och begrepp",
-    "t": "<p>Stjärna A har apparent magnitud +3,2 och absolut magnitud +5,0. Stjärna B har apparent magnitud +9,1.</p><ol><li>Vilken stjärna ser ljusast ut från jorden?</li><li>Ligger stjärna A närmare eller längre bort än 10 pc?</li><li>Förklara skillnaden mellan apparent och absolut magnitud.</li></ol>",
+    "t": "<p>Stjärna A har apparent magnitud +3,2 och absolut magnitud +5,0. Stjärna B har apparent magnitud +9,1.</p><ol><li>Vilken stjärna ser ljusast ut från jorden?</li><li>Ligger stjärna A närmare eller längre bort än 10 pc?</li><li>Vad är skillnaden mellan apparent och absolut magnitud?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">På magnitudskalan betyder ett lägre tal större observerad ljusstyrka.</p></li><li><p class=\"facit-metod\">Absolut magnitud är den magnitud stjärnan skulle ha på avståndet 10 pc.</p></li><li><div class=\"facit-matte\">\\[m_A=3{,}2&lt;m_B=9{,}1\\]\\[m_A&lt;M_A\\Rightarrow d_A&lt;10\\ \\mathrm{pc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A ser ljusast ut och ligger närmare än 10 pc. Apparent magnitud beskriver hur ljus stjärnan ser ut från jorden; absolut magnitud beskriver hur ljus den skulle se ut på 10 pc.</p></div>",
     "familj": "Apparent och absolut magnitud",
     "formaga": [
@@ -22842,10 +23089,22 @@ window.BANK2 = [
       "resonemang"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "A",
+      "Närmare än 10 pc",
+      "Apparent magnitud är hur ljus stjärnan ser ut härifrån, absolut magnitud hur ljus den skulle se ut på 10 pc"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "avstandsmatning__avstandsmodul",
     "ledtrad": "<p>På magnitudskalan betyder ett lägre tal större observerad ljusstyrka. Absolut magnitud är den magnitud stjärnan skulle ha på avståndet 10 pc.</p>",
     "spelDelning": "deluppgifter",
@@ -22856,7 +23115,25 @@ window.BANK2 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m_A=3{,}2&lt;m_B=9{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stjärna A ser ljusast ut eftersom dess apparenta magnitud är lägre: +3,2 jämfört med +9,1.</p></div></div>",
         "ledtrad": "<p>På magnitudskalan betyder ett lägre tal större observerad ljusstyrka. Absolut magnitud är den magnitud stjärnan skulle ha på avståndet 10 pc.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "svarstyp": "alternativ",
+        "rättSvar": "A",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "A",
+            "ratt": true,
+            "kommentar": "Lägre magnitud betyder ljusare."
+          },
+          {
+            "txt": "B",
+            "ratt": false,
+            "kommentar": "+9,1 är ett större tal och betyder svagare."
+          }
+        ]
       },
       {
         "etikett": "b",
@@ -22864,15 +23141,63 @@ window.BANK2 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m_A&lt;M_A\\Rightarrow d_A&lt;10\\ \\mathrm{pc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A ligger närmare än 10 pc eftersom \\(m_A\\\\lt M_A\\).</p></div></div>",
         "ledtrad": "<p>På magnitudskalan betyder ett lägre tal större observerad ljusstyrka. Absolut magnitud är den magnitud stjärnan skulle ha på avståndet 10 pc.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "svarstyp": "alternativ",
+        "rättSvar": "Närmare än 10 pc",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Närmare än 10 pc",
+            "ratt": true,
+            "kommentar": "A ser ljusare ut (m < M) än den skulle göra på 10 pc."
+          },
+          {
+            "txt": "Längre bort än 10 pc",
+            "ratt": false,
+            "kommentar": "Då skulle m vara större än M."
+          },
+          {
+            "txt": "Precis 10 pc",
+            "ratt": false,
+            "kommentar": "Då skulle m och M vara lika."
+          }
+        ]
       },
       {
         "etikett": "c",
-        "t": "<p>Stjärna A har apparent magnitud +3,2 och absolut magnitud +5,0. Stjärna B har apparent magnitud +9,1.</p><div class=\"spel-en-del\"><p>Förklara skillnaden mellan apparent och absolut magnitud.</p></div>",
+        "t": "<p>Stjärna A har apparent magnitud +3,2 och absolut magnitud +5,0. Stjärna B har apparent magnitud +9,1.</p><div class=\"spel-en-del\"><p>Vad är skillnaden mellan apparent och absolut magnitud?</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><p class=\"facit-svar\"><strong>Svar:</strong> Apparent magnitud beskriver hur ljus stjärnan ser ut från jorden. Absolut magnitud är den magnitud den skulle ha på avståndet 10 pc.</p></div></div>",
         "ledtrad": "<p>På magnitudskalan betyder ett lägre tal större observerad ljusstyrka. Absolut magnitud är den magnitud stjärnan skulle ha på avståndet 10 pc.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "svarstyp": "alternativ",
+        "rättSvar": "Apparent magnitud är hur ljus stjärnan ser ut härifrån, absolut magnitud hur ljus den skulle se ut på 10 pc",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Apparent magnitud är hur ljus stjärnan ser ut härifrån, absolut magnitud hur ljus den skulle se ut på 10 pc",
+            "ratt": true
+          },
+          {
+            "txt": "Apparent magnitud gäller blått ljus, absolut magnitud rött ljus",
+            "ratt": false
+          },
+          {
+            "txt": "Absolut magnitud är alltid större än apparent magnitud",
+            "ratt": false,
+            "kommentar": "Det beror på avståndet."
+          },
+          {
+            "txt": "De är samma sak men mäts med olika teleskop",
+            "ratt": false
+          }
+        ]
       }
     ],
     "omrTidigare": [
@@ -22880,7 +23205,24 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Astronomisk avståndsmätning"
-    ]
+    ],
+    "svarFormat": [
+      null,
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null,
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 1
   },
   {
     "id": "5.25",
@@ -22889,7 +23231,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "beräkna avstånd från apparent och absolut magnitud, ur text, sökt avstånd och parallax",
-    "t": "<p>En stjärna har apparent magnitud m = +4,10 och absolut magnitud M = +1,30.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"308\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = ?</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Bestäm a) avståndet i parsec och b) stjärnans parallax.</p>",
+    "t": "<p>En stjärna har apparent magnitud m = +4,10 och absolut magnitud M = +1,30.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"308\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = ?</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><p>Bestäm a) avståndet och b) stjärnans parallax. (Svara i pc och bågsekunder.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Använd avståndsmodulen \\(m-M=5\\log_{10}d-5\\), där \\(d\\) anges i parsec.</p></li><li><div class=\"facit-matte\">\\[d=10^{(m-M+5)/5}=10^{(4{,}10-1{,}30+5)/5}=36{,}3\\ \\mathrm{pc}\\]\\[p=\\frac1d=\\frac{1}{36{,}3}=0{,}0275''\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är \\(36{,}3\\ \\mathrm{pc}\\) och parallaxen är \\(0{,}0275''\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Avståndsmodulen använder avstånd i parsec.</p></li><li><p class=\"facit-not\">När avståndet väl är känt ger parallaxsambandet \\(p=1/d\\) parallaxen i bågsekunder.</p></li></ol></div>",
     "familj": "Apparent och absolut magnitud",
     "formaga": [
@@ -22897,29 +23239,32 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
+    "svarstyp": "flera_delar",
     "rättSvar": [
-      36.31,
-      0.02754
+      36.30780547701014,
+      0.027542287033381657
     ],
     "tolerans": [
-      0.6,
-      0.001
+      0.3630780547701014,
+      0.0002754228703338166
     ],
-    "självrättning": true,
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "avstandsmatning__parallax",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En stjärna har apparent magnitud \\(m=+4{,}10\\) och absolut magnitud \\(M=+1{,}30\\). Bestäm avståndet i parsec.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"308\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = ?</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div>",
+        "t": "<p>En stjärna har apparent magnitud \\(m=+4{,}10\\) och absolut magnitud \\(M=+1{,}30\\). Bestäm avståndet. (Svara i pc.)</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"308\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = ?</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Avståndsmodulen ger</p><div class=\"facit-matte\">\\[d=10^{(m-M+5)/5}=10^{1{,}56}\\approx36{,}3\\,\\mathrm{pc}\\].</div></div></li></ol></div>",
         "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>",
         "niva": "C"
       },
       {
         "etikett": "b",
-        "t": "<p>En stjärna har apparent magnitud \\(m=+4{,}10\\) och absolut magnitud \\(M=+1{,}30\\). Bestäm stjärnans parallax i bågsekunder.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"308\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = ?</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div>",
+        "t": "<p>En stjärna har apparent magnitud \\(m=+4{,}10\\) och absolut magnitud \\(M=+1{,}30\\). Bestäm stjärnans parallax. (Svara i bågsekunder.)</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"308\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = ?</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d = ?</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Först ger avståndsmodulen \\(d\\approx36{,}3\\,\\mathrm{pc}\\).</p></li><li><div class=\"facit-berakning\"><p>Sedan</p><div class=\"facit-matte\">\\[p=1/d\\approx0{,}0275''\\].</div></div></li></ol></div>",
         "ledtrad": "<p>Identifiera vilken avståndsmetod uppgiften använder. Vid parallax gäller \\(d(\\mathrm{pc})=1/p(\\mathrm{arcsec})\\); vid små vinklar kan \\(\\alpha\\approx D/d\\) användas i radianer.</p>",
         "niva": "C"
@@ -22931,7 +23276,7 @@ window.BANK2 = [
     ],
     "svarEnhet": [
       "pc",
-      "bågsekunder"
+      "″"
     ],
     "ledtrad": "<p>Använd avståndsmodulen \\(m-M=5\\log_{10}d-5\\), där \\(d\\) anges i parsec.</p>",
     "omrTidigare": [
@@ -22939,6 +23284,16 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Astronomisk avståndsmätning"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2,
+    "svarVardesiffror": [
+      3,
+      3
     ]
   },
   {
@@ -22948,7 +23303,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "bestämma absolut magnitud från parallax och apparent magnitud, ur text, sökt absolut magnitud",
-    "t": "<p>En stjärna har apparent magnitud m = +6,80 och parallaxen 0,125 bågsekunder. Bestäm stjärnans absoluta magnitud.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"290\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,125″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div>",
+    "t": "<p>En stjärna har apparent magnitud m = +6,80 och parallaxen 0,125 bågsekunder. Bestäm stjärnans absoluta magnitud. (Svara med ett tal.)</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"290\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,125″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Parallaxen ger först avståndet.</p></li><li><p class=\"facit-metod\">Sätt sedan in avståndet i magnitudformeln.</p></li><li><div class=\"facit-matte\">\\[d=\\frac{1}{0{,}125}=8{,}00\\ \\mathrm{pc}\\]\\[M=m+5-5\\log_{10}d=6{,}80+5-5\\log_{10}8{,}00=7{,}28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stjärnans absoluta magnitud är \\(M\\approx+7{,}28\\).</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Parallaxen ska först omvandlas till avstånd i parsec.</p></li><li><p class=\"facit-not\">Den absoluta magnituden är den apparent magnitud stjärnan skulle ha på 10 pc, vilket är vad avståndsmodulen korrigerar för.</p></li></ol></div>",
     "familj": "Apparent och absolut magnitud",
     "formaga": [
@@ -22969,7 +23324,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Astronomisk avståndsmätning"
-    ]
+    ],
+    "traningsniva": 2
   },
   {
     "id": "5.27",
@@ -22978,7 +23334,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "bestämma apparent magnitud från absolut magnitud och parallax samt bedöma synlighet, ur text, sökt magnitud",
-    "t": "<p>En stjärna har absolut magnitud M = +9,20 och parallaxen 0,200 bågsekunder.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"290\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,200″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><ol><li>Bestäm stjärnans apparenta magnitud.</li><li>Kan den ses med blotta ögat om gränsen är m = +6,0?</li></ol>",
+    "t": "<p>En stjärna har absolut magnitud M = +9,20 och parallaxen 0,200 bågsekunder.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"290\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,200″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><ol><li>Bestäm stjärnans apparenta magnitud. (Svara med ett tal.)</li><li>Kan den ses med blotta ögat om gränsen är m = +6,0?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Parallaxen ger</p><div class=\"facit-matte\">\\[d=1/p\\].</div></div></li><li><div class=\"facit-berakning\"><p>Därefter används</p><div class=\"facit-matte\">\\[m=M-5+5\\log_{10}d\\].</div></div></li><li><div class=\"facit-matte\">\\[d=\\frac{1}{0{,}200}=5{,}00\\ \\mathrm{pc}\\]\\[m=9{,}20-5+5\\log_{10}5{,}00=7{,}69\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den apparenta magnituden är \\(m\\approx+7{,}69\\). Stjärnan är svagare än gränsen +6,0 och kan därför inte ses med blotta ögat under de givna förhållandena.</p></div>",
     "familj": "Apparent och absolut magnitud",
     "formaga": [
@@ -22988,16 +23344,16 @@ window.BANK2 = [
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
     "svarstyp": "flera_delar",
     "rättSvar": [
-      7.69,
-      null
+      7.694850021680093,
+      "Nej, den är för ljussvag"
     ],
     "tolerans": [
-      0.11535000000000001,
+      0.05,
       null
     ],
     "självrättning": [
       true,
-      false
+      true
     ],
     "svarFormat": [
       "numeriskt",
@@ -23018,7 +23374,7 @@ window.BANK2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En stjärna har absolut magnitud M = +9,20 och parallaxen 0,200 bågsekunder.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"290\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,200″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><div class=\"spel-en-del\"><p>Bestäm stjärnans apparenta magnitud.</p></div>",
+        "t": "<p>En stjärna har absolut magnitud M = +9,20 och parallaxen 0,200 bågsekunder.</p><div class=\"fig smal\"><svg width=\"480\" height=\"250\" viewBox=\"0 0 480 250\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parallax: vinkeln p vid stjärnan mellan riktningarna mot solen och jorden\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><marker id=\"pm\" viewBox=\"0 0 10 10\" refX=\"5\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto-start-reverse\"><path d=\"M0 1 L9 5 L0 9 Z\" fill=\"#6b7280\"/></marker></defs><ellipse cx=\"90\" cy=\"150\" rx=\"48\" ry=\"62\" fill=\"none\" stroke=\"#9aa3b2\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><circle cx=\"90\" cy=\"150\" r=\"13\" fill=\"#f2b632\" stroke=\"#a36f00\"/><text x=\"60\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">solen</text><circle cx=\"90\" cy=\"88\" r=\"7\" fill=\"#2b6cb0\"/><text x=\"60\" y=\"88\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">jorden</text><polygon points=\"395.0,139.0 397.9,146.0 405.5,146.6 399.7,151.5 401.5,158.9 395.0,154.9 388.5,158.9 390.3,151.5 384.5,146.6 392.1,146.0\" fill=\"#f2b632\" stroke=\"#a36f00\" stroke-width=\"1\"/><text x=\"395\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">stjärna</text><line x1=\"90\" y1=\"150\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"88\" x2=\"395\" y2=\"150\" stroke=\"#24262b\" stroke-width=\"1.6\"/><line x1=\"90\" y1=\"150\" x2=\"90\" y2=\"88\" stroke=\"#c0392b\" stroke-width=\"2.2\"/><text x=\"116\" y=\"125\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">1 AU</text><path d=\"M335.0 150 A60 60 0 0 1 336.2 138.0\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1.4\"/><text x=\"290\" y=\"146\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">p = 0,200″</text><path d=\"M102 138 h12 v12\" fill=\"none\" stroke=\"#24262b\" stroke-width=\"1\"/><line x1=\"90\" y1=\"190\" x2=\"395\" y2=\"190\" stroke=\"#6b7280\" stroke-width=\"1.3\" marker-start=\"url(#pm)\" marker-end=\"url(#pm)\"/><text x=\"242\" y=\"210\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"14\">d</text><text x=\"250\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">Figuren är inte skalenlig.</text></svg></div><div class=\"spel-en-del\"><p>Bestäm stjärnans apparenta magnitud. (Svara med ett tal.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[d=\\frac{1}{0{,}200}=5{,}00\\ \\mathrm{pc}\\]</div></li><li><div class=\"facit-matte\">\\[m=9{,}20-5+5\\log_{10}5{,}00=7{,}69\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den apparenta magnituden är cirka \\(m=7{,}69\\).</p></div></div>",
         "ledtrad": "<p>Parallaxen ger \\(d=1/p\\). Därefter används \\(m=M-5+5\\log_{10}d\\).</p>",
         "niva": "C",
@@ -23030,7 +23386,25 @@ window.BANK2 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><p class=\"facit-svar\"><strong>Svar:</strong> Nej. \\(7{,}69\\\\gt 6{,}0\\), så stjärnan ligger under den angivna gränsen för blotta ögat.</p></div></div>",
         "ledtrad": "<p>Parallaxen ger \\(d=1/p\\). Därefter används \\(m=M-5+5\\log_{10}d\\).</p>",
         "niva": "C",
-        "poang": "0/1/0"
+        "poang": "0/1/0",
+        "svarstyp": "alternativ",
+        "rättSvar": "Nej, den är för ljussvag",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Nej, den är för ljussvag",
+            "ratt": true,
+            "kommentar": "m ≈ +7,7 är större än gränsen +6,0."
+          },
+          {
+            "txt": "Ja",
+            "ratt": false,
+            "kommentar": "Större magnitud än +6,0 betyder svagare än gränsen."
+          }
+        ]
       }
     ],
     "omrTidigare": [
@@ -23038,7 +23412,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Astronomisk avståndsmätning"
-    ]
+    ],
+    "traningsniva": 2
   },
   {
     "id": "5.28",
@@ -23047,7 +23422,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "fylla i tabell med parallax, avstånd och magnituder, ur tabell, sökt saknade värden",
-    "t": "<p>Fyll i de tomma rutorna. Avståndet anges i parsec och parallaxen i bågsekunder.</p><table class=\"facit-tabell\"><thead><tr><th>Stjärna</th><th>m</th><th>p</th><th>d</th><th>M</th></tr></thead><tbody><tr><td>A</td><td>+1,00</td><td>0,100</td><td>?</td><td>?</td></tr><tr><td>B</td><td>+4,00</td><td>?</td><td>25,0</td><td>?</td></tr><tr><td>C</td><td>?</td><td>0,0500</td><td>?</td><td>−1,50</td></tr><tr><td>D</td><td>+8,00</td><td>?</td><td>?</td><td>+3,00</td></tr></tbody></table>",
+    "t": "<p>Fyll i de tomma rutorna. Avståndet anges i parsec och parallaxen i bågsekunder. (Svara i ordningen A: d och M, B: p och M, C: d och m, D: d och p.)</p><table class=\"facit-tabell\"><thead><tr><th>Stjärna</th><th>m</th><th>p</th><th>d</th><th>M</th></tr></thead><tbody><tr><td>A</td><td>+1,00</td><td>0,100</td><td>?</td><td>?</td></tr><tr><td>B</td><td>+4,00</td><td>?</td><td>25,0</td><td>?</td></tr><tr><td>C</td><td>?</td><td>0,0500</td><td>?</td><td>−1,50</td></tr><tr><td>D</td><td>+8,00</td><td>?</td><td>?</td><td>+3,00</td></tr></tbody></table>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Använd \\(d=1/p\\) och \\(M=m+5-5\\log_{10}d\\).</p></li><li><p class=\"facit-metod\">För D löses avståndet ur avståndsmodulen.</p></li><li><div class=\"facit-matte\">\\[A:\\quad d=10{,}0\\ \\mathrm{pc},\\quad M=+1{,}00\\]\\[B:\\quad p=0{,}0400'',\\quad M=4{,}00+5-5\\log_{10}25=+2{,}01\\]\\[C:\\quad d=20{,}0\\ \\mathrm{pc},\\quad m=-1{,}50-5+5\\log_{10}20\\approx0{,}00\\]\\[D:\\quad d=10^{(8-3+5)/5}=100\\ \\mathrm{pc},\\quad p=0{,}0100''\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> De saknade värdena är A: \\(d=10{,}0\\), \\(M=+1{,}00\\); B: \\(p=0{,}0400''\\), \\(M=+2{,}01\\); C: \\(m\\approx0{,}00\\), \\(d=20{,}0\\); D: \\(p=0{,}0100''\\), \\(d=100\\).</p></div>",
     "familj": "Apparent och absolut magnitud",
     "formaga": [
@@ -23055,10 +23430,37 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      10.0,
+      1.0,
+      0.04,
+      2.0102999566398116,
+      20.0,
+      0.005149978319906268,
+      100.0,
+      0.01
+    ],
+    "tolerans": [
+      0.1,
+      0.02,
+      0.0005,
+      0.02,
+      0.2,
+      0.02,
+      1,
+      0.0002
+    ],
+    "självrättning": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "avstandsmatning__parallax",
     "ledtrad": "<p>Använd \\(d=1/p\\) och \\(M=m+5-5\\log_{10}d\\). För D löses avståndet ur avståndsmodulen.</p>",
     "omrTidigare": [
@@ -23066,7 +23468,39 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Astronomisk avståndsmätning"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "pc",
+      null,
+      "″",
+      null,
+      "pc",
+      null,
+      "pc",
+      "″"
+    ],
+    "svarEtiketter": [
+      "A: d",
+      "A: M",
+      "B: p",
+      "B: M",
+      "C: d",
+      "C: m",
+      "D: d",
+      "D: p"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3
   },
   {
     "id": "5.29",
@@ -23083,10 +23517,19 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      17.12280326527726,
+      55.84773513002831
+    ],
+    "tolerans": [
+      0.1712280326527726,
+      0.5584773513002831
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "avstandsmatning__avstandsmodul",
     "ledtrad": "<p>När samma källa flyttas ändras flödet som \\(1/d^2\\). Magnitudskillnaden ger avståndsfaktorn \\(10^{\\Delta m/5}\\).</p>",
     "omrTidigare": [
@@ -23094,6 +23537,24 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Astronomisk avståndsmätning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      "pc",
+      "ljusår"
+    ],
+    "svarEtiketter": [
+      "Avstånd i parsec",
+      "Avstånd i ljusår"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 4,
+    "svarVardesiffror": [
+      3,
+      3
     ]
   },
 {
@@ -23572,7 +24033,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "bestämma temperaturförhållande från magnitudskillnad vid samma radie, ur text, sökt förhållande",
-    "t": "<p>Två stjärnor har samma radie. Stjärna A har absolut magnitud +2,0 och stjärna B absolut magnitud +3,0.</p><p>Hur många gånger högre är A:s yttemperatur än B:s?</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
+    "t": "<p>Två stjärnor har samma radie. Stjärna A har absolut magnitud +2,0 och stjärna B absolut magnitud +3,0.</p><p>Hur många gånger högre är A:s yttemperatur än B:s? (Svara med ett tal.)</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En magnitudskillnad på 1,0 motsvarar luminositetskvoten</p><div class=\"facit-matte\">\\[10^{0{,}4}=2{,}512\\].</div></div></li><li><p class=\"facit-metod\">Vid samma radie gäller \\(L\\propto T^4\\).</p></li><li><div class=\"facit-matte\">\\[\\frac{L_A}{L_B}=10^{-0{,}4(M_A-M_B)}=10^{0{,}4}=2{,}512\\]\\[\\frac{T_A}{T_B}=\\left(\\frac{L_A}{L_B}\\right)^{1/4}=2{,}512^{1/4}=1{,}259\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A:s yttemperatur är cirka \\(1{,}26\\) gånger B:s.</p></div>",
     "familj": "Magnitud och luminositet",
     "formaga": [
@@ -23593,7 +24054,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Stjärnors färg, temperatur och ljusstyrka"
-    ]
+    ],
+    "traningsniva": 3
   },
   {
     "id": "5.37",
@@ -23602,7 +24064,7 @@ window.BANK2 = [
     "niva": "C",
     "poang": "(2/2/0)",
     "typ": "jämföra luminositet och absolut magnitud för två stjärnor med olika radie och temperatur, ur text, sökt två förhållanden",
-    "t": "<p>Stjärna B har hälften så stor radie som stjärna A men dubbelt så hög yttemperatur.</p><ol><li>Bestäm luminositetsförhållandet L<sub>B</sub>/L<sub>A</sub>.</li><li>Hur mycket skiljer deras absoluta magnituder och vilken stjärna har lägst magnitud?</li></ol><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
+    "t": "<p>Stjärna B har hälften så stor radie som stjärna A men dubbelt så hög yttemperatur.</p><ol><li>Bestäm luminositetsförhållandet L<sub>B</sub>/L<sub>A</sub>. (Svara med ett tal.)</li><li>B har lägst absolut magnitud. Hur stor är skillnaden mellan stjärnornas absoluta magnituder? (Svara med ett tal.)</li></ol><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Luminositeten beror på radien i kvadrat och temperaturen upphöjd till fyra.</p></li><li><div class=\"facit-matte\">\\[\\frac{L_B}{L_A}=0{,}5^2\\cdot2^4=4\\]\\[M_B-M_A=-2{,}5\\log_{10}\\left(\\frac{L_B}{L_A}\\right)=-2{,}5\\log_{10}4=-1{,}51\\]</div></li><li><p class=\"facit-metod\">Den högre temperaturen påverkar luminositeten mycket kraftigt eftersom den står upphöjd till fyra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B har fyra gånger större luminositet och dess absoluta magnitud är cirka 1,51 magnitudenheter lägre än A:s.</p></div>",
     "familj": "Magnitud och luminositet",
     "formaga": [
@@ -23610,17 +24072,26 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      1.505149978319906
+    ],
+    "tolerans": [
+      0.05,
+      0.02
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "farg_ljusstyrka__magnitudskalan",
     "ledtrad": "<p>Luminositeten beror på radien i kvadrat och temperaturen upphöjd till fyra.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Stjärna B har hälften så stor radie som stjärna A men dubbelt så hög yttemperatur.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm luminositetsförhållandet L<sub>B</sub>/L<sub>A</sub>.</p></div>",
+        "t": "<p>Stjärna B har hälften så stor radie som stjärna A men dubbelt så hög yttemperatur.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Bestäm luminositetsförhållandet L<sub>B</sub>/L<sub>A</sub>. (Svara med ett tal.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L_B}{L_A}=0{,}5^2\\cdot2^4=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L_B/L_A=4\\). B har alltså fyra gånger större luminositet.</p></div></div>",
         "ledtrad": "<p>Luminositeten beror på radien i kvadrat och temperaturen upphöjd till fyra.</p>",
         "niva": "C",
@@ -23628,7 +24099,7 @@ window.BANK2 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Stjärna B har hälften så stor radie som stjärna A men dubbelt så hög yttemperatur.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>Hur mycket skiljer deras absoluta magnituder och vilken stjärna har lägst magnitud?</p></div>",
+        "t": "<p>Stjärna B har hälften så stor radie som stjärna A men dubbelt så hög yttemperatur.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p><div class=\"spel-en-del\"><p>B har lägst absolut magnitud. Hur stor är skillnaden mellan stjärnornas absoluta magnituder? (Svara med ett tal.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M_B-M_A=-2{,}5\\log_{10}\\left(\\frac{L_B}{L_A}\\right)=-2{,}5\\log_{10}4=-1{,}51\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(M_B-M_A\\approx-1{,}51\\). B har ungefär 1,51 magnitudenheter lägre absolut magnitud.</p></div></div>",
         "ledtrad": "<p>Luminositeten beror på radien i kvadrat och temperaturen upphöjd till fyra.</p>",
         "niva": "C",
@@ -23640,7 +24111,21 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Stjärnors färg, temperatur och ljusstyrka"
-    ]
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 2
   },
   {
     "id": "5.38",
@@ -23742,7 +24227,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Stjärnors färg, temperatur och ljusstyrka"
-    ]
+    ],
+    "traningsniva": 3
   },
 {
   "id": "5.39",
@@ -23920,7 +24406,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Astronomisk avståndsmätning"
-    ]
+    ],
+    "traningsniva": 4
   },
 {
   "id": "5.41",
@@ -24143,7 +24630,7 @@ window.BANK2 = [
     "niva": "A",
     "poang": "(1/2/2)",
     "typ": "rangordna stjärnors apparenta ljusstyrka från radie, temperatur och avstånd, ur tabell, sökt ordning",
-    "t": "<p>Rangordna stjärnorna efter störst till minst totalt strålningsflöde vid jorden.</p><table class=\"facit-tabell\"><thead><tr><th>Stjärna</th><th>Temperatur</th><th>Radie</th><th>Avstånd</th></tr></thead><tbody><tr><td>Altair</td><td>7992 K</td><td>1,75 R<sub>sol</sub></td><td>16,6 ljusår</td></tr><tr><td>Canopus</td><td>7350 K</td><td>71,4 R<sub>sol</sub></td><td>310 ljusår</td></tr><tr><td>Sigma Draconis</td><td>5255 K</td><td>0,776 R<sub>sol</sub></td><td>18,6 ljusår</td></tr><tr><td>Vega</td><td>9602 K</td><td>2,50 R<sub>sol</sub></td><td>25,0 ljusår</td></tr></tbody></table><p>Solens effektiva temperatur är 5772 K och absoluta bolometriska magnitud +4,74. Visa hur du jämför stjärnorna.</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
+    "t": "<p>Rangordna stjärnorna efter störst till minst totalt strålningsflöde vid jorden.</p><table class=\"facit-tabell\"><thead><tr><th>Stjärna</th><th>Temperatur</th><th>Radie</th><th>Avstånd</th></tr></thead><tbody><tr><td>Altair</td><td>7992 K</td><td>1,75 R<sub>sol</sub></td><td>16,6 ljusår</td></tr><tr><td>Canopus</td><td>7350 K</td><td>71,4 R<sub>sol</sub></td><td>310 ljusår</td></tr><tr><td>Sigma Draconis</td><td>5255 K</td><td>0,776 R<sub>sol</sub></td><td>18,6 ljusår</td></tr><tr><td>Vega</td><td>9602 K</td><td>2,50 R<sub>sol</sub></td><td>25,0 ljusår</td></tr></tbody></table><p>Solens effektiva temperatur är 5772 K och absoluta bolometriska magnitud +4,74. Vilken ordning är rätt?</p><p>Magnituderna gäller här all strålning från stjärnan, vid alla våglängder. Bortse från absorption mellan stjärnan och observatören.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Magnituderna avser här den totala strålningen.</p></li><li><p>Använd samma bolometriska magnitudskala i alla steg.</p></li><li><p>Det totala flödet är proportionellt mot R²T⁴/d².</p></li><li><p>Samma radie- och avståndsenheter kan användas för alla stjärnor eftersom bara en rangordning söks.</p></li><li><p>Altair: 0,04085 i samma relativa flödesenhet.</p></li><li><p>Canopus: 0,13948 i samma relativa flödesenhet.</p></li><li><p>Sigma Draconis: 0,0012 i samma relativa flödesenhet.</p></li><li><p>Vega: 0,07658 i samma relativa flödesenhet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Canopus, Vega, Altair och sist Sigma Draconis. Jämförelsen gäller totalt strålningsflöde, inte ljusstyrkan genom ett visst färgfilter.</p></div>",
     "familj": "Magnitud och luminositet",
     "formaga": [
@@ -24151,10 +24638,10 @@ window.BANK2 = [
       "resonemang"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
+    "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
-    "självrättning": false,
+    "självrättning": true,
     "familjNyckelTidigare": "avstandsmatning__avstandsmodul",
     "ledtrad": "<p>Beräkna \\(L/L_\\odot=R^2(T/T_\\odot)^4\\), sedan \\(M=4{,}83-2{,}5\\log_{10}(L/L_\\odot)\\) och till sist \\(m=M-5+5\\log_{10}d\\), där \\(d\\) anges i parsec.</p>",
     "omrTidigare": [
@@ -24162,6 +24649,28 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Astronomisk avståndsmätning"
+    ],
+    "traningsniva": 4,
+    "alternativ": [
+      {
+        "txt": "Canopus, Vega, Altair, Sigma Draconis",
+        "ratt": true
+      },
+      {
+        "txt": "Vega, Altair, Canopus, Sigma Draconis",
+        "ratt": false,
+        "kommentar": "Canopus är långt bort men så stor att flödet ändå blir störst."
+      },
+      {
+        "txt": "Canopus, Altair, Vega, Sigma Draconis",
+        "ratt": false,
+        "kommentar": "Jämför R²T⁴/d² för Vega och Altair."
+      },
+      {
+        "txt": "Sigma Draconis, Altair, Vega, Canopus",
+        "ratt": false,
+        "kommentar": "Det är ungefär omvänd ordning."
+      }
     ]
   },
   {
@@ -25466,7 +25975,7 @@ window.BANK2 = [
     "typ": "jämföra klassisk och relativistisk beräkning av hur många myoner som når marken",
     "poang": "(0/2/2)",
     "t": "<p>Myoner bildas högt uppe i atmosfären när kosmisk strålning träffar luftmolekyler. En myon bildas 15,0 km över marken och rör sig rakt nedåt med farten 0,995<em>c</em>. Myonens halveringstid är 1,50 μs mätt i myonens eget vilosystem.</p><p><strong>a)</strong> Hur lång tid tar färden till marken mätt från marken? Hur stor andel av myonerna skulle nå marken om man räknade helt klassiskt, utan relativitetsteori?</p><p><strong>b)</strong> Bestäm andelen som faktiskt når marken. Visa att du får samma svar oavsett om du räknar i markens eller i myonens vilosystem.</p><span class=\"fig smal\"><svg viewBox=\"19.286 8.015 221.429 197.781\" width=\"380\" height=\"339\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Myon som bildas 15,0 km över marken och rör sig rakt nedåt mot marken.\" xmlns=\"http://www.w3.org/2000/svg\"><title>Myon som bildas 15,0 km över marken och rör sig rakt nedåt mot marken.</title><rect x=\"30\" y=\"175\" width=\"200\" height=\"13\" fill=\"#EDEEF1\"/><line x1=\"30\" y1=\"175\" x2=\"230\" y2=\"175\" stroke=\"#2B2527\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><line x1=\"92\" y1=\"32\" x2=\"230\" y2=\"32\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-dasharray=\"6 5\"/><text x=\"161\" y=\"22\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">myonen bildas här</text><circle cx=\"150\" cy=\"32\" r=\"4.6\" fill=\"#2B2527\"/><line x1=\"150\" y1=\"45\" x2=\"150\" y2=\"150\" stroke=\"#2A5D9E\" stroke-width=\"2.3\" stroke-linecap=\"round\"/><polygon points=\"150,161 154.4,151.5 145.6,151.5\" fill=\"#2A5D9E\"/><text x=\"160\" y=\"104\" text-anchor=\"start\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"10\" font-weight=\"600\" fill=\"#2A5D9E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">v = 0,995c</text><line x1=\"70\" y1=\"32\" x2=\"70\" y2=\"175\" stroke=\"#9A959C\" stroke-width=\"1.2\"/><line x1=\"65\" y1=\"32\" x2=\"75\" y2=\"32\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><line x1=\"65\" y1=\"175\" x2=\"75\" y2=\"175\" stroke=\"#9A959C\" stroke-width=\"1.2\" stroke-linecap=\"round\"/><text x=\"63\" y=\"107\" text-anchor=\"end\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">15,0 km</text><text x=\"130\" y=\"199\" text-anchor=\"middle\" font-family=\"'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, monospace\" font-size=\"9\" font-weight=\"600\" fill=\"#5C575E\" paint-order=\"stroke\" stroke=\"#FFFFFF\" stroke-width=\"4\" stroke-linejoin=\"round\">marken</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv reaktionen så att laddningstal och masstal balanserar.</p></li><li><p class=\"facit-metod\">Vid sönderfall minskar antalet kärnor exponentiellt, medan frigjord energi kommer från masskillnaden.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Färdtiden i markens system fås ur sträcka delat med fart.</p></li><li><div class=\"facit-matte\">\\[t=\\frac{15{,}0\\cdot10^3}{0{,}995\\cdot2{,}998\\cdot10^8}=5{,}03\\cdot10^{-5}\\ \\mathrm s=50{,}3\\ \\mathrm{\\mu s}\\]\\[n=\\frac{50{,}3}{1{,}50}=33{,}5\\ \\text{halveringstider}\\]\\[\\text{andel}=2^{-33{,}5}=8{,}1\\cdot10^{-11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Färden tar \\(50{,}3\\ \\mathrm{\\mu s}\\). Klassiskt skulle bara ungefär \\(1\\) myon på \\(10^{10}\\) nå marken, alltså i praktiken ingen alls.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Sönderfallet styrs av myonens <em>egentid</em>.</p></li><li><p class=\"facit-metod\">Gammafaktorn är</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-0{,}995^2}}=10{,}01\\]</div></li><li><p>I markens system: myonens klocka går långsamt, så egentiden blir</p></li><li><div class=\"facit-matte\">\\[\\tau=\\frac{t}{\\gamma}=\\frac{50{,}3}{10{,}01}=5{,}02\\ \\mathrm{\\mu s}\\]</div></li><li><p>I myonens system: sträckan är längdkontraherad, och myonen står stilla.</p></li><li><div class=\"facit-matte\">\\[L=\\frac{15{,}0}{10{,}01}=1{,}50\\ \\mathrm{km}\\]\\[\\tau=\\frac{1{,}50\\cdot10^3}{0{,}995\\cdot2{,}998\\cdot10^8}=5{,}02\\ \\mathrm{\\mu s}\\]</div></li><li><p>Båda systemen ger samma egentid.</p></li><li><p>Antalet halveringstider blir</p></li><li><div class=\"facit-matte\">\\[n=\\frac{5{,}02}{1{,}50}=3{,}35\\]\\[\\text{andel}=2^{-3{,}35}=0{,}098\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(9{,}8\\ \\%\\) av myonerna når marken. Markens och myonens system ger samma svar.</p></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">De två systemen förklarar samma sak på olika sätt.</p></li><li><p class=\"facit-not\">Från marken är det myonens klocka som går långsamt, från myonen är det atmosfären som är tunnare.</p></li><li><p class=\"facit-not\">Egentiden mellan bildning och nedslag är densamma, och det är den som bestämmer sönderfallet.</p></li><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Antalet kärnor och aktiviteten ska minska med samma halveringsfaktor.</p></li><li><p class=\"facit-not\">Kontrollera att masskillnaden ger positiv frigjord energi.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Färdtiden i markens system fås ur sträcka delat med fart.</p></li><li><div class=\"facit-matte\">\\[t=\\frac{15{,}0\\cdot10^3}{0{,}995\\cdot2{,}998\\cdot10^8}=5{,}03\\cdot10^{-5}\\ \\mathrm s=50{,}3\\ \\mathrm{\\mu s}\\]\\[n=\\frac{50{,}3}{1{,}50}=33{,}5\\ \\text{halveringstider}\\]\\[\\text{andel}=2^{-33{,}5}=8{,}1\\cdot10^{-11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Färden tar \\(50{,}3\\ \\mathrm{\\mu s}\\). Klassiskt skulle bara ungefär \\(1\\) myon på \\(10^{10}\\) nå marken, alltså i praktiken ingen alls.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Sönderfallet styrs av myonens <em>egentid</em>.</p></li><li><p class=\"facit-metod\">Gammafaktorn är</p></li><li><div class=\"facit-matte\">\\[\\gamma=\\frac1{\\sqrt{1-0{,}995^2}}=10{,}01\\]</div></li><li><p>I markens system: myonens klocka går långsamt, så egentiden blir</p></li><li><div class=\"facit-matte\">\\[\\tau=\\frac{t}{\\gamma}=\\frac{50{,}3}{10{,}01}=5{,}02\\ \\mathrm{\\mu s}\\]</div></li><li><p>I myonens system: sträckan är längdkontraherad, och myonen står stilla.</p></li><li><div class=\"facit-matte\">\\[L=\\frac{15{,}0}{10{,}01}=1{,}50\\ \\mathrm{km}\\]\\[\\tau=\\frac{1{,}50\\cdot10^3}{0{,}995\\cdot2{,}998\\cdot10^8}=5{,}02\\ \\mathrm{\\mu s}\\]</div></li><li><p>Båda systemen ger samma egentid.</p></li><li><p>Antalet halveringstider blir</p></li><li><div class=\"facit-matte\">\\[n=\\frac{5{,}02}{1{,}50}=3{,}35\\]\\[\\text{andel}=2^{-3{,}35}=0{,}098\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(9{,}8\\ \\%\\) av myonerna når marken. Markens och myonens system ger samma svar.</p></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">De två systemen förklarar samma sak på olika sätt.</p></li><li><p class=\"facit-not\">Från marken är det myonens klocka som går långsamt, från myonen är det atmosfären som är tunnare.</p></li><li><p class=\"facit-not\">Egentiden mellan bildning och nedslag är densamma, och det är den som bestämmer sönderfallet.</p></li></ol></div>",
     "familj": "Resor, myoner och paradoxer",
     "formaga": [
       "modellering",
@@ -26611,7 +27120,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "bestämma en stjärnas yttemperatur ur våglängden för strålningsmaximum, ur text, sökt temperatur",
     "poang": "(2/0/0)",
-    "t": "<p>Stjärnan Betelgeuse har sitt strålningsmaximum vid våglängden 970 nm. Wiens konstant är 2,898·10<sup>−3</sup> m·K.</p><div class=\"fig smal\"><svg width=\"460\" height=\"280\" viewBox=\"0 0 460 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Strålningskurvor för svartkroppar\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><linearGradient id=\"spek\" x1=\"0\" x2=\"1\" y1=\"0\" y2=\"0\"><stop offset=\"0.00\" stop-color=\"#8b5cf6\"/><stop offset=\"0.20\" stop-color=\"#3b82f6\"/><stop offset=\"0.40\" stop-color=\"#22c55e\"/><stop offset=\"0.60\" stop-color=\"#eab308\"/><stop offset=\"0.80\" stop-color=\"#f97316\"/><stop offset=\"1.00\" stop-color=\"#ef4444\"/></linearGradient></defs><rect x=\"109.3\" y=\"30\" width=\"37.0\" height=\"205\" fill=\"url(#spek)\" opacity=\"0.18\"/><text x=\"128\" y=\"231\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">synligt</text><line x1=\"60\" y1=\"235\" x2=\"440\" y2=\"235\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M447 235 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"60\" y1=\"235\" x2=\"60\" y2=\"22\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M60 15 l-4.5 9 h9 Z\" fill=\"#24262b\"/><line x1=\"121.7\" y1=\"235\" x2=\"121.7\" y2=\"240\" stroke=\"#24262b\"/><text x=\"122\" y=\"256\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">500</text><line x1=\"183.3\" y1=\"235\" x2=\"183.3\" y2=\"240\" stroke=\"#24262b\"/><text x=\"183\" y=\"256\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">1000</text><line x1=\"245.0\" y1=\"235\" x2=\"245.0\" y2=\"240\" stroke=\"#24262b\"/><text x=\"245\" y=\"256\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">1500</text><line x1=\"306.7\" y1=\"235\" x2=\"306.7\" y2=\"240\" stroke=\"#24262b\"/><text x=\"307\" y=\"256\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">2000</text><line x1=\"368.3\" y1=\"235\" x2=\"368.3\" y2=\"240\" stroke=\"#24262b\"/><text x=\"368\" y=\"256\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">2500</text><line x1=\"430.0\" y1=\"235\" x2=\"430.0\" y2=\"240\" stroke=\"#24262b\"/><text x=\"430\" y=\"256\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">3000</text><text x=\"380\" y=\"273\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">våglängd (nm)</text><text x=\"46\" y=\"132.5\" font-family=\"Arial\" font-size=\"12\" text-anchor=\"middle\" transform=\"rotate(-90 46 132.5)\">intensitet</text><polyline points=\"61.2,235.0 61.9,235.0 62.5,235.0 63.1,235.0 63.7,235.0 64.3,235.0 64.9,235.0 65.5,235.0 66.2,235.0 66.8,235.0 67.4,235.0 68.0,235.0 68.6,235.0 69.2,235.0 69.9,235.0 70.5,235.0 71.1,235.0 71.7,235.0 72.3,235.0 73.0,235.0 73.6,235.0 74.2,235.0 74.8,235.0 75.4,235.0 76.0,235.0 76.7,235.0 77.3,235.0 77.9,235.0 78.5,235.0 79.1,235.0 79.7,235.0 80.3,235.0 81.0,235.0 81.6,235.0 82.2,235.0 82.8,235.0 83.4,235.0 84.0,235.0 84.7,235.0 85.3,235.0 85.9,235.0 86.5,235.0 87.1,235.0 87.8,235.0 88.4,235.0 89.0,235.0 89.6,234.9 90.2,234.9 90.8,234.9 91.5,234.9 92.1,234.8 92.7,234.8 93.3,234.7 93.9,234.6 94.5,234.5 95.2,234.4 95.8,234.3 96.4,234.2 97.0,234.0 97.6,233.8 98.2,233.5 98.8,233.3 99.5,233.0 100.1,232.6 100.7,232.3 101.3,231.9 101.9,231.4 102.5,230.9 103.2,230.3 103.8,229.7 104.4,229.0 105.0,228.3 105.6,227.5 106.2,226.7 106.9,225.8 107.5,224.8 108.1,223.8 108.7,222.7 109.3,221.6 110.0,220.4 110.6,219.1 111.2,217.8 111.8,216.4 112.4,214.9 113.0,213.4 113.7,211.8 114.3,210.1 114.9,208.4 115.5,206.6 116.1,204.8 116.7,202.9 117.3,201.0 118.0,199.0 118.6,197.0 119.2,194.9 119.8,192.8 120.4,190.6 121.0,188.4 121.7,186.2 122.3,183.9 122.9,181.6 123.5,179.3 124.1,176.9 124.8,174.5 125.4,172.1 126.0,169.7 126.6,167.2 127.2,164.7 127.8,162.3 128.4,159.8 129.1,157.3 129.7,154.8 130.3,152.3 130.9,149.8 131.5,147.3 132.2,144.8 132.8,142.3 133.4,139.8 134.0,137.4 134.6,134.9 135.2,132.5 135.8,130.0 136.5,127.6 137.1,125.2 137.7,122.9 138.3,120.5 138.9,118.2 139.6,115.9 140.2,113.7 140.8,111.4 141.4,109.2 142.0,107.0 142.6,104.9 143.2,102.8 143.9,100.7 144.5,98.7 145.1,96.7 145.7,94.7 146.3,92.7 146.9,90.8 147.6,89.0 148.2,87.2 148.8,85.4 149.4,83.6 150.0,81.9 150.7,80.3 151.3,78.7 151.9,77.1 152.5,75.5 153.1,74.0 153.7,72.6 154.3,71.2 155.0,69.8 155.6,68.5 156.2,67.2 156.8,65.9 157.4,64.7 158.1,63.5 158.7,62.4 159.3,61.3 159.9,60.2 160.5,59.2 161.1,58.2 161.8,57.3 162.4,56.4 163.0,55.5 163.6,54.7 164.2,53.9 164.8,53.2 165.4,52.5 166.1,51.8 166.7,51.1 167.3,50.5 167.9,50.0 168.5,49.4 169.2,48.9 169.8,48.4 170.4,48.0 171.0,47.6 171.6,47.2 172.2,46.9 172.8,46.6 173.5,46.3 174.1,46.0 174.7,45.8 175.3,45.6 175.9,45.4 176.6,45.3 177.2,45.2 177.8,45.1 178.4,45.0 179.0,45.0 179.6,45.0 180.2,45.0 180.9,45.1 181.5,45.1 182.1,45.2 182.7,45.3 183.3,45.4 183.9,45.6 184.6,45.7 185.2,45.9 185.8,46.1 186.4,46.4 187.0,46.6 187.7,46.9 188.3,47.2 188.9,47.5 189.5,47.8 190.1,48.1 190.7,48.5 191.3,48.9 192.0,49.2 192.6,49.6 193.2,50.0 193.8,50.5 194.4,50.9 195.1,51.4 195.7,51.8 196.3,52.3 196.9,52.8 197.5,53.3 198.1,53.8 198.8,54.3 199.4,54.9 200.0,55.4 200.6,56.0 201.2,56.5 201.8,57.1 202.4,57.7 203.1,58.3 203.7,58.9 204.3,59.5 204.9,60.1 205.5,60.7 206.2,61.4 206.8,62.0 207.4,62.7 208.0,63.3 208.6,64.0 209.2,64.6 209.8,65.3 210.5,66.0 211.1,66.6 211.7,67.3 212.3,68.0 212.9,68.7 213.6,69.4 214.2,70.1 214.8,70.8 215.4,71.5 216.0,72.2 216.6,72.9 217.2,73.7 217.9,74.4 218.5,75.1 219.1,75.8 219.7,76.6 220.3,77.3 220.9,78.0 221.6,78.7 222.2,79.5 222.8,80.2 223.4,80.9 224.0,81.7 224.7,82.4 225.3,83.2 225.9,83.9 226.5,84.6 227.1,85.4 227.7,86.1 228.3,86.9 229.0,87.6 229.6,88.4 230.2,89.1 230.8,89.8 231.4,90.6 232.1,91.3 232.7,92.1 233.3,92.8 233.9,93.5 234.5,94.3 235.1,95.0 235.8,95.7 236.4,96.5 237.0,97.2 237.6,97.9 238.2,98.7 238.8,99.4 239.4,100.1 240.1,100.8 240.7,101.6 241.3,102.3 241.9,103.0 242.5,103.7 243.2,104.4 243.8,105.1 244.4,105.9 245.0,106.6 245.6,107.3 246.2,108.0 246.8,108.7 247.5,109.4 248.1,110.1 248.7,110.8 249.3,111.5 249.9,112.2 250.6,112.9 251.2,113.5 251.8,114.2 252.4,114.9 253.0,115.6 253.6,116.3 254.2,116.9 254.9,117.6 255.5,118.3 256.1,118.9 256.7,119.6 257.3,120.3 257.9,120.9 258.6,121.6 259.2,122.2 259.8,122.9 260.4,123.5 261.0,124.2 261.6,124.8 262.3,125.4 262.9,126.1 263.5,126.7 264.1,127.3 264.7,127.9 265.4,128.6 266.0,129.2 266.6,129.8 267.2,130.4 267.8,131.0 268.4,131.6 269.1,132.2 269.7,132.8 270.3,133.4 270.9,134.0 271.5,134.6 272.1,135.2 272.8,135.8 273.4,136.4 274.0,136.9 274.6,137.5 275.2,138.1 275.8,138.7 276.4,139.2 277.1,139.8 277.7,140.3 278.3,140.9 278.9,141.5 279.5,142.0 280.1,142.6 280.8,143.1 281.4,143.6 282.0,144.2 282.6,144.7 283.2,145.2 283.9,145.8 284.5,146.3 285.1,146.8 285.7,147.3 286.3,147.9 286.9,148.4 287.6,148.9 288.2,149.4 288.8,149.9 289.4,150.4 290.0,150.9 290.6,151.4 291.2,151.9 291.9,152.4 292.5,152.9 293.1,153.3 293.7,153.8 294.3,154.3 294.9,154.8 295.6,155.3 296.2,155.7 296.8,156.2 297.4,156.7 298.0,157.1 298.6,157.6 299.3,158.0 299.9,158.5 300.5,158.9 301.1,159.4 301.7,159.8 302.4,160.3 303.0,160.7 303.6,161.2 304.2,161.6 304.8,162.0 305.4,162.4 306.1,162.9 306.7,163.3 307.3,163.7 307.9,164.1 308.5,164.5 309.1,165.0 309.8,165.4 310.4,165.8 311.0,166.2 311.6,166.6 312.2,167.0 312.8,167.4 313.4,167.8 314.1,168.2 314.7,168.6 315.3,169.0 315.9,169.3 316.5,169.7 317.1,170.1 317.8,170.5 318.4,170.9 319.0,171.2 319.6,171.6 320.2,172.0 320.9,172.3 321.5,172.7 322.1,173.1 322.7,173.4 323.3,173.8 323.9,174.1 324.6,174.5 325.2,174.8 325.8,175.2 326.4,175.5 327.0,175.9 327.6,176.2 328.2,176.5 328.9,176.9 329.5,177.2 330.1,177.6 330.7,177.9 331.3,178.2 331.9,178.5 332.6,178.9 333.2,179.2 333.8,179.5 334.4,179.8 335.0,180.1 335.6,180.4 336.3,180.8 336.9,181.1 337.5,181.4 338.1,181.7 338.7,182.0 339.4,182.3 340.0,182.6 340.6,182.9 341.2,183.2 341.8,183.5 342.4,183.8 343.1,184.1 343.7,184.3 344.3,184.6 344.9,184.9 345.5,185.2 346.1,185.5 346.8,185.8 347.4,186.0 348.0,186.3 348.6,186.6 349.2,186.9 349.8,187.1 350.4,187.4 351.1,187.7 351.7,187.9 352.3,188.2 352.9,188.5 353.5,188.7 354.1,189.0 354.8,189.2 355.4,189.5 356.0,189.7 356.6,190.0 357.2,190.2 357.9,190.5 358.5,190.7 359.1,191.0 359.7,191.2 360.3,191.5 360.9,191.7 361.6,192.0 362.2,192.2 362.8,192.4 363.4,192.7 364.0,192.9 364.6,193.1 365.2,193.4 365.9,193.6 366.5,193.8 367.1,194.0 367.7,194.3 368.3,194.5 368.9,194.7 369.6,194.9 370.2,195.2 370.8,195.4 371.4,195.6 372.0,195.8 372.6,196.0 373.3,196.2 373.9,196.4 374.5,196.6 375.1,196.9 375.7,197.1 376.4,197.3 377.0,197.5 377.6,197.7 378.2,197.9 378.8,198.1 379.4,198.3 380.1,198.5 380.7,198.7 381.3,198.9 381.9,199.1 382.5,199.3 383.1,199.4 383.8,199.6 384.4,199.8 385.0,200.0 385.6,200.2 386.2,200.4 386.8,200.6 387.4,200.8 388.1,200.9 388.7,201.1 389.3,201.3 389.9,201.5 390.5,201.7 391.1,201.8 391.8,202.0 392.4,202.2 393.0,202.4 393.6,202.5 394.2,202.7 394.9,202.9 395.5,203.0 396.1,203.2 396.7,203.4 397.3,203.5 397.9,203.7 398.6,203.9 399.2,204.0 399.8,204.2 400.4,204.3 401.0,204.5 401.6,204.7 402.2,204.8 402.9,205.0 403.5,205.1 404.1,205.3 404.7,205.4 405.3,205.6 405.9,205.8 406.6,205.9 407.2,206.1 407.8,206.2 408.4,206.3 409.0,206.5 409.6,206.6 410.3,206.8 410.9,206.9 411.5,207.1 412.1,207.2 412.7,207.4 413.4,207.5 414.0,207.6 414.6,207.8 415.2,207.9 415.8,208.1 416.4,208.2 417.1,208.3 417.7,208.5 418.3,208.6 418.9,208.7 419.5,208.9 420.1,209.0 420.8,209.1 421.4,209.3 422.0,209.4 422.6,209.5 423.2,209.7 423.8,209.8 424.4,209.9 425.1,210.0 425.7,210.2 426.3,210.3 426.9,210.4 427.5,210.5 428.1,210.6 428.8,210.8 429.4,210.9 430.0,211.0\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.6\"/><text x=\"250\" y=\"45\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">Betelgeuse</text><line x1=\"179.6\" y1=\"235\" x2=\"179.6\" y2=\"50\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><text x=\"204\" y=\"62\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">970 nm</text></svg></div><p>Bestäm stjärnans yttemperatur. Stämmer resultatet med att Betelgeuse ser röd ut?</p>",
+    "t": "<p>Stjärnan Betelgeuse har sitt strålningsmaximum vid våglängden 970 nm.</p><div class=\"fig smal\"><svg width=\"460\" height=\"280\" viewBox=\"0 0 460 280\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Strålningskurvor för svartkroppar\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><defs><linearGradient id=\"spek\" x1=\"0\" x2=\"1\" y1=\"0\" y2=\"0\"><stop offset=\"0.00\" stop-color=\"#8b5cf6\"/><stop offset=\"0.20\" stop-color=\"#3b82f6\"/><stop offset=\"0.40\" stop-color=\"#22c55e\"/><stop offset=\"0.60\" stop-color=\"#eab308\"/><stop offset=\"0.80\" stop-color=\"#f97316\"/><stop offset=\"1.00\" stop-color=\"#ef4444\"/></linearGradient></defs><rect x=\"109.3\" y=\"30\" width=\"37.0\" height=\"205\" fill=\"url(#spek)\" opacity=\"0.18\"/><text x=\"128\" y=\"231\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">synligt</text><line x1=\"60\" y1=\"235\" x2=\"440\" y2=\"235\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M447 235 l-9 -4.5 v9 Z\" fill=\"#24262b\"/><line x1=\"60\" y1=\"235\" x2=\"60\" y2=\"22\" stroke=\"#24262b\" stroke-width=\"1.6\"/><path d=\"M60 15 l-4.5 9 h9 Z\" fill=\"#24262b\"/><line x1=\"121.7\" y1=\"235\" x2=\"121.7\" y2=\"240\" stroke=\"#24262b\"/><text x=\"122\" y=\"256\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">500</text><line x1=\"183.3\" y1=\"235\" x2=\"183.3\" y2=\"240\" stroke=\"#24262b\"/><text x=\"183\" y=\"256\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">1000</text><line x1=\"245.0\" y1=\"235\" x2=\"245.0\" y2=\"240\" stroke=\"#24262b\"/><text x=\"245\" y=\"256\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">1500</text><line x1=\"306.7\" y1=\"235\" x2=\"306.7\" y2=\"240\" stroke=\"#24262b\"/><text x=\"307\" y=\"256\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">2000</text><line x1=\"368.3\" y1=\"235\" x2=\"368.3\" y2=\"240\" stroke=\"#24262b\"/><text x=\"368\" y=\"256\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">2500</text><line x1=\"430.0\" y1=\"235\" x2=\"430.0\" y2=\"240\" stroke=\"#24262b\"/><text x=\"430\" y=\"256\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">3000</text><text x=\"380\" y=\"273\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">våglängd (nm)</text><text x=\"46\" y=\"132.5\" font-family=\"Arial\" font-size=\"12\" text-anchor=\"middle\" transform=\"rotate(-90 46 132.5)\">intensitet</text><polyline points=\"61.2,235.0 61.9,235.0 62.5,235.0 63.1,235.0 63.7,235.0 64.3,235.0 64.9,235.0 65.5,235.0 66.2,235.0 66.8,235.0 67.4,235.0 68.0,235.0 68.6,235.0 69.2,235.0 69.9,235.0 70.5,235.0 71.1,235.0 71.7,235.0 72.3,235.0 73.0,235.0 73.6,235.0 74.2,235.0 74.8,235.0 75.4,235.0 76.0,235.0 76.7,235.0 77.3,235.0 77.9,235.0 78.5,235.0 79.1,235.0 79.7,235.0 80.3,235.0 81.0,235.0 81.6,235.0 82.2,235.0 82.8,235.0 83.4,235.0 84.0,235.0 84.7,235.0 85.3,235.0 85.9,235.0 86.5,235.0 87.1,235.0 87.8,235.0 88.4,235.0 89.0,235.0 89.6,234.9 90.2,234.9 90.8,234.9 91.5,234.9 92.1,234.8 92.7,234.8 93.3,234.7 93.9,234.6 94.5,234.5 95.2,234.4 95.8,234.3 96.4,234.2 97.0,234.0 97.6,233.8 98.2,233.5 98.8,233.3 99.5,233.0 100.1,232.6 100.7,232.3 101.3,231.9 101.9,231.4 102.5,230.9 103.2,230.3 103.8,229.7 104.4,229.0 105.0,228.3 105.6,227.5 106.2,226.7 106.9,225.8 107.5,224.8 108.1,223.8 108.7,222.7 109.3,221.6 110.0,220.4 110.6,219.1 111.2,217.8 111.8,216.4 112.4,214.9 113.0,213.4 113.7,211.8 114.3,210.1 114.9,208.4 115.5,206.6 116.1,204.8 116.7,202.9 117.3,201.0 118.0,199.0 118.6,197.0 119.2,194.9 119.8,192.8 120.4,190.6 121.0,188.4 121.7,186.2 122.3,183.9 122.9,181.6 123.5,179.3 124.1,176.9 124.8,174.5 125.4,172.1 126.0,169.7 126.6,167.2 127.2,164.7 127.8,162.3 128.4,159.8 129.1,157.3 129.7,154.8 130.3,152.3 130.9,149.8 131.5,147.3 132.2,144.8 132.8,142.3 133.4,139.8 134.0,137.4 134.6,134.9 135.2,132.5 135.8,130.0 136.5,127.6 137.1,125.2 137.7,122.9 138.3,120.5 138.9,118.2 139.6,115.9 140.2,113.7 140.8,111.4 141.4,109.2 142.0,107.0 142.6,104.9 143.2,102.8 143.9,100.7 144.5,98.7 145.1,96.7 145.7,94.7 146.3,92.7 146.9,90.8 147.6,89.0 148.2,87.2 148.8,85.4 149.4,83.6 150.0,81.9 150.7,80.3 151.3,78.7 151.9,77.1 152.5,75.5 153.1,74.0 153.7,72.6 154.3,71.2 155.0,69.8 155.6,68.5 156.2,67.2 156.8,65.9 157.4,64.7 158.1,63.5 158.7,62.4 159.3,61.3 159.9,60.2 160.5,59.2 161.1,58.2 161.8,57.3 162.4,56.4 163.0,55.5 163.6,54.7 164.2,53.9 164.8,53.2 165.4,52.5 166.1,51.8 166.7,51.1 167.3,50.5 167.9,50.0 168.5,49.4 169.2,48.9 169.8,48.4 170.4,48.0 171.0,47.6 171.6,47.2 172.2,46.9 172.8,46.6 173.5,46.3 174.1,46.0 174.7,45.8 175.3,45.6 175.9,45.4 176.6,45.3 177.2,45.2 177.8,45.1 178.4,45.0 179.0,45.0 179.6,45.0 180.2,45.0 180.9,45.1 181.5,45.1 182.1,45.2 182.7,45.3 183.3,45.4 183.9,45.6 184.6,45.7 185.2,45.9 185.8,46.1 186.4,46.4 187.0,46.6 187.7,46.9 188.3,47.2 188.9,47.5 189.5,47.8 190.1,48.1 190.7,48.5 191.3,48.9 192.0,49.2 192.6,49.6 193.2,50.0 193.8,50.5 194.4,50.9 195.1,51.4 195.7,51.8 196.3,52.3 196.9,52.8 197.5,53.3 198.1,53.8 198.8,54.3 199.4,54.9 200.0,55.4 200.6,56.0 201.2,56.5 201.8,57.1 202.4,57.7 203.1,58.3 203.7,58.9 204.3,59.5 204.9,60.1 205.5,60.7 206.2,61.4 206.8,62.0 207.4,62.7 208.0,63.3 208.6,64.0 209.2,64.6 209.8,65.3 210.5,66.0 211.1,66.6 211.7,67.3 212.3,68.0 212.9,68.7 213.6,69.4 214.2,70.1 214.8,70.8 215.4,71.5 216.0,72.2 216.6,72.9 217.2,73.7 217.9,74.4 218.5,75.1 219.1,75.8 219.7,76.6 220.3,77.3 220.9,78.0 221.6,78.7 222.2,79.5 222.8,80.2 223.4,80.9 224.0,81.7 224.7,82.4 225.3,83.2 225.9,83.9 226.5,84.6 227.1,85.4 227.7,86.1 228.3,86.9 229.0,87.6 229.6,88.4 230.2,89.1 230.8,89.8 231.4,90.6 232.1,91.3 232.7,92.1 233.3,92.8 233.9,93.5 234.5,94.3 235.1,95.0 235.8,95.7 236.4,96.5 237.0,97.2 237.6,97.9 238.2,98.7 238.8,99.4 239.4,100.1 240.1,100.8 240.7,101.6 241.3,102.3 241.9,103.0 242.5,103.7 243.2,104.4 243.8,105.1 244.4,105.9 245.0,106.6 245.6,107.3 246.2,108.0 246.8,108.7 247.5,109.4 248.1,110.1 248.7,110.8 249.3,111.5 249.9,112.2 250.6,112.9 251.2,113.5 251.8,114.2 252.4,114.9 253.0,115.6 253.6,116.3 254.2,116.9 254.9,117.6 255.5,118.3 256.1,118.9 256.7,119.6 257.3,120.3 257.9,120.9 258.6,121.6 259.2,122.2 259.8,122.9 260.4,123.5 261.0,124.2 261.6,124.8 262.3,125.4 262.9,126.1 263.5,126.7 264.1,127.3 264.7,127.9 265.4,128.6 266.0,129.2 266.6,129.8 267.2,130.4 267.8,131.0 268.4,131.6 269.1,132.2 269.7,132.8 270.3,133.4 270.9,134.0 271.5,134.6 272.1,135.2 272.8,135.8 273.4,136.4 274.0,136.9 274.6,137.5 275.2,138.1 275.8,138.7 276.4,139.2 277.1,139.8 277.7,140.3 278.3,140.9 278.9,141.5 279.5,142.0 280.1,142.6 280.8,143.1 281.4,143.6 282.0,144.2 282.6,144.7 283.2,145.2 283.9,145.8 284.5,146.3 285.1,146.8 285.7,147.3 286.3,147.9 286.9,148.4 287.6,148.9 288.2,149.4 288.8,149.9 289.4,150.4 290.0,150.9 290.6,151.4 291.2,151.9 291.9,152.4 292.5,152.9 293.1,153.3 293.7,153.8 294.3,154.3 294.9,154.8 295.6,155.3 296.2,155.7 296.8,156.2 297.4,156.7 298.0,157.1 298.6,157.6 299.3,158.0 299.9,158.5 300.5,158.9 301.1,159.4 301.7,159.8 302.4,160.3 303.0,160.7 303.6,161.2 304.2,161.6 304.8,162.0 305.4,162.4 306.1,162.9 306.7,163.3 307.3,163.7 307.9,164.1 308.5,164.5 309.1,165.0 309.8,165.4 310.4,165.8 311.0,166.2 311.6,166.6 312.2,167.0 312.8,167.4 313.4,167.8 314.1,168.2 314.7,168.6 315.3,169.0 315.9,169.3 316.5,169.7 317.1,170.1 317.8,170.5 318.4,170.9 319.0,171.2 319.6,171.6 320.2,172.0 320.9,172.3 321.5,172.7 322.1,173.1 322.7,173.4 323.3,173.8 323.9,174.1 324.6,174.5 325.2,174.8 325.8,175.2 326.4,175.5 327.0,175.9 327.6,176.2 328.2,176.5 328.9,176.9 329.5,177.2 330.1,177.6 330.7,177.9 331.3,178.2 331.9,178.5 332.6,178.9 333.2,179.2 333.8,179.5 334.4,179.8 335.0,180.1 335.6,180.4 336.3,180.8 336.9,181.1 337.5,181.4 338.1,181.7 338.7,182.0 339.4,182.3 340.0,182.6 340.6,182.9 341.2,183.2 341.8,183.5 342.4,183.8 343.1,184.1 343.7,184.3 344.3,184.6 344.9,184.9 345.5,185.2 346.1,185.5 346.8,185.8 347.4,186.0 348.0,186.3 348.6,186.6 349.2,186.9 349.8,187.1 350.4,187.4 351.1,187.7 351.7,187.9 352.3,188.2 352.9,188.5 353.5,188.7 354.1,189.0 354.8,189.2 355.4,189.5 356.0,189.7 356.6,190.0 357.2,190.2 357.9,190.5 358.5,190.7 359.1,191.0 359.7,191.2 360.3,191.5 360.9,191.7 361.6,192.0 362.2,192.2 362.8,192.4 363.4,192.7 364.0,192.9 364.6,193.1 365.2,193.4 365.9,193.6 366.5,193.8 367.1,194.0 367.7,194.3 368.3,194.5 368.9,194.7 369.6,194.9 370.2,195.2 370.8,195.4 371.4,195.6 372.0,195.8 372.6,196.0 373.3,196.2 373.9,196.4 374.5,196.6 375.1,196.9 375.7,197.1 376.4,197.3 377.0,197.5 377.6,197.7 378.2,197.9 378.8,198.1 379.4,198.3 380.1,198.5 380.7,198.7 381.3,198.9 381.9,199.1 382.5,199.3 383.1,199.4 383.8,199.6 384.4,199.8 385.0,200.0 385.6,200.2 386.2,200.4 386.8,200.6 387.4,200.8 388.1,200.9 388.7,201.1 389.3,201.3 389.9,201.5 390.5,201.7 391.1,201.8 391.8,202.0 392.4,202.2 393.0,202.4 393.6,202.5 394.2,202.7 394.9,202.9 395.5,203.0 396.1,203.2 396.7,203.4 397.3,203.5 397.9,203.7 398.6,203.9 399.2,204.0 399.8,204.2 400.4,204.3 401.0,204.5 401.6,204.7 402.2,204.8 402.9,205.0 403.5,205.1 404.1,205.3 404.7,205.4 405.3,205.6 405.9,205.8 406.6,205.9 407.2,206.1 407.8,206.2 408.4,206.3 409.0,206.5 409.6,206.6 410.3,206.8 410.9,206.9 411.5,207.1 412.1,207.2 412.7,207.4 413.4,207.5 414.0,207.6 414.6,207.8 415.2,207.9 415.8,208.1 416.4,208.2 417.1,208.3 417.7,208.5 418.3,208.6 418.9,208.7 419.5,208.9 420.1,209.0 420.8,209.1 421.4,209.3 422.0,209.4 422.6,209.5 423.2,209.7 423.8,209.8 424.4,209.9 425.1,210.0 425.7,210.2 426.3,210.3 426.9,210.4 427.5,210.5 428.1,210.6 428.8,210.8 429.4,210.9 430.0,211.0\" fill=\"none\" stroke=\"#c0392b\" stroke-width=\"2.6\"/><text x=\"250\" y=\"45\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">Betelgeuse</text><line x1=\"179.6\" y1=\"235\" x2=\"179.6\" y2=\"50\" stroke=\"#6b7280\" stroke-dasharray=\"5 4\"/><text x=\"204\" y=\"62\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"13\">970 nm</text></svg></div><p>Bestäm stjärnans yttemperatur. (Svara i K.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Lös ut temperaturen ur Wiens förskjutningslag.</p></li><li><div class=\"facit-matte\">\\[\\lambda_{\\max}T=2{,}898\\cdot10^{-3}\\quad\\Longrightarrow\\quad T=\\frac{2{,}898\\cdot10^{-3}}{\\lambda_{\\max}}\\]\\[T=\\frac{2{,}898\\cdot10^{-3}}{970\\cdot10^{-9}}=2{,}99\\cdot10^{3}\\ \\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Yttemperaturen är cirka \\(2990\\ \\mathrm K\\). Det stämmer med den röda färgen: temperaturen är ungefär halva solens, och maximum ligger i det infraröda strax utanför synligt ljus, så av det synliga ljuset dominerar den röda änden.</p><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Svala stjärnor lyser rött och heta lyser blåvitt.</p></li><li><p class=\"facit-not\">Färgen är alltså en direkt avläsning av yttemperaturen, vilket är själva grunden för HR-diagrammet.</p></li></ol></div>",
     "familj": "Luminositet, radie och temperatur",
     "formaga": [
@@ -26628,7 +27137,8 @@ window.BANK2 = [
     "ledtrad": "<p>Lös ut temperaturen ur Wiens förskjutningslag. Koppla färg/toppvåglängd till temperatur med Wiens lag.</p>",
     "familjTidigare": [
       "Stjärnors färg, temperatur och ljusstyrka"
-    ]
+    ],
+    "traningsniva": 1
   },
   {
     "id": "5.47",
@@ -26645,10 +27155,19 @@ window.BANK2 = [
       "resonemang"
     ],
     "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      "Huvudserien – stjärnorna fusionerar väte till helium i kärnan",
+      "Den har mycket stor radie, så den strålande ytan är enorm"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "stjarnornas_utveckling__hr_diagram_och_huvudserien",
     "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>",
     "spelDelning": "deluppgifter",
@@ -26659,7 +27178,34 @@ window.BANK2 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bandet kallas huvudserien.</p></li><li><p>Stjärnorna där får sin energi genom att fusionera väte till helium i sin kärna.</p></li><li><p>En stjärna tillbringar den största delen av sitt liv på huvudserien, vilket är anledningen till att de flesta stjärnor observeras just där.</p></li><li><p>Ju längre upp till vänster en stjärna ligger, desto mer massiv och het är den.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Bandet är huvudserien, och stjärnorna där fusionerar väte till helium i kärnan.</p></div></div>",
         "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "svarstyp": "alternativ",
+        "rättSvar": "Huvudserien – stjärnorna fusionerar väte till helium i kärnan",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Huvudserien – stjärnorna fusionerar väte till helium i kärnan",
+            "ratt": true
+          },
+          {
+            "txt": "Jättegrenen – stjärnorna har slut på väte",
+            "ratt": false,
+            "kommentar": "Jättar ligger ovanför bandet."
+          },
+          {
+            "txt": "Huvudserien – alla stjärnor där har samma massa",
+            "ratt": false,
+            "kommentar": "Massan varierar längs huvudserien."
+          },
+          {
+            "txt": "Vita dvärgar – stjärnorna har ingen fusion",
+            "ratt": false,
+            "kommentar": "Vita dvärgar ligger nere till vänster."
+          }
+        ]
       },
       {
         "etikett": "b",
@@ -26667,7 +27213,34 @@ window.BANK2 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Luminositeten beror både på yttemperaturen och på ytans storlek.</p></li><li><p>En sval stjärna strålar ut lite per kvadratmeter, men om radien är mycket stor blir den totala ytan enorm och luminositeten ändå hög.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stjärnan måste vara mycket stor. Det är en röd jätte eller superjätte.</p></div></div>",
         "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>",
         "niva": "E",
-        "poang": "1/0/0"
+        "poang": "1/0/0",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den har mycket stor radie, så den strålande ytan är enorm",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den har mycket stor radie, så den strålande ytan är enorm",
+            "ratt": true
+          },
+          {
+            "txt": "Den ligger mycket nära jorden",
+            "ratt": false,
+            "kommentar": "HR-diagrammet visar luminositet, inte hur ljus stjärnan ser ut."
+          },
+          {
+            "txt": "Den är egentligen varm inuti",
+            "ratt": false,
+            "kommentar": "Det är ytans temperatur och storlek som avgör strålningen."
+          },
+          {
+            "txt": "Den har mycket liten massa",
+            "ratt": false,
+            "kommentar": "Massan förklarar inte den höga luminositeten."
+          }
+        ]
       }
     ],
     "omrTidigare": [
@@ -26675,7 +27248,21 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
-    ]
+    ],
+    "svarFormat": [
+      null,
+      null
+    ],
+    "svarEnhet": [
+      null,
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 1
   },
 {
   "id": "5.48",
@@ -31378,7 +31965,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "uppskatta en massiv stjärnas livstid på huvudserien och koppla den till slutprodukten, ur text, sökt livstid",
     "poang": "(1/2/0)",
-    "t": "<p>Livstiden på huvudserien kan uppskattas som <em>t</em> ∝ <em>M</em>/<em>L</em>, eftersom bränslemängden är proportionell mot massan och förbrukningstakten mot luminositeten. För huvudseriestjärnor gäller ungefär <em>L</em> ∝ <em>M</em><sup>3,5</sup>. Solen ligger på huvudserien i cirka 10 miljarder år.</p><p><strong>a)</strong> Uppskatta hur länge en stjärna med 15 solmassor ligger på huvudserien.</p><p><strong>b)</strong> Vad innebär resultatet för vilken slutprodukt stjärnan får?</p>",
+    "t": "<p>Livstiden på huvudserien kan uppskattas som <em>t</em> ∝ <em>M</em>/<em>L</em>, eftersom bränslemängden är proportionell mot massan och förbrukningstakten mot luminositeten. För huvudseriestjärnor gäller ungefär <em>L</em> ∝ <em>M</em><sup>3,5</sup>. Solen ligger på huvudserien i cirka 10 miljarder år.</p><p><strong>a)</strong> Uppskatta hur länge en stjärna med 15 solmassor ligger på huvudserien. (Svara i miljoner år.)</p><p><strong>b)</strong> Vad innebär resultatet för vilken slutprodukt stjärnan får?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Sätt in luminositetssambandet i uttrycket för livstiden.</p></li><li><p class=\"facit-metod\">Räkna i solenheter.</p></li><li><div class=\"facit-matte\">\\[t\\propto\\frac{M}{L}\\propto\\frac{M}{M^{3{,}5}}=M^{-2{,}5}\\]\\[\\frac{t}{t_{\\odot}}=15^{-2{,}5}=\\frac1{871}\\]\\[t=\\frac{10\\cdot10^9}{871}=1{,}1\\cdot10^{7}\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stjärnan ligger på huvudserien i bara cirka \\(11\\) miljoner år.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En stjärna på 15 solmassor förbrukar sitt bränsle nästan tusen gånger snabbare än solen trots att den har femton gånger mer av det.</p></li><li><p>Den hinner därför utveckla tyngre grundämnen ända fram till järn i sin kärna, och avslutar sitt liv som supernova.</p></li><li><p>Kvar blir en neutronstjärna eller ett svart hål, inte en vit dvärg som för solen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stjärnan lever mycket kort och slutar som supernova, med en neutronstjärna eller ett svart hål som rest.</p></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Ju massivare en stjärna är, desto kortare lever den.</p></li><li><p class=\"facit-not\">Det verkar bakvänt, men det höga trycket i en massiv kärna driver fusionen så mycket snabbare att det extra bränslet inte räcker långt.</p></li></ol></div>",
     "familj": "Stjärnors livslängd och slutstadier",
     "formaga": [
@@ -31386,17 +31973,26 @@ window.BANK2 = [
       "resonemang"
     ],
     "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      11.475506210984939,
+      "Den slutar som supernova och lämnar en neutronstjärna eller ett svart hål"
+    ],
+    "tolerans": [
+      0.1147550621098494,
+      null
+    ],
+    "självrättning": [
+      true,
+      true
+    ],
     "familjNyckelTidigare": "stjarnornas_utveckling__stjarnors_livscykel",
     "ledtrad": "<p>Sätt in luminositetssambandet i uttrycket för livstiden. Räkna i solenheter.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Livstiden på huvudserien kan uppskattas som <em>t</em> ∝ <em>M</em>/<em>L</em>, eftersom bränslemängden är proportionell mot massan och förbrukningstakten mot luminositeten. För huvudseriestjärnor gäller ungefär <em>L</em> ∝ <em>M</em><sup>3,5</sup>. Solen ligger på huvudserien i cirka 10 miljarder år.</p><div class=\"spel-en-del\"><p>Uppskatta hur länge en stjärna med 15 solmassor ligger på huvudserien.</p></div>",
+        "t": "<p>Livstiden på huvudserien kan uppskattas som <em>t</em> ∝ <em>M</em>/<em>L</em>, eftersom bränslemängden är proportionell mot massan och förbrukningstakten mot luminositeten. För huvudseriestjärnor gäller ungefär <em>L</em> ∝ <em>M</em><sup>3,5</sup>. Solen ligger på huvudserien i cirka 10 miljarder år.</p><div class=\"spel-en-del\"><p>Uppskatta hur länge en stjärna med 15 solmassor ligger på huvudserien. (Svara i miljoner år.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Sätt in luminositetssambandet i uttrycket för livstiden.</p></li><li><p class=\"facit-metod\">Räkna i solenheter.</p></li><li><div class=\"facit-matte\">\\[t\\propto\\frac{M}{L}\\propto\\frac{M}{M^{3{,}5}}=M^{-2{,}5}\\]\\[\\frac{t}{t_{\\odot}}=15^{-2{,}5}=\\frac1{871}\\]\\[t=\\frac{10\\cdot10^9}{871}=1{,}1\\cdot10^{7}\\ \\mathrm{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stjärnan ligger på huvudserien i bara cirka \\(11\\) miljoner år.</p></div></div>",
         "ledtrad": "<p>Sätt in luminositetssambandet i uttrycket för livstiden. Räkna i solenheter.</p>",
         "niva": "C",
@@ -31408,11 +32004,56 @@ window.BANK2 = [
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En stjärna på 15 solmassor förbrukar sitt bränsle nästan tusen gånger snabbare än solen trots att den har femton gånger mer av det.</p></li><li><p>Den hinner därför utveckla tyngre grundämnen ända fram till järn i sin kärna, och avslutar sitt liv som supernova.</p></li><li><p>Kvar blir en neutronstjärna eller ett svart hål, inte en vit dvärg som för solen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stjärnan lever mycket kort och slutar som supernova, med en neutronstjärna eller ett svart hål som rest.</p></div></div>",
         "ledtrad": "<p>Sätt in luminositetssambandet i uttrycket för livstiden. Räkna i solenheter.</p>",
         "niva": "C",
-        "poang": "0/1/0"
+        "poang": "0/1/0",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den slutar som supernova och lämnar en neutronstjärna eller ett svart hål",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den slutar som supernova och lämnar en neutronstjärna eller ett svart hål",
+            "ratt": true
+          },
+          {
+            "txt": "Den blir en vit dvärg som solen",
+            "ratt": false,
+            "kommentar": "Det gäller stjärnor med ungefär solens massa."
+          },
+          {
+            "txt": "Den blir en röd dvärg",
+            "ratt": false,
+            "kommentar": "Röda dvärgar är små huvudseriestjärnor."
+          },
+          {
+            "txt": "Den lever längre än solen",
+            "ratt": false,
+            "kommentar": "Livstiden är bara cirka 11 miljoner år."
+          }
+        ]
       }
     ],
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      null
+    ],
+    "svarEnhet": [
+      "miljoner år",
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3,
+    "svarVardesiffror": [
+      2,
+      null
     ]
   },
   {
@@ -34632,7 +35273,7 @@ window.BANK2 = [
     "niva": "A",
     "typ": "bestämma en galax avstånd med en cepheids perioden-luminositetsrelation och avståndsmodulen, ur text, sökt avstånd",
     "poang": "(0/2/2)",
-    "t": "<p>I en avlägsen galax observeras en cepheidvariabel med perioden 30 dygn och den apparenta magnituden +24,0. För cepheider gäller ungefär <em>M</em> = −2,81·log<em>P</em> − 1,43, där <em>P</em> anges i dygn.</p><p><strong>a)</strong> Bestäm cepheidens absoluta magnitud.</p><p><strong>b)</strong> Bestäm galaxens avstånd i megaparsec.</p><p><strong>c)</strong> Uppskatta med vilken fart galaxen rör sig bort från oss. Hubblekonstanten i modellen är 70 km/(s·Mpc).</p>",
+    "t": "<p>I en avlägsen galax observeras en cepheidvariabel med perioden 30 dygn och den apparenta magnituden +24,0. För cepheider gäller ungefär <em>M</em> = −2,81·log<em>P</em> − 1,43, där <em>P</em> anges i dygn.</p><p><strong>a)</strong> Bestäm cepheidens absoluta magnitud. (Svara med ett tal.)</p><p><strong>b)</strong> Bestäm galaxens avstånd. (Svara i Mpc.)</p><p><strong>c)</strong> Uppskatta med vilken fart galaxen rör sig bort från oss. Hubblekonstanten i modellen är 70 km/(s·Mpc). (Svara i km/s.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=-2{,}81\\log30-1{,}43=-2{,}81\\cdot1{,}477-1{,}43=-5{,}58\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den absoluta magnituden är \\(-5{,}58\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Avståndsmodulen ger avståndet.</p></li><li><div class=\"facit-matte\">\\[m-M=24{,}0-(-5{,}58)=29{,}58\\]\\[d=10^{(m-M+5)/5}=10^{34{,}58/5}=10^{6{,}92}=8{,}2\\cdot10^{6}\\ \\mathrm{pc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är \\(8{,}2\\ \\mathrm{Mpc}\\).</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=H_0d=70\\cdot8{,}2=5{,}8\\cdot10^{2}\\ \\mathrm{km/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Recessionsfarten är cirka \\(580\\ \\mathrm{km/s}\\).</p></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Cepheider kan användas som standardljus: perioden ger den absoluta magnituden, och tillsammans med den skenbara magnituden kan avståndet bestämmas.</p></li></ol></div>",
     "familj": "Synvinkel, parallax och avståndsenheter",
     "formaga": [
@@ -34640,16 +35281,28 @@ window.BANK2 = [
       "procedur"
     ],
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -5.580710725762251,
+      8.24407900645091,
+      577.0855304515637
+    ],
+    "tolerans": [
+      0.02,
+      0.0824407900645091,
+      5.770855304515638
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "ledtrad": "<p>Markera jämviktsläget, amplituden och tiden för en hel svängning. Behöver du använda \\(F=-kx\\), energi eller \\(f=1/T\\)?</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>I en avlägsen galax observeras en cepheidvariabel med perioden 30 dygn och den apparenta magnituden +24,0. För cepheider gäller ungefär <em>M</em> = −2,81·log<em>P</em> − 1,43, där <em>P</em> anges i dygn.</p><div class=\"spel-en-del\"><p>Bestäm cepheidens absoluta magnitud.</p></div>",
+        "t": "<p>I en avlägsen galax observeras en cepheidvariabel med perioden 30 dygn och den apparenta magnituden +24,0. För cepheider gäller ungefär <em>M</em> = −2,81·log<em>P</em> − 1,43, där <em>P</em> anges i dygn.</p><div class=\"spel-en-del\"><p>Bestäm cepheidens absoluta magnitud. (Svara med ett tal.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=-2{,}81\\log30-1{,}43=-2{,}81\\cdot1{,}477-1{,}43=-5{,}58\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den absoluta magnituden är \\(-5{,}58\\).</p></div></div>",
         "ledtrad": "<p>Markera jämviktsläget, amplituden och tiden för en hel svängning. Behöver du använda \\(F=-kx\\), energi eller \\(f=1/T\\)?</p>",
         "niva": "A",
@@ -34657,7 +35310,7 @@ window.BANK2 = [
       },
       {
         "etikett": "b",
-        "t": "<p>I en avlägsen galax observeras en cepheidvariabel med perioden 30 dygn och den apparenta magnituden +24,0. För cepheider gäller ungefär <em>M</em> = −2,81·log<em>P</em> − 1,43, där <em>P</em> anges i dygn.</p><div class=\"spel-en-del\"><p>Bestäm galaxens avstånd i megaparsec.</p></div>",
+        "t": "<p>I en avlägsen galax observeras en cepheidvariabel med perioden 30 dygn och den apparenta magnituden +24,0. För cepheider gäller ungefär <em>M</em> = −2,81·log<em>P</em> − 1,43, där <em>P</em> anges i dygn.</p><div class=\"spel-en-del\"><p>Bestäm galaxens avstånd. (Svara i Mpc.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Avståndsmodulen ger avståndet.</p></li><li><div class=\"facit-matte\">\\[m-M=24{,}0-(-5{,}58)=29{,}58\\]\\[d=10^{(m-M+5)/5}=10^{34{,}58/5}=10^{6{,}92}=8{,}2\\cdot10^{6}\\ \\mathrm{pc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är \\(8{,}2\\ \\mathrm{Mpc}\\).</p></div></div>",
         "ledtrad": "<p>Markera jämviktsläget, amplituden och tiden för en hel svängning. Behöver du använda \\(F=-kx\\), energi eller \\(f=1/T\\)?</p>",
         "niva": "A",
@@ -34665,7 +35318,7 @@ window.BANK2 = [
       },
       {
         "etikett": "c",
-        "t": "<p>I en avlägsen galax observeras en cepheidvariabel med perioden 30 dygn och den apparenta magnituden +24,0. För cepheider gäller ungefär <em>M</em> = −2,81·log<em>P</em> − 1,43, där <em>P</em> anges i dygn.</p><div class=\"spel-en-del\"><p>Uppskatta med vilken fart galaxen rör sig bort från oss. Hubblekonstanten i modellen är 70 km/(s·Mpc).</p></div>",
+        "t": "<p>I en avlägsen galax observeras en cepheidvariabel med perioden 30 dygn och den apparenta magnituden +24,0. För cepheider gäller ungefär <em>M</em> = −2,81·log<em>P</em> − 1,43, där <em>P</em> anges i dygn.</p><div class=\"spel-en-del\"><p>Uppskatta med vilken fart galaxen rör sig bort från oss. Hubblekonstanten i modellen är 70 km/(s·Mpc). (Svara i km/s.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=H_0d=70\\cdot8{,}2=5{,}8\\cdot10^{2}\\ \\mathrm{km/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Recessionsfarten är cirka \\(580\\ \\mathrm{km/s}\\).</p></div></div>",
         "ledtrad": "<p>Markera jämviktsläget, amplituden och tiden för en hel svängning. Behöver du använda \\(F=-kx\\), energi eller \\(f=1/T\\)?</p>",
         "niva": "A",
@@ -34674,6 +35327,28 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Astronomisk avståndsmätning"
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarEnhet": [
+      null,
+      "Mpc",
+      "km/s"
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3,
+    "svarVardesiffror": [
+      null,
+      2,
+      2
     ]
   },
   {
@@ -35224,7 +35899,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "bestäm stjärnavstånd med avståndsmodul",
     "poang": "(2/0/0)",
-    "t": "<p>En stjärna har apparent magnitud \\(m=10\\) och absolut magnitud \\(M=5\\).</p><p>Bestäm avståndet i parsec.</p>",
+    "t": "<p>En stjärna har apparent magnitud \\(m=10\\) och absolut magnitud \\(M=5\\).</p><p>Bestäm avståndet. (Svara i pc.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Sätt in magnituderna i avståndsmodulen och lös ut d.</p></li><li><div class=\"facit-matte\">\\[5=5\\log_{10}(d/10)\\]\\[d=100{,}0\\ \\mathrm{pc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är cirka \\(100\\ \\mathrm{pc}\\).</p></div>",
     "familj": "Apparent och absolut magnitud",
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
@@ -35245,7 +35920,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Astronomisk avståndsmätning"
-    ]
+    ],
+    "traningsniva": 1
   },
   {
     "id": "5.62",
@@ -35254,7 +35930,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "bestäm stjärnavstånd med avståndsmodul",
     "poang": "(1/2/0)",
-    "t": "<p>En stjärna har apparent magnitud \\(m=15\\) och absolut magnitud \\(M=0\\).</p><p>Bestäm avståndet i parsec.</p>",
+    "t": "<p>En stjärna har apparent magnitud \\(m=15\\) och absolut magnitud \\(M=0\\).</p><p>Bestäm avståndet. (Svara i pc.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Sätt in magnituderna i avståndsmodulen och lös ut d.</p></li><li><div class=\"facit-matte\">\\[15=5\\log_{10}(d/10)\\]\\[d=10000{,}0\\ \\mathrm{pc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Avståndet är cirka \\(1\\cdot10^{4}\\ \\mathrm{pc}\\).</p></div>",
     "familj": "Apparent och absolut magnitud",
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
@@ -35275,7 +35951,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Astronomisk avståndsmätning"
-    ]
+    ],
+    "traningsniva": 1
   },
   {
     "id": "5.63",
@@ -35284,7 +35961,7 @@ window.BANK2 = [
     "niva": "C",
     "typ": "bestäm apparent magnitud från avstånd och absolut magnitud",
     "poang": "(1/2/0)",
-    "t": "<p>En stjärna har absolut magnitud M = +4,0 och ligger 250 pc bort.</p><p>Vilken apparent magnitud får den?</p>",
+    "t": "<p>En stjärna har absolut magnitud M = +4,0 och ligger 250 pc bort.</p><p>Vilken apparent magnitud får den? (Svara med ett tal.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd</p><div class=\"facit-matte\">\\[m-M=5\\log_{10}(d/10\\,\\mathrm{pc})\\].</div></div></li><li><div class=\"facit-matte\">\\[m=4{,}0+5\\log_{10}(250/10)=10{,}99\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den apparenta magnituden är cirka \\(10{,}99\\).</p></div>",
     "familj": "Apparent och absolut magnitud",
     "familjNyckel": "avstandsmatning__astronomisk_avstandsmatning",
@@ -35305,7 +35982,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Astronomisk avståndsmätning"
-    ]
+    ],
+    "traningsniva": 2
   },
   {
     "kap": 5,
@@ -35313,7 +35991,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "Tau Ceti",
     "poang": "(2/1/0)",
-    "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Tau Ceti har den apparenta magnituden +3,49 och den absoluta magnituden +5,69.</p><ol type=\"a\"><li>Bestäm avståndet till stjärnan.</li><li>Vilken parallax har stjärnan?</li></ol>",
+    "t": "<p>Tau Ceti har den apparenta magnituden +3,49 och den absoluta magnituden +5,69.</p><ol type=\"a\"><li>Bestäm avståndet till stjärnan. (Svara i pc.)</li><li>Vilken parallax har stjärnan? (Svara i bågsekunder.)</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\lg r=\\dfrac{m-M+5}{5}=\\dfrac{3{,}49-5{,}69+5}{5}=0{,}56\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}63\\) pc</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{1}{3{,}63}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}275\\) ″</p></li></ol></div>",
     "id": "5.349",
     "miniräknare": true,
@@ -35350,8 +36028,8 @@ window.BANK2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm avståndet till stjärnan.",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Tau Ceti har den apparenta magnituden +3,49 och den absoluta magnituden +5,69.</p><p>Bestäm avståndet till stjärnan.</p>",
+        "fraga": "Bestäm avståndet till stjärnan. (Svara i pc.)",
+        "t": "<p>Tau Ceti har den apparenta magnituden +3,49 och den absoluta magnituden +5,69.</p><p>Bestäm avståndet till stjärnan. (Svara i pc.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\lg r=\\dfrac{m-M+5}{5}=\\dfrac{3{,}49-5{,}69+5}{5}=0{,}56\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}63\\) pc</p></div>",
         "ledtrad": "<p>Lös ut \\(\\lg r\\).</p>",
         "niva": "E",
@@ -35360,8 +36038,8 @@ window.BANK2 = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken parallax har stjärnan?",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Tau Ceti har den apparenta magnituden +3,49 och den absoluta magnituden +5,69.</p>Avståndet är 3,63 pc.<p>Vilken parallax har stjärnan?</p>",
+        "fraga": "Vilken parallax har stjärnan? (Svara i bågsekunder.)",
+        "t": "<p>Tau Ceti har den apparenta magnituden +3,49 och den absoluta magnituden +5,69.</p><p>Avståndet är 3,63 pc.</p><p>Vilken parallax har stjärnan? (Svara i bågsekunder.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[p=\\dfrac{1}{3{,}63}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}275\\) ″</p></div>",
         "ledtrad": "<p>\\(p=\\dfrac1r\\).</p>",
         "niva": "E",
@@ -35379,7 +36057,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "DX Cancri",
     "poang": "(2/0/0)",
-    "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>DX Cancri har den apparenta magnituden +14,78 och parallaxen 0,2758″.</p><ol type=\"a\"><li>Bestäm avståndet.</li><li>Vilken absolut magnitud har stjärnan?</li></ol>",
+    "t": "<p>DX Cancri har den apparenta magnituden +14,78 och parallaxen 0,2758″.</p><ol type=\"a\"><li>Bestäm avståndet. (Svara i pc.)</li><li>Vilken absolut magnitud har stjärnan? (Svara med ett tal.)</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=\\dfrac{1}{0{,}2758}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}63\\) pc</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=14{,}78+5-5\\lg3{,}626\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16{,}98\\)</p></li></ol></div>",
     "id": "5.350",
     "miniräknare": true,
@@ -35416,8 +36094,8 @@ window.BANK2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm avståndet.",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>DX Cancri har den apparenta magnituden +14,78 och parallaxen 0,2758″.</p><p>Bestäm avståndet.</p>",
+        "fraga": "Bestäm avståndet. (Svara i pc.)",
+        "t": "<p>DX Cancri har den apparenta magnituden +14,78 och parallaxen 0,2758″.</p><p>Bestäm avståndet. (Svara i pc.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=\\dfrac{1}{0{,}2758}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}63\\) pc</p></div>",
         "ledtrad": "<p>\\(r=\\dfrac1p\\).</p>",
         "niva": "E",
@@ -35426,8 +36104,8 @@ window.BANK2 = [
       },
       {
         "etikett": "b",
-        "fraga": "Vilken absolut magnitud har stjärnan?",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>DX Cancri har den apparenta magnituden +14,78 och parallaxen 0,2758″.</p>Avståndet är 3,626 pc.<p>Vilken absolut magnitud har stjärnan?</p>",
+        "fraga": "Vilken absolut magnitud har stjärnan? (Svara med ett tal.)",
+        "t": "<p>DX Cancri har den apparenta magnituden +14,78 och parallaxen 0,2758″.</p><p>Avståndet är 3,626 pc.</p><p>Vilken absolut magnitud har stjärnan? (Svara med ett tal.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=14{,}78+5-5\\lg3{,}626\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(16{,}98\\)</p></div>",
         "ledtrad": "<p>\\(M=m+5-5\\lg r\\).</p>",
         "niva": "E",
@@ -35445,7 +36123,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "61 Cygni B",
     "poang": "(2/0/0)",
-    "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>61 Cygni B har den apparenta magnituden +6,09 och är 11,52 ljusår bort.</p><ol type=\"a\"><li>Bestäm stjärnans parallax.</li><li>Bestäm stjärnans absoluta magnitud.</li></ol>",
+    "t": "<p>61 Cygni B har den apparenta magnituden +6,09 och är 11,52 ljusår bort.</p><ol type=\"a\"><li>Bestäm stjärnans parallax. (Svara i bågsekunder.)</li><li>Bestäm stjärnans absoluta magnitud. (Svara med ett tal.)</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\dfrac{11{,}52}{3{,}264}\\approx3{,}529\\) pc.</p></li><li><div class=\"facit-matte\">\\[p=\\dfrac1r\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}283\\) ″</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=6{,}09+5-5\\lg3{,}529\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}35\\)</p></li></ol></div>",
     "id": "5.351",
     "miniräknare": true,
@@ -35482,8 +36160,8 @@ window.BANK2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Bestäm stjärnans parallax.",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>61 Cygni B har den apparenta magnituden +6,09 och är 11,52 ljusår bort.</p><p>Bestäm stjärnans parallax.</p>",
+        "fraga": "Bestäm stjärnans parallax. (Svara i bågsekunder.)",
+        "t": "<p>61 Cygni B har den apparenta magnituden +6,09 och är 11,52 ljusår bort.</p><p>Bestäm stjärnans parallax. (Svara i bågsekunder.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\dfrac{11{,}52}{3{,}264}\\approx3{,}529\\) pc.</p></li><li><div class=\"facit-matte\">\\[p=\\dfrac1r\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}283\\) ″</p></div>",
         "ledtrad": "<p>Omvandla till parsec.</p>",
         "niva": "E",
@@ -35492,8 +36170,8 @@ window.BANK2 = [
       },
       {
         "etikett": "b",
-        "fraga": "Bestäm stjärnans absoluta magnitud.",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>61 Cygni B har den apparenta magnituden +6,09 och är 11,52 ljusår bort.</p>Avståndet är 3,529 pc.<p>Bestäm stjärnans absoluta magnitud.</p>",
+        "fraga": "Bestäm stjärnans absoluta magnitud. (Svara med ett tal.)",
+        "t": "<p>61 Cygni B har den apparenta magnituden +6,09 och är 11,52 ljusår bort.</p><p>Avståndet är 3,529 pc.</p><p>Bestäm stjärnans absoluta magnitud. (Svara med ett tal.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=6{,}09+5-5\\lg3{,}529\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}35\\)</p></div>",
         "ledtrad": "<p>\\(M=m+5-5\\lg r\\).</p>",
         "niva": "E",
@@ -35511,7 +36189,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "Kapteyns stjärna",
     "poang": "(2/0/0)",
-    "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Kapteyns stjärna har parallaxen 0,250″ och den absoluta magnituden +10,89. Med blotta ögat ser man stjärnor ned till magnitud +6,0.</p><ol type=\"a\"><li>Beräkna avståndet.</li><li>Beräkna den apparenta magnituden.</li></ol>",
+    "t": "<p>Kapteyns stjärna har parallaxen 0,250″ och den absoluta magnituden +10,89. Med blotta ögat ser man stjärnor ned till magnitud +6,0.</p><ol type=\"a\"><li>Beräkna avståndet. (Svara i pc.)</li><li>Beräkna den apparenta magnituden. (Svara med ett tal.)</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=\\dfrac1{0{,}250}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}00\\) pc</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=M-5+5\\lg r=10{,}89-5+5\\lg4{,}00\\].</div></li><li><p>Större än 6,0, så stjärnan syns inte med blotta ögat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}90\\)</p></li></ol></div>",
     "id": "5.352",
     "miniräknare": true,
@@ -35548,8 +36226,8 @@ window.BANK2 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "fraga": "Beräkna avståndet.",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Kapteyns stjärna har parallaxen 0,250″ och den absoluta magnituden +10,89. Med blotta ögat ser man stjärnor ned till magnitud +6,0.</p><p>Beräkna avståndet.</p>",
+        "fraga": "Beräkna avståndet. (Svara i pc.)",
+        "t": "<p>Kapteyns stjärna har parallaxen 0,250″ och den absoluta magnituden +10,89. Med blotta ögat ser man stjärnor ned till magnitud +6,0.</p><p>Beräkna avståndet. (Svara i pc.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=\\dfrac1{0{,}250}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}00\\) pc</p></div>",
         "ledtrad": "<p>\\(r=\\dfrac1p\\).</p>",
         "niva": "E",
@@ -35558,8 +36236,8 @@ window.BANK2 = [
       },
       {
         "etikett": "b",
-        "fraga": "Beräkna den apparenta magnituden.",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Kapteyns stjärna har parallaxen 0,250″ och den absoluta magnituden +10,89. Med blotta ögat ser man stjärnor ned till magnitud +6,0.</p>Avståndet är 4,00 pc.<p>Beräkna den apparenta magnituden.</p>",
+        "fraga": "Beräkna den apparenta magnituden. (Svara med ett tal.)",
+        "t": "<p>Kapteyns stjärna har parallaxen 0,250″ och den absoluta magnituden +10,89. Med blotta ögat ser man stjärnor ned till magnitud +6,0.</p><p>Avståndet är 4,00 pc.</p><p>Beräkna den apparenta magnituden. (Svara med ett tal.)</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m=M-5+5\\lg r=10{,}89-5+5\\lg4{,}00\\].</div></li><li><p>Större än 6,0, så stjärnan syns inte med blotta ögat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}90\\)</p></div>",
         "ledtrad": "<p>Lös ut \\(m\\).</p>",
         "niva": "E",
@@ -35577,7 +36255,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avstånd till Rigel",
     "poang": "(1/0/0)",
-    "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Rigel har den absoluta magnituden −7,0 och den apparenta magnituden +0,1. Hur långt bort är Rigel?</p>",
+    "t": "<p>Rigel har den absoluta magnituden −7,0 och den apparenta magnituden +0,1. Hur långt bort är Rigel? (Svara i pc.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\lg r=\\dfrac{0{,}1+7{,}0+5}{5}=2{,}42\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(263\\) pc</p></div>",
     "id": "5.353",
     "miniräknare": true,
@@ -35603,7 +36281,7 @@ window.BANK2 = [
     "niva": "E",
     "typ": "Alfa Centauris absoluta magnitud",
     "poang": "(1/0/0)",
-    "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Alfa Centauri har parallaxen 0,760″ och den apparenta magnituden −0,27. Vilken absolut magnitud har den?</p>",
+    "t": "<p>Alfa Centauri har parallaxen 0,760″ och den apparenta magnituden −0,27. Vilken absolut magnitud har den? (Svara med ett tal.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\dfrac1{0{,}760}\\approx1{,}316\\) pc.</p></li><li><div class=\"facit-matte\">\\[M=-0{,}27+5-5\\lg1{,}316\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}13\\) </p></div>",
     "id": "5.354",
     "miniräknare": true,
@@ -35628,7 +36306,7 @@ window.BANK2 = [
     "niva": "A",
     "typ": "hur långt bort syns solen",
     "poang": "(0/1/1)",
-    "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Solen har den apparenta magnituden −26,74 på avståndet 1 AU \\(=4{,}848\\cdot10^{-6}\\) pc. Med blotta ögat syns stjärnor ned till magnitud +6,0. Hur långt bort kan man vara och fortfarande se solen?</p>",
+    "t": "<p>Solen har den apparenta magnituden −26,74 på avståndet 1 AU \\(=4{,}848\\cdot10^{-6}\\) pc. Med blotta ögat syns stjärnor ned till magnitud +6,0. Hur långt bort kan man vara och fortfarande se solen? (Svara i pc.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M_\\odot=-26{,}74+5-5\\lg(4{,}848\\cdot10^{-6})\\approx4{,}83\\].</div></li><li><div class=\"facit-matte\">\\[\\lg r=\\dfrac{6{,}0-4{,}83+5}{5}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(17\\) pc</p></div>",
     "id": "5.355",
     "miniräknare": true,
@@ -35755,7 +36433,7 @@ window.BANK2 = [
     "niva": "A",
     "typ": "jämföra två komponenters luminositet och färg i en dubbelstjärna med Stefan-Boltzmanns och Wiens lagar, ur text, sökt luminositet och våglängder",
     "poang": "(0/2/2)",
-    "t": "<p>En dubbelstjärna består av en het vit komponent med yttemperaturen 12 000 K och radien 1,8 solradier, och en sval röd komponent med yttemperaturen 3200 K och radien 25 solradier. Solens yttemperatur är 5772 K och Wiens konstant 2,898·10<sup>−3</sup> m·K.</p><p><strong>a)</strong> Beräkna varje komponents luminositet i solenheter. Vilken dominerar den totala luminositeten?</p><p><strong>b)</strong> Bestäm var vardera komponenten har sitt strålningsmaximum.</p><p><strong>c)</strong> Om systemet fotograferas genom ett blått filter, vilken komponent syns tydligast? Motivera.</p>",
+    "t": "<p>En dubbelstjärna består av en het vit komponent med yttemperaturen 12 000 K och radien 1,8 solradier, och en sval röd komponent med yttemperaturen 3200 K och radien 25 solradier. Solens yttemperatur är 5772 K.</p><p><strong>a)</strong> Beräkna varje komponents luminositet i solenheter. (Svara med den vita och den röda komponentens luminositet, i den ordningen.)</p><p><strong>b)</strong> Bestäm var vardera komponenten har sitt strålningsmaximum. (Svara i nm, den vita komponenten först.)</p><p><strong>c)</strong> Om systemet fotograferas genom ett blått filter, vilken komponent syns tydligast?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_{\\odot}}=\\left(\\frac{R}{R_{\\odot}}\\right)^2\\left(\\frac{T}{T_{\\odot}}\\right)^4\\]\\[L_{\\text{vit}}=1{,}8^2\\cdot\\left(\\frac{12000}{5772}\\right)^4=3{,}24\\cdot18{,}7=61\\ L_{\\odot}\\]\\[L_{\\text{röd}}=25^2\\cdot\\left(\\frac{3200}{5772}\\right)^4=625\\cdot0{,}0945=59\\ L_{\\odot}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Komponenterna har nästan exakt samma luminositet, \\(61\\) respektive \\(59\\ L_{\\odot}\\). Ingen av dem dominerar.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\lambda_{\\text{vit}}=\\frac{2{,}898\\cdot10^{-3}}{12000}=242\\ \\mathrm{nm}\\]\\[\\lambda_{\\text{röd}}=\\frac{2{,}898\\cdot10^{-3}}{3200}=906\\ \\mathrm{nm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den vita har maximum vid \\(242\\ \\mathrm{nm}\\) i ultraviolett, den röda vid \\(906\\ \\mathrm{nm}\\) i infrarött. Ingen av dem har alltså sitt maximum i det synliga området.</p></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den vita komponenten.</p></li><li><p>Trots att den totala luminositeten är ungefär lika stor för båda är fördelningen helt olika.</p></li><li><p>Den vita stjärnan strålar mest på korta våglängder och har därför en stor del av sin strålning i blått, medan den röda stjärnan har nästan hela sin strålning i infrarött och bidrar mycket lite i blått.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den vita komponenten syns tydligast i blått ljus, eftersom dess strålning är förskjuten mot korta våglängder.</p></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Vilken komponent som framträder tydligast beror alltså på vilket våglängdsområde man observerar.</p></li></ol></div>",
     "familj": "Luminositet, radie och temperatur",
     "formaga": [
@@ -35763,42 +36441,128 @@ window.BANK2 = [
       "resonemang"
     ],
     "familjNyckel": "farg_ljusstyrka__stjarnors_farg_temperatur_och_ljusstyrka",
-    "svarstyp": "manuell",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      [
+        60.52916804545146,
+        59.04384628728687
+      ],
+      [
+        241.49999999999997,
+        905.625
+      ],
+      "Den vita, heta komponenten"
+    ],
+    "tolerans": [
+      [
+        1.8158750413635438,
+        1.771315388618606
+      ],
+      [
+        2.4149999999999996,
+        9.05625
+      ],
+      null
+    ],
+    "självrättning": [
+      true,
+      true,
+      true
+    ],
     "familjNyckelTidigare": "farg_ljusstyrka__stjarnfarg_och_temperatur",
     "ledtrad": "<p>Den vita komponenten. Trots att den totala luminositeten är ungefär lika stor för båda är fördelningen helt olika.</p>",
     "spelDelning": "deluppgifter",
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En dubbelstjärna består av en het vit komponent med yttemperaturen 12 000 K och radien 1,8 solradier, och en sval röd komponent med yttemperaturen 3200 K och radien 25 solradier. Solens yttemperatur är 5772 K och Wiens konstant 2,898·10<sup>−3</sup> m·K.</p><div class=\"spel-en-del\"><p>Beräkna varje komponents luminositet i solenheter. Vilken dominerar den totala luminositeten?</p></div>",
+        "t": "<p>En dubbelstjärna består av en het vit komponent med yttemperaturen 12 000 K och radien 1,8 solradier, och en sval röd komponent med yttemperaturen 3200 K och radien 25 solradier. Solens yttemperatur är 5772 K.</p><div class=\"spel-en-del\"><p>Beräkna varje komponents luminositet i solenheter. (Svara med den vita och den röda komponentens luminositet, i den ordningen.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_{\\odot}}=\\left(\\frac{R}{R_{\\odot}}\\right)^2\\left(\\frac{T}{T_{\\odot}}\\right)^4\\]\\[L_{\\text{vit}}=1{,}8^2\\cdot\\left(\\frac{12000}{5772}\\right)^4=3{,}24\\cdot18{,}7=61\\ L_{\\odot}\\]\\[L_{\\text{röd}}=25^2\\cdot\\left(\\frac{3200}{5772}\\right)^4=625\\cdot0{,}0945=59\\ L_{\\odot}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Komponenterna har nästan exakt samma luminositet, \\(61\\) respektive \\(59\\ L_{\\odot}\\). Ingen av dem dominerar.</p></div></div>",
         "ledtrad": "<p>Den vita komponenten. Trots att den totala luminositeten är ungefär lika stor för båda är fördelningen helt olika.</p>",
         "niva": "A",
-        "poang": "0/0/1"
+        "poang": "0/0/1",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Vita komponenten",
+          "Röda komponenten"
+        ]
       },
       {
         "etikett": "b",
-        "t": "<p>En dubbelstjärna består av en het vit komponent med yttemperaturen 12 000 K och radien 1,8 solradier, och en sval röd komponent med yttemperaturen 3200 K och radien 25 solradier. Solens yttemperatur är 5772 K och Wiens konstant 2,898·10<sup>−3</sup> m·K.</p><div class=\"spel-en-del\"><p>Bestäm var vardera komponenten har sitt strålningsmaximum.</p></div>",
+        "t": "<p>En dubbelstjärna består av en het vit komponent med yttemperaturen 12 000 K och radien 1,8 solradier, och en sval röd komponent med yttemperaturen 3200 K och radien 25 solradier. Solens yttemperatur är 5772 K.</p><div class=\"spel-en-del\"><p>Bestäm var vardera komponenten har sitt strålningsmaximum. (Svara i nm, den vita komponenten först.)</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\lambda_{\\text{vit}}=\\frac{2{,}898\\cdot10^{-3}}{12000}=242\\ \\mathrm{nm}\\]\\[\\lambda_{\\text{röd}}=\\frac{2{,}898\\cdot10^{-3}}{3200}=906\\ \\mathrm{nm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den vita har maximum vid \\(242\\ \\mathrm{nm}\\) i ultraviolett, den röda vid \\(906\\ \\mathrm{nm}\\) i infrarött. Ingen av dem har alltså sitt maximum i det synliga området.</p></div></div>",
         "ledtrad": "<p>Den vita komponenten. Trots att den totala luminositeten är ungefär lika stor för båda är fördelningen helt olika.</p>",
         "niva": "A",
-        "poang": "0/0/1"
+        "poang": "0/0/1",
+        "svarsstruktur": "ordnad",
+        "svarEtiketter": [
+          "Vita komponenten",
+          "Röda komponenten"
+        ]
       },
       {
         "etikett": "c",
-        "t": "<p>En dubbelstjärna består av en het vit komponent med yttemperaturen 12 000 K och radien 1,8 solradier, och en sval röd komponent med yttemperaturen 3200 K och radien 25 solradier. Solens yttemperatur är 5772 K och Wiens konstant 2,898·10<sup>−3</sup> m·K.</p><div class=\"spel-en-del\"><p>Om systemet fotograferas genom ett blått filter, vilken komponent syns tydligast? Motivera.</p></div>",
+        "t": "<p>En dubbelstjärna består av en het vit komponent med yttemperaturen 12 000 K och radien 1,8 solradier, och en sval röd komponent med yttemperaturen 3200 K och radien 25 solradier. Solens yttemperatur är 5772 K.</p><div class=\"spel-en-del\"><p>Om systemet fotograferas genom ett blått filter, vilken komponent syns tydligast?</p></div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den vita komponenten.</p></li><li><p>Trots att den totala luminositeten är ungefär lika stor för båda är fördelningen helt olika.</p></li><li><p>Den vita stjärnan strålar mest på korta våglängder och har därför en stor del av sin strålning i blått, medan den röda stjärnan har nästan hela sin strålning i infrarött och bidrar mycket lite i blått.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den vita komponenten syns tydligast i blått ljus, eftersom dess strålning är förskjuten mot korta våglängder.</p></div></div>",
         "ledtrad": "<p>Den vita komponenten. Trots att den totala luminositeten är ungefär lika stor för båda är fördelningen helt olika.</p>",
         "niva": "A",
-        "poang": "0/0/1"
+        "poang": "0/0/1",
+        "svarstyp": "alternativ",
+        "rättSvar": "Den vita, heta komponenten",
+        "självrättning": true,
+        "svarFormat": null,
+        "svarEnhet": null,
+        "tolerans": null,
+        "alternativ": [
+          {
+            "txt": "Den vita, heta komponenten",
+            "ratt": true,
+            "kommentar": "Den strålar mest vid korta våglängder."
+          },
+          {
+            "txt": "Den röda komponenten",
+            "ratt": false,
+            "kommentar": "Den strålar mest i rött och infrarött."
+          },
+          {
+            "txt": "De syns lika tydligt",
+            "ratt": false,
+            "kommentar": "Luminositeterna är lika, men fördelningen över våglängder skiljer sig."
+          }
+        ]
       }
     ],
     "familjTidigare": [
       "Stjärnors färg, temperatur och ljusstyrka"
-    ]
+    ],
+    "svarFormat": [
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      [
+        "numeriskt",
+        "numeriskt"
+      ],
+      null
+    ],
+    "svarEnhet": [
+      [
+        null,
+        null
+      ],
+      [
+        "nm",
+        "nm"
+      ],
+      null
+    ],
+    "svarEtiketter": [
+      "a",
+      "b",
+      "c"
+    ],
+    "svarsstruktur": "ordnad",
+    "traningsniva": 3
   },
   {
     "id": "2.178",
@@ -42540,7 +43304,8 @@ window.BANK2 = [
     "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>",
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
-    ]
+    ],
+    "traningsniva": 1
   },
   {
     "id": "5.310",
@@ -42563,7 +43328,8 @@ window.BANK2 = [
     "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>",
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
-    ]
+    ],
+    "traningsniva": 1
   },
   {
     "id": "5.311",
@@ -42589,7 +43355,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
-    ]
+    ],
+    "traningsniva": 1
   },
   {
     "id": "5.312",
@@ -42615,7 +43382,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
-    ]
+    ],
+    "traningsniva": 1
   },
   {
     "id": "5.313",
@@ -42641,7 +43409,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
-    ]
+    ],
+    "traningsniva": 1
   },
   {
     "id": "5.314",
@@ -42667,7 +43436,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
-    ]
+    ],
+    "traningsniva": 1
   },
   {
     "id": "5.315",
@@ -42676,7 +43446,7 @@ window.BANK2 = [
     "niva": "E",
     "poang": "(2/0/0)",
     "t": "<p>Varför har mycket massiva huvudseriestjärnor kortare livslängd än solen trots att de har mer bränsle?</p><p>A. De har ingen fusion<br>B. De förbrukar bränslet mycket snabbare eftersom luminositeten är mycket större<br>C. De innehåller inget väte<br>D. De är kallare än alla andra stjärnor</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Skriv reaktionen så att laddningstal och masstal balanserar.</p></li><li><p class=\"facit-metod\">Vid sönderfall minskar antalet kärnor exponentiellt, medan frigjord energi kommer från masskillnaden.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Massiva stjärnor har mycket hög energiproduktion och förbrukar därför sitt bränsle snabbare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Antalet kärnor och aktiviteten ska minska med samma halveringsfaktor.</p></li><li><p class=\"facit-not\">Kontrollera att masskillnaden ger positiv frigjord energi.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Massiva stjärnor har mycket hög energiproduktion och förbrukar därför sitt bränsle snabbare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div></div>",
     "familj": "Stjärnors livslängd och slutstadier",
     "formaga": [
       "begrepp"
@@ -42690,7 +43460,8 @@ window.BANK2 = [
     "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>",
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
-    ]
+    ],
+    "traningsniva": 1
   },
   {
     "id": "5.337",
@@ -43813,7 +44584,7 @@ window.BANK2 = [
     "omr": "farg_ljusstyrka",
     "niva": "C",
     "poang": "(1/2/0)",
-    "t": "<p>Två stjärnor har samma yttemperatur, men stjärna A har hundra gånger större luminositet än stjärna B.</p><div class=\"fig smal\"><svg width=\"460\" height=\"330\" viewBox=\"0 0 460 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Schematiskt HR-diagram\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"25\" width=\"360\" height=\"260\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" rx=\"4\"/><line x1=\"107.4\" y1=\"285\" x2=\"107.4\" y2=\"290\" stroke=\"#24262b\"/><text x=\"107\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">30 000</text><line x1=\"250.0\" y1=\"285\" x2=\"250.0\" y2=\"290\" stroke=\"#24262b\"/><text x=\"250\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">10 000</text><line x1=\"316.3\" y1=\"285\" x2=\"316.3\" y2=\"290\" stroke=\"#24262b\"/><text x=\"316\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">6 000</text><line x1=\"406.3\" y1=\"285\" x2=\"406.3\" y2=\"290\" stroke=\"#24262b\"/><text x=\"406\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">3 000</text><text x=\"250\" y=\"325\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">yttemperatur (K)</text><line x1=\"65\" y1=\"261.4\" x2=\"70\" y2=\"261.4\" stroke=\"#24262b\"/><text x=\"62\" y=\"265.4\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">-4</tspan></text><line x1=\"65\" y1=\"214.1\" x2=\"70\" y2=\"214.1\" stroke=\"#24262b\"/><text x=\"62\" y=\"218.1\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">-2</tspan></text><line x1=\"65\" y1=\"166.8\" x2=\"70\" y2=\"166.8\" stroke=\"#24262b\"/><text x=\"62\" y=\"170.8\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">0</tspan></text><line x1=\"65\" y1=\"119.5\" x2=\"70\" y2=\"119.5\" stroke=\"#24262b\"/><text x=\"62\" y=\"123.5\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">2</tspan></text><line x1=\"65\" y1=\"72.3\" x2=\"70\" y2=\"72.3\" stroke=\"#24262b\"/><text x=\"62\" y=\"76.3\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">4</tspan></text><line x1=\"65\" y1=\"25.0\" x2=\"70\" y2=\"25.0\" stroke=\"#24262b\"/><text x=\"62\" y=\"29.0\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">6</tspan></text><text x=\"22\" y=\"155.0\" font-family=\"Arial\" font-size=\"12\" text-anchor=\"middle\" transform=\"rotate(-90 22 155.0)\">luminositet (L☉)</text><polyline points=\"87.3,41.5 160.0,72.3 250.0,129.0 296.3,150.3 320.7,166.8 353.7,183.3 386.3,207.0 415.3,230.6\" fill=\"none\" stroke=\"#60a5fa\" stroke-width=\"16\" stroke-linecap=\"round\" opacity=\"0.45\"/><text x=\"373\" y=\"216\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">huvudserien</text><ellipse cx=\"359.6\" cy=\"115.4\" rx=\"45\" ry=\"20\" fill=\"#f97316\" opacity=\"0.55\"/><text x=\"360\" y=\"155\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">röda jättar</text><ellipse cx=\"273.2\" cy=\"41.5\" rx=\"125\" ry=\"13\" fill=\"#fde68a\" opacity=\"0.45\"/><text x=\"273\" y=\"26\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">superjättar</text><ellipse cx=\"206.3\" cy=\"226.4\" rx=\"42\" ry=\"14\" fill=\"#9ca3af\" opacity=\"0.45\"/><text x=\"206\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">vita dvärgar</text></svg></div><p>Hur många gånger större radie har A?</p>",
+    "t": "<p>Två stjärnor har samma yttemperatur, men stjärna A har hundra gånger större luminositet än stjärna B.</p><div class=\"fig smal\"><svg width=\"460\" height=\"330\" viewBox=\"0 0 460 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Schematiskt HR-diagram\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"25\" width=\"360\" height=\"260\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" rx=\"4\"/><line x1=\"107.4\" y1=\"285\" x2=\"107.4\" y2=\"290\" stroke=\"#24262b\"/><text x=\"107\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">30 000</text><line x1=\"250.0\" y1=\"285\" x2=\"250.0\" y2=\"290\" stroke=\"#24262b\"/><text x=\"250\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">10 000</text><line x1=\"316.3\" y1=\"285\" x2=\"316.3\" y2=\"290\" stroke=\"#24262b\"/><text x=\"316\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">6 000</text><line x1=\"406.3\" y1=\"285\" x2=\"406.3\" y2=\"290\" stroke=\"#24262b\"/><text x=\"406\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">3 000</text><text x=\"250\" y=\"325\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">yttemperatur (K)</text><line x1=\"65\" y1=\"261.4\" x2=\"70\" y2=\"261.4\" stroke=\"#24262b\"/><text x=\"62\" y=\"265.4\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">-4</tspan></text><line x1=\"65\" y1=\"214.1\" x2=\"70\" y2=\"214.1\" stroke=\"#24262b\"/><text x=\"62\" y=\"218.1\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">-2</tspan></text><line x1=\"65\" y1=\"166.8\" x2=\"70\" y2=\"166.8\" stroke=\"#24262b\"/><text x=\"62\" y=\"170.8\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">0</tspan></text><line x1=\"65\" y1=\"119.5\" x2=\"70\" y2=\"119.5\" stroke=\"#24262b\"/><text x=\"62\" y=\"123.5\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">2</tspan></text><line x1=\"65\" y1=\"72.3\" x2=\"70\" y2=\"72.3\" stroke=\"#24262b\"/><text x=\"62\" y=\"76.3\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">4</tspan></text><line x1=\"65\" y1=\"25.0\" x2=\"70\" y2=\"25.0\" stroke=\"#24262b\"/><text x=\"62\" y=\"29.0\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">6</tspan></text><text x=\"22\" y=\"155.0\" font-family=\"Arial\" font-size=\"12\" text-anchor=\"middle\" transform=\"rotate(-90 22 155.0)\">luminositet (L☉)</text><polyline points=\"87.3,41.5 160.0,72.3 250.0,129.0 296.3,150.3 320.7,166.8 353.7,183.3 386.3,207.0 415.3,230.6\" fill=\"none\" stroke=\"#60a5fa\" stroke-width=\"16\" stroke-linecap=\"round\" opacity=\"0.45\"/><text x=\"373\" y=\"216\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">huvudserien</text><ellipse cx=\"359.6\" cy=\"115.4\" rx=\"45\" ry=\"20\" fill=\"#f97316\" opacity=\"0.55\"/><text x=\"360\" y=\"155\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">röda jättar</text><ellipse cx=\"273.2\" cy=\"41.5\" rx=\"125\" ry=\"13\" fill=\"#fde68a\" opacity=\"0.45\"/><text x=\"273\" y=\"26\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">superjättar</text><ellipse cx=\"206.3\" cy=\"226.4\" rx=\"42\" ry=\"14\" fill=\"#9ca3af\" opacity=\"0.45\"/><text x=\"206\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">vita dvärgar</text></svg></div><p>Hur många gånger större radie har A? (Svara med ett tal.)</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">När temperaturen är samma gäller \\(L\\propto R^2\\).</p></li><li><div class=\"facit-matte\">\\[\\frac{R_A}{R_B}=\\sqrt{\\frac{L_A}{L_B}}=\\sqrt{100}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A har 10 gånger större radie.</p></div>",
     "familj": "Läsa HR-diagrammet",
     "formaga": [
@@ -43834,7 +44605,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
-    ]
+    ],
+    "traningsniva": 2
   },
   {
     "id": "5.324",
@@ -43862,7 +44634,8 @@ window.BANK2 = [
     ],
     "familjTidigare": [
       "Stjärnors utveckling och HR-diagram"
-    ]
+    ],
+    "traningsniva": 1
   },
   {
     "kap": 5,
@@ -44275,7 +45048,7 @@ window.BANK2 = [
     "niva": "A",
     "typ": "Betelgeuse",
     "poang": "(3/1/1)",
-    "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p><ol type=\"a\"><li>Bestäm avståndet.</li><li>Bestäm den absoluta magnituden.</li><li>Hur många gånger större luminositet än solen har Betelgeuse?</li><li>Hur många solradier är Betelgeuses radie?</li></ol>",
+    "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p><ol type=\"a\"><li>Bestäm avståndet.</li><li>Bestäm den absoluta magnituden.</li><li>Hur många gånger större luminositet än solen har Betelgeuse?</li><li>Hur många solradier är Betelgeuses radie?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=\\dfrac{1}{0{,}00451}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(222\\) pc</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=0{,}50+5-5\\lg222\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-6{,}23\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{P}{P_\\odot}=10^{-0{,}4\\cdot(-6{,}23)+1{,}932}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\,524\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{R}{R_\\odot}=\\sqrt{\\dfrac{P}{P_\\odot}}\\left(\\dfrac{5\\,772}{3\\,500}\\right)^2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(443\\)</p></li></ol></div>",
     "id": "5.366",
     "miniräknare": true,
@@ -44324,7 +45097,7 @@ window.BANK2 = [
       {
         "etikett": "a",
         "fraga": "Bestäm avståndet.",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p><p>Bestäm avståndet.</p>",
+        "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p><p>Bestäm avståndet.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=\\dfrac{1}{0{,}00451}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(222\\) pc</p></div>",
         "ledtrad": "<p>\\(r=\\dfrac1p\\).</p>",
         "niva": "E",
@@ -44334,7 +45107,7 @@ window.BANK2 = [
       {
         "etikett": "b",
         "fraga": "Bestäm den absoluta magnituden.",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p>Avståndet är 222 pc.<p>Bestäm den absoluta magnituden.</p>",
+        "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p>Avståndet är 222 pc.<p>Bestäm den absoluta magnituden.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=0{,}50+5-5\\lg222\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-6{,}23\\)</p></div>",
         "ledtrad": "<p>\\(M=m+5-5\\lg r\\).</p>",
         "niva": "E",
@@ -44344,7 +45117,7 @@ window.BANK2 = [
       {
         "etikett": "c",
         "fraga": "Hur många gånger större luminositet än solen har Betelgeuse?",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p>Den absoluta magnituden är −6,23.<p>Hur många gånger större luminositet än solen har Betelgeuse?</p>",
+        "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p>Den absoluta magnituden är −6,23.<p>Hur många gånger större luminositet än solen har Betelgeuse?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{P}{P_\\odot}=10^{-0{,}4\\cdot(-6{,}23)+1{,}932}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(26\\,524\\)</p></div>",
         "ledtrad": "<p>Sätt in i formeln.</p>",
         "niva": "E",
@@ -44354,7 +45127,7 @@ window.BANK2 = [
       {
         "etikett": "d",
         "fraga": "Hur många solradier är Betelgeuses radie?",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p>Luminositeten är \\(2{,}6\\cdot10^4P_\\odot\\).<p>Hur många solradier är Betelgeuses radie?</p>",
+        "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Betelgeuse har parallaxen 0,00451″, den apparenta magnituden +0,50 och yttemperaturen 3 500 K. Solens yttemperatur är 5 772 K.</p>Luminositeten är \\(2{,}6\\cdot10^4P_\\odot\\).<p>Hur många solradier är Betelgeuses radie?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\dfrac{R}{R_\\odot}=\\sqrt{\\dfrac{P}{P_\\odot}}\\left(\\dfrac{5\\,772}{3\\,500}\\right)^2\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(443\\)</p></div>",
         "ledtrad": "<p>Räkna med förhållanden till solen.</p>",
         "niva": "A",
@@ -44372,7 +45145,7 @@ window.BANK2 = [
     "niva": "A",
     "typ": "Sirius parallax",
     "poang": "(0/1/2)",
-    "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Sirius har radien \\(1{,}711R_\\odot\\), yttemperaturen 9 940 K och den apparenta magnituden −1,47. Solens yttemperatur är 5 772 K. Bestäm Sirius parallax.</p>",
+    "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Sirius har radien \\(1{,}711R_\\odot\\), yttemperaturen 9 940 K och den apparenta magnituden −1,47. Solens yttemperatur är 5 772 K. Bestäm Sirius parallax.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\dfrac{P}{P_\\odot}=1{,}711^2\\left(\\dfrac{9\\,940}{5\\,772}\\right)^4\\approx25{,}7\\), så \\(M\\approx1{,}30\\).</p></li><li><div class=\"facit-matte\">\\[\\lg r=\\dfrac{m-M+5}{5}\\],</div></li><li><div class=\"facit-matte\">\\[p=\\dfrac1r\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}359\\) ″</p></div>",
     "id": "5.367",
     "miniräknare": true,
@@ -44397,7 +45170,7 @@ window.BANK2 = [
     "niva": "A",
     "typ": "Gamma Comae Berenices",
     "poang": "(2/2/1)",
-    "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Gamma Comae Berenices har den apparenta magnituden +4,36 och parallaxen 0,01925″. Strålningen har sitt maximum vid 632 nm. Wiens lag: \\(\\lambda_{max}T=2{,}8978\\cdot10^{-3}\\) m·K.</p><ol type=\"a\"><li>Bestäm den absoluta magnituden.</li><li>Beräkna stjärnans yttemperatur.</li><li>Hur stor intensitet når jorden från stjärnan?</li></ol>",
+    "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Gamma Comae Berenices har den apparenta magnituden +4,36 och parallaxen 0,01925″. Strålningen har sitt maximum vid 632 nm.</p><ol type=\"a\"><li>Bestäm den absoluta magnituden.</li><li>Beräkna stjärnans yttemperatur.</li><li>Hur stor intensitet når jorden från stjärnan?</li></ol>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol type=\"a\"><li><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\dfrac1{0{,}01925}\\approx51{,}9\\) pc.</p></li><li><div class=\"facit-matte\">\\[M=4{,}36+5-5\\lg51{,}9\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}782\\)</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=\\dfrac{2{,}8978\\cdot10^{-3}}{632\\cdot10^{-9}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,585\\) K</p></li><li><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P\\approx41{,}6P_\\odot\\].</div></li><li><p>\\(I=\\dfrac{P}{4\\pi r^2}\\) med \\(r=51{,}9\\cdot3{,}086\\cdot10^{16}\\) m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}93\\cdot10^{-10}\\) W/m²</p></li></ol></div>",
     "id": "5.368",
     "miniräknare": true,
@@ -44441,7 +45214,7 @@ window.BANK2 = [
       {
         "etikett": "a",
         "fraga": "Bestäm den absoluta magnituden.",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Gamma Comae Berenices har den apparenta magnituden +4,36 och parallaxen 0,01925″. Strålningen har sitt maximum vid 632 nm. Wiens lag: \\(\\lambda_{max}T=2{,}8978\\cdot10^{-3}\\) m·K.</p><p>Bestäm den absoluta magnituden.</p>",
+        "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Gamma Comae Berenices har den apparenta magnituden +4,36 och parallaxen 0,01925″. Strålningen har sitt maximum vid 632 nm.</p><p>Bestäm den absoluta magnituden.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(r=\\dfrac1{0{,}01925}\\approx51{,}9\\) pc.</p></li><li><div class=\"facit-matte\">\\[M=4{,}36+5-5\\lg51{,}9\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}782\\)</p></div>",
         "ledtrad": "<p>Bestäm avståndet först.</p>",
         "niva": "E",
@@ -44451,7 +45224,7 @@ window.BANK2 = [
       {
         "etikett": "b",
         "fraga": "Beräkna stjärnans yttemperatur.",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Gamma Comae Berenices har den apparenta magnituden +4,36 och parallaxen 0,01925″. Strålningen har sitt maximum vid 632 nm. Wiens lag: \\(\\lambda_{max}T=2{,}8978\\cdot10^{-3}\\) m·K.</p><p>Beräkna stjärnans yttemperatur.</p>",
+        "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Gamma Comae Berenices har den apparenta magnituden +4,36 och parallaxen 0,01925″. Strålningen har sitt maximum vid 632 nm.</p><p>Beräkna stjärnans yttemperatur.</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=\\dfrac{2{,}8978\\cdot10^{-3}}{632\\cdot10^{-9}}\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\,585\\) K</p></div>",
         "ledtrad": "<p>Wiens lag.</p>",
         "niva": "E",
@@ -44461,7 +45234,7 @@ window.BANK2 = [
       {
         "etikett": "c",
         "fraga": "Hur stor intensitet når jorden från stjärnan?",
-        "t": "<p>Absolut magnitud: \\(M=m+5-5\\lg r\\) där \\(r\\) är avståndet i parsec.</p><p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Gamma Comae Berenices har den apparenta magnituden +4,36 och parallaxen 0,01925″. Strålningen har sitt maximum vid 632 nm. Wiens lag: \\(\\lambda_{max}T=2{,}8978\\cdot10^{-3}\\) m·K.</p>Den absoluta magnituden är 0,782 och avståndet 51,9 pc.<p>Hur stor intensitet når jorden från stjärnan?</p>",
+        "t": "<p>Luminositet: \\(P=P_\\odot\\cdot10^{-0{,}4M+1{,}932}\\) där \\(P_\\odot=3{,}828\\cdot10^{26}\\) W.</p><p>Gamma Comae Berenices har den apparenta magnituden +4,36 och parallaxen 0,01925″. Strålningen har sitt maximum vid 632 nm.</p>Den absoluta magnituden är 0,782 och avståndet 51,9 pc.<p>Hur stor intensitet når jorden från stjärnan?</p>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P\\approx41{,}6P_\\odot\\].</div></li><li><p>\\(I=\\dfrac{P}{4\\pi r^2}\\) med \\(r=51{,}9\\cdot3{,}086\\cdot10^{16}\\) m.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}93\\cdot10^{-10}\\) W/m²</p></div>",
         "ledtrad": "<p>Bestäm luminositeten och fördela den på en sfär.</p>",
         "niva": "A",
@@ -55984,7 +56757,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "typ": "yttemperatur med Wiens förskjutningslag",
-  "t": "<p>Wiens förskjutningslag: \\(\\lambda_{\\max}T=2{,}898\\cdot10^{-3}\\) m·K.</p><p>En stjärnas strålning är intensivast vid våglängden 500 nm. Bestäm stjärnans yttemperatur. (Svara i K med två värdesiffror.)</p>",
+  "t": "<p>En stjärnas strålning är intensivast vid våglängden 500 nm. Bestäm stjärnans yttemperatur. (Svara i K med två värdesiffror.)</p>",
   "s": "<div class=\"facit-v2\"><p>\\(T=\\dfrac{2{,}898\\cdot10^{-3}}{500\\cdot10^{-9}}\\approx5\\,800\\) K. Det är ungefär solens yttemperatur.</p></div>",
   "familj": "Temperatur, strålning och HR-diagram",
   "formaga": [
@@ -56051,7 +56824,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "typ": "luminositet vid dubbel temperatur",
-  "t": "<p>Stefan–Boltzmanns lag för en stjärna: \\(L=4\\pi R^2\\sigma T^4\\).</p><p>Två stjärnor har samma radie, men den ena har dubbelt så hög yttemperatur. Hur många gånger större är dess luminositet?</p>",
+  "t": "<p>Två stjärnor har samma radie, men den ena har dubbelt så hög yttemperatur. Hur många gånger större är dess luminositet? (Svara med ett tal.)</p>",
   "s": "<div class=\"facit-v2\"><p>Med samma radie är \\(L\\propto T^4\\). Dubbel temperatur ger \\(2^4=16\\) gånger så stor luminositet.</p></div>",
   "familj": "Temperatur, strålning och HR-diagram",
   "formaga": [
@@ -56169,7 +56942,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "typ": "en vit dvärgs radie",
-  "t": "<p>Stefan–Boltzmanns lag ger \\(\\dfrac{L}{L_\\odot}=\\left(\\dfrac{R}{R_\\odot}\\right)^2\\left(\\dfrac{T}{T_\\odot}\\right)^4\\), där solens yttemperatur är 5 800 K.</p><p>Den vita dvärgen Sirius B har luminositeten 0,056 gånger solens och yttemperaturen 25 000 K. Hur många gånger solens radie är dess radie? (Svara med två värdesiffror.)</p>",
+  "t": "<p>Räkna med att solens yttemperatur är 5 800 K.</p><p>Den vita dvärgen Sirius B har luminositeten 0,056 gånger solens och yttemperaturen 25 000 K. Hur många gånger solens radie är dess radie? (Svara med två värdesiffror.)</p>",
   "s": "<div class=\"facit-v2\"><p>\\(\\dfrac{R}{R_\\odot}=\\sqrt{\\dfrac{L}{L_\\odot}}\\cdot\\left(\\dfrac{T_\\odot}{T}\\right)^2=\\sqrt{0{,}056}\\cdot\\left(\\dfrac{5800}{25000}\\right)^2\\approx0{,}013\\).</p><p>Det motsvarar ungefär jordens storlek: hög temperatur men liten yta ger låg luminositet.</p></div>",
   "familj": "Temperatur, strålning och HR-diagram",
   "formaga": [
@@ -62882,5 +63655,614 @@ window.BANK2 = [
   "svarFormat": "numeriskt",
   "rättSvar": 4,
   "tolerans": 0.05
+},
+{
+  "id": "5.447",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "C",
+  "typ": "kedja från parallax till radie (Arcturus)",
+  "poang": "(0/2/1)",
+  "t": "<p>Den orange jättestjärnan Arcturus har parallaxen 0,0889″, apparent magnitud −0,05 och yttemperaturen 4 290 K.</p><p>Magnituderna gäller all strålning från stjärnan, vid alla våglängder.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"400\" viewBox=\"0 0 470 400\" role=\"img\" aria-label=\"HR-diagram med verkliga stjärnor där Arcturus och solen är utmärkta. Små prickar visar verkliga stjärnor.\"><title>HR-diagram med verkliga stjärnor där Arcturus och solen är utmärkta. Små prickar visar verkliga stjärnor.</title><rect x=\"1\" y=\"1\" width=\"468\" height=\"398\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"78\" y=\"48\" width=\"362\" height=\"294\" fill=\"#0f1b2d\"/><line x1=\"115.6\" y1=\"48\" x2=\"115.6\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"168.5\" y1=\"48\" x2=\"168.5\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"206.1\" y1=\"48\" x2=\"206.1\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"259.0\" y1=\"48\" x2=\"259.0\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"288.1\" y1=\"48\" x2=\"288.1\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"325.7\" y1=\"48\" x2=\"325.7\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"349.5\" y1=\"48\" x2=\"349.5\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"378.6\" y1=\"48\" x2=\"378.6\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"416.2\" y1=\"48\" x2=\"416.2\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"78\" y1=\"48.0\" x2=\"440\" y2=\"48.0\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"59.3\" x2=\"440\" y2=\"59.3\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"70.6\" x2=\"440\" y2=\"70.6\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"81.9\" x2=\"440\" y2=\"81.9\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"93.2\" x2=\"440\" y2=\"93.2\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"104.5\" x2=\"440\" y2=\"104.5\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"115.8\" x2=\"440\" y2=\"115.8\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"127.2\" x2=\"440\" y2=\"127.2\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"138.5\" x2=\"440\" y2=\"138.5\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"149.8\" x2=\"440\" y2=\"149.8\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"161.1\" x2=\"440\" y2=\"161.1\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"172.4\" x2=\"440\" y2=\"172.4\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"183.7\" x2=\"440\" y2=\"183.7\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"195.0\" x2=\"440\" y2=\"195.0\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"206.3\" x2=\"440\" y2=\"206.3\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"217.6\" x2=\"440\" y2=\"217.6\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"228.9\" x2=\"440\" y2=\"228.9\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"240.2\" x2=\"440\" y2=\"240.2\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"251.5\" x2=\"440\" y2=\"251.5\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"262.8\" x2=\"440\" y2=\"262.8\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"274.2\" x2=\"440\" y2=\"274.2\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"285.5\" x2=\"440\" y2=\"285.5\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"296.8\" x2=\"440\" y2=\"296.8\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"308.1\" x2=\"440\" y2=\"308.1\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"319.4\" x2=\"440\" y2=\"319.4\" stroke=\"#22324a\" stroke-width=\"1\"/><line x1=\"78\" y1=\"330.7\" x2=\"440\" y2=\"330.7\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"342.0\" x2=\"440\" y2=\"342.0\" stroke=\"#22324a\" stroke-width=\"1\"/><polyline points=\"78.0,96.6 115.6,115.8 168.5,133.9 206.1,147.5 259.0,167.9 284.9,182.6 301.9,191.6 313.3,200.7 325.7,210.8 330.1,214.2 344.4,227.8 366.2,244.8 385.3,261.7 407.8,300.2 425.2,330.7\" fill=\"none\" stroke=\"#9fc4ff\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".13\"/><circle cx=\"330.3\" cy=\"210.8\" r=\"1.9\" fill=\"#ffefcb\" opacity=\".85\"/><circle cx=\"342.9\" cy=\"225.5\" r=\"1.7\" fill=\"#ffe4ae\" opacity=\".85\"/><circle cx=\"340.9\" cy=\"225.5\" r=\"1.7\" fill=\"#ffe5b2\" opacity=\".85\"/><circle cx=\"347.4\" cy=\"231.2\" r=\"1.6\" fill=\"#ffe0a4\" opacity=\".85\"/><circle cx=\"366.2\" cy=\"245.9\" r=\"1.6\" fill=\"#ffc888\" opacity=\".85\"/><circle cx=\"377.3\" cy=\"254.9\" r=\"1.6\" fill=\"#ffba7a\" opacity=\".85\"/><circle cx=\"359.5\" cy=\"240.2\" r=\"1.6\" fill=\"#ffd091\" opacity=\".85\"/><circle cx=\"341.9\" cy=\"223.3\" r=\"1.7\" fill=\"#ffe5b0\" opacity=\".85\"/><circle cx=\"326.3\" cy=\"213.1\" r=\"1.8\" fill=\"#fff3d4\" opacity=\".85\"/><circle cx=\"341.9\" cy=\"227.8\" r=\"1.6\" fill=\"#ffe5b0\" opacity=\".85\"/><circle cx=\"339.5\" cy=\"221.0\" r=\"1.7\" fill=\"#ffe7b6\" opacity=\".85\"/><circle cx=\"334.7\" cy=\"213.1\" r=\"1.8\" fill=\"#ffebc0\" opacity=\".85\"/><circle cx=\"328.6\" cy=\"199.5\" r=\"2.0\" fill=\"#fff1cf\" opacity=\".85\"/><circle cx=\"330.1\" cy=\"208.6\" r=\"1.9\" fill=\"#fff0cb\" opacity=\".85\"/><circle cx=\"314.6\" cy=\"191.6\" r=\"2.1\" fill=\"#faf4e4\" opacity=\".85\"/><circle cx=\"293.1\" cy=\"186.0\" r=\"2.2\" fill=\"#edf2ff\" opacity=\".85\"/><circle cx=\"278.8\" cy=\"180.3\" r=\"2.3\" fill=\"#e1eaff\" opacity=\".85\"/><circle cx=\"259.8\" cy=\"176.9\" r=\"2.4\" fill=\"#cedfff\" opacity=\".85\"/><circle cx=\"264.3\" cy=\"167.9\" r=\"2.5\" fill=\"#d3e2ff\" opacity=\".85\"/><circle cx=\"255.1\" cy=\"167.9\" r=\"2.5\" fill=\"#ccdeff\" opacity=\".85\"/><circle cx=\"293.1\" cy=\"179.2\" r=\"2.3\" fill=\"#edf2ff\" opacity=\".85\"/><circle cx=\"280.2\" cy=\"182.6\" r=\"2.3\" fill=\"#e2ebff\" opacity=\".85\"/><circle cx=\"269.9\" cy=\"167.9\" r=\"2.5\" fill=\"#d8e5ff\" opacity=\".85\"/><circle cx=\"305.6\" cy=\"174.6\" r=\"2.4\" fill=\"#f5f4f1\" opacity=\".85\"/><circle cx=\"230.3\" cy=\"154.3\" r=\"2.7\" fill=\"#c7daff\" opacity=\".85\"/><circle cx=\"224.7\" cy=\"159.9\" r=\"2.6\" fill=\"#c6d9ff\" opacity=\".85\"/><circle cx=\"206.1\" cy=\"129.4\" r=\"3.1\" fill=\"#c2d6ff\" opacity=\".85\"/><circle cx=\"156.1\" cy=\"129.4\" r=\"3.1\" fill=\"#b2cbff\" opacity=\".85\"/><circle cx=\"137.8\" cy=\"121.5\" r=\"3.2\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"124.6\" cy=\"113.6\" r=\"3.3\" fill=\"#a4c1ff\" opacity=\".85\"/><circle cx=\"129.3\" cy=\"117.0\" r=\"3.2\" fill=\"#a7c3ff\" opacity=\".85\"/><circle cx=\"156.1\" cy=\"114.7\" r=\"3.3\" fill=\"#b2cbff\" opacity=\".85\"/><circle cx=\"139.4\" cy=\"103.4\" r=\"3.5\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"139.4\" cy=\"100.0\" r=\"3.5\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"120.0\" cy=\"101.1\" r=\"3.5\" fill=\"#a2c0ff\" opacity=\".85\"/><circle cx=\"414.5\" cy=\"336.3\" r=\"1.6\" fill=\"#ff8e5b\" opacity=\".85\"/><circle cx=\"410.7\" cy=\"310.3\" r=\"1.6\" fill=\"#ff925e\" opacity=\".85\"/><circle cx=\"408.2\" cy=\"313.7\" r=\"1.6\" fill=\"#ff9560\" opacity=\".85\"/><circle cx=\"405.7\" cy=\"309.2\" r=\"1.6\" fill=\"#ff9762\" opacity=\".85\"/><circle cx=\"409.8\" cy=\"295.6\" r=\"1.6\" fill=\"#ff935e\" opacity=\".85\"/><circle cx=\"394.2\" cy=\"279.8\" r=\"1.6\" fill=\"#ffa56a\" opacity=\".85\"/><circle cx=\"393.5\" cy=\"284.3\" r=\"1.6\" fill=\"#ffa66b\" opacity=\".85\"/><circle cx=\"388.8\" cy=\"277.5\" r=\"1.6\" fill=\"#ffac6f\" opacity=\".85\"/><circle cx=\"389.2\" cy=\"269.6\" r=\"1.6\" fill=\"#ffab6f\" opacity=\".85\"/><circle cx=\"404.9\" cy=\"293.4\" r=\"1.6\" fill=\"#ff9862\" opacity=\".85\"/><circle cx=\"392.4\" cy=\"278.7\" r=\"1.6\" fill=\"#ffa76c\" opacity=\".85\"/><circle cx=\"381.9\" cy=\"259.5\" r=\"1.6\" fill=\"#ffb475\" opacity=\".85\"/><circle cx=\"399.9\" cy=\"287.7\" r=\"1.6\" fill=\"#ff9e66\" opacity=\".85\"/><circle cx=\"399.9\" cy=\"284.3\" r=\"1.6\" fill=\"#ff9e66\" opacity=\".85\"/><circle cx=\"381.6\" cy=\"154.3\" r=\"2.7\" fill=\"#ffb575\" opacity=\".85\"/><circle cx=\"350.3\" cy=\"155.4\" r=\"2.7\" fill=\"#ffdd9f\" opacity=\".85\"/><circle cx=\"360.7\" cy=\"173.5\" r=\"2.4\" fill=\"#ffcf90\" opacity=\".85\"/><circle cx=\"392.4\" cy=\"155.4\" r=\"2.7\" fill=\"#ffa76c\" opacity=\".85\"/><circle cx=\"385.3\" cy=\"140.7\" r=\"2.9\" fill=\"#ffb072\" opacity=\".85\"/><circle cx=\"358.7\" cy=\"148.6\" r=\"2.8\" fill=\"#ffd192\" opacity=\".85\"/><circle cx=\"377.7\" cy=\"150.9\" r=\"2.8\" fill=\"#ffba79\" opacity=\".85\"/><circle cx=\"363.8\" cy=\"166.7\" r=\"2.5\" fill=\"#ffcb8b\" opacity=\".85\"/><circle cx=\"385.3\" cy=\"143.0\" r=\"2.9\" fill=\"#ffb072\" opacity=\".85\"/><circle cx=\"374.8\" cy=\"141.9\" r=\"2.9\" fill=\"#ffbd7d\" opacity=\".85\"/><circle cx=\"396.1\" cy=\"94.4\" r=\"3.6\" fill=\"#ffa269\" opacity=\".85\"/><circle cx=\"393.5\" cy=\"101.1\" r=\"3.5\" fill=\"#ffa66b\" opacity=\".85\"/><circle cx=\"394.2\" cy=\"75.1\" r=\"3.9\" fill=\"#ffa56a\" opacity=\".85\"/><circle cx=\"234.1\" cy=\"72.9\" r=\"3.9\" fill=\"#c8dbff\" opacity=\".85\"/><circle cx=\"280.2\" cy=\"66.1\" r=\"4.0\" fill=\"#e2ebff\" opacity=\".85\"/><circle cx=\"325.7\" cy=\"120.4\" r=\"3.2\" fill=\"#fff4d6\" opacity=\".85\"/><circle cx=\"298.3\" cy=\"97.8\" r=\"3.5\" fill=\"#f1f4fc\" opacity=\".85\"/><circle cx=\"318.3\" cy=\"110.2\" r=\"3.4\" fill=\"#fcf4e0\" opacity=\".85\"/><circle cx=\"323.5\" cy=\"83.1\" r=\"3.8\" fill=\"#fef4d9\" opacity=\".85\"/><circle cx=\"366.2\" cy=\"113.6\" r=\"3.3\" fill=\"#ffc888\" opacity=\".85\"/><circle cx=\"129.3\" cy=\"88.7\" r=\"3.7\" fill=\"#a7c3ff\" opacity=\".85\"/><circle cx=\"134.2\" cy=\"92.1\" r=\"3.6\" fill=\"#a9c4ff\" opacity=\".85\"/><circle cx=\"139.4\" cy=\"287.7\" r=\"1.6\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"292.4\" cy=\"308.1\" r=\"1.6\" fill=\"#edf2ff\" opacity=\".85\"/><circle cx=\"193.6\" cy=\"285.5\" r=\"1.6\" fill=\"#bed4ff\" opacity=\".85\"/><circle cx=\"321.4\" cy=\"321.6\" r=\"1.6\" fill=\"#fdf4db\" opacity=\".85\"/><circle cx=\"303.7\" cy=\"312.6\" r=\"1.6\" fill=\"#f4f4f4\" opacity=\".85\"/><circle cx=\"280.2\" cy=\"296.8\" r=\"1.6\" fill=\"#e2ebff\" opacity=\".85\"/><circle cx=\"369.5\" cy=\"157.7\" r=\"5.5\" fill=\"#ffc484\" stroke=\"#fff\" stroke-width=\"1.6\"/><rect x=\"374.5\" y=\"140.7\" width=\"65.6\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"378.5\" y=\"151.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">Arcturus</text><circle cx=\"330.8\" cy=\"215.4\" r=\"5.5\" fill=\"#ffefca\" stroke=\"#fff\" stroke-width=\"1.6\"/><rect x=\"335.8\" y=\"218.4\" width=\"44.0\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"339.8\" y=\"229.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">Solen</text><rect x=\"78\" y=\"48\" width=\"362\" height=\"294\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"115.6\" y1=\"342\" x2=\"115.6\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"115.6\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">30 000</text><line x1=\"168.5\" y1=\"342\" x2=\"168.5\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"168.5\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">20 000</text><line x1=\"259.0\" y1=\"342\" x2=\"259.0\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"259.0\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">10 000</text><line x1=\"325.7\" y1=\"342\" x2=\"325.7\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"325.7\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6 000</text><line x1=\"378.6\" y1=\"342\" x2=\"378.6\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"378.6\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4 000</text><line x1=\"416.2\" y1=\"342\" x2=\"416.2\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"416.2\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3 000</text><text x=\"259.0\" y=\"382.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">yttemperatur (K)</text><text x=\"71.0\" y=\"52.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−10</text><text x=\"71.0\" y=\"108.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−5</text><text x=\"71.0\" y=\"165.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"71.0\" y=\"221.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">+5</text><text x=\"71.0\" y=\"278.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">+10</text><text x=\"71.0\" y=\"334.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">+15</text><text x=\"18\" y=\"195.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#172b3a\" text-anchor=\"middle\" transform=\"rotate(-90 18 195.0)\">absolut magnitud</text><rect x=\"78.0\" y=\"28\" width=\"37.6\" height=\"16\" fill=\"#6d8fd6\" stroke=\"#fff\"/><text x=\"96.8\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">O</text><rect x=\"115.6\" y=\"28\" width=\"143.4\" height=\"16\" fill=\"#8fb3ef\" stroke=\"#fff\"/><text x=\"187.3\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><rect x=\"259.0\" y=\"28\" width=\"37.6\" height=\"16\" fill=\"#c9d9f7\" stroke=\"#fff\"/><text x=\"277.8\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><rect x=\"296.6\" y=\"28\" width=\"29.1\" height=\"16\" fill=\"#f5f0d9\" stroke=\"#fff\"/><text x=\"311.1\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">F</text><rect x=\"325.7\" y=\"28\" width=\"18.7\" height=\"16\" fill=\"#f7e08a\" stroke=\"#fff\"/><text x=\"335.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">G</text><rect x=\"344.4\" y=\"28\" width=\"44.4\" height=\"16\" fill=\"#f4b26b\" stroke=\"#fff\"/><text x=\"366.6\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K</text><rect x=\"388.8\" y=\"28\" width=\"51.2\" height=\"16\" fill=\"#e9765a\" stroke=\"#fff\"/><text x=\"414.4\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">M</text></svg></span><p class=\"fig-text\"><small>De små prickarna är verkliga stjärnor: närbelägna stjärnor och kända ljusstarka stjärnor.</small></p><p>Bestäm avståndet, den absoluta magnituden, luminositeten och radien. (Svara med avståndet i pc, den absoluta magnituden, luminositeten i solluminositeter och radien i solradier.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[d=\\frac{1}{0{,}0889}\\approx11{,}2\\ \\mathrm{pc}\\]</div></li><li><div class=\"facit-matte\">\\[M=m+5-5\\lg d=-0{,}05+5-5\\lg11{,}2\\approx-0{,}31\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=10^{0{,}4(4{,}74-(-0{,}31))}\\approx104\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{R}{R_\\odot}=\\sqrt{\\frac{L}{L_\\odot}}\\left(\\frac{T_\\odot}{T}\\right)^2=\\sqrt{104}\\cdot\\left(\\frac{5772}{4290}\\right)^2\\approx18{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 11,2 pc, \\(M\\approx-0{,}31\\), cirka 104 \\(L_\\odot\\) och cirka 18 \\(R_\\odot\\).</p></div>",
+  "familj": "Apparent och absolut magnitud",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Parallax ger avstånd. Avstånd och m ger M. M ger luminositeten jämfört med solen. Luminositet och temperatur ger radien.</p>",
+  "familjNyckel": "magnituder__apparent_och_absolut_magnitud",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    11.248593925759279,
+    -0.30549119514893075,
+    104.27890882476892,
+    18.485716975172195
+  ],
+  "tolerans": [
+    0.11248593925759279,
+    0.06,
+    10.427890882476893,
+    1.2940001882620538
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Avstånd (pc)",
+    "Absolut magnitud",
+    "Luminositet (L☉)",
+    "Radie (R☉)"
+  ]
+},
+{
+  "id": "5.448",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "E",
+  "typ": "absolut magnitud ur luminositet",
+  "poang": "(1/0/0)",
+  "t": "<p>En stjärna strålar ut 1 000 gånger så mycket som solen.</p><p>Magnituderna gäller all strålning från stjärnan, vid alla våglängder.</p><p>Vilken absolut magnitud har stjärnan? (Svara med ett tal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=M_\\odot-2{,}5\\lg\\frac{L}{L_\\odot}=4{,}74-2{,}5\\cdot3=-2{,}76\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(M\\approx-2{,}8\\)</p></div>",
+  "familj": "Magnitud och luminositet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Varje faktor 10 i luminositet motsvarar 2,5 magnituder.</p>",
+  "familjNyckel": "magnituder__magnitud_och_luminositet",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -2.76,
+  "tolerans": 0.15
+},
+{
+  "id": "5.449",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "E",
+  "typ": "dubbelstjärna, luminositetskvot",
+  "poang": "(1/0/0)",
+  "t": "<p>Två stjärnor i en dubbelstjärna ligger lika långt bort. Stjärna A har apparent magnitud +2,0 och stjärna B +4,5.</p><p>Hur många gånger större luminositet har A? (Svara med ett tal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Samma avstånd gör att skillnaden i apparent magnitud är lika stor som skillnaden i absolut magnitud.</p></li><li><div class=\"facit-matte\">\\[\\frac{L_A}{L_B}=10^{0{,}4\\cdot2{,}5}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 gånger.</p></div>",
+  "familj": "Magnitud och luminositet",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vad betyder det att de ligger på samma avstånd?</p>",
+  "familjNyckel": "magnituder__magnitud_och_luminositet",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 0.1
+},
+{
+  "id": "5.450",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "E",
+  "typ": "Sirius jämfört med Polstjärnan",
+  "poang": "(1/0/0)",
+  "t": "<p>Sirius har apparent magnitud −1,46 och Polstjärnan +1,98.</p><p>Hur många gånger ljusare ser Sirius ut från jorden? (Svara med ett tal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\Delta m=1{,}98-(-1{,}46)=3{,}44\\]</div></li><li><div class=\"facit-matte\">\\[10^{0{,}4\\cdot3{,}44}\\approx24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 24 gånger.</p></div>",
+  "familj": "Apparent och absolut magnitud",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>En magnitud motsvarar en faktor \\(10^{0{,}4}\\approx2{,}5\\).</p>",
+  "familjNyckel": "magnituder__apparent_och_absolut_magnitud",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 23.76840286624877,
+  "tolerans": 0.4
+},
+{
+  "id": "5.451",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "E",
+  "typ": "Sirius flyttad till 10 parsec",
+  "poang": "(1/0/0)",
+  "t": "<p>Sirius ligger 2,64 pc bort och har apparent magnitud −1,46. Vilken apparent magnitud skulle Sirius ha om den låg 10 pc bort? (Svara med ett tal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På 10 pc är den apparenta magnituden lika med den absoluta.</p></li><li><div class=\"facit-matte\">\\[M=-1{,}46+5-5\\lg2{,}64\\approx1{,}43\\]</div></li><li><p>Sirius skulle alltså se svagare ut än nu, eftersom den skulle ligga längre bort.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(1{,}4\\).</p></div>",
+  "familj": "Apparent och absolut magnitud",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilken magnitud har en stjärna på avståndet 10 pc?</p>",
+  "familjNyckel": "magnituder__apparent_och_absolut_magnitud",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.431980365650845,
+  "tolerans": 0.05
+},
+{
+  "id": "5.452",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "E",
+  "typ": "mest ljusstark på riktigt",
+  "poang": "(1/0/0)",
+  "t": "<p>Tabellen visar fyra stjärnors absoluta magnitud.</p><table class=\"data\"><tbody><tr><th>Stjärna</th><th>Absolut magnitud</th></tr><tr><td>A</td><td>+1,2</td></tr><tr><td>B</td><td>−3,5</td></tr><tr><td>C</td><td>+8,0</td></tr><tr><td>D</td><td>+4,7</td></tr></tbody></table><p>Vilken stjärna har störst luminositet?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Absolut magnitud jämför stjärnorna på samma avstånd. Lägst värde betyder störst luminositet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+  "familj": "Apparent och absolut magnitud",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Lägre magnitud betyder ljusstarkare.</p>",
+  "familjNyckel": "magnituder__apparent_och_absolut_magnitud",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "B",
+      "ratt": true
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "+8,0 är högst och betyder minst luminositet."
+    },
+    {
+      "txt": "A",
+      "ratt": false,
+      "kommentar": "−3,5 är lägre än +1,2."
+    },
+    {
+      "txt": "D",
+      "ratt": false,
+      "kommentar": "D är ungefär som solen."
+    }
+  ]
+},
+{
+  "id": "5.453",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "C",
+  "typ": "avstånd till en stjärnhop med huvudseriepassning",
+  "poang": "(0/2/1)",
+  "t": "<p>Diagrammet visar stjärnorna i en öppen stjärnhop, med apparent magnitud mot yttemperatur. Den streckade linjen är huvudserien med absolut magnitud, som för stjärnor på 10 pc avstånd.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"416\" viewBox=\"0 0 470 416\" role=\"img\" aria-label=\"Diagram där hopens stjärnor ligger längs en huvudserie som är förskjuten 7,5 magnituder nedåt jämfört med standardhuvudserien.\"><title>Diagram där hopens stjärnor ligger längs en huvudserie som är förskjuten 7,5 magnituder nedåt jämfört med standardhuvudserien.</title><rect x=\"1\" y=\"1\" width=\"468\" height=\"414\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"78\" y=\"48\" width=\"362\" height=\"292\" fill=\"#0f1b2d\"/><line x1=\"115.6\" y1=\"48\" x2=\"115.6\" y2=\"340\" stroke=\"#2b3c55\"/><line x1=\"168.5\" y1=\"48\" x2=\"168.5\" y2=\"340\" stroke=\"#2b3c55\"/><line x1=\"206.1\" y1=\"48\" x2=\"206.1\" y2=\"340\" stroke=\"#2b3c55\"/><line x1=\"259.0\" y1=\"48\" x2=\"259.0\" y2=\"340\" stroke=\"#2b3c55\"/><line x1=\"288.1\" y1=\"48\" x2=\"288.1\" y2=\"340\" stroke=\"#2b3c55\"/><line x1=\"325.7\" y1=\"48\" x2=\"325.7\" y2=\"340\" stroke=\"#2b3c55\"/><line x1=\"349.5\" y1=\"48\" x2=\"349.5\" y2=\"340\" stroke=\"#2b3c55\"/><line x1=\"378.6\" y1=\"48\" x2=\"378.6\" y2=\"340\" stroke=\"#2b3c55\"/><line x1=\"416.2\" y1=\"48\" x2=\"416.2\" y2=\"340\" stroke=\"#2b3c55\"/><line x1=\"78\" y1=\"48.0\" x2=\"440\" y2=\"48.0\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"57.7\" x2=\"440\" y2=\"57.7\" stroke=\"#3a4e6b\"/><line x1=\"78\" y1=\"67.5\" x2=\"440\" y2=\"67.5\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"77.2\" x2=\"440\" y2=\"77.2\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"86.9\" x2=\"440\" y2=\"86.9\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"96.7\" x2=\"440\" y2=\"96.7\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"106.4\" x2=\"440\" y2=\"106.4\" stroke=\"#3a4e6b\"/><line x1=\"78\" y1=\"116.1\" x2=\"440\" y2=\"116.1\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"125.9\" x2=\"440\" y2=\"125.9\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"135.6\" x2=\"440\" y2=\"135.6\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"145.3\" x2=\"440\" y2=\"145.3\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"155.1\" x2=\"440\" y2=\"155.1\" stroke=\"#3a4e6b\"/><line x1=\"78\" y1=\"164.8\" x2=\"440\" y2=\"164.8\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"174.5\" x2=\"440\" y2=\"174.5\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"184.3\" x2=\"440\" y2=\"184.3\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"194.0\" x2=\"440\" y2=\"194.0\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"203.7\" x2=\"440\" y2=\"203.7\" stroke=\"#3a4e6b\"/><line x1=\"78\" y1=\"213.5\" x2=\"440\" y2=\"213.5\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"223.2\" x2=\"440\" y2=\"223.2\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"232.9\" x2=\"440\" y2=\"232.9\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"242.7\" x2=\"440\" y2=\"242.7\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"252.4\" x2=\"440\" y2=\"252.4\" stroke=\"#3a4e6b\"/><line x1=\"78\" y1=\"262.1\" x2=\"440\" y2=\"262.1\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"271.9\" x2=\"440\" y2=\"271.9\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"281.6\" x2=\"440\" y2=\"281.6\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"291.3\" x2=\"440\" y2=\"291.3\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"301.1\" x2=\"440\" y2=\"301.1\" stroke=\"#3a4e6b\"/><line x1=\"78\" y1=\"310.8\" x2=\"440\" y2=\"310.8\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"320.5\" x2=\"440\" y2=\"320.5\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"330.3\" x2=\"440\" y2=\"330.3\" stroke=\"#22324a\"/><line x1=\"78\" y1=\"340.0\" x2=\"440\" y2=\"340.0\" stroke=\"#22324a\"/><polyline points=\"78.0,50.9 115.6,67.5 168.5,83.0 206.1,94.7 259.0,112.2 284.9,124.9 301.9,132.7 313.3,140.5 325.7,149.2 330.1,152.1 344.4,163.8 366.2,178.4 385.3,193.0 407.8,226.1 425.2,252.4\" fill=\"none\" stroke=\"#9fc4ff\" stroke-width=\"2.4\" stroke-dasharray=\"8 5\"/><circle cx=\"182.3\" cy=\"162.8\" r=\"3.6\" fill=\"#bbd1ff\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"191.7\" cy=\"161.3\" r=\"3.6\" fill=\"#bed3ff\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"201.2\" cy=\"167.2\" r=\"3.6\" fill=\"#c0d5ff\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"210.7\" cy=\"166.3\" r=\"3.6\" fill=\"#c3d7ff\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"220.2\" cy=\"175.3\" r=\"3.6\" fill=\"#c5d8ff\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"229.6\" cy=\"175.5\" r=\"3.6\" fill=\"#c7daff\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"239.1\" cy=\"177.2\" r=\"3.6\" fill=\"#c9dbff\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"248.6\" cy=\"183.7\" r=\"3.6\" fill=\"#cbddff\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"258.1\" cy=\"182.5\" r=\"3.6\" fill=\"#cddeff\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"267.5\" cy=\"190.9\" r=\"3.6\" fill=\"#d6e4ff\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"277.0\" cy=\"193.5\" r=\"3.6\" fill=\"#dfe9ff\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"286.5\" cy=\"201.5\" r=\"3.6\" fill=\"#e8efff\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"296.0\" cy=\"200.0\" r=\"3.6\" fill=\"#f0f4ff\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"305.4\" cy=\"208.6\" r=\"3.6\" fill=\"#f5f4f2\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"314.9\" cy=\"216.6\" r=\"3.6\" fill=\"#faf4e4\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"324.4\" cy=\"220.3\" r=\"3.6\" fill=\"#fef4d8\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"333.9\" cy=\"230.6\" r=\"3.6\" fill=\"#ffecc2\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"343.3\" cy=\"234.0\" r=\"3.6\" fill=\"#ffe3ad\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"352.8\" cy=\"243.4\" r=\"3.6\" fill=\"#ffd99b\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"362.3\" cy=\"248.8\" r=\"3.6\" fill=\"#ffcd8d\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"371.8\" cy=\"253.2\" r=\"3.6\" fill=\"#ffc181\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"381.2\" cy=\"264.4\" r=\"3.6\" fill=\"#ffb576\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"390.7\" cy=\"276.4\" r=\"3.6\" fill=\"#ffa96d\" stroke=\"#fff\" stroke-width=\".6\"/><circle cx=\"400.2\" cy=\"286.0\" r=\"3.6\" fill=\"#ff9e66\" stroke=\"#fff\" stroke-width=\".6\"/><rect x=\"78\" y=\"48\" width=\"362\" height=\"292\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"115.6\" y1=\"340\" x2=\"115.6\" y2=\"345\" stroke=\"#172b3a\"/><text x=\"115.6\" y=\"359.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">30 000</text><line x1=\"168.5\" y1=\"340\" x2=\"168.5\" y2=\"345\" stroke=\"#172b3a\"/><text x=\"168.5\" y=\"359.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">20 000</text><line x1=\"259.0\" y1=\"340\" x2=\"259.0\" y2=\"345\" stroke=\"#172b3a\"/><text x=\"259.0\" y=\"359.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">10 000</text><line x1=\"325.7\" y1=\"340\" x2=\"325.7\" y2=\"345\" stroke=\"#172b3a\"/><text x=\"325.7\" y=\"359.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6 000</text><line x1=\"378.6\" y1=\"340\" x2=\"378.6\" y2=\"345\" stroke=\"#172b3a\"/><text x=\"378.6\" y=\"359.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4 000</text><line x1=\"416.2\" y1=\"340\" x2=\"416.2\" y2=\"345\" stroke=\"#172b3a\"/><text x=\"416.2\" y=\"359.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3 000</text><text x=\"259.0\" y=\"380.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">yttemperatur (K)</text><text x=\"71.0\" y=\"61.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−5</text><text x=\"71.0\" y=\"110.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"71.0\" y=\"159.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">+5</text><text x=\"71.0\" y=\"207.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">+10</text><text x=\"71.0\" y=\"256.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">+15</text><text x=\"71.0\" y=\"305.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">+20</text><text x=\"18\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#172b3a\" text-anchor=\"middle\" transform=\"rotate(-90 18 194.0)\">magnitud</text><rect x=\"78.0\" y=\"28\" width=\"37.6\" height=\"16\" fill=\"#6d8fd6\" stroke=\"#fff\"/><text x=\"96.8\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">O</text><rect x=\"115.6\" y=\"28\" width=\"143.4\" height=\"16\" fill=\"#8fb3ef\" stroke=\"#fff\"/><text x=\"187.3\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><rect x=\"259.0\" y=\"28\" width=\"37.6\" height=\"16\" fill=\"#c9d9f7\" stroke=\"#fff\"/><text x=\"277.8\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><rect x=\"296.6\" y=\"28\" width=\"29.1\" height=\"16\" fill=\"#f5f0d9\" stroke=\"#fff\"/><text x=\"311.1\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">F</text><rect x=\"325.7\" y=\"28\" width=\"18.7\" height=\"16\" fill=\"#f7e08a\" stroke=\"#fff\"/><text x=\"335.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">G</text><rect x=\"344.4\" y=\"28\" width=\"44.4\" height=\"16\" fill=\"#f4b26b\" stroke=\"#fff\"/><text x=\"366.6\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K</text><rect x=\"388.8\" y=\"28\" width=\"51.2\" height=\"16\" fill=\"#e9765a\" stroke=\"#fff\"/><text x=\"414.4\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">M</text><line x1=\"90\" y1=\"396\" x2=\"118\" y2=\"396\" stroke=\"#2f6fca\" stroke-width=\"2.4\" stroke-dasharray=\"8 5\"/><text x=\"124.0\" y=\"400.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"start\" fill=\"#172b3a\">huvudserien på 10 pc (M)</text><circle cx=\"293\" cy=\"396\" r=\"4\" fill=\"#f4b26b\" stroke=\"#172b3a\" stroke-width=\".6\"/><text x=\"301.0\" y=\"400.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"start\" fill=\"#172b3a\">hopens stjärnor (m)</text></svg></span><p>Använd förskjutningen mellan hopens huvudserie och standardhuvudserien för att bestämma hopens avstånd. (Svara i pc.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid samma temperatur ligger hopens stjärnor cirka 7,5 magnituder under standardhuvudserien. Det är avståndsmodulen \\(m-M\\).</p></li><li><div class=\"facit-matte\">\\[m-M=7{,}5=5\\lg d-5\\]</div></li><li><div class=\"facit-matte\">\\[\\lg d=2{,}5\\Rightarrow d=10^{2{,}5}\\approx316\\ \\mathrm{pc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 320 pc.</p></div>",
+  "familj": "Apparent och absolut magnitud",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Mät hur många magnituder hopens stjärnor ligger under den streckade linjen vid samma temperatur. Det är m − M.</p>",
+  "familjNyckel": "magnituder__apparent_och_absolut_magnitud",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 316.22776601683796,
+  "tolerans": 85,
+  "svarEnhet": "pc"
+},
+{
+  "id": "5.454",
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "C",
+  "typ": "radie ur strålningsmaximum och luminositet",
+  "poang": "(0/2/1)",
+  "t": "<p>En blåvit stjärna har sitt strålningsmaximum vid 290 nm. Dess luminositet är 10 000 gånger solens.</p><p>Bestäm stjärnans yttemperatur och radie. (Svara med temperaturen i K och radien i solradier.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=\\frac{2{,}898\\cdot10^{-3}}{290\\cdot10^{-9}}\\approx9990\\ \\mathrm K\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\left(\\frac{R}{R_\\odot}\\right)^2\\left(\\frac{T}{T_\\odot}\\right)^4\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{R}{R_\\odot}=\\sqrt{10\\,000}\\cdot\\left(\\frac{5772}{9993}\\right)^2\\approx33\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 10 000 K och 33 solradier.</p></div>",
+  "familj": "Luminositet, radie och temperatur",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Wiens lag ger temperaturen. Stefan–Boltzmanns lag i solenheter ger radien.</p>",
+  "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    9993.103448275862,
+    33.36198466280022
+  ],
+  "tolerans": [
+    99.93103448275862,
+    1.3344793865120088
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "K",
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Yttemperatur",
+    "Radie (R☉)"
+  ]
+},
+{
+  "id": "5.455",
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "C",
+  "typ": "vit dvärg ur parallax, magnitud och temperatur",
+  "poang": "(0/2/1)",
+  "t": "<p>En vit dvärg har parallaxen 0,25″, apparent magnitud +9,0 och yttemperaturen 12 000 K.</p><p>Magnituderna gäller all strålning från stjärnan, vid alla våglängder.</p><p>Bestäm den absoluta magnituden, luminositeten och radien. (Svara med den absoluta magnituden, luminositeten i solluminositeter och radien i solradier.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[d=\\frac{1}{0{,}25}=4{,}0\\ \\mathrm{pc}\\]</div></li><li><div class=\"facit-matte\">\\[M=9{,}0+5-5\\lg4{,}0\\approx10{,}99\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=10^{0{,}4(4{,}74-10{,}99)}\\approx0{,}0032\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{R}{R_\\odot}=\\sqrt{0{,}0032}\\cdot\\left(\\frac{5772}{12\\,000}\\right)^2\\approx0{,}013\\]</div></li><li><p>Radien är ungefär en hundradel av solens, alltså jämförbar med jordens. Det är typiskt för en vit dvärg.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(M\\approx11\\), \\(L\\approx0{,}0032\\,L_\\odot\\), \\(R\\approx0{,}013\\,R_\\odot\\).</p></div>",
+  "familj": "Luminositet, radie och temperatur",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 4,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Gå i ordning: avstånd, absolut magnitud, luminositet, radie.</p>",
+  "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    10.989700043360187,
+    0.0031631514241789774,
+    0.013012182449208841
+  ],
+  "tolerans": [
+    0.06,
+    0.00031631514241789774,
+    0.000910852771444619
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    null,
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Absolut magnitud",
+    "Luminositet (L☉)",
+    "Radie (R☉)"
+  ]
+},
+{
+  "id": "5.456",
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "C",
+  "typ": "radiekvot i en stjärnhop",
+  "poang": "(0/1/0)",
+  "t": "<p>Två stjärnor i samma stjärnhop, alltså på samma avstånd, har samma yttemperatur. Den ena har apparent magnitud +7,0 och den andra +12,0.</p><p>Hur många gånger större radie har den ljusare stjärnan? (Svara med ett tal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L_1}{L_2}=10^{0{,}4\\cdot5}=100\\]</div></li><li><p>Samma temperatur ger \\(L\\propto R^2\\).</p></li><li><div class=\"facit-matte\">\\[\\frac{R_1}{R_2}=\\sqrt{100}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 gånger.</p></div>",
+  "familj": "Luminositet, radie och temperatur",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm först luminositetskvoten. Hur hänger L ihop med R när T är lika?</p>",
+  "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 0.1
+},
+{
+  "id": "5.457",
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "A",
+  "typ": "hela kedjan från spektrum, parallax och magnitud",
+  "poang": "(0/1/2)",
+  "t": "<p>För en stjärna har man mätt följande: strålningsmaximum vid 500 nm, parallaxen 0,10″ och apparent magnitud +4,0.</p><p>Magnituderna gäller all strålning från stjärnan, vid alla våglängder.</p><p>Bestäm stjärnans yttemperatur, absoluta magnitud, luminositet och radie. (Svara med temperaturen i K, den absoluta magnituden, luminositeten i solluminositeter och radien i solradier.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=\\frac{2{,}898\\cdot10^{-3}}{500\\cdot10^{-9}}\\approx5796\\ \\mathrm K\\]</div></li><li><div class=\"facit-matte\">\\[d=\\frac{1}{0{,}10}=10\\ \\mathrm{pc}\\Rightarrow M=m=+4{,}0\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=10^{0{,}4(4{,}74-4{,}0)}\\approx1{,}98\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{R}{R_\\odot}=\\sqrt{1{,}98}\\cdot\\left(\\frac{5772}{5796}\\right)^2\\approx1{,}39\\]</div></li><li><p>Stjärnan är alltså något större och ljusstarkare än solen men har nästan samma temperatur.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 5800 K, \\(M=+4{,}0\\), cirka 2 \\(L_\\odot\\) och 1{,}4 \\(R_\\odot\\).</p></div>",
+  "familj": "Luminositet, radie och temperatur",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "ledtrad": "<p>Wiens lag ger T. Parallaxen ger avståndet, och då ger m också M. Därefter luminositet och radie.</p>",
+  "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5796.0,
+    4.0,
+    1.9769696401118613,
+    1.3944273464682049
+  ],
+  "tolerans": [
+    57.96,
+    0.06,
+    0.19769696401118614,
+    0.09760991425277435
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "K",
+    null,
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Yttemperatur",
+    "Absolut magnitud",
+    "Luminositet (L☉)",
+    "Radie (R☉)"
+  ]
+},
+{
+  "id": "5.458",
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "C",
+  "typ": "radie ur avläst HR-diagram",
+  "poang": "(0/1/0)",
+  "t": "<p>I HR-diagrammet visar den lodräta axeln luminositeten i solluminositeter.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"400\" viewBox=\"0 0 470 400\" role=\"img\" aria-label=\"HR-diagram med luminositet i solluminositeter mot yttemperatur. P vid 4 500 K och 100, Q vid 25 000 K och 10 000, R vid 8 000 K och 0,001, S vid 3 000 K och 0,01. Små prickar visar verkliga stjärnor.\"><title>HR-diagram med luminositet i solluminositeter mot yttemperatur. P vid 4 500 K och 100, Q vid 25 000 K och 10 000, R vid 8 000 K och 0,001, S vid 3 000 K och 0,01. Små prickar visar verkliga stjärnor.</title><rect x=\"1\" y=\"1\" width=\"468\" height=\"398\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"78\" y=\"48\" width=\"362\" height=\"294\" fill=\"#0f1b2d\"/><line x1=\"115.6\" y1=\"48\" x2=\"115.6\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"168.5\" y1=\"48\" x2=\"168.5\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"206.1\" y1=\"48\" x2=\"206.1\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"259.0\" y1=\"48\" x2=\"259.0\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"288.1\" y1=\"48\" x2=\"288.1\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"325.7\" y1=\"48\" x2=\"325.7\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"349.5\" y1=\"48\" x2=\"349.5\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"378.6\" y1=\"48\" x2=\"378.6\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"416.2\" y1=\"48\" x2=\"416.2\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"78\" y1=\"342.0\" x2=\"440\" y2=\"342.0\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"312.6\" x2=\"440\" y2=\"312.6\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"283.2\" x2=\"440\" y2=\"283.2\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"253.8\" x2=\"440\" y2=\"253.8\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"224.4\" x2=\"440\" y2=\"224.4\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"195.0\" x2=\"440\" y2=\"195.0\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"165.6\" x2=\"440\" y2=\"165.6\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"136.2\" x2=\"440\" y2=\"136.2\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"106.8\" x2=\"440\" y2=\"106.8\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"77.4\" x2=\"440\" y2=\"77.4\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"48.0\" x2=\"440\" y2=\"48.0\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><polyline points=\"78.0,101.6 115.6,121.6 168.5,140.4 206.1,154.5 259.0,175.7 284.9,191.0 301.9,200.4 313.3,209.8 325.7,220.4 330.1,223.9 344.4,238.0 366.2,255.7 385.3,273.3 407.8,313.3\" fill=\"none\" stroke=\"#9fc4ff\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".13\"/><circle cx=\"330.8\" cy=\"225.1\" r=\"1.8\" fill=\"#ffefca\" opacity=\".85\"/><circle cx=\"330.3\" cy=\"220.4\" r=\"1.9\" fill=\"#ffefcb\" opacity=\".85\"/><circle cx=\"342.9\" cy=\"235.7\" r=\"1.7\" fill=\"#ffe4ae\" opacity=\".85\"/><circle cx=\"340.9\" cy=\"235.7\" r=\"1.7\" fill=\"#ffe5b2\" opacity=\".85\"/><circle cx=\"347.4\" cy=\"241.6\" r=\"1.6\" fill=\"#ffe0a4\" opacity=\".85\"/><circle cx=\"366.2\" cy=\"256.9\" r=\"1.6\" fill=\"#ffc888\" opacity=\".85\"/><circle cx=\"377.3\" cy=\"266.3\" r=\"1.6\" fill=\"#ffba7a\" opacity=\".85\"/><circle cx=\"359.5\" cy=\"251.0\" r=\"1.6\" fill=\"#ffd091\" opacity=\".85\"/><circle cx=\"341.9\" cy=\"233.3\" r=\"1.7\" fill=\"#ffe5b0\" opacity=\".85\"/><circle cx=\"326.3\" cy=\"222.8\" r=\"1.8\" fill=\"#fff3d4\" opacity=\".85\"/><circle cx=\"341.9\" cy=\"238.0\" r=\"1.6\" fill=\"#ffe5b0\" opacity=\".85\"/><circle cx=\"339.5\" cy=\"231.0\" r=\"1.7\" fill=\"#ffe7b6\" opacity=\".85\"/><circle cx=\"334.7\" cy=\"222.8\" r=\"1.8\" fill=\"#ffebc0\" opacity=\".85\"/><circle cx=\"328.6\" cy=\"208.6\" r=\"2.0\" fill=\"#fff1cf\" opacity=\".85\"/><circle cx=\"330.1\" cy=\"218.0\" r=\"1.9\" fill=\"#fff0cb\" opacity=\".85\"/><circle cx=\"314.6\" cy=\"200.4\" r=\"2.1\" fill=\"#faf4e4\" opacity=\".85\"/><circle cx=\"293.1\" cy=\"194.5\" r=\"2.2\" fill=\"#edf2ff\" opacity=\".85\"/><circle cx=\"278.8\" cy=\"188.6\" r=\"2.3\" fill=\"#e1eaff\" opacity=\".85\"/><circle cx=\"259.8\" cy=\"185.1\" r=\"2.4\" fill=\"#cedfff\" opacity=\".85\"/><circle cx=\"264.3\" cy=\"175.7\" r=\"2.5\" fill=\"#d3e2ff\" opacity=\".85\"/><circle cx=\"255.1\" cy=\"175.7\" r=\"2.5\" fill=\"#ccdeff\" opacity=\".85\"/><circle cx=\"293.1\" cy=\"187.5\" r=\"2.3\" fill=\"#edf2ff\" opacity=\".85\"/><circle cx=\"280.2\" cy=\"191.0\" r=\"2.3\" fill=\"#e2ebff\" opacity=\".85\"/><circle cx=\"269.9\" cy=\"175.7\" r=\"2.5\" fill=\"#d8e5ff\" opacity=\".85\"/><circle cx=\"305.6\" cy=\"182.8\" r=\"2.4\" fill=\"#f5f4f1\" opacity=\".85\"/><circle cx=\"230.3\" cy=\"161.6\" r=\"2.7\" fill=\"#c7daff\" opacity=\".85\"/><circle cx=\"224.7\" cy=\"167.5\" r=\"2.6\" fill=\"#c6d9ff\" opacity=\".85\"/><circle cx=\"206.1\" cy=\"135.7\" r=\"3.1\" fill=\"#c2d6ff\" opacity=\".85\"/><circle cx=\"156.1\" cy=\"135.7\" r=\"3.1\" fill=\"#b2cbff\" opacity=\".85\"/><circle cx=\"137.8\" cy=\"127.5\" r=\"3.2\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"124.6\" cy=\"119.3\" r=\"3.3\" fill=\"#a4c1ff\" opacity=\".85\"/><circle cx=\"129.3\" cy=\"122.8\" r=\"3.2\" fill=\"#a7c3ff\" opacity=\".85\"/><circle cx=\"156.1\" cy=\"120.4\" r=\"3.3\" fill=\"#b2cbff\" opacity=\".85\"/><circle cx=\"139.4\" cy=\"108.7\" r=\"3.5\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"139.4\" cy=\"105.2\" r=\"3.5\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"120.0\" cy=\"106.3\" r=\"3.5\" fill=\"#a2c0ff\" opacity=\".85\"/><circle cx=\"410.7\" cy=\"323.9\" r=\"1.6\" fill=\"#ff925e\" opacity=\".85\"/><circle cx=\"408.2\" cy=\"327.4\" r=\"1.6\" fill=\"#ff9560\" opacity=\".85\"/><circle cx=\"405.7\" cy=\"322.7\" r=\"1.6\" fill=\"#ff9762\" opacity=\".85\"/><circle cx=\"409.8\" cy=\"308.6\" r=\"1.6\" fill=\"#ff935e\" opacity=\".85\"/><circle cx=\"394.2\" cy=\"292.1\" r=\"1.6\" fill=\"#ffa56a\" opacity=\".85\"/><circle cx=\"393.5\" cy=\"296.8\" r=\"1.6\" fill=\"#ffa66b\" opacity=\".85\"/><circle cx=\"388.8\" cy=\"289.8\" r=\"1.6\" fill=\"#ffac6f\" opacity=\".85\"/><circle cx=\"389.2\" cy=\"281.6\" r=\"1.6\" fill=\"#ffab6f\" opacity=\".85\"/><circle cx=\"404.9\" cy=\"306.2\" r=\"1.6\" fill=\"#ff9862\" opacity=\".85\"/><circle cx=\"392.4\" cy=\"291.0\" r=\"1.6\" fill=\"#ffa76c\" opacity=\".85\"/><circle cx=\"381.9\" cy=\"271.0\" r=\"1.6\" fill=\"#ffb475\" opacity=\".85\"/><circle cx=\"399.9\" cy=\"300.4\" r=\"1.6\" fill=\"#ff9e66\" opacity=\".85\"/><circle cx=\"399.9\" cy=\"296.8\" r=\"1.6\" fill=\"#ff9e66\" opacity=\".85\"/><circle cx=\"369.5\" cy=\"165.1\" r=\"2.7\" fill=\"#ffc484\" opacity=\".85\"/><circle cx=\"381.6\" cy=\"161.6\" r=\"2.7\" fill=\"#ffb575\" opacity=\".85\"/><circle cx=\"350.3\" cy=\"162.8\" r=\"2.7\" fill=\"#ffdd9f\" opacity=\".85\"/><circle cx=\"360.7\" cy=\"181.6\" r=\"2.4\" fill=\"#ffcf90\" opacity=\".85\"/><circle cx=\"392.4\" cy=\"162.8\" r=\"2.7\" fill=\"#ffa76c\" opacity=\".85\"/><circle cx=\"385.3\" cy=\"147.5\" r=\"2.9\" fill=\"#ffb072\" opacity=\".85\"/><circle cx=\"358.7\" cy=\"155.7\" r=\"2.8\" fill=\"#ffd192\" opacity=\".85\"/><circle cx=\"377.7\" cy=\"158.1\" r=\"2.8\" fill=\"#ffba79\" opacity=\".85\"/><circle cx=\"363.8\" cy=\"174.5\" r=\"2.5\" fill=\"#ffcb8b\" opacity=\".85\"/><circle cx=\"385.3\" cy=\"149.8\" r=\"2.9\" fill=\"#ffb072\" opacity=\".85\"/><circle cx=\"374.8\" cy=\"148.7\" r=\"2.9\" fill=\"#ffbd7d\" opacity=\".85\"/><circle cx=\"396.1\" cy=\"99.3\" r=\"3.6\" fill=\"#ffa269\" opacity=\".85\"/><circle cx=\"393.5\" cy=\"106.3\" r=\"3.5\" fill=\"#ffa66b\" opacity=\".85\"/><circle cx=\"394.2\" cy=\"79.3\" r=\"3.9\" fill=\"#ffa56a\" opacity=\".85\"/><circle cx=\"234.1\" cy=\"76.9\" r=\"3.9\" fill=\"#c8dbff\" opacity=\".85\"/><circle cx=\"280.2\" cy=\"69.9\" r=\"4.0\" fill=\"#e2ebff\" opacity=\".85\"/><circle cx=\"325.7\" cy=\"126.3\" r=\"3.2\" fill=\"#fff4d6\" opacity=\".85\"/><circle cx=\"298.3\" cy=\"102.8\" r=\"3.5\" fill=\"#f1f4fc\" opacity=\".85\"/><circle cx=\"318.3\" cy=\"115.7\" r=\"3.4\" fill=\"#fcf4e0\" opacity=\".85\"/><circle cx=\"323.5\" cy=\"87.5\" r=\"3.8\" fill=\"#fef4d9\" opacity=\".85\"/><circle cx=\"366.2\" cy=\"119.3\" r=\"3.3\" fill=\"#ffc888\" opacity=\".85\"/><circle cx=\"129.3\" cy=\"93.4\" r=\"3.7\" fill=\"#a7c3ff\" opacity=\".85\"/><circle cx=\"134.2\" cy=\"96.9\" r=\"3.6\" fill=\"#a9c4ff\" opacity=\".85\"/><circle cx=\"139.4\" cy=\"300.4\" r=\"1.6\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"292.4\" cy=\"321.5\" r=\"1.6\" fill=\"#edf2ff\" opacity=\".85\"/><circle cx=\"193.6\" cy=\"298.0\" r=\"1.6\" fill=\"#bed4ff\" opacity=\".85\"/><circle cx=\"321.4\" cy=\"335.6\" r=\"1.6\" fill=\"#fdf4db\" opacity=\".85\"/><circle cx=\"303.7\" cy=\"326.2\" r=\"1.6\" fill=\"#f4f4f4\" opacity=\".85\"/><circle cx=\"280.2\" cy=\"309.8\" r=\"1.6\" fill=\"#e2ebff\" opacity=\".85\"/><circle cx=\"363.3\" cy=\"165.6\" r=\"6.5\" fill=\"#f4b26b\" stroke=\"#fff\" stroke-width=\"1.8\"/><rect x=\"370.3\" y=\"145.6\" width=\"16.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"374.3\" y=\"158.6\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><circle cx=\"139.4\" cy=\"106.8\" r=\"6.5\" fill=\"#8fb3ef\" stroke=\"#fff\" stroke-width=\"1.8\"/><rect x=\"146.4\" y=\"86.8\" width=\"16.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"150.4\" y=\"99.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">Q</text><circle cx=\"288.1\" cy=\"312.6\" r=\"6.5\" fill=\"#dfe8ff\" stroke=\"#fff\" stroke-width=\"1.8\"/><rect x=\"295.1\" y=\"292.6\" width=\"16.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"299.1\" y=\"305.6\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">R</text><circle cx=\"416.2\" cy=\"283.2\" r=\"6.5\" fill=\"#e9765a\" stroke=\"#fff\" stroke-width=\"1.8\"/><rect x=\"423.2\" y=\"263.2\" width=\"16.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"427.2\" y=\"276.2\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">S</text><rect x=\"78\" y=\"48\" width=\"362\" height=\"294\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"115.6\" y1=\"342\" x2=\"115.6\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"115.6\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">30 000</text><line x1=\"168.5\" y1=\"342\" x2=\"168.5\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"168.5\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">20 000</text><line x1=\"259.0\" y1=\"342\" x2=\"259.0\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"259.0\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">10 000</text><line x1=\"325.7\" y1=\"342\" x2=\"325.7\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"325.7\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6 000</text><line x1=\"378.6\" y1=\"342\" x2=\"378.6\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"378.6\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4 000</text><line x1=\"416.2\" y1=\"342\" x2=\"416.2\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"416.2\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3 000</text><text x=\"259.0\" y=\"382.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">yttemperatur (K)</text><text x=\"71.0\" y=\"346.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0,0001</text><text x=\"71.0\" y=\"287.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0,01</text><text x=\"71.0\" y=\"228.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><text x=\"71.0\" y=\"169.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">100</text><text x=\"71.0\" y=\"110.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">10 000</text><text x=\"71.0\" y=\"52.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1 000 000</text><text x=\"18\" y=\"195.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#172b3a\" text-anchor=\"middle\" transform=\"rotate(-90 18 195.0)\">luminositet (L☉)</text><rect x=\"78.0\" y=\"28\" width=\"37.6\" height=\"16\" fill=\"#6d8fd6\" stroke=\"#fff\"/><text x=\"96.8\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">O</text><rect x=\"115.6\" y=\"28\" width=\"143.4\" height=\"16\" fill=\"#8fb3ef\" stroke=\"#fff\"/><text x=\"187.3\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><rect x=\"259.0\" y=\"28\" width=\"37.6\" height=\"16\" fill=\"#c9d9f7\" stroke=\"#fff\"/><text x=\"277.8\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><rect x=\"296.6\" y=\"28\" width=\"29.1\" height=\"16\" fill=\"#f5f0d9\" stroke=\"#fff\"/><text x=\"311.1\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">F</text><rect x=\"325.7\" y=\"28\" width=\"18.7\" height=\"16\" fill=\"#f7e08a\" stroke=\"#fff\"/><text x=\"335.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">G</text><rect x=\"344.4\" y=\"28\" width=\"44.4\" height=\"16\" fill=\"#f4b26b\" stroke=\"#fff\"/><text x=\"366.6\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K</text><rect x=\"388.8\" y=\"28\" width=\"51.2\" height=\"16\" fill=\"#e9765a\" stroke=\"#fff\"/><text x=\"414.4\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">M</text></svg></span><p class=\"fig-text\"><small>De små prickarna är verkliga stjärnor: närbelägna stjärnor och kända ljusstarka stjärnor.</small></p><p>Läs av stjärna P:s luminositet och temperatur, och bestäm dess radie. (Svara i solradier.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avläsning: \\(L\\approx100\\,L_\\odot\\) och \\(T\\approx4\\,500\\) K.</p></li><li><div class=\"facit-matte\">\\[\\frac{R}{R_\\odot}=\\sqrt{100}\\cdot\\left(\\frac{5772}{4500}\\right)^2\\approx16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 16 solradier.</p></div>",
+  "familj": "Luminositet, radie och temperatur",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Använd Stefan–Boltzmanns lag i solenheter: \\(L\\) beror på \\(R^2\\) och \\(T^4\\).</p>",
+  "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 16.452337777777778,
+  "tolerans": 2.4678506666666666
+},
+{
+  "id": "5.459",
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "C",
+  "typ": "samma luminositet, olika temperatur",
+  "poang": "(0/1/0)",
+  "t": "<p>Två stjärnor har samma luminositet. Stjärna A har tre gånger så hög yttemperatur som stjärna B.</p><p>Hur många gånger större radie har B än A? (Svara med ett tal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[R_A^2T_A^4=R_B^2T_B^4\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{R_B}{R_A}=\\left(\\frac{T_A}{T_B}\\right)^2=3^2=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9 gånger.</p></div>",
+  "familj": "Luminositet, radie och temperatur",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Sätt luminositeterna lika i Stefan–Boltzmanns lag.</p>",
+  "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9,
+  "tolerans": 0.05
+},
+{
+  "id": "5.460",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "C",
+  "typ": "avstånd ur lika skenbar ljusstyrka",
+  "poang": "(0/1/0)",
+  "t": "<p>Två stjärnor ser lika ljusa ut från jorden. Stjärna B har samma luminositet som solen och ligger 10 pc bort. Stjärna A har 25 gånger så stor luminositet.</p><p>Hur långt bort ligger A? (Svara i pc.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lika flöden: \\(\\frac{L_A}{d_A^2}=\\frac{L_B}{d_B^2}\\).</p></li><li><div class=\"facit-matte\">\\[d_A=d_B\\sqrt{\\frac{L_A}{L_B}}=10\\cdot\\sqrt{25}=50\\ \\mathrm{pc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 pc.</p></div>",
+  "familj": "Parallax, ljus och radar i rymden",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Flödet är proportionellt mot \\(L/d^2\\).</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 50,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "pc"
+},
+{
+  "id": "5.461",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "E",
+  "typ": "solens strålning vid Mars",
+  "poang": "(1/0/0)",
+  "t": "<p>Vid jorden är solens strålningsintensitet 1 361 W/m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"175\" viewBox=\"0 0 440 175\" role=\"img\" aria-label=\"Solen, jorden på avståndet 1,00 AE och Mars på avståndet 1,52 AE.\"><title>Solen, jorden på avståndet 1,00 AE och Mars på avståndet 1,52 AE.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"173\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50\" y1=\"34\" x2=\"270\" y2=\"34\" stroke=\"#216d87\" stroke-width=\"1.6\"/><rect x=\"130.8\" y=\"17.0\" width=\"58.4\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"160.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">1,00 AE</text><line x1=\"50\" y1=\"62\" x2=\"384.4\" y2=\"62\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><rect x=\"188.0\" y=\"69.0\" width=\"58.4\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"217.2\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">1,52 AE</text><line x1=\"50.0\" y1=\"28\" x2=\"50.0\" y2=\"68\" stroke=\"#5b6773\" stroke-width=\"1\"/><line x1=\"270.0\" y1=\"28\" x2=\"270.0\" y2=\"40\" stroke=\"#5b6773\" stroke-width=\"1\"/><line x1=\"384.4\" y1=\"56\" x2=\"384.4\" y2=\"68\" stroke=\"#5b6773\" stroke-width=\"1\"/><circle cx=\"50\" cy=\"115\" r=\"16\" fill=\"#f7c948\" stroke=\"#c98a00\"/><rect x=\"28.0\" y=\"145.0\" width=\"44.0\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"50.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">solen</text><circle cx=\"270\" cy=\"115\" r=\"6\" fill=\"#3b82c4\"/><rect x=\"244.4\" y=\"129.0\" width=\"51.2\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"270.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">jorden</text><circle cx=\"384.4\" cy=\"115\" r=\"5\" fill=\"#c1440e\"/><rect x=\"366.0\" y=\"129.0\" width=\"36.8\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"384.4\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Mars</text><line x1=\"270.0\" y1=\"68\" x2=\"270.0\" y2=\"108\" stroke=\"#5b6773\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"384.4\" y1=\"68\" x2=\"384.4\" y2=\"108\" stroke=\"#5b6773\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/></svg></span><p>Hur stor är intensiteten vid Mars? (Svara i W/m².)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I\\propto\\frac{1}{r^2}\\]</div></li><li><div class=\"facit-matte\">\\[I_{\\text{Mars}}=\\frac{1361}{1{,}52^2}\\approx589\\ \\mathrm{W/m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 590 W/m².</p></div>",
+  "familj": "Parallax, ljus och radar i rymden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Strålningen sprids över en sfär. Hur ändras intensiteten med avståndet?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 589.0754847645429,
+  "tolerans": 5.89075484764543,
+  "svarVardesiffror": 2,
+  "svarEnhet": "W/m²"
+},
+{
+  "id": "5.462",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "C",
+  "typ": "luminositet ur uppmätt flöde",
+  "poang": "(0/1/0)",
+  "t": "<p>Från en stjärna 10,0 pc bort når strålningsflödet 2,0·10⁻⁹ W/m² jorden.</p><p>Bestäm stjärnans luminositet i watt och jämför med solens. (Svara med luminositeten i W och antalet solluminositeter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L=4\\pi d^2 F\\]</div></li><li><div class=\"facit-matte\">\\[L=4\\pi\\cdot(10{,}0\\cdot3{,}086\\cdot10^{16})^2\\cdot2{,}0\\cdot10^{-9}\\approx2{,}4\\cdot10^{27}\\ \\mathrm W\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\frac{2{,}39\\cdot10^{27}}{3{,}828\\cdot10^{26}}\\approx6{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}4\\cdot10^{27}\\) W, ungefär 6,3 gånger solens.</p></div>",
+  "familj": "Parallax, ljus och radar i rymden",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Strålningen sprids över en sfär med radien d. Gör om avståndet till meter.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    2.3929903657270123e+27,
+    6.251280997197002
+  ],
+  "tolerans": [
+    4.785980731454025e+25,
+    0.18753842991591005
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "W",
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Luminositet (W)",
+    "Jämfört med solen"
+  ]
+},
+{
+  "id": "5.463",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "E",
+  "typ": "den kosmiska avståndsstegen",
+  "poang": "(1/0/0)",
+  "t": "<p>Astronomer använder olika metoder beroende på avståndet. Vilken ordning är rätt, från de närmaste till de mest avlägsna föremålen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Radar fungerar inom solsystemet. Parallax fungerar för stjärnor upp till några tusen parsec. Cepheider fungerar i närliggande galaxer, och Hubbles lag med rödförskjutning för mycket avlägsna galaxer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Radar, parallax, cepheider, rödförskjutning.</p></div>",
+  "familj": "Parallax, ljus och radar i rymden",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilken metod kräver att föremålet är nära, och vilken fungerar bara på mycket stora avstånd?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Radar, parallax, cepheider, rödförskjutning",
+      "ratt": true
+    },
+    {
+      "txt": "Parallax, radar, rödförskjutning, cepheider",
+      "ratt": false,
+      "kommentar": "Radar används för planeter, inte stjärnor."
+    },
+    {
+      "txt": "Cepheider, parallax, radar, rödförskjutning",
+      "ratt": false,
+      "kommentar": "Cepheider används för galaxer, långt bortom parallaxens räckvidd."
+    },
+    {
+      "txt": "Radar, cepheider, parallax, rödförskjutning",
+      "ratt": false,
+      "kommentar": "Parallax fungerar för närmare föremål än cepheider."
+    }
+  ]
 }
 ];

@@ -16,3 +16,9 @@ test('Parsec, kiloparsec, ljusår och AE',()=>{
   for(const s of ['206000 AE','206265 AE','2,06·10^5 AE','1,0 pc'])assert.equal(grade(s,206264.8,'AE',4),true,s);
   assert.equal(grade('206000 AE',206264.8,'AE',4),true);
 });
+
+test('Bågsekunder och bågminuter',()=>{
+  for(const s of ['0,05″','0,050 bågsekunder','0,05','50 mas'.replace('50 mas','0,05 ″')])assert.equal(grade(s,0.05,'″'),true,s);
+  for(const s of ['22,6″','23 bågsekunder','0,38′'])assert.equal(grade(s,22.55,'″'),true,s);
+  for(const s of ['0,5″','22,6°'])assert.equal(grade(s,s.startsWith('0,5')?0.05:22.55,'″'),false,s);
+});

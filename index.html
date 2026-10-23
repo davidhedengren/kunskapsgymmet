@@ -4059,7 +4059,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-23-fy2-induktionsvariation";
+const BANK_VERSION="2026-10-23-fy2-astronomi-omgjord";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10136,7 +10136,7 @@ const TEXT_ORDKLASSER=[
   [/^(?:positiv|positivt|positiva)$/,"positiv"],
   [/^(?:negativ|negativt|negativa)$/,"negativ"],
   [/^(?:svag|mycket svag|svagt)$/,"svag"],
-  [/^(?:lika|lika stora|lika stor|lika mycket|samma|lika många)$/,"lika"],
+  [/^(?:lika|lika stora|lika stor|lika mycket|samma|lika många|lika långt|lika långt bort|samma avstånd|på samma avstånd)$/,"lika"],
   [/^(?:ingen|inget|inga|ingen lösning|inga lösningar|saknar lösning|ingen reell lösning|inga reella lösningar|ingen korrelation|ingen tydlig korrelation)$/,"ingen"],
   [/^(?:en|1|en lösning|exakt en|exakt en lösning|unik|en unik lösning)$/,"en"],
   [/^(?:oändligt många|oändligt många lösningar|oändligt)$/,"oändligt många"],
@@ -11528,12 +11528,14 @@ const ENHETER={
   Wh:{b:"J",f:3600}, Ah:{b:"C",f:3600}, kWh:{b:"J",f:3.6e6},
   "°":{b:"°",f:1}, rad:{b:"rad",f:1}, "%":{b:"%",f:1},
   // Astronomiska längdenheter (Fy2 kap 5): kpc och Mpc fås via prefix.
-  pc:{b:"m",f:3.0856775814913673e16}, "ljusår":{b:"m",f:9.4607304725808e15}, AE:{b:"m",f:1.495978707e11}
+  pc:{b:"m",f:3.0856775814913673e16}, "ljusår":{b:"m",f:9.4607304725808e15}, AE:{b:"m",f:1.495978707e11},
+  // Bågminuter och bågsekunder (synvinklar och parallax).
+  "′":{b:"°",f:1/60}, "″":{b:"°",f:1/3600}
 };
 
 const ENHET_ALIAS={h:"tim",timme:"tim",timmar:"tim",sek:"s",sekunder:"s",
   sekund:"s",minut:"min",minuter:"min",dag:"dygn",dagar:"dygn",
-  grader:"°",gr:"°",procent:"%",liter:"l",parsec:"pc",ljusar:"ljusår",au:"AE",ae:"AE",gram:"g",meter:"m",newton:"N",joule:"J",watt:"W"};
+  grader:"°",gr:"°",procent:"%",liter:"l",parsec:"pc",ljusar:"ljusår",au:"AE",ae:"AE",bågsekund:"″",bågsekunder:"″",bågminut:"′",bågminuter:"′","''":"″","'":"′",gram:"g",meter:"m",newton:"N",joule:"J",watt:"W"};
 
 function tolkaEnhetsord(sym){
   if(!sym) return null;

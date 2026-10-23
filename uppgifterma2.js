@@ -24800,5 +24800,780 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "kommentar": "Räkna igen."
     }
   ]
-}
+},
+  {
+    "id": "6.01",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Algebra och ekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen \\(x^2=49\\). Ange båda lösningarna i var sitt svarsfält.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Både ett positivt och ett negativt tal kan ge samma kvadrat.</strong></p><div class=\"facit-matte\">\\[7^2=49\\quad\\text{och}\\quad(-7)^2=49\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-7\\) eller \\(x=7\\).</p></div>",
+    "ledtrad": "<p>Glöm inte den negativa lösningen.</p>",
+    "rättSvar": [
+      -7,
+      7
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarstyp": "flera_delar",
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Algebra och ekvationer",
+      "underlag": "Ma2a/b/c VT22"
+    },
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ]
+  },
+  {
+    "id": "6.02",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Algebra och ekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Skriv \\(x^2-6x+9\\) som en produkt av förstagradsfaktorer.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Känn igen en kvadrat.</strong></p><div class=\"facit-matte\">\\[x^2-6x+9=x^2-2\\cdot3x+3^2\\]</div><div class=\"facit-matte\">\\[=(x-3)^2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\((x-3)^2\\).</p></div>",
+    "ledtrad": "<p>Vilket tal ger både mittentermen och konstanttermen?</p>",
+    "rättSvar": "(x-3)^2",
+    "svarFormat": "faktoriserat",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Algebra och ekvationer",
+      "underlag": "Ma2a/b/c VT22"
+    }
+  },
+  {
+    "id": "6.03",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Funktioner och modeller",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Grafen visar en andragradsfunktion. Vilket \\(x\\)-värde ger funktionens minsta värde?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Parabel i ett koordinatsystem\" style=\"width:100%;max-width:500px\"><title>Parabel i ett koordinatsystem</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-1</text><line x1=\"126.667\" y1=\"45\" x2=\"126.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"126.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"188.333\" y1=\"45\" x2=\"188.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"188.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"250\" y1=\"45\" x2=\"250\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"250\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"311.667\" y1=\"45\" x2=\"311.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"311.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"373.333\" y1=\"45\" x2=\"373.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"373.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><line x1=\"65\" y1=\"225\" x2=\"435\" y2=\"225\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"230\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-4</text><line x1=\"65\" y1=\"185\" x2=\"435\" y2=\"185\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"190\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-2</text><line x1=\"65\" y1=\"145\" x2=\"435\" y2=\"145\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"150\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"105\" x2=\"435\" y2=\"105\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"110\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"65\" x2=\"435\" y2=\"65\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"70\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"65\" y1=\"145\" x2=\"445\" y2=\"145\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"126.667\" y1=\"245\" x2=\"126.667\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y</text><path d=\"M65.000 45.000 L66.542 47.987 L68.083 50.950 L69.625 53.888 L71.167 56.800 L72.708 59.688 L74.250 62.550 L75.792 65.387 L77.333 68.200 L78.875 70.988 L80.417 73.750 L81.958 76.488 L83.500 79.200 L85.042 81.888 L86.583 84.550 L88.125 87.188 L89.667 89.800 L91.208 92.387 L92.750 94.950 L94.292 97.488 L95.833 100.000 L97.375 102.488 L98.917 104.950 L100.458 107.388 L102.000 109.800 L103.542 112.188 L105.083 114.550 L106.625 116.887 L108.167 119.200 L109.708 121.488 L111.250 123.750 L112.792 125.987 L114.333 128.200 L115.875 130.388 L117.417 132.550 L118.958 134.688 L120.500 136.800 L122.042 138.887 L123.583 140.950 L125.125 142.988 L126.667 145.000 L128.208 146.988 L129.750 148.950 L131.292 150.887 L132.833 152.800 L134.375 154.688 L135.917 156.550 L137.458 158.388 L139.000 160.200 L140.542 161.988 L142.083 163.750 L143.625 165.487 L145.167 167.200 L146.708 168.887 L148.250 170.550 L149.792 172.188 L151.333 173.800 L152.875 175.387 L154.417 176.950 L155.958 178.488 L157.500 180.000 L159.042 181.488 L160.583 182.950 L162.125 184.387 L163.667 185.800 L165.208 187.188 L166.750 188.550 L168.292 189.887 L169.833 191.200 L171.375 192.488 L172.917 193.750 L174.458 194.988 L176.000 196.200 L177.542 197.387 L179.083 198.550 L180.625 199.688 L182.167 200.800 L183.708 201.887 L185.250 202.950 L186.792 203.988 L188.333 205.000 L189.875 205.988 L191.417 206.950 L192.958 207.887 L194.500 208.800 L196.042 209.688 L197.583 210.550 L199.125 211.387 L200.667 212.200 L202.208 212.988 L203.750 213.750 L205.292 214.487 L206.833 215.200 L208.375 215.887 L209.917 216.550 L211.458 217.188 L213.000 217.800 L214.542 218.387 L216.083 218.950 L217.625 219.488 L219.167 220.000 L220.708 220.488 L222.250 220.950 L223.792 221.387 L225.333 221.800 L226.875 222.188 L228.417 222.550 L229.958 222.887 L231.500 223.200 L233.042 223.488 L234.583 223.750 L236.125 223.988 L237.667 224.200 L239.208 224.387 L240.750 224.550 L242.292 224.688 L243.833 224.800 L245.375 224.887 L246.917 224.950 L248.458 224.988 L250.000 225.000 L251.542 224.988 L253.083 224.950 L254.625 224.887 L256.167 224.800 L257.708 224.688 L259.250 224.550 L260.792 224.387 L262.333 224.200 L263.875 223.988 L265.417 223.750 L266.958 223.488 L268.500 223.200 L270.042 222.887 L271.583 222.550 L273.125 222.188 L274.667 221.800 L276.208 221.387 L277.750 220.950 L279.292 220.488 L280.833 220.000 L282.375 219.488 L283.917 218.950 L285.458 218.387 L287.000 217.800 L288.542 217.188 L290.083 216.550 L291.625 215.887 L293.167 215.200 L294.708 214.487 L296.250 213.750 L297.792 212.988 L299.333 212.200 L300.875 211.387 L302.417 210.550 L303.958 209.688 L305.500 208.800 L307.042 207.887 L308.583 206.950 L310.125 205.988 L311.667 205.000 L313.208 203.987 L314.750 202.950 L316.292 201.887 L317.833 200.800 L319.375 199.688 L320.917 198.550 L322.458 197.388 L324.000 196.200 L325.542 194.988 L327.083 193.750 L328.625 192.487 L330.167 191.200 L331.708 189.887 L333.250 188.550 L334.792 187.188 L336.333 185.800 L337.875 184.388 L339.417 182.950 L340.958 181.488 L342.500 180.000 L344.042 178.487 L345.583 176.950 L347.125 175.387 L348.667 173.800 L350.208 172.188 L351.750 170.550 L353.292 168.888 L354.833 167.200 L356.375 165.488 L357.917 163.750 L359.458 161.987 L361.000 160.200 L362.542 158.387 L364.083 156.550 L365.625 154.688 L367.167 152.800 L368.708 150.888 L370.250 148.950 L371.792 146.988 L373.333 145.000 L374.875 142.987 L376.417 140.950 L377.958 138.887 L379.500 136.800 L381.042 134.688 L382.583 132.550 L384.125 130.388 L385.667 128.200 L387.208 125.988 L388.750 123.750 L390.292 121.487 L391.833 119.200 L393.375 116.887 L394.917 114.550 L396.458 112.188 L398.000 109.800 L399.542 107.388 L401.083 104.950 L402.625 102.488 L404.167 100.000 L405.708 97.487 L407.250 94.950 L408.792 92.387 L410.333 89.800 L411.875 87.188 L413.417 84.550 L414.958 81.888 L416.500 79.200 L418.042 76.488 L419.583 73.750 L421.125 70.987 L422.667 68.200 L424.208 65.387 L425.750 62.550 L427.292 59.688 L428.833 56.800 L430.375 53.888 L431.917 50.950 L433.458 47.988 L435.000 45.000\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Sök grafens lägsta punkt.</strong></p><p>Lägsta punkten ligger vid \\(x=2\\). Frågan gäller x-koordinaten, inte höjden −4.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\).</p></div>",
+    "ledtrad": "<p>Läs av den vågräta koordinaten för den lägsta punkten.</p>",
+    "rättSvar": 2,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Funktioner och modeller",
+      "underlag": "Ma2a/b/c VT22"
+    }
+  },
+  {
+    "id": "6.04",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Algebra och ekvationer",
+    "formaga": [
+      "modellering"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>I ett förråd står sammanlagt 17 tvåhjuliga cyklar och trehjuliga cyklar. De har tillsammans 42 hjul. Hur många finns det av varje sort?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Använd både antalet cyklar och antalet hjul.</strong></p><div class=\"facit-matte\">\\[x+y=17,\\qquad2x+3y=42\\]</div><p>Dubbla den första ekvationen och jämför med den andra:</p><div class=\"facit-matte\">\\[y=42-34=8,\\qquad x=17-8=9\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 9 tvåhjuliga och 8 trehjuliga cyklar.</p></div>",
+    "ledtrad": "<p>Två uppgifter om samma förråd ger två ekvationer.</p>",
+    "rättSvar": [
+      9,
+      8
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarstyp": "flera_delar",
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Algebra och ekvationer",
+      "underlag": "Ma2a/b/c VT22"
+    },
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Tvåhjuliga cyklar",
+      "Trehjuliga cyklar"
+    ]
+  },
+  {
+    "id": "6.05",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Funktioner och modeller",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En maskins värde beskrivs av \\(V(t)=18000\\cdot0{,}92^t\\), där \\(t\\) är antal år efter inköpet och \\(V\\) mäts i kr. När har värdet halverats? (Svara i år.)</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Halva startvärdet är 9 000 kr.</strong></p><div class=\"facit-matte\">\\[18000\\cdot0{,}92^t=9000\\]</div><p>Ekvationens lösning med digitalt verktyg är \\(t\\approx8{,}31\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 8,31 år.</p></div>",
+    "ledtrad": "<p>Bestäm vilket funktionsvärde som motsvarar halva startvärdet.</p>",
+    "rättSvar": 8.31295041412083,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Digital lösning av exponentialekvation; 2b/c även logaritmer",
+      "underlag": "Ma2a/b/c VT22"
+    },
+    "svarEnhet": "år"
+  },
+  {
+    "id": "6.06",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Algebra och ekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Skriv \\(\\lg 2+\\lg 7\\) som en enda tiologaritm.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>En summa av logaritmer blir logaritmen av en produkt.</strong></p><div class=\"facit-matte\">\\[\\lg2+\\lg7=\\lg(2\\cdot7)=\\lg14\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\lg14\\).</p></div>",
+    "ledtrad": "<p>Använd logaritmlagen för en produkt.</p>",
+    "rättSvar": "lg(14)",
+    "svarFormat": "en_logaritm",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Logaritmlagar",
+      "underlag": "Ma2a/b/c VT22"
+    }
+  },
+  {
+    "id": "6.07",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Geometri och samband",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Triangeln är likbent med \\(AB=AC\\). Vinkeln vid A är 50°. Hur stor är vinkeln vid B? (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Likbent triangel ABC med lika sidor AB och AC\" style=\"width:100%;max-width:500px\"><title>Likbent triangel ABC med lika sidor AB och AC</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><path d=\"M168.396 240L250 65L331.604 240Z\" fill=\"#e8f3f8\" stroke=\"#24435e\" stroke-width=\"3\"/><text x=\"250\" y=\"42\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">A</text><text x=\"150\" y=\"258\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">B</text><text x=\"350\" y=\"258\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">C</text><path d=\"M233.095 101.252A40 40 0 0 0 266.905 101.252\" fill=\"none\" stroke=\"#b65d14\" stroke-width=\"2\"/><text x=\"250\" y=\"132\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">50°</text><line x1=\"203\" y1=\"152\" x2=\"217\" y2=\"159\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"283\" y1=\"159\" x2=\"297\" y2=\"152\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"250\" y=\"285\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">AB = AC</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>De två basvinklarna är lika stora.</strong></p><div class=\"facit-matte\">\\[B=C=\\frac{180^\\circ-50^\\circ}{2}=65^\\circ\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 65°.</p></div>",
+    "ledtrad": "<p>Hur stor vinkelsumma återstår till de två lika vinklarna?</p>",
+    "rättSvar": 65,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Vinklar i likbent triangel",
+      "underlag": "Ma2a/b/c VT22"
+    },
+    "svarEnhet": "°"
+  },
+  {
+    "id": "6.08",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Geometri och samband",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En 1,6 m hög stolpe har en 2,4 m lång skugga. Samtidigt har ett träd en 5,4 m lång skugga på samma plana mark. Hur högt är trädet? (Svara i m.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Två lodräta föremål med skuggor; solstrålarna är parallella\" style=\"width:100%;max-width:500px\"><title>Två lodräta föremål med skuggor; solstrålarna är parallella</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"45\" y1=\"230\" x2=\"480\" y2=\"230\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"75\" y1=\"230\" x2=\"75\" y2=\"166\" stroke=\"#146a96\" stroke-width=\"4\"/><line x1=\"250\" y1=\"230\" x2=\"250\" y2=\"86\" stroke=\"#146a96\" stroke-width=\"4\"/><line x1=\"75\" y1=\"166\" x2=\"171\" y2=\"230\" stroke=\"#b77323\" stroke-width=\"2\"/><line x1=\"250\" y1=\"86\" x2=\"466\" y2=\"230\" stroke=\"#b77323\" stroke-width=\"2\"/><text x=\"68\" y=\"190\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172e46\">1,6 m</text><text x=\"123\" y=\"259\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2,4 m</text><text x=\"358\" y=\"259\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5,4 m</text><text x=\"232\" y=\"140\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">h</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Solstrålarna ger likformiga trianglar.</strong></p><div class=\"facit-matte\">\\[\\frac{h}{5{,}4}=\\frac{1{,}6}{2{,}4}\\]</div><div class=\"facit-matte\">\\[h=5{,}4\\cdot\\frac{1{,}6}{2{,}4}=3{,}6\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 3,6 m.</p></div>",
+    "ledtrad": "<p>Förhållandet mellan höjd och skugga är detsamma.</p>",
+    "rättSvar": 3.6,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Likformighet",
+      "underlag": "Ma2a/b/c VT22"
+    },
+    "svarEnhet": "m"
+  },
+  {
+    "id": "6.09",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Statistik och tolkning",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Tabellen visar väntetider för fyra samtal. Bestäm standardavvikelsen Sx. (Svara i minuter.)</p><table style=\"border-collapse:collapse;width:100%;max-width:420px\"><thead><tr><th style=\"padding:7px;border:1px solid #8192a3\">Samtal</th><th style=\"padding:7px;border:1px solid #8192a3\">Väntetid (min)</th></tr></thead><tbody><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">A</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">4</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">B</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">6</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">C</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">6</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">D</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">8</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Beräkna Sx för alla fyra observationerna.</strong></p><p>Medelvärdet är 6 minuter. De kvadrerade avvikelserna är 4, 0, 0 och 4. Deras summa är 8.</p><div class=\"facit-matte\">\\[S_x=\\sqrt{\\frac{8}{4-1}}=\\sqrt{8/3}\\]</div><div class=\"facit-matte\">\\[S_x\\approx1{,}63\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,63 minuter.</p></div>",
+    "ledtrad": "<p>Använd statistikfunktionen och välj stickprovsstandardavvikelsen Sx.</p>",
+    "rättSvar": 1.632993161855452,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Digital beräkning av standardavvikelse Sx",
+      "underlag": "Ma2a/b/c VT22"
+    },
+    "svarEnhet": "min"
+  },
+  {
+    "id": "6.10",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Statistik och tolkning",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En produkts livslängd är normalfördelad med medelvärdet 60 månader och standardavvikelsen 4 månader. Ungefär hur många procent har en livslängd mellan 56 och 64 månader?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Normalfördelning centrerad vid 60 månader\" style=\"width:100%;max-width:500px\"><title>Normalfördelning centrerad vid 60 månader</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">48</text><line x1=\"126.667\" y1=\"45\" x2=\"126.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"126.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">52</text><line x1=\"188.333\" y1=\"45\" x2=\"188.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"188.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">56</text><line x1=\"250\" y1=\"45\" x2=\"250\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"250\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">60</text><line x1=\"311.667\" y1=\"45\" x2=\"311.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"311.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">64</text><line x1=\"373.333\" y1=\"45\" x2=\"373.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"373.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">68</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">72</text><line x1=\"65\" y1=\"245\" x2=\"445\" y2=\"245\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"65\" y1=\"245\" x2=\"65\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Månader</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Täthet</text><path d=\"M65.000 243.153 L66.542 243.010 L68.083 242.857 L69.625 242.694 L71.167 242.520 L72.708 242.334 L74.250 242.136 L75.792 241.926 L77.333 241.702 L78.875 241.464 L80.417 241.211 L81.958 240.943 L83.500 240.658 L85.042 240.356 L86.583 240.037 L88.125 239.698 L89.667 239.340 L91.208 238.962 L92.750 238.563 L94.292 238.141 L95.833 237.697 L97.375 237.228 L98.917 236.734 L100.458 236.215 L102.000 235.669 L103.542 235.095 L105.083 234.492 L106.625 233.860 L108.167 233.197 L109.708 232.502 L111.250 231.775 L112.792 231.014 L114.333 230.219 L115.875 229.388 L117.417 228.521 L118.958 227.616 L120.500 226.674 L122.042 225.692 L123.583 224.670 L125.125 223.608 L126.667 222.504 L128.208 221.358 L129.750 220.169 L131.292 218.937 L132.833 217.660 L134.375 216.339 L135.917 214.973 L137.458 213.561 L139.000 212.104 L140.542 210.601 L142.083 209.051 L143.625 207.455 L145.167 205.813 L146.708 204.124 L148.250 202.390 L149.792 200.609 L151.333 198.783 L152.875 196.912 L154.417 194.996 L155.958 193.037 L157.500 191.034 L159.042 188.990 L160.583 186.904 L162.125 184.778 L163.667 182.614 L165.208 180.412 L166.750 178.174 L168.292 175.901 L169.833 173.596 L171.375 171.261 L172.917 168.896 L174.458 166.505 L176.000 164.089 L177.542 161.651 L179.083 159.193 L180.625 156.718 L182.167 154.228 L183.708 151.727 L185.250 149.216 L186.792 146.699 L188.333 144.179 L189.875 141.659 L191.417 139.142 L192.958 136.632 L194.500 134.131 L196.042 131.644 L197.583 129.173 L199.125 126.722 L200.667 124.295 L202.208 121.895 L203.750 119.526 L205.292 117.191 L206.833 114.894 L208.375 112.639 L209.917 110.428 L211.458 108.266 L213.000 106.156 L214.542 104.102 L216.083 102.107 L217.625 100.174 L219.167 98.306 L220.708 96.507 L222.250 94.780 L223.792 93.128 L225.333 91.554 L226.875 90.060 L228.417 88.650 L229.958 87.325 L231.500 86.088 L233.042 84.942 L234.583 83.888 L236.125 82.929 L237.667 82.066 L239.208 81.300 L240.750 80.634 L242.292 80.068 L243.833 79.603 L245.375 79.241 L246.917 78.982 L248.458 78.826 L250.000 78.774 L251.542 78.826 L253.083 78.982 L254.625 79.241 L256.167 79.603 L257.708 80.068 L259.250 80.634 L260.792 81.300 L262.333 82.066 L263.875 82.929 L265.417 83.888 L266.958 84.942 L268.500 86.088 L270.042 87.325 L271.583 88.650 L273.125 90.060 L274.667 91.554 L276.208 93.128 L277.750 94.780 L279.292 96.507 L280.833 98.306 L282.375 100.174 L283.917 102.107 L285.458 104.102 L287.000 106.156 L288.542 108.266 L290.083 110.428 L291.625 112.639 L293.167 114.894 L294.708 117.191 L296.250 119.526 L297.792 121.895 L299.333 124.295 L300.875 126.722 L302.417 129.173 L303.958 131.644 L305.500 134.131 L307.042 136.632 L308.583 139.142 L310.125 141.659 L311.667 144.179 L313.208 146.699 L314.750 149.216 L316.292 151.727 L317.833 154.228 L319.375 156.718 L320.917 159.193 L322.458 161.651 L324.000 164.089 L325.542 166.505 L327.083 168.896 L328.625 171.261 L330.167 173.596 L331.708 175.901 L333.250 178.174 L334.792 180.412 L336.333 182.614 L337.875 184.778 L339.417 186.904 L340.958 188.990 L342.500 191.034 L344.042 193.037 L345.583 194.996 L347.125 196.912 L348.667 198.783 L350.208 200.609 L351.750 202.390 L353.292 204.124 L354.833 205.813 L356.375 207.455 L357.917 209.051 L359.458 210.601 L361.000 212.104 L362.542 213.561 L364.083 214.973 L365.625 216.339 L367.167 217.660 L368.708 218.937 L370.250 220.169 L371.792 221.358 L373.333 222.504 L374.875 223.608 L376.417 224.670 L377.958 225.692 L379.500 226.674 L381.042 227.616 L382.583 228.521 L384.125 229.388 L385.667 230.219 L387.208 231.014 L388.750 231.775 L390.292 232.502 L391.833 233.197 L393.375 233.860 L394.917 234.492 L396.458 235.095 L398.000 235.669 L399.542 236.215 L401.083 236.734 L402.625 237.228 L404.167 237.697 L405.708 238.141 L407.250 238.563 L408.792 238.962 L410.333 239.340 L411.875 239.698 L413.417 240.037 L414.958 240.356 L416.500 240.658 L418.042 240.943 L419.583 241.211 L421.125 241.464 L422.667 241.702 L424.208 241.926 L425.750 242.136 L427.292 242.334 L428.833 242.520 L430.375 242.694 L431.917 242.857 L433.458 243.010 L435.000 243.153\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Gränserna ligger en standardavvikelse från medelvärdet.</strong></p><p>I en normalfördelning ligger ungefär 68 % inom en standardavvikelse från medelvärdet.</p><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 68 %.</p></div>",
+    "ledtrad": "<p>Hur långt från medelvärdet ligger de två gränserna?</p>",
+    "rättSvar": 68.26894921370858,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Normalfördelning med given standardavvikelse",
+      "underlag": "Ma2a/b/c VT22"
+    },
+    "svarEnhet": "%"
+  },
+  {
+    "id": "6.11",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Statistik och tolkning",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lådagrammet visar leveranstider. Hur stort är kvartilavståndet? (Svara i dagar.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Lådagram med skala för leveranstid\" style=\"width:100%;max-width:500px\"><title>Lådagram med skala för leveranstid</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"70\" y1=\"120\" x2=\"430\" y2=\"120\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"70\" y1=\"100\" x2=\"70\" y2=\"140\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"430\" y1=\"100\" x2=\"430\" y2=\"140\" stroke=\"#334b63\" stroke-width=\"2\"/><rect x=\"150\" y=\"90\" width=\"160\" height=\"60\" fill=\"#c9e5ef\" stroke=\"#24435e\" stroke-width=\"3\"/><line x1=\"230\" y1=\"90\" x2=\"230\" y2=\"150\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"50\" y1=\"200\" x2=\"450\" y2=\"200\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"70\" y1=\"195\" x2=\"70\" y2=\"205\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"70\" y=\"230\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><line x1=\"110\" y1=\"195\" x2=\"110\" y2=\"205\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"110\" y=\"230\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">12</text><line x1=\"150\" y1=\"195\" x2=\"150\" y2=\"205\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"150\" y=\"230\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">14</text><line x1=\"190\" y1=\"195\" x2=\"190\" y2=\"205\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"190\" y=\"230\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">16</text><line x1=\"230\" y1=\"195\" x2=\"230\" y2=\"205\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"230\" y=\"230\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">18</text><line x1=\"270\" y1=\"195\" x2=\"270\" y2=\"205\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"270\" y=\"230\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">20</text><line x1=\"310\" y1=\"195\" x2=\"310\" y2=\"205\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"310\" y=\"230\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">22</text><line x1=\"350\" y1=\"195\" x2=\"350\" y2=\"205\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"350\" y=\"230\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">24</text><line x1=\"390\" y1=\"195\" x2=\"390\" y2=\"205\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"390\" y=\"230\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">26</text><line x1=\"430\" y1=\"195\" x2=\"430\" y2=\"205\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"430\" y=\"230\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">28</text><text x=\"250\" y=\"270\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Leveranstid (dagar)</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Kvartilerna ligger vid lådans kanter.</strong></p><div class=\"facit-matte\">\\[Q_1=14,\\qquad Q_3=22\\]</div><div class=\"facit-matte\">\\[Q_3-Q_1=22-14=8\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 8 dagar.</p></div>",
+    "ledtrad": "<p>Lådans bredd motsvarar kvartilavståndet.</p>",
+    "rättSvar": 8,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Kvartiler och spridningsmått",
+      "underlag": "Ma2a/b/c VT22"
+    },
+    "svarEnhet": "dagar"
+  },
+  {
+    "id": "6.12",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Funktioner och modeller",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En rektangel har omkretsen 36 cm. Den ena sidan är \\(x\\) cm. Vilket värde på \\(x\\) ger störst area? (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Rektangel med omkrets 36 cm\" style=\"width:100%;max-width:500px\"><title>Rektangel med omkrets 36 cm</title><rect width=\"500\" height=\"260\" rx=\"12\" fill=\"#fff\"/><rect x=\"105\" y=\"65\" width=\"290\" height=\"145\" fill=\"#e8f3f8\" stroke=\"#24435e\" stroke-width=\"3\"/><text x=\"250\" y=\"238\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x cm</text><text x=\"410\" y=\"145\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172e46\">y cm</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Skriv arean som en andragradsfunktion.</strong></p><p>Sidorna har summan 18 cm, så den andra sidan är \\(18-x\\).</p><div class=\"facit-matte\">\\[A(x)=x(18-x)=81-(x-9)^2\\]</div><p>Kvadraten är minst när x = 9; då är arean störst.</p><p class=\"facit-svar\"><strong>Svar:</strong> 9 cm.</p></div>",
+    "ledtrad": "<p>Omkretsen ger ett samband mellan sidorna.</p>",
+    "rättSvar": 9,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Funktioner och modeller",
+      "underlag": "Ma2a/b/c VT22"
+    },
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "6.13",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Algebra och ekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen \\(\\sqrt{x+6}=x\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Kvadrera och pröva sedan kandidaterna i ursprungsekvationen.</strong></p><div class=\"facit-matte\">\\[x+6=x^2\\]</div><div class=\"facit-matte\">\\[(x-3)(x+2)=0\\]</div><p>Kandidaterna är 3 och −2. För x = 3 är båda leden 3. För x = −2 blir vänsterledet 2 och högerledet −2.</p><p class=\"facit-svar\"><strong>Svar:</strong> Endast \\(x=3\\).</p></div>",
+    "ledtrad": "<p>En kvadratrot kan inte vara negativ.</p>",
+    "rättSvar": 3,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Rotekvationer och extralösningar",
+      "underlag": "Ma2a/b/c VT22"
+    }
+  },
+  {
+    "id": "6.14",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Algebra och ekvationer",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Vilket värde ska \\(k\\) ha för att \\(x^2-8x+k=0\\) ska ha exakt en reell lösning?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Skriv vänsterledet med en kvadrat.</strong></p><div class=\"facit-matte\">\\[(x-4)^2+k-16=0\\]</div><p>En enda reell lösning fås när kvadraten måste vara noll. Därför ska \\(k-16=0\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=16\\).</p></div>",
+    "ledtrad": "<p>När sammanfaller de två rötterna?</p>",
+    "rättSvar": 16,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Algebra och ekvationer",
+      "underlag": "Ma2a/b/c VT22"
+    }
+  },
+  {
+    "id": "6.15",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Geometri och samband",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Punkten \\(M=(4,2)\\) är mittpunkt på sträckan AB. Punkten \\(A=(1,-3)\\). Bestäm koordinaterna för B.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Punkterna A och M i ett rutnät\" style=\"width:100%;max-width:500px\"><title>Punkterna A och M i ett rutnät</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"157.5\" y1=\"45\" x2=\"157.5\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"157.5\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"250\" y1=\"45\" x2=\"250\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"250\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"342.5\" y1=\"45\" x2=\"342.5\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"342.5\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><line x1=\"65\" y1=\"245\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"250\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-4</text><line x1=\"65\" y1=\"211.667\" x2=\"435\" y2=\"211.667\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"216.667\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-2</text><line x1=\"65\" y1=\"178.333\" x2=\"435\" y2=\"178.333\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"183.333\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"145\" x2=\"435\" y2=\"145\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"150\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"111.667\" x2=\"435\" y2=\"111.667\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"116.667\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"65\" y1=\"78.3333\" x2=\"435\" y2=\"78.3333\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"83.3333\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"65\" y1=\"45\" x2=\"435\" y2=\"45\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"50\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><line x1=\"65\" y1=\"178.333\" x2=\"445\" y2=\"178.333\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"65\" y1=\"245\" x2=\"65\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y</text><circle cx=\"111.250\" cy=\"228.333\" r=\"4\" fill=\"#af3451\"/><rect x=\"116.250\" y=\"201.333\" width=\"22\" height=\"21\" fill=\"#fff\"/><text x=\"119.25\" y=\"218.333\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">A</text><circle cx=\"250.000\" cy=\"145.000\" r=\"4\" fill=\"#af3451\"/><rect x=\"255.000\" y=\"118.000\" width=\"22\" height=\"21\" fill=\"#fff\"/><text x=\"258\" y=\"135\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">M</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Gå lika långt från M som du gick från A till M.</strong></p><div class=\"facit-matte\">\\[\\overrightarrow{AM}=(4-1,2-(-3))=(3,5)\\]</div><div class=\"facit-matte\">\\[B=(4+3,2+5)=(7,7)\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(B=(7,7)\\).</p></div>",
+    "ledtrad": "<p>Mittpunkten delar sträckan i två lika långa delar.</p>",
+    "rättSvar": [
+      7,
+      7
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarstyp": "flera_delar",
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Koordinatgeometri och mittpunkt",
+      "underlag": "Ma2a/b/c VT22"
+    },
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "B:s x-koordinat",
+      "B:s y-koordinat"
+    ]
+  },
+  {
+    "id": "6.16",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Funktioner och modeller",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En andragradsfunktion har nollställena 2 och 8. Dess graf går genom \\((0,32)\\). Bestäm \\(f(5)\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Använd nollställena och bestäm sedan skalfaktorn.</strong></p><div class=\"facit-matte\">\\[f(x)=a(x-2)(x-8)\\]</div><div class=\"facit-matte\">\\[32=a(-2)(-8)\\Rightarrow a=2\\]</div><div class=\"facit-matte\">\\[f(5)=2\\cdot3\\cdot(-3)=-18\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(5)=-18\\).</p></div>",
+    "ledtrad": "<p>Hur skrivs en andragradsfunktion när nollställena är kända?</p>",
+    "rättSvar": -18,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Funktioner och modeller",
+      "underlag": "Ma2a/b/c VT22"
+    }
+  },
+  {
+    "id": "6.17",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Statistik och tolkning",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Anpassa en rät linje till tabellens mätvärden med linjär regression. Använd linjen för att uppskatta \\(y\\) när \\(x=5\\).</p><table style=\"border-collapse:collapse;width:100%;max-width:420px\"><thead><tr><th style=\"padding:7px;border:1px solid #8192a3\">x</th><th style=\"padding:7px;border:1px solid #8192a3\">y</th></tr></thead><tbody><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">1</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">3</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">2</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">6</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">3</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">7</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">4</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">10</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Regressionslinjen använder samtliga mätpunkter.</strong></p><p>Digital linjär regression ger \\(y=2{,}2x+1\\).</p><div class=\"facit-matte\">\\[y(5)=2{,}2\\cdot5+1=12\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 12.</p></div>",
+    "ledtrad": "<p>Välj linjär regression, inte en linje genom bara två av punkterna.</p>",
+    "rättSvar": 12,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Digital linjär regression",
+      "underlag": "Ma2a/b/c VT22"
+    }
+  },
+  {
+    "id": "6.18",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Statistik och tolkning",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Fem mätvärden är 10, 11, 12, 13 och 14. Det största värdet ändras till 54. Vilket påstående stämmer? Välj ett alternativ.</p><table style=\"border-collapse:collapse;width:100%;max-width:420px\"><thead><tr><th style=\"padding:7px;border:1px solid #8192a3\">Mätning</th><th style=\"padding:7px;border:1px solid #8192a3\">1</th><th style=\"padding:7px;border:1px solid #8192a3\">2</th><th style=\"padding:7px;border:1px solid #8192a3\">3</th><th style=\"padding:7px;border:1px solid #8192a3\">4</th><th style=\"padding:7px;border:1px solid #8192a3\">5</th></tr></thead><tbody><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">Före</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">10</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">11</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">12</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">13</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">14</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">Efter</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">10</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">11</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">12</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">13</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">54</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Jämför summan och det mittersta värdet.</strong></p><p>Summan ökar med 40, så medelvärdet ökar med \\(40/5=8\\). Det mittersta värdet är fortfarande 12.</p><p class=\"facit-svar\"><strong>Svar:</strong> Medelvärdet ökar med 8 och medianen är oförändrad.</p></div>",
+    "ledtrad": "<p>Vilket av måtten påverkas av alla värden?</p>",
+    "rättSvar": null,
+    "svarFormat": "text",
+    "svarstyp": "alternativ",
+    "tolerans": null,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Medelvärde och median",
+      "underlag": "Ma2a/b/c VT22"
+    },
+    "alternativ": [
+      {
+        "txt": "Både medelvärdet och medianen ökar med 8.",
+        "ratt": false
+      },
+      {
+        "txt": "Medelvärdet ökar med 8 och medianen är oförändrad.",
+        "ratt": true
+      },
+      {
+        "txt": "Medianen ökar med 40 och medelvärdet är oförändrat.",
+        "ratt": false
+      },
+      {
+        "txt": "Båda måtten är oförändrade.",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "6.19",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Geometri och samband",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 4,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En rektangulär yta är 24 m lång och 18 m bred. En gång med samma bredd längs alla fyra kanter lämnar 280 m² kvar i mitten. Hur bred är gången? (Svara i m.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Rektangulär yta med en lika bred gång längs kanterna\" style=\"width:100%;max-width:500px\"><title>Rektangulär yta med en lika bred gång längs kanterna</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><rect x=\"80\" y=\"45\" width=\"340\" height=\"210\" fill=\"#c9d4df\" stroke=\"#24435e\" stroke-width=\"3\"/><rect x=\"115\" y=\"80\" width=\"270\" height=\"140\" fill=\"#e6f4e1\" stroke=\"#24435e\" stroke-width=\"2\"/><text x=\"250\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">24 m</text><text x=\"460\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">18 m</text><text x=\"250\" y=\"155\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">280 m²</text><text x=\"98\" y=\"155\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Gången tar plats på två sidor i varje riktning.</strong></p><div class=\"facit-matte\">\\[(24-2x)(18-2x)=280\\]</div><div class=\"facit-matte\">\\[x^2-21x+38=0\\]</div><div class=\"facit-matte\">\\[(x-2)(x-19)=0\\]</div><p>x = 19 fungerar inte som bredd, eftersom x måste vara mindre än 9 m. Kontroll: \\(20\\cdot14=280\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> 2 m.</p></div>",
+    "ledtrad": "<p>Skriv längd och bredd för den inre rektangeln.</p>",
+    "rättSvar": 2,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Geometri och samband",
+      "underlag": "Ma2a/b/c VT22"
+    },
+    "svarEnhet": "m"
+  },
+  {
+    "id": "6.20",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "familj": "Funktioner och modeller",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Linjen \\(y=kx+1\\) ska ha exakt en gemensam punkt med parabeln \\(y=x^2+10\\). Bestäm alla möjliga värden på \\(k\\). Ange dem i var sitt fält.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>En gemensam punkt betyder en dubbelrot.</strong></p><div class=\"facit-matte\">\\[x^2-kx+9=0\\]</div><div class=\"facit-matte\">\\[\\left(x-\\frac{k}{2}\\right)^2=\\frac{k^2}{4}-9\\]</div><p>Högerledet måste vara noll för att det ska finnas exakt ett x-värde.</p><div class=\"facit-matte\">\\[k^2=36\\Rightarrow k=\\pm6\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=-6\\) eller \\(k=6\\).</p></div>",
+    "ledtrad": "<p>Sätt funktionernas värden lika och undersök antalet lösningar.</p>",
+    "rättSvar": [
+      -6,
+      6
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarstyp": "flera_delar",
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Funktioner och modeller",
+      "underlag": "Ma2a/b/c VT22"
+    },
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ]
+  }
 ];

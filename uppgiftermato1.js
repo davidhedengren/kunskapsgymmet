@@ -108417,5 +108417,688 @@ window.BANKMATO1 = [
     null,
     null
   ]
-}
+},
+  {
+    "id": "5.01",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Derivata och förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Bestäm derivatan till \\(f(x)=4x^3-5x\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Derivera varje term.</strong></p><div class=\"facit-matte\">\\[f'(x)=4\\cdot3x^2-5=12x^2-5\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)=12x^2-5\\).</p></div>",
+    "ledtrad": "<p>Potensens exponent minskar med ett vid derivering.</p>",
+    "rättSvar": "12*x^2-5",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och förändring",
+      "underlag": "Ma3b/c VT22"
+    }
+  },
+  {
+    "id": "5.02",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Integraler och area",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Ange en primitiv funktion till \\(f(x)=6x^2-4x\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Välj termer som ger rätt derivata.</strong></p><div class=\"facit-matte\">\\[F(x)=2x^3-2x^2\\]</div><p>Kontroll: \\(F'(x)=6x^2-4x\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> Till exempel \\(F(x)=2x^3-2x^2\\). En valfri konstant kan läggas till.</p></div>",
+    "ledtrad": "<p>Kontrollera ditt förslag genom att derivera det.</p>",
+    "rättSvar": "2*x^3-2*x^2",
+    "svarFormat": "primitiv",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Integraler och area",
+      "underlag": "Ma3b/c VT22"
+    }
+  },
+  {
+    "id": "5.03",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Derivata och förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Tabellen visar mängden vatten i en tank. Bestäm den genomsnittliga förändringen per minut mellan mätningarna. (Svara i l/min, med tecken.)</p><table style=\"border-collapse:collapse;width:100%;max-width:420px\"><thead><tr><th style=\"padding:7px;border:1px solid #8192a3\">Tid (min)</th><th style=\"padding:7px;border:1px solid #8192a3\">Volym (l)</th></tr></thead><tbody><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">2</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">80</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">8</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">50</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Dela volymändringen med tidsändringen.</strong></p><div class=\"facit-matte\">\\[\\frac{50-80}{8-2}=\\frac{-30}{6}=-5\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> −5 l/min.</p></div>",
+    "ledtrad": "<p>En minskning ska ge en negativ förändringshastighet.</p>",
+    "rättSvar": -5,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och förändring",
+      "underlag": "Ma3b/c VT22"
+    },
+    "svarEnhet": "l/min"
+  },
+  {
+    "id": "5.04",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Derivata och förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Den blå kurvan har den orange tangenten vid \\(x=3\\). Tangenten går genom de markerade punkterna \\((1,2)\\) och \\((5,10)\\). Bestäm \\(f'(3)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Funktionskurva med tangent och två markerade tangentpunkter\" style=\"width:100%;max-width:500px\"><title>Funktionskurva med tangent och två markerade tangentpunkter</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"126.667\" y1=\"45\" x2=\"126.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"126.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"188.333\" y1=\"45\" x2=\"188.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"188.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"250\" y1=\"45\" x2=\"250\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"250\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"311.667\" y1=\"45\" x2=\"311.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"311.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"373.333\" y1=\"45\" x2=\"373.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"373.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"65\" y1=\"245\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"250\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"216.429\" x2=\"435\" y2=\"216.429\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"221.429\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"187.857\" x2=\"435\" y2=\"187.857\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"192.857\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"65\" y1=\"159.286\" x2=\"435\" y2=\"159.286\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"164.286\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"65\" y1=\"130.714\" x2=\"435\" y2=\"130.714\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"135.714\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><line x1=\"65\" y1=\"102.143\" x2=\"435\" y2=\"102.143\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"107.143\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><line x1=\"65\" y1=\"73.5714\" x2=\"435\" y2=\"73.5714\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"78.5714\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">12</text><line x1=\"65\" y1=\"45\" x2=\"435\" y2=\"45\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"50\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">14</text><line x1=\"65\" y1=\"245\" x2=\"445\" y2=\"245\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"65\" y1=\"245\" x2=\"65\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y</text><path d=\"M65.000 206.429 L66.542 206.354 L68.083 206.275 L69.625 206.190 L71.167 206.100 L72.708 206.004 L74.250 205.904 L75.792 205.797 L77.333 205.686 L78.875 205.569 L80.417 205.446 L81.958 205.319 L83.500 205.186 L85.042 205.047 L86.583 204.904 L88.125 204.754 L89.667 204.600 L91.208 204.440 L92.750 204.275 L94.292 204.104 L95.833 203.929 L97.375 203.747 L98.917 203.561 L100.458 203.369 L102.000 203.171 L103.542 202.969 L105.083 202.761 L106.625 202.547 L108.167 202.329 L109.708 202.104 L111.250 201.875 L112.792 201.640 L114.333 201.400 L115.875 201.154 L117.417 200.904 L118.958 200.647 L120.500 200.386 L122.042 200.119 L123.583 199.846 L125.125 199.569 L126.667 199.286 L128.208 198.997 L129.750 198.704 L131.292 198.404 L132.833 198.100 L134.375 197.790 L135.917 197.475 L137.458 197.154 L139.000 196.829 L140.542 196.497 L142.083 196.161 L143.625 195.819 L145.167 195.471 L146.708 195.119 L148.250 194.761 L149.792 194.397 L151.333 194.029 L152.875 193.654 L154.417 193.275 L155.958 192.890 L157.500 192.500 L159.042 192.104 L160.583 191.704 L162.125 191.297 L163.667 190.886 L165.208 190.469 L166.750 190.046 L168.292 189.619 L169.833 189.186 L171.375 188.747 L172.917 188.304 L174.458 187.854 L176.000 187.400 L177.542 186.940 L179.083 186.475 L180.625 186.004 L182.167 185.529 L183.708 185.047 L185.250 184.561 L186.792 184.069 L188.333 183.571 L189.875 183.069 L191.417 182.561 L192.958 182.047 L194.500 181.529 L196.042 181.004 L197.583 180.475 L199.125 179.940 L200.667 179.400 L202.208 178.854 L203.750 178.304 L205.292 177.747 L206.833 177.186 L208.375 176.619 L209.917 176.046 L211.458 175.469 L213.000 174.886 L214.542 174.297 L216.083 173.704 L217.625 173.104 L219.167 172.500 L220.708 171.890 L222.250 171.275 L223.792 170.654 L225.333 170.029 L226.875 169.397 L228.417 168.761 L229.958 168.119 L231.500 167.471 L233.042 166.819 L234.583 166.161 L236.125 165.497 L237.667 164.829 L239.208 164.154 L240.750 163.475 L242.292 162.790 L243.833 162.100 L245.375 161.404 L246.917 160.704 L248.458 159.997 L250.000 159.286 L251.542 158.569 L253.083 157.846 L254.625 157.119 L256.167 156.386 L257.708 155.647 L259.250 154.904 L260.792 154.154 L262.333 153.400 L263.875 152.640 L265.417 151.875 L266.958 151.104 L268.500 150.329 L270.042 149.547 L271.583 148.761 L273.125 147.969 L274.667 147.171 L276.208 146.369 L277.750 145.561 L279.292 144.747 L280.833 143.929 L282.375 143.104 L283.917 142.275 L285.458 141.440 L287.000 140.600 L288.542 139.754 L290.083 138.904 L291.625 138.047 L293.167 137.186 L294.708 136.319 L296.250 135.446 L297.792 134.569 L299.333 133.686 L300.875 132.797 L302.417 131.904 L303.958 131.004 L305.500 130.100 L307.042 129.190 L308.583 128.275 L310.125 127.354 L311.667 126.429 L313.208 125.497 L314.750 124.561 L316.292 123.619 L317.833 122.671 L319.375 121.719 L320.917 120.761 L322.458 119.797 L324.000 118.829 L325.542 117.854 L327.083 116.875 L328.625 115.890 L330.167 114.900 L331.708 113.904 L333.250 112.904 L334.792 111.897 L336.333 110.886 L337.875 109.869 L339.417 108.846 L340.958 107.819 L342.500 106.786 L344.042 105.747 L345.583 104.704 L347.125 103.654 L348.667 102.600 L350.208 101.540 L351.750 100.475 L353.292 99.404 L354.833 98.329 L356.375 97.247 L357.917 96.161 L359.458 95.069 L361.000 93.971 L362.542 92.869 L364.083 91.761 L365.625 90.647 L367.167 89.529 L368.708 88.404 L370.250 87.275 L371.792 86.140 L373.333 85.000 L374.875 83.854 L376.417 82.704 L377.958 81.547 L379.500 80.386 L381.042 79.219 L382.583 78.046 L384.125 76.869 L385.667 75.686 L387.208 74.497 L388.750 73.304 L390.292 72.104 L391.833 70.900 L393.375 69.690 L394.917 68.475 L396.458 67.254 L398.000 66.029 L399.542 64.797 L401.083 63.561 L402.625 62.319 L404.167 61.071 L405.708 59.819 L407.250 58.561 L408.792 57.297 L410.333 56.029 L411.875 54.754 L413.417 53.475 L414.958 52.190 L416.500 50.900 L418.042 49.604 L419.583 48.304 L421.125 46.997 L422.667 45.686\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/><path d=\"M65.000 245.000 L66.542 244.286 L68.083 243.571 L69.625 242.857 L71.167 242.143 L72.708 241.429 L74.250 240.714 L75.792 240.000 L77.333 239.286 L78.875 238.571 L80.417 237.857 L81.958 237.143 L83.500 236.429 L85.042 235.714 L86.583 235.000 L88.125 234.286 L89.667 233.571 L91.208 232.857 L92.750 232.143 L94.292 231.429 L95.833 230.714 L97.375 230.000 L98.917 229.286 L100.458 228.571 L102.000 227.857 L103.542 227.143 L105.083 226.429 L106.625 225.714 L108.167 225.000 L109.708 224.286 L111.250 223.571 L112.792 222.857 L114.333 222.143 L115.875 221.429 L117.417 220.714 L118.958 220.000 L120.500 219.286 L122.042 218.571 L123.583 217.857 L125.125 217.143 L126.667 216.429 L128.208 215.714 L129.750 215.000 L131.292 214.286 L132.833 213.571 L134.375 212.857 L135.917 212.143 L137.458 211.429 L139.000 210.714 L140.542 210.000 L142.083 209.286 L143.625 208.571 L145.167 207.857 L146.708 207.143 L148.250 206.429 L149.792 205.714 L151.333 205.000 L152.875 204.286 L154.417 203.571 L155.958 202.857 L157.500 202.143 L159.042 201.429 L160.583 200.714 L162.125 200.000 L163.667 199.286 L165.208 198.571 L166.750 197.857 L168.292 197.143 L169.833 196.429 L171.375 195.714 L172.917 195.000 L174.458 194.286 L176.000 193.571 L177.542 192.857 L179.083 192.143 L180.625 191.429 L182.167 190.714 L183.708 190.000 L185.250 189.286 L186.792 188.571 L188.333 187.857 L189.875 187.143 L191.417 186.429 L192.958 185.714 L194.500 185.000 L196.042 184.286 L197.583 183.571 L199.125 182.857 L200.667 182.143 L202.208 181.429 L203.750 180.714 L205.292 180.000 L206.833 179.286 L208.375 178.571 L209.917 177.857 L211.458 177.143 L213.000 176.429 L214.542 175.714 L216.083 175.000 L217.625 174.286 L219.167 173.571 L220.708 172.857 L222.250 172.143 L223.792 171.429 L225.333 170.714 L226.875 170.000 L228.417 169.286 L229.958 168.571 L231.500 167.857 L233.042 167.143 L234.583 166.429 L236.125 165.714 L237.667 165.000 L239.208 164.286 L240.750 163.571 L242.292 162.857 L243.833 162.143 L245.375 161.429 L246.917 160.714 L248.458 160.000 L250.000 159.286 L251.542 158.571 L253.083 157.857 L254.625 157.143 L256.167 156.429 L257.708 155.714 L259.250 155.000 L260.792 154.286 L262.333 153.571 L263.875 152.857 L265.417 152.143 L266.958 151.429 L268.500 150.714 L270.042 150.000 L271.583 149.286 L273.125 148.571 L274.667 147.857 L276.208 147.143 L277.750 146.429 L279.292 145.714 L280.833 145.000 L282.375 144.286 L283.917 143.571 L285.458 142.857 L287.000 142.143 L288.542 141.429 L290.083 140.714 L291.625 140.000 L293.167 139.286 L294.708 138.571 L296.250 137.857 L297.792 137.143 L299.333 136.429 L300.875 135.714 L302.417 135.000 L303.958 134.286 L305.500 133.571 L307.042 132.857 L308.583 132.143 L310.125 131.429 L311.667 130.714 L313.208 130.000 L314.750 129.286 L316.292 128.571 L317.833 127.857 L319.375 127.143 L320.917 126.429 L322.458 125.714 L324.000 125.000 L325.542 124.286 L327.083 123.571 L328.625 122.857 L330.167 122.143 L331.708 121.429 L333.250 120.714 L334.792 120.000 L336.333 119.286 L337.875 118.571 L339.417 117.857 L340.958 117.143 L342.500 116.429 L344.042 115.714 L345.583 115.000 L347.125 114.286 L348.667 113.571 L350.208 112.857 L351.750 112.143 L353.292 111.429 L354.833 110.714 L356.375 110.000 L357.917 109.286 L359.458 108.571 L361.000 107.857 L362.542 107.143 L364.083 106.429 L365.625 105.714 L367.167 105.000 L368.708 104.286 L370.250 103.571 L371.792 102.857 L373.333 102.143 L374.875 101.429 L376.417 100.714 L377.958 100.000 L379.500 99.286 L381.042 98.571 L382.583 97.857 L384.125 97.143 L385.667 96.429 L387.208 95.714 L388.750 95.000 L390.292 94.286 L391.833 93.571 L393.375 92.857 L394.917 92.143 L396.458 91.429 L398.000 90.714 L399.542 90.000 L401.083 89.286 L402.625 88.571 L404.167 87.857 L405.708 87.143 L407.250 86.429 L408.792 85.714 L410.333 85.000 L411.875 84.286 L413.417 83.571 L414.958 82.857 L416.500 82.143 L418.042 81.429 L419.583 80.714 L421.125 80.000 L422.667 79.286 L424.208 78.571 L425.750 77.857 L427.292 77.143 L428.833 76.429 L430.375 75.714 L431.917 75.000 L433.458 74.286 L435.000 73.571\" fill=\"none\" stroke=\"#b65d14\" stroke-width=\"3\"/><circle cx=\"126.667\" cy=\"216.429\" r=\"4\" fill=\"#af3451\"/><circle cx=\"373.333\" cy=\"102.143\" r=\"4\" fill=\"#af3451\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Derivatan är tangentens lutning.</strong></p><div class=\"facit-matte\">\\[f'(3)=\\frac{10-2}{5-1}=2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(3)=2\\).</p></div>",
+    "ledtrad": "<p>Använd två punkter på tangenten, inte två godtyckliga punkter på kurvan.</p>",
+    "rättSvar": 2,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och förändring",
+      "underlag": "Ma3b/c VT22"
+    }
+  },
+  {
+    "id": "5.05",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Algebra och samband",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla \\(\\dfrac{x^2-25}{x-5}\\) för \\(x\\ne5\\) så att svaret inte innehåller något bråk.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Faktorisera täljaren innan du förkortar.</strong></p><div class=\"facit-matte\">\\[\\frac{(x-5)(x+5)}{x-5}=x+5\\]</div><p>Förkortningen gäller eftersom x inte är 5.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+5\\), för \\(x\\ne5\\).</p></div>",
+    "ledtrad": "<p>Använd konjugatregeln baklänges.</p>",
+    "rättSvar": "x+5",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Rationella uttryck",
+      "underlag": "Ma3b/c VT22"
+    }
+  },
+  {
+    "id": "5.06",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Derivata och förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen \\(f(x)=x^3-6x^2+9\\) har en lokal minimipunkt. Bestäm punktens \\(x\\)-koordinat.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Derivatans tecken avgör vilken stationär punkt som är ett minimum.</strong></p><div class=\"facit-matte\">\\[f'(x)=3x^2-12x=3x(x-4)\\]</div><p>Derivatan är noll vid 0 och 4. Strax före 4 är den negativ och strax efter 4 positiv: funktionen vänder från att minska till att öka.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\).</p></div>",
+    "ledtrad": "<p>En minimipunkt har övergång från negativ till positiv derivata.</p>",
+    "rättSvar": 4,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och förändring",
+      "underlag": "Ma3b/c VT22"
+    }
+  },
+  {
+    "id": "5.07",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Integraler och area",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Bestäm arean mellan grafen \\(y=2x+1\\), x-axeln och linjerna \\(x=0\\) och \\(x=3\\). (Svara i areaenheter.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Linjen y = 2x + 1 mellan 0 och 3\" style=\"width:100%;max-width:500px\"><title>Linjen y = 2x + 1 mellan 0 och 3</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"188.333\" y1=\"45\" x2=\"188.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"188.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"311.667\" y1=\"45\" x2=\"311.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"311.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"65\" y1=\"245\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"250\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"195\" x2=\"435\" y2=\"195\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"200\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"145\" x2=\"435\" y2=\"145\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"150\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"65\" y1=\"95\" x2=\"435\" y2=\"95\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"100\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"65\" y1=\"45\" x2=\"435\" y2=\"45\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"50\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><line x1=\"65\" y1=\"245\" x2=\"445\" y2=\"245\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"65\" y1=\"245\" x2=\"65\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y</text><path d=\"M65.000 220.000 L66.542 219.375 L68.083 218.750 L69.625 218.125 L71.167 217.500 L72.708 216.875 L74.250 216.250 L75.792 215.625 L77.333 215.000 L78.875 214.375 L80.417 213.750 L81.958 213.125 L83.500 212.500 L85.042 211.875 L86.583 211.250 L88.125 210.625 L89.667 210.000 L91.208 209.375 L92.750 208.750 L94.292 208.125 L95.833 207.500 L97.375 206.875 L98.917 206.250 L100.458 205.625 L102.000 205.000 L103.542 204.375 L105.083 203.750 L106.625 203.125 L108.167 202.500 L109.708 201.875 L111.250 201.250 L112.792 200.625 L114.333 200.000 L115.875 199.375 L117.417 198.750 L118.958 198.125 L120.500 197.500 L122.042 196.875 L123.583 196.250 L125.125 195.625 L126.667 195.000 L128.208 194.375 L129.750 193.750 L131.292 193.125 L132.833 192.500 L134.375 191.875 L135.917 191.250 L137.458 190.625 L139.000 190.000 L140.542 189.375 L142.083 188.750 L143.625 188.125 L145.167 187.500 L146.708 186.875 L148.250 186.250 L149.792 185.625 L151.333 185.000 L152.875 184.375 L154.417 183.750 L155.958 183.125 L157.500 182.500 L159.042 181.875 L160.583 181.250 L162.125 180.625 L163.667 180.000 L165.208 179.375 L166.750 178.750 L168.292 178.125 L169.833 177.500 L171.375 176.875 L172.917 176.250 L174.458 175.625 L176.000 175.000 L177.542 174.375 L179.083 173.750 L180.625 173.125 L182.167 172.500 L183.708 171.875 L185.250 171.250 L186.792 170.625 L188.333 170.000 L189.875 169.375 L191.417 168.750 L192.958 168.125 L194.500 167.500 L196.042 166.875 L197.583 166.250 L199.125 165.625 L200.667 165.000 L202.208 164.375 L203.750 163.750 L205.292 163.125 L206.833 162.500 L208.375 161.875 L209.917 161.250 L211.458 160.625 L213.000 160.000 L214.542 159.375 L216.083 158.750 L217.625 158.125 L219.167 157.500 L220.708 156.875 L222.250 156.250 L223.792 155.625 L225.333 155.000 L226.875 154.375 L228.417 153.750 L229.958 153.125 L231.500 152.500 L233.042 151.875 L234.583 151.250 L236.125 150.625 L237.667 150.000 L239.208 149.375 L240.750 148.750 L242.292 148.125 L243.833 147.500 L245.375 146.875 L246.917 146.250 L248.458 145.625 L250.000 145.000 L251.542 144.375 L253.083 143.750 L254.625 143.125 L256.167 142.500 L257.708 141.875 L259.250 141.250 L260.792 140.625 L262.333 140.000 L263.875 139.375 L265.417 138.750 L266.958 138.125 L268.500 137.500 L270.042 136.875 L271.583 136.250 L273.125 135.625 L274.667 135.000 L276.208 134.375 L277.750 133.750 L279.292 133.125 L280.833 132.500 L282.375 131.875 L283.917 131.250 L285.458 130.625 L287.000 130.000 L288.542 129.375 L290.083 128.750 L291.625 128.125 L293.167 127.500 L294.708 126.875 L296.250 126.250 L297.792 125.625 L299.333 125.000 L300.875 124.375 L302.417 123.750 L303.958 123.125 L305.500 122.500 L307.042 121.875 L308.583 121.250 L310.125 120.625 L311.667 120.000 L313.208 119.375 L314.750 118.750 L316.292 118.125 L317.833 117.500 L319.375 116.875 L320.917 116.250 L322.458 115.625 L324.000 115.000 L325.542 114.375 L327.083 113.750 L328.625 113.125 L330.167 112.500 L331.708 111.875 L333.250 111.250 L334.792 110.625 L336.333 110.000 L337.875 109.375 L339.417 108.750 L340.958 108.125 L342.500 107.500 L344.042 106.875 L345.583 106.250 L347.125 105.625 L348.667 105.000 L350.208 104.375 L351.750 103.750 L353.292 103.125 L354.833 102.500 L356.375 101.875 L357.917 101.250 L359.458 100.625 L361.000 100.000 L362.542 99.375 L364.083 98.750 L365.625 98.125 L367.167 97.500 L368.708 96.875 L370.250 96.250 L371.792 95.625 L373.333 95.000 L374.875 94.375 L376.417 93.750 L377.958 93.125 L379.500 92.500 L381.042 91.875 L382.583 91.250 L384.125 90.625 L385.667 90.000 L387.208 89.375 L388.750 88.750 L390.292 88.125 L391.833 87.500 L393.375 86.875 L394.917 86.250 L396.458 85.625 L398.000 85.000 L399.542 84.375 L401.083 83.750 L402.625 83.125 L404.167 82.500 L405.708 81.875 L407.250 81.250 L408.792 80.625 L410.333 80.000 L411.875 79.375 L413.417 78.750 L414.958 78.125 L416.500 77.500 L418.042 76.875 L419.583 76.250 L421.125 75.625 L422.667 75.000 L424.208 74.375 L425.750 73.750 L427.292 73.125 L428.833 72.500 L430.375 71.875 L431.917 71.250 L433.458 70.625 L435.000 70.000\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Integralen ger arean eftersom grafen ligger över x-axeln.</strong></p><div class=\"facit-matte\">\\[\\int_0^3(2x+1)\\,dx=[x^2+x]_0^3\\]</div><div class=\"facit-matte\">\\[=9+3-0=12\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 12 areaenheter.</p></div>",
+    "ledtrad": "<p>En primitiv funktion kan användas för att beräkna arean.</p>",
+    "rättSvar": 12,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Integraler och area",
+      "underlag": "Ma3b/c VT22"
+    }
+  },
+  {
+    "id": "5.08",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Integraler och area",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En funktion uppfyller \\(F'(x)=4x+3\\) och \\(F(1)=10\\). Bestäm \\(F(x)\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Bestäm först en primitiv funktion, sedan konstanten.</strong></p><div class=\"facit-matte\">\\[F(x)=2x^2+3x+C\\]</div><div class=\"facit-matte\">\\[F(1)=2+3+C=10\\Rightarrow C=5\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=2x^2+3x+5\\).</p></div>",
+    "ledtrad": "<p>Villkoret F(1) bestämmer den annars fria konstanten.</p>",
+    "rättSvar": "2*x^2+3*x+5",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Integraler och area",
+      "underlag": "Ma3b/c VT22"
+    }
+  },
+  {
+    "id": "5.09",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Derivata och förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Mängden av ett ämne ges av \\(M(t)=300e^{-0{,}2t}\\) mg, där \\(t\\) är tiden i timmar. Hur snabbt förändras mängden efter 5 timmar? (Svara i mg/h, med tecken.)</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Beräkna derivatans värde vid t = 5.</strong></p><div class=\"facit-matte\">\\[M'(t)=-60e^{-0{,}2t}\\]</div><div class=\"facit-matte\">\\[M'(5)=-60e^{-1}\\approx-22{,}1\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär −22,1 mg/h. Mängden minskar.</p></div>",
+    "ledtrad": "<p>Frågan gäller förändringshastigheten, inte själva mängden.</p>",
+    "rättSvar": -22.072766470286542,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och förändring",
+      "underlag": "Ma3b/c VT22"
+    },
+    "svarEnhet": "mg/h"
+  },
+  {
+    "id": "5.10",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Optimering och modeller",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Ett rektangulärt odlingsland ligger längs en vägg. De övriga tre sidorna ska inhägnas med sammanlagt 60 m staket. Vilken är den största möjliga arean? (Svara i m².)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Odlingsland längs en vägg\" style=\"width:100%;max-width:500px\"><title>Odlingsland längs en vägg</title><rect width=\"500\" height=\"260\" rx=\"12\" fill=\"#fff\"/><rect x=\"105\" y=\"65\" width=\"290\" height=\"145\" fill=\"#e8f3f8\" stroke=\"#24435e\" stroke-width=\"3\"/><text x=\"250\" y=\"238\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y m</text><text x=\"410\" y=\"145\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172e46\">x m</text><line x1=\"80\" y1=\"65\" x2=\"420\" y2=\"65\" stroke=\"#596777\" stroke-width=\"9\"/><text x=\"250\" y=\"40\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Vägg</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Skriv arean med en variabel och undersök derivatan.</strong></p><p>Om de två korta sidorna är x meter blir den tredje sidan \\(60-2x\\) meter.</p><div class=\"facit-matte\">\\[A(x)=x(60-2x)\\]</div><div class=\"facit-matte\">\\[A'(x)=60-4x=0\\Rightarrow x=15\\]</div><p>Derivatan går från positiv till negativ. Den andra sidan är 30 m och arean blir \\(15\\cdot30=450\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> 450 m².</p></div>",
+    "ledtrad": "<p>Väggen ersätter staket på en sida.</p>",
+    "rättSvar": 450,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Optimering och modeller",
+      "underlag": "Ma3b/c VT22"
+    },
+    "svarEnhet": "m²"
+  },
+  {
+    "id": "5.11",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Integraler och area",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>För funktionen \\(f\\) gäller \\(f'(x)=6x^2-4x\\) och \\(f(0)=7\\). Bestäm \\(f(2)\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Funktionsvärdet ändras med integralen av derivatan.</strong></p><div class=\"facit-matte\">\\[f(2)=7+\\int_0^2(6x^2-4x)\\,dx\\]</div><div class=\"facit-matte\">\\[=7+[2x^3-2x^2]_0^2\\]</div><div class=\"facit-matte\">\\[=7+16-8=15\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(2)=15\\).</p></div>",
+    "ledtrad": "<p>Startvärdet måste läggas till förändringen.</p>",
+    "rättSvar": 15,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Integraler och area",
+      "underlag": "Ma3b/c VT22"
+    }
+  },
+  {
+    "id": "5.12",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Integraler och area",
+    "formaga": [
+      "modellering"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En behållare innehåller från början 20 liter. Vatten strömmar in med \\(4+2t\\) l/min och ut med 1 l/min. Tiden \\(t\\) mäts i minuter från starten. Hur mycket vatten finns efter 5 minuter? (Svara i liter.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Behållare med separat in- och utflöde\" style=\"width:100%;max-width:500px\"><title>Behållare med separat in- och utflöde</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><path d=\"M170 65V220H330V65\" fill=\"#d5ebf5\" stroke=\"#24435e\" stroke-width=\"4\"/><line x1=\"40\" y1=\"90\" x2=\"155\" y2=\"90\" stroke=\"#146a96\" stroke-width=\"4\"/><path d=\"M145 82L157 90L145 98\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/><line x1=\"340\" y1=\"190\" x2=\"465\" y2=\"190\" stroke=\"#b65d14\" stroke-width=\"4\"/><path d=\"M455 182L467 190L455 198\" fill=\"none\" stroke=\"#b65d14\" stroke-width=\"3\"/><text x=\"95\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">4 + 2t l/min</text><text x=\"405\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1 l/min</text><text x=\"250\" y=\"160\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">20 l vid start</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Integrera skillnaden mellan inflöde och utflöde.</strong></p><div class=\"facit-matte\">\\[V(5)=20+\\int_0^5(4+2t-1)\\,dt\\]</div><div class=\"facit-matte\">\\[=20+[3t+t^2]_0^5\\]</div><div class=\"facit-matte\">\\[=20+15+25=60\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 60 liter.</p></div>",
+    "ledtrad": "<p>Bestäm först hur snabbt vattenmängden i behållaren ökar.</p>",
+    "rättSvar": 60,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Integraler och area",
+      "underlag": "Ma3b/c VT22"
+    },
+    "svarEnhet": "l"
+  },
+  {
+    "id": "5.13",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Integraler och area",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Bestäm den sammanlagda arean mellan linjen \\(y=x-1\\) och x-axeln på intervallet \\(0\\le x\\le3\\). (Svara i areaenheter.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Linje som skär x-axeln inom intervallet\" style=\"width:100%;max-width:500px\"><title>Linje som skär x-axeln inom intervallet</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"188.333\" y1=\"45\" x2=\"188.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"188.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"311.667\" y1=\"45\" x2=\"311.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"311.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"65\" y1=\"245\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"250\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-2</text><line x1=\"65\" y1=\"205\" x2=\"435\" y2=\"205\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"210\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-1</text><line x1=\"65\" y1=\"165\" x2=\"435\" y2=\"165\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"170\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"125\" x2=\"435\" y2=\"125\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"130\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"65\" y1=\"85\" x2=\"435\" y2=\"85\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"90\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"45\" x2=\"435\" y2=\"45\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"50\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"65\" y1=\"165\" x2=\"445\" y2=\"165\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"65\" y1=\"245\" x2=\"65\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y</text><path d=\"M65.000 205.000 L66.542 204.500 L68.083 204.000 L69.625 203.500 L71.167 203.000 L72.708 202.500 L74.250 202.000 L75.792 201.500 L77.333 201.000 L78.875 200.500 L80.417 200.000 L81.958 199.500 L83.500 199.000 L85.042 198.500 L86.583 198.000 L88.125 197.500 L89.667 197.000 L91.208 196.500 L92.750 196.000 L94.292 195.500 L95.833 195.000 L97.375 194.500 L98.917 194.000 L100.458 193.500 L102.000 193.000 L103.542 192.500 L105.083 192.000 L106.625 191.500 L108.167 191.000 L109.708 190.500 L111.250 190.000 L112.792 189.500 L114.333 189.000 L115.875 188.500 L117.417 188.000 L118.958 187.500 L120.500 187.000 L122.042 186.500 L123.583 186.000 L125.125 185.500 L126.667 185.000 L128.208 184.500 L129.750 184.000 L131.292 183.500 L132.833 183.000 L134.375 182.500 L135.917 182.000 L137.458 181.500 L139.000 181.000 L140.542 180.500 L142.083 180.000 L143.625 179.500 L145.167 179.000 L146.708 178.500 L148.250 178.000 L149.792 177.500 L151.333 177.000 L152.875 176.500 L154.417 176.000 L155.958 175.500 L157.500 175.000 L159.042 174.500 L160.583 174.000 L162.125 173.500 L163.667 173.000 L165.208 172.500 L166.750 172.000 L168.292 171.500 L169.833 171.000 L171.375 170.500 L172.917 170.000 L174.458 169.500 L176.000 169.000 L177.542 168.500 L179.083 168.000 L180.625 167.500 L182.167 167.000 L183.708 166.500 L185.250 166.000 L186.792 165.500 L188.333 165.000 L189.875 164.500 L191.417 164.000 L192.958 163.500 L194.500 163.000 L196.042 162.500 L197.583 162.000 L199.125 161.500 L200.667 161.000 L202.208 160.500 L203.750 160.000 L205.292 159.500 L206.833 159.000 L208.375 158.500 L209.917 158.000 L211.458 157.500 L213.000 157.000 L214.542 156.500 L216.083 156.000 L217.625 155.500 L219.167 155.000 L220.708 154.500 L222.250 154.000 L223.792 153.500 L225.333 153.000 L226.875 152.500 L228.417 152.000 L229.958 151.500 L231.500 151.000 L233.042 150.500 L234.583 150.000 L236.125 149.500 L237.667 149.000 L239.208 148.500 L240.750 148.000 L242.292 147.500 L243.833 147.000 L245.375 146.500 L246.917 146.000 L248.458 145.500 L250.000 145.000 L251.542 144.500 L253.083 144.000 L254.625 143.500 L256.167 143.000 L257.708 142.500 L259.250 142.000 L260.792 141.500 L262.333 141.000 L263.875 140.500 L265.417 140.000 L266.958 139.500 L268.500 139.000 L270.042 138.500 L271.583 138.000 L273.125 137.500 L274.667 137.000 L276.208 136.500 L277.750 136.000 L279.292 135.500 L280.833 135.000 L282.375 134.500 L283.917 134.000 L285.458 133.500 L287.000 133.000 L288.542 132.500 L290.083 132.000 L291.625 131.500 L293.167 131.000 L294.708 130.500 L296.250 130.000 L297.792 129.500 L299.333 129.000 L300.875 128.500 L302.417 128.000 L303.958 127.500 L305.500 127.000 L307.042 126.500 L308.583 126.000 L310.125 125.500 L311.667 125.000 L313.208 124.500 L314.750 124.000 L316.292 123.500 L317.833 123.000 L319.375 122.500 L320.917 122.000 L322.458 121.500 L324.000 121.000 L325.542 120.500 L327.083 120.000 L328.625 119.500 L330.167 119.000 L331.708 118.500 L333.250 118.000 L334.792 117.500 L336.333 117.000 L337.875 116.500 L339.417 116.000 L340.958 115.500 L342.500 115.000 L344.042 114.500 L345.583 114.000 L347.125 113.500 L348.667 113.000 L350.208 112.500 L351.750 112.000 L353.292 111.500 L354.833 111.000 L356.375 110.500 L357.917 110.000 L359.458 109.500 L361.000 109.000 L362.542 108.500 L364.083 108.000 L365.625 107.500 L367.167 107.000 L368.708 106.500 L370.250 106.000 L371.792 105.500 L373.333 105.000 L374.875 104.500 L376.417 104.000 L377.958 103.500 L379.500 103.000 L381.042 102.500 L382.583 102.000 L384.125 101.500 L385.667 101.000 L387.208 100.500 L388.750 100.000 L390.292 99.500 L391.833 99.000 L393.375 98.500 L394.917 98.000 L396.458 97.500 L398.000 97.000 L399.542 96.500 L401.083 96.000 L402.625 95.500 L404.167 95.000 L405.708 94.500 L407.250 94.000 L408.792 93.500 L410.333 93.000 L411.875 92.500 L413.417 92.000 L414.958 91.500 L416.500 91.000 L418.042 90.500 L419.583 90.000 L421.125 89.500 L422.667 89.000 L424.208 88.500 L425.750 88.000 L427.292 87.500 L428.833 87.000 L430.375 86.500 L431.917 86.000 L433.458 85.500 L435.000 85.000\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Dela vid nollstället; båda delareorna är positiva.</strong></p><p>Linjen skär x-axeln vid x = 1. De två områdena är trianglar.</p><div class=\"facit-matte\">\\[A=\\frac{1\\cdot1}{2}+\\frac{2\\cdot2}{2}\\]</div><div class=\"facit-matte\">\\[=0{,}5+2=2{,}5\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 areaenheter.</p></div>",
+    "ledtrad": "<p>En integral med tecken är inte alltid samma sak som sammanlagd area.</p>",
+    "rättSvar": 2.5,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Integraler och area",
+      "underlag": "Ma3b/c VT22"
+    }
+  },
+  {
+    "id": "5.14",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Trigonometri",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Två sidor i en triangel är 6,0 cm och 8,0 cm. Vinkeln mellan dem är 60°. Hur lång är den tredje sidan? (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Två sidor i en triangel och mellanliggande vinkel\" style=\"width:100%;max-width:500px\"><title>Två sidor i en triangel och mellanliggande vinkel</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><path d=\"M80 235L400 235L200 27.154Z\" fill=\"#e8f3f8\" stroke=\"#24435e\" stroke-width=\"3\"/><text x=\"240\" y=\"266\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8,0 cm</text><text x=\"115\" y=\"121\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6,0 cm</text><text x=\"327\" y=\"117\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">c</text><path d=\"M120 235A40 40 0 0 0 100 200.359\" fill=\"none\" stroke=\"#b65d14\" stroke-width=\"2\"/><text x=\"143\" y=\"213\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">60°</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Cosinussatsen använder vinkeln mellan de kända sidorna.</strong></p><div class=\"facit-matte\">\\[c^2=6^2+8^2-2\\cdot6\\cdot8\\cos60^\\circ\\]</div><div class=\"facit-matte\">\\[c=\\sqrt{52}\\approx7{,}21\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 7,21 cm.</p></div>",
+    "ledtrad": "<p>Triangeln är inte rätvinklig.</p>",
+    "rättSvar": 7.211102550927978,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Cosinussatsen",
+      "underlag": "Ma3b/c VT22"
+    },
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "5.15",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Trigonometri",
+    "formaga": [
+      "resonemang"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 4,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>I en triangel är \\(A=30^\\circ\\), sidan mitt emot A är 5 cm och sidan mitt emot B är 8 cm. Hur många olika trianglar kan uppfylla dessa villkor?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Sinussatsen kan ge två olika vinklar.</strong></p><div class=\"facit-matte\">\\[\\frac{\\sin B}{8}=\\frac{\\sin30^\\circ}{5}\\]</div><div class=\"facit-matte\">\\[\\sin B=0{,}8\\]</div><p>B kan vara ungefär 53,1° eller 126,9°. Båda ger en positiv tredje vinkel när A = 30°. De ger olika trianglar.</p><p class=\"facit-svar\"><strong>Svar:</strong> 2 trianglar.</p></div>",
+    "ledtrad": "<p>Två vinklar mellan 0° och 180° kan ha samma sinusvärde.</p>",
+    "rättSvar": 2,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Sinussatsen och den tvetydiga situationen",
+      "underlag": "Ma3b/c VT22"
+    }
+  },
+  {
+    "id": "5.16",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Optimering och modeller",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Vid slutet av varje år sätts 3 000 kr in på ett konto med 4 % årsränta. Hur mycket finns direkt efter den tredje insättningen? (Svara i kr.)</p><table style=\"border-collapse:collapse;width:100%;max-width:420px\"><thead><tr><th style=\"padding:7px;border:1px solid #8192a3\">Insättning</th><th style=\"padding:7px;border:1px solid #8192a3\">Tid med ränta</th></tr></thead><tbody><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">Första</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">2 år</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">Andra</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">1 år</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">Tredje</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">0 år</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Insättningarna får ränta olika länge.</strong></p><p>Den första får ränta i två år, den andra i ett år och den tredje har just satts in.</p><div class=\"facit-matte\">\\[3000\\cdot1{,}04^2+3000\\cdot1{,}04+3000\\]</div><div class=\"facit-matte\">\\[=9364{,}8\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 9 364,80 kr.</p></div>",
+    "ledtrad": "<p>Rita en tidslinje och räkna antalet ränteperioder för varje insättning.</p>",
+    "rättSvar": 9364.8,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Geometriska summor",
+      "underlag": "Ma3b/c VT22"
+    },
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "5.17",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Optimering och modeller",
+    "formaga": [
+      "modellering"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En verkstad gör \\(x\\) små och \\(y\\) stora skyltar per dag. Villkoren är \\(x+y\\le10\\), \\(2x+y\\le14\\) och \\(x,y\\ge0\\). Vinsten är \\(40x+25y\\) kr. Vilken är den största möjliga dagsvinsten? (Svara i kr.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Gränslinjerna x + y = 10 och 2x + y = 14\" style=\"width:100%;max-width:500px\"><title>Gränslinjerna x + y = 10 och 2x + y = 14</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"139\" y1=\"45\" x2=\"139\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"139\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"213\" y1=\"45\" x2=\"213\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"213\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"287\" y1=\"45\" x2=\"287\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"287\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"361\" y1=\"45\" x2=\"361\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"361\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><line x1=\"65\" y1=\"245\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"250\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"216.429\" x2=\"435\" y2=\"216.429\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"221.429\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"187.857\" x2=\"435\" y2=\"187.857\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"192.857\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"65\" y1=\"159.286\" x2=\"435\" y2=\"159.286\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"164.286\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"65\" y1=\"130.714\" x2=\"435\" y2=\"130.714\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"135.714\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><line x1=\"65\" y1=\"102.143\" x2=\"435\" y2=\"102.143\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"107.143\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><line x1=\"65\" y1=\"73.5714\" x2=\"435\" y2=\"73.5714\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"78.5714\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">12</text><line x1=\"65\" y1=\"45\" x2=\"435\" y2=\"45\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"50\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">14</text><line x1=\"65\" y1=\"245\" x2=\"445\" y2=\"245\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"65\" y1=\"245\" x2=\"65\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y</text><path d=\"M65.000 102.143 L66.542 102.738 L68.083 103.333 L69.625 103.929 L71.167 104.524 L72.708 105.119 L74.250 105.714 L75.792 106.310 L77.333 106.905 L78.875 107.500 L80.417 108.095 L81.958 108.690 L83.500 109.286 L85.042 109.881 L86.583 110.476 L88.125 111.071 L89.667 111.667 L91.208 112.262 L92.750 112.857 L94.292 113.452 L95.833 114.048 L97.375 114.643 L98.917 115.238 L100.458 115.833 L102.000 116.429 L103.542 117.024 L105.083 117.619 L106.625 118.214 L108.167 118.810 L109.708 119.405 L111.250 120.000 L112.792 120.595 L114.333 121.190 L115.875 121.786 L117.417 122.381 L118.958 122.976 L120.500 123.571 L122.042 124.167 L123.583 124.762 L125.125 125.357 L126.667 125.952 L128.208 126.548 L129.750 127.143 L131.292 127.738 L132.833 128.333 L134.375 128.929 L135.917 129.524 L137.458 130.119 L139.000 130.714 L140.542 131.310 L142.083 131.905 L143.625 132.500 L145.167 133.095 L146.708 133.690 L148.250 134.286 L149.792 134.881 L151.333 135.476 L152.875 136.071 L154.417 136.667 L155.958 137.262 L157.500 137.857 L159.042 138.452 L160.583 139.048 L162.125 139.643 L163.667 140.238 L165.208 140.833 L166.750 141.429 L168.292 142.024 L169.833 142.619 L171.375 143.214 L172.917 143.810 L174.458 144.405 L176.000 145.000 L177.542 145.595 L179.083 146.190 L180.625 146.786 L182.167 147.381 L183.708 147.976 L185.250 148.571 L186.792 149.167 L188.333 149.762 L189.875 150.357 L191.417 150.952 L192.958 151.548 L194.500 152.143 L196.042 152.738 L197.583 153.333 L199.125 153.929 L200.667 154.524 L202.208 155.119 L203.750 155.714 L205.292 156.310 L206.833 156.905 L208.375 157.500 L209.917 158.095 L211.458 158.690 L213.000 159.286 L214.542 159.881 L216.083 160.476 L217.625 161.071 L219.167 161.667 L220.708 162.262 L222.250 162.857 L223.792 163.452 L225.333 164.048 L226.875 164.643 L228.417 165.238 L229.958 165.833 L231.500 166.429 L233.042 167.024 L234.583 167.619 L236.125 168.214 L237.667 168.810 L239.208 169.405 L240.750 170.000 L242.292 170.595 L243.833 171.190 L245.375 171.786 L246.917 172.381 L248.458 172.976 L250.000 173.571 L251.542 174.167 L253.083 174.762 L254.625 175.357 L256.167 175.952 L257.708 176.548 L259.250 177.143 L260.792 177.738 L262.333 178.333 L263.875 178.929 L265.417 179.524 L266.958 180.119 L268.500 180.714 L270.042 181.310 L271.583 181.905 L273.125 182.500 L274.667 183.095 L276.208 183.690 L277.750 184.286 L279.292 184.881 L280.833 185.476 L282.375 186.071 L283.917 186.667 L285.458 187.262 L287.000 187.857 L288.542 188.452 L290.083 189.048 L291.625 189.643 L293.167 190.238 L294.708 190.833 L296.250 191.429 L297.792 192.024 L299.333 192.619 L300.875 193.214 L302.417 193.810 L303.958 194.405 L305.500 195.000 L307.042 195.595 L308.583 196.190 L310.125 196.786 L311.667 197.381 L313.208 197.976 L314.750 198.571 L316.292 199.167 L317.833 199.762 L319.375 200.357 L320.917 200.952 L322.458 201.548 L324.000 202.143 L325.542 202.738 L327.083 203.333 L328.625 203.929 L330.167 204.524 L331.708 205.119 L333.250 205.714 L334.792 206.310 L336.333 206.905 L337.875 207.500 L339.417 208.095 L340.958 208.690 L342.500 209.286 L344.042 209.881 L345.583 210.476 L347.125 211.071 L348.667 211.667 L350.208 212.262 L351.750 212.857 L353.292 213.452 L354.833 214.048 L356.375 214.643 L357.917 215.238 L359.458 215.833 L361.000 216.429 L362.542 217.024 L364.083 217.619 L365.625 218.214 L367.167 218.810 L368.708 219.405 L370.250 220.000 L371.792 220.595 L373.333 221.190 L374.875 221.786 L376.417 222.381 L377.958 222.976 L379.500 223.571 L381.042 224.167 L382.583 224.762 L384.125 225.357 L385.667 225.952 L387.208 226.548 L388.750 227.143 L390.292 227.738 L391.833 228.333 L393.375 228.929 L394.917 229.524 L396.458 230.119 L398.000 230.714 L399.542 231.310 L401.083 231.905 L402.625 232.500 L404.167 233.095 L405.708 233.690 L407.250 234.286 L408.792 234.881 L410.333 235.476 L411.875 236.071 L413.417 236.667 L414.958 237.262 L416.500 237.857 L418.042 238.452 L419.583 239.048 L421.125 239.643 L422.667 240.238 L424.208 240.833 L425.750 241.429 L427.292 242.024 L428.833 242.619 L430.375 243.214 L431.917 243.810 L433.458 244.405 L435.000 245.000\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/><path d=\"M65.000 45.000 L66.542 46.190 L68.083 47.381 L69.625 48.571 L71.167 49.762 L72.708 50.952 L74.250 52.143 L75.792 53.333 L77.333 54.524 L78.875 55.714 L80.417 56.905 L81.958 58.095 L83.500 59.286 L85.042 60.476 L86.583 61.667 L88.125 62.857 L89.667 64.048 L91.208 65.238 L92.750 66.429 L94.292 67.619 L95.833 68.810 L97.375 70.000 L98.917 71.190 L100.458 72.381 L102.000 73.571 L103.542 74.762 L105.083 75.952 L106.625 77.143 L108.167 78.333 L109.708 79.524 L111.250 80.714 L112.792 81.905 L114.333 83.095 L115.875 84.286 L117.417 85.476 L118.958 86.667 L120.500 87.857 L122.042 89.048 L123.583 90.238 L125.125 91.429 L126.667 92.619 L128.208 93.810 L129.750 95.000 L131.292 96.190 L132.833 97.381 L134.375 98.571 L135.917 99.762 L137.458 100.952 L139.000 102.143 L140.542 103.333 L142.083 104.524 L143.625 105.714 L145.167 106.905 L146.708 108.095 L148.250 109.286 L149.792 110.476 L151.333 111.667 L152.875 112.857 L154.417 114.048 L155.958 115.238 L157.500 116.429 L159.042 117.619 L160.583 118.810 L162.125 120.000 L163.667 121.190 L165.208 122.381 L166.750 123.571 L168.292 124.762 L169.833 125.952 L171.375 127.143 L172.917 128.333 L174.458 129.524 L176.000 130.714 L177.542 131.905 L179.083 133.095 L180.625 134.286 L182.167 135.476 L183.708 136.667 L185.250 137.857 L186.792 139.048 L188.333 140.238 L189.875 141.429 L191.417 142.619 L192.958 143.810 L194.500 145.000 L196.042 146.190 L197.583 147.381 L199.125 148.571 L200.667 149.762 L202.208 150.952 L203.750 152.143 L205.292 153.333 L206.833 154.524 L208.375 155.714 L209.917 156.905 L211.458 158.095 L213.000 159.286 L214.542 160.476 L216.083 161.667 L217.625 162.857 L219.167 164.048 L220.708 165.238 L222.250 166.429 L223.792 167.619 L225.333 168.810 L226.875 170.000 L228.417 171.190 L229.958 172.381 L231.500 173.571 L233.042 174.762 L234.583 175.952 L236.125 177.143 L237.667 178.333 L239.208 179.524 L240.750 180.714 L242.292 181.905 L243.833 183.095 L245.375 184.286 L246.917 185.476 L248.458 186.667 L250.000 187.857 L251.542 189.048 L253.083 190.238 L254.625 191.429 L256.167 192.619 L257.708 193.810 L259.250 195.000 L260.792 196.190 L262.333 197.381 L263.875 198.571 L265.417 199.762 L266.958 200.952 L268.500 202.143 L270.042 203.333 L271.583 204.524 L273.125 205.714 L274.667 206.905 L276.208 208.095 L277.750 209.286 L279.292 210.476 L280.833 211.667 L282.375 212.857 L283.917 214.048 L285.458 215.238 L287.000 216.429 L288.542 217.619 L290.083 218.810 L291.625 220.000 L293.167 221.190 L294.708 222.381 L296.250 223.571 L297.792 224.762 L299.333 225.952 L300.875 227.143 L302.417 228.333 L303.958 229.524 L305.500 230.714 L307.042 231.905 L308.583 233.095 L310.125 234.286 L311.667 235.476 L313.208 236.667 L314.750 237.857 L316.292 239.048 L317.833 240.238 L319.375 241.429 L320.917 242.619 L322.458 243.810 L324.000 245.000\" fill=\"none\" stroke=\"#b65d14\" stroke-width=\"3\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Jämför vinsten i det tillåtna områdets hörn.</strong></p><p>Hörnen är (0,0), (0,10), (4,6) och (7,0). Skärningen (4,6) fås genom att lösa de två gränsekvationerna.</p><p>Vinsterna är 0, 250, 310 respektive 280 kr. Störst vinst fås av fyra små och sex stora skyltar.</p><p class=\"facit-svar\"><strong>Svar:</strong> 310 kr.</p></div>",
+    "ledtrad": "<p>En linjär målfunktion når ett maximum i ett hörn av det tillåtna området.</p>",
+    "rättSvar": 310,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Linjär optimering",
+      "underlag": "Ma3b/c VT22"
+    },
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "5.18",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Derivata och förändring",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen \\(f(x)=x^3+ax^2+4\\) ska ha en horisontell tangent vid \\(x=1\\). Bestäm \\(a\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>En horisontell tangent har lutningen noll.</strong></p><div class=\"facit-matte\">\\[f'(x)=3x^2+2ax\\]</div><div class=\"facit-matte\">\\[f'(1)=3+2a=0\\]</div><div class=\"facit-matte\">\\[a=-\\frac32\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-1{,}5\\).</p></div>",
+    "ledtrad": "<p>Översätt tangentens riktning till ett villkor på derivatan.</p>",
+    "rättSvar": -1.5,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och förändring",
+      "underlag": "Ma3b/c VT22"
+    }
+  },
+  {
+    "id": "5.19",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "familj": "Derivata och förändring",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En tangent till \\(y=x^2\\) dras i punkten \\((a,a^2)\\), där \\(a\\gt 0\\). Tangenten, x-axeln och linjen \\(x=a\\) bildar en triangel. Bestäm \\(a\\) om triangelns area är 16 areaenheter.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Schematisk tangenttriangel till en parabel\" style=\"width:100%;max-width:500px\"><title>Schematisk tangenttriangel till en parabel</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><path d=\"M90 245Q230 245 370 60\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/><path d=\"M230 245L370 60L370 245Z\" fill=\"#e4f1f5\" stroke=\"#b65d14\" stroke-width=\"2\"/><line x1=\"65\" y1=\"245\" x2=\"440\" y2=\"245\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"370\" y=\"273\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">a</text><text x=\"382\" y=\"60\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172e46\">(a, a²)</text><text x=\"435\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Uttryck tangentens nollställe och triangelns mått med a.</strong></p><div class=\"facit-matte\">\\[y=2a(x-a)+a^2=2ax-a^2\\]</div><p>Tangenten skär x-axeln vid \\(x=a/2\\). Triangelns bas är därför a/2 och höjden a².</p><div class=\"facit-matte\">\\[\\frac{(a/2)\\,a^2}{2}=16\\]</div><div class=\"facit-matte\">\\[a^3=64\\Rightarrow a=4\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\).</p></div>",
+    "ledtrad": "<p>Bestäm först var tangenten skär x-axeln.</p>",
+    "rättSvar": 4,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och förändring",
+      "underlag": "Ma3b/c VT22"
+    }
+  },
+  {
+    "id": "5.20",
+    "kap": 5,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Derivata och förändring",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 4,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen \\(f(x)=x^4-ax^2\\) har lokala minimipunkter vid \\(x=-2\\) och \\(x=2\\). Bestäm \\(a\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Använd en minimipunkt och kontrollera att den verkligen är ett minimum.</strong></p><div class=\"facit-matte\">\\[f'(x)=4x^3-2ax\\]</div><div class=\"facit-matte\">\\[f'(2)=32-4a=0\\Rightarrow a=8\\]</div><p>Då är \\(f''(x)=12x^2-16\\), som är 32 vid både −2 och 2. Båda punkterna är alltså lokala minima.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=8\\).</p></div>",
+    "ledtrad": "<p>Derivatan måste vara noll i minimipunkterna.</p>",
+    "rättSvar": 8,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och förändring",
+      "underlag": "Ma3b/c VT22"
+    }
+  }
 ];

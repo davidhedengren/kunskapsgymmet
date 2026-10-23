@@ -150623,5 +150623,766 @@ window.BANKMA1 = [
   "svarFormat": "bråk",
   "rättSvar": "8/3",
   "tolerans": 0
-}
+},
+  {
+    "id": "8.01",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Procent och modeller",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En ryggsäck kostar 275 kr. Priset sänks med 12 %. Vad kostar den efter sänkningen? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Det nya priset är 88 % av det gamla.</strong></p><div class=\"facit-matte\">\\[275\\cdot0{,}88=242\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 242 kr.</p></div>",
+    "ledtrad": "<p>Vilken andel av priset återstår?</p>",
+    "rättSvar": 242,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Procent och modeller",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "8.02",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Funktioner och grafer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En tank innehåller \\(V(t)=24+3t\\) liter vatten efter \\(t\\) minuter. Hur mycket vatten finns i tanken efter 6 minuter? (Svara i liter.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 260\" role=\"img\" aria-label=\"Tank med inflöde\" style=\"width:100%;max-width:500px\"><title>Tank med inflöde</title><rect width=\"500\" height=\"260\" rx=\"12\" fill=\"#fff\"/><rect x=\"105\" y=\"65\" width=\"290\" height=\"145\" fill=\"#e8f3f8\" stroke=\"#24435e\" stroke-width=\"3\"/><text x=\"250\" y=\"238\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">24 liter från början</text><text x=\"410\" y=\"145\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172e46\">+3 l/min</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Sätt in tiden i modellen.</strong></p><div class=\"facit-matte\">\\[V(6)=24+3\\cdot6=42\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 42 liter.</p></div>",
+    "ledtrad": "<p>Ersätt t med den angivna tiden.</p>",
+    "rättSvar": 42,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Funktioner och grafer",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "svarEnhet": "l"
+  },
+  {
+    "id": "8.03",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Algebra och ekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket \\(4(2x-3)-3(x+2)\\) så att det inte innehåller några parenteser.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Multiplicera in och samla lika termer.</strong></p><div class=\"facit-matte\">\\[8x-12-3x-6=5x-18\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x-18\\).</p></div>",
+    "ledtrad": "<p>Minustecknet framför den andra parentesen påverkar båda termerna.</p>",
+    "rättSvar": "5*x-18",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Algebra och ekvationer",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    }
+  },
+  {
+    "id": "8.04",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Algebra och ekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En verkstad köper två likadana förvaringslådor. Frakten är 35 kr och hela beställningen kostar 185 kr. Vad kostar en låda? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Ta bort frakten innan kostnaden delas.</strong></p><div class=\"facit-matte\">\\[2x+35=185\\]</div><div class=\"facit-matte\">\\[x=\\frac{185-35}{2}=75\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 75 kr.</p></div>",
+    "ledtrad": "<p>Vilken del av totalsumman gäller själva lådorna?</p>",
+    "rättSvar": 75,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Algebra och ekvationer",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "8.05",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Funktioner och grafer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Grafen visar funktionen \\(f\\). Läs av \\(f(3)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"En linjär funktion i ett rutnät\" style=\"width:100%;max-width:500px\"><title>En linjär funktion i ett rutnät</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"157.5\" y1=\"45\" x2=\"157.5\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"157.5\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"250\" y1=\"45\" x2=\"250\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"250\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"342.5\" y1=\"45\" x2=\"342.5\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"342.5\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"65\" y1=\"245\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"250\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"205\" x2=\"435\" y2=\"205\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"210\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"165\" x2=\"435\" y2=\"165\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"170\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"65\" y1=\"125\" x2=\"435\" y2=\"125\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"130\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"65\" y1=\"85\" x2=\"435\" y2=\"85\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"90\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><line x1=\"65\" y1=\"45\" x2=\"435\" y2=\"45\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"50\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><line x1=\"65\" y1=\"245\" x2=\"445\" y2=\"245\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"65\" y1=\"245\" x2=\"65\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y</text><path d=\"M65.000 225.000 L66.542 224.333 L68.083 223.667 L69.625 223.000 L71.167 222.333 L72.708 221.667 L74.250 221.000 L75.792 220.333 L77.333 219.667 L78.875 219.000 L80.417 218.333 L81.958 217.667 L83.500 217.000 L85.042 216.333 L86.583 215.667 L88.125 215.000 L89.667 214.333 L91.208 213.667 L92.750 213.000 L94.292 212.333 L95.833 211.667 L97.375 211.000 L98.917 210.333 L100.458 209.667 L102.000 209.000 L103.542 208.333 L105.083 207.667 L106.625 207.000 L108.167 206.333 L109.708 205.667 L111.250 205.000 L112.792 204.333 L114.333 203.667 L115.875 203.000 L117.417 202.333 L118.958 201.667 L120.500 201.000 L122.042 200.333 L123.583 199.667 L125.125 199.000 L126.667 198.333 L128.208 197.667 L129.750 197.000 L131.292 196.333 L132.833 195.667 L134.375 195.000 L135.917 194.333 L137.458 193.667 L139.000 193.000 L140.542 192.333 L142.083 191.667 L143.625 191.000 L145.167 190.333 L146.708 189.667 L148.250 189.000 L149.792 188.333 L151.333 187.667 L152.875 187.000 L154.417 186.333 L155.958 185.667 L157.500 185.000 L159.042 184.333 L160.583 183.667 L162.125 183.000 L163.667 182.333 L165.208 181.667 L166.750 181.000 L168.292 180.333 L169.833 179.667 L171.375 179.000 L172.917 178.333 L174.458 177.667 L176.000 177.000 L177.542 176.333 L179.083 175.667 L180.625 175.000 L182.167 174.333 L183.708 173.667 L185.250 173.000 L186.792 172.333 L188.333 171.667 L189.875 171.000 L191.417 170.333 L192.958 169.667 L194.500 169.000 L196.042 168.333 L197.583 167.667 L199.125 167.000 L200.667 166.333 L202.208 165.667 L203.750 165.000 L205.292 164.333 L206.833 163.667 L208.375 163.000 L209.917 162.333 L211.458 161.667 L213.000 161.000 L214.542 160.333 L216.083 159.667 L217.625 159.000 L219.167 158.333 L220.708 157.667 L222.250 157.000 L223.792 156.333 L225.333 155.667 L226.875 155.000 L228.417 154.333 L229.958 153.667 L231.500 153.000 L233.042 152.333 L234.583 151.667 L236.125 151.000 L237.667 150.333 L239.208 149.667 L240.750 149.000 L242.292 148.333 L243.833 147.667 L245.375 147.000 L246.917 146.333 L248.458 145.667 L250.000 145.000 L251.542 144.333 L253.083 143.667 L254.625 143.000 L256.167 142.333 L257.708 141.667 L259.250 141.000 L260.792 140.333 L262.333 139.667 L263.875 139.000 L265.417 138.333 L266.958 137.667 L268.500 137.000 L270.042 136.333 L271.583 135.667 L273.125 135.000 L274.667 134.333 L276.208 133.667 L277.750 133.000 L279.292 132.333 L280.833 131.667 L282.375 131.000 L283.917 130.333 L285.458 129.667 L287.000 129.000 L288.542 128.333 L290.083 127.667 L291.625 127.000 L293.167 126.333 L294.708 125.667 L296.250 125.000 L297.792 124.333 L299.333 123.667 L300.875 123.000 L302.417 122.333 L303.958 121.667 L305.500 121.000 L307.042 120.333 L308.583 119.667 L310.125 119.000 L311.667 118.333 L313.208 117.667 L314.750 117.000 L316.292 116.333 L317.833 115.667 L319.375 115.000 L320.917 114.333 L322.458 113.667 L324.000 113.000 L325.542 112.333 L327.083 111.667 L328.625 111.000 L330.167 110.333 L331.708 109.667 L333.250 109.000 L334.792 108.333 L336.333 107.667 L337.875 107.000 L339.417 106.333 L340.958 105.667 L342.500 105.000 L344.042 104.333 L345.583 103.667 L347.125 103.000 L348.667 102.333 L350.208 101.667 L351.750 101.000 L353.292 100.333 L354.833 99.667 L356.375 99.000 L357.917 98.333 L359.458 97.667 L361.000 97.000 L362.542 96.333 L364.083 95.667 L365.625 95.000 L367.167 94.333 L368.708 93.667 L370.250 93.000 L371.792 92.333 L373.333 91.667 L374.875 91.000 L376.417 90.333 L377.958 89.667 L379.500 89.000 L381.042 88.333 L382.583 87.667 L384.125 87.000 L385.667 86.333 L387.208 85.667 L388.750 85.000 L390.292 84.333 L391.833 83.667 L393.375 83.000 L394.917 82.333 L396.458 81.667 L398.000 81.000 L399.542 80.333 L401.083 79.667 L402.625 79.000 L404.167 78.333 L405.708 77.667 L407.250 77.000 L408.792 76.333 L410.333 75.667 L411.875 75.000 L413.417 74.333 L414.958 73.667 L416.500 73.000 L418.042 72.333 L419.583 71.667 L421.125 71.000 L422.667 70.333 L424.208 69.667 L425.750 69.000 L427.292 68.333 L428.833 67.667 L430.375 67.000 L431.917 66.333 L433.458 65.667 L435.000 65.000\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Gå från x-värdet till grafen.</strong></p><p>Vid \\(x=3\\) ligger grafen på höjden \\(y=7\\).</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(3)=7\\).</p></div>",
+    "ledtrad": "<p>Funktionsvärdet är grafens höjd vid det givna x-värdet.</p>",
+    "rättSvar": 7,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Funktioner och grafer",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    }
+  },
+  {
+    "id": "8.06",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Procent och modeller",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En batterimodell anger att den lagrade energin minskar med 4 % varje timme. Från början är energin 850 Wh. Hur mycket återstår efter tre timmar? (Svara i Wh.)</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Samma förändringsfaktor används tre gånger.</strong></p><div class=\"facit-matte\">\\[850\\cdot0{,}96^3=752{,}0256\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 752 Wh.</p></div>",
+    "ledtrad": "<p>Minskningen beräknas på den energi som finns kvar varje timme.</p>",
+    "rättSvar": 752.0255999999998,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Procent och modeller",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "svarEnhet": "Wh"
+  },
+  {
+    "id": "8.07",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Procent och modeller",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En cykelhjälm kostar 720 kr under en rea med 20 % rabatt. Vad var priset före rean? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Reapriset motsvarar 80 % av ursprungspriset.</strong></p><div class=\"facit-matte\">\\[0{,}80x=720\\]</div><div class=\"facit-matte\">\\[x=720/0{,}80=900\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 900 kr.</p></div>",
+    "ledtrad": "<p>Vilket pris är det som procenttalet räknas på?</p>",
+    "rättSvar": 900,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Procent och modeller",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "8.08",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Sannolikhet och granskning",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Risken att en viss leverans blir försenad är 8 %. Tre leveranser görs oberoende av varandra. Hur stor är sannolikheten att minst en blir försenad? (Svara i procent.)</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Beräkna först sannolikheten att alla kommer i tid.</strong></p><div class=\"facit-matte\">\\[P(\\text{alla i tid})=0{,}92^3\\]</div><div class=\"facit-matte\">\\[P(\\text{minst en sen})=1-0{,}92^3\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 22,1 %.</p></div>",
+    "ledtrad": "<p>Vilken händelse är motsatsen till att minst en leverans blir sen?</p>",
+    "rättSvar": 22.131199999999996,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Sannolikhet och granskning",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "svarEnhet": "%"
+  },
+  {
+    "id": "8.09",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Sannolikhet och granskning",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>I en låda finns två röda och tre blå brickor. Två brickor tas utan återläggning. Hur stor är sannolikheten att båda är röda? (Svara som bråk eller decimaltal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 135\" role=\"img\" aria-label=\"Två röda och tre blå brickor\" style=\"width:100%;max-width:500px\"><title>Två röda och tre blå brickor</title><rect width=\"500\" height=\"135\" rx=\"12\" fill=\"#fff\"/><circle cx=\"90\" cy=\"65\" r=\"25\" fill=\"#ba344e\"/><text x=\"90\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">R</text><circle cx=\"170\" cy=\"65\" r=\"25\" fill=\"#ba344e\"/><text x=\"170\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">R</text><circle cx=\"250\" cy=\"65\" r=\"25\" fill=\"#146a96\"/><text x=\"250\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">B</text><circle cx=\"330\" cy=\"65\" r=\"25\" fill=\"#146a96\"/><text x=\"330\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">B</text><circle cx=\"410\" cy=\"65\" r=\"25\" fill=\"#146a96\"/><text x=\"410\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">B</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Antalet brickor ändras efter det första valet.</strong></p><div class=\"facit-matte\">\\[\\frac25\\cdot\\frac14=\\frac1{10}=0{,}1\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1/10\\).</p></div>",
+    "ledtrad": "<p>Hur många röda brickor och hur många brickor totalt finns kvar efter en röd?</p>",
+    "rättSvar": 0.1,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Sannolikhet och granskning",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    }
+  },
+  {
+    "id": "8.10",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Funktioner och grafer",
+    "formaga": [
+      "modellering"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Ett abonnemang kostar 90 kr per månad plus 12 kr för varje extra gigabyte. Vilken modell ger månadskostnaden \\(K\\) för \\(x\\) extra gigabyte? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Skilj på fast och rörlig kostnad.</strong></p><p>De 90 kronorna betalas en gång. Varje extra gigabyte bidrar med 12 kr.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(K=90+12x\\).</p></div>",
+    "ledtrad": "<p>Vilken kostnad finns även när x är noll?</p>",
+    "rättSvar": null,
+    "svarFormat": "text",
+    "svarstyp": "alternativ",
+    "tolerans": null,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Funktioner och grafer",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "alternativ": [
+      {
+        "txt": "\\(K=102x\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(K=90+12x\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(K=12+90x\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(K=90\\cdot1{,}12^x\\)",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "8.11",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Procent och modeller",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Tabellen visar ett prisindex. Hur många procent steg priset från 2023 till 2025?</p><table style=\"border-collapse:collapse;width:100%;max-width:420px\"><thead><tr><th style=\"padding:7px;border:1px solid #8192a3\">År</th><th style=\"padding:7px;border:1px solid #8192a3\">Index</th></tr></thead><tbody><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">2023</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">160</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">2025</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">178</td></tr></tbody></table><p>(Svara i procent.)</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Jämför ökningen med startårets index.</strong></p><div class=\"facit-matte\">\\[\\frac{178-160}{160}\\cdot100=11{,}25\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 11,25 %.</p></div>",
+    "ledtrad": "<p>År 2023 är jämförelseåret i just den här frågan.</p>",
+    "rättSvar": 11.25,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Begreppet index",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "svarEnhet": "%"
+  },
+  {
+    "id": "8.12",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Geometri och vektorer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En rak ramp har en horisontell längd på 8,0 m och lutar 25° mot marken. Hur stor är höjdskillnaden mellan rampens ändar? (Svara i m.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Ramp, marksträcka och höjd; schematisk figur\" style=\"width:100%;max-width:500px\"><title>Ramp, marksträcka och höjd; schematisk figur</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><path d=\"M85 235L405 235L405 85.782Z\" fill=\"#e8f3f8\" stroke=\"#24435e\" stroke-width=\"3\"/><path d=\"M389 235V219H405\" fill=\"none\" stroke=\"#24435e\" stroke-width=\"2\"/><text x=\"245\" y=\"265\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8,0 m</text><text x=\"420\" y=\"155\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">h</text><path d=\"M125 235 A40 40 0 0 0 121.252 218.095\" fill=\"none\" stroke=\"#b24d17\" stroke-width=\"2\"/><text x=\"175\" y=\"226\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">25°</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Höjden och marksträckan är kateter.</strong></p><div class=\"facit-matte\">\\[\\tan25^\\circ=\\frac{h}{8{,}0}\\]</div><div class=\"facit-matte\">\\[h=8{,}0\\tan25^\\circ\\approx3{,}73\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 3,73 m.</p></div>",
+    "ledtrad": "<p>Vilka två sidor jämför tangens?</p>",
+    "rättSvar": 3.7304612652399887,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Trigonometri i rätvinkliga trianglar; yrkesrelevant geometri för 1a",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "svarEnhet": "m"
+  },
+  {
+    "id": "8.13",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Geometri och vektorer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En robot förflyttas först med vektorn \\((4,-1)\\) m och sedan med \\((-2,5)\\) m. Hur långt är det rakt mellan startpunkten och slutpunkten? (Svara i m.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Robotens start, mellanstopp och slutpunkt\" style=\"width:100%;max-width:500px\"><title>Robotens start, mellanstopp och slutpunkt</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-1</text><line x1=\"126.667\" y1=\"45\" x2=\"126.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"126.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"188.333\" y1=\"45\" x2=\"188.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"188.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"250\" y1=\"45\" x2=\"250\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"250\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"311.667\" y1=\"45\" x2=\"311.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"311.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"373.333\" y1=\"45\" x2=\"373.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"373.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><line x1=\"65\" y1=\"245\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"250\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-2</text><line x1=\"65\" y1=\"187.857\" x2=\"435\" y2=\"187.857\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"192.857\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"130.714\" x2=\"435\" y2=\"130.714\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"135.714\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"73.5714\" x2=\"435\" y2=\"73.5714\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"78.5714\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"65\" y1=\"187.857\" x2=\"445\" y2=\"187.857\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"126.667\" y1=\"245\" x2=\"126.667\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y</text><circle cx=\"126.667\" cy=\"187.857\" r=\"4\" fill=\"#af3451\"/><rect x=\"131.667\" y=\"160.857\" width=\"70\" height=\"21\" fill=\"#fff\"/><text x=\"134.667\" y=\"177.857\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Start</text><circle cx=\"373.333\" cy=\"216.429\" r=\"4\" fill=\"#af3451\"/><rect x=\"378.333\" y=\"189.429\" width=\"70\" height=\"21\" fill=\"#fff\"/><text x=\"381.333\" y=\"206.429\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Stopp</text><circle cx=\"250.000\" cy=\"73.571\" r=\"4\" fill=\"#af3451\"/><rect x=\"255.000\" y=\"46.571\" width=\"58\" height=\"21\" fill=\"#fff\"/><text x=\"258\" y=\"63.5714\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Slut</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Addera förflyttningarna före längdberäkningen.</strong></p><div class=\"facit-matte\">\\[(4,-1)+(-2,5)=(2,4)\\]</div><div class=\"facit-matte\">\\[d=\\sqrt{2^2+4^2}=\\sqrt{20}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\sqrt5\\) m, ungefär 4,47 m.</p></div>",
+    "ledtrad": "<p>Den sammanlagda förflyttningen är inte summan av de två vägarnas längder.</p>",
+    "rättSvar": 4.47213595499958,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Addition och absolutbelopp av vektorer",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "svarEnhet": "m"
+  },
+  {
+    "id": "8.14",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Algebra och ekvationer",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Det kostar 95 kr att hämta ut en hyrvagn och sedan 18 kr per hel timme. Du får använda högst 240 kr. Hur många hela timmar kan du som mest hyra vagnen?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Hitta gränsen och kontrollera hela timmar.</strong></p><div class=\"facit-matte\">\\[95+18t\\le240\\]</div><div class=\"facit-matte\">\\[t\\le145/18\\approx8{,}06\\]</div><p>Åtta timmar kostar 239 kr. Nio timmar kostar 257 kr och är för dyrt.</p><p class=\"facit-svar\"><strong>Svar:</strong> 8 timmar.</p></div>",
+    "ledtrad": "<p>Räkna först bort den fasta avgiften.</p>",
+    "rättSvar": 8,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Algebra och ekvationer",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    }
+  },
+  {
+    "id": "8.15",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Funktioner och grafer",
+    "formaga": [
+      "modellering"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En förening betalar en fast avgift och samma pris per deltagare för en aktivitet. Tabellen visar två bokningar. Vad är priset per deltagare? (Svara i kr.)</p><table style=\"border-collapse:collapse;width:100%;max-width:420px\"><thead><tr><th style=\"padding:7px;border:1px solid #8192a3\">Deltagare</th><th style=\"padding:7px;border:1px solid #8192a3\">Total kostnad</th></tr></thead><tbody><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">4</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">620 kr</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">7</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">935 kr</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Den fasta avgiften försvinner när bokningarna jämförs.</strong></p><div class=\"facit-matte\">\\[\\frac{935-620}{7-4}=105\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 105 kr per deltagare.</p></div>",
+    "ledtrad": "<p>Vad kostar de tre extra deltagarna tillsammans?</p>",
+    "rättSvar": 105,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Funktioner och grafer",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "8.16",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Procent och modeller",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Priset på en biljett sänks med 10 % och höjs senare med 20 %. Hur många procent högre är slutpriset än priset före båda ändringarna?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Multiplicera förändringsfaktorerna.</strong></p><div class=\"facit-matte\">\\[0{,}90\\cdot1{,}20=1{,}08\\]</div><p>Faktorn 1,08 betyder att 108 % av ursprungspriset återstår.</p><p class=\"facit-svar\"><strong>Svar:</strong> 8 % högre.</p></div>",
+    "ledtrad": "<p>Den andra förändringen räknas på det redan sänkta priset.</p>",
+    "rättSvar": 8,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Procent och modeller",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "svarEnhet": "%"
+  },
+  {
+    "id": "8.17",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Sannolikhet och granskning",
+    "formaga": [
+      "resonemang"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En enkät visar att elever som cyklar till skolan i genomsnitt sover längre. Vilken slutsats stöds av enkäten? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Ett samband visar inte i sig vad som orsakar det.</strong></p><p>Andra skillnader mellan grupperna kan påverka både resvanor och sömn.</p><p class=\"facit-svar\"><strong>Svar:</strong> Det finns ett samband i de undersökta svaren, men orsaken är inte visad.</p></div>",
+    "ledtrad": "<p>Skilj på samband och orsak.</p>",
+    "rättSvar": null,
+    "svarFormat": "text",
+    "svarstyp": "alternativ",
+    "tolerans": null,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Sannolikhet och granskning",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "alternativ": [
+      {
+        "txt": "Cykling gör att alla elever sover längre.",
+        "ratt": false
+      },
+      {
+        "txt": "Mer sömn gör alltid att elever börjar cykla.",
+        "ratt": false
+      },
+      {
+        "txt": "Resvanor och sömn kan aldrig hänga ihop.",
+        "ratt": false
+      },
+      {
+        "txt": "Det finns ett samband i svaren, men orsaken är inte visad.",
+        "ratt": true
+      }
+    ]
+  },
+  {
+    "id": "8.18",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Algebra och ekvationer",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Två vänner delar lika på en avgift och betalar 210 kr var. Om ytterligare en vän hade varit med skulle samma avgift ha delats lika på tre. Hur mycket mindre skulle var och en då ha betalat? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Den sammanlagda avgiften är oförändrad.</strong></p><div class=\"facit-matte\">\\[2\\cdot210=420\\]</div><div class=\"facit-matte\">\\[420/3=140\\]</div><div class=\"facit-matte\">\\[210-140=70\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 70 kr mindre.</p></div>",
+    "ledtrad": "<p>Bestäm hela avgiften innan du ändrar antalet personer.</p>",
+    "rättSvar": 70,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Algebra och ekvationer",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "8.19",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Funktioner och grafer",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Två modeller används för mängden material i ett lager. Vilket påstående stämmer med tabellen? Välj ett alternativ.</p><table style=\"border-collapse:collapse;width:100%;max-width:420px\"><thead><tr><th style=\"padding:7px;border:1px solid #8192a3\">Vecka</th><th style=\"padding:7px;border:1px solid #8192a3\">Modell A (ton)</th><th style=\"padding:7px;border:1px solid #8192a3\">Modell B (ton)</th></tr></thead><tbody><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">0</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">100</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">100</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">1</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">90</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">90</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">2</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">80</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">81</td></tr><tr><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">3</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">70</td><td style=\"padding:7px;text-align:center;border:1px solid #8192a3\">72,9</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Jämför skillnader respektive kvoter.</strong></p><p>A minskar med 10 ton per vecka. B multipliceras med 0,90 varje vecka.</p><p class=\"facit-svar\"><strong>Svar:</strong> A är linjär och B är exponentiell.</p></div>",
+    "ledtrad": "<p>Är förändringen lika stor i ton eller i procent?</p>",
+    "rättSvar": null,
+    "svarFormat": "text",
+    "svarstyp": "alternativ",
+    "tolerans": null,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Funktioner och grafer",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    },
+    "alternativ": [
+      {
+        "txt": "Båda är linjära.",
+        "ratt": false
+      },
+      {
+        "txt": "A är exponentiell och B är linjär.",
+        "ratt": false
+      },
+      {
+        "txt": "A är linjär och B är exponentiell.",
+        "ratt": true
+      },
+      {
+        "txt": "Båda är exponentiella.",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "8.20",
+    "kap": 8,
+    "omr": "np_repetition",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Algebra och ekvationer",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 4,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Ett kvadratiskt mönster består av \\(n\\times n\\) vita plattor. Runt det läggs en ram som är en platta bred, även vid hörnen. Skriv ett förenklat uttryck för antalet plattor i ramen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"En kvadrat med en ram som är en platta bred\" style=\"width:100%;max-width:500px\"><title>En kvadrat med en ram som är en platta bred</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><rect x=\"130\" y=\"25\" width=\"240\" height=\"240\" fill=\"#a7ccdf\" stroke=\"#24435e\" stroke-width=\"2\"/><rect x=\"170\" y=\"65\" width=\"160\" height=\"160\" fill=\"white\" stroke=\"#24435e\" stroke-width=\"2\"/><text x=\"250\" y=\"145\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">n × n</text><text x=\"390\" y=\"150\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172e46\">1 platta</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Ta bort den vita kvadraten från den större kvadraten.</strong></p><div class=\"facit-matte\">\\[(n+2)^2-n^2\\]</div><div class=\"facit-matte\">\\[=n^2+4n+4-n^2=4n+4\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4n+4\\) plattor.</p></div>",
+    "ledtrad": "<p>Hur lång blir sidan om ramen räknas med på båda sidor?</p>",
+    "rättSvar": "4*n+4",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Algebra och ekvationer",
+      "underlag": "Ma1a/b/c VT22, delprov B"
+    }
+  }
 ];

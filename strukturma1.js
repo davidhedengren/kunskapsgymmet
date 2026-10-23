@@ -330,3 +330,7 @@ window.GRUPPMA1 = {
 
 /* Visa kursens pedagogiska underområden som egna träningskort. */
 window.GRUPPMA1 = {};
+
+// Självständiga repetitionsuppgifter, 2026-10-23. Originalprov återges inte.
+window.KAPNAMNMA1["8"] = "Repetera inför Nationella provet";
+window.OMRMA1["8"] = {"np_repetition": "Repetera inför Nationella provet"};

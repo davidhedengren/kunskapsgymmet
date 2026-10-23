@@ -101574,5 +101574,696 @@ window.BANKMATO2 = [
       "kommentar": "Det är ett andragradspolynom."
     }
   ]
-}
+},
+  {
+    "id": "6.01",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Derivata och funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Bestäm derivatan till \\(f(x)=\\sin(3x)\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Multiplicera med den inre derivatan.</strong></p><div class=\"facit-matte\">\\[f'(x)=\\cos(3x)\\cdot3\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3\\cos(3x)\\).</p></div>",
+    "ledtrad": "<p>Använd kedjeregeln.</p>",
+    "rättSvar": "3*cos(3*x)",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och funktioner",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.02",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Trigonometri och modeller",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Bestäm perioden för \\(f(x)=1+4\\cos(2x)\\). (Svara i radianer.)</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Argumentet ska öka med ett helt varv.</strong></p><div class=\"facit-matte\">\\[2T=2\\pi\\Rightarrow T=\\pi\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\pi\\) radianer.</p></div>",
+    "ledtrad": "<p>Hur mycket behöver x öka för att 2x ska öka med 2π?</p>",
+    "rättSvar": 3.141592653589793,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Trigonometri och modeller",
+      "underlag": "Ma4 VT22"
+    },
+    "svarEnhet": "rad"
+  },
+  {
+    "id": "6.03",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Komplexa tal och algebra",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Det komplexa talet \\(z=-3+4i\\) är markerat i figuren. Bestäm \\(|z|\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Komplext tal i talplanet\" style=\"width:100%;max-width:500px\"><title>Komplext tal i talplanet</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"126.667\" y1=\"45\" x2=\"126.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"126.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-4</text><line x1=\"188.333\" y1=\"45\" x2=\"188.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"188.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-3</text><line x1=\"250\" y1=\"45\" x2=\"250\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"250\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-2</text><line x1=\"311.667\" y1=\"45\" x2=\"311.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"311.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">-1</text><line x1=\"373.333\" y1=\"45\" x2=\"373.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"373.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"65\" y1=\"211.667\" x2=\"435\" y2=\"211.667\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"216.667\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"178.333\" x2=\"435\" y2=\"178.333\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"183.333\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"65\" y1=\"145\" x2=\"435\" y2=\"145\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"150\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"111.667\" x2=\"435\" y2=\"111.667\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"116.667\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"65\" y1=\"78.3333\" x2=\"435\" y2=\"78.3333\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"83.3333\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"65\" y1=\"45\" x2=\"435\" y2=\"45\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"50\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><line x1=\"65\" y1=\"211.667\" x2=\"445\" y2=\"211.667\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"373.333\" y1=\"245\" x2=\"373.333\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Re</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Im</text><circle cx=\"188.333\" cy=\"78.333\" r=\"4\" fill=\"#af3451\"/><rect x=\"193.333\" y=\"51.333\" width=\"22\" height=\"21\" fill=\"#fff\"/><text x=\"196.333\" y=\"68.3333\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">z</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Absolutbeloppet är avståndet till origo.</strong></p><div class=\"facit-matte\">\\[|z|=\\sqrt{(-3)^2+4^2}=5\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 5.</p></div>",
+    "ledtrad": "<p>Använd realdelen och imaginärdelen som kateter.</p>",
+    "rättSvar": 5,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Komplexa tal och algebra",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.04",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Derivata och funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Derivera \\(f(x)=(x^2+1)e^x\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Båda faktorerna beror på x.</strong></p><div class=\"facit-matte\">\\[f'(x)=2xe^x+(x^2+1)e^x\\]</div><div class=\"facit-matte\">\\[=e^x(x^2+2x+1)\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(e^x(x^2+2x+1)\\).</p></div>",
+    "ledtrad": "<p>Använd produktregeln.</p>",
+    "rättSvar": "exp(x)*(x^2+2*x+1)",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och funktioner",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.05",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Derivata och funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Derivera \\(f(x)=\\dfrac{x}{x+2}\\), där \\(x\\ne-2\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Kvotregeln tar hänsyn till både täljare och nämnare.</strong></p><div class=\"facit-matte\">\\[f'(x)=\\frac{1\\cdot(x+2)-x\\cdot1}{(x+2)^2}\\]</div><div class=\"facit-matte\">\\[=\\frac{2}{(x+2)^2}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac{2}{(x+2)^2}\\).</p></div>",
+    "ledtrad": "<p>Kontrollera ordningen i kvotregelns täljare.</p>",
+    "rättSvar": "2/(x+2)^2",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och funktioner",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.06",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Derivata och funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen \\(f(x)=\\ln(7-2x)\\) är definierad för \\(x\\lt 3{,}5\\). Bestäm \\(f'(x)\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Derivatan av ln u är u′/u.</strong></p><div class=\"facit-matte\">\\[f'(x)=\\frac{-2}{7-2x}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\dfrac{2}{7-2x}\\).</p></div>",
+    "ledtrad": "<p>Den inre funktionen är 7 − 2x.</p>",
+    "rättSvar": "-2/(7-2*x)",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och funktioner",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.07",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Trigonometri och modeller",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös \\(\\sin x=1/2\\) på intervallet \\(0\\le x\\le2\\pi\\). Ange båda lösningarna i radianer, i var sitt fält.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Sinus är positiv i första och andra kvadranten.</strong></p><div class=\"facit-matte\">\\[x=\\frac{\\pi}{6}\\quad\\text{eller}\\quad x=\\pi-\\frac{\\pi}{6}=\\frac{5\\pi}{6}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\pi/6\\) och \\(5\\pi/6\\) radianer.</p></div>",
+    "ledtrad": "<p>Vilka två vinklar på ett varv har höjden 1/2 i enhetscirkeln?</p>",
+    "rättSvar": [
+      0.5235987755982988,
+      2.6179938779914944
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarstyp": "flera_delar",
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Trigonometri och modeller",
+      "underlag": "Ma4 VT22"
+    },
+    "svarEnhet": "rad",
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ]
+  },
+  {
+    "id": "6.08",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Integraler och tillämpningar",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Beräkna \\(\\displaystyle\\int_0^{\\pi/4}\\cos(2x)\\,dx\\) exakt.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Ta hänsyn till den inre derivatan i den primitiva funktionen.</strong></p><div class=\"facit-matte\">\\[\\left[\\frac12\\sin(2x)\\right]_0^{\\pi/4}\\]</div><div class=\"facit-matte\">\\[=\\frac12\\sin(\\pi/2)-\\frac12\\sin0=\\frac12\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1/2\\).</p></div>",
+    "ledtrad": "<p>Vilken faktor behövs framför sin(2x)?</p>",
+    "rättSvar": 0.5,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Integraler och tillämpningar",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.09",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Integraler och tillämpningar",
+    "formaga": [
+      "modellering"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Området mellan \\(y=\\sqrt{2x}\\), x-axeln och linjerna \\(x=0\\) och \\(x=3\\) roterar ett helt varv kring x-axeln. Bestäm volymen. (Svara exakt i volymenheter.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Rotationsområdets övre gräns\" style=\"width:100%;max-width:500px\"><title>Rotationsområdets övre gräns</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"188.333\" y1=\"45\" x2=\"188.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"188.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"311.667\" y1=\"45\" x2=\"311.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"311.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"65\" y1=\"245\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"250\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"178.333\" x2=\"435\" y2=\"178.333\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"183.333\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"65\" y1=\"111.667\" x2=\"435\" y2=\"111.667\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"116.667\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"45\" x2=\"435\" y2=\"45\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"50\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"65\" y1=\"245\" x2=\"445\" y2=\"245\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"65\" y1=\"245\" x2=\"65\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">x</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y</text><path d=\"M65.000 245.000 L66.542 234.459 L68.083 230.093 L69.625 226.743 L71.167 223.918 L72.708 221.430 L74.250 219.180 L75.792 217.111 L77.333 215.186 L78.875 213.377 L80.417 211.667 L81.958 210.040 L83.500 208.485 L85.042 206.994 L86.583 205.559 L88.125 204.175 L89.667 202.836 L91.208 201.539 L92.750 200.279 L94.292 199.053 L95.833 197.860 L97.375 196.695 L98.917 195.559 L100.458 194.447 L102.000 193.360 L103.542 192.295 L105.083 191.252 L106.625 190.228 L108.167 189.223 L109.708 188.235 L111.250 187.265 L112.792 186.311 L114.333 185.372 L115.875 184.447 L117.417 183.536 L118.958 182.639 L120.500 181.754 L122.042 180.882 L123.583 180.021 L125.125 179.172 L126.667 178.333 L128.208 177.505 L129.750 176.687 L131.292 175.879 L132.833 175.079 L134.375 174.289 L135.917 173.508 L137.458 172.735 L139.000 171.970 L140.542 171.214 L142.083 170.464 L143.625 169.723 L145.167 168.988 L146.708 168.261 L148.250 167.540 L149.792 166.826 L151.333 166.119 L152.875 165.418 L154.417 164.723 L155.958 164.034 L157.500 163.350 L159.042 162.673 L160.583 162.001 L162.125 161.334 L163.667 160.673 L165.208 160.016 L166.750 159.365 L168.292 158.719 L169.833 158.077 L171.375 157.440 L172.917 156.808 L174.458 156.181 L176.000 155.557 L177.542 154.938 L179.083 154.324 L180.625 153.713 L182.167 153.106 L183.708 152.504 L185.250 151.905 L186.792 151.310 L188.333 150.719 L189.875 150.132 L191.417 149.548 L192.958 148.968 L194.500 148.391 L196.042 147.817 L197.583 147.247 L199.125 146.681 L200.667 146.117 L202.208 145.557 L203.750 145.000 L205.292 144.446 L206.833 143.895 L208.375 143.347 L209.917 142.802 L211.458 142.260 L213.000 141.720 L214.542 141.184 L216.083 140.650 L217.625 140.119 L219.167 139.591 L220.708 139.065 L222.250 138.542 L223.792 138.021 L225.333 137.503 L226.875 136.988 L228.417 136.475 L229.958 135.964 L231.500 135.455 L233.042 134.950 L234.583 134.446 L236.125 133.944 L237.667 133.445 L239.208 132.948 L240.750 132.454 L242.292 131.961 L243.833 131.471 L245.375 130.982 L246.917 130.496 L248.458 130.012 L250.000 129.530 L251.542 129.050 L253.083 128.572 L254.625 128.095 L256.167 127.621 L257.708 127.149 L259.250 126.678 L260.792 126.210 L262.333 125.743 L263.875 125.278 L265.417 124.815 L266.958 124.354 L268.500 123.894 L270.042 123.436 L271.583 122.980 L273.125 122.526 L274.667 122.073 L276.208 121.622 L277.750 121.172 L279.292 120.724 L280.833 120.278 L282.375 119.833 L283.917 119.390 L285.458 118.949 L287.000 118.509 L288.542 118.070 L290.083 117.634 L291.625 117.198 L293.167 116.764 L294.708 116.332 L296.250 115.901 L297.792 115.471 L299.333 115.043 L300.875 114.616 L302.417 114.191 L303.958 113.767 L305.500 113.344 L307.042 112.923 L308.583 112.503 L310.125 112.084 L311.667 111.667 L313.208 111.251 L314.750 110.836 L316.292 110.422 L317.833 110.010 L319.375 109.599 L320.917 109.190 L322.458 108.781 L324.000 108.374 L325.542 107.968 L327.083 107.563 L328.625 107.160 L330.167 106.757 L331.708 106.356 L333.250 105.956 L334.792 105.557 L336.333 105.159 L337.875 104.762 L339.417 104.367 L340.958 103.972 L342.500 103.579 L344.042 103.186 L345.583 102.795 L347.125 102.405 L348.667 102.016 L350.208 101.628 L351.750 101.241 L353.292 100.855 L354.833 100.470 L356.375 100.086 L357.917 99.703 L359.458 99.322 L361.000 98.941 L362.542 98.561 L364.083 98.182 L365.625 97.804 L367.167 97.427 L368.708 97.051 L370.250 96.676 L371.792 96.302 L373.333 95.929 L374.875 95.557 L376.417 95.185 L377.958 94.815 L379.500 94.445 L381.042 94.077 L382.583 93.709 L384.125 93.342 L385.667 92.977 L387.208 92.612 L388.750 92.247 L390.292 91.884 L391.833 91.522 L393.375 91.160 L394.917 90.800 L396.458 90.440 L398.000 90.081 L399.542 89.722 L401.083 89.365 L402.625 89.009 L404.167 88.653 L405.708 88.298 L407.250 87.944 L408.792 87.590 L410.333 87.238 L411.875 86.886 L413.417 86.535 L414.958 86.185 L416.500 85.836 L418.042 85.487 L419.583 85.139 L421.125 84.792 L422.667 84.445 L424.208 84.100 L425.750 83.755 L427.292 83.411 L428.833 83.067 L430.375 82.725 L431.917 82.383 L433.458 82.041 L435.000 81.701\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Tvärsnittets radie är √(2x).</strong></p><div class=\"facit-matte\">\\[V=\\pi\\int_0^3(\\sqrt{2x})^2\\,dx\\]</div><div class=\"facit-matte\">\\[=\\pi[x^2]_0^3=9\\pi\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(9\\pi\\) volymenheter.</p></div>",
+    "ledtrad": "<p>Vid rotationen bildar varje tvärsnitt en cirkelskiva.</p>",
+    "rättSvar": "9*pi",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Integraler och tillämpningar",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.10",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Integraler och tillämpningar",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En täthetsfunktion är \\(f(x)=kx\\) för \\(0\\le x\\le4\\) och noll utanför intervallet. Bestäm konstanten \\(k\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Den totala sannolikheten är 1.</strong></p><div class=\"facit-matte\">\\[\\int_0^4kx\\,dx=k\\left[\\frac{x^2}{2}\\right]_0^4=8k\\]</div><div class=\"facit-matte\">\\[8k=1\\Rightarrow k=\\frac18\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=1/8\\).</p></div>",
+    "ledtrad": "<p>Hela arean under en täthetsfunktion ska vara ett.</p>",
+    "rättSvar": 0.125,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Integraler och tillämpningar",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.11",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Komplexa tal och algebra",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Skriv \\(\\dfrac{5+i}{1-2i}\\) på formen \\(a+bi\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Förläng med nämnarens konjugat.</strong></p><div class=\"facit-matte\">\\[\\frac{(5+i)(1+2i)}{(1-2i)(1+2i)}\\]</div><div class=\"facit-matte\">\\[=\\frac{3+11i}{5}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac35+\\dfrac{11}{5}i\\).</p></div>",
+    "ledtrad": "<p>Gör nämnaren reell genom att använda konjugatet.</p>",
+    "rättSvar": "3/5+11/5*i",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Komplexa tal och algebra",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.12",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Komplexa tal och algebra",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Polynomet \\(p(x)=x^3-3x^2+4\\) har nollstället \\(x=2\\). Faktorisera polynomet i förstagradsfaktorer.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Faktorsatsen ger den första faktorn.</strong></p><div class=\"facit-matte\">\\[p(x)=(x-2)(x^2-x-2)\\]</div><div class=\"facit-matte\">\\[=(x-2)(x-2)(x+1)\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\((x-2)^2(x+1)\\).</p></div>",
+    "ledtrad": "<p>Dela först polynomet med x − 2.</p>",
+    "rättSvar": "(x-2)^2*(x+1)",
+    "svarFormat": "faktoriserat",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Komplexa tal och algebra",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.13",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Derivata och funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Grafen till \\(f(x)=\\dfrac{2x+1}{x-3}\\) har en lodrät asymptot. Ange asymptotens \\(x\\)-värde.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Nämnaren är noll utan att täljaren är noll.</strong></p><div class=\"facit-matte\">\\[x-3=0\\Rightarrow x=3\\]</div><p>Täljaren har då värdet 7, så det finns ingen gemensam faktor som tar bort avbrottet.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\).</p></div>",
+    "ledtrad": "<p>Var är nämnaren noll?</p>",
+    "rättSvar": 3,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och funktioner",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.14",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Trigonometri och modeller",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En nivå varierar enligt \\(h(t)=5+3\\cos(\\pi t/3)\\) meter, där \\(t\\) är tiden i timmar. Bestäm nivån efter en timme. (Svara i m.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 300\" role=\"img\" aria-label=\"Periodisk nivå under sex timmar\" style=\"width:100%;max-width:500px\"><title>Periodisk nivå under sex timmar</title><rect width=\"500\" height=\"300\" rx=\"12\" fill=\"#fff\"/><line x1=\"65\" y1=\"45\" x2=\"65\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"65\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"126.667\" y1=\"45\" x2=\"126.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"126.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><line x1=\"188.333\" y1=\"45\" x2=\"188.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"188.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"250\" y1=\"45\" x2=\"250\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"250\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><line x1=\"311.667\" y1=\"45\" x2=\"311.667\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"311.667\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"373.333\" y1=\"45\" x2=\"373.333\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"373.333\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><line x1=\"435\" y1=\"45\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"435\" y=\"269\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"65\" y1=\"245\" x2=\"435\" y2=\"245\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"250\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><line x1=\"65\" y1=\"205\" x2=\"435\" y2=\"205\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"210\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><line x1=\"65\" y1=\"165\" x2=\"435\" y2=\"165\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"170\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><line x1=\"65\" y1=\"125\" x2=\"435\" y2=\"125\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"130\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><line x1=\"65\" y1=\"85\" x2=\"435\" y2=\"85\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"90\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><line x1=\"65\" y1=\"45\" x2=\"435\" y2=\"45\" stroke=\"#d9e2eb\" stroke-width=\"1\"/><text x=\"55\" y=\"50\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><line x1=\"65\" y1=\"245\" x2=\"445\" y2=\"245\" stroke=\"#334b63\" stroke-width=\"2\"/><line x1=\"65\" y1=\"245\" x2=\"65\" y2=\"35\" stroke=\"#334b63\" stroke-width=\"2\"/><text x=\"440\" y=\"292\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Tid (h)</text><text x=\"65\" y=\"24\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Nivå (m)</text><path d=\"M65.000 85.000 L66.542 85.021 L68.083 85.082 L69.625 85.185 L71.167 85.329 L72.708 85.513 L74.250 85.739 L75.792 86.005 L77.333 86.311 L78.875 86.658 L80.417 87.044 L81.958 87.471 L83.500 87.937 L85.042 88.442 L86.583 88.985 L88.125 89.567 L89.667 90.187 L91.208 90.845 L92.750 91.540 L94.292 92.271 L95.833 93.038 L97.375 93.842 L98.917 94.680 L100.458 95.552 L102.000 96.459 L103.542 97.399 L105.083 98.371 L106.625 99.376 L108.167 100.411 L109.708 101.478 L111.250 102.574 L112.792 103.699 L114.333 104.852 L115.875 106.033 L117.417 107.241 L118.958 108.474 L120.500 109.733 L122.042 111.016 L123.583 112.322 L125.125 113.650 L126.667 115.000 L128.208 116.370 L129.750 117.761 L131.292 119.169 L132.833 120.596 L134.375 122.039 L135.917 123.498 L137.458 124.972 L139.000 126.459 L140.542 127.959 L142.083 129.471 L143.625 130.993 L145.167 132.525 L146.708 134.066 L148.250 135.614 L149.792 137.168 L151.333 138.728 L152.875 140.292 L154.417 141.860 L155.958 143.429 L157.500 145.000 L159.042 146.571 L160.583 148.140 L162.125 149.708 L163.667 151.272 L165.208 152.832 L166.750 154.386 L168.292 155.934 L169.833 157.475 L171.375 159.007 L172.917 160.529 L174.458 162.041 L176.000 163.541 L177.542 165.028 L179.083 166.502 L180.625 167.961 L182.167 169.404 L183.708 170.831 L185.250 172.239 L186.792 173.630 L188.333 175.000 L189.875 176.350 L191.417 177.678 L192.958 178.984 L194.500 180.267 L196.042 181.526 L197.583 182.759 L199.125 183.967 L200.667 185.148 L202.208 186.301 L203.750 187.426 L205.292 188.522 L206.833 189.589 L208.375 190.624 L209.917 191.629 L211.458 192.601 L213.000 193.541 L214.542 194.448 L216.083 195.320 L217.625 196.158 L219.167 196.962 L220.708 197.729 L222.250 198.460 L223.792 199.155 L225.333 199.813 L226.875 200.433 L228.417 201.015 L229.958 201.558 L231.500 202.063 L233.042 202.529 L234.583 202.956 L236.125 203.342 L237.667 203.689 L239.208 203.995 L240.750 204.261 L242.292 204.487 L243.833 204.671 L245.375 204.815 L246.917 204.918 L248.458 204.979 L250.000 205.000 L251.542 204.979 L253.083 204.918 L254.625 204.815 L256.167 204.671 L257.708 204.487 L259.250 204.261 L260.792 203.995 L262.333 203.689 L263.875 203.342 L265.417 202.956 L266.958 202.529 L268.500 202.063 L270.042 201.558 L271.583 201.015 L273.125 200.433 L274.667 199.813 L276.208 199.155 L277.750 198.460 L279.292 197.729 L280.833 196.962 L282.375 196.158 L283.917 195.320 L285.458 194.448 L287.000 193.541 L288.542 192.601 L290.083 191.629 L291.625 190.624 L293.167 189.589 L294.708 188.522 L296.250 187.426 L297.792 186.301 L299.333 185.148 L300.875 183.967 L302.417 182.759 L303.958 181.526 L305.500 180.267 L307.042 178.984 L308.583 177.678 L310.125 176.350 L311.667 175.000 L313.208 173.630 L314.750 172.239 L316.292 170.831 L317.833 169.404 L319.375 167.961 L320.917 166.502 L322.458 165.028 L324.000 163.541 L325.542 162.041 L327.083 160.529 L328.625 159.007 L330.167 157.475 L331.708 155.934 L333.250 154.386 L334.792 152.832 L336.333 151.272 L337.875 149.708 L339.417 148.140 L340.958 146.571 L342.500 145.000 L344.042 143.429 L345.583 141.860 L347.125 140.292 L348.667 138.728 L350.208 137.168 L351.750 135.614 L353.292 134.066 L354.833 132.525 L356.375 130.993 L357.917 129.471 L359.458 127.959 L361.000 126.459 L362.542 124.972 L364.083 123.498 L365.625 122.039 L367.167 120.596 L368.708 119.169 L370.250 117.761 L371.792 116.370 L373.333 115.000 L374.875 113.650 L376.417 112.322 L377.958 111.016 L379.500 109.733 L381.042 108.474 L382.583 107.241 L384.125 106.033 L385.667 104.852 L387.208 103.699 L388.750 102.574 L390.292 101.478 L391.833 100.411 L393.375 99.376 L394.917 98.371 L396.458 97.399 L398.000 96.459 L399.542 95.552 L401.083 94.680 L402.625 93.842 L404.167 93.038 L405.708 92.271 L407.250 91.540 L408.792 90.845 L410.333 90.187 L411.875 89.567 L413.417 88.985 L414.958 88.442 L416.500 87.937 L418.042 87.471 L419.583 87.044 L421.125 86.658 L422.667 86.311 L424.208 86.005 L425.750 85.739 L427.292 85.513 L428.833 85.329 L430.375 85.185 L431.917 85.082 L433.458 85.021 L435.000 85.000\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Sätt in t = 1 och använd radianer.</strong></p><div class=\"facit-matte\">\\[h(1)=5+3\\cos(\\pi/3)\\]</div><div class=\"facit-matte\">\\[=5+3\\cdot\\frac12=6{,}5\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 6,5 m.</p></div>",
+    "ledtrad": "<p>Kontrollera att räknaren använder radianer.</p>",
+    "rättSvar": 6.5,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Trigonometri och modeller",
+      "underlag": "Ma4 VT22"
+    },
+    "svarEnhet": "m"
+  },
+  {
+    "id": "6.15",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Derivata och funktioner",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>För \\(x\\ge0\\) ges funktionen \\(f(x)=xe^{-x}\\). Vid vilket \\(x\\)-värde är funktionen som störst?</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Exponentialfaktorn är alltid positiv.</strong></p><div class=\"facit-matte\">\\[f'(x)=e^{-x}-xe^{-x}=e^{-x}(1-x)\\]</div><p>Derivatan är positiv för 0 ≤ x &lt; 1 och negativ för x &gt; 1. Därför är x = 1 ett maximum på hela det givna intervallet.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\).</p></div>",
+    "ledtrad": "<p>Använd produktregeln och undersök derivatans tecken.</p>",
+    "rättSvar": 1,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och funktioner",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.16",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Derivata och funktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen är \\(f(x)=(2x+1)^3\\). Bestäm \\(f''(1)\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Kedjeregeln behövs vid båda deriveringarna.</strong></p><div class=\"facit-matte\">\\[f'(x)=6(2x+1)^2\\]</div><div class=\"facit-matte\">\\[f''(x)=24(2x+1)\\]</div><div class=\"facit-matte\">\\[f''(1)=24\\cdot3=72\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 72.</p></div>",
+    "ledtrad": "<p>Glöm inte den inre derivatan när du deriverar en andra gång.</p>",
+    "rättSvar": 72,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Derivata och funktioner",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.17",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Komplexa tal och algebra",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lös ekvationen \\(z^2=-12\\). Ange båda rötterna i var sitt fält.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Använd att i² = −1.</strong></p><div class=\"facit-matte\">\\[z=\\pm\\sqrt{12}\\,i=\\pm2\\sqrt3\\,i\\]</div><p>Båda rötterna ger −12 när de kvadreras.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(z=2\\sqrt3\\,i\\) eller \\(z=-2\\sqrt3\\,i\\).</p></div>",
+    "ledtrad": "<p>Rötterna är rent imaginära.</p>",
+    "rättSvar": [
+      "2*sqrt(3)*i",
+      "-2*sqrt(3)*i"
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarstyp": "flera_delar",
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Komplexa tal och algebra",
+      "underlag": "Ma4 VT22"
+    },
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "Svar 1",
+      "Svar 2"
+    ]
+  },
+  {
+    "id": "6.18",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Integraler och tillämpningar",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Bestäm \\(a\\) så att \\(\\displaystyle\\int_0^{\\pi/2}(a\\cos x+\\sin x)\\,dx=2\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Integrera med a som konstant.</strong></p><div class=\"facit-matte\">\\[[a\\sin x-\\cos x]_0^{\\pi/2}\\]</div><div class=\"facit-matte\">\\[=a-(-1)=a+1\\]</div><div class=\"facit-matte\">\\[a+1=2\\Rightarrow a=1\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=1\\).</p></div>",
+    "ledtrad": "<p>Den okända konstanten a påverkas inte när du integrerar med avseende på x.</p>",
+    "rättSvar": 1,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Integraler och tillämpningar",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.19",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Integraler och tillämpningar",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 4,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Beräkna \\(\\displaystyle\\int_0^{\\pi/2}(x\\cos x+\\sin x)\\,dx\\) exakt.</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Känn igen derivatan av en produkt.</strong></p><div class=\"facit-matte\">\\[\\frac{d}{dx}(x\\sin x)=\\sin x+x\\cos x\\]</div><div class=\"facit-matte\">\\[\\int_0^{\\pi/2}(x\\cos x+\\sin x)\\,dx\\]</div><div class=\"facit-matte\">\\[=[x\\sin x]_0^{\\pi/2}=\\frac\\pi2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\pi/2\\).</p></div>",
+    "ledtrad": "<p>Vilken produkt får två termer när den deriveras?</p>",
+    "rättSvar": "pi/2",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": 0,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Integraler och tillämpningar",
+      "underlag": "Ma4 VT22"
+    }
+  },
+  {
+    "id": "6.20",
+    "kap": 6,
+    "omr": "np_repetition",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "A",
+    "poang": "0/0/1",
+    "familj": "Trigonometri och modeller",
+    "formaga": [
+      "problemlösning"
+    ],
+    "traningsniva": 5,
+    "arbetsinsats": 4,
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen \\(f(x)=3\\sin x+b\\cos x\\) har största värdet 5. Konstanten \\(b\\) är positiv. Bestäm \\(b\\).</p>",
+    "s": "<div class=\"facit-v2\"><p class=\"facit-rubrik\"><strong>Skriv summan som en förskjuten sinuskurva.</strong></p><p>Sätt \\(f(x)=R\\sin(x+\\varphi)\\). Additionsformeln ger \\(R\\cos\\varphi=3\\) och \\(R\\sin\\varphi=b\\).</p><div class=\"facit-matte\">\\[R^2=3^2+b^2\\]</div><p>Största värdet är R = 5, så \\(25=9+b^2\\). Eftersom b är positivt väljs b = 4.</p><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=4\\).</p></div>",
+    "ledtrad": "<p>Använd additionsformeln för sin(x + φ) och trigonometriska ettan.</p>",
+    "rättSvar": 4,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09,
+    "repetition": {
+      "typ": "egen",
+      "omgang": "2026-10-23",
+      "amnesplan": "Trigonometri och modeller",
+      "underlag": "Ma4 VT22"
+    }
+  }
 ];

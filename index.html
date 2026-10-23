@@ -4059,7 +4059,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-23-felrapporter-1408";
+const BANK_VERSION="2026-10-23-np-repetition-80";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -8468,6 +8468,7 @@ function renderDashboard(){
     <section class="chapter${open?" open":""}">
       ${chapterHead(kap,chapterName(kap),grouped[kap])}
       <div class="chapter-body"${manyChapters&&!open?" hidden":""}>
+      ${grouped[kap].some(a=>a.omr.includes('np_repetition'))?'<p class="np-repetition-info" style="padding:0 18px;line-height:1.5">Egna övningsuppgifter inför provet, med aktuellt kursinnehåll. Uppgifterna är inte officiella provuppgifter.</p>':''}
       <div class="area-grid stagger">
         ${grouped[kap].map(a=>{
           const s=cardStatus(a);

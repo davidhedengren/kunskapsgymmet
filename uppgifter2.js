@@ -36584,55 +36584,55 @@ window.BANK2 = [
     "svarFormat": "numeriskt"
   },
   {
-    "kap": 5,
-    "omr": "magnituder",
-    "niva": "E",
-    "typ": "absolut magnitud ur luminositet (Wolf 359)",
-    "poang": "(1/0/0)",
-    "t": "<p>Den röda dvärgen Wolf 359 har en luminositet som är 0,0010 gånger solens.</p><p>Magnituderna gäller all strålning från stjärnan.</p><p>Vilken absolut magnitud har Wolf 359? (Svara med ett tal.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=M_\\odot-2{,}5\\lg\\frac{L}{L_\\odot}\\]</div></li><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg0{,}0010=4{,}74+7{,}5\\approx12{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(+12{,}2\\).</p></div>",
-    "id": "5.357",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Magnitud och luminositet",
-    "svarstyp": "numeriskt",
-    "rättSvar": 12.24,
-    "tolerans": 0.14345999999999987,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "ledtrad": "<p>En tusendel av solens luminositet är tre faktorer 10. Varje faktor 10 motsvarar 2,5 magnituder.</p>",
-    "traningsniva": 2,
-    "familjNyckel": "magnituder__magnitud_och_luminositet",
-    "svarFormat": "numeriskt"
-  },
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "E",
+  "typ": "absolut magnitud ur luminositet (Wolf 359)",
+  "poang": "(1/0/0)",
+  "t": "<p>Den röda dvärgen Wolf 359 har en luminositet som är 0,0010 gånger solens.</p><p>Magnituderna gäller all strålning från stjärnan.</p><p>Vilken absolut magnitud har Wolf 359? (Svara med ett tal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=M_\\odot-2{,}5\\lg\\frac{L}{L_\\odot}\\]</div></li><li><div class=\"facit-matte\">\\[\\begin{gathered}M=4{,}74-2{,}5\\lg0{,}0010\\\\=4{,}74+7{,}5\\approx12{,}2\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(+12{,}2\\).</p></div>",
+  "id": "5.357",
+  "miniräknare": true,
+  "geogebra": false,
+  "familj": "Magnitud och luminositet",
+  "svarstyp": "numeriskt",
+  "rättSvar": 12.24,
+  "tolerans": 0.14345999999999987,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "ledtrad": "<p>En tusendel av solens luminositet är tre faktorer 10. Varje faktor 10 motsvarar 2,5 magnituder.</p>",
+  "traningsniva": 2,
+  "familjNyckel": "magnituder__magnitud_och_luminositet",
+  "svarFormat": "numeriskt"
+},
   {
-    "kap": 5,
-    "omr": "magnituder",
-    "niva": "E",
-    "typ": "absolut magnitud ur luminositet (Canopus)",
-    "poang": "(1/0/0)",
-    "t": "<p>Canopus är den näst ljusaste stjärnan på natthimlen. Den har 10 700 gånger solens luminositet.</p><p>Magnituderna gäller all strålning från stjärnan.</p><p>Vilken absolut magnitud har Canopus? (Svara med ett tal.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg10\\,700\\approx-5{,}33\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-5{,}3\\).</p></div>",
-    "id": "5.358",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Magnitud och luminositet",
-    "svarstyp": "numeriskt",
-    "rättSvar": -5.333459444213025,
-    "tolerans": 0.1478345944421301,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "ledtrad": "<p>Ju större luminositet, desto lägre (mer negativ) absolut magnitud.</p>",
-    "traningsniva": 2,
-    "familjNyckel": "magnituder__magnitud_och_luminositet",
-    "svarFormat": "numeriskt"
-  },
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "E",
+  "typ": "absolut magnitud ur luminositet (Canopus)",
+  "poang": "(1/0/0)",
+  "t": "<p>Canopus är den näst ljusaste stjärnan på natthimlen. Den har 10 700 gånger solens luminositet.</p><p>Magnituderna gäller all strålning från stjärnan.</p><p>Vilken absolut magnitud har Canopus? (Svara med ett tal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\begin{gathered}M=4{,}74-2{,}5\\lg10\\,700\\\\\\approx-5{,}33\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-5{,}3\\).</p></div>",
+  "id": "5.358",
+  "miniräknare": true,
+  "geogebra": false,
+  "familj": "Magnitud och luminositet",
+  "svarstyp": "numeriskt",
+  "rättSvar": -5.333459444213025,
+  "tolerans": 0.1478345944421301,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "ledtrad": "<p>Ju större luminositet, desto lägre (mer negativ) absolut magnitud.</p>",
+  "traningsniva": 2,
+  "familjNyckel": "magnituder__magnitud_och_luminositet",
+  "svarFormat": "numeriskt"
+},
   {
     "kap": 5,
     "omr": "magnituder",
@@ -43653,32 +43653,34 @@ window.BANK2 = [
     "traningsniva": 1
   },
   {
-    "id": "5.314",
-    "kap": 5,
-    "omr": "farg_ljusstyrka",
-    "niva": "E",
-    "poang": "(2/0/0)",
-    "t": "<p>Var finns solen ungefär i HR-diagrammet?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"400\" viewBox=\"0 0 470 400\" role=\"img\" aria-label=\"HR-diagram med luminositet mot yttemperatur, där huvudserien, jättar, superjättar och vita dvärgar är markerade. Små prickar visar verkliga stjärnor.\"><title>HR-diagram med luminositet mot yttemperatur, där huvudserien, jättar, superjättar och vita dvärgar är markerade. Små prickar visar verkliga stjärnor.</title><rect x=\"1\" y=\"1\" width=\"468\" height=\"398\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"78\" y=\"48\" width=\"362\" height=\"294\" fill=\"#0f1b2d\"/><line x1=\"115.6\" y1=\"48\" x2=\"115.6\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"168.5\" y1=\"48\" x2=\"168.5\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"206.1\" y1=\"48\" x2=\"206.1\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"259.0\" y1=\"48\" x2=\"259.0\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"288.1\" y1=\"48\" x2=\"288.1\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"325.7\" y1=\"48\" x2=\"325.7\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"349.5\" y1=\"48\" x2=\"349.5\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"378.6\" y1=\"48\" x2=\"378.6\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"416.2\" y1=\"48\" x2=\"416.2\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"78\" y1=\"342.0\" x2=\"440\" y2=\"342.0\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"312.6\" x2=\"440\" y2=\"312.6\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"283.2\" x2=\"440\" y2=\"283.2\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"253.8\" x2=\"440\" y2=\"253.8\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"224.4\" x2=\"440\" y2=\"224.4\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"195.0\" x2=\"440\" y2=\"195.0\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"165.6\" x2=\"440\" y2=\"165.6\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"136.2\" x2=\"440\" y2=\"136.2\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"106.8\" x2=\"440\" y2=\"106.8\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"77.4\" x2=\"440\" y2=\"77.4\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"48.0\" x2=\"440\" y2=\"48.0\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><ellipse cx=\"337.1\" cy=\"80.3\" rx=\"75\" ry=\"16\" fill=\"#e9765a\" opacity=\".22\"/><ellipse cx=\"369.2\" cy=\"174.4\" rx=\"50\" ry=\"26\" fill=\"#f4b26b\" opacity=\".25\"/><ellipse cx=\"235.2\" cy=\"315.5\" rx=\"60\" ry=\"18\" fill=\"#c9d9f7\" opacity=\".22\"/><rect x=\"311.2\" y=\"52.8\" width=\"87.2\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"354.8\" y=\"63.8\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#7a3a22\">superjättar</text><rect x=\"373.6\" y=\"193.4\" width=\"51.2\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"399.2\" y=\"204.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#7a4a12\">jättar</text><rect x=\"188.0\" y=\"308.5\" width=\"94.4\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"235.2\" y=\"319.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#2c3e66\">vita dvärgar</text><polyline points=\"78.0,101.6 115.6,121.6 168.5,140.4 206.1,154.5 259.0,175.7 284.9,191.0 301.9,200.4 313.3,209.8 325.7,220.4 330.1,223.9 344.4,238.0 366.2,255.7 385.3,273.3 407.8,313.3\" fill=\"none\" stroke=\"#9fc4ff\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".13\"/><rect x=\"222.4\" y=\"238.0\" width=\"87.2\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"305.6\" y=\"249.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#1f4f8f\">huvudserien</text><circle cx=\"330.8\" cy=\"225.1\" r=\"1.8\" fill=\"#ffefca\" opacity=\".85\"/><circle cx=\"330.3\" cy=\"220.4\" r=\"1.9\" fill=\"#ffefcb\" opacity=\".85\"/><circle cx=\"342.9\" cy=\"235.7\" r=\"1.7\" fill=\"#ffe4ae\" opacity=\".85\"/><circle cx=\"340.9\" cy=\"235.7\" r=\"1.7\" fill=\"#ffe5b2\" opacity=\".85\"/><circle cx=\"347.4\" cy=\"241.6\" r=\"1.6\" fill=\"#ffe0a4\" opacity=\".85\"/><circle cx=\"366.2\" cy=\"256.9\" r=\"1.6\" fill=\"#ffc888\" opacity=\".85\"/><circle cx=\"377.3\" cy=\"266.3\" r=\"1.6\" fill=\"#ffba7a\" opacity=\".85\"/><circle cx=\"359.5\" cy=\"251.0\" r=\"1.6\" fill=\"#ffd091\" opacity=\".85\"/><circle cx=\"341.9\" cy=\"233.3\" r=\"1.7\" fill=\"#ffe5b0\" opacity=\".85\"/><circle cx=\"326.3\" cy=\"222.8\" r=\"1.8\" fill=\"#fff3d4\" opacity=\".85\"/><circle cx=\"341.9\" cy=\"238.0\" r=\"1.6\" fill=\"#ffe5b0\" opacity=\".85\"/><circle cx=\"339.5\" cy=\"231.0\" r=\"1.7\" fill=\"#ffe7b6\" opacity=\".85\"/><circle cx=\"334.7\" cy=\"222.8\" r=\"1.8\" fill=\"#ffebc0\" opacity=\".85\"/><circle cx=\"328.6\" cy=\"208.6\" r=\"2.0\" fill=\"#fff1cf\" opacity=\".85\"/><circle cx=\"330.1\" cy=\"218.0\" r=\"1.9\" fill=\"#fff0cb\" opacity=\".85\"/><circle cx=\"314.6\" cy=\"200.4\" r=\"2.1\" fill=\"#faf4e4\" opacity=\".85\"/><circle cx=\"293.1\" cy=\"194.5\" r=\"2.2\" fill=\"#edf2ff\" opacity=\".85\"/><circle cx=\"278.8\" cy=\"188.6\" r=\"2.3\" fill=\"#e1eaff\" opacity=\".85\"/><circle cx=\"259.8\" cy=\"185.1\" r=\"2.4\" fill=\"#cedfff\" opacity=\".85\"/><circle cx=\"264.3\" cy=\"175.7\" r=\"2.5\" fill=\"#d3e2ff\" opacity=\".85\"/><circle cx=\"255.1\" cy=\"175.7\" r=\"2.5\" fill=\"#ccdeff\" opacity=\".85\"/><circle cx=\"293.1\" cy=\"187.5\" r=\"2.3\" fill=\"#edf2ff\" opacity=\".85\"/><circle cx=\"280.2\" cy=\"191.0\" r=\"2.3\" fill=\"#e2ebff\" opacity=\".85\"/><circle cx=\"269.9\" cy=\"175.7\" r=\"2.5\" fill=\"#d8e5ff\" opacity=\".85\"/><circle cx=\"305.6\" cy=\"182.8\" r=\"2.4\" fill=\"#f5f4f1\" opacity=\".85\"/><circle cx=\"230.3\" cy=\"161.6\" r=\"2.7\" fill=\"#c7daff\" opacity=\".85\"/><circle cx=\"224.7\" cy=\"167.5\" r=\"2.6\" fill=\"#c6d9ff\" opacity=\".85\"/><circle cx=\"206.1\" cy=\"135.7\" r=\"3.1\" fill=\"#c2d6ff\" opacity=\".85\"/><circle cx=\"156.1\" cy=\"135.7\" r=\"3.1\" fill=\"#b2cbff\" opacity=\".85\"/><circle cx=\"137.8\" cy=\"127.5\" r=\"3.2\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"124.6\" cy=\"119.3\" r=\"3.3\" fill=\"#a4c1ff\" opacity=\".85\"/><circle cx=\"129.3\" cy=\"122.8\" r=\"3.2\" fill=\"#a7c3ff\" opacity=\".85\"/><circle cx=\"156.1\" cy=\"120.4\" r=\"3.3\" fill=\"#b2cbff\" opacity=\".85\"/><circle cx=\"139.4\" cy=\"108.7\" r=\"3.5\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"139.4\" cy=\"105.2\" r=\"3.5\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"120.0\" cy=\"106.3\" r=\"3.5\" fill=\"#a2c0ff\" opacity=\".85\"/><circle cx=\"410.7\" cy=\"323.9\" r=\"1.6\" fill=\"#ff925e\" opacity=\".85\"/><circle cx=\"408.2\" cy=\"327.4\" r=\"1.6\" fill=\"#ff9560\" opacity=\".85\"/><circle cx=\"405.7\" cy=\"322.7\" r=\"1.6\" fill=\"#ff9762\" opacity=\".85\"/><circle cx=\"409.8\" cy=\"308.6\" r=\"1.6\" fill=\"#ff935e\" opacity=\".85\"/><circle cx=\"394.2\" cy=\"292.1\" r=\"1.6\" fill=\"#ffa56a\" opacity=\".85\"/><circle cx=\"393.5\" cy=\"296.8\" r=\"1.6\" fill=\"#ffa66b\" opacity=\".85\"/><circle cx=\"388.8\" cy=\"289.8\" r=\"1.6\" fill=\"#ffac6f\" opacity=\".85\"/><circle cx=\"389.2\" cy=\"281.6\" r=\"1.6\" fill=\"#ffab6f\" opacity=\".85\"/><circle cx=\"404.9\" cy=\"306.2\" r=\"1.6\" fill=\"#ff9862\" opacity=\".85\"/><circle cx=\"392.4\" cy=\"291.0\" r=\"1.6\" fill=\"#ffa76c\" opacity=\".85\"/><circle cx=\"381.9\" cy=\"271.0\" r=\"1.6\" fill=\"#ffb475\" opacity=\".85\"/><circle cx=\"399.9\" cy=\"300.4\" r=\"1.6\" fill=\"#ff9e66\" opacity=\".85\"/><circle cx=\"399.9\" cy=\"296.8\" r=\"1.6\" fill=\"#ff9e66\" opacity=\".85\"/><circle cx=\"369.5\" cy=\"165.1\" r=\"2.7\" fill=\"#ffc484\" opacity=\".85\"/><circle cx=\"381.6\" cy=\"161.6\" r=\"2.7\" fill=\"#ffb575\" opacity=\".85\"/><circle cx=\"350.3\" cy=\"162.8\" r=\"2.7\" fill=\"#ffdd9f\" opacity=\".85\"/><circle cx=\"360.7\" cy=\"181.6\" r=\"2.4\" fill=\"#ffcf90\" opacity=\".85\"/><circle cx=\"392.4\" cy=\"162.8\" r=\"2.7\" fill=\"#ffa76c\" opacity=\".85\"/><circle cx=\"385.3\" cy=\"147.5\" r=\"2.9\" fill=\"#ffb072\" opacity=\".85\"/><circle cx=\"358.7\" cy=\"155.7\" r=\"2.8\" fill=\"#ffd192\" opacity=\".85\"/><circle cx=\"377.7\" cy=\"158.1\" r=\"2.8\" fill=\"#ffba79\" opacity=\".85\"/><circle cx=\"363.8\" cy=\"174.5\" r=\"2.5\" fill=\"#ffcb8b\" opacity=\".85\"/><circle cx=\"385.3\" cy=\"149.8\" r=\"2.9\" fill=\"#ffb072\" opacity=\".85\"/><circle cx=\"374.8\" cy=\"148.7\" r=\"2.9\" fill=\"#ffbd7d\" opacity=\".85\"/><circle cx=\"396.1\" cy=\"99.3\" r=\"3.6\" fill=\"#ffa269\" opacity=\".85\"/><circle cx=\"393.5\" cy=\"106.3\" r=\"3.5\" fill=\"#ffa66b\" opacity=\".85\"/><circle cx=\"394.2\" cy=\"79.3\" r=\"3.9\" fill=\"#ffa56a\" opacity=\".85\"/><circle cx=\"234.1\" cy=\"76.9\" r=\"3.9\" fill=\"#c8dbff\" opacity=\".85\"/><circle cx=\"280.2\" cy=\"69.9\" r=\"4.0\" fill=\"#e2ebff\" opacity=\".85\"/><circle cx=\"325.7\" cy=\"126.3\" r=\"3.2\" fill=\"#fff4d6\" opacity=\".85\"/><circle cx=\"298.3\" cy=\"102.8\" r=\"3.5\" fill=\"#f1f4fc\" opacity=\".85\"/><circle cx=\"318.3\" cy=\"115.7\" r=\"3.4\" fill=\"#fcf4e0\" opacity=\".85\"/><circle cx=\"323.5\" cy=\"87.5\" r=\"3.8\" fill=\"#fef4d9\" opacity=\".85\"/><circle cx=\"366.2\" cy=\"119.3\" r=\"3.3\" fill=\"#ffc888\" opacity=\".85\"/><circle cx=\"129.3\" cy=\"93.4\" r=\"3.7\" fill=\"#a7c3ff\" opacity=\".85\"/><circle cx=\"134.2\" cy=\"96.9\" r=\"3.6\" fill=\"#a9c4ff\" opacity=\".85\"/><circle cx=\"139.4\" cy=\"300.4\" r=\"1.6\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"292.4\" cy=\"321.5\" r=\"1.6\" fill=\"#edf2ff\" opacity=\".85\"/><circle cx=\"193.6\" cy=\"298.0\" r=\"1.6\" fill=\"#bed4ff\" opacity=\".85\"/><circle cx=\"321.4\" cy=\"335.6\" r=\"1.6\" fill=\"#fdf4db\" opacity=\".85\"/><circle cx=\"303.7\" cy=\"326.2\" r=\"1.6\" fill=\"#f4f4f4\" opacity=\".85\"/><circle cx=\"280.2\" cy=\"309.8\" r=\"1.6\" fill=\"#e2ebff\" opacity=\".85\"/><rect x=\"78\" y=\"48\" width=\"362\" height=\"294\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"115.6\" y1=\"342\" x2=\"115.6\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"115.6\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">30 000</text><line x1=\"168.5\" y1=\"342\" x2=\"168.5\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"168.5\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">20 000</text><line x1=\"259.0\" y1=\"342\" x2=\"259.0\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"259.0\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">10 000</text><line x1=\"325.7\" y1=\"342\" x2=\"325.7\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"325.7\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6 000</text><line x1=\"378.6\" y1=\"342\" x2=\"378.6\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"378.6\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4 000</text><line x1=\"416.2\" y1=\"342\" x2=\"416.2\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"416.2\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3 000</text><text x=\"259.0\" y=\"382.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">yttemperatur (K)</text><text x=\"71.0\" y=\"346.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0,0001</text><text x=\"71.0\" y=\"287.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0,01</text><text x=\"71.0\" y=\"228.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><text x=\"71.0\" y=\"169.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">100</text><text x=\"71.0\" y=\"110.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">10 000</text><text x=\"71.0\" y=\"52.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1 000 000</text><text x=\"18\" y=\"195.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#172b3a\" text-anchor=\"middle\" transform=\"rotate(-90 18 195.0)\">luminositet (L☉)</text><rect x=\"78.0\" y=\"28\" width=\"37.6\" height=\"16\" fill=\"#6d8fd6\" stroke=\"#fff\"/><text x=\"96.8\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">O</text><rect x=\"115.6\" y=\"28\" width=\"143.4\" height=\"16\" fill=\"#8fb3ef\" stroke=\"#fff\"/><text x=\"187.3\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><rect x=\"259.0\" y=\"28\" width=\"37.6\" height=\"16\" fill=\"#c9d9f7\" stroke=\"#fff\"/><text x=\"277.8\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><rect x=\"296.6\" y=\"28\" width=\"29.1\" height=\"16\" fill=\"#f5f0d9\" stroke=\"#fff\"/><text x=\"311.1\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">F</text><rect x=\"325.7\" y=\"28\" width=\"18.7\" height=\"16\" fill=\"#f7e08a\" stroke=\"#fff\"/><text x=\"335.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">G</text><rect x=\"344.4\" y=\"28\" width=\"44.4\" height=\"16\" fill=\"#f4b26b\" stroke=\"#fff\"/><text x=\"366.6\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K</text><rect x=\"388.8\" y=\"28\" width=\"51.2\" height=\"16\" fill=\"#e9765a\" stroke=\"#fff\"/><text x=\"414.4\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">M</text></svg></span><p class=\"fig-text\"><small>De små prickarna är verkliga stjärnor: närbelägna stjärnor och kända ljusstarka stjärnor.</small></p><p>A. På huvudserien<br>B. Bland de kallaste superjättarna<br>C. Bland vita dvärgar<br>D. Utanför diagrammet</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Solen omvandlar fortfarande väte till helium i kärnan och befinner sig därför i den långa stabila fas som kallas <strong>huvudserien</strong>.</p></li><li><p>I ett HR-diagram ligger den alltså på huvudserien, inte bland vita dvärgar eller superjättar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div></div>",
-    "familj": "Läsa HR-diagrammet",
-    "formaga": [
-      "begrepp"
-    ],
-    "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
-    "svarstyp": "val",
-    "rättSvar": "A",
-    "tolerans": null,
-    "självrättning": true,
-    "svarFormat": "val",
-    "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>",
-    "omrTidigare": [
-      "stjarnornas_utveckling"
-    ],
-    "familjTidigare": [
-      "Stjärnors utveckling och HR-diagram"
-    ],
-    "traningsniva": 1
-  },
+  "id": "5.314",
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "E",
+  "poang": "(2/0/0)",
+  "t": "<p>Var finns solen ungefär i HR-diagrammet?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"400\" viewBox=\"0 0 470 400\" role=\"img\" aria-label=\"HR-diagram med luminositet mot yttemperatur, där huvudserien, jättar, superjättar och vita dvärgar är markerade. Små prickar visar verkliga stjärnor.\"><title>HR-diagram med luminositet mot yttemperatur, där huvudserien, jättar, superjättar och vita dvärgar är markerade. Små prickar visar verkliga stjärnor.</title><rect x=\"1\" y=\"1\" width=\"468\" height=\"398\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"78\" y=\"48\" width=\"362\" height=\"294\" fill=\"#0f1b2d\"/><line x1=\"115.6\" y1=\"48\" x2=\"115.6\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"168.5\" y1=\"48\" x2=\"168.5\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"206.1\" y1=\"48\" x2=\"206.1\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"259.0\" y1=\"48\" x2=\"259.0\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"288.1\" y1=\"48\" x2=\"288.1\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"325.7\" y1=\"48\" x2=\"325.7\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"349.5\" y1=\"48\" x2=\"349.5\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"378.6\" y1=\"48\" x2=\"378.6\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"416.2\" y1=\"48\" x2=\"416.2\" y2=\"342\" stroke=\"#2b3c55\" stroke-width=\"1\"/><line x1=\"78\" y1=\"342.0\" x2=\"440\" y2=\"342.0\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"312.6\" x2=\"440\" y2=\"312.6\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"283.2\" x2=\"440\" y2=\"283.2\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"253.8\" x2=\"440\" y2=\"253.8\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"224.4\" x2=\"440\" y2=\"224.4\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"195.0\" x2=\"440\" y2=\"195.0\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"165.6\" x2=\"440\" y2=\"165.6\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"136.2\" x2=\"440\" y2=\"136.2\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"106.8\" x2=\"440\" y2=\"106.8\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"77.4\" x2=\"440\" y2=\"77.4\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><line x1=\"78\" y1=\"48.0\" x2=\"440\" y2=\"48.0\" stroke=\"#3a4e6b\" stroke-width=\"1\"/><ellipse cx=\"337.1\" cy=\"80.3\" rx=\"75\" ry=\"16\" fill=\"#e9765a\" opacity=\".22\"/><ellipse cx=\"369.2\" cy=\"174.4\" rx=\"50\" ry=\"26\" fill=\"#f4b26b\" opacity=\".25\"/><ellipse cx=\"235.2\" cy=\"315.5\" rx=\"60\" ry=\"18\" fill=\"#c9d9f7\" opacity=\".22\"/><rect x=\"311.2\" y=\"52.8\" width=\"87.2\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"354.8\" y=\"63.8\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#7a3a22\">superjättar</text><rect x=\"373.6\" y=\"193.4\" width=\"51.2\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"399.2\" y=\"204.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#7a4a12\">jättar</text><rect x=\"188.0\" y=\"308.5\" width=\"94.4\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"235.2\" y=\"319.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#2c3e66\">vita dvärgar</text><polyline points=\"78.0,101.6 115.6,121.6 168.5,140.4 206.1,154.5 259.0,175.7 284.9,191.0 301.9,200.4 313.3,209.8 325.7,220.4 330.1,223.9 344.4,238.0 366.2,255.7 385.3,273.3 407.8,313.3\" fill=\"none\" stroke=\"#9fc4ff\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\".13\"/><rect x=\"222.4\" y=\"238.0\" width=\"87.2\" height=\"16\" rx=\"3\" fill=\"#fff\"/><text x=\"305.6\" y=\"249.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#1f4f8f\">huvudserien</text><circle cx=\"330.8\" cy=\"225.1\" r=\"1.8\" fill=\"#ffefca\" opacity=\".85\"/><circle cx=\"330.3\" cy=\"220.4\" r=\"1.9\" fill=\"#ffefcb\" opacity=\".85\"/><circle cx=\"342.9\" cy=\"235.7\" r=\"1.7\" fill=\"#ffe4ae\" opacity=\".85\"/><circle cx=\"340.9\" cy=\"235.7\" r=\"1.7\" fill=\"#ffe5b2\" opacity=\".85\"/><circle cx=\"347.4\" cy=\"241.6\" r=\"1.6\" fill=\"#ffe0a4\" opacity=\".85\"/><circle cx=\"366.2\" cy=\"256.9\" r=\"1.6\" fill=\"#ffc888\" opacity=\".85\"/><circle cx=\"377.3\" cy=\"266.3\" r=\"1.6\" fill=\"#ffba7a\" opacity=\".85\"/><circle cx=\"359.5\" cy=\"251.0\" r=\"1.6\" fill=\"#ffd091\" opacity=\".85\"/><circle cx=\"341.9\" cy=\"233.3\" r=\"1.7\" fill=\"#ffe5b0\" opacity=\".85\"/><circle cx=\"326.3\" cy=\"222.8\" r=\"1.8\" fill=\"#fff3d4\" opacity=\".85\"/><circle cx=\"341.9\" cy=\"238.0\" r=\"1.6\" fill=\"#ffe5b0\" opacity=\".85\"/><circle cx=\"339.5\" cy=\"231.0\" r=\"1.7\" fill=\"#ffe7b6\" opacity=\".85\"/><circle cx=\"334.7\" cy=\"222.8\" r=\"1.8\" fill=\"#ffebc0\" opacity=\".85\"/><circle cx=\"328.6\" cy=\"208.6\" r=\"2.0\" fill=\"#fff1cf\" opacity=\".85\"/><circle cx=\"330.1\" cy=\"218.0\" r=\"1.9\" fill=\"#fff0cb\" opacity=\".85\"/><circle cx=\"314.6\" cy=\"200.4\" r=\"2.1\" fill=\"#faf4e4\" opacity=\".85\"/><circle cx=\"293.1\" cy=\"194.5\" r=\"2.2\" fill=\"#edf2ff\" opacity=\".85\"/><circle cx=\"278.8\" cy=\"188.6\" r=\"2.3\" fill=\"#e1eaff\" opacity=\".85\"/><circle cx=\"259.8\" cy=\"185.1\" r=\"2.4\" fill=\"#cedfff\" opacity=\".85\"/><circle cx=\"264.3\" cy=\"175.7\" r=\"2.5\" fill=\"#d3e2ff\" opacity=\".85\"/><circle cx=\"255.1\" cy=\"175.7\" r=\"2.5\" fill=\"#ccdeff\" opacity=\".85\"/><circle cx=\"293.1\" cy=\"187.5\" r=\"2.3\" fill=\"#edf2ff\" opacity=\".85\"/><circle cx=\"280.2\" cy=\"191.0\" r=\"2.3\" fill=\"#e2ebff\" opacity=\".85\"/><circle cx=\"269.9\" cy=\"175.7\" r=\"2.5\" fill=\"#d8e5ff\" opacity=\".85\"/><circle cx=\"305.6\" cy=\"182.8\" r=\"2.4\" fill=\"#f5f4f1\" opacity=\".85\"/><circle cx=\"230.3\" cy=\"161.6\" r=\"2.7\" fill=\"#c7daff\" opacity=\".85\"/><circle cx=\"224.7\" cy=\"167.5\" r=\"2.6\" fill=\"#c6d9ff\" opacity=\".85\"/><circle cx=\"206.1\" cy=\"135.7\" r=\"3.1\" fill=\"#c2d6ff\" opacity=\".85\"/><circle cx=\"156.1\" cy=\"135.7\" r=\"3.1\" fill=\"#b2cbff\" opacity=\".85\"/><circle cx=\"137.8\" cy=\"127.5\" r=\"3.2\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"124.6\" cy=\"119.3\" r=\"3.3\" fill=\"#a4c1ff\" opacity=\".85\"/><circle cx=\"129.3\" cy=\"122.8\" r=\"3.2\" fill=\"#a7c3ff\" opacity=\".85\"/><circle cx=\"156.1\" cy=\"120.4\" r=\"3.3\" fill=\"#b2cbff\" opacity=\".85\"/><circle cx=\"139.4\" cy=\"108.7\" r=\"3.5\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"139.4\" cy=\"105.2\" r=\"3.5\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"120.0\" cy=\"106.3\" r=\"3.5\" fill=\"#a2c0ff\" opacity=\".85\"/><circle cx=\"410.7\" cy=\"323.9\" r=\"1.6\" fill=\"#ff925e\" opacity=\".85\"/><circle cx=\"408.2\" cy=\"327.4\" r=\"1.6\" fill=\"#ff9560\" opacity=\".85\"/><circle cx=\"405.7\" cy=\"322.7\" r=\"1.6\" fill=\"#ff9762\" opacity=\".85\"/><circle cx=\"409.8\" cy=\"308.6\" r=\"1.6\" fill=\"#ff935e\" opacity=\".85\"/><circle cx=\"394.2\" cy=\"292.1\" r=\"1.6\" fill=\"#ffa56a\" opacity=\".85\"/><circle cx=\"393.5\" cy=\"296.8\" r=\"1.6\" fill=\"#ffa66b\" opacity=\".85\"/><circle cx=\"388.8\" cy=\"289.8\" r=\"1.6\" fill=\"#ffac6f\" opacity=\".85\"/><circle cx=\"389.2\" cy=\"281.6\" r=\"1.6\" fill=\"#ffab6f\" opacity=\".85\"/><circle cx=\"404.9\" cy=\"306.2\" r=\"1.6\" fill=\"#ff9862\" opacity=\".85\"/><circle cx=\"392.4\" cy=\"291.0\" r=\"1.6\" fill=\"#ffa76c\" opacity=\".85\"/><circle cx=\"381.9\" cy=\"271.0\" r=\"1.6\" fill=\"#ffb475\" opacity=\".85\"/><circle cx=\"399.9\" cy=\"300.4\" r=\"1.6\" fill=\"#ff9e66\" opacity=\".85\"/><circle cx=\"399.9\" cy=\"296.8\" r=\"1.6\" fill=\"#ff9e66\" opacity=\".85\"/><circle cx=\"369.5\" cy=\"165.1\" r=\"2.7\" fill=\"#ffc484\" opacity=\".85\"/><circle cx=\"381.6\" cy=\"161.6\" r=\"2.7\" fill=\"#ffb575\" opacity=\".85\"/><circle cx=\"350.3\" cy=\"162.8\" r=\"2.7\" fill=\"#ffdd9f\" opacity=\".85\"/><circle cx=\"360.7\" cy=\"181.6\" r=\"2.4\" fill=\"#ffcf90\" opacity=\".85\"/><circle cx=\"392.4\" cy=\"162.8\" r=\"2.7\" fill=\"#ffa76c\" opacity=\".85\"/><circle cx=\"385.3\" cy=\"147.5\" r=\"2.9\" fill=\"#ffb072\" opacity=\".85\"/><circle cx=\"358.7\" cy=\"155.7\" r=\"2.8\" fill=\"#ffd192\" opacity=\".85\"/><circle cx=\"377.7\" cy=\"158.1\" r=\"2.8\" fill=\"#ffba79\" opacity=\".85\"/><circle cx=\"363.8\" cy=\"174.5\" r=\"2.5\" fill=\"#ffcb8b\" opacity=\".85\"/><circle cx=\"385.3\" cy=\"149.8\" r=\"2.9\" fill=\"#ffb072\" opacity=\".85\"/><circle cx=\"374.8\" cy=\"148.7\" r=\"2.9\" fill=\"#ffbd7d\" opacity=\".85\"/><circle cx=\"396.1\" cy=\"99.3\" r=\"3.6\" fill=\"#ffa269\" opacity=\".85\"/><circle cx=\"393.5\" cy=\"106.3\" r=\"3.5\" fill=\"#ffa66b\" opacity=\".85\"/><circle cx=\"394.2\" cy=\"79.3\" r=\"3.9\" fill=\"#ffa56a\" opacity=\".85\"/><circle cx=\"234.1\" cy=\"76.9\" r=\"3.9\" fill=\"#c8dbff\" opacity=\".85\"/><circle cx=\"280.2\" cy=\"69.9\" r=\"4.0\" fill=\"#e2ebff\" opacity=\".85\"/><circle cx=\"325.7\" cy=\"126.3\" r=\"3.2\" fill=\"#fff4d6\" opacity=\".85\"/><circle cx=\"298.3\" cy=\"102.8\" r=\"3.5\" fill=\"#f1f4fc\" opacity=\".85\"/><circle cx=\"318.3\" cy=\"115.7\" r=\"3.4\" fill=\"#fcf4e0\" opacity=\".85\"/><circle cx=\"323.5\" cy=\"87.5\" r=\"3.8\" fill=\"#fef4d9\" opacity=\".85\"/><circle cx=\"366.2\" cy=\"119.3\" r=\"3.3\" fill=\"#ffc888\" opacity=\".85\"/><circle cx=\"129.3\" cy=\"93.4\" r=\"3.7\" fill=\"#a7c3ff\" opacity=\".85\"/><circle cx=\"134.2\" cy=\"96.9\" r=\"3.6\" fill=\"#a9c4ff\" opacity=\".85\"/><circle cx=\"139.4\" cy=\"300.4\" r=\"1.6\" fill=\"#abc6ff\" opacity=\".85\"/><circle cx=\"292.4\" cy=\"321.5\" r=\"1.6\" fill=\"#edf2ff\" opacity=\".85\"/><circle cx=\"193.6\" cy=\"298.0\" r=\"1.6\" fill=\"#bed4ff\" opacity=\".85\"/><circle cx=\"321.4\" cy=\"335.6\" r=\"1.6\" fill=\"#fdf4db\" opacity=\".85\"/><circle cx=\"303.7\" cy=\"326.2\" r=\"1.6\" fill=\"#f4f4f4\" opacity=\".85\"/><circle cx=\"280.2\" cy=\"309.8\" r=\"1.6\" fill=\"#e2ebff\" opacity=\".85\"/><rect x=\"78\" y=\"48\" width=\"362\" height=\"294\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"115.6\" y1=\"342\" x2=\"115.6\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"115.6\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">30 000</text><line x1=\"168.5\" y1=\"342\" x2=\"168.5\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"168.5\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">20 000</text><line x1=\"259.0\" y1=\"342\" x2=\"259.0\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"259.0\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">10 000</text><line x1=\"325.7\" y1=\"342\" x2=\"325.7\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"325.7\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6 000</text><line x1=\"378.6\" y1=\"342\" x2=\"378.6\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"378.6\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4 000</text><line x1=\"416.2\" y1=\"342\" x2=\"416.2\" y2=\"347\" stroke=\"#172b3a\"/><text x=\"416.2\" y=\"361.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3 000</text><text x=\"259.0\" y=\"382.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">yttemperatur (K)</text><text x=\"71.0\" y=\"346.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0,0001</text><text x=\"71.0\" y=\"287.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0,01</text><text x=\"71.0\" y=\"228.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><text x=\"71.0\" y=\"169.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">100</text><text x=\"71.0\" y=\"110.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">10 000</text><text x=\"71.0\" y=\"52.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1 000 000</text><text x=\"18\" y=\"195.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" font-weight=\"bold\" fill=\"#172b3a\" text-anchor=\"middle\" transform=\"rotate(-90 18 195.0)\">luminositet (L☉)</text><rect x=\"78.0\" y=\"28\" width=\"37.6\" height=\"16\" fill=\"#6d8fd6\" stroke=\"#fff\"/><text x=\"96.8\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">O</text><rect x=\"115.6\" y=\"28\" width=\"143.4\" height=\"16\" fill=\"#8fb3ef\" stroke=\"#fff\"/><text x=\"187.3\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><rect x=\"259.0\" y=\"28\" width=\"37.6\" height=\"16\" fill=\"#c9d9f7\" stroke=\"#fff\"/><text x=\"277.8\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><rect x=\"296.6\" y=\"28\" width=\"29.1\" height=\"16\" fill=\"#f5f0d9\" stroke=\"#fff\"/><text x=\"311.1\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">F</text><rect x=\"325.7\" y=\"28\" width=\"18.7\" height=\"16\" fill=\"#f7e08a\" stroke=\"#fff\"/><text x=\"335.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">G</text><rect x=\"344.4\" y=\"28\" width=\"44.4\" height=\"16\" fill=\"#f4b26b\" stroke=\"#fff\"/><text x=\"366.6\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">K</text><rect x=\"388.8\" y=\"28\" width=\"51.2\" height=\"16\" fill=\"#e9765a\" stroke=\"#fff\"/><text x=\"414.4\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">M</text></svg></span><p class=\"fig-text\"><small>De små prickarna är verkliga stjärnor: närbelägna stjärnor och kända ljusstarka stjärnor.</small></p><p>A. På huvudserien<br>B. Bland de kallaste superjättarna<br>C. Bland vita dvärgar<br>D. Utanför diagrammet</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Solen omvandlar fortfarande väte till helium i kärnan och befinner sig därför i den långa stabila fas som kallas <strong>huvudserien</strong>.</p></li><li><p>I ett HR-diagram ligger den alltså på huvudserien, inte bland vita dvärgar eller superjättar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div></div>",
+  "familj": "Läsa HR-diagrammet",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
+  "svarstyp": "val",
+  "rättSvar": "A",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "val",
+  "ledtrad": "<p>Läs HR-diagrammet med temperatur åt vänster–höger och luminositet uppåt. Placeringen visar om stjärnan ligger på huvudserien, är jätte eller vit dvärg och ger ledtråd om utvecklingsstadiet.</p>",
+  "omrTidigare": [
+    "stjarnornas_utveckling"
+  ],
+  "familjTidigare": [
+    "Stjärnors utveckling och HR-diagram"
+  ],
+  "traningsniva": 1,
+  "miniräknare": true,
+  "geogebra": false
+},
   {
     "id": "5.315",
     "kap": 5,
@@ -44826,35 +44828,35 @@ window.BANK2 = [
     ]
   },
   {
-    "id": "5.323",
-    "kap": 5,
-    "omr": "farg_ljusstyrka",
-    "niva": "C",
-    "poang": "(1/2/0)",
-    "t": "<p>Två stjärnor har samma yttemperatur, men stjärna A har hundra gånger större luminositet än stjärna B.</p><div class=\"fig smal\"><svg width=\"460\" height=\"330\" viewBox=\"0 0 460 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Schematiskt HR-diagram\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"25\" width=\"360\" height=\"260\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" rx=\"4\"/><line x1=\"107.4\" y1=\"285\" x2=\"107.4\" y2=\"290\" stroke=\"#24262b\"/><text x=\"107\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">30 000</text><line x1=\"250.0\" y1=\"285\" x2=\"250.0\" y2=\"290\" stroke=\"#24262b\"/><text x=\"250\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">10 000</text><line x1=\"316.3\" y1=\"285\" x2=\"316.3\" y2=\"290\" stroke=\"#24262b\"/><text x=\"316\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">6 000</text><line x1=\"406.3\" y1=\"285\" x2=\"406.3\" y2=\"290\" stroke=\"#24262b\"/><text x=\"406\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">3 000</text><text x=\"250\" y=\"325\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">yttemperatur (K)</text><line x1=\"65\" y1=\"261.4\" x2=\"70\" y2=\"261.4\" stroke=\"#24262b\"/><text x=\"62\" y=\"265.4\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">-4</tspan></text><line x1=\"65\" y1=\"214.1\" x2=\"70\" y2=\"214.1\" stroke=\"#24262b\"/><text x=\"62\" y=\"218.1\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">-2</tspan></text><line x1=\"65\" y1=\"166.8\" x2=\"70\" y2=\"166.8\" stroke=\"#24262b\"/><text x=\"62\" y=\"170.8\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">0</tspan></text><line x1=\"65\" y1=\"119.5\" x2=\"70\" y2=\"119.5\" stroke=\"#24262b\"/><text x=\"62\" y=\"123.5\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">2</tspan></text><line x1=\"65\" y1=\"72.3\" x2=\"70\" y2=\"72.3\" stroke=\"#24262b\"/><text x=\"62\" y=\"76.3\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">4</tspan></text><line x1=\"65\" y1=\"25.0\" x2=\"70\" y2=\"25.0\" stroke=\"#24262b\"/><text x=\"62\" y=\"29.0\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">6</tspan></text><text x=\"22\" y=\"155.0\" font-family=\"Arial\" font-size=\"12\" text-anchor=\"middle\" transform=\"rotate(-90 22 155.0)\">luminositet (L☉)</text><polyline points=\"87.3,41.5 160.0,72.3 250.0,129.0 296.3,150.3 320.7,166.8 353.7,183.3 386.3,207.0 415.3,230.6\" fill=\"none\" stroke=\"#60a5fa\" stroke-width=\"16\" stroke-linecap=\"round\" opacity=\"0.45\"/><text x=\"373\" y=\"216\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">huvudserien</text><ellipse cx=\"359.6\" cy=\"115.4\" rx=\"45\" ry=\"20\" fill=\"#f97316\" opacity=\"0.55\"/><text x=\"360\" y=\"155\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">röda jättar</text><ellipse cx=\"273.2\" cy=\"41.5\" rx=\"125\" ry=\"13\" fill=\"#fde68a\" opacity=\"0.45\"/><text x=\"273\" y=\"26\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">superjättar</text><ellipse cx=\"206.3\" cy=\"226.4\" rx=\"42\" ry=\"14\" fill=\"#9ca3af\" opacity=\"0.45\"/><text x=\"206\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">vita dvärgar</text></svg></div><p>Hur många gånger större radie har A? (Svara med ett tal.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">När temperaturen är samma gäller \\(L\\propto R^2\\).</p></li><li><div class=\"facit-matte\">\\[\\frac{R_A}{R_B}=\\sqrt{\\frac{L_A}{L_B}}=\\sqrt{100}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A har 10 gånger större radie.</p></div>",
-    "familj": "Läsa HR-diagrammet",
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
-    "svarstyp": "numeriskt",
-    "rättSvar": 10,
-    "tolerans": 0,
-    "självrättning": true,
-    "svarFormat": "numeriskt",
-    "miniräknare": true,
-    "geogebra": false,
-    "ledtrad": "<p>När temperaturen är lika strålar varje kvadratmeter av ytan lika mycket. Då beror luminositeten bara på ytans storlek, som är proportionell mot \\(R^2\\).</p>",
-    "omrTidigare": [
-      "stjarnornas_utveckling"
-    ],
-    "familjTidigare": [
-      "Stjärnors utveckling och HR-diagram"
-    ],
-    "traningsniva": 3
-  },
+  "id": "5.323",
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "C",
+  "poang": "(1/2/0)",
+  "t": "<p>Två stjärnor har samma yttemperatur, men stjärna A har hundra gånger större luminositet än stjärna B.</p><div class=\"fig smal\"><svg width=\"460\" height=\"330\" viewBox=\"0 0 460 330\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Schematiskt HR-diagram\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#e2e8f0\"/><rect x=\"70\" y=\"25\" width=\"360\" height=\"260\" fill=\"#f8fafc\" stroke=\"#cbd5e1\" rx=\"4\"/><line x1=\"107.4\" y1=\"285\" x2=\"107.4\" y2=\"290\" stroke=\"#24262b\"/><text x=\"107\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">30 000</text><line x1=\"250.0\" y1=\"285\" x2=\"250.0\" y2=\"290\" stroke=\"#24262b\"/><text x=\"250\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">10 000</text><line x1=\"316.3\" y1=\"285\" x2=\"316.3\" y2=\"290\" stroke=\"#24262b\"/><text x=\"316\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">6 000</text><line x1=\"406.3\" y1=\"285\" x2=\"406.3\" y2=\"290\" stroke=\"#24262b\"/><text x=\"406\" y=\"307\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"11\">3 000</text><text x=\"250\" y=\"325\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">yttemperatur (K)</text><line x1=\"65\" y1=\"261.4\" x2=\"70\" y2=\"261.4\" stroke=\"#24262b\"/><text x=\"62\" y=\"265.4\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">-4</tspan></text><line x1=\"65\" y1=\"214.1\" x2=\"70\" y2=\"214.1\" stroke=\"#24262b\"/><text x=\"62\" y=\"218.1\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">-2</tspan></text><line x1=\"65\" y1=\"166.8\" x2=\"70\" y2=\"166.8\" stroke=\"#24262b\"/><text x=\"62\" y=\"170.8\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">0</tspan></text><line x1=\"65\" y1=\"119.5\" x2=\"70\" y2=\"119.5\" stroke=\"#24262b\"/><text x=\"62\" y=\"123.5\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">2</tspan></text><line x1=\"65\" y1=\"72.3\" x2=\"70\" y2=\"72.3\" stroke=\"#24262b\"/><text x=\"62\" y=\"76.3\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">4</tspan></text><line x1=\"65\" y1=\"25.0\" x2=\"70\" y2=\"25.0\" stroke=\"#24262b\"/><text x=\"62\" y=\"29.0\" font-family=\"Arial\" font-size=\"11\" text-anchor=\"end\">10<tspan dy=\"-5\" font-size=\"8\">6</tspan></text><text x=\"22\" y=\"155.0\" font-family=\"Arial\" font-size=\"12\" text-anchor=\"middle\" transform=\"rotate(-90 22 155.0)\">luminositet (L☉)</text><polyline points=\"87.3,41.5 160.0,72.3 250.0,129.0 296.3,150.3 320.7,166.8 353.7,183.3 386.3,207.0 415.3,230.6\" fill=\"none\" stroke=\"#60a5fa\" stroke-width=\"16\" stroke-linecap=\"round\" opacity=\"0.45\"/><text x=\"373\" y=\"260\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">huvudserien</text><ellipse cx=\"359.6\" cy=\"115.4\" rx=\"45\" ry=\"20\" fill=\"#f97316\" opacity=\"0.55\"/><text x=\"360\" y=\"155\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">röda jättar</text><ellipse cx=\"273.2\" cy=\"41.5\" rx=\"125\" ry=\"13\" fill=\"#fde68a\" opacity=\"0.45\"/><text x=\"273\" y=\"77\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">superjättar</text><ellipse cx=\"206.3\" cy=\"226.4\" rx=\"42\" ry=\"14\" fill=\"#9ca3af\" opacity=\"0.45\"/><text x=\"206\" y=\"262\" text-anchor=\"middle\" font-family=\"Arial\" font-size=\"12\">vita dvärgar</text></svg></div><p>Hur många gånger större radie har A? (Svara med ett tal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">När temperaturen är samma gäller \\(L\\propto R^2\\).</p></li><li><div class=\"facit-matte\">\\[\\frac{R_A}{R_B}=\\sqrt{\\frac{L_A}{L_B}}=\\sqrt{100}=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A har 10 gånger större radie.</p></div>",
+  "familj": "Läsa HR-diagrammet",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
+  "svarstyp": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 0,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "miniräknare": true,
+  "geogebra": false,
+  "ledtrad": "<p>När temperaturen är lika strålar varje kvadratmeter av ytan lika mycket. Då beror luminositeten bara på ytans storlek, som är proportionell mot \\(R^2\\).</p>",
+  "omrTidigare": [
+    "stjarnornas_utveckling"
+  ],
+  "familjTidigare": [
+    "Stjärnors utveckling och HR-diagram"
+  ],
+  "traningsniva": 3
+},
   {
     "id": "5.324",
     "kap": 5,
@@ -44885,209 +44887,209 @@ window.BANK2 = [
     "traningsniva": 1
   },
   {
-    "kap": 5,
-    "omr": "farg_ljusstyrka",
-    "niva": "C",
-    "typ": "luminositet och magnitud ur radie och temperatur (Alkaid)",
-    "poang": "(1/1/0)",
-    "t": "<p>Stjärnan Alkaid i Karlavagnen har radien 2,37·10<sup>9</sup> m och yttemperaturen 15 500 K.</p><p>Magnituderna gäller all strålning från stjärnan.</p><ol type=\"a\"><li>Beräkna stjärnans luminositet. (Svara i W.)</li><li>Bestäm stjärnans absoluta magnitud. (Svara med ett tal.)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L=4\\pi R^2\\sigma T^4\\]</div></li><li><div class=\"facit-matte\">\\[L=4\\pi\\cdot(2{,}37\\cdot10^9)^2\\cdot5{,}67\\cdot10^{-8}\\cdot15\\,500^4\\approx2{,}31\\cdot10^{29}\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}3\\cdot10^{29}\\) W.</p></div><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\frac{2{,}31\\cdot10^{29}}{3{,}83\\cdot10^{26}}\\approx603\\]</div></li><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg603\\approx-2{,}21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-2{,}2\\).</p></div>",
-    "id": "5.360",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Luminositet, radie och temperatur",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      2.310176093688612e+29,
-      -2.2116828906073813
-    ],
-    "tolerans": [
-      2.7722113124263344e+27,
-      0.12314992996577286
-    ],
-    "självrättning": [
-      true,
-      true
-    ],
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Använd Stefan–Boltzmanns lag för hela stjärnans yta. Jämför sedan med solens luminositet.</p>",
-    "traningsniva": 3,
-    "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarEnhet": [
-      "W",
-      null
-    ],
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Beräkna stjärnans luminositet. (Svara i W.)",
-        "t": "<p>Stjärnan Alkaid i Karlavagnen har radien 2,37·10<sup>9</sup> m och yttemperaturen 15 500 K.</p><p>Magnituderna gäller all strålning från stjärnan.</p><div class=\"spel-en-del\"><p>Beräkna stjärnans luminositet. (Svara i W.)</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L=4\\pi R^2\\sigma T^4\\]</div></li><li><div class=\"facit-matte\">\\[L=4\\pi\\cdot(2{,}37\\cdot10^9)^2\\cdot5{,}67\\cdot10^{-8}\\cdot15\\,500^4\\approx2{,}31\\cdot10^{29}\\ \\mathrm W\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}3\\cdot10^{29}\\) W.</p></div>",
-        "ledtrad": "<p>Hela ytan strålar: \\(4\\pi R^2\\) gånger strålningen per kvadratmeter.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2
-      },
-      {
-        "etikett": "b",
-        "fraga": "Bestäm stjärnans absoluta magnitud. (Svara med ett tal.)",
-        "t": "<p>Stjärnan Alkaid i Karlavagnen har radien 2,37·10<sup>9</sup> m och yttemperaturen 15 500 K.</p><p>Magnituderna gäller all strålning från stjärnan.</p><p>Luminositeten är 2,31·10<sup>29</sup> W.</p><div class=\"spel-en-del\"><p>Bestäm stjärnans absoluta magnitud. (Svara med ett tal.)</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\frac{2{,}31\\cdot10^{29}}{3{,}83\\cdot10^{26}}\\approx603\\]</div></li><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg603\\approx-2{,}21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-2{,}2\\).</p></div>",
-        "ledtrad": "<p>Dela med solens luminositet och använd sambandet mellan magnitud och luminositet.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3
-      }
-    ]
-  },
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "C",
+  "typ": "luminositet och magnitud ur radie och temperatur (Alkaid)",
+  "poang": "(1/1/0)",
+  "t": "<p>Stjärnan Alkaid i Karlavagnen har radien 2,37·10<sup>9</sup> m och yttemperaturen 15 500 K.</p><p>Magnituderna gäller all strålning från stjärnan.</p><ol type=\"a\"><li>Beräkna stjärnans luminositet. (Svara i W.)</li><li>Bestäm stjärnans absoluta magnitud. (Svara med ett tal.)</li></ol>",
+  "s": "<div class=\"facit-v2\"><p>Hela stjärnans yta strålar. För en klotformad stjärna är ytan 4πR². Stefan–Boltzmanns lag ger den totala effekten:</p><div class=\"facit-matte\">\\[L=4\\pi R^2\\sigma T^4\\]</div><div class=\"facit-matte\">\\[4\\pi R^2=4\\pi(2{,}37\\cdot10^9)^2\\]</div><div class=\"facit-matte\">\\[\\approx7{,}0584\\cdot10^{19}\\ \\mathrm{m^2}\\]</div><div class=\"facit-matte\">\\[\\sigma T^4=5{,}67\\cdot10^{-8}\\cdot15500^4\\]</div><div class=\"facit-matte\">\\[\\approx3{,}2727\\cdot10^9\\ \\mathrm{W/m^2}\\]</div><p>Multiplicera ytan med effekten per kvadratmeter. Behåll extra siffror i mellanleden.</p><div class=\"facit-matte\">\\[L\\approx2{,}31\\cdot10^{29}\\ \\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}3\\cdot10^{29}\\) W.</p></div><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\frac{2{,}31\\cdot10^{29}}{3{,}83\\cdot10^{26}}\\approx603\\]</div></li><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg603\\approx-2{,}21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-2{,}2\\).</p></div>",
+  "id": "5.360",
+  "miniräknare": true,
+  "geogebra": false,
+  "familj": "Luminositet, radie och temperatur",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    2.310176093688612e+29,
+    -2.2116828906073813
+  ],
+  "tolerans": [
+    2.7722113124263344e+27,
+    0.12314992996577286
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Använd Stefan–Boltzmanns lag för hela stjärnans yta. Jämför sedan med solens luminositet.</p>",
+  "traningsniva": 3,
+  "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "W",
+    null
+  ],
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "Beräkna stjärnans luminositet. (Svara i W.)",
+      "t": "<p>Stjärnan Alkaid har radien 2,37·10<sup>9</sup> m och yttemperaturen 15 500 K.</p><p>Beräkna stjärnans luminositet. (Svara i W.)</p>",
+      "s": "<div class=\"facit-v2\"><p>Hela stjärnans yta strålar. För en klotformad stjärna är ytan 4πR². Stefan–Boltzmanns lag ger den totala effekten:</p><div class=\"facit-matte\">\\[L=4\\pi R^2\\sigma T^4\\]</div><div class=\"facit-matte\">\\[4\\pi R^2=4\\pi(2{,}37\\cdot10^9)^2\\]</div><div class=\"facit-matte\">\\[\\approx7{,}0584\\cdot10^{19}\\ \\mathrm{m^2}\\]</div><div class=\"facit-matte\">\\[\\sigma T^4=5{,}67\\cdot10^{-8}\\cdot15500^4\\]</div><div class=\"facit-matte\">\\[\\approx3{,}2727\\cdot10^9\\ \\mathrm{W/m^2}\\]</div><p>Multiplicera ytan med effekten per kvadratmeter. Behåll extra siffror i mellanleden.</p><div class=\"facit-matte\">\\[L\\approx2{,}31\\cdot10^{29}\\ \\mathrm W\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(2{,}3\\cdot10^{29}\\) W.</p></div>",
+      "ledtrad": "<p>Hela ytan strålar: \\(4\\pi R^2\\) gånger strålningen per kvadratmeter.</p>",
+      "niva": "E",
+      "poang": "(1/0/0)",
+      "traningsniva": 2
+    },
+    {
+      "etikett": "b",
+      "fraga": "Bestäm stjärnans absoluta magnitud. (Svara med ett tal.)",
+      "t": "<p>Alkaid har luminositeten 2,31·10<sup>29</sup> W.</p><p>Magnituderna gäller all strålning från stjärnan.</p><p>Bestäm stjärnans absoluta magnitud. (Svara med ett tal.)</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\frac{2{,}31\\cdot10^{29}}{3{,}83\\cdot10^{26}}\\approx603\\]</div></li><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg603\\approx-2{,}21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-2{,}2\\).</p></div>",
+      "ledtrad": "<p>Dela med solens luminositet och använd sambandet mellan magnitud och luminositet.</p>",
+      "niva": "C",
+      "poang": "(0/1/0)",
+      "traningsniva": 3
+    }
+  ]
+},
   {
-    "kap": 5,
-    "omr": "farg_ljusstyrka",
-    "niva": "C",
-    "typ": "luminositet och radie ur magnitud och temperatur (Bellatrix)",
-    "poang": "(1/1/0)",
-    "t": "<p>Den blåvita stjärnan Bellatrix i Orion har den absoluta magnituden −2,8 och yttemperaturen 22 000 K.</p><p>Magnituderna gäller all strålning från stjärnan.</p><ol type=\"a\"><li>Hur många gånger större luminositet än solen har Bellatrix? (Svara med ett tal.)</li><li>Hur många gånger större radie än solen har Bellatrix? (Svara med ett tal.)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=10^{0{,}4(4{,}74-(-2{,}8))}\\approx1040\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1040 gånger.</p></div><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\left(\\frac{R}{R_\\odot}\\right)^2\\left(\\frac{T}{T_\\odot}\\right)^4\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{R}{R_\\odot}=\\sqrt{1038}\\cdot\\left(\\frac{5772}{22\\,000}\\right)^2\\approx2{,}2\\]</div></li><li><p>Bellatrix är mycket ljusstarkare än solen men bara ett par gånger större, eftersom den är så het.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2,2 gånger.</p></div>",
-    "id": "5.361",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Luminositet, radie och temperatur",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      1037.5284158180127,
-      2.2172123205226906
-    ],
-    "tolerans": [
-      106.60283336518886,
-      0.16646222107849729
-    ],
-    "självrättning": [
-      true,
-      true
-    ],
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Magnituden ger luminositeten jämfört med solen. Stefan–Boltzmanns lag i solenheter ger sedan radien.</p>",
-    "traningsniva": 3,
-    "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarEnhet": [
-      null,
-      null
-    ],
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur många gånger större luminositet än solen har Bellatrix? (Svara med ett tal.)",
-        "t": "<p>Den blåvita stjärnan Bellatrix i Orion har den absoluta magnituden −2,8 och yttemperaturen 22 000 K.</p><p>Magnituderna gäller all strålning från stjärnan.</p><div class=\"spel-en-del\"><p>Hur många gånger större luminositet än solen har Bellatrix? (Svara med ett tal.)</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=10^{0{,}4(4{,}74-(-2{,}8))}\\approx1040\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1040 gånger.</p></div>",
-        "ledtrad": "<p>Jämför med solens absoluta magnitud.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2
-      },
-      {
-        "etikett": "b",
-        "fraga": "Hur många gånger större radie än solen har Bellatrix? (Svara med ett tal.)",
-        "t": "<p>Den blåvita stjärnan Bellatrix i Orion har den absoluta magnituden −2,8 och yttemperaturen 22 000 K.</p><p>Magnituderna gäller all strålning från stjärnan.</p><p>Luminositeten är cirka 1040 gånger solens.</p><div class=\"spel-en-del\"><p>Hur många gånger större radie än solen har Bellatrix? (Svara med ett tal.)</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\left(\\frac{R}{R_\\odot}\\right)^2\\left(\\frac{T}{T_\\odot}\\right)^4\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{R}{R_\\odot}=\\sqrt{1038}\\cdot\\left(\\frac{5772}{22\\,000}\\right)^2\\approx2{,}2\\]</div></li><li><p>Bellatrix är mycket ljusstarkare än solen men bara ett par gånger större, eftersom den är så het.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2,2 gånger.</p></div>",
-        "ledtrad": "<p>Använd \\(L\\propto R^2T^4\\) i solenheter.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3
-      }
-    ]
-  },
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "C",
+  "typ": "luminositet och radie ur magnitud och temperatur (Bellatrix)",
+  "poang": "(1/1/0)",
+  "t": "<p>Den blåvita stjärnan Bellatrix i Orion har den absoluta magnituden −2,8 och yttemperaturen 22 000 K.</p><p>Magnituderna gäller all strålning från stjärnan.</p><ol type=\"a\"><li>Hur många gånger större luminositet än solen har Bellatrix? (Svara med ett tal.)</li><li>Hur många gånger större radie än solen har Bellatrix? (Svara med ett tal.)</li></ol>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=10^{0{,}4(4{,}74-(-2{,}8))}\\approx1040\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1040 gånger.</p></div><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\left(\\frac{R}{R_\\odot}\\right)^2\\left(\\frac{T}{T_\\odot}\\right)^4\\]</div></li><li><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{R}{R_\\odot}=\\sqrt{1040}\\cdot\\left(\\frac{5772}{22\\,000}\\right)^2\\\\\\approx2{,}2\\end{gathered}\\]</div></li><li><p>Bellatrix är mycket ljusstarkare än solen men bara ett par gånger större, eftersom den är så het.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2,2 gånger.</p></div>",
+  "id": "5.361",
+  "miniräknare": true,
+  "geogebra": false,
+  "familj": "Luminositet, radie och temperatur",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1037.5284158180127,
+    2.2172123205226906
+  ],
+  "tolerans": [
+    106.60283336518886,
+    0.16646222107849729
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Magnituden ger luminositeten jämfört med solen. Stefan–Boltzmanns lag i solenheter ger sedan radien.</p>",
+  "traningsniva": 3,
+  "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    null,
+    null
+  ],
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "Hur många gånger större luminositet än solen har Bellatrix? (Svara med ett tal.)",
+      "t": "<p>Stjärnan Bellatrix har den absoluta magnituden −2,8.</p><p>Magnituderna gäller all strålning från stjärnan.</p><p>Hur många gånger större luminositet än solen har Bellatrix? (Svara med ett tal.)</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=10^{0{,}4(4{,}74-(-2{,}8))}\\approx1040\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1040 gånger.</p></div>",
+      "ledtrad": "<p>Jämför med solens absoluta magnitud.</p>",
+      "niva": "E",
+      "poang": "(1/0/0)",
+      "traningsniva": 2
+    },
+    {
+      "etikett": "b",
+      "fraga": "Hur många gånger större radie än solen har Bellatrix? (Svara med ett tal.)",
+      "t": "<p>Bellatrix har yttemperaturen 22 000 K och luminositeten cirka 1040 gånger solens.</p><p>Hur många gånger större radie än solen har Bellatrix? (Svara med ett tal.)</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\left(\\frac{R}{R_\\odot}\\right)^2\\left(\\frac{T}{T_\\odot}\\right)^4\\]</div></li><li><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{R}{R_\\odot}=\\sqrt{1040}\\cdot\\left(\\frac{5772}{22\\,000}\\right)^2\\\\\\approx2{,}2\\end{gathered}\\]</div></li><li><p>Bellatrix är mycket ljusstarkare än solen men bara ett par gånger större, eftersom den är så het.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2,2 gånger.</p></div>",
+      "ledtrad": "<p>Använd \\(L\\propto R^2T^4\\) i solenheter.</p>",
+      "niva": "C",
+      "poang": "(0/1/0)",
+      "traningsniva": 3
+    }
+  ]
+},
   {
-    "kap": 5,
-    "omr": "farg_ljusstyrka",
-    "niva": "C",
-    "typ": "temperatur och magnitud ur luminositet och radie (Aldebaran)",
-    "poang": "(1/1/0)",
-    "t": "<p>Den orange jättestjärnan Aldebaran har 440 gånger solens luminositet och 44 gånger solens radie.</p><p>Magnituderna gäller all strålning från stjärnan.</p><ol type=\"a\"><li>Vilken yttemperatur har Aldebaran? (Svara i K.)</li><li>Vilken absolut magnitud har Aldebaran? (Svara med ett tal.)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left(\\frac{T}{T_\\odot}\\right)^4=\\frac{L/L_\\odot}{(R/R_\\odot)^2}=\\frac{440}{44^2}\\]</div></li><li><div class=\"facit-matte\">\\[T=5772\\cdot\\left(\\frac{440}{1936}\\right)^{1/4}\\approx3990\\ \\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3990 K.</p></div><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg440\\approx-1{,}87\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-1{,}9\\).</p></div>",
-    "id": "5.362",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Luminositet, radie och temperatur",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      3985.319583666078,
-      -1.8686316912154686
-    ],
-    "tolerans": [
-      68.12327986882035,
-      0.13187263382430922
-    ],
-    "självrättning": [
-      true,
-      true
-    ],
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Lös ut temperaturen ur Stefan–Boltzmanns lag i solenheter.</p>",
-    "traningsniva": 3,
-    "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarEnhet": [
-      "K",
-      null
-    ],
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Vilken yttemperatur har Aldebaran? (Svara i K.)",
-        "t": "<p>Den orange jättestjärnan Aldebaran har 440 gånger solens luminositet och 44 gånger solens radie.</p><p>Magnituderna gäller all strålning från stjärnan.</p><div class=\"spel-en-del\"><p>Vilken yttemperatur har Aldebaran? (Svara i K.)</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left(\\frac{T}{T_\\odot}\\right)^4=\\frac{L/L_\\odot}{(R/R_\\odot)^2}=\\frac{440}{44^2}\\]</div></li><li><div class=\"facit-matte\">\\[T=5772\\cdot\\left(\\frac{440}{1936}\\right)^{1/4}\\approx3990\\ \\mathrm K\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3990 K.</p></div>",
-        "ledtrad": "<p>\\(L\\propto R^2T^4\\). Lös ut \\(T/T_\\odot\\).</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vilken absolut magnitud har Aldebaran? (Svara med ett tal.)",
-        "t": "<p>Den orange jättestjärnan Aldebaran har 440 gånger solens luminositet och 44 gånger solens radie.</p><p>Magnituderna gäller all strålning från stjärnan.</p><div class=\"spel-en-del\"><p>Vilken absolut magnitud har Aldebaran? (Svara med ett tal.)</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg440\\approx-1{,}87\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-1{,}9\\).</p></div>",
-        "ledtrad": "<p>Jämför med solens absoluta magnitud.</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2
-      }
-    ]
-  },
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "C",
+  "typ": "temperatur och magnitud ur luminositet och radie (Aldebaran)",
+  "poang": "(1/1/0)",
+  "t": "<p>Den orange jättestjärnan Aldebaran har 440 gånger solens luminositet och 44 gånger solens radie.</p><p>Magnituderna gäller all strålning från stjärnan.</p><ol type=\"a\"><li>Vilken yttemperatur har Aldebaran? (Svara i K.)</li><li>Vilken absolut magnitud har Aldebaran? (Svara med ett tal.)</li></ol>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left(\\frac{T}{T_\\odot}\\right)^4=\\frac{L/L_\\odot}{(R/R_\\odot)^2}=\\frac{440}{44^2}\\]</div></li><li><div class=\"facit-matte\">\\[\\begin{gathered}T=5772\\cdot\\left(\\frac{440}{1936}\\right)^{1/4}\\\\\\approx3990\\ \\mathrm K\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3990 K.</p></div><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg440\\approx-1{,}87\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-1{,}9\\).</p></div>",
+  "id": "5.362",
+  "miniräknare": true,
+  "geogebra": false,
+  "familj": "Luminositet, radie och temperatur",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    3985.319583666078,
+    -1.8686316912154686
+  ],
+  "tolerans": [
+    68.12327986882035,
+    0.13187263382430922
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Lös ut temperaturen ur Stefan–Boltzmanns lag i solenheter.</p>",
+  "traningsniva": 3,
+  "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "K",
+    null
+  ],
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "Vilken yttemperatur har Aldebaran? (Svara i K.)",
+      "t": "<p>Aldebaran har 440 gånger solens luminositet och 44 gånger solens radie.</p><p>Vilken yttemperatur har Aldebaran? (Svara i K.)</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left(\\frac{T}{T_\\odot}\\right)^4=\\frac{L/L_\\odot}{(R/R_\\odot)^2}=\\frac{440}{44^2}\\]</div></li><li><div class=\"facit-matte\">\\[\\begin{gathered}T=5772\\cdot\\left(\\frac{440}{1936}\\right)^{1/4}\\\\\\approx3990\\ \\mathrm K\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3990 K.</p></div>",
+      "ledtrad": "<p>\\(L\\propto R^2T^4\\). Lös ut \\(T/T_\\odot\\).</p>",
+      "niva": "C",
+      "poang": "(0/1/0)",
+      "traningsniva": 3
+    },
+    {
+      "etikett": "b",
+      "fraga": "Vilken absolut magnitud har Aldebaran? (Svara med ett tal.)",
+      "t": "<p>Aldebaran har 440 gånger solens luminositet.</p><p>Magnituderna gäller all strålning från stjärnan.</p><p>Vilken absolut magnitud har Aldebaran? (Svara med ett tal.)</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg440\\approx-1{,}87\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(-1{,}9\\).</p></div>",
+      "ledtrad": "<p>Jämför med solens absoluta magnitud.</p>",
+      "niva": "E",
+      "poang": "(1/0/0)",
+      "traningsniva": 2
+    }
+  ]
+},
   {
     "kap": 5,
     "omr": "farg_ljusstyrka",
@@ -45243,73 +45245,73 @@ window.BANK2 = [
     ]
   },
   {
-    "kap": 5,
-    "omr": "farg_ljusstyrka",
-    "niva": "C",
-    "typ": "luminositet och magnitud ur radie och temperatur (Vega)",
-    "poang": "(1/2/0)",
-    "t": "<p>Vega har radien 2,7 gånger solens och yttemperaturen 9 600 K.</p><p>Magnituderna gäller all strålning från stjärnan.</p><ol type=\"a\"><li>Hur många gånger större luminositet än solen har Vega? (Svara med ett tal.)</li><li>Vilken absolut magnitud har Vega? (Svara med ett tal.)</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\left(\\frac{R}{R_\\odot}\\right)^2\\left(\\frac{T}{T_\\odot}\\right)^4\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=2{,}7^2\\cdot\\left(\\frac{9600}{5772}\\right)^4\\approx56\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 56 gånger.</p></div><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg56\\approx0{,}37\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(+0{,}4\\).</p></div>",
-    "id": "5.365",
-    "miniräknare": true,
-    "geogebra": false,
-    "familj": "Luminositet, radie och temperatur",
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      55.78368127068807,
-      0.3737320730239446
-    ],
-    "tolerans": [
-      1.7923022800385735,
-      0.15394075428794213
-    ],
-    "självrättning": [
-      true,
-      true
-    ],
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>Använd Stefan–Boltzmanns lag i solenheter och jämför sedan med solens absoluta magnitud.</p>",
-    "traningsniva": 2,
-    "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarEnhet": [
-      null,
-      null
-    ],
-    "svarEtiketter": [
-      "a",
-      "b"
-    ],
-    "svarsstruktur": "ordnad",
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "Hur många gånger större luminositet än solen har Vega? (Svara med ett tal.)",
-        "t": "<p>Vega har radien 2,7 gånger solens och yttemperaturen 9 600 K.</p><p>Magnituderna gäller all strålning från stjärnan.</p><div class=\"spel-en-del\"><p>Hur många gånger större luminositet än solen har Vega? (Svara med ett tal.)</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\left(\\frac{R}{R_\\odot}\\right)^2\\left(\\frac{T}{T_\\odot}\\right)^4\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=2{,}7^2\\cdot\\left(\\frac{9600}{5772}\\right)^4\\approx56\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 56 gånger.</p></div>",
-        "ledtrad": "<p>\\(L\\propto R^2T^4\\).</p>",
-        "niva": "E",
-        "poang": "(1/0/0)",
-        "traningsniva": 2
-      },
-      {
-        "etikett": "b",
-        "fraga": "Vilken absolut magnitud har Vega? (Svara med ett tal.)",
-        "t": "<p>Vega har radien 2,7 gånger solens och yttemperaturen 9 600 K.</p><p>Magnituderna gäller all strålning från stjärnan.</p><p>Vega har cirka 56 gånger solens luminositet.</p><div class=\"spel-en-del\"><p>Vilken absolut magnitud har Vega? (Svara med ett tal.)</p></div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg56\\approx0{,}37\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(+0{,}4\\).</p></div>",
-        "ledtrad": "<p>Jämför med solens absoluta magnitud.</p>",
-        "niva": "C",
-        "poang": "(0/1/0)",
-        "traningsniva": 3
-      }
-    ]
-  },
+  "kap": 5,
+  "omr": "farg_ljusstyrka",
+  "niva": "C",
+  "typ": "luminositet och magnitud ur radie och temperatur (Vega)",
+  "poang": "(1/2/0)",
+  "t": "<p>Vega har radien 2,7 gånger solens och yttemperaturen 9 600 K.</p><p>Magnituderna gäller all strålning från stjärnan.</p><ol type=\"a\"><li>Hur många gånger större luminositet än solen har Vega? (Svara med ett tal.)</li><li>Vilken absolut magnitud har Vega? (Svara med ett tal.)</li></ol>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\left(\\frac{R}{R_\\odot}\\right)^2\\left(\\frac{T}{T_\\odot}\\right)^4\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=2{,}7^2\\cdot\\left(\\frac{9600}{5772}\\right)^4\\approx56\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 56 gånger.</p></div><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg56\\approx0{,}37\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(+0{,}4\\).</p></div>",
+  "id": "5.365",
+  "miniräknare": true,
+  "geogebra": false,
+  "familj": "Luminositet, radie och temperatur",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    55.78368127068807,
+    0.3737320730239446
+  ],
+  "tolerans": [
+    1.7923022800385735,
+    0.15394075428794213
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>Använd Stefan–Boltzmanns lag i solenheter och jämför sedan med solens absoluta magnitud.</p>",
+  "traningsniva": 2,
+  "familjNyckel": "farg_ljusstyrka__luminositet_radie_och_temperatur",
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    null,
+    null
+  ],
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "svarsstruktur": "ordnad",
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "Hur många gånger större luminositet än solen har Vega? (Svara med ett tal.)",
+      "t": "<p>Vega har radien 2,7 gånger solens och yttemperaturen 9 600 K.</p><p>Hur många gånger större luminositet än solen har Vega? (Svara med ett tal.)</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=\\left(\\frac{R}{R_\\odot}\\right)^2\\left(\\frac{T}{T_\\odot}\\right)^4\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{L}{L_\\odot}=2{,}7^2\\cdot\\left(\\frac{9600}{5772}\\right)^4\\approx56\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 56 gånger.</p></div>",
+      "ledtrad": "<p>\\(L\\propto R^2T^4\\).</p>",
+      "niva": "E",
+      "poang": "(1/0/0)",
+      "traningsniva": 2
+    },
+    {
+      "etikett": "b",
+      "fraga": "Vilken absolut magnitud har Vega? (Svara med ett tal.)",
+      "t": "<p>Vega har cirka 56 gånger solens luminositet.</p><p>Magnituderna gäller all strålning från stjärnan.</p><p>Vilken absolut magnitud har Vega? (Svara med ett tal.)</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M=4{,}74-2{,}5\\lg56\\approx0{,}37\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(+0{,}4\\).</p></div>",
+      "ledtrad": "<p>Jämför med solens absoluta magnitud.</p>",
+      "niva": "C",
+      "poang": "(0/1/0)",
+      "traningsniva": 3
+    }
+  ]
+},
   {
     "kap": 5,
     "omr": "farg_ljusstyrka",

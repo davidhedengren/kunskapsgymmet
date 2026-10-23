@@ -27769,39 +27769,39 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "1.116",
-    "kap": 1,
-    "omr": "ekv_parenteser",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>Lös ekvationen \\((3x-4)(x+2)=3x^2+5x-18\\). Svara exakt med ett bråk.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla vänsterledets produkt</p><div class=\"facit-matte\">\\[(3x-4)(x+2)=3x^2+6x-4x-8=3x^2+2x-8.\\]</div></li><li><p class=\"facit-rubrik\">Ta bort samma kvadratterm från båda leden</p><div class=\"facit-matte\">\\[3x^2+2x-8=3x^2+5x-18\\quad\\Rightarrow\\quad2x-8=5x-18.\\]</div></li><li><p class=\"facit-rubrik\">Lös den linjära ekvationen</p><div class=\"facit-matte\">\\[10=3x\\quad\\Rightarrow\\quad x=\\frac{10}{3}.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera i ursprungsekvationen</p><div class=\"facit-matte\">\\[(3\\cdot\\frac{10}{3}-4)(\\frac{10}{3}+2)=6\\cdot\\frac{16}{3}=32.\\]</div><div class=\"facit-matte\">\\[3\\cdot(\\frac{10}{3})^2+5\\cdot\\frac{10}{3}-18=\\frac{100}{3}+\\frac{50}{3}-18=32.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\frac{10}{3}\\).</p></div>",
-    "ledtrad": "<p>Behöver en ekvation med x² alltid vara en andragradsekvation efter förenkling?</p>",
-    "niva": "C",
-    "poang": "0/2/0",
-    "arbetsinsats": 2,
-    "familj": "Ekvationer med parenteser",
-    "formaga": [
-      "problemlösning",
-      "resonemang"
-    ],
-    "svarstyp": "bråk",
-    "rättSvar": "10/3",
-    "självrättning": true,
-    "tolerans": 1e-10,
-    "svarFormat": "bråk",
-    "traningsniva": 4,
-    "spel": true,
-    "omrTidigare": "linjara_ekvationer",
-    "familjTidigare": [
-      "Linjära ekvationer"
-    ]
-  },
+  "id": "1.116",
+  "kap": 1,
+  "omr": "ekv_parenteser",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "t": "<p>Lös ekvationen \\((3x-4)(x+2)=3x^2+5x-18\\). Svara exakt med ett bråk.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla vänsterledets produkt</p><div class=\"facit-matte\">\\[\\begin{gathered}(3x-4)(x+2)\\\\=3x^2+6x-4x-8\\\\=3x^2+2x-8\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Ta bort samma kvadratterm från båda leden</p><div class=\"facit-matte\">\\[\\begin{gathered}3x^2+2x-8=3x^2+5x-18\\\\2x-8=5x-18\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lös den linjära ekvationen</p><div class=\"facit-matte\">\\[10=3x\\quad\\Rightarrow\\quad x=\\frac{10}{3}.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera i ursprungsekvationen</p><div class=\"facit-matte\">\\[\\begin{gathered}(3\\cdot\\frac{10}{3}-4)(\\frac{10}{3}+2)\\\\=6\\cdot\\frac{16}{3}=32\\end{gathered}\\]</div><div class=\"facit-matte\">\\[\\begin{gathered}3\\cdot(\\frac{10}{3})^2+5\\cdot\\frac{10}{3}-18\\\\=\\frac{100}{3}+\\frac{50}{3}-18=32\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\frac{10}{3}\\).</p></div>",
+  "ledtrad": "<p>Behöver en ekvation med x² alltid vara en andragradsekvation efter förenkling?</p>",
+  "niva": "C",
+  "poang": "0/2/0",
+  "arbetsinsats": 2,
+  "familj": "Ekvationer med parenteser",
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "svarstyp": "bråk",
+  "rättSvar": "10/3",
+  "självrättning": true,
+  "tolerans": 1e-10,
+  "svarFormat": "bråk",
+  "traningsniva": 4,
+  "spel": true,
+  "omrTidigare": "linjara_ekvationer",
+  "familjTidigare": [
+    "Linjära ekvationer"
+  ]
+},
   {
     "id": "1.117",
     "kap": 1,
@@ -64858,36 +64858,38 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.23",
-    "kap": 3,
-    "omr": "procent",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Två modeller för energibehov är \\(E_1=65x^{0{,}75}\\) och \\(E_2=28x+80\\), där \\(x\\) är vikt i kg.</p><p>Hur många procent lägre är \\(E_1\\) än \\(E_2\\) för \\(x=36\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(E_1\\approx955{,}3\\) och \\(E_2=1088\\).</p></li><li><p>Skillnaden i procent av \\(E_2\\) är <strong>12,2 %</strong>.</p></li></ol></div>",
-    "familj": "Procentuell ökning och minskning",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": "12.2",
-    "tolerans": 0.1,
-    "självrättning": true,
-    "formaga": [
-      "modellering"
-    ],
-    "ledtrad": "<p>Beräkna först båda modellernas värden för \\(x=36\\). Vilket av dem ska vara jämförelsebas när du frågar hur många procent lägre \\(E_1\\) är?</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Jämföra procent, procentenheter och procentuell skillnad"
-    ]
-  },
+  "id": "3.23",
+  "kap": 3,
+  "omr": "procent",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Två modeller för energibehov är \\(E_1=65x^{0{,}75}\\) och \\(E_2=28x+80\\), där \\(x\\) är vikt i kg.</p><p>Hur många procent lägre är \\(E_1\\) än \\(E_2\\) för \\(x=36\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna båda energibehoven</p><div class=\"facit-matte\">\\[E_1=65\\cdot36^{0{,}75}\\approx955{,}30\\]</div><div class=\"facit-matte\">\\[E_2=28\\cdot36+80=1088\\]</div></li><li><p class=\"facit-rubrik\">Jämför skillnaden med det större värdet</p><div class=\"facit-matte\">\\[\\frac{1088-65\\cdot36^{0{,}75}}{1088}\\cdot100\\]</div><div class=\"facit-matte\">\\[\\approx12{,}1966\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(E_1\\) är cirka \\(12{,}2\\,\\%\\) lägre än \\(E_2\\).</p></div>",
+  "familj": "Procentuell ökning och minskning",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 12.196599293617695,
+  "tolerans": 1e-10,
+  "självrättning": true,
+  "formaga": [
+    "modellering"
+  ],
+  "ledtrad": "<p>Beräkna först båda modellernas värden för \\(x=36\\). Vilket av dem ska vara jämförelsebas när du frågar hur många procent lägre \\(E_1\\) är?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Jämföra procent, procentenheter och procentuell skillnad"
+  ],
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
   {
     "id": "3.24",
     "kap": 3,
@@ -66779,35 +66781,37 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.65",
-    "kap": 3,
-    "omr": "genomsnittlig_forandring",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Ett värde ökar med totalt 50 % på fem år. Anta samma procentuella ökning varje år. Bestäm den genomsnittliga årliga procentuella ökningen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^5=1{,}50\\Rightarrow q=1{,}50^{\\frac{1}{5}}\\approx1{,}08447\\],</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Cirka 8,45 % per år,</strong></p></div>",
-    "familj": "Genomsnittlig förändring i problem",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": "8.45",
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>En total ökning med 50 % ger totalfaktorn 1,50. Vilken faktor använd fem gånger ger 1,50?</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Genomsnittlig årlig förändring"
-    ]
-  },
+  "id": "3.65",
+  "kap": 3,
+  "omr": "genomsnittlig_forandring",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Ett värde ökar med totalt 50 % på fem år. Anta samma procentuella ökning varje år. Bestäm den genomsnittliga årliga procentuella ökningen.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm faktorn för ett år</p><p>Fem lika årsändringar ger den totala faktorn 1,50.</p><div class=\"facit-matte\">\\[q^5=1{,}50\\quad\\Rightarrow\\quad q=1{,}50^{1/5}\\]</div></li><li><p class=\"facit-rubrik\">Omvandla faktorn till procentuell ökning</p><div class=\"facit-matte\">\\[(1{,}50^{1/5}-1)\\cdot100\\approx8{,}4472\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(8{,}45\\,\\%\\) per år.</p></div>",
+  "familj": "Genomsnittlig förändring i problem",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 8.447177119769854,
+  "tolerans": 1e-10,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>En total ökning med 50 % ger totalfaktorn 1,50. Vilken faktor använd fem gånger ger 1,50?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Genomsnittlig årlig förändring"
+  ],
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
   {
     "id": "3.66",
     "kap": 3,
@@ -66944,67 +66948,71 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.70",
-    "kap": 3,
-    "omr": "procent",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En stolpe A är 36 % kortare än stolpe B. Hur många procent längre är B än A?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Viktigt:</strong> ”36 % kortare” och ”36 % längre” är inte omvända påståenden.</p></li><li><p>Sätt den längre längden till 1 och jämför med förändringsfaktorn åt andra hållet.</p></li><li><p><strong>Steg 1:</strong> Om B har längden 1 har A längden 0,64.</p></li><li><div class=\"facit-matte\">\\[\\frac{1}{0{,}64}=1{,}5625\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>B är 56,25 % längre än A.</strong></p></div></div>",
-    "familj": "Procentuell ökning och minskning",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": "56.25",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Sätt den längre stolpen B till exempelvis 100 längdenheter. Hur lång blir A då, och vilken nivå ska ökningen tillbaka jämföras med?</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Jämföra procent, procentenheter och procentuell skillnad"
-    ]
-  },
+  "id": "3.70",
+  "kap": 3,
+  "omr": "procent",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>En stolpe A är 36 % kortare än stolpe B. Hur många procent längre är B än A?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj en längd att jämföra med</p><p>Om B är 100 cm är A 64 cm. Skillnaden är 36 cm.</p></li><li><p class=\"facit-rubrik\">Jämför skillnaden med A</p><p>Frågan gäller hur mycket längre B är än A. Därför ska vi dividera med A:s längd.</p><div class=\"facit-matte\">\\[\\frac{100-64}{64}\\cdot100=56{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B är \\(56{,}25\\,\\%\\) längre än A.</p></div>",
+  "familj": "Procentuell ökning och minskning",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 56.25,
+  "tolerans": 1e-10,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Sätt den längre stolpen B till exempelvis 100 längdenheter. Hur lång blir A då, och vilken nivå ska ökningen tillbaka jämföras med?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Jämföra procent, procentenheter och procentuell skillnad"
+  ],
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
   {
-    "id": "3.71",
-    "kap": 3,
-    "omr": "procent",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Alex måste låna ett belopp som motsvarar 25 % av sina egna pengar för att betala en insats. Sam betalar samma insats och har sedan 20 % av sina pengar kvar. Hur många procent mer pengar hade Sam än Alex från början?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}25A=0{,}80S\\Rightarrow S/A=1{,}5625\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>56,25 % mer.</strong></p></div></div>",
-    "familj": "Procentuell ökning och minskning",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": "56.25",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Låt Alex ha \\(A\\) kronor från början. Insatsen är då \\(1{,}25A\\). Hur stor andel av Sams ursprungliga pengar motsvarar samma insats?</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Jämföra procent, procentenheter och procentuell skillnad"
-    ]
-  },
+  "id": "3.71",
+  "kap": 3,
+  "omr": "procent",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Alex måste låna ett belopp som motsvarar 25 % av sina egna pengar för att betala en insats. Sam betalar samma insats och har sedan 20 % av sina pengar kvar. Hur många procent mer pengar hade Sam än Alex från början?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beskriv samma insats på två sätt</p><p>Låt A och S vara pengarna de har från början. Alex betalar 125 % av A och Sam 80 % av S.</p><div class=\"facit-matte\">\\[1{,}25A=0{,}80S\\]</div></li><li><p class=\"facit-rubrik\">Jämför med Alex ursprungliga belopp</p><div class=\"facit-matte\">\\[\\frac SA=\\frac{1{,}25}{0{,}80}=1{,}5625\\]</div><div class=\"facit-matte\">\\[(1{,}5625-1)\\cdot100=56{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sam hade \\(56{,}25\\,\\%\\) mer pengar än Alex.</p></div>",
+  "familj": "Procentuell ökning och minskning",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 56.25,
+  "tolerans": 1e-10,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Låt Alex ha \\(A\\) kronor från början. Insatsen är då \\(1{,}25A\\). Hur stor andel av Sams ursprungliga pengar motsvarar samma insats?</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Jämföra procent, procentenheter och procentuell skillnad"
+  ],
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
   {
     "id": "3.72",
     "kap": 3,
@@ -68373,35 +68381,37 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.105",
-    "kap": 3,
-    "omr": "genomsnittlig_forandring",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Värdet på en fond ökar totalt med 30 % på sex år. Anta samma procentuella ökning varje år. Bestäm den årliga ökningen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^6=1{,}30\\Rightarrow q=1{,}30^{\\frac{1}{6}}\\approx1{,}0447\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Cirka 4,47 % per år.</strong></p></div>",
-    "familj": "Genomsnittlig förändring i problem",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": "4.47",
-    "tolerans": 0.01,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "ledtrad": "<p>En total ökning med 30 % ger faktorn 1,30 efter sex år. Bestäm den faktor som upprepad sex gånger ger 1,30.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Genomsnittlig årlig förändring"
-    ]
-  },
+  "id": "3.105",
+  "kap": 3,
+  "omr": "genomsnittlig_forandring",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Värdet på en fond ökar totalt med 30 % på sex år. Anta samma procentuella ökning varje år. Bestäm den årliga ökningen i procent.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm faktorn för ett år</p><p>Sex lika årsändringar ger totalt faktorn 1,30.</p><div class=\"facit-matte\">\\[q^6=1{,}30\\quad\\Rightarrow\\quad q=1{,}30^{1/6}\\]</div></li><li><p class=\"facit-rubrik\">Omvandla faktorn till procent</p><div class=\"facit-matte\">\\[(1{,}30^{1/6}-1)\\cdot100\\approx4{,}4698\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka \\(4{,}47\\,\\%\\) per år.</p></div>",
+  "familj": "Genomsnittlig förändring i problem",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4.46975079232772,
+  "tolerans": 1e-10,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "ledtrad": "<p>En total ökning med 30 % ger faktorn 1,30 efter sex år. Bestäm den faktor som upprepad sex gånger ger 1,30.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Genomsnittlig årlig förändring"
+  ],
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
   {
     "id": "3.106",
     "kap": 3,
@@ -68724,36 +68734,38 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.114",
-    "kap": 3,
-    "omr": "procent",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Almas lön höjs med 12 % och Beas lön sänks med 12 %. Efter förändringarna har de lika hög lön. Hur många procent högre lön hade Bea än Alma från början?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> Låt de ursprungliga lönerna vara \\(A\\) och \\(B\\).</p></li><li><div class=\"facit-matte\">\\[1{,}12A=0{,}88B\\Rightarrow B/A=\\frac{1{,}12}{0{,}88}\\approx1{,}2727\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Beas lön var cirka 27,3 % högre.</strong></p></div></div>",
-    "familj": "Procentuell ökning och minskning",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": "27.3",
-    "tolerans": 0.1,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Låt de ursprungliga lönerna vara \\(A\\) och \\(B\\). Efter förändringarna gäller \\(1{,}12A=0{,}88B\\).</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Jämföra procent, procentenheter och procentuell skillnad"
-    ]
-  },
+  "id": "3.114",
+  "kap": 3,
+  "omr": "procent",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Almas lön höjs med 12 % och Beas lön sänks med 12 %. Efter förändringarna har de lika hög lön. Hur många procent högre lön hade Bea än Alma från början?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beskriv lönerna efter förändringen</p><p>Låt A vara Almas och B Beas ursprungliga lön. Efter förändringen är lönerna lika.</p><div class=\"facit-matte\">\\[1{,}12A=0{,}88B\\]</div></li><li><p class=\"facit-rubrik\">Jämför de ursprungliga lönerna</p><div class=\"facit-matte\">\\[\\frac BA=\\frac{1{,}12}{0{,}88}=\\frac{14}{11}\\]</div></li><li><p class=\"facit-rubrik\">Beräkna hur många procent högre Beas lön var</p><div class=\"facit-matte\">\\[\\left(\\frac{14}{11}-1\\right)\\cdot100=\\frac{300}{11}\\]</div><div class=\"facit-matte\">\\[\\frac{300}{11}\\approx27{,}2727\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Beas lön var cirka \\(27\\,\\%\\) högre (mer noggrant \\(27{,}27\\,\\%\\)).</p></div>",
+  "familj": "Procentuell ökning och minskning",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 27.272727272727273,
+  "tolerans": 1e-10,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Låt de ursprungliga lönerna vara \\(A\\) och \\(B\\). Efter förändringarna gäller \\(1{,}12A=0{,}88B\\).</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Jämföra procent, procentenheter och procentuell skillnad"
+  ],
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
   {
     "id": "3.115",
     "kap": 3,

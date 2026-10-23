@@ -4059,7 +4059,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-23-ma1-parenteser";
+const BANK_VERSION="2026-10-23-felrapporter-1345";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11283,7 +11283,16 @@ function delSvarRattBas(anv,facit,enhet,tol,t,idx,format){
   /* Med svarsenheten % lagras facit i procent. Ett uttryckligt %-tecken
      får inte tas bort och därefter skalas igen av den generella talrättningen. */
   if(enhet==="%" && (format==="numeriskt" || format==="procent")){
-    const r=enhetsJamforelse(enhetMedOrd(anv),facit,enhet,tol);
+    let svar=enhetMedOrd(anv).replace(/\bprocent\s*$/i,"%");
+    // Ett bråk är ett taluttryck, inte en enhet: 300/11 % betyder
+    // (300/11) procent. Pröva hela uttrycket så att /11 inte tappas bort.
+    const procenttecken=/%\s*$/.test(svar);
+    const uttryck=normalizeMathInput(svar.replace(/%\s*$/,"").trim());
+    if(isPureNumberExpression(uttryck)){
+      const tal=numericValue(tillNerdamer(uttryck));
+      if(Number.isFinite(tal)) svar=String(tal)+(procenttecken?" %":"");
+    }
+    const r=enhetsJamforelse(svar,facit,enhet,tol);
     if(r!==null) return r;
   }
   /* Facit som kedja av likvärdiga former: "f(x)=(x+2)(x-4)=x^2-2x-8", "(6)/(4)=(3)/(2)".

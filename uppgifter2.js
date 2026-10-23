@@ -29819,23 +29819,47 @@ window.BANK2 = [
     "kap": 3,
     "omr": "induktion",
     "niva": "E",
-    "typ": "avgöra inducerad strömriktning i ledarslinga",
-    "poang": "(2/0/0)",
-    "t": "<p>En metallring befinner sig i ett område där magnetflödet förändras. Magnetfältet genom slingan är riktat ut ur pappret och ökar i styrka.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Ledarslinga i förändrat magnetfält</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"68\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"5\"/><circle cx=\"146\" cy=\"92\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"146\" cy=\"92\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"180\" cy=\"92\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"180\" cy=\"92\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"214\" cy=\"92\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"214\" cy=\"92\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"146\" cy=\"144\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"146\" cy=\"144\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"180\" cy=\"144\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"180\" cy=\"144\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"214\" cy=\"144\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"214\" cy=\"144\" r=\"4.8\" fill=\"#2A5D9E\"/><line x1=\"296\" y1=\"180\" x2=\"296\" y2=\"60\" stroke=\"#A23B2A\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"296.0,60.0 290.0,70.0 302.0,70.0\" fill=\"#A23B2A\"/><text x=\"296\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"24\" font-weight=\"700\" fill=\"#A23B2A\">+</text></svg></span><p>Hur måste den inducerade strömmen gå för att motverka förändringen?</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enligt Lenz lag måste den inducerade strömmen skapa ett magnetfält som motverkar förändringen av flödet.</p></li><li><p>Det betyder att slingan måste skapa ett fält in i pappret.</p></li><li><p>Med högerhandsregeln följer då att strömmen går medurs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> medurs.</p></div>",
+    "typ": "r i bildens plan. Magnetfältet är konstant och riktat ut ur bilden. Åt vilket håll går den inducerade strömmen, sedd som i figuren",
+    "poang": "(1/0/0)",
     "familj": "Riktningen på inducerad ström",
-    "familjNyckel": "induktion__riktningsfragor_inducerad_strom_enligt_lenz_lag",
+    "t": "<p>En sluten slinga av böjlig metalltråd utvidgas så att arean ökar. Slingan ligger kvar i bildens plan. Magnetfältet är konstant och riktat ut ur bilden. Åt vilket håll går den inducerade strömmen, sedd som i figuren?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"En sluten slinga får större area i ett oförändrat fält ut ur bilden.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><circle cx=\"45\" cy=\"60\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"60\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"140\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"140\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"220\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"220\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"60\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"60\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"140\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"140\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"220\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"220\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"195\" cy=\"60\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"195\" cy=\"60\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"195\" cy=\"140\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"195\" cy=\"140\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"195\" cy=\"220\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"195\" cy=\"220\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"140\" r=\"34\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"60\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"60\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"140\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"140\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"220\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"280\" cy=\"220\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"355\" cy=\"60\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"355\" cy=\"60\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"355\" cy=\"140\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"355\" cy=\"140\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"355\" cy=\"220\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"355\" cy=\"220\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"60\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"60\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"140\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"140\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"220\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"430\" cy=\"220\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"355\" cy=\"140\" r=\"65\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M205 140L260 140\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M252.02 144.16L260 140L252.02 135.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"232\" y=\"122\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">utvidgas</text><text x=\"240\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Samma konstanta magnetfält ut ur bilden</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>När arean ökar ökar flödet ut ur bilden trots att fältstyrkan är konstant. Strömmen måste skapa ett fält in i bilden. Högerhandsregeln ger medurs ström.</p><p class=\"facit-svar\"><strong>Svar:</strong> Medurs.</p></div>",
     "formaga": [
       "begrepp",
-      "procedur"
+      "resonemang"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "medurs",
-    "tolerans": null,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
-    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Ändras flödet när slingans area ändras även om fältstyrkan är konstant?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Moturs.",
+        "ratt": false,
+        "kommentar": "Det skulle förstärka ökningen av flödet ut ur bilden."
+      },
+      {
+        "txt": "Medurs.",
+        "ratt": true
+      },
+      {
+        "txt": "Ingen ström eftersom magnetfältet är konstant.",
+        "ratt": false,
+        "kommentar": "Även en ändrad area ändrar magnetflödet."
+      },
+      {
+        "txt": "Riktningen beror på trådens resistans.",
+        "ratt": false,
+        "kommentar": "Resistansen påverkar strömmens storlek, inte riktningen."
+      }
+    ],
+    "familjNyckel": "induktion__riktningsfragor_inducerad_strom_enligt_lenz_lag",
     "familjTidigare": [
       "Riktningsfrågor: inducerad ström enligt Lenz lag"
     ]
@@ -29845,23 +29869,28 @@ window.BANK2 = [
     "kap": 3,
     "omr": "induktion",
     "niva": "E",
-    "typ": "avgöra inducerad strömriktning i ledarslinga",
-    "poang": "(2/0/0)",
-    "t": "<p>En metallring befinner sig i ett område där magnetflödet förändras. Magnetfältet genom slingan är riktat ut ur pappret och minskar i styrka.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Ledarslinga i förändrat magnetfält</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"68\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"5\"/><circle cx=\"146\" cy=\"92\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"146\" cy=\"92\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"180\" cy=\"92\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"180\" cy=\"92\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"214\" cy=\"92\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"214\" cy=\"92\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"146\" cy=\"144\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"146\" cy=\"144\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"180\" cy=\"144\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"180\" cy=\"144\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"214\" cy=\"144\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"214\" cy=\"144\" r=\"4.8\" fill=\"#2A5D9E\"/><line x1=\"296\" y1=\"60\" x2=\"296\" y2=\"180\" stroke=\"#A23B2A\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"296.0,180.0 302.0,170.0 290.0,170.0\" fill=\"#A23B2A\"/><text x=\"296\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"24\" font-weight=\"700\" fill=\"#A23B2A\">−</text></svg></span><p>Bestäm strömriktningen i slingan.</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enligt Lenz lag måste den inducerade strömmen skapa ett magnetfält som motverkar förändringen av flödet.</p></li><li><p>Det betyder att slingan måste skapa ett fält ut ur pappret.</p></li><li><p>Med högerhandsregeln följer då att strömmen går moturs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> moturs.</p></div>",
-    "familj": "Riktningen på inducerad ström",
-    "familjNyckel": "induktion__riktningsfragor_inducerad_strom_enligt_lenz_lag",
+    "typ": "rts varv på 0,12 s, från att ligga i bildens plan till att stå på kant som i figuren. Hur stor är medelspänningen under vridningen",
+    "poang": "(1/0/0)",
+    "familj": "Magnetiskt flöde och Faradays lag",
+    "t": "<p>En spole med 20 varv har arean 80 cm² per varv. Magnetfältet är 0,30 T ut ur bilden. Spolen vrids ett kvarts varv på 0,12 s, från att ligga i bildens plan till att stå på kant som i figuren. Hur stor är medelspänningen under vridningen? (Svara i V.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Spolen vrids 90 grader från att omsluta fältlinjer till att ligga parallellt med fältet.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><circle cx=\"40\" cy=\"55\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"55\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"130\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"130\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"205\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"40\" cy=\"205\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"55\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"55\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"205\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"205\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"55\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"55\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"130\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"130\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"205\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"205\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"275\" cy=\"55\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"275\" cy=\"55\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"275\" cy=\"130\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"275\" cy=\"130\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"275\" cy=\"205\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"275\" cy=\"205\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"355\" cy=\"55\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"355\" cy=\"55\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"355\" cy=\"205\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"355\" cy=\"205\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"55\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"55\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"130\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"130\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"205\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"435\" cy=\"205\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"130\" r=\"60\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M355 70L355 190\" fill=\"none\" stroke=\"#243447\" stroke-width=\"4\"/><path d=\"M210 130L265 130\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M257.02 134.16L265 130L257.02 125.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"235\" y=\"110\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">90°</text><text x=\"120\" y=\"235\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Spolen framifrån</text><text x=\"355\" y=\"235\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Spolen från kanten</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>I början är flödet genom ett varv BA. Efter vridningen är det noll. Medelspänningen beror på hela flödesändringen dividerad med tiden, oavsett hur snabbt spolen vrids under olika delar av rörelsen.</p><div class=\"facit-matte\">\\[\\begin{gathered}A=80\\ \\text{cm}^2=0{,}0080\\ \\text{m}^2\\\\|\\Delta\\Phi|=0{,}30\\cdot0{,}0080=0{,}0024\\ \\text{Wb}\\\\|e_{\\text{medel}}|=20\\cdot\\frac{0{,}0024}{0{,}12}=0{,}40\\ \\text{V}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,40 V.</p></div>",
     "formaga": [
-      "begrepp",
       "procedur"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "moturs",
-    "tolerans": null,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
-    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Jämför flödet genom ett varv före och efter vridningen.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.4,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "V",
+    "svarVardesiffror": 2,
+    "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion",
     "familjTidigare": [
       "Riktningsfrågor: inducerad ström enligt Lenz lag"
     ]
@@ -29870,24 +29899,48 @@ window.BANK2 = [
     "id": "3.199",
     "kap": 3,
     "omr": "induktion",
-    "niva": "E",
-    "typ": "avgöra inducerad strömriktning i ledarslinga",
-    "poang": "(2/0/0)",
-    "t": "<p>En metallring befinner sig i ett område där magnetflödet förändras. Magnetfältet genom slingan är riktat in i pappret och ökar i styrka.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Ledarslinga i förändrat magnetfält</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"68\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"5\"/><circle cx=\"146\" cy=\"92\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"139.2\" y1=\"85.2\" x2=\"152.8\" y2=\"98.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"152.8\" y1=\"85.2\" x2=\"139.2\" y2=\"98.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"180\" cy=\"92\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"173.2\" y1=\"85.2\" x2=\"186.8\" y2=\"98.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"186.8\" y1=\"85.2\" x2=\"173.2\" y2=\"98.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"214\" cy=\"92\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"207.2\" y1=\"85.2\" x2=\"220.8\" y2=\"98.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"220.8\" y1=\"85.2\" x2=\"207.2\" y2=\"98.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"146\" cy=\"144\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"139.2\" y1=\"137.2\" x2=\"152.8\" y2=\"150.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"152.8\" y1=\"137.2\" x2=\"139.2\" y2=\"150.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"180\" cy=\"144\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"173.2\" y1=\"137.2\" x2=\"186.8\" y2=\"150.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"186.8\" y1=\"137.2\" x2=\"173.2\" y2=\"150.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"214\" cy=\"144\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"207.2\" y1=\"137.2\" x2=\"220.8\" y2=\"150.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"220.8\" y1=\"137.2\" x2=\"207.2\" y2=\"150.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"296\" y1=\"180\" x2=\"296\" y2=\"60\" stroke=\"#A23B2A\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"296.0,60.0 290.0,70.0 302.0,70.0\" fill=\"#A23B2A\"/><text x=\"296\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"24\" font-weight=\"700\" fill=\"#A23B2A\">+</text></svg></span><p>Går den inducerade strömmen medurs eller moturs?</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enligt Lenz lag måste den inducerade strömmen skapa ett magnetfält som motverkar förändringen av flödet.</p></li><li><p>Det betyder att slingan måste skapa ett fält ut ur pappret.</p></li><li><p>Med högerhandsregeln följer då att strömmen går moturs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> moturs.</p></div>",
-    "familj": "Riktningen på inducerad ström",
-    "familjNyckel": "induktion__riktningsfragor_inducerad_strom_enligt_lenz_lag",
+    "niva": "C",
+    "typ": "n 0,20 T in i bilden till 0,20 T ut ur bilden. Vilken riktning har det magnetfält som strömmen i slingan skapar under förändringen",
+    "poang": "(0/1/0)",
+    "familj": "Lenz lag",
+    "t": "<p>En sluten slinga hålls stilla. Det yttre magnetfältet ändras jämnt från 0,20 T in i bilden till 0,20 T ut ur bilden. Vilken riktning har det magnetfält som strömmen i slingan skapar under förändringen?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Det yttre fältet ändras från in i bilden till ut ur bilden.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><circle cx=\"120\" cy=\"135\" r=\"62\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"120\" y=\"245\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Först: in i bilden</text><circle cx=\"120\" cy=\"135\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M116 131L124 139\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M116 139L124 131\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"85\" cy=\"100\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M81 96L89 104\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M81 104L89 96\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"155\" cy=\"100\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M151 96L159 104\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M151 104L159 96\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"85\" cy=\"170\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M81 166L89 174\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M81 174L89 166\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"155\" cy=\"170\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M151 166L159 174\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M151 174L159 166\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"355\" cy=\"135\" r=\"62\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"355\" y=\"245\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Sedan: ut ur bilden</text><circle cx=\"355\" cy=\"135\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"355\" cy=\"135\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"100\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"100\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"390\" cy=\"100\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"390\" cy=\"100\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"170\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"320\" cy=\"170\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"390\" cy=\"170\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"390\" cy=\"170\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M208 135L265 135\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M257.02 139.16L265 135L257.02 130.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Hela förändringen är riktad ut ur bilden: först minskar flödet inåt, sedan växer flödet utåt. Slingans fält motverkar förändringen och är därför riktat in i bilden under hela förloppet. Det byter inte riktning när det yttre fältet passerar noll.</p><p class=\"facit-svar\"><strong>Svar:</strong> In i bilden under hela förändringen.</p></div>",
     "formaga": [
       "begrepp",
-      "procedur"
+      "resonemang"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "moturs",
-    "tolerans": null,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
-    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Tänk på fältet som ett värde med tecken. Åt vilket håll förändras det hela tiden?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Ut ur bilden under hela förändringen.",
+        "ratt": false,
+        "kommentar": "Det skulle förstärka förändringen utåt."
+      },
+      {
+        "txt": "Först ut ur bilden, sedan in i bilden.",
+        "ratt": false,
+        "kommentar": "Lenz lag gäller förändringen, inte att alltid motverka det yttre fältet."
+      },
+      {
+        "txt": "In i bilden under hela förändringen.",
+        "ratt": true
+      },
+      {
+        "txt": "Inget fält, eftersom start- och slutvärdena är lika stora.",
+        "ratt": false,
+        "kommentar": "Riktningen har ändrats. Flödesändringen är inte noll."
+      }
+    ],
+    "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion",
     "familjTidigare": [
       "Riktningsfrågor: inducerad ström enligt Lenz lag"
     ]
@@ -29897,23 +29950,47 @@ window.BANK2 = [
     "kap": 3,
     "omr": "induktion",
     "niva": "E",
-    "typ": "avgöra inducerad strömriktning i ledarslinga",
-    "poang": "(2/0/0)",
-    "t": "<p>En metallring befinner sig i ett område där magnetflödet förändras. Magnetfältet genom slingan är riktat in i pappret och minskar i styrka.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Ledarslinga i förändrat magnetfält</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"68\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"5\"/><circle cx=\"146\" cy=\"92\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"139.2\" y1=\"85.2\" x2=\"152.8\" y2=\"98.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"152.8\" y1=\"85.2\" x2=\"139.2\" y2=\"98.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"180\" cy=\"92\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"173.2\" y1=\"85.2\" x2=\"186.8\" y2=\"98.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"186.8\" y1=\"85.2\" x2=\"173.2\" y2=\"98.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"214\" cy=\"92\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"207.2\" y1=\"85.2\" x2=\"220.8\" y2=\"98.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"220.8\" y1=\"85.2\" x2=\"207.2\" y2=\"98.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"146\" cy=\"144\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"139.2\" y1=\"137.2\" x2=\"152.8\" y2=\"150.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"152.8\" y1=\"137.2\" x2=\"139.2\" y2=\"150.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"180\" cy=\"144\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"173.2\" y1=\"137.2\" x2=\"186.8\" y2=\"150.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"186.8\" y1=\"137.2\" x2=\"173.2\" y2=\"150.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><circle cx=\"214\" cy=\"144\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><line x1=\"207.2\" y1=\"137.2\" x2=\"220.8\" y2=\"150.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"220.8\" y1=\"137.2\" x2=\"207.2\" y2=\"150.8\" stroke=\"#A23B2A\" stroke-width=\"2.8\"/><line x1=\"296\" y1=\"60\" x2=\"296\" y2=\"180\" stroke=\"#A23B2A\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"296.0,180.0 302.0,170.0 290.0,170.0\" fill=\"#A23B2A\"/><text x=\"296\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"24\" font-weight=\"700\" fill=\"#A23B2A\">−</text></svg></span><p>Vilken riktning får den inducerade strömmen sedd framifrån?</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enligt Lenz lag måste den inducerade strömmen skapa ett magnetfält som motverkar förändringen av flödet.</p></li><li><p>Det betyder att slingan måste skapa ett fält in i pappret.</p></li><li><p>Med högerhandsregeln följer då att strömmen går medurs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> medurs.</p></div>",
-    "familj": "Riktningen på inducerad ström",
-    "familjNyckel": "induktion__riktningsfragor_inducerad_strom_enligt_lenz_lag",
+    "typ": "ira säger: ”Den inducerade strömmen skapar alltid ett fält åt motsatt håll mot det yttre fältet.” Vilket svar till Mira är korrekt",
+    "poang": "(1/0/0)",
+    "familj": "Lenz lag",
+    "t": "<p>En sluten slinga ligger stilla i ett yttre magnetfält som är riktat ut ur bilden och minskar. Mira säger: ”Den inducerade strömmen skapar alltid ett fält åt motsatt håll mot det yttre fältet.” Vilket svar till Mira är korrekt?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"En stilla slinga i ett avtagande yttre magnetfält ut ur bilden.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><circle cx=\"240\" cy=\"130\" r=\"65\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"130\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"130\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"202\" cy=\"92\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"202\" cy=\"92\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"278\" cy=\"92\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"278\" cy=\"92\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"202\" cy=\"168\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"202\" cy=\"168\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"278\" cy=\"168\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"278\" cy=\"168\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"240\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Yttre fält ut ur bilden – minskar</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Lenz lag säger att det inducerade fältet motverkar ändringen av flödet. När flödet ut ur bilden minskar skapar strömmen ett fält ut ur bilden för att motverka minskningen.</p><p class=\"facit-svar\"><strong>Svar:</strong> Här har fälten samma riktning.</p></div>",
     "formaga": [
       "begrepp",
-      "procedur"
+      "resonemang"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "medurs",
-    "tolerans": null,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
-    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vad är det enligt Lenz lag som ska motverkas?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Här skapar strömmen ett fält ut ur bilden som motverkar minskningen.",
+        "ratt": true
+      },
+      {
+        "txt": "Mira har rätt: slingans fält måste vara in i bilden.",
+        "ratt": false,
+        "kommentar": "Slingans fält motverkar flödesändringen, inte alltid det yttre fältet."
+      },
+      {
+        "txt": "Det uppstår ingen ström när fältet minskar.",
+        "ratt": false,
+        "kommentar": "Även minskande flöde ger induktion."
+      },
+      {
+        "txt": "Slingans fält måste ligga i bildens plan.",
+        "ratt": false,
+        "kommentar": "Ström runt slingan ger ett fält genom dess yta."
+      }
+    ],
+    "familjNyckel": "induktion__faradays_lag_magnetiskt_flode_och_induktion",
     "familjTidigare": [
       "Riktningsfrågor: inducerad ström enligt Lenz lag"
     ]
@@ -29922,24 +29999,48 @@ window.BANK2 = [
     "id": "3.201",
     "kap": 3,
     "omr": "induktion",
-    "niva": "C",
-    "typ": "avgöra inducerad strömriktning i ledarslinga",
-    "poang": "(1/2/0)",
-    "t": "<p>En cirkulär slinga utsätts för ett yttre magnetfält som ändras. Magnetfältet genom slingan är riktat ut ur pappret och ökar i styrka.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Ledarslinga i förändrat magnetfält</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"68\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"5\"/><circle cx=\"152\" cy=\"90\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"152\" cy=\"90\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"208\" cy=\"90\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"208\" cy=\"90\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"152\" cy=\"146\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"152\" cy=\"146\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"208\" cy=\"146\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"208\" cy=\"146\" r=\"4.8\" fill=\"#2A5D9E\"/><line x1=\"296\" y1=\"180\" x2=\"296\" y2=\"60\" stroke=\"#A23B2A\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"296.0,60.0 290.0,70.0 302.0,70.0\" fill=\"#A23B2A\"/><text x=\"296\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"24\" font-weight=\"700\" fill=\"#A23B2A\">+</text></svg></span><p>Bestäm strömriktningen i slingan.</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enligt Lenz lag måste den inducerade strömmen skapa ett magnetfält som motverkar förändringen av flödet.</p></li><li><p>Det betyder att slingan måste skapa ett fält in i pappret.</p></li><li><p>Med högerhandsregeln följer då att strömmen går medurs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> medurs.</p></div>",
+    "niva": "E",
+    "typ": "ur bilden och ändras enligt grafen. Vilket alternativ beskriver strömmen under intervallen 0–1 s, 1–2 s och 2–3 s, i den ordningen",
+    "poang": "(1/0/0)",
     "familj": "Riktningen på inducerad ström",
-    "familjNyckel": "induktion__riktningsfragor_inducerad_strom_enligt_lenz_lag",
+    "t": "<p>En sluten slinga ligger stilla i bildens plan. Det yttre magnetfältet är riktat ut ur bilden och ändras enligt grafen. Vilket alternativ beskriver strömmen under intervallen 0–1 s, 1–2 s och 2–3 s, i den ordningen?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Fältet ut ur bilden ökar under 0–1 s, är konstant 1–2 s och minskar 2–3 s.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-fy2-201\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M183.333 42L183.333 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"183.333\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M306.667 42L306.667 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"306.667\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">tid (s)</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">yttre fält (mT)</text><path d=\"M60.0 280.0 L62.312 275.538 L64.625 271.075 L66.938 266.613 L69.25 262.15 L71.562 257.688 L73.875 253.225 L76.188 248.762 L78.5 244.3 L80.812 239.838 L83.125 235.375 L85.438 230.912 L87.75 226.45 L90.062 221.988 L92.375 217.525 L94.688 213.062 L97.0 208.6 L99.312 204.137 L101.625 199.675 L103.938 195.212 L106.25 190.75 L108.562 186.288 L110.875 181.825 L113.188 177.363 L115.5 172.9 L117.812 168.438 L120.125 163.975 L122.438 159.512 L124.75 155.05 L127.062 150.588 L129.375 146.125 L131.688 141.662 L134.0 137.2 L136.312 132.737 L138.625 128.275 L140.938 123.812 L143.25 119.35 L145.562 114.888 L147.875 110.425 L150.188 105.963 L152.5 101.5 L154.812 97.037 L157.125 92.575 L159.438 88.112 L161.75 83.65 L164.062 79.188 L166.375 74.725 L168.688 70.263 L171.0 65.8 L173.312 61.338 L175.625 56.875 L177.938 52.412 L180.25 47.95 L182.562 43.487 L184.875 42.0 L187.188 42.0 L189.5 42.0 L191.813 42.0 L194.125 42.0 L196.438 42.0 L198.75 42.0 L201.062 42.0 L203.375 42.0 L205.687 42.0 L208.0 42.0 L210.312 42.0 L212.625 42.0 L214.938 42.0 L217.25 42.0 L219.562 42.0 L221.875 42.0 L224.188 42.0 L226.5 42.0 L228.812 42.0 L231.125 42.0 L233.438 42.0 L235.75 42.0 L238.062 42.0 L240.375 42.0 L242.688 42.0 L245.0 42.0 L247.312 42.0 L249.625 42.0 L251.938 42.0 L254.25 42.0 L256.562 42.0 L258.875 42.0 L261.188 42.0 L263.5 42.0 L265.812 42.0 L268.125 42.0 L270.438 42.0 L272.75 42.0 L275.062 42.0 L277.375 42.0 L279.688 42.0 L282.0 42.0 L284.312 42.0 L286.625 42.0 L288.938 42.0 L291.25 42.0 L293.562 42.0 L295.875 42.0 L298.188 42.0 L300.5 42.0 L302.812 42.0 L305.125 42.0 L307.438 43.488 L309.75 47.95 L312.062 52.413 L314.375 56.875 L316.687 61.337 L319.0 65.8 L321.312 70.262 L323.625 74.725 L325.938 79.188 L328.25 83.65 L330.562 88.113 L332.875 92.575 L335.188 97.038 L337.5 101.5 L339.812 105.962 L342.125 110.425 L344.438 114.887 L346.75 119.35 L349.062 123.812 L351.375 128.275 L353.688 132.738 L356.0 137.2 L358.313 141.663 L360.625 146.125 L362.937 150.587 L365.25 155.05 L367.562 159.512 L369.875 163.975 L372.188 168.438 L374.5 172.9 L376.812 177.363 L379.125 181.825 L381.438 186.288 L383.75 190.75 L386.062 195.212 L388.375 199.675 L390.688 204.137 L393.0 208.6 L395.312 213.062 L397.625 217.525 L399.938 221.988 L402.25 226.45 L404.562 230.913 L406.875 235.375 L409.188 239.837 L411.5 244.3 L413.812 248.762 L416.125 253.225 L418.438 257.688 L420.75 262.15 L423.062 266.613 L425.375 271.075 L427.688 275.538 L430.0 280.0\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-fy2-201)\"/></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>När fältet ökar måste slingan skapa fält inåt: strömmen går medurs. Under platån ändras inte flödet, så ingen ström induceras. När fältet minskar behövs fält utåt: strömmen går moturs.</p><p class=\"facit-svar\"><strong>Svar:</strong> Medurs – ingen ström – moturs.</p></div>",
     "formaga": [
       "begrepp",
-      "procedur"
+      "resonemang"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "medurs",
-    "tolerans": null,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
-    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Avgör för varje intervall om flödet ökar, är konstant eller minskar.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Moturs – ingen ström – medurs.",
+        "ratt": false,
+        "kommentar": "Både den första och sista riktningen förstärker flödesändringen."
+      },
+      {
+        "txt": "Medurs – medurs – moturs.",
+        "ratt": false,
+        "kommentar": "Ett konstant flöde under mittintervallet ger ingen inducerad ström."
+      },
+      {
+        "txt": "Medurs – ingen ström – medurs.",
+        "ratt": false,
+        "kommentar": "Strömmen byter riktning när flödesändringen byter tecken."
+      },
+      {
+        "txt": "Medurs – ingen ström – moturs.",
+        "ratt": true
+      }
+    ],
+    "familjNyckel": "induktion__riktningsfragor_inducerad_strom_enligt_lenz_lag",
     "familjTidigare": [
       "Riktningsfrågor: inducerad ström enligt Lenz lag"
     ]
@@ -29948,24 +30049,48 @@ window.BANK2 = [
     "id": "3.202",
     "kap": 3,
     "omr": "induktion",
-    "niva": "C",
-    "typ": "avgöra inducerad strömriktning i ledarslinga",
-    "poang": "(1/2/0)",
-    "t": "<p>En cirkulär slinga utsätts för ett yttre magnetfält som ändras. Magnetfältet genom slingan är riktat ut ur pappret och minskar i styrka.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360 230\" width=\"420\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\"><title>Ledarslinga i förändrat magnetfält</title><rect x=\"10\" y=\"10\" width=\"340\" height=\"210\" rx=\"14\" fill=\"#fff\" stroke=\"#E5E7EB\"/><circle cx=\"180\" cy=\"118\" r=\"68\" fill=\"none\" stroke=\"#7C3AED\" stroke-width=\"5\"/><circle cx=\"152\" cy=\"90\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"152\" cy=\"90\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"208\" cy=\"90\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"208\" cy=\"90\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"152\" cy=\"146\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"152\" cy=\"146\" r=\"4.8\" fill=\"#2A5D9E\"/><circle cx=\"208\" cy=\"146\" r=\"13\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2.4\"/><circle cx=\"208\" cy=\"146\" r=\"4.8\" fill=\"#2A5D9E\"/><line x1=\"296\" y1=\"60\" x2=\"296\" y2=\"180\" stroke=\"#A23B2A\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"296.0,180.0 302.0,170.0 290.0,170.0\" fill=\"#A23B2A\"/><text x=\"296\" y=\"198\" text-anchor=\"middle\" font-family=\"IBM Plex Sans, Arial, sans-serif\" font-size=\"24\" font-weight=\"700\" fill=\"#A23B2A\">−</text></svg></span><p>Går den inducerade strömmen medurs eller moturs?</p><p><strong>medurs</strong> eller <strong>moturs</strong></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Enligt Lenz lag måste den inducerade strömmen skapa ett magnetfält som motverkar förändringen av flödet.</p></li><li><p>Det betyder att slingan måste skapa ett fält ut ur pappret.</p></li><li><p>Med högerhandsregeln följer då att strömmen går moturs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> moturs.</p></div>",
+    "niva": "E",
+    "typ": "I en stilla slinga går en inducerad ström när magnetfältet ut ur bilden minskar. Vilken ändring får strömmen att byta riktning",
+    "poang": "(1/0/0)",
     "familj": "Riktningen på inducerad ström",
-    "familjNyckel": "induktion__riktningsfragor_inducerad_strom_enligt_lenz_lag",
+    "t": "<p>I en stilla slinga går en inducerad ström när magnetfältet ut ur bilden minskar. Vilken ändring får strömmen att byta riktning? Slingans läge och area ska vara oförändrade.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Utgångsläge: slinga i ett minskande magnetfält ut ur bilden.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><circle cx=\"240\" cy=\"130\" r=\"65\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"130\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"130\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"202\" cy=\"92\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"202\" cy=\"92\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"278\" cy=\"92\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"278\" cy=\"92\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"202\" cy=\"168\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"202\" cy=\"168\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"278\" cy=\"168\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><circle cx=\"278\" cy=\"168\" r=\"1.4\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><text x=\"240\" y=\"244\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Yttre fält ut ur bilden – minskar</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Strömriktningen bestäms av åt vilket håll flödet ändras. När fältet i stället ökar blir flödesändringen motsatt, och strömmen byter riktning. Ändrad resistans eller snabbare minskning ändrar storleken men inte riktningen.</p><p class=\"facit-svar\"><strong>Svar:</strong> Låt fältet öka i stället för att minska.</p></div>",
     "formaga": [
       "begrepp",
-      "procedur"
+      "resonemang"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "moturs",
-    "tolerans": null,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
-    "ledtrad": "<p>Bestäm först om magnetflödet genom slingan ökar eller minskar. Den inducerade strömmen skapar ett magnetfält som motverkar just den förändringen.</p>",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilken förändring byter tecken på flödesändringen?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Fördubbla slingans resistans.",
+        "ratt": false,
+        "kommentar": "Det minskar strömmen men byter inte riktning."
+      },
+      {
+        "txt": "Låt fältet öka i stället för att minska.",
+        "ratt": true
+      },
+      {
+        "txt": "Låt fältet minska dubbelt så snabbt.",
+        "ratt": false,
+        "kommentar": "Det ger större ström i samma riktning."
+      },
+      {
+        "txt": "Halvera slingans resistans.",
+        "ratt": false,
+        "kommentar": "Det ger större ström i samma riktning."
+      }
+    ],
+    "familjNyckel": "induktion__riktningsfragor_inducerad_strom_enligt_lenz_lag",
     "familjTidigare": [
       "Riktningsfrågor: inducerad ström enligt Lenz lag"
     ]
@@ -54354,8 +54479,8 @@ window.BANK2 = [
     "omr": "induktion_ledare",
     "niva": "C",
     "poang": "(0/1/0)",
-    "t": "<p>En 0,50 m lång ledare rör sig med farten 4,0 m/s i ett homogent magnetfält på 0,80 T. Ledaren är vinkelrät mot fältet, men hastigheten bildar vinkeln 30° med fältets riktning.</p><p>Hur stor spänning induceras mellan ledarens ändar? (Svara i V.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bara hastighetskomponenten vinkelrätt mot fältet ger induktion: \\(v_\\perp=v\\sin30^\\circ\\).</p></li><li><div class=\"facit-matte\">\\[e=Blv\\sin30^\\circ=0{,}80\\cdot0{,}50\\cdot4{,}0\\cdot0{,}5=0{,}8\\ \\text{V}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,8 V</p></div>",
+    "t": "<p>En 0,50 m lång ledare rör sig med farten 4,0 m/s i ett homogent magnetfält på 0,80 T. Ledaren är vinkelrät mot fältet, men hastigheten bildar vinkeln 30° med fältets riktning.</p><p>Staven är också vinkelrät mot rörelseriktningen. Hur stor spänning induceras mellan ledarens ändar? (Svara i V.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Staven är vinkelrät mot bilden. Hastigheten bildar 30 grader med magnetfältet.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><path d=\"M100 200L385 200\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M377.02 204.16L385 200L377.02 195.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"385\" y=\"225\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#2b67a2\">B</text><path d=\"M100 200L273.205 100\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M268.37 107.59L273.205 100L264.21 100.39\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"290\" y=\"98\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">v</text><path d=\"M155 200 A55 55 0 0 0 147.631 172.5\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"179\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">30°</text><circle cx=\"100\" cy=\"200\" r=\"12\" fill=\"#ead8bf\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"200\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"275\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Staven ses från ena änden.</text></svg></span>",
+    "s": "<div class=\"facit-v2\"><p>Endast hastighetens del vinkelrätt mot fältet bidrar. Staven är vinkelrät mot både fältet och rörelsen.</p><div class=\"facit-matte\">\\[\\begin{gathered}v_\\perp=4{,}0\\sin30^\\circ=2{,}0\\ \\text{m/s}\\\\e=0{,}80\\cdot0{,}50\\cdot2{,}0=0{,}80\\ \\text{V}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,80 V.</p></div>",
     "familj": "Inducerad spänning i en rörlig ledare",
     "formaga": [
       "procedur",
@@ -54372,7 +54497,8 @@ window.BANK2 = [
     "svarFormat": "numeriskt",
     "rättSvar": 0.8,
     "tolerans": 0.02,
-    "svarEnhet": "V"
+    "svarEnhet": "V",
+    "svarVardesiffror": 2
   },
   {
     "id": "3.422",
@@ -55661,8 +55787,8 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "typ": "vilken ände blir positiv",
-  "t": "<p>Inducerad spänning i en rak ledare: \\(e=Blv\\) när ledaren, farten och fältet är vinkelräta mot varandra.</p><p>Staven i figuren rör sig åt höger genom ett magnetfält som är riktat in i pappret. Vilken ände av staven blir positiv? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"En lodrät metallstav med ändarna P upptill och Q nedtill rör sig åt höger i ett magnetfält som är riktat in i pappret (kryss).\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"30\" x2=\"45\" y2=\"40\"/><line x1=\"35\" y1=\"40\" x2=\"45\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"70\" x2=\"45\" y2=\"80\"/><line x1=\"35\" y1=\"80\" x2=\"45\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"110\" x2=\"45\" y2=\"120\"/><line x1=\"35\" y1=\"120\" x2=\"45\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"150\" x2=\"45\" y2=\"160\"/><line x1=\"35\" y1=\"160\" x2=\"45\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"190\" x2=\"45\" y2=\"200\"/><line x1=\"35\" y1=\"200\" x2=\"45\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"30\" x2=\"85\" y2=\"40\"/><line x1=\"75\" y1=\"40\" x2=\"85\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"70\" x2=\"85\" y2=\"80\"/><line x1=\"75\" y1=\"80\" x2=\"85\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"110\" x2=\"85\" y2=\"120\"/><line x1=\"75\" y1=\"120\" x2=\"85\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"150\" x2=\"85\" y2=\"160\"/><line x1=\"75\" y1=\"160\" x2=\"85\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"190\" x2=\"85\" y2=\"200\"/><line x1=\"75\" y1=\"200\" x2=\"85\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"30\" x2=\"125\" y2=\"40\"/><line x1=\"115\" y1=\"40\" x2=\"125\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"70\" x2=\"125\" y2=\"80\"/><line x1=\"115\" y1=\"80\" x2=\"125\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"110\" x2=\"125\" y2=\"120\"/><line x1=\"115\" y1=\"120\" x2=\"125\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"150\" x2=\"125\" y2=\"160\"/><line x1=\"115\" y1=\"160\" x2=\"125\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"190\" x2=\"125\" y2=\"200\"/><line x1=\"115\" y1=\"200\" x2=\"125\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"30\" x2=\"205\" y2=\"40\"/><line x1=\"195\" y1=\"40\" x2=\"205\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"70\" x2=\"205\" y2=\"80\"/><line x1=\"195\" y1=\"80\" x2=\"205\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"110\" x2=\"205\" y2=\"120\"/><line x1=\"195\" y1=\"120\" x2=\"205\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"150\" x2=\"205\" y2=\"160\"/><line x1=\"195\" y1=\"160\" x2=\"205\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"190\" x2=\"205\" y2=\"200\"/><line x1=\"195\" y1=\"200\" x2=\"205\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"30\" x2=\"245\" y2=\"40\"/><line x1=\"235\" y1=\"40\" x2=\"245\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"70\" x2=\"245\" y2=\"80\"/><line x1=\"235\" y1=\"80\" x2=\"245\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"110\" x2=\"245\" y2=\"120\"/><line x1=\"235\" y1=\"120\" x2=\"245\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"150\" x2=\"245\" y2=\"160\"/><line x1=\"235\" y1=\"160\" x2=\"245\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"190\" x2=\"245\" y2=\"200\"/><line x1=\"235\" y1=\"200\" x2=\"245\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"30\" x2=\"285\" y2=\"40\"/><line x1=\"275\" y1=\"40\" x2=\"285\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"70\" x2=\"285\" y2=\"80\"/><line x1=\"275\" y1=\"80\" x2=\"285\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"110\" x2=\"285\" y2=\"120\"/><line x1=\"275\" y1=\"120\" x2=\"285\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"150\" x2=\"285\" y2=\"160\"/><line x1=\"275\" y1=\"160\" x2=\"285\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"190\" x2=\"285\" y2=\"200\"/><line x1=\"275\" y1=\"200\" x2=\"285\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"30\" x2=\"325\" y2=\"40\"/><line x1=\"315\" y1=\"40\" x2=\"325\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"70\" x2=\"325\" y2=\"80\"/><line x1=\"315\" y1=\"80\" x2=\"325\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"110\" x2=\"325\" y2=\"120\"/><line x1=\"315\" y1=\"120\" x2=\"325\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"150\" x2=\"325\" y2=\"160\"/><line x1=\"315\" y1=\"160\" x2=\"325\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"190\" x2=\"325\" y2=\"200\"/><line x1=\"315\" y1=\"200\" x2=\"325\" y2=\"190\"/></g><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"190\" stroke=\"#172b3a\" stroke-width=\"6\" stroke-linecap=\"round\"/><text x=\"160\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#172b3a\" text-anchor=\"end\">P</text><text x=\"160\" y=\"204\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#172b3a\" text-anchor=\"end\">Q</text><line x1=\"185\" y1=\"115\" x2=\"245\" y2=\"115\" stroke=\"#d9622b\" stroke-width=\"3\"/><polygon points=\"252,115 242,109 242,121\" fill=\"#d9622b\"/><text x=\"214\" y=\"105\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#d9622b\">v</text><text x=\"348\" y=\"222\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#172b3a\" text-anchor=\"end\">B in i pappret</text></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Kraften på en positiv laddning som rör sig åt höger i ett fält in i pappret är riktad uppåt (högerhandsregeln, \\(\\vec F=q\\vec v\\times\\vec B\\)).</p><p>Positiva laddningar samlas därför i P och elektroner trycks mot Q. P blir positiv.</p></div>",
+  "t": "<p>Staven i figuren rör sig åt höger genom ett magnetfält som är riktat in i pappret. Vilken ände av staven blir positiv? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"En lodrät metallstav med ändarna P upptill och Q nedtill rör sig åt höger i ett magnetfält som är riktat in i pappret (kryss).\" style=\"width:100%;max-width:360px\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"30\" x2=\"45\" y2=\"40\"/><line x1=\"35\" y1=\"40\" x2=\"45\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"70\" x2=\"45\" y2=\"80\"/><line x1=\"35\" y1=\"80\" x2=\"45\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"110\" x2=\"45\" y2=\"120\"/><line x1=\"35\" y1=\"120\" x2=\"45\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"150\" x2=\"45\" y2=\"160\"/><line x1=\"35\" y1=\"160\" x2=\"45\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"35\" y1=\"190\" x2=\"45\" y2=\"200\"/><line x1=\"35\" y1=\"200\" x2=\"45\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"30\" x2=\"85\" y2=\"40\"/><line x1=\"75\" y1=\"40\" x2=\"85\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"70\" x2=\"85\" y2=\"80\"/><line x1=\"75\" y1=\"80\" x2=\"85\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"110\" x2=\"85\" y2=\"120\"/><line x1=\"75\" y1=\"120\" x2=\"85\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"150\" x2=\"85\" y2=\"160\"/><line x1=\"75\" y1=\"160\" x2=\"85\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"75\" y1=\"190\" x2=\"85\" y2=\"200\"/><line x1=\"75\" y1=\"200\" x2=\"85\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"30\" x2=\"125\" y2=\"40\"/><line x1=\"115\" y1=\"40\" x2=\"125\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"70\" x2=\"125\" y2=\"80\"/><line x1=\"115\" y1=\"80\" x2=\"125\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"110\" x2=\"125\" y2=\"120\"/><line x1=\"115\" y1=\"120\" x2=\"125\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"150\" x2=\"125\" y2=\"160\"/><line x1=\"115\" y1=\"160\" x2=\"125\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"115\" y1=\"190\" x2=\"125\" y2=\"200\"/><line x1=\"115\" y1=\"200\" x2=\"125\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"30\" x2=\"205\" y2=\"40\"/><line x1=\"195\" y1=\"40\" x2=\"205\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"70\" x2=\"205\" y2=\"80\"/><line x1=\"195\" y1=\"80\" x2=\"205\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"110\" x2=\"205\" y2=\"120\"/><line x1=\"195\" y1=\"120\" x2=\"205\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"150\" x2=\"205\" y2=\"160\"/><line x1=\"195\" y1=\"160\" x2=\"205\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"195\" y1=\"190\" x2=\"205\" y2=\"200\"/><line x1=\"195\" y1=\"200\" x2=\"205\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"30\" x2=\"245\" y2=\"40\"/><line x1=\"235\" y1=\"40\" x2=\"245\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"70\" x2=\"245\" y2=\"80\"/><line x1=\"235\" y1=\"80\" x2=\"245\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"110\" x2=\"245\" y2=\"120\"/><line x1=\"235\" y1=\"120\" x2=\"245\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"150\" x2=\"245\" y2=\"160\"/><line x1=\"235\" y1=\"160\" x2=\"245\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"235\" y1=\"190\" x2=\"245\" y2=\"200\"/><line x1=\"235\" y1=\"200\" x2=\"245\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"30\" x2=\"285\" y2=\"40\"/><line x1=\"275\" y1=\"40\" x2=\"285\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"70\" x2=\"285\" y2=\"80\"/><line x1=\"275\" y1=\"80\" x2=\"285\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"110\" x2=\"285\" y2=\"120\"/><line x1=\"275\" y1=\"120\" x2=\"285\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"150\" x2=\"285\" y2=\"160\"/><line x1=\"275\" y1=\"160\" x2=\"285\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"275\" y1=\"190\" x2=\"285\" y2=\"200\"/><line x1=\"275\" y1=\"200\" x2=\"285\" y2=\"190\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"30\" x2=\"325\" y2=\"40\"/><line x1=\"315\" y1=\"40\" x2=\"325\" y2=\"30\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"70\" x2=\"325\" y2=\"80\"/><line x1=\"315\" y1=\"80\" x2=\"325\" y2=\"70\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"110\" x2=\"325\" y2=\"120\"/><line x1=\"315\" y1=\"120\" x2=\"325\" y2=\"110\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"150\" x2=\"325\" y2=\"160\"/><line x1=\"315\" y1=\"160\" x2=\"325\" y2=\"150\"/></g><g stroke=\"#9aa7b4\" stroke-width=\"1.5\"><line x1=\"315\" y1=\"190\" x2=\"325\" y2=\"200\"/><line x1=\"315\" y1=\"200\" x2=\"325\" y2=\"190\"/></g><line x1=\"170\" y1=\"40\" x2=\"170\" y2=\"190\" stroke=\"#172b3a\" stroke-width=\"6\" stroke-linecap=\"round\"/><text x=\"160\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#172b3a\" text-anchor=\"end\">P</text><text x=\"160\" y=\"204\" font-family=\"Arial,sans-serif\" font-size=\"16\" font-weight=\"bold\" fill=\"#172b3a\" text-anchor=\"end\">Q</text><line x1=\"185\" y1=\"115\" x2=\"245\" y2=\"115\" stroke=\"#d9622b\" stroke-width=\"3\"/><polygon points=\"252,115 242,109 242,121\" fill=\"#d9622b\"/><text x=\"214\" y=\"105\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-style=\"italic\" fill=\"#d9622b\">v</text><text x=\"348\" y=\"222\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#172b3a\" text-anchor=\"end\">B in i pappret</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>För en positiv laddning ger högerhandsregeln en kraft uppåt. Elektroner påverkas åt motsatt håll och samlas vid Q, så P får högre potential.</p><p class=\"facit-svar\"><strong>Svar:</strong> P, den övre änden.</p></div>",
   "familj": "Induktion i grafer, riktningar och tillämpningar",
   "formaga": [
     "begrepp"
@@ -55702,7 +55828,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "typ": "magnetfältet ur en graf",
-  "t": "<p>Inducerad spänning i en rak ledare: \\(e=Blv\\) när ledaren, farten och fältet är vinkelräta mot varandra.</p><p>En 0,40 m lång stav rör sig vinkelrätt mot ett magnetfält. Grafen visar den inducerade spänningen som funktion av farten. Bestäm magnetfältets flödestäthet. (Svara i T.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Inducerad spänning som funktion av farten, en rät linje genom origo och den markerade punkten (5, 1,0).\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"83.0\" y1=\"22\" x2=\"83.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"118.0\" y1=\"22\" x2=\"118.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"153.0\" y1=\"22\" x2=\"153.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"188.0\" y1=\"22\" x2=\"188.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"258.0\" y1=\"22\" x2=\"258.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"293.0\" y1=\"22\" x2=\"293.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"328.0\" y1=\"22\" x2=\"328.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"363.0\" y1=\"22\" x2=\"363.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"278\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"398\" y2=\"278.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"252.4\" x2=\"398\" y2=\"252.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"226.8\" x2=\"398\" y2=\"226.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"201.2\" x2=\"398\" y2=\"201.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"175.6\" x2=\"398\" y2=\"175.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"150.0\" x2=\"398\" y2=\"150.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"124.4\" x2=\"398\" y2=\"124.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"98.8\" x2=\"398\" y2=\"98.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"73.2\" x2=\"398\" y2=\"73.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"47.6\" x2=\"398\" y2=\"47.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"278.0\" x2=\"408\" y2=\"278.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,278.0 402,273.0 402,283.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"278\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"269.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">v (m/s)</text><text x=\"56.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">e (V)</text><text x=\"83.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"118.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"153.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"188.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"223.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"258.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"293.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><text x=\"328.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"363.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">9</text><text x=\"398.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"42.0\" y=\"230.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0,5</text><text x=\"42.0\" y=\"179.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"128.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1,5</text><text x=\"42.0\" y=\"77.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2,5</text><text x=\"42.0\" y=\"295.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kdb63e354\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"256\"/></clipPath><polyline clip-path=\"url(#kdb63e354)\" points=\"48.0,278.0 48.9,277.5 49.8,277.0 50.6,276.5 51.5,276.0 52.4,275.4 53.2,274.9 54.1,274.4 55.0,273.9 55.9,273.4 56.8,272.9 57.6,272.4 58.5,271.9 59.4,271.3 60.2,270.8 61.1,270.3 62.0,269.8 62.9,269.3 63.8,268.8 64.6,268.3 65.5,267.8 66.4,267.2 67.2,266.7 68.1,266.2 69.0,265.7 69.9,265.2 70.8,264.7 71.6,264.2 72.5,263.7 73.4,263.2 74.2,262.6 75.1,262.1 76.0,261.6 76.9,261.1 77.8,260.6 78.6,260.1 79.5,259.6 80.4,259.1 81.2,258.5 82.1,258.0 83.0,257.5 83.9,257.0 84.8,256.5 85.6,256.0 86.5,255.5 87.4,255.0 88.2,254.4 89.1,253.9 90.0,253.4 90.9,252.9 91.8,252.4 92.6,251.9 93.5,251.4 94.4,250.9 95.2,250.4 96.1,249.8 97.0,249.3 97.9,248.8 98.8,248.3 99.6,247.8 100.5,247.3 101.4,246.8 102.2,246.3 103.1,245.7 104.0,245.2 104.9,244.7 105.8,244.2 106.6,243.7 107.5,243.2 108.4,242.7 109.2,242.2 110.1,241.6 111.0,241.1 111.9,240.6 112.8,240.1 113.6,239.6 114.5,239.1 115.4,238.6 116.2,238.1 117.1,237.6 118.0,237.0 118.9,236.5 119.8,236.0 120.6,235.5 121.5,235.0 122.4,234.5 123.2,234.0 124.1,233.5 125.0,232.9 125.9,232.4 126.8,231.9 127.6,231.4 128.5,230.9 129.4,230.4 130.2,229.9 131.1,229.4 132.0,228.8 132.9,228.3 133.8,227.8 134.6,227.3 135.5,226.8 136.4,226.3 137.2,225.8 138.1,225.3 139.0,224.8 139.9,224.2 140.8,223.7 141.6,223.2 142.5,222.7 143.4,222.2 144.2,221.7 145.1,221.2 146.0,220.7 146.9,220.1 147.8,219.6 148.6,219.1 149.5,218.6 150.4,218.1 151.2,217.6 152.1,217.1 153.0,216.6 153.9,216.0 154.8,215.5 155.6,215.0 156.5,214.5 157.4,214.0 158.2,213.5 159.1,213.0 160.0,212.5 160.9,212.0 161.8,211.4 162.6,210.9 163.5,210.4 164.4,209.9 165.2,209.4 166.1,208.9 167.0,208.4 167.9,207.9 168.8,207.3 169.6,206.8 170.5,206.3 171.4,205.8 172.2,205.3 173.1,204.8 174.0,204.3 174.9,203.8 175.8,203.2 176.6,202.7 177.5,202.2 178.4,201.7 179.2,201.2 180.1,200.7 181.0,200.2 181.9,199.7 182.8,199.2 183.6,198.6 184.5,198.1 185.4,197.6 186.2,197.1 187.1,196.6 188.0,196.1 188.9,195.6 189.8,195.1 190.6,194.5 191.5,194.0 192.4,193.5 193.2,193.0 194.1,192.5 195.0,192.0 195.9,191.5 196.8,191.0 197.6,190.4 198.5,189.9 199.4,189.4 200.2,188.9 201.1,188.4 202.0,187.9 202.9,187.4 203.8,186.9 204.6,186.4 205.5,185.8 206.4,185.3 207.2,184.8 208.1,184.3 209.0,183.8 209.9,183.3 210.8,182.8 211.6,182.3 212.5,181.7 213.4,181.2 214.2,180.7 215.1,180.2 216.0,179.7 216.9,179.2 217.8,178.7 218.6,178.2 219.5,177.6 220.4,177.1 221.2,176.6 222.1,176.1 223.0,175.6 223.9,175.1 224.8,174.6 225.6,174.1 226.5,173.6 227.4,173.0 228.2,172.5 229.1,172.0 230.0,171.5 230.9,171.0 231.8,170.5 232.6,170.0 233.5,169.5 234.4,168.9 235.2,168.4 236.1,167.9 237.0,167.4 237.9,166.9 238.8,166.4 239.6,165.9 240.5,165.4 241.4,164.8 242.2,164.3 243.1,163.8 244.0,163.3 244.9,162.8 245.8,162.3 246.6,161.8 247.5,161.3 248.4,160.8 249.2,160.2 250.1,159.7 251.0,159.2 251.9,158.7 252.8,158.2 253.6,157.7 254.5,157.2 255.4,156.7 256.2,156.1 257.1,155.6 258.0,155.1 258.9,154.6 259.8,154.1 260.6,153.6 261.5,153.1 262.4,152.6 263.2,152.0 264.1,151.5 265.0,151.0 265.9,150.5 266.8,150.0 267.6,149.5 268.5,149.0 269.4,148.5 270.2,148.0 271.1,147.4 272.0,146.9 272.9,146.4 273.8,145.9 274.6,145.4 275.5,144.9 276.4,144.4 277.2,143.9 278.1,143.3 279.0,142.8 279.9,142.3 280.8,141.8 281.6,141.3 282.5,140.8 283.4,140.3 284.2,139.8 285.1,139.2 286.0,138.7 286.9,138.2 287.8,137.7 288.6,137.2 289.5,136.7 290.4,136.2 291.2,135.7 292.1,135.2 293.0,134.6 293.9,134.1 294.8,133.6 295.6,133.1 296.5,132.6 297.4,132.1 298.2,131.6 299.1,131.1 300.0,130.5 300.9,130.0 301.8,129.5 302.6,129.0 303.5,128.5 304.4,128.0 305.2,127.5 306.1,127.0 307.0,126.4 307.9,125.9 308.8,125.4 309.6,124.9 310.5,124.4 311.4,123.9 312.2,123.4 313.1,122.9 314.0,122.4 314.9,121.8 315.8,121.3 316.6,120.8 317.5,120.3 318.4,119.8 319.2,119.3 320.1,118.8 321.0,118.3 321.9,117.7 322.8,117.2 323.6,116.7 324.5,116.2 325.4,115.7 326.2,115.2 327.1,114.7 328.0,114.2 328.9,113.6 329.8,113.1 330.6,112.6 331.5,112.1 332.4,111.6 333.2,111.1 334.1,110.6 335.0,110.1 335.9,109.6 336.8,109.0 337.6,108.5 338.5,108.0 339.4,107.5 340.2,107.0 341.1,106.5 342.0,106.0 342.9,105.5 343.8,104.9 344.6,104.4 345.5,103.9 346.4,103.4 347.3,102.9 348.1,102.4 349.0,101.9 349.9,101.4 350.8,100.8 351.6,100.3 352.5,99.8 353.4,99.3 354.2,98.8 355.1,98.3 356.0,97.8 356.9,97.3 357.8,96.8 358.6,96.2 359.5,95.7 360.4,95.2 361.2,94.7 362.1,94.2 363.0,93.7 363.9,93.2 364.8,92.7 365.6,92.1 366.5,91.6 367.4,91.1 368.2,90.6 369.1,90.1 370.0,89.6 370.9,89.1 371.8,88.6 372.6,88.0 373.5,87.5 374.4,87.0 375.2,86.5 376.1,86.0 377.0,85.5 377.9,85.0 378.8,84.5 379.6,84.0 380.5,83.4 381.4,82.9 382.2,82.4 383.1,81.9 384.0,81.4 384.9,80.9 385.8,80.4 386.6,79.9 387.5,79.3 388.4,78.8 389.2,78.3 390.1,77.8 391.0,77.3 391.9,76.8 392.8,76.3 393.6,75.8 394.5,75.2 395.4,74.7 396.2,74.2 397.1,73.7 398.0,73.2\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><circle cx=\"223.0\" cy=\"175.6\" r=\"5\" fill=\"#172b3a\"/><text x=\"231.0\" y=\"167.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">(5; 1,0)</text></svg></span>",
+  "t": "<p>En 0,40 m lång stav förs genom ett magnetfält. Staven, rörelsen och fältet är vinkelräta mot varandra. Grafen visar den inducerade spänningen som funktion av farten. Bestäm magnetfältets flödestäthet. (Svara i T.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Spänningen ökar linjärt från 0 V vid 0 m/s till 2 V vid 10 m/s.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-fy2-436\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M134.0 42L134.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"134.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M208.0 42L208.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"208.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M282.0 42L282.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"282.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">6</text><path d=\"M356.0 42L356.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"356.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">8</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">10</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 232.4L430 232.4\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"237.4\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0,5</text><path d=\"M60 184.8L430 184.8\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"189.8\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1</text><path d=\"M60 137.2L430 137.2\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"142.2\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1,5</text><path d=\"M60 89.6L430 89.6\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"94.6\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2,5</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">fart (m/s)</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">spänning (V)</text><path d=\"M60.0 280.0 L62.312 278.81 L64.625 277.62 L66.938 276.43 L69.25 275.24 L71.562 274.05 L73.875 272.86 L76.188 271.67 L78.5 270.48 L80.812 269.29 L83.125 268.1 L85.438 266.91 L87.75 265.72 L90.062 264.53 L92.375 263.34 L94.688 262.15 L97.0 260.96 L99.312 259.77 L101.625 258.58 L103.938 257.39 L106.25 256.2 L108.562 255.01 L110.875 253.82 L113.188 252.63 L115.5 251.44 L117.812 250.25 L120.125 249.06 L122.438 247.87 L124.75 246.68 L127.062 245.49 L129.375 244.3 L131.688 243.11 L134.0 241.92 L136.312 240.73 L138.625 239.54 L140.938 238.35 L143.25 237.16 L145.562 235.97 L147.875 234.78 L150.188 233.59 L152.5 232.4 L154.812 231.21 L157.125 230.02 L159.438 228.83 L161.75 227.64 L164.062 226.45 L166.375 225.26 L168.688 224.07 L171.0 222.88 L173.312 221.69 L175.625 220.5 L177.938 219.31 L180.25 218.12 L182.562 216.93 L184.875 215.74 L187.188 214.55 L189.5 213.36 L191.812 212.17 L194.125 210.98 L196.438 209.79 L198.75 208.6 L201.062 207.41 L203.375 206.22 L205.688 205.03 L208.0 203.84 L210.312 202.65 L212.625 201.46 L214.938 200.27 L217.25 199.08 L219.562 197.89 L221.875 196.7 L224.188 195.51 L226.5 194.32 L228.812 193.13 L231.125 191.94 L233.438 190.75 L235.75 189.56 L238.062 188.37 L240.375 187.18 L242.688 185.99 L245.0 184.8 L247.312 183.61 L249.625 182.42 L251.938 181.23 L254.25 180.04 L256.562 178.85 L258.875 177.66 L261.188 176.47 L263.5 175.28 L265.812 174.09 L268.125 172.9 L270.438 171.71 L272.75 170.52 L275.062 169.33 L277.375 168.14 L279.688 166.95 L282.0 165.76 L284.312 164.57 L286.625 163.38 L288.938 162.19 L291.25 161.0 L293.562 159.81 L295.875 158.62 L298.188 157.43 L300.5 156.24 L302.812 155.05 L305.125 153.86 L307.438 152.67 L309.75 151.48 L312.062 150.29 L314.375 149.1 L316.688 147.91 L319.0 146.72 L321.312 145.53 L323.625 144.34 L325.938 143.15 L328.25 141.96 L330.562 140.77 L332.875 139.58 L335.188 138.39 L337.5 137.2 L339.812 136.01 L342.125 134.82 L344.438 133.63 L346.75 132.44 L349.062 131.25 L351.375 130.06 L353.688 128.87 L356.0 127.68 L358.312 126.49 L360.625 125.3 L362.938 124.11 L365.25 122.92 L367.562 121.73 L369.875 120.54 L372.188 119.35 L374.5 118.16 L376.812 116.97 L379.125 115.78 L381.438 114.59 L383.75 113.4 L386.062 112.21 L388.375 111.02 L390.688 109.83 L393.0 108.64 L395.312 107.45 L397.625 106.26 L399.938 105.07 L402.25 103.88 L404.562 102.69 L406.875 101.5 L409.188 100.31 L411.5 99.12 L413.812 97.93 L416.125 96.74 L418.438 95.55 L420.75 94.36 L423.062 93.17 L425.375 91.98 L427.688 90.79 L430.0 89.6\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-fy2-436)\"/><circle cx=\"245.0\" cy=\"184.8\" r=\"4\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span>",
   "s": "<div class=\"facit-v2\"><p>\\(e=Bl\\cdot v\\), så lutningen i grafen är \\(Bl=\\dfrac{1{,}0}{5}=0{,}20\\) V/(m/s).</p><p>\\(B=\\dfrac{0{,}20}{0{,}40}=0{,}50\\) T.</p></div>",
   "familj": "Induktion i grafer, riktningar och tillämpningar",
   "formaga": [
@@ -55720,7 +55846,8 @@ window.BANK2 = [
   "rättSvar": 0.5,
   "tolerans": 0.005,
   "svarFormat": "numeriskt",
-  "svarEnhet": "T"
+  "svarEnhet": "T",
+  "svarVardesiffror": 2
 },
 {
   "id": "3.437",
@@ -55729,7 +55856,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "typ": "rörelse längs fältet",
-  "t": "<p>Inducerad spänning i en rak ledare: \\(e=Blv\\) när ledaren, farten och fältet är vinkelräta mot varandra.</p><p>En stav rör sig parallellt med magnetfältets riktning. Hur stor spänning induceras? (Välj ett alternativ.)</p>",
+  "t": "<p>En stav rör sig parallellt med magnetfältets riktning. Hur stor spänning induceras? (Välj ett alternativ.)</p>",
   "s": "<div class=\"facit-v2\"><p>Laddningarna i staven rör sig parallellt med fältet, och då verkar ingen magnetisk kraft på dem. Ingen spänning induceras.</p><p>Staven \"skär\" inga fältlinjer.</p></div>",
   "familj": "Induktion i grafer, riktningar och tillämpningar",
   "formaga": [
@@ -55775,8 +55902,8 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "typ": "snett mot fältet",
-  "t": "<p>Inducerad spänning i en rak ledare: \\(e=Blv\\) när ledaren, farten och fältet är vinkelräta mot varandra.</p><p>En 0,50 m lång stav rör sig med farten 4,0 m/s. Staven är vinkelrät mot fältet, men hastigheten bildar vinkeln 30° med fältet. Flödestätheten är 0,60 T. Bestäm den inducerade spänningen. (Svara i V.)</p>",
-  "s": "<div class=\"facit-v2\"><p>Bara hastighetskomposanten vinkelrät mot fältet bidrar: \\(v_\\perp=v\\sin30^\\circ=2{,}0\\) m/s.</p><p>\\(e=Blv_\\perp=0{,}60\\cdot0{,}50\\cdot2{,}0=0{,}60\\) V.</p></div>",
+  "t": "<p>En 0,50 m lång stav rör sig med farten 4,0 m/s. Staven är vinkelrät mot fältet, men hastigheten bildar vinkeln 30° med fältet. Flödestätheten är 0,60 T. Staven är också vinkelrät mot rörelseriktningen. Bestäm den inducerade spänningen. (Svara i V.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Staven är vinkelrät mot bilden. Hastigheten bildar 30 grader med magnetfältet.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><path d=\"M100 200L385 200\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><path d=\"M377.02 204.16L385 200L377.02 195.84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"3\"/><text x=\"385\" y=\"225\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#2b67a2\">B</text><path d=\"M100 200L273.205 100\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M268.37 107.59L273.205 100L264.21 100.39\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"290\" y=\"98\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">v</text><path d=\"M155 200 A55 55 0 0 0 147.631 172.5\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"179\" y=\"182\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">30°</text><circle cx=\"100\" cy=\"200\" r=\"12\" fill=\"#ead8bf\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"200\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"275\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Staven ses från ena änden.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Endast hastighetens del vinkelrätt mot fältet bidrar. Staven är vinkelrät mot både fältet och rörelsen.</p><div class=\"facit-matte\">\\[\\begin{gathered}v_\\perp=4{,}0\\sin30^\\circ=2{,}0\\ \\text{m/s}\\\\e=0{,}60\\cdot0{,}50\\cdot2{,}0=0{,}60\\ \\text{V}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,60 V.</p></div>",
   "familj": "Induktion i grafer, riktningar och tillämpningar",
   "formaga": [
     "procedur",
@@ -55793,7 +55920,8 @@ window.BANK2 = [
   "rättSvar": 0.6,
   "tolerans": 0.005,
   "svarFormat": "numeriskt",
-  "svarEnhet": "V"
+  "svarEnhet": "V",
+  "svarVardesiffror": 2
 },
 {
   "id": "3.439",
@@ -55802,7 +55930,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "typ": "effekt i motståndet",
-  "t": "<p>Inducerad spänning i en rak ledare: \\(e=Blv\\) när ledaren, farten och fältet är vinkelräta mot varandra.</p><p>En 0,40 m lång stav dras med farten 5,0 m/s på skenor i ett fält på 0,50 T. Skenorna är kopplade till ett motstånd på 2,0 Ω. Övriga resistanser försummas. Vilken effekt utvecklas i motståndet? (Svara i W.)</p>",
+  "t": "<p>En 0,40 m lång stav dras med farten 5,0 m/s på skenor i ett fält på 0,50 T. Fältet är vinkelrätt mot skenornas plan. Skenorna är kopplade till ett motstånd på 2,0 Ω. Övriga resistanser försummas. Vilken effekt utvecklas i motståndet? (Svara i W.)</p>",
   "s": "<div class=\"facit-v2\"><p>\\(e=0{,}50\\cdot0{,}40\\cdot5{,}0=1{,}0\\) V. Effekten är \\(P=\\dfrac{e^2}{R}=\\dfrac{1{,}0^2}{2{,}0}=0{,}50\\) W.</p><p>Den energin kommer från arbetet som den som drar staven måste uträtta mot bromskraften.</p></div>",
   "familj": "Induktion i grafer, riktningar och tillämpningar",
   "formaga": [
@@ -55819,7 +55947,8 @@ window.BANK2 = [
   "rättSvar": 0.5,
   "tolerans": 0.005,
   "svarFormat": "numeriskt",
-  "svarEnhet": "W"
+  "svarEnhet": "W",
+  "svarVardesiffror": 2
 },
 {
   "id": "3.440",
@@ -55828,7 +55957,7 @@ window.BANK2 = [
   "niva": "E",
   "poang": "(1/0/0)",
   "typ": "spänning över en tågaxel",
-  "t": "<p>Inducerad spänning i en rak ledare: \\(e=Blv\\) när ledaren, farten och fältet är vinkelräta mot varandra.</p><p>Ett tåg kör med 30 m/s. Hjulaxeln förbinder rälerna, som ligger 1,435 m från varandra. Jordmagnetfältets lodräta komponent är 40 µT. Hur stor spänning induceras mellan rälerna? (Svara i mV med två värdesiffror.)</p>",
+  "t": "<p>Ett tåg kör med 30 m/s. Hjulaxeln förbinder rälerna, som ligger 1,435 m från varandra. Jordmagnetfältets lodräta komponent är 40 µT. Hur stor spänning induceras mellan rälerna? (Svara i mV med två värdesiffror.)</p>",
   "s": "<div class=\"facit-v2\"><p>Axeln är en ledare som rör sig vinkelrätt mot den lodräta fältkomposanten: \\(e=Blv=40\\cdot10^{-6}\\cdot1{,}435\\cdot30\\approx1{,}7\\cdot10^{-3}\\) V \\(=1{,}7\\) mV.</p></div>",
   "familj": "Induktion i grafer, riktningar och tillämpningar",
   "formaga": [
@@ -60552,6 +60681,555 @@ window.BANK2 = [
   "svarEnhet": "m",
   "typ": "avstånd till det yttersta minimumet framför en högtalare",
   "familjNyckel": "interferens__vagskillnad_med_pythagoras_sats"
+},
+{
+  "id": "3.516",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "typ": " med 3,0 m/s i ett magnetfält på 0,40 T, riktat in i bilden. Spänningen mellan stavens ändar P och Q är 0,18 V. Hur lång är staven",
+  "poang": "(1/0/0)",
+  "familj": "Inducerad spänning i en rörlig ledare",
+  "t": "<p>En metallstav rör sig åt höger med 3,0 m/s i ett magnetfält på 0,40 T, riktat in i bilden. Spänningen mellan stavens ändar P och Q är 0,18 V. Hur lång är staven? (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Stav PQ i magnetfält in i bilden. Rörelsen är åt höger. B = 0,40 T; v = 3,0 m/s\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><circle cx=\"160\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 76L164 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 84L164 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 141L164 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 149L164 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 206L164 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 214L164 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 76L224 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 84L224 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 141L224 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 149L224 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 206L224 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 214L224 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 76L374 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 84L374 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 141L374 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 149L374 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 206L374 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 214L374 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 76L419 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 84L419 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 141L419 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 149L419 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 206L419 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 214L419 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M285 60L285 230\" fill=\"none\" stroke=\"#a86c35\" stroke-width=\"7\"/><path d=\"M305 145L353 145\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M345.02 149.16L353 145L345.02 140.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"328\" y=\"130\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">v</text><text x=\"269\" y=\"55\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">P</text><text x=\"269\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">Q</text><text x=\"240\" y=\"278\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">B = 0,40 T; v = 3,0 m/s</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Staven, rörelsen och fältet är vinkelräta. Lös ut längden ur \\(e=Blv\\).</p><div class=\"facit-matte\">\\[l=\\frac{0{,}18}{0{,}40\\cdot3{,}0}=0{,}15\\ \\text{m}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 15 cm.</p></div>",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken storhet är okänd i sambandet för inducerad spänning?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 15,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm",
+  "svarVardesiffror": 2
+},
+{
+  "id": "3.517",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "typ": "och magnetfältet är vinkelräta mot varandra. Tabellen visar mätt spänning vid olika farter. Hur stor är magnetfältets flödestäthet",
+  "poang": "(1/0/0)",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "t": "<p>En 25 cm lång stav förs genom ett magnetfält. Staven, rörelseriktningen och magnetfältet är vinkelräta mot varandra. Tabellen visar mätt spänning vid olika farter. Hur stor är magnetfältets flödestäthet? (Svara i T.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 235\" role=\"img\" aria-label=\"Mätningar med samma stav\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"235\" fill=\"white\"/><text x=\"240\" y=\"28\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Mätningar med samma stav</text><rect x=\"60.0\" y=\"48\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"#eaf1fa\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"76\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Fart (m/s)</text><rect x=\"240.0\" y=\"48\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"#eaf1fa\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"76\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Spänning (mV)</text><rect x=\"60.0\" y=\"91\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"119\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">1,0</text><rect x=\"240.0\" y=\"91\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"119\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">50</text><rect x=\"60.0\" y=\"134\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"162\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">2,0</text><rect x=\"240.0\" y=\"134\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"162\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">100</text><rect x=\"60.0\" y=\"177\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">3,0</text><rect x=\"240.0\" y=\"177\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">150</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Välj ett mätpar, till exempel 2,0 m/s och 100 mV. Omvandla längden till 0,25 m och spänningen till 0,100 V. Alla tre par ger samma resultat.</p><div class=\"facit-matte\">\\[B=\\frac{e}{lv}=\\frac{0{,}100}{0{,}25\\cdot2{,}0}=0{,}20\\ \\text{T}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,20 T.</p></div>",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd ett par värden ur tabellen och omvandla enheterna.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "T",
+  "svarVardesiffror": 2
+},
+{
+  "id": "3.518",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "typ": "at. Motståndet byts från 2,0 Ω till 4,0 Ω. Övriga delar har försumbar resistans. Vad händer med den inducerade spänningen i staven",
+  "poang": "(1/0/0)",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "t": "<p>En stav dras med konstant fart på skenorna. Magnetfältet är oförändrat. Motståndet byts från 2,0 Ω till 4,0 Ω. Övriga delar har försumbar resistans. Vad händer med den inducerade spänningen i staven?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Stav PQ i magnetfält in i bilden. Rörelsen är åt höger. Motståndet byts: 2,0 Ω → 4,0 Ω\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><circle cx=\"160\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 76L164 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 84L164 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 141L164 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 149L164 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 206L164 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 214L164 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 76L224 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 84L224 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 141L224 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 149L224 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 206L224 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 214L224 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 76L374 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 84L374 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 141L374 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 149L374 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 206L374 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 214L374 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 76L419 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 84L419 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 141L419 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 149L419 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 206L419 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 214L419 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M100 60L410 60\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 230L410 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 60L100 120\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 170L100 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"89\" y=\"120\" width=\"22\" height=\"50\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"70\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">R</text><path d=\"M285 60L285 230\" fill=\"none\" stroke=\"#a86c35\" stroke-width=\"7\"/><path d=\"M305 145L353 145\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M345.02 149.16L353 145L345.02 140.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"328\" y=\"130\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">v</text><text x=\"269\" y=\"55\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">P</text><text x=\"269\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">Q</text><text x=\"240\" y=\"278\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Motståndet byts: 2,0 Ω → 4,0 Ω</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Den inducerade spänningen bestäms av fältet, stavlängden och farten. Ingen av dessa ändras. Strömmen halveras, men spänningen är oförändrad.</p><p class=\"facit-svar\"><strong>Svar:</strong> Spänningen är oförändrad.</p></div>",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka storheter bestämmer spänningen i en rörlig stav?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Spänningen halveras.",
+      "ratt": false,
+      "kommentar": "Det är strömmen som halveras när resistansen fördubblas."
+    },
+    {
+      "txt": "Spänningen fördubblas.",
+      "ratt": false,
+      "kommentar": "Motståndet bestämmer inte den inducerade spänningen vid given fart."
+    },
+    {
+      "txt": "Spänningen är oförändrad.",
+      "ratt": true
+    },
+    {
+      "txt": "Spänningen blir noll.",
+      "ratt": false,
+      "kommentar": "Kretsen är fortfarande sluten och staven rör sig."
+    }
+  ]
+},
+{
+  "id": "3.519",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "typ": "lt på 0,30 T. Staven, rörelsen och fältet är vinkelräta mot varandra. Grafen visar farten. Hur stor spänning induceras efter 3,0 s",
+  "poang": "(1/0/0)",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "t": "<p>En 0,40 m lång stav förs genom ett magnetfält på 0,30 T. Staven, rörelsen och fältet är vinkelräta mot varandra. Grafen visar farten. Hur stor spänning induceras efter 3,0 s? (Svara i V.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Farten ökar från 0 till 4 m/s under 4 s.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-fy2-519\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M152.5 42L152.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"152.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M337.5 42L337.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"337.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">3</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">4</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 220.5L430 220.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"225.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"106.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">3</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">tid (s)</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">fart (m/s)</text><path d=\"M60.0 280.0 L62.312 278.512 L64.625 277.025 L66.938 275.538 L69.25 274.05 L71.562 272.562 L73.875 271.075 L76.188 269.587 L78.5 268.1 L80.812 266.613 L83.125 265.125 L85.438 263.637 L87.75 262.15 L90.062 260.663 L92.375 259.175 L94.688 257.688 L97.0 256.2 L99.312 254.713 L101.625 253.225 L103.938 251.738 L106.25 250.25 L108.562 248.762 L110.875 247.275 L113.188 245.787 L115.5 244.3 L117.812 242.812 L120.125 241.325 L122.438 239.838 L124.75 238.35 L127.062 236.863 L129.375 235.375 L131.688 233.887 L134.0 232.4 L136.312 230.912 L138.625 229.425 L140.938 227.938 L143.25 226.45 L145.562 224.963 L147.875 223.475 L150.188 221.988 L152.5 220.5 L154.812 219.012 L157.125 217.525 L159.438 216.037 L161.75 214.55 L164.062 213.062 L166.375 211.575 L168.688 210.087 L171.0 208.6 L173.312 207.113 L175.625 205.625 L177.938 204.137 L180.25 202.65 L182.562 201.163 L184.875 199.675 L187.188 198.188 L189.5 196.7 L191.812 195.212 L194.125 193.725 L196.438 192.238 L198.75 190.75 L201.062 189.262 L203.375 187.775 L205.688 186.288 L208.0 184.8 L210.312 183.312 L212.625 181.825 L214.938 180.337 L217.25 178.85 L219.562 177.363 L221.875 175.875 L224.188 174.387 L226.5 172.9 L228.812 171.413 L231.125 169.925 L233.438 168.438 L235.75 166.95 L238.062 165.462 L240.375 163.975 L242.688 162.488 L245.0 161.0 L247.312 159.512 L249.625 158.025 L251.938 156.537 L254.25 155.05 L256.562 153.562 L258.875 152.075 L261.188 150.588 L263.5 149.1 L265.812 147.612 L268.125 146.125 L270.438 144.638 L272.75 143.15 L275.062 141.662 L277.375 140.175 L279.688 138.688 L282.0 137.2 L284.312 135.713 L286.625 134.225 L288.938 132.737 L291.25 131.25 L293.562 129.763 L295.875 128.275 L298.188 126.787 L300.5 125.3 L302.812 123.812 L305.125 122.325 L307.438 120.838 L309.75 119.35 L312.062 117.862 L314.375 116.375 L316.688 114.888 L319.0 113.4 L321.312 111.912 L323.625 110.425 L325.938 108.938 L328.25 107.45 L330.562 105.963 L332.875 104.475 L335.188 102.987 L337.5 101.5 L339.812 100.013 L342.125 98.525 L344.438 97.037 L346.75 95.55 L349.062 94.062 L351.375 92.575 L353.688 91.088 L356.0 89.6 L358.312 88.112 L360.625 86.625 L362.938 85.138 L365.25 83.65 L367.562 82.162 L369.875 80.675 L372.188 79.188 L374.5 77.7 L376.812 76.213 L379.125 74.725 L381.438 73.237 L383.75 71.75 L386.062 70.263 L388.375 68.775 L390.688 67.287 L393.0 65.8 L395.312 64.312 L397.625 62.825 L399.938 61.338 L402.25 59.85 L404.562 58.362 L406.875 56.875 L409.188 55.388 L411.5 53.9 L413.812 52.412 L416.125 50.925 L418.438 49.438 L420.75 47.95 L423.062 46.463 L425.375 44.975 L427.688 43.487 L430.0 42.0\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-fy2-519)\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Vid 3,0 s är farten 3,0 m/s enligt grafen. Sätt in den momentana farten i induktionssambandet.</p><div class=\"facit-matte\">\\[e=Blv=0{,}30\\cdot0{,}40\\cdot3{,}0=0{,}36\\ \\text{V}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,36 V.</p></div>",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs först av farten vid den efterfrågade tiden.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.36,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "V",
+  "svarVardesiffror": 2
+},
+{
+  "id": "3.520",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "C",
+  "typ": "lräta mot varandra. Spänningen ökar jämnt från 0,12 V till 0,36 V under 0,40 s, som grafen visar. Hur stor är stavens acceleration",
+  "poang": "(0/1/0)",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "t": "<p>En 0,30 m lång stav förs genom ett magnetfält på 0,50 T. Staven, rörelsen och fältet är vinkelräta mot varandra. Spänningen ökar jämnt från 0,12 V till 0,36 V under 0,40 s, som grafen visar. Hur stor är stavens acceleration? (Svara i m/s².)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Spänningen ökar linjärt från 0,12 V vid 0 s till 0,36 V vid 0,40 s.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-fy2-520\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M152.5 42L152.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"152.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0,1</text><path d=\"M245.0 42L245.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"245.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0,2</text><path d=\"M337.5 42L337.5 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"337.5\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0,3</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0,4</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 220.5L430 220.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"225.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0,1</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0,2</text><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"106.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0,3</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0,4</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">tid (s)</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">spänning (V)</text><path d=\"M60.0 208.6 L62.312 207.708 L64.625 206.815 L66.938 205.923 L69.25 205.03 L71.562 204.137 L73.875 203.245 L76.188 202.353 L78.5 201.46 L80.812 200.567 L83.125 199.675 L85.438 198.782 L87.75 197.89 L90.062 196.998 L92.375 196.105 L94.688 195.213 L97.0 194.32 L99.312 193.428 L101.625 192.535 L103.938 191.643 L106.25 190.75 L108.562 189.858 L110.875 188.965 L113.188 188.072 L115.5 187.18 L117.812 186.288 L120.125 185.395 L122.438 184.502 L124.75 183.61 L127.062 182.718 L129.375 181.825 L131.688 180.933 L134.0 180.04 L136.312 179.148 L138.625 178.255 L140.938 177.363 L143.25 176.47 L145.562 175.578 L147.875 174.685 L150.188 173.793 L152.5 172.9 L154.812 172.008 L157.125 171.115 L159.438 170.222 L161.75 169.33 L164.062 168.438 L166.375 167.545 L168.688 166.653 L171.0 165.76 L173.312 164.868 L175.625 163.975 L177.938 163.082 L180.25 162.19 L182.562 161.298 L184.875 160.405 L187.188 159.512 L189.5 158.62 L191.812 157.727 L194.125 156.835 L196.438 155.942 L198.75 155.05 L201.063 154.157 L203.375 153.265 L205.688 152.373 L208.0 151.48 L210.312 150.588 L212.625 149.695 L214.938 148.803 L217.25 147.91 L219.562 147.018 L221.875 146.125 L224.188 145.232 L226.5 144.34 L228.812 143.447 L231.125 142.555 L233.438 141.663 L235.75 140.77 L238.062 139.877 L240.375 138.985 L242.688 138.093 L245.0 137.2 L247.312 136.308 L249.625 135.415 L251.938 134.523 L254.25 133.63 L256.562 132.738 L258.875 131.845 L261.188 130.953 L263.5 130.06 L265.812 129.168 L268.125 128.275 L270.438 127.383 L272.75 126.49 L275.062 125.597 L277.375 124.705 L279.688 123.813 L282.0 122.92 L284.312 122.028 L286.625 121.135 L288.938 120.243 L291.25 119.35 L293.563 118.458 L295.875 117.565 L298.188 116.673 L300.5 115.78 L302.812 114.888 L305.125 113.995 L307.438 113.103 L309.75 112.21 L312.062 111.318 L314.375 110.425 L316.688 109.533 L319.0 108.64 L321.312 107.748 L323.625 106.855 L325.937 105.963 L328.25 105.07 L330.562 104.178 L332.875 103.285 L335.187 102.393 L337.5 101.5 L339.812 100.608 L342.125 99.715 L344.437 98.822 L346.75 97.93 L349.062 97.037 L351.375 96.145 L353.688 95.252 L356.0 94.36 L358.312 93.468 L360.625 92.575 L362.938 91.683 L365.25 90.79 L367.562 89.898 L369.875 89.005 L372.188 88.113 L374.5 87.22 L376.812 86.327 L379.125 85.435 L381.438 84.542 L383.75 83.65 L386.062 82.757 L388.375 81.865 L390.688 80.972 L393.0 80.08 L395.312 79.188 L397.625 78.295 L399.938 77.403 L402.25 76.51 L404.562 75.618 L406.875 74.725 L409.188 73.832 L411.5 72.94 L413.812 72.048 L416.125 71.155 L418.438 70.263 L420.75 69.37 L423.062 68.478 L425.375 67.585 L427.688 66.693 L430.0 65.8\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-fy2-520)\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Samma stav och fält används hela tiden. Spänningarna ger farterna vid början och slutet. Accelerationen är fartändringen dividerad med tiden.</p><div class=\"facit-matte\">\\[\\begin{gathered}v_1=\\frac{0{,}12}{0{,}50\\cdot0{,}30}=0{,}80\\ \\text{m/s}\\\\v_2=\\frac{0{,}36}{0{,}50\\cdot0{,}30}=2{,}4\\ \\text{m/s}\\\\a=\\frac{2{,}4-0{,}80}{0{,}40}=4{,}0\\ \\text{m/s}^2\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 4,0 m/s².</p></div>",
+  "formaga": [
+    "procedur",
+    "problemlosning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilka farter motsvarar spänningen i början och i slutet?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m/s²",
+  "svarVardesiffror": 2
+},
+{
+  "id": "3.521",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "typ": "Staven dras åt höger genom magnetfältet, men strömbrytaren är öppen. Vilket påstående stämmer",
+  "poang": "(1/0/0)",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "t": "<p>Staven dras åt höger genom magnetfältet, men strömbrytaren är öppen. Vilket påstående stämmer?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Stav PQ i magnetfält in i bilden. Rörelsen är åt höger. Strömbrytaren är öppen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><circle cx=\"160\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 76L164 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 84L164 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 141L164 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 149L164 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 206L164 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 214L164 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 76L224 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 84L224 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 141L224 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 149L224 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 206L224 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 214L224 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 76L374 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 84L374 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 141L374 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 149L374 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 206L374 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 214L374 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 76L419 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 84L419 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 141L419 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 149L419 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 206L419 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 214L419 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M100 60L410 60\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 230L410 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 60L100 120\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 170L100 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"120\" r=\"3\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"170\" r=\"3\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 120L80 151\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"65\" y=\"149\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">öppen</text><path d=\"M285 60L285 230\" fill=\"none\" stroke=\"#a86c35\" stroke-width=\"7\"/><path d=\"M305 145L353 145\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M345.02 149.16L353 145L345.02 140.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"328\" y=\"130\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">v</text><text x=\"269\" y=\"55\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">P</text><text x=\"269\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">Q</text><text x=\"240\" y=\"278\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Strömbrytaren är öppen.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Magnetfältet förskjuter elektronerna i den rörliga staven, så en spänning uppstår mellan ändarna. Strömbrytaren bryter kretsen och hindrar en ström runt den.</p><p class=\"facit-svar\"><strong>Svar:</strong> Spänning mellan P och Q, men ingen ström runt kretsen.</p></div>",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Behövs en sluten krets för att laddningar ska kunna förskjutas i själva staven?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Det finns spänning mellan P och Q, men ingen ström runt kretsen.",
+      "ratt": true
+    },
+    {
+      "txt": "Varken spänning eller ström kan uppstå.",
+      "ratt": false,
+      "kommentar": "En sluten krets krävs för ström, men inte för spänning mellan stavens ändar."
+    },
+    {
+      "txt": "Det går ström runt kretsen, men spänningen är noll.",
+      "ratt": false,
+      "kommentar": "Strömbrytaren bryter kretsen."
+    },
+    {
+      "txt": "Både spänning och ström runt kretsen är oförändrade jämfört med sluten brytare.",
+      "ratt": false,
+      "kommentar": "En öppen brytare stoppar strömmen runt kretsen."
+    }
+  ]
+},
+{
+  "id": "3.522",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "typ": "tan att vridas. Hela slingan är hela tiden inne i samma homogena, konstanta magnetfält. Går det någon inducerad ström runt slingan",
+  "poang": "(1/0/0)",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "t": "<p>En sluten rektangulär ledarslinga flyttas åt höger utan att vridas. Hela slingan är hela tiden inne i samma homogena, konstanta magnetfält. Går det någon inducerad ström runt slingan?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"En sluten slinga rör sig åt höger helt inne i ett homogent magnetfält.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><rect x=\"45\" y=\"45\" width=\"360\" height=\"175\" rx=\"0\" fill=\"#eaf2fb\" stroke=\"none\" stroke-width=\"2\"/><circle cx=\"75\" cy=\"75\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M71 71L79 79\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M71 79L79 71\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"75\" cy=\"135\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M71 131L79 139\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M71 139L79 131\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"75\" cy=\"195\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M71 191L79 199\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M71 199L79 191\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"145\" cy=\"75\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M141 71L149 79\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M141 79L149 71\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"145\" cy=\"135\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M141 131L149 139\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M141 139L149 131\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"145\" cy=\"195\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M141 191L149 199\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M141 199L149 191\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"215\" cy=\"75\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M211 71L219 79\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M211 79L219 71\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"215\" cy=\"135\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M211 131L219 139\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M211 139L219 131\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"215\" cy=\"195\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M211 191L219 199\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M211 199L219 191\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"285\" cy=\"75\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M281 71L289 79\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M281 79L289 71\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"285\" cy=\"195\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M281 191L289 199\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M281 199L289 191\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"355\" cy=\"75\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M351 71L359 79\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M351 79L359 71\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"355\" cy=\"135\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M351 131L359 139\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M351 139L359 131\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"355\" cy=\"195\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M351 191L359 199\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M351 199L359 191\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"97\" width=\"120\" height=\"75\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M290 132L340 132\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M332.02 136.16L340 132L332.02 127.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"314\" y=\"114\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">v</text><text x=\"240\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Konstant magnetfält in i bilden</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Slingans area, riktning och magnetfält är oförändrade. Flödet genom slingan ändras därför inte. Bidragen från de två rörliga sidorna tar ut varandra.</p><p class=\"facit-svar\"><strong>Svar:</strong> Nej, flödet genom slingan är konstant.</p></div>",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ändras magnetfältet genom ytan som slingan omsluter?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ja, medurs eftersom slingan rör sig åt höger.",
+      "ratt": false,
+      "kommentar": "Rörelse räcker inte; flödet genom hela slingan måste ändras."
+    },
+    {
+      "txt": "Ja, moturs eftersom fältet är riktat in i bilden.",
+      "ratt": false,
+      "kommentar": "Fältriktningen ensam avgör inte om ström induceras."
+    },
+    {
+      "txt": "Ja, men bara om farten är konstant.",
+      "ratt": false,
+      "kommentar": "Konstant fart ger inte ström när hela slingan är kvar i samma fält."
+    },
+    {
+      "txt": "Nej, eftersom magnetflödet genom slingan inte ändras.",
+      "ratt": true
+    }
+  ]
+},
+{
+  "id": "3.523",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "typ": "etfältet, som är 0,60 T och riktat in i bilden. Utanför det blå området är fältet noll. Hur stor spänning induceras mellan P och Q",
+  "poang": "(1/0/0)",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "t": "<p>En 30 cm lång stav dras åt höger med 2,5 m/s. Bara de översta 12 cm befinner sig i magnetfältet, som är 0,60 T och riktat in i bilden. Utanför det blå området är fältet noll. Hur stor spänning induceras mellan P och Q? (Svara i V.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Stav PQ i magnetfält in i bilden. Rörelsen är åt höger. Längd i fältet: 12 cm\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><rect x=\"135\" y=\"45\" width=\"285\" height=\"83\" rx=\"0\" fill=\"#e9f1fb\" stroke=\"none\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 76L164 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 84L164 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"110\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 106L164 114\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 114L164 106\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 76L224 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 84L224 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"110\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 106L224 114\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 114L224 106\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 76L374 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 84L374 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"110\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 106L374 114\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 114L374 106\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 76L419 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 84L419 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"110\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 106L419 114\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 114L419 106\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M285 60L285 230\" fill=\"none\" stroke=\"#a86c35\" stroke-width=\"7\"/><path d=\"M305 145L353 145\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M345.02 149.16L353 145L345.02 140.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"328\" y=\"169\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">v</text><text x=\"269\" y=\"34\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">P</text><text x=\"269\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">Q</text><text x=\"240\" y=\"278\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Längd i fältet: 12 cm</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Bara den del av staven som är inne i fältet bidrar. Använd därför 12 cm = 0,12 m, inte hela stavlängden.</p><div class=\"facit-matte\">\\[e=Blv=0{,}60\\cdot0{,}12\\cdot2{,}5=0{,}18\\ \\text{V}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,18 V.</p></div>",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken del av staven påverkas av magnetfältet?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.18,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "V",
+  "svarVardesiffror": 2
+},
+{
+  "id": "3.524",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "C",
+  "typ": "bilden. Kretsens resistans är 2,0 Ω. Bortse från friktion. Hur mycket arbete krävs för att hålla farten konstant under dessa 4,0 s",
+  "poang": "(0/1/0)",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "t": "<p>En 0,50 m lång stav dras med konstant fart 3,0 m/s i 4,0 s på skenorna. Magnetfältet är 0,80 T in i bilden. Kretsens resistans är 2,0 Ω. Bortse från friktion. Hur mycket arbete krävs för att hålla farten konstant under dessa 4,0 s? (Svara i J.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Stav PQ i magnetfält in i bilden. Rörelsen är åt höger. B = 0,80 T; R = 2,0 Ω\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><circle cx=\"160\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 76L164 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 84L164 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 141L164 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 149L164 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 206L164 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 214L164 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 76L224 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 84L224 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 141L224 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 149L224 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 206L224 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 214L224 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 76L374 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 84L374 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 141L374 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 149L374 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 206L374 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 214L374 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 76L419 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 84L419 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 141L419 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 149L419 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 206L419 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 214L419 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M100 60L410 60\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 230L410 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 60L100 120\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M100 170L100 230\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"89\" y=\"120\" width=\"22\" height=\"50\" rx=\"0\" fill=\"white\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"70\" y=\"150\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"end\" fill=\"#243447\">R</text><path d=\"M285 60L285 230\" fill=\"none\" stroke=\"#a86c35\" stroke-width=\"7\"/><path d=\"M305 145L353 145\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M345.02 149.16L353 145L345.02 140.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"328\" y=\"130\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">v</text><text x=\"269\" y=\"55\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">P</text><text x=\"269\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">Q</text><text x=\"240\" y=\"278\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">B = 0,80 T; R = 2,0 Ω</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Arbetet mot den magnetiska bromskraften omvandlas till värme i kretsen. Beräkna spänningen, den elektriska effekten och energin under de fyra sekunderna.</p><div class=\"facit-matte\">\\[\\begin{gathered}e=0{,}80\\cdot0{,}50\\cdot3{,}0=1{,}2\\ \\text{V}\\\\P=\\frac{e^2}{R}=\\frac{1{,}2^2}{2{,}0}=0{,}72\\ \\text{W}\\\\W=Pt=0{,}72\\cdot4{,}0=2{,}88\\ \\text{J}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2,9 J.</p></div>",
+  "formaga": [
+    "procedur",
+    "problemlosning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vart tar arbetet vägen när farten är konstant?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 2.88,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "J",
+  "svarVardesiffror": 2
+},
+{
+  "id": "3.525",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "C",
+  "typ": "norna mellan dem bildar en sluten krets med resistansen 1,5 Ω. Magnetfältet är 0,40 T in i bilden. Hur stor ström går runt kretsen",
+  "poang": "(0/1/0)",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "t": "<p>Två metallstavar glider åt höger på samma skenor, med farterna i figuren. Skenorna är inte hopkopplade vid ändarna. Stavarna och skenorna mellan dem bildar en sluten krets med resistansen 1,5 Ω. Magnetfältet är 0,40 T in i bilden. Hur stor ström går runt kretsen? (Svara i A.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Två stavar på skenor med avstånd 0,25 m, den vänstra går åt höger med 2 m/s och den högra med 5 m/s.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><path d=\"M50 75L435 75\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M50 225L435 225\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M140 75L140 225\" fill=\"none\" stroke=\"#a86c35\" stroke-width=\"6\"/><path d=\"M320 75L320 225\" fill=\"none\" stroke=\"#a86c35\" stroke-width=\"6\"/><circle cx=\"90\" cy=\"110\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M86 106L94 114\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M86 114L94 106\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"90\" cy=\"190\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M86 186L94 194\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M86 194L94 186\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"200\" cy=\"110\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M196 106L204 114\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M196 114L204 106\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"200\" cy=\"190\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M196 186L204 194\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M196 194L204 186\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"260\" cy=\"110\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M256 106L264 114\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M256 114L264 106\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"260\" cy=\"190\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M256 186L264 194\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M256 194L264 186\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"390\" cy=\"110\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M386 106L394 114\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M386 114L394 106\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"390\" cy=\"190\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M386 186L394 194\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M386 194L394 186\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M150 145L207 145\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M199.02 149.16L207 145L199.02 140.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"175\" y=\"133\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#b74738\">2,0 m/s</text><path d=\"M330 145L415 145\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M407.02 149.16L415 145L407.02 140.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"377\" y=\"133\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#b74738\">5,0 m/s</text><text x=\"240\" y=\"265\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Skenavstånd: 0,25 m</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Båda stavarnas övre ändar får högre potential. Spänningarna motverkar därför varandra runt kretsen. Använd skillnaden mellan dem; samma resultat fås från hur snabbt arean mellan stavarna ökar.</p><div class=\"facit-matte\">\\[\\begin{gathered}e_{\\text{netto}}=Bl(v_2-v_1)\\\\=0{,}40\\cdot0{,}25\\cdot(5{,}0-2{,}0)=0{,}30\\ \\text{V}\\\\I=\\frac{0{,}30}{1{,}5}=0{,}20\\ \\text{A}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,20 A.</p></div>",
+  "formaga": [
+    "procedur",
+    "problemlosning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Jämför stavarnas spänningar. Hjälper de varandra eller motverkar de varandra runt kretsen?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "A",
+  "svarVardesiffror": 2
+},
+{
+  "id": "3.526",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "typ": " Q. Sedan vänds både rörelsen och magnetfältet, utan att farten eller fältstyrkan ändras. Vad händer med spänningen mellan P och Q",
+  "poang": "(1/0/0)",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "t": "<p>Staven rör sig först åt höger i ett magnetfält in i bilden. Då blir P positiv jämfört med Q. Sedan vänds både rörelsen och magnetfältet, utan att farten eller fältstyrkan ändras. Vad händer med spänningen mellan P och Q?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Stav PQ i magnetfält in i bilden. Rörelsen är åt höger. Första försöket\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><circle cx=\"160\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 76L164 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 84L164 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 141L164 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 149L164 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 206L164 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 214L164 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 76L224 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 84L224 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 141L224 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 149L224 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 206L224 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 214L224 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 76L374 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 84L374 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 141L374 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 149L374 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 206L374 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 214L374 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 76L419 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 84L419 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 141L419 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 149L419 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 206L419 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 214L419 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M285 60L285 230\" fill=\"none\" stroke=\"#a86c35\" stroke-width=\"7\"/><path d=\"M305 145L353 145\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M345.02 149.16L353 145L345.02 140.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"328\" y=\"130\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">v</text><text x=\"269\" y=\"55\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">P</text><text x=\"269\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">Q</text><text x=\"240\" y=\"278\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Första försöket</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Att vända rörelsen byter kraftens riktning på laddningarna. Att samtidigt vända magnetfältet byter tillbaka riktningen. Storleken är densamma eftersom B, l och farten är oförändrade.</p><p class=\"facit-svar\"><strong>Svar:</strong> P är fortfarande positiv och spänningen är lika stor.</p></div>",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Tänk först vad som händer om bara rörelsen vänds, och därefter om även fältet vänds.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Q blir positiv och spänningen är lika stor.",
+      "ratt": false,
+      "kommentar": "Det gäller om bara rörelsen eller bara fältet vänds."
+    },
+    {
+      "txt": "P är fortfarande positiv och spänningen är lika stor.",
+      "ratt": true
+    },
+    {
+      "txt": "Spänningen blir noll.",
+      "ratt": false,
+      "kommentar": "Rörelse och fält är fortfarande vinkelräta."
+    },
+    {
+      "txt": "P är positiv men spänningen blir dubbelt så stor.",
+      "ratt": false,
+      "kommentar": "Farten och fältstyrkan har inte ökats."
+    }
+  ]
+},
+{
+  "id": "3.527",
+  "kap": 3,
+  "omr": "induktion_ledare",
+  "niva": "E",
+  "typ": "ven PQ flyttas uppåt längs sin egen längdriktning. Magnetfältet är riktat in i bilden. Induceras det någon spänning mellan P och Q",
+  "poang": "(1/0/0)",
+  "familj": "Induktion i grafer, riktningar och tillämpningar",
+  "t": "<p>Staven PQ flyttas uppåt längs sin egen längdriktning. Magnetfältet är riktat in i bilden. Induceras det någon spänning mellan P och Q?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"Stav PQ i magnetfält in i bilden. Rörelsen är längs staven. Staven rör sig längs sin egen riktning.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><circle cx=\"160\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 76L164 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 84L164 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 141L164 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 149L164 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"160\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M156 206L164 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M156 214L164 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 76L224 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 84L224 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 141L224 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 149L224 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"220\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M216 206L224 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M216 214L224 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 76L374 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 84L374 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 141L374 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 149L374 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"370\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M366 206L374 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M366 214L374 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"80\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 76L419 84\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 84L419 76\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 141L419 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 149L419 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"415\" cy=\"210\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M411 206L419 214\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M411 214L419 206\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M285 60L285 230\" fill=\"none\" stroke=\"#a86c35\" stroke-width=\"7\"/><path d=\"M285 45L285 12\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M289.16 19.98L285 12L280.84 19.98\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"310\" y=\"27\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#b74738\">v</text><text x=\"269\" y=\"55\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">P</text><text x=\"269\" y=\"249\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">Q</text><text x=\"240\" y=\"278\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">Staven rör sig längs sin egen riktning.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Den magnetiska kraften på laddningarna verkar åt sidan, tvärs staven. Den separerar alltså inte laddning mellan ändarna P och Q. Därför blir spänningen mellan just dessa ändar noll.</p><p class=\"facit-svar\"><strong>Svar:</strong> Nej, ingen spänning mellan P och Q.</p></div>",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Åt vilket håll verkar den magnetiska kraften på laddningarna?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ja, eftersom rörelsen är vinkelrät mot magnetfältet.",
+      "ratt": false,
+      "kommentar": "Även stavens riktning spelar roll för spänningen mellan ändarna."
+    },
+    {
+      "txt": "Ja, P blir positiv eftersom den är längst fram.",
+      "ratt": false,
+      "kommentar": "Det avgörande är kraftens riktning på laddningarna."
+    },
+    {
+      "txt": "Nej, kraften på laddningarna verkar tvärs staven.",
+      "ratt": true
+    },
+    {
+      "txt": "Ja, spänningen blir större ju längre staven är.",
+      "ratt": false,
+      "kommentar": "Längden ger inget bidrag när kraften är tvärs staven."
+    }
+  ]
+},
+{
+  "id": "3.528",
+  "kap": 3,
+  "omr": "induktion",
+  "niva": "E",
+  "typ": "en visar magnetflödet genom ett varv i en spole med 50 varv. Hur stor är den största inducerade spänningen under de 2,5 sekunderna",
+  "poang": "(1/0/0)",
+  "familj": "Magnetiskt flöde och Faradays lag",
+  "t": "<p>Grafen visar magnetflödet genom ett varv i en spole med 50 varv. Hur stor är den största inducerade spänningen under de 2,5 sekunderna? (Svara i V.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Flödet växer från 0 till 4 mWb under 1 s, är konstant till 2 s och faller till noll vid 2,5 s.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><defs><clipPath id=\"clip-fy2-528\"><rect x=\"60\" y=\"42\" width=\"370\" height=\"238\"/></clipPath></defs><path d=\"M60.0 42L60.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"60.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0</text><path d=\"M134.0 42L134.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"134.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0,5</text><path d=\"M208.0 42L208.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"208.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1</text><path d=\"M282.0 42L282.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"282.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">1,5</text><path d=\"M356.0 42L356.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"356.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2</text><path d=\"M430.0 42L430.0 280\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"430.0\" y=\"302\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">2,5</text><path d=\"M60 280.0L430 280.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">0</text><path d=\"M60 220.5L430 220.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"225.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">1</text><path d=\"M60 161.0L430 161.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">2</text><path d=\"M60 101.5L430 101.5\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"106.5\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">3</text><path d=\"M60 42.0L430 42.0\" fill=\"none\" stroke=\"#d7e0e8\" stroke-width=\"1\"/><text x=\"49\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"end\" fill=\"#243447\">4</text><path d=\"M60 280L443 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M60 280L60 32\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"430\" y=\"329\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#243447\">tid (s)</text><text x=\"60\" y=\"23\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"start\" fill=\"#243447\">flöde per varv (mWb)</text><path d=\"M60.0 280.0 L62.312 276.281 L64.625 272.562 L66.938 268.844 L69.25 265.125 L71.562 261.406 L73.875 257.688 L76.188 253.969 L78.5 250.25 L80.812 246.531 L83.125 242.812 L85.438 239.094 L87.75 235.375 L90.062 231.656 L92.375 227.938 L94.688 224.219 L97.0 220.5 L99.312 216.781 L101.625 213.062 L103.938 209.344 L106.25 205.625 L108.562 201.906 L110.875 198.188 L113.188 194.469 L115.5 190.75 L117.812 187.031 L120.125 183.312 L122.438 179.594 L124.75 175.875 L127.062 172.156 L129.375 168.438 L131.688 164.719 L134.0 161.0 L136.312 157.281 L138.625 153.562 L140.938 149.844 L143.25 146.125 L145.562 142.406 L147.875 138.688 L150.188 134.969 L152.5 131.25 L154.812 127.531 L157.125 123.812 L159.438 120.094 L161.75 116.375 L164.062 112.656 L166.375 108.938 L168.688 105.219 L171.0 101.5 L173.312 97.781 L175.625 94.062 L177.938 90.344 L180.25 86.625 L182.562 82.906 L184.875 79.188 L187.188 75.469 L189.5 71.75 L191.812 68.031 L194.125 64.312 L196.438 60.594 L198.75 56.875 L201.062 53.156 L203.375 49.438 L205.688 45.719 L208.0 42.0 L210.312 42.0 L212.625 42.0 L214.938 42.0 L217.25 42.0 L219.562 42.0 L221.875 42.0 L224.188 42.0 L226.5 42.0 L228.812 42.0 L231.125 42.0 L233.438 42.0 L235.75 42.0 L238.062 42.0 L240.375 42.0 L242.688 42.0 L245.0 42.0 L247.312 42.0 L249.625 42.0 L251.938 42.0 L254.25 42.0 L256.562 42.0 L258.875 42.0 L261.188 42.0 L263.5 42.0 L265.812 42.0 L268.125 42.0 L270.438 42.0 L272.75 42.0 L275.062 42.0 L277.375 42.0 L279.688 42.0 L282.0 42.0 L284.312 42.0 L286.625 42.0 L288.938 42.0 L291.25 42.0 L293.562 42.0 L295.875 42.0 L298.188 42.0 L300.5 42.0 L302.812 42.0 L305.125 42.0 L307.438 42.0 L309.75 42.0 L312.062 42.0 L314.375 42.0 L316.688 42.0 L319.0 42.0 L321.312 42.0 L323.625 42.0 L325.938 42.0 L328.25 42.0 L330.562 42.0 L332.875 42.0 L335.188 42.0 L337.5 42.0 L339.812 42.0 L342.125 42.0 L344.438 42.0 L346.75 42.0 L349.062 42.0 L351.375 42.0 L353.688 42.0 L356.0 42.0 L358.312 49.438 L360.625 56.875 L362.938 64.312 L365.25 71.75 L367.562 79.188 L369.875 86.625 L372.188 94.062 L374.5 101.5 L376.812 108.938 L379.125 116.375 L381.438 123.812 L383.75 131.25 L386.062 138.688 L388.375 146.125 L390.688 153.562 L393.0 161.0 L395.312 168.438 L397.625 175.875 L399.938 183.312 L402.25 190.75 L404.562 198.188 L406.875 205.625 L409.188 213.062 L411.5 220.5 L413.812 227.938 L416.125 235.375 L418.438 242.812 L420.75 250.25 L423.062 257.688 L425.375 265.125 L427.688 272.562 L430.0 280.0\" stroke=\"#2b67a2\" fill=\"none\" stroke-width=\"3\" clip-path=\"url(#clip-fy2-528)\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Spänningen beror på hur snabbt flödet ändras, inte på hur stort flödet är. Den brantaste delen är minskningen från 4 mWb till noll på 0,50 s. Vid platån är spänningen noll.</p><div class=\"facit-matte\">\\[|e|=N\\frac{|\\Delta\\Phi|}{\\Delta t}=50\\cdot\\frac{0{,}0040}{0{,}50}=0{,}40\\ \\text{V}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,40 V.</p></div>",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>I vilken del av grafen ändras flödet snabbast?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.4,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "V",
+  "svarVardesiffror": 2
+},
+{
+  "id": "3.529",
+  "kap": 3,
+  "omr": "induktion",
+  "niva": "E",
+  "typ": "fältet är vinkelrätt mot spolen och ökar jämnt från 0 till 0,12 T på 0,040 s. Då mäts spänningen 0,60 V. Hur många varv har spolen",
+  "poang": "(1/0/0)",
+  "familj": "Magnetiskt flöde och Faradays lag",
+  "t": "<p>En spole har arean 20 cm² per varv. Magnetfältet är vinkelrätt mot spolen och ökar jämnt från 0 till 0,12 T på 0,040 s. Då mäts spänningen 0,60 V. Hur många varv har spolen? (Svara med ett heltal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 278\" role=\"img\" aria-label=\"En spole med okänt antal varv\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"278\" fill=\"white\"/><text x=\"240\" y=\"28\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">En spole med okänt antal varv</text><rect x=\"60.0\" y=\"48\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"#eaf1fa\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"76\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Storhet</text><rect x=\"240.0\" y=\"48\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"#eaf1fa\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"76\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Mätvärde</text><rect x=\"60.0\" y=\"91\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"119\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Area per varv</text><rect x=\"240.0\" y=\"91\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"119\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">20 cm²</text><rect x=\"60.0\" y=\"134\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"162\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Fältändring</text><rect x=\"240.0\" y=\"134\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"162\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">0,12 T</text><rect x=\"60.0\" y=\"177\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Tid</text><rect x=\"240.0\" y=\"177\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"205\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">0,040 s</text><rect x=\"60.0\" y=\"220\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"150.0\" y=\"248\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Spänning</text><rect x=\"240.0\" y=\"220\" width=\"180.0\" height=\"43\" rx=\"0\" fill=\"white\" stroke=\"#a2b1c0\" stroke-width=\"2\"/><text x=\"330.0\" y=\"248\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">0,60 V</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Arean är 0,0020 m². Flödesändringen per varv är arean gånger fältändringen. Lös sedan ut antalet varv ur Faradays lag.</p><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta\\Phi=0{,}0020\\cdot0{,}12=0{,}00024\\ \\text{Wb}\\\\N=\\frac{e\\Delta t}{\\Delta\\Phi}=\\frac{0{,}60\\cdot0{,}040}{0{,}00024}=100\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 100 varv.</p></div>",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur stor flödesändring får ett enda varv?</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 100,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": null
+},
+{
+  "id": "3.530",
+  "kap": 3,
+  "omr": "induktion",
+  "niva": "E",
+  "typ": "arna hålls stilla och magneten förs fram med samma fart i båda försöken. I vilket fall märks den magnetiska bromskraften tydligast",
+  "poang": "(1/0/0)",
+  "familj": "Lenz lag",
+  "t": "<p>En magnet förs mot en hel kopparring och sedan mot en likadan ring med en springa. Ringarna hålls stilla och magneten förs fram med samma fart i båda försöken. I vilket fall märks den magnetiska bromskraften tydligast?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 350\" role=\"img\" aria-label=\"Två lika kopparringar, en sluten och en med springa. En magnet närmar sig vardera ringen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"350\" fill=\"white\"/><text x=\"240\" y=\"25\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Hel ring</text><rect x=\"80\" y=\"68\" width=\"55\" height=\"44\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><rect x=\"135\" y=\"68\" width=\"55\" height=\"44\" rx=\"0\" fill=\"#b74738\" stroke=\"#b74738\" stroke-width=\"2\"/><text x=\"107\" y=\"97\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"white\">S</text><text x=\"162\" y=\"97\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"white\">N</text><path d=\"M210 90L275 90\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M267.02 94.16L275 90L267.02 85.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><ellipse cx=\"330\" cy=\"90\" rx=\"18\" ry=\"55\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"240\" y=\"185\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#243447\">Ring med springa</text><rect x=\"80\" y=\"228\" width=\"55\" height=\"44\" rx=\"0\" fill=\"#2b67a2\" stroke=\"#2b67a2\" stroke-width=\"2\"/><rect x=\"135\" y=\"228\" width=\"55\" height=\"44\" rx=\"0\" fill=\"#b74738\" stroke=\"#b74738\" stroke-width=\"2\"/><text x=\"107\" y=\"257\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"white\">S</text><text x=\"162\" y=\"257\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"white\">N</text><path d=\"M210 250L275 250\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M267.02 254.16L275 250L267.02 245.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M339 202.37 A18 55 0 1 1 321 202.37\" fill=\"none\" stroke=\"#243447\" stroke-width=\"3\"/><text x=\"240\" y=\"330\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Ringarna ses snett från sidan.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>I den hela ringen kan en inducerad ström gå runt. Dess magnetfält motverkar magnetens rörelse. Springan bryter strömvägen, så bromsningen blir mycket mindre.</p><p class=\"facit-svar\"><strong>Svar:</strong> Vid den hela ringen.</p></div>",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>I vilken ring kan en ström gå hela vägen runt?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Vid ringen med springa, eftersom laddningar samlas vid springan.",
+      "ratt": false,
+      "kommentar": "Laddningsseparation ersätter inte en ström runt hela ringen."
+    },
+    {
+      "txt": "Lika mycket, eftersom ringarna är av samma material.",
+      "ratt": false,
+      "kommentar": "En sammanhängande strömväg har betydelse."
+    },
+    {
+      "txt": "Ingen bromsning alls, eftersom koppar inte är en magnet.",
+      "ratt": false,
+      "kommentar": "Även koppar kan leda inducerad ström och därmed ge ett magnetfält."
+    },
+    {
+      "txt": "Vid den hela ringen, eftersom en ström kan gå runt den.",
+      "ratt": true
+    }
+  ]
+},
+{
+  "id": "3.531",
+  "kap": 3,
+  "omr": "induktion",
+  "niva": "C",
+  "typ": "är konstant. Under hur lång tid sammanlagt induceras spänning runt slingan, från att den börjar gå in tills den har lämnat området",
+  "poang": "(0/1/0)",
+  "familj": "Magnetiskt flöde och Faradays lag",
+  "t": "<p>En sluten slinga förs helt igenom magnetfältet med konstant fart 0,50 m/s. Slingans bredd i rörelseriktningen är 0,20 m. Fältområdet är 0,60 m brett och fältet är konstant. Under hur lång tid sammanlagt induceras spänning runt slingan, från att den börjar gå in tills den har lämnat området? (Svara i s.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 300\" role=\"img\" aria-label=\"En slinga med bredd 0,20 m rör sig genom ett fältområde med bredd 0,60 m.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"300\" fill=\"white\"/><rect x=\"160\" y=\"55\" width=\"255\" height=\"165\" rx=\"0\" fill=\"#eaf2fb\" stroke=\"none\" stroke-width=\"2\"/><circle cx=\"185\" cy=\"85\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M181 81L189 89\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M181 89L189 81\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"185\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M181 141L189 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M181 149L189 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"185\" cy=\"195\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M181 191L189 199\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M181 199L189 191\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"245\" cy=\"85\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M241 81L249 89\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M241 89L249 81\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"245\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M241 141L249 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M241 149L249 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"245\" cy=\"195\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M241 191L249 199\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M241 199L249 191\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"305\" cy=\"85\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M301 81L309 89\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M301 89L309 81\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"305\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M301 141L309 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M301 149L309 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"305\" cy=\"195\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M301 191L309 199\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M301 199L309 191\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"375\" cy=\"85\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M371 81L379 89\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M371 89L379 81\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"375\" cy=\"145\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M371 141L379 149\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M371 149L379 141\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><circle cx=\"375\" cy=\"195\" r=\"7\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"2\"/><path d=\"M371 191L379 199\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><path d=\"M371 199L379 191\" fill=\"none\" stroke=\"#2b67a2\" stroke-width=\"1.5\"/><rect x=\"45\" y=\"95\" width=\"85\" height=\"85\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M85 230L140 230\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><path d=\"M132.02 234.16L140 230L132.02 225.84\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"3\"/><text x=\"82\" y=\"252\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">0,50 m/s</text><path d=\"M45 84L130 84\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M45 77L45 91\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M130 77L130 91\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"87\" y=\"70\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">0,20 m</text><path d=\"M160 40L415 40\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M160 33L160 47\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M415 33L415 47\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"287\" y=\"29\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">0,60 m</text><text x=\"287\" y=\"266\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\">Fältet är noll utanför området.</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Flödet ändras när slingan går in och när den går ut. Varje passage över en fältgräns tar slingans bredd dividerad med farten. Med hela slingan inne i fältet är flödet konstant och spänningen noll.</p><div class=\"facit-matte\">\\[\\begin{gathered}t_{\\text{in}}=t_{\\text{ut}}=\\frac{0{,}20}{0{,}50}=0{,}40\\ \\text{s}\\\\t_{\\text{totalt}}=0{,}40+0{,}40=0{,}80\\ \\text{s}\\end{gathered}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 0,80 s.</p></div>",
+  "formaga": [
+    "procedur",
+    "problemlosning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skilj tiden vid fältgränserna från tiden då hela slingan är inne i fältet.</p>",
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.8,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "s",
+  "svarVardesiffror": 2
 },
 {
   "id": "5.400",

@@ -107279,5 +107279,223 @@ window.BANKMATO1 = [
   "kurs": [
     "1c"
   ]
+},
+{
+  "id": "4.526",
+  "kap": 4,
+  "omr": "sinussatsen",
+  "niva": "E",
+  "typ": "para ihop en sida med rätt motstående vinkel",
+  "poang": "1/0/0",
+  "t": "<p>Vilken av de markerade vinklarna hör ihop med sidan 10 cm när du använder sinussatsen? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Triangel med basen 10 cm. Vinklarna vid basens ändpunkter är 40 och 65 grader, och toppvinkeln är 75 grader.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"10\" data-side-b=\"9.382788640392178\" data-angle=\"40\" points=\"90.77448743257119,245.0 389.22551256742884,245.0 305.290134099529,65.0\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"240.0\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">10 cm</text><path data-vertex=\"0\" data-angle-arc=\"40.00000000000001\" d=\"M114.77448743257119 245.0 A24 24 0 0 0 109.15955406742667 229.57309736752305\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"145.27665943815387\" y=\"230.1628316871112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">40°</text><path data-vertex=\"1\" data-angle-arc=\"65.00000000000003\" d=\"M379.08267428565205 223.2486131111204 A24 24 0 0 0 365.22551256742884 245.00000000000003\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"350.4295060600361\" y=\"225.2842180160461\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">65°</text><path data-vertex=\"2\" data-angle-arc=\"75.00000000000001\" d=\"M286.9050674646735 80.42690263247695 A24 24 0 0 0 315.4329723813058 86.7513868888796\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"295.33391185837627\" y=\"114.90961632751694\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">75°</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Sinussatsen parar ihop varje sida med vinkeln mittemot sidan. Sidan 10 cm ligger mittemot vinkeln 75°, inte någon av vinklarna vid sidans ändpunkter.</p><p class=\"facit-svar\"><strong>Svar:</strong> 75°.</p></div>",
+  "familj": "Använda sinussatsen",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Följ sidan 10 cm. Vilket hörn ligger på andra sidan triangeln?</p>",
+  "alternativ": [
+    {
+      "txt": "40°",
+      "ratt": false,
+      "kommentar": "Den vinkeln ligger vid ena ändpunkten av sidan 10 cm."
+    },
+    {
+      "txt": "65°",
+      "ratt": false,
+      "kommentar": "Den vinkeln ligger vid den andra ändpunkten av sidan 10 cm."
+    },
+    {
+      "txt": "75°",
+      "ratt": true,
+      "kommentar": "Den vinkeln ligger mittemot sidan 10 cm."
+    },
+    {
+      "txt": "105°",
+      "ratt": false,
+      "kommentar": "Det är ingen av triangelns markerade vinklar."
+    }
+  ],
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.527",
+  "kap": 4,
+  "omr": "sinussatsen",
+  "niva": "E",
+  "typ": "använda ett känt gemensamt värde i sinussatsen",
+  "poang": "1/0/0",
+  "t": "<p>I triangeln gäller \\(\\dfrac{a}{\\sin A}=12\\) cm. Vinkeln mittemot sidan \\(b\\) är 30°.</p><p>Bestäm \\(b\\). (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Triangel med sidan a mittemot vinkeln A och sidan b mittemot vinkeln 30 grader.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"11.59110991546882\" data-side-b=\"5.999999999999999\" data-angle=\"45\" points=\"80.0,245.0 400.0,245.0 197.12812921102034,127.87187078897968\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"118.0579679511003\" y=\"170.92983874007996\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">b</text><text x=\"313.06406460551017\" y=\"166.3211986847411\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">a</text><path data-vertex=\"0\" data-angle-arc=\"45.0\" d=\"M104.0 245.0 A24 24 0 0 0 96.97056274847714 228.02943725152286\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"133.58501288565463\" y=\"227.8043609228248\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">A</text><path data-vertex=\"1\" data-angle-arc=\"29.999999999999964\" d=\"M379.2153903091735 233.0 A24 24 0 0 0 376.0 245.0\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"308.23704650253853\" y=\"225.4121907152605\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">30°</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Sinussatsens kvoter är lika. Därför är även b/sin30°=12. Multiplicera med sin30° för att få b.</p><div class=\"facit-matte\">\\[b=12\\sin30^\\circ=12\\cdot0{,}5=6\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 6 cm.</p></div>",
+  "familj": "Använda sinussatsen",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Sidan b har samma kvot mellan sida och sinus av motstående vinkel.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm",
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.528",
+  "kap": 4,
+  "omr": "sinussatsen",
+  "niva": "E",
+  "typ": "rätta omvända sinusfaktorer i ett lösningsförslag",
+  "poang": "1/0/0",
+  "t": "<p>Elin försöker beräkna sidan \\(b\\) och skriver</p><p>\\[b=\\frac{6\\sin45^\\circ}{\\sin75^\\circ}.\\]</p><p>Hon har vänt på sinusfaktorerna. Beräkna det korrekta värdet på \\(b\\). (Svara i cm med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Triangel med sidan 6 cm mittemot 45 grader och sidan b cm mittemot 75 grader.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"7.348469228349535\" data-side-b=\"8.196152422706634\" data-angle=\"45\" points=\"125.88457268119896,245.0 354.11542731880104,245.0 305.88457268119896,65.0\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"195.3784760267891\" y=\"139.49390334559013\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">b cm</text><text x=\"358.011848962383\" y=\"152.4942476920269\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">6 cm</text><path data-vertex=\"0\" data-angle-arc=\"45.0\" d=\"M149.88457268119896 245.0 A24 24 0 0 0 142.8551354296761 228.02943725152286\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"179.4695855668536\" y=\"227.8043609228248\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">45°</text><path data-vertex=\"1\" data-angle-arc=\"75.00000000000001\" d=\"M347.90377023634056 221.81778016906236 A24 24 0 0 0 330.11542731880104 245.0\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"317.6211736654042\" y=\"221.99697426559885\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">75°</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Sidan 6 cm ligger mittemot 45° och sidan b mittemot 75°. Ställ upp lika kvoter och lös ut b. Eftersom b ligger mittemot den större vinkeln ska den vara längre än 6 cm.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{b}{\\sin75^\\circ}&=\\frac{6}{\\sin45^\\circ}\\\\b&=\\frac{6\\sin75^\\circ}{\\sin45^\\circ}\\approx8{,}20\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(b\\approx8{,}20\\) cm.</p></div>",
+  "familj": "Använda sinussatsen",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 8.196152422706634,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken sida ligger mittemot vilken vinkel?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm",
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.529",
+  "kap": 4,
+  "omr": "sinussatsen",
+  "niva": "C",
+  "typ": "kombinera sinussatsen med en höjdberäkning",
+  "poang": "0/1/0",
+  "t": "<p>Figuren visar ett tvärsnitt av ett tält. Tältet är 10 m brett vid marken. Takets sidor bildar vinklarna 40° och 60° med marken.</p><p>Hur högt är tältet? (Svara i m med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Triangulärt tvärsnitt av tält med basen 10 m och basvinklarna 40 och 60 grader. Höjden h är markerad vinkelrätt från toppen till basen.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"10\" data-side-b=\"8.793852415718167\" data-angle=\"40\" points=\"80.78065243945474,245.0 399.21934756054526,245.0 295.29629910641256,65.0\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"240.0\" y=\"279.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">10 m</text><path data-vertex=\"0\" data-angle-arc=\"40.00000000000001\" d=\"M104.78065243945474 245.0 A24 24 0 0 0 99.16571907431022 229.57309736752305\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"135.28282444503742\" y=\"230.1628316871112\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">40°</text><path data-vertex=\"1\" data-angle-arc=\"59.99999999999993\" d=\"M387.21934756054526 224.21539030917347 A24 24 0 0 0 375.21934756054526 244.99999999999997\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"348.98987414104784\" y=\"220.99999999999997\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">60°</text><path data-altitude=\"true\" d=\"M295.29629910641256 65.0 L295.29629910641256 245.0\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><text x=\"278.29629910641256\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#b74738\">h</text><path d=\"M283.29629910641256 245.0 L283.29629910641256 233.0 L295.29629910641256 233.0\" fill=\"none\" stroke=\"#b74738\" stroke-width=\"1.5\"/></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Toppvinkeln är 180°−40°−60°=80°. Använd sinussatsen för att bestämma den vänstra taksidans längd s. I den vänstra rätvinkliga triangeln är sedan höjden s·sin40°. Behåll alla siffror tills höjden är beräknad.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{s}{\\sin60^\\circ}&=\\frac{10}{\\sin80^\\circ}\\\\s&=\\frac{10\\sin60^\\circ}{\\sin80^\\circ}\\\\h&=\\frac{10\\sin60^\\circ\\sin40^\\circ}{\\sin80^\\circ}\\\\&\\approx5{,}65\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(h\\approx5{,}65\\) m.</p></div>",
+  "familj": "Använda sinussatsen",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 5.652579374235679,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm först en taksidas längd. Hur kan du sedan få höjden ur den rätvinkliga triangeln?</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "m",
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.530",
+  "kap": 4,
+  "omr": "sinussatsen",
+  "niva": "C",
+  "typ": "bestämma sidor ur förhållande och skillnad",
+  "poang": "0/1/0",
+  "t": "<p>Sidan \\(a\\) ligger mittemot 30° och sidan \\(b\\) mittemot 60°. Sidan \\(b\\) är 4 cm längre än sidan \\(a\\).</p><p>Bestäm \\(a\\). (Svara i cm med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Triangel med sidan a mittemot 30 grader och sidan b mittemot 60 grader.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"10.928203230275509\" data-side-b=\"9.464101615137753\" data-angle=\"30\" points=\"80.0,245.0 400.0,245.0 320.0,106.43593539448986\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"185.5\" y=\"155.60323098749623\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">b</text><text x=\"385.11473670974874\" y=\"166.21796769724494\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">a</text><path data-vertex=\"0\" data-angle-arc=\"29.999999999999993\" d=\"M104.0 245.0 A24 24 0 0 0 100.78460969082653 233.0\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"171.7629534974615\" y=\"225.41219071526052\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">30°</text><path data-vertex=\"1\" data-angle-arc=\"59.99999999999993\" d=\"M388.0 224.21539030917347 A24 24 0 0 0 376.0 244.99999999999997\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"349.7705265805026\" y=\"220.99999999999997\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">60°</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Sinussatsen ger ett förhållande mellan sidorna. Kombinera det med skillnaden b−a=4 och lös ekvationen. Skillnaden är 4 cm; den är inte någon av sidornas längd.</p><div class=\"facit-matte\">\\[\\begin{aligned}\\frac{b}{a}&=\\frac{\\sin60^\\circ}{\\sin30^\\circ}=\\sqrt3\\\\b-a&=a(\\sqrt3-1)=4\\\\a&=\\frac4{\\sqrt3-1}\\approx5{,}46\\end{aligned}\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(a\\approx5{,}46\\) cm.</p></div>",
+  "familj": "Använda sinussatsen",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 5.464101615137754,
+  "tolerans": 0.005,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Du har information om både sidornas förhållande och deras skillnad.</p>",
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm",
+  "kurs": [
+    "1c"
+  ]
+},
+{
+  "id": "4.531",
+  "kap": 4,
+  "omr": "sinussatsen",
+  "niva": "E",
+  "typ": "undersöka om dubblerad vinkel ger dubblerad sida",
+  "poang": "1/0/0",
+  "t": "<p>En elev säger: ”Vinkeln 50° är dubbelt så stor som 25°, så sidan \\(b\\) är dubbelt så lång som sidan \\(a\\).”</p><p>Vilket påstående stämmer? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"Triangel med sidan a mittemot 25 grader och sidan b mittemot 50 grader.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"310\" fill=\"white\"/><polygon data-geometry=\"triangle\" data-side-a=\"10\" data-side-b=\"7.9306756509658465\" data-angle=\"25\" points=\"80.0,245.0 400.0,245.0 310.00425916583356,137.74725254270476\" fill=\"#e8f1fa\" stroke=\"#2b67a2\" stroke-width=\"2.5\"/><text x=\"182.7461999924365\" y=\"170.09070044728952\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">b</text><text x=\"377.21741843336713\" y=\"177.73278559044275\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">a</text><path data-vertex=\"0\" data-angle-arc=\"24.999999999999996\" d=\"M104.0 245.0 A24 24 0 0 0 101.7513868888796 234.8571617182232\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"172.74812067639368\" y=\"229.43823667588023\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">25°</text><path data-vertex=\"1\" data-angle-arc=\"49.99999999999994\" d=\"M384.573097367523 226.61493336514454 A24 24 0 0 0 376.0 245.0\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"347.4341483518743\" y=\"225.48814081903942\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#087f8c\">50°</text></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>Sidornas förhållande bestäms av sinusvärdena, inte av förhållandet mellan vinklarna. Sinus av den dubbla vinkeln är inte i allmänhet dubbla sinusvärdet.</p><div class=\"facit-matte\">\\[\\frac{b}{a}=\\frac{\\sin50^\\circ}{\\sin25^\\circ}\\approx1{,}81\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(b\\) är ungefär 1,81 gånger så lång som \\(a\\).</p></div>",
+  "familj": "Använda sinussatsen",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "spel": true,
+  "miniräknare": true,
+  "geogebra": false,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför sinusvärdena för de två motstående vinklarna.</p>",
+  "alternativ": [
+    {
+      "txt": "b är ungefär 1,81 gånger så lång som a.",
+      "ratt": true,
+      "kommentar": "Sinussatsen ger b/a=sin50°/sin25°≈1,81."
+    },
+    {
+      "txt": "b är exakt dubbelt så lång som a.",
+      "ratt": false,
+      "kommentar": "Vinklarna fördubblas, men sinusvärdena gör det inte."
+    },
+    {
+      "txt": "b och a är lika långa.",
+      "ratt": false,
+      "kommentar": "De motstående vinklarna är olika stora, så sidorna är olika långa."
+    },
+    {
+      "txt": "b är hälften så lång som a.",
+      "ratt": false,
+      "kommentar": "b ligger mittemot den större vinkeln och är därför längre än a."
+    }
+  ],
+  "kurs": [
+    "1c"
+  ]
 }
 ];

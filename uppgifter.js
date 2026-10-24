@@ -202303,5 +202303,267 @@ window.BANK = [
       "kommentar": "Diagrammet visar energin direkt."
     }
   ]
+},
+{
+  "id": "4.853",
+  "kap": 4,
+  "omr": "fjadrar",
+  "niva": "E",
+  "typ": "fjäderkraft med Hookes lag",
+  "poang": "(1/0/0)",
+  "t": "<p>En fjäder med fjäderkonstanten 50 N/m hänger i taket. När en vikt hängs i den förlängs den 0,20 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"230\" viewBox=\"0 0 400 230\" role=\"img\" aria-label=\"Till vänster en obelastad fjäder i taket. Till höger samma fjäder med en vikt. Förlängningen är 0,20 m.\"><title>Till vänster en obelastad fjäder i taket. Till höger samma fjäder med en vikt. Förlängningen är 0,20 m.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60\" y1=\"30\" x2=\"340\" y2=\"30\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"60\" y1=\"30\" x2=\"70\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"74\" y1=\"30\" x2=\"84\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"88\" y1=\"30\" x2=\"98\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"102\" y1=\"30\" x2=\"112\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"116\" y1=\"30\" x2=\"126\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"130\" y1=\"30\" x2=\"140\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"144\" y1=\"30\" x2=\"154\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"158\" y1=\"30\" x2=\"168\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"172\" y1=\"30\" x2=\"182\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"186\" y1=\"30\" x2=\"196\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"200\" y1=\"30\" x2=\"210\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"214\" y1=\"30\" x2=\"224\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"228\" y1=\"30\" x2=\"238\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"242\" y1=\"30\" x2=\"252\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"256\" y1=\"30\" x2=\"266\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"270\" y1=\"30\" x2=\"280\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"284\" y1=\"30\" x2=\"294\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"298\" y1=\"30\" x2=\"308\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"312\" y1=\"30\" x2=\"322\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"326\" y1=\"30\" x2=\"336\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><polyline points=\"120.0,30.0 120.0,39.6 112.0,43.4 128.0,47.2 112.0,51.0 128.0,54.8 112.0,58.6 128.0,62.4 112.0,66.2 128.0,70.0 112.0,73.8 128.0,77.6 112.0,81.4 128.0,85.2 112.0,89.0 128.0,92.8 112.0,96.6 120.0,100.4 120.0,110.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"120.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">obelastad</text><polyline points=\"250.0,30.0 250.0,45.6 242.0,51.8 258.0,58.0 242.0,64.1 258.0,70.3 242.0,76.5 258.0,82.7 242.0,88.8 258.0,95.0 242.0,101.2 258.0,107.3 242.0,113.5 258.0,119.7 242.0,125.9 258.0,132.1 242.0,138.2 250.0,144.4 250.0,160.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"225\" y=\"160\" width=\"50\" height=\"34\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"250.0\" y=\"182.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">vikt</text><line x1=\"100\" y1=\"110\" x2=\"345\" y2=\"110\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"250\" y1=\"160\" x2=\"345\" y2=\"160\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"330.0\" y1=\"135.0\" x2=\"330.0\" y2=\"114.8\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"330.0,110.0 325.1,118.0 334.9,118.0\" fill=\"#5b6773\"/><line x1=\"330.0\" y1=\"135.0\" x2=\"330.0\" y2=\"155.2\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"330.0,160.0 334.9,152.0 325.1,152.0\" fill=\"#5b6773\"/><rect x=\"335.0\" y=\"126.0\" width=\"56.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"338.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">0,20 m</text></svg></span><p>Hur stor är fjäderkraften när vikten hänger stilla? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fjäderkraften är fjäderkonstanten gånger förlängningen:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=kx=50\\cdot0{,}20=10\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(10\\) N.</p></div>",
+  "familj": "Hookes lag och fjäderkonstant",
+  "familjNyckel": "hookes-lag",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd F = kx.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.854",
+  "kap": 4,
+  "omr": "fjadrar",
+  "niva": "E",
+  "typ": "förlängning ur längder",
+  "poang": "(1/0/0)",
+  "t": "<p>En fjäder är 12 cm lång när den är obelastad. När någon drar i den är den 17 cm lång.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"200\" viewBox=\"0 0 420 200\" role=\"img\" aria-label=\"Överst är fjädern obelastad och 12 cm lång. Underst dras den och är 17 cm lång.\"><title>Överst är fjädern obelastad och 12 cm lång. Underst dras den och är 17 cm lång.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"180\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"40\" y1=\"20\" x2=\"30\" y2=\"30\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"34\" x2=\"30\" y2=\"44\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"48\" x2=\"30\" y2=\"58\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"62\" x2=\"30\" y2=\"72\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"76\" x2=\"30\" y2=\"86\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"90\" x2=\"30\" y2=\"100\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"104\" x2=\"30\" y2=\"114\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"118\" x2=\"30\" y2=\"128\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"132\" x2=\"30\" y2=\"142\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"146\" x2=\"30\" y2=\"156\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"160\" x2=\"30\" y2=\"170\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"174\" x2=\"30\" y2=\"184\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><polyline points=\"40.0,60.0 61.6,60.0 70.2,68.0 78.7,52.0 87.2,68.0 95.8,52.0 104.3,68.0 112.9,52.0 121.5,68.0 130.0,52.0 138.6,68.0 147.1,52.0 155.6,68.0 164.2,52.0 172.8,68.0 181.3,52.0 189.8,68.0 198.4,60.0 220.0,60.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"130.0\" y=\"92.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">obelastad: 12 cm</text><polyline points=\"40.0,140.0 70.6,140.0 82.7,148.0 94.8,132.0 106.9,148.0 119.0,132.0 131.2,148.0 143.3,132.0 155.4,148.0 167.5,132.0 179.6,148.0 191.7,132.0 203.8,148.0 216.0,132.0 228.1,148.0 240.2,132.0 252.3,148.0 264.4,140.0 295.0,140.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"300.0\" y1=\"140.0\" x2=\"364.0\" y2=\"140.0\" stroke=\"#c2410c\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"370.0,140.0 360.0,135.1 360.0,144.9\" fill=\"#c2410c\"/><text x=\"375.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">drag</text><text x=\"168.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">dragen: 17 cm</text></svg></span><p>Hur stor är fjäderns förlängning? (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Förlängningen är hur mycket längre fjädern har blivit, inte hela längden:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[x=17-12=5\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\) cm.</p></div>",
+  "familj": "Hookes lag och fjäderkonstant",
+  "familjNyckel": "langd-och-forlangning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Förlängning är skillnaden mellan längderna.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5,
+  "tolerans": 0.05,
+  "svarVardesiffror": 1,
+  "svarEnhet": "cm"
+},
+{
+  "id": "4.855",
+  "kap": 4,
+  "omr": "fjadrar",
+  "niva": "E",
+  "typ": "fjäderkonstant ur diagram",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet visar fjäderkraften F som funktion av förlängningen x för en fjäder.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"265\" viewBox=\"0 0 400 265\" role=\"img\" aria-label=\"Ett F-x-diagram med en rät linje genom origo. Den markerade punkten är x = 0,04 m och F = 2,0 N.\"><title>Ett F-x-diagram med en rät linje genom origo. Den markerade punkten är x = 0,04 m och F = 2,0 N.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"263\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"126.0\" y1=\"230\" x2=\"126.0\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"126.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,02</text><line x1=\"182.0\" y1=\"230\" x2=\"182.0\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"182.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,04</text><line x1=\"238.0\" y1=\"230\" x2=\"238.0\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"238.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,06</text><line x1=\"294.0\" y1=\"230\" x2=\"294.0\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"294.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,08</text><line x1=\"350.0\" y1=\"230\" x2=\"350.0\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"350.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,10</text><line x1=\"70\" y1=\"200.0\" x2=\"350\" y2=\"200.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"204.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"70\" y1=\"170.0\" x2=\"350\" y2=\"170.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"174.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"70\" y1=\"140.0\" x2=\"350\" y2=\"140.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"70\" y1=\"110.0\" x2=\"350\" y2=\"110.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"114.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"70\" y1=\"80.0\" x2=\"350\" y2=\"80.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"84.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"70\" y1=\"50.0\" x2=\"350\" y2=\"50.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"70\" y1=\"230\" x2=\"360\" y2=\"230\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"230\" x2=\"70\" y2=\"40\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"358.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">x (m)</text><text x=\"64.0\" y=\"34.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">F (N)</text><line x1=\"70\" y1=\"230\" x2=\"350.0\" y2=\"80.0\" stroke=\"#216d87\" stroke-width=\"2.8\"/><line x1=\"182.0\" y1=\"170.0\" x2=\"182.0\" y2=\"230\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"182.0\" y1=\"170.0\" x2=\"70\" y2=\"170.0\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><circle cx=\"182.0\" cy=\"170.0\" r=\"4.5\" fill=\"#c2410c\"/></svg></span><p>Hur stor är fjäderns fjäderkonstant? (Svara i N/m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fjäderkonstanten är linjens lutning. Läs av den markerade punkten: 2,0 N vid 0,04 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[k=\\frac{F}{x}=\\frac{2{,}0}{0{,}04}=50\\ \\mathrm{N/m}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\) N/m.</p></div>",
+  "familj": "Fjäderdiagram, mätdata och kalibrering",
+  "familjNyckel": "hookes-lag-i-diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs av en punkt på linjen och beräkna F/x.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 50,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N/m"
+},
+{
+  "id": "4.856",
+  "kap": 4,
+  "omr": "fjadrar",
+  "niva": "E",
+  "typ": "fjäderkraftens riktning",
+  "poang": "(1/0/0)",
+  "t": "<p>En fjäder sitter fast i en vägg. En hand drar en kloss i fjäderns andra ände åt höger, så att fjädern sträcks.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"En fjäder sitter i en vägg till vänster. I den högra änden sitter en kloss som en hand drar åt höger.\"><title>En fjäder sitter i en vägg till vänster. I den högra änden sitter en kloss som en hand drar åt höger.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"140\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"40\" y1=\"40\" x2=\"30\" y2=\"50\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"54\" x2=\"30\" y2=\"64\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"68\" x2=\"30\" y2=\"78\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"82\" x2=\"30\" y2=\"92\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"96\" x2=\"30\" y2=\"106\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"110\" x2=\"30\" y2=\"120\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"124\" x2=\"30\" y2=\"134\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"138\" x2=\"30\" y2=\"148\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><polyline points=\"40.0,100.0 61.6,100.0 70.2,108.0 78.7,92.0 87.2,108.0 95.8,92.0 104.3,108.0 112.9,92.0 121.5,108.0 130.0,92.0 138.6,108.0 147.1,92.0 155.6,108.0 164.2,92.0 172.8,108.0 181.3,92.0 189.8,108.0 198.4,100.0 220.0,100.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"220\" y=\"80\" width=\"60\" height=\"40\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"250.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">kloss</text><line x1=\"285.0\" y1=\"100.0\" x2=\"363.4\" y2=\"100.0\" stroke=\"#c2410c\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><polygon points=\"370.0,100.0 359.0,95.1 359.0,104.9\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"88.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">handen drar</text><line x1=\"20\" y1=\"122\" x2=\"400\" y2=\"122\" stroke=\"#5b6773\" stroke-width=\"2\"/></svg></span><p>Åt vilket håll verkar fjäderkraften på klossen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En sträckt fjäder strävar tillbaka mot sin obelastade längd.</p></div><div class=\"facit-stycke\"><p>Den drar därför klossen åt vänster, mot väggen, alltså motsatt förlängningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Åt vänster, mot väggen.</p></div>",
+  "familj": "Hookes lag och fjäderkonstant",
+  "familjNyckel": "fjaderkraftens-riktning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>En sträckt fjäder vill dra ihop sig.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Åt vänster, mot väggen",
+      "ratt": true,
+      "kommentar": "Fjäderkraften är riktad mot förlängningen."
+    },
+    {
+      "txt": "Åt höger, samma håll som handen drar",
+      "ratt": false,
+      "kommentar": "Det är handens kraft. Fjädern drar tillbaka."
+    },
+    {
+      "txt": "Rakt uppåt",
+      "ratt": false,
+      "kommentar": "Fjädern ligger vågrätt och drar längs sin egen riktning."
+    },
+    {
+      "txt": "Fjädern påverkar inte klossen",
+      "ratt": false,
+      "kommentar": "En sträckt fjäder påverkar det den sitter fast i."
+    }
+  ]
+},
+{
+  "id": "4.857",
+  "kap": 4,
+  "omr": "fjadrar",
+  "niva": "E",
+  "typ": "styvast fjäder ur diagram",
+  "poang": "(1/0/0)",
+  "t": "<p>Två fjädrar, A och B, undersöks. Diagrammet visar fjäderkraften F som funktion av förlängningen x för båda.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"265\" viewBox=\"0 0 400 265\" role=\"img\" aria-label=\"Ett F-x-diagram med två räta linjer genom origo. Linje A är brantare än linje B.\"><title>Ett F-x-diagram med två räta linjer genom origo. Linje A är brantare än linje B.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"263\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"126.0\" y1=\"230\" x2=\"126.0\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"126.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,02</text><line x1=\"182.0\" y1=\"230\" x2=\"182.0\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"182.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,04</text><line x1=\"238.0\" y1=\"230\" x2=\"238.0\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"238.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,06</text><line x1=\"294.0\" y1=\"230\" x2=\"294.0\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"294.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,08</text><line x1=\"350.0\" y1=\"230\" x2=\"350.0\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"350.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,10</text><line x1=\"70\" y1=\"200.0\" x2=\"350\" y2=\"200.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"204.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"70\" y1=\"170.0\" x2=\"350\" y2=\"170.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"174.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"70\" y1=\"140.0\" x2=\"350\" y2=\"140.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">3</text><line x1=\"70\" y1=\"110.0\" x2=\"350\" y2=\"110.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"114.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"70\" y1=\"80.0\" x2=\"350\" y2=\"80.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"84.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"70\" y1=\"50.0\" x2=\"350\" y2=\"50.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"70\" y1=\"230\" x2=\"360\" y2=\"230\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"230\" x2=\"70\" y2=\"40\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"358.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">x (m)</text><text x=\"64.0\" y=\"34.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">F (N)</text><line x1=\"70\" y1=\"230\" x2=\"294.0\" y2=\"50.0\" stroke=\"#c2410c\" stroke-width=\"2.8\"/><rect x=\"276.0\" y=\"29.0\" width=\"15.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"288.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">A</text><line x1=\"70\" y1=\"230\" x2=\"350.0\" y2=\"140.0\" stroke=\"#216d87\" stroke-width=\"2.8\"/><rect x=\"332.0\" y=\"119.0\" width=\"15.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"344.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">B</text></svg></span><p>Vilken fjäder har störst fjäderkonstant?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fjäderkonstanten är linjens lutning, F/x.</p></div><div class=\"facit-stycke\"><p>Linje A är brantare. Fjäder A behöver alltså större kraft för samma förlängning och har störst fjäderkonstant.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Fjäder A.</p></div>",
+  "familj": "Fjäderdiagram, mätdata och kalibrering",
+  "familjNyckel": "jamfora-kraftgrafer",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför hur stor kraft som behövs för samma förlängning.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Fjäder A",
+      "ratt": true,
+      "kommentar": "Brantast linje ger störst k."
+    },
+    {
+      "txt": "Fjäder B",
+      "ratt": false,
+      "kommentar": "B förlängs mer för samma kraft. Den är mjukare."
+    },
+    {
+      "txt": "De har samma fjäderkonstant",
+      "ratt": false,
+      "kommentar": "Linjerna har olika lutning."
+    },
+    {
+      "txt": "Det går inte att avgöra utan massorna",
+      "ratt": false,
+      "kommentar": "Diagrammet visar kraft och förlängning direkt."
+    }
+  ]
+},
+{
+  "id": "4.858",
+  "kap": 4,
+  "omr": "fjadrar",
+  "niva": "E",
+  "typ": "massa ur fjädervåg",
+  "poang": "(1/0/0)",
+  "t": "<p>En påse hänger stilla i en fjädervåg. Vågen visar kraften i newton.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"270\" viewBox=\"0 0 380 270\" role=\"img\" aria-label=\"En fjädervåg med en skala från 0 till 10 N. Visaren står på 4,9 N. Under vågen hänger en påse.\"><title>En fjädervåg med en skala från 0 till 10 N. Visaren står på 4,9 N. Under vågen hänger en påse.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"120\" y1=\"25\" x2=\"300\" y2=\"25\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"120\" y1=\"25\" x2=\"130\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"134\" y1=\"25\" x2=\"144\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"148\" y1=\"25\" x2=\"158\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"162\" y1=\"25\" x2=\"172\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"176\" y1=\"25\" x2=\"186\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"190\" y1=\"25\" x2=\"200\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"204\" y1=\"25\" x2=\"214\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"218\" y1=\"25\" x2=\"228\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"232\" y1=\"25\" x2=\"242\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"246\" y1=\"25\" x2=\"256\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"260\" y1=\"25\" x2=\"270\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"274\" y1=\"25\" x2=\"284\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"288\" y1=\"25\" x2=\"298\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"210\" y1=\"25\" x2=\"210\" y2=\"40\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"165\" y=\"40\" width=\"90\" height=\"155\" rx=\"8\" fill=\"#f8fafc\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"190\" y1=\"50\" x2=\"206\" y2=\"50\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"186.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">0</text><line x1=\"190\" y1=\"63\" x2=\"200\" y2=\"63\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><line x1=\"190\" y1=\"76\" x2=\"200\" y2=\"76\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><line x1=\"190\" y1=\"89\" x2=\"200\" y2=\"89\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><line x1=\"190\" y1=\"102\" x2=\"200\" y2=\"102\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><line x1=\"190\" y1=\"115\" x2=\"206\" y2=\"115\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"186.0\" y=\"119.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">5</text><line x1=\"190\" y1=\"128\" x2=\"200\" y2=\"128\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><line x1=\"190\" y1=\"141\" x2=\"200\" y2=\"141\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><line x1=\"190\" y1=\"154\" x2=\"200\" y2=\"154\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><line x1=\"190\" y1=\"167\" x2=\"200\" y2=\"167\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><line x1=\"190\" y1=\"180\" x2=\"206\" y2=\"180\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"186.0\" y=\"184.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\">10</text><polyline points=\"230.0,45.0 230.0,52.8 224.0,56.9 236.0,61.0 224.0,65.1 236.0,69.2 224.0,73.3 236.0,77.3 224.0,81.4 236.0,85.5 224.0,89.6 236.0,93.7 224.0,97.8 230.0,101.9 230.0,109.7\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"208\" y1=\"113.7\" x2=\"240\" y2=\"113.7\" stroke=\"#c2410c\" stroke-width=\"3\"/><rect x=\"259.0\" y=\"103.7\" width=\"51.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"262.0\" y=\"118.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">4,9 N</text><line x1=\"210\" y1=\"195\" x2=\"210\" y2=\"215\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M 185,215 L 235,215 L 245,255 L 175,255 Z\" fill=\"#fde7d4\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><text x=\"210.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">påse</text></svg></span><p>Vilken massa har påsen? (Svara i kg.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vågen visar påsens tyngd, 4,9 N. Massan är tyngden delad med tyngdaccelerationen:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{F_g}{g}=\\frac{4{,}9}{9{,}82}\\approx0{,}50\\ \\mathrm{kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}50\\) kg.</p></div>",
+  "familj": "Fjäderdiagram, mätdata och kalibrering",
+  "familjNyckel": "massa-tyngd-och-fjadervag",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vågen visar tyngden. Använd F = mg.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.49898167006109984,
+  "tolerans": 0.0005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "kg"
+},
+{
+  "id": "4.859",
+  "kap": 4,
+  "omr": "fjadrar",
+  "niva": "E",
+  "typ": "kraft i hoptryckt fjäder",
+  "poang": "(1/0/0)",
+  "t": "<p>En fjäder med fjäderkonstanten 400 N/m trycks ihop 5,0 cm av en kloss.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"180\" viewBox=\"0 0 420 180\" role=\"img\" aria-label=\"En fjäder mellan en vägg och en kloss är hoptryckt 5,0 cm från sin obelastade längd. En hand trycker klossen mot väggen.\"><title>En fjäder mellan en vägg och en kloss är hoptryckt 5,0 cm från sin obelastade längd. En hand trycker klossen mot väggen.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40\" y1=\"40\" x2=\"40\" y2=\"140\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"40\" y1=\"40\" x2=\"30\" y2=\"50\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"54\" x2=\"30\" y2=\"64\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"68\" x2=\"30\" y2=\"78\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"82\" x2=\"30\" y2=\"92\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"96\" x2=\"30\" y2=\"106\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"110\" x2=\"30\" y2=\"120\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"124\" x2=\"30\" y2=\"134\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"138\" x2=\"30\" y2=\"148\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><polyline points=\"40.0,100.0 56.8,100.0 62.7,108.0 68.6,92.0 74.5,108.0 80.4,92.0 86.4,108.0 92.3,92.0 98.2,108.0 104.1,92.0 110.0,108.0 115.9,92.0 121.8,108.0 127.7,92.0 133.6,108.0 139.6,92.0 145.5,108.0 151.4,92.0 157.3,108.0 163.2,100.0 180.0,100.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"180\" y=\"80\" width=\"60\" height=\"40\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"210.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">kloss</text><line x1=\"330.0\" y1=\"100.0\" x2=\"251.6\" y2=\"100.0\" stroke=\"#c2410c\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><polygon points=\"245.0,100.0 256.0,104.9 256.0,95.1\" fill=\"#c2410c\"/><text x=\"290.0\" y=\"88.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">handen trycker</text><line x1=\"20\" y1=\"122\" x2=\"400\" y2=\"122\" stroke=\"#5b6773\" stroke-width=\"2\"/><line x1=\"180\" y1=\"128\" x2=\"180\" y2=\"160\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"230\" y1=\"128\" x2=\"230\" y2=\"160\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"205.0\" y1=\"158.0\" x2=\"184.8\" y2=\"158.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"180.0,158.0 188.0,162.9 188.0,153.1\" fill=\"#5b6773\"/><line x1=\"205.0\" y1=\"158.0\" x2=\"225.2\" y2=\"158.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"230.0,158.0 222.0,153.1 222.0,162.9\" fill=\"#5b6773\"/><line x1=\"180.0\" y1=\"151\" x2=\"180.0\" y2=\"165\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"230.0\" y1=\"151\" x2=\"230.0\" y2=\"165\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"176.8\" y=\"136.0\" width=\"56.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"205.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">5,0 cm</text><text x=\"236.0\" y=\"174.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">obelastad längd hit</text></svg></span><p>Hur stor kraft trycker fjädern tillbaka på klossen med? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Hookes lag gäller också när fjädern trycks ihop. Räkna om till meter: 5,0 cm = 0,050 m.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=kx=400\\cdot0{,}050=20\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) N.</p></div>",
+  "familj": "Hookes lag och fjäderkonstant",
+  "familjNyckel": "hoptryckt-fjader",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd F = kx med hoptryckningen i meter.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 20,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.860",
+  "kap": 4,
+  "omr": "fjadrar",
+  "niva": "E",
+  "typ": "last delas mellan parallella fjädrar",
+  "poang": "(1/0/0)",
+  "t": "<p>Två likadana fjädrar hänger bredvid varandra och bär tillsammans en vikt med tyngden 6,0 N. Bortse från stångens tyngd. Vikten hänger mitt emellan fjädrarna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"250\" viewBox=\"0 0 400 250\" role=\"img\" aria-label=\"Två likadana fjädrar hänger bredvid varandra i taket och bär tillsammans en stång med en vikt på 6,0 N.\"><title>Två likadana fjädrar hänger bredvid varandra i taket och bär tillsammans en stång med en vikt på 6,0 N.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"90\" y1=\"30\" x2=\"310\" y2=\"30\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"90\" y1=\"30\" x2=\"100\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"104\" y1=\"30\" x2=\"114\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"118\" y1=\"30\" x2=\"128\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"132\" y1=\"30\" x2=\"142\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"146\" y1=\"30\" x2=\"156\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"160\" y1=\"30\" x2=\"170\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"174\" y1=\"30\" x2=\"184\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"188\" y1=\"30\" x2=\"198\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"202\" y1=\"30\" x2=\"212\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"216\" y1=\"30\" x2=\"226\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"230\" y1=\"30\" x2=\"240\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"244\" y1=\"30\" x2=\"254\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"258\" y1=\"30\" x2=\"268\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"272\" y1=\"30\" x2=\"282\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"286\" y1=\"30\" x2=\"296\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"300\" y1=\"30\" x2=\"310\" y2=\"20\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><polyline points=\"150.0,30.0 150.0,42.0 142.0,46.8 158.0,51.5 142.0,56.2 158.0,61.0 142.0,65.8 158.0,70.5 142.0,75.2 158.0,80.0 142.0,84.8 158.0,89.5 142.0,94.2 158.0,99.0 142.0,103.8 158.0,108.5 142.0,113.2 150.0,118.0 150.0,130.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><polyline points=\"250.0,30.0 250.0,42.0 242.0,46.8 258.0,51.5 242.0,56.2 258.0,61.0 242.0,65.8 258.0,70.5 242.0,75.2 258.0,80.0 242.0,84.8 258.0,89.5 242.0,94.2 258.0,99.0 242.0,103.8 258.0,108.5 242.0,113.2 250.0,118.0 250.0,130.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"130\" y=\"130\" width=\"140\" height=\"10\" rx=\"3\" fill=\"#5b6773\"/><line x1=\"200\" y1=\"140\" x2=\"200\" y2=\"165\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"170\" y=\"165\" width=\"60\" height=\"40\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"200.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">6,0 N</text><text x=\"132.0\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">?</text><text x=\"268.0\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">?</text></svg></span><p>Hur stor kraft bär varje fjäder? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fjädrarna är likadana och lika mycket förlängda, så de bär lika mycket var:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\frac{6{,}0}{2}=3{,}0\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}0\\) N.</p></div>",
+  "familj": "Fjädrar i serie och parallellt",
+  "familjNyckel": "fordelning-mellan-parallella-fjadrar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Två likadana fjädrar delar lika på lasten.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3.0,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
 }
 ];

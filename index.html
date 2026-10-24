@@ -2512,6 +2512,16 @@ html[data-theme="dark"] .sol svg:not(.katex svg){background:#fff;border-radius:1
   display:flex;align-items:center;gap:12px;animation:pop .4s var(--ease) both;
 }
 .result.good{background:var(--goodSoft);color:var(--good)}
+/* Deluppgiftskedja: hela uppgiften i följd, a) → b) → c). */
+.kedja-del{margin:14px 0 4px;padding:2px 0 2px 12px;border-left:3px solid var(--hair)}
+.kedja-del.kedja-nu{border-left-color:var(--accent,#2f7d4a)}
+.kedja-del.kedja-klar{opacity:.85}
+.kedja-rubrik{font-weight:700;margin-bottom:4px}
+.kedja-svar{margin-top:6px;font-size:.92rem}
+.kedja-svar.ok{color:var(--good)}
+.kedja-svar.fel{color:var(--bad)}
+.obs-svarare{color:#dc2626;font-weight:700}
+.kedja-extra{margin-top:10px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;font-size:.92rem}
 .result.bad{background:var(--badSoft);color:var(--bad)}
 .result .txt{flex:1}
 .result strong{display:block;font-size:15px}
@@ -9632,12 +9642,115 @@ function startCardLevel(key,nivaer){
   navRecord("training"); nextTask();
 }
 function continueSession(){ const niva=state.focusNiva,mixChapter=state.mixChapter;state.uppdragValForPass=state.uppdragsDag||null; beginSession(state.prov?"prov":undefined); state.focusNiva=niva;state.mixChapter=mixChapter; navRecord("training",true); nextTask(); }
+/* Deluppgiftskedja (2026-10-24): när träningen väljer ett delkort (t.ex. 3.466b) visas hela
+   uppgiften i följd, a) → b) → c), i stället för att samma inledning upprepas på separata kort
+   långt ifrån varandra. Varje del är fortfarande ett eget delkort som registreras för sig, så nivåer,
+   XP och historik fungerar som tidigare. Delar över den valda nivån är frivilliga och märks
+   "OBS! Svårare nivå". Uppgiftslabbet och bankerna påverkas inte. */
+function kedjaSyskon(t){
+  if(!t?.ursprungsId || !state.data) return [];
+  const foralder=state.data.bank.find(x=>String(x.id)===String(t.ursprungsId));
+  if(!foralder) return [];
+  let syskon=[]; try{ syskon=expandGameTask(foralder); }catch(_){ return []; }
+  return syskon.length>1 && syskon.some(x=>x.id===t.id) ? syskon : [];
+}
+/* Gemensam inledning = de block (stycken, figurer, tabeller) som alla delkort börjar med. */
+function kedjaDelning(syskon){
+  const block=html=>{
+    const d=document.createElement("div"); d.innerHTML=html||"";
+    return [...d.childNodes].filter(n=>n.nodeType===1 || (n.textContent||"").trim())
+      .map(n=>n.nodeType===1?n.outerHTML:esc(n.textContent));
+  };
+  const norm=s=>s.replace(/\s+/g," ").trim();
+  const listor=syskon.map(q=>block(q.t));
+  let k=0;
+  while(listor.every(l=>k<l.length-1 && norm(l[k])===norm(listor[0][k]))) k++;
+  /* "hel": delens text utan den gemensamma inledningen. "kort": dessutom utan de inledande
+     block som en tidigare del redan visat (t.ex. när b och c beskriver samma kloss men a har ett
+     eget nivå 1-underlag). Den första delen som visas i kedjan använder alltid "hel". */
+  const kort=listor.map((l,i)=>{
+    let n=k;
+    for(let j=0;j<i;j++){
+      let m=k;
+      while(m<l.length-1 && m<listor[j].length && norm(l[m])===norm(listor[j][m])) m++;
+      n=Math.max(n,m);
+    }
+    return l.slice(n).join("");
+  });
+  return {intro:listor[0].slice(0,k).join(""), delar:listor.map(l=>l.slice(k).join("")), kort};
+}
+function kedjaStarta(t){
+  const syskon=kedjaSyskon(t);
+  if(!syskon.length || state.prov || state.adminBlad){ state.kedja=null; return t; }
+  const valdNiva=levelNumber(t);
+  const delning=kedjaDelning(syskon);
+  const delar=syskon.map((q,i)=>({task:q,etikett:q.deluppgift||String.fromCharCode(97+i),
+    hel:delning.delar[i],kort:delning.kort[i],extra:levelNumber(q)>valdNiva}));
+  /* Börja vid första delen på elevens nivå som inte nyss gjorts; annars vid det valda kortet. */
+  const nyss=new Set(state.lastIds||[]);
+  let start=delar.findIndex(d=>!d.extra && !nyss.has(d.task.id));
+  if(start<0) start=delar.findIndex(d=>d.task.id===t.id);
+  state.kedja={ursprungsId:t.ursprungsId,intro:delning.intro,delar,index:start,gjorda:[]};
+  return delar[start].task;
+}
+function kedjaAktuell(t){
+  const k=state.kedja;
+  return k && t && k.ursprungsId===t.ursprungsId && k.delar[k.index]?.task.id===t.id ? k : null;
+}
+function kedjaTbody(t){
+  const k=kedjaAktuell(t);
+  if(!k) return null;
+  const d=k.delar[k.index];
+  const fraga=k.gjorda.length ? d.kort : d.hel;
+  const tidigare=k.gjorda.map(g=>`
+    <div class="kedja-del kedja-klar">
+      <div class="kedja-rubrik">${esc(g.etikett)})</div>
+      <div class="kedja-fraga">${g.fraga}</div>
+      <div class="kedja-svar ${g.ok?"ok":"fel"}"><span aria-hidden="true">${g.ok?"✓":"✗"}</span> Ditt svar: ${g.svar||"–"}</div>
+    </div>`).join("");
+  return `${k.intro}${tidigare}
+    <div class="kedja-del kedja-nu">
+      <div class="kedja-rubrik">${esc(d.etikett)})${d.extra?` <span class="obs-svarare">OBS! Svårare nivå</span>`:""}</div>
+      <div class="kedja-fraga">${fraga}</div>
+    </div>`;
+}
+/* Elevens svar sparas för sammanfattningen innan nästa del ritas. */
+function kedjaSpara(t,ok){
+  const k=kedjaAktuell(t);
+  if(!k) return;
+  let svar="";
+  if(arAlt(t)){
+    const lista=altLista(t);
+    svar=[...(state.altValda||[])].map(i=>lista[i]?.txt).filter(Boolean).join("; ");
+  }else{
+    svar=[...document.querySelectorAll('#answer-zone input[id^="ans-"],#answer-zone textarea[id^="ans-"]')]
+      .map(e=>esc(e.value.trim())).filter(Boolean).join("; ");
+  }
+  const d=k.delar[k.index];
+  k.gjorda.push({etikett:d.etikett,fraga:k.gjorda.length?d.kort:d.hel,svar,ok});
+}
+function kedjaNasta(t){
+  const k=kedjaAktuell(t);
+  return k ? k.delar[k.index+1]||null : null;
+}
+function kedjaFortsatt(){
+  const k=state.kedja;
+  if(!k) return nextTask();
+  k.index++;
+  visaUppgift(k.delar[k.index].task);
+}
+
 function nextTask(){
   if(state.adminBlad) return adminBladAvsluta();
   if(state.passReview) return passFramat();
   tchatStang();
-  const t=chooseTask();
+  let t=chooseTask();
   if(!t){toast("Inga uppgifter hittades.");return;}
+  t=kedjaStarta(t);
+  visaUppgift(t);
+}
+function visaUppgift(t){
+  tchatStang();
   noteNewLevel(t);
   state.currentTask=t;state.answered=false;state.solutionShown=false;
   state.partResults=[];state.partIndex=0;state.noXp=false;state.aktivRuta=0;
@@ -9654,6 +9767,8 @@ function nextTask(){
   state.passCourse=state.course;
   sparaPagaendePass();
   renderTraining();
+  /* I en deluppgiftskedja hamnar den nya delen under de besvarade; visa den. */
+  if(state.kedja?.gjorda?.length) setTimeout(()=>document.querySelector(".kedja-nu")?.scrollIntoView({block:"start",behavior:"smooth"}),60);
   /* Påminnelsen kommer när eleven har kommit in i passet, inte i vägen
      för den första uppgiften. */
   if(state.sessionDone>=PAPPER_EFTER) setTimeout(visaPapperspaminnelse,500);
@@ -13441,7 +13556,7 @@ function renderTraining(){
       ${passNavigationHtml()}${adminBladHtml()}
       <article class="task">
         <div class="tmeta">${meta}${felFlaggaHtml(t)}</div>
-        <div class="tbody">${t.t||""}</div>
+        <div class="tbody">${kedjaTbody(t) ?? (t.t||"")}</div>
         <div class="azone" id="answer-zone">
           <div class="notice"><b aria-hidden="true">✎</b><span>Skriv ner fullständiga lösningar med papper och penna innan du skriver in svaren här.</span></div>
           <h3>Ditt svar</h3>
@@ -13687,7 +13802,7 @@ function renderAltTask(t){
       ${passNavigationHtml()}${adminBladHtml()}
       <article class="task">
         <div class="tmeta">${levelChip(t)}${felFlaggaHtml(t)}</div>
-        <div class="tbody">${t.t||""}${kallRad(t)}</div>
+        <div class="tbody">${kedjaTbody(t) ?? (t.t||"")}${kallRad(t)}</div>
         <div class="azone" id="answer-zone">
           <h3>Ditt svar</h3>
           <div class="altfot" id="altfot">Markera det eller de alternativ du bedömer som riktiga.</div>
@@ -14270,8 +14385,16 @@ function finishAttempt(resultat){
 
   const last=!blad && state.sessionDone>=state.sessionTarget;
   const bladSist=blad && state.adminBlad.i>=state.adminBlad.lista.length-1;
-  const nastaText=blad ? (bladSist?"Tillbaka till passet":"Nästa") : last?"Se passrapport":"Nästa uppgift";
-  const nastaGor=()=>blad ? (bladSist?adminBladAvsluta():adminBladGa(1)) : last?renderSessionDone():nextTask();
+  /* I en deluppgiftskedja går Nästa till följande del. En svårare del är frivillig. */
+  const delNasta=(!blad && !last && !state.prov) ? kedjaNasta(t) : null;
+  const nastaText=blad ? (bladSist?"Tillbaka till passet":"Nästa")
+    : last?"Se passrapport" : delNasta?`Fortsätt med ${delNasta.etikett})`:"Nästa uppgift";
+  const nastaGor=()=>{
+    if(delNasta){ kedjaSpara(t,correct); return kedjaFortsatt(); }
+    state.kedja=null;
+    return blad ? (bladSist?adminBladAvsluta():adminBladGa(1)) : last?renderSessionDone():nextTask();
+  };
+  const hoppaOver=()=>{ state.kedja=null; nextTask(); };
   const bonus = seriebonus(profile.run);
   const runTxt = correct && profile.run>=3
     ? `<span class="tag" style="margin-left:6px">${profile.run} i rad${bonus?` · +${bonus}\u00a0%`:""}</span>`
@@ -14300,6 +14423,11 @@ function finishAttempt(resultat){
         ${(state.hintUsed && !state.noXp)?`<span class="xplapp">halverat · ledtråd</span>`:""}
         ${(arbetsfaktor(t)>1 && ratt>0 && !state.noXp)?`<span class="xplapp">extra XP för arbetsinsats</span>`:""}
       </div>
+      ${delNasta?.extra?`<div class="kedja-extra">
+        <span class="obs-svarare">OBS! Svårare nivå</span>
+        <span>Nästa del, ${esc(delNasta.etikett)}), är svårare än din nuvarande nivå. Den är frivillig.</span>
+        <button class="btn" id="hoppaoverbtn" type="button">Hoppa över</button>
+      </div>`:""}
       ${kolla?"":`<div class="aacts">
         ${!correct?`<button class="btn" onclick="showSolution()">Visa lösning</button>`:""}
         <button class="btn primary" id="nextbtn">
@@ -14313,6 +14441,8 @@ function finishAttempt(resultat){
     }
     const nastaKnapp=document.getElementById("nextbtn");
     if(nastaKnapp) nastaKnapp.onclick=nastaGor;
+    const hoppaKnapp=document.getElementById("hoppaoverbtn");
+    if(hoppaKnapp) hoppaKnapp.onclick=hoppaOver;
     setTimeout(()=>(kolla||document.getElementById("nextbtn"))?.focus({preventScroll:true}),80);
     if(genomgangForslag) setTimeout(()=>tranarForeslarGenomgang(genomgangForslag),700);
   }

@@ -11816,27 +11816,27 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös \\(|x-5|&lt;2\\).</p><p>A. \\(3&lt;x&lt;7\\)<br>B. \\(x&lt;3\\) eller \\(x&gt;7\\)<br>C. \\(5&lt;x&lt;7\\)<br>D. \\(-2&lt;x&lt;2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet från x till 5 ska vara mindre än 2, alltså ligger x mellan 3 och 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div></div>",
+    "t": "<p>Lös \\(|x-5|&lt;2\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet från x till 5 ska vara mindre än 2, alltså ligger x mellan 3 och 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3&lt;x&lt;7\\).</p></div></div>",
     "familj": "Olikheter med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Markera gränspunkterna på en tallinje och avgör vilka delar som uppfyller villkoret. För absolutbelopp kan du tolka \\(|x-a|\\) som ett avstånd från \\(a\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Lösa olikheter med absolutbelopp"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(3&lt;x&lt;7\\)", "ratt": true}, {"txt": "\\(x&lt;3\\) eller \\(x&gt;7\\)", "ratt": false}, {"txt": "\\(5&lt;x&lt;7\\)", "ratt": false}, {"txt": "\\(-2&lt;x&lt;2\\)", "ratt": false}]
   },
   {
     "id": "1.402",
@@ -11847,27 +11847,27 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös \\(|2x+1|\\le5\\).</p><p>A. \\(-2\\le x\\le3\\)<br>B. \\(-3\\le x\\le2\\)<br>C. \\(x\\le-3\\) eller \\(x\\ge2\\)<br>D. \\(-5\\le x\\le5\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv \\(-5\\le2x+1\\le5\\).</p></li><li><p>Subtrahera 1 och dividera med 2: \\(-3\\le x\\le2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div></div>",
+    "t": "<p>Lös \\(|2x+1|\\le5\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv \\(-5\\le2x+1\\le5\\).</p></li><li><p>Subtrahera 1 och dividera med 2: \\(-3\\le x\\le2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3\\le x\\le2\\).</p></div></div>",
     "familj": "Olikheter med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Markera gränspunkterna på en tallinje och avgör vilka delar som uppfyller villkoret. För absolutbelopp kan du tolka \\(|x-a|\\) som ett avstånd från \\(a\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Lösa olikheter med absolutbelopp"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(-2\\le x\\le3\\)", "ratt": false}, {"txt": "\\(-3\\le x\\le2\\)", "ratt": true}, {"txt": "\\(x\\le-3\\) eller \\(x\\ge2\\)", "ratt": false}, {"txt": "\\(-5\\le x\\le5\\)", "ratt": false}]
   },
   {
     "id": "1.403",
@@ -11878,27 +11878,27 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös \\(|x+2|&gt;4\\).</p><p>A. \\(-6&lt;x&lt;2\\)<br>B. \\(x&lt;-2\\) eller \\(x&gt;4\\)<br>C. \\(x&lt;-6\\) eller \\(x&gt;2\\)<br>D. \\(-4&lt;x&lt;4\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet från x till −2 ska vara större än 4.</p></li><li><p>Då ligger x utanför intervallet från −6 till 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div></div>",
+    "t": "<p>Lös \\(|x+2|&gt;4\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avståndet från x till −2 ska vara större än 4.</p></li><li><p>Då ligger x utanför intervallet från −6 till 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x&lt;-6\\) eller \\(x&gt;2\\).</p></div></div>",
     "familj": "Olikheter med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Markera gränspunkterna på en tallinje och avgör vilka delar som uppfyller villkoret. För absolutbelopp kan du tolka \\(|x-a|\\) som ett avstånd från \\(a\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Lösa olikheter med absolutbelopp"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(-6&lt;x&lt;2\\)", "ratt": false}, {"txt": "\\(x&lt;-2\\) eller \\(x&gt;4\\)", "ratt": false}, {"txt": "\\(x&lt;-6\\) eller \\(x&gt;2\\)", "ratt": true}, {"txt": "\\(-4&lt;x&lt;4\\)", "ratt": false}]
   },
   {
     "id": "1.404",
@@ -11909,27 +11909,27 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lös \\(|3-x|&lt;1\\).</p><p>A. \\(3&lt;x&lt;4\\)<br>B. \\(-4&lt;x&lt;-2\\)<br>C. \\(x&lt;2\\) eller \\(x&gt;4\\)<br>D. \\(2&lt;x&lt;4\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(|3-x|=|x-3|\\), så x ska ligga mindre än 1 enhet från 3: \\(2&lt;x&lt;4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div></div>",
+    "t": "<p>Lös \\(|3-x|&lt;1\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(|3-x|=|x-3|\\), så x ska ligga mindre än 1 enhet från 3: \\(2&lt;x&lt;4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2&lt;x&lt;4\\).</p></div></div>",
     "familj": "Olikheter med absolutbelopp",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Markera gränspunkterna på en tallinje och avgör vilka delar som uppfyller villkoret. För absolutbelopp kan du tolka \\(|x-a|\\) som ett avstånd från \\(a\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Lösa olikheter med absolutbelopp"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(3&lt;x&lt;4\\)", "ratt": false}, {"txt": "\\(-4&lt;x&lt;-2\\)", "ratt": false}, {"txt": "\\(x&lt;2\\) eller \\(x&gt;4\\)", "ratt": false}, {"txt": "\\(2&lt;x&lt;4\\)", "ratt": true}]
   },
   {
     "id": "1.405",
@@ -11941,27 +11941,27 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilka x-värden måste uteslutas ur definitionsmängden för \\(R(x)=\\frac{x+1}{x^2-9}\\)?</p><p>A. −3 och 3<br>B. Bara −3<br>C. Bara 3<br>D. Inga</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nämnaren faktoriseras till \\((x-3)(x+3)\\), som är noll för \\(x=\\pm3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div></div>",
+    "t": "<p>Vilka x-värden måste uteslutas ur definitionsmängden för \\(R(x)=\\frac{x+1}{x^2-9}\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nämnaren faktoriseras till \\((x-3)(x+3)\\), som är noll för \\(x=\\pm3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −3 och 3.</p></div></div>",
     "familj": "Definitionsmängd för rationella uttryck",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Definitionsmängden beskriver tillåtna x-värden, värdemängden möjliga y-värden. Kontrollera särskilt nämnare, rotuttryck och vad grafen faktiskt omfattar.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Bestämma definitionsmängd för rationella uttryck"
-    ]
+    ],
+    "alternativ": [{"txt": "−3 och 3", "ratt": true}, {"txt": "Bara −3", "ratt": false}, {"txt": "Bara 3", "ratt": false}, {"txt": "Inga", "ratt": false}]
   },
   {
     "id": "1.406",
@@ -11973,27 +11973,27 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Uttrycket \\(R(x)=\\frac{2x}{x(x-5)}\\) kan förkortas. Vilka värden måste ändå uteslutas från det ursprungliga uttryckets definitionsmängd?</p><p>A. Bara 5<br>B. 0 och 5<br>C. Bara 0<br>D. Inga</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den ursprungliga nämnaren är noll både för \\(x=0\\) och \\(x=5\\).</p></li><li><p>Förkortning ändrar inte originalets definitionsmängd.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div></div>",
+    "t": "<p>Uttrycket \\(R(x)=\\frac{2x}{x(x-5)}\\) kan förkortas. Vilka värden måste ändå uteslutas från det ursprungliga uttryckets definitionsmängd?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den ursprungliga nämnaren är noll både för \\(x=0\\) och \\(x=5\\).</p></li><li><p>Förkortning ändrar inte originalets definitionsmängd.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0 och 5.</p></div></div>",
     "familj": "Definitionsmängd för rationella uttryck",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Definitionsmängden beskriver tillåtna x-värden, värdemängden möjliga y-värden. Kontrollera särskilt nämnare, rotuttryck och vad grafen faktiskt omfattar.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Bestämma definitionsmängd för rationella uttryck"
-    ]
+    ],
+    "alternativ": [{"txt": "Bara 5", "ratt": false}, {"txt": "0 och 5", "ratt": true}, {"txt": "Bara 0", "ratt": false}, {"txt": "Inga", "ratt": false}]
   },
   {
     "id": "1.407",
@@ -12005,26 +12005,26 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken definitionsmängd har \\(R(x)=\\frac1{x^2+4}\\)?</p><p>A. Alla utom −2 och 2<br>B. Alla utom 2<br>C. Alla reella tal<br>D. Endast positiva tal</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För reella x är \\(x^2+4&gt;0\\), så nämnaren blir aldrig noll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div></div>",
+    "t": "<p>Vilken definitionsmängd har \\(R(x)=\\frac1{x^2+4}\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För reella x är \\(x^2+4&gt;0\\), så nämnaren blir aldrig noll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla reella tal.</p></div></div>",
     "familj": "Definitionsmängd för rationella uttryck",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Definitionsmängden beskriver tillåtna x-värden, värdemängden möjliga y-värden. Kontrollera särskilt nämnare, rotuttryck och vad grafen faktiskt omfattar.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Bestämma definitionsmängd för rationella uttryck"
-    ]
+    ],
+    "alternativ": [{"txt": "Alla utom −2 och 2", "ratt": false}, {"txt": "Alla utom 2", "ratt": false}, {"txt": "Alla reella tal", "ratt": true}, {"txt": "Endast positiva tal", "ratt": false}]
   },
   {
     "id": "1.411",
@@ -12091,24 +12091,24 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För vilka a saknar ekvationen \\(|x+1|=a\\) reella lösningar?</p><p>A. Alla a<br>B. \\(a=0\\)<br>C. \\(a&gt;0\\)<br>D. \\(a&lt;0\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett absolutbelopp är aldrig negativt.</p></li><li><p>Därför kan det inte vara lika med ett negativt a.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></li></ol></div>",
+    "t": "<p>För vilka a saknar ekvationen \\(|x+1|=a\\) reella lösningar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett absolutbelopp är aldrig negativt.</p></li><li><p>Därför kan det inte vara lika med ett negativt a.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a&lt;0\\).</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\">Vid olikheter ska tecknet vändas när du multiplicerar eller dividerar med ett negativt tal.</p></li></ol></div>",
     "familj": "Parameterproblem med absolutbelopp",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Tolka absolutbelopp som avstånd. En ekvation \\(|A|=b\\) med \\(b>0\\) ger två fall: \\(A=b\\) eller \\(A=-b\\).</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "spel": true
+    "spel": true,
+    "alternativ": [{"txt": "Alla a", "ratt": false}, {"txt": "\\(a=0\\)", "ratt": false}, {"txt": "\\(a&gt;0\\)", "ratt": false}, {"txt": "\\(a&lt;0\\)", "ratt": true}]
   },
   {
     "id": "1.414",
@@ -29596,20 +29596,19 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>En funktion har derivatan \\(f'(x)=(x+1)(x-3)\\). På vilket område är funktionen växande?</p><p>A. \\(x&lt;-1\\) eller \\(x&gt;3\\)<br>B. \\(-1&lt;x&lt;3\\)<br>C. Bara \\(x&gt;3\\)<br>D. För alla x</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Produkten är positiv när båda faktorerna har samma tecken: \\(x&lt;-1\\) eller \\(x&gt;3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div></div>",
+    "t": "<p>En funktion har derivatan \\(f'(x)=(x+1)(x-3)\\). På vilket område är funktionen växande?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Produkten är positiv när båda faktorerna har samma tecken: \\(x&lt;-1\\) eller \\(x&gt;3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x&lt;-1\\) eller \\(x&gt;3\\).</p></div></div>",
     "familj": "Derivatans tecken",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "val",
     "familjTidigare": [
       "Analysera derivatans tecken och nollställen",
       "Derivatans tecken och nollställen"
@@ -29620,7 +29619,8 @@ window.BANKMATO1 = [
     "spel": true,
     "omrTidigare": [
       "deriveringsregler"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x&lt;-1\\) eller \\(x&gt;3\\)", "ratt": true}, {"txt": "\\(-1&lt;x&lt;3\\)", "ratt": false}, {"txt": "Bara \\(x&gt;3\\)", "ratt": false}, {"txt": "För alla x", "ratt": false}]
   },
   {
     "id": "2.502",
@@ -29632,20 +29632,19 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>En funktion har derivatan \\(f'(x)=-(x-2)^2\\). Vad händer vid \\(x=2\\)?</p><p>A. Derivatan byter från positiv till negativ<br>B. Derivatan är noll men byter inte tecken<br>C. Derivatan byter från negativ till positiv<br>D. Derivatan är inte definierad</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(-(x-2)^2\\le0\\) på båda sidor om 2 är derivatan noll där men tecknet ändras inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div></div>",
+    "t": "<p>En funktion har derivatan \\(f'(x)=-(x-2)^2\\). Vad händer vid \\(x=2\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(-(x-2)^2\\le0\\) på båda sidor om 2 är derivatan noll där men tecknet ändras inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Derivatan är noll men byter inte tecken.</p></div></div>",
     "familj": "Derivatans tecken",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val",
     "familjTidigare": [
       "Analysera derivatans tecken och nollställen",
       "Derivatans tecken och nollställen"
@@ -29656,7 +29655,8 @@ window.BANKMATO1 = [
     "spel": true,
     "omrTidigare": [
       "deriveringsregler"
-    ]
+    ],
+    "alternativ": [{"txt": "Derivatan byter från positiv till negativ", "ratt": false}, {"txt": "Derivatan är noll men byter inte tecken", "ratt": true}, {"txt": "Derivatan byter från negativ till positiv", "ratt": false}, {"txt": "Derivatan är inte definierad", "ratt": false}]
   },
   {
     "id": "2.503",
@@ -29982,32 +29982,31 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen ges av \\(f(x)=x^3+3x^2\\).</p><p>Vilket påstående om derivatans nollställen är korrekt?</p><p>A. Det största positiva nollstället är \\(0\\).<br>B. Det största positiva nollstället är \\(2\\).<br>C. Derivatan saknar nollställen.<br>D. Derivatan har nollställen, men inget av dem är positivt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera och faktorisera:</p><div class=\"facit-matte\">\\[f'(x)=3x^2+6x=3x(x+2).\\]</div></li><li><p>Nollställena är \\(x=0\\) och \\(x=-2\\).</p></li><li><p>Talet 0 är varken positivt eller negativt, så inget av nollställena är positivt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Funktionen ges av \\(f(x)=x^3+3x^2\\).</p><p>Vilket påstående om derivatans nollställen är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera och faktorisera:</p><div class=\"facit-matte\">\\[f'(x)=3x^2+6x=3x(x+2).\\]</div></li><li><p>Nollställena är \\(x=0\\) och \\(x=-2\\).</p></li><li><p>Talet 0 är varken positivt eller negativt, så inget av nollställena är positivt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Derivatan har nollställen, men inget av dem är positivt.</p></div>",
     "familj": "Derivatans tecken",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "val",
     "familjTidigare": [
       "Analysera derivatans tecken och nollställen",
       "Derivatans tecken och nollställen"
     ],
-    "svarEnhet": null,
     "ledtrad": "<p>Hitta först var \\(f'(x)=0\\) eller inte är definierad. Undersök sedan tecknet på \\(f'\\) mellan dessa punkter: positiv derivata betyder växande, negativ avtagande.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": [
       "deriveringsregler"
-    ]
+    ],
+    "alternativ": [{"txt": "Det största positiva nollstället är \\(0\\).", "ratt": false}, {"txt": "Det största positiva nollstället är \\(2\\).", "ratt": false}, {"txt": "Derivatan saknar nollställen.", "ratt": false}, {"txt": "Derivatan har nollställen, men inget av dem är positivt.", "ratt": true}]
   },
   {
     "id": "2.517",
@@ -41651,13 +41650,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rektangulär hage byggs mot en rak vägg. Endast tre sidor behöver stängsel och totalt finns 80 m stängsel.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulär hage intill en vägg\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"55\" y1=\"42\" x2=\"335\" y2=\"42\" stroke=\"#777\" stroke-width=\"6\"/><text x=\"195\" y=\"27\" text-anchor=\"middle\" font-size=\"13\">vägg</text>\n    <line x1=\"80\" y1=\"46\" x2=\"80\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"310\" y1=\"46\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"80\" y1=\"174\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/>\n    <text x=\"62\" y=\"115\" font-size=\"13\">x</text><text x=\"195\" y=\"194\" text-anchor=\"middle\" font-size=\"13\">y</text><text x=\"195\" y=\"220\" text-anchor=\"middle\" font-size=\"12\" fill=\"#6B6670\">totalt 80 m stängsel</text></svg></span><p>Låt \\(x\\) vara längden på var och en av de två sidorna vinkelräta mot väggen.</p><p>Vilken funktion beskriver hagans area?</p><p>A. \\(A(x)=x(80-x)\\)<br>B. \\(A(x)=2x(80-2x)\\)<br>C. \\(A(x)=x(80-2x)\\)<br>D. \\(A(x)=x(40-x)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De två sidorna vinkelräta mot väggen använder tillsammans \\(2x\\) meter stängsel.</p></li><li><p>Sidan parallellt med väggen blir därför \\(80-2x\\) meter.</p></li><li><p>Arean är längd gånger bredd:</p><p>\\[A(x)=x(80-2x).\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>En rektangulär hage byggs mot en rak vägg. Endast tre sidor behöver stängsel och totalt finns 80 m stängsel.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulär hage intill en vägg\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><line x1=\"55\" y1=\"42\" x2=\"335\" y2=\"42\" stroke=\"#777\" stroke-width=\"6\"/><text x=\"195\" y=\"27\" text-anchor=\"middle\" font-size=\"13\">vägg</text>\n    <line x1=\"80\" y1=\"46\" x2=\"80\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"310\" y1=\"46\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"80\" y1=\"174\" x2=\"310\" y2=\"174\" stroke=\"#2D70B3\" stroke-width=\"2\"/>\n    <text x=\"62\" y=\"115\" font-size=\"13\">x</text><text x=\"195\" y=\"194\" text-anchor=\"middle\" font-size=\"13\">y</text><text x=\"195\" y=\"220\" text-anchor=\"middle\" font-size=\"12\" fill=\"#6B6670\">totalt 80 m stängsel</text></svg></span><p>Låt \\(x\\) vara längden på var och en av de två sidorna vinkelräta mot väggen.</p><p>Vilken funktion beskriver hagans area?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De två sidorna vinkelräta mot väggen använder tillsammans \\(2x\\) meter stängsel.</p></li><li><p>Sidan parallellt med väggen blir därför \\(80-2x\\) meter.</p></li><li><p>Arean är längd gånger bredd:</p><p>\\[A(x)=x(80-2x).\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A(x)=x(80-2x)\\).</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -41673,7 +41672,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Ställa upp optimeringsmodeller"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(A(x)=x(80-x)\\)", "ratt": false}, {"txt": "\\(A(x)=2x(80-2x)\\)", "ratt": false}, {"txt": "\\(A(x)=x(80-2x)\\)", "ratt": true}, {"txt": "\\(A(x)=x(40-x)\\)", "ratt": false}]
   },
   {
     "id": "3.304",
@@ -43091,13 +43091,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Ett rektangulärt område delas i tre lika stora fack med två inre stängsel. Totalt finns 54 m stängsel.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulärt område med inre skiljestängsel\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"95\" y=\"55\" width=\"200\" height=\"115\" fill=\"#EEF3F8\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"161.7\" y1=\"55\" x2=\"161.7\" y2=\"170\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"228.3\" y1=\"55\" x2=\"228.3\" y2=\"170\" stroke=\"#2D70B3\" stroke-width=\"2\"/><text x=\"195\" y=\"193\" text-anchor=\"middle\" font-size=\"13\">y</text><text x=\"73\" y=\"118\" font-size=\"13\">x</text><text x=\"195\" y=\"220\" text-anchor=\"middle\" font-size=\"12\" fill=\"#6B6670\">totalt 54 m stängsel</text></svg></span><p>Låt \\(x\\) vara fackens höjd och \\(y\\) hela rektangelns bredd.</p><p>Vilket villkor beskriver stängsellängden?</p><p>A. \\(2x+4y=54\\)<br>B. \\(3x+2y=54\\)<br>C. \\(4x+3y=54\\)<br>D. \\(4x+2y=54\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det finns två yttre lodräta sidor och två inre skiljestängsel.</p></li><li><p>Det ger totalt fyra sträckor med längden \\(x\\).</p></li><li><p>Överkant och underkant ger två sträckor med längden \\(y\\).</p></li><li><p>Därför gäller</p><p>\\[4x+2y=54.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Ett rektangulärt område delas i tre lika stora fack med två inre stängsel. Totalt finns 54 m stängsel.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"235\" viewBox=\"0 0 390 235\" role=\"img\" aria-label=\"Rektangulärt område med inre skiljestängsel\" style=\"max-width:100%;height:auto\"><rect x=\"1\" y=\"1\" width=\"388\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\" /><rect x=\"95\" y=\"55\" width=\"200\" height=\"115\" fill=\"#EEF3F8\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"161.7\" y1=\"55\" x2=\"161.7\" y2=\"170\" stroke=\"#2D70B3\" stroke-width=\"2\"/><line x1=\"228.3\" y1=\"55\" x2=\"228.3\" y2=\"170\" stroke=\"#2D70B3\" stroke-width=\"2\"/><text x=\"195\" y=\"193\" text-anchor=\"middle\" font-size=\"13\">y</text><text x=\"73\" y=\"118\" font-size=\"13\">x</text><text x=\"195\" y=\"220\" text-anchor=\"middle\" font-size=\"12\" fill=\"#6B6670\">totalt 54 m stängsel</text></svg></span><p>Låt \\(x\\) vara fackens höjd och \\(y\\) hela rektangelns bredd.</p><p>Vilket villkor beskriver stängsellängden?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det finns två yttre lodräta sidor och två inre skiljestängsel.</p></li><li><p>Det ger totalt fyra sträckor med längden \\(x\\).</p></li><li><p>Överkant och underkant ger två sträckor med längden \\(y\\).</p></li><li><p>Därför gäller</p><p>\\[4x+2y=54.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x+2y=54\\).</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -43113,7 +43113,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Ställa upp optimeringsmodeller"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(2x+4y=54\\)", "ratt": false}, {"txt": "\\(3x+2y=54\\)", "ratt": false}, {"txt": "\\(4x+3y=54\\)", "ratt": false}, {"txt": "\\(4x+2y=54\\)", "ratt": true}]
   },
   {
     "id": "3.344",
@@ -43783,13 +43784,13 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>För en funktion gäller</p><p>\\[f^{\\prime}(x)=3(x+1)(x-3).\\]</p><p>Vilken beskrivning är korrekt?</p><p>A. \\(f\\) växer för \\(x<-1\\) och \\(x>3\\), avtar för \\(-1\\lt x<3\\), har en maximipunkt vid \\(x=-1\\) och en minimipunkt vid \\(x=3\\).<br>B. \\(f\\) växer för \\(x<-1\\) och \\(x>3\\), avtar för \\(-1\\lt x<3\\), har en minimipunkt vid \\(x=-1\\) och en maximipunkt vid \\(x=3\\).<br>C. \\(f\\) avtar för \\(x<-1\\) och \\(x>3\\), växer för \\(-1\\lt x<3\\), har en minimipunkt vid \\(x=-1\\) och en maximipunkt vid \\(x=3\\).<br>D. \\(f\\) avtar för \\(x<-1\\), växer för \\(-1\\lt x<3\\) och avtar för \\(x>3\\), med maximipunkter vid både \\(x=-1\\) och \\(x=3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll vid \\(x=-1\\) och \\(x=3\\).</p></li><li><p>Ett teckenstudium ger</p><p>\\[f^{\\prime}(x)&gt;0\\text{ för }x&lt;-1,\\qquad f^{\\prime}(x)&lt;0\\text{ för }-1\\lt x&lt;3,\\qquad f^{\\prime}(x)&gt;0\\text{ för }x&gt;3.\\]</p></li><li><p>Funktionen växer alltså, avtar och växer igen.</p></li><li><p>Teckenbytet \\(+\\to-\\) vid \\(x=-1\\) ger en maximipunkt och \\(-\\to+\\) vid \\(x=3\\) en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>För en funktion gäller</p><p>\\[f^{\\prime}(x)=3(x+1)(x-3).\\]</p><p>Vilken beskrivning är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är noll vid \\(x=-1\\) och \\(x=3\\).</p></li><li><p>Ett teckenstudium ger</p><p>\\[f^{\\prime}(x)&gt;0\\text{ för }x&lt;-1,\\qquad f^{\\prime}(x)&lt;0\\text{ för }-1\\lt x&lt;3,\\qquad f^{\\prime}(x)&gt;0\\text{ för }x&gt;3.\\]</p></li><li><p>Funktionen växer alltså, avtar och växer igen.</p></li><li><p>Teckenbytet \\(+\\to-\\) vid \\(x=-1\\) ger en maximipunkt och \\(-\\to+\\) vid \\(x=3\\) en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f\\) växer för \\(x<-1\\) och \\(x>3\\), avtar för \\(-1\\lt x<3\\), har en maximipunkt vid \\(x=-1\\) och en minimipunkt vid \\(x=3\\).</p></div>",
     "familj": "Bestämma extrempunkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -43805,7 +43806,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Grafanalys från faktoriserad derivata"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(f\\) växer för \\(x<-1\\) och \\(x>3\\), avtar för \\(-1\\lt x<3\\), har en maximipunkt vid \\(x=-1\\) och en minimipunkt vid \\(x=3\\).", "ratt": true}, {"txt": "\\(f\\) växer för \\(x<-1\\) och \\(x>3\\), avtar för \\(-1\\lt x<3\\), har en minimipunkt vid \\(x=-1\\) och en maximipunkt vid \\(x=3\\).", "ratt": false}, {"txt": "\\(f\\) avtar för \\(x<-1\\) och \\(x>3\\), växer för \\(-1\\lt x<3\\), har en minimipunkt vid \\(x=-1\\) och en maximipunkt vid \\(x=3\\).", "ratt": false}, {"txt": "\\(f\\) avtar för \\(x<-1\\), växer för \\(-1\\lt x<3\\) och avtar för \\(x>3\\), med maximipunkter vid både \\(x=-1\\) och \\(x=3\\).", "ratt": false}]
   },
   {
     "id": "3.362",
@@ -43817,13 +43819,13 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>För en funktion gäller</p><p>\\[f^{\\prime}(x)=x(x-2)^2.\\]</p><p>Derivatan är noll vid \\(x=0\\) och \\(x=2\\). Vilken beskrivning är korrekt?</p><p>A. \\(x=0\\) ger en maximipunkt och \\(x=2\\) en minimipunkt.<br>B. \\(x=0\\) ger en minimipunkt och \\(x=2\\) en terrasspunkt.<br>C. \\(x=0\\) ger en terrasspunkt och \\(x=2\\) en maximipunkt.<br>D. Både \\(x=0\\) och \\(x=2\\) ger minimipunkter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn \\((x-2)^2\\) är aldrig negativ och byter inte tecken vid \\(x=2\\).</p></li><li><p>Derivatans tecken bestäms därför av \\(x\\).</p></li><li><p>Vid \\(x=0\\) går derivatan från negativ till positiv, så där finns en minimipunkt.</p></li><li><p>Vid \\(x=2\\) är derivatan positiv på båda sidor, så där finns ingen extrempunkt utan en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>För en funktion gäller</p><p>\\[f^{\\prime}(x)=x(x-2)^2.\\]</p><p>Derivatan är noll vid \\(x=0\\) och \\(x=2\\). Vilken beskrivning är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn \\((x-2)^2\\) är aldrig negativ och byter inte tecken vid \\(x=2\\).</p></li><li><p>Derivatans tecken bestäms därför av \\(x\\).</p></li><li><p>Vid \\(x=0\\) går derivatan från negativ till positiv, så där finns en minimipunkt.</p></li><li><p>Vid \\(x=2\\) är derivatan positiv på båda sidor, så där finns ingen extrempunkt utan en terrasspunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) ger en minimipunkt och \\(x=2\\) en terrasspunkt.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -43839,7 +43841,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Dubbelrot i derivatan"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x=0\\) ger en maximipunkt och \\(x=2\\) en minimipunkt.", "ratt": false}, {"txt": "\\(x=0\\) ger en minimipunkt och \\(x=2\\) en terrasspunkt.", "ratt": true}, {"txt": "\\(x=0\\) ger en terrasspunkt och \\(x=2\\) en maximipunkt.", "ratt": false}, {"txt": "Både \\(x=0\\) och \\(x=2\\) ger minimipunkter.", "ratt": false}]
   },
   {
     "id": "3.363",
@@ -44718,13 +44721,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rektangulär hage ska byggas mot en rak vägg. Totalt finns 60 m stängsel och väggen behöver inget stängsel.</p><p>Låt \\(x\\) vara djupet, alltså längden på var och en av de två sidorna vinkelräta mot väggen.</p><p>Vilken funktion beskriver hagans area?</p><p>A. \\(A(x)=x(60-x)\\)<br>B. \\(A(x)=2x(60-2x)\\)<br>C. \\(A(x)=x(60-2x)\\)<br>D. \\(A(x)=x(30-x)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två sidor använder tillsammans \\(2x\\) meter stängsel.</p></li><li><p>Den tredje stängslade sidan blir därför \\(60-2x\\) meter.</p></li><li><p>Arean blir</p><p>\\[A(x)=x(60-2x).\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>En rektangulär hage ska byggas mot en rak vägg. Totalt finns 60 m stängsel och väggen behöver inget stängsel.</p><p>Låt \\(x\\) vara djupet, alltså längden på var och en av de två sidorna vinkelräta mot väggen.</p><p>Vilken funktion beskriver hagans area?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två sidor använder tillsammans \\(2x\\) meter stängsel.</p></li><li><p>Den tredje stängslade sidan blir därför \\(60-2x\\) meter.</p></li><li><p>Arean blir</p><p>\\[A(x)=x(60-2x).\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(A(x)=x(60-2x)\\).</p></div>",
     "familj": "Stängsel och inhägnader",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -44740,7 +44743,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Ställa upp optimeringsmodeller"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(A(x)=x(60-x)\\)", "ratt": false}, {"txt": "\\(A(x)=2x(60-2x)\\)", "ratt": false}, {"txt": "\\(A(x)=x(60-2x)\\)", "ratt": true}, {"txt": "\\(A(x)=x(30-x)\\)", "ratt": false}]
   },
   {
     "id": "3.386",
@@ -45135,13 +45139,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rektangel har arean 144 cm². Låt den ena sidan vara \\(x\\) cm.</p><p>Vilken funktion ska minimeras för att hitta den rektangel som har minst omkrets?</p><p>A. \\(O(x)=2x+144x\\)<br>B. \\(O(x)=x+\\frac{144}{x}\\)<br>C. \\(O(x)=2x+\\frac{288}{x}\\)<br>D. \\(O(x)=144-2x\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Areavillkoret \\(xy=144\\) ger \\(y=144/x\\).</p></li><li><p>Rektangelns omkrets är</p><p>\\[O=2x+2y=2x+\\frac{288}{x}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>En rektangel har arean 144 cm². Låt den ena sidan vara \\(x\\) cm.</p><p>Vilken funktion ska minimeras för att hitta den rektangel som har minst omkrets?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Areavillkoret \\(xy=144\\) ger \\(y=144/x\\).</p></li><li><p>Rektangelns omkrets är</p><p>\\[O=2x+2y=2x+\\frac{288}{x}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(O(x)=2x+\\frac{288}{x}\\).</p></div>",
     "familj": "Rektanglar och trianglar i figurer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -45157,7 +45161,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Ställa upp optimeringsmodeller"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(O(x)=2x+144x\\)", "ratt": false}, {"txt": "\\(O(x)=x+\\frac{144}{x}\\)", "ratt": false}, {"txt": "\\(O(x)=2x+\\frac{288}{x}\\)", "ratt": true}, {"txt": "\\(O(x)=144-2x\\)", "ratt": false}]
   },
   {
     "id": "3.396",
@@ -52692,13 +52697,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett batteri laddas med effekten \\(P(t)=0{,}4t+2\\) kW, där \\(t\\) mäts i timmar.</p><p>Vad beskriver integralen \\(\\int_0^5P(t)\\,dt\\)?</p><p>A. Effektens förändringshastighet, mätt i kW/h<br>B. Effekten efter 5 timmar, mätt i kW<br>C. Laddningstiden, mätt i timmar<br>D. Den energi som tillförs batteriet, mätt i kWh</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Effekt mäts i kW och tiden i timmar.</p></li><li><p>När effekt integreras över tid blir enheten kWh, alltså energi.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Ett batteri laddas med effekten \\(P(t)=0{,}4t+2\\) kW, där \\(t\\) mäts i timmar.</p><p>Vad beskriver integralen \\(\\int_0^5P(t)\\,dt\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Effekt mäts i kW och tiden i timmar.</p></li><li><p>När effekt integreras över tid blir enheten kWh, alltså energi.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den energi som tillförs batteriet, mätt i kWh.</p></div>",
     "familj": "Tolka integraler i tillämpningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -52714,7 +52719,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Tolka integralens betydelse och enhet"
-    ]
+    ],
+    "alternativ": [{"txt": "Effektens förändringshastighet, mätt i kW/h", "ratt": false}, {"txt": "Effekten efter 5 timmar, mätt i kW", "ratt": false}, {"txt": "Laddningstiden, mätt i timmar", "ratt": false}, {"txt": "Den energi som tillförs batteriet, mätt i kWh", "ratt": true}]
   },
   {
     "id": "3.600",
@@ -53336,13 +53342,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En elev påstår att</p><p>\\[F(x)=\\frac{x^6}{3}-\\frac{x^3}{3}+C\\]</p><p>är en primitiv funktion till</p><p>\\[f(x)=2x^5-x^2+1.\\]</p><p>Vilken beskrivning av felet är korrekt?</p><p>A. Termen \\(-x^2\\) i \\(f\\) kräver en term \\(-x^2/2\\) i \\(F\\).<br>B. Termen \\(+1\\) i \\(f\\) kräver en term \\(+x\\) i \\(F\\).<br>C. Termen \\(2x^5\\) i \\(f\\) kräver en term \\(2x^5/5\\) i \\(F\\).<br>D. Konstanten \\(C\\) måste väljas till 1 för att ge konstanttermen i \\(f\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera elevens förslag:</p><p>\\[F'(x)=2x^5-x^2.\\]</p></li><li><p>Termen \\(+1\\) saknas.</p></li><li><p>För att få den behövs termen \\(+x\\) i den primitiva funktionen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>En elev påstår att</p><p>\\[F(x)=\\frac{x^6}{3}-\\frac{x^3}{3}+C\\]</p><p>är en primitiv funktion till</p><p>\\[f(x)=2x^5-x^2+1.\\]</p><p>Vilken beskrivning av felet är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera elevens förslag:</p><p>\\[F'(x)=2x^5-x^2.\\]</p></li><li><p>Termen \\(+1\\) saknas.</p></li><li><p>För att få den behövs termen \\(+x\\) i den primitiva funktionen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Termen \\(+1\\) i \\(f\\) kräver en term \\(+x\\) i \\(F\\).</p></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -53358,7 +53364,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Upptäcka fel i primitiva funktioner"
-    ]
+    ],
+    "alternativ": [{"txt": "Termen \\(-x^2\\) i \\(f\\) kräver en term \\(-x^2/2\\) i \\(F\\).", "ratt": false}, {"txt": "Termen \\(+1\\) i \\(f\\) kräver en term \\(+x\\) i \\(F\\).", "ratt": true}, {"txt": "Termen \\(2x^5\\) i \\(f\\) kräver en term \\(2x^5/5\\) i \\(F\\).", "ratt": false}, {"txt": "Konstanten \\(C\\) måste väljas till 1 för att ge konstanttermen i \\(f\\).", "ratt": false}]
   },
   {
     "id": "3.618",
@@ -53963,13 +53970,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För en deriverbar funktion gäller</p><p>\\[f'(x)=-(x+1)(x-2).\\]</p><p>Var är \\(f\\) växande?</p><p>A. \\(-1\\lt x\\lt2\\)<br>B. \\(x\\lt-1\\)<br>C. \\(x\\gt2\\)<br>D. \\(x\\lt-1\\) eller \\(x\\gt2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mellan nollställena \\(-1\\) och \\(2\\) är \\((x+1)(x-2)\\) negativ.</p></li><li><p>Minustecknet framför gör därför \\(f'(x)\\) positiv där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A, \\(-1\\lt x\\lt2\\).</p></div>",
+    "t": "<p>För en deriverbar funktion gäller</p><p>\\[f'(x)=-(x+1)(x-2).\\]</p><p>Var är \\(f\\) växande?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mellan nollställena \\(-1\\) och \\(2\\) är \\((x+1)(x-2)\\) negativ.</p></li><li><p>Minustecknet framför gör därför \\(f'(x)\\) positiv där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1\\lt x\\lt2\\).</p></div>",
     "familj": "Växande och avtagande",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -53986,7 +53993,8 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Bestämma växande och avtagande med derivata",
       "Deriverbarhet"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(-1\\lt x\\lt2\\)", "ratt": true}, {"txt": "\\(x\\lt-1\\)", "ratt": false}, {"txt": "\\(x\\gt2\\)", "ratt": false}, {"txt": "\\(x\\lt-1\\) eller \\(x\\gt2\\)", "ratt": false}]
   },
   {
     "id": "3.637",
@@ -54035,13 +54043,13 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>För en deriverbar funktion gäller</p><p>\\[f'(x)=-(x+1)^2.\\]</p><p>Vad kan du säga om punkten där \\(x=-1\\)?</p><p>A. En lokal maximipunkt, eftersom \\(f'\\) byter från positivt till negativt.<br>B. En lokal minimipunkt, eftersom \\(f'\\) byter från negativt till positivt.<br>C. En horisontell tangent utan extrempunkt, eftersom \\(f'\\) inte byter tecken.<br>D. En punkt där funktionen inte är deriverbar, eftersom \\(f'\\) blir noll.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ på båda sidor om \\(x=-1\\) och noll i själva punkten.</p></li><li><p>Funktionen är alltså avtagande både före och efter punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>För en deriverbar funktion gäller</p><p>\\[f'(x)=-(x+1)^2.\\]</p><p>Vad kan du säga om punkten där \\(x=-1\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är negativ på båda sidor om \\(x=-1\\) och noll i själva punkten.</p></li><li><p>Funktionen är alltså avtagande både före och efter punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En horisontell tangent utan extrempunkt, eftersom \\(f'\\) inte byter tecken.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -54059,7 +54067,8 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Terrasspunkter och teckenbyten i derivatan",
       "Deriverbarhet"
-    ]
+    ],
+    "alternativ": [{"txt": "En lokal maximipunkt, eftersom \\(f'\\) byter från positivt till negativt.", "ratt": false}, {"txt": "En lokal minimipunkt, eftersom \\(f'\\) byter från negativt till positivt.", "ratt": false}, {"txt": "En horisontell tangent utan extrempunkt, eftersom \\(f'\\) inte byter tecken.", "ratt": true}, {"txt": "En punkt där funktionen inte är deriverbar, eftersom \\(f'\\) blir noll.", "ratt": false}]
   },
   {
     "id": "3.639",
@@ -54991,13 +55000,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket påstående om en bestämd integral är korrekt?</p><p>A. Integralen är alltid geometrisk area eftersom alla delar räknas positivt.<br>B. Integralen kan vara negativ eftersom delar under x-axeln bidrar negativt.<br>C. Om integranden är negativ blir integralen positiv eftersom area är positiv.<br>D. Om integrationsgränserna byter plats blir värdet oförändrat eftersom intervallet är detsamma.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En bestämd integral är tecknad area.</p></li><li><p>Delar under x-axeln bidrar negativt, så integralens värde kan vara negativt.</p></li><li><p>Om integrationsgränserna byter plats byter integralen tecken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Vilket påstående om en bestämd integral är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En bestämd integral är tecknad area.</p></li><li><p>Delar under x-axeln bidrar negativt, så integralens värde kan vara negativt.</p></li><li><p>Om integrationsgränserna byter plats byter integralen tecken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Integralen kan vara negativ eftersom delar under x-axeln bidrar negativt.</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -55008,13 +55017,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Begrepp om bestämd integral"
-    ]
+    ],
+    "alternativ": [{"txt": "Integralen är alltid geometrisk area eftersom alla delar räknas positivt.", "ratt": false}, {"txt": "Integralen kan vara negativ eftersom delar under x-axeln bidrar negativt.", "ratt": true}, {"txt": "Om integranden är negativ blir integralen positiv eftersom area är positiv.", "ratt": false}, {"txt": "Om integrationsgränserna byter plats blir värdet oförändrat eftersom intervallet är detsamma.", "ratt": false}]
   },
   {
     "id": "3.710",
@@ -55026,20 +55035,19 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>En funktion har derivatan</p><p>\\[f'(x)=(x-1)^2(x+3).\\]</p><p>Hur ska punkten med \\(x=1\\) klassificeras?</p><p>A. Lokal maximipunkt, eftersom \\(f'\\) byter från positivt till negativt.<br>B. Lokal minimipunkt, eftersom \\(f'\\) byter från negativt till positivt.<br>C. Terrasspunkt, eftersom \\(f'=0\\) men derivatan inte byter tecken.<br>D. Ingen horisontell tangent, eftersom derivatan inte är definierad där.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn \\((x-1)^2\\) är positiv på båda sidor om \\(x=1\\) och noll i själva punkten.</p></li><li><p>Faktoren \\(x+3\\) är positiv nära \\(x=1\\).</p></li><li><p>Därför byter \\(f'(x)\\) inte tecken vid \\(x=1\\), trots att derivatan är noll där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>En funktion har derivatan</p><p>\\[f'(x)=(x-1)^2(x+3).\\]</p><p>Hur ska punkten med \\(x=1\\) klassificeras?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn \\((x-1)^2\\) är positiv på båda sidor om \\(x=1\\) och noll i själva punkten.</p></li><li><p>Faktoren \\(x+3\\) är positiv nära \\(x=1\\).</p></li><li><p>Därför byter \\(f'(x)\\) inte tecken vid \\(x=1\\), trots att derivatan är noll där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Terrasspunkt, eftersom \\(f'=0\\) men derivatan inte byter tecken.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Kontrollera om derivatan har samma eller olika tecken på de två sidorna om \\(x=1\\).</p>",
     "traningsniva": 3,
     "arbetsinsats": 2,
@@ -55049,7 +55057,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Terrasspunkter och teckenbyten i derivatan"
-    ]
+    ],
+    "alternativ": [{"txt": "Lokal maximipunkt, eftersom \\(f'\\) byter från positivt till negativt.", "ratt": false}, {"txt": "Lokal minimipunkt, eftersom \\(f'\\) byter från negativt till positivt.", "ratt": false}, {"txt": "Terrasspunkt, eftersom \\(f'=0\\) men derivatan inte byter tecken.", "ratt": true}, {"txt": "Ingen horisontell tangent, eftersom derivatan inte är definierad där.", "ratt": false}]
   },
   {
     "id": "3.713",
@@ -57106,13 +57115,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Det tillåtna området bestäms av</p><p>\\[2x+y\\le40,\\qquad x+3y\\le45,\\qquad x\\ge0,\\ y\\ge0.\\]</p><p>Vilken punkt ligger i det tillåtna området?</p><p>A. \\((18,6)\\)<br>B. \\((20,10)\\)<br>C. \\((5,15)\\)<br>D. \\((10,10)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Pröva punkterna i båda olikheterna.</p></li><li><p>För \\((10,10)\\) fås</p><p>\\[2\\cdot10+10=30\\le40,\\qquad10+3\\cdot10=40\\le45.\\]</p></li><li><p>De övriga punkterna bryter mot minst ett villkor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Det tillåtna området bestäms av</p><p>\\[2x+y\\le40,\\qquad x+3y\\le45,\\qquad x\\ge0,\\ y\\ge0.\\]</p><p>Vilken punkt ligger i det tillåtna området?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Pröva punkterna i båda olikheterna.</p></li><li><p>För \\((10,10)\\) fås</p><p>\\[2\\cdot10+10=30\\le40,\\qquad10+3\\cdot10=40\\le45.\\]</p></li><li><p>De övriga punkterna bryter mot minst ett villkor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((10,10)\\).</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -57127,7 +57136,7 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "val"
+    "alternativ": [{"txt": "\\((18,6)\\)", "ratt": false}, {"txt": "\\((20,10)\\)", "ratt": false}, {"txt": "\\((5,15)\\)", "ratt": false}, {"txt": "\\((10,10)\\)", "ratt": true}]
   },
   {
     "id": "4.25",
@@ -58790,19 +58799,18 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en triangel är \\(A=52^\\circ\\) och \\(C=71^\\circ\\). Sidorna \\(a\\), \\(b\\) och \\(c\\) ligger mittemot vinklarna \\(A\\), \\(B\\) respektive \\(C\\).</p><p>Vilken ordning på sidornas längder är korrekt?</p><p>A. \\(c\\gt b\\gt a\\)<br>B. \\(a\\gt b\\gt c\\)<br>C. \\(b\\gt c\\gt a\\)<br>D. \\(c\\gt a\\gt b\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den tredje vinkeln är</p><p>\\[B=180^\\circ-52^\\circ-71^\\circ=57^\\circ.\\]</p></li><li><p>Större vinkel ligger mot längre sida.</p></li><li><p>Eftersom \\(71^\\circ\\gt 57^\\circ\\gt 52^\\circ\\) gäller</p><p>\\[c\\gt b\\gt a.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>I en triangel är \\(A=52^\\circ\\) och \\(C=71^\\circ\\). Sidorna \\(a\\), \\(b\\) och \\(c\\) ligger mittemot vinklarna \\(A\\), \\(B\\) respektive \\(C\\).</p><p>Vilken ordning på sidornas längder är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den tredje vinkeln är</p><p>\\[B=180^\\circ-52^\\circ-71^\\circ=57^\\circ.\\]</p></li><li><p>Större vinkel ligger mot längre sida.</p></li><li><p>Eftersom \\(71^\\circ\\gt 57^\\circ\\gt 52^\\circ\\) gäller</p><p>\\[c\\gt b\\gt a.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c\\gt b\\gt a\\).</p></div>",
     "familj": "Använda sinussatsen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Bestäm först vinkeln \\(B\\). Jämför sedan vinklarna; den största vinkeln ligger mot den längsta sidan.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
@@ -58812,7 +58820,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Samband mellan sidor och vinklar i trianglar"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(c\\gt b\\gt a\\)", "ratt": true}, {"txt": "\\(a\\gt b\\gt c\\)", "ratt": false}, {"txt": "\\(b\\gt c\\gt a\\)", "ratt": false}, {"txt": "\\(c\\gt a\\gt b\\)", "ratt": false}]
   },
   {
     "id": "4.73",
@@ -59139,13 +59148,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en triangel känner du två sidor, 8 cm och 10 cm, samt den mellanliggande vinkeln \\(50^\\circ\\). Vilken metod är lämpligast för att direkt bestämma den tredje sidan?</p><p>A. Sinussatsen<br>B. Pythagoras sats<br>C. Areasatsen<br>D. Cosinussatsen</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två sidor och den mellanliggande vinkeln är kända.</p></li><li><p>Då kan den tredje sidan bestämmas direkt med cosinussatsen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>I en triangel känner du två sidor, 8 cm och 10 cm, samt den mellanliggande vinkeln \\(50^\\circ\\). Vilken metod är lämpligast för att direkt bestämma den tredje sidan?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två sidor och den mellanliggande vinkeln är kända.</p></li><li><p>Då kan den tredje sidan bestämmas direkt med cosinussatsen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cosinussatsen.</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -59155,13 +59164,13 @@ window.BANKMATO1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "triangelsatser"
     ],
     "familjTidigare": [
       "Välja triangelsats"
-    ]
+    ],
+    "alternativ": [{"txt": "Sinussatsen", "ratt": false}, {"txt": "Pythagoras sats", "ratt": false}, {"txt": "Areasatsen", "ratt": false}, {"txt": "Cosinussatsen", "ratt": true}]
   },
   {
     "id": "4.83",
@@ -61460,26 +61469,26 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Vilket alternativ anger alla punkter som uppfyller båda villkoren</p><p>\\[x+y\\le7,\\qquad2x+y\\le10?\\]</p><p>A. Endast \\((2,3)\\)<br>B. Endast \\((4,4)\\)<br>C. Endast \\((6,1)\\)<br>D. \\((2,3)\\) och \\((6,1)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\((2,3)\\): \\(2+3=5\\le7\\) och \\(2\\cdot2+3=7\\le10\\).</p></li><li><p>\\((4,4)\\) bryter mot \\(x+y\\le7\\), och \\((6,1)\\) bryter mot \\(2x+y\\le10\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Vilket alternativ anger alla punkter som uppfyller båda villkoren</p><p>\\[x+y\\le7,\\qquad2x+y\\le10?\\]</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\((2,3)\\): \\(2+3=5\\le7\\) och \\(2\\cdot2+3=7\\le10\\).</p></li><li><p>\\((4,4)\\) bryter mot \\(x+y\\le7\\), och \\((6,1)\\) bryter mot \\(2x+y\\le10\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Endast \\((2,3)\\).</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "punkt",
     "ledtrad": "<p>Sätt in koordinaterna i båda olikheterna. En punkt är tillåten bara om båda villkoren är uppfyllda.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Formulera bivillkor i linjär optimering"
-    ]
+    ],
+    "alternativ": [{"txt": "Endast \\((2,3)\\)", "ratt": true}, {"txt": "Endast \\((4,4)\\)", "ratt": false}, {"txt": "Endast \\((6,1)\\)", "ratt": false}, {"txt": "\\((2,3)\\) och \\((6,1)\\)", "ratt": false}]
   },
   {
     "id": "4.152",
@@ -61638,13 +61647,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En vinkel \\(v\\) ligger i tredje kvadranten. Vilket alternativ beskriver tecknen på \\(\\sin v\\) och \\(\\cos v\\)?</p><p>A. \\(\\sin v\\gt0\\) och \\(\\cos v\\gt0\\)<br>B. \\(\\sin v\\lt0\\) och \\(\\cos v\\lt0\\)<br>C. \\(\\sin v\\gt0\\) och \\(\\cos v\\lt0\\)<br>D. \\(\\sin v\\lt0\\) och \\(\\cos v\\gt0\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I tredje kvadranten är både x- och y-koordinaten negativa.</p></li><li><p>Eftersom \\(\\cos v\\) är x-koordinaten och \\(\\sin v\\) är y-koordinaten är båda negativa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>En vinkel \\(v\\) ligger i tredje kvadranten. Vilket alternativ beskriver tecknen på \\(\\sin v\\) och \\(\\cos v\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I tredje kvadranten är både x- och y-koordinaten negativa.</p></li><li><p>Eftersom \\(\\cos v\\) är x-koordinaten och \\(\\sin v\\) är y-koordinaten är båda negativa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\sin v\\lt0\\) och \\(\\cos v\\lt0\\).</p></div>",
     "familj": "Symmetri och exakta värden i enhetscirkeln",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -61659,7 +61668,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Exakta trigonometriska värden och symmetri i enhetscirkeln"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(\\sin v\\gt0\\) och \\(\\cos v\\gt0\\)", "ratt": false}, {"txt": "\\(\\sin v\\lt0\\) och \\(\\cos v\\lt0\\)", "ratt": true}, {"txt": "\\(\\sin v\\gt0\\) och \\(\\cos v\\lt0\\)", "ratt": false}, {"txt": "\\(\\sin v\\lt0\\) och \\(\\cos v\\gt0\\)", "ratt": false}]
   },
   {
     "id": "4.157",
@@ -62509,13 +62519,13 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "1/1/0",
-    "t": "<p>En modell har villkoren \\(x+2y\\le20\\), \\(3x+y\\le24\\), \\(x,y\\ge0\\) och vinsten \\(V=80x+50y\\).</p><p>Vilket alternativ anger den bästa av de relevanta hörnpunkterna och dess vinst?</p><p>A. \\((5,6;7,2)\\), \\(V=808\\)<br>B. \\((8;0)\\), \\(V=640\\)<br>C. \\((0;10)\\), \\(V=500\\)<br>D. \\((5,6;7,2)\\), \\(V=640\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skärningen mellan resurslinjerna är</p><div class=\"facit-matte\">\\[x=5,6\\],</div></div><div class=\"facit-matte\">\\[y=7,2\\].</div></li><li><p>De relevanta hörnen ger</p><p>\\[V(0,10)=500,\\qquad V(8,0)=640,\\qquad V(5,6;7,2)=808.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>En modell har villkoren \\(x+2y\\le20\\), \\(3x+y\\le24\\), \\(x,y\\ge0\\) och vinsten \\(V=80x+50y\\).</p><p>Vilket alternativ anger den bästa av de relevanta hörnpunkterna och dess vinst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skärningen mellan resurslinjerna är</p><div class=\"facit-matte\">\\[x=5,6\\],</div></div><div class=\"facit-matte\">\\[y=7,2\\].</div></li><li><p>De relevanta hörnen ger</p><p>\\[V(0,10)=500,\\qquad V(8,0)=640,\\qquad V(5,6;7,2)=808.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((5,6;7,2)\\), \\(V=808\\).</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -62528,7 +62538,8 @@ window.BANKMATO1 = [
     "spel": true,
     "familjTidigare": [
       "Formulera bivillkor i linjär optimering"
-    ]
+    ],
+    "alternativ": [{"txt": "\\((5,6;7,2)\\), \\(V=808\\)", "ratt": true}, {"txt": "\\((8;0)\\), \\(V=640\\)", "ratt": false}, {"txt": "\\((0;10)\\), \\(V=500\\)", "ratt": false}, {"txt": "\\((5,6;7,2)\\), \\(V=640\\)", "ratt": false}]
   },
   {
     "id": "4.182",
@@ -66819,26 +66830,26 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med hörnpunkter\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"178.2\" x2=\"356\" y2=\"178.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"132.4\" x2=\"356\" y2=\"132.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"86.7\" x2=\"356\" y2=\"86.7\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"40.9\" x2=\"356\" y2=\"40.9\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,40.9 240.5,155.3 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"40.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"34.9\" font-size=\"10\" fill=\"currentColor\">(0,8)</text><circle cx=\"240.5\" cy=\"155.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"246.5\" y=\"149.3\" font-size=\"10\" fill=\"currentColor\">(5,3)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Målfunktionen är \\(Z=2x+5y\\). Hörnpunkten \\((0,8)\\) ger värdet \\(Z=40\\).</p><p>Vilken ekvation beskriver den nivålinje för \\(Z\\) som går genom \\((0,8)\\)?</p><p>A. \\(2x+5y=8\\)<br>B. \\(2x-5y=40\\)<br>C. \\(5x+2y=40\\)<br>D. \\(2x+5y=40\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En nivålinje fås genom att sätta målfunktionen lika med ett bestämt värde.</p></li><li><p>Här är värdet 40, alltså</p><p>\\[2x+5y=40.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" style=\"max-width:100%;height:auto;color:inherit\" role=\"img\" aria-label=\"Tillåtet område med hörnpunkter\"><line x1=\"48.0\" y1=\"18\" x2=\"48.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"125.0\" y1=\"18\" x2=\"125.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"202.0\" y1=\"18\" x2=\"202.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"279.0\" y1=\"18\" x2=\"279.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"356.0\" y1=\"18\" x2=\"356.0\" y2=\"224\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224.0\" x2=\"356\" y2=\"224.0\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"178.2\" x2=\"356\" y2=\"178.2\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"132.4\" x2=\"356\" y2=\"132.4\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"86.7\" x2=\"356\" y2=\"86.7\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"40.9\" x2=\"356\" y2=\"40.9\" stroke=\"currentColor\" opacity=\".08\"/><line x1=\"48\" y1=\"224\" x2=\"364\" y2=\"224\" stroke=\"currentColor\" stroke-width=\"1.5\"/><line x1=\"48\" y1=\"224\" x2=\"48\" y2=\"14\" stroke=\"currentColor\" stroke-width=\"1.5\"/><polygon points=\"48.0,224.0 48.0,40.9 240.5,155.3 317.5,224.0\" fill=\"currentColor\" opacity=\".10\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"48.0\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(0,0)</text><circle cx=\"48.0\" cy=\"40.9\" r=\"3.5\" fill=\"currentColor\"/><text x=\"54.0\" y=\"34.9\" font-size=\"10\" fill=\"currentColor\">(0,8)</text><circle cx=\"240.5\" cy=\"155.3\" r=\"3.5\" fill=\"currentColor\"/><text x=\"246.5\" y=\"149.3\" font-size=\"10\" fill=\"currentColor\">(5,3)</text><circle cx=\"317.5\" cy=\"224.0\" r=\"3.5\" fill=\"currentColor\"/><text x=\"323.5\" y=\"218.0\" font-size=\"10\" fill=\"currentColor\">(7,0)</text><text x=\"362\" y=\"239\" font-size=\"11\" fill=\"currentColor\">x</text><text x=\"56\" y=\"18\" font-size=\"11\" fill=\"currentColor\">y</text></svg></span><p>Målfunktionen är \\(Z=2x+5y\\). Hörnpunkten \\((0,8)\\) ger värdet \\(Z=40\\).</p><p>Vilken ekvation beskriver den nivålinje för \\(Z\\) som går genom \\((0,8)\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En nivålinje fås genom att sätta målfunktionen lika med ett bestämt värde.</p></li><li><p>Här är värdet 40, alltså</p><p>\\[2x+5y=40.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x+5y=40\\).</p></div>",
     "familj": "Grafisk optimering",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>En nivålinje består av alla punkter som ger samma värde på målfunktionen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Tolka nivålinjer i linjär optimering"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(2x+5y=8\\)", "ratt": false}, {"txt": "\\(2x-5y=40\\)", "ratt": false}, {"txt": "\\(5x+2y=40\\)", "ratt": false}, {"txt": "\\(2x+5y=40\\)", "ratt": true}]
   },
   {
     "id": "4.304",
@@ -67381,19 +67392,18 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du känner två sidor och den mellanliggande vinkeln i en godtycklig triangel och söker den tredje sidan. Vilken metod är mest direkt?</p><p>A. Sinussatsen<br>B. Cosinussatsen<br>C. Areasatsen<br>D. Pythagoras sats</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cosinussatsen använder direkt två sidor och vinkeln mellan dem.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Du känner två sidor och den mellanliggande vinkeln i en godtycklig triangel och söker den tredje sidan. Vilken metod är mest direkt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cosinussatsen använder direkt två sidor och vinkeln mellan dem.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cosinussatsen.</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Vilken formel använder just två sidor och vinkeln mellan dem för att bestämma den tredje sidan?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -67403,7 +67413,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Trigonometrisk problemlösning och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "Sinussatsen", "ratt": false}, {"txt": "Cosinussatsen", "ratt": true}, {"txt": "Areasatsen", "ratt": false}, {"txt": "Pythagoras sats", "ratt": false}]
   },
   {
     "id": "4.405",
@@ -67414,19 +67425,18 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du känner en sida och dess motstående vinkel samt ytterligare en vinkel i en godtycklig triangel. Vilken metod är mest direkt för att bestämma en annan sida?</p><p>A. Sinussatsen<br>B. Cosinussatsen<br>C. Areasatsen<br>D. Pythagoras sats</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen kopplar samman varje sida med sinus för dess motstående vinkel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Du känner en sida och dess motstående vinkel samt ytterligare en vinkel i en godtycklig triangel. Vilken metod är mest direkt för att bestämma en annan sida?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen kopplar samman varje sida med sinus för dess motstående vinkel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sinussatsen.</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Sinussatsen kopplar varje sida till sinus för vinkeln mitt emot sidan.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -67436,7 +67446,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Trigonometrisk problemlösning och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "Sinussatsen", "ratt": true}, {"txt": "Cosinussatsen", "ratt": false}, {"txt": "Areasatsen", "ratt": false}, {"txt": "Pythagoras sats", "ratt": false}]
   },
   {
     "id": "4.406",
@@ -67447,19 +67458,18 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I en rätvinklig triangel känner du den närliggande och den motstående kateten till en vinkel. Vilket trigonometriskt samband ger vinkeln direkt?</p><p>A. Sinus<br>B. Cosinus<br>C. Tangens<br>D. Pythagoras sats</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens är kvoten mellan motstående och närliggande katet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>I en rätvinklig triangel känner du den närliggande och den motstående kateten till en vinkel. Vilket trigonometriskt samband ger vinkeln direkt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangens är kvoten mellan motstående och närliggande katet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tangens.</p></div>",
     "familj": "Välja metod",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Vilken trigonometrisk kvot är motstående katet dividerad med närliggande katet?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -67469,7 +67479,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Trigonometrisk problemlösning och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "Sinus", "ratt": false}, {"txt": "Cosinus", "ratt": false}, {"txt": "Tangens", "ratt": true}, {"txt": "Pythagoras sats", "ratt": false}]
   },
   {
     "id": "4.407",
@@ -69489,13 +69500,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken situation beskrivs bäst med en <strong>diskret</strong> funktion?</p><p>A. Bensinförbrukningen hos en bil beror av hur långt bilen körs.<br>B. Volymen av en kub beror av sidans längd.<br>C. Kostnaden för bananer beror av vikten på bananerna.<br>D. Intäkten beror av hur många stolar som tillverkas i företaget.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> D. Antalet tillverkade stolar antar heltalsvärden och är därför diskret.</p></div>",
+    "t": "<p>Vilken situation beskrivs bäst med en <strong>diskret</strong> funktion?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar:</strong> Intäkten beror av hur många stolar som tillverkas i företaget. Antalet tillverkade stolar antar heltalsvärden och är därför diskret.</p></div>",
     "familj": "Tolka och jämföra funktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -69508,7 +69519,8 @@ window.BANKMATO1 = [
     "kalla": "NP Ma3c ht 2012, uppgift 6",
     "familjTidigare": [
       "Diskreta och kontinuerliga funktioner"
-    ]
+    ],
+    "alternativ": [{"txt": "Bensinförbrukningen hos en bil beror av hur långt bilen körs.", "ratt": false}, {"txt": "Volymen av en kub beror av sidans längd.", "ratt": false}, {"txt": "Kostnaden för bananer beror av vikten på bananerna.", "ratt": false}, {"txt": "Intäkten beror av hur många stolar som tillverkas i företaget.", "ratt": true}]
   },
   {
     "id": "1.454",
@@ -70231,13 +70243,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Uttrycket</p><p>\\[\\frac{x^2-10x+25}{3x^2-75}\\]</p><p>kan förkortas till \\(\\frac{x-5}{3(x+5)}\\). Vilka x-värden är ändå förbjudna eftersom de gjorde <em>originalets</em> nämnare noll?</p><p>A. \\(x=-5\\) och \\(x=5\\)<br>B. Endast \\(x=-5\\)<br>C. Endast \\(x=5\\)<br>D. Inga värden</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Originalets nämnare är</p><p>\\[3x^2-75=3(x-5)(x+5).\\]</p></li><li><p>Den är noll för både \\(x=5\\) och \\(x=-5\\).</p></li><li><p>Att faktorn \\(x-5\\) förkortas ändrar inte originalets definitionsmängd.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Uttrycket</p><p>\\[\\frac{x^2-10x+25}{3x^2-75}\\]</p><p>kan förkortas till \\(\\frac{x-5}{3(x+5)}\\). Vilka x-värden är ändå förbjudna eftersom de gjorde <em>originalets</em> nämnare noll?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Originalets nämnare är</p><p>\\[3x^2-75=3(x-5)(x+5).\\]</p></li><li><p>Den är noll för både \\(x=5\\) och \\(x=-5\\).</p></li><li><p>Att faktorn \\(x-5\\) förkortas ändrar inte originalets definitionsmängd.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\) och \\(x=5\\).</p></div>",
     "familj": "Förenkla och ange definitionsvillkor",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -70249,13 +70261,13 @@ window.BANKMATO1 = [
     "arbetsinsats": 2,
     "spel": true,
     "kalla": "Variant av NP Ma3c ht 2012, uppgift 14b",
-    "svarFormat": "val",
     "omrTidigare": [
       "rationella_uttryck"
     ],
     "familjTidigare": [
       "Definitionsvillkor efter förkortning"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x=-5\\) och \\(x=5\\)", "ratt": true}, {"txt": "Endast \\(x=-5\\)", "ratt": false}, {"txt": "Endast \\(x=5\\)", "ratt": false}, {"txt": "Inga värden", "ratt": false}]
   },
   {
     "id": "3.763",
@@ -76968,13 +76980,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-5)^2\\). Vilket påstående om \\(f\\) vid \\(x=5\\) är korrekt?</p><p>A. \\(f\\) har ett lokalt maximum, eftersom \\(f'\\) byter från positiv till negativ.<br>B. \\(f\\) har ingen extrempunkt, eftersom \\(f'\\) inte byter tecken.<br>C. \\(f\\) har ett lokalt minimum, eftersom \\(f'\\) byter från negativ till positiv.<br>D. \\(f\\) har ingen extrempunkt, eftersom \\(f'(5)\\) inte är 0.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(f'(x)=(x-5)^2\\) är derivatan 0 vid \\(x=5\\), men positiv på båda sidor.</p></li><li><p>Funktionen är alltså växande både före och efter punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Derivatan är \\(f'(x)=(x-5)^2\\). Vilket påstående om \\(f\\) vid \\(x=5\\) är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(f'(x)=(x-5)^2\\) är derivatan 0 vid \\(x=5\\), men positiv på båda sidor.</p></li><li><p>Funktionen är alltså växande både före och efter punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f\\) har ingen extrempunkt, eftersom \\(f'\\) inte byter tecken.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -76984,13 +76996,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "funktion_derivata_grafer"
     ],
     "familjTidigare": [
       "Terrasspunkter och teckenbyten i derivatan"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(f\\) har ett lokalt maximum, eftersom \\(f'\\) byter från positiv till negativ.", "ratt": false}, {"txt": "\\(f\\) har ingen extrempunkt, eftersom \\(f'\\) inte byter tecken.", "ratt": true}, {"txt": "\\(f\\) har ett lokalt minimum, eftersom \\(f'\\) byter från negativ till positiv.", "ratt": false}, {"txt": "\\(f\\) har ingen extrempunkt, eftersom \\(f'(5)\\) inte är 0.", "ratt": false}]
   },
   {
     "id": "2.682",
@@ -77278,13 +77290,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-9)\\). För vilka x-värden är \\(f\\) avtagande?</p><p>A. \\(x&lt;5\\) eller \\(x&gt;9\\)<br>B. \\(x&gt;5\\)<br>C. \\(x&lt;9\\)<br>D. \\(5&lt;x&lt;9\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mellan nollställena har faktorerna olika tecken, så \\(f'(x)&lt;0\\) när \\(5&lt;x&lt;9\\).</p></li><li><p>Där är \\(f\\) avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Derivatan är \\(f'(x)=(x-5)(x-9)\\). För vilka x-värden är \\(f\\) avtagande?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mellan nollställena har faktorerna olika tecken, så \\(f'(x)&lt;0\\) när \\(5&lt;x&lt;9\\).</p></li><li><p>Där är \\(f\\) avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5&lt;x&lt;9\\).</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -77294,13 +77306,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "funktion_derivata_grafer"
     ],
     "familjTidigare": [
       "Derivatans tecken och monotoni"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x&lt;5\\) eller \\(x&gt;9\\)", "ratt": false}, {"txt": "\\(x&gt;5\\)", "ratt": false}, {"txt": "\\(x&lt;9\\)", "ratt": false}, {"txt": "\\(5&lt;x&lt;9\\)", "ratt": true}]
   },
   {
     "id": "2.691",
@@ -77312,13 +77324,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-2)^2\\). Vilket påstående om \\(x=2\\) är korrekt?</p><p>A. \\(f\\) har ingen extrempunkt eftersom \\(f'\\) är positiv på båda sidor.<br>B. \\(f\\) har ett lokalt minimum eftersom \\(f'\\) byter från negativ till positiv.<br>C. \\(f\\) har ett lokalt maximum eftersom \\(f'\\) byter från positiv till negativ.<br>D. \\(f\\) har ingen extrempunkt eftersom \\(f'(2)\\) inte är 0.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är 0 vid \\(x=2\\), men \\(f'(x)&gt;0\\) på båda sidor.</p></li><li><p>Funktionen fortsätter alltså att växa genom punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Derivatan är \\(f'(x)=(x-2)^2\\). Vilket påstående om \\(x=2\\) är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är 0 vid \\(x=2\\), men \\(f'(x)&gt;0\\) på båda sidor.</p></li><li><p>Funktionen fortsätter alltså att växa genom punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f\\) har ingen extrempunkt eftersom \\(f'\\) är positiv på båda sidor.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -77328,13 +77340,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "funktion_derivata_grafer"
     ],
     "familjTidigare": [
       "Terrasspunkter och teckenbyten i derivatan"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(f\\) har ingen extrempunkt eftersom \\(f'\\) är positiv på båda sidor.", "ratt": true}, {"txt": "\\(f\\) har ett lokalt minimum eftersom \\(f'\\) byter från negativ till positiv.", "ratt": false}, {"txt": "\\(f\\) har ett lokalt maximum eftersom \\(f'\\) byter från positiv till negativ.", "ratt": false}, {"txt": "\\(f\\) har ingen extrempunkt eftersom \\(f'(2)\\) inte är 0.", "ratt": false}]
   },
   {
     "id": "2.692",
@@ -77416,13 +77428,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x+2)\\). Vad har \\(f\\) vid \\(x=-8\\)?</p><p>A. Ingen extrempunkt, eftersom \\(f'\\) inte byter tecken.<br>B. Ett lokalt minimum, eftersom \\(f'\\) byter från negativ till positiv.<br>C. Ett lokalt maximum, eftersom \\(f'\\) byter från positiv till negativ.<br>D. Det går inte att avgöra från den faktoriserade derivatan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(x&lt;-8\\) är båda faktorerna negativa och derivatan positiv.</p></li><li><p>Mellan \\(-8\\) och \\(-2\\) är derivatan negativ.</p></li><li><p>Tecknet går alltså från positivt till negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>Derivatan är \\(f'(x)=(x+8)(x+2)\\). Vad har \\(f\\) vid \\(x=-8\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(x&lt;-8\\) är båda faktorerna negativa och derivatan positiv.</p></li><li><p>Mellan \\(-8\\) och \\(-2\\) är derivatan negativ.</p></li><li><p>Tecknet går alltså från positivt till negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt maximum, eftersom \\(f'\\) byter från positiv till negativ.</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -77432,13 +77444,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "funktion_derivata_grafer"
     ],
     "familjTidigare": [
       "Extrempunkter från derivatans tecken"
-    ]
+    ],
+    "alternativ": [{"txt": "Ingen extrempunkt, eftersom \\(f'\\) inte byter tecken.", "ratt": false}, {"txt": "Ett lokalt minimum, eftersom \\(f'\\) byter från negativ till positiv.", "ratt": false}, {"txt": "Ett lokalt maximum, eftersom \\(f'\\) byter från positiv till negativ.", "ratt": true}, {"txt": "Det går inte att avgöra från den faktoriserade derivatan.", "ratt": false}]
   },
   {
     "id": "2.695",
@@ -77450,13 +77462,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Grafen visar derivatan \\(f'\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" role=\"img\" aria-label=\"Grafen till derivatan f prim, en uppåtvänd parabel som skär x-axeln vid minus 2 och 2\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"250\" fill=\"white\"/><line x1=\"35\" y1=\"125\" x2=\"390\" y2=\"125\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"210\" y1=\"228\" x2=\"210\" y2=\"18\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"120\" x2=\"130\" y2=\"130\" stroke=\"#2B2527\"/><line x1=\"290\" y1=\"120\" x2=\"290\" y2=\"130\" stroke=\"#2B2527\"/><text x=\"124\" y=\"145\" font-size=\"13\" fill=\"#2B2527\">-2</text><text x=\"286\" y=\"145\" font-size=\"13\" fill=\"#2B2527\">2</text><text x=\"394\" y=\"121\" font-size=\"13\" fill=\"#2B2527\">x</text><text x=\"218\" y=\"22\" font-size=\"13\" fill=\"#2B2527\">f′(x)</text><polyline points=\"90.0,25.0 94.0,36.8 98.0,48.2 102.0,59.2 106.0,69.8 110.0,80.0 114.0,89.8 118.0,99.2 122.0,108.2 126.0,116.8 130.0,125.0 134.0,132.8 138.0,140.2 142.0,147.2 146.0,153.8 150.0,160.0 154.0,165.8 158.0,171.2 162.0,176.2 166.0,180.8 170.0,185.0 174.0,188.8 178.0,192.2 182.0,195.2 186.0,197.8 190.0,200.0 194.0,201.8 198.0,203.2 202.0,204.2 206.0,204.8 210.0,205.0 214.0,204.8 218.0,204.2 222.0,203.2 226.0,201.8 230.0,200.0 234.0,197.8 238.0,195.2 242.0,192.2 246.0,188.8 250.0,185.0 254.0,180.8 258.0,176.2 262.0,171.2 266.0,165.8 270.0,160.0 274.0,153.8 278.0,147.2 282.0,140.2 286.0,132.8 290.0,125.0 294.0,116.8 298.0,108.2 302.0,99.2 306.0,89.8 310.0,80.0 314.0,69.8 318.0,59.2 322.0,48.2 326.0,36.8 330.0,25.0\" fill=\"none\" stroke=\"#4E6E8E\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><p>För vilka x-värden är \\(f\\) avtagande?</p><p>A. \\(x&lt;-2\\) eller \\(x&gt;2\\)<br>B. \\(x&gt;2\\)<br>C. \\(x&lt;-2\\)<br>D. \\(-2&lt;x&lt;2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen \\(f\\) är avtagande där derivatan ligger under x-axeln, alltså där \\(f'(x)&lt;0\\).</p></li><li><p>Av grafen ser man att det gäller för \\(-2&lt;x&lt;2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Grafen visar derivatan \\(f'\\).</p><span class=\"fig bred\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" role=\"img\" aria-label=\"Grafen till derivatan f prim, en uppåtvänd parabel som skär x-axeln vid minus 2 och 2\"><rect x=\"0\" y=\"0\" width=\"420\" height=\"250\" fill=\"white\"/><line x1=\"35\" y1=\"125\" x2=\"390\" y2=\"125\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"210\" y1=\"228\" x2=\"210\" y2=\"18\" stroke=\"#2B2527\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"120\" x2=\"130\" y2=\"130\" stroke=\"#2B2527\"/><line x1=\"290\" y1=\"120\" x2=\"290\" y2=\"130\" stroke=\"#2B2527\"/><text x=\"124\" y=\"145\" font-size=\"13\" fill=\"#2B2527\">-2</text><text x=\"286\" y=\"145\" font-size=\"13\" fill=\"#2B2527\">2</text><text x=\"394\" y=\"121\" font-size=\"13\" fill=\"#2B2527\">x</text><text x=\"218\" y=\"22\" font-size=\"13\" fill=\"#2B2527\">f′(x)</text><polyline points=\"90.0,25.0 94.0,36.8 98.0,48.2 102.0,59.2 106.0,69.8 110.0,80.0 114.0,89.8 118.0,99.2 122.0,108.2 126.0,116.8 130.0,125.0 134.0,132.8 138.0,140.2 142.0,147.2 146.0,153.8 150.0,160.0 154.0,165.8 158.0,171.2 162.0,176.2 166.0,180.8 170.0,185.0 174.0,188.8 178.0,192.2 182.0,195.2 186.0,197.8 190.0,200.0 194.0,201.8 198.0,203.2 202.0,204.2 206.0,204.8 210.0,205.0 214.0,204.8 218.0,204.2 222.0,203.2 226.0,201.8 230.0,200.0 234.0,197.8 238.0,195.2 242.0,192.2 246.0,188.8 250.0,185.0 254.0,180.8 258.0,176.2 262.0,171.2 266.0,165.8 270.0,160.0 274.0,153.8 278.0,147.2 282.0,140.2 286.0,132.8 290.0,125.0 294.0,116.8 298.0,108.2 302.0,99.2 306.0,89.8 310.0,80.0 314.0,69.8 318.0,59.2 322.0,48.2 326.0,36.8 330.0,25.0\" fill=\"none\" stroke=\"#4E6E8E\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></span><p>För vilka x-värden är \\(f\\) avtagande?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen \\(f\\) är avtagande där derivatan ligger under x-axeln, alltså där \\(f'(x)&lt;0\\).</p></li><li><p>Av grafen ser man att det gäller för \\(-2&lt;x&lt;2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2&lt;x&lt;2\\).</p></div>",
     "familj": "Funktionens graf och derivatans graf",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -77466,13 +77478,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "funktion_derivata_grafer"
     ],
     "familjTidigare": [
       "Koppla samman funktionens graf och derivatans graf"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x&lt;-2\\) eller \\(x&gt;2\\)", "ratt": false}, {"txt": "\\(x&gt;2\\)", "ratt": false}, {"txt": "\\(x&lt;-2\\)", "ratt": false}, {"txt": "\\(-2&lt;x&lt;2\\)", "ratt": true}]
   },
   {
     "id": "2.696",
@@ -77484,13 +77496,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=6x-4\\). Vilken typ av extrempunkt har \\(f\\) där \\(f'(x)=0\\)?</p><p>A. Lokalt maximum, eftersom derivatan går från positiv till negativ.<br>B. Lokalt minimum, eftersom derivatan går från negativ till positiv.<br>C. Ingen extrempunkt, eftersom derivatan inte byter tecken.<br>D. Det går inte att avgöra utan att känna till \\(f(x)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Nollstället är</p><div class=\"facit-matte\">\\[x=2/3\\].</div></div></li><li><p>Eftersom \\(6x-4\\) är negativt före detta värde och positivt efteråt går funktionen från avtagande till växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Derivatan är \\(f'(x)=6x-4\\). Vilken typ av extrempunkt har \\(f\\) där \\(f'(x)=0\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Nollstället är</p><div class=\"facit-matte\">\\[x=2/3\\].</div></div></li><li><p>Eftersom \\(6x-4\\) är negativt före detta värde och positivt efteråt går funktionen från avtagande till växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lokalt minimum, eftersom derivatan går från negativ till positiv.</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -77500,13 +77512,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "funktion_derivata_grafer"
     ],
     "familjTidigare": [
       "Från derivata till funktion och graf"
-    ]
+    ],
+    "alternativ": [{"txt": "Lokalt maximum, eftersom derivatan går från positiv till negativ.", "ratt": false}, {"txt": "Lokalt minimum, eftersom derivatan går från negativ till positiv.", "ratt": true}, {"txt": "Ingen extrempunkt, eftersom derivatan inte byter tecken.", "ratt": false}, {"txt": "Det går inte att avgöra utan att känna till \\(f(x)\\).", "ratt": false}]
   },
   {
     "id": "2.697",
@@ -77553,13 +77565,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Volymen vatten i en tank beskrivs av \\(V(t)\\) liter, där \\(t\\) mäts i minuter. Man vet att \\(V'(3)=-2,5\\). Vad betyder detta?</p><p>A. Volymen minskar just då med 2,5 liter per minut.<br>B. Volymen är 2,5 liter vid \\(t=3\\).<br>C. Volymen har minskat totalt 2,5 liter under de första tre minuterna.<br>D. Volymen ökar just då med 2,5 liter per minut.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan anger den momentana förändringshastigheten.</p></li><li><p>Minustecknet visar att volymen minskar, och enheten blir liter per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Volymen vatten i en tank beskrivs av \\(V(t)\\) liter, där \\(t\\) mäts i minuter. Man vet att \\(V'(3)=-2,5\\). Vad betyder detta?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan anger den momentana förändringshastigheten.</p></li><li><p>Minustecknet visar att volymen minskar, och enheten blir liter per minut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Volymen minskar just då med 2,5 liter per minut.</p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -77569,13 +77581,13 @@ window.BANKMATO1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "derivatabegrepp"
     ],
     "familjTidigare": [
       "Tolka derivatavärde"
-    ]
+    ],
+    "alternativ": [{"txt": "Volymen minskar just då med 2,5 liter per minut.", "ratt": true}, {"txt": "Volymen är 2,5 liter vid \\(t=3\\).", "ratt": false}, {"txt": "Volymen har minskat totalt 2,5 liter under de första tre minuterna.", "ratt": false}, {"txt": "Volymen ökar just då med 2,5 liter per minut.", "ratt": false}]
   },
   {
     "id": "2.699",
@@ -77622,13 +77634,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x+2)(x-1)\\). För vilka x-värden är \\(f\\) växande?</p><p>A. \\(x&gt;-2\\)<br>B. \\(-2&lt;x&lt;1\\)<br>C. \\(x&lt;1\\)<br>D. \\(x&lt;-2\\) eller \\(x&gt;1\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv när båda faktorerna har samma tecken, alltså för \\(x&lt;-2\\) och \\(x&gt;1\\).</p></li><li><p>Där är \\(f\\) växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Derivatan är \\(f'(x)=(x+2)(x-1)\\). För vilka x-värden är \\(f\\) växande?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är positiv när båda faktorerna har samma tecken, alltså för \\(x&lt;-2\\) och \\(x&gt;1\\).</p></li><li><p>Där är \\(f\\) växande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x&lt;-2\\) eller \\(x&gt;1\\).</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -77638,13 +77650,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "funktion_derivata_grafer"
     ],
     "familjTidigare": [
       "Derivatans tecken och monotoni"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x&gt;-2\\)", "ratt": false}, {"txt": "\\(-2&lt;x&lt;1\\)", "ratt": false}, {"txt": "\\(x&lt;1\\)", "ratt": false}, {"txt": "\\(x&lt;-2\\) eller \\(x&gt;1\\)", "ratt": true}]
   },
   {
     "id": "2.701",
@@ -77965,13 +77977,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-8)\\). Vad har \\(f\\) vid \\(x=2\\)?</p><p>A. Ett lokalt maximum.<br>B. Ett lokalt minimum.<br>C. En terrasspunkt men ingen extrempunkt.<br>D. Ingen punkt med horisontell tangent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan går från positiv till negativ vid \\(x=2\\), så där har funktionen ett lokalt maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-8)\\). Vad har \\(f\\) vid \\(x=2\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan går från positiv till negativ vid \\(x=2\\), så där har funktionen ett lokalt maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt maximum.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -77981,13 +77993,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Bestäm och klassificera extrempunkter"
-    ]
+    ],
+    "alternativ": [{"txt": "Ett lokalt maximum.", "ratt": true}, {"txt": "Ett lokalt minimum.", "ratt": false}, {"txt": "En terrasspunkt men ingen extrempunkt.", "ratt": false}, {"txt": "Ingen punkt med horisontell tangent.", "ratt": false}]
   },
   {
     "id": "2.711",
@@ -77999,13 +78011,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-8)\\). Vad har \\(f\\) vid \\(x=8\\)?</p><p>A. Ett lokalt maximum.<br>B. Ett lokalt minimum.<br>C. En terrasspunkt men ingen extrempunkt.<br>D. Ingen punkt med horisontell tangent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan går från negativ till positiv vid \\(x=8\\), så där har funktionen ett lokalt minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-8)\\). Vad har \\(f\\) vid \\(x=8\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan går från negativ till positiv vid \\(x=8\\), så där har funktionen ett lokalt minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt minimum.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -78015,13 +78027,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Bestäm och klassificera extrempunkter"
-    ]
+    ],
+    "alternativ": [{"txt": "Ett lokalt maximum.", "ratt": false}, {"txt": "Ett lokalt minimum.", "ratt": true}, {"txt": "En terrasspunkt men ingen extrempunkt.", "ratt": false}, {"txt": "Ingen punkt med horisontell tangent.", "ratt": false}]
   },
   {
     "id": "2.712",
@@ -78239,13 +78251,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-2)^2\\). Vilket påstående är korrekt om \\(x=2\\)?</p><p>A. Där finns ett lokalt maximum.<br>B. Där finns ett lokalt minimum.<br>C. Där finns en terrasspunkt men ingen extrempunkt.<br>D. Där finns ingen horisontell tangent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är 0 vid \\(x=2\\) men positiv på båda sidor.</p></li><li><p>Funktionen fortsätter därför att växa och har ingen extrempunkt där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>Derivatan är \\(f'(x)=(x-2)^2\\). Vilket påstående är korrekt om \\(x=2\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är 0 vid \\(x=2\\) men positiv på båda sidor.</p></li><li><p>Funktionen fortsätter därför att växa och har ingen extrempunkt där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Där finns en terrasspunkt men ingen extrempunkt.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -78255,13 +78267,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Terrasspunkter och teckenbyten i derivatan"
-    ]
+    ],
+    "alternativ": [{"txt": "Där finns ett lokalt maximum.", "ratt": false}, {"txt": "Där finns ett lokalt minimum.", "ratt": false}, {"txt": "Där finns en terrasspunkt men ingen extrempunkt.", "ratt": true}, {"txt": "Där finns ingen horisontell tangent.", "ratt": false}]
   },
   {
     "id": "2.719",
@@ -78378,13 +78390,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=x^3+C\\), där \\(C\\) är en konstant. Vilka värden på \\(C\\) gör att \\(f'(2)=12\\)?</p><p>A. Endast \\(C=0\\)<br>B. Alla reella värden på \\(C\\)<br>C. Endast \\(C=12\\)<br>D. Inget värde på \\(C\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är \\(f'(x)=3x^2\\), oberoende av konstanten \\(C\\).</p></li><li><p>Därför är \\(f'(2)=12\\) för alla värden på \\(C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Funktionen är \\(f(x)=x^3+C\\), där \\(C\\) är en konstant. Vilka värden på \\(C\\) gör att \\(f'(2)=12\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är \\(f'(x)=3x^2\\), oberoende av konstanten \\(C\\).</p></li><li><p>Därför är \\(f'(2)=12\\) för alla värden på \\(C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla reella värden på \\(C\\).</p></div>",
     "familj": "Derivera polynom",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -78394,13 +78406,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "derivatabegrepp"
     ],
     "familjTidigare": [
       "Konstanttermens betydelse för derivatan"
-    ]
+    ],
+    "alternativ": [{"txt": "Endast \\(C=0\\)", "ratt": false}, {"txt": "Alla reella värden på \\(C\\)", "ratt": true}, {"txt": "Endast \\(C=12\\)", "ratt": false}, {"txt": "Inget värde på \\(C\\)", "ratt": false}]
   },
   {
     "id": "2.723",
@@ -78618,13 +78630,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken funktion är lika med sin egen derivata?</p><p>A. \\(f(x)=3e^x\\)<br>B. \\(f(x)=3e^{2x}\\)<br>C. \\(f(x)=x^3\\)<br>D. \\(f(x)=e^x+1\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan av \\(3e^x\\) är åter \\(3e^x\\).</p></li><li><p>De andra alternativen förändras vid derivering.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Vilken funktion är lika med sin egen derivata?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan av \\(3e^x\\) är åter \\(3e^x\\).</p></li><li><p>De andra alternativen förändras vid derivering.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=3e^x\\).</p></div>",
     "familj": "Derivatan är proportionell mot funktionsvärdet",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -78634,13 +78646,13 @@ window.BANKMATO1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "exponential_ln_derivata"
     ],
     "familjTidigare": [
       "Funktioner som är lika med sin derivata"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(f(x)=3e^x\\)", "ratt": true}, {"txt": "\\(f(x)=3e^{2x}\\)", "ratt": false}, {"txt": "\\(f(x)=x^3\\)", "ratt": false}, {"txt": "\\(f(x)=e^x+1\\)", "ratt": false}]
   },
   {
     "id": "2.730",
@@ -78652,13 +78664,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En funktion uppfyller \\(f'(x)=f(x)\\) och \\(f(0)=7\\). Vilken funktion kan det vara?</p><p>A. \\(f(x)=e^x+6\\)<br>B. \\(f(x)=7e^{7x}\\)<br>C. \\(f(x)=7e^x\\)<br>D. \\(f(x)=7x\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla funktioner av formen \\(Ce^x\\) är lika med sin derivata.</p></li><li><p>Villkoret \\(f(0)=7\\) ger \\(C=7\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>En funktion uppfyller \\(f'(x)=f(x)\\) och \\(f(0)=7\\). Vilken funktion kan det vara?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla funktioner av formen \\(Ce^x\\) är lika med sin derivata.</p></li><li><p>Villkoret \\(f(0)=7\\) ger \\(C=7\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=7e^x\\).</p></div>",
     "familj": "Derivatan är proportionell mot funktionsvärdet",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -78668,13 +78680,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "exponential_ln_derivata"
     ],
     "familjTidigare": [
       "Funktioner som är lika med sin derivata"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(f(x)=e^x+6\\)", "ratt": false}, {"txt": "\\(f(x)=7e^{7x}\\)", "ratt": false}, {"txt": "\\(f(x)=7e^x\\)", "ratt": true}, {"txt": "\\(f(x)=7x\\)", "ratt": false}]
   },
   {
     "id": "2.820",
@@ -78957,13 +78969,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=2e^{-0{,}5x}\\). Vilket påstående om derivatan gäller för alla reella \\(x\\)?</p><p>A. \\(f'(x)&gt;0\\)<br>B. \\(f'(x)\\) byter tecken vid \\(x=0\\)<br>C. \\(f'(x)=0\\)<br>D. \\(f'(x)&lt;0\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[f'(x)=-e^{-0{,}5x}\\].</div></div></li><li><p>Exponentialfaktorn är alltid positiv, så derivatan är alltid negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Funktionen är \\(f(x)=2e^{-0{,}5x}\\). Vilket påstående om derivatan gäller för alla reella \\(x\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan är</p><div class=\"facit-matte\">\\[f'(x)=-e^{-0{,}5x}\\].</div></div></li><li><p>Exponentialfaktorn är alltid positiv, så derivatan är alltid negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(x)&lt;0\\).</p></div>",
     "familj": "Derivera e^kx",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -78973,13 +78985,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "exponential_ln_derivata"
     ],
     "familjTidigare": [
       "Derivera exponentialfunktioner"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(f'(x)&gt;0\\)", "ratt": false}, {"txt": "\\(f'(x)\\) byter tecken vid \\(x=0\\)", "ratt": false}, {"txt": "\\(f'(x)=0\\)", "ratt": false}, {"txt": "\\(f'(x)&lt;0\\)", "ratt": true}]
   },
   {
     "id": "2.739",
@@ -79605,13 +79617,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-6)\\). Vilket påstående om \\(f\\) är korrekt?</p><p>A. Funktionen växer för alla x.<br>B. Funktionen har ingen extrempunkt.<br>C. Funktionen avtar när \\(x&lt;2\\) och när \\(x&gt;6\\).<br>D. Funktionen avtar när \\(2&lt;x&lt;6\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mellan 2 och 6 har faktorerna olika tecken, så \\(f'(x)&lt;0\\) där.</p></li><li><p>Alltså är \\(f\\) avtagande när \\(2&lt;x&lt;6\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Derivatan är \\(f'(x)=(x-2)(x-6)\\). Vilket påstående om \\(f\\) är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mellan 2 och 6 har faktorerna olika tecken, så \\(f'(x)&lt;0\\) där.</p></li><li><p>Alltså är \\(f\\) avtagande när \\(2&lt;x&lt;6\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Funktionen avtar när \\(2&lt;x&lt;6\\).</p></div>",
     "familj": "Teckenstudium",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -79621,13 +79633,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Bestämma växande och avtagande med derivata"
-    ]
+    ],
+    "alternativ": [{"txt": "Funktionen växer för alla x.", "ratt": false}, {"txt": "Funktionen har ingen extrempunkt.", "ratt": false}, {"txt": "Funktionen avtar när \\(x&lt;2\\) och när \\(x&gt;6\\).", "ratt": false}, {"txt": "Funktionen avtar när \\(2&lt;x&lt;6\\).", "ratt": true}]
   },
   {
     "id": "3.803",
@@ -79848,13 +79860,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För en funktion gäller \\(f'(x)=(x-1)^2\\). Vilket påstående om \\(x=1\\) är korrekt?</p><p>A. Punkten är ett lokalt maximum.<br>B. Punkten har horisontell tangent men är ingen extrempunkt.<br>C. Punkten är ett lokalt minimum.<br>D. Punkten kan inte ha horisontell tangent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är 0 vid \\(x=1\\) men positiv på båda sidor.</p></li><li><p>Funktionen växer därför både före och efter punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>För en funktion gäller \\(f'(x)=(x-1)^2\\). Vilket påstående om \\(x=1\\) är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är 0 vid \\(x=1\\) men positiv på båda sidor.</p></li><li><p>Funktionen växer därför både före och efter punkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Punkten har horisontell tangent men är ingen extrempunkt.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -79864,13 +79876,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Dubbelrot i derivatan och terrasspunkt"
-    ]
+    ],
+    "alternativ": [{"txt": "Punkten är ett lokalt maximum.", "ratt": false}, {"txt": "Punkten har horisontell tangent men är ingen extrempunkt.", "ratt": true}, {"txt": "Punkten är ett lokalt minimum.", "ratt": false}, {"txt": "Punkten kan inte ha horisontell tangent.", "ratt": false}]
   },
   {
     "id": "3.810",
@@ -79987,13 +79999,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(1)=0\\). Vilket uttryck beskriver \\(F(x)\\)?</p><p>A. \\(3x^3-3\\)<br>B. \\(x^3+1\\)<br>C. \\(x^3-1\\)<br>D. \\(x^2-1\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion till \\(3x^2\\) är \\(x^3+C\\).</p></li><li><p>Villkoret \\(F(1)=0\\) ger \\(1+C=0\\), alltså \\(C=-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>Funktionen \\(F\\) är en primitiv funktion till \\(f(x)=3x^2\\) och \\(F(1)=0\\). Vilket uttryck beskriver \\(F(x)\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion till \\(3x^2\\) är \\(x^3+C\\).</p></li><li><p>Villkoret \\(F(1)=0\\) ger \\(1+C=0\\), alltså \\(C=-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^3-1\\).</p></div>",
     "familj": "Primitiv funktion genom en given punkt",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -80004,13 +80016,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Bestämma primitiv funktion med begynnelsevillkor"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(3x^3-3\\)", "ratt": false}, {"txt": "\\(x^3+1\\)", "ratt": false}, {"txt": "\\(x^3-1\\)", "ratt": true}, {"txt": "\\(x^2-1\\)", "ratt": false}]
   },
   {
     "id": "3.814",
@@ -80092,13 +80104,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen ges av \\(f(x)=2x+1\\) för \\(x&lt;1\\) och \\(f(x)=x+4\\) för \\(x\\ge1\\). Vad är \\(\\lim_{x\\to1}f(x)\\)?</p><p>A. Gränsvärdet finns inte.<br>B. 5<br>C. 4<br>D. 3</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vänstergränsvärdet är \\(2\\cdot1+1=3\\), medan högergränsvärdet är \\(1+4=5\\).</p></li><li><p>Eftersom de är olika finns inget tvåsidigt gränsvärde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Funktionen ges av \\(f(x)=2x+1\\) för \\(x&lt;1\\) och \\(f(x)=x+4\\) för \\(x\\ge1\\). Vad är \\(\\lim_{x\\to1}f(x)\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vänstergränsvärdet är \\(2\\cdot1+1=3\\), medan högergränsvärdet är \\(1+4=5\\).</p></li><li><p>Eftersom de är olika finns inget tvåsidigt gränsvärde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Gränsvärdet finns inte.</p></div>",
     "familj": "Beräkna gränsvärden",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -80108,13 +80120,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "gransvarde_kontinuitet"
     ],
     "familjTidigare": [
       "Vänster- och högergränsvärde"
-    ]
+    ],
+    "alternativ": [{"txt": "Gränsvärdet finns inte.", "ratt": true}, {"txt": "5", "ratt": false}, {"txt": "4", "ratt": false}, {"txt": "3", "ratt": false}]
   },
   {
     "id": "3.817",
@@ -80126,13 +80138,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För \\(x\\ne2\\) är \\(f(x)=\\frac{x^2-4}{x-2}\\), och dessutom är \\(f(2)=7\\). Är funktionen kontinuerlig vid \\(x=2\\)?</p><p>A. Ja, eftersom \\(f(2)\\) är definierat.<br>B. Nej, eftersom gränsvärdet är 4 men \\(f(2)=7\\).<br>C. Ja, eftersom gränsvärdet är 7.<br>D. Nej, eftersom gränsvärdet inte finns.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(x\\ne2\\) förenklas uttrycket till \\(x+2\\), så gränsvärdet vid 2 är 4.</p></li><li><p>Eftersom funktionsvärdet är 7 är funktionen inte kontinuerlig där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>För \\(x\\ne2\\) är \\(f(x)=\\frac{x^2-4}{x-2}\\), och dessutom är \\(f(2)=7\\). Är funktionen kontinuerlig vid \\(x=2\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(x\\ne2\\) förenklas uttrycket till \\(x+2\\), så gränsvärdet vid 2 är 4.</p></li><li><p>Eftersom funktionsvärdet är 7 är funktionen inte kontinuerlig där.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, eftersom gränsvärdet är 4 men \\(f(2)=7\\).</p></div>",
     "familj": "Kontinuitet och hål i grafer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -80142,13 +80154,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "gransvarde_kontinuitet"
     ],
     "familjTidigare": [
       "Kontinuitet och borttagbar diskontinuitet"
-    ]
+    ],
+    "alternativ": [{"txt": "Ja, eftersom \\(f(2)\\) är definierat.", "ratt": false}, {"txt": "Nej, eftersom gränsvärdet är 4 men \\(f(2)=7\\).", "ratt": true}, {"txt": "Ja, eftersom gränsvärdet är 7.", "ratt": false}, {"txt": "Nej, eftersom gränsvärdet inte finns.", "ratt": false}]
   },
   {
     "id": "3.818",
@@ -80328,13 +80340,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För en deriverbar funktion gäller att \\(f'(x)&gt;0\\) när \\(x&lt;2\\), \\(f'(x)&lt;0\\) när \\(2&lt;x&lt;5\\) och \\(f'(x)&gt;0\\) när \\(x&gt;5\\). Vad har \\(f\\) vid \\(x=2\\)?</p><p>A. Ingen horisontell tangent.<br>B. Ett lokalt minimum.<br>C. En terrasspunkt men ingen extrempunkt.<br>D. Ett lokalt maximum.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=2\\) går derivatan från positiv till negativ.</p></li><li><p>Funktionen går alltså från växande till avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>För en deriverbar funktion gäller att \\(f'(x)&gt;0\\) när \\(x&lt;2\\), \\(f'(x)&lt;0\\) när \\(2&lt;x&lt;5\\) och \\(f'(x)&gt;0\\) när \\(x&gt;5\\). Vad har \\(f\\) vid \\(x=2\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid \\(x=2\\) går derivatan från positiv till negativ.</p></li><li><p>Funktionen går alltså från växande till avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett lokalt maximum.</p></div>",
     "familj": "Terrasspunkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -80344,13 +80356,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "grafanalys_derivata"
     ],
     "familjTidigare": [
       "Extrempunkt eller terrasspunkt från teckenstudium"
-    ]
+    ],
+    "alternativ": [{"txt": "Ingen horisontell tangent.", "ratt": false}, {"txt": "Ett lokalt minimum.", "ratt": false}, {"txt": "En terrasspunkt men ingen extrempunkt.", "ratt": false}, {"txt": "Ett lokalt maximum.", "ratt": true}]
   },
   {
     "id": "3.824",
@@ -90221,13 +90233,13 @@ window.BANKMATO1 = [
   ],
   "niva": "E",
   "poang": "2/0/0",
-  "t": "<p>För \\(x\\ne2\\) kan \\(\\frac{x^2-4}{x-2}\\) förenklas till \\(x+2\\). Vad gäller för <strong>det ursprungliga uttrycket</strong> när \\(x=2\\)?</p><p>A. Värdet är 0.<br>B. Värdet är 4.<br>C. Uttrycket är inte definierat.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid \\(x=2\\) blir nämnaren \\(x-2=0\\). Division med noll är inte definierad.</p><p>Förkortningen till \\(x+2\\) gäller bara för \\(x\\ne2\\). Att det nya uttrycket får värdet 4 vid \\(x=2\\) ger inte originaluttrycket ett värde där.</p><p class=\"facit-svar\"><strong>Svar:</strong> C. Uttrycket är inte definierat.</p></div>",
+  "t": "<p>För \\(x\\ne2\\) kan \\(\\frac{x^2-4}{x-2}\\) förenklas till \\(x+2\\). Vad gäller för <strong>det ursprungliga uttrycket</strong> när \\(x=2\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vid \\(x=2\\) blir nämnaren \\(x-2=0\\). Division med noll är inte definierad.</p><p>Förkortningen till \\(x+2\\) gäller bara för \\(x\\ne2\\). Att det nya uttrycket får värdet 4 vid \\(x=2\\) ger inte originaluttrycket ett värde där.</p><p class=\"facit-svar\"><strong>Svar:</strong> Uttrycket är inte definierat.</p></div>",
   "familj": "Förkorta rationella uttryck",
   "geogebra": false,
   "miniräknare": true,
-  "svarstyp": "val",
-  "rättSvar": "C",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
   "tolerans": null,
   "självrättning": true,
   "formaga": [
@@ -90237,13 +90249,13 @@ window.BANKMATO1 = [
   "traningsniva": 2,
   "arbetsinsats": 1,
   "spel": true,
-  "svarFormat": "val",
   "omrTidigare": [
     "rationella_uttryck"
   ],
   "familjTidigare": [
     "Faktorisera och förkorta rationellt uttryck"
-  ]
+  ],
+  "alternativ": [{"txt": "Värdet är 0.", "ratt": false}, {"txt": "Värdet är 4.", "ratt": false}, {"txt": "Uttrycket är inte definierat.", "ratt": true}]
 },
   {
     "id": "2.748",
@@ -96054,13 +96066,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Det gäller att \\(f(x)\\ge0\\) för alla \\(x\\) med \\(1\\le x\\le4\\). Vilket påstående måste vara sant?</p><p>A. \\(\\int_1^4 f(x)\\,dx\\ge0\\)<br>B. \\(\\int_1^4 f(x)\\,dx=0\\) alltid<br>C. \\(\\int_1^4 f(x)\\,dx&lt;0\\)<br>D. Integralens tecken går inte att avgöra</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom funktionen aldrig ligger under x-axeln kan den bestämda integralen inte bli negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Det gäller att \\(f(x)\\ge0\\) för alla \\(x\\) med \\(1\\le x\\le4\\). Vilket påstående måste vara sant?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom funktionen aldrig ligger under x-axeln kan den bestämda integralen inte bli negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\int_1^4 f(x)\\,dx\\ge0\\).</p></div>",
     "familj": "Integralens egenskaper",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -96071,13 +96083,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "integral_egenskaper"
     ],
     "familjTidigare": [
       "Integralens tecken"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(\\int_1^4 f(x)\\,dx\\ge0\\)", "ratt": true}, {"txt": "\\(\\int_1^4 f(x)\\,dx=0\\) alltid", "ratt": false}, {"txt": "\\(\\int_1^4 f(x)\\,dx&lt;0\\)", "ratt": false}, {"txt": "Integralens tecken går inte att avgöra", "ratt": false}]
   },
   {
     "id": "3.1128",
@@ -96392,13 +96404,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken integral ger arean mellan grafen till \\(f(x)=5-x^2\\), x-axeln och linjerna \\(x=0\\) och \\(x=2\\)?</p><p>A. \\(\\int_2^5(5-x^2)\\,dx\\)<br>B. \\(\\int_0^2(x^2-5)\\,dx\\)<br>C. \\(\\int_0^2(5-x^2)\\,dx\\)<br>D. \\(\\int_0^5(2-x^2)\\,dx\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På \\(0\\le x\\le2\\) är \\(5-x^2&gt;0\\), så arean fås direkt av</p><p>\\[\\int_0^2(5-x^2)\\,dx.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>Vilken integral ger arean mellan grafen till \\(f(x)=5-x^2\\), x-axeln och linjerna \\(x=0\\) och \\(x=2\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På \\(0\\le x\\le2\\) är \\(5-x^2&gt;0\\), så arean fås direkt av</p><p>\\[\\int_0^2(5-x^2)\\,dx.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\int_0^2(5-x^2)\\,dx\\).</p></div>",
     "familj": "Integral som area under en graf",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -96408,13 +96420,13 @@ window.BANKMATO1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "area_med_integral"
     ],
     "familjTidigare": [
       "Ställa upp area med integral"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(\\int_2^5(5-x^2)\\,dx\\)", "ratt": false}, {"txt": "\\(\\int_0^2(x^2-5)\\,dx\\)", "ratt": false}, {"txt": "\\(\\int_0^2(5-x^2)\\,dx\\)", "ratt": true}, {"txt": "\\(\\int_0^5(2-x^2)\\,dx\\)", "ratt": false}]
   },
   {
     "id": "3.1138",

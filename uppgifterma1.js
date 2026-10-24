@@ -93088,7 +93088,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett triangulärt segel har basen 3,2 m och höjden 4,5 m. Hur stor är seglets area?</p>",
+    "t": "<p>Ett triangulärt segel har basen 3,2 m och höjden 4,5 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"290\" viewBox=\"0 0 300 290\" role=\"img\" aria-label=\"Triangulärt segel med basen 3,2 m och höjden 4,5 m längs masten.\"><title>Triangulärt segel med basen 3,2 m och höjden 4,5 m längs masten.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"100.0,240.0 230.0,240.0 100.0,40.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"100.0\" y1=\"256.0\" x2=\"230.0\" y2=\"256.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"100.0\" y1=\"251.0\" x2=\"100.0\" y2=\"261.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"230.0\" y1=\"251.0\" x2=\"230.0\" y2=\"261.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"140.7\" y=\"262.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"165.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">3,2 m</text><line x1=\"84.0\" y1=\"40.0\" x2=\"84.0\" y2=\"240.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"89.0\" y1=\"40.0\" x2=\"79.0\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"89.0\" y1=\"240.0\" x2=\"79.0\" y2=\"240.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"45.7\" y=\"132.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"70.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4,5 m</text></svg></span><p>Hur stor är seglets area?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A=\\frac{3{,}2\\cdot4{,}5}{2}=7{,}2\\ \\mathrm{m^2}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,2 m²</p></div></div>",
     "familj": "Omkrets och area av månghörningar",
     "geogebra": false,
@@ -93116,7 +93116,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En parkeringsruta har formen av ett parallellogram med basen 2,5 m och höjden 5,0 m. Hur stor är rutans area?</p>",
+    "t": "<p>En parkeringsruta har formen av ett parallellogram med basen 2,5 m och höjden 5,0 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"300\" viewBox=\"0 0 300 300\" role=\"img\" aria-label=\"Parallellogram med basen 2,5 m och höjden 5,0 m.\"><title>Parallellogram med basen 2,5 m och höjden 5,0 m.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,250.0 160.0,250.0 230.0,50.0 130.0,50.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"266.0\" x2=\"160.0\" y2=\"266.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"261.0\" x2=\"60.0\" y2=\"271.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"160.0\" y1=\"261.0\" x2=\"160.0\" y2=\"271.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"85.7\" y=\"272.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"110.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2,5 m</text><line x1=\"130.0\" y1=\"50.0\" x2=\"130.0\" y2=\"250.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><rect x=\"136.0\" y=\"142.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"140.0\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">5,0 m</text><path d=\"M140.0 250.0 L140.0 240.0 L130.0 240.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"1.3\"/></svg></span><p>Hur stor är rutans area?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A=b\\cdot h=2{,}5\\cdot5{,}0=12{,}5\\ \\mathrm{m^2}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,5 m²</p></div></div>",
     "familj": "Omkrets och area av månghörningar",
     "geogebra": false,
@@ -93144,7 +93144,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett dike har ett tvärsnitt som är en parallelltrapets. De parallella sidorna är 1,8 m och 0,8 m, och höjden är 0,6 m. Hur stor är tvärsnittsarean?</p>",
+    "t": "<p>Ett dike har ett tvärsnitt som är en parallelltrapets. De parallella sidorna är 1,8 m och 0,8 m, och höjden är 0,6 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"210\" viewBox=\"0 0 380 210\" role=\"img\" aria-label=\"Tvärsnitt av ett dike: parallelltrapets med 1,8 m överst, 0,8 m i botten och djupet 0,6 m.\"><title>Tvärsnitt av ett dike: parallelltrapets med 1,8 m överst, 0,8 m i botten och djupet 0,6 m.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"10.0\" y1=\"60.0\" x2=\"40.0\" y2=\"60.0\" stroke=\"#5c8a3c\" stroke-width=\"3\"/><line x1=\"320.0\" y1=\"60.0\" x2=\"350.0\" y2=\"60.0\" stroke=\"#5c8a3c\" stroke-width=\"3\"/><polygon points=\"40.0,60.0 320.0,60.0 242.0,153.0 118.0,153.0\" fill=\"#cfe6f7\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"40.0\" y1=\"46.0\" x2=\"320.0\" y2=\"46.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"40.0\" y1=\"51.0\" x2=\"40.0\" y2=\"41.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"320.0\" y1=\"51.0\" x2=\"320.0\" y2=\"41.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"155.7\" y=\"24.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"180.0\" y=\"37.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,8 m</text><line x1=\"118.0\" y1=\"167.0\" x2=\"242.0\" y2=\"167.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"118.0\" y1=\"162.0\" x2=\"118.0\" y2=\"172.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"242.0\" y1=\"162.0\" x2=\"242.0\" y2=\"172.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"155.7\" y=\"173.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"180.0\" y=\"186.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">0,8 m</text><line x1=\"300.0\" y1=\"60.0\" x2=\"300.0\" y2=\"153.0\" stroke=\"#c2410c\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><rect x=\"302.0\" y=\"99.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"306.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">0,6 m</text></svg></span><p>Hur stor är tvärsnittsarean?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A=\\frac{(1{,}8+0{,}8)\\cdot0{,}6}{2}=0{,}78\\ \\mathrm{m^2}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,78 m²</p></div></div>",
     "familj": "Omkrets och area av månghörningar",
     "geogebra": false,
@@ -93173,7 +93173,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett L-format rum är en rektangel på 6 m × 4 m där ett hörn på 2 m × 1,5 m saknas. Hur stor är golvarean?</p>",
+    "t": "<p>Ett L-format rum är en rektangel på 6 m × 4 m där ett hörn på 2 m × 1,5 m saknas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"275\" viewBox=\"0 0 400 275\" role=\"img\" aria-label=\"L-format rum: en rektangel 6 m gånger 4 m där ett hörn på 2 m gånger 1,5 m saknas.\"><title>L-format rum: en rektangel 6 m gånger 4 m där ett hörn på 2 m gånger 1,5 m saknas.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"273\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><g transform=\"translate(30,0)\"><rect x=\"220\" y=\"40\" width=\"90\" height=\"67.5\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><polygon points=\"40.0,40.0 220.0,40.0 220.0,107.5 310.0,107.5 310.0,220.0 40.0,220.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"310.0\" y1=\"236.0\" x2=\"40.0\" y2=\"236.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"310.0\" y1=\"231.0\" x2=\"310.0\" y2=\"241.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"40.0\" y1=\"231.0\" x2=\"40.0\" y2=\"241.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"158.8\" y=\"242.0\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"175.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">6 m</text><line x1=\"22.0\" y1=\"220.0\" x2=\"22.0\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"27.0\" y1=\"220.0\" x2=\"17.0\" y2=\"220.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"27.0\" y1=\"40.0\" x2=\"17.0\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"-8.2\" y=\"122.0\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"8.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4 m</text><line x1=\"220.0\" y1=\"93.5\" x2=\"310.0\" y2=\"93.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"220.0\" y1=\"98.5\" x2=\"220.0\" y2=\"88.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"310.0\" y1=\"98.5\" x2=\"310.0\" y2=\"88.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"248.8\" y=\"71.5\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"265.0\" y=\"84.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2 m</text><line x1=\"204.0\" y1=\"40.0\" x2=\"204.0\" y2=\"107.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"209.0\" y1=\"40.0\" x2=\"199.0\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"209.0\" y1=\"107.5\" x2=\"199.0\" y2=\"107.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"165.7\" y=\"65.8\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"190.0\" y=\"78.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,5 m</text></g></svg></span><p>Hur stor är golvarean?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A=6\\cdot4-2\\cdot1{,}5=24-3=21\\ \\mathrm{m^2}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21 m²</p></div></div>",
     "familj": "Omkrets och area av månghörningar",
     "geogebra": false,
@@ -93370,7 +93370,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En löparbana har två raka sträckor på 85 m och två halvcirklar med diametern 64 m. Hur långt är ett varv längs innerkanten? Svara i hela meter.</p>",
+    "t": "<p>En löparbana har två raka sträckor på 85 m och två halvcirklar med diametern 64 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"390\" height=\"215\" viewBox=\"0 0 390 215\" role=\"img\" aria-label=\"Löparbana med två raka sträckor på 85 m och två halvcirklar med diametern 64 m.\"><title>Löparbana med två raka sträckor på 85 m och två halvcirklar med diametern 64 m.</title><rect x=\"1\" y=\"1\" width=\"388\" height=\"213\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M110.0 56.0 L280.0 56.0 C315.3 56.0 344.0 84.7 344.0 120.0 C344.0 155.3 315.3 184.0 280.0 184.0 L110.0 184.0 C74.7 184.0 46.0 155.3 46.0 120.0 C46.0 84.7 74.7 56.0 110.0 56.0 Z\" fill=\"#d9efd2\" stroke=\"#c2410c\" stroke-width=\"7\"/><line x1=\"110.0\" y1=\"56.0\" x2=\"110.0\" y2=\"184.0\" stroke=\"#5b6773\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><rect x=\"114.0\" y=\"112.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"118.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">64 m</text><line x1=\"110.0\" y1=\"38.0\" x2=\"280.0\" y2=\"38.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"110.0\" y1=\"43.0\" x2=\"110.0\" y2=\"33.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"280.0\" y1=\"43.0\" x2=\"280.0\" y2=\"33.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"174.8\" y=\"16.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"195.0\" y=\"29.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">85 m</text></svg></span><p>Hur långt är ett varv längs innerkanten? Svara i hela meter.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De två halvcirklarna bildar tillsammans en hel cirkel.</p></li><li><p>\\[2\\cdot85+\\pi\\cdot64\\approx170+201=371\\ \\mathrm m\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 371,06 m</p></div></div>",
     "familj": "Cirkelns omkrets och area",
     "geogebra": false,
@@ -93468,7 +93468,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En rabatt har formen av ett parallelltrapets. De parallella sidorna är 8 m och 5 m och avståndet mellan dem är 3 m.</p><p>Hur stor är rabattens area?</p>",
+    "t": "<p>En rabatt har formen av ett parallelltrapets. De parallella sidorna är 8 m och 5 m och avståndet mellan dem är 3 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"230\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"Rabatt formad som en parallelltrapets med de parallella sidorna 8 m och 5 m och avståndet 3 m mellan dem.\"><title>Rabatt formad som en parallelltrapets med de parallella sidorna 8 m och 5 m och avståndet 3 m mellan dem.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40.0,180.0 320.0,180.0 230.0,75.0 125.0,75.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"40.0\" y1=\"196.0\" x2=\"320.0\" y2=\"196.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"40.0\" y1=\"191.0\" x2=\"40.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"320.0\" y1=\"191.0\" x2=\"320.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"163.8\" y=\"202.0\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"180.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">8 m</text><line x1=\"125.0\" y1=\"59.0\" x2=\"230.0\" y2=\"59.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"125.0\" y1=\"64.0\" x2=\"125.0\" y2=\"54.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"230.0\" y1=\"64.0\" x2=\"230.0\" y2=\"54.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"161.3\" y=\"37.0\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"177.5\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">5 m</text><line x1=\"125.0\" y1=\"75.0\" x2=\"125.0\" y2=\"180.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><rect x=\"131.0\" y=\"119.5\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"132.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">3 m</text><path d=\"M135.0 180.0 L135.0 170.0 L125.0 170.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"1.3\"/></svg></span><p>Hur stor är rabattens area?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A=\\frac{(a+b)\\cdot h}{2}=\\frac{(8+5)\\cdot3}{2}=19{,}5\\text{ m}^2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 19,5 m²</p></div>",
     "familj": "Omkrets och area av månghörningar",
     "formaga": [
@@ -93579,7 +93579,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En cylindrisk vattentank har radien 0,6 m och höjden 1,5 m. Hur stor är volymen? Svara i kubikmeter med två decimaler.</p>",
+    "t": "<p>En cylindrisk vattentank har radien 0,6 m och höjden 1,5 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"280\" viewBox=\"0 0 300 280\" role=\"img\" aria-label=\"Cylindrisk tank med radien 0,6 m och höjden 1,5 m.\"><title>Cylindrisk tank med radien 0,6 m och höjden 1,5 m.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M65.0 60.8 L65.0 223.3 C65.0 234.8 94.1 244.1 130.0 244.1 C165.9 244.1 195.0 234.8 195.0 223.3 L195.0 60.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M65.0 223.3 C65.0 211.8 94.1 202.5 130.0 202.5 C165.9 202.5 195.0 211.8 195.0 223.3\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><ellipse cx=\"130.0\" cy=\"60.8\" rx=\"65.0\" ry=\"20.8\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"130.0\" y1=\"223.3\" x2=\"195.0\" y2=\"223.3\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"130.0\" cy=\"223.3\" r=\"3\" fill=\"#172b3a\"/><rect x=\"122.0\" y=\"234.3\" width=\"81.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"162.5\" y=\"247.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">r = 0,6 m</text><line x1=\"215.0\" y1=\"223.3\" x2=\"215.0\" y2=\"60.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"223.3\" x2=\"220.0\" y2=\"223.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"60.8\" x2=\"220.0\" y2=\"60.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"204.7\" y=\"134.1\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"229.0\" y=\"147.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,5 m</text></svg></span><p>Hur stor är volymen? Svara i kubikmeter med två decimaler.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[V=\\pi r^2h=\\pi\\cdot0{,}6^2\\cdot1{,}5\\approx1{,}70\\ \\mathrm{m^3}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,6965 m³</p></div></div>",
     "familj": "Volym av rätblock, cylinder, kon och klot",
     "geogebra": false,
@@ -93607,7 +93607,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En glasstrut har formen av en kon med radien 2,5 cm och höjden 11 cm. Hur stor är volymen? Svara i hela cm³.</p>",
+    "t": "<p>En glasstrut har formen av en kon med radien 2,5 cm och höjden 11 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"240\" viewBox=\"0 0 300 240\" role=\"img\" aria-label=\"Glasstrut formad som en kon med radien 2,5 cm och höjden 11 cm.\"><title>Glasstrut formad som en kon med radien 2,5 cm och höjden 11 cm.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"95.0,40.0 205.0,40.0 150.0,210.0\" fill=\"#f3dfb5\" stroke=\"#9a6b2f\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"113.3\" y1=\"40.0\" x2=\"150.0\" y2=\"210.0\" stroke=\"#c9a46a\" stroke-width=\"1\"/><line x1=\"131.7\" y1=\"40.0\" x2=\"150.0\" y2=\"210.0\" stroke=\"#c9a46a\" stroke-width=\"1\"/><line x1=\"150.0\" y1=\"40.0\" x2=\"150.0\" y2=\"210.0\" stroke=\"#c9a46a\" stroke-width=\"1\"/><line x1=\"168.3\" y1=\"40.0\" x2=\"150.0\" y2=\"210.0\" stroke=\"#c9a46a\" stroke-width=\"1\"/><line x1=\"186.7\" y1=\"40.0\" x2=\"150.0\" y2=\"210.0\" stroke=\"#c9a46a\" stroke-width=\"1\"/><ellipse cx=\"150\" cy=\"40\" rx=\"55\" ry=\"16\" fill=\"#fbeedd\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"150.0\" y1=\"40.0\" x2=\"205.0\" y2=\"40.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"40\" r=\"3\" fill=\"#172b3a\"/><rect x=\"149.1\" y=\"19.0\" width=\"56.7\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"177.5\" y=\"32.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">2,5 cm</text><line x1=\"229.0\" y1=\"210.0\" x2=\"229.0\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"224.0\" y1=\"210.0\" x2=\"234.0\" y2=\"210.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"224.0\" y1=\"40.0\" x2=\"234.0\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"218.7\" y=\"117.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"243.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">11 cm</text></svg></span><p>Hur stor är volymen? Svara i hela cm³.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[V=\\frac{\\pi r^2h}{3}=\\frac{\\pi\\cdot2{,}5^2\\cdot11}{3}\\approx72\\ \\mathrm{cm^3}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 71,995 cm³</p></div></div>",
     "familj": "Volym av rätblock, cylinder, kon och klot",
     "geogebra": false,
@@ -93693,7 +93693,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett tält har formen av ett prisma. Gaveln är en triangel med basen 2,4 m och höjden 1,5 m, och tältet är 3,0 m långt. Hur stor är tältets volym?</p>",
+    "t": "<p>Ett tält har formen av ett prisma. Gaveln är en triangel med basen 2,4 m och höjden 1,5 m, och tältet är 3,0 m långt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"382\" height=\"242\" viewBox=\"0 0 382 242\" role=\"img\" aria-label=\"Tält format som ett prisma: triangulär gavel med basen 2,4 m och höjden 1,5 m, längden 3,0 m.\"><title>Tält format som ett prisma: triangulär gavel med basen 2,4 m och höjden 1,5 m, längden 3,0 m.</title><rect x=\"1\" y=\"1\" width=\"380\" height=\"240\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"180.0,189.5 301.9,121.2 236.9,40.0 115.0,108.2\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"50.0,189.5 180.0,189.5 115.0,108.2\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"50.0\" y1=\"189.5\" x2=\"171.9\" y2=\"121.2\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"171.9\" y1=\"121.2\" x2=\"301.9\" y2=\"121.2\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"171.9\" y1=\"121.2\" x2=\"236.9\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"115.0\" y1=\"108.2\" x2=\"115.0\" y2=\"189.5\" stroke=\"#c2410c\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><rect x=\"119.0\" y=\"147.9\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"123.0\" y=\"160.9\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">1,5 m</text><line x1=\"50.0\" y1=\"207.5\" x2=\"180.0\" y2=\"207.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"202.5\" x2=\"50.0\" y2=\"212.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"180.0\" y1=\"202.5\" x2=\"180.0\" y2=\"212.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"90.7\" y=\"213.5\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"115.0\" y=\"226.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2,4 m</text><line x1=\"187.8\" y1=\"203.5\" x2=\"309.7\" y2=\"135.2\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"185.4\" y1=\"199.1\" x2=\"190.3\" y2=\"207.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"307.2\" y1=\"130.8\" x2=\"312.1\" y2=\"139.6\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"231.3\" y=\"173.6\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"255.6\" y=\"186.6\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">3,0 m</text></svg></span><p>Hur stor är tältets volym?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[V=\\frac{2{,}4\\cdot1{,}5}{2}\\cdot3{,}0=5{,}4\\ \\mathrm{m^3}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,4 m³</p></div></div>",
     "familj": "Volym av rätblock, cylinder, kon och klot",
     "geogebra": false,
@@ -93722,7 +93722,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En present i form av ett rätblock är 30 cm × 20 cm × 10 cm. Hur mycket papper behövs minst för att täcka alla sidor?</p>",
+    "t": "<p>En present i form av ett rätblock är 30 cm × 20 cm × 10 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"350\" height=\"194\" viewBox=\"0 0 350 194\" role=\"img\" aria-label=\"Paket format som ett rätblock, 30 cm gånger 20 cm gånger 10 cm.\"><title>Paket format som ett rätblock, 30 cm gånger 20 cm gånger 10 cm.</title><rect x=\"1\" y=\"1\" width=\"348\" height=\"192\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,88.3 221.0,88.3 280.0,40.0 119.0,40.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"221.0,142.0 280.0,93.7 280.0,40.0 221.0,88.3\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"60.0,142.0 221.0,142.0 221.0,88.3 60.0,88.3\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"142.0\" x2=\"119.0\" y2=\"93.7\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"119.0\" y1=\"93.7\" x2=\"280.0\" y2=\"93.7\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"119.0\" y1=\"93.7\" x2=\"119.0\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"60.0\" y1=\"160.0\" x2=\"221.0\" y2=\"160.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"155.0\" x2=\"60.0\" y2=\"165.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"221.0\" y1=\"155.0\" x2=\"221.0\" y2=\"165.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"116.2\" y=\"166.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"140.5\" y=\"179.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">30 cm</text><line x1=\"231.1\" y1=\"154.3\" x2=\"290.1\" y2=\"106.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"227.9\" y1=\"150.5\" x2=\"234.3\" y2=\"158.2\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"287.0\" y1=\"102.2\" x2=\"293.3\" y2=\"109.9\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"245.2\" y=\"133.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"269.5\" y=\"146.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">20 cm</text><line x1=\"42.0\" y1=\"142.0\" x2=\"42.0\" y2=\"88.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"142.0\" x2=\"37.0\" y2=\"142.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"88.3\" x2=\"37.0\" y2=\"88.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"3.7\" y=\"107.1\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"120.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">10 cm</text></svg></span><p>Hur mycket papper behövs minst för att täcka alla sidor?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[2(30\\cdot20+30\\cdot10+20\\cdot10)=2(600+300+200)=2200\\ \\mathrm{cm^2}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2200 cm²</p></div></div>",
     "familj": "Begränsningsarea",
     "geogebra": false,
@@ -93778,7 +93778,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En konservburk är en cylinder med radien 4,0 cm och höjden 11 cm. Hur mycket plåt behövs till burken, inklusive lock och botten? Svara i hela cm².</p>",
+    "t": "<p>En konservburk är en cylinder med radien 4,0 cm och höjden 11 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"286\" viewBox=\"0 0 300 286\" role=\"img\" aria-label=\"Konservburk: cylinder med radien 4,0 cm och höjden 11 cm.\"><title>Konservburk: cylinder med radien 4,0 cm och höjden 11 cm.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"284\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M68.2 59.8 L68.2 229.8 C68.2 240.7 95.9 249.6 130.0 249.6 C164.1 249.6 191.8 240.7 191.8 229.8 L191.8 59.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M68.2 229.8 C68.2 218.9 95.9 210.0 130.0 210.0 C164.1 210.0 191.8 218.9 191.8 229.8\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><ellipse cx=\"130.0\" cy=\"59.8\" rx=\"61.8\" ry=\"19.8\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"130.0\" y1=\"229.8\" x2=\"191.8\" y2=\"229.8\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"130.0\" cy=\"229.8\" r=\"3\" fill=\"#172b3a\"/><rect x=\"116.3\" y=\"240.8\" width=\"89.2\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"160.9\" y=\"253.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">r = 4,0 cm</text><line x1=\"211.8\" y1=\"229.8\" x2=\"211.8\" y2=\"59.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"206.8\" y1=\"229.8\" x2=\"216.8\" y2=\"229.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"206.8\" y1=\"59.8\" x2=\"216.8\" y2=\"59.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"201.5\" y=\"136.8\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"225.8\" y=\"149.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">11 cm</text></svg></span><p>Hur mycket plåt behövs till burken, inklusive lock och botten? Svara i hela cm².</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[2\\pi r^2+2\\pi rh=2\\pi\\cdot16+2\\pi\\cdot4\\cdot11\\approx101+276=377\\ \\mathrm{cm^2}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 376,99 cm²</p></div></div>",
     "familj": "Begränsningsarea",
     "geogebra": false,
@@ -93807,7 +93807,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett rum är 5,0 m långt, 4,0 m brett och 2,5 m högt. Hur stor är väggarnas sammanlagda area? Bortse från dörr och fönster.</p>",
+    "t": "<p>Ett rum är 5,0 m långt, 4,0 m brett och 2,5 m högt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"350\" height=\"223\" viewBox=\"0 0 350 223\" role=\"img\" aria-label=\"Rum format som ett rätblock, 5,0 m långt, 4,0 m brett och 2,5 m högt.\"><title>Rum format som ett rätblock, 5,0 m långt, 4,0 m brett och 2,5 m högt.</title><rect x=\"1\" y=\"1\" width=\"348\" height=\"221\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,95.0 212.8,95.0 280.0,40.0 127.2,40.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"212.8,171.4 280.0,116.4 280.0,40.0 212.8,95.0\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"60.0,171.4 212.8,171.4 212.8,95.0 60.0,95.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"171.4\" x2=\"127.2\" y2=\"116.4\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"127.2\" y1=\"116.4\" x2=\"280.0\" y2=\"116.4\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"127.2\" y1=\"116.4\" x2=\"127.2\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"60.0\" y1=\"189.4\" x2=\"212.8\" y2=\"189.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"184.4\" x2=\"60.0\" y2=\"194.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"212.8\" y1=\"184.4\" x2=\"212.8\" y2=\"194.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"112.1\" y=\"195.4\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"136.4\" y=\"208.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">5,0 m</text><line x1=\"222.9\" y1=\"183.8\" x2=\"290.1\" y2=\"128.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"219.7\" y1=\"179.9\" x2=\"226.1\" y2=\"187.6\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"287.0\" y1=\"124.9\" x2=\"293.3\" y2=\"132.6\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"241.1\" y=\"159.1\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"265.4\" y=\"172.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4,0 m</text><line x1=\"42.0\" y1=\"171.4\" x2=\"42.0\" y2=\"95.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"171.4\" x2=\"37.0\" y2=\"171.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"95.0\" x2=\"37.0\" y2=\"95.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"3.7\" y=\"125.2\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"138.2\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2,5 m</text></svg></span><p>Hur stor är väggarnas sammanlagda area? Bortse från dörr och fönster.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[2\\cdot5{,}0\\cdot2{,}5+2\\cdot4{,}0\\cdot2{,}5=25+20=45\\ \\mathrm{m^2}\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 45 m²</p></div></div>",
     "familj": "Begränsningsarea",
     "geogebra": false,
@@ -93917,7 +93917,7 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>En cylinderformad burk med innerradien 5 cm innehåller vatten. En metallkula med radien 3 cm sänks ned i burken så att den hamnar helt under vattenytan.</p><p>Hur mycket stiger vattenytan? Svara i cm med en decimal.</p>",
+    "t": "<p>En cylinderformad burk med innerradien 5 cm innehåller vatten. En metallkula med radien 3 cm sänks ned i burken så att den hamnar helt under vattenytan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"330\" height=\"292\" viewBox=\"0 0 330 292\" role=\"img\" aria-label=\"Cylinderformad burk med innerradien 5 cm, delvis fylld med vatten. En kula med radien 3 cm ligger på botten under vattenytan.\"><title>Cylinderformad burk med innerradien 5 cm, delvis fylld med vatten. En kula med radien 3 cm ligger på botten under vattenytan.</title><rect x=\"1\" y=\"1\" width=\"328\" height=\"290\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M60.0 110.0 L60.0 250.0 C60.0 262.2 100.3 272.0 150.0 272.0 C199.7 272.0 240.0 262.2 240.0 250.0 L240.0 110.0 Z\" fill=\"#cfe6f7\"/><ellipse cx=\"150\" cy=\"110\" rx=\"90\" ry=\"22\" fill=\"#b8daf2\" stroke=\"#5a9bd0\" stroke-width=\"1.5\"/><circle cx=\"150\" cy=\"196\" r=\"54\" fill=\"#9aa5b1\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"132\" cy=\"178\" r=\"10\" fill=\"#c7cfd7\"/><line x1=\"150.0\" y1=\"196.0\" x2=\"204.0\" y2=\"196.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"157.9\" y=\"176.0\" width=\"38.2\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"177.0\" y=\"188.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">3 cm</text><path d=\"M60.0 40.0 L60.0 250.0 C60.0 262.2 100.3 272.0 150.0 272.0 C199.7 272.0 240.0 262.2 240.0 250.0 L240.0 40.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><ellipse cx=\"150\" cy=\"40\" rx=\"90\" ry=\"22\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"150.0\" y1=\"40.0\" x2=\"240.0\" y2=\"40.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"40\" r=\"3\" fill=\"#172b3a\"/><rect x=\"175.9\" y=\"20.0\" width=\"38.2\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"195.0\" y=\"32.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">5 cm</text><text x=\"248.0\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#2f6fa0\">vattenyta</text></svg></span><p>Hur mycket stiger vattenytan? Svara i cm med en decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vattnet stiger lika mycket som kulans volym delad med burkens basyta.</p></li><li><p>Kulans volym: \\(\\frac43\\pi\\cdot3^3=36\\pi\\approx113{,}1\\) cm³.</p></li><li><p>Burkens basyta: \\(\\pi\\cdot5^2=25\\pi\\approx78{,}5\\) cm².</p></li><li><p>\\[\\Delta h=\\frac{36\\pi}{25\\pi}=1{,}44\\text{ cm}\\approx1{,}4\\text{ cm}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 1,4 cm</p></div>",
     "familj": "Volym av rätblock, cylinder, kon och klot",
     "formaga": [
@@ -93945,7 +93945,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En sluten cylinderformad burk har radien 3 cm och höjden 10 cm.</p><p>Hur stor är burkens begränsningsarea? Svara i cm² med en decimal.</p>",
+    "t": "<p>En sluten cylinderformad burk har radien 3 cm och höjden 10 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"279\" viewBox=\"0 0 300 279\" role=\"img\" aria-label=\"Sluten cylinderformad burk med radien 3 cm och höjden 10 cm.\"><title>Sluten cylinderformad burk med radien 3 cm och höjden 10 cm.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"277\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M79.0 56.3 L79.0 226.3 C79.0 235.3 101.8 242.6 130.0 242.6 C158.2 242.6 181.0 235.3 181.0 226.3 L181.0 56.3\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M79.0 226.3 C79.0 217.3 101.8 210.0 130.0 210.0 C158.2 210.0 181.0 217.3 181.0 226.3\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><ellipse cx=\"130.0\" cy=\"56.3\" rx=\"51.0\" ry=\"16.3\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"130.0\" y1=\"226.3\" x2=\"181.0\" y2=\"226.3\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"130.0\" cy=\"226.3\" r=\"3\" fill=\"#172b3a\"/><rect x=\"119.0\" y=\"237.3\" width=\"73.0\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"155.5\" y=\"250.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">r = 3 cm</text><line x1=\"201.0\" y1=\"226.3\" x2=\"201.0\" y2=\"56.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"196.0\" y1=\"226.3\" x2=\"206.0\" y2=\"226.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"196.0\" y1=\"56.3\" x2=\"206.0\" y2=\"56.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"190.7\" y=\"133.3\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"215.0\" y=\"146.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">10 cm</text></svg></span><p>Hur stor är burkens begränsningsarea? Svara i cm² med en decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Begränsningsarean är botten, locket och mantelytan.</p></li><li><div class=\"facit-berakning\"><p>Botten och lock:</p><div class=\"facit-matte\">\\[2\\cdot\\pi\\cdot3^2=18\\pi\\].</div></div></li><li><div class=\"facit-berakning\"><p>Mantelytan: omkretsen gånger höjden,</p><div class=\"facit-matte\">\\[2\\pi\\cdot3\\cdot10=60\\pi\\].</div></div></li><li><p>Totalt: \\(78\\pi\\approx245{,}0\\) cm².</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 245,0 cm²</p></div>",
     "familj": "Begränsningsarea",
     "formaga": [
@@ -93972,7 +93972,7 @@ window.BANKMA1 = [
     ],
     "niva": "A",
     "poang": "0/1/2",
-    "t": "<p>En glasstrut har formen av en kon med radien 2,5 cm och höjden 10 cm. Struten fylls med glass till kanten, och ovanpå läggs en halvklotformad kula med samma radie.</p><p>Hur mycket glass finns det totalt? Svara i cm³ med en decimal.</p>",
+    "t": "<p>En glasstrut har formen av en kon med radien 2,5 cm och höjden 10 cm. Struten fylls med glass till kanten, och ovanpå läggs en halvklotformad kula med samma radie.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"295\" viewBox=\"0 0 300 295\" role=\"img\" aria-label=\"Glasstrut formad som en kon med radien 2,5 cm och höjden 10 cm, med en halvklotformad glasskula ovanpå.\"><title>Glasstrut formad som en kon med radien 2,5 cm och höjden 10 cm, med en halvklotformad glasskula ovanpå.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"293\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"95.0,95.0 205.0,95.0 150.0,265.0\" fill=\"#f3dfb5\" stroke=\"#9a6b2f\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"113.3\" y1=\"95.0\" x2=\"150.0\" y2=\"265.0\" stroke=\"#c9a46a\" stroke-width=\"1\"/><line x1=\"131.7\" y1=\"95.0\" x2=\"150.0\" y2=\"265.0\" stroke=\"#c9a46a\" stroke-width=\"1\"/><line x1=\"150.0\" y1=\"95.0\" x2=\"150.0\" y2=\"265.0\" stroke=\"#c9a46a\" stroke-width=\"1\"/><line x1=\"168.3\" y1=\"95.0\" x2=\"150.0\" y2=\"265.0\" stroke=\"#c9a46a\" stroke-width=\"1\"/><line x1=\"186.7\" y1=\"95.0\" x2=\"150.0\" y2=\"265.0\" stroke=\"#c9a46a\" stroke-width=\"1\"/><path d=\"M95.0 95.0 C95.0 64.6 119.6 40.0 150.0 40.0 C180.4 40.0 205.0 64.6 205.0 95.0\" fill=\"#fbe3ef\" stroke=\"#172b3a\" stroke-width=\"2\"/><ellipse cx=\"150\" cy=\"95\" rx=\"55\" ry=\"16\" fill=\"#f7cfe0\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"150.0\" y1=\"95.0\" x2=\"205.0\" y2=\"95.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"95\" r=\"3\" fill=\"#172b3a\"/><rect x=\"149.1\" y=\"108.0\" width=\"56.7\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"177.5\" y=\"121.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">2,5 cm</text><line x1=\"229.0\" y1=\"265.0\" x2=\"229.0\" y2=\"95.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"224.0\" y1=\"265.0\" x2=\"234.0\" y2=\"265.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"224.0\" y1=\"95.0\" x2=\"234.0\" y2=\"95.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"218.7\" y=\"172.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"243.0\" y=\"185.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">10 cm</text></svg></span><p>Hur mycket glass finns det totalt? Svara i cm³ med en decimal.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Konen: \\(\\frac13\\pi r^2h=\\frac13\\pi\\cdot2{,}5^2\\cdot10\\approx65{,}45\\) cm³.</p></li><li><p>Halvklotet: \\(\\frac12\\cdot\\frac43\\pi r^3=\\frac23\\pi\\cdot2{,}5^3\\approx32{,}72\\) cm³.</p></li><li><p>Totalt: cirka 98,2 cm³, ungefär 1 dl.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cirka 98,2 cm³</p></div>",
     "familj": "Volym av rätblock, cylinder, kon och klot",
     "formaga": [
@@ -116889,7 +116889,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En figurserie har 4 stickor i figur 1, 7 i figur 2 och 10 i figur 3. Mönstret fortsätter på samma sätt. Hur många stickor har figur 13?</p>",
+    "t": "<p>En figurserie har 4 stickor i figur 1, 7 i figur 2 och 10 i figur 3.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"349\" height=\"175\" viewBox=\"0 0 349 175\" role=\"img\" aria-label=\"Tre figurer av kvadrater i rad av tändstickor: 1, 2 och 3 kvadrater med 4, 7 och 10 stickor.\"><title>Tre figurer av kvadrater i rad av tändstickor: 1, 2 och 3 kvadrater med 4, 7 och 10 stickor.</title><rect x=\"1\" y=\"1\" width=\"347\" height=\"173\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"25.0\" y1=\"130.0\" x2=\"59.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"25.0\" y1=\"96.0\" x2=\"59.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"25.0\" y1=\"130.0\" x2=\"25.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"59.0\" y1=\"130.0\" x2=\"59.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><text x=\"42.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 1</text><line x1=\"99.0\" y1=\"130.0\" x2=\"133.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"99.0\" y1=\"96.0\" x2=\"133.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"133.0\" y1=\"130.0\" x2=\"167.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"133.0\" y1=\"96.0\" x2=\"167.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"99.0\" y1=\"130.0\" x2=\"99.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"133.0\" y1=\"130.0\" x2=\"133.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"167.0\" y1=\"130.0\" x2=\"167.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><text x=\"133.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 2</text><line x1=\"207.0\" y1=\"130.0\" x2=\"241.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"207.0\" y1=\"96.0\" x2=\"241.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"241.0\" y1=\"130.0\" x2=\"275.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"241.0\" y1=\"96.0\" x2=\"275.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"275.0\" y1=\"130.0\" x2=\"309.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"275.0\" y1=\"96.0\" x2=\"309.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"207.0\" y1=\"130.0\" x2=\"207.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"241.0\" y1=\"130.0\" x2=\"241.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"275.0\" y1=\"130.0\" x2=\"275.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"309.0\" y1=\"130.0\" x2=\"309.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><text x=\"258.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 3</text></svg></span><p>Mönstret fortsätter på samma sätt. Hur många stickor har figur 13?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Följden ökar med 3.</p></li><li><p>Regeln är (3n+1).</p></li><li><p>För figur 13: (3·13+1=)<strong>40 stickor</strong>.</p></li></ol></div>",
     "familj": "Upptäcka och uttrycka generella samband",
     "geogebra": false,
@@ -117976,7 +117976,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vid ett bord får 6 personer plats. Ställs två bord ihop på rad får 10 personer plats, och vid tre bord 14 personer. Hur många får plats vid 8 bord som ställs ihop på samma sätt?</p>",
+    "t": "<p>Vid ett bord får 6 personer plats. Ställs två bord ihop på rad får 10 personer plats, och vid tre bord 14 personer.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"468\" height=\"155\" viewBox=\"0 0 468 155\" role=\"img\" aria-label=\"Ett, två och tre bord i rad med 6, 10 och 14 platser.\"><title>Ett, två och tre bord i rad med 6, 10 och 14 platser.</title><rect x=\"1\" y=\"1\" width=\"466\" height=\"153\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"60\" width=\"48\" height=\"34\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"44.4\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"44.4\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"63.6\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"63.6\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"18\" cy=\"77\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"90\" cy=\"77\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><text x=\"54.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1 bord</text><rect x=\"128\" y=\"60\" width=\"48\" height=\"34\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><rect x=\"176\" y=\"60\" width=\"48\" height=\"34\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"142.4\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"142.4\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"161.6\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"161.6\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"190.4\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"190.4\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"209.6\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"209.6\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"116\" cy=\"77\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"236\" cy=\"77\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><text x=\"176.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2 bord</text><rect x=\"274\" y=\"60\" width=\"48\" height=\"34\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><rect x=\"322\" y=\"60\" width=\"48\" height=\"34\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><rect x=\"370\" y=\"60\" width=\"48\" height=\"34\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"288.4\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"288.4\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"307.6\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"307.6\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"336.4\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"336.4\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"355.6\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"355.6\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"384.4\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"384.4\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"403.6\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"403.6\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"262\" cy=\"77\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"430\" cy=\"77\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><text x=\"346.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3 bord</text></svg></span><p>Hur många får plats vid 8 bord som ställs ihop på samma sätt?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje nytt bord ger 4 platser till.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Vid 8 bord:</p><div class=\"facit-matte\">\\[6+4\\cdot 7=34\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 34</p></div></div>",
     "familj": "Upptäcka och beskriva mönster",
     "geogebra": false,
@@ -118064,7 +118064,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En trappa byggs av klossar. En trappa med 1 steg kräver 1 kloss, med 2 steg 3 klossar och med 3 steg 6 klossar. Hur många klossar behövs till en trappa med 6 steg?</p>",
+    "t": "<p>En trappa byggs av klossar. En trappa med 1 steg kräver 1 kloss, med 2 steg 3 klossar och med 3 steg 6 klossar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"289\" height=\"160\" viewBox=\"0 0 289 160\" role=\"img\" aria-label=\"Trappor av klossar med 1, 2 och 3 steg: 1, 3 och 6 klossar.\"><title>Trappor av klossar med 1, 2 och 3 steg: 1, 3 och 6 klossar.</title><rect x=\"1\" y=\"1\" width=\"287\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"25\" y=\"96\" width=\"24\" height=\"24\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><text x=\"37.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1 steg</text><rect x=\"89\" y=\"96\" width=\"24\" height=\"24\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><rect x=\"89\" y=\"72\" width=\"24\" height=\"24\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><rect x=\"113\" y=\"96\" width=\"24\" height=\"24\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><text x=\"113.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2 steg</text><rect x=\"177\" y=\"96\" width=\"24\" height=\"24\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><rect x=\"177\" y=\"72\" width=\"24\" height=\"24\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><rect x=\"177\" y=\"48\" width=\"24\" height=\"24\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><rect x=\"201\" y=\"96\" width=\"24\" height=\"24\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><rect x=\"201\" y=\"72\" width=\"24\" height=\"24\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><rect x=\"225\" y=\"96\" width=\"24\" height=\"24\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><text x=\"213.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3 steg</text></svg></span><p>Hur många klossar behövs till en trappa med 6 steg?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Varje nytt steg kräver lika många klossar som stegets nummer:</p><div class=\"facit-matte\">\\[1+2+3+4+5+6=21\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21</p></div></div>",
     "familj": "Upptäcka och beskriva mönster",
     "geogebra": false,
@@ -143864,7 +143864,7 @@ window.BANKMA1 = [
   ],
   "niva": "E",
   "poang": "2/0/0",
-  "t": "<p>Ett badrum är 4,2 m långt och 2,6 m brett. Det ska ritas i skala 1:50. Hur långa blir sidorna på ritningen? Svara i centimeter, längden först.</p>",
+  "t": "<p>Ett badrum är 4,2 m långt och 2,6 m brett.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"326\" height=\"222\" viewBox=\"0 0 326 222\" role=\"img\" aria-label=\"Badrum sett ovanifrån, 4,2 m långt och 2,6 m brett.\"><title>Badrum sett ovanifrån, 4,2 m långt och 2,6 m brett.</title><rect x=\"1\" y=\"1\" width=\"324\" height=\"220\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,30.0 286.2,30.0 286.2,170.0 60.0,170.0\" fill=\"#eef4f8\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"186.0\" x2=\"286.2\" y2=\"186.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"181.0\" x2=\"60.0\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"286.2\" y1=\"181.0\" x2=\"286.2\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"148.8\" y=\"192.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"173.1\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4,2 m</text><line x1=\"42.0\" y1=\"30.0\" x2=\"42.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"30.0\" x2=\"37.0\" y2=\"30.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"170.0\" x2=\"37.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"3.7\" y=\"92.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2,6 m</text></svg></span><p>Det ska ritas i skala 1:50. Hur långa blir sidorna på ritningen? Svara i centimeter, längden först.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skala 1:50 betyder att måtten på ritningen är verklighetens mått dividerade med 50. Skriv först måtten i centimeter: 420 cm och 260 cm.</p><p>Längden på ritningen är</p>\\[420/50=8{,}4\\text{ cm}\\]<p>Bredden på ritningen är</p>\\[260/50=5{,}2\\text{ cm}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 8,4 cm långt och 5,2 cm brett.</p></div>",
   "familj": "Skala på en ritning",
   "formaga": [
@@ -143911,7 +143911,7 @@ window.BANKMA1 = [
   ],
   "niva": "E",
   "poang": "2/0/0",
-  "t": "<p>En trädgård är 5 m långt och 3 m brett. Det ska ritas i skala 1:100. Hur långa blir sidorna på ritningen? Svara i centimeter, längden först.</p>",
+  "t": "<p>En trädgård är 5 m lång och 3 m bred.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"333\" height=\"222\" viewBox=\"0 0 333 222\" role=\"img\" aria-label=\"Trädgård sedd ovanifrån, 5 m lång och 3 m bred.\"><title>Trädgård sedd ovanifrån, 5 m lång och 3 m bred.</title><rect x=\"1\" y=\"1\" width=\"331\" height=\"220\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,30.0 293.3,30.0 293.3,170.0 60.0,170.0\" fill=\"#d9efd2\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"186.0\" x2=\"293.3\" y2=\"186.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"181.0\" x2=\"60.0\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"293.3\" y1=\"181.0\" x2=\"293.3\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"160.5\" y=\"192.0\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"176.7\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">5 m</text><line x1=\"42.0\" y1=\"30.0\" x2=\"42.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"30.0\" x2=\"37.0\" y2=\"30.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"170.0\" x2=\"37.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"11.8\" y=\"92.0\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">3 m</text></svg></span><p>Det ska ritas i skala 1:100. Hur långa blir sidorna på ritningen? Svara i centimeter, längden först.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skala 1:100 betyder att måtten på ritningen är verklighetens mått dividerade med 100. Skriv först måtten i centimeter: 500 cm och 300 cm.</p><p>Längden på ritningen är</p>\\[500/100=5\\text{ cm}\\]<p>Bredden på ritningen är</p>\\[300/100=3\\text{ cm}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 5 cm långt och 3 cm brett.</p></div>",
   "familj": "Skala på en ritning",
   "formaga": [
@@ -143958,7 +143958,7 @@ window.BANKMA1 = [
   ],
   "niva": "E",
   "poang": "2/0/0",
-  "t": "<p>Ett rum är 3,6 m långt och 2,4 m brett. Det ska ritas i skala 1:20. Hur långa blir sidorna på ritningen? Svara i centimeter, längden först.</p>",
+  "t": "<p>Ett rum är 3,6 m långt och 2,4 m brett.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"310\" height=\"222\" viewBox=\"0 0 310 222\" role=\"img\" aria-label=\"Rum sett ovanifrån, 3,6 m långt och 2,4 m brett.\"><title>Rum sett ovanifrån, 3,6 m långt och 2,4 m brett.</title><rect x=\"1\" y=\"1\" width=\"308\" height=\"220\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,30.0 270.0,30.0 270.0,170.0 60.0,170.0\" fill=\"#f3ead8\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"186.0\" x2=\"270.0\" y2=\"186.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"181.0\" x2=\"60.0\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"270.0\" y1=\"181.0\" x2=\"270.0\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"140.7\" y=\"192.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"165.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">3,6 m</text><line x1=\"42.0\" y1=\"30.0\" x2=\"42.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"30.0\" x2=\"37.0\" y2=\"30.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"170.0\" x2=\"37.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"3.7\" y=\"92.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2,4 m</text></svg></span><p>Det ska ritas i skala 1:20. Hur långa blir sidorna på ritningen? Svara i centimeter, längden först.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skala 1:20 betyder att måtten på ritningen är verklighetens mått dividerade med 20. Skriv först måtten i centimeter: 360 cm och 240 cm.</p><p>Längden på ritningen är</p>\\[360/20=18\\text{ cm}\\]<p>Bredden på ritningen är</p>\\[240/20=12\\text{ cm}\\]<p class=\"facit-svar\"><strong>Svar:</strong> 18 cm långt och 12 cm brett.</p></div>",
   "familj": "Skala på en ritning",
   "formaga": [
@@ -146768,7 +146768,7 @@ window.BANKMA1 = [
   "niva": "E",
   "poang": "1/0/0",
   "typ": "grus i säckar",
-  "t": "<p>En gångväg som är 15 m lång och 1,2 m bred ska täckas med grus till djupet 8 cm. Gruset säljs i säckar med 25 liter. Hur många säckar behövs?</p>",
+  "t": "<p>En gångväg som är 15 m lång och 1,2 m bred ska täckas med grus till djupet 8 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"101\" viewBox=\"0 0 340 101\" role=\"img\" aria-label=\"Gångväg sedd ovanifrån, 15 m lång och 1,2 m bred. Gruset läggs 8 cm djupt.\"><title>Gångväg sedd ovanifrån, 15 m lång och 1,2 m bred. Gruset läggs 8 cm djupt.</title><rect x=\"1\" y=\"1\" width=\"338\" height=\"99\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,30.0 300.0,30.0 300.0,49.2 60.0,49.2\" fill=\"#e9dfcc\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"65.2\" x2=\"300.0\" y2=\"65.2\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"60.2\" x2=\"60.0\" y2=\"70.2\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"300.0\" y1=\"60.2\" x2=\"300.0\" y2=\"70.2\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"159.8\" y=\"71.2\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"180.0\" y=\"84.2\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">15 m</text><line x1=\"42.0\" y1=\"30.0\" x2=\"42.0\" y2=\"49.2\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"30.0\" x2=\"37.0\" y2=\"30.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"49.2\" x2=\"37.0\" y2=\"49.2\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"3.7\" y=\"31.6\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"44.6\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,2 m</text></svg></span><p>Gruset säljs i säckar med 25 liter. Hur många säckar behövs?</p>",
   "s": "<div class=\"facit-v2\"><p>Volymen är \\(15\\cdot1{,}2\\cdot0{,}08=1{,}44\\) m³ \\(=1\\,440\\) liter.</p><p>\\(\\dfrac{1440}{25}=57{,}6\\), så det behövs 58 säckar.</p></div>",
   "familj": "Material och förbrukning med ritningar",
   "formaga": [
@@ -151451,5 +151451,2126 @@ window.BANKMA1 = [
     },
     "omrTidigare": "np_repetition",
     "familjTidigare": "Algebra och ekvationer"
+  },
+  {
+    "id": "4.700",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "rätblock med mått",
+    "t": "<p>Figuren visar ett rätblock.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"350\" height=\"203\" viewBox=\"0 0 350 203\" role=\"img\" aria-label=\"Rätblock med längden 5 cm, bredden 3 cm och höjden 2 cm.\"><title>Rätblock med längden 5 cm, bredden 3 cm och höjden 2 cm.</title><rect x=\"1\" y=\"1\" width=\"348\" height=\"201\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,84.7 225.4,84.7 280.0,40.0 114.6,40.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"225.4,150.8 280.0,106.2 280.0,40.0 225.4,84.7\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"60.0,150.8 225.4,150.8 225.4,84.7 60.0,84.7\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"150.8\" x2=\"114.6\" y2=\"106.2\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"114.6\" y1=\"106.2\" x2=\"280.0\" y2=\"106.2\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"114.6\" y1=\"106.2\" x2=\"114.6\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"60.0\" y1=\"168.8\" x2=\"225.4\" y2=\"168.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"163.8\" x2=\"60.0\" y2=\"173.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"225.4\" y1=\"163.8\" x2=\"225.4\" y2=\"173.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"122.5\" y=\"174.8\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"142.7\" y=\"187.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">5 cm</text><line x1=\"235.5\" y1=\"163.2\" x2=\"290.1\" y2=\"118.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"232.4\" y1=\"159.3\" x2=\"238.7\" y2=\"167.1\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"287.0\" y1=\"114.7\" x2=\"293.3\" y2=\"122.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"251.5\" y=\"143.7\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"271.7\" y=\"156.7\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">3 cm</text><line x1=\"42.0\" y1=\"150.8\" x2=\"42.0\" y2=\"84.7\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"150.8\" x2=\"37.0\" y2=\"150.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"84.7\" x2=\"37.0\" y2=\"84.7\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"7.8\" y=\"109.7\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"122.7\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2 cm</text></svg></span><p>Hur stor är rätblockets volym? (Svara i cm³.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=l\\cdot b\\cdot h=5\\cdot3\\cdot2=30\\ \\mathrm{cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 cm³.</p></div>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Volymen är längd · bredd · höjd.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 0,
+    "svarEnhet": "cm³"
+  },
+  {
+    "id": "4.701",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "räkna enhetskuber",
+    "t": "<p>Kroppen är byggd av kuber som var och en har volymen 1 cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"267\" height=\"169\" viewBox=\"0 0 267 169\" role=\"img\" aria-label=\"Ett rätblock byggt av kuber, 4 kuber långt, 3 kuber djupt och 2 kuber högt.\"><title>Ett rätblock byggt av kuber, 4 kuber långt, 3 kuber djupt och 2 kuber högt.</title><rect x=\"1\" y=\"1\" width=\"265\" height=\"167\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"210.0,111.6 227.0,98.0 227.0,64.0 210.0,77.6\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"193.0,125.2 210.0,111.6 210.0,77.6 193.0,91.2\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"40.0,138.8 74.0,138.8 74.0,104.8 40.0,104.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"74.0,138.8 108.0,138.8 108.0,104.8 74.0,104.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"108.0,138.8 142.0,138.8 142.0,104.8 108.0,104.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"142.0,138.8 176.0,138.8 176.0,104.8 142.0,104.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"176.0,138.8 193.0,125.2 193.0,91.2 176.0,104.8\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"74.0,43.6 108.0,43.6 125.0,30.0 91.0,30.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"108.0,43.6 142.0,43.6 159.0,30.0 125.0,30.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"142.0,43.6 176.0,43.6 193.0,30.0 159.0,30.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"176.0,43.6 210.0,43.6 227.0,30.0 193.0,30.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"210.0,77.6 227.0,64.0 227.0,30.0 210.0,43.6\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"57.0,57.2 91.0,57.2 108.0,43.6 74.0,43.6\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"91.0,57.2 125.0,57.2 142.0,43.6 108.0,43.6\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"125.0,57.2 159.0,57.2 176.0,43.6 142.0,43.6\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"159.0,57.2 193.0,57.2 210.0,43.6 176.0,43.6\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"193.0,91.2 210.0,77.6 210.0,43.6 193.0,57.2\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"40.0,104.8 74.0,104.8 74.0,70.8 40.0,70.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"40.0,70.8 74.0,70.8 91.0,57.2 57.0,57.2\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"74.0,104.8 108.0,104.8 108.0,70.8 74.0,70.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"74.0,70.8 108.0,70.8 125.0,57.2 91.0,57.2\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"108.0,104.8 142.0,104.8 142.0,70.8 108.0,70.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"108.0,70.8 142.0,70.8 159.0,57.2 125.0,57.2\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"142.0,104.8 176.0,104.8 176.0,70.8 142.0,70.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"142.0,70.8 176.0,70.8 193.0,57.2 159.0,57.2\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"176.0,104.8 193.0,91.2 193.0,57.2 176.0,70.8\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/></svg></span><p>Hur stor är kroppens volym? (Svara i cm³.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje lager har \\(4\\cdot3=12\\) kuber, och det finns 2 lager.</p></li><li><div class=\"facit-matte\">\\[12\\cdot2=24\\ \\mathrm{cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 cm³.</p></div>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna kuberna i ett lager och gånga med antalet lager. Glöm inte de som inte syns.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": 0,
+    "svarEnhet": "cm³"
+  },
+  {
+    "id": "4.702",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "kub i liter",
+    "t": "<p>En kubformad blomlåda har sidan 4 dm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"312\" height=\"262\" viewBox=\"0 0 312 262\" role=\"img\" aria-label=\"Kub med sidan 4 dm.\"><title>Kub med sidan 4 dm.</title><rect x=\"1\" y=\"1\" width=\"310\" height=\"260\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,92.8 177.2,92.8 241.7,40.0 124.5,40.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"177.2,210.0 241.7,157.2 241.7,40.0 177.2,92.8\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"60.0,210.0 177.2,210.0 177.2,92.8 60.0,92.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"124.5\" y2=\"157.2\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"124.5\" y1=\"157.2\" x2=\"241.7\" y2=\"157.2\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"124.5\" y1=\"157.2\" x2=\"124.5\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"60.0\" y1=\"228.0\" x2=\"177.2\" y2=\"228.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"223.0\" x2=\"60.0\" y2=\"233.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"177.2\" y1=\"223.0\" x2=\"177.2\" y2=\"233.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"98.4\" y=\"234.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"118.6\" y=\"247.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4 dm</text><line x1=\"187.4\" y1=\"222.4\" x2=\"251.9\" y2=\"169.6\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"184.2\" y1=\"218.5\" x2=\"190.5\" y2=\"226.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"248.7\" y1=\"165.8\" x2=\"255.0\" y2=\"173.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"208.2\" y=\"198.8\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"228.5\" y=\"211.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4 dm</text><line x1=\"42.0\" y1=\"210.0\" x2=\"42.0\" y2=\"92.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"210.0\" x2=\"37.0\" y2=\"210.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"92.8\" x2=\"37.0\" y2=\"92.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"7.8\" y=\"143.4\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"156.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4 dm</text></svg></span><p>Hur många liter jord rymmer lådan? (Svara i liter.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=4\\cdot4\\cdot4=64\\ \\mathrm{dm^3}\\]</div></li><li><div class=\"facit-matte\">\\[1\\ \\mathrm{dm^3}=1\\ \\text{liter}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 64 liter.</p></div>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>1 dm³ är lika mycket som 1 liter.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 64,
+    "tolerans": 0,
+    "svarEnhet": "liter"
+  },
+  {
+    "id": "4.703",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "cylindriskt ljus",
+    "t": "<p>Ett blockljus av stearin har formen av en cylinder.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"282\" viewBox=\"0 0 300 282\" role=\"img\" aria-label=\"Cylinder med radien 4 cm och höjden 12 cm.\"><title>Cylinder med radien 4 cm och höjden 12 cm.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"280\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M73.3 58.1 L73.3 228.1 C73.3 238.1 98.7 246.2 130.0 246.2 C161.3 246.2 186.7 238.1 186.7 228.1 L186.7 58.1\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M73.3 228.1 C73.3 218.1 98.7 210.0 130.0 210.0 C161.3 210.0 186.7 218.1 186.7 228.1\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><ellipse cx=\"130.0\" cy=\"58.1\" rx=\"56.7\" ry=\"18.1\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"130.0\" y1=\"228.1\" x2=\"186.7\" y2=\"228.1\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"130.0\" cy=\"228.1\" r=\"3\" fill=\"#172b3a\"/><rect x=\"121.9\" y=\"239.1\" width=\"73.0\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"158.3\" y=\"252.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">r = 4 cm</text><line x1=\"206.7\" y1=\"228.1\" x2=\"206.7\" y2=\"58.1\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"201.7\" y1=\"228.1\" x2=\"211.7\" y2=\"228.1\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"201.7\" y1=\"58.1\" x2=\"211.7\" y2=\"58.1\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"196.4\" y=\"135.1\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"220.7\" y=\"148.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">12 cm</text></svg></span><p>Hur stor volym stearin innehåller ljuset? (Svara i cm³.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi r^2h=\\pi\\cdot4^2\\cdot12\\approx603\\ \\mathrm{cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 603 cm³.</p></div>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bottenarean är en cirkel. Volymen är bottenarea · höjd.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 603.1857894892403,
+    "tolerans": 0.5,
+    "svarEnhet": "cm³"
+  },
+  {
+    "id": "4.704",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "simbassäng",
+    "t": "<p>En simbassäng är 25 m lång, 10 m bred och 1,5 m djup överallt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"374\" height=\"140\" viewBox=\"0 0 374 140\" role=\"img\" aria-label=\"Simbassäng formad som ett rätblock, 25 m lång, 10 m bred och 1,5 m djup.\"><title>Simbassäng formad som ett rätblock, 25 m lång, 10 m bred och 1,5 m djup.</title><rect x=\"1\" y=\"1\" width=\"372\" height=\"138\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,76.0 260.0,76.0 304.0,40.0 104.0,40.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"260.0,88.0 304.0,52.0 304.0,40.0 260.0,76.0\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"60.0,88.0 260.0,88.0 260.0,76.0 60.0,76.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"88.0\" x2=\"104.0\" y2=\"52.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"104.0\" y1=\"52.0\" x2=\"304.0\" y2=\"52.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"104.0\" y1=\"52.0\" x2=\"104.0\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"60.0\" y1=\"106.0\" x2=\"260.0\" y2=\"106.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"101.0\" x2=\"60.0\" y2=\"111.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"260.0\" y1=\"101.0\" x2=\"260.0\" y2=\"111.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"139.8\" y=\"112.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"160.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">25 m</text><line x1=\"270.1\" y1=\"100.4\" x2=\"314.1\" y2=\"64.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"267.0\" y1=\"96.5\" x2=\"273.3\" y2=\"104.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"311.0\" y1=\"60.5\" x2=\"317.3\" y2=\"68.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"280.8\" y=\"85.2\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"301.0\" y=\"98.2\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">10 m</text><line x1=\"42.0\" y1=\"88.0\" x2=\"42.0\" y2=\"76.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"88.0\" x2=\"37.0\" y2=\"88.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"76.0\" x2=\"37.0\" y2=\"76.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"3.7\" y=\"74.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"87.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,5 m</text></svg></span><p>Hur många kubikmeter vatten rymmer bassängen? (Svara i m³.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=25\\cdot10\\cdot1{,}5=375\\ \\mathrm{m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 375 m³.</p></div>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Längd · bredd · djup.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 375,
+    "tolerans": 0,
+    "svarEnhet": "m³"
+  },
+  {
+    "id": "4.705",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "enhet för volym",
+    "t": "<p>En mjölkförpackning är 7 cm lång, 7 cm bred och 20 cm hög. Vilken enhet passar för förpackningens volym om du räknar med måtten i centimeter?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Längd · bredd · höjd ger cm · cm · cm = cm³.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> cm³.</p></div>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många längder multipliceras?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "cm³",
+        "ratt": true
+      },
+      {
+        "txt": "cm²",
+        "ratt": false,
+        "kommentar": "cm² är en area."
+      },
+      {
+        "txt": "cm",
+        "ratt": false,
+        "kommentar": "cm är en längd."
+      },
+      {
+        "txt": "cm⁴",
+        "ratt": false,
+        "kommentar": "Bara tre längder multipliceras."
+      }
+    ]
+  },
+  {
+    "id": "4.706",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "grushög som kon",
+    "t": "<p>En hög med grus har formen av en kon.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"161\" viewBox=\"0 0 300 161\" role=\"img\" aria-label=\"Kon med radien 3 m och höjden 2 m.\"><title>Kon med radien 3 m och höjden 2 m.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"159\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"65.0,104.1 195.0,104.1 130.0,60.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M65.0 104.1 C65.0 115.6 94.1 124.9 130.0 124.9 C165.9 124.9 195.0 115.6 195.0 104.1\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M65.0 104.1 C65.0 92.6 94.1 83.3 130.0 83.3 C165.9 83.3 195.0 92.6 195.0 104.1\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"130.0\" y1=\"104.1\" x2=\"130.0\" y2=\"60.8\" stroke=\"#5b6773\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><line x1=\"130.0\" y1=\"104.1\" x2=\"195.0\" y2=\"104.1\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"130.0\" cy=\"104.1\" r=\"3\" fill=\"#172b3a\"/><rect x=\"130.1\" y=\"115.1\" width=\"64.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"162.5\" y=\"128.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">r = 3 m</text><line x1=\"215.0\" y1=\"104.1\" x2=\"215.0\" y2=\"60.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"104.1\" x2=\"220.0\" y2=\"104.1\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"60.8\" x2=\"220.0\" y2=\"60.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"212.8\" y=\"74.5\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"229.0\" y=\"87.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2 m</text></svg></span><p>Hur stor volym grus finns i högen? (Svara i m³.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\frac{\\pi r^2h}{3}=\\frac{\\pi\\cdot3^2\\cdot2}{3}=6\\pi\\approx18{,}8\\ \\mathrm{m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 19 m³.</p></div>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En kon rymmer en tredjedel av en cylinder med samma bottenarea och höjd.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 18.84955592153876,
+    "tolerans": 0.05,
+    "svarEnhet": "m³"
+  },
+  {
+    "id": "4.707",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "klotformad vattentank",
+    "t": "<p>Ett vattentorn har en klotformad tank med diametern 12 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"240\" viewBox=\"0 0 300 240\" role=\"img\" aria-label=\"Klot med diametern 12 m.\"><title>Klot med diametern 12 m.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"150\" cy=\"120\" r=\"80\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><ellipse cx=\"150\" cy=\"120\" rx=\"80\" ry=\"22.4\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"70.0\" y1=\"120.0\" x2=\"230.0\" y2=\"120.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"129.8\" y=\"97.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"150.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">12 m</text></svg></span><p>Hur stor är tankens volym? (Svara i m³.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r=6\\ \\mathrm{m}\\]</div></li><li><div class=\"facit-matte\">\\[V=\\frac{4\\pi r^3}{3}=\\frac{4\\pi\\cdot6^3}{3}=288\\pi\\approx905\\ \\mathrm{m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 905 m³.</p></div>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Radien är halva diametern.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 904.7786842338604,
+    "tolerans": 0.5,
+    "svarEnhet": "m³"
+  },
+  {
+    "id": "4.708",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "utvikt kub",
+    "t": "<p>Figuren visar en utvikt kub, där varje sida är en kvadrat med sidan 3 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"280\" height=\"230\" viewBox=\"0 0 280 230\" role=\"img\" aria-label=\"Utvikt kub med sex kvadrater med sidan 3 cm.\"><title>Utvikt kub med sex kvadrater med sidan 3 cm.</title><rect x=\"1\" y=\"1\" width=\"278\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"90.0,30.0 140.0,30.0 140.0,80.0 90.0,80.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polygon points=\"40.0,80.0 90.0,80.0 90.0,130.0 40.0,130.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polygon points=\"90.0,80.0 140.0,80.0 140.0,130.0 90.0,130.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polygon points=\"140.0,80.0 190.0,80.0 190.0,130.0 140.0,130.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polygon points=\"190.0,80.0 240.0,80.0 240.0,130.0 190.0,130.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><polygon points=\"90.0,130.0 140.0,130.0 140.0,180.0 90.0,180.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.8\" stroke-linejoin=\"round\"/><line x1=\"90.0\" y1=\"194.0\" x2=\"140.0\" y2=\"194.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"90.0\" y1=\"189.0\" x2=\"90.0\" y2=\"199.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"140.0\" y1=\"189.0\" x2=\"140.0\" y2=\"199.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"94.8\" y=\"200.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"115.0\" y=\"213.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">3 cm</text></svg></span><p>Hur stor är kubens begränsningsarea? (Svara i cm².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6\\cdot3\\cdot3=54\\ \\mathrm{cm^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 54 cm².</p></div>",
+    "familj": "Begränsningsarea",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Begränsningsarean är summan av alla sidornas areor.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 54,
+    "tolerans": 0,
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "4.709",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "låda utan lock",
+    "t": "<p>En låda utan lock har formen av ett rätblock. Den ska tillverkas av kartong.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"350\" height=\"205\" viewBox=\"0 0 350 205\" role=\"img\" aria-label=\"Låda utan lock, 30 cm lång, 20 cm bred och 12 cm hög.\"><title>Låda utan lock, 30 cm lång, 20 cm bred och 12 cm hög.</title><rect x=\"1\" y=\"1\" width=\"348\" height=\"203\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,88.3 221.0,88.3 280.0,40.0 119.0,40.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"221.0,152.7 280.0,104.4 280.0,40.0 221.0,88.3\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"60.0,152.7 221.0,152.7 221.0,88.3 60.0,88.3\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"152.7\" x2=\"119.0\" y2=\"104.4\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"119.0\" y1=\"104.4\" x2=\"280.0\" y2=\"104.4\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"119.0\" y1=\"104.4\" x2=\"119.0\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"60.0\" y1=\"170.7\" x2=\"221.0\" y2=\"170.7\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"165.7\" x2=\"60.0\" y2=\"175.7\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"221.0\" y1=\"165.7\" x2=\"221.0\" y2=\"175.7\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"116.2\" y=\"176.7\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"140.5\" y=\"189.7\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">30 cm</text><line x1=\"231.1\" y1=\"165.1\" x2=\"290.1\" y2=\"116.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"227.9\" y1=\"161.2\" x2=\"234.3\" y2=\"168.9\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"287.0\" y1=\"112.9\" x2=\"293.3\" y2=\"120.6\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"245.2\" y=\"143.8\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"269.5\" y=\"156.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">20 cm</text><line x1=\"42.0\" y1=\"152.7\" x2=\"42.0\" y2=\"88.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"152.7\" x2=\"37.0\" y2=\"152.7\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"88.3\" x2=\"37.0\" y2=\"88.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"3.7\" y=\"112.5\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"125.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">12 cm</text></svg></span><p>Hur mycket kartong behövs till lådan? Bortse från skarvar. (Svara i cm².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lådan har en botten och fyra väggar, men inget lock.</p></li><li><div class=\"facit-matte\">\\[30\\cdot20+2\\cdot30\\cdot12+2\\cdot20\\cdot12=600+720+480=1\\,800\\ \\mathrm{cm^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 800 cm².</p></div>",
+    "familj": "Begränsningsarea",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna botten och de fyra väggarna. Locket saknas.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1800,
+    "tolerans": 0,
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "4.710",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "chokladkartong som prisma",
+    "t": "<p>En chokladkartong har formen av ett prisma. Gavlarna är trianglar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"398\" height=\"282\" viewBox=\"0 0 398 282\" role=\"img\" aria-label=\"Prisma med triangulär gavel: basen 4 cm, höjden 3,5 cm och längden 20 cm.\"><title>Prisma med triangulär gavel: basen 4 cm, höjden 3,5 cm och längden 20 cm.</title><rect x=\"1\" y=\"1\" width=\"396\" height=\"280\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"175.7,229.8 318.2,150.0 255.4,40.0 112.9,119.8\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"50.0,229.8 175.7,229.8 112.9,119.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"50.0\" y1=\"229.8\" x2=\"192.5\" y2=\"150.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"192.5\" y1=\"150.0\" x2=\"318.2\" y2=\"150.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"192.5\" y1=\"150.0\" x2=\"255.4\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"112.9\" y1=\"119.8\" x2=\"112.9\" y2=\"229.8\" stroke=\"#c2410c\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><rect x=\"116.9\" y=\"173.8\" width=\"56.7\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"120.9\" y=\"186.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">3,5 cm</text><line x1=\"50.0\" y1=\"247.8\" x2=\"175.7\" y2=\"247.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"242.8\" x2=\"50.0\" y2=\"252.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"175.7\" y1=\"242.8\" x2=\"175.7\" y2=\"252.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"92.6\" y=\"253.8\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"112.9\" y=\"266.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4 cm</text><line x1=\"183.5\" y1=\"243.8\" x2=\"326.0\" y2=\"164.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"181.1\" y1=\"239.4\" x2=\"186.0\" y2=\"248.1\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"323.6\" y1=\"159.6\" x2=\"328.5\" y2=\"168.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"237.3\" y=\"208.1\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"261.6\" y=\"221.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">20 cm</text></svg></span><p>Hur stor är kartongens volym? (Svara i cm³.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A_{\\text{gavel}}=\\frac{4\\cdot3{,}5}{2}=7\\ \\mathrm{cm^2}\\]</div></li><li><div class=\"facit-matte\">\\[V=7\\cdot20=140\\ \\mathrm{cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 140 cm³.</p></div>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Volymen är gavelns area gånger längden.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 140,
+    "tolerans": 0,
+    "svarEnhet": "cm³"
+  },
+  {
+    "id": "4.711",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "hus med sadeltak",
+    "t": "<p>Ett förråd består av ett rätblock med ett tak som är ett prisma. Rätblocket är 6 m långt, 4 m brett och 3 m högt. Takets gavel är en triangel med basen 4 m och höjden 1,5 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"335\" height=\"232\" viewBox=\"0 0 335 232\" role=\"img\" aria-label=\"Förråd: rätblock 6 m långt, 4 m brett och 3 m högt med ett sadeltak ovanpå. Takets gavel har basen 4 m och höjden 1,5 m.\"><title>Förråd: rätblock 6 m långt, 4 m brett och 3 m högt med ett sadeltak ovanpå. Takets gavel har basen 4 m och höjden 1,5 m.</title><rect x=\"1\" y=\"1\" width=\"333\" height=\"230\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"202.9,180.0 255.2,137.1 255.2,65.7 202.9,108.6\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"60.0,180.0 202.9,180.0 202.9,108.6 60.0,108.6\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"60.0,108.6 202.9,108.6 229.0,51.4 86.2,51.4\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"202.9,108.6 255.2,65.7 229.0,51.4\" fill=\"#f6d2bf\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"229.0\" y1=\"87.1\" x2=\"229.0\" y2=\"51.4\" stroke=\"#c2410c\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><rect x=\"237.0\" y=\"61.3\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"241.0\" y=\"74.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">1,5 m</text><line x1=\"60.0\" y1=\"198.0\" x2=\"202.9\" y2=\"198.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"193.0\" x2=\"60.0\" y2=\"203.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"202.9\" y1=\"193.0\" x2=\"202.9\" y2=\"203.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"115.2\" y=\"204.0\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"131.4\" y=\"217.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">6 m</text><line x1=\"213.0\" y1=\"192.4\" x2=\"265.4\" y2=\"149.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"209.8\" y1=\"188.5\" x2=\"216.2\" y2=\"196.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"262.2\" y1=\"145.7\" x2=\"268.5\" y2=\"153.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"231.9\" y=\"173.8\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"248.0\" y=\"186.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4 m</text><line x1=\"42.0\" y1=\"180.0\" x2=\"42.0\" y2=\"108.6\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"180.0\" x2=\"37.0\" y2=\"180.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"108.6\" x2=\"37.0\" y2=\"108.6\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"11.8\" y=\"136.3\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"149.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">3 m</text></svg></span><p>Hur stor är förrådets totala volym? (Svara i m³.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V_{\\text{rätblock}}=6\\cdot4\\cdot3=72\\ \\mathrm{m^3}\\]</div></li><li><div class=\"facit-matte\">\\[V_{\\text{tak}}=\\frac{4\\cdot1{,}5}{2}\\cdot6=18\\ \\mathrm{m^3}\\]</div></li><li><div class=\"facit-matte\">\\[V=72+18=90\\ \\mathrm{m^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 90 m³.</p></div>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Dela upp förrådet i två kroppar och addera volymerna.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": 0,
+    "svarEnhet": "m³"
+  },
+  {
+    "id": "4.712",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "dubbla kantlängden",
+    "t": "<p>Alla kanter i en kub dubbleras. Hur många gånger större blir volymen?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"182\" height=\"155\" viewBox=\"0 0 182 155\" role=\"img\" aria-label=\"En kub byggd av 2 · 2 · 2 småkuber.\"><title>En kub byggd av 2 · 2 · 2 småkuber.</title><rect x=\"1\" y=\"1\" width=\"180\" height=\"153\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"125.0,111.6 142.0,98.0 142.0,64.0 125.0,77.6\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"40.0,125.2 74.0,125.2 74.0,91.2 40.0,91.2\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"74.0,125.2 108.0,125.2 108.0,91.2 74.0,91.2\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"108.0,125.2 125.0,111.6 125.0,77.6 108.0,91.2\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"57.0,43.6 91.0,43.6 108.0,30.0 74.0,30.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"91.0,43.6 125.0,43.6 142.0,30.0 108.0,30.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"125.0,77.6 142.0,64.0 142.0,30.0 125.0,43.6\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"40.0,91.2 74.0,91.2 74.0,57.2 40.0,57.2\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"40.0,57.2 74.0,57.2 91.0,43.6 57.0,43.6\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"74.0,91.2 108.0,91.2 108.0,57.2 74.0,57.2\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"74.0,57.2 108.0,57.2 125.0,43.6 91.0,43.6\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/><polygon points=\"108.0,91.2 125.0,77.6 125.0,43.6 108.0,57.2\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"1.4\" stroke-linejoin=\"round\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymen blir \\(2\\cdot2\\cdot2=8\\) gånger större. Figuren visar att det behövs 8 småkuber.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 gånger.</p></div>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Längd, bredd och höjd fördubblas alla tre.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "8 gånger",
+        "ratt": true
+      },
+      {
+        "txt": "2 gånger",
+        "ratt": false,
+        "kommentar": "Alla tre måtten fördubblas."
+      },
+      {
+        "txt": "4 gånger",
+        "ratt": false,
+        "kommentar": "Det gäller för arean."
+      },
+      {
+        "txt": "6 gånger",
+        "ratt": false,
+        "kommentar": "Räkna kuberna i figuren."
+      }
+    ]
+  },
+  {
+    "id": "4.713",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vattenflaska i liter",
+    "t": "<p>En vattenflaska är en cylinder med diametern 7 cm och höjden 20 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"265\" viewBox=\"0 0 300 265\" role=\"img\" aria-label=\"Cylinder med diametern 7 cm och höjden 20 cm.\"><title>Cylinder med diametern 7 cm och höjden 20 cm.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"263\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M100.2 49.5 L100.2 219.5 C100.2 224.7 113.5 229.0 130.0 229.0 C146.5 229.0 159.8 224.7 159.8 219.5 L159.8 49.5\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M100.2 219.5 C100.2 214.3 113.5 210.0 130.0 210.0 C146.5 210.0 159.8 214.3 159.8 219.5\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><ellipse cx=\"130.0\" cy=\"49.5\" rx=\"29.8\" ry=\"9.5\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"130.0\" y1=\"219.5\" x2=\"159.8\" y2=\"219.5\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"130.0\" cy=\"219.5\" r=\"3\" fill=\"#172b3a\"/><rect x=\"108.4\" y=\"230.5\" width=\"73.0\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"144.9\" y=\"243.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">d = 7 cm</text><line x1=\"179.8\" y1=\"219.5\" x2=\"179.8\" y2=\"49.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"174.8\" y1=\"219.5\" x2=\"184.8\" y2=\"219.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"174.8\" y1=\"49.5\" x2=\"184.8\" y2=\"49.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"169.4\" y=\"126.5\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"193.8\" y=\"139.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">20 cm</text></svg></span><p>Hur många liter rymmer flaskan? (Svara i liter.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\cdot3{,}5^2\\cdot20\\approx770\\ \\mathrm{cm^3}\\]</div></li><li><div class=\"facit-matte\">\\[770\\ \\mathrm{cm^3}=0{,}77\\ \\text{liter}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 0,77 liter.</p></div>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>1 liter = 1 000 cm³.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 0.7696902001294993,
+    "tolerans": 0.005,
+    "svarEnhet": "liter"
+  },
+  {
+    "id": "4.714",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "vattnets höjd i akvarium",
+    "t": "<p>Ett akvarium har en rektangulär botten som är 50 cm lång och 30 cm bred. Man häller i 30 liter vatten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"350\" height=\"252\" viewBox=\"0 0 350 252\" role=\"img\" aria-label=\"Akvarium med bottnen 50 cm gånger 30 cm.\"><title>Akvarium med bottnen 50 cm gånger 30 cm.</title><rect x=\"1\" y=\"1\" width=\"348\" height=\"250\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,84.7 225.4,84.7 280.0,40.0 114.6,40.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"225.4,200.5 280.0,155.8 280.0,40.0 225.4,84.7\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"60.0,200.5 225.4,200.5 225.4,84.7 60.0,84.7\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"200.5\" x2=\"114.6\" y2=\"155.8\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"114.6\" y1=\"155.8\" x2=\"280.0\" y2=\"155.8\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"114.6\" y1=\"155.8\" x2=\"114.6\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"60.0\" y1=\"218.5\" x2=\"225.4\" y2=\"218.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"213.5\" x2=\"60.0\" y2=\"223.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"225.4\" y1=\"213.5\" x2=\"225.4\" y2=\"223.5\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"118.4\" y=\"224.5\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"142.7\" y=\"237.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">50 cm</text><line x1=\"235.5\" y1=\"212.8\" x2=\"290.1\" y2=\"168.2\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"232.4\" y1=\"209.0\" x2=\"238.7\" y2=\"216.7\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"287.0\" y1=\"164.3\" x2=\"293.3\" y2=\"172.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"247.4\" y=\"193.3\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"271.7\" y=\"206.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">30 cm</text></svg></span><p>Hur högt står vattnet? (Svara i cm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[30\\ \\text{liter}=30\\,000\\ \\mathrm{cm^3}\\]</div></li><li><div class=\"facit-matte\">\\[h=\\frac{30\\,000}{50\\cdot30}=20\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 cm.</p></div>",
+    "familj": "Material och förbrukning med ritningar",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Volym = bottenarea · höjd. Lös ut höjden.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.715",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "ishockeypuck",
+    "t": "<p>En ishockeypuck är en cylinder med diametern 7,6 cm och höjden 2,5 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"160\" viewBox=\"0 0 300 160\" role=\"img\" aria-label=\"Låg cylinder med diametern 7,6 cm och höjden 2,5 cm.\"><title>Låg cylinder med diametern 7,6 cm och höjden 2,5 cm.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M65.0 60.8 L65.0 103.6 C65.0 115.1 94.1 124.4 130.0 124.4 C165.9 124.4 195.0 115.1 195.0 103.6 L195.0 60.8\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M65.0 103.6 C65.0 92.1 94.1 82.8 130.0 82.8 C165.9 82.8 195.0 92.1 195.0 103.6\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><ellipse cx=\"130.0\" cy=\"60.8\" rx=\"65.0\" ry=\"20.8\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"130.0\" y1=\"103.6\" x2=\"195.0\" y2=\"103.6\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"130.0\" cy=\"103.6\" r=\"3\" fill=\"#172b3a\"/><rect x=\"117.9\" y=\"114.6\" width=\"89.2\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"162.5\" y=\"127.6\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">d = 7,6 cm</text><line x1=\"215.0\" y1=\"103.6\" x2=\"215.0\" y2=\"60.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"103.6\" x2=\"220.0\" y2=\"103.6\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"60.8\" x2=\"220.0\" y2=\"60.8\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"200.6\" y=\"74.2\" width=\"56.7\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"229.0\" y=\"87.2\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2,5 cm</text></svg></span><p>Hur stor är puckens volym? (Svara i cm³.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=\\pi\\cdot3{,}8^2\\cdot2{,}5\\approx113\\ \\mathrm{cm^3}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 113 cm³.</p></div>",
+    "familj": "Volym av rätblock, cylinder, kon och klot",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Radien är halva diametern.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 113.41149479459153,
+    "tolerans": 0.5,
+    "svarEnhet": "cm³"
+  },
+  {
+    "id": "4.716",
+    "kap": 4,
+    "omr": "volym",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "jord i pallkrage",
+    "t": "<p>En pallkrage är 1,2 m lång och 0,8 m bred. Den ska fyllas med jord till 0,3 m höjd. En säck innehåller 30 liter jord.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"184\" viewBox=\"0 0 360 184\" role=\"img\" aria-label=\"Pallkrage 1,2 m lång och 0,8 m bred, jorddjup 0,3 m.\"><title>Pallkrage 1,2 m lång och 0,8 m bred, jorddjup 0,3 m.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"182\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,90.4 228.0,90.4 289.6,40.0 121.6,40.0\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"228.0,132.4 289.6,82.0 289.6,40.0 228.0,90.4\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"60.0,132.4 228.0,132.4 228.0,90.4 60.0,90.4\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"132.4\" x2=\"121.6\" y2=\"82.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"121.6\" y1=\"82.0\" x2=\"289.6\" y2=\"82.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"121.6\" y1=\"82.0\" x2=\"121.6\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><line x1=\"60.0\" y1=\"150.4\" x2=\"228.0\" y2=\"150.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"145.4\" x2=\"60.0\" y2=\"155.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"228.0\" y1=\"145.4\" x2=\"228.0\" y2=\"155.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"119.7\" y=\"156.4\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"144.0\" y=\"169.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,2 m</text><line x1=\"238.1\" y1=\"144.8\" x2=\"299.7\" y2=\"94.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"235.0\" y1=\"140.9\" x2=\"241.3\" y2=\"148.7\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"296.6\" y1=\"90.5\" x2=\"302.9\" y2=\"98.3\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"253.5\" y=\"122.4\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"277.8\" y=\"135.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">0,8 m</text><line x1=\"42.0\" y1=\"132.4\" x2=\"42.0\" y2=\"90.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"132.4\" x2=\"37.0\" y2=\"132.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"90.4\" x2=\"37.0\" y2=\"90.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"3.7\" y=\"103.4\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"116.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">0,3 m</text></svg></span><p>Hur många säckar jord behövs? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V=1{,}2\\cdot0{,}8\\cdot0{,}3=0{,}288\\ \\mathrm{m^3}=288\\ \\text{liter}\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{288}{30}=9{,}6\\]</div></li><li><p>Man måste köpa hela säckar, alltså 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 säckar.</p></div>",
+    "familj": "Material och förbrukning med ritningar",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna om volymen till liter (1 m³ = 1 000 liter) och dela med en säcks innehåll. Avrunda uppåt.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0,
+    "svarEnhet": "säckar"
+  },
+  {
+    "id": "4.717",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "rektangelns area",
+    "t": "<p>Figuren visar en rektangel.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"324\" height=\"222\" viewBox=\"0 0 324 222\" role=\"img\" aria-label=\"Rektangel 8 cm lång och 5 cm bred.\"><title>Rektangel 8 cm lång och 5 cm bred.</title><rect x=\"1\" y=\"1\" width=\"322\" height=\"220\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,30.0 284.0,30.0 284.0,170.0 60.0,170.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"186.0\" x2=\"284.0\" y2=\"186.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"181.0\" x2=\"60.0\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"284.0\" y1=\"181.0\" x2=\"284.0\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"151.8\" y=\"192.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"172.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">8 cm</text><line x1=\"42.0\" y1=\"30.0\" x2=\"42.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"30.0\" x2=\"37.0\" y2=\"30.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"170.0\" x2=\"37.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"7.8\" y=\"92.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">5 cm</text></svg></span><p>Hur stor är rektangelns area? (Svara i cm².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=8\\cdot5=40\\ \\mathrm{cm^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40 cm².</p></div>",
+    "familj": "Omkrets och area av månghörningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Area = längd · bredd.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 0,
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "4.718",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "rektangelns omkrets",
+    "t": "<p>Figuren visar en avlång matta.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"133\" viewBox=\"0 0 340 133\" role=\"img\" aria-label=\"Rektangulär matta 14 dm lång och 3 dm bred.\"><title>Rektangulär matta 14 dm lång och 3 dm bred.</title><rect x=\"1\" y=\"1\" width=\"338\" height=\"131\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,30.0 300.0,30.0 300.0,81.4 60.0,81.4\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"97.4\" x2=\"300.0\" y2=\"97.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"92.4\" x2=\"60.0\" y2=\"102.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"300.0\" y1=\"92.4\" x2=\"300.0\" y2=\"102.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"155.7\" y=\"103.4\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"180.0\" y=\"116.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">14 dm</text><line x1=\"42.0\" y1=\"30.0\" x2=\"42.0\" y2=\"81.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"30.0\" x2=\"37.0\" y2=\"30.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"81.4\" x2=\"37.0\" y2=\"81.4\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"7.8\" y=\"47.7\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"60.7\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">3 dm</text></svg></span><p>Hur lång är mattans omkrets? (Svara i dm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[O=14+3+14+3=34\\ \\mathrm{dm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 34 dm.</p></div>",
+    "familj": "Omkrets och area av månghörningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Omkretsen är summan av alla fyra sidor.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 34,
+    "tolerans": 0,
+    "svarEnhet": "dm"
+  },
+  {
+    "id": "4.719",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "triangelns area med höjd",
+    "t": "<p>Figuren visar en triangel.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"230\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"Triangel med basen 10 cm och höjden 7 cm.\"><title>Triangel med basen 10 cm och höjden 7 cm.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40.0,190.0 300.0,190.0 200.0,40.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"40.0\" y1=\"206.0\" x2=\"300.0\" y2=\"206.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"40.0\" y1=\"201.0\" x2=\"40.0\" y2=\"211.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"300.0\" y1=\"201.0\" x2=\"300.0\" y2=\"211.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"145.7\" y=\"212.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"170.0\" y=\"225.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">10 cm</text><line x1=\"200.0\" y1=\"40.0\" x2=\"200.0\" y2=\"190.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><rect x=\"206.0\" y=\"107.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"210.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">7 cm</text><path d=\"M210.0 190.0 L210.0 180.0 L200.0 180.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"1.3\"/></svg></span><p>Hur stor är triangelns area? (Svara i cm².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=\\frac{b\\cdot h}{2}=\\frac{10\\cdot7}{2}=35\\ \\mathrm{cm^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 35 cm².</p></div>",
+    "familj": "Omkrets och area av månghörningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bas gånger höjd, delat med 2.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 35,
+    "tolerans": 0,
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "4.720",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "area genom att räkna rutor",
+    "t": "<p>Figuren är ritad på ett rutnät där varje ruta är 1 cm².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"284\" height=\"252\" viewBox=\"0 0 284 252\" role=\"img\" aria-label=\"Figur av 14 rutor på ett rutnät.\"><title>Figur av 14 rutor på ett rutnät.</title><rect x=\"1\" y=\"1\" width=\"282\" height=\"250\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"30.0\" x2=\"30.0\" y2=\"198.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"58.0\" y1=\"30.0\" x2=\"58.0\" y2=\"198.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"86.0\" y1=\"30.0\" x2=\"86.0\" y2=\"198.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"114.0\" y1=\"30.0\" x2=\"114.0\" y2=\"198.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"142.0\" y1=\"30.0\" x2=\"142.0\" y2=\"198.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"30.0\" x2=\"170.0\" y2=\"198.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"198.0\" y1=\"30.0\" x2=\"198.0\" y2=\"198.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"226.0\" y1=\"30.0\" x2=\"226.0\" y2=\"198.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"254.0\" y1=\"30.0\" x2=\"254.0\" y2=\"198.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"30.0\" x2=\"254.0\" y2=\"30.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"58.0\" x2=\"254.0\" y2=\"58.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"86.0\" x2=\"254.0\" y2=\"86.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"114.0\" x2=\"254.0\" y2=\"114.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"142.0\" x2=\"254.0\" y2=\"142.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"170.0\" x2=\"254.0\" y2=\"170.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><line x1=\"30.0\" y1=\"198.0\" x2=\"254.0\" y2=\"198.0\" stroke=\"#d7dee6\" stroke-width=\"1\"/><rect x=\"59\" y=\"59\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"87\" y=\"59\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"115\" y=\"59\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"59\" y=\"87\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"87\" y=\"87\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"115\" y=\"87\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"59\" y=\"115\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"87\" y=\"115\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"59\" y=\"143\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"87\" y=\"143\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"115\" y=\"143\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"143\" y=\"143\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"171\" y=\"143\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"199\" y=\"143\" width=\"26\" height=\"26\" fill=\"#fbe3d6\" stroke=\"#c2410c\" stroke-width=\"1\"/><rect x=\"30\" y=\"210\" width=\"28\" height=\"28\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><text x=\"66.0\" y=\"229.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">= 1 cm²</text></svg></span><p>Hur stor är figurens area? (Svara i cm².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Räkna de färgade rutorna: 14 stycken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14 cm².</p></div>",
+    "familj": "Omkrets och area av månghörningar",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna rutorna rad för rad.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": 0,
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "4.721",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "cirkelns area",
+    "t": "<p>Figuren visar en cirkel.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"250\" viewBox=\"0 0 300 250\" role=\"img\" aria-label=\"Cirkel med radien 5 cm.\"><title>Cirkel med radien 5 cm.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"150\" cy=\"130\" r=\"90\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"150.0\" y1=\"130.0\" x2=\"240.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"158.5\" y=\"107.0\" width=\"73.0\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"195.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">r = 5 cm</text><circle cx=\"150\" cy=\"130\" r=\"3\" fill=\"#172b3a\"/></svg></span><p>Hur stor är cirkelns area? (Svara i cm².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=\\pi r^2=\\pi\\cdot5^2\\approx78{,}5\\ \\mathrm{cm^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 78,5 cm².</p></div>",
+    "familj": "Cirkelns omkrets och area",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Area = π · radien².</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 78.53981633974483,
+    "tolerans": 0.1,
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "4.722",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "cirkelns omkrets ur diameter",
+    "t": "<p>En tallrik har diametern 26 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"250\" viewBox=\"0 0 300 250\" role=\"img\" aria-label=\"Cirkel med diametern 26 cm.\"><title>Cirkel med diametern 26 cm.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"150\" cy=\"130\" r=\"90\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"60.0\" y1=\"130.0\" x2=\"240.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"109.5\" y=\"107.0\" width=\"81.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"150.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">d = 26 cm</text><circle cx=\"150\" cy=\"130\" r=\"3\" fill=\"#172b3a\"/></svg></span><p>Hur lång är tallrikens kant runt om? (Svara i cm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[O=\\pi d=\\pi\\cdot26\\approx81{,}7\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 82 cm.</p></div>",
+    "familj": "Cirkelns omkrets och area",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Omkrets = π · diametern.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 81.68140899333463,
+    "tolerans": 0.3,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.723",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "parallellogrammets area",
+    "t": "<p>Figuren visar ett parallellogram.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"230\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"Parallellogram med basen 7 cm och höjden 4 cm.\"><title>Parallellogram med basen 7 cm och höjden 4 cm.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40.0,180.0 240.0,180.0 320.0,60.0 120.0,60.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"40.0\" y1=\"196.0\" x2=\"240.0\" y2=\"196.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"40.0\" y1=\"191.0\" x2=\"40.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"240.0\" y1=\"191.0\" x2=\"240.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"119.8\" y=\"202.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"140.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">7 cm</text><line x1=\"120.0\" y1=\"60.0\" x2=\"120.0\" y2=\"180.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><rect x=\"126.0\" y=\"112.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"130.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">4 cm</text><path d=\"M130.0 180.0 L130.0 170.0 L120.0 170.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"1.3\"/></svg></span><p>Hur stor är parallellogrammets area? (Svara i cm².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=b\\cdot h=7\\cdot4=28\\ \\mathrm{cm^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28 cm².</p></div>",
+    "familj": "Omkrets och area av månghörningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Area = bas · höjd. Använd höjden, inte den sneda sidan.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": 0,
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "4.724",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "kvadrat ur omkrets",
+    "t": "<p>En kvadratisk tavla har omkretsen 36 cm. Hur stor är tavlans area? (Svara i cm².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\frac{36}{4}=9\\ \\mathrm{cm}\\]</div></li><li><div class=\"facit-matte\">\\[A=9\\cdot9=81\\ \\mathrm{cm^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 81 cm².</p></div>",
+    "familj": "Omkrets och area av månghörningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bestäm först en sida.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 81,
+    "tolerans": 0,
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "4.725",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "husgavel",
+    "t": "<p>Gaveln på ett hus ska målas. Gaveln består av en rektangel och en triangel.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"290\" viewBox=\"0 0 380 290\" role=\"img\" aria-label=\"Husgavel: en rektangel 6 m bred och 3 m hög med en triangel ovanpå. Triangelns höjd är 2 m.\"><title>Husgavel: en rektangel 6 m bred och 3 m hög med en triangel ovanpå. Triangelns höjd är 2 m.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,230.0 300.0,230.0 300.0,110.0 180.0,30.0 60.0,110.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"246.0\" x2=\"300.0\" y2=\"246.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"241.0\" x2=\"60.0\" y2=\"251.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"300.0\" y1=\"241.0\" x2=\"300.0\" y2=\"251.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"163.8\" y=\"252.0\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"180.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">6 m</text><line x1=\"316.0\" y1=\"230.0\" x2=\"316.0\" y2=\"110.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"311.0\" y1=\"230.0\" x2=\"321.0\" y2=\"230.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"311.0\" y1=\"110.0\" x2=\"321.0\" y2=\"110.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"313.8\" y=\"162.0\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"330.0\" y=\"175.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">3 m</text><line x1=\"180.0\" y1=\"30.0\" x2=\"180.0\" y2=\"110.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><rect x=\"186.0\" y=\"62.0\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"190.0\" y=\"75.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">2 m</text><path d=\"M190.0 110.0 L190.0 100.0 L180.0 100.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"1.3\"/></svg></span><p>Hur stor är gavelns area? (Svara i m².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rektangeln och triangeln var för sig:</p></li><li><div class=\"facit-matte\">\\[6\\cdot3=18\\ \\mathrm{m^2}\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{6\\cdot2}{2}=6\\ \\mathrm{m^2}\\]</div></li><li><div class=\"facit-matte\">\\[18+6=24\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 m².</p></div>",
+    "familj": "Omkrets och area av månghörningar",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dela upp gaveln i en rektangel och en triangel. Triangelns bas är lika lång som rektangeln.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": 0,
+    "svarEnhet": "m²"
+  },
+  {
+    "id": "4.726",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "halvcirkelns area",
+    "t": "<p>En scen har formen av en halvcirkel med radien 4 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"170\" viewBox=\"0 0 300 170\" role=\"img\" aria-label=\"Halvcirkel med radien 4 m.\"><title>Halvcirkel med radien 4 m.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M60.0 130.0 C60.0 80.3 100.3 40.0 150.0 40.0 C199.7 40.0 240.0 80.3 240.0 130.0 Z\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"150.0\" y1=\"130.0\" x2=\"240.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"162.6\" y=\"139.0\" width=\"64.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"195.0\" y=\"152.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">r = 4 m</text><circle cx=\"150\" cy=\"130\" r=\"3\" fill=\"#172b3a\"/></svg></span><p>Hur stor är scenens area? (Svara i m².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=\\frac{\\pi r^2}{2}=\\frac{\\pi\\cdot4^2}{2}\\approx25{,}1\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 25 m².</p></div>",
+    "familj": "Cirkelns omkrets och area",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Halva cirkelns area.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 25.132741228718345,
+    "tolerans": 0.1,
+    "svarEnhet": "m²"
+  },
+  {
+    "id": "4.727",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "parallelltrapets",
+    "t": "<p>Figuren visar en parallelltrapets.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"230\" viewBox=\"0 0 360 230\" role=\"img\" aria-label=\"Parallelltrapets med de parallella sidorna 10 cm och 6 cm och höjden 4 cm.\"><title>Parallelltrapets med de parallella sidorna 10 cm och 6 cm och höjden 4 cm.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40.0,180.0 320.0,180.0 240.0,70.0 110.0,70.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"40.0\" y1=\"196.0\" x2=\"320.0\" y2=\"196.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"40.0\" y1=\"191.0\" x2=\"40.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"320.0\" y1=\"191.0\" x2=\"320.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"155.7\" y=\"202.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"180.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">10 cm</text><line x1=\"110.0\" y1=\"54.0\" x2=\"240.0\" y2=\"54.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"110.0\" y1=\"59.0\" x2=\"110.0\" y2=\"49.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"240.0\" y1=\"59.0\" x2=\"240.0\" y2=\"49.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"154.8\" y=\"32.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"175.0\" y=\"45.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">6 cm</text><line x1=\"110.0\" y1=\"70.0\" x2=\"110.0\" y2=\"180.0\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><rect x=\"116.0\" y=\"117.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"120.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">4 cm</text><path d=\"M120.0 180.0 L120.0 170.0 L110.0 170.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"1.3\"/></svg></span><p>Hur stor är parallelltrapetsens area? (Svara i cm².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=\\frac{(10+6)\\cdot4}{2}=32\\ \\mathrm{cm^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 32 cm².</p></div>",
+    "familj": "Omkrets och area av månghörningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Medelvärdet av de parallella sidorna gånger höjden.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 32,
+    "tolerans": 0,
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "4.728",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "skylt med cirkulärt hål",
+    "t": "<p>En rektangulär skylt är 60 cm × 40 cm. Mitt i skylten sågas ett runt hål med radien 10 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"310\" height=\"222\" viewBox=\"0 0 310 222\" role=\"img\" aria-label=\"Rektangel 60 cm gånger 40 cm med ett cirkulärt hål med radien 10 cm i mitten.\"><title>Rektangel 60 cm gånger 40 cm med ett cirkulärt hål med radien 10 cm i mitten.</title><rect x=\"1\" y=\"1\" width=\"308\" height=\"220\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,30.0 270.0,30.0 270.0,170.0 60.0,170.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"186.0\" x2=\"270.0\" y2=\"186.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"181.0\" x2=\"60.0\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"270.0\" y1=\"181.0\" x2=\"270.0\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"140.7\" y=\"192.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"165.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">60 cm</text><line x1=\"42.0\" y1=\"30.0\" x2=\"42.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"30.0\" x2=\"37.0\" y2=\"30.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"170.0\" x2=\"37.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"3.7\" y=\"92.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">40 cm</text><circle cx=\"165.0\" cy=\"100.0\" r=\"35.0\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"165.0\" y1=\"100.0\" x2=\"200.0\" y2=\"100.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"159.7\" y=\"80.0\" width=\"45.7\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"182.5\" y=\"92.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">10 cm</text></svg></span><p>Hur stor area har skylten efter att hålet har sågats ut? (Svara i cm².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[60\\cdot40=2\\,400\\ \\mathrm{cm^2}\\]</div></li><li><div class=\"facit-matte\">\\[\\pi\\cdot10^2\\approx314\\ \\mathrm{cm^2}\\]</div></li><li><div class=\"facit-matte\">\\[2\\,400-314\\approx2\\,086\\ \\mathrm{cm^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2 090 cm².</p></div>",
+    "familj": "Arbetslivsuppgifter med ritningar",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Rektangelns area minus cirkelns area.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2085.840734641021,
+    "tolerans": 1,
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "4.729",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "jämföra areor på rutnät",
+    "t": "<p>Figurerna A–D är ritade på ett rutnät där varje ruta är 1 cm².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"200\" viewBox=\"0 0 420 200\" role=\"img\" aria-label=\"Fyra figurer på rutnät: rektangel A, triangel B, smal rektangel C och L-form D.\"><title>Fyra figurer på rutnät: rektangel A, triangel B, smal rektangel C och L-form D.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20.0\" y1=\"40.0\" x2=\"20.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"40.0\" y1=\"40.0\" x2=\"40.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"60.0\" y1=\"40.0\" x2=\"60.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"40.0\" x2=\"80.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"100.0\" y1=\"40.0\" x2=\"100.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"120.0\" y1=\"40.0\" x2=\"120.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"40.0\" x2=\"140.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"160.0\" y1=\"40.0\" x2=\"160.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"40.0\" x2=\"180.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"40.0\" x2=\"200.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"220.0\" y1=\"40.0\" x2=\"220.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"240.0\" y1=\"40.0\" x2=\"240.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"260.0\" y1=\"40.0\" x2=\"260.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"280.0\" y1=\"40.0\" x2=\"280.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"300.0\" y1=\"40.0\" x2=\"300.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"320.0\" y1=\"40.0\" x2=\"320.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"340.0\" y1=\"40.0\" x2=\"340.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"360.0\" y1=\"40.0\" x2=\"360.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"380.0\" y1=\"40.0\" x2=\"380.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"400.0\" y1=\"40.0\" x2=\"400.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"40.0\" x2=\"400.0\" y2=\"40.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"60.0\" x2=\"400.0\" y2=\"60.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"80.0\" x2=\"400.0\" y2=\"80.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"100.0\" x2=\"400.0\" y2=\"100.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"120.0\" x2=\"400.0\" y2=\"120.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"140.0\" x2=\"400.0\" y2=\"140.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"160.0\" x2=\"400.0\" y2=\"160.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"180.0\" x2=\"400.0\" y2=\"180.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><polygon points=\"40.0,60.0 120.0,60.0 120.0,120.0 40.0,120.0\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"71.7\" y=\"22.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"80.0\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><polygon points=\"140.0,160.0 240.0,160.0 180.0,60.0\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"171.7\" y=\"22.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"180.0\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><polygon points=\"260.0,60.0 300.0,60.0 300.0,160.0 260.0,160.0\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"271.6\" y=\"22.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"280.0\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><polygon points=\"320.0,160.0 380.0,160.0 380.0,100.0 340.0,100.0 340.0,60.0 320.0,60.0\" fill=\"#e7f1fb\" stroke=\"#2f6fca\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"341.6\" y=\"22.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"350.0\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text></svg></span><p>Vilken figur har störst area?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A: \\(4\\cdot3=12\\). B: \\(\\frac{5\\cdot5}{2}=12{,}5\\). C: \\(2\\cdot5=10\\). D: \\(3\\cdot3+1\\cdot2=11\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "familj": "Omkrets och area av månghörningar",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna rutor. För triangeln: bas · höjd / 2.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "B",
+        "ratt": true,
+        "kommentar": "12,5 cm²."
+      },
+      {
+        "txt": "A",
+        "ratt": false,
+        "kommentar": "A har 12 cm²."
+      },
+      {
+        "txt": "C",
+        "ratt": false,
+        "kommentar": "C har 10 cm²."
+      },
+      {
+        "txt": "D",
+        "ratt": false,
+        "kommentar": "D har 11 cm²."
+      }
+    ]
+  },
+  {
+    "id": "4.730",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "kvartscirkel",
+    "t": "<p>En gräsmatta har formen av en kvartscirkel med radien 8 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"240\" viewBox=\"0 0 300 240\" role=\"img\" aria-label=\"Kvartscirkel med radien 8 m.\"><title>Kvartscirkel med radien 8 m.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M90.0 170.0 L216.0 170.0 C216.0 100.4 159.6 44.0 90.0 44.0 Z\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"90.0\" y1=\"186.0\" x2=\"216.0\" y2=\"186.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"90.0\" y1=\"181.0\" x2=\"90.0\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"216.0\" y1=\"181.0\" x2=\"216.0\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"136.8\" y=\"192.0\" width=\"32.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"153.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">8 m</text></svg></span><p>Hur stor är gräsmattans area? (Svara i m².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=\\frac{\\pi\\cdot8^2}{4}\\approx50{,}3\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 50 m².</p></div>",
+    "familj": "Cirkelns omkrets och area",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En fjärdedel av en hel cirkel.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 50.26548245743669,
+    "tolerans": 0.1,
+    "svarEnhet": "m²"
+  },
+  {
+    "id": "4.731",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "fotbollsplan",
+    "t": "<p>En fotbollsplan är 105 m lång och 68 m bred.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"316\" height=\"222\" viewBox=\"0 0 316 222\" role=\"img\" aria-label=\"Fotbollsplan 105 m lång och 68 m bred.\"><title>Fotbollsplan 105 m lång och 68 m bred.</title><rect x=\"1\" y=\"1\" width=\"314\" height=\"220\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,30.0 276.2,30.0 276.2,170.0 60.0,170.0\" fill=\"#d9efd2\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"186.0\" x2=\"276.2\" y2=\"186.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"181.0\" x2=\"60.0\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"276.2\" y1=\"181.0\" x2=\"276.2\" y2=\"191.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"143.8\" y=\"192.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"168.1\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">105 m</text><line x1=\"42.0\" y1=\"30.0\" x2=\"42.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"30.0\" x2=\"37.0\" y2=\"30.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"47.0\" y1=\"170.0\" x2=\"37.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"7.8\" y=\"92.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"28.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">68 m</text><line x1=\"168.1\" y1=\"30.0\" x2=\"168.1\" y2=\"170.0\" stroke=\"#fff\" stroke-width=\"2\"/><circle cx=\"168.1\" cy=\"100.0\" r=\"18.8\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\"/></svg></span><p>Hur stor är planens area? (Svara i m².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=105\\cdot68=7\\,140\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 140 m².</p></div>",
+    "familj": "Arbetslivsuppgifter med ritningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Längd · bredd.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 7140,
+    "tolerans": 0,
+    "svarEnhet": "m²"
+  },
+  {
+    "id": "4.732",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "area i blandade enheter",
+    "t": "<p>En altan är 3 m lång och 250 cm bred. Hur stor är altanens area? (Svara i m².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[250\\ \\mathrm{cm}=2{,}5\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[A=3\\cdot2{,}5=7{,}5\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,5 m².</p></div>",
+    "familj": "Omkrets och area av månghörningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Gör om till samma enhet först.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 7.5,
+    "tolerans": 0.01,
+    "svarEnhet": "m²"
+  },
+  {
+    "id": "4.733",
+    "kap": 4,
+    "omr": "omkrets_area",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "fönster med halvcirkel",
+    "t": "<p>Ett fönster består av en rektangel som är 80 cm bred och 100 cm hög, med en halvcirkel ovanpå. Halvcirkelns diameter är 80 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"290\" height=\"270\" viewBox=\"0 0 290 270\" role=\"img\" aria-label=\"Fönster: rektangel 80 cm bred och 100 cm hög med en halvcirkel ovanpå.\"><title>Fönster: rektangel 80 cm bred och 100 cm hög med en halvcirkel ovanpå.</title><rect x=\"1\" y=\"1\" width=\"288\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"90.0,220.0 210.0,220.0 210.0,70.0 90.0,70.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M90.0 70.0 C90.0 36.9 116.9 10.0 150.0 10.0 C183.1 10.0 210.0 36.9 210.0 70.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"90.0\" y1=\"236.0\" x2=\"210.0\" y2=\"236.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"90.0\" y1=\"231.0\" x2=\"90.0\" y2=\"241.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"231.0\" x2=\"210.0\" y2=\"241.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"125.7\" y=\"242.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"150.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">80 cm</text><line x1=\"72.0\" y1=\"70.0\" x2=\"72.0\" y2=\"220.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"77.0\" y1=\"70.0\" x2=\"67.0\" y2=\"70.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"77.0\" y1=\"220.0\" x2=\"67.0\" y2=\"220.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"29.6\" y=\"137.0\" width=\"56.7\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"58.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">100 cm</text></svg></span><p>Hur lång är fönstrets omkrets? (Svara i cm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Raka delar: \\(100+80+100=280\\) cm.</p></li><li><div class=\"facit-matte\">\\[\\text{halvcirkel: }\\frac{\\pi\\cdot80}{2}\\approx125{,}7\\ \\mathrm{cm}\\]</div></li><li><div class=\"facit-matte\">\\[O\\approx280+125{,}7\\approx406\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 406 cm.</p></div>",
+    "familj": "Arbetslivsuppgifter med ritningar",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Övre sidan av rektangeln ingår inte i omkretsen. Räkna i stället med halva cirkelns omkrets.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 405.66370614359175,
+    "tolerans": 1,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "1.1500",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "kvadratiska prickfigurer",
+    "t": "<p>Figurerna är byggda av prickar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"246\" height=\"185\" viewBox=\"0 0 246 185\" role=\"img\" aria-label=\"Tre figurer av prickar som bildar kvadrater: 1, 4 och 9 prickar.\"><title>Tre figurer av prickar som bildar kvadrater: 1, 4 och 9 prickar.</title><rect x=\"1\" y=\"1\" width=\"244\" height=\"183\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"38.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"38.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 1</text><circle cx=\"94.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"94.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"110.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"110.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"102.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 2</text><circle cx=\"166.0\" cy=\"100.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"166.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"166.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"182.0\" cy=\"100.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"182.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"182.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"198.0\" cy=\"100.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"198.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"198.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"182.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 3</text></svg></span><p>Hur många prickar har figur 4? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Figur n är en kvadrat med n prickar per sida.</p></li><li><div class=\"facit-matte\">\\[4\\cdot4=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 prickar.</p></div>",
+    "familj": "Figurmönster i bilder",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många prickar har varje sida?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1501",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "hus av tändstickor",
+    "t": "<p>Husen byggs av tändstickor. Hus som står bredvid varandra delar vägg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"349\" height=\"175\" viewBox=\"0 0 349 175\" role=\"img\" aria-label=\"Tre figurer av tändstickshus i rad med gemensamma väggar: 1, 2 och 3 hus med 5, 9 och 13 stickor.\"><title>Tre figurer av tändstickshus i rad med gemensamma väggar: 1, 2 och 3 hus med 5, 9 och 13 stickor.</title><rect x=\"1\" y=\"1\" width=\"347\" height=\"173\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"25.0\" y1=\"130.0\" x2=\"59.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"25.0\" y1=\"96.0\" x2=\"42.0\" y2=\"72.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"42.0\" y1=\"72.0\" x2=\"59.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"25.0\" y1=\"130.0\" x2=\"25.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"59.0\" y1=\"130.0\" x2=\"59.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><text x=\"42.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 1</text><line x1=\"99.0\" y1=\"130.0\" x2=\"133.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"99.0\" y1=\"96.0\" x2=\"116.0\" y2=\"72.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"116.0\" y1=\"72.0\" x2=\"133.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"133.0\" y1=\"130.0\" x2=\"167.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"133.0\" y1=\"96.0\" x2=\"150.0\" y2=\"72.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"150.0\" y1=\"72.0\" x2=\"167.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"99.0\" y1=\"130.0\" x2=\"99.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"133.0\" y1=\"130.0\" x2=\"133.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"167.0\" y1=\"130.0\" x2=\"167.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><text x=\"133.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 2</text><line x1=\"207.0\" y1=\"130.0\" x2=\"241.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"207.0\" y1=\"96.0\" x2=\"224.0\" y2=\"72.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"224.0\" y1=\"72.0\" x2=\"241.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"241.0\" y1=\"130.0\" x2=\"275.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"241.0\" y1=\"96.0\" x2=\"258.0\" y2=\"72.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"258.0\" y1=\"72.0\" x2=\"275.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"275.0\" y1=\"130.0\" x2=\"309.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"275.0\" y1=\"96.0\" x2=\"292.0\" y2=\"72.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"292.0\" y1=\"72.0\" x2=\"309.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"207.0\" y1=\"130.0\" x2=\"207.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"241.0\" y1=\"130.0\" x2=\"241.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"275.0\" y1=\"130.0\" x2=\"275.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"309.0\" y1=\"130.0\" x2=\"309.0\" y2=\"96.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><text x=\"258.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 3</text></svg></span><p>Hur många tändstickor behövs till figur 4? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Räkna i figurerna: 5, 9 och 13 stickor. Varje nytt hus kräver 4 stickor, eftersom väggen delas.</p></li><li><div class=\"facit-matte\">\\[13+4=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17 stickor.</p></div>",
+    "familj": "Figurmönster i bilder",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna stickorna i varje figur. Hur många tillkommer för varje nytt hus?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1502",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "mönster i tabell",
+    "t": "<p>Tabellen visar ett mönster.</p><table class=\"data\"><tbody><tr><th>Figur</th><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><th>Antal</th><td>2</td><td>7</td><td>12</td><td>17</td></tr></tbody></table><p>Vilket antal har figur 6? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Antalet ökar med 5 för varje figur.</p></li><li><div class=\"facit-matte\">\\[17+5+5=27\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 27.</p></div>",
+    "familj": "Upptäcka och beskriva mönster",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur mycket ökar antalet för varje figur?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 27,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1503",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "välj regel för talföljd",
+    "t": "<p>Talföljden 6, 11, 16, 21, … fortsätter på samma sätt. Vilket uttryck ger talet på plats n?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talen ökar med 5, så uttrycket börjar med 5n. För n = 1 ska det bli 6, alltså 5n + 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5n + 1</p></div>",
+    "familj": "Upptäcka och uttrycka generella samband",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Pröva n = 1 och n = 2 i varje uttryck.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "5n + 1",
+        "ratt": true
+      },
+      {
+        "txt": "n + 5",
+        "ratt": false,
+        "kommentar": "n = 2 ger 7, inte 11."
+      },
+      {
+        "txt": "6n",
+        "ratt": false,
+        "kommentar": "n = 2 ger 12, inte 11."
+      },
+      {
+        "txt": "5n + 6",
+        "ratt": false,
+        "kommentar": "n = 1 ger 11, inte 6."
+      }
+    ]
+  },
+  {
+    "id": "1.1504",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "tredubblingsföljd",
+    "t": "<p>Talföljden 1, 3, 9, 27, … fortsätter på samma sätt. Vilket är nästa tal? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje tal är tre gånger så stort som det förra.</p></li><li><div class=\"facit-matte\">\\[27\\cdot3=81\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 81.</p></div>",
+    "familj": "Upptäcka och beskriva mönster",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Ökar talen med lika mycket, eller multipliceras de med samma tal?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 81,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1505",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "saknat tal i följd",
+    "t": "<p>Vilket tal saknas i talföljden 3, 7, __, 15, 19? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talen ökar med 4.</p></li><li><div class=\"facit-matte\">\\[7+4=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11.</p></div>",
+    "familj": "Upptäcka och beskriva mönster",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur mycket ökar talen?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1506",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "triangeltal av prickar",
+    "t": "<p>Prickarna bildar trianglar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"350\" height=\"185\" viewBox=\"0 0 350 185\" role=\"img\" aria-label=\"Fyra triangulära figurer av prickar: 1, 3, 6 och 10 prickar.\"><title>Fyra triangulära figurer av prickar: 1, 3, 6 och 10 prickar.</title><rect x=\"1\" y=\"1\" width=\"348\" height=\"183\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"38.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"38.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 1</text><circle cx=\"102.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"94.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"110.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"102.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 2</text><circle cx=\"182.0\" cy=\"100.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"174.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"190.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"166.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"182.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"198.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"182.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 3</text><circle cx=\"278.0\" cy=\"84.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"270.0\" cy=\"100.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"286.0\" cy=\"100.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"262.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"278.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"294.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"254.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"270.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"286.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"302.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"278.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 4</text></svg></span><p>Hur många prickar har figur 5? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje figur får en ny nedersta rad med en prick mer än förra raden.</p></li><li><div class=\"facit-matte\">\\[10+5=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 prickar.</p></div>",
+    "familj": "Figurmönster i bilder",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många prickar har den nya raden i figur 5?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1507",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "bord på rad",
+    "t": "<p>Kvadratiska bord ställs i en rad. Figuren visar hur många som får plats.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"379\" height=\"155\" viewBox=\"0 0 379 155\" role=\"img\" aria-label=\"Ett, två och tre kvadratiska bord i rad med 4, 6 och 8 stolar.\"><title>Ett, två och tre kvadratiska bord i rad med 4, 6 och 8 stolar.</title><rect x=\"1\" y=\"1\" width=\"377\" height=\"153\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"25\" y=\"60\" width=\"34\" height=\"34\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"42.0\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"42.0\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"13\" cy=\"77\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"71\" cy=\"77\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><text x=\"42.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1 bord</text><rect x=\"109\" y=\"60\" width=\"34\" height=\"34\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><rect x=\"143\" y=\"60\" width=\"34\" height=\"34\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"126.0\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"126.0\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"160.0\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"160.0\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"97\" cy=\"77\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"189\" cy=\"77\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><text x=\"143.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2 bord</text><rect x=\"227\" y=\"60\" width=\"34\" height=\"34\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><rect x=\"261\" y=\"60\" width=\"34\" height=\"34\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><rect x=\"295\" y=\"60\" width=\"34\" height=\"34\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><circle cx=\"244.0\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"244.0\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"278.0\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"278.0\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"312.0\" cy=\"48\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"312.0\" cy=\"106\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"215\" cy=\"77\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><circle cx=\"341\" cy=\"77\" r=\"7\" fill=\"#fbe3d6\" stroke=\"#c2410c\"/><text x=\"278.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3 bord</text></svg></span><p>Hur många personer får plats vid 10 bord i rad? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje bord har en plats ovanför och en nedanför, och dessutom finns en plats på var kortsida.</p></li><li><div class=\"facit-matte\">\\[2\\cdot10+2=22\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 22 personer.</p></div>",
+    "familj": "Upptäcka och uttrycka generella samband",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna platserna längs långsidorna och vid kortsidorna var för sig.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 22,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1508",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vilken figur har 50",
+    "t": "<p>En gång läggs med plattor. Figur n har \\(4n+2\\) plattor. Vilken figur har 50 plattor? (Svara med figurnumret.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4n+2=50\\]</div></li><li><div class=\"facit-matte\">\\[4n=48\\]</div></li><li><div class=\"facit-matte\">\\[n=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Figur 12.</p></div>",
+    "familj": "Upptäcka och uttrycka generella samband",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Ställ upp en ekvation.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1509",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "triangelrad långt fram",
+    "t": "<p>Trianglar läggs i en rad av tändstickor. Trianglar som ligger bredvid varandra delar en sticka.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"298\" height=\"175\" viewBox=\"0 0 298 175\" role=\"img\" aria-label=\"Tre figurer av trianglar i rad: 1, 2 och 3 trianglar med 3, 5 och 7 stickor.\"><title>Tre figurer av trianglar i rad: 1, 2 och 3 trianglar med 3, 5 och 7 stickor.</title><rect x=\"1\" y=\"1\" width=\"296\" height=\"173\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"25.0\" y1=\"130.0\" x2=\"59.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"59.0\" y1=\"130.0\" x2=\"42.0\" y2=\"100.4\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"42.0\" y1=\"100.4\" x2=\"25.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><text x=\"42.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 1</text><line x1=\"99.0\" y1=\"130.0\" x2=\"133.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"133.0\" y1=\"130.0\" x2=\"116.0\" y2=\"100.4\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"116.0\" y1=\"100.4\" x2=\"99.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"116.0\" y1=\"100.4\" x2=\"150.0\" y2=\"100.4\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"150.0\" y1=\"100.4\" x2=\"133.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"133.0\" y1=\"130.0\" x2=\"116.0\" y2=\"100.4\" stroke=\"#c2410c\" stroke-width=\"4\"/><text x=\"124.5\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 2</text><line x1=\"190.0\" y1=\"130.0\" x2=\"224.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"224.0\" y1=\"130.0\" x2=\"207.0\" y2=\"100.4\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"207.0\" y1=\"100.4\" x2=\"190.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"207.0\" y1=\"100.4\" x2=\"241.0\" y2=\"100.4\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"241.0\" y1=\"100.4\" x2=\"224.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"224.0\" y1=\"130.0\" x2=\"207.0\" y2=\"100.4\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"224.0\" y1=\"130.0\" x2=\"258.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"258.0\" y1=\"130.0\" x2=\"241.0\" y2=\"100.4\" stroke=\"#c2410c\" stroke-width=\"4\"/><line x1=\"241.0\" y1=\"100.4\" x2=\"224.0\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"4\"/><text x=\"224.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 3</text></svg></span><p>Figur n har n trianglar. Hur många stickor behövs till figur 25? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Figurerna har 3, 5 och 7 stickor. Den första triangeln kräver 3 stickor och varje ny triangel 2 till.</p></li><li><div class=\"facit-matte\">\\[3+24\\cdot2=51\\]</div></li><li><p>Samma sak med uttrycket \\(2n+1\\): \\(2\\cdot25+1=51\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 51 stickor.</p></div>",
+    "familj": "Upptäcka och uttrycka generella samband",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många stickor tillkommer för varje ny triangel? Hur många nya trianglar finns det i figur 25 jämfört med figur 1?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 51,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1510",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "staket med stolpar",
+    "t": "<p>Ett staket byggs i sektioner. Mellan två stolpar sitter två brädor.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"270\" height=\"185\" viewBox=\"0 0 270 185\" role=\"img\" aria-label=\"Staket med 4 sektioner och 5 stolpar.\"><title>Staket med 4 sektioner och 5 stolpar.</title><rect x=\"1\" y=\"1\" width=\"268\" height=\"183\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"70\" width=\"50\" height=\"10\" fill=\"#d4e4f6\" stroke=\"#172b3a\"/><rect x=\"30\" y=\"100\" width=\"50\" height=\"10\" fill=\"#d4e4f6\" stroke=\"#172b3a\"/><rect x=\"80\" y=\"70\" width=\"50\" height=\"10\" fill=\"#d4e4f6\" stroke=\"#172b3a\"/><rect x=\"80\" y=\"100\" width=\"50\" height=\"10\" fill=\"#d4e4f6\" stroke=\"#172b3a\"/><rect x=\"130\" y=\"70\" width=\"50\" height=\"10\" fill=\"#d4e4f6\" stroke=\"#172b3a\"/><rect x=\"130\" y=\"100\" width=\"50\" height=\"10\" fill=\"#d4e4f6\" stroke=\"#172b3a\"/><rect x=\"180\" y=\"70\" width=\"50\" height=\"10\" fill=\"#d4e4f6\" stroke=\"#172b3a\"/><rect x=\"180\" y=\"100\" width=\"50\" height=\"10\" fill=\"#d4e4f6\" stroke=\"#172b3a\"/><rect x=\"25\" y=\"50\" width=\"10\" height=\"80\" fill=\"#8a6d3b\" stroke=\"#172b3a\"/><rect x=\"75\" y=\"50\" width=\"10\" height=\"80\" fill=\"#8a6d3b\" stroke=\"#172b3a\"/><rect x=\"125\" y=\"50\" width=\"10\" height=\"80\" fill=\"#8a6d3b\" stroke=\"#172b3a\"/><rect x=\"175\" y=\"50\" width=\"10\" height=\"80\" fill=\"#8a6d3b\" stroke=\"#172b3a\"/><rect x=\"225\" y=\"50\" width=\"10\" height=\"80\" fill=\"#8a6d3b\" stroke=\"#172b3a\"/><line x1=\"30.0\" y1=\"146.0\" x2=\"230.0\" y2=\"146.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"30.0\" y1=\"141.0\" x2=\"30.0\" y2=\"151.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"230.0\" y1=\"141.0\" x2=\"230.0\" y2=\"151.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"81.3\" y=\"152.0\" width=\"97.3\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"130.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4 sektioner</text></svg></span><p>Hur många stolpar behövs för ett staket med 9 sektioner? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det behövs en stolpe mer än antalet sektioner.</p></li><li><div class=\"facit-matte\">\\[9+1=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 stolpar.</p></div>",
+    "familj": "Upptäcka och beskriva mönster",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna stolpar och sektioner i figuren.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1511",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "pärlband med upprepad färg",
+    "t": "<p>Ett pärlband följer mönstret röd, blå, blå, röd, blå, blå, …</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"370\" height=\"115\" viewBox=\"0 0 370 115\" role=\"img\" aria-label=\"Pärlband med pärlorna röd, blå, blå upprepat tre gånger.\"><title>Pärlband med pärlorna röd, blå, blå upprepat tre gånger.</title><rect x=\"1\" y=\"1\" width=\"368\" height=\"113\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20.0\" y1=\"60.0\" x2=\"310.0\" y2=\"60.0\" stroke=\"#5b6773\" stroke-width=\"2\"/><circle cx=\"45\" cy=\"60\" r=\"12\" fill=\"#d64545\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"45.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><circle cx=\"75\" cy=\"60\" r=\"12\" fill=\"#3b6fd1\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"75.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><circle cx=\"105\" cy=\"60\" r=\"12\" fill=\"#3b6fd1\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"105.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><circle cx=\"135\" cy=\"60\" r=\"12\" fill=\"#d64545\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"135.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><circle cx=\"165\" cy=\"60\" r=\"12\" fill=\"#3b6fd1\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"165.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><circle cx=\"195\" cy=\"60\" r=\"12\" fill=\"#3b6fd1\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"195.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><circle cx=\"225\" cy=\"60\" r=\"12\" fill=\"#d64545\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"225.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><circle cx=\"255\" cy=\"60\" r=\"12\" fill=\"#3b6fd1\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"255.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><circle cx=\"285\" cy=\"60\" r=\"12\" fill=\"#3b6fd1\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"285.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">9</text><text x=\"330.0\" y=\"66.0\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"start\" fill=\"#5b6773\">…</text></svg></span><p>Vilken färg har pärla nummer 50? (Svara med en färg.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mönstret upprepas var tredje pärla. 50 = 3 · 16 + 2, så pärla 50 har samma färg som pärla 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Blå.</p></div>",
+    "familj": "Upptäcka och beskriva mönster",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många pärlor har mönstret innan det börjar om?</p>",
+    "svarstyp": "kort_text",
+    "svarFormat": "kort_text",
+    "rättSvar": "blå",
+    "tolerans": null
+  },
+  {
+    "id": "1.1512",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "tolka regel",
+    "t": "<p>Antalet stickor i figur n ges av \\(7n+3\\). Hur många stickor tillkommer för varje ny figur? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talet framför n anger hur mycket antalet ökar per figur.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 stickor.</p></div>",
+    "familj": "Upptäcka och uttrycka generella samband",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Jämför \\(7\\cdot2+3\\) med \\(7\\cdot1+3\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1513",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "veckodag långt fram",
+    "t": "<p>I dag är det måndag. Vilken veckodag är det om 100 dagar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Veckodagarna upprepas var 7:e dag. \\(100=7\\cdot14+2\\), så det blir samma dag som om 2 dagar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Onsdag.</p></div>",
+    "familj": "Upptäcka och beskriva mönster",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur många hela veckor ryms i 100 dagar, och hur många dagar blir över?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Onsdag",
+        "ratt": true
+      },
+      {
+        "txt": "Måndag",
+        "ratt": false,
+        "kommentar": "100 är inte delbart med 7."
+      },
+      {
+        "txt": "Tisdag",
+        "ratt": false,
+        "kommentar": "Det blir 2 dagar över, inte 1."
+      },
+      {
+        "txt": "Torsdag",
+        "ratt": false,
+        "kommentar": "Räkna resten igen: 100 − 98 = 2."
+      }
+    ]
+  },
+  {
+    "id": "1.1514",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "prickar i rektangel",
+    "t": "<p>Prickarna bildar rektanglar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"294\" height=\"185\" viewBox=\"0 0 294 185\" role=\"img\" aria-label=\"Tre rektanglar av prickar: 2, 6 och 12 prickar.\"><title>Tre rektanglar av prickar: 2, 6 och 12 prickar.</title><rect x=\"1\" y=\"1\" width=\"292\" height=\"183\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"38.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"54.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"46.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 1</text><circle cx=\"110.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"110.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"126.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"126.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"142.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"142.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"126.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 2</text><circle cx=\"198.0\" cy=\"100.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"198.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"198.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"214.0\" cy=\"100.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"214.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"214.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"230.0\" cy=\"100.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"230.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"230.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"246.0\" cy=\"100.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"246.0\" cy=\"116.0\" r=\"5.5\" fill=\"#2f6fca\"/><circle cx=\"246.0\" cy=\"132.0\" r=\"5.5\" fill=\"#2f6fca\"/><text x=\"222.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">Figur 3</text></svg></span><p>Vilket uttryck ger antalet prickar i figur n?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Figur n har n rader med n + 1 prickar.</p></li><li><div class=\"facit-matte\">\\[n(n+1)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(n(n+1)\\)</p></div>",
+    "familj": "Figurmönster i bilder",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur många rader och hur många prickar per rad har figur n?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "n(n + 1)",
+        "ratt": true
+      },
+      {
+        "txt": "2n",
+        "ratt": false,
+        "kommentar": "Figur 2 skulle då ha 4 prickar, inte 6."
+      },
+      {
+        "txt": "n² + 1",
+        "ratt": false,
+        "kommentar": "Figur 1 skulle då ha 2, men figur 2 skulle ha 5."
+      },
+      {
+        "txt": "4n − 2",
+        "ratt": false,
+        "kommentar": "Figur 3 skulle då ha 10, inte 12."
+      }
+    ]
+  },
+  {
+    "id": "1.1515",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "ram av prickar",
+    "t": "<p>Prickarna i figuren bildar en kvadratisk ram med n prickar längs varje sida.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"170\" height=\"185\" viewBox=\"0 0 170 185\" role=\"img\" aria-label=\"Kvadratisk ram av prickar med 5 prickar per sida, 16 prickar totalt.\"><title>Kvadratisk ram av prickar med 5 prickar per sida, 16 prickar totalt.</title><rect x=\"1\" y=\"1\" width=\"168\" height=\"183\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"30\" cy=\"25\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"30\" cy=\"47\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"30\" cy=\"69\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"30\" cy=\"91\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"30\" cy=\"113\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"52\" cy=\"25\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"52\" cy=\"47\" r=\"6\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"52\" cy=\"69\" r=\"6\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"52\" cy=\"91\" r=\"6\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"52\" cy=\"113\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"74\" cy=\"25\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"74\" cy=\"47\" r=\"6\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"74\" cy=\"69\" r=\"6\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"74\" cy=\"91\" r=\"6\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"74\" cy=\"113\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"96\" cy=\"25\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"96\" cy=\"47\" r=\"6\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"96\" cy=\"69\" r=\"6\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"96\" cy=\"91\" r=\"6\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"96\" cy=\"113\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"118\" cy=\"25\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"118\" cy=\"47\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"118\" cy=\"69\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"118\" cy=\"91\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><circle cx=\"118\" cy=\"113\" r=\"6\" fill=\"#2f6fca\" stroke=\"#2f6fca\" stroke-width=\"1.5\"/><line x1=\"30.0\" y1=\"129.0\" x2=\"118.0\" y2=\"129.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"30.0\" y1=\"124.0\" x2=\"30.0\" y2=\"134.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"118.0\" y1=\"124.0\" x2=\"118.0\" y2=\"134.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"33.5\" y=\"135.0\" width=\"81.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"74.0\" y=\"148.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">n prickar</text></svg></span><p>Vilket uttryck ger antalet prickar i ramen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Fyra sidor med n prickar ger 4n, men hörnprickarna räknas då två gånger. Därför 4n − 4.</p></li><li><div class=\"facit-matte\">\\[n=5:\\ 4\\cdot5-4=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4n-4\\)</p></div>",
+    "familj": "Upptäcka och uttrycka generella samband",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna prickarna i figuren och pröva uttrycken med n = 5.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "4n − 4",
+        "ratt": true
+      },
+      {
+        "txt": "4n",
+        "ratt": false,
+        "kommentar": "Hörnen räknas då två gånger."
+      },
+      {
+        "txt": "n²",
+        "ratt": false,
+        "kommentar": "Det är alla prickar, även de inne i kvadraten."
+      },
+      {
+        "txt": "4n + 4",
+        "ratt": false,
+        "kommentar": "Det blir för många."
+      }
+    ]
+  },
+  {
+    "id": "1.1516",
+    "kap": 1,
+    "omr": "monster_samband",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "minskande följd",
+    "t": "<p>Ett ljus är 30 cm långt och blir 1,5 cm kortare varje timme. Hur långt är ljuset efter 8 timmar? (Svara i cm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[30-8\\cdot1{,}5=30-12=18\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18 cm.</p></div>",
+    "familj": "Upptäcka och beskriva mönster",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur mycket kortare blir ljuset på 8 timmar?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": 0,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "7.700",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "avstånd med skalstock",
+    "t": "<p>På kartan är avståndet mellan A och B 5 cm. Skalstocken visar att 2 cm motsvarar 1 km.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"275\" viewBox=\"0 0 440 275\" role=\"img\" aria-label=\"Karta med orterna A och B och en skalstock där 2 cm motsvarar 1 km. Avståndet mellan A och B är 5 cm på kartan.\"><title>Karta med orterna A och B och en skalstock där 2 cm motsvarar 1 km. Avståndet mellan A och B är 5 cm på kartan.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"273\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"20\" width=\"400\" height=\"200\" rx=\"8\" fill=\"#eef5e9\" stroke=\"#9fb89a\"/><path d=\"M40 180 C120 150 160 190 240 160 S360 120 400 140\" fill=\"none\" stroke=\"#7aa7c2\" stroke-width=\"6\" stroke-linecap=\"round\"/><ellipse cx=\"320\" cy=\"70\" rx=\"45\" ry=\"22\" fill=\"#cfe3f0\" stroke=\"#7aa7c2\"/><line x1=\"70.0\" y1=\"90.0\" x2=\"215.1\" y2=\"128.2\" stroke=\"#8a6d3b\" stroke-width=\"3\"/><circle cx=\"70.0\" cy=\"90.0\" r=\"6\" fill=\"#c2410c\"/><rect x=\"61.9\" y=\"65.0\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"70.0\" y=\"78.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"215.1\" cy=\"128.2\" r=\"6\" fill=\"#c2410c\"/><rect x=\"207.0\" y=\"103.2\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"215.1\" y=\"116.2\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><rect x=\"40\" y=\"239\" width=\"60\" height=\"8\" fill=\"#172b3a\"/><text x=\"40.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><text x=\"100.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">1 km</text><text x=\"160.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\" font-style=\"italic\">skalstock</text></svg></span><p>Hur långt är det mellan A och B i verkligheten? (Svara i km.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>2 cm motsvarar 1 km, så 1 cm motsvarar 0,5 km.</p></li><li><div class=\"facit-matte\">\\[5\\cdot0{,}5=2{,}5\\ \\mathrm{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5 km.</p></div>",
+    "familj": "Skala på kartor och ritningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur mycket motsvarar 1 cm på kartan?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2.5,
+    "tolerans": 0.01,
+    "svarEnhet": "km"
+  },
+  {
+    "id": "7.701",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "förstoring av en insekt",
+    "t": "<p>I en bok är en bild av en myra förstorad i skala 5:1. På bilden är myran 4 cm lång.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"220\" height=\"175\" viewBox=\"0 0 220 175\" role=\"img\" aria-label=\"En förstorad myra på 4 cm bredvid en linjal.\"><title>En förstorad myra på 4 cm bredvid en linjal.</title><rect x=\"1\" y=\"1\" width=\"218\" height=\"173\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"30\" width=\"160\" height=\"50\" rx=\"4\" fill=\"#fff8e1\" stroke=\"#c9a227\"/><line x1=\"50.0\" y1=\"30.0\" x2=\"50.0\" y2=\"44.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><text x=\"50.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"53.0\" y1=\"30.0\" x2=\"53.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"56.0\" y1=\"30.0\" x2=\"56.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"59.0\" y1=\"30.0\" x2=\"59.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"62.0\" y1=\"30.0\" x2=\"62.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"65.0\" y1=\"30.0\" x2=\"65.0\" y2=\"39.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"68.0\" y1=\"30.0\" x2=\"68.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"71.0\" y1=\"30.0\" x2=\"71.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"74.0\" y1=\"30.0\" x2=\"74.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"77.0\" y1=\"30.0\" x2=\"77.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"80.0\" y1=\"30.0\" x2=\"80.0\" y2=\"44.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><text x=\"80.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"83.0\" y1=\"30.0\" x2=\"83.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"86.0\" y1=\"30.0\" x2=\"86.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"89.0\" y1=\"30.0\" x2=\"89.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"92.0\" y1=\"30.0\" x2=\"92.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"95.0\" y1=\"30.0\" x2=\"95.0\" y2=\"39.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"98.0\" y1=\"30.0\" x2=\"98.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"101.0\" y1=\"30.0\" x2=\"101.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"104.0\" y1=\"30.0\" x2=\"104.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"107.0\" y1=\"30.0\" x2=\"107.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"30.0\" x2=\"110.0\" y2=\"44.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><text x=\"110.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"113.0\" y1=\"30.0\" x2=\"113.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"116.0\" y1=\"30.0\" x2=\"116.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"119.0\" y1=\"30.0\" x2=\"119.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"122.0\" y1=\"30.0\" x2=\"122.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"125.0\" y1=\"30.0\" x2=\"125.0\" y2=\"39.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"128.0\" y1=\"30.0\" x2=\"128.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"131.0\" y1=\"30.0\" x2=\"131.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"134.0\" y1=\"30.0\" x2=\"134.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"137.0\" y1=\"30.0\" x2=\"137.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"30.0\" x2=\"140.0\" y2=\"44.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><text x=\"140.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"143.0\" y1=\"30.0\" x2=\"143.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"146.0\" y1=\"30.0\" x2=\"146.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"149.0\" y1=\"30.0\" x2=\"149.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"152.0\" y1=\"30.0\" x2=\"152.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"155.0\" y1=\"30.0\" x2=\"155.0\" y2=\"39.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"158.0\" y1=\"30.0\" x2=\"158.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"161.0\" y1=\"30.0\" x2=\"161.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"164.0\" y1=\"30.0\" x2=\"164.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"167.0\" y1=\"30.0\" x2=\"167.0\" y2=\"35.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"30.0\" x2=\"170.0\" y2=\"44.0\" stroke=\"#172b3a\" stroke-width=\"1\"/><text x=\"170.0\" y=\"58.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><ellipse cx=\"76\" cy=\"115\" rx=\"24\" ry=\"13\" fill=\"#3a2e2a\"/><ellipse cx=\"114\" cy=\"115\" rx=\"15\" ry=\"10\" fill=\"#3a2e2a\"/><ellipse cx=\"152\" cy=\"113\" rx=\"15\" ry=\"11\" fill=\"#3a2e2a\"/><line x1=\"50.0\" y1=\"146.0\" x2=\"170.0\" y2=\"146.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"50.0\" y1=\"141.0\" x2=\"50.0\" y2=\"151.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"170.0\" y1=\"141.0\" x2=\"170.0\" y2=\"151.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"89.8\" y=\"152.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"110.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4 cm</text></svg></span><p>Hur lång är myran i verkligheten? (Svara i mm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skala 5:1 betyder att bilden är 5 gånger större än verkligheten.</p></li><li><div class=\"facit-matte\">\\[\\frac{4\\ \\mathrm{cm}}{5}=0{,}8\\ \\mathrm{cm}=8\\ \\mathrm{mm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 mm.</p></div>",
+    "familj": "Skala på kartor och ritningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>I en förstoring är bilden större än verkligheten.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "svarEnhet": "mm"
+  },
+  {
+    "id": "7.702",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "likformiga trianglar",
+    "t": "<p>Trianglarna är likformiga.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"270\" viewBox=\"0 0 360 270\" role=\"img\" aria-label=\"Två likformiga rätvinkliga trianglar. Den lilla har sidorna 3, 4 och 5. Den stora har kateterna 6 och 8 och hypotenusan x.\"><title>Två likformiga rätvinkliga trianglar. Den lilla har sidorna 3, 4 och 5. Den stora har kateterna 6 och 8 och hypotenusan x.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40.0,220.0 106.0,220.0 40.0,132.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"40.0\" y1=\"234.0\" x2=\"106.0\" y2=\"234.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"40.0\" y1=\"229.0\" x2=\"40.0\" y2=\"239.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"106.0\" y1=\"229.0\" x2=\"106.0\" y2=\"239.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"64.9\" y=\"240.0\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"73.0\" y=\"253.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">3</text><line x1=\"26.0\" y1=\"132.0\" x2=\"26.0\" y2=\"220.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"31.0\" y1=\"132.0\" x2=\"21.0\" y2=\"132.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"31.0\" y1=\"220.0\" x2=\"21.0\" y2=\"220.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"3.9\" y=\"168.0\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"12.0\" y=\"181.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4</text><rect x=\"82.0\" y=\"155.0\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"86.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">5</text><polygon points=\"180.0,220.0 312.0,220.0 180.0,44.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"180.0\" y1=\"234.0\" x2=\"312.0\" y2=\"234.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"180.0\" y1=\"229.0\" x2=\"180.0\" y2=\"239.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"312.0\" y1=\"229.0\" x2=\"312.0\" y2=\"239.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"237.9\" y=\"240.0\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"246.0\" y=\"253.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">6</text><line x1=\"166.0\" y1=\"44.0\" x2=\"166.0\" y2=\"220.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"171.0\" y1=\"44.0\" x2=\"161.0\" y2=\"44.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"171.0\" y1=\"220.0\" x2=\"161.0\" y2=\"220.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"143.9\" y=\"124.0\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"152.0\" y=\"137.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">8</text><rect x=\"254.0\" y=\"111.0\" width=\"17.3\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"258.0\" y=\"126.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">x</text></svg></span><p>Hur lång är sidan x? (Svara med ett tal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den stora triangeln är dubbelt så stor: 6 = 2 · 3.</p></li><li><div class=\"facit-matte\">\\[x=2\\cdot5=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10.</p></div>",
+    "familj": "Likformighet och areaskala",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många gånger större är den stora triangeln?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0
+  },
+  {
+    "id": "7.703",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vad skalan betyder",
+    "t": "<p>En ritning är gjord i skala 1:50. Vad betyder det?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>1 cm på ritningen motsvarar 50 cm i verkligheten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 cm på ritningen är 50 cm i verkligheten.</p></div>",
+    "familj": "Skala på kartor och ritningar",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Det första talet gäller bilden, det andra verkligheten.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "1 cm på ritningen motsvarar 50 cm i verkligheten",
+        "ratt": true
+      },
+      {
+        "txt": "50 cm på ritningen motsvarar 1 cm i verkligheten",
+        "ratt": false,
+        "kommentar": "Det vore en förstoring."
+      },
+      {
+        "txt": "Ritningen är 50 cm lång",
+        "ratt": false,
+        "kommentar": "Skalan säger inget om ritningens storlek."
+      },
+      {
+        "txt": "1 m på ritningen motsvarar 50 m i verkligheten",
+        "ratt": false,
+        "kommentar": "Det stämmer också, men det vanliga svaret använder samma enhet: 1 cm mot 50 cm."
+      }
+    ]
+  },
+  {
+    "id": "7.704",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "areaskala vid förstoring",
+    "t": "<p>En kvadratisk bild med sidan 5 cm förstoras så att sidan blir 20 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"260\" height=\"185\" viewBox=\"0 0 260 185\" role=\"img\" aria-label=\"En liten kvadrat med sidan 5 cm och en stor med sidan 20 cm, där den stora är indelad i 16 små kvadrater.\"><title>En liten kvadrat med sidan 5 cm och en stor med sidan 20 cm, där den stora är indelad i 16 små kvadrater.</title><rect x=\"1\" y=\"1\" width=\"258\" height=\"183\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40.0,150.0 70.0,150.0 70.0,120.0 40.0,120.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"35.9\" y=\"158.0\" width=\"38.2\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"55.0\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">5 cm</text><polygon points=\"110.0,150.0 230.0,150.0 230.0,30.0 110.0,30.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"147.2\" y=\"158.0\" width=\"45.7\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"170.0\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">20 cm</text><line x1=\"140.0\" y1=\"30.0\" x2=\"140.0\" y2=\"150.0\" stroke=\"#9fb4c8\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"110.0\" y1=\"60.0\" x2=\"230.0\" y2=\"60.0\" stroke=\"#9fb4c8\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"170.0\" y1=\"30.0\" x2=\"170.0\" y2=\"150.0\" stroke=\"#9fb4c8\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"110.0\" y1=\"90.0\" x2=\"230.0\" y2=\"90.0\" stroke=\"#9fb4c8\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"200.0\" y1=\"30.0\" x2=\"200.0\" y2=\"150.0\" stroke=\"#9fb4c8\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"110.0\" y1=\"120.0\" x2=\"230.0\" y2=\"120.0\" stroke=\"#9fb4c8\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/></svg></span><p>Hur många gånger större blir arean? (Svara med ett tal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Längdskalan är \\(\\frac{20}{5}=4\\). Arean blir \\(4^2=16\\) gånger större, vilket figuren visar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 gånger.</p></div>",
+    "familj": "Likformighet och areaskala",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många små kvadrater får plats i den stora?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": 0
+  },
+  {
+    "id": "7.705",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "avstånd mellan städer",
+    "t": "<p>På en karta i skala 1:500 000 är det 12 cm mellan två städer. Hur långt är det i verkligheten? (Svara i km.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[12\\cdot500\\,000=6\\,000\\,000\\ \\mathrm{cm}\\]</div></li><li><div class=\"facit-matte\">\\[6\\,000\\,000\\ \\mathrm{cm}=60\\ \\mathrm{km}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60 km.</p></div>",
+    "familj": "Skala på kartor och ritningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna i cm och gör om till km: 1 km = 100 000 cm.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 0,
+    "svarEnhet": "km"
+  },
+  {
+    "id": "7.706",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "modelltåg",
+    "t": "<p>Ett modelltåg är byggt i skala 1:87. Modellens lok är 17 cm långt. Hur långt är det riktiga loket? (Svara i m.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[17\\cdot87=1\\,479\\ \\mathrm{cm}\\approx14{,}8\\ \\mathrm m\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14,8 m.</p></div>",
+    "familj": "Skala på kartor och ritningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Verkligheten är 87 gånger längre.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 14.79,
+    "tolerans": 0.05,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "7.707",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "bestäm skalan ur en dörr",
+    "t": "<p>På en ritning är en dörr 1,8 cm bred. I verkligheten är dörren 90 cm bred.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"200\" height=\"210\" viewBox=\"0 0 200 210\" role=\"img\" aria-label=\"Ritning av en dörr som är 1,8 cm bred.\"><title>Ritning av en dörr som är 1,8 cm bred.</title><rect x=\"1\" y=\"1\" width=\"198\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,40.0 120.0,40.0 120.0,160.0 60.0,160.0\" fill=\"#f3ead8\" stroke=\"#8a6d3b\" stroke-width=\"2\" stroke-linejoin=\"round\"/><circle cx=\"110\" cy=\"100\" r=\"4\" fill=\"#8a6d3b\"/><line x1=\"60.0\" y1=\"146.0\" x2=\"120.0\" y2=\"146.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"151.0\" x2=\"60.0\" y2=\"141.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"120.0\" y1=\"151.0\" x2=\"120.0\" y2=\"141.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"61.6\" y=\"124.0\" width=\"56.7\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"90.0\" y=\"137.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,8 cm</text></svg></span><p>Vilken skala har ritningen? (Svara på formen 1:x.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{90}{1{,}8}=50\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1:50</p></div>",
+    "familj": "Skala på kartor och ritningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många gånger större är dörren i verkligheten?</p>",
+    "svarstyp": "kort_text",
+    "svarFormat": "skala",
+    "rättSvar": "1:50",
+    "tolerans": null
+  },
+  {
+    "id": "7.708",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "volymskala för modell",
+    "t": "<p>En modell av ett hus är byggd i skala 1:10. Hur många gånger större volym har det riktiga huset?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Längdskalan är 10. Volymen beror på tre längder: \\(10^3=1\\,000\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 000 gånger.</p></div>",
+    "familj": "Likformighet och areaskala",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Tänk på att volym är längd · bredd · höjd.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "1 000 gånger",
+        "ratt": true
+      },
+      {
+        "txt": "10 gånger",
+        "ratt": false,
+        "kommentar": "Det gäller längder."
+      },
+      {
+        "txt": "100 gånger",
+        "ratt": false,
+        "kommentar": "Det gäller areor."
+      },
+      {
+        "txt": "30 gånger",
+        "ratt": false,
+        "kommentar": "Skalan ska upphöjas, inte multipliceras med 3."
+      }
+    ]
+  },
+  {
+    "id": "7.709",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "förstorat foto",
+    "t": "<p>Ett foto som är 10 cm × 15 cm förstoras till 20 cm × 30 cm. Vilken skala har förstoringen jämfört med originalet?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla längder blir dubbelt så långa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2:1</p></div>",
+    "familj": "Skala på kartor och ritningar",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många gånger längre blir sidorna?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "2:1",
+        "ratt": true
+      },
+      {
+        "txt": "1:2",
+        "ratt": false,
+        "kommentar": "Det vore en förminskning."
+      },
+      {
+        "txt": "4:1",
+        "ratt": false,
+        "kommentar": "Arean blir 4 gånger större, men skalan gäller längder."
+      },
+      {
+        "txt": "10:20",
+        "ratt": false,
+        "kommentar": "Förenkla och sätt den nya bilden först: 2:1."
+      }
+    ]
+  },
+  {
+    "id": "7.710",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "likformiga rektanglar",
+    "t": "<p>De två rektanglarna är likformiga.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"190\" viewBox=\"0 0 400 190\" role=\"img\" aria-label=\"Två likformiga rektanglar. Den lilla är 8 cm gånger 5 cm. Den stora är 20 cm lång och x hög.\"><title>Två likformiga rektanglar. Den lilla är 8 cm gånger 5 cm. Den stora är 20 cm lång och x hög.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,140.0 132.0,140.0 132.0,95.0 60.0,95.0\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"60.0\" y1=\"154.0\" x2=\"132.0\" y2=\"154.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"149.0\" x2=\"60.0\" y2=\"159.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"132.0\" y1=\"149.0\" x2=\"132.0\" y2=\"159.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"75.8\" y=\"160.0\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"96.0\" y=\"173.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">8 cm</text><line x1=\"46.0\" y1=\"95.0\" x2=\"46.0\" y2=\"140.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"51.0\" y1=\"95.0\" x2=\"41.0\" y2=\"95.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"51.0\" y1=\"140.0\" x2=\"41.0\" y2=\"140.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"11.8\" y=\"109.5\" width=\"40.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"32.0\" y=\"122.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">5 cm</text><polygon points=\"175.0,140.0 355.0,140.0 355.0,27.5 175.0,27.5\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"175.0\" y1=\"154.0\" x2=\"355.0\" y2=\"154.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"175.0\" y1=\"149.0\" x2=\"175.0\" y2=\"159.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"355.0\" y1=\"149.0\" x2=\"355.0\" y2=\"159.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"240.7\" y=\"160.0\" width=\"48.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"265.0\" y=\"173.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">20 cm</text><rect x=\"364.4\" y=\"74.0\" width=\"17.3\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"373.0\" y=\"89.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">x</text></svg></span><p>Hur hög är den stora rektangeln? (Svara i cm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Längdskalan är \\(\\frac{20}{8}=2{,}5\\).</p></li><li><div class=\"facit-matte\">\\[x=2{,}5\\cdot5=12{,}5\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,5 cm.</p></div>",
+    "familj": "Likformighet och areaskala",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Med vilken faktor har längden ändrats?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 12.5,
+    "tolerans": 0.01,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "7.711",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "parkens area på karta",
+    "t": "<p>En park täcker 2 cm² på en karta i skala 1:10 000. Hur stor är parkens verkliga area? (Svara i m².)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>1 cm på kartan är 10 000 cm = 100 m. Då motsvarar 1 cm² en kvadrat med sidan 100 m.</p></li><li><div class=\"facit-matte\">\\[1\\ \\mathrm{cm^2}\\to100\\cdot100=10\\,000\\ \\mathrm{m^2}\\]</div></li><li><div class=\"facit-matte\">\\[2\\cdot10\\,000=20\\,000\\ \\mathrm{m^2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 000 m².</p></div>",
+    "familj": "Likformighet och areaskala",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Gör först om 1 cm på kartan till meter. Vilken area får då en ruta på 1 cm²?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 20000,
+    "tolerans": 0,
+    "svarEnhet": "m²"
+  },
+  {
+    "id": "7.712",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "är trianglarna likformiga",
+    "t": "<p>Två trianglar har vinklarna 40°, 60° och 80° respektive 60°, 80° och 40°. Är de likformiga?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trianglar med samma vinklar är likformiga. Ordningen spelar ingen roll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja.</p></div>",
+    "familj": "Likformighet och areaskala",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Jämför vinklarna, inte sidorna.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Ja, de har samma vinklar",
+        "ratt": true
+      },
+      {
+        "txt": "Nej, vinklarna står i olika ordning",
+        "ratt": false,
+        "kommentar": "Ordningen spelar ingen roll."
+      },
+      {
+        "txt": "Det går inte att avgöra utan sidorna",
+        "ratt": false,
+        "kommentar": "Lika vinklar räcker."
+      }
+    ]
+  },
+  {
+    "id": "7.713",
+    "kap": 7,
+    "omr": "skala_likformighet",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "mikroskop",
+    "t": "<p>Ett mikroskop förstorar 400 gånger. En cell ser ut att vara 2 mm i mikroskopet. Hur stor är cellen i verkligheten? (Svara i mm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{2}{400}=0{,}005\\ \\mathrm{mm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,005 mm.</p></div>",
+    "familj": "Skala på kartor och ritningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dela med förstoringen.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 0.005,
+    "tolerans": 0.0001,
+    "svarEnhet": "mm"
   }
 ];

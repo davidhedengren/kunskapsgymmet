@@ -16781,197 +16781,197 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "0.607",
-    "kap": 0,
-    "omr": "tiopotenser_prefix",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>Skriv \\(2{,}5\\cdot10^{6}\\) i vanlig decimalform.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(10^{6}=1\\,000\\,000\\), så \\(2{,}5\\cdot10^{6}=2\\,500\\,000\\).</p></li></ol></div>",
-    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är positiv?</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Grundpotensform och decimalform",
-    "formaga": [
-      "procedur"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 2500000,
-    "tolerans": 2.4999999999999998e-06,
-    "självrättning": true,
-    "svarFormat": "decimalform",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Växla mellan grundpotensform och decimalform"
-    ]
-  },
+  "id": "0.607",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Skriv \\(2{,}5\\cdot10^{6}\\) som ett vanligt tal utan potenser.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(10^{6}=1\\,000\\,000\\), så \\(2{,}5\\cdot10^{6}=2\\,500\\,000\\).</p></li></ol></div>",
+  "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är positiv?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Grundpotensform och decimalform",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 2500000,
+  "tolerans": 2.4999999999999998e-06,
+  "självrättning": true,
+  "svarFormat": "decimalform",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Växla mellan grundpotensform och decimalform"
+  ]
+},
   {
-    "id": "0.608",
-    "kap": 0,
-    "omr": "tiopotenser_prefix",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>Skriv \\(4{,}03\\cdot10^{-2}\\) i vanlig decimalform.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Exponenten är negativ, så decimaltecknet flyttas 2 steg åt vänster:</p><div class=\"facit-matte\">\\[4{,}03\\cdot10^{-2}=0{,}0403\\].</div></div></li></ol></div>",
-    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är negativ?</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Grundpotensform och decimalform",
-    "formaga": [
-      "procedur"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.0403,
-    "tolerans": 1e-13,
-    "självrättning": true,
-    "svarFormat": "decimalform",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Växla mellan grundpotensform och decimalform"
-    ]
-  },
+  "id": "0.608",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Skriv \\(4{,}03\\cdot10^{-2}\\) som ett vanligt tal utan potenser.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Exponenten är negativ, så decimaltecknet flyttas 2 steg åt vänster:</p><div class=\"facit-matte\">\\[4{,}03\\cdot10^{-2}=0{,}0403\\].</div></div></li></ol></div>",
+  "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är negativ?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Grundpotensform och decimalform",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.0403,
+  "tolerans": 1e-13,
+  "självrättning": true,
+  "svarFormat": "decimalform",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Växla mellan grundpotensform och decimalform"
+  ]
+},
   {
-    "id": "0.609",
-    "kap": 0,
-    "omr": "tiopotenser_prefix",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>Skriv \\(8{,}1\\cdot10^{4}\\) i vanlig decimalform.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(10^{4}=10\\,000\\), så \\(8{,}1\\cdot10^{4}=81\\,000\\).</p></li></ol></div>",
-    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är positiv?</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Grundpotensform och decimalform",
-    "formaga": [
-      "procedur"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 81000,
-    "tolerans": 8.1e-08,
-    "självrättning": true,
-    "svarFormat": "decimalform",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Växla mellan grundpotensform och decimalform"
-    ]
-  },
+  "id": "0.609",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Skriv \\(8{,}1\\cdot10^{4}\\) som ett vanligt tal utan potenser.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(10^{4}=10\\,000\\), så \\(8{,}1\\cdot10^{4}=81\\,000\\).</p></li></ol></div>",
+  "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är positiv?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Grundpotensform och decimalform",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 81000,
+  "tolerans": 8.1e-08,
+  "självrättning": true,
+  "svarFormat": "decimalform",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Växla mellan grundpotensform och decimalform"
+  ]
+},
   {
-    "id": "0.610",
-    "kap": 0,
-    "omr": "tiopotenser_prefix",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>Skriv \\(6{,}7\\cdot10^{-6}\\) i vanlig decimalform.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Exponenten är negativ, så decimaltecknet flyttas 6 steg åt vänster:</p><div class=\"facit-matte\">\\[6{,}7\\cdot10^{-6}=0{,}0000067\\].</div></div></li></ol></div>",
-    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är negativ?</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Grundpotensform och decimalform",
-    "formaga": [
-      "procedur"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 6.7e-06,
-    "tolerans": 1e-13,
-    "självrättning": true,
-    "svarFormat": "decimalform",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Växla mellan grundpotensform och decimalform"
-    ]
-  },
+  "id": "0.610",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Skriv \\(6{,}7\\cdot10^{-6}\\) som ett vanligt tal utan potenser.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Exponenten är negativ, så decimaltecknet flyttas 6 steg åt vänster:</p><div class=\"facit-matte\">\\[6{,}7\\cdot10^{-6}=0{,}0000067\\].</div></div></li></ol></div>",
+  "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är negativ?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Grundpotensform och decimalform",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 6.7e-06,
+  "tolerans": 1e-13,
+  "självrättning": true,
+  "svarFormat": "decimalform",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Växla mellan grundpotensform och decimalform"
+  ]
+},
   {
-    "id": "0.611",
-    "kap": 0,
-    "omr": "tiopotenser_prefix",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>Skriv \\(1{,}25\\cdot10^{7}\\) i vanlig decimalform.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(10^{7}=10\\,000\\,000\\), så \\(1{,}25\\cdot10^{7}=12\\,500\\,000\\).</p></li></ol></div>",
-    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är positiv?</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Grundpotensform och decimalform",
-    "formaga": [
-      "procedur"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 12500000,
-    "tolerans": 1.2499999999999999e-05,
-    "självrättning": true,
-    "svarFormat": "decimalform",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Växla mellan grundpotensform och decimalform"
-    ]
-  },
+  "id": "0.611",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Skriv \\(1{,}25\\cdot10^{7}\\) som ett vanligt tal utan potenser.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(10^{7}=10\\,000\\,000\\), så \\(1{,}25\\cdot10^{7}=12\\,500\\,000\\).</p></li></ol></div>",
+  "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är positiv?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Grundpotensform och decimalform",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 12500000,
+  "tolerans": 1.2499999999999999e-05,
+  "självrättning": true,
+  "svarFormat": "decimalform",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Växla mellan grundpotensform och decimalform"
+  ]
+},
   {
-    "id": "0.612",
-    "kap": 0,
-    "omr": "tiopotenser_prefix",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>Skriv \\(5{,}04\\cdot10^{-4}\\) i vanlig decimalform.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Exponenten är negativ, så decimaltecknet flyttas 4 steg åt vänster:</p><div class=\"facit-matte\">\\[5{,}04\\cdot10^{-4}=0{,}000504\\].</div></div></li></ol></div>",
-    "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är negativ?</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Grundpotensform och decimalform",
-    "formaga": [
-      "procedur"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.000504,
-    "tolerans": 1e-13,
-    "självrättning": true,
-    "svarFormat": "decimalform",
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Växla mellan grundpotensform och decimalform"
-    ]
-  },
+  "id": "0.612",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Skriv \\(5{,}04\\cdot10^{-4}\\) som ett vanligt tal utan potenser.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Exponenten är negativ, så decimaltecknet flyttas 4 steg åt vänster:</p><div class=\"facit-matte\">\\[5{,}04\\cdot10^{-4}=0{,}000504\\].</div></div></li></ol></div>",
+  "ledtrad": "<p>Åt vilket håll flyttas decimaltecknet när exponenten är negativ?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Grundpotensform och decimalform",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.000504,
+  "tolerans": 1e-13,
+  "självrättning": true,
+  "svarFormat": "decimalform",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Växla mellan grundpotensform och decimalform"
+  ]
+},
   {
     "id": "0.613",
     "kap": 0,
@@ -17517,39 +17517,39 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "0.629",
-    "kap": 0,
-    "omr": "prefix",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": true,
-    "t": "<p>Ett lager innehåller 4,8 g verksam substans. Varje tablett innehåller 120 mg. Tabletterna packas 15 per karta.</p><p>Hur många hela kartor kan packas?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv mängderna i samma enhet</p><div class=\"facit-matte\">\\[4{,}8\\,\\mathrm{g}=4800\\,\\mathrm{mg}.\\]</div></li><li><p class=\"facit-rubrik\">Beräkna antalet tabletter</p><div class=\"facit-matte\">\\[\\frac{4800}{120}=40.\\]</div></li><li><p class=\"facit-rubrik\">Beräkna antalet hela kartor</p><div class=\"facit-matte\">\\[\\frac{40}{15}=\\frac83\\approx2{,}67.\\]</div><p>Två kartor kräver 30 tabletter. Tre skulle kräva 45, vilket är fler än de 40 som finns.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 hela kartor.</p></div>",
-    "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Prefix i tillämpningar",
-    "formaga": [
-      "problemlösning",
-      "resonemang"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 2e-12,
-    "självrättning": true,
-    "svarFormat": "numeriskt",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "omrTidigare": "tiopotenser_prefix",
-    "familjTidigare": [
-      "Prefix och heltalsvillkor"
-    ]
-  },
+  "id": "0.629",
+  "kap": 0,
+  "omr": "prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "t": "<p>En tillverkare har 4,8 g av ett ämne till tabletter. Varje tablett ska innehålla 120 mg av ämnet. En tablettkarta ska innehålla 15 tabletter.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 245\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"En tablettkarta med fem kolumner och tre rader, totalt femton tabletter.\"><title>En tablettkarta med fem kolumner och tre rader, totalt femton tabletter.</title><rect width=\"500\" height=\"245\" fill=\"white\" rx=\"10\"/><rect x=\"110\" y=\"45\" width=\"280\" height=\"140\" rx=\"12\" fill=\"#e4eff4\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"150\" cy=\"75\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"200\" cy=\"75\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"250\" cy=\"75\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"300\" cy=\"75\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"350\" cy=\"75\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"150\" cy=\"115\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"200\" cy=\"115\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"250\" cy=\"115\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"300\" cy=\"115\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"350\" cy=\"115\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"150\" cy=\"155\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"200\" cy=\"155\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"250\" cy=\"155\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"300\" cy=\"155\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><ellipse cx=\"350\" cy=\"155\" rx=\"14\" ry=\"10\" fill=\"white\" stroke=\"#264663\" stroke-width=\"2\"/><text x=\"250\" y=\"220\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172e46\">En karta innehåller 15 tabletter.</text></svg></span><p>Hur många hela tablettkartor räcker ämnet till?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv mängderna i samma enhet</p><div class=\"facit-matte\">\\[4{,}8\\,\\mathrm{g}=4800\\,\\mathrm{mg}.\\]</div></li><li><p class=\"facit-rubrik\">Beräkna antalet tabletter</p><div class=\"facit-matte\">\\[\\frac{4800}{120}=40.\\]</div></li><li><p class=\"facit-rubrik\">Beräkna antalet hela kartor</p><div class=\"facit-matte\">\\[\\frac{40}{15}=\\frac83\\approx2{,}67.\\]</div><p>Två kartor kräver 30 tabletter. Tre skulle kräva 45, vilket är fler än de 40 som finns.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 hela kartor.</p></div>",
+  "ledtrad": "<p>Börja med att skriva båda mängderna i samma enhet.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Prefix i tillämpningar",
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 2e-12,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": "tiopotenser_prefix",
+  "familjTidigare": [
+    "Prefix och heltalsvillkor"
+  ]
+},
   {
     "id": "0.630",
     "kap": 0,
@@ -65363,35 +65363,35 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.32",
-    "kap": 3,
-    "omr": "forandringsfaktor",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>En vara höjs först med \\(p\\) procent och sänks därefter med lika många procent.</p><p>Visa att slutpriset alltid blir lägre än ursprungspriset, oavsett vilket positivt värde \\(p\\) har.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> Låt ursprungspriset vara \\(P\\) och skriv \\(p\\) procent som decimaltalet \\(x=\\frac{p}{100}\\), där \\(0&lt;x&lt;1\\).</p></li><li><p>Höjningen ger förändringsfaktorn \\(1+x\\) och sänkningen \\(1-x\\).</p></li><li><p>Slutpriset blir</p></li><li><p>\\[P(1+x)(1-x)=P(1-x^2).\\]</p></li><li><p>Eftersom \\(x&gt;0\\) är \\(x^2&gt;0\\), och därmed \\(1-x^2&lt;1\\).</p></li></ol><p class=\"facit-svar\"><strong>Slutpriset \\(P(1-x^2)\\) är alltså alltid mindre än \\(P\\).</strong></p><ol class=\"facit-steglista\" role=\"list\"><li><p>Kontroll: vid \\(p=20\\) blir faktorn \\(1{,}2\\cdot0{,}8=0{,}96\\), och vid \\(p=50\\) blir den \\(1{,}5\\cdot0{,}5=0{,}75\\).</p></li><li><p>Ju större \\(p\\), desto större blir förlusten.</p></li><li><p>Skillnaden beror på att höjningen räknas på det <em>lägre</em> ursprungspriset medan sänkningen räknas på det <em>högre</em> mellanpriset.</p></li></ol></div>",
-    "familj": "Räkna med förändringsfaktor",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "resonemang"
-    ],
-    "ledtrad": "<p>Skriv p procent som ett decimaltal x. Undersök produkten av faktorerna (1+x) och (1−x).</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 1,
-    "spel": false,
-    "familjTidigare": [
-      "Bestämma och använda förändringsfaktor"
-    ]
-  },
+  "id": "3.32",
+  "kap": 3,
+  "omr": "forandringsfaktor",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "A",
+  "poang": "0/1/2",
+  "t": "<p>Priset på en vara höjs först med \\(p\\) procent och sänks därefter med lika många procent.</p><p>Visa att slutpriset blir lägre än ursprungspriset när \\(0&lt;p&lt;100\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steg 1:</strong> Låt ursprungspriset vara \\(P\\) och skriv \\(p\\) procent som decimaltalet \\(x=\\frac{p}{100}\\), där \\(0&lt;x&lt;1\\).</p></li><li><p>Höjningen ger förändringsfaktorn \\(1+x\\) och sänkningen \\(1-x\\).</p></li><li><p>Slutpriset blir</p></li><li><p>\\[P(1+x)(1-x)=P(1-x^2).\\]</p></li><li><p>Eftersom \\(x&gt;0\\) är \\(x^2&gt;0\\), och därmed \\(1-x^2&lt;1\\).</p></li></ol><p class=\"facit-svar\"><strong>Slutpriset \\(P(1-x^2)\\) är alltså alltid mindre än \\(P\\).</strong></p><ol class=\"facit-steglista\" role=\"list\"><li><p>Kontroll: vid \\(p=20\\) blir faktorn \\(1{,}2\\cdot0{,}8=0{,}96\\), och vid \\(p=50\\) blir den \\(1{,}5\\cdot0{,}5=0{,}75\\).</p></li><li><p>Ju större \\(p\\), desto större blir förlusten.</p></li><li><p>Skillnaden beror på att höjningen räknas på det <em>lägre</em> ursprungspriset medan sänkningen räknas på det <em>högre</em> mellanpriset.</p></li></ol></div>",
+  "familj": "Räkna med förändringsfaktor",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "resonemang",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": false,
+  "formaga": [
+    "resonemang"
+  ],
+  "ledtrad": "<p>Skriv p procent som ett decimaltal x. Undersök produkten av faktorerna (1+x) och (1−x).</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 1,
+  "spel": false,
+  "familjTidigare": [
+    "Bestämma och använda förändringsfaktor"
+  ]
+},
   {
     "id": "3.33",
     "kap": 3,
@@ -65424,64 +65424,76 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.34",
-    "kap": 3,
-    "omr": "upprepade_forandringar",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "1/1/0",
-    "t": "<p>Ett träd bär 40 frukter ett år och 46 nästa år. Anta att samma procentuella ökning fortsätter.</p><p>a) Bestäm ökningstakten.<br>b) Hur många frukter ger modellen efter ytterligare 5 år? Avrunda till närmaste heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Skriv varje procentuell förändring som en förändringsfaktor.</p></li><li><p>Vid flera steg multipliceras förändringsfaktorerna med varandra; procenttalen ska inte bara adderas.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{46}{40}=1{,}15\\): <strong>15 %</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(46\\cdot1{,}15^5\\approx\\)<strong>93</strong>.</p></li></ol></div></div></div>",
-    "familj": "Problemlösning med förändringar i flera steg",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "15",
-      "93"
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "svarsstruktur": "ordnad",
-    "ledtrad": "<p>Vilken faktor tar 40 till 46? Samma faktor används sedan för varje nytt år.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": true,
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>Ett träd bär 40 frukter ett år och 46 nästa år. Anta att samma procentuella ökning fortsätter.</p><p>Bestäm ökningstakten.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{46}{40}=1{,}15\\): <strong>15 %</strong>.</p></li></ol></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "ledtrad": "<p>Vilken faktor tar 40 till 46? Samma faktor används sedan för varje nytt år.</p>",
-        "traningsniva": 3,
-        "arbetsinsats": 2
-      },
-      {
-        "etikett": "b",
-        "t": "<p>Ett träd bär 40 frukter ett år och 46 nästa år. Anta att samma procentuella ökning fortsätter.</p><p>Hur många frukter ger modellen efter ytterligare 5 år? Avrunda till närmaste heltal.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(46\\cdot1{,}15^5\\approx\\)<strong>93</strong>.</p></li></ol></div>",
-        "niva": "C",
-        "poang": "0/1/0",
-        "ledtrad": "<p>Vilken faktor tar 40 till 46? Samma faktor används sedan för varje nytt år.</p>",
-        "traningsniva": 3,
-        "arbetsinsats": 2
-      }
-    ],
-    "familjTidigare": [
-      "Upprepade procentuella förändringar"
-    ]
-  },
+  "id": "3.34",
+  "kap": 3,
+  "omr": "upprepade_forandringar",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "1/1/0",
+  "t": "<p>Ett träd bär 40 frukter ett år och 46 nästa år. I en modell fortsätter antalet att öka med samma procent varje år.</p><p>a) Med hur många procent ökade antalet frukter från 40 till 46?</p><p>b) Hur många frukter ger modellen fem år efter det år då trädet bar 46 frukter? Avrunda till närmaste heltal.</p>",
+  "s": "<div class=\"facit-v2\"><p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Antalet ökade med 46−40 = 6 frukter. Jämför ökningen med de ursprungliga 40 frukterna.</p><div class=\"facit-matte\">\\[\\frac6{40}\\cdot100=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 15 %.</strong></p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förändringsfaktorn per år är 46/40 = 1,15. Börja med 46 frukter och använd faktorn fem gånger.</p><div class=\"facit-matte\">\\[46\\cdot1{,}15^5\\approx92{,}52\\]</div></li><li><p>Avrundning till närmaste heltal ger 93 frukter.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 93 frukter.</strong></p></div></div>",
+  "familj": "Problemlösning med förändringar i flera steg",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "15",
+    "93"
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "svarsstruktur": "ordnad",
+  "ledtrad": "<p>Vilken faktor tar 40 till 46? Samma faktor används sedan för varje nytt år.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Ett träd bär 40 frukter ett år och 46 nästa år.</p><p>Med hur många procent ökade antalet frukter från 40 till 46?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Antalet ökade med 46−40 = 6 frukter. Jämför ökningen med de ursprungliga 40 frukterna.</p><div class=\"facit-matte\">\\[\\frac6{40}\\cdot100=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 15 %.</strong></p></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "ledtrad": "<p>Jämför ökningen med antalet frukter från början.</p>",
+      "traningsniva": 2,
+      "arbetsinsats": 1,
+      "miniräknare": true,
+      "geogebra": false
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Ett träd bär 40 frukter ett år och 46 nästa år. I en modell fortsätter antalet att öka med samma procent varje år.</p><p>Hur många frukter ger modellen fem år efter det år då trädet bar 46 frukter? Avrunda till närmaste heltal.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förändringsfaktorn per år är 46/40 = 1,15. Börja med 46 frukter och använd faktorn fem gånger.</p><div class=\"facit-matte\">\\[46\\cdot1{,}15^5\\approx92{,}52\\]</div></li><li><p>Avrundning till närmaste heltal ger 93 frukter.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 93 frukter.</strong></p></div>",
+      "niva": "C",
+      "poang": "0/1/0",
+      "ledtrad": "<p>Vilken faktor tar 40 till 46? Samma faktor används sedan för varje nytt år.</p>",
+      "traningsniva": 3,
+      "arbetsinsats": 2,
+      "miniräknare": true,
+      "geogebra": false
+    }
+  ],
+  "familjTidigare": [
+    "Upprepade procentuella förändringar"
+  ],
+  "svarEnhet": [
+    "%",
+    ""
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "heltal"
+  ]
+},
   {
   "id": "3.35",
   "kap": 3,
@@ -67398,36 +67410,36 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "3.80",
-    "kap": 3,
-    "omr": "ranta",
-    "kurs": [
-      "1a",
-      "1b"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>20 000 kr sätts in på ett konto. Första året är räntan 2,0 %. Direkt efter första årets ränta sätts ytterligare 5 000 kr in. Det andra året är räntan okänd. Tredje året är räntan 4,0 %. Efter tre år finns 27 208,48 kr. Bestäm räntan i procent under det andra året. Svara med en decimal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Efter första årets ränta och den nya insättningen finns</p>\\[20000\\cdot1{,}02+5000=25400\\,\\mathrm{kr}.\\]<p>Slutbeloppet innehåller även tredje årets ränta. Andra årets faktor blir därför</p>\\[q=\\frac{27208{,}48}{25400\\cdot1{,}04}=1{,}03.\\]<p><strong>Svar:</strong> 3,0 %.</p></div>",
-    "familj": "Ränta på ränta",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3.0000000000000027,
-    "tolerans": 0.05,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "modellering"
-    ],
-    "familjTidigare": "Ränta och ränta på ränta",
-    "ledtrad": "<p>Följ tidslinjen: år 1-ränta, därefter insättningen 5 000 kr, sedan den okända faktorn och sist faktorn 1,04.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": true,
-    "svarEnhet": "%",
-    "svarFormat": "numeriskt"
-  },
+  "id": "3.80",
+  "kap": 3,
+  "omr": "ranta",
+  "kurs": [
+    "1a",
+    "1b"
+  ],
+  "niva": "A",
+  "poang": "0/0/2",
+  "t": "<p>20 000 kr sätts in på ett konto. Första året är räntan 2,0 %. Direkt efter första årets ränta sätts ytterligare 5 000 kr in. Det andra året är räntan okänd. Tredje året är räntan 4,0 %. Efter tre år finns 27 208,48 kr. Bestäm räntan i procent under det andra året. Svara med en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter första årets ränta och den extra insättningen finns:</p><div class=\"facit-matte\">\\[20000\\cdot1{,}02+5000=25400\\]</div></li><li><p>Ta först bort tredje årets ränta ur slutbeloppet:</p><div class=\"facit-matte\">\\[\\frac{27208{,}48}{1{,}04}=26162\\]</div></li><li><p>Jämför med beloppet före andra året. Förändringsfaktorn är 26162/25400 = 1,03, alltså en ökning med 3 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 3,0 %.</strong></p></div>",
+  "familj": "Ränta på ränta",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3.0000000000000027,
+  "tolerans": 0.05,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "familjTidigare": "Ränta och ränta på ränta",
+  "ledtrad": "<p>Följ tidslinjen: år 1-ränta, därefter insättningen 5 000 kr, sedan den okända faktorn och sist faktorn 1,04.</p>",
+  "traningsniva": 5,
+  "arbetsinsats": 3,
+  "spel": true,
+  "svarEnhet": "%",
+  "svarFormat": "numeriskt"
+},
   {
     "id": "3.81",
     "kap": 3,
@@ -134940,34 +134952,52 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "0.906",
-    "kap": 0,
-    "omr": "avrundning",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "1/0/0",
-    "t": "<p>Vilket tal blir 6,0 när det avrundas till en decimal?</p><p>A: 5,94<br>B: 5,96<br>C: 6,05<br>D: 6,1</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tal från 5,95 upp till (men inte med) 6,05 avrundas till 6,0.</p></li><li><p>5,94 blir 5,9 och 6,05 blir 6,1.</p></li><li><p>5,96 blir 6,0.</p></li><li><p>6,1 är redan avrundat och är inte 6,0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B: 5,96</p></div></div>",
-    "familj": "Avrunda till angiven noggrannhet",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "B",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "begrepp"
-    ],
-    "ledtrad": "<p>Vilka tal ligger så nära 6,0 att de avrundas dit?</p>",
-    "svarFormat": "kort_text",
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true
-  },
+  "id": "0.906",
+  "kap": 0,
+  "omr": "avrundning",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Vilket av talen nedan avrundas till 6,0 när du avrundar till en decimal? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>5,96 ligger närmare 6,0 än 5,9 och avrundas därför till 6,0.</p></li><li><p>5,94 avrundas till 5,9. Både 6,05 och 6,1 avrundas till 6,1.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 5,96.</strong></p></div>",
+  "familj": "Avrunda till angiven noggrannhet",
+  "geogebra": false,
+  "miniräknare": false,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "begrepp"
+  ],
+  "ledtrad": "<p>Vilka tal ligger så nära 6,0 att de avrundas dit?</p>",
+  "svarFormat": "text",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "alternativ": [
+    {
+      "txt": "5,94",
+      "ratt": false
+    },
+    {
+      "txt": "5,96",
+      "ratt": true
+    },
+    {
+      "txt": "6,05",
+      "ratt": false
+    },
+    {
+      "txt": "6,1",
+      "ratt": false
+    }
+  ]
+},
   {
     "id": "0.907",
     "kap": 0,

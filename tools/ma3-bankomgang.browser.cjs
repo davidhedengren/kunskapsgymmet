@@ -1,7 +1,7 @@
 /* Kör mot lokala servrar. Ingen inloggning eller skrivning till Supabase. */
 const {chromium}=require('playwright'),fs=require('fs'),vm=require('vm'),path=require('path'),assert=require('node:assert/strict');
 const root=path.join(__dirname,'..'),out=process.env.REVIEW_OUT||'/tmp/ma3-bankomgang';fs.mkdirSync(out,{recursive:true});
-const courses=['mato1'];
+const courses=[process.env.REVIEW_COURSE||'mato1'];
 const reviewedIds=process.env.REVIEW_IDS.split(',');
 const groups=courses.map(course=>{let c={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'uppgifter'+course+'.js'),'utf8'),c);return {course,tasks:JSON.parse(JSON.stringify(c.window['BANK'+course.toUpperCase()].filter(q=>reviewedIds.includes(q.id))))};});
 const special=process.env.REVIEW_CASES_FILE?JSON.parse(fs.readFileSync(process.env.REVIEW_CASES_FILE,'utf8')):{};
@@ -14,10 +14,11 @@ const special=process.env.REVIEW_CASES_FILE?JSON.parse(fs.readFileSync(process.e
  await page.goto(process.env.REVIEW_URL||'http://localhost:8027');await page.waitForFunction(()=>typeof selectCourse==='function'&&typeof nerdamer==='function');
  for(const g of groups){
   assert.equal(g.tasks.length,reviewedIds.length);await page.evaluate(c=>selectCourse(c),g.course);
-  for(const track of ['1b','1c']){
+  for(const track of [...new Set(g.tasks.flatMap(q=>q.kurs))]){
    const ids=await page.evaluate(({track,ids})=>{setTrack(track);const cards=getCards();return [...new Set(availableTasks().filter(q=>ids.includes(q.ursprungsId||q.id)&&cards.some(c=>c.kap===q.kap&&c.omr.includes(q.omr))).map(q=>q.ursprungsId||q.id))].sort();},{track,ids:g.tasks.map(q=>q.id)});
    assert.deepEqual(ids,g.tasks.filter(q=>q.kurs.includes(track)).map(q=>q.id).sort());structure.push({track,ids});
   }
+  g.tasks=await page.evaluate(tasks=>tasks.flatMap(expandGameTask),g.tasks);
   await page.evaluate(tasks=>{window.reviewBank=tasks;session=null;syncOwner=null;arLarare=false;finishAttempt=r=>{state.answered=true;window.result=r;};window.prepareReview=id=>{state.currentTask=reviewBank.find(q=>q.id===id);state.answered=false;state.solutionShown=false;state.partIndex=0;state.partResults=[];state.aktivRuta=0;state.altValda=new Set();state.altOrdningId=null;window.result=null;renderTraining();hjalpSynk();};},g.tasks);
   for(const width of [390,1280]){await page.setViewportSize({width,height:1000});for(const q of g.tasks){const key=g.course+':'+q.id;if(process.env.REVIEW_ONLY&&!new RegExp(process.env.REVIEW_ONLY).test(key))continue;
    if(q.alternativ){
@@ -34,7 +35,7 @@ const special=process.env.REVIEW_CASES_FILE?JSON.parse(fs.readFileSync(process.e
     if(key==='mato2:6.07')cases.push([['0.52','2.62'],true],[['0.5','2.6'],true],[['pi/6','5*pi/6'],true],[['5π/6 rad','π/6 rad'],true]);
     if(q.svarsstruktur==='ordnad'&&new Set(correct).size>1)cases.push([[...correct].reverse(),false]);
     if(correct.length===1&&q.svarEnhet&&typeof q.rättSvar==='number')cases.push([[correct[0]+' '+q.svarEnhet],true],[[correct[0]+' kg'],false]);
-    if(correct.length===1&&typeof q.rättSvar==='number'&&!Number.isInteger(q.rättSvar)&&!/exakt/.test(q.t))cases.push([[q.rättSvar.toFixed(2).replace('.',',')],true]);
+    if(correct.length===1&&typeof q.rättSvar==='number'&&!Number.isInteger(q.rättSvar)&&!/exakt/.test(q.t))cases.push([[q.rättSvar.toFixed(2).replace('.',',')],q.svarFormat!=='decimalform']);
     if(special[key])for(const[i,inputs]of special[key].entries())for(const value of inputs)cases.push([[value],i===0]);
     for(const[values,expected]of cases){const r=await page.evaluate(({id,values})=>{prepareReview(id);const fields=[...document.querySelectorAll('input[id^="ans-"]')];if(fields.length!==values.length)return {fieldCount:fields.length};values.forEach((v,i)=>fields[i].value=v);for(let k=0;k<values.length&&!window.result;k++)checkAnswer();return window.result;},{id:q.id,values});
      if(!Array.isArray(r)||r.every(Boolean)!==expected)failures.push({key,width,values,expected,r});checks++;

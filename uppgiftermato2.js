@@ -5305,105 +5305,105 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "1.61",
-    "kap": 1,
-    "omr": "trig_identiteter",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "E",
-    "poang": "4/0/0",
-    "miniräknare": false,
-    "geogebra": false,
-    "t": "<p>Använd trigonometriska ettan.</p><p>a) Bestäm \\(\\cos x\\) om \\(\\sin x=\\frac35\\)<br>för \\(0&lt;x&lt;90^\\circ\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\sin x\\) om \\(\\cos x=-\\frac5{13}\\)<br>för \\(90^\\circ&lt;x&lt;180^\\circ\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Förenkla \\(1-\\sin^2x\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Förenkla \\(\\frac{1-\\sin^2x}{\\cos x}\\) där uttrycket är definierat.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos^2x=1-9/25=16/25\\].</div></li><li><p>Första kvadranten ger <strong>\\(\\cos x=4/5\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin^2x=1-25/169=144/169\\].</div></li><li><p>Andra kvadranten ger <strong>\\(\\sin x=12/13\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos^2x\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos^2x/\\cos x=\\)<strong>\\(\\cos x\\)</strong>.</p></li></ol></div></div></div>",
-    "familj": "Trigonometriska ettan och identiteter",
-    "formaga": [
-      "procedur"
-    ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "4/5",
-      "12/13",
-      "cos(x)^2",
-      "cos(x)"
-    ],
-    "tolerans": [
-      null,
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "uttryck",
-      "uttryck",
-      "uttryck",
-      "uttryck"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c",
-      "d"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>Bestäm \\(\\cos x\\) om \\(\\sin x=\\frac35\\)<br>för \\(0&lt;x&lt;90^\\circ\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos^2x=1-9/25=16/25\\].</div></li><li><div class=\"facit-berakning\"><p>Första kvadranten ger</p><div class=\"facit-matte\">\\[\\cos x=4/5\\].</div></div></li></ol></div></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>Bestäm \\(\\sin x\\) om \\(\\cos x=-\\frac5{13}\\)<br>för \\(90^\\circ&lt;x&lt;180^\\circ\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin^2x=1-25/169=144/169\\].</div></li><li><div class=\"facit-berakning\"><p>Andra kvadranten ger</p><div class=\"facit-matte\">\\[\\sin x=12/13\\].</div></div></li></ol></div></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>Förenkla \\(1-\\sin^2x\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos^2x\\].</div></li></ol></div></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 1,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "d",
-        "fraga": "<p>Förenkla \\(\\frac{1-\\sin^2x}{\\cos x}\\) där uttrycket är definierat.</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos^2x/\\cos x=\\) \\(\\cos x\\) .</p></li></ol></div></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      }
-    ],
-    "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
-    "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
-    "spelIntro": "<p>Använd trigonometriska ettan.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "omrTidigare": [
-      "trig_formler"
-    ],
-    "familjTidigare": [
-      "Använda trigonometriska ettan"
-    ]
-  },
+  "id": "1.61",
+  "kap": 1,
+  "omr": "trig_identiteter",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "4/0/0",
+  "miniräknare": false,
+  "geogebra": false,
+  "t": "<p>Använd trigonometriska ettan.</p><p>a) Bestäm \\(\\cos x\\) om \\(\\sin x=\\frac35\\)<br>för \\(0&lt;x&lt;90^\\circ\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Bestäm \\(\\sin x\\) om \\(\\cos x=-\\frac5{13}\\)<br>för \\(90^\\circ&lt;x&lt;180^\\circ\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Förenkla \\(1-\\sin^2x\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>d) Förenkla \\(\\frac{1-\\sin^2x}{\\cos x}\\) där uttrycket är definierat.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos^2x=1-9/25=16/25\\].</div></li><li><p>Första kvadranten ger <strong>\\(\\cos x=4/5\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin^2x=1-\\frac{25}{169}=\\frac{144}{169}\\].</div></li><li><p>Andra kvadranten ger <strong>\\(\\sin x=12/13\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>\\(\\cos^2x\\)</strong>.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos^2x/\\cos x=\\)<strong>\\(\\cos x\\)</strong>.</p></li></ol></div></div></div>",
+  "familj": "Trigonometriska ettan och identiteter",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "4/5",
+    "12/13",
+    "cos(x)^2",
+    "cos(x)"
+  ],
+  "tolerans": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "självrättning": [
+    true,
+    true,
+    true,
+    true
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "<p>Bestäm \\(\\cos x\\) om \\(\\sin x=\\frac35\\)<br>för \\(0&lt;x&lt;90^\\circ\\).</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos^2x=1-9/25=16/25\\].</div></li><li><div class=\"facit-berakning\"><p>Första kvadranten ger</p><div class=\"facit-matte\">\\[\\cos x=4/5\\].</div></div></li></ol></div></div></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "fraga": "<p>Bestäm \\(\\sin x\\) om \\(\\cos x=-\\frac5{13}\\)<br>för \\(90^\\circ&lt;x&lt;180^\\circ\\).</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin^2x=1-\\frac{25}{169}=\\frac{144}{169}\\].</div></li><li><div class=\"facit-berakning\"><p>Andra kvadranten ger</p><div class=\"facit-matte\">\\[\\sin x=12/13\\].</div></div></li></ol></div></div></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "c",
+      "fraga": "<p>Förenkla \\(1-\\sin^2x\\).</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos^2x\\].</div></li></ol></div></div></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 1,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "d",
+      "fraga": "<p>Förenkla \\(\\frac{1-\\sin^2x}{\\cos x}\\) där uttrycket är definierat.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">d)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\cos^2x/\\cos x=\\) \\(\\cos x\\) .</p></li></ol></div></div></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    }
+  ],
+  "familjNyckel": "trig_identiteter__trigonometriska_ettan_och_identiteter",
+  "ledtrad": "<p>Skriv först upp den identitet eller additionsformel som passar och ersätt sedan varje trigonometriskt värde med ett känt exakt värde.</p>",
+  "spelIntro": "<p>Använd trigonometriska ettan.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "omrTidigare": [
+    "trig_formler"
+  ],
+  "familjTidigare": [
+    "Använda trigonometriska ettan"
+  ]
+},
   {
     "id": "1.63",
     "kap": 1,
@@ -8619,32 +8619,32 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "1.676",
-    "kap": 1,
-    "omr": "trig_identiteter",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>Det gäller att \\(\\sin x+\\cos x=1{,}2\\).</p><p>Beräkna \\(\\sin x\\cos x\\) utan att bestämma \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvadrera båda leden:</p></li><li><p>\\[\\sin^2x+2\\sin x\\cos x+\\cos^2x=1{,}44.\\]</p></li><li><p>Trigonometriska ettan ger \\(1+2\\sin x\\cos x=1{,}44\\), alltså \\(\\sin x\\cos x=0{,}22\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,22</p></div>",
-    "familj": "Trigonometriska ettan och identiteter",
-    "formaga": [
-      "problemlösning",
-      "begrepp"
-    ],
-    "miniräknare": false,
-    "geogebra": false,
-    "självrättning": true,
-    "ledtrad": "<p>Kvadrera uttrycket. Vilken identitet förenklar \\(\\sin^2x+\\cos^2x\\)?</p>",
-    "spel": true,
-    "traningsniva": 4,
-    "arbetsinsats": 2,
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.22,
-    "tolerans": 0.0001
-  },
+  "id": "1.676",
+  "kap": 1,
+  "omr": "trig_identiteter",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "A",
+  "poang": "0/1/2",
+  "t": "<p>Det gäller att \\(\\sin x+\\cos x=1{,}2\\).</p><p>Beräkna \\(\\sin x\\cos x\\) utan att bestämma \\(x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvadrera båda leden.</p><div class=\"facit-matte\">\\[(\\sin x+\\cos x)^2=1{,}44\\]</div></li><li><p>Kvadreringsregeln ger kvadraterna \\(\\sin^2x+\\cos^2x\\) och dubbelprodukten \\(2\\sin x\\cos x\\). Kvadraternas summa är 1, enligt trigonometriska ettan.</p><div class=\"facit-matte\">\\[1+2\\sin x\\cos x=1{,}44\\]</div></li><li><p>Subtrahera 1 och dela sedan med 2.</p><div class=\"facit-matte\">\\[\\sin x\\cos x=\\frac{0{,}44}{2}=0{,}22\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 0,22.</strong></p></div>",
+  "familj": "Trigonometriska ettan och identiteter",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Kvadrera uttrycket. Vilken identitet förenklar \\(\\sin^2x+\\cos^2x\\)?</p>",
+  "spel": true,
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.22,
+  "tolerans": 0.0001
+},
   {
     "id": "1.574",
     "kap": 1,
@@ -102305,5 +102305,174 @@ window.BANKMATO2 = [
     },
     "omrTidigare": "np_repetition",
     "familjTidigare": "Trigonometri och modeller"
+  },
+  {
+    "id": "1.693",
+    "kap": 1,
+    "omr": "enhetscirkeln_formler",
+    "kurs": [
+      "2c"
+    ],
+    "familj": "Symmetrier och periodicitet i enhetscirkeln",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>P och Q ligger mitt emot varandra på enhetscirkeln. Punkten P hör till vinkeln v. Förenkla \\(\\sin(v+180^\\circ)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 360\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Enhetscirkel med punkten P i första kvadranten och Q diametralt motsatt. Vinkeln v hör till P.\"><title>Enhetscirkel med punkten P i första kvadranten och Q diametralt motsatt. Vinkeln v hör till P.</title><rect width=\"500\" height=\"360\" fill=\"white\" rx=\"10\"/><circle cx=\"250\" cy=\"170\" r=\"115\" fill=\"#f0f7fb\" stroke=\"#25465f\" stroke-width=\"2\"/><path d=\"M95 170H410 M250 310V30\" fill=\"none\" stroke=\"#25465f\" stroke-width=\"2\"/><path d=\"M344.20 104.04L155.80 235.96\" stroke=\"#087b9b\" stroke-width=\"3\"/><circle cx=\"344.20\" cy=\"104.04\" r=\"5\" fill=\"#087b9b\"/><circle cx=\"155.80\" cy=\"235.96\" r=\"5\" fill=\"#087b9b\"/><text x=\"362.20248509323403\" y=\"91.0387098196297\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">P</text><text x=\"135.79751490676597\" y=\"259.96129018037027\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Q</text><text x=\"427\" y=\"177\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"252\" y=\"22\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><text x=\"263\" y=\"192\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">O</text><path d=\"M290 170 A40 40 0 0 0 282.77 147.06\" fill=\"none\" stroke=\"#b35316\" stroke-width=\"2\"/><text x=\"306\" y=\"157\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">v</text><text x=\"250\" y=\"340\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">P och Q ligger på samma diameter.</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett halvt varv flyttar P till Q. Då byter båda koordinaterna tecken. Sinus är y-koordinaten.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-\\sin v\\).</strong></p></div>",
+    "ledtrad": "<p>Hur förändras punktens höjd när den flyttas till motsatt sida?</p>",
+    "rättSvar": "-sin(v)",
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "tolerans": null
+  },
+  {
+    "id": "1.694",
+    "kap": 1,
+    "omr": "enhetscirkeln_formler",
+    "kurs": [
+      "2c"
+    ],
+    "familj": "Symmetrier och periodicitet i enhetscirkeln",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla så långt som möjligt:</p><div class=\"facit-matte\">\\[\\sin(180^\\circ+x)+\\cos(90^\\circ+x)\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd symmetrierna för de två vinklarna.</p><div class=\"facit-matte\">\\[\\sin(180^\\circ+x)=-\\sin x\\]</div><div class=\"facit-matte\">\\[\\cos(90^\\circ+x)=-\\sin x\\]</div></li><li><p>De två termerna är lika och kan läggas ihop.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-2\\sin x\\).</strong></p></div>",
+    "ledtrad": "<p>Skriv båda termerna med samma trigonometriska funktion.</p>",
+    "rättSvar": "-2*sin(x)",
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "tolerans": null
+  },
+  {
+    "id": "1.695",
+    "kap": 1,
+    "omr": "trig_identiteter",
+    "kurs": [
+      "2c"
+    ],
+    "familj": "Trigonometriska ettan och identiteter",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket där det är definierat:</p><div class=\"facit-matte\">\\[\\frac{\\cos x}{1-\\sin^2x}\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan ger 1−sin²x = cos²x.</p><div class=\"facit-matte\">\\[\\frac{\\cos x}{\\cos^2x}=\\frac1{\\cos x}\\]</div></li><li><p>Villkoret cos x ≠ 0 gäller både före och efter förenklingen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\dfrac1{\\cos x}\\).</strong></p></div>",
+    "ledtrad": "<p>Vilken term kan ersätta nämnaren?</p>",
+    "rättSvar": "1/cos(x)",
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "tolerans": null
+  },
+  {
+    "id": "1.696",
+    "kap": 1,
+    "omr": "trig_identiteter",
+    "kurs": [
+      "2c"
+    ],
+    "familj": "Trigonometriska ettan och identiteter",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket där det är definierat:</p><div class=\"facit-matte\">\\[\\frac{1-\\cos^2x}{\\sin x}\\div\\frac{\\cos x}{1-\\sin^2x}\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan gör den första kvoten till sin x och den andra till 1/cos x.</p></li><li><p>Att dividera med 1/cos x är att multiplicera med cos x.</p><div class=\"facit-matte\">\\[\\sin x\\div\\frac1{\\cos x}=\\sin x\\cos x\\]</div></li><li><p>Originaluttrycket kräver både sin x ≠ 0 och cos x ≠ 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\sin x\\cos x\\).</strong></p></div>",
+    "ledtrad": "<p>Förenkla de två kvoterna innan du dividerar.</p>",
+    "rättSvar": "sin(x)*cos(x)",
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "tolerans": null
+  },
+  {
+    "id": "1.697",
+    "kap": 1,
+    "omr": "trig_identiteter",
+    "kurs": [
+      "2c"
+    ],
+    "familj": "Trigonometriska ettan och identiteter",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket där det är definierat:</p><div class=\"facit-matte\">\\[\\left(\\frac1{1-\\sin x}-\\frac1{1+\\sin x}\\right)\\cos^2x\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv skillnaden på gemensam nämnare.</p><div class=\"facit-matte\">\\[\\frac{(1+\\sin x)-(1-\\sin x)}{1-\\sin^2x}\\]</div><div class=\"facit-matte\">\\[=\\frac{2\\sin x}{\\cos^2x}\\]</div></li><li><p>Multiplikationen med cos²x tar bort nämnaren. Originaluttrycket kräver cos x ≠ 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2\\sin x\\).</strong></p></div>",
+    "ledtrad": "<p>Var noga med minustecknet framför den andra täljaren.</p>",
+    "rättSvar": "2*sin(x)",
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "tolerans": null
+  },
+  {
+    "id": "1.698",
+    "kap": 1,
+    "omr": "trig_identiteter",
+    "kurs": [
+      "2c"
+    ],
+    "familj": "Trigonometriska ettan och identiteter",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>För vinkeln v gäller \\(\\sin v=3/5\\) och \\(0&lt;v&lt;90^\\circ\\). Bestäm exakt</p><div class=\"facit-matte\">\\[\\frac1{\\cos(180^\\circ+v)}\\]</div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 360\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Enhetscirkel med punkten P i första kvadranten och Q diametralt motsatt. Vinkeln v hör till P.\"><title>Enhetscirkel med punkten P i första kvadranten och Q diametralt motsatt. Vinkeln v hör till P.</title><rect width=\"500\" height=\"360\" fill=\"white\" rx=\"10\"/><circle cx=\"250\" cy=\"170\" r=\"115\" fill=\"#f0f7fb\" stroke=\"#25465f\" stroke-width=\"2\"/><path d=\"M95 170H410 M250 310V30\" fill=\"none\" stroke=\"#25465f\" stroke-width=\"2\"/><path d=\"M342.00 101.00L158.00 239.00\" stroke=\"#087b9b\" stroke-width=\"3\"/><circle cx=\"342.00\" cy=\"101.00\" r=\"5\" fill=\"#087b9b\"/><circle cx=\"158.00\" cy=\"239.00\" r=\"5\" fill=\"#087b9b\"/><text x=\"360.0\" y=\"88.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">P</text><text x=\"138.0\" y=\"263.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Q</text><text x=\"427\" y=\"177\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"252\" y=\"22\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><text x=\"263\" y=\"192\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">O</text><path d=\"M290 170 A40 40 0 0 0 282.00 146.00\" fill=\"none\" stroke=\"#b35316\" stroke-width=\"2\"/><text x=\"306\" y=\"157\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">v</text><path d=\"M342.00 101.00V170\" stroke=\"#5c6e7e\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"377.0\" y=\"140\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">3/5</text><text x=\"250\" y=\"340\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">P och Q ligger på samma diameter.</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Trigonometriska ettan ger cos²v = 1−9/25 = 16/25. Första kvadranten ger cos v = 4/5.</p></li><li><p>Ett halvt varv byter tecken på cosinus:</p><div class=\"facit-matte\">\\[\\cos(180^\\circ+v)=-\\frac45\\]</div></li><li><p>Vänd på bråket för att få det efterfrågade värdet.</p><div class=\"facit-matte\">\\[1\\div\\left(-\\frac45\\right)=-\\frac54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-\\dfrac54\\).</strong></p></div>",
+    "ledtrad": "<p>Bestäm först cos v, sedan värdet efter ett halvt varv.</p>",
+    "rättSvar": "-5/4",
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "tolerans": null
   }
+
 ];

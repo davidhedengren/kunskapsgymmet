@@ -4581,41 +4581,41 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.103",
-    "kap": 1,
-    "omr": "gransvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Bestäm gränsvärdet</p><p>\\[\\lim_{x\\to 1}x + 1.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Direkt insättning ger formen \\(0/0\\), så faktorisera och förkorta den faktor som orsakar problemet.</p></li><li><div class=\"facit-berakning\"><p>Det förenklade uttrycket kan sedan värderas vid</p><div class=\"facit-matte\">\\[x=1\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{2}\\).</p></div>",
-    "familj": "Beräkna gränsvärden",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Förstå och beräkna gränsvärden",
-      "Beräkna och tolka gränsvärden"
-    ],
-    "ledtrad": "<p>Kontinuitet i en punkt betyder att vänstergränsvärde, högergränsvärde och funktionsvärde ska mötas i samma värde. För en styckvis funktion räcker det därför inte att bara sätta in punkten i ena uttrycket.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ]
-  },
+  "id": "1.103",
+  "kap": 1,
+  "omr": "gransvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Bestäm gränsvärdet</p><p>\\[\\lim_{x\\to 1}x + 1.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket är en kontinuerlig funktion. Därför kan vi sätta in x = 1 direkt.</p><div class=\"facit-matte\">\\[\\lim_{x\\to 1}(x+1)=1+1=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 2.</strong></p></div>",
+  "familj": "Beräkna gränsvärden",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Förstå och beräkna gränsvärden",
+    "Beräkna och tolka gränsvärden"
+  ],
+  "ledtrad": "<p>Kontinuitet i en punkt betyder att vänstergränsvärde, högergränsvärde och funktionsvärde ska mötas i samma värde. För en styckvis funktion räcker det därför inte att bara sätta in punkten i ena uttrycket.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ]
+},
   {
     "id": "1.104",
     "kap": 1,
@@ -4698,41 +4698,41 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.106",
-    "kap": 1,
-    "omr": "gransvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Bestäm gränsvärdet</p><p>\\[\\lim_{x\\to 2}x + 2.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Direkt insättning ger formen \\(0/0\\), så faktorisera och förkorta den faktor som orsakar problemet.</p></li><li><div class=\"facit-berakning\"><p>Det förenklade uttrycket kan sedan värderas vid</p><div class=\"facit-matte\">\\[x=2\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{4}\\).</p></div></div>",
-    "familj": "Beräkna gränsvärden",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 4,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Förstå och beräkna gränsvärden",
-      "Beräkna och tolka gränsvärden"
-    ],
-    "ledtrad": "<p>Viktigt steg: Kontinuitet i en punkt betyder att vänstergränsvärde, högergränsvärde och funktionsvärde ska mötas i samma värde. För en styckvis funktion räcker det därför inte att bara sätta in punkten i ena uttrycket.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ]
-  },
+  "id": "1.106",
+  "kap": 1,
+  "omr": "gransvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Bestäm gränsvärdet</p><p>\\[\\lim_{x\\to 2}x + 2.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket är en kontinuerlig funktion. Därför kan vi sätta in x = 2 direkt.</p><div class=\"facit-matte\">\\[\\lim_{x\\to 2}(x+2)=2+2=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 4.</strong></p></div>",
+  "familj": "Beräkna gränsvärden",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Förstå och beräkna gränsvärden",
+    "Beräkna och tolka gränsvärden"
+  ],
+  "ledtrad": "<p>Viktigt steg: Kontinuitet i en punkt betyder att vänstergränsvärde, högergränsvärde och funktionsvärde ska mötas i samma värde. För en styckvis funktion räcker det därför inte att bara sätta in punkten i ena uttrycket.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ]
+},
   {
     "id": "1.107",
     "kap": 1,
@@ -4815,41 +4815,41 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.109",
-    "kap": 1,
-    "omr": "gransvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Bestäm gränsvärdet</p><p>\\[\\lim_{x\\to -3}x - 3.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Direkt insättning ger formen \\(0/0\\), så faktorisera och förkorta den faktor som orsakar problemet.</p></li><li><div class=\"facit-berakning\"><p>Det förenklade uttrycket kan sedan värderas vid</p><div class=\"facit-matte\">\\[x=-3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{-6}\\).</p></div></div>",
-    "familj": "Beräkna gränsvärden",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -6,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Förstå och beräkna gränsvärden",
-      "Beräkna och tolka gränsvärden"
-    ],
-    "ledtrad": "<p>Tänk så här: Kontinuitet i en punkt betyder att vänstergränsvärde, högergränsvärde och funktionsvärde ska mötas i samma värde. För en styckvis funktion räcker det därför inte att bara sätta in punkten i ena uttrycket.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ]
-  },
+  "id": "1.109",
+  "kap": 1,
+  "omr": "gransvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Bestäm gränsvärdet</p><p>\\[\\lim_{x\\to -3}x - 3.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket är en kontinuerlig funktion. Därför kan vi sätta in x = -3 direkt.</p><div class=\"facit-matte\">\\[\\lim_{x\\to -3}(x-3)=-3-3=-6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: -6.</strong></p></div>",
+  "familj": "Beräkna gränsvärden",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": -6,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Förstå och beräkna gränsvärden",
+    "Beräkna och tolka gränsvärden"
+  ],
+  "ledtrad": "<p>Tänk så här: Kontinuitet i en punkt betyder att vänstergränsvärde, högergränsvärde och funktionsvärde ska mötas i samma värde. För en styckvis funktion räcker det därför inte att bara sätta in punkten i ena uttrycket.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ]
+},
   {
     "id": "1.110",
     "kap": 1,
@@ -4934,41 +4934,41 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.112",
-    "kap": 1,
-    "omr": "gransvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Bestäm gränsvärdet</p><p>\\[\\lim_{x\\to 4}x + 4.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Direkt insättning ger formen \\(0/0\\), så faktorisera och förkorta den faktor som orsakar problemet.</p></li><li><div class=\"facit-berakning\"><p>Det förenklade uttrycket kan sedan värderas vid</p><div class=\"facit-matte\">\\[x=4\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{8}\\).</p></div>",
-    "familj": "Beräkna gränsvärden",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Förstå och beräkna gränsvärden",
-      "Beräkna och tolka gränsvärden"
-    ],
-    "ledtrad": "<p>Kontinuitet i en punkt betyder att vänstergränsvärde, högergränsvärde och funktionsvärde ska mötas i samma värde. För en styckvis funktion räcker det därför inte att bara sätta in punkten i ena uttrycket.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ]
-  },
+  "id": "1.112",
+  "kap": 1,
+  "omr": "gransvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Bestäm gränsvärdet</p><p>\\[\\lim_{x\\to 4}x + 4.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket är en kontinuerlig funktion. Därför kan vi sätta in x = 4 direkt.</p><div class=\"facit-matte\">\\[\\lim_{x\\to 4}(x+4)=4+4=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 8.</strong></p></div>",
+  "familj": "Beräkna gränsvärden",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Förstå och beräkna gränsvärden",
+    "Beräkna och tolka gränsvärden"
+  ],
+  "ledtrad": "<p>Kontinuitet i en punkt betyder att vänstergränsvärde, högergränsvärde och funktionsvärde ska mötas i samma värde. För en styckvis funktion räcker det därför inte att bara sätta in punkten i ena uttrycket.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ]
+},
   {
     "id": "1.113",
     "kap": 1,
@@ -5054,41 +5054,41 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.115",
-    "kap": 1,
-    "omr": "gransvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Bestäm gränsvärdet</p><p>\\[\\lim_{x\\to 0}x + 3.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Direkt insättning ger formen \\(0/0\\), så faktorisera och förkorta den faktor som orsakar problemet.</p></li><li><div class=\"facit-berakning\"><p>Det förenklade uttrycket kan sedan värderas vid</p><div class=\"facit-matte\">\\[x=0\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{3}\\).</p></div></div>",
-    "familj": "Beräkna gränsvärden",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3,
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "svarFormat": "numeriskt",
-    "familjTidigare": [
-      "Förstå och beräkna gränsvärden",
-      "Beräkna och tolka gränsvärden"
-    ],
-    "ledtrad": "<p>Viktigt steg: Kontinuitet i en punkt betyder att vänstergränsvärde, högergränsvärde och funktionsvärde ska mötas i samma värde. För en styckvis funktion räcker det därför inte att bara sätta in punkten i ena uttrycket.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ]
-  },
+  "id": "1.115",
+  "kap": 1,
+  "omr": "gransvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>Bestäm gränsvärdet</p><p>\\[\\lim_{x\\to 0}x + 3.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket är en kontinuerlig funktion. Därför kan vi sätta in x = 0 direkt.</p><div class=\"facit-matte\">\\[\\lim_{x\\to 0}(x+3)=0+3=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 3.</strong></p></div>",
+  "familj": "Beräkna gränsvärden",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3,
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarFormat": "numeriskt",
+  "familjTidigare": [
+    "Förstå och beräkna gränsvärden",
+    "Beräkna och tolka gränsvärden"
+  ],
+  "ledtrad": "<p>Viktigt steg: Kontinuitet i en punkt betyder att vänstergränsvärde, högergränsvärde och funktionsvärde ska mötas i samma värde. För en styckvis funktion räcker det därför inte att bara sätta in punkten i ena uttrycket.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ]
+},
   {
     "id": "1.116",
     "kap": 1,
@@ -12601,75 +12601,75 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.431",
-    "kap": 1,
-    "omr": "gransvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/0/1",
-    "t": "<p>Fiskpopulationen beskrivs av</p><p>\\[N(t)=\\frac{15000}{3+2e^{-0{,}5t}}.\\]</p><p>Bestäm den övre gränsen för antalet fiskar med hjälp av sambandet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(t\\to\\infty\\) går \\(e^{-0{,}5t}\\to0\\).</p></li><li><p>Därför</p><p>\\[N(t)\\to\\frac{15000}{3}=5000.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: 5000 fiskar.</strong></p></div>",
-    "familj": "Gränsvärden när x växer obegränsat och i modeller",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 5000,
-    "tolerans": 0,
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Undersök vad exponentialtermen går mot när tiden blir mycket stor.</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 1,
-    "spel": true,
-    "kalla": "NP Ma3c vt 2013, uppgift 10b",
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ],
-    "familjTidigare": [
-      "Gränsvärde i mättnadsmodell"
-    ]
-  },
+  "id": "1.431",
+  "kap": 1,
+  "omr": "gransvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Fiskpopulationen beskrivs av</p><p>\\[N(t)=\\frac{15000}{3+2e^{-0{,}5t}}.\\]</p><p>Bestäm den övre gränsen för antalet fiskar med hjälp av sambandet.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(t\\to\\infty\\) går \\(e^{-0{,}5t}\\to0\\).</p></li><li><p>Därför</p><p>\\[N(t)\\to\\frac{15000}{3}=5000.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: 5000 fiskar.</strong></p></div>",
+  "familj": "Gränsvärden när x växer obegränsat och i modeller",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 5000,
+  "tolerans": 0,
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "ledtrad": "<p>Undersök vad exponentialtermen går mot när tiden blir mycket stor.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kalla": "NP Ma3c vt 2013, uppgift 10b",
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ],
+  "familjTidigare": [
+    "Gränsvärde i mättnadsmodell"
+  ]
+},
   {
-    "id": "1.432",
-    "kap": 1,
-    "omr": "gransvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/0/1",
-    "t": "<p>Ett mobilabonnemang har en fast månadsavgift på 49 kr och en öppningsavgift på 0,69 kr per samtal. Om du ringer \\(x\\) samtal är totalkostnaden \\(0{,}69x+49\\) kr.</p><p>Kostnaden per samtal närmar sig en undre gräns när antalet samtal ökar. Ange denna gräns i kronor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kostnaden per samtal är</p><p>\\[\\frac{0{,}69x+49}{x}=0{,}69+\\frac{49}{x}.\\]</p></li><li><p>När \\(x\\to\\infty\\) går \\(49/x\\to0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: 0,69 kr.</strong></p></div>",
-    "familj": "Gränsvärden när x växer obegränsat och i modeller",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 0.69,
-    "tolerans": 0.001,
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Skriv kostnaden per samtal som totalkostnad delat med antal samtal och låt sedan x bli mycket stort.</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 1,
-    "spel": true,
-    "kalla": "NP Ma3c vt 2014, uppgift 8b",
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ],
-    "familjTidigare": [
-      "Gränsvärde i kostnadsmodell"
-    ]
-  },
+  "id": "1.432",
+  "kap": 1,
+  "omr": "gransvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Ett mobilabonnemang har en fast månadsavgift på 49 kr och en öppningsavgift på 0,69 kr per samtal. Om du ringer \\(x\\) samtal är totalkostnaden \\(0{,}69x+49\\) kr.</p><p>Kostnaden per samtal närmar sig en undre gräns när antalet samtal ökar. Ange denna gräns i kronor.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kostnaden per samtal är</p><p>\\[\\frac{0{,}69x+49}{x}=0{,}69+\\frac{49}{x}.\\]</p></li><li><p>När \\(x\\to\\infty\\) går \\(49/x\\to0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: 0,69 kr.</strong></p></div>",
+  "familj": "Gränsvärden när x växer obegränsat och i modeller",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.69,
+  "tolerans": 0.001,
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "ledtrad": "<p>Skriv kostnaden per samtal som totalkostnad delat med antal samtal och låt sedan x bli mycket stort.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kalla": "NP Ma3c vt 2014, uppgift 8b",
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ],
+  "familjTidigare": [
+    "Gränsvärde i kostnadsmodell"
+  ]
+},
   {
     "id": "1.433",
     "kap": 1,
@@ -12746,13 +12746,13 @@ window.BANKMATO1 = [
     "1b",
     "1c"
   ],
-  "niva": "C",
-  "poang": "0/3/0",
+  "niva": "E",
+  "poang": "2/0/0",
   "t": "<p>Antalet människor på jorden, i miljarder, modelleras av</p><p>\\[N(t)=\\frac{11}{1+3{,}4e^{-0{,}03t}}.\\]</p><p>Här är \\(t\\) antalet år efter 1950. Bestäm den övre gräns som modellen närmar sig när tiden ökar.</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(t\\to\\infty\\) går \\(e^{-0{,}03t}\\to0\\).</p><p>\\[N(t)\\to\\frac{11}{1}=11.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: 11 miljarder.</strong></p></div>",
   "familj": "Gränsvärden när x växer obegränsat och i modeller",
   "geogebra": false,
-  "miniräknare": false,
+  "miniräknare": true,
   "svarstyp": "numeriskt",
   "rättSvar": 11,
   "tolerans": 0,
@@ -12762,7 +12762,7 @@ window.BANKMATO1 = [
     "procedur"
   ],
   "ledtrad": "<p>Undersök exponentialtermen när t blir mycket stor.</p>",
-  "traningsniva": 4,
+  "traningsniva": 2,
   "arbetsinsats": 2,
   "spel": true,
   "kalla": "NP Ma3c ht 2013, uppgift 20b",
@@ -12775,75 +12775,75 @@ window.BANKMATO1 = [
   "svarEnhet": "miljarder"
 },
   {
-    "id": "1.436",
-    "kap": 1,
-    "omr": "gransvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/0/3",
-    "t": "<p>Bestäm konstanten \\(A\\) så att</p><p>\\[\\lim_{x\\to\\infty}\\frac{Ax}{4x+A}=\\frac17.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dividera täljare och nämnare med \\(x\\):</p><p>\\[\\frac{A}{4+A/x}\\to\\frac A4.\\]</p></li><li><p>Alltså \\(A/4=1/7\\), vilket ger <strong>\\(A=4/7\\)</strong>.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\dfrac{4}{7}\\)</strong></p></div>",
-    "familj": "Gränsvärden med parameter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "bråk",
-    "rättSvar": "4/7",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "problemlösning",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Dividera täljare och nämnare med x.</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 2,
-    "spel": true,
-    "kalla": "NP Ma3c ht 2013, uppgift 15",
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ],
-    "familjTidigare": [
-      "Parameterbestämning med gränsvärde"
-    ]
-  },
+  "id": "1.436",
+  "kap": 1,
+  "omr": "gransvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Bestäm konstanten \\(A\\) så att</p><p>\\[\\lim_{x\\to\\infty}\\frac{Ax}{4x+A}=\\frac17.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dividera täljare och nämnare med \\(x\\):</p><p>\\[\\frac{A}{4+A/x}\\to\\frac A4.\\]</p></li><li><p>Alltså \\(A/4=1/7\\), vilket ger <strong>\\(A=4/7\\)</strong>.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\dfrac{4}{7}\\)</strong></p></div>",
+  "familj": "Gränsvärden med parameter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "bråk",
+  "rättSvar": "4/7",
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "problemlösning",
+    "resonemang"
+  ],
+  "ledtrad": "<p>Dividera täljare och nämnare med x.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kalla": "NP Ma3c ht 2013, uppgift 15",
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ],
+  "familjTidigare": [
+    "Parameterbestämning med gränsvärde"
+  ]
+},
   {
-    "id": "1.437",
-    "kap": 1,
-    "omr": "gransvarde",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "A",
-    "poang": "0/0/1",
-    "t": "<p>Bestäm</p><p>\\[\\lim_{x\\to\\infty}\\sqrt{\\frac{16x}{4x+9}}.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dividera bråket under roten med \\(x\\):</p><p>\\[\\sqrt{\\frac{16}{4+9/x}}\\to\\sqrt4=2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: 2.</strong></p></div>",
-    "familj": "Gränsvärden när x växer obegränsat och i modeller",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": 2,
-    "tolerans": 0,
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "ledtrad": "<p>Förenkla bråket under rottecknet genom att dividera med x.</p>",
-    "traningsniva": 5,
-    "arbetsinsats": 1,
-    "spel": true,
-    "kalla": "NP Ma3c ht 2012, uppgift 9b",
-    "omrTidigare": [
-      "gransvarde_kontinuitet"
-    ],
-    "familjTidigare": [
-      "Gränsvärde med rotuttryck"
-    ]
-  },
+  "id": "1.437",
+  "kap": 1,
+  "omr": "gransvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Bestäm</p><p>\\[\\lim_{x\\to\\infty}\\sqrt{\\frac{16x}{4x+9}}.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dividera bråket under roten med \\(x\\):</p><p>\\[\\sqrt{\\frac{16}{4+9/x}}\\to\\sqrt4=2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: 2.</strong></p></div>",
+  "familj": "Gränsvärden när x växer obegränsat och i modeller",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "ledtrad": "<p>Förenkla bråket under rottecknet genom att dividera med x.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "kalla": "NP Ma3c ht 2012, uppgift 9b",
+  "omrTidigare": [
+    "gransvarde_kontinuitet"
+  ],
+  "familjTidigare": [
+    "Gränsvärde med rotuttryck"
+  ]
+},
   {
     "id": "1.438",
     "kap": 1,
@@ -110724,6 +110724,258 @@ window.BANKMATO1 = [
   "svarstyp": "numeriskt",
   "svarFormat": "numeriskt",
   "tolerans": 1e-09
-}
+},
+  {
+    "id": "1.941",
+    "kap": 1,
+    "omr": "gransvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Beräkna gränsvärden",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Figuren visar funktionen f. Bestäm gränsvärdet när x närmar sig 1 från vänster: \\(\\lim_{x\\to1^-}f(x)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Funktionen går mot 2 från vänster vid x=1, men har värdet 4 där.\"><title>Funktionen går mot 2 från vänster vid x=1, men har värdet 4 där.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M188.33333333333331 50V250\" stroke=\"#d6e1ea\"/><text x=\"188.33333333333331\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 210.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"216.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 170.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"176.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 130.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"136.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 90.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"96.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,210.000 188.333,170.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"188.333,90.000 435.000,90.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"188.33333333333331\" cy=\"170.0\" r=\"6\" fill=\"#fff\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"188.33333333333331\" cy=\"90.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från vänster följer vi den nedre delen av grafen. Där närmar sig funktionsvärdet 2. Den fyllda punkten på höjden 4 anger f(1), inte vänstergränsvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 2.</strong></p></div>",
+    "ledtrad": "<p>Vilken del av grafen hör till x-värden mindre än 1?</p>",
+    "rättSvar": 2,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+  "id": "1.942",
+  "kap": 1,
+  "omr": "gransvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Gränsvärden när x växer obegränsat och i modeller",
+  "niva": "E",
+  "poang": "1/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Spänningen närmar sig den streckade nivån när tiden ökar. Vilket värde har \\(\\lim_{t\\to\\infty}U(t)\\)? (Svara i V.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Spänningen stiger från noll och närmar sig den streckade nivån 12 volt.\"><title>Spänningen stiger från noll och närmar sig den streckade nivån 12 volt.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M139.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"139.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M213.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"213.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M287.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"287.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M361.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"361.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 192.85714285714286H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"198.85714285714286\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 135.71428571428572H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"141.71428571428572\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><path d=\"M65 78.57142857142858H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"84.57142857142858\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">12</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Tid t (s)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Spänning U (V)</text><polyline points=\"65.000,250.000 68.700,243.278 72.400,236.820 76.100,230.615 79.800,224.653 83.500,218.925 87.200,213.422 90.900,208.134 94.600,203.054 98.300,198.173 102.000,193.483 105.700,188.978 109.400,184.649 113.100,180.489 116.800,176.493 120.500,172.653 124.200,168.964 127.900,165.420 131.600,162.015 135.300,158.743 139.000,155.599 142.700,152.579 146.400,149.677 150.100,146.889 153.800,144.210 157.500,141.636 161.200,139.164 164.900,136.788 168.600,134.505 172.300,132.312 176.000,130.205 179.700,128.180 183.400,126.235 187.100,124.366 190.800,122.570 194.500,120.845 198.200,119.188 201.900,117.595 205.600,116.065 209.300,114.595 213.000,113.182 216.700,111.825 220.400,110.521 224.100,109.268 227.800,108.065 231.500,106.908 235.200,105.797 238.900,104.730 242.600,103.704 246.300,102.719 250.000,101.772 253.700,100.862 257.400,99.988 261.100,99.148 264.800,98.341 268.500,97.566 272.200,96.821 275.900,96.106 279.600,95.418 283.300,94.758 287.000,94.123 290.700,93.513 294.400,92.927 298.100,92.365 301.800,91.824 305.500,91.304 309.200,90.805 312.900,90.325 316.600,89.864 320.300,89.421 324.000,88.996 327.700,88.587 331.400,88.195 335.100,87.817 338.800,87.455 342.500,87.106 346.200,86.772 349.900,86.450 353.600,86.141 357.300,85.844 361.000,85.559 364.700,85.285 368.400,85.022 372.100,84.769 375.800,84.526 379.500,84.293 383.200,84.068 386.900,83.853 390.600,83.646 394.300,83.447 398.000,83.255 401.700,83.072 405.400,82.895 409.100,82.726 412.800,82.563 416.500,82.406 420.200,82.256 423.900,82.112 427.600,81.973 431.300,81.839 435.000,81.711\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><path d=\"M65 78.571H435\" stroke=\"#b25c17\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><text x=\"330\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Gränsnivå</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den streckade nivån ligger vid 12 V. Det är det värde spänningen närmar sig när tiden blir mycket stor.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 12 V.</strong></p></div>",
+  "ledtrad": "<p>Läs av höjden på den streckade nivån.</p>",
+  "rättSvar": 12,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09,
+  "svarEnhet": "V"
+},
+  {
+    "id": "1.943",
+    "kap": 1,
+    "omr": "gransvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Gränsvärden när x växer obegränsat och i modeller",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen är \\(f(x)=\\dfrac{2x+1}{x+2}\\). Tabellen visar avrundade värden. Bestäm \\(\\lim_{x\\to\\infty}f(x)\\) med hjälp av uttrycket.</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">x</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">f(x), avrundat</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">10</td><td style=\"padding:8px;border:1px solid #8796a5\">1,750</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">100</td><td style=\"padding:8px;border:1px solid #8796a5\">1,971</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">1000</td><td style=\"padding:8px;border:1px solid #8796a5\">1,997</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv om täljaren som 2(x+2)−3.</p><div class=\"facit-matte\">\\[f(x)=2-\\frac3{x+2}\\]</div></li><li><p>När x växer obegränsat går bråket mot 0. Funktionen närmar sig alltså 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 2.</strong></p></div>",
+    "ledtrad": "<p>Jämför täljaren med två gånger nämnaren.</p>",
+    "rättSvar": 2,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+  "id": "1.944",
+  "kap": 1,
+  "omr": "gransvarde",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Beräkna gränsvärden",
+  "niva": "E",
+  "poang": "1/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Graferna visar funktionerna f och g nära x = 1. Bestäm</p><div class=\"facit-matte\">\\[\\lim_{x\\to1}\\bigl(2f(x)-g(x)\\bigr)\\]</div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Graferna till f och g har hål vid (1,3) respektive (1,-2).\"><title>Graferna till f och g har hål vid (1,3) respektive (1,-2).</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−4</text><path d=\"M65 205.55555555555554H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"211.55555555555554\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−2</text><path d=\"M65 161.11111111111111H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"167.11111111111111\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 116.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"122.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 94.44444444444446H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"100.44444444444446\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 72.22222222222223H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"78.22222222222223\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,116.667 435.000,72.222\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"65.000,183.333 435.000,227.778\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"250.0\" cy=\"94.44444444444446\" r=\"6\" fill=\"#fff\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"250.0\" cy=\"205.55555555555554\" r=\"6\" fill=\"#fff\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"390\" y=\"57\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#172e46\">f</text><text x=\"460\" y=\"233\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#172e46\">g</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Av graferna ser vi att f(x) närmar sig 3 och g(x) närmar sig −2. Kombinera gränsvärdena:</p><div class=\"facit-matte\">\\[2\\cdot3-(-2)=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 8.</strong></p></div>",
+  "ledtrad": "<p>Läs först av de två gränsvärdena var för sig.</p>",
+  "rättSvar": 8,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+  {
+    "id": "1.945",
+    "kap": 1,
+    "omr": "gransvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Beräkna gränsvärden",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+3t\\), där s mäts i meter och t i sekunder. Bestäm gränsvärdet</p><div class=\"facit-matte\">\\[\\lim_{h\\to0}\\frac{s(2+h)-s(2)}h\\]</div><p>(Svara i m/s.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Först är s(2) = 10. Utveckla s(2+h) och ta bort s(2).</p><div class=\"facit-matte\">\\[s(2+h)=10+7h+h^2\\]</div></li><li><p>För h ≠ 0 kan kvoten förenklas:</p><div class=\"facit-matte\">\\[\\frac{7h+h^2}{h}=7+h\\]</div></li><li><p>När h går mot 0 går kvoten mot 7. Det är hastigheten vid t = 2 s.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 7 m/s.</strong></p></div>",
+    "ledtrad": "<p>Utveckla s(2+h) innan du förenklar kvoten.</p>",
+    "rättSvar": 7,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09,
+    "svarEnhet": "m/s"
+  },
+  {
+    "id": "1.946",
+    "kap": 1,
+    "omr": "gransvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Beräkna gränsvärden",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Bestäm gränsvärdet</p><div class=\"facit-matte\">\\[\\lim_{x\\to0}\\frac{\\frac1{1+x}-1}{x}\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv täljaren med gemensam nämnare.</p><div class=\"facit-matte\">\\[\\frac1{1+x}-1=\\frac{-x}{1+x}\\]</div></li><li><p>Dividera med x och förkorta för x ≠ 0.</p><div class=\"facit-matte\">\\[\\frac{-x}{x(1+x)}=-\\frac1{1+x}\\]</div></li><li><p>Det sista uttrycket närmar sig −1 när x går mot 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: −1.</strong></p></div>",
+    "ledtrad": "<p>Förenkla täljaren innan du dividerar med x.</p>",
+    "rättSvar": -1,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+    "id": "1.947",
+    "kap": 1,
+    "omr": "gransvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Gränsvärden när x växer obegränsat och i modeller",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En lösning innehåller 20 g salt i 2 liter vätska. Man tillsätter x liter rent vatten. Koncentrationen blir \\(C(x)=\\dfrac{20}{2+x}\\) g/liter. Vilket påstående stämmer när man tillsätter allt mer vatten? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 230\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Saltlösning med 20 g salt i 2 liter vätska späds med x liter rent vatten.\"><title>Saltlösning med 20 g salt i 2 liter vätska späds med x liter rent vatten.</title><rect width=\"500\" height=\"230\" fill=\"white\" rx=\"10\"/><path d=\"M175 70V200H325V70\" fill=\"#e5f1f7\" stroke=\"#24435e\" stroke-width=\"3\"/><path d=\"M380 45H285V65\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"5\"/><text x=\"390\" y=\"30\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">x liter vatten</text><text x=\"250\" y=\"120\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Från början:</text><text x=\"250\" y=\"150\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">20 g salt</text><text x=\"250\" y=\"180\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">2 liter lösning</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Täljaren är alltid 20 medan nämnaren växer. Därför går koncentrationen mot 0. För varje ändlig vattenmängd är kvoten fortfarande positiv.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Koncentrationen närmar sig 0 men blir aldrig exakt 0.</strong></p></div>",
+    "ledtrad": "<p>Kan ett bråk med positiv täljare och ändlig positiv nämnare bli noll?</p>",
+    "rättSvar": null,
+    "svarstyp": "alternativ",
+    "svarFormat": "text",
+    "tolerans": 1e-09,
+    "alternativ": [
+      {
+        "txt": "Koncentrationen blir exakt 0 när x = 20.",
+        "ratt": false
+      },
+      {
+        "txt": "Koncentrationen närmar sig 10 g/liter.",
+        "ratt": false
+      },
+      {
+        "txt": "Koncentrationen blir negativ när x är tillräckligt stort.",
+        "ratt": false
+      },
+      {
+        "txt": "Koncentrationen närmar sig 0 men blir aldrig exakt 0.",
+        "ratt": true
+      }
+    ]
+  },
+  {
+    "id": "1.948",
+    "kap": 1,
+    "omr": "gransvarde",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Gränsvärden med parameter",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Bestäm talet a så att</p><div class=\"facit-matte\">\\[\\lim_{x\\to0}\\frac{\\sqrt{1+ax}-1}{x}=3\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera med rotuttryckets konjugat i både täljare och nämnare.</p><div class=\"facit-matte\">\\[\\frac{\\sqrt{1+ax}-1}{x}=\\frac{ax}{x(\\sqrt{1+ax}+1)}\\]</div></li><li><p>För x ≠ 0 förenklas kvoten till:</p><div class=\"facit-matte\">\\[\\frac{a}{\\sqrt{1+ax}+1}\\]</div></li><li><p>När x går mot 0 blir gränsvärdet a/2. Därför ska a/2 = 3, vilket ger a = 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(a=6\\).</strong></p></div>",
+    "ledtrad": "<p>Hur kan konjugatregeln ta bort roten ur täljaren?</p>",
+    "rättSvar": 6,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09
+  }
 
 ];

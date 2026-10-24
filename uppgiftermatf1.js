@@ -19660,20 +19660,19 @@ window.BANKMATF1 = [
     "omr": "indirekta_bevis",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du vill bevisa påståendet: ”Om \\(n^2\\) är jämnt så är \\(n\\) jämnt.” Vilken metod är särskilt naturlig?</p><p>A. Induktion över reella tal.<br>B. Indirekt bevis: visa att om n är udda så är \\(n^2\\) udda.<br>C. Numerisk approximation.<br>D. Rita en graf.</p>",
-    "s": "<div class=\"facit-v2\"><p>Ett indirekt bevis kan göras genom att visa det logiskt likvärdiga påståendet: om n är udda, så är n² udda. Denna variant kallas kontraposition.</p><div class=\"facit-matte\">\\[n=2k+1\\quad\\Rightarrow\\quad n^2=2(2k^2+2k)+1.\\]</div><p>Det sista uttrycket är udda för varje heltal k. Alltså kan n² inte vara jämnt när n är udda.</p><p><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Du vill bevisa påståendet: ”Om \\(n^2\\) är jämnt så är \\(n\\) jämnt.” Vilken metod är särskilt naturlig?</p>",
+    "s": "<div class=\"facit-v2\"><p>Ett indirekt bevis kan göras genom att visa det logiskt likvärdiga påståendet: om n är udda, så är n² udda. Denna variant kallas kontraposition.</p><div class=\"facit-matte\">\\[n=2k+1\\quad\\Rightarrow\\quad n^2=2(2k^2+2k)+1.\\]</div><p>Det sista uttrycket är udda för varje heltal k. Alltså kan n² inte vara jämnt när n är udda.</p><p><strong>Svar:</strong> Indirekt bevis: visa att om n är udda så är \\(n^2\\) udda.</p></div>",
     "familj": "Kontraposition och motexempel",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Vilket påstående får du om du byter riktning och nekar både antagandet och slutsatsen?</p>",
     "traningsniva": 1,
     "typ": "välja bevismetod",
@@ -19683,7 +19682,8 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval",
       "Matematiska induktionsbevis"
-    ]
+    ],
+    "alternativ": [{"txt": "Induktion över reella tal.", "ratt": false}, {"txt": "Indirekt bevis: visa att om n är udda så är \\(n^2\\) udda.", "ratt": true}, {"txt": "Numerisk approximation.", "ratt": false}, {"txt": "Rita en graf.", "ratt": false}]
   },
   {
     "id": "2.322",
@@ -36878,14 +36878,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
-    "t": "<p>Du vill visa att summan av två jämna heltal är jämn. Vilken start är bäst?</p><p>A. Skriv talen som \\(2a\\) och \\(2b\\).<br>B. Skriv båda som \\(2a+1\\).<br>C. Anta att de är primtal.<br>D. Rita en graf.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: A.</strong> Med \\(2a+2b=2(a+b)\\) syns direkt att summan är jämn.</p></div>",
+    "t": "<p>Du vill visa att summan av två jämna heltal är jämn. Vilken start är bäst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: Skriv talen som \\(2a\\) och \\(2b\\).</strong> Med \\(2a+2b=2(a+b)\\) syns direkt att summan är jämn.</p></div>",
     "id": "2.539",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Direkta bevis och metodval",
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -36893,14 +36893,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 1,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "Skriv talen som \\(2a\\) och \\(2b\\).", "ratt": true}, {"txt": "Skriv båda som \\(2a+1\\).", "ratt": false}, {"txt": "Anta att de är primtal.", "ratt": false}, {"txt": "Rita en graf.", "ratt": false}]
   },
   {
     "kap": 2,
@@ -36908,14 +36908,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
-    "t": "<p>Du vill visa att kvadraten av ett udda heltal är udda. Vilken representation ska du börja med?</p><p>A. \\(n=2k\\)<br>B. \\(n=2k+1\\)<br>C. \\(n=k/2\\)<br>D. \\(n=k^2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: B.</strong> Ett udda heltal skrivs \\(2k+1\\). Då blir kvadraten \\(4k^2+4k+1=2(2k^2+2k)+1\\), alltså udda.</p></div>",
+    "t": "<p>Du vill visa att kvadraten av ett udda heltal är udda. Vilken representation ska du börja med?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: \\(n=2k+1\\).</strong> Ett udda heltal skrivs \\(2k+1\\). Då blir kvadraten \\(4k^2+4k+1=2(2k^2+2k)+1\\), alltså udda.</p></div>",
     "id": "2.540",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Direkta bevis och metodval",
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -36923,14 +36923,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 1,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(n=2k\\)", "ratt": false}, {"txt": "\\(n=2k+1\\)", "ratt": true}, {"txt": "\\(n=k/2\\)", "ratt": false}, {"txt": "\\(n=k^2\\)", "ratt": false}]
   },
   {
     "kap": 2,
@@ -36938,14 +36938,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
-    "t": "<p>Du vill visa att om \\(n^2\\) är jämnt så är \\(n\\) jämnt. Vilken metod är naturlig?</p><p>A. Indirekt bevis: anta att \\(n\\) är udda och visa att \\(n^2\\) är udda.<br>B. Lådprincipen.<br>C. Numerisk approximation.<br>D. Partiell integration.</p>",
-    "s": "<div class=\"facit-v2\"><p>Ett indirekt bevis kan göras genom att visa det logiskt likvärdiga påståendet: om n är udda, så är n² udda. Denna variant kallas kontraposition.</p><div class=\"facit-matte\">\\[n=2k+1\\quad\\Rightarrow\\quad n^2=2(2k^2+2k)+1.\\]</div><p>Det sista uttrycket är udda för varje heltal k. Alltså kan n² inte vara jämnt när n är udda.</p><p><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Du vill visa att om \\(n^2\\) är jämnt så är \\(n\\) jämnt. Vilken metod är naturlig?</p>",
+    "s": "<div class=\"facit-v2\"><p>Ett indirekt bevis kan göras genom att visa det logiskt likvärdiga påståendet: om n är udda, så är n² udda. Denna variant kallas kontraposition.</p><div class=\"facit-matte\">\\[n=2k+1\\quad\\Rightarrow\\quad n^2=2(2k^2+2k)+1.\\]</div><p>Det sista uttrycket är udda för varje heltal k. Alltså kan n² inte vara jämnt när n är udda.</p><p><strong>Svar:</strong> Indirekt bevis: anta att \\(n\\) är udda och visa att \\(n^2\\) är udda.</p></div>",
     "id": "2.541",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Kontraposition och motexempel",
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -36953,14 +36953,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 2,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Vilket påstående får du om du byter riktning och nekar både antagandet och slutsatsen?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "Indirekt bevis: anta att \\(n\\) är udda och visa att \\(n^2\\) är udda.", "ratt": true}, {"txt": "Lådprincipen.", "ratt": false}, {"txt": "Numerisk approximation.", "ratt": false}, {"txt": "Partiell integration.", "ratt": false}]
   },
   {
     "kap": 2,
@@ -36968,14 +36968,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
-    "t": "<p>I ett direkt delbarhetsbevis vet du att \\(3\\mid n\\). Vilket uttryck får du skriva?</p><p>A. \\(n=3+k\\)<br>B. \\(n=k/3\\)<br>C. \\(n=3k\\) för något heltal \\(k\\)<br>D. \\(n=3^k\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: C.</strong> Definitionen av \\(3\\mid n\\) är att \\(n=3k\\) för något heltal \\(k\\).</p></div>",
+    "t": "<p>I ett direkt delbarhetsbevis vet du att \\(3\\mid n\\). Vilket uttryck får du skriva?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: \\(n=3k\\) för något heltal \\(k\\).</strong> Definitionen av \\(3\\mid n\\) är att \\(n=3k\\) för något heltal \\(k\\).</p></div>",
     "id": "2.542",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Direkta bevis och metodval",
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -36983,14 +36983,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 1,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(n=3+k\\)", "ratt": false}, {"txt": "\\(n=k/3\\)", "ratt": false}, {"txt": "\\(n=3k\\) för något heltal \\(k\\)", "ratt": true}, {"txt": "\\(n=3^k\\)", "ratt": false}]
   },
   {
     "kap": 2,
@@ -36998,14 +36998,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
-    "t": "<p>Vilket är rätt första steg i ett motsägelsebevis av påståendet ”det finns inga heltal \\(a,b\\) med egenskap P”?</p><p>A. Anta att det faktiskt finns heltal \\(a,b\\) med egenskap P.<br>B. Anta att alla reella tal är heltal.<br>C. Testa bara ett exempel.<br>D. Derivera P.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: A.</strong> I ett motsägelsebevis antar man negationen av det man vill visa och söker en motsägelse.</p></div>",
+    "t": "<p>Vilket är rätt första steg i ett motsägelsebevis av påståendet ”det finns inga heltal \\(a,b\\) med egenskap P”?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: Anta att det faktiskt finns heltal \\(a,b\\) med egenskap P.</strong> I ett motsägelsebevis antar man negationen av det man vill visa och söker en motsägelse.</p></div>",
     "id": "2.543",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Motsägelsebevis",
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -37013,11 +37013,11 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 2,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
     "omrTidigare": [
       "bevismetoder"
-    ]
+    ],
+    "alternativ": [{"txt": "Anta att det faktiskt finns heltal \\(a,b\\) med egenskap P.", "ratt": true}, {"txt": "Anta att alla reella tal är heltal.", "ratt": false}, {"txt": "Testa bara ett exempel.", "ratt": false}, {"txt": "Derivera P.", "ratt": false}]
   },
   {
     "kap": 2,
@@ -37025,14 +37025,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
-    "t": "<p>Vilken del kommer först i ett induktionsbevis?</p><p>A. Induktionssteget.<br>B. Basfallet.<br>C. Motsägelsen.<br>D. Lådprincipen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: B.</strong> Man börjar med att kontrollera att påståendet gäller för det första värdet, vanligtvis \\(n=1\\).</p></div>",
+    "t": "<p>Vilken del kommer först i ett induktionsbevis?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: Basfallet.</strong> Man börjar med att kontrollera att påståendet gäller för det första värdet, vanligtvis \\(n=1\\).</p></div>",
     "id": "2.544",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Matematiska induktionsbevis",
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -37040,11 +37040,11 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 1,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
     "omrTidigare": [
       "bevismetoder"
-    ]
+    ],
+    "alternativ": [{"txt": "Induktionssteget.", "ratt": false}, {"txt": "Basfallet.", "ratt": true}, {"txt": "Motsägelsen.", "ratt": false}, {"txt": "Lådprincipen.", "ratt": false}]
   },
   {
     "kap": 2,
@@ -37052,14 +37052,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
-    "t": "<p>I induktionssteget antar man att påståendet gäller för \\(n=k\\). Vad ska man sedan visa?</p><p>A. Att det gäller för \\(n=k-1\\).<br>B. Att det gäller för alla reella tal direkt.<br>C. Att det gäller för \\(n=k+1\\).<br>D. Att k är primtal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: C.</strong> Induktionssteget visar att sanningen för \\(k\\) medför sanningen för \\(k+1\\).</p></div>",
+    "t": "<p>I induktionssteget antar man att påståendet gäller för \\(n=k\\). Vad ska man sedan visa?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: Att det gäller för \\(n=k+1\\).</strong> Induktionssteget visar att sanningen för \\(k\\) medför sanningen för \\(k+1\\).</p></div>",
     "id": "2.545",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Matematiska induktionsbevis",
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -37067,11 +37067,11 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 2,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
     "omrTidigare": [
       "bevismetoder"
-    ]
+    ],
+    "alternativ": [{"txt": "Att det gäller för \\(n=k-1\\).", "ratt": false}, {"txt": "Att det gäller för alla reella tal direkt.", "ratt": false}, {"txt": "Att det gäller för \\(n=k+1\\).", "ratt": true}, {"txt": "Att k är primtal.", "ratt": false}]
   },
   {
     "kap": 2,
@@ -37079,14 +37079,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
-    "t": "<p>Du vill visa att \\(n(n+1)\\) alltid är jämnt för heltal \\(n\\). Vilken observation är nyckeln?</p><p>A. Alla heltal är jämna.<br>B. \\(n^2\\) är alltid jämnt.<br>C. \\(n+1\\) är alltid udda.<br>D. Två på varandra följande heltal innehåller alltid ett jämnt tal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: D.</strong> Produkten innehåller därför en faktor 2 och är jämn.</p></div>",
+    "t": "<p>Du vill visa att \\(n(n+1)\\) alltid är jämnt för heltal \\(n\\). Vilken observation är nyckeln?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: Två på varandra följande heltal innehåller alltid ett jämnt tal.</strong> Produkten innehåller därför en faktor 2 och är jämn.</p></div>",
     "id": "2.546",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Direkta bevis och metodval",
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -37094,14 +37094,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 2,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "Alla heltal är jämna.", "ratt": false}, {"txt": "\\(n^2\\) är alltid jämnt.", "ratt": false}, {"txt": "\\(n+1\\) är alltid udda.", "ratt": false}, {"txt": "Två på varandra följande heltal innehåller alltid ett jämnt tal.", "ratt": true}]
   },
   {
     "kap": 2,
@@ -37109,14 +37109,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
-    "t": "<p>För att visa att ett påstående är falskt räcker det ofta att hitta …</p><p>A. ett nytt bevis.<br>B. ett motexempel.<br>C. en derivata.<br>D. en restklass.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: B.</strong> Ett enda motexempel räcker för att motbevisa ett påstående som påstås gälla för alla fall.</p></div>",
+    "t": "<p>För att visa att ett påstående är falskt räcker det ofta att hitta …</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: ett motexempel.</strong> Ett enda motexempel räcker för att motbevisa ett påstående som påstås gälla för alla fall.</p></div>",
     "id": "2.547",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Kontraposition och motexempel",
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -37124,14 +37124,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 1,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "ett nytt bevis.", "ratt": false}, {"txt": "ett motexempel.", "ratt": true}, {"txt": "en derivata.", "ratt": false}, {"txt": "en restklass.", "ratt": false}]
   },
   {
     "kap": 2,
@@ -37139,14 +37139,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – grundidé",
     "poang": "1/0/0",
-    "t": "<p>Vilken metod passar bäst för att visa att minst två av 11 heltal har samma entalssiffra?</p><p>A. Induktionsbevis.<br>B. Motsägelsebevis med kvadratrötter.<br>C. Lådprincipen.<br>D. Partiell integration.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: C.</strong> Det finns 10 möjliga entalssiffror men 11 tal, vilket är ett direkt lådprincipproblem.</p></div>",
+    "t": "<p>Vilken metod passar bäst för att visa att minst två av 11 heltal har samma entalssiffra?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Rätt svar: Lådprincipen.</strong> Det finns 10 möjliga entalssiffror men 11 tal, vilket är ett direkt lådprincipproblem.</p></div>",
     "id": "2.548",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Matematiska induktionsbevis",
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -37154,14 +37154,14 @@ window.BANKMATF1 = [
       "resonemang"
     ],
     "traningsniva": 2,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Fokusera på definitionen eller på vilket första steg som gör beviset möjligt.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "Induktionsbevis.", "ratt": false}, {"txt": "Motsägelsebevis med kvadratrötter.", "ratt": false}, {"txt": "Lådprincipen.", "ratt": true}, {"txt": "Partiell integration.", "ratt": false}]
   },
   {
     "kap": 3,
@@ -46638,14 +46638,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
-    "t": "<p>Vilken formulering beskriver bäst ett indirekt bevis av \\(P\\Rightarrow Q\\)?</p><p>A) Visa \\(P\\Rightarrow Q\\) genom att anta både P och Q.<br>B) Visa \\(Q\\Rightarrow P\\).<br>C) Visa \\(\\neg Q\\Rightarrow\\neg P\\).<br>D) Visa att P och Q är lika stora.</p>",
-    "s": "<div class=\"facit-v2\"><p>I ett indirekt bevis med kontraposition visar man att om slutsatsen Q är falsk, så är antagandet P också falskt. Detta är logiskt likvärdigt med det ursprungliga påståendet.</p><div class=\"facit-matte\">\\[\\neg Q\\Rightarrow\\neg P.\\]</div><p><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>Vilken formulering beskriver bäst ett indirekt bevis av \\(P\\Rightarrow Q\\)?</p>",
+    "s": "<div class=\"facit-v2\"><p>I ett indirekt bevis med kontraposition visar man att om slutsatsen Q är falsk, så är antagandet P också falskt. Detta är logiskt likvärdigt med det ursprungliga påståendet.</p><div class=\"facit-matte\">\\[\\neg Q\\Rightarrow\\neg P.\\]</div><p><strong>Svar:</strong> Visa \\(\\neg Q\\Rightarrow\\neg P\\).</p></div>",
     "id": "2.577",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Kontraposition och motexempel",
-    "svarstyp": "kort_text",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -46653,14 +46653,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Vilket påstående får du om du byter riktning och nekar både antagandet och slutsatsen?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "Visa \\(P\\Rightarrow Q\\) genom att anta både P och Q.", "ratt": false}, {"txt": "Visa \\(Q\\Rightarrow P\\).", "ratt": false}, {"txt": "Visa \\(\\neg Q\\Rightarrow\\neg P\\).", "ratt": true}, {"txt": "Visa att P och Q är lika stora.", "ratt": false}]
   },
   {
     "kap": 2,

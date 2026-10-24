@@ -47771,24 +47771,24 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Vilken lodrät asymptot har funktionen \\(f(x)=\\ln x\\)?</p><p>A. \\(x=1\\)<br>B. \\(y=0\\)<br>C. \\(x=0\\)<br>D. Ingen</p>",
-    "s": "<div class=\"facit-v2\"><p>När x är positivt och närmar sig 0 minskar \\(\\ln x\\) utan gräns. Grafen närmar sig därför y-axeln, alltså linjen \\(x=0\\).</p><p><strong>Svar:</strong> C, \\(x=0\\).</p></div>",
+    "t": "<p>Vilken lodrät asymptot har funktionen \\(f(x)=\\ln x\\)?</p>",
+    "s": "<div class=\"facit-v2\"><p>När x är positivt och närmar sig 0 minskar \\(\\ln x\\) utan gräns. Grafen närmar sig därför y-axeln, alltså linjen \\(x=0\\).</p><p><strong>Svar:</strong> \\(x=0\\).</p></div>",
     "familj": "Grafanalys av specialfunktioner",
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "familjNyckel": "olika_grafer__grafanalys_av_specialfunktioner",
     "ledtrad": "<p>Undersök vad som händer med ln x när x närmar sig 0 från höger.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
       "grafer_asymptoter"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x=1\\)", "ratt": false}, {"txt": "\\(y=0\\)", "ratt": false}, {"txt": "\\(x=0\\)", "ratt": true}, {"txt": "Ingen", "ratt": false}]
   },
   {
     "id": "2.487",
@@ -47834,24 +47834,24 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Vilken vågrät asymptot har \\(f(x)=e^{-x}\\) när \\(x\\to\\infty\\)?</p><p>A. \\(x=0\\)<br>B. \\(y=1\\)<br>C. \\(y=0\\)<br>D. Ingen</p>",
-    "s": "<div class=\"facit-v2\"><p>Vi kan skriva \\(e^{-x}=1/e^x\\). När x växer blir nämnaren allt större och bråket närmar sig 0. Grafen närmar sig alltså linjen \\(y=0\\).</p><p><strong>Svar:</strong> C, \\(y=0\\).</p></div>",
+    "t": "<p>Vilken vågrät asymptot har \\(f(x)=e^{-x}\\) när \\(x\\to\\infty\\)?</p>",
+    "s": "<div class=\"facit-v2\"><p>Vi kan skriva \\(e^{-x}=1/e^x\\). När x växer blir nämnaren allt större och bråket närmar sig 0. Grafen närmar sig alltså linjen \\(y=0\\).</p><p><strong>Svar:</strong> \\(y=0\\).</p></div>",
     "familj": "Grafanalys av specialfunktioner",
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "familjNyckel": "olika_grafer__grafanalys_av_specialfunktioner",
     "ledtrad": "<p>Skriv \\(e^{-x}\\) som ett bråk. Vad händer när x växer?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "omrTidigare": [
       "grafer_asymptoter"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x=0\\)", "ratt": false}, {"txt": "\\(y=1\\)", "ratt": false}, {"txt": "\\(y=0\\)", "ratt": true}, {"txt": "Ingen", "ratt": false}]
   },
   {
     "id": "2.414",
@@ -90809,13 +90809,13 @@ window.BANKMATO2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För ett polynom \\(P\\) gäller \\(P(2)=0\\). Vilken av följande faktorer måste då finnas i \\(P(x)\\)?</p><p>A. \\(x-2\\)<br>B. \\(x+2\\)<br>C. \\(2x-1\\)<br>D. \\(x^2+2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorsatsen säger att \\(P(a)=0\\) om och endast om \\(x-a\\) är en faktor.</p></li><li><p>Eftersom \\(P(2)=0\\) måste \\(x-2\\) vara en faktor.</p></li></ol><p class=\"facit-svar\"><b>Svar: A</b>.</p></div>",
+    "t": "<p>För ett polynom \\(P\\) gäller \\(P(2)=0\\). Vilken av följande faktorer måste då finnas i \\(P(x)\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorsatsen säger att \\(P(a)=0\\) om och endast om \\(x-a\\) är en faktor.</p></li><li><p>Eftersom \\(P(2)=0\\) måste \\(x-2\\) vara en faktor.</p></li></ol><p class=\"facit-svar\"><b>Svar: \\(x-2\\).</p></div>",
     "familj": "Faktorsatsen och faktorisering",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -90825,7 +90825,6 @@ window.BANKMATO2 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "familjNyckel": "faktorsatsen__faktorsatsen_och_faktorisering",
     "idTidigare": "mato1 1.496",
     "omrTidigare": [
@@ -90833,7 +90832,8 @@ window.BANKMATO2 = [
     ],
     "familjTidigare": [
       "Faktorsatsen, faktorisering och polynomrötter"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x-2\\)", "ratt": true}, {"txt": "\\(x+2\\)", "ratt": false}, {"txt": "\\(2x-1\\)", "ratt": false}, {"txt": "\\(x^2+2\\)", "ratt": false}]
   },
   {
     "id": "4.461",

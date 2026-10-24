@@ -71792,13 +71792,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen ges av</p><p>\\[f(x)=\\begin{cases}x+2,&amp; x&lt;1\\\\3,&amp; x\\ge1.\\end{cases}\\]</p><p>Är funktionen kontinuerlig vid \\(x=1\\)?</p><p>A. Nej; vänstergränsvärdet är 2 medan högergränsvärdet och \\(f(1)\\) är 3.<br>B. Ja; vänstergränsvärdet, högergränsvärdet och \\(f(1)\\) är alla 3.<br>C. Nej; gränsvärdet är 3 men funktionsvärdet \\(f(1)\\) är 2.<br>D. Nej; vänster- och högergränsvärdet är olika, även om \\(f(1)=3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från vänster närmar sig \\(x+2\\) värdet 3.</p></li><li><div class=\"facit-berakning\"><p>Från höger är funktionsvärdet 3 och</p><div class=\"facit-matte\">\\[f(1)=3\\].</div></div></li><li><p>Alla tre värden sammanfaller, så funktionen är kontinuerlig.</p></li></ol><p class=\"facit-svar\"><b>Svar: B</b>.</p></div>",
+    "t": "<p>Funktionen ges av</p><p>\\[f(x)=\\begin{cases}x+2,&amp; x&lt;1\\\\3,&amp; x\\ge1.\\end{cases}\\]</p><p>Är funktionen kontinuerlig vid \\(x=1\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från vänster närmar sig \\(x+2\\) värdet 3.</p></li><li><div class=\"facit-berakning\"><p>Från höger är funktionsvärdet 3 och</p><div class=\"facit-matte\">\\[f(1)=3\\].</div></div></li><li><p>Alla tre värden sammanfaller, så funktionen är kontinuerlig.</p></li></ol><p class=\"facit-svar\"><b>Svar: Ja; vänstergränsvärdet, högergränsvärdet och \\(f(1)\\) är alla 3.</p></div>",
     "familj": "Kontinuitet och hål i grafer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -71808,10 +71808,10 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "gransvarde_kontinuitet"
-    ]
+    ],
+    "alternativ": [{"txt": "Nej; vänstergränsvärdet är 2 medan högergränsvärdet och \\(f(1)\\) är 3.", "ratt": false}, {"txt": "Ja; vänstergränsvärdet, högergränsvärdet och \\(f(1)\\) är alla 3.", "ratt": true}, {"txt": "Nej; gränsvärdet är 3 men funktionsvärdet \\(f(1)\\) är 2.", "ratt": false}, {"txt": "Nej; vänster- och högergränsvärdet är olika, även om \\(f(1)=3\\).", "ratt": false}]
   },
   {
     "id": "1.485",
@@ -72366,13 +72366,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationen \\(\\frac{x+1}{x-2}=\\frac{3}{x-2}\\).</p><p>A. \\(x=2\\)<br>B. \\(x=-2\\)<br>C. Ingen lösning<br>D. Alla \\(x\\ne2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(x\\ne2\\) kan båda led multipliceras med \\(x-2\\), vilket ger \\(x+1=3\\) och kandidaten \\(x=2\\).</p></li><li><p>Men \\(x=2\\) är förbjudet eftersom nämnaren då blir noll.</p></li><li><p>Ekvationen har därför ingen lösning.</p></li></ol><p class=\"facit-svar\"><b>Svar: C</b>.</p></div>",
+    "t": "<p>Lös ekvationen \\(\\frac{x+1}{x-2}=\\frac{3}{x-2}\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(x\\ne2\\) kan båda led multipliceras med \\(x-2\\), vilket ger \\(x+1=3\\) och kandidaten \\(x=2\\).</p></li><li><p>Men \\(x=2\\) är förbjudet eftersom nämnaren då blir noll.</p></li><li><p>Ekvationen har därför ingen lösning.</p></li></ol><p class=\"facit-svar\"><b>Svar: Ingen lösning.</p></div>",
     "familj": "Lösa rationella ekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -72383,13 +72383,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "rationella_uttryck"
     ],
     "familjTidigare": [
       "Rationell ekvation med förbjuden lösning"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x=2\\)", "ratt": false}, {"txt": "\\(x=-2\\)", "ratt": false}, {"txt": "Ingen lösning", "ratt": true}, {"txt": "Alla \\(x\\ne2\\)", "ratt": false}]
   },
   {
     "id": "1.509",
@@ -72976,13 +72976,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>För vilka värden på \\(a\\) saknar ekvationen \\(x^2+a=0\\) reella lösningar?</p><p>A. \\(a&lt;0\\)<br>B. \\(a=0\\)<br>C. För alla \\(a\\)<br>D. \\(a&gt;0\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Ekvationen kan skrivas</p><div class=\"facit-matte\">\\[x^2=-a\\].</div></div></li><li><p>Eftersom \\(x^2\\ge0\\) saknas reella lösningar när \\(-a&lt;0\\), alltså när \\(a&gt;0\\).</p></li></ol><p class=\"facit-svar\"><b>Svar: D</b>.</p></div>",
+    "t": "<p>För vilka värden på \\(a\\) saknar ekvationen \\(x^2+a=0\\) reella lösningar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Ekvationen kan skrivas</p><div class=\"facit-matte\">\\[x^2=-a\\].</div></div></li><li><p>Eftersom \\(x^2\\ge0\\) saknas reella lösningar när \\(-a&lt;0\\), alltså när \\(a&gt;0\\).</p></li></ol><p class=\"facit-svar\"><b>Svar: \\(a&gt;0\\).</p></div>",
     "familj": "Parameter och antal lösningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -72992,13 +72992,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "polynom"
     ],
     "familjTidigare": [
       "Parameter och antal nollställen"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(a&lt;0\\)", "ratt": false}, {"txt": "\\(a=0\\)", "ratt": false}, {"txt": "För alla \\(a\\)", "ratt": false}, {"txt": "\\(a&gt;0\\)", "ratt": true}]
   },
   {
     "id": "1.527",
@@ -73345,13 +73345,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lös ekvationen \\(\\frac{x^2-9}{x-3}=6\\).</p><p>A. \\(x=3\\)<br>B. \\(x=-3\\)<br>C. Ingen lösning<br>D. Alla \\(x\\ne3\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Definitionsvillkoret är \\(x\\ne3\\).</p></li><li><p>För tillåtna x förenklas vänsterledet till \\(x+3\\), så \\(x+3=6\\) ger kandidaten \\(x=3\\).</p></li><li><p>Den är förbjuden.</p></li><li><p>Alltså finns ingen lösning.</p></li></ol><p class=\"facit-svar\"><b>Svar: C</b>.</p></div>",
+    "t": "<p>Lös ekvationen \\(\\frac{x^2-9}{x-3}=6\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Definitionsvillkoret är \\(x\\ne3\\).</p></li><li><p>För tillåtna x förenklas vänsterledet till \\(x+3\\), så \\(x+3=6\\) ger kandidaten \\(x=3\\).</p></li><li><p>Den är förbjuden.</p></li><li><p>Alltså finns ingen lösning.</p></li></ol><p class=\"facit-svar\"><b>Svar: Ingen lösning.</p></div>",
     "familj": "Lösa rationella ekvationer",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -73362,13 +73362,13 @@ window.BANKMATO1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "rationella_uttryck"
     ],
     "familjTidigare": [
       "Rationell ekvation med förbjuden lösning"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x=3\\)", "ratt": false}, {"txt": "\\(x=-3\\)", "ratt": false}, {"txt": "Ingen lösning", "ratt": true}, {"txt": "Alla \\(x\\ne3\\)", "ratt": false}]
   },
   {
     "id": "2.578",

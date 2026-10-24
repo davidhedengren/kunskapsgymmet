@@ -28077,8 +28077,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Vilket villkor beskriver samma tal som ”x är minst −2 och mindre än 6”?</p><p>A: \\(-2&lt;x\\le6\\)<br>B: \\(-2\\le x\\le6\\)<br>C: \\(6&gt;x\\ge-2\\)<br>D: \\(6&gt;x&gt;-2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>C är rätt: 6 &gt; x betyder x &lt; 6 och x ≥ −2 tar med den undre gränsen.</p></li><li><p>De andra alternativen ändrar minst en ändpunkt.</p></li></ol></div>",
+    "t": "<p>Vilket villkor beskriver samma tal som ”x är minst −2 och mindre än 6”?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: \\(6&gt;x\\ge-2\\). 6 &gt; x betyder x &lt; 6 och x ≥ −2 tar med den undre gränsen.</p></li><li><p>De andra alternativen ändrar minst en ändpunkt.</p></li></ol></div>",
     "ledtrad": "<p>Olikheten kan läsas från höger till vänster också.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -28088,16 +28088,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "familjTidigare": [
       "Intervall och gränser"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(-2&lt;x\\le6\\)", "ratt": false}, {"txt": "\\(-2\\le x\\le6\\)", "ratt": false}, {"txt": "\\(6&gt;x\\ge-2\\)", "ratt": true}, {"txt": "\\(6&gt;x&gt;-2\\)", "ratt": false}]
   },
   {
     "id": "1.126",
@@ -28109,8 +28109,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Tallinjen har en öppen punkt vid 1 och en fylld punkt vid 10. Vilket villkor beskriver markeringen?</p><p>A: \\(1&lt;x\\le10\\)<br>B: \\(1\\le x&lt;10\\)<br>C: \\(1&lt;x&lt;10\\)<br>D: \\(1\\le x\\le10\\)</p><svg width=\"430\" height=\"145\" viewBox=\"0 0 430 145\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"428\" height=\"143\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n\n<line x1=\"45\" y1=\"77\" x2=\"390\" y2=\"77\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<path d=\"M390 77 l-9 -5 v10 z\" fill=\"#2B2527\"/>\n<line x1=\"98.1\" y1=\"77\" x2=\"336.9\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<line x1=\"45.0\" y1=\"72\" x2=\"45.0\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"45.0\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">-1</text><line x1=\"71.5\" y1=\"72\" x2=\"71.5\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"71.5\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">0</text><line x1=\"98.1\" y1=\"72\" x2=\"98.1\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"98.1\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">1</text><line x1=\"124.6\" y1=\"72\" x2=\"124.6\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"124.6\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">2</text><line x1=\"151.2\" y1=\"72\" x2=\"151.2\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"151.2\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">3</text><line x1=\"177.7\" y1=\"72\" x2=\"177.7\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"177.7\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">4</text><line x1=\"204.2\" y1=\"72\" x2=\"204.2\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"204.2\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">5</text><line x1=\"230.8\" y1=\"72\" x2=\"230.8\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"230.8\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">6</text><line x1=\"257.3\" y1=\"72\" x2=\"257.3\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"257.3\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">7</text><line x1=\"283.8\" y1=\"72\" x2=\"283.8\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"283.8\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">8</text><line x1=\"310.4\" y1=\"72\" x2=\"310.4\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"310.4\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">9</text><line x1=\"336.9\" y1=\"72\" x2=\"336.9\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"336.9\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">10</text><line x1=\"363.5\" y1=\"72\" x2=\"363.5\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"363.5\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">11</text><line x1=\"390.0\" y1=\"72\" x2=\"390.0\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"390.0\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">12</text><circle cx=\"98.1\" cy=\"77\" r=\"6\" fill=\"#fff\" stroke=\"#B43123\" stroke-width=\"2\"/><circle cx=\"336.9\" cy=\"77\" r=\"6\" fill=\"#B43123\" stroke=\"#B43123\" stroke-width=\"2\"/>\n<text x=\"397\" y=\"60\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">x</text>\n\n</svg>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A är rätt.</p></li><li><p>Den öppna punkten utesluter 1 och den fyllda tar med 10.</p></li></ol></div>",
+    "t": "<p>Tallinjen har en öppen punkt vid 1 och en fylld punkt vid 10. Vilket villkor beskriver markeringen?</p><svg width=\"430\" height=\"145\" viewBox=\"0 0 430 145\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"428\" height=\"143\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n\n<line x1=\"45\" y1=\"77\" x2=\"390\" y2=\"77\" stroke=\"#2B2527\" stroke-width=\"2\"/>\n<path d=\"M390 77 l-9 -5 v10 z\" fill=\"#2B2527\"/>\n<line x1=\"98.1\" y1=\"77\" x2=\"336.9\" y2=\"77\" stroke=\"#B43123\" stroke-width=\"5\" stroke-linecap=\"round\"/>\n<line x1=\"45.0\" y1=\"72\" x2=\"45.0\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"45.0\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">-1</text><line x1=\"71.5\" y1=\"72\" x2=\"71.5\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"71.5\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">0</text><line x1=\"98.1\" y1=\"72\" x2=\"98.1\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"98.1\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">1</text><line x1=\"124.6\" y1=\"72\" x2=\"124.6\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"124.6\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">2</text><line x1=\"151.2\" y1=\"72\" x2=\"151.2\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"151.2\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">3</text><line x1=\"177.7\" y1=\"72\" x2=\"177.7\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"177.7\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">4</text><line x1=\"204.2\" y1=\"72\" x2=\"204.2\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"204.2\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">5</text><line x1=\"230.8\" y1=\"72\" x2=\"230.8\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"230.8\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">6</text><line x1=\"257.3\" y1=\"72\" x2=\"257.3\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"257.3\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">7</text><line x1=\"283.8\" y1=\"72\" x2=\"283.8\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"283.8\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">8</text><line x1=\"310.4\" y1=\"72\" x2=\"310.4\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"310.4\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">9</text><line x1=\"336.9\" y1=\"72\" x2=\"336.9\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"336.9\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">10</text><line x1=\"363.5\" y1=\"72\" x2=\"363.5\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"363.5\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">11</text><line x1=\"390.0\" y1=\"72\" x2=\"390.0\" y2=\"82\" stroke=\"#5C575E\"/><text x=\"390.0\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">12</text><circle cx=\"98.1\" cy=\"77\" r=\"6\" fill=\"#fff\" stroke=\"#B43123\" stroke-width=\"2\"/><circle cx=\"336.9\" cy=\"77\" r=\"6\" fill=\"#B43123\" stroke=\"#B43123\" stroke-width=\"2\"/>\n<text x=\"397\" y=\"60\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#2B2527\">x</text>\n\n</svg>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: \\(1&lt;x\\le10\\). </p></li><li><p>Den öppna punkten utesluter 1 och den fyllda tar med 10.</p></li></ol></div>",
     "ledtrad": "<p>Vilken punkt visar att gränsvärdet ingår?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -28120,16 +28120,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "familjTidigare": [
       "Intervall och gränser"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(1&lt;x\\le10\\)", "ratt": true}, {"txt": "\\(1\\le x&lt;10\\)", "ratt": false}, {"txt": "\\(1&lt;x&lt;10\\)", "ratt": false}, {"txt": "\\(1\\le x\\le10\\)", "ratt": false}]
   },
   {
     "id": "1.127",
@@ -31486,8 +31486,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Vilken omskrivning av \\(3(2-x)\\le9\\) bevarar exakt samma lösningar?</p><p>A: \\(2-x\\ge3\\)<br>B: \\(2-x\\le3\\)<br>C: \\(6-x\\le9\\)<br>D: \\(2-x\\le9\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>B är rätt: hela båda leden har dividerats med det positiva talet 3.</p></li><li><p>Därifrån ger −x ≤ 1 lösningen x ≥ −1.</p></li></ol></div>",
+    "t": "<p>Vilken omskrivning av \\(3(2-x)\\le9\\) bevarar exakt samma lösningar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: \\(2-x\\le3\\). Hela båda leden har dividerats med det positiva talet 3.</p></li><li><p>Därifrån ger −x ≤ 1 lösningen x ≥ −1.</p></li></ol></div>",
     "ledtrad": "<p>Vilken operation kan göras på hela båda leden?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -31497,16 +31497,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "familjTidigare": [
       "Linjära olikheter"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(2-x\\ge3\\)", "ratt": false}, {"txt": "\\(2-x\\le3\\)", "ratt": true}, {"txt": "\\(6-x\\le9\\)", "ratt": false}, {"txt": "\\(2-x\\le9\\)", "ratt": false}]
   },
   {
     "id": "1.222",
@@ -31916,8 +31916,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>x ska uppfylla både \\(x\\ge5\\) och \\(x&lt;5\\). Vilken slutsats stämmer?</p><p>A: Bara x = 5 fungerar.<br>B: Alla x &lt; 5 fungerar.<br>C: Inget reellt x fungerar.<br>D: Alla x ≥ 5 fungerar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>C är rätt.</p></li><li><p>Ett tal kan inte samtidigt vara minst 5 och mindre än 5.</p></li><li><p>Även gränsvärdet 5 bryter mot det andra villkoret.</p></li></ol></div>",
+    "t": "<p>x ska uppfylla både \\(x\\ge5\\) och \\(x&lt;5\\). Vilken slutsats stämmer?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: Inget reellt x fungerar. </p></li><li><p>Ett tal kan inte samtidigt vara minst 5 och mindre än 5.</p></li><li><p>Även gränsvärdet 5 bryter mot det andra villkoret.</p></li></ol></div>",
     "ledtrad": "<p>Pröva gränsen och var sida om den.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -31927,16 +31927,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "familjTidigare": [
       "Intervall och gränser"
-    ]
+    ],
+    "alternativ": [{"txt": "Bara x = 5 fungerar.", "ratt": false}, {"txt": "Alla x &lt; 5 fungerar.", "ratt": false}, {"txt": "Inget reellt x fungerar.", "ratt": true}, {"txt": "Alla x ≥ 5 fungerar.", "ratt": false}]
   },
   {
     "id": "1.235",
@@ -37288,8 +37288,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Vilket tal ligger i intervallet \\(2&lt;x&lt;7\\)?</p><p>A: 2<br>B: 4<br>C: 7<br>D: 8</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>B är rätt: 4 är större än 2 och mindre än 7.</p></li><li><p>Varken 2 eller 7 ingår.</p></li></ol></div>",
+    "t": "<p>Vilket tal ligger i intervallet \\(2&lt;x&lt;7\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: 4. 4 är större än 2 och mindre än 7.</p></li><li><p>Varken 2 eller 7 ingår.</p></li></ol></div>",
     "ledtrad": "<p>Båda villkoren behöver vara uppfyllda.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -37299,16 +37299,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "familjTidigare": [
       "Intervall och gränser"
-    ]
+    ],
+    "alternativ": [{"txt": "2", "ratt": false}, {"txt": "4", "ratt": true}, {"txt": "7", "ratt": false}, {"txt": "8", "ratt": false}]
   },
   {
     "id": "1.931",
@@ -37393,8 +37393,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Vilken beskrivning betyder att x är minst 7?</p><p>A: x är mindre än eller lika med 7.<br>B: x är större än eller lika med 7.<br>C: x är mindre än men inte lika med 7.<br>D: x är större än men inte lika med 7.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>B är rätt.</p></li><li><p>Minst 7 tar med 7 och alla större tal.</p></li></ol></div>",
+    "t": "<p>Vilken beskrivning betyder att x är minst 7?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: x är större än eller lika med 7. </p></li><li><p>Minst 7 tar med 7 och alla större tal.</p></li></ol></div>",
     "ledtrad": "<p>Vilket håll på tallinjen motsvarar minst?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -37404,16 +37404,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "familjTidigare": [
       "Intervall och gränser"
-    ]
+    ],
+    "alternativ": [{"txt": "x är mindre än eller lika med 7.", "ratt": false}, {"txt": "x är större än eller lika med 7.", "ratt": true}, {"txt": "x är mindre än men inte lika med 7.", "ratt": false}, {"txt": "x är större än men inte lika med 7.", "ratt": false}]
   },
   {
     "id": "1.934",
@@ -37549,24 +37549,24 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>x är negativt. Vilket villkor måste gälla?</p><p>A: \\(x&gt;0\\)<br>B: \\(x\\ge0\\)<br>C: \\(x=0\\)<br>D: \\(x&lt;0\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>D är rätt.</p></li><li><p>Alla negativa tal ligger till vänster om noll och är mindre än noll.</p></li></ol></div>",
+    "t": "<p>x är negativt. Vilket villkor måste gälla?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: \\(x&lt;0\\). </p></li><li><p>Alla negativa tal ligger till vänster om noll och är mindre än noll.</p></li></ol></div>",
     "ledtrad": "<p>Var ligger negativa tal på tallinjen?</p>",
     "niva": "E",
     "poang": "1/0/0",
     "arbetsinsats": 1,
     "familj": "Skriva intervall med olikhetstecken",
     "formaga": ["begrepp"],
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "familjTidigare": [
       "Intervall och gränser"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x&gt;0\\)", "ratt": false}, {"txt": "\\(x\\ge0\\)", "ratt": false}, {"txt": "\\(x=0\\)", "ratt": false}, {"txt": "\\(x&lt;0\\)", "ratt": true}]
   },
   {
     "id": "1.939",
@@ -37578,24 +37578,24 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>En elev har fått lösningen \\(x\\ge5\\) till en olikhet. Vilket påstående beskriver lösningen?</p><p>A: Bara talet 5 är en lösning.<br>B: Alla tal större än 5 är lösningar, men inte 5.<br>C: Talet 5 och alla större tal är lösningar.<br>D: Talet 5 och alla mindre tal är lösningar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>C är rätt.</p></li><li><p>Likhetsstrecket tar med 5 och riktningen tar med större tal.</p></li></ol></div>",
+    "t": "<p>En elev har fått lösningen \\(x\\ge5\\) till en olikhet. Vilket påstående beskriver lösningen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: Talet 5 och alla större tal är lösningar. </p></li><li><p>Likhetsstrecket tar med 5 och riktningen tar med större tal.</p></li></ol></div>",
     "ledtrad": "<p>Vad betyder likhetsstrecket i tecknet \\(\\ge\\)?</p>",
     "niva": "E",
     "poang": "1/0/0",
     "arbetsinsats": 1,
     "familj": "Skriva intervall med olikhetstecken",
     "formaga": ["begrepp"],
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "familjTidigare": [
       "Intervall och gränser"
-    ]
+    ],
+    "alternativ": [{"txt": "Bara talet 5 är en lösning.", "ratt": false}, {"txt": "Alla tal större än 5 är lösningar, men inte 5.", "ratt": false}, {"txt": "Talet 5 och alla större tal är lösningar.", "ratt": true}, {"txt": "Talet 5 och alla mindre tal är lösningar.", "ratt": false}]
   },
   {
     "id": "1.940",
@@ -37927,8 +37927,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Vilken olikhet är sann?</p><p>A: \\(-3&lt;-8\\)<br>B: \\(-3&gt;-8\\)<br>C: \\(-8&gt;3\\)<br>D: \\(3&lt;-8\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>B är rätt.</p></li><li><p>−3 ligger till höger om −8 på tallinjen och är därför större.</p></li></ol></div>",
+    "t": "<p>Vilken olikhet är sann?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: \\(-3&gt;-8\\). </p></li><li><p>−3 ligger till höger om −8 på tallinjen och är därför större.</p></li></ol></div>",
     "ledtrad": "<p>Talet närmast noll är störst när båda talen är negativa.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -37938,16 +37938,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "familjTidigare": [
       "Linjära olikheter"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(-3&lt;-8\\)", "ratt": false}, {"txt": "\\(-3&gt;-8\\)", "ratt": true}, {"txt": "\\(-8&gt;3\\)", "ratt": false}, {"txt": "\\(3&lt;-8\\)", "ratt": false}]
   },
   {
     "id": "1.951",
@@ -100980,19 +100980,18 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En webbenkät om skolmat besvaras främst av elever som är mycket missnöjda. Vilket begrepp beskriver situationen bäst?</p><p>A: Avrundningsfel<br>B: Självurval<br>C: Enhetsfel</p>",
-    "s": "<div class=\"facit-v2\"><p>Eleverna väljer själva om de vill svara. När främst mycket missnöjda elever deltar kan deras åsikter få för stor vikt i resultatet.</p><p><strong>Svar: B – självurval.</strong></p></div>",
+    "t": "<p>En webbenkät om skolmat besvaras främst av elever som är mycket missnöjda. Vilket begrepp beskriver situationen bäst?</p>",
+    "s": "<div class=\"facit-v2\"><p>Eleverna väljer själva om de vill svara. När främst mycket missnöjda elever deltar kan deras åsikter få för stor vikt i resultatet.</p><p><strong>Svar: Självurval.</strong></p></div>",
     "familj": "Felkällor i undersökningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>De som väljer att svara kan skilja sig från resten, särskilt om starkt missnöjda är mer motiverade.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -101000,7 +100999,8 @@ window.BANKMA1 = [
     "omrTidigare": "felkallor",
     "familjTidigare": [
       "Felkällor i undersökningar och mätningar"
-    ]
+    ],
+    "alternativ": [{"txt": "Avrundningsfel", "ratt": false}, {"txt": "Självurval", "ratt": true}, {"txt": "Enhetsfel", "ratt": false}]
   },
   {
     "id": "5.175",
@@ -101013,19 +101013,18 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En våg visar alltid 0,4 kg för mycket. Vilket begrepp beskriver situationen bäst?</p><p>A: Slumpmässigt mätfel<br>B: Urvalsfel<br>C: Systematiskt mätfel</p>",
-    "s": "<div class=\"facit-v2\"><p>Vågen visar lika mycket för högt vid varje mätning. Felet är åt samma håll varje gång och är därför systematiskt, inte en slumpmässig variation.</p><p><strong>Svar: C – systematiskt mätfel.</strong></p></div>",
+    "t": "<p>En våg visar alltid 0,4 kg för mycket. Vilket begrepp beskriver situationen bäst?</p>",
+    "s": "<div class=\"facit-v2\"><p>Vågen visar lika mycket för högt vid varje mätning. Felet är åt samma håll varje gång och är därför systematiskt, inte en slumpmässig variation.</p><p><strong>Svar: Systematiskt mätfel.</strong></p></div>",
     "familj": "Felkällor i undersökningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Felet är lika stort och åt samma håll varje gång.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -101033,7 +101032,8 @@ window.BANKMA1 = [
     "omrTidigare": "felkallor",
     "familjTidigare": [
       "Felkällor i undersökningar och mätningar"
-    ]
+    ],
+    "alternativ": [{"txt": "Slumpmässigt mätfel", "ratt": false}, {"txt": "Urvalsfel", "ratt": false}, {"txt": "Systematiskt mätfel", "ratt": true}]
   },
   {
     "id": "5.176",
@@ -101145,19 +101145,18 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En termometer avläses olika beroende på vem som läser skalan. Vilket begrepp beskriver situationen bäst?</p><p>A: Kausalitet<br>B: Urvalsfel<br>C: Mätosäkerhet</p>",
-    "s": "<div class=\"facit-v2\"><p>Olika personer kan läsa av samma skala lite olika. Därför är det avlästa värdet osäkert; det handlar om själva mätningen, inte om vilka personer som valts till en undersökning.</p><p><strong>Svar: C – mätosäkerhet.</strong></p></div>",
+    "t": "<p>En termometer avläses olika beroende på vem som läser skalan. Vilket begrepp beskriver situationen bäst?</p>",
+    "s": "<div class=\"facit-v2\"><p>Olika personer kan läsa av samma skala lite olika. Därför är det avlästa värdet osäkert; det handlar om själva mätningen, inte om vilka personer som valts till en undersökning.</p><p><strong>Svar: Mätosäkerhet.</strong></p></div>",
     "familj": "Felkällor i undersökningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Olika avläsare kan få lite olika resultat från samma skala.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -101165,7 +101164,8 @@ window.BANKMA1 = [
     "omrTidigare": "felkallor",
     "familjTidigare": [
       "Felkällor i undersökningar och mätningar"
-    ]
+    ],
+    "alternativ": [{"txt": "Kausalitet", "ratt": false}, {"txt": "Urvalsfel", "ratt": false}, {"txt": "Mätosäkerhet", "ratt": true}]
   },
   {
     "id": "5.180",
@@ -101178,19 +101178,18 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>40 % av de utvalda personerna svarar inte på en enkät. Vilket begrepp beskriver situationen bäst?</p><p>A: Bortfall<br>B: Skalfel<br>C: Räknefel</p>",
-    "s": "<div class=\"facit-v2\"><p>De utvalda personer som inte svarar utgör bortfallet. Det kan snedvrida resultatet om deras åsikter skiljer sig från de svarandes.</p><p><strong>Svar: A – bortfall.</strong></p></div>",
+    "t": "<p>40 % av de utvalda personerna svarar inte på en enkät. Vilket begrepp beskriver situationen bäst?</p>",
+    "s": "<div class=\"facit-v2\"><p>De utvalda personer som inte svarar utgör bortfallet. Det kan snedvrida resultatet om deras åsikter skiljer sig från de svarandes.</p><p><strong>Svar: Bortfall.</strong></p></div>",
     "familj": "Felkällor i undersökningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Personerna är redan utvalda; problemet är att många av dem inte svarar.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -101198,7 +101197,8 @@ window.BANKMA1 = [
     "omrTidigare": "felkallor",
     "familjTidigare": [
       "Felkällor i undersökningar och mätningar"
-    ]
+    ],
+    "alternativ": [{"txt": "Bortfall", "ratt": true}, {"txt": "Skalfel", "ratt": false}, {"txt": "Räknefel", "ratt": false}]
   },
   {
     "id": "5.181",
@@ -101211,19 +101211,18 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En mätsticka har markeringar endast varje centimeter men resultatet anges med fyra decimaler. Vilket begrepp beskriver situationen bäst?</p><p>A: Korrelation<br>B: Orimlig precision<br>C: Slumpmässigt urval</p>",
-    "s": "<div class=\"facit-v2\"><p>En skala med centimetermarkeringar ger inte stöd för att ange fyra decimaler. Fler skrivna decimaler gör inte mätningen mer noggrann.</p><p><strong>Svar: B – orimlig precision.</strong></p></div>",
+    "t": "<p>En mätsticka har markeringar endast varje centimeter men resultatet anges med fyra decimaler. Vilket begrepp beskriver situationen bäst?</p>",
+    "s": "<div class=\"facit-v2\"><p>En skala med centimetermarkeringar ger inte stöd för att ange fyra decimaler. Fler skrivna decimaler gör inte mätningen mer noggrann.</p><p><strong>Svar: Orimlig precision.</strong></p></div>",
     "familj": "Felkällor i undersökningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Mätinstrumentets upplösning sätter en gräns för hur många decimaler som är meningsfulla.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -101231,7 +101230,8 @@ window.BANKMA1 = [
     "omrTidigare": "felkallor",
     "familjTidigare": [
       "Felkällor i undersökningar och mätningar"
-    ]
+    ],
+    "alternativ": [{"txt": "Korrelation", "ratt": false}, {"txt": "Orimlig precision", "ratt": true}, {"txt": "Slumpmässigt urval", "ratt": false}]
   },
   {
     "id": "5.182",
@@ -101244,19 +101244,18 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En kommun vill veta vad alla invånare tycker om kollektivtrafiken, men frågar bara personer som sitter på bussen.</p><p>A: Urvalsfel<br>B: Potensfel<br>C: Avrundningsfel</p>",
-    "s": "<div class=\"facit-v2\"><p>Den som inte åker buss kommer inte med. Bussresenärer kan ha andra åsikter än kommunens övriga invånare.</p><p><strong>Svar: A.</strong></p></div>",
+    "t": "<p>En kommun vill veta vad alla invånare tycker om kollektivtrafiken, men frågar bara personer som sitter på bussen.</p>",
+    "s": "<div class=\"facit-v2\"><p>Den som inte åker buss kommer inte med. Bussresenärer kan ha andra åsikter än kommunens övriga invånare.</p><p><strong>Svar: Urvalsfel.</strong></p></div>",
     "familj": "Felkällor i undersökningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>De som redan åker buss är inte nödvändigtvis representativa för alla som undersökningen vill säga något om.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -101264,7 +101263,8 @@ window.BANKMA1 = [
     "omrTidigare": "felkallor",
     "familjTidigare": [
       "Felkällor i undersökningar och mätningar"
-    ]
+    ],
+    "alternativ": [{"txt": "Urvalsfel", "ratt": true}, {"txt": "Potensfel", "ratt": false}, {"txt": "Avrundningsfel", "ratt": false}]
   },
   {
     "id": "5.183",
@@ -101277,19 +101277,18 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två grupper får olika instruktioner innan samma test. Vilket begrepp beskriver situationen bäst?</p><p>A: Kontrollerad jämförelse<br>B: Påverkande felkälla<br>C: Totalundersökning</p>",
-    "s": "<div class=\"facit-v2\"><p>Instruktionerna kan påverka hur grupperna löser testet. En skillnad i resultat kan därför bero på instruktionerna, inte bara på det man vill jämföra.</p><p><strong>Svar: B – påverkande felkälla.</strong></p></div>",
+    "t": "<p>Två grupper får olika instruktioner innan samma test. Vilket begrepp beskriver situationen bäst?</p>",
+    "s": "<div class=\"facit-v2\"><p>Instruktionerna kan påverka hur grupperna löser testet. En skillnad i resultat kan därför bero på instruktionerna, inte bara på det man vill jämföra.</p><p><strong>Svar: Påverkande felkälla.</strong></p></div>",
     "familj": "Felkällor i undersökningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Om instruktionerna skiljer sig kan resultatet påverkas av mer än det man vill jämföra.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -101297,7 +101296,8 @@ window.BANKMA1 = [
     "omrTidigare": "felkallor",
     "familjTidigare": [
       "Felkällor i undersökningar och mätningar"
-    ]
+    ],
+    "alternativ": [{"txt": "Kontrollerad jämförelse", "ratt": false}, {"txt": "Påverkande felkälla", "ratt": true}, {"txt": "Totalundersökning", "ratt": false}]
   },
   {
     "id": "5.184",
@@ -102471,26 +102471,26 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En kommun vill veta hur nöjda invånarna är med kommunens service. Man frågar bara personer på ett köpcentrum mitt på dagen. Vilken felkälla riskerar man främst?</p><p>A: Urvalsfel<br>B: Räknefel<br>C: Enhetsfel </p>",
-    "s": "<div class=\"facit-v2\"><p>Personer som arbetar eller går i skolan vid den tiden kan missas. Urvalet kan därför ge en annan bild än om personer från hela kommunen tillfrågas.</p><p><strong>Svar: A.</strong></p></div>",
+    "t": "<p>En kommun vill veta hur nöjda invånarna är med kommunens service. Man frågar bara personer på ett köpcentrum mitt på dagen. Vilken felkälla riskerar man främst?</p>",
+    "s": "<div class=\"facit-v2\"><p>Personer som arbetar eller går i skolan vid den tiden kan missas. Urvalet kan därför ge en annan bild än om personer från hela kommunen tillfrågas.</p><p><strong>Svar: Urvalsfel.</strong></p></div>",
     "familj": "Känna igen urvalsmetoder",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Personer som vistas på köpcentrum mitt på dagen kan skilja sig systematiskt från resten av populationen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Urval och urvalsmetoder"
-    ]
+    ],
+    "alternativ": [{"txt": "Urvalsfel", "ratt": true}, {"txt": "Räknefel", "ratt": false}, {"txt": "Enhetsfel", "ratt": false}]
   },
   {
     "id": "5.222",
@@ -108898,27 +108898,27 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En kommun vill undersöka motionsvanorna hos alla invånare, men frågar bara besökare på ett gym. Vilket problem finns?</p><p>A: Inget problem finns<br>B: Gymbesökare kan inte svara på enkäter<br>C: Stickprovet är för slumpmässigt<br>D: Urvalet är inte representativt för hela befolkningen</p>",
-    "s": "<div class=\"facit-v2\"><p>Gymbesökare kan motionera mer än invånarna i genomsnitt. Därför kan undersökningen överskatta hur mycket kommuninvånarna motionerar.</p><p><strong>Svar: D.</strong></p></div>",
+    "t": "<p>En kommun vill undersöka motionsvanorna hos alla invånare, men frågar bara besökare på ett gym. Vilket problem finns?</p>",
+    "s": "<div class=\"facit-v2\"><p>Gymbesökare kan motionera mer än invånarna i genomsnitt. Därför kan undersökningen överskatta hur mycket kommuninvånarna motionerar.</p><p><strong>Svar: Urvalet är inte representativt för hela befolkningen.</strong></p></div>",
     "familj": "Känna igen urvalsmetoder",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Populationen är hela gruppen man vill veta något om. Stickprovet är de som faktiskt undersöks.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Urval och urvalsmetoder"
-    ]
+    ],
+    "alternativ": [{"txt": "Inget problem finns", "ratt": false}, {"txt": "Gymbesökare kan inte svara på enkäter", "ratt": false}, {"txt": "Stickprovet är för slumpmässigt", "ratt": false}, {"txt": "Urvalet är inte representativt för hela befolkningen", "ratt": true}]
   },
   {
     "id": "5.527",
@@ -109200,20 +109200,19 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En kommun vill veta vad alla invånare tycker om kollektivtrafiken. Enkäten skickas bara ut via en app för resenärer. Vilken felkälla finns?</p><p>A: Urvalet saknar de som inte reser kollektivt eller saknar appen<br>B: Frågorna är ledande<br>C: Stickprovet är för slumpmässigt<br>D: Mätinstrumentet är felkalibrerat</p>",
-    "s": "<div class=\"facit-v2\"><p>Undersökningen missar bland annat personer som inte använder appen. Deras åsikter kan skilja sig från appanvändarnas.</p><p><strong>Svar: A.</strong></p></div>",
+    "t": "<p>En kommun vill veta vad alla invånare tycker om kollektivtrafiken. Enkäten skickas bara ut via en app för resenärer. Vilken felkälla finns?</p>",
+    "s": "<div class=\"facit-v2\"><p>Undersökningen missar bland annat personer som inte använder appen. Deras åsikter kan skilja sig från appanvändarnas.</p><p><strong>Svar: Urvalet saknar de som inte reser kollektivt eller saknar appen.</strong></p></div>",
     "familj": "Felkällor i undersökningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Fundera på om felet drar resultatet åt ett bestämt håll (systematiskt) eller varierar slumpmässigt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -109221,7 +109220,8 @@ window.BANKMA1 = [
     "omrTidigare": "felkallor",
     "familjTidigare": [
       "Felkällor i undersökningar och mätningar"
-    ]
+    ],
+    "alternativ": [{"txt": "Urvalet saknar de som inte reser kollektivt eller saknar appen", "ratt": true}, {"txt": "Frågorna är ledande", "ratt": false}, {"txt": "Stickprovet är för slumpmässigt", "ratt": false}, {"txt": "Mätinstrumentet är felkalibrerat", "ratt": false}]
   },
   {
     "id": "5.536",
@@ -109505,27 +109505,27 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två oberoende opinionsundersökningar med slumpmässiga urval visar 5,2 % respektive 4,8 % stöd för ett parti. Felmarginalen är ±1 procentenhet i båda. Vilken slutsats är rimlig?</p><p>A: Undersökningarna är felaktiga<br>B: Förändringen är inte statistiskt säkerställd<br>C: Partiet har säkert tappat stöd<br>D: Partiet har tappat 0,4 % av väljarna</p>",
-    "s": "<div class=\"facit-v2\"><p>Skillnaden är 0,4 procentenheter, vilket är litet i förhållande till undersökningarnas osäkerhet. Resultaten ger därför inte tillräckligt stöd för att partiets stöd har minskat.</p><p><strong>Svar: B.</strong></p></div>",
+    "t": "<p>Två oberoende opinionsundersökningar med slumpmässiga urval visar 5,2 % respektive 4,8 % stöd för ett parti. Felmarginalen är ±1 procentenhet i båda. Vilken slutsats är rimlig?</p>",
+    "s": "<div class=\"facit-v2\"><p>Skillnaden är 0,4 procentenheter, vilket är litet i förhållande till undersökningarnas osäkerhet. Resultaten ger därför inte tillräckligt stöd för att partiets stöd har minskat.</p><p><strong>Svar: Förändringen är inte statistiskt säkerställd.</strong></p></div>",
     "familj": "Signifikans och statistisk osäkerhet",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Felmarginalen anger hur mycket resultatet kan skilja sig från det verkliga värdet på grund av slumpen i urvalet.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Statistisk osäkerhet och signifikans"
-    ]
+    ],
+    "alternativ": [{"txt": "Undersökningarna är felaktiga", "ratt": false}, {"txt": "Förändringen är inte statistiskt säkerställd", "ratt": true}, {"txt": "Partiet har säkert tappat stöd", "ratt": false}, {"txt": "Partiet har tappat 0,4 % av väljarna", "ratt": false}]
   },
   {
     "id": "5.545",
@@ -109538,27 +109538,27 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vad betyder det att en skillnad är statistiskt signifikant?</p><p>A: Att alla i populationen har undersökts<br>B: Att den är exakt uppmätt<br>C: Att den är stor och viktig<br>D: Att skillnaden är svår att förklara med enbart slumpvariation om grupperna egentligen inte skiljer sig</p>",
-    "s": "<div class=\"facit-v2\"><p>Om grupperna egentligen inte skiljer sig kan slumpen ändå ge olika resultat i ett urval. En statistiskt signifikant skillnad är tillräckligt svår att förklara på det sättet enligt den valda testnivån.</p><p>Det betyder inte automatiskt att skillnaden är stor eller viktig i praktiken.</p><p><strong>Svar: D.</strong></p></div>",
+    "t": "<p>Vad betyder det att en skillnad är statistiskt signifikant?</p>",
+    "s": "<div class=\"facit-v2\"><p>Om grupperna egentligen inte skiljer sig kan slumpen ändå ge olika resultat i ett urval. En statistiskt signifikant skillnad är tillräckligt svår att förklara på det sättet enligt den valda testnivån.</p><p>Det betyder inte automatiskt att skillnaden är stor eller viktig i praktiken.</p><p><strong>Svar: Att skillnaden är svår att förklara med enbart slumpvariation om grupperna egentligen inte skiljer sig.</strong></p></div>",
     "familj": "Signifikans och statistisk osäkerhet",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Felmarginalen anger hur mycket resultatet kan skilja sig från det verkliga värdet på grund av slumpen i urvalet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Statistisk osäkerhet och signifikans"
-    ]
+    ],
+    "alternativ": [{"txt": "Att alla i populationen har undersökts", "ratt": false}, {"txt": "Att den är exakt uppmätt", "ratt": false}, {"txt": "Att den är stor och viktig", "ratt": false}, {"txt": "Att skillnaden är svår att förklara med enbart slumpvariation om grupperna egentligen inte skiljer sig", "ratt": true}]
   },
   {
     "id": "5.546",
@@ -109604,27 +109604,27 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två oberoende undersökningar med slumpmässiga urval ur samma målgrupp visar 42 % respektive 49 % stöd för ett förslag. Felmarginalen är ±2 procentenheter i båda. Vilken slutsats är rimligast?</p><p>A: Skillnaden beror säkert på slumpen<br>B: Det går aldrig att jämföra undersökningar<br>C: Båda resultaten är felaktiga<br>D: Skillnaden är troligen verklig</p>",
-    "s": "<div class=\"facit-v2\"><p>Osäkerhetsintervallen är 40–44 % och 47–51 %. Skillnaden är stor i förhållande till felmarginalerna och ger stöd för att andelarna skiljer sig. Det är ingen garanti: urvals- och mätfel kan fortfarande påverka resultatet.</p><p><strong>Svar: D.</strong></p></div>",
+    "t": "<p>Två oberoende undersökningar med slumpmässiga urval ur samma målgrupp visar 42 % respektive 49 % stöd för ett förslag. Felmarginalen är ±2 procentenheter i båda. Vilken slutsats är rimligast?</p>",
+    "s": "<div class=\"facit-v2\"><p>Osäkerhetsintervallen är 40–44 % och 47–51 %. Skillnaden är stor i förhållande till felmarginalerna och ger stöd för att andelarna skiljer sig. Det är ingen garanti: urvals- och mätfel kan fortfarande påverka resultatet.</p><p><strong>Svar: Skillnaden är troligen verklig.</strong></p></div>",
     "familj": "Signifikans och statistisk osäkerhet",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Felmarginalen anger hur mycket resultatet kan skilja sig från det verkliga värdet på grund av slumpen i urvalet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Statistisk osäkerhet och signifikans"
-    ]
+    ],
+    "alternativ": [{"txt": "Skillnaden beror säkert på slumpen", "ratt": false}, {"txt": "Det går aldrig att jämföra undersökningar", "ratt": false}, {"txt": "Båda resultaten är felaktiga", "ratt": false}, {"txt": "Skillnaden är troligen verklig", "ratt": true}]
   },
   {
     "id": "5.548",
@@ -110276,13 +110276,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För att undersöka medelinkomsten i en kommun frågar man 200 personer på kommunens golfklubb. Golfklubbens medlemmar har i genomsnitt högre inkomster än kommuninvånarna som helhet. Hur påverkas resultatet troligen?</p><p>A: Det blir rätt eftersom 200 är ett stort urval.<br>B: Medelinkomsten blir troligen för hög.<br>C: Medelinkomsten blir troligen för låg.<br>D: Det går inte att säga något om resultatet.</p>",
-    "s": "<div class=\"facit-v2\"><p>Urvalet tas ur en grupp som enligt uppgiften har högre medelinkomst än hela kommunen. Uppskattningen blir därför troligen för hög.</p><p><strong>Svar: B.</strong></p></div>",
+    "t": "<p>För att undersöka medelinkomsten i en kommun frågar man 200 personer på kommunens golfklubb. Golfklubbens medlemmar har i genomsnitt högre inkomster än kommuninvånarna som helhet. Hur påverkas resultatet troligen?</p>",
+    "s": "<div class=\"facit-v2\"><p>Urvalet tas ur en grupp som enligt uppgiften har högre medelinkomst än hela kommunen. Uppskattningen blir därför troligen för hög.</p><p><strong>Svar: Medelinkomsten blir troligen för hög.</strong></p></div>",
     "familj": "Bedöma urval och representativitet",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -110290,10 +110290,10 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Liknar golfklubbens medlemmar kommunens invånare i allmänhet?</p>",
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "alternativ": [{"txt": "Det blir rätt eftersom 200 är ett stort urval.", "ratt": false}, {"txt": "Medelinkomsten blir troligen för hög.", "ratt": true}, {"txt": "Medelinkomsten blir troligen för låg.", "ratt": false}, {"txt": "Det går inte att säga något om resultatet.", "ratt": false}]
   },
   {
     "id": "5.566",
@@ -110306,23 +110306,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket urval ger bäst förutsättningar för en representativ undersökning av gymnasieelevers sömnvanor i en kommun?</p><p>A: Alla elever i en klass<br>B: De som svarar på ett inlägg i sociala medier<br>C: Undersökarens vänner<br>D: Elever som lottas fram från alla skolor och program</p>",
-    "s": "<div class=\"facit-v2\"><p>Slumpning från alla skolor och program gör att viktiga elevgrupper kan komma med. Det ger bättre förutsättningar än att bara välja en klass, vänner eller frivilliga på sociala medier.</p><p><strong>Svar: D.</strong></p></div>",
+    "t": "<p>Vilket urval ger bäst förutsättningar för en representativ undersökning av gymnasieelevers sömnvanor i en kommun?</p>",
+    "s": "<div class=\"facit-v2\"><p>Slumpning från alla skolor och program gör att viktiga elevgrupper kan komma med. Det ger bättre förutsättningar än att bara välja en klass, vänner eller frivilliga på sociala medier.</p><p><strong>Svar: Elever som lottas fram från alla skolor och program.</strong></p></div>",
     "familj": "Bedöma urval och representativitet",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
     "ledtrad": "<p>Vilket urval ger alla elever samma chans att bli tillfrågade?</p>",
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "alternativ": [{"txt": "Alla elever i en klass", "ratt": false}, {"txt": "De som svarar på ett inlägg i sociala medier", "ratt": false}, {"txt": "Undersökarens vänner", "ratt": false}, {"txt": "Elever som lottas fram från alla skolor och program", "ratt": true}]
   },
   {
     "id": "5.567",

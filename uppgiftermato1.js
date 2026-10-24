@@ -47846,7 +47846,10 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Förutsäga och beräkna bestämd integral digitalt"
-    ]
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Betrakta</p><p>\\[I=\\int_0^5 1{,}2^x\\,dx.\\]</p>",
+    "spelDelar": [{"etikett": "a", "t": "<p>Betrakta</p><p>\\[I=\\int_0^5 1{,}2^x\\,dx.\\]</p><p>Vilket påstående kan du avgöra utan att använda digitalt verktyg?</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(x&gt;0\\) är \\(1{,}2^x&gt;1\\).</p></li><li><p>På ett intervall med längden 5 måste därför arean vara större än 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(I&gt;5\\).</p></div>", "ledtrad": "<p>Jämför grafen \\(y=1{,}2^x\\) med den horisontella linjen \\(y=1\\) för \\(0\\le x\\le5\\).</p>", "alternativ": [{"txt": "\\(I&gt;5\\)", "ratt": true}, {"txt": "\\(I=5\\)", "ratt": false}, {"txt": "\\(0&lt;I&lt;5\\)", "ratt": false}, {"txt": "\\(I&lt;0\\)", "ratt": false}], "traningsniva": 2, "arbetsinsats": 1}, {"etikett": "b", "t": "<p>Betrakta</p><p>\\[I=\\int_0^5 1{,}2^x\\,dx.\\]</p><p>Beräkna \\(I\\) med tre decimaler.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med digitalt verktyg fås</p><p>\\[I\\approx8{,}163.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(8{,}163\\).</p></div>", "ledtrad": "<p>Använd digitalt verktyg för integralen.</p>", "traningsniva": 2, "arbetsinsats": 1}]
   },
   {
   "id": "3.467",
@@ -47995,7 +47998,10 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Uppskatta och beräkna bestämd integral digitalt"
-    ]
+    ],
+    "spelDelning": "deluppgifter",
+    "spelIntro": "<p>Betrakta</p><p>\\[I=\\int_0^3\\sqrt{x^2+1}\\,dx.\\]</p>",
+    "spelDelar": [{"etikett": "a", "t": "<p>Betrakta</p><p>\\[I=\\int_0^3\\sqrt{x^2+1}\\,dx.\\]</p><p>Eftersom \\(\\sqrt{x^2+1}&gt;x\\) för \\(x\\ge0\\), vilket av följande måste gälla?</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(\\sqrt{x^2+1}&gt;x\\) gäller</p><p>\\[I&gt;\\int_0^3x\\,dx=\\frac{9}{2}=4{,}5.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(I&gt;4{,}5\\).</p></div>", "ledtrad": "<p>Jämför integranden med \\(x\\).</p>", "alternativ": [{"txt": "\\(I&gt;4{,}5\\)", "ratt": true}, {"txt": "\\(I=4,5\\)", "ratt": false}, {"txt": "\\(0&lt;I&lt;4{,}5\\)", "ratt": false}, {"txt": "\\(I&lt;0\\)", "ratt": false}], "traningsniva": 2, "arbetsinsats": 1}, {"etikett": "b", "t": "<p>Betrakta</p><p>\\[I=\\int_0^3\\sqrt{x^2+1}\\,dx.\\]</p><p>Beräkna \\(I\\) med tre decimaler.</p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med digitalt verktyg fås</p><p>\\[I\\approx5{,}653.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}653\\).</p></div>", "ledtrad": "<p>Använd digitalt verktyg för integralen.</p>", "traningsniva": 2, "arbetsinsats": 1}]
   },
   {
     "id": "3.471",

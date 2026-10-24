@@ -94404,17 +94404,16 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Grafen till \\(y=\\cos x\\) förskjuts \\(\\pi/4\\) åt höger. Vilken funktion beskriver den nya grafen?</p><p>A. \\(y=\\cos\\left(x+\\dfrac\\pi4\\right)\\)<br>B. \\(y=\\cos\\left(x-\\dfrac\\pi4\\right)\\)<br>C. \\(y=\\cos x+\\dfrac\\pi4\\)<br>D. \\(y=\\cos x-\\dfrac\\pi4\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förskjutning åt höger ger minus inne i parentesen: maximipunkten vid \\(x=0\\) hamnar där \\(x-\\pi/4=0\\), alltså vid \\(x=\\pi/4\\).</p></li><li><p>Alternativ C och D flyttar grafen uppåt respektive nedåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B</p></div>",
+    "t": "<p>Grafen till \\(y=\\cos x\\) förskjuts \\(\\pi/4\\) åt höger. Vilken funktion beskriver den nya grafen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förskjutning åt höger ger minus inne i parentesen: maximipunkten vid \\(x=0\\) hamnar där \\(x-\\pi/4=0\\), alltså vid \\(x=\\pi/4\\).</p></li><li><p>Alternativen \\(y=\\cos x+\\dfrac\\pi4\\) och \\(y=\\cos x-\\dfrac\\pi4\\) flyttar grafen uppåt respektive nedåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=\\cos\\left(x-\\dfrac\\pi4\\right)\\).</p></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "spel": true,
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
     "ledtrad": "<p>Var hamnar maximipunkten \\((0,\\,1)\\) i respektive alternativ?</p>",
@@ -94422,7 +94421,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 1,
     "omrTidigare": [
       "trig_kurvor_radianer"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(y=\\cos\\left(x+\\dfrac\\pi4\\right)\\)", "ratt": false}, {"txt": "\\(y=\\cos\\left(x-\\dfrac\\pi4\\right)\\)", "ratt": true}, {"txt": "\\(y=\\cos x+\\dfrac\\pi4\\)", "ratt": false}, {"txt": "\\(y=\\cos x-\\dfrac\\pi4\\)", "ratt": false}]
   },
   {
     "id": "1.655",
@@ -95155,17 +95155,16 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Vilken är derivatan av \\(f(x)=x^2e^x\\)?</p><p>A. \\(2xe^x\\)<br>B. \\(2xe^x+x^2e^x\\)<br>C. \\(x^2e^x\\)<br>D. \\(2x\\cdot x^2e^x\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En produkt deriveras inte faktor för faktor.</p></li><li><p>Produktregeln ger</p></li><li><p>\\[f'(x)=2x\\cdot e^x+x^2\\cdot e^x.\\]</p></li><li><p>Alternativ A är det vanliga felet att bara multiplicera derivatorna av faktorerna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B</p></div>",
+    "t": "<p>Vilken är derivatan av \\(f(x)=x^2e^x\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En produkt deriveras inte faktor för faktor.</p></li><li><p>Produktregeln ger</p></li><li><p>\\[f'(x)=2x\\cdot e^x+x^2\\cdot e^x.\\]</p></li><li><p>Alternativet \\(2xe^x\\) är det vanliga felet att bara multiplicera derivatorna av faktorerna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2xe^x+x^2e^x\\).</p></div>",
     "familj": "Derivering med produktregeln",
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "spel": true,
     "familjNyckel": "produktregeln__derivering_med_produktregeln",
     "ledtrad": "<p>Produktregeln har två termer: \\(u'v+uv'\\). Vilket alternativ har två sådana termer?</p>",
@@ -95173,7 +95172,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 1,
     "omrTidigare": [
       "deriveringsregler"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(2xe^x\\)", "ratt": false}, {"txt": "\\(2xe^x+x^2e^x\\)", "ratt": true}, {"txt": "\\(x^2e^x\\)", "ratt": false}, {"txt": "\\(2x\\cdot x^2e^x\\)", "ratt": false}]
   },
   {
     "id": "2.570",
@@ -95366,17 +95366,16 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Vilken formel är kvotregeln för \\(f(x)=\\dfrac{u(x)}{v(x)}\\)?</p><p>A. \\(f'=\\dfrac{u'v-uv'}{v^2}\\)<br>B. \\(f'=\\dfrac{u'v+uv'}{v^2}\\)<br>C. \\(f'=\\dfrac{u'}{v'}\\)<br>D. \\(f'=\\dfrac{uv'-u'v}{v^2}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kvotregeln är</p><div class=\"facit-matte\">\\[f'=\\dfrac{u'v-uv'}{v^2}\\].</div></div></li><li><p>Täljaren liknar produktregeln men har minustecken, och ordningen spelar roll: termen med \\(u'\\) kommer först.</p></li><li><p>Alternativ D har fel tecken på hela täljaren.</p></li><li><p>Alternativ C, att dividera derivatorna, är ett vanligt fel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A</p></div>",
+    "t": "<p>Vilken formel är kvotregeln för \\(f(x)=\\dfrac{u(x)}{v(x)}\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kvotregeln är</p><div class=\"facit-matte\">\\[f'=\\dfrac{u'v-uv'}{v^2}\\].</div></div></li><li><p>Täljaren liknar produktregeln men har minustecken, och ordningen spelar roll: termen med \\(u'\\) kommer först.</p></li><li><p>Alternativet \\(f'=\\dfrac{uv'-u'v}{v^2}\\) har fel tecken på hela täljaren.</p></li><li><p>Alternativet \\(f'=\\dfrac{u'}{v'}\\), att dividera derivatorna, är ett vanligt fel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'=\\dfrac{u'v-uv'}{v^2}\\).</p></div>",
     "familj": "Derivering med kvotregeln",
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "spel": true,
     "familjNyckel": "kvotregeln__derivering_med_kvotregeln",
     "ledtrad": "<p>Testa med \\(f(x)=\\dfrac{x}{1}=x\\), vars derivata är \\(1\\). Vilket alternativ ger rätt svar?</p>",
@@ -95384,7 +95383,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 1,
     "omrTidigare": [
       "deriveringsregler"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(f'=\\dfrac{u'v-uv'}{v^2}\\)", "ratt": true}, {"txt": "\\(f'=\\dfrac{u'v+uv'}{v^2}\\)", "ratt": false}, {"txt": "\\(f'=\\dfrac{u'}{v'}\\)", "ratt": false}, {"txt": "\\(f'=\\dfrac{uv'-u'v}{v^2}\\)", "ratt": false}]
   },
   {
     "id": "2.550",

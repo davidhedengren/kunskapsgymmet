@@ -10065,22 +10065,22 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket uttryck får värdet 0?</p><p>A. \\((20-3+2)\\cdot4\\)<br>B. \\(20-3+2\\cdot4\\)<br>C. \\(20-(3+2)\\cdot4\\)<br>D. \\(20-3+2-4\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: C.</strong> I C blir parentesen 5 och produkten 20, så 20 − 20 = 0. A ger 76, B ger 25 och D ger 15.</p></div>",
+    "t": "<p>Vilket uttryck får värdet 0?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\(20-(3+2)\\cdot4\\).</strong> I \\(20-(3+2)\\cdot4\\) blir parentesen 5 och produkten 20, så 20 − 20 = 0. \\((20-3+2)\\cdot4\\) ger 76, \\(20-3+2\\cdot4\\) ger 25 och \\(20-3+2-4\\) ger 15.</p></div>",
     "familj": "Parenteser och räknetecken",
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "formaga": [
       "begrepp"
     ],
     "ledtrad": "<p>Vilken produkt skulle behöva dras bort från 20?</p>",
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Beräkna uttryck med parenteser"
-    ]
+    ],
+    "alternativ": [{"txt": "\\((20-3+2)\\cdot4\\)", "ratt": false}, {"txt": "\\(20-3+2\\cdot4\\)", "ratt": false}, {"txt": "\\(20-(3+2)\\cdot4\\)", "ratt": true}, {"txt": "\\(20-3+2-4\\)", "ratt": false}]
   },
   {
     "id": "0.265",
@@ -10161,22 +10161,22 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket uttryck har störst värde?</p><p>A. \\(6+2\\cdot5\\)<br>B. \\((6+2)\\cdot5\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: B.</strong> A ger 6 + 10 = 16. B ger 8 · 5 = 40. I B multipliceras även 6 med 5.</p></div>",
+    "t": "<p>Vilket uttryck har störst värde?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\((6+2)\\cdot5\\).</strong> \\(6+2\\cdot5\\) ger 6 + 10 = 16. \\((6+2)\\cdot5\\) ger 8 · 5 = 40. I \\((6+2)\\cdot5\\) multipliceras även 6 med 5.</p></div>",
     "familj": "Prioriteringsregler",
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "formaga": [
       "begrepp"
     ],
     "ledtrad": "<p>Vilka tal omfattas av multiplikationen i vart och ett av uttrycken?</p>",
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Räkna med prioriteringsregler"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(6+2\\cdot5\\)", "ratt": false}, {"txt": "\\((6+2)\\cdot5\\)", "ratt": true}]
   },
   {
     "id": "0.268",
@@ -10258,22 +10258,22 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken parentesplacering gör att värdet blir 16?</p><p>A. \\((3+5)\\cdot2\\)<br>B. \\(3+(5\\cdot2)\\)<br>C. \\((3+5\\cdot2)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: A.</strong> A ger 8 · 2 = 16. B och C ger båda 3 + 10 = 13; deras parenteser ändrar inte den ursprungliga räkneordningen.</p></div>",
+    "t": "<p>Vilken parentesplacering gör att värdet blir 16?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\((3+5)\\cdot2\\).</strong> \\((3+5)\\cdot2\\) ger 8 · 2 = 16. \\(3+(5\\cdot2)\\) och \\((3+5\\cdot2)\\) ger båda 3 + 10 = 13; deras parenteser ändrar inte den ursprungliga räkneordningen.</p></div>",
     "familj": "Parenteser och räknetecken",
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "formaga": [
       "begrepp"
     ],
     "ledtrad": "<p>Vilken del måste bli klar innan multiplikationen med 2?</p>",
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Beräkna uttryck med parenteser"
-    ]
+    ],
+    "alternativ": [{"txt": "\\((3+5)\\cdot2\\)", "ratt": true}, {"txt": "\\(3+(5\\cdot2)\\)", "ratt": false}, {"txt": "\\((3+5\\cdot2)\\)", "ratt": false}]
   },
   {
     "id": "0.271",
@@ -10583,22 +10583,22 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket uttryck har störst värde?</p><p>A. \\(24\\div6\\cdot2\\)<br>B. \\(24\\div(6\\cdot2)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: A.</strong> I A räknas division och multiplikation från vänster: 24 ÷ 6 · 2 = 8. I B är hela produkten divisor: 24 ÷ 12 = 2.</p></div>",
+    "t": "<p>Vilket uttryck har störst värde?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\(24\\div6\\cdot2\\).</strong> I \\(24\\div6\\cdot2\\) räknas division och multiplikation från vänster: 24 ÷ 6 · 2 = 8. I \\(24\\div(6\\cdot2)\\) är hela produkten divisor: 24 ÷ 12 = 2.</p></div>",
     "familj": "Prioriteringsregler",
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "formaga": [
       "begrepp"
     ],
     "ledtrad": "<p>Är det 6 eller produkten 6 · 2 som är divisor?</p>",
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Räkna med prioriteringsregler"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(24\\div6\\cdot2\\)", "ratt": true}, {"txt": "\\(24\\div(6\\cdot2)\\)", "ratt": false}]
   },
   {
     "id": "0.281",
@@ -10809,22 +10809,22 @@ window.BANKMA1 = [
     "självrättning": true,
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken omskrivning av 60 ÷ 3 · 5 bevarar värdet?</p><p>A. \\(60\\div(3\\cdot5)\\)<br>B. \\((60\\div3)\\cdot5\\)<br>C. \\((60\\cdot3)\\div5\\)<br>D. \\(60\\div(3+5)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: B.</strong> Division och multiplikation har samma prioritet. Från vänster blir det (60 ÷ 3) · 5 = 100. A ger 4, C ger 36 och D ger 7,5.</p></div>",
+    "t": "<p>Vilken omskrivning av 60 ÷ 3 · 5 bevarar värdet?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\"><strong>Svar: \\((60\\div3)\\cdot5\\).</strong> Division och multiplikation har samma prioritet. Från vänster blir det (60 ÷ 3) · 5 = 100. \\(60\\div(3\\cdot5)\\) ger 4, \\((60\\cdot3)\\div5\\) ger 36 och \\(60\\div(3+5)\\) ger 7,5.</p></div>",
     "familj": "Prioriteringsregler",
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "formaga": [
       "begrepp"
     ],
     "ledtrad": "<p>Ska multiplikation alltid gå före division, eller har de samma prioritet?</p>",
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Räkna med prioriteringsregler"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(60\\div(3\\cdot5)\\)", "ratt": false}, {"txt": "\\((60\\div3)\\cdot5\\)", "ratt": true}, {"txt": "\\((60\\cdot3)\\div5\\)", "ratt": false}, {"txt": "\\(60\\div(3+5)\\)", "ratt": false}]
   },
   {
     "id": "0.288",
@@ -11243,8 +11243,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Vilket av bråken är \\(\\frac{56}{98}\\) förkortat så långt som möjligt?</p><p>A: \\(\\frac47\\)<br>B: \\(\\frac{28}{49}\\)<br>C: \\(\\frac{8}{14}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>56 och 98 kan båda divideras med 14: \\(56\\div14=4\\) och \\(98\\div14=7\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>A</strong>, \\(\\frac47\\).</p></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>B och C har samma värde som A, men är ännu inte i enklaste form.</p></li></ol></div>",
+    "t": "<p>Vilket av bråken är \\(\\frac{56}{98}\\) förkortat så långt som möjligt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-v2\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>56 och 98 kan båda divideras med 14: \\(56\\div14=4\\) och \\(98\\div14=7\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac47\\).</p></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\frac{28}{49}\\) och \\(\\frac{8}{14}\\) har samma värde som \\(\\frac47\\), men är ännu inte i enklaste form.</p></li></ol></div>",
     "ledtrad": "<p>Vilka alternativ går fortfarande att förkorta?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -11253,17 +11253,17 @@ window.BANKMA1 = [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Grundläggande bråkräkning"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(\\frac47\\)", "ratt": true}, {"txt": "\\(\\frac{28}{49}\\)", "ratt": false}, {"txt": "\\(\\frac{8}{14}\\)", "ratt": false}]
   },
   {
     "id": "0.302",
@@ -11970,13 +11970,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket uttryck har värdet −16?</p><p>A: \\((-4)^2\\)<br>B: \\(-4^2\\)<br>C: \\((-4)^3\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-4)^2=16\\],</div></li><li><p>\\(-4^2=-16\\) och \\((-4)^3=-64\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: B.</strong> Minustecknet står utanför kvadraten i B.</p></div>",
+    "t": "<p>Vilket uttryck har värdet −16?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-4)^2=16\\],</div></li><li><p>\\(-4^2=-16\\) och \\((-4)^3=-64\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-4^2\\).</strong> Minustecknet står utanför kvadraten i \\(-4^2\\).</p></div>",
     "familj": "Negativa tal och prioriteringsregler",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -11984,13 +11984,13 @@ window.BANKMA1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Jämför vilken bas och exponent de tre uttrycken har.</p>",
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Potensuttryck med negativa tal"
-    ]
+    ],
+    "alternativ": [{"txt": "\\((-4)^2\\)", "ratt": false}, {"txt": "\\(-4^2\\)", "ratt": true}, {"txt": "\\((-4)^3\\)", "ratt": false}]
   },
   {
     "id": "0.323",
@@ -12211,8 +12211,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Vilket tal är korrekt skrivet i grundpotensform?</p><p>A: \\(0{,}42\\cdot10^6\\)<br>B: \\(42\\cdot10^4\\)<br>C: \\(4{,}2\\cdot10^5\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontrollera talfaktorn</p><p>I grundpotensform måste talfaktorn vara minst 1 och mindre än 10. Alla tre alternativen har samma värde, men i A är talfaktorn 0,42 för liten och i B är 42 för stor. I C är talfaktorn 4,2 inom det tillåtna intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ C: \\(4{,}2\\cdot10^5\\).</p></div>",
+    "t": "<p>Vilket tal är korrekt skrivet i grundpotensform?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontrollera talfaktorn</p><p>I grundpotensform måste talfaktorn vara minst 1 och mindre än 10. Alla tre alternativen har samma värde, men i \\(0{,}42\\cdot10^6\\) är talfaktorn 0,42 för liten och i \\(42\\cdot10^4\\) är 42 för stor. I \\(4{,}2\\cdot10^5\\) är talfaktorn 4,2 inom det tillåtna intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}2\\cdot10^5\\).</p></div>",
     "ledtrad": "<p>Vilket intervall ska talfaktorn ligga i?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -12220,14 +12220,14 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "alternativ": [{"txt": "\\(0{,}42\\cdot10^6\\)", "ratt": false}, {"txt": "\\(42\\cdot10^4\\)", "ratt": false}, {"txt": "\\(4{,}2\\cdot10^5\\)", "ratt": true}]
   },
   {
     "id": "0.330",
@@ -12434,26 +12434,26 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket tal är minst?</p><p>A. 1,08<br>B. 1,018<br>C. 1,080<br>D. 1,008</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv med samma antal decimaler</p><p>I alternativens ordning blir talen</p><div class=\"facit-matte\">\\[A:\\ 1{,}080,\\qquad B:\\ 1{,}018,\\qquad C:\\ 1{,}080,\\qquad D:\\ 1{,}008.\\]</div><p>Alla har samma ental och tiondel. D har 0 hundradelar, medan B har 1 och A och C har 8. D är därför minst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ D: \\(1{,}008\\).</p></div>",
+    "t": "<p>Vilket tal är minst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv med samma antal decimaler</p><p>Med tre decimaler blir talen</p><div class=\"facit-matte\">\\[1{,}080,\\qquad 1{,}018,\\qquad 1{,}080,\\qquad 1{,}008.\\]</div><p>Alla har samma ental och tiondel. ”1,008” har 0 hundradelar, medan ”1,018” har 1 och ”1,08” och ”1,080” har 8. ”1,008” är därför minst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}008\\).</p></div>",
     "familj": "Jämföra decimaltal och tallinjen",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Nollor inne i decimaldelen håller plats åt andra siffror. Skriv talen med tre decimaler.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Jämföra och ordna decimaltal"
-    ]
+    ],
+    "alternativ": [{"txt": "1,08", "ratt": false}, {"txt": "1,018", "ratt": false}, {"txt": "1,080", "ratt": false}, {"txt": "1,008", "ratt": true}]
   },
   {
     "id": "0.403",
@@ -18046,24 +18046,24 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>Vilket av talen är <strong>inte</strong> skrivet i grundpotensform?</p><p>A: \\(1\\cdot10^{-4}\\)<br>B: \\(9{,}99\\cdot10^{12}\\)<br>C: \\(10\\cdot10^{3}\\)<br>D: \\(3{,}05\\cdot10^{0}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: C. Talfaktorn måste uppfylla \\(1\\le a&lt;10\\). I C är talfaktorn 10, vilket är för stort. Talet skrivs i stället \\(1\\cdot10^4\\).</p></div>",
+    "t": "<p>Vilket av talen är <strong>inte</strong> skrivet i grundpotensform?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: \\(10\\cdot10^{3}\\). Talfaktorn måste uppfylla \\(1\\le a&lt;10\\). I \\(10\\cdot10^{3}\\) är talfaktorn 10, vilket är för stort. Talet skrivs i stället \\(1\\cdot10^4\\).</p></div>",
     "ledtrad": "<p>Vilket villkor gäller för talfaktorn?</p>",
     "niva": "E",
     "poang": "1/0/0",
     "familj": "Normalisera och jämföra i grundpotensform",
     "formaga": ["begrepp"],
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Villkor vid normalisering"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(1\\cdot10^{-4}\\)", "ratt": false}, {"txt": "\\(9{,}99\\cdot10^{12}\\)", "ratt": false}, {"txt": "\\(10\\cdot10^{3}\\)", "ratt": true}, {"txt": "\\(3{,}05\\cdot10^{0}\\)", "ratt": false}]
   },
   {
     "id": "0.645",
@@ -27950,8 +27950,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>En givare fungerar när \\(-20&lt;T\\le50\\). Vilken beskrivning stämmer?</p><p>A: Varken −20 °C eller 50 °C är tillåtet.<br>B: Både −20 °C och 50 °C är tillåtet.<br>C: −20 °C är tillåtet men inte 50 °C.<br>D: 50 °C är tillåtet men inte −20 °C.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>D är rätt.</p></li><li><p>Tecknet vid −20 saknar likhetsstreck.</p></li><li><p>Tecknet vid 50 tillåter likhet.</p></li></ol></div>",
+    "t": "<p>En givare fungerar när \\(-20&lt;T\\le50\\). Vilken beskrivning stämmer?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: 50 °C är tillåtet men inte −20 °C. </p></li><li><p>Tecknet vid −20 saknar likhetsstreck.</p></li><li><p>Tecknet vid 50 tillåter likhet.</p></li></ol></div>",
     "ledtrad": "<p>Läs ett olikhetstecken i taget.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -27961,16 +27961,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "familjTidigare": [
       "Intervall och gränser"
-    ]
+    ],
+    "alternativ": [{"txt": "Varken −20 °C eller 50 °C är tillåtet.", "ratt": false}, {"txt": "Både −20 °C och 50 °C är tillåtet.", "ratt": false}, {"txt": "−20 °C är tillåtet men inte 50 °C.", "ratt": false}, {"txt": "50 °C är tillåtet men inte −20 °C.", "ratt": true}]
   },
   {
     "id": "1.122",
@@ -30728,8 +30728,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Vilket uttryck beskriver ett tal som är 7 mer än en tredjedel av x?</p><p>A: \\(\\frac{x}{3}+7\\)<br>B: \\(3x+7\\)<br>C: \\(\\frac{7}{3}x\\)<br>D: \\(\\frac{x+7}{3}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: A. En tredjedel av x är x/3. Därefter läggs 7 till. I alternativ D delas även sjuan med 3.</p></div>",
+    "t": "<p>Vilket uttryck beskriver ett tal som är 7 mer än en tredjedel av x?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: \\(\\frac{x}{3}+7\\). En tredjedel av x är x/3. Därefter läggs 7 till. I alternativet \\(\\frac{x+7}{3}\\) delas även sjuan med 3.</p></div>",
     "ledtrad": "<p>Vilken del av beskrivningen ska delas med tre?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -30738,17 +30738,17 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(\\frac{x}{3}+7\\)", "ratt": true}, {"txt": "\\(3x+7\\)", "ratt": false}, {"txt": "\\(\\frac{7}{3}x\\)", "ratt": false}, {"txt": "\\(\\frac{x+7}{3}\\)", "ratt": false}]
   },
   {
     "id": "1.200",
@@ -32548,8 +32548,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>En rektangel har längden \\(x+3\\) cm och bredden \\(x\\) cm. Vilket uttryck beskriver omkretsen?</p><p>A: \\(4x+6\\)<br>B: \\(x(x+3)\\)<br>C: \\(2x+3\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna alla fyra sidor</p><p>Det finns två sidor med längden x + 3 cm och två med längden x cm:</p><div class=\"facit-matte\">\\[O=2(x+3)+2x=4x+6\\,\\mathrm{cm}.\\]</div></li><li><p class=\"facit-rubrik\">Jämför alternativen</p><p>Alternativ A är omkretsen. Alternativ B, x(x + 3), beskriver arean. Alternativ C räknar bara en lång och en kort sida.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>En rektangel har längden \\(x+3\\) cm och bredden \\(x\\) cm. Vilket uttryck beskriver omkretsen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Räkna alla fyra sidor</p><p>Det finns två sidor med längden x + 3 cm och två med längden x cm:</p><div class=\"facit-matte\">\\[O=2(x+3)+2x=4x+6\\,\\mathrm{cm}.\\]</div></li><li><p class=\"facit-rubrik\">Jämför alternativen</p><p>Alternativet \\(4x+6\\) är omkretsen. Alternativet \\(x(x+3)\\) beskriver arean. Alternativet \\(2x+3\\) räknar bara en lång och en kort sida.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x+6\\).</p></div>",
     "ledtrad": "<p>Räkna alla fyra sidorna, inte bara två.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -32558,17 +32558,17 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(4x+6\\)", "ratt": true}, {"txt": "\\(x(x+3)\\)", "ratt": false}, {"txt": "\\(2x+3\\)", "ratt": false}]
   },
   {
     "id": "1.255",
@@ -32931,8 +32931,8 @@ window.BANKMA1 = [
     "geogebra": false,
     "miniräknare": true,
     "arbetsinsats": 2,
-    "t": "<p>Vilket alternativ är <em>fullständigt</em> faktoriserat genom utbrytning?</p><p>Uttrycket är \\(20x^2+30x\\).</p><p>A: \\(2x(10x+15)\\)<br>B: \\(5(4x^2+6x)\\)<br>C: \\(10x(2x+3)\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm den gemensamma faktorn</p><p>20 och 30 har största gemensamma talfaktorn 10. Båda termerna innehåller dessutom x:</p><div class=\"facit-matte\">\\[20x^2+30x=10x(2x+3).\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera de andra alternativen</p><p>I A kan ytterligare 5 brytas ut ur parentesen. I B kan ytterligare 2x brytas ut. Bara C har hela den gemensamma faktorn utbruten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>Vilket alternativ är <em>fullständigt</em> faktoriserat genom utbrytning?</p><p>Uttrycket är \\(20x^2+30x\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm den gemensamma faktorn</p><p>20 och 30 har största gemensamma talfaktorn 10. Båda termerna innehåller dessutom x:</p><div class=\"facit-matte\">\\[20x^2+30x=10x(2x+3).\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera de andra alternativen</p><p>I \\(2x(10x+15)\\) kan ytterligare 5 brytas ut ur parentesen. I \\(5(4x^2+6x)\\) kan ytterligare 2x brytas ut. Bara \\(10x(2x+3)\\) har hela den gemensamma faktorn utbruten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10x(2x+3)\\).</p></div>",
     "ledtrad": "<p>Undersök både talfaktorn och variabeln.</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -32941,16 +32941,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(2x(10x+15)\\)", "ratt": false}, {"txt": "\\(5(4x^2+6x)\\)", "ratt": false}, {"txt": "\\(10x(2x+3)\\)", "ratt": true}]
   },
   {
     "id": "1.265",
@@ -49072,13 +49072,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken funktion är <strong>linjär men inte proportionell</strong>?</p><p>A: \\(y=4x+2\\)<br>B: \\(y=4x\\)<br>C: \\(y=4\\cdot2^x\\)<br>D: \\(y=4x^2+2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En linjär funktion har formen</p><div class=\"facit-matte\">\\[y=kx+m\\].</div></div></li><li><div class=\"facit-berakning\"><p>En proportionell funktion är det särskilda fallet</p><div class=\"facit-matte\">\\[m=0\\].</div></div></li><li><p>Alternativ A är linjärt och har \\(m=2\\), medan B är proportionellt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div></div>",
+    "t": "<p>Vilken funktion är <strong>linjär men inte proportionell</strong>?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>En linjär funktion har formen</p><div class=\"facit-matte\">\\[y=kx+m\\].</div></div></li><li><div class=\"facit-berakning\"><p>En proportionell funktion är det särskilda fallet</p><div class=\"facit-matte\">\\[m=0\\].</div></div></li><li><p>Alternativet \\(y=4x+2\\) är linjärt och har \\(m=2\\), medan \\(y=4x\\) är proportionellt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=4x+2\\).</p></div></div>",
     "familj": "Linjära funktioner i graf och formel",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -49088,10 +49088,10 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Tolka linjära funktioner från graf och formel"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(y=4x+2\\)", "ratt": true}, {"txt": "\\(y=4x\\)", "ratt": false}, {"txt": "\\(y=4\\cdot2^x\\)", "ratt": false}, {"txt": "\\(y=4x^2+2\\)", "ratt": false}]
   },
   {
     "id": "2.147",
@@ -57591,27 +57591,27 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Två modeller beskriver återstående energi i ett batterisystem, i Wh:</p><p>\\(A(x)=200-15x\\) och \\(B(x)=180\\cdot0{,}9^x\\), där \\(x\\ge0\\) är tiden i timmar.</p><p>Energi kan inte vara negativ. Vilken modell kan, utifrån just detta villkor, användas för alla \\(x\\ge0\\)?</p><p>A: Endast A, eftersom en linjär modell alltid är positiv.<br>B: Endast B, eftersom \\(180\\cdot0{,}9^x\\) förblir positiv medan A till slut blir negativ.<br>C: Båda, eftersom båda modellerna minskar när tiden ökar.<br>D: Ingen, eftersom alla avtagande modeller till slut blir negativa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För A blir \\(200-15x&lt;0\\) när \\(x&gt;200/15\\approx13{,}3\\).</p></li><li><p>Modell B är däremot positiv för varje \\(x\\ge0\\), eftersom både 180 och \\(0{,}9^x\\) är positiva.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Två modeller beskriver återstående energi i ett batterisystem, i Wh:</p><p>\\(A(x)=200-15x\\) och \\(B(x)=180\\cdot0{,}9^x\\), där \\(x\\ge0\\) är tiden i timmar.</p><p>Energi kan inte vara negativ. Vilken modell kan, utifrån just detta villkor, användas för alla \\(x\\ge0\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För A blir \\(200-15x&lt;0\\) när \\(x&gt;200/15\\approx13{,}3\\).</p></li><li><p>Modell B är däremot positiv för varje \\(x\\ge0\\), eftersom både 180 och \\(0{,}9^x\\) är positiva.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Endast B, eftersom \\(180\\cdot0{,}9^x\\) förblir positiv medan A till slut blir negativ.</p></div>",
     "familj": "Jämföra linjär och exponentiell tillväxt",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "modellering",
       "resonemang"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Undersök tecknet för respektive modell när \\(x\\) blir stort. Kan någon av dem passera 0?</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Välja och jämföra matematiska modeller"
-    ]
+    ],
+    "alternativ": [{"txt": "Endast A, eftersom en linjär modell alltid är positiv.", "ratt": false}, {"txt": "Endast B, eftersom \\(180\\cdot0{,}9^x\\) förblir positiv medan A till slut blir negativ.", "ratt": true}, {"txt": "Båda, eftersom båda modellerna minskar när tiden ökar.", "ratt": false}, {"txt": "Ingen, eftersom alla avtagande modeller till slut blir negativa.", "ratt": false}]
   },
   {
     "id": "2.344",
@@ -58378,13 +58378,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två modeller är \\(A(t)=500\\cdot1{,}03^t\\) och \\(B(t)=500\\cdot1{,}07^t\\). Vilken växer snabbast?</p><p>A: A<br>B: B<br>C: De växer lika snabbt</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Modellerna har samma startvärde.</p></li><li><p>Den större förändringsfaktorn, 1,07, ger snabbare exponentiell tillväxt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>B</strong>.</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
+    "t": "<p>Två modeller är \\(A(t)=500\\cdot1{,}03^t\\) och \\(B(t)=500\\cdot1{,}07^t\\). Vilken växer snabbast?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Modellerna har samma startvärde.</p></li><li><p>Den större förändringsfaktorn, 1,07, ger snabbare exponentiell tillväxt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera att modellen får rätt värde vid tiden noll och att faktorn beskriver ökning eller minskning på rätt sätt.</p></li></ol></div>",
     "familj": "Exponentialfunktioner i graf och formel",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -58394,10 +58394,10 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Tolka exponentialfunktioner från graf och formel"
-    ]
+    ],
+    "alternativ": [{"txt": "A", "ratt": false}, {"txt": "B", "ratt": true}, {"txt": "De växer lika snabbt", "ratt": false}]
   },
   {
     "id": "2.370",
@@ -74257,13 +74257,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett lån kan amorteras med 2 000 kr/mån eller 3 000 kr/mån. Vilket alternativ gör att skulden efter 10 månader är lägst?</p><p>A: 2 000 kr/mån<br>B: 3 000 kr/mån<br>C: Samma skuld</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med 3 000 kr per månad har 30 000 kr amorterats efter 10 månader, jämfört med 20 000 kr.</p></li><li><p>Därför är skulden lägre i B.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>B</strong>.</p></div></div>",
+    "t": "<p>Ett lån kan amorteras med 2 000 kr/mån eller 3 000 kr/mån. Vilket alternativ gör att skulden efter 10 månader är lägst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med 3 000 kr per månad har 30 000 kr amorterats efter 10 månader, jämfört med 20 000 kr.</p></li><li><p>Därför är skulden lägre i ”3 000 kr/mån”.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 000 kr/mån.</p></div></div>",
     "familj": "Jämföra lån och avbetalning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -74273,10 +74273,10 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Amortering, ränta och lånekostnad"
-    ]
+    ],
+    "alternativ": [{"txt": "2 000 kr/mån", "ratt": false}, {"txt": "3 000 kr/mån", "ratt": true}, {"txt": "Samma skuld", "ratt": false}]
   },
   {
     "id": "3.253",
@@ -132529,13 +132529,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken tabell visar ett proportionellt samband?</p><p><strong>A</strong>: (x,y) = (2,7), (4,14), (7,24,5)<br><strong>B</strong>: (x,y) = (2,7), (4,13), (7,22)</p><p>Svara A eller B.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I A är kvoten \\(y/x=3{,}5\\) för alla tre punkter.</p></li><li><p>I B ändras kvoten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Vilken tabell visar ett proportionellt samband?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I ”(x,y) = (2,7), (4,14), (7,24,5)” är kvoten \\(y/x=3{,}5\\) för alla tre punkter.</p></li><li><p>I ”(x,y) = (2,7), (4,13), (7,22)” ändras kvoten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> (x,y) = (2,7), (4,14), (7,24,5).</p></div>",
     "familj": "Proportionalitetskonstant och samband",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "kort_text",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -132546,13 +132546,13 @@ window.BANKMA1 = [
     "spel": true,
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "svarFormat": "kort_text",
     "rättSvarAlternativ": [
       "a"
     ],
     "familjTidigare": [
       "Avgöra om ett samband är proportionellt"
-    ]
+    ],
+    "alternativ": [{"txt": "(x,y) = (2,7), (4,14), (7,24,5)", "ratt": true}, {"txt": "(x,y) = (2,7), (4,13), (7,22)", "ratt": false}]
   },
   {
     "id": "0.832",
@@ -132828,13 +132828,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Vilken av situationerna beskriver ett direkt proportionellt samband?</p><p>A: En parkering kostar 20 kr i startavgift och 8 kr per timme.<br>B: Vid konstant fart är färdsträckan proportionell mot tiden.<br>C: Temperaturen i Fahrenheit som funktion av temperaturen i Celsius.</p><p>Svara A, B eller C.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A har en startavgift och går därför inte genom origo.</p></li><li><p>C har sambandet \\(F=1{,}8C+32\\) och går inte heller genom origo.</p></li><li><p>Vid konstant fart gäller däremot \\(s=vt\\), vilket är av formen \\(y=kx\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Vilken av situationerna beskriver ett direkt proportionellt samband?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>”En parkering kostar 20 kr i startavgift och 8 kr per timme” har en startavgift och går därför inte genom origo.</p></li><li><p>”Temperaturen i Fahrenheit som funktion av temperaturen i Celsius” har sambandet \\(F=1{,}8C+32\\) och går inte heller genom origo.</p></li><li><p>Vid konstant fart gäller däremot \\(s=vt\\), vilket är av formen \\(y=kx\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vid konstant fart är färdsträckan proportionell mot tiden.</p></div>",
     "familj": "Proportionalitetskonstant och samband",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "kort_text",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -132845,13 +132845,13 @@ window.BANKMA1 = [
     "spel": true,
     "traningsniva": 5,
     "arbetsinsats": 3,
-    "svarFormat": "kort_text",
     "rättSvarAlternativ": [
       "b"
     ],
     "familjTidigare": [
       "Identifiera proportionalitet i olika modeller"
-    ]
+    ],
+    "alternativ": [{"txt": "En parkering kostar 20 kr i startavgift och 8 kr per timme.", "ratt": false}, {"txt": "Vid konstant fart är färdsträckan proportionell mot tiden.", "ratt": true}, {"txt": "Temperaturen i Fahrenheit som funktion av temperaturen i Celsius.", "ratt": false}]
   },
   {
     "id": "0.841",
@@ -139171,26 +139171,26 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken tabell visar ett proportionellt samband mellan \\(x\\) och \\(y\\)?</p><p>A: (1, 3), (2, 6), (5, 15)<br>B: (1, 4), (2, 7), (3, 10)<br>C: (2, 5), (4, 9), (6, 13)<br>D: (1, 2), (3, 9), (4, 16)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I A är \\(\\frac yx=3\\) i alla kolumner, alltså \\(y=3x\\).</p></li><li><p>I B är kvoterna 4, 3,5 och 3,33, i C 2,5, 2,25 och 2,17, och i D 2, 3 och 4.</p></li><li><p>De är inte konstanta.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: (1, 3), (2, 6), (5, 15)</p></div></div>",
+    "t": "<p>Vilken tabell visar ett proportionellt samband mellan \\(x\\) och \\(y\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I ”(1, 3), (2, 6), (5, 15)” är \\(\\frac yx=3\\) i alla kolumner, alltså \\(y=3x\\).</p></li><li><p>I ”(1, 4), (2, 7), (3, 10)” är kvoterna 4, 3,5 och 3,33, i ”(2, 5), (4, 9), (6, 13)” 2,5, 2,25 och 2,17, och i ”(1, 2), (3, 9), (4, 16)” 2, 3 och 4.</p></li><li><p>De är inte konstanta.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> (1, 3), (2, 6), (5, 15)</p></div></div>",
     "familj": "Proportionalitetskonstant och samband",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
     "ledtrad": "<p>Beräkna \\(\\frac{y}{x}\\) för varje talpar. I ett proportionellt samband är kvoten alltid densamma.</p>",
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Avgöra om ett samband är proportionellt"
-    ]
+    ],
+    "alternativ": [{"txt": "(1, 3), (2, 6), (5, 15)", "ratt": true}, {"txt": "(1, 4), (2, 7), (3, 10)", "ratt": false}, {"txt": "(2, 5), (4, 9), (6, 13)", "ratt": false}, {"txt": "(1, 2), (3, 9), (4, 16)", "ratt": false}]
   },
   {
     "id": "0.1037",
@@ -144973,8 +144973,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Vilket uttryck är lika med \\(-2(x-3)\\) för alla \\(x\\)?</p><p>A: \\(-2x-3\\)<br>B: \\(-2x-6\\)<br>C: \\(-2x+6\\)<br>D: \\(2x-6\\)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2(x-3)=(-2)\\cdot x+(-2)\\cdot(-3)=-2x+6\\]</div></li><li><p>A glömmer att multiplicera trean. B glömmer att minus gånger minus blir plus. D har fel tecken på båda termerna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C</p></div>",
+  "t": "<p>Vilket uttryck är lika med \\(-2(x-3)\\) för alla \\(x\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-2(x-3)=(-2)\\cdot x+(-2)\\cdot(-3)=-2x+6\\]</div></li><li><p>\\(-2x-3\\) glömmer att multiplicera trean. \\(-2x-6\\) glömmer att minus gånger minus blir plus. \\(2x-6\\) har fel tecken på båda termerna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2x+6\\).</p></div>",
   "ledtrad": "<p>Multiplicera in \\(-2\\) själv först och jämför sedan med alternativen.</p>",
   "niva": "E",
   "poang": "1/0/0",
@@ -144983,14 +144983,14 @@ window.BANKMA1 = [
     "procedur",
     "begrepp"
   ],
-  "svarstyp": "val",
-  "rättSvar": "C",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
   "tolerans": null,
   "självrättning": true,
-  "svarFormat": "kort_text",
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "spel": true
+  "spel": true,
+  "alternativ": [{"txt": "\\(-2x-3\\)", "ratt": false}, {"txt": "\\(-2x-6\\)", "ratt": false}, {"txt": "\\(-2x+6\\)", "ratt": true}, {"txt": "\\(2x-6\\)", "ratt": false}]
 },
 {
   "id": "1.1151",
@@ -145003,8 +145003,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Moa förenklar ett uttryck så här:</p><p>\\(7-2(x-3)=7-2x-6=1-2x\\)</p><p>Vilken förklaring rättar hennes fel?</p><p>A: Hon skulle först ha räknat \\(7-2=5\\), så svaret är \\(5x-15\\).<br>B: \\((-2)\\cdot(-3)\\) blir \\(+6\\), så svaret är \\(13-2x\\).<br>C: Minustecknet gäller bara \\(x\\), så svaret är \\(7-2x-3=4-2x\\).<br>D: Det är rätt, eftersom \\(7-6=1\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn framför parentesen är \\(-2\\). Den ska multipliceras med både \\(x\\) och \\(-3\\).</p></li><li><div class=\"facit-matte\">\\[7-2(x-3)=7-2x+6=13-2x\\]</div></li><li><p>Moa skrev \\(-6\\) i stället för \\(+6\\). Alternativ A bryter mot räkneordningen: multiplikationen ska göras före subtraktionen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B</p></div>",
+  "t": "<p>Moa förenklar ett uttryck så här:</p><p>\\(7-2(x-3)=7-2x-6=1-2x\\)</p><p>Vilken förklaring rättar hennes fel?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorn framför parentesen är \\(-2\\). Den ska multipliceras med både \\(x\\) och \\(-3\\).</p></li><li><div class=\"facit-matte\">\\[7-2(x-3)=7-2x+6=13-2x\\]</div></li><li><p>Moa skrev \\(-6\\) i stället för \\(+6\\). Alternativet ”Hon skulle först ha räknat \\(7-2=5\\), så svaret är \\(5x-15\\)” bryter mot räkneordningen: multiplikationen ska göras före subtraktionen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((-2)\\cdot(-3)\\) blir \\(+6\\), så svaret är \\(13-2x\\).</p></div>",
   "ledtrad": "<p>Vilket tecken får produkten \\((-2)\\cdot(-3)\\)?</p>",
   "niva": "E",
   "poang": "1/0/0",
@@ -145013,14 +145013,14 @@ window.BANKMA1 = [
     "begrepp",
     "resonemang"
   ],
-  "svarstyp": "val",
-  "rättSvar": "B",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
   "tolerans": null,
   "självrättning": true,
-  "svarFormat": "kort_text",
   "traningsniva": 2,
   "arbetsinsats": 2,
-  "spel": true
+  "spel": true,
+  "alternativ": [{"txt": "Hon skulle först ha räknat \\(7-2=5\\), så svaret är \\(5x-15\\).", "ratt": false}, {"txt": "\\((-2)\\cdot(-3)\\) blir \\(+6\\), så svaret är \\(13-2x\\).", "ratt": true}, {"txt": "Minustecknet gäller bara \\(x\\), så svaret är \\(7-2x-3=4-2x\\).", "ratt": false}, {"txt": "Det är rätt, eftersom \\(7-6=1\\).", "ratt": false}]
 },
 {
   "id": "1.1152",
@@ -145759,8 +145759,8 @@ window.BANKMA1 = [
   ],
   "geogebra": false,
   "miniräknare": false,
-  "t": "<p>Tre av uttrycken är lika med \\(6-3(x-2)\\) för alla \\(x\\). Vilket uttryck är <strong>inte</strong> det?</p><p>A: \\(12-3x\\)<br>B: \\(6-3x+6\\)<br>C: \\(-3x+12\\)<br>D: \\(3x-12\\)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6-3(x-2)=6-3x+6=12-3x\\]</div></li><li><p>A, B och C är samma uttryck skrivna på olika sätt. D har motsatt tecken på båda termerna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D</p></div>",
+  "t": "<p>Tre av uttrycken är lika med \\(6-3(x-2)\\) för alla \\(x\\). Vilket uttryck är <strong>inte</strong> det?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6-3(x-2)=6-3x+6=12-3x\\]</div></li><li><p>\\(12-3x\\), \\(6-3x+6\\) och \\(-3x+12\\) är samma uttryck skrivna på olika sätt. \\(3x-12\\) har motsatt tecken på båda termerna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x-12\\).</p></div>",
   "ledtrad": "<p>Förenkla \\(6-3(x-2)\\) själv. Jämför sedan med varje alternativ.</p>",
   "niva": "E",
   "poang": "1/0/0",
@@ -145768,14 +145768,14 @@ window.BANKMA1 = [
   "formaga": [
     "begrepp"
   ],
-  "svarstyp": "val",
-  "rättSvar": "D",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
   "tolerans": null,
   "självrättning": true,
-  "svarFormat": "kort_text",
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "spel": true
+  "spel": true,
+  "alternativ": [{"txt": "\\(12-3x\\)", "ratt": false}, {"txt": "\\(6-3x+6\\)", "ratt": false}, {"txt": "\\(-3x+12\\)", "ratt": false}, {"txt": "\\(3x-12\\)", "ratt": true}]
 },
 {
   "id": "1.1175",

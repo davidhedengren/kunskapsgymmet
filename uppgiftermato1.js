@@ -13017,13 +13017,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket av alternativen A-E visar ett polynom?</p><p>A. \\(\\frac4{x^3}+4x^3\\)<br>B. \\(x^2+x^{2{,}5}\\)<br>C. \\((2+\\frac1x)^3\\)<br>D. \\(\\frac{5x}{12x-x^2}\\)<br>E. \\(4x^3+2x^2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I ett polynom får variabeln bara ha icke-negativa heltalsexponenter och får inte ligga i nämnaren.</p></li><li><p>Endast D uppfyller detta.</p></li></ol><p class=\"facit-svar\"><strong>Svar: E.</strong></p></div>",
+    "t": "<p>Vilket av alternativen A-E visar ett polynom?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I ett polynom får variabeln bara ha icke-negativa heltalsexponenter och får inte ligga i nämnaren.</p></li><li><p>Endast \\(4x^3+2x^2\\) uppfyller detta.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4x^3+2x^2\\).</strong></p></div>",
     "familj": "Polynombegrepp, grad och värden",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "E",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -13036,7 +13036,8 @@ window.BANKMATO1 = [
     "kalla": "NP Ma3c ht 2012, uppgift 3",
     "familjTidigare": [
       "Polynombegrepp"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(\\frac4{x^3}+4x^3\\)", "ratt": false}, {"txt": "\\(x^2+x^{2{,}5}\\)", "ratt": false}, {"txt": "\\((2+\\frac1x)^3\\)", "ratt": false}, {"txt": "\\(\\frac{5x}{12x-x^2}\\)", "ratt": false}, {"txt": "\\(4x^3+2x^2\\)", "ratt": true}]
   },
   {
     "id": "1.450",
@@ -50969,13 +50970,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken av följande funktioner är en primitiv funktion till \\(f(x)=6x^2-4x+3\\)?</p><p>A. \\(2x^3-2x^2+3x\\)<br>B. \\(3x^2-4x+3\\)<br>C. \\(2x^3-4x^2+3\\)<br>D. \\(6x^3-2x^2+3x\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera alternativen.</p></li><li><p>För A gäller</p><p>\\[(2x^3-2x^2+3x)' = 6x^2-4x+3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Vilken av följande funktioner är en primitiv funktion till \\(f(x)=6x^2-4x+3\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera alternativen.</p></li><li><p>För \\(2x^3-2x^2+3x\\) gäller</p><p>\\[(2x^3-2x^2+3x)' = 6x^2-4x+3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x^3-2x^2+3x\\).</p></div>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -50986,13 +50987,13 @@ window.BANKMATO1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "val",
     "omrTidigare": [
       "primitiva_funktioner"
     ],
     "familjTidigare": [
       "Identifiera primitiv funktion"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(2x^3-2x^2+3x\\)", "ratt": true}, {"txt": "\\(3x^2-4x+3\\)", "ratt": false}, {"txt": "\\(2x^3-4x^2+3\\)", "ratt": false}, {"txt": "\\(6x^3-2x^2+3x\\)", "ratt": false}]
   },
   {
     "id": "3.552",
@@ -55558,13 +55559,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken av följande funktioner är en primitiv funktion till \\(f(x)=x^3-2x\\)?</p><p>A. \\(3x^2-2\\)<br>B. \\(x^4/4-4x\\)<br>C. \\(x^4/4-x^2\\)<br>D. \\(x^4-2x^2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera alternativen.</p></li><li><p>För C gäller</p><p>\\[\\left(\\frac{x^4}{4}-x^2\\right)'=x^3-2x.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: C.</strong></p></div>",
+    "t": "<p>Vilken av följande funktioner är en primitiv funktion till \\(f(x)=x^3-2x\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera alternativen.</p></li><li><p>För \\(x^4/4-x^2\\) gäller</p><p>\\[\\left(\\frac{x^4}{4}-x^2\\right)'=x^3-2x.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x^4/4-x^2\\).</strong></p></div>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -55581,7 +55582,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Identifiera primitiv funktion"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(3x^2-2\\)", "ratt": false}, {"txt": "\\(x^4/4-4x\\)", "ratt": false}, {"txt": "\\(x^4/4-x^2\\)", "ratt": true}, {"txt": "\\(x^4-2x^2\\)", "ratt": false}]
   },
   {
     "id": "3.728",
@@ -99656,8 +99658,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken funktion uppfyller \\(f'(x)=2f(x)\\) för alla \\(x\\)?</p><p>Välj ett alternativ.</p><p>A. \\(f(x)=e^{2x}+1\\)<br>B. \\(f(x)=3e^{2x}\\)<br>C. \\(f(x)=2e^{x}\\)<br>D. \\(f(x)=e^{x^2}\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>B: \\(f'(x)=6e^{2x}=2\\cdot3e^{2x}=2f(x)\\).</p></li><li><p>A ger \\(f'=2e^{2x}\\), men \\(2f=2e^{2x}+2\\). C ger \\(f'=f\\). D ger \\(f'=2xe^{x^2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B</p></div>",
+    "t": "<p>Vilken funktion uppfyller \\(f'(x)=2f(x)\\) för alla \\(x\\)?</p><p>Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(f(x)=3e^{2x}\\) gäller \\(f'(x)=6e^{2x}=2\\cdot3e^{2x}=2f(x)\\).</p></li><li><p>\\(f(x)=e^{2x}+1\\) ger \\(f'=2e^{2x}\\), men \\(2f=2e^{2x}+2\\). \\(f(x)=2e^{x}\\) ger \\(f'=f\\). \\(f(x)=e^{x^2}\\) ger \\(f'=2xe^{x^2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=3e^{2x}\\).</p></div>",
     "familj": "Derivatan är proportionell mot funktionsvärdet",
     "formaga": [
       "begrepp"
@@ -99669,10 +99671,10 @@ window.BANKMATO1 = [
     "spel": true,
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "svarstyp": "val",
-    "svarFormat": "kort_text",
-    "rättSvar": "B",
-    "tolerans": null
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [{"txt": "\\(f(x)=e^{2x}+1\\)", "ratt": false}, {"txt": "\\(f(x)=3e^{2x}\\)", "ratt": true}, {"txt": "\\(f(x)=2e^{x}\\)", "ratt": false}, {"txt": "\\(f(x)=e^{x^2}\\)", "ratt": false}]
   },
   {
     "id": "2.1122",

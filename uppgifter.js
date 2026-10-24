@@ -208570,5 +208570,2484 @@ window.BANK = [
   "tolerans": 0.05,
   "svarEnhet": "m/s",
   "svarFormat": "numeriskt"
+},
+{
+  "id": "9.452",
+  "kap": 9,
+  "omr": "fission",
+  "niva": "E",
+  "typ": "vad som startar en klyvning",
+  "poang": "(1/0/0)",
+  "t": "<p>Vad krävs för att en uran-235-kärna ska klyvas i en kärnreaktor? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnan fångar in en långsam neutron. Då blir den instabil och delas i två mindre kärnor och några neutroner.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Att kärnan fångar in en långsam neutron.</p></div>",
+  "familj": "Fission och energiutvinning",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "fission__fission_och_energiutvinning",
+  "självrättning": true,
+  "ledtrad": "<p>Vilken partikel startar klyvningen och kommer sedan ut igen från varje klyvning?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Att kärnan träffas av en elektron",
+      "ratt": false,
+      "kommentar": "Elektroner påverkar inte kärnan på det sättet."
+    },
+    {
+      "txt": "Att kärnan värms till miljontals grader",
+      "ratt": false,
+      "kommentar": "Så hög temperatur behövs för fusion, inte för fission."
+    },
+    {
+      "txt": "Att kärnan fångar in en långsam neutron",
+      "ratt": true,
+      "kommentar": "Rätt. Neutronen gör kärnan instabil."
+    },
+    {
+      "txt": "Att kärnan sänder ut en alfapartikel",
+      "ratt": false,
+      "kommentar": "Det är alfasönderfall."
+    }
+  ]
+},
+{
+  "id": "9.453",
+  "kap": 9,
+  "omr": "fission",
+  "niva": "E",
+  "typ": "neutroner ur masstal",
+  "poang": "(1/0/0)",
+  "t": "<p>En klyvning kan skrivas \\[{}^{235}_{92}\\mathrm U+{}^{1}_{0}\\mathrm n\\rightarrow{}^{140}_{54}\\mathrm{Xe}+{}^{94}_{38}\\mathrm{Sr}+x\\,{}^{1}_{0}\\mathrm n.\\] Hur många neutroner frigörs?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet bevaras.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[235+1=140+94+x\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[x=236-234=2\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2 neutroner.</p></div>",
+  "familj": "Fission och energiutvinning",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "fission__fission_och_energiutvinning",
+  "självrättning": true,
+  "ledtrad": "<p>Summan av masstalen före ska vara lika med summan efter.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.454",
+  "kap": 9,
+  "omr": "fission",
+  "niva": "E",
+  "typ": "atomnummer på okänt fragment",
+  "poang": "(1/0/0)",
+  "t": "<p>En klyvning kan skrivas \\[{}^{235}_{92}\\mathrm U+{}^{1}_{0}\\mathrm n\\rightarrow{}^{141}_{56}\\mathrm{Ba}+X+3\\,{}^{1}_{0}\\mathrm n.\\] Vilket atomnummer har \\(X\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningen bevaras. Neutronerna har atomnummer 0.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[92=56+Z\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[Z=36\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 36 (krypton).</p></div>",
+  "familj": "Fission och energiutvinning",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "fission__fission_och_energiutvinning",
+  "självrättning": true,
+  "ledtrad": "<p>Summan av atomnumren före ska vara lika med summan efter.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 36,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.455",
+  "kap": 9,
+  "omr": "fission",
+  "niva": "E",
+  "typ": "kedjereaktion",
+  "poang": "(1/0/0)",
+  "t": "<p>Varför kan klyvningen av uran-235 bli en kedjereaktion? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje klyvning ger två eller tre nya neutroner. De kan i sin tur klyva nya urankärnor.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Varje klyvning frigör nya neutroner som kan klyva fler kärnor.</p></div>",
+  "familj": "Fission och energiutvinning",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "fission__fission_och_energiutvinning",
+  "självrättning": true,
+  "ledtrad": "<p>Vad kommer ut ur en klyvning som kan starta nästa?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Varje klyvning frigör protoner som klyver nya kärnor",
+      "ratt": false,
+      "kommentar": "Protonerna stannar i fragmenten."
+    },
+    {
+      "txt": "Värmen från en klyvning smälter nästa kärna",
+      "ratt": false,
+      "kommentar": "Klyvningen startas av neutroner, inte av värme."
+    },
+    {
+      "txt": "Gammastrålningen delar nästa kärna",
+      "ratt": false,
+      "kommentar": "Det är neutronerna som startar nya klyvningar."
+    },
+    {
+      "txt": "Varje klyvning frigör nya neutroner som kan klyva fler kärnor",
+      "ratt": true,
+      "kommentar": "Rätt."
+    }
+  ]
+},
+{
+  "id": "9.456",
+  "kap": 9,
+  "omr": "fission",
+  "niva": "E",
+  "typ": "moderatorns uppgift",
+  "poang": "(1/0/0)",
+  "t": "<p>Vad har moderatorn, till exempel vatten, för uppgift i en kärnreaktor? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Neutronerna från en klyvning är mycket snabba. Moderatorn bromsar dem, och långsamma neutroner fångas lättare in av uran-235.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Att bromsa neutronerna.</p></div>",
+  "familj": "Fission och energiutvinning",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "fission__fission_och_energiutvinning",
+  "självrättning": true,
+  "ledtrad": "<p>Vilka neutroner fångas lättast in av uran-235, snabba eller långsamma?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Att fånga upp alla neutroner",
+      "ratt": false,
+      "kommentar": "Då skulle reaktionen stanna. Det är styrstavarnas uppgift att fånga en del neutroner."
+    },
+    {
+      "txt": "Att bromsa neutronerna så att de lättare klyver uran-235",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Att stoppa gammastrålningen från reaktorn",
+      "ratt": false,
+      "kommentar": "Det är strålskärmens uppgift."
+    },
+    {
+      "txt": "Att driva turbinen",
+      "ratt": false,
+      "kommentar": "Turbinen drivs av ånga."
+    }
+  ]
+},
+{
+  "id": "9.457",
+  "kap": 9,
+  "omr": "fission",
+  "niva": "E",
+  "typ": "styrstavar",
+  "poang": "(1/0/0)",
+  "t": "<p>Vad händer när styrstavarna sänks längre ner i en kärnreaktor? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Styrstavarna innehåller till exempel bor som fångar neutroner. Färre neutroner kan klyva uran, så antalet klyvningar per sekund minskar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Antalet klyvningar minskar.</p></div>",
+  "familj": "Fission och energiutvinning",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "fission__fission_och_energiutvinning",
+  "självrättning": true,
+  "ledtrad": "<p>Styrstavarna fångar neutroner. Vad betyder det för antalet klyvningar?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "De ger fler neutroner och effekten ökar",
+      "ratt": false,
+      "kommentar": "Styrstavar fångar neutroner."
+    },
+    {
+      "txt": "De kyler reaktorn så att uranet inte smälter",
+      "ratt": false,
+      "kommentar": "Kylningen sköts av vattnet."
+    },
+    {
+      "txt": "De fångar fler neutroner och antalet klyvningar minskar",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Ingenting, de används bara vid underhåll",
+      "ratt": false,
+      "kommentar": "De används för att styra effekten."
+    }
+  ]
+},
+{
+  "id": "9.458",
+  "kap": 9,
+  "omr": "fission",
+  "niva": "E",
+  "typ": "energi från många klyvningar",
+  "poang": "(1/0/0)",
+  "t": "<p>Varje klyvning av uran-235 frigör 200 MeV. Hur mycket energi frigör 1 000 klyvningar? (Svara i GeV.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Multiplicera energin per klyvning med antalet klyvningar. 1 GeV = 1 000 MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=1000\\cdot200\\ \\mathrm{MeV}=200\\,000\\ \\mathrm{MeV}=200\\ \\mathrm{GeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 200 GeV.</p></div>",
+  "familj": "Fission och energiutvinning",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "fission__fission_och_energiutvinning",
+  "självrättning": true,
+  "ledtrad": "<p>1 GeV = 1 000 MeV.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 200,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "GeV"
+},
+{
+  "id": "9.459",
+  "kap": 9,
+  "omr": "fission",
+  "niva": "E",
+  "typ": "MeV till pJ",
+  "poang": "(1/0/0)",
+  "t": "<p>En klyvning frigör 180 MeV. Hur stor är energin i pJ? (Svara i pJ med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">1 eV = 1,602·10⁻¹⁹ J och 1 pJ = 10⁻¹² J.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=180\\cdot10^{6}\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm J=2{,}88\\cdot10^{-11}\\ \\mathrm J\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E\\approx28{,}8\\ \\mathrm{pJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 28,8 pJ.</p></div>",
+  "familj": "Fission och energiutvinning",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "fission__fission_och_energiutvinning",
+  "självrättning": true,
+  "ledtrad": "<p>Gör om MeV till eV och multiplicera med 1,602·10⁻¹⁹ J.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 28.836,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "pJ"
+},
+{
+  "id": "9.460",
+  "kap": 9,
+  "omr": "fission",
+  "niva": "E",
+  "typ": "elektrisk effekt ur verkningsgrad",
+  "poang": "(1/0/0)",
+  "t": "<p>En reaktor utvecklar värmeeffekten 3 000 MW. Verkningsgraden till el är 33 %. Hur stor elektrisk effekt ger kraftverket? (Svara i MW.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den elektriska effekten är 33 % av värmeeffekten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[P_{\\mathrm{el}}=0{,}33\\cdot3000\\ \\mathrm{MW}=990\\ \\mathrm{MW}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 990 MW.</p></div>",
+  "familj": "Fission och energiutvinning",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "fission__fission_och_energiutvinning",
+  "självrättning": true,
+  "ledtrad": "<p>Verkningsgraden anger hur stor andel som blir el.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 990.0,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "MW"
+},
+{
+  "id": "9.461",
+  "kap": 9,
+  "omr": "fission",
+  "niva": "E",
+  "typ": "energi ur massminskning",
+  "poang": "(1/0/0)",
+  "t": "<p>Vid en klyvning minskar massan med 0,20 u. Hur mycket energi frigörs? (Svara i MeV med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan 1 u motsvarar energin 931,5 MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}20\\cdot931{,}5\\ \\mathrm{MeV}=186{,}3\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 186,3 MeV.</p></div>",
+  "familj": "Fission och energiutvinning",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "fission__fission_och_energiutvinning",
+  "självrättning": true,
+  "ledtrad": "<p>Multiplicera massminskningen med 931,5 MeV per u.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 186.3,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "MeV"
+},
+{
+  "id": "9.462",
+  "kap": 9,
+  "omr": "fission",
+  "niva": "E",
+  "typ": "kedjereaktion i generationer",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en kedjereaktion där varje klyvning ger två neutroner som var och en klyver en ny kärna.</p><span class=\"fig smal\"><svg viewBox=\"0 0 440.00 250.00\" width=\"440\" height=\"250\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"En kedjereaktion. Generation 1 har en klyvning, generation 2 har två och generation 3 har fyra. Varje klyvning sänder ut två neutroner som klyver nya kärnor.\"><rect x=\"0\" y=\"0\" width=\"440.00\" height=\"250.00\" fill=\"#FFFFFF\"/><text x=\"14.0\" y=\"49.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">gen. 1</text><text x=\"14.0\" y=\"124.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">gen. 2</text><text x=\"14.0\" y=\"199.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">gen. 3</text><line x1=\"220.0\" y1=\"59.0\" x2=\"166.4\" y2=\"99.2\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"160.0,104.0 165.3,94.4 170.7,101.6\" fill=\"#2A5D9E\"/><line x1=\"220.0\" y1=\"59.0\" x2=\"322.6\" y2=\"101.0\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"330.0,104.0 319.0,104.4 322.4,96.0\" fill=\"#2A5D9E\"/><line x1=\"160.0\" y1=\"134.0\" x2=\"115.9\" y2=\"173.6\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"110.0,179.0 114.4,169.0 120.4,175.7\" fill=\"#2A5D9E\"/><line x1=\"160.0\" y1=\"134.0\" x2=\"191.6\" y2=\"172.8\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"196.7,179.0 186.9,174.1 193.8,168.4\" fill=\"#2A5D9E\"/><line x1=\"330.0\" y1=\"134.0\" x2=\"289.1\" y2=\"173.4\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"283.3,179.0 287.4,168.8 293.7,175.3\" fill=\"#2A5D9E\"/><line x1=\"330.0\" y1=\"134.0\" x2=\"364.7\" y2=\"173.0\" stroke=\"#2A5D9E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"370.0,179.0 360.0,174.5 366.7,168.5\" fill=\"#2A5D9E\"/><circle cx=\"220.0\" cy=\"45\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><circle cx=\"160.0\" cy=\"120\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><circle cx=\"330.0\" cy=\"120\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><circle cx=\"110.0\" cy=\"195\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><circle cx=\"196.7\" cy=\"195\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><circle cx=\"283.3\" cy=\"195\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><circle cx=\"370.0\" cy=\"195\" r=\"13\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.8\"/><rect x=\"321.7\" y=\"222.0\" width=\"96.7\" height=\"16\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"370.0\" y=\"232.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">pil = neutron</text></svg></span><p>Hur många klyvningar sker i generation 4 om mönstret fortsätter?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet klyvningar fördubblas i varje generation: 1, 2, 4, 8.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 8 klyvningar.</p></div>",
+  "familj": "Fission och energiutvinning",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "fission__fission_och_energiutvinning",
+  "självrättning": true,
+  "ledtrad": "<p>Hur ändras antalet från en generation till nästa?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.463",
+  "kap": 9,
+  "omr": "fusion",
+  "niva": "E",
+  "typ": "masstal på partikeln X",
+  "poang": "(1/0/0)",
+  "t": "<p>Två deuteriumkärnor slås ihop: \\[{}^{2}_{1}\\mathrm H+{}^{2}_{1}\\mathrm H\\rightarrow{}^{3}_{2}\\mathrm{He}+X.\\] Vilket masstal har \\(X\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet bevaras.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[2+2=3+A\\Rightarrow A=1\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Atomnumret blir \\(1+1-2=0\\), så \\(X\\) är en neutron.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1.</p></div>",
+  "familj": "Fusion och energi",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "fusion__fusion_och_energi",
+  "självrättning": true,
+  "ledtrad": "<p>Summan av masstalen före ska vara lika med summan efter.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.464",
+  "kap": 9,
+  "omr": "fusion",
+  "niva": "E",
+  "typ": "vilken partikel bildas",
+  "poang": "(1/0/0)",
+  "t": "<p>I solen sker reaktionen \\[{}^{3}_{2}\\mathrm{He}+{}^{3}_{2}\\mathrm{He}\\rightarrow{}^{4}_{2}\\mathrm{He}+2X.\\] Vilken partikel är \\(X\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstal: \\(6=4+2A\\), så \\(A=1\\). Atomnummer: \\(4=2+2Z\\), så \\(Z=1\\). En partikel med masstal 1 och atomnummer 1 är en proton.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En proton.</p></div>",
+  "familj": "Fusion och energi",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "familjNyckel": "fusion__fusion_och_energi",
+  "självrättning": true,
+  "ledtrad": "<p>Bestäm masstal och atomnummer för X med bevarandelagarna.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "En neutron",
+      "ratt": false,
+      "kommentar": "En neutron har atomnummer 0. Då stämmer inte laddningen."
+    },
+    {
+      "txt": "En proton",
+      "ratt": true,
+      "kommentar": "Rätt: masstal 1 och atomnummer 1."
+    },
+    {
+      "txt": "En elektron",
+      "ratt": false,
+      "kommentar": "Masstalet skulle då inte stämma."
+    },
+    {
+      "txt": "En alfapartikel",
+      "ratt": false,
+      "kommentar": "Två alfapartiklar skulle ge masstalet 12 efter reaktionen."
+    }
+  ]
+},
+{
+  "id": "9.465",
+  "kap": 9,
+  "omr": "fusion",
+  "niva": "E",
+  "typ": "var fusion sker",
+  "poang": "(1/0/0)",
+  "t": "<p>Var sker fusion naturligt? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I stjärnornas inre är temperaturen och trycket så höga att lätta kärnor kan slås ihop.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> I stjärnornas inre.</p></div>",
+  "familj": "Fusion och energi",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "fusion__fusion_och_energi",
+  "självrättning": true,
+  "ledtrad": "<p>Var är det tillräckligt varmt för att kärnor ska kunna slås ihop?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "I kärnkraftverk",
+      "ratt": false,
+      "kommentar": "Dagens kärnkraftverk använder fission."
+    },
+    {
+      "txt": "I jordens inre",
+      "ratt": false,
+      "kommentar": "Där värms berget av radioaktiva sönderfall, inte av fusion."
+    },
+    {
+      "txt": "I åskmoln",
+      "ratt": false,
+      "kommentar": "Där sker urladdningar, inte fusion."
+    },
+    {
+      "txt": "I stjärnornas inre",
+      "ratt": true,
+      "kommentar": "Rätt."
+    }
+  ]
+},
+{
+  "id": "9.466",
+  "kap": 9,
+  "omr": "fusion",
+  "niva": "E",
+  "typ": "vad väte blir i solen",
+  "poang": "(1/0/0)",
+  "t": "<p>Vilket grundämne bildas när väte fusionerar i solen? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I solen slås fyra vätekärnor (protoner) i flera steg ihop till en heliumkärna.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Helium.</p></div>",
+  "familj": "Fusion och energi",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "fusion__fusion_och_energi",
+  "självrättning": true,
+  "ledtrad": "<p>Vilket grundämne har atomnummer 2?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Litium",
+      "ratt": false,
+      "kommentar": "Litium bildas inte i solens huvudreaktion."
+    },
+    {
+      "txt": "Kol",
+      "ratt": false,
+      "kommentar": "Kol bildas först i äldre och tyngre stjärnor."
+    },
+    {
+      "txt": "Helium",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Uran",
+      "ratt": false,
+      "kommentar": "Uran är en tung kärna som inte bildas i solen."
+    }
+  ]
+},
+{
+  "id": "9.467",
+  "kap": 9,
+  "omr": "fusion",
+  "niva": "E",
+  "typ": "energi ur liten massminskning",
+  "poang": "(1/0/0)",
+  "t": "<p>Vid en fusionsreaktion minskar massan med 0,0034 u. Hur mycket energi frigörs? (Svara i MeV med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan 1 u motsvarar 931,5 MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}0034\\cdot931{,}5\\ \\mathrm{MeV}\\approx3{,}2\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,2 MeV.</p></div>",
+  "familj": "Fusion och energi",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "fusion__fusion_och_energi",
+  "självrättning": true,
+  "ledtrad": "<p>Multiplicera med 931,5 MeV per u.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3.1671,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "MeV"
+},
+{
+  "id": "9.468",
+  "kap": 9,
+  "omr": "fusion",
+  "niva": "E",
+  "typ": "E = mc² med milligram",
+  "poang": "(1/0/0)",
+  "t": "<p>Vid fusion i en testreaktor omvandlas sammanlagt 2,0 mg massa till energi. Hur mycket energi frigörs? (Svara i GJ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(E=mc^2\\) med massan i kg: 2,0 mg = 2,0·10⁻⁶ kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=2{,}0\\cdot10^{-6}\\cdot(3{,}0\\cdot10^{8})^2\\ \\mathrm J=1{,}8\\cdot10^{11}\\ \\mathrm J=180\\ \\mathrm{GJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 180 GJ.</p></div>",
+  "familj": "Fusion och energi",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "fusion__fusion_och_energi",
+  "självrättning": true,
+  "ledtrad": "<p>1 GJ = 10⁹ J.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 180.0,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "GJ"
+},
+{
+  "id": "9.469",
+  "kap": 9,
+  "omr": "fusion",
+  "niva": "E",
+  "typ": "likhet mellan fission och fusion",
+  "poang": "(1/0/0)",
+  "t": "<p>Vad har fission och fusion gemensamt? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I båda fallen har produkterna mindre massa än det man började med. Massminskningen motsvarar den energi som frigörs.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Massan minskar och energi frigörs.</p></div>",
+  "familj": "Fusion och energi",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "fusion__fusion_och_energi",
+  "självrättning": true,
+  "ledtrad": "<p>Var kommer energin ifrån i båda reaktionerna?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Båda slår ihop lätta kärnor",
+      "ratt": false,
+      "kommentar": "Det gäller bara fusion."
+    },
+    {
+      "txt": "Massan minskar och energi frigörs",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Båda använder uran som bränsle",
+      "ratt": false,
+      "kommentar": "Fusion använder lätta kärnor som väteisotoper."
+    },
+    {
+      "txt": "Den totala massan ökar i båda",
+      "ratt": false,
+      "kommentar": "Massan minskar. Det är därför energi frigörs."
+    }
+  ]
+},
+{
+  "id": "9.470",
+  "kap": 9,
+  "omr": "fusion",
+  "niva": "E",
+  "typ": "energi från många D–T-reaktioner",
+  "poang": "(1/0/0)",
+  "t": "<p>En D–T-reaktion frigör 17,6 MeV. Hur mycket energi frigör 2,0·10⁶ sådana reaktioner? (Svara i µJ med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gör om till joule med 1 eV = 1,602·10⁻¹⁹ J och multiplicera med antalet reaktioner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=2{,}0\\cdot10^{6}\\cdot17{,}6\\cdot10^{6}\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm J\\approx5{,}6\\cdot10^{-6}\\ \\mathrm J\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 5,6 µJ.</p></div>",
+  "familj": "Fusion och energi",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "fusion__fusion_och_energi",
+  "självrättning": true,
+  "ledtrad": "<p>1 µJ = 10⁻⁶ J.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 5.63904,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "µJ"
+},
+{
+  "id": "9.471",
+  "kap": 9,
+  "omr": "fusion",
+  "niva": "E",
+  "typ": "energi per nukleon",
+  "poang": "(1/0/0)",
+  "t": "<p>En D–T-reaktion \\({}^{2}\\mathrm H+{}^{3}\\mathrm H\\) frigör 17,6 MeV. Hur mycket energi blir det per nukleon i bränslet? (Svara i MeV med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Deuterium har 2 nukleoner och tritium 3, sammanlagt 5.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{17{,}6}{5}\\ \\mathrm{MeV}\\approx3{,}5\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,5 MeV per nukleon.</p></div>",
+  "familj": "Fusion och energi",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "fusion__fusion_och_energi",
+  "självrättning": true,
+  "ledtrad": "<p>Räkna nukleonerna i deuterium och tritium.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3.5200000000000005,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "MeV"
+},
+{
+  "id": "9.472",
+  "kap": 9,
+  "omr": "fusion",
+  "niva": "E",
+  "typ": "svårt att bygga fusionsreaktor",
+  "poang": "(1/0/0)",
+  "t": "<p>Varför är det svårt att bygga en fusionsreaktor som ger el? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnorna stöter bort varandra. För att de ska komma tillräckligt nära måste bränslet vara över hundra miljoner grader varmt, och det heta plasmat måste hållas på plats utan att röra väggarna.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bränslet måste vara extremt varmt och hållas inneslutet.</p></div>",
+  "familj": "Fusion och energi",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "fusion__fusion_och_energi",
+  "självrättning": true,
+  "ledtrad": "<p>Tänk på vad som krävs för att positiva kärnor ska komma nära varandra.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Bränslet tar slut på några sekunder",
+      "ratt": false,
+      "kommentar": "Det finns mycket deuterium i havsvatten."
+    },
+    {
+      "txt": "Fusion frigör mindre energi än förbränning",
+      "ratt": false,
+      "kommentar": "Fusion frigör miljontals gånger mer energi per kilogram."
+    },
+    {
+      "txt": "Bränslet måste vara extremt varmt och hållas inneslutet",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Det finns inget väte på jorden",
+      "ratt": false,
+      "kommentar": "Vatten innehåller väte, även deuterium."
+    }
+  ]
+},
+{
+  "id": "9.473",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "E",
+  "typ": "område mellan synligt och röntgen",
+  "poang": "(1/0/0)",
+  "t": "<p>Vilken strålning ligger mellan synligt ljus och röntgenstrålning i det elektromagnetiska spektrumet? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ordningen efter ökande frekvens är radiovågor, mikrovågor, IR, synligt ljus, UV, röntgen och gamma.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ultraviolett strålning.</p></div>",
+  "familj": "Det elektromagnetiska spektrumet",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Vilken strålning har lite högre frekvens än violett ljus?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Infraröd strålning",
+      "ratt": false,
+      "kommentar": "IR ligger på andra sidan om synligt ljus, mot lägre frekvens."
+    },
+    {
+      "txt": "Ultraviolett strålning",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Mikrovågor",
+      "ratt": false,
+      "kommentar": "Mikrovågor har lägre frekvens än IR."
+    },
+    {
+      "txt": "Gammastrålning",
+      "ratt": false,
+      "kommentar": "Gamma har högre frekvens än röntgen."
+    }
+  ]
+},
+{
+  "id": "9.474",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "E",
+  "typ": "okänt område i spektrumet",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar det elektromagnetiska spektrumet ordnat efter frekvens. Ett område är markerat med ett frågetecken.</p><span class=\"fig smal\"><svg viewBox=\"0 0 560.00 120.00\" width=\"560\" height=\"120\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Det elektromagnetiska spektrumet ordnat efter ökande frekvens: radiovågor, ett okänt område markerat med frågetecken, IR, synligt ljus, UV, röntgen och gamma.\"><rect x=\"0\" y=\"0\" width=\"560.00\" height=\"120.00\" fill=\"#FFFFFF\"/><rect x=\"18.0\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#DCE8F5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"55.4\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Radiovågor</text><rect x=\"92.8\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#FFF4D6\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"130.2\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">?</text><rect x=\"167.6\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#F7D9CF\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"205.0\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">IR</text><rect x=\"242.4\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#E3F1E6\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"279.8\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Synligt</text><rect x=\"317.2\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#E8DFF5\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"354.6\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">UV</text><rect x=\"392.0\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#E4E3E6\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"429.4\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Röntgen</text><rect x=\"466.8\" y=\"28\" width=\"74.8\" height=\"44\" fill=\"#F2DCE4\" stroke=\"#2B2527\" stroke-width=\"1.2\"/><text x=\"504.2\" y=\"55.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Gamma</text><line x1=\"18.0\" y1=\"98.0\" x2=\"533.6\" y2=\"98.0\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"541.6,98.0 531.6,102.5 531.6,93.5\" fill=\"#5C575E\"/><text x=\"279.8\" y=\"116.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">ökande frekvens</text></svg></span><p>Vilken typ av strålning ska stå där frågetecknet är? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mellan radiovågor och infraröd strålning ligger mikrovågor.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Mikrovågor.</p></div>",
+  "familj": "Det elektromagnetiska spektrumet",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Vilken strålning används i en mikrovågsugn och har lite kortare våglängd än radiovågor?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ultraviolett strålning",
+      "ratt": false,
+      "kommentar": "UV ligger mellan synligt ljus och röntgen."
+    },
+    {
+      "txt": "Gammastrålning",
+      "ratt": false,
+      "kommentar": "Gamma har högst frekvens och ligger längst till höger."
+    },
+    {
+      "txt": "Mikrovågor",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Synligt ljus",
+      "ratt": false,
+      "kommentar": "Synligt ljus finns redan med i figuren."
+    }
+  ]
+},
+{
+  "id": "9.475",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "E",
+  "typ": "frekvens ur våglängd",
+  "poang": "(1/0/0)",
+  "t": "<p>En radiovåg har våglängden 2,0 m. Bestäm frekvensen. (Svara i MHz.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Elektromagnetisk strålning rör sig med ljusfarten \\(c=3{,}0\\cdot10^{8}\\) m/s, och \\(c=\\lambda f\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[f=\\frac{3{,}0\\cdot10^{8}}{2{,}0}\\ \\mathrm{Hz}=1{,}5\\cdot10^{8}\\ \\mathrm{Hz}=150\\ \\mathrm{MHz}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 150 MHz.</p></div>",
+  "familj": "Fotonenergi",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>\\(f=\\dfrac{c}{\\lambda}\\). 1 MHz = 10⁶ Hz.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 150.0,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "MHz"
+},
+{
+  "id": "9.476",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "E",
+  "typ": "våglängd i mikrovågsugn",
+  "poang": "(1/0/0)",
+  "t": "<p>En mikrovågsugn använder frekvensen 2,45 GHz. Bestäm våglängden. (Svara i cm med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(\\lambda=\\dfrac{c}{f}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\lambda=\\frac{3{,}0\\cdot10^{8}}{2{,}45\\cdot10^{9}}\\ \\mathrm m\\approx0{,}122\\ \\mathrm m=12{,}2\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 12,2 cm.</p></div>",
+  "familj": "Fotonenergi",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>1 GHz = 10⁹ Hz.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 12.244897959183673,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm"
+},
+{
+  "id": "9.477",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "E",
+  "typ": "fotonenergi ur frekvens",
+  "poang": "(1/0/0)",
+  "t": "<p>Ultraviolett strålning har frekvensen 1,0·10¹⁵ Hz. Bestäm energin hos en foton. (Svara i eV med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fotonenergin är \\(E=hf\\). Dela med 1,602·10⁻¹⁹ J för att få eV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{6{,}63\\cdot10^{-34}\\cdot1{,}0\\cdot10^{15}}{1{,}602\\cdot10^{-19}}\\ \\mathrm{eV}\\approx4{,}1\\ \\mathrm{eV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4,1 eV.</p></div>",
+  "familj": "Fotonenergi",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>\\(h=6{,}63\\cdot10^{-34}\\) Js.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4.138576779026217,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "eV"
+},
+{
+  "id": "9.478",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "E",
+  "typ": "joule till elektronvolt",
+  "poang": "(1/0/0)",
+  "t": "<p>En foton har energin 8,0·10⁻¹⁹ J. Hur stor är energin i eV? (Svara i eV med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">1 eV = 1,602·10⁻¹⁹ J.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{8{,}0\\cdot10^{-19}}{1{,}602\\cdot10^{-19}}\\ \\mathrm{eV}\\approx5{,}0\\ \\mathrm{eV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 5,0 eV.</p></div>",
+  "familj": "Fotonenergi",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Dela med 1,602·10⁻¹⁹.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4.9937578027465666,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "eV"
+},
+{
+  "id": "9.479",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "E",
+  "typ": "färg och fotonenergi",
+  "poang": "(1/0/0)",
+  "t": "<p>Vilken av fotonerna har störst energi? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fotonenergin är \\(E=hf\\). Blått ljus har högst frekvens av alternativen och därmed störst fotonenergi.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En foton blått ljus.</p></div>",
+  "familj": "Fotonenergi",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Ju högre frekvens, desto större fotonenergi.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "En foton rött ljus",
+      "ratt": false,
+      "kommentar": "Rött ljus har lägre frekvens än blått."
+    },
+    {
+      "txt": "En foton grönt ljus",
+      "ratt": false,
+      "kommentar": "Grönt ljus har lägre frekvens än blått."
+    },
+    {
+      "txt": "En foton blått ljus",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "En foton infraröd strålning",
+      "ratt": false,
+      "kommentar": "IR har lägre frekvens än allt synligt ljus."
+    }
+  ]
+},
+{
+  "id": "9.480",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "E",
+  "typ": "dubbel frekvens",
+  "poang": "(1/0/0)",
+  "t": "<p>Frekvensen hos en foton fördubblas. Vad händer med fotonens energi? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">\\(E=hf\\), så energin är proportionell mot frekvensen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Energin fördubblas.</p></div>",
+  "familj": "Fotonenergi",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Titta på formeln \\(E=hf\\).</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Den halveras",
+      "ratt": false,
+      "kommentar": "Energin ökar när frekvensen ökar."
+    },
+    {
+      "txt": "Den är oförändrad",
+      "ratt": false,
+      "kommentar": "Energin beror på frekvensen."
+    },
+    {
+      "txt": "Den fyrdubblas",
+      "ratt": false,
+      "kommentar": "Energin är proportionell mot f, inte mot f²."
+    },
+    {
+      "txt": "Den fördubblas",
+      "ratt": true,
+      "kommentar": "Rätt."
+    }
+  ]
+},
+{
+  "id": "9.481",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "E",
+  "typ": "röntgenfoton i keV",
+  "poang": "(1/0/0)",
+  "t": "<p>Röntgenstrålning har våglängden 0,10 nm. Bestäm energin hos en foton. (Svara i keV med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(E=\\dfrac{hc}{\\lambda}\\) och dela med 1,602·10⁻¹⁹ J för att få eV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}0\\cdot10^{8}}{0{,}10\\cdot10^{-9}\\cdot1{,}602\\cdot10^{-19}}\\ \\mathrm{eV}\\approx12\\,400\\ \\mathrm{eV}=12{,}4\\ \\mathrm{keV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 12,4 keV.</p></div>",
+  "familj": "Fotonenergi",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>1 nm = 10⁻⁹ m och 1 keV = 1 000 eV.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 12.415730337078651,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "keV"
+},
+{
+  "id": "9.482",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "E",
+  "typ": "halverad våglängd",
+  "poang": "(1/0/0)",
+  "t": "<p>Våglängden hos en foton halveras. Hur många gånger större blir fotonens energi?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">\\(E=\\dfrac{hc}{\\lambda}\\). Halva våglängden ger dubbelt så stor energi.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2 gånger större.</p></div>",
+  "familj": "Fotonenergi",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Energin är omvänt proportionell mot våglängden.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.483",
+  "kap": 9,
+  "omr": "stralning_materia",
+  "niva": "E",
+  "typ": "en halveringstjocklek",
+  "poang": "(1/0/0)",
+  "t": "<p>För en viss gammastrålning är halveringstjockleken 2,0 cm betong. Hur många procent av strålningen passerar en 2,0 cm tjock betongvägg?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skärmen är exakt en halveringstjocklek. Då passerar hälften.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 50 %.</p></div>",
+  "familj": "Skärmning och halveringstjocklek",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Vad betyder halveringstjocklek?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 50,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
+{
+  "id": "9.484",
+  "kap": 9,
+  "omr": "stralning_materia",
+  "niva": "E",
+  "typ": "fem halveringstjocklekar",
+  "poang": "(1/0/0)",
+  "t": "<p>För en viss gammastrålning är halveringstjockleken 0,4 cm bly. Hur många procent av strålningen passerar 2,0 cm bly? (Svara i procent med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">2,0 cm är fem halveringstjocklekar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[100\\,\\%\\cdot\\left(\\tfrac12\\right)^5\\approx3{,}1\\,\\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,1 %.</p></div>",
+  "familj": "Skärmning och halveringstjocklek",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur många gånger ryms 0,4 cm i 2,0 cm?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3.125,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "%"
+},
+{
+  "id": "9.485",
+  "kap": 9,
+  "omr": "stralning_materia",
+  "niva": "E",
+  "typ": "tjocklek för en fjärdedel",
+  "poang": "(1/0/0)",
+  "t": "<p>Bara 25 % av strålningen ska passera en blyskärm. Halveringstjockleken är 1,2 cm. Hur tjock ska skärmen vara? (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">25 % är en fjärdedel, alltså två halveringar: 100 % → 50 % → 25 %.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=2\\cdot1{,}2\\ \\mathrm{cm}=2{,}4\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2,4 cm.</p></div>",
+  "familj": "Skärmning och halveringstjocklek",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur många halveringar behövs från 100 % till 25 %?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2.4,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm"
+},
+{
+  "id": "9.486",
+  "kap": 9,
+  "omr": "stralning_materia",
+  "niva": "E",
+  "typ": "antal halveringstjocklekar",
+  "poang": "(1/0/0)",
+  "t": "<p>Hur många halveringstjocklekar behövs för att bara \\(\\tfrac{1}{16}\\) av strålningen ska passera?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje halveringstjocklek halverar strålningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\left(\\tfrac12\\right)^4=\\tfrac1{16}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4 halveringstjocklekar.</p></div>",
+  "familj": "Skärmning och halveringstjocklek",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur många gånger ska 1 halveras för att bli 1/16?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.487",
+  "kap": 9,
+  "omr": "stralning_materia",
+  "niva": "E",
+  "typ": "vad som stoppar beta",
+  "poang": "(1/0/0)",
+  "t": "<p>Vad behövs för att stoppa betastrålning? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Betapartiklar är elektroner med stor fart. De går igenom papper men stoppas av några millimeter aluminium.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Några millimeter aluminium.</p></div>",
+  "familj": "Joniserande strålning och genomträngning",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Beta går längre än alfa men stoppas lättare än gamma.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ett tunt papper",
+      "ratt": false,
+      "kommentar": "Papper räcker för alfastrålning men inte för beta."
+    },
+    {
+      "txt": "Några millimeter aluminium",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Flera decimeter bly",
+      "ratt": false,
+      "kommentar": "Så mycket behövs för stark gammastrålning, inte för beta."
+    },
+    {
+      "txt": "Inget, betastrålning går igenom allt",
+      "ratt": false,
+      "kommentar": "Betastrålning har begränsad räckvidd."
+    }
+  ]
+},
+{
+  "id": "9.488",
+  "kap": 9,
+  "omr": "stralning_materia",
+  "niva": "E",
+  "typ": "mest joniserande per centimeter",
+  "poang": "(1/0/0)",
+  "t": "<p>Vilken strålning joniserar flest atomer per centimeter längs sin väg? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfapartiklar har stor laddning och massa och växelverkar hela tiden med atomerna. De förlorar sin energi på en mycket kort sträcka.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Alfastrålning.</p></div>",
+  "familj": "Joniserande strålning och genomträngning",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Den strålning som joniserar mest förlorar sin energi snabbast och har kortast räckvidd.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Gammastrålning",
+      "ratt": false,
+      "kommentar": "Gamma joniserar sällan och har lång räckvidd."
+    },
+    {
+      "txt": "Betastrålning",
+      "ratt": false,
+      "kommentar": "Beta joniserar mindre per centimeter än alfa."
+    },
+    {
+      "txt": "Alfastrålning",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Röntgenstrålning",
+      "ratt": false,
+      "kommentar": "Röntgen är fotoner som joniserar sällan, som gamma."
+    }
+  ]
+},
+{
+  "id": "9.489",
+  "kap": 9,
+  "omr": "stralning_materia",
+  "niva": "E",
+  "typ": "gammas långa räckvidd",
+  "poang": "(1/0/0)",
+  "t": "<p>Varför har gammastrålning så lång räckvidd i materia? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gammastrålning består av fotoner utan laddning och massa. De växelverkar sällan med atomerna och kan därför gå långt innan de absorberas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Gammafotoner saknar laddning och växelverkar sällan.</p></div>",
+  "familj": "Joniserande strålning och genomträngning",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Jämför med alfa och beta, som är laddade partiklar.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Gammastrålning består av tunga partiklar",
+      "ratt": false,
+      "kommentar": "Gamma är fotoner utan massa."
+    },
+    {
+      "txt": "Gammastrålning har lägre energi än synligt ljus",
+      "ratt": false,
+      "kommentar": "Gammafotoner har mycket hög energi."
+    },
+    {
+      "txt": "Gammastrålning joniserar varje atom den passerar",
+      "ratt": false,
+      "kommentar": "Då skulle den förlora energin snabbt och ha kort räckvidd."
+    },
+    {
+      "txt": "Gammafotoner saknar laddning och växelverkar sällan med atomerna",
+      "ratt": true,
+      "kommentar": "Rätt."
+    }
+  ]
+},
+{
+  "id": "9.490",
+  "kap": 9,
+  "omr": "stralning_materia",
+  "niva": "E",
+  "typ": "identifiera strålning ur försök",
+  "poang": "(1/0/0)",
+  "t": "<p>En elev undersöker en strålkälla. Strålningen går igenom ett papper men stoppas helt av 5 mm aluminium.</p><span class=\"fig smal\"><svg viewBox=\"0 0 540.00 150.00\" width=\"540\" height=\"150\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Strålning från en källa passerar ett papper men stoppas av 5 mm aluminium. Detektorn bakom aluminiet registrerar 0 pulser.\"><rect x=\"0\" y=\"0\" width=\"540.00\" height=\"150.00\" fill=\"#FFFFFF\"/><rect x=\"16\" y=\"50\" width=\"70\" height=\"44\" rx=\"6\" fill=\"#F4D9CB\" stroke=\"#B5532A\" stroke-width=\"1.6\"/><text x=\"51.0\" y=\"77.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Källa</text><rect x=\"210\" y=\"30\" width=\"4\" height=\"84\" fill=\"#FFFFFF\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"212.0\" y=\"134.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">papper</text><rect x=\"340\" y=\"30\" width=\"16\" height=\"84\" fill=\"#C9CCD1\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"348.0\" y=\"134.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">5 mm aluminium</text><line x1=\"90.0\" y1=\"72.0\" x2=\"328.0\" y2=\"72.0\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"336.0,72.0 326.0,76.5 326.0,67.5\" fill=\"#2A5D9E\"/><rect x=\"440\" y=\"48\" width=\"84\" height=\"48\" rx=\"6\" fill=\"#FFFFFF\" stroke=\"#2B2527\" stroke-width=\"1.4\"/><text x=\"482.0\" y=\"70.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">Detektor</text><text x=\"482.0\" y=\"86.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"11\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">0 pulser</text></svg></span><p>Vilken typ av strålning sänder källan ut? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfa hade stoppats av pappret. Gamma hade till stor del gått igenom 5 mm aluminium. Strålning som går igenom papper men stoppas av aluminium är beta.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Betastrålning.</p></div>",
+  "familj": "Joniserande strålning och genomträngning",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Vilken strålning stoppas av papper, och vilken går igenom aluminium?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Alfastrålning",
+      "ratt": false,
+      "kommentar": "Alfa stoppas redan av pappret."
+    },
+    {
+      "txt": "Betastrålning",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Gammastrålning",
+      "ratt": false,
+      "kommentar": "Gamma går till stor del igenom 5 mm aluminium."
+    }
+  ]
+},
+{
+  "id": "9.491",
+  "kap": 9,
+  "omr": "stralning_materia",
+  "niva": "E",
+  "typ": "pulser bakom skärm",
+  "poang": "(1/0/0)",
+  "t": "<p>En detektor registrerar 1 200 pulser per minut utan skärm. Sedan sätts en skärm som är tre halveringstjocklekar tjock emellan. Hur många pulser per minut registreras då?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tre halveringar ger en åttondel.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1200\\cdot\\left(\\tfrac12\\right)^3=150\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 150 pulser per minut.</p></div>",
+  "familj": "Skärmning och halveringstjocklek",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Halvera tre gånger.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 150.0,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.492",
+  "kap": 9,
+  "omr": "stralning_materia",
+  "niva": "E",
+  "typ": "betongvägg för en fjärdedel",
+  "poang": "(1/0/0)",
+  "t": "<p>Strålningen genom en betongvägg ska minska till en fjärdedel. Halveringstjockleken i betong är 4,5 cm. Hur tjock ska väggen vara? (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En fjärdedel är två halveringar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[d=2\\cdot4{,}5\\ \\mathrm{cm}=9{,}0\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 9,0 cm.</p></div>",
+  "familj": "Skärmning och halveringstjocklek",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur många halveringar ger en fjärdedel?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 9.0,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "cm"
+},
+{
+  "id": "9.493",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "E",
+  "typ": "atomnummer efter beta-minus, cesium",
+  "poang": "(1/0/0)",
+  "t": "<p>Cesium-137 har atomnumret 55 och beta-minus-sönderfaller. Vilket atomnummer får dotterkärnan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus-sönderfall blir en neutron en proton. Atomnumret ökar med 1.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[55+1=56\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 56 (barium).</p></div>",
+  "familj": "Beta-minus-sönderfall",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "karnreaktioner__beta_minus_sonderfall",
+  "självrättning": true,
+  "ledtrad": "<p>Ökar eller minskar antalet protoner när en elektron skickas ut?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 56,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.494",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "E",
+  "typ": "atomnummer efter beta-plus, kväve",
+  "poang": "(1/0/0)",
+  "t": "<p>Kväve-13 har atomnumret 7 och beta-plus-sönderfaller. Vilket atomnummer får dotterkärnan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-plus-sönderfall blir en proton en neutron. Atomnumret minskar med 1.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[7-1=6\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6 (kol).</p></div>",
+  "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "karnreaktioner__beta_plus_sonderfall",
+  "självrättning": true,
+  "ledtrad": "<p>En positron har positiv laddning. Vad händer med kärnans laddning?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 6,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.495",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "E",
+  "typ": "atomnummer efter elektroninfångning",
+  "poang": "(1/0/0)",
+  "t": "<p>Kalium-40 har atomnumret 19. Kärnan fångar in en elektron från atomens innersta skal. Vilket atomnummer får dotterkärnan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid elektroninfångning slås en proton och en elektron ihop till en neutron. Atomnumret minskar med 1.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[19-1=18\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 18 (argon).</p></div>",
+  "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "karnreaktioner__beta_plus_sonderfall",
+  "självrättning": true,
+  "ledtrad": "<p>En proton blir en neutron. Hur ändras antalet protoner?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 18,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.496",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "E",
+  "typ": "masstal efter beta-minus",
+  "poang": "(1/0/0)",
+  "t": "<p>Strontium-90 beta-minus-sönderfaller. Vilket masstal får dotterkärnan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En neutron blir en proton. Antalet nukleoner är detsamma, så masstalet ändras inte.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 90.</p></div>",
+  "familj": "Beta-minus-sönderfall",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "karnreaktioner__beta_minus_sonderfall",
+  "självrättning": true,
+  "ledtrad": "<p>Ändras antalet nukleoner när en neutron blir en proton?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 90,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.497",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "E",
+  "typ": "neutroner i dotterkärnan",
+  "poang": "(1/0/0)",
+  "t": "<p>Kobolt-60 har atomnumret 27 och beta-minus-sönderfaller till nickel-60. Hur många neutroner har dotterkärnan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dotterkärnan har atomnumret 28 och masstalet 60.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=60-28=32\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 32 neutroner.</p></div>",
+  "familj": "Beta-minus-sönderfall",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "karnreaktioner__beta_minus_sonderfall",
+  "självrättning": true,
+  "ledtrad": "<p>Bestäm först dotterkärnans atomnummer. Neutroner = masstal − atomnummer.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 32,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.498",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "E",
+  "typ": "partiklar vid beta-plus",
+  "poang": "(1/0/0)",
+  "t": "<p>Vilka partiklar sänds ut vid beta-plus-sönderfall? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En proton blir en neutron. Samtidigt sänds en positron och en neutrino ut.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En positron och en neutrino.</p></div>",
+  "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "karnreaktioner__beta_plus_sonderfall",
+  "självrättning": true,
+  "ledtrad": "<p>Plus i namnet syftar på partikelns laddning.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "En elektron och en antineutrino",
+      "ratt": false,
+      "kommentar": "Det är beta-minus-sönderfall."
+    },
+    {
+      "txt": "En heliumkärna",
+      "ratt": false,
+      "kommentar": "Det är alfasönderfall."
+    },
+    {
+      "txt": "En positron och en neutrino",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Bara en foton",
+      "ratt": false,
+      "kommentar": "Det är gammastrålning."
+    }
+  ]
+},
+{
+  "id": "9.499",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "E",
+  "typ": "vad elektroninfångning är",
+  "poang": "(1/0/0)",
+  "t": "<p>Vad händer vid elektroninfångning? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En proton i kärnan fångar in en av atomens elektroner och blir en neutron. En neutrino sänds ut.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En proton fångar en elektron och blir en neutron.</p></div>",
+  "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "karnreaktioner__beta_plus_sonderfall",
+  "självrättning": true,
+  "ledtrad": "<p>Var kommer elektronen ifrån, och vad blir protonen?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "En neutron blir en proton och en elektron sänds ut",
+      "ratt": false,
+      "kommentar": "Det är beta-minus-sönderfall."
+    },
+    {
+      "txt": "En proton i kärnan fångar en elektron och blir en neutron",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Kärnan sänder ut en heliumkärna",
+      "ratt": false,
+      "kommentar": "Det är alfasönderfall."
+    },
+    {
+      "txt": "En elektron hoppar till ett lägre skal och sänder ut ljus",
+      "ratt": false,
+      "kommentar": "Det händer i elektronskalet, inte i kärnan."
+    }
+  ]
+},
+{
+  "id": "9.500",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "E",
+  "typ": "exciterad dotterkärna",
+  "poang": "(1/0/0)",
+  "t": "<p>Efter ett betasönderfall är dotterkärnan ofta exciterad, alltså i ett tillstånd med för hög energi. Vad händer sedan? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kärnan gör sig av med överskottsenergin genom att sända ut en gammafoton. Masstal och atomnummer ändras inte.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den sänder ut gammastrålning.</p></div>",
+  "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "karnreaktioner__beta_plus_sonderfall",
+  "självrättning": true,
+  "ledtrad": "<p>Vilken strålning består av fotoner från kärnan?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Den sänder ut en alfapartikel",
+      "ratt": false,
+      "kommentar": "Alfasönderfall ändrar kärnan och är inget sätt att bli av med bara överskottsenergi."
+    },
+    {
+      "txt": "Den fångar in en neutron",
+      "ratt": false,
+      "kommentar": "Det sker inte av sig självt."
+    },
+    {
+      "txt": "Den delar sig i två lika stora kärnor",
+      "ratt": false,
+      "kommentar": "Det är fission och sker inte av sig självt i lätta kärnor."
+    },
+    {
+      "txt": "Den sänder ut gammastrålning",
+      "ratt": true,
+      "kommentar": "Rätt."
+    }
+  ]
+},
+{
+  "id": "9.501",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "E",
+  "typ": "neutronöverskott ger beta-minus",
+  "poang": "(1/0/0)",
+  "t": "<p>En kärna har för många neutroner jämfört med protoner för att vara stabil. Vilket sönderfall är troligast? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus-sönderfall blir en neutron en proton. Då minskar neutronöverskottet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Beta-minus.</p></div>",
+  "familj": "Beta-minus-sönderfall",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "karnreaktioner__beta_minus_sonderfall",
+  "självrättning": true,
+  "ledtrad": "<p>Vilket sönderfall gör en neutron till en proton?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Beta-plus",
+      "ratt": false,
+      "kommentar": "Då blir en proton en neutron, och neutronöverskottet ökar."
+    },
+    {
+      "txt": "Beta-minus",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Elektroninfångning",
+      "ratt": false,
+      "kommentar": "Då blir också en proton en neutron."
+    },
+    {
+      "txt": "Gamma",
+      "ratt": false,
+      "kommentar": "Gammastrålning ändrar inte antalet neutroner."
+    }
+  ]
+},
+{
+  "id": "9.502",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "E",
+  "typ": "sönderfall i N–Z-diagram",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet visar antalet neutroner \\(N\\) och protoner \\(Z\\) i en kärna före och efter ett sönderfall.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 290.00\" width=\"340\" height=\"290\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Diagram med antalet neutroner N vågrätt och antalet protoner Z lodrätt. En pil går från N = 8, Z = 6 (före) till N = 7, Z = 7 (efter).\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"290.00\" fill=\"#FFFFFF\"/><line x1=\"70\" y1=\"240\" x2=\"70\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"70.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">5</text><line x1=\"122\" y1=\"240\" x2=\"122\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"122.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">6</text><line x1=\"174\" y1=\"240\" x2=\"174\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"174.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">7</text><line x1=\"226\" y1=\"240\" x2=\"226\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"226.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">8</text><line x1=\"278\" y1=\"240\" x2=\"278\" y2=\"53\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"278.0\" y=\"258.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">9</text><line x1=\"70\" y1=\"240\" x2=\"309\" y2=\"240\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"58.0\" y=\"244.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"end\">5</text><line x1=\"70\" y1=\"188\" x2=\"309\" y2=\"188\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"58.0\" y=\"192.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"end\">6</text><line x1=\"70\" y1=\"136\" x2=\"309\" y2=\"136\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"58.0\" y=\"140.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"end\">7</text><line x1=\"70\" y1=\"84\" x2=\"309\" y2=\"84\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><text x=\"58.0\" y=\"88.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"end\">8</text><line x1=\"70.0\" y1=\"240.0\" x2=\"307.2\" y2=\"240.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"315.2,240.0 305.2,244.5 305.2,235.5\" fill=\"#2B2527\"/><line x1=\"70.0\" y1=\"240.0\" x2=\"70.0\" y2=\"54.8\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"70.0,46.8 74.5,56.8 65.5,56.8\" fill=\"#2B2527\"/><text x=\"311.2\" y=\"230.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"end\">N</text><text x=\"78.0\" y=\"50.8\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"start\">Z</text><line x1=\"226.0\" y1=\"188.0\" x2=\"187.7\" y2=\"149.7\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"182.0,144.0 192.3,147.9 185.9,154.3\" fill=\"#B5532A\"/><circle cx=\"226\" cy=\"188\" r=\"7\" fill=\"#2A5D9E\"/><circle cx=\"174\" cy=\"136\" r=\"7\" fill=\"#2F7D4A\"/><rect x=\"237.1\" y=\"182.0\" width=\"37.8\" height=\"17\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"256.0\" y=\"193.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">före</text><rect x=\"121.4\" y=\"115.0\" width=\"45.2\" height=\"17\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"144.0\" y=\"126.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#2F7D4A\" text-anchor=\"middle\">efter</text></svg></span><p>Vilket sönderfall visar pilen? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Pilen går från \\(N=8,\\ Z=6\\) till \\(N=7,\\ Z=7\\). En neutron har blivit en proton, och det är beta-minus-sönderfall.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Beta-minus.</p></div>",
+  "familj": "Beta-minus-sönderfall",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "karnreaktioner__beta_minus_sonderfall",
+  "självrättning": true,
+  "ledtrad": "<p>Läs av hur N och Z ändras. Vilket sönderfall gör en neutron till en proton?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Alfa",
+      "ratt": false,
+      "kommentar": "Vid alfasönderfall minskar både N och Z med 2."
+    },
+    {
+      "txt": "Beta-plus",
+      "ratt": false,
+      "kommentar": "Då minskar Z och N ökar."
+    },
+    {
+      "txt": "Beta-minus",
+      "ratt": true,
+      "kommentar": "Rätt."
+    }
+  ]
+},
+{
+  "id": "9.503",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "E",
+  "typ": "energi vid beta-minus",
+  "poang": "(1/0/0)",
+  "t": "<p>Vid ett beta-minus-sönderfall minskar massan med 0,00060 u. Hur mycket energi frigörs? (Svara i MeV med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan 1 u motsvarar 931,5 MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}00060\\cdot931{,}5\\ \\mathrm{MeV}\\approx0{,}6\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,6 MeV.</p></div>",
+  "familj": "Beta-minus-sönderfall",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "karnreaktioner__beta_minus_sonderfall",
+  "självrättning": true,
+  "ledtrad": "<p>Multiplicera med 931,5 MeV per u.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.5589,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "MeV"
+},
+{
+  "id": "9.504",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "aktivitet efter två halveringstider",
+  "poang": "(1/0/0)",
+  "t": "<p>Teknetium-99m har halveringstiden 6,0 h. En patient får ett spårämne med aktiviteten 800 MBq. Hur stor är aktiviteten efter 12 h, om man bara räknar med det radioaktiva sönderfallet? (Svara i MBq.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">12 h är två halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[800\\cdot\\left(\\tfrac12\\right)^2\\ \\mathrm{MBq}=200\\ \\mathrm{MBq}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 200 MBq.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur många halveringstider är 12 h?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 200.0,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "MBq"
+},
+{
+  "id": "9.505",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "vinkeln mellan fotonerna vid PET",
+  "poang": "(1/0/0)",
+  "t": "<p>Vid en PET-undersökning möter en positron en elektron. De förintas och bildar två fotoner som rör sig åt motsatta håll. Hur stor är vinkeln mellan fotonernas riktningar? (Svara i grader.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fotonerna rör sig åt motsatta håll, längs samma linje. Det gör att kameran kan se var förintelsen skedde.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 180°.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Vilken vinkel har två motsatta riktningar?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 180,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "°"
+},
+{
+  "id": "9.506",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "varför skelettet syns på röntgen",
+  "poang": "(1/0/0)",
+  "t": "<p>Varför syns skelettet ljust på en röntgenbild? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Skelettet absorberar mer röntgenstrålning än mjukvävnaden. Där når mindre strålning detektorn, och bilden blir ljus.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Skelettet absorberar mer röntgenstrålning.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Vad händer med strålningen när den går genom ben jämfört med muskler?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Skelettet sänder ut ljus när det träffas",
+      "ratt": false,
+      "kommentar": "Bilden bildas av strålning som går igenom kroppen."
+    },
+    {
+      "txt": "Skelettet absorberar mer röntgenstrålning än mjukvävnaden",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Röntgenstrålningen reflekteras av huden",
+      "ratt": false,
+      "kommentar": "Röntgenstrålning går igenom huden."
+    },
+    {
+      "txt": "Skelettet är radioaktivt",
+      "ratt": false,
+      "kommentar": "Skelettet sänder inte ut strålning."
+    }
+  ]
+},
+{
+  "id": "9.507",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "hur en CT fungerar",
+  "poang": "(1/0/0)",
+  "t": "<p>Vad använder en datortomograf (CT) för att göra snittbilder av kroppen? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid CT skickas röntgenstrålning genom kroppen från många olika vinklar. En dator räknar sedan fram snittbilder.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Röntgenstrålning från många olika vinklar.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>CT är en sorts röntgenundersökning.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ljud som studsar mot organen",
+      "ratt": false,
+      "kommentar": "Det är ultraljud."
+    },
+    {
+      "txt": "Gammastrålning från ett spårämne i kroppen",
+      "ratt": false,
+      "kommentar": "Det är nuklearmedicin, till exempel PET."
+    },
+    {
+      "txt": "Starka magnetfält och radiovågor",
+      "ratt": false,
+      "kommentar": "Det är magnetkamera (MR)."
+    },
+    {
+      "txt": "Röntgenstrålning som skickas genom kroppen från många olika vinklar",
+      "ratt": true,
+      "kommentar": "Rätt."
+    }
+  ]
+},
+{
+  "id": "9.508",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "total dos vid strålbehandling",
+  "poang": "(1/0/0)",
+  "t": "<p>En tumör får dosen 2,0 Gy vid varje behandling. Patienten får 30 behandlingar. Hur stor blir den sammanlagda dosen i tumören? (Svara i Gy.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Doserna från behandlingarna adderas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=30\\cdot2{,}0\\ \\mathrm{Gy}=60\\ \\mathrm{Gy}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 60 Gy.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Multiplicera dosen per behandling med antalet behandlingar.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 60.0,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "Gy"
+},
+{
+  "id": "9.509",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "halveringstid ur två mätningar",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett spårämne har aktiviteten 640 MBq. Efter 12 h har aktiviteten sjunkit till 160 MBq. Bestäm halveringstiden. (Svara i h.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">640 → 320 → 160 MBq är två halveringar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{1/2}=\\frac{12\\ \\mathrm h}{2}=6\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6 h.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur många gånger har aktiviteten halverats?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 6.0,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "h"
+},
+{
+  "id": "9.510",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "lämplig halveringstid för spårämne",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett spårämne ska användas vid en undersökning som tar ungefär en timme. Vilken halveringstid är lämpligast? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Halveringstiden ska vara så lång att ämnet räcker under undersökningen, men så kort att patienten inte bestrålas i onödan efteråt. 6 timmar passar.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6 timmar.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Ämnet ska räcka under undersökningen men inte stråla länge efteråt.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "10 sekunder",
+      "ratt": false,
+      "kommentar": "Då är nästan allt borta innan undersökningen är klar."
+    },
+    {
+      "txt": "6 timmar",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "30 år",
+      "ratt": false,
+      "kommentar": "Då fortsätter patienten att bestrålas i många år."
+    }
+  ]
+},
+{
+  "id": "9.511",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "varför alfa inte används vid bildtagning",
+  "poang": "(1/0/0)",
+  "t": "<p>Varför används inte alfastrålande ämnen som spårämnen när man vill ta bilder av kroppen? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfapartiklar stoppas efter någon tiondels millimeter i vävnaden. De når aldrig kameran utanför kroppen, men ger stor skada där de stoppas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Alfastrålningen tar sig inte ut ur kroppen.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur lång räckvidd har alfastrålning i vävnad?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Alfastrålning är inte joniserande",
+      "ratt": false,
+      "kommentar": "Alfastrålning är starkt joniserande."
+    },
+    {
+      "txt": "Alfastrålare har alltid för lång halveringstid",
+      "ratt": false,
+      "kommentar": "Det finns alfastrålare med många olika halveringstider."
+    },
+    {
+      "txt": "Alfapartiklarna stoppas i kroppen och når inte kameran",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Alfastrålning går rakt igenom kameran",
+      "ratt": false,
+      "kommentar": "Alfastrålning stoppas lätt."
+    }
+  ]
+},
+{
+  "id": "9.512",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "absorberad dos ur energi och massa",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett organ med massan 0,50 kg absorberar strålningsenergin 0,30 J. Hur stor absorberad dos får organet? (Svara i Gy.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Absorberad dos är absorberad energi per kilogram, \\(D=\\dfrac{E}{m}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[D=\\frac{0{,}30}{0{,}50}\\ \\mathrm{Gy}=0{,}60\\ \\mathrm{Gy}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,60 Gy.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>1 Gy = 1 J/kg.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.6,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "Gy"
+},
+{
+  "id": "9.513",
+  "kap": 9,
+  "omr": "medicinska_metoder",
+  "niva": "E",
+  "typ": "tid tills en fjärdedel återstår",
+  "poang": "(1/0/0)",
+  "t": "<p>Jod-131 har halveringstiden 8,0 dygn. Hur lång tid tar det innan bara 25 % av aktiviteten återstår? (Svara i dygn.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">25 % återstår efter två halveringstider.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=2\\cdot8{,}0\\ \\text{dygn}=16\\ \\text{dygn}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 16 dygn.</p></div>",
+  "familj": "Strålning i medicin",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur många halveringar ger 25 %?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 16.0,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "dygn"
+},
+{
+  "id": "9.514",
+  "kap": 9,
+  "omr": "karnreaktioner",
+  "niva": "E",
+  "typ": "atomnummer på alfapartikeln",
+  "poang": "(1/0/0)",
+  "t": "<p>Americium-241 sönderfaller: \\[{}^{241}_{95}\\mathrm{Am}\\rightarrow{}^{237}_{93}\\mathrm{Np}+X.\\] Vilket atomnummer har \\(X\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningen bevaras.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[95=93+Z\\Rightarrow Z=2\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstalet blir \\(241-237=4\\). \\(X\\) är en alfapartikel.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2.</p></div>",
+  "familj": "Alfasönderfall",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Summan av atomnumren före ska vara lika med summan efter.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 2,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.515",
+  "kap": 9,
+  "omr": "karnreaktioner",
+  "niva": "E",
+  "typ": "okänd partikel ur neutroninfångning",
+  "poang": "(1/0/0)",
+  "t": "<p>I atmosfären bildas kol-14 genom reaktionen \\[{}^{14}_{7}\\mathrm N+{}^{1}_{0}\\mathrm n\\rightarrow{}^{14}_{6}\\mathrm C+X.\\] Vilken partikel är \\(X\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstal: \\(14+1=14+A\\), så \\(A=1\\). Atomnummer: \\(7+0=6+Z\\), så \\(Z=1\\). Det är en proton.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En proton.</p></div>",
+  "familj": "Reaktionsformler och bevarandelagar",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Bestäm masstal och atomnummer för X.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "En neutron",
+      "ratt": false,
+      "kommentar": "Atomnumret stämmer inte då."
+    },
+    {
+      "txt": "En proton",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "En elektron",
+      "ratt": false,
+      "kommentar": "Masstalet stämmer inte då."
+    },
+    {
+      "txt": "En alfapartikel",
+      "ratt": false,
+      "kommentar": "Masstalet skulle bli 18 efter reaktionen."
+    }
+  ]
+},
+{
+  "id": "9.516",
+  "kap": 9,
+  "omr": "karnreaktioner",
+  "niva": "E",
+  "typ": "litium klyvs av proton",
+  "poang": "(1/0/0)",
+  "t": "<p>År 1932 sköts protoner mot litium: \\[{}^{7}_{3}\\mathrm{Li}+{}^{1}_{1}\\mathrm H\\rightarrow 2X.\\] Vilken partikel är \\(X\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Masstal: \\(7+1=2A\\), så \\(A=4\\). Atomnummer: \\(3+1=2Z\\), så \\(Z=2\\). Det är en heliumkärna, alltså en alfapartikel.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En alfapartikel.</p></div>",
+  "familj": "Reaktionsformler och bevarandelagar",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Dela summan av masstalen och summan av atomnumren lika mellan de två partiklarna.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "En proton",
+      "ratt": false,
+      "kommentar": "Två protoner ger masstalet 2, inte 8."
+    },
+    {
+      "txt": "En deuteriumkärna",
+      "ratt": false,
+      "kommentar": "Två sådana ger masstalet 4, inte 8."
+    },
+    {
+      "txt": "En neutron",
+      "ratt": false,
+      "kommentar": "Neutroner har ingen laddning."
+    },
+    {
+      "txt": "En alfapartikel",
+      "ratt": true,
+      "kommentar": "Rätt."
+    }
+  ]
+},
+{
+  "id": "9.517",
+  "kap": 9,
+  "omr": "karnreaktioner",
+  "niva": "E",
+  "typ": "masstal efter tre alfasönderfall",
+  "poang": "(1/0/0)",
+  "t": "<p>Radon-222 sänder ut tre alfapartiklar efter varandra. Inga andra sönderfall sker. Vilket masstal har kärnan efter det tredje sönderfallet?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje alfasönderfall minskar masstalet med 4.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[222-3\\cdot4=210\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 210.</p></div>",
+  "familj": "Alfasönderfall",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur mycket minskar masstalet vid ett alfasönderfall?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 210,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.518",
+  "kap": 9,
+  "omr": "karnreaktioner",
+  "niva": "E",
+  "typ": "energi ur massminskning, sönderfall",
+  "poang": "(1/0/0)",
+  "t": "<p>Vid en kärnreaktion minskar massan med 0,0050 u. Hur mycket energi frigörs? (Svara i MeV med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massan 1 u motsvarar 931,5 MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=0{,}0050\\cdot931{,}5\\ \\mathrm{MeV}\\approx4{,}7\\ \\mathrm{MeV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4,7 MeV.</p></div>",
+  "familj": "Energi i kärnreaktioner",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Multiplicera med 931,5 MeV per u.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4.6575,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "MeV"
+},
+{
+  "id": "9.519",
+  "kap": 9,
+  "omr": "karnreaktioner",
+  "niva": "E",
+  "typ": "massminskning i milligram",
+  "poang": "(1/0/0)",
+  "t": "<p>I en serie kärnreaktioner minskar massan totalt med 0,50 mg. Hur mycket energi har frigjorts? (Svara i GJ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd \\(E=mc^2\\) med massan i kg: 0,50 mg = 5,0·10⁻⁷ kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=5{,}0\\cdot10^{-7}\\cdot(3{,}0\\cdot10^{8})^2\\ \\mathrm J=4{,}5\\cdot10^{10}\\ \\mathrm J=45\\ \\mathrm{GJ}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 45 GJ.</p></div>",
+  "familj": "Energi i kärnreaktioner",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>1 mg = 10⁻⁶ kg och 1 GJ = 10⁹ J.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 45.0,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "GJ"
+},
+{
+  "id": "9.520",
+  "kap": 9,
+  "omr": "karnreaktioner",
+  "niva": "E",
+  "typ": "vad som bevaras",
+  "poang": "(1/0/0)",
+  "t": "<p>Vad bevaras alltid i en kärnreaktion? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Summan av masstalen och summan av laddningarna (atomnumren) är densamma före och efter. Massan i u minskar däremot lite när energi frigörs.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Både masstalet och laddningen.</p></div>",
+  "familj": "Reaktionsformler och bevarandelagar",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Vilka tal använder du när du kontrollerar en reaktionsformel?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Bara masstalet",
+      "ratt": false,
+      "kommentar": "Laddningen bevaras också."
+    },
+    {
+      "txt": "Bara antalet protoner",
+      "ratt": false,
+      "kommentar": "Vid betasönderfall ändras antalet protoner."
+    },
+    {
+      "txt": "Både masstalet och laddningen (atomnumret)",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Massan i u, exakt",
+      "ratt": false,
+      "kommentar": "Massan minskar lite när energi frigörs."
+    }
+  ]
+},
+{
+  "id": "9.521",
+  "kap": 9,
+  "omr": "karnreaktioner",
+  "niva": "E",
+  "typ": "alfa följt av beta-minus",
+  "poang": "(1/0/0)",
+  "t": "<p>Torium-232 har atomnumret 90. Kärnan alfasönderfaller och dotterkärnan beta-minus-sönderfaller sedan. Vilket atomnummer har kärnan efter båda sönderfallen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Alfasönderfall minskar atomnumret med 2. Beta-minus-sönderfall ökar det med 1.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[90-2+1=89\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 89 (aktinium).</p></div>",
+  "familj": "Alfasönderfall",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Ta ett sönderfall i taget.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 89,
+  "tolerans": 0,
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "9.522",
+  "kap": 9,
+  "omr": "karnreaktioner",
+  "niva": "E",
+  "typ": "vad en alfapartikel är",
+  "poang": "(1/0/0)",
+  "t": "<p>Vad är en alfapartikel? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En alfapartikel är en heliumkärna med två protoner och två neutroner.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En heliumkärna.</p></div>",
+  "familj": "Alfasönderfall",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Tänk på \\({}^{4}_{2}\\mathrm{He}\\).</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "En elektron med stor fart",
+      "ratt": false,
+      "kommentar": "Det är en betapartikel."
+    },
+    {
+      "txt": "En heliumkärna med två protoner och två neutroner",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "En foton med hög energi",
+      "ratt": false,
+      "kommentar": "Det är gammastrålning."
+    },
+    {
+      "txt": "En väteatom",
+      "ratt": false,
+      "kommentar": "En alfapartikel har masstal 4."
+    }
+  ]
+},
+{
+  "id": "9.523",
+  "kap": 9,
+  "omr": "karnreaktioner",
+  "niva": "E",
+  "typ": "massminskning ur massor",
+  "poang": "(1/0/0)",
+  "t": "<p>Den sammanlagda massan före en kärnreaktion är 4,0280 u och efter reaktionen 4,0026 u. Hur stor är massminskningen? (Svara i u.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Massminskningen är skillnaden mellan massan före och massan efter.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=4{,}0280-4{,}0026=0{,}0254\\ \\mathrm u\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,0254 u.</p></div>",
+  "familj": "Energi i kärnreaktioner",
+  "formaga": [
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Subtrahera massan efter från massan före.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0.0254,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "u"
 }
 ];

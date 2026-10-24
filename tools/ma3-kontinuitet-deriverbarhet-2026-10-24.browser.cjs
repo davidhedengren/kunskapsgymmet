@@ -2,9 +2,9 @@
 const {chromium}=require('playwright'),fs=require('fs'),vm=require('vm'),path=require('path'),assert=require('node:assert/strict');
 const root=path.join(__dirname,'..'),out=process.env.REVIEW_OUT||'/tmp/ma3-kontinuitet-deriverbarhet';fs.mkdirSync(out,{recursive:true});
 const courses=['mato1'];
-const reviewedIds=process.env.REVIEW_IDS?.split(',')||[...Array.from({length:8},(_,i)=>'1.'+(925+i)),...Array.from({length:8},(_,i)=>'3.'+(1207+i))];
+const reviewedIds=process.env.REVIEW_IDS?.split(',')||['3.1191',...Array.from({length:8},(_,i)=>'1.'+(925+i)),...Array.from({length:8},(_,i)=>'3.'+(1207+i))];
 const groups=courses.map(course=>{let c={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'uppgifter'+course+'.js'),'utf8'),c);return {course,tasks:JSON.parse(JSON.stringify(c.window['BANK'+course.toUpperCase()].filter(q=>reviewedIds.includes(q.id))))};});
-const special={'mato1:1.929':[['k=-1'],['1']], 'mato1:1.931':[['2'],['1','3']]};
+const special={'mato1:1.929':[['k=-1'],['1']], 'mato1:1.931':[['2'],['1','3']], 'mato1:3.1207':[["h'(2)=0",'0 cm/h'],['3']], 'mato1:3.1208':[["f'(1)=-2",'-2'],['2']], 'mato1:3.1210':[["f'(1)=0",'0'],['1']]};
 (async()=>{const browser=await chromium.launch({executablePath:process.env.CHROMIUM||'/usr/bin/chromium',args:['--no-sandbox']});try{
  const page=await browser.newPage(),errors=[],failures=[],views=[],structure=[];let checks=0;
  page.on('pageerror',e=>errors.push(e.message));
@@ -29,6 +29,7 @@ const special={'mato1:1.929':[['k=-1'],['1']], 'mato1:1.931':[['2'],['1','3']]};
    }else{
     const correct=Array.isArray(q.rättSvar)?q.rättSvar.map(String):[String(q.rättSvar)];
     const cases=[[correct,true],[correct.map(()=> '987654321'),false]];
+    if(q.id==='3.1213')cases.push([['5/3','-1/3','1/3'],true],[['1.67','-0.33','0.33'],false]);
     if(q.svarsstruktur==='mängd')cases.push([[...correct].reverse(),true]);
     if(key==='mato2:6.07')cases.push([['0.52','2.62'],true],[['0.5','2.6'],true],[['pi/6','5*pi/6'],true],[['5π/6 rad','π/6 rad'],true]);
     if(q.svarsstruktur==='ordnad'&&new Set(correct).size>1)cases.push([[...correct].reverse(),false]);

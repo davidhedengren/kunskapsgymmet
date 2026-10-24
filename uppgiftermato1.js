@@ -103452,14 +103452,14 @@ window.BANKMATO1 = [
   "niva": "E",
   "poang": "1/0/0",
   "typ": "differenskvoter från vänster och höger",
-  "t": "<p>Tabellen visar differenskvoter för en kontinuerlig funktion \\(f\\) nära \\(x=1\\). Vilken slutsats är riktig? (Välj ett alternativ.)</p><table class=\"data\" style=\"width:100%;max-width:440px;text-align:center\"><thead><tr><th scope=\"col\">\\(h\\)</th><th scope=\"col\">−0,1</th><th scope=\"col\">−0,01</th><th scope=\"col\">0,01</th><th scope=\"col\">0,1</th></tr></thead><tbody><tr><td>\\(\\dfrac{f(1+h)-f(1)}{h}\\)</td><td>2,0</td><td>2,0</td><td>−1,0</td><td>−1,0</td></tr></tbody></table>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från vänster (\\(h\\lt0\\)) närmar sig kvoten 2, och från höger (\\(h\\gt0\\)) närmar den sig \\(-1\\). Gränsvärdet finns inte, eftersom de två sidorna ger olika värden.</p></li><li><p>\\(f\\) är alltså inte deriverbar i \\(x=1\\). Grafen har ett hörn där.</p></li></ol><p class=\"facit-svar\"><strong>Svar: f är inte deriverbar i x = 1.</strong></p></div>",
+  "t": "<p>Tabellen visar vilket värde differenskvoten \\(\\dfrac{f(1+h)-f(1)}h\\) närmar sig när \\(h\\) går mot 0, från var sin sida. Funktionen f är kontinuerlig vid x = 1. Vilken slutsats är riktig? (Välj ett alternativ.)</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">h går mot 0</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Kvoten närmar sig</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">Från negativa värden</td><td style=\"padding:8px;border:1px solid #8796a5\">2</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">Från positiva värden</td><td style=\"padding:8px;border:1px solid #8796a5\">−1</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De givna gränsvärdena är 2 från vänster och −1 från höger. För en derivata krävs att båda sidorna ger samma värde.</p></li><li><p>Här är gränsvärdena olika, så f är inte deriverbar vid x = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar: f är inte deriverbar vid x = 1.</strong></p></div>",
   "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
   "formaga": [
     "begrepp",
     "resonemang"
   ],
-  "miniräknare": false,
+  "miniräknare": true,
   "geogebra": false,
   "spel": true,
   "självrättning": true,
@@ -110114,6 +110114,328 @@ window.BANKMATO1 = [
     "svarEtiketter": [
       "a",
       "b"
+    ]
+  },
+  {
+    "id": "3.1207",
+    "kap": 3,
+    "omr": "deriverbarhet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Grafen visar vattennivån \\(h(t)\\) i en behållare. Bestäm \\(h'(2)\\). (Svara i cm/h.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Vattennivån är konstant 3 cm.\"><title>Vattennivån är konstant 3 cm.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 210.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"216.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 170.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"176.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 130.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"136.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 90.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"96.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Tid t (h)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Vattennivå h (cm)</text><polyline points=\"65.000,130.000 435.000,130.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vattennivån är konstant i närheten av t = 2. Grafens lutning och därmed derivatan är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 0 cm/h.</strong></p></div>",
+    "ledtrad": "<p>Hur mycket ändras vattennivån när tiden ökar?</p>",
+    "rättSvar": 0,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09,
+    "svarEnhet": "cm/h"
+  },
+  {
+    "id": "3.1208",
+    "kap": 3,
+    "omr": "deriverbarhet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Grafen består av två räta sträckor. Bestäm \\(f'(1)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen går genom (0,5), (2,1) och (4,3).\"><title>Grafen går genom (0,5), (2,1) och (4,3).</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 216.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"222.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 183.33333333333331H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"189.33333333333331\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 116.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"122.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 83.33333333333334H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"89.33333333333334\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,83.333 250.000,216.667 435.000,150.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid x = 1 ligger grafen på den vänstra räta sträckan. Använd exempelvis punkterna (0, 5) och (2, 1) för att bestämma dess lutning.</p><div class=\"facit-matte\">\\[f'(1)=\\frac{1-5}{2-0}=-2\\]</div></li><li><p>Hörnet vid x = 2 påverkar inte derivatan vid x = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar: −2.</strong></p></div>",
+    "ledtrad": "<p>Vilken av de två sträckorna innehåller punkten med x = 1?</p>",
+    "rättSvar": -2,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+    "id": "3.1209",
+    "kap": 3,
+    "omr": "deriverbarhet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Du vet att \\(f'(3)=-4\\). Vilket påstående måste då vara sant? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om en funktion är deriverbar i en punkt är den också kontinuerlig där. Derivatans värde anger lutningen, inte grafens höjd.</p></li></ol><p class=\"facit-svar\"><strong>Svar: f är kontinuerlig vid x = 3.</strong></p></div>",
+    "ledtrad": "<p>Vad krävs av en funktion för att den ska kunna ha en derivata i en punkt?</p>",
+    "rättSvar": null,
+    "svarstyp": "alternativ",
+    "svarFormat": "text",
+    "tolerans": 1e-09,
+    "alternativ": [
+      {
+        "txt": "f(3) = −4.",
+        "ratt": false
+      },
+      {
+        "txt": "Grafen har en minimipunkt vid x = 3.",
+        "ratt": false
+      },
+      {
+        "txt": "f är kontinuerlig vid x = 3.",
+        "ratt": true
+      },
+      {
+        "txt": "f(3) måste vara negativt.",
+        "ratt": false
+      }
+    ]
+  },
+  {
+  "id": "3.1210",
+  "kap": 3,
+  "omr": "deriverbarhet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+  "niva": "C",
+  "poang": "0/1/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=|x-1|^2\\). Bestäm \\(f'(1)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen till absolutbeloppet av x minus ett i kvadrat är en parabel.\"><title>Grafen till absolutbeloppet av x minus ett i kvadrat är en parabel.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0,5</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1,5</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 166.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"172.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0,5</text><path d=\"M65 83.33333333333331H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"89.33333333333331\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,83.333 74.250,99.583 83.500,115.000 92.750,129.583 102.000,143.333 111.250,156.250 120.500,168.333 129.750,179.583 139.000,190.000 148.250,199.583 157.500,208.333 166.750,216.250 176.000,223.333 185.250,229.583 194.500,235.000 203.750,239.583 213.000,243.333 222.250,246.250 231.500,248.333 240.750,249.583 250.000,250.000 259.250,249.583 268.500,248.333 277.750,246.250 287.000,243.333 296.250,239.583 305.500,235.000 314.750,229.583 324.000,223.333 333.250,216.250 342.500,208.333 351.750,199.583 361.000,190.000 370.250,179.583 379.500,168.333 388.750,156.250 398.000,143.333 407.250,129.583 416.500,115.000 425.750,99.583 435.000,83.333\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvadraten tar bort skillnaden mellan x − 1 och dess absolutbelopp. Därför är funktionen samma som en vanlig andragradsfunktion.</p><div class=\"facit-matte\">\\[f(x)=(x-1)^2\\]</div></li><li><p>Derivera och sätt in x = 1.</p><div class=\"facit-matte\">\\[f'(x)=2(x-1)\\]</div><div class=\"facit-matte\">\\[f'(1)=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 0.</strong></p></div>",
+  "ledtrad": "<p>Vad händer när ett absolutbelopp kvadreras?</p>",
+  "rättSvar": 0,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+  {
+  "id": "3.1211",
+  "kap": 3,
+  "omr": "deriverbarhet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+  "niva": "C",
+  "poang": "0/1/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=x|x|\\). Vilket påstående stämmer vid \\(x=0\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen till x gånger absolutbeloppet av x möts med horisontell lutning vid origo.\"><title>Grafen till x gånger absolutbeloppet av x möts med horisontell lutning vid origo.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M126.66666666666666 50V250\" stroke=\"#d6e1ea\"/><text x=\"126.66666666666666\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M373.3333333333333 50V250\" stroke=\"#d6e1ea\"/><text x=\"373.3333333333333\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 230.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"236.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−2</text><path d=\"M65 190.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"196.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 110.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"116.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 70.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"76.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,240.000 71.167,234.100 77.333,228.400 83.500,222.900 89.667,217.600 95.833,212.500 102.000,207.600 108.167,202.900 114.333,198.400 120.500,194.100 126.667,190.000 132.833,186.100 139.000,182.400 145.167,178.900 151.333,175.600 157.500,172.500 163.667,169.600 169.833,166.900 176.000,164.400 182.167,162.100 188.333,160.000 194.500,158.100 200.667,156.400 206.833,154.900 213.000,153.600 219.167,152.500 225.333,151.600 231.500,150.900 237.667,150.400 243.833,150.100 250.000,150.000 256.167,149.900 262.333,149.600 268.500,149.100 274.667,148.400 280.833,147.500 287.000,146.400 293.167,145.100 299.333,143.600 305.500,141.900 311.667,140.000 317.833,137.900 324.000,135.600 330.167,133.100 336.333,130.400 342.500,127.500 348.667,124.400 354.833,121.100 361.000,117.600 367.167,113.900 373.333,110.000 379.500,105.900 385.667,101.600 391.833,97.100 398.000,92.400 404.167,87.500 410.333,82.400 416.500,77.100 422.667,71.600 428.833,65.900 435.000,60.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><path d=\"M65 150H435M250 50V250\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"1.2\"/></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För negativa x är f(x) = −x², och för positiva x är f(x) = x². Båda delarna når värdet 0 vid x = 0.</p></li><li><p>För h ≠ 0 är differenskvoten vid 0:</p><div class=\"facit-matte\">\\[\\frac{f(h)-f(0)}h=\\frac{h|h|}h=|h|\\]</div></li><li><p>Kvoten närmar sig 0 från båda sidor. Alltså finns derivatan och är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(f'(0)=0\\).</strong></p></div>",
+  "ledtrad": "<p>Skriv funktionen utan absolutbelopp på var sin sida om 0.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "Funktionen är deriverbar och f′(0) = 0.",
+      "ratt": true
+    },
+    {
+      "txt": "Funktionen är kontinuerlig men har ett hörn vid x = 0.",
+      "ratt": false
+    },
+    {
+      "txt": "Funktionen är inte kontinuerlig vid x = 0.",
+      "ratt": false
+    },
+    {
+      "txt": "Funktionen är deriverbar och f′(0) = 1.",
+      "ratt": false
+    }
+  ]
+},
+  {
+    "id": "3.1212",
+    "kap": 3,
+    "omr": "deriverbarhet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen ges av</p><div class=\"facit-matte\">\\[f(x)=\\begin{cases}2x+1,&x\\lt2\\\\ax-3,&x\\ge2\\end{cases}\\]</div><p>Vilket värde på \\(a\\) gör funktionen deriverbar vid \\(x=2\\)? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Delarna måste först mötas. Kontinuitet kräver:</p><div class=\"facit-matte\">\\[2\\cdot2+1=2a-3\\Rightarrow a=4\\]</div></li><li><p>För att lutningarna också ska vara lika krävs a = 2. Inget a uppfyller båda kraven.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Inget värde på a fungerar.</strong></p></div>",
+    "ledtrad": "<p>Pröva både höjden och lutningen i skarven.</p>",
+    "rättSvar": null,
+    "svarstyp": "alternativ",
+    "svarFormat": "text",
+    "tolerans": 1e-09,
+    "alternativ": [
+      {
+        "txt": "a = 2",
+        "ratt": false
+      },
+      {
+        "txt": "Inget värde på a fungerar.",
+        "ratt": true
+      },
+      {
+        "txt": "a = 3",
+        "ratt": false
+      },
+      {
+        "txt": "a = 4",
+        "ratt": false
+      }
+    ]
+  },
+  {
+  "id": "3.1213",
+  "kap": 3,
+  "omr": "deriverbarhet",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+  "niva": "C",
+  "poang": "0/1/0",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen ges av</p><div class=\"facit-matte\">\\[f(x)=\\begin{cases}ax^2+bx,&x\\le1\\\\x^3+c,&x\\gt1\\end{cases}\\]</div><p>Bestäm \\(a\\), \\(b\\) och \\(c\\) så att funktionen är deriverbar vid \\(x=1\\) och dessutom uppfyller \\(f(-1)=2\\). (Svara exakt.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lutningarna ska mötas vid x = 1. Villkoret f(−1) = 2 ger en andra ekvation.</p><div class=\"facit-matte\">\\[2a+b=3,\\qquad a-b=2\\]</div></li><li><p>Addera ekvationerna och bestäm sedan b.</p><div class=\"facit-matte\">\\[3a=5\\Rightarrow a=\\frac53\\]</div><div class=\"facit-matte\">\\[b=a-2=-\\frac13\\]</div></li><li><p>Funktionen måste också vara kontinuerlig vid x = 1.</p><div class=\"facit-matte\">\\[a+b=1+c\\]</div><div class=\"facit-matte\">\\[c=\\frac53-\\frac13-1=\\frac13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(a=\\frac53\\), \\(b=-\\frac13\\) och \\(c=\\frac13\\).</strong></p></div>",
+  "ledtrad": "<p>Skriv ett villkor för höjden, ett för lutningen och ett för f(−1).</p>",
+  "rättSvar": [
+    1.6666666666666667,
+    -0.3333333333333333,
+    0.3333333333333333
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    1e-09,
+    1e-09,
+    1e-09
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ]
+},
+  {
+    "id": "3.1214",
+    "kap": 3,
+    "omr": "deriverbarhet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Deriverbarhet i grafer, tabeller och tillämpningar",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>För \\(f(x)=|x|\\) beräknar Sami</p><div class=\"facit-matte\">\\[\\frac{f(h)-f(-h)}{2h}=0\\qquad(h\\gt0)\\]</div><p>Han säger: ”Då måste \\(f'(0)=0\\).” Vilken kommentar är riktig? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen till absolutbeloppet av x med en horisontell sekant mellan (-1,1) och (1,1).\"><title>Grafen till absolutbeloppet av x med en horisontell sekant mellan (-1,1) och (1,1).</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−2</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 183.33333333333331H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"189.33333333333331\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 116.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"122.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,116.667 250.000,250.000 435.000,116.667\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"157.5\" cy=\"183.33333333333331\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"342.5\" cy=\"183.33333333333331\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><path d=\"M157.5 183.333H342.5\" fill=\"none\" stroke=\"#b25c17\" stroke-width=\"2.5\" stroke-dasharray=\"7 5\"/><text x=\"300\" y=\"170\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Sekant</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den symmetriska kvoten blir 0 eftersom f(h) och f(−h) är lika. Men derivatan vid 0 bestäms av en annan kvot:</p><div class=\"facit-matte\">\\[\\frac{f(h)-f(0)}h=\\frac{|h|}h\\]</div></li><li><p>Den är −1 för negativa h och 1 för positiva h. De två sidorna ger olika gränsvärden, så derivatan finns inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Samis slutsats är fel: f är inte deriverbar vid 0.</strong></p></div>",
+    "ledtrad": "<p>Vilken differenskvot används i derivatans definition vid 0?</p>",
+    "rättSvar": null,
+    "svarstyp": "alternativ",
+    "svarFormat": "text",
+    "tolerans": 1e-09,
+    "alternativ": [
+      {
+        "txt": "Sami har rätt eftersom varje symmetrisk kvot är 0.",
+        "ratt": false
+      },
+      {
+        "txt": "Sami har räknat fel; den symmetriska kvoten är 1.",
+        "ratt": false
+      },
+      {
+        "txt": "Kvoten är 0, men f är ändå inte deriverbar vid 0.",
+        "ratt": true
+      },
+      {
+        "txt": "f är inte deriverbar eftersom f(0) saknas.",
+        "ratt": false
+      }
     ]
   }
 

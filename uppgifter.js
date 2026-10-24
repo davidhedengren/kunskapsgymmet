@@ -203117,5 +203117,267 @@ window.BANK = [
   "tolerans": 0.5,
   "svarVardesiffror": 2,
   "svarEnhet": "N"
+},
+{
+  "id": "2.343",
+  "kap": 2,
+  "omr": "medelhastighet",
+  "niva": "E",
+  "typ": "medelfart över två delsträckor",
+  "poang": "(1/0/0)",
+  "t": "<p>Elin cyklar hemifrån via affären till skolan. Hela turen tar 0,50 h.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"200\" viewBox=\"0 0 420 200\" role=\"img\" aria-label=\"En cykeltur från hemmet via affären till skolan. Första delen är 3,0 km och andra delen 5,0 km.\"><title>En cykeltur från hemmet via affären till skolan. Första delen är 3,0 km och andra delen 5,0 km.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polyline points=\"50,150 170,70 370,120\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"4\" stroke-linejoin=\"round\"/><circle cx=\"50\" cy=\"150\" r=\"7\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><circle cx=\"170\" cy=\"70\" r=\"7\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><circle cx=\"370\" cy=\"120\" r=\"7\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2.4\"/><text x=\"50.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">hemma</text><text x=\"170.0\" y=\"52.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">affären</text><text x=\"370.0\" y=\"148.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">skolan</text><rect x=\"42.6\" y=\"86.0\" width=\"56.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"96.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">3,0 km</text><rect x=\"275.0\" y=\"68.0\" width=\"56.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"278.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">5,0 km</text><text x=\"400.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">total tid: 0,50 h</text></svg></span><p>Vilken är Elins medelfart för hela turen? (Svara i km/h.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Medelfarten är hela sträckan delad med hela tiden. Lägg först ihop delsträckorna:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{3{,}0+5{,}0}{0{,}50}=\\frac{8{,}0}{0{,}50}=16\\ \\mathrm{km/h}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\) km/h.</p></div>",
+  "familj": "Medelhastighet och medelfart",
+  "familjNyckel": "hastighet__medelhastighet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hela sträckan delat med hela tiden.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 16,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "km/h"
+},
+{
+  "id": "2.344",
+  "kap": 2,
+  "omr": "medelhastighet",
+  "niva": "E",
+  "typ": "fart ur tabell",
+  "poang": "(1/0/0)",
+  "t": "<p>En radiostyrd bil kör rakt fram. Tabellen visar bilens position vid några tidpunkter.</p><table class=\"data\"><tr><th>tid (s)</th><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><th>position (m)</th><td>0</td><td>4</td><td>8</td><td>12</td><td>16</td></tr></table><p>Med vilken fart kör bilen? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Positionen ökar lika mycket varje sekund, 4 m. Farten är alltså konstant:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{16-0}{4-0}=4\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\) m/s.</p></div>",
+  "familj": "Sträcka, tid och fart",
+  "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur många meter kommer bilen varje sekund?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4,
+  "tolerans": 0.05,
+  "svarVardesiffror": 1,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "2.345",
+  "kap": 2,
+  "omr": "medelhastighet",
+  "niva": "E",
+  "typ": "medelhastighet efter ett varv",
+  "poang": "(1/0/0)",
+  "t": "<p>Leo springer ett varv, 400 m, på en löparbana på 80 s. Han slutar där han startade.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"210\" viewBox=\"0 0 400 210\" role=\"img\" aria-label=\"En 400 meter lång löparbana. Start och mål ligger på samma ställe.\"><title>En 400 meter lång löparbana. Start och mål ligger på samma ställe.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"45\" width=\"280\" height=\"120\" rx=\"60\" fill=\"#fde7d4\" stroke=\"#c2410c\" stroke-width=\"3\"/><rect x=\"95\" y=\"80\" width=\"210\" height=\"50\" rx=\"25\" fill=\"#dcfce7\" stroke=\"#2f7d4a\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"165\" x2=\"200\" y2=\"185\" stroke=\"#172b3a\" stroke-width=\"3\"/><text x=\"200.0\" y=\"202.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">start och mål</text><text x=\"200.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">400 m per varv</text><path d=\"M 230,175 Q 300,180 330,150\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><line x1=\"326.0\" y1=\"156.0\" x2=\"333.1\" y2=\"144.6\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"336.0,140.0 327.1,145.0 335.4,150.2\" fill=\"#c2410c\"/></svg></span><p>Vilket påstående stämmer?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Medelfarten är sträckan delad med tiden: 400/80 = 5,0 m/s.</p></div><div class=\"facit-stycke\"><p>Medelhastigheten beräknas med förflyttningen. Leo slutar där han startade, så förflyttningen och medelhastigheten är noll.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Medelfarten är 5,0 m/s och medelhastigheten är 0.</p></div>",
+  "familj": "Medelhastighet och medelfart",
+  "familjNyckel": "hastighet__51_fart_och_hastighet",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Skilj på sträcka och förflyttning.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Medelfarten är 5,0 m/s och medelhastigheten är 0.",
+      "ratt": true,
+      "kommentar": "Förflyttningen är noll efter ett helt varv."
+    },
+    {
+      "txt": "Både medelfarten och medelhastigheten är 5,0 m/s.",
+      "ratt": false,
+      "kommentar": "Medelhastigheten bygger på förflyttningen, som är noll."
+    },
+    {
+      "txt": "Både medelfarten och medelhastigheten är 0.",
+      "ratt": false,
+      "kommentar": "Leo har sprungit 400 m, så medelfarten är inte noll."
+    },
+    {
+      "txt": "Medelfarten är 0 och medelhastigheten är 5,0 m/s.",
+      "ratt": false,
+      "kommentar": "Det är tvärtom."
+    }
+  ]
+},
+{
+  "id": "2.346",
+  "kap": 2,
+  "omr": "medelhastighet",
+  "niva": "E",
+  "typ": "hastighetsmätare i m/s",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en bils hastighetsmätare.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"185\" viewBox=\"0 0 400 185\" role=\"img\" aria-label=\"En hastighetsmätare med skala från 0 till 180 km/h. Visaren pekar på 90 km/h.\"><title>En hastighetsmätare med skala från 0 till 180 km/h. Visaren pekar på 90 km/h.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"183\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M 105,140 A 95 95 0 0 1 295,140\" fill=\"#f1f5f9\" stroke=\"#172b3a\" stroke-width=\"3\"/><line x1=\"117.0\" y1=\"140.0\" x2=\"105.0\" y2=\"140.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"131.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">0</text><line x1=\"128.1\" y1=\"98.5\" x2=\"117.7\" y2=\"92.5\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"140.2\" y=\"110.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">30</text><line x1=\"158.5\" y1=\"68.1\" x2=\"152.5\" y2=\"57.7\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"165.5\" y=\"85.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">60</text><line x1=\"200.0\" y1=\"57.0\" x2=\"200.0\" y2=\"45.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"200.0\" y=\"76.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">90</text><line x1=\"241.5\" y1=\"68.1\" x2=\"247.5\" y2=\"57.7\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"234.5\" y=\"85.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">120</text><line x1=\"271.9\" y1=\"98.5\" x2=\"282.3\" y2=\"92.5\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"259.8\" y=\"110.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">150</text><line x1=\"283.0\" y1=\"140.0\" x2=\"295.0\" y2=\"140.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"269.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">180</text><line x1=\"200\" y1=\"140\" x2=\"200.0\" y2=\"89.0\" stroke=\"#c2410c\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"140\" r=\"7\" fill=\"#172b3a\"/><text x=\"200.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">km/h</text></svg></span><p>Hur stor är farten uttryckt i meter per sekund? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mätaren visar 90 km/h. Dela med 3,6 för att få meter per sekund:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{90}{3{,}6}=25\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(25\\) m/s.</p></div>",
+  "familj": "Sträcka, tid och fart",
+  "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>1 m/s = 3,6 km/h.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 25,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "2.347",
+  "kap": 2,
+  "omr": "medelhastighet",
+  "niva": "E",
+  "typ": "momentanfart på mätaren",
+  "poang": "(1/0/0)",
+  "t": "<p>En bil kör från Jönköping till Göteborg. Mitt under resan ser hastighetsmätaren ut som i figuren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"185\" viewBox=\"0 0 400 185\" role=\"img\" aria-label=\"En hastighetsmätare med skala från 0 till 180 km/h. Visaren pekar på 70 km/h.\"><title>En hastighetsmätare med skala från 0 till 180 km/h. Visaren pekar på 70 km/h.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"183\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M 105,140 A 95 95 0 0 1 295,140\" fill=\"#f1f5f9\" stroke=\"#172b3a\" stroke-width=\"3\"/><line x1=\"117.0\" y1=\"140.0\" x2=\"105.0\" y2=\"140.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"131.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">0</text><line x1=\"128.1\" y1=\"98.5\" x2=\"117.7\" y2=\"92.5\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"140.2\" y=\"110.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">30</text><line x1=\"158.5\" y1=\"68.1\" x2=\"152.5\" y2=\"57.7\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"165.5\" y=\"85.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">60</text><line x1=\"200.0\" y1=\"57.0\" x2=\"200.0\" y2=\"45.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"200.0\" y=\"76.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">90</text><line x1=\"241.5\" y1=\"68.1\" x2=\"247.5\" y2=\"57.7\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"234.5\" y=\"85.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">120</text><line x1=\"271.9\" y1=\"98.5\" x2=\"282.3\" y2=\"92.5\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"259.8\" y=\"110.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">150</text><line x1=\"283.0\" y1=\"140.0\" x2=\"295.0\" y2=\"140.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"269.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">180</text><line x1=\"200\" y1=\"140\" x2=\"182.6\" y2=\"92.1\" stroke=\"#c2410c\" stroke-width=\"4\" stroke-linecap=\"round\"/><circle cx=\"200\" cy=\"140\" r=\"7\" fill=\"#172b3a\"/><text x=\"200.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">km/h</text></svg></span><p>Vad visar mätaren?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mätaren visar hur snabbt bilen kör just i det ögonblicket, alltså momentanfarten.</p></div><div class=\"facit-stycke\"><p>Den visar inte medelfarten för resan, och inte heller riktningen. Därför är det en fart och inte en hastighet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bilens fart just i det ögonblicket.</p></div>",
+  "familj": "Medelhastighet och medelfart",
+  "familjNyckel": "hastighet__51_fart_och_hastighet",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ändras visaren när bilen bromsar?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Bilens fart just i det ögonblicket",
+      "ratt": true,
+      "kommentar": "Det kallas momentanfart."
+    },
+    {
+      "txt": "Bilens medelfart sedan resan började",
+      "ratt": false,
+      "kommentar": "Visaren ändras direkt när du bromsar eller gasar."
+    },
+    {
+      "txt": "Bilens hastighet med riktning",
+      "ratt": false,
+      "kommentar": "Mätaren visar ingen riktning."
+    },
+    {
+      "txt": "Hur lång sträcka bilen har kört",
+      "ratt": false,
+      "kommentar": "Sträckan visas på trippmätaren."
+    }
+  ]
+},
+{
+  "id": "2.348",
+  "kap": 2,
+  "omr": "medelhastighet",
+  "niva": "E",
+  "typ": "restid ur vägskylt",
+  "poang": "(1/0/0)",
+  "t": "<p>Du passerar vägskylten i figuren och kör sedan med den konstanta farten 100 km/h hela vägen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"190\" viewBox=\"0 0 400 190\" role=\"img\" aria-label=\"En blå vägskylt som visar Göteborg 150 km.\"><title>En blå vägskylt som visar Göteborg 150 km.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"90\" y=\"30\" width=\"220\" height=\"80\" rx=\"8\" fill=\"#1d4ed8\" stroke=\"#fff\" stroke-width=\"3\"/><text x=\"200.0\" y=\"64.0\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">Göteborg</text><text x=\"200.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"bold\">150 km</text><rect x=\"192\" y=\"110\" width=\"16\" height=\"70\" fill=\"#5b6773\"/><text x=\"15.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">konstant fart 100 km/h</text></svg></span><p>Hur lång tid tar det att komma fram? (Svara i h.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tiden är sträckan delad med farten:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=\\frac{s}{v}=\\frac{150}{100}=1{,}5\\ \\mathrm h\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) h.</p></div>",
+  "familj": "Sträcka, tid och fart",
+  "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd t = s/v.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.5,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "h"
+},
+{
+  "id": "2.349",
+  "kap": 2,
+  "omr": "medelhastighet",
+  "niva": "E",
+  "typ": "medelhastighet med riktning",
+  "poang": "(1/0/0)",
+  "t": "<p>En hund springer rakt österut från punkt A till punkt B på 120 s.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"En karta med en pil som visar en förflyttning på 600 m österut från A till B. Norr är uppåt.\"><title>En karta med en pil som visar en förflyttning på 600 m österut från A till B. Norr är uppåt.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"10\" y=\"10\" width=\"400\" height=\"150\" fill=\"#f0fdf4\"/><line x1=\"70.0\" y1=\"95.0\" x2=\"321.6\" y2=\"95.0\" stroke=\"#216d87\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"330.0,95.0 316.0,90.1 316.0,99.9\" fill=\"#216d87\"/><circle cx=\"70\" cy=\"95\" r=\"7\" fill=\"#172b3a\"/><circle cx=\"340\" cy=\"95\" r=\"7\" fill=\"#172b3a\"/><text x=\"70.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><text x=\"340.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><text x=\"205.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">600 m</text><text x=\"205.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">tid: 120 s</text><line x1=\"380.0\" y1=\"60.0\" x2=\"380.0\" y2=\"30.4\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"380.0,25.0 375.1,34.0 384.9,34.0\" fill=\"#172b3a\"/><text x=\"380.0\" y=\"76.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">N</text></svg></span><p>Hur stor är hundens medelhastighet? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Medelhastigheten är förflyttningen delad med tiden. Förflyttningen är 600 m österut:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{600}{120}=5{,}0\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><p>Medelhastigheten är riktad österut.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\) m/s, österut.</p></div>",
+  "familj": "Medelhastighet och medelfart",
+  "familjNyckel": "hastighet__medelhastighet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Förflyttning delat med tid.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5.0,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "2.350",
+  "kap": 2,
+  "omr": "medelhastighet",
+  "niva": "E",
+  "typ": "medelfart ur tidtabell",
+  "poang": "(1/0/0)",
+  "t": "<p>Tabellen visar en del av en tågtidtabell. Tåget avgår från Värnamo och kommer fram till Vaggeryd.</p><table class=\"data\"><tr><th>Station</th><td>Värnamo</td><td>Vaggeryd</td></tr><tr><th>Avgång/ankomst</th><td>10.15</td><td>10.45</td></tr><tr><th>Sträcka från Värnamo</th><td>0 km</td><td>30 km</td></tr></table><p>Vilken är tågets medelfart mellan stationerna? (Svara i km/h.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Restiden är 30 minuter, alltså 0,50 h. Medelfarten är sträckan delad med tiden:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{30}{0{,}50}=60\\ \\mathrm{km/h}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\) km/h.</p></div>",
+  "familj": "Sträcka, tid och fart",
+  "familjNyckel": "medelhastighet__stracka_tid_och_fart",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Räkna om 30 minuter till timmar.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 60,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "km/h"
 }
 ];

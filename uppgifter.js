@@ -203379,5 +203379,281 @@ window.BANK = [
   "tolerans": 0.05,
   "svarVardesiffror": 2,
   "svarEnhet": "km/h"
+},
+{
+  "id": "6.557",
+  "kap": 6,
+  "omr": "vatsketryck",
+  "niva": "E",
+  "typ": "störst tryck i tanken",
+  "poang": "(1/0/0)",
+  "t": "<p>En tank är fylld med vatten som står stilla. Figuren visar tre punkter i vattnet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"230\" viewBox=\"0 0 400 230\" role=\"img\" aria-label=\"En vattentank med tre punkter. A ligger nära ytan, C på mellandjup och B nära botten.\"><title>En vattentank med tre punkter. A ligger nära ytan, C på mellandjup och B nära botten.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"40\" width=\"280\" height=\"170\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"3\"/><rect x=\"61.5\" y=\"70\" width=\"277\" height=\"138.5\" fill=\"#bfdbfe\"/><line x1=\"61\" y1=\"70\" x2=\"339\" y2=\"70\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"200.0\" y=\"62.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">vattenyta</text><circle cx=\"110\" cy=\"95\" r=\"5\" fill=\"#c2410c\"/><text x=\"120.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"220\" cy=\"185\" r=\"5\" fill=\"#c2410c\"/><text x=\"230.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"300\" cy=\"135\" r=\"5\" fill=\"#c2410c\"/><text x=\"310.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">C</text></svg></span><p>I vilken punkt är trycket störst?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vätsketrycket ökar med djupet under ytan, enligt \\(p=\\rho gh\\).</p></div><div class=\"facit-stycke\"><p>B ligger djupast och har därför störst tryck. Hur långt åt sidan punkten ligger spelar ingen roll.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+  "familj": "Vätsketryck p = ρgh",
+  "familjNyckel": "vatsketryck__jamfora_vatsketryck",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilken punkt har mest vatten ovanför sig?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "B",
+      "ratt": true,
+      "kommentar": "B ligger djupast."
+    },
+    {
+      "txt": "A",
+      "ratt": false,
+      "kommentar": "A ligger närmast ytan och har minst tryck."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "C ligger högre upp än B."
+    },
+    {
+      "txt": "Lika stort i alla tre",
+      "ratt": false,
+      "kommentar": "Trycket beror på djupet, och punkterna ligger på olika djup."
+    }
+  ]
+},
+{
+  "id": "6.558",
+  "kap": 6,
+  "omr": "vatsketryck",
+  "niva": "E",
+  "typ": "kärlets form och trycket vid botten",
+  "poang": "(1/0/0)",
+  "t": "<p>Tre kärl med olika form är fyllda med vatten till samma höjd, 0,50 m. Punkterna X, Y och Z ligger vid botten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"230\" viewBox=\"0 0 420 230\" role=\"img\" aria-label=\"Tre kärl med olika form: ett brett, ett smalt och ett som vidgas uppåt. Vattnet står lika högt, 0,50 m, i alla tre.\"><title>Tre kärl med olika form: ett brett, ett smalt och ett som vidgas uppåt. Vattnet står lika högt, 0,50 m, i alla tre.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"30,70 130,70 130,195 30,195\" fill=\"#bfdbfe\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><circle cx=\"80\" cy=\"190\" r=\"5\" fill=\"#c2410c\"/><text x=\"80.0\" y=\"214.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">X</text><polygon points=\"180,70 220,70 220,195 180,195\" fill=\"#bfdbfe\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><circle cx=\"200\" cy=\"190\" r=\"5\" fill=\"#c2410c\"/><text x=\"200.0\" y=\"214.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Y</text><polygon points=\"260,70 400,70 350,195 310,195\" fill=\"#bfdbfe\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><circle cx=\"330\" cy=\"190\" r=\"5\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"214.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Z</text><line x1=\"20\" y1=\"70\" x2=\"410\" y2=\"70\" stroke=\"#216d87\" stroke-dasharray=\"5 4\"/><text x=\"210.0\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">samma vattenhöjd 0,50 m</text></svg></span><p>Vid vilken punkt är vattentrycket störst?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vätsketrycket beror bara på vätskans densitet och djupet: \\(p=\\rho gh\\).</p></div><div class=\"facit-stycke\"><p>Alla tre punkter ligger 0,50 m under ytan i samma vätska. Trycket är därför lika stort, oavsett hur mycket vatten kärlen rymmer.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lika stort vid alla tre.</p></div>",
+  "familj": "Vätsketryck p = ρgh",
+  "familjNyckel": "vatsketryck__vattentorn_och_karlets_form",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilka storheter ingår i p = ρgh?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Lika stort vid alla tre",
+      "ratt": true,
+      "kommentar": "Samma djup och samma vätska ger samma tryck."
+    },
+    {
+      "txt": "X, eftersom kärlet rymmer mest vatten",
+      "ratt": false,
+      "kommentar": "Trycket beror på djupet, inte på mängden vatten."
+    },
+    {
+      "txt": "Y, eftersom kärlet är smalast",
+      "ratt": false,
+      "kommentar": "Bredden påverkar inte trycket."
+    },
+    {
+      "txt": "Z, eftersom väggarna lutar",
+      "ratt": false,
+      "kommentar": "Formen påverkar inte trycket på ett visst djup."
+    }
+  ]
+},
+{
+  "id": "6.559",
+  "kap": 6,
+  "omr": "vatsketryck",
+  "niva": "E",
+  "typ": "tryck vid akvariets botten",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett akvarium är fyllt med vatten (densitet 1000 kg/m³). Linjalen visar vattendjupet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"230\" viewBox=\"0 0 400 230\" role=\"img\" aria-label=\"Ett akvarium med vatten. En linjal visar att vattendjupet är 40 cm. En punkt är markerad vid botten.\"><title>Ett akvarium med vatten. En linjal visar att vattendjupet är 40 cm. En punkt är markerad vid botten.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"50\" width=\"220\" height=\"140\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"3\"/><rect x=\"61.5\" y=\"70\" width=\"217\" height=\"118.5\" fill=\"#bfdbfe\"/><line x1=\"61\" y1=\"70\" x2=\"279\" y2=\"70\" stroke=\"#216d87\" stroke-width=\"2\"/><rect x=\"296\" y=\"62\" width=\"14\" height=\"136\" fill=\"#fef3c7\" stroke=\"#172b3a\" stroke-width=\"1\"/><line x1=\"300\" y1=\"70\" x2=\"318\" y2=\"70\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"324.0\" y=\"74.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"start\" fill=\"#172b3a\">0 cm</text><line x1=\"300\" y1=\"100\" x2=\"312\" y2=\"100\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"300\" y1=\"130\" x2=\"318\" y2=\"130\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"324.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"start\" fill=\"#172b3a\">20 cm</text><line x1=\"300\" y1=\"160\" x2=\"312\" y2=\"160\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"300\" y1=\"190\" x2=\"318\" y2=\"190\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"324.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"start\" fill=\"#172b3a\">40 cm</text><line x1=\"280\" y1=\"70\" x2=\"300\" y2=\"70\" stroke=\"#216d87\" stroke-dasharray=\"3 3\"/><circle cx=\"170\" cy=\"176\" r=\"5\" fill=\"#c2410c\"/><text x=\"180.0\" y=\"181.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">botten</text></svg></span><p>Hur mycket större är trycket vid botten än vid vattenytan? (Svara i kPa.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Djupet är 40 cm = 0,40 m. Vätsketrycket är \\(\\rho gh\\):</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=1000\\cdot9{,}82\\cdot0{,}40=3928\\ \\mathrm{Pa}\\approx3{,}9\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}9\\) kPa.</p></div>",
+  "familj": "Vätsketryck p = ρgh",
+  "familjNyckel": "vatsketryck__vatsketryck_p_gh",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs av djupet och räkna om till meter.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3.928,
+  "tolerans": 0.0005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "kPa"
+},
+{
+  "id": "6.560",
+  "kap": 6,
+  "omr": "vatsketryck",
+  "niva": "E",
+  "typ": "absoluttryck ur övertryck",
+  "poang": "(1/0/0)",
+  "t": "<p>Tryckmätaren på en gastank visar övertrycket 30 kPa, alltså hur mycket högre trycket är än lufttrycket utanför. Lufttrycket är 101 kPa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"210\" viewBox=\"0 0 400 210\" role=\"img\" aria-label=\"En tryckmätare på en gastank visar övertrycket 30 kPa. Lufttrycket utanför är 101 kPa.\"><title>En tryckmätare på en gastank visar övertrycket 30 kPa. Lufttrycket utanför är 101 kPa.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"90\" width=\"200\" height=\"90\" rx=\"40\" fill=\"#e2e8f0\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><text x=\"160.0\" y=\"142.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">gastank</text><line x1=\"160\" y1=\"90\" x2=\"160\" y2=\"70\" stroke=\"#172b3a\" stroke-width=\"4\"/><circle cx=\"160\" cy=\"46\" r=\"40\" fill=\"#f8fafc\" stroke=\"#172b3a\" stroke-width=\"3\"/><text x=\"160.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">30 kPa</text><text x=\"160.0\" y=\"64.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">övertryck</text><text x=\"380.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">lufttryck:</text><text x=\"380.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">101 kPa</text></svg></span><p>Hur stort är gasens absoluttryck? (Svara i kPa.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Absoluttrycket är lufttrycket plus övertrycket:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=101+30=131\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(131\\) kPa.</p></div>",
+  "familj": "Absoluttryck, övertryck och lufttryck",
+  "familjNyckel": "vatsketryck__overtryck_och_absoluttryck",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Övertrycket mäts från lufttrycket.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 131,
+  "tolerans": 0.5,
+  "svarVardesiffror": 3,
+  "svarEnhet": "kPa"
+},
+{
+  "id": "6.561",
+  "kap": 6,
+  "omr": "vatsketryck",
+  "niva": "E",
+  "typ": "gastryck med U-rörsmanometer",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett U-rör med vatten är kopplat till en gasbehållare. Den andra skänkeln är öppen mot luften. Vattnet står 12 cm lägre på gassidan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"240\" viewBox=\"0 0 400 240\" role=\"img\" aria-label=\"Ett U-rör med vatten. Vänster skänkel är kopplad till en gasbehållare och höger skänkel är öppen mot luften. Vattnet står lägre i vänster skänkel.\"><title>Ett U-rör med vatten. Vänster skänkel är kopplad till en gasbehållare och höger skänkel är öppen mot luften. Vattnet står lägre i vänster skänkel.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M 150,40 L 150,190 Q 150,215 175,215 L 225,215 Q 250,215 250,190 L 250,40\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"22\" stroke-linecap=\"butt\"/><path d=\"M 150,40 L 150,190 Q 150,215 175,215 L 225,215 Q 250,215 250,190 L 250,40\" fill=\"none\" stroke=\"#fff\" stroke-width=\"16\"/><path d=\"M 150,140 L 150,190 Q 150,215 175,215 L 225,215 Q 250,215 250,190 L 250,90\" fill=\"none\" stroke=\"#bfdbfe\" stroke-width=\"16\"/><rect x=\"40\" y=\"20\" width=\"90\" height=\"50\" rx=\"10\" fill=\"#e2e8f0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"85.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">gas</text><line x1=\"130\" y1=\"40\" x2=\"150\" y2=\"40\" stroke=\"#172b3a\" stroke-width=\"6\"/><text x=\"270.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">öppen mot luften</text><line x1=\"160\" y1=\"140\" x2=\"330\" y2=\"140\" stroke=\"#5b6773\" stroke-dasharray=\"4 3\"/><line x1=\"260\" y1=\"90\" x2=\"330\" y2=\"90\" stroke=\"#5b6773\" stroke-dasharray=\"4 3\"/><line x1=\"320.0\" y1=\"115.0\" x2=\"320.0\" y2=\"94.8\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,90.0 315.1,98.0 324.9,98.0\" fill=\"#5b6773\"/><line x1=\"320.0\" y1=\"115.0\" x2=\"320.0\" y2=\"135.2\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,140.0 324.9,132.0 315.1,132.0\" fill=\"#5b6773\"/><rect x=\"325.0\" y=\"106.0\" width=\"48.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"328.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">12 cm</text></svg></span><p>Är gasens tryck högre eller lägre än lufttrycket?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vattnet trycks bort från den sida där trycket är högst.</p></div><div class=\"facit-stycke\"><p>Gasen har tryckt ned vattnet på sin sida, så gasens tryck är högre än lufttrycket.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Högre än lufttrycket.</p></div>",
+  "familj": "U-rör och manometrar",
+  "familjNyckel": "vatsketryck__u_ror_och_manometrar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Åt vilket håll har vattnet tryckts?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Högre än lufttrycket",
+      "ratt": true,
+      "kommentar": "Gasen trycker ned vattnet på sin sida."
+    },
+    {
+      "txt": "Lägre än lufttrycket",
+      "ratt": false,
+      "kommentar": "Då hade vattnet stått högre på gassidan."
+    },
+    {
+      "txt": "Lika med lufttrycket",
+      "ratt": false,
+      "kommentar": "Då hade vattnet stått lika högt i båda skänklarna."
+    }
+  ]
+},
+{
+  "id": "6.562",
+  "kap": 6,
+  "omr": "vatsketryck",
+  "niva": "E",
+  "typ": "bar till kPa",
+  "poang": "(1/0/0)",
+  "t": "<p>En mätare visar trycket i ett bildäck i enheten bar. 1 bar = 100 kPa.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"200\" viewBox=\"0 0 380 200\" role=\"img\" aria-label=\"En däcktrycksmätare som visar 2,5 bar.\"><title>En däcktrycksmätare som visar 2,5 bar.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"190\" cy=\"100\" r=\"70\" fill=\"#f8fafc\" stroke=\"#172b3a\" stroke-width=\"4\"/><text x=\"190.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"30\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">2,5</text><text x=\"190.0\" y=\"126.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">bar</text><rect x=\"180\" y=\"170\" width=\"20\" height=\"26\" fill=\"#5b6773\"/></svg></span><p>Hur stort är trycket uttryckt i kPa? (Svara i kPa.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Multiplicera med 100, eftersom 1 bar är 100 kPa:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=2{,}5\\cdot100=250\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(250\\) kPa.</p></div>",
+  "familj": "Omvandling av tryckenheter",
+  "familjNyckel": "vatsketryck__omvandling_tryckenheter",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>1 bar = 100 kPa.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 250,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "kPa"
+},
+{
+  "id": "6.563",
+  "kap": 6,
+  "omr": "vatsketryck",
+  "niva": "E",
+  "typ": "djup ur övertryck",
+  "poang": "(1/0/0)",
+  "t": "<p>En dykare simmar i en sjö. Dykarens mätare visar att vattnets tryck är 49 kPa högre än vid ytan. Vattnets densitet är 1000 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"230\" viewBox=\"0 0 400 230\" role=\"img\" aria-label=\"En dykare under vattenytan. Dykarens mätare visar vattnets övertryck 49 kPa.\"><title>En dykare under vattenytan. Dykarens mätare visar vattnets övertryck 49 kPa.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"10\" y=\"40\" width=\"380\" height=\"180\" fill=\"#bfdbfe\"/><line x1=\"10\" y1=\"40\" x2=\"390\" y2=\"40\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"30.0\" y=\"32.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">vattenyta</text><ellipse cx=\"160\" cy=\"170\" rx=\"50\" ry=\"14\" fill=\"#172b3a\"/><circle cx=\"215\" cy=\"164\" r=\"13\" fill=\"#172b3a\"/><line x1=\"105\" y1=\"170\" x2=\"80\" y2=\"160\" stroke=\"#172b3a\" stroke-width=\"6\"/><circle cx=\"305\" cy=\"135\" r=\"40\" fill=\"#f8fafc\" stroke=\"#172b3a\" stroke-width=\"3\"/><text x=\"305.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">49 kPa</text><text x=\"305.0\" y=\"153.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">övertryck</text><line x1=\"228\" y1=\"164\" x2=\"266\" y2=\"148\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"170\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><text x=\"112.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">djup ?</text></svg></span><p>På vilket djup befinner sig dykaren? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vätsketrycket är \\(\\rho gh\\). Lös ut djupet:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[h=\\frac{p}{\\rho g}=\\frac{49\\,000}{1000\\cdot9{,}82}\\approx5{,}0\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\) m.</p></div>",
+  "familj": "Vätsketryck p = ρgh",
+  "familjNyckel": "vatsketryck__djup_fran_vatsketryck",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Lös ut h ur p = ρgh. Räkna om kPa till Pa.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4.989816700610998,
+  "tolerans": 0.0005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m"
+},
+{
+  "id": "6.564",
+  "kap": 6,
+  "omr": "vatsketryck",
+  "niva": "E",
+  "typ": "tryckskillnad mellan två djup",
+  "poang": "(1/0/0)",
+  "t": "<p>Punkt P ligger 2,0 m och punkt Q 5,0 m under ytan i en sjö. Vattnets densitet är 1000 kg/m³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"240\" viewBox=\"0 0 400 240\" role=\"img\" aria-label=\"En sjö i genomskärning. Punkt P ligger 2,0 m under ytan och punkt Q 5,0 m under ytan.\"><title>En sjö i genomskärning. Punkt P ligger 2,0 m under ytan och punkt Q 5,0 m under ytan.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"10\" y=\"40\" width=\"380\" height=\"190\" fill=\"#bfdbfe\"/><line x1=\"10\" y1=\"40\" x2=\"390\" y2=\"40\" stroke=\"#216d87\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"5\" fill=\"#c2410c\"/><text x=\"180.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">P</text><circle cx=\"250\" cy=\"190\" r=\"5\" fill=\"#c2410c\"/><text x=\"260.0\" y=\"195.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">Q</text><line x1=\"60\" y1=\"90\" x2=\"165\" y2=\"90\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"60\" y1=\"190\" x2=\"245\" y2=\"190\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"60.0\" y1=\"65.0\" x2=\"60.0\" y2=\"44.8\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"60.0,40.0 55.1,48.0 64.9,48.0\" fill=\"#5b6773\"/><line x1=\"60.0\" y1=\"65.0\" x2=\"60.0\" y2=\"85.2\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"60.0,90.0 64.9,82.0 55.1,82.0\" fill=\"#5b6773\"/><rect x=\"65.0\" y=\"56.0\" width=\"48.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"68.0\" y=\"70.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">2,0 m</text><line x1=\"330.0\" y1=\"115.0\" x2=\"330.0\" y2=\"44.8\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"330.0,40.0 325.1,48.0 334.9,48.0\" fill=\"#5b6773\"/><line x1=\"330.0\" y1=\"115.0\" x2=\"330.0\" y2=\"185.2\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"330.0,190.0 334.9,182.0 325.1,182.0\" fill=\"#5b6773\"/><rect x=\"335.0\" y=\"106.0\" width=\"48.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"338.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">5,0 m</text><line x1=\"250\" y1=\"40\" x2=\"330\" y2=\"40\" stroke=\"#216d87\" stroke-width=\"2\"/><line x1=\"255\" y1=\"190\" x2=\"330\" y2=\"190\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/></svg></span><p>Hur mycket större är trycket i Q än i P? (Svara i kPa.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tryckskillnaden beror på höjdskillnaden mellan punkterna, 5,0 − 2,0 = 3,0 m:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta p=\\rho g\\,\\Delta h=1000\\cdot9{,}82\\cdot3{,}0=29\\,460\\ \\mathrm{Pa}\\approx29\\ \\mathrm{kPa}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(29\\) kPa.</p></div>",
+  "familj": "Vätsketryck p = ρgh",
+  "familjNyckel": "vatsketryck__tryckskillnad_mellan_tva_djup",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd höjdskillnaden mellan punkterna.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 29.46,
+  "tolerans": 0.0005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "kPa"
 }
 ];

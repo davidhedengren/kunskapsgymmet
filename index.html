@@ -4059,7 +4059,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-24-fy1-flerval-ordning";
+const BANK_VERSION="2026-10-24-flerval-fy2";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -13622,6 +13622,10 @@ function altRader(t){
    ställe varje gång så att eleven vet att möjligheten alltid finns. */
 function altOrdna(t){
   const rader=altRader(t);
+  /* Alternativ som bara är bokstäver ("A", "Bild B") pekar på figurens delar. Deras ordning
+     ger ingen ledtråd, och A–B–C är lättast att hitta, så de blandas inte. */
+  if(rader.every(r=>/^\s*(?:Bild\s+|Figur\s+|Alternativ\s+)?[A-H]\.?\s*$/.test(r.txt.replace(/<[^>]+>/g,""))))
+    return rader.map((r,i)=>i);
   const rorliga=rader.map((r,i)=>i).filter(i=>!rader[i].sist);
   const fasta=rader.map((r,i)=>i).filter(i=>rader[i].sist);
   for(let i=rorliga.length-1;i>0;i--){

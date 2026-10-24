@@ -204207,5 +204207,267 @@ window.BANK = [
       "kommentar": "Avläsningen beror på ögats höjd."
     }
   ]
+},
+{
+  "id": "8.620",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "E",
+  "typ": "ström i en förgrening",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en förgreningspunkt i en krets. Strömmen 0,90 A delar upp sig i två grenar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"230\" viewBox=\"0 0 420 230\" role=\"img\" aria-label=\"En förgreningspunkt. In kommer 0,90 A. Den övre grenen leder 0,40 A och strömmen i den nedre grenen söks.\"><title>En förgreningspunkt. In kommer 0,90 A. Den övre grenen leder 0,40 A och strömmen i den nedre grenen söks.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polyline points=\"40,115 200,115\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"200,115 250,60 390,60\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"200,115 250,170 390,170\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"200\" cy=\"115\" r=\"4\" fill=\"#2B2527\"/><line x1=\"98.0\" y1=\"115.0\" x2=\"116.0\" y2=\"115.0\" stroke=\"#c2410c\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"122.0,115.0 112.0,110.1 112.0,119.9\" fill=\"#c2410c\"/><rect x=\"83.6\" y=\"92.0\" width=\"52.8\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"110.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,90 A</text><line x1=\"318.0\" y1=\"60.0\" x2=\"336.0\" y2=\"60.0\" stroke=\"#c2410c\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"342.0,60.0 332.0,55.1 332.0,64.9\" fill=\"#c2410c\"/><rect x=\"303.6\" y=\"37.0\" width=\"52.8\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"330.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">0,40 A</text><line x1=\"318.0\" y1=\"170.0\" x2=\"336.0\" y2=\"170.0\" stroke=\"#c2410c\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"342.0,170.0 332.0,165.1 332.0,174.9\" fill=\"#c2410c\"/><rect x=\"307.5\" y=\"147.0\" width=\"45.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"330.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">I = ?</text><text x=\"188.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">förgrening</text></svg></span><p>Hur stor ström går i den nedre grenen? (Svara i A.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ingen laddning försvinner i förgreningen. Strömmen in är lika stor som summan av strömmarna ut:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=0{,}90-0{,}40=0{,}50\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}50\\) A.</p></div>",
+  "familj": "Strömfördelning i parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ström in = summan av strömmarna ut.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.5,
+  "tolerans": 0.005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "A"
+},
+{
+  "id": "8.621",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "E",
+  "typ": "voltmeter över en gren",
+  "poang": "(1/0/0)",
+  "t": "<p>Tre lampor är parallellkopplade till ett batteri med spänningen 6,0 V. En voltmeter mäter spänningen över lampa L₃.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"450\" height=\"250\" viewBox=\"0 0 450 250\" role=\"img\" aria-label=\"Tre lampor parallellkopplade till ett batteri på 6,0 V. En voltmeter är kopplad över lampa L3.\"><title>Tre lampor parallellkopplade till ett batteri på 6,0 V. En voltmeter är kopplad över lampa L3.</title><rect x=\"1\" y=\"1\" width=\"448\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polyline points=\"70,122.0 70,50 360,50\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"70,138.0 70,210 360,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"180,50 180,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"270,50 270,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"360,50 360,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"180\" cy=\"50\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"180\" cy=\"210\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"270\" cy=\"50\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"270\" cy=\"210\" r=\"4\" fill=\"#2B2527\"/><rect x=\"50\" y=\"121.0\" width=\"40\" height=\"18\" fill=\"#fff\"/><line x1=\"52\" y1=\"123.0\" x2=\"88\" y2=\"123.0\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"61\" y1=\"137.0\" x2=\"79\" y2=\"137.0\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"94.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">+</text><text x=\"44.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">6,0 V</text><circle cx=\"180\" cy=\"130\" r=\"15\" fill=\"#fef9c3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"169.4\" y1=\"119.4\" x2=\"190.6\" y2=\"140.6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"169.4\" y1=\"140.6\" x2=\"190.6\" y2=\"119.4\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><rect x=\"199.0\" y=\"121.0\" width=\"22.8\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"202.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">L₁</text><circle cx=\"270\" cy=\"130\" r=\"15\" fill=\"#fef9c3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"259.4\" y1=\"119.4\" x2=\"280.6\" y2=\"140.6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"259.4\" y1=\"140.6\" x2=\"280.6\" y2=\"119.4\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><rect x=\"289.0\" y=\"121.0\" width=\"22.8\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"292.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">L₂</text><circle cx=\"360\" cy=\"130\" r=\"15\" fill=\"#fef9c3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"349.4\" y1=\"119.4\" x2=\"370.6\" y2=\"140.6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"349.4\" y1=\"140.6\" x2=\"370.6\" y2=\"119.4\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><rect x=\"318.2\" y=\"121.0\" width=\"22.8\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"338.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">L₃</text><polyline points=\"360,90 410,90 410,115\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"410,145 410,170 360,170\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"360\" cy=\"90\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"360\" cy=\"170\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"410\" cy=\"130\" r=\"15\" fill=\"#fff\" stroke=\"#2f7d4a\" stroke-width=\"2.4\"/><text x=\"410.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">V</text><text x=\"410.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">?</text></svg></span><p>Vad visar voltmetern? (Svara i V.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I en parallellkoppling är varje gren kopplad direkt mellan batteriets poler.</p></div><div class=\"facit-stycke\"><p>Alla grenar har därför samma spänning som batteriet. Voltmetern visar 6,0 V.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\) V.</p></div>",
+  "familj": "Strömfördelning i parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad gäller för spänningen över parallella grenar?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6.0,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "V"
+},
+{
+  "id": "8.622",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "E",
+  "typ": "tre amperemetrar",
+  "poang": "(1/0/0)",
+  "t": "<p>Två resistorer är parallellkopplade. Amperemeter A₁ i huvudledningen visar 1,2 A och A₂ i den ena grenen visar 0,8 A.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" role=\"img\" aria-label=\"En krets med två parallellkopplade resistorer. Amperemeter A1 i huvudledningen visar 1,2 A, A2 i första grenen visar 0,8 A och A3 i andra grenen söks.\"><title>En krets med två parallellkopplade resistorer. Amperemeter A1 i huvudledningen visar 1,2 A, A2 i första grenen visar 0,8 A och A3 i andra grenen söks.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polyline points=\"60,122.0 60,50 350,50\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"60,138.0 60,210 350,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"230,50 230,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"350,50 350,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"230\" cy=\"50\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"230\" cy=\"210\" r=\"4\" fill=\"#2B2527\"/><rect x=\"40\" y=\"121.0\" width=\"40\" height=\"18\" fill=\"#fff\"/><line x1=\"42\" y1=\"123.0\" x2=\"78\" y2=\"123.0\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"51\" y1=\"137.0\" x2=\"69\" y2=\"137.0\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"84.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">+</text><rect x=\"220\" y=\"117\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"340\" y=\"117\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"145\" cy=\"50\" r=\"15\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2.4\"/><text x=\"145.0\" y=\"56.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><text x=\"145.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A₁: 1,2 A</text><circle cx=\"230\" cy=\"88\" r=\"15\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2.4\"/><text x=\"230.0\" y=\"94.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><rect x=\"129.4\" y=\"79.0\" width=\"81.6\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"208.0\" y=\"93.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">A₂: 0,8 A</text><circle cx=\"350\" cy=\"88\" r=\"15\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2.4\"/><text x=\"350.0\" y=\"94.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><rect x=\"369.0\" y=\"79.0\" width=\"48.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"372.0\" y=\"93.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">A₃: ?</text></svg></span><p>Vad visar amperemeter A₃? (Svara i A.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen i huvudledningen delas mellan grenarna:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_3=1{,}2-0{,}8=0{,}4\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}4\\) A.</p></div>",
+  "familj": "Strömfördelning i parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Strömmen i huvudledningen är summan av grenströmmarna.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.4,
+  "tolerans": 0.005,
+  "svarVardesiffror": 1,
+  "svarEnhet": "A"
+},
+{
+  "id": "8.623",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "E",
+  "typ": "trasig lampa i parallellkoppling",
+  "poang": "(1/0/0)",
+  "t": "<p>Två lampor är parallellkopplade till ett batteri. Lampa L₂ går sönder, så att ingen ström går genom den.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" role=\"img\" aria-label=\"Två lampor parallellkopplade till ett batteri. Lampa L2 är trasig och överkryssad.\"><title>Två lampor parallellkopplade till ett batteri. Lampa L2 är trasig och överkryssad.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polyline points=\"70,122.0 70,50 330,50\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"70,138.0 70,210 330,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"200,50 200,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"330,50 330,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"200\" cy=\"50\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"200\" cy=\"210\" r=\"4\" fill=\"#2B2527\"/><rect x=\"50\" y=\"121.0\" width=\"40\" height=\"18\" fill=\"#fff\"/><line x1=\"52\" y1=\"123.0\" x2=\"88\" y2=\"123.0\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"61\" y1=\"137.0\" x2=\"79\" y2=\"137.0\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"94.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">+</text><circle cx=\"200\" cy=\"130\" r=\"15\" fill=\"#fef9c3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"189.4\" y1=\"119.4\" x2=\"210.6\" y2=\"140.6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"189.4\" y1=\"140.6\" x2=\"210.6\" y2=\"119.4\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><rect x=\"219.0\" y=\"121.0\" width=\"22.8\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"222.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">L₁</text><circle cx=\"330\" cy=\"130\" r=\"15\" fill=\"#e5e7eb\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"319.4\" y1=\"119.4\" x2=\"340.6\" y2=\"140.6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"319.4\" y1=\"140.6\" x2=\"340.6\" y2=\"119.4\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"308\" y1=\"106\" x2=\"352\" y2=\"154\" stroke=\"#c2410c\" stroke-width=\"3\"/><rect x=\"349.0\" y=\"121.0\" width=\"98.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"352.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">L₂ (trasig)</text></svg></span><p>Hur lyser lampa L₁ nu jämfört med innan?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">L₁ sitter i en egen gren direkt mellan batteriets poler.</p></div><div class=\"facit-stycke\"><p>Spänningen över L₁ är densamma som förut, så strömmen genom den och ljusstyrkan ändras inte. Det är därför lampor i hus är parallellkopplade.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lika starkt som innan.</p></div>",
+  "familj": "Strömfördelning i parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ändras spänningen över L₁?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Lika starkt som innan",
+      "ratt": true,
+      "kommentar": "L₁ har kvar hela batterispänningen."
+    },
+    {
+      "txt": "Den slocknar",
+      "ratt": false,
+      "kommentar": "Det gäller i en seriekoppling, där strömmen bara har en väg."
+    },
+    {
+      "txt": "Starkare",
+      "ratt": false,
+      "kommentar": "Spänningen över L₁ är densamma, så strömmen genom den ändras inte."
+    },
+    {
+      "txt": "Svagare",
+      "ratt": false,
+      "kommentar": "L₁ har kvar hela batterispänningen."
+    }
+  ]
+},
+{
+  "id": "8.624",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "E",
+  "typ": "ersättningsresistans för två resistorer",
+  "poang": "(1/0/0)",
+  "t": "<p>Två resistorer på 6,0 Ω och 3,0 Ω är parallellkopplade.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" role=\"img\" aria-label=\"Två resistorer på 6,0 ohm och 3,0 ohm parallellkopplade till ett batteri.\"><title>Två resistorer på 6,0 ohm och 3,0 ohm parallellkopplade till ett batteri.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polyline points=\"70,122.0 70,50 330,50\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"70,138.0 70,210 330,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"210,50 210,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"330,50 330,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"210\" cy=\"50\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"210\" cy=\"210\" r=\"4\" fill=\"#2B2527\"/><rect x=\"50\" y=\"121.0\" width=\"40\" height=\"18\" fill=\"#fff\"/><line x1=\"52\" y1=\"123.0\" x2=\"88\" y2=\"123.0\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"61\" y1=\"137.0\" x2=\"79\" y2=\"137.0\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"94.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">+</text><rect x=\"200\" y=\"102\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"223.0\" y=\"121.0\" width=\"48.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"226.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">6,0 Ω</text><rect x=\"320\" y=\"102\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"343.0\" y=\"121.0\" width=\"48.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"346.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">3,0 Ω</text></svg></span><p>Hur stor är ersättningsresistansen? (Svara i Ω.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid parallellkoppling adderas inverterna av resistanserna:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{1}{R}=\\frac{1}{6{,}0}+\\frac{1}{3{,}0}=\\frac{1}{6{,}0}+\\frac{2}{6{,}0}=\\frac{3}{6{,}0}\\quad\\Rightarrow\\quad R=2{,}0\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\) Ω.</p></div>",
+  "familj": "Ersättningsresistans vid parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>1/R = 1/R₁ + 1/R₂.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.0,
+  "tolerans": 0.005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "Ω"
+},
+{
+  "id": "8.625",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "E",
+  "typ": "ersättningsresistans jämfört med delarna",
+  "poang": "(1/0/0)",
+  "t": "<p>En resistor på 10 Ω och en på 40 Ω är parallellkopplade.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" role=\"img\" aria-label=\"Två resistorer på 10 ohm och 40 ohm parallellkopplade.\"><title>Två resistorer på 10 ohm och 40 ohm parallellkopplade.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polyline points=\"70,122.0 70,50 330,50\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"70,138.0 70,210 330,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"210,50 210,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"330,50 330,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"210\" cy=\"50\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"210\" cy=\"210\" r=\"4\" fill=\"#2B2527\"/><rect x=\"50\" y=\"121.0\" width=\"40\" height=\"18\" fill=\"#fff\"/><line x1=\"52\" y1=\"123.0\" x2=\"88\" y2=\"123.0\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"61\" y1=\"137.0\" x2=\"79\" y2=\"137.0\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"94.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">+</text><rect x=\"200\" y=\"102\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"223.0\" y=\"121.0\" width=\"39.6\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"226.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">10 Ω</text><rect x=\"320\" y=\"102\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><rect x=\"343.0\" y=\"121.0\" width=\"39.6\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"346.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">40 Ω</text></svg></span><p>Vad gäller för ersättningsresistansen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En ny parallell gren ger strömmen ytterligare en väg. Då blir det lättare för strömmen, och resistansen minskar.</p></div><div class=\"facit-stycke\"><p>Ersättningsresistansen blir därför mindre än den minsta resistansen, 10 Ω. Den är 8 Ω.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Den är mindre än 10 Ω.</p></div>",
+  "familj": "Ersättningsresistans vid parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Blir det lättare eller svårare för strömmen med en extra väg?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Den är mindre än 10 Ω",
+      "ratt": true,
+      "kommentar": "1/R = 1/10 + 1/40 ger R = 8 Ω."
+    },
+    {
+      "txt": "Den ligger mellan 10 Ω och 40 Ω",
+      "ratt": false,
+      "kommentar": "Parallella grenar ger lägre resistans än varje gren."
+    },
+    {
+      "txt": "Den är 50 Ω",
+      "ratt": false,
+      "kommentar": "Resistanserna adderas vid seriekoppling, inte parallellkoppling."
+    },
+    {
+      "txt": "Den är större än 40 Ω",
+      "ratt": false,
+      "kommentar": "Fler vägar ger mindre resistans."
+    }
+  ]
+},
+{
+  "id": "8.626",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "E",
+  "typ": "resistans ur spänning och grenström",
+  "poang": "(1/0/0)",
+  "t": "<p>En lampa sitter i en parallellgren till ett batteri på 9,0 V. Amperemetern i grenen visar 0,30 A.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" role=\"img\" aria-label=\"Ett batteri på 9,0 V med två parallella grenar. I den högra grenen sitter en lampa och en amperemeter som visar 0,30 A.\"><title>Ett batteri på 9,0 V med två parallella grenar. I den högra grenen sitter en lampa och en amperemeter som visar 0,30 A.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polyline points=\"70,122.0 70,50 330,50\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"70,138.0 70,210 330,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"200,50 200,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"330,50 330,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"200\" cy=\"50\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"200\" cy=\"210\" r=\"4\" fill=\"#2B2527\"/><rect x=\"50\" y=\"121.0\" width=\"40\" height=\"18\" fill=\"#fff\"/><line x1=\"52\" y1=\"123.0\" x2=\"88\" y2=\"123.0\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"61\" y1=\"137.0\" x2=\"79\" y2=\"137.0\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"94.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">+</text><text x=\"44.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">9,0 V</text><rect x=\"190\" y=\"102\" width=\"20\" height=\"56\" fill=\"#fff\" stroke=\"#2B2527\" stroke-width=\"2\"/><circle cx=\"330\" cy=\"155\" r=\"15\" fill=\"#fef9c3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"319.4\" y1=\"144.4\" x2=\"340.6\" y2=\"165.6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"319.4\" y1=\"165.6\" x2=\"340.6\" y2=\"144.4\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><rect x=\"349.0\" y=\"146.0\" width=\"48.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"352.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">lampa</text><circle cx=\"330\" cy=\"95\" r=\"15\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2.4\"/><text x=\"330.0\" y=\"101.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><rect x=\"349.0\" y=\"86.0\" width=\"56.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"352.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">0,30 A</text></svg></span><p>Hur stor är lampans resistans? (Svara i Ω.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen över lampan är batteriets 9,0 V, eftersom grenen sitter direkt över batteriet. Ohms lag ger</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{U}{I}=\\frac{9{,}0}{0{,}30}=30\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\) Ω.</p></div>",
+  "familj": "Strömfördelning i parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Spänningen över grenen är batterispänningen. Använd R = U/I.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 30,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "Ω"
+},
+{
+  "id": "8.627",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "E",
+  "typ": "likadana lampor delar strömmen",
+  "poang": "(1/0/0)",
+  "t": "<p>Tre likadana lampor är parallellkopplade. Amperemetern i huvudledningen visar 1,5 A.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"450\" height=\"250\" viewBox=\"0 0 450 250\" role=\"img\" aria-label=\"Tre likadana lampor parallellkopplade. Amperemetern i huvudledningen visar 1,5 A.\"><title>Tre likadana lampor parallellkopplade. Amperemetern i huvudledningen visar 1,5 A.</title><rect x=\"1\" y=\"1\" width=\"448\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polyline points=\"60,122.0 60,50 400,50\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"60,138.0 60,210 400,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"220,50 220,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"310,50 310,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"400,50 400,210\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"220\" cy=\"50\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"220\" cy=\"210\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"310\" cy=\"50\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"310\" cy=\"210\" r=\"4\" fill=\"#2B2527\"/><rect x=\"40\" y=\"121.0\" width=\"40\" height=\"18\" fill=\"#fff\"/><line x1=\"42\" y1=\"123.0\" x2=\"78\" y2=\"123.0\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"51\" y1=\"137.0\" x2=\"69\" y2=\"137.0\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"84.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">+</text><circle cx=\"220\" cy=\"130\" r=\"15\" fill=\"#fef9c3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"209.4\" y1=\"119.4\" x2=\"230.6\" y2=\"140.6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"209.4\" y1=\"140.6\" x2=\"230.6\" y2=\"119.4\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"310\" cy=\"130\" r=\"15\" fill=\"#fef9c3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"299.4\" y1=\"119.4\" x2=\"320.6\" y2=\"140.6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"299.4\" y1=\"140.6\" x2=\"320.6\" y2=\"119.4\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"400\" cy=\"130\" r=\"15\" fill=\"#fef9c3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"389.4\" y1=\"119.4\" x2=\"410.6\" y2=\"140.6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"389.4\" y1=\"140.6\" x2=\"410.6\" y2=\"119.4\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><circle cx=\"140\" cy=\"50\" r=\"15\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2.4\"/><text x=\"140.0\" y=\"56.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><text x=\"140.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">1,5 A</text><text x=\"232.0\" y=\"180.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">?</text><text x=\"322.0\" y=\"180.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">?</text><text x=\"412.0\" y=\"180.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">?</text></svg></span><p>Hur stor ström går genom varje lampa? (Svara i A.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lamporna är likadana och har samma spänning, så strömmen delas lika mellan de tre grenarna:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{1{,}5}{3}=0{,}50\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}50\\) A.</p></div>",
+  "familj": "Strömfördelning i parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Likadana grenar får lika stor ström.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.5,
+  "tolerans": 0.005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "A"
 }
 ];

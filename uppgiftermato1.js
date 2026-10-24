@@ -110437,6 +110437,293 @@ window.BANKMATO1 = [
         "ratt": false
       }
     ]
-  }
+  },
+  {
+  "id": "1.933",
+  "kap": 1,
+  "omr": "rationella_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Lösa rationella ekvationer",
+  "niva": "E",
+  "poang": "1/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Figuren visar \\(y=6/x\\) och \\(y=2\\). Läs av lösningen till ekvationen \\(6/x=2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Kurvan y=6/x och den horisontella linjen y=2 skär varandra vid x=3.\"><title>Kurvan y=6/x och den horisontella linjen y=2 skär varandra vid x=3.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M126.66666666666666 50V250\" stroke=\"#d6e1ea\"/><text x=\"126.66666666666666\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M188.33333333333331 50V250\" stroke=\"#d6e1ea\"/><text x=\"188.33333333333331\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M373.3333333333333 50V250\" stroke=\"#d6e1ea\"/><text x=\"373.3333333333333\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"111.250,50.000 112.792,56.452 114.333,62.500 115.875,68.182 117.417,73.529 118.958,78.571 120.500,83.333 122.042,87.838 123.583,92.105 125.125,96.154 126.667,100.000 128.208,103.659 129.750,107.143 131.292,110.465 132.833,113.636 134.375,116.667 135.917,119.565 137.458,122.340 139.000,125.000 140.542,127.551 142.083,130.000 143.625,132.353 145.167,134.615 146.708,136.792 148.250,138.889 149.792,140.909 151.333,142.857 152.875,144.737 154.417,146.552 155.958,148.305 157.500,150.000 159.042,151.639 160.583,153.226 162.125,154.762 163.667,156.250 165.208,157.692 166.750,159.091 168.292,160.448 169.833,161.765 171.375,163.043 172.917,164.286 174.458,165.493 176.000,166.667 177.542,167.808 179.083,168.919 180.625,170.000 182.167,171.053 183.708,172.078 185.250,173.077 186.792,174.051 188.333,175.000 189.875,175.926 191.417,176.829 192.958,177.711 194.500,178.571 196.042,179.412 197.583,180.233 199.125,181.034 200.667,181.818 202.208,182.584 203.750,183.333 205.292,184.066 206.833,184.783 208.375,185.484 209.917,186.170 211.458,186.842 213.000,187.500 214.542,188.144 216.083,188.776 217.625,189.394 219.167,190.000 220.708,190.594 222.250,191.176 223.792,191.748 225.333,192.308 226.875,192.857 228.417,193.396 229.958,193.925 231.500,194.444 233.042,194.954 234.583,195.455 236.125,195.946 237.667,196.429 239.208,196.903 240.750,197.368 242.292,197.826 243.833,198.276 245.375,198.718 246.917,199.153 248.458,199.580 250.000,200.000 251.542,200.413 253.083,200.820 254.625,201.220 256.167,201.613 257.708,202.000 259.250,202.381 260.792,202.756 262.333,203.125 263.875,203.488 265.417,203.846 266.958,204.198 268.500,204.545 270.042,204.887 271.583,205.224 273.125,205.556 274.667,205.882 276.208,206.204 277.750,206.522 279.292,206.835 280.833,207.143 282.375,207.447 283.917,207.746 285.458,208.042 287.000,208.333 288.542,208.621 290.083,208.904 291.625,209.184 293.167,209.459 294.708,209.732 296.250,210.000 297.792,210.265 299.333,210.526 300.875,210.784 302.417,211.039 303.958,211.290 305.500,211.538 307.042,211.783 308.583,212.025 310.125,212.264 311.667,212.500 313.208,212.733 314.750,212.963 316.292,213.190 317.833,213.415 319.375,213.636 320.917,213.855 322.458,214.072 324.000,214.286 325.542,214.497 327.083,214.706 328.625,214.912 330.167,215.116 331.708,215.318 333.250,215.517 334.792,215.714 336.333,215.909 337.875,216.102 339.417,216.292 340.958,216.480 342.500,216.667 344.042,216.851 345.583,217.033 347.125,217.213 348.667,217.391 350.208,217.568 351.750,217.742 353.292,217.914 354.833,218.085 356.375,218.254 357.917,218.421 359.458,218.586 361.000,218.750 362.542,218.912 364.083,219.072 365.625,219.231 367.167,219.388 368.708,219.543 370.250,219.697 371.792,219.849 373.333,220.000 374.875,220.149 376.417,220.297 377.958,220.443 379.500,220.588 381.042,220.732 382.583,220.874 384.125,221.014 385.667,221.154 387.208,221.292 388.750,221.429 390.292,221.564 391.833,221.698 393.375,221.831 394.917,221.963 396.458,222.093 398.000,222.222 399.542,222.350 401.083,222.477 402.625,222.603 404.167,222.727 405.708,222.851 407.250,222.973 408.792,223.094 410.333,223.214 411.875,223.333 413.417,223.451 414.958,223.568 416.500,223.684 418.042,223.799 419.583,223.913 421.125,224.026 422.667,224.138 424.208,224.249 425.750,224.359 427.292,224.468 428.833,224.576 430.375,224.684 431.917,224.790 433.458,224.895 435.000,225.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"65.000,200.000 435.000,200.000\" fill=\"none\" stroke=\"#b25c17\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><text x=\"350\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y = 2</text><text x=\"180\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y = 6/x</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ekvationen är uppfylld där kurvan och linjen har samma höjd. De skär varandra vid x = 3. Kontroll: 6/3 = 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=3\\).</strong></p></div>",
+  "ledtrad": "<p>Läs av skärningspunktens x-koordinat.</p>",
+  "rättSvar": 3,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+  {
+  "id": "1.934",
+  "kap": 1,
+  "omr": "rationella_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Rationella uttryck i problemlösning",
+  "niva": "E",
+  "poang": "1/0/0",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Några vänner delar lika på en kostnad. Tabellen visar hela kostnaden och vad varje person betalar. Hur många personer delar på kostnaden?</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Kostnad</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Belopp</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">Totalt</td><td style=\"padding:8px;border:1px solid #8796a5\">360 kr</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">Per person</td><td style=\"padding:8px;border:1px solid #8796a5\">60 kr</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om antalet personer är x blir kostnaden per person 360/x kr.</p><div class=\"facit-matte\">\\[\\frac{360}{x}=60\\]</div><div class=\"facit-matte\">\\[x=\\frac{360}{60}=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 6 personer.</strong></p></div>",
+  "ledtrad": "<p>Hur många delar på 60 kr ryms i hela kostnaden?</p>",
+  "rättSvar": 6,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+  {
+  "id": "1.935",
+  "kap": 1,
+  "omr": "rationella_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Lösa rationella ekvationer",
+  "niva": "E",
+  "poang": "1/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Vilket alternativ beskriver lösningarna till ekvationen?</p><div class=\"facit-matte\">\\[\\frac5{x-2}=\\frac5{x+1}\\]</div><p>(Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nämnarna kräver x ≠ 2 och x ≠ −1. Multiplicera båda leden med (x−2)(x+1).</p><div class=\"facit-matte\">\\[5(x+1)=5(x-2)\\]</div><div class=\"facit-matte\">\\[5x+5=5x-10\\Rightarrow5=-10\\]</div></li><li><p>Detta är omöjligt. Ekvationen saknar lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Ingen lösning.</strong></p></div>",
+  "ledtrad": "<p>Vad får du när båda nämnarna multipliceras bort?</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "x = −0,5",
+      "ratt": false
+    },
+    {
+      "txt": "x = 2",
+      "ratt": false
+    },
+    {
+      "txt": "Alla reella x utom −1 och 2.",
+      "ratt": false
+    },
+    {
+      "txt": "Ingen lösning.",
+      "ratt": true
+    }
+  ]
+},
+  {
+  "id": "1.936",
+  "kap": 1,
+  "omr": "rationella_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Lösa rationella ekvationer",
+  "niva": "E",
+  "poang": "1/0/0",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Ekvationen är \\(\\dfrac1x+\\dfrac13=\\dfrac12\\), där \\(x\\ne0\\). Vilken rad får man om varje term multipliceras med \\(6x\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera varje term för sig:</p><div class=\"facit-matte\">\\[6x\\cdot\\frac1x=6\\]</div><div class=\"facit-matte\">\\[6x\\cdot\\frac13=2x\\]</div><div class=\"facit-matte\">\\[6x\\cdot\\frac12=3x\\]</div></li><li><p>Den nya ekvationen är därför 6 + 2x = 3x.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(6+2x=3x\\).</strong></p></div>",
+  "ledtrad": "<p>Faktorn 6x ska multipliceras med varje term på båda sidor.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "\\(6+2=3x\\)",
+      "ratt": false
+    },
+    {
+      "txt": "\\(6+2x=3x\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(6x+2x=3\\)",
+      "ratt": false
+    },
+    {
+      "txt": "\\(6+3x=2x\\)",
+      "ratt": false
+    }
+  ]
+},
+  {
+  "id": "1.937",
+  "kap": 1,
+  "omr": "rationella_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Rationella uttryck i problemlösning",
+  "niva": "C",
+  "poang": "0/1/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En pump fyller en tom behållare på 12 timmar. Med en andra pump som arbetar samtidigt fylls samma behållare på 4 timmar. Båda pumparna har konstant flöde. Hur lång tid behöver den andra pumpen ensam? (Svara i timmar.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 240\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Två pumpar fyller samma behållare. Pump 1 behöver 12 h ensam, tillsammans behöver de 4 h.\"><title>Två pumpar fyller samma behållare. Pump 1 behöver 12 h ensam, tillsammans behöver de 4 h.</title><rect width=\"500\" height=\"240\" fill=\"white\" rx=\"10\"/><rect x=\"170\" y=\"110\" width=\"160\" height=\"100\" rx=\"6\" fill=\"#e5f1f7\" stroke=\"#24435e\" stroke-width=\"3\"/><path d=\"M80 65H205V100M420 65H295V100\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"7\"/><path d=\"M199 91L205 101L211 91M289 91L295 101L301 91\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"2\"/><text x=\"90\" y=\"32\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Pump 1</text><text x=\"410\" y=\"32\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Pump 2</text><text x=\"80\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">12 h ensam</text><text x=\"420\" y=\"95\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">? h ensam</text><text x=\"250\" y=\"155\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Samma behållare</text><text x=\"250\" y=\"188\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Båda: 4 h</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den första pumpen fyller 1/12 av behållaren per timme. Tillsammans fyller pumparna 1/4 per timme. Den andra pumpens andel per timme är därför:</p><div class=\"facit-matte\">\\[\\frac14-\\frac1{12}=\\frac16\\]</div></li><li><p>Det tar alltså 6 timmar för den andra pumpen att fylla en hel behållare.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 6 timmar.</strong></p></div>",
+  "ledtrad": "<p>Jämför hur stor del av behållaren som fylls under en timme.</p>",
+  "rättSvar": 6,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09,
+  "svarEnhet": "h"
+},
+  {
+  "id": "1.938",
+  "kap": 1,
+  "omr": "rationella_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Rationella uttryck i problemlösning",
+  "niva": "C",
+  "poang": "0/1/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En grupp ska dela lika på en busskostnad på 2 400 kr. När fyra personer till anmäler sig blir kostnaden per person 50 kr lägre. Hur många personer var anmälda från början?</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\"></th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Från början</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Efteråt</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">Antal personer</td><td style=\"padding:8px;border:1px solid #8796a5\">\\(x\\)</td><td style=\"padding:8px;border:1px solid #8796a5\">\\(x+4\\)</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">Hela busskostnaden</td><td style=\"padding:8px;border:1px solid #8796a5\">2 400 kr</td><td style=\"padding:8px;border:1px solid #8796a5\">2 400 kr</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt x vara det ursprungliga antalet personer. Skillnaden mellan kostnaderna per person är 50 kr.</p><div class=\"facit-matte\">\\[\\frac{2400}{x}-\\frac{2400}{x+4}=50\\]</div></li><li><p>Multiplicera med x(x+4) och förenkla.</p><div class=\"facit-matte\">\\[9600=50x(x+4)\\]</div><div class=\"facit-matte\">\\[x^2+4x-192=0\\]</div><div class=\"facit-matte\">\\[(x-12)(x+16)=0\\]</div></li><li><p>Antalet personer måste vara positivt, så x = 12. Kontroll: 2400/12 − 2400/16 = 200 − 150 = 50 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 12 personer.</strong></p></div>",
+  "ledtrad": "<p>Skriv kostnaden per person före och efter de fyra nya anmälningarna.</p>",
+  "rättSvar": 12,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+  {
+  "id": "1.939",
+  "kap": 1,
+  "omr": "rationella_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Rationella uttryck i problemlösning",
+  "niva": "C",
+  "poang": "0/1/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En rektangel har arean 24 cm² och omkretsen 20 cm. Ena sidan är \\(x\\) cm. Vilka två värden kan \\(x\\) ha? (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 240\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"En schematisk rektangel med sidorna x cm och 24/x cm, area 24 cm² och omkrets 20 cm.\"><title>En schematisk rektangel med sidorna x cm och 24/x cm, area 24 cm² och omkrets 20 cm.</title><rect width=\"500\" height=\"240\" fill=\"white\" rx=\"10\"/><rect x=\"145\" y=\"55\" width=\"260\" height=\"120\" fill=\"#e5f1f7\" stroke=\"#24435e\" stroke-width=\"3\"/><text x=\"275\" y=\"40\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x cm</text><text x=\"95\" y=\"120\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">24/x cm</text><text x=\"275\" y=\"112\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Area 24 cm²</text><text x=\"275\" y=\"145\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Omkrets 20 cm</text><text x=\"250\" y=\"215\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Schematisk figur</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den andra sidan är 24/x cm. Halva omkretsen är 10 cm, så sidornas summa är:</p><div class=\"facit-matte\">\\[x+\\frac{24}{x}=10\\]</div></li><li><p>Multiplicera med x och lös andragradsekvationen.</p><div class=\"facit-matte\">\\[x^2-10x+24=0\\]</div><div class=\"facit-matte\">\\[(x-4)(x-6)=0\\]</div></li><li><p>Båda lösningarna är positiva och beskriver samma rektangel: sidorna är 4 och 6 cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=4\\) cm eller \\(x=6\\) cm.</strong></p></div>",
+  "ledtrad": "<p>Använd både rektangelns area och omkrets.</p>",
+  "rättSvar": [
+    4,
+    6
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    1e-09,
+    1e-09
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x-värde",
+    "x-värde"
+  ],
+  "svarEnhet": [
+    "cm",
+    "cm"
+  ]
+},
+  {
+  "id": "1.940",
+  "kap": 1,
+  "omr": "rationella_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Lösa rationella ekvationer",
+  "niva": "C",
+  "poang": "0/1/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>För vilket värde på \\(a\\) har ekvationen fler än en lösning?</p><div class=\"facit-matte\">\\[\\frac{x^2-a}{x-2}=x+2\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Värdet x = 2 är inte tillåtet. För övriga x kan båda leden multipliceras med x − 2.</p><div class=\"facit-matte\">\\[x^2-a=(x+2)(x-2)\\]</div><div class=\"facit-matte\">\\[x^2-a=x^2-4\\]</div></li><li><p>Efter att x² tagits bort från båda leden återstår a = 4. Då gäller ekvationen för alla x utom 2. För andra a finns ingen lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(a=4\\).</strong></p></div>",
+  "ledtrad": "<p>Vilka x-termer blir kvar när nämnaren multiplicerats bort?</p>",
+  "rättSvar": 4,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+}
 
 ];

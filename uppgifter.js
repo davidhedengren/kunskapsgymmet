@@ -169708,7 +169708,7 @@ window.BANK = [
     "rättSvar": 8.6,
     "tolerans": 0.005,
     "självrättning": true,
-    "ledtrad": "<p>Rita en rätvinklig triangel med kateterna 6 och 8.</p>",
+    "ledtrad": "<p>Rita en rätvinklig triangel med kateterna 5 och 7.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "miniräknare": true,
@@ -204721,5 +204721,2404 @@ window.BANK = [
   "tolerans": 0.005,
   "svarVardesiffror": 2,
   "svarEnhet": "A"
+},
+{
+  "id": "3.620",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "läsa av x-komposanten för en kraft i rutnät med skala, ur figur, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en kraft \\(F\\). En ruta motsvarar 2 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 272.00 268.00\" width=\"272\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 2 N. Kraften F går från origo till punkten (4, 3).\"><rect x=\"0\" y=\"0\" width=\"272.00\" height=\"268.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"240.00\" y1=\"214.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"240.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"240.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"240.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"240.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"240.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"240.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"240.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"188.0\" x2=\"246.0\" y2=\"188.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"254.0,188.0 244.0,192.5 244.0,183.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"214.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"254.0\" y=\"206.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"188.0\" x2=\"155.6\" y2=\"114.8\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"162.0,110.0 156.7,119.6 151.3,112.4\" fill=\"#2A5D9E\"/><rect x=\"110.1\" y=\"152.2\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"118.4\" y=\"165.2\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"248.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 2 N</text></svg></span><p>Hur stor är kraftens x-komposant \\(F_x\\)? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Pilen går 4 rutor åt höger.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=4\\cdot2=8\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 8 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Räkna rutor i x-led och multiplicera med skalan.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": 0,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.621",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "läsa av båda komposanterna för en hastighet i rutnät med skala, ur figur, sökta komposanter",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en hastighet \\(v\\). En ruta motsvarar 2 m/s.</p><span class=\"fig smal\"><svg viewBox=\"0 0 272.00 268.00\" width=\"272\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 2 m/s. Hastigheten v går från origo till punkten (−3, 5).\"><rect x=\"0\" y=\"0\" width=\"272.00\" height=\"268.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"240.00\" y1=\"214.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"240.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"240.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"240.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"240.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"240.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"240.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"240.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"188.0\" x2=\"246.0\" y2=\"188.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"254.0,188.0 244.0,192.5 244.0,183.5\" fill=\"#2B2527\"/><line x1=\"162.0\" y1=\"214.0\" x2=\"162.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"162.0,18.0 166.5,28.0 157.5,28.0\" fill=\"#2B2527\"/><text x=\"254.0\" y=\"206.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"149.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"162.0\" y1=\"188.0\" x2=\"88.1\" y2=\"64.9\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"84.0,58.0 93.0,64.3 85.3,68.9\" fill=\"#B5532A\"/><rect x=\"126.7\" y=\"107.8\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"135.0\" y=\"120.8\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">v</text><text x=\"32.0\" y=\"248.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 2 m/s</text></svg></span><p>Bestäm komposanterna \\(v_x\\) och \\(v_y\\). (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Pilen går 3 rutor åt vänster och 5 rutor uppåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_x=-3\\cdot2=-6\\ \\mathrm{m/s},\\quad v_y=5\\cdot2=10\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(v_x=-6\\) m/s och \\(v_y=10\\) m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Åt vänster ger negativ x-komposant.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -6,
+    10
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "m/s",
+    "m/s"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "v_x",
+    "v_y"
+  ]
+},
+{
+  "id": "3.622",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "läsa av komposanterna för en förflyttning som inte börjar i origo, ur figur, sökta komposanter",
+  "poang": "(1/0/0)",
+  "t": "<p>En orienterare förflyttar sig enligt pilen \\(s\\). En ruta motsvarar 10 m.</p><span class=\"fig smal\"><svg viewBox=\"0 0 272.00 268.00\" width=\"272\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 10 m. Förflyttningen s går från punkten (1, 4) till (6, 1).\"><rect x=\"0\" y=\"0\" width=\"272.00\" height=\"268.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"240.00\" y1=\"214.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"240.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"240.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"240.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"240.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"240.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"240.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"240.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"188.0\" x2=\"246.0\" y2=\"188.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"254.0,188.0 244.0,192.5 244.0,183.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"214.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"254.0\" y=\"206.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"84.0\" y1=\"84.0\" x2=\"207.1\" y2=\"157.9\" stroke=\"#2F7D4A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"214.0,162.0 203.1,160.7 207.7,153.0\" fill=\"#2F7D4A\"/><rect x=\"133.5\" y=\"127.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"141.8\" y=\"140.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2F7D4A\" text-anchor=\"middle\">s</text><text x=\"32.0\" y=\"248.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 10 m</text></svg></span><p>Bestäm förflyttningens komposanter \\(s_x\\) och \\(s_y\\). (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Från start till slut: 5 rutor åt höger och 3 rutor nedåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s_x=5\\cdot10=50\\ \\mathrm m,\\quad s_y=-3\\cdot10=-30\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(s_x=50\\) m och \\(s_y=-30\\) m.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Räkna från pilens start till dess spets, inte från origo.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    50,
+    -30
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "m",
+    "m"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "s_x",
+    "s_y"
+  ]
+},
+{
+  "id": "3.623",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "läsa av y-komposanten för en kraft riktad snett nedåt, ur figur, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en kraft \\(F\\). En ruta motsvarar 5 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 246.00 216.00\" width=\"246\" height=\"216\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 5 N. Kraften F går från origo till punkten (−4, −2).\"><rect x=\"0\" y=\"0\" width=\"246.00\" height=\"216.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"162.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"162.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"162.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"162.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"162.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"162.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"162.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"214.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"214.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"214.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"214.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"214.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"84.0\" x2=\"220.0\" y2=\"84.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"228.0,84.0 218.0,88.5 218.0,79.5\" fill=\"#2B2527\"/><line x1=\"162.0\" y1=\"162.0\" x2=\"162.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"162.0,18.0 166.5,28.0 157.5,28.0\" fill=\"#2B2527\"/><text x=\"228.0\" y=\"102.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"149.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"162.0\" y1=\"84.0\" x2=\"65.2\" y2=\"132.4\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"58.0,136.0 64.9,127.5 69.0,135.6\" fill=\"#B5532A\"/><rect x=\"95.4\" y=\"89.5\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"103.7\" y=\"102.5\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"196.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 5 N</text></svg></span><p>Hur stor är kraftens y-komposant \\(F_y\\)? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Pilen går 2 rutor nedåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=-2\\cdot5=-10\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-10\\) N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Nedåt ger negativt tecken.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": -10,
+  "tolerans": 0,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.624",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "läsa av komposanterna när de är inritade som streckade pilar, ur figur, sökta komposanter",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar kraften \\(F\\) och dess komposanter som streckade pilar. En ruta motsvarar 3 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 246.00 216.00\" width=\"246\" height=\"216\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 3 N. Kraften F går från origo till (5, 2). Streckade pilar visar komposanterna 5 rutor i x-led och 2 rutor i y-led.\"><rect x=\"0\" y=\"0\" width=\"246.00\" height=\"216.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"162.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"162.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"162.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"162.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"162.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"162.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"162.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"214.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"214.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"214.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"214.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"214.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"136.0\" x2=\"220.0\" y2=\"136.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"228.0,136.0 218.0,140.5 218.0,131.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"162.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"228.0\" y=\"154.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"136.0\" x2=\"180.0\" y2=\"136.0\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-dasharray=\"6 4\"/><polygon points=\"188.0,136.0 178.0,140.5 178.0,131.5\" fill=\"#5C575E\"/><line x1=\"188.0\" y1=\"136.0\" x2=\"188.0\" y2=\"92.0\" stroke=\"#5C575E\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-dasharray=\"6 4\"/><polygon points=\"188.0,84.0 192.5,94.0 183.5,94.0\" fill=\"#5C575E\"/><line x1=\"58.0\" y1=\"136.0\" x2=\"180.6\" y2=\"87.0\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"188.0,84.0 180.4,91.9 177.0,83.5\" fill=\"#2A5D9E\"/><rect x=\"119.9\" y=\"115.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"128.2\" y=\"128.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"196.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 3 N</text></svg></span><p>Bestäm \\(F_x\\) och \\(F_y\\). (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=5\\cdot3=15\\ \\mathrm N,\\quad F_y=2\\cdot3=6\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F_x=15\\) N och \\(F_y=6\\) N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Räkna rutorna längs de streckade pilarna.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    15,
+    6
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "N",
+    "N"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "F_x",
+    "F_y"
+  ]
+},
+{
+  "id": "3.625",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "avgöra x-komposanten för en lodrät kraft, ur figur, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en kraft \\(F\\) som pekar rakt uppåt. En ruta motsvarar 25 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 220.00 242.00\" width=\"220\" height=\"242\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 25 N. Kraften F pekar rakt uppåt från (2, 0) till (2, 4).\"><rect x=\"0\" y=\"0\" width=\"220.00\" height=\"242.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"188.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"188.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"188.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"188.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"188.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"188.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"188.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"188.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"188.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"188.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"188.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"188.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"162.0\" x2=\"194.0\" y2=\"162.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"202.0,162.0 192.0,166.5 192.0,157.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"188.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"202.0\" y=\"180.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"110.0\" y1=\"162.0\" x2=\"110.0\" y2=\"66.0\" stroke=\"#2F7D4A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"110.0,58.0 114.5,68.0 105.5,68.0\" fill=\"#2F7D4A\"/><rect x=\"115.7\" y=\"102.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"124.0\" y=\"115.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2F7D4A\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"222.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 25 N</text></svg></span><p>Hur stor är kraftens x-komposant \\(F_x\\)? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Pilen går inte alls i x-led.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=0\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Hur många rutor åt sidan går pilen?</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 0,
+  "tolerans": 0,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.626",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "läsa av komposanterna för en hastighet i rutnät med skala, ur figur, sökta komposanter",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en hockeypucks hastighet \\(v\\) sedd uppifrån. En ruta motsvarar 3 m/s.</p><span class=\"fig smal\"><svg viewBox=\"0 0 194.00 242.00\" width=\"194\" height=\"242\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 3 m/s. Hastigheten v går från origo till (2, −4).\"><rect x=\"0\" y=\"0\" width=\"194.00\" height=\"242.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"188.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"188.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"188.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"188.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"188.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"162.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"162.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"162.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"162.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"162.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"162.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"58.0\" x2=\"168.0\" y2=\"58.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"176.0,58.0 166.0,62.5 166.0,53.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"188.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"176.0\" y=\"76.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"58.0\" x2=\"106.4\" y2=\"154.8\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"110.0,162.0 101.5,155.1 109.6,151.0\" fill=\"#2A5D9E\"/><rect x=\"63.1\" y=\"108.3\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"71.5\" y=\"121.3\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">v</text><text x=\"32.0\" y=\"222.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 3 m/s</text></svg></span><p>Bestäm \\(v_x\\) och \\(v_y\\). (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_x=2\\cdot3=6\\ \\mathrm{m/s},\\quad v_y=-4\\cdot3=-12\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(v_x=6\\) m/s och \\(v_y=-12\\) m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Räkna rutor och använd skalan.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    6,
+    -12
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "m/s",
+    "m/s"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "v_x",
+    "v_y"
+  ]
+},
+{
+  "id": "3.627",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "avgöra komposanternas tecken utifrån en vektors riktning, ur text, sökt teckenkombination",
+  "poang": "(1/0/0)",
+  "t": "<p>En kraft pekar snett nedåt åt vänster. x-axeln pekar åt höger och y-axeln uppåt. Vilka tecken har komposanterna?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Åt vänster ger negativ x-komposant och nedåt ger negativ y-komposant.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F_x&lt;0\\) och \\(F_y&lt;0\\).</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Tänk på vilka riktningar axlarna pekar i.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Fₓ negativ och Fᵧ negativ",
+      "ratt": true
+    },
+    {
+      "txt": "Fₓ positiv och Fᵧ negativ",
+      "ratt": false,
+      "kommentar": "Vänster är negativ x-riktning."
+    },
+    {
+      "txt": "Fₓ negativ och Fᵧ positiv",
+      "ratt": false,
+      "kommentar": "Nedåt är negativ y-riktning."
+    },
+    {
+      "txt": "Båda positiva",
+      "ratt": false,
+      "kommentar": "Båda riktningarna är negativa."
+    }
+  ]
+},
+{
+  "id": "3.628",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna kraftens storlek ur komposanter avlästa i rutnät, ur figur, sökt storlek",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en kraft \\(F\\). En ruta motsvarar 4 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 220.00 242.00\" width=\"220\" height=\"242\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 4 N. Kraften F går från origo till (3, −4).\"><rect x=\"0\" y=\"0\" width=\"220.00\" height=\"242.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"188.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"188.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"188.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"188.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"188.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"188.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"188.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"188.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"188.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"188.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"188.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"188.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"58.0\" x2=\"194.0\" y2=\"58.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"202.0,58.0 192.0,62.5 192.0,53.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"188.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"202.0\" y=\"76.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"58.0\" x2=\"131.2\" y2=\"155.6\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"136.0,162.0 126.4,156.7 133.6,151.3\" fill=\"#B5532A\"/><rect x=\"77.5\" y=\"110.4\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"85.8\" y=\"123.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"222.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 4 N</text></svg></span><p>Hur stor är kraften? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=3\\cdot4=12\\ \\mathrm N,\\quad F_y=-4\\cdot4=-16\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\sqrt{12^2+16^2}=20\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 20 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Bestäm komposanterna först och använd sedan Pythagoras sats.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 20,
+  "tolerans": 0,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.629",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna x-komposanten för en kraft med cosinus, ur text och figur, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En kraft på 50 N är riktad 30° ovanför positiva x-axeln.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 220.00\" width=\"340\" height=\"220\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kraften F = 50 N riktad 30 grader ovanför positiva x-axeln.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"220.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"150.0\" x2=\"312.0\" y2=\"150.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,150.0 310.0,154.5 310.0,145.5\" fill=\"#2B2527\"/><line x1=\"90.0\" y1=\"208.0\" x2=\"90.0\" y2=\"22.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"90.0,14.0 94.5,24.0 85.5,24.0\" fill=\"#2B2527\"/><text x=\"318.0\" y=\"168.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"77.0\" y=\"22.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"90.0\" y1=\"150.0\" x2=\"195.7\" y2=\"89.0\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"202.6,85.0 196.2,93.9 191.7,86.1\" fill=\"#2A5D9E\"/><path d=\"M134.00,150.00 A44,44 0 0 0 128.11,128.00\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"136.2\" y=\"126.9\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"151.8\" y=\"138.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">30°</text><rect x=\"206.6\" y=\"65.0\" width=\"72.5\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"210.6\" y=\"77.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"start\">F = 50 N</text></svg></span><p>Hur stor är x-komposanten \\(F_x\\)? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>x-komposanten ligger intill vinkeln.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=50\\cdot\\cos 30^\\circ\\approx43,3\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 43,3 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Komposanten intill vinkeln får man med cosinus.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 43.3,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.630",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna y-komposanten för en hastighet med sinus, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En boll har hastigheten 12 m/s riktad 35° ovanför marken. x-axeln är vågrät och y-axeln lodrät.</p><p>Hur stor är den lodräta komposanten \\(v_y\\)? (Svara i m/s med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den lodräta komposanten ligger mitt emot vinkeln.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_y=12\\cdot\\sin 35^\\circ\\approx6,9\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6,9 m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Komposanten mitt emot vinkeln får man med sinus.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 6.9,
+  "tolerans": 0.05,
+  "svarEnhet": "m/s",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.631",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna den horisontella komposanten av en dragkraft i ett rep, ur text och figur, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>Ali drar en pulka med kraften 80 N i ett rep som lutar 25° mot marken.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 220.00\" width=\"340\" height=\"220\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Dragkraften F = 80 N i ett rep som lutar 25 grader mot den vågräta marken.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"220.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"150.0\" x2=\"312.0\" y2=\"150.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,150.0 310.0,154.5 310.0,145.5\" fill=\"#2B2527\"/><line x1=\"90.0\" y1=\"208.0\" x2=\"90.0\" y2=\"22.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"90.0,14.0 94.5,24.0 85.5,24.0\" fill=\"#2B2527\"/><text x=\"318.0\" y=\"168.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"77.0\" y=\"22.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"90.0\" y1=\"150.0\" x2=\"200.6\" y2=\"98.4\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"207.8,95.1 200.7,103.4 196.9,95.2\" fill=\"#2A5D9E\"/><path d=\"M134.00,150.00 A44,44 0 0 0 129.88,131.40\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"136.9\" y=\"129.6\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"152.5\" y=\"141.1\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">25°</text><rect x=\"211.8\" y=\"75.1\" width=\"72.5\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"215.8\" y=\"87.1\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"start\">F = 80 N</text></svg></span><p>Hur stor är dragkraftens vågräta komposant? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den vågräta komposanten är den som drar pulkan framåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=80\\cdot\\cos 25^\\circ\\approx72,5\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 72,5 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Vilken komposant ligger intill vinkeln?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 72.5,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.632",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna den vågräta komposanten när vinkeln anges mot lodlinjen, ur text och figur, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En lampa hänger i en lina. Vinden gör att linan bildar vinkeln 20° med lodlinjen. Kraften i linan är 60 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 220.00\" width=\"340\" height=\"220\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kraften i linan, 60 N, bildar vinkeln 20 grader med den lodräta y-axeln.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"220.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"150.0\" x2=\"312.0\" y2=\"150.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,150.0 310.0,154.5 310.0,145.5\" fill=\"#2B2527\"/><line x1=\"90.0\" y1=\"208.0\" x2=\"90.0\" y2=\"22.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"90.0,14.0 94.5,24.0 85.5,24.0\" fill=\"#2B2527\"/><text x=\"318.0\" y=\"168.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"77.0\" y=\"22.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"90.0\" y1=\"150.0\" x2=\"131.7\" y2=\"35.4\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"134.5,27.8 135.3,38.8 126.8,35.7\" fill=\"#2A5D9E\"/><path d=\"M105.05,108.65 A44,44 0 0 0 90.00,106.00\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"85.5\" y=\"80.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"101.1\" y=\"92.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">20°</text><rect x=\"138.5\" y=\"7.8\" width=\"72.5\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"142.5\" y=\"19.8\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"start\">F = 60 N</text></svg></span><p>Hur stor är kraftens vågräta komposant? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vinkeln är mätt från lodlinjen. Då ligger den vågräta komposanten mitt emot vinkeln.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=60\\cdot\\sin 20^\\circ\\approx20,5\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 20,5 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Var noga med vilken axel vinkeln mäts från.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 20.5,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.633",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "dela upp en hastighet given som kurs från norr i öster- och nordkomposant, ur text och figur, sökta komposanter",
+  "poang": "(1/0/0)",
+  "t": "<p>En segelbåt har farten 8,0 m/s i riktningen 35° öster om norr. x-axeln pekar österut och y-axeln norrut.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 220.00\" width=\"340\" height=\"220\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Båtens hastighet 8,0 m/s bildar vinkeln 35 grader med y-axeln som pekar norrut.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"220.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"150.0\" x2=\"312.0\" y2=\"150.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,150.0 310.0,154.5 310.0,145.5\" fill=\"#2B2527\"/><line x1=\"90.0\" y1=\"208.0\" x2=\"90.0\" y2=\"22.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"90.0,14.0 94.5,24.0 85.5,24.0\" fill=\"#2B2527\"/><text x=\"318.0\" y=\"168.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"77.0\" y=\"22.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"90.0\" y1=\"150.0\" x2=\"160.0\" y2=\"50.1\" stroke=\"#2F7D4A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"164.6,43.5 162.5,54.3 155.1,49.1\" fill=\"#2F7D4A\"/><path d=\"M115.24,113.96 A44,44 0 0 0 90.00,106.00\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"93.6\" y=\"82.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"109.2\" y=\"94.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">35°</text><rect x=\"168.6\" y=\"23.5\" width=\"96.7\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"172.6\" y=\"35.5\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2F7D4A\" text-anchor=\"start\">v = 8,0 m/s</text></svg></span><p>Bestäm \\(v_x\\) och \\(v_y\\). (Svara i m/s med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Vinkeln mäts från norr, alltså från y-axeln.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_x=8{,}0\\cdot\\sin 35^\\circ\\approx4,6\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_y=8{,}0\\cdot\\cos 35^\\circ\\approx6,6\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(v_x\\approx4,6\\) m/s och \\(v_y\\approx6,6\\) m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Komposanten längs norr ligger intill vinkeln.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    4.6,
+    6.6
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarEnhet": [
+    "m/s",
+    "m/s"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "v_x",
+    "v_y"
+  ]
+},
+{
+  "id": "3.634",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna tyngdkraftens komposant längs ett lutande plan, ur text och figur, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda med massan 20 kg står på ett plan som lutar 30°.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360.00 200.00\" width=\"360\" height=\"200\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Låda på ett plan som lutar 30 grader. Tyngdkraften mg pekar rakt nedåt.\"><rect x=\"0\" y=\"0\" width=\"360.00\" height=\"200.00\" fill=\"#FFFFFF\"/><polygon points=\"40,170 320,170 320.0,8.3\" fill=\"#F3EFEA\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><g transform=\"rotate(-30.00 194.0 81.1)\"><rect x=\"172.0\" y=\"47.1\" width=\"44\" height=\"34\" fill=\"#DDE8F4\" stroke=\"#2B2527\" stroke-width=\"1.6\"/></g><line x1=\"202.5\" y1=\"66.4\" x2=\"202.5\" y2=\"128.4\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"202.5,136.4 198.0,126.4 207.0,126.4\" fill=\"#B5532A\"/><rect x=\"208.5\" y=\"96.4\" width=\"24.1\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"212.5\" y=\"108.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"start\">mg</text><path d=\"M80,170 A40,40 0 0 0 74.64,150.00\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"94.0\" y=\"152.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"98.0\" y=\"164.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">30°</text><rect x=\"159.8\" y=\"23.1\" width=\"48.3\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"184.0\" y=\"35.1\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">20 kg</text></svg></span><p>Hur stor är tyngdkraftens komposant längs planet? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=mg=20\\cdot9{,}82=196{,}4\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Komposanten längs planet ligger mitt emot planets lutningsvinkel i kraft-triangeln.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\parallel}=196{,}4\\cdot\\sin 30^\\circ\\approx98,2\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 98,2 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Längs planet används sinus för lutningsvinkeln.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 98.2,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.635",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna tyngdkraftens komposant vinkelrätt mot ett lutande plan, ur text och figur, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda med massan 15 kg står på en ramp som lutar 25°.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360.00 200.00\" width=\"360\" height=\"200\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Låda på en ramp som lutar 25 grader. Tyngdkraften mg pekar rakt nedåt.\"><rect x=\"0\" y=\"0\" width=\"360.00\" height=\"200.00\" fill=\"#FFFFFF\"/><polygon points=\"40,170 320,170 320.0,39.4\" fill=\"#F3EFEA\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><g transform=\"rotate(-25.00 194.0 98.2)\"><rect x=\"172.0\" y=\"64.2\" width=\"44\" height=\"34\" fill=\"#DDE8F4\" stroke=\"#2B2527\" stroke-width=\"1.6\"/></g><line x1=\"201.2\" y1=\"82.8\" x2=\"201.2\" y2=\"144.8\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"201.2,152.8 196.7,142.8 205.7,142.8\" fill=\"#B5532A\"/><rect x=\"207.2\" y=\"112.8\" width=\"24.1\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"211.2\" y=\"124.8\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"start\">mg</text><path d=\"M80,170 A40,40 0 0 0 76.25,153.10\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"94.0\" y=\"152.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"98.0\" y=\"164.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">25°</text><rect x=\"159.8\" y=\"40.2\" width=\"48.3\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"184.0\" y=\"52.2\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">15 kg</text></svg></span><p>Hur stor är tyngdkraftens komposant vinkelrätt mot rampen? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=15\\cdot9{,}82=147{,}3\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\perp}=147{,}3\\cdot\\cos 25^\\circ\\approx133,5\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 133,5 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Vinkelrätt mot planet används cosinus för lutningsvinkeln.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 133.5,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.636",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "dela upp en utgångshastighet i vågrät och lodrät komposant, ur text, sökta komposanter",
+  "poang": "(1/0/0)",
+  "t": "<p>En kula stöts iväg med farten 25 m/s i vinkeln 50° över marken.</p><p>Bestäm den vågräta komposanten \\(v_x\\) och den lodräta komposanten \\(v_y\\). (Svara i m/s med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_x=25\\cdot\\cos 50^\\circ\\approx16,1\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_y=25\\cdot\\sin 50^\\circ\\approx19,2\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(v_x\\approx16,1\\) m/s och \\(v_y\\approx19,2\\) m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Farten är hypotenusan.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    16.1,
+    19.2
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarEnhet": [
+    "m/s",
+    "m/s"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "v_x",
+    "v_y"
+  ]
+},
+{
+  "id": "3.637",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "dela upp en kraft i andra kvadranten i komposanter med tecken, ur text och figur, sökta komposanter",
+  "poang": "(0/1/0)",
+  "t": "<p>En kraft på 40 N är riktad 120° moturs från positiva x-axeln.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 220.00\" width=\"340\" height=\"220\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kraften 40 N pekar snett uppåt åt vänster och bildar vinkeln 60 grader med negativa x-axeln.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"220.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"150.0\" x2=\"312.0\" y2=\"150.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,150.0 310.0,154.5 310.0,145.5\" fill=\"#2B2527\"/><line x1=\"170.0\" y1=\"208.0\" x2=\"170.0\" y2=\"22.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"170.0,14.0 174.5,24.0 165.5,24.0\" fill=\"#2B2527\"/><text x=\"318.0\" y=\"168.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"157.0\" y=\"22.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"170.0\" y1=\"150.0\" x2=\"109.0\" y2=\"44.3\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"105.0,37.4 113.9,43.8 106.1,48.3\" fill=\"#2A5D9E\"/><path d=\"M148.00,111.89 A44,44 0 0 0 126.00,150.00\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"98.9\" y=\"111.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"114.6\" y=\"123.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">60°</text><rect x=\"28.5\" y=\"17.4\" width=\"72.5\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"97.0\" y=\"29.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"end\">F = 40 N</text></svg></span><p>Bestäm \\(F_x\\) och \\(F_y\\). (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraften bildar 60° med negativa x-axeln. Den pekar åt vänster och uppåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=-40\\cdot\\cos 60^\\circ=−20\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=40\\cdot\\sin 60^\\circ\\approx34,6\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F_x=−20\\) N och \\(F_y\\approx34,6\\) N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Räkna med vinkeln mot närmaste x-axel och sätt tecknen efter riktningen.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -20.0,
+    34.6
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarEnhet": [
+    "N",
+    "N"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "F_x",
+    "F_y"
+  ]
+},
+{
+  "id": "3.638",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "dela upp en hastighet riktad söder om väster i komposanter med tecken, ur text, sökta komposanter",
+  "poang": "(0/1/0)",
+  "t": "<p>En båt kör med farten 15 m/s i riktningen 30° söder om väster. x-axeln pekar österut och y-axeln norrut.</p><p>Bestäm \\(v_x\\) och \\(v_y\\). (Svara i m/s med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Båten kör mest västerut och lite söderut, så båda komposanterna är negativa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_x=-15\\cdot\\cos 30^\\circ\\approx−13,0\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_y=-15\\cdot\\sin 30^\\circ=−7,5\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(v_x\\approx−13,0\\) m/s och \\(v_y=−7,5\\) m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Rita en skiss. Vinkeln mäts från väster.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -13.0,
+    -7.5
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarEnhet": [
+    "m/s",
+    "m/s"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "v_x",
+    "v_y"
+  ]
+},
+{
+  "id": "3.639",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna den lodräta komposanten av kraften i ett draksnöre, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>Snöret till en drake drar i handen med kraften 30 N. Snöret bildar vinkeln 55° med marken.</p><p>Hur stor är kraftens lodräta komposant? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=30\\cdot\\sin 55^\\circ\\approx24,6\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 24,6 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Den lodräta komposanten ligger mitt emot vinkeln mot marken.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 24.6,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.640",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna x-komposanten med cosinus för vinkeln 60 grader, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En cyklist har farten 24 km/h i riktningen 60° från x-axeln.</p><p>Hur stor är x-komposanten \\(v_x\\)? (Svara i km/h.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_x=24\\cdot\\cos 60^\\circ=24\\cdot0{,}5=12\\ \\mathrm{km/h}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 12 km/h.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>\\(\\cos 60^\\circ=0{,}5\\).</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0.05,
+  "svarEnhet": "km/h",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.641",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna kraftkomposanten längs en kanal när en båt dras från kanten, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En båt dras längs en kanal med ett rep från kanalkanten. Kraften i repet är 150 N, och repet bildar vinkeln 15° med kanalens riktning.</p><p>Hur stor är kraftens komposant längs kanalen? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\parallel}=150\\cdot\\cos 15^\\circ\\approx144,9\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 144,9 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Komposanten längs kanalen ligger intill vinkeln.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 144.9,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.642",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "beräkna kraftens storlek när en komposant och vinkeln är kända, ur text, sökt storlek",
+  "poang": "(0/1/0)",
+  "t": "<p>En kraft bildar vinkeln 35° med x-axeln. Dess x-komposant är 40 N.</p><p>Hur stor är kraften? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=F\\cos 35^\\circ\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\frac{40}{\\cos 35^\\circ}\\approx48,8\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 48,8 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Ställ upp \\(F_x=F\\cos v\\) och lös ut \\(F\\).</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 48.8,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.643",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "beräkna farten när den lodräta komposanten och vinkeln är kända, ur text, sökt fart",
+  "poang": "(0/1/0)",
+  "t": "<p>En boll har den lodräta hastighetskomposanten 9,0 m/s och rör sig i vinkeln 28° över marken.</p><p>Hur stor är bollens fart? (Svara i m/s med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_y=v\\sin 28^\\circ\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{9{,}0}{\\sin 28^\\circ}\\approx19,2\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 19,2 m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Den lodräta komposanten ligger mitt emot vinkeln.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 19.2,
+  "tolerans": 0.05,
+  "svarEnhet": "m/s",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.644",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "välja uttryck för komposanten när vinkeln mäts från lodlinjen, ur text, sökt uttryck",
+  "poang": "(1/0/0)",
+  "t": "<p>En kraft \\(F\\) bildar vinkeln \\(v\\) med lodlinjen. Vilket uttryck ger kraftens lodräta komposant?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Den lodräta komposanten ligger intill vinkeln \\(v\\), eftersom vinkeln mäts från lodlinjen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F\\cos v\\)</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Rita en skiss och avgör vilken komposant som ligger intill vinkeln.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "F · cos v",
+      "ratt": true
+    },
+    {
+      "txt": "F · sin v",
+      "ratt": false,
+      "kommentar": "Det gäller när vinkeln mäts från det vågräta."
+    },
+    {
+      "txt": "F · tan v",
+      "ratt": false,
+      "kommentar": "tan ger inte en komposant av F."
+    },
+    {
+      "txt": "F / cos v",
+      "ratt": false,
+      "kommentar": "Komposanten är mindre än F."
+    }
+  ]
+},
+{
+  "id": "3.645",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna x-komposanten för en kraft riktad 45 grader, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En kraft på 36 N är riktad 45° ovanför x-axeln.</p><p>Hur stor är x-komposanten? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=36\\cdot\\cos 45^\\circ\\approx25,5\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 25,5 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Vid 45° är komposanterna lika stora.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 25.5,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.646",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "bestämma ett plans lutning ur andelen av tyngdkraften längs planet, ur text, sökt vinkel",
+  "poang": "(0/1/0)",
+  "t": "<p>På ett lutande plan är tyngdkraftens komposant längs planet 40 % av hela tyngdkraften.</p><p>Hur stor är planets lutningsvinkel? (Svara i grader med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\parallel}=mg\\sin v=0{,}40\\,mg\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin v=0{,}40\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v\\approx23,6^\\circ\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 23,6°.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "problemlösning"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Komposanten längs planet är \\(mg\\sin v\\).</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 23.6,
+  "tolerans": 0.05,
+  "svarEnhet": "°",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.647",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna kraftens storlek ur komposanterna med Pythagoras sats, ur text, sökt storlek",
+  "poang": "(1/0/0)",
+  "t": "<p>En kraft har komposanterna \\(F_x=9\\) N och \\(F_y=12\\) N. Hur stor är kraften? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\sqrt{9^2+12^2}=\\sqrt{225}=15\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 15 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Komposanterna är kateter i en rätvinklig triangel.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 15,
+  "tolerans": 0,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.648",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna farten ur hastighetskomposanter med negativt tecken, ur text, sökt fart",
+  "poang": "(1/0/0)",
+  "t": "<p>En simmare har hastigheten \\(v=(-7,\\ 24)\\) dm/s. Hur stor är farten? (Svara i dm/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{(-7)^2+24^2}=\\sqrt{625}=25\\ \\mathrm{dm/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 25 dm/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Minustecknet försvinner när komposanten kvadreras.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 25,
+  "tolerans": 0,
+  "svarEnhet": "dm/s",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.649",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna riktningsvinkeln ur komposanterna med arctan, ur text och figur, sökt vinkel",
+  "poang": "(1/0/0)",
+  "t": "<p>En drönare har hastigheten \\(v=(5,\\ 3)\\) m/s.</p><span class=\"fig smal\"><svg viewBox=\"0 0 246.00 216.00\" width=\"246\" height=\"216\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 1 m/s. Hastigheten v går från origo till (5, 3).\"><rect x=\"0\" y=\"0\" width=\"246.00\" height=\"216.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"162.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"162.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"162.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"162.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"162.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"162.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"162.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"214.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"214.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"214.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"214.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"214.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"136.0\" x2=\"220.0\" y2=\"136.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"228.0,136.0 218.0,140.5 218.0,131.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"162.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"228.0\" y=\"154.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"136.0\" x2=\"181.1\" y2=\"62.1\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"188.0,58.0 181.7,67.0 177.1,59.3\" fill=\"#2A5D9E\"/><rect x=\"121.9\" y=\"101.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"130.2\" y=\"114.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">v</text><text x=\"32.0\" y=\"196.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 1 m/s</text></svg></span><p>Hur stor vinkel bildar hastigheten med positiva x-axeln? (Svara i grader med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan v=\\frac35\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v\\approx31,0^\\circ\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 31,0°.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Använd \\(\\tan v=\\frac{v_y}{v_x}\\).</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 31.0,
+  "tolerans": 0.05,
+  "svarEnhet": "°",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.650",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "beräkna riktningen för en kraft i andra kvadranten, ur text, sökt vinkel",
+  "poang": "(0/1/0)",
+  "t": "<p>En kraft har komposanterna \\(F_x=-6\\) N och \\(F_y=8\\) N. Hur stor vinkel bildar kraften med positiva x-axeln, räknat moturs? (Svara i grader med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraften pekar åt vänster och uppåt. Vinkeln mot negativa x-axeln är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan u=\\frac86\\Rightarrow u\\approx53{,}1^\\circ\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=180^\\circ-53{,}1^\\circ\\approx126,9^\\circ\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 126,9°.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Räkna vinkeln mot närmaste x-axel först och rita en skiss.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 126.9,
+  "tolerans": 0.05,
+  "svarEnhet": "°",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.651",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna storlek och riktning ur komposanterna, ur text, sökta storlek och vinkel",
+  "poang": "(1/0/0)",
+  "t": "<p>En kraft har komposanterna \\(F_x=12\\) N och \\(F_y=-5\\) N.</p><p>Bestäm kraftens storlek och hur många grader den pekar under x-axeln. (Svara i N och i grader med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\sqrt{12^2+5^2}=13\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan v=\\frac5{12}\\Rightarrow v\\approx22,6^\\circ\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 13 N, 22,6° under x-axeln.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Pythagoras ger storleken och \\(\\tan^{-1}\\) ger vinkeln.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    13,
+    22.6
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarEnhet": [
+    "N",
+    "°"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "storlek",
+    "vinkel"
+  ]
+},
+{
+  "id": "3.652",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "addera två krafter grafiskt i rutnät, ur figur, sökta komposanter för resultanten",
+  "poang": "(1/0/0)",
+  "t": "<p>Två krafter \\(F_1\\) och \\(F_2\\) verkar på samma föremål. En ruta motsvarar 1 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 220.00 242.00\" width=\"220\" height=\"242\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 1 N. F1 går från origo till (3, 1) och F2 från origo till (1, 3).\"><rect x=\"0\" y=\"0\" width=\"220.00\" height=\"242.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"188.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"188.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"188.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"188.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"188.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"188.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"188.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"188.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"188.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"188.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"188.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"188.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"162.0\" x2=\"194.0\" y2=\"162.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"202.0,162.0 192.0,166.5 192.0,157.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"188.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"202.0\" y=\"180.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"162.0\" x2=\"128.4\" y2=\"138.5\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"136.0,136.0 127.9,143.4 125.1,134.9\" fill=\"#2A5D9E\"/><rect x=\"88.7\" y=\"154.3\" width=\"25.4\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"101.4\" y=\"167.3\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">F₁</text><line x1=\"58.0\" y1=\"162.0\" x2=\"81.5\" y2=\"91.6\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"84.0,84.0 85.1,94.9 76.6,92.1\" fill=\"#B5532A\"/><rect x=\"71.6\" y=\"119.4\" width=\"25.4\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"84.3\" y=\"132.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">F₂</text><text x=\"32.0\" y=\"222.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 1 N</text></svg></span><p>Bestäm resultantens komposanter \\(R_x\\) och \\(R_y\\). (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_x=3+1=4\\ \\mathrm N,\\quad R_y=1+3=4\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(R_x=4\\) N och \\(R_y=4\\) N.</p></div>",
+  "familj": "Addera vektorer",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__addera",
+  "självrättning": true,
+  "ledtrad": "<p>Addera x-komposanterna för sig och y-komposanterna för sig.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    4,
+    4
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "N",
+    "N"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "R_x",
+    "R_y"
+  ]
+},
+{
+  "id": "3.653",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna resultanten till två vinkelräta krafter, ur figur, sökt storlek",
+  "poang": "(1/0/0)",
+  "t": "<p>Två krafter drar i en låda. En ruta motsvarar 10 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 246.00 216.00\" width=\"246\" height=\"216\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 10 N. F1 pekar 4 rutor åt höger och F2 pekar 3 rutor uppåt, båda från origo.\"><rect x=\"0\" y=\"0\" width=\"246.00\" height=\"216.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"162.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"162.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"162.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"162.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"162.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"162.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"162.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"214.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"214.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"214.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"214.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"214.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"136.0\" x2=\"220.0\" y2=\"136.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"228.0,136.0 218.0,140.5 218.0,131.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"162.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"228.0\" y=\"154.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"136.0\" x2=\"154.0\" y2=\"136.0\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"162.0,136.0 152.0,140.5 152.0,131.5\" fill=\"#2A5D9E\"/><rect x=\"97.3\" y=\"142.0\" width=\"25.4\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"110.0\" y=\"155.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">F₁</text><line x1=\"58.0\" y1=\"136.0\" x2=\"58.0\" y2=\"66.0\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"58.0,58.0 62.5,68.0 53.5,68.0\" fill=\"#B5532A\"/><rect x=\"59.3\" y=\"89.0\" width=\"25.4\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"72.0\" y=\"102.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">F₂</text><text x=\"32.0\" y=\"196.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 10 N</text></svg></span><p>Hur stor är den resulterande kraften? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\sqrt{40^2+30^2}=50\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 50 N.</p></div>",
+  "familj": "Addera vektorer",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__addera",
+  "självrättning": true,
+  "ledtrad": "<p>Krafterna är vinkelräta, så Pythagoras sats gäller.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 50,
+  "tolerans": 0,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.654",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "addera två krafter på komposantform och beräkna resultantens storlek, ur text, sökta komposanter och storlek",
+  "poang": "(1/0/0)",
+  "t": "<p>Två krafter verkar på samma föremål: \\(F_1=(12,\\ 5)\\) N och \\(F_2=(-4,\\ 10)\\) N.</p><p>Bestäm resultantens komposanter och storlek. (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=(12-4,\\ 5+10)=(8,\\ 15)\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[|R|=\\sqrt{8^2+15^2}=17\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(R=(8,\\ 15)\\) N och \\(|R|=17\\) N.</p></div>",
+  "familj": "Addera vektorer",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__addera",
+  "självrättning": true,
+  "ledtrad": "<p>Addera komposant för komposant och använd sedan Pythagoras sats.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    8,
+    15,
+    17
+  ],
+  "tolerans": [
+    0,
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "N",
+    "N",
+    "N"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "R_x",
+    "R_y",
+    "|R|"
+  ]
+},
+{
+  "id": "3.655",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "addera två lika stora snedställda krafter via komposanter, ur text och figur, sökt resultant",
+  "poang": "(0/1/0)",
+  "t": "<p>Två rep drar i en båt. Båda repen drar med 50 N, det ena 20° ovanför och det andra 20° under x-axeln.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 200.00\" width=\"340\" height=\"200\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Två krafter på 50 N från samma punkt, den ena 20 grader ovanför och den andra 20 grader under x-axeln.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"200.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"100.0\" x2=\"312.0\" y2=\"100.0\" stroke=\"#2B2527\" stroke-width=\"1.4\" stroke-linecap=\"round\"/><polygon points=\"320.0,100.0 310.0,104.5 310.0,95.5\" fill=\"#2B2527\"/><line x1=\"80.0\" y1=\"100.0\" x2=\"213.4\" y2=\"51.4\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"221.0,48.7 213.1,56.3 210.0,47.9\" fill=\"#2A5D9E\"/><line x1=\"80.0\" y1=\"100.0\" x2=\"213.4\" y2=\"148.6\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"221.0,151.3 210.0,152.1 213.1,143.7\" fill=\"#B5532A\"/><rect x=\"225.0\" y=\"30.7\" width=\"40.2\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"229.0\" y=\"42.7\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"start\">50 N</text><rect x=\"225.0\" y=\"153.3\" width=\"40.2\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"229.0\" y=\"165.3\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"start\">50 N</text><path d=\"M126,100 A46,46 0 0 0 123.23,84.27\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"134.4\" y=\"80.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"150.0\" y=\"92.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">20°</text><path d=\"M123.23,115.73 A46,46 0 0 0 126,100\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"134.4\" y=\"108.5\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"150.0\" y=\"120.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">20°</text></svg></span><p>Hur stor är den resulterande kraften på båten? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>y-komposanterna tar ut varandra. x-komposanterna adderas.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=2\\cdot50\\cdot\\cos 20^\\circ\\approx94,0\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 94,0 N.</p></div>",
+  "familj": "Addera vektorer",
+  "formaga": [
+    "problemlösning"
+  ],
+  "familjNyckel": "vektorer__addera",
+  "självrättning": true,
+  "ledtrad": "<p>Dela upp båda krafterna i komposanter. Vad händer med y-komposanterna?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 94.0,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.656",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "addera två förflyttningar via komposanter, ur text, sökt total förflyttning",
+  "poang": "(0/1/0)",
+  "t": "<p>En vandrare går först 400 m österut och sedan 300 m i riktningen 60° norr om öster.</p><p>Hur långt från startpunkten är hon, räknat fågelvägen? (Svara i m med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[x=400+300\\cos 60^\\circ=550\\ \\mathrm m\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[y=300\\sin 60^\\circ\\approx259,8\\ \\mathrm m\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\sqrt{550^2+259{,}8^2}\\approx608,3\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 608,3 m.</p></div>",
+  "familj": "Addera vektorer",
+  "formaga": [
+    "problemlösning"
+  ],
+  "familjNyckel": "vektorer__addera",
+  "självrättning": true,
+  "ledtrad": "<p>Dela upp den andra förflyttningen i komposanter och addera.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 608.3,
+  "tolerans": 0.05,
+  "svarEnhet": "m",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.657",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "addera planets hastighet och vinden via komposanter, ur text, sökta fart och vinkel",
+  "poang": "(0/1/0)",
+  "t": "<p>Ett flygplan håller 220 m/s rakt norrut i förhållande till luften. Det blåser 30 m/s rakt österut.</p><p>Bestäm planets fart i förhållande till marken och hur många grader kursen avviker från norr. (Svara med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{220^2+30^2}\\approx222,0\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan v=\\frac{30}{220}\\Rightarrow v\\approx7,8^\\circ\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 222,0 m/s, 7,8° öster om norr.</p></div>",
+  "familj": "Addera vektorer",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__addera",
+  "självrättning": true,
+  "ledtrad": "<p>Hastigheterna är vinkelräta mot varandra.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    222.0,
+    7.8
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarEnhet": [
+    "m/s",
+    "°"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "fart",
+    "vinkel"
+  ]
+},
+{
+  "id": "3.658",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "bestämma en tredje kraft som ger jämvikt, ur text, sökta komposanter",
+  "poang": "(0/1/0)",
+  "t": "<p>Tre krafter verkar på en ring som är i vila. \\(F_1=40\\) N pekar österut och \\(F_2=30\\) N pekar norrut. x-axeln pekar österut och y-axeln norrut.</p><p>Bestäm komposanterna för den tredje kraften \\(F_3\\). (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>I vila är summan av alla krafter noll.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_3=-(F_1+F_2)=(-40,\\ -30)\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F_3=(-40,\\ -30)\\) N.</p></div>",
+  "familj": "Addera vektorer",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__addera",
+  "självrättning": true,
+  "ledtrad": "<p>Summan av komposanterna i varje riktning ska bli noll.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -40,
+    -30
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "N",
+    "N"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "F₃ₓ",
+    "F₃ᵧ"
+  ]
+},
+{
+  "id": "3.659",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "addera båtens hastighet och strömmens hastighet när de är vinkelräta, ur text, sökt fart",
+  "poang": "(1/0/0)",
+  "t": "<p>En båt styrs rakt över en älv med farten 4,5 m/s i förhållande till vattnet. Vattnet strömmar med 2,0 m/s längs älven.</p><p>Hur stor är båtens fart i förhållande till stranden? (Svara i m/s med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{4{,}5^2+2{,}0^2}\\approx4,9\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4,9 m/s.</p></div>",
+  "familj": "Addera vektorer",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__addera",
+  "självrättning": true,
+  "ledtrad": "<p>Hastigheterna är vinkelräta.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 4.9,
+  "tolerans": 0.05,
+  "svarEnhet": "m/s",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.660",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "läsa av komposanterna för en vindhastighet i rutnät med skala, ur figur, sökta komposanter",
+  "poang": "(1/0/0)",
+  "t": "<p>Pilen visar vindens hastighet \\(v\\) sedd uppifrån. En ruta motsvarar 2 m/s.</p><span class=\"fig smal\"><svg viewBox=\"0 0 246.00 190.00\" width=\"246\" height=\"190\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 2 m/s. Vindens hastighet går från origo till (−5, −2).\"><rect x=\"0\" y=\"0\" width=\"246.00\" height=\"190.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"136.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"136.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"136.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"136.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"136.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"136.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"136.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"214.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"214.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"214.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"214.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"58.0\" x2=\"220.0\" y2=\"58.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"228.0,58.0 218.0,62.5 218.0,53.5\" fill=\"#2B2527\"/><line x1=\"188.0\" y1=\"136.0\" x2=\"188.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"188.0,18.0 192.5,28.0 183.5,28.0\" fill=\"#2B2527\"/><text x=\"228.0\" y=\"76.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"175.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"188.0\" y1=\"58.0\" x2=\"65.4\" y2=\"107.0\" stroke=\"#5C575E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"58.0,110.0 65.6,102.1 69.0,110.5\" fill=\"#5C575E\"/><rect x=\"109.5\" y=\"63.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"117.8\" y=\"76.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">v</text><text x=\"32.0\" y=\"170.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 2 m/s</text></svg></span><p>Bestäm \\(v_x\\) och \\(v_y\\). (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_x=-5\\cdot2=-10\\ \\mathrm{m/s},\\quad v_y=-2\\cdot2=-4\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(v_x=-10\\) m/s och \\(v_y=-4\\) m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Åt vänster och nedåt ger negativa komposanter.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -10,
+    -4
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "m/s",
+    "m/s"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "v_x",
+    "v_y"
+  ]
+},
+{
+  "id": "3.661",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "läsa av y-komposanten för en liten kraft med decimal skala, ur figur, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En magnet drar i ett gem. Figuren visar kraften \\(F\\). En ruta motsvarar 0,5 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 168.00 216.00\" width=\"168\" height=\"216\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 0,5 N. Kraften pekar rakt nedåt 3 rutor från (1, 0).\"><rect x=\"0\" y=\"0\" width=\"168.00\" height=\"216.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"162.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"162.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"162.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"162.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"136.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"136.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"136.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"136.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"136.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"58.0\" x2=\"142.0\" y2=\"58.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"150.0,58.0 140.0,62.5 140.0,53.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"162.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"150.0\" y=\"76.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"84.0\" y1=\"58.0\" x2=\"84.0\" y2=\"128.0\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"84.0,136.0 79.5,126.0 88.5,126.0\" fill=\"#B5532A\"/><rect x=\"61.7\" y=\"89.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"70.0\" y=\"102.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"196.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 0,5 N</text></svg></span><p>Hur stor är y-komposanten \\(F_y\\)? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=-3\\cdot0{,}5=-1{,}5\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1{,}5\\) N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Räkna rutorna nedåt och använd skalan.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": -1.5,
+  "tolerans": 0,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.662",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "läsa av komposanterna för en simmares hastighet med decimal skala, ur figur, sökta komposanter",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en simmares hastighet \\(v\\). En ruta motsvarar 0,5 m/s.</p><span class=\"fig smal\"><svg viewBox=\"0 0 220.00 190.00\" width=\"220\" height=\"190\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 0,5 m/s. Hastigheten går från origo till (4, −1).\"><rect x=\"0\" y=\"0\" width=\"220.00\" height=\"190.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"136.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"136.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"136.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"136.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"136.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"136.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"188.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"188.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"188.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"188.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"84.0\" x2=\"194.0\" y2=\"84.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"202.0,84.0 192.0,88.5 192.0,79.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"136.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"202.0\" y=\"102.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"84.0\" x2=\"154.2\" y2=\"108.1\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"162.0,110.0 151.2,111.9 153.4,103.2\" fill=\"#2A5D9E\"/><rect x=\"98.3\" y=\"102.6\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"106.6\" y=\"115.6\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">v</text><text x=\"32.0\" y=\"170.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 0,5 m/s</text></svg></span><p>Bestäm \\(v_x\\) och \\(v_y\\). (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_x=4\\cdot0{,}5=2{,}0\\ \\mathrm{m/s},\\quad v_y=-1\\cdot0{,}5=-0{,}5\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(v_x=2{,}0\\) m/s och \\(v_y=-0{,}5\\) m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Multiplicera antalet rutor med 0,5.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    2,
+    -0.5
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "m/s",
+    "m/s"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "v_x",
+    "v_y"
+  ]
+},
+{
+  "id": "3.663",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "läsa av x-komposanten för en stor kraft med skala, ur figur, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en kraft \\(F\\) från en kran. En ruta motsvarar 50 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 220.00 294.00\" width=\"220\" height=\"294\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 50 N. Kraften går från origo till (−2, 6).\"><rect x=\"0\" y=\"0\" width=\"220.00\" height=\"294.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"240.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"240.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"240.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"240.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"240.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"240.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"240.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"240.00\" x2=\"188.00\" y2=\"240.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"188.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"188.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"188.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"188.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"188.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"188.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"188.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"214.0\" x2=\"194.0\" y2=\"214.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"202.0,214.0 192.0,218.5 192.0,209.5\" fill=\"#2B2527\"/><line x1=\"136.0\" y1=\"240.0\" x2=\"136.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"136.0,18.0 140.5,28.0 131.5,28.0\" fill=\"#2B2527\"/><text x=\"202.0\" y=\"232.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"123.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"136.0\" y1=\"214.0\" x2=\"86.5\" y2=\"65.6\" stroke=\"#2F7D4A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"84.0,58.0 91.4,66.1 82.9,68.9\" fill=\"#2F7D4A\"/><rect x=\"114.9\" y=\"123.6\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"123.3\" y=\"136.6\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2F7D4A\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"274.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 50 N</text></svg></span><p>Hur stor är x-komposanten \\(F_x\\)? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=-2\\cdot50=-100\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-100\\) N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Åt vänster ger negativt tecken.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": -100,
+  "tolerans": 0,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.664",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna förflyttningens längd ur ett rutnät med skala, ur figur, sökt längd",
+  "poang": "(1/0/0)",
+  "t": "<p>En drönare flyger enligt förflyttningen \\(s\\). En ruta motsvarar 20 m.</p><span class=\"fig smal\"><svg viewBox=\"0 0 220.00 242.00\" width=\"220\" height=\"242\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 20 m. Förflyttningen går från origo till (3, 4).\"><rect x=\"0\" y=\"0\" width=\"220.00\" height=\"242.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"188.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"188.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"188.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"188.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"188.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"188.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"188.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"188.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"188.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"188.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"188.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"188.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"162.0\" x2=\"194.0\" y2=\"162.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"202.0,162.0 192.0,166.5 192.0,157.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"188.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"202.0\" y=\"180.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"162.0\" x2=\"131.2\" y2=\"64.4\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"136.0,58.0 133.6,68.7 126.4,63.3\" fill=\"#2A5D9E\"/><rect x=\"99.9\" y=\"110.4\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"108.2\" y=\"123.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">s</text><text x=\"32.0\" y=\"222.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 20 m</text></svg></span><p>Hur lång är förflyttningen? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s_x=60\\ \\mathrm m,\\quad s_y=80\\ \\mathrm m\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\sqrt{60^2+80^2}=100\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 100 m.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Bestäm komposanterna i meter först.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 100,
+  "tolerans": 0,
+  "svarEnhet": "m",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.665",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "addera tre förflyttningar grafiskt i rutnät, ur figur, sökta komposanter för den totala förflyttningen",
+  "poang": "(1/0/0)",
+  "t": "<p>En robot gör tre förflyttningar efter varandra: \\(a\\), \\(b\\) och \\(c\\). En ruta motsvarar 1 m.</p><span class=\"fig smal\"><svg viewBox=\"0 0 220.00 242.00\" width=\"220\" height=\"242\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 1 m. Tre pilar efter varandra: a från (0, 0) till (2, 1), b från (2, 1) till (3, 3) och c från (3, 3) till (2, 4).\"><rect x=\"0\" y=\"0\" width=\"220.00\" height=\"242.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"188.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"188.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"188.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"188.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"188.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"188.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"188.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"188.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"188.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"188.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"188.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"188.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"162.0\" x2=\"194.0\" y2=\"162.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"202.0,162.0 192.0,166.5 192.0,157.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"188.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"202.0\" y=\"180.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"162.0\" x2=\"102.8\" y2=\"139.6\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"110.0,136.0 103.1,144.5 99.0,136.4\" fill=\"#2A5D9E\"/><rect x=\"81.9\" y=\"153.5\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"90.3\" y=\"166.5\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">a</text><line x1=\"110.0\" y1=\"136.0\" x2=\"132.4\" y2=\"91.2\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"136.0,84.0 135.6,95.0 127.5,90.9\" fill=\"#B5532A\"/><rect x=\"127.2\" y=\"108.3\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"135.5\" y=\"121.3\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">b</text><line x1=\"136.0\" y1=\"84.0\" x2=\"115.7\" y2=\"63.7\" stroke=\"#2F7D4A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"110.0,58.0 120.3,61.9 113.9,68.3\" fill=\"#2F7D4A\"/><rect x=\"124.6\" y=\"53.1\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"132.9\" y=\"66.1\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2F7D4A\" text-anchor=\"middle\">c</text><text x=\"32.0\" y=\"222.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 1 m</text></svg></span><p>Bestäm den totala förflyttningens komposanter. (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Roboten slutar i (2, 4).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=(2+1-1,\\ 1+2+1)=(2,\\ 4)\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\((2,\\ 4)\\) m.</p></div>",
+  "familj": "Addera vektorer",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__addera",
+  "självrättning": true,
+  "ledtrad": "<p>Följ pilarna från start till sista spetsen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    2,
+    4
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "m",
+    "m"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "s_x",
+    "s_y"
+  ]
+},
+{
+  "id": "3.666",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "läsa av x-komposanten för en hastighet rakt åt vänster med decimal skala, ur figur, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en vagns hastighet \\(v\\). En ruta motsvarar 1,5 m/s.</p><span class=\"fig smal\"><svg viewBox=\"0 0 272.00 190.00\" width=\"272\" height=\"190\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 1,5 m/s. Hastigheten pekar 6 rutor rakt åt vänster.\"><rect x=\"0\" y=\"0\" width=\"272.00\" height=\"190.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"136.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"136.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"136.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"136.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"136.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"136.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"136.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"240.00\" y1=\"136.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"240.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"240.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"240.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"240.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"240.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"110.0\" x2=\"246.0\" y2=\"110.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"254.0,110.0 244.0,114.5 244.0,105.5\" fill=\"#2B2527\"/><line x1=\"214.0\" y1=\"136.0\" x2=\"214.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"214.0,18.0 218.5,28.0 209.5,28.0\" fill=\"#2B2527\"/><text x=\"254.0\" y=\"128.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"201.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"214.0\" y1=\"84.0\" x2=\"66.0\" y2=\"84.0\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"58.0,84.0 68.0,79.5 68.0,88.5\" fill=\"#B5532A\"/><rect x=\"127.7\" y=\"62.0\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"136.0\" y=\"75.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"middle\">v</text><text x=\"32.0\" y=\"170.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 1,5 m/s</text></svg></span><p>Hur stor är \\(v_x\\)? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_x=-6\\cdot1{,}5=-9\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-9\\) m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Åt vänster ger negativ x-komposant.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": -9,
+  "tolerans": 0,
+  "svarEnhet": "m/s",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.667",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "läsa av y-komposanten för en kraft snett nedåt höger, ur figur, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en kraft \\(F\\). En ruta motsvarar 3 N.</p><span class=\"fig smal\"><svg viewBox=\"0 0 246.00 268.00\" width=\"246\" height=\"268\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Rutnät där en ruta är 3 N. Kraften går från origo till (5, −5).\"><rect x=\"0\" y=\"0\" width=\"246.00\" height=\"268.00\" fill=\"#FFFFFF\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"32.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"58.00\" y1=\"214.00\" x2=\"58.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"84.00\" y1=\"214.00\" x2=\"84.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"110.00\" y1=\"214.00\" x2=\"110.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"136.00\" y1=\"214.00\" x2=\"136.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"162.00\" y1=\"214.00\" x2=\"162.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"188.00\" y1=\"214.00\" x2=\"188.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"214.00\" y1=\"214.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"214.00\" x2=\"214.00\" y2=\"214.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"188.00\" x2=\"214.00\" y2=\"188.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"162.00\" x2=\"214.00\" y2=\"162.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"136.00\" x2=\"214.00\" y2=\"136.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"110.00\" x2=\"214.00\" y2=\"110.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"84.00\" x2=\"214.00\" y2=\"84.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"58.00\" x2=\"214.00\" y2=\"58.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.00\" y1=\"32.00\" x2=\"214.00\" y2=\"32.00\" stroke=\"#E4E3E6\" stroke-width=\"1\"/><line x1=\"32.0\" y1=\"58.0\" x2=\"220.0\" y2=\"58.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"228.0,58.0 218.0,62.5 218.0,53.5\" fill=\"#2B2527\"/><line x1=\"58.0\" y1=\"214.0\" x2=\"58.0\" y2=\"26.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"58.0,18.0 62.5,28.0 53.5,28.0\" fill=\"#2B2527\"/><text x=\"228.0\" y=\"76.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"45.0\" y=\"26.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"58.0\" y1=\"58.0\" x2=\"182.3\" y2=\"182.3\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"188.0,188.0 177.7,184.1 184.1,177.7\" fill=\"#2A5D9E\"/><rect x=\"104.8\" y=\"124.9\" width=\"16.7\" height=\"19\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"113.1\" y=\"137.9\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"middle\">F</text><text x=\"32.0\" y=\"248.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">1 ruta = 3 N</text></svg></span><p>Hur stor är \\(F_y\\)? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=-5\\cdot3=-15\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(-15\\) N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Räkna rutorna nedåt.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": -15,
+  "tolerans": 0,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.668",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna den lodräta komposanten av en dragkraft, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En isfiskare drar sin kälke med kraften 120 N. Repet lutar 30° mot isen.</p><p>Hur stor är dragkraftens lodräta komposant? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=120\\cdot\\sin 30^\\circ=60{,}0\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 60,0 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>\\(\\sin 30^\\circ=0{,}5\\).</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 60.0,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.669",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna den vågräta komposanten när vinkeln mäts från lodlinjen, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En gunga hålls ut åt sidan. Kraften i kedjan är 300 N och kedjan bildar vinkeln 15° med lodlinjen.</p><p>Hur stor är kraftens vågräta komposant? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=300\\cdot\\sin 15^\\circ\\approx77,6\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 77,6 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Vinkeln mäts från lodlinjen. Vilken komposant ligger då mitt emot vinkeln?</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 77.6,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.670",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna kraftkomposanten i båtens färdriktning, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>Vinden ger seglet en kraft på 400 N. Kraften bildar vinkeln 50° med båtens färdriktning.</p><p>Hur stor är kraftens komposant i färdriktningen? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\parallel}=400\\cdot\\cos 50^\\circ\\approx257,1\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 257,1 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Komposanten i färdriktningen ligger intill vinkeln.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 257.1,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.671",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "dela upp en fotbolls utgångshastighet i en låg vinkel, ur text, sökta komposanter",
+  "poang": "(1/0/0)",
+  "t": "<p>En fotboll skjuts med farten 22 m/s i vinkeln 15° över marken.</p><p>Bestäm \\(v_x\\) och \\(v_y\\). (Svara i m/s med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_x=22\\cdot\\cos 15^\\circ\\approx21,3\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_y=22\\cdot\\sin 15^\\circ\\approx5,7\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(v_x\\approx21,3\\) m/s och \\(v_y\\approx5,7\\) m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Vågrät komposant med cosinus, lodrät med sinus.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    21.3,
+    5.7
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarEnhet": [
+    "m/s",
+    "m/s"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "v_x",
+    "v_y"
+  ]
+},
+{
+  "id": "3.672",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna den lodräta komposanten i en kulstötning, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En kula lämnar handen med farten 13 m/s i vinkeln 42° över marken.</p><p>Hur stor är den lodräta komposanten? (Svara i m/s med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_y=13\\cdot\\sin 42^\\circ\\approx8,7\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 8,7 m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Den lodräta komposanten ligger mitt emot vinkeln.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 8.7,
+  "tolerans": 0.05,
+  "svarEnhet": "m/s",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.673",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna tyngdkraftens komposant längs en backe för en bil, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En bil med massan 1 200 kg står i en backe som lutar 8°.</p><span class=\"fig smal\"><svg viewBox=\"0 0 360.00 200.00\" width=\"360\" height=\"200\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Bil i en backe som lutar 8 grader, ritad som en låda. Tyngdkraften mg pekar rakt nedåt.\"><rect x=\"0\" y=\"0\" width=\"360.00\" height=\"200.00\" fill=\"#FFFFFF\"/><polygon points=\"40,170 320,170 320.0,130.6\" fill=\"#F3EFEA\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><g transform=\"rotate(-8.00 194.0 148.4)\"><rect x=\"172.0\" y=\"114.4\" width=\"44\" height=\"34\" fill=\"#DDE8F4\" stroke=\"#2B2527\" stroke-width=\"1.6\"/></g><line x1=\"196.4\" y1=\"131.5\" x2=\"196.4\" y2=\"180.0\" stroke=\"#B5532A\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"196.4,188.0 191.9,178.0 200.9,178.0\" fill=\"#B5532A\"/><rect x=\"202.4\" y=\"153.4\" width=\"24.1\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"206.4\" y=\"165.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#B5532A\" text-anchor=\"start\">mg</text><path d=\"M80,170 A40,40 0 0 0 79.61,164.43\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"94.0\" y=\"152.5\" width=\"23.5\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"98.0\" y=\"164.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"start\">8°</text><rect x=\"147.8\" y=\"90.4\" width=\"72.5\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"184.0\" y=\"102.4\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\">1 200 kg</text></svg></span><p>Hur stor är tyngdkraftens komposant längs backen? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mg=1\\,200\\cdot9{,}82=11\\,784\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\parallel}=11\\,784\\cdot\\sin 8^\\circ\\approx1640,0\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1640,0 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Längs backen: \\(mg\\sin v\\).</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1640.0,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.674",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna tyngdkraftens komposant längs en cykelbacke, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En cyklist och cykeln väger tillsammans 85 kg. Backen lutar 4°.</p><p>Hur stor kraft drar tyngdkraften cyklisten bakåt längs backen? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mg=85\\cdot9{,}82=834{,}7\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\parallel}=834{,}7\\cdot\\sin 4^\\circ\\approx58,2\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 58,2 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Längs backen används sinus för lutningsvinkeln.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 58.2,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.675",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna tyngdkraftens komposant vinkelrätt mot en skidbacke, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En skidåkare med massan 70 kg åker i en backe som lutar 12°.</p><p>Hur stor är tyngdkraftens komposant vinkelrätt mot backen? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[mg=70\\cdot9{,}82=687{,}4\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\perp}=687{,}4\\cdot\\cos 12^\\circ\\approx672,4\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 672,4 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Vinkelrätt mot backen används cosinus.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 672.4,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.676",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna stigfarten för ett flygplan, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett flygplan flyger med farten 240 m/s och stiger i vinkeln 6° mot marken.</p><p>Hur snabbt ökar planets höjd? (Svara i m/s med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_y=240\\cdot\\sin 6^\\circ\\approx25,1\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 25,1 m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Höjden ändras med den lodräta komposanten.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 25.1,
+  "tolerans": 0.05,
+  "svarEnhet": "m/s",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.677",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "dela upp en vindhastighet mot nordost i komposanter, ur text, sökta komposanter",
+  "poang": "(1/0/0)",
+  "t": "<p>Det blåser 15 m/s mot nordost, alltså 45° mellan öster och norr. x-axeln pekar österut och y-axeln norrut.</p><p>Bestäm \\(v_x\\) och \\(v_y\\). (Svara i m/s med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_x=v_y=15\\cdot\\cos 45^\\circ\\approx10,6\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Båda är cirka 10,6 m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Vid 45° är komposanterna lika stora.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    10.6,
+    10.6
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarEnhet": [
+    "m/s",
+    "m/s"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "v_x",
+    "v_y"
+  ]
+},
+{
+  "id": "3.678",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "dela upp en kraft riktad snett nedåt i komposanter med tecken, ur text och figur, sökta komposanter",
+  "poang": "(0/1/0)",
+  "t": "<p>En hund drar i kopplet med kraften 90 N. Kopplet är riktat 35° under det vågräta, framåt och nedåt mot hunden.</p><span class=\"fig smal\"><svg viewBox=\"0 0 340.00 220.00\" width=\"340\" height=\"220\" preserveAspectRatio=\"xMidYMid meet\" role=\"img\" aria-label=\"Kraften 90 N riktad 35 grader under positiva x-axeln.\"><rect x=\"0\" y=\"0\" width=\"340.00\" height=\"220.00\" fill=\"#FFFFFF\"/><line x1=\"20.0\" y1=\"70.0\" x2=\"312.0\" y2=\"70.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"320.0,70.0 310.0,74.5 310.0,65.5\" fill=\"#2B2527\"/><line x1=\"90.0\" y1=\"208.0\" x2=\"90.0\" y2=\"22.0\" stroke=\"#2B2527\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"90.0,14.0 94.5,24.0 85.5,24.0\" fill=\"#2B2527\"/><text x=\"318.0\" y=\"88.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">x</text><text x=\"77.0\" y=\"22.0\" font-family=\"IBM Plex Mono, monospace\" font-size=\"14\" font-weight=\"600\" fill=\"#2B2527\" text-anchor=\"middle\" font-style=\"italic\">y</text><line x1=\"90.0\" y1=\"70.0\" x2=\"189.9\" y2=\"140.0\" stroke=\"#2A5D9E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"196.5,144.6 185.7,142.5 190.9,135.1\" fill=\"#2A5D9E\"/><path d=\"M126.04,95.24 A44,44 0 0 0 134.00,70.00\" fill=\"none\" stroke=\"#5C575E\" stroke-width=\"1.4\"/><rect x=\"135.4\" y=\"82.7\" width=\"31.2\" height=\"17.5\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"151.0\" y=\"94.2\" font-family=\"IBM Plex Mono, monospace\" font-size=\"12.5\" font-weight=\"600\" fill=\"#5C575E\" text-anchor=\"middle\">35°</text><rect x=\"200.5\" y=\"124.6\" width=\"72.5\" height=\"18\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"204.5\" y=\"136.6\" font-family=\"IBM Plex Mono, monospace\" font-size=\"13\" font-weight=\"600\" fill=\"#2A5D9E\" text-anchor=\"start\">F = 90 N</text></svg></span><p>Bestäm kraftens vågräta och lodräta komposant, med uppåt som positiv riktning. (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=90\\cdot\\cos 35^\\circ\\approx73,7\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=-90\\cdot\\sin 35^\\circ\\approx−51,6\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F_x\\approx73,7\\) N och \\(F_y\\approx−51,6\\) N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Kraften pekar nedåt, så den lodräta komposanten blir negativ.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    73.7,
+    -51.6
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarEnhet": [
+    "N",
+    "N"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "F_x",
+    "F_y"
+  ]
+},
+{
+  "id": "3.679",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna simmarens hastighetskomposant rakt över en älv, ur text, sökt komposant",
+  "poang": "(1/0/0)",
+  "t": "<p>En simmare simmar med farten 1,6 m/s i riktningen 70° mot strandkanten.</p><p>Hur stor är hastighetskomposanten rakt ut från stranden? (Svara i m/s med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_{\\perp}=1{,}6\\cdot\\sin 70^\\circ\\approx1,5\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,5 m/s.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Komposanten rakt ut från stranden ligger mitt emot vinkeln mot strandkanten.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 1.5,
+  "tolerans": 0.05,
+  "svarEnhet": "m/s",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.680",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "dela upp en kraft i tredje kvadranten i komposanter med tecken, ur text, sökta komposanter",
+  "poang": "(0/1/0)",
+  "t": "<p>En kraft på 250 N är riktad 210° moturs från positiva x-axeln.</p><p>Bestäm \\(F_x\\) och \\(F_y\\). (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraften pekar åt vänster och nedåt, 30° under negativa x-axeln.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=-250\\cos 30^\\circ\\approx−216,5\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=-250\\sin 30^\\circ=−125\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F_x\\approx−216,5\\) N och \\(F_y=−125\\) N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Räkna med vinkeln mot närmaste x-axel och sätt tecknen efter riktningen.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -216.5,
+    -125.0
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarEnhet": [
+    "N",
+    "N"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "F_x",
+    "F_y"
+  ]
+},
+{
+  "id": "3.681",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "dela upp en kraft i fjärde kvadranten i komposanter med tecken, ur text, sökta komposanter",
+  "poang": "(0/1/0)",
+  "t": "<p>En kraft på 18 N pekar snett nedåt åt höger, 60° under positiva x-axeln. Det motsvarar 300° moturs.</p><p>Bestäm \\(F_x\\) och \\(F_y\\). (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Kraften pekar åt höger och nedåt, 60° under positiva x-axeln.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_x=18\\cos 60^\\circ=9\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=-18\\sin 60^\\circ\\approx−15,6\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(F_x=9\\) N och \\(F_y\\approx−15,6\\) N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>300° moturs är samma riktning som 60° medurs från x-axeln.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    9.0,
+    -15.6
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarEnhet": [
+    "N",
+    "N"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "F_x",
+    "F_y"
+  ]
+},
+{
+  "id": "3.682",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna fart och riktning ur hastighetskomposanter, ur text, sökta fart och vinkel",
+  "poang": "(1/0/0)",
+  "t": "<p>En kastad boll har \\(v_x=18\\) m/s och \\(v_y=24\\) m/s.</p><p>Bestäm bollens fart och vinkeln mot marken. (Svara med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{18^2+24^2}=30\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan v=\\frac{24}{18}\\Rightarrow v\\approx53,1^\\circ\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 30 m/s, 53,1°.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Pythagoras ger farten och \\(\\tan^{-1}\\) vinkeln.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    30,
+    53.1
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarEnhet": [
+    "m/s",
+    "°"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "fart",
+    "vinkel"
+  ]
+},
+{
+  "id": "3.683",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna kraftens storlek ur två negativa komposanter, ur text, sökt storlek",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda dras med en kraft som har komposanterna 15 N åt vänster och 8 N nedåt. Hur stor är kraften? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\sqrt{15^2+8^2}=\\sqrt{289}=17\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 17 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_utan_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Tecknen spelar ingen roll när komposanterna kvadreras.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 17,
+  "tolerans": 0,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.684",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "beräkna vinkeln under x-axeln ur komposanterna, ur text, sökt vinkel",
+  "poang": "(1/0/0)",
+  "t": "<p>En hastighet har komposanterna \\(v_x=2{,}0\\) m/s och \\(v_y=-7{,}0\\) m/s. Hur många grader under x-axeln pekar hastigheten? (Svara i grader med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\tan v=\\frac{7{,}0}{2{,}0}\\Rightarrow v\\approx74,1^\\circ\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 74,1°.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Använd beloppen av komposanterna i \\(\\tan v\\).</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 74.1,
+  "tolerans": 0.05,
+  "svarEnhet": "°",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.685",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "beräkna kraftens storlek ur den lodräta komposanten och vinkeln, ur text, sökt storlek",
+  "poang": "(0/1/0)",
+  "t": "<p>En kraft bildar vinkeln 60° med det vågräta. Dess lodräta komposant är 45 N. Hur stor är kraften? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_y=F\\sin 60^\\circ\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\frac{45}{\\sin 60^\\circ}\\approx52,0\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 52,0 N.</p></div>",
+  "familj": "Dela upp vektorer i komposanter",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "familjNyckel": "vektorer__komposanter_med_trigonometri",
+  "självrättning": true,
+  "ledtrad": "<p>Lös ut \\(F\\) ur \\(F_y=F\\sin v\\).</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 52.0,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.686",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "addera två vinkelräta krafter med Pythagoras sats, ur text, sökt resultant",
+  "poang": "(1/0/0)",
+  "t": "<p>En kraft på 45 N verkar österut och en kraft på 60 N verkar norrut på samma föremål. Hur stor är den resulterande kraften? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\sqrt{45^2+60^2}=75\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 75 N.</p></div>",
+  "familj": "Addera vektorer",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__addera",
+  "självrättning": true,
+  "ledtrad": "<p>Krafterna är vinkelräta.</p>",
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 75,
+  "tolerans": 0,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.687",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "addera två lika stora krafter symmetriskt kring y-axeln via komposanter, ur text, sökt resultant",
+  "poang": "(0/1/0)",
+  "t": "<p>Två linor håller en lampa. Båda drar med 20 N. Den ena är riktad 40° ovanför positiva x-axeln och den andra 40° ovanför negativa x-axeln.</p><p>Hur stor är resultanten av de två krafterna? (Svara i N med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>x-komposanterna tar ut varandra.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=2\\cdot20\\cdot\\sin 40^\\circ\\approx25,7\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 25,7 N, rakt uppåt.</p></div>",
+  "familj": "Addera vektorer",
+  "formaga": [
+    "problemlösning"
+  ],
+  "familjNyckel": "vektorer__addera",
+  "självrättning": true,
+  "ledtrad": "<p>Dela upp båda krafterna. Vilka komposanter tar ut varandra?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 25.7,
+  "tolerans": 0.05,
+  "svarEnhet": "N",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.688",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "E",
+  "typ": "addera tre förflyttningar i väderstreck, ur text, sökt avstånd",
+  "poang": "(1/0/0)",
+  "t": "<p>En skidåkare åker 7 km österut, sedan 5 km norrut och till sist 1 km västerut. Hur långt från startpunkten är hon, räknat fågelvägen? (Svara i km med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[x=7-1=6\\ \\mathrm{km},\\quad y=5\\ \\mathrm{km}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=\\sqrt{6^2+5^2}\\approx7,8\\ \\mathrm{km}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 7,8 km.</p></div>",
+  "familj": "Addera vektorer",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "vektorer__addera",
+  "självrättning": true,
+  "ledtrad": "<p>Summera öster/väster och norr/söder för sig.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 7.8,
+  "tolerans": 0.05,
+  "svarEnhet": "km",
+  "svarFormat": "numeriskt"
+},
+{
+  "id": "3.689",
+  "kap": 3,
+  "omr": "vektorer",
+  "niva": "C",
+  "typ": "addera en snett riktad båthastighet och strömmen via komposanter, ur text, sökt fart",
+  "poang": "(0/1/0)",
+  "t": "<p>En båt kör med farten 5,0 m/s i förhållande till vattnet, riktad 30° ut från strandkanten nedströms. Strömmen går längs stranden med 2,0 m/s.</p><p>Hur stor är båtens fart i förhållande till stranden? (Svara i m/s med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_x=5{,}0\\cos 30^\\circ+2{,}0\\approx6,3\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v_y=5{,}0\\sin 30^\\circ=2{,}5\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\sqrt{6{,}3^2+2{,}5^2}\\approx6,8\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6,8 m/s.</p></div>",
+  "familj": "Addera vektorer",
+  "formaga": [
+    "problemlösning",
+    "modellering"
+  ],
+  "familjNyckel": "vektorer__addera",
+  "självrättning": true,
+  "ledtrad": "<p>Lägg x-axeln längs stranden. Dela upp båtens hastighet och lägg till strömmen i x-led.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "trigonometri": true,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 6.8,
+  "tolerans": 0.05,
+  "svarEnhet": "m/s",
+  "svarFormat": "numeriskt"
 }
 ];

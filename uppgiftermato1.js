@@ -3180,91 +3180,100 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.73",
-    "kap": 1,
-    "omr": "rationella_uttryck",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En bilresa på 240 km kan beskrivas med modellen \\(T(v)=\\frac{240}{v}\\).</p><p>a) Förklara varför \\(v=0\\) inte tillhör definitionsmängden i modellen.<br>b) Bestäm \\(v\\) om \\(T=4\\).<br>c) Beskriv vad som händer med \\(T(v)\\) när \\(v\\) blir mycket stor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(v=0\\) är inte tillåtet eftersom division med noll inte är definierad.</p></li><li><p>I modellen skulle dessutom hastigheten 0 km/h innebära att resan aldrig blir färdig.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{240}{v}=4\\]</p></li><li><p>Multiplicera med \\(v\\) och dela med 4:</p></li><li><p>\\[240=4v\\Rightarrow v=60.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(v\\) blir mycket stor blir \\(240/v\\) allt mindre och närmar sig 0.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{v=60\\text{ km/h}}\\).</p></div>",
-    "familj": "Definitionsmängd för rationella uttryck",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      null,
-      60,
-      null
-    ],
-    "tolerans": null,
-    "självrättning": [
-      false,
-      true,
-      false
-    ],
-    "formaga": [
-      "procedur",
-      "begrepp",
-      "modellering",
-      "resonemang"
-    ],
-    "svarFormat": [
-      null,
-      "numeriskt",
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "svarEnhet": [
-      null,
-      "km/h",
-      null
-    ],
-    "ledtrad": "<p>Tänk på vad som händer med kvoten \\(\\frac{240}{v}\\) när nämnaren är 0, när \\(T(v)=4\\) och när nämnaren blir mycket stor.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 3,
-    "spel": true,
-    "manuellKomplettering": [
-      true,
-      false,
-      true
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>En bilresa på 240 km kan beskrivas med modellen \\(T(v)=\\frac{240}{v}\\).</p><div class=\"spel-en-del\">Förklara varför \\(v=0\\) inte tillhör definitionsmängden i modellen.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(v=0\\) ger division med noll, och division med noll är inte definierad.</p></li><li><p>I modellen skulle hastigheten 0 km/h dessutom innebära att resan aldrig blir färdig.</p></li></ol></div>",
-        "ledtrad": "<p>Vad händer med uttrycket \\(\\frac{240}{v}\\) om du sätter in \\(v=0\\)? Vad skulle \\(v=0\\) betyda för bilresan?</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>En bilresa på 240 km kan beskrivas med modellen \\(T(v)=\\frac{240}{v}\\).</p><div class=\"spel-en-del\">Bestäm \\(v\\) om \\(T=4\\).</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{240}{v}=4\\]</p></li><li><p>Multiplicera med \\(v\\) och dela med 4:</p></li><li><p>\\[240=4v\\Rightarrow v=60.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=60\\) km/h.</p></div>",
-        "ledtrad": "<p>Sätt \\(T(v)=4\\) och lös ekvationen. Hur blir du av med \\(v\\) i nämnaren?</p>",
-        "niva": "E"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>En bilresa på 240 km kan beskrivas med modellen \\(T(v)=\\frac{240}{v}\\).</p><div class=\"spel-en-del\">Beskriv vad som händer med \\(T(v)\\) när \\(v\\) blir mycket stor.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(v\\) blir mycket stor delas 240 med ett allt större tal.</p></li><li><p>Då blir \\(\\frac{240}{v}\\) allt mindre och närmar sig 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(T(v)\\) minskar och närmar sig 0 utan att bli 0. Restiden blir alltså mycket kort vid mycket hög hastighet.</p></div>",
-        "ledtrad": "<p>Pröva att sätta in några stora värden, till exempel \\(v=1000\\) och \\(v=100\\,000\\). Vad händer med kvoten?</p>",
-        "niva": "C"
-      }
-    ],
-    "familjTidigare": [
-      "Bestämma definitionsmängd för rationella uttryck"
-    ]
-  },
+  "id": "1.73",
+  "kap": 1,
+  "omr": "rationella_uttryck",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>En bil kör 240 km med konstant fart. Restiden T mäts i timmar och farten v i km/h. Modellen är \\(T(v)=\\frac{240}{v}\\).</p><div class=\"deluppgift\"><b>a)</b> <p>Förklara varför \\(v=0\\) inte är tillåtet i modellen.</p></div><div class=\"deluppgift\"><b>b)</b> <p>Bestäm \\(v\\) om tiden är 4 timmar. (Svara i km/h.)</p></div><div class=\"deluppgift\"><b>c)</b> <p>Vad händer med tiden \\(T(v)\\) i modellen när \\(v\\) blir mycket stor?</p></div>",
+  "s": "<section><h4>a)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid v = 0 blir nämnaren noll, och division med noll är inte definierad.</p></li><li><p>Utan fart blir resan aldrig färdig.</p></li></ol><p class=\"facit-svar\"><strong>Svar: v = 0 är inte tillåtet.</strong></p></div></section><section><h4>b)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in den givna tiden och lös ekvationen.</p><div class=\"facit-matte\">\\[\\frac{240}v=4\\]</div><div class=\"facit-matte\">\\[240=4v\\Rightarrow v=60\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 60 km/h.</strong></p></div></section><section><h4>c)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett fast positivt tal delas med ett allt större positivt tal. Kvoten blir därför mindre och närmar sig 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Tiden närmar sig 0, men blir inte 0.</strong></p></div></section>",
+  "familj": "Definitionsmängd för rationella uttryck",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    null,
+    60,
+    null
+  ],
+  "tolerans": null,
+  "självrättning": [
+    false,
+    true,
+    false
+  ],
+  "formaga": [
+    "procedur",
+    "begrepp",
+    "modellering",
+    "resonemang"
+  ],
+  "svarFormat": [
+    null,
+    "numeriskt",
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "svarEnhet": [
+    null,
+    "km/h",
+    null
+  ],
+  "ledtrad": "<p>Tänk på vad som händer med kvoten \\(\\frac{240}{v}\\) när nämnaren är 0, när \\(T(v)=4\\) och när nämnaren blir mycket stor.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 3,
+  "spel": true,
+  "manuellKomplettering": [
+    true,
+    false,
+    true
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>En bil kör 240 km med konstant fart. Restiden T mäts i timmar och farten v i km/h. Modellen är \\(T(v)=\\frac{240}{v}\\).</p><p>Förklara varför \\(v=0\\) inte är tillåtet i modellen.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid v = 0 blir nämnaren noll, och division med noll är inte definierad.</p></li><li><p>Utan fart blir resan aldrig färdig.</p></li></ol><p class=\"facit-svar\"><strong>Svar: v = 0 är inte tillåtet.</strong></p></div>",
+      "ledtrad": "<p>Vad händer med uttrycket \\(\\frac{240}{v}\\) om du sätter in \\(v=0\\)? Vad skulle \\(v=0\\) betyda för bilresan?</p>",
+      "niva": "C",
+      "traningsniva": 2,
+      "miniräknare": true,
+      "geogebra": false
+    },
+    {
+      "etikett": "b",
+      "t": "<p>En bil kör 240 km med konstant fart. Restiden T mäts i timmar och farten v i km/h. Modellen är \\(T(v)=\\frac{240}{v}\\).</p><p>Bestäm \\(v\\) om tiden är 4 timmar. (Svara i km/h.)</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in den givna tiden och lös ekvationen.</p><div class=\"facit-matte\">\\[\\frac{240}v=4\\]</div><div class=\"facit-matte\">\\[240=4v\\Rightarrow v=60\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 60 km/h.</strong></p></div>",
+      "ledtrad": "<p>Sätt \\(T(v)=4\\) och lös ekvationen. Hur blir du av med \\(v\\) i nämnaren?</p>",
+      "niva": "E",
+      "traningsniva": 1,
+      "miniräknare": true,
+      "geogebra": false
+    },
+    {
+      "etikett": "c",
+      "t": "<p>En bil kör 240 km med konstant fart. Restiden T mäts i timmar och farten v i km/h. Modellen är \\(T(v)=\\frac{240}{v}\\).</p><p>Vad händer med tiden \\(T(v)\\) i modellen när \\(v\\) blir mycket stor?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett fast positivt tal delas med ett allt större positivt tal. Kvoten blir därför mindre och närmar sig 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Tiden närmar sig 0, men blir inte 0.</strong></p></div>",
+      "ledtrad": "<p>Pröva att sätta in några stora värden, till exempel \\(v=1000\\) och \\(v=100\\,000\\). Vad händer med kvoten?</p>",
+      "niva": "C",
+      "traningsniva": 3,
+      "miniräknare": true,
+      "geogebra": false
+    }
+  ],
+  "familjTidigare": [
+    "Bestämma definitionsmängd för rationella uttryck"
+  ]
+},
   {
     "id": "1.74",
     "kap": 1,
@@ -3403,91 +3412,100 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.78",
-    "kap": 1,
-    "omr": "rationella_uttryck",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>En datamängd på 600 MB kan beskrivas med modellen \\(T(v)=\\frac{600}{v}\\).</p><p>a) Förklara varför \\(v=0\\) inte tillhör definitionsmängden i modellen.<br>b) Bestäm \\(v\\) om \\(T=5\\).<br>c) Beskriv vad som händer med \\(T(v)\\) när \\(v\\) blir mycket stor.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(v=0\\) är inte tillåtet eftersom division med noll inte är definierad.</p></li><li><p>I sammanhanget skulle överföringshastigheten 0 MB/s dessutom innebära att överföringen aldrig blir klar.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{600}{v}=5\\]</p></li><li><p>Multiplicera med \\(v\\) och dela med 5:</p></li><li><p>\\[600=5v\\Rightarrow v=120.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(v\\) ökar blir \\(600/v\\) allt mindre och närmar sig 0.</p></li></ol></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{v=120\\text{ MB/s}}\\).</p></div>",
-    "familj": "Definitionsmängd för rationella uttryck",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      null,
-      120,
-      null
-    ],
-    "tolerans": null,
-    "självrättning": [
-      false,
-      true,
-      false
-    ],
-    "formaga": [
-      "procedur",
-      "begrepp",
-      "modellering",
-      "resonemang"
-    ],
-    "svarFormat": [
-      null,
-      "numeriskt",
-      null
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "svarEnhet": [
-      null,
-      "MB/s",
-      null
-    ],
-    "ledtrad": "<p>Tänk på vad som händer med kvoten \\(\\frac{600}{v}\\) när nämnaren är 0, när \\(T(v)=5\\) och när nämnaren blir mycket stor.</p>",
-    "traningsniva": 4,
-    "arbetsinsats": 3,
-    "spel": true,
-    "manuellKomplettering": [
-      true,
-      false,
-      true
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "t": "<p>En datamängd på 600 MB kan beskrivas med modellen \\(T(v)=\\frac{600}{v}\\).</p><div class=\"spel-en-del\">Förklara varför \\(v=0\\) inte tillhör definitionsmängden i modellen.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(v=0\\) ger division med noll, och division med noll är inte definierad.</p></li><li><p>I sammanhanget skulle överföringshastigheten 0 MB/s dessutom innebära att överföringen aldrig blir klar.</p></li></ol></div>",
-        "ledtrad": "<p>Vad händer med uttrycket \\(\\frac{600}{v}\\) om du sätter in \\(v=0\\)? Vad skulle \\(v=0\\) betyda för överföringen?</p>",
-        "niva": "C"
-      },
-      {
-        "etikett": "b",
-        "t": "<p>En datamängd på 600 MB kan beskrivas med modellen \\(T(v)=\\frac{600}{v}\\).</p><div class=\"spel-en-del\">Bestäm \\(v\\) om \\(T=5\\).</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\frac{600}{v}=5\\]</p></li><li><p>Multiplicera med \\(v\\) och dela med 5:</p></li><li><p>\\[600=5v\\Rightarrow v=120.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=120\\) MB/s.</p></div>",
-        "ledtrad": "<p>Sätt \\(T(v)=5\\) och lös ekvationen. Hur blir du av med \\(v\\) i nämnaren?</p>",
-        "niva": "E"
-      },
-      {
-        "etikett": "c",
-        "t": "<p>En datamängd på 600 MB kan beskrivas med modellen \\(T(v)=\\frac{600}{v}\\).</p><div class=\"spel-en-del\">Beskriv vad som händer med \\(T(v)\\) när \\(v\\) blir mycket stor.</div>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(v\\) blir mycket stor delas 600 med ett allt större tal.</p></li><li><p>Då blir \\(\\frac{600}{v}\\) allt mindre och närmar sig 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(T(v)\\) minskar och närmar sig 0 utan att bli 0. Överföringen går alltså mycket snabbt vid mycket hög överföringshastighet.</p></div>",
-        "ledtrad": "<p>Pröva att sätta in några stora värden, till exempel \\(v=1000\\) och \\(v=100\\,000\\). Vad händer med kvoten?</p>",
-        "niva": "C"
-      }
-    ],
-    "familjTidigare": [
-      "Bestämma definitionsmängd för rationella uttryck"
-    ]
-  },
+  "id": "1.78",
+  "kap": 1,
+  "omr": "rationella_uttryck",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>En fil på 600 MB överförs med konstant hastighet. Tiden T mäts i sekunder och överföringshastigheten v i MB/s. Modellen är \\(T(v)=\\frac{600}{v}\\).</p><div class=\"deluppgift\"><b>a)</b> <p>Förklara varför \\(v=0\\) inte är tillåtet i modellen.</p></div><div class=\"deluppgift\"><b>b)</b> <p>Bestäm \\(v\\) om tiden är 5 sekunder. (Svara i MB/s.)</p></div><div class=\"deluppgift\"><b>c)</b> <p>Vad händer med tiden \\(T(v)\\) i modellen när \\(v\\) blir mycket stor?</p></div>",
+  "s": "<section><h4>a)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid v = 0 blir nämnaren noll, och division med noll är inte definierad.</p></li><li><p>Utan överföringshastighet blir filen aldrig överförd.</p></li></ol><p class=\"facit-svar\"><strong>Svar: v = 0 är inte tillåtet.</strong></p></div></section><section><h4>b)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in den givna tiden och lös ekvationen.</p><div class=\"facit-matte\">\\[\\frac{600}v=5\\]</div><div class=\"facit-matte\">\\[600=5v\\Rightarrow v=120\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 120 MB/s.</strong></p></div></section><section><h4>c)</h4><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett fast positivt tal delas med ett allt större positivt tal. Kvoten blir därför mindre och närmar sig 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Tiden närmar sig 0, men blir inte 0.</strong></p></div></section>",
+  "familj": "Definitionsmängd för rationella uttryck",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    null,
+    120,
+    null
+  ],
+  "tolerans": null,
+  "självrättning": [
+    false,
+    true,
+    false
+  ],
+  "formaga": [
+    "procedur",
+    "begrepp",
+    "modellering",
+    "resonemang"
+  ],
+  "svarFormat": [
+    null,
+    "numeriskt",
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "svarEnhet": [
+    null,
+    "MB/s",
+    null
+  ],
+  "ledtrad": "<p>Tänk på vad som händer med kvoten \\(\\frac{600}{v}\\) när nämnaren är 0, när \\(T(v)=5\\) och när nämnaren blir mycket stor.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 3,
+  "spel": true,
+  "manuellKomplettering": [
+    true,
+    false,
+    true
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>En fil på 600 MB överförs med konstant hastighet. Tiden T mäts i sekunder och överföringshastigheten v i MB/s. Modellen är \\(T(v)=\\frac{600}{v}\\).</p><p>Förklara varför \\(v=0\\) inte är tillåtet i modellen.</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid v = 0 blir nämnaren noll, och division med noll är inte definierad.</p></li><li><p>Utan överföringshastighet blir filen aldrig överförd.</p></li></ol><p class=\"facit-svar\"><strong>Svar: v = 0 är inte tillåtet.</strong></p></div>",
+      "ledtrad": "<p>Vad händer med uttrycket \\(\\frac{600}{v}\\) om du sätter in \\(v=0\\)? Vad skulle \\(v=0\\) betyda för överföringen?</p>",
+      "niva": "C",
+      "traningsniva": 2,
+      "miniräknare": true,
+      "geogebra": false
+    },
+    {
+      "etikett": "b",
+      "t": "<p>En fil på 600 MB överförs med konstant hastighet. Tiden T mäts i sekunder och överföringshastigheten v i MB/s. Modellen är \\(T(v)=\\frac{600}{v}\\).</p><p>Bestäm \\(v\\) om tiden är 5 sekunder. (Svara i MB/s.)</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in den givna tiden och lös ekvationen.</p><div class=\"facit-matte\">\\[\\frac{600}v=5\\]</div><div class=\"facit-matte\">\\[600=5v\\Rightarrow v=120\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 120 MB/s.</strong></p></div>",
+      "ledtrad": "<p>Sätt \\(T(v)=5\\) och lös ekvationen. Hur blir du av med \\(v\\) i nämnaren?</p>",
+      "niva": "E",
+      "traningsniva": 1,
+      "miniräknare": true,
+      "geogebra": false
+    },
+    {
+      "etikett": "c",
+      "t": "<p>En fil på 600 MB överförs med konstant hastighet. Tiden T mäts i sekunder och överföringshastigheten v i MB/s. Modellen är \\(T(v)=\\frac{600}{v}\\).</p><p>Vad händer med tiden \\(T(v)\\) i modellen när \\(v\\) blir mycket stor?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett fast positivt tal delas med ett allt större positivt tal. Kvoten blir därför mindre och närmar sig 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Tiden närmar sig 0, men blir inte 0.</strong></p></div>",
+      "ledtrad": "<p>Pröva att sätta in några stora värden, till exempel \\(v=1000\\) och \\(v=100\\,000\\). Vad händer med kvoten?</p>",
+      "niva": "C",
+      "traningsniva": 3,
+      "miniräknare": true,
+      "geogebra": false
+    }
+  ],
+  "familjTidigare": [
+    "Bestämma definitionsmängd för rationella uttryck"
+  ]
+},
   {
     "id": "1.79",
     "kap": 1,
@@ -103079,14 +103097,14 @@ window.BANKMATO1 = [
   "niva": "E",
   "poang": "1/0/0",
   "typ": "antal bitar av ett rep",
-  "t": "<p>Ett rep är \\(\\dfrac{x^2-1}{6}\\) m långt. Det delas i bitar som är \\(\\dfrac{x+1}{3}\\) m långa (\\(x\\gt1\\)). Hur många bitar blir det? Förenkla så långt som möjligt.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Antal bitar = replängd / bitlängd: \\(\\dfrac{x^2-1}{6}\\cdot\\dfrac{3}{x+1}=\\dfrac{(x+1)(x-1)\\cdot3}{6(x+1)}=\\dfrac{x-1}{2}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\dfrac{x-1}{2}\\)</strong></p></div>",
+  "t": "<p>Ett rep är \\(\\dfrac{x^2-1}{6}\\) m långt. Det delas i bitar som är \\(\\dfrac{x+1}{3}\\) m långa (\\(x\\gt1\\)). Delningen går jämnt upp, utan någon rest. Hur många bitar blir det? Förenkla så långt som möjligt.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela hela repets längd med längden på en bit.</p><div class=\"facit-matte\">\\[\\frac{x^2-1}{6}\\div\\frac{x+1}{3}\\]</div></li><li><p>Faktorisera x² − 1 och multiplicera med det andra bråkets invers.</p><div class=\"facit-matte\">\\[\\frac{(x-1)(x+1)}6\\cdot\\frac3{x+1}=\\frac{x-1}2\\]</div></li><li><p>Eftersom delningen går jämnt upp anger uttrycket ett helt antal bitar.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\dfrac{x-1}2\\) bitar.</strong></p></div>",
   "familj": "Rationella uttryck i tillämpningar och grafer",
   "formaga": [
     "procedur",
     "modellering"
   ],
-  "miniräknare": false,
+  "miniräknare": true,
   "geogebra": false,
   "spel": true,
   "självrättning": true,
@@ -109429,5 +109447,381 @@ window.BANKMATO1 = [
       "kommentar": "Grafen stiger i D."
     }
   ]
-}
+},
+  {
+    "id": "1.913",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Definitionsmängd för rationella uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Vilket av x-värdena i tabellen gör \\(\\dfrac4{x-3}\\) odefinierat?</p><table style=\"border-collapse:collapse;width:100%;max-width:360px\"><thead><tr><th style=\"border:1px solid #8796a5;padding:7px\">x-värde</th></tr></thead><tbody><tr><td style=\"border:1px solid #8796a5;padding:7px;text-align:center\">−3</td></tr><tr><td style=\"border:1px solid #8796a5;padding:7px;text-align:center\">0</td></tr><tr><td style=\"border:1px solid #8796a5;padding:7px;text-align:center\">3</td></tr><tr><td style=\"border:1px solid #8796a5;padding:7px;text-align:center\">6</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket saknar värde om nämnaren är noll.</p><div class=\"facit-matte\">\\[x-3=0\\Rightarrow x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=3\\).</strong></p></div>",
+    "ledtrad": "<p>Kontrollera nämnaren för varje x-värde.</p>",
+    "rättSvar": 3,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+    "id": "1.914",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Definitionsmängd för rationella uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen är \\(f(x)=\\dfrac{x-6}{x+2}\\). Bestäm \\(f(6)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 180\" role=\"img\" aria-label=\"Talet 6 matas in i funktionen f\" style=\"width:100%;max-width:500px\"><title>Talet 6 matas in i funktionen f</title><rect width=\"500\" height=\"180\" fill=\"#fff\" rx=\"10\"/><path d=\"M100 85H195M305 85H400\" stroke=\"#146a96\" stroke-width=\"3\"/><path d=\"M185 78L195 85L185 92M390 78L400 85L390 92\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"3\"/><rect x=\"195\" y=\"45\" width=\"110\" height=\"80\" rx=\"12\" fill=\"#e2f1f7\" stroke=\"#24435e\" stroke-width=\"2\"/><text x=\"65\" y=\"92\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"24\" fill=\"#172e46\">6</text><text x=\"250\" y=\"93\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"24\" fill=\"#172e46\">f</text><text x=\"440\" y=\"92\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"24\" fill=\"#172e46\">?</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in 6 i både täljaren och nämnaren.</p><div class=\"facit-matte\">\\[f(6)=\\frac{6-6}{6+2}=\\frac{0}{8}=0\\]</div><p>En nolla i täljaren är tillåten. Här är nämnaren 8, inte 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 0.</strong></p></div>",
+    "ledtrad": "<p>Vad blir täljaren och nämnaren var för sig?</p>",
+    "rättSvar": 0,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+    "id": "1.915",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Definitionsmängd för rationella uttryck",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>För vilka två x-värden är uttrycket \\(\\dfrac1{x+1}\\div\\dfrac{x-2}{3}\\) inte definierat? Ange värdena i var sitt fält.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det första bråkets nämnare får inte vara noll:</p><div class=\"facit-matte\">\\[x+1=0\\Rightarrow x=-1\\]</div></li><li><p>Man får heller inte dividera med 0. Det andra bråket är 0 när:</p><div class=\"facit-matte\">\\[\\frac{x-2}{3}=0\\Rightarrow x=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=-1\\) och \\(x=2\\).</strong></p></div>",
+    "ledtrad": "<p>Kontrollera både nämnarna och det uttryck som du dividerar med.</p>",
+    "rättSvar": [
+      -1,
+      2
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarstyp": "flera_delar",
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "x-värde",
+      "x-värde"
+    ]
+  },
+  {
+    "id": "1.916",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Definitionsmängd för rationella uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Uttrycket \\(\\dfrac6{x-a}\\) är definierat för alla reella x utom värdet vid den öppna ringen. Bestäm \\(a\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 145\" role=\"img\" aria-label=\"Tallinje med en öppen ring vid minus två\" style=\"width:100%;max-width:500px\"><title>Tallinje med en öppen ring vid minus två</title><rect width=\"500\" height=\"145\" fill=\"#fff\" rx=\"10\"/><path d=\"M45 80H455\" stroke=\"#146a96\" stroke-width=\"3\"/><path d=\"M70 74V86\" stroke=\"#24435e\" stroke-width=\"2\"/><text x=\"70\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">−4</text><path d=\"M115 74V86\" stroke=\"#24435e\" stroke-width=\"2\"/><text x=\"115\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">−3</text><path d=\"M160 74V86\" stroke=\"#24435e\" stroke-width=\"2\"/><text x=\"160\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">−2</text><path d=\"M205 74V86\" stroke=\"#24435e\" stroke-width=\"2\"/><text x=\"205\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">−1</text><path d=\"M250 74V86\" stroke=\"#24435e\" stroke-width=\"2\"/><text x=\"250\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">0</text><path d=\"M295 74V86\" stroke=\"#24435e\" stroke-width=\"2\"/><text x=\"295\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">1</text><path d=\"M340 74V86\" stroke=\"#24435e\" stroke-width=\"2\"/><text x=\"340\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">2</text><path d=\"M385 74V86\" stroke=\"#24435e\" stroke-width=\"2\"/><text x=\"385\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">3</text><path d=\"M430 74V86\" stroke=\"#24435e\" stroke-width=\"2\"/><text x=\"430\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">4</text><circle cx=\"160\" cy=\"80\" r=\"8\" fill=\"#fff\" stroke=\"#b34e28\" stroke-width=\"3\"/><text x=\"465\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ringen visar att x = −2 är det förbjudna värdet. Nämnaren måste då bli noll.</p><div class=\"facit-matte\">\\[-2-a=0\\Rightarrow a=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(a=-2\\).</strong></p></div>",
+    "ledtrad": "<p>Vilket x-värde gör x − a till noll?</p>",
+    "rättSvar": -2,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+    "id": "1.917",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Definitionsmängd för rationella uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Uttrycket \\(\\dfrac{x-2}{x^2+bx-6}\\) är inte definierat när \\(x=3\\). Bestäm \\(b\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nämnaren ska vara noll när x = 3.</p><div class=\"facit-matte\">\\[3^2+3b-6=0\\]</div><div class=\"facit-matte\">\\[3+3b=0\\Rightarrow b=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(b=-1\\).</strong></p></div>",
+    "ledtrad": "<p>Sätt in det förbjudna x-värdet i nämnaren.</p>",
+    "rättSvar": -1,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+    "id": "1.918",
+    "kap": 1,
+    "omr": "rationella_uttryck",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Definitionsmängd för rationella uttryck",
+    "formaga": [
+      "begrepp"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lea förenklar \\(R(x)=\\dfrac{x^2-16}{x-4}\\) till \\(x+4\\) och drar slutsatsen att \\(R(4)=8\\). Vilken kommentar är korrekt? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktoriseringen ger:</p><div class=\"facit-matte\">\\[R(x)=\\frac{(x-4)(x+4)}{x-4}=x+4\\]</div></li><li><p>Förkortningen gäller bara när x ≠ 4. Originalets nämnare är fortfarande noll vid x = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar: R(4) är inte definierat.</strong></p></div>",
+    "ledtrad": "<p>Kontrollera det ursprungliga uttrycket vid x = 4.</p>",
+    "rättSvar": null,
+    "svarFormat": "text",
+    "svarstyp": "alternativ",
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Lea har rätt: en förenkling gör även x = 4 tillåtet.",
+        "ratt": false
+      },
+      {
+        "txt": "R(4) = 0 eftersom täljaren är noll.",
+        "ratt": false
+      },
+      {
+        "txt": "R(4) = 4 eftersom faktorn x − 4 förkortas bort.",
+        "ratt": false
+      },
+      {
+        "txt": "R(4) är inte definierat; x + 4 gäller bara för x ≠ 4.",
+        "ratt": true
+      }
+    ]
+  },
+  {
+    "id": "1.919",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Rationella uttryck i tillämpningar och grafer",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Sträckorna är \\(\\dfrac{x+1}{5}\\) km och \\(\\dfrac{2x-1}{5}\\) km, där \\(x\\gt1\\). Skriv ett förenklat uttryck för hela sträckan. (Svara i km.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 180\" role=\"img\" aria-label=\"Två sträckor efter varandra; schematisk figur\" style=\"width:100%;max-width:500px\"><title>Två sträckor efter varandra; schematisk figur</title><rect width=\"500\" height=\"180\" fill=\"#fff\" rx=\"10\"/><path d=\"M45 80H455\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"4\"/><circle cx=\"45\" cy=\"80\" r=\"5\" fill=\"#172e46\"/><text x=\"45\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Start</text><circle cx=\"250\" cy=\"80\" r=\"5\" fill=\"#172e46\"/><text x=\"250\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Mellanpunkt</text><circle cx=\"455\" cy=\"80\" r=\"5\" fill=\"#172e46\"/><text x=\"455\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Mål</text><text x=\"145\" y=\"50\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">(x + 1)/5 km</text><text x=\"350\" y=\"50\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">(2x − 1)/5 km</text><text x=\"250\" y=\"155\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172e46\">Schematisk figur</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Addera sträckorna. Bråken har samma nämnare.</p><div class=\"facit-matte\">\\[\\frac{x+1}{5}+\\frac{2x-1}{5}=\\frac{3x}{5}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\dfrac{3x}{5}\\) km.</strong></p></div>",
+    "ledtrad": "<p>Vad händer med +1 och −1 när du lägger ihop täljarna?</p>",
+    "rättSvar": "3*x/5",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarEnhet": "km"
+  },
+  {
+    "id": "1.920",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Dividera rationella uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Behållare A innehåller \\(3x/4\\) liter och behållare B innehåller \\(x/2\\) liter, där \\(x\\gt0\\). Hur många gånger så mycket vätska finns i A som i B? (Svara exakt.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 180\" role=\"img\" aria-label=\"Volym i behållare A och B, visad med proportionella staplar\" style=\"width:100%;max-width:500px\"><title>Volym i behållare A och B, visad med proportionella staplar</title><rect width=\"500\" height=\"180\" fill=\"#fff\" rx=\"10\"/><rect x=\"90\" y=\"45\" width=\"240\" height=\"38\" fill=\"#2b789f\"/><rect x=\"90\" y=\"105\" width=\"160\" height=\"38\" fill=\"#d78a38\"/><text x=\"55\" y=\"71\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"55\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"405\" y=\"71\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">3x/4 liter</text><text x=\"335\" y=\"131\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x/2 liter</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela volymen i A med volymen i B.</p><div class=\"facit-matte\">\\[\\frac{3x}{4}\\div\\frac{x}{2}=\\frac{3x}{4}\\cdot\\frac2x=\\frac32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 1,5 gånger så mycket.</strong></p></div>",
+    "ledtrad": "<p>Jämför volymerna genom att dividera A:s volym med B:s.</p>",
+    "rättSvar": 1.5,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+    "id": "1.921",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Rationella uttryck i tillämpningar och grafer",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "traningsniva": 4,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En cyklist färdas 6 km med farten \\(x\\) km/h och sedan ytterligare 6 km med farten \\(2x\\) km/h, där \\(x\\gt0\\). Inga pauser görs. Skriv ett förenklat uttryck för medelfarten under hela färden. (Svara i km/h.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 180\" role=\"img\" aria-label=\"Två sträckor efter varandra; schematisk figur\" style=\"width:100%;max-width:500px\"><title>Två sträckor efter varandra; schematisk figur</title><rect width=\"500\" height=\"180\" fill=\"#fff\" rx=\"10\"/><path d=\"M45 80H455\" fill=\"none\" stroke=\"#146a96\" stroke-width=\"4\"/><circle cx=\"45\" cy=\"80\" r=\"5\" fill=\"#172e46\"/><text x=\"45\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Start</text><circle cx=\"250\" cy=\"80\" r=\"5\" fill=\"#172e46\"/><text x=\"250\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Mellanpunkt</text><circle cx=\"455\" cy=\"80\" r=\"5\" fill=\"#172e46\"/><text x=\"455\" y=\"115\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Mål</text><text x=\"145\" y=\"50\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">6 km, fart x km/h</text><text x=\"350\" y=\"50\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">6 km, fart 2x km/h</text><text x=\"250\" y=\"155\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#172e46\">Schematisk figur</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tiden är sträcka delad med fart. Tiderna blir 6/x och 6/(2x) timmar.</p><div class=\"facit-matte\">\\[t=\\frac6x+\\frac6{2x}=\\frac9x\\]</div></li><li><p>Dela hela sträckan, 12 km, med hela tiden.</p><div class=\"facit-matte\">\\[v_{\\text{medel}}=12\\div\\frac9x=\\frac{4x}{3}\\]</div><p>Det är inte medelvärdet av farterna: cyklisten tillbringar mer tid på den långsamma sträckan.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\dfrac{4x}{3}\\) km/h.</strong></p></div>",
+    "ledtrad": "<p>Bestäm först tiden på varje sträcka.</p>",
+    "rättSvar": "4*x/3",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarEnhet": "km/h"
+  },
+  {
+    "id": "1.922",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Rationella uttryck i tillämpningar och grafer",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Det kostar 400 kr att starta en tryckning och sedan 8 kr per affisch. Styckkostnaden är kostnaden per affisch. Hur mycket lägre blir styckkostnaden om man beställer \\(2n\\) affischer i stället för \\(n\\)? Antalet \\(n\\) är ett positivt heltal. (Svara med ett uttryck i kr.)</p><table style=\"border-collapse:collapse;width:100%;max-width:360px\"><thead><tr><th style=\"border:1px solid #8796a5;padding:7px\">Kostnad</th><th style=\"border:1px solid #8796a5;padding:7px\">Belopp</th></tr></thead><tbody><tr><td style=\"border:1px solid #8796a5;padding:7px;text-align:center\">Startavgift</td><td style=\"border:1px solid #8796a5;padding:7px;text-align:center\">400 kr</td></tr><tr><td style=\"border:1px solid #8796a5;padding:7px;text-align:center\">Varje affisch</td><td style=\"border:1px solid #8796a5;padding:7px;text-align:center\">8 kr</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela kostnaden med antalet affischer i båda fallen.</p><div class=\"facit-matte\">\\[K(n)=\\frac{400+8n}{n}=\\frac{400}{n}+8\\]</div><div class=\"facit-matte\">\\[K(2n)=\\frac{400+16n}{2n}=\\frac{200}{n}+8\\]</div></li><li><p>Skillnaden är:</p><div class=\"facit-matte\">\\[K(n)-K(2n)=\\frac{200}{n}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\dfrac{200}{n}\\) kr lägre.</strong></p></div>",
+    "ledtrad": "<p>Den fasta kostnaden fördelas på olika många affischer.</p>",
+    "rättSvar": "200/n",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": null,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "1.923",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "familj": "Dividera rationella uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 2,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Förenkla uttrycket \\(\\dfrac{1/x}{1/x+1/6}\\), där \\(x\\gt0\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera både den stora täljaren och den stora nämnaren med 6x.</p><div class=\"facit-matte\">\\[\\frac{1/x}{1/x+1/6}=\\frac{6}{6+x}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\dfrac6{x+6}\\).</strong></p></div>",
+    "ledtrad": "<p>Vilken faktor tar bort båda de små nämnarna?</p>",
+    "rättSvar": "6/(x+6)",
+    "svarFormat": "uttryck",
+    "svarstyp": "uttryck",
+    "tolerans": null
+  },
+  {
+    "id": "1.924",
+    "kap": 1,
+    "omr": "rakna_rationella",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "familj": "Räkna med rationella uttryck",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 3,
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Bestäm talet \\(a\\) så att sambandet gäller för alla \\(x\\ne2\\):</p><div class=\"facit-matte\">\\[\\frac{x+1}{x-2}+\\frac{x-5}{2-x}=\\frac{a}{x-2}\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nämnarna är varandras motsatser: 2 − x = −(x − 2).</p><div class=\"facit-matte\">\\[\\frac{x+1}{x-2}-\\frac{x-5}{x-2}\\]</div><div class=\"facit-matte\">\\[=\\frac{x+1-(x-5)}{x-2}=\\frac6{x-2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(a=6\\).</strong></p></div>",
+    "ledtrad": "<p>Skriv båda bråken med nämnaren x − 2. Var noga med minustecknet.</p>",
+    "rättSvar": 6,
+    "svarFormat": "numeriskt",
+    "svarstyp": "numeriskt",
+    "tolerans": 1e-09
+  }
+
 ];

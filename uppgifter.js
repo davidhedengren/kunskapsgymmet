@@ -203655,5 +203655,281 @@ window.BANK = [
   "tolerans": 0.0005,
   "svarVardesiffror": 2,
   "svarEnhet": "kPa"
+},
+{
+  "id": "4.877",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "tyngdkraftens angreppspunkt",
+  "poang": "(1/0/0)",
+  "t": "<p>En homogen boll ligger på marken. Man ska rita tyngdkraften på bollen som en pil.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"220\" viewBox=\"0 0 380 220\" role=\"img\" aria-label=\"En boll ligger på marken. Tre punkter är markerade: A överst på bollen, B i bollens mitt och C där bollen nuddar marken.\"><title>En boll ligger på marken. Tre punkter är markerade: A överst på bollen, B i bollens mitt och C där bollen nuddar marken.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20\" y1=\"190\" x2=\"360\" y2=\"190\" stroke=\"#5b6773\" stroke-width=\"2.5\"/><circle cx=\"190\" cy=\"120\" r=\"70\" fill=\"#fef3c7\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><circle cx=\"190\" cy=\"56\" r=\"5\" fill=\"#c2410c\"/><rect x=\"213.0\" y=\"46.0\" width=\"15.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"216.0\" y=\"61.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">A</text><circle cx=\"190\" cy=\"120\" r=\"5\" fill=\"#c2410c\"/><rect x=\"213.0\" y=\"110.0\" width=\"15.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"216.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">B</text><circle cx=\"190\" cy=\"184\" r=\"5\" fill=\"#c2410c\"/><rect x=\"213.0\" y=\"174.0\" width=\"15.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"216.0\" y=\"189.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">C</text></svg></span><p>I vilken punkt ska pilen för tyngdkraften börja?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften verkar på hela bollen, men man ritar den i tyngdpunkten.</p></div><div class=\"facit-stycke\"><p>För en homogen boll ligger tyngdpunkten i mitten, punkt B. I C verkar i stället normalkraften från marken.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> B, i bollens tyngdpunkt.</p></div>",
+  "familj": "Massa och tyngd",
+  "familjNyckel": "tyngdkraft__massa_och_tyngd",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Var ligger tyngdpunkten i en homogen boll?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "B",
+      "ratt": true,
+      "kommentar": "Tyngdkraften ritas i tyngdpunkten, mitt i bollen."
+    },
+    {
+      "txt": "A",
+      "ratt": false,
+      "kommentar": "Tyngdkraften drar inte bara i bollens översta del."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "I kontaktpunkten verkar normalkraften från marken."
+    }
+  ]
+},
+{
+  "id": "4.878",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "tyngd ur massa i gram",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett paket müsli har massan som står på förpackningen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"200\" viewBox=\"0 0 380 200\" role=\"img\" aria-label=\"Ett paket med texten 300 g.\"><title>Ett paket med texten 300 g.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"130\" y=\"40\" width=\"120\" height=\"130\" rx=\"8\" fill=\"#fde7d4\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><text x=\"190.0\" y=\"95.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">MÜSLI</text><text x=\"190.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">300 g</text></svg></span><p>Hur stor är tyngdkraften på paketet? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Räkna om massan till kilogram: 300 g = 0,300 kg. Tyngdkraften är mg:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=mg=0{,}300\\cdot9{,}82\\approx2{,}9\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}9\\) N.</p></div>",
+  "familj": "Massa och tyngd",
+  "familjNyckel": "tyngdkraft__massa_och_tyngd",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Räkna om gram till kilogram först.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.946,
+  "tolerans": 0.0005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.879",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "uppskatta en tyngd på 10 N",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar fyra föremål och deras massor.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"Fyra föremål: ett äpple på 100 gram, ett mjölkpaket på 1,0 kilogram, en hund på 10 kilogram och en vuxen på 100 kilogram.\"><title>Fyra föremål: ett äpple på 100 gram, ett mjölkpaket på 1,0 kilogram, en hund på 10 kilogram och en vuxen på 100 kilogram.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"10\" y1=\"170\" x2=\"410\" y2=\"170\" stroke=\"#5b6773\" stroke-width=\"2\"/><rect x=\"20\" y=\"140\" width=\"70\" height=\"30\" rx=\"6\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"55.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">äpple</text><text x=\"55.0\" y=\"208.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">100 g</text><rect x=\"120\" y=\"110\" width=\"70\" height=\"60\" rx=\"6\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"155.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">mjölk</text><text x=\"155.0\" y=\"208.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">1,0 kg</text><rect x=\"220\" y=\"80\" width=\"70\" height=\"90\" rx=\"6\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"255.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">hund</text><text x=\"255.0\" y=\"208.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">10 kg</text><rect x=\"320\" y=\"30\" width=\"70\" height=\"140\" rx=\"6\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"355.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">vuxen</text><text x=\"355.0\" y=\"208.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">100 kg</text></svg></span><p>Vilket föremål har tyngden ungefär 10 N?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften är ungefär 10 N per kilogram, eftersom \\(g\\approx9{,}82\\ \\mathrm{N/kg}\\).</p></div><div class=\"facit-stycke\"><p>Ett föremål med massan 1,0 kg har därför tyngden ungefär 10 N. Det är mjölkpaketet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Mjölkpaketet.</p></div>",
+  "familj": "Massa och tyngd",
+  "familjNyckel": "tyngdkraft__massa_och_tyngd",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ungefär hur många newton väger 1 kg?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Mjölkpaketet, 1,0 kg",
+      "ratt": true,
+      "kommentar": "1,0 kg · 9,82 N/kg ≈ 10 N."
+    },
+    {
+      "txt": "Äpplet, 100 g",
+      "ratt": false,
+      "kommentar": "Äpplet har tyngden ungefär 1 N."
+    },
+    {
+      "txt": "Hunden, 10 kg",
+      "ratt": false,
+      "kommentar": "Hunden har tyngden ungefär 100 N."
+    },
+    {
+      "txt": "Den vuxna, 100 kg",
+      "ratt": false,
+      "kommentar": "Tyngden är ungefär 1 000 N."
+    }
+  ]
+},
+{
+  "id": "4.880",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "tyngd för en trave",
+  "poang": "(1/0/0)",
+  "t": "<p>Tre likadana tegelstenar ligger i en trave. Tyngdkraften på varje tegelsten är 20 N.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"220\" viewBox=\"0 0 380 220\" role=\"img\" aria-label=\"Tre likadana tegelstenar staplade på varandra. Varje tegelsten har tyngden 20 N.\"><title>Tre likadana tegelstenar staplade på varandra. Varje tegelsten har tyngden 20 N.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40\" y1=\"190\" x2=\"340\" y2=\"190\" stroke=\"#5b6773\" stroke-width=\"2.5\"/><rect x=\"120\" y=\"145\" width=\"140\" height=\"45\" rx=\"3\" fill=\"#fca5a5\" stroke=\"#991b1b\" stroke-width=\"2\"/><text x=\"190.0\" y=\"173.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#7f1d1d\" font-weight=\"bold\">20 N</text><rect x=\"120\" y=\"100\" width=\"140\" height=\"45\" rx=\"3\" fill=\"#fca5a5\" stroke=\"#991b1b\" stroke-width=\"2\"/><text x=\"190.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#7f1d1d\" font-weight=\"bold\">20 N</text><rect x=\"120\" y=\"55\" width=\"140\" height=\"45\" rx=\"3\" fill=\"#fca5a5\" stroke=\"#991b1b\" stroke-width=\"2\"/><text x=\"190.0\" y=\"83.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#7f1d1d\" font-weight=\"bold\">20 N</text></svg></span><p>Hur stor är tyngdkraften på hela traven? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkrafterna på stenarna pekar alla nedåt och kan läggas ihop:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=3\\cdot20=60\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(60\\) N.</p></div>",
+  "familj": "Massa och tyngd",
+  "familjNyckel": "tyngdkraft__massa_och_tyngd",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Lägg ihop tyngdkrafterna.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 60,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.881",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "tyngdacceleration ur diagram",
+  "poang": "(1/0/0)",
+  "t": "<p>På en planet har man mätt tyngdkraften på föremål med olika massa. Diagrammet visar resultatet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"255\" viewBox=\"0 0 380 255\" role=\"img\" aria-label=\"Diagram över tyngdkraften F som funktion av massan m på en planet. En rät linje genom origo går genom punkten 5 kg och 18,5 N.\"><title>Diagram över tyngdkraften F som funktion av massan m på en planet. En rät linje genom origo går genom punkten 5 kg och 18,5 N.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"253\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"116.7\" y1=\"220\" x2=\"116.7\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"116.7\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"163.3\" y1=\"220\" x2=\"163.3\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"163.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"210.0\" y1=\"220\" x2=\"210.0\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"210.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"256.7\" y1=\"220\" x2=\"256.7\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"256.7\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"303.3\" y1=\"220\" x2=\"303.3\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"303.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"350.0\" y1=\"220\" x2=\"350.0\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"350.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"70\" y1=\"186.0\" x2=\"350\" y2=\"186.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"70\" y1=\"152.0\" x2=\"350\" y2=\"152.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"70\" y1=\"118.0\" x2=\"350\" y2=\"118.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"122.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">15</text><line x1=\"70\" y1=\"84.0\" x2=\"350\" y2=\"84.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"88.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"70\" y1=\"50.0\" x2=\"350\" y2=\"50.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">25</text><line x1=\"70\" y1=\"220\" x2=\"358\" y2=\"220\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"220\" x2=\"70\" y2=\"42\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"220\" x2=\"350.0\" y2=\"69.0\" stroke=\"#216d87\" stroke-width=\"2.8\"/><line x1=\"303.3\" y1=\"94.2\" x2=\"303.3\" y2=\"220\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"303.3\" y1=\"94.2\" x2=\"70\" y2=\"94.2\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><circle cx=\"303.3\" cy=\"94.2\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"191.5\" y=\"72.2\" width=\"106.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"295.3\" y=\"84.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">(5 kg; 18,5 N)</text><text x=\"356.0\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">m (kg)</text><text x=\"64.0\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">F (N)</text></svg></span><p>Hur stor är tyngdaccelerationen på planeten? (Svara i N/kg.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdaccelerationen är linjens lutning, F/m. Använd den markerade punkten:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[g=\\frac{F}{m}=\\frac{18{,}5}{5}=3{,}7\\ \\mathrm{N/kg}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}7\\) N/kg.</p></div>",
+  "familj": "Massa och tyngd",
+  "familjNyckel": "massa-tyngd-och-tyngdacceleration",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs av en punkt på linjen och beräkna F/m.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3.7,
+  "tolerans": 0.0005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N/kg"
+},
+{
+  "id": "4.882",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "tyngdkraft på flyghöjd",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett flygplan flyger på 10 km höjd. Jordens radie är ungefär 6 400 km.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"200\" viewBox=\"0 0 400 200\" role=\"img\" aria-label=\"Ett flygplan på 10 km höjd ovanför jorden. Jordens radie är ungefär 6400 km, så höjden är mycket liten jämfört med radien.\"><title>Ett flygplan på 10 km höjd ovanför jorden. Jordens radie är ungefär 6400 km, så höjden är mycket liten jämfört med radien.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M 0,180 Q 200,140 400,180 L 400,200 L 0,200 Z\" fill=\"#dbeafe\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"60.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">jordytan</text><path d=\"M 170,80 L 250,80 L 262,72 L 262,88 L 250,88 L 170,88 Q 160,84 170,80 Z\" fill=\"#172b3a\"/><path d=\"M 205,80 L 220,60 L 228,60 L 222,80 Z\" fill=\"#172b3a\"/><line x1=\"300\" y1=\"84\" x2=\"300\" y2=\"160\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><text x=\"308.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">10 km</text><text x=\"20.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">jordens radie ≈ 6 400 km</text></svg></span><p>Hur stor är tyngdkraften på en passagerare i planet jämfört med på marken?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften minskar med avståndet till jordens mitt.</p></div><div class=\"facit-stycke\"><p>Avståndet ökar bara från 6 400 km till 6 410 km. Tyngdkraften blir därför bara obetydligt mindre, nästan lika stor som på marken.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Nästan lika stor, bara lite mindre.</p></div>",
+  "familj": "Massa och tyngd",
+  "familjNyckel": "gravitation__jamfora_tyngdkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför 10 km med jordens radie.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Nästan lika stor, bara lite mindre",
+      "ratt": true,
+      "kommentar": "10 km är litet jämfört med 6 400 km."
+    },
+    {
+      "txt": "Noll, eftersom planet är i luften",
+      "ratt": false,
+      "kommentar": "Gravitationen verkar även högt upp. Annars skulle planet inte behöva vingar."
+    },
+    {
+      "txt": "Hälften så stor",
+      "ratt": false,
+      "kommentar": "Avståndet till jordens mitt har inte fördubblats."
+    },
+    {
+      "txt": "Större, eftersom planet är högre upp",
+      "ratt": false,
+      "kommentar": "Tyngdkraften minskar när avståndet ökar."
+    }
+  ]
+},
+{
+  "id": "4.883",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "massa ur tyngd på månen",
+  "poang": "(1/0/0)",
+  "t": "<p>En provlåda hänger stilla i en kraftmätare på månen. Mätaren visar 81 N. Tyngdaccelerationen på månen är 1,62 N/kg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"230\" viewBox=\"0 0 380 230\" role=\"img\" aria-label=\"En kraftmätare på månen visar 81 N när en provlåda hänger i den. Tyngdaccelerationen på månen är 1,62 N/kg.\"><title>En kraftmätare på månen visar 81 N när en provlåda hänger i den. Tyngdaccelerationen på månen är 1,62 N/kg.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"120\" y1=\"25\" x2=\"260\" y2=\"25\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"120\" y1=\"25\" x2=\"130\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"134\" y1=\"25\" x2=\"144\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"148\" y1=\"25\" x2=\"158\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"162\" y1=\"25\" x2=\"172\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"176\" y1=\"25\" x2=\"186\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"190\" y1=\"25\" x2=\"200\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"204\" y1=\"25\" x2=\"214\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"218\" y1=\"25\" x2=\"228\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"232\" y1=\"25\" x2=\"242\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"246\" y1=\"25\" x2=\"256\" y2=\"15\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><polyline points=\"190.0,25.0 190.0,34.0 183.0,38.1 197.0,42.1 183.0,46.2 197.0,50.3 183.0,54.4 197.0,58.4 183.0,62.5 197.0,66.6 183.0,70.6 197.0,74.7 183.0,78.8 197.0,82.9 183.0,86.9 190.0,91.0 190.0,100.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"168\" y=\"60\" width=\"44\" height=\"22\" rx=\"4\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"190.0\" y=\"76.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">81 N</text><rect x=\"160\" y=\"100\" width=\"60\" height=\"45\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"190.0\" y=\"127.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">låda</text><path d=\"M 0,200 Q 190,180 380,200 L 380,228 L 2,228 Z\" fill=\"#e5e7eb\" stroke=\"#5b6773\"/><text x=\"20.0\" y=\"220.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">månens yta</text><text x=\"360.0\" y=\"60.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">g = 1,62 N/kg</text></svg></span><p>Vilken massa har lådan? (Svara i kg.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraftmätaren visar tyngdkraften på månen. Massan är tyngdkraften delad med g på månen:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=\\frac{F_g}{g}=\\frac{81}{1{,}62}=50\\ \\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><p>Massan är densamma på jorden och på månen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(50\\) kg.</p></div>",
+  "familj": "Massa och tyngd",
+  "familjNyckel": "massa-ur-tyngdkraft",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd F = mg med månens g.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 50,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "kg"
+},
+{
+  "id": "4.884",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "E",
+  "typ": "tyngd i kN för en bil",
+  "poang": "(1/0/0)",
+  "t": "<p>En bil har massan 1,5 ton.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"210\" viewBox=\"0 0 400 210\" role=\"img\" aria-label=\"En bil med massan 1,5 ton. En pil nedåt visar tyngdkraften.\"><title>En bil med massan 1,5 ton. En pil nedåt visar tyngdkraften.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20\" y1=\"166\" x2=\"380\" y2=\"166\" stroke=\"#5b6773\" stroke-width=\"2.5\"/><path d=\"M 90,150 L 90,122 L 130,122 L 155,96 L 240,96 L 265,122 L 300,126 L 300,150 Z\" fill=\"#dbeafe\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"130\" cy=\"152\" r=\"14\" fill=\"#172b3a\"/><circle cx=\"265\" cy=\"152\" r=\"14\" fill=\"#172b3a\"/><text x=\"140.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">1,5 ton</text><circle cx=\"195\" cy=\"124\" r=\"4\" fill=\"#172b3a\"/><line x1=\"195.0\" y1=\"124.0\" x2=\"195.0\" y2=\"189.4\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"195.0,196.0 199.9,185.0 190.1,185.0\" fill=\"#c2410c\"/><rect x=\"202.0\" y=\"179.0\" width=\"115.2\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"205.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">tyngdkraft = ?</text></svg></span><p>Hur stor är tyngdkraften på bilen? (Svara i kN.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">1,5 ton = 1 500 kg. Tyngdkraften är mg:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=1500\\cdot9{,}82=14\\,730\\ \\mathrm N\\approx15\\ \\mathrm{kN}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(15\\) kN.</p></div>",
+  "familj": "Massa och tyngd",
+  "familjNyckel": "tyngdkraft",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>1 ton = 1 000 kg och 1 kN = 1 000 N.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 14.73,
+  "tolerans": 0.0005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "kN"
 }
 ];

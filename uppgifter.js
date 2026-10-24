@@ -201495,5 +201495,269 @@ window.BANK = [
       "kommentar": "Hjulen gör att han kan rulla, men driver honom inte."
     }
   ]
+},
+{
+  "id": "4.837",
+  "kap": 4,
+  "omr": "gravitation",
+  "niva": "E",
+  "typ": "gravitationskraft mellan två klot",
+  "poang": "(1/0/0)",
+  "t": "<p>Två blyklot med massorna 30 kg och 40 kg ligger så att avståndet mellan deras mittpunkter är 0,20 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"200\" viewBox=\"0 0 400 200\" role=\"img\" aria-label=\"Två klot med massorna 30 kg och 40 kg. Avståndet mellan klotens mittpunkter är 0,20 m.\"><title>Två klot med massorna 30 kg och 40 kg. Avståndet mellan klotens mittpunkter är 0,20 m.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"110.0\" cy=\"105.0\" r=\"42.0\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"110.0\" cy=\"105.0\" r=\"3\" fill=\"#172b3a\"/><text x=\"110.0\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">30 kg</text><circle cx=\"290.0\" cy=\"105.0\" r=\"50.0\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"290.0\" cy=\"105.0\" r=\"3\" fill=\"#172b3a\"/><text x=\"290.0\" y=\"47.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">40 kg</text><line x1=\"110\" y1=\"105\" x2=\"110\" y2=\"178\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"290\" y1=\"105\" x2=\"290\" y2=\"178\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"200.0\" y1=\"178.0\" x2=\"114.8\" y2=\"178.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"110.0,178.0 118.0,182.9 118.0,173.1\" fill=\"#5b6773\"/><line x1=\"200.0\" y1=\"178.0\" x2=\"285.2\" y2=\"178.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"290.0,178.0 282.0,173.1 282.0,182.9\" fill=\"#5b6773\"/><line x1=\"110.0\" y1=\"171\" x2=\"110.0\" y2=\"185\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"290.0\" y1=\"171\" x2=\"290.0\" y2=\"185\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"171.8\" y=\"156.0\" width=\"56.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"200.0\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">0,20 m</text></svg></span><p>Hur stor är gravitationskraften mellan kloten? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Använd gravitationslagen. Avståndet r mäts mellan klotens mittpunkter:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=G\\,\\frac{m_1m_2}{r^2}=6{,}67\\cdot10^{-11}\\cdot\\frac{30\\cdot40}{0{,}20^2}\\approx2{,}0\\cdot10^{-6}\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\cdot10^{-6}\\) N.</p></div>",
+  "familj": "Gravitationslagen",
+  "familjNyckel": "gravitation__gravitationslagen",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd gravitationslagen och G ur formelsamlingen. Avståndet mäts mellan mittpunkterna.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.001e-06,
+  "tolerans": 5e-09,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.838",
+  "kap": 4,
+  "omr": "gravitation",
+  "niva": "E",
+  "typ": "dubbelt avstånd",
+  "poang": "(1/0/0)",
+  "t": "<p>Två klot påverkar varandra med gravitationskraften F. Klotens massor ändras inte, men avståndet mellan deras mittpunkter fördubblas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"230\" viewBox=\"0 0 420 230\" role=\"img\" aria-label=\"Överst två klot på avståndet r. Underst samma två klot på avståndet 2r.\"><title>Överst två klot på avståndet r. Underst samma två klot på avståndet 2r.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"18.0\" y=\"76.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">Före</text><circle cx=\"100.0\" cy=\"70.0\" r=\"20.0\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"100.0\" cy=\"70.0\" r=\"3\" fill=\"#172b3a\"/><circle cx=\"220.0\" cy=\"70.0\" r=\"20.0\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"220.0\" cy=\"70.0\" r=\"3\" fill=\"#172b3a\"/><line x1=\"160.0\" y1=\"112.0\" x2=\"104.8\" y2=\"112.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"100.0,112.0 108.0,116.9 108.0,107.1\" fill=\"#5b6773\"/><line x1=\"160.0\" y1=\"112.0\" x2=\"215.2\" y2=\"112.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"220.0,112.0 212.0,107.1 212.0,116.9\" fill=\"#5b6773\"/><line x1=\"100.0\" y1=\"105\" x2=\"100.0\" y2=\"119\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"220.0\" y1=\"105\" x2=\"220.0\" y2=\"119\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"152.8\" y=\"90.0\" width=\"14.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"160.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">r</text><text x=\"18.0\" y=\"171.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">Efter</text><circle cx=\"100.0\" cy=\"165.0\" r=\"20.0\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"100.0\" cy=\"165.0\" r=\"3\" fill=\"#172b3a\"/><circle cx=\"340.0\" cy=\"165.0\" r=\"20.0\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"340.0\" cy=\"165.0\" r=\"3\" fill=\"#172b3a\"/><line x1=\"220.0\" y1=\"207.0\" x2=\"104.8\" y2=\"207.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"100.0,207.0 108.0,211.9 108.0,202.1\" fill=\"#5b6773\"/><line x1=\"220.0\" y1=\"207.0\" x2=\"335.2\" y2=\"207.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"340.0,207.0 332.0,202.1 332.0,211.9\" fill=\"#5b6773\"/><line x1=\"100.0\" y1=\"200\" x2=\"100.0\" y2=\"214\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"340.0\" y1=\"200\" x2=\"340.0\" y2=\"214\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"208.6\" y=\"185.0\" width=\"22.8\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"220.0\" y=\"199.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2r</text></svg></span><p>Hur stor blir gravitationskraften?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Avståndet står i kvadrat i nämnaren i \\(F=G\\,\\dfrac{m_1m_2}{r^2}\\).</p></div><div class=\"facit-stycke\"><p>Dubbelt avstånd ger \\(2^2=4\\) gånger så stor nämnare. Kraften blir därför en fjärdedel så stor.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> En fjärdedel så stor, \\(F/4\\).</p></div>",
+  "familj": "Gravitationslagen",
+  "familjNyckel": "gravitation__gravitationslagen",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Avståndet står i kvadrat i nämnaren.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "En fjärdedel så stor",
+      "ratt": true,
+      "kommentar": "(2r)² = 4r², så kraften delas med 4."
+    },
+    {
+      "txt": "Hälften så stor",
+      "ratt": false,
+      "kommentar": "Kom ihåg att avståndet står i kvadrat."
+    },
+    {
+      "txt": "Dubbelt så stor",
+      "ratt": false,
+      "kommentar": "Gravitationen minskar när avståndet ökar."
+    },
+    {
+      "txt": "Lika stor",
+      "ratt": false,
+      "kommentar": "Kraften beror på avståndet mellan mittpunkterna."
+    }
+  ]
+},
+{
+  "id": "4.839",
+  "kap": 4,
+  "omr": "gravitation",
+  "niva": "E",
+  "typ": "tre gånger så stor massa",
+  "poang": "(1/0/0)",
+  "t": "<p>Två föremål drar varandra med gravitationskraften 2,0 µN. Det ena föremålet byts mot ett med tre gånger så stor massa. Avståndet är detsamma.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"220\" viewBox=\"0 0 420 220\" role=\"img\" aria-label=\"Överst massorna m och M som drar varandra med 2,0 mikronewton. Underst massorna 3m och M på samma avstånd.\"><title>Överst massorna m och M som drar varandra med 2,0 mikronewton. Underst massorna 3m och M på samma avstånd.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"18.0\" y=\"70.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">Före</text><circle cx=\"120.0\" cy=\"65.0\" r=\"22.0\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"120.0\" cy=\"65.0\" r=\"3\" fill=\"#172b3a\"/><text x=\"120.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">m</text><circle cx=\"300.0\" cy=\"65.0\" r=\"30.0\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"300.0\" cy=\"65.0\" r=\"3\" fill=\"#172b3a\"/><text x=\"300.0\" y=\"27.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">M</text><text x=\"210.0\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">F = 2,0 µN</text><text x=\"18.0\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">Efter</text><circle cx=\"120.0\" cy=\"165.0\" r=\"30.0\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"120.0\" cy=\"165.0\" r=\"3\" fill=\"#172b3a\"/><text x=\"120.0\" y=\"127.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3m</text><circle cx=\"300.0\" cy=\"165.0\" r=\"30.0\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"300.0\" cy=\"165.0\" r=\"3\" fill=\"#172b3a\"/><text x=\"300.0\" y=\"127.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">M</text><text x=\"210.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">F = ?</text></svg></span><p>Hur stor blir gravitationskraften nu? (Svara i µN.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gravitationskraften är proportionell mot varje massa. Tre gånger så stor massa ger tre gånger så stor kraft:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=3\\cdot2{,}0=6{,}0\\ \\mathrm{\\mu N}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}0\\) µN.</p></div>",
+  "familj": "Gravitationslagen",
+  "familjNyckel": "gravitation__gravitationslagen",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Massan står i täljaren i gravitationslagen.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6.0,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "µN"
+},
+{
+  "id": "4.840",
+  "kap": 4,
+  "omr": "gravitation",
+  "niva": "E",
+  "typ": "tyngd på månen",
+  "poang": "(1/0/0)",
+  "t": "<p>En utrustningslåda med massan 120 kg står på månens yta. Där är tyngdaccelerationen 1,62 N/kg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"200\" viewBox=\"0 0 360 200\" role=\"img\" aria-label=\"En utrustningslåda med massan 120 kg står på månens yta. En pil visar tyngdkraften nedåt. Tyngdaccelerationen är 1,62 N/kg.\"><title>En utrustningslåda med massan 120 kg står på månens yta. En pil visar tyngdkraften nedåt. Tyngdaccelerationen är 1,62 N/kg.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M 0,155 Q 180,120 360,155 L 360,198 L 2,198 Z\" fill=\"#e5e7eb\" stroke=\"#5b6773\" stroke-width=\"1.5\"/><text x=\"20.0\" y=\"187.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">månens yta</text><rect x=\"150\" y=\"87\" width=\"60\" height=\"50\" rx=\"5\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"180.0\" y=\"117.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">120 kg</text><line x1=\"180.0\" y1=\"137.0\" x2=\"180.0\" y2=\"185.4\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"180.0,192.0 184.9,181.0 175.1,181.0\" fill=\"#c2410c\"/><rect x=\"189.0\" y=\"167.0\" width=\"132.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"192.0\" y=\"182.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">tyngdkraft = ?</text><text x=\"20.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">g = 1,62 N/kg</text></svg></span><p>Hur stor är tyngdkraften på lådan? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften är massan gånger tyngdaccelerationen på platsen:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=mg=120\\cdot1{,}62\\approx194\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>På jorden skulle samma låda ha tyngden cirka 1 180 N.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(194\\) N.</p></div>",
+  "familj": "Tyngdacceleration på olika höjd och himlakroppar",
+  "familjNyckel": "gravitation__tyngdacceleration_pa_olika_hojd_och_himlakroppar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd F = mg med månens g.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 194.4,
+  "tolerans": 0.05,
+  "svarVardesiffror": 3,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.841",
+  "kap": 4,
+  "omr": "gravitation",
+  "niva": "E",
+  "typ": "tyngd ur stapeldiagram",
+  "poang": "(1/0/0)",
+  "t": "<p>En landare med massan 250 kg ska landa på Mars. Diagrammet visar tyngdaccelerationen vid ytan av fyra himlakroppar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"270\" viewBox=\"0 0 420 270\" role=\"img\" aria-label=\"Stapeldiagram över tyngdaccelerationen: Månen 1,6, Mars 3,7, Jorden 9,8 och Jupiter 24,8 N/kg.\"><title>Stapeldiagram över tyngdaccelerationen: Månen 1,6, Mars 3,7, Jorden 9,8 och Jupiter 24,8 N/kg.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"20.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">tyngdacceleration (N/kg)</text><line x1=\"60\" y1=\"194.0\" x2=\"400\" y2=\"194.0\" stroke=\"#e5eaf0\"/><text x=\"52.0\" y=\"199.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"60\" y1=\"158.0\" x2=\"400\" y2=\"158.0\" stroke=\"#e5eaf0\"/><text x=\"52.0\" y=\"163.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"60\" y1=\"122.0\" x2=\"400\" y2=\"122.0\" stroke=\"#e5eaf0\"/><text x=\"52.0\" y=\"127.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">15</text><line x1=\"60\" y1=\"86.0\" x2=\"400\" y2=\"86.0\" stroke=\"#e5eaf0\"/><text x=\"52.0\" y=\"91.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"60\" y1=\"50.0\" x2=\"400\" y2=\"50.0\" stroke=\"#e5eaf0\"/><text x=\"52.0\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">25</text><line x1=\"60\" y1=\"230\" x2=\"400\" y2=\"230\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"230\" x2=\"60\" y2=\"44\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><rect x=\"90\" y=\"218.5\" width=\"50\" height=\"11.5\" fill=\"#9cc3d5\"/><text x=\"115.0\" y=\"212.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">1,6</text><text x=\"115.0\" y=\"250.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Månen</text><rect x=\"175\" y=\"203.4\" width=\"50\" height=\"26.6\" fill=\"#216d87\"/><text x=\"200.0\" y=\"197.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3,7</text><text x=\"200.0\" y=\"250.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Mars</text><rect x=\"260\" y=\"159.4\" width=\"50\" height=\"70.6\" fill=\"#9cc3d5\"/><text x=\"285.0\" y=\"153.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">9,8</text><text x=\"285.0\" y=\"250.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Jorden</text><rect x=\"345\" y=\"51.4\" width=\"50\" height=\"178.6\" fill=\"#9cc3d5\"/><text x=\"370.0\" y=\"45.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">24,8</text><text x=\"370.0\" y=\"250.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Jupiter</text></svg></span><p>Hur stor är tyngdkraften på landaren när den står på Mars? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Läs av tyngdaccelerationen på Mars i diagrammet: 3,7 N/kg. Multiplicera med massan:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_g=mg=250\\cdot3{,}7\\approx930\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(930\\) N.</p></div>",
+  "familj": "Tyngdacceleration på olika höjd och himlakroppar",
+  "familjNyckel": "gravitation__tyngdacceleration_pa_olika_hojd_och_himlakroppar",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Läs av g för Mars och använd F = mg.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 925.0,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.842",
+  "kap": 4,
+  "omr": "gravitation",
+  "niva": "E",
+  "typ": "gravitationskraftens riktning",
+  "poang": "(1/0/0)",
+  "t": "<p>En satellit rör sig i en cirkelformad bana runt jorden. Pil B visar satellitens rörelseriktning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"300\" viewBox=\"0 0 380 300\" role=\"img\" aria-label=\"En satellit i bana runt jorden med fyra pilar: A mot jordens mitt, B framåt längs banan, C rakt ut från jorden och D bakåt längs banan.\"><title>En satellit i bana runt jorden med fyra pilar: A mot jordens mitt, B framåt längs banan, C rakt ut från jorden och D bakåt längs banan.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"190\" cy=\"170\" r=\"115\" fill=\"none\" stroke=\"#5b6773\" stroke-dasharray=\"5 5\"/><circle cx=\"190\" cy=\"170\" r=\"55\" fill=\"#dbeafe\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"190.0\" y=\"175.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">jorden</text><line x1=\"271.3\" y1=\"88.7\" x2=\"240.6\" y2=\"119.4\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"236.0,124.0 247.2,119.7 240.3,112.8\" fill=\"#5b6773\"/><rect x=\"214.0\" y=\"121.0\" width=\"15.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"226.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">A</text><line x1=\"271.3\" y1=\"88.7\" x2=\"240.6\" y2=\"58.0\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"236.0,53.3 240.3,64.6 247.2,57.6\" fill=\"#5b6773\"/><rect x=\"214.0\" y=\"35.3\" width=\"15.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"226.0\" y=\"50.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">B</text><line x1=\"271.3\" y1=\"88.7\" x2=\"302.0\" y2=\"58.0\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"306.7,53.3 295.4,57.6 302.4,64.6\" fill=\"#5b6773\"/><rect x=\"313.7\" y=\"35.3\" width=\"15.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"316.7\" y=\"50.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">C</text><line x1=\"271.3\" y1=\"88.7\" x2=\"302.0\" y2=\"119.4\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"306.7,124.0 302.4,112.8 295.4,119.7\" fill=\"#5b6773\"/><rect x=\"313.7\" y=\"117.0\" width=\"15.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"316.7\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">D</text><rect x=\"262.3\" y=\"82.7\" width=\"18\" height=\"12\" rx=\"2\" fill=\"#216d87\"/></svg></span><p>Vilken pil visar riktningen på gravitationskraften från jorden på satelliten?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gravitationen är en attraktion. Jorden drar satelliten mot jordens mitt.</p></div><div class=\"facit-stycke\"><p>Kraften pekar alltså inåt mot jordens mitt, oavsett åt vilket håll satelliten rör sig.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+  "familj": "Gravitationslagen",
+  "familjNyckel": "gravitation__gravitationslagen",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Gravitationen drar mot mitten av den kropp som drar.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A",
+      "ratt": true,
+      "kommentar": "A pekar mot jordens mitt."
+    },
+    {
+      "txt": "B",
+      "ratt": false,
+      "kommentar": "B visar rörelseriktningen, inte kraften."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "Gravitationen drar, den stöter inte bort."
+    },
+    {
+      "txt": "D",
+      "ratt": false,
+      "kommentar": "Ingen kraft bakåt behövs för att satelliten ska gå runt."
+    }
+  ]
+},
+{
+  "id": "4.843",
+  "kap": 4,
+  "omr": "gravitation",
+  "niva": "E",
+  "typ": "avståndet mellan mittpunkterna",
+  "poang": "(1/0/0)",
+  "t": "<p>Två klot ska jämföras med gravitationslagen. Det mindre klotet har radien 0,10 m och det större radien 0,15 m. Avståndet mellan klotens ytor är 0,25 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"200\" viewBox=\"0 0 440 200\" role=\"img\" aria-label=\"Ett klot med radien 0,10 m och ett klot med radien 0,15 m. Avståndet mellan klotens ytor är 0,25 m.\"><title>Ett klot med radien 0,10 m och ett klot med radien 0,15 m. Avståndet mellan klotens ytor är 0,25 m.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"100.0\" cy=\"100.0\" r=\"40.0\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"100.0\" cy=\"100.0\" r=\"3\" fill=\"#172b3a\"/><circle cx=\"300.0\" cy=\"100.0\" r=\"60.0\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"300.0\" cy=\"100.0\" r=\"3\" fill=\"#172b3a\"/><line x1=\"100\" y1=\"100\" x2=\"140\" y2=\"100\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><line x1=\"300\" y1=\"100\" x2=\"360\" y2=\"100\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><line x1=\"190.0\" y1=\"100.0\" x2=\"144.8\" y2=\"100.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"140.0,100.0 148.0,104.9 148.0,95.1\" fill=\"#5b6773\"/><line x1=\"190.0\" y1=\"100.0\" x2=\"235.2\" y2=\"100.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"240.0,100.0 232.0,95.1 232.0,104.9\" fill=\"#5b6773\"/><line x1=\"140.0\" y1=\"93\" x2=\"140.0\" y2=\"107\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"240.0\" y1=\"93\" x2=\"240.0\" y2=\"107\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"161.8\" y=\"78.0\" width=\"56.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"190.0\" y=\"92.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">0,25 m</text><text x=\"100.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">radie 0,10 m</text><text x=\"300.0\" y=\"184.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">radie 0,15 m</text></svg></span><p>Vilket avstånd r ska sättas in i gravitationslagen? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I gravitationslagen är r avståndet mellan klotens mittpunkter. Lägg ihop båda radierna och avståndet mellan ytorna:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=0{,}10+0{,}25+0{,}15=0{,}50\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}50\\) m.</p></div>",
+  "familj": "Gravitationslagen",
+  "familjNyckel": "gravitation__gravitationslagen",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Avståndet räknas från mittpunkt till mittpunkt.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.5,
+  "tolerans": 0.005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m"
+},
+{
+  "id": "4.844",
+  "kap": 4,
+  "omr": "gravitation",
+  "niva": "E",
+  "typ": "g på dubbla avståndet från jordens mitt",
+  "poang": "(1/0/0)",
+  "t": "<p>Vid jordytan, avståndet R från jordens mitt, är tyngdaccelerationen 9,82 m/s². En satellit befinner sig på avståndet 2R från jordens mitt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"260\" viewBox=\"0 0 380 260\" role=\"img\" aria-label=\"Jorden med radien R och en satellit på avståndet 2R från jordens mitt. Vid ytan är tyngdaccelerationen 9,82 meter per sekundkvadrat.\"><title>Jorden med radien R och en satellit på avståndet 2R från jordens mitt. Vid ytan är tyngdaccelerationen 9,82 meter per sekundkvadrat.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"130\" cy=\"140\" r=\"60\" fill=\"#dbeafe\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"130.0\" y=\"122.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">jorden</text><circle cx=\"130\" cy=\"140\" r=\"3\" fill=\"#172b3a\"/><line x1=\"130\" y1=\"140\" x2=\"190\" y2=\"140\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><text x=\"160.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">R</text><line x1=\"130\" y1=\"140\" x2=\"130\" y2=\"225\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"250\" y1=\"140\" x2=\"250\" y2=\"225\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"190.0\" y1=\"225.0\" x2=\"134.8\" y2=\"225.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"130.0,225.0 138.0,229.9 138.0,220.1\" fill=\"#5b6773\"/><line x1=\"190.0\" y1=\"225.0\" x2=\"245.2\" y2=\"225.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"250.0,225.0 242.0,220.1 242.0,229.9\" fill=\"#5b6773\"/><line x1=\"130.0\" y1=\"218\" x2=\"130.0\" y2=\"232\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"250.0\" y1=\"218\" x2=\"250.0\" y2=\"232\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"178.6\" y=\"203.0\" width=\"22.8\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"190.0\" y=\"217.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2R</text><rect x=\"241\" y=\"134\" width=\"18\" height=\"12\" rx=\"2\" fill=\"#216d87\"/><text x=\"266.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">g = ?</text><text x=\"20.0\" y=\"34.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">Vid ytan: g = 9,82 m/s²</text></svg></span><p>Hur stor är tyngdaccelerationen där satelliten är? (Svara i m/s².)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdaccelerationen avtar med kvadraten på avståndet från jordens mitt. Dubbelt avstånd ger en fjärdedel:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[g=\\frac{9{,}82}{2^2}=\\frac{9{,}82}{4}\\approx2{,}46\\ \\mathrm{m/s^2}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}46\\) m/s².</p></div>",
+  "familj": "Tyngdacceleration på olika höjd och himlakroppar",
+  "familjNyckel": "gravitation__tyngdacceleration_pa_olika_hojd_och_himlakroppar",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Avståndet räknas från jordens mitt. Hur ändras g när avståndet fördubblas?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.455,
+  "tolerans": 0.0005,
+  "svarVardesiffror": 3,
+  "svarEnhet": "m/s²"
 }
 ];

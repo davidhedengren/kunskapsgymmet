@@ -202565,5 +202565,262 @@ window.BANK = [
   "tolerans": 0.05,
   "svarVardesiffror": 2,
   "svarEnhet": "N"
+},
+{
+  "id": "4.861",
+  "kap": 4,
+  "omr": "friktion",
+  "niva": "E",
+  "typ": "friktionstal ur kraft och normalkraft",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda glider över ett golv. Normalkraften på lådan är 60 N och glidfriktionen är 12 N.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"210\" viewBox=\"0 0 400 210\" role=\"img\" aria-label=\"En låda glider åt höger på ett golv. Normalkraften 60 N pekar uppåt och friktionskraften 12 N pekar åt vänster längs golvet.\"><title>En låda glider åt höger på ett golv. Normalkraften 60 N pekar uppåt och friktionskraften 12 N pekar åt vänster längs golvet.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20\" y1=\"160\" x2=\"400\" y2=\"160\" stroke=\"#5b6773\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"110\" width=\"80\" height=\"50\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"200.0\" y1=\"135.0\" x2=\"200.0\" y2=\"46.6\" stroke=\"#2f7d4a\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"200.0,40.0 195.1,51.0 204.9,51.0\" fill=\"#2f7d4a\"/><rect x=\"205.0\" y=\"38.0\" width=\"140.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"208.0\" y=\"52.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">normalkraft 60 N</text><line x1=\"200.0\" y1=\"160.0\" x2=\"106.6\" y2=\"160.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"100.0,160.0 111.0,164.9 111.0,155.1\" fill=\"#c2410c\"/><rect x=\"97.0\" y=\"170.0\" width=\"115.2\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"100.0\" y=\"184.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">friktion 12 N</text><line x1=\"280.0\" y1=\"100.0\" x2=\"334.6\" y2=\"100.0\" stroke=\"#5b6773\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"340.0,100.0 331.0,95.1 331.0,104.9\" fill=\"#5b6773\"/><text x=\"310.0\" y=\"91.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">rörelse</text></svg></span><p>Hur stort är friktionstalet mellan lådan och golvet?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Friktionstalet är friktionskraften delad med normalkraften:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\mu=\\frac{F_f}{F_N}=\\frac{12}{60}=0{,}20\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}20\\).</p></div>",
+  "familj": "Vilo- och glidfriktion",
+  "familjNyckel": "friktion__vilo_och_glidfriktion",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Friktionstalet är kvoten mellan friktion och normalkraft.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.2,
+  "tolerans": 0.005,
+  "svarVardesiffror": 2,
+  "svarEnhet": null
+},
+{
+  "id": "4.862",
+  "kap": 4,
+  "omr": "friktion",
+  "niva": "E",
+  "typ": "friktion vid konstant fart",
+  "poang": "(1/0/0)",
+  "t": "<p>Du drar en låda över golvet med en dynamometer, så att lådan glider med konstant fart. Dynamometern visar 35 N och drar vågrätt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"190\" viewBox=\"0 0 420 190\" role=\"img\" aria-label=\"En låda dras med en dynamometer över ett golv med konstant fart. Dynamometern visar 35 N.\"><title>En låda dras med en dynamometer över ett golv med konstant fart. Dynamometern visar 35 N.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20\" y1=\"150\" x2=\"400\" y2=\"150\" stroke=\"#5b6773\" stroke-width=\"2.5\"/><rect x=\"70\" y=\"100\" width=\"80\" height=\"50\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"110.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">låda</text><line x1=\"150\" y1=\"125\" x2=\"220\" y2=\"125\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"220\" y=\"112\" width=\"90\" height=\"26\" rx=\"6\" fill=\"#f8fafc\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"265.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">35 N</text><line x1=\"310.0\" y1=\"125.0\" x2=\"383.4\" y2=\"125.0\" stroke=\"#c2410c\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><polygon points=\"390.0,125.0 379.0,120.1 379.0,129.9\" fill=\"#c2410c\"/><text x=\"350.0\" y=\"113.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">drag</text><text x=\"110.0\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">konstant fart</text></svg></span><p>Hur stor är glidfriktionen på lådan? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Konstant fart betyder att kraftsumman är noll. Friktionen är därför lika stor som dragkraften, men riktad bakåt:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_f=35\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(35\\) N.</p></div>",
+  "familj": "Vilo- och glidfriktion",
+  "familjNyckel": "friktion__glidfriktion",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad gäller för kraftsumman vid konstant fart?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 35,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.863",
+  "kap": 4,
+  "omr": "friktion",
+  "niva": "E",
+  "typ": "friktion som drivkraft vid gång",
+  "poang": "(1/0/0)",
+  "t": "<p>När du går trycker foten bakåt mot marken. Figuren visar en sko och två möjliga riktningar för friktionskraften från marken på skon.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"190\" viewBox=\"0 0 400 190\" role=\"img\" aria-label=\"En sko på marken. Personen går åt höger. Två pilar vid sulan: A pekar framåt åt höger och B bakåt åt vänster.\"><title>En sko på marken. Personen går åt höger. Två pilar vid sulan: A pekar framåt åt höger och B bakåt åt vänster.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20\" y1=\"140\" x2=\"400\" y2=\"140\" stroke=\"#5b6773\" stroke-width=\"2.5\"/><path d=\"M 150,140 L 150,100 Q 150,88 165,88 L 200,88 Q 215,88 222,104 L 262,118 Q 275,124 275,140 Z\" fill=\"#fde7d4\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"210.0\" y1=\"152.0\" x2=\"283.4\" y2=\"152.0\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"290.0,152.0 279.0,147.1 279.0,156.9\" fill=\"#5b6773\"/><text x=\"298.0\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">A</text><line x1=\"210.0\" y1=\"168.0\" x2=\"136.6\" y2=\"168.0\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"130.0,168.0 141.0,172.9 141.0,163.1\" fill=\"#5b6773\"/><text x=\"122.0\" y=\"173.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">B</text><line x1=\"150.0\" y1=\"50.0\" x2=\"244.0\" y2=\"50.0\" stroke=\"#2f7d4a\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"250.0,50.0 240.0,45.1 240.0,54.9\" fill=\"#2f7d4a\"/><text x=\"200.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">gångriktning</text></svg></span><p>Åt vilket håll verkar friktionen från marken på skon?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Foten trycker bakåt på marken. Enligt Newtons tredje lag trycker marken då framåt på foten med friktionen.</p></div><div class=\"facit-stycke\"><p>Det är den friktionen som driver dig framåt. Den pekar alltså i gångriktningen, som pil A.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> A, framåt.</p></div>",
+  "familj": "Friktion och Newtons andra lag",
+  "familjNyckel": "friktion__friktion_som_drivkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Foten trycker bakåt på marken. Vad gör marken tillbaka?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A, framåt",
+      "ratt": true,
+      "kommentar": "Marken trycker foten framåt, och det driver dig framåt."
+    },
+    {
+      "txt": "B, bakåt",
+      "ratt": false,
+      "kommentar": "Det är fotens kraft på marken som pekar bakåt."
+    },
+    {
+      "txt": "Ingen friktion verkar när man går",
+      "ratt": false,
+      "kommentar": "Utan friktion halkar foten bakåt, som på blankis."
+    }
+  ]
+},
+{
+  "id": "4.864",
+  "kap": 4,
+  "omr": "friktion",
+  "niva": "E",
+  "typ": "maximal vilofriktion ur diagram",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda dras med en vågrät kraft som ökar långsamt. Diagrammet visar friktionen på lådan som funktion av dragkraften.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"275\" viewBox=\"0 0 400 275\" role=\"img\" aria-label=\"Diagram över friktionen som funktion av dragkraften. Friktionen ökar lika mycket som dragkraften upp till 45 N, där lådan börjar glida. Sedan är friktionen 30 N.\"><title>Diagram över friktionen som funktion av dragkraften. Friktionen ökar lika mycket som dragkraften upp till 45 N, där lådan börjar glida. Sedan är friktionen 30 N.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"273\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"112.9\" y1=\"220\" x2=\"112.9\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"112.9\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><line x1=\"155.7\" y1=\"220\" x2=\"155.7\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"155.7\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">20</text><line x1=\"198.6\" y1=\"220\" x2=\"198.6\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"198.6\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">30</text><line x1=\"241.4\" y1=\"220\" x2=\"241.4\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"241.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">40</text><line x1=\"284.3\" y1=\"220\" x2=\"284.3\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"284.3\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">50</text><line x1=\"327.1\" y1=\"220\" x2=\"327.1\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"327.1\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">60</text><line x1=\"370.0\" y1=\"220\" x2=\"370.0\" y2=\"50\" stroke=\"#e5eaf0\"/><text x=\"370.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">70</text><line x1=\"70\" y1=\"186.0\" x2=\"370\" y2=\"186.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"70\" y1=\"152.0\" x2=\"370\" y2=\"152.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"70\" y1=\"118.0\" x2=\"370\" y2=\"118.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"122.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">30</text><line x1=\"70\" y1=\"84.0\" x2=\"370\" y2=\"84.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"88.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">40</text><line x1=\"70\" y1=\"50.0\" x2=\"370\" y2=\"50.0\" stroke=\"#e5eaf0\"/><text x=\"62.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">50</text><line x1=\"70\" y1=\"220\" x2=\"378\" y2=\"220\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"70\" y1=\"220\" x2=\"70\" y2=\"42\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><polyline points=\"70.0,220.0 262.9,67.0 269.3,118.0 370.0,118.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.8\"/><circle cx=\"262.9\" cy=\"67.0\" r=\"4.5\" fill=\"#c2410c\"/><text x=\"220.0\" y=\"258.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">dragkraft (N)</text><text x=\"64.0\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">friktion (N)</text><text x=\"155.7\" y=\"84.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">lådan står still</text><text x=\"318.6\" y=\"145.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">lådan glider</text></svg></span><p>Hur stor är den maximala vilofriktionen? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Så länge lådan står still är vilofriktionen lika stor som dragkraften. Den kan inte bli större än ett visst maxvärde.</p></div><div class=\"facit-stycke\"><p>Grafen når sitt högsta värde, 45 N, precis innan lådan börjar glida. Därefter är friktionen glidfriktion, 30 N.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(45\\) N.</p></div>",
+  "familj": "Vilo- och glidfriktion",
+  "familjNyckel": "friktion__vilofriktion",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Leta efter grafens högsta punkt, precis innan lådan börjar glida.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 45,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.865",
+  "kap": 4,
+  "omr": "friktion",
+  "niva": "E",
+  "typ": "dubbel normalkraft",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda glider över ett golv och glidfriktionen är 8,0 N. Sedan staplas en likadan låda ovanpå, och lådorna glider tillsammans över samma golv.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"200\" viewBox=\"0 0 420 200\" role=\"img\" aria-label=\"Till vänster en låda med friktionen 8,0 N. Till höger två likadana lådor staplade på varandra på samma golv. Friktionen söks.\"><title>Till vänster en låda med friktionen 8,0 N. Till höger två likadana lådor staplade på varandra på samma golv. Friktionen söks.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20\" y1=\"160\" x2=\"400\" y2=\"160\" stroke=\"#5b6773\" stroke-width=\"2.5\"/><rect x=\"60\" y=\"110\" width=\"80\" height=\"50\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"100.0\" y1=\"160.0\" x2=\"46.6\" y2=\"160.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"40.0,160.0 51.0,164.9 51.0,155.1\" fill=\"#c2410c\"/><text x=\"40.0\" y=\"185.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">friktion 8,0 N</text><rect x=\"260\" y=\"110\" width=\"80\" height=\"50\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><rect x=\"260\" y=\"60\" width=\"80\" height=\"50\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"300.0\" y1=\"160.0\" x2=\"246.6\" y2=\"160.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"240.0,160.0 251.0,164.9 251.0,155.1\" fill=\"#c2410c\"/><text x=\"240.0\" y=\"185.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">friktion = ?</text><line x1=\"150.0\" y1=\"95.0\" x2=\"204.6\" y2=\"95.0\" stroke=\"#5b6773\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"210.0,95.0 201.0,90.1 201.0,99.9\" fill=\"#5b6773\"/><text x=\"180.0\" y=\"86.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">rörelse</text><line x1=\"350.0\" y1=\"45.0\" x2=\"404.6\" y2=\"45.0\" stroke=\"#5b6773\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"410.0,45.0 401.0,40.1 401.0,49.9\" fill=\"#5b6773\"/><text x=\"380.0\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">rörelse</text></svg></span><p>Hur stor blir glidfriktionen på den nedre lådan från golvet? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Glidfriktionen är proportionell mot normalkraften. Två likadana lådor ger dubbelt så stor normalkraft:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_f=2\\cdot8{,}0=16\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(16\\) N.</p></div>",
+  "familj": "Vilo- och glidfriktion",
+  "familjNyckel": "friktion__normalkraft_och_friktion",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur ändras normalkraften när lådorna staplas?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 16,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.866",
+  "kap": 4,
+  "omr": "friktion",
+  "niva": "E",
+  "typ": "kraftsumma med friktion",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda dras över ett golv med den vågräta kraften 50 N. Glidfriktionen är 30 N.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"190\" viewBox=\"0 0 400 190\" role=\"img\" aria-label=\"En låda på ett golv. En dragkraft på 50 N pekar åt höger och friktionen 30 N pekar åt vänster.\"><title>En låda på ett golv. En dragkraft på 50 N pekar åt höger och friktionen 30 N pekar åt vänster.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20\" y1=\"150\" x2=\"400\" y2=\"150\" stroke=\"#5b6773\" stroke-width=\"2.5\"/><rect x=\"160\" y=\"100\" width=\"80\" height=\"50\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"240.0\" y1=\"125.0\" x2=\"333.4\" y2=\"125.0\" stroke=\"#2f7d4a\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"340.0,125.0 329.0,120.1 329.0,129.9\" fill=\"#2f7d4a\"/><rect x=\"249.2\" y=\"99.0\" width=\"81.6\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"290.0\" y=\"113.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">drag 50 N</text><line x1=\"200.0\" y1=\"150.0\" x2=\"146.6\" y2=\"150.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"140.0,150.0 151.0,154.9 151.0,145.1\" fill=\"#c2410c\"/><text x=\"140.0\" y=\"175.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">friktion 30 N</text></svg></span><p>Hur stor är kraftsumman på lådan i vågrät riktning? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dragkraften och friktionen är motriktade. Kraftsumman är skillnaden:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=50-30=20\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Kraftsumman pekar åt höger, så lådan får en acceleration åt höger.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(20\\) N, åt höger.</p></div>",
+  "familj": "Friktion och Newtons andra lag",
+  "familjNyckel": "friktion__friktion_och_newtons_andra_lag",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Krafterna pekar åt motsatta håll.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 20,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.867",
+  "kap": 4,
+  "omr": "friktion",
+  "niva": "E",
+  "typ": "retardation ur friktion",
+  "poang": "(1/0/0)",
+  "t": "<p>En bil med massan 1200 kg bromsar på en vågrät väg. Friktionen från vägen är 6000 N och är den enda kraften i vågrät riktning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" role=\"img\" aria-label=\"En bil med massan 1200 kg bromsar. Friktionen från vägen är 6000 N och pekar bakåt.\"><title>En bil med massan 1200 kg bromsar. Friktionen från vägen är 6000 N och pekar bakåt.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20\" y1=\"156\" x2=\"400\" y2=\"156\" stroke=\"#5b6773\" stroke-width=\"2.5\"/><path d=\"M 120,140 L 120,112 L 160,112 L 185,86 L 260,86 L 285,112 L 320,116 L 320,140 Z\" fill=\"#dbeafe\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"160\" cy=\"142\" r=\"14\" fill=\"#172b3a\"/><circle cx=\"285\" cy=\"142\" r=\"14\" fill=\"#172b3a\"/><text x=\"220.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">1200 kg</text><line x1=\"220.0\" y1=\"175.0\" x2=\"126.6\" y2=\"175.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"120.0,175.0 131.0,179.9 131.0,170.1\" fill=\"#c2410c\"/><text x=\"120.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">friktion 6000 N</text><line x1=\"300.0\" y1=\"60.0\" x2=\"354.6\" y2=\"60.0\" stroke=\"#5b6773\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"360.0,60.0 351.0,55.1 351.0,64.9\" fill=\"#5b6773\"/><text x=\"330.0\" y=\"51.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">rörelse</text></svg></span><p>Hur stor är bilens retardation, alltså hur snabbt minskar farten? (Svara i m/s².)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Friktionen är kraftsumman. Newtons andra lag ger accelerationens storlek:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{F}{m}=\\frac{6000}{1200}=5{,}0\\ \\mathrm{m/s^2}\\]</div></div><div class=\"facit-stycke\"><p>Accelerationen är riktad bakåt, så farten minskar med 5,0 m/s varje sekund.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(5{,}0\\) m/s².</p></div>",
+  "familj": "Friktion och Newtons andra lag",
+  "familjNyckel": "friktion__bromsning_med_friktion",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd F = ma med friktionen som kraftsumma.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 5.0,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m/s²"
+},
+{
+  "id": "4.868",
+  "kap": 4,
+  "omr": "friktion",
+  "niva": "E",
+  "typ": "friktionens riktning på glidande puck",
+  "poang": "(1/0/0)",
+  "t": "<p>En puck glider åt höger på isen och saktar långsamt in.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"170\" viewBox=\"0 0 400 170\" role=\"img\" aria-label=\"En puck glider åt höger på isen. Fyra pilar: A åt vänster, B åt höger, C uppåt och D nedåt.\"><title>En puck glider åt höger på isen. Fyra pilar: A åt vänster, B åt höger, C uppåt och D nedåt.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"10\" y=\"118\" width=\"380\" height=\"8\" fill=\"#dbeafe\"/><ellipse cx=\"200\" cy=\"108\" rx=\"34\" ry=\"10\" fill=\"#172b3a\"/><rect x=\"166\" y=\"96\" width=\"68\" height=\"12\" fill=\"#172b3a\"/><ellipse cx=\"200\" cy=\"96\" rx=\"34\" ry=\"10\" fill=\"#475569\"/><line x1=\"160.0\" y1=\"100.0\" x2=\"96.6\" y2=\"100.0\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"90.0,100.0 101.0,104.9 101.0,95.1\" fill=\"#5b6773\"/><text x=\"82.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">A</text><line x1=\"240.0\" y1=\"100.0\" x2=\"303.4\" y2=\"100.0\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"310.0,100.0 299.0,95.1 299.0,104.9\" fill=\"#5b6773\"/><text x=\"318.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">B</text><line x1=\"200.0\" y1=\"82.0\" x2=\"200.0\" y2=\"36.6\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"200.0,30.0 195.1,41.0 204.9,41.0\" fill=\"#5b6773\"/><text x=\"210.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">C</text><line x1=\"200.0\" y1=\"128.0\" x2=\"200.0\" y2=\"153.4\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"200.0,160.0 204.9,149.0 195.1,149.0\" fill=\"#5b6773\"/><text x=\"210.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">D</text><line x1=\"300.0\" y1=\"40.0\" x2=\"354.6\" y2=\"40.0\" stroke=\"#5b6773\" stroke-width=\"2\" stroke-linecap=\"round\"/><polygon points=\"360.0,40.0 351.0,35.1 351.0,44.9\" fill=\"#5b6773\"/><text x=\"330.0\" y=\"31.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">puckens rörelse</text></svg></span><p>Vilken pil visar friktionen från isen på pucken?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Glidfriktionen verkar längs underlaget och motverkar rörelsen.</p></div><div class=\"facit-stycke\"><p>Pucken glider åt höger, så friktionen pekar åt vänster, som pil A. Därför saktar pucken in.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+  "familj": "Rita krafter med friktion",
+  "familjNyckel": "friktion-vid-inbromsning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Friktionen motverkar rörelsen längs ytan.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A",
+      "ratt": true,
+      "kommentar": "Friktionen pekar mot rörelsen."
+    },
+    {
+      "txt": "B",
+      "ratt": false,
+      "kommentar": "B pekar i rörelseriktningen. Då skulle pucken öka farten."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "C har normalkraftens riktning."
+    },
+    {
+      "txt": "D",
+      "ratt": false,
+      "kommentar": "D har tyngdkraftens riktning."
+    }
+  ]
 }
 ];

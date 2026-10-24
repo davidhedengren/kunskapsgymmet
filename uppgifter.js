@@ -202822,5 +202822,300 @@ window.BANK = [
       "kommentar": "D har tyngdkraftens riktning."
     }
   ]
+},
+{
+  "id": "4.869",
+  "kap": 4,
+  "omr": "moment",
+  "niva": "E",
+  "typ": "moment med skiftnyckel",
+  "poang": "(1/0/0)",
+  "t": "<p>Du drar i en skiftnyckel med kraften 40 N, vinkelrätt mot skaftet, 0,30 m från mutterns mitt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"220\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"En skiftnyckel om en mutter. Kraften 40 N verkar vinkelrätt nedåt 0,30 m från mutterns mitt.\"><title>En skiftnyckel om en mutter. Kraften 40 N verkar vinkelrätt nedåt 0,30 m från mutterns mitt.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"100\" y=\"100\" width=\"230\" height=\"20\" rx=\"8\" fill=\"#cbd5e1\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><polygon points=\"119.1,121.0 100.0,132.0 80.9,121.0 80.9,99.0 100.0,88.0 119.1,99.0\" fill=\"#94a3b8\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"110\" r=\"3\" fill=\"#172b3a\"/><line x1=\"310.0\" y1=\"120.0\" x2=\"310.0\" y2=\"183.4\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"310.0,190.0 314.9,179.0 305.1,179.0\" fill=\"#c2410c\"/><text x=\"318.0\" y=\"180.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">40 N</text><line x1=\"100\" y1=\"135\" x2=\"100\" y2=\"160\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"310\" y1=\"135\" x2=\"310\" y2=\"160\" stroke=\"#5b6773\" stroke-dasharray=\"3 3\"/><line x1=\"205.0\" y1=\"160.0\" x2=\"104.8\" y2=\"160.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"100.0,160.0 108.0,164.9 108.0,155.1\" fill=\"#5b6773\"/><line x1=\"205.0\" y1=\"160.0\" x2=\"305.2\" y2=\"160.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"310.0,160.0 302.0,155.1 302.0,164.9\" fill=\"#5b6773\"/><line x1=\"100.0\" y1=\"153\" x2=\"100.0\" y2=\"167\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"310.0\" y1=\"153\" x2=\"310.0\" y2=\"167\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"176.8\" y=\"138.0\" width=\"56.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"205.0\" y=\"152.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">0,30 m</text></svg></span><p>Hur stort är kraftmomentet kring muttern? (Svara i Nm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kraftmomentet är kraften gånger momentarmen, när kraften är vinkelrät mot armen:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[M=Fl=40\\cdot0{,}30=12\\ \\mathrm{Nm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\) Nm.</p></div>",
+  "familj": "Kraftmoment och momentarm",
+  "familjNyckel": "moment__kraftmoment",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Använd M = F·l.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "Nm"
+},
+{
+  "id": "4.870",
+  "kap": 4,
+  "omr": "moment",
+  "niva": "E",
+  "typ": "störst moment på en dörr",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en dörr ovanifrån. Fyra lika stora krafter A–D kan verka på dörren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"410\" height=\"210\" viewBox=\"0 0 410 210\" role=\"img\" aria-label=\"En dörr sedd ovanifrån med gångjärnet till vänster. Fyra lika stora krafter: A vinkelrätt nära gångjärnet, B vinkelrätt mitt på dörren, C vinkelrätt längst ut och D längst ut men riktad längs dörren mot gångjärnet.\"><title>En dörr sedd ovanifrån med gångjärnet till vänster. Fyra lika stora krafter: A vinkelrätt nära gångjärnet, B vinkelrätt mitt på dörren, C vinkelrätt längst ut och D längst ut men riktad längs dörren mot gångjärnet.</title><rect x=\"1\" y=\"1\" width=\"408\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"50\" cy=\"90\" r=\"8\" fill=\"#172b3a\"/><text x=\"50.0\" y=\"70.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">gångjärn</text><rect x=\"50\" y=\"84\" width=\"300\" height=\"12\" rx=\"3\" fill=\"#e8d5b5\" stroke=\"#8a6d3b\" stroke-width=\"1.8\"/><line x1=\"100.0\" y1=\"96.0\" x2=\"100.0\" y2=\"149.4\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"100.0,156.0 104.9,145.0 95.1,145.0\" fill=\"#5b6773\"/><text x=\"100.0\" y=\"176.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><line x1=\"200.0\" y1=\"96.0\" x2=\"200.0\" y2=\"149.4\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"200.0,156.0 204.9,145.0 195.1,145.0\" fill=\"#5b6773\"/><text x=\"200.0\" y=\"176.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><line x1=\"330.0\" y1=\"96.0\" x2=\"330.0\" y2=\"149.4\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"330.0,156.0 334.9,145.0 325.1,145.0\" fill=\"#5b6773\"/><text x=\"330.0\" y=\"176.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text><line x1=\"395.0\" y1=\"90.0\" x2=\"359.6\" y2=\"90.0\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"353.0,90.0 364.0,94.9 364.0,85.1\" fill=\"#5b6773\"/><text x=\"392.0\" y=\"78.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">D</text><text x=\"200.0\" y=\"198.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">Alla krafter är lika stora.</text></svg></span><p>Vilken kraft ger störst moment kring gångjärnet?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Momentet är kraften gånger momentarmen, alltså det vinkelräta avståndet från gångjärnet till kraftens verkningslinje.</p></div><div class=\"facit-stycke\"><p>C verkar vinkelrätt och längst från gångjärnet. D:s verkningslinje går genom gångjärnet, så D ger inget moment alls.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+  "familj": "Kraftmoment och momentarm",
+  "familjNyckel": "moment__tolka_momentarmar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Störst avstånd och vinkelrät kraft ger störst moment.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "C",
+      "ratt": true,
+      "kommentar": "Längst momentarm och vinkelrät kraft."
+    },
+    {
+      "txt": "A",
+      "ratt": false,
+      "kommentar": "A har kortast momentarm av de vinkelräta krafterna."
+    },
+    {
+      "txt": "B",
+      "ratt": false,
+      "kommentar": "B har halva C:s momentarm."
+    },
+    {
+      "txt": "D",
+      "ratt": false,
+      "kommentar": "D pekar mot gångjärnet och har momentarmen noll."
+    }
+  ]
+},
+{
+  "id": "4.871",
+  "kap": 4,
+  "omr": "moment",
+  "niva": "E",
+  "typ": "vridriktning för en kraft",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett hjul kan vrida sig kring en axel i mitten. En kraft F verkar åt höger i hjulets översta punkt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"220\" viewBox=\"0 0 380 220\" role=\"img\" aria-label=\"Ett hjul med en axel i mitten. En kraft verkar åt höger i hjulets översta punkt.\"><title>Ett hjul med en axel i mitten. En kraft verkar åt höger i hjulets översta punkt.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"170\" cy=\"120\" r=\"70\" fill=\"#f1f5f9\" stroke=\"#216d87\" stroke-width=\"3\"/><circle cx=\"170\" cy=\"120\" r=\"5\" fill=\"#172b3a\"/><text x=\"170.0\" y=\"142.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">axel</text><line x1=\"170.0\" y1=\"50.0\" x2=\"263.4\" y2=\"50.0\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"270.0,50.0 259.0,45.1 259.0,54.9\" fill=\"#c2410c\"/><text x=\"278.0\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">F</text></svg></span><p>Åt vilket håll försöker kraften vrida hjulet?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tänk dig att du knuffar hjulets översta punkt åt höger.</p></div><div class=\"facit-stycke\"><p>Toppen rör sig då åt höger och hjulet vrids som klockans visare, alltså medurs.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Medurs.</p></div>",
+  "familj": "Kraftmoment och momentarm",
+  "familjNyckel": "moment__moment_med_tecken",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Föreställ dig hur toppen av hjulet rör sig.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Medurs",
+      "ratt": true,
+      "kommentar": "Toppen knuffas åt höger, som klockans visare."
+    },
+    {
+      "txt": "Moturs",
+      "ratt": false,
+      "kommentar": "Det hade gällt om kraften verkat åt vänster i toppen."
+    },
+    {
+      "txt": "Kraften vrider inte hjulet",
+      "ratt": false,
+      "kommentar": "Kraften går inte genom axeln och har därför en momentarm."
+    }
+  ]
+},
+{
+  "id": "4.872",
+  "kap": 4,
+  "omr": "moment",
+  "niva": "E",
+  "typ": "avstånd för momentjämvikt",
+  "poang": "(1/0/0)",
+  "t": "<p>En lätt bräda balanserar på ett stöd. Kraften 300 N trycker nedåt 2,0 m till vänster om stödet. Kraften 400 N trycker nedåt till höger.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" role=\"img\" aria-label=\"En lätt bräda på ett stöd. 300 N trycker nedåt 2,0 m till vänster om stödet och 400 N trycker nedåt till höger på okänt avstånd.\"><title>En lätt bräda på ett stöd. 300 N trycker nedåt 2,0 m till vänster om stödet och 400 N trycker nedåt till höger på okänt avstånd.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"98\" width=\"360\" height=\"12\" rx=\"3\" fill=\"#e8d5b5\" stroke=\"#8a6d3b\" stroke-width=\"1.8\"/><polygon points=\"210,110 188,136.4 232,136.4\" fill=\"#d9c7a7\" stroke=\"#8a6d3b\" stroke-width=\"1.8\"/><line x1=\"70.0\" y1=\"40.0\" x2=\"70.0\" y2=\"89.4\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"70.0,96.0 74.9,85.0 65.1,85.0\" fill=\"#c2410c\"/><text x=\"70.0\" y=\"32.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">300 N</text><line x1=\"330.0\" y1=\"40.0\" x2=\"330.0\" y2=\"89.4\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"330.0,96.0 334.9,85.0 325.1,85.0\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"32.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">400 N</text><line x1=\"70\" y1=\"118\" x2=\"70\" y2=\"170\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"210\" y1=\"140\" x2=\"210\" y2=\"170\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"330\" y1=\"118\" x2=\"330\" y2=\"170\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"140.0\" y1=\"168.0\" x2=\"74.8\" y2=\"168.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"70.0,168.0 78.0,172.9 78.0,163.1\" fill=\"#5b6773\"/><line x1=\"140.0\" y1=\"168.0\" x2=\"205.2\" y2=\"168.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"210.0,168.0 202.0,163.1 202.0,172.9\" fill=\"#5b6773\"/><line x1=\"70.0\" y1=\"161\" x2=\"70.0\" y2=\"175\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"210.0\" y1=\"161\" x2=\"210.0\" y2=\"175\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"116.0\" y=\"146.0\" width=\"48.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"140.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">2,0 m</text><line x1=\"270.0\" y1=\"168.0\" x2=\"214.8\" y2=\"168.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"210.0,168.0 218.0,172.9 218.0,163.1\" fill=\"#5b6773\"/><line x1=\"270.0\" y1=\"168.0\" x2=\"325.2\" y2=\"168.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"330.0,168.0 322.0,163.1 322.0,172.9\" fill=\"#5b6773\"/><line x1=\"210.0\" y1=\"161\" x2=\"210.0\" y2=\"175\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"330.0\" y1=\"161\" x2=\"330.0\" y2=\"175\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"246.0\" y=\"146.0\" width=\"48.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"270.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">x = ?</text></svg></span><p>Hur långt från stödet verkar kraften 400 N när brädan är i jämvikt? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I jämvikt är momentet moturs lika stort som momentet medurs:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[300\\cdot2{,}0=400\\cdot x\\quad\\Rightarrow\\quad x=\\frac{600}{400}=1{,}5\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1{,}5\\) m.</p></div>",
+  "familj": "Momentjämvikt och hävstänger",
+  "familjNyckel": "moment__momentjamvikt",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Moment till vänster ska vara lika med moment till höger.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.5,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m"
+},
+{
+  "id": "4.873",
+  "kap": 4,
+  "omr": "moment",
+  "niva": "E",
+  "typ": "varför ett långt spett hjälper",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett spett används som hävstång för att lyfta en tung sten. Stödet ligger nära stenen, och du trycker långt ut på spettet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"200\" viewBox=\"0 0 420 200\" role=\"img\" aria-label=\"Ett spett används som hävstång för att lyfta en sten. Stödet ligger nära stenen och handen trycker långt ut.\"><title>Ett spett används som hävstång för att lyfta en sten. Stödet ligger nära stenen och handen trycker långt ut.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#5b6773\" stroke-width=\"2.5\"/><path d=\"M 30,170 Q 30,118 75,112 Q 118,112 120,170 Z\" fill=\"#cbd5e1\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"75.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">sten</text><polygon points=\"140,140 115,170.0 165,170.0\" fill=\"#d9c7a7\" stroke=\"#8a6d3b\" stroke-width=\"1.8\"/><line x1=\"95\" y1=\"150\" x2=\"380\" y2=\"80\" stroke=\"#172b3a\" stroke-width=\"7\" stroke-linecap=\"round\"/><line x1=\"372.0\" y1=\"36.0\" x2=\"372.0\" y2=\"71.4\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"372.0,78.0 376.9,67.0 367.1,67.0\" fill=\"#c2410c\"/><text x=\"380.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">hand</text><text x=\"250.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">lång arm</text><text x=\"118.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">kort</text></svg></span><p>Varför räcker det med en liten kraft från handen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Hävstången är i jämvikt när momenten kring stödet är lika stora.</p></div><div class=\"facit-stycke\"><p>Handen har en lång momentarm. En liten kraft gånger en lång arm ger lika stort moment som en stor kraft på stenen gånger en kort arm.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Handens momentarm är lång, så en liten kraft ger stort moment.</p></div>",
+  "familj": "Momentjämvikt och hävstänger",
+  "familjNyckel": "moment__havstanger",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför momentarmarna på båda sidor om stödet.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Handens momentarm är lång, så en liten kraft ger stort moment.",
+      "ratt": true,
+      "kommentar": "Moment = kraft · momentarm."
+    },
+    {
+      "txt": "Spettet minskar stenens massa.",
+      "ratt": false,
+      "kommentar": "Massan ändras inte. Det är momentarmarna som skiljer."
+    },
+    {
+      "txt": "Stödet bär hela stenens tyngd, så handen behöver ingen kraft.",
+      "ratt": false,
+      "kommentar": "Handen behövs för momentjämvikten."
+    },
+    {
+      "txt": "Ett långt spett väger mer och hjälper till att trycka.",
+      "ratt": false,
+      "kommentar": "Fördelen kommer från den långa momentarmen."
+    }
+  ]
+},
+{
+  "id": "4.874",
+  "kap": 4,
+  "omr": "moment",
+  "niva": "E",
+  "typ": "vilken låda välter",
+  "poang": "(1/0/0)",
+  "t": "<p>Tre likadana lådor har lutats så att de bara står på sin högra nedre kant. Den röda punkten är tyngdpunkten, och den streckade linjen går lodrätt ned från den.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"210\" viewBox=\"0 0 420 210\" role=\"img\" aria-label=\"Tre likadana lådor står lutade på en kant. Tyngdpunkten är markerad med en lodlinje. För A och B hamnar lodlinjen innanför stödkanten, för C utanför.\"><title>Tre likadana lådor står lutade på en kant. Tyngdpunkten är markerad med en lodlinje. För A och B hamnar lodlinjen innanför stödkanten, för C utanför.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20\" y1=\"170\" x2=\"400\" y2=\"170\" stroke=\"#5b6773\" stroke-width=\"2.5\"/><polygon points=\"70.3,164.8 120.0,170.0 130.5,70.5 80.7,65.3\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"100.4\" y1=\"117.7\" x2=\"100.4\" y2=\"170\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><circle cx=\"100.4\" cy=\"117.7\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"120\" cy=\"170\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"110.0\" y=\"195.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><polygon points=\"196.7,157.1 245.0,170.0 270.9,73.4 222.6,60.5\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"233.8\" y1=\"115.2\" x2=\"233.8\" y2=\"170\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><circle cx=\"233.8\" cy=\"115.2\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"245\" cy=\"170\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"235.0\" y=\"195.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><polygon points=\"307.8,136.5 345.0,170.0 411.9,95.7 374.8,62.2\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"359.9\" y1=\"116.1\" x2=\"359.9\" y2=\"170\" stroke=\"#c2410c\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><circle cx=\"359.9\" cy=\"116.1\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"345\" cy=\"170\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"335.0\" y=\"195.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">C</text></svg></span><p>Vilken låda välter när den släpps?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lådan välter om tyngdpunkten ligger utanför stödkanten, så att tyngdkraften vrider lådan vidare.</p></div><div class=\"facit-stycke\"><p>För C hamnar lodlinjen till höger om stödkanten. För A och B ligger den till vänster, så de faller tillbaka.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+  "familj": "Tyngdpunkt och tippning",
+  "familjNyckel": "moment__tyngdpunkt_och_tippning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Var hamnar lodlinjen från tyngdpunkten jämfört med stödkanten?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "C",
+      "ratt": true,
+      "kommentar": "Lodlinjen hamnar utanför stödkanten."
+    },
+    {
+      "txt": "A",
+      "ratt": false,
+      "kommentar": "Lodlinjen ligger innanför kanten. Lådan faller tillbaka."
+    },
+    {
+      "txt": "B",
+      "ratt": false,
+      "kommentar": "Lodlinjen ligger fortfarande innanför kanten."
+    },
+    {
+      "txt": "Alla tre",
+      "ratt": false,
+      "kommentar": "Bara när lodlinjen hamnar utanför stödkanten välter lådan."
+    }
+  ]
+},
+{
+  "id": "4.875",
+  "kap": 4,
+  "omr": "moment",
+  "niva": "E",
+  "typ": "tyngdpunkt i jämntjock planka",
+  "poang": "(1/0/0)",
+  "t": "<p>En planka är 4,0 m lång och lika tjock och bred hela vägen. Massan är jämnt fördelad.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"170\" viewBox=\"0 0 400 170\" role=\"img\" aria-label=\"En jämntjock planka som är 4,0 meter lång.\"><title>En jämntjock planka som är 4,0 meter lång.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"64\" width=\"320\" height=\"16\" rx=\"3\" fill=\"#e8d5b5\" stroke=\"#8a6d3b\" stroke-width=\"1.8\"/><text x=\"200.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">jämntjock planka</text><line x1=\"40\" y1=\"88\" x2=\"40\" y2=\"128\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"360\" y1=\"88\" x2=\"360\" y2=\"128\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/><line x1=\"200.0\" y1=\"128.0\" x2=\"44.8\" y2=\"128.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"40.0,128.0 48.0,132.9 48.0,123.1\" fill=\"#5b6773\"/><line x1=\"200.0\" y1=\"128.0\" x2=\"355.2\" y2=\"128.0\" stroke=\"#5b6773\" stroke-width=\"1.6\" stroke-linecap=\"round\"/><polygon points=\"360.0,128.0 352.0,123.1 352.0,132.9\" fill=\"#5b6773\"/><line x1=\"40.0\" y1=\"121\" x2=\"40.0\" y2=\"135\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><line x1=\"360.0\" y1=\"121\" x2=\"360.0\" y2=\"135\" stroke=\"#5b6773\" stroke-width=\"1.4\"/><rect x=\"176.0\" y=\"106.0\" width=\"48.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"200.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4,0 m</text><text x=\"40.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">vänster ände</text></svg></span><p>Hur långt från plankans vänstra ände ligger dess tyngdpunkt? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">När massan är jämnt fördelad ligger tyngdpunkten mitt på plankan:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[x=\\frac{4{,}0}{2}=2{,}0\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}0\\) m.</p></div>",
+  "familj": "Tyngdpunkt och tippning",
+  "familjNyckel": "moment__tyngdpunkt",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämnt fördelad massa har tyngdpunkten i mitten.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.0,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m"
+},
+{
+  "id": "4.876",
+  "kap": 4,
+  "omr": "moment",
+  "niva": "E",
+  "typ": "stödkrafter med last i mitten",
+  "poang": "(1/0/0)",
+  "t": "<p>En lätt planka vilar på två stöd, ett i varje ände. En låda med tyngden 200 N står mitt på plankan. Bortse från plankans egen tyngd.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"220\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"En lätt planka vilar på ett stöd i varje ände. En låda med tyngden 200 N står mitt på plankan.\"><title>En lätt planka vilar på ett stöd i varje ände. En låda med tyngden 200 N står mitt på plankan.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"108\" width=\"320\" height=\"12\" rx=\"3\" fill=\"#e8d5b5\" stroke=\"#8a6d3b\" stroke-width=\"1.8\"/><polygon points=\"55,120 33,146.4 77,146.4\" fill=\"#d9c7a7\" stroke=\"#8a6d3b\" stroke-width=\"1.8\"/><polygon points=\"345,120 323,146.4 367,146.4\" fill=\"#d9c7a7\" stroke=\"#8a6d3b\" stroke-width=\"1.8\"/><rect x=\"170\" y=\"68\" width=\"60\" height=\"40\" rx=\"4\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><text x=\"200.0\" y=\"93.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">200 N</text><line x1=\"55.0\" y1=\"190.0\" x2=\"55.0\" y2=\"156.6\" stroke=\"#2f7d4a\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"55.0,150.0 50.1,161.0 59.9,161.0\" fill=\"#2f7d4a\"/><text x=\"65.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">?</text><line x1=\"345.0\" y1=\"190.0\" x2=\"345.0\" y2=\"156.6\" stroke=\"#2f7d4a\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"345.0,150.0 340.1,161.0 349.9,161.0\" fill=\"#2f7d4a\"/><text x=\"335.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#2f7d4a\" font-weight=\"bold\">?</text><text x=\"200.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">lådan står mitt på</text></svg></span><p>Hur stor kraft trycker varje stöd uppåt på plankan med? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lådan står mitt emellan stöden, så av symmetriskäl bär stöden lika mycket. Tillsammans bär de 200 N:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=\\frac{200}{2}=100\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(100\\) N.</p></div>",
+  "familj": "Stödkrafter och balkar",
+  "familjNyckel": "moment__stodkrafter_och_balkar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Lasten står symmetriskt mellan stöden.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 100,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
 }
 ];

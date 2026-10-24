@@ -204469,5 +204469,262 @@ window.BANK = [
   "tolerans": 0.005,
   "svarVardesiffror": 2,
   "svarEnhet": "A"
+},
+{
+  "id": "8.628",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "avläsning i A omräknad till mA",
+  "poang": "(1/0/0)",
+  "t": "<p>Multimetern mäter strömmen genom en lampa. Vredet står på A, så displayen visar strömmen i ampere.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"230\" viewBox=\"0 0 380 230\" role=\"img\" aria-label=\"En multimeter med vredet på A. Displayen visar 0.235.\"><title>En multimeter med vredet på A. Displayen visar 0.235.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"115\" y=\"15\" width=\"150\" height=\"200\" rx=\"16\" fill=\"#facc15\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><rect x=\"130\" y=\"30\" width=\"120\" height=\"50\" rx=\"6\" fill=\"#1e293b\"/><text x=\"190.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"26\" text-anchor=\"middle\" fill=\"#4ade80\" font-weight=\"bold\">0.235</text><circle cx=\"190\" cy=\"135\" r=\"30\" fill=\"#334155\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"190\" y1=\"135\" x2=\"190\" y2=\"109\" stroke=\"#fff\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"190.0\" y=\"189.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">vred: A (ström)</text><circle cx=\"145\" cy=\"205\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/><circle cx=\"190\" cy=\"205\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/><circle cx=\"235\" cy=\"205\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/></svg></span><p>Hur stor är strömmen uttryckt i milliampere? (Svara i mA.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Displayen visar 0,235 A. En ampere är 1 000 mA:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=0{,}235\\cdot1000=235\\ \\mathrm{mA}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(235\\) mA.</p></div>",
+  "familj": "Välja funktion och mätområde",
+  "familjNyckel": "multimeter__valja_matomrade",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>1 A = 1 000 mA.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 235,
+  "tolerans": 0.5,
+  "svarVardesiffror": 3,
+  "svarEnhet": "mA"
+},
+{
+  "id": "8.629",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "resistans i kΩ till Ω",
+  "poang": "(1/0/0)",
+  "t": "<p>Du mäter resistansen hos ett motstånd. Vredet står på kΩ, så displayen visar resistansen i kiloohm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"230\" viewBox=\"0 0 380 230\" role=\"img\" aria-label=\"En multimeter med vredet på kΩ. Displayen visar 4.70.\"><title>En multimeter med vredet på kΩ. Displayen visar 4.70.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"115\" y=\"15\" width=\"150\" height=\"200\" rx=\"16\" fill=\"#facc15\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><rect x=\"130\" y=\"30\" width=\"120\" height=\"50\" rx=\"6\" fill=\"#1e293b\"/><text x=\"190.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"26\" text-anchor=\"middle\" fill=\"#4ade80\" font-weight=\"bold\">4.70</text><circle cx=\"190\" cy=\"135\" r=\"30\" fill=\"#334155\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"190\" y1=\"135\" x2=\"190\" y2=\"109\" stroke=\"#fff\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"190.0\" y=\"189.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">vred: kΩ (resistans)</text><circle cx=\"145\" cy=\"205\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/><circle cx=\"190\" cy=\"205\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/><circle cx=\"235\" cy=\"205\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/></svg></span><p>Hur stor är resistansen uttryckt i ohm? (Svara i Ω.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Displayen visar 4,70 kΩ. En kiloohm är 1 000 Ω:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=4{,}70\\cdot1000=4700\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4700\\) Ω.</p></div>",
+  "familj": "Välja funktion och mätområde",
+  "familjNyckel": "multimeter__valja_matomrade",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>k betyder tusen.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4700,
+  "tolerans": 0.5,
+  "svarVardesiffror": 3,
+  "svarEnhet": "Ω"
+},
+{
+  "id": "8.630",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "upplösning på display",
+  "poang": "(1/0/0)",
+  "t": "<p>Multimetern mäter spänningen över ett bilbatteri och visar värdet i volt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"230\" viewBox=\"0 0 380 230\" role=\"img\" aria-label=\"En multimeter med vredet på V. Displayen visar 12.47.\"><title>En multimeter med vredet på V. Displayen visar 12.47.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"115\" y=\"15\" width=\"150\" height=\"200\" rx=\"16\" fill=\"#facc15\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><rect x=\"130\" y=\"30\" width=\"120\" height=\"50\" rx=\"6\" fill=\"#1e293b\"/><text x=\"190.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"26\" text-anchor=\"middle\" fill=\"#4ade80\" font-weight=\"bold\">12.47</text><circle cx=\"190\" cy=\"135\" r=\"30\" fill=\"#334155\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"190\" y1=\"135\" x2=\"190\" y2=\"109\" stroke=\"#fff\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"190.0\" y=\"189.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">vred: V (spänning)</text><circle cx=\"145\" cy=\"205\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/><circle cx=\"190\" cy=\"205\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/><circle cx=\"235\" cy=\"205\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/></svg></span><p>Vilket är det minsta steg som displayen kan visa i det här läget? (Svara i V.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Displayen visar två decimaler. Den sista siffran motsvarar hundradelar av en volt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\text{steg}=0{,}01\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}01\\) V.</p></div>",
+  "familj": "Välja funktion och mätområde",
+  "familjNyckel": "multimeter__valja_matomrade",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Titta på den sista siffrans plats.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.01,
+  "tolerans": 0.0005,
+  "svarVardesiffror": 1,
+  "svarEnhet": "V"
+},
+{
+  "id": "8.631",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "OL på resistansläget",
+  "poang": "(1/0/0)",
+  "t": "<p>Multimetern står på resistansmätning. Mätspetsarna hänger fritt och rör inte varandra. Displayen visar OL.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"265\" viewBox=\"0 0 420 265\" role=\"img\" aria-label=\"En multimeter med vredet på ohm. Mätspetsarna hänger fritt i luften och rör inte varandra. Displayen visar OL.\"><title>En multimeter med vredet på ohm. Mätspetsarna hänger fritt i luften och rör inte varandra. Displayen visar OL.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"263\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"15\" width=\"150\" height=\"200\" rx=\"16\" fill=\"#facc15\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><rect x=\"45\" y=\"30\" width=\"120\" height=\"50\" rx=\"6\" fill=\"#1e293b\"/><text x=\"105.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"26\" text-anchor=\"middle\" fill=\"#4ade80\" font-weight=\"bold\">OL</text><circle cx=\"105\" cy=\"135\" r=\"30\" fill=\"#334155\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"105\" y1=\"135\" x2=\"105\" y2=\"109\" stroke=\"#fff\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"105.0\" y=\"189.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">vred: Ω (resistans)</text><circle cx=\"60\" cy=\"205\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/><circle cx=\"105\" cy=\"205\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/><circle cx=\"150\" cy=\"205\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/><path d=\"M 75,205 C 75,250 240,250 260,170\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"3\"/><path d=\"M 165,205 C 165,240 290,245 300,190\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"3\"/><line x1=\"260\" y1=\"170\" x2=\"300\" y2=\"140\" stroke=\"#c2410c\" stroke-width=\"5\" stroke-linecap=\"round\"/><line x1=\"300\" y1=\"190\" x2=\"350\" y2=\"175\" stroke=\"#172b3a\" stroke-width=\"5\" stroke-linecap=\"round\"/><text x=\"330.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">spetsarna rör</text><text x=\"330.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">inte varandra</text></svg></span><p>Vad betyder det?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mellan spetsarna finns bara luft, alltså ingen sluten krets.</p></div><div class=\"facit-stycke\"><p>Resistansen är så stor att den ligger utanför mätområdet. Mätaren visar då OL (overload).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Resistansen är för stor för att mätas.</p></div>",
+  "familj": "Välja funktion och mätområde",
+  "familjNyckel": "multimeter__valja_matomrade",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Kan ström gå mellan spetsarna genom luften?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Resistansen är för stor för att mätas",
+      "ratt": true,
+      "kommentar": "Luft mellan spetsarna ger mycket stor resistans."
+    },
+    {
+      "txt": "Resistansen är noll",
+      "ratt": false,
+      "kommentar": "Noll visas när spetsarna rör varandra."
+    },
+    {
+      "txt": "Batteriet i mätaren är slut",
+      "ratt": false,
+      "kommentar": "OL betyder att värdet ligger utanför mätområdet."
+    },
+    {
+      "txt": "Mätaren mäter spänning i stället",
+      "ratt": false,
+      "kommentar": "Vredet står på Ω."
+    }
+  ]
+},
+{
+  "id": "8.632",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "avläsning av analog voltmeter",
+  "poang": "(1/0/0)",
+  "t": "<p>Figuren visar en analog voltmeter. Skalan går från 0 till 10 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"185\" viewBox=\"0 0 380 185\" role=\"img\" aria-label=\"En analog voltmeter med skala från 0 till 10 V och fem smådelar mellan varje heltal. Visaren pekar på 6,4 V.\"><title>En analog voltmeter med skala från 0 till 10 V och fem smådelar mellan varje heltal. Visaren pekar på 6,4 V.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"183\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M 70,165 A 120 120 0 0 1 310,165\" fill=\"#fffbeb\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"86.0\" y1=\"165.0\" x2=\"70.0\" y2=\"165.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"100.0\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">0</text><line x1=\"78.2\" y1=\"158.0\" x2=\"70.2\" y2=\"157.5\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"78.9\" y1=\"151.0\" x2=\"70.9\" y2=\"150.0\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"80.0\" y1=\"144.0\" x2=\"72.1\" y2=\"142.5\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"81.5\" y1=\"137.1\" x2=\"73.8\" y2=\"135.2\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"91.1\" y1=\"132.9\" x2=\"75.9\" y2=\"127.9\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"104.4\" y=\"142.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">1</text><line x1=\"85.9\" y1=\"123.8\" x2=\"78.4\" y2=\"120.8\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"88.7\" y1=\"117.3\" x2=\"81.4\" y2=\"113.9\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"91.9\" y1=\"111.0\" x2=\"84.8\" y2=\"107.2\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"95.4\" y1=\"105.0\" x2=\"88.7\" y2=\"100.7\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"105.9\" y1=\"103.9\" x2=\"92.9\" y2=\"94.5\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"117.2\" y=\"117.1\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">2</text><line x1=\"103.7\" y1=\"93.6\" x2=\"97.5\" y2=\"88.5\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"108.4\" y1=\"88.3\" x2=\"102.5\" y2=\"82.9\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"113.3\" y1=\"83.4\" x2=\"107.9\" y2=\"77.5\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"118.6\" y1=\"78.7\" x2=\"113.5\" y2=\"72.5\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"128.9\" y1=\"80.9\" x2=\"119.5\" y2=\"67.9\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"137.1\" y=\"97.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3</text><line x1=\"130.0\" y1=\"70.4\" x2=\"125.7\" y2=\"63.7\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"136.0\" y1=\"66.9\" x2=\"132.2\" y2=\"59.8\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"142.3\" y1=\"63.7\" x2=\"138.9\" y2=\"56.4\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"148.8\" y1=\"60.9\" x2=\"145.8\" y2=\"53.4\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"157.9\" y1=\"66.1\" x2=\"152.9\" y2=\"50.9\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"162.2\" y=\"84.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">4</text><line x1=\"162.1\" y1=\"56.5\" x2=\"160.2\" y2=\"48.8\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"169.0\" y1=\"55.0\" x2=\"167.5\" y2=\"47.1\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"176.0\" y1=\"53.9\" x2=\"175.0\" y2=\"45.9\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"183.0\" y1=\"53.2\" x2=\"182.5\" y2=\"45.2\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"190.0\" y1=\"61.0\" x2=\"190.0\" y2=\"45.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"190.0\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">5</text><line x1=\"197.0\" y1=\"53.2\" x2=\"197.5\" y2=\"45.2\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"204.0\" y1=\"53.9\" x2=\"205.0\" y2=\"45.9\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"211.0\" y1=\"55.0\" x2=\"212.5\" y2=\"47.1\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"217.9\" y1=\"56.5\" x2=\"219.8\" y2=\"48.8\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"222.1\" y1=\"66.1\" x2=\"227.1\" y2=\"50.9\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"217.8\" y=\"84.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">6</text><line x1=\"231.2\" y1=\"60.9\" x2=\"234.2\" y2=\"53.4\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"237.7\" y1=\"63.7\" x2=\"241.1\" y2=\"56.4\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"244.0\" y1=\"66.9\" x2=\"247.8\" y2=\"59.8\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"250.0\" y1=\"70.4\" x2=\"254.3\" y2=\"63.7\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"251.1\" y1=\"80.9\" x2=\"260.5\" y2=\"67.9\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"242.9\" y=\"97.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">7</text><line x1=\"261.4\" y1=\"78.7\" x2=\"266.5\" y2=\"72.5\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"266.7\" y1=\"83.4\" x2=\"272.1\" y2=\"77.5\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"271.6\" y1=\"88.3\" x2=\"277.5\" y2=\"82.9\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"276.3\" y1=\"93.6\" x2=\"282.5\" y2=\"88.5\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"274.1\" y1=\"103.9\" x2=\"287.1\" y2=\"94.5\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"262.8\" y=\"117.1\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">8</text><line x1=\"284.6\" y1=\"105.0\" x2=\"291.3\" y2=\"100.7\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"288.1\" y1=\"111.0\" x2=\"295.2\" y2=\"107.2\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"291.3\" y1=\"117.3\" x2=\"298.6\" y2=\"113.9\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"294.1\" y1=\"123.8\" x2=\"301.6\" y2=\"120.8\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"288.9\" y1=\"132.9\" x2=\"304.1\" y2=\"127.9\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"275.6\" y=\"142.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">9</text><line x1=\"298.5\" y1=\"137.1\" x2=\"306.2\" y2=\"135.2\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"300.0\" y1=\"144.0\" x2=\"307.9\" y2=\"142.5\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"301.1\" y1=\"151.0\" x2=\"309.1\" y2=\"150.0\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"301.8\" y1=\"158.0\" x2=\"309.8\" y2=\"157.5\" stroke=\"#172b3a\" stroke-width=\"0.9\"/><line x1=\"294.0\" y1=\"165.0\" x2=\"310.0\" y2=\"165.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"280.0\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">10</text><line x1=\"190\" y1=\"165\" x2=\"238.5\" y2=\"61.8\" stroke=\"#c2410c\" stroke-width=\"2.5\"/><circle cx=\"190\" cy=\"165\" r=\"6\" fill=\"#172b3a\"/><text x=\"190.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">V</text></svg></span><p>Vad visar voltmetern? (Svara i V.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mellan två heltal finns fem smådelar, så varje smådel är 0,2 V.</p></div><div class=\"facit-stycke\"><p>Visaren står två smådelar efter 6 V:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=6+2\\cdot0{,}2=6{,}4\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}4\\) V.</p></div>",
+  "familj": "Välja funktion och mätområde",
+  "familjNyckel": "multimeter__valja_matomrade",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur mycket är en smådel värd?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6.4,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "V"
+},
+{
+  "id": "8.633",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "kontrollera en säkring",
+  "poang": "(1/0/0)",
+  "t": "<p>Du vill veta om en säkring är hel. Du kopplar multimetern, inställd på resistans, till säkringens båda ändar. Displayen visar 0,3 Ω.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"240\" viewBox=\"0 0 420 240\" role=\"img\" aria-label=\"En glassäkring mäts med multimetern på ohm-läget. Displayen visar 0.3.\"><title>En glassäkring mäts med multimetern på ohm-läget. Displayen visar 0.3.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"0\" width=\"150\" height=\"200\" rx=\"16\" fill=\"#facc15\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><rect x=\"45\" y=\"15\" width=\"120\" height=\"50\" rx=\"6\" fill=\"#1e293b\"/><text x=\"105.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"26\" text-anchor=\"middle\" fill=\"#4ade80\" font-weight=\"bold\">0.3</text><circle cx=\"105\" cy=\"120\" r=\"30\" fill=\"#334155\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"105\" y1=\"120\" x2=\"105\" y2=\"94\" stroke=\"#fff\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"105.0\" y=\"174.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">vred: Ω (resistans)</text><circle cx=\"60\" cy=\"190\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/><circle cx=\"105\" cy=\"190\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/><circle cx=\"150\" cy=\"190\" r=\"5\" fill=\"#fff\" stroke=\"#172b3a\"/><rect x=\"270\" y=\"80\" width=\"90\" height=\"30\" rx=\"8\" fill=\"#e0f2fe\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"262\" y=\"80\" width=\"14\" height=\"30\" fill=\"#94a3b8\" stroke=\"#172b3a\"/><rect x=\"354\" y=\"80\" width=\"14\" height=\"30\" fill=\"#94a3b8\" stroke=\"#172b3a\"/><line x1=\"276\" y1=\"95\" x2=\"354\" y2=\"95\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"315.0\" y=\"70.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">säkring</text><path d=\"M 75,190 C 75,235 250,235 262,110\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"3\"/><path d=\"M 165,190 C 165,225 380,230 368,110\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"3\"/></svg></span><p>Vad visar mätningen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En hel säkring har en tunn tråd som leder ström. Då är resistansen mycket liten, nära noll.</p></div><div class=\"facit-stycke\"><p>0,3 Ω är en mycket liten resistans, så säkringen är hel. En trasig säkring hade gett OL.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Säkringen är hel.</p></div>",
+  "familj": "Koppla in multimetern i kretsen",
+  "familjNyckel": "multimeter__koppla_in",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Liten resistans betyder att strömmen har en väg.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Säkringen är hel",
+      "ratt": true,
+      "kommentar": "Mycket liten resistans betyder att tråden leder."
+    },
+    {
+      "txt": "Säkringen är trasig",
+      "ratt": false,
+      "kommentar": "En trasig säkring hade visat OL."
+    },
+    {
+      "txt": "Det går inte att avgöra med en multimeter",
+      "ratt": false,
+      "kommentar": "Resistansläget visar om tråden leder."
+    }
+  ]
+},
+{
+  "id": "8.634",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "spänning över andra lampan i serie",
+  "poang": "(1/0/0)",
+  "t": "<p>Två lampor är seriekopplade till ett batteri på 6,0 V. En voltmeter över lampa L₁ visar 2,5 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"250\" viewBox=\"0 0 420 250\" role=\"img\" aria-label=\"Två lampor i serie med ett batteri på 6,0 V. En voltmeter över lampa L1 visar 2,5 V.\"><title>Två lampor i serie med ett batteri på 6,0 V. En voltmeter över lampa L1 visar 2,5 V.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polyline points=\"60,122 60,50 360,50 360,210 60,210 60,138\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"40\" y=\"121\" width=\"40\" height=\"18\" fill=\"#fff\"/><line x1=\"42\" y1=\"123\" x2=\"78\" y2=\"123\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"51\" y1=\"137\" x2=\"69\" y2=\"137\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"84.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">+</text><text x=\"34.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">6,0 V</text><circle cx=\"160\" cy=\"50\" r=\"15\" fill=\"#fef9c3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"149.4\" y1=\"39.4\" x2=\"170.6\" y2=\"60.6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"149.4\" y1=\"60.6\" x2=\"170.6\" y2=\"39.4\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"160.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">L₁</text><circle cx=\"280\" cy=\"50\" r=\"15\" fill=\"#fef9c3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"269.4\" y1=\"39.4\" x2=\"290.6\" y2=\"60.6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"269.4\" y1=\"60.6\" x2=\"290.6\" y2=\"39.4\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"280.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">L₂</text><circle cx=\"125\" cy=\"50\" r=\"4\" fill=\"#2B2527\"/><circle cx=\"195\" cy=\"50\" r=\"4\" fill=\"#2B2527\"/><polyline points=\"125,50 125,130 145,130\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><polyline points=\"175,130 195,130 195,50\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><circle cx=\"160\" cy=\"130\" r=\"15\" fill=\"#fff\" stroke=\"#2f7d4a\" stroke-width=\"2.4\"/><text x=\"160.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">V</text><text x=\"160.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">2,5 V</text><text x=\"280.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">?</text></svg></span><p>Hur stor är spänningen över lampa L₂? (Svara i V.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I en seriekoppling delas batteriets spänning mellan komponenterna:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_2=6{,}0-2{,}5=3{,}5\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}5\\) V.</p></div>",
+  "familj": "Koppla in multimetern i kretsen",
+  "familjNyckel": "multimeter__koppla_in",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Spänningarna över lamporna ska tillsammans bli batteriets spänning.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3.5,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "V"
+},
+{
+  "id": "8.635",
+  "kap": 8,
+  "omr": "multimeter",
+  "niva": "E",
+  "typ": "ström före och efter en lampa",
+  "poang": "(1/0/0)",
+  "t": "<p>En lampa är kopplad till ett batteri. Amperemeter A₁ sitter före lampan och A₂ efter lampan. A₁ visar 0,20 A.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"230\" viewBox=\"0 0 420 230\" role=\"img\" aria-label=\"En seriekrets med ett batteri, en lampa och två amperemetrar, en före och en efter lampan. A1 visar 0,20 A.\"><title>En seriekrets med ett batteri, en lampa och två amperemetrar, en före och en efter lampan. A1 visar 0,20 A.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polyline points=\"60,112 60,50 360,50 360,190 60,190 60,128\" fill=\"none\" stroke=\"#2B2527\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><rect x=\"40\" y=\"111\" width=\"40\" height=\"18\" fill=\"#fff\"/><line x1=\"42\" y1=\"113\" x2=\"78\" y2=\"113\" stroke=\"#2B2527\" stroke-width=\"2.6\"/><line x1=\"51\" y1=\"127\" x2=\"69\" y2=\"127\" stroke=\"#2B2527\" stroke-width=\"5\"/><text x=\"84.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">+</text><circle cx=\"130\" cy=\"50\" r=\"15\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2.4\"/><text x=\"130.0\" y=\"56.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><text x=\"130.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A₁: 0,20 A</text><circle cx=\"220\" cy=\"50\" r=\"15\" fill=\"#fef9c3\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"209.4\" y1=\"39.4\" x2=\"230.6\" y2=\"60.6\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><line x1=\"209.4\" y1=\"60.6\" x2=\"230.6\" y2=\"39.4\" stroke=\"#2B2527\" stroke-width=\"1.8\"/><text x=\"220.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">lampa</text><circle cx=\"300\" cy=\"50\" r=\"15\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2.4\"/><text x=\"300.0\" y=\"56.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><text x=\"300.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A₂: ?</text></svg></span><p>Vad visar A₂? (Svara i A.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen förbrukas inte i lampan. I en seriekrets är strömmen lika stor överallt:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_2=0{,}20\\ \\mathrm A\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}20\\) A.</p></div>",
+  "familj": "Koppla in multimetern i kretsen",
+  "familjNyckel": "multimeter__koppla_in",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Förbrukar lampan ström eller energi?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.2,
+  "tolerans": 0.005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "A"
 }
 ];

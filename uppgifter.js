@@ -203931,5 +203931,281 @@ window.BANK = [
   "tolerans": 0.0005,
   "svarVardesiffror": 2,
   "svarEnhet": "kN"
+},
+{
+  "id": "2.351",
+  "kap": 2,
+  "omr": "matnogg",
+  "niva": "E",
+  "typ": "avläsa längd på linjal",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett blyertsstift ligger mot en linjal. Stiftets vänstra ände ligger vid nollan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"150\" viewBox=\"0 0 400 150\" role=\"img\" aria-label=\"Ett blyertsstift ligger mot en linjal. Den vänstra änden är vid 0 och den högra vid 7,4 cm.\"><title>Ett blyertsstift ligger mot en linjal. Den vänstra änden är vid 0 och den högra vid 7,4 cm.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"52\" width=\"251.6\" height=\"16\" rx=\"8\" fill=\"#216d87\"/><rect x=\"30\" y=\"72\" width=\"360\" height=\"44\" fill=\"#fef3c7\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"72\" x2=\"40.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"40.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">0</text><line x1=\"43.4\" y1=\"72\" x2=\"43.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"46.8\" y1=\"72\" x2=\"46.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"50.2\" y1=\"72\" x2=\"50.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"53.6\" y1=\"72\" x2=\"53.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"57.0\" y1=\"72\" x2=\"57.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"60.4\" y1=\"72\" x2=\"60.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"63.8\" y1=\"72\" x2=\"63.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"67.2\" y1=\"72\" x2=\"67.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"70.6\" y1=\"72\" x2=\"70.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"74.0\" y1=\"72\" x2=\"74.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"74.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">1</text><line x1=\"77.4\" y1=\"72\" x2=\"77.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"80.8\" y1=\"72\" x2=\"80.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"84.2\" y1=\"72\" x2=\"84.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"87.6\" y1=\"72\" x2=\"87.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"91.0\" y1=\"72\" x2=\"91.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"94.4\" y1=\"72\" x2=\"94.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"97.8\" y1=\"72\" x2=\"97.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"101.2\" y1=\"72\" x2=\"101.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"104.6\" y1=\"72\" x2=\"104.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"108.0\" y1=\"72\" x2=\"108.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"108.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">2</text><line x1=\"111.4\" y1=\"72\" x2=\"111.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"114.8\" y1=\"72\" x2=\"114.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"118.2\" y1=\"72\" x2=\"118.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"121.6\" y1=\"72\" x2=\"121.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"125.0\" y1=\"72\" x2=\"125.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"128.4\" y1=\"72\" x2=\"128.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"131.8\" y1=\"72\" x2=\"131.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"135.2\" y1=\"72\" x2=\"135.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"138.6\" y1=\"72\" x2=\"138.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"142.0\" y1=\"72\" x2=\"142.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"142.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3</text><line x1=\"145.4\" y1=\"72\" x2=\"145.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"148.8\" y1=\"72\" x2=\"148.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"152.2\" y1=\"72\" x2=\"152.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"155.6\" y1=\"72\" x2=\"155.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"159.0\" y1=\"72\" x2=\"159.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"162.4\" y1=\"72\" x2=\"162.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"165.8\" y1=\"72\" x2=\"165.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"169.2\" y1=\"72\" x2=\"169.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"172.6\" y1=\"72\" x2=\"172.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"176.0\" y1=\"72\" x2=\"176.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"176.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">4</text><line x1=\"179.4\" y1=\"72\" x2=\"179.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"182.8\" y1=\"72\" x2=\"182.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"186.2\" y1=\"72\" x2=\"186.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"189.6\" y1=\"72\" x2=\"189.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"193.0\" y1=\"72\" x2=\"193.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"196.4\" y1=\"72\" x2=\"196.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"199.8\" y1=\"72\" x2=\"199.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"203.2\" y1=\"72\" x2=\"203.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"206.6\" y1=\"72\" x2=\"206.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"210.0\" y1=\"72\" x2=\"210.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"210.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">5</text><line x1=\"213.4\" y1=\"72\" x2=\"213.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"216.8\" y1=\"72\" x2=\"216.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"220.2\" y1=\"72\" x2=\"220.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"223.6\" y1=\"72\" x2=\"223.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"227.0\" y1=\"72\" x2=\"227.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"230.4\" y1=\"72\" x2=\"230.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"233.8\" y1=\"72\" x2=\"233.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"237.2\" y1=\"72\" x2=\"237.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"240.6\" y1=\"72\" x2=\"240.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"244.0\" y1=\"72\" x2=\"244.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"244.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">6</text><line x1=\"247.4\" y1=\"72\" x2=\"247.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"250.8\" y1=\"72\" x2=\"250.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"254.2\" y1=\"72\" x2=\"254.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"257.6\" y1=\"72\" x2=\"257.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"261.0\" y1=\"72\" x2=\"261.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"264.4\" y1=\"72\" x2=\"264.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"267.8\" y1=\"72\" x2=\"267.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"271.2\" y1=\"72\" x2=\"271.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"274.6\" y1=\"72\" x2=\"274.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"278.0\" y1=\"72\" x2=\"278.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"278.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">7</text><line x1=\"281.4\" y1=\"72\" x2=\"281.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"284.8\" y1=\"72\" x2=\"284.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"288.2\" y1=\"72\" x2=\"288.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"291.6\" y1=\"72\" x2=\"291.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"295.0\" y1=\"72\" x2=\"295.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"298.4\" y1=\"72\" x2=\"298.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"301.8\" y1=\"72\" x2=\"301.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"305.2\" y1=\"72\" x2=\"305.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"308.6\" y1=\"72\" x2=\"308.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"312.0\" y1=\"72\" x2=\"312.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"312.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">8</text><line x1=\"315.4\" y1=\"72\" x2=\"315.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"318.8\" y1=\"72\" x2=\"318.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"322.2\" y1=\"72\" x2=\"322.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"325.6\" y1=\"72\" x2=\"325.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"329.0\" y1=\"72\" x2=\"329.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"332.4\" y1=\"72\" x2=\"332.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"335.8\" y1=\"72\" x2=\"335.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"339.2\" y1=\"72\" x2=\"339.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"342.6\" y1=\"72\" x2=\"342.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"346.0\" y1=\"72\" x2=\"346.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"346.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">9</text><line x1=\"349.4\" y1=\"72\" x2=\"349.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"352.8\" y1=\"72\" x2=\"352.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"356.2\" y1=\"72\" x2=\"356.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"359.6\" y1=\"72\" x2=\"359.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"363.0\" y1=\"72\" x2=\"363.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"366.4\" y1=\"72\" x2=\"366.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"369.8\" y1=\"72\" x2=\"369.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"373.2\" y1=\"72\" x2=\"373.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"376.6\" y1=\"72\" x2=\"376.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"380.0\" y1=\"72\" x2=\"380.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"380.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">10</text><text x=\"382.0\" y=\"114.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">cm</text></svg></span><p>Hur långt är stiftet? (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Linjalen har millimeterstreck. Den högra änden ligger fyra millimeterstreck efter 7 cm.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[L=7{,}4\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(7{,}4\\) cm.</p></div>",
+  "familj": "Mätosäkerhet och felgränser",
+  "familjNyckel": "matnogg__avlasning_och_upplosning",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Räkna millimeterstrecken efter närmaste hela centimeter.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 7.4,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "cm"
+},
+{
+  "id": "2.352",
+  "kap": 2,
+  "omr": "matnogg",
+  "niva": "E",
+  "typ": "längd när mätningen inte börjar vid noll",
+  "poang": "(1/0/0)",
+  "t": "<p>En pinne mäts med en linjal, men pinnen ligger inte vid linjalens nolla.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"150\" viewBox=\"0 0 400 150\" role=\"img\" aria-label=\"En pinne ligger mot en linjal. Den vänstra änden är vid 2,0 cm och den högra vid 8,5 cm.\"><title>En pinne ligger mot en linjal. Den vänstra änden är vid 2,0 cm och den högra vid 8,5 cm.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"108.0\" y=\"50\" width=\"221.0\" height=\"18\" rx=\"4\" fill=\"#a16207\"/><rect x=\"30\" y=\"72\" width=\"360\" height=\"44\" fill=\"#fef3c7\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"40.0\" y1=\"72\" x2=\"40.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"40.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">0</text><line x1=\"43.4\" y1=\"72\" x2=\"43.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"46.8\" y1=\"72\" x2=\"46.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"50.2\" y1=\"72\" x2=\"50.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"53.6\" y1=\"72\" x2=\"53.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"57.0\" y1=\"72\" x2=\"57.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"60.4\" y1=\"72\" x2=\"60.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"63.8\" y1=\"72\" x2=\"63.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"67.2\" y1=\"72\" x2=\"67.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"70.6\" y1=\"72\" x2=\"70.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"74.0\" y1=\"72\" x2=\"74.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"74.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">1</text><line x1=\"77.4\" y1=\"72\" x2=\"77.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"80.8\" y1=\"72\" x2=\"80.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"84.2\" y1=\"72\" x2=\"84.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"87.6\" y1=\"72\" x2=\"87.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"91.0\" y1=\"72\" x2=\"91.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"94.4\" y1=\"72\" x2=\"94.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"97.8\" y1=\"72\" x2=\"97.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"101.2\" y1=\"72\" x2=\"101.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"104.6\" y1=\"72\" x2=\"104.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"108.0\" y1=\"72\" x2=\"108.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"108.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">2</text><line x1=\"111.4\" y1=\"72\" x2=\"111.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"114.8\" y1=\"72\" x2=\"114.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"118.2\" y1=\"72\" x2=\"118.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"121.6\" y1=\"72\" x2=\"121.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"125.0\" y1=\"72\" x2=\"125.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"128.4\" y1=\"72\" x2=\"128.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"131.8\" y1=\"72\" x2=\"131.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"135.2\" y1=\"72\" x2=\"135.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"138.6\" y1=\"72\" x2=\"138.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"142.0\" y1=\"72\" x2=\"142.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"142.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3</text><line x1=\"145.4\" y1=\"72\" x2=\"145.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"148.8\" y1=\"72\" x2=\"148.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"152.2\" y1=\"72\" x2=\"152.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"155.6\" y1=\"72\" x2=\"155.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"159.0\" y1=\"72\" x2=\"159.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"162.4\" y1=\"72\" x2=\"162.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"165.8\" y1=\"72\" x2=\"165.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"169.2\" y1=\"72\" x2=\"169.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"172.6\" y1=\"72\" x2=\"172.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"176.0\" y1=\"72\" x2=\"176.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"176.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">4</text><line x1=\"179.4\" y1=\"72\" x2=\"179.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"182.8\" y1=\"72\" x2=\"182.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"186.2\" y1=\"72\" x2=\"186.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"189.6\" y1=\"72\" x2=\"189.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"193.0\" y1=\"72\" x2=\"193.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"196.4\" y1=\"72\" x2=\"196.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"199.8\" y1=\"72\" x2=\"199.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"203.2\" y1=\"72\" x2=\"203.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"206.6\" y1=\"72\" x2=\"206.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"210.0\" y1=\"72\" x2=\"210.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"210.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">5</text><line x1=\"213.4\" y1=\"72\" x2=\"213.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"216.8\" y1=\"72\" x2=\"216.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"220.2\" y1=\"72\" x2=\"220.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"223.6\" y1=\"72\" x2=\"223.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"227.0\" y1=\"72\" x2=\"227.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"230.4\" y1=\"72\" x2=\"230.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"233.8\" y1=\"72\" x2=\"233.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"237.2\" y1=\"72\" x2=\"237.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"240.6\" y1=\"72\" x2=\"240.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"244.0\" y1=\"72\" x2=\"244.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"244.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">6</text><line x1=\"247.4\" y1=\"72\" x2=\"247.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"250.8\" y1=\"72\" x2=\"250.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"254.2\" y1=\"72\" x2=\"254.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"257.6\" y1=\"72\" x2=\"257.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"261.0\" y1=\"72\" x2=\"261.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"264.4\" y1=\"72\" x2=\"264.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"267.8\" y1=\"72\" x2=\"267.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"271.2\" y1=\"72\" x2=\"271.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"274.6\" y1=\"72\" x2=\"274.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"278.0\" y1=\"72\" x2=\"278.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"278.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">7</text><line x1=\"281.4\" y1=\"72\" x2=\"281.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"284.8\" y1=\"72\" x2=\"284.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"288.2\" y1=\"72\" x2=\"288.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"291.6\" y1=\"72\" x2=\"291.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"295.0\" y1=\"72\" x2=\"295.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"298.4\" y1=\"72\" x2=\"298.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"301.8\" y1=\"72\" x2=\"301.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"305.2\" y1=\"72\" x2=\"305.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"308.6\" y1=\"72\" x2=\"308.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"312.0\" y1=\"72\" x2=\"312.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"312.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">8</text><line x1=\"315.4\" y1=\"72\" x2=\"315.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"318.8\" y1=\"72\" x2=\"318.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"322.2\" y1=\"72\" x2=\"322.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"325.6\" y1=\"72\" x2=\"325.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"329.0\" y1=\"72\" x2=\"329.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"332.4\" y1=\"72\" x2=\"332.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"335.8\" y1=\"72\" x2=\"335.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"339.2\" y1=\"72\" x2=\"339.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"342.6\" y1=\"72\" x2=\"342.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"346.0\" y1=\"72\" x2=\"346.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"346.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">9</text><line x1=\"349.4\" y1=\"72\" x2=\"349.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"352.8\" y1=\"72\" x2=\"352.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"356.2\" y1=\"72\" x2=\"356.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"359.6\" y1=\"72\" x2=\"359.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"363.0\" y1=\"72\" x2=\"363.0\" y2=\"83\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"366.4\" y1=\"72\" x2=\"366.4\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"369.8\" y1=\"72\" x2=\"369.8\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"373.2\" y1=\"72\" x2=\"373.2\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"376.6\" y1=\"72\" x2=\"376.6\" y2=\"79\" stroke=\"#172b3a\" stroke-width=\"0.8\"/><line x1=\"380.0\" y1=\"72\" x2=\"380.0\" y2=\"88\" stroke=\"#172b3a\" stroke-width=\"1.3\"/><text x=\"380.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">10</text><text x=\"382.0\" y=\"114.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">cm</text></svg></span><p>Hur lång är pinnen? (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Läs av båda ändarna och ta skillnaden:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[L=8{,}5-2{,}0=6{,}5\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}5\\) cm.</p></div>",
+  "familj": "Mätosäkerhet och felgränser",
+  "familjNyckel": "matnogg__avlasning_och_upplosning",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Längden är skillnaden mellan ändarnas avläsningar.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6.5,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "cm"
+},
+{
+  "id": "2.353",
+  "kap": 2,
+  "omr": "matnogg",
+  "niva": "E",
+  "typ": "systematiskt fel på våg",
+  "poang": "(1/0/0)",
+  "t": "<p>En köksvåg visar 0,3 kg trots att ingenting ligger på den. Du väger sedan flera saker utan att nollställa vågen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"190\" viewBox=\"0 0 380 190\" role=\"img\" aria-label=\"En köksvåg utan något på. Displayen visar 0,3 kg.\"><title>En köksvåg utan något på. Displayen visar 0,3 kg.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"90\" y=\"60\" width=\"200\" height=\"90\" rx=\"12\" fill=\"#e2e8f0\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><rect x=\"80\" y=\"45\" width=\"220\" height=\"16\" rx=\"6\" fill=\"#cbd5e1\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"135\" y=\"85\" width=\"110\" height=\"40\" rx=\"5\" fill=\"#0f172a\"/><text x=\"190.0\" y=\"114.0\" font-family=\"Arial,sans-serif\" font-size=\"20\" text-anchor=\"middle\" fill=\"#4ade80\" font-weight=\"bold\">0,3 kg</text><text x=\"190.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">tom våg</text></svg></span><p>Vilken sorts fel får mätningarna?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vågen visar 0,3 kg för mycket varje gång, alltid åt samma håll.</p></div><div class=\"facit-stycke\"><p>Ett fel som påverkar alla mätningar på samma sätt kallas systematiskt fel. Det försvinner inte om man mäter många gånger, men kan rättas genom att nollställa vågen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ett systematiskt fel.</p></div>",
+  "familj": "Mätmetod, spridning och fel",
+  "familjNyckel": "matnogg__systematiska_och_slumpmassiga_fel",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Blir felet olika stort från gång till gång, eller lika varje gång?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ett systematiskt fel",
+      "ratt": true,
+      "kommentar": "Felet är lika stort och åt samma håll varje gång."
+    },
+    {
+      "txt": "Ett slumpmässigt fel",
+      "ratt": false,
+      "kommentar": "Slumpmässiga fel varierar från mätning till mätning."
+    },
+    {
+      "txt": "Inget fel, eftersom vågen visar ett tal",
+      "ratt": false,
+      "kommentar": "En tom våg ska visa 0."
+    }
+  ]
+},
+{
+  "id": "2.354",
+  "kap": 2,
+  "omr": "matnogg",
+  "niva": "E",
+  "typ": "medelvärde ur prickdiagram",
+  "poang": "(1/0/0)",
+  "t": "<p>En grupp mäter samma falltid fem gånger. Diagrammet visar mätvärdena.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"180\" viewBox=\"0 0 400 180\" role=\"img\" aria-label=\"Prickdiagram med fem tidsmätningar: 2,3, 2,4, 2,5, 2,6 och 2,7 sekunder.\"><title>Prickdiagram med fem tidsmätningar: 2,3, 2,4, 2,5, 2,6 och 2,7 sekunder.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50\" y1=\"120\" x2=\"370\" y2=\"120\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"50.0\" y1=\"120\" x2=\"50.0\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"50.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2,2</text><line x1=\"103.3\" y1=\"120\" x2=\"103.3\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"103.3\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2,3</text><line x1=\"156.7\" y1=\"120\" x2=\"156.7\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"156.7\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2,4</text><line x1=\"210.0\" y1=\"120\" x2=\"210.0\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"210.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2,5</text><line x1=\"263.3\" y1=\"120\" x2=\"263.3\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"263.3\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2,6</text><line x1=\"316.7\" y1=\"120\" x2=\"316.7\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"316.7\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2,7</text><line x1=\"370.0\" y1=\"120\" x2=\"370.0\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"370.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2,8</text><circle cx=\"156.7\" cy=\"108\" r=\"8\" fill=\"#216d87\"/><circle cx=\"263.3\" cy=\"108\" r=\"8\" fill=\"#216d87\"/><circle cx=\"210.0\" cy=\"108\" r=\"8\" fill=\"#216d87\"/><circle cx=\"316.7\" cy=\"108\" r=\"8\" fill=\"#216d87\"/><circle cx=\"103.3\" cy=\"108\" r=\"8\" fill=\"#216d87\"/><text x=\"370.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">tid (s)</text></svg></span><p>Vilket är medelvärdet av mätningarna? (Svara i s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lägg ihop de fem mätvärdena och dela med antalet:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\bar t=\\frac{2{,}3+2{,}4+2{,}5+2{,}6+2{,}7}{5}=\\frac{12{,}5}{5}=2{,}5\\ \\mathrm s\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(2{,}5\\) s.</p></div>",
+  "familj": "Mätmetod, spridning och fel",
+  "familjNyckel": "matnogg__upprepade_matningar_och_spridning",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Medelvärdet är summan delad med antalet.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.5,
+  "tolerans": 0.005,
+  "svarVardesiffror": 2,
+  "svarEnhet": "s"
+},
+{
+  "id": "2.355",
+  "kap": 2,
+  "omr": "matnogg",
+  "niva": "E",
+  "typ": "avvikande mätvärde",
+  "poang": "(1/0/0)",
+  "t": "<p>En elev tar tid på en vagn som rullar nedför en ramp sex gånger. Diagrammet visar mätvärdena.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"180\" viewBox=\"0 0 400 180\" role=\"img\" aria-label=\"Prickdiagram med sex mätningar. Fem ligger mellan 3,1 och 3,3 sekunder och en ligger vid 4,0 sekunder.\"><title>Prickdiagram med sex mätningar. Fem ligger mellan 3,1 och 3,3 sekunder och en ligger vid 4,0 sekunder.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"178\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50\" y1=\"120\" x2=\"370\" y2=\"120\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"50.0\" y1=\"120\" x2=\"50.0\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"50.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3,0</text><line x1=\"103.3\" y1=\"120\" x2=\"103.3\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"103.3\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3,2</text><line x1=\"156.7\" y1=\"120\" x2=\"156.7\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"156.7\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3,4</text><line x1=\"210.0\" y1=\"120\" x2=\"210.0\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"210.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3,6</text><line x1=\"263.3\" y1=\"120\" x2=\"263.3\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"263.3\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3,8</text><line x1=\"316.7\" y1=\"120\" x2=\"316.7\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"316.7\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4,0</text><line x1=\"370.0\" y1=\"120\" x2=\"370.0\" y2=\"127\" stroke=\"#172b3a\"/><text x=\"370.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4,2</text><circle cx=\"76.7\" cy=\"108\" r=\"8\" fill=\"#216d87\"/><circle cx=\"103.3\" cy=\"108\" r=\"8\" fill=\"#216d87\"/><circle cx=\"103.3\" cy=\"88\" r=\"8\" fill=\"#216d87\"/><circle cx=\"130.0\" cy=\"108\" r=\"8\" fill=\"#216d87\"/><circle cx=\"76.7\" cy=\"88\" r=\"8\" fill=\"#216d87\"/><circle cx=\"316.7\" cy=\"108\" r=\"8\" fill=\"#216d87\"/><text x=\"370.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">tid (s)</text><text x=\"330.0\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">?</text></svg></span><p>Vilket mätvärde bör eleven kontrollera innan medelvärdet beräknas?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fem av mätvärdena ligger nära varandra, mellan 3,1 s och 3,3 s.</p></div><div class=\"facit-stycke\"><p>Värdet 4,0 s avviker tydligt. Det kan bero på ett misstag, till exempel att klockan startades för tidigt. Det bör kontrolleras eller mätas om.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4,0 s.</p></div>",
+  "familj": "Mätmetod, spridning och fel",
+  "familjNyckel": "matnogg__upprepade_matningar_och_spridning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilket värde ligger långt från de andra?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "4,0 s",
+      "ratt": true,
+      "kommentar": "Det ligger långt från de övriga."
+    },
+    {
+      "txt": "3,1 s",
+      "ratt": false,
+      "kommentar": "Det ligger nära de andra värdena."
+    },
+    {
+      "txt": "3,2 s",
+      "ratt": false,
+      "kommentar": "Det är ett av de vanligaste värdena."
+    },
+    {
+      "txt": "Inget, alla värden är lika bra",
+      "ratt": false,
+      "kommentar": "Ett värde avviker tydligt från resten."
+    }
+  ]
+},
+{
+  "id": "2.356",
+  "kap": 2,
+  "omr": "matnogg",
+  "niva": "E",
+  "typ": "relativ osäkerhet i procent",
+  "poang": "(1/0/0)",
+  "t": "<p>En massa mäts till 50,0 g med osäkerheten ±0,5 g.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"170\" viewBox=\"0 0 380 170\" role=\"img\" aria-label=\"En våg visar 50,0 g. Osäkerheten är 0,5 g.\"><title>En våg visar 50,0 g. Osäkerheten är 0,5 g.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"100\" y=\"40\" width=\"180\" height=\"100\" rx=\"12\" fill=\"#e2e8f0\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><rect x=\"125\" y=\"60\" width=\"130\" height=\"44\" rx=\"5\" fill=\"#0f172a\"/><text x=\"190.0\" y=\"91.0\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"#4ade80\" font-weight=\"bold\">50,0 g</text><text x=\"190.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">osäkerhet ± 0,5 g</text></svg></span><p>Hur stor är den relativa osäkerheten? (Svara i procent.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den relativa osäkerheten är den absoluta osäkerheten delad med mätvärdet:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{0{,}5}{50{,}0}=0{,}01=1\\ \\%\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(1\\) %.</p></div>",
+  "familj": "Mätosäkerhet och felgränser",
+  "familjNyckel": "matnogg__relativ_och_procentuell_osakerhet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Dela osäkerheten med mätvärdet.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.0,
+  "tolerans": 0.05,
+  "svarVardesiffror": 1,
+  "svarEnhet": "%"
+},
+{
+  "id": "2.357",
+  "kap": 2,
+  "omr": "matnogg",
+  "niva": "E",
+  "typ": "lägsta möjliga värde",
+  "poang": "(1/0/0)",
+  "t": "<p>En temperatur mäts till 21,5 °C med osäkerheten ±0,5 °C.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"230\" viewBox=\"0 0 380 230\" role=\"img\" aria-label=\"En termometer som visar 21,5 grader Celsius. Osäkerheten är 0,5 grader.\"><title>En termometer som visar 21,5 grader Celsius. Osäkerheten är 0,5 grader.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"170\" y=\"20\" width=\"40\" height=\"170\" rx=\"20\" fill=\"#f8fafc\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"190\" cy=\"195\" r=\"24\" fill=\"#dc2626\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"183\" y=\"80\" width=\"14\" height=\"115\" fill=\"#dc2626\"/><text x=\"225.0\" y=\"86.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">21,5 °C</text><text x=\"225.0\" y=\"106.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">± 0,5 °C</text><line x1=\"198\" y1=\"80\" x2=\"220\" y2=\"80\" stroke=\"#172b3a\" stroke-width=\"1.5\"/></svg></span><p>Vilket är det lägsta värde som temperaturen kan ha enligt mätningen? (Svara i °C.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Mätintervallet sträcker sig 0,5 °C åt båda håll från mätvärdet. Den undre gränsen är</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[T_{\\min}=21{,}5-0{,}5=21{,}0\\ ^\\circ\\mathrm C\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(21{,}0\\) °C.</p></div>",
+  "familj": "Mätosäkerhet och felgränser",
+  "familjNyckel": "matnogg__matintervall_och_absolut_osakerhet",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Dra bort osäkerheten från mätvärdet.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 21.0,
+  "tolerans": 0.05,
+  "svarVardesiffror": 3,
+  "svarEnhet": "°C"
+},
+{
+  "id": "2.358",
+  "kap": 2,
+  "omr": "matnogg",
+  "niva": "E",
+  "typ": "parallax vid avläsning",
+  "poang": "(1/0/0)",
+  "t": "<p>Du ska läsa av vätskevolymen i ett mätglas. Figuren visar tre möjliga positioner för ögat.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"230\" viewBox=\"0 0 400 230\" role=\"img\" aria-label=\"Ett mätglas med vätska och tre ögon på olika höjd: A ovanför vätskeytan, B i höjd med vätskeytan och C under vätskeytan.\"><title>Ett mätglas med vätska och tre ögon på olika höjd: A ovanför vätskeytan, B i höjd med vätskeytan och C under vätskeytan.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"170\" y=\"30\" width=\"80\" height=\"180\" fill=\"#f8fafc\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><rect x=\"171.5\" y=\"110\" width=\"77\" height=\"98.5\" fill=\"#bfdbfe\"/><path d=\"M 172,110 Q 210,122 248,110\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2\"/><line x1=\"170\" y1=\"30\" x2=\"195\" y2=\"30\" stroke=\"#172b3a\"/><line x1=\"170\" y1=\"50\" x2=\"185\" y2=\"50\" stroke=\"#172b3a\"/><line x1=\"170\" y1=\"70\" x2=\"195\" y2=\"70\" stroke=\"#172b3a\"/><line x1=\"170\" y1=\"90\" x2=\"185\" y2=\"90\" stroke=\"#172b3a\"/><line x1=\"170\" y1=\"110\" x2=\"195\" y2=\"110\" stroke=\"#172b3a\"/><line x1=\"170\" y1=\"130\" x2=\"185\" y2=\"130\" stroke=\"#172b3a\"/><line x1=\"170\" y1=\"150\" x2=\"195\" y2=\"150\" stroke=\"#172b3a\"/><line x1=\"170\" y1=\"170\" x2=\"185\" y2=\"170\" stroke=\"#172b3a\"/><line x1=\"170\" y1=\"190\" x2=\"195\" y2=\"190\" stroke=\"#172b3a\"/><line x1=\"170\" y1=\"210\" x2=\"185\" y2=\"210\" stroke=\"#172b3a\"/><ellipse cx=\"70\" cy=\"60\" rx=\"18\" ry=\"10\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"74\" cy=\"60\" r=\"5\" fill=\"#172b3a\"/><text x=\"40.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">A</text><ellipse cx=\"70\" cy=\"116\" rx=\"18\" ry=\"10\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"74\" cy=\"116\" r=\"5\" fill=\"#172b3a\"/><text x=\"40.0\" y=\"121.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">B</text><ellipse cx=\"70\" cy=\"175\" rx=\"18\" ry=\"10\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"74\" cy=\"175\" r=\"5\" fill=\"#172b3a\"/><text x=\"40.0\" y=\"180.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">C</text><line x1=\"92\" y1=\"116\" x2=\"168\" y2=\"116\" stroke=\"#5b6773\" stroke-dasharray=\"4 4\"/></svg></span><p>Från vilken position blir avläsningen rätt?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ögat ska vara i höjd med vätskeytans lägsta punkt.</p></div><div class=\"facit-stycke\"><p>Tittar man snett uppifrån eller underifrån hamnar ytan mot fel streck på skalan. Det kallas parallaxfel. Position B ger rätt avläsning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+  "familj": "Mätmetod, spridning och fel",
+  "familjNyckel": "matnogg__matmetod_och_experimentdesign",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Ögat ska vara på samma höjd som det man läser av.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "B",
+      "ratt": true,
+      "kommentar": "Ögat är i höjd med vätskeytan."
+    },
+    {
+      "txt": "A",
+      "ratt": false,
+      "kommentar": "Snett uppifrån ger ett parallaxfel."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "Snett underifrån ger ett parallaxfel."
+    },
+    {
+      "txt": "Alla ger samma avläsning",
+      "ratt": false,
+      "kommentar": "Avläsningen beror på ögats höjd."
+    }
+  ]
 }
 ];

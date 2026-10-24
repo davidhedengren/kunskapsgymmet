@@ -201759,5 +201759,267 @@ window.BANK = [
   "tolerans": 0.0005,
   "svarVardesiffror": 3,
   "svarEnhet": "m/s²"
+},
+{
+  "id": "4.845",
+  "kap": 4,
+  "omr": "lutande_plan",
+  "niva": "E",
+  "typ": "komponent längs planet i figur",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda står på en ramp. Tyngdkraften kan delas upp i en komponent längs rampen och en komponent vinkelrätt mot rampen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"270\" viewBox=\"0 0 400 270\" role=\"img\" aria-label=\"En låda på en ramp som lutar 30 grader med fyra pilar från lådans mitt: A längs rampen nedåt, B vinkelrätt in i rampen, C rakt nedåt och D vinkelrätt ut från rampen.\"><title>En låda på en ramp som lutar 30 grader med fyra pilar från lådans mitt: A längs rampen nedåt, B vinkelrätt in i rampen, C rakt nedåt och D vinkelrätt ut från rampen.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"30,240 370,240 370,43.7\" fill=\"#efe6d4\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><path d=\"M 76,240 A 46 46 0 0 0 69.8,217.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"88.0\" y=\"230.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">30°</text><polygon points=\"192.8,146.0 241.2,118.0 223.2,86.9 174.8,114.9\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"208.0\" y1=\"116.4\" x2=\"144.4\" y2=\"153.1\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"138.7,156.4 150.7,155.2 145.8,146.7\" fill=\"#5b6773\"/><rect x=\"119.3\" y=\"156.4\" width=\"14.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"130.7\" y=\"170.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">A</text><line x1=\"208.0\" y1=\"116.4\" x2=\"239.7\" y2=\"171.4\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"243.0,177.1 241.7,165.1 233.3,170.0\" fill=\"#5b6773\"/><rect x=\"248.0\" y=\"175.1\" width=\"14.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"251.0\" y=\"189.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">B</text><line x1=\"208.0\" y1=\"116.4\" x2=\"208.0\" y2=\"194.8\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"208.0,201.4 212.9,190.4 203.1,190.4\" fill=\"#5b6773\"/><rect x=\"186.6\" y=\"195.4\" width=\"14.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"198.0\" y=\"209.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">C</text><line x1=\"208.0\" y1=\"116.4\" x2=\"176.3\" y2=\"61.5\" stroke=\"#5b6773\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"173.0,55.8 174.3,67.8 182.7,62.9\" fill=\"#5b6773\"/><rect x=\"153.6\" y=\"37.8\" width=\"14.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"165.0\" y=\"51.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">D</text><circle cx=\"208.0\" cy=\"116.4\" r=\"3\" fill=\"#172b3a\"/></svg></span><p>Vilken pil visar tyngdkraftens komponent längs rampen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Komponenten längs rampen är parallell med rampens yta och pekar nedför, åt det håll lådan skulle glida.</p></div><div class=\"facit-stycke\"><p>Pil A är parallell med ytan och pekar nedför. B är komponenten vinkelrätt mot rampen, C är hela tyngdkraften och D har normalkraftens riktning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+  "familj": "Krafter på lutande plan",
+  "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Leta efter pilen som är parallell med rampens yta.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A",
+      "ratt": true,
+      "kommentar": "A är parallell med rampen och pekar nedför."
+    },
+    {
+      "txt": "B",
+      "ratt": false,
+      "kommentar": "B är vinkelrät mot rampen. Det är den andra komponenten."
+    },
+    {
+      "txt": "C",
+      "ratt": false,
+      "kommentar": "C är hela tyngdkraften, rakt nedåt."
+    },
+    {
+      "txt": "D",
+      "ratt": false,
+      "kommentar": "D pekar ut från rampen, som normalkraften."
+    }
+  ]
+},
+{
+  "id": "4.846",
+  "kap": 4,
+  "omr": "lutande_plan",
+  "niva": "E",
+  "typ": "vilofriktion balanserar komponenten",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda ligger stilla på en ramp. Tyngdkraftens komponent längs rampen är 40 N. Den balanseras av vilofriktionen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"260\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"En låda ligger stilla på en ramp som lutar 25 grader. En pil längs rampen nedåt är märkt 40 N och en pil längs rampen uppåt är märkt friktion = ?.\"><title>En låda ligger stilla på en ramp som lutar 25 grader. En pil längs rampen nedåt är märkt 40 N och en pil längs rampen uppåt är märkt friktion = ?.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"30,230 370,230 370,71.5\" fill=\"#efe6d4\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><path d=\"M 76,230 A 46 46 0 0 0 71.7,210.6\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"88.0\" y=\"220.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">25°</text><polygon points=\"174.6,162.6 225.4,138.9 210.2,106.3 159.4,129.9\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"192.4\" y1=\"134.4\" x2=\"121.3\" y2=\"167.5\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"115.4,170.3 127.4,170.1 123.3,161.2\" fill=\"#c2410c\"/><rect x=\"72.8\" y=\"176.3\" width=\"39.6\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"109.4\" y=\"190.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">40 N</text><line x1=\"192.4\" y1=\"134.4\" x2=\"263.4\" y2=\"101.3\" stroke=\"#2f7d4a\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"269.4,98.5 257.4,98.7 261.5,107.6\" fill=\"#2f7d4a\"/><rect x=\"236.4\" y=\"68.5\" width=\"106.8\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"239.4\" y=\"82.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">friktion = ?</text><circle cx=\"192.4\" cy=\"134.4\" r=\"3\" fill=\"#172b3a\"/></svg></span><p>Hur stor är vilofriktionen på lådan? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lådan ligger stilla, så kraftsumman längs rampen är noll. Vilofriktionen är lika stor som tyngdkraftens komponent längs rampen och riktad uppför:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_f=40\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(40\\) N.</p></div>",
+  "familj": "Vilofriktion och friktionsgräns på lutande plan",
+  "familjNyckel": "lutande_plan__vilofriktion_och_friktionsgrans_pa_lutande_plan",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Lådan ligger stilla. Vad betyder det för krafterna längs rampen?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 40,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.847",
+  "kap": 4,
+  "omr": "lutande_plan",
+  "niva": "E",
+  "typ": "normalkraft ur vinkelrät komponent",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda står på en ramp. Tyngdkraftens komponent vinkelrätt mot rampen är 85 N. Lådan rör sig inte in i eller ut från rampen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"260\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"En låda på en ramp som lutar 30 grader. En pil vinkelrätt in i rampen är märkt 85 N och en pil vinkelrätt ut från rampen är märkt normalkraft = ?.\"><title>En låda på en ramp som lutar 30 grader. En pil vinkelrätt in i rampen är märkt 85 N och en pil vinkelrätt ut från rampen är märkt normalkraft = ?.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"30,230 370,230 370,33.7\" fill=\"#efe6d4\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><path d=\"M 76,230 A 46 46 0 0 0 69.8,207.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"88.0\" y=\"220.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">30°</text><polygon points=\"175.8,145.9 224.2,117.9 206.2,86.7 157.8,114.7\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"191.0\" y1=\"116.3\" x2=\"222.7\" y2=\"171.2\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"226.0,176.9 224.7,164.9 216.3,169.8\" fill=\"#c2410c\"/><rect x=\"233.0\" y=\"172.9\" width=\"39.6\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"236.0\" y=\"186.9\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">85 N</text><line x1=\"191.0\" y1=\"116.3\" x2=\"156.8\" y2=\"57.0\" stroke=\"#2f7d4a\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"153.5,51.3 154.8,63.3 163.2,58.4\" fill=\"#2f7d4a\"/><rect x=\"18.5\" y=\"31.3\" width=\"132.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"147.5\" y=\"45.3\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#2f7d4a\" font-weight=\"bold\">normalkraft = ?</text><circle cx=\"191.0\" cy=\"116.3\" r=\"3\" fill=\"#172b3a\"/></svg></span><p>Hur stor är normalkraften från rampen på lådan? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vinkelrätt mot rampen tar normalkraften och tyngdkraftens vinkelräta komponent ut varandra:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_N=85\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(85\\) N.</p></div>",
+  "familj": "Krafter på lutande plan",
+  "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Normalkraften är vinkelrät mot rampen.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 85,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.848",
+  "kap": 4,
+  "omr": "lutande_plan",
+  "niva": "E",
+  "typ": "vilofriktion vid brantare plan",
+  "poang": "(1/0/0)",
+  "t": "<p>Samma låda ligger stilla på två ramper. Den högra rampen är brantare än den vänstra, men lådan glider inte.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"230\" viewBox=\"0 0 400 230\" role=\"img\" aria-label=\"Två ramper. Den vänstra lutar 20 grader och den högra 35 grader. Samma låda ligger stilla på båda.\"><title>Två ramper. Den vänstra lutar 20 grader och den högra 35 grader. Samma låda ligger stilla på båda.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"20,200 180,200 180,141.8\" fill=\"#efe6d4\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><path d=\"M 66,200 A 46 46 0 0 0 63.2,184.3\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"78.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">20°</text><polygon points=\"89.2,174.8 126.8,161.1 117.9,136.7 80.3,150.4\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"103.6\" cy=\"155.8\" r=\"3\" fill=\"#172b3a\"/><polygon points=\"210,200 370,200 370,88.0\" fill=\"#efe6d4\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><path d=\"M 256,200 A 46 46 0 0 0 247.7,173.6\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"268.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">35°</text><polygon points=\"273.6,155.5 306.4,132.5 291.5,111.2 258.7,134.2\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"282.5\" cy=\"133.3\" r=\"3\" fill=\"#172b3a\"/><text x=\"100.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">mindre lutning</text><text x=\"290.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">större lutning</text></svg></span><p>Hur stor är vilofriktionen på den högra rampen jämfört med den vänstra?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vilofriktionen är lika stor som tyngdkraftens komponent längs rampen, eftersom lådan ligger stilla.</p></div><div class=\"facit-stycke\"><p>Ju brantare rampen är, desto större blir komponenten längs rampen. Vilofriktionen blir därför större på den högra rampen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Större.</p></div>",
+  "familj": "Vilofriktion och friktionsgräns på lutande plan",
+  "familjNyckel": "lutande_plan__vilofriktion_och_friktionsgrans_pa_lutande_plan",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vilofriktionen balanserar tyngdkraftens komponent längs rampen.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Större",
+      "ratt": true,
+      "kommentar": "Komponenten längs rampen växer med lutningen, och friktionen balanserar den."
+    },
+    {
+      "txt": "Mindre",
+      "ratt": false,
+      "kommentar": "Det är normalkraften som minskar när rampen blir brantare."
+    },
+    {
+      "txt": "Lika stor",
+      "ratt": false,
+      "kommentar": "Friktionen anpassar sig efter komponenten längs rampen, som ändras."
+    },
+    {
+      "txt": "Noll på den brantare rampen",
+      "ratt": false,
+      "kommentar": "Utan friktion skulle lådan glida."
+    }
+  ]
+},
+{
+  "id": "4.849",
+  "kap": 4,
+  "omr": "lutande_plan",
+  "niva": "E",
+  "typ": "lutningsvinkel ur höjd och längd",
+  "poang": "(1/0/0)",
+  "t": "<p>En rullstolsramp är 3,0 m lång, mätt längs rampen, och når upp till höjden 1,5 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"250\" viewBox=\"0 0 400 250\" role=\"img\" aria-label=\"En rak ramp som är 3,0 meter lång och når höjden 1,5 meter. Vinkeln v mot marken söks.\"><title>En rak ramp som är 3,0 meter lång och når höjden 1,5 meter. Vinkeln v mot marken söks.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40,210 340,210 340,60\" fill=\"#efe6d4\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><rect x=\"326\" y=\"196\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><rect x=\"150.5\" y=\"108.0\" width=\"51.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"176.0\" y=\"123.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">3,0 m</text><text x=\"348.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">1,5 m</text><path d=\"M 90,210 A 50 50 0 0 0 84.7,187.6\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"102.0\" y=\"202.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">v</text></svg></span><p>Hur stor är rampens lutningsvinkel v? (Svara i grader.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Höjden är motstående katet och rampens längd är hypotenusan:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\sin v=\\frac{1{,}5}{3{,}0}=0{,}5\\quad\\Rightarrow\\quad v=30^\\circ\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\)°.</p></div>",
+  "familj": "Krafter på lutande plan",
+  "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Höjden och rampens längd ger sinus för vinkeln.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 30,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "°"
+},
+{
+  "id": "4.850",
+  "kap": 4,
+  "omr": "lutande_plan",
+  "niva": "E",
+  "typ": "komponent längs planet vid 30°",
+  "poang": "(1/0/0)",
+  "t": "<p>Tyngdkraften på en låda är 200 N. Lådan står på en ramp som lutar 30°.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"260\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"En låda med tyngden 200 N på en ramp som lutar 30 grader. En pil rakt nedåt visar tyngdkraften och en pil längs rampen nedåt är märkt ?.\"><title>En låda med tyngden 200 N på en ramp som lutar 30 grader. En pil rakt nedåt visar tyngdkraften och en pil längs rampen nedåt är märkt ?.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"30,230 370,230 370,33.7\" fill=\"#efe6d4\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><path d=\"M 76,230 A 46 46 0 0 0 69.8,207.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"88.0\" y=\"220.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">30°</text><polygon points=\"192.8,136.0 241.2,108.0 223.2,76.9 174.8,104.9\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"208.0\" y1=\"106.4\" x2=\"208.0\" y2=\"184.8\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"208.0,191.4 212.9,180.4 203.1,180.4\" fill=\"#c2410c\"/><rect x=\"213.0\" y=\"181.4\" width=\"140.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"216.0\" y=\"195.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">tyngdkraft 200 N</text><line x1=\"208.0\" y1=\"106.4\" x2=\"140.1\" y2=\"145.6\" stroke=\"#7c3aed\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"134.4,148.9 146.4,147.7 141.5,139.2\" fill=\"#7c3aed\"/><rect x=\"-7.0\" y=\"122.9\" width=\"140.4\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"130.4\" y=\"136.9\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#7c3aed\" font-weight=\"bold\">längs rampen = ?</text><circle cx=\"208.0\" cy=\"106.4\" r=\"3\" fill=\"#172b3a\"/></svg></span><p>Hur stor är tyngdkraftens komponent längs rampen? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Komponenten längs rampen är tyngdkraften gånger sinus för lutningsvinkeln:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\parallel}=200\\cdot\\sin30^\\circ=200\\cdot0{,}5=100\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(100\\) N.</p></div>",
+  "familj": "Krafter på lutande plan",
+  "familjNyckel": "lutande_plan__krafter_pa_lutande_plan",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Komponenten längs planet är mg·sin v.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 100,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.851",
+  "kap": 4,
+  "omr": "lutande_plan",
+  "niva": "E",
+  "typ": "friktion vid konstant fart nedför",
+  "poang": "(1/0/0)",
+  "t": "<p>En pulka glider nedför en backe med konstant fart. Tyngdkraftens komponent längs backen är 36 N. Bortse från luftmotståndet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"260\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"En pulka glider nedför en snöig backe med konstant fart. En pil längs backen nedåt är märkt 36 N och en pil längs backen uppåt är märkt friktion = ?.\"><title>En pulka glider nedför en snöig backe med konstant fart. En pil längs backen nedåt är märkt 36 N och en pil längs backen uppåt är märkt friktion = ?.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"30,230 370,230 370,119.5\" fill=\"#eef6fb\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><path d=\"M 76,230 A 46 46 0 0 0 73.7,215.8\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"88.0\" y=\"220.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">18°</text><polygon points=\"207.5,172.3 274.1,150.7 266.1,126.0 199.5,147.6\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"236.8\" y1=\"149.1\" x2=\"167.0\" y2=\"171.8\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"160.7,173.9 172.7,175.1 169.6,165.8\" fill=\"#c2410c\"/><rect x=\"118.1\" y=\"179.9\" width=\"39.6\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"154.7\" y=\"193.9\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">36 N</text><line x1=\"236.8\" y1=\"149.1\" x2=\"306.6\" y2=\"126.5\" stroke=\"#2f7d4a\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"312.9,124.4 300.9,123.2 303.9,132.5\" fill=\"#2f7d4a\"/><rect x=\"279.9\" y=\"94.4\" width=\"106.8\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"282.9\" y=\"108.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">friktion = ?</text><circle cx=\"236.8\" cy=\"149.1\" r=\"3\" fill=\"#172b3a\"/><text x=\"370.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">konstant fart</text></svg></span><p>Hur stor är friktionskraften på pulkan? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Konstant fart betyder att accelerationen är noll. Då är kraftsumman längs backen noll, och friktionen är lika stor som komponenten längs backen:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_f=36\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(36\\) N.</p></div>",
+  "familj": "Glidning på lutande plan",
+  "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Konstant fart betyder att kraftsumman är noll.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 36,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.852",
+  "kap": 4,
+  "omr": "lutande_plan",
+  "niva": "E",
+  "typ": "kraftsumma längs planet vid glidning",
+  "poang": "(1/0/0)",
+  "t": "<p>En låda glider nedför en ramp. Tyngdkraftens komponent längs rampen är 50 N och glidfriktionen är 20 N.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"260\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"En låda glider nedför en ramp. En pil längs rampen nedåt är märkt 50 N och en kortare pil längs rampen uppåt är märkt friktion 20 N.\"><title>En låda glider nedför en ramp. En pil längs rampen nedåt är märkt 50 N och en kortare pil längs rampen uppåt är märkt friktion 20 N.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"30,230 370,230 370,49.2\" fill=\"#efe6d4\" stroke=\"#8a6d3b\" stroke-width=\"2\"/><path d=\"M 76,230 A 46 46 0 0 0 70.6,208.4\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><text x=\"88.0\" y=\"220.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">28°</text><polygon points=\"175.3,152.8 224.7,126.5 207.8,94.7 158.4,121.0\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><line x1=\"191.5\" y1=\"123.7\" x2=\"109.1\" y2=\"167.6\" stroke=\"#c2410c\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"103.3,170.7 115.3,169.8 110.7,161.2\" fill=\"#c2410c\"/><rect x=\"60.7\" y=\"176.7\" width=\"39.6\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"97.3\" y=\"190.7\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">50 N</text><line x1=\"191.5\" y1=\"123.7\" x2=\"221.0\" y2=\"108.0\" stroke=\"#2f7d4a\" stroke-width=\"3\" stroke-linecap=\"round\"/><polygon points=\"226.9,104.9 214.9,105.8 219.5,114.4\" fill=\"#2f7d4a\"/><rect x=\"203.9\" y=\"72.9\" width=\"115.2\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"206.9\" y=\"86.9\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">friktion 20 N</text><circle cx=\"191.5\" cy=\"123.7\" r=\"3\" fill=\"#172b3a\"/></svg></span><p>Hur stor är kraftsumman på lådan längs rampen? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Krafterna längs rampen är motriktade. Dra den mindre från den större:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_{\\mathrm{res}}=50-20=30\\ \\mathrm N\\]</div></div><div class=\"facit-stycke\"><p>Kraftsumman är riktad nedför rampen, så lådan får ökande fart.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(30\\) N, nedför rampen.</p></div>",
+  "familj": "Glidning på lutande plan",
+  "familjNyckel": "lutande_plan__glidning_pa_lutande_plan",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Krafterna längs rampen pekar åt motsatta håll.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 30,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
 }
 ];

@@ -115739,15 +115739,15 @@ window.BANK = [
     "omr": "moment",
     "niva": "E",
     "poang": "(1/0/0)",
-    "t": "<p>Ett symmetriskt föremål kan välta men inte glida. Tyngdpunkten ligger mitt över stödytan. Vilken förändring gör att underlaget måste lutas mer innan föremålet välter?</p><p>A. Högre tyngdpunkt och smalare stödyta.<br>B. Lägre tyngdpunkt och bredare stödyta.<br>C. Högre tyngdpunkt och bredare stödyta.<br>D. Lägre tyngdpunkt och smalare stödyta.<br>(Svara med alternativets bokstav.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>B.</p></div><div class=\"facit-stycke\"><p>Lägre tyngdpunkt och bredare stödyta ökar båda gränsvinkeln.</p></div><div class=\"facit-stycke\"><p>I A minskar båda förändringarna gränsvinkeln.</p></div><div class=\"facit-stycke\"><p>I C och D motverkar förändringarna varandra, så resultatet beror på hur stora de är.</p></div><div class=\"facit-stycke\"><p>För ett symmetriskt föremål gäller tan θ_gräns = b/(2h), där b är stödytans bredd i tippriktningen och h tyngdpunktens höjd.</p></div></div></div>",
+    "t": "<p>Ett symmetriskt föremål kan välta men inte glida. Tyngdpunkten ligger mitt över stödytan. Vilken förändring gör att underlaget måste lutas mer innan föremålet välter?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p>Rätt svar: lägre tyngdpunkt och bredare stödyta.</p></div><div class=\"facit-stycke\"><p>Båda förändringarna ökar gränsvinkeln.</p></div><div class=\"facit-stycke\"><p>Högre tyngdpunkt och smalare stödyta minskar båda gränsvinkeln.</p></div><div class=\"facit-stycke\"><p>När bara den ena förändringen ökar gränsvinkeln motverkar förändringarna varandra, så resultatet beror på hur stora de är.</p></div><div class=\"facit-stycke\"><p>För ett symmetriskt föremål gäller tan θ_gräns = b/(2h), där b är stödytans bredd i tippriktningen och h tyngdpunktens höjd.</p></div></div></div>",
     "familj": "Tyngdpunkt och tippning",
     "formaga": [
       "begrepp"
     ],
     "familjNyckel": "moment__tyngdpunkt_och_stabilitet",
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "miniräknare": true,
@@ -115756,11 +115756,11 @@ window.BANK = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "typ": "Tyngdpunkt och stabilitet",
     "familjTidigare": [
       "Tyngdpunkt och stabilitet"
-    ]
+    ],
+    "alternativ": [{"txt": "Högre tyngdpunkt och smalare stödyta.", "ratt": false}, {"txt": "Lägre tyngdpunkt och bredare stödyta.", "ratt": true}, {"txt": "Högre tyngdpunkt och bredare stödyta.", "ratt": false}, {"txt": "Lägre tyngdpunkt och smalare stödyta.", "ratt": false}]
   },
   {
     "id": "4.311",
@@ -179528,14 +179528,14 @@ window.BANK = [
     "niva": "E",
     "typ": "koppla amperemeter",
     "poang": "(1/0/0)",
-    "t": "<p>Du vill mäta strömmen genom lampan. Vilket kopplingsschema visar rätt inkoppling av mätaren?<br>(Svara A, B eller C.)</p><p><strong>A</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><circle cx=\"170\" cy=\"60\" r=\"25\"/><path d=\"M153 43L187 77\"/><path d=\"M153 77L187 43\"/><path d=\"M280 60V105\"/><path d=\"M280 145V190\"/><circle cx=\"280\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"280\" y=\"131\">A</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span><p><strong>B</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><circle cx=\"170\" cy=\"60\" r=\"25\"/><path d=\"M153 43L187 77\"/><path d=\"M153 77L187 43\"/><path d=\"M280 60V190\"/><path d=\"M120 60V125H150\"/><path d=\"M190 125H220V60\"/><circle cx=\"120\" cy=\"60\" r=\"3\" fill=\"#172033\"/><circle cx=\"220\" cy=\"60\" r=\"3\" fill=\"#172033\"/><circle cx=\"170\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"170\" y=\"131\">A</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span><p><strong>C</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><circle cx=\"170\" cy=\"60\" r=\"25\"/><path d=\"M153 43L187 77\"/><path d=\"M153 77L187 43\"/><path d=\"M280 60V190\"/><path d=\"M120 60V125H150\"/><path d=\"M190 125H220\"/><circle cx=\"220\" cy=\"125\" r=\"3\"/><circle cx=\"170\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"170\" y=\"131\">A</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span>",
+    "t": "<p>Du vill mäta strömmen genom lampan. Vilket kopplingsschema visar rätt inkoppling av mätaren?</p><p><strong>A</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><circle cx=\"170\" cy=\"60\" r=\"25\"/><path d=\"M153 43L187 77\"/><path d=\"M153 77L187 43\"/><path d=\"M280 60V105\"/><path d=\"M280 145V190\"/><circle cx=\"280\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"280\" y=\"131\">A</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span><p><strong>B</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><circle cx=\"170\" cy=\"60\" r=\"25\"/><path d=\"M153 43L187 77\"/><path d=\"M153 77L187 43\"/><path d=\"M280 60V190\"/><path d=\"M120 60V125H150\"/><path d=\"M190 125H220V60\"/><circle cx=\"120\" cy=\"60\" r=\"3\" fill=\"#172033\"/><circle cx=\"220\" cy=\"60\" r=\"3\" fill=\"#172033\"/><circle cx=\"170\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"170\" y=\"131\">A</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span><p><strong>C</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><circle cx=\"170\" cy=\"60\" r=\"25\"/><path d=\"M153 43L187 77\"/><path d=\"M153 77L187 43\"/><path d=\"M280 60V190\"/><path d=\"M120 60V125H150\"/><path d=\"M190 125H220\"/><circle cx=\"220\" cy=\"125\" r=\"3\"/><circle cx=\"170\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"170\" y=\"131\">A</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span>",
     "s": "<div class=\"facit-v2\"><p>Amperemetern kopplas i serie. Då går samma ström genom mätaren och lampan.</p><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
     "familj": "Kretsar och mätinstrument",
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Strömmen ska gå genom mätaren.</p>",
@@ -179544,8 +179544,7 @@ window.BANK = [
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
-    "svarFormat": "kort_text",
-    "svarEnhet": null
+    "alternativ": [{"txt": "A", "ratt": true}, {"txt": "B", "ratt": false}, {"txt": "C", "ratt": false}]
   },
   {
     "id": "8.383",
@@ -179554,14 +179553,14 @@ window.BANK = [
     "niva": "E",
     "typ": "koppla voltmeter",
     "poang": "(1/0/0)",
-    "t": "<p>Du vill mäta spänningen över motståndet. Vilket kopplingsschema visar rätt inkoppling av mätaren?<br>(Svara A, B eller C.)</p><p><strong>A</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><rect x=\"145\" y=\"48\" width=\"50\" height=\"24\"/><path d=\"M280 60V105\"/><path d=\"M280 145V190\"/><circle cx=\"280\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"280\" y=\"131\">V</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span><p><strong>B</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><rect x=\"145\" y=\"48\" width=\"50\" height=\"24\"/><path d=\"M280 60V190\"/><path d=\"M120 60V125H150\"/><path d=\"M190 125H220V60\"/><circle cx=\"120\" cy=\"60\" r=\"3\" fill=\"#172033\"/><circle cx=\"220\" cy=\"60\" r=\"3\" fill=\"#172033\"/><circle cx=\"170\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"170\" y=\"131\">V</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span><p><strong>C</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><rect x=\"145\" y=\"48\" width=\"50\" height=\"24\"/><path d=\"M280 60V190\"/><path d=\"M120 60V125H150\"/><path d=\"M190 125H220\"/><circle cx=\"220\" cy=\"125\" r=\"3\"/><circle cx=\"170\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"170\" y=\"131\">V</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span>",
+    "t": "<p>Du vill mäta spänningen över motståndet. Vilket kopplingsschema visar rätt inkoppling av mätaren?</p><p><strong>A</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><rect x=\"145\" y=\"48\" width=\"50\" height=\"24\"/><path d=\"M280 60V105\"/><path d=\"M280 145V190\"/><circle cx=\"280\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"280\" y=\"131\">V</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span><p><strong>B</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><rect x=\"145\" y=\"48\" width=\"50\" height=\"24\"/><path d=\"M280 60V190\"/><path d=\"M120 60V125H150\"/><path d=\"M190 125H220V60\"/><circle cx=\"120\" cy=\"60\" r=\"3\" fill=\"#172033\"/><circle cx=\"220\" cy=\"60\" r=\"3\" fill=\"#172033\"/><circle cx=\"170\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"170\" y=\"131\">V</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span><p><strong>C</strong></p><span class=\"fig\"><svg style=\"width:100%;max-width:360px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" role=\"img\" aria-label=\"Kopplingsschema\"><rect x=\"1\" y=\"1\" width=\"358\" height=\"238\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2.5\" fill=\"none\"><path d=\"M80 190V60H145\"/><path d=\"M195 60H280\"/><path d=\"M80 190H157\"/><path d=\"M167 190H280\"/><path d=\"M157 174V206\"/><path d=\"M167 181V199\"/><rect x=\"145\" y=\"48\" width=\"50\" height=\"24\"/><path d=\"M280 60V190\"/><path d=\"M120 60V125H150\"/><path d=\"M190 125H220\"/><circle cx=\"220\" cy=\"125\" r=\"3\"/><circle cx=\"170\" cy=\"125\" r=\"20\"/></g><g fill=\"#172033\" font-family=\"sans-serif\" font-size=\"18\" text-anchor=\"middle\"><text x=\"170\" y=\"131\">V</text><text x=\"170\" y=\"225\">Batteri</text></g></svg></span>",
     "s": "<div class=\"facit-v2\"><p>Voltmetern kopplas parallellt över motståndet. Då mäter den spänningen mellan motståndets båda ändar.</p><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
     "familj": "Kretsar och mätinstrument",
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "ledtrad": "<p>Spänning är en skillnad mellan två punkter.</p>",
@@ -179570,8 +179569,7 @@ window.BANK = [
     "spel": true,
     "miniräknare": true,
     "geogebra": false,
-    "svarFormat": "kort_text",
-    "svarEnhet": null
+    "alternativ": [{"txt": "A", "ratt": false}, {"txt": "B", "ratt": true}, {"txt": "C", "ratt": false}]
   },
   {
     "id": "8.384",
@@ -193501,13 +193499,11 @@ window.BANK = [
   "typ": "densitet i mätningar och modeller",
   "niva": "E",
   "poang": "(1/0/0)",
-  "t": "<p>Tre provbitar har samma volym, 10 cm³. Deras massor visas i figuren. Vilken provbit har störst densitet? (Svara A, B eller C.)</p><span class=\"fig\"><svg style=\"width:100%;max-width:440px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"A: 25 g; B: 80 g; C: 60 g\"><rect width=\"440\" height=\"250\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><rect x=\"25\" y=\"65\" width=\"110\" height=\"95\" fill=\"#d7eaf5\"/><text x=\"80\" y=\"45\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">A</text><text x=\"80\" y=\"120\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">25 g</text><rect x=\"165\" y=\"65\" width=\"110\" height=\"95\" fill=\"#d7eaf5\"/><text x=\"220\" y=\"45\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">B</text><text x=\"220\" y=\"120\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">80 g</text><rect x=\"305\" y=\"65\" width=\"110\" height=\"95\" fill=\"#d7eaf5\"/><text x=\"360\" y=\"45\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">C</text><text x=\"360\" y=\"120\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">60 g</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>B har störst massa trots att volymen är densamma. Därför har B störst densitet. Densiteten är 80/10 = 8 g/cm³.</p></div>",
-  "rättSvar": "B",
-  "svarEnhet": null,
-  "tolerans": 0,
-  "svarstyp": "val",
-  "svarFormat": "kort_text",
+  "t": "<p>Tre provbitar har samma volym, 10 cm³. Deras massor visas i figuren. Vilken provbit har störst densitet?</p><span class=\"fig\"><svg style=\"width:100%;max-width:440px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"A: 25 g; B: 80 g; C: 60 g\"><rect width=\"440\" height=\"250\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><rect x=\"25\" y=\"65\" width=\"110\" height=\"95\" fill=\"#d7eaf5\"/><text x=\"80\" y=\"45\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">A</text><text x=\"80\" y=\"120\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">25 g</text><rect x=\"165\" y=\"65\" width=\"110\" height=\"95\" fill=\"#d7eaf5\"/><text x=\"220\" y=\"45\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">B</text><text x=\"220\" y=\"120\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">80 g</text><rect x=\"305\" y=\"65\" width=\"110\" height=\"95\" fill=\"#d7eaf5\"/><text x=\"360\" y=\"45\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">C</text><text x=\"360\" y=\"120\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">60 g</text></g></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>B har störst massa trots att volymen är densamma. Därför har B störst densitet. Densiteten är 80/10 = 8 g/cm³.</p><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+  "rättSvar": null,
+  "tolerans": null,
+  "svarstyp": "alternativ",
   "självrättning": true,
   "spel": true,
   "miniräknare": true,
@@ -193519,7 +193515,8 @@ window.BANK = [
   ],
   "traningsniva": 1,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Vad innebär större massa när volymen är lika stor?</p>"
+  "ledtrad": "<p>Vad innebär större massa när volymen är lika stor?</p>",
+  "alternativ": [{"txt": "A", "ratt": false}, {"txt": "B", "ratt": true}, {"txt": "C", "ratt": false}]
 },
 {
   "id": "2.328",
@@ -193609,13 +193606,11 @@ window.BANK = [
   "typ": "densitet i mätningar och modeller",
   "niva": "E",
   "poang": "(1/0/0)",
-  "t": "<p>Fyra provbitar ska vara av samma material. Ett av mätparen i tabellen ger en annan densitet än de övriga. Vilket? (Svara A, B, C eller D.)</p><span class=\"fig\"><svg style=\"width:100%;max-width:440px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Mätvärden för fyra provbitar A till D\"><rect width=\"440\" height=\"250\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><text x=\"75\" y=\"35\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Provbit</text><text x=\"215\" y=\"35\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Volym (cm³)</text><text x=\"355\" y=\"35\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Massa (g)</text><path d=\"M20 48H420\"/><text x=\"75\" y=\"85\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">A</text><text x=\"215\" y=\"85\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">10</text><text x=\"355\" y=\"85\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">27</text><text x=\"75\" y=\"130\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">B</text><text x=\"215\" y=\"130\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">20</text><text x=\"355\" y=\"130\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">54</text><text x=\"75\" y=\"175\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">C</text><text x=\"215\" y=\"175\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">30</text><text x=\"355\" y=\"175\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">108</text><text x=\"75\" y=\"220\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">D</text><text x=\"215\" y=\"220\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">40</text><text x=\"355\" y=\"220\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">108</text></g></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>För A, B och D är massan delad med volymen 2,7 g/cm³. För C blir det 108/30 = 3,6 g/cm³. C avviker alltså från de övriga.</p></div>",
-  "rättSvar": "C",
-  "svarEnhet": null,
-  "tolerans": 0,
-  "svarstyp": "val",
-  "svarFormat": "kort_text",
+  "t": "<p>Fyra provbitar ska vara av samma material. Ett av mätparen i tabellen ger en annan densitet än de övriga. Vilket?</p><span class=\"fig\"><svg style=\"width:100%;max-width:440px\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Mätvärden för fyra provbitar A till D\"><rect width=\"440\" height=\"250\" fill=\"white\"/><g stroke=\"#172033\" stroke-width=\"2\" fill=\"none\"><text x=\"75\" y=\"35\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Provbit</text><text x=\"215\" y=\"35\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Volym (cm³)</text><text x=\"355\" y=\"35\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">Massa (g)</text><path d=\"M20 48H420\"/><text x=\"75\" y=\"85\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">A</text><text x=\"215\" y=\"85\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">10</text><text x=\"355\" y=\"85\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">27</text><text x=\"75\" y=\"130\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">B</text><text x=\"215\" y=\"130\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">20</text><text x=\"355\" y=\"130\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">54</text><text x=\"75\" y=\"175\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">C</text><text x=\"215\" y=\"175\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">30</text><text x=\"355\" y=\"175\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">108</text><text x=\"75\" y=\"220\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">D</text><text x=\"215\" y=\"220\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">40</text><text x=\"355\" y=\"220\" fill=\"#172033\" stroke=\"none\" font-family=\"sans-serif\" font-size=\"16\" text-anchor=\"middle\">108</text></g></svg></span>",
+  "s": "<div class=\"facit-v2\"><p>För A, B och D är massan delad med volymen 2,7 g/cm³. För C blir det 108/30 = 3,6 g/cm³. C avviker alltså från de övriga.</p><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+  "rättSvar": null,
+  "tolerans": null,
+  "svarstyp": "alternativ",
   "självrättning": true,
   "spel": true,
   "miniräknare": true,
@@ -193627,7 +193622,8 @@ window.BANK = [
   ],
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Jämför massan per kubikcentimeter för varje rad.</p>"
+  "ledtrad": "<p>Jämför massan per kubikcentimeter för varje rad.</p>",
+  "alternativ": [{"txt": "A", "ratt": false}, {"txt": "B", "ratt": false}, {"txt": "C", "ratt": true}, {"txt": "D", "ratt": false}]
 },
 {
   "id": "2.332",

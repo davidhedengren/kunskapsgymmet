@@ -7095,27 +7095,27 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Låt c vara ett positivt tal. Sätt \\(A=12\\div c\\cdot c\\) och \\(B=12\\div(c\\cdot c)\\). Vilken jämförelse gäller?</p><p>A. A &lt; B när 0 &lt; c &lt; 1; A = B när c = 1; A &gt; B när c &gt; 1.<br>B. A &gt; B när 0 &lt; c &lt; 1; A = B när c = 1; A &lt; B när c &gt; 1.<br>C. A = B när 0 &lt; c &lt; 1; A &lt; B när c = 1; A &gt; B när c &gt; 1.<br>D. A &lt; B när 0 &lt; c &lt; 1; A &gt; B när c = 1; A = B när c &gt; 1.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förenkla de två uttrycken</p><p>Multiplikation och division har samma prioritet och utförs från vänster till höger:</p><div class=\"facit-matte\">\\[A=\\frac{12}{c}\\cdot c=12.\\]</div><p>I det andra uttrycket ingår hela produkten i nämnaren:</p><div class=\"facit-matte\">\\[B=\\frac{12}{c\\cdot c}=\\frac{12}{c^2}.\\]</div></li><li><p class=\"facit-rubrik\">Jämför för de tre fallen</p><p>Om \\(0\\lt c\\lt1\\) är \\(c^2\\lt1\\). Division med ett positivt tal mindre än 1 ger ett större värde, så \\(B\\gt12=A\\).</p><p>Om \\(c=1\\) är \\(A=B=12\\).</p><p>Om \\(c\\gt1\\) är \\(c^2\\gt1\\), så \\(B\\lt12=A\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ A.</p></div>",
+    "t": "<p>Låt c vara ett positivt tal. Sätt \\(A=12\\div c\\cdot c\\) och \\(B=12\\div(c\\cdot c)\\). Vilken jämförelse gäller?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förenkla de två uttrycken</p><p>Multiplikation och division har samma prioritet och utförs från vänster till höger:</p><div class=\"facit-matte\">\\[A=\\frac{12}{c}\\cdot c=12.\\]</div><p>I det andra uttrycket ingår hela produkten i nämnaren:</p><div class=\"facit-matte\">\\[B=\\frac{12}{c\\cdot c}=\\frac{12}{c^2}.\\]</div></li><li><p class=\"facit-rubrik\">Jämför för de tre fallen</p><p>Om \\(0\\lt c\\lt1\\) är \\(c^2\\lt1\\). Division med ett positivt tal mindre än 1 ger ett större värde, så \\(B\\gt12=A\\).</p><p>Om \\(c=1\\) är \\(A=B=12\\).</p><p>Om \\(c\\gt1\\) är \\(c^2\\gt1\\), så \\(B\\lt12=A\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A &lt; B när 0 &lt; c &lt; 1; A = B när c = 1; A &gt; B när c &gt; 1.</p></div>",
     "familj": "Parenteser och räknetecken",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "problemlösning",
       "resonemang"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Förenkla uttrycken var för sig. Hur förändras ett positivt tal vid division med ett tal under respektive över 1?</p>",
     "traningsniva": 4,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Beräkna uttryck med parenteser"
-    ]
+    ],
+    "alternativ": [{"txt": "A &lt; B när 0 &lt; c &lt; 1; A = B när c = 1; A &gt; B när c &gt; 1.", "ratt": true}, {"txt": "A &gt; B när 0 &lt; c &lt; 1; A = B när c = 1; A &lt; B när c &gt; 1.", "ratt": false}, {"txt": "A = B när 0 &lt; c &lt; 1; A &lt; B när c = 1; A &gt; B när c &gt; 1.", "ratt": false}, {"txt": "A &lt; B när 0 &lt; c &lt; 1; A &gt; B när c = 1; A = B när c &gt; 1.", "ratt": false}]
   },
   {
     "id": "0.173",
@@ -22207,13 +22207,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Blandning A har förhållandet koncentrat : vatten = 2:7. Blandning B har förhållandet 3:11. Vilken blandning innehåller störst andel koncentrat?</p><p>Svara A eller B.</p>",
+    "t": "<p>Blandning A har förhållandet koncentrat : vatten = 2:7. Blandning B har förhållandet 3:11. Vilken blandning innehåller störst andel koncentrat?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv koncentratets andel av varje blandning</p><div class=\"facit-matte\">\\[A:\\ \\frac2{2+7}=\\frac29,\\qquad B:\\ \\frac3{3+11}=\\frac3{14}.\\]</div></li><li><p class=\"facit-rubrik\">Jämför exakt med gemensam nämnare</p><div class=\"facit-matte\">\\[\\frac29=\\frac{28}{126},\\qquad\\frac3{14}=\\frac{27}{126}.\\]</div><p>28 delar av 126 är mer än 27 delar av 126. Det behövs ingen miniräknare eller avrundning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Blandning A.</p></div>",
     "familj": "Tolka och skala förhållanden",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "kort_text",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -22221,13 +22221,13 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Jämför koncentratets del med hela blandningen, inte bara talen 2 och 3.</p>",
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Jämföra förhållanden"
-    ]
+    ],
+    "alternativ": [{"txt": "Blandning A", "ratt": true}, {"txt": "Blandning B", "ratt": false}]
   },
   {
     "id": "0.769",
@@ -23251,13 +23251,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken tabell visar ett proportionellt samband?</p><p><strong>A</strong></p><table><tr><th>x</th><td>2</td><td>4</td><td>6</td></tr><tr><th>y</th><td>5</td><td>10</td><td>15</td></tr></table><p><strong>B</strong></p><table><tr><th>x</th><td>2</td><td>4</td><td>6</td></tr><tr><th>y</th><td>7</td><td>13</td><td>19</td></tr></table><p>Svara A eller B.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I tabell A är kvoten \\(y/x\\) hela tiden \\(2{,}5\\): \\(5/2=10/4=15/6\\).</p></li><li><p>I tabell B varierar kvoten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Vilken tabell visar ett proportionellt samband?</p><p><strong>A</strong></p><table><tr><th>x</th><td>2</td><td>4</td><td>6</td></tr><tr><th>y</th><td>5</td><td>10</td><td>15</td></tr></table><p><strong>B</strong></p><table><tr><th>x</th><td>2</td><td>4</td><td>6</td></tr><tr><th>y</th><td>7</td><td>13</td><td>19</td></tr></table>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I tabell A är kvoten \\(y/x\\) hela tiden \\(2{,}5\\): \\(5/2=10/4=15/6\\).</p></li><li><p>I tabell B varierar kvoten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tabell A.</p></div>",
     "familj": "Proportionalitetskonstant och samband",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -23268,10 +23268,10 @@ window.BANKMA1 = [
     "spel": true,
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Avgöra om ett samband är proportionellt"
-    ]
+    ],
+    "alternativ": [{"txt": "Tabell A", "ratt": true}, {"txt": "Tabell B", "ratt": false}]
   },
   {
     "id": "0.802",
@@ -23348,13 +23348,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Butik A tar 72 kr för 3 kg potatis. Butik B tar 115 kr för 5 kg. I båda butikerna är priset proportionellt mot massan. Vilken butik har lägst pris per kg?</p><p>Svara A eller B.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Butik A: \\(72/3=24\\) kr/kg.</p></li><li><p>Butik B: \\(115/5=23\\) kr/kg.</p></li><li><p>23 kr/kg är lägre än 24 kr/kg.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Butik A tar 72 kr för 3 kg potatis. Butik B tar 115 kr för 5 kg. I båda butikerna är priset proportionellt mot massan. Vilken butik har lägst pris per kg?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Butik A: \\(72/3=24\\) kr/kg.</p></li><li><p>Butik B: \\(115/5=23\\) kr/kg.</p></li><li><p>23 kr/kg är lägre än 24 kr/kg.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Butik B.</p></div>",
     "familj": "Proportionalitetskonstant och samband",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -23365,10 +23365,10 @@ window.BANKMA1 = [
     "spel": true,
     "traningsniva": 2,
     "arbetsinsats": 2,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Jämföra proportionalitetskonstanter"
-    ]
+    ],
+    "alternativ": [{"txt": "Butik A", "ratt": false}, {"txt": "Butik B", "ratt": true}]
   },
   {
     "id": "0.805",
@@ -32515,8 +32515,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>En taxi tar 55 kr i startavgift och 14 kr per kilometer. Vilket uttryck beskriver priset för \\(x\\) kilometer?</p><p>A: \\(55+14x\\)<br>B: \\(55x+14\\)<br>C: \\(14+55/x\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Startavgiften 55 kr betalas en gång.</p></li><li><p>Körsträckan x kostar 14x kr.</p></li><li><p>Totalt blir det 55 + 14x kr, alltså alternativ A.</p></li></ol></div>",
+    "t": "<p>En taxi tar 55 kr i startavgift och 14 kr per kilometer. Vilket uttryck beskriver priset för \\(x\\) kilometer?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Startavgiften 55 kr betalas en gång.</p></li><li><p>Körsträckan x kostar 14x kr.</p></li><li><p>Totalt blir det \\(55+14x\\) kr.</p></li></ol></div>",
     "ledtrad": "<p>Vilken kostnad finns även när körsträckan är noll?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -32525,17 +32525,17 @@ window.BANKMA1 = [
       "begrepp",
       "modellering"
     ],
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Algebraiska uttryck"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(55+14x\\)", "ratt": true}, {"txt": "\\(55x+14\\)", "ratt": false}, {"txt": "\\(14+55/x\\)", "ratt": false}]
   },
   {
     "id": "1.254",
@@ -42986,13 +42986,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken av relationerna beskriver en funktion av \\(x\\)?</p><p>A: varje \\(x\\) får exakt ett \\(y\\)-värde<br>B: ett \\(x\\) kan få två olika \\(y\\)-värden</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>A.</strong> En funktion tilldelar varje tillåtet x-värde exakt ett y-värde.</p></li><li><p>Olika x-värden får däremot gärna ge samma y-värde.</p></li></ol></div></div>",
+    "t": "<p>Vilken av relationerna beskriver en funktion av \\(x\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En funktion tilldelar varje tillåtet x-värde exakt ett y-värde.</p></li><li><p>Olika x-värden får däremot gärna ge samma y-värde.</p></li></ol></div></div>",
     "familj": "Använda och tolka f(x)",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -43002,10 +43002,10 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Använda och tolka funktionsnotation"
-    ]
+    ],
+    "alternativ": [{"txt": "varje \\(x\\) får exakt ett \\(y\\)-värde", "ratt": true}, {"txt": "ett \\(x\\) kan få två olika \\(y\\)-värden", "ratt": false}]
   },
   {
     "id": "2.16",
@@ -44248,13 +44248,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken är en potensfunktion?<br>A: \\(y=4\\cdot2^x\\)<br>B: \\(y=4x^2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I A, \\(y=4\\cdot2^x\\), står \\(x\\) i exponenten.</p></li><li><p>I B, \\(y=4x^2\\), står \\(x\\) i basen och exponenten 2 är konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Vilken är en potensfunktion?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I \\(y=4\\cdot2^x\\) står \\(x\\) i exponenten.</p></li><li><p>I \\(y=4x^2\\) står \\(x\\) i basen och exponenten 2 är konstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=4x^2\\).</p></div>",
     "familj": "Använda potensfunktioner",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -44264,7 +44264,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text"
+    "alternativ": [{"txt": "\\(y=4\\cdot2^x\\)", "ratt": false}, {"txt": "\\(y=4x^2\\)", "ratt": true}]
   },
   {
     "id": "2.41",
@@ -47872,26 +47872,26 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket funktionsuttryck beskriver grafen?</p><span class=\"fig\"><svg width=\"400\" height=\"320\" viewBox=\"0 0 400 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf till en rät linje med numrerat rutnät\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"272.0\" x2=\"48.0\" y2=\"48.0\" stroke=\"#DFE6EC\"/><text x=\"48.0\" y=\"202.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"108.8\" y1=\"272.0\" x2=\"108.8\" y2=\"48.0\" stroke=\"#DFE6EC\"/><line x1=\"169.6\" y1=\"272.0\" x2=\"169.6\" y2=\"48.0\" stroke=\"#DFE6EC\"/><text x=\"169.6\" y=\"202.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"230.4\" y1=\"272.0\" x2=\"230.4\" y2=\"48.0\" stroke=\"#DFE6EC\"/><text x=\"230.4\" y=\"202.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"291.2\" y1=\"272.0\" x2=\"291.2\" y2=\"48.0\" stroke=\"#DFE6EC\"/><text x=\"291.2\" y=\"202.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"352.0\" y1=\"272.0\" x2=\"352.0\" y2=\"48.0\" stroke=\"#DFE6EC\"/><text x=\"352.0\" y=\"202.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"48.0\" y1=\"272.0\" x2=\"352.0\" y2=\"272.0\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"275.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-5</text><line x1=\"48.0\" y1=\"254.8\" x2=\"352.0\" y2=\"254.8\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"257.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-4</text><line x1=\"48.0\" y1=\"237.5\" x2=\"352.0\" y2=\"237.5\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"240.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-3</text><line x1=\"48.0\" y1=\"220.3\" x2=\"352.0\" y2=\"220.3\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"223.3\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-2</text><line x1=\"48.0\" y1=\"203.1\" x2=\"352.0\" y2=\"203.1\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"206.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"48.0\" y1=\"185.8\" x2=\"352.0\" y2=\"185.8\" stroke=\"#DFE6EC\"/><line x1=\"48.0\" y1=\"168.6\" x2=\"352.0\" y2=\"168.6\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"171.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"48.0\" y1=\"151.4\" x2=\"352.0\" y2=\"151.4\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"154.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"48.0\" y1=\"134.2\" x2=\"352.0\" y2=\"134.2\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"137.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"48.0\" y1=\"116.9\" x2=\"352.0\" y2=\"116.9\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"119.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"48.0\" y1=\"99.7\" x2=\"352.0\" y2=\"99.7\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"102.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"48.0\" y1=\"82.5\" x2=\"352.0\" y2=\"82.5\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"85.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"48.0\" y1=\"65.2\" x2=\"352.0\" y2=\"65.2\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"68.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"48.0\" y1=\"48.0\" x2=\"352.0\" y2=\"48.0\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"51.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"48.0\" y1=\"185.84615384615387\" x2=\"352.0\" y2=\"185.84615384615387\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"108.8\" y1=\"272.0\" x2=\"108.8\" y2=\"48.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"100.8\" y=\"202.84615384615387\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"48.0\" y1=\"82.5\" x2=\"352.0\" y2=\"254.8\" stroke=\"#3F7FB8\" stroke-width=\"3\"/></svg></span><p>A) \\(y=-x+2\\)   B) \\(y=2x+4\\)   C) \\(y=-2x+4\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Grafen har k = −2 och</p><div class=\"facit-matte\">\\[m=4\\]</div></div></li><li><p><strong>C</strong>.</p></li></ol></div></div>",
+    "t": "<p>Vilket funktionsuttryck beskriver grafen?</p><span class=\"fig\"><svg width=\"400\" height=\"320\" viewBox=\"0 0 400 320\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf till en rät linje med numrerat rutnät\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><line x1=\"48.0\" y1=\"272.0\" x2=\"48.0\" y2=\"48.0\" stroke=\"#DFE6EC\"/><text x=\"48.0\" y=\"202.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"108.8\" y1=\"272.0\" x2=\"108.8\" y2=\"48.0\" stroke=\"#DFE6EC\"/><line x1=\"169.6\" y1=\"272.0\" x2=\"169.6\" y2=\"48.0\" stroke=\"#DFE6EC\"/><text x=\"169.6\" y=\"202.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"230.4\" y1=\"272.0\" x2=\"230.4\" y2=\"48.0\" stroke=\"#DFE6EC\"/><text x=\"230.4\" y=\"202.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"291.2\" y1=\"272.0\" x2=\"291.2\" y2=\"48.0\" stroke=\"#DFE6EC\"/><text x=\"291.2\" y=\"202.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"352.0\" y1=\"272.0\" x2=\"352.0\" y2=\"48.0\" stroke=\"#DFE6EC\"/><text x=\"352.0\" y=\"202.8\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"48.0\" y1=\"272.0\" x2=\"352.0\" y2=\"272.0\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"275.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-5</text><line x1=\"48.0\" y1=\"254.8\" x2=\"352.0\" y2=\"254.8\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"257.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-4</text><line x1=\"48.0\" y1=\"237.5\" x2=\"352.0\" y2=\"237.5\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"240.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-3</text><line x1=\"48.0\" y1=\"220.3\" x2=\"352.0\" y2=\"220.3\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"223.3\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-2</text><line x1=\"48.0\" y1=\"203.1\" x2=\"352.0\" y2=\"203.1\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"206.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">-1</text><line x1=\"48.0\" y1=\"185.8\" x2=\"352.0\" y2=\"185.8\" stroke=\"#DFE6EC\"/><line x1=\"48.0\" y1=\"168.6\" x2=\"352.0\" y2=\"168.6\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"171.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">1</text><line x1=\"48.0\" y1=\"151.4\" x2=\"352.0\" y2=\"151.4\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"154.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"48.0\" y1=\"134.2\" x2=\"352.0\" y2=\"134.2\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"137.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">3</text><line x1=\"48.0\" y1=\"116.9\" x2=\"352.0\" y2=\"116.9\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"119.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"48.0\" y1=\"99.7\" x2=\"352.0\" y2=\"99.7\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"102.7\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">5</text><line x1=\"48.0\" y1=\"82.5\" x2=\"352.0\" y2=\"82.5\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"85.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"48.0\" y1=\"65.2\" x2=\"352.0\" y2=\"65.2\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"68.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">7</text><line x1=\"48.0\" y1=\"48.0\" x2=\"352.0\" y2=\"48.0\" stroke=\"#DFE6EC\"/><text x=\"99.8\" y=\"51.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"48.0\" y1=\"185.84615384615387\" x2=\"352.0\" y2=\"185.84615384615387\" stroke=\"#2B2527\" stroke-width=\"2\"/><line x1=\"108.8\" y1=\"272.0\" x2=\"108.8\" y2=\"48.0\" stroke=\"#2B2527\" stroke-width=\"2\"/><text x=\"100.8\" y=\"202.84615384615387\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"48.0\" y1=\"82.5\" x2=\"352.0\" y2=\"254.8\" stroke=\"#3F7FB8\" stroke-width=\"3\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Grafen har k = −2 och</p><div class=\"facit-matte\">\\[m=4\\]</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-2x+4\\).</p></div></div>",
     "familj": "Linjära funktioner i graf och formel",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Läs av om grafen stiger eller sjunker och var den skär y-axeln. Jämför sedan båda egenskaperna med alternativen.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Tolka linjära funktioner från graf och formel"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(y=-x+2\\)", "ratt": false}, {"txt": "\\(y=2x+4\\)", "ratt": false}, {"txt": "\\(y=-2x+4\\)", "ratt": true}]
   },
   {
     "id": "2.115",
@@ -53380,13 +53380,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket uttryck passar till tabellen?</p><table class='data'><tr><th>x</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><th>y</th><td>6</td><td>10</td><td>14</td><td>18</td></tr></table><p>A: \\(y=4x+6\\)<br>B: \\(y=6x+4\\)<br>C: \\(y=4^x+5\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>A.</strong> När \\(x=0\\) är \\(y=6\\), och sedan ökar \\(y\\) med 4 för varje steg i \\(x\\).</p></li><li><div class=\"facit-berakning\"><p>Det stämmer med</p><div class=\"facit-matte\">\\[y=4x+6\\].</div></div></li></ol></div></div>",
+    "t": "<p>Vilket uttryck passar till tabellen?</p><table class='data'><tr><th>x</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><th>y</th><td>6</td><td>10</td><td>14</td><td>18</td></tr></table>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(x=0\\) är \\(y=6\\), och sedan ökar \\(y\\) med 4 för varje steg i \\(x\\).</p></li><li><div class=\"facit-berakning\"><p>Det stämmer med</p><div class=\"facit-matte\">\\[y=4x+6\\].</div></div></li></ol></div></div>",
     "familj": "Från tabell till formel",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -53396,10 +53396,10 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Växla mellan tabell och formel"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(y=4x+6\\)", "ratt": true}, {"txt": "\\(y=6x+4\\)", "ratt": false}, {"txt": "\\(y=4^x+5\\)", "ratt": false}]
   },
   {
     "id": "2.247",
@@ -55287,13 +55287,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Punkten \\((-1,3)\\) ligger på grafen till \\(y=f(x)\\).</p><p>Vilket påstående måste därför vara sant?</p><p>A: \\(f(-1)=3\\)<br>B: \\(f(3)=-1\\)<br>C: \\(f(-1)=-3\\)<br>D: \\(f(1)=3\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>A.</strong> I en punkt \\((x,y)\\) på grafen \\(y=f(x)\\) är den första koordinaten indata och den andra funktionsvärdet.</p></li><li><p>Punkten \\((-1,3)\\) betyder därför \\(f(-1)=3\\).</p></li></ol></div></div>",
+    "t": "<p>Punkten \\((-1,3)\\) ligger på grafen till \\(y=f(x)\\).</p><p>Vilket påstående måste därför vara sant?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en punkt \\((x,y)\\) på grafen \\(y=f(x)\\) är den första koordinaten indata och den andra funktionsvärdet.</p></li><li><p>Punkten \\((-1,3)\\) betyder därför \\(f(-1)=3\\).</p></li></ol></div></div>",
     "familj": "f(x) i grafer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -55303,10 +55303,10 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Tolka funktionsnotation i graf"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(f(-1)=3\\)", "ratt": true}, {"txt": "\\(f(3)=-1\\)", "ratt": false}, {"txt": "\\(f(-1)=-3\\)", "ratt": false}, {"txt": "\\(f(1)=3\\)", "ratt": false}]
   },
   {
     "id": "2.288",
@@ -57460,13 +57460,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Tabellen visar ett samband.</p><table><tr><th>x</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><th>y</th><td>2</td><td>4</td><td>8</td><td>16</td></tr></table><p>Är sambandet linjärt?</p><p>A: Ja, eftersom y ökar hela tiden.<br>B: Ja, eftersom y fördubblas varje steg.<br>C: Nej, eftersom skillnaden mellan y-värdena inte är konstant.<br>D: Nej, eftersom ett linjärt samband måste ha värdet 0 när x=0.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>C.</strong> För ett linjärt samband ska förändringen i \\(y\\) vara konstant när \\(x\\) ökar lika mycket.</p></li><li><p>Här är skillnaderna 2, 4 och 8.</p></li><li><p>Att värdet i stället fördubblas varje steg är ett tecken på ett exponentiellt samband.</p></li></ol></div></div>",
+    "t": "<p>Tabellen visar ett samband.</p><table><tr><th>x</th><th>0</th><th>1</th><th>2</th><th>3</th></tr><tr><th>y</th><td>2</td><td>4</td><td>8</td><td>16</td></tr></table><p>Är sambandet linjärt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För ett linjärt samband ska förändringen i \\(y\\) vara konstant när \\(x\\) ökar lika mycket.</p></li><li><p>Här är skillnaderna 2, 4 och 8.</p></li><li><p>Att värdet i stället fördubblas varje steg är ett tecken på ett exponentiellt samband.</p></li></ol></div></div>",
     "familj": "Från tabell till formel",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -57476,10 +57476,10 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Växla mellan tabell och formel"
-    ]
+    ],
+    "alternativ": [{"txt": "Ja, eftersom y ökar hela tiden.", "ratt": false}, {"txt": "Ja, eftersom y fördubblas varje steg.", "ratt": false}, {"txt": "Nej, eftersom skillnaden mellan y-värdena inte är konstant.", "ratt": true}, {"txt": "Nej, eftersom ett linjärt samband måste ha värdet 0 när x=0.", "ratt": false}]
   },
   {
     "id": "2.340",
@@ -57492,27 +57492,27 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två modeller beskriver höjden hos två plantor, i cm, efter \\(x\\) veckor: \\(A(x)=50+8x\\) och \\(B(x)=40\\cdot1{,}15^x\\). Vilken modell ger störst höjd efter 4 veckor?</p><p>A: Modell A<br>B: Modell B</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in det angivna värdet på \\(x\\) i båda modellerna.</p></li><li><p>Då får man \\(A=82\\) och \\(B\\approx69{,}96\\).</p></li><li><p>Jämförelsen visar vilken modell som är störst just vid denna tidpunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A, modell A.</p></div>",
+    "t": "<p>Två modeller beskriver höjden hos två plantor, i cm, efter \\(x\\) veckor: \\(A(x)=50+8x\\) och \\(B(x)=40\\cdot1{,}15^x\\). Vilken modell ger störst höjd efter 4 veckor?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in det angivna värdet på \\(x\\) i båda modellerna.</p></li><li><p>Då får man \\(A=82\\) och \\(B\\approx69{,}96\\).</p></li><li><p>Jämförelsen visar vilken modell som är störst just vid denna tidpunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell A.</p></div>",
     "familj": "Jämföra linjär och exponentiell tillväxt",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Sätt in det angivna \\(x\\)-värdet i båda modellerna och jämför resultaten. Räkna modellerna var för sig innan du väljer.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Välja och jämföra matematiska modeller"
-    ]
+    ],
+    "alternativ": [{"txt": "Modell A", "ratt": true}, {"txt": "Modell B", "ratt": false}]
   },
   {
     "id": "2.341",
@@ -63936,27 +63936,27 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Modell A: \\(y=800+60x\\). Modell B: \\(y=800\\cdot1{,}07^x\\).</p><p>Vilken modell ger störst värde när x = 4? Svara A eller B.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A: 1040.</p></li><li><p>B: 800 · 1,07<sup>4</sup> ≈ 1048,6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>B</strong></p></div></div>",
+    "t": "<p>Modell A: \\(y=800+60x\\). Modell B: \\(y=800\\cdot1{,}07^x\\).</p><p>Vilken modell ger störst värde när x = 4?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A: 1040.</p></li><li><p>B: 800 · 1,07<sup>4</sup> ≈ 1048,6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell B.</p></div></div>",
     "familj": "Jämföra linjär och exponentiell tillväxt",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "text",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Beräkna y i båda modellerna för det givna x-värdet och jämför.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Välja och jämföra matematiska modeller"
-    ]
+    ],
+    "alternativ": [{"txt": "Modell A", "ratt": false}, {"txt": "Modell B", "ratt": true}]
   },
   {
     "id": "2.542",
@@ -63969,27 +63969,27 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Modell A: \\(y=1500-100x\\). Modell B: \\(y=1500\\cdot0{,}93^x\\).</p><p>Vilken modell ger störst värde när x = 6? Svara A eller B.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A: 900.</p></li><li><p>B: 1500 · 0,93<sup>6</sup> ≈ 970,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>B</strong></p></div></div>",
+    "t": "<p>Modell A: \\(y=1500-100x\\). Modell B: \\(y=1500\\cdot0{,}93^x\\).</p><p>Vilken modell ger störst värde när x = 6?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A: 900.</p></li><li><p>B: 1500 · 0,93<sup>6</sup> ≈ 970,5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell B.</p></div></div>",
     "familj": "Jämföra linjär och exponentiell tillväxt",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "text",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Beräkna y i båda modellerna för det givna x-värdet och jämför.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Välja och jämföra matematiska modeller"
-    ]
+    ],
+    "alternativ": [{"txt": "Modell A", "ratt": false}, {"txt": "Modell B", "ratt": true}]
   },
   {
     "id": "2.543",
@@ -64002,27 +64002,27 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Modell A: \\(y=300+45x\\). Modell B: \\(y=300\\cdot1{,}12^x\\).</p><p>Vilken modell ger störst värde när x = 4? Svara A eller B.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A: 480.</p></li><li><p>B: 300 · 1,12<sup>4</sup> ≈ 472,1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>A</strong></p></div></div>",
+    "t": "<p>Modell A: \\(y=300+45x\\). Modell B: \\(y=300\\cdot1{,}12^x\\).</p><p>Vilken modell ger störst värde när x = 4?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A: 480.</p></li><li><p>B: 300 · 1,12<sup>4</sup> ≈ 472,1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Modell A.</p></div></div>",
     "familj": "Jämföra linjär och exponentiell tillväxt",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "text",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur",
       "modellering"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Beräkna y i båda modellerna för det givna x-värdet och jämför.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Välja och jämföra matematiska modeller"
-    ]
+    ],
+    "alternativ": [{"txt": "Modell A", "ratt": true}, {"txt": "Modell B", "ratt": false}]
   },
   {
     "id": "2.544",
@@ -67514,13 +67514,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket konto ger störst ränta första året på 8 000 kr?<br>A: 2,4 % ränta<br>B: 2,1 % ränta</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A ger 192 kr och B ger 168 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>Konto A</strong></p></div>",
+    "t": "<p>Vilket konto ger störst ränta första året på 8 000 kr?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>2,4 % ger 192 kr och 2,1 % ger 168 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kontot med 2,4 % ränta.</p></div>",
     "familj": "Jämföra sparformer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -67535,7 +67535,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text"
+    "alternativ": [{"txt": "2,4 % ränta", "ratt": true}, {"txt": "2,1 % ränta", "ratt": false}]
   },
   {
     "id": "3.84",
@@ -72529,8 +72529,8 @@ window.BANKMA1 = [
     "familj": "Genomsnittlig förändring i problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -72540,10 +72540,10 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Genomsnittlig årlig förändring"
-    ]
+    ],
+    "alternativ": [{"txt": "Investering A", "ratt": false}, {"txt": "Investering B", "ratt": true}]
   },
   {
     "id": "3.202",
@@ -80840,13 +80840,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Vilket av följande uttryck har samma värde som \\(\\sin 25^\\circ\\)?</p><p>A) \\(\\cos65^\\circ\\)   B) \\(\\cos25^\\circ\\)   C) \\(\\tan65^\\circ\\)   D) \\(\\sin65^\\circ\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De spetsiga vinklarna i en rätvinklig triangel är komplementvinklar.</p></li><li><div class=\"facit-berakning\"><p>Därför gäller</p><div class=\"facit-matte\">\\[\\sin25^\\circ=\\cos(90^\\circ-25^\\circ)=\\cos65^\\circ\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: A.</strong></p></div>",
+    "t": "<p>Vilket av följande uttryck har samma värde som \\(\\sin 25^\\circ\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De spetsiga vinklarna i en rätvinklig triangel är komplementvinklar.</p></li><li><div class=\"facit-berakning\"><p>Därför gäller</p><div class=\"facit-matte\">\\[\\sin25^\\circ=\\cos(90^\\circ-25^\\circ)=\\cos65^\\circ\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\cos65^\\circ\\).</strong></p></div>",
     "familj": "Exakta trigonometriska värden och samband",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -80857,10 +80857,10 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Beräkna med sinus, cosinus och tangens"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(\\cos65^\\circ\\)", "ratt": true}, {"txt": "\\(\\cos25^\\circ\\)", "ratt": false}, {"txt": "\\(\\tan65^\\circ\\)", "ratt": false}, {"txt": "\\(\\sin65^\\circ\\)", "ratt": false}]
   },
   {
     "id": "4.48",
@@ -82199,13 +82199,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Triangeln har \\(A=(-2,1)\\), \\(B=(2,5)\\) och \\(C=(6,1)\\). Vilket påstående är korrekt?</p><p>A. Triangeln är rätvinklig vid B eftersom \\(AB^2+BC^2=AC^2\\).<br>B. Triangeln är rätvinklig vid A eftersom \\(AB=BC\\).<br>C. Triangeln är inte rätvinklig eftersom ingen sida är parallell med en koordinataxel.<br>D. Triangeln är inte rätvinklig eftersom AB och BC är lika långa.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[AB^2=32\\],</div></li><li><p>\\(BC^2=32\\) och \\(AC^2=64\\).</p></li><li><p>Eftersom \\(32+32=64\\) är triangeln rätvinklig vid B.</p></li></ol><p class=\"facit-svar\"><strong>Svar: A.</strong></p></div>",
+    "t": "<p>Triangeln har \\(A=(-2,1)\\), \\(B=(2,5)\\) och \\(C=(6,1)\\). Vilket påstående är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[AB^2=32\\],</div></li><li><p>\\(BC^2=32\\) och \\(AC^2=64\\).</p></li><li><p>Eftersom \\(32+32=64\\) är triangeln rätvinklig vid B.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Triangeln är rätvinklig vid B.</strong></p></div>",
     "familj": "Avstånd mellan punkter",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -82216,10 +82216,10 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Koordinatgeometri: avstånd och punkter"
-    ]
+    ],
+    "alternativ": [{"txt": "Triangeln är rätvinklig vid B eftersom \\(AB^2+BC^2=AC^2\\).", "ratt": true}, {"txt": "Triangeln är rätvinklig vid A eftersom \\(AB=BC\\).", "ratt": false}, {"txt": "Triangeln är inte rätvinklig eftersom ingen sida är parallell med en koordinataxel.", "ratt": false}, {"txt": "Triangeln är inte rätvinklig eftersom AB och BC är lika långa.", "ratt": false}]
   },
   {
     "id": "4.86",
@@ -87835,23 +87835,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du känner hypotenusan och den motstående kateten till vinkeln v. Vilket samband använder du direkt?</p><p>A) sinus &nbsp;&nbsp; B) cosinus &nbsp;&nbsp; C) tangens</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sinus använder motstående katet och hypotenusa:</p><div class=\"facit-matte\">\\[\\sin v=\\text{motstående}/\\text{hypotenusa}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Du känner hypotenusan och den motstående kateten till vinkeln v. Vilket samband använder du direkt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sinus använder motstående katet och hypotenusa:</p><div class=\"facit-matte\">\\[\\sin v=\\text{motstående}/\\text{hypotenusa}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> sinus.</p></div>",
     "familj": "Välja rätt trigonometriskt samband",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Välj definition utifrån exakt vilka två sidor som är kända.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "alternativ": [{"txt": "sinus", "ratt": true}, {"txt": "cosinus", "ratt": false}, {"txt": "tangens", "ratt": false}]
   },
   {
     "id": "4.222",
@@ -87862,23 +87862,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du känner de två kateterna och vill bestämma en spetsig vinkel. Vilket samband använder du direkt?</p><p>A) sinus &nbsp;&nbsp; B) tangens C) cosinus &nbsp;&nbsp;</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Tangens använder de två kateterna:</p><div class=\"facit-matte\">\\[\\tan v=\\text{motstående}/\\text{närliggande}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Du känner de två kateterna och vill bestämma en spetsig vinkel. Vilket samband använder du direkt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Tangens använder de två kateterna:</p><div class=\"facit-matte\">\\[\\tan v=\\text{motstående}/\\text{närliggande}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tangens.</p></div>",
     "familj": "Välja rätt trigonometriskt samband",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Välj definition utifrån exakt vilka två sidor som är kända.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "alternativ": [{"txt": "sinus", "ratt": false}, {"txt": "tangens", "ratt": true}, {"txt": "cosinus", "ratt": false}]
   },
   {
     "id": "4.223",
@@ -87889,23 +87889,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du känner hypotenusan och den närliggande kateten till vinkeln v. Vilket samband använder du direkt?</p><p>A) sinus &nbsp;&nbsp; B) tangens C) cosinus &nbsp;&nbsp;</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Cosinus använder närliggande katet och hypotenusa:</p><div class=\"facit-matte\">\\[\\cos v=\\text{närliggande}/\\text{hypotenusa}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>Du känner hypotenusan och den närliggande kateten till vinkeln v. Vilket samband använder du direkt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Cosinus använder närliggande katet och hypotenusa:</p><div class=\"facit-matte\">\\[\\cos v=\\text{närliggande}/\\text{hypotenusa}\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cosinus.</p></div>",
     "familj": "Välja rätt trigonometriskt samband",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Välj definition utifrån exakt vilka två sidor som är kända.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "alternativ": [{"txt": "sinus", "ratt": false}, {"txt": "tangens", "ratt": false}, {"txt": "cosinus", "ratt": true}]
   },
   {
     "id": "4.224",
@@ -113850,13 +113850,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>De två modellerna är \\(L(x)=100+5x\\) och \\(E(x)=80\\cdot1{,}06^x\\).</p><span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"55.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"91.5\" y1=\"25\" x2=\"91.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"91.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"128.0\" y1=\"25\" x2=\"128.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"128.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"164.5\" y1=\"25\" x2=\"164.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"164.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"201.0\" y1=\"25\" x2=\"201.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"201.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"237.5\" y1=\"25\" x2=\"237.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"237.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">10</text><line x1=\"274.0\" y1=\"25\" x2=\"274.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"274.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">12</text><line x1=\"310.5\" y1=\"25\" x2=\"310.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"310.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">14</text><line x1=\"347.0\" y1=\"25\" x2=\"347.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"347.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">16</text><line x1=\"383.5\" y1=\"25\" x2=\"383.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"383.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">18</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"420.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">20</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"261.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">60</text><line x1=\"55\" y1=\"228.9\" x2=\"420\" y2=\"228.9\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"231.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">80</text><line x1=\"55\" y1=\"199.8\" x2=\"420\" y2=\"199.8\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"202.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">100</text><line x1=\"55\" y1=\"170.6\" x2=\"420\" y2=\"170.6\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"173.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">120</text><line x1=\"55\" y1=\"141.5\" x2=\"420\" y2=\"141.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"144.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">140</text><line x1=\"55\" y1=\"112.4\" x2=\"420\" y2=\"112.4\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"115.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">160</text><line x1=\"55\" y1=\"83.2\" x2=\"420\" y2=\"83.2\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"86.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">180</text><line x1=\"55\" y1=\"54.1\" x2=\"420\" y2=\"54.1\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"57.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">200</text><line x1=\"55\" y1=\"25.0\" x2=\"420\" y2=\"25.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"28.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">220</text><line x1=\"55.0\" y1=\"258\" x2=\"55.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.6\"/><polyline points=\"55.0,199.8 56.5,199.1 58.0,198.5 59.6,197.9 61.1,197.3 62.6,196.7 64.1,196.1 65.6,195.5 67.2,194.9 68.7,194.3 70.2,193.7 71.7,193.1 73.2,192.5 74.8,191.9 76.3,191.3 77.8,190.6 79.3,190.0 80.9,189.4 82.4,188.8 83.9,188.2 85.4,187.6 86.9,187.0 88.5,186.4 90.0,185.8 91.5,185.2 93.0,184.6 94.5,184.0 96.1,183.4 97.6,182.8 99.1,182.2 100.6,181.5 102.1,180.9 103.7,180.3 105.2,179.7 106.7,179.1 108.2,178.5 109.8,177.9 111.3,177.3 112.8,176.7 114.3,176.1 115.8,175.5 117.4,174.9 118.9,174.3 120.4,173.7 121.9,173.1 123.4,172.4 125.0,171.8 126.5,171.2 128.0,170.6 129.5,170.0 131.0,169.4 132.6,168.8 134.1,168.2 135.6,167.6 137.1,167.0 138.6,166.4 140.2,165.8 141.7,165.2 143.2,164.6 144.7,164.0 146.2,163.3 147.8,162.7 149.3,162.1 150.8,161.5 152.3,160.9 153.9,160.3 155.4,159.7 156.9,159.1 158.4,158.5 159.9,157.9 161.5,157.3 163.0,156.7 164.5,156.1 166.0,155.5 167.5,154.8 169.1,154.2 170.6,153.6 172.1,153.0 173.6,152.4 175.1,151.8 176.7,151.2 178.2,150.6 179.7,150.0 181.2,149.4 182.8,148.8 184.3,148.2 185.8,147.6 187.3,147.0 188.8,146.4 190.4,145.7 191.9,145.1 193.4,144.5 194.9,143.9 196.4,143.3 198.0,142.7 199.5,142.1 201.0,141.5 202.5,140.9 204.0,140.3 205.6,139.7 207.1,139.1 208.6,138.5 210.1,137.9 211.6,137.3 213.2,136.6 214.7,136.0 216.2,135.4 217.7,134.8 219.2,134.2 220.8,133.6 222.3,133.0 223.8,132.4 225.3,131.8 226.9,131.2 228.4,130.6 229.9,130.0 231.4,129.4 232.9,128.8 234.5,128.2 236.0,127.5 237.5,126.9 239.0,126.3 240.5,125.7 242.1,125.1 243.6,124.5 245.1,123.9 246.6,123.3 248.1,122.7 249.7,122.1 251.2,121.5 252.7,120.9 254.2,120.3 255.8,119.7 257.3,119.0 258.8,118.4 260.3,117.8 261.8,117.2 263.4,116.6 264.9,116.0 266.4,115.4 267.9,114.8 269.4,114.2 271.0,113.6 272.5,113.0 274.0,112.4 275.5,111.8 277.0,111.2 278.6,110.6 280.1,109.9 281.6,109.3 283.1,108.7 284.6,108.1 286.2,107.5 287.7,106.9 289.2,106.3 290.7,105.7 292.2,105.1 293.8,104.5 295.3,103.9 296.8,103.3 298.3,102.7 299.9,102.1 301.4,101.5 302.9,100.8 304.4,100.2 305.9,99.6 307.5,99.0 309.0,98.4 310.5,97.8 312.0,97.2 313.5,96.6 315.1,96.0 316.6,95.4 318.1,94.8 319.6,94.2 321.1,93.6 322.7,93.0 324.2,92.4 325.7,91.7 327.2,91.1 328.8,90.5 330.3,89.9 331.8,89.3 333.3,88.7 334.8,88.1 336.4,87.5 337.9,86.9 339.4,86.3 340.9,85.7 342.4,85.1 344.0,84.5 345.5,83.9 347.0,83.2 348.5,82.6 350.0,82.0 351.6,81.4 353.1,80.8 354.6,80.2 356.1,79.6 357.6,79.0 359.2,78.4 360.7,77.8 362.2,77.2 363.7,76.6 365.2,76.0 366.8,75.4 368.3,74.8 369.8,74.1 371.3,73.5 372.9,72.9 374.4,72.3 375.9,71.7 377.4,71.1 378.9,70.5 380.5,69.9 382.0,69.3 383.5,68.7 385.0,68.1 386.5,67.5 388.1,66.9 389.6,66.3 391.1,65.7 392.6,65.0 394.1,64.4 395.7,63.8 397.2,63.2 398.7,62.6 400.2,62.0 401.8,61.4 403.3,60.8 404.8,60.2 406.3,59.6 407.8,59.0 409.4,58.4 410.9,57.8 412.4,57.2 413.9,56.6 415.4,55.9 417.0,55.3 418.5,54.7 420.0,54.1\" fill=\"none\" stroke=\"#3F7FB8\" stroke-width=\"2.5\" stroke-dasharray=\"\"/><text x=\"308.2\" y=\"94.7\" font-family=\"monospace\" font-size=\"11\" fill=\"#3F7FB8\">L</text><polyline points=\"55.0,228.9 56.5,228.3 58.0,227.7 59.6,227.2 61.1,226.6 62.6,226.0 64.1,225.4 65.6,224.8 67.2,224.3 68.7,223.7 70.2,223.1 71.7,222.5 73.2,221.9 74.8,221.3 76.3,220.7 77.8,220.1 79.3,219.5 80.9,218.9 82.4,218.2 83.9,217.6 85.4,217.0 86.9,216.4 88.5,215.7 90.0,215.1 91.5,214.5 93.0,213.8 94.5,213.2 96.1,212.6 97.6,211.9 99.1,211.3 100.6,210.6 102.1,209.9 103.7,209.3 105.2,208.6 106.7,208.0 108.2,207.3 109.8,206.6 111.3,205.9 112.8,205.3 114.3,204.6 115.8,203.9 117.4,203.2 118.9,202.5 120.4,201.8 121.9,201.1 123.4,200.4 125.0,199.7 126.5,199.0 128.0,198.3 129.5,197.6 131.0,196.9 132.6,196.1 134.1,195.4 135.6,194.7 137.1,193.9 138.6,193.2 140.2,192.5 141.7,191.7 143.2,191.0 144.7,190.2 146.2,189.5 147.8,188.7 149.3,188.0 150.8,187.2 152.3,186.4 153.9,185.6 155.4,184.9 156.9,184.1 158.4,183.3 159.9,182.5 161.5,181.7 163.0,180.9 164.5,180.1 166.0,179.3 167.5,178.5 169.1,177.7 170.6,176.9 172.1,176.1 173.6,175.2 175.1,174.4 176.7,173.6 178.2,172.7 179.7,171.9 181.2,171.1 182.8,170.2 184.3,169.3 185.8,168.5 187.3,167.6 188.8,166.8 190.4,165.9 191.9,165.0 193.4,164.1 194.9,163.3 196.4,162.4 198.0,161.5 199.5,160.6 201.0,159.7 202.5,158.8 204.0,157.9 205.6,157.0 207.1,156.0 208.6,155.1 210.1,154.2 211.6,153.3 213.2,152.3 214.7,151.4 216.2,150.5 217.7,149.5 219.2,148.6 220.8,147.6 222.3,146.6 223.8,145.7 225.3,144.7 226.9,143.7 228.4,142.7 229.9,141.7 231.4,140.8 232.9,139.8 234.5,138.8 236.0,137.8 237.5,136.7 239.0,135.7 240.5,134.7 242.1,133.7 243.6,132.6 245.1,131.6 246.6,130.6 248.1,129.5 249.7,128.5 251.2,127.4 252.7,126.4 254.2,125.3 255.8,124.2 257.3,123.1 258.8,122.1 260.3,121.0 261.8,119.9 263.4,118.8 264.9,117.7 266.4,116.6 267.9,115.5 269.4,114.3 271.0,113.2 272.5,112.1 274.0,111.0 275.5,109.8 277.0,108.7 278.6,107.5 280.1,106.4 281.6,105.2 283.1,104.0 284.6,102.8 286.2,101.7 287.7,100.5 289.2,99.3 290.7,98.1 292.2,96.9 293.8,95.7 295.3,94.5 296.8,93.2 298.3,92.0 299.9,90.8 301.4,89.5 302.9,88.3 304.4,87.0 305.9,85.8 307.5,84.5 309.0,83.3 310.5,82.0 312.0,80.7 313.5,79.4 315.1,78.1 316.6,76.8 318.1,75.5 319.6,74.2 321.1,72.9 322.7,71.5 324.2,70.2 325.7,68.9 327.2,67.5 328.8,66.2 330.3,64.8 331.8,63.5 333.3,62.1 334.8,60.7 336.4,59.3 337.9,57.9 339.4,56.5 340.9,55.1 342.4,53.7 344.0,52.3 345.5,50.9 347.0,49.4 348.5,48.0 350.0,46.5 351.6,45.1 353.1,43.6 354.6,42.2 356.1,40.7 357.6,39.2 359.2,37.7 360.7,36.2 362.2,34.7 363.7,33.2 365.2,31.7 366.8,30.1 368.3,28.6 369.8,27.1 371.3,25.5 372.9,24.0 374.4,22.4 375.9,20.8 377.4,19.2 378.9,17.7 380.5,16.1 382.0,14.5 383.5,12.8 385.0,11.2 386.5,9.6 388.1,8.0 389.6,6.3 391.1,4.7 392.6,3.0 394.1,1.3 395.7,-0.3 397.2,-2.0 398.7,-3.7 400.2,-5.4 401.8,-7.1 403.3,-8.8 404.8,-10.5 406.3,-12.3 407.8,-14.0 409.4,-15.8 410.9,-17.5 412.4,-19.3 413.9,-21.1 415.4,-22.9 417.0,-24.6 418.5,-26.4 420.0,-28.3\" fill=\"none\" stroke=\"#315f91\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"337.4\" y=\"56.9\" font-family=\"monospace\" font-size=\"11\" fill=\"#315f91\">E</text></svg></span><p>Vilket alternativ beskriver deras skärning och ordning bäst?</p><p>A. De är lika vid ungefär \\(x=11{,}77\\); \\(E\\) är störst före och \\(L\\) efter.<br>B. De är lika vid ungefär \\(x=11{,}77\\); \\(L\\) är störst före och \\(E\\) efter.<br>C. De är lika vid ungefär \\(x=6{,}00\\); \\(L\\) är störst före och \\(E\\) efter.<br>D. De skär inte varandra för \\(x\\ge0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Digitalt fås skärningen vid <strong>x≈11,77</strong>.</p></li><li><p>Före skärningen ligger L över E; efter skärningen växer exponentialmodellen förbi.</p></li></ol><p class=\"facit-svar\"><strong>Svar: B.</strong></p></div>",
+    "t": "<p>De två modellerna är \\(L(x)=100+5x\\) och \\(E(x)=80\\cdot1{,}06^x\\).</p><span class=\"fig\"><svg width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"graf i koordinatsystem\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#d8d8d8\"/><line x1=\"55.0\" y1=\"25\" x2=\"55.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"55.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">0</text><line x1=\"91.5\" y1=\"25\" x2=\"91.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"91.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">2</text><line x1=\"128.0\" y1=\"25\" x2=\"128.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"128.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">4</text><line x1=\"164.5\" y1=\"25\" x2=\"164.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"164.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">6</text><line x1=\"201.0\" y1=\"25\" x2=\"201.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"201.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">8</text><line x1=\"237.5\" y1=\"25\" x2=\"237.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"237.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">10</text><line x1=\"274.0\" y1=\"25\" x2=\"274.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"274.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">12</text><line x1=\"310.5\" y1=\"25\" x2=\"310.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"310.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">14</text><line x1=\"347.0\" y1=\"25\" x2=\"347.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"347.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">16</text><line x1=\"383.5\" y1=\"25\" x2=\"383.5\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"383.5\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">18</text><line x1=\"420.0\" y1=\"25\" x2=\"420.0\" y2=\"258\" stroke=\"#e8e8e8\"/><text x=\"420.0\" y=\"276\" text-anchor=\"middle\" font-family=\"monospace\" font-size=\"9\">20</text><line x1=\"55\" y1=\"258.0\" x2=\"420\" y2=\"258.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"261.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">60</text><line x1=\"55\" y1=\"228.9\" x2=\"420\" y2=\"228.9\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"231.9\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">80</text><line x1=\"55\" y1=\"199.8\" x2=\"420\" y2=\"199.8\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"202.8\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">100</text><line x1=\"55\" y1=\"170.6\" x2=\"420\" y2=\"170.6\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"173.6\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">120</text><line x1=\"55\" y1=\"141.5\" x2=\"420\" y2=\"141.5\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"144.5\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">140</text><line x1=\"55\" y1=\"112.4\" x2=\"420\" y2=\"112.4\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"115.4\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">160</text><line x1=\"55\" y1=\"83.2\" x2=\"420\" y2=\"83.2\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"86.2\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">180</text><line x1=\"55\" y1=\"54.1\" x2=\"420\" y2=\"54.1\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"57.1\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">200</text><line x1=\"55\" y1=\"25.0\" x2=\"420\" y2=\"25.0\" stroke=\"#e8e8e8\"/><text x=\"48\" y=\"28.0\" text-anchor=\"end\" font-family=\"monospace\" font-size=\"9\">220</text><line x1=\"55.0\" y1=\"258\" x2=\"55.0\" y2=\"25\" stroke=\"#333\" stroke-width=\"1.6\"/><polyline points=\"55.0,199.8 56.5,199.1 58.0,198.5 59.6,197.9 61.1,197.3 62.6,196.7 64.1,196.1 65.6,195.5 67.2,194.9 68.7,194.3 70.2,193.7 71.7,193.1 73.2,192.5 74.8,191.9 76.3,191.3 77.8,190.6 79.3,190.0 80.9,189.4 82.4,188.8 83.9,188.2 85.4,187.6 86.9,187.0 88.5,186.4 90.0,185.8 91.5,185.2 93.0,184.6 94.5,184.0 96.1,183.4 97.6,182.8 99.1,182.2 100.6,181.5 102.1,180.9 103.7,180.3 105.2,179.7 106.7,179.1 108.2,178.5 109.8,177.9 111.3,177.3 112.8,176.7 114.3,176.1 115.8,175.5 117.4,174.9 118.9,174.3 120.4,173.7 121.9,173.1 123.4,172.4 125.0,171.8 126.5,171.2 128.0,170.6 129.5,170.0 131.0,169.4 132.6,168.8 134.1,168.2 135.6,167.6 137.1,167.0 138.6,166.4 140.2,165.8 141.7,165.2 143.2,164.6 144.7,164.0 146.2,163.3 147.8,162.7 149.3,162.1 150.8,161.5 152.3,160.9 153.9,160.3 155.4,159.7 156.9,159.1 158.4,158.5 159.9,157.9 161.5,157.3 163.0,156.7 164.5,156.1 166.0,155.5 167.5,154.8 169.1,154.2 170.6,153.6 172.1,153.0 173.6,152.4 175.1,151.8 176.7,151.2 178.2,150.6 179.7,150.0 181.2,149.4 182.8,148.8 184.3,148.2 185.8,147.6 187.3,147.0 188.8,146.4 190.4,145.7 191.9,145.1 193.4,144.5 194.9,143.9 196.4,143.3 198.0,142.7 199.5,142.1 201.0,141.5 202.5,140.9 204.0,140.3 205.6,139.7 207.1,139.1 208.6,138.5 210.1,137.9 211.6,137.3 213.2,136.6 214.7,136.0 216.2,135.4 217.7,134.8 219.2,134.2 220.8,133.6 222.3,133.0 223.8,132.4 225.3,131.8 226.9,131.2 228.4,130.6 229.9,130.0 231.4,129.4 232.9,128.8 234.5,128.2 236.0,127.5 237.5,126.9 239.0,126.3 240.5,125.7 242.1,125.1 243.6,124.5 245.1,123.9 246.6,123.3 248.1,122.7 249.7,122.1 251.2,121.5 252.7,120.9 254.2,120.3 255.8,119.7 257.3,119.0 258.8,118.4 260.3,117.8 261.8,117.2 263.4,116.6 264.9,116.0 266.4,115.4 267.9,114.8 269.4,114.2 271.0,113.6 272.5,113.0 274.0,112.4 275.5,111.8 277.0,111.2 278.6,110.6 280.1,109.9 281.6,109.3 283.1,108.7 284.6,108.1 286.2,107.5 287.7,106.9 289.2,106.3 290.7,105.7 292.2,105.1 293.8,104.5 295.3,103.9 296.8,103.3 298.3,102.7 299.9,102.1 301.4,101.5 302.9,100.8 304.4,100.2 305.9,99.6 307.5,99.0 309.0,98.4 310.5,97.8 312.0,97.2 313.5,96.6 315.1,96.0 316.6,95.4 318.1,94.8 319.6,94.2 321.1,93.6 322.7,93.0 324.2,92.4 325.7,91.7 327.2,91.1 328.8,90.5 330.3,89.9 331.8,89.3 333.3,88.7 334.8,88.1 336.4,87.5 337.9,86.9 339.4,86.3 340.9,85.7 342.4,85.1 344.0,84.5 345.5,83.9 347.0,83.2 348.5,82.6 350.0,82.0 351.6,81.4 353.1,80.8 354.6,80.2 356.1,79.6 357.6,79.0 359.2,78.4 360.7,77.8 362.2,77.2 363.7,76.6 365.2,76.0 366.8,75.4 368.3,74.8 369.8,74.1 371.3,73.5 372.9,72.9 374.4,72.3 375.9,71.7 377.4,71.1 378.9,70.5 380.5,69.9 382.0,69.3 383.5,68.7 385.0,68.1 386.5,67.5 388.1,66.9 389.6,66.3 391.1,65.7 392.6,65.0 394.1,64.4 395.7,63.8 397.2,63.2 398.7,62.6 400.2,62.0 401.8,61.4 403.3,60.8 404.8,60.2 406.3,59.6 407.8,59.0 409.4,58.4 410.9,57.8 412.4,57.2 413.9,56.6 415.4,55.9 417.0,55.3 418.5,54.7 420.0,54.1\" fill=\"none\" stroke=\"#3F7FB8\" stroke-width=\"2.5\" stroke-dasharray=\"\"/><text x=\"308.2\" y=\"94.7\" font-family=\"monospace\" font-size=\"11\" fill=\"#3F7FB8\">L</text><polyline points=\"55.0,228.9 56.5,228.3 58.0,227.7 59.6,227.2 61.1,226.6 62.6,226.0 64.1,225.4 65.6,224.8 67.2,224.3 68.7,223.7 70.2,223.1 71.7,222.5 73.2,221.9 74.8,221.3 76.3,220.7 77.8,220.1 79.3,219.5 80.9,218.9 82.4,218.2 83.9,217.6 85.4,217.0 86.9,216.4 88.5,215.7 90.0,215.1 91.5,214.5 93.0,213.8 94.5,213.2 96.1,212.6 97.6,211.9 99.1,211.3 100.6,210.6 102.1,209.9 103.7,209.3 105.2,208.6 106.7,208.0 108.2,207.3 109.8,206.6 111.3,205.9 112.8,205.3 114.3,204.6 115.8,203.9 117.4,203.2 118.9,202.5 120.4,201.8 121.9,201.1 123.4,200.4 125.0,199.7 126.5,199.0 128.0,198.3 129.5,197.6 131.0,196.9 132.6,196.1 134.1,195.4 135.6,194.7 137.1,193.9 138.6,193.2 140.2,192.5 141.7,191.7 143.2,191.0 144.7,190.2 146.2,189.5 147.8,188.7 149.3,188.0 150.8,187.2 152.3,186.4 153.9,185.6 155.4,184.9 156.9,184.1 158.4,183.3 159.9,182.5 161.5,181.7 163.0,180.9 164.5,180.1 166.0,179.3 167.5,178.5 169.1,177.7 170.6,176.9 172.1,176.1 173.6,175.2 175.1,174.4 176.7,173.6 178.2,172.7 179.7,171.9 181.2,171.1 182.8,170.2 184.3,169.3 185.8,168.5 187.3,167.6 188.8,166.8 190.4,165.9 191.9,165.0 193.4,164.1 194.9,163.3 196.4,162.4 198.0,161.5 199.5,160.6 201.0,159.7 202.5,158.8 204.0,157.9 205.6,157.0 207.1,156.0 208.6,155.1 210.1,154.2 211.6,153.3 213.2,152.3 214.7,151.4 216.2,150.5 217.7,149.5 219.2,148.6 220.8,147.6 222.3,146.6 223.8,145.7 225.3,144.7 226.9,143.7 228.4,142.7 229.9,141.7 231.4,140.8 232.9,139.8 234.5,138.8 236.0,137.8 237.5,136.7 239.0,135.7 240.5,134.7 242.1,133.7 243.6,132.6 245.1,131.6 246.6,130.6 248.1,129.5 249.7,128.5 251.2,127.4 252.7,126.4 254.2,125.3 255.8,124.2 257.3,123.1 258.8,122.1 260.3,121.0 261.8,119.9 263.4,118.8 264.9,117.7 266.4,116.6 267.9,115.5 269.4,114.3 271.0,113.2 272.5,112.1 274.0,111.0 275.5,109.8 277.0,108.7 278.6,107.5 280.1,106.4 281.6,105.2 283.1,104.0 284.6,102.8 286.2,101.7 287.7,100.5 289.2,99.3 290.7,98.1 292.2,96.9 293.8,95.7 295.3,94.5 296.8,93.2 298.3,92.0 299.9,90.8 301.4,89.5 302.9,88.3 304.4,87.0 305.9,85.8 307.5,84.5 309.0,83.3 310.5,82.0 312.0,80.7 313.5,79.4 315.1,78.1 316.6,76.8 318.1,75.5 319.6,74.2 321.1,72.9 322.7,71.5 324.2,70.2 325.7,68.9 327.2,67.5 328.8,66.2 330.3,64.8 331.8,63.5 333.3,62.1 334.8,60.7 336.4,59.3 337.9,57.9 339.4,56.5 340.9,55.1 342.4,53.7 344.0,52.3 345.5,50.9 347.0,49.4 348.5,48.0 350.0,46.5 351.6,45.1 353.1,43.6 354.6,42.2 356.1,40.7 357.6,39.2 359.2,37.7 360.7,36.2 362.2,34.7 363.7,33.2 365.2,31.7 366.8,30.1 368.3,28.6 369.8,27.1 371.3,25.5 372.9,24.0 374.4,22.4 375.9,20.8 377.4,19.2 378.9,17.7 380.5,16.1 382.0,14.5 383.5,12.8 385.0,11.2 386.5,9.6 388.1,8.0 389.6,6.3 391.1,4.7 392.6,3.0 394.1,1.3 395.7,-0.3 397.2,-2.0 398.7,-3.7 400.2,-5.4 401.8,-7.1 403.3,-8.8 404.8,-10.5 406.3,-12.3 407.8,-14.0 409.4,-15.8 410.9,-17.5 412.4,-19.3 413.9,-21.1 415.4,-22.9 417.0,-24.6 418.5,-26.4 420.0,-28.3\" fill=\"none\" stroke=\"#315f91\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><text x=\"337.4\" y=\"56.9\" font-family=\"monospace\" font-size=\"11\" fill=\"#315f91\">E</text></svg></span><p>Vilket alternativ beskriver deras skärning och ordning bäst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Digitalt fås skärningen vid <strong>x≈11,77</strong>.</p></li><li><p>Före skärningen ligger L över E; efter skärningen växer exponentialmodellen förbi.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Skärning vid ungefär \\(x=11{,}77\\); \\(L\\) är störst före och \\(E\\) efter.</strong></p></div>",
     "familj": "Rita grafer med digitala verktyg",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -113867,11 +113867,11 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "kort_text",
     "omrTidigare": "digital_grafritning",
     "familjTidigare": [
       "Digital grafanalys"
-    ]
+    ],
+    "alternativ": [{"txt": "De är lika vid ungefär \\(x=11{,}77\\); \\(E\\) är störst före och \\(L\\) efter.", "ratt": false}, {"txt": "De är lika vid ungefär \\(x=11{,}77\\); \\(L\\) är störst före och \\(E\\) efter.", "ratt": true}, {"txt": "De är lika vid ungefär \\(x=6{,}00\\); \\(L\\) är störst före och \\(E\\) efter.", "ratt": false}, {"txt": "De skär inte varandra för \\(x\\ge0\\).", "ratt": false}]
   },
   {
     "id": "6.80",
@@ -114808,8 +114808,8 @@ window.BANKMA1 = [
     "familj": "Hållbar utveckling",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -114820,11 +114820,11 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "kort_text",
     "omrTidigare": "hallbar_utveckling",
     "familjTidigare": [
       "Hållbarhetsberäkningar"
-    ]
+    ],
+    "alternativ": [{"txt": "Alternativ A", "ratt": false}, {"txt": "Alternativ B", "ratt": true}]
   },
   {
     "id": "6.105",
@@ -119480,13 +119480,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Längden 12,4 m och bredden 6,8 m är avrundade till närmaste tiondels meter. Vilket intervall måste rektangelns verkliga omkrets ligga i?</p><p>A. 38,2 m ≤ P &lt; 38,6 m<br>B. 38,2 m &lt; P ≤ 38,6 m<br>C. 38,4 m ≤ P &lt; 38,8 m<br>D. 38,0 m ≤ P &lt; 38,4 m</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Verklig längd ligger i intervallet 12,35 ≤ L &lt; 12,45 och bredden i 6,75 ≤ B &lt; 6,85.</p></li><li><p>P=2(L+B), så <strong>38,2 ≤ P &lt; 38,6 m</strong>.</p></li></ol><p class=\"facit-svar\"><strong>Svar: A.</strong></p></div>",
+    "t": "<p>Längden 12,4 m och bredden 6,8 m är avrundade till närmaste tiondels meter. Vilket intervall måste rektangelns verkliga omkrets ligga i?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Verklig längd ligger i intervallet 12,35 ≤ L &lt; 12,45 och bredden i 6,75 ≤ B &lt; 6,85.</p></li><li><p>P=2(L+B), så <strong>38,2 ≤ P &lt; 38,6 m</strong>.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 38,2 m ≤ P &lt; 38,6 m.</strong></p></div>",
     "familj": "Rimlighet och avrundade mått",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -119496,10 +119496,10 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Överslag och rimlighetsbedömning"
-    ]
+    ],
+    "alternativ": [{"txt": "38,2 m ≤ P &lt; 38,6 m", "ratt": true}, {"txt": "38,2 m &lt; P ≤ 38,6 m", "ratt": false}, {"txt": "38,4 m ≤ P &lt; 38,8 m", "ratt": false}, {"txt": "38,0 m ≤ P &lt; 38,4 m", "ratt": false}]
   },
   {
     "id": "7.29",
@@ -122004,13 +122004,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett instrument har osäkerheten ±0,5 mm och visar 83,2 mm. Vilket intervall bör anges?</p><p>A. 83,0–83,4 mm<br>B. 82,5–83,5 mm<br>C. 82,7–83,7 mm<br>D. 83,2–83,7 mm</p>",
+    "t": "<p>Ett instrument har osäkerheten ±0,5 mm och visar 83,2 mm. Vilket intervall bör anges?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">83,2−0,5 = 82,7 och</p><div class=\"facit-matte\">\\[83{,}2+0{,}5=83{,}7\\]</div></div></li><li><p>Intervallet är <strong>82,7–83,7 mm</strong>.</p></li></ol></div>",
     "familj": "Mätvärde och osäkerhetsintervall",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -122020,10 +122020,10 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Mätfel och felmarginal"
-    ]
+    ],
+    "alternativ": [{"txt": "83,0–83,4 mm", "ratt": false}, {"txt": "82,5–83,5 mm", "ratt": false}, {"txt": "82,7–83,7 mm", "ratt": true}, {"txt": "83,2–83,7 mm", "ratt": false}]
   },
   {
     "id": "7.91",
@@ -122034,13 +122034,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Varför är en välgjord tabell eller mall ofta bättre än huvudräkning när samma typ av beräkning görs många gånger?</p><p>A. Den gör att indata inte längre behöver kontrolleras eftersom alla svar automatiskt blir rätt.<br>B. Den kan ge en enhetlig metod och minska risken för upprepade slarvfel.<br>C. Den ersätter behovet av enheter eftersom kolumner alltid betyder samma sak.<br>D. Den gör uppskattningar onödiga eftersom rimlighetskontroll aldrig behövs.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>B</strong> är korrekt.</p></li><li><p>En mall kan standardisera återkommande beräkningar och minska slarv, men indata, enheter och rimlighet måste fortfarande kontrolleras.</p></li></ol></div>",
+    "t": "<p>Varför är en välgjord tabell eller mall ofta bättre än huvudräkning när samma typ av beräkning görs många gånger?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En mall kan standardisera återkommande beräkningar och minska slarv, men indata, enheter och rimlighet måste fortfarande kontrolleras.</p></li></ol></div>",
     "familj": "Tabeller och kalkylblad",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -122051,10 +122051,10 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Yrkesverktyg, mätinstrument och rimlighetskontroll"
-    ]
+    ],
+    "alternativ": [{"txt": "Den gör att indata inte längre behöver kontrolleras eftersom alla svar automatiskt blir rätt.", "ratt": false}, {"txt": "Den kan ge en enhetlig metod och minska risken för upprepade slarvfel.", "ratt": true}, {"txt": "Den ersätter behovet av enheter eftersom kolumner alltid betyder samma sak.", "ratt": false}, {"txt": "Den gör uppskattningar onödiga eftersom rimlighetskontroll aldrig behövs.", "ratt": false}]
   },
   {
     "id": "7.92",
@@ -122490,13 +122490,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Tre personer uppskattar \\(398\\cdot51\\):</p><p>A: \\(400\\cdot50=20\\,000\\)<br>B: \\(400\\cdot51=20\\,400\\)<br>C: \\(398\\cdot50=19\\,900\\)</p><p>Utan att först multiplicera exakt: vilket eller vilka överslag bör ligga närmast? Kontrollera sedan.</p><p>Välj det alternativ som bör ligga närmast.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det exakta värdet ligger lite under 400·51 = 20 400, eftersom 398 är 2 mindre än 400.</p></li><li><p>Därför bör <strong>B</strong> ligga närmast.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[398\\cdot 51=20\\,298\\]</div></div></li><li><p>Felen blir 298 för A, 102 för B och 398 för C.</p></li></ol></div>",
+    "t": "<p>Tre personer uppskattar \\(398\\cdot51\\):</p><p>Utan att först multiplicera exakt: vilket eller vilka överslag bör ligga närmast? Kontrollera sedan.</p><p>Välj det alternativ som bör ligga närmast.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det exakta värdet ligger lite under 400·51 = 20 400, eftersom 398 är 2 mindre än 400.</p></li><li><p>Därför bör \\(400\\cdot51=20\\,400\\) ligga närmast.</p></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">Kontroll:</p><div class=\"facit-matte\">\\[398\\cdot 51=20\\,298\\]</div></div></li><li><p>Felen blir 298 för \\(400\\cdot50\\), 102 för \\(400\\cdot51\\) och 398 för \\(398\\cdot50\\).</p></li></ol></div>",
     "familj": "Rimlighet och avrundade mått",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -122507,10 +122507,10 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Överslag och rimlighetsbedömning"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(400\\cdot50=20\\,000\\)", "ratt": false}, {"txt": "\\(400\\cdot51=20\\,400\\)", "ratt": true}, {"txt": "\\(398\\cdot50=19\\,900\\)", "ratt": false}]
   },
   {
     "id": "7.106",
@@ -122972,13 +122972,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En detalj ska ligga inom 25,0 ± 0,2 mm. Instrument A har mätosäkerheten ±1,0 mm och instrument B ±0,1 mm. Vilket resonemang är bäst?</p><p>A. Instrument A är bäst, eftersom en större osäkerhet gör det lättare att avgöra om måttet ligger nära 25,0 mm.</p><p>B. Instrumenten är likvärdiga, eftersom båda mäter i millimeter och därför har samma praktiska noggrannhet.</p><p>C. Instrument B är bäst, eftersom dess osäkerhet är mindre än toleransen och därför ger bättre möjlighet att skilja godkända från underkända detaljer.</p><p>D. Instrument A är bäst, eftersom toleransen ±0,2 mm kan avrundas till ±1,0 mm utan att bedömningen påverkas.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>C</strong> är lämpligare.</p></li><li><p>Toleransen är bara ±0,2 mm; ett instrument med ±1,0 mm osäkerhet är för grovt för att pålitligt avgöra om detaljen ligger inom gränserna.</p></li></ol></div>",
+    "t": "<p>En detalj ska ligga inom 25,0 ± 0,2 mm. Instrument A har mätosäkerheten ±1,0 mm och instrument B ±0,1 mm. Vilket resonemang är bäst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Instrument B är lämpligare.</p></li><li><p>Toleransen är bara ±0,2 mm; ett instrument med ±1,0 mm osäkerhet är för grovt för att pålitligt avgöra om detaljen ligger inom gränserna.</p></li></ol></div>",
     "familj": "Mätinstrument och avläsning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -122988,10 +122988,10 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Yrkesverktyg, mätinstrument och rimlighetskontroll"
-    ]
+    ],
+    "alternativ": [{"txt": "Instrument A är bäst, eftersom en större osäkerhet gör det lättare att avgöra om måttet ligger nära 25,0 mm.", "ratt": false}, {"txt": "Instrumenten är likvärdiga, eftersom båda mäter i millimeter och därför har samma praktiska noggrannhet.", "ratt": false}, {"txt": "Instrument B är bäst, eftersom dess osäkerhet är mindre än toleransen och därför ger bättre möjlighet att skilja godkända från underkända detaljer.", "ratt": true}, {"txt": "Instrument A är bäst, eftersom toleransen ±0,2 mm kan avrundas till ±1,0 mm utan att bedömningen påverkas.", "ratt": false}]
   },
   {
     "id": "7.118",
@@ -123033,13 +123033,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett kalkylblad ska lägga på samma spillfaktor på alla rader. Spillfaktorn 8 % står i H1. Vilken formel är bäst att fylla ned från E2?</p><p>A. =D2*(1+H1), eftersom båda referenserna ska flyttas en rad varje gång.<br>B. =D2*(1+$H$1), eftersom D2 ska ändras radvis men H1 ska vara låst.<br>C. =$D$2*(1+H1), eftersom prisraden alltid ska vara densamma.<br>D. =D2+H1, eftersom 8 % kan adderas direkt som talet 0,08.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>B</strong>.</p></li><li><p>D2 ska bli D3, D4 osv., men spillfaktorn finns alltid i H1 och ska därför låsas som $H$1.</p></li></ol></div>",
+    "t": "<p>Ett kalkylblad ska lägga på samma spillfaktor på alla rader. Spillfaktorn 8 % står i H1. Vilken formel är bäst att fylla ned från E2?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Formeln =D2*(1+$H$1) är bäst.</p></li><li><p>D2 ska bli D3, D4 osv., men spillfaktorn finns alltid i H1 och ska därför låsas som $H$1.</p></li></ol></div>",
     "familj": "Tabeller och kalkylblad",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -123050,10 +123050,10 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Yrkesverktyg, mätinstrument och rimlighetskontroll"
-    ]
+    ],
+    "alternativ": [{"txt": "=D2*(1+H1), eftersom båda referenserna ska flyttas en rad varje gång.", "ratt": false}, {"txt": "=D2*(1+$H$1), eftersom D2 ska ändras radvis men H1 ska vara låst.", "ratt": true}, {"txt": "=$D$2*(1+H1), eftersom prisraden alltid ska vara densamma.", "ratt": false}, {"txt": "=D2+H1, eftersom 8 % kan adderas direkt som talet 0,08.", "ratt": false}]
   },
   {
     "id": "7.120",
@@ -131805,13 +131805,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I vilken figur är den färgade andelen störst?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 180\" width=\"520\" height=\"180\" role=\"img\" aria-label=\"Två figurer A och B med färgade andelar\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"178\" rx=\"12\" fill=\"#fff\" stroke=\"#E4E3E6\"/><text x=\"35\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"700\" fill=\"#2B2527\">A</text><g transform=\"translate(62,35)\" stroke=\"#2B2527\" stroke-width=\"1.5\"><rect x=\"0\" y=\"0\" width=\"48\" height=\"48\" fill=\"#D9E7B2\"/><rect x=\"48\" y=\"0\" width=\"48\" height=\"48\" fill=\"#fff\"/><rect x=\"96\" y=\"0\" width=\"48\" height=\"48\" fill=\"#D9E7B2\"/><rect x=\"144\" y=\"0\" width=\"48\" height=\"48\" fill=\"#fff\"/><rect x=\"192\" y=\"0\" width=\"48\" height=\"48\" fill=\"#D9E7B2\"/><rect x=\"0\" y=\"48\" width=\"48\" height=\"48\" fill=\"#fff\"/><rect x=\"48\" y=\"48\" width=\"48\" height=\"48\" fill=\"#D9E7B2\"/><rect x=\"96\" y=\"48\" width=\"48\" height=\"48\" fill=\"#fff\"/><rect x=\"144\" y=\"48\" width=\"48\" height=\"48\" fill=\"#fff\"/><rect x=\"192\" y=\"48\" width=\"48\" height=\"48\" fill=\"#D9E7B2\"/></g><text x=\"330\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"700\" fill=\"#2B2527\">B</text><g transform=\"translate(340,50)\" stroke=\"#2B2527\" stroke-width=\"1.5\"><rect x=\"0\" y=\"0\" width=\"42\" height=\"78\" fill=\"#D9E7B2\"/><rect x=\"42\" y=\"0\" width=\"42\" height=\"78\" fill=\"#D9E7B2\"/><rect x=\"84\" y=\"0\" width=\"42\" height=\"78\" fill=\"#fff\"/><rect x=\"126\" y=\"0\" width=\"42\" height=\"78\" fill=\"#fff\"/><line x1=\"84\" y1=\"39\" x2=\"126\" y2=\"39\"/><rect x=\"84\" y=\"0\" width=\"42\" height=\"39\" fill=\"#D9E7B2\"/></g></svg></span><p>Svara A eller B.</p>",
+    "t": "<p>I vilken figur är den färgade andelen störst?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 180\" width=\"520\" height=\"180\" role=\"img\" aria-label=\"Två figurer A och B med färgade andelar\"><rect x=\"1\" y=\"1\" width=\"518\" height=\"178\" rx=\"12\" fill=\"#fff\" stroke=\"#E4E3E6\"/><text x=\"35\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"700\" fill=\"#2B2527\">A</text><g transform=\"translate(62,35)\" stroke=\"#2B2527\" stroke-width=\"1.5\"><rect x=\"0\" y=\"0\" width=\"48\" height=\"48\" fill=\"#D9E7B2\"/><rect x=\"48\" y=\"0\" width=\"48\" height=\"48\" fill=\"#fff\"/><rect x=\"96\" y=\"0\" width=\"48\" height=\"48\" fill=\"#D9E7B2\"/><rect x=\"144\" y=\"0\" width=\"48\" height=\"48\" fill=\"#fff\"/><rect x=\"192\" y=\"0\" width=\"48\" height=\"48\" fill=\"#D9E7B2\"/><rect x=\"0\" y=\"48\" width=\"48\" height=\"48\" fill=\"#fff\"/><rect x=\"48\" y=\"48\" width=\"48\" height=\"48\" fill=\"#D9E7B2\"/><rect x=\"96\" y=\"48\" width=\"48\" height=\"48\" fill=\"#fff\"/><rect x=\"144\" y=\"48\" width=\"48\" height=\"48\" fill=\"#fff\"/><rect x=\"192\" y=\"48\" width=\"48\" height=\"48\" fill=\"#D9E7B2\"/></g><text x=\"330\" y=\"36\" font-family=\"Arial,sans-serif\" font-size=\"17\" font-weight=\"700\" fill=\"#2B2527\">B</text><g transform=\"translate(340,50)\" stroke=\"#2B2527\" stroke-width=\"1.5\"><rect x=\"0\" y=\"0\" width=\"42\" height=\"78\" fill=\"#D9E7B2\"/><rect x=\"42\" y=\"0\" width=\"42\" height=\"78\" fill=\"#D9E7B2\"/><rect x=\"84\" y=\"0\" width=\"42\" height=\"78\" fill=\"#fff\"/><rect x=\"126\" y=\"0\" width=\"42\" height=\"78\" fill=\"#fff\"/><line x1=\"84\" y1=\"39\" x2=\"126\" y2=\"39\"/><rect x=\"84\" y=\"0\" width=\"42\" height=\"39\" fill=\"#D9E7B2\"/></g></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I A är 5 av 10 lika stora rutor färgade, alltså 50 %.</p></li><li><div class=\"facit-berakning\"><p>I B är två hela fjärdedelar och en halv fjärdedel färgade:</p><div class=\"facit-matte\">\\[2{,}5/4=62{,}5\\,\\%\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
     "familj": "Jämföra och omvandla andelar",
     "geogebra": false,
     "miniräknare": false,
-    "svarstyp": "kort_text",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -131822,13 +131822,13 @@ window.BANKMA1 = [
     "spel": true,
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "svarFormat": "kort_text",
     "rättSvarAlternativ": [
       "b"
     ],
     "familjTidigare": [
       "Jämföra andelar i figurer"
-    ]
+    ],
+    "alternativ": [{"txt": "A", "ratt": false}, {"txt": "B", "ratt": true}]
   },
   {
     "id": "0.810",
@@ -132266,13 +132266,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Blandning A har förhållandet koncentrat : vatten = 2:7. Blandning B har förhållandet 3:11. Vilken blandning har störst andel koncentrat?</p><p>Svara A eller B.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>I A är koncentratet</p><div class=\"facit-matte\">\\[2/(2+7)=2/9\\approx22{,}2\\,\\%\\].</div></div></li><li><div class=\"facit-berakning\"><p>I B är koncentratet</p><div class=\"facit-matte\">\\[3/(3+11)=3/14\\approx21{,}4\\,\\%\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Blandning A har förhållandet koncentrat : vatten = 2:7. Blandning B har förhållandet 3:11. Vilken blandning har störst andel koncentrat?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>I A är koncentratet</p><div class=\"facit-matte\">\\[2/(2+7)=2/9\\approx22{,}2\\,\\%\\].</div></div></li><li><div class=\"facit-berakning\"><p>I B är koncentratet</p><div class=\"facit-matte\">\\[3/(3+11)=3/14\\approx21{,}4\\,\\%\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Blandning A.</p></div>",
     "familj": "Tolka och skala förhållanden",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "kort_text",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -132283,13 +132283,13 @@ window.BANKMA1 = [
     "spel": true,
     "traningsniva": 4,
     "arbetsinsats": 2,
-    "svarFormat": "kort_text",
     "rättSvarAlternativ": [
       "a"
     ],
     "familjTidigare": [
       "Jämföra förhållanden som andelar"
-    ]
+    ],
+    "alternativ": [{"txt": "Blandning A", "ratt": true}, {"txt": "Blandning B", "ratt": false}]
   },
   {
     "id": "0.824",
@@ -132664,13 +132664,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Butik A tar 84 kr för 3,5 kg potatis. Butik B tar 115 kr för 5 kg. I båda butikerna är priset proportionellt mot massan. Vilken butik har lägst pris per kilogram?</p><p>Svara A eller B.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Butik A: \\(84/3{,}5=24\\) kr/kg.</p></li><li><p>Butik B: \\(115/5=23\\) kr/kg.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Butik A tar 84 kr för 3,5 kg potatis. Butik B tar 115 kr för 5 kg. I båda butikerna är priset proportionellt mot massan. Vilken butik har lägst pris per kilogram?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Butik A: \\(84/3{,}5=24\\) kr/kg.</p></li><li><p>Butik B: \\(115/5=23\\) kr/kg.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Butik B.</p></div>",
     "familj": "Proportionalitetskonstant och samband",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "kort_text",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -132681,13 +132681,13 @@ window.BANKMA1 = [
     "spel": true,
     "traningsniva": 4,
     "arbetsinsats": 2,
-    "svarFormat": "kort_text",
     "rättSvarAlternativ": [
       "b"
     ],
     "familjTidigare": [
       "Jämföra proportionalitetskonstanter"
-    ]
+    ],
+    "alternativ": [{"txt": "Butik A", "ratt": false}, {"txt": "Butik B", "ratt": true}]
   },
   {
     "id": "0.836",
@@ -137553,26 +137553,26 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket av sambanden är direkt proportionellt?</p><p>A: priset och antalet liter bensin<br>B: priset och antalet kilometer för en taxiresa med startavgift<br>C: en persons längd och ålder<br>D: temperaturen i °F och temperaturen i °C</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Priset för bensin är antalet liter gånger literpriset.</p></li><li><p>Noll liter kostar 0 kr, och dubbelt så många liter kostar dubbelt så mycket.</p></li><li><p>Taxiresan har en startavgift, så noll kilometer kostar inte 0 kr.</p></li><li><p>En persons längd ökar inte i takt med åldern.</p></li><li><p>Temperaturen i °F är inte proportionell mot temperaturen i °C, eftersom 0 °C är 32 °F.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: priset och antalet liter bensin</p></div></div>",
+    "t": "<p>Vilket av sambanden är direkt proportionellt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Priset för bensin är antalet liter gånger literpriset.</p></li><li><p>Noll liter kostar 0 kr, och dubbelt så många liter kostar dubbelt så mycket.</p></li><li><p>Taxiresan har en startavgift, så noll kilometer kostar inte 0 kr.</p></li><li><p>En persons längd ökar inte i takt med åldern.</p></li><li><p>Temperaturen i °F är inte proportionell mot temperaturen i °C, eftersom 0 °C är 32 °F.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Priset och antalet liter bensin</p></div></div>",
     "familj": "Proportionalitetskonstant och samband",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
     "ledtrad": "<p>Ett direkt proportionellt samband har formen \\(y=kx\\). Då ger \\(x=0\\) alltid \\(y=0\\), och dubbelt så stort \\(x\\) ger dubbelt så stort \\(y\\).</p>",
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Avgöra om ett samband är proportionellt"
-    ]
+    ],
+    "alternativ": [{"txt": "priset och antalet liter bensin", "ratt": true}, {"txt": "priset och antalet kilometer för en taxiresa med startavgift", "ratt": false}, {"txt": "en persons längd och ålder", "ratt": false}, {"txt": "temperaturen i °F och temperaturen i °C", "ratt": false}]
   },
   {
     "id": "0.987",

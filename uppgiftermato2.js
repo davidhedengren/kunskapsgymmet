@@ -18706,25 +18706,25 @@ window.BANKMATO2 = [
     "poang": "0/2/0",
     "miniräknare": true,
     "geogebra": true,
-    "t": "<p>Vilken omskrivning av \\(3\\sin x-4\\cos x\\) är korrekt när fasvinkeln avrundas till en decimal? Alla vinklar mäts i grader.</p><p>A. \\(5\\sin(x+53{,}1^\\circ)\\)</p><p>B. \\(5\\sin(x-53{,}1^\\circ)\\)</p><p>C. \\(7\\sin(x-53{,}1^\\circ)\\)</p><p>D. \\(5\\cos(x-53{,}1^\\circ)\\)</p>",
-    "s": "<div class=\"facit-v2\"><p>Amplituden är \\(R=\\sqrt{3^2+(-4)^2}=5\\). För formen \\(R\\sin(x+v)\\) ska \\(5\\cos v=3\\) och \\(5\\sin v=-4\\). Då blir \\(\\tan v=-4/3\\), så \\(v\\approx-53{,}1^\\circ\\).</p><p><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Vilken omskrivning av \\(3\\sin x-4\\cos x\\) är korrekt när fasvinkeln avrundas till en decimal? Alla vinklar mäts i grader.</p>",
+    "s": "<div class=\"facit-v2\"><p>Amplituden är \\(R=\\sqrt{3^2+(-4)^2}=5\\). För formen \\(R\\sin(x+v)\\) ska \\(5\\cos v=3\\) och \\(5\\sin v=-4\\). Då blir \\(\\tan v=-4/3\\), så \\(v\\approx-53{,}1^\\circ\\).</p><p><strong>Svar:</strong> \\(5\\sin(x-53{,}1^\\circ)\\).</p></div>",
     "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "familjNyckel": "asinx_bcosx__skriva_om_kombinationer_av_sinus_och_cosinus",
     "ledtrad": "<p>Utveckla \\(R\\sin(x-v)\\) och jämför tecknet framför cosinustermen.</p>",
-    "svarFormat": "val",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "omrTidigare": [
       "trig_funktioner"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(5\\sin(x+53{,}1^\\circ)\\)", "ratt": false}, {"txt": "\\(5\\sin(x-53{,}1^\\circ)\\)", "ratt": true}, {"txt": "\\(7\\sin(x-53{,}1^\\circ)\\)", "ratt": false}, {"txt": "\\(5\\cos(x-53{,}1^\\circ)\\)", "ratt": false}]
   },
   {
     "id": "1.150",

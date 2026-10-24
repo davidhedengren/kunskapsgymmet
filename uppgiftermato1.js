@@ -47893,20 +47893,19 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Funktionen</p><p>\\[f(x)=\\frac{1}{2+x^3}\\]</p><p>är positiv och avtagande för \\(x\\ge0\\). Jämför integralerna \\(\\displaystyle\\int_0^{0{,}75}f(x)\\,dx\\) och \\(\\displaystyle\\int_{0{,}75}^{1{,}5}f(x)\\,dx\\). Vilket påstående är korrekt?</p><p>A. Båda integralerna är negativa.</p><p>B. Integralerna är lika stora.</p><p>C. \\(\\displaystyle\\int_0^{0{,}75}f(x)\\,dx&lt;\\int_{0{,}75}^{1{,}5}f(x)\\,dx\\)</p><p>D. \\(\\displaystyle\\int_0^{0{,}75}f(x)\\,dx&gt;\\int_{0{,}75}^{1{,}5}f(x)\\,dx\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Intervallen är lika breda.</p></li><li><p>Eftersom \\(f\\) är positiv och avtagande är funktionsvärdena genomgående större på det första intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\text{D}}\\).</p></div>",
+    "t": "<p>Funktionen</p><p>\\[f(x)=\\frac{1}{2+x^3}\\]</p><p>är positiv och avtagande för \\(x\\ge0\\). Jämför integralerna \\(\\displaystyle\\int_0^{0{,}75}f(x)\\,dx\\) och \\(\\displaystyle\\int_{0{,}75}^{1{,}5}f(x)\\,dx\\). Vilket påstående är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Intervallen är lika breda.</p></li><li><p>Eftersom \\(f\\) är positiv och avtagande är funktionsvärdena genomgående större på det första intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\displaystyle\\int_0^{0{,}75}f(x)\\,dx&gt;\\int_{0{,}75}^{1{,}5}f(x)\\,dx\\).</p></div>",
     "familj": "Integraler med digitalt verktyg",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Jämför höjden på grafen på två lika breda intervall.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -47916,7 +47915,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Jämföra integraler utan beräkning"
-    ]
+    ],
+    "alternativ": [{"txt": "Båda integralerna är negativa.", "ratt": false}, {"txt": "Integralerna är lika stora.", "ratt": false}, {"txt": "\\(\\displaystyle\\int_0^{0{,}75}f(x)\\,dx&lt;\\int_{0{,}75}^{1{,}5}f(x)\\,dx\\)", "ratt": false}, {"txt": "\\(\\displaystyle\\int_0^{0{,}75}f(x)\\,dx&gt;\\int_{0{,}75}^{1{,}5}f(x)\\,dx\\)", "ratt": true}]
   },
   {
     "id": "3.469",
@@ -48123,13 +48123,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Kurvorna \\(y=2x\\) och \\(y=x^2\\) begränsar ett område för \\(0\\le x\\le2\\).</p><p>Vilken integral ger områdets area?</p><p>A. \\(\\displaystyle\\int_0^2(x^2-2x)\\,dx\\)</p><p>B. \\(\\displaystyle\\int_0^2(2x-x^2)\\,dx\\)</p><p>C. \\(\\displaystyle\\int_0^2(2x+x^2)\\,dx\\)</p><p>D. \\(\\displaystyle\\int_{-2}^{0}(2x-x^2)\\,dx\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(0&lt;x&lt;2\\) ligger linjen \\(y=2x\\) över parabeln \\(y=x^2\\).</p></li><li><p>Area mellan två grafer fås som övre funktion minus undre funktion.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{\\text{B}}\\).</p></div>",
+    "t": "<p>Kurvorna \\(y=2x\\) och \\(y=x^2\\) begränsar ett område för \\(0\\le x\\le2\\).</p><p>Vilken integral ger områdets area?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(0&lt;x&lt;2\\) ligger linjen \\(y=2x\\) över parabeln \\(y=x^2\\).</p></li><li><p>Area mellan två grafer fås som övre funktion minus undre funktion.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\displaystyle\\int_0^2(2x-x^2)\\,dx\\).</p></div>",
     "familj": "Area mellan två grafer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -48139,13 +48139,13 @@ window.BANKMATO1 = [
     "ledtrad": "<p>Kontrollera vilken funktion som ligger överst mellan skärningspunkterna.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "svarFormat": "val",
     "omrTidigare": [
       "integraler"
     ],
     "familjTidigare": [
       "Välja integral för area mellan grafer"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(\\displaystyle\\int_0^2(x^2-2x)\\,dx\\)", "ratt": false}, {"txt": "\\(\\displaystyle\\int_0^2(2x-x^2)\\,dx\\)", "ratt": true}, {"txt": "\\(\\displaystyle\\int_0^2(2x+x^2)\\,dx\\)", "ratt": false}, {"txt": "\\(\\displaystyle\\int_{-2}^{0}(2x-x^2)\\,dx\\)", "ratt": false}]
   },
   {
     "id": "3.475",
@@ -61847,13 +61847,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Vilket alternativ beskriver korrekt vilken följd som är geometrisk?</p><p>A. Följd A: \\(4,8,12,16,\\ldots\\), med \\(k=2\\)<br>B. Följd A: \\(4,8,12,16,\\ldots\\), med \\(k=4\\)<br>C. Följd B: \\(81,27,9,3,\\ldots\\), med \\(k=\\frac13\\)<br>D. Följd B: \\(81,27,9,3,\\ldots\\), med \\(k=3\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en geometrisk följd ska kvoten mellan två efterföljande termer vara konstant.</p></li><li><p>För följd A är kvoterna exempelvis \\(8/4=2\\) och \\(12/8=1,5\\), alltså inte lika.</p></li><li><div class=\"facit-berakning\"><p>För följd B är</p><div class=\"facit-matte\">\\[27/81=9/27=3/9=1/3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>Vilket alternativ beskriver korrekt vilken följd som är geometrisk?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en geometrisk följd ska kvoten mellan två efterföljande termer vara konstant.</p></li><li><p>För följd A är kvoterna exempelvis \\(8/4=2\\) och \\(12/8=1,5\\), alltså inte lika.</p></li><li><div class=\"facit-berakning\"><p>För följd B är</p><div class=\"facit-matte\">\\[27/81=9/27=3/9=1/3\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Följd B: \\(81,27,9,3,\\ldots\\), med \\(k=\\frac13\\).</p></div>",
     "familj": "Geometriska talföljder",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -61866,7 +61866,8 @@ window.BANKMATO1 = [
     "spel": true,
     "familjTidigare": [
       "Identifiera och beskriva geometriska talföljder"
-    ]
+    ],
+    "alternativ": [{"txt": "Följd A: \\(4,8,12,16,\\ldots\\), med \\(k=2\\)", "ratt": false}, {"txt": "Följd A: \\(4,8,12,16,\\ldots\\), med \\(k=4\\)", "ratt": false}, {"txt": "Följd B: \\(81,27,9,3,\\ldots\\), med \\(k=\\frac13\\)", "ratt": true}, {"txt": "Följd B: \\(81,27,9,3,\\ldots\\), med \\(k=3\\)", "ratt": false}]
   },
   {
     "id": "4.162",

@@ -94569,7 +94569,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Två oberoende sensorer fungerar korrekt med sannolikheterna 0,90 respektive 0,80.</p><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram för två oberoende sensorer med sannolikheterna 0,90 och 0,80\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#315F91\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#3F7A55\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,9</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">S1 fungerar</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#B7791F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B7791F\" font-weight=\"700\">0,8</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#B7791F\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">S2 fungerar</text><text x=\"102.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,72</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#6B4C93\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#6B4C93\" font-weight=\"700\">0,2</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#6B4C93\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">S2 fel</text><text x=\"198.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,18</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,1</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">S1 fel</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#B7791F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#B7791F\" font-weight=\"700\">0,8</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#B7791F\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">S2 fungerar</text><text x=\"294.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,08</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#6B4C93\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#6B4C93\" font-weight=\"700\">0,2</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#6B4C93\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">S2 fel</text><text x=\"390.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,02</text></svg></span><p>a) Sannolikheten att båda fungerar?<br>b) Sannolikheten att den första fungerar men inte den andra?</p>",
+    "t": "<p>Två oberoende sensorer fungerar korrekt med sannolikheterna 0,90 respektive 0,80.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"284\" viewBox=\"0 0 500 284\" role=\"img\" aria-label=\"Träddiagram för två oberoende sensorer med sannolikheterna 0,90 och 0,80\"><title>Träddiagram för två oberoende sensorer med sannolikheterna 0,90 och 0,80</title><rect x=\"1\" y=\"1\" width=\"498\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"222.2\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><rect x=\"255.2\" y=\"98.0\" width=\"222.2\" height=\"176.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"250.2\" y1=\"36.0\" x2=\"134.1\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"134.1\" y1=\"134.0\" x2=\"76.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"134.1\" y1=\"134.0\" x2=\"192.1\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"250.2\" y1=\"36.0\" x2=\"366.3\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"366.3\" y1=\"134.0\" x2=\"308.2\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"366.3\" y1=\"134.0\" x2=\"424.3\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"250.2\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"78.6\" y=\"110.0\" width=\"111.0\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"134.1\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">S1 fungerar</text><rect x=\"24.0\" y=\"208.0\" width=\"104.1\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"76.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">S2 fungerar</text><rect x=\"52.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"76.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,72</text><rect x=\"160.6\" y=\"208.0\" width=\"63.1\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"192.1\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">S2 fel</text><rect x=\"169.0\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"192.1\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,18</text><rect x=\"332.8\" y=\"110.0\" width=\"66.9\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"366.3\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">S1 fel</text><rect x=\"256.2\" y=\"208.0\" width=\"104.1\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"308.2\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">S2 fungerar</text><rect x=\"285.1\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"308.2\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,08</text><rect x=\"392.7\" y=\"208.0\" width=\"63.1\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"424.3\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">S2 fel</text><rect x=\"401.2\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"424.3\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,02</text><rect x=\"148.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"166.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,9</text><rect x=\"60.9\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"79.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">0,8</text><rect x=\"171.1\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"189.2\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">0,2</text><rect x=\"316.2\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"334.3\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,1</text><rect x=\"293.1\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"311.2\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">0,8</text><rect x=\"403.3\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"421.4\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">0,2</text></svg></span><p>a) Sannolikheten att båda fungerar?<br>b) Sannolikheten att den första fungerar men inte den andra?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Identifiera händelserna</p><p>Båda sensorerna ska fungera. Sannolikheterna är 0,90 respektive 0,80. Eftersom sensorerna är oberoende multiplicerar vi sannolikheterna.</p></li><li><p class=\"facit-rubrik\">Multiplicera</p><div class=\"facit-matte\">\\[P(\\text{båda fungerar})=0{,}90\\cdot0{,}80=0{,}72.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}72\\), alltså \\(72\\,\\%\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm sannolikheten för att sensor 2 inte fungerar</p><p>Sensor 2 fungerar med sannolikheten 0,80. Den fungerar därför inte med sannolikheten</p><div class=\"facit-matte\">\\[1-0{,}80=0{,}20.\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera för den efterfrågade kombinationen</p><p>Sensor 1 ska fungera samtidigt som sensor 2 inte fungerar. Oberoendet ger</p><div class=\"facit-matte\">\\[P(\\text{sensor 1 fungerar, sensor 2 inte})=0{,}90\\cdot0{,}20=0{,}18.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}18\\), alltså \\(18\\,\\%\\).</p></div></div></div></div>",
     "familj": "Multiplikationsprincipen",
     "geogebra": false,
@@ -94590,7 +94590,7 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Två oberoende sensorer fungerar korrekt med sannolikheterna 0,90 respektive 0,80.</p><span class=\"fig\"><svg aria-label=\"Träddiagram för två oberoende sensorer med sannolikheterna 0,90 och 0,80\" height=\"306\" role=\"img\" viewbox=\"0 0 492 306\" width=\"492\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"304\" rx=\"10\" stroke=\"#E4E3E6\" width=\"490\" x=\"1\" y=\"1\"></rect><rect fill=\"#315F91\" height=\"176.0\" opacity=\"0.05\" rx=\"12\" width=\"192.0\" x=\"54.0\" y=\"120.0\"></rect><rect fill=\"#3F7A55\" height=\"176.0\" opacity=\"0.05\" rx=\"12\" width=\"192.0\" x=\"246.0\" y=\"120.0\"></rect><circle cx=\"246.0\" cy=\"40\" fill=\"#2B2527\" r=\"5\"></circle><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"166\" y=\"77\"></rect><text fill=\"#315F91\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"184\" y=\"91\">0,9</text><circle cx=\"150.0\" cy=\"136\" fill=\"#fff\" r=\"6\" stroke=\"#315F91\" stroke-width=\"3\"></circle><text fill=\"#315F91\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"end\" x=\"138.0\" y=\"140\">S1 fungerar</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#B7791F\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"94\" y=\"173\"></rect><text fill=\"#B7791F\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"112\" y=\"187\">0,8</text><circle cx=\"102.0\" cy=\"232\" fill=\"#fff\" r=\"6\" stroke=\"#B7791F\" stroke-width=\"3\"></circle><text fill=\"#B7791F\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\" x=\"102.0\" y=\"254\">S2 fungerar</text><text fill=\"#8A858E\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"102.0\" y=\"272\">0,72</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#6B4C93\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"170\" y=\"173\"></rect><text fill=\"#6B4C93\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"188\" y=\"187\">0,2</text><circle cx=\"198.0\" cy=\"232\" fill=\"#fff\" r=\"6\" stroke=\"#6B4C93\" stroke-width=\"3\"></circle><text fill=\"#6B4C93\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\" x=\"198.0\" y=\"254\">S2 fel</text><text fill=\"#8A858E\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"198.0\" y=\"272\">0,18</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"290\" y=\"77\"></rect><text fill=\"#3F7A55\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"308\" y=\"91\">0,1</text><circle cx=\"342.0\" cy=\"136\" fill=\"#fff\" r=\"6\" stroke=\"#3F7A55\" stroke-width=\"3\"></circle><text fill=\"#3F7A55\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"start\" x=\"354.0\" y=\"140\">S1 fel</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#B7791F\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"286\" y=\"173\"></rect><text fill=\"#B7791F\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"304\" y=\"187\">0,8</text><circle cx=\"294.0\" cy=\"232\" fill=\"#fff\" r=\"6\" stroke=\"#B7791F\" stroke-width=\"3\"></circle><text fill=\"#B7791F\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\" x=\"294.0\" y=\"254\">S2 fungerar</text><text fill=\"#8A858E\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"294.0\" y=\"272\">0,08</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#6B4C93\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"362\" y=\"173\"></rect><text fill=\"#6B4C93\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"380\" y=\"187\">0,2</text><circle cx=\"390.0\" cy=\"232\" fill=\"#fff\" r=\"6\" stroke=\"#6B4C93\" stroke-width=\"3\"></circle><text fill=\"#6B4C93\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\" x=\"390.0\" y=\"254\">S2 fel</text><text fill=\"#8A858E\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"390.0\" y=\"272\">0,02</text></svg></span><div class=\"spel-en-del\">Sannolikheten att båda fungerar?</div>",
+        "t": "<p>Två oberoende sensorer fungerar korrekt med sannolikheterna 0,90 respektive 0,80.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"284\" viewBox=\"0 0 500 284\" role=\"img\" aria-label=\"Träddiagram för två oberoende sensorer med sannolikheterna 0,90 och 0,80\"><title>Träddiagram för två oberoende sensorer med sannolikheterna 0,90 och 0,80</title><rect x=\"1\" y=\"1\" width=\"498\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"222.2\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><rect x=\"255.2\" y=\"98.0\" width=\"222.2\" height=\"176.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"250.2\" y1=\"36.0\" x2=\"134.1\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"134.1\" y1=\"134.0\" x2=\"76.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"134.1\" y1=\"134.0\" x2=\"192.1\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"250.2\" y1=\"36.0\" x2=\"366.3\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"366.3\" y1=\"134.0\" x2=\"308.2\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"366.3\" y1=\"134.0\" x2=\"424.3\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"250.2\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"78.6\" y=\"110.0\" width=\"111.0\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"134.1\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">S1 fungerar</text><rect x=\"24.0\" y=\"208.0\" width=\"104.1\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"76.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">S2 fungerar</text><rect x=\"52.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"76.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,72</text><rect x=\"160.6\" y=\"208.0\" width=\"63.1\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"192.1\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">S2 fel</text><rect x=\"169.0\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"192.1\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,18</text><rect x=\"332.8\" y=\"110.0\" width=\"66.9\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"366.3\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">S1 fel</text><rect x=\"256.2\" y=\"208.0\" width=\"104.1\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"308.2\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">S2 fungerar</text><rect x=\"285.1\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"308.2\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,08</text><rect x=\"392.7\" y=\"208.0\" width=\"63.1\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"424.3\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">S2 fel</text><rect x=\"401.2\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"424.3\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,02</text><rect x=\"148.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"166.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,9</text><rect x=\"60.9\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"79.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">0,8</text><rect x=\"171.1\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"189.2\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">0,2</text><rect x=\"316.2\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"334.3\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,1</text><rect x=\"293.1\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"311.2\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">0,8</text><rect x=\"403.3\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"421.4\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">0,2</text></svg></span><div class=\"spel-en-del\">Sannolikheten att båda fungerar?</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Identifiera händelserna</p><p>Båda sensorerna ska fungera. Sannolikheterna är 0,90 respektive 0,80. Eftersom sensorerna är oberoende multiplicerar vi sannolikheterna.</p></li><li><p class=\"facit-rubrik\">Multiplicera</p><div class=\"facit-matte\">\\[P(\\text{båda fungerar})=0{,}90\\cdot0{,}80=0{,}72.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}72\\), alltså \\(72\\,\\%\\).</p></div>",
         "ledtrad": "<p>När händelserna är oberoende påverkar den ena inte den andra. Sannolikheten att båda inträffar fås därför genom att multiplicera sannolikheterna.</p>",
         "niva": "E",
@@ -94598,7 +94598,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Två oberoende sensorer fungerar korrekt med sannolikheterna 0,90 respektive 0,80.</p><span class=\"fig\"><svg aria-label=\"Träddiagram för två oberoende sensorer med sannolikheterna 0,90 och 0,80\" height=\"306\" role=\"img\" viewbox=\"0 0 492 306\" width=\"492\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"304\" rx=\"10\" stroke=\"#E4E3E6\" width=\"490\" x=\"1\" y=\"1\"></rect><rect fill=\"#315F91\" height=\"176.0\" opacity=\"0.05\" rx=\"12\" width=\"192.0\" x=\"54.0\" y=\"120.0\"></rect><rect fill=\"#3F7A55\" height=\"176.0\" opacity=\"0.05\" rx=\"12\" width=\"192.0\" x=\"246.0\" y=\"120.0\"></rect><circle cx=\"246.0\" cy=\"40\" fill=\"#2B2527\" r=\"5\"></circle><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"166\" y=\"77\"></rect><text fill=\"#315F91\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"184\" y=\"91\">0,9</text><circle cx=\"150.0\" cy=\"136\" fill=\"#fff\" r=\"6\" stroke=\"#315F91\" stroke-width=\"3\"></circle><text fill=\"#315F91\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"end\" x=\"138.0\" y=\"140\">S1 fungerar</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#B7791F\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"94\" y=\"173\"></rect><text fill=\"#B7791F\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"112\" y=\"187\">0,8</text><circle cx=\"102.0\" cy=\"232\" fill=\"#fff\" r=\"6\" stroke=\"#B7791F\" stroke-width=\"3\"></circle><text fill=\"#B7791F\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\" x=\"102.0\" y=\"254\">S2 fungerar</text><text fill=\"#8A858E\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"102.0\" y=\"272\">0,72</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#6B4C93\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"170\" y=\"173\"></rect><text fill=\"#6B4C93\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"188\" y=\"187\">0,2</text><circle cx=\"198.0\" cy=\"232\" fill=\"#fff\" r=\"6\" stroke=\"#6B4C93\" stroke-width=\"3\"></circle><text fill=\"#6B4C93\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\" x=\"198.0\" y=\"254\">S2 fel</text><text fill=\"#8A858E\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"198.0\" y=\"272\">0,18</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"290\" y=\"77\"></rect><text fill=\"#3F7A55\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"308\" y=\"91\">0,1</text><circle cx=\"342.0\" cy=\"136\" fill=\"#fff\" r=\"6\" stroke=\"#3F7A55\" stroke-width=\"3\"></circle><text fill=\"#3F7A55\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"start\" x=\"354.0\" y=\"140\">S1 fel</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#B7791F\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"286\" y=\"173\"></rect><text fill=\"#B7791F\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"304\" y=\"187\">0,8</text><circle cx=\"294.0\" cy=\"232\" fill=\"#fff\" r=\"6\" stroke=\"#B7791F\" stroke-width=\"3\"></circle><text fill=\"#B7791F\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\" x=\"294.0\" y=\"254\">S2 fungerar</text><text fill=\"#8A858E\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"294.0\" y=\"272\">0,08</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#6B4C93\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"362\" y=\"173\"></rect><text fill=\"#6B4C93\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"380\" y=\"187\">0,2</text><circle cx=\"390.0\" cy=\"232\" fill=\"#fff\" r=\"6\" stroke=\"#6B4C93\" stroke-width=\"3\"></circle><text fill=\"#6B4C93\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\" x=\"390.0\" y=\"254\">S2 fel</text><text fill=\"#8A858E\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"390.0\" y=\"272\">0,02</text></svg></span><div class=\"spel-en-del\">Sannolikheten att den första fungerar men inte den andra?</div>",
+        "t": "<p>Två oberoende sensorer fungerar korrekt med sannolikheterna 0,90 respektive 0,80.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"500\" height=\"284\" viewBox=\"0 0 500 284\" role=\"img\" aria-label=\"Träddiagram för två oberoende sensorer med sannolikheterna 0,90 och 0,80\"><title>Träddiagram för två oberoende sensorer med sannolikheterna 0,90 och 0,80</title><rect x=\"1\" y=\"1\" width=\"498\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"222.2\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><rect x=\"255.2\" y=\"98.0\" width=\"222.2\" height=\"176.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"250.2\" y1=\"36.0\" x2=\"134.1\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"134.1\" y1=\"134.0\" x2=\"76.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"134.1\" y1=\"134.0\" x2=\"192.1\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"250.2\" y1=\"36.0\" x2=\"366.3\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"366.3\" y1=\"134.0\" x2=\"308.2\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"366.3\" y1=\"134.0\" x2=\"424.3\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"250.2\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"78.6\" y=\"110.0\" width=\"111.0\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"134.1\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">S1 fungerar</text><rect x=\"24.0\" y=\"208.0\" width=\"104.1\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"76.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">S2 fungerar</text><rect x=\"52.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"76.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,72</text><rect x=\"160.6\" y=\"208.0\" width=\"63.1\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"192.1\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">S2 fel</text><rect x=\"169.0\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"192.1\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,18</text><rect x=\"332.8\" y=\"110.0\" width=\"66.9\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"366.3\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">S1 fel</text><rect x=\"256.2\" y=\"208.0\" width=\"104.1\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"308.2\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">S2 fungerar</text><rect x=\"285.1\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"308.2\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,08</text><rect x=\"392.7\" y=\"208.0\" width=\"63.1\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"424.3\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">S2 fel</text><rect x=\"401.2\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"424.3\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,02</text><rect x=\"148.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"166.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,9</text><rect x=\"60.9\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"79.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">0,8</text><rect x=\"171.1\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"189.2\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">0,2</text><rect x=\"316.2\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"334.3\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,1</text><rect x=\"293.1\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"311.2\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">0,8</text><rect x=\"403.3\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"421.4\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">0,2</text></svg></span><div class=\"spel-en-del\">Sannolikheten att den första fungerar men inte den andra?</div>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm sannolikheten för att sensor 2 inte fungerar</p><p>Sensor 2 fungerar med sannolikheten 0,80. Den fungerar därför inte med sannolikheten</p><div class=\"facit-matte\">\\[1-0{,}80=0{,}20.\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera för den efterfrågade kombinationen</p><p>Sensor 1 ska fungera samtidigt som sensor 2 inte fungerar. Oberoendet ger</p><div class=\"facit-matte\">\\[P(\\text{sensor 1 fungerar, sensor 2 inte})=0{,}90\\cdot0{,}20=0{,}18.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}18\\), alltså \\(18\\,\\%\\).</p></div>",
         "ledtrad": "<p>När händelserna är oberoende påverkar den ena inte den andra. Sannolikheten att båda inträffar fås därför genom att multiplicera sannolikheterna.</p>",
         "niva": "E",
@@ -95120,7 +95120,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En påse innehåller 4 röda och 3 blå kulor. Två dras utan återläggning.</p><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram för två dragningar utan återläggning ur 4 röda och 3 blå kulor\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#A6432F\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#315F91\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">4/7</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">3/6</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><text x=\"102.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,286</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">3/6</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><text x=\"198.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,286</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">3/7</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">4/6</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><text x=\"294.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,286</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">2/6</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><text x=\"390.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,143</text></svg></span><p>Bestäm sannolikheten att första är röd och andra blå.</p>",
+    "t": "<p>En påse innehåller 4 röda och 3 blå kulor. Två dras utan återläggning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram för två dragningar utan återläggning ur 4 röda och 3 blå kulor\"><title>Träddiagram för två dragningar utan återläggning ur 4 röda och 3 blå kulor</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"38.9\" y=\"240.0\" width=\"54.3\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"66.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,286</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"134.8\" y=\"240.0\" width=\"54.3\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"162.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,286</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"230.8\" y=\"240.0\" width=\"54.3\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"258.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,286</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"326.9\" y=\"240.0\" width=\"54.3\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"354.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,143</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/7</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">3/6</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">3/6</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">3/7</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/6</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">2/6</text></svg></span><p>Bestäm sannolikheten att första är röd och andra blå.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Ta hänsyn till att det första utfallet förändrar situationen inför nästa steg.</p></li><li><p>Uppdatera därför både antal möjliga och gynnsamma utfall innan du multiplicerar sannolikheterna längs en gren.</p></li><li><p>\\(\\frac47\\cdot\\frac36=\\frac{12}{42}=\\)<strong>\\(\\frac27\\)</strong>.</p></li></ol></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -95283,7 +95283,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En spelare träffar ett mål med sannolikheten 0,30 per försök. Två försök antas oberoende.</p><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram för två oberoende försök med sannolikheten 0,30\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#315F91\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#3F7A55\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,3</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">träff</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,3</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">träff</text><text x=\"102.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,09</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">miss</text><text x=\"198.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,21</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">miss</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,3</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">träff</text><text x=\"294.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,21</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">miss</text><text x=\"390.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,49</text></svg></span><p>Bestäm sannolikheten för exakt en träff.</p>",
+    "t": "<p>En spelare träffar ett mål med sannolikheten 0,30 per försök. Två försök antas oberoende.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram för två oberoende försök med sannolikheten 0,30\"><title>Träddiagram för två oberoende försök med sannolikheten 0,30</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"85.0\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">träff</text><rect x=\"38.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">träff</text><rect x=\"42.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"66.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,09</text><rect x=\"138.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">miss</text><rect x=\"138.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"162.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,21</text><rect x=\"281.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">miss</text><rect x=\"230.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">träff</text><rect x=\"234.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"258.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,21</text><rect x=\"330.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">miss</text><rect x=\"330.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"354.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,49</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,3</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,3</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,3</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text></svg></span><p>Bestäm sannolikheten för exakt en träff.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Dela upp försöket i steg.</p></li><li><p>Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p></li><li><p>Träff–miss eller miss–träff:</p></li><li><p>\\(0{,}30\\cdot0{,}70+0{,}70\\cdot0{,}30=\\)<strong>0,42</strong>.</p></li></ol></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
@@ -98877,7 +98877,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "1/2/0",
-    "t": "<p>En låda innehåller 6 kulor: 4 röda och 2 blåa. Två kulor dras slumpmässigt, en i taget <strong>utan återläggning</strong>.</p><p>a) Fyll i de saknade sannolikheterna i träddiagrammet.<br>b) Bestäm sannolikheten att båda kulorna är röda.<br>c) Bestäm sannolikheten att få minst en röd kula.</p><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram för dragning av två kulor utan återläggning, med två luckor\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#A6432F\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#315F91\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">4/6</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">3/5</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><text x=\"102.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,4</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">4/5</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">1/5</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text></svg></span>",
+    "t": "<p>En låda innehåller 6 kulor: 4 röda och 2 blåa. Två kulor dras slumpmässigt, en i taget <strong>utan återläggning</strong>.</p><p>a) Fyll i de saknade sannolikheterna i träddiagrammet.<br>b) Bestäm sannolikheten att båda kulorna är röda.<br>c) Bestäm sannolikheten att få minst en röd kula.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram för dragning av två kulor utan återläggning, med två luckor\"><title>Träddiagram för dragning av två kulor utan återläggning, med två luckor</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.9\" y=\"240.0\" width=\"38.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"66.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,4</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/6</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">3/5</text><rect x=\"146.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"156.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"266.0\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"276.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/5</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">1/5</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter röd först finns 2 blå av 5 kvar, alltså \\(2/5\\).</p></li><li><p>Sannolikheten för blå i första draget är \\(2/6\\).</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(RR)=\\frac46\\cdot\\frac35=\\frac25\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd komplementet blå–blå:</p><div class=\"facit-matte\">\\[1-\\frac26\\cdot\\frac15=1-\\frac1{15}=\\frac{14}{15}\\].</div></div></li></ol></div></div><p class=\"facit-svar\"><strong>Svar: a) \\(2/5\\) och \\(2/6\\), b) \\(2/5\\), c) \\(14/15\\).</strong></p></div>",
     "familj": "Beroende händelser i problemlösning",
     "geogebra": false,
@@ -98915,7 +98915,7 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>En låda innehåller 6 kulor: 4 röda och 2 blåa. Två kulor dras slumpmässigt, en i taget <strong>utan återläggning</strong>.</p><p>Fyll i de saknade sannolikheterna i träddiagrammet.</p><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram för dragning av två kulor utan återläggning, med två luckor\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#A6432F\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#315F91\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">4/6</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">3/5</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><text x=\"102.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,4</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">4/5</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">1/5</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text></svg></span>",
+        "t": "<p>En låda innehåller 6 kulor: 4 röda och 2 blåa. Två kulor dras slumpmässigt, en i taget <strong>utan återläggning</strong>.</p><p>Fyll i de saknade sannolikheterna i träddiagrammet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram för dragning av två kulor utan återläggning, med två luckor\"><title>Träddiagram för dragning av två kulor utan återläggning, med två luckor</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.9\" y=\"240.0\" width=\"38.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"66.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,4</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/6</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">3/5</text><rect x=\"146.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"156.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"266.0\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"276.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/5</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">1/5</text></svg></span>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter röd först finns 2 blå av 5 kvar, alltså \\(2/5\\).</p></li><li><p>Sannolikheten för blå i första draget är \\(2/6\\).</p></li></ol></div>",
         "niva": "E",
         "poang": "1/0/0",
@@ -98925,7 +98925,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>En låda innehåller 6 kulor: 4 röda och 2 blåa. Två kulor dras slumpmässigt, en i taget <strong>utan återläggning</strong>.</p><p>Bestäm sannolikheten att båda kulorna är röda.</p><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram för dragning av två kulor utan återläggning, med två luckor\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#A6432F\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#315F91\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">4/6</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">3/5</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><text x=\"102.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,4</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">4/5</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">1/5</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text></svg></span>",
+        "t": "<p>En låda innehåller 6 kulor: 4 röda och 2 blåa. Två kulor dras slumpmässigt, en i taget <strong>utan återläggning</strong>.</p><p>Bestäm sannolikheten att båda kulorna är röda.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram för dragning av två kulor utan återläggning, med två luckor\"><title>Träddiagram för dragning av två kulor utan återläggning, med två luckor</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.9\" y=\"240.0\" width=\"38.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"66.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,4</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/6</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">3/5</text><rect x=\"146.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"156.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"266.0\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"276.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/5</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">1/5</text></svg></span>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(RR)=\\frac46\\cdot\\frac35=\\frac25\\].</div></li></ol></div>",
         "niva": "C",
         "poang": "0/1/0",
@@ -98935,7 +98935,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>En låda innehåller 6 kulor: 4 röda och 2 blåa. Två kulor dras slumpmässigt, en i taget <strong>utan återläggning</strong>.</p><p>Bestäm sannolikheten att få minst en röd kula.</p><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram för dragning av två kulor utan återläggning, med två luckor\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#A6432F\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#315F91\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">4/6</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">3/5</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><text x=\"102.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,4</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">4/5</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">1/5</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text></svg></span>",
+        "t": "<p>En låda innehåller 6 kulor: 4 röda och 2 blåa. Två kulor dras slumpmässigt, en i taget <strong>utan återläggning</strong>.</p><p>Bestäm sannolikheten att få minst en röd kula.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram för dragning av två kulor utan återläggning, med två luckor\"><title>Träddiagram för dragning av två kulor utan återläggning, med två luckor</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.9\" y=\"240.0\" width=\"38.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"66.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,4</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/6</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">3/5</text><rect x=\"146.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"156.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"266.0\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"276.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/5</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">1/5</text></svg></span>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Använd komplementet blå–blå:</p><div class=\"facit-matte\">\\[1-\\frac26\\cdot\\frac15=1-\\frac1{15}=\\frac{14}{15}\\].</div></div></li></ol></div>",
         "niva": "C",
         "poang": "0/1/0",
@@ -98959,7 +98959,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En låda innehåller 3 röda och 2 blå kulor. Två kulor dras utan återläggning. Bestäm sannolikheten att båda är röda.</p><span class=\"fig smal\"><svg width=\"340\" height=\"220\" viewBox=\"0 0 340 220\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\">\n<rect x=\"1\" y=\"1\" width=\"338\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/>\n\n<text x=\"25\" y=\"28\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">Första draget</text>\n<text x=\"225\" y=\"28\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#5C575E\">Andra draget</text>\n<circle cx=\"55\" cy=\"110\" r=\"5\" fill=\"#2B2527\"/>\n<line x1=\"60\" y1=\"107\" x2=\"165\" y2=\"65\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<line x1=\"60\" y1=\"113\" x2=\"165\" y2=\"155\" stroke=\"#2B2527\" stroke-width=\"1.6\"/>\n<text x=\"105\" y=\"74\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#B43123\">R 3/5</text>\n<text x=\"105\" y=\"154\" font-family=\"IBM Plex Mono,monospace\" font-size=\"11\" fill=\"#2A5D9E\">B 2/5</text>\n<circle cx=\"170\" cy=\"63\" r=\"4\" fill=\"#B43123\"/>\n<circle cx=\"170\" cy=\"157\" r=\"4\" fill=\"#2A5D9E\"/>\n<line x1=\"174\" y1=\"62\" x2=\"290\" y2=\"38\" stroke=\"#2B2527\" stroke-width=\"1.4\"/>\n<line x1=\"174\" y1=\"66\" x2=\"290\" y2=\"88\" stroke=\"#2B2527\" stroke-width=\"1.4\"/>\n<line x1=\"174\" y1=\"154\" x2=\"290\" y2=\"132\" stroke=\"#2B2527\" stroke-width=\"1.4\"/>\n<line x1=\"174\" y1=\"160\" x2=\"290\" y2=\"184\" stroke=\"#2B2527\" stroke-width=\"1.4\"/>\n<text x=\"225\" y=\"43\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#B43123\">R 2/4</text>\n<text x=\"225\" y=\"91\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2A5D9E\">B 2/4</text>\n<text x=\"225\" y=\"132\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#B43123\">R 3/4</text>\n<text x=\"225\" y=\"185\" font-family=\"IBM Plex Mono,monospace\" font-size=\"10\" fill=\"#2A5D9E\">B 1/4</text>\n\n</svg></span>",
+    "t": "<p>En låda innehåller 3 röda och 2 blå kulor. Två kulor dras utan återläggning. Bestäm sannolikheten att båda är röda.</p><span class=\"fig smal\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två dragningar utan återläggning ur 3 röda och 2 blå kulor\"><title>Träddiagram för två dragningar utan återläggning ur 3 röda och 2 blå kulor</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eff2f6\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">3/5</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">2/4</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">2/4</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">2/5</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">3/4</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">1/4</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Ta hänsyn till att det första utfallet förändrar situationen inför nästa steg.</p></li><li><p>Uppdatera därför både antal möjliga och gynnsamma utfall innan du multiplicerar sannolikheterna längs en gren.</p></li><li><p>\\(\\frac{3}{5}\\cdot2/4=\\frac{6}{20}=\\)<strong>0,30</strong></p></li></ol></div>",
     "familj": "Dragning utan återläggning",
     "geogebra": false,
@@ -100283,7 +100283,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två övergångsställen passeras. Vid det första är sannolikheten för rött 0,30 och vid det andra 0,40. Anta oberoende.</p><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram i två steg med sannolikheterna 0,70 och 0,60\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#3F7A55\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#A6432F\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,6</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><text x=\"102.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,42</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">0,4</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><text x=\"198.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,28</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">0,3</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,6</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><text x=\"294.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,18</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#A6432F\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#A6432F\" font-weight=\"700\">0,4</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#A6432F\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><text x=\"390.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,12</text></svg></span><p>Hur stor är sannolikheten att få rött precis en gång?</p>",
+    "t": "<p>Två övergångsställen passeras. Vid det första är sannolikheten för rött 0,30 och vid det andra 0,40. Anta oberoende.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram i två steg med sannolikheterna 0,70 och 0,60\"><title>Träddiagram i två steg med sannolikheterna 0,70 och 0,60</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f0f4f1\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f8f0ee\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><rect x=\"42.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"66.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,42</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"138.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"162.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,28</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><rect x=\"234.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"258.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,18</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"330.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"354.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,12</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,6</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">0,4</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">0,3</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,6</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">0,4</text></svg></span><p>Hur stor är sannolikheten att få rött precis en gång?</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Dela upp försöket i steg.</p></li><li><p>Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p></li><li><div class=\"facit-berakning\"><p>Rött-grönt:</p><div class=\"facit-matte\">\\[0{,}30\\cdot0{,}60=0{,}18\\].</div></div></li><li><div class=\"facit-berakning\"><p>Grönt-rött:</p><div class=\"facit-matte\">\\[0{,}70\\cdot0{,}40=0{,}28\\].</div></div></li><li><p><strong>0,46 = 46 %</strong>.</p></li></ol></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
@@ -100348,7 +100348,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "3/0/0",
-    "t": "<p>Ett mynt singlas två gånger. Träddiagrammet visar utfallen.</p><p>a) Vilket värde ska stå vid båda frågetecknen i diagrammet?<br>b) Bestäm sannolikheten för krona båda gångerna.<br>c) Bestäm sannolikheten för minst en krona.</p><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram för två myntkast med två luckor att fylla i\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#315F91\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#3F7A55\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,5</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,5</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><text x=\"294.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,25</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text></svg></span>",
+    "t": "<p>Ett mynt singlas två gånger. Träddiagrammet visar utfallen.</p><p>a) Vilket värde ska stå vid båda frågetecknen i diagrammet?<br>b) Bestäm sannolikheten för krona båda gångerna.<br>c) Bestäm sannolikheten för minst en krona.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram för två myntkast med två luckor att fylla i\"><title>Träddiagram för två myntkast med två luckor att fylla i</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"85.0\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">krona</text><rect x=\"38.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><rect x=\"230.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><rect x=\"234.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"258.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,25</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><rect x=\"133.9\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"144.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,5</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,5</text><rect x=\"338.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"348.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text></svg></span>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla grenar från en punkt ska summera till 1.</p></li><li><p>Den saknade sannolikheten vid \"krona\" i första kastet är \\(1-0{,}5=0{,}5\\), och vid andra grenens \"klave\" är den <strong>0,5</strong> i båda fallen</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera längs grenarna krona–krona: \\(0{,}5\\cdot0{,}5=\\)<strong>0,25</strong></p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De grenar som ger minst en krona är krona-krona, krona-klave och klave-krona: \\(0{,}25+0{,}25+0{,}25=\\)<strong>0,75</strong>.</p></li><li><div class=\"facit-berakning\"><p>Enklare:</p><div class=\"facit-matte\">\\[1-P(\\text{ingen krona})=1-0{,}25=0{,}75\\]</div></div></li></ol></div></div></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
@@ -100374,7 +100374,7 @@ window.BANKMA1 = [
     "spelDelar": [
       {
         "etikett": "a",
-        "t": "<p>Ett mynt singlas två gånger. Träddiagrammet visar utfallen.</p><div class=\"spel-en-del\">Fyll i de saknade sannolikheterna i diagrammet.</div><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram för två myntkast med två luckor att fylla i\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#315F91\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#3F7A55\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,5</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,5</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><text x=\"294.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,25</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text></svg></span>",
+        "t": "<p>Ett mynt singlas två gånger. Träddiagrammet visar utfallen.</p><div class=\"spel-en-del\">Fyll i de saknade sannolikheterna i diagrammet.</div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram för två myntkast med två luckor att fylla i\"><title>Träddiagram för två myntkast med två luckor att fylla i</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"85.0\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">krona</text><rect x=\"38.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><rect x=\"230.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><rect x=\"234.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"258.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,25</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><rect x=\"133.9\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"144.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,5</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,5</text><rect x=\"338.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"348.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text></svg></span>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Dela upp försöket i steg.</p></li><li><p>Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> Alla grenar från en punkt ska summera till 1. Den saknade sannolikheten vid \"krona\" i första kastet är \\(1-0{,}5=0{,}5\\), och vid andra grenens \"klave\" är den <strong>0,5</strong> i båda fallen</p></div></div>",
         "ledtrad": "<p>Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p>",
         "niva": "E",
@@ -100382,7 +100382,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "b",
-        "t": "<p>Ett mynt singlas två gånger. Träddiagrammet visar utfallen.</p><div class=\"spel-en-del\">Bestäm sannolikheten för krona båda gångerna.</div><span class=\"fig\"><svg width=\"492\" height=\"306\" viewBox=\"0 0 492 306\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Träddiagram för två myntkast med två luckor att fylla i\"><rect x=\"1\" y=\"1\" width=\"490\" height=\"304\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"54.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#315F91\" opacity=\"0.05\"/><rect x=\"246.0\" y=\"120.0\" width=\"192.0\" height=\"176.0\" rx=\"12\" fill=\"#3F7A55\" opacity=\"0.05\"/><circle cx=\"246.0\" cy=\"40\" r=\"5\" fill=\"#2B2527\"/><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"166\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"184\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"150.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"138.0\" y=\"140\" text-anchor=\"end\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"94\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"112\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,5</text><circle cx=\"102.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"102.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"170\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"188\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><circle cx=\"198.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"198.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"290\" y=\"77\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"308\" y=\"91\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><circle cx=\"342.0\" cy=\"136\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"354.0\" y=\"140\" text-anchor=\"start\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"286\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"304\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#315F91\" font-weight=\"700\">0,5</text><circle cx=\"294.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#315F91\" stroke-width=\"3\"/><text x=\"294.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><text x=\"294.0\" y=\"272\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#8A858E\">0,25</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><rect x=\"362\" y=\"173\" width=\"36\" height=\"17\" fill=\"#fff\"/><text x=\"380\" y=\"187\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" fill=\"#D97706\" font-weight=\"700\">?</text><circle cx=\"390.0\" cy=\"232\" r=\"6\" fill=\"#fff\" stroke=\"#3F7A55\" stroke-width=\"3\"/><text x=\"390.0\" y=\"254\" text-anchor=\"middle\" font-family=\"sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text></svg></span>",
+        "t": "<p>Ett mynt singlas två gånger. Träddiagrammet visar utfallen.</p><div class=\"spel-en-del\">Bestäm sannolikheten för krona båda gångerna.</div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram för två myntkast med två luckor att fylla i\"><title>Träddiagram för två myntkast med två luckor att fylla i</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"85.0\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">krona</text><rect x=\"38.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><rect x=\"230.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><rect x=\"234.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"258.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,25</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><rect x=\"133.9\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"144.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,5</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,5</text><rect x=\"338.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"348.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text></svg></span>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Dela upp försöket i steg.</p></li><li><p>Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> Multiplicera längs grenarna krona–krona: \\(0{,}5\\cdot0{,}5=\\)<strong>0,25</strong></p></div></div>",
         "ledtrad": "<p>Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p>",
         "niva": "E",
@@ -100390,7 +100390,7 @@ window.BANKMA1 = [
       },
       {
         "etikett": "c",
-        "t": "<p>Ett mynt singlas två gånger. Träddiagrammet visar utfallen.</p><div class=\"spel-en-del\">Bestäm sannolikheten för minst en krona.</div><span class=\"fig\"><svg aria-label=\"Träddiagram för två myntkast med två luckor att fylla i\" height=\"306\" role=\"img\" viewbox=\"0 0 492 306\" width=\"492\" xmlns=\"http://www.w3.org/2000/svg\"><rect fill=\"#fff\" height=\"304\" rx=\"10\" stroke=\"#E4E3E6\" width=\"490\" x=\"1\" y=\"1\"></rect><rect fill=\"#315F91\" height=\"176.0\" opacity=\"0.05\" rx=\"12\" width=\"192.0\" x=\"54.0\" y=\"120.0\"></rect><rect fill=\"#3F7A55\" height=\"176.0\" opacity=\"0.05\" rx=\"12\" width=\"192.0\" x=\"246.0\" y=\"120.0\"></rect><circle cx=\"246.0\" cy=\"40\" fill=\"#2B2527\" r=\"5\"></circle><path d=\"M246.0,40.0 C246.0,88.0 150.0,88.0 150.0,136.0\" fill=\"none\" stroke=\"#315F91\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"166\" y=\"77\"></rect><text fill=\"#D97706\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"184\" y=\"91\">?</text><circle cx=\"150.0\" cy=\"136\" fill=\"#fff\" r=\"6\" stroke=\"#315F91\" stroke-width=\"3\"></circle><text fill=\"#315F91\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"end\" x=\"138.0\" y=\"140\">krona</text><path d=\"M150.0,136.0 C150.0,184.0 102.0,184.0 102.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"94\" y=\"173\"></rect><text fill=\"#315F91\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"112\" y=\"187\">0,5</text><circle cx=\"102.0\" cy=\"232\" fill=\"#fff\" r=\"6\" stroke=\"#315F91\" stroke-width=\"3\"></circle><text fill=\"#315F91\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\" x=\"102.0\" y=\"254\">krona</text><path d=\"M150.0,136.0 C150.0,184.0 198.0,184.0 198.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"170\" y=\"173\"></rect><text fill=\"#3F7A55\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"188\" y=\"187\">0,5</text><circle cx=\"198.0\" cy=\"232\" fill=\"#fff\" r=\"6\" stroke=\"#3F7A55\" stroke-width=\"3\"></circle><text fill=\"#3F7A55\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\" x=\"198.0\" y=\"254\">klave</text><path d=\"M246.0,40.0 C246.0,88.0 342.0,88.0 342.0,136.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"290\" y=\"77\"></rect><text fill=\"#3F7A55\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"308\" y=\"91\">0,5</text><circle cx=\"342.0\" cy=\"136\" fill=\"#fff\" r=\"6\" stroke=\"#3F7A55\" stroke-width=\"3\"></circle><text fill=\"#3F7A55\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"start\" x=\"354.0\" y=\"140\">klave</text><path d=\"M342.0,136.0 C342.0,184.0 294.0,184.0 294.0,232.0\" fill=\"none\" stroke=\"#315F91\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"286\" y=\"173\"></rect><text fill=\"#315F91\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"304\" y=\"187\">0,5</text><circle cx=\"294.0\" cy=\"232\" fill=\"#fff\" r=\"6\" stroke=\"#315F91\" stroke-width=\"3\"></circle><text fill=\"#315F91\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\" x=\"294.0\" y=\"254\">krona</text><text fill=\"#8A858E\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" text-anchor=\"middle\" x=\"294.0\" y=\"272\">0,25</text><path d=\"M342.0,136.0 C342.0,184.0 390.0,184.0 390.0,232.0\" fill=\"none\" stroke=\"#3F7A55\" stroke-linecap=\"round\" stroke-width=\"3.2\"></path><rect fill=\"#fff\" height=\"17\" width=\"36\" x=\"362\" y=\"173\"></rect><text fill=\"#D97706\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"700\" text-anchor=\"middle\" x=\"380\" y=\"187\">?</text><circle cx=\"390.0\" cy=\"232\" fill=\"#fff\" r=\"6\" stroke=\"#3F7A55\" stroke-width=\"3\"></circle><text fill=\"#3F7A55\" font-family=\"sans-serif\" font-size=\"13\" font-weight=\"700\" text-anchor=\"middle\" x=\"390.0\" y=\"254\">klave</text></svg></span>",
+        "t": "<p>Ett mynt singlas två gånger. Träddiagrammet visar utfallen.</p><div class=\"spel-en-del\">Bestäm sannolikheten för minst en krona.</div><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram för två myntkast med två luckor att fylla i\"><title>Träddiagram för två myntkast med två luckor att fylla i</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"85.0\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">krona</text><rect x=\"38.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><rect x=\"230.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">krona</text><rect x=\"234.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"258.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,25</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">klave</text><rect x=\"133.9\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"144.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,5</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,5</text><rect x=\"338.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"348.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text></svg></span>",
         "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Metod:</strong> Dela upp försöket i steg.</p></li><li><p>Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p></li></ol><div class=\"spel-en-del\"><p class=\"facit-svar\"><strong>Svar:</strong> De grenar som ger minst en krona är krona-krona, krona-klave och klave-krona: \\(0{,}25+0{,}25+0{,}25=\\)<strong>0,75</strong>. Enklare: \\(1-P(\\text{ingen krona})=1-0{,}25=0{,}75\\)</p></div></div>",
         "ledtrad": "<p>Dela upp försöket i steg. Multiplicera sannolikheter längs samma väg och addera sannolikheterna för olika vägar som leder till det önskade resultatet.</p>",
         "niva": "E",
@@ -153572,5 +153572,1851 @@ window.BANKMA1 = [
     "rättSvar": 0.005,
     "tolerans": 0.0001,
     "svarEnhet": "mm"
+  },
+  {
+    "id": "5.600",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En påse innehåller 6 röda och 3 gula kulor. Två kulor dras utan återläggning. Träddiagrammet visar dragningarna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två dragningar ur 6 röda och 3 gula kulor. Grenen röd efter röd saknar sannolikhet.\"><title>Träddiagram för två dragningar ur 6 röda och 3 gula kulor. Grenen röd efter röd saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f9f4ed\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">6/9</text><rect x=\"61.9\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"72.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">3/8</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">3/9</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">6/8</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">2/8</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter en röd kula finns 5 röda kvar av 8 kulor.</p></li><li><div class=\"facit-matte\">\\[\\frac58\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac58\\)</p></div>",
+    "familj": "Dragning utan återläggning",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många röda kulor och hur många kulor totalt finns kvar efter att en röd dragits?</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "5/8",
+    "tolerans": null
+  },
+  {
+    "id": "5.601",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två elever lottas ut, en i taget, ur en grupp. Träddiagrammet visar sannolikheterna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två lottningar. Första grenen tjej saknar sannolikhet, kille har 2/5.\"><title>Träddiagram för två lottningar. Första grenen tjej saknar sannolikhet, kille har 2/5.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f1f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"133.9\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"144.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">5/9</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">4/9</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">2/5</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">6/9</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">3/9</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grenarna från samma punkt ska tillsammans ge 1.</p></li><li><div class=\"facit-matte\">\\[1-\\frac25=\\frac35\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac35\\)</p></div>",
+    "familj": "Dragning utan återläggning",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sannolikheterna på grenarna från samma punkt summerar alltid till 1.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "3/5",
+    "tolerans": null
+  },
+  {
+    "id": "5.602",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en påse ligger kulorna i figuren. Två kulor dras utan återläggning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"356\" height=\"158\" viewBox=\"0 0 356 158\" role=\"img\" aria-label=\"Påse med 5 gröna och 2 vita kulor.\"><title>Påse med 5 gröna och 2 vita kulor.</title><rect x=\"1\" y=\"1\" width=\"354\" height=\"156\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><path d=\"M40 40 Q36 144 118 144 Q176 144 176 40 Z\" fill=\"#f6efe2\" stroke=\"#9a7b4f\" stroke-width=\"2\"/><path d=\"M34 40 L182 40\" stroke=\"#9a7b4f\" stroke-width=\"5\" stroke-linecap=\"round\"/><circle cx=\"57\" cy=\"68\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"91\" cy=\"68\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"125\" cy=\"68\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"159\" cy=\"68\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"57\" cy=\"102\" r=\"13\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><circle cx=\"91\" cy=\"102\" r=\"13\" fill=\"#a7abb2\" stroke=\"#8a8f98\" stroke-width=\"2\"/><circle cx=\"125\" cy=\"102\" r=\"13\" fill=\"#a7abb2\" stroke=\"#8a8f98\" stroke-width=\"2\"/><circle cx=\"208\" cy=\"58\" r=\"8\" fill=\"#6f9b80\" stroke=\"#3F7A55\" stroke-width=\"2\"/><text x=\"222\" y=\"63\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\">5 gröna</text><circle cx=\"208\" cy=\"84\" r=\"8\" fill=\"#a7abb2\" stroke=\"#8a8f98\" stroke-width=\"2\"/><text x=\"222\" y=\"89\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\">2 vita</text></svg></span><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två dragningar ur 5 gröna och 2 vita kulor. Grenen vit efter vit saknar sannolikhet.\"><title>Träddiagram för två dragningar ur 5 gröna och 2 vita kulor. Grenen vit efter vit saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f4f5\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">grön</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">5/7</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">4/6</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">2/6</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">2/7</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">5/6</text><rect x=\"338.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"348.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter en vit kula finns 1 vit kvar av 6 kulor.</p></li><li><div class=\"facit-matte\">\\[\\frac16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac16\\)</p></div>",
+    "familj": "Dragning utan återläggning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna kulorna i påsen efter att en vit kula tagits bort.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "1/6",
+    "tolerans": null
+  },
+  {
+    "id": "5.603",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En påse innehåller 4 röda och 5 gula kulor. Två kulor dras utan återläggning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två dragningar ur 4 röda och 5 gula kulor med alla sannolikheter utskrivna.\"><title>Träddiagram för två dragningar ur 4 röda och 5 gula kulor med alla sannolikheter utskrivna.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f9f4ed\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">gul</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/9</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">3/8</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">5/8</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">5/9</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/8</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">4/8</text></svg></span><p>Hur stor är sannolikheten att båda kulorna är gula? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera längs vägen gul–gul.</p></li><li><div class=\"facit-matte\">\\[\\frac59\\cdot\\frac48=\\frac{20}{72}=\\frac5{18}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac5{18}\\)</p></div>",
+    "familj": "Beroende händelser i problemlösning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Följ grenen gul och sedan gul igen och multiplicera.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "5/18",
+    "tolerans": null
+  },
+  {
+    "id": "5.604",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en låda ligger 3 svarta och 5 vita strumpor. Elsa tar två strumpor utan att titta.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två strumpor ur 3 svarta och 5 vita. Grenen vit efter svart saknar sannolikhet.\"><title>Träddiagram för två strumpor ur 3 svarta och 5 vita. Grenen vit efter svart saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eeeff0\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f4f5\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"85.0\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"38.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"230.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">3/8</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">2/7</text><rect x=\"146.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"156.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">5/8</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">3/7</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">4/7</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter en svart strumpa finns alla 5 vita kvar av 7 strumpor.</p></li><li><div class=\"facit-matte\">\\[\\frac57\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac57\\)</p></div>",
+    "familj": "Dragning utan återläggning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många strumpor finns kvar efter den första? Hur många av dem är vita?</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "5/7",
+    "tolerans": null
+  },
+  {
+    "id": "5.605",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>I en burk ligger 7 vita och 2 svarta knappar. Två knappar tas utan återläggning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram för två knappar ur 7 vita och 2 svarta, med produkterna 42/72, 14/72, 14/72 och 2/72 under löven.\"><title>Träddiagram för två knappar ur 7 vita och 2 svarta, med produkterna 42/72, 14/72, 14/72 och 2/72 under löven.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f3f4f5\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eeeff0\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"38.9\" y=\"240.0\" width=\"54.3\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"66.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">42/72</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"134.8\" y=\"240.0\" width=\"54.3\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"162.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">14/72</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">vit</text><rect x=\"230.8\" y=\"240.0\" width=\"54.3\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"258.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">14/72</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">svart</text><rect x=\"330.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"354.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">2/72</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">7/9</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">6/8</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">2/8</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">2/9</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">7/8</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">1/8</text></svg></span><p>Hur stor är sannolikheten att knapparna får olika färg? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två vägar ger olika färg: vit–svart och svart–vit.</p></li><li><div class=\"facit-matte\">\\[\\frac{14}{72}+\\frac{14}{72}=\\frac{28}{72}=\\frac7{18}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac7{18}\\)</p></div>",
+    "familj": "Beroende händelser i problemlösning",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vilka vägar ger en vit och en svart knapp? Addera deras sannolikheter.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "7/18",
+    "tolerans": null
+  },
+  {
+    "id": "5.606",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En påse innehöll 5 röda och 3 blå kulor. Två kulor dras utan återläggning. En elev har ritat trädet nedan, men en sannolikhet är fel.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två dragningar ur 5 röda och 3 blå kulor. Grenen röd efter röd har värdet 5/8.\"><title>Träddiagram för två dragningar ur 5 röda och 3 blå kulor. Grenen röd efter röd har värdet 5/8.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eff2f6\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">5/8</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">5/8</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">3/7</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">3/8</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">5/7</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">2/7</text></svg></span><p>Vilken sannolikhet i trädet är fel?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter en röd kula finns 4 röda av 7 kvar. Grenen röd efter röd ska vara \\(\\frac47\\), inte \\(\\frac58\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Grenen röd efter röd, \\(\\frac58\\).</p></div>",
+    "familj": "Dragning utan återläggning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Kontrollera att grenarna från varje punkt summerar till 1.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "5/8 vid röd efter röd",
+        "ratt": true,
+        "kommentar": "Den ska vara 4/7."
+      },
+      {
+        "txt": "3/7 vid blå efter röd",
+        "ratt": false,
+        "kommentar": "Efter en röd finns 3 blå av 7 kvar, så 3/7 stämmer."
+      },
+      {
+        "txt": "5/7 vid röd efter blå",
+        "ratt": false,
+        "kommentar": "Efter en blå finns 5 röda av 7 kvar."
+      },
+      {
+        "txt": "3/8 vid blå i första dragningen",
+        "ratt": false,
+        "kommentar": "3 av 8 kulor är blå."
+      }
+    ]
+  },
+  {
+    "id": "5.607",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Trädet visar två dragningar utan återläggning ur en påse med röda och blå kulor.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram: röd 5/9 och blå 4/9 i första dragningen, därefter 4/8 och 4/8 efter röd, 5/8 och 3/8 efter blå.\"><title>Träddiagram: röd 5/9 och blå 4/9 i första dragningen, därefter 4/8 och 4/8 efter röd, 5/8 och 3/8 efter blå.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eff2f6\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">5/9</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">4/8</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">4/8</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">4/9</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">5/8</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">3/8</text></svg></span><p>Hur många röda kulor fanns i påsen från början? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Första dragningen har nämnaren 9, så det fanns 9 kulor. Röd har täljaren 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 röda kulor.</p></div>",
+    "familj": "Beroende händelser i problemlösning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vad betyder nämnaren och täljaren i första dragningens sannolikheter?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0
+  },
+  {
+    "id": "5.608",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ur en hög med 12 kort, där 5 är hjärter, dras två kort utan återläggning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två kort ur 12 kort varav 5 hjärter. Grenen hjärter efter hjärter saknar sannolikhet.\"><title>Träddiagram för två kort ur 12 kort varav 5 hjärter. Grenen hjärter efter hjärter saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eeeff0\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"76.1\" y=\"110.0\" width=\"75.7\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">hjärter</text><rect x=\"30.3\" y=\"208.0\" width=\"71.3\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">hjärter</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">annat</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\" font-weight=\"700\">annat</text><rect x=\"222.3\" y=\"208.0\" width=\"71.3\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">hjärter</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">annat</text><rect x=\"109.8\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"131.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">5/12</text><rect x=\"61.9\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"72.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"146.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"168.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">7/11</text><rect x=\"266.0\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"288.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">7/12</text><rect x=\"229.8\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"251.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">5/11</text><rect x=\"338.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"360.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">6/11</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter ett hjärter finns 4 hjärter kvar av 11 kort.</p></li><li><div class=\"facit-matte\">\\[\\frac4{11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac4{11}\\)</p></div>",
+    "familj": "Dragning utan återläggning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många hjärter och hur många kort finns kvar?</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "4/11",
+    "tolerans": null
+  },
+  {
+    "id": "5.609",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En grupp har 6 tjejer och 4 killar. Två personer lottas ut, en i taget, till en uppgift.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två lottningar ur 6 tjejer och 4 killar. Grenen kille efter tjej saknar sannolikhet.\"><title>Träddiagram för två lottningar ur 6 tjejer och 4 killar. Grenen kille efter tjej saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f1f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"109.8\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"131.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">6/10</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">5/9</text><rect x=\"146.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"156.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"266.0\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"288.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">4/10</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">6/9</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">3/9</text></svg></span><p>Vilken sannolikhet ska stå vid frågetecknet? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Efter att en tjej lottats ut finns alla 4 killar kvar av 9 personer.</p></li><li><div class=\"facit-matte\">\\[\\frac49\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac49\\)</p></div>",
+    "familj": "Dragning utan återläggning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilka personer finns kvar efter att en tjej har lottats ut?</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "4/9",
+    "tolerans": null
+  },
+  {
+    "id": "5.610",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En styrelse har 8 tjejer och 4 killar. Två personer lottas ut, en i taget. Två grenar i trädet saknar sannolikhet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två lottningar ur 8 tjejer och 4 killar. Grenen kille i första lottningen och grenen kille efter kille saknar sannolikhet.\"><title>Träddiagram för två lottningar ur 8 tjejer och 4 killar. Grenen kille i första lottningen och grenen kille efter kille saknar sannolikhet.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f1f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6B4C93\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e2ee\" stroke=\"#6B4C93\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">tjej</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">kille</text><rect x=\"109.8\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"131.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">8/12</text><rect x=\"37.8\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"59.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">7/11</text><rect x=\"146.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"168.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">4/11</text><rect x=\"266.0\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"276.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"229.8\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbc0d9\" stroke-width=\"1\"/><text x=\"251.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6B4C93\" font-weight=\"700\">8/11</text><rect x=\"338.0\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"348.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text></svg></span><p>Hur stor är sannolikheten att båda som lottas ut är killar? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Fyll först i grenarna: kille först \\(\\frac4{12}\\), kille efter kille \\(\\frac3{11}\\).</p></li><li><div class=\"facit-matte\">\\[\\frac4{12}\\cdot\\frac3{11}=\\frac{12}{132}=\\frac1{11}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1{11}\\)</p></div>",
+    "familj": "Beroende händelser i problemlösning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Fyll i de saknade grenarna och multiplicera längs vägen kille–kille.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "1/11",
+    "tolerans": null
+  },
+  {
+    "id": "5.611",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en skål ligger 7 kolor och 3 lakritsbitar. Ali tar två bitar utan att titta och äter upp dem.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två godisbitar ur 7 kolor och 3 lakritsbitar.\"><title>Träddiagram för två godisbitar ur 7 kolor och 3 lakritsbitar.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f9f4ed\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eeeff0\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#B7791F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#2b3440\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"89.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#B7791F\" font-weight=\"700\">kola</text><rect x=\"42.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">kola</text><rect x=\"126.3\" y=\"208.0\" width=\"71.3\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">lakrits</text><rect x=\"268.1\" y=\"110.0\" width=\"75.7\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#2b3440\" font-weight=\"700\">lakrits</text><rect x=\"234.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#f3eadb\" stroke=\"#B7791F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">kola</text><rect x=\"318.3\" y=\"208.0\" width=\"71.3\" height=\"24\" rx=\"12\" fill=\"#dddfe0\" stroke=\"#2b3440\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">lakrits</text><rect x=\"109.8\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"131.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">7/10</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">6/9</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">3/9</text><rect x=\"266.0\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"288.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">3/10</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e6d0b1\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#B7791F\" font-weight=\"700\">7/9</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b5b8bc\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#2b3440\" font-weight=\"700\">2/9</text></svg></span><p>Hur stor är sannolikheten att den första biten är en kola och den andra en lakritsbit? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac7{10}\\cdot\\frac39=\\frac{21}{90}=\\frac7{30}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac7{30}\\)</p></div>",
+    "familj": "Beroende händelser i problemlösning",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Följ vägen kola–lakrits och multiplicera.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "7/30",
+    "tolerans": null
+  },
+  {
+    "id": "5.612",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Trädet gäller två dragningar utan återläggning ur en påse med 3 röda och 4 blå kulor.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för två dragningar ur 3 röda och 4 blå kulor.\"><title>Träddiagram för två dragningar ur 3 röda och 4 blå kulor.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eff2f6\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"142.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"285.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">röd</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">blå</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">3/7</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">2/6</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">4/6</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">4/7</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">3/6</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">3/6</text></svg></span><p>En elev räknar \\(\\frac37\\cdot\\frac26=\\frac17\\). Vilken fråga besvarar beräkningen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beräkningen följer vägen röd–röd.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sannolikheten att båda kulorna är röda.</p></div>",
+    "familj": "Beroende händelser i problemlösning",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vilken väg i trädet har sannolikheterna \\(\\frac37\\) och \\(\\frac26\\)?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Hur stor är sannolikheten att båda kulorna är röda?",
+        "ratt": true
+      },
+      {
+        "txt": "Hur stor är sannolikheten att minst en kula är röd?",
+        "ratt": false,
+        "kommentar": "Då ska fler vägar adderas."
+      },
+      {
+        "txt": "Hur stor är sannolikheten att den andra kulan är röd?",
+        "ratt": false,
+        "kommentar": "Då ingår även vägen blå–röd."
+      },
+      {
+        "txt": "Hur stor är sannolikheten att få en röd och en blå?",
+        "ratt": false,
+        "kommentar": "Då används grenarna 4/6 och 3/6."
+      }
+    ]
+  },
+  {
+    "id": "5.613",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/1",
+    "t": "<p>I en godispåse finns 12 bitar, varav 5 är sura. Lisa tar två bitar.</p><p>Hur många procentenheter större är sannolikheten att båda är sura om hon lägger tillbaka den första biten, jämfört med om hon äter upp den? (Svara i procentenheter med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med återläggning:</p></li><li><div class=\"facit-matte\">\\[\\left(\\frac5{12}\\right)^2=\\frac{25}{144}\\approx0{,}1736\\]</div></li><li><p>Utan återläggning:</p></li><li><div class=\"facit-matte\">\\[\\frac5{12}\\cdot\\frac4{11}=\\frac{20}{132}\\approx0{,}1515\\]</div></li><li><div class=\"facit-matte\">\\[17{,}36\\,\\%-15{,}15\\,\\%\\approx2{,}2\\ \\text{procentenheter}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2,2 procentenheter.</p></div>",
+    "familj": "Beroende händelser i problemlösning",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna båda sannolikheterna. Utan återläggning finns en sur bit färre och en bit färre totalt i andra dragningen.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2.2096,
+    "tolerans": 0.06,
+    "svarEnhet": "procentenheter"
+  },
+  {
+    "id": "5.614",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/1",
+    "t": "<p>Klassen säljer 60 lotter, och 6 av dem ger vinst. Du köper 3 lotter.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram för de två första lotterna: nit 54/60 och vinst 6/60, därefter 53/59 och 6/59 efter nit, 54/59 och 5/59 efter vinst.\"><title>Träddiagram för de två första lotterna: nit 54/60 och vinst 6/60, därefter 53/59 och 6/59 efter nit, 54/59 och 5/59 efter vinst.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f3f4f5\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"93.8\" y=\"110.0\" width=\"40.5\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#6b7280\" font-weight=\"700\">nit</text><rect x=\"46.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">nit</text><rect x=\"134.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">vinst</text><rect x=\"276.9\" y=\"110.0\" width=\"58.1\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">vinst</text><rect x=\"238.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">nit</text><rect x=\"326.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">vinst</text><rect x=\"101.7\" y=\"63.0\" width=\"52.3\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"127.8\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">54/60</text><rect x=\"29.7\" y=\"161.0\" width=\"52.3\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"55.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">53/59</text><rect x=\"146.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"168.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">6/59</text><rect x=\"266.0\" y=\"63.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"288.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">6/60</text><rect x=\"221.7\" y=\"161.0\" width=\"52.3\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"247.8\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">54/59</text><rect x=\"338.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"360.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">5/59</text></svg></span><p>Trädet visar de två första lotterna. Hur stor är sannolikheten att du vinner på minst en av dina tre lotter? (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Räkna komplementet: alla tre lotterna är nitlotter.</p></li><li><div class=\"facit-matte\">\\[P(\\text{tre nitar})=\\frac{54}{60}\\cdot\\frac{53}{59}\\cdot\\frac{52}{58}\\approx0{,}7248\\]</div></li><li><div class=\"facit-matte\">\\[P(\\text{minst en vinst})=1-0{,}7248\\approx0{,}275\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 27,5 %.</p></div>",
+    "familj": "Beroende händelser i problemlösning",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Det är enklare att räkna sannolikheten att alla tre är nitar och dra bort den från 1.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 27.5161,
+    "tolerans": 0.06
+  },
+  {
+    "id": "5.615",
+    "kap": 5,
+    "omr": "beroende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/1",
+    "t": "<p>Ett lag består av 5 tjejer och 4 killar. Tre lagkaptener lottas ut, en i taget. Hur stor är sannolikheten att minst en av dem är kille? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Komplementet är att alla tre är tjejer.</p></li><li><div class=\"facit-matte\">\\[\\frac59\\cdot\\frac48\\cdot\\frac37=\\frac{60}{504}=\\frac5{42}\\]</div></li><li><div class=\"facit-matte\">\\[1-\\frac5{42}=\\frac{37}{42}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{37}{42}\\)</p></div>",
+    "familj": "Beroende händelser i problemlösning",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna sannolikheten att alla tre är tjejer och dra bort den från 1.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "37/42",
+    "tolerans": null
+  },
+  {
+    "id": "5.616",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "A",
+    "poang": "0/0/2",
+    "t": "<p>På en skolfest snurrar 180 elever ett lyckohjul. Med sannolikheten \\(\\frac14\\) får eleven kasta en basketboll mot korgen. Annars får eleven dra en lott, och var tionde lott vinner. Den som träffar korgen eller drar en vinstlott får ett pris. Totalt fick 27 elever pris.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram: basket med sannolikheten 1/4, därefter träff x och miss 1 − x. Lott med sannolikheten 3/4, därefter vinst 1/10 och nit 9/10.\"><title>Träddiagram: basket med sannolikheten 1/4, därefter träff x och miss 1 − x. Lott med sannolikheten 3/4, därefter vinst 1/10 och nit 9/10.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#faf0ec\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eff2f6\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#C2410C\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"80.5\" y=\"110.0\" width=\"66.9\" height=\"24\" rx=\"12\" fill=\"#f5e1d8\" stroke=\"#C2410C\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#C2410C\" font-weight=\"700\">basket</text><rect x=\"38.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">träff</text><rect x=\"138.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">miss</text><rect x=\"281.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">lott</text><rect x=\"230.5\" y=\"208.0\" width=\"55.0\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">vinst</text><rect x=\"334.7\" y=\"208.0\" width=\"38.6\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">nit</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#eabcaa\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#C2410C\" font-weight=\"700\">1/4</text><rect x=\"61.9\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"72.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">x</text><rect x=\"146.0\" y=\"161.0\" width=\"52.3\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"172.2\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">1 − x</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">3/4</text><rect x=\"229.8\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"251.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">1/10</text><rect x=\"338.0\" y=\"161.0\" width=\"44.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"360.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">9/10</text></svg></span><p>Hur stor är sannolikheten \\(x\\) att en elev som kastar basket träffar korgen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Andelen elever som fick pris är \\(\\frac{27}{180}=0{,}15\\).</p></li><li><div class=\"facit-matte\">\\[\\frac14\\cdot x+\\frac34\\cdot\\frac1{10}=0{,}15\\]</div></li><li><div class=\"facit-matte\">\\[0{,}25x+0{,}075=0{,}15\\]</div></li><li><div class=\"facit-matte\">\\[0{,}25x=0{,}075\\]</div></li><li><div class=\"facit-matte\">\\[x=0{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0{,}3\\), alltså 30 %.</p></div>",
+    "familj": "Sannolikhet med träddiagram",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 5,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ställ upp en ekvation: sannolikheten för pris är summan av vägarna basket–träff och lott–vinst, och den ska vara lika med andelen elever som fick pris.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "sannolikhet",
+    "rättSvar": 0.3,
+    "tolerans": 0.001
+  },
+  {
+    "id": "5.617",
+    "kap": 5,
+    "omr": "sannolikhet_flera_steg",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/1",
+    "t": "<p>Ella, Saga och Nora skjuter var sin straff. Ella gör mål med sannolikheten 0,9, Saga med 0,5 och Nora med 0,2. Skotten är oberoende av varandra.</p><p>Hur stor är sannolikheten att laget gör ett eller två mål? (Svara i decimalform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Räkna bort de två andra fallen: tre mål och inga mål.</p></li><li><div class=\"facit-matte\">\\[P(3)=0{,}9\\cdot0{,}5\\cdot0{,}2=0{,}09\\]</div></li><li><div class=\"facit-matte\">\\[P(0)=0{,}1\\cdot0{,}5\\cdot0{,}8=0{,}04\\]</div></li><li><div class=\"facit-matte\">\\[1-0{,}09-0{,}04=0{,}87\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,87</p></div>",
+    "familj": "Sannolikhet med träddiagram",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Det finns fyra möjliga antal mål: 0, 1, 2 eller 3. Vilka två fall är enklast att räkna?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "sannolikhet",
+    "rättSvar": 0.87,
+    "tolerans": 0.001
+  },
+  {
+    "id": "5.618",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/1",
+    "t": "<p>25 elever svarar på en frågesport med 6 frågor. Varje fråga har 3 svarsalternativ, och alla gissar helt slumpmässigt.</p><p>Ungefär hur många elever kan man vänta sig får minst ett rätt? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sannolikheten att gissa fel på en fråga är \\(\\frac23\\).</p></li><li><div class=\"facit-matte\">\\[P(\\text{alla fel})=\\left(\\frac23\\right)^6\\approx0{,}088\\]</div></li><li><div class=\"facit-matte\">\\[P(\\text{minst ett rätt})\\approx1-0{,}088=0{,}912\\]</div></li><li><div class=\"facit-matte\">\\[25\\cdot0{,}912\\approx23\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 23 elever.</p></div>",
+    "familj": "Sannolikheten för minst en händelse",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna först sannolikheten att en elev får alla fel. Använd komplementet och multiplicera med antalet elever.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 23,
+    "tolerans": 0
+  },
+  {
+    "id": "5.619",
+    "kap": 5,
+    "omr": "komplementhandelse",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/1",
+    "t": "<p>En brandlarmscentral har fyra larm som fungerar oberoende av varandra. Varje larm missar en brand med sannolikheten 0,15.</p><p>Hur stor är sannolikheten att minst ett larm går när det brinner? (Svara i procent med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(\\text{alla missar})=0{,}15^4\\approx0{,}000506\\]</div></li><li><div class=\"facit-matte\">\\[1-0{,}000506\\approx0{,}9995\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 99,95 %.</p></div>",
+    "familj": "Sannolikheten för minst en händelse",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Larmet fungerar om inte alla fyra missar.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 99.9494,
+    "tolerans": 0.006
+  },
+  {
+    "id": "3.600",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Diagrammet visar antalet invånare i en ort. Antalet ökade med samma procent varje år.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"250\" viewBox=\"0 0 300 250\" role=\"img\" aria-label=\"Stapeldiagram över invånare: 5 000 år 2022 och 5 618 år 2024. Stapeln för 2023 saknar värde.\"><title>Stapeldiagram över invånare: 5 000 år 2022 och 5 618 år 2024. Stapeln för 2023 saknar värde.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"280.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">invånare</text><rect x=\"85\" y=\"78.4\" width=\"40\" height=\"131.6\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2022</text><rect x=\"81.5\" y=\"58.4\" width=\"47.0\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"70.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">5 000</text><rect x=\"155\" y=\"70.5\" width=\"40\" height=\"139.5\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2023</text><rect x=\"225\" y=\"62.2\" width=\"40\" height=\"147.8\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"245.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2024</text><rect x=\"221.5\" y=\"42.2\" width=\"47.0\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"245.0\" y=\"54.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">5 618</text></svg></span><p>Bestäm den årliga förändringsfaktorn. (Svara i decimalform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^2=\\frac{5\\,618}{5\\,000}=1{,}1236\\]</div></li><li><div class=\"facit-matte\">\\[q=\\sqrt{1{,}1236}=1{,}06\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,06</p></div>",
+    "familj": "Beräkna genomsnittlig procentuell förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Under två år multipliceras antalet med samma faktor två gånger.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1.06,
+    "tolerans": 0.001
+  },
+  {
+    "id": "3.601",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Priset på en begagnad cykel sjönk från 6 400 kr till 4 900 kr på två år, med samma procentuella minskning varje år.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Linjediagram över cykelns pris: 6 400 kr vid år 0 och 4 900 kr vid år 2.\"><title>Linjediagram över cykelns pris: 6 400 kr vid år 0 och 4 900 kr vid år 2.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"372.0\" y2=\"225.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4 000</text><line x1=\"62.0\" y1=\"194.2\" x2=\"372.0\" y2=\"194.2\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"198.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4 500</text><line x1=\"62.0\" y1=\"163.3\" x2=\"372.0\" y2=\"163.3\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"167.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5 000</text><line x1=\"62.0\" y1=\"132.5\" x2=\"372.0\" y2=\"132.5\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"136.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5 500</text><line x1=\"62.0\" y1=\"101.7\" x2=\"372.0\" y2=\"101.7\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"105.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6 000</text><line x1=\"62.0\" y1=\"70.8\" x2=\"372.0\" y2=\"70.8\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"74.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6 500</text><line x1=\"62.0\" y1=\"40.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">7 000</text><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"62.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"217.0\" y1=\"225.0\" x2=\"217.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"217.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"372.0\" y1=\"225.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"372.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"62.0\" y1=\"225.0\" x2=\"380.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"32.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><polyline points=\"62.0,77.0 217.0,126.3 372.0,169.5\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><circle cx=\"62.0\" cy=\"77.0\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"66.0\" y=\"56.0\" width=\"44.0\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"70.0\" y=\"67.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">6 400</text><circle cx=\"217.0\" cy=\"126.3\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"372.0\" cy=\"169.5\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"324.0\" y=\"180.5\" width=\"44.0\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"364.0\" y=\"191.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">4 900</text><text x=\"372.0\" y=\"261.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">år</text><text x=\"58.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">pris (kr)</text></svg></span><p>Med hur många procent sjönk priset varje år? (Svara i procent.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^2=\\frac{4\\,900}{6\\,400}=0{,}765625\\]</div></li><li><div class=\"facit-matte\">\\[q=\\sqrt{0{,}765625}=0{,}875\\]</div></li><li><div class=\"facit-matte\">\\[1-0{,}875=0{,}125\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,5 % per år.</p></div>",
+    "familj": "Beräkna genomsnittlig procentuell förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bestäm först förändringsfaktorn per år. En faktor under 1 betyder minskning.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 12.5,
+    "tolerans": 0.01
+  },
+  {
+    "id": "3.602",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Diagrammet visar värdet på en fond. Värdet ökade med samma procent varje år.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Linjediagram över fondens värde: 20 000 kr år 2021 och 23 153 kr år 2024.\"><title>Linjediagram över fondens värde: 20 000 kr år 2021 och 23 153 kr år 2024.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"372.0\" y2=\"225.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">18 000</text><line x1=\"62.0\" y1=\"194.2\" x2=\"372.0\" y2=\"194.2\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"198.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">19 000</text><line x1=\"62.0\" y1=\"163.3\" x2=\"372.0\" y2=\"163.3\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"167.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">20 000</text><line x1=\"62.0\" y1=\"132.5\" x2=\"372.0\" y2=\"132.5\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"136.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">21 000</text><line x1=\"62.0\" y1=\"101.7\" x2=\"372.0\" y2=\"101.7\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"105.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">22 000</text><line x1=\"62.0\" y1=\"70.8\" x2=\"372.0\" y2=\"70.8\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"74.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">23 000</text><line x1=\"62.0\" y1=\"40.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">24 000</text><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"62.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2021</text><line x1=\"165.3\" y1=\"225.0\" x2=\"165.3\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"165.3\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2022</text><line x1=\"268.7\" y1=\"225.0\" x2=\"268.7\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"268.7\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2023</text><line x1=\"372.0\" y1=\"225.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"372.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2024</text><line x1=\"62.0\" y1=\"225.0\" x2=\"380.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"32.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><polyline points=\"62.0,163.3 165.3,132.5 268.7,100.1 372.0,66.1\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"2.6\"/><circle cx=\"62.0\" cy=\"163.3\" r=\"4.5\" fill=\"#2f7d4a\"/><rect x=\"66.0\" y=\"174.3\" width=\"51.2\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"70.0\" y=\"185.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">20 000</text><circle cx=\"165.3\" cy=\"132.5\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"268.7\" cy=\"100.1\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"372.0\" cy=\"66.1\" r=\"4.5\" fill=\"#2f7d4a\"/><rect x=\"316.8\" y=\"45.1\" width=\"51.2\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"364.0\" y=\"56.1\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">23 152</text><text x=\"372.0\" y=\"261.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">år</text><text x=\"58.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">värde (kr)</text></svg></span><p>Hur stor var den årliga ökningen i procent?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^3=\\frac{23\\,152}{20\\,000}\\approx1{,}1576\\]</div></li><li><div class=\"facit-matte\">\\[q=\\sqrt[3]{1{,}1576}\\approx1{,}05\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 % per år.</p></div>",
+    "familj": "Beräkna genomsnittlig procentuell förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Mellan 2021 och 2024 går det tre år. Använd tredje roten.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 5,
+    "tolerans": 0.05
+  },
+  {
+    "id": "3.603",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Antalet besökare på ett museum ökade totalt med 26,25 % på fyra år. Ökningen var lika stor i procent varje år.</p><p>Hur stor var ökningen per år? (Svara i procent.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^4=1{,}2625\\]</div></li><li><div class=\"facit-matte\">\\[q=1{,}2625^{1/4}\\approx1{,}06\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 % per år.</p></div>",
+    "familj": "Beräkna genomsnittlig procentuell förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En ökning med 26,25 % ger faktorn 1,2625. Den årliga faktorn används fyra gånger.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 6,
+    "tolerans": 0.05
+  },
+  {
+    "id": "3.604",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Diagrammet visar omsättningen för två företag. Företag A gick från 100 till 150 miljoner kr på 5 år. Företag B gick från 100 till 140 miljoner kr på 4 år.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"370\" height=\"250\" viewBox=\"0 0 370 250\" role=\"img\" aria-label=\"Stapeldiagram: företag A från 100 till 150 miljoner kr på 5 år, företag B från 100 till 140 miljoner kr på 4 år.\"><title>Stapeldiagram: företag A från 100 till 150 miljoner kr på 5 år, företag B från 100 till 140 miljoner kr på 4 år.</title><rect x=\"1\" y=\"1\" width=\"368\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"350.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">miljoner kr</text><rect x=\"85\" y=\"111.4\" width=\"40\" height=\"98.6\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">A start</text><rect x=\"89.3\" y=\"91.4\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"103.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">100</text><rect x=\"155\" y=\"62.2\" width=\"40\" height=\"147.8\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">A efter 5 år</text><rect x=\"159.3\" y=\"42.2\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"175.0\" y=\"54.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">150</text><rect x=\"225\" y=\"111.4\" width=\"40\" height=\"98.6\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"245.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">B start</text><rect x=\"229.3\" y=\"91.4\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"245.0\" y=\"103.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">100</text><rect x=\"295\" y=\"72.0\" width=\"40\" height=\"138.0\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"315.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">B efter 4 år</text><rect x=\"299.3\" y=\"52.0\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"315.0\" y=\"64.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">140</text></svg></span><p>Vilket företag hade störst genomsnittlig årlig ökning i procent?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A:\\ 1{,}5^{1/5}\\approx1{,}0845\\ (8{,}4\\,\\%)\\]</div></li><li><div class=\"facit-matte\">\\[B:\\ 1{,}4^{1/4}\\approx1{,}0878\\ (8{,}8\\,\\%)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Företag B.</p></div>",
+    "familj": "Beräkna genomsnittlig procentuell förändring",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna den årliga förändringsfaktorn för båda företagen. Tänk på att antalet år skiljer sig.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Företag B",
+        "ratt": true,
+        "kommentar": "Cirka 8,8 % per år mot 8,4 % för A."
+      },
+      {
+        "txt": "Företag A",
+        "ratt": false,
+        "kommentar": "A ökade mest totalt, men på fler år."
+      },
+      {
+        "txt": "Lika stor",
+        "ratt": false,
+        "kommentar": "Räkna faktorn per år för båda."
+      }
+    ]
+  },
+  {
+    "id": "3.605",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En kommun hade 12 000 invånare år 2014 och 15 000 invånare år 2024.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Linjediagram över invånare: 12 000 år 2014 och 15 000 år 2024.\"><title>Linjediagram över invånare: 12 000 år 2014 och 15 000 år 2024.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"372.0\" y2=\"225.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">11 000</text><line x1=\"62.0\" y1=\"188.0\" x2=\"372.0\" y2=\"188.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">12 000</text><line x1=\"62.0\" y1=\"151.0\" x2=\"372.0\" y2=\"151.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">13 000</text><line x1=\"62.0\" y1=\"114.0\" x2=\"372.0\" y2=\"114.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"118.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">14 000</text><line x1=\"62.0\" y1=\"77.0\" x2=\"372.0\" y2=\"77.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"81.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">15 000</text><line x1=\"62.0\" y1=\"40.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">16 000</text><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"62.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2014</text><line x1=\"124.0\" y1=\"225.0\" x2=\"124.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"124.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2016</text><line x1=\"186.0\" y1=\"225.0\" x2=\"186.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"186.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2018</text><line x1=\"248.0\" y1=\"225.0\" x2=\"248.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"248.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2020</text><line x1=\"310.0\" y1=\"225.0\" x2=\"310.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"310.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2022</text><line x1=\"372.0\" y1=\"225.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"372.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2024</text><line x1=\"62.0\" y1=\"225.0\" x2=\"380.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"32.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><polyline points=\"62.0,188.0 124.0,169.5 186.0,147.3 248.0,125.1 310.0,102.9 372.0,77.0\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"2.6\"/><circle cx=\"62.0\" cy=\"188.0\" r=\"4.5\" fill=\"#2f7d4a\"/><rect x=\"66.0\" y=\"199.0\" width=\"51.2\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"70.0\" y=\"210.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">12 000</text><circle cx=\"124.0\" cy=\"169.5\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"186.0\" cy=\"147.3\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"248.0\" cy=\"125.1\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"310.0\" cy=\"102.9\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"372.0\" cy=\"77.0\" r=\"4.5\" fill=\"#2f7d4a\"/><rect x=\"316.8\" y=\"56.0\" width=\"51.2\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"364.0\" y=\"67.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">15 000</text><text x=\"372.0\" y=\"261.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">år</text><text x=\"58.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">invånare</text></svg></span><p>Hur stor var den genomsnittliga årliga ökningen? (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^{10}=\\frac{15\\,000}{12\\,000}=1{,}25\\]</div></li><li><div class=\"facit-matte\">\\[q=1{,}25^{1/10}\\approx1{,}0226\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2,3 % per år.</p></div>",
+    "familj": "Beräkna genomsnittlig procentuell förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Mellan 2014 och 2024 går det tio år.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 2.2565,
+    "tolerans": 0.06
+  },
+  {
+    "id": "3.606",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En bil kostar 240 000 kr som ny. Värdet minskar i genomsnitt med 15 % per år.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"370\" height=\"250\" viewBox=\"0 0 370 250\" role=\"img\" aria-label=\"Stapeldiagram över bilens värde: 240 000 kr som ny, sedan minskande staplar efter 1, 2 och 3 år. Värdet efter 3 år är okänt.\"><title>Stapeldiagram över bilens värde: 240 000 kr som ny, sedan minskande staplar efter 1, 2 och 3 år. Värdet efter 3 år är okänt.</title><rect x=\"1\" y=\"1\" width=\"368\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"350.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">värde (kr)</text><rect x=\"85\" y=\"62.2\" width=\"40\" height=\"147.8\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">ny</text><rect x=\"73.7\" y=\"42.2\" width=\"62.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"54.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">240 000</text><rect x=\"155\" y=\"84.3\" width=\"40\" height=\"125.7\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1 år</text><rect x=\"225\" y=\"103.2\" width=\"40\" height=\"106.8\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"245.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2 år</text><rect x=\"295\" y=\"119.2\" width=\"40\" height=\"90.8\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"315.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3 år</text><rect x=\"307.1\" y=\"99.2\" width=\"15.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"315.0\" y=\"111.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">?</text></svg></span><p>Vad är bilen värd efter 3 år? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[240\\,000\\cdot0{,}85^3=147\\,390\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 147 390 kr.</p></div>",
+    "familj": "Från genomsnitt till total förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En minskning med 15 % ger förändringsfaktorn 0,85 varje år.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 147390,
+    "tolerans": 1,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "3.607",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett hus ökade i värde med 12 % det första året och med 4 % det andra året.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"250\" viewBox=\"0 0 230 250\" role=\"img\" aria-label=\"Stapeldiagram över ökningen: 12 % år 1 och 4 % år 2.\"><title>Stapeldiagram över ökningen: 12 % år 1 och 4 % år 2.</title><rect x=\"1\" y=\"1\" width=\"228\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"210.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">ökning (%)</text><rect x=\"85\" y=\"64.3\" width=\"40\" height=\"145.7\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">år 1</text><rect x=\"81.5\" y=\"44.3\" width=\"47.0\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"56.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">+12 %</text><rect x=\"155\" y=\"161.4\" width=\"40\" height=\"48.6\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">år 2</text><rect x=\"155.4\" y=\"141.4\" width=\"39.2\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"175.0\" y=\"153.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">+4 %</text></svg></span><p>Hur stor var den genomsnittliga årliga ökningen? (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^2=1{,}12\\cdot1{,}04=1{,}1648\\]</div></li><li><div class=\"facit-matte\">\\[q=\\sqrt{1{,}1648}\\approx1{,}0793\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 7,9 % per år, alltså inte 8 %.</p></div>",
+    "familj": "Genomsnittlig förändring i problem",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Multiplicera förändringsfaktorerna och leta upp den faktor som ger samma resultat om den används två gånger.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 7.9259,
+    "tolerans": 0.06
+  },
+  {
+    "id": "3.608",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett pris ökade med 20 % ett år och minskade med 20 % året därpå. Sara säger att den genomsnittliga förändringen är 0 % per år.</p><p>Vilket påstående stämmer?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}20\\cdot0{,}80=0{,}96\\]</div></li><li><p>Priset har minskat totalt, så den genomsnittliga förändringen är negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Priset minskade i genomsnitt.</p></div>",
+    "familj": "Genomsnittlig förändring i problem",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera förändringsfaktorerna i stället för att addera procenten.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Priset minskade i genomsnitt, eftersom 1,2 · 0,8 = 0,96",
+        "ratt": true
+      },
+      {
+        "txt": "Sara har rätt, +20 % och −20 % tar ut varandra",
+        "ratt": false,
+        "kommentar": "Procenten räknas på olika belopp."
+      },
+      {
+        "txt": "Priset ökade i genomsnitt",
+        "ratt": false,
+        "kommentar": "Totala faktorn är mindre än 1."
+      }
+    ]
+  },
+  {
+    "id": "3.609",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tabellen visar hur många som följer ett konto i sociala medier. Antalet ökade med samma procent varje månad.</p><table class=\"data\"><tbody><tr><th>Månad</th><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><th>Följare</th><td>512</td><td>640</td><td>800</td><td>1 000</td></tr></tbody></table><p>Bestäm förändringsfaktorn per månad. (Svara i decimalform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{640}{512}=1{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,25</p></div>",
+    "familj": "Beräkna genomsnittlig procentuell förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dela antalet en månad med antalet månaden innan.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1.25,
+    "tolerans": 0.001
+  },
+  {
+    "id": "3.610",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/1",
+    "t": "<p>En aktie föll med 20 % under ett år. Under de två följande åren steg den med samma procent varje år och var då tillbaka på sitt ursprungliga värde.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Linjediagram: aktien går från 100 till 80 efter ett år och tillbaka till 100 efter tre år.\"><title>Linjediagram: aktien går från 100 till 80 efter ett år och tillbaka till 100 efter tre år.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"372.0\" y2=\"225.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">70</text><line x1=\"62.0\" y1=\"178.8\" x2=\"372.0\" y2=\"178.8\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"182.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">80</text><line x1=\"62.0\" y1=\"132.5\" x2=\"372.0\" y2=\"132.5\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"136.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">90</text><line x1=\"62.0\" y1=\"86.2\" x2=\"372.0\" y2=\"86.2\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"90.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">100</text><line x1=\"62.0\" y1=\"40.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">110</text><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"62.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"165.3\" y1=\"225.0\" x2=\"165.3\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"165.3\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"268.7\" y1=\"225.0\" x2=\"268.7\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"268.7\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"372.0\" y1=\"225.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"372.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"62.0\" y1=\"225.0\" x2=\"380.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"32.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><polyline points=\"62.0,86.2 165.3,178.8 268.7,135.3 372.0,86.2\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"2.6\"/><circle cx=\"62.0\" cy=\"86.2\" r=\"4.5\" fill=\"#2f7d4a\"/><rect x=\"66.0\" y=\"65.2\" width=\"29.6\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"70.0\" y=\"76.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">100</text><circle cx=\"165.3\" cy=\"178.8\" r=\"4.5\" fill=\"#2f7d4a\"/><rect x=\"154.1\" y=\"189.8\" width=\"22.4\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"165.3\" y=\"200.8\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">80</text><circle cx=\"268.7\" cy=\"135.3\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"372.0\" cy=\"86.2\" r=\"4.5\" fill=\"#2f7d4a\"/><rect x=\"338.4\" y=\"65.2\" width=\"29.6\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"364.0\" y=\"76.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">100</text><text x=\"372.0\" y=\"261.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">år</text><text x=\"58.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">värde (%)</text></svg></span><p>Hur stor var den årliga ökningen under de två sista åren? (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}8\\cdot q^2=1\\]</div></li><li><div class=\"facit-matte\">\\[q^2=1{,}25\\]</div></li><li><div class=\"facit-matte\">\\[q=\\sqrt{1{,}25}\\approx1{,}118\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 11,8 % per år.</p></div>",
+    "familj": "Genomsnittlig förändring i problem",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ställ upp en ekvation: efter minskningen ska två lika stora ökningar ge tillbaka startvärdet.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 11.8034,
+    "tolerans": 0.06
+  },
+  {
+    "id": "3.611",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Mängden av ett läkemedel i blodet minskar med samma procent varje timme. Diagrammet visar mängden.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Linjediagram: 400 mg vid 0 timmar och 225 mg efter 2 timmar.\"><title>Linjediagram: 400 mg vid 0 timmar och 225 mg efter 2 timmar.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"372.0\" y2=\"225.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"62.0\" y1=\"204.4\" x2=\"372.0\" y2=\"204.4\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"208.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">50</text><line x1=\"62.0\" y1=\"183.9\" x2=\"372.0\" y2=\"183.9\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"187.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">100</text><line x1=\"62.0\" y1=\"163.3\" x2=\"372.0\" y2=\"163.3\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"167.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">150</text><line x1=\"62.0\" y1=\"142.8\" x2=\"372.0\" y2=\"142.8\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"146.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">200</text><line x1=\"62.0\" y1=\"122.2\" x2=\"372.0\" y2=\"122.2\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"126.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">250</text><line x1=\"62.0\" y1=\"101.7\" x2=\"372.0\" y2=\"101.7\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"105.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">300</text><line x1=\"62.0\" y1=\"81.1\" x2=\"372.0\" y2=\"81.1\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"85.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">350</text><line x1=\"62.0\" y1=\"60.6\" x2=\"372.0\" y2=\"60.6\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"64.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">400</text><line x1=\"62.0\" y1=\"40.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">450</text><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"62.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"217.0\" y1=\"225.0\" x2=\"217.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"217.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"372.0\" y1=\"225.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"372.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"62.0\" y1=\"225.0\" x2=\"380.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"32.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><polyline points=\"62.0,60.6 217.0,101.7 372.0,132.5\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><circle cx=\"62.0\" cy=\"60.6\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"66.0\" y=\"39.6\" width=\"29.6\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"70.0\" y=\"50.6\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">400</text><circle cx=\"217.0\" cy=\"101.7\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"372.0\" cy=\"132.5\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"338.4\" y=\"143.5\" width=\"29.6\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"364.0\" y=\"154.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">225</text><text x=\"372.0\" y=\"261.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">timmar</text><text x=\"58.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">mängd (mg)</text></svg></span><p>Med hur många procent minskar mängden per timme?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^2=\\frac{225}{400}=0{,}5625\\]</div></li><li><div class=\"facit-matte\">\\[q=0{,}75\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25 % per timme.</p></div>",
+    "familj": "Beräkna genomsnittlig procentuell förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bestäm förändringsfaktorn för två timmar och dra roten ur.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 25,
+    "tolerans": 0.05
+  },
+  {
+    "id": "3.612",
+    "kap": 3,
+    "omr": "genomsnittlig_forandring",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lönerna i ett yrke ökade från 26 000 kr till 31 000 kr per månad på sex år.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"250\" viewBox=\"0 0 230 250\" role=\"img\" aria-label=\"Stapeldiagram: lönen var 26 000 kr år 2018 och 31 000 kr år 2024.\"><title>Stapeldiagram: lönen var 26 000 kr år 2018 och 31 000 kr år 2024.</title><rect x=\"1\" y=\"1\" width=\"228\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"210.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">lön (kr/mån)</text><rect x=\"85\" y=\"86.0\" width=\"40\" height=\"124.0\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2018</text><rect x=\"77.6\" y=\"66.0\" width=\"54.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"78.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">26 000</text><rect x=\"155\" y=\"62.2\" width=\"40\" height=\"147.8\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2024</text><rect x=\"147.6\" y=\"42.2\" width=\"54.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"175.0\" y=\"54.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">31 000</text></svg></span><p>Hur stor var den genomsnittliga årliga ökningen? (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[q^6=\\frac{31\\,000}{26\\,000}\\approx1{,}1923\\]</div></li><li><div class=\"facit-matte\">\\[q=1{,}1923^{1/6}\\approx1{,}0298\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3,0 % per år.</p></div>",
+    "familj": "Beräkna genomsnittlig procentuell förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Mellan 2018 och 2024 går det sex år.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 2.9749,
+    "tolerans": 0.06
+  },
+  {
+    "id": "0.1200",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En paj är delad i 8 lika stora bitar. De färgade bitarna har ätits upp.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"220\" height=\"200\" viewBox=\"0 0 220 200\" role=\"img\" aria-label=\"Cirkel delad i 8 lika stora sektorer, varav 5 är färgade.\"><title>Cirkel delad i 8 lika stora sektorer, varav 5 är färgade.</title><rect x=\"1\" y=\"1\" width=\"218\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"110.0,100.0 110.0,30.0 114.6,30.1 119.1,30.6 123.7,31.3 128.1,32.4 132.5,33.7 136.8,35.3 141.0,37.2 145.0,39.4 148.9,41.8 152.6,44.5 156.2,47.4 159.5,50.5\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 159.5,50.5 162.6,53.8 165.5,57.4 168.2,61.1 170.6,65.0 172.8,69.0 174.7,73.2 176.3,77.5 177.6,81.9 178.7,86.3 179.4,90.9 179.9,95.4 180.0,100.0\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 180.0,100.0 179.9,104.6 179.4,109.1 178.7,113.7 177.6,118.1 176.3,122.5 174.7,126.8 172.8,131.0 170.6,135.0 168.2,138.9 165.5,142.6 162.6,146.2 159.5,149.5\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 159.5,149.5 156.2,152.6 152.6,155.5 148.9,158.2 145.0,160.6 141.0,162.8 136.8,164.7 132.5,166.3 128.1,167.6 123.7,168.7 119.1,169.4 114.6,169.9 110.0,170.0\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 110.0,170.0 105.4,169.9 100.9,169.4 96.3,168.7 91.9,167.6 87.5,166.3 83.2,164.7 79.0,162.8 75.0,160.6 71.1,158.2 67.4,155.5 63.8,152.6 60.5,149.5\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 60.5,149.5 57.4,146.2 54.5,142.6 51.8,138.9 49.4,135.0 47.2,131.0 45.3,126.8 43.7,122.5 42.4,118.1 41.3,113.7 40.6,109.1 40.1,104.6 40.0,100.0\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 40.0,100.0 40.1,95.4 40.6,90.9 41.3,86.3 42.4,81.9 43.7,77.5 45.3,73.2 47.2,69.0 49.4,65.0 51.8,61.1 54.5,57.4 57.4,53.8 60.5,50.5\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 60.5,50.5 63.8,47.4 67.4,44.5 71.1,41.8 75.0,39.4 79.0,37.2 83.2,35.3 87.5,33.7 91.9,32.4 96.3,31.3 100.9,30.6 105.4,30.1 110.0,30.0\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg></span><p>Hur stor del av pajen har ätits upp? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>5 av 8 lika stora bitar är färgade.</p></li><li><div class=\"facit-matte\">\\[\\frac58\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac58\\)</p></div>",
+    "familj": "Bråk som del av en helhet",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna de färgade bitarna och alla bitar.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "5/8",
+    "tolerans": null
+  },
+  {
+    "id": "0.1201",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Rektangeln är indelad i lika stora rutor.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"196\" viewBox=\"0 0 230 196\" role=\"img\" aria-label=\"Rektangel med 4 gånger 5 rutor, varav 6 är färgade.\"><title>Rektangel med 4 gånger 5 rutor, varav 6 är färgade.</title><rect x=\"1\" y=\"1\" width=\"228\" height=\"194\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"30\" width=\"34\" height=\"34\" fill=\"#cfe0f6\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"64\" y=\"30\" width=\"34\" height=\"34\" fill=\"#cfe0f6\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"98\" y=\"30\" width=\"34\" height=\"34\" fill=\"#cfe0f6\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"132\" y=\"30\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"166\" y=\"30\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"64\" width=\"34\" height=\"34\" fill=\"#cfe0f6\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"64\" y=\"64\" width=\"34\" height=\"34\" fill=\"#cfe0f6\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"98\" y=\"64\" width=\"34\" height=\"34\" fill=\"#cfe0f6\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"132\" y=\"64\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"166\" y=\"64\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"98\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"64\" y=\"98\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"98\" y=\"98\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"132\" y=\"98\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"166\" y=\"98\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"132\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"64\" y=\"132\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"98\" y=\"132\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"132\" y=\"132\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"166\" y=\"132\" width=\"34\" height=\"34\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/></svg></span><p>Hur stor del av rektangeln är färgad? (Svara i enklaste bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac6{20}=\\frac3{10}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac3{10}\\)</p></div>",
+    "familj": "Bråk som del av en helhet",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna färgade rutor och alla rutor. Förkorta sedan bråket.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "3/10",
+    "tolerans": null
+  },
+  {
+    "id": "0.1202",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tallinjen är delad i lika stora delar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"120\" viewBox=\"0 0 420 120\" role=\"img\" aria-label=\"Tallinje från 0 till 2 där varje heltal är delat i fem delar. Punkten P ligger på den andra markeringen efter 1.\"><title>Tallinje från 0 till 2 där varje heltal är delat i fem delar. Punkten P ligger på den andra markeringen efter 1.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"118\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"70.0\" x2=\"394.0\" y2=\"70.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M400 70 l-10 -5 v10 z\" fill=\"#172b3a\"/><line x1=\"40.0\" y1=\"60.0\" x2=\"40.0\" y2=\"80.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"40.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"74.0\" y1=\"64.0\" x2=\"74.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"108.0\" y1=\"64.0\" x2=\"108.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"142.0\" y1=\"64.0\" x2=\"142.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"176.0\" y1=\"64.0\" x2=\"176.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"210.0\" y1=\"60.0\" x2=\"210.0\" y2=\"80.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"210.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"244.0\" y1=\"64.0\" x2=\"244.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"278.0\" y1=\"64.0\" x2=\"278.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"312.0\" y1=\"64.0\" x2=\"312.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"346.0\" y1=\"64.0\" x2=\"346.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"380.0\" y1=\"60.0\" x2=\"380.0\" y2=\"80.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"380.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><circle cx=\"278.0\" cy=\"70\" r=\"6\" fill=\"#c2410c\"/><text x=\"278.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">P</text></svg></span><p>Vilket tal markerar P? (Svara i decimalform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje del är \\(\\frac15=0{,}2\\). P ligger två delar efter 1.</p></li><li><div class=\"facit-matte\">\\[1+2\\cdot0{,}2=1{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,4</p></div>",
+    "familj": "Bråkform, blandad form och decimalform",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många delar är det mellan 0 och 1? Hur stor är varje del?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1.4,
+    "tolerans": 1e-09
+  },
+  {
+    "id": "0.1203",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En pizza är delad i 12 lika stora bitar. Efter middagen finns de bitar kvar som visas i figuren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"220\" height=\"200\" viewBox=\"0 0 220 200\" role=\"img\" aria-label=\"Cirkel delad i 12 lika stora sektorer, varav 3 är färgade och finns kvar.\"><title>Cirkel delad i 12 lika stora sektorer, varav 3 är färgade och finns kvar.</title><rect x=\"1\" y=\"1\" width=\"218\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"110.0,100.0 110.0,30.0 113.1,30.1 116.1,30.3 119.1,30.6 122.2,31.1 125.2,31.7 128.1,32.4 131.0,33.2 133.9,34.2 136.8,35.3 139.6,36.6 142.3,37.9 145.0,39.4\" fill=\"#cde8d3\" stroke=\"#2f7d4a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 145.0,39.4 147.6,41.0 150.2,42.7 152.6,44.5 155.0,46.4 157.3,48.4 159.5,50.5 161.6,52.7 163.6,55.0 165.5,57.4 167.3,59.8 169.0,62.4 170.6,65.0\" fill=\"#cde8d3\" stroke=\"#2f7d4a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 170.6,65.0 172.1,67.7 173.4,70.4 174.7,73.2 175.8,76.1 176.8,79.0 177.6,81.9 178.3,84.8 178.9,87.8 179.4,90.9 179.7,93.9 179.9,96.9 180.0,100.0\" fill=\"#cde8d3\" stroke=\"#2f7d4a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 180.0,100.0 179.9,103.1 179.7,106.1 179.4,109.1 178.9,112.2 178.3,115.2 177.6,118.1 176.8,121.0 175.8,123.9 174.7,126.8 173.4,129.6 172.1,132.3 170.6,135.0\" fill=\"#fff\" stroke=\"#2f7d4a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 170.6,135.0 169.0,137.6 167.3,140.2 165.5,142.6 163.6,145.0 161.6,147.3 159.5,149.5 157.3,151.6 155.0,153.6 152.6,155.5 150.2,157.3 147.6,159.0 145.0,160.6\" fill=\"#fff\" stroke=\"#2f7d4a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 145.0,160.6 142.3,162.1 139.6,163.4 136.8,164.7 133.9,165.8 131.0,166.8 128.1,167.6 125.2,168.3 122.2,168.9 119.1,169.4 116.1,169.7 113.1,169.9 110.0,170.0\" fill=\"#fff\" stroke=\"#2f7d4a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 110.0,170.0 106.9,169.9 103.9,169.7 100.9,169.4 97.8,168.9 94.8,168.3 91.9,167.6 89.0,166.8 86.1,165.8 83.2,164.7 80.4,163.4 77.7,162.1 75.0,160.6\" fill=\"#fff\" stroke=\"#2f7d4a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 75.0,160.6 72.4,159.0 69.8,157.3 67.4,155.5 65.0,153.6 62.7,151.6 60.5,149.5 58.4,147.3 56.4,145.0 54.5,142.6 52.7,140.2 51.0,137.6 49.4,135.0\" fill=\"#fff\" stroke=\"#2f7d4a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 49.4,135.0 47.9,132.3 46.6,129.6 45.3,126.8 44.2,123.9 43.2,121.0 42.4,118.1 41.7,115.2 41.1,112.2 40.6,109.1 40.3,106.1 40.1,103.1 40.0,100.0\" fill=\"#fff\" stroke=\"#2f7d4a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 40.0,100.0 40.1,96.9 40.3,93.9 40.6,90.9 41.1,87.8 41.7,84.8 42.4,81.9 43.2,79.0 44.2,76.1 45.3,73.2 46.6,70.4 47.9,67.7 49.4,65.0\" fill=\"#fff\" stroke=\"#2f7d4a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 49.4,65.0 51.0,62.4 52.7,59.8 54.5,57.4 56.4,55.0 58.4,52.7 60.5,50.5 62.7,48.4 65.0,46.4 67.4,44.5 69.8,42.7 72.4,41.0 75.0,39.4\" fill=\"#fff\" stroke=\"#2f7d4a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"110.0,100.0 75.0,39.4 77.7,37.9 80.4,36.6 83.2,35.3 86.1,34.2 89.0,33.2 91.9,32.4 94.8,31.7 97.8,31.1 100.9,30.6 103.9,30.3 106.9,30.1 110.0,30.0\" fill=\"#fff\" stroke=\"#2f7d4a\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg></span><p>Hur stor del av pizzan har ätits? (Svara i enklaste bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>9 av 12 bitar har ätits.</p></li><li><div class=\"facit-matte\">\\[\\frac9{12}=\\frac34\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac34\\)</p></div>",
+    "familj": "Bråk som del av en helhet",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>De färgade bitarna finns kvar. Hur många är uppätna?</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "3/4",
+    "tolerans": null
+  },
+  {
+    "id": "0.1204",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Figuren visar hela pajer och en del av en paj. Alla pajer är lika stora.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"160\" viewBox=\"0 0 380 160\" role=\"img\" aria-label=\"Två hela pajer och tre fjärdedelar av en tredje paj.\"><title>Två hela pajer och tre fjärdedelar av en tredje paj.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70.0,80.0 70.0,30.0 76.5,30.4 82.9,31.7 89.1,33.8 95.0,36.7 100.4,40.3 105.4,44.6 109.7,49.6 113.3,55.0 116.2,60.9 118.3,67.1 119.6,73.5 120.0,80.0\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"70.0,80.0 120.0,80.0 119.6,86.5 118.3,92.9 116.2,99.1 113.3,105.0 109.7,110.4 105.4,115.4 100.4,119.7 95.0,123.3 89.1,126.2 82.9,128.3 76.5,129.6 70.0,130.0\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"70.0,80.0 70.0,130.0 63.5,129.6 57.1,128.3 50.9,126.2 45.0,123.3 39.6,119.7 34.6,115.4 30.3,110.4 26.7,105.0 23.8,99.1 21.7,92.9 20.4,86.5 20.0,80.0\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"70.0,80.0 20.0,80.0 20.4,73.5 21.7,67.1 23.8,60.9 26.7,55.0 30.3,49.6 34.6,44.6 39.6,40.3 45.0,36.7 50.9,33.8 57.1,31.7 63.5,30.4 70.0,30.0\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"190.0,80.0 190.0,30.0 196.5,30.4 202.9,31.7 209.1,33.8 215.0,36.7 220.4,40.3 225.4,44.6 229.7,49.6 233.3,55.0 236.2,60.9 238.3,67.1 239.6,73.5 240.0,80.0\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"190.0,80.0 240.0,80.0 239.6,86.5 238.3,92.9 236.2,99.1 233.3,105.0 229.7,110.4 225.4,115.4 220.4,119.7 215.0,123.3 209.1,126.2 202.9,128.3 196.5,129.6 190.0,130.0\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"190.0,80.0 190.0,130.0 183.5,129.6 177.1,128.3 170.9,126.2 165.0,123.3 159.6,119.7 154.6,115.4 150.3,110.4 146.7,105.0 143.8,99.1 141.7,92.9 140.4,86.5 140.0,80.0\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"190.0,80.0 140.0,80.0 140.4,73.5 141.7,67.1 143.8,60.9 146.7,55.0 150.3,49.6 154.6,44.6 159.6,40.3 165.0,36.7 170.9,33.8 177.1,31.7 183.5,30.4 190.0,30.0\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"310.0,80.0 310.0,30.0 316.5,30.4 322.9,31.7 329.1,33.8 335.0,36.7 340.4,40.3 345.4,44.6 349.7,49.6 353.3,55.0 356.2,60.9 358.3,67.1 359.6,73.5 360.0,80.0\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"310.0,80.0 360.0,80.0 359.6,86.5 358.3,92.9 356.2,99.1 353.3,105.0 349.7,110.4 345.4,115.4 340.4,119.7 335.0,123.3 329.1,126.2 322.9,128.3 316.5,129.6 310.0,130.0\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"310.0,80.0 310.0,130.0 303.5,129.6 297.1,128.3 290.9,126.2 285.0,123.3 279.6,119.7 274.6,115.4 270.3,110.4 266.7,105.0 263.8,99.1 261.7,92.9 260.4,86.5 260.0,80.0\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"310.0,80.0 260.0,80.0 260.4,73.5 261.7,67.1 263.8,60.9 266.7,55.0 270.3,49.6 274.6,44.6 279.6,40.3 285.0,36.7 290.9,33.8 297.1,31.7 303.5,30.4 310.0,30.0\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg></span><p>Hur många pajer är det? Skriv svaret i bråkform.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\frac34=\\frac{8}{4}+\\frac34=\\frac{11}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{11}4\\)</p></div>",
+    "familj": "Bråkform, blandad form och decimalform",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många fjärdedelar finns det sammanlagt?</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "11/4",
+    "tolerans": null
+  },
+  {
+    "id": "0.1205",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två lika långa stänger är delade i lika stora delar. Den färgade delen visar \\(\\frac35\\) respektive \\(\\frac58\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"160\" viewBox=\"0 0 400 160\" role=\"img\" aria-label=\"Två lika långa stänger: A är delad i 5 delar med 3 färgade, B är delad i 8 delar med 5 färgade.\"><title>Två lika långa stänger: A är delad i 5 delar med 3 färgade, B är delad i 8 delar med 5 färgade.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"40\" width=\"64\" height=\"30\" fill=\"#cfe0f6\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"104\" y=\"40\" width=\"64\" height=\"30\" fill=\"#cfe0f6\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"168\" y=\"40\" width=\"64\" height=\"30\" fill=\"#cfe0f6\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"232\" y=\"40\" width=\"64\" height=\"30\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"296\" y=\"40\" width=\"64\" height=\"30\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"1.6\"/><rect x=\"40\" y=\"100\" width=\"40\" height=\"30\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><rect x=\"80\" y=\"100\" width=\"40\" height=\"30\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><rect x=\"120\" y=\"100\" width=\"40\" height=\"30\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><rect x=\"160\" y=\"100\" width=\"40\" height=\"30\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><rect x=\"200\" y=\"100\" width=\"40\" height=\"30\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><rect x=\"240\" y=\"100\" width=\"40\" height=\"30\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><rect x=\"280\" y=\"100\" width=\"40\" height=\"30\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><rect x=\"320\" y=\"100\" width=\"40\" height=\"30\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><text x=\"30.0\" y=\"61.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#2f6fca\" font-weight=\"bold\">A</text><text x=\"30.0\" y=\"121.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">B</text></svg></span><p>Vilket bråk är störst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac35=\\frac{24}{40},\\quad \\frac58=\\frac{25}{40}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac58\\) är störst.</p></div>",
+    "familj": "Jämföra och ordna bråk",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Jämför de färgade delarnas längd, eller skriv bråken med samma nämnare.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "5/8",
+        "ratt": true
+      },
+      {
+        "txt": "3/5",
+        "ratt": false,
+        "kommentar": "Gör om till fyrtiondelar: 24/40 mot 25/40."
+      },
+      {
+        "txt": "De är lika stora",
+        "ratt": false,
+        "kommentar": "Figuren visar en liten skillnad."
+      }
+    ]
+  },
+  {
+    "id": "0.1206",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en klass med 25 elever cyklar \\(\\frac35\\) till skolan. Hur många elever cyklar? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{25}{5}=5\\]</div></li><li><div class=\"facit-matte\">\\[3\\cdot5=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 elever.</p></div>",
+    "familj": "Bråk som del av en helhet",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många elever är en femtedel av klassen?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 0
+  },
+  {
+    "id": "0.1207",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>På en skylt står det att 0,65 av alla besökare kommer med buss. Skriv andelen som ett bråk i enklaste form.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}65=\\frac{65}{100}=\\frac{13}{20}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{13}{20}\\)</p></div>",
+    "familj": "Bråkform, blandad form och decimalform",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>0,65 är 65 hundradelar. Förkorta sedan.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "13/20",
+    "tolerans": null
+  },
+  {
+    "id": "0.1208",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>På tallinjen är fyra punkter markerade.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"120\" viewBox=\"0 0 420 120\" role=\"img\" aria-label=\"Tallinje från 0 till 1 delad i tolv delar med punkterna A, B, C och D.\"><title>Tallinje från 0 till 1 delad i tolv delar med punkterna A, B, C och D.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"118\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"70.0\" x2=\"394.0\" y2=\"70.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M400 70 l-10 -5 v10 z\" fill=\"#172b3a\"/><line x1=\"40.0\" y1=\"60.0\" x2=\"40.0\" y2=\"80.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"40.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><line x1=\"68.3\" y1=\"64.0\" x2=\"68.3\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"96.7\" y1=\"64.0\" x2=\"96.7\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"125.0\" y1=\"64.0\" x2=\"125.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"153.3\" y1=\"64.0\" x2=\"153.3\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"181.7\" y1=\"64.0\" x2=\"181.7\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"210.0\" y1=\"64.0\" x2=\"210.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"238.3\" y1=\"64.0\" x2=\"238.3\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"266.7\" y1=\"64.0\" x2=\"266.7\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"295.0\" y1=\"64.0\" x2=\"295.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"323.3\" y1=\"64.0\" x2=\"323.3\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"351.7\" y1=\"64.0\" x2=\"351.7\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"380.0\" y1=\"60.0\" x2=\"380.0\" y2=\"80.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"380.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><circle cx=\"125.0\" cy=\"70\" r=\"6\" fill=\"#2f6fca\"/><text x=\"125.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">A</text><circle cx=\"210.0\" cy=\"70\" r=\"6\" fill=\"#2f6fca\"/><text x=\"210.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">B</text><circle cx=\"266.7\" cy=\"70\" r=\"6\" fill=\"#2f6fca\"/><text x=\"266.7\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">C</text><circle cx=\"295.0\" cy=\"70\" r=\"6\" fill=\"#2f6fca\"/><text x=\"295.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">D</text></svg></span><p>Vilken punkt markerar \\(\\frac23\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac23=\\frac8{12}\\]</div></li><li><p>C ligger på den åttonde markeringen av tolv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C</p></div>",
+    "familj": "Jämföra och ordna bråk",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Skriv \\(\\frac23\\) med nämnaren 12.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "C",
+        "ratt": true
+      },
+      {
+        "txt": "D",
+        "ratt": false,
+        "kommentar": "D är 9/12 = 3/4."
+      },
+      {
+        "txt": "B",
+        "ratt": false,
+        "kommentar": "B är 6/12 = 1/2."
+      },
+      {
+        "txt": "A",
+        "ratt": false,
+        "kommentar": "A är 3/12 = 1/4."
+      }
+    ]
+  },
+  {
+    "id": "0.1209",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Fyll i det som saknas: \\(\\frac46=\\frac{\\square}{15}\\). (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac46=\\frac23=\\frac{10}{15}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
+    "familj": "Bråkform, blandad form och decimalform",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Förkorta först \\(\\frac46\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0
+  },
+  {
+    "id": "0.1210",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En chokladkaka har 18 rutor. Lina äter \\(\\frac13\\) av kakan. Omar äter sedan en tredjedel av det som finns kvar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"264\" height=\"162\" viewBox=\"0 0 264 162\" role=\"img\" aria-label=\"Chokladkaka med 3 gånger 6 rutor.\"><title>Chokladkaka med 3 gånger 6 rutor.</title><rect x=\"1\" y=\"1\" width=\"262\" height=\"160\" rx=\"10\" fill=\"#e8d3bf\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"30\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"64\" y=\"30\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"98\" y=\"30\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"132\" y=\"30\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"166\" y=\"30\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"200\" y=\"30\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"64\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"64\" y=\"64\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"98\" y=\"64\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"132\" y=\"64\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"166\" y=\"64\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"200\" y=\"64\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"30\" y=\"98\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"64\" y=\"98\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"98\" y=\"98\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"132\" y=\"98\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"166\" y=\"98\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/><rect x=\"200\" y=\"98\" width=\"34\" height=\"34\" fill=\"#e8d3bf\" stroke=\"#7a4b2a\" stroke-width=\"1.6\"/></svg></span><p>Hur stor del av hela kakan finns kvar till sist? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lina äter \\(18\\cdot\\frac13=6\\) rutor, så 12 finns kvar.</p></li><li><p>Omar äter en tredjedel av 12, alltså 4 rutor. Då finns 8 rutor kvar.</p></li><li><div class=\"facit-matte\">\\[\\frac8{18}=\\frac49\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac49\\) av kakan.</p></div>",
+    "familj": "Bråk som del av en helhet",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna i rutor: hur många äter Lina, och hur många äter Omar? Omar räknar på det som är kvar, inte på hela kakan.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "4/9",
+    "tolerans": null
+  },
+  {
+    "id": "0.1211",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En vattentank är fylld till \\(\\frac25\\). Då innehåller den 18 liter.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"230\" viewBox=\"0 0 320 230\" role=\"img\" aria-label=\"Tank delad i fem lika delar, där de två nedersta är fyllda med vatten. Vattnet är 18 liter.\"><title>Tank delad i fem lika delar, där de två nedersta är fyllda med vatten. Vattnet är 18 liter.</title><rect x=\"1\" y=\"1\" width=\"318\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"80\" y=\"30\" width=\"120\" height=\"34\" fill=\"#fff\" stroke=\"#5a9bd0\" stroke-width=\"1.5\"/><rect x=\"80\" y=\"64\" width=\"120\" height=\"34\" fill=\"#fff\" stroke=\"#5a9bd0\" stroke-width=\"1.5\"/><rect x=\"80\" y=\"98\" width=\"120\" height=\"34\" fill=\"#fff\" stroke=\"#5a9bd0\" stroke-width=\"1.5\"/><rect x=\"80\" y=\"132\" width=\"120\" height=\"34\" fill=\"#cfe6f7\" stroke=\"#5a9bd0\" stroke-width=\"1.5\"/><rect x=\"80\" y=\"166\" width=\"120\" height=\"34\" fill=\"#cfe6f7\" stroke=\"#5a9bd0\" stroke-width=\"1.5\"/><rect x=\"80\" y=\"30\" width=\"120\" height=\"170\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><rect x=\"212.4\" y=\"142.0\" width=\"75.2\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"250.0\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2f6fa0\" font-weight=\"bold\">18 liter</text></svg></span><p>Hur många liter rymmer tanken när den är full? (Svara i liter.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Två femtedelar är 18 liter, så en femtedel är 9 liter.</p></li><li><div class=\"facit-matte\">\\[5\\cdot9=45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 45 liter.</p></div>",
+    "familj": "Bråk som del av en helhet",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur många liter är en femtedel?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 45,
+    "tolerans": 0,
+    "svarEnhet": "liter"
+  },
+  {
+    "id": "0.1212",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Den stora triangeln är delad i lika stora trianglar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"220\" viewBox=\"0 0 320 220\" role=\"img\" aria-label=\"Stor triangel delad i fyra lika stora trianglar. Den mittersta, upp och ned vända triangeln är färgad.\"><title>Stor triangel delad i fyra lika stora trianglar. Den mittersta, upp och ned vända triangeln är färgad.</title><rect x=\"1\" y=\"1\" width=\"318\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40,190 280,190 160,30\" fill=\"#fff\" stroke=\"#172b3a\" stroke-width=\"2\"/><polygon points=\"100,110 220,110 160,190\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\"/><polygon points=\"40,190 100,110 160,190\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><polygon points=\"160,190 220,110 280,190\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/></svg></span><p>Hur stor del av den stora triangeln är färgad? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den stora triangeln består av 4 lika stora trianglar, och 1 är färgad.</p></li><li><div class=\"facit-matte\">\\[\\frac14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac14\\)</p></div>",
+    "familj": "Bråk som del av en helhet",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många lika stora trianglar finns det?</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "1/4",
+    "tolerans": null
+  },
+  {
+    "id": "0.1213",
+    "kap": 0,
+    "omr": "brakform",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skriv \\(\\frac38\\) i procent.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac38=0{,}375=37{,}5\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 37,5 %</p></div>",
+    "familj": "Bråkform, blandad form och decimalform",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dela 3 med 8.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 37.5,
+    "tolerans": 0.01
+  },
+  {
+    "id": "4.750",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kvadratisk sandlåda har arean 64 m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"270\" height=\"235\" viewBox=\"0 0 270 235\" role=\"img\" aria-label=\"Kvadrat med arean 64 m² och okänd sida s.\"><title>Kvadrat med arean 64 m² och okänd sida s.</title><rect x=\"1\" y=\"1\" width=\"268\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"30\" width=\"150\" height=\"150\" fill=\"#f3e6c8\" stroke=\"#9a7b4f\" stroke-width=\"2.5\"/><rect x=\"87.8\" y=\"97.0\" width=\"94.4\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#9a7b4f\" font-weight=\"bold\">A = 64 m²</text><line x1=\"60.0\" y1=\"196.0\" x2=\"210.0\" y2=\"196.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"191.0\" x2=\"60.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"191.0\" x2=\"210.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"110.0\" y=\"203.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"216.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">s = ?</text></svg></span><p>Hur lång är en sida? (Svara i m.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\sqrt{64}=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 m.</p></div>",
+    "familj": "Kvadratrötter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilket tal gånger sig självt blir 64?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.751",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>På tallinjen är fyra punkter markerade.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"120\" viewBox=\"0 0 420 120\" role=\"img\" aria-label=\"Tallinje från 4 till 7 med punkterna A vid 5,2, B vid 5,6, C vid 6 och D vid 6,4.\"><title>Tallinje från 4 till 7 med punkterna A vid 5,2, B vid 5,6, C vid 6 och D vid 6,4.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"118\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"70.0\" x2=\"394.0\" y2=\"70.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M400 70 l-10 -5 v10 z\" fill=\"#172b3a\"/><line x1=\"40.0\" y1=\"60.0\" x2=\"40.0\" y2=\"80.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"40.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"62.7\" y1=\"64.0\" x2=\"62.7\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"85.3\" y1=\"64.0\" x2=\"85.3\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"108.0\" y1=\"64.0\" x2=\"108.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"130.7\" y1=\"64.0\" x2=\"130.7\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"153.3\" y1=\"60.0\" x2=\"153.3\" y2=\"80.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"153.3\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"176.0\" y1=\"64.0\" x2=\"176.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"198.7\" y1=\"64.0\" x2=\"198.7\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"221.3\" y1=\"64.0\" x2=\"221.3\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"244.0\" y1=\"64.0\" x2=\"244.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"266.7\" y1=\"60.0\" x2=\"266.7\" y2=\"80.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"266.7\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"289.3\" y1=\"64.0\" x2=\"289.3\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"312.0\" y1=\"64.0\" x2=\"312.0\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"334.7\" y1=\"64.0\" x2=\"334.7\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"357.3\" y1=\"64.0\" x2=\"357.3\" y2=\"76.0\" stroke=\"#172b3a\" stroke-width=\"1.4\"/><line x1=\"380.0\" y1=\"60.0\" x2=\"380.0\" y2=\"80.0\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"380.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">7</text><circle cx=\"176.0\" cy=\"70\" r=\"6\" fill=\"#2f6fca\"/><text x=\"176.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">A</text><circle cx=\"221.3\" cy=\"70\" r=\"6\" fill=\"#2f6fca\"/><text x=\"221.3\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">B</text><circle cx=\"266.7\" cy=\"70\" r=\"6\" fill=\"#2f6fca\"/><text x=\"266.7\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">C</text><circle cx=\"312.0\" cy=\"70\" r=\"6\" fill=\"#2f6fca\"/><text x=\"312.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">D</text></svg></span><p>Vilken punkt ligger närmast \\(\\sqrt{30}\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(5^2=25\\) och \\(6^2=36\\), så \\(\\sqrt{30}\\) ligger mellan 5 och 6.</p></li><li><div class=\"facit-matte\">\\[\\sqrt{30}\\approx5{,}48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B</p></div>",
+    "familj": "Kvadratrötter",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilka kvadrattal ligger närmast 30?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "B",
+        "ratt": true,
+        "kommentar": "√30 ≈ 5,48."
+      },
+      {
+        "txt": "A",
+        "ratt": false,
+        "kommentar": "5,2² = 27,04."
+      },
+      {
+        "txt": "C",
+        "ratt": false,
+        "kommentar": "6² = 36, vilket är för mycket."
+      },
+      {
+        "txt": "D",
+        "ratt": false,
+        "kommentar": "6,4² ≈ 41."
+      }
+    ]
+  },
+  {
+    "id": "4.752",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(\\sqrt{3\\,600}\\). (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[60\\cdot60=3\\,600\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 60</p></div>",
+    "familj": "Kvadratrötter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Tänk på \\(\\sqrt{36}\\) och \\(\\sqrt{100}\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 60,
+    "tolerans": 0
+  },
+  {
+    "id": "4.753",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kvadratisk gräsmatta har arean 200 m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"270\" height=\"235\" viewBox=\"0 0 270 235\" role=\"img\" aria-label=\"Kvadratisk gräsmatta med arean 200 m² och okänd sida s.\"><title>Kvadratisk gräsmatta med arean 200 m² och okänd sida s.</title><rect x=\"1\" y=\"1\" width=\"268\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"30\" width=\"150\" height=\"150\" fill=\"#d9efd2\" stroke=\"#2f7d4a\" stroke-width=\"2.5\"/><rect x=\"83.0\" y=\"97.0\" width=\"104.0\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">A = 200 m²</text><line x1=\"60.0\" y1=\"196.0\" x2=\"210.0\" y2=\"196.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"191.0\" x2=\"60.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"191.0\" x2=\"210.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"110.0\" y=\"203.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"216.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">s = ?</text></svg></span><p>Hur lång är en sida? (Svara i m med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\sqrt{200}\\approx14{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14,1 m.</p></div>",
+    "familj": "Kvadratrötter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sidan är kvadratroten ur arean.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 14.142135623730951,
+    "tolerans": 0.05,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.754",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(x^2=1{,}44\\). Ange den positiva lösningen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=\\sqrt{1{,}44}=1{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1{,}2\\)</p></div>",
+    "familj": "Ekvationen x² = a",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilket tal gånger sig självt blir 1,44? Tänk på \\(12\\cdot12\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1.2,
+    "tolerans": 1e-09
+  },
+  {
+    "id": "4.755",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Triangeln är rätvinklig.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"240\" viewBox=\"0 0 340 240\" role=\"img\" aria-label=\"Rätvinklig triangel med kateterna 12 cm och 5 cm och hypotenusan x.\"><title>Rätvinklig triangel med kateterna 12 cm och 5 cm och hypotenusan x.</title><rect x=\"1\" y=\"1\" width=\"338\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"72,117.5 282.0,117.5 72,30\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M86 117.5 V103.5 H72\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><rect x=\"152.0\" y=\"126.5\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"177.0\" y=\"139.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">12 cm</text><rect x=\"28.4\" y=\"65.8\" width=\"41.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"66.0\" y=\"78.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">5 cm</text><rect x=\"187.0\" y=\"56.8\" width=\"16.4\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"191.0\" y=\"69.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">x</text></svg></span><p>Hur lång är hypotenusan \\(x\\)? (Svara i cm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2=12^2+5^2=144+25=169\\]</div></li><li><div class=\"facit-matte\">\\[x=\\sqrt{169}=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13 cm.</p></div>",
+    "familj": "Pythagoras och kvadratrötter i arbetslivet",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Använd Pythagoras sats och dra roten ur.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": 0,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.756",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rullstolsramp ska gå från marken upp till en dörr. Rampen går 3,6 m i sidled och 1,5 m i höjdled.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"240\" viewBox=\"0 0 340 240\" role=\"img\" aria-label=\"Rätvinklig triangel: 3,6 m i sidled, 1,5 m i höjd och rampen som lutande sida.\"><title>Rätvinklig triangel: 3,6 m i sidled, 1,5 m i höjd och rampen som lutande sida.</title><rect x=\"1\" y=\"1\" width=\"338\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"72,117.5 282.0,117.5 72,30\" fill=\"#eadfcf\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M86 117.5 V103.5 H72\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><rect x=\"152.0\" y=\"126.5\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"177.0\" y=\"139.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">3,6 m</text><rect x=\"20.0\" y=\"65.8\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"66.0\" y=\"78.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">1,5 m</text><rect x=\"187.0\" y=\"56.8\" width=\"58.4\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"191.0\" y=\"69.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">rampen</text></svg></span><p>Hur lång blir rampen? (Svara i m.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2=3{,}6^2+1{,}5^2=12{,}96+2{,}25=15{,}21\\]</div></li><li><div class=\"facit-matte\">\\[x=\\sqrt{15{,}21}=3{,}9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,9 m.</p></div>",
+    "familj": "Pythagoras och kvadratrötter i arbetslivet",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Rampen är hypotenusan i en rätvinklig triangel.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 3.9,
+    "tolerans": 0.01,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.757",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kvadratisk duk ska ha arean 2,25 m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"270\" height=\"235\" viewBox=\"0 0 270 235\" role=\"img\" aria-label=\"Kvadratisk duk med arean 2,25 m² och okänd sida s.\"><title>Kvadratisk duk med arean 2,25 m² och okänd sida s.</title><rect x=\"1\" y=\"1\" width=\"268\" height=\"233\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"30\" width=\"150\" height=\"150\" fill=\"#fbe3ef\" stroke=\"#b0417a\" stroke-width=\"2.5\"/><rect x=\"78.2\" y=\"97.0\" width=\"113.6\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#b0417a\" font-weight=\"bold\">A = 2,25 m²</text><line x1=\"60.0\" y1=\"196.0\" x2=\"210.0\" y2=\"196.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"60.0\" y1=\"191.0\" x2=\"60.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><line x1=\"210.0\" y1=\"191.0\" x2=\"210.0\" y2=\"201.0\" stroke=\"#5b6773\" stroke-width=\"1.3\"/><rect x=\"110.0\" y=\"203.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"135.0\" y=\"216.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">s = ?</text></svg></span><p>Hur lång ska en sida vara? (Svara i m.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=\\sqrt{2{,}25}=1{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,5 m.</p></div>",
+    "familj": "Kvadratrötter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>\\(15\\cdot15=225\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1.5,
+    "tolerans": 1e-09,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.758",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En mobilskärm är 7,0 cm bred och 15,0 cm hög.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"240\" viewBox=\"0 0 300 240\" role=\"img\" aria-label=\"Mobilskärm 7,0 cm bred och 15,0 cm hög med den streckade diagonalen d.\"><title>Mobilskärm 7,0 cm bred och 15,0 cm hög med den streckade diagonalen d.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"110\" y=\"20\" width=\"84\" height=\"180\" rx=\"12\" fill=\"#1f2937\"/><rect x=\"116\" y=\"30\" width=\"72\" height=\"160\" rx=\"4\" fill=\"#cfe6f7\"/><line x1=\"116.0\" y1=\"190.0\" x2=\"188.0\" y2=\"30.0\" stroke=\"#c2410c\" stroke-width=\"2.2\" stroke-dasharray=\"5 4\"/><rect x=\"201.0\" y=\"97.0\" width=\"17.6\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"205.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">d</text><rect x=\"124.6\" y=\"210.0\" width=\"54.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"152.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">7,0 cm</text><rect x=\"41.4\" y=\"100.0\" width=\"62.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"100.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">15,0 cm</text></svg></span><p>Hur lång är skärmens diagonal \\(d\\)? (Svara i cm med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[d^2=7^2+15^2=49+225=274\\]</div></li><li><div class=\"facit-matte\">\\[d=\\sqrt{274}\\approx16{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 16,6 cm.</p></div>",
+    "familj": "Pythagoras och kvadratrötter i arbetslivet",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Diagonalen delar skärmen i två rätvinkliga trianglar.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 16.55294535724685,
+    "tolerans": 0.05,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.759",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En cirkelformad rabatt ska ha arean 50 m².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"270\" height=\"220\" viewBox=\"0 0 270 220\" role=\"img\" aria-label=\"Cirkel med arean 50 m² och okänd radie r.\"><title>Cirkel med arean 50 m² och okänd radie r.</title><rect x=\"1\" y=\"1\" width=\"268\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"130\" cy=\"110\" r=\"80\" fill=\"#d9efd2\" stroke=\"#2f7d4a\" stroke-width=\"2.5\"/><line x1=\"130.0\" y1=\"110.0\" x2=\"210.0\" y2=\"110.0\" stroke=\"#c2410c\" stroke-width=\"2\"/><circle cx=\"130\" cy=\"110\" r=\"3.5\" fill=\"#172b3a\"/><rect x=\"161.2\" y=\"87.0\" width=\"17.6\" height=\"21\" rx=\"3\" fill=\"#fff\"/><text x=\"170.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">r</text><rect x=\"88.2\" y=\"137.0\" width=\"83.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"130.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">A = 50 m²</text></svg></span><p>Vilken radie ska rabatten ha? (Svara i m med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\pi r^2=50\\]</div></li><li><div class=\"facit-matte\">\\[r^2=\\frac{50}{\\pi}\\approx15{,}92\\]</div></li><li><div class=\"facit-matte\">\\[r=\\sqrt{15{,}92}\\approx4{,}0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 4,0 m.</p></div>",
+    "familj": "Ekvationen x² = a",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ställ upp \\(\\pi r^2=50\\), lös ut \\(r^2\\) och dra roten ur.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 3.989422804014327,
+    "tolerans": 0.05,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.760",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket positivt tal gånger sig självt blir 196? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[14\\cdot14=196\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14</p></div>",
+    "familj": "Kvadratrötter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Pröva tal mellan 10 och 15.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": 0
+  },
+  {
+    "id": "4.761",
+    "kap": 4,
+    "omr": "kvadratrotter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket av uttrycken har samma värde som \\(\\sqrt{16\\cdot9}\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{16\\cdot9}=\\sqrt{16}\\cdot\\sqrt9=4\\cdot3=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\cdot3\\)</p></div>",
+    "familj": "Kvadratrötter",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Roten ur en produkt är produkten av rötterna.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "4 · 3",
+        "ratt": true
+      },
+      {
+        "txt": "16 + 9",
+        "ratt": false,
+        "kommentar": "Det är 25, men √144 = 12."
+      },
+      {
+        "txt": "√16 + √9",
+        "ratt": false,
+        "kommentar": "Det blir 7, inte 12."
+      },
+      {
+        "txt": "16 · 3",
+        "ratt": false,
+        "kommentar": "Bara 9 har dragits roten ur."
+      }
+    ]
   }
 ];

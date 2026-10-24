@@ -201550,14 +201550,14 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "En fjärdedel så stor",
-      "ratt": true,
-      "kommentar": "(2r)² = 4r², så kraften delas med 4."
-    },
-    {
       "txt": "Hälften så stor",
       "ratt": false,
       "kommentar": "Kom ihåg att avståndet står i kvadrat."
+    },
+    {
+      "txt": "En fjärdedel så stor",
+      "ratt": true,
+      "kommentar": "(2r)² = 4r², så kraften delas med 4."
     },
     {
       "txt": "Dubbelt så stor",
@@ -201889,11 +201889,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Större",
-      "ratt": true,
-      "kommentar": "Komponenten längs rampen växer med lutningen, och friktionen balanserar den."
-    },
-    {
       "txt": "Mindre",
       "ratt": false,
       "kommentar": "Det är normalkraften som minskar när rampen blir brantare."
@@ -201902,6 +201897,11 @@ window.BANK = [
       "txt": "Lika stor",
       "ratt": false,
       "kommentar": "Friktionen anpassar sig efter komponenten längs rampen, som ändras."
+    },
+    {
+      "txt": "Större",
+      "ratt": true,
+      "kommentar": "Komponenten längs rampen växer med lutningen, och friktionen balanserar den."
     },
     {
       "txt": "Noll på den brantare rampen",
@@ -202077,11 +202077,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "2,0 m/s",
-      "ratt": true,
-      "kommentar": "Dubbel massa ger halva farten."
-    },
-    {
       "txt": "4,0 m/s",
       "ratt": false,
       "kommentar": "Då skulle rörelsemängden fördubblas."
@@ -202095,6 +202090,11 @@ window.BANK = [
       "txt": "0 m/s",
       "ratt": false,
       "kommentar": "Det finns rörelsemängd före stöten, och den finns kvar efteråt."
+    },
+    {
+      "txt": "2,0 m/s",
+      "ratt": true,
+      "kommentar": "Dubbel massa ger halva farten."
     }
   ]
 },
@@ -202283,14 +202283,14 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Nej, rörelseenergin minskar.",
-      "ratt": true,
-      "kommentar": "10 J blir 7 J."
-    },
-    {
       "txt": "Ja, eftersom vagnarna studsar isär.",
       "ratt": false,
       "kommentar": "Att vagnarna studsar räcker inte. Energin måste vara lika stor."
+    },
+    {
+      "txt": "Nej, rörelseenergin minskar.",
+      "ratt": true,
+      "kommentar": "10 J blir 7 J."
     },
     {
       "txt": "Ja, eftersom rörelsemängden bevaras.",
@@ -202414,11 +202414,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Åt vänster, mot väggen",
-      "ratt": true,
-      "kommentar": "Fjäderkraften är riktad mot förlängningen."
-    },
-    {
       "txt": "Åt höger, samma håll som handen drar",
       "ratt": false,
       "kommentar": "Det är handens kraft. Fjädern drar tillbaka."
@@ -202427,6 +202422,11 @@ window.BANK = [
       "txt": "Rakt uppåt",
       "ratt": false,
       "kommentar": "Fjädern ligger vågrätt och drar längs sin egen riktning."
+    },
+    {
+      "txt": "Åt vänster, mot väggen",
+      "ratt": true,
+      "kommentar": "Fjäderkraften är riktad mot förlängningen."
     },
     {
       "txt": "Fjädern påverkar inte klossen",
@@ -202461,11 +202461,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Fjäder A",
-      "ratt": true,
-      "kommentar": "Brantast linje ger störst k."
-    },
-    {
       "txt": "Fjäder B",
       "ratt": false,
       "kommentar": "B förlängs mer för samma kraft. Den är mjukare."
@@ -202479,6 +202474,11 @@ window.BANK = [
       "txt": "Det går inte att avgöra utan massorna",
       "ratt": false,
       "kommentar": "Diagrammet visar kraft och förlängning direkt."
+    },
+    {
+      "txt": "Fjäder A",
+      "ratt": true,
+      "kommentar": "Brantast linje ger störst k."
     }
   ]
 },
@@ -202648,11 +202648,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "A, framåt",
-      "ratt": true,
-      "kommentar": "Marken trycker foten framåt, och det driver dig framåt."
-    },
-    {
       "txt": "B, bakåt",
       "ratt": false,
       "kommentar": "Det är fotens kraft på marken som pekar bakåt."
@@ -202661,6 +202656,11 @@ window.BANK = [
       "txt": "Ingen friktion verkar när man går",
       "ratt": false,
       "kommentar": "Utan friktion halkar foten bakåt, som på blankis."
+    },
+    {
+      "txt": "A, framåt",
+      "ratt": true,
+      "kommentar": "Marken trycker foten framåt, och det driver dig framåt."
     }
   ]
 },
@@ -202877,11 +202877,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "C",
-      "ratt": true,
-      "kommentar": "Längst momentarm och vinkelrät kraft."
-    },
-    {
       "txt": "A",
       "ratt": false,
       "kommentar": "A har kortast momentarm av de vinkelräta krafterna."
@@ -202890,6 +202885,11 @@ window.BANK = [
       "txt": "B",
       "ratt": false,
       "kommentar": "B har halva C:s momentarm."
+    },
+    {
+      "txt": "C",
+      "ratt": true,
+      "kommentar": "Längst momentarm och vinkelrät kraft."
     },
     {
       "txt": "D",
@@ -202994,11 +202994,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Handens momentarm är lång, så en liten kraft ger stort moment.",
-      "ratt": true,
-      "kommentar": "Moment = kraft · momentarm."
-    },
-    {
       "txt": "Spettet minskar stenens massa.",
       "ratt": false,
       "kommentar": "Massan ändras inte. Det är momentarmarna som skiljer."
@@ -203007,6 +203002,11 @@ window.BANK = [
       "txt": "Stödet bär hela stenens tyngd, så handen behöver ingen kraft.",
       "ratt": false,
       "kommentar": "Handen behövs för momentjämvikten."
+    },
+    {
+      "txt": "Handens momentarm är lång, så en liten kraft ger stort moment.",
+      "ratt": true,
+      "kommentar": "Moment = kraft · momentarm."
     },
     {
       "txt": "Ett långt spett väger mer och hjälper till att trycka.",
@@ -203041,11 +203041,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "C",
-      "ratt": true,
-      "kommentar": "Lodlinjen hamnar utanför stödkanten."
-    },
-    {
       "txt": "A",
       "ratt": false,
       "kommentar": "Lodlinjen ligger innanför kanten. Lådan faller tillbaka."
@@ -203054,6 +203049,11 @@ window.BANK = [
       "txt": "B",
       "ratt": false,
       "kommentar": "Lodlinjen ligger fortfarande innanför kanten."
+    },
+    {
+      "txt": "C",
+      "ratt": true,
+      "kommentar": "Lodlinjen hamnar utanför stödkanten."
     },
     {
       "txt": "Alla tre",
@@ -203200,11 +203200,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Medelfarten är 5,0 m/s och medelhastigheten är 0.",
-      "ratt": true,
-      "kommentar": "Förflyttningen är noll efter ett helt varv."
-    },
-    {
       "txt": "Både medelfarten och medelhastigheten är 5,0 m/s.",
       "ratt": false,
       "kommentar": "Medelhastigheten bygger på förflyttningen, som är noll."
@@ -203218,6 +203213,11 @@ window.BANK = [
       "txt": "Medelfarten är 0 och medelhastigheten är 5,0 m/s.",
       "ratt": false,
       "kommentar": "Det är tvärtom."
+    },
+    {
+      "txt": "Medelfarten är 5,0 m/s och medelhastigheten är 0.",
+      "ratt": true,
+      "kommentar": "Förflyttningen är noll efter ett helt varv."
     }
   ]
 },
@@ -203406,14 +203406,14 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "B",
-      "ratt": true,
-      "kommentar": "B ligger djupast."
-    },
-    {
       "txt": "A",
       "ratt": false,
       "kommentar": "A ligger närmast ytan och har minst tryck."
+    },
+    {
+      "txt": "B",
+      "ratt": true,
+      "kommentar": "B ligger djupast."
     },
     {
       "txt": "C",
@@ -203453,14 +203453,14 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Lika stort vid alla tre",
-      "ratt": true,
-      "kommentar": "Samma djup och samma vätska ger samma tryck."
-    },
-    {
       "txt": "X, eftersom kärlet rymmer mest vatten",
       "ratt": false,
       "kommentar": "Trycket beror på djupet, inte på mängden vatten."
+    },
+    {
+      "txt": "Lika stort vid alla tre",
+      "ratt": true,
+      "kommentar": "Samma djup och samma vätska ger samma tryck."
     },
     {
       "txt": "Y, eftersom kärlet är smalast",
@@ -203556,11 +203556,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Högre än lufttrycket",
-      "ratt": true,
-      "kommentar": "Gasen trycker ned vattnet på sin sida."
-    },
-    {
       "txt": "Lägre än lufttrycket",
       "ratt": false,
       "kommentar": "Då hade vattnet stått högre på gassidan."
@@ -203569,6 +203564,11 @@ window.BANK = [
       "txt": "Lika med lufttrycket",
       "ratt": false,
       "kommentar": "Då hade vattnet stått lika högt i båda skänklarna."
+    },
+    {
+      "txt": "Högre än lufttrycket",
+      "ratt": true,
+      "kommentar": "Gasen trycker ned vattnet på sin sida."
     }
   ]
 },
@@ -203682,14 +203682,14 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "B",
-      "ratt": true,
-      "kommentar": "Tyngdkraften ritas i tyngdpunkten, mitt i bollen."
-    },
-    {
       "txt": "A",
       "ratt": false,
       "kommentar": "Tyngdkraften drar inte bara i bollens översta del."
+    },
+    {
+      "txt": "B",
+      "ratt": true,
+      "kommentar": "Tyngdkraften ritas i tyngdpunkten, mitt i bollen."
     },
     {
       "txt": "C",
@@ -203752,11 +203752,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Mjölkpaketet, 1,0 kg",
-      "ratt": true,
-      "kommentar": "1,0 kg · 9,82 N/kg ≈ 10 N."
-    },
-    {
       "txt": "Äpplet, 100 g",
       "ratt": false,
       "kommentar": "Äpplet har tyngden ungefär 1 N."
@@ -203770,6 +203765,11 @@ window.BANK = [
       "txt": "Den vuxna, 100 kg",
       "ratt": false,
       "kommentar": "Tyngden är ungefär 1 000 N."
+    },
+    {
+      "txt": "Mjölkpaketet, 1,0 kg",
+      "ratt": true,
+      "kommentar": "1,0 kg · 9,82 N/kg ≈ 10 N."
     }
   ]
 },
@@ -204014,11 +204014,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Ett systematiskt fel",
-      "ratt": true,
-      "kommentar": "Felet är lika stort och åt samma håll varje gång."
-    },
-    {
       "txt": "Ett slumpmässigt fel",
       "ratt": false,
       "kommentar": "Slumpmässiga fel varierar från mätning till mätning."
@@ -204027,6 +204022,11 @@ window.BANK = [
       "txt": "Inget fel, eftersom vågen visar ett tal",
       "ratt": false,
       "kommentar": "En tom våg ska visa 0."
+    },
+    {
+      "txt": "Ett systematiskt fel",
+      "ratt": true,
+      "kommentar": "Felet är lika stort och åt samma håll varje gång."
     }
   ]
 },
@@ -204084,11 +204084,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "4,0 s",
-      "ratt": true,
-      "kommentar": "Det ligger långt från de övriga."
-    },
-    {
       "txt": "3,1 s",
       "ratt": false,
       "kommentar": "Det ligger nära de andra värdena."
@@ -204097,6 +204092,11 @@ window.BANK = [
       "txt": "3,2 s",
       "ratt": false,
       "kommentar": "Det är ett av de vanligaste värdena."
+    },
+    {
+      "txt": "4,0 s",
+      "ratt": true,
+      "kommentar": "Det ligger långt från de övriga."
     },
     {
       "txt": "Inget, alla värden är lika bra",
@@ -204187,14 +204187,14 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "B",
-      "ratt": true,
-      "kommentar": "Ögat är i höjd med vätskeytan."
-    },
-    {
       "txt": "A",
       "ratt": false,
       "kommentar": "Snett uppifrån ger ett parallaxfel."
+    },
+    {
+      "txt": "B",
+      "ratt": true,
+      "kommentar": "Ögat är i höjd med vätskeytan."
     },
     {
       "txt": "C",
@@ -204318,11 +204318,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Lika starkt som innan",
-      "ratt": true,
-      "kommentar": "L₁ har kvar hela batterispänningen."
-    },
-    {
       "txt": "Den slocknar",
       "ratt": false,
       "kommentar": "Det gäller i en seriekoppling, där strömmen bara har en väg."
@@ -204335,6 +204330,11 @@ window.BANK = [
     {
       "txt": "Svagare",
       "ratt": false,
+      "kommentar": "L₁ har kvar hela batterispänningen."
+    },
+    {
+      "txt": "Lika starkt som innan",
+      "ratt": true,
       "kommentar": "L₁ har kvar hela batterispänningen."
     }
   ]
@@ -204580,11 +204580,6 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Resistansen är för stor för att mätas",
-      "ratt": true,
-      "kommentar": "Luft mellan spetsarna ger mycket stor resistans."
-    },
-    {
       "txt": "Resistansen är noll",
       "ratt": false,
       "kommentar": "Noll visas när spetsarna rör varandra."
@@ -204598,6 +204593,11 @@ window.BANK = [
       "txt": "Mätaren mäter spänning i stället",
       "ratt": false,
       "kommentar": "Vredet står på Ω."
+    },
+    {
+      "txt": "Resistansen är för stor för att mätas",
+      "ratt": true,
+      "kommentar": "Luft mellan spetsarna ger mycket stor resistans."
     }
   ]
 },
@@ -204655,14 +204655,14 @@ window.BANK = [
   "tolerans": null,
   "alternativ": [
     {
-      "txt": "Säkringen är hel",
-      "ratt": true,
-      "kommentar": "Mycket liten resistans betyder att tråden leder."
-    },
-    {
       "txt": "Säkringen är trasig",
       "ratt": false,
       "kommentar": "En trasig säkring hade visat OL."
+    },
+    {
+      "txt": "Säkringen är hel",
+      "ratt": true,
+      "kommentar": "Mycket liten resistans betyder att tråden leder."
     },
     {
       "txt": "Det går inte att avgöra med en multimeter",

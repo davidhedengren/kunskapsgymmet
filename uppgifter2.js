@@ -31016,20 +31016,18 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avgöra kompassens riktning nära stångmagnet",
     "poang": "(2/0/0)",
-    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har N till vänster och S till höger. Kompassen ligger till höger om S. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"375\" cy=\"155\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"375\" cy=\"155\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M375.0 140.96L375 137\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M375.0 169.04L375 173\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M360.96 155.0L357 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M389.04 155.0L393 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"407\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p><p><strong>A</strong> höger, <strong>B</strong> vänster, <strong>C</strong> uppåt, <strong>D</strong> nedåt, <strong>E</strong> in i bilden, <strong>F</strong> ut ur bilden.</p>",
-    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Till höger om sydpolen går fältet in mot magneten.</p><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ B (vänster).</p></div>",
+    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har N till vänster och S till höger. Kompassen ligger till höger om S. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"375\" cy=\"155\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"375\" cy=\"155\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M375.0 140.96L375 137\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M375.0 169.04L375 173\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M360.96 155.0L357 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M389.04 155.0L393 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"407\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p>",
+    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Till höger om sydpolen går fältet in mot magneten.</p><p class=\"facit-svar\"><strong>Svar:</strong> vänster.</p></div>",
     "familj": "Magneter och kompass",
     "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
     "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
     "ledtrad": "<p>Kompassnålens nordände pekar i magnetfältets riktning. Hur går fältet utanför en stavmagnet?</p>",
     "familjTidigare": [
@@ -31038,7 +31036,8 @@ window.BANK2 = [
     "miniräknare": true,
     "geogebra": false,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
   },
   {
     "id": "3.231",
@@ -31047,20 +31046,18 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avgöra kompassens riktning nära stångmagnet",
     "poang": "(2/0/0)",
-    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har N till vänster och S till höger. Kompassen ligger mitt ovanför magneten i bilden. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"240\" cy=\"55\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"55\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M240.0 40.96L240 37\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M240.0 69.04L240 73\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M225.96 55.0L222 55\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M254.04 55.0L258 55\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"272\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p><p><strong>A</strong> höger, <strong>B</strong> vänster, <strong>C</strong> uppåt, <strong>D</strong> nedåt, <strong>E</strong> in i bilden, <strong>F</strong> ut ur bilden.</p>",
-    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Mitt ovanför magneten går fältet från den vänstra nordpolen mot den högra sydpolen.</p><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ A (höger).</p></div>",
+    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har N till vänster och S till höger. Kompassen ligger mitt ovanför magneten i bilden. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"240\" cy=\"55\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"55\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M240.0 40.96L240 37\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M240.0 69.04L240 73\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M225.96 55.0L222 55\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M254.04 55.0L258 55\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"272\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p>",
+    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Mitt ovanför magneten går fältet från den vänstra nordpolen mot den högra sydpolen.</p><p class=\"facit-svar\"><strong>Svar:</strong> höger.</p></div>",
     "familj": "Magneter och kompass",
     "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
     "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
     "ledtrad": "<p>Kompassnålens nordände pekar i magnetfältets riktning. Hur går fältet utanför en stavmagnet?</p>",
     "familjTidigare": [
@@ -31069,7 +31066,8 @@ window.BANK2 = [
     "miniräknare": true,
     "geogebra": false,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
   },
   {
     "id": "3.232",
@@ -31078,20 +31076,18 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avgöra kompassens riktning nära stångmagnet",
     "poang": "(2/0/0)",
-    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har N till vänster och S till höger. Kompassen ligger mitt nedanför magneten i bilden. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"240\" cy=\"255\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"255\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M240.0 240.96L240 237\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M240.0 269.04L240 273\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M225.96 255.0L222 255\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M254.04 255.0L258 255\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"272\" y=\"261\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p><p><strong>A</strong> höger, <strong>B</strong> vänster, <strong>C</strong> uppåt, <strong>D</strong> nedåt, <strong>E</strong> in i bilden, <strong>F</strong> ut ur bilden.</p>",
-    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Mitt nedanför magneten går fältet från den vänstra nordpolen mot den högra sydpolen.</p><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ A (höger).</p></div>",
+    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har N till vänster och S till höger. Kompassen ligger mitt nedanför magneten i bilden. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"240\" cy=\"255\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"255\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M240.0 240.96L240 237\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M240.0 269.04L240 273\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M225.96 255.0L222 255\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M254.04 255.0L258 255\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"272\" y=\"261\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p>",
+    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Mitt nedanför magneten går fältet från den vänstra nordpolen mot den högra sydpolen.</p><p class=\"facit-svar\"><strong>Svar:</strong> höger.</p></div>",
     "familj": "Magneter och kompass",
     "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
     "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
     "ledtrad": "<p>Kompassnålens nordände pekar i magnetfältets riktning. Hur går fältet utanför en stavmagnet?</p>",
     "familjTidigare": [
@@ -31100,7 +31096,8 @@ window.BANK2 = [
     "miniräknare": true,
     "geogebra": false,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
   },
   {
     "id": "3.233",
@@ -31109,20 +31106,18 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avgöra kompassens riktning nära stångmagnet",
     "poang": "(2/0/0)",
-    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har S till vänster och N till höger. Kompassen ligger till vänster om S. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><circle cx=\"105\" cy=\"155\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"105\" cy=\"155\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M105.0 140.96L105 137\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M105.0 169.04L105 173\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M90.96 155.0L87 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M119.04 155.0L123 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"137\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p><p><strong>A</strong> höger, <strong>B</strong> vänster, <strong>C</strong> uppåt, <strong>D</strong> nedåt, <strong>E</strong> in i bilden, <strong>F</strong> ut ur bilden.</p>",
-    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Till vänster om sydpolen går fältet in mot magneten.</p><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ A (höger).</p></div>",
+    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har S till vänster och N till höger. Kompassen ligger till vänster om S. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><circle cx=\"105\" cy=\"155\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"105\" cy=\"155\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M105.0 140.96L105 137\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M105.0 169.04L105 173\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M90.96 155.0L87 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M119.04 155.0L123 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"137\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p>",
+    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Till vänster om sydpolen går fältet in mot magneten.</p><p class=\"facit-svar\"><strong>Svar:</strong> höger.</p></div>",
     "familj": "Magneter och kompass",
     "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
     "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
     "ledtrad": "<p>Kompassnålens nordände pekar i magnetfältets riktning. Hur går fältet utanför en stavmagnet?</p>",
     "familjTidigare": [
@@ -31131,7 +31126,8 @@ window.BANK2 = [
     "miniräknare": true,
     "geogebra": false,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
   },
   {
     "id": "3.234",
@@ -31140,20 +31136,18 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avgöra kompassens riktning nära stångmagnet",
     "poang": "(2/0/0)",
-    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har S till vänster och N till höger. Kompassen ligger till höger om N. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><circle cx=\"375\" cy=\"155\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"375\" cy=\"155\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M375.0 140.96L375 137\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M375.0 169.04L375 173\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M360.96 155.0L357 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M389.04 155.0L393 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"407\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p><p><strong>A</strong> höger, <strong>B</strong> vänster, <strong>C</strong> uppåt, <strong>D</strong> nedåt, <strong>E</strong> in i bilden, <strong>F</strong> ut ur bilden.</p>",
-    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Till höger om nordpolen går fältet ut från magneten.</p><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ A (höger).</p></div>",
+    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har S till vänster och N till höger. Kompassen ligger till höger om N. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><circle cx=\"375\" cy=\"155\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"375\" cy=\"155\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M375.0 140.96L375 137\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M375.0 169.04L375 173\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M360.96 155.0L357 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M389.04 155.0L393 155\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"407\" y=\"161\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p>",
+    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Till höger om nordpolen går fältet ut från magneten.</p><p class=\"facit-svar\"><strong>Svar:</strong> höger.</p></div>",
     "familj": "Magneter och kompass",
     "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
     "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
     "ledtrad": "<p>Kompassnålens nordände pekar i magnetfältets riktning. Hur går fältet utanför en stavmagnet?</p>",
     "familjTidigare": [
@@ -31162,7 +31156,8 @@ window.BANK2 = [
     "miniräknare": true,
     "geogebra": false,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "alternativ": [{"txt": "höger", "ratt": true}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
   },
   {
     "id": "3.235",
@@ -31171,20 +31166,18 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avgöra kompassens riktning nära stångmagnet",
     "poang": "(2/0/0)",
-    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har S till vänster och N till höger. Kompassen ligger mitt ovanför magneten i bilden. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><circle cx=\"240\" cy=\"55\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"55\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M240.0 40.96L240 37\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M240.0 69.04L240 73\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M225.96 55.0L222 55\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M254.04 55.0L258 55\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"272\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p><p><strong>A</strong> höger, <strong>B</strong> vänster, <strong>C</strong> uppåt, <strong>D</strong> nedåt, <strong>E</strong> in i bilden, <strong>F</strong> ut ur bilden.</p>",
-    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Mitt ovanför magneten går fältet från den högra nordpolen mot den vänstra sydpolen.</p><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ B (vänster).</p></div>",
+    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har S till vänster och N till höger. Kompassen ligger mitt ovanför magneten i bilden. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><circle cx=\"240\" cy=\"55\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"55\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M240.0 40.96L240 37\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M240.0 69.04L240 73\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M225.96 55.0L222 55\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M254.04 55.0L258 55\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"272\" y=\"61\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p>",
+    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Mitt ovanför magneten går fältet från den högra nordpolen mot den vänstra sydpolen.</p><p class=\"facit-svar\"><strong>Svar:</strong> vänster.</p></div>",
     "familj": "Magneter och kompass",
     "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
     "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
     "ledtrad": "<p>Kompassnålens nordände pekar i magnetfältets riktning. Hur går fältet utanför en stavmagnet?</p>",
     "familjTidigare": [
@@ -31193,7 +31186,8 @@ window.BANK2 = [
     "miniräknare": true,
     "geogebra": false,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
   },
   {
     "id": "3.236",
@@ -31202,20 +31196,18 @@ window.BANK2 = [
     "niva": "E",
     "typ": "avgöra kompassens riktning nära stångmagnet",
     "poang": "(2/0/0)",
-    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har S till vänster och N till höger. Kompassen ligger mitt nedanför magneten i bilden. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><circle cx=\"240\" cy=\"255\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"255\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M240.0 240.96L240 237\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M240.0 269.04L240 273\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M225.96 255.0L222 255\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M254.04 255.0L258 255\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"272\" y=\"261\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p><p><strong>A</strong> höger, <strong>B</strong> vänster, <strong>C</strong> uppåt, <strong>D</strong> nedåt, <strong>E</strong> in i bilden, <strong>F</strong> ut ur bilden.</p>",
-    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Mitt nedanför magneten går fältet från den högra nordpolen mot den vänstra sydpolen.</p><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ B (vänster).</p></div>",
+    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magneten har S till vänster och N till höger. Kompassen ligger mitt nedanför magneten i bilden. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"160\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"240\" y=\"135\" width=\"80\" height=\"40\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"160\" y=\"135\" width=\"160\" height=\"40\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"200\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><text x=\"280\" y=\"163\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><circle cx=\"240\" cy=\"255\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"255\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M240.0 240.96L240 237\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M240.0 269.04L240 273\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M225.96 255.0L222 255\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M254.04 255.0L258 255\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"272\" y=\"261\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p>",
+    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Mitt nedanför magneten går fältet från den högra nordpolen mot den vänstra sydpolen.</p><p class=\"facit-svar\"><strong>Svar:</strong> vänster.</p></div>",
     "familj": "Magneter och kompass",
     "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
     "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
     "ledtrad": "<p>Kompassnålens nordände pekar i magnetfältets riktning. Hur går fältet utanför en stavmagnet?</p>",
     "familjTidigare": [
@@ -31224,7 +31216,8 @@ window.BANK2 = [
     "miniräknare": true,
     "geogebra": false,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": true}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
   },
   {
     "id": "3.237",
@@ -31233,20 +31226,18 @@ window.BANK2 = [
     "niva": "C",
     "typ": "avgöra kompassens riktning nära stångmagnet",
     "poang": "(1/2/0)",
-    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magnetens N är överst och S nederst i bilden. Kompassen ligger ovanför N. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"160\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"130\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"135\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"240\" y=\"201\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"240\" cy=\"40\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"40\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M240.0 25.96L240 22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M240.0 54.04L240 58\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M225.96 40.0L222 40\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M254.04 40.0L258 40\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"272\" y=\"46\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p><p><strong>A</strong> höger, <strong>B</strong> vänster, <strong>C</strong> uppåt, <strong>D</strong> nedåt, <strong>E</strong> in i bilden, <strong>F</strong> ut ur bilden.</p>",
-    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Ovanför nordpolen i bilden går fältet ut från magneten.</p><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ C (uppåt).</p></div>",
+    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magnetens N är överst och S nederst i bilden. Kompassen ligger ovanför N. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"160\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"130\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"135\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"240\" y=\"201\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"240\" cy=\"40\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"40\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M240.0 25.96L240 22\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M240.0 54.04L240 58\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M225.96 40.0L222 40\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M254.04 40.0L258 40\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"272\" y=\"46\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p>",
+    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Ovanför nordpolen i bilden går fältet ut från magneten.</p><p class=\"facit-svar\"><strong>Svar:</strong> uppåt.</p></div>",
     "familj": "Magneter och kompass",
     "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
     "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
     "ledtrad": "<p>Kompassnålens nordände pekar i magnetfältets riktning. Hur går fältet utanför en stavmagnet?</p>",
     "familjTidigare": [
@@ -31255,7 +31246,8 @@ window.BANK2 = [
     "miniräknare": true,
     "geogebra": false,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
   },
   {
     "id": "3.238",
@@ -31264,20 +31256,18 @@ window.BANK2 = [
     "niva": "C",
     "typ": "avgöra kompassens riktning nära stångmagnet",
     "poang": "(1/2/0)",
-    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magnetens N är överst och S nederst i bilden. Kompassen ligger nedanför S. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"160\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"130\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"135\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"240\" y=\"201\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"240\" cy=\"280\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"280\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M240.0 265.96L240 262\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M240.0 294.04L240 298\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M225.96 280.0L222 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M254.04 280.0L258 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"272\" y=\"286\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p><p><strong>A</strong> höger, <strong>B</strong> vänster, <strong>C</strong> uppåt, <strong>D</strong> nedåt, <strong>E</strong> in i bilden, <strong>F</strong> ut ur bilden.</p>",
-    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Nedanför sydpolen i bilden går fältet in mot magneten.</p><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ C (uppåt).</p></div>",
+    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magnetens N är överst och S nederst i bilden. Kompassen ligger nedanför S. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"160\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"130\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"135\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"240\" y=\"201\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"240\" cy=\"280\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"280\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M240.0 265.96L240 262\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M240.0 294.04L240 298\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M225.96 280.0L222 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M254.04 280.0L258 280\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"272\" y=\"286\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p>",
+    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Nedanför sydpolen i bilden går fältet in mot magneten.</p><p class=\"facit-svar\"><strong>Svar:</strong> uppåt.</p></div>",
     "familj": "Magneter och kompass",
     "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
     "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
     "ledtrad": "<p>Kompassnålens nordände pekar i magnetfältets riktning. Hur går fältet utanför en stavmagnet?</p>",
     "familjTidigare": [
@@ -31286,7 +31276,8 @@ window.BANK2 = [
     "miniräknare": true,
     "geogebra": false,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": true}, {"txt": "nedåt", "ratt": false}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
   },
   {
     "id": "3.239",
@@ -31295,20 +31286,18 @@ window.BANK2 = [
     "niva": "C",
     "typ": "avgöra kompassens riktning nära stångmagnet",
     "poang": "(1/2/0)",
-    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magnetens N är överst och S nederst i bilden. Kompassen ligger till vänster om magnetens mitt. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"160\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"130\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"135\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"240\" y=\"201\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"115\" cy=\"160\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"115\" cy=\"160\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M115.0 145.96L115 142\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M115.0 174.04L115 178\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M100.96 160.0L97 160\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M129.04 160.0L133 160\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"147\" y=\"166\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p><p><strong>A</strong> höger, <strong>B</strong> vänster, <strong>C</strong> uppåt, <strong>D</strong> nedåt, <strong>E</strong> in i bilden, <strong>F</strong> ut ur bilden.</p>",
-    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Till vänster om magnetens mitt går fältet från nordpolen överst mot sydpolen nederst.</p><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ D (nedåt).</p></div>",
+    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magnetens N är överst och S nederst i bilden. Kompassen ligger till vänster om magnetens mitt. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"160\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"130\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"135\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"240\" y=\"201\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"115\" cy=\"160\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"115\" cy=\"160\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M115.0 145.96L115 142\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M115.0 174.04L115 178\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M100.96 160.0L97 160\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M129.04 160.0L133 160\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"147\" y=\"166\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p>",
+    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Till vänster om magnetens mitt går fältet från nordpolen överst mot sydpolen nederst.</p><p class=\"facit-svar\"><strong>Svar:</strong> nedåt.</p></div>",
     "familj": "Magneter och kompass",
     "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
     "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
     "ledtrad": "<p>Kompassnålens nordände pekar i magnetfältets riktning. Hur går fältet utanför en stavmagnet?</p>",
     "familjTidigare": [
@@ -31317,7 +31306,8 @@ window.BANK2 = [
     "miniräknare": true,
     "geogebra": false,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": true}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
   },
   {
     "id": "3.240",
@@ -31326,20 +31316,18 @@ window.BANK2 = [
     "niva": "C",
     "typ": "avgöra kompassens riktning nära stångmagnet",
     "poang": "(1/2/0)",
-    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magnetens N är överst och S nederst i bilden. Kompassen ligger till höger om magnetens mitt. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"160\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"130\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"135\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"240\" y=\"201\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"365\" cy=\"160\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"365\" cy=\"160\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M365.0 145.96L365 142\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M365.0 174.04L365 178\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M350.96 160.0L347 160\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M379.04 160.0L383 160\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"397\" y=\"166\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p><p><strong>A</strong> höger, <strong>B</strong> vänster, <strong>C</strong> uppåt, <strong>D</strong> nedåt, <strong>E</strong> in i bilden, <strong>F</strong> ut ur bilden.</p>",
-    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Till höger om magnetens mitt går fältet från nordpolen överst mot sydpolen nederst.</p><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ D (nedåt).</p></div>",
+    "t": "<p>Figuren visar en stavmagnet och en kompass i P ovanifrån. Magnetens N är överst och S nederst i bilden. Kompassen ligger till höger om magnetens mitt. Bortse från jordens magnetfält.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 345\" role=\"img\" aria-label=\"Stavmagnet och kompass i P, sedda ovanifrån. Kompassnålen är inte utritad.\" style=\"width:100%;max-width:480px\"><rect width=\"480\" height=\"345\" fill=\"white\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#b74738\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"160\" width=\"40\" height=\"65\" rx=\"0\" fill=\"#2b67a2\" stroke=\"none\" stroke-width=\"2\"/><rect x=\"220\" y=\"95\" width=\"40\" height=\"130\" rx=\"0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240\" y=\"135\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">N</text><text x=\"240\" y=\"201\" font-family=\"Arial,sans-serif\" font-size=\"22\" text-anchor=\"middle\" fill=\"white\">S</text><circle cx=\"365\" cy=\"160\" r=\"23\" fill=\"#f5f8fc\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"365\" cy=\"160\" r=\"2\" fill=\"#243447\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M365.0 145.96L365 142\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M365.0 174.04L365 178\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M350.96 160.0L347 160\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M379.04 160.0L383 160\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"397\" y=\"166\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"start\" fill=\"#243447\">P</text><text x=\"240\" y=\"327\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">Kompassen visas utan nål.</text></svg></span><p>Åt vilket håll i bilden pekar kompassnålens nordände? (Svara med A–F.)</p>",
+    "s": "<div class=\"facit-v2\"><p>Kompassnålens nordände följer magnetfältet. Utanför magneten går fältet från N till S. Till höger om magnetens mitt går fältet från nordpolen överst mot sydpolen nederst.</p><p class=\"facit-svar\"><strong>Svar:</strong> nedåt.</p></div>",
     "familj": "Magneter och kompass",
     "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarstyp": "kort_text",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
-    "svarEnhet": null,
     "familjNyckelTidigare": "jordens_magnetfalt__riktningsfragor_kompass_vid_stangmagnet",
     "ledtrad": "<p>Kompassnålens nordände pekar i magnetfältets riktning. Hur går fältet utanför en stavmagnet?</p>",
     "familjTidigare": [
@@ -31348,7 +31336,8 @@ window.BANK2 = [
     "miniräknare": true,
     "geogebra": false,
     "traningsniva": 1,
-    "arbetsinsats": 1
+    "arbetsinsats": 1,
+    "alternativ": [{"txt": "höger", "ratt": false}, {"txt": "vänster", "ratt": false}, {"txt": "uppåt", "ratt": false}, {"txt": "nedåt", "ratt": true}, {"txt": "in i bilden", "ratt": false}, {"txt": "ut ur bilden", "ratt": false}]
   },
   {
     "id": "3.308",

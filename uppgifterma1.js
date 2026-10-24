@@ -9541,8 +9541,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": false,
-    "t": "<p>En elev ska omvandla <strong>0,0045 A</strong> till <strong>mA</strong>. Vilket svar är korrekt?</p><p>A. 0,0000045 mA, eftersom talvärdet ska divideras med 1 000.<br>B. 0,0045 mA, eftersom bara enhetsnamnet ska bytas.<br>C. 4,5 mA, eftersom talvärdet ska multipliceras med 1 000.<br>D. 4 500 mA, eftersom talvärdet ska multipliceras med 1 000 000.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd prefixets betydelse</p><p>En ampere är tusen milliampere. Talvärdet ökar när samma ström anges i den mindre enheten:</p><div class=\"facit-matte\">\\[1\\,\\mathrm{A}=1000\\,\\mathrm{mA}.\\]</div></li><li><p class=\"facit-rubrik\">Omvandla talvärdet</p><div class=\"facit-matte\">\\[0{,}0045\\cdot1000=4{,}5\\,\\mathrm{mA}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alternativ C: \\(4{,}5\\,\\mathrm{mA}\\).</p></div>",
+    "t": "<p>En elev ska omvandla <strong>0,0045 A</strong> till <strong>mA</strong>. Vilket svar är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd prefixets betydelse</p><p>En ampere är tusen milliampere. Talvärdet ökar när samma ström anges i den mindre enheten:</p><div class=\"facit-matte\">\\[1\\,\\mathrm{A}=1000\\,\\mathrm{mA}.\\]</div></li><li><p class=\"facit-rubrik\">Omvandla talvärdet</p><div class=\"facit-matte\">\\[0{,}0045\\cdot1000=4{,}5\\,\\mathrm{mA}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}5\\,\\mathrm{mA}\\).</p></div>",
     "ledtrad": "<p>Hur många milliampere går det på en ampere, och ska talvärdet bli större eller mindre när enheten blir mindre?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -9550,18 +9550,18 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": "tiopotenser_prefix",
     "familjTidigare": [
       "Omvandla med tiopotenser och prefix"
-    ]
+    ],
+    "alternativ": [{"txt": "0,0000045 mA, eftersom talvärdet ska divideras med 1 000.", "ratt": false}, {"txt": "0,0045 mA, eftersom bara enhetsnamnet ska bytas.", "ratt": false}, {"txt": "4,5 mA, eftersom talvärdet ska multipliceras med 1 000.", "ratt": true}, {"txt": "4 500 mA, eftersom talvärdet ska multipliceras med 1 000 000.", "ratt": false}]
   },
   {
     "id": "0.249",
@@ -24942,8 +24942,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Energiformeln är E = Pt, där P &gt; 0. Vilken omskrivning ger tiden t?</p><p>A: \\(t=E/P\\)<br>B: \\(t=EP\\)<br>C: \\(t=P/E\\)<br>D: \\(t=E-P\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: A. Dividera båda leden med P. Då blir E/P = t.</p></div>",
+    "t": "<p>Energiformeln är E = Pt, där P &gt; 0. Vilken omskrivning ger tiden t?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: \\(t=E/P\\). Dividera båda leden med P. Då blir E/P = t.</p></div>",
     "ledtrad": "<p>Vilken räkneoperation tar bort multiplikationen med P?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -24953,16 +24953,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Formler"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(t=E/P\\)", "ratt": true}, {"txt": "\\(t=EP\\)", "ratt": false}, {"txt": "\\(t=P/E\\)", "ratt": false}, {"txt": "\\(t=E-P\\)", "ratt": false}]
   },
   {
     "id": "1.38",
@@ -25590,8 +25590,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Ett batteri får användas från och med −15 °C upp till, men inte inklusive, 45 °C. Vilket villkor gäller för temperaturen T?</p><p>A: \\(-15&lt;T&lt;45\\)<br>B: \\(-15\\le T&lt;45\\)<br>C: \\(-15&lt;T\\le45\\)<br>D: \\(-15\\le T\\le45\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>B är rätt: −15 ingår men 45 gör det inte.</p></li><li><p>Likhetsstrecket behövs bara vid den undre gränsen.</p></li></ol></div>",
+    "t": "<p>Ett batteri får användas från och med −15 °C upp till, men inte inklusive, 45 °C. Vilket villkor gäller för temperaturen T?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rätt svar: \\(-15\\le T&lt;45\\). −15 ingår men 45 gör det inte.</p></li><li><p>Likhetsstrecket behövs bara vid den undre gränsen.</p></li></ol></div>",
     "ledtrad": "<p>Vilken formulering tar med en gräns och vilken utesluter den?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -25601,16 +25601,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "spel": true,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "familjTidigare": [
       "Intervall och gränser"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(-15&lt;T&lt;45\\)", "ratt": false}, {"txt": "\\(-15\\le T&lt;45\\)", "ratt": true}, {"txt": "\\(-15&lt;T\\le45\\)", "ratt": false}, {"txt": "\\(-15\\le T\\le45\\)", "ratt": false}]
   },
   {
     "id": "1.58",
@@ -29701,8 +29701,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>En rektangels area är A = lw, med positiva sidlängder. Arean är oförändrad när längden fördubblas. Hur förändras bredden?</p><p>A: Den halveras.<br>B: Den fyrdubblas.<br>C: Den är oförändrad.<br>D: Den fördubblas.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: A. Produkten lw ska vara oförändrad. När den ena faktorn blir dubbelt så stor måste den andra bli hälften så stor.</p></div>",
+    "t": "<p>En rektangels area är A = lw, med positiva sidlängder. Arean är oförändrad när längden fördubblas. Hur förändras bredden?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: Den halveras. Produkten lw ska vara oförändrad. När den ena faktorn blir dubbelt så stor måste den andra bli hälften så stor.</p></div>",
     "ledtrad": "<p>Vad måste hända med den andra faktorn i en oförändrad produkt?</p>",
     "niva": "E",
     "poang": "2/0/0",
@@ -29712,16 +29712,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
       "Formler"
-    ]
+    ],
+    "alternativ": [{"txt": "Den halveras.", "ratt": true}, {"txt": "Den fyrdubblas.", "ratt": false}, {"txt": "Den är oförändrad.", "ratt": false}, {"txt": "Den fördubblas.", "ratt": false}]
   },
   {
     "id": "1.171",
@@ -31062,8 +31062,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>En rektangel har arean A = lb. En elev skriver b = A − l. Vilken kontroll avslöjar felet?</p><p>A: l = 4 och b = 3 ger A = 7, men 7/4 = 1,75.<br>B: l = 4 och b = 3 ger A = 7, men 7 − 4 = 3.<br>C: l = 4 och b = 3 ger A = 12, men 12/4 = 3.<br>D: l = 4 och b = 3 ger A = 12, men 12 − 4 = 8.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: D. Arean är 4 · 3 = 12. Elevens formel ger bredden 8 trots att den är 3. Rätt omskrivning är b = A/l.</p></div>",
+    "t": "<p>En rektangel har arean A = lb. En elev skriver b = A − l. Vilken kontroll avslöjar felet?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: l = 4 och b = 3 ger A = 12, men 12 − 4 = 8. Arean är 4 · 3 = 12. Elevens formel ger bredden 8 trots att den är 3. Rätt omskrivning är b = A/l.</p></div>",
     "ledtrad": "<p>Kontrollen måste både använda rätt area och pröva elevens egen formel.</p>",
     "niva": "E",
     "poang": "2/0/0",
@@ -31073,16 +31073,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
       "Formler"
-    ]
+    ],
+    "alternativ": [{"txt": "l = 4 och b = 3 ger A = 7, men 7/4 = 1,75.", "ratt": false}, {"txt": "l = 4 och b = 3 ger A = 7, men 7 − 4 = 3.", "ratt": false}, {"txt": "l = 4 och b = 3 ger A = 12, men 12/4 = 3.", "ratt": false}, {"txt": "l = 4 och b = 3 ger A = 12, men 12 − 4 = 8.", "ratt": true}]
   },
   {
     "id": "1.210",
@@ -37121,8 +37121,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>En rektangels area är A = bh, där b &gt; 0. Vilken formel ger h?</p><p>A: \\(h=A-b\\)<br>B: \\(h=b/A\\)<br>C: \\(h=A/b\\)<br>D: \\(h=Ab\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: C. Eftersom A är b gånger h får man h genom att dividera A med b.</p></div>",
+    "t": "<p>En rektangels area är A = bh, där b &gt; 0. Vilken formel ger h?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: \\(h=A/b\\). Eftersom A är b gånger h får man h genom att dividera A med b.</p></div>",
     "ledtrad": "<p>Hur gör du för att få h ensamt?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -37132,16 +37132,16 @@ window.BANKMA1 = [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text",
     "traningsniva": 1,
     "spel": true,
     "familjTidigare": [
       "Formler"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(h=A-b\\)", "ratt": false}, {"txt": "\\(h=b/A\\)", "ratt": false}, {"txt": "\\(h=A/b\\)", "ratt": true}, {"txt": "\\(h=Ab\\)", "ratt": false}]
   },
   {
     "id": "1.926",
@@ -57525,27 +57525,27 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Två modeller beskriver mängden verksam substans, i mg, efter \\(x\\) timmar:</p><p>\\(A(x)=120-5x\\) och \\(B(x)=100\\cdot0{,}96^x\\).</p><p>En elev säger: ”Eftersom \\(A(0)&gt;B(0)\\) måste modell A ge störst värde för alla \\(x\\ge0\\).” Vilket påstående bedömer elevens slutsats bäst?</p><p>A: Slutsatsen är säker, eftersom den modell som börjar högst alltid ligger högst.<br>B: Modellerna går inte att jämföra alls om de har olika startvärden.<br>C: Slutsatsen är fel, eftersom en exponentiell modell alltid ligger över en linjär när \\(x&gt;0\\).<br>D: Slutsatsen följer inte av startvärdena; modellerna förändras olika och ordningen kan ändras.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Startvärdena visar bara ordningen vid</p><div class=\"facit-matte\">\\[x=0\\].</div></div></li><li><p>Modell A minskar med ett fast antal per timme, medan B minskar med en fast procentandel.</p></li><li><p>Därför räcker inte startvärdena för att avgöra ordningen för alla framtida tider.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Två modeller beskriver mängden verksam substans, i mg, efter \\(x\\) timmar:</p><p>\\(A(x)=120-5x\\) och \\(B(x)=100\\cdot0{,}96^x\\).</p><p>En elev säger: ”Eftersom \\(A(0)&gt;B(0)\\) måste modell A ge störst värde för alla \\(x\\ge0\\).” Vilket påstående bedömer elevens slutsats bäst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Startvärdena visar bara ordningen vid</p><div class=\"facit-matte\">\\[x=0\\].</div></div></li><li><p>Modell A minskar med ett fast antal per timme, medan B minskar med en fast procentandel.</p></li><li><p>Därför räcker inte startvärdena för att avgöra ordningen för alla framtida tider.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Slutsatsen följer inte av startvärdena; modellerna förändras olika och ordningen kan ändras.</p></div>",
     "familj": "Jämföra linjär och exponentiell tillväxt",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Fråga dig vad startvärdena faktiskt berättar: gäller jämförelsen bara vid \\(x=0\\), eller säger den något om hur modellerna förändras senare?</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Välja och jämföra matematiska modeller"
-    ]
+    ],
+    "alternativ": [{"txt": "Slutsatsen är säker, eftersom den modell som börjar högst alltid ligger högst.", "ratt": false}, {"txt": "Modellerna går inte att jämföra alls om de har olika startvärden.", "ratt": false}, {"txt": "Slutsatsen är fel, eftersom en exponentiell modell alltid ligger över en linjär när \\(x&gt;0\\).", "ratt": false}, {"txt": "Slutsatsen följer inte av startvärdena; modellerna förändras olika och ordningen kan ändras.", "ratt": true}]
   },
   {
     "id": "2.342",
@@ -74194,13 +74194,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lån A har 4 % årsränta och ingen avgift. Lån B har 3,6 % årsränta men en årsavgift på 600 kr. För ett lån på 20 000 kr under ett år, vilket alternativ ger lägst kostnad om vi bortser från amortering under året?</p><p>A: Lån A<br>B: Lån B<br>C: Samma kostnad</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lån A kostar \\(20000\\cdot0{,}04=800\\) kr.</p></li><li><p>Lån B kostar \\(20000\\cdot0{,}036+600=1320\\) kr.</p></li><li><p>A är billigare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>A</strong>.</p></div></div>",
+    "t": "<p>Lån A har 4 % årsränta och ingen avgift. Lån B har 3,6 % årsränta men en årsavgift på 600 kr. För ett lån på 20 000 kr under ett år, vilket alternativ ger lägst kostnad om vi bortser från amortering under året?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lån A kostar \\(20000\\cdot0{,}04=800\\) kr.</p></li><li><p>Lån B kostar \\(20000\\cdot0{,}036+600=1320\\) kr.</p></li><li><p>A är billigare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lån A.</p></div></div>",
     "familj": "Jämföra lån och avbetalning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -74211,10 +74211,10 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Amortering, ränta och lånekostnad"
-    ]
+    ],
+    "alternativ": [{"txt": "Lån A", "ratt": true}, {"txt": "Lån B", "ratt": false}, {"txt": "Samma kostnad", "ratt": false}]
   },
   {
     "id": "3.251",
@@ -74226,13 +74226,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två lån på samma belopp har rak amortering. Lån A amorteras på 24 månader och lån B på 48 månader. Vilket får störst amortering per månad?</p><p>A: Lån A<br>B: Lån B<br>C: Samma</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Samma skuld fördelad på färre månader ger större amortering per månad.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>A</strong>.</p></div></div>",
+    "t": "<p>Två lån på samma belopp har rak amortering. Lån A amorteras på 24 månader och lån B på 48 månader. Vilket får störst amortering per månad?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Samma skuld fördelad på färre månader ger större amortering per månad.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lån A.</p></div></div>",
     "familj": "Jämföra lån och avbetalning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -74242,10 +74242,10 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Amortering, ränta och lånekostnad"
-    ]
+    ],
+    "alternativ": [{"txt": "Lån A", "ratt": true}, {"txt": "Lån B", "ratt": false}, {"txt": "Samma", "ratt": false}]
   },
   {
     "id": "3.252",
@@ -74288,13 +74288,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Lån A: 100 000 kr med 5 % årsränta. Lån B: 100 000 kr med 4,5 % årsränta och 700 kr årsavgift. Jämför första årets ränte- och avgiftskostnad, utan hänsyn till amortering. Vilket är billigast?</p><p>A: A<br>B: B<br>C: Lika</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A kostar \\(5000\\) kr.</p></li><li><p>B kostar \\(4500+700=5200\\) kr.</p></li><li><p>A är därför 200 kr billigare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>A</strong>.</p></div></div>",
+    "t": "<p>Lån A: 100 000 kr med 5 % årsränta. Lån B: 100 000 kr med 4,5 % årsränta och 700 kr årsavgift. Jämför första årets ränte- och avgiftskostnad, utan hänsyn till amortering. Vilket är billigast?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A kostar \\(5000\\) kr.</p></li><li><p>B kostar \\(4500+700=5200\\) kr.</p></li><li><p>A är därför 200 kr billigare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div></div>",
     "familj": "Jämföra lån och avbetalning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -74305,10 +74305,10 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Amortering, ränta och lånekostnad"
-    ]
+    ],
+    "alternativ": [{"txt": "A", "ratt": true}, {"txt": "B", "ratt": false}, {"txt": "Lika", "ratt": false}]
   },
   {
     "id": "3.254",
@@ -74320,13 +74320,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>Två lån har samma räntesats och samma startskuld. Lån A har större rak amortering per månad än lån B. Vilket resonemang om den totala räntekostnaden är bäst?</p><p>A. De ger alltid samma totala ränta, eftersom både räntesatsen och startskulden är samma.<br>B. B ger normalt lägre total ränta, eftersom en mindre amortering gör att en större del av varje betalning kan användas till ränta.<br>C. A ger normalt lägre total ränta, eftersom skulden minskar snabbare och framtida ränta beräknas på en lägre skuld.<br>D. Det går inte att jämföra, eftersom den första månadens ränta är lika stor för båda lånen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den större amorteringen i lån A gör att skulden sjunker snabbare.</p></li><li><p>Eftersom räntan varje period beräknas på kvarvarande skuld blir ränteunderlaget lägre under fler perioder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>Två lån har samma räntesats och samma startskuld. Lån A har större rak amortering per månad än lån B. Vilket resonemang om den totala räntekostnaden är bäst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den större amorteringen i lån A gör att skulden sjunker snabbare.</p></li><li><p>Eftersom räntan varje period beräknas på kvarvarande skuld blir ränteunderlaget lägre under fler perioder.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A ger normalt lägre total ränta, eftersom skulden minskar snabbare och framtida ränta beräknas på en lägre skuld.</p></div>",
     "familj": "Jämföra lån och avbetalning",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -74337,10 +74337,10 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Amortering, ränta och lånekostnad"
-    ]
+    ],
+    "alternativ": [{"txt": "De ger alltid samma totala ränta, eftersom både räntesatsen och startskulden är samma.", "ratt": false}, {"txt": "B ger normalt lägre total ränta, eftersom en mindre amortering gör att en större del av varje betalning kan användas till ränta.", "ratt": false}, {"txt": "A ger normalt lägre total ränta, eftersom skulden minskar snabbare och framtida ränta beräknas på en lägre skuld.", "ratt": true}, {"txt": "Det går inte att jämföra, eftersom den första månadens ränta är lika stor för båda lånen.", "ratt": false}]
   },
   {
     "id": "3.255",
@@ -74352,13 +74352,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Konto A ger 2,0 % ränta och konto B 2,4 %. Samma belopp sätts in på båda och inga avgifter finns. Vilket ger störst saldo efter ett år?</p><p>A: Konto A<br>B: Konto B<br>C: Lika stort saldo</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med samma startbelopp och inga andra skillnader ger den högre räntan större saldo.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>B</strong>, konto B.</p></div></div>",
+    "t": "<p>Konto A ger 2,0 % ränta och konto B 2,4 %. Samma belopp sätts in på båda och inga avgifter finns. Vilket ger störst saldo efter ett år?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med samma startbelopp och inga andra skillnader ger den högre räntan större saldo.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Konto B.</p></div></div>",
     "familj": "Jämföra sparformer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -74372,7 +74372,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text"
+    "alternativ": [{"txt": "Konto A", "ratt": false}, {"txt": "Konto B", "ratt": true}, {"txt": "Lika stort saldo", "ratt": false}]
   },
   {
     "id": "3.256",
@@ -74384,13 +74384,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Du sparar 10 000 kr i ett år. Konto A ger 3 % ränta utan avgift. Konto B ger 3,5 % ränta men tar en årsavgift på 100 kr efter att räntan lagts till. Vilket ger högst saldo efter ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Konto A ger \\(10000\\cdot1{,}03=10300\\) kr.</p></li><li><p>Konto B ger \\(10000\\cdot1{,}035-100=10250\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>A</strong> ger högst saldo.</p></div></div>",
+    "t": "<p>Du sparar 10 000 kr i ett år. Konto A ger 3 % ränta utan avgift. Konto B ger 3,5 % ränta men tar en årsavgift på 100 kr efter att räntan lagts till. Vilket ger högst saldo efter ett år?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Konto A ger \\(10000\\cdot1{,}03=10300\\) kr.</p></li><li><p>Konto B ger \\(10000\\cdot1{,}035-100=10250\\) kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Konto A ger högst saldo.</p></div></div>",
     "familj": "Jämföra sparformer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -74405,7 +74405,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text"
+    "alternativ": [{"txt": "Konto A", "ratt": true}, {"txt": "Konto B", "ratt": false}, {"txt": "Samma saldo", "ratt": false}]
   },
   {
     "id": "3.257",
@@ -74447,13 +74447,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Konto A har 1,8 % ränta och konto B har 1,6 % ränta. Konto A tar dessutom 50 kr i årsavgift efter att räntan lagts till. Du sätter in 2 000 kr. Vilket konto har högst saldo efter ett år?</p><p>A: A<br>B: B<br>C: Samma</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A ger \\(2000\\cdot1{,}018-50=1986\\) kr.</p></li><li><p>B ger \\(2000\\cdot1{,}016=2032\\) kr.</p></li><li><p>B ger högre saldo.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>B</strong>.</p></div></div>",
+    "t": "<p>Konto A har 1,8 % ränta och konto B har 1,6 % ränta. Konto A tar dessutom 50 kr i årsavgift efter att räntan lagts till. Du sätter in 2 000 kr. Vilket konto har högst saldo efter ett år?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A ger \\(2000\\cdot1{,}018-50=1986\\) kr.</p></li><li><p>B ger \\(2000\\cdot1{,}016=2032\\) kr.</p></li><li><p>B ger högre saldo.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div></div>",
     "familj": "Jämföra sparformer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -74468,7 +74468,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text"
+    "alternativ": [{"txt": "A", "ratt": false}, {"txt": "B", "ratt": true}, {"txt": "Samma", "ratt": false}]
   },
   {
     "id": "3.259",
@@ -74480,13 +74480,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två konton har samma ränta. På konto A sätts 5 000 kr in idag. På konto B sätts samma belopp in ett år senare. Vilket konto har störst saldo två år från idag?</p><p>A: Konto A<br>B: Konto B<br>C: Lika stort saldo</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Pengarna på konto A hinner få ränta under två år, medan pengarna på B bara får ränta under ett år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>A</strong>, konto A.</p></div></div>",
+    "t": "<p>Två konton har samma ränta. På konto A sätts 5 000 kr in idag. På konto B sätts samma belopp in ett år senare. Vilket konto har störst saldo två år från idag?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Pengarna på konto A hinner få ränta under två år, medan pengarna på B bara får ränta under ett år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Konto A.</p></div></div>",
     "familj": "Jämföra sparformer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -74500,7 +74500,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text"
+    "alternativ": [{"txt": "Konto A", "ratt": true}, {"txt": "Konto B", "ratt": false}, {"txt": "Lika stort saldo", "ratt": false}]
   },
   {
     "id": "3.401",
@@ -74886,27 +74886,27 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Två modeller beskriver en minskning under sex år.</p><p>Modell A minskar med 7 % per år. Modell B minskar med totalt 35 % under hela sexårsperioden.</p><p>Vilket påstående jämför modellerna korrekt?</p><p>A. Båda lämnar 65 % av startvärdet, eftersom 7 % per år under sex år motsvarar 35 % totalt.<br>B. A lämnar 65 % av startvärdet och B cirka 64,7 %, så A ger ett något högre slutvärde.<br>C. A lämnar 58 % av startvärdet och B lämnar 65 %, så B ger ett mycket högre slutvärde.<br>D. A lämnar cirka 64,7 % av startvärdet och B lämnar 65 %, så B ger ett något högre slutvärde.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Modell A behåller faktorn \\(0{,}93^6\\approx0{,}647\\), alltså cirka 64,7 % av startvärdet.</p></li><li><p>Modell B behåller 65 %.</p></li><li><p>Eftersom 65 % är något större än 64,7 % ger modell B ett något högre slutvärde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Två modeller beskriver en minskning under sex år.</p><p>Modell A minskar med 7 % per år. Modell B minskar med totalt 35 % under hela sexårsperioden.</p><p>Vilket påstående jämför modellerna korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Modell A behåller faktorn \\(0{,}93^6\\approx0{,}647\\), alltså cirka 64,7 % av startvärdet.</p></li><li><p>Modell B behåller 65 %.</p></li><li><p>Eftersom 65 % är något större än 64,7 % ger modell B ett något högre slutvärde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A lämnar cirka 64,7 % av startvärdet och B lämnar 65 %, så B ger ett något högre slutvärde.</p></div>",
     "familj": "Genomsnittlig förändring i problem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Jämför den kvarvarande andelen efter sex år: \\(0{,}93^6\\) för A och \\(0{,}65\\) för B.</p>",
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Genomsnittlig årlig minskning"
-    ]
+    ],
+    "alternativ": [{"txt": "Båda lämnar 65 % av startvärdet, eftersom 7 % per år under sex år motsvarar 35 % totalt.", "ratt": false}, {"txt": "A lämnar 65 % av startvärdet och B cirka 64,7 %, så A ger ett något högre slutvärde.", "ratt": false}, {"txt": "A lämnar 58 % av startvärdet och B lämnar 65 %, så B ger ett mycket högre slutvärde.", "ratt": false}, {"txt": "A lämnar cirka 64,7 % av startvärdet och B lämnar 65 %, så B ger ett något högre slutvärde.", "ratt": true}]
   },
   {
     "id": "3.412",
@@ -78823,27 +78823,27 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två konton har samma räntesats. Konto A har 5 000 kr och konto B har 10 000 kr. Vilket påstående stämmer efter 10 år utan uttag?</p><p>A: A har ökat med fler procent än B<br>B: B har 5 000 kr mer än A<br>C: B har dubbelt så mycket som A<br>D: A och B har lika mycket ränta</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda multipliceras med samma faktor, så kvoten 2 består.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>C</strong></p></div></div>",
+    "t": "<p>Två konton har samma räntesats. Konto A har 5 000 kr och konto B har 10 000 kr. Vilket påstående stämmer efter 10 år utan uttag?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda multipliceras med samma faktor, så kvoten 2 består.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B har dubbelt så mycket som A.</p></div></div>",
     "familj": "Jämföra sparformer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Vad multipliceras varje år, och vad beräknas räntan på?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Ränta på ränta"
-    ]
+    ],
+    "alternativ": [{"txt": "A har ökat med fler procent än B", "ratt": false}, {"txt": "B har 5 000 kr mer än A", "ratt": false}, {"txt": "B har dubbelt så mycket som A", "ratt": true}, {"txt": "A och B har lika mycket ränta", "ratt": false}]
   },
   {
     "id": "3.542",
@@ -94786,13 +94786,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket av punktdiagrammen visar den starkaste positiva korrelationen?</p><span class=\"fig\"><svg width=\"700\" height=\"300\" viewBox=\"0 0 700 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"två punktdiagram\"><rect x=\"1\" y=\"1\" width=\"698\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><text x=\"185.0\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\">Diagram A</text><line x1=\"50.0\" y1=\"35\" x2=\"50.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"245.0\" x2=\"320\" y2=\"245.0\" stroke=\"#ECE9E5\"/><line x1=\"104.0\" y1=\"35\" x2=\"104.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"203.0\" x2=\"320\" y2=\"203.0\" stroke=\"#ECE9E5\"/><line x1=\"158.0\" y1=\"35\" x2=\"158.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"161.0\" x2=\"320\" y2=\"161.0\" stroke=\"#ECE9E5\"/><line x1=\"212.0\" y1=\"35\" x2=\"212.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"119.0\" x2=\"320\" y2=\"119.0\" stroke=\"#ECE9E5\"/><line x1=\"266.0\" y1=\"35\" x2=\"266.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"77.0\" x2=\"320\" y2=\"77.0\" stroke=\"#ECE9E5\"/><line x1=\"320.0\" y1=\"35\" x2=\"320.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"35.0\" x2=\"320\" y2=\"35.0\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"245\" x2=\"320\" y2=\"245\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"50\" y1=\"245\" x2=\"50\" y2=\"35\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"77.0\" cy=\"203.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"104.0\" cy=\"182.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"131.0\" cy=\"161.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"158.0\" cy=\"140.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"185.0\" cy=\"119.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"212.0\" cy=\"98.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"239.0\" cy=\"77.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"266.0\" cy=\"56.0\" r=\"4.5\" fill=\"#3F7FB8\"/><text x=\"515.0\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\">Diagram B</text><line x1=\"380.0\" y1=\"35\" x2=\"380.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"245.0\" x2=\"650\" y2=\"245.0\" stroke=\"#ECE9E5\"/><line x1=\"434.0\" y1=\"35\" x2=\"434.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"203.0\" x2=\"650\" y2=\"203.0\" stroke=\"#ECE9E5\"/><line x1=\"488.0\" y1=\"35\" x2=\"488.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"161.0\" x2=\"650\" y2=\"161.0\" stroke=\"#ECE9E5\"/><line x1=\"542.0\" y1=\"35\" x2=\"542.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"119.0\" x2=\"650\" y2=\"119.0\" stroke=\"#ECE9E5\"/><line x1=\"596.0\" y1=\"35\" x2=\"596.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"77.0\" x2=\"650\" y2=\"77.0\" stroke=\"#ECE9E5\"/><line x1=\"650.0\" y1=\"35\" x2=\"650.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"35.0\" x2=\"650\" y2=\"35.0\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"245\" x2=\"650\" y2=\"245\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"380\" y1=\"245\" x2=\"380\" y2=\"35\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"407.0\" cy=\"224.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"434.0\" cy=\"119.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"461.0\" cy=\"182.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"488.0\" cy=\"77.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"515.0\" cy=\"161.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"542.0\" cy=\"56.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"569.0\" cy=\"140.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"596.0\" cy=\"98.0\" r=\"4.5\" fill=\"#3F7FB8\"/></svg></span><p>A. Diagram A<br>B. Diagram B<br>C. Diagrammen visar lika stark positiv korrelation<br>D. Inget av diagrammen visar positiv korrelation</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Diagram A har en tydlig stigande riktning och punkterna ligger mycket tätt kring en rät linje.</p></li><li><p>Diagram B har större spridning.</p></li></ol><p class=\"facit-svar\"><strong>Svar: A.</strong></p></div>",
+    "t": "<p>Vilket av punktdiagrammen visar den starkaste positiva korrelationen?</p><span class=\"fig\"><svg width=\"700\" height=\"300\" viewBox=\"0 0 700 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"två punktdiagram\"><rect x=\"1\" y=\"1\" width=\"698\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><text x=\"185.0\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\">Diagram A</text><line x1=\"50.0\" y1=\"35\" x2=\"50.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"245.0\" x2=\"320\" y2=\"245.0\" stroke=\"#ECE9E5\"/><line x1=\"104.0\" y1=\"35\" x2=\"104.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"203.0\" x2=\"320\" y2=\"203.0\" stroke=\"#ECE9E5\"/><line x1=\"158.0\" y1=\"35\" x2=\"158.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"161.0\" x2=\"320\" y2=\"161.0\" stroke=\"#ECE9E5\"/><line x1=\"212.0\" y1=\"35\" x2=\"212.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"119.0\" x2=\"320\" y2=\"119.0\" stroke=\"#ECE9E5\"/><line x1=\"266.0\" y1=\"35\" x2=\"266.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"77.0\" x2=\"320\" y2=\"77.0\" stroke=\"#ECE9E5\"/><line x1=\"320.0\" y1=\"35\" x2=\"320.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"35.0\" x2=\"320\" y2=\"35.0\" stroke=\"#ECE9E5\"/><line x1=\"50\" y1=\"245\" x2=\"320\" y2=\"245\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"50\" y1=\"245\" x2=\"50\" y2=\"35\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"77.0\" cy=\"203.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"104.0\" cy=\"182.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"131.0\" cy=\"161.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"158.0\" cy=\"140.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"185.0\" cy=\"119.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"212.0\" cy=\"98.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"239.0\" cy=\"77.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"266.0\" cy=\"56.0\" r=\"4.5\" fill=\"#3F7FB8\"/><text x=\"515.0\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,monospace\" font-size=\"12\" font-weight=\"600\">Diagram B</text><line x1=\"380.0\" y1=\"35\" x2=\"380.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"245.0\" x2=\"650\" y2=\"245.0\" stroke=\"#ECE9E5\"/><line x1=\"434.0\" y1=\"35\" x2=\"434.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"203.0\" x2=\"650\" y2=\"203.0\" stroke=\"#ECE9E5\"/><line x1=\"488.0\" y1=\"35\" x2=\"488.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"161.0\" x2=\"650\" y2=\"161.0\" stroke=\"#ECE9E5\"/><line x1=\"542.0\" y1=\"35\" x2=\"542.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"119.0\" x2=\"650\" y2=\"119.0\" stroke=\"#ECE9E5\"/><line x1=\"596.0\" y1=\"35\" x2=\"596.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"77.0\" x2=\"650\" y2=\"77.0\" stroke=\"#ECE9E5\"/><line x1=\"650.0\" y1=\"35\" x2=\"650.0\" y2=\"245\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"35.0\" x2=\"650\" y2=\"35.0\" stroke=\"#ECE9E5\"/><line x1=\"380\" y1=\"245\" x2=\"650\" y2=\"245\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><line x1=\"380\" y1=\"245\" x2=\"380\" y2=\"35\" stroke=\"#2B2527\" stroke-width=\"1.7\"/><circle cx=\"407.0\" cy=\"224.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"434.0\" cy=\"119.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"461.0\" cy=\"182.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"488.0\" cy=\"77.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"515.0\" cy=\"161.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"542.0\" cy=\"56.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"569.0\" cy=\"140.0\" r=\"4.5\" fill=\"#3F7FB8\"/><circle cx=\"596.0\" cy=\"98.0\" r=\"4.5\" fill=\"#3F7FB8\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Diagram A har en tydlig stigande riktning och punkterna ligger mycket tätt kring en rät linje.</p></li><li><p>Diagram B har större spridning.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Diagram A.</strong></p></div>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -94802,7 +94802,7 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text"
+    "alternativ": [{"txt": "Diagram A", "ratt": true}, {"txt": "Diagram B", "ratt": false}, {"txt": "Diagrammen visar lika stark positiv korrelation", "ratt": false}, {"txt": "Inget av diagrammen visar positiv korrelation", "ratt": false}]
   },
   {
     "id": "5.08",
@@ -95250,13 +95250,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Tre oberoende hjul visar heltal. På hjul A är sannolikheten för udda tal 0,40, på B är resultatet alltid jämnt och på C alltid udda.</p><p>Vilket påstående är korrekt om sannolikheten att summan av de tre resultaten blir udda?</p><p>A. 60 %, eftersom B+C alltid är udda och A därför måste vara jämn.<br>B. 40 %, eftersom B+C alltid är udda och A därför måste vara udda.<br>C. 60 %, eftersom B+C alltid är jämn och A därför måste vara udda.<br>D. 40 %, eftersom B+C alltid är jämn och A därför måste vara jämn.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>B är alltid jämn och C alltid udda, så B+C är alltid udda.</p></li><li><p>För att totalsumman ska vara udda måste A då vara jämn.</p></li><li><p>Det sker med sannolikheten (1-0,40=0,60).</p></li></ol><p class=\"facit-svar\"><strong>Svar: A.</strong></p></div>",
+    "t": "<p>Tre oberoende hjul visar heltal. På hjul A är sannolikheten för udda tal 0,40, på B är resultatet alltid jämnt och på C alltid udda.</p><p>Vilket påstående är korrekt om sannolikheten att summan av de tre resultaten blir udda?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>B är alltid jämn och C alltid udda, så B+C är alltid udda.</p></li><li><p>För att totalsumman ska vara udda måste A då vara jämn.</p></li><li><p>Det sker med sannolikheten (1-0,40=0,60).</p></li></ol><p class=\"facit-svar\"><strong>Svar: 60 %, eftersom B+C alltid är udda och A därför måste vara jämn.</strong></p></div>",
     "familj": "Sannolikhet med träddiagram",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -95267,10 +95267,10 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Sannolikhet i flera steg"
-    ]
+    ],
+    "alternativ": [{"txt": "60 %, eftersom B+C alltid är udda och A därför måste vara jämn.", "ratt": true}, {"txt": "40 %, eftersom B+C alltid är udda och A därför måste vara udda.", "ratt": false}, {"txt": "60 %, eftersom B+C alltid är jämn och A därför måste vara udda.", "ratt": false}, {"txt": "40 %, eftersom B+C alltid är jämn och A därför måste vara jämn.", "ratt": false}]
   },
   {
     "id": "5.21",
@@ -96764,13 +96764,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två studier visar samma skillnad mellan två grupper. Studie A har 20 deltagare och studie B har 2 000 deltagare. Vilken studie ger normalt bättre möjlighet att skilja en verklig skillnad från slumpvariation, allt annat lika?</p><p>A. Studie A med 20 deltagare<br>B. Båda ger alltid exakt lika starkt underlag<br>C. Studie B med 2 000 deltagare<br>D. Det mindre stickprovet ger alltid mindre slumpvariation</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Större stickprov ger normalt mindre slumpmässig variation i skattade andelar, allt annat lika.</p></li></ol><p class=\"facit-svar\"><strong>Svar: C.</strong></p></div>",
+    "t": "<p>Två studier visar samma skillnad mellan två grupper. Studie A har 20 deltagare och studie B har 2 000 deltagare. Vilken studie ger normalt bättre möjlighet att skilja en verklig skillnad från slumpvariation, allt annat lika?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Större stickprov ger normalt mindre slumpmässig variation i skattade andelar, allt annat lika.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Studie B med 2 000 deltagare.</strong></p></div>",
     "familj": "Signifikans och statistisk osäkerhet",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -96780,10 +96780,10 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Statistisk osäkerhet och signifikans"
-    ]
+    ],
+    "alternativ": [{"txt": "Studie A med 20 deltagare", "ratt": false}, {"txt": "Båda ger alltid exakt lika starkt underlag", "ratt": false}, {"txt": "Studie B med 2 000 deltagare", "ratt": true}, {"txt": "Det mindre stickprovet ger alltid mindre slumpvariation", "ratt": false}]
   },
   {
     "id": "5.62",
@@ -97046,13 +97046,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två punktdiagram visar båda en fallande trend. I diagram A ligger punkterna mycket tätt kring en fallande linje. I diagram B ligger de betydligt mer utspridda kring en fallande linje.</p><p>Vilket diagram har den starkaste negativa korrelationen?</p><p>A. Diagram A<br>B. Diagram B<br>C. De är lika starka<br>D. Det går inte att jämföra eftersom båda är negativa</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Styrkan avgörs av hur tätt punkterna följer trenden, inte bara av riktningen.</p></li><li><p>Diagram A är därför starkare negativt korrelerat.</p></li></ol><p class=\"facit-svar\"><strong>Svar: A.</strong></p></div>",
+    "t": "<p>Två punktdiagram visar båda en fallande trend. I diagram A ligger punkterna mycket tätt kring en fallande linje. I diagram B ligger de betydligt mer utspridda kring en fallande linje.</p><p>Vilket diagram har den starkaste negativa korrelationen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Styrkan avgörs av hur tätt punkterna följer trenden, inte bara av riktningen.</p></li><li><p>Diagram A är därför starkare negativt korrelerat.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Diagram A.</strong></p></div>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -97062,7 +97062,7 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text"
+    "alternativ": [{"txt": "Diagram A", "ratt": true}, {"txt": "Diagram B", "ratt": false}, {"txt": "De är lika starka", "ratt": false}, {"txt": "Det går inte att jämföra eftersom båda är negativa", "ratt": false}]
   },
   {
     "id": "5.70",
@@ -99150,13 +99150,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "t": "<p>För två händelser A och B gäller att sannolikheten för A är 0,40, sannolikheten för B är 0,50 och sannolikheten att både A och B inträffar är 0,20. Vilken slutsats är riktig?</p><p>A. Händelserna är oberoende, eftersom \\(0{,}40\\cdot0{,}50=0{,}20\\).<br>B. Händelserna är beroende, eftersom A och B har olika sannolikheter.<br>C. Händelserna är beroende, eftersom \\(0{,}40+0{,}50\\ne1\\).<br>D. Det går inte att avgöra utan att känna alla möjliga utfall.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Om A och B är oberoende ska sannolikheten att båda inträffar vara produkten av sannolikheterna:</p><div class=\"facit-matte\">\\[0{,}40\\cdot0{,}50=0{,}20\\].</div></div></li><li><p>Det är exakt den givna sannolikheten, så händelserna är oberoende.</p></li></ol><p class=\"facit-svar\"><strong>Svar: A.</strong></p></div>",
+    "t": "<p>För två händelser A och B gäller att sannolikheten för A är 0,40, sannolikheten för B är 0,50 och sannolikheten att både A och B inträffar är 0,20. Vilken slutsats är riktig?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Om A och B är oberoende ska sannolikheten att båda inträffar vara produkten av sannolikheterna:</p><div class=\"facit-matte\">\\[0{,}40\\cdot0{,}50=0{,}20\\].</div></div></li><li><p>Det är exakt den givna sannolikheten, så händelserna är oberoende.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Händelserna är oberoende, eftersom \\(0{,}40\\cdot0{,}50=0{,}20\\).</strong></p></div>",
     "familj": "Multiplikationsprincipen",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -99167,10 +99167,10 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Multiplikationsprincipen för oberoende händelser"
-    ]
+    ],
+    "alternativ": [{"txt": "Händelserna är oberoende, eftersom \\(0{,}40\\cdot0{,}50=0{,}20\\).", "ratt": true}, {"txt": "Händelserna är beroende, eftersom A och B har olika sannolikheter.", "ratt": false}, {"txt": "Händelserna är beroende, eftersom \\(0{,}40+0{,}50\\ne1\\).", "ratt": false}, {"txt": "Det går inte att avgöra utan att känna alla möjliga utfall.", "ratt": false}]
   },
   {
     "id": "5.130",
@@ -101756,23 +101756,23 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Två punktmoln har båda en fallande trend. I punktmoln A ligger punkterna tätt kring trenden, medan de i punktmoln B ligger betydligt mer utspridda. Vilket påstående är bäst?</p><p>A. A visar starkare negativ korrelation än B.<br>B. B visar starkare negativ korrelation än A, eftersom spridningen är större.<br>C. De visar lika stark korrelation, eftersom båda trenderna faller.<br>D. A visar positiv korrelation och B negativ korrelation.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda punktmolnen har <strong>negativ</strong> riktning.</p></li><li><p>Det tätare punktmolnet A visar det starkare linjära sambandet.</p></li></ol><p class=\"facit-svar\"><strong>Svar: A.</strong></p></div></div>",
+    "t": "<p>Två punktmoln har båda en fallande trend. I punktmoln A ligger punkterna tätt kring trenden, medan de i punktmoln B ligger betydligt mer utspridda. Vilket påstående är bäst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda punktmolnen har <strong>negativ</strong> riktning.</p></li><li><p>Det tätare punktmolnet A visar det starkare linjära sambandet.</p></li></ol><p class=\"facit-svar\"><strong>Svar: A visar starkare negativ korrelation än B.</strong></p></div></div>",
     "familj": "Tolka korrelation",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Båda sambanden har samma riktning. Jämför därför hur tätt punkterna ligger kring respektive trend.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "spel": true
+    "spel": true,
+    "alternativ": [{"txt": "A visar starkare negativ korrelation än B.", "ratt": true}, {"txt": "B visar starkare negativ korrelation än A, eftersom spridningen är större.", "ratt": false}, {"txt": "De visar lika stark korrelation, eftersom båda trenderna faller.", "ratt": false}, {"txt": "A visar positiv korrelation och B negativ korrelation.", "ratt": false}]
   },
   {
     "id": "5.199",
@@ -102278,27 +102278,27 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I ett slumpmässigt urval på 40 personer föredrar 21 alternativ A och 19 alternativ B. Vilken slutsats är mest rimlig?</p><p>A. A har säkert majoritet i hela populationen, eftersom 21 är fler än 19.<br>B. Undersökningen är ogiltig eftersom ett slumpmässigt urval måste ge exakt 20–20.<br>C. B har säkert majoritet i populationen, eftersom små stickprov alltid underskattar B.<br>D. A leder i stickprovet, men skillnaden är så liten att ett så litet stickprov inte ger en säker slutsats om hela populationen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Stickprovet visar en liten ledning för A, 21 mot 19.</p></li><li><p>Med bara 40 personer kan en sådan skillnad lätt uppstå genom slumpvariation, så den räcker inte för att slå fast en säker majoritet i populationen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: D.</strong></p></div></div>",
+    "t": "<p>I ett slumpmässigt urval på 40 personer föredrar 21 alternativ A och 19 alternativ B. Vilken slutsats är mest rimlig?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Stickprovet visar en liten ledning för A, 21 mot 19.</p></li><li><p>Med bara 40 personer kan en sådan skillnad lätt uppstå genom slumpvariation, så den räcker inte för att slå fast en säker majoritet i populationen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: A leder i stickprovet, men skillnaden är så liten att ett så litet stickprov inte ger en säker slutsats om hela populationen.</strong></p></div></div>",
     "familj": "Signifikans och statistisk osäkerhet",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Skilj på vad stickprovet faktiskt visar och hur säkert den lilla skillnaden kan generaliseras till hela populationen.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Statistisk osäkerhet och signifikans"
-    ]
+    ],
+    "alternativ": [{"txt": "A har säkert majoritet i hela populationen, eftersom 21 är fler än 19.", "ratt": false}, {"txt": "Undersökningen är ogiltig eftersom ett slumpmässigt urval måste ge exakt 20–20.", "ratt": false}, {"txt": "B har säkert majoritet i populationen, eftersom små stickprov alltid underskattar B.", "ratt": false}, {"txt": "A leder i stickprovet, men skillnaden är så liten att ett så litet stickprov inte ger en säker slutsats om hela populationen.", "ratt": true}]
   },
   {
     "id": "5.216",
@@ -102664,13 +102664,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>System A har haft 6 fel på 1 200 användningar. System B har haft 8 fel på 2 000 användningar. Vilket system har lägst observerad felrisk?</p><p>A. System A<br>B. System B<br>C. De har samma felrisk<br>D. Det går inte att jämföra eftersom antalet användningar skiljer sig</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>System A:</p><div class=\"facit-matte\">\\[6/1200=0{,}005=0{,}5\\%\\].</div></div></li><li><div class=\"facit-berakning\"><p>System B:</p><div class=\"facit-matte\">\\[8/2000=0{,}004=0{,}4\\%\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: B.</strong> Man ska jämföra andelar, inte bara antal fel.</p></div>",
+    "t": "<p>System A har haft 6 fel på 1 200 användningar. System B har haft 8 fel på 2 000 användningar. Vilket system har lägst observerad felrisk?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>System A:</p><div class=\"facit-matte\">\\[6/1200=0{,}005=0{,}5\\%\\].</div></div></li><li><div class=\"facit-berakning\"><p>System B:</p><div class=\"facit-matte\">\\[8/2000=0{,}004=0{,}4\\%\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: System B.</strong> Man ska jämföra andelar, inte bara antal fel.</p></div>",
     "familj": "Beräkna risker",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -102681,10 +102681,10 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Risk och sannolikhet"
-    ]
+    ],
+    "alternativ": [{"txt": "System A", "ratt": false}, {"txt": "System B", "ratt": true}, {"txt": "De har samma felrisk", "ratt": false}, {"txt": "Det går inte att jämföra eftersom antalet användningar skiljer sig", "ratt": false}]
   },
   {
     "id": "5.228",
@@ -103063,27 +103063,27 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lotteri A har 3 vinstlotter av 8. Lotteri B har 4 vinstlotter av 10. I vilket lotteri är vinstchansen störst?</p><p>A. Lotteri A<br>B. Lotteri B<br>C. Samma i båda</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>A:</p><div class=\"facit-matte\">\\[3/8=0{,}375\\].</div></div></li><li><div class=\"facit-berakning\"><p>B:</p><div class=\"facit-matte\">\\[4/10=0{,}40\\].</div></div></li><li><p>Därför är vinstchansen störst i lotteri B.</p></li></ol><p class=\"facit-svar\"><strong>Svar: B.</strong></p></div>",
+    "t": "<p>Lotteri A har 3 vinstlotter av 8. Lotteri B har 4 vinstlotter av 10. I vilket lotteri är vinstchansen störst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>A:</p><div class=\"facit-matte\">\\[3/8=0{,}375\\].</div></div></li><li><div class=\"facit-berakning\"><p>B:</p><div class=\"facit-matte\">\\[4/10=0{,}40\\].</div></div></li><li><p>Därför är vinstchansen störst i lotteri B.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Lotteri B.</strong></p></div>",
     "familj": "Klassisk sannolikhet",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "procedur"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Skriv båda sannolikheterna som decimaler eller jämför bråken med gemensam nämnare.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Grundläggande sannolikhet"
-    ]
+    ],
+    "alternativ": [{"txt": "Lotteri A", "ratt": false}, {"txt": "Lotteri B", "ratt": true}, {"txt": "Samma i båda", "ratt": false}]
   },
   {
     "id": "5.239",
@@ -104252,13 +104252,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>System A har felrisk 0,8 % vid 1 500 användningar. System B har felrisk 1,5 % vid 800 användningar. Vilket system ger störst <strong>förväntat antal fel</strong>?</p><p>A. System A<br>B. System B<br>C. Samma förväntade antal<br>D. Det går inte att jämföra</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>A:</p><div class=\"facit-matte\">\\[1500\\cdot0{,}008=12\\].</div></div></li><li><div class=\"facit-berakning\"><p>B:</p><div class=\"facit-matte\">\\[800\\cdot0{,}015=12\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: C.</strong> Risk per användning och förväntat antal är inte samma sak.</p></div>",
+    "t": "<p>System A har felrisk 0,8 % vid 1 500 användningar. System B har felrisk 1,5 % vid 800 användningar. Vilket system ger störst <strong>förväntat antal fel</strong>?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>A:</p><div class=\"facit-matte\">\\[1500\\cdot0{,}008=12\\].</div></div></li><li><div class=\"facit-berakning\"><p>B:</p><div class=\"facit-matte\">\\[800\\cdot0{,}015=12\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar: Samma förväntade antal.</strong> Risk per användning och förväntat antal är inte samma sak.</p></div>",
     "familj": "Beräkna risker",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -104269,10 +104269,10 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Risk och sannolikhet"
-    ]
+    ],
+    "alternativ": [{"txt": "System A", "ratt": false}, {"txt": "System B", "ratt": false}, {"txt": "Samma förväntade antal", "ratt": true}, {"txt": "Det går inte att jämföra", "ratt": false}]
   },
   {
     "id": "5.271",
@@ -104382,13 +104382,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>System A har felrisk 0,5 % och system B 0,7 % per användning. Vilket har lägst risk?</p><p>A: System A<br>B: System B<br>C: Samma risk</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Riskerna är angivna i samma enhet och kan jämföras direkt.</p></li><li><p>Eftersom \\(0{,}5\\%&lt;0{,}7\\%\\) har system A lägre risk per användning.</p></li></ol><p class=\"facit-svar\"><strong>Svar: A.</strong></p></div></div>",
+    "t": "<p>System A har felrisk 0,5 % och system B 0,7 % per användning. Vilket har lägst risk?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Riskerna är angivna i samma enhet och kan jämföras direkt.</p></li><li><p>Eftersom \\(0{,}5\\%&lt;0{,}7\\%\\) har system A lägre risk per användning.</p></li></ol><p class=\"facit-svar\"><strong>Svar: System A.</strong></p></div></div>",
     "familj": "Beräkna risker",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -104398,10 +104398,10 @@ window.BANKMA1 = [
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Risk och sannolikhet"
-    ]
+    ],
+    "alternativ": [{"txt": "System A", "ratt": true}, {"txt": "System B", "ratt": false}, {"txt": "Samma risk", "ratt": false}]
   },
   {
     "id": "5.275",
@@ -106768,27 +106768,27 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>P(A) = 0,4. En elev påstår att P(inte A) = 0,4 också. Vilket påstående stämmer?</p><p>A: Det är fel eftersom P(inte A) = 0,6<br>B: Det är rätt eftersom händelserna är lika sannolika<br>C: Det är fel eftersom P(inte A) = −0,4<br>D: Det går inte att avgöra</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>P(A) + P(inte A) = 1, alltså P(inte A) = 0,6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>A</strong></p></div></div>",
+    "t": "<p>P(A) = 0,4. En elev påstår att P(inte A) = 0,4 också. Vilket påstående stämmer?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>P(A) + P(inte A) = 1, alltså P(inte A) = 0,6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det är fel eftersom P(inte A) = 0,6.</p></div></div>",
     "familj": "Komplementhändelse",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Vilken händelse täcker precis alla utfall som inte ingår i den första?</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "familjTidigare": [
       "Använda komplementhändelse i sannolikhet"
-    ]
+    ],
+    "alternativ": [{"txt": "Det är fel eftersom P(inte A) = 0,6", "ratt": true}, {"txt": "Det är rätt eftersom händelserna är lika sannolika", "ratt": false}, {"txt": "Det är fel eftersom P(inte A) = −0,4", "ratt": false}, {"txt": "Det går inte att avgöra", "ratt": false}]
   },
   {
     "id": "5.572",
@@ -109302,20 +109302,19 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>En termometer har inte kalibrerats och visar 1,5 °C för lågt. Vad händer med medelvärdet av 20 mätningar?</p><p>A: Det blir för högt<br>B: Det blir 30 °C för lågt<br>C: Felet försvinner vid medelvärdesbildning<br>D: Det blir cirka 1,5 °C för lågt</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett systematiskt fel försvinner inte när man tar medelvärde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <strong>D</strong></p></div></div>",
+    "t": "<p>En termometer har inte kalibrerats och visar 1,5 °C för lågt. Vad händer med medelvärdet av 20 mätningar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett systematiskt fel försvinner inte när man tar medelvärde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det blir cirka 1,5 °C för lågt.</p></div></div>",
     "familj": "Felkällor i undersökningar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Fundera på om felet drar resultatet åt ett bestämt håll (systematiskt) eller varierar slumpmässigt.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
@@ -109323,7 +109322,8 @@ window.BANKMA1 = [
     "omrTidigare": "felkallor",
     "familjTidigare": [
       "Felkällor i undersökningar och mätningar"
-    ]
+    ],
+    "alternativ": [{"txt": "Det blir för högt", "ratt": false}, {"txt": "Det blir 30 °C för lågt", "ratt": false}, {"txt": "Felet försvinner vid medelvärdesbildning", "ratt": false}, {"txt": "Det blir cirka 1,5 °C för lågt", "ratt": true}]
   },
   {
     "id": "5.539",
@@ -116004,13 +116004,13 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>En reklam säger: ”Dubbelt så många väljer produkt A som produkt B.” I undersökningen valde 8 personer A och 4 personer B. Nämn en anledning att vara försiktig med slutsatsen.</p><p>A. Påståendet är tillförlitligt enbart därför att 8 är dubbelt så stort som 4.<br>B. Påståendet är fel eftersom ”dubbelt” bara får användas när minst 100 personer deltar.<br>C. Den relativa skillnaden är korrekt beskriven, men stickprovet är mycket litet och urvalsmetoden är okänd.<br>D. Slutsatsen är säker eftersom små stickprov alltid ger mindre slumpvariation.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>8 är verkligen dubbelt 4, men totalt deltog bara 12 personer.</p></li><li><p>Resultatet kan därför vara mycket känsligt för slumpvariation, och representativiteten beror dessutom på hur personerna valdes.</p></li></ol><p class=\"facit-svar\"><strong>Svar: C.</strong></p></div>",
+    "t": "<p>En reklam säger: ”Dubbelt så många väljer produkt A som produkt B.” I undersökningen valde 8 personer A och 4 personer B. Nämn en anledning att vara försiktig med slutsatsen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>8 är verkligen dubbelt 4, men totalt deltog bara 12 personer.</p></li><li><p>Resultatet kan därför vara mycket känsligt för slumpvariation, och representativiteten beror dessutom på hur personerna valdes.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Den relativa skillnaden är korrekt beskriven, men stickprovet är mycket litet och urvalsmetoden är okänd.</strong></p></div>",
     "familj": "Kritisk granskning av påståenden",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -116021,11 +116021,11 @@ window.BANKMA1 = [
     "traningsniva": 3,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "omrTidigare": "kritisk_granskning",
     "familjTidigare": [
       "Kritisk granskning av grafer och slutsatser"
-    ]
+    ],
+    "alternativ": [{"txt": "Påståendet är tillförlitligt enbart därför att 8 är dubbelt så stort som 4.", "ratt": false}, {"txt": "Påståendet är fel eftersom ”dubbelt” bara får användas när minst 100 personer deltar.", "ratt": false}, {"txt": "Den relativa skillnaden är korrekt beskriven, men stickprovet är mycket litet och urvalsmetoden är okänd.", "ratt": true}, {"txt": "Slutsatsen är säker eftersom små stickprov alltid ger mindre slumpvariation.", "ratt": false}]
   },
   {
     "id": "6.138",
@@ -121945,8 +121945,8 @@ window.BANKMA1 = [
     ],
     "geogebra": false,
     "miniräknare": true,
-    "t": "<p>Två pumpar fyller lika stora tomma tankar. Pump A har flödet 18 liter/minut och B 12 liter/minut. Vilket påstående gäller oavsett tankarnas volym?</p><p>A: A tar 2/3 av tiden som B behöver.<br>B: A tar 6 minuter mindre tid än B.<br>C: A och B behöver lika lång tid.<br>D: A tar 1,5 gånger så lång tid som B.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: A. Fylltiden är volym/flöde. Därför är t_A/t_B = 12/18 = 2/3. En skillnad på 6 liter/minut innebär inte en skillnad på 6 minuter.</p></div>",
+    "t": "<p>Två pumpar fyller lika stora tomma tankar. Pump A har flödet 18 liter/minut och B 12 liter/minut. Vilket påstående gäller oavsett tankarnas volym?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: A tar 2/3 av tiden som B behöver. Fylltiden är volym/flöde. Därför är t_A/t_B = 12/18 = 2/3. En skillnad på 6 liter/minut innebär inte en skillnad på 6 minuter.</p></div>",
     "ledtrad": "<p>Hur påverkar större flöde den tid som behövs?</p>",
     "niva": "E",
     "poang": "1/0/0",
@@ -121955,16 +121955,16 @@ window.BANKMA1 = [
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "självrättning": true,
     "tolerans": null,
-    "svarFormat": "kort_text",
     "traningsniva": 2,
     "spel": true,
     "familjTidigare": [
       "Yrkesformler"
-    ]
+    ],
+    "alternativ": [{"txt": "A tar 2/3 av tiden som B behöver.", "ratt": true}, {"txt": "A tar 6 minuter mindre tid än B.", "ratt": false}, {"txt": "A och B behöver lika lång tid.", "ratt": false}, {"txt": "A tar 1,5 gånger så lång tid som B.", "ratt": false}]
   },
   {
     "id": "7.89",
@@ -125832,13 +125832,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Mätning A är 50 ± 1 och mätning B är 200 ± 4. Vilken har minst relativ felmarginal?</p><p>A. A, eftersom 1 &lt; 4.<br>B. B, eftersom 200 är större än 50.<br>C. De har samma relativa felmarginal, 2 %.<br>D. Det går inte att jämföra utan enhet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">A:</p><div class=\"facit-matte\">\\[\\frac{1}{50}\\cdot 100=2\\, \\%\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">B:</p><div class=\"facit-matte\">\\[\\frac{4}{200}\\cdot 100=2\\, \\%\\]</div></div></li><li><p>De är alltså <strong>lika precisa relativt sett</strong>.</p></li></ol></div>",
+    "t": "<p>Mätning A är 50 ± 1 och mätning B är 200 ± 4. Vilken har minst relativ felmarginal?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p class=\"facit-metod\">A:</p><div class=\"facit-matte\">\\[\\frac{1}{50}\\cdot 100=2\\, \\%\\]</div></div></li><li><div class=\"facit-berakning\"><p class=\"facit-metod\">B:</p><div class=\"facit-matte\">\\[\\frac{4}{200}\\cdot 100=2\\, \\%\\]</div></div></li><li><p>De är alltså <strong>lika precisa relativt sett</strong>.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> De har samma relativa felmarginal, 2 %.</p></div>",
     "familj": "Absolut och relativt mätfel",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -125848,10 +125848,10 @@ window.BANKMA1 = [
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
-    "svarFormat": "kort_text",
     "familjTidigare": [
       "Mätfel och felmarginal"
-    ]
+    ],
+    "alternativ": [{"txt": "Mätning A, eftersom 1 &lt; 4.", "ratt": false}, {"txt": "Mätning B, eftersom 200 är större än 50.", "ratt": false}, {"txt": "De har samma relativa felmarginal, 2 %.", "ratt": true}, {"txt": "Det går inte att jämföra utan enhet.", "ratt": false}]
   },
   {
     "id": "7.186",
@@ -136855,13 +136855,13 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Lag A vann 17 av 25 matcher. Lag B vann 20 av 30 matcher. Vilket lag vann störst andel av sina matcher?</p><p>A: Lag A<br>B: Lag B<br>C: Andelarna är lika stora</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\text{A: }\\frac{17}{25}=0{,}68\\qquad\\text{B: }\\frac{20}{30}=0{,}666\\ldots\\]</p></li><li><p>Lag A vann störst andel, trots att lag B vann fler matcher.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: Lag A</p></div></div>",
+    "t": "<p>Lag A vann 17 av 25 matcher. Lag B vann 20 av 30 matcher. Vilket lag vann störst andel av sina matcher?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[\\text{A: }\\frac{17}{25}=0{,}68\\qquad\\text{B: }\\frac{20}{30}=0{,}666\\ldots\\]</p></li><li><p>Lag A vann störst andel, trots att lag B vann fler matcher.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lag A</p></div></div>",
     "familj": "Jämföra och omvandla andelar",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -136869,13 +136869,13 @@ window.BANKMA1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Jämför andelarna, inte antalen. Skriv båda i decimalform.</p>",
-    "svarFormat": "kort_text",
     "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": true,
     "familjTidigare": [
       "Jämföra andelar"
-    ]
+    ],
+    "alternativ": [{"txt": "Lag A", "ratt": true}, {"txt": "Lag B", "ratt": false}, {"txt": "Andelarna är lika stora", "ratt": false}]
   },
   {
     "id": "0.965",

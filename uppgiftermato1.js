@@ -61814,13 +61814,13 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Produkt A kräver 3 arbetstimmar och produkt B kräver 2 arbetstimmar. Totalt finns högst 60 arbetstimmar. Vilket alternativ beskriver arbetstidsvillkoret och att antalen \\(x\\) och \\(y\\) inte kan vara negativa?</p><p>A. \\(3x+2y\\ge60,\\ x\\ge0,\\ y\\ge0\\)<br>B. \\(3x+2y\\le60,\\ x\\ge0,\\ y\\ge0\\)<br>C. \\(2x+3y\\le60,\\ x\\ge0,\\ y\\ge0\\)<br>D. \\(3x+2y\\le60,\\ x\\le0,\\ y\\le0\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\"Högst 60 timmar\" ger \\(3x+2y\\le60\\).</p></li><li><p>Antal produkter kan inte vara negativa, så \\(x\\ge0\\) och \\(y\\ge0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Produkt A kräver 3 arbetstimmar och produkt B kräver 2 arbetstimmar. Totalt finns högst 60 arbetstimmar. Vilket alternativ beskriver arbetstidsvillkoret och att antalen \\(x\\) och \\(y\\) inte kan vara negativa?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\"Högst 60 timmar\" ger \\(3x+2y\\le60\\).</p></li><li><p>Antal produkter kan inte vara negativa, så \\(x\\ge0\\) och \\(y\\ge0\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x+2y\\le60,\\ x\\ge0,\\ y\\ge0\\).</p></div>",
     "familj": "Ställa upp optimeringsproblem",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -61833,7 +61833,8 @@ window.BANKMATO1 = [
     "spel": true,
     "familjTidigare": [
       "Formulera bivillkor i linjär optimering"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(3x+2y\\ge60,\\ x\\ge0,\\ y\\ge0\\)", "ratt": false}, {"txt": "\\(3x+2y\\le60,\\ x\\ge0,\\ y\\ge0\\)", "ratt": true}, {"txt": "\\(2x+3y\\le60,\\ x\\ge0,\\ y\\ge0\\)", "ratt": false}, {"txt": "\\(3x+2y\\le60,\\ x\\le0,\\ y\\le0\\)", "ratt": false}]
   },
   {
     "id": "4.161",

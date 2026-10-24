@@ -30246,26 +30246,26 @@ window.BANKMATF1 = [
     "omr": "forandringsmodeller",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Ett föremål med temperaturen \\(T(t)\\) kyls i ett rum som håller 20 °C. Enligt Newtons avsvalningslag är förändringshastigheten proportionell mot temperaturskillnaden mot rummet. Vilken differentialekvation beskriver modellen bäst?</p><p>A. \\(T'=k(T-20)\\) med \\(k&gt;0\\)<br>B. \\(T'=20k\\)<br>C. \\(T'=-k(T-20)\\) med \\(k&gt;0\\)<br>D. \\(T'=T^2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Identifiera först vilken storhet som förändras och vilka mekanismer som ökar respektive minskar den.</p></li><li><p>Differentialekvationen ska uttrycka nettot av dessa förändringshastigheter med korrekta enheter.</p></li><li><p>När föremålet är varmare än rummet ska temperaturen minska, alltså måste derivatan vara negativ.</p></li><li><div class=\"facit-berakning\"><p>Därför används</p><div class=\"facit-matte\">\\[T'=-k(T-20)\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>Ett föremål med temperaturen \\(T(t)\\) kyls i ett rum som håller 20 °C. Enligt Newtons avsvalningslag är förändringshastigheten proportionell mot temperaturskillnaden mot rummet. Vilken differentialekvation beskriver modellen bäst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Identifiera först vilken storhet som förändras och vilka mekanismer som ökar respektive minskar den.</p></li><li><p>Differentialekvationen ska uttrycka nettot av dessa förändringshastigheter med korrekta enheter.</p></li><li><p>När föremålet är varmare än rummet ska temperaturen minska, alltså måste derivatan vara negativ.</p></li><li><div class=\"facit-berakning\"><p>Därför används</p><div class=\"facit-matte\">\\[T'=-k(T-20)\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(T'=-k(T-20)\\) med \\(k&gt;0\\).</p></div>",
     "familj": "Modellering med differentialekvationer",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "modellering",
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Identifiera vad som förändras och vilka bidrag som ökar respektive minskar storheten. Skriv förändringshastigheten som nettot av dessa bidrag.</p>",
     "traningsniva": 1,
     "typ": "välja differentialekvation för Newtons avsvalningslag",
     "omrTidigare": [
       "modellering_digitalt"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(T'=k(T-20)\\) med \\(k&gt;0\\)", "ratt": false}, {"txt": "\\(T'=20k\\)", "ratt": false}, {"txt": "\\(T'=-k(T-20)\\) med \\(k&gt;0\\)", "ratt": true}, {"txt": "\\(T'=T^2\\)", "ratt": false}]
   },
   {
     "kap": 4,

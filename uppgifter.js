@@ -202021,5 +202021,287 @@ window.BANK = [
   "tolerans": 0.5,
   "svarVardesiffror": 2,
   "svarEnhet": "N"
+},
+{
+  "id": "5.629",
+  "kap": 5,
+  "omr": "kollisioner",
+  "niva": "E",
+  "typ": "rörelsemängd före och efter",
+  "poang": "(1/0/0)",
+  "t": "<p>Vagn A på 2,0 kg rullar med 3,0 m/s mot vagn B på 4,0 kg, som står stilla. Vagnarna fastnar i varandra. Bortse från friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"140\" viewBox=\"0 0 420 140\" role=\"img\" aria-label=\"Vagn A på 2,0 kg rör sig åt höger med 3,0 m/s mot vagn B på 4,0 kg som står stilla.\"><title>Vagn A på 2,0 kg rör sig åt höger med 3,0 m/s mot vagn B på 4,0 kg som står stilla.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"138\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"15\" y1=\"120\" x2=\"405\" y2=\"120\" stroke=\"#5b6773\" stroke-width=\"2\"/><rect x=\"50\" y=\"78\" width=\"100\" height=\"34\" rx=\"5\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"62\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"138\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><text x=\"100.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A 2,0 kg</text><line x1=\"70.0\" y1=\"64.0\" x2=\"124.0\" y2=\"64.0\" stroke=\"#c2410c\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"130.0,64.0 120.0,59.1 120.0,68.9\" fill=\"#c2410c\"/><rect x=\"67.6\" y=\"40.0\" width=\"64.8\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"100.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">3,0 m/s</text><rect x=\"250\" y=\"78\" width=\"120\" height=\"34\" rx=\"5\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"262\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"358\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><text x=\"310.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B 4,0 kg</text><text x=\"310.0\" y=\"64.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">står stilla</text></svg></span><p>Hur stor är vagnarnas sammanlagda rörelsemängd efter stöten? (Svara i kg·m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Rörelsemängden bevaras i stöten. Före stöten har bara vagn A rörelsemängd:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=mv=2{,}0\\cdot3{,}0=6{,}0\\ \\mathrm{kg\\,m/s}\\]</div></div><div class=\"facit-stycke\"><p>Efter stöten är den sammanlagda rörelsemängden lika stor.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6,0 kg·m/s.</p></div>",
+  "familj": "Stötar där kropparna fastnar",
+  "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Rörelsemängden är lika stor före och efter stöten.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6.0,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "kg·m/s"
+},
+{
+  "id": "5.630",
+  "kap": 5,
+  "omr": "kollisioner",
+  "niva": "E",
+  "typ": "två likadana vagnar fastnar",
+  "poang": "(1/0/0)",
+  "t": "<p>En vagn på 1,0 kg rullar med 4,0 m/s och krockar med en likadan vagn som står stilla. Vagnarna fastnar och rullar vidare tillsammans. Bortse från friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"140\" viewBox=\"0 0 420 140\" role=\"img\" aria-label=\"Två likadana vagnar på 1,0 kg. Den vänstra rör sig åt höger med 4,0 m/s och den högra står stilla.\"><title>Två likadana vagnar på 1,0 kg. Den vänstra rör sig åt höger med 4,0 m/s och den högra står stilla.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"138\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"15\" y1=\"120\" x2=\"405\" y2=\"120\" stroke=\"#5b6773\" stroke-width=\"2\"/><rect x=\"60\" y=\"78\" width=\"100\" height=\"34\" rx=\"5\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"72\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"148\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><text x=\"110.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">1,0 kg</text><line x1=\"80.0\" y1=\"64.0\" x2=\"134.0\" y2=\"64.0\" stroke=\"#c2410c\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"140.0,64.0 130.0,59.1 130.0,68.9\" fill=\"#c2410c\"/><rect x=\"77.6\" y=\"40.0\" width=\"64.8\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"110.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">4,0 m/s</text><rect x=\"260\" y=\"78\" width=\"100\" height=\"34\" rx=\"5\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"272\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"348\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><text x=\"310.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">1,0 kg</text><text x=\"310.0\" y=\"64.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">står stilla</text></svg></span><p>Hur stor fart har vagnarna efter stöten?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Rörelsemängden 1,0 · 4,0 = 4,0 kg·m/s bevaras, men nu rör sig dubbelt så stor massa.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{4{,}0}{2{,}0}=2{,}0\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2,0 m/s.</p></div>",
+  "familj": "Stötar där kropparna fastnar",
+  "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Samma rörelsemängd fördelas på dubbelt så stor massa.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "2,0 m/s",
+      "ratt": true,
+      "kommentar": "Dubbel massa ger halva farten."
+    },
+    {
+      "txt": "4,0 m/s",
+      "ratt": false,
+      "kommentar": "Då skulle rörelsemängden fördubblas."
+    },
+    {
+      "txt": "8,0 m/s",
+      "ratt": false,
+      "kommentar": "Farten kan inte öka när vagnarna fastnar."
+    },
+    {
+      "txt": "0 m/s",
+      "ratt": false,
+      "kommentar": "Det finns rörelsemängd före stöten, och den finns kvar efteråt."
+    }
+  ]
+},
+{
+  "id": "5.631",
+  "kap": 5,
+  "omr": "kollisioner",
+  "niva": "E",
+  "typ": "motriktade likadana vagnar",
+  "poang": "(1/0/0)",
+  "t": "<p>Två likadana vagnar på 0,50 kg rullar mot varandra med farten 3,0 m/s var. De fastnar i varandra. Bortse från friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"140\" viewBox=\"0 0 420 140\" role=\"img\" aria-label=\"Två likadana vagnar på 0,50 kg rör sig mot varandra med 3,0 m/s var.\"><title>Två likadana vagnar på 0,50 kg rör sig mot varandra med 3,0 m/s var.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"138\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"15\" y1=\"120\" x2=\"405\" y2=\"120\" stroke=\"#5b6773\" stroke-width=\"2\"/><rect x=\"50\" y=\"78\" width=\"110\" height=\"34\" rx=\"5\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"62\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"148\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><text x=\"105.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">0,50 kg</text><line x1=\"75.0\" y1=\"64.0\" x2=\"129.0\" y2=\"64.0\" stroke=\"#c2410c\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"135.0,64.0 125.0,59.1 125.0,68.9\" fill=\"#c2410c\"/><rect x=\"72.6\" y=\"40.0\" width=\"64.8\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">3,0 m/s</text><rect x=\"260\" y=\"78\" width=\"110\" height=\"34\" rx=\"5\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"272\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"358\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><text x=\"315.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">0,50 kg</text><line x1=\"345.0\" y1=\"64.0\" x2=\"291.0\" y2=\"64.0\" stroke=\"#c2410c\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"285.0,64.0 295.0,68.9 295.0,59.1\" fill=\"#c2410c\"/><rect x=\"282.6\" y=\"40.0\" width=\"64.8\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"315.0\" y=\"54.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">3,0 m/s</text></svg></span><p>Hur stor fart har vagnarna efter stöten? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vagnarna har lika stora rörelsemängder åt motsatta håll. Den sammanlagda rörelsemängden är därför noll:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p=0{,}50\\cdot3{,}0+0{,}50\\cdot(-3{,}0)=0\\]</div></div><div class=\"facit-stycke\"><p>Efter stöten är rörelsemängden fortfarande noll, så vagnarna står stilla.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0 m/s.</p></div>",
+  "familj": "Stötar där kropparna fastnar",
+  "familjNyckel": "kollisioner__stotar_dar_kropparna_fastnar",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Lägg ihop rörelsemängderna med tecken.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0,
+  "tolerans": 0.05,
+  "svarVardesiffror": 1,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "5.632",
+  "kap": 5,
+  "omr": "kollisioner",
+  "niva": "E",
+  "typ": "isärskjutning från vila",
+  "poang": "(1/0/0)",
+  "t": "<p>Två vagnar står stilla med en hoptryckt fjäder mellan sig. Fjädern släpps och vagnarna skjuts isär. Efteråt har vagn B rörelsemängden +12 kg·m/s. Höger är positiv riktning. Bortse från friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Två vagnar med en hoptryckt fjäder mellan sig står stilla. Höger är positiv riktning.\"><title>Två vagnar med en hoptryckt fjäder mellan sig står stilla. Höger är positiv riktning.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"15\" y1=\"120\" x2=\"405\" y2=\"120\" stroke=\"#5b6773\" stroke-width=\"2\"/><rect x=\"70\" y=\"78\" width=\"120\" height=\"34\" rx=\"5\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"82\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"178\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><text x=\"130.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">A</text><rect x=\"235\" y=\"78\" width=\"120\" height=\"34\" rx=\"5\" fill=\"#eef4fb\" stroke=\"#216d87\" stroke-width=\"2.2\"/><circle cx=\"247\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"343\" cy=\"115\" r=\"5\" fill=\"#172b3a\"/><text x=\"295.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">B</text><polyline points=\"190,86 195,74 200,98 205,86\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polyline points=\"205,86 210,74 215,98 220,86\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polyline points=\"220,86 225,74 230,98 235,86\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"300.0\" y1=\"150.0\" x2=\"374.6\" y2=\"150.0\" stroke=\"#5b6773\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><polygon points=\"380.0,150.0 371.0,145.1 371.0,154.9\" fill=\"#5b6773\"/><text x=\"296.0\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">positiv riktning</text></svg></span><p>Hur stor rörelsemängd har vagn A efteråt? (Svara i kg·m/s och ange tecknet.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Före är den sammanlagda rörelsemängden noll. Den är noll även efteråt, så vagnarnas rörelsemängder tar ut varandra:</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[p_A+12=0\\quad\\Rightarrow\\quad p_A=-12\\ \\mathrm{kg\\,m/s}\\]</div></div><div class=\"facit-stycke\"><p>Minustecknet betyder att vagn A rör sig åt vänster.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> −12 kg·m/s.</p></div>",
+  "familj": "Rekyl och isärskjutning",
+  "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Den sammanlagda rörelsemängden är noll före och efter.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -12,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "kg·m/s"
+},
+{
+  "id": "5.633",
+  "kap": 5,
+  "omr": "kollisioner",
+  "niva": "E",
+  "typ": "lika tunga åkare skjuter ifrån",
+  "poang": "(1/0/0)",
+  "t": "<p>Två skridskoåkare med massan 50 kg vardera står stilla på isen och skjuter ifrån varandra. Den högra åkaren får farten 1,5 m/s. Bortse från friktion.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"165\" viewBox=\"0 0 420 165\" role=\"img\" aria-label=\"Två skridskoåkare med massan 50 kg vardera står mot varandra på isen och skjuter ifrån varandra.\"><title>Två skridskoåkare med massan 50 kg vardera står mot varandra på isen och skjuter ifrån varandra.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"163\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"10\" y=\"128\" width=\"400\" height=\"6\" fill=\"#dbeafe\"/><circle cx=\"170\" cy=\"48\" r=\"12\" fill=\"#fde7d4\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"170\" y1=\"60\" x2=\"170\" y2=\"100\" stroke=\"#172b3a\" stroke-width=\"3\"/><line x1=\"170\" y1=\"100\" x2=\"158\" y2=\"128\" stroke=\"#172b3a\" stroke-width=\"3\"/><line x1=\"170\" y1=\"100\" x2=\"182\" y2=\"128\" stroke=\"#172b3a\" stroke-width=\"3\"/><text x=\"170.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">50 kg</text><circle cx=\"250\" cy=\"48\" r=\"12\" fill=\"#fde7d4\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><line x1=\"250\" y1=\"60\" x2=\"250\" y2=\"100\" stroke=\"#172b3a\" stroke-width=\"3\"/><line x1=\"250\" y1=\"100\" x2=\"238\" y2=\"128\" stroke=\"#172b3a\" stroke-width=\"3\"/><line x1=\"250\" y1=\"100\" x2=\"262\" y2=\"128\" stroke=\"#172b3a\" stroke-width=\"3\"/><text x=\"250.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">50 kg</text><line x1=\"170\" y1=\"76\" x2=\"250\" y2=\"76\" stroke=\"#172b3a\" stroke-width=\"3\"/><line x1=\"150.0\" y1=\"76.0\" x2=\"96.0\" y2=\"76.0\" stroke=\"#c2410c\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"90.0,76.0 100.0,80.9 100.0,71.1\" fill=\"#c2410c\"/><text x=\"120.0\" y=\"66.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">?</text><line x1=\"270.0\" y1=\"76.0\" x2=\"324.0\" y2=\"76.0\" stroke=\"#c2410c\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"330.0,76.0 320.0,71.1 320.0,80.9\" fill=\"#c2410c\"/><text x=\"300.0\" y=\"66.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">1,5 m/s</text></svg></span><p>Vilken fart får den vänstra åkaren? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Före är rörelsemängden noll, så åkarna får lika stora rörelsemängder åt motsatta håll.</p></div><div class=\"facit-stycke\"><p>Massorna är lika stora. Därför blir farterna också lika stora, men riktade åt var sitt håll.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,5 m/s, åt vänster.</p></div>",
+  "familj": "Rekyl och isärskjutning",
+  "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Lika stora massor och lika stora rörelsemängder.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.5,
+  "tolerans": 0.05,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "5.634",
+  "kap": 5,
+  "omr": "kollisioner",
+  "niva": "E",
+  "typ": "gevärets rekyl",
+  "poang": "(1/0/0)",
+  "t": "<p>Ett gevär hänger fritt och står stilla. När det avfyras skjuts kulan iväg åt höger, och geväret får en hastighet åt vänster.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"150\" viewBox=\"0 0 420 150\" role=\"img\" aria-label=\"Ett gevär som står stilla avfyrar en kula åt höger. Geväret rör sig åt vänster.\"><title>Ett gevär som står stilla avfyrar en kula åt höger. Geväret rör sig åt vänster.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"148\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70,80 230,80 230,90 150,90 120,112 92,112 104,90 70,90\" fill=\"#d6c3a5\" stroke=\"#172b3a\" stroke-width=\"1.8\"/><ellipse cx=\"300\" cy=\"85\" rx=\"12\" ry=\"5\" fill=\"#5b6773\"/><line x1=\"320.0\" y1=\"85.0\" x2=\"384.0\" y2=\"85.0\" stroke=\"#c2410c\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"390.0,85.0 380.0,80.1 380.0,89.9\" fill=\"#c2410c\"/><text x=\"355.0\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">kula</text><line x1=\"110.0\" y1=\"130.0\" x2=\"56.0\" y2=\"130.0\" stroke=\"#216d87\" stroke-width=\"2.6\" stroke-linecap=\"round\"/><polygon points=\"50.0,130.0 60.0,134.9 60.0,125.1\" fill=\"#216d87\"/><text x=\"130.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">geväret</text></svg></span><p>Vilken förklaring är rätt?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Före skottet står allt stilla, så den sammanlagda rörelsemängden är noll.</p></div><div class=\"facit-stycke\"><p>Kulan får rörelsemängd åt höger. För att summan fortfarande ska vara noll måste geväret få lika stor rörelsemängd åt vänster.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Rörelsemängden är noll före skottet och måste vara noll efter.</p></div>",
+  "familj": "Rekyl och isärskjutning",
+  "familjNyckel": "kollisioner__rekyl_och_isarskjutning",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hur stor är den sammanlagda rörelsemängden före skottet?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Rörelsemängden är noll före skottet och måste vara noll efter.",
+      "ratt": true,
+      "kommentar": "Kulans och gevärets rörelsemängder tar ut varandra."
+    },
+    {
+      "txt": "Luften bakom geväret trycker det bakåt.",
+      "ratt": false,
+      "kommentar": "Rekylen uppstår även i vakuum."
+    },
+    {
+      "txt": "Geväret får lika stor fart som kulan.",
+      "ratt": false,
+      "kommentar": "Rörelsemängden är lika stor, men geväret har mycket större massa och får liten fart."
+    },
+    {
+      "txt": "Kulan drar geväret med sig bakåt.",
+      "ratt": false,
+      "kommentar": "Kulan och geväret trycker isär varandra."
+    }
+  ]
+},
+{
+  "id": "5.635",
+  "kap": 5,
+  "omr": "kollisioner",
+  "niva": "E",
+  "typ": "rörelseenergi efter elastisk stöt",
+  "poang": "(1/0/0)",
+  "t": "<p>Två biljardbollar krockar. Före stöten är den sammanlagda rörelseenergin 12 J. Stöten är elastisk.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"170\" viewBox=\"0 0 420 170\" role=\"img\" aria-label=\"Två biljardbollar före och efter en elastisk stöt. Före är den sammanlagda rörelseenergin 12 J.\"><title>Två biljardbollar före och efter en elastisk stöt. Före är den sammanlagda rörelseenergin 12 J.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"168\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"20.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">Före</text><circle cx=\"140\" cy=\"45\" r=\"16\" fill=\"#fef3c7\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"260\" cy=\"45\" r=\"16\" fill=\"#dbeafe\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"160.0\" y1=\"45.0\" x2=\"204.6\" y2=\"45.0\" stroke=\"#c2410c\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"210.0,45.0 201.0,40.1 201.0,49.9\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">Eₖ = 12 J</text><text x=\"20.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">Efter</text><circle cx=\"140\" cy=\"125\" r=\"16\" fill=\"#fef3c7\" stroke=\"#172b3a\" stroke-width=\"2\"/><circle cx=\"260\" cy=\"125\" r=\"16\" fill=\"#dbeafe\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"280.0\" y1=\"125.0\" x2=\"314.6\" y2=\"125.0\" stroke=\"#c2410c\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><polygon points=\"320.0,125.0 311.0,120.1 311.0,129.9\" fill=\"#c2410c\"/><text x=\"330.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">Eₖ = ?</text></svg></span><p>Hur stor är den sammanlagda rörelseenergin efter stöten? (Svara i J.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I en elastisk stöt bevaras både rörelsemängden och den sammanlagda rörelseenergin.</p></div><div class=\"facit-stycke\"><p>Energin kan fördelas om mellan bollarna, men summan är fortfarande 12 J.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 12 J.</p></div>",
+  "familj": "Elastisk stöt och energikontroll",
+  "familjNyckel": "kollisioner__elastisk_stot_och_energikontroll",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Vad betyder det att en stöt är elastisk?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0.5,
+  "svarVardesiffror": 2,
+  "svarEnhet": "J"
+},
+{
+  "id": "5.636",
+  "kap": 5,
+  "omr": "kollisioner",
+  "niva": "E",
+  "typ": "avgöra om en stöt är elastisk ur diagram",
+  "poang": "(1/0/0)",
+  "t": "<p>Två vagnar krockar och studsar isär. Diagrammet visar vagnarnas sammanlagda rörelseenergi före och efter stöten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"245\" viewBox=\"0 0 380 245\" role=\"img\" aria-label=\"Stapeldiagram: den sammanlagda rörelseenergin är 10 J före stöten och 7 J efter stöten.\"><title>Stapeldiagram: den sammanlagda rörelseenergin är 10 J före stöten och 7 J efter stöten.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"20.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">sammanlagd rörelseenergi (J)</text><line x1=\"60\" y1=\"186\" x2=\"360\" y2=\"186\" stroke=\"#e5eaf0\"/><text x=\"52.0\" y=\"191.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"60\" y1=\"160\" x2=\"360\" y2=\"160\" stroke=\"#e5eaf0\"/><text x=\"52.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"60\" y1=\"134\" x2=\"360\" y2=\"134\" stroke=\"#e5eaf0\"/><text x=\"52.0\" y=\"139.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"60\" y1=\"108\" x2=\"360\" y2=\"108\" stroke=\"#e5eaf0\"/><text x=\"52.0\" y=\"113.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">8</text><line x1=\"60\" y1=\"82\" x2=\"360\" y2=\"82\" stroke=\"#e5eaf0\"/><text x=\"52.0\" y=\"87.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"60\" y1=\"56\" x2=\"360\" y2=\"56\" stroke=\"#e5eaf0\"/><text x=\"52.0\" y=\"61.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">12</text><line x1=\"60\" y1=\"212\" x2=\"360\" y2=\"212\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"212\" x2=\"60\" y2=\"49.5\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><rect x=\"110\" y=\"82\" width=\"70\" height=\"130\" fill=\"#216d87\"/><text x=\"145.0\" y=\"76.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">10 J</text><text x=\"145.0\" y=\"232.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">före stöten</text><rect x=\"240\" y=\"121\" width=\"70\" height=\"91\" fill=\"#216d87\"/><text x=\"275.0\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">7 J</text><text x=\"275.0\" y=\"232.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">efter stöten</text></svg></span><p>Är stöten elastisk?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En stöt är elastisk om den sammanlagda rörelseenergin är lika stor före och efter.</p></div><div class=\"facit-stycke\"><p>Här minskar den från 10 J till 7 J. 3 J har omvandlats till andra energiformer, till exempel värme och ljud. Stöten är alltså inte elastisk.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Nej, rörelseenergin minskar.</p></div>",
+  "familj": "Elastisk stöt och energikontroll",
+  "familjNyckel": "kollisioner__elastisk_stot_och_energikontroll",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför rörelseenergin före och efter.</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Nej, rörelseenergin minskar.",
+      "ratt": true,
+      "kommentar": "10 J blir 7 J."
+    },
+    {
+      "txt": "Ja, eftersom vagnarna studsar isär.",
+      "ratt": false,
+      "kommentar": "Att vagnarna studsar räcker inte. Energin måste vara lika stor."
+    },
+    {
+      "txt": "Ja, eftersom rörelsemängden bevaras.",
+      "ratt": false,
+      "kommentar": "Rörelsemängden bevaras i alla stötar. Det är rörelseenergin som avgör."
+    },
+    {
+      "txt": "Det går inte att avgöra utan massorna.",
+      "ratt": false,
+      "kommentar": "Diagrammet visar energin direkt."
+    }
+  ]
 }
 ];

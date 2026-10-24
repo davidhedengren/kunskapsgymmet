@@ -161154,5 +161154,2645 @@ window.BANKMA1 = [
     "rättSvar": -5,
     "tolerans": 0,
     "svarEnhet": "kr"
+  },
+  {
+    "id": "1.1540",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm värdet av \\(7a-3\\) då \\(a=4\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7\\cdot4-3=28-3=25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25</p></div>",
+    "familj": "Värdet av ett uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Byt ut \\(a\\) mot 4.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1541",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm värdet av \\(x^2-2x\\) då \\(x=-2\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-2)^2-2\\cdot(-2)=4+4=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8</p></div>",
+    "familj": "Värdet av ett uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sätt parentes runt −2 när du byter ut \\(x\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1542",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kvadrat har sidan \\(s\\) cm. Skriv ett uttryck för kvadratens omkrets.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s+s+s+s=4s\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4s\\)</p></div>",
+    "familj": "Teckna och tolka uttryck",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En kvadrat har fyra lika långa sidor.</p>",
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "rättSvar": "4s",
+    "tolerans": null
+  },
+  {
+    "id": "1.1543",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilket uttryck beskriver ”dubbla talet minskat med 3” om talet kallas \\(x\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dubbla talet är \\(2x\\), och sedan minskas det med 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x-3\\)</p></div>",
+    "familj": "Teckna och tolka uttryck",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vad görs först, och vad görs sedan?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "2x − 3",
+        "ratt": true
+      },
+      {
+        "txt": "2(x − 3)",
+        "ratt": false,
+        "kommentar": "Då minskas talet först och dubbleras sedan."
+      },
+      {
+        "txt": "3 − 2x",
+        "ratt": false,
+        "kommentar": "Det är 3 minskat med dubbla talet."
+      },
+      {
+        "txt": "x − 6",
+        "ratt": false,
+        "kommentar": "Dubbla talet är 2x."
+      }
+    ]
+  },
+  {
+    "id": "1.1544",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En idrottsklubb tar 150 kr i medlemsavgift och 40 kr för varje träning. Skriv ett uttryck för vad det kostar att gå på \\(n\\) träningar.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[150+40n\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(40n+150\\) kr</p></div>",
+    "familj": "Teckna och tolka uttryck",
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilken del är fast, och vilken del beror på \\(n\\)?</p>",
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "rättSvar": "40n+150",
+    "tolerans": null
+  },
+  {
+    "id": "1.1545",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Skostorleken \\(S\\) kan uppskattas med formeln \\(S=1{,}5L+2\\), där \\(L\\) är fotens längd i cm. Vilken skostorlek passar en fot som är 26 cm lång?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}5\\cdot26+2=39+2=41\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Storlek 41.</p></div>",
+    "familj": "Värdet av ett uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sätt in \\(L=26\\) i formeln.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 41,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1546",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Temperatur i grader Fahrenheit kan beräknas med \\(F=1{,}8C+32\\), där \\(C\\) är temperaturen i grader Celsius. Hur många grader Fahrenheit är −10 °C?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}8\\cdot(-10)+32=-18+32=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14 °F.</p></div>",
+    "familj": "Värdet av ett uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Var noga med minustecknet.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": 0,
+    "svarEnhet": "°F"
+  },
+  {
+    "id": "1.1547",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>På en gård finns \\(x\\) hönor och \\(y\\) kor. Skriv ett uttryck för det totala antalet ben.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x+4y\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x+4y\\)</p></div>",
+    "familj": "Teckna och tolka uttryck",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En höna har 2 ben och en ko har 4 ben.</p>",
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "rättSvar": "2x+4y",
+    "tolerans": null
+  },
+  {
+    "id": "1.1548",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rektangel är 3 cm bred och \\((x+2)\\) cm lång. Skriv arean som ett förenklat uttryck utan parentes.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3(x+2)=3x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3x+6\\)</p></div>",
+    "familj": "Teckna och tolka uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera 3 med båda termerna i parentesen.</p>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "3x+6",
+    "tolerans": null
+  },
+  {
+    "id": "1.1549",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ali är \\(a\\) år. Bea är 4 år äldre än Ali. Cem är dubbelt så gammal som Bea. Skriv ett förenklat uttryck för deras sammanlagda ålder.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a+(a+4)+2(a+4)\\]</div></li><li><div class=\"facit-matte\">\\[=a+a+4+2a+8=4a+12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4a+12\\)</p></div>",
+    "familj": "Teckna och tolka uttryck",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Skriv först Beas och Cems ålder med hjälp av \\(a\\).</p>",
+    "svarstyp": "uttryck",
+    "svarFormat": "förenklat_polynom",
+    "rättSvar": "4a+12",
+    "tolerans": null
+  },
+  {
+    "id": "1.1550",
+    "kap": 1,
+    "omr": "algebraiska_uttryck",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Medelvärdet av två tal \\(a\\) och \\(b\\) är \\(\\frac{a+b}2\\). Beräkna medelvärdet när \\(a=9\\) och \\(b=-4\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{9+(-4)}2=\\frac52=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,5</p></div>",
+    "familj": "Värdet av ett uttryck",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna täljaren först.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2.5,
+    "tolerans": 1e-09
+  },
+  {
+    "id": "6.450",
+    "kap": 6,
+    "omr": "kalkylprogram",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kalkylbladet visar vad en familj handlat för under fyra veckor.</p><table class=\"data\"><tbody><tr><th></th><th>A</th><th>B</th></tr><tr><th>1</th><td>Vecka</td><td>Kostnad (kr)</td></tr><tr><th>2</th><td>1</td><td>1 240</td></tr><tr><th>3</th><td>2</td><td>980</td></tr><tr><th>4</th><td>3</td><td>1 115</td></tr><tr><th>5</th><td>4</td><td>1 302</td></tr><tr><th>6</th><td>Summa</td><td>?</td></tr></tbody></table><p>Vilken formel med funktionen SUMMA ska stå i B6 för att räkna ut summan?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen SUMMA adderar cellerna B2 till B5.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <code>=SUMMA(B2:B5)</code></p></div>",
+    "familj": "Formler i kalkylprogram",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Använd funktionen SUMMA och ett område av celler.</p>",
+    "svarstyp": "ekvation",
+    "svarFormat": "kalkylbladsformel",
+    "rättSvar": "=SUMMA(B2:B5)",
+    "tolerans": null
+  },
+  {
+    "id": "6.451",
+    "kap": 6,
+    "omr": "kalkylprogram",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I cell A2 står talet 12 och i B2 står 35. I C2 står formeln <code>=A2*B2</code>. Vilket värde visas i C2?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[12\\cdot35=420\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 420</p></div>",
+    "familj": "Formler i kalkylprogram",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p><code>*</code> betyder multiplikation.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 420,
+    "tolerans": 0
+  },
+  {
+    "id": "6.452",
+    "kap": 6,
+    "omr": "kalkylprogram",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ordinarie pris står i B2 och rabatten i kronor i C2.</p><table class=\"data\"><tbody><tr><th></th><th>A</th><th>B</th><th>C</th><th>D</th></tr><tr><th>1</th><td>Vara</td><td>Pris (kr)</td><td>Rabatt (kr)</td><td>Nytt pris (kr)</td></tr><tr><th>2</th><td>Jacka</td><td>899</td><td>150</td><td>?</td></tr></tbody></table><p>Vilken formel ska stå i D2?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nytt pris är ordinarie pris minus rabatten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <code>=B2-C2</code></p></div>",
+    "familj": "Formler i kalkylprogram",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilken cell ska dras bort från vilken?</p>",
+    "svarstyp": "ekvation",
+    "svarFormat": "kalkylbladsformel",
+    "rättSvar": "=B2-C2",
+    "tolerans": null
+  },
+  {
+    "id": "6.453",
+    "kap": 6,
+    "omr": "kalkylprogram",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kalkylbladet visar antalet besökare på en hemsida. I C3 står formeln <code>=B3-B2</code>, och formeln har kopierats nedåt.</p><table class=\"data\"><tbody><tr><th></th><th>A</th><th>B</th><th>C</th></tr><tr><th>1</th><td>Dag</td><td>Besökare</td><td>Ökning</td></tr><tr><th>2</th><td>mån</td><td>214</td><td></td></tr><tr><th>3</th><td>tis</td><td>256</td><td>42</td></tr><tr><th>4</th><td>ons</td><td>231</td><td>−25</td></tr><tr><th>5</th><td>tor</td><td>298</td><td>?</td></tr></tbody></table><p>Vilket värde visas i C5?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I C5 står <code>=B5-B4</code>.</p></li><li><div class=\"facit-matte\">\\[298-231=67\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 67</p></div>",
+    "familj": "Formler i kalkylprogram",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilka celler använder formeln på rad 5?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 67,
+    "tolerans": 0
+  },
+  {
+    "id": "6.454",
+    "kap": 6,
+    "omr": "kalkylprogram",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kalkylbladet visar fem provresultat.</p><table class=\"data\"><tbody><tr><th></th><th>A</th><th>B</th></tr><tr><th>1</th><td>Elev</td><td>Poäng</td></tr><tr><th>2</th><td>Ada</td><td>18</td></tr><tr><th>3</th><td>Bo</td><td>23</td></tr><tr><th>4</th><td>Cia</td><td>15</td></tr><tr><th>5</th><td>Dan</td><td>27</td></tr><tr><th>6</th><td>Eva</td><td>22</td></tr></tbody></table><p>Vilket värde ger formeln <code>=MEDEL(B2:B6)</code>?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{18+23+15+27+22}5=\\frac{105}5=21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21</p></div>",
+    "familj": "Formler i kalkylprogram",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>MEDEL räknar ut medelvärdet.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": 0
+  },
+  {
+    "id": "6.455",
+    "kap": 6,
+    "omr": "kalkylprogram",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kalkylbladet visar temperaturen kl. 12 under fem dagar.</p><table class=\"data\"><tbody><tr><th></th><th>A</th><th>B</th></tr><tr><th>1</th><td>Dag</td><td>Temp (°C)</td></tr><tr><th>2</th><td>1</td><td>−4</td></tr><tr><th>3</th><td>2</td><td>3</td></tr><tr><th>4</th><td>3</td><td>7</td></tr><tr><th>5</th><td>4</td><td>−1</td></tr><tr><th>6</th><td>5</td><td>5</td></tr></tbody></table><p>Vilket värde ger formeln <code>=MAX(B2:B6)-MIN(B2:B6)</code>?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7-(-4)=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11</p></div>",
+    "familj": "Formler i kalkylprogram",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Ta det största värdet minus det minsta.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": 0
+  },
+  {
+    "id": "6.456",
+    "kap": 6,
+    "omr": "kalkylprogram",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I C2 står formeln <code>=A2*B2</code>. Formeln kopieras till C3. Vilken formel står då i C3?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Radnumren ändras när formeln kopieras nedåt en rad.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <code>=A3*B3</code></p></div>",
+    "familj": "Formler i kalkylprogram",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vad händer med cellreferenserna när man kopierar en rad nedåt?</p>",
+    "svarstyp": "ekvation",
+    "svarFormat": "kalkylbladsformel",
+    "rättSvar": "=A3*B3",
+    "tolerans": null
+  },
+  {
+    "id": "6.457",
+    "kap": 6,
+    "omr": "kalkylprogram",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>I E1 står momssatsen 0,25. I C2 står formeln <code>=B2*(1+&#36;E&#36;1)</code>. Formeln kopieras till C3. Vilken formel står då i C3?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>B2 ändras till B3, men <code>&#36;E&#36;1</code> är en låst referens och ändras inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> <code>=B3*(1+&#36;E&#36;1)</code></p></div>",
+    "familj": "Formler i kalkylprogram",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Dollartecknen låser referensen.</p>",
+    "svarstyp": "ekvation",
+    "svarFormat": "kalkylbladsformel",
+    "rättSvar": "=B3*(1+$E$1)",
+    "tolerans": null
+  },
+  {
+    "id": "6.458",
+    "kap": 6,
+    "omr": "kalkylprogram",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett sparande räknas i ett kalkylblad. I B2 står 1 000, och i B3 står formeln <code>=B2*1,05</code>. Formeln kopieras ned till B6.</p><table class=\"data\"><tbody><tr><th></th><th>A</th><th>B</th></tr><tr><th>1</th><td>År</td><td>Saldo (kr)</td></tr><tr><th>2</th><td>0</td><td>1 000</td></tr><tr><th>3</th><td>1</td><td>1 050</td></tr><tr><th>4</th><td>2</td><td>1 102,50</td></tr><tr><th>5</th><td>3</td><td></td></tr><tr><th>6</th><td>4</td><td>?</td></tr></tbody></table><p>Vilket värde visas i B6? (Svara med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1\\,000\\cdot1{,}05^4\\approx1\\,215{,}51\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 215,51</p></div>",
+    "familj": "Privatekonomi",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Varje rad multiplicerar raden ovanför med 1,05.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1215.51,
+    "tolerans": 0.006
+  },
+  {
+    "id": "6.459",
+    "kap": 6,
+    "omr": "kalkylprogram",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I B2 står ett provresultat. I C2 står formeln <code>=OM(B2&gt;=50;\"Godkänd\";\"Ej godkänd\")</code>. I B2 står 47. Vad visas i C2?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>47 är inte större än eller lika med 50, så villkoret är falskt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ej godkänd</p></div>",
+    "familj": "Formler i kalkylprogram",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Är villkoret B2 ≥ 50 sant?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Ej godkänd",
+        "ratt": true
+      },
+      {
+        "txt": "Godkänd",
+        "ratt": false,
+        "kommentar": "47 är mindre än 50."
+      },
+      {
+        "txt": "47",
+        "ratt": false,
+        "kommentar": "Formeln skriver ut en text."
+      }
+    ]
+  },
+  {
+    "id": "7.770",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En stege är märkt för högst 125 kg. En målare väger 84 kg. Hur mycket får färg och verktyg väga som mest? (Svara i kg.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[125-84=41\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 41 kg.</p></div>",
+    "familj": "Säkerhetsmarginal i procent",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dra bort målarens vikt från maxlasten.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 41,
+    "tolerans": 0,
+    "svarEnhet": "kg"
+  },
+  {
+    "id": "7.771",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En hylla tål 60 kg. Du vill bara använda 80 % av maxlasten. Hur mycket får du lägga på hyllan? (Svara i kg.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}80\\cdot60=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 48 kg.</p></div>",
+    "familj": "Säkerhetsmarginal i procent",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>80 % = 0,80.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 48,
+    "tolerans": 0,
+    "svarEnhet": "kg"
+  },
+  {
+    "id": "7.772",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett rep går sönder vid 4 500 N. Säkerhetsfaktorn är 3, vilket betyder att den tillåtna belastningen är brottlasten delad med 3. Hur stor får belastningen vara? (Svara i N.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{4\\,500}3=1\\,500\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 500 N.</p></div>",
+    "familj": "Säkerhetsfaktor",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dela brottlasten med säkerhetsfaktorn.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1500,
+    "tolerans": 0,
+    "svarEnhet": "N"
+  },
+  {
+    "id": "7.773",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En hiss är godkänd för 1 000 kg. Man får bara lasta 85 % av maxlasten, och varje person räknas som 80 kg. Hur många personer får åka samtidigt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}85\\cdot1\\,000=850\\ \\mathrm{kg}\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{850}{80}=10{,}6\\]</div></li><li><p>Avrunda nedåt: 10 personer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 personer.</p></div>",
+    "familj": "Säkerhetsmarginal i procent",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut tillåten last och avrunda nedåt.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0,
+    "svarEnhet": "personer"
+  },
+  {
+    "id": "7.774",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En säkring tål 10 A. En vattenkokare drar 4,5 A och en brödrost 2,3 A. Hur många ampere finns kvar innan säkringen löser ut? (Svara i A.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10-4{,}5-2{,}3=3{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,2 A.</p></div>",
+    "familj": "Säkerhetsmarginal i procent",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dra bort det som apparaterna drar.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 3.2,
+    "tolerans": 1e-09,
+    "svarEnhet": "A"
+  },
+  {
+    "id": "7.775",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En lyftanordning klarar 900 kg och lyfter just nu 720 kg. Hur många procent av maxlasten används?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{720}{900}=0{,}80\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 80 %.</p></div>",
+    "familj": "Säkerhetsmarginal i procent",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Jämför lasten med maxlasten.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 80,
+    "tolerans": 0.01
+  },
+  {
+    "id": "7.776",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kran klarar 2 000 kg och lyfter 1 700 kg. Hur stor säkerhetsmarginal i procent av maxlasten finns kvar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\,000-1\\,700=300\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{300}{2\\,000}=0{,}15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 %.</p></div>",
+    "familj": "Säkerhetsmarginal i procent",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många kg återstår, och hur stor andel av maxlasten är det?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 15,
+    "tolerans": 0.01
+  },
+  {
+    "id": "7.777",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En last på 1 400 kg ska lyftas. Minst 30 % av utrustningens maxkapacitet ska finnas kvar som marginal. Vilken maxkapacitet måste utrustningen minst ha? (Svara i kg.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lasten får vara högst 70 % av maxkapaciteten.</p></li><li><div class=\"facit-matte\">\\[0{,}70x=1\\,400\\]</div></li><li><div class=\"facit-matte\">\\[x=2\\,000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 000 kg.</p></div>",
+    "familj": "Säkerhetsmarginal i procent",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Om 30 % ska finnas kvar, hur stor andel får lasten vara?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2000,
+    "tolerans": 0,
+    "svarEnhet": "kg"
+  },
+  {
+    "id": "7.778",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En lyftstropp har brottlasten 9 000 N och får belastas med högst 1 800 N. Vilken säkerhetsfaktor används?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{9\\,000}{1\\,800}=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5</p></div>",
+    "familj": "Säkerhetsfaktor",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur många gånger större är brottlasten än den tillåtna lasten?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0
+  },
+  {
+    "id": "7.779",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En beräkning visar att 23,6 kartonger ryms på en pall utan att maxlasten överskrids. Hur många kartonger får man lasta?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med 24 kartonger överskrids maxlasten. Man avrundar alltid nedåt när en gräns inte får passeras.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 23</p></div>",
+    "familj": "Säkerhetsmarginal i procent",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vad händer med maxlasten om du avrundar uppåt?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "23",
+        "ratt": true
+      },
+      {
+        "txt": "24",
+        "ratt": false,
+        "kommentar": "Då överskrids maxlasten."
+      },
+      {
+        "txt": "23,6",
+        "ratt": false,
+        "kommentar": "Man kan inte lasta en del av en kartong."
+      }
+    ]
+  },
+  {
+    "id": "7.780",
+    "kap": 7,
+    "omr": "sakerhetsmarginaler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/1",
+    "t": "<p>En släpvagn har totalvikten 1 500 kg och tjänstevikten 450 kg. Man vill ha 10 % marginal på den tillåtna lasten. Varje låda väger 35 kg. Hur många lådor får lastas?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1\\,500-450=1\\,050\\ \\mathrm{kg}\\]</div></li><li><div class=\"facit-matte\">\\[0{,}90\\cdot1\\,050=945\\ \\mathrm{kg}\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{945}{35}=27\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 27 lådor.</p></div>",
+    "familj": "Säkerhetsmarginal i procent",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna först ut hur mycket last vagnen får ta. Ta sedan bort marginalen.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 27,
+    "tolerans": 0,
+    "svarEnhet": "lådor"
+  },
+  {
+    "id": "4.770",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Figuren visar vektorn \\(\\vec u\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"312\" height=\"278\" viewBox=\"0 0 312 278\" role=\"img\" aria-label=\"Rutnät med vektorn u från (1, 1) till (4, 3).\"><title>Rutnät med vektorn u från (1, 1) till (4, 3).</title><rect x=\"1\" y=\"1\" width=\"310\" height=\"276\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20.0\" y1=\"258.0\" x2=\"20.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"258.0\" x2=\"54.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"88.0\" y1=\"258.0\" x2=\"88.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"122.0\" y1=\"258.0\" x2=\"122.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"156.0\" y1=\"258.0\" x2=\"156.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"258.0\" x2=\"190.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"224.0\" y1=\"258.0\" x2=\"224.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"258.0\" y1=\"258.0\" x2=\"258.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"292.0\" y1=\"258.0\" x2=\"292.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"258.0\" x2=\"292.0\" y2=\"258.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"224.0\" x2=\"292.0\" y2=\"224.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"190.0\" x2=\"292.0\" y2=\"190.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"156.0\" x2=\"292.0\" y2=\"156.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"122.0\" x2=\"292.0\" y2=\"122.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"88.0\" x2=\"292.0\" y2=\"88.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"54.0\" x2=\"292.0\" y2=\"54.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"20.0\" x2=\"292.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"258.0\" x2=\"54.0\" y2=\"20.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"20.0\" y1=\"224.0\" x2=\"292.0\" y2=\"224.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"49.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"88.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><text x=\"49.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"88.0\" y1=\"190.0\" x2=\"181.7\" y2=\"127.5\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polygon points=\"190.0,122.0 182.5,134.2 175.9,124.2\" fill=\"#2f6fca\"/><rect x=\"138.3\" y=\"158.6\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"146.8\" y=\"172.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">u</text></svg></span><p>Skriv \\(\\vec u\\) i koordinatform.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\vec u=(4-1,\\ 3-1)=(3,\\ 2)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((3,\\ 2)\\)</p></div>",
+    "familj": "Tolka och beskriva vektorer",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna rutor åt höger och uppåt.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      2
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.771",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En robot går 4 steg åt vänster och 3 steg uppåt. Skriv förflyttningen som en vektor.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-4,\\ 3)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((-4,\\ 3)\\)</p></div>",
+    "familj": "Tolka och beskriva vektorer",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vänster ger negativ x-komponent.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -4,
+      3
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.772",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En förflyttning med vektorn \\((5,\\ 4)\\) startar i \\(A=(-2,\\ -1)\\). I vilken punkt slutar den?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(-2+5,\\ -1+4)=(3,\\ 3)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((3,\\ 3)\\)</p></div>",
+    "familj": "Vektor från start- och slutpunkt",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Lägg till komponenterna till startpunktens koordinater.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      3
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-koordinat",
+      "y-koordinat"
+    ]
+  },
+  {
+    "id": "4.773",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Figuren visar fyra vektorer.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"278\" viewBox=\"0 0 380 278\" role=\"img\" aria-label=\"Rutnät med fyra vektorer: a från (0, 0) till (2, 3), b från (3, 1) till (5, 4), c från (5, 0) till (7, 2) och d från (6, 5) till (8, 2).\"><title>Rutnät med fyra vektorer: a från (0, 0) till (2, 3), b från (3, 1) till (5, 4), c från (5, 0) till (7, 2) och d från (6, 5) till (8, 2).</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"276\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20.0\" y1=\"258.0\" x2=\"20.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"258.0\" x2=\"54.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"88.0\" y1=\"258.0\" x2=\"88.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"122.0\" y1=\"258.0\" x2=\"122.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"156.0\" y1=\"258.0\" x2=\"156.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"258.0\" x2=\"190.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"224.0\" y1=\"258.0\" x2=\"224.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"258.0\" y1=\"258.0\" x2=\"258.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"292.0\" y1=\"258.0\" x2=\"292.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"326.0\" y1=\"258.0\" x2=\"326.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"360.0\" y1=\"258.0\" x2=\"360.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"258.0\" x2=\"360.0\" y2=\"258.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"224.0\" x2=\"360.0\" y2=\"224.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"190.0\" x2=\"360.0\" y2=\"190.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"156.0\" x2=\"360.0\" y2=\"156.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"122.0\" x2=\"360.0\" y2=\"122.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"88.0\" x2=\"360.0\" y2=\"88.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"54.0\" x2=\"360.0\" y2=\"54.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"20.0\" x2=\"360.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"258.0\" x2=\"54.0\" y2=\"20.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"20.0\" y1=\"224.0\" x2=\"360.0\" y2=\"224.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"49.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"88.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><text x=\"49.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"54.0\" y1=\"224.0\" x2=\"116.5\" y2=\"130.3\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polygon points=\"122.0,122.0 119.8,136.1 109.8,129.5\" fill=\"#2f6fca\"/><rect x=\"91.1\" y=\"171.8\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"99.6\" y=\"185.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">a</text><line x1=\"156.0\" y1=\"190.0\" x2=\"218.5\" y2=\"96.3\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"224.0,88.0 221.8,102.1 211.8,95.5\" fill=\"#c2410c\"/><rect x=\"193.1\" y=\"137.8\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"201.6\" y=\"151.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">b</text><line x1=\"224.0\" y1=\"224.0\" x2=\"284.9\" y2=\"163.1\" stroke=\"#2f7d4a\" stroke-width=\"3\"/><polygon points=\"292.0,156.0 287.1,169.4 278.6,160.9\" fill=\"#2f7d4a\"/><rect x=\"259.4\" y=\"190.9\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"267.9\" y=\"204.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">c</text><line x1=\"258.0\" y1=\"54.0\" x2=\"320.5\" y2=\"147.7\" stroke=\"#6B4C93\" stroke-width=\"3\"/><polygon points=\"326.0,156.0 313.8,148.5 323.8,141.9\" fill=\"#6B4C93\"/><rect x=\"271.9\" y=\"103.8\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"280.4\" y=\"117.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#6B4C93\" font-weight=\"bold\">d</text></svg></span><p>Vilken vektor är lika med \\(\\vec a\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\vec a=(2,\\ 3)\\) och \\(\\vec b=(2,\\ 3)\\). Lika vektorer har samma längd och riktning, var de än börjar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\vec b\\)</p></div>",
+    "familj": "Tolka och beskriva vektorer",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Skriv alla vektorer i koordinatform och jämför.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "b",
+        "ratt": true
+      },
+      {
+        "txt": "c",
+        "ratt": false,
+        "kommentar": "c = (2, 2)."
+      },
+      {
+        "txt": "d",
+        "ratt": false,
+        "kommentar": "d = (2, −3) har en annan riktning."
+      },
+      {
+        "txt": "Ingen",
+        "ratt": false,
+        "kommentar": "Startpunkten spelar ingen roll."
+      }
+    ]
+  },
+  {
+    "id": "4.774",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Punkterna är \\(A=(6,\\ -2)\\) och \\(B=(1,\\ 4)\\). Bestäm vektorn \\(\\overrightarrow{BA}\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\overrightarrow{BA}=A-B=(6-1,\\ -2-4)=(5,\\ -6)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((5,\\ -6)\\)</p></div>",
+    "familj": "Vektor från start- och slutpunkt",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>\\(\\overrightarrow{BA}\\) börjar i B och slutar i A.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      -6
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.775",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En båt startar i punkten \\((1,\\ 1)\\) och förflyttas först med \\((2,\\ -1)\\) och sedan med \\((-5,\\ 4)\\). Var hamnar båten?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(1+2-5,\\ 1-1+4)=(-2,\\ 4)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((-2,\\ 4)\\)</p></div>",
+    "familj": "Vektor från start- och slutpunkt",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Lägg till båda förflyttningarna.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      4
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-koordinat",
+      "y-koordinat"
+    ]
+  },
+  {
+    "id": "4.776",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken vektor pekar rakt uppåt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Rakt uppåt betyder att x-komponenten är 0 och y-komponenten positiv.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((0,\\ 3)\\)</p></div>",
+    "familj": "Tolka och beskriva vektorer",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilken komponent måste vara 0?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "(0, 3)",
+        "ratt": true
+      },
+      {
+        "txt": "(3, 0)",
+        "ratt": false,
+        "kommentar": "Den pekar åt höger."
+      },
+      {
+        "txt": "(0, −3)",
+        "ratt": false,
+        "kommentar": "Den pekar nedåt."
+      },
+      {
+        "txt": "(3, 3)",
+        "ratt": false,
+        "kommentar": "Den pekar snett uppåt."
+      }
+    ]
+  },
+  {
+    "id": "4.777",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En drönare landar i \\(B=(4,\\ 2)\\) efter att ha flugit enligt vektorn \\((-3,\\ 5)\\). Var startade den?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=B-(-3,\\ 5)=(4+3,\\ 2-5)=(7,\\ -3)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((7,\\ -3)\\)</p></div>",
+    "familj": "Vektor från start- och slutpunkt",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Gå baklänges från landningsplatsen.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      -3
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-koordinat",
+      "y-koordinat"
+    ]
+  },
+  {
+    "id": "4.778",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Vektorn från A till B är \\((4,\\ -2)\\) och vektorn från B till C är \\((2,\\ 5)\\). Bestäm vektorn \\(\\overrightarrow{AC}\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\overrightarrow{AC}=\\overrightarrow{AB}+\\overrightarrow{BC}=(6,\\ 3)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((6,\\ 3)\\)</p></div>",
+    "familj": "Tolka och beskriva vektorer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Att gå från A till C är detsamma som att gå via B.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      3
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.779",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Figuren visar vektorn \\(\\vec v\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"312\" height=\"278\" viewBox=\"0 0 312 278\" role=\"img\" aria-label=\"Rutnät med vektorn v från (4, 4) till (2, 1).\"><title>Rutnät med vektorn v från (4, 4) till (2, 1).</title><rect x=\"1\" y=\"1\" width=\"310\" height=\"276\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20.0\" y1=\"258.0\" x2=\"20.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"258.0\" x2=\"54.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"88.0\" y1=\"258.0\" x2=\"88.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"122.0\" y1=\"258.0\" x2=\"122.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"156.0\" y1=\"258.0\" x2=\"156.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"258.0\" x2=\"190.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"224.0\" y1=\"258.0\" x2=\"224.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"258.0\" y1=\"258.0\" x2=\"258.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"292.0\" y1=\"258.0\" x2=\"292.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"258.0\" x2=\"292.0\" y2=\"258.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"224.0\" x2=\"292.0\" y2=\"224.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"190.0\" x2=\"292.0\" y2=\"190.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"156.0\" x2=\"292.0\" y2=\"156.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"122.0\" x2=\"292.0\" y2=\"122.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"88.0\" x2=\"292.0\" y2=\"88.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"54.0\" x2=\"292.0\" y2=\"54.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"20.0\" x2=\"292.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"258.0\" x2=\"54.0\" y2=\"20.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"20.0\" y1=\"224.0\" x2=\"292.0\" y2=\"224.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"49.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"88.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><text x=\"49.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"190.0\" y1=\"88.0\" x2=\"127.5\" y2=\"181.7\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"122.0,190.0 124.2,175.9 134.2,182.5\" fill=\"#c2410c\"/><rect x=\"135.9\" y=\"122.2\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"144.4\" y=\"136.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v</text></svg></span><p>Skriv \\(\\vec v\\) i koordinatform.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\vec v=(2-4,\\ 1-4)=(-2,\\ -3)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((-2,\\ -3)\\)</p></div>",
+    "familj": "Tolka och beskriva vektorer",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vektorn går åt vänster och nedåt.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      -2,
+      -3
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.780",
+    "kap": 4,
+    "omr": "vektor_skalar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Figuren visar \\(\\vec u=(2,\\ 1)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"312\" height=\"210\" viewBox=\"0 0 312 210\" role=\"img\" aria-label=\"Rutnät med vektorn u = (2, 1) ritad från punkten (1, 1) till (3, 2).\"><title>Rutnät med vektorn u = (2, 1) ritad från punkten (1, 1) till (3, 2).</title><rect x=\"1\" y=\"1\" width=\"310\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"20.0\" y1=\"190.0\" x2=\"20.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"190.0\" x2=\"54.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"88.0\" y1=\"190.0\" x2=\"88.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"122.0\" y1=\"190.0\" x2=\"122.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"156.0\" y1=\"190.0\" x2=\"156.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"190.0\" y1=\"190.0\" x2=\"190.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"224.0\" y1=\"190.0\" x2=\"224.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"258.0\" y1=\"190.0\" x2=\"258.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"292.0\" y1=\"190.0\" x2=\"292.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"190.0\" x2=\"292.0\" y2=\"190.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"156.0\" x2=\"292.0\" y2=\"156.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"122.0\" x2=\"292.0\" y2=\"122.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"88.0\" x2=\"292.0\" y2=\"88.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"54.0\" x2=\"292.0\" y2=\"54.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"20.0\" y1=\"20.0\" x2=\"292.0\" y2=\"20.0\" stroke=\"#dde4ec\" stroke-width=\"1\"/><line x1=\"54.0\" y1=\"190.0\" x2=\"54.0\" y2=\"20.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"20.0\" y1=\"156.0\" x2=\"292.0\" y2=\"156.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"49.0\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"88.0\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><text x=\"49.0\" y=\"126.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><line x1=\"88.0\" y1=\"122.0\" x2=\"147.1\" y2=\"92.5\" stroke=\"#2f6fca\" stroke-width=\"3\"/><polygon points=\"156.0,88.0 147.1,99.2 141.7,88.4\" fill=\"#2f6fca\"/><rect x=\"119.8\" y=\"108.5\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"128.3\" y=\"122.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">u</text></svg></span><p>Bestäm \\(3\\vec u\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3\\cdot(2,\\ 1)=(6,\\ 3)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((6,\\ 3)\\)</p></div>",
+    "familj": "Multiplicera vektor med skalär",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera båda komponenterna med 3.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      6,
+      3
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.781",
+    "kap": 4,
+    "omr": "vektor_skalar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>\\(\\vec u=(-4,\\ 7)\\). Bestäm \\(-\\vec u\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-\\vec u=(4,\\ -7)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((4,\\ -7)\\)</p></div>",
+    "familj": "Multiplicera vektor med skalär",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Byt tecken på båda komponenterna.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      -7
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.782",
+    "kap": 4,
+    "omr": "vektor_skalar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En båt rör sig med vektorn \\((6,\\ 2)\\) km varje timme. Vilken förflyttning har båten gjort efter 3 timmar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3\\cdot(6,\\ 2)=(18,\\ 6)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((18,\\ 6)\\) km</p></div>",
+    "familj": "Multiplicera vektor med skalär",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Samma förflyttning upprepas tre gånger.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      18,
+      6
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.783",
+    "kap": 4,
+    "omr": "vektor_skalar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vektorn \\((-12,\\ 4)\\) är en multipel av \\((3,\\ -1)\\). Med vilket tal har \\((3,\\ -1)\\) multiplicerats?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3k=-12\\Rightarrow k=-4\\]</div></li><li><p>Kontroll: \\(-4\\cdot(-1)=4\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4\\)</p></div>",
+    "familj": "Linjärkombinationer och parallella vektorer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Jämför x-komponenterna och kontrollera med y-komponenterna.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -4,
+    "tolerans": 0
+  },
+  {
+    "id": "4.784",
+    "kap": 4,
+    "omr": "vektor_skalar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>\\(\\vec u=(1,\\ -2)\\) och \\(\\vec v=(3,\\ 5)\\). Beräkna \\(2\\vec u+\\vec v\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(2,\\ -4)+(3,\\ 5)=(5,\\ 1)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((5,\\ 1)\\)</p></div>",
+    "familj": "Linjärkombinationer och parallella vektorer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Beräkna \\(2\\vec u\\) först.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      1
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.785",
+    "kap": 4,
+    "omr": "vektor_skalar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>\\(\\vec u=(4,\\ 3)\\) och \\(\\vec v=(1,\\ -1)\\). Beräkna \\(\\vec u-2\\vec v\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(4,\\ 3)-(2,\\ -2)=(2,\\ 5)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((2,\\ 5)\\)</p></div>",
+    "familj": "Linjärkombinationer och parallella vektorer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Var noga med tecknet när du subtraherar.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      5
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.786",
+    "kap": 4,
+    "omr": "vektor_skalar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Bestäm vektorn \\(\\vec v\\) om \\(2\\vec v+(1,\\ 3)=(9,\\ -5)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\vec v=(8,\\ -8)\\]</div></li><li><div class=\"facit-matte\">\\[\\vec v=(4,\\ -4)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((4,\\ -4)\\)</p></div>",
+    "familj": "Linjärkombinationer och parallella vektorer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Lös ut \\(\\vec v\\) som i en vanlig ekvation, komponent för komponent.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      4,
+      -4
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-komponent",
+      "y-komponent"
+    ]
+  },
+  {
+    "id": "4.787",
+    "kap": 4,
+    "omr": "vektor_skalar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken av vektorerna pekar åt exakt samma håll som \\((4,\\ 6)\\) men är kortare?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(4,\\ 6)=2\\cdot(2,\\ 3)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((2,\\ 3)\\)</p></div>",
+    "familj": "Linjärkombinationer och parallella vektorer",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Parallella vektorer är multipler av varandra.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "(2, 3)",
+        "ratt": true
+      },
+      {
+        "txt": "(6, 4)",
+        "ratt": false,
+        "kommentar": "Komponenterna har bytt plats."
+      },
+      {
+        "txt": "(−4, 6)",
+        "ratt": false,
+        "kommentar": "Bara ena komponenten har bytt tecken."
+      },
+      {
+        "txt": "(4, −6)",
+        "ratt": false,
+        "kommentar": "Bara ena komponenten har bytt tecken."
+      }
+    ]
+  },
+  {
+    "id": "4.788",
+    "kap": 4,
+    "omr": "vektor_skalar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kraft på en låda beskrivs av en vektor \\(\\vec F\\) med längden 18 N. Kraften ändras till \\(0{,}5\\vec F\\). Hur stor blir kraften? (Svara i N.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}5\\cdot18=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9 N.</p></div>",
+    "familj": "Multiplicera vektor med skalär",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Längden multipliceras med talet 0,5.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0,
+    "svarEnhet": "N"
+  },
+  {
+    "id": "4.789",
+    "kap": 4,
+    "omr": "vektor_skalar",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Vektorn \\((m,\\ 9)\\) är parallell med \\((2,\\ -3)\\). Bestäm \\(m\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(m,\\ 9)=k(2,\\ -3)\\Rightarrow -3k=9\\Rightarrow k=-3\\]</div></li><li><div class=\"facit-matte\">\\[m=2\\cdot(-3)=-6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(m=-6\\)</p></div>",
+    "familj": "Linjärkombinationer och parallella vektorer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Bestäm först vilket tal \\((2,\\ -3)\\) multipliceras med.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": 0
+  },
+  {
+    "id": "4.790",
+    "kap": 4,
+    "omr": "vektor_absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm längden av vektorn \\((12,\\ 16)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{12^2+16^2}=\\sqrt{400}=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20</p></div>",
+    "familj": "Längd ur koordinater",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Använd Pythagoras sats på komponenterna.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 20,
+    "tolerans": 0
+  },
+  {
+    "id": "4.791",
+    "kap": 4,
+    "omr": "vektor_absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En båt driver med strömmen enligt vektorn \\((0,\\ -11)\\) km. Hur långt har den drivit? (Svara i km.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{0^2+(-11)^2}=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11 km.</p></div>",
+    "familj": "Längd ur koordinater",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vektorn pekar rakt söderut, så längden syns direkt.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": 0,
+    "svarEnhet": "km"
+  },
+  {
+    "id": "4.792",
+    "kap": 4,
+    "omr": "vektor_absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm \\(|(20,\\ 21)|\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{400+441}=\\sqrt{841}=29\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 29</p></div>",
+    "familj": "Längd ur koordinater",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>\\(|(a,\\ b)|=\\sqrt{a^2+b^2}\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 29,
+    "tolerans": 0
+  },
+  {
+    "id": "4.793",
+    "kap": 4,
+    "omr": "vektor_absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm längden av vektorn \\((4,\\ -7)\\). (Svara med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{16+49}=\\sqrt{65}\\approx8{,}06\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,06</p></div>",
+    "familj": "Längd ur koordinater",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Kvadrera komponenterna och dra roten ur summan.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8.06,
+    "tolerans": 0.005
+  },
+  {
+    "id": "4.794",
+    "kap": 4,
+    "omr": "vektor_absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Punkterna är \\(A=(2,\\ 3)\\) och \\(B=(-22,\\ 13)\\). Bestäm \\(|\\overrightarrow{AB}|\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\overrightarrow{AB}=(-24,\\ 10)\\]</div></li><li><div class=\"facit-matte\">\\[\\sqrt{576+100}=\\sqrt{676}=26\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 26</p></div>",
+    "familj": "Längd ur koordinater",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bestäm vektorn först och sedan dess längd.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 26,
+    "tolerans": 0
+  },
+  {
+    "id": "4.795",
+    "kap": 4,
+    "omr": "vektor_absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En drönare flyger från en startplats enligt vektorn \\((300,\\ 400)\\) m. Hur långt från startplatsen är den, räknat fågelvägen? (Svara i m.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{300^2+400^2}=500\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 500 m.</p></div>",
+    "familj": "Längd i tillämpningar och resonemang",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Det är längden av vektorn.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 500,
+    "tolerans": 0,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.796",
+    "kap": 4,
+    "omr": "vektor_absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Vektorn \\((a,\\ 8)\\) har längden 10, och \\(a&gt;0\\). Bestäm \\(a\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a^2+64=100\\]</div></li><li><div class=\"facit-matte\">\\[a^2=36\\]</div></li><li><div class=\"facit-matte\">\\[a=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=6\\)</p></div>",
+    "familj": "Längd i tillämpningar och resonemang",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ställ upp \\(a^2+8^2=10^2\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0
+  },
+  {
+    "id": "4.797",
+    "kap": 4,
+    "omr": "vektor_absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>\\(\\vec u=(2,\\ -1)\\). Bestäm \\(|3\\vec u|\\). (Svara med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3\\vec u=(6,\\ -3)\\]</div></li><li><div class=\"facit-matte\">\\[\\sqrt{36+9}=\\sqrt{45}\\approx6{,}71\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,71</p></div>",
+    "familj": "Längd i tillämpningar och resonemang",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Du kan räkna ut \\(3\\vec u\\) först, eller ta 3 gånger \\(|\\vec u|\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 6.71,
+    "tolerans": 0.005
+  },
+  {
+    "id": "4.798",
+    "kap": 4,
+    "omr": "vektor_absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken av vektorerna är längst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Längderna är 5, 5, \\(\\sqrt{32}\\approx5{,}66\\) och 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((0,\\ -6)\\)</p></div>",
+    "familj": "Längd i tillämpningar och resonemang",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut längden av varje vektor.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "(0, −6)",
+        "ratt": true,
+        "kommentar": "Längden är 6."
+      },
+      {
+        "txt": "(−4, −4)",
+        "ratt": false,
+        "kommentar": "Längden är cirka 5,66."
+      },
+      {
+        "txt": "(3, 4)",
+        "ratt": false,
+        "kommentar": "Längden är 5."
+      },
+      {
+        "txt": "(5, 0)",
+        "ratt": false,
+        "kommentar": "Längden är 5."
+      }
+    ]
+  },
+  {
+    "id": "4.799",
+    "kap": 4,
+    "omr": "vektor_absolutbelopp",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En vandrare går först enligt vektorn \\((3,\\ 4)\\) km och sedan enligt \\((5,\\ -1)\\) km. Hur långt från startpunkten är hon, räknat fågelvägen? (Svara i km med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(3,\\ 4)+(5,\\ -1)=(8,\\ 3)\\]</div></li><li><div class=\"facit-matte\">\\[\\sqrt{64+9}=\\sqrt{73}\\approx8{,}54\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 8,54 km.</p></div>",
+    "familj": "Längd i tillämpningar och resonemang",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Lägg ihop vektorerna först.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8.54,
+    "tolerans": 0.005,
+    "svarEnhet": "km"
+  },
+  {
+    "id": "4.800",
+    "kap": 4,
+    "omr": "arcusfunktioner",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En linje har lutningen 0,4, alltså \\(\\tan v=0{,}4\\) där \\(v\\) är vinkeln mot x-axeln. Hur stor är \\(v\\)? (Svara i grader med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\tan^{-1}0{,}4\\approx21{,}8^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21,8°</p></div>",
+    "familj": "Vinkel ur ett trigonometriskt värde",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Använd \\(\\tan^{-1}\\) på räknaren.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 21.8,
+    "tolerans": 0.05,
+    "svarEnhet": "°"
+  },
+  {
+    "id": "4.801",
+    "kap": 4,
+    "omr": "arcusfunktioner",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>För en spetsig vinkel \\(v\\) gäller att närliggande katet är 90 % av hypotenusan, alltså \\(\\cos v=0{,}9\\). Bestäm \\(v\\). (Svara i grader med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\cos^{-1}0{,}9\\approx25{,}8^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25,8°</p></div>",
+    "familj": "Vinkel ur ett trigonometriskt värde",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Använd \\(\\cos^{-1}\\) på räknaren.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 25.8,
+    "tolerans": 0.05,
+    "svarEnhet": "°"
+  },
+  {
+    "id": "4.802",
+    "kap": 4,
+    "omr": "arcusfunktioner",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken spetsig vinkel har sinusvärdet 0,25? (Svara i grader med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=\\sin^{-1}0{,}25\\approx14{,}5^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14,5°</p></div>",
+    "familj": "Vinkel ur ett trigonometriskt värde",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Använd \\(\\sin^{-1}\\) på räknaren.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 14.5,
+    "tolerans": 0.05,
+    "svarEnhet": "°"
+  },
+  {
+    "id": "4.803",
+    "kap": 4,
+    "omr": "arcusfunktioner",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En 4,0 m lång stege står lutad mot en vägg. Stegens fot står 1,2 m från väggen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"230\" height=\"254\" viewBox=\"0 0 230 254\" role=\"img\" aria-label=\"Rätvinklig triangel där stegen är hypotenusan 4,0 m, avståndet till väggen är 1,2 m och vinkeln v ligger mellan stegen och marken.\"><title>Rätvinklig triangel där stegen är hypotenusan 4,0 m, avståndet till väggen är 1,2 m och vinkeln v ligger mellan stegen och marken.</title><rect x=\"1\" y=\"1\" width=\"228\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"50,210 140,210 140,40\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M126 210 V196 H140\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><path d=\"M84 210 A34 34 0 0 0 65.9 180.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"87.5\" y=\"187.0\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"96.0\" y=\"201.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v</text><rect x=\"70.0\" y=\"219.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"95.0\" y=\"232.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">1,2 m</text><rect x=\"37.0\" y=\"104.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"83.0\" y=\"117.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">4,0 m</text></svg></span><p>Hur stor vinkel bildar stegen med marken? (Svara i grader med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\cos v=\\frac{1{,}2}{4{,}0}=0{,}3\\]</div></li><li><div class=\"facit-matte\">\\[v=\\cos^{-1}0{,}3\\approx72{,}5^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 72,5°</p></div>",
+    "familj": "Vinkel ur sidor och figurer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Avståndet till väggen är närliggande katet till vinkeln.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 72.5,
+    "tolerans": 0.05,
+    "svarEnhet": "°"
+  },
+  {
+    "id": "4.804",
+    "kap": 4,
+    "omr": "arcusfunktioner",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En drake flyger i ett 50 m långt snöre. Draken är 32 m över marken där snöret hålls.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"330\" height=\"209\" viewBox=\"0 0 330 209\" role=\"img\" aria-label=\"Rätvinklig triangel där snöret är hypotenusan 50 m, höjden är 32 m och vinkeln v ligger mellan snöret och marken.\"><title>Rätvinklig triangel där snöret är hypotenusan 50 m, höjden är 32 m och vinkeln v ligger mellan snöret och marken.</title><rect x=\"1\" y=\"1\" width=\"328\" height=\"207\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"50,165 240,165 240,40\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M226 165 V151 H240\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><path d=\"M84 165 A34 34 0 0 0 78.4 146.3\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"87.5\" y=\"142.0\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"96.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v</text><rect x=\"244.0\" y=\"94.5\" width=\"41.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"248.0\" y=\"107.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">32 m</text><rect x=\"95.4\" y=\"81.5\" width=\"41.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"133.0\" y=\"94.5\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">50 m</text></svg></span><p>Hur stor vinkel bildar snöret med marken? (Svara i grader med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sin v=\\frac{32}{50}=0{,}64\\]</div></li><li><div class=\"facit-matte\">\\[v=\\sin^{-1}0{,}64\\approx39{,}8^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 39,8°</p></div>",
+    "familj": "Vinkel ur sidor och figurer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Höjden är motstående katet och snöret är hypotenusan.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 39.8,
+    "tolerans": 0.05,
+    "svarEnhet": "°"
+  },
+  {
+    "id": "4.805",
+    "kap": 4,
+    "omr": "arcusfunktioner",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rullstolsramp får luta högst 1 : 12, alltså 1 m upp på 12 m i sidled. Hur stor är lutningsvinkeln? (Svara i grader med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan v=\\frac1{12}\\]</div></li><li><div class=\"facit-matte\">\\[v\\approx4{,}8^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,8°</p></div>",
+    "familj": "Vinkel ur sidor och figurer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Höjd och sidled är kateter.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 4.8,
+    "tolerans": 0.05,
+    "svarEnhet": "°"
+  },
+  {
+    "id": "4.806",
+    "kap": 4,
+    "omr": "arcusfunktioner",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En 8,0 m hög flaggstång kastar en 11,0 m lång skugga.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"350\" height=\"234\" viewBox=\"0 0 350 234\" role=\"img\" aria-label=\"Rätvinklig triangel där skuggan är 11,0 m, flaggstången är 8,0 m och vinkeln v ligger vid skuggans ände.\"><title>Rätvinklig triangel där skuggan är 11,0 m, flaggstången är 8,0 m och vinkeln v ligger vid skuggans ände.</title><rect x=\"1\" y=\"1\" width=\"348\" height=\"232\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"50,190 260,190 260,40\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><path d=\"M246 190 V176 H260\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><path d=\"M84 190 A34 34 0 0 0 77.7 170.2\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"87.5\" y=\"167.0\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"96.0\" y=\"181.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v</text><rect x=\"125.8\" y=\"199.0\" width=\"58.4\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"155.0\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">11,0 m</text><rect x=\"264.0\" y=\"107.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"268.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">8,0 m</text></svg></span><p>Hur högt står solen, alltså hur stor är vinkeln \\(v\\)? (Svara i grader med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan v=\\frac{8{,}0}{11{,}0}\\]</div></li><li><div class=\"facit-matte\">\\[v\\approx36{,}0^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 36,0°</p></div>",
+    "familj": "Vinkel ur sidor och figurer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Flaggstången och skuggan är kateter.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 36.0,
+    "tolerans": 0.05,
+    "svarEnhet": "°"
+  },
+  {
+    "id": "4.807",
+    "kap": 4,
+    "omr": "arcusfunktioner",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett symmetriskt sadeltak är 10 m brett. Varje takstol från takfot till nock är 6,0 m lång.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"210\" viewBox=\"0 0 380 210\" role=\"img\" aria-label=\"Symmetriskt tak som en likbent triangel med basen 10 m och sidorna 6,0 m. Vinkeln v är mellan takstolen och takfoten.\"><title>Symmetriskt tak som en likbent triangel med basen 10 m och sidorna 6,0 m. Vinkeln v är mellan takstolen och takfoten.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"40,170 340,170 190,60\" fill=\"#f3e2d6\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"190.0\" y1=\"60.0\" x2=\"190.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><path d=\"M74 170 A34 34 0 0 0 67.5 150\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"79.5\" y=\"146.0\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"88.0\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v</text><rect x=\"169.2\" y=\"181.0\" width=\"41.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"190.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">10 m</text><rect x=\"59.0\" y=\"92.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"105.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">6,0 m</text></svg></span><p>Hur stor är takets lutningsvinkel \\(v\\)? (Svara i grader med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Höjden delar taket i två rätvinkliga trianglar med basen 5 m.</p></li><li><div class=\"facit-matte\">\\[\\cos v=\\frac5{6{,}0}\\]</div></li><li><div class=\"facit-matte\">\\[v\\approx33{,}6^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 33,6°</p></div>",
+    "familj": "Vinkel ur sidor och figurer",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Dela taket mitt itu. Vilken sida är närliggande katet?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 33.6,
+    "tolerans": 0.05,
+    "svarEnhet": "°"
+  },
+  {
+    "id": "4.808",
+    "kap": 4,
+    "omr": "arcusfunktioner",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>I en rätvinklig triangel känner du hypotenusan och den katet som ligger intill vinkeln \\(v\\). Vilken räknarfunktion ska du använda för att bestämma \\(v\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Närliggande katet delat med hypotenusan är \\(\\cos v\\). Då ger \\(\\cos^{-1}\\) vinkeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\cos^{-1}\\)</p></div>",
+    "familj": "Vinkel ur ett trigonometriskt värde",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilket förhållande bildar de två kända sidorna?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "cos⁻¹",
+        "ratt": true
+      },
+      {
+        "txt": "sin⁻¹",
+        "ratt": false,
+        "kommentar": "sin använder motstående katet."
+      },
+      {
+        "txt": "tan⁻¹",
+        "ratt": false,
+        "kommentar": "tan använder de två kateterna."
+      },
+      {
+        "txt": "cos",
+        "ratt": false,
+        "kommentar": "cos ger ett förhållande, inte en vinkel."
+      }
+    ]
+  },
+  {
+    "id": "4.809",
+    "kap": 4,
+    "omr": "arcusfunktioner",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En backe stiger 120 m på 0,8 km i sidled. Hur stor är lutningsvinkeln? (Svara i grader med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}8\\ \\mathrm{km}=800\\ \\mathrm m\\]</div></li><li><div class=\"facit-matte\">\\[\\tan v=\\frac{120}{800}=0{,}15\\]</div></li><li><div class=\"facit-matte\">\\[v\\approx8{,}5^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,5°</p></div>",
+    "familj": "Vinkel ur sidor och figurer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Gör om till samma enhet först.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8.5,
+    "tolerans": 0.05,
+    "svarEnhet": "°"
+  },
+  {
+    "id": "4.810",
+    "kap": 4,
+    "omr": "koordinatgeometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm avståndet mellan \\(A=(-3,\\ 2)\\) och \\(B=(6,\\ 2)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkterna har samma y-koordinat.</p></li><li><div class=\"facit-matte\">\\[6-(-3)=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9</p></div>",
+    "familj": "Avstånd mellan punkter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Avståndet är skillnaden mellan x-koordinaterna.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0
+  },
+  {
+    "id": "4.811",
+    "kap": 4,
+    "omr": "koordinatgeometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>På en karta med rutor i km ligger skolan i \\((1,\\ 2)\\) och simhallen i \\((9,\\ 17)\\). Hur långt är det fågelvägen? (Svara i km.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{(9-1)^2+(17-2)^2}=\\sqrt{64+225}=\\sqrt{289}=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17 km.</p></div>",
+    "familj": "Avstånd mellan punkter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Använd avståndsformeln.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": 0,
+    "svarEnhet": "km"
+  },
+  {
+    "id": "4.812",
+    "kap": 4,
+    "omr": "koordinatgeometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två vänner bor i \\((-4,\\ 6)\\) och \\((8,\\ 2)\\) och vill mötas mitt emellan. I vilken punkt ska de mötas?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left(\\frac{-4+8}2,\\ \\frac{6+2}2\\right)=(2,\\ 4)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((2,\\ 4)\\)</p></div>",
+    "familj": "Mittpunkt i koordinatsystem",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Ta medelvärdet av x-koordinaterna och av y-koordinaterna.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      4
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-koordinat",
+      "y-koordinat"
+    ]
+  },
+  {
+    "id": "4.813",
+    "kap": 4,
+    "omr": "koordinatgeometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En rektangel har hörnen \\((-3,\\ -1)\\), \\((4,\\ -1)\\), \\((4,\\ 3)\\) och \\((-3,\\ 3)\\). Bestäm rektangelns area.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bredd: \\(4-(-3)=7\\). Höjd: \\(3-(-1)=4\\).</p></li><li><div class=\"facit-matte\">\\[7\\cdot4=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28 areaenheter.</p></div>",
+    "familj": "Avstånd mellan punkter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bestäm sidornas längder ur koordinaterna.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": 0
+  },
+  {
+    "id": "4.814",
+    "kap": 4,
+    "omr": "koordinatgeometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En punkt på den positiva y-axeln ligger på avståndet 5 från punkten \\((3,\\ 0)\\). Bestäm punktens y-koordinat.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3^2+y^2=5^2\\]</div></li><li><div class=\"facit-matte\">\\[y^2=16\\]</div></li><li><div class=\"facit-matte\">\\[y=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=4\\)</p></div>",
+    "familj": "Avstånd mellan punkter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Punkten är \\((0,\\ y)\\). Ställ upp avståndsformeln.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0
+  },
+  {
+    "id": "4.815",
+    "kap": 4,
+    "omr": "koordinatgeometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En triangel har hörnen \\(A=(0,\\ 0)\\), \\(B=(6,\\ 0)\\) och \\(C=(3,\\ 4)\\). Vilket påstående stämmer?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[AC=\\sqrt{9+16}=5,\\quad BC=\\sqrt{9+16}=5,\\quad AB=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Triangeln är likbent.</p></div>",
+    "familj": "Avstånd mellan punkter",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna ut alla tre sidornas längder.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Triangeln är likbent",
+        "ratt": true,
+        "kommentar": "AC = BC = 5."
+      },
+      {
+        "txt": "Triangeln är liksidig",
+        "ratt": false,
+        "kommentar": "AB = 6, inte 5."
+      },
+      {
+        "txt": "Triangeln är rätvinklig",
+        "ratt": false,
+        "kommentar": "5² + 5² ≠ 6²."
+      },
+      {
+        "txt": "Alla sidor är olika långa",
+        "ratt": false,
+        "kommentar": "AC och BC är lika långa."
+      }
+    ]
+  },
+  {
+    "id": "4.816",
+    "kap": 4,
+    "omr": "koordinatgeometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm avståndet mellan \\((-2,\\ -3)\\) och \\((3,\\ 1)\\). (Svara med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{5^2+4^2}=\\sqrt{41}\\approx6{,}40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,40</p></div>",
+    "familj": "Avstånd mellan punkter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Skillnaden i x är 5 och i y är 4.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 6.4,
+    "tolerans": 0.005
+  },
+  {
+    "id": "4.817",
+    "kap": 4,
+    "omr": "koordinatgeometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En cirkel har sin medelpunkt i origo och går genom punkten \\((-9,\\ -12)\\). Bestäm cirkelns radie.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{81+144}=\\sqrt{225}=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15</p></div>",
+    "familj": "Avstånd mellan punkter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Radien är avståndet från medelpunkten till punkten.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 0
+  },
+  {
+    "id": "4.818",
+    "kap": 4,
+    "omr": "koordinatgeometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bestäm mittpunkten på sträckan mellan \\((0,\\ 6)\\) och \\((10,\\ 0)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left(\\frac{0+10}2,\\ \\frac{6+0}2\\right)=(5,\\ 3)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((5,\\ 3)\\)</p></div>",
+    "familj": "Mittpunkt i koordinatsystem",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Medelvärdet av koordinaterna.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      3
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-koordinat",
+      "y-koordinat"
+    ]
+  },
+  {
+    "id": "4.819",
+    "kap": 4,
+    "omr": "koordinatgeometri",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Mittpunkten på sträckan \\(AB\\) är \\(M=(3,\\ -2)\\) och \\(A=(-1,\\ 5)\\). Bestäm \\(B\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från A till M ändras x med +4 och y med −7. Lika mycket till från M till B.</p></li><li><div class=\"facit-matte\">\\[B=(3+4,\\ -2-7)=(7,\\ -9)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((7,\\ -9)\\)</p></div>",
+    "familj": "Mittpunkt i koordinatsystem",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>M ligger mitt emellan, så steget från M till B är lika stort som från A till M.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      7,
+      -9
+    ],
+    "tolerans": 1e-09,
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-koordinat",
+      "y-koordinat"
+    ]
   }
 ];

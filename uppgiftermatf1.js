@@ -19552,26 +19552,26 @@ window.BANKMATF1 = [
     "omr": "indirekta_bevis",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du vill bevisa med motsägelse att \\(\\sqrt3\\) är irrationellt. Vilket är rätt första antagande?</p><p>A. Anta att 3 är jämnt.<br>B. Anta att \\(\\sqrt3=3\\).<br>C. Anta att alla rationella tal är heltal.<br>D. Anta att \\(\\sqrt3\\) är rationellt och kan skrivas \\(p/q\\) i förkortad form.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande.</p></li><li><p>När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p></li><li><p>I ett motsägelsebevis antar man motsatsen till det som ska visas.</p></li><li><p>Här antar man alltså att \\(\\sqrt3\\) är rationellt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Du vill bevisa med motsägelse att \\(\\sqrt3\\) är irrationellt. Vilket är rätt första antagande?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande.</p></li><li><p>När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p></li><li><p>I ett motsägelsebevis antar man motsatsen till det som ska visas.</p></li><li><p>Här antar man alltså att \\(\\sqrt3\\) är rationellt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Anta att \\(\\sqrt3\\) är rationellt och kan skrivas \\(p/q\\) i förkortad form.</p></div>",
     "familj": "Motsägelsebevis",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
     "traningsniva": 1,
     "typ": "välja startantagande i motsägelsebevis",
     "omrTidigare": [
       "bevismetoder"
-    ]
+    ],
+    "alternativ": [{"txt": "Anta att 3 är jämnt.", "ratt": false}, {"txt": "Anta att \\(\\sqrt3=3\\).", "ratt": false}, {"txt": "Anta att alla rationella tal är heltal.", "ratt": false}, {"txt": "Anta att \\(\\sqrt3\\) är rationellt och kan skrivas \\(p/q\\) i förkortad form.", "ratt": true}]
   },
   {
     "id": "2.302",
@@ -19579,26 +19579,26 @@ window.BANKMATF1 = [
     "omr": "indirekta_bevis",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För att bevisa att det finns oändligt många primtal med motsägelsebevis, vilket antagande startar man med?</p><p>A. Att det bara finns ändligt många primtal.<br>B. Att alla heltal är primtal.<br>C. Att 1 är ett primtal.<br>D. Att varje primtal är jämnt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande.</p></li><li><p>När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p></li><li><p>Motsatsen till ”det finns oändligt många primtal” är att antalet primtal är ändligt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>För att bevisa att det finns oändligt många primtal med motsägelsebevis, vilket antagande startar man med?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande.</p></li><li><p>När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p></li><li><p>Motsatsen till ”det finns oändligt många primtal” är att antalet primtal är ändligt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Att det bara finns ändligt många primtal.</p></div>",
     "familj": "Motsägelsebevis",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
     "traningsniva": 1,
     "typ": "välja startantagande i motsägelsebevis",
     "omrTidigare": [
       "bevismetoder"
-    ]
+    ],
+    "alternativ": [{"txt": "Att det bara finns ändligt många primtal.", "ratt": true}, {"txt": "Att alla heltal är primtal.", "ratt": false}, {"txt": "Att 1 är ett primtal.", "ratt": false}, {"txt": "Att varje primtal är jämnt.", "ratt": false}]
   },
   {
     "id": "2.303",
@@ -19606,26 +19606,26 @@ window.BANKMATF1 = [
     "omr": "indirekta_bevis",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>I ett motsägelsebevis antar du \\(P\\) och härleder både \\(Q\\) och \\(\\neg Q\\). Vad kan du då dra för slutsats?</p><p>A. Både Q och inte-Q är sanna samtidigt.<br>B. Antagandet \\(P\\) kan inte vara sant.<br>C. Beviset visar ingenting.<br>D. P måste vara en identitet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande.</p></li><li><p>När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p></li><li><p>Att samma antagande leder till en logisk motsägelse innebär att antagandet måste förkastas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>I ett motsägelsebevis antar du \\(P\\) och härleder både \\(Q\\) och \\(\\neg Q\\). Vad kan du då dra för slutsats?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande.</p></li><li><p>När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p></li><li><p>Att samma antagande leder till en logisk motsägelse innebär att antagandet måste förkastas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Antagandet \\(P\\) kan inte vara sant.</p></div>",
     "familj": "Motsägelsebevis",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
     "traningsniva": 1,
     "typ": "tolka motsägelse i bevis",
     "omrTidigare": [
       "bevismetoder"
-    ]
+    ],
+    "alternativ": [{"txt": "Både Q och inte-Q är sanna samtidigt.", "ratt": false}, {"txt": "Antagandet \\(P\\) kan inte vara sant.", "ratt": true}, {"txt": "Beviset visar ingenting.", "ratt": false}, {"txt": "P måste vara en identitet.", "ratt": false}]
   },
   {
     "id": "2.304",
@@ -19633,26 +19633,26 @@ window.BANKMATF1 = [
     "omr": "indirekta_bevis",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Du vill visa att inget heltal kan vara både jämnt och udda. Vilket antagande passar för ett motsägelsebevis?</p><p>A. Anta att alla heltal är positiva.<br>B. Anta att n=0.<br>C. Anta att det finns ett heltal n som är både jämnt och udda.<br>D. Anta att jämna tal inte finns.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande.</p></li><li><p>När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p></li><li><p>Man antar motsatsen till påståendet: att ett sådant heltal faktiskt finns, och visar sedan att detta leder till en omöjlighet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>Du vill visa att inget heltal kan vara både jämnt och udda. Vilket antagande passar för ett motsägelsebevis?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Anta motsatsen till det som ska visas och följ konsekvenserna av detta antagande.</p></li><li><p>När antagandet leder till något som strider mot ett känt villkor eller ett tidigare resultat måste motsatsen vara falsk.</p></li><li><p>Man antar motsatsen till påståendet: att ett sådant heltal faktiskt finns, och visar sedan att detta leder till en omöjlighet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Anta att det finns ett heltal n som är både jämnt och udda.</p></div>",
     "familj": "Motsägelsebevis",
     "miniräknare": true,
     "geogebra": false,
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Anta motsatsen till det som ska visas. Formulera antagandet algebraiskt och leta efter en konsekvens som strider mot ett känt villkor eller mot hur antagandet formulerades.</p>",
     "traningsniva": 1,
     "typ": "välja antagande i motsägelsebevis",
     "omrTidigare": [
       "bevismetoder"
-    ]
+    ],
+    "alternativ": [{"txt": "Anta att alla heltal är positiva.", "ratt": false}, {"txt": "Anta att n=0.", "ratt": false}, {"txt": "Anta att det finns ett heltal n som är både jämnt och udda.", "ratt": true}, {"txt": "Anta att jämna tal inte finns.", "ratt": false}]
   },
   {
     "id": "2.305",
@@ -19691,20 +19691,19 @@ window.BANKMATF1 = [
     "omr": "induktionsbevis",
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilken metod är naturligast för att bevisa att summan av två jämna heltal alltid är jämn?</p><p>A. Induktionsbevis<br>B. Motsägelsebevis<br>C. Lådprincipen<br>D. Direkt bevis</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj bevismetod efter påståendets logiska form.</p></li><li><p>För ett påstående ”om P så Q” kan kontrapositionen ”om inte Q så inte P” vara enklare, medan ett direkt bevis börjar i P och arbetar fram till Q.</p></li><li><p><strong>Idé:</strong> Skriv de jämna talen som \\(2a\\) och \\(2b\\).</p></li><li><p>Summan blir \\(2a+2b=2(a+b)\\), alltså jämn.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D, direkt bevis.</p></div>",
+    "t": "<p>Vilken metod är naturligast för att bevisa att summan av två jämna heltal alltid är jämn?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Välj bevismetod efter påståendets logiska form.</p></li><li><p>För ett påstående ”om P så Q” kan kontrapositionen ”om inte Q så inte P” vara enklare, medan ett direkt bevis börjar i P och arbetar fram till Q.</p></li><li><p><strong>Idé:</strong> Skriv de jämna talen som \\(2a\\) och \\(2b\\).</p></li><li><p>Summan blir \\(2a+2b=2(a+b)\\), alltså jämn.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> direkt bevis.</p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Matematiska induktionsbevis",
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Titta på påståendets logiska form. Direkt bevis utgår från antagandet, kontraposition visar ”inte slutsatsen ⇒ inte antagandet”, och motsägelsebevis antar motsatsen till det som ska visas.</p>",
     "traningsniva": 1,
     "typ": "välja bevismetod",
@@ -19713,7 +19712,8 @@ window.BANKMATF1 = [
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "Induktionsbevis", "ratt": false}, {"txt": "Motsägelsebevis", "ratt": false}, {"txt": "Lådprincipen", "ratt": false}, {"txt": "Direkt bevis", "ratt": true}]
   },
   {
     "kap": 2,
@@ -46353,14 +46353,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
-    "t": "<p>Du ska visa att summan av två jämna heltal är jämn. Vilket är bäst första steg?</p><p>A) Skriv talen som \\(2a\\) och \\(2b\\).<br>B) Skriv talen som \\(2a+1\\) och \\(2b+1\\).<br>C) Anta att båda är primtal.<br>D) Derivera summan.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Jämna heltal skrivs \\(2a\\) och \\(2b\\).</p></li><li><p>Då är summan \\(2a+2b=2(a+b)\\), alltså jämn.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
+    "t": "<p>Du ska visa att summan av två jämna heltal är jämn. Vilket är bäst första steg?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Jämna heltal skrivs \\(2a\\) och \\(2b\\).</p></li><li><p>Då är summan \\(2a+2b=2(a+b)\\), alltså jämn.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Skriv talen som \\(2a\\) och \\(2b\\).</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
     "id": "2.569",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Direkta bevis och metodval",
-    "svarstyp": "kort_text",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -46368,14 +46368,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 1,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "Skriv talen som \\(2a\\) och \\(2b\\).", "ratt": true}, {"txt": "Skriv talen som \\(2a+1\\) och \\(2b+1\\).", "ratt": false}, {"txt": "Anta att båda är primtal.", "ratt": false}, {"txt": "Derivera summan.", "ratt": false}]
   },
   {
     "kap": 2,
@@ -46383,14 +46383,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
-    "t": "<p>Du ska visa att summan av två udda heltal är jämn. Vilken representation ska du använda?</p><p>A) \\(2a\\) och \\(2b\\)<br>B) \\(2a+1\\) och \\(2b+1\\)<br>C) \\(a^2\\) och \\(b^2\\)<br>D) \\(a/2\\) och \\(b/2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\((2a+1)+(2b+1)=2(a+b+1)\\), alltså jämnt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
+    "t": "<p>Du ska visa att summan av två udda heltal är jämn. Vilken representation ska du använda?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\((2a+1)+(2b+1)=2(a+b+1)\\), alltså jämnt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2a+1\\) och \\(2b+1\\).</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
     "id": "2.570",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Direkta bevis och metodval",
-    "svarstyp": "kort_text",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -46398,14 +46398,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(2a\\) och \\(2b\\)", "ratt": false}, {"txt": "\\(2a+1\\) och \\(2b+1\\)", "ratt": true}, {"txt": "\\(a^2\\) och \\(b^2\\)", "ratt": false}, {"txt": "\\(a/2\\) och \\(b/2\\)", "ratt": false}]
   },
   {
     "kap": 2,
@@ -46413,14 +46413,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
-    "t": "<p>Om ett heltal inte är delbart med 3, vilka två former räcker det att undersöka?</p><p>A) \\(3k\\) och \\(6k\\)<br>B) \\(2k\\) och \\(2k+1\\)<br>C) \\(3k+1\\) och \\(3k+2\\)<br>D) \\(k^2\\) och \\(k^3\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje heltal har rest 0, 1 eller 2 modulo 3.</p></li><li><p>Om talet inte är delbart med 3 återstår rest 1 eller 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
+    "t": "<p>Om ett heltal inte är delbart med 3, vilka två former räcker det att undersöka?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje heltal har rest 0, 1 eller 2 modulo 3.</p></li><li><p>Om talet inte är delbart med 3 återstår rest 1 eller 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3k+1\\) och \\(3k+2\\).</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
     "id": "2.571",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Direkta bevis och metodval",
-    "svarstyp": "kort_text",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -46428,14 +46428,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(3k\\) och \\(6k\\)", "ratt": false}, {"txt": "\\(2k\\) och \\(2k+1\\)", "ratt": false}, {"txt": "\\(3k+1\\) och \\(3k+2\\)", "ratt": true}, {"txt": "\\(k^2\\) och \\(k^3\\)", "ratt": false}]
   },
   {
     "kap": 2,
@@ -46443,14 +46443,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
-    "t": "<p>Du ska göra ett indirekt bevis. Vilket påstående är logiskt likvärdigt med ”om \\(n\\) är jämnt så är \\(n^2\\) jämnt”?</p><p>A) Om \\(n^2\\) är jämnt så är \\(n\\) jämnt.<br>B) Om \\(n\\) är udda så är \\(n^2\\) jämnt.<br>C) Om \\(n^2\\) är udda så är \\(n\\) jämnt.<br>D) Om \\(n^2\\) är udda så är \\(n\\) udda.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kontrapositionen till \\(P\\Rightarrow Q\\) är \\(\\neg Q\\Rightarrow\\neg P\\).</p></li><li><p>Här blir det: om \\(n^2\\) inte är jämnt, alltså udda, så är \\(n\\) udda.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
+    "t": "<p>Du ska göra ett indirekt bevis. Vilket påstående är logiskt likvärdigt med ”om \\(n\\) är jämnt så är \\(n^2\\) jämnt”?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kontrapositionen till \\(P\\Rightarrow Q\\) är \\(\\neg Q\\Rightarrow\\neg P\\).</p></li><li><p>Här blir det: om \\(n^2\\) inte är jämnt, alltså udda, så är \\(n\\) udda.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Om \\(n^2\\) är udda så är \\(n\\) udda.</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
     "id": "2.572",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Kontraposition och motexempel",
-    "svarstyp": "kort_text",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -46458,14 +46458,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Vilket påstående får du om du byter riktning och nekar både antagandet och slutsatsen?</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "Om \\(n^2\\) är jämnt så är \\(n\\) jämnt.", "ratt": false}, {"txt": "Om \\(n\\) är udda så är \\(n^2\\) jämnt.", "ratt": false}, {"txt": "Om \\(n^2\\) är udda så är \\(n\\) jämnt.", "ratt": false}, {"txt": "Om \\(n^2\\) är udda så är \\(n\\) udda.", "ratt": true}]
   },
   {
     "kap": 2,
@@ -46473,14 +46473,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
-    "t": "<p>Du ska göra ett motsägelsebevis av påståendet ”det finns inga heltal \\(a,b\\) som uppfyller P”. Vad antar du först?</p><p>A) Att det finns heltal \\(a,b\\) som uppfyller P.<br>B) Att P alltid är falskt.<br>C) Att \\(a=b=0\\).<br>D) Att alla reella tal är heltal.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I ett motsägelsebevis antar man negationen av påståendet.</p></li><li><p>Negationen av ”det finns inga” är ”det finns minst ett par”.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
+    "t": "<p>Du ska göra ett motsägelsebevis av påståendet ”det finns inga heltal \\(a,b\\) som uppfyller P”. Vad antar du först?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I ett motsägelsebevis antar man negationen av påståendet.</p></li><li><p>Negationen av ”det finns inga” är ”det finns minst ett par”.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Att det finns heltal \\(a,b\\) som uppfyller P.</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
     "id": "2.573",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Motsägelsebevis",
-    "svarstyp": "kort_text",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -46488,11 +46488,11 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
     "omrTidigare": [
       "bevismetoder"
-    ]
+    ],
+    "alternativ": [{"txt": "Att det finns heltal \\(a,b\\) som uppfyller P.", "ratt": true}, {"txt": "Att P alltid är falskt.", "ratt": false}, {"txt": "Att \\(a=b=0\\).", "ratt": false}, {"txt": "Att alla reella tal är heltal.", "ratt": false}]
   },
   {
     "kap": 2,
@@ -46500,14 +46500,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
-    "t": "<p>I ett direkt bevis vet du att \\(5\\mid n\\). Vilken skrivning följer direkt av definitionen?</p><p>A) \\(n=5+k\\)<br>B) \\(n=k/5\\)<br>C) \\(n=5k\\) för något heltal \\(k\\)<br>D) \\(n=5^k\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(5\\mid n\\) betyder exakt att \\(n\\) är 5 gånger ett heltal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
+    "t": "<p>I ett direkt bevis vet du att \\(5\\mid n\\). Vilken skrivning följer direkt av definitionen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(5\\mid n\\) betyder exakt att \\(n\\) är 5 gånger ett heltal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(n=5k\\) för något heltal \\(k\\).</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
     "id": "2.574",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Direkta bevis och metodval",
-    "svarstyp": "kort_text",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -46515,14 +46515,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 1,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(n=5+k\\)", "ratt": false}, {"txt": "\\(n=k/5\\)", "ratt": false}, {"txt": "\\(n=5k\\) för något heltal \\(k\\)", "ratt": true}, {"txt": "\\(n=5^k\\)", "ratt": false}]
   },
   {
     "kap": 2,
@@ -46530,14 +46530,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
-    "t": "<p>Vilken observation visar direkt att \\(n(n+1)\\) är jämnt för varje heltal \\(n\\)?</p><p>A) Alla heltal är jämna.<br>B) Av två på varandra följande heltal är ett alltid jämnt.<br>C) \\(n^2\\) är alltid jämnt.<br>D) \\(n+1\\) är alltid jämnt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talen \\(n\\) och \\(n+1\\) är på varandra följande.</p></li><li><p>Ett av dem är jämnt, så produkten innehåller faktor 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
+    "t": "<p>Vilken observation visar direkt att \\(n(n+1)\\) är jämnt för varje heltal \\(n\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Talen \\(n\\) och \\(n+1\\) är på varandra följande.</p></li><li><p>Ett av dem är jämnt, så produkten innehåller faktor 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Av två på varandra följande heltal är ett alltid jämnt.</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
     "id": "2.575",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Direkta bevis och metodval",
-    "svarstyp": "kort_text",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -46545,14 +46545,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "Alla heltal är jämna.", "ratt": false}, {"txt": "Av två på varandra följande heltal är ett alltid jämnt.", "ratt": true}, {"txt": "\\(n^2\\) är alltid jämnt.", "ratt": false}, {"txt": "\\(n+1\\) är alltid jämnt.", "ratt": false}]
   },
   {
     "id": "2.583",
@@ -46608,14 +46608,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
-    "t": "<p>Du vill visa ett påstående som sägs gälla för alla heltal. Vad räcker för att visa att påståendet är falskt?</p><p>A) Ett långt bevis.<br>B) Ett enda motexempel.<br>C) Två slumpmässiga exempel.<br>D) En graf.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett universellt påstående faller om ett enda tillåtet fall inte uppfyller påståendet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
+    "t": "<p>Du vill visa ett påstående som sägs gälla för alla heltal. Vad räcker för att visa att påståendet är falskt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett universellt påstående faller om ett enda tillåtet fall inte uppfyller påståendet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ett enda motexempel.</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
     "id": "2.576",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Kontraposition och motexempel",
-    "svarstyp": "kort_text",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -46623,14 +46623,14 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
     "omrTidigare": [
       "bevismetoder"
     ],
     "familjTidigare": [
       "Direkta bevis, kontraposition och metodval"
-    ]
+    ],
+    "alternativ": [{"txt": "Ett långt bevis.", "ratt": false}, {"txt": "Ett enda motexempel.", "ratt": true}, {"txt": "Två slumpmässiga exempel.", "ratt": false}, {"txt": "En graf.", "ratt": false}]
   },
   {
     "kap": 2,
@@ -46668,14 +46668,14 @@ window.BANKMATF1 = [
     "niva": "E",
     "typ": "bevismetod – startsteg",
     "poang": "1/0/0",
-    "t": "<p>I ett motsägelsebevis har du kommit fram till att samma heltal både måste vara jämnt och udda. Vad betyder det?</p><p>A) Beviset måste börja om.<br>B) Talet är 0.<br>C) Påståendet är bara ungefär sant.<br>D) Antagandet har lett till en motsägelse.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett heltal kan inte samtidigt vara jämnt och udda.</p></li><li><p>Därför kan antagandet som ledde dit inte vara sant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
+    "t": "<p>I ett motsägelsebevis har du kommit fram till att samma heltal både måste vara jämnt och udda. Vad betyder det?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Nyckelidé:</strong> Identifiera vilken bevisdefinition som används.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ett heltal kan inte samtidigt vara jämnt och udda.</p></li><li><p>Därför kan antagandet som ledde dit inte vara sant.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Antagandet har lett till en motsägelse.</p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll:</strong> Kontrollera att steget följer av definitionen, inte bara av ett exempel.</p></li></ol></div>",
     "id": "2.578",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Motsägelsebevis",
-    "svarstyp": "kort_text",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
@@ -46683,11 +46683,11 @@ window.BANKMATF1 = [
       "begrepp"
     ],
     "traningsniva": 2,
-    "svarFormat": "kort_text",
     "ledtrad": "<p>Översätt orden till definitioner: jämnt \\(=2k\\), udda \\(=2k+1\\), delbart med \\(d\\) \\(=dk\\). Vid kontraposition byter du både riktning och negerar påståendena.</p>",
     "omrTidigare": [
       "bevismetoder"
-    ]
+    ],
+    "alternativ": [{"txt": "Beviset måste börja om.", "ratt": false}, {"txt": "Talet är 0.", "ratt": false}, {"txt": "Påståendet är bara ungefär sant.", "ratt": false}, {"txt": "Antagandet har lett till en motsägelse.", "ratt": true}]
   },
   {
     "kap": 3,

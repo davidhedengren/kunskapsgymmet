@@ -2879,24 +2879,24 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Punkten på enhetscirkeln motsvarar vinkeln \\(210^\\circ\\). Vilken är punktens x-koordinat?</p><p>A. \\(\\sqrt3/2\\)<br>B. \\(-\\sqrt3/2\\)<br>C. \\(1/2\\)<br>D. \\(-1/2\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Markera först rätt kvadrant.</p></li><li><p>I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p></li><li><p>x-koordinaten är cosinusvärdet.</p></li><li><p>\\(210^\\circ=180^\\circ+30^\\circ\\), så cosinus är negativt och har belopp \\(\\sqrt3/2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Punkten på enhetscirkeln motsvarar vinkeln \\(210^\\circ\\). Vilken är punktens x-koordinat?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Markera först rätt kvadrant.</p></li><li><p>I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p></li><li><p>x-koordinaten är cosinusvärdet.</p></li><li><p>\\(210^\\circ=180^\\circ+30^\\circ\\), så cosinus är negativt och har belopp \\(\\sqrt3/2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-\\sqrt3/2\\).</p></div>",
     "familj": "Koordinater och tecken i enhetscirkeln",
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "familjNyckel": "enhetscirkeln_trianglar__koordinater_och_tecken_i_enhetscirkeln",
     "ledtrad": "<p>Markera först rätt kvadrant. I enhetscirkeln är x-koordinaten cosinus och y-koordinaten sinus.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
       "enhetscirkeln"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(\\sqrt3/2\\)", "ratt": false}, {"txt": "\\(-\\sqrt3/2\\)", "ratt": true}, {"txt": "\\(1/2\\)", "ratt": false}, {"txt": "\\(-1/2\\)", "ratt": false}]
   },
   {
     "id": "1.444",
@@ -13718,25 +13718,25 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>För vilka värden på parametern \\(a\\) har ekvationen \\(\\sin x=a\\) exakt två lösningar i \\(0\\le x&lt;360^\\circ\\)?</p><p>A. \\(-1&lt;a&lt;1\\)<br>B. Bara \\(a=1\\)<br>C. \\(|a|&gt;1\\)<br>D. Bara \\(a=-1\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li><li><p>För varje nivå strikt mellan −1 och 1 skär en hel sinusperiod nivån två gånger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>För vilka värden på parametern \\(a\\) har ekvationen \\(\\sin x=a\\) exakt två lösningar i \\(0\\le x&lt;360^\\circ\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li><li><p>För varje nivå strikt mellan −1 och 1 skär en hel sinusperiod nivån två gånger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-1&lt;a&lt;1\\).</p></div>",
     "familj": "Parameterproblem med antal trigonometriska lösningar",
     "formaga": [
       "begrepp",
       "resonemang"
     ],
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "familjNyckel": "trig_problemlosning_1__parameterproblem_med_antal_trigonometriska_losningar",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
       "trig_ekvationer"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(-1&lt;a&lt;1\\)", "ratt": true}, {"txt": "Bara \\(a=1\\)", "ratt": false}, {"txt": "\\(|a|&gt;1\\)", "ratt": false}, {"txt": "Bara \\(a=-1\\)", "ratt": false}]
   },
   {
     "id": "1.402",
@@ -13881,25 +13881,25 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vilken är den generella lösningen till \\(\\tan x=1\\)?</p><p>A. \\(x=135^\\circ+180^\\circ n\\)<br>B. \\(x=45^\\circ+360^\\circ n\\)<br>C. \\(x=45^\\circ+180^\\circ n\\)<br>D. \\(x=180^\\circ n\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li><li><p>Tangens har perioden \\(180^\\circ\\), och grundvinkeln är \\(45^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C.</p></div>",
+    "t": "<p>Vilken är den generella lösningen till \\(\\tan x=1\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li><li><p>Tangens har perioden \\(180^\\circ\\), och grundvinkeln är \\(45^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=45^\\circ+180^\\circ n\\).</p></div>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
       "trig_ekvationer"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x=135^\\circ+180^\\circ n\\)", "ratt": false}, {"txt": "\\(x=45^\\circ+360^\\circ n\\)", "ratt": false}, {"txt": "\\(x=45^\\circ+180^\\circ n\\)", "ratt": true}, {"txt": "\\(x=180^\\circ n\\)", "ratt": false}]
   },
   {
     "id": "1.406",
@@ -13912,25 +13912,25 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vilken är den generella lösningen till \\(\\cos x=0\\)?</p><p>A. \\(x=45^\\circ+180^\\circ n\\)<br>B. \\(x=180^\\circ n\\)<br>C. \\(x=90^\\circ+360^\\circ n\\)<br>D. \\(x=90^\\circ+180^\\circ n\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li><li><p>Cosinus är noll vid udda multiplar av \\(90^\\circ\\), vilket skrivs \\(90^\\circ+180^\\circ n\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Vilken är den generella lösningen till \\(\\cos x=0\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li><li><p>Cosinus är noll vid udda multiplar av \\(90^\\circ\\), vilket skrivs \\(90^\\circ+180^\\circ n\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=90^\\circ+180^\\circ n\\).</p></div>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
       "trig_ekvationer"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x=45^\\circ+180^\\circ n\\)", "ratt": false}, {"txt": "\\(x=180^\\circ n\\)", "ratt": false}, {"txt": "\\(x=90^\\circ+360^\\circ n\\)", "ratt": false}, {"txt": "\\(x=90^\\circ+180^\\circ n\\)", "ratt": true}]
   },
   {
     "id": "1.407",
@@ -13943,25 +13943,25 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vilken beskrivning ger alla lösningar till \\(\\sin x=1/2\\)?</p><p>A. \\(x=30^\\circ+360^\\circ n\\) eller \\(x=150^\\circ+360^\\circ n\\)<br>B. Bara \\(x=30^\\circ+180^\\circ n\\)<br>C. \\(x=60^\\circ+360^\\circ n\\)<br>D. \\(x=180^\\circ n\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li><li><p>Sinus är 1/2 i första och andra kvadranten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A.</p></div>",
+    "t": "<p>Vilken beskrivning ger alla lösningar till \\(\\sin x=1/2\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li><li><p>Sinus är 1/2 i första och andra kvadranten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=30^\\circ+360^\\circ n\\) eller \\(x=150^\\circ+360^\\circ n\\).</p></div>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
       "trig_ekvationer"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x=30^\\circ+360^\\circ n\\) eller \\(x=150^\\circ+360^\\circ n\\)", "ratt": true}, {"txt": "Bara \\(x=30^\\circ+180^\\circ n\\)", "ratt": false}, {"txt": "\\(x=60^\\circ+360^\\circ n\\)", "ratt": false}, {"txt": "\\(x=180^\\circ n\\)", "ratt": false}]
   },
   {
     "id": "1.556",
@@ -14007,25 +14007,25 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Vilken är den generella lösningen till \\(\\sin(2x)=0\\)?</p><p>A. \\(x=360^\\circ n\\)<br>B. \\(x=180^\\circ n\\)<br>C. \\(x=90^\\circ+180^\\circ n\\)<br>D. \\(x=90^\\circ n\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li><li><div class=\"facit-matte\">\\[2x=180^\\circ n\\Rightarrow x=90^\\circ n\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Vilken är den generella lösningen till \\(\\sin(2x)=0\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Isolera först ett trigonometriskt uttryck.</p></li><li><p>Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p></li><li><div class=\"facit-matte\">\\[2x=180^\\circ n\\Rightarrow x=90^\\circ n\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=90^\\circ n\\).</p></div>",
     "familj": "Trigonometriska ekvationer med generell lösning",
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "familjNyckel": "trig_grundekvationer__trigonometriska_ekvationer_med_generell_losning",
     "ledtrad": "<p>Isolera först ett trigonometriskt uttryck. Hitta grundlösningarna i enhetscirkeln och lägg därefter till funktionens periodicitet.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
       "trig_ekvationer"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(x=360^\\circ n\\)", "ratt": false}, {"txt": "\\(x=180^\\circ n\\)", "ratt": false}, {"txt": "\\(x=90^\\circ+180^\\circ n\\)", "ratt": false}, {"txt": "\\(x=90^\\circ n\\)", "ratt": true}]
   },
   {
     "id": "1.420",
@@ -48561,19 +48561,18 @@ window.BANKMATO2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>För en deriverbar funktion gäller att \\(f'(x)\\gt0\\) när \\(x\\lt2\\) och \\(f'(x)\\lt0\\) när \\(x\\gt2\\). Vad har grafen för punkt där \\(x=2\\)?</p><p>A. en maximipunkt<br>B. en minimipunkt<br>C. en terrasspunkt<br>D. en lodrät asymptot</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen växer fram till \\(x=2\\) och avtar sedan.</p></li><li><p>Då är \\(x=2\\) en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: en maximipunkt</p></div>",
+    "t": "<p>För en deriverbar funktion gäller att \\(f'(x)\\gt0\\) när \\(x\\lt2\\) och \\(f'(x)\\lt0\\) när \\(x\\gt2\\). Vad har grafen för punkt där \\(x=2\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen växer fram till \\(x=2\\) och avtar sedan.</p></li><li><p>Då är \\(x=2\\) en maximipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> en maximipunkt</p></div>",
     "familj": "Grafanalys med derivata",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Växer eller avtar funktionen före och efter \\(x=2\\)?</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -48581,7 +48580,8 @@ window.BANKMATO2 = [
     "familjNyckel": "grafer_derivator__grafanalys_med_derivata",
     "omrTidigare": [
       "grafer_asymptoter"
-    ]
+    ],
+    "alternativ": [{"txt": "en maximipunkt", "ratt": true}, {"txt": "en minimipunkt", "ratt": false}, {"txt": "en terrasspunkt", "ratt": false}, {"txt": "en lodrät asymptot", "ratt": false}]
   },
   {
     "id": "2.538",
@@ -67400,19 +67400,18 @@ window.BANKMATO2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Området under linjen \\(y=3\\) för \\(0\\le x\\le4\\) roteras ett varv kring x-axeln. Vilken kropp bildas?</p><p>A. en kon<br>B. en cylinder<br>C. ett klot<br>D. en kub</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje punkt på linjen \\(y=3\\) roterar i en cirkel med radien 3.</p></li><li><p>Kroppen blir en cylinder med radien 3 och höjden 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B: en cylinder</p></div>",
+    "t": "<p>Området under linjen \\(y=3\\) för \\(0\\le x\\le4\\) roteras ett varv kring x-axeln. Vilken kropp bildas?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje punkt på linjen \\(y=3\\) roterar i en cirkel med radien 3.</p></li><li><p>Kroppen blir en cylinder med radien 3 och höjden 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> en cylinder</p></div>",
     "familj": "Rotationsvolymer",
     "geogebra": false,
     "miniräknare": true,
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
       "begrepp"
     ],
-    "svarFormat": "val",
     "ledtrad": "<p>Rita området och tänk dig att det snurrar runt x-axeln.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
@@ -67420,7 +67419,8 @@ window.BANKMATO2 = [
     "familjNyckel": "skivmetoden__rotationsvolymer",
     "omrTidigare": [
       "rotationsvolymer"
-    ]
+    ],
+    "alternativ": [{"txt": "en kon", "ratt": false}, {"txt": "en cylinder", "ratt": true}, {"txt": "ett klot", "ratt": false}, {"txt": "en kub", "ratt": false}]
   },
   {
     "id": "4.01",
@@ -82186,24 +82186,24 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Det komplexa talet \\(z=-1-\\sqrt3i\\) har absolutbelopp 2. Vilket argument i intervallet \\(0^\\circ\\le\\arg z&lt;360^\\circ\\) är korrekt?</p><p>A. 60°<br>B. 120°<br>C. 300°<br>D. 240°</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm absolutbelopp och argument separat.</p></li><li><p>Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p></li><li><p>Talet ligger i tredje kvadranten och referensvinkeln är 60°.</p></li><li><p>Alltså är argumentet 240°.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D.</p></div>",
+    "t": "<p>Det komplexa talet \\(z=-1-\\sqrt3i\\) har absolutbelopp 2. Vilket argument i intervallet \\(0^\\circ\\le\\arg z&lt;360^\\circ\\) är korrekt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Bestäm absolutbelopp och argument separat.</p></li><li><p>Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p></li><li><p>Talet ligger i tredje kvadranten och referensvinkeln är 60°.</p></li><li><p>Alltså är argumentet 240°.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 240°.</p></div>",
     "familj": "Absolutbelopp och argument för komplexa tal",
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "familjNyckel": "polar_form__absolutbelopp_och_argument_for_komplexa_tal",
     "ledtrad": "<p>Bestäm absolutbelopp och argument separat. Vid multiplikation multipliceras absolutbeloppen och argumenten adderas.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "omrTidigare": [
       "polar_exponentiell"
-    ]
+    ],
+    "alternativ": [{"txt": "60°", "ratt": false}, {"txt": "120°", "ratt": false}, {"txt": "300°", "ratt": false}, {"txt": "240°", "ratt": true}]
   },
   {
     "id": "4.407",
@@ -90399,17 +90399,16 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": false,
     "geogebra": false,
-    "t": "<p>Ekvationen \\(x^2+4=0\\) har två komplexa rötter. Vilken är roten med positiv imaginärdel?</p><p>A. \\(-2i\\)<br>B. \\(2i\\)<br>C. 2<br>D. −2</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Använd faktorsatsen för att koppla en rot till en faktor.</p></li><li><p>För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p></li><li><div class=\"facit-matte\">\\[x^2=-4\\Rightarrow x=\\pm2i\\].</div></li><li><p>Positiv imaginärdel ger \\(2i\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B.</p></div>",
+    "t": "<p>Ekvationen \\(x^2+4=0\\) har två komplexa rötter. Vilken är roten med positiv imaginärdel?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Använd faktorsatsen för att koppla en rot till en faktor.</p></li><li><p>För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p></li><li><div class=\"facit-matte\">\\[x^2=-4\\Rightarrow x=\\pm2i\\].</div></li><li><p>Positiv imaginärdel ger \\(2i\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2i\\).</p></div>",
     "familj": "Andragradsekvationer med komplexa lösningar",
     "formaga": [
       "procedur"
     ],
-    "svarstyp": "val",
-    "rättSvar": "B",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "familjNyckel": "andragradsekv_komplexa__andragradsekvationer_med_komplexa_losningar",
     "ledtrad": "<p>Använd faktorsatsen för att koppla en rot till en faktor. För reella koefficienter kommer icke-reella rötter parvis som konjugat.</p>",
     "traningsniva": 2,
@@ -90419,7 +90418,8 @@ window.BANKMATO2 = [
     ],
     "familjTidigare": [
       "Polynomekvationer med komplexa lösningar"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(-2i\\)", "ratt": false}, {"txt": "\\(2i\\)", "ratt": true}, {"txt": "2", "ratt": false}, {"txt": "−2", "ratt": false}]
   },
   {
     "id": "4.402",
@@ -93625,17 +93625,16 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin(x-40^\\circ)\\) till grafen till \\(y=\\sin x\\)?</p><p>A. Den är förskjuten \\(40^\\circ\\) åt vänster.<br>B. Den är förskjuten \\(40\\) enheter nedåt.<br>C. Den är förskjuten \\(40\\) enheter uppåt.<br>D. Den är förskjuten \\(40^\\circ\\) åt höger.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För att \\(\\sin(x-40^\\circ)\\) ska få samma värde som \\(\\sin x\\) har vid \\(x=0^\\circ\\) måste \\(x=40^\\circ\\).</p></li><li><p>Varje punkt på grafen hamnar alltså \\(40^\\circ\\) längre åt höger.</p></li><li><p>Förändringen sker inne i argumentet, så grafen flyttas i x-led och inte i y-led.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D</p></div>",
+    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin(x-40^\\circ)\\) till grafen till \\(y=\\sin x\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För att \\(\\sin(x-40^\\circ)\\) ska få samma värde som \\(\\sin x\\) har vid \\(x=0^\\circ\\) måste \\(x=40^\\circ\\).</p></li><li><p>Varje punkt på grafen hamnar alltså \\(40^\\circ\\) längre åt höger.</p></li><li><p>Förändringen sker inne i argumentet, så grafen flyttas i x-led och inte i y-led.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den är förskjuten \\(40^\\circ\\) åt höger.</p></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "spel": true,
     "familjNyckel": "forskjutna_kurvor__fasforskjutning_i_trigonometriska_funktioner",
     "ledtrad": "<p>Vilket x-värde ger argumentet \\(0^\\circ\\)? Jämför med var \\(y=\\sin x\\) startar.</p>",
@@ -93643,7 +93642,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 1,
     "omrTidigare": [
       "trig_fasforskjutning"
-    ]
+    ],
+    "alternativ": [{"txt": "Den är förskjuten \\(40^\\circ\\) åt vänster.", "ratt": false}, {"txt": "Den är förskjuten \\(40\\) enheter nedåt.", "ratt": false}, {"txt": "Den är förskjuten \\(40\\) enheter uppåt.", "ratt": false}, {"txt": "Den är förskjuten \\(40^\\circ\\) åt höger.", "ratt": true}]
   },
   {
     "id": "1.635",
@@ -94373,17 +94373,16 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin\\left(x-\\dfrac\\pi3\\right)\\) till grafen till \\(y=\\sin x\\)?</p><p>A. Den är förskjuten \\(\\pi/3\\) åt vänster.<br>B. Den är förskjuten \\(\\pi/3\\) uppåt.<br>C. Den är förskjuten \\(\\pi/3\\) åt höger.<br>D. Den är förskjuten \\(\\pi/3\\) nedåt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Argumentet blir \\(0\\) först när \\(x=\\pi/3\\).</p></li><li><p>Allt som \\(y=\\sin x\\) gör vid \\(x=0\\) sker alltså \\(\\pi/3\\) längre åt höger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C</p></div>",
+    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin\\left(x-\\dfrac\\pi3\\right)\\) till grafen till \\(y=\\sin x\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Argumentet blir \\(0\\) först när \\(x=\\pi/3\\).</p></li><li><p>Allt som \\(y=\\sin x\\) gör vid \\(x=0\\) sker alltså \\(\\pi/3\\) längre åt höger.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den är förskjuten \\(\\pi/3\\) åt höger.</p></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "C",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "spel": true,
     "familjNyckel": "kurvor_radianer__fasforskjutning_i_trigonometriska_funktioner",
     "ledtrad": "<p>För vilket \\(x\\) blir argumentet \\(x-\\pi/3\\) lika med \\(0\\)?</p>",
@@ -94391,7 +94390,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 1,
     "omrTidigare": [
       "trig_kurvor_radianer"
-    ]
+    ],
+    "alternativ": [{"txt": "Den är förskjuten \\(\\pi/3\\) åt vänster.", "ratt": false}, {"txt": "Den är förskjuten \\(\\pi/3\\) uppåt.", "ratt": false}, {"txt": "Den är förskjuten \\(\\pi/3\\) åt höger.", "ratt": true}, {"txt": "Den är förskjuten \\(\\pi/3\\) nedåt.", "ratt": false}]
   },
   {
     "id": "1.654",
@@ -94502,17 +94502,16 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin(x+20^\\circ)\\) till grafen till \\(y=\\sin x\\)?</p><p>A. Den är förskjuten \\(20\\) enheter nedåt.<br>B. Den är förskjuten \\(20^\\circ\\) åt höger.<br>C. Den är förskjuten \\(20\\) enheter uppåt.<br>D. Den är förskjuten \\(20^\\circ\\) åt vänster.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Argumentet är \\(0^\\circ\\) redan när \\(x=-20^\\circ\\).</p></li><li><p>Grafen har alltså flyttats \\(20^\\circ\\) åt vänster.</p></li><li><p>Plus inne i parentesen ger förskjutning åt vänster.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> D</p></div>",
+    "t": "<p>Hur förhåller sig grafen till \\(y=\\sin(x+20^\\circ)\\) till grafen till \\(y=\\sin x\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Argumentet är \\(0^\\circ\\) redan när \\(x=-20^\\circ\\).</p></li><li><p>Grafen har alltså flyttats \\(20^\\circ\\) åt vänster.</p></li><li><p>Plus inne i parentesen ger förskjutning åt vänster.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den är förskjuten \\(20^\\circ\\) åt vänster.</p></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "D",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "spel": true,
     "familjNyckel": "forskjutna_kurvor__fasforskjutning_i_trigonometriska_funktioner",
     "ledtrad": "<p>För vilket \\(x\\) blir argumentet \\(x+20^\\circ\\) lika med \\(0^\\circ\\)?</p>",
@@ -94520,7 +94519,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 1,
     "omrTidigare": [
       "trig_fasforskjutning"
-    ]
+    ],
+    "alternativ": [{"txt": "Den är förskjuten \\(20\\) enheter nedåt.", "ratt": false}, {"txt": "Den är förskjuten \\(20^\\circ\\) åt höger.", "ratt": false}, {"txt": "Den är förskjuten \\(20\\) enheter uppåt.", "ratt": false}, {"txt": "Den är förskjuten \\(20^\\circ\\) åt vänster.", "ratt": true}]
   },
   {
     "id": "1.658",
@@ -94533,17 +94533,16 @@ window.BANKMATO2 = [
     "poang": "1/0/0",
     "miniräknare": true,
     "geogebra": false,
-    "t": "<p>Grafen till \\(y=\\sin x\\) förskjuts \\(45^\\circ\\) åt höger. Vilken funktion beskriver den nya grafen?</p><p>A. \\(y=\\sin(x-45^\\circ)\\)<br>B. \\(y=\\sin(x+45^\\circ)\\)<br>C. \\(y=\\sin x+45\\)<br>D. \\(y=\\sin x-45\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Startpunkten \\((0^\\circ,0)\\) ska hamna vid \\(x=45^\\circ\\).</p></li><li><p>Då måste argumentet vara \\(0^\\circ\\) när \\(x=45^\\circ\\), vilket gäller för \\(x-45^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A</p></div>",
+    "t": "<p>Grafen till \\(y=\\sin x\\) förskjuts \\(45^\\circ\\) åt höger. Vilken funktion beskriver den nya grafen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Startpunkten \\((0^\\circ,0)\\) ska hamna vid \\(x=45^\\circ\\).</p></li><li><p>Då måste argumentet vara \\(0^\\circ\\) när \\(x=45^\\circ\\), vilket gäller för \\(x-45^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=\\sin(x-45^\\circ)\\).</p></div>",
     "familj": "Fasförskjutning i trigonometriska funktioner",
     "formaga": [
       "begrepp"
     ],
-    "svarstyp": "val",
-    "rättSvar": "A",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
-    "svarFormat": "val",
     "spel": true,
     "familjNyckel": "forskjutna_kurvor__fasforskjutning_i_trigonometriska_funktioner",
     "ledtrad": "<p>Vilket alternativ ger argumentet \\(0^\\circ\\) när \\(x=45^\\circ\\)?</p>",
@@ -94551,7 +94550,8 @@ window.BANKMATO2 = [
     "arbetsinsats": 1,
     "omrTidigare": [
       "trig_fasforskjutning"
-    ]
+    ],
+    "alternativ": [{"txt": "\\(y=\\sin(x-45^\\circ)\\)", "ratt": true}, {"txt": "\\(y=\\sin(x+45^\\circ)\\)", "ratt": false}, {"txt": "\\(y=\\sin x+45\\)", "ratt": false}, {"txt": "\\(y=\\sin x-45\\)", "ratt": false}]
   },
   {
     "id": "1.659",
@@ -96072,8 +96072,8 @@ window.BANKMATO2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Elias påstår att funktionen \\(f(x)=7\\sin x+24\\cos x\\) kan anta värdet 26 för något \\(x\\), eftersom både sinus och cosinus kan vara positiva samtidigt.</p><p>Har Elias rätt? Välj ett alternativ.</p><p>A. Ja, för \\(x=45^\\circ\\) blir värdet större än 26.<br>B. Ja, största värdet är \\(7+24=31\\).<br>C. Nej, största värdet är \\(\\sqrt{7^2+24^2}=25\\).<br>D. Nej, största värdet är 24.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7\\sin x+24\\cos x=R\\sin(x+v),\\qquad R=\\sqrt{7^2+24^2}=\\sqrt{625}=25\\]</div></li><li><p>Sinus och cosinus kan inte vara 1 samtidigt. Det största värdet är därför 25, och 26 kan aldrig nås. Vid \\(x=45^\\circ\\) blir värdet bara \\(31\\cdot\\tfrac{\\sqrt2}{2}\\approx21{,}9\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> C</p></div>",
+    "t": "<p>Elias påstår att funktionen \\(f(x)=7\\sin x+24\\cos x\\) kan anta värdet 26 för något \\(x\\), eftersom både sinus och cosinus kan vara positiva samtidigt.</p><p>Har Elias rätt? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7\\sin x+24\\cos x=R\\sin(x+v),\\qquad R=\\sqrt{7^2+24^2}=\\sqrt{625}=25\\]</div></li><li><p>Sinus och cosinus kan inte vara 1 samtidigt. Det största värdet är därför 25, och 26 kan aldrig nås. Vid \\(x=45^\\circ\\) blir värdet bara \\(31\\cdot\\tfrac{\\sqrt2}{2}\\approx21{,}9\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, största värdet är \\(\\sqrt{7^2+24^2}=25\\).</p></div>",
     "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
       "begrepp",
@@ -96086,10 +96086,10 @@ window.BANKMATO2 = [
     "spel": true,
     "traningsniva": 1,
     "arbetsinsats": 1,
-    "svarstyp": "val",
-    "svarFormat": "kort_text",
-    "rättSvar": "C",
-    "tolerans": null
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [{"txt": "Ja, för \\(x=45^\\circ\\) blir värdet större än 26.", "ratt": false}, {"txt": "Ja, största värdet är \\(7+24=31\\).", "ratt": false}, {"txt": "Nej, största värdet är \\(\\sqrt{7^2+24^2}=25\\).", "ratt": true}, {"txt": "Nej, största värdet är 24.", "ratt": false}]
   },
   {
     "id": "2.590",
@@ -96321,8 +96321,8 @@ window.BANKMATO2 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Vilket uttryck har största värdet 5?</p><p>Välj ett alternativ.</p><p>A. \\(4\\sin x-3\\cos x\\)<br>B. \\(5\\sin x+5\\cos x\\)<br>C. \\(2\\sin x+3\\cos x\\)<br>D. \\(\\sin x+4\\cos x\\)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största värdet är \\(\\sqrt{a^2+b^2}\\).</p></li><li><div class=\"facit-matte\">\\[A:\\ \\sqrt{16+9}=5,\\quad B:\\ \\sqrt{50}\\approx7{,}1,\\quad C:\\ \\sqrt{13}\\approx3{,}6,\\quad D:\\ \\sqrt{17}\\approx4{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A</p></div>",
+    "t": "<p>Vilket uttryck har största värdet 5?</p><p>Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största värdet är \\(\\sqrt{a^2+b^2}\\).</p></li><li><div class=\"facit-matte\">\\[A:\\ \\sqrt{16+9}=5,\\quad B:\\ \\sqrt{50}\\approx7{,}1,\\quad C:\\ \\sqrt{13}\\approx3{,}6,\\quad D:\\ \\sqrt{17}\\approx4{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4\\sin x-3\\cos x\\).</p></div>",
     "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
       "begrepp"
@@ -96334,10 +96334,10 @@ window.BANKMATO2 = [
     "spel": true,
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "svarstyp": "val",
-    "svarFormat": "kort_text",
-    "rättSvar": "A",
-    "tolerans": null
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [{"txt": "\\(4\\sin x-3\\cos x\\)", "ratt": true}, {"txt": "\\(5\\sin x+5\\cos x\\)", "ratt": false}, {"txt": "\\(2\\sin x+3\\cos x\\)", "ratt": false}, {"txt": "\\(\\sin x+4\\cos x\\)", "ratt": false}]
   },
   {
     "id": "2.596",

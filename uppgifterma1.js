@@ -155418,5 +155418,1892 @@ window.BANKMA1 = [
         "kommentar": "Bara 9 har dragits roten ur."
       }
     ]
+  },
+  {
+    "id": "7.720",
+    "kap": 7,
+    "omr": "proportionalitet_yrke",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Receptkortet visar ingredienser till pannkakor.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"188\" viewBox=\"0 0 300 188\" role=\"img\" aria-label=\"Receptkort för 4 portioner pannkakor: 2,5 dl vetemjöl, 6 dl mjölk, 3 ägg och 1 krm salt.\"><title>Receptkort för 4 portioner pannkakor: 2,5 dl vetemjöl, 6 dl mjölk, 3 ägg och 1 krm salt.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"186\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"16\" width=\"260\" height=\"156\" rx=\"10\" fill=\"#fff7e6\" stroke=\"#d4a017\" stroke-width=\"2\"/><text x=\"150.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Pannkakor, 4 portioner</text><line x1=\"36.0\" y1=\"54.0\" x2=\"264.0\" y2=\"54.0\" stroke=\"#d4a017\" stroke-width=\"1.2\"/><text x=\"40.0\" y=\"78.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\">2,5 dl vetemjöl</text><text x=\"40.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\">6 dl mjölk</text><text x=\"40.0\" y=\"130.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\">3 ägg</text><text x=\"40.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\">1 krm salt</text></svg></span><p>Hur mycket vetemjöl behövs till 10 portioner? (Svara i dl.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En portion kräver \\(\\frac{2{,}5}4=0{,}625\\) dl vetemjöl.</p></li><li><div class=\"facit-matte\">\\[10\\cdot0{,}625=6{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,25 dl.</p></div>",
+    "familj": "Proportionalitet i praktiska problem",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna först ut hur mycket mjöl som går åt till en portion.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 6.25,
+    "tolerans": 0.01,
+    "svarEnhet": "dl"
+  },
+  {
+    "id": "7.721",
+    "kap": 7,
+    "omr": "proportionalitet_yrke",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Grafen visar priset för kaffebönor i en butik. Priset är proportionellt mot vikten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Rät linje genom origo som visar pris mot vikt. Punkten (2, 180) är markerad.\"><title>Rät linje genom origo som visar pris mot vikt. Punkten (2, 180) är markerad.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"52.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"98.7\" y1=\"248.0\" x2=\"98.7\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"98.7\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"145.3\" y1=\"248.0\" x2=\"145.3\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"145.3\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"192.0\" y1=\"248.0\" x2=\"192.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"192.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"238.7\" y1=\"248.0\" x2=\"238.7\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"238.7\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"285.3\" y1=\"248.0\" x2=\"285.3\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"285.3\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"332.0\" y1=\"248.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"332.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"52.0\" y1=\"248.0\" x2=\"332.0\" y2=\"248.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"52.0\" y1=\"213.3\" x2=\"332.0\" y2=\"213.3\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"217.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">90</text><line x1=\"52.0\" y1=\"178.7\" x2=\"332.0\" y2=\"178.7\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"182.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">180</text><line x1=\"52.0\" y1=\"144.0\" x2=\"332.0\" y2=\"144.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"148.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">270</text><line x1=\"52.0\" y1=\"109.3\" x2=\"332.0\" y2=\"109.3\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"113.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">360</text><line x1=\"52.0\" y1=\"74.7\" x2=\"332.0\" y2=\"74.7\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"78.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">450</text><line x1=\"52.0\" y1=\"40.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">540</text><line x1=\"52.0\" y1=\"248.0\" x2=\"342.0\" y2=\"248.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polyline points=\"52.0,248.0 53.4,247.0 54.8,245.9 56.2,244.9 57.6,243.8 59.0,242.8 60.4,241.8 61.8,240.7 63.2,239.7 64.6,238.6 66.0,237.6 67.4,236.6 68.8,235.5 70.2,234.5 71.6,233.4 73.0,232.4 74.4,231.4 75.8,230.3 77.2,229.3 78.6,228.2 80.0,227.2 81.4,226.2 82.8,225.1 84.2,224.1 85.6,223.0 87.0,222.0 88.4,221.0 89.8,219.9 91.2,218.9 92.6,217.8 94.0,216.8 95.4,215.8 96.8,214.7 98.2,213.7 99.6,212.6 101.0,211.6 102.4,210.6 103.8,209.5 105.2,208.5 106.6,207.4 108.0,206.4 109.4,205.4 110.8,204.3 112.2,203.3 113.6,202.2 115.0,201.2 116.4,200.2 117.8,199.1 119.2,198.1 120.6,197.0 122.0,196.0 123.4,195.0 124.8,193.9 126.2,192.9 127.6,191.8 129.0,190.8 130.4,189.8 131.8,188.7 133.2,187.7 134.6,186.6 136.0,185.6 137.4,184.6 138.8,183.5 140.2,182.5 141.6,181.4 143.0,180.4 144.4,179.4 145.8,178.3 147.2,177.3 148.6,176.2 150.0,175.2 151.4,174.2 152.8,173.1 154.2,172.1 155.6,171.0 157.0,170.0 158.4,169.0 159.8,167.9 161.2,166.9 162.6,165.8 164.0,164.8 165.4,163.8 166.8,162.7 168.2,161.7 169.6,160.6 171.0,159.6 172.4,158.6 173.8,157.5 175.2,156.5 176.6,155.4 178.0,154.4 179.4,153.4 180.8,152.3 182.2,151.3 183.6,150.2 185.0,149.2 186.4,148.2 187.8,147.1 189.2,146.1 190.6,145.0 192.0,144.0 193.4,143.0 194.8,141.9 196.2,140.9 197.6,139.8 199.0,138.8 200.4,137.8 201.8,136.7 203.2,135.7 204.6,134.6 206.0,133.6 207.4,132.6 208.8,131.5 210.2,130.5 211.6,129.4 213.0,128.4 214.4,127.4 215.8,126.3 217.2,125.3 218.6,124.2 220.0,123.2 221.4,122.2 222.8,121.1 224.2,120.1 225.6,119.0 227.0,118.0 228.4,117.0 229.8,115.9 231.2,114.9 232.6,113.8 234.0,112.8 235.4,111.8 236.8,110.7 238.2,109.7 239.6,108.6 241.0,107.6 242.4,106.6 243.8,105.5 245.2,104.5 246.6,103.4 248.0,102.4 249.4,101.4 250.8,100.3 252.2,99.3 253.6,98.2 255.0,97.2 256.4,96.2 257.8,95.1 259.2,94.1 260.6,93.0 262.0,92.0 263.4,91.0 264.8,89.9 266.2,88.9 267.6,87.8 269.0,86.8 270.4,85.8 271.8,84.7 273.2,83.7 274.6,82.6 276.0,81.6 277.4,80.6 278.8,79.5 280.2,78.5 281.6,77.4 283.0,76.4 284.4,75.4 285.8,74.3 287.2,73.3 288.6,72.2 290.0,71.2 291.4,70.2 292.8,69.1 294.2,68.1 295.6,67.0 297.0,66.0 298.4,65.0 299.8,63.9 301.2,62.9 302.6,61.8 304.0,60.8 305.4,59.8 306.8,58.7 308.2,57.7 309.6,56.6 311.0,55.6 312.4,54.6 313.8,53.5 315.2,52.5 316.6,51.4 318.0,50.4 319.4,49.4 320.8,48.3 322.2,47.3 323.6,46.2 325.0,45.2 326.4,44.2 327.8,43.1 329.2,42.1 330.6,41.0 332.0,40.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"2.6\"/><circle cx=\"145.3\" cy=\"178.7\" r=\"4.5\" fill=\"#c2410c\"/><text x=\"342.0\" y=\"284.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-style=\"italic\">vikt (kg)</text><text x=\"46.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-style=\"italic\">pris (kr)</text></svg></span><p>Vad kostar 5 kg kaffebönor? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen går genom \\((2,\\ 180)\\), så 1 kg kostar 90 kr.</p></li><li><div class=\"facit-matte\">\\[5\\cdot90=450\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 450 kr.</p></div>",
+    "familj": "Proportionalitet i praktiska problem",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Läs av priset för 2 kg och räkna ut priset per kilogram.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 450,
+    "tolerans": 0,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "7.722",
+    "kap": 7,
+    "omr": "proportionalitet_yrke",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Etiketten på en färgburk visar hur långt färgen räcker.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"200\" viewBox=\"0 0 420 200\" role=\"img\" aria-label=\"Färgburk på 1 liter. Etiketten säger att 1 liter räcker till 9 m² vid en strykning.\"><title>Färgburk på 1 liter. Etiketten säger att 1 liter räcker till 9 m² vid en strykning.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"70\" y=\"40\" width=\"110\" height=\"130\" rx=\"8\" fill=\"#dbe7f5\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"64\" y=\"30\" width=\"122\" height=\"16\" rx=\"4\" fill=\"#9aa5b1\" stroke=\"#172b3a\"/><rect x=\"80\" y=\"70\" width=\"90\" height=\"70\" rx=\"6\" fill=\"#fff\" stroke=\"#2f6fca\"/><text x=\"125.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">FÄRG</text><text x=\"125.0\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1 liter</text><rect x=\"237.2\" y=\"67.0\" width=\"125.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"300.0\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">1 liter räcker</text><rect x=\"258.2\" y=\"93.0\" width=\"83.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"300.0\" y=\"106.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">till 9 m²</text><rect x=\"237.2\" y=\"119.0\" width=\"125.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"300.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">(en strykning)</text></svg></span><p>Hur många liter behövs för att måla 54 m² en gång? (Svara i liter.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{54}9=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 liter.</p></div>",
+    "familj": "Proportionalitet i praktiska problem",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många gånger större är ytan än 9 m²?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "svarEnhet": "liter"
+  },
+  {
+    "id": "7.723",
+    "kap": 7,
+    "omr": "proportionalitet_yrke",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tabellen visar lönen för en lärling. Lönen är proportionell mot antalet timmar.</p><table class=\"data\"><tbody><tr><th>Timmar</th><td>2</td><td>5</td><td>8</td></tr><tr><th>Lön (kr)</th><td>360</td><td>900</td><td>?</td></tr></tbody></table><p>Vilket tal ska stå i stället för frågetecknet? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Timlönen är \\(\\frac{360}{2}=180\\) kr.</p></li><li><div class=\"facit-matte\">\\[8\\cdot180=1\\,440\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 440 kr.</p></div>",
+    "familj": "Proportionalitet i praktiska problem",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut lönen för en timme.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1440,
+    "tolerans": 0,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "7.724",
+    "kap": 7,
+    "omr": "proportionalitet_yrke",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En sjuksköterska ska ge ett barn medicin. Doseringen står på förpackningen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"136\" viewBox=\"0 0 300 136\" role=\"img\" aria-label=\"Etikett: dosering 15 mg per kg kroppsvikt. Barnet väger 18 kg.\"><title>Etikett: dosering 15 mg per kg kroppsvikt. Barnet väger 18 kg.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"134\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"16\" width=\"260\" height=\"104\" rx=\"10\" fill=\"#eef6ff\" stroke=\"#2f6fca\" stroke-width=\"2\"/><text x=\"150.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Dosering</text><line x1=\"36.0\" y1=\"54.0\" x2=\"264.0\" y2=\"54.0\" stroke=\"#2f6fca\" stroke-width=\"1.2\"/><text x=\"40.0\" y=\"78.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\">15 mg per kg kroppsvikt</text><text x=\"40.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\">Barnet väger 18 kg</text></svg></span><p>Hur många milligram ska barnet få? (Svara i mg.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[15\\cdot18=270\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 270 mg.</p></div>",
+    "familj": "Proportionalitet i praktiska problem",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera dosen per kilogram med vikten.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 270,
+    "tolerans": 0,
+    "svarEnhet": "mg"
+  },
+  {
+    "id": "7.725",
+    "kap": 7,
+    "omr": "proportionalitet_yrke",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett rengöringsmedel ska spädas 1:4, alltså 1 del medel och 4 delar vatten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"160\" viewBox=\"0 0 320 160\" role=\"img\" aria-label=\"Fem lika stora delar: en del medel och fyra delar vatten.\"><title>Fem lika stora delar: en del medel och fyra delar vatten.</title><rect x=\"1\" y=\"1\" width=\"318\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"40\" width=\"44\" height=\"80\" rx=\"6\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"92\" y=\"40\" width=\"44\" height=\"80\" rx=\"6\" fill=\"#cfe6f7\" stroke=\"#5a9bd0\" stroke-width=\"2\"/><rect x=\"144\" y=\"40\" width=\"44\" height=\"80\" rx=\"6\" fill=\"#cfe6f7\" stroke=\"#5a9bd0\" stroke-width=\"2\"/><rect x=\"196\" y=\"40\" width=\"44\" height=\"80\" rx=\"6\" fill=\"#cfe6f7\" stroke=\"#5a9bd0\" stroke-width=\"2\"/><rect x=\"248\" y=\"40\" width=\"44\" height=\"80\" rx=\"6\" fill=\"#cfe6f7\" stroke=\"#5a9bd0\" stroke-width=\"2\"/><text x=\"62.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#c2410c\">medel</text><text x=\"180.0\" y=\"140.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#2f6fa0\">vatten</text></svg></span><p>Hur mycket medel går åt till 3 liter färdig blandning? (Svara i liter.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Blandningen består av 5 lika stora delar, och 1 av dem är medel.</p></li><li><div class=\"facit-matte\">\\[\\frac35=0{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,6 liter.</p></div>",
+    "familj": "Koncentration, spädning och blandningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många delar finns det totalt i den färdiga blandningen?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 0.6,
+    "tolerans": 1e-09,
+    "svarEnhet": "liter"
+  },
+  {
+    "id": "7.726",
+    "kap": 7,
+    "omr": "proportionalitet_yrke",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Vilken av tabellerna visar ett proportionellt samband?</p><p>A</p><table class=\"data\"><tbody><tr><th>x</th><td>1</td><td>2</td><td>4</td></tr><tr><th>y</th><td>5</td><td>10</td><td>20</td></tr></tbody></table><p>B</p><table class=\"data\"><tbody><tr><th>x</th><td>1</td><td>2</td><td>4</td></tr><tr><th>y</th><td>5</td><td>7</td><td>11</td></tr></tbody></table><p>C</p><table class=\"data\"><tbody><tr><th>x</th><td>1</td><td>2</td><td>4</td></tr><tr><th>y</th><td>4</td><td>8</td><td>12</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I A är \\(\\frac yx=5\\) för alla par. I B och C varierar kvoten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A</p></div>",
+    "familj": "Proportionalitet i praktiska problem",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Beräkna \\(y/x\\) för varje par. I ett proportionellt samband är kvoten konstant.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "A",
+        "ratt": true
+      },
+      {
+        "txt": "B",
+        "ratt": false,
+        "kommentar": "y ökar, men 5/1 ≠ 7/2."
+      },
+      {
+        "txt": "C",
+        "ratt": false,
+        "kommentar": "4/1 = 4 men 12/4 = 3."
+      },
+      {
+        "txt": "Alla tre",
+        "ratt": false,
+        "kommentar": "Bara en har konstant kvot."
+      }
+    ]
+  },
+  {
+    "id": "7.727",
+    "kap": 7,
+    "omr": "proportionalitet_yrke",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett tyg kostar 216 kr för 2,4 m. Priset är proportionellt mot längden. Vad kostar 3,5 m? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{216}{2{,}4}=90\\ \\text{kr/m}\\]</div></li><li><div class=\"facit-matte\">\\[3{,}5\\cdot90=315\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 315 kr.</p></div>",
+    "familj": "Proportionalitet i praktiska problem",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut priset per meter.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 315,
+    "tolerans": 0,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "7.728",
+    "kap": 7,
+    "omr": "proportionalitet_yrke",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Grafen visar hur mycket två personer, A och B, tjänar beroende på antal arbetade timmar.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"322\" viewBox=\"0 0 360 322\" role=\"img\" aria-label=\"Två räta linjer genom origo: A når 1 200 kr vid 8 timmar och B når 1 000 kr vid 8 timmar.\"><title>Två räta linjer genom origo: A når 1 200 kr vid 8 timmar och B når 1 000 kr vid 8 timmar.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"320\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"260.0\" x2=\"56.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"56.0\" y=\"277.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"91.0\" y1=\"260.0\" x2=\"91.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"91.0\" y=\"277.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"126.0\" y1=\"260.0\" x2=\"126.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"126.0\" y=\"277.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"161.0\" y1=\"260.0\" x2=\"161.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"161.0\" y=\"277.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"196.0\" y1=\"260.0\" x2=\"196.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"196.0\" y=\"277.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"231.0\" y1=\"260.0\" x2=\"231.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"231.0\" y=\"277.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"266.0\" y1=\"260.0\" x2=\"266.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"266.0\" y=\"277.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"301.0\" y1=\"260.0\" x2=\"301.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"301.0\" y=\"277.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"336.0\" y1=\"260.0\" x2=\"336.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"336.0\" y=\"277.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"56.0\" y1=\"260.0\" x2=\"336.0\" y2=\"260.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"50.0\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"56.0\" y1=\"228.6\" x2=\"336.0\" y2=\"228.6\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"50.0\" y=\"232.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">200</text><line x1=\"56.0\" y1=\"197.1\" x2=\"336.0\" y2=\"197.1\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"50.0\" y=\"201.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">400</text><line x1=\"56.0\" y1=\"165.7\" x2=\"336.0\" y2=\"165.7\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"50.0\" y=\"169.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">600</text><line x1=\"56.0\" y1=\"134.3\" x2=\"336.0\" y2=\"134.3\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"50.0\" y=\"138.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">800</text><line x1=\"56.0\" y1=\"102.9\" x2=\"336.0\" y2=\"102.9\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"50.0\" y=\"106.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1000</text><line x1=\"56.0\" y1=\"71.4\" x2=\"336.0\" y2=\"71.4\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"50.0\" y=\"75.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1200</text><line x1=\"56.0\" y1=\"40.0\" x2=\"336.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"50.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1400</text><line x1=\"56.0\" y1=\"260.0\" x2=\"346.0\" y2=\"260.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"56.0\" y1=\"260.0\" x2=\"56.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"56.0\" y1=\"260.0\" x2=\"336.0\" y2=\"71.4\" stroke=\"#2f6fca\" stroke-width=\"2.6\"/><line x1=\"56.0\" y1=\"260.0\" x2=\"336.0\" y2=\"102.9\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><rect x=\"317.6\" y=\"50.4\" width=\"16.4\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"330.0\" y=\"63.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#2f6fca\" font-weight=\"bold\">A</text><rect x=\"317.6\" y=\"111.9\" width=\"16.4\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"330.0\" y=\"124.9\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">B</text><text x=\"346.0\" y=\"296.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">timmar</text><text x=\"50.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">lön (kr)</text></svg></span><p>Hur mycket mer tjänar A än B på en arbetsvecka med 35 timmar? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A tjänar \\(\\frac{1\\,200}8=150\\) kr/h och B \\(\\frac{1\\,000}8=125\\) kr/h.</p></li><li><div class=\"facit-matte\">\\[35\\cdot(150-125)=875\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 875 kr.</p></div>",
+    "familj": "Proportionalitet i praktiska problem",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Läs av lönen för 8 timmar för båda och räkna ut timlönerna.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 875,
+    "tolerans": 0,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "7.729",
+    "kap": 7,
+    "omr": "proportionalitet_yrke",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Betong blandas av cement, sand och grus i förhållandet 1 : 2 : 3, räknat i vikt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"330\" height=\"125\" viewBox=\"0 0 330 125\" role=\"img\" aria-label=\"Sex lika stora rutor: en ruta cement, två rutor sand och tre rutor grus.\"><title>Sex lika stora rutor: en ruta cement, två rutor sand och tre rutor grus.</title><rect x=\"1\" y=\"1\" width=\"328\" height=\"123\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"40\" width=\"40\" height=\"40\" rx=\"4\" fill=\"#b8bec6\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><rect x=\"84\" y=\"40\" width=\"40\" height=\"40\" rx=\"4\" fill=\"#ecd9a6\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><rect x=\"128\" y=\"40\" width=\"40\" height=\"40\" rx=\"4\" fill=\"#ecd9a6\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><rect x=\"172\" y=\"40\" width=\"40\" height=\"40\" rx=\"4\" fill=\"#c9a77a\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><rect x=\"216\" y=\"40\" width=\"40\" height=\"40\" rx=\"4\" fill=\"#c9a77a\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><rect x=\"260\" y=\"40\" width=\"40\" height=\"40\" rx=\"4\" fill=\"#c9a77a\" stroke=\"#172b3a\" stroke-width=\"1.2\"/><text x=\"60.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">cement</text><text x=\"126.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">sand</text><text x=\"214.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\">grus</text></svg></span><p>Hur många kilogram sand behövs till 90 kg betongblandning? (Svara i kg.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Blandningen har \\(1+2+3=6\\) delar. En del är \\(\\frac{90}6=15\\) kg.</p></li><li><div class=\"facit-matte\">\\[2\\cdot15=30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 kg.</p></div>",
+    "familj": "Koncentration, spädning och blandningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många delar finns det sammanlagt?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 0,
+    "svarEnhet": "kg"
+  },
+  {
+    "id": "7.730",
+    "kap": 7,
+    "omr": "proportionalitet_yrke",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett golv ska kaklas. En säck fix räcker till 5 m². Rummet är 4,5 m långt och 4,0 m brett.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"230\" viewBox=\"0 0 300 230\" role=\"img\" aria-label=\"Rektangulärt golv 4,0 m gånger 4,5 m med kakelrutor.\"><title>Rektangulärt golv 4,0 m gånger 4,5 m med kakelrutor.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"60\" y=\"30\" width=\"200\" height=\"160\" fill=\"#f3ead8\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"80.0\" y1=\"30.0\" x2=\"80.0\" y2=\"190.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"100.0\" y1=\"30.0\" x2=\"100.0\" y2=\"190.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"120.0\" y1=\"30.0\" x2=\"120.0\" y2=\"190.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"140.0\" y1=\"30.0\" x2=\"140.0\" y2=\"190.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"160.0\" y1=\"30.0\" x2=\"160.0\" y2=\"190.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"30.0\" x2=\"180.0\" y2=\"190.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"200.0\" y1=\"30.0\" x2=\"200.0\" y2=\"190.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"220.0\" y1=\"30.0\" x2=\"220.0\" y2=\"190.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"240.0\" y1=\"30.0\" x2=\"240.0\" y2=\"190.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"60.0\" y1=\"50.0\" x2=\"260.0\" y2=\"50.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"60.0\" y1=\"70.0\" x2=\"260.0\" y2=\"70.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"60.0\" y1=\"90.0\" x2=\"260.0\" y2=\"90.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"60.0\" y1=\"110.0\" x2=\"260.0\" y2=\"110.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"60.0\" y1=\"130.0\" x2=\"260.0\" y2=\"130.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"60.0\" y1=\"150.0\" x2=\"260.0\" y2=\"150.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><line x1=\"60.0\" y1=\"170.0\" x2=\"260.0\" y2=\"170.0\" stroke=\"#d8c9a8\" stroke-width=\"1\"/><rect x=\"136.5\" y=\"202.0\" width=\"47.0\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"160.0\" y=\"214.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">4,0 m</text><rect x=\"9.0\" y=\"103.0\" width=\"47.0\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"52.0\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">4,5 m</text></svg></span><p>Hur många säckar fix måste köpas? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[A=4{,}5\\cdot4{,}0=18\\ \\mathrm{m^2}\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{18}5=3{,}6\\]</div></li><li><p>Man köper hela säckar, alltså 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 säckar.</p></div>",
+    "familj": "Proportionalitet i praktiska problem",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna ut golvets area. Avrunda uppåt eftersom det inte går att köpa en del av en säck.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "svarEnhet": "säckar"
+  },
+  {
+    "id": "7.731",
+    "kap": 7,
+    "omr": "proportionalitet_yrke",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En maskin fyller 45 burkar per minut. Hur många burkar fyller den på en timme? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[60\\cdot45=2\\,700\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 700 burkar.</p></div>",
+    "familj": "Proportionalitet i praktiska problem",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En timme är 60 minuter.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2700,
+    "tolerans": 0
+  },
+  {
+    "id": "7.732",
+    "kap": 7,
+    "omr": "proportionalitet_yrke",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Fyra snickare bygger en altan på 6 dagar. Alla arbetar lika snabbt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"330\" height=\"120\" viewBox=\"0 0 330 120\" role=\"img\" aria-label=\"Fyra snickare som tillsammans behöver 6 dagar.\"><title>Fyra snickare som tillsammans behöver 6 dagar.</title><rect x=\"1\" y=\"1\" width=\"328\" height=\"118\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"50\" cy=\"50\" r=\"12\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"38\" y=\"66\" width=\"24\" height=\"34\" rx=\"8\" fill=\"#2f6fca\"/><circle cx=\"90\" cy=\"50\" r=\"12\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"78\" y=\"66\" width=\"24\" height=\"34\" rx=\"8\" fill=\"#2f6fca\"/><circle cx=\"130\" cy=\"50\" r=\"12\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"118\" y=\"66\" width=\"24\" height=\"34\" rx=\"8\" fill=\"#2f6fca\"/><circle cx=\"170\" cy=\"50\" r=\"12\" fill=\"#f6c9b0\" stroke=\"#c2410c\" stroke-width=\"2\"/><rect x=\"158\" y=\"66\" width=\"24\" height=\"34\" rx=\"8\" fill=\"#2f6fca\"/><text x=\"230.0\" y=\"82.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">6 dagar</text></svg></span><p>Hur många dagar skulle tre snickare behöva? (Svara i dagar.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Arbetet motsvarar \\(4\\cdot6=24\\) dagsverken.</p></li><li><div class=\"facit-matte\">\\[\\frac{24}3=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 dagar.</p></div>",
+    "familj": "Proportionalitet i praktiska problem",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Färre snickare behöver längre tid. Räkna först ut hur många arbetsdagar jobbet kräver totalt.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "svarEnhet": "dagar"
+  },
+  {
+    "id": "3.620",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En kubformad låda har volymen 2 744 cm³.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"260\" height=\"220\" viewBox=\"0 0 260 220\" role=\"img\" aria-label=\"Kub med volymen 2 744 cm³ och okänd kantlängd s.\"><title>Kub med volymen 2 744 cm³ och okänd kantlängd s.</title><rect x=\"1\" y=\"1\" width=\"258\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"50,60 170,60 220,20 100,20\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"170,180 220,140 220,20 170,60\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"50,180 170,180 170,60 50,60\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"47.5\" y=\"112.0\" width=\"125.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"110.0\" y=\"126.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">V = 2 744 cm³</text><rect x=\"86.5\" y=\"192.0\" width=\"47.0\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"110.0\" y=\"204.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">s = ?</text></svg></span><p>Hur lång är en kant? (Svara i cm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s^3=2\\,744\\]</div></li><li><div class=\"facit-matte\">\\[s=\\sqrt[3]{2\\,744}=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14 cm.</p></div>",
+    "familj": "Potensekvationer i tillämpningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Använd tredje roten på räknaren.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": 0,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.621",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(x^3=1\\,331\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=\\sqrt[3]{1\\,331}=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=11\\)</p></div>",
+    "familj": "Lösa potensekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Pröva tal strax över 10.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": 0
+  },
+  {
+    "id": "3.622",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Värdet på en tavla fördubblades på 5 år. Värdet ökade med lika många procent varje år.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Kurva som visar att värdet går från 1 000 till 2 000 på 5 år.\"><title>Kurva som visar att värdet går från 1 000 till 2 000 på 5 år.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"52.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"108.0\" y1=\"248.0\" x2=\"108.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"108.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"164.0\" y1=\"248.0\" x2=\"164.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"164.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"220.0\" y1=\"248.0\" x2=\"220.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"220.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"276.0\" y1=\"248.0\" x2=\"276.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"276.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"332.0\" y1=\"248.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"332.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"52.0\" y1=\"248.0\" x2=\"332.0\" y2=\"248.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"52.0\" y1=\"200.7\" x2=\"332.0\" y2=\"200.7\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"204.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">500</text><line x1=\"52.0\" y1=\"153.5\" x2=\"332.0\" y2=\"153.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"157.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1000</text><line x1=\"52.0\" y1=\"106.2\" x2=\"332.0\" y2=\"106.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"110.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1500</text><line x1=\"52.0\" y1=\"58.9\" x2=\"332.0\" y2=\"58.9\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"62.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2000</text><line x1=\"52.0\" y1=\"248.0\" x2=\"342.0\" y2=\"248.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polyline points=\"52.0,153.5 53.4,153.1 54.8,152.8 56.2,152.5 57.6,152.1 59.0,151.8 60.4,151.5 61.8,151.1 63.2,150.8 64.6,150.5 66.0,150.1 67.4,149.8 68.8,149.4 70.2,149.1 71.6,148.8 73.0,148.4 74.4,148.1 75.8,147.7 77.2,147.4 78.6,147.0 80.0,146.7 81.4,146.3 82.8,146.0 84.2,145.6 85.6,145.3 87.0,144.9 88.4,144.5 89.8,144.2 91.2,143.8 92.6,143.5 94.0,143.1 95.4,142.7 96.8,142.4 98.2,142.0 99.6,141.6 101.0,141.3 102.4,140.9 103.8,140.5 105.2,140.1 106.6,139.8 108.0,139.4 109.4,139.0 110.8,138.6 112.2,138.3 113.6,137.9 115.0,137.5 116.4,137.1 117.8,136.7 119.2,136.3 120.6,136.0 122.0,135.6 123.4,135.2 124.8,134.8 126.2,134.4 127.6,134.0 129.0,133.6 130.4,133.2 131.8,132.8 133.2,132.4 134.6,132.0 136.0,131.6 137.4,131.2 138.8,130.8 140.2,130.4 141.6,130.0 143.0,129.6 144.4,129.2 145.8,128.7 147.2,128.3 148.6,127.9 150.0,127.5 151.4,127.1 152.8,126.7 154.2,126.2 155.6,125.8 157.0,125.4 158.4,125.0 159.8,124.5 161.2,124.1 162.6,123.7 164.0,123.2 165.4,122.8 166.8,122.4 168.2,121.9 169.6,121.5 171.0,121.1 172.4,120.6 173.8,120.2 175.2,119.7 176.6,119.3 178.0,118.8 179.4,118.4 180.8,117.9 182.2,117.5 183.6,117.0 185.0,116.6 186.4,116.1 187.8,115.7 189.2,115.2 190.6,114.8 192.0,114.3 193.4,113.8 194.8,113.4 196.2,112.9 197.6,112.4 199.0,112.0 200.4,111.5 201.8,111.0 203.2,110.5 204.6,110.1 206.0,109.6 207.4,109.1 208.8,108.6 210.2,108.1 211.6,107.6 213.0,107.2 214.4,106.7 215.8,106.2 217.2,105.7 218.6,105.2 220.0,104.7 221.4,104.2 222.8,103.7 224.2,103.2 225.6,102.7 227.0,102.2 228.4,101.7 229.8,101.2 231.2,100.7 232.6,100.2 234.0,99.6 235.4,99.1 236.8,98.6 238.2,98.1 239.6,97.6 241.0,97.0 242.4,96.5 243.8,96.0 245.2,95.5 246.6,94.9 248.0,94.4 249.4,93.9 250.8,93.3 252.2,92.8 253.6,92.3 255.0,91.7 256.4,91.2 257.8,90.6 259.2,90.1 260.6,89.5 262.0,89.0 263.4,88.4 264.8,87.9 266.2,87.3 267.6,86.8 269.0,86.2 270.4,85.7 271.8,85.1 273.2,84.5 274.6,84.0 276.0,83.4 277.4,82.8 278.8,82.2 280.2,81.7 281.6,81.1 283.0,80.5 284.4,79.9 285.8,79.3 287.2,78.8 288.6,78.2 290.0,77.6 291.4,77.0 292.8,76.4 294.2,75.8 295.6,75.2 297.0,74.6 298.4,74.0 299.8,73.4 301.2,72.8 302.6,72.2 304.0,71.6 305.4,71.0 306.8,70.3 308.2,69.7 309.6,69.1 311.0,68.5 312.4,67.9 313.8,67.2 315.2,66.6 316.6,66.0 318.0,65.4 319.4,64.7 320.8,64.1 322.2,63.4 323.6,62.8 325.0,62.2 326.4,61.5 327.8,60.9 329.2,60.2 330.6,59.6 332.0,58.9\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"2.6\"/><circle cx=\"52.0\" cy=\"153.5\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"56.0\" y=\"162.5\" width=\"44.0\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"60.0\" y=\"173.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">1 000</text><circle cx=\"332.0\" cy=\"58.9\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"284.0\" y=\"38.9\" width=\"44.0\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"324.0\" y=\"49.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">2 000</text><text x=\"342.0\" y=\"284.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-style=\"italic\">år</text><text x=\"46.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-style=\"italic\">värde (kr)</text></svg></span><p>Hur stor var den årliga ökningen? (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^5=2\\]</div></li><li><div class=\"facit-matte\">\\[x=2^{1/5}\\approx1{,}1487\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 14,9 % per år.</p></div>",
+    "familj": "Potensekvationer i tillämpningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Ställ upp \\(x^5=2\\), där \\(x\\) är förändringsfaktorn per år.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 14.8698,
+    "tolerans": 0.06
+  },
+  {
+    "id": "3.623",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(x^4=4\\,096\\), där \\(x&gt;0\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=4\\,096^{1/4}=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
+    "familj": "Lösa potensekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dra fjärde roten ur 4 096, eller pröva heltal.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0
+  },
+  {
+    "id": "3.624",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(0{,}5x^3=2\\,048\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^3=4\\,096\\]</div></li><li><div class=\"facit-matte\">\\[x=\\sqrt[3]{4\\,096}=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=16\\)</p></div>",
+    "familj": "Lösa potensekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera först båda leden med 2.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": 0
+  },
+  {
+    "id": "3.625",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En maskin köptes för 400 000 kr. Efter tre år var den värd 245 650 kr. Värdet minskade med lika många procent varje år.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"370\" height=\"250\" viewBox=\"0 0 370 250\" role=\"img\" aria-label=\"Stapeldiagram: maskinens värde var 400 000 kr som ny och 245 650 kr efter tre år.\"><title>Stapeldiagram: maskinens värde var 400 000 kr som ny och 245 650 kr efter tre år.</title><rect x=\"1\" y=\"1\" width=\"368\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"350.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">värde (kr)</text><rect x=\"85\" y=\"62.2\" width=\"40\" height=\"147.8\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">ny</text><rect x=\"73.7\" y=\"42.2\" width=\"62.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"54.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">400 000</text><rect x=\"155\" y=\"84.3\" width=\"40\" height=\"125.7\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1 år</text><rect x=\"225\" y=\"103.2\" width=\"40\" height=\"106.8\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"245.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2 år</text><rect x=\"295\" y=\"119.2\" width=\"40\" height=\"90.8\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"315.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3 år</text><rect x=\"283.7\" y=\"99.2\" width=\"62.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"315.0\" y=\"111.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">245 650</text></svg></span><p>Med hur många procent minskade värdet varje år?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^3=\\frac{245\\,650}{400\\,000}=0{,}614125\\]</div></li><li><div class=\"facit-matte\">\\[x=\\sqrt[3]{0{,}614125}=0{,}85\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15 % per år.</p></div>",
+    "familj": "Potensekvationer i tillämpningar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Ställ upp \\(x^3=\\frac{245\\,650}{400\\,000}\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 15,
+    "tolerans": 0.05
+  },
+  {
+    "id": "3.626",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Mängden av ett läkemedel i kroppen halveras på 4 timmar. Mängden minskar med lika många procent varje timme.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Kurva som visar att mängden går från 100 % till 50 % på 4 timmar och till 25 % på 8 timmar.\"><title>Kurva som visar att mängden går från 100 % till 50 % på 4 timmar och till 25 % på 8 timmar.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"52.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"87.0\" y1=\"248.0\" x2=\"87.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"87.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"122.0\" y1=\"248.0\" x2=\"122.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"122.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"157.0\" y1=\"248.0\" x2=\"157.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"157.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"192.0\" y1=\"248.0\" x2=\"192.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"192.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"227.0\" y1=\"248.0\" x2=\"227.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"227.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"262.0\" y1=\"248.0\" x2=\"262.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"262.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"297.0\" y1=\"248.0\" x2=\"297.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"297.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"332.0\" y1=\"248.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"332.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"52.0\" y1=\"248.0\" x2=\"332.0\" y2=\"248.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"52.0\" y1=\"196.0\" x2=\"332.0\" y2=\"196.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">25</text><line x1=\"52.0\" y1=\"144.0\" x2=\"332.0\" y2=\"144.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"148.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">50</text><line x1=\"52.0\" y1=\"92.0\" x2=\"332.0\" y2=\"92.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">75</text><line x1=\"52.0\" y1=\"40.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">100</text><line x1=\"52.0\" y1=\"248.0\" x2=\"342.0\" y2=\"248.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polyline points=\"52.0,40.0 53.4,41.4 54.8,42.9 56.2,44.3 57.6,45.7 59.0,47.1 60.4,48.5 61.8,49.9 63.2,51.2 64.6,52.6 66.0,53.9 67.4,55.3 68.8,56.6 70.2,57.9 71.6,59.2 73.0,60.5 74.4,61.8 75.8,63.1 77.2,64.4 78.6,65.7 80.0,66.9 81.4,68.2 82.8,69.4 84.2,70.7 85.6,71.9 87.0,73.1 88.4,74.3 89.8,75.5 91.2,76.7 92.6,77.9 94.0,79.1 95.4,80.2 96.8,81.4 98.2,82.5 99.6,83.7 101.0,84.8 102.4,85.9 103.8,87.1 105.2,88.2 106.6,89.3 108.0,90.4 109.4,91.5 110.8,92.5 112.2,93.6 113.6,94.7 115.0,95.7 116.4,96.8 117.8,97.8 119.2,98.9 120.6,99.9 122.0,100.9 123.4,101.9 124.8,102.9 126.2,103.9 127.6,104.9 129.0,105.9 130.4,106.9 131.8,107.9 133.2,108.9 134.6,109.8 136.0,110.8 137.4,111.7 138.8,112.7 140.2,113.6 141.6,114.5 143.0,115.4 144.4,116.4 145.8,117.3 147.2,118.2 148.6,119.1 150.0,120.0 151.4,120.8 152.8,121.7 154.2,122.6 155.6,123.5 157.0,124.3 158.4,125.2 159.8,126.0 161.2,126.9 162.6,127.7 164.0,128.5 165.4,129.4 166.8,130.2 168.2,131.0 169.6,131.8 171.0,132.6 172.4,133.4 173.8,134.2 175.2,135.0 176.6,135.8 178.0,136.5 179.4,137.3 180.8,138.1 182.2,138.8 183.6,139.6 185.0,140.3 186.4,141.1 187.8,141.8 189.2,142.5 190.6,143.3 192.0,144.0 193.4,144.7 194.8,145.4 196.2,146.1 197.6,146.8 199.0,147.5 200.4,148.2 201.8,148.9 203.2,149.6 204.6,150.3 206.0,151.0 207.4,151.6 208.8,152.3 210.2,153.0 211.6,153.6 213.0,154.3 214.4,154.9 215.8,155.6 217.2,156.2 218.6,156.8 220.0,157.5 221.4,158.1 222.8,158.7 224.2,159.3 225.6,159.9 227.0,160.5 228.4,161.2 229.8,161.8 231.2,162.3 232.6,162.9 234.0,163.5 235.4,164.1 236.8,164.7 238.2,165.3 239.6,165.8 241.0,166.4 242.4,167.0 243.8,167.5 245.2,168.1 246.6,168.6 248.0,169.2 249.4,169.7 250.8,170.3 252.2,170.8 253.6,171.3 255.0,171.9 256.4,172.4 257.8,172.9 259.2,173.4 260.6,173.9 262.0,174.5 263.4,175.0 264.8,175.5 266.2,176.0 267.6,176.5 269.0,177.0 270.4,177.5 271.8,177.9 273.2,178.4 274.6,178.9 276.0,179.4 277.4,179.9 278.8,180.3 280.2,180.8 281.6,181.3 283.0,181.7 284.4,182.2 285.8,182.6 287.2,183.1 288.6,183.5 290.0,184.0 291.4,184.4 292.8,184.9 294.2,185.3 295.6,185.7 297.0,186.2 298.4,186.6 299.8,187.0 301.2,187.4 302.6,187.9 304.0,188.3 305.4,188.7 306.8,189.1 308.2,189.5 309.6,189.9 311.0,190.3 312.4,190.7 313.8,191.1 315.2,191.5 316.6,191.9 318.0,192.3 319.4,192.7 320.8,193.0 322.2,193.4 323.6,193.8 325.0,194.2 326.4,194.5 327.8,194.9 329.2,195.3 330.6,195.6 332.0,196.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><circle cx=\"52.0\" cy=\"40.0\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"192.0\" cy=\"144.0\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"151.2\" y=\"124.0\" width=\"36.8\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"184.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">50 %</text><text x=\"342.0\" y=\"284.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-style=\"italic\">timmar</text><text x=\"46.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-style=\"italic\">mängd (%)</text></svg></span><p>Med hur många procent minskar mängden per timme? (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^4=0{,}5\\]</div></li><li><div class=\"facit-matte\">\\[x=0{,}5^{1/4}\\approx0{,}8409\\]</div></li><li><div class=\"facit-matte\">\\[1-0{,}8409\\approx0{,}159\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 15,9 % per timme.</p></div>",
+    "familj": "Potensekvationer i tillämpningar",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Halvering betyder faktorn 0,5. Ställ upp \\(x^4=0{,}5\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 15.9104,
+    "tolerans": 0.06
+  },
+  {
+    "id": "3.627",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En fond ökade totalt med 33,1 % på tre år, med samma procentuella ökning varje år. Vilken ekvation ger förändringsfaktorn \\(x\\) per år?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En ökning med 33,1 % ger totalfaktorn 1,331, och den årliga faktorn används tre gånger.</p></li><li><div class=\"facit-matte\">\\[x^3=1{,}331\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^3=1{,}331\\)</p></div>",
+    "familj": "Potensekvationer i tillämpningar",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många gånger multipliceras startvärdet med \\(x\\)?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "x³ = 1,331",
+        "ratt": true,
+        "kommentar": "x = 1,1, alltså 10 % per år."
+      },
+      {
+        "txt": "3x = 1,331",
+        "ratt": false,
+        "kommentar": "Faktorn ska multipliceras tre gånger, inte multipliceras med 3."
+      },
+      {
+        "txt": "x³ = 33,1",
+        "ratt": false,
+        "kommentar": "Förändringsfaktorn är 1,331, inte 33,1."
+      },
+      {
+        "txt": "x + 3 = 1,331",
+        "ratt": false,
+        "kommentar": "Förändringsfaktorer multipliceras."
+      }
+    ]
+  },
+  {
+    "id": "3.628",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett kubformat akvarium ska rymma 125 liter.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"260\" height=\"220\" viewBox=\"0 0 260 220\" role=\"img\" aria-label=\"Kubformat akvarium med volymen 125 liter och okänd kantlängd.\"><title>Kubformat akvarium med volymen 125 liter och okänd kantlängd.</title><rect x=\"1\" y=\"1\" width=\"258\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"50,60 170,60 220,20 100,20\" fill=\"#f0f6fd\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"170,180 220,140 220,20 170,60\" fill=\"#d4e4f6\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><polygon points=\"50,180 170,180 170,60 50,60\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><rect x=\"47.5\" y=\"112.0\" width=\"125.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"110.0\" y=\"126.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">V = 125 liter</text><rect x=\"86.5\" y=\"192.0\" width=\"47.0\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"110.0\" y=\"204.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\" font-weight=\"bold\">s = ?</text></svg></span><p>Hur lång ska en kant vara? (Svara i cm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[125\\ \\text{liter}=125\\ \\mathrm{dm^3}\\]</div></li><li><div class=\"facit-matte\">\\[s=\\sqrt[3]{125}=5\\ \\mathrm{dm}=50\\ \\mathrm{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 cm.</p></div>",
+    "familj": "Potensekvationer i tillämpningar",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>1 liter = 1 dm³. Räkna i dm och gör sedan om till cm.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 50,
+    "tolerans": 0,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.629",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Lös ekvationen \\(x^{1/3}=4\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=4^3=64\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=64\\)</p></div>",
+    "familj": "Lösa potensekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Upphöj båda leden till 3.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 64,
+    "tolerans": 0
+  },
+  {
+    "id": "3.630",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Lös ekvationen \\((x-4)^4=625\\), där \\(x&gt;4\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x-4=\\sqrt[4]{625}=5\\]</div></li><li><div class=\"facit-matte\">\\[x=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=9\\)</p></div>",
+    "familj": "Lösa potensekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Dra först fjärde roten ur båda leden.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0
+  },
+  {
+    "id": "3.631",
+    "kap": 3,
+    "omr": "potensekvationer",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/1",
+    "t": "<p>Ett sparkonto växte från 20 000 kr till 25 000 kr på 4 år, med samma räntesats varje år.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Linjediagram: saldot går från 20 000 kr till 25 000 kr på 4 år.\"><title>Linjediagram: saldot går från 20 000 kr till 25 000 kr på 4 år.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"372.0\" y2=\"225.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">18 000</text><line x1=\"62.0\" y1=\"178.8\" x2=\"372.0\" y2=\"178.8\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"182.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">20 000</text><line x1=\"62.0\" y1=\"132.5\" x2=\"372.0\" y2=\"132.5\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"136.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">22 000</text><line x1=\"62.0\" y1=\"86.2\" x2=\"372.0\" y2=\"86.2\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"90.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">24 000</text><line x1=\"62.0\" y1=\"40.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">26 000</text><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"62.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"139.5\" y1=\"225.0\" x2=\"139.5\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"139.5\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"217.0\" y1=\"225.0\" x2=\"217.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"217.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"294.5\" y1=\"225.0\" x2=\"294.5\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"294.5\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"372.0\" y1=\"225.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"372.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"62.0\" y1=\"225.0\" x2=\"380.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"32.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><polyline points=\"62.0,178.8 139.5,152.2 217.0,124.2 294.5,94.5 372.0,63.1\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"2.6\"/><circle cx=\"62.0\" cy=\"178.8\" r=\"4.5\" fill=\"#2f7d4a\"/><rect x=\"66.0\" y=\"189.8\" width=\"51.2\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"70.0\" y=\"200.8\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">20 000</text><circle cx=\"139.5\" cy=\"152.2\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"217.0\" cy=\"124.2\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"294.5\" cy=\"94.5\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"372.0\" cy=\"63.1\" r=\"4.5\" fill=\"#2f7d4a\"/><rect x=\"316.8\" y=\"42.1\" width=\"51.2\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"364.0\" y=\"53.1\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">25 000</text><text x=\"372.0\" y=\"261.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">år</text><text x=\"58.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">saldo (kr)</text></svg></span><p>Vilken var räntesatsen per år? (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^4=\\frac{25\\,000}{20\\,000}=1{,}25\\]</div></li><li><div class=\"facit-matte\">\\[x=1{,}25^{1/4}\\approx1{,}0574\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 5,7 % per år.</p></div>",
+    "familj": "Potensekvationer i tillämpningar",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ställ upp en potensekvation för förändringsfaktorn.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 5.7371,
+    "tolerans": 0.06
+  },
+  {
+    "id": "2.600",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Grafen visar funktionen \\(y=0{,}5x^2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Graf till y = 0,5x² för x från 0 till 5.\"><title>Graf till y = 0,5x² för x från 0 till 5.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"52.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"108.0\" y1=\"248.0\" x2=\"108.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"108.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"164.0\" y1=\"248.0\" x2=\"164.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"164.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"220.0\" y1=\"248.0\" x2=\"220.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"220.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"276.0\" y1=\"248.0\" x2=\"276.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"276.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"332.0\" y1=\"248.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"332.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"52.0\" y1=\"248.0\" x2=\"332.0\" y2=\"248.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"52.0\" y1=\"218.3\" x2=\"332.0\" y2=\"218.3\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"222.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"52.0\" y1=\"188.6\" x2=\"332.0\" y2=\"188.6\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"192.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"52.0\" y1=\"158.9\" x2=\"332.0\" y2=\"158.9\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"162.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"52.0\" y1=\"129.1\" x2=\"332.0\" y2=\"129.1\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"133.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">8</text><line x1=\"52.0\" y1=\"99.4\" x2=\"332.0\" y2=\"99.4\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"103.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"52.0\" y1=\"69.7\" x2=\"332.0\" y2=\"69.7\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"73.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">12</text><line x1=\"52.0\" y1=\"40.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">14</text><line x1=\"52.0\" y1=\"248.0\" x2=\"342.0\" y2=\"248.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polyline points=\"52.0,248.0 53.4,248.0 54.8,248.0 56.2,248.0 57.6,247.9 59.0,247.9 60.4,247.8 61.8,247.8 63.2,247.7 64.6,247.6 66.0,247.5 67.4,247.4 68.8,247.3 70.2,247.2 71.6,247.1 73.0,247.0 74.4,246.8 75.8,246.7 77.2,246.5 78.6,246.3 80.0,246.1 81.4,246.0 82.8,245.8 84.2,245.5 85.6,245.3 87.0,245.1 88.4,244.9 89.8,244.6 91.2,244.4 92.6,244.1 94.0,243.8 95.4,243.5 96.8,243.2 98.2,242.9 99.6,242.6 101.0,242.3 102.4,242.0 103.8,241.6 105.2,241.3 106.6,240.9 108.0,240.6 109.4,240.2 110.8,239.8 112.2,239.4 113.6,239.0 115.0,238.6 116.4,238.2 117.8,237.7 119.2,237.3 120.6,236.9 122.0,236.4 123.4,235.9 124.8,235.4 126.2,235.0 127.6,234.5 129.0,234.0 130.4,233.4 131.8,232.9 133.2,232.4 134.6,231.8 136.0,231.3 137.4,230.7 138.8,230.2 140.2,229.6 141.6,229.0 143.0,228.4 144.4,227.8 145.8,227.2 147.2,226.5 148.6,225.9 150.0,225.2 151.4,224.6 152.8,223.9 154.2,223.3 155.6,222.6 157.0,221.9 158.4,221.2 159.8,220.5 161.2,219.8 162.6,219.0 164.0,218.3 165.4,217.5 166.8,216.8 168.2,216.0 169.6,215.2 171.0,214.5 172.4,213.7 173.8,212.9 175.2,212.0 176.6,211.2 178.0,210.4 179.4,209.6 180.8,208.7 182.2,207.8 183.6,207.0 185.0,206.1 186.4,205.2 187.8,204.3 189.2,203.4 190.6,202.5 192.0,201.6 193.4,200.6 194.8,199.7 196.2,198.7 197.6,197.8 199.0,196.8 200.4,195.8 201.8,194.8 203.2,193.8 204.6,192.8 206.0,191.8 207.4,190.8 208.8,189.8 210.2,188.7 211.6,187.7 213.0,186.6 214.4,185.5 215.8,184.4 217.2,183.4 218.6,182.3 220.0,181.1 221.4,180.0 222.8,178.9 224.2,177.8 225.6,176.6 227.0,175.5 228.4,174.3 229.8,173.1 231.2,171.9 232.6,170.7 234.0,169.5 235.4,168.3 236.8,167.1 238.2,165.9 239.6,164.6 241.0,163.4 242.4,162.1 243.8,160.9 245.2,159.6 246.6,158.3 248.0,157.0 249.4,155.7 250.8,154.4 252.2,153.1 253.6,151.7 255.0,150.4 256.4,149.0 257.8,147.7 259.2,146.3 260.6,144.9 262.0,143.5 263.4,142.1 264.8,140.7 266.2,139.3 267.6,137.9 269.0,136.5 270.4,135.0 271.8,133.6 273.2,132.1 274.6,130.6 276.0,129.1 277.4,127.7 278.8,126.2 280.2,124.6 281.6,123.1 283.0,121.6 284.4,120.1 285.8,118.5 287.2,117.0 288.6,115.4 290.0,113.8 291.4,112.2 292.8,110.6 294.2,109.0 295.6,107.4 297.0,105.8 298.4,104.2 299.8,102.5 301.2,100.9 302.6,99.2 304.0,97.6 305.4,95.9 306.8,94.2 308.2,92.5 309.6,90.8 311.0,89.1 312.4,87.4 313.8,85.6 315.2,83.9 316.6,82.2 318.0,80.4 319.4,78.6 320.8,76.8 322.2,75.1 323.6,73.3 325.0,71.5 326.4,69.6 327.8,67.8 329.2,66.0 330.6,64.1 332.0,62.3\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"2.6\"/><text x=\"342.0\" y=\"284.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-style=\"italic\">x</text><text x=\"46.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-style=\"italic\">y</text></svg></span><p>Vilket värde har \\(y\\) när \\(x=5\\)? (Svara med ett tal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y=0{,}5\\cdot5^2=0{,}5\\cdot25=12{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,5</p></div>",
+    "familj": "Använda potensfunktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Läs av grafen vid \\(x=5\\), eller räkna med formeln.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 12.5,
+    "tolerans": 1e-09
+  },
+  {
+    "id": "2.601",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Grafen går genom origo och genom punkterna \\((1,\\ 2)\\) och \\((2,\\ 16)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Graf som går genom origo, (1, 2) och (2, 16).\"><title>Graf som går genom origo, (1, 2) och (2, 16).</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"52.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"108.0\" y1=\"248.0\" x2=\"108.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"108.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0,5</text><line x1=\"164.0\" y1=\"248.0\" x2=\"164.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"164.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"220.0\" y1=\"248.0\" x2=\"220.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"220.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1,5</text><line x1=\"276.0\" y1=\"248.0\" x2=\"276.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"276.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"332.0\" y1=\"248.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"332.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2,5</text><line x1=\"52.0\" y1=\"248.0\" x2=\"332.0\" y2=\"248.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"52.0\" y1=\"222.0\" x2=\"332.0\" y2=\"222.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"226.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"52.0\" y1=\"196.0\" x2=\"332.0\" y2=\"196.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">8</text><line x1=\"52.0\" y1=\"170.0\" x2=\"332.0\" y2=\"170.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"174.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">12</text><line x1=\"52.0\" y1=\"144.0\" x2=\"332.0\" y2=\"144.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"148.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">16</text><line x1=\"52.0\" y1=\"118.0\" x2=\"332.0\" y2=\"118.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"122.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"52.0\" y1=\"92.0\" x2=\"332.0\" y2=\"92.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">24</text><line x1=\"52.0\" y1=\"66.0\" x2=\"332.0\" y2=\"66.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"70.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">28</text><line x1=\"52.0\" y1=\"40.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">32</text><line x1=\"52.0\" y1=\"248.0\" x2=\"342.0\" y2=\"248.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polyline points=\"52.0,248.0 53.4,248.0 54.8,248.0 56.2,248.0 57.6,248.0 59.0,248.0 60.4,248.0 61.8,248.0 63.2,248.0 64.6,248.0 66.0,248.0 67.4,248.0 68.8,248.0 70.2,247.9 71.6,247.9 73.0,247.9 74.4,247.9 75.8,247.9 77.2,247.9 78.6,247.8 80.0,247.8 81.4,247.8 82.8,247.7 84.2,247.7 85.6,247.6 87.0,247.6 88.4,247.6 89.8,247.5 91.2,247.4 92.6,247.4 94.0,247.3 95.4,247.2 96.8,247.2 98.2,247.1 99.6,247.0 101.0,246.9 102.4,246.8 103.8,246.7 105.2,246.6 106.6,246.5 108.0,246.4 109.4,246.3 110.8,246.1 112.2,246.0 113.6,245.8 115.0,245.7 116.4,245.5 117.8,245.4 119.2,245.2 120.6,245.0 122.0,244.8 123.4,244.6 124.8,244.4 126.2,244.2 127.6,244.0 129.0,243.8 130.4,243.5 131.8,243.3 133.2,243.0 134.6,242.8 136.0,242.5 137.4,242.2 138.8,241.9 140.2,241.7 141.6,241.3 143.0,241.0 144.4,240.7 145.8,240.4 147.2,240.0 148.6,239.7 150.0,239.3 151.4,238.9 152.8,238.5 154.2,238.1 155.6,237.7 157.0,237.3 158.4,236.9 159.8,236.4 161.2,236.0 162.6,235.5 164.0,235.0 165.4,234.5 166.8,234.0 168.2,233.5 169.6,233.0 171.0,232.4 172.4,231.9 173.8,231.3 175.2,230.7 176.6,230.1 178.0,229.5 179.4,228.9 180.8,228.2 182.2,227.6 183.6,226.9 185.0,226.2 186.4,225.5 187.8,224.8 189.2,224.1 190.6,223.4 192.0,222.6 193.4,221.8 194.8,221.1 196.2,220.3 197.6,219.4 199.0,218.6 200.4,217.8 201.8,216.9 203.2,216.0 204.6,215.1 206.0,214.2 207.4,213.3 208.8,212.3 210.2,211.4 211.6,210.4 213.0,209.4 214.4,208.4 215.8,207.3 217.2,206.3 218.6,205.2 220.0,204.1 221.4,203.0 222.8,201.9 224.2,200.8 225.6,199.6 227.0,198.4 228.4,197.2 229.8,196.0 231.2,194.8 232.6,193.5 234.0,192.2 235.4,190.9 236.8,189.6 238.2,188.3 239.6,186.9 241.0,185.5 242.4,184.1 243.8,182.7 245.2,181.3 246.6,179.8 248.0,178.3 249.4,176.8 250.8,175.3 252.2,173.8 253.6,172.2 255.0,170.6 256.4,169.0 257.8,167.3 259.2,165.7 260.6,164.0 262.0,162.3 263.4,160.6 264.8,158.8 266.2,157.1 267.6,155.3 269.0,153.4 270.4,151.6 271.8,149.7 273.2,147.9 274.6,145.9 276.0,144.0 277.4,142.0 278.8,140.1 280.2,138.0 281.6,136.0 283.0,133.9 284.4,131.9 285.8,129.7 287.2,127.6 288.6,125.4 290.0,123.3 291.4,121.0 292.8,118.8 294.2,116.5 295.6,114.2 297.0,111.9 298.4,109.6 299.8,107.2 301.2,104.8 302.6,102.4 304.0,99.9 305.4,97.4 306.8,94.9 308.2,92.4 309.6,89.8 311.0,87.2 312.4,84.6 313.8,82.0 315.2,79.3 316.6,76.6 318.0,73.8 319.4,71.1 320.8,68.3 322.2,65.5 323.6,62.6 325.0,59.7 326.4,56.8 327.8,53.9 329.2,50.9 330.6,47.9 332.0,44.9\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"2.6\"/><circle cx=\"164.0\" cy=\"235.0\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"108.8\" y=\"215.0\" width=\"51.2\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"156.0\" y=\"226.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">(1, 2)</text><circle cx=\"276.0\" cy=\"144.0\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"213.6\" y=\"124.0\" width=\"58.4\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"268.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">(2, 16)</text><text x=\"342.0\" y=\"284.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-style=\"italic\">x</text><text x=\"46.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-style=\"italic\">y</text></svg></span><p>Vilken funktion visar grafen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(y=2x^3\\) ger \\(2\\cdot1^3=2\\) och \\(2\\cdot2^3=16\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x^3\\)</p></div>",
+    "familj": "Använda potensfunktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Pröva båda punkterna i varje formel.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "y = 2x³",
+        "ratt": true
+      },
+      {
+        "txt": "y = 2x²",
+        "ratt": false,
+        "kommentar": "x = 2 ger 8, inte 16."
+      },
+      {
+        "txt": "y = 8x",
+        "ratt": false,
+        "kommentar": "x = 1 ger 8, inte 2."
+      },
+      {
+        "txt": "y = 2 · 4ˣ",
+        "ratt": false,
+        "kommentar": "Den går inte genom origo."
+      }
+    ]
+  },
+  {
+    "id": "2.602",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Grafen visar en funktion av typen \\(f(x)=ax^2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Parabel genom origo och punkten (2, 20).\"><title>Parabel genom origo och punkten (2, 20).</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"52.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"98.7\" y1=\"248.0\" x2=\"98.7\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"98.7\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0,5</text><line x1=\"145.3\" y1=\"248.0\" x2=\"145.3\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"145.3\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"192.0\" y1=\"248.0\" x2=\"192.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"192.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1,5</text><line x1=\"238.7\" y1=\"248.0\" x2=\"238.7\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"238.7\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"285.3\" y1=\"248.0\" x2=\"285.3\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"285.3\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2,5</text><line x1=\"332.0\" y1=\"248.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"332.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"52.0\" y1=\"248.0\" x2=\"332.0\" y2=\"248.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"52.0\" y1=\"224.9\" x2=\"332.0\" y2=\"224.9\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"228.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"52.0\" y1=\"201.8\" x2=\"332.0\" y2=\"201.8\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"205.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"52.0\" y1=\"178.7\" x2=\"332.0\" y2=\"178.7\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"182.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">15</text><line x1=\"52.0\" y1=\"155.6\" x2=\"332.0\" y2=\"155.6\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"159.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"52.0\" y1=\"132.4\" x2=\"332.0\" y2=\"132.4\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"136.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">25</text><line x1=\"52.0\" y1=\"109.3\" x2=\"332.0\" y2=\"109.3\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"113.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">30</text><line x1=\"52.0\" y1=\"86.2\" x2=\"332.0\" y2=\"86.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"90.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">35</text><line x1=\"52.0\" y1=\"63.1\" x2=\"332.0\" y2=\"63.1\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"67.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">40</text><line x1=\"52.0\" y1=\"40.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">45</text><line x1=\"52.0\" y1=\"248.0\" x2=\"342.0\" y2=\"248.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polyline points=\"52.0,248.0 53.4,248.0 54.8,248.0 56.2,248.0 57.6,247.9 59.0,247.9 60.4,247.8 61.8,247.7 63.2,247.7 64.6,247.6 66.0,247.5 67.4,247.4 68.8,247.3 70.2,247.1 71.6,247.0 73.0,246.8 74.4,246.7 75.8,246.5 77.2,246.3 78.6,246.1 80.0,245.9 81.4,245.7 82.8,245.5 84.2,245.2 85.6,245.0 87.0,244.8 88.4,244.5 89.8,244.2 91.2,243.9 92.6,243.6 94.0,243.3 95.4,243.0 96.8,242.7 98.2,242.3 99.6,242.0 101.0,241.6 102.4,241.3 103.8,240.9 105.2,240.5 106.6,240.1 108.0,239.7 109.4,239.3 110.8,238.8 112.2,238.4 113.6,237.9 115.0,237.5 116.4,237.0 117.8,236.5 119.2,236.0 120.6,235.5 122.0,235.0 123.4,234.5 124.8,233.9 126.2,233.4 127.6,232.8 129.0,232.3 130.4,231.7 131.8,231.1 133.2,230.5 134.6,229.9 136.0,229.3 137.4,228.7 138.8,228.0 140.2,227.4 141.6,226.7 143.0,226.0 144.4,225.3 145.8,224.7 147.2,224.0 148.6,223.2 150.0,222.5 151.4,221.8 152.8,221.0 154.2,220.3 155.6,219.5 157.0,218.8 158.4,218.0 159.8,217.2 161.2,216.4 162.6,215.5 164.0,214.7 165.4,213.9 166.8,213.0 168.2,212.2 169.6,211.3 171.0,210.4 172.4,209.5 173.8,208.6 175.2,207.7 176.6,206.8 178.0,205.9 179.4,204.9 180.8,204.0 182.2,203.0 183.6,202.1 185.0,201.1 186.4,200.1 187.8,199.1 189.2,198.1 190.6,197.0 192.0,196.0 193.4,195.0 194.8,193.9 196.2,192.8 197.6,191.8 199.0,190.7 200.4,189.6 201.8,188.5 203.2,187.3 204.6,186.2 206.0,185.1 207.4,183.9 208.8,182.8 210.2,181.6 211.6,180.4 213.0,179.2 214.4,178.0 215.8,176.8 217.2,175.6 218.6,174.4 220.0,173.1 221.4,171.9 222.8,170.6 224.2,169.3 225.6,168.0 227.0,166.8 228.4,165.4 229.8,164.1 231.2,162.8 232.6,161.5 234.0,160.1 235.4,158.8 236.8,157.4 238.2,156.0 239.6,154.6 241.0,153.2 242.4,151.8 243.8,150.4 245.2,149.0 246.6,147.5 248.0,146.1 249.4,144.6 250.8,143.1 252.2,141.7 253.6,140.2 255.0,138.7 256.4,137.2 257.8,135.6 259.2,134.1 260.6,132.6 262.0,131.0 263.4,129.4 264.8,127.9 266.2,126.3 267.6,124.7 269.0,123.1 270.4,121.5 271.8,119.8 273.2,118.2 274.6,116.5 276.0,114.9 277.4,113.2 278.8,111.5 280.2,109.8 281.6,108.1 283.0,106.4 284.4,104.7 285.8,103.0 287.2,101.2 288.6,99.5 290.0,97.7 291.4,95.9 292.8,94.2 294.2,92.4 295.6,90.6 297.0,88.8 298.4,86.9 299.8,85.1 301.2,83.2 302.6,81.4 304.0,79.5 305.4,77.6 306.8,75.8 308.2,73.9 309.6,71.9 311.0,70.0 312.4,68.1 313.8,66.2 315.2,64.2 316.6,62.3 318.0,60.3 319.4,58.3 320.8,56.3 322.2,54.3 323.6,52.3 325.0,50.3 326.4,48.2 327.8,46.2 329.2,44.1 330.6,42.1 332.0,40.0\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"2.6\"/><circle cx=\"238.7\" cy=\"155.6\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"176.3\" y=\"135.6\" width=\"58.4\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"230.7\" y=\"146.6\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">(2, 20)</text><text x=\"342.0\" y=\"284.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-style=\"italic\">x</text><text x=\"46.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-style=\"italic\">y</text></svg></span><p>Bestäm \\(a\\). (Svara med ett tal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a\\cdot2^2=20\\]</div></li><li><div class=\"facit-matte\">\\[a=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\)</p></div>",
+    "familj": "Använda potensfunktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sätt in punkten \\((2,\\ 20)\\) i formeln.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0
+  },
+  {
+    "id": "2.603",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tiden \\(T\\) sekunder för en pendelsvängning fram och tillbaka kan beräknas med \\(T=2L^{0{,}5}\\), där \\(L\\) är pendelns längd i meter.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"210\" viewBox=\"0 0 300 210\" role=\"img\" aria-label=\"Pendel som hänger från ett tak med längden L.\"><title>Pendel som hänger från ett tak med längden L.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"20.0\" x2=\"240.0\" y2=\"20.0\" stroke=\"#172b3a\" stroke-width=\"4\"/><line x1=\"150.0\" y1=\"20.0\" x2=\"205.0\" y2=\"170.0\" stroke=\"#5b6773\" stroke-width=\"2\"/><circle cx=\"205\" cy=\"170\" r=\"16\" fill=\"#c2410c\"/><line x1=\"150.0\" y1=\"20.0\" x2=\"150.0\" y2=\"185.0\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"5 4\"/><rect x=\"154.0\" y=\"86.0\" width=\"17.0\" height=\"20\" rx=\"3\" fill=\"#fff\"/><text x=\"158.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">L</text></svg></span><p>Hur lång tid tar en svängning för en pendel med längden 1,44 m? (Svara i s.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=2\\cdot1{,}44^{0{,}5}=2\\cdot1{,}2=2{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,4 s.</p></div>",
+    "familj": "Använda potensfunktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>\\(L^{0{,}5}\\) är kvadratroten ur \\(L\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2.4,
+    "tolerans": 0.01,
+    "svarEnhet": "s"
+  },
+  {
+    "id": "2.604",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Två kubformade lådor av samma material är likformiga. Den stora har tre gånger så lång kant som den lilla.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"280\" height=\"190\" viewBox=\"0 0 280 190\" role=\"img\" aria-label=\"En liten kub med kanten s och en stor kub med kanten 3s.\"><title>En liten kub med kanten s och en stor kub med kanten 3s.</title><rect x=\"1\" y=\"1\" width=\"278\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"110\" width=\"40\" height=\"40\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><rect x=\"120\" y=\"30\" width=\"120\" height=\"120\" fill=\"#e7f1fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"160.0\" y1=\"30.0\" x2=\"160.0\" y2=\"150.0\" stroke=\"#9fb4c8\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"120.0\" y1=\"70.0\" x2=\"240.0\" y2=\"70.0\" stroke=\"#9fb4c8\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"200.0\" y1=\"30.0\" x2=\"200.0\" y2=\"150.0\" stroke=\"#9fb4c8\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"120.0\" y1=\"110.0\" x2=\"240.0\" y2=\"110.0\" stroke=\"#9fb4c8\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><text x=\"60.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\">s</text><text x=\"180.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\">3s</text></svg></span><p>Hur många gånger tyngre är den stora lådan om massan är proportionell mot volymen? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymen är en potensfunktion av kanten: \\(V=s^3\\).</p></li><li><div class=\"facit-matte\">\\[3^3=27\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 27 gånger.</p></div>",
+    "familj": "Skalning med potensfunktioner",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Volymen beror på kanten upphöjd till 3.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 27,
+    "tolerans": 0
+  },
+  {
+    "id": "2.605",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Bromssträckan för en bil kan beräknas med \\(s=0{,}006v^2\\), där \\(s\\) är i meter och \\(v\\) i km/h.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Graf till bromssträckan s = 0,006v² för hastigheter från 0 till 120 km/h.\"><title>Graf till bromssträckan s = 0,006v² för hastigheter från 0 till 120 km/h.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"52.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"98.7\" y1=\"248.0\" x2=\"98.7\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"98.7\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">20</text><line x1=\"145.3\" y1=\"248.0\" x2=\"145.3\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"145.3\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">40</text><line x1=\"192.0\" y1=\"248.0\" x2=\"192.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"192.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">60</text><line x1=\"238.7\" y1=\"248.0\" x2=\"238.7\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"238.7\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">80</text><line x1=\"285.3\" y1=\"248.0\" x2=\"285.3\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"285.3\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">100</text><line x1=\"332.0\" y1=\"248.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"332.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">120</text><line x1=\"52.0\" y1=\"248.0\" x2=\"332.0\" y2=\"248.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"52.0\" y1=\"224.9\" x2=\"332.0\" y2=\"224.9\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"228.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"52.0\" y1=\"201.8\" x2=\"332.0\" y2=\"201.8\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"205.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"52.0\" y1=\"178.7\" x2=\"332.0\" y2=\"178.7\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"182.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">30</text><line x1=\"52.0\" y1=\"155.6\" x2=\"332.0\" y2=\"155.6\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"159.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">40</text><line x1=\"52.0\" y1=\"132.4\" x2=\"332.0\" y2=\"132.4\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"136.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">50</text><line x1=\"52.0\" y1=\"109.3\" x2=\"332.0\" y2=\"109.3\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"113.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">60</text><line x1=\"52.0\" y1=\"86.2\" x2=\"332.0\" y2=\"86.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"90.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">70</text><line x1=\"52.0\" y1=\"63.1\" x2=\"332.0\" y2=\"63.1\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"67.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">80</text><line x1=\"52.0\" y1=\"40.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">90</text><line x1=\"52.0\" y1=\"248.0\" x2=\"342.0\" y2=\"248.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polyline points=\"52.0,248.0 53.4,248.0 54.8,248.0 56.2,248.0 57.6,247.9 59.0,247.9 60.4,247.8 61.8,247.8 63.2,247.7 64.6,247.6 66.0,247.5 67.4,247.4 68.8,247.3 70.2,247.2 71.6,247.0 73.0,246.9 74.4,246.7 75.8,246.6 77.2,246.4 78.6,246.2 80.0,246.0 81.4,245.8 82.8,245.6 84.2,245.4 85.6,245.1 87.0,244.9 88.4,244.6 89.8,244.4 91.2,244.1 92.6,243.8 94.0,243.5 95.4,243.2 96.8,242.9 98.2,242.6 99.6,242.2 101.0,241.9 102.4,241.5 103.8,241.2 105.2,240.8 106.6,240.4 108.0,240.0 109.4,239.6 110.8,239.2 112.2,238.8 113.6,238.3 115.0,237.9 116.4,237.4 117.8,237.0 119.2,236.5 120.6,236.0 122.0,235.5 123.4,235.0 124.8,234.5 126.2,234.0 127.6,233.4 129.0,232.9 130.4,232.3 131.8,231.8 133.2,231.2 134.6,230.6 136.0,230.0 137.4,229.4 138.8,228.8 140.2,228.2 141.6,227.6 143.0,226.9 144.4,226.3 145.8,225.6 147.2,224.9 148.6,224.2 150.0,223.5 151.4,222.8 152.8,222.1 154.2,221.4 155.6,220.7 157.0,219.9 158.4,219.2 159.8,218.4 161.2,217.6 162.6,216.8 164.0,216.1 165.4,215.2 166.8,214.4 168.2,213.6 169.6,212.8 171.0,211.9 172.4,211.1 173.8,210.2 175.2,209.3 176.6,208.5 178.0,207.6 179.4,206.7 180.8,205.7 182.2,204.8 183.6,203.9 185.0,202.9 186.4,202.0 187.8,201.0 189.2,200.1 190.6,199.1 192.0,198.1 193.4,197.1 194.8,196.1 196.2,195.0 197.6,194.0 199.0,193.0 200.4,191.9 201.8,190.8 203.2,189.8 204.6,188.7 206.0,187.6 207.4,186.5 208.8,185.4 210.2,184.3 211.6,183.1 213.0,182.0 214.4,180.8 215.8,179.7 217.2,178.5 218.6,177.3 220.0,176.1 221.4,174.9 222.8,173.7 224.2,172.5 225.6,171.2 227.0,170.0 228.4,168.7 229.8,167.5 231.2,166.2 232.6,164.9 234.0,163.6 235.4,162.3 236.8,161.0 238.2,159.7 239.6,158.4 241.0,157.0 242.4,155.7 243.8,154.3 245.2,152.9 246.6,151.5 248.0,150.2 249.4,148.8 250.8,147.3 252.2,145.9 253.6,144.5 255.0,143.0 256.4,141.6 257.8,140.1 259.2,138.7 260.6,137.2 262.0,135.7 263.4,134.2 264.8,132.7 266.2,131.1 267.6,129.6 269.0,128.1 270.4,126.5 271.8,125.0 273.2,123.4 274.6,121.8 276.0,120.2 277.4,118.6 278.8,117.0 280.2,115.4 281.6,113.7 283.0,112.1 284.4,110.4 285.8,108.8 287.2,107.1 288.6,105.4 290.0,103.7 291.4,102.0 292.8,100.3 294.2,98.6 295.6,96.9 297.0,95.1 298.4,93.4 299.8,91.6 301.2,89.8 302.6,88.1 304.0,86.3 305.4,84.5 306.8,82.6 308.2,80.8 309.6,79.0 311.0,77.1 312.4,75.3 313.8,73.4 315.2,71.6 316.6,69.7 318.0,67.8 319.4,65.9 320.8,64.0 322.2,62.1 323.6,60.1 325.0,58.2 326.4,56.2 327.8,54.3 329.2,52.3 330.6,50.3 332.0,48.3\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><text x=\"342.0\" y=\"284.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-style=\"italic\">v (km/h)</text><text x=\"46.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-style=\"italic\">s (m)</text></svg></span><p>Hur lång är bromssträckan vid 90 km/h? (Svara i m.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[s=0{,}006\\cdot90^2=0{,}006\\cdot8\\,100=48{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 48,6 m.</p></div>",
+    "familj": "Använda potensfunktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sätt in \\(v=90\\) i formeln.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 48.6,
+    "tolerans": 0.05,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "2.606",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En potensfunktion \\(y=Cx^n\\) går genom punkterna \\((1,\\ 5)\\) och \\((2,\\ 40)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Graf genom (1, 5) och (2, 40).\"><title>Graf genom (1, 5) och (2, 40).</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"52.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"108.0\" y1=\"248.0\" x2=\"108.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"108.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0,5</text><line x1=\"164.0\" y1=\"248.0\" x2=\"164.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"164.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"220.0\" y1=\"248.0\" x2=\"220.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"220.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1,5</text><line x1=\"276.0\" y1=\"248.0\" x2=\"276.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"276.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"332.0\" y1=\"248.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"332.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2,5</text><line x1=\"52.0\" y1=\"248.0\" x2=\"332.0\" y2=\"248.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"52.0\" y1=\"222.0\" x2=\"332.0\" y2=\"222.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"226.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"52.0\" y1=\"196.0\" x2=\"332.0\" y2=\"196.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"52.0\" y1=\"170.0\" x2=\"332.0\" y2=\"170.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"174.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">30</text><line x1=\"52.0\" y1=\"144.0\" x2=\"332.0\" y2=\"144.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"148.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">40</text><line x1=\"52.0\" y1=\"118.0\" x2=\"332.0\" y2=\"118.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"122.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">50</text><line x1=\"52.0\" y1=\"92.0\" x2=\"332.0\" y2=\"92.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">60</text><line x1=\"52.0\" y1=\"66.0\" x2=\"332.0\" y2=\"66.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"70.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">70</text><line x1=\"52.0\" y1=\"40.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">80</text><line x1=\"52.0\" y1=\"248.0\" x2=\"342.0\" y2=\"248.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polyline points=\"52.0,248.0 53.4,248.0 54.8,248.0 56.2,248.0 57.6,248.0 59.0,248.0 60.4,248.0 61.8,248.0 63.2,248.0 64.6,248.0 66.0,248.0 67.4,248.0 68.8,248.0 70.2,247.9 71.6,247.9 73.0,247.9 74.4,247.9 75.8,247.9 77.2,247.9 78.6,247.8 80.0,247.8 81.4,247.8 82.8,247.7 84.2,247.7 85.6,247.6 87.0,247.6 88.4,247.6 89.8,247.5 91.2,247.4 92.6,247.4 94.0,247.3 95.4,247.2 96.8,247.2 98.2,247.1 99.6,247.0 101.0,246.9 102.4,246.8 103.8,246.7 105.2,246.6 106.6,246.5 108.0,246.4 109.4,246.3 110.8,246.1 112.2,246.0 113.6,245.8 115.0,245.7 116.4,245.5 117.8,245.4 119.2,245.2 120.6,245.0 122.0,244.8 123.4,244.6 124.8,244.4 126.2,244.2 127.6,244.0 129.0,243.8 130.4,243.5 131.8,243.3 133.2,243.0 134.6,242.8 136.0,242.5 137.4,242.2 138.8,241.9 140.2,241.7 141.6,241.3 143.0,241.0 144.4,240.7 145.8,240.4 147.2,240.0 148.6,239.7 150.0,239.3 151.4,238.9 152.8,238.5 154.2,238.1 155.6,237.7 157.0,237.3 158.4,236.9 159.8,236.4 161.2,236.0 162.6,235.5 164.0,235.0 165.4,234.5 166.8,234.0 168.2,233.5 169.6,233.0 171.0,232.4 172.4,231.9 173.8,231.3 175.2,230.7 176.6,230.1 178.0,229.5 179.4,228.9 180.8,228.2 182.2,227.6 183.6,226.9 185.0,226.2 186.4,225.5 187.8,224.8 189.2,224.1 190.6,223.4 192.0,222.6 193.4,221.8 194.8,221.1 196.2,220.3 197.6,219.4 199.0,218.6 200.4,217.8 201.8,216.9 203.2,216.0 204.6,215.1 206.0,214.2 207.4,213.3 208.8,212.3 210.2,211.4 211.6,210.4 213.0,209.4 214.4,208.4 215.8,207.3 217.2,206.3 218.6,205.2 220.0,204.1 221.4,203.0 222.8,201.9 224.2,200.8 225.6,199.6 227.0,198.4 228.4,197.2 229.8,196.0 231.2,194.8 232.6,193.5 234.0,192.2 235.4,190.9 236.8,189.6 238.2,188.3 239.6,186.9 241.0,185.5 242.4,184.1 243.8,182.7 245.2,181.3 246.6,179.8 248.0,178.3 249.4,176.8 250.8,175.3 252.2,173.8 253.6,172.2 255.0,170.6 256.4,169.0 257.8,167.3 259.2,165.7 260.6,164.0 262.0,162.3 263.4,160.6 264.8,158.8 266.2,157.1 267.6,155.3 269.0,153.4 270.4,151.6 271.8,149.7 273.2,147.9 274.6,145.9 276.0,144.0 277.4,142.0 278.8,140.1 280.2,138.0 281.6,136.0 283.0,133.9 284.4,131.9 285.8,129.7 287.2,127.6 288.6,125.4 290.0,123.3 291.4,121.0 292.8,118.8 294.2,116.5 295.6,114.2 297.0,111.9 298.4,109.6 299.8,107.2 301.2,104.8 302.6,102.4 304.0,99.9 305.4,97.4 306.8,94.9 308.2,92.4 309.6,89.8 311.0,87.2 312.4,84.6 313.8,82.0 315.2,79.3 316.6,76.6 318.0,73.8 319.4,71.1 320.8,68.3 322.2,65.5 323.6,62.6 325.0,59.7 326.4,56.8 327.8,53.9 329.2,50.9 330.6,47.9 332.0,44.9\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"2.6\"/><circle cx=\"164.0\" cy=\"235.0\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"108.8\" y=\"215.0\" width=\"51.2\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"156.0\" y=\"226.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">(1, 5)</text><circle cx=\"276.0\" cy=\"144.0\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"213.6\" y=\"124.0\" width=\"58.4\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"268.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">(2, 40)</text><text x=\"342.0\" y=\"284.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-style=\"italic\">x</text><text x=\"46.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-style=\"italic\">y</text></svg></span><p>Bestäm \\(y\\) när \\(x=3\\). (Svara med ett tal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten \\((1,\\ 5)\\) ger \\(C=5\\).</p></li><li><div class=\"facit-matte\">\\[5\\cdot2^n=40\\Rightarrow 2^n=8\\Rightarrow n=3\\]</div></li><li><div class=\"facit-matte\">\\[y=5\\cdot3^3=135\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 135</p></div>",
+    "familj": "Använda potensfunktioner",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Sätt in \\(x=1\\) först, så får du \\(C\\) direkt.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 135,
+    "tolerans": 0
+  },
+  {
+    "id": "2.607",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Beräkna \\(f(5)\\) då \\(f(x)=3x^2\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3\\cdot5^2=3\\cdot25=75\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 75</p></div>",
+    "familj": "Använda potensfunktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna först ut \\(5^2\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 75,
+    "tolerans": 0
+  },
+  {
+    "id": "2.608",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En pizzeria säljer pizzor med diametern 30 cm och 40 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"200\" viewBox=\"0 0 360 200\" role=\"img\" aria-label=\"Två runda pizzor med diametern 30 cm och 40 cm.\"><title>Två runda pizzor med diametern 30 cm och 40 cm.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"90\" cy=\"100\" r=\"60\" fill=\"#f6d28b\" stroke=\"#c2410c\" stroke-width=\"3\"/><circle cx=\"260\" cy=\"100\" r=\"80\" fill=\"#f6d28b\" stroke=\"#c2410c\" stroke-width=\"3\"/><rect x=\"65.0\" y=\"97.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"90.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">30 cm</text><rect x=\"235.0\" y=\"97.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"260.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">40 cm</text></svg></span><p>Hur många gånger större area har den stora pizzan? (Svara med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Arean är proportionell mot diametern i kvadrat.</p></li><li><div class=\"facit-matte\">\\[\\left(\\frac{40}{30}\\right)^2=\\frac{16}9\\approx1{,}78\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 1,78 gånger.</p></div>",
+    "familj": "Skalning med potensfunktioner",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Längdskalan är \\(\\frac{40}{30}\\). Arean ändras med längdskalan i kvadrat.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1.7778,
+    "tolerans": 0.006
+  },
+  {
+    "id": "2.609",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Effekten från ett vindkraftverk är proportionell mot vindhastigheten upphöjd till 3: \\(P=kv^3\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"330\" height=\"245\" viewBox=\"0 0 330 245\" role=\"img\" aria-label=\"Vindkraftverk där vindhastigheten ökar från 6 m/s till 9 m/s.\"><title>Vindkraftverk där vindhastigheten ökar från 6 m/s till 9 m/s.</title><rect x=\"1\" y=\"1\" width=\"328\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"150.0\" y1=\"100.0\" x2=\"150.0\" y2=\"230.0\" stroke=\"#9aa5b1\" stroke-width=\"6\"/><circle cx=\"150\" cy=\"100\" r=\"8\" fill=\"#172b3a\"/><g transform=\"rotate(-90 150 100)\"><ellipse cx=\"196\" cy=\"100\" rx=\"46\" ry=\"8\" fill=\"#e5e9ee\" stroke=\"#172b3a\" stroke-width=\"1.5\"/></g><g transform=\"rotate(30 150 100)\"><ellipse cx=\"196\" cy=\"100\" rx=\"46\" ry=\"8\" fill=\"#e5e9ee\" stroke=\"#172b3a\" stroke-width=\"1.5\"/></g><g transform=\"rotate(150 150 100)\"><ellipse cx=\"196\" cy=\"100\" rx=\"46\" ry=\"8\" fill=\"#e5e9ee\" stroke=\"#172b3a\" stroke-width=\"1.5\"/></g><rect x=\"191.4\" y=\"137.0\" width=\"117.2\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"250.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">6 m/s → 9 m/s</text></svg></span><p>Vinden ökar från 6 m/s till 9 m/s. Hur många gånger större blir effekten? (Svara med tre decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left(\\frac96\\right)^3=1{,}5^3=3{,}375\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,375 gånger.</p></div>",
+    "familj": "Skalning med potensfunktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hastigheten multipliceras med \\(\\frac96=1{,}5\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 3.375,
+    "tolerans": 0.0006
+  },
+  {
+    "id": "2.610",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Funktionen \\(f(x)=60x^{-1}\\) beskriver hur lång tid i minuter det tar att fylla en tank med \\(x\\) slangar. Beräkna \\(f(8)\\). (Svara i minuter.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[60\\cdot8^{-1}=\\frac{60}8=7{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,5 minuter.</p></div>",
+    "familj": "Använda potensfunktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>\\(x^{-1}=\\frac1x\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 7.5,
+    "tolerans": 1e-09,
+    "svarEnhet": "minuter"
+  },
+  {
+    "id": "2.611",
+    "kap": 2,
+    "omr": "potensfunktioner",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/1",
+    "t": "<p>Ett djurs energibehov per dygn kan uppskattas med \\(P=70m^{0{,}75}\\), där \\(P\\) är i kcal och \\(m\\) är massan i kg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"300\" viewBox=\"0 0 360 300\" role=\"img\" aria-label=\"Graf till P = 70m upphöjt till 0,75 för massor från 0 till 20 kg.\"><title>Graf till P = 70m upphöjt till 0,75 för massor från 0 till 20 kg.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"52.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"108.0\" y1=\"248.0\" x2=\"108.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"108.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"164.0\" y1=\"248.0\" x2=\"164.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"164.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"220.0\" y1=\"248.0\" x2=\"220.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"220.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">12</text><line x1=\"276.0\" y1=\"248.0\" x2=\"276.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"276.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">16</text><line x1=\"332.0\" y1=\"248.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"332.0\" y=\"265.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">20</text><line x1=\"52.0\" y1=\"248.0\" x2=\"332.0\" y2=\"248.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"52.0\" y1=\"222.0\" x2=\"332.0\" y2=\"222.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"226.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">100</text><line x1=\"52.0\" y1=\"196.0\" x2=\"332.0\" y2=\"196.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">200</text><line x1=\"52.0\" y1=\"170.0\" x2=\"332.0\" y2=\"170.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"174.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">300</text><line x1=\"52.0\" y1=\"144.0\" x2=\"332.0\" y2=\"144.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"148.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">400</text><line x1=\"52.0\" y1=\"118.0\" x2=\"332.0\" y2=\"118.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"122.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">500</text><line x1=\"52.0\" y1=\"92.0\" x2=\"332.0\" y2=\"92.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">600</text><line x1=\"52.0\" y1=\"66.0\" x2=\"332.0\" y2=\"66.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"70.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">700</text><line x1=\"52.0\" y1=\"40.0\" x2=\"332.0\" y2=\"40.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><text x=\"46.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">800</text><line x1=\"52.0\" y1=\"248.0\" x2=\"342.0\" y2=\"248.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"52.0\" y1=\"248.0\" x2=\"52.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polyline points=\"52.0,248.0 53.4,244.8 54.8,242.6 56.2,240.6 57.6,238.8 59.0,237.2 60.4,235.6 61.8,234.1 63.2,232.6 64.6,231.2 66.0,229.8 67.4,228.5 68.8,227.1 70.2,225.8 71.6,224.6 73.0,223.3 74.4,222.1 75.8,220.9 77.2,219.7 78.6,218.5 80.0,217.4 81.4,216.3 82.8,215.1 84.2,214.0 85.6,212.9 87.0,211.8 88.4,210.7 89.8,209.7 91.2,208.6 92.6,207.6 94.0,206.5 95.4,205.5 96.8,204.5 98.2,203.4 99.6,202.4 101.0,201.4 102.4,200.4 103.8,199.4 105.2,198.5 106.6,197.5 108.0,196.5 109.4,195.6 110.8,194.6 112.2,193.7 113.6,192.7 115.0,191.8 116.4,190.8 117.8,189.9 119.2,189.0 120.6,188.1 122.0,187.1 123.4,186.2 124.8,185.3 126.2,184.4 127.6,183.5 129.0,182.6 130.4,181.7 131.8,180.9 133.2,180.0 134.6,179.1 136.0,178.2 137.4,177.4 138.8,176.5 140.2,175.6 141.6,174.8 143.0,173.9 144.4,173.1 145.8,172.2 147.2,171.4 148.6,170.5 150.0,169.7 151.4,168.8 152.8,168.0 154.2,167.2 155.6,166.3 157.0,165.5 158.4,164.7 159.8,163.9 161.2,163.1 162.6,162.2 164.0,161.4 165.4,160.6 166.8,159.8 168.2,159.0 169.6,158.2 171.0,157.4 172.4,156.6 173.8,155.8 175.2,155.0 176.6,154.2 178.0,153.4 179.4,152.6 180.8,151.9 182.2,151.1 183.6,150.3 185.0,149.5 186.4,148.7 187.8,148.0 189.2,147.2 190.6,146.4 192.0,145.7 193.4,144.9 194.8,144.1 196.2,143.4 197.6,142.6 199.0,141.8 200.4,141.1 201.8,140.3 203.2,139.6 204.6,138.8 206.0,138.1 207.4,137.3 208.8,136.6 210.2,135.8 211.6,135.1 213.0,134.3 214.4,133.6 215.8,132.9 217.2,132.1 218.6,131.4 220.0,130.7 221.4,129.9 222.8,129.2 224.2,128.5 225.6,127.7 227.0,127.0 228.4,126.3 229.8,125.6 231.2,124.8 232.6,124.1 234.0,123.4 235.4,122.7 236.8,122.0 238.2,121.2 239.6,120.5 241.0,119.8 242.4,119.1 243.8,118.4 245.2,117.7 246.6,117.0 248.0,116.3 249.4,115.6 250.8,114.9 252.2,114.2 253.6,113.5 255.0,112.8 256.4,112.1 257.8,111.4 259.2,110.7 260.6,110.0 262.0,109.3 263.4,108.6 264.8,107.9 266.2,107.2 267.6,106.5 269.0,105.8 270.4,105.1 271.8,104.5 273.2,103.8 274.6,103.1 276.0,102.4 277.4,101.7 278.8,101.0 280.2,100.4 281.6,99.7 283.0,99.0 284.4,98.3 285.8,97.6 287.2,97.0 288.6,96.3 290.0,95.6 291.4,95.0 292.8,94.3 294.2,93.6 295.6,92.9 297.0,92.3 298.4,91.6 299.8,90.9 301.2,90.3 302.6,89.6 304.0,89.0 305.4,88.3 306.8,87.6 308.2,87.0 309.6,86.3 311.0,85.7 312.4,85.0 313.8,84.3 315.2,83.7 316.6,83.0 318.0,82.4 319.4,81.7 320.8,81.1 322.2,80.4 323.6,79.8 325.0,79.1 326.4,78.5 327.8,77.8 329.2,77.2 330.6,76.5 332.0,75.9\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"2.6\"/><text x=\"342.0\" y=\"284.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-style=\"italic\">m (kg)</text><text x=\"46.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-style=\"italic\">P (kcal)</text></svg></span><p>Hur stort är energibehovet för en hund som väger 16 kg? (Svara i kcal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[16^{0{,}75}=\\left(16^{0{,}25}\\right)^3=2^3=8\\]</div></li><li><div class=\"facit-matte\">\\[P=70\\cdot8=560\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 560 kcal.</p></div>",
+    "familj": "Använda potensfunktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 4,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>\\(16^{0{,}75}=\\left(\\sqrt[4]{16}\\right)^3\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 560,
+    "tolerans": 0.5,
+    "svarEnhet": "kcal"
+  },
+  {
+    "id": "3.632",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Diagrammet visar ett prisindex med basåret 2020.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Linjediagram över ett prisindex: 100 år 2020 och 116 år 2024.\"><title>Linjediagram över ett prisindex: 100 år 2020 och 116 år 2024.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"372.0\" y2=\"225.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">90</text><line x1=\"62.0\" y1=\"194.2\" x2=\"372.0\" y2=\"194.2\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"198.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">95</text><line x1=\"62.0\" y1=\"163.3\" x2=\"372.0\" y2=\"163.3\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"167.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">100</text><line x1=\"62.0\" y1=\"132.5\" x2=\"372.0\" y2=\"132.5\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"136.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">105</text><line x1=\"62.0\" y1=\"101.7\" x2=\"372.0\" y2=\"101.7\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"105.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">110</text><line x1=\"62.0\" y1=\"70.8\" x2=\"372.0\" y2=\"70.8\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"74.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">115</text><line x1=\"62.0\" y1=\"40.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">120</text><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"62.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2020</text><line x1=\"139.5\" y1=\"225.0\" x2=\"139.5\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"139.5\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2021</text><line x1=\"217.0\" y1=\"225.0\" x2=\"217.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"217.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2022</text><line x1=\"294.5\" y1=\"225.0\" x2=\"294.5\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"294.5\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2023</text><line x1=\"372.0\" y1=\"225.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"372.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2024</text><line x1=\"62.0\" y1=\"225.0\" x2=\"380.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"32.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><polyline points=\"62.0,163.3 139.5,151.0 217.0,114.0 294.5,83.2 372.0,64.7\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"2.6\"/><circle cx=\"62.0\" cy=\"163.3\" r=\"4.5\" fill=\"#2f7d4a\"/><rect x=\"66.0\" y=\"174.3\" width=\"29.6\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"70.0\" y=\"185.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">100</text><circle cx=\"139.5\" cy=\"151.0\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"217.0\" cy=\"114.0\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"294.5\" cy=\"83.2\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"372.0\" cy=\"64.7\" r=\"4.5\" fill=\"#2f7d4a\"/><rect x=\"338.4\" y=\"43.7\" width=\"29.6\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"364.0\" y=\"54.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">116</text><text x=\"372.0\" y=\"261.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">år</text><text x=\"58.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">index</text></svg></span><p>Hur många procent har priserna ökat från 2020 till 2024?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[116-100=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 %.</p></div>",
+    "familj": "Tolka och beräkna index",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Basåret har index 100.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 16,
+    "tolerans": 0.05
+  },
+  {
+    "id": "3.633",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Diagrammet visar ett index för bostadspriser med basåret 2015.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"370\" height=\"250\" viewBox=\"0 0 370 250\" role=\"img\" aria-label=\"Stapeldiagram över bostadsprisindex: 100 år 2015, 128 år 2019, 158 år 2022 och 165 år 2025.\"><title>Stapeldiagram över bostadsprisindex: 100 år 2015, 128 år 2019, 158 år 2022 och 165 år 2025.</title><rect x=\"1\" y=\"1\" width=\"368\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"350.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">index</text><rect x=\"85\" y=\"120.4\" width=\"40\" height=\"89.6\" rx=\"3\" fill=\"#2f7d4a\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2015</text><rect x=\"89.3\" y=\"100.4\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"112.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">100</text><rect x=\"155\" y=\"95.3\" width=\"40\" height=\"114.7\" rx=\"3\" fill=\"#2f7d4a\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2019</text><rect x=\"159.3\" y=\"75.3\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"175.0\" y=\"87.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">128</text><rect x=\"225\" y=\"68.4\" width=\"40\" height=\"141.6\" rx=\"3\" fill=\"#2f7d4a\" opacity=\"0.85\"/><text x=\"245.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2022</text><rect x=\"229.3\" y=\"48.4\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"245.0\" y=\"60.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">158</text><rect x=\"295\" y=\"62.2\" width=\"40\" height=\"147.8\" rx=\"3\" fill=\"#2f7d4a\" opacity=\"0.85\"/><text x=\"315.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2025</text><rect x=\"299.3\" y=\"42.2\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"315.0\" y=\"54.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">165</text></svg></span><p>Hur många procent dyrare var bostäderna 2025 än 2015?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[165-100=65\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 65 %.</p></div>",
+    "familj": "Tolka och beräkna index",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Jämför med basårets index 100.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 65,
+    "tolerans": 0.05
+  },
+  {
+    "id": "3.634",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En biobiljett kostade 110 kr år 2018. Tabellen visar ett prisindex.</p><table class=\"data\"><tbody><tr><th>År</th><td>2018</td><td>2025</td></tr><tr><th>Index</th><td>105</td><td>126</td></tr></tbody></table><p>Vad borde biljetten kosta år 2025 om priset har följt indexet? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[110\\cdot\\frac{126}{105}=132\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 132 kr.</p></div>",
+    "familj": "Index och priser",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Priset ska förändras med samma faktor som indexet.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 132,
+    "tolerans": 0.5,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "3.635",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Diagrammet visar ett löneindex och konsumentprisindex (KPI) med basåret 2020.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"370\" height=\"250\" viewBox=\"0 0 370 250\" role=\"img\" aria-label=\"Stapeldiagram: löneindex 100 år 2020 och 118 år 2025, KPI 100 år 2020 och 123 år 2025.\"><title>Stapeldiagram: löneindex 100 år 2020 och 118 år 2025, KPI 100 år 2020 och 123 år 2025.</title><rect x=\"1\" y=\"1\" width=\"368\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"350.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">index</text><rect x=\"85\" y=\"89.8\" width=\"40\" height=\"120.2\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">lön 2020</text><rect x=\"89.3\" y=\"69.8\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"81.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">100</text><rect x=\"155\" y=\"68.2\" width=\"40\" height=\"141.8\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">lön 2025</text><rect x=\"159.3\" y=\"48.2\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"175.0\" y=\"60.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">118</text><rect x=\"225\" y=\"89.8\" width=\"40\" height=\"120.2\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"245.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">KPI 2020</text><rect x=\"229.3\" y=\"69.8\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"245.0\" y=\"81.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">100</text><rect x=\"295\" y=\"62.2\" width=\"40\" height=\"147.8\" rx=\"3\" fill=\"#2f6fca\" opacity=\"0.85\"/><text x=\"315.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">KPI 2025</text><rect x=\"299.3\" y=\"42.2\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"315.0\" y=\"54.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">123</text></svg></span><p>Vad har hänt med vad lönen räcker till, alltså reallönen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{1{,}18}{1{,}23}\\approx0{,}96\\]</div></li><li><p>Priserna har stigit mer än lönerna, så reallönen har minskat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Reallönen har minskat.</p></div>",
+    "familj": "Procentuell förändring av index",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Jämför hur mycket lönerna och priserna har ökat.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Reallönen har minskat",
+        "ratt": true,
+        "kommentar": "Priserna steg 23 % men lönerna bara 18 %."
+      },
+      {
+        "txt": "Reallönen har ökat",
+        "ratt": false,
+        "kommentar": "Lönerna steg mindre än priserna."
+      },
+      {
+        "txt": "Reallönen är oförändrad",
+        "ratt": false,
+        "kommentar": "Ökningarna är olika stora."
+      },
+      {
+        "txt": "Det går inte att avgöra",
+        "ratt": false,
+        "kommentar": "Indexen räcker för en jämförelse."
+      }
+    ]
+  },
+  {
+    "id": "3.636",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En liter mjölk kostade 12,50 kr basåret och kostar nu 16,25 kr. Beräkna mjölkens prisindex i dag om basåret har index 100.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{16{,}25}{12{,}50}\\cdot100=130\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 130</p></div>",
+    "familj": "Tolka och beräkna index",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många procent av basårets pris är dagens pris?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 130,
+    "tolerans": 0
+  },
+  {
+    "id": "3.637",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Diagrammet visar ett prisindex.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Linjediagram över ett prisindex: 125 år 2022 och 140 år 2024.\"><title>Linjediagram över ett prisindex: 125 år 2022 och 140 år 2024.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"372.0\" y2=\"225.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">90</text><line x1=\"62.0\" y1=\"194.2\" x2=\"372.0\" y2=\"194.2\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"198.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">100</text><line x1=\"62.0\" y1=\"163.3\" x2=\"372.0\" y2=\"163.3\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"167.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">110</text><line x1=\"62.0\" y1=\"132.5\" x2=\"372.0\" y2=\"132.5\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"136.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">120</text><line x1=\"62.0\" y1=\"101.7\" x2=\"372.0\" y2=\"101.7\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"105.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">130</text><line x1=\"62.0\" y1=\"70.8\" x2=\"372.0\" y2=\"70.8\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"74.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">140</text><line x1=\"62.0\" y1=\"40.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">150</text><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"62.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2019</text><line x1=\"124.0\" y1=\"225.0\" x2=\"124.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"124.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2020</text><line x1=\"186.0\" y1=\"225.0\" x2=\"186.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"186.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2021</text><line x1=\"248.0\" y1=\"225.0\" x2=\"248.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"248.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2022</text><line x1=\"310.0\" y1=\"225.0\" x2=\"310.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"310.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2023</text><line x1=\"372.0\" y1=\"225.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"372.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2024</text><line x1=\"62.0\" y1=\"225.0\" x2=\"380.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"32.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><polyline points=\"62.0,194.2 124.0,181.8 186.0,157.2 248.0,117.1 310.0,92.4 372.0,70.8\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"2.6\"/><circle cx=\"62.0\" cy=\"194.2\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"124.0\" cy=\"181.8\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"186.0\" cy=\"157.2\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"248.0\" cy=\"117.1\" r=\"4.5\" fill=\"#2f7d4a\"/><rect x=\"233.2\" y=\"96.1\" width=\"29.6\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"248.0\" y=\"107.1\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">125</text><circle cx=\"310.0\" cy=\"92.4\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"372.0\" cy=\"70.8\" r=\"4.5\" fill=\"#2f7d4a\"/><rect x=\"338.4\" y=\"49.8\" width=\"29.6\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"364.0\" y=\"60.8\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">140</text><text x=\"372.0\" y=\"261.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">år</text><text x=\"58.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">index</text></svg></span><p>Hur många procent steg priserna från 2022 till 2024?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{140}{125}=1{,}12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 %.</p></div>",
+    "familj": "Procentuell förändring av index",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Indexet steg med 15 enheter, men procenten ska räknas från 2022 års index.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 12,
+    "tolerans": 0.05
+  },
+  {
+    "id": "3.638",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En jacka kostar i dag 455 kr när prisindex är 130. Vad kostade den basåret, då index var 100, om priset har följt indexet? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{455}{1{,}30}=350\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 350 kr.</p></div>",
+    "familj": "Index och priser",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dela med förändringsfaktorn 1,30.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 350,
+    "tolerans": 0,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "3.639",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Diagrammet visar ett prisindex för el.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"370\" height=\"250\" viewBox=\"0 0 370 250\" role=\"img\" aria-label=\"Stapeldiagram över elprisindex: 100 år 2021, 162 år 2022, 138 år 2023 och 121 år 2024.\"><title>Stapeldiagram över elprisindex: 100 år 2021, 162 år 2022, 138 år 2023 och 121 år 2024.</title><rect x=\"1\" y=\"1\" width=\"368\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"350.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">index</text><rect x=\"85\" y=\"118.7\" width=\"40\" height=\"91.3\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2021</text><rect x=\"89.3\" y=\"98.7\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"110.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">100</text><rect x=\"155\" y=\"62.2\" width=\"40\" height=\"147.8\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2022</text><rect x=\"159.3\" y=\"42.2\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"175.0\" y=\"54.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">162</text><rect x=\"225\" y=\"84.1\" width=\"40\" height=\"125.9\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"245.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2023</text><rect x=\"229.3\" y=\"64.1\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"245.0\" y=\"76.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">138</text><rect x=\"295\" y=\"99.6\" width=\"40\" height=\"110.4\" rx=\"3\" fill=\"#c2410c\" opacity=\"0.85\"/><text x=\"315.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2024</text><rect x=\"299.3\" y=\"79.6\" width=\"31.4\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"315.0\" y=\"91.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">121</text></svg></span><p>Vilket år var elpriset högst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Högst index har 2022.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2022</p></div>",
+    "familj": "Tolka och beräkna index",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Leta efter den högsta stapeln.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "2022",
+        "ratt": true
+      },
+      {
+        "txt": "2024",
+        "ratt": false,
+        "kommentar": "121 är lägre än 162."
+      },
+      {
+        "txt": "2023",
+        "ratt": false,
+        "kommentar": "138 är lägre än 162."
+      },
+      {
+        "txt": "2021",
+        "ratt": false,
+        "kommentar": "Basåret har det lägsta indexet."
+      }
+    ]
+  },
+  {
+    "id": "3.640",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett index har basåret 2020 (index 100). År 2024 är indexet 125. Man vill i stället använda 2024 som basår, med index 100.</p><p>Vilket index får år 2020 med det nya basåret?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{100}{125}\\cdot100=80\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 80</p></div>",
+    "familj": "Procentuell förändring av index",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Alla index ska delas med samma tal så att 2024 får 100.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 80,
+    "tolerans": 0
+  },
+  {
+    "id": "3.641",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En hyra följer ett hyresindex.</p><table class=\"data\"><tbody><tr><th></th><td>Hyra (kr)</td><td>Index</td></tr><tr><th>Förra året</th><td>6 400</td><td>112</td></tr><tr><th>I år</th><td>?</td><td>128</td></tr></tbody></table><p>Hur stor är hyran i år om den har följt indexet? (Svara i hela kronor.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[6\\,400\\cdot\\frac{128}{112}\\approx7\\,314\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 7 314 kr.</p></div>",
+    "familj": "Index och priser",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera hyran med kvoten mellan indexen.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 7314.2857,
+    "tolerans": 0.6,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "3.642",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Saras lön ökade från 28 000 kr till 31 500 kr. Under samma tid steg KPI från 100 till 110.</p><p>Med hur många procent ökade hennes reallön? (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{31\\,500}{28\\,000}=1{,}125\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{1{,}125}{1{,}10}\\approx1{,}0227\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 2,3 %.</p></div>",
+    "familj": "Procentuell förändring av index",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Dela lönens förändringsfaktor med prisernas förändringsfaktor.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "procent",
+    "rättSvar": 2.2727,
+    "tolerans": 0.06
+  },
+  {
+    "id": "3.643",
+    "kap": 3,
+    "omr": "index",
+    "kurs": [
+      "1a",
+      "1b"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Kvittona visar vad en familjs veckohandling kostade år 2019 och år 2025.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"370\" height=\"190\" viewBox=\"0 0 370 190\" role=\"img\" aria-label=\"Två kvitton: veckohandlingen kostade 850 kr år 2019 och 1 088 kr år 2025.\"><title>Två kvitton: veckohandlingen kostade 850 kr år 2019 och 1 088 kr år 2025.</title><rect x=\"1\" y=\"1\" width=\"368\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"30\" y=\"20\" width=\"140\" height=\"150\" fill=\"#fff\" stroke=\"#9aa5b1\" stroke-width=\"1.5\"/><text x=\"100.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">KVITTO 2019</text><line x1=\"45.0\" y1=\"64.0\" x2=\"155.0\" y2=\"64.0\" stroke=\"#d7dee6\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"45.0\" y1=\"80.0\" x2=\"155.0\" y2=\"80.0\" stroke=\"#d7dee6\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"45.0\" y1=\"96.0\" x2=\"155.0\" y2=\"96.0\" stroke=\"#d7dee6\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"45.0\" y1=\"112.0\" x2=\"155.0\" y2=\"112.0\" stroke=\"#d7dee6\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><text x=\"100.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Summa 850 kr</text><rect x=\"200\" y=\"20\" width=\"140\" height=\"150\" fill=\"#fff\" stroke=\"#9aa5b1\" stroke-width=\"1.5\"/><text x=\"270.0\" y=\"46.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">KVITTO 2025</text><line x1=\"215.0\" y1=\"64.0\" x2=\"325.0\" y2=\"64.0\" stroke=\"#d7dee6\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"215.0\" y1=\"80.0\" x2=\"325.0\" y2=\"80.0\" stroke=\"#d7dee6\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"215.0\" y1=\"96.0\" x2=\"325.0\" y2=\"96.0\" stroke=\"#d7dee6\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><line x1=\"215.0\" y1=\"112.0\" x2=\"325.0\" y2=\"112.0\" stroke=\"#d7dee6\" stroke-width=\"1\" stroke-dasharray=\"5 4\"/><text x=\"270.0\" y=\"150.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">Summa 1 088 kr</text></svg></span><p>Beräkna ett index för veckohandlingen år 2025 med 2019 som basår.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{1\\,088}{850}\\cdot100=128\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 128</p></div>",
+    "familj": "Tolka och beräkna index",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Basåret får index 100.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 128,
+    "tolerans": 0
+  },
+  {
+    "id": "3.644",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>En jacka är nedsatt i två steg.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"300\" height=\"140\" viewBox=\"0 0 300 140\" role=\"img\" aria-label=\"Prislapp: ordinarie pris 800 kr, rea −25 % och extra −20 % i kassan.\"><title>Prislapp: ordinarie pris 800 kr, rea −25 % och extra −20 % i kassan.</title><rect x=\"1\" y=\"1\" width=\"298\" height=\"138\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M40 20 H270 V120 H40 L18 70.0 Z\" fill=\"#fff3c4\" stroke=\"#c99a06\" stroke-width=\"2\"/><circle cx=\"36\" cy=\"70.0\" r=\"5\" fill=\"#fff\" stroke=\"#c99a06\"/><text x=\"160.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\">Ordinarie pris 800 kr</text><text x=\"160.0\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">REA −25 %</text><text x=\"160.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">Extra −20 % i kassan</text></svg></span><p>Vad kostar jackan i kassan? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[800\\cdot0{,}75\\cdot0{,}80=480\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 480 kr.</p></div>",
+    "familj": "Total förändring i flera steg",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Den extra rabatten räknas på det redan sänkta priset.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 480,
+    "tolerans": 0,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "3.645",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett pris höjs med 30 % och sänks sedan med 30 %. Vilken är den totala förändringsfaktorn?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}30\\cdot0{,}70=0{,}91\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,91</p></div>",
+    "familj": "Total förändring i flera steg",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera förändringsfaktorerna.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 0.91,
+    "tolerans": 1e-09
+  },
+  {
+    "id": "3.646",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tidslinjen visar hur priset på en vara förändrades.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"450\" height=\"120\" viewBox=\"0 0 450 120\" role=\"img\" aria-label=\"Tidslinje: startpris 2 000 kr, sedan +8 %, +5 % och −10 %.\"><title>Tidslinje: startpris 2 000 kr, sedan +8 %, +5 % och −10 %.</title><rect x=\"1\" y=\"1\" width=\"448\" height=\"118\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"70.0\" x2=\"420.0\" y2=\"70.0\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><path d=\"M428 70 l-10 -5 v10 z\" fill=\"#172b3a\"/><circle cx=\"60\" cy=\"70\" r=\"7\" fill=\"#2f6fca\"/><text x=\"60.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">2 000 kr</text><circle cx=\"170\" cy=\"70\" r=\"7\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><text x=\"170.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">år 1</text><path d=\"M70 56 Q115 24 160 56\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"2\"/><path d=\"M160 56 l-9 -2 l5 -7 z\" fill=\"#2f7d4a\"/><rect x=\"94.2\" y=\"17.0\" width=\"41.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"115.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">+8 %</text><circle cx=\"280\" cy=\"70\" r=\"7\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><text x=\"280.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">år 2</text><path d=\"M180 56 Q225 24 270 56\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"2\"/><path d=\"M270 56 l-9 -2 l5 -7 z\" fill=\"#2f7d4a\"/><rect x=\"204.2\" y=\"17.0\" width=\"41.6\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"225.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">+5 %</text><circle cx=\"390\" cy=\"70\" r=\"7\" fill=\"#fff\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><text x=\"390.0\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">år 3</text><path d=\"M290 56 Q335 24 380 56\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><path d=\"M380 56 l-9 -2 l5 -7 z\" fill=\"#c2410c\"/><rect x=\"310.0\" y=\"17.0\" width=\"50.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"335.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">−10 %</text></svg></span><p>Vad kostar varan efter tre år? (Svara i kr med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\,000\\cdot1{,}08\\cdot1{,}05\\cdot0{,}90=2\\,041{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 041,2 kr.</p></div>",
+    "familj": "Total förändring i flera steg",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera startpriset med alla tre förändringsfaktorerna.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2041.2,
+    "tolerans": 0.05,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "3.647",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett sparkonto växer med 4 % per år.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"370\" height=\"250\" viewBox=\"0 0 370 250\" role=\"img\" aria-label=\"Stapeldiagram över saldot: 10 000 kr vid start och sedan växande staplar. Saldot efter 6 år är okänt.\"><title>Stapeldiagram över saldot: 10 000 kr vid start och sedan växande staplar. Saldot efter 6 år är okänt.</title><rect x=\"1\" y=\"1\" width=\"368\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"350.0\" y2=\"210.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"60.0\" y1=\"210.0\" x2=\"60.0\" y2=\"30.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"56.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">saldo (kr)</text><rect x=\"85\" y=\"93.2\" width=\"40\" height=\"116.8\" rx=\"3\" fill=\"#2f7d4a\" opacity=\"0.85\"/><text x=\"105.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">start</text><rect x=\"77.6\" y=\"73.2\" width=\"54.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"105.0\" y=\"85.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">10 000</text><rect x=\"155\" y=\"83.6\" width=\"40\" height=\"126.4\" rx=\"3\" fill=\"#2f7d4a\" opacity=\"0.85\"/><text x=\"175.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2 år</text><rect x=\"225\" y=\"73.3\" width=\"40\" height=\"136.7\" rx=\"3\" fill=\"#2f7d4a\" opacity=\"0.85\"/><text x=\"245.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4 år</text><rect x=\"295\" y=\"62.2\" width=\"40\" height=\"147.8\" rx=\"3\" fill=\"#2f7d4a\" opacity=\"0.85\"/><text x=\"315.0\" y=\"228.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6 år</text><rect x=\"307.1\" y=\"42.2\" width=\"15.8\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"315.0\" y=\"54.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">?</text></svg></span><p>Hur stort är saldot efter 6 år? (Svara i hela kronor.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10\\,000\\cdot1{,}04^6\\approx12\\,653\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 12 653 kr.</p></div>",
+    "familj": "Upprepad procentuell förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Förändringsfaktorn 1,04 används sex gånger.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 12653.1902,
+    "tolerans": 0.6,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "3.648",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Tre butiker har olika erbjudanden på samma tröja.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"340\" height=\"140\" viewBox=\"0 0 340 140\" role=\"img\" aria-label=\"Tre erbjudanden: A köp 3 betala för 2, B 30 % rabatt, C 20 % och sedan 10 % extra.\"><title>Tre erbjudanden: A köp 3 betala för 2, B 30 % rabatt, C 20 % och sedan 10 % extra.</title><rect x=\"1\" y=\"1\" width=\"338\" height=\"138\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M40 20 H310 V120 H40 L18 70.0 Z\" fill=\"#fff3c4\" stroke=\"#c99a06\" stroke-width=\"2\"/><circle cx=\"36\" cy=\"70.0\" r=\"5\" fill=\"#fff\" stroke=\"#c99a06\"/><text x=\"180.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#2f6fca\" font-weight=\"bold\">A: Köp 3, betala för 2</text><text x=\"180.0\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">B: 30 % rabatt</text><text x=\"180.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"18\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">C: 20 % + 10 % extra</text></svg></span><p>Du vill köpa tre tröjor. Vilket erbjudande ger lägst pris per tröja?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A: du betalar \\(\\frac23\\approx0{,}667\\) av priset. B: 0,70. C: \\(0{,}80\\cdot0{,}90=0{,}72\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A</p></div>",
+    "familj": "Problemlösning med förändringar i flera steg",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Skriv varje erbjudande som en förändringsfaktor.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "A",
+        "ratt": true,
+        "kommentar": "Du betalar cirka 66,7 % av priset."
+      },
+      {
+        "txt": "B",
+        "ratt": false,
+        "kommentar": "0,70 är mer än 2/3."
+      },
+      {
+        "txt": "C",
+        "ratt": false,
+        "kommentar": "20 % + 10 % blir bara 28 % rabatt."
+      },
+      {
+        "txt": "B och C är lika bra",
+        "ratt": false,
+        "kommentar": "C ger 28 %, inte 30 %."
+      }
+    ]
+  },
+  {
+    "id": "3.649",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En skuld på 5 000 kr växer med 2 % per månad om ingenting betalas. Hur stor är skulden efter ett år? (Svara i hela kronor.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5\\,000\\cdot1{,}02^{12}\\approx6\\,341\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 6 341 kr.</p></div>",
+    "familj": "Upprepad procentuell förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ett år är 12 månader.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 6341.209,
+    "tolerans": 0.6,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "3.650",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett pris höjs först med 25 % och sänks sedan med 20 %. Vad gäller för slutpriset?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}25\\cdot0{,}80=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det är samma som från början.</p></div>",
+    "familj": "Total förändring i flera steg",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera förändringsfaktorerna.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Det är samma som från början",
+        "ratt": true,
+        "kommentar": "1,25 · 0,80 = 1."
+      },
+      {
+        "txt": "Det är 5 % högre",
+        "ratt": false,
+        "kommentar": "Procenten kan inte adderas."
+      },
+      {
+        "txt": "Det är lägre än från början",
+        "ratt": false,
+        "kommentar": "Räkna 1,25 · 0,80."
+      },
+      {
+        "txt": "Det är 45 % lägre",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "3.651",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>En vara sänks först med 15 % och höjs sedan med 10 %. Nu kostar den 935 kr. Vad kostade den från början? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x\\cdot0{,}85\\cdot1{,}10=935\\]</div></li><li><div class=\"facit-matte\">\\[x=\\frac{935}{0{,}935}=1\\,000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 000 kr.</p></div>",
+    "familj": "Problemlösning med förändringar i flera steg",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ställ upp en ekvation med startpriset \\(x\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1000,
+    "tolerans": 0,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "3.652",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Antalet invånare i en by minskar med 3 % per år.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"280\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Linjediagram: 4 500 invånare år 0 och sedan en jämn minskning under fem år.\"><title>Linjediagram: 4 500 invånare år 0 och sedan en jämn minskning under fem år.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"372.0\" y2=\"225.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3 400</text><line x1=\"62.0\" y1=\"194.2\" x2=\"372.0\" y2=\"194.2\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"198.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3 600</text><line x1=\"62.0\" y1=\"163.3\" x2=\"372.0\" y2=\"163.3\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"167.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3 800</text><line x1=\"62.0\" y1=\"132.5\" x2=\"372.0\" y2=\"132.5\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"136.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4 000</text><line x1=\"62.0\" y1=\"101.7\" x2=\"372.0\" y2=\"101.7\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"105.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4 200</text><line x1=\"62.0\" y1=\"70.8\" x2=\"372.0\" y2=\"70.8\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"74.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4 400</text><line x1=\"62.0\" y1=\"40.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#e3e8ee\" stroke-width=\"1\"/><text x=\"56.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4 600</text><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"62.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"124.0\" y1=\"225.0\" x2=\"124.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"124.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"186.0\" y1=\"225.0\" x2=\"186.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"186.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"248.0\" y1=\"225.0\" x2=\"248.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"248.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"310.0\" y1=\"225.0\" x2=\"310.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"310.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"372.0\" y1=\"225.0\" x2=\"372.0\" y2=\"40.0\" stroke=\"#eef1f4\" stroke-width=\"1\"/><text x=\"372.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"62.0\" y1=\"225.0\" x2=\"380.0\" y2=\"225.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><line x1=\"62.0\" y1=\"225.0\" x2=\"62.0\" y2=\"32.0\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><polyline points=\"62.0,55.4 124.0,76.2 186.0,96.4 248.0,116.0 310.0,135.0 372.0,153.5\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><circle cx=\"62.0\" cy=\"55.4\" r=\"4.5\" fill=\"#c2410c\"/><rect x=\"66.0\" y=\"34.4\" width=\"44.0\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"70.0\" y=\"45.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">4 500</text><circle cx=\"124.0\" cy=\"76.2\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"186.0\" cy=\"96.4\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"248.0\" cy=\"116.0\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"310.0\" cy=\"135.0\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"372.0\" cy=\"153.5\" r=\"4.5\" fill=\"#c2410c\"/><text x=\"372.0\" y=\"261.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">år</text><text x=\"58.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#5b6773\">invånare</text></svg></span><p>Hur många invånare finns det efter 5 år? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4\\,500\\cdot0{,}97^5\\approx3\\,863\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirka 3 863 invånare.</p></div>",
+    "familj": "Upprepad procentuell förändring",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Förändringsfaktorn är 0,97.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 3864.3031,
+    "tolerans": 0.6
+  },
+  {
+    "id": "3.653",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Tabellen visar hur ett belopp växer med 7 % per år.</p><table class=\"data\"><tbody><tr><th>År</th><td>0</td><td>5</td><td>10</td><td>11</td></tr><tr><th>Belopp (kr)</th><td>1 000</td><td>1 403</td><td>1 967</td><td>2 105</td></tr></tbody></table><p>Efter hur många hela år har beloppet fördubblats för första gången? (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}07^{10}\\approx1{,}967<2\\]</div></li><li><div class=\"facit-matte\">\\[1{,}07^{11}\\approx2{,}105>2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 11 år.</p></div>",
+    "familj": "Problemlösning med förändringar i flera steg",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Leta efter det första året då beloppet är minst 2 000 kr.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": 0,
+    "svarEnhet": "år"
+  },
+  {
+    "id": "3.654",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "t": "<p>Ett pris sänks med 35 %. Vilken är förändringsfaktorn?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1-0{,}35=0{,}65\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,65</p></div>",
+    "familj": "Total förändring i flera steg",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många procent av priset finns kvar?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 0.65,
+    "tolerans": 1e-09
+  },
+  {
+    "id": "3.655",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "t": "<p>Ett värde ökar först med \\(p\\) % och minskar sedan med 10 %. Totalt har värdet ökat med 17 %. Bestäm \\(p\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x\\cdot0{,}9=1{,}17\\]</div></li><li><div class=\"facit-matte\">\\[x=1{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(p=30\\)</p></div>",
+    "familj": "Problemlösning med förändringar i flera steg",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ställ upp \\(x\\cdot0{,}9=1{,}17\\), där \\(x\\) är den första förändringsfaktorn.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 30,
+    "tolerans": 0
   }
 ];

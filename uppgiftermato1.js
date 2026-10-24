@@ -109822,6 +109822,299 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt",
     "svarstyp": "numeriskt",
     "tolerans": 1e-09
+  },
+  {
+    "id": "1.925",
+    "kap": 1,
+    "omr": "kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Kontinuitet och hål i grafer",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Grafen visar vattennivån i en behållare. Är vattennivån en kontinuerlig funktion av tiden vid \\(t=2\\) h? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Vattennivån stiger från 1 till 5 cm och ligger sedan kvar på 5 cm.\"><title>Vattennivån stiger från 1 till 5 cm och ligger sedan kvar på 5 cm.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 216.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"222.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 183.33333333333331H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"189.33333333333331\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 116.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"122.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 83.33333333333334H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"89.33333333333334\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Tid t (h)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Vattennivå (cm)</text><polyline points=\"65.000,216.667 250.000,83.333 435.000,83.333\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nivån når 5 cm och ligger sedan kvar där. Grafen hänger ihop vid t = 2; att lutningen ändras gör inte funktionen diskontinuerlig.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Ja, nivån ändras utan hopp.</strong></p></div>",
+    "ledtrad": "<p>Jämför höjden precis före och precis efter t = 2.</p>",
+    "rättSvar": null,
+    "svarstyp": "alternativ",
+    "svarFormat": "text",
+    "tolerans": 1e-09,
+    "alternativ": [
+      {
+        "txt": "Nej, eftersom grafen får ett hörn.",
+        "ratt": false
+      },
+      {
+        "txt": "Ja, nivån ändras utan hopp.",
+        "ratt": true
+      },
+      {
+        "txt": "Nej, eftersom nivån slutar stiga.",
+        "ratt": false
+      }
+    ]
+  },
+  {
+    "id": "1.926",
+    "kap": 1,
+    "omr": "kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Kontinuitet och hål i grafer",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Grafen visar parkeringsavgiften för olika parkeringstider. Hur mycket ökar avgiften när parkeringstiden passerar 2 timmar? (Svara i kr.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Parkeringsavgiften är 20 kr till och med 2 timmar och 35 kr därefter.\"><title>Parkeringsavgiften är 20 kr till och med 2 timmar och 35 kr därefter.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">20</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">30</text><path d=\"M65 75.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"81.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">35</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">40</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Tid (h)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Avgift (kr)</text><polyline points=\"65.000,150.000 250.000,150.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"250.000,75.000 435.000,75.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"150.0\" r=\"6\" fill=\"#fff\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"250.0\" cy=\"150.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"250.0\" cy=\"75.0\" r=\"6\" fill=\"#fff\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"435.0\" cy=\"75.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avgiften är 20 kr till och med 2 timmar och 35 kr direkt efter 2 timmar.</p><div class=\"facit-matte\">\\[35-20=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 15 kr.</strong></p></div>",
+    "ledtrad": "<p>Läs av avgiften på båda sidor om 2 timmar.</p>",
+    "rättSvar": 15,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "1.927",
+    "kap": 1,
+    "omr": "kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Kontinuitet och hål i grafer",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Tabellen anger gränsvärdena från vänster och höger samt funktionens värde i tre punkter. Vid vilket av x-värdena är funktionen kontinuerlig?</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">x</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Från vänster</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Från höger</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">\\(f(x)\\)</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">1</td><td style=\"padding:8px;border:1px solid #8796a5\">4</td><td style=\"padding:8px;border:1px solid #8796a5\">4</td><td style=\"padding:8px;border:1px solid #8796a5\">9</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">2</td><td style=\"padding:8px;border:1px solid #8796a5\">7</td><td style=\"padding:8px;border:1px solid #8796a5\">5</td><td style=\"padding:8px;border:1px solid #8796a5\">5</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">3</td><td style=\"padding:8px;border:1px solid #8796a5\">−1</td><td style=\"padding:8px;border:1px solid #8796a5\">−1</td><td style=\"padding:8px;border:1px solid #8796a5\">−1</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Gränsvärdet från båda sidor måste vara samma som funktionsvärdet. Vid x = 1 är funktionsvärdet fel för kontinuitet. Vid x = 2 skiljer sig gränsvärdena. Bara vid x = 3 är alla tre värden −1.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=3\\).</strong></p></div>",
+    "ledtrad": "<p>Jämför de tre värdena på varje rad.</p>",
+    "rättSvar": 3,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+    "id": "1.928",
+    "kap": 1,
+    "omr": "kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Kontinuitet och hål i grafer",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Endast \\(f(1)\\) får ändras; resten av grafen ska vara oförändrad. Vilket värde kan man ge \\(f(1)\\) för att göra funktionen kontinuerlig vid \\(x=1\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Graf med ett hopp från y=2 till y=4 vid x=1.\"><title>Graf med ett hopp från y=2 till y=4 vid x=1.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M188.33333333333331 50V250\" stroke=\"#d6e1ea\"/><text x=\"188.33333333333331\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 210.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"216.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 170.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"176.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 130.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"136.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 90.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"96.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,170.000 188.333,170.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"188.333,90.000 435.000,90.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"188.33333333333331\" cy=\"170.0\" r=\"6\" fill=\"#fff\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"188.33333333333331\" cy=\"90.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från vänster närmar sig funktionen 2 och från höger 4. Ett enda funktionsvärde kan inte stämma med båda. Därför kan hoppet inte lagas genom att bara flytta punkten vid x = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Inget värde fungerar.</strong></p></div>",
+    "ledtrad": "<p>Måste värdet passa grafen från bara ena sidan eller från båda?</p>",
+    "rättSvar": null,
+    "svarstyp": "alternativ",
+    "svarFormat": "text",
+    "tolerans": 1e-09,
+    "alternativ": [
+      {
+        "txt": "2",
+        "ratt": false
+      },
+      {
+        "txt": "3",
+        "ratt": false
+      },
+      {
+        "txt": "4",
+        "ratt": false
+      },
+      {
+        "txt": "Inget värde fungerar.",
+        "ratt": true
+      }
+    ]
+  },
+  {
+    "id": "1.929",
+    "kap": 1,
+    "omr": "kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Bestämma parametrar för kontinuitet",
+    "niva": "E",
+    "poang": "1/0/0",
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En temperaturmodell använder två uttryck. Tiden \\(t\\) mäts i minuter och temperaturen \\(T\\) i °C. Bestäm \\(k\\) så att temperaturen inte får något hopp vid \\(t=5\\).</p><div class=\"facit-matte\">\\[T(t)=\\begin{cases}18+2t,&0\\le t\\lt5\\\\t+24+k,&5\\le t\\le10\\end{cases}\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det första uttrycket närmar sig 18 + 2 · 5 = 28 °C. Det andra måste ge samma temperatur.</p><div class=\"facit-matte\">\\[5+24+k=28\\Rightarrow k=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(k=-1\\).</strong></p></div>",
+    "ledtrad": "<p>Vilken temperatur ger de två uttrycken vid skarven?</p>",
+    "rättSvar": -1,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+    "id": "1.930",
+    "kap": 1,
+    "omr": "kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Kontinuitet och hål i grafer",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen \\(f(x)=\\dfrac{x^2-1}{x^2-3x+2}\\) är inte definierad vid \\(x=1\\) eller \\(x=2\\). Vid ett av dessa x-värden kan funktionen göras kontinuerlig genom att lägga till en punkt. Ange x-värdet och det funktionsvärde som ska läggas till.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Faktorisera och förkorta där originalet är definierat.</p><div class=\"facit-matte\">\\[f(x)=\\frac{(x-1)(x+1)}{(x-1)(x-2)}=\\frac{x+1}{x-2}\\]</div></li><li><p>När x närmar sig 1 närmar sig kvoten −2. Vid x = 2 är nämnaren fortfarande noll medan täljaren närmar sig 3; där finns inget ändligt gränsvärde.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=1\\) och \\(f(1)=-2\\).</strong></p></div>",
+    "ledtrad": "<p>Vilken nämnarfaktor kan förkortas bort?</p>",
+    "rättSvar": [
+      1,
+      -2
+    ],
+    "svarstyp": "flera_delar",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x-värde",
+      "Funktionsvärde"
+    ]
+  },
+  {
+    "id": "1.931",
+    "kap": 1,
+    "omr": "kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Kontinuitet och hål i grafer",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Temperaturen ändras kontinuerligt under fem timmar. Tabellen visar temperaturen vid tre tidpunkter. Vid minst hur många olika tidpunkter mellan 0 och 5 timmar måste temperaturen ha varit 0 °C?</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Tid (h)</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Temperatur (°C)</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">0</td><td style=\"padding:8px;border:1px solid #8796a5\">−4</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">2</td><td style=\"padding:8px;border:1px solid #8796a5\">8</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">5</td><td style=\"padding:8px;border:1px solid #8796a5\">−2</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mellan 0 och 2 timmar går temperaturen från −4 till 8 °C. Den måste passera 0 °C minst en gång. Mellan 2 och 5 timmar går den från 8 till −2 °C och måste passera 0 °C igen.</p></li><li><p>Tidpunkterna ligger i olika tidsintervall. Fler passager är möjliga, men två är det minsta antal som uppgifterna garanterar.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Minst 2 tidpunkter.</strong></p></div>",
+    "ledtrad": "<p>Studera varje tidsintervall för sig.</p>",
+    "rättSvar": 2,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+    "id": "1.932",
+    "kap": 1,
+    "omr": "kontinuitet",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Bestämma parametrar för kontinuitet",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Bestäm \\(a\\) och \\(b\\) så att funktionen är kontinuerlig både vid \\(x=0\\) och vid \\(x=3\\).</p><div class=\"facit-matte\">\\[f(x)=\\begin{cases}x+2,&x\\lt0\\\\ax+b,&0\\le x\\le3\\\\x^2-1,&x\\gt3\\end{cases}\\]</div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid x = 0 ska mittdelen möta värdet 2. Därför är b = 2.</p></li><li><p>Vid x = 3 ska mittdelen möta 3² − 1 = 8.</p><div class=\"facit-matte\">\\[3a+2=8\\Rightarrow a=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(a=2\\) och \\(b=2\\).</strong></p></div>",
+    "ledtrad": "<p>Använd en skarv i taget.</p>",
+    "rättSvar": [
+      2,
+      2
+    ],
+    "svarstyp": "flera_delar",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      1e-09,
+      1e-09
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a",
+      "b"
+    ]
   }
 
 ];

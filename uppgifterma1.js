@@ -150626,8 +150626,8 @@ window.BANKMA1 = [
 },
   {
     "id": "8.01",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "procent",
     "kurs": [
       "1a",
       "1b",
@@ -150635,7 +150635,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Procent och modeller",
+    "familj": "Procentuell ökning och minskning",
     "formaga": [
       "procedur"
     ],
@@ -150658,12 +150658,14 @@ window.BANKMA1 = [
       "amnesplan": "Procent och modeller",
       "underlag": "Ma1a/b/c VT22, delprov B"
     },
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Procent och modeller"
   },
   {
     "id": "8.02",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "funktionsbegreppet",
     "kurs": [
       "1a",
       "1b",
@@ -150671,7 +150673,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Funktioner och grafer",
+    "familj": "Funktionsvärden från formel",
     "formaga": [
       "procedur"
     ],
@@ -150694,12 +150696,14 @@ window.BANKMA1 = [
       "amnesplan": "Funktioner och grafer",
       "underlag": "Ma1a/b/c VT22, delprov B"
     },
-    "svarEnhet": "l"
+    "svarEnhet": "l",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Funktioner och grafer"
   },
   {
     "id": "8.03",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 1,
+    "omr": "forenkla_uttryck",
     "kurs": [
       "1a",
       "1b",
@@ -150707,7 +150711,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Algebra och ekvationer",
+    "familj": "Uttryck med parenteser",
     "formaga": [
       "procedur"
     ],
@@ -150729,12 +150733,14 @@ window.BANKMA1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Algebra och ekvationer",
       "underlag": "Ma1a/b/c VT22, delprov B"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Algebra och ekvationer"
   },
   {
     "id": "8.04",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 1,
+    "omr": "ekv_problemlosning",
     "kurs": [
       "1a",
       "1b",
@@ -150742,7 +150748,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Algebra och ekvationer",
+    "familj": "Ställa upp och lösa ekvationer",
     "formaga": [
       "procedur"
     ],
@@ -150765,12 +150771,14 @@ window.BANKMA1 = [
       "amnesplan": "Algebra och ekvationer",
       "underlag": "Ma1a/b/c VT22, delprov B"
     },
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Algebra och ekvationer"
   },
   {
     "id": "8.05",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "funktionsbegreppet",
     "kurs": [
       "1a",
       "1b",
@@ -150778,7 +150786,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Funktioner och grafer",
+    "familj": "f(x) i grafer",
     "formaga": [
       "procedur"
     ],
@@ -150800,12 +150808,14 @@ window.BANKMA1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Funktioner och grafer",
       "underlag": "Ma1a/b/c VT22, delprov B"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Funktioner och grafer"
   },
   {
     "id": "8.06",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
     "kurs": [
       "1a",
       "1b",
@@ -150813,7 +150823,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Procent och modeller",
+    "familj": "Upprepad procentuell förändring",
     "formaga": [
       "procedur"
     ],
@@ -150836,12 +150846,14 @@ window.BANKMA1 = [
       "amnesplan": "Procent och modeller",
       "underlag": "Ma1a/b/c VT22, delprov B"
     },
-    "svarEnhet": "Wh"
+    "svarEnhet": "Wh",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Procent och modeller"
   },
   {
     "id": "8.07",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "forandringsfaktor",
     "kurs": [
       "1a",
       "1b",
@@ -150849,7 +150861,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Procent och modeller",
+    "familj": "Räkna med förändringsfaktor",
     "formaga": [
       "procedur"
     ],
@@ -150872,12 +150884,14 @@ window.BANKMA1 = [
       "amnesplan": "Procent och modeller",
       "underlag": "Ma1a/b/c VT22, delprov B"
     },
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Procent och modeller"
   },
   {
     "id": "8.08",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 5,
+    "omr": "komplementhandelse",
     "kurs": [
       "1a",
       "1b",
@@ -150885,7 +150899,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Sannolikhet och granskning",
+    "familj": "Sannolikheten för minst en händelse",
     "formaga": [
       "problemlösning"
     ],
@@ -150908,12 +150922,14 @@ window.BANKMA1 = [
       "amnesplan": "Sannolikhet och granskning",
       "underlag": "Ma1a/b/c VT22, delprov B"
     },
-    "svarEnhet": "%"
+    "svarEnhet": "%",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Sannolikhet och granskning"
   },
   {
     "id": "8.09",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 5,
+    "omr": "beroende_handelser",
     "kurs": [
       "1a",
       "1b",
@@ -150921,7 +150937,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Sannolikhet och granskning",
+    "familj": "Dragning utan återläggning",
     "formaga": [
       "procedur"
     ],
@@ -150943,12 +150959,14 @@ window.BANKMA1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Sannolikhet och granskning",
       "underlag": "Ma1a/b/c VT22, delprov B"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Sannolikhet och granskning"
   },
   {
     "id": "8.10",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "linjara_funktioner",
     "kurs": [
       "1a",
       "1b",
@@ -150956,7 +150974,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Funktioner och grafer",
+    "familj": "Linjära funktioner i vardagliga sammanhang",
     "formaga": [
       "modellering"
     ],
@@ -150996,18 +151014,20 @@ window.BANKMA1 = [
         "txt": "\\(K=90\\cdot1{,}12^x\\)",
         "ratt": false
       }
-    ]
+    ],
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Funktioner och grafer"
   },
   {
     "id": "8.11",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "index",
     "kurs": [
       "1b"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Procent och modeller",
+    "familj": "Procentuell förändring av index",
     "formaga": [
       "procedur"
     ],
@@ -151030,19 +151050,21 @@ window.BANKMA1 = [
       "amnesplan": "Begreppet index",
       "underlag": "Ma1a/b/c VT22, delprov B"
     },
-    "svarEnhet": "%"
+    "svarEnhet": "%",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Procent och modeller"
   },
   {
     "id": "8.12",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "strackor_vinklar",
     "kurs": [
       "1a",
       "1c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Geometri och vektorer",
+    "familj": "Sträckor i tillämpningar",
     "formaga": [
       "procedur"
     ],
@@ -151065,18 +151087,20 @@ window.BANKMA1 = [
       "amnesplan": "Trigonometri i rätvinkliga trianglar; yrkesrelevant geometri för 1a",
       "underlag": "Ma1a/b/c VT22, delprov B"
     },
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Geometri och vektorer"
   },
   {
     "id": "8.13",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "vektor_absolutbelopp",
     "kurs": [
       "1c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Geometri och vektorer",
+    "familj": "Längd i tillämpningar och resonemang",
     "formaga": [
       "procedur"
     ],
@@ -151099,12 +151123,14 @@ window.BANKMA1 = [
       "amnesplan": "Addition och absolutbelopp av vektorer",
       "underlag": "Ma1a/b/c VT22, delprov B"
     },
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Geometri och vektorer"
   },
   {
     "id": "8.14",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 1,
+    "omr": "linjara_olikheter",
     "kurs": [
       "1a",
       "1b",
@@ -151112,7 +151138,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Algebra och ekvationer",
+    "familj": "Olikheter i vardagsproblem",
     "formaga": [
       "problemlösning"
     ],
@@ -151134,12 +151160,14 @@ window.BANKMA1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Algebra och ekvationer",
       "underlag": "Ma1a/b/c VT22, delprov B"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Algebra och ekvationer"
   },
   {
     "id": "8.15",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "bestamma_linjar_funktion",
     "kurs": [
       "1a",
       "1b",
@@ -151147,7 +151175,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Funktioner och grafer",
+    "familj": "Linjär funktion från tabell",
     "formaga": [
       "modellering"
     ],
@@ -151170,12 +151198,14 @@ window.BANKMA1 = [
       "amnesplan": "Funktioner och grafer",
       "underlag": "Ma1a/b/c VT22, delprov B"
     },
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Funktioner och grafer"
   },
   {
     "id": "8.16",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "upprepade_forandringar",
     "kurs": [
       "1a",
       "1b",
@@ -151183,7 +151213,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Procent och modeller",
+    "familj": "Total förändring i flera steg",
     "formaga": [
       "procedur"
     ],
@@ -151206,12 +151236,14 @@ window.BANKMA1 = [
       "amnesplan": "Procent och modeller",
       "underlag": "Ma1a/b/c VT22, delprov B"
     },
-    "svarEnhet": "%"
+    "svarEnhet": "%",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Procent och modeller"
   },
   {
     "id": "8.17",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 5,
+    "omr": "korrelation",
     "kurs": [
       "1a",
       "1b",
@@ -151219,7 +151251,7 @@ window.BANKMA1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Sannolikhet och granskning",
+    "familj": "Kausalitet och bakomliggande variabler",
     "formaga": [
       "resonemang"
     ],
@@ -151259,12 +151291,14 @@ window.BANKMA1 = [
         "txt": "Det finns ett samband i svaren, men orsaken är inte visad.",
         "ratt": true
       }
-    ]
+    ],
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Sannolikhet och granskning"
   },
   {
     "id": "8.18",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
     "kurs": [
       "1a",
       "1b",
@@ -151272,7 +151306,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Algebra och ekvationer",
+    "familj": "Proportionalitet i problemlösning",
     "formaga": [
       "problemlösning"
     ],
@@ -151295,12 +151329,14 @@ window.BANKMA1 = [
       "amnesplan": "Algebra och ekvationer",
       "underlag": "Ma1a/b/c VT22, delprov B"
     },
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Algebra och ekvationer"
   },
   {
     "id": "8.19",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "jamfora_modeller",
     "kurs": [
       "1a",
       "1b",
@@ -151308,7 +151344,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Funktioner och grafer",
+    "familj": "Jämföra linjär och exponentiell tillväxt",
     "formaga": [
       "begrepp"
     ],
@@ -151348,12 +151384,14 @@ window.BANKMA1 = [
         "txt": "Båda är exponentiella.",
         "ratt": false
       }
-    ]
+    ],
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Funktioner och grafer"
   },
   {
     "id": "8.20",
-    "kap": 8,
-    "omr": "np_repetition",
+    "kap": 1,
+    "omr": "monster_samband",
     "kurs": [
       "1a",
       "1b",
@@ -151361,7 +151399,7 @@ window.BANKMA1 = [
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Algebra och ekvationer",
+    "familj": "Figurmönster i bilder",
     "formaga": [
       "problemlösning"
     ],
@@ -151383,6 +151421,8 @@ window.BANKMA1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Algebra och ekvationer",
       "underlag": "Ma1a/b/c VT22, delprov B"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Algebra och ekvationer"
   }
 ];

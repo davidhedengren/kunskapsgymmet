@@ -108420,15 +108420,15 @@ window.BANKMATO1 = [
 },
   {
     "id": "5.01",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "deriveringsregler",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Derivata och förändring",
+    "familj": "Derivera polynom",
     "formaga": [
       "procedur"
     ],
@@ -108450,19 +108450,21 @@ window.BANKMATO1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Derivata och förändring",
       "underlag": "Ma3b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och förändring"
   },
   {
     "id": "5.02",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "primitiva",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Integraler och area",
+    "familj": "Bestämma primitiva funktioner",
     "formaga": [
       "procedur"
     ],
@@ -108484,19 +108486,21 @@ window.BANKMATO1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Integraler och area",
       "underlag": "Ma3b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Integraler och area"
   },
   {
     "id": "5.03",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "andringskvoter",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Derivata och förändring",
+    "familj": "Förändring ur grafer, tabeller och sammanhang",
     "formaga": [
       "procedur"
     ],
@@ -108519,19 +108523,21 @@ window.BANKMATO1 = [
       "amnesplan": "Derivata och förändring",
       "underlag": "Ma3b/c VT22"
     },
-    "svarEnhet": "l/min"
+    "svarEnhet": "l/min",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och förändring"
   },
   {
     "id": "5.04",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "begreppet_derivata",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Derivata och förändring",
+    "familj": "Derivata som tangentens lutning",
     "formaga": [
       "procedur"
     ],
@@ -108553,19 +108559,21 @@ window.BANKMATO1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Derivata och förändring",
       "underlag": "Ma3b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och förändring"
   },
   {
     "id": "5.05",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 1,
+    "omr": "forkorta_rationella",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Algebra och samband",
+    "familj": "Förkorta rationella uttryck",
     "formaga": [
       "procedur"
     ],
@@ -108587,19 +108595,21 @@ window.BANKMATO1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Rationella uttryck",
       "underlag": "Ma3b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Algebra och samband"
   },
   {
     "id": "5.06",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "extrempunkter",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Derivata och förändring",
+    "familj": "Bestämma extrempunkter",
     "formaga": [
       "procedur"
     ],
@@ -108621,19 +108631,21 @@ window.BANKMATO1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Derivata och förändring",
       "underlag": "Ma3b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och förändring"
   },
   {
     "id": "5.07",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "integralberakning",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Integraler och area",
+    "familj": "Area med integraler",
     "formaga": [
       "procedur"
     ],
@@ -108655,19 +108667,21 @@ window.BANKMATO1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Integraler och area",
       "underlag": "Ma3b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Integraler och area"
   },
   {
     "id": "5.08",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "primitiva_villkor",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Integraler och area",
+    "familj": "Primitiv funktion genom en given punkt",
     "formaga": [
       "procedur"
     ],
@@ -108689,19 +108703,21 @@ window.BANKMATO1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Integraler och area",
       "underlag": "Ma3b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Integraler och area"
   },
   {
     "id": "5.09",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "exp_tillampningar",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Derivata och förändring",
+    "familj": "Derivata i exponentialmodeller",
     "formaga": [
       "procedur"
     ],
@@ -108724,19 +108740,21 @@ window.BANKMATO1 = [
       "amnesplan": "Derivata och förändring",
       "underlag": "Ma3b/c VT22"
     },
-    "svarEnhet": "mg/h"
+    "svarEnhet": "mg/h",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och förändring"
   },
   {
     "id": "5.10",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "extremvarde_modellering",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Optimering och modeller",
+    "familj": "Stängsel och inhägnader",
     "formaga": [
       "problemlösning"
     ],
@@ -108759,19 +108777,21 @@ window.BANKMATO1 = [
       "amnesplan": "Optimering och modeller",
       "underlag": "Ma3b/c VT22"
     },
-    "svarEnhet": "m²"
+    "svarEnhet": "m²",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Optimering och modeller"
   },
   {
     "id": "5.11",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "primitiva_villkor",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Integraler och area",
+    "familj": "Återskapa funktion från derivata",
     "formaga": [
       "procedur"
     ],
@@ -108793,19 +108813,21 @@ window.BANKMATO1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Integraler och area",
       "underlag": "Ma3b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Integraler och area"
   },
   {
     "id": "5.12",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "integral_tillampningar",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Integraler och area",
+    "familj": "Ackumulerad mängd från förändringshastighet",
     "formaga": [
       "modellering"
     ],
@@ -108828,19 +108850,21 @@ window.BANKMATO1 = [
       "amnesplan": "Integraler och area",
       "underlag": "Ma3b/c VT22"
     },
-    "svarEnhet": "l"
+    "svarEnhet": "l",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Integraler och area"
   },
   {
     "id": "5.13",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "integral_area",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Integraler och area",
+    "familj": "Integral som area under en graf",
     "formaga": [
       "begrepp"
     ],
@@ -108862,18 +108886,20 @@ window.BANKMATO1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Integraler och area",
       "underlag": "Ma3b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Integraler och area"
   },
   {
     "id": "5.14",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "cosinussatsen",
     "kurs": [
       "1c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Trigonometri",
+    "familj": "Använda cosinussatsen",
     "formaga": [
       "procedur"
     ],
@@ -108896,18 +108922,20 @@ window.BANKMATO1 = [
       "amnesplan": "Cosinussatsen",
       "underlag": "Ma3b/c VT22"
     },
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Trigonometri"
   },
   {
     "id": "5.15",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "sinussatsen_tva_fall",
     "kurs": [
       "1c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Trigonometri",
+    "familj": "Antal möjliga trianglar",
     "formaga": [
       "resonemang"
     ],
@@ -108929,18 +108957,20 @@ window.BANKMATO1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Sinussatsen och den tvetydiga situationen",
       "underlag": "Ma3b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Trigonometri"
   },
   {
     "id": "5.16",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "geometriska_summor",
     "kurs": [
       "1b"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Optimering och modeller",
+    "familj": "Geometriska summor i tillämpningar",
     "formaga": [
       "procedur"
     ],
@@ -108963,18 +108993,20 @@ window.BANKMATO1 = [
       "amnesplan": "Geometriska summor",
       "underlag": "Ma3b/c VT22"
     },
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Optimering och modeller"
   },
   {
     "id": "5.17",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "linjar_optimering",
     "kurs": [
       "1b"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Optimering och modeller",
+    "familj": "Grafisk optimering",
     "formaga": [
       "modellering"
     ],
@@ -108997,19 +109029,21 @@ window.BANKMATO1 = [
       "amnesplan": "Linjär optimering",
       "underlag": "Ma3b/c VT22"
     },
-    "svarEnhet": "kr"
+    "svarEnhet": "kr",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Optimering och modeller"
   },
   {
     "id": "5.18",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "derivata_polynom",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Derivata och förändring",
+    "familj": "Parameterproblem med derivata",
     "formaga": [
       "problemlösning"
     ],
@@ -109031,19 +109065,21 @@ window.BANKMATO1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Derivata och förändring",
       "underlag": "Ma3b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och förändring"
   },
   {
     "id": "5.19",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "tangenter",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "A",
     "poang": "0/0/1",
-    "familj": "Derivata och förändring",
+    "familj": "Fördjupade tangentproblem",
     "formaga": [
       "problemlösning"
     ],
@@ -109065,19 +109101,21 @@ window.BANKMATO1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Derivata och förändring",
       "underlag": "Ma3b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och förändring"
   },
   {
     "id": "5.20",
-    "kap": 5,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "extrempunkter",
     "kurs": [
       "1b",
       "1c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Derivata och förändring",
+    "familj": "Extrempunkter med parameter",
     "formaga": [
       "problemlösning"
     ],
@@ -109099,7 +109137,9 @@ window.BANKMATO1 = [
       "omgang": "2026-10-23",
       "amnesplan": "Derivata och förändring",
       "underlag": "Ma3b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och förändring"
   },
 {
   "id": "2.1185",

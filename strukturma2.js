@@ -865,8 +865,3 @@ window.GRUPPMA2 = {
     }
   ]
 };
-
-// Självständiga repetitionsuppgifter, 2026-10-23. Originalprov återges inte.
-window.KAPNAMNMA2["6"] = "Repetera inför Nationella provet";
-window.OMRMA2["6"] = {"np_repetition": "Repetera inför Nationella provet"};
-window.SPARMA2["6"] = {"np_repetition": ["2a", "2b", "2c"]};

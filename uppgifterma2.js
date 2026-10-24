@@ -24803,8 +24803,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
 },
   {
     "id": "6.01",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "enkla_andragradsekvationer",
     "kurs": [
       "2a",
       "2b",
@@ -24812,7 +24812,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Algebra och ekvationer",
+    "familj": "Ekvationer av typen x² = a",
     "formaga": [
       "procedur"
     ],
@@ -24848,12 +24848,14 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "svarEtiketter": [
       "Svar 1",
       "Svar 2"
-    ]
+    ],
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Algebra och ekvationer"
   },
   {
     "id": "6.02",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 1,
+    "omr": "faktorisering",
     "kurs": [
       "2a",
       "2b",
@@ -24861,7 +24863,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Algebra och ekvationer",
+    "familj": "Faktorisera i flera steg",
     "formaga": [
       "procedur"
     ],
@@ -24883,12 +24885,14 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "omgang": "2026-10-23",
       "amnesplan": "Algebra och ekvationer",
       "underlag": "Ma2a/b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Algebra och ekvationer"
   },
   {
     "id": "6.03",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "andragradsfunktion_graf",
     "kurs": [
       "2a",
       "2b",
@@ -24896,7 +24900,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Funktioner och modeller",
+    "familj": "Avläsa egenskaper ur grafen",
     "formaga": [
       "procedur"
     ],
@@ -24918,12 +24922,14 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "omgang": "2026-10-23",
       "amnesplan": "Funktioner och modeller",
       "underlag": "Ma2a/b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Funktioner och modeller"
   },
   {
     "id": "6.04",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 1,
+    "omr": "ekvationssystem_tillampningar",
     "kurs": [
       "2a",
       "2b",
@@ -24931,7 +24937,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Algebra och ekvationer",
+    "familj": "Ställa upp ekvationssystem",
     "formaga": [
       "modellering"
     ],
@@ -24967,12 +24973,14 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "svarEtiketter": [
       "Tvåhjuliga cyklar",
       "Trehjuliga cyklar"
-    ]
+    ],
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Algebra och ekvationer"
   },
   {
     "id": "6.05",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "exponentialekvationer",
     "kurs": [
       "2a",
       "2b",
@@ -24980,7 +24988,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Funktioner och modeller",
+    "familj": "Tillämpade exponentialekvationer",
     "formaga": [
       "procedur"
     ],
@@ -25003,19 +25011,21 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "amnesplan": "Digital lösning av exponentialekvation; 2b/c även logaritmer",
       "underlag": "Ma2a/b/c VT22"
     },
-    "svarEnhet": "år"
+    "svarEnhet": "år",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Funktioner och modeller"
   },
   {
     "id": "6.06",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "logaritmlagar",
     "kurs": [
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Algebra och ekvationer",
+    "familj": "Förenkla med logaritmlagarna",
     "formaga": [
       "procedur"
     ],
@@ -25037,19 +25047,21 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "omgang": "2026-10-23",
       "amnesplan": "Logaritmlagar",
       "underlag": "Ma2a/b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Algebra och ekvationer"
   },
   {
     "id": "6.07",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
     "kurs": [
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Geometri och samband",
+    "familj": "Geometriska grundbegrepp",
     "formaga": [
       "procedur"
     ],
@@ -25072,19 +25084,21 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "amnesplan": "Vinklar i likbent triangel",
       "underlag": "Ma2a/b/c VT22"
     },
-    "svarEnhet": "°"
+    "svarEnhet": "°",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Geometri och samband"
   },
   {
     "id": "6.08",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "likformighet",
     "kurs": [
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Geometri och samband",
+    "familj": "Indirekt mätning",
     "formaga": [
       "procedur"
     ],
@@ -25107,12 +25121,14 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "amnesplan": "Likformighet",
       "underlag": "Ma2a/b/c VT22"
     },
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Geometri och samband"
   },
   {
     "id": "6.09",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "standardavvikelse",
     "kurs": [
       "2a",
       "2b",
@@ -25120,7 +25136,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Statistik och tolkning",
+    "familj": "Beräkna och tolka standardavvikelse",
     "formaga": [
       "procedur"
     ],
@@ -25143,12 +25159,14 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "amnesplan": "Digital beräkning av standardavvikelse Sx",
       "underlag": "Ma2a/b/c VT22"
     },
-    "svarEnhet": "min"
+    "svarEnhet": "min",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Statistik och tolkning"
   },
   {
     "id": "6.10",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "normalfordelat_material",
     "kurs": [
       "2a",
       "2b",
@@ -25156,7 +25174,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Statistik och tolkning",
+    "familj": "Andel i ett intervall",
     "formaga": [
       "procedur"
     ],
@@ -25179,12 +25197,14 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "amnesplan": "Normalfördelning med given standardavvikelse",
       "underlag": "Ma2a/b/c VT22"
     },
-    "svarEnhet": "%"
+    "svarEnhet": "%",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Statistik och tolkning"
   },
   {
     "id": "6.11",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "ladagram",
     "kurs": [
       "2a",
       "2b",
@@ -25192,7 +25212,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Statistik och tolkning",
+    "familj": "Avläsa lådagram",
     "formaga": [
       "procedur"
     ],
@@ -25215,12 +25235,14 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "amnesplan": "Kvartiler och spridningsmått",
       "underlag": "Ma2a/b/c VT22"
     },
-    "svarEnhet": "dagar"
+    "svarEnhet": "dagar",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Statistik och tolkning"
   },
   {
     "id": "6.12",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "andragradsfunktioner_tillampningar",
     "kurs": [
       "2a",
       "2b",
@@ -25228,7 +25250,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Funktioner och modeller",
+    "familj": "Optimering",
     "formaga": [
       "problemlösning"
     ],
@@ -25251,18 +25273,20 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "amnesplan": "Funktioner och modeller",
       "underlag": "Ma2a/b/c VT22"
     },
-    "svarEnhet": "cm"
+    "svarEnhet": "cm",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Funktioner och modeller"
   },
   {
     "id": "6.13",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "rotekvationer",
     "kurs": [
       "2c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Algebra och ekvationer",
+    "familj": "Falska rötter och kontroll",
     "formaga": [
       "procedur"
     ],
@@ -25284,12 +25308,14 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "omgang": "2026-10-23",
       "amnesplan": "Rotekvationer och extralösningar",
       "underlag": "Ma2a/b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Algebra och ekvationer"
   },
   {
     "id": "6.14",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "mer_om_andragradsekvationer",
     "kurs": [
       "2a",
       "2b",
@@ -25297,7 +25323,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Algebra och ekvationer",
+    "familj": "Parametrar och villkor på rötterna",
     "formaga": [
       "begrepp"
     ],
@@ -25319,19 +25345,21 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "omgang": "2026-10-23",
       "amnesplan": "Algebra och ekvationer",
       "underlag": "Ma2a/b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Algebra och ekvationer"
   },
   {
     "id": "6.15",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "avstandsformeln_mittpunktsformeln",
     "kurs": [
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Geometri och samband",
+    "familj": "Mittpunktsformeln",
     "formaga": [
       "procedur"
     ],
@@ -25367,12 +25395,14 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "svarEtiketter": [
       "B:s x-koordinat",
       "B:s y-koordinat"
-    ]
+    ],
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Geometri och samband"
   },
   {
     "id": "6.16",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "andragradsfunktioner",
     "kurs": [
       "2a",
       "2b",
@@ -25380,7 +25410,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Funktioner och modeller",
+    "familj": "Bestämma andragradsfunktion från nollställen",
     "formaga": [
       "problemlösning"
     ],
@@ -25402,19 +25432,21 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "omgang": "2026-10-23",
       "amnesplan": "Funktioner och modeller",
       "underlag": "Ma2a/b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Funktioner och modeller"
   },
   {
     "id": "6.17",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "linjar_regression",
     "kurs": [
       "2b",
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Statistik och tolkning",
+    "familj": "Bestämma och använda regressionsmodellen",
     "formaga": [
       "procedur"
     ],
@@ -25436,12 +25468,14 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "omgang": "2026-10-23",
       "amnesplan": "Digital linjär regression",
       "underlag": "Ma2a/b/c VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Statistik och tolkning"
   },
   {
     "id": "6.18",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "lagesmatt",
     "kurs": [
       "2a",
       "2b",
@@ -25449,7 +25483,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Statistik och tolkning",
+    "familj": "Förändring av lägesmått",
     "formaga": [
       "begrepp"
     ],
@@ -25489,12 +25523,14 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
         "txt": "Båda måtten är oförändrade.",
         "ratt": false
       }
-    ]
+    ],
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Statistik och tolkning"
   },
   {
     "id": "6.19",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "andragradsekvationer_tillampningar",
     "kurs": [
       "2a",
       "2b",
@@ -25502,7 +25538,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Geometri och samband",
+    "familj": "Andragradsekvationer i geometri",
     "formaga": [
       "problemlösning"
     ],
@@ -25525,12 +25561,14 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "amnesplan": "Geometri och samband",
       "underlag": "Ma2a/b/c VT22"
     },
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Geometri och samband"
   },
   {
     "id": "6.20",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "mer_om_andragradsekvationer",
     "kurs": [
       "2a",
       "2b",
@@ -25538,7 +25576,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     ],
     "niva": "A",
     "poang": "0/0/1",
-    "familj": "Funktioner och modeller",
+    "familj": "Antal lösningar och tillämpningar med grafer",
     "formaga": [
       "problemlösning"
     ],
@@ -25574,6 +25612,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "svarEtiketter": [
       "Svar 1",
       "Svar 2"
-    ]
+    ],
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Funktioner och modeller"
   }
 ];

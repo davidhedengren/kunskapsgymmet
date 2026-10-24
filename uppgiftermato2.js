@@ -101577,14 +101577,14 @@ window.BANKMATO2 = [
 },
   {
     "id": "6.01",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "derivata_sammansatta",
     "kurs": [
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Derivata och funktioner",
+    "familj": "Kedjeregeln för trigonometriska och exponentiella funktioner",
     "formaga": [
       "procedur"
     ],
@@ -101606,18 +101606,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Derivata och funktioner",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och funktioner"
   },
   {
     "id": "6.02",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "kurvor_radianer",
     "kurs": [
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Trigonometri och modeller",
+    "familj": "Amplitud, period och medellinje för trigonometriska funktioner",
     "formaga": [
       "procedur"
     ],
@@ -101640,18 +101642,20 @@ window.BANKMATO2 = [
       "amnesplan": "Trigonometri och modeller",
       "underlag": "Ma4 VT22"
     },
-    "svarEnhet": "rad"
+    "svarEnhet": "rad",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Trigonometri och modeller"
   },
   {
     "id": "6.03",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 5,
+    "omr": "konjugat_raknesatt",
     "kurs": [
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Komplexa tal och algebra",
+    "familj": "Konjugat och absolutbelopp av komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -101673,18 +101677,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Komplexa tal och algebra",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Komplexa tal och algebra"
   },
   {
     "id": "6.04",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "produktregeln",
     "kurs": [
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Derivata och funktioner",
+    "familj": "Derivering med produktregeln",
     "formaga": [
       "procedur"
     ],
@@ -101706,18 +101712,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Derivata och funktioner",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och funktioner"
   },
   {
     "id": "6.05",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "kvotregeln",
     "kurs": [
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Derivata och funktioner",
+    "familj": "Derivering med kvotregeln",
     "formaga": [
       "procedur"
     ],
@@ -101739,18 +101747,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Derivata och funktioner",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och funktioner"
   },
   {
     "id": "6.06",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "exp_log_derivata",
     "kurs": [
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Derivata och funktioner",
+    "familj": "Kedjeregeln med logaritmfunktioner",
     "formaga": [
       "procedur"
     ],
@@ -101772,18 +101782,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Derivata och funktioner",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och funktioner"
   },
   {
     "id": "6.07",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "kurvor_radianer",
     "kurs": [
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Trigonometri och modeller",
+    "familj": "Trigonometriska ekvationer i radianer",
     "formaga": [
       "procedur"
     ],
@@ -101820,18 +101832,20 @@ window.BANKMATO2 = [
     "svarEtiketter": [
       "Svar 1",
       "Svar 2"
-    ]
+    ],
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Trigonometri och modeller"
   },
   {
     "id": "6.08",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "integraler_primitiva",
     "kurs": [
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Integraler och tillämpningar",
+    "familj": "Bestämda integraler med trigonometriska funktioner",
     "formaga": [
       "procedur"
     ],
@@ -101853,18 +101867,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Integraler och tillämpningar",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Integraler och tillämpningar"
   },
   {
     "id": "6.09",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "skivmetoden",
     "kurs": [
       "2c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Integraler och tillämpningar",
+    "familj": "Rotationsvolymer",
     "formaga": [
       "modellering"
     ],
@@ -101886,18 +101902,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Integraler och tillämpningar",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Integraler och tillämpningar"
   },
   {
     "id": "6.10",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "sannolikhetsfordelning",
     "kurs": [
       "2c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Integraler och tillämpningar",
+    "familj": "Normalisera täthetsfunktion och bestäm parameter",
     "formaga": [
       "begrepp"
     ],
@@ -101919,18 +101937,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Integraler och tillämpningar",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Integraler och tillämpningar"
   },
   {
     "id": "6.11",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 5,
+    "omr": "konjugat_raknesatt",
     "kurs": [
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Komplexa tal och algebra",
+    "familj": "Division av komplexa tal",
     "formaga": [
       "procedur"
     ],
@@ -101952,18 +101972,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Komplexa tal och algebra",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Komplexa tal och algebra"
   },
   {
     "id": "6.12",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 5,
+    "omr": "faktorsatsen",
     "kurs": [
       "2c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Komplexa tal och algebra",
+    "familj": "Faktorsatsen och faktorisering",
     "formaga": [
       "procedur"
     ],
@@ -101985,18 +102007,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Komplexa tal och algebra",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Komplexa tal och algebra"
   },
   {
     "id": "6.13",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "kurvor_asymptoter",
     "kurs": [
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Derivata och funktioner",
+    "familj": "Asymptoter för rationella funktioner",
     "formaga": [
       "procedur"
     ],
@@ -102018,18 +102042,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Derivata och funktioner",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och funktioner"
   },
   {
     "id": "6.14",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "trig_problemlosning_2",
     "kurs": [
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Trigonometri och modeller",
+    "familj": "Tolka och bestämma trigonometriska modeller",
     "formaga": [
       "procedur"
     ],
@@ -102052,18 +102078,20 @@ window.BANKMATO2 = [
       "amnesplan": "Trigonometri och modeller",
       "underlag": "Ma4 VT22"
     },
-    "svarEnhet": "m"
+    "svarEnhet": "m",
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Trigonometri och modeller"
   },
   {
     "id": "6.15",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 3,
+    "omr": "grafer_derivator",
     "kurs": [
       "2c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Derivata och funktioner",
+    "familj": "Extrempunkter, terrasspunkter och inflexion",
     "formaga": [
       "problemlösning"
     ],
@@ -102085,18 +102113,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Derivata och funktioner",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och funktioner"
   },
   {
     "id": "6.16",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "derivata_sammansatta",
     "kurs": [
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Derivata och funktioner",
+    "familj": "Derivering med kedjeregeln",
     "formaga": [
       "procedur"
     ],
@@ -102118,18 +102148,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Derivata och funktioner",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Derivata och funktioner"
   },
   {
     "id": "6.17",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 5,
+    "omr": "andragradsekv_komplexa",
     "kurs": [
       "2c"
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "familj": "Komplexa tal och algebra",
+    "familj": "Andragradsekvationer med komplexa lösningar",
     "formaga": [
       "procedur"
     ],
@@ -102165,18 +102197,20 @@ window.BANKMATO2 = [
     "svarEtiketter": [
       "Svar 1",
       "Svar 2"
-    ]
+    ],
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Komplexa tal och algebra"
   },
   {
     "id": "6.18",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "integraler_areor",
     "kurs": [
       "2c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Integraler och tillämpningar",
+    "familj": "Parameterproblem med area och integral",
     "formaga": [
       "procedur"
     ],
@@ -102198,18 +102232,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Integraler och tillämpningar",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Integraler och tillämpningar"
   },
   {
     "id": "6.19",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 4,
+    "omr": "integraler_primitiva",
     "kurs": [
       "2c"
     ],
     "niva": "C",
     "poang": "0/1/0",
-    "familj": "Integraler och tillämpningar",
+    "familj": "Bestämda integraler med trigonometriska funktioner",
     "formaga": [
       "problemlösning"
     ],
@@ -102231,18 +102267,20 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Integraler och tillämpningar",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Integraler och tillämpningar"
   },
   {
     "id": "6.20",
-    "kap": 6,
-    "omr": "np_repetition",
+    "kap": 2,
+    "omr": "asinx_bcosx",
     "kurs": [
       "2c"
     ],
     "niva": "A",
     "poang": "0/0/1",
-    "familj": "Trigonometri och modeller",
+    "familj": "Skriva om kombinationer av sinus och cosinus",
     "formaga": [
       "problemlösning"
     ],
@@ -102264,6 +102302,8 @@ window.BANKMATO2 = [
       "omgang": "2026-10-23",
       "amnesplan": "Trigonometri och modeller",
       "underlag": "Ma4 VT22"
-    }
+    },
+    "omrTidigare": "np_repetition",
+    "familjTidigare": "Trigonometri och modeller"
   }
 ];

@@ -229,8 +229,3 @@ window.GRUPPMATO2 = {
 
 /* Visa kursens pedagogiska underområden som egna träningskort. */
 window.GRUPPMATO2 = {};
-
-// Självständiga repetitionsuppgifter, 2026-10-23. Originalprov återges inte.
-window.KAPNAMNMATO2["6"] = "Repetera inför Nationella provet";
-window.OMRMATO2["6"] = {"np_repetition": "Repetera inför Nationella provet"};
-window.SPARMATO2["6"] = {"np_repetition": ["2c"]};

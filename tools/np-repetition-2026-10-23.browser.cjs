@@ -2,7 +2,7 @@
 const {chromium}=require('playwright'),fs=require('fs'),vm=require('vm'),path=require('path'),assert=require('node:assert/strict');
 const root=path.join(__dirname,'..'),out=process.env.REVIEW_OUT||'/tmp/np-repetition';fs.mkdirSync(out,{recursive:true});
 const courses=['ma1','ma2','mato1','mato2'];
-const groups=courses.map(course=>{let c={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'uppgifter'+course+'.js'),'utf8'),c);return {course,tasks:JSON.parse(JSON.stringify(c.window['BANK'+course.toUpperCase()].filter(q=>q.omr==='np_repetition')))};});
+const groups=courses.map(course=>{let c={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'uppgifter'+course+'.js'),'utf8'),c);return {course,tasks:JSON.parse(JSON.stringify(c.window['BANK'+course.toUpperCase()].filter(q=>q.repetition?.omgang==='2026-10-23')))};});
 const special={
  'ma1:8.03':[['5x-18','-18+5*x'],['5x-6']],
  'ma1:8.20':[['4n+4','4*(n+1)'],['4n','n^2+4']],
@@ -28,10 +28,23 @@ const special={
  for(const g of groups){
   assert.equal(g.tasks.length,20);await page.evaluate(c=>selectCourse(c),g.course);
   for(const track of [...new Set(g.tasks.flatMap(q=>q.kurs))]){
-   const info=await page.evaluate(track=>{setTrack(track);const cards=getCards();return {last:cards.at(-1)?.key,chapter:chapterName(cards.at(-1)?.kap),ids:availableTasks().filter(q=>q.omr==='np_repetition').map(q=>q.id)};},track);
+   const info=await page.evaluate(track=>{setTrack(track);const cards=getCards();const tasks=availableTasks().filter(q=>q.repetition?.omgang==='2026-10-23');return {oldCard:cards.some(c=>c.key==='np_repetition'),oldText:document.querySelector('#dashboard')?.textContent.includes('Repetera inför Nationella provet')||false,unplaced:tasks.filter(q=>!cards.some(c=>c.kap===q.kap&&c.omr.includes(q.omr))).map(q=>q.id),ids:tasks.map(q=>q.id)};},track);
    const expected=g.tasks.filter(q=>q.kurs.includes(track)).map(q=>q.id).sort();
-   assert.equal(info.last,'np_repetition');assert.equal(info.chapter,'Repetera inför Nationella provet');assert.deepEqual(info.ids.sort(),expected);structure.push({course:g.course,track,...info});
+   assert.equal(info.oldCard,false);assert.equal(info.oldText,false);assert.deepEqual(info.unplaced,[]);assert.deepEqual(info.ids.sort(),expected);structure.push({course:g.course,track,...info});
   }
+  const migrated=await page.evaluate(tasks=>{
+   const cp=ensureCourseProfile(),save=saveProfile;saveProfile=()=>{};
+   const previous=JSON.parse(JSON.stringify(cp));
+   try{
+    cp.history=tasks.map(q=>({id:q.id,area:'np_repetition',family:q.familjTidigare,ok:true,at:123}));
+    cp.areas.np_repetition=42;
+    migreraFamiljer();
+    const once=JSON.stringify(cp);migreraFamiljer();
+    return {history:cp.history.map(h=>({id:h.id,area:h.area,family:h.family,ok:h.ok,at:h.at})),oldArea:'np_repetition' in cp.areas,idempotent:once===JSON.stringify(cp)};
+   }finally{Object.keys(cp).forEach(k=>delete cp[k]);Object.assign(cp,previous);saveProfile=save;}
+  },g.tasks);
+  assert.equal(migrated.oldArea,false);assert.equal(migrated.idempotent,true);
+  assert.deepEqual(migrated.history,g.tasks.map(q=>({id:q.id,area:q.omr,family:q.familj,ok:true,at:123})));
   await page.evaluate(tasks=>{window.reviewBank=tasks;session=null;syncOwner=null;arLarare=false;finishAttempt=r=>{state.answered=true;window.result=r;};window.prepareReview=id=>{state.currentTask=expandGameTask(reviewBank.find(q=>q.id===id))[0];state.answered=false;state.solutionShown=false;state.partIndex=0;state.partResults=[];state.aktivRuta=0;state.altValda=new Set();state.altOrdningId=null;window.result=null;renderTraining();hjalpSynk();};},g.tasks);
   for(const width of [390,1280]){await page.setViewportSize({width,height:1000});for(const q of g.tasks){const key=g.course+':'+q.id;if(process.env.NP_ONLY&&!new RegExp(process.env.NP_ONLY).test(key))continue;
    if(q.alternativ){

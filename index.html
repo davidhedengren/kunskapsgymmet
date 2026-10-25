@@ -4069,7 +4069,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-25-ma2-satsbevis-utan-tvingade-figurer";
+const BANK_VERSION="2026-10-25-ma3-kvalitet";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -10152,9 +10152,9 @@ function hogerled(x){
   const s=stadaSvar(x).replace(/^≈\s*/,"");
   // Funktionsvärden får ha negativa argument, exempelvis f′(−2)=12.
   // Tillåt inte ett godtyckligt ekvationsled som x-2=12.
-  const funktion=s.match(/^[A-Za-zåäöÅÄÖ]\w*['′″]*\(\s*[+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+)\s*\)\s*[=≈]\s*([^=≈]+)$/);
+  const funktion=s.match(/^[A-Za-zåäöÅÄÖ]\w*['′″’]*\(\s*[+-]?(?:\d+(?:[.,]\d+)?|[.,]\d+)\s*\)\s*[=≈]\s*([^=≈]+)$/);
   if(funktion)return funktion[1].trim();
-  const m=s.match(/^[A-Za-zåäöÅÄÖ][\w()',.\s]*[=≈]\s*(.+)$/);
+  const m=s.match(/^[A-Za-zåäöÅÄÖ][\w()'′″’,.\s]*[=≈]\s*(.+)$/);
   return m?m[1].trim():s;
 }
 

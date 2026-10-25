@@ -33057,7 +33057,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>Två funktioner \\(F\\) och \\(G\\) är båda primitiva funktioner på samma intervall till samma funktion \\(f\\). Visa att skillnaden \\(F(x)-G(x)\\) måste vara konstant.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom båda är primitiva funktioner gäller</p><p>\\[F^{\\prime}(x)=f(x)\\quad\\text{och}\\quad G^{\\prime}(x)=f(x).\\]</p></li><li><p>Derivera skillnaden:</p><p>\\[(F-G)^{\\prime}(x)=F^{\\prime}(x)-G^{\\prime}(x)=f(x)-f(x)=0.\\]</p></li><li><p>En funktion som har derivatan 0 överallt på ett intervall är konstant där.</p></li><li><div class=\"facit-berakning\"><p>Alltså är</p><div class=\"facit-matte\">\\[F(x)-G(x)=C\\].</div></div></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda funktionerna har samma derivata f. Derivatan av skillnaden blir därför</p><div class=\"facit-matte\">\\[(F-G)^{\\prime}=F^{\\prime}-G^{\\prime}\\]</div><div class=\"facit-matte\">\\[=f-f=0\\]</div></li><li><p>En funktion med derivatan 0 överallt på ett intervall är konstant där.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)-G(x)=C\\) på intervallet.</strong></p></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -33070,7 +33070,7 @@ window.BANKMATO1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Derivera skillnaden \\(F-G\\). Vad vet du om en funktion vars derivata är noll överallt på ett intervall?</p>",
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "spel": false,
     "omrTidigare": [
@@ -37290,8 +37290,8 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Två funktioner \\(F\\) och \\(G\\) är båda primitiva funktioner till samma funktion \\(f\\). Vad kan du säga om \\(F-G\\)? Motivera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Derivatan av skillnaden är</p><div class=\"facit-matte\">\\[(F-G)^{\\prime}=F^{\\prime}-G^{\\prime}=f-f=0\\].</div></div></li><li><p>En funktion med derivata 0 på ett intervall är konstant.</p></li><li><p>Alltså skiljer sig \\(F\\) och \\(G\\) endast med en konstant.</p></li></ol></div></div>",
+    "t": "<p>Två funktioner F och G är båda primitiva funktioner på samma intervall till samma funktion f. Vad kan du säga om F−G? Motivera.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda funktionerna har samma derivata f. Derivatan av skillnaden blir därför</p><div class=\"facit-matte\">\\[(F-G)^{\\prime}=F^{\\prime}-G^{\\prime}\\]</div><div class=\"facit-matte\">\\[=f-f=0\\]</div></li><li><p>En funktion med derivatan 0 överallt på ett intervall är konstant där.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)-G(x)=C\\) på intervallet.</strong></p></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -37427,8 +37427,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "1/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>Bestäm \\(a\\) så att \\(F(x)=ax^3+2x\\) är en primitiv funktion till \\(f(x)=6x^2+2\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[F^{\\prime}(x)=3ax^2+2.\\] Jämför med \\(6x^2+2\\): \\(3a=6\\), alltså \\(a=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2\\)</strong></p></div>",
     "familj": "Bestämma primitiva funktioner",
@@ -37443,8 +37443,8 @@ window.BANKMATO1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>En primitiv funktion ska ge tillbaka den ursprungliga funktionen när den deriveras. Öka därför exponenten med ett och dividera med den nya exponenten. Glöm inte +C när alla primitiva funktioner efterfrågas; ett extra villkor används sedan för att bestämma C.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Derivera F och jämför koefficienten framför x² med motsvarande koefficient i f.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": [
@@ -37839,8 +37839,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "C",
-    "poang": "0/2/0",
+    "niva": "E",
+    "poang": "2/0/0",
     "t": "<p>För en primitiv funktion \\(F\\) till \\(f(x)=x^2-a\\) ska grafen till \\(F\\) ha horisontell tangent vid \\(x=-3\\) och \\(x=3\\). Bestäm \\(a\\).</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen till \\(F\\) har horisontell tangent där \\(F^{\\prime}=f=0\\).</p></li><li><p>Kravet är \\(9-a=0\\), alltså \\(a=9\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(9\\)</strong></p></div>",
     "familj": "Bestämma primitiva funktioner",
@@ -37855,8 +37855,8 @@ window.BANKMATO1 = [
       "begrepp"
     ],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>En primitiv funktion ska ge tillbaka den ursprungliga funktionen när den deriveras. Öka därför exponenten med ett och dividera med den nya exponenten. Glöm inte +C när alla primitiva funktioner efterfrågas; ett extra villkor används sedan för att bestämma C.</p>",
-    "traningsniva": 4,
+    "ledtrad": "<p>Vilket värde ska F′ ha vid en horisontell tangent? Använd att F′ = f.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
     "omrTidigare": [
@@ -37984,7 +37984,7 @@ window.BANKMATO1 = [
     "niva": "C",
     "poang": "0/2/0",
     "t": "<p>En graf till en primitiv funktion \\(F\\) är växande för \\(x&lt;-1\\), avtagande för \\(-1&lt;x&lt;2\\) och växande för \\(x&gt;2\\). Beskriv tecknet på \\(f=F^{\\prime}\\) och karaktären hos \\(F\\) vid \\(x=-1,2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom \\(f=F^{\\prime}\\) är \\(f&gt;0\\) där \\(F\\) växer och \\(f&lt;0\\) där \\(F\\) avtar.</p></li><li><p>Alltså byter \\(f\\) tecken från + till - vid \\(x=-1\\), vilket ger en maximipunkt hos \\(F\\), och från - till + vid \\(x=2\\), vilket ger en minimipunkt.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom F är deriverbar gäller f = F′ ≥ 0 där F växer och f = F′ ≤ 0 där F avtar.</p></li><li><p>Alltså är f ≥ 0 för x < −1 och x > 2, och f ≤ 0 för −1 < x < 2. En växande funktion kan ha enstaka vågräta tangenter; därför kan vi inte utesluta f = 0 inne i intervallen.</p></li><li><p>F går från att växa till att avta vid x = −1, så där finns ett lokalt maximum. Vid x = 2 går F från att avta till att växa och har ett lokalt minimum. Vid båda extrempunkterna är f = 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: F har lokalt maximum vid x = −1 och lokalt minimum vid x = 2. Derivatans tecken anges med ≥ respektive ≤ i intervallen.</strong></p></div>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -41034,7 +41034,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm en primitiv funktion till</p><p>\\[f(x)=16x^3+2x.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrera termvis:</p><p>\\[\\int16x^3dx=4x^4,\\qquad\\int2x\\,dx=x^2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> exempelvis \\(\\boxed{F(x)=4x^4+x^2}\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Integrera de två termerna var för sig.</p><div class=\"facit-matte\">\\[\\int16x^3\\,dx=4x^4\\]</div><div class=\"facit-matte\">\\[\\int2x\\,dx=x^2\\]</div></li><li><p>En primitiv funktion räcker. Vi kan därför välja konstanten till 0. Kontroll: derivatan av 4x⁴+x² är 16x³+2x.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=4x^4+x^2\\) är ett exempel.</strong></p></div>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -41047,8 +41047,8 @@ window.BANKMATO1 = [
       "begrepp"
     ],
     "svarFormat": "primitiv",
-    "ledtrad": "<p>Viktigt steg: Kontrollen är enkel men viktig: derivera ditt F(x). Om du får tillbaka f(x) är den primitiva delen korrekt. Därefter avgör uppgiften om konstanten C ska lämnas fri eller bestämmas med ett villkor.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Öka exponenten med ett och dividera med den nya exponenten i varje term.</p>",
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": [
@@ -43621,8 +43621,8 @@ window.BANKMATO1 = [
     ],
     "niva": "C",
     "poang": "0/2/0",
-    "t": "<p>Två funktioner ges av</p><p>\\[F_1(x)=x^3-3x+2,\\qquad F_2(x)=x^3-3x-5.\\]</p><p>Förklara varför de är primitiva funktioner till samma funktion \\(f\\), och bestäm det lodräta avståndet mellan deras grafer.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatorna är</p><p>\\[F_1^{\\prime}(x)=3x^2-3,\\qquad F_2^{\\prime}(x)=3x^2-3.\\]</p></li><li><div class=\"facit-berakning\"><p>Alltså är båda primitiva funktioner till</p><div class=\"facit-matte\">\\[f(x)=3x^2-3\\].</div></div></li><li><p>Dessutom</p><p>\\[F_1(x)-F_2(x)=7\\]</p></li><li><p>för alla \\(x\\).</p></li><li><p>Graferna ligger därför hela tiden 7 enheter från varandra i höjdled.</p></li></ol></div>",
+    "t": "<p>Två funktioner ges av</p><div class=\"facit-matte\">\\[F_1(x)=x^3-3x+2\\]</div><div class=\"facit-matte\">\\[F_2(x)=x^3-3x-5\\]</div><p>Förklara varför de är primitiva funktioner till samma funktion f, och bestäm det lodräta avståndet mellan deras grafer.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera funktionerna var för sig.</p><div class=\"facit-matte\">\\[F_1^{\\prime}(x)=3x^2-3\\]</div><div class=\"facit-matte\">\\[F_2^{\\prime}(x)=3x^2-3\\]</div></li><li><p>De har samma derivata och är därför primitiva funktioner till f(x) = 3x²−3.</p></li><li><p>Termerna x³−3x är lika. Skillnaden är därför bara skillnaden mellan konstanterna.</p><div class=\"facit-matte\">\\[F_1(x)-F_2(x)=2-(-5)=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: Graferna ligger 7 enheter från varandra i höjdled.</strong></p></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -51053,7 +51053,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Vilken av följande funktioner är en primitiv funktion till \\(f(x)=6x^2-4x+3\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera alternativen.</p></li><li><p>För \\(2x^3-2x^2+3x\\) gäller</p><p>\\[(2x^3-2x^2+3x)' = 6x^2-4x+3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x^3-2x^2+3x\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera förslaget F(x) = 2x³−2x²+3x term för term.</p><div class=\"facit-matte\">\\[F^{\\prime}(x)=6x^2-4x+3\\]</div></li><li><p>Det är samma funktion som f. Därför är F en primitiv funktion till f.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=2x^3-2x^2+3x\\).</strong></p></div>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -51066,7 +51066,7 @@ window.BANKMATO1 = [
       "begrepp"
     ],
     "ledtrad": "<p>En funktion \\(F\\) är primitiv till \\(f\\) om \\(F'(x)=f(x)\\). Testa alternativen genom att derivera.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": [
@@ -51075,7 +51075,24 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Identifiera primitiv funktion"
     ],
-    "alternativ": [{"txt": "\\(2x^3-2x^2+3x\\)", "ratt": true}, {"txt": "\\(3x^2-4x+3\\)", "ratt": false}, {"txt": "\\(2x^3-4x^2+3\\)", "ratt": false}, {"txt": "\\(6x^3-2x^2+3x\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(2x^3-2x^2+3x\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(3x^2-4x+3\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(2x^3-4x^2+3\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(6x^3-2x^2+3x\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.552",
@@ -53439,7 +53456,7 @@ window.BANKMATO1 = [
       "resonemang"
     ],
     "ledtrad": "<p>Derivera elevens \\(F(x)\\) och jämför term för term med \\(f(x)\\).</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "omrTidigare": [
@@ -53448,7 +53465,24 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Upptäcka fel i primitiva funktioner"
     ],
-    "alternativ": [{"txt": "Termen \\(-x^2\\) i \\(f\\) kräver en term \\(-x^2/2\\) i \\(F\\).", "ratt": false}, {"txt": "Termen \\(+1\\) i \\(f\\) kräver en term \\(+x\\) i \\(F\\).", "ratt": true}, {"txt": "Termen \\(2x^5\\) i \\(f\\) kräver en term \\(2x^5/5\\) i \\(F\\).", "ratt": false}, {"txt": "Konstanten \\(C\\) måste väljas till 1 för att ge konstanttermen i \\(f\\).", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "Termen \\(-x^2\\) i \\(f\\) kräver en term \\(-x^2/2\\) i \\(F\\).",
+        "ratt": false
+      },
+      {
+        "txt": "Termen \\(+1\\) i \\(f\\) kräver en term \\(+x\\) i \\(F\\).",
+        "ratt": true
+      },
+      {
+        "txt": "Termen \\(2x^5\\) i \\(f\\) kräver en term \\(2x^5/5\\) i \\(F\\).",
+        "ratt": false
+      },
+      {
+        "txt": "Konstanten \\(C\\) måste väljas till 1 för att ge konstanttermen i \\(f\\).",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.618",
@@ -55655,7 +55689,7 @@ window.BANKMATO1 = [
       "begrepp"
     ],
     "ledtrad": "<p>Derivera alternativen och se vilket som ger x³−2x.</p>",
-    "traningsniva": 1,
+    "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
     "kalla": "NP Ma3c vt 2022, uppgift 1",
@@ -55665,7 +55699,24 @@ window.BANKMATO1 = [
     "familjTidigare": [
       "Identifiera primitiv funktion"
     ],
-    "alternativ": [{"txt": "\\(3x^2-2\\)", "ratt": false}, {"txt": "\\(x^4/4-4x\\)", "ratt": false}, {"txt": "\\(x^4/4-x^2\\)", "ratt": true}, {"txt": "\\(x^4-2x^2\\)", "ratt": false}]
+    "alternativ": [
+      {
+        "txt": "\\(3x^2-2\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x^4/4-4x\\)",
+        "ratt": false
+      },
+      {
+        "txt": "\\(x^4/4-x^2\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(x^4-2x^2\\)",
+        "ratt": false
+      }
+    ]
   },
   {
     "id": "3.728",
@@ -68188,7 +68239,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "2/0/0",
     "t": "<p>Bestäm \\(f'(x)\\) då \\(f(x)=ax^2-\\frac{4}{x}\\), där \\(a\\) är en konstant.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Skriv</p><div class=\"facit-matte\">\\[-4/x=-4x^{-1}\\].</div></div><p>\\[f'(x)=2ax+4x^{-2}=2ax+\\frac4{x^2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2ax+\\dfrac{4}{x^2}\\)</strong></p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv bråket som en negativ potens.</p><div class=\"facit-matte\">\\[f(x)=ax^2-4x^{-1}\\]</div></li><li><p>a är en konstant. Derivera termerna var för sig.</p><div class=\"facit-matte\">\\[f^{\\prime}(x)=2ax+4x^{-2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(f^{\\prime}(x)=2ax+\\frac4{x^2}\\).</strong></p></div>",
     "familj": "Negativa exponenter",
     "geogebra": false,
     "miniräknare": true,
@@ -79141,19 +79192,19 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=\\sqrt{x}=x^{1/2}\\). Bestäm \\(f'(4)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Potensregeln ger</p><div class=\"facit-matte\">\\[f'(x)=\\frac12x^{-1/2}=\\frac{1}{2\\sqrt{x}}\\].</div></div></li><li><div class=\"facit-berakning\"><p>Därför är</p><div class=\"facit-matte\">\\[f'(4)=\\frac14=0{,}25\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,25.</p></div>",
+    "t": "<p>Funktionen är \\(f(x)=\\sqrt{x}\\). Vid vilket x-värde är tangentens lutning \\(\\frac16\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan anger tangentens lutning.</p><div class=\"facit-matte\">\\[f^{\\prime}(x)=\\frac1{2\\sqrt x}\\]</div></li><li><p>Sätt derivatan lika med den efterfrågade lutningen.</p><div class=\"facit-matte\">\\[\\frac1{2\\sqrt x}=\\frac16\\]</div></li><li><p>Då är 2√x = 6, alltså √x = 3 och x = 9.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=9\\).</strong></p></div>",
     "familj": "Rötter och bråkexponenter",
     "geogebra": false,
-    "miniräknare": false,
+    "miniräknare": true,
     "svarstyp": "numeriskt",
-    "rättSvar": 0.25,
-    "tolerans": 0.001,
+    "rättSvar": 9,
+    "tolerans": null,
     "självrättning": true,
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Skriv först roten som en potens och använd sedan potensregeln.</p>",
+    "ledtrad": "<p>Här är lutningen känd och x okänt. Ställ upp en ekvation med derivatan.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -79375,7 +79426,7 @@ window.BANKMATO1 = [
     "niva": "E",
     "poang": "1/0/0",
     "t": "<p>Funktionerna \\(F(x)=x^2+3\\) och \\(G(x)=x^2-5\\) är båda primitiva funktioner till samma funktion. Bestäm \\(F(x)-G(x)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skillnaden mellan två primitiva funktioner till samma funktion är konstant.</p></li><li><div class=\"facit-berakning\"><p>Här är</p><div class=\"facit-matte\">\\[F(x)-G(x)=(x^2+3)-(x^2-5)=8\\].</div></div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>F och G har samma x²-term. När vi beräknar F−G tar dessa termer ut varandra.</p><div class=\"facit-matte\">\\[(x^2+3)-(x^2-5)=3+5=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: Skillnaden F(x)−G(x) är alltid 8.</strong></p></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -83892,8 +83943,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=e^x\\) och \\(F(0)=4\\). Bestäm \\(F(1)\\) med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=e^x+C\\].</div></li><li><p>\\(F(0)=1+C=4\\) ger \\(C=3\\).</p><div class=\"facit-matte\">\\[F(1)=e+3\\approx5{,}72\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,72</p></div>",
+    "t": "<p>F är en primitiv funktion till \\(f(x)=e^x\\). Hur mycket större är F(1) än F(0)? Svara med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla primitiva funktioner har formen F(x) = eˣ+C. Vid x = 1 är värdet e+C och vid x = 0 är det 1+C. När värdena subtraheras försvinner konstanten.</p><div class=\"facit-matte\">\\[(e+C)-(1+C)=e-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(1)-F(0)\\approx1{,}72\\).</strong></p></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -83901,7 +83952,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>\\(e^x\\) är sin egen primitiva funktion.</p>",
+    "ledtrad": "<p>Skriv de två funktionsvärdena med samma konstant och subtrahera.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -83912,8 +83963,8 @@ window.BANKMATO1 = [
       "Primitiva funktioner skiljer med konstant"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 5.72,
-    "tolerans": 0.01,
+    "rättSvar": 1.718281828459045,
+    "tolerans": 0.005,
     "svarFormat": "numeriskt"
   },
   {
@@ -87282,8 +87333,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>Vatten rinner in i en tank med hastigheten \\(q(t)=4t\\) liter per minut. Från början finns 10 liter i tanken. Hur mycket vatten finns efter 3 minuter?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(V(t)=2t^2+C\\) och \\(V(0)=10\\).</p></li><li><p>\\(V(3)=28\\) liter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28 liter</p></div>",
+    "t": "<p>Vatten rinner in i en tank med hastigheten \\(q(t)=4t\\) liter per minut, där t är antalet minuter från start. Från början finns 10 liter i tanken. Hur mycket vatten finns efter 3 minuter? Svara i liter.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymens derivata är inflödet, så V′(t) = 4t. En primitiv funktion är V(t) = 2t²+C.</p></li><li><p>Från början finns 10 liter: V(0) = C = 10. Därför blir</p><div class=\"facit-matte\">\\[V(3)=2\\cdot3^2+10=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 28 liter.</strong></p></div>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -88553,8 +88604,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=e^x\\) och \\(F(0)=4\\). Bestäm \\(F(1)\\) med två decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=e^x+C\\].</div></li><li><p>\\(F(0)=1+C=4\\) ger \\(C=3\\).</p><div class=\"facit-matte\">\\[F(1)=e+3\\approx5{,}72\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5,72</p></div>",
+    "t": "<p>F är en primitiv funktion till \\(f(x)=e^x\\) och F(1) = 6. Bestäm F(0). Svara med två decimaler.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv F(x) = eˣ+C. Villkoret vid x = 1 ger</p><div class=\"facit-matte\">\\[e+C=6\\quad\\Rightarrow\\quad C=6-e\\]</div></li><li><p>Sätt sedan in x = 0.</p><div class=\"facit-matte\">\\[F(0)=1+(6-e)=7-e\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(0)\\approx4{,}28\\).</strong></p></div>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
     "miniräknare": true,
@@ -88562,7 +88613,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>\\(e^x\\) är sin egen primitiva funktion.</p>",
+    "ledtrad": "<p>Använd det kända värdet vid x = 1 för att bestämma konstanten.</p>",
     "traningsniva": 2,
     "arbetsinsats": 1,
     "spel": true,
@@ -88573,8 +88624,8 @@ window.BANKMATO1 = [
       "Primitiva funktioner"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 5.72,
-    "tolerans": 0.01,
+    "rättSvar": 4.281718171540955,
+    "tolerans": 0.005,
     "svarFormat": "numeriskt"
   },
   {
@@ -88726,8 +88777,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Grafen till en primitiv funktion \\(F\\) till \\(f(x)=2x+1\\) går genom punkten \\((1,\\,9)\\). Bestäm konstanten \\(C\\) i \\(F(x)=x^2+x+C\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(1)=1+1+C=9\\Rightarrow C=7\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C=7\\)</p></div>",
+    "t": "<p>F och G är primitiva funktioner till samma funktion. G:s graf ligger 3 enheter ovanför F:s graf. F(0) = 7. Vad är G(0)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid samma x-värde är G:s funktionsvärde 3 större än F:s.</p><div class=\"facit-matte\">\\[G(0)=F(0)+3=7+3=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(G(0)=10\\).</strong></p></div>",
     "familj": "Konstanten i primitiva funktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -88735,7 +88786,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Sätt in punktens koordinater i \\(F(x)\\).</p>",
+    "ledtrad": "<p>Jämför grafernas höjd vid samma x-värde.</p>",
     "traningsniva": 1,
     "arbetsinsats": 1,
     "spel": true,
@@ -88746,7 +88797,7 @@ window.BANKMATO1 = [
       "Kontrollera primitiv funktion"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 7,
+    "rättSvar": 10,
     "tolerans": null,
     "svarFormat": "numeriskt"
   },
@@ -90133,28 +90184,47 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "1/0/0",
-    "t": "<p>Funktionen är \\(f(x)=x^{-1}\\). Ange \\(f'(1)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lösning:</strong> \\(f'(x)=-x^{-2}\\), alltså \\(f'(1)=-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> -1</p></div>",
+    "t": "<p>Funktionen är \\(f(x)=1/x\\). Vilket påstående om tangenternas lutning är rätt när x < 0? Välj ett alternativ.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera den negativa potensen.</p><div class=\"facit-matte\">\\[f^{\\prime}(x)=-x^{-2}=-\\frac1{x^2}\\]</div></li><li><p>x² är positivt även när x är negativt. Därför är −1/x² negativt. Derivatan finns för alla x utom 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Lutningen är negativ.</strong></p></div>",
     "familj": "Negativa exponenter",
     "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "numeriskt",
-    "rättSvar": -1,
+    "miniräknare": true,
+    "svarstyp": "alternativ",
+    "rättSvar": null,
     "tolerans": null,
     "självrättning": true,
     "formaga": [
+      "begrepp",
       "procedur"
     ],
-    "ledtrad": "<p>Använd potensregeln även för negativa exponenter.</p>",
+    "ledtrad": "<p>Vilket tecken får kvadraten av ett negativt tal?</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
-    "svarFormat": "numeriskt",
+    "svarFormat": "text",
     "omrTidigare": [
       "deriveringsregler"
     ],
     "familjTidigare": [
       "Derivera med parameter och negativ exponent"
+    ],
+    "alternativ": [
+      {
+        "txt": "Lutningen är positiv eftersom x är negativt.",
+        "ratt": false
+      },
+      {
+        "txt": "Lutningen är noll eftersom inga positiva x-värden används.",
+        "ratt": false
+      },
+      {
+        "txt": "Lutningen är negativ eftersom f′(x) = −1/x².",
+        "ratt": true
+      },
+      {
+        "txt": "Derivatan finns inte när x är negativt.",
+        "ratt": false
+      }
     ]
   },
   {
@@ -91082,8 +91152,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>\\(F\\) är en primitiv funktion till \\(f(x)=6x^2-2x\\) och \\(F(1)=2\\). Bestäm \\(F(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[F(x)=2x^3-x^2+C\\].</div><div class=\"facit-matte\">\\[F(1)=1+C=2\\Rightarrow C=1\\].</div><div class=\"facit-matte\">\\[F(2)=16-4+1=13\\].</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13</p></div>",
+    "t": "<p>F är en primitiv funktion till \\(f(x)=6x^2-2x\\). Bestäm \\(F(2)-F(1)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En allmän primitiv funktion är</p><div class=\"facit-matte\">\\[F(x)=2x^3-x^2+C\\]</div></li><li><p>Vid de två x-värdena får vi F(2) = 12+C och F(1) = 1+C. Skillnaden påverkas inte av C.</p><div class=\"facit-matte\">\\[(12+C)-(1+C)=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 11.</strong></p></div>",
     "familj": "Bestämma primitiva funktioner",
     "geogebra": false,
     "miniräknare": false,
@@ -91091,7 +91161,7 @@ window.BANKMATO1 = [
     "formaga": [
       "procedur"
     ],
-    "ledtrad": "<p>Ta fram en primitiv funktion term för term.</p>",
+    "ledtrad": "<p>Du behöver inte känna C för att beräkna skillnaden.</p>",
     "traningsniva": 2,
     "arbetsinsats": 2,
     "spel": true,
@@ -91102,7 +91172,7 @@ window.BANKMATO1 = [
       "Bestäm alla primitiva funktioner"
     ],
     "svarstyp": "numeriskt",
-    "rättSvar": 13,
+    "rättSvar": 11,
     "tolerans": null,
     "svarFormat": "numeriskt"
   },
@@ -91182,10 +91252,10 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
-    "t": "<p>En tangent till kurvan \\(y=\\sqrt x\\) går genom punkten \\((-4,\\,0)\\) på \\(x\\)-axeln.</p><p>Bestäm tangeringspunkten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt tangeringspunkten vara \\((a,\\,\\sqrt a)\\).</p></li><li><p>Derivatan är \\(y'=\\frac{1}{2\\sqrt x}\\), så tangenten är</p><p>\\[y=\\sqrt a+\\frac{1}{2\\sqrt a}(x-a).\\]</p></li><li><p>Punkten \\((-4,\\,0)\\) ska ligga på tangenten:</p><p>\\[0=\\sqrt a+\\frac{-4-a}{2\\sqrt a}\\;\\Leftrightarrow\\;0=2a-4-a\\;\\Leftrightarrow\\;a=4.\\]</p></li><li><p>Tangeringspunkten är \\((4,\\,2)\\).</p></li><li><p>Tangenten \\(y=2+\\frac14(x-4)=\\frac14x+1\\) är 0 när \\(x=-4\\).</p></li><li><p>Det stämmer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((4,\\,2)\\)</p></div>",
+    "niva": "C",
+    "poang": "0/2/0",
+    "t": "<p>En tangent till kurvan \\(y=\\sqrt x\\) går genom punkten \\((-4,0)\\) på x-axeln. Bestäm tangeringspunkten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Kurvan y=roten ur x och en tangent genom den givna punkten (-4,0).\"><title>Kurvan y=roten ur x och en tangent genom den givna punkten (-4,0).</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M89.66666666666667 50V250\" stroke=\"#d6e1ea\"/><text x=\"89.66666666666667\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−4</text><path d=\"M188.33333333333331 50V250\" stroke=\"#d6e1ea\"/><text x=\"188.33333333333331\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M188.33333333333331 45V250 M65 250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"188.33333333333331\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"188.333,250.000 190.800,234.189 193.267,227.639 195.733,222.614 198.200,218.377 200.667,214.645 203.133,211.270 205.600,208.167 208.067,205.279 210.533,202.566 213.000,200.000 215.467,197.560 217.933,195.228 220.400,192.991 222.867,190.839 225.333,188.763 227.800,186.754 230.267,184.808 232.733,182.918 235.200,181.080 237.667,179.289 240.133,177.543 242.600,175.838 245.067,174.171 247.533,172.540 250.000,170.943 252.467,169.377 254.933,167.842 257.400,166.334 259.867,164.853 262.333,163.397 264.800,161.966 267.267,160.557 269.733,159.170 272.200,157.805 274.667,156.459 277.133,155.132 279.600,153.823 282.067,152.532 284.533,151.258 287.000,150.000 289.467,148.758 291.933,147.530 294.400,146.318 296.867,145.119 299.333,143.934 301.800,142.762 304.267,141.603 306.733,140.455 309.200,139.320 311.667,138.197 314.133,137.084 316.600,135.982 319.067,134.891 321.533,133.810 324.000,132.740 326.467,131.678 328.933,130.627 331.400,129.584 333.867,128.550 336.333,127.526 338.800,126.509 341.267,125.501 343.733,124.501 346.200,123.509 348.667,122.525 351.133,121.548 353.600,120.578 356.067,119.616 358.533,118.661 361.000,117.712 363.467,116.771 365.933,115.836 368.400,114.907 370.867,113.985 373.333,113.069 375.800,112.160 378.267,111.256 380.733,110.358 383.200,109.465 385.667,108.579 388.133,107.698 390.600,106.822 393.067,105.951 395.533,105.086 398.000,104.226 400.467,103.371 402.933,102.521 405.400,101.676 407.867,100.836 410.333,100.000 412.800,99.169 415.267,98.342 417.733,97.520 420.200,96.703 422.667,95.890 425.133,95.081 427.600,94.276 430.067,93.475 432.533,92.679 435.000,91.886\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"89.667,250.000 435.000,75.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"89.66666666666667\" cy=\"250.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"287\" cy=\"150\" r=\"4\" fill=\"#00749b\"/><text x=\"270\" y=\"128\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">P</text><text x=\"355\" y=\"65\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">y = √x</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt tangentpunkten vara (a, √a), där a > 0. Tangentens lutning är derivatan.</p><div class=\"facit-matte\">\\[f^{\\prime}(a)=\\frac1{2\\sqrt a}\\]</div></li><li><p>Samma lutning kan beräknas mellan (−4, 0) och tangentpunkten.</p><div class=\"facit-matte\">\\[\\frac{\\sqrt a}{a+4}=\\frac1{2\\sqrt a}\\]</div></li><li><p>Multiplicera med 2√a(a+4).</p><div class=\"facit-matte\">\\[2a=a+4\\quad\\Rightarrow\\quad a=4\\]</div></li><li><p>Då är y = √4 = 2. Tangenten har lutningen 1/4 och går genom både (−4, 0) och (4, 2).</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\((4,2)\\).</strong></p></div>",
     "familj": "Rötter och bråkexponenter",
     "formaga": [
       "problemlösning",
@@ -91196,7 +91266,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "ledtrad": "<p>Kalla tangeringspunktens \\(x\\)-koordinat \\(a\\) och ställ upp tangentens ekvation med \\(a\\). Sätt sedan in punkten \\((-4,\\,0)\\).</p>",
     "spel": true,
-    "traningsniva": 5,
+    "traningsniva": 3,
     "arbetsinsats": 3,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -91218,8 +91288,8 @@ window.BANKMATO1 = [
       "1b",
       "1c"
     ],
-    "niva": "A",
-    "poang": "0/1/2",
+    "niva": "C",
+    "poang": "0/2/0",
     "t": "<p>Bestäm det minsta värdet av \\(f(x)=x+\\dfrac4x\\) för \\(x&gt;0\\) och det \\(x\\) där det antas.</p>",
     "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f(x)=x+4x^{-1}\\), så \\(f'(x)=1-4x^{-2}=1-\\frac4{x^2}\\).</p></li><li><p>\\(f'(x)=0\\) ger \\(x^2=4\\), alltså \\(x=2\\) (eftersom \\(x&gt;0\\)).</p></li><li><p>Derivatan är negativ för \\(0&lt;x&lt;2\\) och positiv för \\(x&gt;2\\), så det är ett minimum.</p><div class=\"facit-matte\">\\[f(2)=2+2=4\\].</div></li><li><p>Tolkning: av alla rektanglar med arean 4 har kvadraten med sidan 2 den minsta halva omkretsen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> minsta värdet 4 när \\(x=2\\)</p></div>",
     "familj": "Negativa exponenter",
@@ -91232,7 +91302,7 @@ window.BANKMATO1 = [
     "självrättning": true,
     "ledtrad": "<p>Skriv \\(\\frac4x\\) som en potens med negativ exponent och derivera.</p>",
     "spel": true,
-    "traningsniva": 4,
+    "traningsniva": 3,
     "arbetsinsats": 2,
     "svarstyp": "flera_delar",
     "rättSvar": [
@@ -95300,8 +95370,8 @@ window.BANKMATO1 = [
     ],
     "niva": "E",
     "poang": "2/0/0",
-    "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+t+0\\) meter. Bestäm hastigheten vid \\(t=1\\) s.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Lösning:</strong> Hastigheten är</p><div class=\"facit-matte\">\\[v(t)=s'(t)=2t+1\\].</div></div></li><li><p>Därför \\(v(1)=3\\) m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3</p></div>",
+    "t": "<p>En rörelse beskrivs av \\(s(t)=t^2+t\\) meter, där t mäts i sekunder. Bestäm hastigheten vid t = 1 s. Svara i m/s.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hastigheten är lägets derivata.</p><div class=\"facit-matte\">\\[v(t)=s^{\\prime}(t)=2t+1\\]</div></li><li><p>Sätt in t = 1.</p><div class=\"facit-matte\">\\[v(1)=2\\cdot1+1=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 3 m/s.</strong></p></div>",
     "familj": "Derivata som förändringshastighet",
     "geogebra": false,
     "miniräknare": false,
@@ -95322,7 +95392,8 @@ window.BANKMATO1 = [
     ],
     "familjTidigare": [
       "Tre fack mot vägg"
-    ]
+    ],
+    "svarEnhet": "m/s"
   },
   {
     "id": "2.814",

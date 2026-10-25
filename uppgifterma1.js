@@ -163794,5 +163794,826 @@ window.BANKMA1 = [
       "x-koordinat",
       "y-koordinat"
     ]
+  },
+  {
+    "id": "5.641",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "båda ur träddiagram",
+    "t": "<p>Träddiagrammet visar två oberoende händelser A och B.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram: A med 0,6 och ej A med 0,4. Från varje gren B med 0,7 och ej B med 0,3.\"><title>Träddiagram: A med 0,6 och ej A med 0,4. Från varje gren B med 0,7 och ej B med 0,3.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eff2f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"102.6\" y=\"110.0\" width=\"22.8\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">A</text><rect x=\"54.9\" y=\"208.0\" width=\"22.2\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">B</text><rect x=\"138.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">ej B</text><rect x=\"281.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">ej A</text><rect x=\"246.9\" y=\"208.0\" width=\"22.2\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">B</text><rect x=\"330.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">ej B</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,6</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">0,3</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">0,4</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">0,3</text></svg></span><p>Hur stor är sannolikheten att både A och B inträffar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(A\\text{ och }B)=0{,}6\\cdot0{,}7=0{,}42\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,42</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Följ grenen A och sedan B. Multiplicera sannolikheterna längs vägen.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "sannolikhet",
+    "rättSvar": 0.42,
+    "tolerans": 0
+  },
+  {
+    "id": "5.642",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "två lika sannolikheter",
+    "t": "<p>Ett larm fungerar med sannolikheten 0,9. Två sådana larm fungerar oberoende av varandra. Hur stor är sannolikheten att båda fungerar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}9\\cdot0{,}9=0{,}81\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,81</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera sannolikheterna.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "sannolikhet",
+    "rättSvar": 0.81,
+    "tolerans": 0
+  },
+  {
+    "id": "5.643",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "två udda tärningskast",
+    "t": "<p>Två vanliga tärningar kastas. Hur stor är sannolikheten att båda visar ett udda tal? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(\\text{udda})=\\frac36=\\frac12\\]</div></li><li><div class=\"facit-matte\">\\[\\frac12\\cdot\\frac12=\\frac14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac14\\)</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur stor är sannolikheten för udda på en tärning?</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "1/4",
+    "tolerans": null
+  },
+  {
+    "id": "5.644",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "känna igen oberoende händelser",
+    "t": "<p>Vilka två händelser är oberoende av varandra?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tärningen och lyckohjulet påverkar inte varandra. I de andra fallen påverkar den första händelsen sannolikheten för den andra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tärningskastet och lyckohjulet.</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Påverkar den ena händelsen sannolikheten för den andra?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Dra två kort ur en kortlek utan att lägga tillbaka det första",
+        "ratt": false,
+        "kommentar": "Det första kortet ändrar vilka kort som finns kvar."
+      },
+      {
+        "txt": "Kasta en tärning och snurra ett lyckohjul",
+        "ratt": true
+      },
+      {
+        "txt": "Att en elev har pluggat och att eleven klarar provet",
+        "ratt": false,
+        "kommentar": "Pluggandet påverkar chansen att klara provet."
+      },
+      {
+        "txt": "Att det är minusgrader och att det är halt på vägen",
+        "ratt": false,
+        "kommentar": "Kyla ökar risken för halka."
+      }
+    ]
+  },
+  {
+    "id": "5.645",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "gissa en kod",
+    "t": "<p>Ett cykellås har en kod med tre siffror, där varje siffra är 0–9. Hur stor är sannolikheten att gissa rätt kod på första försöket? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac1{10}\\cdot\\frac1{10}\\cdot\\frac1{10}=\\frac1{1000}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1{1000}\\)</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Varje siffra ska bli rätt, och siffrorna väljs oberoende av varandra.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "1/1000",
+    "tolerans": null
+  },
+  {
+    "id": "5.646",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "fyra kronor i rad",
+    "t": "<p>Ett mynt kastas fyra gånger. Hur stor är sannolikheten att det blir krona alla fyra gångerna? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left(\\frac12\\right)^4=\\frac1{16}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1{16}\\)</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera \\(\\frac12\\) fyra gånger.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "1/16",
+    "tolerans": null
+  },
+  {
+    "id": "5.647",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "fyll i grenen i ett träd",
+    "t": "<p>I träddiagrammet saknas sannolikheten på en gren.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"254\" viewBox=\"0 0 420 254\" role=\"img\" aria-label=\"Träddiagram: A med 0,7 och ej A med okänd sannolikhet. Därefter B och ej B med 0,5 var.\"><title>Träddiagram: A med 0,7 och ej A med okänd sannolikhet. Därefter B och ej B med 0,5 var.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#eff2f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"102.6\" y=\"110.0\" width=\"22.8\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">A</text><rect x=\"54.9\" y=\"208.0\" width=\"22.2\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">B</text><rect x=\"138.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">ej B</text><rect x=\"281.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">ej A</text><rect x=\"246.9\" y=\"208.0\" width=\"22.2\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">B</text><rect x=\"330.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">ej B</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,7</text><rect x=\"45.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"63.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><rect x=\"146.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"164.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">0,5</text><rect x=\"266.0\" y=\"63.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"276.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"237.8\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"255.9\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,5</text><rect x=\"338.0\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#cbced3\" stroke-width=\"1\"/><text x=\"356.1\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">0,5</text></svg></span><p>Vilken sannolikhet ska stå på grenen ”ej A”?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1-0{,}7=0{,}3\\]</div></li><li><p>Sannolikheterna på grenarna från samma punkt har summan 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,3</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Grenarna som utgår från samma punkt har summan 1.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "sannolikhet",
+    "rättSvar": 0.3,
+    "tolerans": 0
+  },
+  {
+    "id": "5.648",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "lyckohjul två gånger",
+    "t": "<p>Ett lyckohjul har tre lika stora fält, och ett av dem är rött. Hjulet snurras två gånger. Hur stor är sannolikheten att det blir rött båda gångerna? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac13\\cdot\\frac13=\\frac19\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac19\\)</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sannolikheten för rött är \\(\\frac13\\) varje gång.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "1/9",
+    "tolerans": null
+  },
+  {
+    "id": "5.649",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "minst en låg siffra på två tärningar",
+    "t": "<p>Två tärningar kastas. Hur stor är sannolikheten att minst en av dem visar en etta eller en tvåa? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(\\text{varken 1 eller 2 på en tärning})=\\frac46=\\frac23\\]</div></li><li><div class=\"facit-matte\">\\[P(\\text{ingen av dem})=\\frac23\\cdot\\frac23=\\frac49\\]</div></li><li><div class=\"facit-matte\">\\[1-\\frac49=\\frac59\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac59\\)</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut sannolikheten att ingen tärning visar 1 eller 2 och använd komplementhändelsen.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "5/9",
+    "tolerans": null
+  },
+  {
+    "id": "5.650",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "exakt en träff på två skott",
+    "t": "<p>En skytt träffar med sannolikheten 0,6 per skott. Skotten är oberoende. Hur stor är sannolikheten för exakt en träff på två skott?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(\\text{träff, miss})+P(\\text{miss, träff})=0{,}6\\cdot0{,}4+0{,}4\\cdot0{,}6\\]</div></li><li><div class=\"facit-matte\">\\[=0{,}48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,48</p></div>",
+    "familj": "Exakt antal träffar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Exakt en träff kan ske på två sätt.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "sannolikhet",
+    "rättSvar": 0.48,
+    "tolerans": 0
+  },
+  {
+    "id": "5.651",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "exakt en ur träddiagram",
+    "t": "<p>Två oberoende komponenter fungerar med sannolikheterna 0,8 och 0,7.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"468\" height=\"254\" viewBox=\"0 0 468 254\" role=\"img\" aria-label=\"Träddiagram: komponent 1 fungerar med 0,8 och är trasig med 0,2. Komponent 2 fungerar med 0,7 och är trasig med 0,3.\"><title>Träddiagram: komponent 1 fungerar med 0,8 och är trasig med 0,2. Komponent 2 fungerar med 0,7 och är trasig med 0,3.</title><rect x=\"1\" y=\"1\" width=\"466\" height=\"252\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"205.8\" height=\"146.0\" rx=\"12\" fill=\"#f0f4f1\"/><rect x=\"238.8\" y=\"98.0\" width=\"205.8\" height=\"146.0\" rx=\"12\" fill=\"#f8f0ee\"/><line x1=\"233.8\" y1=\"36.0\" x2=\"125.9\" y2=\"110.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"125.9\" y1=\"134.0\" x2=\"72.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"125.9\" y1=\"134.0\" x2=\"179.9\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"233.8\" y1=\"36.0\" x2=\"341.7\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"341.7\" y1=\"134.0\" x2=\"287.8\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"341.7\" y1=\"134.0\" x2=\"395.7\" y2=\"208.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"233.8\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"74.8\" y=\"110.0\" width=\"102.2\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"125.9\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#3F7A55\" font-weight=\"700\">1 fungerar</text><rect x=\"24.0\" y=\"208.0\" width=\"95.9\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"72.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">2 fungerar</text><rect x=\"140.1\" y=\"208.0\" width=\"79.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"179.9\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">2 trasig</text><rect x=\"299.4\" y=\"110.0\" width=\"84.6\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"341.7\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">1 trasig</text><rect x=\"239.8\" y=\"208.0\" width=\"95.9\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"287.8\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">2 fungerar</text><rect x=\"355.9\" y=\"208.0\" width=\"79.5\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"395.7\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">2 trasig</text><rect x=\"135.7\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"153.8\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,8</text><rect x=\"54.7\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"72.8\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><rect x=\"160.9\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"179.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">0,3</text><rect x=\"295.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"313.8\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">0,2</text><rect x=\"270.5\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#bcd0c4\" stroke-width=\"1\"/><text x=\"288.6\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">0,7</text><rect x=\"376.7\" y=\"161.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"394.8\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">0,3</text></svg></span><p>Hur stor är sannolikheten att exakt en av komponenterna fungerar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}8\\cdot0{,}3+0{,}2\\cdot0{,}7\\]</div></li><li><div class=\"facit-matte\">\\[=0{,}24+0{,}14=0{,}38\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,38</p></div>",
+    "familj": "Exakt antal träffar",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilka två vägar i trädet ger exakt en fungerande komponent?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "sannolikhet",
+    "rättSvar": 0.38,
+    "tolerans": 0
+  },
+  {
+    "id": "5.652",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "minst en pojke bland tre barn",
+    "t": "<p>En familj har tre barn. Anta att varje barn är pojke eller flicka med sannolikheten \\(\\frac12\\), oberoende av varandra. Hur stor är sannolikheten att minst ett barn är en pojke? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(\\text{tre flickor})=\\left(\\frac12\\right)^3=\\frac18\\]</div></li><li><div class=\"facit-matte\">\\[P(\\text{minst en pojke})=1-\\frac18=\\frac78\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac78\\)</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Motsatsen till ”minst en pojke” är ”bara flickor”.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "7/8",
+    "tolerans": null
+  },
+  {
+    "id": "5.653",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "summa ur tärningstabell",
+    "t": "<p>Tabellen visar alla summor när två tärningar kastas.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"330\" height=\"320\" viewBox=\"0 0 330 320\" role=\"img\" aria-label=\"Tabell med 6 gånger 6 rutor som visar summan av två tärningar, från 2 till 12.\"><title>Tabell med 6 gånger 6 rutor som visar summan av två tärningar, från 2 till 12.</title><rect x=\"1\" y=\"1\" width=\"328\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"190.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#315F91\" font-weight=\"bold\">tärning 2</text><text x=\"22.0\" y=\"184.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#A6432F\" font-weight=\"bold\" transform=\"rotate(-90 22 180)\">tärning 1</text><text x=\"90.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#315F91\" font-weight=\"bold\">1</text><text x=\"130.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#315F91\" font-weight=\"bold\">2</text><text x=\"170.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#315F91\" font-weight=\"bold\">3</text><text x=\"210.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#315F91\" font-weight=\"bold\">4</text><text x=\"250.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#315F91\" font-weight=\"bold\">5</text><text x=\"290.0\" y=\"50.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#315F91\" font-weight=\"bold\">6</text><text x=\"58.0\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#A6432F\" font-weight=\"bold\">1</text><rect x=\"70\" y=\"60\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"90.0\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">2</text><rect x=\"110\" y=\"60\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"130.0\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">3</text><rect x=\"150\" y=\"60\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"170.0\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">4</text><rect x=\"190\" y=\"60\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"210.0\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">5</text><rect x=\"230\" y=\"60\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"250.0\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">6</text><rect x=\"270\" y=\"60\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"290.0\" y=\"85.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">7</text><text x=\"58.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#A6432F\" font-weight=\"bold\">2</text><rect x=\"70\" y=\"100\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"90.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">3</text><rect x=\"110\" y=\"100\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"130.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">4</text><rect x=\"150\" y=\"100\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"170.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">5</text><rect x=\"190\" y=\"100\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"210.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">6</text><rect x=\"230\" y=\"100\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"250.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">7</text><rect x=\"270\" y=\"100\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"290.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">8</text><text x=\"58.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#A6432F\" font-weight=\"bold\">3</text><rect x=\"70\" y=\"140\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"90.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">4</text><rect x=\"110\" y=\"140\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"130.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">5</text><rect x=\"150\" y=\"140\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"170.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">6</text><rect x=\"190\" y=\"140\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"210.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">7</text><rect x=\"230\" y=\"140\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"250.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">8</text><rect x=\"270\" y=\"140\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"290.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">9</text><text x=\"58.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#A6432F\" font-weight=\"bold\">4</text><rect x=\"70\" y=\"180\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"90.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">5</text><rect x=\"110\" y=\"180\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"130.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">6</text><rect x=\"150\" y=\"180\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"170.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">7</text><rect x=\"190\" y=\"180\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"210.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">8</text><rect x=\"230\" y=\"180\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"250.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">9</text><rect x=\"270\" y=\"180\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"290.0\" y=\"205.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">10</text><text x=\"58.0\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#A6432F\" font-weight=\"bold\">5</text><rect x=\"70\" y=\"220\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"90.0\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">6</text><rect x=\"110\" y=\"220\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"130.0\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">7</text><rect x=\"150\" y=\"220\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"170.0\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">8</text><rect x=\"190\" y=\"220\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"210.0\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">9</text><rect x=\"230\" y=\"220\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"250.0\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">10</text><rect x=\"270\" y=\"220\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"290.0\" y=\"245.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">11</text><text x=\"58.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#A6432F\" font-weight=\"bold\">6</text><rect x=\"70\" y=\"260\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"90.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">7</text><rect x=\"110\" y=\"260\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"130.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">8</text><rect x=\"150\" y=\"260\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"170.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">9</text><rect x=\"190\" y=\"260\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"210.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">10</text><rect x=\"230\" y=\"260\" width=\"40\" height=\"40\" fill=\"#f3f6fa\" stroke=\"#cfd8e3\"/><text x=\"250.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">11</text><rect x=\"270\" y=\"260\" width=\"40\" height=\"40\" fill=\"#fff\" stroke=\"#cfd8e3\"/><text x=\"290.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#2b3440\">12</text></svg></span><p>Hur stor är sannolikheten att summan blir 11? (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Summan 11 finns i två rutor av 36: (5, 6) och (6, 5).</p></li><li><div class=\"facit-matte\">\\[\\frac2{36}=\\frac1{18}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1{18}\\)</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna rutorna med summan 11. Alla 36 rutor är lika sannolika.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "1/18",
+    "tolerans": null
+  },
+  {
+    "id": "5.654",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "minst ett av tre larm",
+    "t": "<p>Tre larm fungerar oberoende av varandra med sannolikheten 0,9 vardera. Hur stor är sannolikheten att minst ett larm fungerar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(\\text{inget fungerar})=0{,}1^3=0{,}001\\]</div></li><li><div class=\"facit-matte\">\\[1-0{,}001=0{,}999\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,999</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Använd komplementhändelsen: att inget larm fungerar.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "sannolikhet",
+    "rättSvar": 0.999,
+    "tolerans": 0
+  },
+  {
+    "id": "5.655",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "fel att addera sannolikheter",
+    "t": "<p>Oskar säger: ”Sannolikheten att få minst en krona på två myntkast är \\(\\frac12+\\frac12=1\\).” Vad är fel?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Händelserna ”krona i första” och ”krona i andra” kan inträffa samtidigt, så man kan inte bara addera dem.</p></li><li><div class=\"facit-matte\">\\[1-\\left(\\frac12\\right)^2=\\frac34\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Händelserna kan inträffa samtidigt. Rätt svar är \\(\\frac34\\).</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Kan det bli krona i båda kasten?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Han borde ha multiplicerat: \\(\\frac12\\cdot\\frac12=\\frac14\\)",
+        "ratt": false,
+        "kommentar": "Det är sannolikheten för krona i båda kasten."
+      },
+      {
+        "txt": "Händelserna kan inträffa samtidigt, så summan räknar dubbelt. Rätt är \\(\\frac34\\)",
+        "ratt": true
+      },
+      {
+        "txt": "Inget, svaret 1 stämmer",
+        "ratt": false,
+        "kommentar": "Det kan bli klave två gånger, så sannolikheten är mindre än 1."
+      },
+      {
+        "txt": "Rätt svar är \\(\\frac12\\)",
+        "ratt": false,
+        "kommentar": "Det finns tre gynnsamma utfall av fyra."
+      }
+    ]
+  },
+  {
+    "id": "5.656",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "okänd gren ur produkt",
+    "t": "<p>I träddiagrammet är sannolikheten för A 0,6. Sannolikheten för både A och B är 0,42.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"284\" viewBox=\"0 0 420 284\" role=\"img\" aria-label=\"Träddiagram: A med 0,6 och ej A med 0,4. Grenen B efter A saknar sannolikhet, men produkten längs vägen A och B är 0,42.\"><title>Träddiagram: A med 0,6 och ej A med 0,4. Grenen B efter A saknar sannolikhet, men produkten längs vägen A och B är 0,42.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"282\" rx=\"10\" fill=\"#fff\" stroke=\"#E4E3E6\"/><rect x=\"23.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#eff2f6\"/><rect x=\"215.0\" y=\"98.0\" width=\"182.0\" height=\"176.0\" rx=\"12\" fill=\"#f8f0ee\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"114.0\" y2=\"110.0\" stroke=\"#315F91\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"66.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"114.0\" y1=\"134.0\" x2=\"162.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"210.0\" y1=\"36.0\" x2=\"306.0\" y2=\"110.0\" stroke=\"#A6432F\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"258.0\" y2=\"208.0\" stroke=\"#3F7A55\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><line x1=\"306.0\" y1=\"134.0\" x2=\"354.0\" y2=\"208.0\" stroke=\"#6b7280\" stroke-width=\"2.8\" stroke-linecap=\"round\"/><circle cx=\"210.0\" cy=\"30.0\" r=\"6\" fill=\"#2b3440\"/><rect x=\"102.6\" y=\"110.0\" width=\"22.8\" height=\"24\" rx=\"12\" fill=\"#dee5ed\" stroke=\"#315F91\" stroke-width=\"1.6\"/><text x=\"114.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#315F91\" font-weight=\"700\">A</text><rect x=\"54.9\" y=\"208.0\" width=\"22.2\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">B</text><rect x=\"42.9\" y=\"240.0\" width=\"46.2\" height=\"22\" rx=\"5\" fill=\"#f4f1fa\" stroke=\"#d9d2e9\" stroke-width=\"1\"/><text x=\"66.0\" y=\"256.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#4b4560\">0,42</text><rect x=\"138.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"162.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">ej B</text><rect x=\"281.4\" y=\"110.0\" width=\"49.3\" height=\"24\" rx=\"12\" fill=\"#f1e1de\" stroke=\"#A6432F\" stroke-width=\"1.6\"/><text x=\"306.0\" y=\"127.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"14\" fill=\"#A6432F\" font-weight=\"700\">ej A</text><rect x=\"246.9\" y=\"208.0\" width=\"22.2\" height=\"24\" rx=\"12\" fill=\"#e0eae4\" stroke=\"#3F7A55\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#3F7A55\" font-weight=\"700\">B</text><rect x=\"330.6\" y=\"208.0\" width=\"46.8\" height=\"24\" rx=\"12\" fill=\"#e7e8eb\" stroke=\"#6b7280\" stroke-width=\"1.6\"/><text x=\"354.0\" y=\"225.0\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"13\" fill=\"#6b7280\" font-weight=\"700\">ej B</text><rect x=\"117.8\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#b7c7d8\" stroke-width=\"1\"/><text x=\"135.9\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#315F91\" font-weight=\"700\">0,6</text><rect x=\"61.9\" y=\"161.0\" width=\"20.1\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#f2cfa8\" stroke-width=\"1\"/><text x=\"72.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#D97706\" font-weight=\"700\">?</text><rect x=\"266.0\" y=\"63.0\" width=\"36.2\" height=\"19\" rx=\"4\" fill=\"#fff\" stroke=\"#e0bdb6\" stroke-width=\"1\"/><text x=\"284.1\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Mono,Consolas,monospace\" font-size=\"13\" fill=\"#A6432F\" font-weight=\"700\">0,4</text></svg></span><p>Vilken sannolikhet ska stå på grenen B? A och B är oberoende.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}6\\cdot P(B)=0{,}42\\]</div></li><li><div class=\"facit-matte\">\\[P(B)=\\frac{0{,}42}{0{,}6}=0{,}7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,7</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Produkten längs vägen är 0,42. Dela med 0,6.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "sannolikhet",
+    "rättSvar": 0.7,
+    "tolerans": 0
+  },
+  {
+    "id": "5.657",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "tre födda på en lördag",
+    "t": "<p>Hur stor är sannolikheten att tre syskon alla är födda på en lördag? Anta att alla veckodagar är lika sannolika och att födelsedagarna är oberoende. (Svara i bråkform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left(\\frac17\\right)^3=\\frac1{343}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac1{343}\\)</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sannolikheten för lördag är \\(\\frac17\\) för varje syskon.</p>",
+    "svarstyp": "bråk",
+    "svarFormat": "bråk",
+    "rättSvar": "1/343",
+    "tolerans": null
+  },
+  {
+    "id": "5.658",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "serie- och parallellkoppling",
+    "t": "<p>Två komponenter fungerar oberoende med sannolikheterna 0,95 och 0,90. a) I en seriekoppling fungerar systemet bara om båda fungerar. b) I en parallellkoppling räcker det att en fungerar. Bestäm sannolikheten att systemet fungerar i båda fallen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>a) Båda måste fungera:</p></li><li><div class=\"facit-matte\">\\[0{,}95\\cdot0{,}90=0{,}855\\]</div></li><li><p>b) Systemet fungerar inte bara om båda är trasiga:</p></li><li><div class=\"facit-matte\">\\[1-0{,}05\\cdot0{,}10=0{,}995\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 0,855 b) 0,995</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>I b) är det lättast att räkna med att båda går sönder.</p>",
+    "svarstyp": "flera_delar",
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "rättSvar": [
+      0.855,
+      0.995
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "seriekoppling",
+      "parallellkoppling"
+    ]
+  },
+  {
+    "id": "5.659",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "exakt två av tre",
+    "t": "<p>Sannolikheten att en patient blir frisk av en behandling är 0,4. Tre patienter behandlas oberoende av varandra. Hur stor är sannolikheten att exakt två blir friska?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det finns tre ordningar: FFE, FEF och EFF (F = frisk, E = ej frisk).</p></li><li><div class=\"facit-matte\">\\[3\\cdot0{,}4^2\\cdot0{,}6=0{,}288\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,288</p></div>",
+    "familj": "Exakt antal träffar",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna ut sannolikheten för en ordning och multiplicera med antalet ordningar.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "sannolikhet",
+    "rättSvar": 0.288,
+    "tolerans": 0
+  },
+  {
+    "id": "5.660",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "P(B) och P(A eller B)",
+    "t": "<p>A och B är oberoende. \\(P(A)=0{,}5\\) och \\(P(A\\text{ och }B)=0{,}15\\). Bestäm \\(P(B)\\) och \\(P(A\\text{ eller }B)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(B)=\\frac{0{,}15}{0{,}5}=0{,}3\\]</div></li><li><div class=\"facit-matte\">\\[P(A\\text{ eller }B)=0{,}5+0{,}3-0{,}15=0{,}65\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(P(B)=0{,}3\\), \\(P(A\\text{ eller }B)=0{,}65\\)</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Oberoende betyder \\(P(A\\text{ och }B)=P(A)\\cdot P(B)\\). Dra bort det som räknas två gånger när du adderar.</p>",
+    "svarstyp": "flera_delar",
+    "svarFormat": [
+      "sannolikhet",
+      "sannolikhet"
+    ],
+    "rättSvar": [
+      0.3,
+      0.65
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "P(B)",
+      "P(A eller B)"
+    ]
+  },
+  {
+    "id": "5.661",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "antal kast för minst en sexa",
+    "t": "<p>Hur många gånger måste man minst kasta en tärning för att sannolikheten att få minst en sexa ska bli större än 0,5?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(\\text{minst en sexa på }n\\text{ kast})=1-\\left(\\frac56\\right)^n\\]</div></li><li><div class=\"facit-matte\">\\[1-\\left(\\frac56\\right)^3\\approx0{,}42,\\quad 1-\\left(\\frac56\\right)^4\\approx0{,}52\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 kast</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Pröva n = 1, 2, 3, … med komplementhändelsen.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0
+  },
+  {
+    "id": "5.662",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "antal skott för minst en träff",
+    "t": "<p>En spelare träffar med sannolikheten 0,3 per skott. Skotten är oberoende. Hur många skott behövs minst för att sannolikheten för minst en träff ska vara större än 0,9?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1-0{,}7^n>0{,}9\\Leftrightarrow0{,}7^n<0{,}1\\]</div></li><li><div class=\"facit-matte\">\\[0{,}7^6\\approx0{,}118,\\quad 0{,}7^7\\approx0{,}082\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 skott</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Sannolikheten att missa alla n skott är \\(0{,}7^n\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0
+  },
+  {
+    "id": "5.663",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "pröva om händelser är oberoende",
+    "t": "<p>För två händelser gäller \\(P(A)=0{,}6\\), \\(P(B)=0{,}3\\) och \\(P(A\\text{ och }B)=0{,}24\\). Är A och B oberoende?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(A)\\cdot P(B)=0{,}6\\cdot0{,}3=0{,}18\\]</div></li><li><p>\\(0{,}18\\ne0{,}24\\), så A och B är inte oberoende. Att A inträffar ökar chansen för B.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej</p></div>",
+    "familj": "Multiplikationsprincipen",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Om A och B är oberoende gäller \\(P(A\\text{ och }B)=P(A)\\cdot P(B)\\).</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Ja, eftersom 0,24 är mindre än 0,3",
+        "ratt": false,
+        "kommentar": "Det räcker inte. Jämför med produkten 0,6 · 0,3."
+      },
+      {
+        "txt": "Nej, eftersom \\(0{,}6\\cdot0{,}3=0{,}18\\ne0{,}24\\)",
+        "ratt": true
+      },
+      {
+        "txt": "Ja, eftersom 0,6 + 0,3 < 1",
+        "ratt": false,
+        "kommentar": "Summan säger inget om oberoende."
+      },
+      {
+        "txt": "Det går inte att avgöra",
+        "ratt": false,
+        "kommentar": "Jämför \\(P(A\\text{ och }B)\\) med \\(P(A)\\cdot P(B)\\)."
+      }
+    ]
+  },
+  {
+    "id": "5.664",
+    "kap": 5,
+    "omr": "oberoende_handelser",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "bäst av tre matcher",
+    "t": "<p>Lag A vinner en match mot lag B med sannolikheten 0,6, och matcherna är oberoende. De möts i en serie där det lag som först vinner två matcher vinner serien. Hur stor är sannolikheten att A vinner serien?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>A vinner med 2–0 (VV) eller 2–1 (FVV eller VFV).</p></li><li><div class=\"facit-matte\">\\[0{,}6^2+2\\cdot0{,}6\\cdot0{,}4\\cdot0{,}6=0{,}36+0{,}288=0{,}648\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,648</p></div>",
+    "familj": "Exakt antal träffar",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Skriv upp alla ordningar där A vinner två matcher innan B gör det.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "sannolikhet",
+    "rättSvar": 0.648,
+    "tolerans": 0
   }
 ];

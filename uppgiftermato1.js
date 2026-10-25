@@ -13182,39 +13182,39 @@ window.BANKMATO1 = [
   ]
 },
   {
-    "id": "2.02",
-    "kap": 2,
-    "omr": "derivata_potens",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Bestäm derivatan av funktionen</p><p>\\[f(x)=2x^4-3x^3+5x-7.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd potensregeln</p><p>För varje term används \\((ax^n)\\prime=anx^{n-1}\\). En konstant har derivatan noll.</p></li><li><p class=\"facit-rubrik\">Derivera term för term</p><div class=\"facit-matte\">\\[f\\prime(x)=2\\cdot4x^3-3\\cdot3x^2+5-0.\\]</div></li><li><p class=\"facit-rubrik\">Förenkla</p><div class=\"facit-matte\">\\[f\\prime(x)=8x^3-9x^2+5.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f\\prime(x)=8x^3-9x^2+5\\).</p></div>",
-    "familj": "Negativa exponenter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": "8x^3-9x^2+5",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Viktigt steg: Det centrala steget är potensregeln. Behandla termerna oberoende av varandra och förenkla först efter deriveringen. Då minskar risken att en exponent eller koefficient tappas bort.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "deriveringsregler"
-    ],
-    "familjTidigare": [
-      "Derivera polynom med potensregeln"
-    ]
-  },
+  "id": "2.02",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Bestäm derivatan av funktionen</p><p>\\[f(x)=2x^4-3x^3+5x-7.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd potensregeln</p><p>För varje term används \\((ax^n)\\prime=anx^{n-1}\\). En konstant har derivatan noll.</p></li><li><p class=\"facit-rubrik\">Derivera term för term</p><p>Termernas derivator är \\(2\\cdot4x^3\\), \\(-3\\cdot3x^2\\), 5 och 0.</p></li><li><p class=\"facit-rubrik\">Förenkla</p><div class=\"facit-matte\">\\[f\\prime(x)=8x^3-9x^2+5.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f\\prime(x)=8x^3-9x^2+5\\).</p></div>",
+  "familj": "Negativa exponenter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "uttryck",
+  "rättSvar": "8x^3-9x^2+5",
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "uttryck",
+  "ledtrad": "<p>Viktigt steg: Det centrala steget är potensregeln. Behandla termerna oberoende av varandra och förenkla först efter deriveringen. Då minskar risken att en exponent eller koefficient tappas bort.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "deriveringsregler"
+  ],
+  "familjTidigare": [
+    "Derivera polynom med potensregeln"
+  ]
+},
   {
     "id": "2.03",
     "kap": 2,
@@ -21930,39 +21930,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "2.217",
-    "kap": 2,
-    "omr": "derivata_potens",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Derivera funktionen och förenkla svaret:</p><p>\\[g(x)=\\frac{4x^3-6}{x^2}.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förenkla <strong>före</strong> derivering:</p><p>\\[g(x)=4x-6x^{-2}.\\]</p><p>\\[g^{\\prime}(x)=4+12x^{-3}=\\boxed{4+\\frac{12}{x^3}}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4+\\dfrac{12}{x^3}\\)</strong></p></div>",
-    "familj": "Negativa exponenter",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": "4+(12)/(x^3)",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Viktigt steg: Varje term deriveras för sig. För en term \\(ax^n\\) blir derivatan \\(anx^{n-1}\\); det gäller även negativa och bråkiga exponenter. Kontrollera särskilt tecken och den nya exponenten innan termerna sätts ihop igen.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "deriveringsregler"
-    ],
-    "familjTidigare": [
-      "Derivera potensfunktioner med bråk- och negativa exponenter"
-    ]
-  },
+  "id": "2.217",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Derivera funktionen och förenkla svaret:</p><p>\\[g(x)=\\frac{4x^3-6}{x^2}.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Förenkla <strong>före</strong> derivering:</p><p>\\[g(x)=4x-6x^{-2}.\\]</p><p>\\[g^{\\prime}(x)=4+12x^{-3}=\\boxed{4+\\frac{12}{x^3}}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4+\\dfrac{12}{x^3}\\)</strong></p></div>",
+  "familj": "Negativa exponenter",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "uttryck",
+  "rättSvar": "4+(12)/(x^3)",
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "uttryck",
+  "ledtrad": "<p>Viktigt steg: Varje term deriveras för sig. För en term \\(ax^n\\) blir derivatan \\(anx^{n-1}\\); det gäller även negativa och bråkiga exponenter. Kontrollera särskilt tecken och den nya exponenten innan termerna sätts ihop igen.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "deriveringsregler"
+  ],
+  "familjTidigare": [
+    "Derivera potensfunktioner med bråk- och negativa exponenter"
+  ]
+},
   {
     "id": "2.218",
     "kap": 2,
@@ -111954,6 +111954,698 @@ window.BANKMATO1 = [
   "svarstyp": "uttryck",
   "svarFormat": "uttryck",
   "tolerans": null
-}
+},
+  {
+  "id": "2.1221",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=ax^n\\) för x &gt; 0. Tabellen anger både ett funktionsvärde och en derivata. Bestäm a och n.</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Villkor</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Värde</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">\\(f(1)\\)</td><td style=\"padding:8px;border:1px solid #8796a5\">6</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">\\(f'(1)\\)</td><td style=\"padding:8px;border:1px solid #8796a5\">9</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid x = 1 är 1ⁿ = 1, så f(1) = a = 6.</p></li><li><p>Potensregeln ger f′(x) = an xⁿ⁻¹. Använd nu derivatans värde.</p><div class=\"facit-matte\">\\[6n=9\\Rightarrow n=\\frac32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: a = 6 och n = 1,5.</strong></p></div>",
+  "ledtrad": "<p>Funktionsvärdet och derivatan ger två olika villkor.</p>",
+  "rättSvar": [
+    6,
+    1.5
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "n"
+  ]
+},
+  {
+  "id": "2.1222",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=x^n\\), där n &gt; 0. Tangentens lutning vid x = 8 är 16 gånger lutningen vid x = 2. Bestäm n.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är n xⁿ⁻¹. Jämför de två lutningarna genom att bilda en kvot.</p><div class=\"facit-matte\">\\[\\frac{n\\cdot8^{n-1}}{n\\cdot2^{n-1}}=16\\]</div></li><li><p>n är positivt och kan förkortas bort.</p><div class=\"facit-matte\">\\[4^{n-1}=16=4^2\\]</div></li><li><p>Därför är n−1 = 2 och n = 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar: n = 3.</strong></p></div>",
+  "ledtrad": "<p>Uttryck båda lutningarna med potensregeln och jämför dem.</p>",
+  "rättSvar": 3,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1223",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen \\(f(x)=a\\sqrt{x}+\\frac b x\\) går genom (1, 6) och har en vågrät tangent där. Bestäm a och b.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Punkten ger a+b = 6. En vågrät tangent betyder f′(1) = 0.</p></li><li><p>Skriv termerna som potenser och derivera.</p><div class=\"facit-matte\">\\[f'(x)=\\frac a{2\\sqrt{x}}-\\frac b{x^2}\\]</div></li><li><p>Vid x = 1 får vi a/2−b = 0. Alltså är b = a/2 och 3a/2 = 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a = 4 och b = 2.</strong></p></div>",
+  "ledtrad": "<p>Översätt punkt och vågrät tangent till var sitt villkor.</p>",
+  "rättSvar": [
+    4,
+    2
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ]
+},
+  {
+  "id": "2.1224",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=x^2+\\frac kx\\) för x &gt; 0. Bestäm k så att grafen har en vågrät tangent vid x = 2.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En vågrät tangent betyder att derivatan är noll. Kvottermen skrivs kx⁻¹.</p><div class=\"facit-matte\">\\[f'(x)=2x-kx^{-2}\\]</div></li><li><p>Sätt in x = 2 och lös villkoret.</p><div class=\"facit-matte\">\\[4-\\frac k4=0\\Rightarrow k=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: k = 16.</strong></p></div>",
+  "ledtrad": "<p>Vad måste derivatan vara när tangenten är vågrät?</p>",
+  "rättSvar": 16,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1225",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>För vilket positivt x-värde är grafens tangent vågrät?</p><div class=\"facit-matte\">\\[f(x)=x\\sqrt{x}-12\\sqrt{x}\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv x√x som x³ᐟ² och derivera.</p><div class=\"facit-matte\">\\[f'(x)=\\frac32\\sqrt{x}-\\frac6{\\sqrt{x}}\\]</div></li><li><p>Sätt derivatan till noll. Eftersom x > 0 får vi multiplicera med 2√x.</p><div class=\"facit-matte\">\\[3x-12=0\\Rightarrow x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: x = 4.</strong></p></div>",
+  "ledtrad": "<p>Skriv båda termerna som potenser innan du deriverar.</p>",
+  "rättSvar": 4,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1226",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=\\dfrac{x^3+4x}{\\sqrt{x}}\\) för x &gt; 0. Vilket påstående med motivering är korrekt?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela upp kvoten och använd potenslagarna.</p><div class=\"facit-matte\">\\[f(x)=x^{5/2}+4x^{1/2}\\]</div></li><li><p>Derivera.</p><div class=\"facit-matte\">\\[f'(x)=\\frac52x^{3/2}+2x^{-1/2}\\]</div></li><li><p>Båda termerna är positiva när x > 0. Funktionen är därför växande på hela sin definitionsmängd.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Funktionen växer eftersom båda termerna i derivatan är positiva.</strong></p></div>",
+  "ledtrad": "<p>En kvot kan ibland skrivas som en summa av potenser.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "Funktionen avtar eftersom x finns i nämnaren.",
+      "ratt": false
+    },
+    {
+      "txt": "Funktionen har ett minimum eftersom derivatan byter tecken.",
+      "ratt": false
+    },
+    {
+      "txt": "Funktionen växer eftersom båda termerna i derivatan är positiva.",
+      "ratt": true
+    },
+    {
+      "txt": "Funktionen är konstant eftersom alla termer innehåller x.",
+      "ratt": false
+    }
+  ]
+},
+  {
+  "id": "2.1227",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En tangent till \\(y=\\sqrt{x}\\) skär x-axeln vid −9. Bestäm tangentpunktens x-koordinat exakt. Figuren visar situationen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 355\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Rotkurva och tangent i en okänd punkt. Tangenten skär x-axeln vid −9.\"><title>Rotkurva och tangent i en okänd punkt. Tangenten skär x-axeln vid −9.</title><rect width=\"500\" height=\"355\" fill=\"white\" rx=\"10\"/><path d=\"M104.64285714285714 50V250\" stroke=\"#d6e1ea\"/><text x=\"104.64285714285714\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−9</text><path d=\"M223.57142857142858 50V250\" stroke=\"#d6e1ea\"/><text x=\"223.57142857142858\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 216.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"222.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M223.571 45V250 M65 216.667H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"223.571,216.667 224.893,206.126 226.214,201.760 227.536,198.409 228.857,195.585 230.179,193.096 231.500,190.847 232.821,188.778 234.143,186.852 235.464,185.044 236.786,183.333 238.107,181.706 239.429,180.152 240.750,178.661 242.071,177.226 243.393,175.842 244.714,174.503 246.036,173.205 247.357,171.945 248.679,170.720 250.000,169.526 251.321,168.362 252.643,167.225 253.964,166.114 255.286,165.027 256.607,163.962 257.929,162.918 259.250,161.894 260.571,160.889 261.893,159.902 263.214,158.932 264.536,157.977 265.857,157.038 267.179,156.114 268.500,155.203 269.821,154.306 271.143,153.421 272.464,152.549 273.786,151.688 275.107,150.839 276.429,150.000 277.750,149.172 279.071,148.354 280.393,147.545 281.714,146.746 283.036,145.956 284.357,145.175 285.679,144.402 287.000,143.637 288.321,142.880 289.643,142.131 290.964,141.389 292.286,140.655 293.607,139.928 294.929,139.207 296.250,138.493 297.571,137.786 298.893,137.084 300.214,136.389 301.536,135.700 302.857,135.017 304.179,134.339 305.500,133.667 306.821,133.001 308.143,132.339 309.464,131.683 310.786,131.032 312.107,130.385 313.429,129.744 314.750,129.107 316.071,128.475 317.393,127.847 318.714,127.224 320.036,126.605 321.357,125.990 322.679,125.380 324.000,124.773 325.321,124.170 326.643,123.572 327.964,122.977 329.286,122.386 330.607,121.798 331.929,121.215 333.250,120.634 334.571,120.057 335.893,119.484 337.214,118.914 338.536,118.347 339.857,117.784 341.179,117.224 342.500,116.667 343.821,116.113 345.143,115.562 346.464,115.014 347.786,114.469 349.107,113.926 350.429,113.387 351.750,112.851 353.071,112.317 354.393,111.786 355.714,111.257 357.036,110.732 358.357,110.209 359.679,109.688 361.000,109.170 362.321,108.654 363.643,108.141 364.964,107.630 366.286,107.122 367.607,106.616 368.929,106.113 370.250,105.611 371.571,105.112 372.893,104.615 374.214,104.120 375.536,103.628 376.857,103.137 378.179,102.649 379.500,102.163 380.821,101.679 382.143,101.197 383.464,100.716 384.786,100.238 386.107,99.762 387.429,99.288 388.750,98.816 390.071,98.345 391.393,97.876 392.714,97.410 394.036,96.945 395.357,96.482 396.679,96.020 398.000,95.561 399.321,95.103 400.643,94.647 401.964,94.192 403.286,93.739 404.607,93.288 405.929,92.839 407.250,92.391 408.571,91.945 409.893,91.500 411.214,91.057 412.536,90.616 413.857,90.176 415.179,89.737 416.500,89.300 417.821,88.865 419.143,88.431 420.464,87.998 421.786,87.567 423.107,87.138 424.429,86.709 425.750,86.283 427.071,85.857 428.393,85.433 429.714,85.011 431.036,84.589 432.357,84.169 433.679,83.751 435.000,83.333\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"65.000,233.333 435.000,77.778\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"342.5\" cy=\"116.66666666666666\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"250\" y=\"340\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Blå: funktion. Orange: tangent.</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla tangentpunktens x-koordinat a. Punkten är (a, √a), och derivatan ger lutningen 1/(2√a).</p></li><li><p>Samma lutning fås från tangentens två punkter (−9, 0) och (a, √a).</p><div class=\"facit-matte\">\\[\\frac{\\sqrt a}{a+9}=\\frac1{2\\sqrt a}\\]</div></li><li><p>Multiplicera med 2√a(a+9).</p><div class=\"facit-matte\">\\[2a=a+9\\Rightarrow a=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: x = 9.</strong></p></div>",
+  "ledtrad": "<p>Beskriv tangentens lutning både med derivatan och med två punkter.</p>",
+  "rättSvar": 9,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1228",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Linjen \\(y=-3x+9\\) tangerar grafen till \\(f(x)=a/x^2\\) i en punkt med positiv x-koordinat. Bestäm a exakt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 355\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Kurva a/x² och linjen y=−3x+9 som tangerar den. Skalan medger ingen säker exakt tangentpunkt.\"><title>Kurva a/x² och linjen y=−3x+9 som tangerar den. Skalan medger ingen säker exakt tangentpunkt.</title><rect width=\"500\" height=\"355\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M287.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"287.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 70.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"76.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">9</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"146.400,51.653 147.880,58.673 149.360,65.328 150.840,71.641 152.320,77.636 153.800,83.333 155.280,88.753 156.760,93.913 158.240,98.828 159.720,103.516 161.200,107.988 162.680,112.259 164.160,116.340 165.640,120.242 167.120,123.976 168.600,127.551 170.080,130.976 171.560,134.259 173.040,137.409 174.520,140.431 176.000,143.333 177.480,146.122 178.960,148.802 180.440,151.381 181.920,153.862 183.400,156.250 184.880,158.551 186.360,160.767 187.840,162.905 189.320,164.966 190.800,166.955 192.280,168.875 193.760,170.729 195.240,172.521 196.720,174.252 198.200,175.926 199.680,177.545 201.160,179.112 202.640,180.628 204.120,182.096 205.600,183.518 207.080,184.896 208.560,186.231 210.040,187.526 211.520,188.782 213.000,190.000 214.480,191.182 215.960,192.330 217.440,193.444 218.920,194.527 220.400,195.578 221.880,196.600 223.360,197.594 224.840,198.560 226.320,199.499 227.800,200.413 229.280,201.303 230.760,202.168 232.240,203.011 233.720,203.832 235.200,204.631 236.680,205.410 238.160,206.169 239.640,206.909 241.120,207.630 242.600,208.333 244.080,209.019 245.560,209.688 247.040,210.341 248.520,210.978 250.000,211.600 251.480,212.207 252.960,212.800 254.440,213.379 255.920,213.944 257.400,214.497 258.880,215.037 260.360,215.565 261.840,216.081 263.320,216.585 264.800,217.078 266.280,217.561 267.760,218.032 269.240,218.494 270.720,218.946 272.200,219.388 273.680,219.820 275.160,220.244 276.640,220.659 278.120,221.065 279.600,221.463 281.080,221.852 282.560,222.234 284.040,222.608 285.520,222.974 287.000,223.333 288.480,223.685 289.960,224.030 291.440,224.369 292.920,224.701 294.400,225.026 295.880,225.345 297.360,225.658 298.840,225.965 300.320,226.267 301.800,226.562 303.280,226.853 304.760,227.138 306.240,227.417 307.720,227.692 309.200,227.961 310.680,228.226 312.160,228.486 313.640,228.741 315.120,228.992 316.600,229.239 318.080,229.481 319.560,229.719 321.040,229.953 322.520,230.182 324.000,230.408 325.480,230.630 326.960,230.848 328.440,231.063 329.920,231.274 331.400,231.481 332.880,231.686 334.360,231.886 335.840,232.084 337.320,232.278 338.800,232.469 340.280,232.657 341.760,232.842 343.240,233.024 344.720,233.203 346.200,233.380 347.680,233.553 349.160,233.724 350.640,233.892 352.120,234.058 353.600,234.221 355.080,234.382 356.560,234.540 358.040,234.695 359.520,234.849 361.000,235.000 362.480,235.149 363.960,235.296 365.440,235.440 366.920,235.582 368.400,235.723 369.880,235.861 371.360,235.997 372.840,236.132 374.320,236.264 375.800,236.395 377.280,236.523 378.760,236.650 380.240,236.775 381.720,236.898 383.200,237.020 384.680,237.140 386.160,237.258 387.640,237.375 389.120,237.490 390.600,237.603 392.080,237.715 393.560,237.826 395.040,237.935 396.520,238.042 398.000,238.148 399.480,238.253 400.960,238.356 402.440,238.458 403.920,238.559 405.400,238.658 406.880,238.756 408.360,238.853 409.840,238.948 411.320,239.042 412.800,239.135 414.280,239.227 415.760,239.318 417.240,239.408 418.720,239.496 420.200,239.583 421.680,239.670 423.160,239.755 424.640,239.839 426.120,239.922 427.600,240.004 429.080,240.085 430.560,240.165 432.040,240.245 433.520,240.323 435.000,240.400\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"65.000,70.000 287.000,250.000\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"340\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Blå: funktion. Orange: tangent.</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om tangentpunkten har x-koordinaten u måste både höjden och lutningen stämma.</p><div class=\"facit-matte\">\\[\\frac a{u^2}=-3u+9\\]</div><div class=\"facit-matte\">\\[-\\frac{2a}{u^3}=-3\\]</div></li><li><p>Lutningsvillkoret ger a = 3u³/2. Sätt in det i höjdvillkoret.</p><div class=\"facit-matte\">\\[\\frac32u=-3u+9\\Rightarrow u=2\\]</div></li><li><p>Då är a = 3·2³/2 = 12.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a = 12.</strong></p></div>",
+  "ledtrad": "<p>En tangent har både samma höjd och samma lutning som kurvan i tangentpunkten.</p>",
+  "rättSvar": 12,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1229",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=x^n\\), där n är ett heltal och n ≥ 2. Det gäller att \\(f''(1)=20\\). Bestäm n.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera två gånger.</p><div class=\"facit-matte\">\\[f''(x)=n(n-1)x^{n-2}\\]</div></li><li><p>Vid x = 1 blir villkoret n(n−1) = 20.</p><div class=\"facit-matte\">\\[n^2-n-20=0\\]</div><div class=\"facit-matte\">\\[(n-5)(n+4)=0\\]</div></li><li><p>Rötterna är 5 och −4. Villkoret n ≥ 2 gör att endast 5 är tillåtet.</p></li></ol><p class=\"facit-svar\"><strong>Svar: n = 5.</strong></p></div>",
+  "ledtrad": "<p>Hur ser koefficienten ut efter två deriveringar?</p>",
+  "rättSvar": 5,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1230",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En elev deriverar \\(f(x)=1/\\sqrt{x}\\) och får felaktigt \\(-1/(2\\sqrt{x})\\). Vid x = 1 råkar elevens värde bli rätt. Hur många gånger så stort som den riktiga derivatans belopp blir elevens belopp vid x = 4?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv f(x) = x⁻¹ᐟ². Exponenten ska minska med 1 vid derivering.</p><div class=\"facit-matte\">\\[f'(x)=-\\frac12x^{-3/2}\\]</div></li><li><p>Vid x = 4 är den riktiga derivatan −1/16. Elevens uttryck ger −1/4.</p></li><li><p>Jämför beloppen.</p><div class=\"facit-matte\">\\[\\frac{1/4}{1/16}=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 4 gånger.</strong></p></div>",
+  "ledtrad": "<p>Kontrollera exponenten efter deriveringen; ett enda provvärde räcker inte.</p>",
+  "rättSvar": 4,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1231",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En vagns läge ges av \\(s(t)=20-80/t\\) för t ≥ 4, där s mäts i meter och t i sekunder. Vilken hastighet har vagnen när dess läge är 10 m? Svara i m/s med två decimaler.</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Storhet</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Enhet</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">s(t): läge</td><td style=\"padding:8px;border:1px solid #8796a5\">m</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">t: tid</td><td style=\"padding:8px;border:1px solid #8796a5\">s</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bestäm först när vagnen är vid 10 m.</p><div class=\"facit-matte\">\\[20-\\frac{80}{t}=10\\Rightarrow t=8\\]</div></li><li><p>Hastigheten är lägets derivata. Skriv −80/t som −80t⁻¹.</p><div class=\"facit-matte\">\\[s'(t)=80t^{-2}\\]</div></li><li><p>Beräkna hastigheten vid t = 8.</p><div class=\"facit-matte\">\\[s'(8)=\\frac{80}{64}=1{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 1,25 m/s.</strong></p></div>",
+  "ledtrad": "<p>Den sökta tidpunkten ges av läget, men hastigheten fås från derivatan.</p>",
+  "rättSvar": 1.25,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "m/s"
+},
+  {
+  "id": "2.1232",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=\\sqrt{x}\\). Vid vilket x-värde har tangenten samma lutning som sekanten genom (1, 1) och (9, 3)? Svara exakt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 355\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Rotkurva med en sekant genom (1,1) och (9,3).\"><title>Rotkurva med en sekant genom (1,1) och (9,3).</title><rect width=\"500\" height=\"355\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M102.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"102.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M213.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"213.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M398.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"398.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">9</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,250.000 66.850,238.820 68.700,234.189 70.550,230.635 72.400,227.639 74.250,225.000 76.100,222.614 77.950,220.420 79.800,218.377 81.650,216.459 83.500,214.645 85.350,212.919 87.200,211.270 89.050,209.689 90.900,208.167 92.750,206.699 94.600,205.279 96.450,203.902 98.300,202.566 100.150,201.266 102.000,200.000 103.850,198.765 105.700,197.560 107.550,196.381 109.400,195.228 111.250,194.098 113.100,192.991 114.950,191.905 116.800,190.839 118.650,189.792 120.500,188.763 122.350,187.751 124.200,186.754 126.050,185.774 127.900,184.808 129.750,183.856 131.600,182.918 133.450,181.993 135.300,181.080 137.150,180.179 139.000,179.289 140.850,178.411 142.700,177.543 144.550,176.686 146.400,175.838 148.250,175.000 150.100,174.171 151.950,173.351 153.800,172.540 155.650,171.738 157.500,170.943 159.350,170.156 161.200,169.377 163.050,168.606 164.900,167.842 166.750,167.084 168.600,166.334 170.450,165.590 172.300,164.853 174.150,164.122 176.000,163.397 177.850,162.679 179.700,161.966 181.550,161.259 183.400,160.557 185.250,159.861 187.100,159.170 188.950,158.485 190.800,157.805 192.650,157.129 194.500,156.459 196.350,155.793 198.200,155.132 200.050,154.475 201.900,153.823 203.750,153.175 205.600,152.532 207.450,151.893 209.300,151.258 211.150,150.627 213.000,150.000 214.850,149.377 216.700,148.758 218.550,148.142 220.400,147.530 222.250,146.922 224.100,146.318 225.950,145.717 227.800,145.119 229.650,144.525 231.500,143.934 233.350,143.346 235.200,142.762 237.050,142.181 238.900,141.603 240.750,141.028 242.600,140.455 244.450,139.886 246.300,139.320 248.150,138.757 250.000,138.197 251.850,137.639 253.700,137.084 255.550,136.532 257.400,135.982 259.250,135.436 261.100,134.891 262.950,134.350 264.800,133.810 266.650,133.274 268.500,132.740 270.350,132.208 272.200,131.678 274.050,131.151 275.900,130.627 277.750,130.104 279.600,129.584 281.450,129.066 283.300,128.550 285.150,128.037 287.000,127.526 288.850,127.016 290.700,126.509 292.550,126.004 294.400,125.501 296.250,125.000 298.100,124.501 299.950,124.004 301.800,123.509 303.650,123.016 305.500,122.525 307.350,122.035 309.200,121.548 311.050,121.062 312.900,120.578 314.750,120.096 316.600,119.616 318.450,119.137 320.300,118.661 322.150,118.186 324.000,117.712 325.850,117.241 327.700,116.771 329.550,116.303 331.400,115.836 333.250,115.371 335.100,114.907 336.950,114.446 338.800,113.985 340.650,113.527 342.500,113.069 344.350,112.614 346.200,112.160 348.050,111.707 349.900,111.256 351.750,110.806 353.600,110.358 355.450,109.911 357.300,109.465 359.150,109.021 361.000,108.579 362.850,108.137 364.700,107.698 366.550,107.259 368.400,106.822 370.250,106.386 372.100,105.951 373.950,105.518 375.800,105.086 377.650,104.656 379.500,104.226 381.350,103.798 383.200,103.371 385.050,102.946 386.900,102.521 388.750,102.098 390.600,101.676 392.450,101.255 394.300,100.836 396.150,100.417 398.000,100.000 399.850,99.584 401.700,99.169 403.550,98.755 405.400,98.342 407.250,97.931 409.100,97.520 410.950,97.111 412.800,96.703 414.650,96.296 416.500,95.890 418.350,95.485 420.200,95.081 422.050,94.678 423.900,94.276 425.750,93.875 427.600,93.475 429.450,93.076 431.300,92.679 433.150,92.282 435.000,91.886\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"102.000,200.000 398.000,100.000\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"102.0\" cy=\"200.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"398.0\" cy=\"100.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"250\" y=\"340\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Blå: funktion. Orange: sekant.</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sekantens lutning är förändringskvoten.</p><div class=\"facit-matte\">\\[k=\\frac{3-1}{9-1}=\\frac14\\]</div></li><li><p>Sätt derivatan lika med sekantens lutning.</p><div class=\"facit-matte\">\\[\\frac1{2\\sqrt{x}}=\\frac14\\]</div></li><li><p>Då är √x = 2 och x = 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x = 4.</strong></p></div>",
+  "ledtrad": "<p>Jämför en medellutning med den lokala lutningen.</p>",
+  "rättSvar": 4,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1233",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Efterfrågan beskrivs av \\(D(p)=120000p^{-1{,}5}\\), där p är priset i kronor. Använd tangenten vid p = 100 för att uppskatta hur många procent efterfrågan minskar när priset höjs från 100 till 105 kr. Svara med en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beräkna efterfrågan och lutningen vid det gamla priset.</p><div class=\"facit-matte\">\\[D(100)=120\\]</div><div class=\"facit-matte\">\\[D'(p)=-180000p^{-2{,}5}\\]</div><div class=\"facit-matte\">\\[D'(100)=-1{,}8\\]</div></li><li><p>Tangenten uppskattar ändringen vid en höjning med 5 kr till −1,8·5 = −9.</p></li><li><p>Minskningen jämförs med efterfrågan före höjningen.</p><div class=\"facit-matte\">\\[\\frac9{120}\\cdot100=7{,}5\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 7,5 %.</strong></p></div>",
+  "ledtrad": "<p>Tangentens lutning uppskattar ändringen i antal per krona, inte procent direkt.</p>",
+  "rättSvar": 7.5,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.05,
+  "svarEnhet": "%"
+},
+  {
+  "id": "2.1234",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två funktioner är \\(f(x)=\\sqrt{x}-2/x\\) och \\(g(x)=\\sqrt{x}+3/x\\) för x &gt; 0. Kan deras tangenter vara parallella vid samma x-värde? Välj rätt svar med motivering.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Parallella tangenter måste ha lika derivator.</p><div class=\"facit-matte\">\\[f'(x)=\\frac1{2\\sqrt{x}}+\\frac2{x^2}\\]</div><div class=\"facit-matte\">\\[g'(x)=\\frac1{2\\sqrt{x}}-\\frac3{x^2}\\]</div></li><li><p>Skillnaden är 5/x², som är positiv för alla tillåtna x. Derivatorna kan därför aldrig vara lika.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Nej, f′(x)−g′(x) är alltid positiv.</strong></p></div>",
+  "ledtrad": "<p>Jämför derivatornas skillnad i stället för att försöka gissa ett x-värde.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "Ja, eftersom båda innehåller √x.",
+      "ratt": false
+    },
+    {
+      "txt": "Ja, vid x = 1 eftersom x² = 1.",
+      "ratt": false
+    },
+    {
+      "txt": "Nej, eftersom graferna har olika höjd.",
+      "ratt": false
+    },
+    {
+      "txt": "Nej, f′(x)−g′(x) är alltid positiv.",
+      "ratt": true
+    }
+  ]
+},
+  {
+  "id": "2.1235",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=a/x^2+b/x\\). Tangentens lutning är −7 vid x = 1 och −1,25 vid x = 2. Bestäm a och b.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera de två negativa potenserna.</p><div class=\"facit-matte\">\\[f'(x)=-2ax^{-3}-bx^{-2}\\]</div></li><li><p>De två lutningarna ger</p><div class=\"facit-matte\">\\[-2a-b=-7\\]</div><div class=\"facit-matte\">\\[-a/4-b/4=-1{,}25\\]</div></li><li><p>Den andra ekvationen ger a+b = 5. Den första ger 2a+b = 7. Subtraktion ger a = 2 och sedan b = 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a = 2 och b = 3.</strong></p></div>",
+  "ledtrad": "<p>Samma derivata ska uppfylla båda lutningsvillkoren.</p>",
+  "rättSvar": [
+    2,
+    3
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ]
+},
+  {
+  "id": "2.1236",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Bestäm det minsta värdet av \\(f(x)=x^2-4\\sqrt{x}\\) för x &gt; 0. Svara exakt.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera och samla uttrycket över en positiv nämnare.</p><div class=\"facit-matte\">\\[f'(x)=2x-\\frac2{\\sqrt{x}}\\]</div><div class=\"facit-matte\">\\[=\\frac{2(x\\sqrt{x}-1)}{\\sqrt{x}}\\]</div></li><li><p>Derivatan är noll vid x = 1. För 0 < x < 1 är den negativ, och för x > 1 är den positiv. Funktionen avtar alltså fram till 1 och växer därefter.</p></li><li><p>Beräkna funktionens värde, inte bara x-koordinaten.</p><div class=\"facit-matte\">\\[f(1)=1-4=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: Det minsta värdet är −3.</strong></p></div>",
+  "ledtrad": "<p>Efter att du hittat en stationär punkt behöver du kontrollera tecknet och beräkna funktionsvärdet.</p>",
+  "rättSvar": -3,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1237",
+  "kap": 2,
+  "omr": "derivata_potens",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Potensderivata – samband och parametrar",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=\\dfrac{x^2-1}{x^{3/2}}\\) för x &gt; 0. Vilken beskrivning av derivatan f′ är korrekt? Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv om funktionen som två potenser.</p><div class=\"facit-matte\">\\[f(x)=x^{1/2}-x^{-3/2}\\]</div></li><li><p>Derivatan är positiv eftersom båda termerna är positiva.</p><div class=\"facit-matte\">\\[f'(x)=\\frac12x^{-1/2}+\\frac32x^{-5/2}\\]</div></li><li><p>När x ökar minskar båda termerna, eftersom exponenterna är negativa. Därför är f′ positiv och avtagande.</p></li></ol><p class=\"facit-svar\"><strong>Svar: f′ är positiv och avtagande.</strong></p></div>",
+  "ledtrad": "<p>Undersök både tecknet på termerna i derivatan och vad som händer när x ökar.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "f′ är negativ och avtagande.",
+      "ratt": false
+    },
+    {
+      "txt": "f′ är positiv och växande.",
+      "ratt": false
+    },
+    {
+      "txt": "f′ är positiv och avtagande.",
+      "ratt": true
+    },
+    {
+      "txt": "f′ byter tecken vid x = 1.",
+      "ratt": false
+    }
+  ]
+},
+  {
+    "id": "2.1238",
+    "kap": 2,
+    "omr": "derivata_potens",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Potensderivata – samband och parametrar",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionen är \\(f(x)=\\sqrt{x}+c/\\sqrt{x}\\) för x &gt; 0, där c &gt; 0. Funktionens minsta värde är 4. Bestäm c.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera och samla termerna.</p><div class=\"facit-matte\">\\[f'(x)=\\frac{x-c}{2x^{3/2}}\\]</div></li><li><p>Nämnaren är positiv. Derivatan byter tecken från minus till plus vid x = c, så minimivärdet är f(c) = 2√c.</p></li><li><p>Använd det givna minimivärdet.</p><div class=\"facit-matte\">\\[2\\sqrt c=4\\Rightarrow c=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: c = 4.</strong></p></div>",
+    "ledtrad": "<p>Minimipunktens x-värde är inte samma sak som funktionens minsta värde.</p>",
+    "rättSvar": 4,
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "tolerans": null
+  },
+  {
+    "id": "2.1239",
+    "kap": 2,
+    "omr": "derivata_potens",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Potensderivata – samband och parametrar",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Funktionerna är \\(f(x)=x^3\\) och \\(g(x)=-3/x\\), där x ≠ 0. Vid vilka x-värden är deras tangenter parallella med varandra? Jämför tangenter vid samma x-värde och ange alla svar exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Parallella tangenter har lika lutning.</p><div class=\"facit-matte\">\\[f'(x)=3x^2,\\qquad g'(x)=3x^{-2}\\]</div></li><li><p>Sätt derivatorna lika och multiplicera med x², som inte är noll.</p><div class=\"facit-matte\">\\[3x^2=3/x^2\\Rightarrow x^4=1\\]</div></li><li><p>Båda reella lösningarna −1 och 1 är tillåtna. I båda fallen är lutningen 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x = −1 eller x = 1.</strong></p></div>",
+    "ledtrad": "<p>Olika höjd hindrar inte två tangenter från att vara parallella.</p>",
+    "rättSvar": [
+      -1,
+      1
+    ],
+    "svarstyp": "flera_delar",
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "En lösning",
+      "Den andra lösningen"
+    ]
+  },
+  {
+    "id": "2.1240",
+    "kap": 2,
+    "omr": "derivata_potens",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "familj": "Potensderivata – samband och parametrar",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En tangent till \\(f(x)=1/x\\) dras i en punkt P med positiv x-koordinat. Tangenten och koordinataxlarna bildar en triangel. Bestäm triangelns area exakt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 335\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"En tangent till y=1/x i första kvadranten bildar en triangel med koordinataxlarna.\"><title>En tangent till y=1/x i första kvadranten bildar en triangel med koordinataxlarna.</title><rect width=\"500\" height=\"335\" fill=\"white\" rx=\"10\"/><polygon points=\"80,250 400,250 80,40\" fill=\"#e7f3fa\"/><path d=\"M65 250H455 M80 265V25\" stroke=\"#344c60\" stroke-width=\"2\" fill=\"none\"/><path d=\"M80 40L400 250\" stroke=\"#a15320\" stroke-width=\"3\"/><polyline points=\"160.000,40.000 161.600,44.118 163.200,48.077 164.800,51.887 166.400,55.556 168.000,59.091 169.600,62.500 171.200,65.789 172.800,68.966 174.400,72.034 176.000,75.000 177.600,77.869 179.200,80.645 180.800,83.333 182.400,85.938 184.000,88.462 185.600,90.909 187.200,93.284 188.800,95.588 190.400,97.826 192.000,100.000 193.600,102.113 195.200,104.167 196.800,106.164 198.400,108.108 200.000,110.000 201.600,111.842 203.200,113.636 204.800,115.385 206.400,117.089 208.000,118.750 209.600,120.370 211.200,121.951 212.800,123.494 214.400,125.000 216.000,126.471 217.600,127.907 219.200,129.310 220.800,130.682 222.400,132.022 224.000,133.333 225.600,134.615 227.200,135.870 228.800,137.097 230.400,138.298 232.000,139.474 233.600,140.625 235.200,141.753 236.800,142.857 238.400,143.939 240.000,145.000 241.600,146.040 243.200,147.059 244.800,148.058 246.400,149.038 248.000,150.000 249.600,150.943 251.200,151.869 252.800,152.778 254.400,153.670 256.000,154.545 257.600,155.405 259.200,156.250 260.800,157.080 262.400,157.895 264.000,158.696 265.600,159.483 267.200,160.256 268.800,161.017 270.400,161.765 272.000,162.500 273.600,163.223 275.200,163.934 276.800,164.634 278.400,165.323 280.000,166.000 281.600,166.667 283.200,167.323 284.800,167.969 286.400,168.605 288.000,169.231 289.600,169.847 291.200,170.455 292.800,171.053 294.400,171.642 296.000,172.222 297.600,172.794 299.200,173.358 300.800,173.913 302.400,174.460 304.000,175.000 305.600,175.532 307.200,176.056 308.800,176.573 310.400,177.083 312.000,177.586 313.600,178.082 315.200,178.571 316.800,179.054 318.400,179.530 320.000,180.000 321.600,180.464 323.200,180.921 324.800,181.373 326.400,181.818 328.000,182.258 329.600,182.692 331.200,183.121 332.800,183.544 334.400,183.962 336.000,184.375 337.600,184.783 339.200,185.185 340.800,185.583 342.400,185.976 344.000,186.364 345.600,186.747 347.200,187.126 348.800,187.500 350.400,187.870 352.000,188.235 353.600,188.596 355.200,188.953 356.800,189.306 358.400,189.655 360.000,190.000 361.600,190.341 363.200,190.678 364.800,191.011 366.400,191.341 368.000,191.667 369.600,191.989 371.200,192.308 372.800,192.623 374.400,192.935 376.000,193.243 377.600,193.548 379.200,193.850 380.800,194.149 382.400,194.444 384.000,194.737 385.600,195.026 387.200,195.312 388.800,195.596 390.400,195.876 392.000,196.154 393.600,196.429 395.200,196.701 396.800,196.970 398.400,197.236 400.000,197.500 401.600,197.761 403.200,198.020 404.800,198.276 406.400,198.529 408.000,198.780 409.600,199.029 411.200,199.275 412.800,199.519 414.400,199.761 416.000,200.000 417.600,200.237 419.200,200.472 420.800,200.704 422.400,200.935 424.000,201.163 425.600,201.389 427.200,201.613 428.800,201.835 430.400,202.055 432.000,202.273 433.600,202.489 435.200,202.703 436.800,202.915 438.400,203.125 440.000,203.333 441.600,203.540 443.200,203.744 444.800,203.947 446.400,204.148 448.000,204.348\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\"/><circle cx=\"240\" cy=\"145\" r=\"5\" fill=\"#096c9a\"/><text x=\"240\" y=\"184\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">P</text><text x=\"80\" y=\"285\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><text x=\"450\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"60\" y=\"28\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><text x=\"250\" y=\"310\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Orange: tangent. Skuggat: triangel.</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla tangentpunktens x-koordinat a. Punkten är (a, 1/a) och tangentens lutning är −1/a².</p><div class=\"facit-matte\">\\[y-1/a=-(x-a)/a^2\\]</div></li><li><p>Tangentens ekvation kan därför skrivas</p><div class=\"facit-matte\">\\[y=-x/a^2+2/a\\]</div></li><li><p>Skärningarna med axlarna ger basen 2a och höjden 2/a. Arean blir</p><div class=\"facit-matte\">\\[A=\\frac{2a\\cdot(2/a)}2=2\\]</div></li><li><p>Parametern försvinner: arean är samma för varje positivt a.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 2 areaenheter.</strong></p></div>",
+    "ledtrad": "<p>Uttryck tangentens båda axelskärningar med hjälp av samma okända tangentpunkt.</p>",
+    "rättSvar": 2,
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "tolerans": null
+  }
 
 ];

@@ -26,3 +26,16 @@ test('Fysik och andra numeriska enheter behåller tidigare rättningsväg',()=>{
  for(const [format,unit]of [['numeriskt','N'],['numeriskt',null],['grader','°'],['uttryck',null]])assert.equal(c.delSvarRatt('720.01',720,unit,.05,{},0,format),true);
  assert.equal(seen.length,4);
 });
+test('Stora fakultetskvoter förkortas exakt utan flyttalsfel',()=>{
+ for(const [expression,count]of [['7*32!/(2!*30!)',3472],['52!/(5!*47!)',2598960],['23!/(5!*18!)',33649],['40!/(4!*36!)',91390],['100!/(4!*96!)',3921225],['170!/169!',170]]){
+  assert.equal(check(expression,count),true,expression);
+  assert.equal(check(expression,count+1),false,expression);
+  assert.equal(check(`${expression}=${count}`,count),true,expression);
+ }
+ for(const s of ['3472+1/10^12','3472-1/10^12','7*32!/(2!*30!)+1','32!!/30!','(-32)!','171!/170!','0^-1','(99^99)^999','32!/(30!-30!)'])assert.equal(check(s,3472),false,s);
+ assert.equal(check('2^3^2',512),true);
+ assert.equal(check('-2^2+5',1),true);
+ assert.equal(check('2*(2^-1)',1),true);
+ assert.equal(check('4^(1/2)',2),true);
+ assert.equal(check('4!/(4^(1/2))',12),true);
+});

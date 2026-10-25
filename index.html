@@ -4069,7 +4069,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-25-ma2-kap3-etapp1";
+const BANK_VERSION="2026-10-25-matf1-referens";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -11100,6 +11100,47 @@ function primtalsfaktoriseringRatt(anv,facit){
 function antalSattRatt(anv,facit){
   const value=x=>{
     const normalized=normalizeMathInput(x);
+    // Diskreta antal: räkna heltalsuttryck som exakta bråk. Flyttal kan ge
+    // 3471.9999999999995 för 7*32!/(2!*30!), trots att kvoten är exakt 3472.
+    const s=tillNerdamer(normalized).replace(/\s/g,"");
+    if(s.length<=500 && /^[\d+*/^!()\-]+$/.test(s)){
+      let pos=0;
+      const pair=(n,d=1n)=>{
+        if(!d)throw Error('division med noll');
+        if(d<0n){n=-n;d=-d;}
+        if(n.toString().length>1500||d.toString().length>1500)throw Error('storlek');
+        let a=n<0n?-n:n,b=d;while(b){const r=a%b;a=b;b=r;}
+        return [n/a,d/a];
+      };
+      const atom=()=>{
+        let v;
+        if(s[pos]==='('){pos++;v=sum();if(s[pos++]!==')')throw Error('parentes');}
+        else{const m=s.slice(pos).match(/^\d+/);if(!m)throw Error('tal');pos+=m[0].length;v=pair(BigInt(m[0]));}
+        if(s[pos]==='!'){
+          pos++;if(v[1]!==1n||v[0]<0n||v[0]>170n||s[pos]==='!')throw Error('fakultet');
+          let f=1n;for(let i=2n;i<=v[0];i++)f*=i;v=pair(f);
+        }
+        return v;
+      };
+      const power=()=>{let v=atom();if(s[pos]==='^'){
+        pos++;const e=unary();if(e[1]!==1n)throw Error('bråkexponent');
+        if(e[0]<-1000n||e[0]>1000n)throw Error('exponent');
+        const n=e[0]<0n?-e[0]:e[0];
+        if(Number(n)*(v[0].toString().length+v[1].toString().length)>3000)throw Error('storlek');
+        v=e[0]<0n?pair(v[1]**n,v[0]**n):pair(v[0]**n,v[1]**n);
+      }return v;};
+      const unary=()=>{if(s[pos]==='+'||s[pos]==='-'){const sign=s[pos++],v=unary();return sign==='-'?[-v[0],v[1]]:v;}return power();};
+      const product=()=>{let v=unary();while(s[pos]==='*'||s[pos]==='/'){
+        const op=s[pos++],w=unary();v=op==='*'?pair(v[0]*w[0],v[1]*w[1]):pair(v[0]*w[1],v[1]*w[0]);
+      }return v;};
+      const sum=()=>{let v=product();while(s[pos]==='+'||s[pos]==='-'){
+        const op=s[pos++],w=product();v=pair(v[0]*w[1]+(op==='+'?1n:-1n)*w[0]*v[1],v[1]*w[1]);
+      }return v;};
+      try{const [n,d]=sum();return pos===s.length&&d===1n&&n>=0n&&n<=BigInt(Number.MAX_SAFE_INTEGER)?Number(n):NaN;}catch(error){
+        // Rotuttryck får använda den befintliga strikta talparsern.
+        if(error.message!=='bråkexponent')return NaN;
+      }
+    }
     return isPureNumberExpression(normalized)?numericValue(tillNerdamer(normalized)):NaN;
   };
   const expected=value(latexToPlain(String(facit)));

@@ -113289,6 +113289,639 @@ window.BANKMATO1 = [
   "svarstyp": "uttryck",
   "svarFormat": "uttryck",
   "tolerans": null
+},
+  {
+  "id": "2.1241",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Den blå kurvan visar vattenvolymen i en tank. Vid t = 2 h finns 2,6 tusen liter. Tangenten där går genom punkterna (1; 3,2) och (3; 2,0).</p><p>Använd tangenten för att uppskatta hur många procent av vattnet som rinner ut under de följande 10 minuterna. Svara med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 350\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Vattenvolym i tusen liter. Orange tangent vid två timmar.\"><title>Vattenvolym i tusen liter. Orange tangent vid två timmar.</title><rect width=\"500\" height=\"350\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 210.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"216.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 170.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"176.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 130.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"136.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 90.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"96.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Tid (h)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Volym (tusen liter)</text><polyline points=\"65.000,74.000 66.850,74.958 68.700,75.910 70.550,76.858 72.400,77.802 74.250,78.740 76.100,79.674 77.950,80.602 79.800,81.526 81.650,82.446 83.500,83.360 85.350,84.270 87.200,85.174 89.050,86.074 90.900,86.970 92.750,87.860 94.600,88.746 96.450,89.626 98.300,90.502 100.150,91.374 102.000,92.240 103.850,93.102 105.700,93.958 107.550,94.810 109.400,95.658 111.250,96.500 113.100,97.338 114.950,98.170 116.800,98.998 118.650,99.822 120.500,100.640 122.350,101.454 124.200,102.262 126.050,103.066 127.900,103.866 129.750,104.660 131.600,105.450 133.450,106.234 135.300,107.014 137.150,107.790 139.000,108.560 140.850,109.326 142.700,110.086 144.550,110.842 146.400,111.594 148.250,112.340 150.100,113.082 151.950,113.818 153.800,114.550 155.650,115.278 157.500,116.000 159.350,116.718 161.200,117.430 163.050,118.138 164.900,118.842 166.750,119.540 168.600,120.234 170.450,120.922 172.300,121.606 174.150,122.286 176.000,122.960 177.850,123.630 179.700,124.294 181.550,124.954 183.400,125.610 185.250,126.260 187.100,126.906 188.950,127.546 190.800,128.182 192.650,128.814 194.500,129.440 196.350,130.062 198.200,130.678 200.050,131.290 201.900,131.898 203.750,132.500 205.600,133.098 207.450,133.690 209.300,134.278 211.150,134.862 213.000,135.440 214.850,136.014 216.700,136.582 218.550,137.146 220.400,137.706 222.250,138.260 224.100,138.810 225.950,139.354 227.800,139.894 229.650,140.430 231.500,140.960 233.350,141.486 235.200,142.006 237.050,142.522 238.900,143.034 240.750,143.540 242.600,144.042 244.450,144.538 246.300,145.030 248.150,145.518 250.000,146.000 251.850,146.478 253.700,146.950 255.550,147.418 257.400,147.882 259.250,148.340 261.100,148.794 262.950,149.242 264.800,149.686 266.650,150.126 268.500,150.560 270.350,150.990 272.200,151.414 274.050,151.834 275.900,152.250 277.750,152.660 279.600,153.066 281.450,153.466 283.300,153.862 285.150,154.254 287.000,154.640 288.850,155.022 290.700,155.398 292.550,155.770 294.400,156.138 296.250,156.500 298.100,156.858 299.950,157.210 301.800,157.558 303.650,157.902 305.500,158.240 307.350,158.574 309.200,158.902 311.050,159.226 312.900,159.546 314.750,159.860 316.600,160.170 318.450,160.474 320.300,160.774 322.150,161.070 324.000,161.360 325.850,161.646 327.700,161.926 329.550,162.202 331.400,162.474 333.250,162.740 335.100,163.002 336.950,163.258 338.800,163.510 340.650,163.758 342.500,164.000 344.350,164.238 346.200,164.470 348.050,164.698 349.900,164.922 351.750,165.140 353.600,165.354 355.450,165.562 357.300,165.766 359.150,165.966 361.000,166.160 362.850,166.350 364.700,166.534 366.550,166.714 368.400,166.890 370.250,167.060 372.100,167.226 373.950,167.386 375.800,167.542 377.650,167.694 379.500,167.840 381.350,167.982 383.200,168.118 385.050,168.250 386.900,168.378 388.750,168.500 390.600,168.618 392.450,168.730 394.300,168.838 396.150,168.942 398.000,169.040 399.850,169.134 401.700,169.222 403.550,169.306 405.400,169.386 407.250,169.460 409.100,169.530 410.950,169.594 412.800,169.654 414.650,169.710 416.500,169.760 418.350,169.806 420.200,169.846 422.050,169.882 423.900,169.914 425.750,169.940 427.600,169.962 429.450,169.978 431.300,169.990 433.150,169.998 435.000,170.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"65.000,98.000 435.000,194.000\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"157.5\" cy=\"122.0\" r=\"6\" fill=\"#a15320\" stroke=\"#a15320\" stroke-width=\"2.5\"/><circle cx=\"342.5\" cy=\"170.0\" r=\"6\" fill=\"#a15320\" stroke=\"#a15320\" stroke-width=\"2.5\"/><text x=\"250\" y=\"333\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Orange: tangent.</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangentens lutning anger volymändringen i tusen liter per timme.</p><div class=\"facit-matte\">\\[\\frac{2{,}0-3{,}2}{3-1}=-0{,}6\\]</div></li><li><p>Tio minuter är 1/6 timme. Volymen minskar därför med ungefär 0,6/6 = 0,1 tusen liter, alltså 100 liter.</p></li><li><p>Jämför med de 2600 liter som fanns vid t = 2.</p><div class=\"facit-matte\">\\[\\frac{100}{2600}\\cdot100\\approx3{,}85\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: Cirka 3,85 %.</strong></p></div>",
+  "ledtrad": "<p>Läs först av förändringen per timme och anpassa sedan tiden.</p>",
+  "rättSvar": 3.8461538461538463,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "%"
+},
+  {
+  "id": "2.1242",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Tabellen visar en befolkningsmodell nära t = 5 år. Använd en symmetrisk förändringskvot för att uppskatta N′(5). Hur stor är då ökningen per år i procent av befolkningen vid t = 5? Svara med två decimaler.</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Tid (år)</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">N (miljoner)</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">4,9</td><td style=\"padding:8px;border:1px solid #8796a5\">1,486</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">5,0</td><td style=\"padding:8px;border:1px solid #8796a5\">1,500</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">5,1</td><td style=\"padding:8px;border:1px solid #8796a5\">1,514</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd värdena på var sin sida om t = 5.</p><div class=\"facit-matte\">\\[N\\prime(5)\\approx\\frac{1{,}514-1{,}486}{5{,}1-4{,}9}\\]</div><div class=\"facit-matte\">\\[=0{,}14\\text{ miljoner per år}\\]</div></li><li><p>Ökningen ska jämföras med befolkningen 1,5 miljoner, inte med något av grannvärdena.</p><div class=\"facit-matte\">\\[\\frac{0{,}14}{1{,}5}\\cdot100\\approx9{,}33\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: Cirka 9,33 % per år.</strong></p></div>",
+  "ledtrad": "<p>Skilj förändringen i antal från förändringen i procent.</p>",
+  "rättSvar": 9.333333333333334,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "%"
+},
+  {
+  "id": "2.1243",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En vagns läge är \\(s(t)=t^3\\) meter efter t sekunder, t ≥ 0. Vid vilken tidpunkt mellan 1 s och 4 s är hastigheten lika med medelhastigheten under hela detta intervall? Svara exakt i sekunder.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Medelhastigheten bestäms av lägesändringen mellan intervallets ändpunkter.</p><div class=\"facit-matte\">\\[v_{\\text{medel}}=\\frac{4^3-1^3}{4-1}=21\\text{ m/s}\\]</div></li><li><p>Den momentana hastigheten är s′(t) = 3t². Sätt den lika med 21.</p><div class=\"facit-matte\">\\[3t^2=21\\Rightarrow t=\\sqrt7\\]</div></li><li><p>Den negativa roten är inte en tidpunkt i intervallet. √7 ≈ 2,65 ligger mellan 1 och 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\sqrt7\\) s.</strong></p></div>",
+  "ledtrad": "<p>Beräkna först medelhastigheten och jämför sedan med derivatan.</p>",
+  "rättSvar": "sqrt(7)",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null,
+  "svarEnhet": "s"
+},
+  {
+  "id": "2.1244",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen \\(f(x)=ax^2+bx+c\\) uppfyller villkoren i tabellen. Bestäm \\(f'(0)\\).</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Villkor</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Värde</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">\\(f(0)\\)</td><td style=\"padding:8px;border:1px solid #8796a5\">3</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">\\(f(2)\\)</td><td style=\"padding:8px;border:1px solid #8796a5\">7</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">\\(f'(2)\\)</td><td style=\"padding:8px;border:1px solid #8796a5\">5</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>f(0) = 3 ger c = 3. Villkoret f(2) = 7 ger 4a+2b = 4, alltså 2a+b = 2.</p></li><li><p>Derivatan är 2ax+b. Därför ger f′(2) = 5 ekvationen 4a+b = 5.</p></li><li><p>Subtrahera ekvationerna: 2a = 3, så a = 1,5 och b = −1. Eftersom f′(0) = b blir svaret −1.</p></li></ol><p class=\"facit-svar\"><strong>Svar: f′(0) = −1.</strong></p></div>",
+  "ledtrad": "<p>Ett funktionsvärde och en derivata ger olika typer av villkor.</p>",
+  "rättSvar": -1,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1245",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En tank innehåller 50 liter vatten. Under de följande 10 minuterna fylls den med 5 liter per minut. Samtidigt rinner vatten ut med en hastighet som hela tiden ligger mellan 2 och 4 liter per minut.</p><p>Bestäm minsta och största möjliga vattenvolym efter de 10 minuterna. Svara i liter.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Volymens förändringshastighet är inflödet minus utflödet. Den ligger mellan 5−4 = 1 och 5−2 = 3 liter per minut.</p></li><li><p>Under 10 minuter ökar därför volymen med minst 10 liter och högst 30 liter.</p></li><li><p>Lägg till startvolymen: 50+10 = 60 och 50+30 = 80 liter. Båda gränserna är möjliga om utflödet håller sig vid sin respektive gräns hela tiden.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Minst 60 liter, högst 80 liter.</strong></p></div>",
+  "ledtrad": "<p>Börja med tankens nettoförändring per minut.</p>",
+  "rättSvar": [
+    60,
+    80
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Minsta volym (liter)",
+    "Största volym (liter)"
+  ]
+},
+  {
+  "id": "2.1246",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>I(x) är intäkten och K(x) kostnaden i kronor när ett företag säljer x varor. Tabellen anger derivatorna vid 100 sålda varor. Använd derivatorna för att uppskatta hur mycket vinsten ökar när antalet går från 100 till 103.</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Derivata vid x = 100</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">kr per vara</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">\\(I'(100)\\)</td><td style=\"padding:8px;border:1px solid #8796a5\">120</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">\\(K'(100)\\)</td><td style=\"padding:8px;border:1px solid #8796a5\">85</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinsten är intäkt minus kostnad. Dess förändringshastighet vid 100 är därför 120−85 = 35 kr per extra vara.</p></li><li><p>Tre extra varor ger den uppskattade vinstökningen 35·3 = 105 kr. Det är ökningen, inte den totala vinsten.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Cirka 105 kr.</strong></p></div>",
+  "ledtrad": "<p>Vinsten förändras av både intäkter och kostnader.</p>",
+  "rättSvar": 105,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null,
+  "svarEnhet": "kr"
+},
+  {
+  "id": "2.1247",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>K(q) anger totalkostnaden i tusen kronor när q hundratal stolar tillverkas. Man vet att K(2) = 12 och K′(2) = 3,6.</p><p>Använd tangenten för att uppskatta genomsnittskostnaden per stol när 210 stolar tillverkas. Svara i kronor med två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>200 stolar motsvarar q = 2. För 210 stolar är q = 2,1, så ändringen är 0,1 hundratal.</p></li><li><p>Tangentens uppskattning av totalkostnaden blir</p><div class=\"facit-matte\">\\[K(2{,}1)\\approx12+3{,}6\\cdot0{,}1=12{,}36\\]</div></li><li><p>Det är 12 360 kr. Genomsnittet fås genom att dela med antalet stolar.</p><div class=\"facit-matte\">\\[\\frac{12360}{210}\\approx58{,}86\\text{ kr/stol}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: Cirka 58,86 kr per stol.</strong></p></div>",
+  "ledtrad": "<p>Derivatan avser tusen kronor per hundratal stolar.</p>",
+  "rättSvar": 58.857142857142854,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "kr"
+},
+  {
+  "id": "2.1248",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Grafen visar \\(f(x)=|x-2|+3\\). En elev beräknar</p><div class=\"facit-matte\">\\[\\frac{f(2+h)-f(2-h)}{2h}=0\\quad(h\\gt0)\\]</div><p>och säger därför att f′(2) = 0. Vilket svar är korrekt?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"V-formad graf med hörn i (2,3).\"><title>V-formad graf med hörn i (2,3).</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 216.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"222.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 183.33333333333331H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"189.33333333333331\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 116.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"122.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 83.33333333333334H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"89.33333333333334\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">f(x)</text><polyline points=\"65.000,83.333 250.000,150.000 435.000,83.333\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den symmetriska kvoten blir noll eftersom grafen har samma höjd lika långt till vänster och höger.</p></li><li><p>Men lutningen från vänster är −1 och från höger +1. De närmar sig inte samma värde. Hörnet saknar därför derivata, trots att den symmetriska kvoten är noll.</p></li></ol><p class=\"facit-svar\"><strong>Svar: f′(2) finns inte; vänster och höger lutning skiljer sig.</strong></p></div>",
+  "ledtrad": "<p>Jämför lutningen på var sida om hörnet.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "Eleven har rätt eftersom kvoten är noll.",
+      "ratt": false
+    },
+    {
+      "txt": "f′(2) finns inte; vänster och höger lutning skiljer sig.",
+      "ratt": true
+    },
+    {
+      "txt": "f′(2) = 3 eftersom grafens höjd är 3.",
+      "ratt": false
+    },
+    {
+      "txt": "f′(2) = 1 eftersom höger gren lutar uppåt.",
+      "ratt": false
+    }
+  ]
+},
+  {
+  "id": "2.1249",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En dryck svalnar enligt den blå kurvan. Den orange linjen är tangenten vid t = 3 minuter. Med tangenten uppskattar man när temperaturen blir 25 °C.</p><p>Hur förhåller sig den uppskattade tidpunkten till den som den blå kurvan visar? Välj rätt svar med motivering.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 350\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Avsvalnande temperaturkurva med tangent vid tre minuter. Den blå kurvan ligger ovanför tangenten.\"><title>Avsvalnande temperaturkurva med tangent vid tre minuter. Den blå kurvan ligger ovanför tangenten.</title><rect width=\"500\" height=\"350\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M126.66666666666666 50V250\" stroke=\"#d6e1ea\"/><text x=\"126.66666666666666\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M188.33333333333331 50V250\" stroke=\"#d6e1ea\"/><text x=\"188.33333333333331\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M373.3333333333333 50V250\" stroke=\"#d6e1ea\"/><text x=\"373.3333333333333\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">20</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">25</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">30</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">35</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">40</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Tid (min)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Temperatur (°C)</text><polyline points=\"65.000,50.000 67.056,51.990 69.111,53.960 71.167,55.911 73.222,57.842 75.278,59.754 77.333,61.647 79.389,63.521 81.444,65.377 83.500,67.214 85.556,69.033 87.611,70.833 89.667,72.616 91.722,74.381 93.778,76.128 95.833,77.858 97.889,79.571 99.944,81.267 102.000,82.946 104.056,84.608 106.111,86.254 108.167,87.883 110.222,89.496 112.278,91.093 114.333,92.674 116.389,94.240 118.444,95.790 120.500,97.324 122.556,98.843 124.611,100.347 126.667,101.836 128.722,103.311 130.778,104.770 132.833,106.215 134.889,107.646 136.944,109.062 139.000,110.465 141.056,111.853 143.111,113.228 145.167,114.589 147.222,115.936 149.278,117.270 151.333,118.591 153.389,119.898 155.444,121.193 157.500,122.474 159.556,123.743 161.611,125.000 163.667,126.243 165.722,127.475 167.778,128.694 169.833,129.901 171.889,131.096 173.944,132.279 176.000,133.450 178.056,134.610 180.111,135.758 182.167,136.895 184.222,138.020 186.278,139.135 188.333,140.238 190.389,141.330 192.444,142.411 194.500,143.482 196.556,144.542 198.611,145.591 200.667,146.630 202.722,147.658 204.778,148.677 206.833,149.685 208.889,150.683 210.944,151.671 213.000,152.650 215.056,153.618 217.111,154.577 219.167,155.527 221.222,156.467 223.278,157.397 225.333,158.319 227.389,159.231 229.444,160.134 231.500,161.028 233.556,161.914 235.611,162.790 237.667,163.658 239.722,164.517 241.778,165.368 243.833,166.210 245.889,167.043 247.944,167.869 250.000,168.686 252.056,169.495 254.111,170.296 256.167,171.089 258.222,171.874 260.278,172.652 262.333,173.421 264.389,174.183 266.444,174.938 268.500,175.685 270.556,176.424 272.611,177.156 274.667,177.881 276.722,178.599 278.778,179.309 280.833,180.012 282.889,180.709 284.944,181.398 287.000,182.081 289.056,182.757 291.111,183.426 293.167,184.088 295.222,184.744 297.278,185.393 299.333,186.036 301.389,186.673 303.444,187.303 305.500,187.927 307.556,188.544 309.611,189.156 311.667,189.761 313.722,190.361 315.778,190.954 317.833,191.541 319.889,192.123 321.944,192.699 324.000,193.269 326.056,193.834 328.111,194.393 330.167,194.946 332.222,195.494 334.278,196.036 336.333,196.573 338.389,197.105 340.444,197.631 342.500,198.152 344.556,198.668 346.611,199.179 348.667,199.684 350.722,200.185 352.778,200.681 354.833,201.171 356.889,201.657 358.944,202.138 361.000,202.614 363.056,203.086 365.111,203.553 367.167,204.015 369.222,204.472 371.278,204.925 373.333,205.374 375.389,205.818 377.444,206.258 379.500,206.693 381.556,207.124 383.611,207.550 385.667,207.973 387.722,208.391 389.778,208.805 391.833,209.215 393.889,209.621 395.944,210.022 398.000,210.420 400.056,210.814 402.111,211.204 404.167,211.590 406.222,211.972 408.278,212.351 410.333,212.725 412.389,213.096 414.444,213.463 416.500,213.827 418.556,214.187 420.611,214.543 422.667,214.896 424.722,215.245 426.778,215.591 428.833,215.933 430.889,216.272 432.944,216.608 435.000,216.940\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"65.000,95.504 435.000,241.869\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"250.0\" cy=\"168.68606805188017\" r=\"6\" fill=\"#a15320\" stroke=\"#a15320\" stroke-width=\"2.5\"/><text x=\"250\" y=\"333\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Orange: tangent.</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När tangenten når 25 °C ligger kurvan fortfarande ovanför linjen, så drycken är fortfarande varmare än 25 °C.</p></li><li><p>Kurvan behöver därför mer tid för att nå 25 °C. Tangentens uppskattning ger en för tidig tidpunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Tangenten ger en för tidig tidpunkt, eftersom kurvan då fortfarande ligger över 25 °C.</strong></p></div>",
+  "ledtrad": "<p>Jämför de två skärningarna med nivån 25 °C, inte med tidsaxeln.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "För sen, eftersom temperaturen sjunker.",
+      "ratt": false
+    },
+    {
+      "txt": "Exakt, eftersom tangenten har samma lutning vid t = 3.",
+      "ratt": false
+    },
+    {
+      "txt": "För tidig, eftersom kurvan då fortfarande ligger över 25 °C.",
+      "ratt": true
+    },
+    {
+      "txt": "För sen, eftersom kurvan ligger ovanför tangenten.",
+      "ratt": false
+    }
+  ]
+},
+  {
+  "id": "2.1250",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två cyklister startar på samma plats och rör sig åt samma håll. Deras lägen i meter är \\(s_A(t)=2t^2\\) och \\(s_B(t)=8t\\), där t mäts i sekunder.</p><p>När A kommer ikapp B igen börjar avståndet mellan dem öka. Hur snabbt ökar avståndet just då? Svara i m/s.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 350\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Två cyklisters lägen: A följer en blå parabel, B en orange rät linje.\"><title>Två cyklisters lägen: A följer en blå parabel, B en orange rät linje.</title><rect width=\"500\" height=\"350\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M139.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"139.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M213.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"213.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M287.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"287.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M361.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"361.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 210.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"216.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><path d=\"M65 170.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"176.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">20</text><path d=\"M65 130.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"136.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">30</text><path d=\"M65 90.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"96.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">40</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">50</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Tid (s)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Läge (m)</text><polyline points=\"65.000,250.000 67.467,249.991 69.933,249.964 72.400,249.920 74.867,249.858 77.333,249.778 79.800,249.680 82.267,249.564 84.733,249.431 87.200,249.280 89.667,249.111 92.133,248.924 94.600,248.720 97.067,248.498 99.533,248.258 102.000,248.000 104.467,247.724 106.933,247.431 109.400,247.120 111.867,246.791 114.333,246.444 116.800,246.080 119.267,245.698 121.733,245.298 124.200,244.880 126.667,244.444 129.133,243.991 131.600,243.520 134.067,243.031 136.533,242.524 139.000,242.000 141.467,241.458 143.933,240.898 146.400,240.320 148.867,239.724 151.333,239.111 153.800,238.480 156.267,237.831 158.733,237.164 161.200,236.480 163.667,235.778 166.133,235.058 168.600,234.320 171.067,233.564 173.533,232.791 176.000,232.000 178.467,231.191 180.933,230.364 183.400,229.520 185.867,228.658 188.333,227.778 190.800,226.880 193.267,225.964 195.733,225.031 198.200,224.080 200.667,223.111 203.133,222.124 205.600,221.120 208.067,220.098 210.533,219.058 213.000,218.000 215.467,216.924 217.933,215.831 220.400,214.720 222.867,213.591 225.333,212.444 227.800,211.280 230.267,210.098 232.733,208.898 235.200,207.680 237.667,206.444 240.133,205.191 242.600,203.920 245.067,202.631 247.533,201.324 250.000,200.000 252.467,198.658 254.933,197.298 257.400,195.920 259.867,194.524 262.333,193.111 264.800,191.680 267.267,190.231 269.733,188.764 272.200,187.280 274.667,185.778 277.133,184.258 279.600,182.720 282.067,181.164 284.533,179.591 287.000,178.000 289.467,176.391 291.933,174.764 294.400,173.120 296.867,171.458 299.333,169.778 301.800,168.080 304.267,166.364 306.733,164.631 309.200,162.880 311.667,161.111 314.133,159.324 316.600,157.520 319.067,155.698 321.533,153.858 324.000,152.000 326.467,150.124 328.933,148.231 331.400,146.320 333.867,144.391 336.333,142.444 338.800,140.480 341.267,138.498 343.733,136.498 346.200,134.480 348.667,132.444 351.133,130.391 353.600,128.320 356.067,126.231 358.533,124.124 361.000,122.000 363.467,119.858 365.933,117.698 368.400,115.520 370.867,113.324 373.333,111.111 375.800,108.880 378.267,106.631 380.733,104.364 383.200,102.080 385.667,99.778 388.133,97.458 390.600,95.120 393.067,92.764 395.533,90.391 398.000,88.000 400.467,85.591 402.933,83.164 405.400,80.720 407.867,78.258 410.333,75.778 412.800,73.280 415.267,70.764 417.733,68.231 420.200,65.680 422.667,63.111 425.133,60.524 427.600,57.920 430.067,55.298 432.533,52.658 435.000,50.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"65.000,250.000 435.000,90.000\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"333\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Blå: cyklist A. Orange: cyklist B.</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De är på samma plats när 2t² = 8t. Förutom starten t = 0 ger det t = 4 s.</p></li><li><p>Hastigheterna är s′ₐ(t) = 4t och s′ᵦ(t) = 8. Vid t = 4 är de alltså 16 respektive 8 m/s.</p></li><li><p>A ökar avståndet till B med skillnaden mellan hastigheterna: 16−8 = 8 m/s.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 8 m/s.</strong></p></div>",
+  "ledtrad": "<p>Lika läge betyder inte lika hastighet.</p>",
+  "rättSvar": 8,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null,
+  "svarEnhet": "m/s"
+},
+  {
+  "id": "2.1251",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Kostnaden för x varor är \\(K(x)=0{,}2x^2+30x+500\\) kronor. En elev använder K′(50) för att uppskatta kostnadsökningen från 50 till 60 varor.</p><p>Hur många kronor mindre blir tangentens uppskattning än den exakta kostnadsökningen?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är K′(x) = 0,4x+30. Vid x = 50 är den 50 kr per vara, så tangentens uppskattning är 50·10 = 500 kr.</p></li><li><p>Den exakta ökningen är</p><div class=\"facit-matte\">\\[\\begin{aligned}K(60)-K(50)&=3020-2500\\\\&=520\\end{aligned}\\]</div></li><li><p>Skillnaden mellan exakt ökning och uppskattning är 520−500 = 20 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 20 kr mindre.</strong></p></div>",
+  "ledtrad": "<p>Beräkna förändringen på två sätt: med derivatan och med funktionsvärden.</p>",
+  "rättSvar": 20,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null,
+  "svarEnhet": "kr"
+},
+  {
+  "id": "2.1252",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Grafen visar volymen V i en tank som funktion av vattenhöjden h. Vid h = 10 cm går tangenten genom (8 cm, 5 liter) och (12 cm, 9 liter).</p><p>En liten höjdökning Δh ger ungefär volymökningen A·Δh, där A är vattenytans area. Bestäm vattenytans area vid h = 10 cm. Svara i cm².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 350\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Tankvolym i liter som funktion av vattenhöjd i centimeter, med tangent vid tio centimeter.\"><title>Tankvolym i liter som funktion av vattenhöjd i centimeter, med tangent vid tio centimeter.</title><rect width=\"500\" height=\"350\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><path d=\"M296.25 50V250\" stroke=\"#d6e1ea\"/><text x=\"296.25\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">12</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">16</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 178.57142857142856H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"184.57142857142856\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">7</text><path d=\"M65 121.42857142857142H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"127.42857142857142\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">9</text><path d=\"M65 64.28571428571428H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"70.28571428571428\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">13</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Vattenhöjd (cm)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Volym (liter)</text><polyline points=\"157.500,228.000 158.656,227.414 159.812,226.826 160.969,226.238 162.125,225.649 163.281,225.058 164.438,224.466 165.594,223.874 166.750,223.280 167.906,222.685 169.062,222.089 170.219,221.492 171.375,220.894 172.531,220.295 173.688,219.695 174.844,219.094 176.000,218.491 177.156,217.888 178.312,217.284 179.469,216.678 180.625,216.071 181.781,215.464 182.938,214.855 184.094,214.245 185.250,213.634 186.406,213.022 187.562,212.409 188.719,211.795 189.875,211.180 191.031,210.564 192.188,209.946 193.344,209.328 194.500,208.709 195.656,208.088 196.812,207.466 197.969,206.844 199.125,206.220 200.281,205.595 201.438,204.969 202.594,204.342 203.750,203.714 204.906,203.085 206.062,202.455 207.219,201.824 208.375,201.191 209.531,200.558 210.688,199.924 211.844,199.288 213.000,198.651 214.156,198.014 215.312,197.375 216.469,196.735 217.625,196.094 218.781,195.452 219.938,194.809 221.094,194.165 222.250,193.520 223.406,192.874 224.562,192.226 225.719,191.578 226.875,190.929 228.031,190.278 229.188,189.626 230.344,188.974 231.500,188.320 232.656,187.665 233.812,187.009 234.969,186.352 236.125,185.694 237.281,185.035 238.438,184.375 239.594,183.714 240.750,183.051 241.906,182.388 243.062,181.724 244.219,181.058 245.375,180.391 246.531,179.724 247.688,179.055 248.844,178.385 250.000,177.714 251.156,177.042 252.312,176.369 253.469,175.695 254.625,175.020 255.781,174.344 256.938,173.666 258.094,172.988 259.250,172.309 260.406,171.628 261.562,170.946 262.719,170.264 263.875,169.580 265.031,168.895 266.188,168.209 267.344,167.522 268.500,166.834 269.656,166.145 270.812,165.455 271.969,164.764 273.125,164.071 274.281,163.378 275.438,162.684 276.594,161.988 277.750,161.291 278.906,160.594 280.062,159.895 281.219,159.195 282.375,158.494 283.531,157.792 284.688,157.089 285.844,156.385 287.000,155.680 288.156,154.974 289.312,154.266 290.469,153.558 291.625,152.849 292.781,152.138 293.938,151.426 295.094,150.714 296.250,150.000 297.406,149.285 298.562,148.569 299.719,147.852 300.875,147.134 302.031,146.415 303.188,145.695 304.344,144.974 305.500,144.251 306.656,143.528 307.812,142.804 308.969,142.078 310.125,141.351 311.281,140.624 312.438,139.895 313.594,139.165 314.750,138.434 315.906,137.702 317.062,136.969 318.219,136.235 319.375,135.500 320.531,134.764 321.688,134.026 322.844,133.288 324.000,132.549 325.156,131.808 326.312,131.066 327.469,130.324 328.625,129.580 329.781,128.835 330.938,128.089 332.094,127.342 333.250,126.594 334.406,125.845 335.562,125.095 336.719,124.344 337.875,123.591 339.031,122.838 340.188,122.084 341.344,121.328 342.500,120.571 343.656,119.814 344.812,119.055 345.969,118.295 347.125,117.534 348.281,116.772 349.438,116.009 350.594,115.245 351.750,114.480 352.906,113.714 354.062,112.946 355.219,112.178 356.375,111.409 357.531,110.638 358.688,109.866 359.844,109.094 361.000,108.320 362.156,107.545 363.312,106.769 364.469,105.992 365.625,105.214 366.781,104.435 367.938,103.655 369.094,102.874 370.250,102.091 371.406,101.308 372.562,100.524 373.719,99.738 374.875,98.951 376.031,98.164 377.188,97.375 378.344,96.585 379.500,95.794 380.656,95.002 381.812,94.209 382.969,93.415 384.125,92.620 385.281,91.824 386.438,91.026 387.594,90.228 388.750,89.429 389.906,88.628 391.062,87.826 392.219,87.024 393.375,86.220 394.531,85.415 395.688,84.609 396.844,83.802 398.000,82.994 399.156,82.185 400.312,81.375 401.469,80.564 402.625,79.751 403.781,78.938 404.938,78.124 406.094,77.308 407.250,76.491 408.406,75.674 409.562,74.855 410.719,74.035 411.875,73.214 413.031,72.392 414.188,71.569 415.344,70.745 416.500,69.920 417.656,69.094 418.812,68.266 419.969,67.438 421.125,66.609 422.281,65.778 423.438,64.946 424.594,64.114 425.750,63.280 426.906,62.445 428.062,61.609 429.219,60.772 430.375,59.934 431.531,59.095 432.688,58.255 433.844,57.414 435.000,56.571\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"157.500,235.714 435.000,64.286\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"250.0\" cy=\"178.57142857142856\" r=\"6\" fill=\"#a15320\" stroke=\"#a15320\" stroke-width=\"2.5\"/><circle cx=\"342.5\" cy=\"121.42857142857142\" r=\"6\" fill=\"#a15320\" stroke=\"#a15320\" stroke-width=\"2.5\"/><text x=\"250\" y=\"333\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Orange: tangent.</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangentens lutning anger volymökningen per centimeter höjd.</p><div class=\"facit-matte\">\\[V\\prime(10)=\\frac{9-5}{12-8}=1\\text{ liter/cm}\\]</div></li><li><p>En liter är 1000 cm³. Lutningen är därför 1000 cm³/cm = 1000 cm².</p></li><li><p>I sambandet ΔV ≈ A·Δh är A samma kvot ΔV/Δh. Vattenytans area är därför 1000 cm².</p></li></ol><p class=\"facit-svar\"><strong>Svar: 1000 cm².</strong></p></div>",
+  "ledtrad": "<p>Vilken enhet får volymändring dividerad med höjdändring?</p>",
+  "rättSvar": 1000,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null,
+  "svarEnhet": "cm²"
+},
+  {
+  "id": "2.1253",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Bestäm a och b så att funktionen är deriverbar vid x = 1.</p><div class=\"facit-matte\">\\[f(x)=\\begin{cases}x^2,&x\\le1\\\\ax+b,&x\\gt1.\\end{cases}\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För att derivatan ska finnas måste grafen först hänga ihop. Vid x = 1 ger vänstra uttrycket 1. Därför behövs a+b = 1.</p></li><li><p>Lutningarna ska också stämma: vänstra derivatan är 2x och ger 2 vid skarven. Höger gren har lutningen a. Alltså är a = 2.</p></li><li><p>Då ger a+b = 1 att b = −1.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a = 2 och b = −1.</strong></p></div>",
+  "ledtrad": "<p>En sammanhängande graf kan fortfarande ha ett hörn.</p>",
+  "rättSvar": [
+    2,
+    -1
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ]
+},
+  {
+  "id": "2.1254",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Antalet bakterier i två odlingar beskrivs av</p><div class=\"facit-matte\">\\[A(t)=500e^{0{,}02t}\\]</div><div class=\"facit-matte\">\\[B(t)=200e^{0{,}04t}\\]</div><p>där t är tiden i timmar. När ökar antalet bakterier lika snabbt i de båda odlingarna? Svara i timmar med två decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lika snabb ökning betyder lika derivator, inte lika antal bakterier.</p><div class=\"facit-matte\">\\[A\\prime(t)=10e^{0{,}02t}\\]</div><div class=\"facit-matte\">\\[B\\prime(t)=8e^{0{,}04t}\\]</div></li><li><p>Sätt derivatorna lika och dividera med 8e⁰˒⁰²ᵗ.</p><div class=\"facit-matte\">\\[1{,}25=e^{0{,}02t}\\]</div></li><li><p>Ta naturliga logaritmen och lös ut tiden.</p><div class=\"facit-matte\">\\[t=\\frac{\\ln(1{,}25)}{0{,}02}\\approx11{,}16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: Efter cirka 11,16 timmar.</strong></p></div>",
+  "ledtrad": "<p>Jämför ökningen i antal per timme, inte den procentuella ökningen.</p>",
+  "rättSvar": 11.157177565710487,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "h"
+},
+  {
+  "id": "2.1255",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En funktion är kontinuerlig på intervallet 0 ≤ x ≤ 4 och deriverbar inuti intervallet. Man vet att f(0) = f(4) = 3.</p><p>Vilket påstående måste vara sant?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om funktionen är konstant är derivatan noll i hela intervallet.</p></li><li><p>Annars finns ett värde över eller under ändpunkternas höjd. Funktionens största eller minsta värde nås då någonstans inuti intervallet. Eftersom funktionen är deriverbar där är tangenten vågrät.</p></li><li><p>I båda fallen finns alltså minst en punkt mellan 0 och 4 där derivatan är noll. Punkten behöver inte ligga i mitten.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Det finns minst ett x mellan 0 och 4 där f′(x) = 0.</strong></p></div>",
+  "ledtrad": "<p>Kan grafen komma tillbaka till samma höjd utan en vågrät tangent om den saknar hörn?</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "f′(2) måste vara 0.",
+      "ratt": false
+    },
+    {
+      "txt": "Funktionen måste vara konstant.",
+      "ratt": false
+    },
+    {
+      "txt": "f′(x) måste vara positiv överallt.",
+      "ratt": false
+    },
+    {
+      "txt": "Det finns minst ett x mellan 0 och 4 där f′(x) = 0.",
+      "ratt": true
+    }
+  ]
+},
+  {
+  "id": "2.1256",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Grafen visar den sammanlagda bränsleförbrukningen under en bilresa. Tangenten vid 150 km går genom punkterna (50 km, 6 liter) och (250 km, 18 liter).</p><p>Bilen kör nu i 90 km/h. Använd tangenten för att uppskatta hur många liter som går åt under de följande 20 minuterna. Svara med en decimal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 350\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Förbrukad bränslemängd mot körsträcka. Orange tangent vid 150 km.\"><title>Förbrukad bränslemängd mot körsträcka. Orange tangent vid 150 km.</title><rect width=\"500\" height=\"350\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M126.66666666666666 50V250\" stroke=\"#d6e1ea\"/><text x=\"126.66666666666666\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">50</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">150</text><path d=\"M373.3333333333333 50V250\" stroke=\"#d6e1ea\"/><text x=\"373.3333333333333\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">250</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">300</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">12</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">18</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">24</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Körsträcka (km)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Förbrukat bränsle (liter)</text><polyline points=\"65.000,221.250 66.233,220.800 67.467,220.349 68.700,219.899 69.933,219.447 71.167,218.996 72.400,218.544 73.633,218.092 74.867,217.639 76.100,217.186 77.333,216.733 78.567,216.280 79.800,215.826 81.033,215.372 82.267,214.917 83.500,214.463 84.733,214.007 85.967,213.552 87.200,213.096 88.433,212.640 89.667,212.183 90.900,211.726 92.133,211.269 93.367,210.812 94.600,210.354 95.833,209.896 97.067,209.437 98.300,208.978 99.533,208.519 100.767,208.060 102.000,207.600 103.233,207.140 104.467,206.679 105.700,206.219 106.933,205.757 108.167,205.296 109.400,204.834 110.633,204.372 111.867,203.909 113.100,203.447 114.333,202.983 115.567,202.520 116.800,202.056 118.033,201.592 119.267,201.127 120.500,200.662 121.733,200.197 122.967,199.732 124.200,199.266 125.433,198.800 126.667,198.333 127.900,197.867 129.133,197.399 130.367,196.932 131.600,196.464 132.833,195.996 134.067,195.527 135.300,195.059 136.533,194.589 137.767,194.120 139.000,193.650 140.233,193.180 141.467,192.709 142.700,192.238 143.933,191.767 145.167,191.296 146.400,190.824 147.633,190.352 148.867,189.879 150.100,189.406 151.333,188.933 152.567,188.460 153.800,187.986 155.033,187.512 156.267,187.037 157.500,186.562 158.733,186.087 159.967,185.612 161.200,185.136 162.433,184.660 163.667,184.183 164.900,183.707 166.133,183.229 167.367,182.752 168.600,182.274 169.833,181.796 171.067,181.317 172.300,180.839 173.533,180.359 174.767,179.880 176.000,179.400 177.233,178.920 178.467,178.439 179.700,177.959 180.933,177.477 182.167,176.996 183.400,176.514 184.633,176.032 185.867,175.549 187.100,175.067 188.333,174.583 189.567,174.100 190.800,173.616 192.033,173.132 193.267,172.647 194.500,172.162 195.733,171.677 196.967,171.192 198.200,170.706 199.433,170.220 200.667,169.733 201.900,169.247 203.133,168.759 204.367,168.272 205.600,167.784 206.833,167.296 208.067,166.807 209.300,166.319 210.533,165.829 211.767,165.340 213.000,164.850 214.233,164.360 215.467,163.869 216.700,163.378 217.933,162.887 219.167,162.396 220.400,161.904 221.633,161.412 222.867,160.919 224.100,160.426 225.333,159.933 226.567,159.440 227.800,158.946 229.033,158.452 230.267,157.957 231.500,157.462 232.733,156.967 233.967,156.472 235.200,155.976 236.433,155.480 237.667,154.983 238.900,154.486 240.133,153.989 241.367,153.492 242.600,152.994 243.833,152.496 245.067,151.997 246.300,151.498 247.533,150.999 248.767,150.500 250.000,150.000 251.233,149.500 252.467,148.999 253.700,148.498 254.933,147.997 256.167,147.496 257.400,146.994 258.633,146.492 259.867,145.989 261.100,145.486 262.333,144.983 263.567,144.480 264.800,143.976 266.033,143.472 267.267,142.967 268.500,142.462 269.733,141.957 270.967,141.452 272.200,140.946 273.433,140.440 274.667,139.933 275.900,139.426 277.133,138.919 278.367,138.412 279.600,137.904 280.833,137.396 282.067,136.887 283.300,136.378 284.533,135.869 285.767,135.360 287.000,134.850 288.233,134.340 289.467,133.829 290.700,133.318 291.933,132.807 293.167,132.296 294.400,131.784 295.633,131.272 296.867,130.759 298.100,130.247 299.333,129.733 300.567,129.220 301.800,128.706 303.033,128.192 304.267,127.677 305.500,127.163 306.733,126.647 307.967,126.132 309.200,125.616 310.433,125.100 311.667,124.583 312.900,124.066 314.133,123.549 315.367,123.032 316.600,122.514 317.833,121.996 319.067,121.477 320.300,120.958 321.533,120.439 322.767,119.920 324.000,119.400 325.233,118.880 326.467,118.359 327.700,117.839 328.933,117.317 330.167,116.796 331.400,116.274 332.633,115.752 333.867,115.229 335.100,114.706 336.333,114.183 337.567,113.660 338.800,113.136 340.033,112.612 341.267,112.087 342.500,111.562 343.733,111.037 344.967,110.512 346.200,109.986 347.433,109.460 348.667,108.933 349.900,108.407 351.133,107.879 352.367,107.352 353.600,106.824 354.833,106.296 356.067,105.767 357.300,105.239 358.533,104.709 359.767,104.180 361.000,103.650 362.233,103.120 363.467,102.589 364.700,102.059 365.933,101.527 367.167,100.996 368.400,100.464 369.633,99.932 370.867,99.399 372.100,98.867 373.333,98.333 374.567,97.800 375.800,97.266 377.033,96.732 378.267,96.197 379.500,95.662 380.733,95.127 381.967,94.592 383.200,94.056 384.433,93.520 385.667,92.983 386.900,92.446 388.133,91.909 389.367,91.372 390.600,90.834 391.833,90.296 393.067,89.757 394.300,89.219 395.533,88.679 396.767,88.140 398.000,87.600 399.233,87.060 400.467,86.519 401.700,85.979 402.933,85.437 404.167,84.896 405.400,84.354 406.633,83.812 407.867,83.269 409.100,82.727 410.333,82.183 411.567,81.640 412.800,81.096 414.033,80.552 415.267,80.007 416.500,79.463 417.733,78.917 418.967,78.372 420.200,77.826 421.433,77.280 422.667,76.733 423.900,76.186 425.133,75.639 426.367,75.092 427.600,74.544 428.833,73.996 430.067,73.447 431.300,72.899 432.533,72.349 433.767,71.800 435.000,71.250\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"65.000,225.000 435.000,75.000\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"126.66666666666666\" cy=\"200.0\" r=\"6\" fill=\"#a15320\" stroke=\"#a15320\" stroke-width=\"2.5\"/><circle cx=\"373.3333333333333\" cy=\"100.0\" r=\"6\" fill=\"#a15320\" stroke=\"#a15320\" stroke-width=\"2.5\"/><text x=\"250\" y=\"333\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Orange: tangent.</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tangentens lutning är förbrukningen per kilometer.</p><div class=\"facit-matte\">\\[\\frac{18-6}{250-50}=0{,}06\\text{ liter/km}\\]</div></li><li><p>På 20 minuter, alltså 1/3 timme, kör bilen 90/3 = 30 km.</p></li><li><p>Uppskattad bränslemängd är 0,06·30 = 1,8 liter. Grafens höjd 12 liter är tidigare förbrukning och ska inte användas som förbrukningstakt.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Cirka 1,8 liter.</strong></p></div>",
+  "ledtrad": "<p>Grafens vågräta axel är körsträcka, inte tid.</p>",
+  "rättSvar": 1.8,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.05,
+  "svarEnhet": "liter"
+},
+  {
+  "id": "2.1257",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En temperatur T(t) mäts i °C och t i minuter. Vid t = 5 gäller T(5) = 40 och T′(5) = −2. Temperatur i Fahrenheit beräknas med F = 1,8T+32.</p><p>Använd tangenten för att uppskatta temperaturen 45 sekunder senare. Svara i °F med en decimal.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>45 sekunder är 0,75 minuter. Tangenten ger därför T(5,75) ≈ 40−2·0,75 = 38,5 °C.</p></li><li><p>Omvandla det uppskattade temperaturvärdet, inte derivatan ensam.</p><div class=\"facit-matte\">\\[F\\approx1{,}8\\cdot38{,}5+32=101{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: Cirka 101,3 °F.</strong></p></div>",
+  "ledtrad": "<p>Tiden måste först uttryckas i samma enhet som derivatan.</p>",
+  "rättSvar": 101.3,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.05,
+  "svarEnhet": "°F"
+},
+  {
+  "id": "2.1258",
+  "kap": 2,
+  "omr": "begreppet_derivata",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Derivata som förändringshastighet",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=(x-1)^3+2\\). Vid x = 1 är derivatan noll. En elev säger att punkten därför måste vara en maximi- eller minimipunkt.</p><p>Vilket svar är korrekt?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 350\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"En växande kubisk kurva med vågrät tangent vid (1,2).\"><title>En växande kubisk kurva med vågrät tangent vid (1,2).</title><rect width=\"500\" height=\"350\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0,5</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1,5</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">f(x)</text><polyline points=\"65.000,200.000 66.850,198.515 68.700,197.060 70.550,195.634 72.400,194.237 74.250,192.869 76.100,191.529 77.950,190.218 79.800,188.934 81.650,187.679 83.500,186.450 85.350,185.248 87.200,184.074 89.050,182.925 90.900,181.803 92.750,180.706 94.600,179.635 96.450,178.589 98.300,177.568 100.150,176.572 102.000,175.600 103.850,174.652 105.700,173.728 107.550,172.827 109.400,171.949 111.250,171.094 113.100,170.261 114.950,169.451 116.800,168.662 118.650,167.896 120.500,167.150 122.350,166.425 124.200,165.722 126.050,165.038 127.900,164.375 129.750,163.731 131.600,163.107 133.450,162.502 135.300,161.916 137.150,161.349 139.000,160.800 140.850,160.269 142.700,159.756 144.550,159.260 146.400,158.781 148.250,158.319 150.100,157.873 151.950,157.444 153.800,157.030 155.650,156.633 157.500,156.250 159.350,155.882 161.200,155.530 163.050,155.191 164.900,154.867 166.750,154.556 168.600,154.259 170.450,153.975 172.300,153.704 174.150,153.446 176.000,153.200 177.850,152.966 179.700,152.744 181.550,152.533 183.400,152.333 185.250,152.144 187.100,151.965 188.950,151.797 190.800,151.638 192.650,151.490 194.500,151.350 196.350,151.219 198.200,151.098 200.050,150.984 201.900,150.879 203.750,150.781 205.600,150.691 207.450,150.608 209.300,150.532 211.150,150.463 213.000,150.400 214.850,150.343 216.700,150.292 218.550,150.246 220.400,150.205 222.250,150.169 224.100,150.137 225.950,150.110 227.800,150.086 229.650,150.067 231.500,150.050 233.350,150.036 235.200,150.026 237.050,150.017 238.900,150.011 240.750,150.006 242.600,150.003 244.450,150.001 246.300,150.000 248.150,150.000 250.000,150.000 251.850,150.000 253.700,150.000 255.550,149.999 257.400,149.997 259.250,149.994 261.100,149.989 262.950,149.983 264.800,149.974 266.650,149.964 268.500,149.950 270.350,149.933 272.200,149.914 274.050,149.890 275.900,149.863 277.750,149.831 279.600,149.795 281.450,149.754 283.300,149.708 285.150,149.657 287.000,149.600 288.850,149.537 290.700,149.468 292.550,149.392 294.400,149.309 296.250,149.219 298.100,149.121 299.950,149.016 301.800,148.902 303.650,148.781 305.500,148.650 307.350,148.510 309.200,148.362 311.050,148.203 312.900,148.035 314.750,147.856 316.600,147.667 318.450,147.467 320.300,147.256 322.150,147.034 324.000,146.800 325.850,146.554 327.700,146.296 329.550,146.025 331.400,145.741 333.250,145.444 335.100,145.133 336.950,144.809 338.800,144.470 340.650,144.118 342.500,143.750 344.350,143.367 346.200,142.970 348.050,142.556 349.900,142.127 351.750,141.681 353.600,141.219 355.450,140.740 357.300,140.244 359.150,139.731 361.000,139.200 362.850,138.651 364.700,138.084 366.550,137.498 368.400,136.893 370.250,136.269 372.100,135.625 373.950,134.962 375.800,134.278 377.650,133.575 379.500,132.850 381.350,132.104 383.200,131.338 385.050,130.549 386.900,129.739 388.750,128.906 390.600,128.051 392.450,127.173 394.300,126.272 396.150,125.348 398.000,124.400 399.850,123.428 401.700,122.432 403.550,121.411 405.400,120.365 407.250,119.294 409.100,118.197 410.950,117.075 412.800,115.926 414.650,114.752 416.500,113.550 418.350,112.321 420.200,111.066 422.050,109.782 423.900,108.471 425.750,107.131 427.600,105.763 429.450,104.366 431.300,102.940 433.150,101.485 435.000,100.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"102.000,150.000 398.000,150.000\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"250.0\" cy=\"150.0\" r=\"6\" fill=\"#a15320\" stroke=\"#a15320\" stroke-width=\"2.5\"/><text x=\"250\" y=\"333\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Orange: tangent.</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivatan är f′(x) = 3(x−1)². Den är positiv både före och efter x = 1, även om den är noll just där.</p></li><li><p>Funktionen fortsätter alltså att växa genom punkten. Tangenten är vågrät, men punkten är varken ett maximum eller ett minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Punkten är inget extremställe; funktionen växer på båda sidor.</strong></p></div>",
+  "ledtrad": "<p>En vågrät tangent säger inget ensamt om hur derivatans tecken förändras.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "Punkten är inget extremställe; funktionen växer på båda sidor.",
+      "ratt": true
+    },
+    {
+      "txt": "Punkten är ett minimum eftersom f′ är positiv efter den.",
+      "ratt": false
+    },
+    {
+      "txt": "Eleven har rätt: alla nollställen till derivatan är extremställen.",
+      "ratt": false
+    },
+    {
+      "txt": "Funktionen är konstant eftersom f′(1) = 0.",
+      "ratt": false
+    }
+  ]
 }
 
 ];

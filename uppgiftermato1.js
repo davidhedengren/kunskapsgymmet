@@ -58152,36 +58152,54 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "4.52",
-    "kap": 4,
-    "omr": "sinussatsen",
-    "kurs": [
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>I en triangel är \\(A=42^\\circ\\), \\(a=12\\) cm och \\(b=20\\) cm. Undersök om en sådan triangel kan existera. Motivera med sinussatsen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen skulle kräva</p><p>\\[\\sin B=\\frac{b\\sin A}a=\\frac{20\\sin42^\\circ}{12}\\approx 1{,}12.\\]</p></li><li><p>Men ett sinusvärde kan aldrig vara större än 1.</p></li><li><p>Därför finns <strong>ingen</strong> triangel med de givna måtten.</p></li></ol></div>",
-    "familj": "Använda sinussatsen",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "begrepp",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Ställ upp sinussatsen och kontrollera om det värde du får för \\(\\sin B\\) är möjligt.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "svarFormat": null,
-    "omrTidigare": [
-      "triangelsatser"
-    ]
-  },
+  "id": "4.52",
+  "kap": 4,
+  "omr": "sinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Kan en triangel ha A = 42°, a = 12 cm och b = 20 cm, där a och b ligger mittemot A respektive B? Välj rätt svar med motivering.</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Givet</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Värde</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">A</td><td style=\"padding:8px;border:1px solid #8796a5\">42°</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">a, mot A</td><td style=\"padding:8px;border:1px solid #8796a5\">12 cm</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">b, mot B</td><td style=\"padding:8px;border:1px solid #8796a5\">20 cm</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen skulle kräva</p><div class=\"facit-matte\">\\[\\sin B=\\frac{20\\sin42^\\circ}{12}\\approx1{,}12\\]</div></li><li><p>Sinus till en vinkel kan inte vara större än 1. Ingen triangel uppfyller därför villkoren.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Nej, villkoren skulle kräva sin B > 1.</strong></p></div>",
+  "familj": "Sinussatsen – samband och problemlösning",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": 1e-09,
+  "självrättning": true,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "ledtrad": "<p>Kontrollera vilket värde sinussatsen ger för sin B.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "svarFormat": "text",
+  "omrTidigare": [
+    "triangelsatser"
+  ],
+  "alternativ": [
+    {
+      "txt": "Ja, eftersom alla längder är positiva.",
+      "ratt": false
+    },
+    {
+      "txt": "Ja, och B är 90°.",
+      "ratt": false
+    },
+    {
+      "txt": "Nej, villkoren skulle kräva sin B > 1.",
+      "ratt": true
+    },
+    {
+      "txt": "Nej, eftersom b alltid måste vara kortare än a.",
+      "ratt": false
+    }
+  ]
+},
   {
     "id": "4.53",
     "kap": 4,
@@ -114619,6 +114637,512 @@ window.BANKMATO1 = [
   "svarstyp": "uttryck",
   "svarFormat": "uttryck",
   "tolerans": null
-}
+},
+  {
+    "id": "4.532",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En stig går från A till B via C. AB = 80 m, A = 40° och B = 65°. Hur mycket längre är vägen A–C–B än den raka sträckan AB? Svara i m med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel för en omväg via C.\"><title>Triangel för en omväg via C.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"40,65,75\" data-lengths=\"80.0,53.23701610969661,75.06230912313744\" points=\"90.000000,285.000000 430.000000,285.000000 334.379525,79.941230\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"66.508\" y=\"293.551\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"451.085\" y=\"298.432\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"339.791\" y=\"55.534\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"260.000\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">80 m</text><path data-angle-arc=\"40.000000000\" data-center=\"90.000000,285.000000\" d=\"M112.000000 285.000000 A22 22 0 0 0 106.852978 270.858673\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"142.202\" y=\"266.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">40°</text><path data-angle-arc=\"65.000000000\" data-center=\"430.000000,285.000000\" d=\"M420.702398 265.061229 A22 22 0 0 0 408.000000 285.000000\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"392.047\" y=\"260.822\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">65°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Toppvinkeln är 180°−40°−65° = 75°. Använd AB som känd sida i sinussatsen.</p><div class=\"facit-matte\">\\[AC=\\frac{80\\sin65^\\circ}{\\sin75^\\circ}\\]</div><div class=\"facit-matte\">\\[BC=\\frac{80\\sin40^\\circ}{\\sin75^\\circ}\\]</div></li><li><p>Lägg ihop de två stigdelarna och dra bort 80 m. Behåll extra decimaler tills du avrundar.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 48,30 m.</strong></p></div>",
+    "ledtrad": "<p>Båda delarna av omvägen behöver beräknas.</p>",
+    "rättSvar": 48.299325232834036,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.533",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Ett triangelformat markområde har AB = 60 m, A = 55° och B = 75°. Bestäm områdets area. Svara i m² med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangelformat markområde.\"><title>Triangelformat markområde.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"55,75,50\" data-lengths=\"60.00000000000001,64.15962298117725,75.65559687552324\" points=\"158.343543,285.000000 361.656457,285.000000 305.387126,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"136.168\" y=\"296.544\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"381.490\" y=\"300.219\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"309.728\" y=\"50.380\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"260.000\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">60 m</text><path data-angle-arc=\"55.000000000\" data-center=\"158.343543,285.000000\" d=\"M180.343543 285.000000 A22 22 0 0 0 170.962225 266.978655\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"198.259\" y=\"264.221\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">55°</text><path data-angle-arc=\"75.000000000\" data-center=\"361.656457,285.000000\" d=\"M355.962438 263.749632 A22 22 0 0 0 339.656457 285.000000\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"325.956\" y=\"257.606\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">75°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln C är 50°. Sinussatsen ger sidan AC.</p><div class=\"facit-matte\">\\[AC=\\frac{60\\sin75^\\circ}{\\sin50^\\circ}\\]</div></li><li><p>AB och AC omger vinkeln A. Triangelns area blir därför</p><div class=\"facit-matte\">\\[K=\\frac{60\\cdot AC\\cdot\\sin55^\\circ}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 1859,20 m².</strong></p></div>",
+    "ledtrad": "<p>Bestäm en sida som kan kombineras med AB i areasatsen.</p>",
+    "rättSvar": 1859.2031052746618,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": "m²"
+  },
+  {
+    "id": "4.534",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>I triangeln är A = 35° och B = 65°. Sidorna a och b, mittemot dessa vinklar, är tillsammans 20 cm. Bestäm a. Svara i cm med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Två sidor med given summa.\"><title>Två sidor med given summa.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"35,65,80\" data-lengths=\"13.309254027424155,7.7516393145679485,12.24836068543205\" points=\"90.000000,285.000000 430.000000,285.000000 346.311262,105.528922\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"66.157\" y=\"292.518\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"451.085\" y=\"298.432\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"352.782\" y=\"81.381\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"414.439\" y=\"183.009\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">a</text><text x=\"201.522\" y=\"171.509\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">b</text><path data-angle-arc=\"35.000000000\" data-center=\"90.000000,285.000000\" d=\"M112.000000 285.000000 A22 22 0 0 0 108.021345 272.381318\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"150.260\" y=\"266.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">35°</text><path data-angle-arc=\"65.000000000\" data-center=\"430.000000,285.000000\" d=\"M420.702398 265.061229 A22 22 0 0 0 408.000000 285.000000\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"392.047\" y=\"260.822\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">65°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen ger b = a·sin65°/sin35°. Använd summan a+b = 20.</p><div class=\"facit-matte\">\\[a\\left(1+\\frac{\\sin65^\\circ}{\\sin35^\\circ}\\right)=20\\]</div></li><li><p>Dividera med parentesen för att få a. Båda sidlängderna blir positiva.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 7,75 cm.</strong></p></div>",
+    "ledtrad": "<p>Skriv den ena sidan som en multipel av den andra.</p>",
+    "rättSvar": 7.7516393145679485,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.535",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En triangel har vinklarna 45°, 60° och 75° och omkretsen 36 cm. Hur lång är dess längsta sida? Svara i cm med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel med given omkrets.\"><title>Triangel med given omkrets.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"45,60,75\" data-lengths=\"13.695366388714197,10.025704024809885,12.27892958647592\" points=\"94.378222,285.000000 425.621778,285.000000 304.378222,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"71.281\" y=\"294.567\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"447.272\" y=\"297.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"307.641\" y=\"50.214\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><path data-angle-arc=\"45.000000000\" data-center=\"94.378222,285.000000\" d=\"M116.378222 285.000000 A22 22 0 0 0 109.934571 269.443651\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"140.248\" y=\"266.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">45°</text><path data-angle-arc=\"60.000000000\" data-center=\"425.621778,285.000000\" d=\"M414.621778 265.947441 A22 22 0 0 0 403.621778 285.000000\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"386.651\" y=\"262.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">60°</text><path data-angle-arc=\"75.000000000\" data-center=\"304.378222,75.000000\" d=\"M288.821873 90.556349 A22 22 0 0 0 315.378222 94.052559\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"298.505\" y=\"119.615\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">75°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den längsta sidan ligger mittemot 75°. Sidorna är proportionella mot sinus till sina motstående vinklar.</p></li><li><p>Sätt sidorna till k sin45°, k sin60° och k sin75°. Då gäller</p><div class=\"facit-matte\">\\[k=\\frac{36}{\\sin45^\\circ+\\sin60^\\circ+\\sin75^\\circ}\\]</div></li><li><p>Den längsta sidan är k sin75°. I beräkningen behålls k utan mellanavrundning.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 13,70 cm.</strong></p></div>",
+    "ledtrad": "<p>Omkretsen bestämmer den gemensamma skalan i sinussatsen.</p>",
+    "rättSvar": 13.695366388714195,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.536",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En triangel har A = 30°, a = 8 cm och b = 12 cm. Sidorna a och b ligger mittemot A respektive B. Bestäm alla möjliga värden på B. Svara i grader med en decimal. Figuren visar en möjlig form.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"En möjlig form; även en annan triangel kan uppfylla uppgiften.\"><title>En möjlig form; även en annan triangel kan uppfylla uppgiften.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"30,48.59037789072914,101.40962210927086\" data-lengths=\"15.683807467542447,8,12.0\" points=\"90.000000,285.000000 430.000000,285.000000 315.288640,154.929543\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"65.852\" y=\"291.470\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"452.786\" y=\"295.286\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"319.327\" y=\"130.258\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"394.394\" y=\"200.783\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">8 cm</text><text x=\"188.144\" y=\"194.850\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">12 cm</text><path data-angle-arc=\"30.000000000\" data-center=\"90.000000,285.000000\" d=\"M112.000000 285.000000 A22 22 0 0 0 109.052559 274.000000\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"160.909\" y=\"266.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">30°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen ger</p><div class=\"facit-matte\">\\[\\sin B=\\frac{12\\sin30^\\circ}{8}=0{,}75\\]</div></li><li><p>Det ger B ≈ 48,6° eller 180°−48,6° ≈ 131,4°. Båda fungerar: med A = 30° blir vinkelsumman mindre än 180° i båda fallen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: B ≈ 48,6° eller 131,4°.</strong></p></div>",
+    "ledtrad": "<p>En sinus kan motsvara både en spetsig och en trubbig vinkel.</p>",
+    "rättSvar": [
+      48.59037789072914,
+      131.40962210927086
+    ],
+    "svarstyp": "flera_delar",
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "tolerans": [
+      0.05,
+      0.05
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "Ett B-värde (°)",
+      "Det andra B-värdet (°)"
+    ]
+  },
+  {
+    "id": "4.537",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Vinkeln A är 40° och den motstående sidan a är okänd. Sidan b, mittemot B, är 10 cm. Vilket är det minsta värde a kan ha för att en triangel ska vara möjlig? Svara i cm med två decimaler. Figuren är ett exempel, inte gränsfallet.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Exempel på triangel med A=40 grader och b=10 cm.\"><title>Exempel på triangel med A=40 grader och b=10 cm.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"40,60,80\" data-lengths=\"11.371580426032578,7.4222719896855915,10.0\" points=\"90.000000,285.000000 430.000000,285.000000 319.040380,92.812301\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"66.508\" y=\"293.551\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"451.651\" y=\"297.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"323.382\" y=\"68.192\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"399.635\" y=\"174.406\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">a</text><text x=\"185.879\" y=\"166.691\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">10 cm</text><path data-angle-arc=\"40.000000000\" data-center=\"90.000000,285.000000\" d=\"M112.000000 285.000000 A22 22 0 0 0 106.852978 270.858673\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"142.202\" y=\"266.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">40°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen kräver sin B = 10 sin40°/a. Detta värde får vara högst 1.</p></li><li><p>Därför måste a ≥ 10 sin40°. Gränsen är möjlig: B = 90° ger då C = 50°, så triangeln är inte hopfallen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 6,43 cm.</strong></p></div>",
+    "ledtrad": "<p>Hur stort kan sin B som mest vara?</p>",
+    "rättSvar": 6.4278760968653925,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.538",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>I en triangel är A = 30°, a = 7 cm och b = 10 cm. Det finns två möjliga trianglar. Bestäm den största möjliga arean. Svara i cm² med två decimaler. Figuren visar en av formerna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"En av två möjliga trianglar.\"><title>En av två möjliga trianglar.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"30,45.58469140280702,104.41530859719299\" data-lengths=\"13.559233523410743,7,10.0\" points=\"90.000000,285.000000 430.000000,285.000000 307.157288,159.624182\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"65.852\" y=\"291.470\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"453.048\" y=\"294.685\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"310.547\" y=\"134.855\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"389.293\" y=\"202.016\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">7 cm</text><text x=\"184.079\" y=\"197.197\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">10 cm</text><path data-angle-arc=\"30.000000000\" data-center=\"90.000000,285.000000\" d=\"M112.000000 285.000000 A22 22 0 0 0 109.052559 274.000000\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"160.909\" y=\"266.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">30°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen ger sin B = 10 sin30°/7 = 5/7. Därför är B ungefär 45,58° eller 134,42°.</p></li><li><p>De två C-vinklarna blir ungefär 104,42° och 15,58°. Beräkna sidan c för båda med c = 7 sin C/sin30°.</p></li><li><p>Det större c-värdet ger den större arean, eftersom b och A är samma.</p><div class=\"facit-matte\">\\[K_{\\max}=\\frac{10\\cdot c_{\\max}\\cdot\\sin30^\\circ}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 33,90 cm².</strong></p></div>",
+    "ledtrad": "<p>Jämför de två möjliga trianglarna innan du väljer area.</p>",
+    "rättSvar": 33.89808380852685,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "4.539",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En likbent triangel har toppvinkeln A = 40° och omkretsen 40 cm. Bestäm dess area. Svara i cm² med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Likbent triangel med två lika sidor.\"><title>Likbent triangel med två lika sidor.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"40,70,70\" data-lengths=\"14.90290596565702,10.194188068685955,14.90290596565702\" points=\"96.648998,285.000000 423.351002,285.000000 346.917253,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"73.157\" y=\"293.551\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"443.830\" y=\"299.339\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"353.388\" y=\"50.852\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"203.142\" y=\"157.785\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"260.000\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><path data-angle-arc=\"40.000000000\" data-center=\"96.648998,285.000000\" d=\"M118.648998 285.000000 A22 22 0 0 0 113.501976 270.858673\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"148.851\" y=\"266.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">40°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Basvinklarna är (180°−40°)/2 = 70°. Om de lika sidorna är x ger sinussatsen basen a = x sin40°/sin70°.</p></li><li><p>Omkretsvillkoret ger</p><div class=\"facit-matte\">\\[x\\left(2+\\frac{\\sin40^\\circ}{\\sin70^\\circ}\\right)=40\\]</div></li><li><p>Bestäm x och använd vinkeln mellan de lika sidorna.</p><div class=\"facit-matte\">\\[K=\\frac{x^2\\sin40^\\circ}{2}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 71,38 cm².</strong></p></div>",
+    "ledtrad": "<p>Använd symmetrin för att få de två andra vinklarna.</p>",
+    "rättSvar": 71.38047331621387,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "4.540",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>A och B ligger på plan mark, 30 m från varandra. B ligger mellan A och huset. Vinkeln upp till takpunkten C är 40° från A och 65° från B. Hur högt över marken ligger C? Svara i m med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Två observationspunkter och höjden till C.\"><title>Två observationspunkter och höjden till C.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"40,115,25\" data-lengths=\"30.0,45.62895179013298,64.33520761528676\" points=\"134.865873,285.000000 287.209519,285.000000 385.134127,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"111.374\" y=\"293.551\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"300.642\" y=\"306.085\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"400.353\" y=\"55.166\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"211.038\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">30 m</text><path data-angle-arc=\"40.000000000\" data-center=\"134.865873,285.000000\" d=\"M156.865873 285.000000 A22 22 0 0 0 151.718851 270.858673\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"187.068\" y=\"266.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">40°</text><path data-altitude=\"true\" d=\"M385.13412722239207 75.0L385.13412722239207 285.0\" stroke=\"#a15320\" stroke-width=\"2\" stroke-dasharray=\"6 5\" fill=\"none\"/><path d=\"M134.86587277760793 285.0H407.13412722239207\" stroke=\"#8796a5\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M395.13412722239207 285.0v-10h-10\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"1.5\"/><text x=\"385.134\" y=\"308.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">H</text><path d=\"M287.2095190098423 285.0h75\" stroke=\"#8796a5\" stroke-width=\"1.5\" fill=\"none\"/><path data-angle-arc=\"65.000000000\" data-center=\"287.209519,285.000000\" d=\"M309.209519 285.000000 A22 22 0 0 0 296.507121 265.061229\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"325.162\" y=\"260.822\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">65°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Triangelns vinkel vid B är 180°−65° = 115°. Därför är vinkeln C 25°.</p></li><li><p>Sinussatsen ger avståndet AC.</p><div class=\"facit-matte\">\\[AC=\\frac{30\\sin115^\\circ}{\\sin25^\\circ}\\]</div></li><li><p>Höjden är den lodräta delen av AC.</p><div class=\"facit-matte\">\\[CH=AC\\sin40^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 41,35 m.</strong></p></div>",
+    "ledtrad": "<p>Den uppmätta vinkeln vid B är en yttervinkel till triangeln ABC.</p>",
+    "rättSvar": 41.35387432171741,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "4.541",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>I triangeln är AB = 10 cm, A = 60° och B = 80°. CD delar vinkeln C i två lika stora delar, och D ligger på AB. Bestäm CD. Svara i cm med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 400\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel med bisektris CD.\"><title>Triangel med bisektris CD.</title><rect width=\"520\" height=\"400\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"60,80,40\" data-lengths=\"10.0,13.472963553338607,15.320888862379562\" points=\"180.863889,285.000000 339.136111,285.000000 302.107445,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"159.213\" y=\"297.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"358.287\" y=\"301.070\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"306.449\" y=\"50.380\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"260.000\" y=\"346.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">10 cm</text><path data-angle-arc=\"60.000000000\" data-center=\"180.863889,285.000000\" d=\"M202.863889 285.000000 A22 22 0 0 0 191.863889 265.947441\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"219.835\" y=\"262.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">60°</text><path data-angle-arc=\"80.000000000\" data-center=\"339.136111,285.000000\" d=\"M335.315851 263.334229 A22 22 0 0 0 317.136111 285.000000\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"304.664\" y=\"256.075\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">80°</text><path data-bisector=\"2\" d=\"M302.1074452905219 75.0L265.0787793417442 285.0\" stroke=\"#a15320\" stroke-width=\"2\" stroke-dasharray=\"6 5\" fill=\"none\"/><text x=\"265.079\" y=\"309.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">D</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Först är C = 40°. Sinussatsen i hela triangeln ger AC = 10 sin80°/sin40°.</p></li><li><p>I triangeln ACD är vinkeln vid C 20°, så vinkeln vid D är 100°.</p></li><li><p>Använd sinussatsen i den mindre triangeln.</p><div class=\"facit-matte\">\\[CD=\\frac{AC\\sin60^\\circ}{\\sin100^\\circ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 13,47 cm.</strong></p></div>",
+    "ledtrad": "<p>Arbeta först i ABC och sedan i ACD.</p>",
+    "rättSvar": 13.472963553338607,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.542",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>I en triangel är A = 30° och a = 10 cm. Sidan b ligger mittemot B. Hur lång kan b som mest vara? Svara i cm med två decimaler. Figuren visar ett exempel.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"En möjlig triangel, inte den med störst b.\"><title>En möjlig triangel, inte den med störst b.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"30,60,90\" data-lengths=\"20.000000000000004,10,17.320508075688775\" points=\"90.000000,285.000000 430.000000,285.000000 345.000000,137.775681\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"65.852\" y=\"291.470\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"451.651\" y=\"297.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"351.470\" y=\"113.628\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"412.615\" y=\"196.888\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">10 cm</text><text x=\"203.000\" y=\"186.273\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">b</text><path data-angle-arc=\"30.000000000\" data-center=\"90.000000,285.000000\" d=\"M112.000000 285.000000 A22 22 0 0 0 109.052559 274.000000\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"160.909\" y=\"266.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">30°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen ger b = 10 sin B/sin30° = 20 sin B.</p></li><li><p>Sin B är som störst 1, vid B = 90°. Då blir C = 60°, vilket är en möjlig triangel. Största b är alltså 20 cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 20,00 cm.</strong></p></div>",
+    "ledtrad": "<p>Vilken möjlig B-vinkel gör sin B störst?</p>",
+    "rättSvar": 20.000000000000004,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.543",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Triangeln har A = 35°, a = 10 cm och b = 14 cm. Vinkeln B är trubbig. Bestäm sidan c mittemot C. Svara i cm med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel med trubbig vinkel B.\"><title>Triangel med trubbig vinkel B.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"35,126.5817821739414,18.418217826058594\" data-lengths=\"5.508432818587934,10,14.0\" points=\"110.044459,285.000000 254.099352,285.000000 409.955541,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"86.202\" y=\"292.518\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"265.336\" y=\"307.332\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"427.876\" y=\"57.568\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"355.315\" y=\"197.283\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">10 cm</text><text x=\"243.366\" y=\"156.245\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">14 cm</text><text x=\"182.072\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">c</text><path data-angle-arc=\"35.000000000\" data-center=\"110.044459,285.000000\" d=\"M132.044459 285.000000 A22 22 0 0 0 128.065804 272.381318\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"170.305\" y=\"266.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">35°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen ger sin B = 14 sin35°/10. Räknarens spetsiga vinkel ska ersättas med dess supplementvinkel eftersom B är trubbig.</p></li><li><p>Beräkna sedan C = 180°−A−B och använd sinussatsen igen.</p><div class=\"facit-matte\">\\[c=\\frac{10\\sin C}{\\sin35^\\circ}\\]</div></li><li><p>Behåll de oavrundade vinklarna tills sidan är beräknad.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 5,51 cm.</strong></p></div>",
+    "ledtrad": "<p>Villkoret ”trubbig” avgör vilken sinuslösning som ska användas.</p>",
+    "rättSvar": 5.508432818587934,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.544",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>I en triangel är A = 50° och sidan a dubbelt så lång som sidan b. Bestäm vinkeln C. Svara i grader med en decimal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel med sidförhållandet två till ett.\"><title>Triangel med sidförhållandet två till ett.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"50,22.521012118111,107.478987881889\" data-lengths=\"12.451329334892494,10,5.0\" points=\"90.000000,285.000000 430.000000,285.000000 177.760825,180.410721\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"67.342\" y=\"295.565\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"454.519\" y=\"289.882\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"171.823\" y=\"156.126\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"314.988\" y=\"205.917\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">2b</text><text x=\"111.665\" y=\"214.065\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">b</text><path data-angle-arc=\"50.000000000\" data-center=\"90.000000,285.000000\" d=\"M112.000000 285.000000 A22 22 0 0 0 104.141327 268.147022\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"130.784\" y=\"265.982\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">50°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen ger sin B/sin50° = b/a = 1/2. Därför är den spetsiga B-vinkeln ungefär 22,5°.</p></li><li><p>Den andra sinuslösningen skulle vara ungefär 157,5°. Tillsammans med A = 50° blir det mer än 180°, så den går inte.</p></li><li><p>Den återstående vinkeln är C = 180°−50°−B.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 107,5°.</strong></p></div>",
+    "ledtrad": "<p>Använd sidförhållandet; en bestämd längd behövs inte.</p>",
+    "rättSvar": 107.478987881889,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.05,
+    "svarEnhet": "°"
+  },
+  {
+    "id": "4.545",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>I triangeln är AB = 50 cm, A = 50° och B = 60°. BD delar vinkeln B i två lika stora delar. D ligger på AC. Bestäm AD. Svara i cm med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 400\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel med vinkelbisektris BD.\"><title>Triangel med vinkelbisektris BD.</title><rect width=\"520\" height=\"400\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"50,60,70\" data-lengths=\"50.00000000000001,40.760373454795236,46.080249255343816\" points=\"111.272760,285.000000 408.727240,285.000000 287.483683,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"88.615\" y=\"295.565\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"430.378\" y=\"297.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"289.663\" y=\"50.095\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"260.000\" y=\"346.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">50 cm</text><path data-angle-arc=\"50.000000000\" data-center=\"111.272760,285.000000\" d=\"M133.272760 285.000000 A22 22 0 0 0 125.414088 268.147022\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"152.057\" y=\"265.982\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">50°</text><path data-bisector=\"1\" d=\"M408.7272395385251 285.0L208.34757176940417 169.31074487337025\" stroke=\"#a15320\" stroke-width=\"2\" stroke-dasharray=\"6 5\" fill=\"none\"/><text x=\"186.348\" y=\"169.311\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">D</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I den mindre triangeln ABD är vinkeln vid B 30°. Vinkeln vid D är därför 180°−50°−30° = 100°.</p></li><li><p>AB ligger mittemot 100° och AD mittemot 30°. Sinussatsen ger</p><div class=\"facit-matte\">\\[AD=\\frac{50\\sin30^\\circ}{\\sin100^\\circ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 25,39 cm.</strong></p></div>",
+    "ledtrad": "<p>Välj triangeln som innehåller den efterfrågade delen AD.</p>",
+    "rättSvar": 25.38566529714362,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.546",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>I en triangel är A = 50°, a = 10 cm och b = 13 cm. Hur många olika trianglar uppfyller villkoren och har B &gt; 90°? Svara med ett heltal. Figuren visar en möjlig form.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"En möjlig form; uppgiften gäller alla trianglar som uppfyller villkoren.\"><title>En möjlig form; uppgiften gäller alla trianglar som uppfyller villkoren.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"50,84.78319691827231,45.21680308172769\" data-lengths=\"9.265485310105007,10,13.0\" points=\"162.307741,285.000000 357.692259,285.000000 338.518664,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"139.650\" y=\"295.565\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"376.156\" y=\"301.855\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"345.991\" y=\"51.143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"376.985\" y=\"177.363\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">10 cm</text><text x=\"228.198\" y=\"161.359\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">13 cm</text><path data-angle-arc=\"50.000000000\" data-center=\"162.307741,285.000000\" d=\"M184.307741 285.000000 A22 22 0 0 0 176.449068 268.147022\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"203.092\" y=\"265.982\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">50°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen ger sin B = 13 sin50°/10 ≈ 0,99586. Det finns en spetsig och en trubbig lösning.</p></li><li><p>Den trubbiga är ungefär 95,2°. Med A = 50° återstår en positiv C-vinkel, ungefär 34,8°. Den trubbiga lösningen är alltså tillåten.</p></li><li><p>Endast en av de två möjliga trianglarna har B > 90°.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 1 triangel.</strong></p></div>",
+    "ledtrad": "<p>Kontrollera både om sinuslösningen är trubbig och om vinkelsumman tillåter den.</p>",
+    "rättSvar": 1,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0,
+    "svarEnhet": ""
+  },
+  {
+    "id": "4.547",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>I triangeln är A = 30° och B = 80°. Sidan a är (x+2) cm och sidan b är 2x cm. Bestäm x. Svara med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Två sidlängder uttryckta med samma parameter.\"><title>Två sidlängder uttryckta med samma parameter.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"30,80,70\" data-lengths=\"247.4137292636215,131.64609564385955,259.29219128771916\" points=\"90.000000,285.000000 430.000000,285.000000 398.585270,106.838211\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"65.852\" y=\"291.470\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"449.151\" y=\"301.070\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"409.151\" y=\"84.181\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"442.852\" y=\"190.883\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x + 2</text><text x=\"229.793\" y=\"170.804\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">2x</text><path data-angle-arc=\"30.000000000\" data-center=\"90.000000,285.000000\" d=\"M112.000000 285.000000 A22 22 0 0 0 109.052559 274.000000\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"160.909\" y=\"266.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">30°</text><path data-angle-arc=\"80.000000000\" data-center=\"430.000000,285.000000\" d=\"M426.179740 263.334229 A22 22 0 0 0 408.000000 285.000000\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"395.528\" y=\"256.075\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">80°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sinussatsen ger ett samband mellan de två uttrycken.</p><div class=\"facit-matte\">\\[\\frac{x+2}{\\sin30^\\circ}=\\frac{2x}{\\sin80^\\circ}\\]</div></li><li><p>Eftersom sin30° = 1/2 får vi (x+2)sin80° = x.</p></li><li><p>Samla x-termerna och lös ut x.</p><div class=\"facit-matte\">\\[x=\\frac{2\\sin80^\\circ}{1-\\sin80^\\circ}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: x ≈ 129,65.</strong></p></div>",
+    "ledtrad": "<p>Behandla x som en obekant även när trigonometriska tal ingår.</p>",
+    "rättSvar": 129.64609564385955,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": ""
+  },
+  {
+    "id": "4.548",
+    "kap": 4,
+    "omr": "sinussatsen",
+    "kurs": [
+      "1c"
+    ],
+    "familj": "Sinussatsen – samband och problemlösning",
+    "niva": "C",
+    "poang": "0/2/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En triangel har A = 35°, B = 70° och arean 60 cm². Bestäm sidan a mittemot A. Svara i cm med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel med given area och två vinklar.\"><title>Triangel med given area och två vinklar.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"35,70,75\" data-lengths=\"14.664726009066722,8.708061276982322,14.266452393667755\" points=\"90.000000,285.000000 430.000000,285.000000 360.947704,95.280375\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"66.157\" y=\"292.518\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"450.479\" y=\"299.339\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"368.465\" y=\"71.437\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"422.725\" y=\"180.222\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">a</text><path data-angle-arc=\"35.000000000\" data-center=\"90.000000,285.000000\" d=\"M112.000000 285.000000 A22 22 0 0 0 108.021345 272.381318\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"150.260\" y=\"266.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">35°</text><path data-angle-arc=\"70.000000000\" data-center=\"430.000000,285.000000\" d=\"M422.475557 264.326762 A22 22 0 0 0 408.000000 285.000000\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"393.138\" y=\"259.189\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">70°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln C är 75°. Sinussatsen uttrycker de två övriga sidorna med a.</p><div class=\"facit-matte\">\\[b=\\frac{a\\sin70^\\circ}{\\sin35^\\circ},\\quad c=\\frac{a\\sin75^\\circ}{\\sin35^\\circ}\\]</div></li><li><p>Sätt in dem i areasatsen K = bc sin A/2 och förenkla.</p><div class=\"facit-matte\">\\[60=\\frac{a^2\\sin70^\\circ\\sin75^\\circ}{2\\sin35^\\circ}\\]</div></li><li><p>Lös ut a² och ta den positiva roten eftersom a är en längd.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 8,71 cm.</strong></p></div>",
+    "ledtrad": "<p>Använd vinklarna för att uttrycka alla längder med samma skala.</p>",
+    "rättSvar": 8.708061276982322,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.005,
+    "svarEnhet": "cm"
+  }
 
 ];

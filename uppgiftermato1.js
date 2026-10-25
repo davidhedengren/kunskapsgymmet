@@ -111308,6 +111308,652 @@ window.BANKMATO1 = [
     "k",
     "a"
   ]
+},
+  {
+  "id": "2.1201",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Lös ekvationen. Ange alla reella lösningar.</p><div class=\"facit-matte\">\\[\\ln(x-1)+\\ln(x+1)=\\ln8\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Båda logaritmerna kräver positiva argument. Därför måste x vara större än 1.</p></li><li><p>Samla logaritmerna och jämför argumenten.</p><div class=\"facit-matte\">\\[(x-1)(x+1)=8\\]</div><div class=\"facit-matte\">\\[x^2=9\\quad\\Rightarrow\\quad x=\\pm3\\]</div></li><li><p>Endast 3 uppfyller villkoret x > 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=3\\).</strong></p></div>",
+  "ledtrad": "<p>Vilka x-värden är tillåtna innan du använder logaritmlagen?</p>",
+  "rättSvar": 3,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1202",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två kvadrater har sidlängderna a och b, där b &gt; a. Det gäller att \\(\\ln b-\\ln a=1{,}5\\). Hur många gånger så stor area har den större kvadraten? Svara exakt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 310\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Två kvadrater med sidlängderna a och b. Figuren är schematisk.\"><title>Två kvadrater med sidlängderna a och b. Figuren är schematisk.</title><rect width=\"500\" height=\"310\" fill=\"white\" rx=\"10\"/><rect x=\"45\" y=\"130\" width=\"95\" height=\"95\" fill=\"#e5f3fa\" stroke=\"#195578\" stroke-width=\"3\"/><rect x=\"260\" y=\"55\" width=\"170\" height=\"170\" fill=\"#e5f3fa\" stroke=\"#195578\" stroke-width=\"3\"/><text x=\"93\" y=\"253\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">a</text><text x=\"345\" y=\"253\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">b</text><text x=\"250\" y=\"290\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Schematisk figur</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Logaritmskillnaden beskriver kvoten mellan sidlängderna.</p><div class=\"facit-matte\">\\[\\ln(b/a)=1{,}5\\Rightarrow b/a=e^{1{,}5}\\]</div></li><li><p>Areafaktorn är kvadraten på längdfaktorn.</p><div class=\"facit-matte\">\\[\\frac{b^2}{a^2}=(e^{1{,}5})^2=e^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(e^3\\) gånger.</strong></p></div>",
+  "ledtrad": "<p>Hur hänger en längdfaktor ihop med en areafaktor?</p>",
+  "rättSvar": "e^3",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1203",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Talen 4, x och 25 är positiva och står i stigande ordning. Skillnaden mellan deras naturliga logaritmer är lika stor i båda stegen:</p><p>Bestäm x.</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Tal</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Naturlig logaritm</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">4</td><td style=\"padding:8px;border:1px solid #8796a5\">\\(\\ln4\\)</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">x</td><td style=\"padding:8px;border:1px solid #8796a5\">\\(\\ln x\\)</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">25</td><td style=\"padding:8px;border:1px solid #8796a5\">\\(\\ln25\\)</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Flytta ihop termerna med ln x.</p><div class=\"facit-matte\">\\[2\\ln x=\\ln4+\\ln25=\\ln100\\]</div></li><li><p>Skriv vänsterledet som ln(x²).</p><div class=\"facit-matte\">\\[x^2=100\\]</div></li><li><p>x är positivt och ligger mellan 4 och 25, alltså x = 10.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x = 10.</strong></p></div>",
+  "ledtrad": "<p>Lika steg i logaritmerna betyder inte lika stora skillnader mellan talen.</p>",
+  "rättSvar": 10,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1204",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Lös ekvationen och ange alla reella lösningar.</p><div class=\"facit-matte\">\\[\\ln(x+2)=2\\ln x\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Högerledet kräver x > 0. Skriv 2 ln x som ln(x²).</p><div class=\"facit-matte\">\\[x+2=x^2\\]</div></li><li><p>Lös andragradsekvationen.</p><div class=\"facit-matte\">\\[(x-2)(x+1)=0\\]</div></li><li><p>Kandidaterna är 2 och −1. Bara 2 ligger i definitionsmängden.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x = 2.</strong></p></div>",
+  "ledtrad": "<p>Kontrollera definitionsmängden innan du godtar en rot.</p>",
+  "rättSvar": 2,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1205",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=a\\ln x+b\\). Tabellen visar två funktionsvärden. Bestäm \\(f(e^{-1})\\).</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">x</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">\\(f(x)\\)</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">1</td><td style=\"padding:8px;border:1px solid #8796a5\">4</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">\\(e^2\\)</td><td style=\"padding:8px;border:1px solid #8796a5\">10</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Eftersom ln 1 = 0 visar första raden att b = 4.</p></li><li><p>Den andra raden ger 2a+4 = 10, alltså a = 3.</p></li><li><p>Nu är ln(e⁻¹) = −1.</p><div class=\"facit-matte\">\\[f(e^{-1})=3\\cdot(-1)+4=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 1.</strong></p></div>",
+  "ledtrad": "<p>Vilken av tabellraderna bestämmer en av konstanterna direkt?</p>",
+  "rättSvar": 1,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1206",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>De positiva talen p och q uppfyller \\(\\ln p=2a\\) och \\(\\ln q=a-1\\). Bestäm \\(\\ln\\left(\\frac{p}{q^2}\\right)\\). Svaret ska inte innehålla a.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv kvotens logaritm som en skillnad.</p><div class=\"facit-matte\">\\[\\ln(p/q^2)=\\ln p-2\\ln q\\]</div></li><li><p>Sätt in de givna sambanden. Termerna med a tar ut varandra.</p><div class=\"facit-matte\">\\[2a-2(a-1)=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 2.</strong></p></div>",
+  "ledtrad": "<p>Bryt upp kvotens logaritm innan du sätter in uttrycken.</p>",
+  "rättSvar": 2,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1207",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>För \\(x\\lt2\\) vill en elev skriva om \\(\\ln((x-2)^2)\\). Vilket uttryck är lika med det ursprungliga för alla dessa x? Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När x < 2 är x−2 negativt, så ln(x−2) är inte definierad. Däremot är 2−x positivt.</p></li><li><p>Kvadraterna är lika. Potenslagen kan därför användas med det positiva argumentet 2−x.</p><div class=\"facit-matte\">\\[\\ln((x-2)^2)=\\ln((2-x)^2)\\]</div><div class=\"facit-matte\">\\[=2\\ln(2-x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(2\\ln(2-x)\\).</strong></p></div>",
+  "ledtrad": "<p>Vilket argument är positivt när x är mindre än 2?</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "\\(2\\ln(x-2)\\)",
+      "ratt": false
+    },
+    {
+      "txt": "\\(\\ln(2-x)\\)",
+      "ratt": false
+    },
+    {
+      "txt": "\\(2\\ln(2-x)\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(2\\ln x-2\\ln2\\)",
+      "ratt": false
+    }
+  ]
+},
+  {
+  "id": "2.1208",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=\\ln(3x-2)\\). Bestäm det x-värde som uppfyller \\(f(f(x))=0\\). Svara exakt.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Börja med den yttre funktionen. ln(3f(x)−2) = 0 betyder att argumentet är 1.</p><div class=\"facit-matte\">\\[3f(x)-2=1\\Rightarrow f(x)=1\\]</div></li><li><p>Lös sedan den inre ekvationen.</p><div class=\"facit-matte\">\\[\\ln(3x-2)=1\\]</div><div class=\"facit-matte\">\\[3x-2=e\\Rightarrow x=\\frac{e+2}{3}\\]</div></li><li><p>Vid detta x är det inre argumentet e och det yttre 1. Båda är positiva.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=\\frac{e+2}{3}\\).</strong></p></div>",
+  "ledtrad": "<p>Vilket värde måste f(x) ha för att den yttre funktionen ska ge 0?</p>",
+  "rättSvar": "(e+2)/3",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1209",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>A = (1, 0) och \\(B=(4,\\ln4)\\) ligger på grafen \\(y=\\ln x\\). M är mittpunkten på sträckan AB. Hur långt ovanför M ligger kurvan vid samma x-värde? Svara exakt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Logaritmkurvan och sträckan mellan (1,0) och (4,ln 4). M är sträckans mittpunkt.\"><title>Logaritmkurvan och sträckan mellan (1,0) och (4,ln 4). M är sträckans mittpunkt.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M147.22222222222223 50V250\" stroke=\"#d6e1ea\"/><text x=\"147.22222222222223\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M229.44444444444446 50V250\" stroke=\"#d6e1ea\"/><text x=\"229.44444444444446\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M393.8888888888889 50V250\" stroke=\"#d6e1ea\"/><text x=\"393.8888888888889\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"147.222,250.000 148.044,249.005 148.867,248.020 149.689,247.044 150.511,246.078 151.333,245.121 152.156,244.173 152.978,243.234 153.800,242.304 154.622,241.382 155.444,240.469 156.267,239.564 157.089,238.667 157.911,237.778 158.733,236.897 159.556,236.024 160.378,235.158 161.200,234.300 162.022,233.449 162.844,232.605 163.667,231.768 164.489,230.938 165.311,230.115 166.133,229.299 166.956,228.489 167.778,227.686 168.600,226.889 169.422,226.098 170.244,225.314 171.067,224.536 171.889,223.764 172.711,222.997 173.533,222.237 174.356,221.482 175.178,220.733 176.000,219.990 176.822,219.252 177.644,218.519 178.467,217.792 179.289,217.070 180.111,216.353 180.933,215.641 181.756,214.934 182.578,214.233 183.400,213.536 184.222,212.844 185.044,212.156 185.867,211.474 186.689,210.796 187.511,210.122 188.333,209.453 189.156,208.789 189.978,208.129 190.800,207.473 191.622,206.822 192.444,206.175 193.267,205.531 194.089,204.892 194.911,204.258 195.733,203.627 196.556,203.000 197.378,202.377 198.200,201.757 199.022,201.142 199.844,200.530 200.667,199.922 201.489,199.318 202.311,198.718 203.133,198.121 203.956,197.527 204.778,196.937 205.600,196.351 206.422,195.768 207.244,195.188 208.067,194.611 208.889,194.038 209.711,193.469 210.533,192.902 211.356,192.339 212.178,191.778 213.000,191.221 213.822,190.667 214.644,190.116 215.467,189.568 216.289,189.023 217.111,188.481 217.933,187.942 218.756,187.406 219.578,186.873 220.400,186.342 221.222,185.815 222.044,185.290 222.867,184.767 223.689,184.248 224.511,183.731 225.333,183.217 226.156,182.706 226.978,182.197 227.800,181.690 228.622,181.187 229.444,180.685 230.267,180.187 231.089,179.690 231.911,179.196 232.733,178.705 233.556,178.216 234.378,177.729 235.200,177.245 236.022,176.763 236.844,176.284 237.667,175.806 238.489,175.331 239.311,174.858 240.133,174.388 240.956,173.919 241.778,173.453 242.600,172.989 243.422,172.527 244.244,172.068 245.067,171.610 245.889,171.154 246.711,170.701 247.533,170.249 248.356,169.800 249.178,169.352 250.000,168.907 250.822,168.464 251.644,168.022 252.467,167.582 253.289,167.145 254.111,166.709 254.933,166.275 255.756,165.843 256.578,165.413 257.400,164.985 258.222,164.558 259.044,164.134 259.867,163.711 260.689,163.290 261.511,162.871 262.333,162.453 263.156,162.037 263.978,161.623 264.800,161.211 265.622,160.800 266.444,160.391 267.267,159.984 268.089,159.578 268.911,159.174 269.733,158.772 270.556,158.371 271.378,157.972 272.200,157.574 273.022,157.178 273.844,156.784 274.667,156.391 275.489,155.999 276.311,155.609 277.133,155.221 277.956,154.834 278.778,154.449 279.600,154.065 280.422,153.683 281.244,153.302 282.067,152.922 282.889,152.544 283.711,152.167 284.533,151.792 285.356,151.418 286.178,151.046 287.000,150.675 287.822,150.305 288.644,149.937 289.467,149.570 290.289,149.204 291.111,148.840 291.933,148.477 292.756,148.115 293.578,147.755 294.400,147.396 295.222,147.038 296.044,146.682 296.867,146.326 297.689,145.972 298.511,145.620 299.333,145.268 300.156,144.918 300.978,144.569 301.800,144.221 302.622,143.874 303.444,143.529 304.267,143.185 305.089,142.842 305.911,142.500 306.733,142.159 307.556,141.819 308.378,141.481 309.200,141.144 310.022,140.808 310.844,140.473 311.667,140.139 312.489,139.806 313.311,139.474 314.133,139.144 314.956,138.814 315.778,138.486 316.600,138.159 317.422,137.832 318.244,137.507 319.067,137.183 319.889,136.860 320.711,136.538 321.533,136.217 322.356,135.897 323.178,135.578 324.000,135.260 324.822,134.943 325.644,134.627 326.467,134.312 327.289,133.998 328.111,133.685 328.933,133.373 329.756,133.062 330.578,132.752 331.400,132.443 332.222,132.135 333.044,131.827 333.867,131.521 334.689,131.216 335.511,130.911 336.333,130.608 337.156,130.305 337.978,130.004 338.800,129.703 339.622,129.403 340.444,129.104 341.267,128.806 342.089,128.509 342.911,128.212 343.733,127.917 344.556,127.622 345.378,127.329 346.200,127.036 347.022,126.744 347.844,126.453 348.667,126.163 349.489,125.873 350.311,125.585 351.133,125.297 351.956,125.010 352.778,124.724 353.600,124.438 354.422,124.154 355.244,123.870 356.067,123.587 356.889,123.305 357.711,123.024 358.533,122.743 359.356,122.464 360.178,122.185 361.000,121.907 361.822,121.629 362.644,121.353 363.467,121.077 364.289,120.802 365.111,120.527 365.933,120.254 366.756,119.981 367.578,119.709 368.400,119.437 369.222,119.167 370.044,118.897 370.867,118.628 371.689,118.359 372.511,118.091 373.333,117.824 374.156,117.558 374.978,117.292 375.800,117.028 376.622,116.763 377.444,116.500 378.267,116.237 379.089,115.975 379.911,115.714 380.733,115.453 381.556,115.193 382.378,114.933 383.200,114.675 384.022,114.416 384.844,114.159 385.667,113.902 386.489,113.646 387.311,113.391 388.133,113.136 388.956,112.882 389.778,112.628 390.600,112.376 391.422,112.123 392.244,111.872 393.067,111.621 393.889,111.371 394.711,111.121 395.533,110.872 396.356,110.623 397.178,110.376 398.000,110.128 398.822,109.882 399.644,109.636 400.467,109.390 401.289,109.146 402.111,108.901 402.933,108.658 403.756,108.415 404.578,108.172 405.400,107.930 406.222,107.689 407.044,107.448 407.867,107.208 408.689,106.969 409.511,106.730 410.333,106.492 411.156,106.254 411.978,106.016 412.800,105.780 413.622,105.544 414.444,105.308 415.267,105.073 416.089,104.839 416.911,104.605 417.733,104.371 418.556,104.138 419.378,103.906 420.200,103.674 421.022,103.443 421.844,103.213 422.667,102.982 423.489,102.753 424.311,102.524 425.133,102.295 425.956,102.067 426.778,101.840 427.600,101.613 428.422,101.386 429.244,101.160 430.067,100.935 430.889,100.710 431.711,100.485 432.533,100.261 433.356,100.038 434.178,99.815 435.000,99.592\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"147.222,250.000 393.889,111.371\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"147.22222222222223\" cy=\"250.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"393.8888888888889\" cy=\"111.37056388801093\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"270.55555555555554\" cy=\"180.68528194400545\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"270\" y=\"211\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"19\" fill=\"#172e46\">M</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mittpunktens koordinater är medelvärdena av ändpunkternas koordinater.</p><div class=\"facit-matte\">\\[x_M=\\frac{1+4}{2}=\\frac52\\]</div><div class=\"facit-matte\">\\[y_M=\\frac{\\ln4}{2}=\\ln2\\]</div></li><li><p>Kurvans höjd vid samma x är ln(5/2). Skillnaden blir</p><div class=\"facit-matte\">\\[\\ln(5/2)-\\ln2=\\ln(5/4)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(\\ln(5/4)\\) längdenheter.</strong></p></div>",
+  "ledtrad": "<p>Bestäm först båda koordinaterna för mittpunkten.</p>",
+  "rättSvar": "ln(5/4)",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1210",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En funktion har formen \\(f(x)=a\\ln x+b\\). Tabellen visar tre värden. Bestäm det x-värde som ger \\(f(x)=9\\).</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">x</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">\\(f(x)\\)</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">2</td><td style=\"padding:8px;border:1px solid #8796a5\">1</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">6</td><td style=\"padding:8px;border:1px solid #8796a5\">3</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">18</td><td style=\"padding:8px;border:1px solid #8796a5\">5</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När x multipliceras med 3 ökar ln x med ln 3. Funktionen ökar därför alltid med samma tal vid en sådan tredubbling.</p></li><li><p>Tabellen visar att ökningen är 2. Från f(18) = 5 behövs två ökningar till 9. Därför ska x tredubblas två gånger.</p><div class=\"facit-matte\">\\[x=18\\cdot3^2=162\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: x = 162.</strong></p></div>",
+  "ledtrad": "<p>Vad händer med ln x när x multipliceras med samma faktor igen?</p>",
+  "rättSvar": 162,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1211",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En dryck svalnar enligt \\(T(t)=20+60e^{-kt}\\), där T mäts i °C och t i minuter. Efter 4 minuter är temperaturen 50 °C. Hur lång tid från starten tar det tills temperaturen är 25 °C? Svara i minuter med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Temperaturen närmar sig 20 grader. Markering vid 4 minuter och 50 grader.\"><title>Temperaturen närmar sig 20 grader. Markering vid 4 minuter och 50 grader.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M139.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"139.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M213.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"213.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><path d=\"M287.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"287.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">12</text><path d=\"M361.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"361.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">16</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">20</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 205.55555555555554H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"211.55555555555554\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">20</text><path d=\"M65 161.11111111111111H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"167.11111111111111\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">40</text><path d=\"M65 116.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"122.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">60</text><path d=\"M65 72.22222222222223H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"78.22222222222223\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">80</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Tid (min)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Temperatur (°C)</text><polyline points=\"65.000,72.222 66.850,74.513 68.700,76.764 70.550,78.977 72.400,81.151 74.250,83.288 76.100,85.389 77.950,87.453 79.800,89.482 81.650,91.476 83.500,93.436 85.350,95.362 87.200,97.255 89.050,99.116 90.900,100.944 92.750,102.742 94.600,104.508 96.450,106.244 98.300,107.950 100.150,109.627 102.000,111.275 103.850,112.894 105.700,114.486 107.550,116.051 109.400,117.588 111.250,119.100 113.100,120.585 114.950,122.045 116.800,123.479 118.650,124.889 120.500,126.275 122.350,127.637 124.200,128.976 126.050,130.291 127.900,131.584 129.750,132.855 131.600,134.104 133.450,135.331 135.300,136.538 137.150,137.724 139.000,138.889 140.850,140.034 142.700,141.160 144.550,142.266 146.400,143.353 148.250,144.422 150.100,145.472 151.950,146.504 153.800,147.519 155.650,148.516 157.500,149.496 159.350,150.459 161.200,151.405 163.050,152.336 164.900,153.250 166.750,154.149 168.600,155.032 170.450,155.900 172.300,156.753 174.150,157.591 176.000,158.415 177.850,159.225 179.700,160.021 181.550,160.803 183.400,161.572 185.250,162.328 187.100,163.070 188.950,163.800 190.800,164.517 192.650,165.222 194.500,165.915 196.350,166.596 198.200,167.266 200.050,167.923 201.900,168.570 203.750,169.205 205.600,169.830 207.450,170.444 209.300,171.047 211.150,171.640 213.000,172.222 214.850,172.795 216.700,173.358 218.550,173.911 220.400,174.454 222.250,174.989 224.100,175.514 225.950,176.030 227.800,176.537 229.650,177.036 231.500,177.526 233.350,178.007 235.200,178.480 237.050,178.946 238.900,179.403 240.750,179.852 242.600,180.294 244.450,180.728 246.300,181.154 248.150,181.573 250.000,181.985 251.850,182.390 253.700,182.788 255.550,183.179 257.400,183.564 259.250,183.942 261.100,184.313 262.950,184.678 264.800,185.036 266.650,185.389 268.500,185.735 270.350,186.076 272.200,186.411 274.050,186.739 275.900,187.063 277.750,187.380 279.600,187.693 281.450,188.000 283.300,188.301 285.150,188.598 287.000,188.889 288.850,189.175 290.700,189.457 292.550,189.733 294.400,190.005 296.250,190.272 298.100,190.535 299.950,190.793 301.800,191.046 303.650,191.296 305.500,191.541 307.350,191.781 309.200,192.018 311.050,192.251 312.900,192.479 314.750,192.704 316.600,192.925 318.450,193.142 320.300,193.355 322.150,193.564 324.000,193.770 325.850,193.973 327.700,194.172 329.550,194.367 331.400,194.560 333.250,194.749 335.100,194.934 336.950,195.117 338.800,195.296 340.650,195.472 342.500,195.645 344.350,195.816 346.200,195.983 348.050,196.148 349.900,196.309 351.750,196.468 353.600,196.624 355.450,196.778 357.300,196.928 359.150,197.077 361.000,197.222 362.850,197.365 364.700,197.506 366.550,197.644 368.400,197.780 370.250,197.914 372.100,198.045 373.950,198.174 375.800,198.301 377.650,198.426 379.500,198.548 381.350,198.668 383.200,198.787 385.050,198.903 386.900,199.017 388.750,199.130 390.600,199.240 392.450,199.349 394.300,199.455 396.150,199.560 398.000,199.663 399.850,199.764 401.700,199.864 403.550,199.962 405.400,200.058 407.250,200.152 409.100,200.245 410.950,200.336 412.800,200.426 414.650,200.514 416.500,200.601 418.350,200.686 420.200,200.769 422.050,200.852 423.900,200.932 425.750,201.012 427.600,201.090 429.450,201.167 431.300,201.242 433.150,201.316 435.000,201.389\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"139.0\" cy=\"138.88888888888889\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Använd mätningen för att bestämma k.</p><div class=\"facit-matte\">\\[50=20+60e^{-4k}\\]</div><div class=\"facit-matte\">\\[e^{-4k}=\\frac12\\Rightarrow k=\\frac{\\ln2}{4}\\]</div></li><li><p>Vid 25 °C är temperaturskillnaden mot rummet 5 °C.</p><div class=\"facit-matte\">\\[e^{-kt}=\\frac5{60}=\\frac1{12}\\]</div></li><li><p>Logaritmera och sätt in k.</p><div class=\"facit-matte\">\\[t=\\frac{\\ln12}{k}=\\frac{4\\ln12}{\\ln2}\\]</div><div class=\"facit-matte\">\\[t\\approx14{,}34\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 14,34 min.</strong></p></div>",
+  "ledtrad": "<p>Det är skillnaden från rumstemperaturen som avtar exponentiellt.</p>",
+  "rättSvar": 14.339850002884626,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "min"
+},
+  {
+  "id": "2.1212",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två odlingar beskrivs av \\(A(t)=100e^{0{,}30t}\\) och \\(B(t)=400e^{0{,}10t}\\), där t är tiden i dygn från starten. Efter hur många dygn är antalen lika stora? Svara med två decimaler.</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Odling</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Antal vid start</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Modell</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">A</td><td style=\"padding:8px;border:1px solid #8796a5\">100</td><td style=\"padding:8px;border:1px solid #8796a5\">\\(100e^{0{,}30t}\\)</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">B</td><td style=\"padding:8px;border:1px solid #8796a5\">400</td><td style=\"padding:8px;border:1px solid #8796a5\">\\(400e^{0{,}10t}\\)</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt antalen lika. Dividera båda leden med 100e⁰·¹⁰ᵗ.</p><div class=\"facit-matte\">\\[100e^{0{,}30t}=400e^{0{,}10t}\\]</div><div class=\"facit-matte\">\\[e^{0{,}20t}=4\\]</div></li><li><p>Logaritmera för att få tiden.</p><div class=\"facit-matte\">\\[0{,}20t=\\ln4\\]</div><div class=\"facit-matte\">\\[t=\\frac{\\ln4}{0{,}20}\\approx6{,}93\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 6,93 dygn.</strong></p></div>",
+  "ledtrad": "<p>Samla exponentialfaktorerna genom att dividera leden.</p>",
+  "rättSvar": 6.931471805599452,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "dygn"
+},
+  {
+  "id": "2.1213",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>På skalan är avståndet mellan två positiva tal proportionellt mot skillnaden mellan deras naturliga logaritmer. P ligger tre fjärdedelar av sträckan från 10 till 1000. Vilket tal motsvarar P? Svara med en decimal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 270\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Logaritmisk skala från 10 till 1000. P ligger tre fjärdedelar av sträckan från 10.\"><title>Logaritmisk skala från 10 till 1000. P ligger tre fjärdedelar av sträckan från 10.</title><rect width=\"500\" height=\"270\" fill=\"white\" rx=\"10\"/><path d=\"M60 120H440 M60 105V135 M440 105V135 M345 105V135\" stroke=\"#244c66\" stroke-width=\"3\" fill=\"none\"/><text x=\"60\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">10</text><text x=\"440\" y=\"165\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">1000</text><text x=\"345\" y=\"92\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">P</text><path d=\"M60 202H345 M60 194V210 M345 194V210\" stroke=\"#a15320\" stroke-width=\"2\"/><text x=\"205\" y=\"235\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">¾ av hela sträckan</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tre fjärdedelar av logaritmskillnaden ger</p><div class=\"facit-matte\">\\[\\ln P-\\ln10\\]</div><div class=\"facit-matte\">\\[=\\frac34(\\ln1000-\\ln10)\\]</div></li><li><p>Skriv om till en kvot och använd inverssambandet.</p><div class=\"facit-matte\">\\[\\ln(P/10)=\\frac34\\ln100\\]</div><div class=\"facit-matte\">\\[P=10\\cdot100^{3/4}\\approx316{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 316,2.</strong></p></div>",
+  "ledtrad": "<p>Avståndet gäller logaritmerna, inte skillnaden 1000−10.</p>",
+  "rättSvar": 316.22776601683796,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.05
+},
+  {
+  "id": "2.1214",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två positiva tal a och b uppfyller båda sambanden. Bestäm a och b.</p><div class=\"facit-matte\">\\[\\ln a+\\ln b=\\ln12\\]</div><div class=\"facit-matte\">\\[\\ln a-\\ln b=\\ln3\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Logaritmlagarna ger både en produkt och en kvot.</p><div class=\"facit-matte\">\\[ab=12,\\qquad a/b=3\\]</div></li><li><p>Sätt a = 3b i produkten.</p><div class=\"facit-matte\">\\[3b^2=12\\Rightarrow b^2=4\\]</div></li><li><p>Båda talen är positiva, så b = 2 och a = 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a = 6 och b = 2.</strong></p></div>",
+  "ledtrad": "<p>Vilka samband mellan a och b motsvarar summan respektive skillnaden av logaritmer?</p>",
+  "rättSvar": [
+    6,
+    2
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ]
+},
+  {
+  "id": "2.1215",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Jämför ekvationerna \\(\\ln(x^2)=\\ln9\\) och \\(2\\ln x=\\ln9\\). Vilket påstående är korrekt? Välj ett alternativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I den första ekvationen räcker det att x² är positivt. Både x = −3 och x = 3 ger x² = 9.</p></li><li><p>I den andra måste x vara positivt redan för att ln x ska finnas. Därför återstår bara x = 3.</p></li><li><p>Omskrivningen ln(x²) = 2 ln x gäller alltså inte för negativa x.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Den första har lösningarna −3 och 3, den andra bara 3.</strong></p></div>",
+  "ledtrad": "<p>Jämför vilka x-värden som är tillåtna i de två ursprungliga uttrycken.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "Båda har bara lösningen 3.",
+      "ratt": false
+    },
+    {
+      "txt": "Den första har lösningarna −3 och 3, den andra bara 3.",
+      "ratt": true
+    },
+    {
+      "txt": "Båda har lösningarna −3 och 3.",
+      "ratt": false
+    },
+    {
+      "txt": "Den första har bara lösningen 3, den andra −3 och 3.",
+      "ratt": false
+    }
+  ]
+},
+  {
+  "id": "2.1216",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Hur många heltal x uppfyller olikheten?</p><div class=\"facit-matte\">\\[\\ln(x-1)+\\ln(7-x)\\gt\\ln8\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Logaritmerna är definierade om 1 < x < 7. Eftersom ln är växande kan vi jämföra argumenten efter att ha samlat logaritmerna.</p><div class=\"facit-matte\">\\[(x-1)(7-x)\\gt8\\]</div></li><li><p>Flytta allt till ett led och faktorisera.</p><div class=\"facit-matte\">\\[x^2-8x+15\\lt0\\]</div><div class=\"facit-matte\">\\[(x-3)(x-5)\\lt0\\]</div></li><li><p>Detta ger 3 < x < 5. Endast heltalet 4 ligger i intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 1 heltal.</strong></p></div>",
+  "ledtrad": "<p>Börja med definitionsmängden. Därefter kan argumenten jämföras.</p>",
+  "rättSvar": 1,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1217",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Lös ekvationen och ange alla reella lösningar exakt.</p><div class=\"facit-matte\">\\[(\\ln x)^2-3\\ln x=0\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>x måste vara positivt. Bryt ut ln x.</p><div class=\"facit-matte\">\\[\\ln x(\\ln x-3)=0\\]</div></li><li><p>En produkt är noll om minst en faktor är noll.</p><div class=\"facit-matte\">\\[\\ln x=0\\quad\\text{eller}\\quad\\ln x=3\\]</div></li><li><p>Gå tillbaka från logaritmer till x.</p><div class=\"facit-matte\">\\[x=1\\quad\\text{eller}\\quad x=e^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=1\\) eller \\(x=e^3\\).</strong></p></div>",
+  "ledtrad": "<p>Se ln x som ett enda uttryck som kan faktoriseras.</p>",
+  "rättSvar": [
+    "1",
+    "e^3"
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "En lösning",
+    "Den andra lösningen"
+  ]
+},
+  {
+  "id": "2.1218",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Grafen visar \\(f(x)=\\ln(x-a)+b\\). Den lodräta asymptoten är x = 2 och grafen går genom (3, 4). Bestäm grafens nollställe exakt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen till ln(x−a)+b har lodrät asymptot x=2 och går genom (3,4).\"><title>Grafen till ln(x−a)+b har lodrät asymptot x=2 och går genom (3,4).</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M126.66666666666666 50V250\" stroke=\"#d6e1ea\"/><text x=\"126.66666666666666\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M188.33333333333331 50V250\" stroke=\"#d6e1ea\"/><text x=\"188.33333333333331\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M373.3333333333333 50V250\" stroke=\"#d6e1ea\"/><text x=\"373.3333333333333\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−2</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 45V250 M65 200H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"188.486,250.000 188.490,249.375 188.494,248.750 188.498,248.125 188.502,247.500 188.507,246.875 188.511,246.250 188.515,245.625 188.520,245.000 188.525,244.375 188.530,243.750 188.535,243.125 188.540,242.500 188.545,241.875 188.550,241.250 188.556,240.625 188.561,240.000 188.567,239.375 188.573,238.750 188.579,238.125 188.585,237.500 188.592,236.875 188.598,236.250 188.605,235.625 188.612,235.000 188.619,234.375 188.626,233.750 188.634,233.125 188.641,232.500 188.649,231.875 188.657,231.250 188.665,230.625 188.674,230.000 188.682,229.375 188.691,228.750 188.700,228.125 188.709,227.500 188.719,226.875 188.729,226.250 188.739,225.625 188.749,225.000 188.759,224.375 188.770,223.750 188.781,223.125 188.793,222.500 188.804,221.875 188.816,221.250 188.828,220.625 188.841,220.000 188.854,219.375 188.867,218.750 188.880,218.125 188.894,217.500 188.908,216.875 188.923,216.250 188.938,215.625 188.953,215.000 188.969,214.375 188.985,213.750 189.001,213.125 189.018,212.500 189.036,211.875 189.054,211.250 189.072,210.625 189.090,210.000 189.110,209.375 189.129,208.750 189.149,208.125 189.170,207.500 189.191,206.875 189.213,206.250 189.235,205.625 189.258,205.000 189.281,204.375 189.305,203.750 189.330,203.125 189.355,202.500 189.381,201.875 189.408,201.250 189.435,200.625 189.463,200.000 189.491,199.375 189.521,198.750 189.551,198.125 189.582,197.500 189.613,196.875 189.646,196.250 189.679,195.625 189.713,195.000 189.748,194.375 189.784,193.750 189.820,193.125 189.858,192.500 189.897,191.875 189.936,191.250 189.977,190.625 190.018,190.000 190.061,189.375 190.105,188.750 190.150,188.125 190.196,187.500 190.243,186.875 190.291,186.250 190.341,185.625 190.391,185.000 190.443,184.375 190.497,183.750 190.552,183.125 190.608,182.500 190.665,181.875 190.724,181.250 190.785,180.625 190.847,180.000 190.911,179.375 190.976,178.750 191.043,178.125 191.111,177.500 191.182,176.875 191.254,176.250 191.328,175.625 191.404,175.000 191.481,174.375 191.561,173.750 191.643,173.125 191.726,172.500 191.812,171.875 191.900,171.250 191.991,170.625 192.083,170.000 192.178,169.375 192.276,168.750 192.375,168.125 192.478,167.500 192.583,166.875 192.690,166.250 192.800,165.625 192.914,165.000 193.029,164.375 193.148,163.750 193.270,163.125 193.395,162.500 193.523,161.875 193.655,161.250 193.789,160.625 193.928,160.000 194.069,159.375 194.214,158.750 194.363,158.125 194.516,157.500 194.672,156.875 194.833,156.250 194.997,155.625 195.166,155.000 195.339,154.375 195.517,153.750 195.698,153.125 195.885,152.500 196.076,151.875 196.272,151.250 196.473,150.625 196.679,150.000 196.890,149.375 197.107,148.750 197.329,148.125 197.557,147.500 197.790,146.875 198.030,146.250 198.275,145.625 198.527,145.000 198.785,144.375 199.049,143.750 199.321,143.125 199.599,142.500 199.884,141.875 200.176,141.250 200.476,140.625 200.784,140.000 201.099,139.375 201.422,138.750 201.753,138.125 202.093,137.500 202.441,136.875 202.799,136.250 203.165,135.625 203.540,135.000 203.925,134.375 204.320,133.750 204.725,133.125 205.139,132.500 205.565,131.875 206.001,131.250 206.448,130.625 206.907,130.000 207.377,129.375 207.859,128.750 208.354,128.125 208.860,127.500 209.380,126.875 209.913,126.250 210.459,125.625 211.019,125.000 211.594,124.375 212.182,123.750 212.786,123.125 213.405,122.500 214.040,121.875 214.691,121.250 215.358,120.625 216.042,120.000 216.743,119.375 217.463,118.750 218.200,118.125 218.956,117.500 219.731,116.875 220.526,116.250 221.341,115.625 222.177,115.000 223.033,114.375 223.912,113.750 224.813,113.125 225.736,112.500 226.683,111.875 227.654,111.250 228.649,110.625 229.670,110.000 230.716,109.375 231.789,108.750 232.889,108.125 234.017,107.500 235.174,106.875 236.359,106.250 237.575,105.625 238.822,105.000 240.100,104.375 241.410,103.750 242.754,103.125 244.132,102.500 245.544,101.875 246.992,101.250 248.477,100.625 250.000,100.000 251.561,99.375 253.162,98.750 254.803,98.125 256.486,97.500 258.211,96.875 259.980,96.250 261.794,95.625 263.653,95.000 265.560,94.375 267.515,93.750 269.519,93.125 271.575,92.500 273.682,91.875 275.842,91.250 278.058,90.625 280.329,90.000 282.658,89.375 285.046,88.750 287.494,88.125 290.004,87.500 292.578,86.875 295.217,86.250 297.923,85.625 300.697,85.000 303.542,84.375 306.458,83.750 309.449,83.125 312.515,82.500 315.658,81.875 318.882,81.250 322.187,80.625 325.575,80.000 329.049,79.375 332.612,78.750 336.264,78.125 340.009,77.500 343.849,76.875 347.785,76.250 351.822,75.625 355.961,75.000 360.204,74.375 364.555,73.750 369.016,73.125 373.590,72.500 378.280,71.875 383.089,71.250 388.019,70.625 393.074,70.000 398.257,69.375 403.571,68.750 409.020,68.125 414.607,67.500 420.335,66.875 426.208,66.250 432.230,65.625\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"250.0\" cy=\"100.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><path d=\"M188.333 50V250\" stroke=\"#a15320\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><rect x=\"282\" y=\"110\" width=\"56\" height=\"26\" fill=\"white\"/><text x=\"310\" y=\"130\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">(3, 4)</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Logaritmens argument närmar sig 0 vid asymptoten. Därför är a = 2.</p></li><li><p>Punkten ger ln(3−2)+b = 4. Eftersom ln 1 = 0 är b = 4.</p></li><li><p>Sätt funktionsvärdet lika med noll.</p><div class=\"facit-matte\">\\[\\ln(x-2)+4=0\\]</div><div class=\"facit-matte\">\\[x-2=e^{-4}\\Rightarrow x=2+e^{-4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=2+e^{-4}\\).</strong></p></div>",
+  "ledtrad": "<p>Vad berättar asymptoten om a, och punkten om b?</p>",
+  "rättSvar": "2+e^(-4)",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1219",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Ett pris höjs med p procent och sänks sedan med lika många procent, där 0 &lt; p &lt; 100. Förhållandet mellan slutpriset S och ursprungspriset U uppfyller \\(\\ln(S/U)=\\ln(3/4)\\). Bestäm p.</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Händelse</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Pris</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">Start</td><td style=\"padding:8px;border:1px solid #8796a5\">U</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">Höjning med p %</td><td style=\"padding:8px;border:1px solid #8796a5\">Mellanpris</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">Sänkning med p %</td><td style=\"padding:8px;border:1px solid #8796a5\">S</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lika logaritmer ger S/U = 3/4. Höjningen och sänkningen har faktorerna 1+p/100 respektive 1−p/100.</p><div class=\"facit-matte\">\\[\\left(1+\\frac p{100}\\right)\\left(1-\\frac p{100}\\right)=\\frac34\\]</div></li><li><p>Använd konjugatregeln.</p><div class=\"facit-matte\">\\[1-\\left(\\frac p{100}\\right)^2=\\frac34\\]</div><div class=\"facit-matte\">\\[\\left(\\frac p{100}\\right)^2=\\frac14\\]</div></li><li><p>p är positivt, så p/100 = 1/2 och p = 50.</p></li></ol><p class=\"facit-svar\"><strong>Svar: p = 50.</strong></p></div>",
+  "ledtrad": "<p>Procenten vid sänkningen räknas på det redan höjda priset.</p>",
+  "rättSvar": 50,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "2.1220",
+  "kap": 2,
+  "omr": "naturliga_logaritmer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Naturliga logaritmer och ekvationer",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>För x &gt; 2 är logaritmskillnaden från x−2 till x lika stor som från x till x+6. Bestäm x.</p><div class=\"facit-matte\">\\[\\ln x-\\ln(x-2)=\\ln(x+6)-\\ln x\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv skillnaderna som logaritmer av kvoter.</p><div class=\"facit-matte\">\\[\\ln\\frac{x}{x-2}=\\ln\\frac{x+6}{x}\\]</div></li><li><p>Argumenten är positiva. Lika logaritmer ger lika kvoter.</p><div class=\"facit-matte\">\\[x^2=(x-2)(x+6)\\]</div></li><li><p>Utveckla och förenkla.</p><div class=\"facit-matte\">\\[x^2=x^2+4x-12\\Rightarrow x=3\\]</div></li><li><p>Kontroll: talen är då 1, 3 och 9, med samma faktor 3 mellan intilliggande tal.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x = 3.</strong></p></div>",
+  "ledtrad": "<p>Uttryck lika logaritmskillnader med hjälp av kvoter.</p>",
+  "rättSvar": 3,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
 }
 
 ];

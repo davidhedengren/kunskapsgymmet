@@ -214822,5 +214822,203 @@ window.BANK = [
   "rättSvar": 3.7037037037,
   "tolerans": 0.005,
   "svarEnhet": "m/s"
+},
+{
+  "id": "4.897",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "C",
+  "typ": "vilken planet ur en mätning",
+  "poang": "(0/1/0)",
+  "t": "<p>En astronaut med utrustning har massan 100 kg. På en planet visar en kraftmätare att tyngdkraften på astronauten med utrustning är 2,48 kN. Vilken planet är det? Jämför med tyngdaccelerationerna i formelsamlingen. (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften är \\(F=mg\\), så tyngdaccelerationen är tyngdkraften delad med massan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[g=\\frac{F}{m}=\\frac{2480\\ \\mathrm N}{100\\ \\mathrm{kg}}=24{,}8\\ \\mathrm{m/s^2}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Av planeterna i solsystemet har bara Jupiter så stor tyngdacceleration, cirka 24,8 m/s².</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Jupiter.</p></div>",
+  "familj": "Massa och tyngd",
+  "familjNyckel": "tyngdkraft__massa_och_tyngd",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Räkna ut tyngdaccelerationen och jämför med tabellen i formelsamlingen. 2,48 kN är 2 480 N.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Mars",
+      "ratt": false,
+      "kommentar": "Mars har cirka 3,7 m/s², vilket skulle ge 370 N."
+    },
+    {
+      "txt": "Saturnus",
+      "ratt": false,
+      "kommentar": "Saturnus har cirka 10,4 m/s²."
+    },
+    {
+      "txt": "Jupiter",
+      "ratt": true
+    },
+    {
+      "txt": "Neptunus",
+      "ratt": false,
+      "kommentar": "Neptunus har cirka 11,2 m/s²."
+    }
+  ]
+},
+{
+  "id": "4.898",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "C",
+  "typ": "lastbilens massa ur tyngdkraften i MN",
+  "poang": "(0/1/0)",
+  "t": "<p>En lastbil med last påverkas av tyngdkraften 0,15 MN. Hur stor är massan? (Svara i ton med tre värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut massan ur \\(F=mg\\). Gör om meganewton till newton först.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}F =0{,}15\\ \\mathrm{MN} =0{,}15\\cdot10^{6}\\ \\mathrm N\\\\=1{,}5\\cdot10^{5}\\ \\mathrm N\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}m =\\frac{F}{g} =\\frac{1{,}5\\cdot10^{5}}{9{,}82}\\ \\mathrm{kg}\\\\\\approx1{,}53\\cdot10^{4}\\ \\mathrm{kg} =15{,}3\\ \\mathrm{ton}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 15,3 ton.</p></div>",
+  "familj": "Massa och tyngd",
+  "familjNyckel": "tyngdkraft__massa_och_tyngd",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Mega betyder en miljon. Ett ton är 1 000 kg.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 15.2749490835,
+  "tolerans": 0.05,
+  "svarEnhet": "ton"
+},
+{
+  "id": "4.899",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "C",
+  "typ": "tyngden av en hink med vatten",
+  "poang": "(0/1/0)",
+  "t": "<p>En tom hink har massan 0,80 kg. Den fylls med 8,0 liter vatten. Hur stor är tyngdkraften på hinken med vatten? (Svara i N med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vatten har densiteten 1,0 kg per liter, så 8,0 liter vatten väger 8,0 kg. Tyngdkraften verkar på hela massan.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m=0{,}80+8{,}0=8{,}8\\ \\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=mg=8{,}8\\cdot9{,}82\\ \\mathrm N\\approx86\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 86 N.</p></div>",
+  "familj": "Massa och tyngd",
+  "familjNyckel": "tyngdkraft__massa_och_tyngd",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur stor massa har 8,0 liter vatten? Lägg ihop med hinkens massa.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 86.416,
+  "tolerans": 0.5,
+  "svarEnhet": "N"
+},
+{
+  "id": "4.900",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "C",
+  "typ": "största tyngden: en låda på månen eller en på jorden",
+  "poang": "(0/1/0)",
+  "t": "<p>Låda A har massan 12 kg och står på månen. Låda B har massan 2,0 kg och står på jorden. Vilken låda påverkas av störst tyngdkraft? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften beror både på massan och på tyngdaccelerationen. Räkna ut tyngden för båda lådorna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}F_A=12\\cdot1{,}62\\ \\mathrm N\\approx19{,}4\\ \\mathrm N,\\\\F_B=2{,}0\\cdot9{,}82\\ \\mathrm N\\approx19{,}6\\ \\mathrm N\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">B har alltså något större tyngd, trots att A har sex gånger så stor massa.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Låda B, men skillnaden är liten.</p></div>",
+  "familj": "Massa och tyngd",
+  "familjNyckel": "tyngdkraft__massa_och_tyngd",
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Räkna ut \\(F=mg\\) för båda lådorna med rätt g.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Låda A, eftersom den har störst massa",
+      "ratt": false,
+      "kommentar": "Massan är störst, men tyngdaccelerationen på månen är bara cirka en sjättedel av jordens."
+    },
+    {
+      "txt": "Lådorna har exakt lika stor tyngd",
+      "ratt": false,
+      "kommentar": "Räkna med tabellvärdena: 19,4 N mot 19,6 N."
+    },
+    {
+      "txt": "Låda B har något större tyngd",
+      "ratt": true
+    },
+    {
+      "txt": "Det går inte att jämföra, eftersom de står på olika himlakroppar",
+      "ratt": false,
+      "kommentar": "Tyngdkraften i newton kan jämföras var den än verkar."
+    }
+  ]
+},
+{
+  "id": "4.901",
+  "kap": 4,
+  "omr": "tyngdkraft",
+  "niva": "C",
+  "typ": "kraftmätarens mätområde på jorden och månen",
+  "poang": "(0/1/0)",
+  "t": "<p>En kraftmätare kan visa högst 50 N. Hur stor massa kan man som mest hänga i den på jorden respektive på månen? (Svara i kg med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den största massan ger tyngdkraften 50 N. Lös ut massan ur \\(F=mg\\) med tyngdaccelerationen på varje plats.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_{\\text{jorden}}=\\frac{50}{9{,}82}\\ \\mathrm{kg}\\approx5{,}1\\ \\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[m_{\\text{månen}}=\\frac{50}{1{,}62}\\ \\mathrm{kg}\\approx31\\ \\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">På månen räcker kraftmätaren alltså till ungefär sex gånger så stor massa.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 5,1 kg på jorden och 31 kg på månen.</p></div>",
+  "familj": "Massa och tyngd",
+  "familjNyckel": "tyngdkraft__massa_och_tyngd",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Vilken massa ger tyngdkraften 50 N på varje plats?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5.0916496945,
+    30.8641975309
+  ],
+  "tolerans": [
+    0.05,
+    0.5
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "kg",
+    "kg"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Jorden",
+    "Månen"
+  ]
 }
 ];

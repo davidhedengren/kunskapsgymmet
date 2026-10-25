@@ -215020,5 +215020,192 @@ window.BANK = [
     "Jorden",
     "Månen"
   ]
+},
+{
+  "id": "8.661",
+  "kap": 8,
+  "omr": "falt",
+  "niva": "C",
+  "typ": "antal elementarladdningar på en svävande droppe",
+  "poang": "(0/1/0)",
+  "t": "<p>En liten oljedroppe med massan \\(1{,}3\\cdot10^{-14}\\) kg svävar stilla mellan två vågräta plattor. Fältstyrkan mellan plattorna är \\(4{,}0\\cdot10^{4}\\) N/C och riktad nedåt. Hur många elementarladdningar har droppen? (Svara med ett heltal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Droppen svävar, så den elektriska kraften uppåt är lika stor som tyngdkraften: \\(qE=mg\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}q =\\frac{mg}{E} =\\frac{1{,}3\\cdot10^{-14}\\cdot9{,}82}{4{,}0\\cdot10^{4}}\\ \\mathrm C\\\\\\approx3{,}19\\cdot10^{-18}\\ \\mathrm C\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela med elementarladdningen för att få antalet laddningar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{3{,}19\\cdot10^{-18}}{1{,}602\\cdot10^{-19}}\\approx20\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältet är riktat nedåt men kraften uppåt, så droppen är negativt laddad: den har 20 elektroner för mycket.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 20 elementarladdningar.</p></div>",
+  "familj": "Laddade partiklar i elektriska fält",
+  "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Vilka två krafter tar ut varandra när droppen svävar?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 20.0,
+  "tolerans": 0,
+  "svarEnhet": ""
+},
+{
+  "id": "8.662",
+  "kap": 8,
+  "omr": "falt",
+  "niva": "C",
+  "typ": "kraften när plattorna flyttas isär",
+  "poang": "(0/1/0)",
+  "t": "<p>Två parallella plattor 4,0 mm från varandra har spänningen 120 V. En laddad kula mellan plattorna påverkas av den elektriska kraften 6,0 µN. Plattorna flyttas isär till avståndet 6,0 mm, med samma spänning. Hur stor blir kraften på kulan nu? (Svara i µN.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältstyrkan mellan plattorna är \\(E=\\dfrac Ud\\), och kraften är \\(F=qE\\). Med samma spänning och laddning är kraften omvänt proportionell mot avståndet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{E_2}{E_1}=\\frac{d_1}{d_2}=\\frac{4{,}0}{6{,}0}=\\frac23\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F_2=\\frac23\\cdot6{,}0\\ \\mathrm{\\mu N}=4{,}0\\ \\mathrm{\\mu N}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 4,0 µN.</p></div>",
+  "familj": "Homogent fält mellan plattor (E = U/d)",
+  "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur ändras fältstyrkan \\(E=\\dfrac Ud\\) när d ökar men U är densamma?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4.0,
+  "tolerans": 0.05,
+  "svarEnhet": "µN"
+},
+{
+  "id": "8.663",
+  "kap": 8,
+  "omr": "falt",
+  "niva": "C",
+  "typ": "avståndet för en given fältstyrka",
+  "poang": "(0/1/0)",
+  "t": "<p>På vilket avstånd från en punktladdning på 8,0 nC är fältstyrkan 2,0 kN/C? (Svara i cm med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Lös ut r ur \\(E=\\dfrac{kQ}{r^2}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}r =\\sqrt{\\frac{kQ}{E}}\\\\=\\sqrt{\\frac{8{,}99\\cdot10^{9}\\cdot8{,}0\\cdot10^{-9}}{2{,}0\\cdot10^{3}}}\\ \\mathrm m\\\\\\approx0{,}19\\ \\mathrm m =19\\ \\mathrm{cm}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 19 cm.</p></div>",
+  "familj": "Punktladdningens fält",
+  "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Multiplicera med \\(r^2\\), dela med E och dra roten ur. 2,0 kN/C = 2 000 N/C.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 18.9631221058,
+  "tolerans": 0.5,
+  "svarEnhet": "cm"
+},
+{
+  "id": "8.664",
+  "kap": 8,
+  "omr": "falt",
+  "niva": "C",
+  "typ": "fältet mellan två lika laddningar",
+  "poang": "(0/1/0)",
+  "t": "<p>Två laddningar på +4,0 nC ligger 20 cm från varandra. Punkten P ligger på linjen mellan dem, 5,0 cm från den vänstra laddningen.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"190\" viewBox=\"0 0 480 190\" role=\"img\" aria-label=\"Två laddningar på +4,0 nC på en rak linje, 20 cm från varandra. Punkten P ligger 5,0 cm från den vänstra och 15 cm från den högra laddningen.\"><title>Två laddningar på +4,0 nC på en rak linje, 20 cm från varandra. Punkten P ligger 5,0 cm från den vänstra och 15 cm från den högra laddningen.</title><rect x=\"1\" y=\"1\" width=\"478\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40\" y1=\"110\" x2=\"440\" y2=\"110\" stroke=\"#5b6773\" stroke-width=\"1.5\"/><circle cx=\"70.0\" cy=\"110\" r=\"15\" fill=\"#f3d9cf\" stroke=\"#c2410c\" stroke-width=\"2\"/><path d=\"M64.0 110 L76.0 110\" stroke=\"#c2410c\" stroke-width=\"2.4\"/><path d=\"M70.0 104 L70.0 116\" stroke=\"#c2410c\" stroke-width=\"2.4\"/><text x=\"70.0\" y=\"84.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">+4,0 nC</text><circle cx=\"410.0\" cy=\"110\" r=\"15\" fill=\"#f3d9cf\" stroke=\"#c2410c\" stroke-width=\"2\"/><path d=\"M404.0 110 L416.0 110\" stroke=\"#c2410c\" stroke-width=\"2.4\"/><path d=\"M410.0 104 L410.0 116\" stroke=\"#c2410c\" stroke-width=\"2.4\"/><text x=\"410.0\" y=\"84.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">+4,0 nC</text><circle cx=\"155.0\" cy=\"110\" r=\"5\" fill=\"#243447\"/><text x=\"155.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">P</text><line x1=\"70.0\" y1=\"150\" x2=\"155.0\" y2=\"150\" stroke=\"#216d87\" stroke-width=\"1.5\"/><line x1=\"70.0\" y1=\"144\" x2=\"70.0\" y2=\"156\" stroke=\"#216d87\" stroke-width=\"1.5\"/><line x1=\"155.0\" y1=\"144\" x2=\"155.0\" y2=\"156\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"112.5\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">5,0 cm</text><line x1=\"155.0\" y1=\"150\" x2=\"410.0\" y2=\"150\" stroke=\"#216d87\" stroke-width=\"1.5\"/><line x1=\"155.0\" y1=\"144\" x2=\"155.0\" y2=\"156\" stroke=\"#216d87\" stroke-width=\"1.5\"/><line x1=\"410.0\" y1=\"144\" x2=\"410.0\" y2=\"156\" stroke=\"#216d87\" stroke-width=\"1.5\"/><text x=\"282.5\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">15 cm</text></svg></span><p>Hur stor är den resulterande fältstyrkan i P? (Svara i N/C med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda laddningarna är positiva, så fälten pekar bort från dem. I P pekar fältet från den vänstra laddningen åt höger och fältet från den högra åt vänster. Fältstyrkorna ska därför subtraheras.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_1 =\\frac{8{,}99\\cdot10^{9}\\cdot4{,}0\\cdot10^{-9}}{0{,}050^2}\\ \\mathrm{N/C}\\\\\\approx1{,}44\\cdot10^{4}\\ \\mathrm{N/C}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_2 =\\frac{8{,}99\\cdot10^{9}\\cdot4{,}0\\cdot10^{-9}}{0{,}15^2}\\ \\mathrm{N/C}\\\\\\approx1{,}6\\cdot10^{3}\\ \\mathrm{N/C}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =E_1-E_2 \\approx1{,}44\\cdot10^{4}-0{,}16\\cdot10^{4}\\\\\\approx1{,}3\\cdot10^{4}\\ \\mathrm{N/C}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det resulterande fältet pekar åt höger, bort från den närmaste laddningen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(1{,}3\\cdot10^{4}\\) N/C, åt höger.</p></div>",
+  "familj": "Punktladdningens fält",
+  "familjNyckel": "falt__superposition_av_elektriska_falt",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Åt vilket håll pekar fältet från varje laddning i P? Ska fälten adderas eller subtraheras?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 12785.7777778,
+  "tolerans": 500.0,
+  "svarEnhet": "N/C"
+},
+{
+  "id": "8.665",
+  "kap": 8,
+  "omr": "falt",
+  "niva": "C",
+  "typ": "fältet ur kraften på en negativ laddning",
+  "poang": "(0/1/0)",
+  "t": "<p>En liten kula med laddningen −3,0 nC påverkas av en elektrisk kraft på \\(1{,}2\\cdot10^{-5}\\) N riktad åt väster. Hur stort är det elektriska fältet, och åt vilket håll är det riktat? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältstyrkan är kraften per laddning: \\(E=\\dfrac Fq\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=\\frac{1{,}2\\cdot10^{-5}}{3{,}0\\cdot10^{-9}}\\ \\mathrm{N/C}=4{,}0\\cdot10^{3}\\ \\mathrm{N/C}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältets riktning är den riktning kraften har på en positiv laddning. Kulan är negativ, så fältet är riktat åt motsatt håll mot kraften, alltså åt öster.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4{,}0\\cdot10^{3}\\) N/C riktat åt öster.</p></div>",
+  "familj": "Fältstyrka och kraft (E = F/q)",
+  "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Beräkna storleken med \\(E=\\dfrac Fq\\). Fältets riktning anges för en positiv laddning.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "\\(4{,}0\\cdot10^{3}\\) N/C riktat åt väster",
+      "ratt": false,
+      "kommentar": "Kraften på en negativ laddning är motriktad fältet."
+    },
+    {
+      "txt": "\\(3{,}6\\cdot10^{-14}\\) N/C riktat åt öster",
+      "ratt": false,
+      "kommentar": "Kraften ska delas med laddningen, inte multipliceras."
+    },
+    {
+      "txt": "\\(4{,}0\\cdot10^{3}\\) N/C riktat åt öster",
+      "ratt": true
+    },
+    {
+      "txt": "\\(2{,}5\\cdot10^{-4}\\) N/C riktat åt väster",
+      "ratt": false,
+      "kommentar": "Laddningen ska stå i nämnaren: \\(E=F/q\\)."
+    }
+  ]
+},
+{
+  "id": "8.666",
+  "kap": 8,
+  "omr": "falt",
+  "niva": "C",
+  "typ": "fältet när laddning och avstånd ändras",
+  "poang": "(0/1/0)",
+  "t": "<p>På ett visst avstånd från en punktladdning är fältstyrkan 900 N/C. Laddningen fördubblas och avståndet görs tre gånger så stort. Hur stor blir fältstyrkan? (Svara i N/C.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fältstyrkan \\(E=\\dfrac{kQ}{r^2}\\) är proportionell mot laddningen och omvänt proportionell mot kvadraten på avståndet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_2=900\\cdot\\frac{2}{3^2}=900\\cdot\\frac29=200\\ \\mathrm{N/C}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 200 N/C.</p></div>",
+  "familj": "Punktladdningens fält",
+  "familjNyckel": "falt__elektriskt_falt_och_kraft_pa_laddningar",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur påverkar dubbel laddning E? Hur påverkar tre gånger så stort avstånd E?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 200.0,
+  "tolerans": 0,
+  "svarEnhet": "N/C"
 }
 ];

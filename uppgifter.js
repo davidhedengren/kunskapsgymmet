@@ -215385,5 +215385,232 @@ window.BANK = [
   "rättSvar": 20.0,
   "tolerans": 0,
   "svarEnhet": "Ω"
+},
+{
+  "id": "8.672",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "C",
+  "typ": "ström genom den ena grenen ur totalströmmen",
+  "poang": "(0/1/0)",
+  "t": "<p>Två resistorer, 20 Ω och 60 Ω, är parallellkopplade till en spänningskälla. Strömmen från spänningskällan är 1,2 A. Hur stor ström går genom resistorn på 20 Ω? (Svara i A.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm först ersättningsresistansen och därmed spänningen. Spänningen är densamma över båda grenarna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac1R=\\frac1{20}+\\frac1{60}=\\frac{4}{60}\\quad\\Rightarrow\\quad R=15\\ \\Omega\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=RI=15\\cdot1{,}2\\ \\mathrm V=18\\ \\mathrm V\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{20}=\\frac{18}{20}\\ \\mathrm A=0{,}90\\ \\mathrm A\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kontroll: genom 60 Ω går 0,30 A, och 0,90 + 0,30 = 1,2 A.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,90 A.</p></div>",
+  "familj": "Strömfördelning i parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Vilken spänning ligger över grenarna? Den får du med ersättningsresistansen.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.9,
+  "tolerans": 0.005,
+  "svarEnhet": "A"
+},
+{
+  "id": "8.673",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "C",
+  "typ": "en lampa till kopplas in parallellt",
+  "poang": "(0/1/0)",
+  "t": "<p>Två likadana lampor är parallellkopplade till ett batteri på 9,0 V. Strömmen från batteriet är 0,50 A. En tredje likadan lampa kopplas in parallellt med de andra.</p><p>Hur stor blir strömmen från batteriet, och vilken ersättningsresistans har kretsen nu? (Svara i A och Ω.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje lampa har hela batteriets spänning och drar lika stor ström. De andra lamporna påverkas inte när en lampa kopplas till.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}I_{\\text{lampa}}=\\frac{0{,}50}{2}\\ \\mathrm A=0{,}25\\ \\mathrm A,\\\\I=3\\cdot0{,}25\\ \\mathrm A=0{,}75\\ \\mathrm A\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{U}{I}=\\frac{9{,}0}{0{,}75}\\ \\Omega=12\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 0,75 A och 12 Ω.</p></div>",
+  "familj": "Strömfördelning i parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Hur stor ström drar en lampa? Ändras den när fler lampor kopplas in?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0.75,
+    12.0
+  ],
+  "tolerans": [
+    0.005,
+    0.5
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "A",
+    "Ω"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Ström",
+    "Ersättningsresistans"
+  ]
+},
+{
+  "id": "8.674",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "C",
+  "typ": "okänd resistans ur två amperemetrar",
+  "poang": "(0/1/0)",
+  "t": "<p>I kretsen visar amperemetern A 1,0 A och amperemetern A₁ i den övre grenen 0,40 A. Spänningskällan ger 6,0 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"350\" viewBox=\"0 0 480 350\" role=\"img\" aria-label=\"Parallellkoppling med två grenar. Amperemetern A sitter i huvudledningen och A1 i den övre grenen tillsammans med R1. Den undre grenen har R2. Spänningskällan ger 6,0 V.\"><title>Parallellkoppling med två grenar. Amperemetern A sitter i huvudledningen och A1 i den övre grenen tillsammans med R1. Den undre grenen har R2. Spänningskällan ger 6,0 V.</title><rect x=\"1\" y=\"1\" width=\"478\" height=\"348\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M140 60 L60 60 L60 128\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M60 172 L60 290 L215 290\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M245 290 L420 290 L420 60 L340 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"140\" cy=\"60\" r=\"3.5\" fill=\"#243447\"/><circle cx=\"340\" cy=\"60\" r=\"3.5\" fill=\"#243447\"/><circle cx=\"60\" cy=\"150\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"60.0\" y=\"156.0\" font-family=\"Arial,sans-serif\" font-size=\"19\" text-anchor=\"middle\" fill=\"#243447\">A</text><path d=\"M215 270 L215 310 M245 280 L245 300\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"205.0\" y=\"268.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"256.0\" y=\"268.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"230.0\" y=\"334.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">6,0 V</text><path d=\"M140 60 L140 110 L160 110\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"181\" cy=\"110\" r=\"21\" fill=\"#f0f6fc\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"181.0\" y=\"116.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">A₁</text><path d=\"M202 110 L230 110\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><rect x=\"230\" y=\"99\" width=\"60\" height=\"22\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"260.0\" y=\"90.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">R₁</text><path d=\"M290 110 L340 110 L340 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M140 110 L140 200 L230 200\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><rect x=\"230\" y=\"189\" width=\"60\" height=\"22\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"260.0\" y=\"232.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">R₂</text><path d=\"M290 200 L340 200 L340 110\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/></svg></span><p>Hur stor är resistansen \\(R_2\\)? (Svara i Ω.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen delar sig i förgreningspunkten. Strömmen i den undre grenen är skillnaden mellan amperemetrarnas värden.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_2=1{,}0-0{,}40=0{,}60\\ \\mathrm A\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda grenarna har spänningskällans spänning, 6,0 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_2=\\frac{6{,}0}{0{,}60}\\ \\Omega=10\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 10 Ω.</p></div>",
+  "familj": "Strömfördelning i parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur stor ström går genom \\(R_2\\)? Vilken spänning ligger över den?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 10.0,
+  "tolerans": 0,
+  "svarEnhet": "Ω"
+},
+{
+  "id": "8.675",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "C",
+  "typ": "två lampor i ett vägguttag",
+  "poang": "(0/1/0)",
+  "t": "<p>En lampa på 40 W och en lampa på 60 W, båda märkta för 230 V, är parallellkopplade i ett vägguttag med spänningen 230 V.</p><p>a) Hur stor är den totala strömmen?<br>b) Hur stor resistans har lampan på 40 W? (Svara i A med två värdesiffror och i Ω med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I en parallellkoppling får båda lamporna full spänning och utvecklar sin märkeffekt. Den totala strömmen fås ur den sammanlagda effekten.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{P}{U}=\\frac{40+60}{230}\\ \\mathrm A\\approx0{,}43\\ \\mathrm A\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_{40}=\\frac{U^2}{P}=\\frac{230^2}{40}\\ \\Omega\\approx1{,}3\\cdot10^{3}\\ \\Omega\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Lampan med lägre effekt har större resistans, eftersom den drar mindre ström vid samma spänning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) 0,43 A b) \\(1{,}3\\cdot10^{3}\\) Ω</p></div>",
+  "familj": "Strömfördelning i parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Använd \\(P=UI\\) för strömmen. För resistansen kan du kombinera \\(P=UI\\) och \\(U=RI\\).</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0.434782608696,
+    1322.5
+  ],
+  "tolerans": [
+    0.005,
+    50
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "A",
+    "Ω"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a) Total ström",
+    "b) Resistans"
+  ]
+},
+{
+  "id": "8.676",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "C",
+  "typ": "en ledning parallellt med en lampa",
+  "poang": "(0/1/0)",
+  "t": "<p>Två lampor är parallellkopplade till ett batteri. Någon kopplar av misstag en ledning utan resistans parallellt med den ena lampan. Vad händer? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ledningen har ingen resistans, så batteriet blir kortslutet. Nästan all ström går genom ledningen, och spänningen över båda lamporna blir nästan noll.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda lamporna slocknar, eftersom de sitter parallellt med kortslutningen. Strömmen blir mycket stor, och batteriet och ledningen kan bli varma.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Båda lamporna slocknar, och batteriet kortsluts.</p></div>",
+  "familj": "Strömfördelning i parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Vilken väg tar strömmen om en gren saknar resistans? Vilken spänning får då de andra grenarna?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Bara lampan med ledningen slocknar; den andra lyser som förut",
+      "ratt": false,
+      "kommentar": "Alla grenar sitter mellan samma två punkter, så kortslutningen gäller båda lamporna."
+    },
+    {
+      "txt": "Ingenting händer, eftersom ledningen inte har någon resistans",
+      "ratt": false,
+      "kommentar": "Utan resistans blir strömmen genom ledningen mycket stor."
+    },
+    {
+      "txt": "Den andra lampan lyser starkare",
+      "ratt": false,
+      "kommentar": "Spänningen över den blir nästan noll."
+    },
+    {
+      "txt": "Båda lamporna slocknar, och batteriet kortsluts",
+      "ratt": true
+    }
+  ]
+},
+{
+  "id": "8.677",
+  "kap": 8,
+  "omr": "parallellkoppling",
+  "niva": "C",
+  "typ": "antal parallella resistorer för en viss resistans",
+  "poang": "(0/1/0)",
+  "t": "<p>Du har många resistorer på 150 Ω. Hur många behöver du koppla parallellt för att ersättningsresistansen ska bli högst 22 Ω? (Svara med ett heltal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">n lika resistorer parallellt ger ersättningsresistansen \\(R=\\dfrac{150}{n}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{150}{n}\\le22\\quad\\Rightarrow\\quad n\\ge\\frac{150}{22}\\approx6{,}8\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Antalet måste vara ett heltal. Med 6 resistorer blir R = 25 Ω, som är för stort. Med 7 blir R ≈ 21,4 Ω.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 7 resistorer.</p></div>",
+  "familj": "Ersättningsresistans vid parallellkoppling",
+  "familjNyckel": "kopplingar__parallellkoppling",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Vilken ersättningsresistans ger n lika resistorer parallellt? Avrunda uppåt.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 7.0,
+  "tolerans": 0,
+  "svarEnhet": ""
 }
 ];

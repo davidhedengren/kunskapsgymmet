@@ -37003,5 +37003,2307 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       "x³ = −8",
       "x⁴ = −16"
     ]
+  },
+  {
+    "id": "4.2000",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "summa ur stapeldiagram",
+    "t": "<p>Diagrammet visar hur många cyklar en butik sålde under fyra månader. Hur många cyklar såldes sammanlagt i april och maj?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 280\" role=\"img\" aria-label=\"Stapeldiagram: mars 120, april 180, maj 240 och juni 150 sålda cyklar.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"54\" y1=\"234.0\" x2=\"402\" y2=\"234.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"218.2\" x2=\"402\" y2=\"218.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"202.3\" x2=\"402\" y2=\"202.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"186.5\" x2=\"402\" y2=\"186.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"170.6\" x2=\"402\" y2=\"170.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"154.8\" x2=\"402\" y2=\"154.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"138.9\" x2=\"402\" y2=\"138.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"123.1\" x2=\"402\" y2=\"123.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"107.2\" x2=\"402\" y2=\"107.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"91.4\" x2=\"402\" y2=\"91.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"75.5\" x2=\"402\" y2=\"75.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"59.7\" x2=\"402\" y2=\"59.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"43.8\" x2=\"402\" y2=\"43.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"28.0\" x2=\"402\" y2=\"28.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><rect x=\"71.4\" y=\"138.9\" width=\"52.2\" height=\"95.1\" fill=\"#2f6fca\" fill-opacity=\"0.85\"/><text x=\"97.5\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">mars</text><rect x=\"158.4\" y=\"91.4\" width=\"52.2\" height=\"142.6\" fill=\"#2f6fca\" fill-opacity=\"0.85\"/><text x=\"184.5\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">april</text><rect x=\"245.4\" y=\"43.8\" width=\"52.2\" height=\"190.2\" fill=\"#2f6fca\" fill-opacity=\"0.85\"/><text x=\"271.5\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">maj</text><rect x=\"332.4\" y=\"115.2\" width=\"52.2\" height=\"118.8\" fill=\"#2f6fca\" fill-opacity=\"0.85\"/><text x=\"358.5\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">juni</text><line x1=\"54\" y1=\"234\" x2=\"402\" y2=\"234\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"54\" y1=\"234\" x2=\"54\" y2=\"20\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"48.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><text x=\"48.0\" y=\"206.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">40</text><text x=\"48.0\" y=\"174.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">80</text><text x=\"48.0\" y=\"142.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">120</text><text x=\"48.0\" y=\"111.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">160</text><text x=\"48.0\" y=\"79.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">200</text><text x=\"48.0\" y=\"47.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">240</text><text x=\"48.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\">Antal cyklar</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av staplarna</p><p>April: 180 cyklar. Maj: 240 cyklar.</p></li><li><p class=\"facit-rubrik\">Addera</p><div class=\"facit-matte\">\\[180+240=420\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 420 cyklar</p></div>",
+    "familj": "Avläsa tabeller och diagram",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Läs av höjden på staplarna för april och maj mot skalan.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 420,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2001",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "procentuell skillnad i diagram med avkortad axel",
+    "t": "<p>Ett företag visar sin försäljning i ett diagram. Stapeln för år 2 ser ut att vara dubbelt så hög som stapeln för år 1. Hur många procent större var försäljningen år 2 än år 1? (Svara med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 280\" role=\"img\" aria-label=\"Stapeldiagram där y-axeln börjar på 400. År 1 är 450 och år 2 är 500 tusen kronor.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"54\" y1=\"234.0\" x2=\"402\" y2=\"234.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"215.3\" x2=\"402\" y2=\"215.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"196.5\" x2=\"402\" y2=\"196.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"177.8\" x2=\"402\" y2=\"177.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"159.1\" x2=\"402\" y2=\"159.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"140.4\" x2=\"402\" y2=\"140.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"121.6\" x2=\"402\" y2=\"121.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"102.9\" x2=\"402\" y2=\"102.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"84.2\" x2=\"402\" y2=\"84.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"65.5\" x2=\"402\" y2=\"65.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"46.7\" x2=\"402\" y2=\"46.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"28.0\" x2=\"402\" y2=\"28.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><rect x=\"88.8\" y=\"140.4\" width=\"104.4\" height=\"93.6\" fill=\"#2f6fca\" fill-opacity=\"0.85\"/><text x=\"141.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">År 1</text><rect x=\"262.8\" y=\"46.7\" width=\"104.4\" height=\"187.3\" fill=\"#2f6fca\" fill-opacity=\"0.85\"/><text x=\"315.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">År 2</text><line x1=\"54\" y1=\"234\" x2=\"402\" y2=\"234\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"54\" y1=\"234\" x2=\"54\" y2=\"20\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"48.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">400</text><text x=\"48.0\" y=\"200.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">420</text><text x=\"48.0\" y=\"163.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">440</text><text x=\"48.0\" y=\"125.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">460</text><text x=\"48.0\" y=\"88.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">480</text><text x=\"48.0\" y=\"50.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">500</text><text x=\"48.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\">Försäljning (tkr)</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av värdena, inte staplarnas längd</p><p>Axeln börjar på 400, inte på 0. År 1: 450 tkr, år 2: 500 tkr.</p></li><li><p class=\"facit-rubrik\">Räkna ut förändringen i procent</p><div class=\"facit-matte\">\\[\\frac{500-450}{450}=\\frac{50}{450}\\approx0{,}111=11{,}1\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11,1 %</p></div>",
+    "familj": "Procent och jämförelser i tabeller och diagram",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Var börjar y-axeln? Jämför de avlästa värdena i stället för staplarnas längd.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 11.1,
+    "tolerans": 0.05,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "4.2002",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "avläsa korstabell",
+    "t": "<p>Tabellen visar vilket språk elever i årskurs 1 och 2 läser.</p><table class=\"data\" style=\"width:100%;max-width:420px;text-align:center\"><thead><tr><th scope=\"col\"></th><th scope=\"col\">Spanska</th><th scope=\"col\">Tyska</th><th scope=\"col\">Franska</th></tr></thead><tbody><tr><td>Årskurs 1</td><td>30</td><td>20</td><td>10</td></tr><tr><td>Årskurs 2</td><td>36</td><td>18</td><td>6</td></tr></tbody></table><p>Hur många elever i årskurs 2 läser ett annat språk än spanska?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Addera tyska och franska i årskurs 2</p><div class=\"facit-matte\">\\[18+6=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 elever</p></div>",
+    "familj": "Avläsa tabeller och diagram",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Titta bara på raden för årskurs 2.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 24,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2003",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "antal ur vinkel i cirkeldiagram",
+    "t": "<p>600 personer svarade på hur de oftast tar sig till jobbet. I ett cirkeldiagram över svaren har sektorn för cykel vinkeln \\(72^\\circ\\). Hur många svarade cykel?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sektorns andel av hela cirkeln</p><div class=\"facit-matte\">\\[\\frac{72^\\circ}{360^\\circ}=0{,}2\\]</div></li><li><p class=\"facit-rubrik\">Andel av alla svar</p><div class=\"facit-matte\">\\[0{,}2\\cdot600=120\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 120 personer</p></div>",
+    "familj": "Procent och jämförelser i tabeller och diagram",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hela cirkeln, 360°, motsvarar alla 600 svar.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2004",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "räkna dagar över en gräns i linjediagram",
+    "t": "<p>Diagrammet visar dygnets medeltemperatur under den första veckan i maj. Hur många dagar var medeltemperaturen högre än 10 °C?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 280\" role=\"img\" aria-label=\"Linjediagram med punkterna 8, 11, 12, 9, 10, 14 och 13 grader för dag 1 till 7. En streckad linje visar 10 grader.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"91.8\" y1=\"22\" x2=\"91.8\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"135.5\" y1=\"22\" x2=\"135.5\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"179.3\" y1=\"22\" x2=\"179.3\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"266.8\" y1=\"22\" x2=\"266.8\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"310.5\" y1=\"22\" x2=\"310.5\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"354.3\" y1=\"22\" x2=\"354.3\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"238.0\" x2=\"398\" y2=\"238.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"211.0\" x2=\"398\" y2=\"211.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"184.0\" x2=\"398\" y2=\"184.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"157.0\" x2=\"398\" y2=\"157.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"130.0\" x2=\"398\" y2=\"130.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"103.0\" x2=\"398\" y2=\"103.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"76.0\" x2=\"398\" y2=\"76.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"49.0\" x2=\"398\" y2=\"49.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"238.0\" x2=\"408\" y2=\"238.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,238.0 402,233.0 402,243.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"238\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"410.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">dag</text><text x=\"56.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">°C</text><text x=\"42.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"188.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"42.0\" y=\"107.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><text x=\"42.0\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">12</text><text x=\"42.0\" y=\"53.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">14</text><text x=\"42.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kd999b64\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"216\"/></clipPath><line x1=\"48\" y1=\"103.0\" x2=\"398\" y2=\"103.0\" stroke=\"#7a8794\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><polyline clip-path=\"url(#kd999b64)\" points=\"91.9,129.8 92.3,129.5 92.7,129.1 93.1,128.7 93.5,128.4 93.9,128.0 94.3,127.7 94.7,127.3 95.1,126.9 95.4,126.6 95.8,126.2 96.2,125.9 96.6,125.5 97.0,125.1 97.4,124.8 97.8,124.4 98.2,124.1 98.6,123.7 98.9,123.3 99.3,123.0 99.7,122.6 100.1,122.3 100.5,121.9 100.9,121.5 101.3,121.2 101.7,120.8 102.1,120.5 102.4,120.1 102.8,119.7 103.2,119.4 103.6,119.0 104.0,118.7 104.4,118.3 104.8,117.9 105.2,117.6 105.6,117.2 105.9,116.9 106.3,116.5 106.7,116.1 107.1,115.8 107.5,115.4 107.9,115.1 108.3,114.7 108.7,114.3 109.1,114.0 109.4,113.6 109.8,113.3 110.2,112.9 110.6,112.5 111.0,112.2 111.4,111.8 111.8,111.5 112.2,111.1 112.6,110.7 112.9,110.4 113.3,110.0 113.7,109.7 114.1,109.3 114.5,108.9 114.9,108.6 115.3,108.2 115.7,107.9 116.1,107.5 116.4,107.1 116.8,106.8 117.2,106.4 117.6,106.1 118.0,105.7 118.4,105.3 118.8,105.0 119.2,104.6 119.6,104.3 119.9,103.9 120.3,103.5 120.7,103.2 121.1,102.8 121.5,102.5 121.9,102.1 122.3,101.7 122.7,101.4 123.1,101.0 123.4,100.7 123.8,100.3 124.2,99.9 124.6,99.6 125.0,99.2 125.4,98.9 125.8,98.5 126.2,98.1 126.6,97.8 126.9,97.4 127.3,97.1 127.7,96.7 128.1,96.3 128.5,96.0 128.9,95.6 129.3,95.3 129.7,94.9 130.1,94.5 130.4,94.2 130.8,93.8 131.2,93.5 131.6,93.1 132.0,92.7 132.4,92.4 132.8,92.0 133.2,91.7 133.6,91.3 133.9,90.9 134.3,90.6 134.7,90.2 135.1,89.9 135.5,89.5 135.9,89.4 136.3,89.3 136.7,89.1 137.1,89.0 137.4,88.9 137.8,88.8 138.2,88.7 138.6,88.5 139.0,88.4 139.4,88.3 139.8,88.2 140.2,88.1 140.6,87.9 140.9,87.8 141.3,87.7 141.7,87.6 142.1,87.5 142.5,87.3 142.9,87.2 143.3,87.1 143.7,87.0 144.1,86.9 144.4,86.7 144.8,86.6 145.2,86.5 145.6,86.4 146.0,86.3 146.4,86.1 146.8,86.0 147.2,85.9 147.6,85.8 147.9,85.7 148.3,85.5 148.7,85.4 149.1,85.3 149.5,85.2 149.9,85.1 150.3,84.9 150.7,84.8 151.1,84.7 151.4,84.6 151.8,84.5 152.2,84.3 152.6,84.2 153.0,84.1 153.4,84.0 153.8,83.9 154.2,83.7 154.6,83.6 154.9,83.5 155.3,83.4 155.7,83.3 156.1,83.1 156.5,83.0 156.9,82.9 157.3,82.8 157.7,82.7 158.1,82.5 158.4,82.4 158.8,82.3 159.2,82.2 159.6,82.1 160.0,81.9 160.4,81.8 160.8,81.7 161.2,81.6 161.6,81.5 161.9,81.3 162.3,81.2 162.7,81.1 163.1,81.0 163.5,80.9 163.9,80.7 164.3,80.6 164.7,80.5 165.1,80.4 165.4,80.3 165.8,80.1 166.2,80.0 166.6,79.9 167.0,79.8 167.4,79.7 167.8,79.5 168.2,79.4 168.6,79.3 168.9,79.2 169.3,79.1 169.7,78.9 170.1,78.8 170.5,78.7 170.9,78.6 171.3,78.5 171.7,78.3 172.1,78.2 172.4,78.1 172.8,78.0 173.2,77.9 173.6,77.7 174.0,77.6 174.4,77.5 174.8,77.4 175.2,77.3 175.6,77.1 175.9,77.0 176.3,76.9 176.7,76.8 177.1,76.7 177.5,76.5 177.9,76.4 178.3,76.3 178.7,76.2 179.1,76.1 179.4,76.2 179.8,76.5 180.2,76.9 180.6,77.3 181.0,77.6 181.4,78.0 181.8,78.3 182.2,78.7 182.6,79.1 182.9,79.4 183.3,79.8 183.7,80.1 184.1,80.5 184.5,80.9 184.9,81.2 185.3,81.6 185.7,81.9 186.1,82.3 186.4,82.7 186.8,83.0 187.2,83.4 187.6,83.7 188.0,84.1 188.4,84.5 188.8,84.8 189.2,85.2 189.6,85.5 189.9,85.9 190.3,86.3 190.7,86.6 191.1,87.0 191.5,87.3 191.9,87.7 192.3,88.1 192.7,88.4 193.1,88.8 193.4,89.1 193.8,89.5 194.2,89.9 194.6,90.2 195.0,90.6 195.4,90.9 195.8,91.3 196.2,91.7 196.6,92.0 196.9,92.4 197.3,92.7 197.7,93.1 198.1,93.5 198.5,93.8 198.9,94.2 199.3,94.5 199.7,94.9 200.1,95.3 200.4,95.6 200.8,96.0 201.2,96.3 201.6,96.7 202.0,97.1 202.4,97.4 202.8,97.8 203.2,98.1 203.6,98.5 203.9,98.9 204.3,99.2 204.7,99.6 205.1,99.9 205.5,100.3 205.9,100.7 206.3,101.0 206.7,101.4 207.1,101.7 207.4,102.1 207.8,102.5 208.2,102.8 208.6,103.2 209.0,103.5 209.4,103.9 209.8,104.3 210.2,104.6 210.6,105.0 210.9,105.3 211.3,105.7 211.7,106.1 212.1,106.4 212.5,106.8 212.9,107.1 213.3,107.5 213.7,107.9 214.1,108.2 214.4,108.6 214.8,108.9 215.2,109.3 215.6,109.7 216.0,110.0 216.4,110.4 216.8,110.7 217.2,111.1 217.6,111.5 217.9,111.8 218.3,112.2 218.7,112.5 219.1,112.9 219.5,113.3 219.9,113.6 220.3,114.0 220.7,114.3 221.1,114.7 221.4,115.1 221.8,115.4 222.2,115.8 222.6,116.1 223.0,116.5 223.4,116.4 223.8,116.3 224.2,116.1 224.6,116.0 224.9,115.9 225.3,115.8 225.7,115.7 226.1,115.5 226.5,115.4 226.9,115.3 227.3,115.2 227.7,115.1 228.1,114.9 228.4,114.8 228.8,114.7 229.2,114.6 229.6,114.5 230.0,114.3 230.4,114.2 230.8,114.1 231.2,114.0 231.6,113.9 231.9,113.7 232.3,113.6 232.7,113.5 233.1,113.4 233.5,113.3 233.9,113.1 234.3,113.0 234.7,112.9 235.1,112.8 235.4,112.7 235.8,112.5 236.2,112.4 236.6,112.3 237.0,112.2 237.4,112.1 237.8,111.9 238.2,111.8 238.6,111.7 238.9,111.6 239.3,111.5 239.7,111.3 240.1,111.2 240.5,111.1 240.9,111.0 241.3,110.9 241.7,110.7 242.1,110.6 242.4,110.5 242.8,110.4 243.2,110.3 243.6,110.1 244.0,110.0 244.4,109.9 244.8,109.8 245.2,109.7 245.6,109.5 245.9,109.4 246.3,109.3 246.7,109.2 247.1,109.1 247.5,108.9 247.9,108.8 248.3,108.7 248.7,108.6 249.1,108.5 249.4,108.3 249.8,108.2 250.2,108.1 250.6,108.0 251.0,107.9 251.4,107.7 251.8,107.6 252.2,107.5 252.6,107.4 252.9,107.3 253.3,107.1 253.7,107.0 254.1,106.9 254.5,106.8 254.9,106.7 255.3,106.5 255.7,106.4 256.1,106.3 256.4,106.2 256.8,106.1 257.2,105.9 257.6,105.8 258.0,105.7 258.4,105.6 258.8,105.5 259.2,105.3 259.6,105.2 259.9,105.1 260.3,105.0 260.7,104.9 261.1,104.7 261.5,104.6 261.9,104.5 262.3,104.4 262.7,104.3 263.1,104.1 263.4,104.0 263.8,103.9 264.2,103.8 264.6,103.7 265.0,103.5 265.4,103.4 265.8,103.3 266.2,103.2 266.6,103.1 266.9,102.8 267.3,102.3 267.7,101.8 268.1,101.3 268.5,100.8 268.9,100.4 269.3,99.9 269.7,99.4 270.1,98.9 270.4,98.4 270.8,98.0 271.2,97.5 271.6,97.0 272.0,96.5 272.4,96.0 272.8,95.6 273.2,95.1 273.6,94.6 273.9,94.1 274.3,93.6 274.7,93.2 275.1,92.7 275.5,92.2 275.9,91.7 276.3,91.2 276.7,90.8 277.1,90.3 277.4,89.8 277.8,89.3 278.2,88.8 278.6,88.4 279.0,87.9 279.4,87.4 279.8,86.9 280.2,86.4 280.6,86.0 280.9,85.5 281.3,85.0 281.7,84.5 282.1,84.0 282.5,83.6 282.9,83.1 283.3,82.6 283.7,82.1 284.1,81.6 284.4,81.2 284.8,80.7 285.2,80.2 285.6,79.7 286.0,79.2 286.4,78.8 286.8,78.3 287.2,77.8 287.6,77.3 287.9,76.8 288.3,76.4 288.7,75.9 289.1,75.4 289.5,74.9 289.9,74.4 290.3,74.0 290.7,73.5 291.1,73.0 291.4,72.5 291.8,72.0 292.2,71.6 292.6,71.1 293.0,70.6 293.4,70.1 293.8,69.6 294.2,69.2 294.6,68.7 294.9,68.2 295.3,67.7 295.7,67.2 296.1,66.8 296.5,66.3 296.9,65.8 297.3,65.3 297.7,64.8 298.1,64.4 298.4,63.9 298.8,63.4 299.2,62.9 299.6,62.4 300.0,62.0 300.4,61.5 300.8,61.0 301.2,60.5 301.6,60.0 301.9,59.6 302.3,59.1 302.7,58.6 303.1,58.1 303.5,57.6 303.9,57.2 304.3,56.7 304.7,56.2 305.1,55.7 305.4,55.2 305.8,54.8 306.2,54.3 306.6,53.8 307.0,53.3 307.4,52.8 307.8,52.4 308.2,51.9 308.6,51.4 308.9,50.9 309.3,50.4 309.7,50.0 310.1,49.5 310.5,49.0 310.9,49.1 311.3,49.2 311.7,49.4 312.1,49.5 312.4,49.6 312.8,49.7 313.2,49.8 313.6,50.0 314.0,50.1 314.4,50.2 314.8,50.3 315.2,50.4 315.6,50.6 315.9,50.7 316.3,50.8 316.7,50.9 317.1,51.0 317.5,51.2 317.9,51.3 318.3,51.4 318.7,51.5 319.1,51.6 319.4,51.8 319.8,51.9 320.2,52.0 320.6,52.1 321.0,52.2 321.4,52.4 321.8,52.5 322.2,52.6 322.6,52.7 322.9,52.8 323.3,53.0 323.7,53.1 324.1,53.2 324.5,53.3 324.9,53.4 325.3,53.6 325.7,53.7 326.1,53.8 326.4,53.9 326.8,54.0 327.2,54.2 327.6,54.3 328.0,54.4 328.4,54.5 328.8,54.6 329.2,54.8 329.6,54.9 329.9,55.0 330.3,55.1 330.7,55.2 331.1,55.4 331.5,55.5 331.9,55.6 332.3,55.7 332.7,55.8 333.1,56.0 333.4,56.1 333.8,56.2 334.2,56.3 334.6,56.4 335.0,56.6 335.4,56.7 335.8,56.8 336.2,56.9 336.6,57.0 336.9,57.2 337.3,57.3 337.7,57.4 338.1,57.5 338.5,57.6 338.9,57.8 339.3,57.9 339.7,58.0 340.1,58.1 340.4,58.2 340.8,58.4 341.2,58.5 341.6,58.6 342.0,58.7 342.4,58.8 342.8,59.0 343.2,59.1 343.6,59.2 343.9,59.3 344.3,59.4 344.7,59.6 345.1,59.7 345.5,59.8 345.9,59.9 346.3,60.0 346.7,60.2 347.1,60.3 347.4,60.4 347.8,60.5 348.2,60.6 348.6,60.8 349.0,60.9 349.4,61.0 349.8,61.1 350.2,61.2 350.6,61.4 350.9,61.5 351.3,61.6 351.7,61.7 352.1,61.8 352.5,62.0 352.9,62.1 353.3,62.2 353.7,62.3 354.1,62.4\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><circle cx=\"91.8\" cy=\"130.0\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"135.5\" cy=\"89.5\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"179.3\" cy=\"76.0\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"223.0\" cy=\"116.5\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"266.8\" cy=\"103.0\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"310.5\" cy=\"49.0\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"354.3\" cy=\"62.5\" r=\"4.5\" fill=\"#2f6fca\"/><text x=\"91.8\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">1</text><text x=\"135.5\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">2</text><text x=\"179.3\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">3</text><text x=\"223.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">4</text><text x=\"266.8\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">5</text><text x=\"310.5\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">6</text><text x=\"354.3\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">7</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av varje dag</p><p>Dag 1–7: 8, 11, 12, 9, 10, 14 och 13 °C.</p></li><li><p class=\"facit-rubrik\">Räkna dagar över 10 °C</p><p>Dag 2, 3, 6 och 7. Dag 5 är exakt 10 °C och räknas inte.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 dagar</p></div>",
+    "familj": "Avläsa tabeller och diagram",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna bara punkter som ligger ovanför den streckade linjen.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2005",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "största procentuella ökning i tabell",
+    "t": "<p>Tabellen visar antalet medlemmar i en förening.</p><table class=\"data\" style=\"width:100%;max-width:420px;text-align:center\"><thead><tr><th scope=\"col\">År</th><th scope=\"col\">2021</th><th scope=\"col\">2022</th><th scope=\"col\">2023</th><th scope=\"col\">2024</th></tr></thead><tbody><tr><td>Medlemmar</td><td>240</td><td>270</td><td>324</td><td>297</td></tr></tbody></table><p>Vilket år ökade antalet medlemmar mest i procent jämfört med året innan? (Svara med årtalet.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna förändringen varje år</p><div class=\"facit-matte\">\\[\\begin{gathered}2022:\\ \\tfrac{270}{240}=1{,}125\\ (+12{,}5\\ \\%)\\\\2023:\\ \\tfrac{324}{270}=1{,}2\\ (+20\\ \\%)\\\\2024:\\ \\tfrac{297}{324}\\approx0{,}917\\ (-8{,}3\\ \\%)\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2023</p></div>",
+    "familj": "Procent och jämförelser i tabeller och diagram",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Jämför förändringsfaktorerna. Den största ökningen i antal behöver inte vara den största i procent.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2023,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2006",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "jämföra antal ur procent i två grupper",
+    "t": "<p>På skola A går 300 elever och 40 % av dem åker buss till skolan. På skola B går 640 elever och 25 % av dem åker buss. Hur många fler elever åker buss på skola B än på skola A?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal på varje skola</p><div class=\"facit-matte\">\\[\\begin{gathered}A:\\ 0{,}40\\cdot300=120\\\\B:\\ 0{,}25\\cdot640=160\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Skillnad</p><div class=\"facit-matte\">\\[160-120=40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40 elever fler på skola B</p></div>",
+    "familj": "Procent och jämförelser i tabeller och diagram",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En lägre andel kan ändå vara fler personer. Räkna ut antalet på varje skola.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2007",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "välja diagramtyp",
+    "t": "<p>Ett hushåll vill visa hur stor andel av den totala elförbrukningen som går till uppvärmning, varmvatten, belysning och hushållsel. Vilken diagramtyp passar bäst? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andelar av en helhet</p><p>Ett cirkeldiagram visar hur en helhet fördelas på delar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Cirkeldiagram</p></div>",
+    "familj": "Avläsa tabeller och diagram",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilken diagramtyp visar delar av en helhet?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Linjediagram",
+        "ratt": false,
+        "kommentar": "Passar för förändring över tid."
+      },
+      {
+        "txt": "Lådagram",
+        "ratt": false,
+        "kommentar": "Visar spridningen i ett datamaterial."
+      },
+      {
+        "txt": "Cirkeldiagram",
+        "ratt": true,
+        "kommentar": "Visar hur helheten fördelas på delar."
+      },
+      {
+        "txt": "Punktdiagram",
+        "ratt": false,
+        "kommentar": "Visar samband mellan två variabler."
+      }
+    ]
+  },
+  {
+    "id": "4.2008",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "total andel ur två grupper",
+    "t": "<p>I en enkät var 45 % av de svarande flickor och resten pojkar. Av flickorna hade 60 % ett gymkort, och av pojkarna hade 40 % ett gymkort. Hur många procent av alla svarande hade ett gymkort?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andel av alla som är flickor med gymkort</p><div class=\"facit-matte\">\\[0{,}45\\cdot0{,}60=0{,}27\\]</div></li><li><p class=\"facit-rubrik\">Andel av alla som är pojkar med gymkort</p><div class=\"facit-matte\">\\[0{,}55\\cdot0{,}40=0{,}22\\]</div></li><li><p class=\"facit-rubrik\">Addera</p><div class=\"facit-matte\">\\[0{,}27+0{,}22=0{,}49=49\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 49 %</p></div>",
+    "familj": "Procent och jämförelser i tabeller och diagram",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna andelen av alla svarande i varje grupp för sig. Varför blir svaret inte medelvärdet av 60 % och 40 %?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 49,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "4.2009",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "andel ur histogram",
+    "t": "<p>Histogrammet visar längden hos 30 elever. Hur många procent av eleverna är kortare än 170 cm? (Svara med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 280\" role=\"img\" aria-label=\"Histogram: 150–160 cm 4 elever, 160–170 cm 10 elever, 170–180 cm 12 elever och 180–190 cm 4 elever.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"54\" y1=\"230.0\" x2=\"402\" y2=\"230.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"201.1\" x2=\"402\" y2=\"201.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"172.3\" x2=\"402\" y2=\"172.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"143.4\" x2=\"402\" y2=\"143.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"114.6\" x2=\"402\" y2=\"114.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"85.7\" x2=\"402\" y2=\"85.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"56.9\" x2=\"402\" y2=\"56.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"28.0\" x2=\"402\" y2=\"28.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><rect x=\"54.0\" y=\"172.3\" width=\"87.0\" height=\"57.7\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"141.0\" y=\"85.7\" width=\"87.0\" height=\"144.3\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"228.0\" y=\"56.9\" width=\"87.0\" height=\"173.1\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"315.0\" y=\"172.3\" width=\"87.0\" height=\"57.7\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><line x1=\"54\" y1=\"230\" x2=\"402\" y2=\"230\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"54\" y1=\"230\" x2=\"54\" y2=\"20\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"54.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">150</text><text x=\"141.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">160</text><text x=\"228.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">170</text><text x=\"315.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">180</text><text x=\"402.0\" y=\"248.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">190</text><text x=\"48.0\" y=\"205.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"48.0\" y=\"176.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"48.0\" y=\"147.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"48.0\" y=\"118.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"48.0\" y=\"89.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><text x=\"48.0\" y=\"60.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">12</text><text x=\"48.0\" y=\"32.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">14</text><text x=\"48.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\">Antal</text><text x=\"228.0\" y=\"272.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Längd (cm)</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal under 170 cm</p><div class=\"facit-matte\">\\[4+10=14\\]</div></li><li><p class=\"facit-rubrik\">Andel</p><div class=\"facit-matte\">\\[\\frac{14}{30}\\approx0{,}467=46{,}7\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 46,7 %</p></div>",
+    "familj": "Procent och jämförelser i tabeller och diagram",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilka staplar ligger helt till vänster om 170 cm?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 46.7,
+    "tolerans": 0.05,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "4.2010",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "proportionell stapelhöjd",
+    "t": "<p>Ett företag ökade sin omsättning från 2,4 miljoner kronor till 3,6 miljoner kronor. I ett stapeldiagram, där y-axeln börjar på 0, ritas stapeln för 2,4 miljoner 4,8 cm hög. Hur hög ska stapeln för 3,6 miljoner vara? (Svara i cm med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Staplarna ska vara proportionella mot värdena</p><div class=\"facit-matte\">\\[\\frac{4{,}8}{2{,}4}=2\\ \\text{cm per miljon}\\]</div></li><li><div class=\"facit-matte\">\\[3{,}6\\cdot2=7{,}2\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,2 cm</p></div>",
+    "familj": "Procent och jämförelser i tabeller och diagram",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många centimeter motsvarar en miljon kronor?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.2,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.2011",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "procent och procentenheter",
+    "t": "<p>Andelen rökare i en kommun minskade från 20 % till 15 %. Hur många procent minskade andelen rökare?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Minskningen i procentenheter</p><div class=\"facit-matte\">\\[20-15=5\\ \\text{procentenheter}\\]</div></li><li><p class=\"facit-rubrik\">Minskningen i procent av ursprungsvärdet</p><div class=\"facit-matte\">\\[\\frac{5}{20}=0{,}25=25\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25 %</p></div>",
+    "familj": "Procent och jämförelser i tabeller och diagram",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Skillnaden 5 är procentenheter. Hur stor del är den av 20?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "4.2012",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "summa ur medelvärde",
+    "t": "<p>Fem prov har medelvärdet 14 poäng. Hur många poäng är det sammanlagt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summan är medelvärdet gånger antalet</p><div class=\"facit-matte\">\\[14\\cdot5=70\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 70 poäng</p></div>",
+    "familj": "Viktat medelvärde och saknade värden",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Medelvärde = summa / antal. Lös ut summan.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 70,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2013",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "borttaget värde ur ändrat medelvärde",
+    "t": "<p>Sex tal har medelvärdet 8. Ett av talen tas bort, och då blir medelvärdet av de övriga fem talen 7. Vilket tal togs bort?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summan före och efter</p><div class=\"facit-matte\">\\[\\begin{gathered}6\\cdot8=48\\\\5\\cdot7=35\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden är det borttagna talet</p><div class=\"facit-matte\">\\[48-35=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13</p></div>",
+    "familj": "Förändring av lägesmått",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut summan av talen före och efter.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2014",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "gemensamt medelvärde för två klasser",
+    "t": "<p>I klass A skrev 24 elever ett prov med medelvärdet 62 poäng. I klass B skrev 16 elever samma prov med medelvärdet 72 poäng. Vilket är medelvärdet för alla 40 elever?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summan för varje klass</p><div class=\"facit-matte\">\\[\\begin{gathered}24\\cdot62=1488\\\\16\\cdot72=1152\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Dela den totala summan med antalet</p><div class=\"facit-matte\">\\[\\frac{1488+1152}{40}=\\frac{2640}{40}=66\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 66 poäng</p></div>",
+    "familj": "Viktat medelvärde och saknade värden",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Klasserna är olika stora, så ta inte bara medelvärdet av 62 och 72.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 66,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2015",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "typvärde ur frekvenstabell",
+    "t": "<p>Tabellen visar hur många mål ett lag gjorde i sina 20 matcher.</p><table class=\"data\" style=\"width:100%;max-width:380px;text-align:center\"><thead><tr><th scope=\"col\">Antal mål</th><th scope=\"col\">0</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr></thead><tbody><tr><td>Antal matcher</td><td>3</td><td>5</td><td>6</td><td>4</td><td>2</td></tr></tbody></table><p>Vilket är typvärdet för antal mål per match?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Typvärdet är det vanligaste värdet</p><p>Flest matcher, 6 stycken, slutade med 2 mål.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 mål</p></div>",
+    "familj": "Beräkna lägesmått",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Leta efter det största talet på raden ”Antal matcher”.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2016",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "medelvärde ur frekvenstabell",
+    "t": "<p>Tabellen visar hur många mål ett innebandylag gjorde i sina 20 matcher.</p><table class=\"data\" style=\"width:100%;max-width:380px;text-align:center\"><thead><tr><th scope=\"col\">Antal mål</th><th scope=\"col\">0</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th></tr></thead><tbody><tr><td>Antal matcher</td><td>3</td><td>5</td><td>6</td><td>4</td><td>2</td></tr></tbody></table><p>Bestäm medelvärdet för antal mål per match. (Svara med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Totalt antal mål</p><div class=\"facit-matte\">\\[0\\cdot3+1\\cdot5+2\\cdot6+3\\cdot4+4\\cdot2=37\\]</div></li><li><p class=\"facit-rubrik\">Dela med antalet matcher</p><div class=\"facit-matte\">\\[\\frac{37}{20}=1{,}85\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,85 mål per match</p></div>",
+    "familj": "Viktat medelvärde och saknade värden",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera varje antal mål med hur många matcher det gällde.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.85,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2017",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "okänt värde ur median",
+    "t": "<p>Talen \\(4\\), \\(7\\), \\(x\\) och \\(15\\) står i storleksordning. Medianen är 9. Bestäm medelvärdet av de fyra talen. (Svara med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medianen är medelvärdet av de två mittersta talen</p><div class=\"facit-matte\">\\[\\frac{7+x}{2}=9\\ \\Rightarrow\\ x=11\\]</div></li><li><p class=\"facit-rubrik\">Medelvärdet</p><div class=\"facit-matte\">\\[\\frac{4+7+11+15}{4}=\\frac{37}{4}=9{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9,25</p></div>",
+    "familj": "Beräkna lägesmått",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Med fyra tal är medianen medelvärdet av de två mittersta.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9.25,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2018",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "medelvärde och median vid ett extremt värde",
+    "t": "<p>På ett litet företag tjänar nio anställda 28 000 kr i månaden och vd:n 120 000 kr. Vilket påstående stämmer? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna lägesmåtten</p><div class=\"facit-matte\">\\[\\begin{gathered}\\text{medelvärde}=\\frac{9\\cdot28\\,000+120\\,000}{10}=37\\,200\\\\\\text{median}=28\\,000\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Tolka</p><p>Ett enda högt värde drar upp medelvärdet men påverkar inte medianen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Medelvärdet är större än medianen.</p></div>",
+    "familj": "Beräkna lägesmått",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilket lägesmått påverkas av ett enda mycket stort värde?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Medianen påverkas mest av vd:ns lön.",
+        "ratt": false,
+        "kommentar": "Medianen är 28 000 kr oavsett hur hög vd:ns lön är."
+      },
+      {
+        "txt": "Medelvärdet och medianen är lika.",
+        "ratt": false,
+        "kommentar": "Medelvärdet blir 37 200 kr."
+      },
+      {
+        "txt": "Medelvärdet är större än medianen.",
+        "ratt": true,
+        "kommentar": "37 200 kr mot 28 000 kr."
+      },
+      {
+        "txt": "Typvärdet är 120 000 kr.",
+        "ratt": false,
+        "kommentar": "Det vanligaste värdet är 28 000 kr."
+      }
+    ]
+  },
+  {
+    "id": "4.2019",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "rätta medelvärde efter felskrivning",
+    "t": "<p>Medelvärdet av 25 elevers längder beräknades till 168 cm. Sedan upptäcktes att en längd hade skrivits som 198 cm i stället för 168 cm. Vilket är det rätta medelvärdet? (Svara i cm med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summan var 30 cm för stor</p><div class=\"facit-matte\">\\[198-168=30\\]</div></li><li><p class=\"facit-rubrik\">Rätta summan och medelvärdet</p><div class=\"facit-matte\">\\[\\frac{25\\cdot168-30}{25}=168-\\frac{30}{25}=166{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 166,8 cm</p></div>",
+    "familj": "Förändring av lägesmått",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur mycket för stor blev summan av alla längder?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 166.8,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.2020",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "median av kundantal",
+    "t": "<p>En butik räknade antalet kunder under fem timmar: 34, 51, 28, 45 och 39. Bestäm medianen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sortera värdena</p><div class=\"facit-matte\">\\[28,\\ 34,\\ 39,\\ 45,\\ 51\\]</div></li><li><p class=\"facit-rubrik\">Det mittersta värdet</p><p>Medianen är 39.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 39 kunder</p></div>",
+    "familj": "Beräkna lägesmått",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sortera talen i storleksordning först.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 39,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2021",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "resultat som krävs för visst medelvärde",
+    "t": "<p>Elsa har fått 72, 85, 78 och 81 poäng på fyra prov. Hur många poäng måste hon få på det femte provet för att medelvärdet av alla fem ska bli 80?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summan som behövs</p><div class=\"facit-matte\">\\[5\\cdot80=400\\]</div></li><li><p class=\"facit-rubrik\">Summan hittills</p><div class=\"facit-matte\">\\[72+85+78+81=316\\]</div></li><li><p class=\"facit-rubrik\">Det femte resultatet</p><div class=\"facit-matte\">\\[400-316=84\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 84 poäng</p></div>",
+    "familj": "Viktat medelvärde och saknade värden",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilken summa ger medelvärdet 80 med fem prov?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 84,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2022",
+    "kap": 4,
+    "omr": "lagesmatt",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "åldersskillnad vid byte i lag",
+    "t": "<p>Ett fotbollslag har 11 spelare på planen med medelåldern 24 år. En spelare byts ut, och då sjunker medelåldern till 23 år. Hur många år yngre är den nya spelaren än den som byttes ut?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summan av åldrarna före och efter</p><div class=\"facit-matte\">\\[\\begin{gathered}11\\cdot24=264\\\\11\\cdot23=253\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden i summa är åldersskillnaden</p><div class=\"facit-matte\">\\[264-253=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11 år</p></div>",
+    "familj": "Förändring av lägesmått",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Bara en spelare ändras. Hur mycket minskar summan av åldrarna?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 11,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "år"
+  },
+  {
+    "id": "4.2023",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "nedre kvartil med jämnt antal",
+    "t": "<p>Tio elever räknade hur många sms de skickade under en dag: 3, 5, 6, 8, 9, 12, 14, 15, 20, 26. Bestäm den nedre kvartilen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela listan i två halvor</p><p>Den nedre halvan är 3, 5, 6, 8, 9.</p></li><li><p class=\"facit-rubrik\">Medianen av den nedre halvan</p><p>Det mittersta värdet är 6.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
+    "familj": "Median, kvartiler och kvartilavstånd",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Den nedre kvartilen är medianen av den nedre halvan av värdena.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2024",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "kvartilavstånd när värdena skalas",
+    "t": "<p>I ett datamaterial är kvartilavståndet 8. Alla värden multipliceras med 3,5. Vilket blir det nya kvartilavståndet?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvartilerna multipliceras också med 3,5</p><div class=\"facit-matte\">\\[3{,}5Q_3-3{,}5Q_1=3{,}5(Q_3-Q_1)=3{,}5\\cdot8=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28</p></div>",
+    "familj": "Median, kvartiler och kvartilavstånd",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vad händer med båda kvartilerna när alla värden multipliceras med 3,5?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2025",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "antal under en percentil",
+    "t": "<p>250 elever skrev samma test. Saras resultat låg på den 90:e percentilen. Ungefär hur många elever fick ett lägre resultat än Sara?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den 90:e percentilen</p><p>Ungefär 90 % av resultaten ligger under den.</p><div class=\"facit-matte\">\\[0{,}90\\cdot250=225\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 225 elever</p></div>",
+    "familj": "Percentiler",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vad betyder det att ligga på den 90:e percentilen?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 225,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2026",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "namnet på den 50:e percentilen",
+    "t": "<p>Vad kallas den 50:e percentilen? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hälften under, hälften över</p><p>Den 50:e percentilen delar materialet i två lika stora delar, precis som medianen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Medianen</p></div>",
+    "familj": "Percentiler",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur stor del av värdena ligger under den 50:e percentilen?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Medelvärdet",
+        "ratt": false,
+        "kommentar": "Medelvärdet behöver inte dela materialet på mitten."
+      },
+      {
+        "txt": "Övre kvartilen",
+        "ratt": false,
+        "kommentar": "Den är den 75:e percentilen."
+      },
+      {
+        "txt": "Typvärdet",
+        "ratt": false,
+        "kommentar": "Typvärdet är det vanligaste värdet."
+      },
+      {
+        "txt": "Medianen",
+        "ratt": true,
+        "kommentar": "Hälften av värdena ligger under den."
+      }
+    ]
+  },
+  {
+    "id": "4.2027",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "ordningsnummer för övre kvartilen",
+    "t": "<p>En klass med 32 elever sorterar sina resultat i storleksordning. Den övre kvartilen är medelvärdet av två resultat. Vilka ordningsnummer har de två resultaten? (Svara med det lägre numret först.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den övre halvan</p><p>Medianen ligger mellan nummer 16 och 17, så den övre halvan är nummer 17–32. Det är 16 värden.</p></li><li><p class=\"facit-rubrik\">Medianen av den övre halvan</p><p>Mitt i 17–32 ligger nummer 24 och 25.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nummer 24 och 25</p></div>",
+    "familj": "Median, kvartiler och kvartilavstånd",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Bestäm först vilka nummer som ingår i den övre halvan.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      24,
+      25
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "lägre nummer",
+      "högre nummer"
+    ]
+  },
+  {
+    "id": "4.2028",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "kvartilavstånd för pulsvärden",
+    "t": "<p>Tio personers vilopuls var 62, 64, 68, 70, 71, 75, 78, 80, 84 och 90 slag per minut. Bestäm kvartilavståndet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvartilerna</p><p>Nedre halvan: 62, 64, 68, 70, 71, så \\(Q_1=68\\). Övre halvan: 75, 78, 80, 84, 90, så \\(Q_3=80\\).</p></li><li><p class=\"facit-rubrik\">Kvartilavståndet</p><div class=\"facit-matte\">\\[80-68=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 slag per minut</p></div>",
+    "familj": "Median, kvartiler och kvartilavstånd",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dela listan i två halvor med fem värden var.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2029",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "kvartilavstånd vid ändrat största värde",
+    "t": "<p>I ett datamaterial med 20 värden ändras det största värdet från 90 till 150. Vad händer med kvartilavståndet? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvartilerna beror på värdena i mitten</p><p>Det största värdet påverkar inte \\(Q_1\\) eller \\(Q_3\\), så kvartilavståndet är oförändrat. Variationsbredden ökar däremot med 60.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det är oförändrat.</p></div>",
+    "familj": "Median, kvartiler och kvartilavstånd",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Påverkar det största värdet någon av kvartilerna?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Det ökar med 60.",
+        "ratt": false,
+        "kommentar": "Det gäller variationsbredden."
+      },
+      {
+        "txt": "Det är oförändrat.",
+        "ratt": true,
+        "kommentar": "Kvartilerna påverkas inte av det största värdet."
+      },
+      {
+        "txt": "Det minskar.",
+        "ratt": false,
+        "kommentar": "Inget värde i mitten har ändrats."
+      },
+      {
+        "txt": "Det fördubblas.",
+        "ratt": false,
+        "kommentar": "Kvartilerna ändras inte."
+      }
+    ]
+  },
+  {
+    "id": "4.2030",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "andel under övre kvartilen",
+    "t": "<p>Ett datamaterial har 160 värden. Ungefär hur många av värdena är mindre än den övre kvartilen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvartilerna delar materialet i fyra delar</p><p>Under \\(Q_3\\) ligger tre av fyra delar.</p><div class=\"facit-matte\">\\[\\frac34\\cdot160=120\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 120 värden</p></div>",
+    "familj": "Median, kvartiler och kvartilavstånd",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Kvartilerna delar materialet i fyra lika stora delar. Hur många av dem ligger under den övre kvartilen?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2031",
+    "kap": 4,
+    "omr": "kvartiler_percentiler",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "percentil ur placering",
+    "t": "<p>I ett lopp med 400 löpare hade 320 löpare en sämre tid än Adam. På vilken percentil hamnade Adams tid?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andelen som Adam slog</p><div class=\"facit-matte\">\\[\\frac{320}{400}=0{,}80=80\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den 80:e percentilen</p></div>",
+    "familj": "Percentiler",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur stor andel av löparna hade en sämre tid?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 80,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2032",
+    "kap": 4,
+    "omr": "ladagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "avläsa median i lådagram",
+    "t": "<p>Lådagrammet visar hur många minuter elever i en klass behövde för att lösa en uppgift. Vilken är medianen?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 136\" role=\"img\" aria-label=\"Lådagram: minsta värde 4, nedre kvartil 9, median 14, övre kvartil 18 och största värde 27 minuter.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"134\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"16\" x2=\"30.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"42.9\" y1=\"16\" x2=\"42.9\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"55.9\" y1=\"16\" x2=\"55.9\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"68.8\" y1=\"16\" x2=\"68.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"81.7\" y1=\"16\" x2=\"81.7\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"94.7\" y1=\"16\" x2=\"94.7\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"107.6\" y1=\"16\" x2=\"107.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"120.5\" y1=\"16\" x2=\"120.5\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"133.5\" y1=\"16\" x2=\"133.5\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"146.4\" y1=\"16\" x2=\"146.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"159.3\" y1=\"16\" x2=\"159.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"172.3\" y1=\"16\" x2=\"172.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"185.2\" y1=\"16\" x2=\"185.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"198.1\" y1=\"16\" x2=\"198.1\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"211.1\" y1=\"16\" x2=\"211.1\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"224.0\" y1=\"16\" x2=\"224.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"236.9\" y1=\"16\" x2=\"236.9\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"249.9\" y1=\"16\" x2=\"249.9\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"262.8\" y1=\"16\" x2=\"262.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"275.7\" y1=\"16\" x2=\"275.7\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"288.7\" y1=\"16\" x2=\"288.7\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"301.6\" y1=\"16\" x2=\"301.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"314.5\" y1=\"16\" x2=\"314.5\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"327.5\" y1=\"16\" x2=\"327.5\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"340.4\" y1=\"16\" x2=\"340.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"353.3\" y1=\"16\" x2=\"353.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"366.3\" y1=\"16\" x2=\"366.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"379.2\" y1=\"16\" x2=\"379.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"392.1\" y1=\"16\" x2=\"392.1\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"405.1\" y1=\"16\" x2=\"405.1\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"418.0\" y1=\"16\" x2=\"418.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"81.7\" y1=\"55\" x2=\"146.4\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"262.8\" y1=\"55\" x2=\"379.2\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"81.7\" y1=\"46\" x2=\"81.7\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"379.2\" y1=\"46\" x2=\"379.2\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><rect x=\"146.4\" y=\"42\" width=\"116.4\" height=\"26\" fill=\"#2f6fca\" fill-opacity=\"0.15\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"211.1\" y1=\"42\" x2=\"211.1\" y2=\"68\" stroke=\"#2f6fca\" stroke-width=\"3\"/><line x1=\"30\" y1=\"92\" x2=\"418\" y2=\"92\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"30.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><text x=\"94.7\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"159.3\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"224.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">15</text><text x=\"288.7\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><text x=\"353.3\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">25</text><text x=\"418.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><text x=\"224.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Tid (min)</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Medianen är strecket i lådan</p><p>Strecket ligger vid 14 minuter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14 min</p></div>",
+    "familj": "Avläsa lådagram",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Medianen är det lodräta strecket inne i lådan.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "min"
+  },
+  {
+    "id": "4.2033",
+    "kap": 4,
+    "omr": "ladagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "den mittersta hälften i ett lådagram",
+    "t": "<p>Lådagrammet visar längden hos några plantor. Mellan vilka två längder ligger den mittersta hälften av plantorna? (Svara med den kortaste längden först.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 136\" role=\"img\" aria-label=\"Lådagram: minsta värde 12, nedre kvartil 20, median 27, övre kvartil 34 och största värde 44 cm.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"134\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"16\" x2=\"30.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"40.8\" y1=\"16\" x2=\"40.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"51.6\" y1=\"16\" x2=\"51.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"62.3\" y1=\"16\" x2=\"62.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"73.1\" y1=\"16\" x2=\"73.1\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"83.9\" y1=\"16\" x2=\"83.9\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"94.7\" y1=\"16\" x2=\"94.7\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"105.4\" y1=\"16\" x2=\"105.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"116.2\" y1=\"16\" x2=\"116.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"127.0\" y1=\"16\" x2=\"127.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"137.8\" y1=\"16\" x2=\"137.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"148.6\" y1=\"16\" x2=\"148.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"159.3\" y1=\"16\" x2=\"159.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"170.1\" y1=\"16\" x2=\"170.1\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"180.9\" y1=\"16\" x2=\"180.9\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"191.7\" y1=\"16\" x2=\"191.7\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"202.4\" y1=\"16\" x2=\"202.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"213.2\" y1=\"16\" x2=\"213.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"224.0\" y1=\"16\" x2=\"224.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"234.8\" y1=\"16\" x2=\"234.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"245.6\" y1=\"16\" x2=\"245.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"256.3\" y1=\"16\" x2=\"256.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"267.1\" y1=\"16\" x2=\"267.1\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"277.9\" y1=\"16\" x2=\"277.9\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"288.7\" y1=\"16\" x2=\"288.7\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"299.4\" y1=\"16\" x2=\"299.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"310.2\" y1=\"16\" x2=\"310.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"321.0\" y1=\"16\" x2=\"321.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"331.8\" y1=\"16\" x2=\"331.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"342.6\" y1=\"16\" x2=\"342.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"353.3\" y1=\"16\" x2=\"353.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"364.1\" y1=\"16\" x2=\"364.1\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"374.9\" y1=\"16\" x2=\"374.9\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"385.7\" y1=\"16\" x2=\"385.7\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"396.4\" y1=\"16\" x2=\"396.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"407.2\" y1=\"16\" x2=\"407.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"418.0\" y1=\"16\" x2=\"418.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"51.6\" y1=\"55\" x2=\"137.8\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"288.7\" y1=\"55\" x2=\"396.4\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"51.6\" y1=\"46\" x2=\"51.6\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"396.4\" y1=\"46\" x2=\"396.4\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><rect x=\"137.8\" y=\"42\" width=\"150.9\" height=\"26\" fill=\"#2f6fca\" fill-opacity=\"0.15\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"213.2\" y1=\"42\" x2=\"213.2\" y2=\"68\" stroke=\"#2f6fca\" stroke-width=\"3\"/><line x1=\"30\" y1=\"92\" x2=\"418\" y2=\"92\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"30.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"94.7\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">16</text><text x=\"159.3\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">22</text><text x=\"224.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">28</text><text x=\"288.7\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">34</text><text x=\"353.3\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><text x=\"418.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">46</text><text x=\"224.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Längd (cm)</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lådan innehåller den mittersta hälften</p><p>Lådan går från nedre kvartilen 20 cm till övre kvartilen 34 cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mellan 20 cm och 34 cm</p></div>",
+    "familj": "Avläsa lådagram",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur stor del av värdena ligger inne i lådan?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      20,
+      34
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "kortaste",
+      "längsta"
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm"
+    ]
+  },
+  {
+    "id": "4.2034",
+    "kap": 4,
+    "omr": "ladagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "jämföra kvartilavstånd i två lådagram",
+    "t": "<p>Lådagrammen visar resultaten på ett prov i två klasser. Hur mycket större är kvartilavståndet i klass B än i klass A?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 198\" role=\"img\" aria-label=\"Två lådagram. Klass A: 10, 22, 28, 32 och 45 poäng. Klass B: 6, 14, 26, 36 och 48 poäng.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"196\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"74.0\" y1=\"16\" x2=\"74.0\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"87.8\" y1=\"16\" x2=\"87.8\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"101.5\" y1=\"16\" x2=\"101.5\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"115.3\" y1=\"16\" x2=\"115.3\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"129.0\" y1=\"16\" x2=\"129.0\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"142.8\" y1=\"16\" x2=\"142.8\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"156.6\" y1=\"16\" x2=\"156.6\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"170.3\" y1=\"16\" x2=\"170.3\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"184.1\" y1=\"16\" x2=\"184.1\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"197.8\" y1=\"16\" x2=\"197.8\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"211.6\" y1=\"16\" x2=\"211.6\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"225.4\" y1=\"16\" x2=\"225.4\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"239.1\" y1=\"16\" x2=\"239.1\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"252.9\" y1=\"16\" x2=\"252.9\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"266.6\" y1=\"16\" x2=\"266.6\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"280.4\" y1=\"16\" x2=\"280.4\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"294.2\" y1=\"16\" x2=\"294.2\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"307.9\" y1=\"16\" x2=\"307.9\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"321.7\" y1=\"16\" x2=\"321.7\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"335.4\" y1=\"16\" x2=\"335.4\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"349.2\" y1=\"16\" x2=\"349.2\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"363.0\" y1=\"16\" x2=\"363.0\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"376.7\" y1=\"16\" x2=\"376.7\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"390.5\" y1=\"16\" x2=\"390.5\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"404.2\" y1=\"16\" x2=\"404.2\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"418.0\" y1=\"16\" x2=\"418.0\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"142.8\" y1=\"55\" x2=\"225.4\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"294.2\" y1=\"55\" x2=\"383.6\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"142.8\" y1=\"46\" x2=\"142.8\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"383.6\" y1=\"46\" x2=\"383.6\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><rect x=\"225.4\" y=\"42\" width=\"68.8\" height=\"26\" fill=\"#2f6fca\" fill-opacity=\"0.15\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"266.6\" y1=\"42\" x2=\"266.6\" y2=\"68\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"66.0\" y=\"60.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">Klass A</text><line x1=\"115.3\" y1=\"117\" x2=\"170.3\" y2=\"117\" stroke=\"#d9622b\" stroke-width=\"2\"/><line x1=\"321.7\" y1=\"117\" x2=\"404.2\" y2=\"117\" stroke=\"#d9622b\" stroke-width=\"2\"/><line x1=\"115.3\" y1=\"108\" x2=\"115.3\" y2=\"126\" stroke=\"#d9622b\" stroke-width=\"2\"/><line x1=\"404.2\" y1=\"108\" x2=\"404.2\" y2=\"126\" stroke=\"#d9622b\" stroke-width=\"2\"/><rect x=\"170.3\" y=\"104\" width=\"151.4\" height=\"26\" fill=\"#d9622b\" fill-opacity=\"0.15\" stroke=\"#d9622b\" stroke-width=\"2\"/><line x1=\"252.9\" y1=\"104\" x2=\"252.9\" y2=\"130\" stroke=\"#d9622b\" stroke-width=\"3\"/><text x=\"66.0\" y=\"122.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">Klass B</text><line x1=\"74\" y1=\"154\" x2=\"418\" y2=\"154\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"74.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><text x=\"142.8\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"211.6\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><text x=\"280.4\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><text x=\"349.2\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><text x=\"418.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">50</text><text x=\"246.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Poäng</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvartilavstånd = lådans bredd</p><div class=\"facit-matte\">\\[\\begin{gathered}A:\\ 32-22=10\\\\B:\\ 36-14=22\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Skillnad</p><div class=\"facit-matte\">\\[22-10=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 poäng</p></div>",
+    "familj": "Jämföra och rita lådagram",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Kvartilavståndet är lådans bredd.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2035",
+    "kap": 4,
+    "omr": "ladagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "påståenden om två lådagram",
+    "t": "<p>Lådagrammen visar hur många timmar i veckan elever på två skolor tränar. Vilka påståenden stämmer? (Markera alla riktiga alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 198\" role=\"img\" aria-label=\"Två lådagram. Skola 1: 1, 3, 5, 8 och 14 timmar. Skola 2: 2, 4, 6, 7 och 10 timmar.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"196\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"74.0\" y1=\"16\" x2=\"74.0\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"95.5\" y1=\"16\" x2=\"95.5\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"117.0\" y1=\"16\" x2=\"117.0\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"138.5\" y1=\"16\" x2=\"138.5\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"160.0\" y1=\"16\" x2=\"160.0\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"181.5\" y1=\"16\" x2=\"181.5\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"203.0\" y1=\"16\" x2=\"203.0\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"224.5\" y1=\"16\" x2=\"224.5\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"246.0\" y1=\"16\" x2=\"246.0\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"267.5\" y1=\"16\" x2=\"267.5\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"289.0\" y1=\"16\" x2=\"289.0\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"310.5\" y1=\"16\" x2=\"310.5\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"332.0\" y1=\"16\" x2=\"332.0\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"353.5\" y1=\"16\" x2=\"353.5\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"375.0\" y1=\"16\" x2=\"375.0\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"396.5\" y1=\"16\" x2=\"396.5\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"418.0\" y1=\"16\" x2=\"418.0\" y2=\"154\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"95.5\" y1=\"55\" x2=\"138.5\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"246.0\" y1=\"55\" x2=\"375.0\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"95.5\" y1=\"46\" x2=\"95.5\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"375.0\" y1=\"46\" x2=\"375.0\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><rect x=\"138.5\" y=\"42\" width=\"107.5\" height=\"26\" fill=\"#2f6fca\" fill-opacity=\"0.15\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"181.5\" y1=\"42\" x2=\"181.5\" y2=\"68\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"66.0\" y=\"60.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">Skola 1</text><line x1=\"117.0\" y1=\"117\" x2=\"160.0\" y2=\"117\" stroke=\"#d9622b\" stroke-width=\"2\"/><line x1=\"224.5\" y1=\"117\" x2=\"289.0\" y2=\"117\" stroke=\"#d9622b\" stroke-width=\"2\"/><line x1=\"117.0\" y1=\"108\" x2=\"117.0\" y2=\"126\" stroke=\"#d9622b\" stroke-width=\"2\"/><line x1=\"289.0\" y1=\"108\" x2=\"289.0\" y2=\"126\" stroke=\"#d9622b\" stroke-width=\"2\"/><rect x=\"160.0\" y=\"104\" width=\"64.5\" height=\"26\" fill=\"#d9622b\" fill-opacity=\"0.15\" stroke=\"#d9622b\" stroke-width=\"2\"/><line x1=\"203.0\" y1=\"104\" x2=\"203.0\" y2=\"130\" stroke=\"#d9622b\" stroke-width=\"3\"/><text x=\"66.0\" y=\"122.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">Skola 2</text><line x1=\"74\" y1=\"154\" x2=\"418\" y2=\"154\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"74.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><text x=\"117.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"160.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"203.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"246.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"289.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"332.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">12</text><text x=\"375.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">14</text><text x=\"418.0\" y=\"172.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">16</text><text x=\"246.0\" y=\"190.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Timmar per vecka</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför värdena</p><p>Medianen är 5 h på skola 1 och 6 h på skola 2. Variationsbredden är 13 h respektive 8 h. Kvartilavståndet är 5 h respektive 3 h. Hälften av eleverna på skola 2 tränar minst 6 h.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Medianen är högre på skola 2, och spridningen är större på skola 1.</p></div>",
+    "familj": "Jämföra och rita lådagram",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Jämför ett mått i taget: median, kvartilavstånd och variationsbredd.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Medianen är högre på skola 2.",
+        "ratt": true,
+        "kommentar": "6 h mot 5 h."
+      },
+      {
+        "txt": "Kvartilavståndet är större på skola 2.",
+        "ratt": false,
+        "kommentar": "Det är 3 h på skola 2 och 5 h på skola 1."
+      },
+      {
+        "txt": "Variationsbredden är större på skola 1.",
+        "ratt": true,
+        "kommentar": "13 h mot 8 h."
+      },
+      {
+        "txt": "Ingen elev på skola 2 tränar mer än 7 h.",
+        "ratt": false,
+        "kommentar": "Största värdet är 10 h. 7 h är övre kvartilen."
+      },
+      {
+        "txt": "Hälften av eleverna på skola 2 tränar minst 6 h.",
+        "ratt": true,
+        "kommentar": "6 h är medianen."
+      }
+    ]
+  },
+  {
+    "id": "4.2036",
+    "kap": 4,
+    "omr": "ladagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "okända värden ur lådagram",
+    "t": "<p>Under 16 nätter mätte Ali hur många timmar han sov. Värdena står i storleksordning, men två av dem har ersatts med \\(x\\) och \\(y\\):</p><p>\\(x,\\ 4,\\ 5,\\ 6,\\ 6,\\ 7,\\ 7,\\ y,\\ 9,\\ 9,\\ 10,\\ 11,\\ 12,\\ 12,\\ 14,\\ 15\\)</p><p>Lådagrammet visar materialet. Bestäm \\(x\\) och \\(y\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 136\" role=\"img\" aria-label=\"Lådagram: minsta värde 2, nedre kvartil 6, median 8,5, övre kvartil 11,5 och största värde 15 timmar.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"134\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"16\" x2=\"30.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"42.1\" y1=\"16\" x2=\"42.1\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54.3\" y1=\"16\" x2=\"54.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"66.4\" y1=\"16\" x2=\"66.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"78.5\" y1=\"16\" x2=\"78.5\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"90.6\" y1=\"16\" x2=\"90.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"102.8\" y1=\"16\" x2=\"102.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"114.9\" y1=\"16\" x2=\"114.9\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"127.0\" y1=\"16\" x2=\"127.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"139.1\" y1=\"16\" x2=\"139.1\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"151.3\" y1=\"16\" x2=\"151.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"163.4\" y1=\"16\" x2=\"163.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"175.5\" y1=\"16\" x2=\"175.5\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"187.6\" y1=\"16\" x2=\"187.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"199.8\" y1=\"16\" x2=\"199.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"211.9\" y1=\"16\" x2=\"211.9\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"224.0\" y1=\"16\" x2=\"224.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"236.1\" y1=\"16\" x2=\"236.1\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"248.3\" y1=\"16\" x2=\"248.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"260.4\" y1=\"16\" x2=\"260.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"272.5\" y1=\"16\" x2=\"272.5\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"284.6\" y1=\"16\" x2=\"284.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"296.8\" y1=\"16\" x2=\"296.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"308.9\" y1=\"16\" x2=\"308.9\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"321.0\" y1=\"16\" x2=\"321.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"333.1\" y1=\"16\" x2=\"333.1\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"345.3\" y1=\"16\" x2=\"345.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"357.4\" y1=\"16\" x2=\"357.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"369.5\" y1=\"16\" x2=\"369.5\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"381.6\" y1=\"16\" x2=\"381.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"393.8\" y1=\"16\" x2=\"393.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"405.9\" y1=\"16\" x2=\"405.9\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"418.0\" y1=\"16\" x2=\"418.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"78.5\" y1=\"55\" x2=\"175.5\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"308.9\" y1=\"55\" x2=\"393.8\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"78.5\" y1=\"46\" x2=\"78.5\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"393.8\" y1=\"46\" x2=\"393.8\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><rect x=\"175.5\" y=\"42\" width=\"133.4\" height=\"26\" fill=\"#2f6fca\" fill-opacity=\"0.15\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"236.1\" y1=\"42\" x2=\"236.1\" y2=\"68\" stroke=\"#2f6fca\" stroke-width=\"3\"/><line x1=\"30\" y1=\"92\" x2=\"418\" y2=\"92\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"30.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><text x=\"78.5\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"127.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"175.5\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"224.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"272.5\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"321.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">12</text><text x=\"369.5\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">14</text><text x=\"418.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">16</text><text x=\"224.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Sömn (h)</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">x är det minsta värdet</p><p>Lådagrammets minsta värde är 2, så \\(x=2\\).</p></li><li><p class=\"facit-rubrik\">y ur medianen</p><p>Med 16 värden är medianen medelvärdet av värde nummer 8 och 9:</p><div class=\"facit-matte\">\\[\\frac{y+9}{2}=8{,}5\\ \\Rightarrow\\ y=8\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera kvartilerna</p><p>Nedre halvan ger \\(\\frac{6+6}{2}=6\\) och övre halvan \\(\\frac{11+12}{2}=11{,}5\\), som i lådagrammet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\) och \\(y=8\\)</p></div>",
+    "familj": "Avläsa lådagram",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vilket värde i listan är det minsta? Vilka två värden ger medianen när det finns 16 värden?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      8
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
+  },
+  {
+    "id": "4.2037",
+    "kap": 4,
+    "omr": "ladagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "variationsbredd och kvartilavstånd ur femtalssammanfattning",
+    "t": "<p>Ett lådagram har minsta värdet 12, nedre kvartilen 18, medianen 23, övre kvartilen 30 och största värdet 41. Bestäm variationsbredden och kvartilavståndet.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Variationsbredd</p><div class=\"facit-matte\">\\[41-12=29\\]</div></li><li><p class=\"facit-rubrik\">Kvartilavstånd</p><div class=\"facit-matte\">\\[30-18=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Variationsbredden är 29 och kvartilavståndet 12.</p></div>",
+    "familj": "Avläsa lådagram",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Variationsbredden använder ytterpunkterna och kvartilavståndet lådans kanter.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      29,
+      12
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "variationsbredd",
+      "kvartilavstånd"
+    ]
+  },
+  {
+    "id": "4.2038",
+    "kap": 4,
+    "omr": "ladagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "fem värden till ett lådagram",
+    "t": "<p>Tolv elever hoppade längd. Resultaten i meter var:</p><p>3,1 3,4 3,5 3,8 3,9 4,0 4,2 4,4 4,5 4,7 4,9 5,3</p><p>Bestäm de fem värden som behövs för att rita ett lådagram: minsta värde, nedre kvartil, median, övre kvartil och största värde.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Median</p><p>Mitt emellan värde 6 och 7:</p><div class=\"facit-matte\">\\[\\frac{4{,}0+4{,}2}{2}=4{,}1\\]</div></li><li><p class=\"facit-rubrik\">Kvartiler</p><p>Nedre halvan 3,1–4,0 ger \\(\\frac{3{,}5+3{,}8}{2}=3{,}65\\). Övre halvan 4,2–5,3 ger \\(\\frac{4{,}5+4{,}7}{2}=4{,}6\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,1; 3,65; 4,1; 4,6 och 5,3 m</p></div>",
+    "familj": "Jämföra och rita lådagram",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Med tolv värden har varje halva sex värden. Kvartilen är då medelvärdet av två värden.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.1,
+      3.65,
+      4.1,
+      4.6,
+      5.3
+    ],
+    "tolerans": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "minsta",
+      "nedre kvartil",
+      "median",
+      "övre kvartil",
+      "största"
+    ]
+  },
+  {
+    "id": "4.2039",
+    "kap": 4,
+    "omr": "ladagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "antal mellan median och övre kvartil",
+    "t": "<p>Ett lådagram visar tiderna för 60 elever som sprang en sträcka. Medianen är 12 minuter och den övre kvartilen är 15 minuter. Ungefär hur många elever hade en tid mellan 12 och 15 minuter?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mellan medianen och övre kvartilen ligger en fjärdedel</p><div class=\"facit-matte\">\\[\\frac{60}{4}=15\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 15 elever</p></div>",
+    "familj": "Avläsa lådagram",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur stor del av eleverna ligger mellan medianen och den övre kvartilen?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 15,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2040",
+    "kap": 4,
+    "omr": "ladagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "välja datamaterial till lådagram",
+    "t": "<p>Lådagrammet visar ett datamaterial med åtta värden. Vilket av materialen kan det vara? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 136\" role=\"img\" aria-label=\"Lådagram: minsta värde 2, nedre kvartil 4, median 5,5, övre kvartil 8 och största värde 10.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"134\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"16\" x2=\"30.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"46.2\" y1=\"16\" x2=\"46.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"62.3\" y1=\"16\" x2=\"62.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"78.5\" y1=\"16\" x2=\"78.5\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"94.7\" y1=\"16\" x2=\"94.7\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"110.8\" y1=\"16\" x2=\"110.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"127.0\" y1=\"16\" x2=\"127.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"143.2\" y1=\"16\" x2=\"143.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"159.3\" y1=\"16\" x2=\"159.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"175.5\" y1=\"16\" x2=\"175.5\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"191.7\" y1=\"16\" x2=\"191.7\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"207.8\" y1=\"16\" x2=\"207.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"224.0\" y1=\"16\" x2=\"224.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"240.2\" y1=\"16\" x2=\"240.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"256.3\" y1=\"16\" x2=\"256.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"272.5\" y1=\"16\" x2=\"272.5\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"288.7\" y1=\"16\" x2=\"288.7\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"304.8\" y1=\"16\" x2=\"304.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"321.0\" y1=\"16\" x2=\"321.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"337.2\" y1=\"16\" x2=\"337.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"353.3\" y1=\"16\" x2=\"353.3\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"369.5\" y1=\"16\" x2=\"369.5\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"385.7\" y1=\"16\" x2=\"385.7\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"401.8\" y1=\"16\" x2=\"401.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"418.0\" y1=\"16\" x2=\"418.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"94.7\" y1=\"55\" x2=\"159.3\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"288.7\" y1=\"55\" x2=\"353.3\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"94.7\" y1=\"46\" x2=\"94.7\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"353.3\" y1=\"46\" x2=\"353.3\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><rect x=\"159.3\" y=\"42\" width=\"129.3\" height=\"26\" fill=\"#2f6fca\" fill-opacity=\"0.15\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"207.8\" y1=\"42\" x2=\"207.8\" y2=\"68\" stroke=\"#2f6fca\" stroke-width=\"3\"/><line x1=\"30\" y1=\"92\" x2=\"418\" y2=\"92\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"30.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><text x=\"94.7\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"159.3\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"224.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"288.7\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">8</text><text x=\"353.3\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><text x=\"418.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">12</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kontrollera medianen och kvartilerna</p><p>För 2, 3, 5, 5, 6, 7, 9, 10 är medianen \\(\\frac{5+6}{2}=5{,}5\\), den nedre kvartilen \\(\\frac{3+5}{2}=4\\) och den övre kvartilen \\(\\frac{7+9}{2}=8\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2, 3, 5, 5, 6, 7, 9, 10</p></div>",
+    "familj": "Jämföra och rita lådagram",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna ut medianen och kvartilerna för varje alternativ. Med åtta värden har varje halva fyra värden.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "2, 4, 5, 5, 6, 7, 9, 10",
+        "ratt": false,
+        "kommentar": "Den nedre kvartilen blir 4,5."
+      },
+      {
+        "txt": "2, 3, 5, 6, 6, 7, 9, 10",
+        "ratt": false,
+        "kommentar": "Medianen blir 6."
+      },
+      {
+        "txt": "2, 3, 5, 5, 6, 7, 9, 10",
+        "ratt": true,
+        "kommentar": "Alla fem värdena stämmer."
+      },
+      {
+        "txt": "2, 3, 5, 5, 6, 8, 9, 10",
+        "ratt": false,
+        "kommentar": "Den övre kvartilen blir 8,5."
+      }
+    ]
+  },
+  {
+    "id": "4.2041",
+    "kap": 4,
+    "omr": "ladagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "variationsbredd ur lådagram",
+    "t": "<p>Lådagrammet visar priset på en vara i olika butiker. Bestäm variationsbredden. (Svara i kr.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 136\" role=\"img\" aria-label=\"Lådagram: minsta värde 24, nedre kvartil 32, median 36, övre kvartil 42 och största värde 56 kronor.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"134\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30.0\" y1=\"16\" x2=\"30.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"49.4\" y1=\"16\" x2=\"49.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"68.8\" y1=\"16\" x2=\"68.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"88.2\" y1=\"16\" x2=\"88.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"107.6\" y1=\"16\" x2=\"107.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"127.0\" y1=\"16\" x2=\"127.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"146.4\" y1=\"16\" x2=\"146.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"165.8\" y1=\"16\" x2=\"165.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"185.2\" y1=\"16\" x2=\"185.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"204.6\" y1=\"16\" x2=\"204.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"224.0\" y1=\"16\" x2=\"224.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"243.4\" y1=\"16\" x2=\"243.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"262.8\" y1=\"16\" x2=\"262.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"282.2\" y1=\"16\" x2=\"282.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"301.6\" y1=\"16\" x2=\"301.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"321.0\" y1=\"16\" x2=\"321.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"340.4\" y1=\"16\" x2=\"340.4\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"359.8\" y1=\"16\" x2=\"359.8\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"379.2\" y1=\"16\" x2=\"379.2\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.6\" y1=\"16\" x2=\"398.6\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"418.0\" y1=\"16\" x2=\"418.0\" y2=\"92\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"68.8\" y1=\"55\" x2=\"146.4\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"243.4\" y1=\"55\" x2=\"379.2\" y2=\"55\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"68.8\" y1=\"46\" x2=\"68.8\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"379.2\" y1=\"46\" x2=\"379.2\" y2=\"64\" stroke=\"#2f6fca\" stroke-width=\"2\"/><rect x=\"146.4\" y=\"42\" width=\"97.0\" height=\"26\" fill=\"#2f6fca\" fill-opacity=\"0.15\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"185.2\" y1=\"42\" x2=\"185.2\" y2=\"68\" stroke=\"#2f6fca\" stroke-width=\"3\"/><line x1=\"30\" y1=\"92\" x2=\"418\" y2=\"92\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"30.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><text x=\"127.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><text x=\"224.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><text x=\"321.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">50</text><text x=\"418.0\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">60</text><text x=\"224.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Pris (kr)</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Största minus minsta värde</p><div class=\"facit-matte\">\\[56-24=32\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 32 kr</p></div>",
+    "familj": "Avläsa lådagram",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Variationsbredden är avståndet mellan ändarna på strecken.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 32,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "4.2042",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "andel inom en standardavvikelse",
+    "t": "<p>Ett hönseri sorterar 2 500 ägg. Vikten är ungefär normalfördelad med medelvärdet 60 g och standardavvikelsen 4 g. Ungefär hur många av äggen väger mellan 56 g och 64 g?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Normalkurva med medelvärdet 60. Området mellan 56 och 64 är skuggat.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"165.6,204 165.6,100.3 166.1,99.2 166.6,98.2 167.2,97.2 167.7,96.1 168.3,95.1 168.8,94.1 169.4,93.0 169.9,92.0 170.5,91.0 171.0,89.9 171.5,88.9 172.1,87.9 172.6,86.9 173.2,85.9 173.7,84.8 174.3,83.8 174.8,82.8 175.4,81.8 175.9,80.8 176.4,79.8 177.0,78.8 177.5,77.9 178.1,76.9 178.6,75.9 179.2,74.9 179.7,74.0 180.3,73.0 180.8,72.0 181.3,71.1 181.9,70.2 182.4,69.2 183.0,68.3 183.5,67.4 184.1,66.5 184.6,65.6 185.2,64.7 185.7,63.8 186.2,62.9 186.8,62.0 187.3,61.2 187.9,60.3 188.4,59.5 189.0,58.6 189.5,57.8 190.1,57.0 190.6,56.2 191.1,55.4 191.7,54.6 192.2,53.9 192.8,53.1 193.3,52.3 193.9,51.6 194.4,50.9 195.0,50.2 195.5,49.5 196.0,48.8 196.6,48.1 197.1,47.4 197.7,46.8 198.2,46.1 198.8,45.5 199.3,44.9 199.9,44.3 200.4,43.7 200.9,43.2 201.5,42.6 202.0,42.1 202.6,41.5 203.1,41.0 203.7,40.5 204.2,40.0 204.8,39.6 205.3,39.1 205.8,38.7 206.4,38.3 206.9,37.9 207.5,37.5 208.0,37.1 208.6,36.7 209.1,36.4 209.7,36.1 210.2,35.7 210.7,35.5 211.3,35.2 211.8,34.9 212.4,34.7 212.9,34.4 213.5,34.2 214.0,34.0 214.6,33.9 215.1,33.7 215.6,33.5 216.2,33.4 216.7,33.3 217.3,33.2 217.8,33.1 218.4,33.1 218.9,33.0 219.5,33.0 220.0,33.0 220.5,33.0 221.1,33.0 221.6,33.1 222.2,33.1 222.7,33.2 223.3,33.3 223.8,33.4 224.4,33.5 224.9,33.7 225.4,33.9 226.0,34.0 226.5,34.2 227.1,34.4 227.6,34.7 228.2,34.9 228.7,35.2 229.3,35.5 229.8,35.7 230.3,36.1 230.9,36.4 231.4,36.7 232.0,37.1 232.5,37.5 233.1,37.9 233.6,38.3 234.2,38.7 234.7,39.1 235.2,39.6 235.8,40.0 236.3,40.5 236.9,41.0 237.4,41.5 238.0,42.1 238.5,42.6 239.1,43.2 239.6,43.7 240.1,44.3 240.7,44.9 241.2,45.5 241.8,46.1 242.3,46.8 242.9,47.4 243.4,48.1 244.0,48.8 244.5,49.5 245.0,50.2 245.6,50.9 246.1,51.6 246.7,52.3 247.2,53.1 247.8,53.9 248.3,54.6 248.9,55.4 249.4,56.2 249.9,57.0 250.5,57.8 251.0,58.6 251.6,59.5 252.1,60.3 252.7,61.2 253.2,62.0 253.8,62.9 254.3,63.8 254.8,64.7 255.4,65.6 255.9,66.5 256.5,67.4 257.0,68.3 257.6,69.2 258.1,70.2 258.7,71.1 259.2,72.0 259.7,73.0 260.3,74.0 260.8,74.9 261.4,75.9 261.9,76.9 262.5,77.9 263.0,78.8 263.6,79.8 264.1,80.8 264.6,81.8 265.2,82.8 265.7,83.8 266.3,84.8 266.8,85.9 267.4,86.9 267.9,87.9 268.5,88.9 269.0,89.9 269.5,91.0 270.1,92.0 270.6,93.0 271.2,94.1 271.7,95.1 272.3,96.1 272.8,97.2 273.4,98.2 273.9,99.2 274.4,100.3 274.4,204\" fill=\"#2f6fca\" fill-opacity=\"0.25\"/><polyline points=\"24.0,203.7 25.3,203.7 26.6,203.7 27.9,203.7 29.2,203.6 30.5,203.6 31.8,203.6 33.1,203.5 34.5,203.5 35.8,203.4 37.1,203.4 38.4,203.3 39.7,203.3 41.0,203.2 42.3,203.2 43.6,203.1 44.9,203.0 46.2,203.0 47.5,202.9 48.8,202.8 50.1,202.7 51.4,202.6 52.7,202.5 54.1,202.4 55.4,202.2 56.7,202.1 58.0,202.0 59.3,201.8 60.6,201.6 61.9,201.5 63.2,201.3 64.5,201.1 65.8,200.9 67.1,200.7 68.4,200.5 69.7,200.2 71.0,199.9 72.3,199.7 73.7,199.4 75.0,199.1 76.3,198.8 77.6,198.4 78.9,198.1 80.2,197.7 81.5,197.3 82.8,196.9 84.1,196.4 85.4,195.9 86.7,195.5 88.0,194.9 89.3,194.4 90.6,193.8 91.9,193.2 93.3,192.6 94.6,192.0 95.9,191.3 97.2,190.6 98.5,189.8 99.8,189.1 101.1,188.3 102.4,187.4 103.7,186.5 105.0,185.6 106.3,184.7 107.6,183.7 108.9,182.7 110.2,181.6 111.5,180.5 112.9,179.3 114.2,178.2 115.5,176.9 116.8,175.7 118.1,174.3 119.4,173.0 120.7,171.6 122.0,170.2 123.3,168.7 124.6,167.1 125.9,165.6 127.2,164.0 128.5,162.3 129.8,160.6 131.1,158.9 132.5,157.1 133.8,155.2 135.1,153.4 136.4,151.4 137.7,149.5 139.0,147.5 140.3,145.4 141.6,143.4 142.9,141.3 144.2,139.1 145.5,136.9 146.8,134.7 148.1,132.4 149.4,130.2 150.7,127.9 152.1,125.5 153.4,123.2 154.7,120.8 156.0,118.4 157.3,115.9 158.6,113.5 159.9,111.0 161.2,108.6 162.5,106.1 163.8,103.6 165.1,101.1 166.4,98.6 167.7,96.1 169.0,93.7 170.3,91.2 171.7,88.7 173.0,86.3 174.3,83.8 175.6,81.4 176.9,79.0 178.2,76.7 179.5,74.3 180.8,72.0 182.1,69.8 183.4,67.6 184.7,65.4 186.0,63.3 187.3,61.2 188.6,59.1 189.9,57.2 191.3,55.2 192.6,53.4 193.9,51.6 195.2,49.9 196.5,48.2 197.8,46.7 199.1,45.2 200.4,43.7 201.7,42.4 203.0,41.1 204.3,39.9 205.6,38.9 206.9,37.9 208.2,36.9 209.5,36.1 210.9,35.4 212.2,34.8 213.5,34.2 214.8,33.8 216.1,33.4 217.4,33.2 218.7,33.0 220.0,33.0 221.3,33.0 222.6,33.2 223.9,33.4 225.2,33.8 226.5,34.2 227.8,34.8 229.1,35.4 230.5,36.1 231.8,36.9 233.1,37.9 234.4,38.9 235.7,39.9 237.0,41.1 238.3,42.4 239.6,43.7 240.9,45.2 242.2,46.7 243.5,48.2 244.8,49.9 246.1,51.6 247.4,53.4 248.7,55.2 250.1,57.2 251.4,59.1 252.7,61.2 254.0,63.3 255.3,65.4 256.6,67.6 257.9,69.8 259.2,72.0 260.5,74.3 261.8,76.7 263.1,79.0 264.4,81.4 265.7,83.8 267.0,86.3 268.3,88.7 269.7,91.2 271.0,93.7 272.3,96.1 273.6,98.6 274.9,101.1 276.2,103.6 277.5,106.1 278.8,108.6 280.1,111.0 281.4,113.5 282.7,115.9 284.0,118.4 285.3,120.8 286.6,123.2 287.9,125.5 289.3,127.9 290.6,130.2 291.9,132.4 293.2,134.7 294.5,136.9 295.8,139.1 297.1,141.3 298.4,143.4 299.7,145.4 301.0,147.5 302.3,149.5 303.6,151.4 304.9,153.4 306.2,155.2 307.5,157.1 308.9,158.9 310.2,160.6 311.5,162.3 312.8,164.0 314.1,165.6 315.4,167.1 316.7,168.7 318.0,170.2 319.3,171.6 320.6,173.0 321.9,174.3 323.2,175.7 324.5,176.9 325.8,178.2 327.1,179.3 328.5,180.5 329.8,181.6 331.1,182.7 332.4,183.7 333.7,184.7 335.0,185.6 336.3,186.5 337.6,187.4 338.9,188.3 340.2,189.1 341.5,189.8 342.8,190.6 344.1,191.3 345.4,192.0 346.7,192.6 348.1,193.2 349.4,193.8 350.7,194.4 352.0,194.9 353.3,195.5 354.6,195.9 355.9,196.4 357.2,196.9 358.5,197.3 359.8,197.7 361.1,198.1 362.4,198.4 363.7,198.8 365.0,199.1 366.3,199.4 367.7,199.7 369.0,199.9 370.3,200.2 371.6,200.5 372.9,200.7 374.2,200.9 375.5,201.1 376.8,201.3 378.1,201.5 379.4,201.6 380.7,201.8 382.0,202.0 383.3,202.1 384.6,202.2 385.9,202.4 387.3,202.5 388.6,202.6 389.9,202.7 391.2,202.8 392.5,202.9 393.8,203.0 395.1,203.0 396.4,203.1 397.7,203.2 399.0,203.2 400.3,203.3 401.6,203.3 402.9,203.4 404.2,203.4 405.5,203.5 406.9,203.5 408.2,203.6 409.5,203.6 410.8,203.6 412.1,203.7 413.4,203.7 414.7,203.7 416.0,203.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><line x1=\"24\" y1=\"204\" x2=\"416\" y2=\"204\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"111.1\" y1=\"204\" x2=\"111.1\" y2=\"180.9\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"111.1\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">52</text><line x1=\"165.6\" y1=\"204\" x2=\"165.6\" y2=\"100.3\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"165.6\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">56</text><line x1=\"220.0\" y1=\"204\" x2=\"220.0\" y2=\"33.0\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"220.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">60</text><line x1=\"274.4\" y1=\"204\" x2=\"274.4\" y2=\"100.3\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"274.4\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">64</text><line x1=\"328.9\" y1=\"204\" x2=\"328.9\" y2=\"180.9\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"328.9\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">68</text><text x=\"220.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Vikt (g)</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">56 och 64 ligger en standardavvikelse från medelvärdet</p><div class=\"facit-matte\">\\[60\\pm4\\]</div></li><li><p class=\"facit-rubrik\">Andel inom en standardavvikelse</p><p>Ungefär 68,2 %.</p></li><li><p class=\"facit-rubrik\">Antal</p><div class=\"facit-matte\">\\[0{,}682\\cdot2500\\approx1705\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1 700 ägg</p></div>",
+    "familj": "Andel i ett intervall",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många standardavvikelser från medelvärdet ligger 56 och 64? Vilken andel ligger där?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1705,
+    "tolerans": 10,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2043",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "intervall för de mittersta 95 procenten",
+    "t": "<p>Längden hos vuxna män i en region är ungefär normalfördelad med medelvärdet 179 cm och standardavvikelsen 7 cm. Mellan vilka två längder ligger ungefär de mittersta 95 % av männen? (Svara med den lägre längden först.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">95 % ligger inom två standardavvikelser</p><div class=\"facit-matte\">\\[179\\pm2\\cdot7\\]</div></li><li><div class=\"facit-matte\">\\[179-14=165,\\quad179+14=193\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mellan 165 cm och 193 cm</p></div>",
+    "familj": "Andel i ett intervall",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många standardavvikelser åt varje håll omfattar ungefär 95 %?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      165,
+      193
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "lägre",
+      "högre"
+    ],
+    "svarEnhet": [
+      "cm",
+      "cm"
+    ]
+  },
+  {
+    "id": "4.2044",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "antal i övre svansen",
+    "t": "<p>En maskin fyller 1 200 flaskor. Volymen är normalfördelad med medelvärdet 500 ml och standardavvikelsen 3 ml. Ungefär hur många flaskor innehåller mer än 506 ml?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">506 ml ligger två standardavvikelser över medelvärdet</p><div class=\"facit-matte\">\\[500+2\\cdot3=506\\]</div></li><li><p class=\"facit-rubrik\">Andel över μ + 2σ</p><div class=\"facit-matte\">\\[2{,}1\\ \\%+0{,}1\\ \\%=2{,}2\\ \\%\\]</div></li><li><p class=\"facit-rubrik\">Antal</p><div class=\"facit-matte\">\\[0{,}022\\cdot1200\\approx26\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 26 flaskor</p></div>",
+    "familj": "Svansar och standardavvikelse",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur stor andel ligger mer än två standardavvikelser över medelvärdet?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 26,
+    "tolerans": 1.5,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2045",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "standardavvikelse ur antal i intervall",
+    "t": "<p>Vid en kontroll mäts 1 500 skruvar. Längderna är normalfördelade med medelvärdet 50 mm. 1 023 av skruvarna har en längd mellan 49 mm och 51 mm. Bestäm standardavvikelsen. (Svara i mm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andel i intervallet</p><div class=\"facit-matte\">\\[\\frac{1023}{1500}=0{,}682=68{,}2\\ \\%\\]</div></li><li><p class=\"facit-rubrik\">Tolka</p><p>68,2 % ligger inom en standardavvikelse från medelvärdet, och 49 och 51 ligger 1 mm från 50.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 mm</p></div>",
+    "familj": "Svansar och standardavvikelse",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut hur stor andel 1 023 av 1 500 är. Vilken andel känner du igen?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "mm"
+  },
+  {
+    "id": "4.2046",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "standardavvikelse ur andel i svansen",
+    "t": "<p>Resultaten på ett test är normalfördelade med medelvärdet 72 poäng. Ungefär 2,2 % av resultaten ligger under 58 poäng. Bestäm standardavvikelsen.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vilken gräns har 2,2 % under sig?</p><p>Under \\(\\mu-2\\sigma\\) ligger \\(2{,}1\\ \\%+0{,}1\\ \\%=2{,}2\\ \\%\\).</p></li><li><p class=\"facit-rubrik\">Ställ upp och lös</p><div class=\"facit-matte\">\\[72-2\\sigma=58\\ \\Rightarrow\\ \\sigma=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7 poäng</p></div>",
+    "familj": "Svansar och standardavvikelse",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur många standardavvikelser under medelvärdet ligger gränsen när 2,2 % finns under den?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2047",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "andel i osymmetriskt intervall",
+    "t": "<p>Ett normalfördelat material har medelvärdet \\(\\mu\\) och standardavvikelsen \\(\\sigma\\). Hur många procent av värdena ligger mellan \\(\\mu-\\sigma\\) och \\(\\mu+3\\sigma\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Normalkurva där området från en standardavvikelse under till tre standardavvikelser över medelvärdet är skuggat.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"165.6,204 165.6,100.3 166.6,98.2 167.7,96.1 168.8,94.1 169.9,92.0 171.0,89.9 172.1,87.9 173.2,85.9 174.3,83.8 175.4,81.8 176.4,79.8 177.5,77.9 178.6,75.9 179.7,74.0 180.8,72.0 181.9,70.2 183.0,68.3 184.1,66.5 185.2,64.7 186.2,62.9 187.3,61.2 188.4,59.5 189.5,57.8 190.6,56.2 191.7,54.6 192.8,53.1 193.9,51.6 195.0,50.2 196.0,48.8 197.1,47.4 198.2,46.1 199.3,44.9 200.4,43.7 201.5,42.6 202.6,41.5 203.7,40.5 204.8,39.6 205.8,38.7 206.9,37.9 208.0,37.1 209.1,36.4 210.2,35.7 211.3,35.2 212.4,34.7 213.5,34.2 214.6,33.9 215.6,33.5 216.7,33.3 217.8,33.1 218.9,33.0 220.0,33.0 221.1,33.0 222.2,33.1 223.3,33.3 224.4,33.5 225.4,33.9 226.5,34.2 227.6,34.7 228.7,35.2 229.8,35.7 230.9,36.4 232.0,37.1 233.1,37.9 234.2,38.7 235.2,39.6 236.3,40.5 237.4,41.5 238.5,42.6 239.6,43.7 240.7,44.9 241.8,46.1 242.9,47.4 244.0,48.8 245.0,50.2 246.1,51.6 247.2,53.1 248.3,54.6 249.4,56.2 250.5,57.8 251.6,59.5 252.7,61.2 253.8,62.9 254.8,64.7 255.9,66.5 257.0,68.3 258.1,70.2 259.2,72.0 260.3,74.0 261.4,75.9 262.5,77.9 263.6,79.8 264.6,81.8 265.7,83.8 266.8,85.9 267.9,87.9 269.0,89.9 270.1,92.0 271.2,94.1 272.3,96.1 273.4,98.2 274.4,100.3 275.5,102.4 276.6,104.4 277.7,106.5 278.8,108.6 279.9,110.6 281.0,112.7 282.1,114.7 283.2,116.7 284.2,118.8 285.3,120.8 286.4,122.8 287.5,124.7 288.6,126.7 289.7,128.6 290.8,130.5 291.9,132.4 293.0,134.3 294.0,136.2 295.1,138.0 296.2,139.8 297.3,141.6 298.4,143.4 299.5,145.1 300.6,146.8 301.7,148.5 302.8,150.1 303.8,151.8 304.9,153.4 306.0,154.9 307.1,156.5 308.2,158.0 309.3,159.4 310.4,160.9 311.5,162.3 312.6,163.7 313.6,165.0 314.7,166.4 315.8,167.7 316.9,168.9 318.0,170.2 319.1,171.4 320.2,172.5 321.3,173.7 322.4,174.8 323.4,175.9 324.5,176.9 325.6,178.0 326.7,179.0 327.8,179.9 328.9,180.9 330.0,181.8 331.1,182.7 332.2,183.5 333.2,184.3 334.3,185.1 335.4,185.9 336.5,186.7 337.6,187.4 338.7,188.1 339.8,188.8 340.9,189.5 342.0,190.1 343.0,190.7 344.1,191.3 345.2,191.9 346.3,192.4 347.4,192.9 348.5,193.4 349.6,193.9 350.7,194.4 351.8,194.9 352.8,195.3 353.9,195.7 355.0,196.1 356.1,196.5 357.2,196.9 358.3,197.2 359.4,197.5 360.5,197.9 361.6,198.2 362.6,198.5 363.7,198.8 364.8,199.0 365.9,199.3 367.0,199.5 368.1,199.8 369.2,200.0 370.3,200.2 371.4,200.4 372.4,200.6 373.5,200.8 374.6,201.0 375.7,201.1 376.8,201.3 377.9,201.4 379.0,201.6 380.1,201.7 381.2,201.9 382.2,202.0 383.3,202.1 383.3,204\" fill=\"#2f6fca\" fill-opacity=\"0.25\"/><polyline points=\"24.0,203.7 25.3,203.7 26.6,203.7 27.9,203.7 29.2,203.6 30.5,203.6 31.8,203.6 33.1,203.5 34.5,203.5 35.8,203.4 37.1,203.4 38.4,203.3 39.7,203.3 41.0,203.2 42.3,203.2 43.6,203.1 44.9,203.0 46.2,203.0 47.5,202.9 48.8,202.8 50.1,202.7 51.4,202.6 52.7,202.5 54.1,202.4 55.4,202.2 56.7,202.1 58.0,202.0 59.3,201.8 60.6,201.6 61.9,201.5 63.2,201.3 64.5,201.1 65.8,200.9 67.1,200.7 68.4,200.5 69.7,200.2 71.0,199.9 72.3,199.7 73.7,199.4 75.0,199.1 76.3,198.8 77.6,198.4 78.9,198.1 80.2,197.7 81.5,197.3 82.8,196.9 84.1,196.4 85.4,195.9 86.7,195.5 88.0,194.9 89.3,194.4 90.6,193.8 91.9,193.2 93.3,192.6 94.6,192.0 95.9,191.3 97.2,190.6 98.5,189.8 99.8,189.1 101.1,188.3 102.4,187.4 103.7,186.5 105.0,185.6 106.3,184.7 107.6,183.7 108.9,182.7 110.2,181.6 111.5,180.5 112.9,179.3 114.2,178.2 115.5,176.9 116.8,175.7 118.1,174.3 119.4,173.0 120.7,171.6 122.0,170.2 123.3,168.7 124.6,167.1 125.9,165.6 127.2,164.0 128.5,162.3 129.8,160.6 131.1,158.9 132.5,157.1 133.8,155.2 135.1,153.4 136.4,151.4 137.7,149.5 139.0,147.5 140.3,145.4 141.6,143.4 142.9,141.3 144.2,139.1 145.5,136.9 146.8,134.7 148.1,132.4 149.4,130.2 150.7,127.9 152.1,125.5 153.4,123.2 154.7,120.8 156.0,118.4 157.3,115.9 158.6,113.5 159.9,111.0 161.2,108.6 162.5,106.1 163.8,103.6 165.1,101.1 166.4,98.6 167.7,96.1 169.0,93.7 170.3,91.2 171.7,88.7 173.0,86.3 174.3,83.8 175.6,81.4 176.9,79.0 178.2,76.7 179.5,74.3 180.8,72.0 182.1,69.8 183.4,67.6 184.7,65.4 186.0,63.3 187.3,61.2 188.6,59.1 189.9,57.2 191.3,55.2 192.6,53.4 193.9,51.6 195.2,49.9 196.5,48.2 197.8,46.7 199.1,45.2 200.4,43.7 201.7,42.4 203.0,41.1 204.3,39.9 205.6,38.9 206.9,37.9 208.2,36.9 209.5,36.1 210.9,35.4 212.2,34.8 213.5,34.2 214.8,33.8 216.1,33.4 217.4,33.2 218.7,33.0 220.0,33.0 221.3,33.0 222.6,33.2 223.9,33.4 225.2,33.8 226.5,34.2 227.8,34.8 229.1,35.4 230.5,36.1 231.8,36.9 233.1,37.9 234.4,38.9 235.7,39.9 237.0,41.1 238.3,42.4 239.6,43.7 240.9,45.2 242.2,46.7 243.5,48.2 244.8,49.9 246.1,51.6 247.4,53.4 248.7,55.2 250.1,57.2 251.4,59.1 252.7,61.2 254.0,63.3 255.3,65.4 256.6,67.6 257.9,69.8 259.2,72.0 260.5,74.3 261.8,76.7 263.1,79.0 264.4,81.4 265.7,83.8 267.0,86.3 268.3,88.7 269.7,91.2 271.0,93.7 272.3,96.1 273.6,98.6 274.9,101.1 276.2,103.6 277.5,106.1 278.8,108.6 280.1,111.0 281.4,113.5 282.7,115.9 284.0,118.4 285.3,120.8 286.6,123.2 287.9,125.5 289.3,127.9 290.6,130.2 291.9,132.4 293.2,134.7 294.5,136.9 295.8,139.1 297.1,141.3 298.4,143.4 299.7,145.4 301.0,147.5 302.3,149.5 303.6,151.4 304.9,153.4 306.2,155.2 307.5,157.1 308.9,158.9 310.2,160.6 311.5,162.3 312.8,164.0 314.1,165.6 315.4,167.1 316.7,168.7 318.0,170.2 319.3,171.6 320.6,173.0 321.9,174.3 323.2,175.7 324.5,176.9 325.8,178.2 327.1,179.3 328.5,180.5 329.8,181.6 331.1,182.7 332.4,183.7 333.7,184.7 335.0,185.6 336.3,186.5 337.6,187.4 338.9,188.3 340.2,189.1 341.5,189.8 342.8,190.6 344.1,191.3 345.4,192.0 346.7,192.6 348.1,193.2 349.4,193.8 350.7,194.4 352.0,194.9 353.3,195.5 354.6,195.9 355.9,196.4 357.2,196.9 358.5,197.3 359.8,197.7 361.1,198.1 362.4,198.4 363.7,198.8 365.0,199.1 366.3,199.4 367.7,199.7 369.0,199.9 370.3,200.2 371.6,200.5 372.9,200.7 374.2,200.9 375.5,201.1 376.8,201.3 378.1,201.5 379.4,201.6 380.7,201.8 382.0,202.0 383.3,202.1 384.6,202.2 385.9,202.4 387.3,202.5 388.6,202.6 389.9,202.7 391.2,202.8 392.5,202.9 393.8,203.0 395.1,203.0 396.4,203.1 397.7,203.2 399.0,203.2 400.3,203.3 401.6,203.3 402.9,203.4 404.2,203.4 405.5,203.5 406.9,203.5 408.2,203.6 409.5,203.6 410.8,203.6 412.1,203.7 413.4,203.7 414.7,203.7 416.0,203.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><line x1=\"24\" y1=\"204\" x2=\"416\" y2=\"204\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"111.1\" y1=\"204\" x2=\"111.1\" y2=\"180.9\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"111.1\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">μ−2σ</text><line x1=\"165.6\" y1=\"204\" x2=\"165.6\" y2=\"100.3\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"165.6\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">μ−σ</text><line x1=\"220.0\" y1=\"204\" x2=\"220.0\" y2=\"33.0\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"220.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">μ</text><line x1=\"274.4\" y1=\"204\" x2=\"274.4\" y2=\"100.3\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"274.4\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">μ+σ</text><line x1=\"328.9\" y1=\"204\" x2=\"328.9\" y2=\"180.9\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"328.9\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">μ+2σ</text><line x1=\"383.3\" y1=\"204\" x2=\"383.3\" y2=\"202.1\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"383.3\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">μ+3σ</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela upp intervallet</p><div class=\"facit-matte\">\\[34{,}1+34{,}1+13{,}6+2{,}1=83{,}9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 83,9 %</p></div>",
+    "familj": "Andel i ett intervall",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dela upp intervallet i bitar om en standardavvikelse och addera deras andelar.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 83.9,
+    "tolerans": 0.3,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "4.2048",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "känna igen normalfördelat histogram",
+    "t": "<p>Vilket av histogrammen A, B och C visar ett material som kan vara normalfördelat? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"Histogram A: staplarna minskar från vänster till höger.\" style=\"width:100%;max-width:300px\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"54\" y1=\"150.0\" x2=\"282\" y2=\"150.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"125.6\" x2=\"282\" y2=\"125.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"101.2\" x2=\"282\" y2=\"101.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"76.8\" x2=\"282\" y2=\"76.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"52.4\" x2=\"282\" y2=\"52.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"28.0\" x2=\"282\" y2=\"28.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><rect x=\"54.0\" y=\"40.2\" width=\"38.0\" height=\"109.8\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"92.0\" y=\"64.6\" width=\"38.0\" height=\"85.4\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"130.0\" y=\"89.0\" width=\"38.0\" height=\"61.0\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"168.0\" y=\"113.4\" width=\"38.0\" height=\"36.6\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"206.0\" y=\"125.6\" width=\"38.0\" height=\"24.4\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"244.0\" y=\"137.8\" width=\"38.0\" height=\"12.2\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><line x1=\"54\" y1=\"150\" x2=\"282\" y2=\"150\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"54\" y1=\"150\" x2=\"54\" y2=\"20\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"54.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><text x=\"92.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"130.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"168.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"206.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"244.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"282.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"48.0\" y=\"129.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"48.0\" y=\"105.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"48.0\" y=\"80.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"48.0\" y=\"56.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"48.0\" y=\"32.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><text x=\"48.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\">Antal</text><text x=\"168.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">A</text></svg></span><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"Histogram B: symmetriskt med höga staplar i mitten och låga i kanterna.\" style=\"width:100%;max-width:300px\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"54\" y1=\"150.0\" x2=\"282\" y2=\"150.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"125.6\" x2=\"282\" y2=\"125.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"101.2\" x2=\"282\" y2=\"101.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"76.8\" x2=\"282\" y2=\"76.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"52.4\" x2=\"282\" y2=\"52.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"28.0\" x2=\"282\" y2=\"28.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><rect x=\"54.0\" y=\"137.8\" width=\"38.0\" height=\"12.2\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"92.0\" y=\"113.4\" width=\"38.0\" height=\"36.6\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"130.0\" y=\"52.4\" width=\"38.0\" height=\"97.6\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"168.0\" y=\"52.4\" width=\"38.0\" height=\"97.6\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"206.0\" y=\"113.4\" width=\"38.0\" height=\"36.6\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"244.0\" y=\"137.8\" width=\"38.0\" height=\"12.2\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><line x1=\"54\" y1=\"150\" x2=\"282\" y2=\"150\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"54\" y1=\"150\" x2=\"54\" y2=\"20\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"54.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><text x=\"92.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"130.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"168.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"206.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"244.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"282.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"48.0\" y=\"129.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"48.0\" y=\"105.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"48.0\" y=\"80.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"48.0\" y=\"56.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"48.0\" y=\"32.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><text x=\"48.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\">Antal</text><text x=\"168.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">B</text></svg></span><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"Histogram C: alla staplar är lika höga.\" style=\"width:100%;max-width:300px\"><rect x=\"1\" y=\"1\" width=\"298\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"54\" y1=\"150.0\" x2=\"282\" y2=\"150.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"125.6\" x2=\"282\" y2=\"125.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"101.2\" x2=\"282\" y2=\"101.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"76.8\" x2=\"282\" y2=\"76.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"52.4\" x2=\"282\" y2=\"52.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"54\" y1=\"28.0\" x2=\"282\" y2=\"28.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><rect x=\"54.0\" y=\"89.0\" width=\"38.0\" height=\"61.0\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"92.0\" y=\"89.0\" width=\"38.0\" height=\"61.0\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"130.0\" y=\"89.0\" width=\"38.0\" height=\"61.0\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"168.0\" y=\"89.0\" width=\"38.0\" height=\"61.0\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"206.0\" y=\"89.0\" width=\"38.0\" height=\"61.0\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><rect x=\"244.0\" y=\"89.0\" width=\"38.0\" height=\"61.0\" fill=\"#2f6fca\" fill-opacity=\"0.8\" stroke=\"#fff\" stroke-width=\"1.5\"/><line x1=\"54\" y1=\"150\" x2=\"282\" y2=\"150\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"54\" y1=\"150\" x2=\"54\" y2=\"20\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"54.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0</text><text x=\"92.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"130.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"168.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"206.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"244.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"282.0\" y=\"168.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"48.0\" y=\"129.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"48.0\" y=\"105.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"48.0\" y=\"80.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"48.0\" y=\"56.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"48.0\" y=\"32.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><text x=\"48.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\">Antal</text><text x=\"168.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">C</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kännetecken</p><p>Ett normalfördelat material är symmetriskt kring medelvärdet och har flest värden i mitten. Det stämmer på B.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> B</p></div>",
+    "familj": "Känna igen normalfördelat material",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Ett normalfördelat material är klockformat och symmetriskt.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "A",
+        "ratt": false,
+        "kommentar": "A är snedfördelat, med flest små värden."
+      },
+      {
+        "txt": "B",
+        "ratt": true,
+        "kommentar": "Symmetriskt och klockformat."
+      },
+      {
+        "txt": "C",
+        "ratt": false,
+        "kommentar": "C är jämnt fördelat, inte klockformat."
+      }
+    ]
+  },
+  {
+    "id": "4.2049",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "gräns för långsammaste andelen",
+    "t": "<p>Reaktionstiden i ett test är normalfördelad med medelvärdet 0,25 s och standardavvikelsen 0,04 s. Ungefär 97,7 % av deltagarna har en kortare tid än Noa. Vilken reaktionstid har Noa? (Svara i sekunder med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vilken gräns har 97,7 % under sig?</p><p>Under \\(\\mu+2\\sigma\\) ligger</p><div class=\"facit-matte\">\\[50\\ \\%+34{,}1\\ \\%+13{,}6\\ \\%=97{,}7\\ \\%\\]</div></li><li><p class=\"facit-rubrik\">Beräkna</p><div class=\"facit-matte\">\\[0{,}25+2\\cdot0{,}04=0{,}33\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,33 s</p></div>",
+    "familj": "Svansar och standardavvikelse",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många standardavvikelser över medelvärdet måste en tid ligga för att 97,7 % ska ligga under den?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.33,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "s"
+  },
+  {
+    "id": "4.2050",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "jämföra resultat i standardavvikelser",
+    "t": "<p>Lisa fick 78 poäng på ett prov där resultaten var normalfördelade med medelvärdet 70 och standardavvikelsen 4. Omar fick 85 poäng på ett annat prov med medelvärdet 75 och standardavvikelsen 10. Vem presterade bäst i förhållande till sin grupp? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antal standardavvikelser över medelvärdet</p><div class=\"facit-matte\">\\[\\begin{gathered}\\text{Lisa: }\\frac{78-70}{4}=2\\\\\\text{Omar: }\\frac{85-75}{10}=1\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Tolka</p><p>Lisa ligger två standardavvikelser över medelvärdet och slår ungefär 97,7 % av sin grupp. Omar slår ungefär 84 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lisa</p></div>",
+    "familj": "Svansar och standardavvikelse",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut hur många standardavvikelser över medelvärdet varje resultat ligger.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Omar, eftersom han fick flest poäng.",
+        "ratt": false,
+        "kommentar": "Proven har olika medelvärde och spridning."
+      },
+      {
+        "txt": "Lisa",
+        "ratt": true,
+        "kommentar": "Hon ligger 2 standardavvikelser över medelvärdet, Omar bara 1."
+      },
+      {
+        "txt": "De presterade lika bra.",
+        "ratt": false,
+        "kommentar": "Lisa ligger längre ut i fördelningen."
+      }
+    ]
+  },
+  {
+    "id": "4.2051",
+    "kap": 4,
+    "omr": "normalfordelat_material",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "största tillåtna standardavvikelse",
+    "t": "<p>En maskin fyller påsar med mjöl. Vikten är normalfördelad med medelvärdet 1 000 g. Högst 2,2 % av påsarna får väga mindre än 990 g. Hur stor får standardavvikelsen högst vara? (Svara i gram.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">2,2 % ligger under μ − 2σ</p><p>Gränsen 990 g ska alltså ligga minst två standardavvikelser under medelvärdet.</p></li><li><p class=\"facit-rubrik\">Lös</p><div class=\"facit-matte\">\\[1000-2\\sigma=990\\ \\Rightarrow\\ \\sigma=5\\]</div></li><li><p class=\"facit-rubrik\">Tolka</p><p>Om \\(\\sigma\\gt5\\) hamnar fler än 2,2 % under 990 g.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 g</p></div>",
+    "familj": "Svansar och standardavvikelse",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vilken gräns har 2,2 % av värdena under sig?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "g"
+  },
+  {
+    "id": "4.2052",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "välja r till punktdiagram",
+    "t": "<p>Vilket värde på korrelationskoefficienten \\(r\\) passar bäst till punktdiagrammet? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 280\" role=\"img\" aria-label=\"Punktdiagram där punkterna ligger nära en linje som lutar nedåt.\" style=\"width:100%;max-width:380px\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"79.0\" y1=\"22\" x2=\"79.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"22\" x2=\"110.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"141.0\" y1=\"22\" x2=\"141.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"172.0\" y1=\"22\" x2=\"172.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"203.0\" y1=\"22\" x2=\"203.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"234.0\" y1=\"22\" x2=\"234.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"265.0\" y1=\"22\" x2=\"265.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"296.0\" y1=\"22\" x2=\"296.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"327.0\" y1=\"22\" x2=\"327.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"358.0\" y1=\"22\" x2=\"358.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"238.0\" x2=\"358\" y2=\"238.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"216.4\" x2=\"358\" y2=\"216.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"194.8\" x2=\"358\" y2=\"194.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"173.2\" x2=\"358\" y2=\"173.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"151.6\" x2=\"358\" y2=\"151.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"130.0\" x2=\"358\" y2=\"130.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"108.4\" x2=\"358\" y2=\"108.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"86.8\" x2=\"358\" y2=\"86.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"65.2\" x2=\"358\" y2=\"65.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"43.6\" x2=\"358\" y2=\"43.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"358\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"238.0\" x2=\"368\" y2=\"238.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"372,238.0 362,233.0 362,243.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"238\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"370.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"56.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">y</text><text x=\"42.0\" y=\"198.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"155.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"112.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"69.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><text x=\"42.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kdf12976\"><rect x=\"48\" y=\"22\" width=\"310\" height=\"216\"/></clipPath><circle cx=\"79.0\" cy=\"39.3\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"110.0\" cy=\"63.0\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"141.0\" cy=\"73.8\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"172.0\" cy=\"104.1\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"203.0\" cy=\"110.6\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"234.0\" cy=\"143.0\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"265.0\" cy=\"149.4\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"296.0\" cy=\"181.8\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"327.0\" cy=\"190.5\" r=\"4.5\" fill=\"#2f6fca\"/><text x=\"110.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">2</text><text x=\"172.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">4</text><text x=\"234.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">6</text><text x=\"296.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">8</text><text x=\"358.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">10</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Riktning och styrka</p><p>Punkterna ligger nära en rät linje som lutar nedåt. Det ger ett negativt \\(r\\) nära \\(-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(r\\approx-0{,}95\\)</p></div>",
+    "familj": "Uppskatta r från diagram",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Lutar punkterna uppåt eller nedåt? Ligger de nära en linje?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "r ≈ 0,95",
+        "ratt": false,
+        "kommentar": "Positivt r betyder att punkterna lutar uppåt."
+      },
+      {
+        "txt": "r ≈ −0,3",
+        "ratt": false,
+        "kommentar": "Punkterna ligger för nära en linje för ett så svagt samband."
+      },
+      {
+        "txt": "r ≈ −0,95",
+        "ratt": true,
+        "kommentar": "Starkt negativt samband."
+      },
+      {
+        "txt": "r ≈ 0",
+        "ratt": false,
+        "kommentar": "Det finns ett tydligt samband."
+      }
+    ]
+  },
+  {
+    "id": "4.2053",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "korrelation och orsak",
+    "t": "<p>Under en sommar fanns ett starkt positivt samband mellan glassförsäljningen och antalet drunkningsolyckor per vecka. Vilken slutsats är rimligast? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Korrelation visar inte orsak</p><p>Både glassförsäljning och bad ökar när det är varmt. Värmen är en tredje faktor som påverkar båda.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Båda påverkas troligen av en tredje faktor, till exempel värme.</p></div>",
+    "familj": "Tolka och jämföra korrelationskoefficienter",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Kan något annat påverka både glassförsäljningen och antalet olyckor?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Glass gör att fler drunknar.",
+        "ratt": false,
+        "kommentar": "Ett samband visar inte att det ena orsakar det andra."
+      },
+      {
+        "txt": "Båda påverkas troligen av en tredje faktor, till exempel värme.",
+        "ratt": true,
+        "kommentar": "Varma veckor ger både mer glass och fler badande."
+      },
+      {
+        "txt": "Sambandet måste vara slumpmässigt.",
+        "ratt": false,
+        "kommentar": "Ett starkt samband under en hel sommar är knappast slump."
+      },
+      {
+        "txt": "Färre drunkningar skulle minska glassförsäljningen.",
+        "ratt": false,
+        "kommentar": "Det är samma felslut åt andra hållet."
+      }
+    ]
+  },
+  {
+    "id": "4.2054",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "r för svagt positivt samband",
+    "t": "<p>Vilket värde på korrelationskoefficienten beskriver ett svagt positivt samband? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tecken och storlek</p><p>Positivt samband ger \\(r\\gt0\\). Ett svagt samband ger ett värde nära 0. Av alternativen passar 0,3.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> r = 0,3</p></div>",
+    "familj": "Tolka och jämföra korrelationskoefficienter",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Tecknet visar riktningen och storleken visar styrkan.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "r = 0,95",
+        "ratt": false,
+        "kommentar": "Starkt positivt samband."
+      },
+      {
+        "txt": "r = −0,3",
+        "ratt": false,
+        "kommentar": "Svagt negativt samband."
+      },
+      {
+        "txt": "r = 0,3",
+        "ratt": true,
+        "kommentar": "Positivt och nära 0."
+      },
+      {
+        "txt": "r = −0,9",
+        "ratt": false,
+        "kommentar": "Starkt negativt samband."
+      }
+    ]
+  },
+  {
+    "id": "4.2055",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "tolka stark korrelation i studieresultat",
+    "t": "<p>För elever i en årskurs är korrelationskoefficienten mellan antal studietimmar och provresultat \\(r=0{,}82\\). Vilket påstående är korrekt? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vad r säger</p><p>\\(r=0{,}82\\) visar ett starkt positivt samband: elever som studerar mer har oftast högre resultat. Det visar inte att varje elev får bättre resultat av fler timmar, och inte heller orsaken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Elever som studerar mer har i allmänhet högre resultat.</p></div>",
+    "familj": "Tolka och jämföra korrelationskoefficienter",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Säger r något om varje enskild elev, eller om gruppen som helhet?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Fler studietimmar ger alltid högre resultat.",
+        "ratt": false,
+        "kommentar": "r beskriver ett mönster i gruppen, inte varje elev."
+      },
+      {
+        "txt": "82 % av eleverna studerar mycket.",
+        "ratt": false,
+        "kommentar": "r är ingen andel."
+      },
+      {
+        "txt": "Elever som studerar mer har i allmänhet högre resultat.",
+        "ratt": true,
+        "kommentar": "Ett starkt positivt samband."
+      },
+      {
+        "txt": "Det finns inget samband.",
+        "ratt": false,
+        "kommentar": "0,82 är ett starkt samband."
+      }
+    ]
+  },
+  {
+    "id": "4.2056",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "förutsägelse med regressionslinje",
+    "t": "<p>En plantas vikt \\(y\\) gram efter \\(x\\) dagar beskrivs av regressionslinjen \\(y=2{,}4x+15\\). Vilken vikt förutsäger modellen efter 10 dagar?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in x = 10</p><div class=\"facit-matte\">\\[y=2{,}4\\cdot10+15=39\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 39 g</p></div>",
+    "familj": "Bestämma och använda regressionsmodellen",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sätt in antalet dagar i modellen.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 39,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "g"
+  },
+  {
+    "id": "4.2057",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "tolka lutningen i en regressionsmodell",
+    "t": "<p>En plantas vikt \\(y\\) gram efter \\(x\\) dagar beskrivs av \\(y=2{,}4x+15\\). Vad betyder talet 2,4? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen är förändringen per enhet</p><p>När \\(x\\) ökar med 1 dag ökar \\(y\\) med 2,4 g enligt modellen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Plantan ökar i genomsnitt 2,4 g per dag.</p></div>",
+    "familj": "Tolka regressionsmodellen",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vad händer med y när x ökar med 1?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Plantan vägde 2,4 g från början.",
+        "ratt": false,
+        "kommentar": "Startvikten enligt modellen är 15 g."
+      },
+      {
+        "txt": "Plantan ökar i genomsnitt 2,4 g per dag.",
+        "ratt": true,
+        "kommentar": "Lutningen är ökningen per dag."
+      },
+      {
+        "txt": "Plantan väger 2,4 gånger så mycket varje dag.",
+        "ratt": false,
+        "kommentar": "En linjär modell beskriver ett tillägg, inte en faktor."
+      },
+      {
+        "txt": "Plantan växer i 2,4 dagar.",
+        "ratt": false,
+        "kommentar": "2,4 har enheten g per dag."
+      }
+    ]
+  },
+  {
+    "id": "4.2058",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "avvikelse från regressionslinjen",
+    "t": "<p>En plantas vikt \\(y\\) gram efter \\(x\\) dagar beskrivs av \\(y=2{,}4x+15\\). En planta vägde 47 g efter 12 dagar. Hur många gram mer vägde den än modellen förutsäger? (Svara med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modellens värde</p><div class=\"facit-matte\">\\[2{,}4\\cdot12+15=43{,}8\\]</div></li><li><p class=\"facit-rubrik\">Avvikelse</p><div class=\"facit-matte\">\\[47-43{,}8=3{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,2 g</p></div>",
+    "familj": "Bestämma och använda regressionsmodellen",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut modellens värde för 12 dagar och jämför med 47 g.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 3.2,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "g"
+  },
+  {
+    "id": "4.2059",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "lösa ut x ur regressionsmodell",
+    "t": "<p>Antalet besökare \\(y\\) per dag på en skridskobana beskrivs av \\(y=-8x+300\\), där \\(x\\) är dygnets medeltemperatur i °C. Modellen bygger på mätningar mellan −10 °C och 15 °C. Vid vilken temperatur förutsäger modellen 220 besökare? (Svara i °C.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ställ upp ekvationen</p><div class=\"facit-matte\">\\[-8x+300=220\\]</div></li><li><p class=\"facit-rubrik\">Lös</p><div class=\"facit-matte\">\\[-8x=-80\\ \\Rightarrow\\ x=10\\]</div></li><li><p class=\"facit-rubrik\">Rimlighet</p><p>10 °C ligger inom de uppmätta temperaturerna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 °C</p></div>",
+    "familj": "Bestämma och använda regressionsmodellen",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sätt y = 220 och lös ut x.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°C"
+  },
+  {
+    "id": "4.2060",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "modellens giltighet långt utanför mätvärdena",
+    "t": "<p>Antalet besökare \\(y\\) per dag på en skridskobana beskrivs av \\(y=-8x+300\\), där \\(x\\) är dygnets medeltemperatur i °C. Modellen bygger på mätningar mellan −10 °C och 15 °C. Vad ger modellen vid 40 °C, och hur ska resultatet bedömas? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modellens värde</p><div class=\"facit-matte\">\\[-8\\cdot40+300=-20\\]</div></li><li><p class=\"facit-rubrik\">Bedömning</p><p>Ett negativt antal besökare är omöjligt. 40 °C ligger långt utanför mätvärdena, där modellen inte är prövad.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −20 besökare, vilket visar att modellen inte gäller där.</p></div>",
+    "familj": "Tolka regressionsmodellen",
+    "formaga": [
+      "resonemang",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna ut modellens värde. Är det möjligt? Vilka temperaturer bygger modellen på?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "20 besökare, ett rimligt värde.",
+        "ratt": false,
+        "kommentar": "Räkna igen: −8 · 40 + 300 = −20."
+      },
+      {
+        "txt": "−20 besökare, vilket visar att modellen inte gäller där.",
+        "ratt": true,
+        "kommentar": "40 °C ligger långt utanför mätvärdena."
+      },
+      {
+        "txt": "−20 besökare, så banan bör stänga vid 40 °C.",
+        "ratt": false,
+        "kommentar": "Ett negativt antal är inte möjligt. Modellen gäller inte där."
+      },
+      {
+        "txt": "300 besökare, eftersom m = 300.",
+        "ratt": false,
+        "kommentar": "m är värdet vid 0 °C."
+      }
+    ]
   }
 ];

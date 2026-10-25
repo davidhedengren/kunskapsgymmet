@@ -215207,5 +215207,183 @@ window.BANK = [
   "rättSvar": 200.0,
   "tolerans": 0,
   "svarEnhet": "N/C"
+},
+{
+  "id": "8.667",
+  "kap": 8,
+  "omr": "strom",
+  "niva": "C",
+  "typ": "resistans och ström ur ett U–I-diagram",
+  "poang": "(0/1/0)",
+  "t": "<p>Diagrammet visar spänningen över två resistorer A och B som funktion av strömmen genom dem.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"300\" viewBox=\"0 0 460 300\" role=\"img\" aria-label=\"U-I-diagram för två komponenter. Linjen A går genom origo och punkten 0,30 A, 12 V. Linjen B går genom origo och punkten 0,60 A, 9 V.\"><title>U-I-diagram för två komponenter. Linjen A går genom origo och punkten 0,30 A, 12 V. Linjen B går genom origo och punkten 0,60 A, 9 V.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"64.0\" y1=\"32\" x2=\"64.0\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"64.0\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"125.0\" y1=\"32\" x2=\"125.0\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"125.0\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,1</text><line x1=\"186.0\" y1=\"32\" x2=\"186.0\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"186.0\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,2</text><line x1=\"247.0\" y1=\"32\" x2=\"247.0\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"247.0\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,3</text><line x1=\"308.0\" y1=\"32\" x2=\"308.0\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"308.0\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,4</text><line x1=\"369.0\" y1=\"32\" x2=\"369.0\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"369.0\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,5</text><line x1=\"430.0\" y1=\"32\" x2=\"430.0\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"430.0\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0,6</text><line x1=\"64\" y1=\"246.0\" x2=\"430\" y2=\"246.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"250.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"64\" y1=\"210.3\" x2=\"430\" y2=\"210.3\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"214.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"64\" y1=\"174.7\" x2=\"430\" y2=\"174.7\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"178.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"64\" y1=\"139.0\" x2=\"430\" y2=\"139.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"143.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"64\" y1=\"103.3\" x2=\"430\" y2=\"103.3\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"107.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">8</text><line x1=\"64\" y1=\"67.7\" x2=\"430\" y2=\"67.7\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"71.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"64\" y1=\"32.0\" x2=\"430\" y2=\"32.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">12</text><line x1=\"64\" y1=\"246\" x2=\"436\" y2=\"246\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"64\" y1=\"246\" x2=\"64\" y2=\"26\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"247.0\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">ström I (A)</text><text x=\"60.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#243447\" font-weight=\"bold\">spänning U (V)</text><line x1=\"64.0\" y1=\"246.0\" x2=\"247.0\" y2=\"32.0\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><text x=\"222.7\" y=\"53.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">A</text><line x1=\"64.0\" y1=\"246.0\" x2=\"430.0\" y2=\"85.5\" stroke=\"#216d87\" stroke-width=\"2.6\"/><text x=\"399.5\" y=\"88.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">B</text></svg></span><p>a) Vilken resistans har A?<br>b) Hur stor ström går genom B när spänningen över den är 6,0 V? (Svara i Ω och A.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Linjerna går genom origo, så resistorerna följer Ohms lag. Resistansen är lutningen \\(R=\\dfrac UI\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_A=\\frac{12\\ \\mathrm V}{0{,}30\\ \\mathrm A}=40\\ \\Omega\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}R_B=\\frac{9{,}0\\ \\mathrm V}{0{,}60\\ \\mathrm A}=15\\ \\Omega,\\\\I=\\frac{6{,}0}{15}\\ \\mathrm A=0{,}40\\ \\mathrm A\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) 40 Ω b) 0,40 A</p></div>",
+  "familj": "Ström och laddning i kretsar",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Läs av en tydlig punkt på varje linje. Resistansen är spänningen delad med strömmen.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "familjNyckel": "kretsar__ohms_lag",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    40.0,
+    0.4
+  ],
+  "tolerans": [
+    0.5,
+    0.005
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "Ω",
+    "A"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a) R för A",
+    "b) I genom B"
+  ]
+},
+{
+  "id": "8.668",
+  "kap": 8,
+  "omr": "strom",
+  "niva": "C",
+  "typ": "glödlampans resistans vid två spänningar",
+  "poang": "(0/1/0)",
+  "t": "<p>Diagrammet visar strömmen genom en glödlampa som funktion av spänningen. Två punkter på kurvan är markerade.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"300\" viewBox=\"0 0 460 300\" role=\"img\" aria-label=\"I-U-diagram för en glödlampa. Kurvan stiger allt långsammare. Markerade punkter: 2,0 V och 0,25 A samt 6,0 V och 0,40 A.\"><title>I-U-diagram för en glödlampa. Kurvan stiger allt långsammare. Markerade punkter: 2,0 V och 0,25 A samt 6,0 V och 0,40 A.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"64.0\" y1=\"32\" x2=\"64.0\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"64.0\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"116.3\" y1=\"32\" x2=\"116.3\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"116.3\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"168.6\" y1=\"32\" x2=\"168.6\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"168.6\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"220.9\" y1=\"32\" x2=\"220.9\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"220.9\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"273.1\" y1=\"32\" x2=\"273.1\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"273.1\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"325.4\" y1=\"32\" x2=\"325.4\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"325.4\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"377.7\" y1=\"32\" x2=\"377.7\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"377.7\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"430.0\" y1=\"32\" x2=\"430.0\" y2=\"246\" stroke=\"#e3e8ee\"/><text x=\"430.0\" y=\"264.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"64\" y1=\"246.0\" x2=\"430\" y2=\"246.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"250.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"64\" y1=\"224.6\" x2=\"430\" y2=\"224.6\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"228.6\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,05</text><line x1=\"64\" y1=\"203.2\" x2=\"430\" y2=\"203.2\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"207.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,1</text><line x1=\"64\" y1=\"181.8\" x2=\"430\" y2=\"181.8\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"185.8\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,15</text><line x1=\"64\" y1=\"160.4\" x2=\"430\" y2=\"160.4\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"164.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,2</text><line x1=\"64\" y1=\"139.0\" x2=\"430\" y2=\"139.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"143.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,25</text><line x1=\"64\" y1=\"117.6\" x2=\"430\" y2=\"117.6\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"121.6\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,3</text><line x1=\"64\" y1=\"96.2\" x2=\"430\" y2=\"96.2\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"100.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,35</text><line x1=\"64\" y1=\"74.8\" x2=\"430\" y2=\"74.8\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"78.8\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,4</text><line x1=\"64\" y1=\"53.4\" x2=\"430\" y2=\"53.4\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"57.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,45</text><line x1=\"64\" y1=\"32.0\" x2=\"430\" y2=\"32.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0,5</text><line x1=\"64\" y1=\"246\" x2=\"436\" y2=\"246\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"64\" y1=\"246\" x2=\"64\" y2=\"26\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"247.0\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">spänning U (V)</text><text x=\"60.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#243447\" font-weight=\"bold\">ström I (A)</text><polyline points=\"64.0,246.0 65.0,231.1 66.9,223.0 68.7,217.6 70.5,213.4 72.3,209.7 74.2,206.5 76.0,203.6 77.8,201.0 79.6,198.5 81.5,196.2 83.3,194.1 85.1,192.0 86.9,190.1 88.8,188.2 90.6,186.4 92.4,184.7 94.2,183.1 96.1,181.5 97.9,179.9 99.7,178.4 101.5,177.0 103.4,175.6 105.2,174.2 107.0,172.8 108.8,171.5 110.7,170.2 112.5,169.0 114.3,167.8 116.1,166.6 118.0,165.4 119.8,164.2 121.6,163.1 123.4,162.0 125.3,160.9 127.1,159.8 128.9,158.7 130.7,157.7 132.6,156.7 134.4,155.7 136.2,154.7 138.0,153.7 139.9,152.7 141.7,151.8 143.5,150.8 145.3,149.9 147.2,149.0 149.0,148.1 150.8,147.2 152.6,146.3 154.5,145.4 156.3,144.6 158.1,143.7 159.9,142.9 161.8,142.0 163.6,141.2 165.4,140.4 167.2,139.6 169.1,138.8 170.9,138.0 172.7,137.2 174.5,136.4 176.4,135.7 178.2,134.9 180.0,134.1 181.8,133.4 183.7,132.7 185.5,131.9 187.3,131.2 189.1,130.5 191.0,129.7 192.8,129.0 194.6,128.3 196.4,127.6 198.3,126.9 200.1,126.2 201.9,125.6 203.7,124.9 205.6,124.2 207.4,123.5 209.2,122.9 211.0,122.2 212.9,121.6 214.7,120.9 216.5,120.3 218.3,119.6 220.2,119.0 222.0,118.3 223.8,117.7 225.6,117.1 227.5,116.5 229.3,115.9 231.1,115.2 232.9,114.6 234.7,114.0 236.6,113.4 238.4,112.8 240.2,112.2 242.0,111.6 243.9,111.1 245.7,110.5 247.5,109.9 249.3,109.3 251.2,108.7 253.0,108.2 254.8,107.6 256.6,107.0 258.5,106.5 260.3,105.9 262.1,105.4 263.9,104.8 265.8,104.3 267.6,103.7 269.4,103.2 271.2,102.6 273.1,102.1 274.9,101.5 276.7,101.0 278.5,100.5 280.4,100.0 282.2,99.4 284.0,98.9 285.8,98.4 287.7,97.9 289.5,97.4 291.3,96.8 293.1,96.3 295.0,95.8 296.8,95.3 298.6,94.8 300.4,94.3 302.3,93.8 304.1,93.3 305.9,92.8 307.7,92.3 309.6,91.8 311.4,91.3 313.2,90.9 315.0,90.4 316.9,89.9 318.7,89.4 320.5,88.9 322.3,88.4 324.2,88.0 326.0,87.5 327.8,87.0 329.6,86.6 331.5,86.1 333.3,85.6 335.1,85.2 336.9,84.7 338.8,84.2 340.6,83.8 342.4,83.3 344.2,82.9 346.1,82.4 347.9,82.0 349.7,81.5 351.5,81.1 353.4,80.6 355.2,80.2 357.0,79.7 358.8,79.3 360.7,78.8 362.5,78.4 364.3,78.0 366.1,77.5 368.0,77.1 369.8,76.7 371.6,76.2 373.4,75.8 375.3,75.4 377.1,74.9 378.9,74.5 380.7,74.1 382.6,73.7 384.4,73.3 386.2,72.8 388.0,72.4 389.9,72.0 391.7,71.6 393.5,71.2 395.3,70.8 397.2,70.3 399.0,69.9 400.8,69.5 402.6,69.1 404.5,68.7 406.3,68.3 408.1,67.9 409.9,67.5 411.8,67.1 413.6,66.7 415.4,66.3 417.2,65.9 419.1,65.5 420.9,65.1 422.7,64.7 424.5,64.3 426.4,63.9 428.2,63.5 430.0,63.1\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><circle cx=\"168.6\" cy=\"139.0\" r=\"5\" fill=\"#216d87\"/><line x1=\"168.6\" y1=\"139.0\" x2=\"168.6\" y2=\"246.0\" stroke=\"#216d87\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><line x1=\"64.0\" y1=\"139.0\" x2=\"168.6\" y2=\"139.0\" stroke=\"#216d87\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><circle cx=\"377.7\" cy=\"74.8\" r=\"5\" fill=\"#216d87\"/><line x1=\"377.7\" y1=\"74.8\" x2=\"377.7\" y2=\"246.0\" stroke=\"#216d87\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><line x1=\"64.0\" y1=\"74.8\" x2=\"377.7\" y2=\"74.8\" stroke=\"#216d87\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/></svg></span><p>Hur många gånger större är lampans resistans vid 6,0 V än vid 2,0 V? (Svara med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kurvan är inte rak, så lampan följer inte Ohms lag. Resistansen \\(R=\\dfrac UI\\) måste beräknas i varje punkt för sig.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}R_{2\\,\\mathrm V}=\\frac{2{,}0}{0{,}25}\\ \\Omega=8{,}0\\ \\Omega,\\\\R_{6\\,\\mathrm V}=\\frac{6{,}0}{0{,}40}\\ \\Omega=15\\ \\Omega\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{15}{8{,}0}\\approx1{,}9\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Glödtråden blir varmare när strömmen ökar, och resistansen hos en metall ökar med temperaturen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,9 gånger större.</p></div>",
+  "familj": "Ström och laddning i kretsar",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Räkna ut \\(R=\\dfrac UI\\) i båda punkterna.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "familjNyckel": "kretsar__ohms_lag",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.875,
+  "tolerans": 0.05,
+  "svarEnhet": ""
+},
+{
+  "id": "8.669",
+  "kap": 8,
+  "omr": "strom",
+  "niva": "C",
+  "typ": "tid för en mol elektroner",
+  "poang": "(0/1/0)",
+  "t": "<p>Strömmen i en ledning är 2,0 A. Hur lång tid tar det för en mol elektroner att passera ett tvärsnitt av ledningen? (Svara i timmar med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En mol elektroner är Avogadros tal elektroner. Laddningen är antalet gånger elementarladdningen, och tiden fås ur \\(I=\\dfrac Qt\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}Q =6{,}022\\cdot10^{23}\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm C\\\\\\approx9{,}65\\cdot10^{4}\\ \\mathrm C\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}t =\\frac{Q}{I} =\\frac{9{,}65\\cdot10^{4}}{2{,}0}\\ \\mathrm s \\approx4{,}8\\cdot10^{4}\\ \\mathrm s\\\\\\approx13\\ \\mathrm h\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 13 timmar.</p></div>",
+  "familj": "Ström och laddningsmängd",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur stor laddning har en mol elektroner? Avogadros tal och elementarladdningen finns i formelsamlingen.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 13.39895,
+  "tolerans": 0.5,
+  "svarEnhet": "h"
+},
+{
+  "id": "8.670",
+  "kap": 8,
+  "omr": "strom",
+  "niva": "C",
+  "typ": "voltmeter kopplad i serie med en lampa",
+  "poang": "(0/1/0)",
+  "t": "<p>En elev ska mäta spänningen över en lampa men kopplar av misstag voltmetern i serie med lampan, till ett batteri på 9,0 V. Vad händer? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En voltmeter har mycket stor resistans. I serie med lampan gör den att nästan ingen ström går i kretsen, så lampan lyser inte.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Nästan hela batteriets spänning ligger då över voltmetern, eftersom den har nästan hela kretsens resistans. Voltmetern visar ungefär 9 V.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lampan lyser inte och voltmetern visar ungefär 9 V.</p></div>",
+  "familj": "Kretsar och mätinstrument",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Är en voltmeters resistans stor eller liten? Hur delas spänningen i en seriekoppling?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "familjNyckel": "kopplingar__kretsanalys_och_blandade_resistorkopplingar",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Lampan lyser som vanligt och voltmetern visar lampans spänning",
+      "ratt": false,
+      "kommentar": "Voltmeterns stora resistans hindrar strömmen."
+    },
+    {
+      "txt": "Voltmetern går sönder, eftersom för stor ström går genom den",
+      "ratt": false,
+      "kommentar": "Det gäller en amperemeter kopplad parallellt, inte en voltmeter i serie."
+    },
+    {
+      "txt": "Lampan lyser inte, och voltmetern visar nästan batteriets spänning, 9 V",
+      "ratt": true
+    },
+    {
+      "txt": "Lampan lyser starkare, eftersom voltmetern hjälper strömmen",
+      "ratt": false,
+      "kommentar": "En voltmeter i serie minskar strömmen kraftigt."
+    }
+  ]
+},
+{
+  "id": "8.671",
+  "kap": 8,
+  "omr": "strom",
+  "niva": "C",
+  "typ": "resistans ur ändringen i spänning och ström",
+  "poang": "(0/1/0)",
+  "t": "<p>När spänningen över en resistor ökar med 3,0 V ökar strömmen genom den med 0,15 A. Resistorn följer Ohms lag. Hur stor är resistansen? (Svara i Ω.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">För en resistor som följer Ohms lag är spänningen proportionell mot strömmen, \\(U=RI\\). Då gäller samma samband för ändringarna: \\(\\Delta U=R\\,\\Delta I\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{\\Delta U}{\\Delta I}=\\frac{3{,}0}{0{,}15}\\ \\Omega=20\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 20 Ω.</p></div>",
+  "familj": "Ström och laddning i kretsar",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Om \\(U=RI\\), hur mycket ändras U när I ändras med \\(\\Delta I\\)?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "familjNyckel": "kretsar__ohms_lag",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 20.0,
+  "tolerans": 0,
+  "svarEnhet": "Ω"
 }
 ];

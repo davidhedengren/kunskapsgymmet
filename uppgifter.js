@@ -212090,7 +212090,7 @@ window.BANK = [
   "niva": "C",
   "typ": "energi vid beta-plus med elektronkorrektion",
   "poang": "(0/1/0)",
-  "t": "<p>Kväve-13 beta-plus-sönderfaller till kol-13. De neutrala atommassorna är 13,005739 u och 13,003355 u. Elektronens massa är 0,000549 u. Hur mycket energi frigörs? (Svara i MeV med två decimaler.)</p>",
+  "t": "<p>Kväve-13 beta-plus-sönderfaller till kol-13. De neutrala atommassorna är 13,005739 u och 13,003355 u. Hur mycket energi frigörs? (Svara i MeV med två decimaler.)</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-plus-sönderfall ska två elektronmassor dras bort när man räknar med atommassor. Dotteratomen har en elektron för mycket, och dessutom skapas en positron.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m\\\\=13{,}005739\\\\-13{,}003355-2\\cdot0{,}000549\\\\=0{,}001286\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =0{,}001286\\cdot931{,}5\\ \\mathrm{MeV}\\\\\\approx1{,}20\\ \\mathrm{MeV}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,20 MeV.</p></div>",
   "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
   "formaga": [
@@ -215816,6 +215816,204 @@ window.BANK = [
       "txt": "Vinkelrätt mot fältet",
       "ratt": false,
       "kommentar": "Kraften är parallell med fältet."
+    }
+  ]
+},
+{
+  "id": "9.582",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "C",
+  "typ": "antal alfa- och betasönderfall i en serie",
+  "poang": "(0/1/0)",
+  "t": "<p>Torium-232 (atomnummer 90) sönderfaller i flera steg till den stabila kärnan bly-208 (atomnummer 82). I serien sker bara alfasönderfall och beta-minus-sönderfall.</p><p>Hur många alfasönderfall och hur många beta-minus-sönderfall sker? (Svara med två heltal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bara alfasönderfall ändrar masstalet, med 4 varje gång. Masstalet minskar från 232 till 208.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\text{antal alfa}=\\frac{232-208}{4}=6\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Sex alfasönderfall minskar atomnumret med \\(6\\cdot2=12\\), alltså till 78. Varje beta-minus-sönderfall ökar atomnumret med 1, och slutet ska vara 82.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\text{antal beta-minus}=82-78=4\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6 alfasönderfall och 4 beta-minus-sönderfall.</p></div>",
+  "familj": "Beta-minus-sönderfall",
+  "familjNyckel": "karnreaktioner__beta_minus_sonderfall",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Börja med masstalet: vilket sönderfall ändrar det? Räkna sedan atomnumret.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    6,
+    4
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "",
+    ""
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Alfa",
+    "Beta-minus"
+  ]
+},
+{
+  "id": "9.583",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "C",
+  "typ": "gammafotonens våglängd",
+  "poang": "(0/1/0)",
+  "t": "<p>När cesium-137 har beta-sönderfallit hamnar dotterkärnan barium-137 i ett exciterat tillstånd. När kärnan går till grundtillståndet sänds en gammafoton ut med energin 0,662 MeV. Hur stor är fotonens våglängd? (Svara i pm med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Gammafotonen bär energiskillnaden mellan kärnans tillstånd. Gör om energin till joule och använd \\(\\lambda=\\dfrac{hc}{E}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =0{,}662\\cdot1{,}602\\cdot10^{-13}\\ \\mathrm J\\\\\\approx1{,}06\\cdot10^{-13}\\ \\mathrm J\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda =\\frac{6{,}626\\cdot10^{-34}\\cdot2{,}998\\cdot10^{8}}{1{,}06\\cdot10^{-13}}\\ \\mathrm m\\\\\\approx1{,}87\\cdot10^{-12}\\ \\mathrm m =1{,}87\\ \\mathrm{pm}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid gammastrålning ändras varken masstal eller atomnummer, bara kärnans energi.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,87 pm.</p></div>",
+  "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
+  "familjNyckel": "karnreaktioner__beta_plus_sonderfall",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Gör om MeV till joule. Konstanterna finns i formelsamlingen.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.87310687924,
+  "tolerans": 0.01,
+  "svarEnhet": "pm"
+},
+{
+  "id": "9.584",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "C",
+  "typ": "när bara elektroninfångning är möjlig",
+  "poang": "(0/1/0)",
+  "t": "<p>En moderatom har en atommassa som bara är 0,00080 u större än dotteratomens. Moderkärnan har för få neutroner. Vilket sönderfall kan ske? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-plus-sönderfall måste moderatomen vara minst två elektronmassor tyngre än dotteratomen, eftersom en positron skapas och en elektron blir över i atomen. Två elektronmassor är ungefär 0,0011 u.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Här är skillnaden bara 0,00080 u, så beta-plus-sönderfall är omöjligt. Elektroninfångning kräver bara att moderatomen är tyngre, så den kan ske.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bara elektroninfångning.</p></div>",
+  "familj": "Beta-plus-sönderfall, elektroninfångning och gamma",
+  "familjNyckel": "karnreaktioner__beta_plus_sonderfall",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur stor massskillnad krävs för beta-plus-sönderfall? Jämför med två elektronmassor från formelsamlingen.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Bara beta-plus-sönderfall",
+      "ratt": false,
+      "kommentar": "Massskillnaden är mindre än två elektronmassor."
+    },
+    {
+      "txt": "Beta-minus-sönderfall",
+      "ratt": false,
+      "kommentar": "Kärnan har för få neutroner, inte för många."
+    },
+    {
+      "txt": "Både beta-plus-sönderfall och elektroninfångning",
+      "ratt": false,
+      "kommentar": "Beta-plus kräver minst cirka 0,0011 u i massskillnad."
+    },
+    {
+      "txt": "Bara elektroninfångning",
+      "ratt": true
+    }
+  ]
+},
+{
+  "id": "9.585",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "C",
+  "typ": "tritiums sönderfallsenergi i keV",
+  "poang": "(0/1/0)",
+  "t": "<p>Tritium (väte-3) beta-minus-sönderfaller till helium-3. De neutrala atommassorna är 3,016049 u och 3,016029 u. Hur mycket energi frigörs? (Svara i keV, avrundat till heltal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus-sönderfall kan man räkna direkt med de neutrala atommassorna, eftersom elektronerna tar ut varandra. Massminskningen omvandlas till energi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m =3{,}016049-3{,}016029\\\\=0{,}000020\\ \\mathrm u\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =0{,}000020\\cdot931{,}5\\ \\mathrm{MeV}\\\\\\approx0{,}019\\ \\mathrm{MeV} =19\\ \\mathrm{keV}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin är mycket liten. Därför används tritium i självlysande skyltar och klockor, där strålningen inte ens tar sig ut genom glaset.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 19 keV.</p></div>",
+  "familj": "Beta-minus-sönderfall",
+  "familjNyckel": "karnreaktioner__beta_minus_sonderfall",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Räkna massminskningen i u och gör om till MeV och keV.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 18.6300000001,
+  "tolerans": 0.5,
+  "svarEnhet": "keV"
+},
+{
+  "id": "9.586",
+  "kap": 9,
+  "omr": "sonderfall",
+  "niva": "C",
+  "typ": "sönderfallstyp ur ett N–Z-diagram",
+  "poang": "(0/1/0)",
+  "t": "<p>Diagrammet visar var de stabila kärnorna ligger när antalet neutroner N avsätts mot antalet protoner Z. Kärnan X är instabil.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"320\" viewBox=\"0 0 470 320\" role=\"img\" aria-label=\"Diagram med antal neutroner mot antal protoner. Ett grönt band visar de stabila kärnorna, som ligger något ovanför linjen N = Z. Kärnan X med 30 protoner och 45 neutroner ligger klart ovanför bandet.\"><title>Diagram med antal neutroner mot antal protoner. Ett grönt band visar de stabila kärnorna, som ligger något ovanför linjen N = Z. Kärnan X med 30 protoner och 45 neutroner ligger klart ovanför bandet.</title><rect x=\"1\" y=\"1\" width=\"468\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><text x=\"60.0\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><text x=\"121.7\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><text x=\"183.3\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">20</text><text x=\"245.0\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">30</text><text x=\"306.7\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">40</text><text x=\"368.3\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">50</text><text x=\"430.0\" y=\"288.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">60</text><line x1=\"60\" y1=\"270.0\" x2=\"430\" y2=\"270.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"274.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"60\" y1=\"243.3\" x2=\"430\" y2=\"243.3\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"247.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"60\" y1=\"216.7\" x2=\"430\" y2=\"216.7\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"220.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"60\" y1=\"190.0\" x2=\"430\" y2=\"190.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">30</text><line x1=\"60\" y1=\"163.3\" x2=\"430\" y2=\"163.3\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"167.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">40</text><line x1=\"60\" y1=\"136.7\" x2=\"430\" y2=\"136.7\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"140.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">50</text><line x1=\"60\" y1=\"110.0\" x2=\"430\" y2=\"110.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"114.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">60</text><line x1=\"60\" y1=\"83.3\" x2=\"430\" y2=\"83.3\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"87.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">70</text><line x1=\"60\" y1=\"56.7\" x2=\"430\" y2=\"56.7\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"60.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">80</text><line x1=\"60\" y1=\"30.0\" x2=\"430\" y2=\"30.0\" stroke=\"#e3e8ee\"/><text x=\"53.0\" y=\"34.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">90</text><line x1=\"60\" y1=\"270\" x2=\"436\" y2=\"270\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"60\" y1=\"270\" x2=\"60\" y2=\"24\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"245.0\" y=\"308.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">antal protoner Z</text><text x=\"56.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#243447\" font-weight=\"bold\">antal neutroner N</text><polyline points=\"60.0,270.0 72.3,264.6 84.7,259.1 97.0,253.4 109.3,247.6 121.7,241.6 134.0,235.5 146.3,229.3 158.7,222.9 171.0,216.4 183.3,209.7 195.7,202.9 208.0,196.0 220.3,188.9 232.7,181.7 245.0,174.4 257.3,166.9 269.7,159.3 282.0,151.5 294.3,143.6 306.7,135.6 319.0,127.4 331.3,119.1 343.7,110.7 356.0,102.1 368.3,93.3 380.7,84.5 393.0,75.5 405.3,66.3 417.7,57.0 430.0,47.6\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"9\" opacity=\"0.35\" stroke-linecap=\"round\"/><line x1=\"60.0\" y1=\"270.0\" x2=\"430.0\" y2=\"110.0\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><text x=\"423.8\" y=\"155.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">N = Z</text><line x1=\"72.3\" y1=\"70.0\" x2=\"97.0\" y2=\"70.0\" stroke=\"#2f7d4a\" stroke-width=\"9\" opacity=\"0.35\" stroke-linecap=\"round\"/><text x=\"106.2\" y=\"74.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">stabila kärnor</text><circle cx=\"245.0\" cy=\"150.0\" r=\"6\" fill=\"#c2410c\"/><text x=\"233.0\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">X</text></svg></span><p>Vilket sönderfall är mest troligt för X? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">X ligger ovanför stabilitetsbandet, alltså har den för många neutroner i förhållande till protonerna.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Vid beta-minus-sönderfall omvandlas en neutron till en proton och en elektron. Då minskar N med 1 och Z ökar med 1, och kärnan flyttas mot bandet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Beta-minus-sönderfall.</p></div>",
+  "familj": "Beta-minus-sönderfall",
+  "familjNyckel": "karnreaktioner__beta_minus_sonderfall",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Har X för många neutroner eller för många protoner? Vilket sönderfall gör en neutron till en proton?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Beta-plus-sönderfall",
+      "ratt": false,
+      "kommentar": "Det passar kärnor med för många protoner, under bandet."
+    },
+    {
+      "txt": "Gammastrålning",
+      "ratt": false,
+      "kommentar": "Gammastrålning ändrar inte N eller Z."
+    },
+    {
+      "txt": "Beta-minus-sönderfall",
+      "ratt": true
+    },
+    {
+      "txt": "Elektroninfångning",
+      "ratt": false,
+      "kommentar": "Elektroninfångning gör en proton till en neutron, vilket flyttar X längre från bandet."
     }
   ]
 }

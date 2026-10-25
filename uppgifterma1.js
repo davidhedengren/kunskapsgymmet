@@ -165414,6 +165414,1026 @@ window.BANKMA1 = [
     "svarFormat": "numeriskt",
     "rättSvar": -0.766664696,
     "tolerans": 0.05
+  },
+  {
+    "id": "5.665",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "baklänges från ett stratifierat urval",
+    "t": "<p>En gymnasieskola med 1 500 elever gör ett stratifierat urval på 75 elever, där varje program är med i proportion till sin storlek. I urvalet finns 30 elever från naturvetenskapsprogrammet och 27 från samhällsvetenskapsprogrammet. Resten kommer från teknikprogrammet. Hur många elever går teknikprogrammet på skolan?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Hur stor del av skolan ingår i urvalet?</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{75}{1500}=\\frac1{20}\\]</div></li><li><p><strong>Teknikelever i urvalet</strong></p></li><li><div class=\"facit-matte\">\\[75-30-27=18\\]</div></li><li><p><strong>Varje elev i urvalet motsvarar 20 elever på skolan</strong></p></li><li><div class=\"facit-matte\">\\[18\\cdot20=360\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 360 elever</p></div>",
+    "familj": "Bedöma urval och representativitet",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur stor andel av skolans elever ingår i urvalet? Samma andel gäller för varje program.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 360,
+    "tolerans": 0,
+    "svarEnhet": "elever"
+  },
+  {
+    "id": "5.666",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "bortfall ger ett intervall",
+    "t": "<p>En förening har 400 medlemmar och skickar en enkät till alla. 250 svarar, och 150 av dem vill flytta årsmötet till en lördag. De som inte svarade kan tycka vad som helst. Mellan vilka värden ligger andelen av alla medlemmar som vill flytta årsmötet? (Svara i procent.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Antal som inte svarade</strong></p></li><li><div class=\"facit-matte\">\\[400-250=150\\]</div></li><li><p><strong>Minst: ingen av dem som inte svarade vill flytta</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{150}{400}=0{,}375=37{,}5\\,\\%\\]</div></li><li><p><strong>Högst: alla som inte svarade vill flytta</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{150+150}{400}=0{,}75=75\\,\\%\\]</div></li><li><p>Bortfallet gör att man bara vet att andelen ligger mellan dessa gränser. Bland dem som svarade är andelen 60 %, men det säger inget säkert om bortfallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mellan 37,5 % och 75 %.</p></div>",
+    "familj": "Bedöma urval och representativitet",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna först med att ingen av dem som inte svarade vill flytta, och sedan med att alla vill det.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      37.5,
+      75
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Minst",
+      "Högst"
+    ],
+    "svarEnhet": [
+      "%",
+      "%"
+    ]
+  },
+  {
+    "id": "5.667",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "systematiskt urval med startnummer",
+    "t": "<p>Ett företag har ett kundregister med 2 400 kunder, numrerade från 1 till 2 400. Man gör ett systematiskt urval på 120 kunder. Startnumret lottas fram och blir 7. Därefter väljs kunder med jämna steg i listan. Vilket kundnummer har den 50:e kunden i urvalet?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Steglängd i listan</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{2400}{120}=20\\]</div></li><li><p><strong>Den 50:e kunden ligger 49 steg efter startnumret</strong></p></li><li><div class=\"facit-matte\">\\[7+49\\cdot20=987\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kund nummer 987.</p></div>",
+    "familj": "Känna igen urvalsmetoder",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur många kunder hoppar man fram varje gång? Den första kunden är nummer 7, så den 50:e ligger 49 steg längre fram.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 987,
+    "tolerans": 0
+  },
+  {
+    "id": "5.668",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "vikta svar efter befolkningen",
+    "t": "<p>En kommun har 42 000 invånare i tätorten och 18 000 på landsbygden. I en telefonundersökning frågar man 200 personer i tätorten och 200 på landsbygden. I tätorten vill 60 % ha fler cykelbanor, och på landsbygden vill 35 % det.</p><p>a) Vilken andel får man om man slår ihop alla 400 svar, utan hänsyn till var personerna bor?<br>b) Gör en bättre uppskattning av andelen i hela kommunen. (Svara i procent.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>a) Alla 400 svar tillsammans</strong></p></li><li><div class=\"facit-matte\">\\[0{,}60\\cdot200+0{,}35\\cdot200=120+70=190\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{190}{400}=47{,}5\\,\\%\\]</div></li><li><p><strong>b) Väg andelarna efter hur många som bor i varje del</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{42\\,000}{60\\,000}=0{,}7,\\quad\\frac{18\\,000}{60\\,000}=0{,}3\\]</div></li><li><div class=\"facit-matte\">\\[0{,}7\\cdot60+0{,}3\\cdot35=42+10{,}5=52{,}5\\,\\%\\]</div></li><li><p>Landsbygden är överrepresenterad i urvalet (hälften av svaren men 30 % av invånarna), så den sammanslagna andelen blir för låg.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 47,5 % b) 52,5 %</p></div>",
+    "familj": "Bedöma urval och representativitet",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>I b ska tätortens andel räknas mer, eftersom 70 % av invånarna bor där.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      47.5,
+      52.5
+    ],
+    "tolerans": [
+      0,
+      0.05
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a)",
+      "b)"
+    ],
+    "svarEnhet": [
+      "%",
+      "%"
+    ]
+  },
+  {
+    "id": "5.669",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "jämför två urvalsplaner i tabell",
+    "t": "<p>En kommun vill undersöka vad invånarna tycker om biblioteket. Två urval jämförs med kommunens befolkning (16 år och äldre).</p><table class=\"data\"><tbody><tr><th>Åldersgrupp</th><th>Befolkningen</th><th>Urval A</th><th>Urval B</th></tr><tr><th>16–29 år</th><td>24 %</td><td>14 %</td><td>19 %</td></tr><tr><th>30–64 år</th><td>56 %</td><td>38 %</td><td>57 %</td></tr><tr><th>65 år och äldre</th><td>20 %</td><td>48 %</td><td>24 %</td></tr></tbody></table><p>Urval A: 200 personer intervjuas utanför biblioteket på vardagar kl. 10–14.<br>Urval B: 400 personer lottas ur folkbokföringen, och 200 av dem svarar.</p><p>Vilken bedömning är bäst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I urval A är andelen 65 år och äldre 48 %, mer än dubbelt så stor som i befolkningen. Dessutom intervjuas bara personer som redan besöker biblioteket, och de är troligen mer positiva.</p></li><li><p>Urval B är lottat ur hela befolkningen och åldersfördelningen ligger nära befolkningens. Bortfallet (hälften svarade inte) är en felkälla som bör kontrolleras, men B är det bättre urvalet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Urval B, eftersom det är lottat och liknar befolkningen. A har för många äldre och bara biblioteksbesökare.</p></div>",
+    "familj": "Bedöma urval och representativitet",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Jämför varje kolumn med befolkningen. Vilka personer kan över huvud taget komma med i urval A?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Urval A är bättre, eftersom alla i A svarade och det inte finns något bortfall.",
+        "ratt": false,
+        "kommentar": "Ett urval utan bortfall kan ändå vara skevt. A når bara biblioteksbesökare dagtid."
+      },
+      {
+        "txt": "Urvalen är lika bra, eftersom båda har 200 svar.",
+        "ratt": false,
+        "kommentar": "Antalet svar säger inte om urvalet liknar befolkningen."
+      },
+      {
+        "txt": "Urval B är bättre: det är lottat och liknar befolkningen, medan A har mer än dubbelt så stor andel äldre och bara når biblioteksbesökare.",
+        "ratt": true
+      },
+      {
+        "txt": "Urval A är bättre, eftersom äldre har mer tid och svarar mer genomtänkt.",
+        "ratt": false,
+        "kommentar": "Det gör inte urvalet representativt för alla åldrar."
+      }
+    ]
+  },
+  {
+    "id": "5.670",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "bortfallet tycker annorlunda",
+    "t": "<p>I en undersökning om rökning tillfrågas 1 000 slumpvis valda personer. 600 svarar, och 15 % av dem röker. Anta att andelen rökare bland de 400 som inte svarade är dubbelt så stor som bland dem som svarade. Hur stor andel av alla 1 000 röker då? (Svara i procent.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Rökare bland dem som svarade</strong></p></li><li><div class=\"facit-matte\">\\[0{,}15\\cdot600=90\\]</div></li><li><p><strong>Rökare bland bortfallet (30 %)</strong></p></li><li><div class=\"facit-matte\">\\[0{,}30\\cdot400=120\\]</div></li><li><p><strong>Andel av alla</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{90+120}{1000}=0{,}21=21\\,\\%\\]</div></li><li><p>Undersökningen skulle alltså visa 15 % fast den verkliga andelen är 21 %. Ett bortfall som skiljer sig från de svarande ger ett snedvridet resultat.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21 %</p></div>",
+    "familj": "Bedöma urval och representativitet",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna antalet rökare i de två grupperna var för sig och dela med 1 000.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": 0,
+    "svarEnhet": "%"
+  },
+  {
+    "id": "5.671",
+    "kap": 5,
+    "omr": "urvalsmetoder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "minsta urval så att alla grupper syns",
+    "t": "<p>En kommun har fyra skolor. Den minsta skolan har 8 % av kommunens elever. Man ska göra ett stratifierat urval där varje skola är med i proportion till sin storlek, och från den minsta skolan ska minst 12 elever vara med. Hur många elever måste hela urvalet minst innehålla?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>8 % av urvalet ska vara minst 12 elever</strong></p></li><li><div class=\"facit-matte\">\\[0{,}08\\cdot n\\ge12\\]</div></li><li><div class=\"facit-matte\">\\[n\\ge\\frac{12}{0{,}08}=150\\]</div></li><li><p><strong>Kontroll</strong></p></li><li><div class=\"facit-matte\">\\[0{,}08\\cdot150=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 150 elever</p></div>",
+    "familj": "Känna igen urvalsmetoder",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Kalla urvalets storlek n. Hur många elever från den minsta skolan blir det då?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 150,
+    "tolerans": 0,
+    "svarEnhet": "elever"
+  },
+  {
+    "id": "5.672",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "när intervallen inte överlappar",
+    "t": "<p>I mars fick ett parti 21 % i en opinionsmätning med felmarginalen ±2 procentenheter. Nästa mätning har samma felmarginal. Vilket är det minsta heltalsresultat (i procent) som partiet kan få i den nya mätningen, om de två osäkerhetsintervallen inte ska ha någon gemensam punkt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Intervallet i mars</strong></p></li><li><div class=\"facit-matte\">\\[21-2=19,\\quad21+2=23\\quad\\Rightarrow\\quad[19;\\,23]\\]</div></li><li><p><strong>Det nya intervallets nedre gräns måste ligga över 23</strong></p></li><li><div class=\"facit-matte\">\\[x-2>23\\quad\\Rightarrow\\quad x>25\\]</div></li><li><p>Med 25 % blir det nya intervallet 23–27 %, som har punkten 23 gemensam med det gamla. Det minsta heltal som fungerar är 26.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 26 %</p></div>",
+    "familj": "Signifikans och statistisk osäkerhet",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Skriv upp intervallet för mars. Var måste det nya intervallets nedre gräns hamna?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 26,
+    "tolerans": 0,
+    "svarEnhet": "%"
+  },
+  {
+    "id": "5.673",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "hur många fler måste tillfrågas",
+    "t": "<p>En undersökning med 400 personer har felmarginalen ±5 procentenheter. Man vill få ner felmarginalen till ±2 procentenheter. Hur många personer till måste man fråga? (Felmarginalen är ungefär proportionell mot \\(1/\\sqrt{n}\\).)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Felmarginalen ska bli 2,5 gånger mindre</strong></p></li><li><div class=\"facit-matte\">\\[\\frac52=2{,}5\\]</div></li><li><p><strong>Då måste \\(\\sqrt n\\) bli 2,5 gånger större och n bli \\(2{,}5^2\\) gånger större</strong></p></li><li><div class=\"facit-matte\">\\[400\\cdot2{,}5^2=400\\cdot6{,}25=2500\\]</div></li><li><p><strong>Antal personer till</strong></p></li><li><div class=\"facit-matte\">\\[2500-400=2100\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 100 personer till</p></div>",
+    "familj": "Signifikans och statistisk osäkerhet",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur många gånger mindre ska felmarginalen bli? Tänk på att stickprovet då måste bli kvadraten på det talet gånger större.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2100,
+    "tolerans": 0,
+    "svarEnhet": "personer"
+  },
+  {
+    "id": "5.674",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "systematiskt fel i en våg",
+    "t": "<p>En köksvåg visar alltid 12 g för mycket. Fem paket mjöl vägs på vågen, som visar:</p><table class=\"data\"><tbody><tr><th>Paket</th><th>1</th><th>2</th><th>3</th><th>4</th><th>5</th></tr><tr><th>Vågen visar (g)</th><td>1 014</td><td>1 006</td><td>998</td><td>1 021</td><td>1 001</td></tr></tbody></table><p>Vilken är paketens verkliga medelvikt? (Svara i gram.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Medelvärdet av det vågen visar</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{1014+1006+998+1021+1001}{5}=\\frac{5040}{5}=1008\\]</div></li><li><p><strong>Ta bort det systematiska felet</strong></p></li><li><div class=\"facit-matte\">\\[1008-12=996\\]</div></li><li><p>Ett systematiskt fel påverkar alla mätningar lika mycket. Det försvinner inte när man tar medelvärdet av många mätningar, men det kan räknas bort när man vet hur stort det är.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 996 g</p></div>",
+    "familj": "Felkällor i undersökningar",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vågen visar 12 g för mycket på varje paket. Hur påverkar det medelvärdet?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 996,
+    "tolerans": 0,
+    "svarEnhet": "g"
+  },
+  {
+    "id": "5.675",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "simulering av ett mynt",
+    "t": "<p>Lisa tror att ett mynt är orättvist. Hon singlar det 20 gånger och får krona 14 gånger. Sedan låter hon en dator simulera 1 000 serier med 20 kast med ett rättvist mynt. I 58 av de 1 000 serierna blev det krona 14 gånger eller fler.</p><p>Vilken slutsats är rimligast?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Hur vanligt är Lisas resultat med ett rättvist mynt?</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{58}{1000}\\approx6\\,\\%\\]</div></li><li><p>Även ett rättvist mynt ger minst 14 krona i ungefär var 17:e serie. Lisas resultat är alltså lite ovanligt, men inte så ovanligt att det är ett starkt belägg för att myntet är orättvist. Hon behöver fler kast för att kunna säga något säkrare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Resultatet är inte ett starkt belägg, eftersom ett rättvist mynt ger minst lika många krona i ungefär 6 % av serierna.</p></div>",
+    "familj": "Signifikans och statistisk osäkerhet",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Simuleringen visar hur ofta ett rättvist mynt ger ett lika extremt resultat. Är 58 av 1 000 mycket sällsynt?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Myntet är orättvist, eftersom 14 är mer än hälften av 20.",
+        "ratt": false,
+        "kommentar": "Även ett rättvist mynt ger ofta mer än hälften krona."
+      },
+      {
+        "txt": "Simuleringen bevisar att myntet är rättvist.",
+        "ratt": false,
+        "kommentar": "Simuleringen förutsätter ett rättvist mynt. Den kan inte bevisa att just Lisas mynt är rättvist."
+      },
+      {
+        "txt": "Resultatet är omöjligt med ett rättvist mynt, eftersom det bara hände i 58 serier.",
+        "ratt": false,
+        "kommentar": "Det hände i 58 serier, alltså är det möjligt."
+      },
+      {
+        "txt": "Det är inget starkt belägg: ett rättvist mynt ger minst lika många krona i ungefär 6 % av serierna, så slumpen kan mycket väl förklara resultatet.",
+        "ratt": true
+      }
+    ]
+  },
+  {
+    "id": "5.676",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "felmarginal räknad i antal personer",
+    "t": "<p>I en slumpmässig undersökning av 1 200 vuxna i en kommun svarar 35 % att de cyklar till jobbet minst en gång i veckan. Felmarginalen är ±2,7 procentenheter. Kommunen har 48 000 vuxna invånare. Mellan vilka antal vuxna i kommunen ligger antalet som cyklar till jobbet, enligt osäkerhetsintervallet?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Osäkerhetsintervallet i procent</strong></p></li><li><div class=\"facit-matte\">\\[35-2{,}7=32{,}3\\,\\%,\\quad35+2{,}7=37{,}7\\,\\%\\]</div></li><li><p><strong>Räkna om till antal vuxna i kommunen</strong></p></li><li><div class=\"facit-matte\">\\[0{,}323\\cdot48\\,000=15\\,504\\]</div></li><li><div class=\"facit-matte\">\\[0{,}377\\cdot48\\,000=18\\,096\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mellan 15 504 och 18 096 vuxna.</p></div>",
+    "familj": "Signifikans och statistisk osäkerhet",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ta först fram intervallets gränser i procent och räkna sedan ut så många procent av 48 000.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      15504,
+      18096
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Från",
+      "Till"
+    ],
+    "svarEnhet": [
+      "personer",
+      "personer"
+    ]
+  },
+  {
+    "id": "5.677",
+    "kap": 5,
+    "omr": "signifikans",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "olika mätmetoder i två grupper",
+    "t": "<p>Två klasser mäter sin vilopuls. I klass A använder alla en pulsklocka. I klass B räknar eleverna sina pulsslag under 15 sekunder och multiplicerar med 4. Medelvärdet blir 68 slag per minut i klass A och 74 slag per minut i klass B.</p><p>Vilken slutsats är rimligast?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Klasserna har mätt på olika sätt. När man räknar slag under bara 15 s och multiplicerar med 4 blir varje miss eller extra slag fyra slag per minut, och eleverna kan också ha varit uppvarvade av att räkna. Skillnaden på 6 slag per minut kan därför bero på mätmetoden.</p></li><li><p>För att jämföra klasserna måste båda mäta på samma sätt, helst med flera mätningar per elev.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Skillnaden kan bero på mätmetoden, så man måste mäta på samma sätt innan man jämför.</p></div>",
+    "familj": "Felkällor i undersökningar",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Kan själva mätmetoden ge olika resultat, även om klasserna egentligen har samma puls?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Klass B har högre vilopuls, eftersom 74 är större än 68.",
+        "ratt": false,
+        "kommentar": "Klasserna har inte mätt på samma sätt, så skillnaden kan komma från metoden."
+      },
+      {
+        "txt": "Skillnaden kan bero på mätmetoden. Båda klasserna måste mäta på samma sätt innan man kan jämföra.",
+        "ratt": true
+      },
+      {
+        "txt": "Mätmetoden spelar ingen roll, eftersom båda metoderna ger slag per minut.",
+        "ratt": false,
+        "kommentar": "Samma enhet betyder inte samma noggrannhet."
+      },
+      {
+        "txt": "Klass A har mätt fel, eftersom pulsklockor alltid visar för lågt.",
+        "ratt": false,
+        "kommentar": "Det finns inget i uppgiften som visar det."
+      }
+    ]
+  },
+  {
+    "id": "5.678",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "para ihop punktmoln och r",
+    "t": "<p>De tre punktdiagrammen har korrelationskoefficienterna 0,97, −0,75 och 0,02, men i blandad ordning.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"540\" height=\"200\" viewBox=\"0 0 540 200\" role=\"img\" aria-label=\"Tre punktdiagram. A: punkterna ligger tätt längs en stigande linje. B: punkterna faller med stor spridning. C: punkterna är utspridda utan trend.\"><title>Tre punktdiagram. A: punkterna ligger tätt längs en stigande linje. B: punkterna faller med stor spridning. C: punkterna är utspridda utan trend.</title><rect x=\"1\" y=\"1\" width=\"538\" height=\"198\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"34\" y1=\"175\" x2=\"180\" y2=\"175\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"34\" y1=\"175\" x2=\"34\" y2=\"34\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"107.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">Diagram A</text><circle cx=\"48.6\" cy=\"153.4\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"63.2\" cy=\"135.8\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"77.8\" cy=\"134.5\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"92.4\" cy=\"108.8\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"107.0\" cy=\"118.3\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"121.6\" cy=\"81.8\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"136.2\" cy=\"90.0\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"150.8\" cy=\"65.7\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"165.4\" cy=\"67.0\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"180.0\" cy=\"48.1\" r=\"4\" fill=\"#172b3a\"/><line x1=\"209\" y1=\"175\" x2=\"355\" y2=\"175\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"209\" y1=\"175\" x2=\"209\" y2=\"34\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"282.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">Diagram B</text><circle cx=\"223.6\" cy=\"73.8\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"238.2\" cy=\"53.5\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"252.8\" cy=\"104.8\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"267.4\" cy=\"69.7\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"282.0\" cy=\"112.9\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"296.6\" cy=\"81.8\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"311.2\" cy=\"133.2\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"325.8\" cy=\"102.1\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"340.4\" cy=\"142.6\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"355.0\" cy=\"121.0\" r=\"4\" fill=\"#172b3a\"/><line x1=\"384\" y1=\"175\" x2=\"530\" y2=\"175\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"384\" y1=\"175\" x2=\"384\" y2=\"34\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"457.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">Diagram C</text><circle cx=\"398.6\" cy=\"99.4\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"413.2\" cy=\"145.3\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"427.8\" cy=\"61.6\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"442.4\" cy=\"112.9\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"457.0\" cy=\"81.8\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"471.6\" cy=\"150.7\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"486.2\" cy=\"107.5\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"500.8\" cy=\"56.2\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"515.4\" cy=\"129.1\" r=\"4\" fill=\"#172b3a\"/><circle cx=\"530.0\" cy=\"104.8\" r=\"4\" fill=\"#172b3a\"/></svg></span><p>Vilken parning stämmer?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I A ligger punkterna nästan på en stigande rät linje: r = 0,97.</p></li><li><p>I B faller punkterna, men med stor spridning: r = −0,75.</p></li><li><p>I C syns ingen stigande eller fallande trend: r = 0,02.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: 0,97, B: −0,75, C: 0,02</p></div>",
+    "familj": "Tolka korrelation",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Tecknet på r visar om trenden stiger eller faller. Ju närmare 1 eller −1, desto tätare ligger punkterna kring en linje.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "A: 0,97, B: 0,02, C: −0,75",
+        "ratt": false,
+        "kommentar": "B har en tydlig fallande trend, så r är negativ."
+      },
+      {
+        "txt": "A: −0,75, B: 0,97, C: 0,02",
+        "ratt": false,
+        "kommentar": "A stiger och B faller."
+      },
+      {
+        "txt": "A: 0,97, B: −0,75, C: 0,02",
+        "ratt": true
+      },
+      {
+        "txt": "A: 0,02, B: −0,75, C: 0,97",
+        "ratt": false,
+        "kommentar": "A ligger nästan på en linje, C saknar trend."
+      }
+    ]
+  },
+  {
+    "id": "5.679",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "Simpsons paradox i en tabell",
+    "t": "<p>Tabellen visar hur många elever som klarade uppkörningen på två körskolor. Eleverna är indelade efter om de hade övningskört mycket privat innan.</p><table class=\"data\"><tbody><tr><th></th><th>Körskola A</th><th>Körskola B</th></tr><tr><th>Övat mycket privat</th><td>80 av 100 klarade</td><td>18 av 20 klarade</td></tr><tr><th>Övat lite privat</th><td>20 av 100 klarade</td><td>54 av 180 klarade</td></tr></tbody></table><p>Hur stor andel av alla elever klarade uppkörningen på körskola A respektive körskola B? (Svara i procent.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Körskola A totalt</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{80+20}{100+100}=\\frac{100}{200}=50\\,\\%\\]</div></li><li><p><strong>Körskola B totalt</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{18+54}{20+180}=\\frac{72}{200}=36\\,\\%\\]</div></li><li><p><strong>Jämför inom varje grupp</strong></p></li><li><p>Övat mycket: A 80 %, B 90 %. Övat lite: A 20 %, B 30 %.</p></li><li><p>B har högre andel i <em>båda</em> grupperna men lägre andel totalt. Det beror på att de flesta av B:s elever hade övat lite. Hur mycket eleverna övat är en bakomliggande variabel som påverkar jämförelsen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A: 50 %, B: 36 %</p></div>",
+    "familj": "Kausalitet och bakomliggande variabler",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Lägg ihop alla som klarade och alla elever för varje körskola. Jämför gärna också andelarna i varje rad.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      50,
+      36
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "Körskola A",
+      "Körskola B"
+    ],
+    "svarEnhet": [
+      "%",
+      "%"
+    ]
+  },
+  {
+    "id": "5.680",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "frivillig deltagare i en försöksgrupp",
+    "t": "<p>En skola provar ett nytt digitalt läromedel. Eleverna får själva välja om de vill använda det. Efter en termin har de 60 elever som valde läromedlet i genomsnitt 8 poäng högre resultat på ett prov än de 90 som inte valde det. Rektorn vill dra slutsatsen att läromedlet höjer resultaten.</p><p>Vilken invändning är viktigast, och hur kan man göra undersökningen bättre?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Elever som självmant väljer ett extra läromedel kan redan vara mer motiverade eller ha bättre förkunskaper. Motivation och förkunskaper är då bakomliggande variabler som kan förklara skillnaden.</p></li><li><p>Om man lottar vilka elever som får läromedlet blir grupperna lika i genomsnitt, och då kan en skillnad tolkas som en effekt av läromedlet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Eleverna valde själva, så grupperna kan skilja sig från början. Lotta vilka som får läromedlet.</p></div>",
+    "familj": "Kausalitet och bakomliggande variabler",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Var grupperna lika från början? Vad skulle kunna skilja elever som väljer läromedlet från dem som inte gör det?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Grupperna är olika stora. Med lika många elever i varje grupp blir slutsatsen säker.",
+        "ratt": false,
+        "kommentar": "Lika stora grupper hindrar inte att eleverna skiljer sig åt från början."
+      },
+      {
+        "txt": "8 poäng är en för liten skillnad. Med 15 poängs skillnad hade det varit bevisat.",
+        "ratt": false,
+        "kommentar": "Även en stor skillnad kan bero på att grupperna skilde sig från början."
+      },
+      {
+        "txt": "De som valde läromedlet kan redan vara mer motiverade. Man bör lotta vilka som får använda läromedlet.",
+        "ratt": true
+      },
+      {
+        "txt": "Provet borde ha varit lättare, så att fler hade fått höga resultat.",
+        "ratt": false,
+        "kommentar": "Ett lättare prov löser inte problemet att grupperna kan vara olika."
+      }
+    ]
+  },
+  {
+    "id": "5.681",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "byte av enheter ändrar inte r",
+    "t": "<p>Korrelationskoefficienten mellan elevers längd (i cm) och vikt (i kg) är 0,72. Man räknar om alla längder till meter och alla vikter till gram och gör ett nytt punktdiagram. Vad blir korrelationskoefficienten då?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När man byter enhet multipliceras alla värden på en variabel med samma positiva tal. Punktmolnet sträcks ut eller trycks ihop, men punkterna ligger lika tätt kring en linje och trenden har samma riktning.</p></li><li><div class=\"facit-matte\">\\[r=0{,}72\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,72</p></div>",
+    "familj": "Tolka korrelation",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ändras formen på punktmolnet när alla längder delas med 100 och alla vikter multipliceras med 1 000?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 0.72,
+    "tolerans": 0
+  },
+  {
+    "id": "5.682",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "vad r säger och inte säger",
+    "t": "<p>På en skola är korrelationskoefficienten mellan elevernas frånvarotimmar och deras provpoäng r = −0,9. Rektorn säger: ”Frånvaron förklarar 90 procent av provresultaten, och varje frånvarotimme sänker resultatet.”</p><p>Vilken bedömning av rektorns påstående är bäst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>r = −0,9 betyder ett starkt negativt linjärt samband: elever med mycket frånvaro har ofta lägre poäng.</p></li><li><p>r är inte en procentsats, och r säger inte hur många poäng en frånvarotimme motsvarar. Korrelation visar inte heller orsak; till exempel kan sjukdom eller låg motivation påverka både frånvaron och resultaten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sambandet är starkt negativt, men r är ingen procentsats och visar inte att frånvaron är orsaken.</p></div>",
+    "familj": "Tolka korrelation",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vad betyder minustecknet i r, och vad betyder att talet ligger nära −1? Kan r visa orsaker?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Rektorn har rätt, eftersom r = −0,9 ligger nära −1.",
+        "ratt": false,
+        "kommentar": "Ett starkt samband bevisar inte orsak, och r är inte en procentsats."
+      },
+      {
+        "txt": "Det finns ett starkt negativt samband, men r är ingen procentsats och visar inte att frånvaron orsakar de lägre resultaten.",
+        "ratt": true
+      },
+      {
+        "txt": "Sambandet är svagt, eftersom r är negativt.",
+        "ratt": false,
+        "kommentar": "Tecknet visar riktningen. Styrkan avgörs av hur nära −1 eller 1 talet är."
+      },
+      {
+        "txt": "Rektorn borde ha sagt att frånvaron höjer resultaten med 90 procent.",
+        "ratt": false,
+        "kommentar": "Ett negativt r betyder att höga x-värden hör ihop med låga y-värden."
+      }
+    ]
+  },
+  {
+    "id": "5.683",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "två grupper i samma punktdiagram",
+    "t": "<p>Diagrammet visar läxtid per vecka och längd för 16 elever. Åtta elever går i årskurs 2 (blå cirklar) och åtta i årskurs 9 (orange kvadrater).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"330\" viewBox=\"0 0 440 330\" role=\"img\" aria-label=\"Punktdiagram. Eleverna i årskurs 2 har kort läxtid och längder kring 125 cm, utan trend inom gruppen. Eleverna i årskurs 9 har längre läxtid och längder kring 170 cm, också utan trend inom gruppen.\"><title>Punktdiagram. Eleverna i årskurs 2 har kort läxtid och längder kring 125 cm, utan trend inom gruppen. Eleverna i årskurs 9 har längre läxtid och längder kring 170 cm, också utan trend inom gruppen.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"328\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"58.0\" y1=\"30\" x2=\"58.0\" y2=\"278\" stroke=\"#e3e8ee\"/><line x1=\"58.0\" y1=\"278\" x2=\"58.0\" y2=\"283\" stroke=\"#34495e\"/><text x=\"58.0\" y=\"297.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"97.8\" y1=\"30\" x2=\"97.8\" y2=\"278\" stroke=\"#e3e8ee\"/><line x1=\"97.8\" y1=\"278\" x2=\"97.8\" y2=\"283\" stroke=\"#34495e\"/><text x=\"97.8\" y=\"297.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"137.6\" y1=\"30\" x2=\"137.6\" y2=\"278\" stroke=\"#e3e8ee\"/><line x1=\"137.6\" y1=\"278\" x2=\"137.6\" y2=\"283\" stroke=\"#34495e\"/><text x=\"137.6\" y=\"297.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"177.3\" y1=\"30\" x2=\"177.3\" y2=\"278\" stroke=\"#e3e8ee\"/><line x1=\"177.3\" y1=\"278\" x2=\"177.3\" y2=\"283\" stroke=\"#34495e\"/><text x=\"177.3\" y=\"297.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"217.1\" y1=\"30\" x2=\"217.1\" y2=\"278\" stroke=\"#e3e8ee\"/><line x1=\"217.1\" y1=\"278\" x2=\"217.1\" y2=\"283\" stroke=\"#34495e\"/><text x=\"217.1\" y=\"297.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"256.9\" y1=\"30\" x2=\"256.9\" y2=\"278\" stroke=\"#e3e8ee\"/><line x1=\"256.9\" y1=\"278\" x2=\"256.9\" y2=\"283\" stroke=\"#34495e\"/><text x=\"256.9\" y=\"297.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"296.7\" y1=\"30\" x2=\"296.7\" y2=\"278\" stroke=\"#e3e8ee\"/><line x1=\"296.7\" y1=\"278\" x2=\"296.7\" y2=\"283\" stroke=\"#34495e\"/><text x=\"296.7\" y=\"297.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"336.4\" y1=\"30\" x2=\"336.4\" y2=\"278\" stroke=\"#e3e8ee\"/><line x1=\"336.4\" y1=\"278\" x2=\"336.4\" y2=\"283\" stroke=\"#34495e\"/><text x=\"336.4\" y=\"297.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"376.2\" y1=\"30\" x2=\"376.2\" y2=\"278\" stroke=\"#e3e8ee\"/><line x1=\"376.2\" y1=\"278\" x2=\"376.2\" y2=\"283\" stroke=\"#34495e\"/><text x=\"376.2\" y=\"297.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"416.0\" y1=\"30\" x2=\"416.0\" y2=\"278\" stroke=\"#e3e8ee\"/><line x1=\"416.0\" y1=\"278\" x2=\"416.0\" y2=\"283\" stroke=\"#34495e\"/><text x=\"416.0\" y=\"297.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">9</text><line x1=\"58\" y1=\"278.0\" x2=\"416\" y2=\"278.0\" stroke=\"#e3e8ee\"/><line x1=\"53\" y1=\"278.0\" x2=\"58\" y2=\"278.0\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">110</text><line x1=\"58\" y1=\"247.0\" x2=\"416\" y2=\"247.0\" stroke=\"#e3e8ee\"/><line x1=\"53\" y1=\"247.0\" x2=\"58\" y2=\"247.0\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"251.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">120</text><line x1=\"58\" y1=\"216.0\" x2=\"416\" y2=\"216.0\" stroke=\"#e3e8ee\"/><line x1=\"53\" y1=\"216.0\" x2=\"58\" y2=\"216.0\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"220.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">130</text><line x1=\"58\" y1=\"185.0\" x2=\"416\" y2=\"185.0\" stroke=\"#e3e8ee\"/><line x1=\"53\" y1=\"185.0\" x2=\"58\" y2=\"185.0\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"189.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">140</text><line x1=\"58\" y1=\"154.0\" x2=\"416\" y2=\"154.0\" stroke=\"#e3e8ee\"/><line x1=\"53\" y1=\"154.0\" x2=\"58\" y2=\"154.0\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"158.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">150</text><line x1=\"58\" y1=\"123.0\" x2=\"416\" y2=\"123.0\" stroke=\"#e3e8ee\"/><line x1=\"53\" y1=\"123.0\" x2=\"58\" y2=\"123.0\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"127.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">160</text><line x1=\"58\" y1=\"92.0\" x2=\"416\" y2=\"92.0\" stroke=\"#e3e8ee\"/><line x1=\"53\" y1=\"92.0\" x2=\"58\" y2=\"92.0\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">170</text><line x1=\"58\" y1=\"61.0\" x2=\"416\" y2=\"61.0\" stroke=\"#e3e8ee\"/><line x1=\"53\" y1=\"61.0\" x2=\"58\" y2=\"61.0\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"65.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">180</text><line x1=\"58\" y1=\"30.0\" x2=\"416\" y2=\"30.0\" stroke=\"#e3e8ee\"/><line x1=\"53\" y1=\"30.0\" x2=\"58\" y2=\"30.0\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"34.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">190</text><line x1=\"58\" y1=\"278\" x2=\"422\" y2=\"278\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"58\" y1=\"278\" x2=\"58\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"237.0\" y=\"318.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">läxtid per vecka (h)</text><text x=\"54.0\" y=\"18.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\">längd (cm)</text><circle cx=\"97.8\" cy=\"243.9\" r=\"4.8\" fill=\"#216d87\"/><circle cx=\"177.3\" cy=\"228.4\" r=\"4.8\" fill=\"#216d87\"/><circle cx=\"137.6\" cy=\"216.0\" r=\"4.8\" fill=\"#216d87\"/><circle cx=\"217.1\" cy=\"234.6\" r=\"4.8\" fill=\"#216d87\"/><circle cx=\"117.7\" cy=\"206.7\" r=\"4.8\" fill=\"#216d87\"/><circle cx=\"197.2\" cy=\"225.3\" r=\"4.8\" fill=\"#216d87\"/><circle cx=\"157.4\" cy=\"222.2\" r=\"4.8\" fill=\"#216d87\"/><circle cx=\"77.9\" cy=\"231.5\" r=\"4.8\" fill=\"#216d87\"/><rect x=\"252.4\" y=\"87.5\" width=\"9\" height=\"9\" fill=\"#c2410c\"/><rect x=\"331.9\" y=\"109.2\" width=\"9\" height=\"9\" fill=\"#c2410c\"/><rect x=\"292.2\" y=\"72.0\" width=\"9\" height=\"9\" fill=\"#c2410c\"/><rect x=\"371.7\" y=\"93.7\" width=\"9\" height=\"9\" fill=\"#c2410c\"/><rect x=\"272.3\" y=\"118.5\" width=\"9\" height=\"9\" fill=\"#c2410c\"/><rect x=\"351.8\" y=\"62.7\" width=\"9\" height=\"9\" fill=\"#c2410c\"/><rect x=\"312.1\" y=\"99.9\" width=\"9\" height=\"9\" fill=\"#c2410c\"/><rect x=\"232.5\" y=\"81.3\" width=\"9\" height=\"9\" fill=\"#c2410c\"/><rect x=\"258\" y=\"22\" width=\"156\" height=\"50\" rx=\"4\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"266\" cy=\"34.5\" r=\"4.8\" fill=\"#216d87\"/><text x=\"278.0\" y=\"39.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\">årskurs 2</text><rect x=\"261.5\" y=\"52\" width=\"9\" height=\"9\" fill=\"#c2410c\"/><text x=\"278.0\" y=\"61.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\">årskurs 9</text></svg></span><p>Om man ser på alla 16 elever tillsammans finns en tydlig positiv korrelation. Vilken slutsats är rimligast?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Inom varje årskurs syns ingen tydlig trend: läxtiden hänger inte ihop med längden.</p></li><li><p>Den positiva korrelationen för alla elever beror på att äldre elever både är längre och har mer läxor. Åldern är en bakomliggande variabel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sambandet beror på åldern: äldre elever är både längre och har mer läxor.</p></div>",
+    "familj": "Kausalitet och bakomliggande variabler",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Titta på de blå punkterna för sig och de orange för sig. Finns det någon trend inom en grupp?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Mer läxtid gör att elever växer.",
+        "ratt": false,
+        "kommentar": "Inom varje årskurs finns ingen sådan trend."
+      },
+      {
+        "txt": "Det finns ingen korrelation alls i diagrammet.",
+        "ratt": false,
+        "kommentar": "För alla 16 elever tillsammans finns en tydlig positiv korrelation."
+      },
+      {
+        "txt": "Långa elever får mer läxor av sina lärare.",
+        "ratt": false,
+        "kommentar": "Det är inte längden utan årskursen som skiljer grupperna åt."
+      },
+      {
+        "txt": "Sambandet beror på åldern: elever i årskurs 9 är både längre och har mer läxor. Inom varje årskurs syns ingen trend.",
+        "ratt": true
+      }
+    ]
+  },
+  {
+    "id": "5.684",
+    "kap": 5,
+    "omr": "korrelation",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "alla punkter på en fallande linje",
+    "t": "<p>En mätserie består av punkterna (2, 34), (3, 31), (5, 25), (7, 19) och (10, 10). Vad är korrelationskoefficienten r?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Undersök lutningen mellan punkterna</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{31-34}{3-2}=-3,\\quad\\frac{25-31}{5-3}=-3,\\quad\\frac{19-25}{7-5}=-3,\\quad\\frac{10-19}{10-7}=-3\\]</div></li><li><p>Alla punkter ligger på den fallande linjen \\(y=40-3x\\). Ett perfekt negativt linjärt samband ger r = −1.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −1</p></div>",
+    "familj": "Tolka korrelation",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ligger alla punkter på samma räta linje? Beräkna lutningen mellan punkterna två och två.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1551",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "temperaturvillkor i Fahrenheit",
+    "t": "<p>I ett växthus ska temperaturen vara minst 5 °C och lägre än 25 °C. Termometern visar i stället grader Fahrenheit, där \\(F=1{,}8C+32\\). Vilka värden på F är tillåtna? Svara med olikhetstecken.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Villkoret i Celsius</strong></p></li><li><div class=\"facit-matte\">\\[5\\le C<25\\]</div></li><li><p><strong>Räkna om gränserna</strong></p></li><li><div class=\"facit-matte\">\\[1{,}8\\cdot5+32=41,\\quad1{,}8\\cdot25+32=77\\]</div></li><li><p>F växer när C växer, så olikhetstecknen behåller sin riktning. 41 °F är tillåtet, men inte 77 °F.</p></li><li><div class=\"facit-matte\">\\[41\\le F<77\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(41\\le F&lt;77\\)</p></div>",
+    "familj": "Kombinera intervall och villkor",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Skriv först villkoret för C. Räkna sedan om båda gränserna till Fahrenheit och behåll vilken gräns som ingår.</p>",
+    "svarstyp": "intervall",
+    "svarFormat": "intervall",
+    "rättSvar": "41<=F<77",
+    "tolerans": 0
+  },
+  {
+    "id": "1.1552",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "taxiresa med två villkor",
+    "t": "<p>En taxiresa kostar 45 kr i grundavgift plus 15 kr per kilometer. Ali ska åka minst 5 km och vill betala högst 300 kr. Vilka reslängder x km är möjliga? Svara med olikhetstecken.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Kostnadsvillkoret</strong></p></li><li><div class=\"facit-matte\">\\[45+15x\\le300\\]</div></li><li><div class=\"facit-matte\">\\[15x\\le255\\]</div></li><li><div class=\"facit-matte\">\\[x\\le17\\]</div></li><li><p><strong>Kombinera med kravet på minst 5 km</strong></p></li><li><div class=\"facit-matte\">\\[5\\le x\\le17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5\\le x\\le17\\)</p></div>",
+    "familj": "Kombinera intervall och villkor",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ställ upp en olikhet för kostnaden och lös den. Glöm inte villkoret att resan är minst 5 km.</p>",
+    "svarstyp": "intervall",
+    "svarFormat": "intervall",
+    "rättSvar": "5<=x<=17",
+    "tolerans": 0
+  },
+  {
+    "id": "1.1553",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "tolerans före och efter kylning",
+    "t": "<p>En axel ska vara 80 mm lång med toleransen ±0,4 mm, och längder precis på gränserna godkänns. Axeln mäts när den är varm. När den svalnar krymper den 0,1 mm. Vilka längder L (i mm) får den varma axeln ha för att bli godkänd när den har svalnat? Svara med olikhetstecken.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Godkända längder efter kylning</strong></p></li><li><div class=\"facit-matte\">\\[80-0{,}4\\le L_{\\text{kall}}\\le80+0{,}4\\quad\\Rightarrow\\quad79{,}6\\le L_{\\text{kall}}\\le80{,}4\\]</div></li><li><p><strong>Den varma axeln är 0,1 mm längre</strong></p></li><li><div class=\"facit-matte\">\\[L=L_{\\text{kall}}+0{,}1\\]</div></li><li><div class=\"facit-matte\">\\[79{,}7\\le L\\le80{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(79{,}7\\le L\\le80{,}5\\)</p></div>",
+    "familj": "Skriva intervall med olikhetstecken",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Skriv först intervallet för den kalla axeln. Är den varma axeln längre eller kortare?</p>",
+    "svarstyp": "intervall",
+    "svarFormat": "intervall",
+    "rättSvar": "79.7<=L<=80.5",
+    "tolerans": 0
+  },
+  {
+    "id": "1.1554",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "intervall ur en graf med definitionsmängd",
+    "t": "<p>Grafen visar funktionen f. En ifylld ring betyder att punkten hör till grafen, och en ofylld ring att den inte gör det.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"340\" viewBox=\"0 0 420 340\" role=\"img\" aria-label=\"Graf till en fallande rät linje från punkten (−2, 4), som är ifylld, till punkten (6, 0), som är ofylld. En streckad vågrät linje visar y = 2.\"><title>Graf till en fallande rät linje från punkten (−2, 4), som är ifylld, till punkten (6, 0), som är ofylld. En streckad vågrät linje visar y = 2.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"44.0\" y1=\"26\" x2=\"44.0\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"79.2\" y1=\"26\" x2=\"79.2\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"114.4\" y1=\"26\" x2=\"114.4\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"149.6\" y1=\"26\" x2=\"149.6\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"184.8\" y1=\"26\" x2=\"184.8\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"220.0\" y1=\"26\" x2=\"220.0\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"255.2\" y1=\"26\" x2=\"255.2\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"290.4\" y1=\"26\" x2=\"290.4\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"325.6\" y1=\"26\" x2=\"325.6\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"360.8\" y1=\"26\" x2=\"360.8\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"396.0\" y1=\"26\" x2=\"396.0\" y2=\"300\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"300.0\" x2=\"396\" y2=\"300.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"260.9\" x2=\"396\" y2=\"260.9\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"221.7\" x2=\"396\" y2=\"221.7\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"182.6\" x2=\"396\" y2=\"182.6\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"143.4\" x2=\"396\" y2=\"143.4\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"104.3\" x2=\"396\" y2=\"104.3\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"65.1\" x2=\"396\" y2=\"65.1\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"26.0\" x2=\"396\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"44\" y1=\"260.9\" x2=\"404\" y2=\"260.9\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"149.6\" y1=\"300\" x2=\"149.6\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"44\" y1=\"182.6\" x2=\"396\" y2=\"182.6\" stroke=\"#B7791F\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><line x1=\"79.2\" y1=\"104.3\" x2=\"360.8\" y2=\"260.9\" stroke=\"#216d87\" stroke-width=\"2.8\"/><circle cx=\"79.2\" cy=\"104.3\" r=\"5.5\" fill=\"#216d87\"/><circle cx=\"360.8\" cy=\"260.9\" r=\"5.5\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2.5\"/><rect x=\"36.0\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"44.0\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−3</text><rect x=\"71.2\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"79.2\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−2</text><rect x=\"106.4\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"114.4\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><rect x=\"176.8\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"184.8\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><rect x=\"212.0\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"220.0\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><rect x=\"247.2\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"255.2\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><rect x=\"282.4\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"290.4\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><rect x=\"317.6\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"325.6\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><rect x=\"352.8\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"360.8\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><rect x=\"388.0\" y=\"265.9\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"396.0\" y=\"277.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><rect x=\"127.6\" y=\"292.0\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"304.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><rect x=\"127.6\" y=\"213.7\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"225.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">1</text><rect x=\"127.6\" y=\"174.6\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"186.6\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><rect x=\"127.6\" y=\"135.4\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"147.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">3</text><rect x=\"127.6\" y=\"96.3\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"108.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><rect x=\"127.6\" y=\"57.1\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"69.1\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">5</text><rect x=\"127.6\" y=\"18.0\" width=\"16\" height=\"15\" fill=\"#fff\"/><text x=\"142.6\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><text x=\"404.0\" y=\"253.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"156.6\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text><rect x=\"191.8\" y=\"66.8\" width=\"74\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"195.8\" y=\"80.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">y = f(x)</text><rect x=\"329.1\" y=\"161.6\" width=\"46\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"333.1\" y=\"174.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#B7791F\" font-weight=\"bold\">y = 2</text></svg></span><p>För vilka x gäller \\(f(x)\\ge2\\)? Svara med olikhetstecken.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Var ligger grafen på eller över linjen y = 2?</strong></p></li><li><p>Grafen skär linjen y = 2 där x = 2 och ligger ovanför linjen till vänster om den punkten.</p></li><li><p><strong>Var börjar grafen?</strong></p></li><li><p>Grafen börjar i den ifyllda punkten (−2, 4), så x = −2 ingår men inga mindre x.</p></li><li><div class=\"facit-matte\">\\[-2\\le x\\le2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-2\\le x\\le2\\)</p></div>",
+    "familj": "Tal i ett intervall",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Var skär grafen den streckade linjen? Glöm inte att grafen inte fortsätter till vänster om x = −2.</p>",
+    "svarstyp": "intervall",
+    "svarFormat": "intervall",
+    "rättSvar": "-2<=x<=2",
+    "tolerans": 0
+  },
+  {
+    "id": "1.1555",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "union av två intervall på tallinjen",
+    "t": "<p>Tallinjerna visar intervallen A och B. En ifylld ring betyder att talet ingår, och en ofylld ring att det inte ingår.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"190\" viewBox=\"0 0 460 190\" role=\"img\" aria-label=\"Två tallinjer. A går från −3 (ofylld ring) till 4 (ifylld ring). B går från −1 (ifylld ring) till 6 (ofylld ring).\"><title>Två tallinjer. A går från −3 (ofylld ring) till 4 (ifylld ring). B går från −1 (ifylld ring) till 6 (ofylld ring).</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"188\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40\" y1=\"50\" x2=\"442\" y2=\"50\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"50.0\" y1=\"45\" x2=\"50.0\" y2=\"55\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−5</text><line x1=\"79.2\" y1=\"45\" x2=\"79.2\" y2=\"55\" stroke=\"#34495e\"/><text x=\"79.2\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−4</text><line x1=\"108.5\" y1=\"45\" x2=\"108.5\" y2=\"55\" stroke=\"#34495e\"/><text x=\"108.5\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−3</text><line x1=\"137.7\" y1=\"45\" x2=\"137.7\" y2=\"55\" stroke=\"#34495e\"/><text x=\"137.7\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−2</text><line x1=\"166.9\" y1=\"45\" x2=\"166.9\" y2=\"55\" stroke=\"#34495e\"/><text x=\"166.9\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><line x1=\"196.2\" y1=\"45\" x2=\"196.2\" y2=\"55\" stroke=\"#34495e\"/><text x=\"196.2\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"225.4\" y1=\"45\" x2=\"225.4\" y2=\"55\" stroke=\"#34495e\"/><text x=\"225.4\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"254.6\" y1=\"45\" x2=\"254.6\" y2=\"55\" stroke=\"#34495e\"/><text x=\"254.6\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"283.8\" y1=\"45\" x2=\"283.8\" y2=\"55\" stroke=\"#34495e\"/><text x=\"283.8\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"313.1\" y1=\"45\" x2=\"313.1\" y2=\"55\" stroke=\"#34495e\"/><text x=\"313.1\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"342.3\" y1=\"45\" x2=\"342.3\" y2=\"55\" stroke=\"#34495e\"/><text x=\"342.3\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"371.5\" y1=\"45\" x2=\"371.5\" y2=\"55\" stroke=\"#34495e\"/><text x=\"371.5\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"400.8\" y1=\"45\" x2=\"400.8\" y2=\"55\" stroke=\"#34495e\"/><text x=\"400.8\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"430.0\" y1=\"45\" x2=\"430.0\" y2=\"55\" stroke=\"#34495e\"/><text x=\"430.0\" y=\"72.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"108.5\" y1=\"50\" x2=\"313.1\" y2=\"50\" stroke=\"#216d87\" stroke-width=\"6\"/><circle cx=\"108.5\" cy=\"50\" r=\"6.5\" fill=\"#fff\" stroke=\"#216d87\" stroke-width=\"2.5\"/><circle cx=\"313.1\" cy=\"50\" r=\"6.5\" fill=\"#216d87\" stroke=\"#216d87\" stroke-width=\"2.5\"/><text x=\"18.0\" y=\"55.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><line x1=\"40\" y1=\"110\" x2=\"442\" y2=\"110\" stroke=\"#34495e\" stroke-width=\"1.5\"/><line x1=\"50.0\" y1=\"105\" x2=\"50.0\" y2=\"115\" stroke=\"#34495e\"/><text x=\"50.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−5</text><line x1=\"79.2\" y1=\"105\" x2=\"79.2\" y2=\"115\" stroke=\"#34495e\"/><text x=\"79.2\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−4</text><line x1=\"108.5\" y1=\"105\" x2=\"108.5\" y2=\"115\" stroke=\"#34495e\"/><text x=\"108.5\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−3</text><line x1=\"137.7\" y1=\"105\" x2=\"137.7\" y2=\"115\" stroke=\"#34495e\"/><text x=\"137.7\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−2</text><line x1=\"166.9\" y1=\"105\" x2=\"166.9\" y2=\"115\" stroke=\"#34495e\"/><text x=\"166.9\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><line x1=\"196.2\" y1=\"105\" x2=\"196.2\" y2=\"115\" stroke=\"#34495e\"/><text x=\"196.2\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"225.4\" y1=\"105\" x2=\"225.4\" y2=\"115\" stroke=\"#34495e\"/><text x=\"225.4\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"254.6\" y1=\"105\" x2=\"254.6\" y2=\"115\" stroke=\"#34495e\"/><text x=\"254.6\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"283.8\" y1=\"105\" x2=\"283.8\" y2=\"115\" stroke=\"#34495e\"/><text x=\"283.8\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"313.1\" y1=\"105\" x2=\"313.1\" y2=\"115\" stroke=\"#34495e\"/><text x=\"313.1\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"342.3\" y1=\"105\" x2=\"342.3\" y2=\"115\" stroke=\"#34495e\"/><text x=\"342.3\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"371.5\" y1=\"105\" x2=\"371.5\" y2=\"115\" stroke=\"#34495e\"/><text x=\"371.5\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"400.8\" y1=\"105\" x2=\"400.8\" y2=\"115\" stroke=\"#34495e\"/><text x=\"400.8\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"430.0\" y1=\"105\" x2=\"430.0\" y2=\"115\" stroke=\"#34495e\"/><text x=\"430.0\" y=\"132.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"166.9\" y1=\"110\" x2=\"371.5\" y2=\"110\" stroke=\"#c2410c\" stroke-width=\"6\"/><circle cx=\"166.9\" cy=\"110\" r=\"6.5\" fill=\"#c2410c\" stroke=\"#c2410c\" stroke-width=\"2.5\"/><circle cx=\"371.5\" cy=\"110\" r=\"6.5\" fill=\"#fff\" stroke=\"#c2410c\" stroke-width=\"2.5\"/><text x=\"18.0\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">B</text></svg></span><p>Vilka x ligger i <strong>minst ett</strong> av intervallen? Svara med olikhetstecken.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Skriv intervallen</strong></p></li><li><div class=\"facit-matte\">\\[A:\\ -3<x\\le4,\\qquad B:\\ -1\\le x<6\\]</div></li><li><p><strong>Intervallen överlappar, så tillsammans täcker de ett sammanhängande intervall</strong></p></li><li><p>Den vänstra gränsen kommer från A (−3 ingår inte) och den högra från B (6 ingår inte).</p></li><li><div class=\"facit-matte\">\\[-3<x<6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-3&lt;x&lt;6\\)</p></div>",
+    "familj": "Kombinera intervall och villkor",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Skriv först A och B med olikhetstecken. Var börjar och slutar området som täcks av minst ett av dem?</p>",
+    "svarstyp": "intervall",
+    "svarFormat": "intervall",
+    "rättSvar": "-3<x<6",
+    "tolerans": 0
+  },
+  {
+    "id": "1.1556",
+    "kap": 1,
+    "omr": "intervall",
+    "kurs": [
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "antal heltal i två villkor",
+    "t": "<p>Hur många heltal x uppfyller både \\(-2{,}5<x\\le6\\) och \\(1\\le x<9\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Båda villkoren gäller samtidigt</strong></p></li><li><div class=\"facit-matte\">\\[1\\le x\\le6\\]</div></li><li><p><strong>Heltalen i intervallet</strong></p></li><li><div class=\"facit-matte\">\\[1,\\ 2,\\ 3,\\ 4,\\ 5,\\ 6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 heltal</p></div>",
+    "familj": "Tal i ett intervall",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Bestäm först vilka x som uppfyller båda villkoren. Räkna sedan heltalen.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 6,
+    "tolerans": 0,
+    "svarEnhet": "heltal"
   }
 
 ];

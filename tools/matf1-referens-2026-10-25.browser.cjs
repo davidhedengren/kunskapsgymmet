@@ -19,7 +19,7 @@ const special=process.env.REVIEW_CASES_FILE?JSON.parse(fs.readFileSync(process.e
    assert.deepEqual(ids,g.tasks.filter(q=>!q.kurs||q.kurs.includes(track)).map(q=>q.id).sort());structure.push({track,ids});
   }
   g.tasks=await page.evaluate(tasks=>tasks.flatMap(expandGameTask),g.tasks);
-  await page.evaluate(tasks=>{window.reviewBank=tasks;session=null;syncOwner=null;arLarare=false;finishAttempt=r=>{state.answered=true;window.result=r;};window.prepareReview=id=>{state.currentTask=reviewBank.find(q=>q.id===id);state.answered=false;state.solutionShown=false;state.partIndex=0;state.partResults=[];state.aktivRuta=0;state.altValda=new Set();state.altOrdningId=null;window.result=null;renderTraining();hjalpSynk();};},g.tasks);
+  await page.evaluate(tasks=>{window.reviewBank=tasks;session=null;syncOwner=null;arLarare=false;finishAttempt=r=>{state.answered=true;window.result=r;};window.prepareReview=id=>{state.currentTask=reviewBank.find(q=>q.id===id);state.answered=false;state.solutionShown=false;state.hintVisible=false;state.partIndex=0;state.partResults=[];state.aktivRuta=0;state.altValda=new Set();state.altOrdningId=null;window.result=null;renderTraining();hjalpSynk();};},g.tasks);
   for(const width of [390,1280]){await page.setViewportSize({width,height:1000});for(const q of g.tasks){const key=g.course+':'+q.id;if(process.env.REVIEW_ONLY&&!new RegExp(process.env.REVIEW_ONLY).test(key))continue;
    if(q.självrättning===false){
     // Manuella uppgifter granskas visuellt; ingen påhittad automatpoäng.
@@ -43,7 +43,7 @@ const special=process.env.REVIEW_CASES_FILE?JSON.parse(fs.readFileSync(process.e
      if(!Array.isArray(r)||r.every(Boolean)!==expected)failures.push({key,width,values,expected,r});checks++;
     }
    }
-   await page.evaluate(id=>{prepareReview(id);showSolution();},q.id);
+   await page.evaluate(id=>{prepareReview(id);visaLedtrad();showSolution();},q.id);
    const status=await page.evaluate(()=>({latex:document.querySelectorAll('.katex-error').length,wide:document.documentElement.scrollWidth>innerWidth+1,math:[...document.querySelectorAll('.task .katex-display')].filter(e=>e.scrollWidth>e.clientWidth+1).map(e=>e.textContent),calculator:raknareTillaten(state.currentTask)}));
    if(status.latex||status.wide||status.math.length||status.calculator!==q.miniräknare)failures.push({key,width,...status});
    views.push({key,width,...status});await page.evaluate(()=>window.scrollTo(0,0));await page.locator('.task').screenshot({path:`${out}/${g.course}-${q.id}-${width}.png`});

@@ -34817,5 +34817,2191 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "svarFormat": "numeriskt",
     "rättSvar": -1,
     "tolerans": 0
+  },
+  {
+    "id": "2.1097",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "exponentialekvation med decimalsvar",
+    "t": "<p>Lös ekvationen \\(10^x=500\\). (Svara med tre decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10^x=500\\Leftrightarrow x=\\lg500\\]</div></li><li><div class=\"facit-matte\">\\[x\\approx2{,}699\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx2{,}699\\)</p></div>",
+    "familj": "Logaritm som invers till exponentialfunktion",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>\\(10^x=a\\) betyder att \\(x=\\lg a\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2.6989700043360187,
+    "tolerans": 0.0005
+  },
+  {
+    "id": "2.1098",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "mellan vilka heltal en logaritm ligger",
+    "t": "<p>Mellan vilka två på varandra följande heltal ligger \\(\\lg4500\\)? Lös uppgiften utan miniräknare.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10^3=1000<4500<10\\,000=10^4\\]</div></li><li><div class=\"facit-matte\">\\[3<\\lg4500<4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mellan 3 och 4.</p></div>",
+    "familj": "Bestämma logaritmvärden",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Mellan vilka tiopotenser ligger 4500?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3,
+      4
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "större än",
+      "mindre än"
+    ]
+  },
+  {
+    "id": "2.1099",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "isolera tiopotensen först",
+    "t": "<p>Lös ekvationen \\(3\\cdot10^x=60\\). (Svara med tre decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10^x=20\\]</div></li><li><div class=\"facit-matte\">\\[x=\\lg20\\approx1{,}301\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx1{,}301\\)</p></div>",
+    "familj": "Logaritm som invers till exponentialfunktion",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dela båda leden med 3 först.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1.3010299956639813,
+    "tolerans": 0.0005
+  },
+  {
+    "id": "2.1100",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "logaritm av ett uttryck",
+    "t": "<p>Lös ekvationen \\(\\lg(x+3)=2\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+3=10^2=100\\]</div></li><li><div class=\"facit-matte\">\\[x=97\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=97\\)</p></div>",
+    "familj": "Logaritm som invers till exponentialfunktion",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Skriv om till exponentialform.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 97,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1101",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "logaritm av en produkt av tiopotenser",
+    "t": "<p>Bestäm \\(\\lg\\left(10^{2{,}5}\\cdot10^{1{,}5}\\right)\\) utan miniräknare.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10^{2{,}5}\\cdot10^{1{,}5}=10^{4}\\]</div></li><li><div class=\"facit-matte\">\\[\\lg10^{4}=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
+    "familj": "Bestämma logaritmvärden",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Förenkla produkten med potensreglerna först.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1102",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "pH-värde ur koncentration",
+    "t": "<p>Surheten i en lösning anges med pH-värdet \\(\\mathrm{pH}=-\\lg[\\mathrm H^+]\\), där \\([\\mathrm H^+]\\) är koncentrationen av vätejoner i mol/dm³. Bestäm pH om \\([\\mathrm H^+]=1{,}0\\cdot10^{-5}\\) mol/dm³.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\mathrm{pH}=-\\lg\\left(10^{-5}\\right)=-(-5)=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> pH = 5</p></div>",
+    "familj": "Bestämma logaritmvärden",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>\\(\\lg10^{-5}=-5\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1103",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "tiopotens med förskjuten exponent",
+    "t": "<p>Lös ekvationen \\(10^{x-4}=0{,}1\\) utan miniräknare.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}1=10^{-1}\\]</div></li><li><div class=\"facit-matte\">\\[x-4=-1\\Rightarrow x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
+    "familj": "Logaritm som invers till exponentialfunktion",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Skriv 0,1 som en tiopotens.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1104",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "koncentration ur pH",
+    "t": "<p>En läsk har pH 3,2. Bestäm vätejonkoncentrationen \\([\\mathrm H^+]\\) om \\(\\mathrm{pH}=-\\lg[\\mathrm H^+]\\). (Svara i mol/dm³ med två värdesiffror.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-\\lg[\\mathrm H^+]=3{,}2\\Rightarrow\\lg[\\mathrm H^+]=-3{,}2\\]</div></li><li><div class=\"facit-matte\">\\[[\\mathrm H^+]=10^{-3{,}2}\\approx6{,}3\\cdot10^{-4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\cdot10^{-4}\\) mol/dm³</p></div>",
+    "familj": "Logaritm som invers till exponentialfunktion",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Lös ut \\(\\lg[\\mathrm H^+]\\) och skriv om till exponentialform.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 0.000630957344480193,
+    "tolerans": 5e-06
+  },
+  {
+    "id": "2.1105",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "ljudnivå när intensiteten fördubblas",
+    "t": "<p>Ljudnivån i decibel är \\(L=10\\cdot\\lg\\dfrac{I}{I_0}\\). Hur många decibel ökar ljudnivån när ljudintensiteten \\(I\\) fördubblas? (Svara med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L_2-L_1=10\\lg\\frac{2I}{I_0}-10\\lg\\frac{I}{I_0}\\]</div></li><li><div class=\"facit-matte\">\\[=10\\lg2\\approx3{,}0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 3,0 dB</p></div>",
+    "familj": "Bestämma logaritmvärden",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Jämför \\(10\\lg\\dfrac{2I}{I_0}\\) med \\(10\\lg\\dfrac{I}{I_0}\\). Pröva gärna med ett tal för \\(I/I_0\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 3.010299956639812,
+    "tolerans": 0.05
+  },
+  {
+    "id": "2.1106",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "jämföra jordskalv på Richterskalan",
+    "t": "<p>Ett jordskalvs magnitud kan beräknas med \\(M=\\lg\\dfrac{A}{A_0}\\), där \\(A\\) är utslaget på en seismograf. Hur många gånger större är utslaget vid ett skalv med \\(M=6\\) än vid ett med \\(M=4\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{A_6}{A_0}=10^6,\\quad\\frac{A_4}{A_0}=10^4\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{A_6}{A_4}=\\frac{10^6}{10^4}=100\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100 gånger större</p></div>",
+    "familj": "Bestämma logaritmvärden",
+    "formaga": [
+      "begrepp",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Skriv om varje magnitud till exponentialform.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 100,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1107",
+    "kap": 2,
+    "omr": "logaritmbegreppet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "logaritm av en kvadrat",
+    "t": "<p>Lös ekvationen \\(\\lg\\left(x^2\\right)=2\\), där \\(x>0\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2=10^2=100\\]</div></li><li><div class=\"facit-matte\">\\[x=10\\quad(x>0)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\)</p></div>",
+    "familj": "Logaritm som invers till exponentialfunktion",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Skriv om till exponentialform. Tänk på villkoret \\(x>0\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1108",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "total ökning under tio år",
+    "t": "<p>Ett pris ökar med 3 % per år i 10 år. Med hur många procent har priset ökat totalt? (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}03^{10}\\approx1{,}344\\]</div></li><li><p>Förändringsfaktorn 1,344 motsvarar en ökning med 34,4 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 34,4 %</p></div>",
+    "familj": "Förändringsfaktor och procent",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Den totala förändringsfaktorn är \\(1{,}03^{10}\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 34.39163793441222,
+    "tolerans": 0.05,
+    "svarEnhet": "%"
+  },
+  {
+    "id": "2.1109",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "minskning följd av ökning",
+    "t": "<p>Ett värde minskar först med 20 % och ökar sedan med 20 %. Med hur många procent har värdet minskat totalt?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}80\\cdot1{,}20=0{,}96\\]</div></li><li><p>Förändringsfaktorn 0,96 betyder en minskning med 4 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 %</p></div>",
+    "familj": "Förändringsfaktor och procent",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Multiplicera förändringsfaktorerna.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "svarEnhet": "%"
+  },
+  {
+    "id": "2.1110",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "värde efter tre halveringar",
+    "t": "<p>En mängd beskrivs av \\(M(t)=1000\\cdot0{,}5^{t/5}\\), där \\(t\\) är tiden i timmar. Bestäm \\(M(15)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M(15)=1000\\cdot0{,}5^{3}\\]</div></li><li><div class=\"facit-matte\">\\[=125\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 125</p></div>",
+    "familj": "Beräkna och tolka exponentialfunktioner",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>\\(15/5=3\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 125,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1111",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "modell ur tabell och prognos",
+    "t": "<p>Tabellen visar en exponentialfunktion.</p><table class=\"data\"><tbody><tr><th>\\(x\\)</th><td>0</td><td>1</td><td>2</td></tr><tr><th>\\(y\\)</th><td>3</td><td>12</td><td>48</td></tr></tbody></table><p>Bestäm \\(y\\) när \\(x=5\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\frac{12}{3}=4,\\quad C=3\\]</div></li><li><div class=\"facit-matte\">\\[y=3\\cdot4^5=3072\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 072</p></div>",
+    "familj": "Bestämma exponentialmodell",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bestäm förändringsfaktorn och startvärdet först.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 3072,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1112",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "minskande modell ur två värden",
+    "t": "<p>En exponentialfunktion \\(f(x)=C\\cdot a^x\\) har \\(f(0)=50\\) och \\(f(1)=40\\). Bestäm \\(f(3)\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[C=50,\\quad a=\\frac{40}{50}=0{,}8\\]</div></li><li><div class=\"facit-matte\">\\[f(3)=50\\cdot0{,}8^3=25{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25,6</p></div>",
+    "familj": "Bestämma exponentialmodell",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>f(0) är startvärdet och \\(a=f(1)/f(0)\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 25.6,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1113",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "årlig procentuell ökning",
+    "t": "<p>En stads befolkning ökade från 2 400 till 3 000 invånare på 4 år. Anta att ökningen var exponentiell. Med hur många procent ökade befolkningen per år? (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2400\\cdot a^4=3000\\Rightarrow a^4=1{,}25\\]</div></li><li><div class=\"facit-matte\">\\[a=1{,}25^{1/4}\\approx1{,}057\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 5,7 % per år</p></div>",
+    "familj": "Bestämma exponentialmodell",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ställ upp \\(2400\\cdot a^4=3000\\) och lös ut a.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 5.737126344056409,
+    "tolerans": 0.05,
+    "svarEnhet": "%"
+  },
+  {
+    "id": "2.1114",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "när värdet blir mindre än hälften",
+    "t": "<p>En bil förlorar 15 % av sitt värde varje år. Efter hur många hela år är värdet för första gången mindre än hälften av nypriset?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}85^4\\approx0{,}522>0{,}5\\]</div></li><li><div class=\"facit-matte\">\\[0{,}85^5\\approx0{,}444<0{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 5 år</p></div>",
+    "familj": "Beräkna och tolka exponentialfunktioner",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Pröva \\(0{,}85^n\\) för olika heltal n.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1115",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "C och a ur två funktionsvärden",
+    "t": "<p>En exponentialfunktion \\(f(x)=C\\cdot a^x\\), med \\(a>0\\), uppfyller \\(f(1)=10\\) och \\(f(3)=40\\). Bestäm \\(C\\) och \\(a\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{f(3)}{f(1)}=a^2=4\\Rightarrow a=2\\]</div></li><li><div class=\"facit-matte\">\\[C\\cdot2=10\\Rightarrow C=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C=5\\), \\(a=2\\)</p></div>",
+    "familj": "Bestämma exponentialmodell",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Dela \\(f(3)\\) med \\(f(1)\\), då försvinner C.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      2
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "C",
+      "a"
+    ]
+  },
+  {
+    "id": "2.1116",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "halveringstid ur två mätningar",
+    "t": "<p>Ett radioaktivt prov väger 80 g. Efter 9 dygn återstår 10 g av det radioaktiva ämnet. Bestäm halveringstiden. (Svara i dygn.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[80\\to40\\to20\\to10\\]</div></li><li><p>Det är tre halveringar på 9 dygn.</p></li><li><div class=\"facit-matte\">\\[T=\\frac{9}{3}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 dygn</p></div>",
+    "familj": "Beräkna och tolka exponentialfunktioner",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur många gånger har mängden halverats?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0,
+    "svarEnhet": "dygn"
+  },
+  {
+    "id": "2.1117",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "köpkraft efter inflation",
+    "t": "<p>Inflationen är 2 % per år. Vad är 100 kr i dag värt i dagens penningvärde om 10 år, alltså \\(\\dfrac{100}{1{,}02^{10}}\\)? (Svara i kr, avrundat till heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{100}{1{,}02^{10}}\\approx\\frac{100}{1{,}219}\\approx82\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 82 kr</p></div>",
+    "familj": "Beräkna och tolka exponentialfunktioner",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Priserna har ökat med faktorn \\(1{,}02^{10}\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 82.03482998751551,
+    "tolerans": 0.5,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "2.1118",
+    "kap": 2,
+    "omr": "exponentialfunktioner",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "modell med månader och år",
+    "t": "<p>Ett värde är 500 kr och minskar med 6 % per månad. Vilken modell ger värdet efter \\(t\\) år?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje månad multipliceras värdet med 0,94. På ett år blir det 12 gånger.</p></li><li><div class=\"facit-matte\">\\[V(t)=500\\cdot0{,}94^{12t}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(500\\cdot0{,}94^{12t}\\)</p></div>",
+    "familj": "Bestämma exponentialmodell",
+    "formaga": [
+      "begrepp",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur många gånger ska faktorn 0,94 användas på ett år?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(500\\cdot0{,}94^{t}\\)",
+        "ratt": false,
+        "kommentar": "Då minskar värdet bara med 6 % per år."
+      },
+      {
+        "txt": "\\(500\\cdot0{,}28^{t}\\)",
+        "ratt": false,
+        "kommentar": "\\(1-12\\cdot0{,}06=0{,}28\\) räknar som om minskningen inte sker på det kvarvarande värdet."
+      },
+      {
+        "txt": "\\(500\\cdot0{,}94^{12t}\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(500\\cdot(1-0{,}06\\cdot12)^{t}\\)",
+        "ratt": false,
+        "kommentar": "Procentuella förändringar multipliceras, de adderas inte."
+      }
+    ]
+  },
+  {
+    "id": "2.1119",
+    "kap": 2,
+    "omr": "rotekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "isolera roten först",
+    "t": "<p>Lös ekvationen \\(\\sqrt{x}+3=7\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt x=4\\]</div></li><li><div class=\"facit-matte\">\\[x=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=16\\)</p></div>",
+    "familj": "Isolera roten och kvadrera",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Flytta över 3 innan du kvadrerar.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1120",
+    "kap": 2,
+    "omr": "rotekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "dela innan du kvadrerar",
+    "t": "<p>Lös ekvationen \\(2\\sqrt{x-1}=6\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{x-1}=3\\]</div></li><li><div class=\"facit-matte\">\\[x-1=9\\Rightarrow x=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\)</p></div>",
+    "familj": "Isolera roten och kvadrera",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dela båda leden med 2 först.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1121",
+    "kap": 2,
+    "omr": "rotekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "rot med x² under rottecknet",
+    "t": "<p>Lös ekvationen \\(\\sqrt{x^2+9}=5\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2+9=25\\]</div></li><li><div class=\"facit-matte\">\\[x^2=16\\Rightarrow x=\\pm4\\]</div></li><li><p>Kontroll: \\(\\sqrt{16+9}=5\\) för båda.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm4\\)</p></div>",
+    "familj": "Isolera roten och kvadrera",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Kvadrera och lös andragradsekvationen. Kontrollera båda.</p>",
+    "svarstyp": "mängd",
+    "rättSvar": [
+      -4,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "lösning",
+      "lösning"
+    ]
+  },
+  {
+    "id": "2.1122",
+    "kap": 2,
+    "omr": "rotekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "två rötter som ska vara lika",
+    "t": "<p>Lös ekvationen \\(\\sqrt{5x+1}=\\sqrt{2x+7}\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5x+1=2x+7\\]</div></li><li><div class=\"facit-matte\">\\[3x=6\\Rightarrow x=2\\]</div></li><li><p>Kontroll: \\(\\sqrt{11}=\\sqrt{11}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+    "familj": "Isolera roten och kvadrera",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Kvadrera båda leden.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1123",
+    "kap": 2,
+    "omr": "rotekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "rätt kvadrering av ett binom",
+    "t": "<p>Lisa ska lösa \\(\\sqrt{x+3}=x-3\\). Vilken ekvation får hon när hon kvadrerar båda leden?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(\\sqrt{x+3})^2=(x-3)^2\\]</div></li><li><div class=\"facit-matte\">\\[x+3=x^2-6x+9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+3=x^2-6x+9\\)</p></div>",
+    "familj": "Falska rötter och kontroll",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Högerledet ska kvadreras med kvadreringsregeln.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(x+3=x^2+9\\)",
+        "ratt": false,
+        "kommentar": "Dubbla produkten saknas."
+      },
+      {
+        "txt": "\\(x+3=x^2-6x+9\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(x+3=x^2-9\\)",
+        "ratt": false,
+        "kommentar": "Det är konjugatregeln, men här kvadreras ett binom."
+      },
+      {
+        "txt": "\\(x^2+9=x-3\\)",
+        "ratt": false,
+        "kommentar": "Det är vänsterledet som blir \\(x+3\\)."
+      }
+    ]
+  },
+  {
+    "id": "2.1124",
+    "kap": 2,
+    "omr": "rotekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "en falsk rot att förkasta",
+    "t": "<p>Lös ekvationen \\(\\sqrt{x+1}=x-5\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+1=x^2-10x+25\\]</div></li><li><div class=\"facit-matte\">\\[x^2-11x+24=0\\Rightarrow x=3\\ \\text{eller}\\ x=8\\]</div></li><li><p>Kontroll: \\(x=8\\) ger \\(3=3\\). \\(x=3\\) ger \\(2=-2\\), alltså en falsk rot.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
+    "familj": "Falska rötter och kontroll",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Kvadrera, lös andragradsekvationen och pröva båda lösningarna i den ursprungliga ekvationen.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1125",
+    "kap": 2,
+    "omr": "rotekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "x lika med en rot",
+    "t": "<p>Lös ekvationen \\(x=\\sqrt{3x+10}\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2=3x+10\\]</div></li><li><div class=\"facit-matte\">\\[x^2-3x-10=0\\Rightarrow x=5\\ \\text{eller}\\ x=-2\\]</div></li><li><p>Kontroll: \\(x=5\\) ger \\(5=5\\). \\(x=-2\\) är falsk, eftersom en rot inte kan vara negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+    "familj": "Falska rötter och kontroll",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Pröva lösningarna. Kan \\(x\\) vara negativt när det är lika med en kvadratrot?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1126",
+    "kap": 2,
+    "omr": "rotekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "falsk rot med binom i högerledet",
+    "t": "<p>Lös ekvationen \\(\\sqrt{2x+7}=x+2\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x+7=x^2+4x+4\\]</div></li><li><div class=\"facit-matte\">\\[x^2+2x-3=0\\Rightarrow x=1\\ \\text{eller}\\ x=-3\\]</div></li><li><p>Kontroll: \\(x=1\\) ger \\(3=3\\). \\(x=-3\\) ger \\(1=-1\\), en falsk rot.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div>",
+    "familj": "Falska rötter och kontroll",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Kvadrera båda leden och kontrollera lösningarna.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1127",
+    "kap": 2,
+    "omr": "rotekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "pendellängd ur svängningstid",
+    "t": "<p>Svängningstiden för en pendel är \\(T=2\\pi\\sqrt{\\dfrac{L}{g}}\\), där \\(L\\) är längden i meter och \\(g=9{,}82\\) m/s². Hur lång är en pendel med \\(T=2{,}0\\) s? (Svara i m med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{\\frac{L}{9{,}82}}=\\frac{2{,}0}{2\\pi}\\]</div></li><li><div class=\"facit-matte\">\\[L=9{,}82\\cdot\\left(\\frac{2{,}0}{2\\pi}\\right)^2\\approx0{,}99\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 0,99 m</p></div>",
+    "familj": "Isolera roten och kvadrera",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Isolera roten och kvadrera sedan.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 0.9949740233677571,
+    "tolerans": 0.005,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "2.1128",
+    "kap": 2,
+    "omr": "rotekvationer",
+    "kurs": [
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "fallhöjd ur falltid",
+    "t": "<p>Falltiden för ett föremål som släpps från höjden \\(h\\) meter är \\(t=\\sqrt{\\dfrac{2h}{9{,}82}}\\) sekunder. Ett föremål faller i 3,0 s. Från vilken höjd släpptes det? (Svara i m med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{2h}{9{,}82}=3{,}0^2=9\\]</div></li><li><div class=\"facit-matte\">\\[h=\\frac{9\\cdot9{,}82}{2}\\approx44{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 44,2 m</p></div>",
+    "familj": "Isolera roten och kvadrera",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Kvadrera båda leden och lös ut h.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 44.19,
+    "tolerans": 0.05,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "2.1129",
+    "kap": 2,
+    "omr": "enkla_andragradsekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "kvadrat lika med 49",
+    "t": "<p>Lös ekvationen \\((2x-1)^2=49\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x-1=\\pm7\\]</div></li><li><div class=\"facit-matte\">\\[x=4\\quad\\text{eller}\\quad x=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\) eller \\(x=-3\\)</p></div>",
+    "familj": "Ekvationer av typen (x + a)² = b",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dra roten ur båda leden och lös två förstagradsekvationer.</p>",
+    "svarstyp": "mängd",
+    "rättSvar": [
+      4,
+      -3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "lösning",
+      "lösning"
+    ]
+  },
+  {
+    "id": "2.1130",
+    "kap": 2,
+    "omr": "enkla_andragradsekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "exakt sida ur arean",
+    "t": "<p>En kvadrat har sidan \\(x+2\\) cm och arean 50 cm². Bestäm \\(x\\) exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x+2)^2=50\\]</div></li><li><div class=\"facit-matte\">\\[x+2=\\sqrt{50}=5\\sqrt2\\quad(\\text{sidan är positiv})\\]</div></li><li><div class=\"facit-matte\">\\[x=5\\sqrt2-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\sqrt2-2\\)</p></div>",
+    "familj": "Ekvationer av typen (x + a)² = b",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ta bara den positiva roten, eftersom en sida är positiv. \\(\\sqrt{50}=5\\sqrt2\\).</p>",
+    "svarstyp": "uttryck",
+    "svarFormat": "uttryck",
+    "rättSvar": "-2+5*sqrt(2)",
+    "tolerans": 0
+  },
+  {
+    "id": "2.1131",
+    "kap": 2,
+    "omr": "enkla_andragradsekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "radie ur ökad cirkelarea",
+    "t": "<p>När radien i en cirkel ökas med 2 cm blir arean \\(100\\pi\\) cm². Hur stor var radien från början? (Svara i cm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\pi(r+2)^2=100\\pi\\]</div></li><li><div class=\"facit-matte\">\\[(r+2)^2=100\\Rightarrow r+2=10\\]</div></li><li><div class=\"facit-matte\">\\[r=8\\quad(r+2=-10\\ \\text{förkastas})\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 cm</p></div>",
+    "familj": "Ekvationer av typen (x + a)² = b",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Dela med π och lös \\((r+2)^2=100\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "2.1132",
+    "kap": 2,
+    "omr": "enkla_andragradsekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "falltid med decimalsvar",
+    "t": "<p>Ett föremål faller sträckan \\(s=4{,}91t^2\\) meter på \\(t\\) sekunder. Hur lång tid tar det att falla 20 m? (Svara i s med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4{,}91t^2=20\\]</div></li><li><div class=\"facit-matte\">\\[t^2\\approx4{,}073\\Rightarrow t\\approx2{,}02\\quad(t>0)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 2,02 s</p></div>",
+    "familj": "Ekvationer av typen x² = a",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dela med 4,91 och dra roten ur. Bara positiv tid är rimlig.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 2.018246703354378,
+    "tolerans": 0.005,
+    "svarEnhet": "s"
+  },
+  {
+    "id": "2.1133",
+    "kap": 2,
+    "omr": "enkla_andragradsekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "x² i båda leden",
+    "t": "<p>Lös ekvationen \\(x^2=2x^2-8\\). Svara exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8=x^2\\]</div></li><li><div class=\"facit-matte\">\\[x=\\pm\\sqrt8=\\pm2\\sqrt2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\sqrt2\\)</p></div>",
+    "familj": "Ekvationer av typen x² = a",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Samla \\(x^2\\)-termerna i ett led.</p>",
+    "svarstyp": "mängd",
+    "rättSvar": [
+      "2*sqrt(2)",
+      "-2*sqrt(2)"
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "lösning",
+      "lösning"
+    ]
+  },
+  {
+    "id": "2.1134",
+    "kap": 2,
+    "omr": "enkla_andragradsekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "parameter ur en känd lösning",
+    "t": "<p>Ekvationen \\((x-a)^2=16\\) har lösningen \\(x=1\\). Den andra lösningen är större än 1. Bestäm \\(a\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=a\\pm4\\]</div></li><li><p>Om \\(a-4=1\\) är \\(a=5\\), och den andra lösningen blir 9. Om \\(a+4=1\\) är \\(a=-3\\), och den andra blir \\(-7\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\)</p></div>",
+    "familj": "Ekvationer av typen (x + a)² = b",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Lösningarna är \\(a+4\\) och \\(a-4\\). Vilken av dem kan vara 1 om den andra ska vara större?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1135",
+    "kap": 2,
+    "omr": "enkla_andragradsekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "räntesats ur två års tillväxt",
+    "t": "<p>Ett kapital på 10 000 kr växer till 12 100 kr på två år med samma räntesats \\(r\\) varje år. Då gäller \\(10\\,000(1+r)^2=12\\,100\\). Bestäm räntesatsen i procent.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(1+r)^2=1{,}21\\]</div></li><li><div class=\"facit-matte\">\\[1+r=1{,}1\\quad(1+r>0)\\]</div></li><li><div class=\"facit-matte\">\\[r=0{,}10=10\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 %</p></div>",
+    "familj": "Ekvationer av typen (x + a)² = b",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Dela med 10 000 och dra roten ur. Bara den positiva roten är rimlig.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 10,
+    "tolerans": 0,
+    "svarEnhet": "%"
+  },
+  {
+    "id": "2.1136",
+    "kap": 2,
+    "omr": "enkla_andragradsekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "dubbelrot",
+    "t": "<p>Lös ekvationen \\((x+5)^2=0\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+5=0\\]</div></li><li><div class=\"facit-matte\">\\[x=-5\\]</div></li><li><p>Ekvationen har bara en lösning (en dubbelrot).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div>",
+    "familj": "Ekvationer av typen (x + a)² = b",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>När är en kvadrat lika med noll?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -5,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1137",
+    "kap": 2,
+    "omr": "enkla_andragradsekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "kateter i likbent rätvinklig triangel",
+    "t": "<p>En rätvinklig och likbent triangel har hypotenusan 10 cm. Hur långa är kateterna? (Svara i cm med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2+x^2=10^2\\]</div></li><li><div class=\"facit-matte\">\\[2x^2=100\\Rightarrow x=\\sqrt{50}\\approx7{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 7,1 cm</p></div>",
+    "familj": "Ekvationer av typen x² = a",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Båda kateterna är lika långa. Använd Pythagoras sats.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 7.0710678118654755,
+    "tolerans": 0.05,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "2.1138",
+    "kap": 2,
+    "omr": "enkla_andragradsekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "kvadrat av en kvadrat",
+    "t": "<p>Lös ekvationen \\((x^2-3)^2=1\\). Svara exakt.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2-3=\\pm1\\]</div></li><li><div class=\"facit-matte\">\\[x^2=4\\quad\\text{eller}\\quad x^2=2\\]</div></li><li><div class=\"facit-matte\">\\[x=\\pm2\\quad\\text{eller}\\quad x=\\pm\\sqrt2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\) och \\(x=\\pm\\sqrt2\\)</p></div>",
+    "familj": "Ekvationer av typen (x + a)² = b",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Dra roten ur först. Då får du två ekvationer av typen \\(x^2=a\\).</p>",
+    "svarstyp": "mängd",
+    "rättSvar": [
+      "2",
+      "-2",
+      "sqrt(2)",
+      "-sqrt(2)"
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarFormat": [
+      "uttryck",
+      "uttryck",
+      "uttryck",
+      "uttryck"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "lösning",
+      "lösning",
+      "lösning",
+      "lösning"
+    ]
+  },
+  {
+    "id": "2.1139",
+    "kap": 2,
+    "omr": "nollproduktmetoden",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "samla termerna och bryt ut",
+    "t": "<p>Lös ekvationen \\(x^2+6x=7x\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2-x=0\\]</div></li><li><div class=\"facit-matte\">\\[x(x-1)=0\\]</div></li><li><div class=\"facit-matte\">\\[x=0\\quad\\text{eller}\\quad x=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) eller \\(x=1\\)</p></div>",
+    "familj": "Faktorisera och lösa med nollproduktmetoden",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Flytta över allt till vänster led och bryt ut x. Dela inte med x.</p>",
+    "svarstyp": "mängd",
+    "rättSvar": [
+      0,
+      1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "lösning",
+      "lösning"
+    ]
+  },
+  {
+    "id": "2.1140",
+    "kap": 2,
+    "omr": "nollproduktmetoden",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "faktor med koefficient",
+    "t": "<p>Ange alla x som gör att \\((3x-6)(x+2)=0\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x-6=0\\quad\\text{eller}\\quad x+2=0\\]</div></li><li><div class=\"facit-matte\">\\[x=2\\quad\\text{eller}\\quad x=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\)</p></div>",
+    "familj": "Nollproduktmetoden i faktoriserad form",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sätt varje faktor lika med noll.</p>",
+    "svarstyp": "mängd",
+    "rättSvar": [
+      2,
+      -2
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "lösning",
+      "lösning"
+    ]
+  },
+  {
+    "id": "2.1141",
+    "kap": 2,
+    "omr": "nollproduktmetoden",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "bryt ut x²",
+    "t": "<p>Lös ekvationen \\(x^3=7x^2\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^3-7x^2=0\\]</div></li><li><div class=\"facit-matte\">\\[x^2(x-7)=0\\]</div></li><li><div class=\"facit-matte\">\\[x=0\\quad\\text{eller}\\quad x=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) eller \\(x=7\\)</p></div>",
+    "familj": "Faktorisera och lösa med nollproduktmetoden",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bryt ut \\(x^2\\).</p>",
+    "svarstyp": "mängd",
+    "rättSvar": [
+      0,
+      7
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "lösning",
+      "lösning"
+    ]
+  },
+  {
+    "id": "2.1142",
+    "kap": 2,
+    "omr": "nollproduktmetoden",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "gemensam faktor i båda leden",
+    "t": "<p>Elin ska lösa \\((x-2)(x+3)=(x-2)(2x-1)\\). Hjälp henne att hitta alla lösningar utan att dela båda leden med \\(x-2\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x-2)(x+3)-(x-2)(2x-1)=0\\]</div></li><li><div class=\"facit-matte\">\\[(x-2)\\big((x+3)-(2x-1)\\big)=0\\]</div></li><li><div class=\"facit-matte\">\\[(x-2)(4-x)=0\\]</div></li><li><div class=\"facit-matte\">\\[x=2\\quad\\text{eller}\\quad x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\) eller \\(x=4\\)</p></div>",
+    "familj": "Nollproduktmetoden i faktoriserad form",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Dela inte med \\(x-2\\). Flytta över allt och bryt ut \\(x-2\\).</p>",
+    "svarstyp": "mängd",
+    "rättSvar": [
+      2,
+      4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "lösning",
+      "lösning"
+    ]
+  },
+  {
+    "id": "2.1143",
+    "kap": 2,
+    "omr": "nollproduktmetoden",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "tre faktorer",
+    "t": "<p>Lös ekvationen \\(x(x-3)(2x+1)=0\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=0,\\quad x-3=0,\\quad 2x+1=0\\]</div></li><li><div class=\"facit-matte\">\\[x=0,\\ x=3\\ \\text{eller}\\ x=-\\tfrac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\), \\(x=3\\) eller \\(x=-\\frac12\\)</p></div>",
+    "familj": "Nollproduktmetoden i faktoriserad form",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En produkt är noll om någon av faktorerna är noll.</p>",
+    "svarstyp": "mängd",
+    "rättSvar": [
+      0,
+      3,
+      -0.5
+    ],
+    "tolerans": [
+      null,
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "lösning",
+      "lösning",
+      "lösning"
+    ]
+  },
+  {
+    "id": "2.1144",
+    "kap": 2,
+    "omr": "nollproduktmetoden",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "boll som landar",
+    "t": "<p>En boll sparkas rakt upp från marken. Höjden är \\(h(t)=20t-5t^2\\) meter efter \\(t\\) sekunder. När är bollen tillbaka på marken? (Svara i s.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[20t-5t^2=0\\]</div></li><li><div class=\"facit-matte\">\\[5t(4-t)=0\\]</div></li><li><div class=\"facit-matte\">\\[t=0\\quad\\text{eller}\\quad t=4\\]</div></li><li><p>\\(t=0\\) är när bollen sparkas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 4 s</p></div>",
+    "familj": "Faktorisera och lösa med nollproduktmetoden",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bryt ut 5t.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "svarEnhet": "s"
+  },
+  {
+    "id": "2.1145",
+    "kap": 2,
+    "omr": "nollproduktmetoden",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "area lika med ett uttryck",
+    "t": "<p>En rektangel har längden \\(2x\\) cm och bredden \\(x-3\\) cm, där \\(x>3\\). Arean är lika stor som \\(4x\\) cm². Bestäm \\(x\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x(x-3)=4x\\]</div></li><li><div class=\"facit-matte\">\\[2x(x-3)-4x=0\\Rightarrow 2x(x-5)=0\\]</div></li><li><div class=\"facit-matte\">\\[x=5\\quad(x=0\\ \\text{förkastas})\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+    "familj": "Faktorisera och lösa med nollproduktmetoden",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ställ upp ekvationen, flytta över allt och bryt ut 2x.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1146",
+    "kap": 2,
+    "omr": "nollproduktmetoden",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "parameter för gemensam lösning",
+    "t": "<p>Ekvationerna \\(x(x-a)=0\\) och \\((x-4)(x+1)=0\\) ska ha en gemensam lösning som inte är 0. Vilka värden kan \\(a\\) ha?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den första ekvationen har lösningarna 0 och a. Den andra har 4 och −1.</p></li><li><div class=\"facit-matte\">\\[a=4\\quad\\text{eller}\\quad a=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\) eller \\(a=-1\\)</p></div>",
+    "familj": "Nollproduktmetoden i faktoriserad form",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Lös båda ekvationerna. Vilka lösningar kan sammanfalla?</p>",
+    "svarstyp": "mängd",
+    "rättSvar": [
+      4,
+      -1
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "lösning",
+      "lösning"
+    ]
+  },
+  {
+    "id": "2.1147",
+    "kap": 2,
+    "omr": "nollproduktmetoden",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "två konjugatfaktorer",
+    "t": "<p>Lös ekvationen \\((x^2-4)(x^2-9)=0\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2-4=0\\quad\\text{eller}\\quad x^2-9=0\\]</div></li><li><div class=\"facit-matte\">\\[x=\\pm2\\quad\\text{eller}\\quad x=\\pm3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\) och \\(x=\\pm3\\)</p></div>",
+    "familj": "Nollproduktmetoden i faktoriserad form",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Varje faktor kan vara noll. Varje faktor ger två lösningar.</p>",
+    "svarstyp": "mängd",
+    "rättSvar": [
+      -3,
+      -2,
+      2,
+      3
+    ],
+    "tolerans": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt",
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "lösning",
+      "lösning",
+      "lösning",
+      "lösning"
+    ]
+  },
+  {
+    "id": "2.1148",
+    "kap": 2,
+    "omr": "nollproduktmetoden",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "fel användning av nollproduktmetoden",
+    "t": "<p>Sara löser \\((x+1)(x-3)=5\\) genom att skriva \\(x+1=5\\) eller \\(x-3=5\\). Vad är fel?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nollproduktmetoden bygger på att en produkt bara kan bli noll om en faktor är noll. En produkt kan bli 5 på många sätt, till exempel \\(1\\cdot5\\) eller \\(2{,}5\\cdot2\\).</p></li><li><div class=\"facit-matte\">\\[x^2-2x-3=5\\Rightarrow x^2-2x-8=0\\Rightarrow(x-4)(x+2)=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Högerledet måste vara 0. Lösningarna är \\(x=4\\) och \\(x=-2\\).</p></div>",
+    "familj": "Nollproduktmetoden i faktoriserad form",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Varför fungerar metoden när högerledet är 0?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Hon borde ha delat båda leden med \\(x+1\\)",
+        "ratt": false,
+        "kommentar": "Då kan man tappa lösningar."
+      },
+      {
+        "txt": "Inget, metoden fungerar för alla högerled",
+        "ratt": false,
+        "kommentar": "Pröva x = 4: (5)(1) = 5, men det följer inte av hennes metod."
+      },
+      {
+        "txt": "Högerledet måste vara 0 för att metoden ska fungera",
+        "ratt": true
+      },
+      {
+        "txt": "Hon borde ha skrivit \\(x+1=0\\) och \\(x-3=5\\)",
+        "ratt": false,
+        "kommentar": "Det finns ingen sådan regel."
+      }
+    ]
+  },
+  {
+    "id": "2.1149",
+    "kap": 2,
+    "omr": "potensekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "jämn exponent ger två rötter",
+    "t": "<p>Lös ekvationen \\(x^4=81\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=\\pm\\sqrt[4]{81}\\]</div></li><li><div class=\"facit-matte\">\\[x=\\pm3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm3\\)</p></div>",
+    "familj": "Isolera potensen och ta roten",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En jämn exponent ger både en positiv och en negativ lösning.</p>",
+    "svarstyp": "mängd",
+    "rättSvar": [
+      -3,
+      3
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "lösning",
+      "lösning"
+    ]
+  },
+  {
+    "id": "2.1150",
+    "kap": 2,
+    "omr": "potensekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "udda exponent och negativt högerled",
+    "t": "<p>Lös ekvationen \\(x^5=-32\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=\\sqrt[5]{-32}=-2\\]</div></li><li><p>Kontroll: \\((-2)^5=-32\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
+    "familj": "Isolera potensen och ta roten",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En udda exponent ger en lösning, och den kan vara negativ.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -2,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1151",
+    "kap": 2,
+    "omr": "potensekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "skiftad tredjegradspotens",
+    "t": "<p>Vilket x uppfyller \\(2(x-1)^3=-16\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x-1)^3=-8\\]</div></li><li><div class=\"facit-matte\">\\[x-1=-2\\]</div></li><li><div class=\"facit-matte\">\\[x=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div>",
+    "familj": "Skiftade potensekvationer och två rötter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Isolera \\((x-1)^3\\) först.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1152",
+    "kap": 2,
+    "omr": "potensekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "radie ur klotets volym",
+    "t": "<p>Ett klot har volymen 1 000 cm³. Volymen är \\(V=\\dfrac{4\\pi r^3}{3}\\). Bestäm radien. (Svara i cm med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r^3=\\frac{3\\cdot1000}{4\\pi}\\approx238{,}7\\]</div></li><li><div class=\"facit-matte\">\\[r=\\sqrt[3]{238{,}7}\\approx6{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 6,2 cm</p></div>",
+    "familj": "Isolera potensen och ta roten",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Lös ut \\(r^3\\) och ta tredje roten.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 6.203504908994,
+    "tolerans": 0.05,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "2.1153",
+    "kap": 2,
+    "omr": "potensekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "exponent en halv",
+    "t": "<p>Lös ekvationen \\(x^{1/2}=6\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^{1/2}=\\sqrt x=6\\]</div></li><li><div class=\"facit-matte\">\\[x=36\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=36\\)</p></div>",
+    "familj": "Isolera potensen och ta roten",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>\\(x^{1/2}=\\sqrt x\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 36,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1154",
+    "kap": 2,
+    "omr": "potensekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "exponent tre halva",
+    "t": "<p>Lös ekvationen \\(x^{3/2}=27\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=27^{2/3}\\]</div></li><li><div class=\"facit-matte\">\\[=\\left(\\sqrt[3]{27}\\right)^2=3^2=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=9\\)</p></div>",
+    "familj": "Isolera potensen och ta roten",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Upphöj båda leden till \\(\\tfrac23\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0
+  },
+  {
+    "id": "2.1155",
+    "kap": 2,
+    "omr": "potensekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "kantlängd när volymen fördubblas",
+    "t": "<p>En kubs volym fördubblas. Hur många gånger längre blir kanten? (Svara med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(ka)^3=2a^3\\Rightarrow k^3=2\\]</div></li><li><div class=\"facit-matte\">\\[k=\\sqrt[3]2\\approx1{,}26\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,26 gånger</p></div>",
+    "familj": "Isolera potensen och ta roten",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Kalla förstoringen k. Volymen ändras med \\(k^3\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1.2599210498948732,
+    "tolerans": 0.005
+  },
+  {
+    "id": "2.1156",
+    "kap": 2,
+    "omr": "potensekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "förändringsfaktor ur fyra år",
+    "t": "<p>Ett kapital växer från 5 000 kr till 6 000 kr på 4 år. Bestäm den årliga förändringsfaktorn. (Svara med tre decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5000\\cdot a^4=6000\\Rightarrow a^4=1{,}2\\]</div></li><li><div class=\"facit-matte\">\\[a=1{,}2^{1/4}\\approx1{,}047\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,047</p></div>",
+    "familj": "Isolera potensen och ta roten",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Lös potensekvationen \\(a^4=1{,}2\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 1.0466351393921056,
+    "tolerans": 0.0005
+  },
+  {
+    "id": "2.1157",
+    "kap": 2,
+    "omr": "potensekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "skiftad fjärdegradspotens",
+    "t": "<p>Lös ekvationen \\((x+2)^4=16\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+2=\\pm2\\]</div></li><li><div class=\"facit-matte\">\\[x=0\\quad\\text{eller}\\quad x=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) eller \\(x=-4\\)</p></div>",
+    "familj": "Skiftade potensekvationer och två rötter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ta fjärde roten. Tänk på både plus och minus.</p>",
+    "svarstyp": "mängd",
+    "rättSvar": [
+      0,
+      -4
+    ],
+    "tolerans": [
+      null,
+      null
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "mängd",
+    "svarEtiketter": [
+      "lösning",
+      "lösning"
+    ]
+  },
+  {
+    "id": "2.1158",
+    "kap": 2,
+    "omr": "potensekvationer",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "antal reella lösningar",
+    "t": "<p>Hur många reella lösningar har ekvationerna \\(x^3=-8\\) och \\(x^4=-16\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x^3=-8\\) har lösningen \\(x=-2\\), eftersom udda potenser kan vara negativa.</p></li><li><p>\\(x^4\\) är aldrig negativt, så \\(x^4=-16\\) saknar reella lösningar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 respektive 0</p></div>",
+    "familj": "Skiftade potensekvationer och två rötter",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Kan en udda respektive jämn potens vara negativ?</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      1,
+      0
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x³ = −8",
+      "x⁴ = −16"
+    ]
   }
 ];

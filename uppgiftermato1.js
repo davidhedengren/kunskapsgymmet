@@ -115733,6 +115733,478 @@ window.BANKMATO1 = [
   "svarFormat": "numeriskt",
   "tolerans": 0.005,
   "svarEnhet": "cm"
+},
+  {
+  "id": "3.1233",
+  "kap": 3,
+  "omr": "derivatan_och_grafen",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Funktionens graf och derivatans graf",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Figuren visar derivatan till f. Funktionen g ges av \\(g(x)=f(x)-x\\). Vid vilket x-värde har g en lokal maximipunkt? Svara med en decimal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 325\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen visar f′, med räta linjestycken.\"><title>Grafen visar f′, med räta linjestycken.</title><rect width=\"500\" height=\"325\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"65.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M125.83333333333334 50V250\" stroke=\"#dbe3eb\"/><text x=\"125.83\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M186.66666666666669 50V250\" stroke=\"#dbe3eb\"/><text x=\"186.67\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M247.5 50V250\" stroke=\"#dbe3eb\"/><text x=\"247.50\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M308.33333333333337 50V250\" stroke=\"#dbe3eb\"/><text x=\"308.33\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M369.1666666666667 50V250\" stroke=\"#dbe3eb\"/><text x=\"369.17\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">5</text><path d=\"M430.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"430.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">6</text><path d=\"M65 250.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"256.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">−2</text><path d=\"M65 200.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"206.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">−1</text><path d=\"M65 150.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"156.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M65 100.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"106.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M65 50.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"56.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M65.0 48V252\" stroke=\"#526777\" stroke-width=\"1.7\"/><path d=\"M63 150.0H435\" stroke=\"#526777\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"307.00\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">x</text><text x=\"65.00\" y=\"29.00\" text-anchor=\"start\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">f′(x)</text><defs><clipPath id=\"clip-dg1233\"><rect x=\"63\" y=\"48\" width=\"370\" height=\"205\"/></clipPath></defs><g clip-path=\"url(#clip-dg1233)\"><polyline points=\"65.00,250.00 308.33,50.00 430.00,250.00\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></g></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Termen −x minskar derivatan med 1</p><p>Derivatan till g är g′(x) = f′(x)−1. Därför är g′ noll där den ritade grafen har höjden 1.</p></li><li><p class=\"facit-rubrik\">g har vågrät tangent där f′ är 1</p><p>På den stigande linjen är höjden 1 vid x = 3. På den fallande linjen ligger höjden 1 halvvägs mellan (4, 2) och (5, 0), alltså vid x = 4,5. Mellan dessa punkter är f′ större än 1, så g växer. Efter 4,5 är g′ negativ.</p></li><li><p class=\"facit-rubrik\">Vid 4,5 börjar g avta</p><p>Vid 4,5 byter g alltså från växande till avtagande. Vid 3 är det i stället en minimipunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x = 4,5.</strong></p></div>",
+  "ledtrad": "<p>Vilken nivå i derivatagrafen motsvarar g′(x) = 0?</p>",
+  "rättSvar": 4.5,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+  {
+  "id": "3.1234",
+  "kap": 3,
+  "omr": "derivatan_och_grafen",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Funktionens graf och derivatans graf",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Grafen visar f′. Bestäm x-koordinaten för en lokal maximipunkt till \\(h(x)=7-2f(x)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 325\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen visar derivatan f′.\"><title>Grafen visar derivatan f′.</title><rect width=\"500\" height=\"325\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"65.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M156.25 50V250\" stroke=\"#dbe3eb\"/><text x=\"156.25\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M247.5 50V250\" stroke=\"#dbe3eb\"/><text x=\"247.50\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M338.75 50V250\" stroke=\"#dbe3eb\"/><text x=\"338.75\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M430.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"430.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65 250.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"256.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">−2</text><path d=\"M65 183.33333333333331H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"189.33\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M65 116.66666666666666H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"122.67\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M65 50.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"56.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65.0 48V252\" stroke=\"#526777\" stroke-width=\"1.7\"/><path d=\"M63 183.33333333333331H435\" stroke=\"#526777\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"307.00\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">x</text><text x=\"65.00\" y=\"29.00\" text-anchor=\"start\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">f′(x)</text><defs><clipPath id=\"clip-dg1234\"><rect x=\"63\" y=\"48\" width=\"370\" height=\"205\"/></clipPath></defs><g clip-path=\"url(#clip-dg1234)\"><polyline points=\"65.00,83.33 68.04,87.74 71.08,92.07 74.12,96.33 77.17,100.52 80.21,104.63 83.25,108.67 86.29,112.63 89.33,116.52 92.38,120.33 95.42,124.07 98.46,127.74 101.50,131.33 104.54,134.85 107.58,138.30 110.62,141.67 113.67,144.96 116.71,148.19 119.75,151.33 122.79,154.41 125.83,157.41 128.88,160.33 131.92,163.19 134.96,165.96 138.00,168.67 141.04,171.30 144.08,173.85 147.12,176.33 150.17,178.74 153.21,181.07 156.25,183.33 159.29,185.52 162.33,187.63 165.38,189.67 168.42,191.63 171.46,193.52 174.50,195.33 177.54,197.07 180.58,198.74 183.62,200.33 186.67,201.85 189.71,203.30 192.75,204.67 195.79,205.96 198.83,207.19 201.88,208.33 204.92,209.41 207.96,210.41 211.00,211.33 214.04,212.19 217.08,212.96 220.12,213.67 223.17,214.30 226.21,214.85 229.25,215.33 232.29,215.74 235.33,216.07 238.38,216.33 241.42,216.52 244.46,216.63 247.50,216.67 250.54,216.63 253.58,216.52 256.62,216.33 259.67,216.07 262.71,215.74 265.75,215.33 268.79,214.85 271.83,214.30 274.88,213.67 277.92,212.96 280.96,212.19 284.00,211.33 287.04,210.41 290.08,209.41 293.12,208.33 296.17,207.19 299.21,205.96 302.25,204.67 305.29,203.30 308.33,201.85 311.38,200.33 314.42,198.74 317.46,197.07 320.50,195.33 323.54,193.52 326.58,191.63 329.62,189.67 332.67,187.63 335.71,185.52 338.75,183.33 341.79,181.07 344.83,178.74 347.88,176.33 350.92,173.85 353.96,171.30 357.00,168.67 360.04,165.96 363.08,163.19 366.12,160.33 369.17,157.41 372.21,154.41 375.25,151.33 378.29,148.19 381.33,144.96 384.38,141.67 387.42,138.30 390.46,134.85 393.50,131.33 396.54,127.74 399.58,124.07 402.62,120.33 405.67,116.52 408.71,112.63 411.75,108.67 414.79,104.63 417.83,100.52 420.88,96.33 423.92,92.07 426.96,87.74 430.00,83.33\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></g></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckenbytena ger f:s maximum och minimum</p><p>För f är x = 1 en maximipunkt eftersom derivatan byter från positiv till negativ. Vid x = 3 sker motsatt byte, så f har ett minimum.</p></li><li><p class=\"facit-rubrik\">Faktorn −2 gör f:s minimum till h:s maximum</p><p>Multiplikation med −2 vänder grafen upp och ned. Ett minimum hos f blir ett maximum hos h. Konstanten 7 flyttar bara grafen uppåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x = 3.</strong></p></div>",
+  "ledtrad": "<p>Hur påverkar en negativ faktor maximi- och minimipunkter?</p>",
+  "rättSvar": 3,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+  {
+  "id": "3.1235",
+  "kap": 3,
+  "omr": "derivatan_och_grafen",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Funktionens graf och derivatans graf",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Figuren visar f′ och man vet att f(1) = 4. En elev säger att f(3) kan vara mindre än 4 eftersom f′(2) = 0. Vilken bedömning är riktig? Välj ett alternativ.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 325\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"En derivatagraf som tangerar x-axeln vid x=2.\"><title>En derivatagraf som tangerar x-axeln vid x=2.</title><rect width=\"500\" height=\"325\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"65.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M156.25 50V250\" stroke=\"#dbe3eb\"/><text x=\"156.25\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M247.5 50V250\" stroke=\"#dbe3eb\"/><text x=\"247.50\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M338.75 50V250\" stroke=\"#dbe3eb\"/><text x=\"338.75\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M430.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"430.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65 250.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"256.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M65 200.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"206.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M65 150.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"156.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M65 100.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"106.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M65 50.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"56.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65.0 48V252\" stroke=\"#526777\" stroke-width=\"1.7\"/><path d=\"M63 250.0H435\" stroke=\"#526777\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"307.00\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">x</text><text x=\"65.00\" y=\"29.00\" text-anchor=\"start\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">f′(x)</text><defs><clipPath id=\"clip-dg1235\"><rect x=\"63\" y=\"48\" width=\"370\" height=\"205\"/></clipPath></defs><g clip-path=\"url(#clip-dg1235)\"><polyline points=\"65.00,50.00 68.04,56.61 71.08,63.11 74.12,69.50 77.17,75.78 80.21,81.94 83.25,88.00 86.29,93.94 89.33,99.78 92.38,105.50 95.42,111.11 98.46,116.61 101.50,122.00 104.54,127.28 107.58,132.44 110.62,137.50 113.67,142.44 116.71,147.28 119.75,152.00 122.79,156.61 125.83,161.11 128.88,165.50 131.92,169.78 134.96,173.94 138.00,178.00 141.04,181.94 144.08,185.78 147.12,189.50 150.17,193.11 153.21,196.61 156.25,200.00 159.29,203.28 162.33,206.44 165.38,209.50 168.42,212.44 171.46,215.28 174.50,218.00 177.54,220.61 180.58,223.11 183.62,225.50 186.67,227.78 189.71,229.94 192.75,232.00 195.79,233.94 198.83,235.78 201.88,237.50 204.92,239.11 207.96,240.61 211.00,242.00 214.04,243.28 217.08,244.44 220.12,245.50 223.17,246.44 226.21,247.28 229.25,248.00 232.29,248.61 235.33,249.11 238.38,249.50 241.42,249.78 244.46,249.94 247.50,250.00 250.54,249.94 253.58,249.78 256.62,249.50 259.67,249.11 262.71,248.61 265.75,248.00 268.79,247.28 271.83,246.44 274.88,245.50 277.92,244.44 280.96,243.28 284.00,242.00 287.04,240.61 290.08,239.11 293.12,237.50 296.17,235.78 299.21,233.94 302.25,232.00 305.29,229.94 308.33,227.78 311.38,225.50 314.42,223.11 317.46,220.61 320.50,218.00 323.54,215.28 326.58,212.44 329.62,209.50 332.67,206.44 335.71,203.28 338.75,200.00 341.79,196.61 344.83,193.11 347.88,189.50 350.92,185.78 353.96,181.94 357.00,178.00 360.04,173.94 363.08,169.78 366.12,165.50 369.17,161.11 372.21,156.61 375.25,152.00 378.29,147.28 381.33,142.44 384.38,137.50 387.42,132.44 390.46,127.28 393.50,122.00 396.54,116.61 399.58,111.11 402.62,105.50 405.67,99.78 408.71,93.94 411.75,88.00 414.79,81.94 417.83,75.78 420.88,69.50 423.92,63.11 426.96,56.61 430.00,50.00\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></g></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är positiv på båda sidor om 2</p><p>Derivatan är positiv på båda sidor om 2. Funktionen växer därför från x = 1 till x = 3, trots att tangenten är vågrät i en enda punkt.</p></li><li><p class=\"facit-rubrik\">En enstaka vågrät tangent vänder inte ökningen</p><p>Det är ett teckenbyte, inte enbart ett nollställe, som kan göra att funktionen börjar avta. Alltså är f(3) större än 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar: f(3) är större än 4.</strong></p></div>",
+  "ledtrad": "<p>Skilj en enstaka vågrät tangent från ett avtagande intervall.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "f(3) är mindre än 4 eftersom derivatan når noll.",
+      "ratt": false,
+      "kommentar": "<p>Derivatan blir noll i en punkt men aldrig negativ; funktionen börjar inte avta.</p>"
+    },
+    {
+      "txt": "f(3) = 4 eftersom grafen är symmetrisk.",
+      "ratt": false,
+      "kommentar": "<p>Symmetrin gäller derivatan, inte lika funktionsvärden hos f.</p>"
+    },
+    {
+      "txt": "f(3) är större än 4 eftersom f växer på båda sidor om 2.",
+      "ratt": true,
+      "kommentar": "<p>Rätt: f fortsätter att växa även förbi den vågräta tangenten.</p>"
+    },
+    {
+      "txt": "f(3) = 0 eftersom derivatan är noll.",
+      "ratt": false,
+      "kommentar": "<p>f′(2)=0 säger något om lutningen, inte om f(3).</p>"
+    }
+  ]
+},
+  {
+  "id": "3.1236",
+  "kap": 3,
+  "omr": "derivatan_och_grafen",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Funktionens graf och derivatans graf",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Figuren visar f′. Funktionen \\(g(x)=f(x)-2x\\) har två vågräta tangenter. Ange x-värdet för g:s lokala minimum och sedan x-värdet för dess lokala maximum.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 325\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Derivatan f′ stiger till 4 och sjunker sedan till noll.\"><title>Derivatan f′ stiger till 4 och sjunker sedan till noll.</title><rect width=\"500\" height=\"325\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"65.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M125.83333333333334 50V250\" stroke=\"#dbe3eb\"/><text x=\"125.83\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M186.66666666666669 50V250\" stroke=\"#dbe3eb\"/><text x=\"186.67\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M247.5 50V250\" stroke=\"#dbe3eb\"/><text x=\"247.50\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M308.33333333333337 50V250\" stroke=\"#dbe3eb\"/><text x=\"308.33\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M369.1666666666667 50V250\" stroke=\"#dbe3eb\"/><text x=\"369.17\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">5</text><path d=\"M430.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"430.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">6</text><path d=\"M65 250.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"256.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M65 200.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"206.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M65 150.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"156.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M65 100.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"106.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M65 50.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"56.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65.0 48V252\" stroke=\"#526777\" stroke-width=\"1.7\"/><path d=\"M63 250.0H435\" stroke=\"#526777\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"307.00\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">x</text><text x=\"65.00\" y=\"29.00\" text-anchor=\"start\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">f′(x)</text><defs><clipPath id=\"clip-dg1236\"><rect x=\"63\" y=\"48\" width=\"370\" height=\"205\"/></clipPath></defs><g clip-path=\"url(#clip-dg1236)\"><polyline points=\"65.00,250.00 186.67,50.00 430.00,250.00\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></g></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtraktionen av 2x gör nivån 2 avgörande</p><p>g′ = f′−2, så vågrät tangent fås där f′ = 2. Grafens linjestycken ger x = 1 och x = 4.</p></li><li><p class=\"facit-rubrik\">Teckenbytena ger minimum vid 1 och maximum vid 4</p><p>Före 1 är g′ negativ och därefter positiv: minimum vid 1. Vid 4 byter g′ från positiv till negativ: maximum vid 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Minimum vid x = 1, maximum vid x = 4.</strong></p></div>",
+  "ledtrad": "<p>Utgå från derivatan av hela g, inte bara av f.</p>",
+  "rättSvar": [
+    1,
+    4
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    1e-09,
+    1e-09
+  ],
+  "svarEtiketter": [
+    "x vid minimum",
+    "x vid maximum"
+  ],
+  "svarsstruktur": "ordnad"
+},
+  {
+  "id": "3.1237",
+  "kap": 3,
+  "omr": "derivatan_och_grafen",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Funktionens graf och derivatans graf",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Figuren visar derivatorna till två funktioner. Bestäm var skillnaden \\(f(x)-g(x)\\) är störst på intervallet \\(0\\le x\\le6\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 325\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Blå graf visar f′, orange visar g′.\"><title>Blå graf visar f′, orange visar g′.</title><rect width=\"500\" height=\"325\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"65.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M125.83333333333334 50V250\" stroke=\"#dbe3eb\"/><text x=\"125.83\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M186.66666666666669 50V250\" stroke=\"#dbe3eb\"/><text x=\"186.67\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M247.5 50V250\" stroke=\"#dbe3eb\"/><text x=\"247.50\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M308.33333333333337 50V250\" stroke=\"#dbe3eb\"/><text x=\"308.33\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M369.1666666666667 50V250\" stroke=\"#dbe3eb\"/><text x=\"369.17\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">5</text><path d=\"M430.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"430.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">6</text><path d=\"M65 250.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"256.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M65 183.33333333333331H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"189.33\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M65 150.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"156.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M65 116.66666666666666H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"122.67\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65 50.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"56.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">6</text><path d=\"M65.0 48V252\" stroke=\"#526777\" stroke-width=\"1.7\"/><path d=\"M63 250.0H435\" stroke=\"#526777\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"307.00\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">x</text><text x=\"65.00\" y=\"29.00\" text-anchor=\"start\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">Blå: f′(x). Orange: g′(x).</text><defs><clipPath id=\"clip-dg1237\"><rect x=\"63\" y=\"48\" width=\"370\" height=\"205\"/></clipPath></defs><g clip-path=\"url(#clip-dg1237)\"><polyline points=\"65.00,50.00 430.00,250.00\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/><polyline points=\"65.00,150.00 430.00,150.00\" fill=\"none\" stroke=\"#b35316\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></g></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Före 3 ökar f snabbare än g</p><p>Skillnadens derivata är f′−g′. Före x = 3 ligger blå graf över orange: skillnaden växer.</p></li><li><p class=\"facit-rubrik\">Efter 3 börjar skillnaden minska</p><p>Efter 3 ligger den blå under den orange: skillnaden avtar. Därför är skillnaden som störst vid 3, oavsett funktionernas startvärden.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x = 3.</strong></p></div>",
+  "ledtrad": "<p>När ökar respektive minskar skillnaden mellan funktionerna?</p>",
+  "rättSvar": 3,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+  {
+  "id": "3.1238",
+  "kap": 3,
+  "omr": "derivatan_och_grafen",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Funktionens graf och derivatans graf",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Grafen visar hur temperaturen T ändras. Vilken beskrivning stämmer under de tre minuterna? Välj ett alternativ.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 325\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Derivatan ökar från −4 till −1.\"><title>Derivatan ökar från −4 till −1.</title><rect width=\"500\" height=\"325\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"65.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M186.66666666666669 50V250\" stroke=\"#dbe3eb\"/><text x=\"186.67\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M308.33333333333337 50V250\" stroke=\"#dbe3eb\"/><text x=\"308.33\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M430.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"430.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M65 216.66666666666666H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"222.67\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">−4</text><path d=\"M65 150.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"156.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">−2</text><path d=\"M65 83.33333333333334H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"89.33\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M65.0 48V252\" stroke=\"#526777\" stroke-width=\"1.7\"/><path d=\"M63 83.33333333333334H435\" stroke=\"#526777\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"307.00\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">Tid t (min)</text><text x=\"65.00\" y=\"29.00\" text-anchor=\"start\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">T′(t), °C/min</text><defs><clipPath id=\"clip-dg1238\"><rect x=\"63\" y=\"48\" width=\"370\" height=\"205\"/></clipPath></defs><g clip-path=\"url(#clip-dg1238)\"><polyline points=\"65.00,216.67 430.00,116.67\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></g></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Negativ T′ betyder att temperaturen sjunker</p><p>T′ är negativ hela tiden, så temperaturen sjunker.</p></li><li><p class=\"facit-rubrik\">T′ närmar sig noll och minskningen bromsas</p><p>Derivatan går från −4 mot −1. Minskningen per minut blir därför mindre, inte större. Temperaturgrafen planar ut uppåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Temperaturen sjunker allt långsammare.</strong></p></div>",
+  "ledtrad": "<p>Både derivatans tecken och hur den förändras spelar roll.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Temperaturen stiger allt snabbare.",
+      "ratt": false,
+      "kommentar": "<p>En stigande derivatagraf är inte samma sak som en stigande temperatur. T′ är negativ.</p>"
+    },
+    {
+      "txt": "Temperaturen sjunker allt snabbare.",
+      "ratt": false,
+      "kommentar": "<p>Temperaturminskningen blir mindre när T′ går från −4 till −1.</p>"
+    },
+    {
+      "txt": "Temperaturen sjunker allt långsammare.",
+      "ratt": true,
+      "kommentar": "<p>Rätt: temperaturen minskar, men minskningen per minut blir mindre.</p>"
+    },
+    {
+      "txt": "Temperaturen är konstant eftersom grafen är rät.",
+      "ratt": false,
+      "kommentar": "<p>En rät graf för T′ betyder inte att T är konstant. Då skulle T′ vara noll.</p>"
+    }
+  ]
+},
+  {
+  "id": "3.1239",
+  "kap": 3,
+  "omr": "derivatan_och_grafen",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Funktionens graf och derivatans graf",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Figuren visar f′. En ny funktion är \\(h(x)=f(2x)\\), för \\(0\\le x\\le2\\). Vid vilket x-värde växer h snabbast?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 325\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Derivatagraf med maximum vid x=2.\"><title>Derivatagraf med maximum vid x=2.</title><rect width=\"500\" height=\"325\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"65.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M156.25 50V250\" stroke=\"#dbe3eb\"/><text x=\"156.25\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M247.5 50V250\" stroke=\"#dbe3eb\"/><text x=\"247.50\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M338.75 50V250\" stroke=\"#dbe3eb\"/><text x=\"338.75\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M430.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"430.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65 250.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"256.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M65 210.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"216.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M65 130.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"136.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M65 50.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"56.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">5</text><path d=\"M65.0 48V252\" stroke=\"#526777\" stroke-width=\"1.7\"/><path d=\"M63 250.0H435\" stroke=\"#526777\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"307.00\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">x</text><text x=\"65.00\" y=\"29.00\" text-anchor=\"start\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">f′(x)</text><defs><clipPath id=\"clip-dg1239\"><rect x=\"63\" y=\"48\" width=\"370\" height=\"205\"/></clipPath></defs><g clip-path=\"url(#clip-dg1239)\"><polyline points=\"65.00,210.00 247.50,50.00 430.00,210.00\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></g></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Argumentet 2x ger h′(x) = 2f′(2x)</p><p>Kedjeregeln ger h′(x) = 2f′(2x). Faktorn 2 ändrar inte vid vilket argument f′ är störst.</p></li><li><p class=\"facit-rubrik\">Den största lutningen fås när 2x = 2</p><p>Grafen visar att f′ är störst när dess argument är 2. Därför ska 2x = 2, vilket ger x = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x = 1.</strong></p></div>",
+  "ledtrad": "<p>Vilket argument till f′ ger den största lutningen?</p>",
+  "rättSvar": 1,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+  {
+  "id": "3.1240",
+  "kap": 3,
+  "omr": "derivatan_och_grafen",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Funktionens graf och derivatans graf",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Linjen genom (1, −1) och (5, 7) är parallell med två tangenter till f. Figuren visar f′. Ange tangentpunkternas x-koordinater, den mindre först.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 325\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Derivatan f′ består av två linjestycken.\"><title>Derivatan f′ består av två linjestycken.</title><rect width=\"500\" height=\"325\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"65.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M125.83333333333334 50V250\" stroke=\"#dbe3eb\"/><text x=\"125.83\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M186.66666666666669 50V250\" stroke=\"#dbe3eb\"/><text x=\"186.67\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M247.5 50V250\" stroke=\"#dbe3eb\"/><text x=\"247.50\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M308.33333333333337 50V250\" stroke=\"#dbe3eb\"/><text x=\"308.33\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M369.1666666666667 50V250\" stroke=\"#dbe3eb\"/><text x=\"369.17\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">5</text><path d=\"M430.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"430.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">6</text><path d=\"M65 250.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"256.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M65 200.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"206.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M65 150.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"156.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M65 100.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"106.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M65 50.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"56.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65.0 48V252\" stroke=\"#526777\" stroke-width=\"1.7\"/><path d=\"M63 250.0H435\" stroke=\"#526777\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"307.00\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">x</text><text x=\"65.00\" y=\"29.00\" text-anchor=\"start\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">f′(x)</text><defs><clipPath id=\"clip-dg1240\"><rect x=\"63\" y=\"48\" width=\"370\" height=\"205\"/></clipPath></defs><g clip-path=\"url(#clip-dg1240)\"><polyline points=\"65.00,200.00 247.50,50.00 430.00,200.00\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></g></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkterna ger lutningen 8/4 = 2</p><p>Linjens lutning är (7−(−1))/(5−1) = 8/4 = 2.</p></li><li><p class=\"facit-rubrik\">Sök nivån 2 i derivatagrafen</p><p>Tangenterna ska ha samma lutning. Läs därför var f′ = 2, inte var f′ är noll: x = 1 och x = 5.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x = 1 och x = 5.</strong></p></div>",
+  "ledtrad": "<p>Beräkna linjens lutning innan du använder derivatagrafen.</p>",
+  "rättSvar": [
+    1,
+    5
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "tolerans": [
+    1e-09,
+    1e-09
+  ],
+  "svarEtiketter": [
+    "Mindre x",
+    "Större x"
+  ],
+  "svarsstruktur": "ordnad"
+},
+  {
+  "id": "3.1241",
+  "kap": 3,
+  "omr": "derivatan_och_grafen",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Funktionens graf och derivatans graf",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen f är kontinuerlig på \\(-2\\le x\\le4\\). Den är strikt växande mellan −2 och 0 och strikt avtagande mellan 0 och 4. Tabellen visar fyra funktionsvärden. Hur många nollställen har f på intervallet?</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:center\"><thead><tr><th scope=\"col\">x</th><th scope=\"col\">−2</th><th scope=\"col\">0</th><th scope=\"col\">2</th><th scope=\"col\">4</th></tr></thead><tbody><tr><td>f(x)</td><td>−1</td><td>3</td><td>1</td><td>−2</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">På vägen från −1 till 3 passeras noll exakt en gång</p><p>Från −2 till 0 ökar f från −1 till 3. Kontinuiteten garanterar en nollpassage, och strikt ökning gör att det bara finns en.</p></li><li><p class=\"facit-rubrik\">Från 1 till −2 finns ytterligare en nollpassage</p><p>Mellan 0 och 2 är f positiv. Från 2 till 4 minskar den från 1 till −2, så där finns exakt en nollpassage till.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 2 nollställen.</strong></p></div>",
+  "ledtrad": "<p>Använd både tecknen på funktionsvärdena och de givna monotona intervallen.</p>",
+  "rättSvar": 2,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+  {
+  "id": "3.1242",
+  "kap": 3,
+  "omr": "derivatan_och_grafen",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Funktionens graf och derivatans graf",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Grafen visar f′ på intervallet \\(0\\le x\\le4\\). En elev påstår att det största värdet på f är 2. Vad kan man faktiskt avgöra? Välj ett alternativ.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 325\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Derivatan f′ är en avtagande linje.\"><title>Derivatan f′ är en avtagande linje.</title><rect width=\"500\" height=\"325\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"65.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M156.25 50V250\" stroke=\"#dbe3eb\"/><text x=\"156.25\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M247.5 50V250\" stroke=\"#dbe3eb\"/><text x=\"247.50\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M338.75 50V250\" stroke=\"#dbe3eb\"/><text x=\"338.75\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M430.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"430.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65 250.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"256.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">−2</text><path d=\"M65 200.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"206.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">−1</text><path d=\"M65 150.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"156.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M65 100.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"106.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M65 50.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"56.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M65.0 48V252\" stroke=\"#526777\" stroke-width=\"1.7\"/><path d=\"M63 150.0H435\" stroke=\"#526777\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"307.00\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">x</text><text x=\"65.00\" y=\"29.00\" text-anchor=\"start\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">f′(x)</text><defs><clipPath id=\"clip-dg1242\"><rect x=\"63\" y=\"48\" width=\"370\" height=\"205\"/></clipPath></defs><g clip-path=\"url(#clip-dg1242)\"><polyline points=\"65.00,50.00 430.00,250.00\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></g></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckenbytet vid 2 ger f:s maximum</p><p>Derivatan byter från positiv till negativ vid x = 2, så där har f sitt största värde på intervallet.</p></li><li><p class=\"facit-rubrik\">Derivatan ändras inte när f flyttas uppåt</p><p>Grafen ger däremot inget startvärde för f. En förflyttning av f uppåt ändrar inte derivatan. Maximums höjd kan därför inte bestämmas.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Maximum nås vid x = 2, men dess höjd är okänd.</strong></p></div>",
+  "ledtrad": "<p>Kan man flytta f uppåt utan att ändra den visade grafen?</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Största värdet är 2, eftersom f′(0) = 2.",
+      "ratt": false,
+      "kommentar": "<p>2 är derivatans värde vid 0, inte f:s största värde.</p>"
+    },
+    {
+      "txt": "Maximum nås vid x = 2, men dess höjd är okänd.",
+      "ratt": true,
+      "kommentar": "<p>Rätt: teckenbytet bestämmer läget. Ett givet funktionsvärde behövs för höjden.</p>"
+    },
+    {
+      "txt": "Största värdet är 0, eftersom f′(2) = 0.",
+      "ratt": false,
+      "kommentar": "<p>Noll derivata betyder vågrät tangent, inte noll funktionsvärde.</p>"
+    },
+    {
+      "txt": "f saknar maximum eftersom f′ är avtagande.",
+      "ratt": false,
+      "kommentar": "<p>En avtagande derivata kan byta från plus till minus och därmed ge f ett maximum.</p>"
+    }
+  ]
+},
+  {
+  "id": "3.1243",
+  "kap": 3,
+  "omr": "derivatan_och_grafen",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Funktionens graf och derivatans graf",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Figuren visar f′. Man vet att f(0) = 2. Hur mycket större är f(4) än f(0)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 325\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Derivatan f′ är positiv, sedan negativ, med två triangulära områden.\"><title>Derivatan f′ är positiv, sedan negativ, med två triangulära områden.</title><rect width=\"500\" height=\"325\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"65.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M156.25 50V250\" stroke=\"#dbe3eb\"/><text x=\"156.25\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M247.5 50V250\" stroke=\"#dbe3eb\"/><text x=\"247.50\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M338.75 50V250\" stroke=\"#dbe3eb\"/><text x=\"338.75\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M430.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"430.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65 250.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"256.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">−1</text><path d=\"M65 200.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"206.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M65 150.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"156.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M65 100.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"106.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M65 50.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"56.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M65.0 48V252\" stroke=\"#526777\" stroke-width=\"1.7\"/><path d=\"M63 200.0H435\" stroke=\"#526777\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"307.00\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">x</text><text x=\"65.00\" y=\"29.00\" text-anchor=\"start\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">f′(x)</text><defs><clipPath id=\"clip-dg1243\"><rect x=\"63\" y=\"48\" width=\"370\" height=\"205\"/></clipPath></defs><g clip-path=\"url(#clip-dg1243)\"><polyline points=\"65.00,200.00 156.25,50.00 247.50,200.00 338.75,250.00 430.00,200.00\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></g></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Triangeln ovanför axeln ger ökningen 3</p><p>Förändringen i f är integralen av f′. Den positiva triangeln har area 2·3/2 = 3.</p></li><li><p class=\"facit-rubrik\">Triangeln under axeln ger minskningen 1</p><p>Den negativa triangeln har area 2·1/2 = 1 och bidrar med −1. Nettot är 3−1 = 2.</p></li><li><p class=\"facit-rubrik\">Nettot är ökningen, inte slutvärdet 4</p><p>Alltså är f(4) = 4, men den efterfrågade ökningen är 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 2 enheter.</strong></p></div>",
+  "ledtrad": "<p>Grafen visar förändringshastigheten, inte själva funktionsvärdet.</p>",
+  "rättSvar": 2,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09
+},
+  {
+  "id": "3.1244",
+  "kap": 3,
+  "omr": "derivatan_och_grafen",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Funktionens graf och derivatans graf",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Figuren visar f′ och man vet att f(2) = 4. Bestäm ekvationen för tangenten till f vid x = 2. Svara på formen y = kx + m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 325\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen till f′.\"><title>Grafen till f′.</title><rect width=\"500\" height=\"325\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"65.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M156.25 50V250\" stroke=\"#dbe3eb\"/><text x=\"156.25\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M247.5 50V250\" stroke=\"#dbe3eb\"/><text x=\"247.50\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M338.75 50V250\" stroke=\"#dbe3eb\"/><text x=\"338.75\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M430.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"430.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65 250.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"256.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M65 200.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"206.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">1</text><path d=\"M65 150.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"156.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M65 100.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"106.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">3</text><path d=\"M65 50.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"56.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65.0 48V252\" stroke=\"#526777\" stroke-width=\"1.7\"/><path d=\"M63 250.0H435\" stroke=\"#526777\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"307.00\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">x</text><text x=\"65.00\" y=\"29.00\" text-anchor=\"start\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">f′(x)</text><defs><clipPath id=\"clip-dg1244\"><rect x=\"63\" y=\"48\" width=\"370\" height=\"205\"/></clipPath></defs><g clip-path=\"url(#clip-dg1244)\"><polyline points=\"65.00,200.00 247.50,100.00 430.00,150.00\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></g></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatagrafen ger lutningen 3</p><p>Ur derivatagrafen läses f′(2) = 3. Det är tangentens lutning, inte tangentpunktens y-koordinat.</p></li><li><p class=\"facit-rubrik\">Tangenten går genom punkten (2, 4)</p><p>Punkten är (2, 4), så tangentens ekvation är</p><div class=\"facit-matte\">\\[y-4=3(x-2).\\]</div></li><li><p class=\"facit-rubrik\">Utveckla 3(x−2) och lägg till 4</p><p>Utveckla parentesen: y = 3x−2.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(y=3x-2\\).</strong></p></div>",
+  "ledtrad": "<p>Vilken uppgift ger punktens höjd och vilken ger lutningen?</p>",
+  "rättSvar": "3*x-2",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "3.1245",
+  "kap": 3,
+  "omr": "derivatan_och_grafen",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Funktionens graf och derivatans graf",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Ett företag säljer sin produkt för 5 tusen kronor per ton. Kostnaden för x ton är K(x) tusen kronor. Figuren visar K′. Hur många ton ger störst vinst när \\(0\\le x\\le10\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 325\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Kostnadens derivata K′, i tusen kronor per ton.\"><title>Kostnadens derivata K′, i tusen kronor per ton.</title><rect width=\"500\" height=\"325\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"65.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M138.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"138.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M211.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"211.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M284.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"284.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">6</text><path d=\"M357.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"357.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">8</text><path d=\"M430.0 50V250\" stroke=\"#dbe3eb\"/><text x=\"430.00\" y=\"276.00\" text-anchor=\"middle\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">10</text><path d=\"M65 250.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"256.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">0</text><path d=\"M65 200.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"206.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">2</text><path d=\"M65 150.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"156.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">4</text><path d=\"M65 125.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"131.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">5</text><path d=\"M65 100.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"106.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">6</text><path d=\"M65 50.0H430\" stroke=\"#dbe3eb\"/><text x=\"53.00\" y=\"56.00\" text-anchor=\"end\" font-size=\"17\" font-family=\"Arial,sans-serif\" fill=\"#183348\">8</text><path d=\"M65.0 48V252\" stroke=\"#526777\" stroke-width=\"1.7\"/><path d=\"M63 250.0H435\" stroke=\"#526777\" stroke-width=\"1.7\"/><text x=\"250.00\" y=\"307.00\" text-anchor=\"middle\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">Produktion x (ton)</text><text x=\"65.00\" y=\"29.00\" text-anchor=\"start\" font-size=\"18\" font-family=\"Arial,sans-serif\" fill=\"#183348\">K′(x), tusen kr/ton</text><defs><clipPath id=\"clip-dg1245\"><rect x=\"63\" y=\"48\" width=\"370\" height=\"205\"/></clipPath></defs><g clip-path=\"url(#clip-dg1245)\"><polyline points=\"65.00,200.00 430.00,75.00\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></g></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinstökningen är intäktsökning minus kostnadsökning</p><p>Intäkten är 5x och vinsten är V(x) = 5x−K(x). Därför är V′(x) = 5−K′(x).</p></li><li><p class=\"facit-rubrik\">Vid 6 ton passerar kostnadsökningen försäljningspriset</p><p>Före x = 6 är K′ mindre än 5: en extra ton ökar vinsten. Efter 6 är kostnadsökningen större än intäktsökningen.</p></li><li><p class=\"facit-rubrik\">Vinsten växer före 6 ton och avtar efteråt</p><p>Vinsten är därför störst vid 6 ton.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 6 ton.</strong></p></div>",
+  "ledtrad": "<p>Jämför intäktsökning och kostnadsökning för en extra ton.</p>",
+  "rättSvar": 6,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 1e-09,
+  "svarEnhet": "ton"
 }
 
 ];

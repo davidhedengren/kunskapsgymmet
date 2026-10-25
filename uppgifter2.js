@@ -64663,5 +64663,1098 @@ window.BANK2 = [
   "tolerans": 0,
   "svarEnhet": "s",
   "svarVardesiffror": 2
+},
+{
+  "id": "5.464",
+  "kap": 5,
+  "omr": "kosmologi",
+  "niva": "E",
+  "typ": "Hubblekonstant ur ett diagram",
+  "poang": "(1/0/0)",
+  "t": "<p>Diagrammet visar fart och avstånd för sju galaxer. Den räta linjen genom origo är anpassad till mätpunkterna. Den markerade punkten P på linjen har koordinaterna (250 Mpc, 17 000 km/s).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"320\" viewBox=\"0 0 470 320\" role=\"img\" aria-label=\"Hubblediagram: sju galaxer med avstånd från 40 till 290 Mpc och farter från 2 900 till 19 300 km/s. En rät linje genom origo är anpassad till punkterna och går genom den markerade punkten P vid 250 Mpc och 17 000 km/s.\"><title>Hubblediagram: sju galaxer med avstånd från 40 till 290 Mpc och farter från 2 900 till 19 300 km/s. En rät linje genom origo är anpassad till punkterna och går genom den markerade punkten P vid 250 Mpc och 17 000 km/s.</title><rect x=\"1\" y=\"1\" width=\"468\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"72.0\" y1=\"34\" x2=\"72.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"72.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"134.0\" y1=\"34\" x2=\"134.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"134.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">50</text><line x1=\"196.0\" y1=\"34\" x2=\"196.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"196.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">100</text><line x1=\"258.0\" y1=\"34\" x2=\"258.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"258.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">150</text><line x1=\"320.0\" y1=\"34\" x2=\"320.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"320.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">200</text><line x1=\"382.0\" y1=\"34\" x2=\"382.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"382.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">250</text><line x1=\"444.0\" y1=\"34\" x2=\"444.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"444.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">300</text><line x1=\"72\" y1=\"264.0\" x2=\"444\" y2=\"264.0\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"268.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"72\" y1=\"231.1\" x2=\"444\" y2=\"231.1\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"235.1\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">3 000</text><line x1=\"72\" y1=\"198.3\" x2=\"444\" y2=\"198.3\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"202.3\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6 000</text><line x1=\"72\" y1=\"165.4\" x2=\"444\" y2=\"165.4\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"169.4\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">9 000</text><line x1=\"72\" y1=\"132.6\" x2=\"444\" y2=\"132.6\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"136.6\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">12 000</text><line x1=\"72\" y1=\"99.7\" x2=\"444\" y2=\"99.7\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"103.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">15 000</text><line x1=\"72\" y1=\"66.9\" x2=\"444\" y2=\"66.9\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"70.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">18 000</text><line x1=\"72\" y1=\"34.0\" x2=\"444\" y2=\"34.0\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">21 000</text><line x1=\"72\" y1=\"264\" x2=\"450\" y2=\"264\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"72\" y1=\"264\" x2=\"72\" y2=\"28\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"306.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">avstånd (Mpc)</text><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">fart bort från oss (km/s)</text><line x1=\"72.0\" y1=\"264.0\" x2=\"444.0\" y2=\"40.6\" stroke=\"#c2410c\" stroke-width=\"2.4\"/><circle cx=\"121.6\" cy=\"232.2\" r=\"5\" fill=\"#216d87\"/><circle cx=\"171.2\" cy=\"207.0\" r=\"5\" fill=\"#216d87\"/><circle cx=\"220.8\" cy=\"169.8\" r=\"5\" fill=\"#216d87\"/><circle cx=\"282.8\" cy=\"141.3\" r=\"5\" fill=\"#216d87\"/><circle cx=\"332.4\" cy=\"104.1\" r=\"5\" fill=\"#216d87\"/><circle cx=\"382.0\" cy=\"77.8\" r=\"5\" fill=\"#216d87\"/><circle cx=\"431.6\" cy=\"52.6\" r=\"5\" fill=\"#216d87\"/><circle cx=\"382.0\" cy=\"77.8\" r=\"7\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.4\"/><text x=\"392.0\" y=\"95.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">P</text></svg></span><p>Bestäm Hubblekonstanten med hjälp av linjen. (Svara i km/(s·Mpc).)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Hubbles lag \\(v=H_0d\\) betyder att \\(H_0\\) är linjens lutning. Använd en punkt långt ut på linjen, inte en enskild mätpunkt.</p></li><li><div class=\"facit-matte\">\\[H_0=\\frac{17\\,000\\ \\mathrm{km/s}}{250\\ \\mathrm{Mpc}}=68\\ \\mathrm{km/(s\\cdot Mpc)}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 68 km/(s·Mpc).</p></div>",
+  "familj": "Hubbles lag",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Hubblekonstanten är lutningen hos linjen \\(v=H_0d\\).</p>",
+  "familjNyckel": "kosmologi__hubbles_lag_och_rodforskjutning",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 68.0,
+  "tolerans": 2
+},
+{
+  "id": "5.465",
+  "kap": 5,
+  "omr": "kosmologi",
+  "niva": "E",
+  "typ": "avstånd ur rödförskjutning",
+  "poang": "(1/0/0)",
+  "t": "<p>En galax har rödförskjutningen \\(z=0{,}035\\). För små rödförskjutningar gäller \\(v\\approx zc\\). Hubblekonstanten i modellen är 70 km/(s·Mpc). Hur långt bort är galaxen? (Svara i Mpc.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v=zc=0{,}035\\cdot3{,}00\\cdot10^5\\ \\mathrm{km/s}=1{,}05\\cdot10^4\\ \\mathrm{km/s}\\]</div></li><li><div class=\"facit-matte\">\\[d=\\frac{v}{H_0}=\\frac{1{,}05\\cdot10^4}{70}=150\\ \\mathrm{Mpc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 150 Mpc.</p></div>",
+  "familj": "Rödförskjutning och universums ålder",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Bestäm farten med \\(v\\approx zc\\) i km/s och använd sedan Hubbles lag.</p>",
+  "familjNyckel": "kosmologi__hubbles_lag_och_rodforskjutning",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 149.9,
+  "tolerans": 1.499,
+  "svarVardesiffror": 2,
+  "svarEnhet": "Mpc"
+},
+{
+  "id": "5.466",
+  "kap": 5,
+  "omr": "kosmologi",
+  "niva": "C",
+  "typ": "rödförskjuten vätelinje ger avstånd",
+  "poang": "(0/1/0)",
+  "t": "<p>Vätelinjen som i laboratoriet har våglängden 656,3 nm observeras i en galax vid 682,5 nm. Hubblekonstanten i modellen är 70 km/(s·Mpc).</p><p>Bestäm rödförskjutningen z, galaxens fart bort från oss och dess avstånd. (Svara i km/s och Mpc.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[z=\\frac{\\Delta\\lambda}{\\lambda_0}=\\frac{682{,}5-656{,}3}{656{,}3}\\approx0{,}0399\\]</div></li><li><p class=\"facit-metod\">Rödförskjutningen är liten, så \\(v\\approx zc\\) kan användas.</p></li><li><div class=\"facit-matte\">\\[v=0{,}0399\\cdot3{,}00\\cdot10^5\\approx1{,}20\\cdot10^4\\ \\mathrm{km/s}\\]</div></li><li><div class=\"facit-matte\">\\[d=\\frac{1{,}20\\cdot10^4}{70}\\approx171\\ \\mathrm{Mpc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> z ≈ 0,040, v ≈ 1,2·10⁴ km/s och d ≈ 171 Mpc.</p></div>",
+  "familj": "Rödförskjutning och universums ålder",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Rödförskjutningen är den relativa ändringen av våglängden. Använd sedan \\(v\\approx zc\\) och Hubbles lag.</p>",
+  "familjNyckel": "kosmologi__hubbles_lag_och_rodforskjutning",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0.0399207679415,
+    11968.2462289,
+    170.974946127
+  ],
+  "tolerans": [
+    0.0005,
+    150,
+    2.5
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "",
+    "km/s",
+    "Mpc"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "z",
+    "Fart",
+    "Avstånd"
+  ]
+},
+{
+  "id": "5.467",
+  "kap": 5,
+  "omr": "kosmologi",
+  "niva": "C",
+  "typ": "rödförskjutning ur skalfaktor",
+  "poang": "(0/1/0)",
+  "t": "<p>Ljuset från en galax sändes ut när avstånden i universum var 0,80 gånger så stora som i dag. Under färden har ljusets våglängd sträckts ut i samma proportion som universum.</p><p>Vilken rödförskjutning z observerar vi, och vilken våglängd har en linje som sändes ut vid 500 nm när den når oss? (Svara i nm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Våglängden växer lika mycket som avstånden i universum.</p></li><li><div class=\"facit-matte\">\\[1+z=\\frac{\\lambda}{\\lambda_0}=\\frac{1}{0{,}80}=1{,}25\\quad\\Rightarrow\\quad z=0{,}25\\]</div></li><li><div class=\"facit-matte\">\\[\\lambda=1{,}25\\cdot500=625\\ \\mathrm{nm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> z = 0,25 och 625 nm.</p></div>",
+  "familj": "Rödförskjutning och universums ålder",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Om universum har vuxit med faktorn \\(1/0{,}80\\) har våglängden också gjort det. Rödförskjutningen är \\(z=\\lambda/\\lambda_0-1\\).</p>",
+  "familjNyckel": "kosmologi__hubbles_lag_och_rodforskjutning",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0.25,
+    625.0
+  ],
+  "tolerans": [
+    0.005,
+    1
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "",
+    "nm"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "z",
+    "Våglängd"
+  ]
+},
+{
+  "id": "5.468",
+  "kap": 5,
+  "omr": "kosmologi",
+  "niva": "E",
+  "typ": "är vi i universums centrum",
+  "poang": "(1/0/0)",
+  "t": "<p>Alla avlägsna galaxer ser ut att röra sig bort från oss, och ju längre bort de är, desto snabbare. Betyder det att Vintergatan ligger i universums centrum? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">När universum expanderar likformigt ökar alla avstånd med samma faktor. En observatör i vilken galax som helst ser då alla andra galaxer röra sig bort, snabbare ju längre bort de är.</p></li><li><p class=\"facit-metod\">Hubbles lag pekar därför inte ut någon särskild mittpunkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, alla observatörer ser samma sak.</p></div>",
+  "familj": "Hubbles lag",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Tänk på russin i en jäsande deg. Hur ser det ut från ett annat russin?</p>",
+  "familjNyckel": "kosmologi__hubbles_lag_och_rodforskjutning",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Ja, eftersom alla galaxer rör sig bort just från oss",
+      "ratt": false,
+      "kommentar": "Från en annan galax ser man samma mönster."
+    },
+    {
+      "txt": "Ja, men bara om Hubblekonstanten är exakt 70 km/(s·Mpc)",
+      "ratt": false,
+      "kommentar": "Värdet på Hubblekonstanten påverkar inte frågan om centrum."
+    },
+    {
+      "txt": "Nej, i ett likformigt expanderande universum ser alla observatörer att de andra galaxerna rör sig bort",
+      "ratt": true
+    },
+    {
+      "txt": "Nej, eftersom galaxerna egentligen rör sig mot oss",
+      "ratt": false,
+      "kommentar": "Rödförskjutningen visar att de rör sig bort."
+    }
+  ]
+},
+{
+  "id": "5.469",
+  "kap": 5,
+  "omr": "kosmologi",
+  "niva": "C",
+  "typ": "avstånd och fart ur ljusets restid",
+  "poang": "(0/1/0)",
+  "t": "<p>Ljuset från en galax har färdats i 1,5 miljarder år när det når oss. Anta i en förenklad modell att avståndet är sträckan som ljuset har färdats. Hubblekonstanten i modellen är 70 km/(s·Mpc).</p><p>Hur långt bort är galaxen, och med vilken fart rör den sig bort från oss enligt Hubbles lag? (Svara i Mpc och km/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[d=1{,}5\\cdot10^9\\ \\mathrm{ljusår}=\\frac{1{,}5\\cdot10^9}{3{,}26}\\ \\mathrm{pc}\\approx4{,}6\\cdot10^8\\ \\mathrm{pc}=460\\ \\mathrm{Mpc}\\]</div></li><li><div class=\"facit-matte\">\\[v=H_0d=70\\cdot460\\approx3{,}2\\cdot10^4\\ \\mathrm{km/s}\\]</div></li><li><p class=\"facit-metod\">Farten är ungefär 11 % av ljusfarten. I verkligheten har avståndet ökat medan ljuset färdades, så modellen är en uppskattning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 460 Mpc och 3,2·10⁴ km/s.</p></div>",
+  "familj": "Hubbles lag",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Ett ljusår är sträckan ljuset färdas på ett år. Gör om till parsec (1 pc ≈ 3,26 ljusår).</p>",
+  "familjNyckel": "kosmologi__hubbles_lag_och_rodforskjutning",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    459.896983076,
+    32192.7888153
+  ],
+  "tolerans": [
+    6,
+    400
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "Mpc",
+    "km/s"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Avstånd",
+    "Fart"
+  ]
+},
+{
+  "id": "3.538",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "typ": "inklination ur komposanterna",
+  "poang": "(1/0/0)",
+  "t": "<p>På en plats har jordens magnetfält den vågräta komposanten 16 µT och den lodräta komposanten 48 µT riktad nedåt. Hur många grader lutar fältet under horisontalplanet (inklinationen)? (Svara i hela grader.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\tan i=\\frac{B_{\\text{lodrät}}}{B_{\\text{vågrät}}}=\\frac{48}{16}=3{,}0\\]</div></li><li><div class=\"facit-matte\">\\[i=\\arctan3{,}0\\approx72^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 72°.</p></div>",
+  "familj": "Jordens magnetfält som vektor",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Rita en rätvinklig triangel med de två komposanterna som kateter. Vinkeln mot horisontalplanet ligger vid den vågräta kateten.</p>",
+  "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 72.0,
+  "tolerans": 0.5,
+  "svarEnhet": "°"
+},
+{
+  "id": "3.539",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "C",
+  "typ": "ström ur kompassens utslag",
+  "poang": "(0/1/0)",
+  "t": "<p>En lång rak ledning går i nord-sydlig riktning 5,0 cm rakt ovanför en kompass. Jordfältets vågräta komposant är 15 µT. När strömmen slås på vrids kompassnålen 25° från norr.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"270\" viewBox=\"0 0 460 270\" role=\"img\" aria-label=\"En kompass sedd ovanifrån. En ledning går i nord-sydlig riktning rakt ovanför kompassen. Kompassnålen har vridits 25 grader från norr.\"><title>En kompass sedd ovanifrån. En ledning går i nord-sydlig riktning rakt ovanför kompassen. Kompassnålen har vridits 25 grader från norr.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"268\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"230\" cy=\"150\" r=\"78\" fill=\"#f7f9fb\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"214.0\" y=\"66.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-weight=\"bold\">N</text><line x1=\"230\" y1=\"40\" x2=\"230\" y2=\"260\" stroke=\"#c2410c\" stroke-width=\"5\" stroke-linecap=\"round\" opacity=\"0.55\"/><text x=\"330.0\" y=\"200.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">ledning ovanför</text><text x=\"330.0\" y=\"217.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">kompassen,</text><text x=\"330.0\" y=\"234.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">strömmen mot norr</text><line x1=\"326\" y1=\"206\" x2=\"238\" y2=\"226\" stroke=\"#c2410c\" stroke-width=\"1.4\"/><line x1=\"230\" y1=\"150\" x2=\"230\" y2=\"92\" stroke=\"#5b6773\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><polygon points=\"257.9,90.2 236.3,153.0 223.7,147.0\" fill=\"#b42318\"/><polygon points=\"202.1,209.8 236.3,153.0 223.7,147.0\" fill=\"#9aa5b1\"/><path d=\"M230 112 A38 38 0 0 1 246.1 115.6\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2\"/><text x=\"264.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">25°</text></svg></span><p>Magnetfältet från ledningen är \\(B=\\dfrac{\\mu_0I}{2\\pi r}\\). Hur stor är strömmen? (Svara i A.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Ledningens fält är vågrätt och vinkelrätt mot jordfältets vågräta komposant (öster–väster). Nålen ställer in sig längs det sammanlagda fältet.</p></li><li><div class=\"facit-matte\">\\[\\tan25^\\circ=\\frac{B_{\\text{ledning}}}{B_{\\text{jord}}}\\quad\\Rightarrow\\quad B_{\\text{ledning}}=15\\cdot\\tan25^\\circ\\approx7{,}0\\ \\mathrm{\\mu T}\\]</div></li><li><div class=\"facit-matte\">\\[I=\\frac{2\\pi rB}{\\mu_0}=\\frac{2\\pi\\cdot0{,}050\\cdot7{,}0\\cdot10^{-6}}{4\\pi\\cdot10^{-7}}\\approx1{,}7\\ \\mathrm A\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,7 A.</p></div>",
+  "familj": "Magneter och kompass",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Nålen pekar längs summan av två vinkelräta fält. Vilken trigonometrisk funktion ger förhållandet mellan dem?</p>",
+  "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.74865371808,
+  "tolerans": 0.0174865371808,
+  "svarVardesiffror": 2,
+  "svarEnhet": "A"
+},
+{
+  "id": "3.540",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "C",
+  "typ": "kraft på en kraftledning",
+  "poang": "(0/1/0)",
+  "t": "<p>En vågrät kraftledning går i nord-sydlig riktning och leder strömmen 800 A. Jordfältet har där den vågräta komposanten 17 µT (mot norr) och den lodräta komposanten 45 µT (nedåt). Hur stor magnetisk kraft verkar på 250 m av ledningen? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Den vågräta komposanten är parallell med ledningen och ger ingen kraft. Bara den lodräta komposanten är vinkelrät mot strömmen.</p></li><li><div class=\"facit-matte\">\\[F=BIl=45\\cdot10^{-6}\\cdot800\\cdot250=9{,}0\\ \\mathrm N\\]</div></li><li><p class=\"facit-metod\">Kraften är vågrät, riktad mot öster eller väster beroende på strömriktningen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9,0 N.</p></div>",
+  "familj": "Jordens magnetfält i praktiken",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilken av fältets komposanter är vinkelrät mot ledningen?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 9.0,
+  "tolerans": 0.09,
+  "svarVardesiffror": 2,
+  "svarEnhet": "N"
+},
+{
+  "id": "3.541",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "C",
+  "typ": "inducerad spänning i en bil",
+  "poang": "(0/1/0)",
+  "t": "<p>En bil kör med farten 30 m/s på en vågrät väg. Bilens framaxel är 1,6 m lång. Jordfältets lodräta komposant är 48 µT. Hur stor spänning induceras mellan axelns ändar? (Svara i mV.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Axeln rör sig vågrätt och skär den lodräta komposanten av jordfältet. Den vågräta komposanten ger ingen inducerad spänning i en vågrät axel som rör sig vågrätt.</p></li><li><div class=\"facit-matte\">\\[e=Blv=48\\cdot10^{-6}\\cdot1{,}6\\cdot30\\approx2{,}3\\cdot10^{-3}\\ \\mathrm V=2{,}3\\ \\mathrm{mV}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 2,3 mV.</p></div>",
+  "familj": "Jordens magnetfält i praktiken",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>En ledare som rör sig vinkelrätt mot ett magnetfält får spänningen \\(e=Blv\\). Vilken komposant skär axeln?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.304,
+  "tolerans": 0.02304,
+  "svarVardesiffror": 2,
+  "svarEnhet": "mV"
+},
+{
+  "id": "3.542",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "E",
+  "typ": "kompass nära magnetiska polen",
+  "poang": "(1/0/0)",
+  "t": "<p>Varför fungerar en vanlig kompass dåligt nära jordens magnetiska nordpol? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Nära den magnetiska polen är jordfältet nästan lodrätt. En vanlig kompassnål kan bara vrida sig i ett vågrätt plan och påverkas av den vågräta komposanten, som där är mycket liten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den vågräta komposanten är mycket liten.</p></div>",
+  "familj": "Magneter och kompass",
+  "formaga": [
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Åt vilket håll pekar jordfältet nära polerna? Vilken del av fältet styr en vågrät kompassnål?</p>",
+  "familjNyckel": "jordens_magnetfalt__jordens_magnetfalt_och_kompass",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Magnetfältet är svagast vid polerna",
+      "ratt": false,
+      "kommentar": "Fältet är tvärtom starkast nära polerna."
+    },
+    {
+      "txt": "Fältet är nästan lodrätt, så den vågräta komposanten som styr nålen är mycket liten",
+      "ratt": true
+    },
+    {
+      "txt": "Kompassnålen avmagnetiseras av kylan",
+      "ratt": false,
+      "kommentar": "Kylan påverkar inte nålens magnetism på det sättet."
+    },
+    {
+      "txt": "Norrsken stör kompassen så att den alltid visar fel",
+      "ratt": false,
+      "kommentar": "Norrskenet påverkar inte riktningen så mycket."
+    }
+  ]
+},
+{
+  "id": "3.543",
+  "kap": 3,
+  "omr": "jordens_magnetfalt",
+  "niva": "C",
+  "typ": "proton från solvinden i jordfältet",
+  "poang": "(0/1/0)",
+  "t": "<p>En proton i solvinden rör sig med farten \\(4{,}0\\cdot10^5\\) m/s vinkelrätt mot jordens magnetfält, där fältet är 30 µT. Vilken radie får protonens cirkelbana? (Svara i m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Den magnetiska kraften är centripetalkraften.</p></li><li><div class=\"facit-matte\">\\[qvB=\\frac{mv^2}{r}\\quad\\Rightarrow\\quad r=\\frac{mv}{qB}\\]</div></li><li><div class=\"facit-matte\">\\[r=\\frac{1{,}673\\cdot10^{-27}\\cdot4{,}0\\cdot10^5}{1{,}602\\cdot10^{-19}\\cdot30\\cdot10^{-6}}\\approx1{,}4\\cdot10^2\\ \\mathrm m\\]</div></li><li><p class=\"facit-metod\">Laddade partiklar fångas av jordfältet och leds längs fältlinjerna mot polerna, där de kan ge norrsken.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 140 m.</p></div>",
+  "familj": "Jordens magnetfält i praktiken",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Sätt den magnetiska kraften \\(qvB\\) lika med centripetalkraften och lös ut r.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 139.209321681,
+  "tolerans": 1.39209321681,
+  "svarVardesiffror": 2,
+  "svarEnhet": "m"
+},
+{
+  "id": "5.470",
+  "kap": 5,
+  "omr": "exoplaneter",
+  "niva": "E",
+  "typ": "transitdjup ur radieförhållande",
+  "poang": "(1/0/0)",
+  "t": "<p>En planet har radien 0,13 gånger stjärnans radie. Hur mycket minskar stjärnans ljusstyrka när planeten passerar framför stjärnan? Anta att stjärnskivan lyser jämnt. (Svara i procent.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Ljusstyrkan minskar med andelen av stjärnskivan som skyms.</p></li><li><div class=\"facit-matte\">\\[\\frac{\\pi R_p^2}{\\pi R_*^2}=0{,}13^2=0{,}0169=1{,}69\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,69 %.</p></div>",
+  "familj": "Transitmetoden",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Jämför planetens och stjärnans cirkelytor.</p>",
+  "familjNyckel": "exoplaneter__exoplaneter_och_transitmetoden",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.69,
+  "tolerans": 0.005,
+  "svarEnhet": "%"
+},
+{
+  "id": "5.471",
+  "kap": 5,
+  "omr": "exoplaneter",
+  "niva": "E",
+  "typ": "omloppstid ur avstånd och massa",
+  "poang": "(1/0/0)",
+  "t": "<p>Keplers tredje lag kan skrivas \\(T^2=\\dfrac{a^3}{M}\\), med T i år, a i AU och M i solmassor. En planet kretsar på avståndet 0,50 AU kring en stjärna med massan 0,80 solmassor. Hur lång är omloppstiden? (Svara i dygn.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=\\sqrt{\\frac{0{,}50^3}{0{,}80}}=\\sqrt{0{,}156}\\approx0{,}395\\ \\text{år}\\]</div></li><li><div class=\"facit-matte\">\\[0{,}395\\cdot365\\approx144\\ \\text{dygn}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 144 dygn.</p></div>",
+  "familj": "Keplers tredje lag och planetdata",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "ledtrad": "<p>Räkna först T i år och gör sedan om till dygn.</p>",
+  "familjNyckel": "exoplaneter__exoplaneter_och_transitmetoden",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 144.377739422,
+  "tolerans": 1.44377739422,
+  "svarVardesiffror": 3,
+  "svarEnhet": "dygn"
+},
+{
+  "id": "5.472",
+  "kap": 5,
+  "omr": "exoplaneter",
+  "niva": "C",
+  "typ": "period och radie ur en ljuskurva",
+  "poang": "(0/1/0)",
+  "t": "<p>Ljuskurvan visar en stjärna som har radien 0,95 solradier.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"320\" viewBox=\"0 0 470 320\" role=\"img\" aria-label=\"Ljuskurva: ljusstyrkan är 100 procent utom vid tre korta dippar till 99,0 procent, vid 4, 16 och 28 dygn.\"><title>Ljuskurva: ljusstyrkan är 100 procent utom vid tre korta dippar till 99,0 procent, vid 4, 16 och 28 dygn.</title><rect x=\"1\" y=\"1\" width=\"468\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"72.0\" y1=\"34\" x2=\"72.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"72.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"134.0\" y1=\"34\" x2=\"134.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"134.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"196.0\" y1=\"34\" x2=\"196.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"196.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><line x1=\"258.0\" y1=\"34\" x2=\"258.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"258.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">15</text><line x1=\"320.0\" y1=\"34\" x2=\"320.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"320.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">20</text><line x1=\"382.0\" y1=\"34\" x2=\"382.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"382.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">25</text><line x1=\"444.0\" y1=\"34\" x2=\"444.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"444.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">30</text><line x1=\"72\" y1=\"264.0\" x2=\"444\" y2=\"264.0\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"268.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">98,6</text><line x1=\"72\" y1=\"235.2\" x2=\"444\" y2=\"235.2\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"239.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">98,8</text><line x1=\"72\" y1=\"206.5\" x2=\"444\" y2=\"206.5\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"210.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">99,0</text><line x1=\"72\" y1=\"177.7\" x2=\"444\" y2=\"177.7\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"181.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">99,2</text><line x1=\"72\" y1=\"149.0\" x2=\"444\" y2=\"149.0\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"153.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">99,4</text><line x1=\"72\" y1=\"120.2\" x2=\"444\" y2=\"120.2\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"124.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">99,6</text><line x1=\"72\" y1=\"91.5\" x2=\"444\" y2=\"91.5\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"95.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">99,8</text><line x1=\"72\" y1=\"62.7\" x2=\"444\" y2=\"62.7\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"66.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">100,0</text><line x1=\"72\" y1=\"34.0\" x2=\"444\" y2=\"34.0\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">100,2</text><line x1=\"72\" y1=\"264\" x2=\"450\" y2=\"264\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"72\" y1=\"264\" x2=\"72\" y2=\"28\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"306.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">tid (dygn)</text><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">ljusstyrka (%)</text><polyline points=\"72.0,62.8 72.6,62.8 73.2,62.8 73.9,62.8 74.5,62.8 75.1,62.8 75.7,62.8 76.3,62.8 77.0,62.8 77.6,62.8 78.2,62.8 78.8,62.8 79.4,62.8 80.1,62.8 80.7,62.8 81.3,62.8 81.9,62.8 82.5,62.8 83.2,62.8 83.8,62.8 84.4,62.8 85.0,62.8 85.6,62.8 86.3,62.8 86.9,62.8 87.5,62.8 88.1,62.8 88.7,62.8 89.4,62.8 90.0,62.8 90.6,62.8 91.2,62.8 91.8,62.8 92.5,62.8 93.1,62.8 93.7,62.8 94.3,62.8 94.9,62.8 95.6,62.8 96.2,62.8 96.8,62.8 97.4,62.8 98.0,62.8 98.7,62.8 99.3,62.8 99.9,62.8 100.5,62.8 101.1,62.8 101.8,62.8 102.4,62.8 103.0,62.8 103.6,62.8 104.2,62.8 104.9,62.8 105.5,62.8 106.1,62.8 106.7,62.8 107.3,62.8 108.0,62.8 108.6,62.8 109.2,62.8 109.8,62.8 110.4,62.8 111.1,62.8 111.7,62.8 112.3,62.8 112.9,62.8 113.5,62.8 114.2,62.8 114.8,62.8 115.4,62.8 116.0,62.8 116.6,62.8 117.3,110.7 117.9,158.6 118.5,206.5 119.1,206.5 119.7,206.5 120.4,206.5 121.0,206.5 121.6,206.5 122.2,206.5 122.8,206.5 123.5,206.5 124.1,206.5 124.7,206.5 125.3,158.6 125.9,110.7 126.6,62.8 127.2,62.8 127.8,62.8 128.4,62.8 129.0,62.8 129.7,62.8 130.3,62.8 130.9,62.8 131.5,62.8 132.1,62.8 132.8,62.8 133.4,62.8 134.0,62.8 134.6,62.8 135.2,62.8 135.9,62.8 136.5,62.8 137.1,62.8 137.7,62.8 138.3,62.8 139.0,62.8 139.6,62.8 140.2,62.8 140.8,62.8 141.4,62.8 142.1,62.8 142.7,62.8 143.3,62.8 143.9,62.8 144.5,62.8 145.2,62.8 145.8,62.8 146.4,62.8 147.0,62.8 147.6,62.8 148.3,62.8 148.9,62.8 149.5,62.8 150.1,62.8 150.7,62.8 151.4,62.8 152.0,62.8 152.6,62.8 153.2,62.8 153.8,62.8 154.5,62.8 155.1,62.8 155.7,62.8 156.3,62.8 156.9,62.8 157.6,62.8 158.2,62.8 158.8,62.8 159.4,62.8 160.0,62.8 160.7,62.8 161.3,62.8 161.9,62.8 162.5,62.8 163.1,62.8 163.8,62.8 164.4,62.8 165.0,62.8 165.6,62.8 166.2,62.8 166.9,62.8 167.5,62.8 168.1,62.8 168.7,62.8 169.3,62.8 170.0,62.8 170.6,62.8 171.2,62.8 171.8,62.8 172.4,62.8 173.1,62.8 173.7,62.8 174.3,62.8 174.9,62.8 175.5,62.8 176.2,62.8 176.8,62.8 177.4,62.8 178.0,62.8 178.6,62.8 179.3,62.8 179.9,62.8 180.5,62.8 181.1,62.8 181.7,62.8 182.4,62.8 183.0,62.8 183.6,62.8 184.2,62.8 184.8,62.8 185.5,62.8 186.1,62.8 186.7,62.8 187.3,62.8 187.9,62.8 188.6,62.8 189.2,62.8 189.8,62.8 190.4,62.8 191.0,62.8 191.7,62.8 192.3,62.8 192.9,62.8 193.5,62.8 194.1,62.8 194.8,62.8 195.4,62.8 196.0,62.8 196.6,62.8 197.2,62.8 197.9,62.8 198.5,62.8 199.1,62.8 199.7,62.8 200.3,62.8 201.0,62.8 201.6,62.8 202.2,62.8 202.8,62.8 203.4,62.8 204.1,62.8 204.7,62.8 205.3,62.8 205.9,62.8 206.5,62.8 207.2,62.8 207.8,62.8 208.4,62.8 209.0,62.8 209.6,62.8 210.3,62.8 210.9,62.8 211.5,62.8 212.1,62.8 212.7,62.8 213.4,62.8 214.0,62.8 214.6,62.8 215.2,62.8 215.8,62.8 216.5,62.8 217.1,62.8 217.7,62.8 218.3,62.8 218.9,62.8 219.6,62.8 220.2,62.8 220.8,62.8 221.4,62.8 222.0,62.8 222.7,62.8 223.3,62.8 223.9,62.8 224.5,62.8 225.1,62.8 225.8,62.8 226.4,62.8 227.0,62.8 227.6,62.8 228.2,62.8 228.9,62.8 229.5,62.8 230.1,62.8 230.7,62.8 231.3,62.8 232.0,62.8 232.6,62.8 233.2,62.8 233.8,62.8 234.4,62.8 235.1,62.8 235.7,62.8 236.3,62.8 236.9,62.8 237.5,62.8 238.2,62.8 238.8,62.8 239.4,62.8 240.0,62.8 240.6,62.8 241.3,62.8 241.9,62.8 242.5,62.8 243.1,62.8 243.7,62.8 244.4,62.8 245.0,62.8 245.6,62.8 246.2,62.8 246.8,62.8 247.5,62.8 248.1,62.8 248.7,62.8 249.3,62.8 249.9,62.8 250.6,62.8 251.2,62.8 251.8,62.8 252.4,62.8 253.0,62.8 253.7,62.8 254.3,62.8 254.9,62.8 255.5,62.8 256.1,62.8 256.8,62.8 257.4,62.8 258.0,62.8 258.6,62.8 259.2,62.8 259.9,62.8 260.5,62.8 261.1,62.8 261.7,62.8 262.3,62.8 263.0,62.8 263.6,62.8 264.2,62.8 264.8,62.8 265.4,62.8 266.1,110.7 266.7,158.6 267.3,206.5 267.9,206.5 268.5,206.5 269.2,206.5 269.8,206.5 270.4,206.5 271.0,206.5 271.6,206.5 272.3,206.5 272.9,206.5 273.5,206.5 274.1,158.6 274.7,110.7 275.4,62.8 276.0,62.8 276.6,62.8 277.2,62.8 277.8,62.8 278.5,62.8 279.1,62.8 279.7,62.8 280.3,62.8 280.9,62.8 281.6,62.8 282.2,62.8 282.8,62.8 283.4,62.8 284.0,62.8 284.7,62.8 285.3,62.8 285.9,62.8 286.5,62.8 287.1,62.8 287.8,62.8 288.4,62.8 289.0,62.8 289.6,62.8 290.2,62.8 290.9,62.8 291.5,62.8 292.1,62.8 292.7,62.8 293.3,62.8 294.0,62.8 294.6,62.8 295.2,62.8 295.8,62.8 296.4,62.8 297.1,62.8 297.7,62.8 298.3,62.8 298.9,62.8 299.5,62.8 300.2,62.8 300.8,62.8 301.4,62.8 302.0,62.8 302.6,62.8 303.3,62.8 303.9,62.8 304.5,62.8 305.1,62.8 305.7,62.8 306.4,62.8 307.0,62.8 307.6,62.8 308.2,62.8 308.8,62.8 309.5,62.8 310.1,62.8 310.7,62.8 311.3,62.8 311.9,62.8 312.6,62.8 313.2,62.8 313.8,62.8 314.4,62.8 315.0,62.8 315.7,62.8 316.3,62.8 316.9,62.8 317.5,62.8 318.1,62.8 318.8,62.8 319.4,62.8 320.0,62.8 320.6,62.8 321.2,62.8 321.9,62.8 322.5,62.8 323.1,62.8 323.7,62.8 324.3,62.8 325.0,62.8 325.6,62.8 326.2,62.8 326.8,62.8 327.4,62.8 328.1,62.8 328.7,62.8 329.3,62.8 329.9,62.8 330.5,62.8 331.2,62.8 331.8,62.8 332.4,62.8 333.0,62.8 333.6,62.8 334.3,62.8 334.9,62.8 335.5,62.8 336.1,62.8 336.7,62.8 337.4,62.8 338.0,62.8 338.6,62.8 339.2,62.8 339.8,62.8 340.5,62.8 341.1,62.8 341.7,62.8 342.3,62.8 342.9,62.8 343.6,62.8 344.2,62.8 344.8,62.8 345.4,62.8 346.0,62.8 346.7,62.8 347.3,62.8 347.9,62.8 348.5,62.8 349.1,62.8 349.8,62.8 350.4,62.8 351.0,62.8 351.6,62.8 352.2,62.8 352.9,62.8 353.5,62.8 354.1,62.8 354.7,62.8 355.3,62.8 356.0,62.8 356.6,62.8 357.2,62.8 357.8,62.8 358.4,62.8 359.1,62.8 359.7,62.8 360.3,62.8 360.9,62.8 361.5,62.8 362.2,62.8 362.8,62.8 363.4,62.8 364.0,62.8 364.6,62.8 365.3,62.8 365.9,62.8 366.5,62.8 367.1,62.8 367.7,62.8 368.4,62.8 369.0,62.8 369.6,62.8 370.2,62.8 370.8,62.8 371.5,62.8 372.1,62.8 372.7,62.8 373.3,62.8 373.9,62.8 374.6,62.8 375.2,62.8 375.8,62.8 376.4,62.8 377.0,62.8 377.7,62.8 378.3,62.8 378.9,62.8 379.5,62.8 380.1,62.8 380.8,62.8 381.4,62.8 382.0,62.8 382.6,62.8 383.2,62.8 383.9,62.8 384.5,62.8 385.1,62.8 385.7,62.8 386.3,62.8 387.0,62.8 387.6,62.8 388.2,62.8 388.8,62.8 389.4,62.8 390.1,62.8 390.7,62.8 391.3,62.8 391.9,62.8 392.5,62.8 393.2,62.8 393.8,62.8 394.4,62.8 395.0,62.8 395.6,62.8 396.3,62.8 396.9,62.8 397.5,62.8 398.1,62.8 398.7,62.8 399.4,62.8 400.0,62.8 400.6,62.8 401.2,62.8 401.8,62.8 402.5,62.8 403.1,62.8 403.7,62.8 404.3,62.8 404.9,62.8 405.6,62.8 406.2,62.8 406.8,62.8 407.4,62.8 408.0,62.8 408.7,62.8 409.3,62.8 409.9,62.8 410.5,62.8 411.1,62.8 411.8,62.8 412.4,62.8 413.0,62.8 413.6,62.8 414.2,62.8 414.9,110.7 415.5,158.6 416.1,206.5 416.7,206.5 417.3,206.5 418.0,206.5 418.6,206.5 419.2,206.5 419.8,206.5 420.4,206.5 421.1,206.5 421.7,206.5 422.3,206.5 422.9,158.6 423.5,110.7 424.2,62.8 424.8,62.8 425.4,62.8 426.0,62.8 426.6,62.8 427.3,62.8 427.9,62.8 428.5,62.8 429.1,62.8 429.7,62.8 430.4,62.8 431.0,62.8 431.6,62.8 432.2,62.8 432.8,62.8 433.5,62.8 434.1,62.8 434.7,62.8 435.3,62.8 435.9,62.8 436.6,62.8 437.2,62.8 437.8,62.8 438.4,62.8 439.0,62.8 439.7,62.8 440.3,62.8 440.9,62.8 441.5,62.8 442.1,62.8 442.8,62.8 443.4,62.8 444.0,62.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.4\"/></svg></span><p>Bestäm planetens omloppstid och dess radie uttryckt i jordradier. (Svara i dygn och jordradier.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Transiterna kommer var 12:e dygn: vid 4, 16 och 28 dygn.</p></li><li><div class=\"facit-matte\">\\[T=16-4=12\\ \\text{dygn}\\]</div></li><li><p class=\"facit-metod\">Ljusstyrkan sjunker med 1,0 %, alltså skymmer planeten 1,0 % av stjärnskivan.</p></li><li><div class=\"facit-matte\">\\[\\frac{R_p}{R_*}=\\sqrt{0{,}010}=0{,}10\\]</div></li><li><div class=\"facit-matte\">\\[R_p=0{,}10\\cdot0{,}95\\cdot109\\ R_\\oplus\\approx10\\ R_\\oplus\\]</div></li><li><p class=\"facit-metod\">Planeten är ungefär lika stor som Saturnus.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 dygn och ungefär 10 jordradier.</p></div>",
+  "familj": "Ljuskurvor och radialhastighet i grafer",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Tiden mellan två dippar är omloppstiden. Dippens djup är förhållandet mellan planetens och stjärnans area. Solens radie är ungefär 109 jordradier.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    12.0,
+    10.3645
+  ],
+  "tolerans": [
+    0.2,
+    0.4
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "dygn",
+    ""
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Omloppstid",
+    "Radie (jordradier)"
+  ]
+},
+{
+  "id": "5.473",
+  "kap": 5,
+  "omr": "exoplaneter",
+  "niva": "C",
+  "typ": "avstånd ur transitperiod",
+  "poang": "(0/1/0)",
+  "t": "<p>En planet ger transiter var 12:e dygn hos en stjärna med massan 0,95 solmassor. Keplers tredje lag kan skrivas \\(a^3=MT^2\\), med a i AU, T i år och M i solmassor. Hur långt från stjärnan kretsar planeten? (Svara i AU.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[T=\\frac{12}{365}\\ \\text{år}\\approx0{,}0329\\ \\text{år}\\]</div></li><li><div class=\"facit-matte\">\\[a=\\sqrt[3]{0{,}95\\cdot0{,}0329^2}\\approx0{,}10\\ \\mathrm{AU}\\]</div></li><li><p class=\"facit-metod\">Planeten ligger mycket närmare sin stjärna än Merkurius (0,39 AU) ligger solen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 0,10 AU.</p></div>",
+  "familj": "Keplers tredje lag och planetdata",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Gör om omloppstiden till år innan du sätter in i Keplers lag.</p>",
+  "familjNyckel": "exoplaneter__exoplaneter_och_transitmetoden",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.1008405524,
+  "tolerans": 0.001008405524,
+  "svarVardesiffror": 2,
+  "svarEnhet": "AU"
+},
+{
+  "id": "5.474",
+  "kap": 5,
+  "omr": "exoplaneter",
+  "niva": "C",
+  "typ": "planetens banfart ur radialhastighetskurva",
+  "poang": "(0/1/0)",
+  "t": "<p>Kurvan visar hur stjärnans radialhastighet varierar när en planet kretsar runt den. Planeten kretsar i en cirkelbana med radien 0,050 AU.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"320\" viewBox=\"0 0 470 320\" role=\"img\" aria-label=\"Radialhastighetskurva: stjärnans hastighet varierar som en sinuskurva mellan +55 och −55 m/s. Kurvan är noll vid 0, 2,1, 4,2, 6,3 och 8,4 dygn.\"><title>Radialhastighetskurva: stjärnans hastighet varierar som en sinuskurva mellan +55 och −55 m/s. Kurvan är noll vid 0, 2,1, 4,2, 6,3 och 8,4 dygn.</title><rect x=\"1\" y=\"1\" width=\"468\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"72.0\" y1=\"34\" x2=\"72.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"72.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">0</text><line x1=\"109.2\" y1=\"34\" x2=\"109.2\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"109.2\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"146.4\" y1=\"34\" x2=\"146.4\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"146.4\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"183.6\" y1=\"34\" x2=\"183.6\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"183.6\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"220.8\" y1=\"34\" x2=\"220.8\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"220.8\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"258.0\" y1=\"34\" x2=\"258.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"258.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"295.2\" y1=\"34\" x2=\"295.2\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"295.2\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"332.4\" y1=\"34\" x2=\"332.4\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"332.4\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"369.6\" y1=\"34\" x2=\"369.6\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"369.6\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"406.8\" y1=\"34\" x2=\"406.8\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"406.8\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">9</text><line x1=\"444.0\" y1=\"34\" x2=\"444.0\" y2=\"264\" stroke=\"#e3e8ee\"/><text x=\"444.0\" y=\"282.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><line x1=\"72\" y1=\"264.0\" x2=\"444\" y2=\"264.0\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"268.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">−80</text><line x1=\"72\" y1=\"235.2\" x2=\"444\" y2=\"235.2\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"239.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">−60</text><line x1=\"72\" y1=\"206.5\" x2=\"444\" y2=\"206.5\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"210.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">−40</text><line x1=\"72\" y1=\"177.8\" x2=\"444\" y2=\"177.8\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"181.8\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">−20</text><line x1=\"72\" y1=\"149.0\" x2=\"444\" y2=\"149.0\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"153.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"72\" y1=\"120.2\" x2=\"444\" y2=\"120.2\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"124.2\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"72\" y1=\"91.5\" x2=\"444\" y2=\"91.5\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"95.5\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">40</text><line x1=\"72\" y1=\"62.8\" x2=\"444\" y2=\"62.8\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"66.8\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">60</text><line x1=\"72\" y1=\"34.0\" x2=\"444\" y2=\"34.0\" stroke=\"#e3e8ee\"/><text x=\"65.0\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">80</text><line x1=\"72\" y1=\"264\" x2=\"450\" y2=\"264\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"72\" y1=\"264\" x2=\"72\" y2=\"28\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"258.0\" y=\"306.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" font-weight=\"bold\">tid (dygn)</text><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\" font-weight=\"bold\">radialhastighet (m/s)</text><line x1=\"72.0\" y1=\"149.0\" x2=\"444.0\" y2=\"149.0\" stroke=\"#34495e\" stroke-width=\"1\"/><polyline points=\"72.0,149.0 72.9,146.0 73.9,143.1 74.8,140.1 75.7,137.2 76.7,134.3 77.6,131.4 78.5,128.5 79.4,125.7 80.4,122.9 81.3,120.1 82.2,117.4 83.2,114.7 84.1,112.1 85.0,109.5 86.0,106.9 86.9,104.5 87.8,102.1 88.7,99.7 89.7,97.4 90.6,95.2 91.5,93.1 92.5,91.0 93.4,89.1 94.3,87.2 95.2,85.4 96.2,83.7 97.1,82.1 98.0,80.5 99.0,79.1 99.9,77.8 100.8,76.5 101.8,75.4 102.7,74.4 103.6,73.5 104.5,72.6 105.5,71.9 106.4,71.3 107.3,70.8 108.3,70.4 109.2,70.2 110.1,70.0 111.1,69.9 112.0,70.0 112.9,70.2 113.8,70.4 114.8,70.8 115.7,71.3 116.6,71.9 117.6,72.6 118.5,73.5 119.4,74.4 120.4,75.4 121.3,76.5 122.2,77.8 123.2,79.1 124.1,80.5 125.0,82.1 125.9,83.7 126.9,85.4 127.8,87.2 128.7,89.1 129.7,91.0 130.6,93.1 131.5,95.2 132.4,97.4 133.4,99.7 134.3,102.1 135.2,104.5 136.2,106.9 137.1,109.5 138.0,112.1 139.0,114.7 139.9,117.4 140.8,120.1 141.8,122.9 142.7,125.7 143.6,128.5 144.5,131.4 145.5,134.3 146.4,137.2 147.3,140.1 148.3,143.1 149.2,146.0 150.1,149.0 151.1,152.0 152.0,154.9 152.9,157.9 153.8,160.8 154.8,163.7 155.7,166.6 156.6,169.5 157.6,172.3 158.5,175.1 159.4,177.9 160.3,180.6 161.3,183.3 162.2,185.9 163.1,188.5 164.1,191.1 165.0,193.5 165.9,195.9 166.9,198.3 167.8,200.6 168.7,202.8 169.7,204.9 170.6,207.0 171.5,208.9 172.4,210.8 173.4,212.6 174.3,214.3 175.2,215.9 176.2,217.5 177.1,218.9 178.0,220.2 178.9,221.5 179.9,222.6 180.8,223.6 181.7,224.5 182.7,225.4 183.6,226.1 184.5,226.7 185.5,227.2 186.4,227.6 187.3,227.8 188.2,228.0 189.2,228.1 190.1,228.0 191.0,227.8 192.0,227.6 192.9,227.2 193.8,226.7 194.8,226.1 195.7,225.4 196.6,224.5 197.6,223.6 198.5,222.6 199.4,221.5 200.3,220.2 201.3,218.9 202.2,217.5 203.1,215.9 204.1,214.3 205.0,212.6 205.9,210.8 206.8,208.9 207.8,207.0 208.7,204.9 209.6,202.8 210.6,200.6 211.5,198.3 212.4,195.9 213.4,193.5 214.3,191.1 215.2,188.5 216.2,185.9 217.1,183.3 218.0,180.6 218.9,177.9 219.9,175.1 220.8,172.3 221.7,169.5 222.7,166.6 223.6,163.7 224.5,160.8 225.4,157.9 226.4,154.9 227.3,152.0 228.2,149.0 229.2,146.0 230.1,143.1 231.0,140.1 232.0,137.2 232.9,134.3 233.8,131.4 234.8,128.5 235.7,125.7 236.6,122.9 237.5,120.1 238.5,117.4 239.4,114.7 240.3,112.1 241.3,109.5 242.2,106.9 243.1,104.5 244.1,102.1 245.0,99.7 245.9,97.4 246.8,95.2 247.8,93.1 248.7,91.0 249.6,89.1 250.6,87.2 251.5,85.4 252.4,83.7 253.3,82.1 254.3,80.5 255.2,79.1 256.1,77.8 257.1,76.5 258.0,75.4 258.9,74.4 259.9,73.5 260.8,72.6 261.7,71.9 262.6,71.3 263.6,70.8 264.5,70.4 265.4,70.2 266.4,70.0 267.3,69.9 268.2,70.0 269.2,70.2 270.1,70.4 271.0,70.8 271.9,71.3 272.9,71.9 273.8,72.6 274.7,73.5 275.7,74.4 276.6,75.4 277.5,76.5 278.5,77.8 279.4,79.1 280.3,80.5 281.2,82.1 282.2,83.7 283.1,85.4 284.0,87.2 285.0,89.1 285.9,91.0 286.8,93.1 287.8,95.2 288.7,97.4 289.6,99.7 290.6,102.1 291.5,104.5 292.4,106.9 293.3,109.5 294.3,112.1 295.2,114.7 296.1,117.4 297.1,120.1 298.0,122.9 298.9,125.7 299.9,128.5 300.8,131.4 301.7,134.3 302.6,137.2 303.6,140.1 304.5,143.1 305.4,146.0 306.4,149.0 307.3,152.0 308.2,154.9 309.1,157.9 310.1,160.8 311.0,163.7 311.9,166.6 312.9,169.5 313.8,172.3 314.7,175.1 315.7,177.9 316.6,180.6 317.5,183.3 318.4,185.9 319.4,188.5 320.3,191.1 321.2,193.5 322.2,195.9 323.1,198.3 324.0,200.6 325.0,202.8 325.9,204.9 326.8,207.0 327.8,208.9 328.7,210.8 329.6,212.6 330.5,214.3 331.5,215.9 332.4,217.5 333.3,218.9 334.3,220.2 335.2,221.5 336.1,222.6 337.1,223.6 338.0,224.5 338.9,225.4 339.8,226.1 340.8,226.7 341.7,227.2 342.6,227.6 343.6,227.8 344.5,228.0 345.4,228.1 346.4,228.0 347.3,227.8 348.2,227.6 349.1,227.2 350.1,226.7 351.0,226.1 351.9,225.4 352.9,224.5 353.8,223.6 354.7,222.6 355.6,221.5 356.6,220.2 357.5,218.9 358.4,217.5 359.4,215.9 360.3,214.3 361.2,212.6 362.2,210.8 363.1,208.9 364.0,207.0 364.9,204.9 365.9,202.8 366.8,200.6 367.7,198.3 368.7,195.9 369.6,193.5 370.5,191.1 371.5,188.5 372.4,185.9 373.3,183.3 374.2,180.6 375.2,177.9 376.1,175.1 377.0,172.3 378.0,169.5 378.9,166.6 379.8,163.7 380.8,160.8 381.7,157.9 382.6,154.9 383.6,152.0 384.5,149.0 385.4,146.0 386.3,143.1 387.3,140.1 388.2,137.2 389.1,134.3 390.1,131.4 391.0,128.5 391.9,125.7 392.9,122.9 393.8,120.1 394.7,117.4 395.6,114.7 396.6,112.1 397.5,109.5 398.4,106.9 399.4,104.5 400.3,102.1 401.2,99.7 402.1,97.4 403.1,95.2 404.0,93.1 404.9,91.0 405.9,89.1 406.8,87.2 407.7,85.4 408.7,83.7 409.6,82.1 410.5,80.5 411.4,79.1 412.4,77.8 413.3,76.5 414.2,75.4 415.2,74.4 416.1,73.5 417.0,72.6 418.0,71.9 418.9,71.3 419.8,70.8 420.8,70.4 421.7,70.2 422.6,70.0 423.5,69.9 424.5,70.0 425.4,70.2 426.3,70.4 427.3,70.8 428.2,71.3 429.1,71.9 430.1,72.6 431.0,73.5 431.9,74.4 432.8,75.4 433.8,76.5 434.7,77.8 435.6,79.1 436.6,80.5 437.5,82.1 438.4,83.7 439.4,85.4 440.3,87.2 441.2,89.1 442.1,91.0 443.1,93.1 444.0,95.2\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.6\"/></svg></span><p>Bestäm omloppstiden ur kurvan och beräkna sedan planetens banfart. (Svara i dygn och km/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">En hel period går från 0 till 4,2 dygn, där kurvan har gått upp, ner och tillbaka till noll med samma lutning.</p></li><li><div class=\"facit-matte\">\\[T=4{,}2\\ \\text{dygn}=4{,}2\\cdot86\\,400\\ \\mathrm s\\approx3{,}63\\cdot10^5\\ \\mathrm s\\]</div></li><li><div class=\"facit-matte\">\\[v=\\frac{2\\pi a}{T}=\\frac{2\\pi\\cdot0{,}050\\cdot1{,}496\\cdot10^{11}}{3{,}63\\cdot10^5}\\approx1{,}3\\cdot10^5\\ \\mathrm{m/s}=130\\ \\mathrm{km/s}\\]</div></li><li><p class=\"facit-metod\">Stjärnan rör sig bara 55 m/s, eftersom den är mycket tyngre än planeten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,2 dygn och ungefär 130 km/s.</p></div>",
+  "familj": "Ljuskurvor och radialhastighet i grafer",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Omloppstiden är tiden för en hel svängning av kurvan. Banfarten är omkretsen delad med omloppstiden.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    4.2,
+    129.514511954
+  ],
+  "tolerans": [
+    0.1,
+    3
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "dygn",
+    "km/s"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Omloppstid",
+    "Banfart"
+  ]
+},
+{
+  "id": "5.475",
+  "kap": 5,
+  "omr": "exoplaneter",
+  "niva": "C",
+  "typ": "vad som krävs för planetens densitet",
+  "poang": "(0/1/0)",
+  "t": "<p>En astronom hittar en planet med transitmetoden. Transitdjupet och stjärnans radie är kända. Vad behöver astronomen dessutom mäta för att kunna bestämma planetens medeldensitet? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Transitdjupet ger planetens radie och därmed volym. Densiteten kräver också massan.</p></li><li><p class=\"facit-metod\">Massan kan bestämmas ur stjärnans radialhastighet: ju tyngre planet, desto större vaggrörelse hos stjärnan.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Stjärnans radialhastighet, som ger planetens massa.</p></div>",
+  "familj": "Transitmetoden",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Densitet är massa per volym. Vilken av dem ger transiten?</p>",
+  "familjNyckel": "exoplaneter__exoplaneter_och_transitmetoden",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Transitens längd i timmar",
+      "ratt": false,
+      "kommentar": "Den hänger ihop med banan och storleken, inte med massan."
+    },
+    {
+      "txt": "Stjärnans yttemperatur",
+      "ratt": false,
+      "kommentar": "Den ger inte planetens massa."
+    },
+    {
+      "txt": "Hur många transiter som syns per år",
+      "ratt": false,
+      "kommentar": "Det ger omloppstiden men inte massan."
+    },
+    {
+      "txt": "Stjärnans radialhastighet, som ger planetens massa",
+      "ratt": true
+    }
+  ]
+},
+{
+  "id": "5.476",
+  "kap": 5,
+  "omr": "stjarnornas_utveckling",
+  "niva": "C",
+  "typ": "radie ur strålningsmaximum och luminositet",
+  "poang": "(0/1/0)",
+  "t": "<p>En stjärna har sitt strålningsmaximum vid 725 nm och luminositeten 0,15 gånger solens. Hur stor är stjärnans radie, uttryckt i solradier?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Wiens förskjutningslag ger temperaturen.</p></li><li><div class=\"facit-matte\">\\[T=\\frac{2{,}898\\cdot10^{-3}}{725\\cdot10^{-9}}\\approx4{,}0\\cdot10^3\\ \\mathrm K\\]</div></li><li><p class=\"facit-metod\">Med \\(L=4\\pi R^2\\sigma T^4\\) och jämförelse med solen:</p></li><li><div class=\"facit-matte\">\\[\\frac{R}{R_\\odot}=\\sqrt{\\frac{L}{L_\\odot}}\\left(\\frac{T_\\odot}{T}\\right)^2=\\sqrt{0{,}15}\\left(\\frac{5\\,780}{4\\,000}\\right)^2\\approx0{,}81\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 0,81 solradier.</p></div>",
+  "familj": "Temperatur, strålning och HR-diagram",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm temperaturen med Wiens lag. Jämför sedan med solen i Stefan–Boltzmanns lag, så slipper du räkna med σ.</p>",
+  "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.811492072698,
+  "tolerans": 0.02
+},
+{
+  "id": "5.477",
+  "kap": 5,
+  "omr": "stjarnornas_utveckling",
+  "niva": "C",
+  "typ": "solens massförlust",
+  "poang": "(0/1/0)",
+  "t": "<p>Solens energi kommer från fusion, där massa omvandlas till energi enligt \\(E=mc^2\\).</p><p>a) Hur mycket massa omvandlas till energi i solen varje sekund?<br>b) Hur många procent av solens massa omvandlas på 10 miljarder år, om luminositeten är konstant? (Svara i kg och %.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">a) Varje sekund strålar solen ut energin \\(L_\\odot\\cdot1\\ \\mathrm s\\).</p></li><li><div class=\"facit-matte\">\\[\\Delta m=\\frac{L_\\odot}{c^2}=\\frac{3{,}83\\cdot10^{26}}{(3{,}00\\cdot10^8)^2}\\approx4{,}3\\cdot10^9\\ \\mathrm{kg}\\]</div></li><li><p class=\"facit-metod\">b) Tiden 10 miljarder år är \\(10^{10}\\cdot3{,}16\\cdot10^7\\ \\mathrm s\\).</p></li><li><div class=\"facit-matte\">\\[\\frac{4{,}3\\cdot10^9\\cdot3{,}16\\cdot10^{17}}{1{,}99\\cdot10^{30}}\\approx6{,}8\\cdot10^{-4}=0{,}068\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) Ungefär 4,3·10⁹ kg b) ungefär 0,07 %</p></div>",
+  "familj": "Stjärnors livslängd och slutstadier",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hämta solens luminositet och massa ur formelsamlingen. Energi per sekund delat med c² ger massa per sekund.</p>",
+  "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    4261235308.75,
+    0.0676141711132
+  ],
+  "tolerans": [
+    50000000.0,
+    0.003
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "kg",
+    "%"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a) Per sekund",
+    "b) Andel"
+  ]
+},
+{
+  "id": "5.478",
+  "kap": 5,
+  "omr": "stjarnornas_utveckling",
+  "niva": "C",
+  "typ": "Betelgeuses radie i AU",
+  "poang": "(0/1/0)",
+  "t": "<p>Den röda superjätten Betelgeuse har ungefär luminositeten \\(1{,}0\\cdot10^5\\) gånger solens och yttemperaturen 3 600 K.</p><p>Bestäm Betelgeuses radie i solradier och i AU. (Svara i solradier och AU.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{R}{R_\\odot}=\\sqrt{\\frac{L}{L_\\odot}}\\left(\\frac{T_\\odot}{T}\\right)^2=\\sqrt{1{,}0\\cdot10^5}\\left(\\frac{5\\,780}{3\\,600}\\right)^2\\approx8{,}2\\cdot10^2\\]</div></li><li><div class=\"facit-matte\">\\[R\\approx820\\cdot6{,}96\\cdot10^8\\ \\mathrm m\\approx5{,}7\\cdot10^{11}\\ \\mathrm m=\\frac{5{,}7\\cdot10^{11}}{1{,}496\\cdot10^{11}}\\ \\mathrm{AU}\\approx3{,}8\\ \\mathrm{AU}\\]</div></li><li><p class=\"facit-metod\">Om Betelgeuse låg där solen ligger skulle den nå förbi Mars bana (1,5 AU) och en bra bit ut mot Jupiter (5,2 AU).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 820 solradier, eller 3,8 AU.</p></div>",
+  "familj": "Temperatur, strålning och HR-diagram",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Jämför med solen i Stefan–Boltzmanns lag. Solens radie och AU finns i formelsamlingen.</p>",
+  "familjNyckel": "stjarnornas_utveckling__stjarnors_utveckling_och_hr_diagram",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    816.872733093,
+    3.79878583164
+  ],
+  "tolerans": [
+    15,
+    0.1
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "",
+    "AU"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Solradier",
+    "AU"
+  ]
+},
+{
+  "id": "5.479",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "C",
+  "typ": "avstånd med osäker parallax",
+  "poang": "(0/1/0)",
+  "t": "<p>Rymdteleskopet Gaia mäter en stjärnas parallax till \\((4{,}0\\pm0{,}4)\\cdot10^{-3}\\) bågsekunder. Mellan vilka avstånd ligger stjärnan? (Svara i pc.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Avståndet i parsec är \\(d=1/p\\) med p i bågsekunder. Störst parallax ger minst avstånd.</p></li><li><div class=\"facit-matte\">\\[d_{\\min}=\\frac{1}{4{,}4\\cdot10^{-3}}\\approx227\\ \\mathrm{pc},\\qquad d_{\\max}=\\frac{1}{3{,}6\\cdot10^{-3}}\\approx278\\ \\mathrm{pc}\\]</div></li><li><p class=\"facit-metod\">Osäkerheten blir inte symmetrisk kring 250 pc: −23 pc och +28 pc.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mellan ungefär 227 pc och 278 pc.</p></div>",
+  "familj": "Synvinkel, parallax och avståndsenheter",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Räkna avståndet för den största och den minsta möjliga parallaxen.</p>",
+  "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    227.272727273,
+    277.777777778
+  ],
+  "tolerans": [
+    1,
+    1
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "pc",
+    "pc"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Minst",
+    "Störst"
+  ]
+},
+{
+  "id": "5.480",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "C",
+  "typ": "galaxens diameter ur synvinkel",
+  "poang": "(0/1/0)",
+  "t": "<p>En galax 25 Mpc bort ser ut att ha diametern 3,0 bågminuter på himlen. Hur stor är galaxens diameter? (Svara i kpc.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3{,}0'=\\frac{3{,}0}{60}^\\circ=0{,}050^\\circ=8{,}73\\cdot10^{-4}\\ \\mathrm{rad}\\]</div></li><li><p class=\"facit-metod\">För små vinklar är diametern avståndet gånger vinkeln i radianer.</p></li><li><div class=\"facit-matte\">\\[D=25\\cdot10^6\\ \\mathrm{pc}\\cdot8{,}73\\cdot10^{-4}\\approx2{,}2\\cdot10^4\\ \\mathrm{pc}=22\\ \\mathrm{kpc}\\]</div></li><li><p class=\"facit-metod\">Det är ungefär två tredjedelar av Vintergatans diameter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 22 kpc.</p></div>",
+  "familj": "Synvinkel, parallax och avståndsenheter",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Gör om bågminuterna till radianer. För små vinklar gäller \\(D\\approx d\\cdot v\\).</p>",
+  "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 21.8166156499,
+  "tolerans": 0.218166156499,
+  "svarVardesiffror": 2,
+  "svarEnhet": "kpc"
+},
+{
+  "id": "5.481",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "C",
+  "typ": "solens synvinkel från Mars",
+  "poang": "(0/1/0)",
+  "t": "<p>Mars ligger i medeltal 1,52 AU från solen. Hur stor synvinkel har solen sedd från Mars? (Svara i grader.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Solens diameter och AU finns i formelsamlingen.</p></li><li><div class=\"facit-matte\">\\[v\\approx\\frac{D}{d}=\\frac{1{,}39\\cdot10^9}{1{,}52\\cdot1{,}496\\cdot10^{11}}\\approx6{,}1\\cdot10^{-3}\\ \\mathrm{rad}\\approx0{,}35^\\circ\\]</div></li><li><p class=\"facit-metod\">Från jorden är solens synvinkel ungefär 0,53°, så från Mars ser solen ut att vara ungefär två tredjedelar så stor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 0,35°.</p></div>",
+  "familj": "Synvinkel, parallax och avståndsenheter",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>För små vinklar är synvinkeln i radianer diametern delad med avståndet.</p>",
+  "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.350741121421,
+  "tolerans": 0.00350741121421,
+  "svarVardesiffror": 2,
+  "svarEnhet": "°"
+},
+{
+  "id": "5.482",
+  "kap": 5,
+  "omr": "avstandsmatning",
+  "niva": "C",
+  "typ": "resa till Proxima Centauri",
+  "poang": "(0/1/0)",
+  "t": "<p>Proxima Centauri har parallaxen 0,768 bågsekunder. Rymdsonden Voyager 1 färdas med ungefär 17 km/s.</p><p>Hur många ljusår bort ligger Proxima Centauri, och hur många år skulle det ta för Voyager att färdas dit? (Svara i ljusår och år.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[d=\\frac{1}{0{,}768}\\ \\mathrm{pc}\\approx1{,}30\\ \\mathrm{pc}=1{,}30\\cdot3{,}26\\ \\text{ljusår}\\approx4{,}25\\ \\text{ljusår}\\]</div></li><li><div class=\"facit-matte\">\\[t=\\frac{1{,}30\\cdot3{,}086\\cdot10^{16}\\ \\mathrm m}{17\\cdot10^3\\ \\mathrm{m/s}}\\approx2{,}4\\cdot10^{12}\\ \\mathrm s\\approx7{,}5\\cdot10^4\\ \\text{år}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 4,25 ljusår och 75 000 år.</p></div>",
+  "familj": "Synvinkel, parallax och avståndsenheter",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Avståndet i parsec är 1/p. Gör om till meter för att räkna ut restiden.</p>",
+  "familjNyckel": "avstandsmatning__synvinkel_parallax_och_avstandsenheter",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    4.246875,
+    74894.3034121
+  ],
+  "tolerans": [
+    0.03,
+    1000
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "ljusår",
+    "år"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Avstånd",
+    "Restid"
+  ]
+},
+{
+  "id": "5.483",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "C",
+  "typ": "sammanlagd magnitud för en dubbelstjärna",
+  "poang": "(0/1/0)",
+  "t": "<p>I en dubbelstjärna har de två stjärnorna de apparenta magnituderna +2,0 och +3,0. På himlen ser de ut som en enda stjärna. Vilken apparent magnitud har den? (Svara med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Magnituder kan inte adderas. Det är strålningsflödena som läggs ihop.</p></li><li><div class=\"facit-matte\">\\[\\frac{I_{\\text{tot}}}{I_0}=10^{-0{,}4\\cdot2{,}0}+10^{-0{,}4\\cdot3{,}0}=0{,}158+0{,}063=0{,}222\\]</div></li><li><div class=\"facit-matte\">\\[m=-2{,}5\\lg0{,}222\\approx1{,}64\\]</div></li><li><p class=\"facit-metod\">Den sammanlagda stjärnan ser ljusare ut än den ljusaste av dem, och därför blir magnituden lägre än 2,0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär +1,64.</p></div>",
+  "familj": "Apparent och absolut magnitud",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Räkna om varje magnitud till ett relativt strålningsflöde, addera flödena och räkna tillbaka till magnitud.</p>",
+  "familjNyckel": "magnituder__apparent_och_absolut_magnitud",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.63614884223,
+  "tolerans": 0.005
+},
+{
+  "id": "5.484",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "C",
+  "typ": "hur långt bort stjärnan syns med blotta ögat",
+  "poang": "(0/1/0)",
+  "t": "<p>En stjärna 50 pc bort har den apparenta magnituden +8,2. Med blotta ögat kan man se stjärnor ned till magnitud +6,0. Hur nära oss måste stjärnan ligga för att synas med blotta ögat? (Svara i pc.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Samma stjärna på två avstånd: magnitudskillnaden beror bara på avståndet.</p></li><li><div class=\"facit-matte\">\\[m_2-m_1=5\\lg\\frac{d_2}{d_1}\\quad\\Rightarrow\\quad6{,}0-8{,}2=5\\lg\\frac{d}{50}\\]</div></li><li><div class=\"facit-matte\">\\[\\lg\\frac{d}{50}=-0{,}44\\quad\\Rightarrow\\quad d=50\\cdot10^{-0{,}44}\\approx18\\ \\mathrm{pc}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Närmare än ungefär 18 pc.</p></div>",
+  "familj": "Apparent och absolut magnitud",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Använd \\(m-M=5\\lg\\frac{d}{10}\\) två gånger, eller direkt sambandet mellan två avstånd.</p>",
+  "familjNyckel": "magnituder__apparent_och_absolut_magnitud",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 18.1539027385,
+  "tolerans": 0.181539027385,
+  "svarVardesiffror": 2,
+  "svarEnhet": "pc"
+},
+{
+  "id": "5.485",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "C",
+  "typ": "magnitud och ljusstyrka när avståndet ändras",
+  "poang": "(0/1/0)",
+  "t": "<p>En stjärna flyttas i tanken från 40 pc till 10 pc från jorden.</p><p>Hur mycket ändras dess apparenta magnitud, och hur många gånger större blir strålningsflödet vid jorden? (Svara med magnitudskillnaden som ett positivt tal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\">Strålningsflödet är omvänt proportionellt mot kvadraten på avståndet.</p></li><li><div class=\"facit-matte\">\\[\\frac{I_2}{I_1}=\\left(\\frac{40}{10}\\right)^2=16\\]</div></li><li><div class=\"facit-matte\">\\[\\Delta m=2{,}5\\lg16=5\\lg4\\approx3{,}0\\]</div></li><li><p class=\"facit-metod\">Magnituden minskar med 3,0, eftersom stjärnan ser ljusare ut.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Magnituden minskar med 3,0 och flödet blir 16 gånger större.</p></div>",
+  "familj": "Apparent och absolut magnitud",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hur många gånger närmare kommer stjärnan? Ljusflödet följer omvända kvadratlagen.</p>",
+  "familjNyckel": "magnituder__apparent_och_absolut_magnitud",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    3.01029995664,
+    16.0
+  ],
+  "tolerans": [
+    0.05,
+    0
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "",
+    ""
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Magnitudskillnad",
+    "Gånger större"
+  ]
+},
+{
+  "id": "5.486",
+  "kap": 5,
+  "omr": "magnituder",
+  "niva": "C",
+  "typ": "supernova som standardljus",
+  "poang": "(0/1/0)",
+  "t": "<p>Supernovor av typ Ia har i sitt ljusaste läge den absoluta magnituden ungefär −19,3. En sådan supernova observeras med största apparenta magnituden +16,2. Hubblekonstanten i modellen är 70 km/(s·Mpc).</p><p>Hur långt bort är värdgalaxen, och hur snabbt rör den sig bort från oss? (Svara i Mpc och km/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[m-M=5\\lg\\frac{d}{10\\ \\mathrm{pc}}\\quad\\Rightarrow\\quad16{,}2+19{,}3=35{,}5=5\\lg\\frac{d}{10}\\]</div></li><li><div class=\"facit-matte\">\\[d=10\\cdot10^{7{,}1}\\ \\mathrm{pc}\\approx1{,}26\\cdot10^8\\ \\mathrm{pc}=126\\ \\mathrm{Mpc}\\]</div></li><li><div class=\"facit-matte\">\\[v=H_0d=70\\cdot126\\approx8{,}8\\cdot10^3\\ \\mathrm{km/s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 126 Mpc och 8,8·10³ km/s.</p></div>",
+  "familj": "Apparent och absolut magnitud",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Avståndsmodulen \\(m-M\\) ger avståndet. Använd sedan Hubbles lag.</p>",
+  "familjNyckel": "magnituder__apparent_och_absolut_magnitud",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    125.892541179,
+    8812.47788256
+  ],
+  "tolerans": [
+    1.5,
+    100
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "Mpc",
+    "km/s"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Avstånd",
+    "Fart"
+  ]
 }
 ];

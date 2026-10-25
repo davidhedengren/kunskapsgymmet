@@ -166434,6 +166434,1202 @@ window.BANKMA1 = [
     "rättSvar": 6,
     "tolerans": 0,
     "svarEnhet": "heltal"
+  },
+  {
+    "id": "0.1261",
+    "kap": 0,
+    "omr": "prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "foton på en hårddisk",
+    "t": "<p>En hårddisk rymmer 2 TB (terabyte). Ett foto tar i genomsnitt 4,5 MB (megabyte). Hur många hela foton ryms på hårddisken?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Skriv båda storlekarna i byte</strong></p></li><li><div class=\"facit-matte\">\\[2\\text{ TB}=2\\cdot10^{12}\\text{ byte},\\qquad4{,}5\\text{ MB}=4{,}5\\cdot10^{6}\\text{ byte}\\]</div></li><li><p><strong>Dela</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{2\\cdot10^{12}}{4{,}5\\cdot10^{6}}=0{,}444\\ldots\\cdot10^{6}\\approx444\\,444{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 444 444 foton</p></div>",
+    "familj": "Prefix i tillämpningar",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Tera betyder \\(10^{12}\\) och mega \\(10^6\\). Skriv båda i byte innan du delar.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 444444,
+    "tolerans": 0,
+    "svarEnhet": "foton"
+  },
+  {
+    "id": "0.1262",
+    "kap": 0,
+    "omr": "prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "virus i rad på en millimeter",
+    "t": "<p>Ett virus har diametern 120 nm. Hur många sådana virus får plats bredvid varandra på en sträcka av 1 mm? (Svara med ett helt antal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Skriv båda längderna i meter</strong></p></li><li><div class=\"facit-matte\">\\[1\\text{ mm}=10^{-3}\\text{ m},\\qquad120\\text{ nm}=120\\cdot10^{-9}\\text{ m}=1{,}2\\cdot10^{-7}\\text{ m}\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{10^{-3}}{1{,}2\\cdot10^{-7}}=\\frac{10^{4}}{1{,}2}\\approx8\\,333{,}3\\]</div></li><li><p>Bara hela virus räknas, så svaret avrundas nedåt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 333 virus</p></div>",
+    "familj": "Omvandla med prefix",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur många nanometer är en millimeter?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8333,
+    "tolerans": 0,
+    "svarEnhet": "virus"
+  },
+  {
+    "id": "0.1263",
+    "kap": 0,
+    "omr": "prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "prefix för en area",
+    "t": "<p>En del av ett datorchip är en kvadrat med arean 25 mm². Den fylls med kvadratiska transistorer med sidan 50 nm. Hur många transistorer får plats? (Svara i grundpotensform.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>En transistors area</strong></p></li><li><div class=\"facit-matte\">\\[(50\\cdot10^{-9}\\text{ m})^2=2500\\cdot10^{-18}\\text{ m}^2=2{,}5\\cdot10^{-15}\\text{ m}^2\\]</div></li><li><p><strong>Chipytans area</strong></p></li><li><div class=\"facit-matte\">\\[25\\text{ mm}^2=25\\cdot(10^{-3}\\text{ m})^2=2{,}5\\cdot10^{-5}\\text{ m}^2\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{2{,}5\\cdot10^{-5}}{2{,}5\\cdot10^{-15}}=10^{10}\\]</div></li><li><p>Observera att prefixet kvadreras när enheten är kvadratisk: 1 mm² = \\(10^{-6}\\) m².</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(10^{10}\\) transistorer</p></div>",
+    "familj": "Prefix och enheter",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna båda areorna i m². Kom ihåg att \\((10^{-3})^2=10^{-6}\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 10000000000,
+    "tolerans": 0,
+    "svarEnhet": "transistorer"
+  },
+  {
+    "id": "0.1264",
+    "kap": 0,
+    "omr": "prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "vindkraftverkets årsproduktion",
+    "t": "<p>Ett vindkraftverk har effekten 3,6 MW när det går för fullt. Under ett år motsvarar produktionen 2 400 timmar med full effekt. Hur mycket energi producerar verket på ett år? (Svara i GWh.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Energi = effekt · tid</strong></p></li><li><div class=\"facit-matte\">\\[3{,}6\\text{ MW}\\cdot2400\\text{ h}=8640\\text{ MWh}\\]</div></li><li><p><strong>Byt prefix</strong></p></li><li><div class=\"facit-matte\">\\[8640\\text{ MWh}=8{,}64\\text{ GWh}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8,64 GWh</p></div>",
+    "familj": "Omvandla med prefix",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>MW gånger timmar ger MWh. Hur många MWh är en GWh?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 8.64,
+    "tolerans": 0,
+    "svarEnhet": "GWh"
+  },
+  {
+    "id": "0.1265",
+    "kap": 0,
+    "omr": "prefix",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "nedladdning i megabit per sekund",
+    "t": "<p>En fil är 3,0 GB (gigabyte) stor. Nedladdningshastigheten är 250 Mbit/s (megabit per sekund), och 1 byte = 8 bit. Hur många sekunder tar nedladdningen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Filens storlek i bit</strong></p></li><li><div class=\"facit-matte\">\\[3{,}0\\cdot10^9\\text{ byte}\\cdot8=2{,}4\\cdot10^{10}\\text{ bit}\\]</div></li><li><p><strong>Dela med hastigheten</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{2{,}4\\cdot10^{10}}{250\\cdot10^6}=\\frac{2{,}4\\cdot10^{10}}{2{,}5\\cdot10^{8}}=96\\text{ s}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 96 s</p></div>",
+    "familj": "Välja och kontrollera beräkningar med prefix",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Gör om filen till bit och hastigheten till bit per sekund.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 96,
+    "tolerans": 0,
+    "svarEnhet": "s"
+  },
+  {
+    "id": "1.1557",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "när rörligt abonnemang är billigast",
+    "t": "<p>Abonnemang A kostar 149 kr per månad oavsett hur mycket man surfar. Abonnemang B kostar 49 kr per månad plus 2,50 kr per GB. Hur många hela GB kan man som mest använda under en månad om B ska vara billigare än A?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Ställ upp olikheten</strong></p></li><li><div class=\"facit-matte\">\\[49+2{,}5x<149\\]</div></li><li><div class=\"facit-matte\">\\[2{,}5x<100\\]</div></li><li><div class=\"facit-matte\">\\[x<40\\]</div></li><li><p>B är billigare för färre än 40 GB. Vid exakt 40 GB kostar båda 149 kr.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 39 GB</p></div>",
+    "familj": "Olikheter i vardagsproblem",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ställ upp en olikhet där B:s kostnad är mindre än 149 kr.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 39,
+    "tolerans": 0,
+    "svarEnhet": "GB"
+  },
+  {
+    "id": "1.1558",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "olikhet med parentes och teckenbyte",
+    "t": "<p>Lös olikheten \\(-3(x-2)\\ge2x-9\\). Svara med olikhetstecken.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Multiplicera in i parentesen</strong></p></li><li><div class=\"facit-matte\">\\[-3x+6\\ge2x-9\\]</div></li><li><p><strong>Samla x-termerna på högra sidan</strong></p></li><li><div class=\"facit-matte\">\\[15\\ge5x\\]</div></li><li><div class=\"facit-matte\">\\[3\\ge x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\le3\\)</p></div>",
+    "familj": "Lösa linjära olikheter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Multiplicera in −3 i parentesen. Om du dividerar med ett negativt tal måste olikhetstecknet vändas.</p>",
+    "svarstyp": "intervall",
+    "svarFormat": "intervall",
+    "rättSvar": "x<=3",
+    "tolerans": 0
+  },
+  {
+    "id": "1.1559",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "felsök en olikhetslösning",
+    "t": "<p>Oskar löser olikheten \\(-2x&gt;8\\) så här: ”Jag delar med −2 och får \\(x&gt;-4\\).” Vilket påstående stämmer?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Pröva ett tal</strong></p></li><li><p>x = 0 uppfyller \\(x&gt;-4\\), men \\(-2\\cdot0=0\\) är inte större än 8. Oskars svar är alltså fel.</p></li><li><p><strong>Rätt lösning</strong></p></li><li><p>Vid division med ett negativt tal vänds olikhetstecknet:</p></li><li><div class=\"facit-matte\">\\[x<-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det är fel: olikhetstecknet ska vändas, så \\(x&lt;-4\\).</p></div>",
+    "familj": "Resonemang om olikheter",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Pröva ett tal som uppfyller Oskars svar, till exempel x = 0. Stämmer den ursprungliga olikheten?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Svaret är rätt, eftersom man får dela båda leden med samma tal.",
+        "ratt": false,
+        "kommentar": "Pröva x = 0: då blir vänsterledet 0, som inte är större än 8."
+      },
+      {
+        "txt": "Det är fel: man ska dela med 2 i stället och få \\(x&gt;4\\).",
+        "ratt": false,
+        "kommentar": "Då blir −2x negativt och kan inte vara större än 8."
+      },
+      {
+        "txt": "Det är fel: när man delar med ett negativt tal ska olikhetstecknet vändas, så \\(x&lt;-4\\).",
+        "ratt": true
+      },
+      {
+        "txt": "Det är fel: olikheten saknar lösning.",
+        "ratt": false,
+        "kommentar": "Till exempel x = −5 ger 10 &gt; 8."
+      }
+    ]
+  },
+  {
+    "id": "1.1560",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "när årskortet lönar sig",
+    "t": "<p>Ett gym erbjuder årskort för 3 600 kr eller betalning per besök med 90 kr per gång. Hur många besök per år behövs minst för att årskortet ska bli billigare än att betala per besök?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Årskortet är billigare när</strong></p></li><li><div class=\"facit-matte\">\\[90x>3600\\]</div></li><li><div class=\"facit-matte\">\\[x>40\\]</div></li><li><p>Vid exakt 40 besök kostar båda 3 600 kr. Minst 41 besök behövs.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 41 besök</p></div>",
+    "familj": "Olikheter i vardagsproblem",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Ställ upp en olikhet där kostnaden per besök blir större än årskortets pris.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 41,
+    "tolerans": 0,
+    "svarEnhet": "besök"
+  },
+  {
+    "id": "1.1561",
+    "kap": 1,
+    "omr": "linjara_olikheter",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "dubbel olikhet",
+    "t": "<p>Lös olikheten \\(-5&lt;2x+3\\le11\\). Svara med olikhetstecken.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Subtrahera 3 i alla tre led</strong></p></li><li><div class=\"facit-matte\">\\[-8<2x\\le8\\]</div></li><li><p><strong>Dividera alla led med 2</strong></p></li><li><div class=\"facit-matte\">\\[-4<x\\le4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-4&lt;x\\le4\\)</p></div>",
+    "familj": "Lösa linjära olikheter",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Gör samma sak i alla tre leden: först −3, sedan dela med 2.</p>",
+    "svarstyp": "intervall",
+    "svarFormat": "intervall",
+    "rättSvar": "-4<x<=4",
+    "tolerans": 0
+  },
+  {
+    "id": "1.1562",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "två parenteser med minustecken",
+    "t": "<p>Lös ekvationen \\(3(2x-1)-4(x-3)=20\\). (Svara exakt.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Multiplicera in i parenteserna</strong></p></li><li><div class=\"facit-matte\">\\[6x-3-4x+12=20\\]</div></li><li><p><strong>Förenkla och lös</strong></p></li><li><div class=\"facit-matte\">\\[2x+9=20\\]</div></li><li><div class=\"facit-matte\">\\[2x=11\\]</div></li><li><div class=\"facit-matte\">\\[x=5{,}5\\]</div></li><li><p><strong>Kontroll</strong></p></li><li><div class=\"facit-matte\">\\[3\\cdot10-4\\cdot2{,}5=30-10=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5{,}5\\)</p></div>",
+    "familj": "Lösa enkla ekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Var försiktig med minustecknet framför 4: \\(-4\\cdot(-3)=+12\\).</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 5.5,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1563",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "ålder om några år",
+    "t": "<p>En pappa är tre gånger så gammal som sin dotter. Om 21 år är han dubbelt så gammal som hon. Hur gammal är dottern nu?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Ställ upp en ekvation</strong></p></li><li><p>Dotterns ålder nu: x år. Pappans: 3x år. Om 21 år: x + 21 och 3x + 21.</p></li><li><div class=\"facit-matte\">\\[3x+21=2(x+21)\\]</div></li><li><div class=\"facit-matte\">\\[3x+21=2x+42\\]</div></li><li><div class=\"facit-matte\">\\[x=21\\]</div></li><li><p><strong>Kontroll</strong></p></li><li><p>Nu 21 och 63 år. Om 21 år: 42 och 84 år, och 84 = 2 · 42.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 21 år</p></div>",
+    "familj": "Förstå ekvationer och lösningar",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Kalla dotterns ålder x. Skriv båda åldrarna om 21 år och använd att pappan då är dubbelt så gammal.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": 0,
+    "svarEnhet": "år"
+  },
+  {
+    "id": "1.1564",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "ekvation med decimaler",
+    "t": "<p>Lös ekvationen \\(0{,}6(x+5)=0{,}2x+4{,}4\\). (Svara exakt.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Multiplicera in</strong></p></li><li><div class=\"facit-matte\">\\[0{,}6x+3=0{,}2x+4{,}4\\]</div></li><li><p><strong>Samla x-termerna</strong></p></li><li><div class=\"facit-matte\">\\[0{,}4x=1{,}4\\]</div></li><li><div class=\"facit-matte\">\\[x=\\frac{1{,}4}{0{,}4}=3{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3{,}5\\)</p></div>",
+    "familj": "Lösa enkla ekvationer",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Multiplicera gärna båda leden med 10 för att slippa decimaler.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 3.5,
+    "tolerans": 0
+  },
+  {
+    "id": "1.1565",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "ekvation som saknar lösning",
+    "t": "<p>Vilken av ekvationerna saknar lösning?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Förenkla varje ekvation</strong></p></li><li><p>\\(2(x+3)=2x+5\\) ger \\(2x+6=2x+5\\), alltså \\(6=5\\). Det stämmer aldrig, så ekvationen saknar lösning.</p></li><li><p>\\(2(x+3)=2x+6\\) gäller för alla x, och de andra två har lösningen x = 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2(x+3)=2x+5\\)</p></div>",
+    "familj": "Förstå ekvationer och lösningar",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Multiplicera in och se vad som händer när du tar bort x-termerna.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(2(x+3)=2x+6\\)",
+        "ratt": false,
+        "kommentar": "Den gäller för alla x."
+      },
+      {
+        "txt": "\\(2(x+3)=3x+6\\)",
+        "ratt": false,
+        "kommentar": "Lösningen är x = 0."
+      },
+      {
+        "txt": "\\(2(x+3)=2x+5\\)",
+        "ratt": true
+      },
+      {
+        "txt": "\\(2x+3=3\\)",
+        "ratt": false,
+        "kommentar": "Lösningen är x = 0."
+      }
+    ]
+  },
+  {
+    "id": "1.1566",
+    "kap": 1,
+    "omr": "linjara_ekvationer",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "blanda två sorters kaffe",
+    "t": "<p>Kaffe som kostar 160 kr/kg blandas med kaffe som kostar 220 kr/kg. Man vill få 25 kg blandning som kostar 190 kr/kg. Hur många kg av det billigare kaffet behövs?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Ställ upp en ekvation för kostnaden</strong></p></li><li><p>x kg för 160 kr/kg och (25 − x) kg för 220 kr/kg.</p></li><li><div class=\"facit-matte\">\\[160x+220(25-x)=190\\cdot25\\]</div></li><li><div class=\"facit-matte\">\\[160x+5500-220x=4750\\]</div></li><li><div class=\"facit-matte\">\\[-60x=-750\\]</div></li><li><div class=\"facit-matte\">\\[x=12{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12,5 kg</p></div>",
+    "familj": "Förstå ekvationer och lösningar",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Kalla mängden billigt kaffe x kg. Hur mycket dyrt kaffe blir det då? Blandningens totala pris ska vara 25 · 190 kr.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 12.5,
+    "tolerans": 0,
+    "svarEnhet": "kg"
+  },
+  {
+    "id": "4.820",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "slutpunkt ur startpunkt och vektor",
+    "t": "<p>Punkten \\(A=(-2,\\,5)\\) och vektorn \\(\\overrightarrow{AB}=(7,\\,-3)\\). Bestäm koordinaterna för punkten B.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Slutpunkt = startpunkt + vektor</strong></p></li><li><div class=\"facit-matte\">\\[B=(-2+7,\\;5+(-3))=(5,\\,2)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(B=(5,\\,2)\\)</p></div>",
+    "familj": "Vektor från start- och slutpunkt",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vektorn talar om hur långt man ska gå i x-led och i y-led från A.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      5,
+      2
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
+  },
+  {
+    "id": "4.821",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "vilka vektorer är lika",
+    "t": "<p>Figuren visar fyra vektorer i ett rutnät.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"300\" viewBox=\"0 0 380 300\" role=\"img\" aria-label=\"Rutnät med fyra vektorer. a går 3 rutor höger och 2 upp. b går 3 höger och 2 upp men börjar på ett annat ställe. c går 3 vänster och 2 ned. d går 2 höger och 3 upp.\"><title>Rutnät med fyra vektorer. a går 3 rutor höger och 2 upp. b går 3 höger och 2 upp men börjar på ett annat ställe. c går 3 vänster och 2 ned. d går 2 höger och 3 upp.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"30\" y1=\"270\" x2=\"30\" y2=\"30\" stroke=\"#e3e8ee\"/><line x1=\"70\" y1=\"270\" x2=\"70\" y2=\"30\" stroke=\"#e3e8ee\"/><line x1=\"110\" y1=\"270\" x2=\"110\" y2=\"30\" stroke=\"#e3e8ee\"/><line x1=\"150\" y1=\"270\" x2=\"150\" y2=\"30\" stroke=\"#e3e8ee\"/><line x1=\"190\" y1=\"270\" x2=\"190\" y2=\"30\" stroke=\"#e3e8ee\"/><line x1=\"230\" y1=\"270\" x2=\"230\" y2=\"30\" stroke=\"#e3e8ee\"/><line x1=\"270\" y1=\"270\" x2=\"270\" y2=\"30\" stroke=\"#e3e8ee\"/><line x1=\"310\" y1=\"270\" x2=\"310\" y2=\"30\" stroke=\"#e3e8ee\"/><line x1=\"350\" y1=\"270\" x2=\"350\" y2=\"30\" stroke=\"#e3e8ee\"/><line x1=\"30\" y1=\"270\" x2=\"350\" y2=\"270\" stroke=\"#e3e8ee\"/><line x1=\"30\" y1=\"230\" x2=\"350\" y2=\"230\" stroke=\"#e3e8ee\"/><line x1=\"30\" y1=\"190\" x2=\"350\" y2=\"190\" stroke=\"#e3e8ee\"/><line x1=\"30\" y1=\"150\" x2=\"350\" y2=\"150\" stroke=\"#e3e8ee\"/><line x1=\"30\" y1=\"110\" x2=\"350\" y2=\"110\" stroke=\"#e3e8ee\"/><line x1=\"30\" y1=\"70\" x2=\"350\" y2=\"70\" stroke=\"#e3e8ee\"/><line x1=\"30\" y1=\"30\" x2=\"350\" y2=\"30\" stroke=\"#e3e8ee\"/><line x1=\"30.0\" y1=\"230.0\" x2=\"142.5\" y2=\"155.0\" stroke=\"#216d87\" stroke-width=\"3\"/><polygon points=\"150.0,150.0 142.6,160.7 137.3,152.7\" fill=\"#216d87\"/><text x=\"80.0\" y=\"180.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\" font-style=\"italic\">a</text><line x1=\"190.0\" y1=\"150.0\" x2=\"302.5\" y2=\"75.0\" stroke=\"#c2410c\" stroke-width=\"3\"/><polygon points=\"310.0,70.0 302.6,80.7 297.3,72.7\" fill=\"#c2410c\"/><text x=\"240.0\" y=\"100.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\" font-style=\"italic\">b</text><line x1=\"310.0\" y1=\"190.0\" x2=\"197.5\" y2=\"265.0\" stroke=\"#2f7d4a\" stroke-width=\"3\"/><polygon points=\"190.0,270.0 197.4,259.3 202.7,267.3\" fill=\"#2f7d4a\"/><text x=\"262.0\" y=\"246.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\" font-style=\"italic\">c</text><line x1=\"70.0\" y1=\"150.0\" x2=\"145.0\" y2=\"37.5\" stroke=\"#7a4fa3\" stroke-width=\"3\"/><polygon points=\"150.0,30.0 147.3,42.7 139.3,37.4\" fill=\"#7a4fa3\"/><text x=\"96.0\" y=\"94.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#7a4fa3\" font-weight=\"bold\" font-style=\"italic\">d</text></svg></span><p>Vilka två vektorer är lika?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Skriv vektorerna i koordinatform</strong></p></li><li><div class=\"facit-matte\">\\[\\vec a=(3,\\,2),\\quad\\vec b=(3,\\,2),\\quad\\vec c=(-3,\\,-2),\\quad\\vec d=(2,\\,3)\\]</div></li><li><p>Två vektorer är lika om de har samma längd och samma riktning, oavsett var de börjar. Det gäller \\(\\vec a\\) och \\(\\vec b\\). \\(\\vec c\\) har samma längd men motsatt riktning, och \\(\\vec d\\) har en annan riktning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\vec a\\) och \\(\\vec b\\)</p></div>",
+    "familj": "Tolka och beskriva vektorer",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna rutor i x-led och y-led för varje vektor. Spelar det någon roll var vektorn börjar?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "\\(\\vec a\\) och \\(\\vec c\\)",
+        "ratt": false,
+        "kommentar": "De har samma längd men motsatt riktning: \\(\\vec c=-\\vec a\\)."
+      },
+      {
+        "txt": "\\(\\vec a\\) och \\(\\vec d\\)",
+        "ratt": false,
+        "kommentar": "\\(\\vec d=(2,3)\\) har en annan riktning."
+      },
+      {
+        "txt": "\\(\\vec b\\) och \\(\\vec c\\)",
+        "ratt": false,
+        "kommentar": "De pekar åt motsatta håll."
+      },
+      {
+        "txt": "\\(\\vec a\\) och \\(\\vec b\\)",
+        "ratt": true
+      }
+    ]
+  },
+  {
+    "id": "4.822",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "tre punkter på en linje",
+    "t": "<p>Punkterna är \\(A=(1,\\,1)\\), \\(B=(4,\\,5)\\) och \\(C=(10,\\,13)\\). Bestäm talet k så att \\(\\overrightarrow{AC}=k\\cdot\\overrightarrow{AB}\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Bestäm vektorerna</strong></p></li><li><div class=\"facit-matte\">\\[\\overrightarrow{AB}=(4-1,\\;5-1)=(3,\\,4)\\]</div></li><li><div class=\"facit-matte\">\\[\\overrightarrow{AC}=(10-1,\\;13-1)=(9,\\,12)\\]</div></li><li><p><strong>Jämför</strong></p></li><li><div class=\"facit-matte\">\\[(9,\\,12)=3\\cdot(3,\\,4)\\]</div></li><li><p>Eftersom \\(\\overrightarrow{AC}\\) är en multipel av \\(\\overrightarrow{AB}\\) ligger A, B och C på samma räta linje.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=3\\)</p></div>",
+    "familj": "Vektor från start- och slutpunkt",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Bestäm båda vektorerna som slutpunkt minus startpunkt.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 3,
+    "tolerans": 0
+  },
+  {
+    "id": "4.823",
+    "kap": 4,
+    "omr": "vektorer",
+    "kurs": [
+      "1c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "avstånd efter två förflyttningar",
+    "t": "<p>En drönare flyger först enligt vektorn \\((12,\\,-5)\\) och sedan enligt \\((-3,\\,9)\\). En enhet motsvarar 1 m. Hur långt från startpunkten är drönaren? (Svara i m med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Lägg ihop förflyttningarna</strong></p></li><li><div class=\"facit-matte\">\\[(12+(-3),\\;-5+9)=(9,\\,4)\\]</div></li><li><p><strong>Längden av vektorn</strong></p></li><li><div class=\"facit-matte\">\\[\\sqrt{9^2+4^2}=\\sqrt{97}\\approx9{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9,8 m</p></div>",
+    "familj": "Tolka och beskriva vektorer",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Addera vektorerna först. Längden får du med Pythagoras sats.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 9.8,
+    "tolerans": 0.05,
+    "svarEnhet": "m"
+  },
+  {
+    "id": "7.781",
+    "kap": 7,
+    "omr": "matning_enheter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "fylla en pool",
+    "t": "<p>En pool är 8,0 m lång och 4,0 m bred. Den ska fyllas till djupet 1,40 m med en slang som ger 25 liter per minut. Hur många timmar tar det? (Svara med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Volym</strong></p></li><li><div class=\"facit-matte\">\\[8{,}0\\cdot4{,}0\\cdot1{,}40=44{,}8\\text{ m}^3=44\\,800\\text{ liter}\\]</div></li><li><p><strong>Tid</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{44\\,800}{25}=1792\\text{ min}=\\frac{1792}{60}\\text{ h}\\approx29{,}9\\text{ h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 29,9 h</p></div>",
+    "familj": "Mätning och enhetsomvandling",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>1 m³ = 1 000 liter. Räkna först ut tiden i minuter.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 29.9,
+    "tolerans": 0.05,
+    "svarEnhet": "h"
+  },
+  {
+    "id": "7.782",
+    "kap": 7,
+    "omr": "matning_enheter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "massan av en stålbalk",
+    "t": "<p>En stålbalk är 6,0 m lång och har tvärsnittsarean 24 cm². Stålets densitet är 7,85 g/cm³. Vad väger balken? (Svara i hela kg.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Volym i cm³</strong></p></li><li><div class=\"facit-matte\">\\[6{,}0\\text{ m}=600\\text{ cm},\\qquad V=600\\cdot24=14\\,400\\text{ cm}^3\\]</div></li><li><p><strong>Massa</strong></p></li><li><div class=\"facit-matte\">\\[m=14\\,400\\cdot7{,}85=113\\,040\\text{ g}\\approx113\\text{ kg}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 113 kg</p></div>",
+    "familj": "Mätning och enhetsomvandling",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna längden i cm, så att volymen blir i cm³ och passar med densiteten.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 113,
+    "tolerans": 0.5,
+    "svarEnhet": "kg"
+  },
+  {
+    "id": "7.783",
+    "kap": 7,
+    "omr": "matning_enheter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "dropp som pågår",
+    "t": "<p>En patient ska få 500 ml vätska jämnt fördelat under 4 timmar.</p><p>a) Vilket flöde ska pumpen ställas på, i ml/h?<br>b) Hur mycket vätska återstår efter 2 h 15 min? (Svara i ml, avrundat till heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>a) Flöde</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{500\\text{ ml}}{4\\text{ h}}=125\\text{ ml/h}\\]</div></li><li><p><strong>b) Gör om tiden till timmar</strong></p></li><li><div class=\"facit-matte\">\\[2\\text{ h }15\\text{ min}=2{,}25\\text{ h}\\]</div></li><li><div class=\"facit-matte\">\\[125\\cdot2{,}25=281{,}25\\text{ ml}\\]</div></li><li><div class=\"facit-matte\">\\[500-281{,}25=218{,}75\\approx219\\text{ ml}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 125 ml/h b) 219 ml</p></div>",
+    "familj": "Dosering, flöde och volym",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>15 minuter är en fjärdedels timme.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      125,
+      219
+    ],
+    "tolerans": [
+      0,
+      0.5
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a) Flöde",
+      "b) Kvar"
+    ],
+    "svarEnhet": [
+      "ml/h",
+      "ml"
+    ]
+  },
+  {
+    "id": "7.784",
+    "kap": 7,
+    "omr": "matning_enheter",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "medelfart för en löpare",
+    "t": "<p>En löpare springer 10 km på 48 min 30 s. Bestäm medelfarten i m/s och i km/h. (Svara med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Tid i sekunder</strong></p></li><li><div class=\"facit-matte\">\\[48\\cdot60+30=2910\\text{ s}\\]</div></li><li><p><strong>I m/s</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{10\\,000}{2910}\\approx3{,}4\\text{ m/s}\\]</div></li><li><p><strong>I km/h</strong></p></li><li><div class=\"facit-matte\">\\[2910\\text{ s}=\\frac{2910}{3600}\\text{ h}\\approx0{,}808\\text{ h},\\qquad\\frac{10}{0{,}808}\\approx12{,}4\\text{ km/h}\\]</div></li><li><p>Kontroll: 3,44 m/s · 3,6 ≈ 12,4 km/h.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3,4 m/s och 12,4 km/h</p></div>",
+    "familj": "Mätning och enhetsomvandling",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna tiden i sekunder för m/s och i timmar för km/h. 1 m/s = 3,6 km/h.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      3.4,
+      12.4
+    ],
+    "tolerans": [
+      0.05,
+      0.05
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "m/s",
+      "km/h"
+    ],
+    "svarEnhet": [
+      "m/s",
+      "km/h"
+    ]
+  },
+  {
+    "id": "7.785",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "största möjliga area",
+    "t": "<p>Ett rum mäts till 4,6 m × 3,2 m. Båda måtten är avrundade till närmaste decimeter. Hur stor kan rummets area högst vara? (Svara i m² med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Största möjliga mått</strong></p></li><li><p>Ett mått som avrundats till 4,6 m kan vara upp till 4,65 m, och 3,2 m upp till 3,25 m.</p></li><li><div class=\"facit-matte\">\\[4{,}65\\cdot3{,}25=15{,}1125\\approx15{,}11\\text{ m}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 15,11 m²</p></div>",
+    "familj": "Rimlighet och avrundade mått",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vilket är det största värde som avrundas till 4,6? Samma sak för 3,2.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 15.11,
+    "tolerans": 0.005,
+    "svarEnhet": "m²"
+  },
+  {
+    "id": "7.786",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "rimligt överslag för en materialbeställning",
+    "t": "<p>En elektriker beställer 38 uttag för 79 kr styck och 6 rullar kabel för 395 kr styck. Vilket överslag av den totala kostnaden är rimligast?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Avrunda till tal som är lätta att räkna med</strong></p></li><li><div class=\"facit-matte\">\\[38\\cdot79\\approx40\\cdot80=3200\\]</div></li><li><div class=\"facit-matte\">\\[6\\cdot395\\approx6\\cdot400=2400\\]</div></li><li><div class=\"facit-matte\">\\[3200+2400=5600\\]</div></li><li><p>Exakt blir det 3 002 + 2 370 = 5 372 kr, så 5 600 kr är ett rimligt överslag.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 5 600 kr.</p></div>",
+    "familj": "Överslag i yrkeslivet",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": false,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Avrunda 38 och 79 till 40 och 80, och 395 till 400.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Ungefär 4 000 kr",
+        "ratt": false,
+        "kommentar": "Bara uttagen kostar ungefär 3 200 kr."
+      },
+      {
+        "txt": "Ungefär 5 600 kr",
+        "ratt": true
+      },
+      {
+        "txt": "Ungefär 7 200 kr",
+        "ratt": false,
+        "kommentar": "Det blir för mycket. Kontrollera kabelkostnaden: 6 · 400."
+      },
+      {
+        "txt": "Ungefär 56 000 kr",
+        "ratt": false,
+        "kommentar": "Kontrollera antalet nollor."
+      }
+    ]
+  },
+  {
+    "id": "7.787",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "färgburkar till ett rum",
+    "t": "<p>Väggarna i ett rum ska målas två gånger. Rummet är 5,2 m × 3,9 m och takhöjden är 2,4 m. Dörrar och fönster räknas inte bort. En liter färg räcker till 8 m², och färgen säljs i burkar om 3 liter. Hur många burkar behövs minst?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Väggarnas area</strong></p></li><li><div class=\"facit-matte\">\\[2\\cdot(5{,}2+3{,}9)\\cdot2{,}4=43{,}68\\text{ m}^2\\]</div></li><li><p><strong>Två lager</strong></p></li><li><div class=\"facit-matte\">\\[2\\cdot43{,}68=87{,}36\\text{ m}^2\\]</div></li><li><p><strong>Liter och burkar</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{87{,}36}{8}\\approx10{,}9\\text{ liter},\\qquad\\frac{10{,}9}{3}\\approx3{,}6\\]</div></li><li><p>Tre burkar räcker inte, så det behövs fyra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 burkar</p></div>",
+    "familj": "Överslag i yrkeslivet",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Väggarnas omkrets gånger höjden ger arean. Glöm inte att det ska målas två gånger.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "svarEnhet": "burkar"
+  },
+  {
+    "id": "7.788",
+    "kap": 7,
+    "omr": "uppskattning_overslag",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "hjärtslag under ett år",
+    "t": "<p>Ett hjärta slår i genomsnitt 70 gånger per minut. Ungefär hur många gånger slår det under ett år? (Svara i grundpotensform med två värdesiffror.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Slag per dygn</strong></p></li><li><div class=\"facit-matte\">\\[70\\cdot60\\cdot24=100\\,800\\]</div></li><li><p><strong>Slag per år</strong></p></li><li><div class=\"facit-matte\">\\[100\\,800\\cdot365\\approx3{,}7\\cdot10^{7}\\]</div></li><li><p>Överslag som kontroll: \\(70\\cdot60\\approx4000\\) per timme, \\(\\approx100\\,000\\) per dygn och \\(\\approx3{,}6\\cdot10^7\\) per år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(3{,}7\\cdot10^{7}\\) gånger</p></div>",
+    "familj": "Överslag i yrkeslivet",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna slag per timme, per dygn och sedan per år.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 37000000.0,
+    "tolerans": 500000.0,
+    "svarEnhet": "slag"
+  },
+  {
+    "id": "7.789",
+    "kap": 7,
+    "omr": "kostnadsberakningar",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "moms efter rabatt",
+    "t": "<p>En cykel kostar 2 250 kr inklusive 25 % moms. Butiken ger 20 % rabatt på priset. Hur mycket moms betalar kunden? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Pris efter rabatt</strong></p></li><li><div class=\"facit-matte\">\\[0{,}80\\cdot2250=1800\\text{ kr}\\]</div></li><li><p><strong>Priset utan moms</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{1800}{1{,}25}=1440\\text{ kr}\\]</div></li><li><p><strong>Momsen</strong></p></li><li><div class=\"facit-matte\">\\[1800-1440=360\\text{ kr}\\]</div></li><li><p>Observera att momsen inte är 25 % av 1 800 kr utan 20 % av priset inklusive moms.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 360 kr</p></div>",
+    "familj": "Moms, rabatt och påslag",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Priset inklusive moms är 125 % av priset utan moms.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 360,
+    "tolerans": 0,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "7.790",
+    "kap": 7,
+    "omr": "kostnadsberakningar",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "offert för ett snickeriarbete",
+    "t": "<p>En snickare räknar med 3 arbetsdagar à 7,5 timmar. Timpriset är 520 kr och materialet kostar 4 800 kr, båda utan moms. Kunden betalar 25 % moms på allt. Vad blir totalpriset för kunden? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Arbetskostnad</strong></p></li><li><div class=\"facit-matte\">\\[3\\cdot7{,}5\\cdot520=11\\,700\\text{ kr}\\]</div></li><li><p><strong>Summa utan moms</strong></p></li><li><div class=\"facit-matte\">\\[11\\,700+4800=16\\,500\\text{ kr}\\]</div></li><li><p><strong>Med moms</strong></p></li><li><div class=\"facit-matte\">\\[16\\,500\\cdot1{,}25=20\\,625\\text{ kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 625 kr</p></div>",
+    "familj": "Kostnad för material och arbete",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna antalet timmar, lägg till materialet och multiplicera sedan med 1,25.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 20625,
+    "tolerans": 0,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "7.791",
+    "kap": 7,
+    "omr": "kostnadsberakningar",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "inköpspris ur pris med påslag och moms",
+    "t": "<p>En butik säljer en jacka för 1 495 kr inklusive 25 % moms. Butiken har lagt på 130 % på inköpspriset för att få priset utan moms. Vad var inköpspriset? (Svara i kr.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Ta bort momsen</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{1495}{1{,}25}=1196\\text{ kr}\\]</div></li><li><p><strong>Ta bort påslaget</strong></p></li><li><p>Ett påslag på 130 % betyder att priset utan moms är 230 % av inköpspriset.</p></li><li><div class=\"facit-matte\">\\[\\frac{1196}{2{,}30}=520\\text{ kr}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 520 kr</p></div>",
+    "familj": "Moms, rabatt och påslag",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Gå baklänges: ta först bort momsen och sedan påslaget. Vilken förändringsfaktor motsvarar ett påslag på 130 %?</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 520,
+    "tolerans": 0,
+    "svarEnhet": "kr"
+  },
+  {
+    "id": "7.792",
+    "kap": 7,
+    "omr": "kostnadsberakningar",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "när kaffemaskinen har betalat sig",
+    "t": "<p>Ett kafé köper en kaffemaskin för 18 000 kr. Varje kopp kaffe kostar 3,50 kr i råvaror och säljs för 25 kr. Hur många koppar måste kaféet sälja för att maskinen ska vara betald?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Vinst per kopp</strong></p></li><li><div class=\"facit-matte\">\\[25-3{,}50=21{,}50\\text{ kr}\\]</div></li><li><p><strong>Antal koppar</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{18\\,000}{21{,}50}\\approx837{,}2\\]</div></li><li><p>Efter 837 koppar saknas fortfarande några kronor, så det behövs 838 koppar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 838 koppar</p></div>",
+    "familj": "Kostnad för material och arbete",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur mycket tjänar kaféet på varje kopp? Avrunda uppåt, eftersom hela kostnaden ska vara täckt.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 838,
+    "tolerans": 0,
+    "svarEnhet": "koppar"
+  },
+  {
+    "id": "7.793",
+    "kap": 7,
+    "omr": "yrkesformler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "ström från två apparater",
+    "t": "<p>En vattenkokare (2 200 W) och en brödrost (900 W) är kopplade till samma uttag med spänningen 230 V. Säkringen är på 10 A. Använd \\(P=U\\cdot I\\).</p><p>Hur stor blir den totala strömmen? (Svara i A med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Total effekt</strong></p></li><li><div class=\"facit-matte\">\\[2200+900=3100\\text{ W}\\]</div></li><li><p><strong>Ström</strong></p></li><li><div class=\"facit-matte\">\\[I=\\frac{P}{U}=\\frac{3100}{230}\\approx13{,}5\\text{ A}\\]</div></li><li><p>Strömmen är större än 10 A, så säkringen löser ut om båda används samtidigt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13,5 A</p></div>",
+    "familj": "Formler i yrkesarbete",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Lös ut I ur \\(P=U\\cdot I\\) och använd den sammanlagda effekten.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 13.5,
+    "tolerans": 0.05,
+    "svarEnhet": "A"
+  },
+  {
+    "id": "7.794",
+    "kap": 7,
+    "omr": "yrkesformler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "späda en lösning",
+    "t": "<p>Du har 200 ml av en lösning med koncentrationen 40 %. Hur mycket vatten ska tillsättas för att koncentrationen ska bli 15 %? (Svara i ml, avrundat till heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Mängden ämne ändras inte</strong></p></li><li><div class=\"facit-matte\">\\[0{,}40\\cdot200=80\\text{ ml}\\]</div></li><li><p><strong>Total volym när 80 ml är 15 %</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{80}{0{,}15}\\approx533{,}3\\text{ ml}\\]</div></li><li><p><strong>Vatten som tillsätts</strong></p></li><li><div class=\"facit-matte\">\\[533{,}3-200\\approx333\\text{ ml}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 333 ml</p></div>",
+    "familj": "Dosering och flöden",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur många ml av ämnet finns i lösningen? Den mängden ska vara 15 % av den nya volymen.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 333,
+    "tolerans": 0.5,
+    "svarEnhet": "ml"
+  },
+  {
+    "id": "7.795",
+    "kap": 7,
+    "omr": "yrkesformler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "takets lutning i procent",
+    "t": "<p>Ett tak stiger 1,2 m på den vågräta sträckan 4,8 m. Lutningen i procent är höjdskillnaden delad med den vågräta sträckan.</p><p>a) Vilken lutning har taket i procent?<br>b) Hur mycket stiger ett tak med samma lutning på den vågräta sträckan 7,5 m? (Svara i m med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>a) Lutning</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{1{,}2}{4{,}8}=0{,}25=25\\,\\%\\]</div></li><li><p><strong>b) Samma lutning</strong></p></li><li><div class=\"facit-matte\">\\[0{,}25\\cdot7{,}5=1{,}875\\approx1{,}88\\text{ m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) 25 % b) 1,88 m</p></div>",
+    "familj": "Formler i yrkesarbete",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Lutningen anger hur många meter taket stiger per meter i sidled.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      25,
+      1.88
+    ],
+    "tolerans": [
+      0,
+      0.005
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "a) Lutning",
+      "b) Höjd"
+    ],
+    "svarEnhet": [
+      "%",
+      "m"
+    ]
+  },
+  {
+    "id": "7.796",
+    "kap": 7,
+    "omr": "yrkesformler",
+    "kurs": [
+      "1a"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "dosering per kilo och minut",
+    "t": "<p>Ett läkemedel ska ges med dosen 0,1 mg per kg kroppsvikt och minut. Patienten väger 70 kg och lösningen innehåller 2 mg per ml. Vilket flöde ska pumpen ställas på? (Svara i ml/h.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Dos per minut</strong></p></li><li><div class=\"facit-matte\">\\[0{,}1\\cdot70=7\\text{ mg/min}\\]</div></li><li><p><strong>Volym per minut</strong></p></li><li><div class=\"facit-matte\">\\[\\frac{7}{2}=3{,}5\\text{ ml/min}\\]</div></li><li><p><strong>Per timme</strong></p></li><li><div class=\"facit-matte\">\\[3{,}5\\cdot60=210\\text{ ml/h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 210 ml/h</p></div>",
+    "familj": "Dosering och flöden",
+    "formaga": [
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna först hur många mg patienten ska ha per minut och sedan hur många ml det är.</p>",
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "rättSvar": 210,
+    "tolerans": 0,
+    "svarEnhet": "ml/h"
   }
 
 ];

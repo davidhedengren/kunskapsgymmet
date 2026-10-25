@@ -31469,55 +31469,80 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.16",
-    "kap": 3,
-    "omr": "primitiva",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p>a) \\(f(x)=\\frac{2}{x^{2}}\\)<br>b) \\(f(x)=3 e^{2 x}\\)<br>c) \\(f(x)=7 \\sqrt{x}\\)<br></p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv med negativ exponent</p><div class=\"facit-matte\">\\[f(x)=2x^{-2},\\qquad x\\ne0.\\]</div></li><li><p class=\"facit-rubrik\">Integrera med potensregeln</p><p>Öka exponenten med 1 och dividera med den nya exponenten:</p><div class=\"facit-matte\">\\[F(x)=\\frac{2x^{-1}}{-1}+C=-\\frac2x+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom derivering</p><div class=\"facit-matte\">\\[\\left(-2x^{-1}+C\\right)\\prime=2x^{-2}=\\frac2{x^2}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-\\frac2x+C\\), på ett intervall som inte innehåller 0.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kompensera för den inre derivatan</p><p>Derivatan av \\(e^{2x}\\) är \\(2e^{2x}\\). En primitiv funktion till \\(3e^{2x}\\) behöver därför faktorn \\(3/2\\):</p><div class=\"facit-matte\">\\[F(x)=\\frac32e^{2x}+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[F\\prime(x)=\\frac32\\cdot2e^{2x}=3e^{2x}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac32e^{2x}+C\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv roten som en potens</p><div class=\"facit-matte\">\\[f(x)=7x^{1/2}.\\]</div></li><li><p class=\"facit-rubrik\">Använd potensregeln baklänges</p><div class=\"facit-matte\">\\[F(x)=7\\frac{x^{3/2}}{3/2}+C=\\frac{14}{3}x^{3/2}+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[F\\prime(x)=\\frac{14}{3}\\cdot\\frac32x^{1/2}=7\\sqrt x.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac{14}{3}x^{3/2}+C\\), för \\(x\\ge0\\).</p></div></div></div></div>",
-    "familj": "Konstanten i primitiva funktioner",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "F(x)=-(2)/(x)+C",
-      "F(x)=(3e^(2x))/(2)+C",
-      "F(x)=(14x^((3)/(2)))/(3)+C"
-    ],
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": [
-      "primitiva",
-      "primitiva",
-      "primitiva"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [{"etikett": "a", "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{2}{x^{2}}\\)</div></p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv med negativ exponent</p><div class=\"facit-matte\">\\[f(x)=2x^{-2},\\qquad x\\ne0.\\]</div></li><li><p class=\"facit-rubrik\">Integrera med potensregeln</p><p>Öka exponenten med 1 och dividera med den nya exponenten:</p><div class=\"facit-matte\">\\[F(x)=\\frac{2x^{-1}}{-1}+C=-\\frac2x+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom derivering</p><div class=\"facit-matte\">\\[\\left(-2x^{-1}+C\\right)\\prime=2x^{-2}=\\frac2{x^2}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-\\frac2x+C\\), på ett intervall som inte innehåller 0.</p></div>", "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>", "niva": "E", "poang": "1/0/0"}, {"etikett": "b", "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=3 e^{2 x}\\)</div></p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kompensera för den inre derivatan</p><p>Derivatan av \\(e^{2x}\\) är \\(2e^{2x}\\). En primitiv funktion till \\(3e^{2x}\\) behöver därför faktorn \\(3/2\\):</p><div class=\"facit-matte\">\\[F(x)=\\frac32e^{2x}+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[F\\prime(x)=\\frac32\\cdot2e^{2x}=3e^{2x}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac32e^{2x}+C\\).</p></div>", "ledtrad": "<p>Derivera \\(e^{2x}\\) och fundera på vilken faktor som behövs framför för att derivatan ska bli \\(3e^{2x}\\).</p>", "niva": "E", "poang": "1/0/0"}, {"etikett": "c", "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=7 \\sqrt{x}\\)<br/></div></p>", "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv roten som en potens</p><div class=\"facit-matte\">\\[f(x)=7x^{1/2}.\\]</div></li><li><p class=\"facit-rubrik\">Använd potensregeln baklänges</p><div class=\"facit-matte\">\\[F(x)=7\\frac{x^{3/2}}{3/2}+C=\\frac{14}{3}x^{3/2}+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[F\\prime(x)=\\frac{14}{3}\\cdot\\frac32x^{1/2}=7\\sqrt x.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac{14}{3}x^{3/2}+C\\), för \\(x\\ge0\\).</p></div>", "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>", "niva": "E", "poang": "1/0/0"}],
-    "ledtrad": "<p>Kontrollen är enkel men viktig: derivera ditt F(x). Om du får tillbaka f(x) är den primitiva delen korrekt. Därefter avgör uppgiften om konstanten C ska lämnas fri eller bestämmas med ett villkor.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 3,
-    "spel": true,
-    "omrTidigare": [
-      "primitiva_funktioner"
-    ],
-    "familjTidigare": [
-      "Förstå konstanten i primitiva funktioner"
-    ]
-  },
+  "id": "3.16",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p>a) \\(f(x)=\\frac{2}{x^{2}}\\)<br>b) \\(f(x)=3 e^{2 x}\\)<br>c) \\(f(x)=7 \\sqrt{x}\\)<br></p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv med negativ exponent</p><div class=\"facit-matte\">\\[f(x)=2x^{-2},\\qquad x\\ne0.\\]</div></li><li><p class=\"facit-rubrik\">Integrera med potensregeln</p><p>Öka exponenten med 1 och dividera med den nya exponenten:</p><div class=\"facit-matte\">\\[F(x)=\\frac{2x^{-1}}{-1}+C=-\\frac2x+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom derivering</p><div class=\"facit-matte\">\\[\\left(-2x^{-1}+C\\right)\\prime=2x^{-2}=\\frac2{x^2}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-\\frac2x+C\\), på ett intervall som inte innehåller 0.</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kompensera för den inre derivatan</p><p>Derivatan av \\(e^{2x}\\) är \\(2e^{2x}\\). En primitiv funktion till \\(3e^{2x}\\) behöver därför faktorn \\(3/2\\):</p><div class=\"facit-matte\">\\[F(x)=\\frac32e^{2x}+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[F\\prime(x)=\\frac32\\cdot2e^{2x}=3e^{2x}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac32e^{2x}+C\\).</p></div></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv roten som en potens</p><div class=\"facit-matte\">\\[f(x)=7x^{1/2}.\\]</div></li><li><p class=\"facit-rubrik\">Använd potensregeln baklänges</p><div class=\"facit-matte\">\\[\\begin{aligned}F(x)&=7\\frac{x^{3/2}}{3/2}+C\\\\&=\\frac{14}{3}x^{3/2}+C.\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[F\\prime(x)=\\frac{14}{3}\\cdot\\frac32x^{1/2}=7\\sqrt x.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac{14}{3}x^{3/2}+C\\), för \\(x\\ge0\\).</p></div></div></div></div>",
+  "familj": "Konstanten i primitiva funktioner",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "F(x)=-(2)/(x)+C",
+    "F(x)=(3e^(2x))/(2)+C",
+    "F(x)=(14x^((3)/(2)))/(3)+C"
+  ],
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": [
+    "primitiva",
+    "primitiva",
+    "primitiva"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=\\frac{2}{x^{2}}\\)</div></p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv med negativ exponent</p><div class=\"facit-matte\">\\[f(x)=2x^{-2},\\qquad x\\ne0.\\]</div></li><li><p class=\"facit-rubrik\">Integrera med potensregeln</p><p>Öka exponenten med 1 och dividera med den nya exponenten:</p><div class=\"facit-matte\">\\[F(x)=\\frac{2x^{-1}}{-1}+C=-\\frac2x+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera genom derivering</p><div class=\"facit-matte\">\\[\\left(-2x^{-1}+C\\right)\\prime=2x^{-2}=\\frac2{x^2}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=-\\frac2x+C\\), på ett intervall som inte innehåller 0.</p></div>",
+      "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "b",
+      "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=3 e^{2 x}\\)</div></p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kompensera för den inre derivatan</p><p>Derivatan av \\(e^{2x}\\) är \\(2e^{2x}\\). En primitiv funktion till \\(3e^{2x}\\) behöver därför faktorn \\(3/2\\):</p><div class=\"facit-matte\">\\[F(x)=\\frac32e^{2x}+C.\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[F\\prime(x)=\\frac32\\cdot2e^{2x}=3e^{2x}.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac32e^{2x}+C\\).</p></div>",
+      "ledtrad": "<p>Derivera \\(e^{2x}\\) och fundera på vilken faktor som behövs framför för att derivatan ska bli \\(3e^{2x}\\).</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    },
+    {
+      "etikett": "c",
+      "t": "<p>Bestäm alla primitiva funktioner. Endast svar krävs.</p><p><div class=\"spel-en-del\">\\(f(x)=7 \\sqrt{x}\\)<br/></div></p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv roten som en potens</p><div class=\"facit-matte\">\\[f(x)=7x^{1/2}.\\]</div></li><li><p class=\"facit-rubrik\">Använd potensregeln baklänges</p><div class=\"facit-matte\">\\[\\begin{aligned}F(x)&=7\\frac{x^{3/2}}{3/2}+C\\\\&=\\frac{14}{3}x^{3/2}+C.\\end{aligned}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera</p><div class=\"facit-matte\">\\[F\\prime(x)=\\frac{14}{3}\\cdot\\frac32x^{1/2}=7\\sqrt x.\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(F(x)=\\frac{14}{3}x^{3/2}+C\\), för \\(x\\ge0\\).</p></div>",
+      "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
+      "niva": "E",
+      "poang": "1/0/0"
+    }
+  ],
+  "ledtrad": "<p>Kontrollen är enkel men viktig: derivera ditt F(x). Om du får tillbaka f(x) är den primitiva delen korrekt. Därefter avgör uppgiften om konstanten C ska lämnas fri eller bestämmas med ett villkor.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 3,
+  "spel": true,
+  "omrTidigare": [
+    "primitiva_funktioner"
+  ],
+  "familjTidigare": [
+    "Förstå konstanten i primitiva funktioner"
+  ]
+},
   {
     "id": "3.17",
     "kap": 3,
@@ -40983,39 +41008,39 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "3.284",
-    "kap": 3,
-    "omr": "primitiva",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "1/1/0",
-    "t": "<p>Bestäm alla primitiva funktioner till</p><p>\\[f(x)=5x^{3/2}-\\frac{2}{x^3}.\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv den andra termen som \\(-2x^{-3}\\).</p><p>\\[\\int5x^{3/2}dx=2x^{5/2},\\qquad\\int-2x^{-3}dx=x^{-2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=2x^{5/2}+\\frac1{x^2}+C}\\), på intervall där funktionen är definierad.</p></div></div>",
-    "familj": "Konstanten i primitiva funktioner",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "uttryck",
-    "rättSvar": "F(x)=2x^(5/2)+(1)/(x^2)+C",
-    "tolerans": null,
-    "självrättning": true,
-    "formaga": [
-      "procedur"
-    ],
-    "svarFormat": "primitiva",
-    "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": true,
-    "omrTidigare": [
-      "primitiva_funktioner"
-    ],
-    "familjTidigare": [
-      "Förstå konstanten i primitiva funktioner"
-    ]
-  },
+  "id": "3.284",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "1/1/0",
+  "t": "<p>Bestäm alla primitiva funktioner till</p><p>\\[f(x)=5x^{3/2}-\\frac{2}{x^3}.\\]</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv den andra termen som \\(-2x^{-3}\\).</p><p>\\[\\int5x^{3/2}dx=2x^{5/2}\\]</p><p>\\[\\int-2x^{-3}dx=x^{-2}.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\boxed{F(x)=2x^{5/2}+\\frac1{x^2}+C}\\), på intervall där funktionen är definierad.</p></div></div>",
+  "familj": "Konstanten i primitiva funktioner",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "uttryck",
+  "rättSvar": "F(x)=2x^(5/2)+(1)/(x^2)+C",
+  "tolerans": null,
+  "självrättning": true,
+  "formaga": [
+    "procedur"
+  ],
+  "svarFormat": "primitiva",
+  "ledtrad": "<p>Arbeta baklänges från derivatan: öka exponenten med 1 och dividera med den nya exponenten. Glöm inte integrationskonstanten \\(C\\) när alla primitiva funktioner efterfrågas.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "omrTidigare": [
+    "primitiva_funktioner"
+  ],
+  "familjTidigare": [
+    "Förstå konstanten i primitiva funktioner"
+  ]
+},
   {
     "id": "3.285",
     "kap": 3,
@@ -112646,6 +112671,624 @@ window.BANKMATO1 = [
     "svarstyp": "uttryck",
     "svarFormat": "uttryck",
     "tolerans": null
-  }
+  },
+  {
+  "id": "3.1215",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Bestämma primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionerna F och G ska vara primitiva funktioner till samma funktion för alla reella x. Bestäm a och b.</p><div class=\"facit-matte\">\\[F(x)=(x-1)^3+ax^2+bx\\]</div><div class=\"facit-matte\">\\[G(x)=x^3+2x\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Primitiva funktioner till samma funktion har lika derivator. Derivera efter att ha utvecklat kuben.</p><div class=\"facit-matte\">\\[\\begin{aligned}F'(x)&=3x^2+(2a-6)x\\\\&\\quad+3+b\\end{aligned}\\]</div><div class=\"facit-matte\">\\[G'(x)=3x^2+2\\]</div></li><li><p>Uttrycken ska vara lika för alla x. Därför måste x-termerna och konstanttermerna stämma var för sig.</p><div class=\"facit-matte\">\\[2a-6=0,\\qquad 3+b=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: a = 3 och b = −1.</strong></p></div>",
+  "ledtrad": "<p>Jämför derivatornas koefficienter, inte bara ett enstaka funktionsvärde.</p>",
+  "rättSvar": [
+    3,
+    -1
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ]
+},
+  {
+  "id": "3.1216",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Konstanten i primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>F och G är primitiva funktioner till \\(f(x)=6x-4\\) på hela tallinjen. Tabellen anger ett värde på vardera funktionen. Bestäm skillnaden \\(F(3)-G(3)\\).</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Givet värde</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Tal</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">\\(F(0)\\)</td><td style=\"padding:8px;border:1px solid #8796a5\">2</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">\\(G(1)\\)</td><td style=\"padding:8px;border:1px solid #8796a5\">5</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla primitiva funktioner har formen 3x²−4x+C. Villkoret F(0) = 2 ger konstanten 2.</p></li><li><p>För G använder vi värdet vid x = 1.</p><div class=\"facit-matte\">\\[3-4+C_G=5\\Rightarrow C_G=6\\]</div></li><li><p>De x-beroende termerna är samma. Därför är skillnaden överallt 2−6 = −4, även vid x = 3.</p></li></ol><p class=\"facit-svar\"><strong>Svar: F(3)−G(3) = −4.</strong></p></div>",
+  "ledtrad": "<p>Funktionsvärden vid olika x kan inte jämföras direkt.</p>",
+  "rättSvar": -4,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "3.1217",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Bestämma primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Bestäm alla primitiva funktioner till funktionen för x &gt; 0.</p><div class=\"facit-matte\">\\[f(x)=\\frac{(x^2-1)^2}{x^2}\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utveckla kvadraten och dela varje term med x².</p><div class=\"facit-matte\">\\[f(x)=x^2-2+x^{-2}\\]</div></li><li><p>Integrera term för term. När exponenten −2 ökas med 1 blir den −1, så den sista termen får minustecken.</p><div class=\"facit-matte\">\\[F(x)=\\frac{x^3}3-2x-\\frac1x+C\\]</div></li><li><p>Derivering ger x²−2+1/x², vilket är den ursprungliga funktionen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=x^3/3-2x-1/x+C\\).</strong></p></div>",
+  "ledtrad": "<p>Förenkla kvoten till en summa innan du integrerar.</p>",
+  "rättSvar": "x^3/3-2*x-1/x+C",
+  "svarstyp": "uttryck",
+  "svarFormat": "primitiva",
+  "tolerans": null
+},
+  {
+  "id": "3.1218",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Bestämma primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Bestäm alla primitiva funktioner till funktionen för x &gt; 0.</p><div class=\"facit-matte\">\\[f(x)=\\frac{(x+1)^2}{\\sqrt{x}}\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utveckla täljaren och skriv roten som x¹ᐟ².</p><div class=\"facit-matte\">\\[f(x)=x^{3/2}+2x^{1/2}+x^{-1/2}\\]</div></li><li><p>Öka exponenterna med 1 och dividera med de nya exponenterna.</p><div class=\"facit-matte\">\\[F(x)=\\frac25x^{5/2}+\\frac43x^{3/2}\\]</div><div class=\"facit-matte\">\\[\\phantom{F(x)={}}+2\\sqrt{x}+C\\]</div></li><li><p>Derivering av de tre termerna ger tillbaka x³ᐟ², 2√x och 1/√x.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=\\frac25x^{5/2}+\\frac43x^{3/2}+2\\sqrt{x}+C\\).</strong></p></div>",
+  "ledtrad": "<p>Dela upp kvoten i tre potenstermer.</p>",
+  "rättSvar": "2*x^(5/2)/5+4*x^(3/2)/3+2*sqrt(x)+C",
+  "svarstyp": "uttryck",
+  "svarFormat": "primitiva",
+  "tolerans": null
+},
+  {
+  "id": "3.1219",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Bestämma primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen \\(F(x)=ax\\sqrt{x}+b/x+C\\) ska vara en primitiv funktion till \\(f(x)=3\\sqrt{x}-2/x^2\\) för x &gt; 0. Bestäm a och b.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv x√x som x³ᐟ². Konstanten C försvinner vid derivering.</p><div class=\"facit-matte\">\\[F'(x)=\\frac{3a}2\\sqrt{x}-\\frac b{x^2}\\]</div></li><li><p>Jämför koefficienterna med f(x).</p><div class=\"facit-matte\">\\[3a/2=3,\\qquad -b=-2\\]</div></li><li><p>Det ger a = 2 och b = 2. C får vara vilken konstant som helst.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a = 2 och b = 2.</strong></p></div>",
+  "ledtrad": "<p>Kontrollera det föreslagna uttrycket genom att derivera.</p>",
+  "rättSvar": [
+    2,
+    2
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ]
+},
+  {
+  "id": "3.1220",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Bestämma primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Bestäm alla primitiva funktioner till</p><div class=\"facit-matte\">\\[f(x)=(e^x-2)^2.\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utveckla kvadraten. Produkten eˣ·eˣ är e²ˣ.</p><div class=\"facit-matte\">\\[f(x)=e^{2x}-4e^x+4\\]</div></li><li><p>Derivatan av e²ˣ är 2e²ˣ. Därför behöver den första primitiva termen faktorn 1/2.</p><div class=\"facit-matte\">\\[F(x)=\\frac12e^{2x}-4e^x+4x+C\\]</div></li><li><p>Konstanten 4 i f ger termen 4x i F; den får inte försvinna.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=e^{2x}/2-4e^x+4x+C\\).</strong></p></div>",
+  "ledtrad": "<p>Utveckla kvadraten innan du använder integrationsreglerna.</p>",
+  "rättSvar": "e^(2*x)/2-4*e^x+4*x+C",
+  "svarstyp": "uttryck",
+  "svarFormat": "primitiva",
+  "tolerans": null
+},
+  {
+  "id": "3.1221",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Bestämma primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Bestäm alla primitiva funktioner till funktionen för x &gt; 0.</p><div class=\"facit-matte\">\\[f(x)=\\frac{(2x^2-3)(x^2+1)}{x^2}\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera parenteserna.</p><div class=\"facit-matte\">\\[\\begin{aligned}&(2x^2-3)(x^2+1)\\\\&=2x^4-x^2-3\\end{aligned}\\]</div></li><li><p>Dividera termvis med x² och integrera.</p><div class=\"facit-matte\">\\[f(x)=2x^2-1-3x^{-2}\\]</div><div class=\"facit-matte\">\\[F(x)=\\frac23x^3-x+\\frac3x+C\\]</div></li><li><p>Sista termen är positiv eftersom −3 divideras med exponenten −1.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=2x^3/3-x+3/x+C\\).</strong></p></div>",
+  "ledtrad": "<p>Börja med att skriva funktionen som en summa av potenser.</p>",
+  "rättSvar": "2*x^3/3-x+3/x+C",
+  "svarstyp": "uttryck",
+  "svarFormat": "primitiva",
+  "tolerans": null
+},
+  {
+  "id": "3.1222",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Bestämma primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Alla primitiva funktioner till \\(f(x)=x^2+2x\\) kan skrivas i formen</p><div class=\"facit-matte\">\\[F(x)=\\frac{(x+a)^3}{3}+bx+C.\\]</div><p>Bestäm a och b.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utveckla kuben och derivera. Det ger</p><div class=\"facit-matte\">\\[F'(x)=x^2+2ax+a^2+b\\]</div></li><li><p>Jämför med x²+2x: x-termen ger 2a = 2, alltså a = 1.</p></li><li><p>Konstanttermen ska vara noll, så a²+b = 0. Med a = 1 får vi b = −1. Den fria konstanten C påverkar inte derivatan.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a = 1 och b = −1.</strong></p></div>",
+  "ledtrad": "<p>Utveckla uttrycket eller kontrollera det genom derivering.</p>",
+  "rättSvar": [
+    1,
+    -1
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ]
+},
+  {
+  "id": "3.1223",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Bestämma primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>F är en primitiv funktion till \\(f(x)=\\sqrt{x}\\) för x &gt; 0. Bestäm lutningen hos sekanten genom punkterna (1, F(1)) och (9, F(9)). Svara exakt.</p><p>Figuren visar f, inte F.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Grafen visar f(x)=roten ur x. Den okända primitiva funktionen F är inte ritad.\"><title>Grafen visar f(x)=roten ur x. Den okända primitiva funktionen F är inte ritad.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M102.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"102.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M213.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"213.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M398.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"398.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">9</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">f(x)</text><polyline points=\"65.000,250.000 66.850,238.820 68.700,234.189 70.550,230.635 72.400,227.639 74.250,225.000 76.100,222.614 77.950,220.420 79.800,218.377 81.650,216.459 83.500,214.645 85.350,212.919 87.200,211.270 89.050,209.689 90.900,208.167 92.750,206.699 94.600,205.279 96.450,203.902 98.300,202.566 100.150,201.266 102.000,200.000 103.850,198.765 105.700,197.560 107.550,196.381 109.400,195.228 111.250,194.098 113.100,192.991 114.950,191.905 116.800,190.839 118.650,189.792 120.500,188.763 122.350,187.751 124.200,186.754 126.050,185.774 127.900,184.808 129.750,183.856 131.600,182.918 133.450,181.993 135.300,181.080 137.150,180.179 139.000,179.289 140.850,178.411 142.700,177.543 144.550,176.686 146.400,175.838 148.250,175.000 150.100,174.171 151.950,173.351 153.800,172.540 155.650,171.738 157.500,170.943 159.350,170.156 161.200,169.377 163.050,168.606 164.900,167.842 166.750,167.084 168.600,166.334 170.450,165.590 172.300,164.853 174.150,164.122 176.000,163.397 177.850,162.679 179.700,161.966 181.550,161.259 183.400,160.557 185.250,159.861 187.100,159.170 188.950,158.485 190.800,157.805 192.650,157.129 194.500,156.459 196.350,155.793 198.200,155.132 200.050,154.475 201.900,153.823 203.750,153.175 205.600,152.532 207.450,151.893 209.300,151.258 211.150,150.627 213.000,150.000 214.850,149.377 216.700,148.758 218.550,148.142 220.400,147.530 222.250,146.922 224.100,146.318 225.950,145.717 227.800,145.119 229.650,144.525 231.500,143.934 233.350,143.346 235.200,142.762 237.050,142.181 238.900,141.603 240.750,141.028 242.600,140.455 244.450,139.886 246.300,139.320 248.150,138.757 250.000,138.197 251.850,137.639 253.700,137.084 255.550,136.532 257.400,135.982 259.250,135.436 261.100,134.891 262.950,134.350 264.800,133.810 266.650,133.274 268.500,132.740 270.350,132.208 272.200,131.678 274.050,131.151 275.900,130.627 277.750,130.104 279.600,129.584 281.450,129.066 283.300,128.550 285.150,128.037 287.000,127.526 288.850,127.016 290.700,126.509 292.550,126.004 294.400,125.501 296.250,125.000 298.100,124.501 299.950,124.004 301.800,123.509 303.650,123.016 305.500,122.525 307.350,122.035 309.200,121.548 311.050,121.062 312.900,120.578 314.750,120.096 316.600,119.616 318.450,119.137 320.300,118.661 322.150,118.186 324.000,117.712 325.850,117.241 327.700,116.771 329.550,116.303 331.400,115.836 333.250,115.371 335.100,114.907 336.950,114.446 338.800,113.985 340.650,113.527 342.500,113.069 344.350,112.614 346.200,112.160 348.050,111.707 349.900,111.256 351.750,110.806 353.600,110.358 355.450,109.911 357.300,109.465 359.150,109.021 361.000,108.579 362.850,108.137 364.700,107.698 366.550,107.259 368.400,106.822 370.250,106.386 372.100,105.951 373.950,105.518 375.800,105.086 377.650,104.656 379.500,104.226 381.350,103.798 383.200,103.371 385.050,102.946 386.900,102.521 388.750,102.098 390.600,101.676 392.450,101.255 394.300,100.836 396.150,100.417 398.000,100.000 399.850,99.584 401.700,99.169 403.550,98.755 405.400,98.342 407.250,97.931 409.100,97.520 410.950,97.111 412.800,96.703 414.650,96.296 416.500,95.890 418.350,95.485 420.200,95.081 422.050,94.678 423.900,94.276 425.750,93.875 427.600,93.475 429.450,93.076 431.300,92.679 433.150,92.282 435.000,91.886\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"102.0\" cy=\"200.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"398.0\" cy=\"100.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är F(x) = 2x³ᐟ²/3+C. Sekantens lutning beräknas från F:s värden.</p><div class=\"facit-matte\">\\[k=\\frac{F(9)-F(1)}{9-1}\\]</div></li><li><p>Konstanten C försvinner i skillnaden. 9³ᐟ² = 27 och 1³ᐟ² = 1.</p><div class=\"facit-matte\">\\[k=\\frac{(2/3)(27-1)}8=\\frac{13}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(13/6\\).</strong></p></div>",
+  "ledtrad": "<p>Vilken funktion hör sekanten till, och vad händer med C i skillnaden?</p>",
+  "rättSvar": "13/6",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "3.1224",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Bestämma primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>F är en primitiv funktion till \\(f(x)=6x^2\\). En ny funktion definieras av \\(G(x)=F(2x)\\). Bestäm \\(G'(1)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Först är F(x) = 2x³+C. Byt sedan varje x mot 2x.</p><div class=\"facit-matte\">\\[G(x)=2(2x)^3+C=16x^3+C\\]</div></li><li><p>Derivera G och sätt in x = 1.</p><div class=\"facit-matte\">\\[G'(x)=48x^2\\Rightarrow G'(1)=48\\]</div></li><li><p>Att bara beräkna f(2) skulle ge 24 och missa att G använder det dubbla x-värdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar: G′(1) = 48.</strong></p></div>",
+  "ledtrad": "<p>Skriv först ett uttryck för F och sätt sedan in 2x.</p>",
+  "rättSvar": 48,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "3.1225",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Konstanten i primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Vilken av familjerna nedan innehåller alla primitiva funktioner till \\(f(x)=2x\\) på hela tallinjen? C får vara vilket reellt tal som helst.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla primitiva funktioner har formen x²+k, där k ska kunna vara vilket reellt tal som helst.</p></li><li><p>2C kan anta alla reella värden. C² kan bara vara icke-negativt, och sin C ligger mellan −1 och 1. Den fasta konstanten 7 ger bara en funktion.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x²+2C beskriver hela familjen.</strong></p></div>",
+  "ledtrad": "<p>Räcker det att derivatan är rätt, eller måste alla möjliga konstanta förskjutningar också finnas med?</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "\\(x^2+C^2\\)",
+      "ratt": false
+    },
+    {
+      "txt": "\\(x^2+2C\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(x^2+\\sin C\\)",
+      "ratt": false
+    },
+    {
+      "txt": "\\(x^2+7\\)",
+      "ratt": false
+    }
+  ]
+},
+  {
+  "id": "3.1226",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Konstanten i primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen \\(f(x)=-1/x^2\\) är definierad för x ≠ 0. Två förslag på primitiva funktioner är</p><div class=\"facit-matte\">\\[F_1(x)=1/x\\]</div><div class=\"facit-matte\">\\[F_2(x)=\\begin{cases}1/x+2,&x\\lt0\\\\1/x-3,&x\\gt0.\\end{cases}\\]</div><p>Vilket påstående är korrekt?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På vart och ett av intervallen x < 0 och x > 0 är den extra termen i F₂ konstant. Både F₁ och F₂ har därför derivatan −1/x² där.</p></li><li><p>Varken f eller de föreslagna funktionerna är definierade vid x = 0. De två skilda intervallen behöver inte ha samma integrationskonstant.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Båda är primitiva funktioner på vart och ett av intervallen x < 0 och x > 0.</strong></p></div>",
+  "ledtrad": "<p>Undersök derivatan på varje intervall där f är definierad.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "Bara F₁, eftersom en primitiv funktion alltid måste ha samma konstant överallt.",
+      "ratt": false
+    },
+    {
+      "txt": "Bara F₂, eftersom F₁ saknar en utskriven konstant.",
+      "ratt": false
+    },
+    {
+      "txt": "Ingen, eftersom de inte är definierade vid x = 0.",
+      "ratt": false
+    },
+    {
+      "txt": "Båda, på vart och ett av intervallen x < 0 och x > 0.",
+      "ratt": true
+    }
+  ]
+},
+  {
+  "id": "3.1227",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Konstanten i primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>F och G är primitiva funktioner till f respektive g på hela tallinjen. Det gäller att \\(f(x)-g(x)=2x\\) och att \\(F(1)=G(1)\\). Bestäm \\(F(3)-G(3)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Betrakta skillnaden H(x) = F(x)−G(x). Dess derivata är f(x)−g(x) = 2x. Därför är H(x) = x²+C.</p></li><li><p>Det givna villkoret betyder H(1) = 0, så 1+C = 0 och C = −1.</p></li><li><p>Vid x = 3 blir skillnaden H(3) = 9−1 = 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar: F(3)−G(3) = 8.</strong></p></div>",
+  "ledtrad": "<p>Det går att bestämma skillnaden utan att känna F och G var för sig.</p>",
+  "rättSvar": 8,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "3.1228",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Konstanten i primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två elever skriver alla primitiva funktioner till \\(f(x)=(x-1)^2\\) på olika sätt. C och K får vara vilka reella tal som helst.</p><div class=\"facit-matte\">\\[F_1(x)=\\frac{(x-1)^3}{3}+C\\]</div><div class=\"facit-matte\">\\[F_2(x)=\\frac{x^3}{3}-x^2+x+K\\]</div><p>Vilket påstående är korrekt?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Utveckla kuben i det första uttrycket.</p><div class=\"facit-matte\">\\[F_1(x)=\\frac{x^3}{3}-x^2+x-\\frac13+C\\]</div></li><li><p>Välj K = C−1/3. Då beskriver de två uttrycken samma funktion. Eftersom C och K kan vara vilka reella tal som helst beskriver båda hela familjen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Båda är korrekta och beskriver samma familj.</strong></p></div>",
+  "ledtrad": "<p>Jämför uttrycken efter att kuben utvecklats. Är skillnaden beroende av x?</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "Bara det första är korrekt.",
+      "ratt": false
+    },
+    {
+      "txt": "Båda är korrekta, men familjerna är olika.",
+      "ratt": false
+    },
+    {
+      "txt": "Båda är korrekta och beskriver samma familj.",
+      "ratt": true
+    },
+    {
+      "txt": "Bara det andra är korrekt.",
+      "ratt": false
+    }
+  ]
+},
+  {
+  "id": "3.1229",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Bestämma primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Bestäm alla primitiva funktioner till funktionen för x &gt; 0.</p><div class=\"facit-matte\">\\[f(x)=\\left(\\sqrt{x}-\\frac1{\\sqrt{x}}\\right)(x+2)\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera in båda termerna och samla dem med samma exponent.</p><div class=\"facit-matte\">\\[f(x)=x^{3/2}+x^{1/2}-2x^{-1/2}\\]</div></li><li><p>Integrera de tre potenserna.</p><div class=\"facit-matte\">\\[F(x)=\\frac25x^{5/2}+\\frac23x^{3/2}\\]</div><div class=\"facit-matte\">\\[\\phantom{F(x)={}}-4\\sqrt{x}+C\\]</div></li><li><p>Kontroll: derivatorna är x³ᐟ², √x och −2/√x, vilket ger den förenklade funktionen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(F(x)=\\frac25x^{5/2}+\\frac23x^{3/2}-4\\sqrt{x}+C\\).</strong></p></div>",
+  "ledtrad": "<p>Multiplicera parenteserna innan du integrerar.</p>",
+  "rättSvar": "2*x^(5/2)/5+2*x^(3/2)/3-4*sqrt(x)+C",
+  "svarstyp": "uttryck",
+  "svarFormat": "primitiva",
+  "tolerans": null
+},
+  {
+  "id": "3.1230",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Konstanten i primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>F är en primitiv funktion till \\(f(x)=kx^2\\). För alla reella x gäller</p><div class=\"facit-matte\">\\[F(2x)-F(x)=7x^3.\\]</div><p>Bestäm k.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är F(x) = kx³/3+C. Sätt in 2x i samma uttryck.</p><div class=\"facit-matte\">\\[F(2x)-F(x)=\\frac{k}{3}(8x^3-x^3)\\]</div></li><li><p>Konstanten försvinner, och skillnaden blir 7kx³/3. Detta ska vara 7x³ för alla x, så k/3 = 1.</p></li></ol><p class=\"facit-svar\"><strong>Svar: k = 3.</strong></p></div>",
+  "ledtrad": "<p>Skriv en primitiv funktion med k kvar och använd sedan skillnadsvillkoret.</p>",
+  "rättSvar": 3,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "3.1231",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Konstanten i primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>F är en primitiv funktion till \\(f(x)=x^2-1\\). F har en lokal maximipunkt vid x = −1 och en lokal minimipunkt vid x = 1. Hur stor är skillnaden mellan dessa två funktionsvärden hos F? Svara exakt.</p><p>Figuren visar f, inte F.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Graf till f(x)=x²−1. F är en primitiv funktion och är inte ritad.\"><title>Graf till f(x)=x²−1. F är en primitiv funktion och är inte ritad.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−2</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 230.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"236.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M65 190.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"196.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 110.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"116.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 70.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"76.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M250.0 45V250 M65 190.0H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">f(x)</text><polyline points=\"65.000,70.000 65.925,71.596 66.850,73.184 67.775,74.764 68.700,76.336 69.625,77.900 70.550,79.456 71.475,81.004 72.400,82.544 73.325,84.076 74.250,85.600 75.175,87.116 76.100,88.624 77.025,90.124 77.950,91.616 78.875,93.100 79.800,94.576 80.725,96.044 81.650,97.504 82.575,98.956 83.500,100.400 84.425,101.836 85.350,103.264 86.275,104.684 87.200,106.096 88.125,107.500 89.050,108.896 89.975,110.284 90.900,111.664 91.825,113.036 92.750,114.400 93.675,115.756 94.600,117.104 95.525,118.444 96.450,119.776 97.375,121.100 98.300,122.416 99.225,123.724 100.150,125.024 101.075,126.316 102.000,127.600 102.925,128.876 103.850,130.144 104.775,131.404 105.700,132.656 106.625,133.900 107.550,135.136 108.475,136.364 109.400,137.584 110.325,138.796 111.250,140.000 112.175,141.196 113.100,142.384 114.025,143.564 114.950,144.736 115.875,145.900 116.800,147.056 117.725,148.204 118.650,149.344 119.575,150.476 120.500,151.600 121.425,152.716 122.350,153.824 123.275,154.924 124.200,156.016 125.125,157.100 126.050,158.176 126.975,159.244 127.900,160.304 128.825,161.356 129.750,162.400 130.675,163.436 131.600,164.464 132.525,165.484 133.450,166.496 134.375,167.500 135.300,168.496 136.225,169.484 137.150,170.464 138.075,171.436 139.000,172.400 139.925,173.356 140.850,174.304 141.775,175.244 142.700,176.176 143.625,177.100 144.550,178.016 145.475,178.924 146.400,179.824 147.325,180.716 148.250,181.600 149.175,182.476 150.100,183.344 151.025,184.204 151.950,185.056 152.875,185.900 153.800,186.736 154.725,187.564 155.650,188.384 156.575,189.196 157.500,190.000 158.425,190.796 159.350,191.584 160.275,192.364 161.200,193.136 162.125,193.900 163.050,194.656 163.975,195.404 164.900,196.144 165.825,196.876 166.750,197.600 167.675,198.316 168.600,199.024 169.525,199.724 170.450,200.416 171.375,201.100 172.300,201.776 173.225,202.444 174.150,203.104 175.075,203.756 176.000,204.400 176.925,205.036 177.850,205.664 178.775,206.284 179.700,206.896 180.625,207.500 181.550,208.096 182.475,208.684 183.400,209.264 184.325,209.836 185.250,210.400 186.175,210.956 187.100,211.504 188.025,212.044 188.950,212.576 189.875,213.100 190.800,213.616 191.725,214.124 192.650,214.624 193.575,215.116 194.500,215.600 195.425,216.076 196.350,216.544 197.275,217.004 198.200,217.456 199.125,217.900 200.050,218.336 200.975,218.764 201.900,219.184 202.825,219.596 203.750,220.000 204.675,220.396 205.600,220.784 206.525,221.164 207.450,221.536 208.375,221.900 209.300,222.256 210.225,222.604 211.150,222.944 212.075,223.276 213.000,223.600 213.925,223.916 214.850,224.224 215.775,224.524 216.700,224.816 217.625,225.100 218.550,225.376 219.475,225.644 220.400,225.904 221.325,226.156 222.250,226.400 223.175,226.636 224.100,226.864 225.025,227.084 225.950,227.296 226.875,227.500 227.800,227.696 228.725,227.884 229.650,228.064 230.575,228.236 231.500,228.400 232.425,228.556 233.350,228.704 234.275,228.844 235.200,228.976 236.125,229.100 237.050,229.216 237.975,229.324 238.900,229.424 239.825,229.516 240.750,229.600 241.675,229.676 242.600,229.744 243.525,229.804 244.450,229.856 245.375,229.900 246.300,229.936 247.225,229.964 248.150,229.984 249.075,229.996 250.000,230.000 250.925,229.996 251.850,229.984 252.775,229.964 253.700,229.936 254.625,229.900 255.550,229.856 256.475,229.804 257.400,229.744 258.325,229.676 259.250,229.600 260.175,229.516 261.100,229.424 262.025,229.324 262.950,229.216 263.875,229.100 264.800,228.976 265.725,228.844 266.650,228.704 267.575,228.556 268.500,228.400 269.425,228.236 270.350,228.064 271.275,227.884 272.200,227.696 273.125,227.500 274.050,227.296 274.975,227.084 275.900,226.864 276.825,226.636 277.750,226.400 278.675,226.156 279.600,225.904 280.525,225.644 281.450,225.376 282.375,225.100 283.300,224.816 284.225,224.524 285.150,224.224 286.075,223.916 287.000,223.600 287.925,223.276 288.850,222.944 289.775,222.604 290.700,222.256 291.625,221.900 292.550,221.536 293.475,221.164 294.400,220.784 295.325,220.396 296.250,220.000 297.175,219.596 298.100,219.184 299.025,218.764 299.950,218.336 300.875,217.900 301.800,217.456 302.725,217.004 303.650,216.544 304.575,216.076 305.500,215.600 306.425,215.116 307.350,214.624 308.275,214.124 309.200,213.616 310.125,213.100 311.050,212.576 311.975,212.044 312.900,211.504 313.825,210.956 314.750,210.400 315.675,209.836 316.600,209.264 317.525,208.684 318.450,208.096 319.375,207.500 320.300,206.896 321.225,206.284 322.150,205.664 323.075,205.036 324.000,204.400 324.925,203.756 325.850,203.104 326.775,202.444 327.700,201.776 328.625,201.100 329.550,200.416 330.475,199.724 331.400,199.024 332.325,198.316 333.250,197.600 334.175,196.876 335.100,196.144 336.025,195.404 336.950,194.656 337.875,193.900 338.800,193.136 339.725,192.364 340.650,191.584 341.575,190.796 342.500,190.000 343.425,189.196 344.350,188.384 345.275,187.564 346.200,186.736 347.125,185.900 348.050,185.056 348.975,184.204 349.900,183.344 350.825,182.476 351.750,181.600 352.675,180.716 353.600,179.824 354.525,178.924 355.450,178.016 356.375,177.100 357.300,176.176 358.225,175.244 359.150,174.304 360.075,173.356 361.000,172.400 361.925,171.436 362.850,170.464 363.775,169.484 364.700,168.496 365.625,167.500 366.550,166.496 367.475,165.484 368.400,164.464 369.325,163.436 370.250,162.400 371.175,161.356 372.100,160.304 373.025,159.244 373.950,158.176 374.875,157.100 375.800,156.016 376.725,154.924 377.650,153.824 378.575,152.716 379.500,151.600 380.425,150.476 381.350,149.344 382.275,148.204 383.200,147.056 384.125,145.900 385.050,144.736 385.975,143.564 386.900,142.384 387.825,141.196 388.750,140.000 389.675,138.796 390.600,137.584 391.525,136.364 392.450,135.136 393.375,133.900 394.300,132.656 395.225,131.404 396.150,130.144 397.075,128.876 398.000,127.600 398.925,126.316 399.850,125.024 400.775,123.724 401.700,122.416 402.625,121.100 403.550,119.776 404.475,118.444 405.400,117.104 406.325,115.756 407.250,114.400 408.175,113.036 409.100,111.664 410.025,110.284 410.950,108.896 411.875,107.500 412.800,106.096 413.725,104.684 414.650,103.264 415.575,101.836 416.500,100.400 417.425,98.956 418.350,97.504 419.275,96.044 420.200,94.576 421.125,93.100 422.050,91.616 422.975,90.124 423.900,88.624 424.825,87.116 425.750,85.600 426.675,84.076 427.600,82.544 428.525,81.004 429.450,79.456 430.375,77.900 431.300,76.336 432.225,74.764 433.150,73.184 434.075,71.596 435.000,70.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla primitiva funktioner är F(x) = x³/3−x+C. Vi ska ta maximivärdet minus minimivärdet.</p></li><li><p>Beräkna värdena vid de två angivna x-koordinaterna.</p><div class=\"facit-matte\">\\[F(-1)=\\frac23+C\\]</div><div class=\"facit-matte\">\\[F(1)=-\\frac23+C\\]</div></li><li><p>Konstanten försvinner i skillnaden.</p><div class=\"facit-matte\">\\[F(-1)-F(1)=\\frac43\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: \\(4/3\\) längdenheter i höjdled.</strong></p></div>",
+  "ledtrad": "<p>Grafens höjd är f(x). Den efterfrågade skillnaden gäller i stället en primitiv funktion F.</p>",
+  "rättSvar": "4/3",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "3.1232",
+  "kap": 3,
+  "omr": "primitiva",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Konstanten i primitiva funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>F är en primitiv funktion till \\(f(x)=4x^3-12x\\). Bestäm skillnaden mellan F:s lokala maximivärde och dess minsta värde. Svara exakt.</p><p>Figuren visar f, inte F.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Graf till f(x)=4x³−12x med tre nollställen. Den primitiva funktionen F är inte ritad.\"><title>Graf till f(x)=4x³−12x med tre nollställen. Den primitiva funktionen F är inte ritad.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−2</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 238.88888888888889H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"244.88888888888889\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−8</text><path d=\"M65 194.44444444444446H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"200.44444444444446\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−4</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 105.55555555555554H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"111.55555555555554\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 61.111111111111114H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"67.11111111111111\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><path d=\"M250.0 45V250 M65 150.0H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">f(x)</text><polyline points=\"65.000,238.889 65.925,234.916 66.850,230.995 67.775,227.128 68.700,223.313 69.625,219.550 70.550,215.839 71.475,212.180 72.400,208.573 73.325,205.016 74.250,201.511 75.175,198.056 76.100,194.652 77.025,191.298 77.950,187.994 78.875,184.739 79.800,181.534 80.725,178.377 81.650,175.270 82.575,172.211 83.500,169.200 84.425,166.237 85.350,163.322 86.275,160.455 87.200,157.634 88.125,154.861 89.050,152.134 89.975,149.454 90.900,146.820 91.825,144.232 92.750,141.689 93.675,139.192 94.600,136.739 95.525,134.332 96.450,131.969 97.375,129.650 98.300,127.375 99.225,125.144 100.150,122.957 101.075,120.812 102.000,118.711 102.925,116.652 103.850,114.636 104.775,112.662 105.700,110.730 106.625,108.839 107.550,106.990 108.475,105.181 109.400,103.414 110.325,101.687 111.250,100.000 112.175,98.353 113.100,96.746 114.025,95.179 114.950,93.650 115.875,92.161 116.800,90.710 117.725,89.298 118.650,87.924 119.575,86.588 120.500,85.289 121.425,84.028 122.350,82.803 123.275,81.616 124.200,80.465 125.125,79.350 126.050,78.271 126.975,77.228 127.900,76.221 128.825,75.248 129.750,74.311 130.675,73.408 131.600,72.540 132.525,71.706 133.450,70.906 134.375,70.139 135.300,69.406 136.225,68.705 137.150,68.038 138.075,67.403 139.000,66.800 139.925,66.229 140.850,65.690 141.775,65.183 142.700,64.706 143.625,64.261 144.550,63.846 145.475,63.462 146.400,63.108 147.325,62.784 148.250,62.489 149.175,62.224 150.100,61.987 151.025,61.780 151.950,61.601 152.875,61.450 153.800,61.327 154.725,61.232 155.650,61.165 156.575,61.124 157.500,61.111 158.425,61.124 159.350,61.164 160.275,61.230 161.200,61.322 162.125,61.439 163.050,61.582 163.975,61.749 164.900,61.942 165.825,62.159 166.750,62.400 167.675,62.665 168.600,62.954 169.525,63.267 170.450,63.602 171.375,63.961 172.300,64.342 173.225,64.746 174.150,65.172 175.075,65.620 176.000,66.089 176.925,66.580 177.850,67.091 178.775,67.624 179.700,68.177 180.625,68.750 181.550,69.343 182.475,69.956 183.400,70.589 184.325,71.240 185.250,71.911 186.175,72.600 187.100,73.308 188.025,74.034 188.950,74.778 189.875,75.539 190.800,76.318 191.725,77.113 192.650,77.926 193.575,78.755 194.500,79.600 195.425,80.461 196.350,81.338 197.275,82.231 198.200,83.138 199.125,84.061 200.050,84.998 200.975,85.950 201.900,86.916 202.825,87.896 203.750,88.889 204.675,89.896 205.600,90.915 206.525,91.948 207.450,92.993 208.375,94.050 209.300,95.119 210.225,96.200 211.150,97.293 212.075,98.396 213.000,99.511 213.925,100.636 214.850,101.772 215.775,102.918 216.700,104.074 217.625,105.239 218.550,106.414 219.475,107.597 220.400,108.790 221.325,109.991 222.250,111.200 223.175,112.417 224.100,113.642 225.025,114.875 225.950,116.114 226.875,117.361 227.800,118.614 228.725,119.874 229.650,121.140 230.575,122.412 231.500,123.689 232.425,124.972 233.350,126.259 234.275,127.552 235.200,128.849 236.125,130.150 237.050,131.455 237.975,132.764 238.900,134.077 239.825,135.392 240.750,136.711 241.675,138.032 242.600,139.356 243.525,140.682 244.450,142.010 245.375,143.339 246.300,144.670 247.225,146.001 248.150,147.334 249.075,148.667 250.000,150.000 250.925,151.333 251.850,152.666 252.775,153.999 253.700,155.330 254.625,156.661 255.550,157.990 256.475,159.318 257.400,160.644 258.325,161.968 259.250,163.289 260.175,164.608 261.100,165.923 262.025,167.236 262.950,168.545 263.875,169.850 264.800,171.151 265.725,172.448 266.650,173.741 267.575,175.028 268.500,176.311 269.425,177.588 270.350,178.860 271.275,180.126 272.200,181.386 273.125,182.639 274.050,183.886 274.975,185.125 275.900,186.358 276.825,187.583 277.750,188.800 278.675,190.009 279.600,191.210 280.525,192.403 281.450,193.586 282.375,194.761 283.300,195.926 284.225,197.082 285.150,198.228 286.075,199.364 287.000,200.489 287.925,201.604 288.850,202.707 289.775,203.800 290.700,204.881 291.625,205.950 292.550,207.007 293.475,208.052 294.400,209.085 295.325,210.104 296.250,211.111 297.175,212.104 298.100,213.084 299.025,214.050 299.950,215.002 300.875,215.939 301.800,216.862 302.725,217.769 303.650,218.662 304.575,219.539 305.500,220.400 306.425,221.245 307.350,222.074 308.275,222.887 309.200,223.682 310.125,224.461 311.050,225.222 311.975,225.966 312.900,226.692 313.825,227.400 314.750,228.089 315.675,228.760 316.600,229.411 317.525,230.044 318.450,230.657 319.375,231.250 320.300,231.823 321.225,232.376 322.150,232.909 323.075,233.420 324.000,233.911 324.925,234.380 325.850,234.828 326.775,235.254 327.700,235.658 328.625,236.039 329.550,236.398 330.475,236.733 331.400,237.046 332.325,237.335 333.250,237.600 334.175,237.841 335.100,238.058 336.025,238.251 336.950,238.418 337.875,238.561 338.800,238.678 339.725,238.770 340.650,238.836 341.575,238.876 342.500,238.889 343.425,238.876 344.350,238.835 345.275,238.768 346.200,238.673 347.125,238.550 348.050,238.399 348.975,238.220 349.900,238.013 350.825,237.776 351.750,237.511 352.675,237.216 353.600,236.892 354.525,236.538 355.450,236.154 356.375,235.739 357.300,235.294 358.225,234.817 359.150,234.310 360.075,233.771 361.000,233.200 361.925,232.597 362.850,231.962 363.775,231.295 364.700,230.594 365.625,229.861 366.550,229.094 367.475,228.294 368.400,227.460 369.325,226.592 370.250,225.689 371.175,224.752 372.100,223.779 373.025,222.772 373.950,221.729 374.875,220.650 375.800,219.535 376.725,218.384 377.650,217.197 378.575,215.972 379.500,214.711 380.425,213.412 381.350,212.076 382.275,210.702 383.200,209.290 384.125,207.839 385.050,206.350 385.975,204.821 386.900,203.254 387.825,201.647 388.750,200.000 389.675,198.313 390.600,196.586 391.525,194.819 392.450,193.010 393.375,191.161 394.300,189.270 395.225,187.338 396.150,185.364 397.075,183.348 398.000,181.289 398.925,179.188 399.850,177.043 400.775,174.856 401.700,172.625 402.625,170.350 403.550,168.031 404.475,165.668 405.400,163.261 406.325,160.808 407.250,158.311 408.175,155.768 409.100,153.180 410.025,150.546 410.950,147.866 411.875,145.139 412.800,142.366 413.725,139.545 414.650,136.678 415.575,133.763 416.500,130.800 417.425,127.789 418.350,124.730 419.275,121.623 420.200,118.466 421.125,115.261 422.050,112.006 422.975,108.702 423.900,105.348 424.825,101.944 425.750,98.489 426.675,94.984 427.600,91.427 428.525,87.820 429.450,84.161 430.375,80.450 431.300,76.687 432.225,72.872 433.150,69.005 434.075,65.084 435.000,61.111\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En primitiv funktion är F(x) = x⁴−6x²+C. F har stationära punkter där f(x) = 0.</p><div class=\"facit-matte\">\\[4x(x^2-3)=0\\]</div></li><li><p>Det ger x = −√3, 0 och √3. Tecknet på f växlar från minus till plus vid ±√3 och från plus till minus vid 0. F har alltså minimum vid ±√3 och lokalt maximum vid 0.</p></li><li><p>Båda minimivärdena är C−9. Det är även det minsta värdet på hela tallinjen, eftersom F kan skrivas (x²−3)²+C−9. Vid x = 0 är värdet C.</p><div class=\"facit-matte\">\\[C-(C-9)=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: Skillnaden är 9.</strong></p></div>",
+  "ledtrad": "<p>Bestäm först var f är noll, men jämför sedan värdena på F.</p>",
+  "rättSvar": 9,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+}
 
 ];

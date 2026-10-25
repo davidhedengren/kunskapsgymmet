@@ -211110,7 +211110,7 @@ window.BANK = [
   "niva": "C",
   "typ": "fotoner från annihilation",
   "poang": "(0/1/0)",
-  "t": "<p>En elektron och en positron i vila förintar varandra och bildar två lika fotoner. Elektronens massa är 9,11·10⁻³¹ kg. Bestäm våglängden hos en av fotonerna. (Svara i pm med två decimaler.)</p>",
+  "t": "<p>En elektron och en positron i vila förintar varandra och bildar två lika fotoner. Bestäm våglängden hos en av fotonerna. (Svara i pm med två decimaler.)</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Varje foton får energin \\(m_ec^2\\), eftersom båda partiklarna har massan \\(m_e\\) och de två fotonerna delar lika.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =9{,}11\\cdot10^{-31}\\cdot(3{,}00\\cdot10^{8})^2\\ \\mathrm J\\\\=8{,}20\\cdot10^{-14}\\ \\mathrm J\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda =\\frac{hc}{E} =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{8{,}20\\cdot10^{-14}}\\ \\mathrm m\\\\\\approx2{,}43\\cdot10^{-12}\\ \\mathrm m\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 2,43 pm.</p></div>",
   "familj": "Elementarpartiklar och kvarkar",
   "formaga": [
@@ -211137,7 +211137,7 @@ window.BANK = [
   "niva": "C",
   "typ": "längsta våglängd för parbildning",
   "poang": "(0/1/0)",
-  "t": "<p>En gammafoton kan omvandlas till ett elektron–positronpar. Elektronens vilomassa motsvarar 0,511 MeV. Vilken är den längsta våglängd fotonen kan ha för att detta ska vara möjligt? (Svara i pm med två decimaler.)</p>",
+  "t": "<p>En gammafoton kan omvandlas till ett elektron–positronpar. Vilken är den längsta våglängd fotonen kan ha för att detta ska vara möjligt? (Svara i pm med två decimaler.)</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fotonen måste minst ha energin för två elektronmassor: \\(2\\cdot0{,}511=1{,}022\\) MeV.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =1{,}022\\cdot10^{6}\\cdot1{,}602\\cdot10^{-19}\\ \\mathrm J\\\\=1{,}637\\cdot10^{-13}\\ \\mathrm J\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda =\\frac{hc}{E} =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{1{,}637\\cdot10^{-13}}\\ \\mathrm m\\\\\\approx1{,}21\\cdot10^{-12}\\ \\mathrm m\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,21 pm.</p></div>",
   "familj": "Elementarpartiklar och kvarkar",
   "formaga": [
@@ -211145,7 +211145,7 @@ window.BANK = [
     "problemlösning"
   ],
   "självrättning": true,
-  "ledtrad": "<p>Lägsta energi ger längsta våglängd. Hur mycket energi behövs för att skapa två partiklar med massan 0,511 MeV/c²?</p>",
+  "ledtrad": "<p>Lägsta energi ger längsta våglängd. Fotonen måste ha minst lika mycket energi som viloenergin hos en elektron och en positron tillsammans.</p>",
   "traningsniva": 3,
   "arbetsinsats": 2,
   "miniräknare": true,
@@ -211328,7 +211328,7 @@ window.BANK = [
   "niva": "C",
   "typ": "avstånd där elektrisk kraft är lika med tyngden",
   "poang": "(0/1/0)",
-  "t": "<p>Två elektroner stöter bort varandra elektriskt. På vilket avstånd är den elektriska kraften mellan dem lika stor som tyngdkraften på en elektron? Elektronens massa är 9,11·10⁻³¹ kg. (Svara i m med en decimal.)</p>",
+  "t": "<p>Två elektroner stöter bort varandra elektriskt. På vilket avstånd är den elektriska kraften mellan dem lika stor som tyngdkraften på en elektron? (Svara i m med en decimal.)</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sätt \\(\\dfrac{ke^2}{r^2}=mg\\) och lös ut r.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}r =\\sqrt{\\frac{ke^2}{mg}}\\\\=\\sqrt{\\frac{8{,}99\\cdot10^{9}\\cdot(1{,}602\\cdot10^{-19})^2}{9{,}11\\cdot10^{-31}\\cdot9{,}82}}\\ \\mathrm m\\\\\\approx5{,}1\\ \\mathrm m\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Gravitationen är så svag att två elektroner som är flera meter isär påverkar varandra lika mycket elektriskt som jorden drar i dem.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 5,1 m.</p></div>",
   "familj": "De fyra fundamentala krafterna",
   "formaga": [
@@ -211549,7 +211549,7 @@ window.BANK = [
     "problemlösning"
   ],
   "självrättning": true,
-  "ledtrad": "<p>1 MeV = 1,602·10⁻¹³ J.</p>",
+  "ledtrad": "<p>Räkna ut energin i joule och gör sedan om till MeV.</p>",
   "traningsniva": 3,
   "arbetsinsats": 2,
   "miniräknare": true,
@@ -211601,7 +211601,7 @@ window.BANK = [
     "procedur"
   ],
   "självrättning": true,
-  "ledtrad": "<p>1 eV = 1,602·10⁻¹⁹ J.</p>",
+  "ledtrad": "<p>Gör om energin från eV till joule innan du använder \\(\\lambda=\\dfrac{hc}{E}\\).</p>",
   "traningsniva": 2,
   "arbetsinsats": 1,
   "miniräknare": true,
@@ -211609,7 +211609,7 @@ window.BANK = [
   "spel": true,
   "svarstyp": "numeriskt",
   "rättSvar": 496.62921348314603,
-  "tolerans": 0.5,
+  "tolerans": 1,
   "svarFormat": "numeriskt",
   "svarEnhet": "nm"
 },
@@ -211680,7 +211680,7 @@ window.BANK = [
     "procedur"
   ],
   "självrättning": true,
-  "ledtrad": "<p>1 MeV = 1,602·10⁻¹³ J och 1 pm = 10⁻¹² m.</p>",
+  "ledtrad": "<p>Gör om energin från MeV till joule. Kom ihåg att 1 pm = 10⁻¹² m.</p>",
   "traningsniva": 2,
   "arbetsinsats": 1,
   "miniräknare": true,
@@ -213092,7 +213092,7 @@ window.BANK = [
     "procedur"
   ],
   "självrättning": true,
-  "ledtrad": "<p>\\(Q=It\\) och varje elektron har laddningen 1,602·10⁻¹⁹ C.</p>",
+  "ledtrad": "<p>Använd \\(Q=It\\). Hur stor laddning har en elektron?</p>",
   "traningsniva": 2,
   "arbetsinsats": 1,
   "miniräknare": true,
@@ -213994,7 +213994,7 @@ window.BANK = [
   "niva": "C",
   "typ": "elektroner och massa när en ballong laddas",
   "poang": "(0/1/0)",
-  "t": "<p>En ballong gnids mot håret och får laddningen −4,8 nC. Elektronens laddning är \\(-1{,}602\\cdot10^{-19}\\) C och dess massa är \\(9{,}11\\cdot10^{-31}\\) kg.</p><p>a) Hur många elektroner har gått över till ballongen?<br>b) Hur mycket har ballongens massa ökat? (Svara med två värdesiffror, i b i kg.)</p>",
+  "t": "<p>En ballong gnids mot håret och får laddningen −4,8 nC.</p><p>a) Hur många elektroner har gått över till ballongen?<br>b) Hur mycket har ballongens massa ökat? (Svara med två värdesiffror, i b i kg.)</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">a) Ballongen har fått ett överskott av elektroner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac{4{,}8\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx3{,}0\\cdot10^{10}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">b) Varje elektron har massan \\(9{,}11\\cdot10^{-31}\\) kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\Delta m =3{,}0\\cdot10^{10}\\cdot9{,}11\\cdot10^{-31}\\\\\\approx2{,}7\\cdot10^{-20}\\ \\mathrm{kg}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Massökningen är alldeles för liten för att kunna vägas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(3{,}0\\cdot10^{10}\\) elektroner b) \\(2{,}7\\cdot10^{-20}\\) kg</p></div>",
   "familj": "Laddning och elementarladdning",
   "formaga": [
@@ -214421,7 +214421,7 @@ window.BANK = [
   "niva": "C",
   "typ": "energin i en mol fotoner",
   "poang": "(0/1/0)",
-  "t": "<p>En mol är \\(6{,}02\\cdot10^{23}\\) stycken. Hur stor energi har en mol fotoner av grönt ljus med våglängden 500 nm? (Svara i kJ med två värdesiffror.)</p>",
+  "t": "<p>Hur stor energi har en mol fotoner av grönt ljus med våglängden 500 nm? (Svara i kJ med två värdesiffror.)</p>",
   "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm energin hos en foton med \\(E=\\dfrac{hc}{\\lambda}\\) och multiplicera med antalet fotoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_{\\text{foton}} =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{500\\cdot10^{-9}}\\ \\mathrm J\\\\\\approx3{,}98\\cdot10^{-19}\\ \\mathrm J\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =6{,}02\\cdot10^{23}\\cdot3{,}98\\cdot10^{-19}\\ \\mathrm J\\\\\\approx2{,}4\\cdot10^{5}\\ \\mathrm J =240\\ \\mathrm{kJ}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det är ungefär lika mycket energi som det krävs för att bryta de kemiska bindningarna i en mol av många ämnen. Därför kan ljus driva kemiska reaktioner, till exempel fotosyntes.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 240 kJ.</p></div>",
   "familj": "Fotonenergi",
   "formaga": [
@@ -214614,5 +214614,213 @@ window.BANK = [
   "rättSvar": 740740.7407407408,
   "tolerans": 5000.0,
   "svarEnhet": ""
+},
+{
+  "id": "2.359",
+  "kap": 2,
+  "omr": "enheter",
+  "niva": "C",
+  "typ": "tvärsnittsarean av ett hårstrå",
+  "poang": "(0/1/0)",
+  "t": "<p>Ett hårstrå har diametern 70 µm. Hur stor är tvärsnittsarean? (Svara i mm² med tre värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tvärsnittet är en cirkel med radien 35 µm. Räkna om radien till mm innan du räknar arean, så hamnar arean direkt i mm².</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[r=35\\ \\mathrm{\\mu m}=35\\cdot10^{-3}\\ \\mathrm{mm}=0{,}035\\ \\mathrm{mm}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[A=\\pi r^2=\\pi\\cdot0{,}035^2\\ \\mathrm{mm^2}\\approx3{,}85\\cdot10^{-3}\\ \\mathrm{mm^2}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Observera att \\(1\\ \\mathrm{\\mu m}=10^{-3}\\) mm, men \\(1\\ \\mathrm{\\mu m^2}=10^{-6}\\ \\mathrm{mm^2}\\).</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}85\\cdot10^{-3}\\) mm².</p></div>",
+  "familj": "Area- och volymenheter",
+  "familjNyckel": "enheter__area_och_volymenheter",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Använd radien, inte diametern, och gör om den till mm först.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.00384845100065,
+  "tolerans": 5e-06,
+  "svarEnhet": "mm²"
+},
+{
+  "id": "2.360",
+  "kap": 2,
+  "omr": "enheter",
+  "niva": "C",
+  "typ": "hur långt ljuset går på en nanosekund",
+  "poang": "(0/1/0)",
+  "t": "<p>Hur långt hinner ljuset färdas i vakuum på en nanosekund? (Svara i cm.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Sträckan är fart gånger tid. Ljusfarten finns i formelsamlingen, och en nanosekund är \\(10^{-9}\\) s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=ct=3{,}00\\cdot10^{8}\\cdot1\\cdot10^{-9}\\ \\mathrm m=0{,}30\\ \\mathrm m=30\\ \\mathrm{cm}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det är en anledning till att elektroniska kretsar i snabba datorer måste vara små.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 30 cm.</p></div>",
+  "familj": "Prefix och tiopotenser",
+  "familjNyckel": "enheter__prefix_tiopotenser_och_storleksordning",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Skriv nano som en tiopotens och multiplicera med ljusfarten.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 30.0,
+  "tolerans": 0.5,
+  "svarEnhet": "cm"
+},
+{
+  "id": "2.361",
+  "kap": 2,
+  "omr": "enheter",
+  "niva": "C",
+  "typ": "volym och sida för en guldkub",
+  "poang": "(0/1/0)",
+  "t": "<p>En kub av guld väger 1,0 kg. Guld har densiteten 19,3 g/cm³. Bestäm kubens volym och kantlängd. (Svara i cm³ och cm med tre värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Volymen är massan delad med densiteten. Skriv massan i gram, så att enheterna passar med g/cm³.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V=\\frac{m}{\\rho}=\\frac{1000\\ \\mathrm g}{19{,}3\\ \\mathrm{g/cm^3}}\\approx51{,}8\\ \\mathrm{cm^3}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">För en kub är volymen kantlängden i kubik, så kantlängden är tredje roten ur volymen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\sqrt[3]{51{,}8}\\ \\mathrm{cm}\\approx3{,}73\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Volymen är 51,8 cm³ och kanten 3,73 cm.</p></div>",
+  "familj": "Area- och volymenheter",
+  "familjNyckel": "enheter__area_och_volymenheter",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Gör om kilogram till gram. Kubens volym är \\(a^3\\).</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    51.8134715026,
+    3.72804286305
+  ],
+  "tolerans": [
+    0.05,
+    0.005
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "cm³",
+    "cm"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Volym",
+    "Kantlängd"
+  ]
+},
+{
+  "id": "2.362",
+  "kap": 2,
+  "omr": "enheter",
+  "niva": "C",
+  "typ": "energi från en laddare i kJ och kWh",
+  "poang": "(0/1/0)",
+  "t": "<p>En mobilladdare ger effekten 18 W i 2 h 30 min. Hur mycket energi ger den? (Svara i kJ och i kWh.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energi är effekt gånger tid. Med tiden i sekunder blir energin i joule, med tiden i timmar blir den i wattimmar.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=2{,}5\\ \\mathrm h=2{,}5\\cdot3600\\ \\mathrm s=9000\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=18\\cdot9000\\ \\mathrm J=162\\,000\\ \\mathrm J=162\\ \\mathrm{kJ}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E=18\\ \\mathrm W\\cdot2{,}5\\ \\mathrm h=45\\ \\mathrm{Wh}=0{,}045\\ \\mathrm{kWh}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 162 kJ eller 0,045 kWh.</p></div>",
+  "familj": "Enhetsomvandling",
+  "familjNyckel": "enheter__enhetsomvandling",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>2 h 30 min är 2,5 h. Använd sekunder för joule och timmar för kWh.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    162.0,
+    0.045
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "kJ",
+    "kWh"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Energi i kJ",
+    "Energi i kWh"
+  ]
+},
+{
+  "id": "2.363",
+  "kap": 2,
+  "omr": "enheter",
+  "niva": "C",
+  "typ": "sandkorn i en liter",
+  "poang": "(0/1/0)",
+  "t": "<p>Ett sandkorn är ungefär 0,5 mm stort. Räkna som om varje korn är en kub med sidan 0,5 mm och kornen fyller hela volymen. Ungefär hur många sandkorn ryms i 1 liter? (Svara i grundpotensform.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Dela litern med volymen av ett korn. Skriv båda volymerna i samma enhet, till exempel mm³.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[1\\ \\mathrm l=1\\ \\mathrm{dm^3}=(100\\ \\mathrm{mm})^3=10^{6}\\ \\mathrm{mm^3}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V_{\\text{korn}}=0{,}5^3\\ \\mathrm{mm^3}=0{,}125\\ \\mathrm{mm^3}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac{10^{6}}{0{,}125}=8\\cdot10^{6}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">I verkligheten är det luft mellan kornen, så det blir något färre, men storleksordningen är några miljoner.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(8\\cdot10^{6}\\) sandkorn.</p></div>",
+  "familj": "Rimlighet och enhetskontroll",
+  "familjNyckel": "enheter__dimensionsanalys_och_enhetskontroll",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>1 liter är en kub med sidan 1 dm = 100 mm. Hur stor volym har ett korn?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 8000000.0,
+  "tolerans": 0,
+  "svarEnhet": "korn"
+},
+{
+  "id": "2.364",
+  "kap": 2,
+  "omr": "enheter",
+  "niva": "C",
+  "typ": "löparens fart ur tempot",
+  "poang": "(0/1/0)",
+  "t": "<p>En löpare håller tempot 4 min 30 s per kilometer. Vilken fart har löparen? (Svara i m/s med tre värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Tempot anger tid per sträcka. Farten är tvärtom, sträcka per tid.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[t=4\\cdot60+30=270\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{1000\\ \\mathrm m}{270\\ \\mathrm s}\\approx3{,}70\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Kontroll: \\(3{,}70\\cdot3{,}6\\approx13{,}3\\) km/h, en rimlig löpfart.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 3,70 m/s.</p></div>",
+  "familj": "Enhetsomvandling",
+  "familjNyckel": "enheter__enhetsomvandling",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Gör om tempot till sekunder. Fart är sträcka delad med tid.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 3.7037037037,
+  "tolerans": 0.005,
+  "svarEnhet": "m/s"
 }
 ];

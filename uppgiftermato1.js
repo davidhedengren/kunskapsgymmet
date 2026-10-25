@@ -7544,37 +7544,59 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.183",
-    "kap": 1,
-    "omr": "funktioner",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "1/2/0",
-    "t": "<p>Två funktioner ges av \\(f(x)=x^2-4x+5\\) och \\(g(x)=2x-1\\).</p><p>Bestäm alla \\(x\\) där funktionerna har samma funktionsvärde och ange det gemensamma funktionsvärdet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[f(x)=g(x)\\]:</div></div><p>\\[x^2-4x+5=2x-1\\Rightarrow x^2-6x+6=0.\\]</p><p>\\[x=3\\pm\\sqrt3.\\]</p></li><li><p>Det gemensamma värdet fås från \\(g\\): \\(y=2x-1=5\\pm2\\sqrt3\\).</p></li></ol></div>",
-    "familj": "Funktionsvärden",
-    "geogebra": false,
-    "miniräknare": false,
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Här tränas själva betydelsen av f(a): det är funktionens y-värde när x=a. Ersätt därför varje x med a och förenkla först därefter.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "familjTidigare": [
-      "Beräkna och tolka funktionsvärden"
-    ]
-  },
+  "id": "1.183",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Funktionerna är \\(f(x)=x^2-4x+5\\) och \\(g(x)=2x-1\\). Bestäm båda skärningspunkternas koordinater exakt. Fyll i x och y för punkten med mindre x först, sedan för punkten med större x.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 350\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Parabeln f och linjen g med två skärningar.\"><title>Parabeln f och linjen g med två skärningar.</title><rect width=\"500\" height=\"350\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M126.66666666666666 50V250\" stroke=\"#d6e1ea\"/><text x=\"126.66666666666666\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M188.33333333333331 50V250\" stroke=\"#d6e1ea\"/><text x=\"188.33333333333331\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M373.3333333333333 50V250\" stroke=\"#d6e1ea\"/><text x=\"373.3333333333333\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 216.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"222.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 183.33333333333331H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"189.33333333333331\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">9</text><path d=\"M65 116.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"122.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">12</text><path d=\"M65 83.33333333333334H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"89.33333333333334\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">15</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">18</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,194.444 66.542,195.549 68.083,196.639 69.625,197.715 71.167,198.778 72.708,199.826 74.250,200.861 75.792,201.882 77.333,202.889 78.875,203.882 80.417,204.861 81.958,205.826 83.500,206.778 85.042,207.715 86.583,208.639 88.125,209.549 89.667,210.444 91.208,211.326 92.750,212.194 94.292,213.049 95.833,213.889 97.375,214.715 98.917,215.528 100.458,216.326 102.000,217.111 103.542,217.882 105.083,218.639 106.625,219.382 108.167,220.111 109.708,220.826 111.250,221.528 112.792,222.215 114.333,222.889 115.875,223.549 117.417,224.194 118.958,224.826 120.500,225.444 122.042,226.049 123.583,226.639 125.125,227.215 126.667,227.778 128.208,228.326 129.750,228.861 131.292,229.382 132.833,229.889 134.375,230.382 135.917,230.861 137.458,231.326 139.000,231.778 140.542,232.215 142.083,232.639 143.625,233.049 145.167,233.444 146.708,233.826 148.250,234.194 149.792,234.549 151.333,234.889 152.875,235.215 154.417,235.528 155.958,235.826 157.500,236.111 159.042,236.382 160.583,236.639 162.125,236.882 163.667,237.111 165.208,237.326 166.750,237.528 168.292,237.715 169.833,237.889 171.375,238.049 172.917,238.194 174.458,238.326 176.000,238.444 177.542,238.549 179.083,238.639 180.625,238.715 182.167,238.778 183.708,238.826 185.250,238.861 186.792,238.882 188.333,238.889 189.875,238.882 191.417,238.861 192.958,238.826 194.500,238.778 196.042,238.715 197.583,238.639 199.125,238.549 200.667,238.444 202.208,238.326 203.750,238.194 205.292,238.049 206.833,237.889 208.375,237.715 209.917,237.528 211.458,237.326 213.000,237.111 214.542,236.882 216.083,236.639 217.625,236.382 219.167,236.111 220.708,235.826 222.250,235.528 223.792,235.215 225.333,234.889 226.875,234.549 228.417,234.194 229.958,233.826 231.500,233.444 233.042,233.049 234.583,232.639 236.125,232.215 237.667,231.778 239.208,231.326 240.750,230.861 242.292,230.382 243.833,229.889 245.375,229.382 246.917,228.861 248.458,228.326 250.000,227.778 251.542,227.215 253.083,226.639 254.625,226.049 256.167,225.444 257.708,224.826 259.250,224.194 260.792,223.549 262.333,222.889 263.875,222.215 265.417,221.528 266.958,220.826 268.500,220.111 270.042,219.382 271.583,218.639 273.125,217.882 274.667,217.111 276.208,216.326 277.750,215.528 279.292,214.715 280.833,213.889 282.375,213.049 283.917,212.194 285.458,211.326 287.000,210.444 288.542,209.549 290.083,208.639 291.625,207.715 293.167,206.778 294.708,205.826 296.250,204.861 297.792,203.882 299.333,202.889 300.875,201.882 302.417,200.861 303.958,199.826 305.500,198.778 307.042,197.715 308.583,196.639 310.125,195.549 311.667,194.444 313.208,193.326 314.750,192.194 316.292,191.049 317.833,189.889 319.375,188.715 320.917,187.528 322.458,186.326 324.000,185.111 325.542,183.882 327.083,182.639 328.625,181.382 330.167,180.111 331.708,178.826 333.250,177.528 334.792,176.215 336.333,174.889 337.875,173.549 339.417,172.194 340.958,170.826 342.500,169.444 344.042,168.049 345.583,166.639 347.125,165.215 348.667,163.778 350.208,162.326 351.750,160.861 353.292,159.382 354.833,157.889 356.375,156.382 357.917,154.861 359.458,153.326 361.000,151.778 362.542,150.215 364.083,148.639 365.625,147.049 367.167,145.444 368.708,143.826 370.250,142.194 371.792,140.549 373.333,138.889 374.875,137.215 376.417,135.528 377.958,133.826 379.500,132.111 381.042,130.382 382.583,128.639 384.125,126.882 385.667,125.111 387.208,123.326 388.750,121.528 390.292,119.715 391.833,117.889 393.375,116.049 394.917,114.194 396.458,112.326 398.000,110.444 399.542,108.549 401.083,106.639 402.625,104.715 404.167,102.778 405.708,100.826 407.250,98.861 408.792,96.882 410.333,94.889 411.875,92.882 413.417,90.861 414.958,88.826 416.500,86.778 418.042,84.715 419.583,82.639 421.125,80.549 422.667,78.444 424.208,76.326 425.750,74.194 427.292,72.049 428.833,69.889 430.375,67.715 431.917,65.528 433.458,63.326 435.000,61.111\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"95.833,250.000 435.000,127.778\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"333\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Blå: f. Orange: g.</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vid en skärning har funktionerna samma värde.</p><div class=\"facit-matte\">\\[x^2-4x+5=2x-1\\]</div><div class=\"facit-matte\">\\[x^2-6x+6=0\\]</div></li><li><p>Kvadratkomplettering ger (x−3)² = 3 och därmed x = 3±√3.</p></li><li><p>Beräkna y med det enklare uttrycket g(x) = 2x−1. Den mindre roten ger 5−2√3 och den större ger 5+2√3.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\((3-\\sqrt3,\\,5-2\\sqrt3)\\) och \\((3+\\sqrt3,\\,5+2\\sqrt3)\\).</strong></p></div>",
+  "familj": "Tolka och jämföra funktioner",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "3-sqrt(3)",
+    "5-2*sqrt(3)",
+    "3+sqrt(3)",
+    "5+2*sqrt(3)"
+  ],
+  "tolerans": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "ledtrad": "<p>Sätt funktionerna lika; räkna sedan ut rätt y-värde för varje rot.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "familjTidigare": [
+    "Beräkna och tolka funktionsvärden"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Mindre x: x",
+    "Mindre x: y",
+    "Större x: x",
+    "Större x: y"
+  ]
+},
   {
     "id": "1.184",
     "kap": 1,
@@ -9230,36 +9252,51 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.233",
-    "kap": 1,
-    "omr": "funktioner",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "t": "<p>Bestäm konstanterna \\(a\\) och \\(b\\) så att funktionen \\(f(x)=ax^2+b\\) uppfyller \\(f(1)=5\\) och \\(f(3)=17\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Villkoren ger ekvationssystemet \\(a+b=5\\) och \\(9a+b=17\\).</p></li><li><p>Subtraktion ger \\(8a=12\\), alltså \\(a=\\frac{3}{2}\\).</p></li><li><div class=\"facit-berakning\"><p>Då blir</p><div class=\"facit-matte\">\\[b=5-\\frac{3}{2}=\\frac{7}{2}\\].</div></div></li></ol></div>",
-    "familj": "Funktionsvärden",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "text",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "procedur",
-      "begrepp"
-    ],
-    "ledtrad": "<p>Sätt in det aktuella x-värdet i hela funktionsuttrycket och följ räkneordningen. Om x är negativt är parenteser särskilt viktiga när potenser förekommer.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "familjTidigare": [
-      "Beräkna och tolka funktionsvärden"
-    ]
-  },
+  "id": "1.233",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Bestäm a och b så att \\(f(x)=ax^2+b\\) uppfyller f(1) = 5 och f(3) = 17.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in de två x-värdena.</p><div class=\"facit-matte\">\\[a+b=5,\\qquad9a+b=17\\]</div></li><li><p>Subtrahera den första ekvationen från den andra: 8a = 12, så a = 3/2.</p></li><li><p>Sätt tillbaka a i a+b = 5: b = 5−3/2 = 7/2.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a = 3/2 och b = 7/2.</strong></p></div>",
+  "familj": "Tolka och jämföra funktioner",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "3/2",
+    "7/2"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "ledtrad": "<p>De två funktionsvärdena ger två ekvationer.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "familjTidigare": [
+    "Beräkna och tolka funktionsvärden"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ]
+},
   {
     "id": "1.234",
     "kap": 1,
@@ -10996,37 +11033,51 @@ window.BANKMATO1 = [
   ]
 },
   {
-    "id": "1.274",
-    "kap": 1,
-    "omr": "funktioner",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>En modell \\(f_a(x)=x^2+ax+4\\) beror på parametern \\(a\\). Undersök för vilka värden på \\(a\\) grafen har exakt ett nollställe.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För den här funktionen leder diskriminantvillkoret till</p><div class=\"facit-matte\">\\[a^2-16=0.\\]</div><div class=\"facit-matte\">\\[a^2=16\\Rightarrow a=\\pm4.\\]</div></li><li><p>Båda värdena ger alltså en parabel som tangerar x-axeln i stället för att skära den i två punkter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\) eller \\(a=-4\\).</p></div></div>",
-    "familj": "Tolka och jämföra funktioner",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "resonemang",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": false,
-    "formaga": [
-      "begrepp",
-      "modellering",
-      "resonemang"
-    ],
-    "ledtrad": "<p>Bestäm först om du söker lutning, startvärde, ett funktionsvärde eller ett x-värde. Sätt sedan in rätt storhet på rätt plats.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "spel": false,
-    "familjTidigare": [
-      "Tolka och jämföra funktionsgrafer"
-    ]
-  },
+  "id": "1.274",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "t": "<p>Funktionen \\(f_a(x)=x^2+ax+4\\) beror på parametern a. Bestäm alla värden på a som gör att grafen har exakt ett nollställe.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kvadratkomplettera.</p><div class=\"facit-matte\">\\[f_a(x)=(x+a/2)^2+4-a^2/4\\]</div></li><li><p>Parabeln har exakt ett nollställe när dess minimivärde är noll.</p><div class=\"facit-matte\">\\[4-a^2/4=0\\Rightarrow a^2=16\\]</div></li><li><p>Båda parametrarna fungerar: a = −4 ger (x−2)² och a = 4 ger (x+2)².</p></li></ol><p class=\"facit-svar\"><strong>Svar: a = −4 eller a = 4.</strong></p></div>",
+  "familj": "Tolka och jämföra funktioner",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -4,
+    4
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "ledtrad": "<p>Hur måste parabelns minimivärde ligga för att den bara ska nudda x-axeln?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "spel": true,
+  "familjTidigare": [
+    "Tolka och jämföra funktionsgrafer"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "Ett värde på a",
+    "Det andra värdet"
+  ]
+},
   {
     "id": "1.275",
     "kap": 1,
@@ -12569,37 +12620,37 @@ window.BANKMATO1 = [
     ]
   },
   {
-    "id": "1.430",
-    "kap": 1,
-    "omr": "funktioner",
-    "kurs": [
-      "1b",
-      "1c"
-    ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "t": "<p>I en sjö planteras fiskar in. Fiskpopulationen beskrivs av</p><p>\\[N(t)=\\frac{15000}{3+2e^{-0{,}5t}},\\]</p><p>där \\(N\\) är antalet fiskar och \\(t\\) tiden i år efter inplanteringen.</p><p>Hur många fiskar planterades in från början?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Sätt</p><div class=\"facit-matte\">\\[t=0\\]:</div></div><p>\\[N(0)=\\frac{15000}{3+2e^0}=\\frac{15000}{5}=3000.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar: 3000 fiskar.</strong></p></div>",
-    "familj": "Funktionsvärden",
-    "geogebra": false,
-    "miniräknare": true,
-    "svarstyp": "numeriskt",
-    "rättSvar": 3000,
-    "tolerans": 0,
-    "självrättning": true,
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "ledtrad": "<p>”Från början” betyder \\(t=0\\).</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "spel": true,
-    "kalla": "NP Ma3c vt 2013, uppgift 10a",
-    "familjTidigare": [
-      "Tolka parameter och startvärde i modell"
-    ]
-  },
+  "id": "1.430",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "1/0/0",
+  "t": "<p>I en sjö planteras fiskar in. Fiskpopulationen beskrivs av</p><p>\\[N(t)=\\frac{15000}{3+2e^{-0{,}5t}},\\]</p><p>där \\(N\\) är antalet fiskar och \\(t\\) tiden i år efter inplanteringen.</p><p>Hur många fiskar planterades in från början?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från början betyder t = 0. Då är exponentialfaktorn e⁰ = 1.</p></li><li><p>Sätt in detta i modellen.</p><div class=\"facit-matte\">\\[N(0)=\\frac{15000}{3+2}\\]</div><div class=\"facit-matte\">\\[=\\frac{15000}{5}=3000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 3000 fiskar.</strong></p></div>",
+  "familj": "Funktionsvärden",
+  "geogebra": false,
+  "miniräknare": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3000,
+  "tolerans": 0,
+  "självrättning": true,
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "ledtrad": "<p>”Från början” betyder \\(t=0\\).</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "kalla": "NP Ma3c vt 2013, uppgift 10a",
+  "familjTidigare": [
+    "Tolka parameter och startvärde i modell"
+  ]
+},
   {
   "id": "1.431",
   "kap": 1,
@@ -113922,6 +113973,652 @@ window.BANKMATO1 = [
       "ratt": false
     }
   ]
+},
+  {
+  "id": "1.949",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen f är bara definierad för de fem x-värdena i tabellen. Bestäm alla x som uppfyller \\(f(f(x))=0\\).</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">x</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">f(x)</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">−2</td><td style=\"padding:8px;border:1px solid #8796a5\">−1</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">−1</td><td style=\"padding:8px;border:1px solid #8796a5\">0</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">0</td><td style=\"padding:8px;border:1px solid #8796a5\">2</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">1</td><td style=\"padding:8px;border:1px solid #8796a5\">0</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">2</td><td style=\"padding:8px;border:1px solid #8796a5\">1</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Yttre f blir noll när dess indata är −1 eller 1. Alltså söker vi de x där f(x) är −1 eller 1.</p></li><li><p>Tabellen ger f(−2) = −1 och f(2) = 1. Därför fungerar x = −2 och x = 2.</p></li><li><p>Kontroll: f(f(−2)) = f(−1) = 0 och f(f(2)) = f(1) = 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar: x = −2 eller x = 2.</strong></p></div>",
+  "ledtrad": "<p>Använd tabellen två gånger, med det första svaret som ny indata.</p>",
+  "rättSvar": [
+    -2,
+    2
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "Ett x-värde",
+    "Det andra x-värdet"
+  ]
+},
+  {
+  "id": "1.950",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen \\(f(x)=x^2-2x\\) är definierad för 0 ≤ x ≤ 4. En ny funktion är g(t) = f(t+1). Bestäm definitionsmängdens och värdemängdens undre och övre gränser för g. Alla ändpunkter ingår.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Parabeln f(x)=x²−2x på det slutna intervallet 0 till 4.\"><title>Parabeln f(x)=x²−2x på det slutna intervallet 0 till 4.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 213.63636363636363H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"219.63636363636363\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 177.27272727272725H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"183.27272727272725\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 140.9090909090909H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"146.9090909090909\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 104.54545454545453H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"110.54545454545453\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M65 68.18181818181819H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"74.18181818181819\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><path d=\"M65.0 45V250 M65 213.63636363636363H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,213.636 66.850,214.356 68.700,215.062 70.550,215.753 72.400,216.429 74.250,217.091 76.100,217.738 77.950,218.371 79.800,218.989 81.650,219.593 83.500,220.182 85.350,220.756 87.200,221.316 89.050,221.862 90.900,222.393 92.750,222.909 94.600,223.411 96.450,223.898 98.300,224.371 100.150,224.829 102.000,225.273 103.850,225.702 105.700,226.116 107.550,226.516 109.400,226.902 111.250,227.273 113.100,227.629 114.950,227.971 116.800,228.298 118.650,228.611 120.500,228.909 122.350,229.193 124.200,229.462 126.050,229.716 127.900,229.956 129.750,230.182 131.600,230.393 133.450,230.589 135.300,230.771 137.150,230.938 139.000,231.091 140.850,231.229 142.700,231.353 144.550,231.462 146.400,231.556 148.250,231.636 150.100,231.702 151.950,231.753 153.800,231.789 155.650,231.811 157.500,231.818 159.350,231.811 161.200,231.789 163.050,231.753 164.900,231.702 166.750,231.636 168.600,231.556 170.450,231.462 172.300,231.353 174.150,231.229 176.000,231.091 177.850,230.938 179.700,230.771 181.550,230.589 183.400,230.393 185.250,230.182 187.100,229.956 188.950,229.716 190.800,229.462 192.650,229.193 194.500,228.909 196.350,228.611 198.200,228.298 200.050,227.971 201.900,227.629 203.750,227.273 205.600,226.902 207.450,226.516 209.300,226.116 211.150,225.702 213.000,225.273 214.850,224.829 216.700,224.371 218.550,223.898 220.400,223.411 222.250,222.909 224.100,222.393 225.950,221.862 227.800,221.316 229.650,220.756 231.500,220.182 233.350,219.593 235.200,218.989 237.050,218.371 238.900,217.738 240.750,217.091 242.600,216.429 244.450,215.753 246.300,215.062 248.150,214.356 250.000,213.636 251.850,212.902 253.700,212.153 255.550,211.389 257.400,210.611 259.250,209.818 261.100,209.011 262.950,208.189 264.800,207.353 266.650,206.502 268.500,205.636 270.350,204.756 272.200,203.862 274.050,202.953 275.900,202.029 277.750,201.091 279.600,200.138 281.450,199.171 283.300,198.189 285.150,197.193 287.000,196.182 288.850,195.156 290.700,194.116 292.550,193.062 294.400,191.993 296.250,190.909 298.100,189.811 299.950,188.698 301.800,187.571 303.650,186.429 305.500,185.273 307.350,184.102 309.200,182.916 311.050,181.716 312.900,180.502 314.750,179.273 316.600,178.029 318.450,176.771 320.300,175.498 322.150,174.211 324.000,172.909 325.850,171.593 327.700,170.262 329.550,168.916 331.400,167.556 333.250,166.182 335.100,164.793 336.950,163.389 338.800,161.971 340.650,160.538 342.500,159.091 344.350,157.629 346.200,156.153 348.050,154.662 349.900,153.156 351.750,151.636 353.600,150.102 355.450,148.553 357.300,146.989 359.150,145.411 361.000,143.818 362.850,142.211 364.700,140.589 366.550,138.953 368.400,137.302 370.250,135.636 372.100,133.956 373.950,132.262 375.800,130.553 377.650,128.829 379.500,127.091 381.350,125.338 383.200,123.571 385.050,121.789 386.900,119.993 388.750,118.182 390.600,116.356 392.450,114.516 394.300,112.662 396.150,110.793 398.000,108.909 399.850,107.011 401.700,105.098 403.550,103.171 405.400,101.229 407.250,99.273 409.100,97.302 410.950,95.316 412.800,93.316 414.650,91.302 416.500,89.273 418.350,87.229 420.200,85.171 422.050,83.098 423.900,81.011 425.750,78.909 427.600,76.793 429.450,74.662 431.300,72.516 433.150,70.356 435.000,68.182\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"213.63636363636363\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"435.0\" cy=\"68.18181818181819\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Indata till f måste ligga mellan 0 och 4. Därför behövs 0 ≤ t+1 ≤ 4, vilket ger −1 ≤ t ≤ 3.</p></li><li><p>På f:s intervall är minsta värdet f(1) = −1. Ändpunkternas värden är f(0) = 0 och f(4) = 8, så största värdet är 8.</p></li><li><p>g använder samma värden på f, men vid förskjutna t-värden. Värdemängden är alltså fortfarande från −1 till 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Definitionsmängd: −1 ≤ t ≤ 3. Värdemängd: −1 ≤ g(t) ≤ 8.</strong></p></div>",
+  "ledtrad": "<p>En ändring av indata flyttar definitionsmängden. Måste utdata också ändras?</p>",
+  "rättSvar": [
+    -1,
+    3,
+    -1,
+    8
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck",
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null,
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Minsta t",
+    "Största t",
+    "Minsta g(t)",
+    "Största g(t)"
+  ]
+},
+  {
+  "id": "1.951",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två funktioner ges av</p><div class=\"facit-matte\">\\[f(x)=\\frac{x-1}{x^2-1},\\qquad g(x)=\\frac1{x+1}.\\]</div><p>Varje funktion har sin största möjliga reella definitionsmängd. Vilket påstående är korrekt?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>f:s nämnare är (x−1)(x+1), så både x = 1 och x = −1 är uteslutna. För g är bara x = −1 uteslutet.</p></li><li><p>Där f är definierad kan faktorn x−1 förkortas bort, och värdet blir samma som för g. Men g(1) = 1/2 finns medan f(1) saknas.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Värdena är lika där båda är definierade, men definitionsmängderna skiljer sig.</strong></p></div>",
+  "ledtrad": "<p>En förkortning får inte göra ett otillåtet värde tillåtet i originalfunktionen.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "Värdena är lika där båda är definierade, men definitionsmängderna skiljer sig.",
+      "ratt": true
+    },
+    {
+      "txt": "Funktionerna är helt identiska, även vid x = 1.",
+      "ratt": false
+    },
+    {
+      "txt": "f(1) = 0 och g(1) = 1/2.",
+      "ratt": false
+    },
+    {
+      "txt": "Funktionerna har samma definitionsmängd men olika värden.",
+      "ratt": false
+    }
+  ]
+},
+  {
+  "id": "1.952",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Låt f(x) = 2x−3 och g(x) = 5−x. Hur många reella lösningar har ekvationen \\(f(g(x))=g(f(x))\\)?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in g i f och f i g.</p><div class=\"facit-matte\">\\[\\begin{aligned}f(g(x))&=2(5-x)-3\\\\&=7-2x\\end{aligned}\\]</div><div class=\"facit-matte\">\\[\\begin{aligned}g(f(x))&=5-(2x-3)\\\\&=8-2x\\end{aligned}\\]</div></li><li><p>Uttrycken skiljer sig alltid med 1. Ekvationen skulle ge 7 = 8, vilket är omöjligt.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 0 lösningar.</strong></p></div>",
+  "ledtrad": "<p>Att använda samma två funktioner betyder inte att ordningen är oviktig.</p>",
+  "rättSvar": 0,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "1.953",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen f är kontinuerlig och har värdemängden −2 ≤ f(x) ≤ 5. Funktionen g ges av g(x) = 3−2f(x). Bestäm det minsta och största värdet på g.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplikation med −2 vänder storleksordningen. Det största f-värdet ger därför det minsta g-värdet.</p></li><li><p>Minsta g-värdet är 3−2·5 = −7. Största g-värdet är 3−2·(−2) = 7.</p></li><li><p>Båda gränserna nås eftersom −2 och 5 ingår i f:s värdemängd.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Minsta värde −7, största värde 7.</strong></p></div>",
+  "ledtrad": "<p>Vad händer med storleksordningen när du multiplicerar med ett negativt tal?</p>",
+  "rättSvar": [
+    -7,
+    7
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Minsta g-värde",
+    "Största g-värde"
+  ]
+},
+  {
+  "id": "1.954",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En tabell passar exakt med formeln f(x) = x²+1. Räcker tabellen för att veta att formeln gäller för alla reella x? Välj rätt svar med motivering.</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">x</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">f(x)</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">0</td><td style=\"padding:8px;border:1px solid #8796a5\">1</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">1</td><td style=\"padding:8px;border:1px solid #8796a5\">2</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">2</td><td style=\"padding:8px;border:1px solid #8796a5\">5</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">3</td><td style=\"padding:8px;border:1px solid #8796a5\">10</td></tr></tbody></table>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tabellen kontrollerar bara fyra indata. Utanför dem kan en annan funktion ge andra värden.</p></li><li><p>Till exempel har funktionen g(x) = x²+1+x(x−1)(x−2)(x−3) samma tabellvärden: den extra produkten blir noll vid 0, 1, 2 och 3. Vid x = 4 blir den däremot 24.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Nej, andra funktioner kan ge samma tabellvärden men skilja sig utanför tabellen.</strong></p></div>",
+  "ledtrad": "<p>Kan ett extra uttryck vara noll vid alla tabellens x-värden men inte överallt?</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "Ja, eftersom fyra punkter alltid bestämmer en funktion.",
+      "ratt": false
+    },
+    {
+      "txt": "Nej, andra funktioner kan ge samma tabellvärden men skilja sig utanför tabellen.",
+      "ratt": true
+    },
+    {
+      "txt": "Ja, eftersom talen ökar hela tiden.",
+      "ratt": false
+    },
+    {
+      "txt": "Nej, eftersom x²+1 inte stämmer vid x = 3.",
+      "ratt": false
+    }
+  ]
+},
+  {
+  "id": "1.955",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Portot P för ett paket med vikten m kg ges av</p><div class=\"facit-matte\">\\[P(m)=\\begin{cases}20+10m,&0\\lt m\\le2\\\\50+6(m-2),&2\\lt m\\le8.\\end{cases}\\]</div><p>Kan ett paket enligt modellen kosta exakt 45 kr i porto? Välj rätt svar med motivering.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Portokostnad med hopp efter två kilogram. Den första delen slutar med fylld punkt; nästa börjar med öppen punkt.\"><title>Portokostnad med hopp efter två kilogram. Den första delen slutar med fylld punkt; nästa börjar med öppen punkt.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 205.55555555555554H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"211.55555555555554\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">20</text><path d=\"M65 161.11111111111111H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"167.11111111111111\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">40</text><path d=\"M65 138.88888888888889H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"144.88888888888889\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">50</text><path d=\"M65 94.44444444444446H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"100.44444444444446\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">70</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">90</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Vikt (kg)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Porto (kr)</text><polyline points=\"65.000,205.556 157.500,161.111\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"157.500,138.889 435.000,58.889\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"205.55555555555554\" r=\"6\" fill=\"#fff\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"157.5\" cy=\"161.11111111111111\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"157.5\" cy=\"138.88888888888889\" r=\"6\" fill=\"#fff\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"435.0\" cy=\"58.888888888888886\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Första delen ger vikten (45−20)/10 = 2,5 kg, men den formeln gäller bara till och med 2 kg.</p></li><li><p>Den andra delen har alltid ett pris över 50 kr. Därför finns ingen tillåten vikt som ger 45 kr. Priset ligger i hoppet mellan de två delarna.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Nej, 45 kr ligger mellan de två delarnas möjliga priser.</strong></p></div>",
+  "ledtrad": "<p>En lösning måste ligga i intervallet där den använda formeln gäller.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "Ja, ett paket på 2,5 kg.",
+      "ratt": false
+    },
+    {
+      "txt": "Ja, eftersom 45 ligger mellan 20 och 86.",
+      "ratt": false
+    },
+    {
+      "txt": "Nej, 45 kr ligger mellan de två delarnas möjliga priser.",
+      "ratt": true
+    },
+    {
+      "txt": "Ja, ett paket på 2 kg.",
+      "ratt": false
+    }
+  ]
+},
+  {
+  "id": "1.956",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En rektangel har omkretsen 40 cm. En av sidorna är x cm. För vilka x-värden är arean minst 96 cm²? Ange intervallets undre och övre gräns i cm. Båda gränserna ingår.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 305\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Schematisk rektangel med sidlängderna x och y. Omkretsen är 40 cm.\"><title>Schematisk rektangel med sidlängderna x och y. Omkretsen är 40 cm.</title><rect width=\"500\" height=\"305\" fill=\"white\" rx=\"10\"/><rect x=\"100\" y=\"55\" width=\"300\" height=\"150\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"3\"/><text x=\"250\" y=\"238\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#172e46\">x cm</text><text x=\"70\" y=\"138\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"20\" fill=\"#172e46\">y cm</text><text x=\"250\" y=\"280\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Omkrets: 40 cm. Skiss, inte skalenlig.</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om den andra sidan är y gäller 2x+2y = 40, så y = 20−x. Arean är A(x) = x(20−x).</p></li><li><p>Kravet på arean ger</p><div class=\"facit-matte\">\\[x(20-x)\\ge96\\]</div><div class=\"facit-matte\">\\[x^2-20x+96\\le0\\]</div></li><li><p>Vänsterledet är (x−8)(x−12). Produkten är noll eller negativ mellan rötterna. Alla dessa sidlängder är positiva och mindre än 20.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 8 ≤ x ≤ 12 cm.</strong></p></div>",
+  "ledtrad": "<p>Uttryck först den andra sidan med hjälp av omkretsen.</p>",
+  "rättSvar": [
+    8,
+    12
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Undre gräns (cm)",
+    "Övre gräns (cm)"
+  ]
+},
+  {
+  "id": "1.957",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=x^3+ax^2+bx+4\\). För alla reella x gäller f(x)+f(−x) = 8. Dessutom är f(1) = 7. Bestäm a och b.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in −x och addera. De udda potenserna tar ut varandra.</p><div class=\"facit-matte\">\\[f(x)+f(-x)=2ax^2+8\\]</div></li><li><p>För att summan alltid ska vara 8 måste a = 0.</p></li><li><p>Villkoret f(1) = 7 ger sedan 1+b+4 = 7, alltså b = 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar: a = 0 och b = 2.</strong></p></div>",
+  "ledtrad": "<p>Vilka termer byter tecken när x ersätts av −x?</p>",
+  "rättSvar": [
+    0,
+    2
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ]
+},
+  {
+  "id": "1.958",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>För alla reella x gäller</p><div class=\"facit-matte\">\\[f(2x+1)=x^2-2x+4.\\]</div><p>Bestäm ett uttryck för f(x).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla indata till f för u. Om u = 2x+1 är x = (u−1)/2.</p></li><li><p>Sätt in detta i högerledet.</p><div class=\"facit-matte\">\\[f(u)=\\left(\\frac{u-1}{2}\\right)^2-(u-1)+4\\]</div></li><li><p>Utveckla och samla termer.</p><div class=\"facit-matte\">\\[f(u)=\\frac{u^2}4-\\frac{3u}2+\\frac{21}4\\]</div></li><li><p>Variabeln kan sedan kallas x igen.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(f(x)=x^2/4-3x/2+21/4\\).</strong></p></div>",
+  "ledtrad": "<p>Skilj variabeln i högerledet från det som matas in i f.</p>",
+  "rättSvar": "x^2/4-3*x/2+21/4",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "1.959",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen f är linjär. För alla reella x gäller \\(f(f(x))=4x+3\\). Dessutom är f(0) &lt; 0. Bestäm f(x).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skriv f(x) = ax+b. Då blir sammansättningen</p><div class=\"facit-matte\">\\[f(f(x))=a^2x+ab+b\\]</div></li><li><p>Jämför med 4x+3: a² = 4 och b(a+1) = 3.</p></li><li><p>Om a = 2 blir b = 1, vilket strider mot f(0) < 0. Om a = −2 blir b = −3, vilket uppfyller villkoret.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(f(x)=-2x-3\\).</strong></p></div>",
+  "ledtrad": "<p>Skriv först den linjära funktionen med två okända koefficienter.</p>",
+  "rättSvar": "-2*x-3",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "1.960",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Grafen består av räta sträckor mellan de markerade punkterna. Funktionen är bara definierad för −2 ≤ x ≤ 4.</p><p>Vilket är det största värdet på k som gör att ekvationen f(x) = k har exakt tre olika lösningar?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Styckvis linjär funktion genom de fyllda punkterna (−2,1), (0,3), (2,−1), (4,1).\"><title>Styckvis linjär funktion genom de fyllda punkterna (−2,1), (0,3), (2,−1), (4,1).</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−2</text><path d=\"M126.66666666666666 50V250\" stroke=\"#d6e1ea\"/><text x=\"126.66666666666666\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M188.33333333333331 50V250\" stroke=\"#d6e1ea\"/><text x=\"188.33333333333331\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M373.3333333333333 50V250\" stroke=\"#d6e1ea\"/><text x=\"373.3333333333333\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 216.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"222.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M65 183.33333333333331H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"189.33333333333331\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 116.66666666666666H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"122.66666666666666\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 83.33333333333334H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"89.33333333333334\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M188.33333333333331 45V250 M65 183.33333333333331H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,150.000 188.333,83.333 311.667,216.667 435.000,150.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"65.0\" cy=\"150.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"188.33333333333331\" cy=\"83.33333333333334\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"311.66666666666663\" cy=\"216.66666666666666\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><circle cx=\"435.0\" cy=\"150.0\" r=\"6\" fill=\"#096c9a\" stroke=\"#096c9a\" stroke-width=\"2.5\"/></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Linjen y = 1 träffar grafen vid x = −2, x = 1 och x = 4. Det är tre olika lösningar.</p></li><li><p>För k > 1 når linjen inte den högra grenen. Den kan då skära de två andra sträckorna högst två gånger.</p></li><li><p>Därför är 1 det största möjliga värdet. Ändpunkterna räknas eftersom de ingår i definitionsmängden.</p></li></ol><p class=\"facit-svar\"><strong>Svar: k = 1.</strong></p></div>",
+  "ledtrad": "<p>Tänk dig en vågrät linje som flyttas uppåt. Ändpunkterna ingår.</p>",
+  "rättSvar": 1,
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
+},
+  {
+  "id": "1.961",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Vilken är den största reella definitionsmängden för funktionen?</p><div class=\"facit-matte\">\\[f(x)=\\frac{x+1}{\\sqrt{9-(x-1)^2}}\\]</div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Uttrycket under roten måste vara positivt. Noll går inte eftersom roten står i nämnaren.</p><div class=\"facit-matte\">\\[9-(x-1)^2\\gt0\\]</div></li><li><p>Det betyder |x−1| < 3, alltså −3 < x−1 < 3. Lägg till 1 i alla led: −2 < x < 4.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(-2\\lt x\\lt4\\).</strong></p></div>",
+  "ledtrad": "<p>Nämnarens rot måste både vara reell och skild från noll.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "\\(-2\\le x\\le4\\)",
+      "ratt": false
+    },
+    {
+      "txt": "\\(x\\ne-2\\text{ och }x\\ne4\\)",
+      "ratt": false
+    },
+    {
+      "txt": "\\(-3\\lt x\\lt3\\)",
+      "ratt": false
+    },
+    {
+      "txt": "\\(-2\\lt x\\lt4\\)",
+      "ratt": true
+    }
+  ]
+},
+  {
+  "id": "1.962",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionen är \\(f(x)=|x-2|+|x+2|\\). Vilket påstående om funktionens minsta värde är korrekt?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om −2 ≤ x ≤ 2 blir uttrycket (2−x)+(x+2) = 4.</p></li><li><p>Om x > 2 blir summan 2x > 4. Om x < −2 blir den −2x > 4. Funktionen har alltså samma minsta värde på hela intervallet mellan −2 och 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar: Minsta värdet är 4 och nås för alla x i intervallet [−2, 2].</strong></p></div>",
+  "ledtrad": "<p>Undersök uttrycket mellan brytpunkterna och utanför dem.</p>",
+  "rättSvar": null,
+  "svarstyp": "alternativ",
+  "svarFormat": "text",
+  "tolerans": 1e-09,
+  "alternativ": [
+    {
+      "txt": "Minsta värdet är 4 och nås för alla x mellan −2 och 2, inklusive ändpunkterna.",
+      "ratt": true
+    },
+    {
+      "txt": "Minsta värdet är 0 och nås vid x = 0.",
+      "ratt": false
+    },
+    {
+      "txt": "Minsta värdet är 4 men nås bara vid x = 0.",
+      "ratt": false
+    },
+    {
+      "txt": "Minsta värdet är 2 och nås vid x = −2 och x = 2.",
+      "ratt": false
+    }
+  ]
+},
+  {
+  "id": "1.963",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Linjen y = kx+1 ska ha exakt en gemensam punkt med parabeln y = x²+4x+5. Bestäm alla möjliga värden på k.</p><p>Figuren visar parabeln och P = (0, 1), som alla linjerna går genom.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Parabeln y=x²+4x+5 och punkten (0,1). Tangenterna är inte utritade.\"><title>Parabeln y=x²+4x+5 och punkten (0,1). Tangenterna är inte utritade.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M114.33333333333334 50V250\" stroke=\"#d6e1ea\"/><text x=\"114.33333333333334\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−4</text><path d=\"M213.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"213.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−2</text><path d=\"M311.66666666666663 50V250\" stroke=\"#d6e1ea\"/><text x=\"311.66666666666663\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M410.3333333333333 50V250\" stroke=\"#d6e1ea\"/><text x=\"410.3333333333333\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 204.54545454545456H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"210.54545454545456\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">5</text><path d=\"M65 159.0909090909091H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"165.0909090909091\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">10</text><path d=\"M65 113.63636363636363H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"119.63636363636363\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">15</text><path d=\"M65 68.18181818181819H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"74.18181818181819\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">20</text><path d=\"M311.66666666666663 45V250 M65 250.0H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,159.091 66.233,160.449 67.467,161.795 68.700,163.131 69.933,164.455 71.167,165.767 72.400,167.068 73.633,168.358 74.867,169.636 76.100,170.903 77.333,172.159 78.567,173.403 79.800,174.636 81.033,175.858 82.267,177.068 83.500,178.267 84.733,179.455 85.967,180.631 87.200,181.795 88.433,182.949 89.667,184.091 90.900,185.222 92.133,186.341 93.367,187.449 94.600,188.545 95.833,189.631 97.067,190.705 98.300,191.767 99.533,192.818 100.767,193.858 102.000,194.886 103.233,195.903 104.467,196.909 105.700,197.903 106.933,198.886 108.167,199.858 109.400,200.818 110.633,201.767 111.867,202.705 113.100,203.631 114.333,204.545 115.567,205.449 116.800,206.341 118.033,207.222 119.267,208.091 120.500,208.949 121.733,209.795 122.967,210.631 124.200,211.455 125.433,212.267 126.667,213.068 127.900,213.858 129.133,214.636 130.367,215.403 131.600,216.159 132.833,216.903 134.067,217.636 135.300,218.358 136.533,219.068 137.767,219.767 139.000,220.455 140.233,221.131 141.467,221.795 142.700,222.449 143.933,223.091 145.167,223.722 146.400,224.341 147.633,224.949 148.867,225.545 150.100,226.131 151.333,226.705 152.567,227.267 153.800,227.818 155.033,228.358 156.267,228.886 157.500,229.403 158.733,229.909 159.967,230.403 161.200,230.886 162.433,231.358 163.667,231.818 164.900,232.267 166.133,232.705 167.367,233.131 168.600,233.545 169.833,233.949 171.067,234.341 172.300,234.722 173.533,235.091 174.767,235.449 176.000,235.795 177.233,236.131 178.467,236.455 179.700,236.767 180.933,237.068 182.167,237.358 183.400,237.636 184.633,237.903 185.867,238.159 187.100,238.403 188.333,238.636 189.567,238.858 190.800,239.068 192.033,239.267 193.267,239.455 194.500,239.631 195.733,239.795 196.967,239.949 198.200,240.091 199.433,240.222 200.667,240.341 201.900,240.449 203.133,240.545 204.367,240.631 205.600,240.705 206.833,240.767 208.067,240.818 209.300,240.858 210.533,240.886 211.767,240.903 213.000,240.909 214.233,240.903 215.467,240.886 216.700,240.858 217.933,240.818 219.167,240.767 220.400,240.705 221.633,240.631 222.867,240.545 224.100,240.449 225.333,240.341 226.567,240.222 227.800,240.091 229.033,239.949 230.267,239.795 231.500,239.631 232.733,239.455 233.967,239.267 235.200,239.068 236.433,238.858 237.667,238.636 238.900,238.403 240.133,238.159 241.367,237.903 242.600,237.636 243.833,237.358 245.067,237.068 246.300,236.767 247.533,236.455 248.767,236.131 250.000,235.795 251.233,235.449 252.467,235.091 253.700,234.722 254.933,234.341 256.167,233.949 257.400,233.545 258.633,233.131 259.867,232.705 261.100,232.267 262.333,231.818 263.567,231.358 264.800,230.886 266.033,230.403 267.267,229.909 268.500,229.403 269.733,228.886 270.967,228.358 272.200,227.818 273.433,227.267 274.667,226.705 275.900,226.131 277.133,225.545 278.367,224.949 279.600,224.341 280.833,223.722 282.067,223.091 283.300,222.449 284.533,221.795 285.767,221.131 287.000,220.455 288.233,219.767 289.467,219.068 290.700,218.358 291.933,217.636 293.167,216.903 294.400,216.159 295.633,215.403 296.867,214.636 298.100,213.858 299.333,213.068 300.567,212.267 301.800,211.455 303.033,210.631 304.267,209.795 305.500,208.949 306.733,208.091 307.967,207.222 309.200,206.341 310.433,205.449 311.667,204.545 312.900,203.631 314.133,202.705 315.367,201.767 316.600,200.818 317.833,199.858 319.067,198.886 320.300,197.903 321.533,196.909 322.767,195.903 324.000,194.886 325.233,193.858 326.467,192.818 327.700,191.767 328.933,190.705 330.167,189.631 331.400,188.545 332.633,187.449 333.867,186.341 335.100,185.222 336.333,184.091 337.567,182.949 338.800,181.795 340.033,180.631 341.267,179.455 342.500,178.267 343.733,177.068 344.967,175.858 346.200,174.636 347.433,173.403 348.667,172.159 349.900,170.903 351.133,169.636 352.367,168.358 353.600,167.068 354.833,165.767 356.067,164.455 357.300,163.131 358.533,161.795 359.767,160.449 361.000,159.091 362.233,157.722 363.467,156.341 364.700,154.949 365.933,153.545 367.167,152.131 368.400,150.705 369.633,149.267 370.867,147.818 372.100,146.358 373.333,144.886 374.567,143.403 375.800,141.909 377.033,140.403 378.267,138.886 379.500,137.358 380.733,135.818 381.967,134.267 383.200,132.705 384.433,131.131 385.667,129.545 386.900,127.949 388.133,126.341 389.367,124.722 390.600,123.091 391.833,121.449 393.067,119.795 394.300,118.131 395.533,116.455 396.767,114.767 398.000,113.068 399.233,111.358 400.467,109.636 401.700,107.903 402.933,106.159 404.167,104.403 405.400,102.636 406.633,100.858 407.867,99.068 409.100,97.267 410.333,95.455 411.567,93.631 412.800,91.795 414.033,89.949 415.267,88.091 416.500,86.222 417.733,84.341 418.967,82.449 420.200,80.545 421.433,78.631 422.667,76.705 423.900,74.767 425.133,72.818 426.367,70.858 427.600,68.886 428.833,66.903 430.067,64.909 431.300,62.903 432.533,60.886 433.767,58.858 435.000,56.818\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><circle cx=\"311.66666666666663\" cy=\"240.9090909090909\" r=\"6\" fill=\"#a15320\" stroke=\"#a15320\" stroke-width=\"2.5\"/><text x=\"330\" y=\"233\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">P</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt funktionsvärdena lika och samla termer.</p><div class=\"facit-matte\">\\[x^2+(4-k)x+4=0\\]</div></li><li><p>Exakt en gemensam punkt kräver en dubbelrot. Diskriminanten ska därför vara noll.</p><div class=\"facit-matte\">\\[(4-k)^2-16=0\\]</div></li><li><p>Därför är 4−k = 4 eller 4−k = −4, vilket ger k = 0 eller k = 8.</p></li></ol><p class=\"facit-svar\"><strong>Svar: k = 0 eller k = 8.</strong></p></div>",
+  "ledtrad": "<p>En gemensam punkt betyder att skärningsekvationen har exakt en reell lösning.</p>",
+  "rättSvar": [
+    0,
+    8
+  ],
+  "svarstyp": "flera_delar",
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ],
+  "tolerans": [
+    null,
+    null
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "Ett k-värde",
+    "Det andra k-värdet"
+  ]
+},
+  {
+  "id": "1.964",
+  "kap": 1,
+  "omr": "funktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "familj": "Tolka och jämföra funktioner",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Funktionerna är \\(f(x)=\\sqrt{x+1}\\) och g(x) = 2−x. Bestäm exakt det x-värde där de har samma funktionsvärde.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 350\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Rotkurvan y=roten ur (x+1) och linjen y=2−x.\"><title>Rotkurvan y=roten ur (x+1) och linjen y=2−x.</title><rect width=\"500\" height=\"350\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M139.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"139.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M213.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"213.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M287.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"287.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M361.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"361.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−2</text><path d=\"M65 210.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"216.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">−1</text><path d=\"M65 170.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"176.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 130.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"136.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 90.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"96.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M139.0 45V250 M65 170.0H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">y</text><polyline points=\"65.000,170.000 66.850,163.675 68.700,161.056 70.550,159.046 72.400,157.351 74.250,155.858 76.100,154.508 77.950,153.267 79.800,152.111 81.650,151.026 83.500,150.000 85.350,149.024 87.200,148.091 89.050,147.196 90.900,146.336 92.750,145.505 94.600,144.702 96.450,143.923 98.300,143.167 100.150,142.432 102.000,141.716 103.850,141.017 105.700,140.335 107.550,139.668 109.400,139.016 111.250,138.377 113.100,137.751 114.950,137.137 116.800,136.534 118.650,135.941 120.500,135.359 122.350,134.786 124.200,134.223 126.050,133.668 127.900,133.122 129.750,132.583 131.600,132.053 133.450,131.529 135.300,131.013 137.150,130.503 139.000,130.000 140.850,129.503 142.700,129.012 144.550,128.527 146.400,128.048 148.250,127.574 150.100,127.105 151.950,126.641 153.800,126.182 155.650,125.728 157.500,125.279 159.350,124.834 161.200,124.393 163.050,123.957 164.900,123.524 166.750,123.096 168.600,122.671 170.450,122.251 172.300,121.834 174.150,121.420 176.000,121.010 177.850,120.604 179.700,120.200 181.550,119.800 183.400,119.404 185.250,119.010 187.100,118.619 188.950,118.231 190.800,117.846 192.650,117.464 194.500,117.085 196.350,116.708 198.200,116.334 200.050,115.963 201.900,115.594 203.750,115.228 205.600,114.864 207.450,114.502 209.300,114.143 211.150,113.786 213.000,113.431 214.850,113.079 216.700,112.729 218.550,112.381 220.400,112.034 222.250,111.690 224.100,111.348 225.950,111.008 227.800,110.670 229.650,110.334 231.500,110.000 233.350,109.668 235.200,109.337 237.050,109.008 238.900,108.681 240.750,108.356 242.600,108.032 244.450,107.710 246.300,107.390 248.150,107.071 250.000,106.754 251.850,106.439 253.700,106.125 255.550,105.813 257.400,105.502 259.250,105.193 261.100,104.885 262.950,104.578 264.800,104.273 266.650,103.970 268.500,103.668 270.350,103.367 272.200,103.067 274.050,102.769 275.900,102.472 277.750,102.177 279.600,101.882 281.450,101.589 283.300,101.298 285.150,101.007 287.000,100.718 288.850,100.430 290.700,100.143 292.550,99.857 294.400,99.573 296.250,99.289 298.100,99.007 299.950,98.726 301.800,98.446 303.650,98.167 305.500,97.889 307.350,97.612 309.200,97.336 311.050,97.062 312.900,96.788 314.750,96.515 316.600,96.244 318.450,95.973 320.300,95.703 322.150,95.435 324.000,95.167 325.850,94.900 327.700,94.634 329.550,94.369 331.400,94.105 333.250,93.842 335.100,93.580 336.950,93.319 338.800,93.058 340.650,92.799 342.500,92.540 344.350,92.283 346.200,92.026 348.050,91.770 349.900,91.514 351.750,91.260 353.600,91.006 355.450,90.754 357.300,90.502 359.150,90.250 361.000,90.000 362.850,89.750 364.700,89.502 366.550,89.253 368.400,89.006 370.250,88.760 372.100,88.514 373.950,88.269 375.800,88.024 377.650,87.781 379.500,87.538 381.350,87.296 383.200,87.054 385.050,86.813 386.900,86.573 388.750,86.334 390.600,86.095 392.450,85.857 394.300,85.620 396.150,85.383 398.000,85.147 399.850,84.912 401.700,84.677 403.550,84.443 405.400,84.210 407.250,83.977 409.100,83.745 410.950,83.513 412.800,83.282 414.650,83.052 416.500,82.822 418.350,82.593 420.200,82.364 422.050,82.136 423.900,81.909 425.750,81.682 427.600,81.456 429.450,81.231 431.300,81.006 433.150,80.781 435.000,80.557\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><polyline points=\"65.000,50.000 435.000,250.000\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"333\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Blå: f. Orange: g.</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Roten är icke-negativ, så även 2−x måste vara icke-negativt. En lösning måste därför uppfylla −1 ≤ x ≤ 2.</p></li><li><p>Kvadrera och lös ekvationen.</p><div class=\"facit-matte\">\\[x+1=(2-x)^2\\]</div><div class=\"facit-matte\">\\[x^2-5x+3=0\\]</div></li><li><p>Rötterna är (5±√13)/2. Den större är över 2 och uppfyller inte originalekvationen. Den mindre ligger i det tillåtna intervallet och fungerar.</p></li></ol><p class=\"facit-svar\"><strong>Svar: \\(x=(5-\\sqrt{13})/2\\).</strong></p></div>",
+  "ledtrad": "<p>Kontrollera tecknet på båda leden innan du kvadrerar.</p>",
+  "rättSvar": "(5-sqrt(13))/2",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "tolerans": null
 }
 
 ];

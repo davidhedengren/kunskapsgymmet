@@ -47865,5 +47865,1548 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "svarFormat": "numeriskt",
     "rättSvar": 8,
     "tolerans": 0
+  },
+  {
+    "id": "3.2053",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "yttervinkel på en triangulär skylt",
+    "t": "<p>En varningsskylt har formen av en triangel. Två av skyltens vinklar är \\(52^\\circ\\) och \\(71^\\circ\\). Sidan \\(AC\\) förlängs förbi \\(C\\). Hur stor är yttervinkeln \\(x\\) vid \\(C\\)? (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangel ABC med vinkeln 52 grader vid A och 71 grader vid B. Sidan AC är förlängd förbi C och yttervinkeln x vid C är markerad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"128.1,232.0 271.0,232.0 227.3,105.1\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"227.3\" y1=\"105.1\" x2=\"271.9\" y2=\"48.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><path d=\"M 158.1 232.0 A 30 30 0 0 0 146.6 208.4\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"168.6\" y=\"217.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">52°</text><path d=\"M 262.5 207.4 A 26 26 0 0 0 245.0 232.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"237.6\" y=\"213.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">71°</text><path d=\"M 243.3 84.6 A 26 26 0 0 1 235.7 129.7\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"267.7\" y=\"116.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"116.4\" y=\"246.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"278.6\" y=\"249.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"228.1\" y=\"95.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Yttervinkelsatsen</p><p>Yttervinkeln är lika stor som summan av de två motstående inre vinklarna.</p><div class=\"facit-matte\">\\[x=52^\\circ+71^\\circ=123^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(123^\\circ\\)</p></div>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilka två inre vinklar ligger mitt emot yttervinkeln?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 123,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2054",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "motstående inre vinkel ur yttervinkel",
+    "t": "<p>Sidan \\(AC\\) är förlängd förbi \\(C\\). Yttervinkeln vid \\(C\\) är \\(140^\\circ\\) och vinkeln vid \\(A\\) är \\(58^\\circ\\). Bestäm vinkeln \\(x\\) vid \\(B\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangel ABC där AC är förlängd förbi C. Yttervinkeln vid C är 140 grader, vinkeln vid A är 58 grader och vinkeln x vid B är okänd.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"142.5,232.0 243.1,232.0 224.6,100.6\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"224.6\" y1=\"100.6\" x2=\"257.5\" y2=\"48.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><path d=\"M 172.5 232.0 A 30 30 0 0 0 158.4 206.6\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"181.9\" y=\"215.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">58°</text><path d=\"M 239.8 208.2 A 24 24 0 0 0 219.1 232.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"213.7\" y=\"211.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><path d=\"M 236.3 81.9 A 22 22 0 0 1 227.7 122.4\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"260.8\" y=\"113.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">140°</text><text x=\"132.2\" y=\"247.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"247.8\" y=\"251.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"226.8\" y=\"90.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Yttervinkelsatsen</p><div class=\"facit-matte\">\\[58^\\circ+x=140^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Lös</p><div class=\"facit-matte\">\\[x=140^\\circ-58^\\circ=82^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(82^\\circ\\)</p></div>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Yttervinkeln är summan av vinklarna vid A och B.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 82,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2055",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "yttervinkel ur två givna vinklar i figur",
+    "t": "<p>Sidan \\(BC\\) är förlängd förbi \\(C\\). Bestäm yttervinkeln \\(x\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangel ABC med vinkeln 44 grader vid A och 47 grader vid B. Sidan BC är förlängd förbi C och yttervinkeln x vid C är markerad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"79.3,232.0 320.7,232.0 206.3,109.3\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"206.3\" y1=\"109.3\" x2=\"149.1\" y2=\"48.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><path d=\"M 111.3 232.0 A 32 32 0 0 0 102.3 209.8\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"122.9\" y=\"219.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">44°</text><path d=\"M 298.9 208.6 A 32 32 0 0 0 288.7 232.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"277.6\" y=\"218.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">47°</text><path d=\"M 190.0 91.8 A 24 24 0 0 0 189.1 126.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"167.3\" y=\"113.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"67.0\" y=\"245.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"333.7\" y=\"244.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"211.6\" y=\"100.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Yttervinkelsatsen</p><div class=\"facit-matte\">\\[x=44^\\circ+47^\\circ=91^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(91^\\circ\\)</p></div>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Yttervinkeln vid C är summan av de inre vinklarna vid A och B.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 91,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2056",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "yttervinkel och intilliggande inre vinkel",
+    "t": "<p>Sidan \\(BA\\) är förlängd förbi \\(A\\). Den inre vinkeln vid \\(A\\) är \\(58^\\circ\\). Hur stor är yttervinkeln \\(x\\) vid \\(A\\)? (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangel ABC där sidan BA är förlängd förbi A. Den inre vinkeln vid A är 58 grader och yttervinkeln x vid A är markerad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"162.0,225.4 352.0,225.4 268.7,54.6\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"162.0\" y1=\"225.4\" x2=\"48.0\" y2=\"225.4\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><path d=\"M 192.0 225.4 A 30 30 0 0 0 177.9 199.9\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"201.4\" y=\"208.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">58°</text><path d=\"M 138.0 225.4 A 24 24 0 0 1 174.7 205.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"143.1\" y=\"196.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"151.0\" y=\"240.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"366.4\" y=\"234.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"275.2\" y=\"46.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Yttervinkel och inre vinkel bildar ett rakt vinkelpar</p><div class=\"facit-matte\">\\[x+58^\\circ=180^\\circ\\ \\Rightarrow\\ x=122^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(122^\\circ\\)</p></div>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Yttervinkeln och den inre vinkeln i samma hörn ligger längs en rät linje.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 122,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2057",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "yttervinkel vid basen i likbent triangel",
+    "t": "<p>Triangeln \\(ABC\\) är likbent med \\(AC=BC\\). Toppvinkeln vid \\(C\\) är \\(28^\\circ\\). Basen \\(AB\\) förlängs förbi \\(B\\). Bestäm yttervinkeln \\(x\\) vid \\(B\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Likbent triangel ABC med AC = BC och toppvinkeln 28 grader vid C. Basen AB är förlängd förbi B och yttervinkeln x vid B är markerad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"133.5,232.0 225.2,232.0 179.4,48.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"225.2\" y1=\"232.0\" x2=\"266.5\" y2=\"232.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><path d=\"M 171.1 81.0 A 34 34 0 0 0 187.6 81.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"179.4\" y=\"102.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">28°</text><path d=\"M 249.2 232.0 A 24 24 0 0 0 219.4 208.7\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"249.2\" y=\"206.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"121.1\" y=\"245.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"232.2\" y=\"250.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"177.0\" y=\"38.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Basvinklarna</p><div class=\"facit-matte\">\\[\\angle A=\\angle B=\\frac{180^\\circ-28^\\circ}{2}=76^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Yttervinkelsatsen</p><div class=\"facit-matte\">\\[x=\\angle A+\\angle C=76^\\circ+28^\\circ=104^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(104^\\circ\\)</p></div>",
+    "familj": "Yttervinkelsatsen med ekvationer och likbenta trianglar",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bestäm basvinkeln vid A. Vilka inre vinklar ligger mitt emot yttervinkeln vid B?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 104,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2058",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "ekvation med yttervinkelsatsen",
+    "t": "<p>Sidan \\(AC\\) är förlängd förbi \\(C\\). Vinklarna är angivna i grader. Bestäm \\(x\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 280\" role=\"img\" aria-label=\"Triangel ABC där AC är förlängd förbi C. Vinkeln vid A är 2x + 12, vinkeln vid B är x + 30 och yttervinkeln vid C är 5x grader.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"112.5,232.0 307.5,232.0 204.7,105.1\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"204.7\" y1=\"105.1\" x2=\"246.2\" y2=\"48.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><path d=\"M 146.5 232.0 A 34 34 0 0 0 132.5 204.5\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"156.2\" y=\"214.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">2x + 12</text><path d=\"M 286.1 205.6 A 34 34 0 0 0 273.5 232.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"263.3\" y=\"215.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x + 30</text><path d=\"M 218.8 85.7 A 24 24 0 0 1 219.8 123.8\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"243.7\" y=\"109.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">5x</text><text x=\"100.5\" y=\"245.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"318.8\" y=\"246.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"200.9\" y=\"95.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Yttervinkelsatsen</p><div class=\"facit-matte\">\\[5x=(2x+12)+(x+30)\\]</div></li><li><p class=\"facit-rubrik\">Lös</p><div class=\"facit-matte\">\\[5x=3x+42\\ \\Rightarrow\\ 2x=42\\ \\Rightarrow\\ x=21\\]</div></li><li><p class=\"facit-rubrik\">Kontroll</p><p>Vinklarna blir \\(54^\\circ\\) och \\(51^\\circ\\), och yttervinkeln \\(105^\\circ=54^\\circ+51^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=21\\)</p></div>",
+    "familj": "Yttervinkelsatsen med ekvationer och likbenta trianglar",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Yttervinkeln är lika med summan av de två motstående inre vinklarna. Ställ upp en ekvation.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 21,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.2059",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "yttervinkel i deltriangel",
+    "t": "<p>Punkten \\(D\\) ligger på sidan \\(BC\\). Vinkeln \\(B\\) är \\(42^\\circ\\) och vinkeln \\(BAD\\) är \\(29^\\circ\\). Bestäm vinkeln \\(x=\\angle ADC\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangel ABC med punkten D på BC och sträckan AD. Vinkeln vid B är 42 grader, vinkeln BAD är 29 grader och vinkeln ADC är x.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"71.4,232.0 328.6,232.0 124.2,48.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"71.4\" y1=\"232.0\" x2=\"230.6\" y2=\"143.8\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><path d=\"M 306.3 211.9 A 30 30 0 0 0 298.6 232.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"286.5\" y=\"220.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">42°</text><path d=\"M 117.4 232.0 A 46 46 0 0 0 111.7 209.7\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"130.5\" y=\"221.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">29°</text><path d=\"M 211.3 154.5 A 22 22 0 0 1 214.2 129.1\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"193.8\" y=\"144.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"58.5\" y=\"244.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"342.0\" y=\"243.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"116.9\" y=\"39.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"244.1\" y=\"142.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Titta på triangeln ABD</p><p>Vinkeln \\(ADC\\) är en yttervinkel till triangeln \\(ABD\\), eftersom \\(BD\\) förlängs till \\(C\\).</p></li><li><p class=\"facit-rubrik\">Yttervinkelsatsen</p><div class=\"facit-matte\">\\[x=42^\\circ+29^\\circ=71^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(71^\\circ\\)</p></div>",
+    "familj": "Hitta yttervinkeln i sammansatta figurer",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vinkeln ADC är en yttervinkel till en av de små trianglarna. Vilken?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 71,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2060",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vinklar i förhållandet 2 : 3",
+    "t": "<p>I en triangel är en yttervinkel \\(135^\\circ\\). De två motstående inre vinklarna förhåller sig som \\(2:3\\). Hur stor är den största av de två inre vinklarna? (Svara i grader.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kalla vinklarna 2v och 3v</p><div class=\"facit-matte\">\\[2v+3v=135^\\circ\\ \\Rightarrow\\ v=27^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Den största vinkeln</p><div class=\"facit-matte\">\\[3v=81^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(81^\\circ\\)</p></div>",
+    "familj": "Yttervinkelsatsen med ekvationer och likbenta trianglar",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Skriv vinklarna som 2v och 3v. Deras summa är lika med yttervinkeln.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 81,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2061",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "kan yttervinkeln vara mindre än en motstående vinkel",
+    "t": "<p>Kan en yttervinkel i en triangel vara mindre än en av de två motstående inre vinklarna? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd satsen</p><p>Yttervinkeln är summan av de två motstående inre vinklarna. Båda är större än \\(0^\\circ\\), så yttervinkeln är alltid större än var och en av dem.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nej, den är alltid större än var och en av dem.</p></div>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Yttervinkeln är en summa av två vinklar. Kan en summa av två positiva tal vara mindre än ett av talen?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Ja, om triangeln är trubbvinklig.",
+        "ratt": false,
+        "kommentar": "Satsen gäller alla trianglar. Yttervinkeln är fortfarande en summa av två positiva vinklar."
+      },
+      {
+        "txt": "Ja, om yttervinkeln är spetsig.",
+        "ratt": false,
+        "kommentar": "Även en spetsig yttervinkel är summan av de två motstående vinklarna."
+      },
+      {
+        "txt": "Nej, den är alltid större än var och en av dem.",
+        "ratt": true,
+        "kommentar": "Summan av två positiva vinklar är större än var och en av dem."
+      },
+      {
+        "txt": "Det beror på hur långa sidorna är.",
+        "ratt": false,
+        "kommentar": "Satsen handlar bara om vinklar."
+      }
+    ]
+  },
+  {
+    "id": "3.2062",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "toppvinkel ur yttervinkel vid basen",
+    "t": "<p>Triangeln \\(ABC\\) är likbent med \\(AB=BC\\). Sidan \\(CA\\) förlängs förbi \\(A\\). Yttervinkeln vid \\(A\\) är \\(128^\\circ\\). Bestäm vinkeln \\(x\\) vid \\(B\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Likbent triangel ABC med AB = BC. Sidan CA är förlängd förbi A och yttervinkeln vid A är 128 grader. Vinkeln x vid B är okänd.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"134.9,209.5 243.4,70.5 352.0,209.5\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"134.9\" y1=\"209.5\" x2=\"48.0\" y2=\"209.5\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><path d=\"M 110.9 209.5 A 24 24 0 0 1 149.6 190.6\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"117.8\" y=\"179.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">128°</text><path d=\"M 225.0 94.2 A 30 30 0 0 0 261.9 94.2\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"243.4\" y=\"120.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"121.9\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"249.8\" y=\"61.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"366.6\" y=\"217.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den inre vinkeln vid A</p><div class=\"facit-matte\">\\[\\angle A=180^\\circ-128^\\circ=52^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Likbent triangel</p><p>Eftersom \\(AB=BC\\) är \\(\\angle C=\\angle A=52^\\circ\\).</p></li><li><p class=\"facit-rubrik\">Yttervinkelsatsen</p><div class=\"facit-matte\">\\[x+52^\\circ=128^\\circ\\ \\Rightarrow\\ x=76^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(76^\\circ\\)</p></div>",
+    "familj": "Yttervinkelsatsen med ekvationer och likbenta trianglar",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilka vinklar är lika stora i en likbent triangel med AB = BC?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 76,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2063",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "motivera ett steg i beviset av yttervinkelsatsen",
+    "t": "<p>Så här kan yttervinkelsatsen bevisas: sidan \\(BC\\) förlängs förbi \\(C\\) till \\(D\\), och genom \\(C\\) dras \\(CE\\) parallell med \\(BA\\). Varför är vinkeln \\(ECD\\) lika stor som vinkeln \\(B\\)? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangel ABC där BC är förlängd förbi C till D och CE är dragen parallell med BA. Vinkeln B och vinkeln ECD är markerade med b. Vinkeln A och vinkeln ACE är markerade med a.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"132.9,232.0 267.1,232.0 213.4,117.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"213.4\" y1=\"117.0\" x2=\"181.3\" y2=\"48.0\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"213.4\" y1=\"117.0\" x2=\"139.7\" y2=\"117.0\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><path d=\"M 254.4 204.8 A 30 30 0 0 0 237.1 232.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"229.1\" y=\"212.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">b</text><path d=\"M 200.8 89.8 A 30 30 0 0 0 183.4 117.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"175.5\" y=\"97.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">b</text><path d=\"M 162.9 232.0 A 30 30 0 0 0 150.1 207.4\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"172.8\" y=\"216.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">a</text><path d=\"M 193.9 144.9 A 34 34 0 0 1 179.4 117.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"170.0\" y=\"144.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">a</text><text x=\"124.7\" y=\"249.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"277.5\" y=\"247.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"223.0\" y=\"110.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"180.4\" y=\"38.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text><text x=\"127.3\" y=\"113.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">E</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Likbelägna vinklar</p><p>\\(CE\\parallel BA\\) och linjen \\(BD\\) skär båda. Vinklarna \\(B\\) och \\(ECD\\) ligger på samma sätt vid de två parallella linjerna, så de är likbelägna och lika stora.</p></li><li><p class=\"facit-rubrik\">Resten av beviset</p><p>På samma sätt är \\(\\angle ACE=\\angle A\\) (alternatvinklar). Yttervinkeln \\(ACD=\\angle ACE+\\angle ECD=\\angle A+\\angle B\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> De är likbelägna vinklar vid parallella linjer.</p></div>",
+    "familj": "Hitta yttervinkeln i sammansatta figurer",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilken linje skär de två parallella linjerna CE och BA? Hur ligger vinklarna i förhållande till varandra?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "De är vertikalvinklar.",
+        "ratt": false,
+        "kommentar": "Vertikalvinklar bildas av två linjer som skär varandra i samma punkt."
+      },
+      {
+        "txt": "De är likbelägna vinklar vid parallella linjer.",
+        "ratt": true,
+        "kommentar": "BD skär de parallella linjerna CE och BA."
+      },
+      {
+        "txt": "Triangeln är likbent.",
+        "ratt": false,
+        "kommentar": "Inget i figuren säger att två sidor är lika långa."
+      },
+      {
+        "txt": "Vinkelsumman i en triangel är 180°.",
+        "ratt": false,
+        "kommentar": "Det används inte i just detta steg."
+      }
+    ]
+  },
+  {
+    "id": "3.2064",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "hur mycket en bilist svänger i en vägkorsning",
+    "t": "<p>Tre raka vägar bildar en triangel \\(ABC\\). Vinkeln mellan vägarna är \\(48^\\circ\\) i korsningen \\(A\\) och \\(77^\\circ\\) i korsningen \\(B\\). En bilist kör från \\(A\\) till \\(C\\) och svänger där in mot \\(B\\). Hur många grader svänger bilisten i \\(C\\)? (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangel ABC av vägar med vinkeln 48 grader vid A och 77 grader vid B. Vägen från A till C är förlängd rakt fram förbi C. Svängen x vid C är vinkeln mellan rakt fram och vägen mot B.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"117.2,232.0 260.7,232.0 231.4,105.1\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"231.4\" y1=\"105.1\" x2=\"282.8\" y2=\"48.0\" stroke=\"#2f6fca\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><path d=\"M 147.2 232.0 A 30 30 0 0 0 137.2 209.7\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"158.3\" y=\"218.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">48°</text><path d=\"M 254.9 206.7 A 26 26 0 0 0 234.7 232.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"228.6\" y=\"211.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">77°</text><path d=\"M 247.5 87.3 A 24 24 0 0 1 236.8 128.5\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"269.2\" y=\"119.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"105.1\" y=\"245.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"267.3\" y=\"250.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"233.9\" y=\"95.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"286.8\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#2f6fca\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">rakt fram</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Svängen är en yttervinkel</p><p>Bilisten skulle annars ha fortsatt rakt fram längs \\(AC\\). Svängen är vinkeln mellan förlängningen av \\(AC\\) och vägen \\(CB\\), alltså yttervinkeln vid \\(C\\).</p></li><li><p class=\"facit-rubrik\">Yttervinkelsatsen</p><div class=\"facit-matte\">\\[x=48^\\circ+77^\\circ=125^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(125^\\circ\\)</p></div>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "formaga": [
+      "modellering",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Om bilisten inte svängde skulle hen fortsätta rakt fram. Vilken vinkel i figuren är svängen?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 125,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2065",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "summan av tre yttervinklar",
+    "t": "<p>En triangel har vinklarna \\(50^\\circ\\), \\(60^\\circ\\) och \\(70^\\circ\\). Vid varje hörn ritas en yttervinkel. Bestäm summan av de tre yttervinklarna. (Svara i grader.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Yttervinklarna</p><div class=\"facit-matte\">\\[180^\\circ-50^\\circ=130^\\circ,\\quad180^\\circ-60^\\circ=120^\\circ,\\quad180^\\circ-70^\\circ=110^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Summan</p><div class=\"facit-matte\">\\[130^\\circ+120^\\circ+110^\\circ=360^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Allmänt</p><p>Summan blir alltid \\(3\\cdot180^\\circ-180^\\circ=360^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(360^\\circ\\)</p></div>",
+    "familj": "Beräkna vinklar med yttervinkelsatsen",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En yttervinkel och den inre vinkeln i samma hörn är tillsammans 180°.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 360,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2066",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "tredje yttervinkeln ur två yttervinklar",
+    "t": "<p>I triangeln \\(ABC\\) är yttervinkeln vid \\(A\\) \\(112^\\circ\\) och yttervinkeln vid \\(B\\) \\(136^\\circ\\). Bestäm yttervinkeln vid \\(C\\). (Svara i grader.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inre vinklar vid A och B</p><div class=\"facit-matte\">\\[\\angle A=180^\\circ-112^\\circ=68^\\circ,\\qquad\\angle B=180^\\circ-136^\\circ=44^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Yttervinkeln vid C</p><div class=\"facit-matte\">\\[68^\\circ+44^\\circ=112^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Kontroll</p><p>Summan av yttervinklarna blir \\(112^\\circ+136^\\circ+112^\\circ=360^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(112^\\circ\\)</p></div>",
+    "familj": "Yttervinkelsatsen med ekvationer och likbenta trianglar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna ut de inre vinklarna vid A och B först.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 112,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2067",
+    "kap": 3,
+    "omr": "yttervinkelsatsen",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "yttervinkelsatsen två gånger",
+    "t": "<p>I triangeln \\(ABC\\) ligger \\(D\\) på \\(AC\\) och \\(E\\) på \\(AB\\). Sträckorna \\(BD\\) och \\(CE\\) skär varandra i \\(P\\). Vinkeln \\(A\\) är \\(54^\\circ\\), vinkeln \\(ABD\\) är \\(22^\\circ\\) och vinkeln \\(ACE\\) är \\(27^\\circ\\). Bestäm vinkeln \\(x=\\angle BPC\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Triangel ABC med D på AC och E på AB. BD och CE skär varandra i P. Vinkeln A är 54 grader, vinkeln ABD 22 grader, vinkeln ACE 27 grader och vinkeln BPC är x.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"69.9,252.0 350.1,252.0 218.1,48.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"350.1\" y1=\"252.0\" x2=\"133.5\" y2=\"164.5\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><line x1=\"218.1\" y1=\"48.0\" x2=\"185.8\" y2=\"252.0\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><path d=\"M 99.9 252.0 A 30 30 0 0 0 87.5 227.7\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"110.0\" y=\"236.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">54°</text><path d=\"M 294.1 252.0 A 56 56 0 0 1 298.2 231.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"280.4\" y=\"243.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">22°</text><path d=\"M 187.6 90.1 A 52 52 0 0 0 210.0 99.4\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"192.5\" y=\"114.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">27°</text><path d=\"M 216.1 197.9 A 22 22 0 0 0 199.1 167.9\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"227.9\" y=\"176.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"56.4\" y=\"263.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"364.1\" y=\"262.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"220.8\" y=\"38.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"120.0\" y=\"162.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text><text x=\"184.2\" y=\"271.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">E</text><text x=\"180.7\" y=\"205.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">P</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Triangeln ABD</p><p>Vinkeln \\(BDC\\) är en yttervinkel till triangeln \\(ABD\\).</p><div class=\"facit-matte\">\\[\\angle BDC=54^\\circ+22^\\circ=76^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Triangeln PDC</p><p>Vinkeln \\(BPC\\) är en yttervinkel till triangeln \\(PDC\\), och \\(\\angle PCD=\\angle ACE=27^\\circ\\).</p><div class=\"facit-matte\">\\[x=76^\\circ+27^\\circ=103^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(103^\\circ\\)</p></div>",
+    "familj": "Hitta yttervinkeln i sammansatta figurer",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Börja med vinkeln BDC i triangeln ABD. Använd sedan yttervinkelsatsen en gång till.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 103,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2068",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vinkel vid två parallella linjer",
+    "t": "<p>De två vågräta linjerna är parallella. Bestäm vinkeln \\(x\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"Två parallella vågräta linjer skärs av en transversal. Vid den nedre linjen är vinkeln mellan linjen åt höger och transversalen uppåt 57 grader. Vid den övre linjen är vinkeln x mellan linjen åt höger och transversalen nedåt markerad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"63.3\" y1=\"175.6\" x2=\"336.7\" y2=\"175.6\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"63.3\" y1=\"84.4\" x2=\"336.7\" y2=\"84.4\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"130.8\" y1=\"212.0\" x2=\"237.3\" y2=\"48.0\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><path d=\"M 182.4 175.6 A 28 28 0 0 0 169.7 152.1\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"192.2\" y=\"160.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">57°</text><path d=\"M 237.6 84.4 A 24 24 0 0 1 200.5 104.6\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"232.2\" y=\"123.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Likbelägen vinkel</p><p>Vid den övre linjen är vinkeln mellan linjen åt höger och transversalen uppåt också \\(57^\\circ\\) (likbelägna vinklar).</p></li><li><p class=\"facit-rubrik\">Sidovinkel</p><div class=\"facit-matte\">\\[x=180^\\circ-57^\\circ=123^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(123^\\circ\\)</p></div>",
+    "familj": "Vinkelregler och cirklar",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hitta först den vinkel vid den övre linjen som är likbelägen med 57°. Vinkeln x ligger bredvid den.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 123,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2069",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "namnet på en fyrhörning med ett par parallella sidor",
+    "t": "<p>Vad kallas en fyrhörning som har exakt ett par parallella sidor? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Definition</p><p>En fyrhörning med exakt ett par parallella sidor är en parallelltrapets.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Parallelltrapets</p></div>",
+    "familj": "Geometriska grundbegrepp",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Parallellogram, romb och rektangel har två par parallella sidor.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Parallellogram",
+        "ratt": false,
+        "kommentar": "En parallellogram har två par parallella sidor."
+      },
+      {
+        "txt": "Parallelltrapets",
+        "ratt": true,
+        "kommentar": "Exakt ett par sidor är parallella."
+      },
+      {
+        "txt": "Romb",
+        "ratt": false,
+        "kommentar": "En romb har två par parallella sidor."
+      },
+      {
+        "txt": "Rektangel",
+        "ratt": false,
+        "kommentar": "En rektangel har två par parallella sidor."
+      }
+    ]
+  },
+  {
+    "id": "3.2070",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "namnet på höjden i en triangel",
+    "t": "<p>Vad kallas en sträcka som går från ett hörn i en triangel och är vinkelrät mot den motstående sidan (eller dess förlängning)? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Definition</p><p>En sådan sträcka kallas höjd. Den används till exempel när triangelns area beräknas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Höjd</p></div>",
+    "familj": "Geometriska grundbegrepp",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Tänk på formeln för en triangels area.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Median",
+        "ratt": false,
+        "kommentar": "En median går till mittpunkten på motstående sida."
+      },
+      {
+        "txt": "Bisektris",
+        "ratt": false,
+        "kommentar": "En bisektris delar en vinkel mitt itu."
+      },
+      {
+        "txt": "Höjd",
+        "ratt": true,
+        "kommentar": "Höjden är vinkelrät mot motstående sida."
+      },
+      {
+        "txt": "Diagonal",
+        "ratt": false,
+        "kommentar": "En triangel har inga diagonaler."
+      }
+    ]
+  },
+  {
+    "id": "3.2071",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vinkel i regelbunden sexhörning",
+    "t": "<p>En regelbunden sexhörning har sex lika långa sidor och sex lika stora vinklar. Vinkelsumman i en sexhörning är \\(720^\\circ\\). Hur stor är varje vinkel? (Svara i grader.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela vinkelsumman lika</p><div class=\"facit-matte\">\\[\\frac{720^\\circ}{6}=120^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(120^\\circ\\)</p></div>",
+    "familj": "Vinkelregler och cirklar",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Alla sex vinklarna är lika stora.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 120,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2072",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "klassificera triangel efter vinklar",
+    "t": "<p>En triangel har vinklarna \\(34^\\circ\\) och \\(56^\\circ\\). Vilken sorts triangel är det? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den tredje vinkeln</p><div class=\"facit-matte\">\\[180^\\circ-34^\\circ-56^\\circ=90^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Slutsats</p><p>En vinkel är rät, så triangeln är rätvinklig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Rätvinklig</p></div>",
+    "familj": "Geometriska grundbegrepp",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut den tredje vinkeln.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Spetsvinklig",
+        "ratt": false,
+        "kommentar": "Den tredje vinkeln är 90°, inte spetsig."
+      },
+      {
+        "txt": "Trubbvinklig",
+        "ratt": false,
+        "kommentar": "Ingen vinkel är större än 90°."
+      },
+      {
+        "txt": "Rätvinklig",
+        "ratt": true,
+        "kommentar": "Den tredje vinkeln är 90°."
+      },
+      {
+        "txt": "Liksidig",
+        "ratt": false,
+        "kommentar": "En liksidig triangel har tre vinklar på 60°."
+      }
+    ]
+  },
+  {
+    "id": "3.2073",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vinkelsumman i en femhörning",
+    "t": "<p>Från ett hörn i en femhörning kan man dra två diagonaler. De delar femhörningen i tre trianglar. Hur stor är vinkelsumman i en femhörning? (Svara i grader.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tre trianglar</p><p>Trianglarnas vinklar bildar tillsammans femhörningens vinklar.</p><div class=\"facit-matte\">\\[3\\cdot180^\\circ=540^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(540^\\circ\\)</p></div>",
+    "familj": "Vinkelregler och cirklar",
+    "formaga": [
+      "resonemang",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vinkelsumman i varje triangel är 180°.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 540,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2074",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "likbelägna vinklar med algebra",
+    "t": "<p>De två vågräta linjerna är parallella. Vinklarna är angivna i grader. Bestäm \\(x\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"Två parallella vågräta linjer skärs av en transversal. Vinkeln mellan den nedre linjen åt höger och transversalen uppåt är 3x + 12. Den likbelägna vinkeln vid den övre linjen är 5x − 20.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"63.3\" y1=\"175.6\" x2=\"336.7\" y2=\"175.6\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"63.3\" y1=\"84.4\" x2=\"336.7\" y2=\"84.4\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"133.4\" y1=\"212.0\" x2=\"228.1\" y2=\"48.0\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><path d=\"M 200.4 175.6 A 46 46 0 0 0 177.4 135.7\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"207.3\" y=\"150.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">3x + 12</text><path d=\"M 253.0 84.4 A 46 46 0 0 0 230.0 44.6\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"259.9\" y=\"58.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">5x − 20</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Likbelägna vinklar är lika stora</p><div class=\"facit-matte\">\\[5x-20=3x+12\\]</div></li><li><p class=\"facit-rubrik\">Lös</p><div class=\"facit-matte\">\\[2x=32\\ \\Rightarrow\\ x=16\\]</div></li><li><p class=\"facit-rubrik\">Kontroll</p><p>Båda vinklarna blir \\(60^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=16\\)</p></div>",
+    "familj": "Vinkelregler och cirklar",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vinklarna ligger på samma sätt vid de två parallella linjerna. Vad gäller då?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.2075",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vinkel och komplementvinkel med skillnad",
+    "t": "<p>En vinkel är \\(24^\\circ\\) större än sin komplementvinkel. Hur stor är vinkeln? (Svara i grader.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Komplementvinklar har summan 90°</p><div class=\"facit-matte\">\\[v+(v-24^\\circ)=90^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Lös</p><div class=\"facit-matte\">\\[2v=114^\\circ\\ \\Rightarrow\\ v=57^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Kontroll</p><p>Komplementvinkeln är \\(33^\\circ\\), och \\(57^\\circ-33^\\circ=24^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(57^\\circ\\)</p></div>",
+    "familj": "Vinkelregler och cirklar",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Kalla vinkeln v. Då är komplementvinkeln v − 24°.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 57,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2076",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vertikalvinklar med algebra",
+    "t": "<p>Två linjer skär varandra i \\(O\\). Vinklarna är angivna i grader. Bestäm \\(x\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 240\" role=\"img\" aria-label=\"Två linjer skär varandra i O. Två vinklar mitt emot varandra är 2x + 15 och 4x − 35.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"238\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"279.4\" y1=\"120.0\" x2=\"120.6\" y2=\"120.0\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><line x1=\"233.6\" y1=\"48.0\" x2=\"166.4\" y2=\"192.0\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><path d=\"M 246.0 120.0 A 46 46 0 0 0 219.4 78.3\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"251.4\" y=\"92.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">2x + 15</text><path d=\"M 154.0 120.0 A 46 46 0 0 0 180.6 161.7\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"148.6\" y=\"157.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">4x − 35</text><text x=\"216.0\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vertikalvinklar är lika stora</p><div class=\"facit-matte\">\\[4x-35=2x+15\\]</div></li><li><p class=\"facit-rubrik\">Lös</p><div class=\"facit-matte\">\\[2x=50\\ \\Rightarrow\\ x=25\\]</div></li><li><p class=\"facit-rubrik\">Kontroll</p><p>Båda vinklarna blir \\(65^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=25\\)</p></div>",
+    "familj": "Vinkelregler och cirklar",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vinklarna ligger mitt emot varandra. Vad gäller för sådana vinklar?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.2077",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "samband mellan fyrhörningar",
+    "t": "<p>Vilka påståenden är sanna? (Välj alla som stämmer.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Definitionerna</p><p>En kvadrat har fyra räta vinklar (alltså en rektangel) och fyra lika långa sidor (alltså en romb). En rektangel behöver inte ha lika långa sidor, och en romb behöver inte ha räta vinklar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Alla kvadrater är rektanglar, och alla kvadrater är romber.</p></div>",
+    "familj": "Geometriska grundbegrepp",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Jämför egenskaperna: räta vinklar, lika långa sidor och parallella sidor.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Alla rektanglar är kvadrater.",
+        "ratt": false,
+        "kommentar": "En rektangel kan ha olika långa sidor."
+      },
+      {
+        "txt": "Alla kvadrater är rektanglar.",
+        "ratt": true,
+        "kommentar": "En kvadrat har fyra räta vinklar."
+      },
+      {
+        "txt": "Alla kvadrater är romber.",
+        "ratt": true,
+        "kommentar": "En kvadrat har fyra lika långa sidor."
+      },
+      {
+        "txt": "Alla romber är rektanglar.",
+        "ratt": false,
+        "kommentar": "En romb behöver inte ha räta vinklar."
+      },
+      {
+        "txt": "En parallelltrapets är alltid en parallellogram.",
+        "ratt": false,
+        "kommentar": "En parallelltrapets har bara ett par parallella sidor."
+      }
+    ]
+  },
+  {
+    "id": "3.2078",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vinkel mellan två parallella linjer med knäck",
+    "t": "<p>De två vågräta linjerna är parallella. Bestäm vinkeln \\(x\\) vid \\(Z\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"Två parallella vågräta linjer. En bruten linje går från den övre linjen till punkten Z och vidare till den nedre linjen. Vid den övre linjen är vinkeln 38 grader och vid den nedre 47 grader. Vinkeln x vid Z är markerad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"59.8\" x2=\"352.0\" y2=\"59.8\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"48.0\" y1=\"200.2\" x2=\"352.0\" y2=\"200.2\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"231.3\" y1=\"59.8\" x2=\"141.5\" y2=\"130.0\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><line x1=\"141.5\" y1=\"130.0\" x2=\"207.0\" y2=\"200.2\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><path d=\"M 197.3 59.8 A 34 34 0 0 0 204.5 80.8\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"185.0\" y=\"80.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">38°</text><path d=\"M 173.0 200.2 A 34 34 0 0 1 183.8 175.3\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"162.0\" y=\"185.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">47°</text><path d=\"M 158.9 116.5 A 22 22 0 0 1 156.5 146.1\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"178.4\" y=\"137.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"127.5\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">Z</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra en hjälplinje genom Z</p><p>En linje genom \\(Z\\) parallell med de andra delar \\(x\\) i två delar.</p></li><li><p class=\"facit-rubrik\">Alternatvinklar</p><p>Den övre delen är \\(38^\\circ\\) och den nedre delen är \\(47^\\circ\\).</p><div class=\"facit-matte\">\\[x=38^\\circ+47^\\circ=85^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(85^\\circ\\)</p></div>",
+    "familj": "Vinkelregler och cirklar",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dra en vågrät hjälplinje genom Z. Vilka alternatvinklar bildas?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 85,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2079",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vinkel mellan bisektriserna till två sidovinklar",
+    "t": "<p>Två sidovinklar är \\(64^\\circ\\) och \\(116^\\circ\\). Båda vinklarna delas mitt itu av varsin bisektris (streckade). Hur stor är vinkeln \\(x\\) mellan bisektriserna? (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"En rät linje med punkten O och en stråle från O. Sidovinklarna är 64 och 116 grader. Två streckade bisektriser delar vinklarna mitt itu, och vinkeln x mellan bisektriserna är markerad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"338.0\" y1=\"172.0\" x2=\"62.0\" y2=\"172.0\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><line x1=\"200.0\" y1=\"172.0\" x2=\"260.5\" y2=\"48.0\" stroke=\"#172b3a\" stroke-width=\"2.2\"/><line x1=\"200.0\" y1=\"172.0\" x2=\"307.6\" y2=\"104.7\" stroke=\"#2f6fca\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"200.0\" y1=\"172.0\" x2=\"132.7\" y2=\"64.4\" stroke=\"#2f6fca\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><path d=\"M 262.0 172.0 A 62 62 0 0 0 227.2 116.3\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><path d=\"M 227.2 116.3 A 62 62 0 0 0 138.0 172.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><path d=\"M 225.4 156.1 A 30 30 0 0 0 184.1 146.6\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"210.1\" y=\"133.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"200.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><text x=\"273.6\" y=\"153.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">64°</text><text x=\"127.1\" y=\"151.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">116°</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halva vinklarna</p><div class=\"facit-matte\">\\[\\frac{64^\\circ}{2}=32^\\circ,\\qquad\\frac{116^\\circ}{2}=58^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Vinkeln mellan bisektriserna</p><div class=\"facit-matte\">\\[x=32^\\circ+58^\\circ=90^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Allmänt</p><p>Sidovinklar har summan \\(180^\\circ\\), så halvorna har alltid summan \\(90^\\circ\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(90^\\circ\\)</p></div>",
+    "familj": "Vinkelregler och cirklar",
+    "formaga": [
+      "problemlösning",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vinkeln x består av en halv 64°-vinkel och en halv 116°-vinkel.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 90,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2080",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "antal hörn ur vinkeln i en regelbunden månghörning",
+    "t": "<p>Vinkelsumman i en månghörning med \\(n\\) hörn är \\((n-2)\\cdot180^\\circ\\). I en regelbunden månghörning är varje vinkel \\(140^\\circ\\). Hur många hörn har månghörningen?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ställ upp en ekvation</p><div class=\"facit-matte\">\\[(n-2)\\cdot180=140n\\]</div></li><li><p class=\"facit-rubrik\">Lös</p><div class=\"facit-matte\">\\[180n-360=140n\\ \\Rightarrow\\ 40n=360\\ \\Rightarrow\\ n=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9 hörn</p></div>",
+    "familj": "Vinkelregler och cirklar",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Vinkelsumman kan skrivas på två sätt: med formeln och som n vinklar på 140°.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.2081",
+    "kap": 3,
+    "omr": "geometriska_begrepp_definitioner",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "vinkel mellan två bisektriser i en triangel",
+    "t": "<p>I triangeln \\(ABC\\) är vinkeln \\(A\\) \\(70^\\circ\\). Bisektriserna till vinklarna \\(B\\) och \\(C\\) skär varandra i \\(I\\). Bestäm vinkeln \\(x=\\angle BIC\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangel ABC med vinkeln 70 grader vid A. Bisektriserna från B och C möts i I, och vinkeln BIC är x.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"113.4,232.0 286.6,232.0 180.4,48.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"286.6\" y1=\"232.0\" x2=\"191.7\" y2=\"177.2\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><line x1=\"180.4\" y1=\"48.0\" x2=\"191.7\" y2=\"177.2\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><path d=\"M 143.4 232.0 A 30 30 0 0 0 123.7 203.8\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"150.3\" y=\"211.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">70°</text><path d=\"M 207.3 186.2 A 18 18 0 0 0 190.1 159.3\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"219.5\" y=\"164.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"101.4\" y=\"246.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"299.2\" y=\"245.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"178.9\" y=\"38.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"191.7\" y=\"165.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">I</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summan av B och C</p><div class=\"facit-matte\">\\[\\angle B+\\angle C=180^\\circ-70^\\circ=110^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Halva vinklarna</p><p>Bisektriserna ger \\(\\angle IBC+\\angle ICB=\\tfrac12\\cdot110^\\circ=55^\\circ\\).</p></li><li><p class=\"facit-rubrik\">Triangeln BIC</p><div class=\"facit-matte\">\\[x=180^\\circ-55^\\circ=125^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(125^\\circ\\)</p></div>",
+    "familj": "Vinkelregler och cirklar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Du behöver inte veta B och C var för sig, bara deras summa.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 125,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2082",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "namnge likformighetsfallet sida–vinkel–sida",
+    "t": "<p>I trianglarna \\(ABC\\) och \\(DEF\\) gäller \\(\\frac{AB}{DE}=\\frac{AC}{DF}\\), och vinkeln \\(A\\) är lika stor som vinkeln \\(D\\). Vilket likformighetsfall visar att trianglarna är likformiga? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två sidor och vinkeln mellan dem</p><p>Sidorna \\(AB\\) och \\(AC\\) möts i \\(A\\), och sidorna \\(DE\\) och \\(DF\\) möts i \\(D\\). Två sidor i samma förhållande och lika stora mellanliggande vinklar ger fallet sida–vinkel–sida.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sida–vinkel–sida (SVS)</p></div>",
+    "familj": "Visa att trianglar är likformiga",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Ligger den lika stora vinkeln mellan de två sidorna?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Vinkel–vinkel (VV)",
+        "ratt": false,
+        "kommentar": "Bara ett par vinklar är känt."
+      },
+      {
+        "txt": "Sida–sida–sida (SSS)",
+        "ratt": false,
+        "kommentar": "Bara två par sidor är kända."
+      },
+      {
+        "txt": "Sida–vinkel–sida (SVS)",
+        "ratt": true,
+        "kommentar": "Vinkeln ligger mellan de två sidorna."
+      },
+      {
+        "txt": "Trianglarna behöver inte vara likformiga.",
+        "ratt": false,
+        "kommentar": "SVS-fallet räcker."
+      }
+    ]
+  },
+  {
+    "id": "3.2083",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "höjden mot hypotenusan",
+    "t": "<p>Triangeln \\(ABC\\) är rätvinklig vid \\(C\\). Höjden \\(CD\\) delar hypotenusan i \\(AD=4\\) cm och \\(DB=16\\) cm. Trianglarna \\(ADC\\) och \\(CDB\\) är likformiga. Bestäm höjden \\(CD\\). (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Rätvinklig triangel ABC med rät vinkel vid C. Höjden CD är dragen mot hypotenusan AB. AD = 4 cm och DB = 16 cm.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"48.0,200.8 352.0,200.8 108.8,79.2\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"108.8\" y1=\"79.2\" x2=\"108.8\" y2=\"200.8\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><polyline points=\"103.0,90.8 114.6,96.6 120.4,85.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><polyline points=\"121.8,200.8 121.8,187.8 108.8,187.8\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"78.4\" y=\"189.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">4 cm</text><text x=\"230.4\" y=\"189.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">16 cm</text><text x=\"33.6\" y=\"209.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"366.8\" y=\"208.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"102.1\" y=\"70.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"96.3\" y=\"214.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Motsvarande sidor</p><p>I de likformiga trianglarna \\(ADC\\) och \\(CDB\\) motsvarar \\(AD\\) sidan \\(CD\\), och \\(CD\\) motsvarar \\(DB\\).</p><div class=\"facit-matte\">\\[\\frac{AD}{CD}=\\frac{CD}{DB}\\ \\Rightarrow\\ CD^2=4\\cdot16=64\\]</div></li><li><p class=\"facit-rubrik\">Lös</p><div class=\"facit-matte\">\\[CD=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 cm</p></div>",
+    "familj": "Bevis och tillämpningar med likformighet",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Höjden CD finns i båda de små trianglarna. Ställ upp ett förhållande där CD förekommer två gånger.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 8,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.2084",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "katet ur hypotenusans delar",
+    "t": "<p>Triangeln \\(ABC\\) är rätvinklig vid \\(C\\), och \\(CD\\) är höjden mot hypotenusan. \\(AD=5\\) cm och \\(DB=11{,}2\\) cm. Trianglarna \\(ADC\\) och \\(ACB\\) är likformiga. Bestäm kateten \\(AC\\). (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Rätvinklig triangel ABC med rät vinkel vid C och höjden CD mot hypotenusan. AD = 5 cm och DB = 11,2 cm.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"48.0,210.2 352.0,210.2 141.8,69.8\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"141.8\" y1=\"69.8\" x2=\"141.8\" y2=\"210.2\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><polyline points=\"134.6,80.6 145.4,87.8 152.6,77.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><polyline points=\"154.8,210.2 154.8,197.2 141.8,197.2\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"94.9\" y=\"199.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">5 cm</text><text x=\"246.9\" y=\"199.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">11,2 cm</text><text x=\"33.6\" y=\"219.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"366.7\" y=\"218.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"137.8\" y=\"60.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"132.3\" y=\"226.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hela hypotenusan</p><div class=\"facit-matte\">\\[AB=5+11{,}2=16{,}2\\]</div></li><li><p class=\"facit-rubrik\">Motsvarande sidor</p><p>I \\(ADC\\) och \\(ACB\\) motsvarar \\(AD\\) sidan \\(AC\\), och \\(AC\\) motsvarar \\(AB\\).</p><div class=\"facit-matte\">\\[\\frac{AD}{AC}=\\frac{AC}{AB}\\ \\Rightarrow\\ AC^2=5\\cdot16{,}2=81\\]</div></li><li><p class=\"facit-rubrik\">Lös</p><div class=\"facit-matte\">\\[AC=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9 cm</p></div>",
+    "familj": "Bevis och tillämpningar med likformighet",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Båda trianglarna har vinkeln A. Ställ upp ett förhållande där AC förekommer två gånger.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.2085",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "hitta likformiga trianglar med gemensam vinkel",
+    "t": "<p>Punkten \\(D\\) ligger på sidan \\(AB\\), och vinkeln \\(ACD\\) är lika stor som vinkeln \\(ABC\\). Vilket påstående är korrekt? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangel ABC med punkten D på AB och sträckan CD. Vinkeln ACD och vinkeln ABC är lika stora och markerade med v.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"48.0,231.8 352.0,231.8 133.7,48.2\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"133.7\" y1=\"48.2\" x2=\"183.1\" y2=\"231.8\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><path d=\"M 116.7 84.4 A 40 40 0 0 0 144.1 86.8\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"128.9\" y=\"108.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">v</text><path d=\"M 326.0 210.0 A 34 34 0 0 0 318.0 231.8\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"306.0\" y=\"220.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">v</text><text x=\"33.8\" y=\"241.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"366.5\" y=\"240.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"128.9\" y=\"38.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"184.4\" y=\"251.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två par lika stora vinklar</p><p>Trianglarna \\(ACD\\) och \\(ABC\\) har vinkeln \\(A\\) gemensam, och \\(\\angle ACD=\\angle ABC\\). Enligt fallet vinkel–vinkel är de likformiga.</p></li><li><p class=\"facit-rubrik\">Rätt hörn mot rätt hörn</p><p>\\(A\\) motsvarar \\(A\\), \\(C\\) i den lilla triangeln motsvarar \\(B\\), och \\(D\\) motsvarar \\(C\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\triangle ACD\\sim\\triangle ABC\\) med \\(A\\leftrightarrow A,\\ C\\leftrightarrow B,\\ D\\leftrightarrow C\\)</p></div>",
+    "familj": "Visa att trianglar är likformiga",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilken vinkel har trianglarna ACD och ABC gemensam?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Trianglarna ACD och BCD är likformiga.",
+        "ratt": false,
+        "kommentar": "De har ingen vinkel som säkert är lika stor utöver vinklarna vid D, som inte behöver vara lika."
+      },
+      {
+        "txt": "ACD ∼ ABC med A↔A, C↔C och D↔B.",
+        "ratt": false,
+        "kommentar": "Vinkeln v vid C i den lilla triangeln motsvarar vinkeln v vid B i den stora."
+      },
+      {
+        "txt": "ACD ∼ ABC med A↔A, C↔B och D↔C.",
+        "ratt": true,
+        "kommentar": "Vinkeln A är gemensam och vinklarna v motsvarar varandra."
+      },
+      {
+        "txt": "Trianglarna kan inte vara likformiga eftersom de har olika storlek.",
+        "ratt": false,
+        "kommentar": "Likformiga trianglar får ha olika storlek."
+      }
+    ]
+  },
+  {
+    "id": "3.2086",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "längd ur likformighet med gemensam vinkel",
+    "t": "<p>Punkten \\(D\\) ligger på sidan \\(AB\\), och vinkeln \\(ACD\\) är lika stor som vinkeln \\(ABC\\). \\(AC=6\\) cm och \\(AB=9\\) cm. Bestäm \\(AD\\). (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangel ABC med punkten D på AB och sträckan CD. Vinkeln ACD och vinkeln ABC är lika stora och markerade med v.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"48.0,231.8 352.0,231.8 133.7,48.2\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"133.7\" y1=\"48.2\" x2=\"183.1\" y2=\"231.8\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><path d=\"M 116.7 84.4 A 40 40 0 0 0 144.1 86.8\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"128.9\" y=\"108.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">v</text><path d=\"M 326.0 210.0 A 34 34 0 0 0 318.0 231.8\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"306.0\" y=\"220.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">v</text><text x=\"67.3\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">6 cm</text><text x=\"33.8\" y=\"241.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"366.5\" y=\"240.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"128.9\" y=\"38.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"184.4\" y=\"251.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Likformiga trianglar</p><p>\\(\\triangle ACD\\sim\\triangle ABC\\) (vinkeln \\(A\\) gemensam och \\(\\angle ACD=\\angle ABC\\)), med \\(A\\leftrightarrow A,\\ C\\leftrightarrow B,\\ D\\leftrightarrow C\\).</p></li><li><p class=\"facit-rubrik\">Motsvarande sidor</p><div class=\"facit-matte\">\\[\\frac{AD}{AC}=\\frac{AC}{AB}\\ \\Rightarrow\\ AD=\\frac{6^2}{9}=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 cm</p></div>",
+    "familj": "Bevis och tillämpningar med likformighet",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilka sidor motsvarar varandra? AC finns i båda trianglarna.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 4,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.2087",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "hålkamera",
+    "t": "<p>I en hålkamera går ljuset genom ett litet hål och ger en upp-och-nedvänd bild på en skärm. En 1,8 m lång person står 6 m framför hålet. Skärmen sitter 5 cm bakom hålet. Hur hög blir bilden av personen? (Svara i cm med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 230\" role=\"img\" aria-label=\"Skiss av en hålkamera, inte skalenlig. En person står 6 m framför ett hål. Ljusstrålar från huvud och fötter korsar varandra i hålet och träffar en skärm 5 cm bakom hålet, där bilden blir upp och ned.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"74.2\" x2=\"40.0\" y2=\"155.8\" stroke=\"#2f6fca\" stroke-width=\"4\"/><line x1=\"40.0\" y1=\"74.2\" x2=\"380.0\" y2=\"125.2\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"40.0\" y1=\"155.8\" x2=\"380.0\" y2=\"104.8\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"380.0\" y1=\"164.9\" x2=\"380.0\" y2=\"65.1\" stroke=\"#7a8794\" stroke-width=\"3\"/><line x1=\"312.0\" y1=\"164.9\" x2=\"312.0\" y2=\"121.8\" stroke=\"#172b3a\" stroke-width=\"4\"/><line x1=\"312.0\" y1=\"108.2\" x2=\"312.0\" y2=\"65.1\" stroke=\"#172b3a\" stroke-width=\"4\"/><line x1=\"380.0\" y1=\"125.2\" x2=\"380.0\" y2=\"104.8\" stroke=\"#2f6fca\" stroke-width=\"4\"/><text x=\"40.0\" y=\"64.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">person</text><text x=\"312.0\" y=\"57.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">hål</text><text x=\"380.0\" y=\"57.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">skärm</text><text x=\"176.0\" y=\"177.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">6 m</text><text x=\"346.0\" y=\"177.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">5 cm</text></svg></span><p>(Figuren är inte skalenlig.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två likformiga trianglar</p><p>Strålarna från huvud och fötter korsar varandra i hålet. Trianglarna framför och bakom hålet har lika stora vertikalvinklar vid hålet och parallella sidor (personen och bilden), så de är likformiga.</p></li><li><p class=\"facit-rubrik\">Samma förhållande</p><p>Räkna i cm: \\(600\\) cm och \\(5\\) cm.</p><div class=\"facit-matte\">\\[\\frac{h}{180}=\\frac{5}{600}\\ \\Rightarrow\\ h=1{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,5 cm</p></div>",
+    "familj": "Bevis och tillämpningar med likformighet",
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bilden förhåller sig till personen som avståndet till skärmen förhåller sig till avståndet till personen. Använd samma enhet.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 1.5,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.2088",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "brist i ett likformighetsbevis",
+    "t": "<p>En elev skriver: ”I trianglarna \\(ABC\\) och \\(DEF\\) är \\(\\frac{AB}{DE}=2\\) och \\(\\frac{BC}{EF}=2\\). Alltså är trianglarna likformiga.” Vad saknas i beviset? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vad krävs</p><p>Två par sidor i samma förhållande räcker inte. Antingen måste vinklarna \\(B\\) och \\(E\\) mellan sidorna vara lika stora (SVS), eller så måste även \\(\\frac{CA}{FD}=2\\) (SSS).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Att vinkel B = vinkel E, eller att även CA/FD = 2.</p></div>",
+    "familj": "Visa att trianglar är likformiga",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilka fall finns för likformighet? Vilket av dem passar bäst med två par sidor?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Ingenting, två par sidor räcker alltid.",
+        "ratt": false,
+        "kommentar": "Trianglar med två sidor i samma förhållande kan ha olika form."
+      },
+      {
+        "txt": "Att vinkel A = vinkel D.",
+        "ratt": false,
+        "kommentar": "Vinkeln måste ligga mellan de två sidorna, alltså B och E."
+      },
+      {
+        "txt": "Att vinkel B = vinkel E, eller att även CA/FD = 2.",
+        "ratt": true,
+        "kommentar": "Då gäller SVS eller SSS."
+      },
+      {
+        "txt": "Att trianglarna är rätvinkliga.",
+        "ratt": false,
+        "kommentar": "Det är inget krav för likformighet."
+      }
+    ]
+  },
+  {
+    "id": "3.2089",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "diagonalerna i en parallelltrapets",
+    "t": "<p>I fyrhörningen \\(ABCD\\) är \\(AB\\) parallell med \\(DC\\). \\(AB=16\\) cm och \\(DC=10\\) cm. Diagonalerna skär varandra i \\(P\\), och diagonalen \\(AC\\) är 13 cm. Bestäm \\(PC\\). (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Fyrhörning ABCD med AB parallell med DC. AB = 16 cm och DC = 10 cm. Diagonalerna AC och BD skär varandra i P.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"48.0,205.8 352.0,205.8 257.0,74.2 67.0,74.2\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"48.0\" y1=\"205.8\" x2=\"257.0\" y2=\"74.2\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><line x1=\"352.0\" y1=\"205.8\" x2=\"67.0\" y2=\"74.2\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><text x=\"200.0\" y=\"194.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">16 cm</text><text x=\"162.0\" y=\"63.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">10 cm</text><text x=\"34.7\" y=\"217.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"365.9\" y=\"216.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"268.6\" y=\"69.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"53.9\" y=\"71.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text><text x=\"176.6\" y=\"146.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">P</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Likformiga trianglar</p><p>Trianglarna \\(APB\\) och \\(CPD\\) har lika stora vertikalvinklar vid \\(P\\), och \\(\\angle PAB=\\angle PCD\\) (alternatvinklar, eftersom \\(AB\\parallel DC\\)). De är alltså likformiga.</p></li><li><p class=\"facit-rubrik\">Längdskala</p><p>\\(\\frac{AP}{PC}=\\frac{AB}{DC}=\\frac{16}{10}\\), så \\(AC\\) delas i förhållandet \\(16:10\\).</p><div class=\"facit-matte\">\\[PC=\\frac{10}{26}\\cdot13=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 5 cm</p></div>",
+    "familj": "Bevis och tillämpningar med likformighet",
+    "formaga": [
+      "procedur",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Leta efter två likformiga trianglar med hörnet P. I vilket förhållande delas AC?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 5,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.2090",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "area av parallelltrapets ur delningsförhållande",
+    "t": "<p>I triangeln \\(ABC\\) är \\(DE\\) parallell med \\(BC\\), och \\(AD:DB=2:3\\). Arean av triangeln \\(ADE\\) är 12 cm². Bestäm arean av fyrhörningen \\(DBCE\\). (Svara i cm².)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangel ABC med DE parallell med BC. D ligger på AB och E på AC. Fyrhörningen DBCE är skuggad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"126.4,121.6 85.0,232.0 315.0,232.0 218.4,121.6\" fill=\"#2f6fca\" fill-opacity=\"0.2\"/><polygon points=\"154.0,48.0 85.0,232.0 315.0,232.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"126.4\" y1=\"121.6\" x2=\"218.4\" y2=\"121.6\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><text x=\"150.4\" y=\"38.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"73.6\" y=\"246.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"327.9\" y=\"244.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"113.3\" y=\"119.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text><text x=\"230.3\" y=\"117.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">E</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Längdskala</p><p>\\(\\triangle ADE\\sim\\triangle ABC\\) eftersom \\(DE\\parallel BC\\). \\(AD:AB=2:5\\), så längdskalan från den stora till den lilla triangeln är \\(\\frac25\\).</p></li><li><p class=\"facit-rubrik\">Areaskala</p><div class=\"facit-matte\">\\[\\left(\\frac25\\right)^2=\\frac{4}{25}\\ \\Rightarrow\\ A_{ABC}=12\\cdot\\frac{25}{4}=75\\]</div></li><li><p class=\"facit-rubrik\">Fyrhörningen</p><div class=\"facit-matte\">\\[75-12=63\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 63 cm²</p></div>",
+    "familj": "Bevis och tillämpningar med likformighet",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>AD:DB = 2:3 betyder att AD är 2 delar av AB:s 5 delar. Areaskalan är längdskalan i kvadrat.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 63,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "3.2091",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "höjden där två stag korsar varandra",
+    "t": "<p>Två lodräta stolpar är 4 m och 6 m höga. Ett stag går från toppen av varje stolpe till foten av den andra. På vilken höjd korsar stagen varandra? (Svara i meter med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"Två lodräta stolpar, 4 m och 6 m höga. Stag går från toppen av varje stolpe till foten av den andra och korsar varandra i P på höjden h.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"90.7\" y1=\"212.0\" x2=\"90.7\" y2=\"102.7\" stroke=\"#172b3a\" stroke-width=\"4\"/><line x1=\"309.3\" y1=\"212.0\" x2=\"309.3\" y2=\"48.0\" stroke=\"#172b3a\" stroke-width=\"4\"/><line x1=\"90.7\" y1=\"102.7\" x2=\"309.3\" y2=\"212.0\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"309.3\" y1=\"48.0\" x2=\"90.7\" y2=\"212.0\" stroke=\"#2f6fca\" stroke-width=\"2\"/><line x1=\"178.1\" y1=\"146.4\" x2=\"178.1\" y2=\"212.0\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"90.7\" y1=\"212.0\" x2=\"309.3\" y2=\"212.0\" stroke=\"#7a8794\" stroke-width=\"2\"/><text x=\"69.6\" y=\"162.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">4 m</text><text x=\"330.4\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">6 m</text><circle cx=\"178.1\" cy=\"146.4\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"178.1\" y=\"134.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">P</text><text x=\"186.3\" y=\"179.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">h</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två par likformiga trianglar</p><p>Kalla avståndet mellan stolparna \\(d\\) och avståndet från den lägre stolpen till punkten under \\(P\\) för \\(a\\). Höjden \\(h\\) och den höga stolpen ger \\(\\frac{h}{6}=\\frac{a}{d}\\). Höjden och den låga stolpen ger \\(\\frac{h}{4}=\\frac{d-a}{d}\\).</p></li><li><p class=\"facit-rubrik\">Addera</p><div class=\"facit-matte\">\\[\\frac h6+\\frac h4=\\frac ad+\\frac{d-a}{d}=1\\ \\Rightarrow\\ \\frac{5h}{12}=1\\ \\Rightarrow\\ h=2{,}4\\]</div></li><li><p class=\"facit-rubrik\">Kommentar</p><p>Höjden beror inte på avståndet mellan stolparna.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2,4 m</p></div>",
+    "familj": "Bevis och tillämpningar med likformighet",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Det finns två par likformiga trianglar. Skriv h/6 och h/4 som andelar av avståndet mellan stolparna och addera.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.4,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "3.2092",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "vilka villkor räcker för likformighet",
+    "t": "<p>Vilka av villkoren räcker för att trianglarna \\(ABC\\) och \\(DEF\\) ska vara likformiga med \\(A\\leftrightarrow D\\), \\(B\\leftrightarrow E\\) och \\(C\\leftrightarrow F\\)? (Välj alla som stämmer.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Likformighetsfallen</p><p>Två par lika stora vinklar räcker (VV). Tre par sidor i samma förhållande räcker (SSS). Två par sidor och en vinkel som inte ligger mellan dem räcker inte, och inte heller ett enda par lika långa sidor.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Villkoren VV och SSS.</p></div>",
+    "familj": "Visa att trianglar är likformiga",
+    "formaga": [
+      "begrepp",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Jämför med likformighetsfallen VV, SVS och SSS. Var ligger vinkeln i förhållande till sidorna?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "∠A = ∠D och ∠B = ∠E",
+        "ratt": true,
+        "kommentar": "Vinkel–vinkel."
+      },
+      {
+        "txt": "AB/DE = BC/EF och ∠C = ∠F",
+        "ratt": false,
+        "kommentar": "Vinkeln C ligger inte mellan sidorna AB och BC."
+      },
+      {
+        "txt": "AB/DE = BC/EF = CA/FD",
+        "ratt": true,
+        "kommentar": "Sida–sida–sida."
+      },
+      {
+        "txt": "AB = DE",
+        "ratt": false,
+        "kommentar": "Ett par lika långa sidor säger inget om formen."
+      }
+    ]
+  },
+  {
+    "id": "3.2093",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vinklar ändras inte vid likformighet",
+    "t": "<p>Triangeln \\(DEF\\) är en förstoring av triangeln \\(ABC\\) med längdskalan 1,5, där \\(A\\leftrightarrow D\\). Vinkeln \\(A\\) är \\(40^\\circ\\). Hur stor är vinkeln \\(D\\)? (Svara i grader.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Motsvarande vinklar</p><p>Vid en förstoring blir sidorna längre, men vinklarna är oförändrade. Motsvarande vinklar i likformiga trianglar är lika stora.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(40^\\circ\\)</p></div>",
+    "familj": "Bevis och tillämpningar med likformighet",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Ändras formen när en figur förstoras?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 40,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2094",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "motsvarande sida ur två givna sidor",
+    "t": "<p>Trianglarna \\(ABC\\) och \\(DEF\\) är likformiga med \\(A\\leftrightarrow D\\), \\(B\\leftrightarrow E\\) och \\(C\\leftrightarrow F\\). \\(AB=4\\) cm, \\(DE=10\\) cm och \\(BC=5{,}2\\) cm. Bestäm \\(EF\\). (Svara i cm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Längdskala</p><div class=\"facit-matte\">\\[\\frac{DE}{AB}=\\frac{10}{4}=2{,}5\\]</div></li><li><p class=\"facit-rubrik\">Motsvarande sida</p><div class=\"facit-matte\">\\[EF=2{,}5\\cdot5{,}2=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13 cm</p></div>",
+    "familj": "Bevis och tillämpningar med likformighet",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många gånger längre är DE än AB?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.2095",
+    "kap": 3,
+    "omr": "bevis_likformighet",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vinkel vid höjden i rätvinklig triangel",
+    "t": "<p>Triangeln \\(ABC\\) är rätvinklig vid \\(C\\), och \\(CD\\) är höjden mot \\(AB\\). Vinkeln \\(B\\) är \\(37^\\circ\\). Bestäm vinkeln \\(x=\\angle ACD\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Rätvinklig triangel ABC med rät vinkel vid C och höjden CD mot AB. Vinkeln vid B är 37 grader och vinkeln ACD är x.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"48.0,213.1 352.0,213.1 158.1,66.9\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"158.1\" y1=\"66.9\" x2=\"158.1\" y2=\"213.1\" stroke=\"#2f6fca\" stroke-width=\"2.2\"/><polyline points=\"150.3,77.3 160.7,85.1 168.5,74.8\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><polyline points=\"171.1,213.1 171.1,200.1 158.1,200.1\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><path d=\"M 318.0 213.1 A 34 34 0 0 1 324.8 192.6\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"305.5\" y=\"202.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">37°</text><path d=\"M 137.6 94.1 A 34 34 0 0 0 158.1 100.9\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"142.6\" y=\"118.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"33.6\" y=\"222.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"366.7\" y=\"221.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"155.3\" y=\"57.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"150.6\" y=\"231.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln A</p><div class=\"facit-matte\">\\[\\angle A=90^\\circ-37^\\circ=53^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Triangeln ADC</p><p>Triangeln \\(ADC\\) är rätvinklig vid \\(D\\).</p><div class=\"facit-matte\">\\[x=90^\\circ-53^\\circ=37^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Slutsats</p><p>\\(\\angle ACD=\\angle B\\). Därför är trianglarna \\(ADC\\) och \\(ACB\\) likformiga (VV).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(37^\\circ\\)</p></div>",
+    "familj": "Bevis och tillämpningar med likformighet",
+    "formaga": [
+      "resonemang",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna först ut vinkeln A. Använd sedan att triangeln ADC är rätvinklig.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 37,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
   }
 ];

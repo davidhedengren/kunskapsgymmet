@@ -32329,7 +32329,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "binom gånger trinom",
     "t": "<p>Utveckla och förenkla \\((x+3)(x^2-2x+1)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x+3)(x^2-2x+1)=x^3-2x^2+x+3x^2-6x+3\\]</div></li><li><div class=\"facit-matte\">\\[=x^3+x^2-5x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^3+x^2-5x+3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera x och sedan 3 med varje term i den andra parentesen</p><div class=\"facit-matte\">\\[\\begin{gathered}(x+3)(x^2-2x+1)\\\\=x^3-2x^2+x+3x^2-6x+3\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Slå ihop lika termer: \\(-2x^2+3x^2\\) och \\(x-6x\\)</p><div class=\"facit-matte\">\\[=x^3+x^2-5x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^3+x^2-5x+3\\)</p></div>",
     "familj": "Utveckla produkter av parenteser",
     "formaga": [
       "procedur"
@@ -32359,7 +32359,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "skillnad mellan produkter med koefficienter",
     "t": "<p>Förenkla \\((2x-1)(x+3)-(x-2)(2x+5)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(2x-1)(x+3)=2x^2+5x-3\\]</div></li><li><div class=\"facit-matte\">\\[(x-2)(2x+5)=2x^2+x-10\\]</div></li><li><div class=\"facit-matte\">\\[(2x^2+5x-3)-(2x^2+x-10)=4x+7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x+7\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla den första produkten</p><div class=\"facit-matte\">\\[(2x-1)(x+3)=2x^2+5x-3\\]</div></li><li><p class=\"facit-rubrik\">Utveckla den andra produkten</p><div class=\"facit-matte\">\\[(x-2)(2x+5)=2x^2+x-10\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera hela den andra produkten, så att alla dess termer byter tecken</p><div class=\"facit-matte\">\\[\\begin{gathered}(2x^2+5x-3)-(2x^2+x-10)\\\\=4x+7\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x+7\\)</p></div>",
     "familj": "Förenkla och bestämma konstanter",
     "formaga": [
       "procedur"
@@ -32389,7 +32389,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "pool med plattgång",
     "t": "<p>En pool är 8 m lång och 5 m bred. Runt poolen läggs en plattgång som är \\(x\\) m bred.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"360\" height=\"260\" viewBox=\"0 0 360 260\" role=\"img\" aria-label=\"En rektangulär pool 8 m gånger 5 m med en plattgång med bredden x runt om.\"><title>En rektangulär pool 8 m gånger 5 m med en plattgång med bredden x runt om.</title><rect x=\"1\" y=\"1\" width=\"358\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"30\" width=\"280\" height=\"200\" fill=\"#ECE7DF\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><rect x=\"80\" y=\"70\" width=\"200\" height=\"120\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"1.6\"/><text x=\"180.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\">pool</text><text x=\"180.0\" y=\"92.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#172b3a\">8 m</text><text x=\"98.0\" y=\"135.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#172b3a\">5 m</text><line x1=\"180\" y1=\"30\" x2=\"180\" y2=\"70\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><text x=\"190.0\" y=\"56.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-style=\"italic\">x</text><line x1=\"40\" y1=\"130\" x2=\"80\" y2=\"130\" stroke=\"#5b6773\" stroke-width=\"1.2\" stroke-dasharray=\"4 3\"/><text x=\"60.0\" y=\"122.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-style=\"italic\">x</text></svg></span><p>Skriv arean av poolen och plattgången tillsammans som ett förenklat polynom (i m²).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Hela ytan är \\(8+2x\\) lång och \\(5+2x\\) bred, eftersom gången finns på båda sidor.</p></li><li><div class=\"facit-matte\">\\[(8+2x)(5+2x)=40+16x+10x+4x^2\\]</div></li><li><div class=\"facit-matte\">\\[=4x^2+26x+40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x^2+26x+40\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm måtten för poolen och gången tillsammans</p><p>Hela ytan är \\(8+2x\\) lång och \\(5+2x\\) bred, eftersom gången finns på båda sidor.</p></li><li><p class=\"facit-rubrik\">Arean är längd gånger bredd</p><div class=\"facit-matte\">\\[\\begin{gathered}(8+2x)(5+2x)\\\\=40+16x+10x+4x^2\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Slå ihop x-termerna och ordna efter grad</p><div class=\"facit-matte\">\\[=4x^2+26x+40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x^2+26x+40\\)</p></div>",
     "familj": "Utveckla produkter av parenteser",
     "formaga": [
       "procedur",
@@ -32420,7 +32420,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "ekvation där x²-termerna tar ut varandra",
     "t": "<p>Lös ekvationen \\((x+4)(x+3)=x(x+9)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2+7x+12=x^2+9x\\]</div></li><li><div class=\"facit-matte\">\\[12=2x\\]</div></li><li><div class=\"facit-matte\">\\[x=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla båda leden</p><div class=\"facit-matte\">\\[x^2+7x+12=x^2+9x\\]</div></li><li><p class=\"facit-rubrik\">\\(x^2\\) finns i båda leden och tar ut varandra</p><div class=\"facit-matte\">\\[12=2x\\]</div></li><li><p class=\"facit-rubrik\">Dela med 2</p><div class=\"facit-matte\">\\[x=6\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera i ursprungsekvationen</p><div class=\"facit-matte\">\\[\\begin{gathered}(6+4)(6+3)=90,\\\\6\\cdot(6+9)=90\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6\\)</p></div>",
     "familj": "Förenkla och bestämma konstanter",
     "formaga": [
       "procedur"
@@ -32450,7 +32450,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "två variabler med koefficienter",
     "t": "<p>Utveckla och förenkla \\((3x-2y)(2x+y)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(3x-2y)(2x+y)=6x^2+3xy-4xy-2y^2\\]</div></li><li><div class=\"facit-matte\">\\[=6x^2-xy-2y^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6x^2-xy-2y^2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera varje term i den första parentesen med varje term i den andra</p><div class=\"facit-matte\">\\[\\begin{gathered}(3x-2y)(2x+y)\\\\=6x^2+3xy-4xy-2y^2\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">\\(3xy\\) och \\(-4xy\\) är lika termer och slås ihop</p><div class=\"facit-matte\">\\[=6x^2-xy-2y^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6x^2-xy-2y^2\\)</p></div>",
     "familj": "Utveckla produkter av parenteser",
     "formaga": [
       "procedur"
@@ -32480,7 +32480,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "x-termen ska försvinna",
     "t": "<p>Bestäm konstanten \\(a\\) så att \\((x+a)(2x-3)\\) inte har någon x-term när den utvecklas.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x+a)(2x-3)=2x^2-3x+2ax-3a\\]</div></li><li><div class=\"facit-matte\">\\[=2x^2+(2a-3)x-3a\\]</div></li><li><div class=\"facit-matte\">\\[2a-3=0\\Rightarrow a=1{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=1{,}5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla produkten</p><div class=\"facit-matte\">\\[(x+a)(2x-3)=2x^2-3x+2ax-3a\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna och bryt ut x</p><div class=\"facit-matte\">\\[=2x^2+(2a-3)x-3a\\]</div></li><li><p class=\"facit-rubrik\">Ingen x-term betyder att koefficienten \\(2a-3\\) är 0</p><div class=\"facit-matte\">\\[2a-3=0\\Rightarrow a=1{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=1{,}5\\)</p></div>",
     "familj": "Förenkla och bestämma konstanter",
     "formaga": [
       "procedur",
@@ -32510,8 +32510,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "niva": "C",
     "poang": "0/1/0",
     "typ": "bestäm a och b ur summa och produkt",
-    "t": "<p>Bestäm talen \\(a\\) och \\(b\\), där \\(a>b\\), så att \\[(x+a)(x+b)=x^2-2x-15\\] gäller för alla \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x+a)(x+b)=x^2+(a+b)x+ab\\]</div></li><li><div class=\"facit-matte\">\\[a+b=-2,\\quad ab=-15\\]</div></li><li><p>Två tal med produkten \\(-15\\) och summan \\(-2\\) är 3 och \\(-5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3,\\ b=-5\\)</p></div>",
+    "t": "<p>Bestäm talen \\(a\\) och \\(b\\), där \\(a\\gt b\\), så att \\[(x+a)(x+b)=x^2-2x-15\\] gäller för alla \\(x\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla vänster led med a och b som okända tal</p><div class=\"facit-matte\">\\[(x+a)(x+b)=x^2+(a+b)x+ab\\]</div></li><li><p class=\"facit-rubrik\">Jämför koefficienterna med \\(x^2-2x-15\\)</p><div class=\"facit-matte\">\\[a+b=-2,\\quad ab=-15\\]</div></li><li><p class=\"facit-rubrik\">Sök två tal med summan −2 och produkten −15; det större är a</p><p>Två tal med produkten \\(-15\\) och summan \\(-2\\) är 3 och \\(-5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3,\\ b=-5\\)</p></div>",
     "familj": "Förenkla och bestämma konstanter",
     "formaga": [
       "procedur",
@@ -32558,8 +32558,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "niva": "C",
     "poang": "0/1/0",
     "typ": "rektangel och kvadrat med samma area",
-    "t": "<p>En rektangel har sidorna \\(x+5\\) och \\(x-2\\). En kvadrat har sidan \\(x+1\\). Alla mått är i cm och \\(x>2\\). För vilket \\(x\\) har rektangeln och kvadraten samma area?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x+5)(x-2)=x^2+3x-10\\]</div></li><li><div class=\"facit-matte\">\\[(x+1)^2=x^2+2x+1\\]</div></li><li><div class=\"facit-matte\">\\[x^2+3x-10=x^2+2x+1\\]</div></li><li><div class=\"facit-matte\">\\[x=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=11\\)</p></div>",
+    "t": "<p>En rektangel har sidorna \\(x+5\\) och \\(x-2\\). En kvadrat har sidan \\(x+1\\). Alla mått är i cm och \\(x\\gt 2\\). För vilket \\(x\\) har rektangeln och kvadraten samma area?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckna rektangelns area</p><div class=\"facit-matte\">\\[(x+5)(x-2)=x^2+3x-10\\]</div></li><li><p class=\"facit-rubrik\">Teckna kvadratens area med kvadreringsregeln</p><div class=\"facit-matte\">\\[(x+1)^2=x^2+2x+1\\]</div></li><li><p class=\"facit-rubrik\">Sätt areorna lika</p><div class=\"facit-matte\">\\[x^2+3x-10=x^2+2x+1\\]</div></li><li><p class=\"facit-rubrik\">\\(x^2\\) tar ut varandra, och kvar blir \\(3x-10=2x+1\\)</p><div class=\"facit-matte\">\\[x=11\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att båda areorna blir 144 cm²</p><div class=\"facit-matte\">\\[(11+5)(11-2)=16\\cdot9=144=12^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=11\\)</p></div>",
     "familj": "Förenkla och bestämma konstanter",
     "formaga": [
       "procedur",
@@ -32590,7 +32590,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "kvadrat ur produkt plus fyra",
     "t": "<p>Kalle påstår att om två heltal skiljer sig med 4, så blir produkten av talen plus 4 alltid ett kvadrattal. Han kallar talen \\(n\\) och \\(n+4\\). Vilken omskrivning visar att han har rätt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[n(n+4)+4=n^2+4n+4\\]</div></li><li><div class=\"facit-matte\">\\[=(n+2)^2\\]</div></li><li><p>Uttrycket är kvadraten av heltalet \\(n+2\\), alltså alltid ett kvadrattal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(n(n+4)+4=(n+2)^2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla Kalles uttryck</p><div class=\"facit-matte\">\\[n(n+4)+4=n^2+4n+4\\]</div></li><li><p class=\"facit-rubrik\">Känn igen första kvadreringsregeln med termerna n och 2</p><div class=\"facit-matte\">\\[=(n+2)^2\\]</div></li><li><p class=\"facit-rubrik\">\\((n+2)^2\\) är kvadraten av ett heltal</p><p>Uttrycket är kvadraten av heltalet \\(n+2\\), alltså alltid ett kvadrattal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(n(n+4)+4=(n+2)^2\\)</p></div>",
     "familj": "Förenkla och bestämma konstanter",
     "formaga": [
       "resonemang"
@@ -32640,7 +32640,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "två konstanter ur en identitet",
     "t": "<p>Bestäm konstanterna \\(a\\) och \\(b\\) så att \\[(ax+1)(x+b)=3x^2+7x+2\\] gäller för alla \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(ax+1)(x+b)=ax^2+(ab+1)x+b\\]</div></li><li><div class=\"facit-matte\">\\[a=3,\\quad b=2\\]</div></li><li><p>Kontroll av x-termen: \\(ab+1=3\\cdot2+1=7\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3,\\ b=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla vänster led</p><div class=\"facit-matte\">\\[(ax+1)(x+b)=ax^2+(ab+1)x+b\\]</div></li><li><p class=\"facit-rubrik\">Jämför \\(x^2\\)-termerna och konstanttermerna</p><div class=\"facit-matte\">\\[a=3,\\quad b=2\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera att x-termen också stämmer</p><p>Kontroll av x-termen: \\(ab+1=3\\cdot2+1=7\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3,\\ b=2\\)</p></div>",
     "familj": "Förenkla och bestämma konstanter",
     "formaga": [
       "procedur",
@@ -32688,7 +32688,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "ramens area",
     "t": "<p>En tavla är 20 cm bred och 30 cm hög. Den får en ram som är \\(x\\) cm bred runt om. Teckna ramens area (bara ramen) som ett förenklat polynom.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Tavla med ram: \\((20+2x)(30+2x)\\). Dra bort tavlans area 600 cm².</p></li><li><div class=\"facit-matte\">\\[(20+2x)(30+2x)-600=600+100x+4x^2-600\\]</div></li><li><div class=\"facit-matte\">\\[=4x^2+100x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x^2+100x\\) cm²</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckna måtten för tavlan med ram</p><p>Tavla med ram: \\((20+2x)(30+2x)\\). Dra bort tavlans area 600 cm².</p></li><li><p class=\"facit-rubrik\">Utveckla produkten och dra bort 600</p><div class=\"facit-matte\">\\[\\begin{gathered}(20+2x)(30+2x)-600\\\\=600+100x+4x^2-600\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">600 tar ut varandra</p><div class=\"facit-matte\">\\[=4x^2+100x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x^2+100x\\) cm²</p></div>",
     "familj": "Förenkla och bestämma konstanter",
     "formaga": [
       "procedur",
@@ -32719,7 +32719,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "summa av två kvadrater",
     "t": "<p>Förenkla \\((x+3)^2+(x-3)^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x+3)^2=x^2+6x+9\\]</div></li><li><div class=\"facit-matte\">\\[(x-3)^2=x^2-6x+9\\]</div></li><li><div class=\"facit-matte\">\\[x^2+6x+9+x^2-6x+9=2x^2+18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x^2+18\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla den första kvadraten</p><div class=\"facit-matte\">\\[(x+3)^2=x^2+6x+9\\]</div></li><li><p class=\"facit-rubrik\">Utveckla den andra kvadraten</p><div class=\"facit-matte\">\\[(x-3)^2=x^2-6x+9\\]</div></li><li><p class=\"facit-rubrik\">Addera: \\(6x\\) och \\(-6x\\) tar ut varandra</p><div class=\"facit-matte\">\\[x^2+6x+9+x^2-6x+9=2x^2+18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2x^2+18\\)</p></div>",
     "familj": "Utveckla med kvadreringsreglerna",
     "formaga": [
       "procedur"
@@ -32749,7 +32749,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "kvadrat med två variabler och koefficienter",
     "t": "<p>Utveckla \\((3a-2b)^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(3a-2b)^2=(3a)^2-2\\cdot3a\\cdot2b+(2b)^2\\]</div></li><li><div class=\"facit-matte\">\\[=9a^2-12ab+4b^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9a^2-12ab+4b^2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andra kvadreringsregeln med termerna \\(3a\\) och \\(2b\\)</p><div class=\"facit-matte\">\\[(3a-2b)^2=(3a)^2-2\\cdot3a\\cdot2b+(2b)^2\\]</div></li><li><p class=\"facit-rubrik\">Kvadrera och multiplicera ut varje term</p><div class=\"facit-matte\">\\[=9a^2-12ab+4b^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9a^2-12ab+4b^2\\)</p></div>",
     "familj": "Utveckla med kvadreringsreglerna",
     "formaga": [
       "procedur"
@@ -32779,7 +32779,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "ekvation med två kvadrater",
     "t": "<p>Lös ekvationen \\((x-7)^2=(x+1)^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2-14x+49=x^2+2x+1\\]</div></li><li><div class=\"facit-matte\">\\[48=16x\\]</div></li><li><div class=\"facit-matte\">\\[x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla båda kvadraterna</p><div class=\"facit-matte\">\\[x^2-14x+49=x^2+2x+1\\]</div></li><li><p class=\"facit-rubrik\">\\(x^2\\) tar ut varandra; samla x-termerna på ena sidan</p><div class=\"facit-matte\">\\[48=16x\\]</div></li><li><p class=\"facit-rubrik\">Dela med 16</p><div class=\"facit-matte\">\\[x=3\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera i ursprungsekvationen</p><div class=\"facit-matte\">\\[(3-7)^2=16,\\qquad(3+1)^2=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
     "familj": "Kvadreringsregler med parametrar och rötter",
     "formaga": [
       "procedur"
@@ -32809,7 +32809,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "kvadrat med kvadratrot och heltal",
     "t": "<p>Utveckla och förenkla \\((\\sqrt2+3)^2\\). Svara exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(\\sqrt2+3)^2=(\\sqrt2)^2+2\\cdot3\\sqrt2+3^2\\]</div></li><li><div class=\"facit-matte\">\\[=2+6\\sqrt2+9=11+6\\sqrt2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(11+6\\sqrt2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Första kvadreringsregeln med termerna \\(\\sqrt2\\) och 3</p><div class=\"facit-matte\">\\[(\\sqrt2+3)^2=(\\sqrt2)^2+2\\cdot3\\sqrt2+3^2\\]</div></li><li><p class=\"facit-rubrik\">Använd \\((\\sqrt2)^2=2\\) och slå ihop heltalen</p><div class=\"facit-matte\">\\[=2+6\\sqrt2+9=11+6\\sqrt2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(11+6\\sqrt2\\)</p></div>",
     "familj": "Kvadreringsregler med parametrar och rötter",
     "formaga": [
       "procedur"
@@ -32839,7 +32839,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "kvadrat med bråkkoefficient",
     "t": "<p>Utveckla \\(\\left(\\dfrac x2+4\\right)^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\left(\\frac x2\\right)^2+2\\cdot\\frac x2\\cdot4+4^2\\]</div></li><li><div class=\"facit-matte\">\\[=\\frac{x^2}{4}+4x+16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{x^2}4+4x+16\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Första kvadreringsregeln med termerna \\(\\frac x2\\) och 4</p><div class=\"facit-matte\">\\[\\left(\\frac x2\\right)^2+2\\cdot\\frac x2\\cdot4+4^2\\]</div></li><li><p class=\"facit-rubrik\">Förenkla varje term; dubbla produkten blir \\(2\\cdot\\frac x2\\cdot4=4x\\)</p><div class=\"facit-matte\">\\[=\\frac{x^2}{4}+4x+16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{x^2}4+4x+16\\)</p></div>",
     "familj": "Utveckla med kvadreringsreglerna",
     "formaga": [
       "procedur"
@@ -32869,7 +32869,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "stort tal i kvadrat",
     "t": "<p>Beräkna \\(1001^2\\) utan miniräknare med hjälp av en kvadreringsregel.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1001^2=(1000+1)^2\\]</div></li><li><div class=\"facit-matte\">\\[=1\\,000\\,000+2\\,000+1=1\\,002\\,001\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 002 001</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv 1001 som en summa där det ena talet är jämnt</p><div class=\"facit-matte\">\\[1001^2=(1000+1)^2\\]</div></li><li><p class=\"facit-rubrik\">Första kvadreringsregeln: \\(1000^2+2\\cdot1000\\cdot1+1^2\\)</p><div class=\"facit-matte\">\\[=1\\,000\\,000+2\\,000+1=1\\,002\\,001\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 002 001</p></div>",
     "familj": "Kvadreringsregler med parametrar och rötter",
     "formaga": [
       "procedur",
@@ -32900,7 +32900,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "två konstanter i en kvadrat",
     "t": "<p>Bestäm konstanterna \\(c\\) och \\(d\\) så att \\[(2x+c)^2=4x^2-12x+d\\] gäller för alla \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(2x+c)^2=4x^2+4cx+c^2\\]</div></li><li><div class=\"facit-matte\">\\[4c=-12\\Rightarrow c=-3\\]</div></li><li><div class=\"facit-matte\">\\[d=c^2=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c=-3,\\ d=9\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla vänster led med kvadreringsregeln</p><div class=\"facit-matte\">\\[(2x+c)^2=4x^2+4cx+c^2\\]</div></li><li><p class=\"facit-rubrik\">x-termerna i båda leden måste vara lika</p><div class=\"facit-matte\">\\[4c=-12\\Rightarrow c=-3\\]</div></li><li><p class=\"facit-rubrik\">Konstanttermerna måste också vara lika</p><div class=\"facit-matte\">\\[d=c^2=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c=-3,\\ d=9\\)</p></div>",
     "familj": "Kvadreringsregler med parametrar och rötter",
     "formaga": [
       "procedur",
@@ -32948,7 +32948,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "x² + y² ur summa och produkt",
     "t": "<p>För två tal gäller \\(x+y=7\\) och \\(xy=10\\). Beräkna \\(x^2+y^2\\) utan att bestämma \\(x\\) och \\(y\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x+y)^2=x^2+2xy+y^2\\]</div></li><li><div class=\"facit-matte\">\\[x^2+y^2=(x+y)^2-2xy\\]</div></li><li><div class=\"facit-matte\">\\[=49-20=29\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 29</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadreringsregeln kopplar ihop summan, produkten och kvadraterna</p><div class=\"facit-matte\">\\[(x+y)^2=x^2+2xy+y^2\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(x^2+y^2\\)</p><div class=\"facit-matte\">\\[x^2+y^2=(x+y)^2-2xy\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x+y=7\\) och \\(xy=10\\)</p><div class=\"facit-matte\">\\[=49-20=29\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 29</p></div>",
     "familj": "Kvadreringsregler med parametrar och rötter",
     "formaga": [
       "problemlösning"
@@ -32978,7 +32978,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "produkt ur differens och kvadratsumma",
     "t": "<p>För två tal gäller \\(x-y=3\\) och \\(x^2+y^2=29\\). Beräkna \\(xy\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x-y)^2=x^2-2xy+y^2\\]</div></li><li><div class=\"facit-matte\">\\[9=29-2xy\\]</div></li><li><div class=\"facit-matte\">\\[xy=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andra kvadreringsregeln innehåller både \\(x^2+y^2\\) och \\(xy\\)</p><div class=\"facit-matte\">\\[(x-y)^2=x^2-2xy+y^2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x-y=3\\) och \\(x^2+y^2=29\\)</p><div class=\"facit-matte\">\\[9=29-2xy\\]</div></li><li><p class=\"facit-rubrik\">Lös ut xy</p><div class=\"facit-matte\">\\[xy=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10</p></div>",
     "familj": "Kvadreringsregler med parametrar och rötter",
     "formaga": [
       "problemlösning"
@@ -33008,7 +33008,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "kvadratens sida ur areaökning",
     "t": "<p>Sidan i en kvadrat är \\(x\\) cm. När sidan ökas med 3 cm ökar arean med 75 cm².</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"320\" height=\"300\" viewBox=\"0 0 320 300\" role=\"img\" aria-label=\"En kvadrat med sidan x förstoras till sidan x + 3. Den nya delen består av två rektanglar och en liten kvadrat.\"><title>En kvadrat med sidan x förstoras till sidan x + 3. Den nya delen består av två rektanglar och en liten kvadrat.</title><rect x=\"1\" y=\"1\" width=\"318\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"70\" y=\"50\" width=\"160\" height=\"160\" fill=\"#d9ecf2\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"150.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#172b3a\">x²</text><text x=\"150.0\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">x</text><rect x=\"230\" y=\"50\" width=\"60\" height=\"160\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"260.0\" y=\"36.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">3</text><text x=\"56.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">x</text><rect x=\"70\" y=\"210\" width=\"160\" height=\"60\" fill=\"#fbe3d6\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><rect x=\"230\" y=\"210\" width=\"60\" height=\"60\" fill=\"#e3f1e6\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><text x=\"56.0\" y=\"246.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">3</text></svg></span><p>Bestäm \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x+3)^2-x^2=75\\]</div></li><li><div class=\"facit-matte\">\\[x^2+6x+9-x^2=75\\]</div></li><li><div class=\"facit-matte\">\\[6x=66\\Rightarrow x=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=11\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ökningen är den nya arean minus den gamla</p><div class=\"facit-matte\">\\[(x+3)^2-x^2=75\\]</div></li><li><p class=\"facit-rubrik\">Utveckla kvadraten</p><div class=\"facit-matte\">\\[x^2+6x+9-x^2=75\\]</div></li><li><p class=\"facit-rubrik\">\\(x^2\\) tar ut varandra; lös den linjära ekvationen</p><div class=\"facit-matte\">\\[6x=66\\Rightarrow x=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=11\\)</p></div>",
     "familj": "Kvadreringsregler med parametrar och rötter",
     "formaga": [
       "procedur",
@@ -33039,7 +33039,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "parameter i skillnad mellan kvadrater",
     "t": "<p>Bestäm \\(a\\) så att \\((x+a)^2-(x-a)^2=24x\\) gäller för alla \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x+a)^2-(x-a)^2=x^2+2ax+a^2-x^2+2ax-a^2\\]</div></li><li><div class=\"facit-matte\">\\[=4ax\\]</div></li><li><div class=\"facit-matte\">\\[4a=24\\Rightarrow a=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Utveckla båda kvadraterna; minustecknet byter tecken på hela den andra</p><div class=\"facit-matte\">\\[\\begin{gathered}(x+a)^2-(x-a)^2\\\\=x^2+2ax+a^2-x^2+2ax-a^2\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">\\(x^2\\) och \\(a^2\\) tar ut varandra</p><div class=\"facit-matte\">\\[=4ax\\]</div></li><li><p class=\"facit-rubrik\">Jämför med \\(24x\\)</p><div class=\"facit-matte\">\\[4a=24\\Rightarrow a=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=6\\)</p></div>",
     "familj": "Kvadreringsregler med parametrar och rötter",
     "formaga": [
       "procedur",
@@ -33070,7 +33070,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "konjugat med x²",
     "t": "<p>Förenkla \\((x^2+3)(x^2-3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x^2+3)(x^2-3)=(x^2)^2-3^2\\]</div></li><li><div class=\"facit-matte\">\\[=x^4-9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^4-9\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konjugatregeln med termerna \\(x^2\\) och 3</p><div class=\"facit-matte\">\\[(x^2+3)(x^2-3)=(x^2)^2-3^2\\]</div></li><li><p class=\"facit-rubrik\">\\((x^2)^2=x^4\\)</p><div class=\"facit-matte\">\\[=x^4-9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^4-9\\)</p></div>",
     "familj": "Utveckla och räkna med konjugatregeln",
     "formaga": [
       "procedur"
@@ -33100,7 +33100,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "konjugat med decimalkoefficient",
     "t": "<p>Förenkla \\((0{,}5x+4)(0{,}5x-4)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(0{,}5x)^2-4^2\\]</div></li><li><div class=\"facit-matte\">\\[=0{,}25x^2-16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}25x^2-16\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konjugatregeln med termerna \\(0{,}5x\\) och 4</p><div class=\"facit-matte\">\\[(0{,}5x)^2-4^2\\]</div></li><li><p class=\"facit-rubrik\">Kvadrera: \\(0{,}5^2=0{,}25\\)</p><div class=\"facit-matte\">\\[=0{,}25x^2-16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(0{,}25x^2-16\\)</p></div>",
     "familj": "Utveckla och räkna med konjugatregeln",
     "formaga": [
       "procedur"
@@ -33130,7 +33130,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "faktorisera med talet först",
     "t": "<p>Faktorisera \\(49-x^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[49-x^2=7^2-x^2\\]</div></li><li><div class=\"facit-matte\">\\[=(7-x)(7+x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((7-x)(7+x)\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv båda termerna som kvadrater</p><div class=\"facit-matte\">\\[49-x^2=7^2-x^2\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln baklänges: \\(a^2-b^2=(a-b)(a+b)\\)</p><div class=\"facit-matte\">\\[=(7-x)(7+x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((7-x)(7+x)\\)</p></div>",
     "familj": "Faktorisera och lösa ekvationer med konjugatregeln",
     "formaga": [
       "procedur"
@@ -33160,7 +33160,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "produkt av decimaltal",
     "t": "<p>Beräkna \\(7{,}5\\cdot8{,}5\\) utan miniräknare med hjälp av konjugatregeln.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7{,}5\\cdot8{,}5=(8-0{,}5)(8+0{,}5)\\]</div></li><li><div class=\"facit-matte\">\\[=64-0{,}25=63{,}75\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 63,75</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Båda talen ligger 0,5 från 8</p><div class=\"facit-matte\">\\[7{,}5\\cdot8{,}5=(8-0{,}5)(8+0{,}5)\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(8^2-0{,}5^2\\)</p><div class=\"facit-matte\">\\[=64-0{,}25=63{,}75\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 63,75</p></div>",
     "familj": "Utveckla och räkna med konjugatregeln",
     "formaga": [
       "procedur",
@@ -33191,7 +33191,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "ekvation med bråk i konstanten",
     "t": "<p>Lös ekvationen \\(x^2-\\dfrac14=0\\) genom att faktorisera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2-\\tfrac14=\\left(x-\\tfrac12\\right)\\left(x+\\tfrac12\\right)\\]</div></li><li><div class=\"facit-matte\">\\[x=\\tfrac12\\quad\\text{eller}\\quad x=-\\tfrac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm\\frac12\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv \\(\\frac14\\) som \\(\\left(\\frac12\\right)^2\\) och använd konjugatregeln</p><div class=\"facit-matte\">\\[x^2-\\tfrac14=\\left(x-\\tfrac12\\right)\\left(x+\\tfrac12\\right)\\]</div></li><li><p class=\"facit-rubrik\">En produkt är noll när någon av faktorerna är noll</p><div class=\"facit-matte\">\\[x=\\tfrac12\\quad\\text{eller}\\quad x=-\\tfrac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm\\frac12\\)</p></div>",
     "familj": "Faktorisera och lösa ekvationer med konjugatregeln",
     "formaga": [
       "procedur"
@@ -33235,7 +33235,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "differens av stora kvadrater",
     "t": "<p>Beräkna \\(2026^2-2024^2\\) utan miniräknare.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2026^2-2024^2=(2026-2024)(2026+2024)\\]</div></li><li><div class=\"facit-matte\">\\[=2\\cdot4050=8100\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8100</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En skillnad mellan två kvadrater kan faktoriseras med konjugatregeln</p><div class=\"facit-matte\">\\[\\begin{gathered}2026^2-2024^2\\\\=(2026-2024)(2026+2024)\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut de två enkla faktorerna</p><div class=\"facit-matte\">\\[=2\\cdot4050=8100\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8100</p></div>",
     "familj": "Utveckla och räkna med konjugatregeln",
     "formaga": [
       "procedur",
@@ -33266,7 +33266,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "faktorisera fjärdegradsuttryck",
     "t": "<p>Vilket av uttrycken är \\(x^4-16\\) faktoriserat så långt som möjligt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^4-16=(x^2-4)(x^2+4)\\]</div></li><li><div class=\"facit-matte\">\\[=(x-2)(x+2)(x^2+4)\\]</div></li><li><p>\\(x^2+4\\) kan inte faktoriseras vidare med reella tal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((x-2)(x+2)(x^2+4)\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konjugatregeln på \\((x^2)^2-4^2\\)</p><div class=\"facit-matte\">\\[x^4-16=(x^2-4)(x^2+4)\\]</div></li><li><p class=\"facit-rubrik\">\\(x^2-4\\) är också en skillnad mellan två kvadrater</p><div class=\"facit-matte\">\\[=(x-2)(x+2)(x^2+4)\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera om något mer kan faktoriseras</p><p>\\(x^2+4\\) kan inte faktoriseras vidare med reella tal.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((x-2)(x+2)(x^2+4)\\)</p></div>",
     "familj": "Faktorisera och lösa ekvationer med konjugatregeln",
     "formaga": [
       "procedur",
@@ -33316,8 +33316,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "niva": "C",
     "poang": "0/1/0",
     "typ": "rektangel jämfört med kvadrat",
-    "t": "<p>En kvadrat har sidan \\(x\\) cm. En rektangel har sidorna \\(x+5\\) cm och \\(x-5\\) cm, där \\(x>5\\). Hur många cm² mindre area har rektangeln än kvadraten?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2-(x+5)(x-5)=x^2-(x^2-25)\\]</div></li><li><div class=\"facit-matte\">\\[=25\\]</div></li><li><p>Skillnaden är alltid 25 cm², oavsett x.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25 cm²</p></div>",
+    "t": "<p>En kvadrat har sidan \\(x\\) cm. En rektangel har sidorna \\(x+5\\) cm och \\(x-5\\) cm, där \\(x\\gt 5\\). Hur många cm² mindre area har rektangeln än kvadraten?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckna skillnaden och använd konjugatregeln på rektangelns area</p><div class=\"facit-matte\">\\[x^2-(x+5)(x-5)=x^2-(x^2-25)\\]</div></li><li><p class=\"facit-rubrik\">\\(x^2\\) tar ut varandra</p><div class=\"facit-matte\">\\[=25\\]</div></li><li><p class=\"facit-rubrik\">Skillnaden beror inte på x</p><p>Skillnaden är alltid 25 cm², oavsett x.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25 cm²</p></div>",
     "familj": "Utveckla och räkna med konjugatregeln",
     "formaga": [
       "procedur",
@@ -33349,7 +33349,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "två tal ur summa och produkt via konjugat",
     "t": "<p>För två positiva heltal \\(a\\) och \\(b\\) gäller \\(a+b=11\\) och \\(a^2-b^2=33\\). Bestäm \\(a\\) och \\(b\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a^2-b^2=(a+b)(a-b)\\]</div></li><li><div class=\"facit-matte\">\\[33=11(a-b)\\Rightarrow a-b=3\\]</div></li><li><div class=\"facit-matte\">\\[a+b=11,\\ a-b=3\\Rightarrow a=7,\\ b=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=7,\\ b=4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Faktorisera \\(a^2-b^2\\) med konjugatregeln</p><div class=\"facit-matte\">\\[a^2-b^2=(a+b)(a-b)\\]</div></li><li><p class=\"facit-rubrik\">Använd att \\(a+b=11\\)</p><div class=\"facit-matte\">\\[33=11(a-b)\\Rightarrow a-b=3\\]</div></li><li><p class=\"facit-rubrik\">Addera ekvationerna \\(a+b=11\\) och \\(a-b=3\\)</p><div class=\"facit-matte\">\\[a+b=11,\\ a-b=3\\Rightarrow a=7,\\ b=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=7,\\ b=4\\)</p></div>",
     "familj": "Faktorisera och lösa ekvationer med konjugatregeln",
     "formaga": [
       "problemlösning"
@@ -33396,7 +33396,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "konjugat med rotuttryck",
     "t": "<p>Beräkna \\((2\\sqrt3+1)(2\\sqrt3-1)\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(2\\sqrt3)^2-1^2\\]</div></li><li><div class=\"facit-matte\">\\[=4\\cdot3-1=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konjugatregeln med termerna \\(2\\sqrt3\\) och 1</p><div class=\"facit-matte\">\\[(2\\sqrt3)^2-1^2\\]</div></li><li><p class=\"facit-rubrik\">\\((2\\sqrt3)^2=4\\cdot3\\)</p><div class=\"facit-matte\">\\[=4\\cdot3-1=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 11</p></div>",
     "familj": "Utveckla och räkna med konjugatregeln",
     "formaga": [
       "procedur"
@@ -33407,7 +33407,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "självrättning": true,
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "ledtrad": "<p>\\((2\\sqrt3)^2=4\\cdot3\\).</p>",
+    "ledtrad": "<p>Parenteserna skiljer sig bara i tecknet. Vilken regel passar då, och vad blir \\((2\\sqrt3)^2\\)?</p>",
     "svarstyp": "numeriskt",
     "svarFormat": "numeriskt",
     "rättSvar": 11,
@@ -33426,7 +33426,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "differens av två binomkvadrater",
     "t": "<p>Lös ekvationen \\((2x+1)^2-(x+2)^2=0\\) genom att faktorisera vänster led med konjugatregeln.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\big((2x+1)-(x+2)\\big)\\big((2x+1)+(x+2)\\big)=0\\]</div></li><li><div class=\"facit-matte\">\\[(x-1)(3x+3)=0\\]</div></li><li><div class=\"facit-matte\">\\[x=1\\quad\\text{eller}\\quad x=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\) eller \\(x=-1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vänster led är \\(a^2-b^2\\) med \\(a=2x+1\\) och \\(b=x+2\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}\\big((2x+1)-(x+2)\\big)\\big((2x+1)+(x+2)\\big)\\\\=0\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Förenkla varje parentes</p><div class=\"facit-matte\">\\[(x-1)(3x+3)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: \\(x-1=0\\) eller \\(3x+3=0\\)</p><div class=\"facit-matte\">\\[x=1\\quad\\text{eller}\\quad x=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\) eller \\(x=-1\\)</p></div>",
     "familj": "Faktorisera och lösa ekvationer med konjugatregeln",
     "formaga": [
       "procedur",
@@ -33471,7 +33471,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "bryt ut och känn igen kvadrat",
     "t": "<p>Faktorisera \\(3x^2+12x+12\\) så långt som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x^2+12x+12=3(x^2+4x+4)\\]</div></li><li><div class=\"facit-matte\">\\[=3(x+2)^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(x+2)^2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut den gemensamma faktorn 3</p><div class=\"facit-matte\">\\[3x^2+12x+12=3(x^2+4x+4)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen är en kvadrat: \\(x^2+2\\cdot2\\cdot x+2^2\\)</p><div class=\"facit-matte\">\\[=3(x+2)^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(x+2)^2\\)</p></div>",
     "familj": "Faktorisera i flera steg",
     "formaga": [
       "procedur"
@@ -33501,7 +33501,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "konjugatregeln med koefficient i ekvation",
     "t": "<p>Lös ekvationen \\(4x^2=9\\) genom att faktorisera.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4x^2-9=0\\]</div></li><li><div class=\"facit-matte\">\\[(2x-3)(2x+3)=0\\]</div></li><li><div class=\"facit-matte\">\\[x=1{,}5\\quad\\text{eller}\\quad x=-1{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm1{,}5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla allt på ena sidan</p><div class=\"facit-matte\">\\[4x^2-9=0\\]</div></li><li><p class=\"facit-rubrik\">\\(4x^2-9=(2x)^2-3^2\\), så konjugatregeln kan användas</p><div class=\"facit-matte\">\\[(2x-3)(2x+3)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden</p><div class=\"facit-matte\">\\[x=1{,}5\\quad\\text{eller}\\quad x=-1{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm1{,}5\\)</p></div>",
     "familj": "Faktorisering för ekvationslösning",
     "formaga": [
       "procedur"
@@ -33545,7 +33545,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "bryt ut och konjugatregeln med koefficient",
     "t": "<p>Dela upp \\(12x^2-27\\) i så många faktorer som möjligt. Börja med den största gemensamma faktorn.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[12x^2-27=3(4x^2-9)\\]</div></li><li><div class=\"facit-matte\">\\[=3(2x-3)(2x+3)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(2x-3)(2x+3)\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut den största gemensamma faktorn 3</p><div class=\"facit-matte\">\\[12x^2-27=3(4x^2-9)\\]</div></li><li><p class=\"facit-rubrik\">\\(4x^2-9\\) är en skillnad mellan två kvadrater</p><div class=\"facit-matte\">\\[=3(2x-3)(2x+3)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3(2x-3)(2x+3)\\)</p></div>",
     "familj": "Faktorisera i flera steg",
     "formaga": [
       "procedur"
@@ -33575,7 +33575,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "bryt ut 5x och känn igen kvadrat",
     "t": "<p>Faktorisera \\(5x^3-20x^2+20x\\) så långt som möjligt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5x^3-20x^2+20x=5x(x^2-4x+4)\\]</div></li><li><div class=\"facit-matte\">\\[=5x(x-2)^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x(x-2)^2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut den gemensamma faktorn \\(5x\\)</p><div class=\"facit-matte\">\\[5x^3-20x^2+20x=5x(x^2-4x+4)\\]</div></li><li><p class=\"facit-rubrik\">Parentesen är andra kvadreringsregeln: \\(x^2-2\\cdot2\\cdot x+2^2\\)</p><div class=\"facit-matte\">\\[=5x(x-2)^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5x(x-2)^2\\)</p></div>",
     "familj": "Faktorisera i flera steg",
     "formaga": [
       "procedur"
@@ -33605,7 +33605,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "tredjegradsekvation med tre rötter",
     "t": "<p>Lös ekvationen \\(x^3=25x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^3-25x=0\\]</div></li><li><div class=\"facit-matte\">\\[x(x^2-25)=0\\]</div></li><li><div class=\"facit-matte\">\\[x(x-5)(x+5)=0\\]</div></li><li><div class=\"facit-matte\">\\[x=0,\\ x=5\\ \\text{eller}\\ x=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\), \\(x=5\\) eller \\(x=-5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla allt i ett led (dela inte med x, då försvinner lösningen x = 0)</p><div class=\"facit-matte\">\\[x^3-25x=0\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut x</p><div class=\"facit-matte\">\\[x(x^2-25)=0\\]</div></li><li><p class=\"facit-rubrik\">\\(x^2-25\\) är en skillnad mellan två kvadrater</p><div class=\"facit-matte\">\\[x(x-5)(x+5)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: varje faktor kan vara noll</p><div class=\"facit-matte\">\\[x=0,\\ x=5\\ \\text{eller}\\ x=-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\), \\(x=5\\) eller \\(x=-5\\)</p></div>",
     "familj": "Faktorisering för ekvationslösning",
     "formaga": [
       "procedur"
@@ -33653,7 +33653,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "gemensam parentesfaktor",
     "t": "<p>Lös ekvationen \\((x-2)^2=3(x-2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x-2)^2-3(x-2)=0\\]</div></li><li><div class=\"facit-matte\">\\[(x-2)\\big((x-2)-3\\big)=0\\]</div></li><li><div class=\"facit-matte\">\\[(x-2)(x-5)=0\\]</div></li><li><div class=\"facit-matte\">\\[x=2\\quad\\text{eller}\\quad x=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\) eller \\(x=5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla allt i ett led i stället för att dela med \\(x-2\\)</p><div class=\"facit-matte\">\\[(x-2)^2-3(x-2)=0\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut den gemensamma faktorn \\(x-2\\)</p><div class=\"facit-matte\">\\[(x-2)\\big((x-2)-3\\big)=0\\]</div></li><li><p class=\"facit-rubrik\">Förenkla den andra faktorn</p><div class=\"facit-matte\">\\[(x-2)(x-5)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden</p><div class=\"facit-matte\">\\[x=2\\quad\\text{eller}\\quad x=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\) eller \\(x=5\\)</p></div>",
     "familj": "Faktorisering för ekvationslösning",
     "formaga": [
       "procedur",
@@ -33698,7 +33698,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "jämnt tal genom faktorisering",
     "t": "<p>Varför är \\(n^2-n\\) alltid ett jämnt tal när \\(n\\) är ett heltal?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[n^2-n=n(n-1)\\]</div></li><li><p>\\(n\\) och \\(n-1\\) är två på varandra följande heltal. Ett av dem är jämnt, så produkten är jämn.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(n^2-n=n(n-1)\\) är produkten av två på varandra följande heltal.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut n</p><div class=\"facit-matte\">\\[n^2-n=n(n-1)\\]</div></li><li><p class=\"facit-rubrik\">Två heltal i följd: ett av dem är alltid jämnt</p><p>\\(n\\) och \\(n-1\\) är två på varandra följande heltal. Ett av dem är jämnt, så produkten är jämn.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(n^2-n=n(n-1)\\) är produkten av två på varandra följande heltal.</p></div>",
     "familj": "Faktorisera i flera steg",
     "formaga": [
       "resonemang"
@@ -33748,7 +33748,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "bryt ut 2x i tredjegradsekvation",
     "t": "<p>Lös ekvationen \\(2x^3-8x^2+8x=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x(x^2-4x+4)=0\\]</div></li><li><div class=\"facit-matte\">\\[2x(x-2)^2=0\\]</div></li><li><div class=\"facit-matte\">\\[x=0\\quad\\text{eller}\\quad x=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) eller \\(x=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut den gemensamma faktorn \\(2x\\)</p><div class=\"facit-matte\">\\[2x(x^2-4x+4)=0\\]</div></li><li><p class=\"facit-rubrik\">Parentesen är en kvadrat: \\((x-2)^2\\)</p><div class=\"facit-matte\">\\[2x(x-2)^2=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden: \\(2x=0\\) eller \\(x-2=0\\)</p><div class=\"facit-matte\">\\[x=0\\quad\\text{eller}\\quad x=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) eller \\(x=2\\)</p></div>",
     "familj": "Faktorisering för ekvationslösning",
     "formaga": [
       "procedur"
@@ -33792,7 +33792,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "faktorisera före beräkning",
     "t": "<p>Beräkna \\(3\\cdot17^2-3\\cdot13^2\\) utan miniräknare.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3\\cdot17^2-3\\cdot13^2=3(17^2-13^2)\\]</div></li><li><div class=\"facit-matte\">\\[=3(17-13)(17+13)\\]</div></li><li><div class=\"facit-matte\">\\[=3\\cdot4\\cdot30=360\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 360</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bryt ut den gemensamma faktorn 3</p><div class=\"facit-matte\">\\[3\\cdot17^2-3\\cdot13^2=3(17^2-13^2)\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln på \\(17^2-13^2\\)</p><div class=\"facit-matte\">\\[=3(17-13)(17+13)\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut de enkla faktorerna</p><div class=\"facit-matte\">\\[=3\\cdot4\\cdot30=360\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 360</p></div>",
     "familj": "Faktorisera i flera steg",
     "formaga": [
       "procedur",
@@ -33823,7 +33823,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "tabell med ojämna steg",
     "t": "<p>Tabellen visar ett linjärt samband.</p><table class=\"data\"><tbody><tr><th>\\(x\\)</th><td>1</td><td>3</td><td>4</td><td>7</td></tr><tr><th>\\(y\\)</th><td>5</td><td>11</td><td>14</td><td>23</td></tr></tbody></table><p>Bestäm sambandet på formen \\(y=kx+m\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[k=\\frac{11-5}{3-1}=3\\]</div></li><li><div class=\"facit-matte\">\\[5=3\\cdot1+m\\Rightarrow m=2\\]</div></li><li><p>Kontroll: \\(3\\cdot7+2=23\\).</p></li><li><div class=\"facit-matte\">\\[y=3x+2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=3x+2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Riktningskoefficienten är ändringen i y delad med ändringen i x</p><div class=\"facit-matte\">\\[k=\\frac{11-5}{3-1}=3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in punkten \\((1,\\ 5)\\) för att få m</p><div class=\"facit-matte\">\\[5=3\\cdot1+m\\Rightarrow m=2\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera med en annan punkt i tabellen</p><p>Kontroll: \\(3\\cdot7+2=23\\).</p></li><li><p class=\"facit-rubrik\">Sätt in \\(k=3\\) och \\(m=2\\)</p><div class=\"facit-matte\">\\[y=3x+2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=3x+2\\)</p></div>",
     "familj": "Från tabell till formel",
     "formaga": [
       "procedur"
@@ -33853,7 +33853,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "text till formel med enhetsbyte",
     "t": "<p>En vattentank innehåller 2,5 m³ vatten. Den töms med 40 liter per minut. Skriv volymen \\(V\\) liter som en funktion av tiden \\(t\\) minuter.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>2,5 m³ = 2 500 liter. Volymen minskar med 40 liter per minut.</p></li><li><div class=\"facit-matte\">\\[V=2500-40t\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(V=2500-40t\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör om startvolymen till liter och tolka minskningen</p><p>2,5 m³ = 2 500 liter. Volymen minskar med 40 liter per minut.</p></li><li><p class=\"facit-rubrik\">Startvärdet är m och minskningen per minut är k</p><div class=\"facit-matte\">\\[V=2500-40t\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(V=2500-40t\\)</p></div>",
     "familj": "Växla mellan text, graf och formel",
     "formaga": [
       "procedur",
@@ -33884,7 +33884,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "lutning ur graf med skala",
     "t": "<p>Grafen visar månadskostnaden \\(y\\) kr för ett mobilabonnemang som funktion av antalet MB \\(x\\) som används utöver det som ingår.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"310\" viewBox=\"0 0 480 310\" role=\"img\" aria-label=\"En stigande rät linje som börjar i 100 kr vid 0 MB och når 200 kr vid 250 MB.\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"138.0\" y1=\"30\" x2=\"138.0\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"216.0\" y1=\"30\" x2=\"216.0\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"294.0\" y1=\"30\" x2=\"294.0\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"372.0\" y1=\"30\" x2=\"372.0\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"450.0\" y1=\"30\" x2=\"450.0\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"265.0\" x2=\"450\" y2=\"265.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"243.6\" x2=\"450\" y2=\"243.6\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"222.3\" x2=\"450\" y2=\"222.3\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"200.9\" x2=\"450\" y2=\"200.9\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"179.5\" x2=\"450\" y2=\"179.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"158.2\" x2=\"450\" y2=\"158.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"136.8\" x2=\"450\" y2=\"136.8\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"115.5\" x2=\"450\" y2=\"115.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"94.1\" x2=\"450\" y2=\"94.1\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"72.7\" x2=\"450\" y2=\"72.7\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"51.4\" x2=\"450\" y2=\"51.4\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"450\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"265.0\" x2=\"458\" y2=\"265.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"265\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">kostnad (kr)</text><line x1=\"138.0\" y1=\"261.0\" x2=\"138.0\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"138.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">50</text><line x1=\"216.0\" y1=\"261.0\" x2=\"216.0\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"216.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">100</text><line x1=\"294.0\" y1=\"261.0\" x2=\"294.0\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"294.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">150</text><line x1=\"372.0\" y1=\"261.0\" x2=\"372.0\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"372.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">200</text><line x1=\"450.0\" y1=\"261.0\" x2=\"450.0\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"450.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">250</text><line x1=\"56.0\" y1=\"243.6\" x2=\"64.0\" y2=\"243.6\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"248.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"56.0\" y1=\"222.3\" x2=\"64.0\" y2=\"222.3\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"227.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"56.0\" y1=\"200.9\" x2=\"64.0\" y2=\"200.9\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"205.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">60</text><line x1=\"56.0\" y1=\"179.5\" x2=\"64.0\" y2=\"179.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"184.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">80</text><line x1=\"56.0\" y1=\"158.2\" x2=\"64.0\" y2=\"158.2\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"163.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">100</text><line x1=\"56.0\" y1=\"136.8\" x2=\"64.0\" y2=\"136.8\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"141.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">120</text><line x1=\"56.0\" y1=\"115.5\" x2=\"64.0\" y2=\"115.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"120.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">140</text><line x1=\"56.0\" y1=\"94.1\" x2=\"64.0\" y2=\"94.1\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"99.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">160</text><line x1=\"56.0\" y1=\"72.7\" x2=\"64.0\" y2=\"72.7\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"77.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">180</text><line x1=\"56.0\" y1=\"51.4\" x2=\"64.0\" y2=\"51.4\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"56.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">200</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">220</text><polyline points=\"60.0,158.2 61.0,157.9 62.0,157.6 62.9,157.4 63.9,157.1 64.9,156.8 65.8,156.6 66.8,156.3 67.8,156.0 68.8,155.8 69.8,155.5 70.7,155.2 71.7,155.0 72.7,154.7 73.7,154.4 74.6,154.2 75.6,153.9 76.6,153.6 77.5,153.4 78.5,153.1 79.5,152.8 80.5,152.6 81.5,152.3 82.4,152.0 83.4,151.8 84.4,151.5 85.3,151.2 86.3,151.0 87.3,150.7 88.3,150.4 89.2,150.2 90.2,149.9 91.2,149.6 92.2,149.4 93.2,149.1 94.1,148.8 95.1,148.6 96.1,148.3 97.0,148.0 98.0,147.8 99.0,147.5 100.0,147.2 100.9,147.0 101.9,146.7 102.9,146.4 103.9,146.2 104.8,145.9 105.8,145.6 106.8,145.4 107.8,145.1 108.8,144.8 109.7,144.6 110.7,144.3 111.7,144.0 112.7,143.8 113.6,143.5 114.6,143.2 115.6,143.0 116.5,142.7 117.5,142.4 118.5,142.2 119.5,141.9 120.5,141.6 121.4,141.4 122.4,141.1 123.4,140.8 124.4,140.6 125.3,140.3 126.3,140.0 127.3,139.8 128.2,139.5 129.2,139.2 130.2,139.0 131.2,138.7 132.2,138.4 133.1,138.2 134.1,137.9 135.1,137.6 136.1,137.4 137.0,137.1 138.0,136.8 139.0,136.6 139.9,136.3 140.9,136.0 141.9,135.8 142.9,135.5 143.8,135.2 144.8,134.9 145.8,134.7 146.8,134.4 147.8,134.1 148.7,133.9 149.7,133.6 150.7,133.3 151.6,133.1 152.6,132.8 153.6,132.5 154.6,132.3 155.6,132.0 156.5,131.7 157.5,131.5 158.5,131.2 159.4,130.9 160.4,130.7 161.4,130.4 162.4,130.1 163.4,129.9 164.3,129.6 165.3,129.3 166.3,129.1 167.2,128.8 168.2,128.5 169.2,128.3 170.2,128.0 171.1,127.7 172.1,127.5 173.1,127.2 174.1,126.9 175.1,126.7 176.0,126.4 177.0,126.1 178.0,125.9 178.9,125.6 179.9,125.3 180.9,125.1 181.9,124.8 182.8,124.5 183.8,124.3 184.8,124.0 185.8,123.7 186.8,123.5 187.7,123.2 188.7,122.9 189.7,122.7 190.7,122.4 191.6,122.1 192.6,121.9 193.6,121.6 194.5,121.3 195.5,121.1 196.5,120.8 197.5,120.5 198.4,120.3 199.4,120.0 200.4,119.7 201.4,119.5 202.3,119.2 203.3,118.9 204.3,118.7 205.3,118.4 206.2,118.1 207.2,117.9 208.2,117.6 209.2,117.3 210.2,117.1 211.1,116.8 212.1,116.5 213.1,116.3 214.1,116.0 215.0,115.7 216.0,115.5 217.0,115.2 218.0,114.9 218.9,114.7 219.9,114.4 220.9,114.1 221.8,113.9 222.8,113.6 223.8,113.3 224.8,113.1 225.8,112.8 226.7,112.5 227.7,112.2 228.7,112.0 229.7,111.7 230.6,111.4 231.6,111.2 232.6,110.9 233.6,110.6 234.5,110.4 235.5,110.1 236.5,109.8 237.5,109.6 238.4,109.3 239.4,109.0 240.4,108.8 241.4,108.5 242.3,108.2 243.3,108.0 244.3,107.7 245.2,107.4 246.2,107.2 247.2,106.9 248.2,106.6 249.2,106.4 250.1,106.1 251.1,105.8 252.1,105.6 253.1,105.3 254.0,105.0 255.0,104.8 256.0,104.5 256.9,104.2 257.9,104.0 258.9,103.7 259.9,103.4 260.9,103.2 261.8,102.9 262.8,102.6 263.8,102.4 264.8,102.1 265.7,101.8 266.7,101.6 267.7,101.3 268.6,101.0 269.6,100.8 270.6,100.5 271.6,100.2 272.6,100.0 273.5,99.7 274.5,99.4 275.5,99.2 276.5,98.9 277.4,98.6 278.4,98.4 279.4,98.1 280.3,97.8 281.3,97.6 282.3,97.3 283.3,97.0 284.2,96.8 285.2,96.5 286.2,96.2 287.2,96.0 288.1,95.7 289.1,95.4 290.1,95.2 291.1,94.9 292.0,94.6 293.0,94.4 294.0,94.1 295.0,93.8 295.9,93.6 296.9,93.3 297.9,93.0 298.9,92.8 299.9,92.5 300.8,92.2 301.8,92.0 302.8,91.7 303.8,91.4 304.7,91.2 305.7,90.9 306.7,90.6 307.6,90.4 308.6,90.1 309.6,89.8 310.6,89.6 311.6,89.3 312.5,89.0 313.5,88.8 314.5,88.5 315.5,88.2 316.4,87.9 317.4,87.7 318.4,87.4 319.4,87.1 320.3,86.9 321.3,86.6 322.3,86.3 323.2,86.1 324.2,85.8 325.2,85.5 326.2,85.3 327.2,85.0 328.1,84.7 329.1,84.5 330.1,84.2 331.0,83.9 332.0,83.7 333.0,83.4 334.0,83.1 334.9,82.9 335.9,82.6 336.9,82.3 337.9,82.1 338.8,81.8 339.8,81.5 340.8,81.3 341.8,81.0 342.8,80.7 343.7,80.5 344.7,80.2 345.7,79.9 346.6,79.7 347.6,79.4 348.6,79.1 349.6,78.9 350.6,78.6 351.5,78.3 352.5,78.1 353.5,77.8 354.4,77.5 355.4,77.3 356.4,77.0 357.4,76.7 358.4,76.5 359.3,76.2 360.3,75.9 361.3,75.7 362.2,75.4 363.2,75.1 364.2,74.9 365.2,74.6 366.2,74.3 367.1,74.1 368.1,73.8 369.1,73.5 370.1,73.3 371.0,73.0 372.0,72.7 373.0,72.5 374.0,72.2 374.9,71.9 375.9,71.7 376.9,71.4 377.8,71.1 378.8,70.9 379.8,70.6 380.8,70.3 381.8,70.1 382.7,69.8 383.7,69.5 384.7,69.3 385.6,69.0 386.6,68.7 387.6,68.5 388.6,68.2 389.6,67.9 390.5,67.7 391.5,67.4 392.5,67.1 393.4,66.9 394.4,66.6 395.4,66.3 396.4,66.1 397.4,65.8 398.3,65.5 399.3,65.2 400.3,65.0 401.2,64.7 402.2,64.4 403.2,64.2 404.2,63.9 405.1,63.6 406.1,63.4 407.1,63.1 408.1,62.8 409.1,62.6 410.0,62.3 411.0,62.0 412.0,61.8 412.9,61.5 413.9,61.2 414.9,61.0 415.9,60.7 416.9,60.4 417.8,60.2 418.8,59.9 419.8,59.6 420.8,59.4 421.7,59.1 422.7,58.8 423.7,58.6 424.7,58.3 425.6,58.0 426.6,57.8 427.6,57.5 428.5,57.2 429.5,57.0 430.5,56.7 431.5,56.4 432.4,56.2 433.4,55.9 434.4,55.6 435.4,55.4 436.3,55.1 437.3,54.8 438.3,54.6 439.3,54.3 440.2,54.0 441.2,53.8 442.2,53.5 443.2,53.2 444.1,53.0 445.1,52.7 446.1,52.4 447.1,52.2 448.1,51.9 449.0,51.6 450.0,51.4\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><text x=\"450.0\" y=\"303.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\">MB</text></svg></div><p>Hur mycket kostar varje extra MB? (Svara i kr.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från 0 MB till 250 MB ökar kostnaden från 100 kr till 200 kr.</p></li><li><div class=\"facit-matte\">\\[k=\\frac{200-100}{250-0}=0{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,40 kr per MB</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av två punkter långt ifrån varandra på grafen</p><p>Från 0 MB till 250 MB ökar kostnaden från 100 kr till 200 kr.</p></li><li><p class=\"facit-rubrik\">Priset per MB är grafens lutning</p><div class=\"facit-matte\">\\[k=\\frac{200-100}{250-0}=0{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,40 kr per MB</p></div>",
     "familj": "Räta linjer i grafer",
     "formaga": [
       "procedur",
@@ -33916,7 +33916,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "när är funktionen positiv",
     "t": "<p>För vilka \\(x\\) är \\(f(x)=-3x+12\\) positiv?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-3x+12>0\\]</div></li><li><div class=\"facit-matte\">\\[12>3x\\]</div></li><li><div class=\"facit-matte\">\\[x<4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x<4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Funktionen är positiv när funktionsvärdet är större än 0</p><div class=\"facit-matte\">\\[-3x+12\\gt 0\\]</div></li><li><p class=\"facit-rubrik\">Flytta över \\(3x\\) så att x-termen blir positiv</p><div class=\"facit-matte\">\\[12\\gt 3x\\]</div></li><li><p class=\"facit-rubrik\">Dela med 3</p><div class=\"facit-matte\">\\[x\\lt 4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\lt 4\\)</p></div>",
     "familj": "Växla mellan text, graf och formel",
     "formaga": [
       "procedur",
@@ -33928,27 +33928,27 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "självrättning": true,
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "ledtrad": "<p>Lös olikheten \\(-3x+12>0\\). Eller tänk: var ligger linjen ovanför x-axeln?</p>",
+    "ledtrad": "<p>Lös olikheten \\(-3x+12\\gt 0\\). Eller tänk: var ligger linjen ovanför x-axeln?</p>",
     "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
     "alternativ": [
       {
-        "txt": "\\(x>4\\)",
+        "txt": "\\(x\\gt 4\\)",
         "ratt": false,
         "kommentar": "Linjen är fallande, så den är positiv till vänster om nollstället."
       },
       {
-        "txt": "\\(x<4\\)",
+        "txt": "\\(x\\lt 4\\)",
         "ratt": true
       },
       {
-        "txt": "\\(x>-4\\)",
+        "txt": "\\(x\\gt -4\\)",
         "ratt": false,
         "kommentar": "Nollstället är \\(x=4\\)."
       },
       {
-        "txt": "\\(x<12\\)",
+        "txt": "\\(x\\lt 12\\)",
         "ratt": false,
         "kommentar": "12 är m-värdet, inte nollstället."
       }
@@ -33967,7 +33967,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "saknat x-värde i tabell",
     "t": "<p>Tabellen visar ett linjärt samband, men ett x-värde saknas.</p><table class=\"data\"><tbody><tr><th>\\(x\\)</th><td>2</td><td>5</td><td>?</td><td>11</td></tr><tr><th>\\(y\\)</th><td>7</td><td>16</td><td>22</td><td>34</td></tr></tbody></table><p>Vilket x-värde saknas?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[k=\\frac{16-7}{5-2}=3,\\quad m=7-6=1\\]</div></li><li><div class=\"facit-matte\">\\[3x+1=22\\Rightarrow x=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm formeln ur två kompletta rader i tabellen</p><div class=\"facit-matte\">\\[k=\\frac{16-7}{5-2}=3,\\quad m=7-6=1\\]</div></li><li><p class=\"facit-rubrik\">Det saknade x-värdet ger \\(y=22\\)</p><div class=\"facit-matte\">\\[3x+1=22\\Rightarrow x=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=7\\)</p></div>",
     "familj": "Från tabell till formel",
     "formaga": [
       "procedur"
@@ -33997,7 +33997,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "funktionsvärde ur nollställe och skärning",
     "t": "<p>En linjär funktion har \\(f(0)=-4\\) och nollstället \\(x=2\\). Bestäm \\(f(10)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen går genom \\((0,\\ -4)\\) och \\((2,\\ 0)\\).</p></li><li><div class=\"facit-matte\">\\[k=\\frac{0-(-4)}{2-0}=2\\]</div></li><li><div class=\"facit-matte\">\\[f(x)=2x-4\\Rightarrow f(10)=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(10)=16\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f(0)=-4\\) och nollstället ger två punkter på grafen</p><p>Grafen går genom \\((0,\\ -4)\\) och \\((2,\\ 0)\\).</p></li><li><p class=\"facit-rubrik\">Riktningskoefficienten ur de två punkterna</p><div class=\"facit-matte\">\\[k=\\frac{0-(-4)}{2-0}=2\\]</div></li><li><p class=\"facit-rubrik\">m är \\(f(0)=-4\\); sätt in \\(x=10\\)</p><div class=\"facit-matte\">\\[f(x)=2x-4\\Rightarrow f(10)=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(10)=16\\)</p></div>",
     "familj": "Växla mellan text, graf och formel",
     "formaga": [
       "procedur"
@@ -34027,7 +34027,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "hyrcykel och budget",
     "t": "<p>Att hyra en elsparkcykel kostar 10 kr för att låsa upp den och sedan 2,50 kr per minut. Mia har 70 kr. Hur många minuter kan hon åka som mest?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10+2{,}5x=70\\]</div></li><li><div class=\"facit-matte\">\\[2{,}5x=60\\Rightarrow x=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 minuter</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kostnaden är upplåsningen plus 2,50 kr per minut</p><div class=\"facit-matte\">\\[10+2{,}5x=70\\]</div></li><li><p class=\"facit-rubrik\">Dra bort upplåsningen och dela med priset per minut</p><div class=\"facit-matte\">\\[2{,}5x=60\\Rightarrow x=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 24 minuter</p></div>",
     "familj": "Växla mellan text, graf och formel",
     "formaga": [
       "procedur",
@@ -34059,7 +34059,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "när blir ett abonnemang billigare",
     "t": "<p>Taxi A tar 150 kr i startavgift och 8 kr/km. Taxi B tar 40 kr i startavgift och 12 kr/km. Hur lång måste resan minst vara för att A ska bli billigare? (Svara i km.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[150+8x<40+12x\\]</div></li><li><div class=\"facit-matte\">\\[110<4x\\]</div></li><li><div class=\"facit-matte\">\\[x>27{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Längre än 27,5 km.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">A är billigare när A:s pris är lägre än B:s</p><div class=\"facit-matte\">\\[150+8x\\lt 40+12x\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna på högra sidan</p><div class=\"facit-matte\">\\[110\\lt 4x\\]</div></li><li><p class=\"facit-rubrik\">Dela med 4</p><div class=\"facit-matte\">\\[x\\gt 27{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Längre än 27,5 km.</p></div>",
     "familj": "Växla mellan text, graf och formel",
     "formaga": [
       "procedur",
@@ -34091,7 +34091,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "samma tal i Celsius och Fahrenheit",
     "t": "<p>Sambandet mellan temperatur i Fahrenheit och Celsius är \\(F=1{,}8C+32\\). Vid vilken temperatur visar båda skalorna samma tal?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[C=1{,}8C+32\\]</div></li><li><div class=\"facit-matte\">\\[-0{,}8C=32\\]</div></li><li><div class=\"facit-matte\">\\[C=-40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-40\\) grader</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma tal på båda skalorna betyder \\(F=C\\)</p><div class=\"facit-matte\">\\[C=1{,}8C+32\\]</div></li><li><p class=\"facit-rubrik\">Samla C-termerna</p><div class=\"facit-matte\">\\[-0{,}8C=32\\]</div></li><li><p class=\"facit-rubrik\">Dela med \\(-0{,}8\\)</p><div class=\"facit-matte\">\\[C=-40\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-40\\) grader</p></div>",
     "familj": "Växla mellan text, graf och formel",
     "formaga": [
       "procedur",
@@ -34122,7 +34122,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "k ur ett villkor mellan funktionsvärden",
     "t": "<p>För en linjär funktion \\(f(x)=kx+m\\) gäller \\(f(3)=f(7)+8\\). Bestäm \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3k+m=7k+m+8\\]</div></li><li><div class=\"facit-matte\">\\[-4k=8\\]</div></li><li><div class=\"facit-matte\">\\[k=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=-2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=3\\) och \\(x=7\\) i \\(kx+m\\)</p><div class=\"facit-matte\">\\[3k+m=7k+m+8\\]</div></li><li><p class=\"facit-rubrik\">m finns i båda leden och tar ut varandra</p><div class=\"facit-matte\">\\[-4k=8\\]</div></li><li><p class=\"facit-rubrik\">Dela med \\(-4\\)</p><div class=\"facit-matte\">\\[k=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=-2\\)</p></div>",
     "familj": "Från tabell till formel",
     "formaga": [
       "procedur",
@@ -34153,7 +34153,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "två punkter, negativ decimal lutning",
     "t": "<p>En linje passerar punkterna \\((-4,\\ 6)\\) och \\((2,\\ -3)\\). Ange linjens ekvation på formen \\(y=kx+m\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[k=\\frac{-3-6}{2-(-4)}=\\frac{-9}{6}=-1{,}5\\]</div></li><li><div class=\"facit-matte\">\\[-3=-1{,}5\\cdot2+m\\Rightarrow m=0\\]</div></li><li><div class=\"facit-matte\">\\[y=-1{,}5x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-1{,}5x\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Riktningskoefficienten ur de två punkterna</p><div class=\"facit-matte\">\\[k=\\frac{-3-6}{2-(-4)}=\\frac{-9}{6}=-1{,}5\\]</div></li><li><p class=\"facit-rubrik\">Sätt in punkten \\((2,\\ -3)\\) för att få m</p><div class=\"facit-matte\">\\[-3=-1{,}5\\cdot2+m\\Rightarrow m=0\\]</div></li><li><p class=\"facit-rubrik\">Linjen går genom origo eftersom \\(m=0\\)</p><div class=\"facit-matte\">\\[y=-1{,}5x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-1{,}5x\\)</p></div>",
     "familj": "Linjär funktion från två punkter",
     "formaga": [
       "procedur"
@@ -34183,7 +34183,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "parallell genom en punkt",
     "t": "<p>Bestäm ekvationen för den linje som är parallell med \\(y=-2x+7\\) och går genom \\((3,\\ 2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[k=-2\\]</div></li><li><div class=\"facit-matte\">\\[2=-2\\cdot3+m\\Rightarrow m=8\\]</div></li><li><div class=\"facit-matte\">\\[y=-2x+8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-2x+8\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parallella linjer har samma riktningskoefficient</p><div class=\"facit-matte\">\\[k=-2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in punkten \\((3,\\ 2)\\) för att få m</p><div class=\"facit-matte\">\\[2=-2\\cdot3+m\\Rightarrow m=8\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(k=-2\\) och \\(m=8\\)</p><div class=\"facit-matte\">\\[y=-2x+8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-2x+8\\)</p></div>",
     "familj": "Linjär funktion från villkor",
     "formaga": [
       "procedur"
@@ -34213,7 +34213,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "höjd per våning i ett hus",
     "t": "<p>I ett hus är golvet på våning 2 på höjden 7 m och golvet på våning 6 på höjden 19 m. Höjden ökar lika mycket för varje våning. På vilken höjd är golvet på våning 10? (Svara i m.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[k=\\frac{19-7}{6-2}=3\\ \\text{m per våning}\\]</div></li><li><div class=\"facit-matte\">\\[h(10)=19+4\\cdot3=31\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 31 m</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Höjdökningen per våning är lutningen mellan våning 2 och våning 6</p><div class=\"facit-matte\">\\[k=\\frac{19-7}{6-2}=3\\ \\text{m per våning}\\]</div></li><li><p class=\"facit-rubrik\">Från våning 6 till våning 10 är det fyra våningar till</p><div class=\"facit-matte\">\\[h(10)=19+4\\cdot3=31\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 31 m</p></div>",
     "familj": "Linjära modeller ur två mätningar",
     "formaga": [
       "procedur",
@@ -34245,7 +34245,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "vinkelrät genom en punkt",
     "t": "<p>Bestäm ekvationen för den linje som är vinkelrät mot \\(y=0{,}5x\\) och går genom \\((1,\\ 4)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}5\\cdot k=-1\\Rightarrow k=-2\\]</div></li><li><div class=\"facit-matte\">\\[4=-2\\cdot1+m\\Rightarrow m=6\\]</div></li><li><div class=\"facit-matte\">\\[y=-2x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-2x+6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkelräta linjer: produkten av riktningskoefficienterna är \\(-1\\)</p><div class=\"facit-matte\">\\[0{,}5\\cdot k=-1\\Rightarrow k=-2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in punkten \\((1,\\ 4)\\) för att få m</p><div class=\"facit-matte\">\\[4=-2\\cdot1+m\\Rightarrow m=6\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(k=-2\\) och \\(m=6\\)</p><div class=\"facit-matte\">\\[y=-2x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-2x+6\\)</p></div>",
     "familj": "Linjär funktion från villkor",
     "formaga": [
       "procedur"
@@ -34275,7 +34275,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "fast avgift ur två räkningar",
     "t": "<p>Ett mobilabonnemang har en fast månadsavgift och ett pris per GB. 12 GB kostar 279 kr och 20 GB kostar 359 kr. Hur stor är den fasta avgiften? (Svara i kr.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[k=\\frac{359-279}{20-12}=10\\ \\text{kr/GB}\\]</div></li><li><div class=\"facit-matte\">\\[279=10\\cdot12+m\\Rightarrow m=159\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 159 kr</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Priset per GB är lutningen mellan de två abonnemangen</p><div class=\"facit-matte\">\\[k=\\frac{359-279}{20-12}=10\\ \\text{kr/GB}\\]</div></li><li><p class=\"facit-rubrik\">Den fasta avgiften är m; sätt in 12 GB och 279 kr</p><div class=\"facit-matte\">\\[279=10\\cdot12+m\\Rightarrow m=159\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 159 kr</p></div>",
     "familj": "Linjära modeller ur två mätningar",
     "formaga": [
       "procedur",
@@ -34307,7 +34307,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "linje genom punkt och nollställe",
     "t": "<p>En rät linje går genom \\((1,\\ 7)\\) och skär x-axeln där \\(x=-6\\). Bestäm linjens ekvation.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Linjen går genom \\((-6,\\ 0)\\) och \\((1,\\ 7)\\).</p></li><li><div class=\"facit-matte\">\\[k=\\frac{7-0}{1-(-6)}=1\\]</div></li><li><div class=\"facit-matte\">\\[7=1+m\\Rightarrow m=6\\]</div></li><li><div class=\"facit-matte\">\\[y=x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=x+6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärningen med x-axeln är punkten \\((-6,\\ 0)\\)</p><p>Linjen går genom \\((-6,\\ 0)\\) och \\((1,\\ 7)\\).</p></li><li><p class=\"facit-rubrik\">Riktningskoefficienten ur de två punkterna</p><div class=\"facit-matte\">\\[k=\\frac{7-0}{1-(-6)}=1\\]</div></li><li><p class=\"facit-rubrik\">Sätt in punkten \\((1,\\ 7)\\) för att få m</p><div class=\"facit-matte\">\\[7=1+m\\Rightarrow m=6\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(k=1\\) och \\(m=6\\)</p><div class=\"facit-matte\">\\[y=x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=x+6\\)</p></div>",
     "familj": "Linjär funktion från villkor",
     "formaga": [
       "procedur"
@@ -34337,7 +34337,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "där funktionsvärdet är lika med x",
     "t": "<p>En linjär funktion har \\(f(2)=5\\) och \\(f(6)=-3\\). Grafen till \\(f\\) skär linjen \\(y=-x\\). Bestäm skärningspunktens x-koordinat.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[k=\\frac{-3-5}{6-2}=-2,\\quad m=5+4=9\\]</div></li><li><div class=\"facit-matte\">\\[-2x+9=-x\\]</div></li><li><div class=\"facit-matte\">\\[x=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=9\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm f(x) ur de två givna värdena</p><div class=\"facit-matte\">\\[k=\\frac{-3-5}{6-2}=-2,\\quad m=5+4=9\\]</div></li><li><p class=\"facit-rubrik\">Skärningspunkten: \\(f(x)\\) och \\(-x\\) har samma värde</p><div class=\"facit-matte\">\\[-2x+9=-x\\]</div></li><li><p class=\"facit-rubrik\">Addera \\(2x\\) till båda leden</p><div class=\"facit-matte\">\\[x=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=9\\)</p></div>",
     "familj": "Linjär funktion från villkor",
     "formaga": [
       "procedur",
@@ -34368,7 +34368,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "parallell med linje genom origo",
     "t": "<p>En linje går genom \\((2,\\ 5)\\) och är parallell med linjen genom \\((0,\\ 0)\\) och \\((3,\\ 6)\\). Vilket y-värde har linjen när \\(x=-1\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[k=\\frac{6-0}{3-0}=2\\]</div></li><li><div class=\"facit-matte\">\\[5=2\\cdot2+m\\Rightarrow m=1\\]</div></li><li><div class=\"facit-matte\">\\[y(-1)=2\\cdot(-1)+1=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parallell betyder samma k som linjen genom \\((0,\\ 0)\\) och \\((3,\\ 6)\\)</p><div class=\"facit-matte\">\\[k=\\frac{6-0}{3-0}=2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in punkten \\((2,\\ 5)\\) för att få m</p><div class=\"facit-matte\">\\[5=2\\cdot2+m\\Rightarrow m=1\\]</div></li><li><p class=\"facit-rubrik\">Beräkna y när \\(x=-1\\)</p><div class=\"facit-matte\">\\[y(-1)=2\\cdot(-1)+1=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-1\\)</p></div>",
     "familj": "Linjär funktion från två punkter",
     "formaga": [
       "procedur"
@@ -34398,7 +34398,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "när temperaturen passerar noll",
     "t": "<p>Klockan 08.00 är det \\(-5\\) °C och klockan 11.30 är det \\(+9\\) °C. Anta att temperaturen ökar linjärt. Hur många timmar efter klockan 08.00 var det 0 °C?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[k=\\frac{9-(-5)}{3{,}5}=4\\ ^\\circ\\text{C per timme}\\]</div></li><li><div class=\"facit-matte\">\\[-5+4t=0\\Rightarrow t=1{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,25 timmar, alltså klockan 09.15</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Temperaturen stiger 14 grader på 3,5 timmar</p><div class=\"facit-matte\">\\[k=\\frac{9-(-5)}{3{,}5}=4\\ ^\\circ\\text{C per timme}\\]</div></li><li><p class=\"facit-rubrik\">Noll grader: lös \\(-5+4t=0\\)</p><div class=\"facit-matte\">\\[-5+4t=0\\Rightarrow t=1{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1,25 timmar, alltså klockan 09.15</p></div>",
     "familj": "Linjära modeller ur två mätningar",
     "formaga": [
       "procedur",
@@ -34430,7 +34430,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "två villkor på funktionsvärden",
     "t": "<p>En linjär funktion \\(f(x)=kx+m\\) uppfyller \\(f(1)+f(2)=10\\) och \\(f(4)=15\\). Bestäm \\(f(x)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(k+m)+(2k+m)=10\\Rightarrow 3k+2m=10\\]</div></li><li><div class=\"facit-matte\">\\[4k+m=15\\Rightarrow m=15-4k\\]</div></li><li><div class=\"facit-matte\">\\[3k+30-8k=10\\Rightarrow k=4,\\ m=-1\\]</div></li><li><div class=\"facit-matte\">\\[f(x)=4x-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=4x-1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Det första villkoret ger en ekvation i k och m</p><div class=\"facit-matte\">\\[\\begin{gathered}(k+m)+(2k+m)=10\\\\\\Rightarrow 3k+2m=10\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Det andra villkoret ger m uttryckt i k</p><div class=\"facit-matte\">\\[4k+m=15\\Rightarrow m=15-4k\\]</div></li><li><p class=\"facit-rubrik\">Sätt in uttrycket för m i den första ekvationen</p><div class=\"facit-matte\">\\[3k+30-8k=10\\Rightarrow k=4,\\ m=-1\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(k=4\\) och \\(m=-1\\)</p><div class=\"facit-matte\">\\[f(x)=4x-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=4x-1\\)</p></div>",
     "familj": "Linjär funktion från villkor",
     "formaga": [
       "procedur",
@@ -34461,7 +34461,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "två gym kostar lika",
     "t": "<p>Gym A kostar 300 kr per månad plus 20 kr per besök. Gym B kostar 50 kr per besök utan fast avgift. Hur många besök per månad gör att gymmen kostar lika mycket?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[300+20x=50x\\]</div></li><li><div class=\"facit-matte\">\\[300=30x\\Rightarrow x=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 besök</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lika kostnad: sätt gymmens kostnader lika</p><div class=\"facit-matte\">\\[300+20x=50x\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna och dela med 30</p><div class=\"facit-matte\">\\[300=30x\\Rightarrow x=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 besök</p></div>",
     "familj": "Linjära modeller ur två mätningar",
     "formaga": [
       "procedur",
@@ -34492,7 +34492,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "skärningspunkt mellan två linjer",
     "t": "<p>Bestäm skärningspunkten mellan \\(y=2x-2\\) och \\(y=-x+7\\). (Ange \\(x\\) och \\(y\\).)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x-2=-x+7\\]</div></li><li><div class=\"facit-matte\">\\[3x=9\\Rightarrow x=3\\]</div></li><li><div class=\"facit-matte\">\\[y=2\\cdot3-2=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((3,\\ 4)\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I skärningspunkten har båda linjerna samma y</p><div class=\"facit-matte\">\\[2x-2=-x+7\\]</div></li><li><p class=\"facit-rubrik\">Lös ut x</p><div class=\"facit-matte\">\\[3x=9\\Rightarrow x=3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in x i en av linjerna för att få y</p><div class=\"facit-matte\">\\[y=2\\cdot3-2=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((3,\\ 4)\\)</p></div>",
     "familj": "Skärningspunkter, parallella och vinkelräta linjer",
     "formaga": [
       "procedur"
@@ -34539,7 +34539,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "k och m ur allmän form",
     "t": "<p>Linjen har ekvationen \\(3x+2y=12\\). Bestäm \\(k\\) och \\(m\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2y=-3x+12\\]</div></li><li><div class=\"facit-matte\">\\[y=-1{,}5x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=-1{,}5\\), \\(m=6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta x-termen till högra sidan</p><div class=\"facit-matte\">\\[2y=-3x+12\\]</div></li><li><p class=\"facit-rubrik\">Dela med 2 så att y står ensam</p><div class=\"facit-matte\">\\[y=-1{,}5x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=-1{,}5\\), \\(m=6\\)</p></div>",
     "familj": "Tolka och använda y = kx + m",
     "formaga": [
       "procedur"
@@ -34586,7 +34586,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "okänd koordinat på linjen",
     "t": "<p>Punkten \\((a,\\ 10)\\) ligger på linjen \\(y=3x-5\\). Bestäm \\(a\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10=3a-5\\]</div></li><li><div class=\"facit-matte\">\\[3a=15\\Rightarrow a=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=a\\) och \\(y=10\\) i linjens ekvation</p><div class=\"facit-matte\">\\[10=3a-5\\]</div></li><li><p class=\"facit-rubrik\">Lös ut a</p><div class=\"facit-matte\">\\[3a=15\\Rightarrow a=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\)</p></div>",
     "familj": "Tolka och använda y = kx + m",
     "formaga": [
       "procedur"
@@ -34616,7 +34616,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "triangel mellan linje och axlar",
     "t": "<p>Linjen \\(y=-2x+8\\) bildar en triangel med koordinataxlarna.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"360\" viewBox=\"0 0 420 360\" role=\"img\" aria-label=\"Linjen y = −2x + 8 bildar en skuggad triangel med koordinataxlarna i första kvadranten.\"><title>Linjen y = −2x + 8 bildar en skuggad triangel med koordinataxlarna i första kvadranten.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"26\" x2=\"40.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"89.4\" y1=\"26\" x2=\"89.4\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"138.9\" y1=\"26\" x2=\"138.9\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"188.3\" y1=\"26\" x2=\"188.3\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"237.7\" y1=\"26\" x2=\"237.7\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"287.1\" y1=\"26\" x2=\"287.1\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"336.6\" y1=\"26\" x2=\"336.6\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"386.0\" y1=\"26\" x2=\"386.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"325.0\" x2=\"386\" y2=\"325.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"295.1\" x2=\"386\" y2=\"295.1\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"265.2\" x2=\"386\" y2=\"265.2\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"235.3\" x2=\"386\" y2=\"235.3\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"205.4\" x2=\"386\" y2=\"205.4\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"175.5\" x2=\"386\" y2=\"175.5\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"145.6\" x2=\"386\" y2=\"145.6\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"115.7\" x2=\"386\" y2=\"115.7\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"85.8\" x2=\"386\" y2=\"85.8\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"55.9\" x2=\"386\" y2=\"55.9\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"26.0\" x2=\"386\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"295.1\" x2=\"394\" y2=\"295.1\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"89.4\" y1=\"325\" x2=\"89.4\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"64.7\" y1=\"26.0\" x2=\"311.9\" y2=\"325.0\" stroke=\"#216d87\" stroke-width=\"2.6\"/><rect x=\"223.9\" y=\"203.4\" width=\"96.7\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"227.9\" y=\"216.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">y = −2x + 8</text><rect x=\"31.4\" y=\"301.1\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"40.0\" y=\"311.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><rect x=\"133.6\" y=\"301.1\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"138.9\" y=\"311.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><rect x=\"183.0\" y=\"301.1\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"188.3\" y=\"311.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><rect x=\"232.4\" y=\"301.1\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"237.7\" y=\"311.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><rect x=\"281.8\" y=\"301.1\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"287.1\" y=\"311.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><rect x=\"331.3\" y=\"301.1\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"336.6\" y=\"311.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><rect x=\"380.7\" y=\"301.1\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"386.0\" y=\"311.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><rect x=\"68.2\" y=\"319.0\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"329.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><rect x=\"74.8\" y=\"259.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"269.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><rect x=\"74.8\" y=\"229.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"239.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><rect x=\"74.8\" y=\"199.4\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"209.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><rect x=\"74.8\" y=\"169.5\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"179.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><rect x=\"74.8\" y=\"139.6\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"149.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><rect x=\"74.8\" y=\"109.7\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"119.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><rect x=\"74.8\" y=\"79.8\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"89.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">7</text><rect x=\"74.8\" y=\"49.9\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"59.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">8</text><rect x=\"74.8\" y=\"20.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">9</text><text x=\"398.0\" y=\"300.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"96.4\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text><polygon points=\"89.4,295.1 287.1,295.1 89.4,55.9\" fill=\"#c2410c\" fill-opacity=\"0.18\"/></svg></span><p>Beräkna triangelns area. (Svara i areaenheter.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Linjen skär y-axeln i 8 och x-axeln där \\(0=-2x+8\\), alltså \\(x=4\\).</p></li><li><div class=\"facit-matte\">\\[A=\\frac{4\\cdot8}{2}=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 areaenheter</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Triangelns hörn ligger där linjen skär axlarna</p><p>Linjen skär y-axeln i 8 och x-axeln där \\(0=-2x+8\\), alltså \\(x=4\\).</p></li><li><p class=\"facit-rubrik\">Basen är 4 och höjden 8</p><div class=\"facit-matte\">\\[A=\\frac{4\\cdot8}{2}=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16 areaenheter</p></div>",
     "familj": "Linjer i figurer och sammanhang",
     "formaga": [
       "procedur",
@@ -34647,7 +34647,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "vinkelrät genom origo",
     "t": "<p>Bestäm ekvationen för den linje genom origo som är vinkelrät mot \\(y=-\\dfrac23x+1\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-\\frac23\\cdot k=-1\\Rightarrow k=\\frac32\\]</div></li><li><div class=\"facit-matte\">\\[y=1{,}5x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=1{,}5x\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkelräta linjer: produkten av riktningskoefficienterna är \\(-1\\)</p><div class=\"facit-matte\">\\[-\\frac23\\cdot k=-1\\Rightarrow k=\\frac32\\]</div></li><li><p class=\"facit-rubrik\">Genom origo betyder \\(m=0\\)</p><div class=\"facit-matte\">\\[y=1{,}5x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=1{,}5x\\)</p></div>",
     "familj": "Skärningspunkter, parallella och vinkelräta linjer",
     "formaga": [
       "procedur"
@@ -34677,7 +34677,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "parameter för parallella linjer",
     "t": "<p>Linjerna \\(y=ax+2\\) och \\(y=(3-a)x-1\\) är parallella. Bestäm \\(a\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=3-a\\]</div></li><li><div class=\"facit-matte\">\\[2a=3\\Rightarrow a=1{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=1{,}5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Parallella linjer har samma riktningskoefficient</p><div class=\"facit-matte\">\\[a=3-a\\]</div></li><li><p class=\"facit-rubrik\">Lös ut a</p><div class=\"facit-matte\">\\[2a=3\\Rightarrow a=1{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=1{,}5\\)</p></div>",
     "familj": "Skärningspunkter, parallella och vinkelräta linjer",
     "formaga": [
       "procedur",
@@ -34708,7 +34708,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "skärning på x-axeln",
     "t": "<p>Linjerna \\(y=2x+b\\) och \\(y=-x+4\\) skär varandra på x-axeln. Bestäm \\(b\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Linjen \\(y=-x+4\\) skär x-axeln där \\(x=4\\). Där ska även den andra linjen ha \\(y=0\\).</p></li><li><div class=\"facit-matte\">\\[0=2\\cdot4+b\\Rightarrow b=-8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=-8\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm var den kända linjen skär x-axeln</p><p>Linjen \\(y=-x+4\\) skär x-axeln där \\(x=4\\). Där ska även den andra linjen ha \\(y=0\\).</p></li><li><p class=\"facit-rubrik\">Den andra linjen går genom samma punkt \\((4,\\ 0)\\)</p><div class=\"facit-matte\">\\[0=2\\cdot4+b\\Rightarrow b=-8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=-8\\)</p></div>",
     "familj": "Skärningspunkter, parallella och vinkelräta linjer",
     "formaga": [
       "procedur",
@@ -34739,7 +34739,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "tre punkter på samma linje",
     "t": "<p>Punkterna \\(A(1,\\ 2)\\), \\(B(4,\\ 8)\\) och \\(C(6,\\ k)\\) ligger på samma räta linje. Bestäm \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[k_{AB}=\\frac{8-2}{4-1}=2\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{k-8}{6-4}=2\\Rightarrow k=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=12\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen från A till B</p><div class=\"facit-matte\">\\[k_{AB}=\\frac{8-2}{4-1}=2\\]</div></li><li><p class=\"facit-rubrik\">Lutningen från B till C måste vara lika stor</p><div class=\"facit-matte\">\\[\\frac{k-8}{6-4}=2\\Rightarrow k=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=12\\)</p></div>",
     "familj": "Tolka och använda y = kx + m",
     "formaga": [
       "procedur",
@@ -34770,7 +34770,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "linje genom två hörn i en triangel",
     "t": "<p>Figuren visar triangeln \\(ABC\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"300\" viewBox=\"0 0 420 300\" role=\"img\" aria-label=\"Triangeln ABC med hörnen A(0, 0), B(6, 0) och C(2, 4).\"><title>Triangeln ABC med hörnen A(0, 0), B(6, 0) och C(2, 4).</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"26\" x2=\"40.0\" y2=\"265\" stroke=\"#e3e8ee\"/><line x1=\"83.2\" y1=\"26\" x2=\"83.2\" y2=\"265\" stroke=\"#e3e8ee\"/><line x1=\"126.5\" y1=\"26\" x2=\"126.5\" y2=\"265\" stroke=\"#e3e8ee\"/><line x1=\"169.8\" y1=\"26\" x2=\"169.8\" y2=\"265\" stroke=\"#e3e8ee\"/><line x1=\"213.0\" y1=\"26\" x2=\"213.0\" y2=\"265\" stroke=\"#e3e8ee\"/><line x1=\"256.2\" y1=\"26\" x2=\"256.2\" y2=\"265\" stroke=\"#e3e8ee\"/><line x1=\"299.5\" y1=\"26\" x2=\"299.5\" y2=\"265\" stroke=\"#e3e8ee\"/><line x1=\"342.8\" y1=\"26\" x2=\"342.8\" y2=\"265\" stroke=\"#e3e8ee\"/><line x1=\"386.0\" y1=\"26\" x2=\"386.0\" y2=\"265\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"265.0\" x2=\"386\" y2=\"265.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"225.2\" x2=\"386\" y2=\"225.2\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"185.3\" x2=\"386\" y2=\"185.3\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"145.5\" x2=\"386\" y2=\"145.5\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"105.7\" x2=\"386\" y2=\"105.7\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"65.8\" x2=\"386\" y2=\"65.8\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"26.0\" x2=\"386\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"225.2\" x2=\"394\" y2=\"225.2\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"83.2\" y1=\"265\" x2=\"83.2\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><rect x=\"31.4\" y=\"231.2\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"40.0\" y=\"241.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><rect x=\"121.2\" y=\"231.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"126.5\" y=\"241.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><rect x=\"164.4\" y=\"231.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"169.8\" y=\"241.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><rect x=\"207.7\" y=\"231.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"213.0\" y=\"241.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><rect x=\"250.9\" y=\"231.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"256.2\" y=\"241.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><rect x=\"294.2\" y=\"231.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"299.5\" y=\"241.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><rect x=\"337.4\" y=\"231.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"342.8\" y=\"241.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><rect x=\"380.7\" y=\"231.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"386.0\" y=\"241.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><rect x=\"62.0\" y=\"259.0\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"77.2\" y=\"269.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><rect x=\"68.7\" y=\"179.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"77.2\" y=\"189.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><rect x=\"68.7\" y=\"139.5\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"77.2\" y=\"149.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><rect x=\"68.7\" y=\"99.7\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"77.2\" y=\"109.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><rect x=\"68.7\" y=\"59.8\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"77.2\" y=\"69.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><rect x=\"68.7\" y=\"20.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"77.2\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><text x=\"398.0\" y=\"230.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"90.2\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text><polygon points=\"83.2,225.2 342.8,225.2 169.8,65.8\" fill=\"#216d87\" fill-opacity=\"0.12\" stroke=\"#216d87\" stroke-width=\"2.4\"/><circle cx=\"83.2\" cy=\"225.2\" r=\"4.5\" fill=\"#172b3a\"/><circle cx=\"342.8\" cy=\"225.2\" r=\"4.5\" fill=\"#172b3a\"/><circle cx=\"169.8\" cy=\"65.8\" r=\"4.5\" fill=\"#172b3a\"/><rect x=\"66.3\" y=\"204.2\" width=\"13.8\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"73.2\" y=\"217.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">A</text><rect x=\"335.9\" y=\"202.2\" width=\"13.8\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"342.8\" y=\"215.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">B</text><rect x=\"162.8\" y=\"40.8\" width=\"13.8\" height=\"17\" rx=\"3\" fill=\"#fff\"/><text x=\"169.8\" y=\"53.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">C</text></svg></span><p>Bestäm ekvationen för linjen genom \\(B\\) och \\(C\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Avläsning: \\(B=(6,\\ 0)\\) och \\(C=(2,\\ 4)\\).</p></li><li><div class=\"facit-matte\">\\[k=\\frac{4-0}{2-6}=-1\\]</div></li><li><div class=\"facit-matte\">\\[0=-6+m\\Rightarrow m=6\\]</div></li><li><div class=\"facit-matte\">\\[y=-x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-x+6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av hörnen B och C i figuren</p><p>Avläsning: \\(B=(6,\\ 0)\\) och \\(C=(2,\\ 4)\\).</p></li><li><p class=\"facit-rubrik\">Riktningskoefficienten ur B och C</p><div class=\"facit-matte\">\\[k=\\frac{4-0}{2-6}=-1\\]</div></li><li><p class=\"facit-rubrik\">Sätt in B för att få m</p><div class=\"facit-matte\">\\[0=-6+m\\Rightarrow m=6\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(k=-1\\) och \\(m=6\\)</p><div class=\"facit-matte\">\\[y=-x+6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-x+6\\)</p></div>",
     "familj": "Linjer i figurer och sammanhang",
     "formaga": [
       "procedur"
@@ -34800,7 +34800,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "k ur en given skärningspunkt",
     "t": "<p>Linjen \\(y=kx+3\\) skär linjen \\(y=x-1\\) i en punkt där \\(x=2\\). Bestäm \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>På linjen \\(y=x-1\\) är \\(y=1\\) när \\(x=2\\). Skärningspunkten är \\((2,\\ 1)\\).</p></li><li><div class=\"facit-matte\">\\[1=2k+3\\Rightarrow k=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=-1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärningspunkten ligger på den kända linjen</p><p>På linjen \\(y=x-1\\) är \\(y=1\\) när \\(x=2\\). Skärningspunkten är \\((2,\\ 1)\\).</p></li><li><p class=\"facit-rubrik\">Sätt in punkten \\((2,\\ 1)\\) i \\(y=kx+3\\)</p><div class=\"facit-matte\">\\[1=2k+3\\Rightarrow k=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=-1\\)</p></div>",
     "familj": "Skärningspunkter, parallella och vinkelräta linjer",
     "formaga": [
       "procedur",
@@ -34830,7 +34830,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "exponentialekvation med decimalsvar",
     "t": "<p>Lös ekvationen \\(10^x=500\\). (Svara med tre decimaler.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10^x=500\\Leftrightarrow x=\\lg500\\]</div></li><li><div class=\"facit-matte\">\\[x\\approx2{,}699\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx2{,}699\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(10^x=a\\) betyder att \\(x=\\lg a\\)</p><div class=\"facit-matte\">\\[10^x=500\\Leftrightarrow x=\\lg500\\]</div></li><li><p class=\"facit-rubrik\">Beräkna med miniräknare och avrunda till tre decimaler</p><div class=\"facit-matte\">\\[x\\approx2{,}699\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx2{,}699\\)</p></div>",
     "familj": "Logaritm som invers till exponentialfunktion",
     "formaga": [
       "procedur"
@@ -34859,7 +34859,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "mellan vilka heltal en logaritm ligger",
     "t": "<p>Mellan vilka två på varandra följande heltal ligger \\(\\lg4500\\)? Lös uppgiften utan miniräknare.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10^3=1000<4500<10\\,000=10^4\\]</div></li><li><div class=\"facit-matte\">\\[3<\\lg4500<4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mellan 3 och 4.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ringa in 4500 mellan två tiopotenser</p><div class=\"facit-matte\">\\[10^3=1000\\lt 4500\\lt 10\\,000=10^4\\]</div></li><li><p class=\"facit-rubrik\">lg av tiopotenserna är 3 och 4, och lg växer med talet</p><div class=\"facit-matte\">\\[3\\lt \\lg4500\\lt 4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Mellan 3 och 4.</p></div>",
     "familj": "Bestämma logaritmvärden",
     "formaga": [
       "begrepp"
@@ -34905,7 +34905,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "isolera tiopotensen först",
     "t": "<p>Lös ekvationen \\(3\\cdot10^x=60\\). (Svara med tre decimaler.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10^x=20\\]</div></li><li><div class=\"facit-matte\">\\[x=\\lg20\\approx1{,}301\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx1{,}301\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela båda leden med 3 så att tiopotensen står ensam</p><div class=\"facit-matte\">\\[10^x=20\\]</div></li><li><p class=\"facit-rubrik\">\\(10^x=20\\) betyder att \\(x=\\lg20\\)</p><div class=\"facit-matte\">\\[x=\\lg20\\approx1{,}301\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx1{,}301\\)</p></div>",
     "familj": "Logaritm som invers till exponentialfunktion",
     "formaga": [
       "procedur"
@@ -34934,7 +34934,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "logaritm av ett uttryck",
     "t": "<p>Lös ekvationen \\(\\lg(x+3)=2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+3=10^2=100\\]</div></li><li><div class=\"facit-matte\">\\[x=97\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=97\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(\\lg(x+3)=2\\) betyder att \\(x+3=10^2\\)</p><div class=\"facit-matte\">\\[x+3=10^2=100\\]</div></li><li><p class=\"facit-rubrik\">Lös ut x</p><div class=\"facit-matte\">\\[x=97\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=97\\)</p></div>",
     "familj": "Logaritm som invers till exponentialfunktion",
     "formaga": [
       "procedur"
@@ -34963,7 +34963,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "logaritm av en produkt av tiopotenser",
     "t": "<p>Bestäm \\(\\lg\\left(10^{2{,}5}\\cdot10^{1{,}5}\\right)\\) utan miniräknare.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[10^{2{,}5}\\cdot10^{1{,}5}=10^{4}\\]</div></li><li><div class=\"facit-matte\">\\[\\lg10^{4}=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vid multiplikation adderas exponenterna</p><div class=\"facit-matte\">\\[10^{2{,}5}\\cdot10^{1{,}5}=10^{4}\\]</div></li><li><p class=\"facit-rubrik\">lg av en tiopotens är exponenten</p><div class=\"facit-matte\">\\[\\lg10^{4}=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4</p></div>",
     "familj": "Bestämma logaritmvärden",
     "formaga": [
       "procedur",
@@ -34993,7 +34993,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "pH-värde ur koncentration",
     "t": "<p>Surheten i en lösning anges med pH-värdet \\(\\mathrm{pH}=-\\lg[\\mathrm H^+]\\), där \\([\\mathrm H^+]\\) är koncentrationen av vätejoner i mol/dm³. Bestäm pH om \\([\\mathrm H^+]=1{,}0\\cdot10^{-5}\\) mol/dm³.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\mathrm{pH}=-\\lg\\left(10^{-5}\\right)=-(-5)=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> pH = 5</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in koncentrationen; \\(\\lg10^{-5}=-5\\)</p><div class=\"facit-matte\">\\[\\mathrm{pH}=-\\lg\\left(10^{-5}\\right)=-(-5)=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> pH = 5</p></div>",
     "familj": "Bestämma logaritmvärden",
     "formaga": [
       "procedur",
@@ -35005,7 +35005,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "självrättning": true,
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "ledtrad": "<p>\\(\\lg10^{-5}=-5\\).</p>",
+    "ledtrad": "<p>Sätt in koncentrationen i formeln. Vad är lg av en tiopotens?</p>",
     "svarstyp": "numeriskt",
     "svarFormat": "numeriskt",
     "rättSvar": 5,
@@ -35023,7 +35023,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "tiopotens med förskjuten exponent",
     "t": "<p>Lös ekvationen \\(10^{x-4}=0{,}1\\) utan miniräknare.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}1=10^{-1}\\]</div></li><li><div class=\"facit-matte\">\\[x-4=-1\\Rightarrow x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv 0,1 som en tiopotens</p><div class=\"facit-matte\">\\[0{,}1=10^{-1}\\]</div></li><li><p class=\"facit-rubrik\">Samma bas, så exponenterna måste vara lika</p><div class=\"facit-matte\">\\[x-4=-1\\Rightarrow x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\)</p></div>",
     "familj": "Logaritm som invers till exponentialfunktion",
     "formaga": [
       "procedur"
@@ -35052,7 +35052,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "koncentration ur pH",
     "t": "<p>En läsk har pH 3,2. Bestäm vätejonkoncentrationen \\([\\mathrm H^+]\\) om \\(\\mathrm{pH}=-\\lg[\\mathrm H^+]\\). (Svara i mol/dm³ med två värdesiffror.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[-\\lg[\\mathrm H^+]=3{,}2\\Rightarrow\\lg[\\mathrm H^+]=-3{,}2\\]</div></li><li><div class=\"facit-matte\">\\[[\\mathrm H^+]=10^{-3{,}2}\\approx6{,}3\\cdot10^{-4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\cdot10^{-4}\\) mol/dm³</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Byt tecken så att \\(\\lg[\\mathrm H^+]\\) står ensam</p><div class=\"facit-matte\">\\[-\\lg[\\mathrm H^+]=3{,}2\\Rightarrow\\lg[\\mathrm H^+]=-3{,}2\\]</div></li><li><p class=\"facit-rubrik\">Skriv om till exponentialform</p><div class=\"facit-matte\">\\[[\\mathrm H^+]=10^{-3{,}2}\\approx6{,}3\\cdot10^{-4}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(6{,}3\\cdot10^{-4}\\) mol/dm³</p></div>",
     "familj": "Logaritm som invers till exponentialfunktion",
     "formaga": [
       "procedur",
@@ -35082,7 +35082,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "ljudnivå när intensiteten fördubblas",
     "t": "<p>Ljudnivån i decibel är \\(L=10\\cdot\\lg\\dfrac{I}{I_0}\\). Hur många decibel ökar ljudnivån när ljudintensiteten \\(I\\) fördubblas? (Svara med en decimal.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[L_2-L_1=10\\lg\\frac{2I}{I_0}-10\\lg\\frac{I}{I_0}\\]</div></li><li><div class=\"facit-matte\">\\[=10\\lg2\\approx3{,}0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 3,0 dB</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ökningen är skillnaden mellan ljudnivåerna</p><div class=\"facit-matte\">\\[L_2-L_1=10\\lg\\frac{2I}{I_0}-10\\lg\\frac{I}{I_0}\\]</div></li><li><p class=\"facit-rubrik\">Logaritmlagen \\(\\lg a-\\lg b=\\lg\\frac ab\\) ger \\(\\lg2\\)</p><div class=\"facit-matte\">\\[=10\\lg2\\approx3{,}0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 3,0 dB</p></div>",
     "familj": "Bestämma logaritmvärden",
     "formaga": [
       "procedur",
@@ -35112,7 +35112,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "jämföra jordskalv på Richterskalan",
     "t": "<p>Ett jordskalvs magnitud kan beräknas med \\(M=\\lg\\dfrac{A}{A_0}\\), där \\(A\\) är utslaget på en seismograf. Hur många gånger större är utslaget vid ett skalv med \\(M=6\\) än vid ett med \\(M=4\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{A_6}{A_0}=10^6,\\quad\\frac{A_4}{A_0}=10^4\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{A_6}{A_4}=\\frac{10^6}{10^4}=100\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100 gånger större</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv om varje magnitud till exponentialform</p><div class=\"facit-matte\">\\[\\frac{A_6}{A_0}=10^6,\\quad\\frac{A_4}{A_0}=10^4\\]</div></li><li><p class=\"facit-rubrik\">\\(A_0\\) tar ut varandra när utslagen jämförs</p><div class=\"facit-matte\">\\[\\frac{A_6}{A_4}=\\frac{10^6}{10^4}=100\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100 gånger större</p></div>",
     "familj": "Bestämma logaritmvärden",
     "formaga": [
       "begrepp",
@@ -35141,8 +35141,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "niva": "C",
     "poang": "0/1/0",
     "typ": "logaritm av en kvadrat",
-    "t": "<p>Lös ekvationen \\(\\lg\\left(x^2\\right)=2\\), där \\(x>0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2=10^2=100\\]</div></li><li><div class=\"facit-matte\">\\[x=10\\quad(x>0)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\)</p></div>",
+    "t": "<p>Lös ekvationen \\(\\lg\\left(x^2\\right)=2\\), där \\(x\\gt 0\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv om till exponentialform</p><div class=\"facit-matte\">\\[x^2=10^2=100\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(x\\gt 0\\) utesluter \\(x=-10\\)</p><div class=\"facit-matte\">\\[x=10\\quad(x\\gt 0)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\)</p></div>",
     "familj": "Logaritm som invers till exponentialfunktion",
     "formaga": [
       "procedur",
@@ -35154,7 +35154,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "självrättning": true,
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "ledtrad": "<p>Skriv om till exponentialform. Tänk på villkoret \\(x>0\\).</p>",
+    "ledtrad": "<p>Skriv om till exponentialform. Tänk på villkoret \\(x\\gt 0\\).</p>",
     "svarstyp": "numeriskt",
     "svarFormat": "numeriskt",
     "rättSvar": 10,
@@ -35173,7 +35173,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "total ökning under tio år",
     "t": "<p>Ett pris ökar med 3 % per år i 10 år. Med hur många procent har priset ökat totalt? (Svara i procent med en decimal.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}03^{10}\\approx1{,}344\\]</div></li><li><p>Förändringsfaktorn 1,344 motsvarar en ökning med 34,4 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 34,4 %</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tio ökningar med 3 % ger förändringsfaktorn \\(1{,}03^{10}\\)</p><div class=\"facit-matte\">\\[1{,}03^{10}\\approx1{,}344\\]</div></li><li><p class=\"facit-rubrik\">Översätt förändringsfaktorn till procent</p><p>Förändringsfaktorn 1,344 motsvarar en ökning med 34,4 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 34,4 %</p></div>",
     "familj": "Förändringsfaktor och procent",
     "formaga": [
       "procedur"
@@ -35204,7 +35204,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "minskning följd av ökning",
     "t": "<p>Ett värde minskar först med 20 % och ökar sedan med 20 %. Med hur många procent har värdet minskat totalt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}80\\cdot1{,}20=0{,}96\\]</div></li><li><p>Förändringsfaktorn 0,96 betyder en minskning med 4 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 %</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera förändringsfaktorerna</p><div class=\"facit-matte\">\\[0{,}80\\cdot1{,}20=0{,}96\\]</div></li><li><p class=\"facit-rubrik\">Översätt förändringsfaktorn till procent</p><p>Förändringsfaktorn 0,96 betyder en minskning med 4 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 %</p></div>",
     "familj": "Förändringsfaktor och procent",
     "formaga": [
       "procedur",
@@ -35236,7 +35236,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "värde efter tre halveringar",
     "t": "<p>En mängd beskrivs av \\(M(t)=1000\\cdot0{,}5^{t/5}\\), där \\(t\\) är tiden i timmar. Bestäm \\(M(15)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[M(15)=1000\\cdot0{,}5^{3}\\]</div></li><li><div class=\"facit-matte\">\\[=125\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 125</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(t=15\\); exponenten blir \\(15/5=3\\)</p><div class=\"facit-matte\">\\[M(15)=1000\\cdot0{,}5^{3}\\]</div></li><li><p class=\"facit-rubrik\">Tre halveringar av 1000</p><div class=\"facit-matte\">\\[=125\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 125</p></div>",
     "familj": "Beräkna och tolka exponentialfunktioner",
     "formaga": [
       "procedur"
@@ -35247,7 +35247,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "självrättning": true,
     "traningsniva": 2,
     "arbetsinsats": 1,
-    "ledtrad": "<p>\\(15/5=3\\).</p>",
+    "ledtrad": "<p>Exponenten \\(t/5\\) räknar halveringstider. Hur många halveringstider är 15 timmar?</p>",
     "svarstyp": "numeriskt",
     "svarFormat": "numeriskt",
     "rättSvar": 125,
@@ -35266,7 +35266,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "modell ur tabell och prognos",
     "t": "<p>Tabellen visar en exponentialfunktion.</p><table class=\"data\"><tbody><tr><th>\\(x\\)</th><td>0</td><td>1</td><td>2</td></tr><tr><th>\\(y\\)</th><td>3</td><td>12</td><td>48</td></tr></tbody></table><p>Bestäm \\(y\\) när \\(x=5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\frac{12}{3}=4,\\quad C=3\\]</div></li><li><div class=\"facit-matte\">\\[y=3\\cdot4^5=3072\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 072</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förändringsfaktorn är kvoten mellan två y-värden i följd; startvärdet är y när x = 0</p><div class=\"facit-matte\">\\[a=\\frac{12}{3}=4,\\quad C=3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=5\\)</p><div class=\"facit-matte\">\\[y=3\\cdot4^5=3072\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 072</p></div>",
     "familj": "Bestämma exponentialmodell",
     "formaga": [
       "procedur"
@@ -35296,7 +35296,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "minskande modell ur två värden",
     "t": "<p>En exponentialfunktion \\(f(x)=C\\cdot a^x\\) har \\(f(0)=50\\) och \\(f(1)=40\\). Bestäm \\(f(3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[C=50,\\quad a=\\frac{40}{50}=0{,}8\\]</div></li><li><div class=\"facit-matte\">\\[f(3)=50\\cdot0{,}8^3=25{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25,6</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f(0)\\) är startvärdet och \\(f(1)/f(0)\\) förändringsfaktorn</p><div class=\"facit-matte\">\\[C=50,\\quad a=\\frac{40}{50}=0{,}8\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=3\\)</p><div class=\"facit-matte\">\\[f(3)=50\\cdot0{,}8^3=25{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25,6</p></div>",
     "familj": "Bestämma exponentialmodell",
     "formaga": [
       "procedur"
@@ -35326,7 +35326,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "årlig procentuell ökning",
     "t": "<p>En stads befolkning ökade från 2 400 till 3 000 invånare på 4 år. Anta att ökningen var exponentiell. Med hur många procent ökade befolkningen per år? (Svara i procent med en decimal.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2400\\cdot a^4=3000\\Rightarrow a^4=1{,}25\\]</div></li><li><div class=\"facit-matte\">\\[a=1{,}25^{1/4}\\approx1{,}057\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 5,7 % per år</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyra år med samma förändringsfaktor a</p><div class=\"facit-matte\">\\[2400\\cdot a^4=3000\\Rightarrow a^4=1{,}25\\]</div></li><li><p class=\"facit-rubrik\">Dra fjärde roten ur</p><div class=\"facit-matte\">\\[a=1{,}25^{1/4}\\approx1{,}057\\]</div></li><li><p class=\"facit-rubrik\">Översätt förändringsfaktorn till procent</p><p>Förändringsfaktorn 1,057 betyder att befolkningen ökar med 5,7 % per år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 5,7 % per år</p></div>",
     "familj": "Bestämma exponentialmodell",
     "formaga": [
       "procedur",
@@ -35358,7 +35358,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "när värdet blir mindre än hälften",
     "t": "<p>En bil förlorar 15 % av sitt värde varje år. Efter hur många hela år är värdet för första gången mindre än hälften av nypriset?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[0{,}85^4\\approx0{,}522>0{,}5\\]</div></li><li><div class=\"facit-matte\">\\[0{,}85^5\\approx0{,}444<0{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 5 år</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Efter 4 år är värdet fortfarande mer än hälften</p><div class=\"facit-matte\">\\[0{,}85^4\\approx0{,}522\\gt 0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Efter 5 år är det för första gången mindre än hälften</p><div class=\"facit-matte\">\\[0{,}85^5\\approx0{,}444\\lt 0{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 5 år</p></div>",
     "familj": "Beräkna och tolka exponentialfunktioner",
     "formaga": [
       "procedur",
@@ -35388,8 +35388,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "niva": "C",
     "poang": "0/1/0",
     "typ": "C och a ur två funktionsvärden",
-    "t": "<p>En exponentialfunktion \\(f(x)=C\\cdot a^x\\), med \\(a>0\\), uppfyller \\(f(1)=10\\) och \\(f(3)=40\\). Bestäm \\(C\\) och \\(a\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{f(3)}{f(1)}=a^2=4\\Rightarrow a=2\\]</div></li><li><div class=\"facit-matte\">\\[C\\cdot2=10\\Rightarrow C=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C=5\\), \\(a=2\\)</p></div>",
+    "t": "<p>En exponentialfunktion \\(f(x)=C\\cdot a^x\\), med \\(a\\gt 0\\), uppfyller \\(f(1)=10\\) och \\(f(3)=40\\). Bestäm \\(C\\) och \\(a\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela \\(f(3)\\) med \\(f(1)\\) så att C försvinner</p><div class=\"facit-matte\">\\[\\frac{f(3)}{f(1)}=a^2=4\\Rightarrow a=2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(a=2\\) i \\(f(1)=10\\)</p><div class=\"facit-matte\">\\[C\\cdot2=10\\Rightarrow C=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C=5\\), \\(a=2\\)</p></div>",
     "familj": "Bestämma exponentialmodell",
     "formaga": [
       "procedur",
@@ -35437,7 +35437,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "halveringstid ur två mätningar",
     "t": "<p>Ett radioaktivt prov väger 80 g. Efter 9 dygn återstår 10 g av det radioaktiva ämnet. Bestäm halveringstiden. (Svara i dygn.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[80\\to40\\to20\\to10\\]</div></li><li><p>Det är tre halveringar på 9 dygn.</p></li><li><div class=\"facit-matte\">\\[T=\\frac{9}{3}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 dygn</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halvera tills 10 g återstår</p><div class=\"facit-matte\">\\[80\\to40\\to20\\to10\\]</div></li><li><p class=\"facit-rubrik\">Räkna halveringarna</p><p>Det är tre halveringar på 9 dygn.</p></li><li><p class=\"facit-rubrik\">Halveringstiden är tiden delad med antalet halveringar</p><div class=\"facit-matte\">\\[T=\\frac{9}{3}=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 dygn</p></div>",
     "familj": "Beräkna och tolka exponentialfunktioner",
     "formaga": [
       "procedur",
@@ -35469,7 +35469,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "köpkraft efter inflation",
     "t": "<p>Inflationen är 2 % per år. Vad är 100 kr i dag värt i dagens penningvärde om 10 år, alltså \\(\\dfrac{100}{1{,}02^{10}}\\)? (Svara i kr, avrundat till heltal.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{100}{1{,}02^{10}}\\approx\\frac{100}{1{,}219}\\approx82\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 82 kr</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Priserna har ökat med faktorn \\(1{,}02^{10}\\approx1{,}219\\), så pengarna räcker till mindre</p><div class=\"facit-matte\">\\[\\frac{100}{1{,}02^{10}}\\approx\\frac{100}{1{,}219}\\approx82\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 82 kr</p></div>",
     "familj": "Beräkna och tolka exponentialfunktioner",
     "formaga": [
       "procedur",
@@ -35501,7 +35501,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "modell med månader och år",
     "t": "<p>Ett värde är 500 kr och minskar med 6 % per månad. Vilken modell ger värdet efter \\(t\\) år?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje månad multipliceras värdet med 0,94. På ett år blir det 12 gånger.</p></li><li><div class=\"facit-matte\">\\[V(t)=500\\cdot0{,}94^{12t}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(500\\cdot0{,}94^{12t}\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje månad multipliceras värdet med 0,94, och ett år har 12 månader</p><p>Varje månad multipliceras värdet med 0,94. På ett år blir det 12 gånger.</p></li><li><p class=\"facit-rubrik\">Efter t år har faktorn använts \\(12t\\) gånger</p><div class=\"facit-matte\">\\[V(t)=500\\cdot0{,}94^{12t}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(500\\cdot0{,}94^{12t}\\)</p></div>",
     "familj": "Bestämma exponentialmodell",
     "formaga": [
       "begrepp",
@@ -35550,7 +35550,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "isolera roten först",
     "t": "<p>Lös ekvationen \\(\\sqrt{x}+3=7\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt x=4\\]</div></li><li><div class=\"facit-matte\">\\[x=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=16\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta över 3 så att roten står ensam</p><div class=\"facit-matte\">\\[\\sqrt x=4\\]</div></li><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[x=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=16\\)</p></div>",
     "familj": "Isolera roten och kvadrera",
     "formaga": [
       "procedur"
@@ -35578,7 +35578,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "dela innan du kvadrerar",
     "t": "<p>Lös ekvationen \\(2\\sqrt{x-1}=6\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{x-1}=3\\]</div></li><li><div class=\"facit-matte\">\\[x-1=9\\Rightarrow x=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela med 2 så att roten står ensam</p><div class=\"facit-matte\">\\[\\sqrt{x-1}=3\\]</div></li><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[x-1=9\\Rightarrow x=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=10\\)</p></div>",
     "familj": "Isolera roten och kvadrera",
     "formaga": [
       "procedur"
@@ -35606,7 +35606,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "rot med x² under rottecknet",
     "t": "<p>Lös ekvationen \\(\\sqrt{x^2+9}=5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2+9=25\\]</div></li><li><div class=\"facit-matte\">\\[x^2=16\\Rightarrow x=\\pm4\\]</div></li><li><p>Kontroll: \\(\\sqrt{16+9}=5\\) för båda.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[x^2+9=25\\]</div></li><li><p class=\"facit-rubrik\">Lös andragradsekvationen</p><div class=\"facit-matte\">\\[x^2=16\\Rightarrow x=\\pm4\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera båda lösningarna</p><p>Kontroll: \\(\\sqrt{16+9}=5\\) för båda.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm4\\)</p></div>",
     "familj": "Isolera roten och kvadrera",
     "formaga": [
       "procedur"
@@ -35648,7 +35648,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "två rötter som ska vara lika",
     "t": "<p>Lös ekvationen \\(\\sqrt{5x+1}=\\sqrt{2x+7}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5x+1=2x+7\\]</div></li><li><div class=\"facit-matte\">\\[3x=6\\Rightarrow x=2\\]</div></li><li><p>Kontroll: \\(\\sqrt{11}=\\sqrt{11}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden så att rötterna försvinner</p><div class=\"facit-matte\">\\[5x+1=2x+7\\]</div></li><li><p class=\"facit-rubrik\">Lös den linjära ekvationen</p><div class=\"facit-matte\">\\[3x=6\\Rightarrow x=2\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera: båda leden blir \\(\\sqrt{11}\\)</p><p>Kontroll: \\(\\sqrt{11}=\\sqrt{11}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\)</p></div>",
     "familj": "Isolera roten och kvadrera",
     "formaga": [
       "procedur"
@@ -35676,7 +35676,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "rätt kvadrering av ett binom",
     "t": "<p>Lisa ska lösa \\(\\sqrt{x+3}=x-3\\). Vilken ekvation får hon när hon kvadrerar båda leden?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(\\sqrt{x+3})^2=(x-3)^2\\]</div></li><li><div class=\"facit-matte\">\\[x+3=x^2-6x+9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+3=x^2-6x+9\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[(\\sqrt{x+3})^2=(x-3)^2\\]</div></li><li><p class=\"facit-rubrik\">Högerledet utvecklas med andra kvadreringsregeln</p><div class=\"facit-matte\">\\[x+3=x^2-6x+9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x+3=x^2-6x+9\\)</p></div>",
     "familj": "Falska rötter och kontroll",
     "formaga": [
       "begrepp"
@@ -35724,7 +35724,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "en falsk rot att förkasta",
     "t": "<p>Lös ekvationen \\(\\sqrt{x+1}=x-5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+1=x^2-10x+25\\]</div></li><li><div class=\"facit-matte\">\\[x^2-11x+24=0\\Rightarrow x=3\\ \\text{eller}\\ x=8\\]</div></li><li><p>Kontroll: \\(x=8\\) ger \\(3=3\\). \\(x=3\\) ger \\(2=-2\\), alltså en falsk rot.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden; högerledet med kvadreringsregeln</p><div class=\"facit-matte\">\\[x+1=x^2-10x+25\\]</div></li><li><p class=\"facit-rubrik\">Lös andragradsekvationen</p><div class=\"facit-matte\">\\[x^2-11x+24=0\\Rightarrow x=3\\ \\text{eller}\\ x=8\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera båda lösningarna; kvadreringen kan ge falska rötter</p><p>Kontroll: \\(x=8\\) ger \\(3=3\\). \\(x=3\\) ger \\(2=-2\\), alltså en falsk rot.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
     "familj": "Falska rötter och kontroll",
     "formaga": [
       "procedur",
@@ -35753,7 +35753,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "x lika med en rot",
     "t": "<p>Lös ekvationen \\(x=\\sqrt{3x+10}\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2=3x+10\\]</div></li><li><div class=\"facit-matte\">\\[x^2-3x-10=0\\Rightarrow x=5\\ \\text{eller}\\ x=-2\\]</div></li><li><p>Kontroll: \\(x=5\\) ger \\(5=5\\). \\(x=-2\\) är falsk, eftersom en rot inte kan vara negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[x^2=3x+10\\]</div></li><li><p class=\"facit-rubrik\">Lös andragradsekvationen</p><div class=\"facit-matte\">\\[x^2-3x-10=0\\Rightarrow x=5\\ \\text{eller}\\ x=-2\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera: en kvadratrot kan inte vara negativ</p><p>Kontroll: \\(x=5\\) ger \\(5=5\\). \\(x=-2\\) är falsk, eftersom en rot inte kan vara negativ.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
     "familj": "Falska rötter och kontroll",
     "formaga": [
       "procedur",
@@ -35782,7 +35782,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "falsk rot med binom i högerledet",
     "t": "<p>Lös ekvationen \\(\\sqrt{2x+7}=x+2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x+7=x^2+4x+4\\]</div></li><li><div class=\"facit-matte\">\\[x^2+2x-3=0\\Rightarrow x=1\\ \\text{eller}\\ x=-3\\]</div></li><li><p>Kontroll: \\(x=1\\) ger \\(3=3\\). \\(x=-3\\) ger \\(1=-1\\), en falsk rot.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden; högerledet med kvadreringsregeln</p><div class=\"facit-matte\">\\[2x+7=x^2+4x+4\\]</div></li><li><p class=\"facit-rubrik\">Lös andragradsekvationen</p><div class=\"facit-matte\">\\[x^2+2x-3=0\\Rightarrow x=1\\ \\text{eller}\\ x=-3\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera båda lösningarna</p><p>Kontroll: \\(x=1\\) ger \\(3=3\\). \\(x=-3\\) ger \\(1=-1\\), en falsk rot.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\)</p></div>",
     "familj": "Falska rötter och kontroll",
     "formaga": [
       "procedur",
@@ -35811,7 +35811,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "pendellängd ur svängningstid",
     "t": "<p>Svängningstiden för en pendel är \\(T=2\\pi\\sqrt{\\dfrac{L}{g}}\\), där \\(L\\) är längden i meter och \\(g=9{,}82\\) m/s². Hur lång är en pendel med \\(T=2{,}0\\) s? (Svara i m med två decimaler.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{\\frac{L}{9{,}82}}=\\frac{2{,}0}{2\\pi}\\]</div></li><li><div class=\"facit-matte\">\\[L=9{,}82\\cdot\\left(\\frac{2{,}0}{2\\pi}\\right)^2\\approx0{,}99\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 0,99 m</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela med \\(2\\pi\\) så att roten står ensam</p><div class=\"facit-matte\">\\[\\sqrt{\\frac{L}{9{,}82}}=\\frac{2{,}0}{2\\pi}\\]</div></li><li><p class=\"facit-rubrik\">Kvadrera och multiplicera med g</p><div class=\"facit-matte\">\\[L=9{,}82\\cdot\\left(\\frac{2{,}0}{2\\pi}\\right)^2\\approx0{,}99\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 0,99 m</p></div>",
     "familj": "Isolera roten och kvadrera",
     "formaga": [
       "procedur",
@@ -35841,7 +35841,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "fallhöjd ur falltid",
     "t": "<p>Falltiden för ett föremål som släpps från höjden \\(h\\) meter är \\(t=\\sqrt{\\dfrac{2h}{9{,}82}}\\) sekunder. Ett föremål faller i 3,0 s. Från vilken höjd släpptes det? (Svara i m med en decimal.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{2h}{9{,}82}=3{,}0^2=9\\]</div></li><li><div class=\"facit-matte\">\\[h=\\frac{9\\cdot9{,}82}{2}\\approx44{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 44,2 m</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[\\frac{2h}{9{,}82}=3{,}0^2=9\\]</div></li><li><p class=\"facit-rubrik\">Lös ut h</p><div class=\"facit-matte\">\\[h=\\frac{9\\cdot9{,}82}{2}\\approx44{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 44,2 m</p></div>",
     "familj": "Isolera roten och kvadrera",
     "formaga": [
       "procedur",
@@ -35873,7 +35873,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "kvadrat lika med 49",
     "t": "<p>Lös ekvationen \\((2x-1)^2=49\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x-1=\\pm7\\]</div></li><li><div class=\"facit-matte\">\\[x=4\\quad\\text{eller}\\quad x=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\) eller \\(x=-3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra roten ur båda leden; både 7 och −7 i kvadrat är 49</p><div class=\"facit-matte\">\\[2x-1=\\pm7\\]</div></li><li><p class=\"facit-rubrik\">Lös de två förstagradsekvationerna</p><div class=\"facit-matte\">\\[x=4\\quad\\text{eller}\\quad x=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\) eller \\(x=-3\\)</p></div>",
     "familj": "Ekvationer av typen (x + a)² = b",
     "formaga": [
       "procedur"
@@ -35917,7 +35917,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "exakt sida ur arean",
     "t": "<p>En kvadrat har sidan \\(x+2\\) cm och arean 50 cm². Bestäm \\(x\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x+2)^2=50\\]</div></li><li><div class=\"facit-matte\">\\[x+2=\\sqrt{50}=5\\sqrt2\\quad(\\text{sidan är positiv})\\]</div></li><li><div class=\"facit-matte\">\\[x=5\\sqrt2-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\sqrt2-2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Arean är sidan i kvadrat</p><div class=\"facit-matte\">\\[(x+2)^2=50\\]</div></li><li><p class=\"facit-rubrik\">Dra roten ur; bara den positiva roten ger en sida</p><div class=\"facit-matte\">\\[\\begin{gathered}x+2=\\sqrt{50}=5\\sqrt2\\\\(\\text{sidan är positiv})\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut x</p><div class=\"facit-matte\">\\[x=5\\sqrt2-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\sqrt2-2\\)</p></div>",
     "familj": "Ekvationer av typen (x + a)² = b",
     "formaga": [
       "procedur",
@@ -35948,7 +35948,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "radie ur ökad cirkelarea",
     "t": "<p>När radien i en cirkel ökas med 2 cm blir arean \\(100\\pi\\) cm². Hur stor var radien från början? (Svara i cm.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\pi(r+2)^2=100\\pi\\]</div></li><li><div class=\"facit-matte\">\\[(r+2)^2=100\\Rightarrow r+2=10\\]</div></li><li><div class=\"facit-matte\">\\[r=8\\quad(r+2=-10\\ \\text{förkastas})\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 cm</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckna den nya arean med radien \\(r+2\\)</p><div class=\"facit-matte\">\\[\\pi(r+2)^2=100\\pi\\]</div></li><li><p class=\"facit-rubrik\">Dela med \\(\\pi\\) och dra roten ur</p><div class=\"facit-matte\">\\[(r+2)^2=100\\Rightarrow r+2=10\\]</div></li><li><p class=\"facit-rubrik\">En radie är positiv, så bara \\(r+2=10\\) är möjligt</p><div class=\"facit-matte\">\\[r=8\\quad(r+2=-10\\ \\text{förkastas})\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 cm</p></div>",
     "familj": "Ekvationer av typen (x + a)² = b",
     "formaga": [
       "procedur",
@@ -35980,7 +35980,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "falltid med decimalsvar",
     "t": "<p>Ett föremål faller sträckan \\(s=4{,}91t^2\\) meter på \\(t\\) sekunder. Hur lång tid tar det att falla 20 m? (Svara i s med två decimaler.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4{,}91t^2=20\\]</div></li><li><div class=\"facit-matte\">\\[t^2\\approx4{,}073\\Rightarrow t\\approx2{,}02\\quad(t>0)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 2,02 s</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt sträckan till 20 m</p><div class=\"facit-matte\">\\[4{,}91t^2=20\\]</div></li><li><p class=\"facit-rubrik\">Dela med 4,91 och dra roten ur; bara positiv tid är rimlig</p><div class=\"facit-matte\">\\[t^2\\approx4{,}073\\Rightarrow t\\approx2{,}02\\quad(t\\gt 0)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 2,02 s</p></div>",
     "familj": "Ekvationer av typen x² = a",
     "formaga": [
       "procedur"
@@ -36011,7 +36011,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "x² i båda leden",
     "t": "<p>Lös ekvationen \\(x^2=2x^2-8\\). Svara exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[8=x^2\\]</div></li><li><div class=\"facit-matte\">\\[x=\\pm\\sqrt8=\\pm2\\sqrt2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\sqrt2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla \\(x^2\\)-termerna i ett led</p><div class=\"facit-matte\">\\[8=x^2\\]</div></li><li><p class=\"facit-rubrik\">Dra roten ur och förenkla \\(\\sqrt8=\\sqrt{4\\cdot2}\\)</p><div class=\"facit-matte\">\\[x=\\pm\\sqrt8=\\pm2\\sqrt2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\sqrt2\\)</p></div>",
     "familj": "Ekvationer av typen x² = a",
     "formaga": [
       "procedur"
@@ -36055,7 +36055,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "parameter ur en känd lösning",
     "t": "<p>Ekvationen \\((x-a)^2=16\\) har lösningen \\(x=1\\). Den andra lösningen är större än 1. Bestäm \\(a\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=a\\pm4\\]</div></li><li><p>Om \\(a-4=1\\) är \\(a=5\\), och den andra lösningen blir 9. Om \\(a+4=1\\) är \\(a=-3\\), och den andra blir \\(-7\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra roten ur: lösningarna ligger 4 steg på var sin sida om a</p><div class=\"facit-matte\">\\[x=a\\pm4\\]</div></li><li><p class=\"facit-rubrik\">Pröva vilken av lösningarna som kan vara 1 när den andra är större</p><p>Om \\(a-4=1\\) är \\(a=5\\), och den andra lösningen blir 9. Om \\(a+4=1\\) är \\(a=-3\\), och den andra blir \\(-7\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\)</p></div>",
     "familj": "Ekvationer av typen (x + a)² = b",
     "formaga": [
       "problemlösning"
@@ -36085,7 +36085,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "räntesats ur två års tillväxt",
     "t": "<p>Ett kapital på 10 000 kr växer till 12 100 kr på två år med samma räntesats \\(r\\) varje år. Då gäller \\(10\\,000(1+r)^2=12\\,100\\). Bestäm räntesatsen i procent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(1+r)^2=1{,}21\\]</div></li><li><div class=\"facit-matte\">\\[1+r=1{,}1\\quad(1+r>0)\\]</div></li><li><div class=\"facit-matte\">\\[r=0{,}10=10\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 %</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela båda leden med 10 000</p><div class=\"facit-matte\">\\[(1+r)^2=1{,}21\\]</div></li><li><p class=\"facit-rubrik\">Dra roten ur; förändringsfaktorn är positiv</p><div class=\"facit-matte\">\\[1+r=1{,}1\\quad(1+r\\gt 0)\\]</div></li><li><p class=\"facit-rubrik\">Översätt till procent</p><div class=\"facit-matte\">\\[r=0{,}10=10\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 %</p></div>",
     "familj": "Ekvationer av typen (x + a)² = b",
     "formaga": [
       "procedur",
@@ -36117,7 +36117,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "dubbelrot",
     "t": "<p>Lös ekvationen \\((x+5)^2=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+5=0\\]</div></li><li><div class=\"facit-matte\">\\[x=-5\\]</div></li><li><p>Ekvationen har bara en lösning (en dubbelrot).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En kvadrat är noll bara när det som kvadreras är noll</p><div class=\"facit-matte\">\\[x+5=0\\]</div></li><li><p class=\"facit-rubrik\">Lös ut x</p><div class=\"facit-matte\">\\[x=-5\\]</div></li><li><p class=\"facit-rubrik\">Bara en lösning: en dubbelrot</p><p>Ekvationen har bara en lösning (en dubbelrot).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-5\\)</p></div>",
     "familj": "Ekvationer av typen (x + a)² = b",
     "formaga": [
       "begrepp"
@@ -36147,7 +36147,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "kateter i likbent rätvinklig triangel",
     "t": "<p>En rätvinklig och likbent triangel har hypotenusan 10 cm. Hur långa är kateterna? (Svara i cm med en decimal.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2+x^2=10^2\\]</div></li><li><div class=\"facit-matte\">\\[2x^2=100\\Rightarrow x=\\sqrt{50}\\approx7{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 7,1 cm</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pythagoras sats med två lika långa kateter</p><div class=\"facit-matte\">\\[x^2+x^2=10^2\\]</div></li><li><p class=\"facit-rubrik\">Lös ut x och dra roten ur</p><div class=\"facit-matte\">\\[2x^2=100\\Rightarrow x=\\sqrt{50}\\approx7{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 7,1 cm</p></div>",
     "familj": "Ekvationer av typen x² = a",
     "formaga": [
       "procedur",
@@ -36179,7 +36179,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "kvadrat av en kvadrat",
     "t": "<p>Lös ekvationen \\((x^2-3)^2=1\\). Svara exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2-3=\\pm1\\]</div></li><li><div class=\"facit-matte\">\\[x^2=4\\quad\\text{eller}\\quad x^2=2\\]</div></li><li><div class=\"facit-matte\">\\[x=\\pm2\\quad\\text{eller}\\quad x=\\pm\\sqrt2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\) och \\(x=\\pm\\sqrt2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dra roten ur båda leden; både 1 och −1 i kvadrat är 1</p><div class=\"facit-matte\">\\[x^2-3=\\pm1\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(x^2\\) i båda fallen</p><div class=\"facit-matte\">\\[x^2=4\\quad\\text{eller}\\quad x^2=2\\]</div></li><li><p class=\"facit-rubrik\">Varje fall ger två lösningar</p><div class=\"facit-matte\">\\[x=\\pm2\\quad\\text{eller}\\quad x=\\pm\\sqrt2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\) och \\(x=\\pm\\sqrt2\\)</p></div>",
     "familj": "Ekvationer av typen (x + a)² = b",
     "formaga": [
       "procedur",
@@ -36232,7 +36232,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "samla termerna och bryt ut",
     "t": "<p>Lös ekvationen \\(x^2+6x=7x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2-x=0\\]</div></li><li><div class=\"facit-matte\">\\[x(x-1)=0\\]</div></li><li><div class=\"facit-matte\">\\[x=0\\quad\\text{eller}\\quad x=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) eller \\(x=1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla allt i vänster led (dela inte med x, då försvinner lösningen x = 0)</p><div class=\"facit-matte\">\\[x^2-x=0\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut x</p><div class=\"facit-matte\">\\[x(x-1)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden</p><div class=\"facit-matte\">\\[x=0\\quad\\text{eller}\\quad x=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) eller \\(x=1\\)</p></div>",
     "familj": "Faktorisera och lösa med nollproduktmetoden",
     "formaga": [
       "procedur"
@@ -36276,7 +36276,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "faktor med koefficient",
     "t": "<p>Ange alla x som gör att \\((3x-6)(x+2)=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x-6=0\\quad\\text{eller}\\quad x+2=0\\]</div></li><li><div class=\"facit-matte\">\\[x=2\\quad\\text{eller}\\quad x=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En produkt är noll när någon av faktorerna är noll</p><div class=\"facit-matte\">\\[3x-6=0\\quad\\text{eller}\\quad x+2=0\\]</div></li><li><p class=\"facit-rubrik\">Lös varje enkel ekvation</p><div class=\"facit-matte\">\\[x=2\\quad\\text{eller}\\quad x=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\)</p></div>",
     "familj": "Nollproduktmetoden i faktoriserad form",
     "formaga": [
       "procedur"
@@ -36320,7 +36320,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "bryt ut x²",
     "t": "<p>Lös ekvationen \\(x^3=7x^2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^3-7x^2=0\\]</div></li><li><div class=\"facit-matte\">\\[x^2(x-7)=0\\]</div></li><li><div class=\"facit-matte\">\\[x=0\\quad\\text{eller}\\quad x=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) eller \\(x=7\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla allt i ett led</p><div class=\"facit-matte\">\\[x^3-7x^2=0\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut den gemensamma faktorn \\(x^2\\)</p><div class=\"facit-matte\">\\[x^2(x-7)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden</p><div class=\"facit-matte\">\\[x=0\\quad\\text{eller}\\quad x=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) eller \\(x=7\\)</p></div>",
     "familj": "Faktorisera och lösa med nollproduktmetoden",
     "formaga": [
       "procedur"
@@ -36364,7 +36364,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "gemensam faktor i båda leden",
     "t": "<p>Elin ska lösa \\((x-2)(x+3)=(x-2)(2x-1)\\). Hjälp henne att hitta alla lösningar utan att dela båda leden med \\(x-2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x-2)(x+3)-(x-2)(2x-1)=0\\]</div></li><li><div class=\"facit-matte\">\\[(x-2)\\big((x+3)-(2x-1)\\big)=0\\]</div></li><li><div class=\"facit-matte\">\\[(x-2)(4-x)=0\\]</div></li><li><div class=\"facit-matte\">\\[x=2\\quad\\text{eller}\\quad x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\) eller \\(x=4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samla allt i vänster led</p><div class=\"facit-matte\">\\[(x-2)(x+3)-(x-2)(2x-1)=0\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut den gemensamma faktorn \\(x-2\\)</p><div class=\"facit-matte\">\\[(x-2)\\big((x+3)-(2x-1)\\big)=0\\]</div></li><li><p class=\"facit-rubrik\">Förenkla den andra faktorn: \\(x+3-2x+1=4-x\\)</p><div class=\"facit-matte\">\\[(x-2)(4-x)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden; \\(x=2\\) hade försvunnit om man delat med \\(x-2\\)</p><div class=\"facit-matte\">\\[x=2\\quad\\text{eller}\\quad x=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\) eller \\(x=4\\)</p></div>",
     "familj": "Nollproduktmetoden i faktoriserad form",
     "formaga": [
       "procedur",
@@ -36409,7 +36409,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "tre faktorer",
     "t": "<p>Lös ekvationen \\(x(x-3)(2x+1)=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=0,\\quad x-3=0,\\quad 2x+1=0\\]</div></li><li><div class=\"facit-matte\">\\[x=0,\\ x=3\\ \\text{eller}\\ x=-\\tfrac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\), \\(x=3\\) eller \\(x=-\\frac12\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje faktor kan vara noll</p><div class=\"facit-matte\">\\[x=0,\\quad x-3=0,\\quad 2x+1=0\\]</div></li><li><p class=\"facit-rubrik\">Lös de tre enkla ekvationerna</p><div class=\"facit-matte\">\\[x=0,\\ x=3\\ \\text{eller}\\ x=-\\tfrac12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\), \\(x=3\\) eller \\(x=-\\frac12\\)</p></div>",
     "familj": "Nollproduktmetoden i faktoriserad form",
     "formaga": [
       "procedur"
@@ -36457,7 +36457,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "boll som landar",
     "t": "<p>En boll sparkas rakt upp från marken. Höjden är \\(h(t)=20t-5t^2\\) meter efter \\(t\\) sekunder. När är bollen tillbaka på marken? (Svara i s.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[20t-5t^2=0\\]</div></li><li><div class=\"facit-matte\">\\[5t(4-t)=0\\]</div></li><li><div class=\"facit-matte\">\\[t=0\\quad\\text{eller}\\quad t=4\\]</div></li><li><p>\\(t=0\\) är när bollen sparkas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 4 s</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bollen är på marken när höjden är 0</p><div class=\"facit-matte\">\\[20t-5t^2=0\\]</div></li><li><p class=\"facit-rubrik\">Bryt ut 5t</p><div class=\"facit-matte\">\\[5t(4-t)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden</p><div class=\"facit-matte\">\\[t=0\\quad\\text{eller}\\quad t=4\\]</div></li><li><p class=\"facit-rubrik\">Välj den lösning som svarar på frågan</p><p>\\(t=0\\) är när bollen sparkas.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 4 s</p></div>",
     "familj": "Faktorisera och lösa med nollproduktmetoden",
     "formaga": [
       "procedur",
@@ -36488,8 +36488,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "niva": "C",
     "poang": "0/1/0",
     "typ": "area lika med ett uttryck",
-    "t": "<p>En rektangel har längden \\(2x\\) cm och bredden \\(x-3\\) cm, där \\(x>3\\). Arean är lika stor som \\(4x\\) cm². Bestäm \\(x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x(x-3)=4x\\]</div></li><li><div class=\"facit-matte\">\\[2x(x-3)-4x=0\\Rightarrow 2x(x-5)=0\\]</div></li><li><div class=\"facit-matte\">\\[x=5\\quad(x=0\\ \\text{förkastas})\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+    "t": "<p>En rektangel har längden \\(2x\\) cm och bredden \\(x-3\\) cm, där \\(x\\gt 3\\). Arean är lika stor som \\(4x\\) cm². Bestäm \\(x\\).</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rektangelns area är längd gånger bredd</p><div class=\"facit-matte\">\\[2x(x-3)=4x\\]</div></li><li><p class=\"facit-rubrik\">Samla allt i ett led och bryt ut \\(2x\\)</p><div class=\"facit-matte\">\\[2x(x-3)-4x=0\\Rightarrow 2x(x-5)=0\\]</div></li><li><p class=\"facit-rubrik\">Villkoret \\(x\\gt 3\\) utesluter \\(x=0\\)</p><div class=\"facit-matte\">\\[x=5\\quad(x=0\\ \\text{förkastas})\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
     "familj": "Faktorisera och lösa med nollproduktmetoden",
     "formaga": [
       "procedur",
@@ -36520,7 +36520,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "parameter för gemensam lösning",
     "t": "<p>Ekvationerna \\(x(x-a)=0\\) och \\((x-4)(x+1)=0\\) ska ha en gemensam lösning som inte är 0. Vilka värden kan \\(a\\) ha?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den första ekvationen har lösningarna 0 och a. Den andra har 4 och −1.</p></li><li><div class=\"facit-matte\">\\[a=4\\quad\\text{eller}\\quad a=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\) eller \\(a=-1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lösningarna är 0 och a respektive 4 och −1</p><p>Den första ekvationen har lösningarna 0 och a. Den andra har 4 och −1.</p></li><li><p class=\"facit-rubrik\">Den gemensamma lösningen måste vara 4 eller −1</p><div class=\"facit-matte\">\\[a=4\\quad\\text{eller}\\quad a=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\) eller \\(a=-1\\)</p></div>",
     "familj": "Nollproduktmetoden i faktoriserad form",
     "formaga": [
       "problemlösning"
@@ -36564,7 +36564,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "två konjugatfaktorer",
     "t": "<p>Lös ekvationen \\((x^2-4)(x^2-9)=0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2-4=0\\quad\\text{eller}\\quad x^2-9=0\\]</div></li><li><div class=\"facit-matte\">\\[x=\\pm2\\quad\\text{eller}\\quad x=\\pm3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\) och \\(x=\\pm3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Varje faktor kan vara noll</p><div class=\"facit-matte\">\\[x^2-4=0\\quad\\text{eller}\\quad x^2-9=0\\]</div></li><li><p class=\"facit-rubrik\">Varje faktor ger två lösningar</p><div class=\"facit-matte\">\\[x=\\pm2\\quad\\text{eller}\\quad x=\\pm3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\) och \\(x=\\pm3\\)</p></div>",
     "familj": "Nollproduktmetoden i faktoriserad form",
     "formaga": [
       "procedur"
@@ -36616,7 +36616,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "fel användning av nollproduktmetoden",
     "t": "<p>Sara löser \\((x+1)(x-3)=5\\) genom att skriva \\(x+1=5\\) eller \\(x-3=5\\). Vad är fel?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Nollproduktmetoden bygger på att en produkt bara kan bli noll om en faktor är noll. En produkt kan bli 5 på många sätt, till exempel \\(1\\cdot5\\) eller \\(2{,}5\\cdot2\\).</p></li><li><div class=\"facit-matte\">\\[x^2-2x-3=5\\Rightarrow x^2-2x-8=0\\Rightarrow(x-4)(x+2)=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Högerledet måste vara 0. Lösningarna är \\(x=4\\) och \\(x=-2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollproduktmetoden kräver att högerledet är 0</p><p>Nollproduktmetoden bygger på att en produkt bara kan bli noll om en faktor är noll. En produkt kan bli 5 på många sätt, till exempel \\(1\\cdot5\\) eller \\(2{,}5\\cdot2\\).</p></li><li><p class=\"facit-rubrik\">Utveckla, flytta över 5 och faktorisera</p><div class=\"facit-matte\">\\[\\begin{gathered}x^2-2x-3=5 \\Rightarrow x^2-2x-8=0\\\\\\Rightarrow(x-4)(x+2)=0\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Högerledet måste vara 0. Lösningarna är \\(x=4\\) och \\(x=-2\\).</p></div>",
     "familj": "Nollproduktmetoden i faktoriserad form",
     "formaga": [
       "begrepp",
@@ -36667,7 +36667,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "jämn exponent ger två rötter",
     "t": "<p>Lös ekvationen \\(x^4=81\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=\\pm\\sqrt[4]{81}\\]</div></li><li><div class=\"facit-matte\">\\[x=\\pm3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta fjärde roten; en jämn exponent ger två lösningar</p><div class=\"facit-matte\">\\[x=\\pm\\sqrt[4]{81}\\]</div></li><li><p class=\"facit-rubrik\">\\(3^4=81\\)</p><div class=\"facit-matte\">\\[x=\\pm3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm3\\)</p></div>",
     "familj": "Isolera potensen och ta roten",
     "formaga": [
       "procedur"
@@ -36711,7 +36711,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "udda exponent och negativt högerled",
     "t": "<p>Lös ekvationen \\(x^5=-32\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=\\sqrt[5]{-32}=-2\\]</div></li><li><p>Kontroll: \\((-2)^5=-32\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta femte roten; en udda exponent ger en lösning</p><div class=\"facit-matte\">\\[x=\\sqrt[5]{-32}=-2\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera: \\((-2)^5=-32\\)</p><p>Kontroll: \\((-2)^5=-32\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\)</p></div>",
     "familj": "Isolera potensen och ta roten",
     "formaga": [
       "procedur"
@@ -36741,7 +36741,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "skiftad tredjegradspotens",
     "t": "<p>Vilket x uppfyller \\(2(x-1)^3=-16\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x-1)^3=-8\\]</div></li><li><div class=\"facit-matte\">\\[x-1=-2\\]</div></li><li><div class=\"facit-matte\">\\[x=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela med 2 så att kuben står ensam</p><div class=\"facit-matte\">\\[(x-1)^3=-8\\]</div></li><li><p class=\"facit-rubrik\">Ta tredje roten: \\((-2)^3=-8\\)</p><div class=\"facit-matte\">\\[x-1=-2\\]</div></li><li><p class=\"facit-rubrik\">Lös ut x</p><div class=\"facit-matte\">\\[x=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\)</p></div>",
     "familj": "Skiftade potensekvationer och två rötter",
     "formaga": [
       "procedur"
@@ -36771,7 +36771,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "radie ur klotets volym",
     "t": "<p>Ett klot har volymen 1 000 cm³. Volymen är \\(V=\\dfrac{4\\pi r^3}{3}\\). Bestäm radien. (Svara i cm med en decimal.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[r^3=\\frac{3\\cdot1000}{4\\pi}\\approx238{,}7\\]</div></li><li><div class=\"facit-matte\">\\[r=\\sqrt[3]{238{,}7}\\approx6{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 6,2 cm</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut \\(r^3\\) ur volymformeln</p><div class=\"facit-matte\">\\[r^3=\\frac{3\\cdot1000}{4\\pi}\\approx238{,}7\\]</div></li><li><p class=\"facit-rubrik\">Ta tredje roten</p><div class=\"facit-matte\">\\[r=\\sqrt[3]{238{,}7}\\approx6{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 6,2 cm</p></div>",
     "familj": "Isolera potensen och ta roten",
     "formaga": [
       "procedur",
@@ -36803,7 +36803,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "exponent en halv",
     "t": "<p>Lös ekvationen \\(x^{1/2}=6\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^{1/2}=\\sqrt x=6\\]</div></li><li><div class=\"facit-matte\">\\[x=36\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=36\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exponenten \\(\\tfrac12\\) betyder kvadratrot</p><div class=\"facit-matte\">\\[x^{1/2}=\\sqrt x=6\\]</div></li><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[x=36\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=36\\)</p></div>",
     "familj": "Isolera potensen och ta roten",
     "formaga": [
       "procedur"
@@ -36833,7 +36833,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "exponent tre halva",
     "t": "<p>Lös ekvationen \\(x^{3/2}=27\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=27^{2/3}\\]</div></li><li><div class=\"facit-matte\">\\[=\\left(\\sqrt[3]{27}\\right)^2=3^2=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=9\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Upphöj båda leden till \\(\\tfrac23\\), så att exponenten blir 1</p><div class=\"facit-matte\">\\[x=27^{2/3}\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut: tredje roten ur 27 i kvadrat</p><div class=\"facit-matte\">\\[=\\left(\\sqrt[3]{27}\\right)^2=3^2=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=9\\)</p></div>",
     "familj": "Isolera potensen och ta roten",
     "formaga": [
       "procedur",
@@ -36864,7 +36864,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "kantlängd när volymen fördubblas",
     "t": "<p>En kubs volym fördubblas. Hur många gånger längre blir kanten? (Svara med två decimaler.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(ka)^3=2a^3\\Rightarrow k^3=2\\]</div></li><li><div class=\"facit-matte\">\\[k=\\sqrt[3]2\\approx1{,}26\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,26 gånger</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kanten förstoras k gånger, så volymen ändras med \\(k^3\\)</p><div class=\"facit-matte\">\\[(ka)^3=2a^3\\Rightarrow k^3=2\\]</div></li><li><p class=\"facit-rubrik\">Ta tredje roten ur 2</p><div class=\"facit-matte\">\\[k=\\sqrt[3]2\\approx1{,}26\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,26 gånger</p></div>",
     "familj": "Isolera potensen och ta roten",
     "formaga": [
       "procedur",
@@ -36895,7 +36895,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "förändringsfaktor ur fyra år",
     "t": "<p>Ett kapital växer från 5 000 kr till 6 000 kr på 4 år. Bestäm den årliga förändringsfaktorn. (Svara med tre decimaler.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5000\\cdot a^4=6000\\Rightarrow a^4=1{,}2\\]</div></li><li><div class=\"facit-matte\">\\[a=1{,}2^{1/4}\\approx1{,}047\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,047</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Fyra år med samma förändringsfaktor a</p><div class=\"facit-matte\">\\[5000\\cdot a^4=6000\\Rightarrow a^4=1{,}2\\]</div></li><li><p class=\"facit-rubrik\">Lös potensekvationen genom att ta fjärde roten</p><div class=\"facit-matte\">\\[a=1{,}2^{1/4}\\approx1{,}047\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 1,047</p></div>",
     "familj": "Isolera potensen och ta roten",
     "formaga": [
       "procedur",
@@ -36926,7 +36926,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "skiftad fjärdegradspotens",
     "t": "<p>Lös ekvationen \\((x+2)^4=16\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+2=\\pm2\\]</div></li><li><div class=\"facit-matte\">\\[x=0\\quad\\text{eller}\\quad x=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) eller \\(x=-4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ta fjärde roten; både 2 och −2 upphöjt till 4 är 16</p><div class=\"facit-matte\">\\[x+2=\\pm2\\]</div></li><li><p class=\"facit-rubrik\">Lös de två ekvationerna</p><div class=\"facit-matte\">\\[x=0\\quad\\text{eller}\\quad x=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=0\\) eller \\(x=-4\\)</p></div>",
     "familj": "Skiftade potensekvationer och två rötter",
     "formaga": [
       "procedur"
@@ -36970,7 +36970,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "antal reella lösningar",
     "t": "<p>Hur många reella lösningar har ekvationerna \\(x^3=-8\\) och \\(x^4=-16\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(x^3=-8\\) har lösningen \\(x=-2\\), eftersom udda potenser kan vara negativa.</p></li><li><p>\\(x^4\\) är aldrig negativt, så \\(x^4=-16\\) saknar reella lösningar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 respektive 0</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En udda potens kan vara negativ</p><p>\\(x^3=-8\\) har lösningen \\(x=-2\\), eftersom udda potenser kan vara negativa.</p></li><li><p class=\"facit-rubrik\">En jämn potens är aldrig negativ</p><p>\\(x^4\\) är aldrig negativt, så \\(x^4=-16\\) saknar reella lösningar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 1 respektive 0</p></div>",
     "familj": "Skiftade potensekvationer och två rötter",
     "formaga": [
       "begrepp"
@@ -42969,7 +42969,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "funktionsvärde med negativt x",
     "t": "<p>Vilket värde har \\(f(x)=x^2-3x+2\\) när \\(x=-1\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(-1)=(-1)^2-3\\cdot(-1)+2\\]</div></li><li><div class=\"facit-matte\">\\[=1+3+2=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=-1\\) med parentes</p><div class=\"facit-matte\">\\[f(-1)=(-1)^2-3\\cdot(-1)+2\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut; \\(-3\\cdot(-1)=+3\\)</p><div class=\"facit-matte\">\\[=1+3+2=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6</p></div>",
     "familj": "Egenskaper och funktionsvärden",
     "formaga": [
       "procedur"
@@ -42999,7 +42999,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "uppåt eller nedåt",
     "t": "<p>Är parabeln \\(y=-2x^2+x+5\\) uppåtvänd eller nedåtvänd?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Koefficienten framför \\(x^2\\) är \\(-2\\), som är negativ. Parabeln är nedåtvänd och har en högsta punkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nedåtvänd</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tecknet framför \\(x^2\\) avgör hur parabeln vänder</p><p>Koefficienten framför \\(x^2\\) är \\(-2\\), som är negativ. Parabeln är nedåtvänd och har en högsta punkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Nedåtvänd</p></div>",
     "familj": "Egenskaper och funktionsvärden",
     "formaga": [
       "begrepp"
@@ -43039,7 +43039,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "skärning med y-axeln",
     "t": "<p>Var skär grafen till \\(f(x)=3x^2-x-7\\) y-axeln? (Ange y-värdet.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(0)=3\\cdot0-0-7=-7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-7\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">På y-axeln är \\(x=0\\)</p><div class=\"facit-matte\">\\[f(0)=3\\cdot0-0-7=-7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-7\\)</p></div>",
     "familj": "Egenskaper och funktionsvärden",
     "formaga": [
       "procedur"
@@ -43069,7 +43069,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "nollställen ur faktoriserad form",
     "t": "<p>Var skär grafen till \\(f(x)=(x-1)(x+6)\\) x-axeln? (Ange x-värdena.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x-1=0\\quad\\text{eller}\\quad x+6=0\\]</div></li><li><div class=\"facit-matte\">\\[x=1\\quad\\text{eller}\\quad x=-6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\) eller \\(x=-6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Grafen skär x-axeln där \\(f(x)=0\\); använd nollproduktmetoden</p><div class=\"facit-matte\">\\[x-1=0\\quad\\text{eller}\\quad x+6=0\\]</div></li><li><p class=\"facit-rubrik\">Lös varje enkel ekvation</p><div class=\"facit-matte\">\\[x=1\\quad\\text{eller}\\quad x=-6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1\\) eller \\(x=-6\\)</p></div>",
     "familj": "Bestämma andragradsfunktion från nollställen",
     "formaga": [
       "procedur"
@@ -43113,7 +43113,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "punkt på grafen",
     "t": "<p>Ligger punkten \\((2,\\ 3)\\) på grafen till \\(y=x^2-1\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2^2-1=3\\]</div></li><li><p>y-värdet stämmer, så punkten ligger på grafen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\) i funktionen</p><div class=\"facit-matte\">\\[2^2-1=3\\]</div></li><li><p class=\"facit-rubrik\">Jämför med punktens y-värde 3</p><p>y-värdet stämmer, så punkten ligger på grafen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja</p></div>",
     "familj": "Egenskaper och funktionsvärden",
     "formaga": [
       "begrepp"
@@ -43153,7 +43153,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "nollställen utan x-term",
     "t": "<p>Bestäm nollställena till \\(f(x)=2x^2-8\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x^2-8=0\\]</div></li><li><div class=\"facit-matte\">\\[x^2=4\\Rightarrow x=\\pm2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställena är där \\(f(x)=0\\)</p><div class=\"facit-matte\">\\[2x^2-8=0\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(x^2\\) och dra roten ur</p><div class=\"facit-matte\">\\[x^2=4\\Rightarrow x=\\pm2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm2\\)</p></div>",
     "familj": "Bestämma andragradsfunktion från nollställen",
     "formaga": [
       "procedur"
@@ -43197,7 +43197,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "när funktionen har ett visst värde",
     "t": "<p>För vilka \\(x\\) är \\(f(x)=x^2-4x\\) lika med 5?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2-4x=5\\]</div></li><li><div class=\"facit-matte\">\\[x^2-4x-5=0\\]</div></li><li><div class=\"facit-matte\">\\[x=2\\pm\\sqrt{4+5}=2\\pm3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\) eller \\(x=-1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt funktionsuttrycket lika med 5</p><div class=\"facit-matte\">\\[x^2-4x=5\\]</div></li><li><p class=\"facit-rubrik\">Flytta över 5 så att högerledet blir 0</p><div class=\"facit-matte\">\\[x^2-4x-5=0\\]</div></li><li><p class=\"facit-rubrik\">pq-formeln med \\(p=-4\\) och \\(q=-5\\)</p><div class=\"facit-matte\">\\[x=2\\pm\\sqrt{4+5}=2\\pm3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\) eller \\(x=-1\\)</p></div>",
     "familj": "Egenskaper och funktionsvärden",
     "formaga": [
       "procedur"
@@ -43241,7 +43241,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "a ur en punkt på grafen",
     "t": "<p>Grafen till \\(f(x)=ax^2-3\\) går genom punkten \\((2,\\ 13)\\). Bestäm \\(a\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[13=a\\cdot2^2-3\\]</div></li><li><div class=\"facit-matte\">\\[4a=16\\Rightarrow a=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten \\((2,\\ 13)\\) ger \\(f(2)=13\\)</p><div class=\"facit-matte\">\\[13=a\\cdot2^2-3\\]</div></li><li><p class=\"facit-rubrik\">Lös ut a</p><div class=\"facit-matte\">\\[4a=16\\Rightarrow a=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\)</p></div>",
     "familj": "Parameterfamiljer av andragradsfunktioner",
     "formaga": [
       "procedur"
@@ -43271,7 +43271,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "nedåtvänd funktion ur nollställen",
     "t": "<p>En andragradsfunktion har nollställena 1 och 5, och koefficienten framför \\(x^2\\) är \\(-1\\). Skriv funktionen på formen \\(f(x)=ax^2+bx+c\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(x)=-(x-1)(x-5)\\]</div></li><li><div class=\"facit-matte\">\\[=-(x^2-6x+5)=-x^2+6x-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=-x^2+6x-5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställena 1 och 5 ger faktorerna \\((x-1)\\) och \\((x-5)\\); a är −1</p><div class=\"facit-matte\">\\[f(x)=-(x-1)(x-5)\\]</div></li><li><p class=\"facit-rubrik\">Utveckla och multiplicera med −1</p><div class=\"facit-matte\">\\[=-(x^2-6x+5)=-x^2+6x-5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=-x^2+6x-5\\)</p></div>",
     "familj": "Bestämma andragradsfunktion från nollställen",
     "formaga": [
       "procedur"
@@ -43301,7 +43301,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "parameter för ett enda nollställe",
     "t": "<p>För vilka värden på \\(k\\) har \\(f(x)=x^2+kx+9\\) exakt ett nollställe?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Exakt ett nollställe betyder att uttrycket under rottecknet i pq-formeln är 0.</p></li><li><div class=\"facit-matte\">\\[\\left(\\frac k2\\right)^2-9=0\\]</div></li><li><div class=\"facit-matte\">\\[k^2=36\\Rightarrow k=\\pm6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=\\pm6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exakt ett nollställe: uttrycket under rottecknet är 0</p><p>Exakt ett nollställe betyder att uttrycket under rottecknet i pq-formeln är 0.</p></li><li><p class=\"facit-rubrik\">Med \\(p=k\\) och \\(q=9\\) i pq-formeln</p><div class=\"facit-matte\">\\[\\left(\\frac k2\\right)^2-9=0\\]</div></li><li><p class=\"facit-rubrik\">Lös ut k</p><div class=\"facit-matte\">\\[k^2=36\\Rightarrow k=\\pm6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=\\pm6\\)</p></div>",
     "familj": "Parameterfamiljer av andragradsfunktioner",
     "formaga": [
       "procedur",
@@ -43346,7 +43346,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "konstant ur minsta värde",
     "t": "<p>Funktionen \\(f(x)=x^2-6x+c\\) har minsta värdet 2. Bestäm \\(c\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(x)=(x-3)^2-9+c\\]</div></li><li><p>Minsta värdet är \\(c-9\\).</p></li><li><div class=\"facit-matte\">\\[c-9=2\\Rightarrow c=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c=11\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadratkomplettera, eller sätt in symmetrilinjen \\(x=3\\)</p><div class=\"facit-matte\">\\[f(x)=(x-3)^2-9+c\\]</div></li><li><p class=\"facit-rubrik\">Kvadraten är minst 0, så minsta värdet får man när \\(x=3\\)</p><p>Minsta värdet är \\(c-9\\).</p></li><li><p class=\"facit-rubrik\">Sätt minsta värdet till 2</p><div class=\"facit-matte\">\\[c-9=2\\Rightarrow c=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c=11\\)</p></div>",
     "familj": "Parameterfamiljer av andragradsfunktioner",
     "formaga": [
       "procedur",
@@ -43377,7 +43377,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "funktion ur två villkor",
     "t": "<p>En andragradsfunktion \\(f(x)=x^2+bx+c\\) uppfyller \\(f(0)=3\\) och \\(f(1)=0\\). Bestäm funktionen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(0)=c=3\\]</div></li><li><div class=\"facit-matte\">\\[f(1)=1+b+3=0\\Rightarrow b=-4\\]</div></li><li><div class=\"facit-matte\">\\[f(x)=x^2-4x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=x^2-4x+3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(f(0)\\) ger konstanttermen c direkt</p><div class=\"facit-matte\">\\[f(0)=c=3\\]</div></li><li><p class=\"facit-rubrik\">\\(f(1)=0\\) ger en ekvation för b</p><div class=\"facit-matte\">\\[f(1)=1+b+3=0\\Rightarrow b=-4\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(b=-4\\) och \\(c=3\\)</p><div class=\"facit-matte\">\\[f(x)=x^2-4x+3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=x^2-4x+3\\)</p></div>",
     "familj": "Bestämma andragradsfunktion från nollställen",
     "formaga": [
       "procedur",
@@ -43406,7 +43406,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "funktionsvärde x i kvadrat",
     "t": "<p>Beräkna funktionsvärdet för \\(f(x)=5x^2\\) när \\(x=3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(3)=5\\cdot3^2=5\\cdot9=45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 45</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera först, multiplicera sedan med 5</p><div class=\"facit-matte\">\\[f(3)=5\\cdot3^2=5\\cdot9=45\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 45</p></div>",
     "familj": "Tolka och använda potensfunktioner",
     "formaga": [
       "procedur"
@@ -43434,7 +43434,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "udda potens av negativt tal",
     "t": "<p>Funktionen är \\(y=2x^3\\). Bestäm \\(y\\) när \\(x=-2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y=2\\cdot(-2)^3=2\\cdot(-8)=-16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-16\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(x=-2\\); en udda potens av ett negativt tal är negativ</p><div class=\"facit-matte\">\\[y=2\\cdot(-2)^3=2\\cdot(-8)=-16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-16\\)</p></div>",
     "familj": "Tolka och använda potensfunktioner",
     "formaga": [
       "procedur"
@@ -43462,7 +43462,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "känna igen en potensfunktion",
     "t": "<p>Vilken av funktionerna är en potensfunktion?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En potensfunktion har formen \\(y=ax^n\\), med variabeln x i basen och ett konstant tal som exponent.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=4x^3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I en potensfunktion står x i basen och exponenten är ett konstant tal</p><p>En potensfunktion har formen \\(y=ax^n\\), med variabeln x i basen och ett konstant tal som exponent.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=4x^3\\)</p></div>",
     "familj": "Tolka och använda potensfunktioner",
     "formaga": [
       "begrepp"
@@ -43510,7 +43510,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "funktionsvärde med decimalkoefficient",
     "t": "<p>Funktionen är \\(f(x)=0{,}5x^4\\). Bestäm \\(f(3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(3)=0{,}5\\cdot3^4=0{,}5\\cdot81=40{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40,5</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna potensen först: \\(3^4=81\\)</p><div class=\"facit-matte\">\\[f(3)=0{,}5\\cdot3^4=0{,}5\\cdot81=40{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40,5</p></div>",
     "familj": "Tolka och använda potensfunktioner",
     "formaga": [
       "procedur"
@@ -43537,8 +43537,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "niva": "E",
     "poang": "1/0/0",
     "typ": "positiv lösning till potensekvation",
-    "t": "<p>Funktionen är \\(f(x)=2x^2\\), där \\(x>0\\). För vilket \\(x\\) är \\(f(x)=50\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x^2=50\\]</div></li><li><div class=\"facit-matte\">\\[x^2=25\\Rightarrow x=5\\quad(x>0)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+    "t": "<p>Funktionen är \\(f(x)=2x^2\\), där \\(x\\gt 0\\). För vilket \\(x\\) är \\(f(x)=50\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt funktionsvärdet till 50</p><div class=\"facit-matte\">\\[2x^2=50\\]</div></li><li><p class=\"facit-rubrik\">Dela med 2 och dra roten ur; villkoret \\(x\\gt 0\\) ger bara den positiva roten</p><div class=\"facit-matte\">\\[x^2=25\\Rightarrow x=5\\quad(x\\gt 0)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
     "familj": "Tolka och använda potensfunktioner",
     "formaga": [
       "procedur"
@@ -43566,7 +43566,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "x tredubblas",
     "t": "<p>För \\(f(x)=3x^2\\): hur många gånger större blir funktionsvärdet när \\(x\\) tredubblas?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(3x)=3\\cdot(3x)^2=9\\cdot3x^2=9f(x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9 gånger</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Byt x mot \\(3x\\); kvadraten gör faktorn 3 till 9</p><div class=\"facit-matte\">\\[f(3x)=3\\cdot(3x)^2=9\\cdot3x^2=9f(x)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9 gånger</p></div>",
     "familj": "Skalning med potensfunktioner",
     "formaga": [
       "begrepp"
@@ -43594,7 +43594,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "volymökning när kanten ökar",
     "t": "<p>En kubs volym är \\(V=x^3\\), där \\(x\\) är kantlängden. Kanten ökar med 10 %. Med hur många procent ökar volymen? (Svara i procent med en decimal.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V_{\\text{ny}}=(1{,}1x)^3=1{,}331x^3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 33,1 %</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den nya kanten är \\(1{,}1x\\), och kuben ger faktorn \\(1{,}1^3\\)</p><div class=\"facit-matte\">\\[V_{\\text{ny}}=(1{,}1x)^3=1{,}331x^3\\]</div></li><li><p class=\"facit-rubrik\">Översätt förändringsfaktorn till procent</p><p>Förändringsfaktorn 1,331 betyder att volymen ökar med 33,1 %.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 33,1 %</p></div>",
     "familj": "Skalning med potensfunktioner",
     "formaga": [
       "procedur",
@@ -43624,7 +43624,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "a ur en punkt",
     "t": "<p>Grafen till \\(y=ax^3\\) går genom punkten \\((2,\\ 56)\\). Bestäm \\(a\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[56=a\\cdot2^3=8a\\]</div></li><li><div class=\"facit-matte\">\\[a=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=7\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in punkten \\((2,\\ 56)\\)</p><div class=\"facit-matte\">\\[56=a\\cdot2^3=8a\\]</div></li><li><p class=\"facit-rubrik\">Dela med 8</p><div class=\"facit-matte\">\\[a=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=7\\)</p></div>",
     "familj": "Tolka och använda potensfunktioner",
     "formaga": [
       "procedur"
@@ -43652,7 +43652,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "a och n ur tabell",
     "t": "<p>Tabellen visar en potensfunktion \\(y=ax^n\\).</p><table class=\"data\"><tbody><tr><th>\\(x\\)</th><td>1</td><td>2</td><td>3</td></tr><tr><th>\\(y\\)</th><td>0,5</td><td>4</td><td>13,5</td></tr></tbody></table><p>Bestäm \\(a\\) och \\(n\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(x=1\\) är \\(y=a\\), alltså \\(a=0{,}5\\).</p></li><li><div class=\"facit-matte\">\\[0{,}5\\cdot2^n=4\\Rightarrow2^n=8\\Rightarrow n=3\\]</div></li><li><p>Kontroll: \\(0{,}5\\cdot3^3=13{,}5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=0{,}5\\), \\(n=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">När \\(x=1\\) är \\(x^n=1\\), så y-värdet är a</p><p>När \\(x=1\\) är \\(y=a\\), alltså \\(a=0{,}5\\).</p></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2\\) och lös ut n</p><div class=\"facit-matte\">\\[0{,}5\\cdot2^n=4\\Rightarrow2^n=8\\Rightarrow n=3\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera med \\(x=3\\)</p><p>Kontroll: \\(0{,}5\\cdot3^3=13{,}5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=0{,}5\\), \\(n=3\\)</p></div>",
     "familj": "Tolka och använda potensfunktioner",
     "formaga": [
       "procedur"
@@ -43697,7 +43697,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "fallsträcka vid längre tid",
     "t": "<p>Ett föremål som faller fritt har fallit sträckan \\(s=4{,}9t^2\\) meter efter \\(t\\) sekunder. Hur många gånger längre sträcka har det fallit efter 5 s än efter 2 s?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{4{,}9\\cdot5^2}{4{,}9\\cdot2^2}=\\frac{25}{4}=6{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,25 gånger</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela sträckorna; konstanten 4,9 tar ut varandra</p><div class=\"facit-matte\">\\[\\frac{4{,}9\\cdot5^2}{4{,}9\\cdot2^2}=\\frac{25}{4}=6{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6,25 gånger</p></div>",
     "familj": "Skalning med potensfunktioner",
     "formaga": [
       "procedur",
@@ -43726,7 +43726,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "intensitet när avståndet fördubblas",
     "t": "<p>Ljusets intensitet från en lampa är \\(I=\\dfrac{k}{r^2}=k\\cdot r^{-2}\\), där \\(r\\) är avståndet. Hur många gånger så stor blir intensiteten när avståndet fördubblas? (Svara i bråkform eller decimalform.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[I(2r)=\\frac{k}{(2r)^2}=\\frac{k}{4r^2}=\\frac14I(r)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac14\\) så stor (0,25)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Byt r mot \\(2r\\); kvadraten i nämnaren ger faktorn 4</p><div class=\"facit-matte\">\\[I(2r)=\\frac{k}{(2r)^2}=\\frac{k}{4r^2}=\\frac14I(r)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac14\\) så stor (0,25)</p></div>",
     "familj": "Skalning med potensfunktioner",
     "formaga": [
       "procedur",
@@ -43755,7 +43755,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "a och n ur två punkter",
     "t": "<p>En potensfunktion \\(y=ax^n\\) går genom punkterna \\((2,\\ 24)\\) och \\((4,\\ 192)\\). Bestäm \\(a\\) och \\(n\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{192}{24}=\\frac{a\\cdot4^n}{a\\cdot2^n}=2^n=8\\Rightarrow n=3\\]</div></li><li><div class=\"facit-matte\">\\[24=a\\cdot2^3\\Rightarrow a=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\), \\(n=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela de två punkternas ekvationer så att a försvinner</p><div class=\"facit-matte\">\\[\\frac{192}{24}=\\frac{a\\cdot4^n}{a\\cdot2^n}=2^n=8\\Rightarrow n=3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(n=3\\) och punkten \\((2,\\ 24)\\)</p><div class=\"facit-matte\">\\[24=a\\cdot2^3\\Rightarrow a=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=3\\), \\(n=3\\)</p></div>",
     "familj": "Tolka och använda potensfunktioner",
     "formaga": [
       "procedur",
@@ -43802,7 +43802,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "typ av funktion, x i basen",
     "t": "<p>Vilken typ av funktion är \\(f(x)=2x^5\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Variabeln x står i basen och exponenten är ett konstant tal. Det är en potensfunktion.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Potensfunktion</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">x står i basen och exponenten är ett konstant tal</p><p>Variabeln x står i basen och exponenten är ett konstant tal. Det är en potensfunktion.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Potensfunktion</p></div>",
     "familj": "Klassificera funktionstyp",
     "formaga": [
       "begrepp"
@@ -43846,7 +43846,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "formel ur tabell",
     "t": "<p>Vilken formel passar tabellen?</p><table class=\"data\"><tbody><tr><th>\\(x\\)</th><td>0</td><td>1</td><td>2</td><td>3</td></tr><tr><th>\\(y\\)</th><td>1</td><td>3</td><td>9</td><td>27</td></tr></tbody></table>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>y multipliceras med 3 för varje steg i x, och \\(y=1\\) när \\(x=0\\). Det är \\(y=3^x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=3^x\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Se hur y ändras när x ökar med 1</p><p>y multipliceras med 3 för varje steg i x, och \\(y=1\\) när \\(x=0\\). Det är \\(y=3^x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=3^x\\)</p></div>",
     "familj": "Jämföra med grafer och tabeller",
     "formaga": [
       "begrepp"
@@ -43895,7 +43895,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "jämföra två funktionsvärden",
     "t": "<p>Beräkna \\(f(3)\\) och \\(g(3)\\) för \\(f(x)=x^2\\) och \\(g(x)=2^x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(3)=3^2=9\\]</div></li><li><div class=\"facit-matte\">\\[g(3)=2^3=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(3)=9\\) och \\(g(3)=8\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x^2\\): x i basen</p><div class=\"facit-matte\">\\[f(3)=3^2=9\\]</div></li><li><p class=\"facit-rubrik\">\\(2^x\\): x i exponenten</p><div class=\"facit-matte\">\\[g(3)=2^3=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(3)=9\\) och \\(g(3)=8\\)</p></div>",
     "familj": "Jämföra tillväxt och funktionsvärden",
     "formaga": [
       "procedur"
@@ -43941,7 +43941,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "känna igen exponentialekvation",
     "t": "<p>Vilken av ekvationerna är en exponentialekvation?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I en exponentialekvation står den obekanta i exponenten, som i \\(5^x=125\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5^x=125\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I en exponentialekvation står den obekanta i exponenten</p><p>I en exponentialekvation står den obekanta i exponenten, som i \\(5^x=125\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(5^x=125\\)</p></div>",
     "familj": "Klassificera funktionstyp",
     "formaga": [
       "begrepp"
@@ -43990,7 +43990,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "lösa en potens- och en exponentialekvation",
     "t": "<p>Lös ekvationerna \\(x^3=64\\) och \\(4^x=64\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^3=64\\Rightarrow x=\\sqrt[3]{64}=4\\]</div></li><li><div class=\"facit-matte\">\\[4^x=64=4^3\\Rightarrow x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\) respektive \\(x=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensekvation: ta tredje roten</p><div class=\"facit-matte\">\\[x^3=64\\Rightarrow x=\\sqrt[3]{64}=4\\]</div></li><li><p class=\"facit-rubrik\">Exponentialekvation: skriv 64 som en potens av 4</p><div class=\"facit-matte\">\\[4^x=64=4^3\\Rightarrow x=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\) respektive \\(x=3\\)</p></div>",
     "familj": "Jämföra tillväxt och funktionsvärden",
     "formaga": [
       "procedur"
@@ -44036,7 +44036,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "snabbast tillväxt på lång sikt",
     "t": "<p>Vilken funktion växer snabbast på lång sikt: \\(f(x)=100x^2\\) eller \\(g(x)=1{,}1^x\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En exponentialfunktion med förändringsfaktor större än 1 växer till slut snabbare än varje potensfunktion, oavsett konstanter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(g(x)=1{,}1^x\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför tillväxten för mycket stora x</p><p>En exponentialfunktion med förändringsfaktor större än 1 växer till slut snabbare än varje potensfunktion, oavsett konstanter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(g(x)=1{,}1^x\\)</p></div>",
     "familj": "Jämföra tillväxt och funktionsvärden",
     "formaga": [
       "begrepp",
@@ -44081,7 +44081,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "ytterligare lika funktionsvärde",
     "t": "<p>Funktionerna \\(f(x)=x^2\\) och \\(g(x)=2^x\\) har samma värde när \\(x=2\\). För vilket annat positivt heltal \\(x\\) har de samma värde?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[f(4)=16,\\quad g(4)=2^4=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva heltal efter \\(x=2\\); vid \\(x=3\\) är \\(f(3)=9\\) och \\(g(3)=8\\)</p><div class=\"facit-matte\">\\[f(4)=16,\\quad g(4)=2^4=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4\\)</p></div>",
     "familj": "Jämföra med grafer och tabeller",
     "formaga": [
       "procedur",
@@ -44110,8 +44110,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "niva": "E",
     "poang": "1/0/0",
     "typ": "när exponentiell modell går om linjär",
-    "t": "<p>Två modeller är \\(P(t)=1000\\cdot1{,}05^t\\) och \\(Q(t)=1000+65t\\). Efter hur många hela år är \\(P\\) större än \\(Q\\) för första gången (för \\(t>0\\))?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[P(11)\\approx1710<Q(11)=1715\\]</div></li><li><div class=\"facit-matte\">\\[P(12)\\approx1796>Q(12)=1780\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 12 år</p></div>",
+    "t": "<p>Två modeller är \\(P(t)=1000\\cdot1{,}05^t\\) och \\(Q(t)=1000+65t\\). Efter hur många hela år är \\(P\\) större än \\(Q\\) för första gången (för \\(t\\gt 0\\))?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Efter 11 år är den linjära modellen fortfarande större</p><div class=\"facit-matte\">\\[P(11)\\approx1710\\lt Q(11)=1715\\]</div></li><li><p class=\"facit-rubrik\">Efter 12 år har den exponentiella modellen gått om</p><div class=\"facit-matte\">\\[P(12)\\approx1796\\gt Q(12)=1780\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 12 år</p></div>",
     "familj": "Jämföra tillväxt och funktionsvärden",
     "formaga": [
       "procedur",
@@ -44140,8 +44140,8 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "niva": "C",
     "poang": "0/1/0",
     "typ": "inget heltal där potensen är större",
-    "t": "<p>Jämför \\(f(x)=x^3\\) och \\(g(x)=3^x\\) för heltalen \\(x=1,2,3,4,5\\). För vilka av dem är \\(f(x)>g(x)\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(1<3\\), \\(8<9\\), \\(27=27\\), \\(64<81\\) och \\(125<243\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> För inget av dem.</p></div>",
+    "t": "<p>Jämför \\(f(x)=x^3\\) och \\(g(x)=3^x\\) för heltalen \\(x=1,2,3,4,5\\). För vilka av dem är \\(f(x)\\gt g(x)\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör en tabell med båda funktionsvärdena</p><div class=\"facit-matte\">\\[\\begin{array}{c|ccccc}x&1&2&3&4&5\\\\\\hline x^3&1&8&27&64&125\\\\3^x&3&9&27&81&243\\end{array}\\]</div></li><li><p class=\"facit-rubrik\">\\(x^3\\) är aldrig större än \\(3^x\\) för dessa x</p><p>\\(x^3\\) är aldrig större än \\(3^x\\): de är lika när \\(x=3\\) och annars är \\(3^x\\) störst.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> För inget av dem.</p></div>",
     "familj": "Jämföra med grafer och tabeller",
     "formaga": [
       "procedur",
@@ -44153,7 +44153,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "självrättning": true,
     "traningsniva": 3,
     "arbetsinsats": 2,
-    "ledtrad": "<p>Gör en tabell.</p>",
+    "ledtrad": "<p>Räkna ut \\(x^3\\) och \\(3^x\\) för varje x och ställ upp dem i en tabell bredvid varandra.</p>",
     "svarstyp": "alternativ",
     "rättSvar": null,
     "tolerans": null,
@@ -44166,7 +44166,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       {
         "txt": "För \\(x=4\\) och \\(x=5\\)",
         "ratt": false,
-        "kommentar": "\\(3^4=81>64\\)."
+        "kommentar": "\\(3^4=81\\gt 64\\)."
       },
       {
         "txt": "För inget av heltalen",
@@ -44175,7 +44175,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
       {
         "txt": "För alla heltalen",
         "ratt": false,
-        "kommentar": "\\(3^1=3>1\\)."
+        "kommentar": "\\(3^1=3\\gt 1\\)."
       }
     ]
   },
@@ -44191,7 +44191,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "förändring när x ökar från 4 till 8",
     "t": "<p>Med vilken faktor ändras \\(f(x)=x^3\\) respektive \\(g(x)=3^x\\) när \\(x\\) ökar från 4 till 8?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{f(8)}{f(4)}=\\left(\\frac84\\right)^3=8\\]</div></li><li><div class=\"facit-matte\">\\[\\frac{g(8)}{g(4)}=3^{8-4}=81\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 respektive 81</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Potensfunktionen: faktorn beror på kvoten mellan x-värdena</p><div class=\"facit-matte\">\\[\\frac{f(8)}{f(4)}=\\left(\\frac84\\right)^3=8\\]</div></li><li><p class=\"facit-rubrik\">Exponentialfunktionen: faktorn beror på skillnaden mellan x-värdena</p><div class=\"facit-matte\">\\[\\frac{g(8)}{g(4)}=3^{8-4}=81\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 respektive 81</p></div>",
     "familj": "Jämföra tillväxt och funktionsvärden",
     "formaga": [
       "procedur",
@@ -44238,7 +44238,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "konstant procentuell ökning",
     "t": "<p>En storhet ökar med 30 % varje gång \\(x\\) ökar med 1, oavsett vilket värde \\(x\\) har. Vilken typ av modell passar?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Samma förändringsfaktor 1,3 för varje steg i x betyder exponentiell tillväxt, \\(y=C\\cdot1{,}3^x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Exponentiell modell</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma procentuella ökning för varje steg i x betyder samma förändringsfaktor</p><p>Samma förändringsfaktor 1,3 för varje steg i x betyder exponentiell tillväxt, \\(y=C\\cdot1{,}3^x\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Exponentiell modell</p></div>",
     "familj": "Klassificera funktionstyp",
     "formaga": [
       "begrepp"
@@ -44282,7 +44282,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "åtta gånger större när x fördubblas",
     "t": "<p>En storhet blir 8 gånger större varje gång \\(x\\) fördubblas, oavsett vilket värde \\(x\\) har. Vilken modell passar?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För \\(y=ax^3\\) gäller \\(a(2x)^3=8ax^3\\). Det gäller för alla x, så modellen är en potensfunktion med \\(n=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=ax^3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva en potensfunktion: byt x mot \\(2x\\)</p><p>För \\(y=ax^3\\) gäller \\(a(2x)^3=8ax^3\\). Det gäller för alla x, så modellen är en potensfunktion med \\(n=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=ax^3\\)</p></div>",
     "familj": "Klassificera funktionstyp",
     "formaga": [
       "begrepp",
@@ -44333,7 +44333,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "startvärde och nästa värde ur graf",
     "t": "<p>Grafen visar \\(f(x)=C\\cdot2^x\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"En växande exponentialkurva som går genom (0, 5), (1, 10), (2, 20) och (3, 40).\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"176.7\" y1=\"30\" x2=\"176.7\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"293.3\" y1=\"30\" x2=\"293.3\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"410\" y2=\"255.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"226.9\" x2=\"410\" y2=\"226.9\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"198.8\" x2=\"410\" y2=\"198.8\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"170.6\" x2=\"410\" y2=\"170.6\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"142.5\" x2=\"410\" y2=\"142.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"114.4\" x2=\"410\" y2=\"114.4\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"86.2\" x2=\"410\" y2=\"86.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"58.1\" x2=\"410\" y2=\"58.1\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"410\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"418\" y2=\"255.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"255\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">y</text><line x1=\"176.7\" y1=\"251.0\" x2=\"176.7\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"176.7\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"293.3\" y1=\"251.0\" x2=\"293.3\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"293.3\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"410.0\" y1=\"251.0\" x2=\"410.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"410.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"56.0\" y1=\"226.9\" x2=\"64.0\" y2=\"226.9\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"231.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><line x1=\"56.0\" y1=\"198.8\" x2=\"64.0\" y2=\"198.8\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"203.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"56.0\" y1=\"170.6\" x2=\"64.0\" y2=\"170.6\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"175.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">15</text><line x1=\"56.0\" y1=\"142.5\" x2=\"64.0\" y2=\"142.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"147.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"56.0\" y1=\"114.4\" x2=\"64.0\" y2=\"114.4\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"119.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">25</text><line x1=\"56.0\" y1=\"86.2\" x2=\"64.0\" y2=\"86.2\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"91.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"56.0\" y1=\"58.1\" x2=\"64.0\" y2=\"58.1\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"63.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">35</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">40</text><polyline points=\"60.0,226.9 60.9,226.7 61.8,226.6 62.6,226.4 63.5,226.3 64.4,226.1 65.2,226.0 66.1,225.8 67.0,225.7 67.9,225.5 68.8,225.4 69.6,225.2 70.5,225.1 71.4,224.9 72.2,224.8 73.1,224.6 74.0,224.4 74.9,224.3 75.8,224.1 76.6,224.0 77.5,223.8 78.4,223.6 79.2,223.5 80.1,223.3 81.0,223.1 81.9,223.0 82.8,222.8 83.6,222.6 84.5,222.5 85.4,222.3 86.2,222.1 87.1,222.0 88.0,221.8 88.9,221.6 89.8,221.4 90.6,221.3 91.5,221.1 92.4,220.9 93.2,220.7 94.1,220.6 95.0,220.4 95.9,220.2 96.8,220.0 97.6,219.8 98.5,219.6 99.4,219.5 100.2,219.3 101.1,219.1 102.0,218.9 102.9,218.7 103.8,218.5 104.6,218.3 105.5,218.1 106.4,218.0 107.2,217.8 108.1,217.6 109.0,217.4 109.9,217.2 110.8,217.0 111.6,216.8 112.5,216.6 113.4,216.4 114.2,216.2 115.1,216.0 116.0,215.8 116.9,215.6 117.8,215.4 118.6,215.2 119.5,214.9 120.4,214.7 121.2,214.5 122.1,214.3 123.0,214.1 123.9,213.9 124.8,213.7 125.6,213.5 126.5,213.2 127.4,213.0 128.2,212.8 129.1,212.6 130.0,212.4 130.9,212.1 131.8,211.9 132.6,211.7 133.5,211.5 134.4,211.2 135.2,211.0 136.1,210.8 137.0,210.6 137.9,210.3 138.8,210.1 139.6,209.9 140.5,209.6 141.4,209.4 142.2,209.2 143.1,208.9 144.0,208.7 144.9,208.4 145.8,208.2 146.6,207.9 147.5,207.7 148.4,207.5 149.2,207.2 150.1,207.0 151.0,206.7 151.9,206.5 152.8,206.2 153.6,205.9 154.5,205.7 155.4,205.4 156.2,205.2 157.1,204.9 158.0,204.7 158.9,204.4 159.8,204.1 160.6,203.9 161.5,203.6 162.4,203.3 163.2,203.1 164.1,202.8 165.0,202.5 165.9,202.2 166.8,202.0 167.6,201.7 168.5,201.4 169.4,201.1 170.2,200.9 171.1,200.6 172.0,200.3 172.9,200.0 173.8,199.7 174.6,199.4 175.5,199.1 176.4,198.8 177.2,198.6 178.1,198.3 179.0,198.0 179.9,197.7 180.8,197.4 181.6,197.1 182.5,196.8 183.4,196.5 184.2,196.2 185.1,195.9 186.0,195.5 186.9,195.2 187.8,194.9 188.6,194.6 189.5,194.3 190.4,194.0 191.2,193.7 192.1,193.3 193.0,193.0 193.9,192.7 194.8,192.4 195.6,192.0 196.5,191.7 197.4,191.4 198.2,191.1 199.1,190.7 200.0,190.4 200.9,190.0 201.8,189.7 202.6,189.4 203.5,189.0 204.4,188.7 205.2,188.3 206.1,188.0 207.0,187.6 207.9,187.3 208.8,186.9 209.6,186.6 210.5,186.2 211.4,185.9 212.2,185.5 213.1,185.1 214.0,184.8 214.9,184.4 215.8,184.0 216.6,183.7 217.5,183.3 218.4,182.9 219.2,182.6 220.1,182.2 221.0,181.8 221.9,181.4 222.8,181.0 223.6,180.6 224.5,180.3 225.4,179.9 226.2,179.5 227.1,179.1 228.0,178.7 228.9,178.3 229.8,177.9 230.6,177.5 231.5,177.1 232.4,176.7 233.3,176.3 234.1,175.9 235.0,175.5 235.9,175.0 236.8,174.6 237.6,174.2 238.5,173.8 239.4,173.4 240.2,172.9 241.1,172.5 242.0,172.1 242.9,171.6 243.8,171.2 244.6,170.8 245.5,170.3 246.4,169.9 247.2,169.4 248.1,169.0 249.0,168.6 249.9,168.1 250.8,167.6 251.6,167.2 252.5,166.7 253.4,166.3 254.3,165.8 255.1,165.3 256.0,164.9 256.9,164.4 257.8,163.9 258.6,163.5 259.5,163.0 260.4,162.5 261.2,162.0 262.1,161.5 263.0,161.1 263.9,160.6 264.8,160.1 265.6,159.6 266.5,159.1 267.4,158.6 268.2,158.1 269.1,157.6 270.0,157.1 270.9,156.6 271.8,156.0 272.6,155.5 273.5,155.0 274.4,154.5 275.2,154.0 276.1,153.4 277.0,152.9 277.9,152.4 278.8,151.8 279.6,151.3 280.5,150.8 281.4,150.2 282.2,149.7 283.1,149.1 284.0,148.6 284.9,148.0 285.8,147.5 286.6,146.9 287.5,146.3 288.4,145.8 289.2,145.2 290.1,144.6 291.0,144.0 291.9,143.5 292.8,142.9 293.6,142.3 294.5,141.7 295.4,141.1 296.2,140.5 297.1,139.9 298.0,139.3 298.9,138.7 299.8,138.1 300.6,137.5 301.5,136.9 302.4,136.3 303.2,135.7 304.1,135.1 305.0,134.4 305.9,133.8 306.8,133.2 307.6,132.5 308.5,131.9 309.4,131.3 310.2,130.6 311.1,130.0 312.0,129.3 312.9,128.7 313.8,128.0 314.6,127.3 315.5,126.7 316.4,126.0 317.2,125.3 318.1,124.6 319.0,124.0 319.9,123.3 320.8,122.6 321.6,121.9 322.5,121.2 323.4,120.5 324.2,119.8 325.1,119.1 326.0,118.4 326.9,117.7 327.8,117.0 328.6,116.3 329.5,115.5 330.4,114.8 331.2,114.1 332.1,113.3 333.0,112.6 333.9,111.9 334.8,111.1 335.6,110.4 336.5,109.6 337.4,108.9 338.2,108.1 339.1,107.3 340.0,106.6 340.9,105.8 341.8,105.0 342.6,104.2 343.5,103.4 344.4,102.6 345.2,101.9 346.1,101.1 347.0,100.3 347.9,99.4 348.8,98.6 349.6,97.8 350.5,97.0 351.4,96.2 352.2,95.3 353.1,94.5 354.0,93.7 354.9,92.8 355.8,92.0 356.6,91.1 357.5,90.3 358.4,89.4 359.2,88.6 360.1,87.7 361.0,86.8 361.9,86.0 362.8,85.1 363.6,84.2 364.5,83.3 365.4,82.4 366.2,81.5 367.1,80.6 368.0,79.7 368.9,78.8 369.7,77.9 370.6,76.9 371.5,76.0 372.4,75.1 373.2,74.1 374.1,73.2 375.0,72.2 375.9,71.3 376.7,70.3 377.6,69.4 378.5,68.4 379.4,67.4 380.2,66.5 381.1,65.5 382.0,64.5 382.9,63.5 383.8,62.5 384.6,61.5 385.5,60.5 386.4,59.5 387.2,58.4 388.1,57.4 389.0,56.4 389.9,55.4 390.8,54.3 391.6,53.3 392.5,52.2 393.4,51.2 394.2,50.1 395.1,49.0 396.0,48.0 396.9,46.9 397.8,45.8 398.6,44.7 399.5,43.6 400.4,42.5 401.2,41.4 402.1,40.3 403.0,39.2 403.9,38.0 404.8,36.9 405.6,35.8 406.5,34.6 407.4,33.5 408.2,32.3 409.1,31.2 410.0,30.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"60.0\" cy=\"226.9\" r=\"5\" fill=\"#c2410c\"/><circle cx=\"176.7\" cy=\"198.8\" r=\"5\" fill=\"#c2410c\"/><text x=\"410.0\" y=\"293.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\">x</text></svg></div><p>Läs av \\(f(0)\\) och \\(f(1)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Grafen skär y-axeln vid 5 och går genom \\((1,\\ 10)\\).</p></li><li><div class=\"facit-matte\">\\[f(0)=5,\\quad f(1)=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(0)=5\\), \\(f(1)=10\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av var grafen skär y-axeln och värdet när \\(x=1\\)</p><p>Grafen skär y-axeln vid 5 och går genom \\((1,\\ 10)\\).</p></li><li><p class=\"facit-rubrik\">\\(f(0)\\) är startvärdet och \\(f(1)\\) är dubbelt så stort</p><div class=\"facit-matte\">\\[f(0)=5,\\quad f(1)=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(0)=5\\), \\(f(1)=10\\)</p></div>",
     "familj": "Avläsa exponentialgrafer",
     "formaga": [
       "begrepp"
@@ -44380,7 +44380,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "avtagande graf, avläs f(2)",
     "t": "<p>Grafen visar en avtagande exponentialfunktion.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"En avtagande exponentialkurva som går genom (0, 40), (1, 20), (2, 10), (3, 5) och (4; 2,5).\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"410\" y2=\"255.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"226.9\" x2=\"410\" y2=\"226.9\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"198.8\" x2=\"410\" y2=\"198.8\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"170.6\" x2=\"410\" y2=\"170.6\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"142.5\" x2=\"410\" y2=\"142.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"114.4\" x2=\"410\" y2=\"114.4\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"86.2\" x2=\"410\" y2=\"86.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"58.1\" x2=\"410\" y2=\"58.1\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"410\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"418\" y2=\"255.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"255\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">y</text><line x1=\"147.5\" y1=\"251.0\" x2=\"147.5\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"147.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"235.0\" y1=\"251.0\" x2=\"235.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"235.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"322.5\" y1=\"251.0\" x2=\"322.5\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"322.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"410.0\" y1=\"251.0\" x2=\"410.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"410.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"56.0\" y1=\"226.9\" x2=\"64.0\" y2=\"226.9\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"231.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><line x1=\"56.0\" y1=\"198.8\" x2=\"64.0\" y2=\"198.8\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"203.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"56.0\" y1=\"170.6\" x2=\"64.0\" y2=\"170.6\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"175.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">15</text><line x1=\"56.0\" y1=\"142.5\" x2=\"64.0\" y2=\"142.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"147.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"56.0\" y1=\"114.4\" x2=\"64.0\" y2=\"114.4\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"119.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">25</text><line x1=\"56.0\" y1=\"86.2\" x2=\"64.0\" y2=\"86.2\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"91.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"56.0\" y1=\"58.1\" x2=\"64.0\" y2=\"58.1\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"63.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">35</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">40</text><polyline points=\"60.0,30.0 60.9,31.6 61.8,33.1 62.6,34.6 63.5,36.2 64.4,37.7 65.2,39.2 66.1,40.7 67.0,42.1 67.9,43.6 68.8,45.1 69.6,46.5 70.5,48.0 71.4,49.4 72.2,50.8 73.1,52.2 74.0,53.6 74.9,55.0 75.8,56.4 76.6,57.8 77.5,59.1 78.4,60.5 79.2,61.8 80.1,63.2 81.0,64.5 81.9,65.8 82.8,67.1 83.6,68.4 84.5,69.7 85.4,71.0 86.2,72.2 87.1,73.5 88.0,74.8 88.9,76.0 89.8,77.2 90.6,78.5 91.5,79.7 92.4,80.9 93.2,82.1 94.1,83.3 95.0,84.5 95.9,85.7 96.8,86.8 97.6,88.0 98.5,89.1 99.4,90.3 100.2,91.4 101.1,92.6 102.0,93.7 102.9,94.8 103.8,95.9 104.6,97.0 105.5,98.1 106.4,99.2 107.2,100.3 108.1,101.3 109.0,102.4 109.9,103.4 110.8,104.5 111.6,105.5 112.5,106.6 113.4,107.6 114.2,108.6 115.1,109.6 116.0,110.6 116.9,111.6 117.8,112.6 118.6,113.6 119.5,114.6 120.4,115.5 121.2,116.5 122.1,117.5 123.0,118.4 123.9,119.3 124.8,120.3 125.6,121.2 126.5,122.1 127.4,123.1 128.2,124.0 129.1,124.9 130.0,125.8 130.9,126.7 131.8,127.6 132.6,128.4 133.5,129.3 134.4,130.2 135.2,131.0 136.1,131.9 137.0,132.7 137.9,133.6 138.8,134.4 139.6,135.3 140.5,136.1 141.4,136.9 142.2,137.7 143.1,138.5 144.0,139.3 144.9,140.1 145.8,140.9 146.6,141.7 147.5,142.5 148.4,143.3 149.2,144.0 150.1,144.8 151.0,145.6 151.9,146.3 152.8,147.1 153.6,147.8 154.5,148.6 155.4,149.3 156.2,150.0 157.1,150.8 158.0,151.5 158.9,152.2 159.8,152.9 160.6,153.6 161.5,154.3 162.4,155.0 163.2,155.7 164.1,156.4 165.0,157.1 165.9,157.7 166.8,158.4 167.6,159.1 168.5,159.7 169.4,160.4 170.2,161.1 171.1,161.7 172.0,162.3 172.9,163.0 173.8,163.6 174.6,164.3 175.5,164.9 176.4,165.5 177.2,166.1 178.1,166.7 179.0,167.3 179.9,167.9 180.8,168.6 181.6,169.1 182.5,169.7 183.4,170.3 184.2,170.9 185.1,171.5 186.0,172.1 186.9,172.6 187.8,173.2 188.6,173.8 189.5,174.3 190.4,174.9 191.2,175.5 192.1,176.0 193.0,176.5 193.9,177.1 194.8,177.6 195.6,178.2 196.5,178.7 197.4,179.2 198.2,179.7 199.1,180.3 200.0,180.8 200.9,181.3 201.8,181.8 202.6,182.3 203.5,182.8 204.4,183.3 205.2,183.8 206.1,184.3 207.0,184.8 207.9,185.3 208.8,185.7 209.6,186.2 210.5,186.7 211.4,187.2 212.2,187.6 213.1,188.1 214.0,188.6 214.9,189.0 215.8,189.5 216.6,189.9 217.5,190.4 218.4,190.8 219.2,191.3 220.1,191.7 221.0,192.2 221.9,192.6 222.8,193.0 223.6,193.4 224.5,193.9 225.4,194.3 226.2,194.7 227.1,195.1 228.0,195.5 228.9,196.0 229.8,196.4 230.6,196.8 231.5,197.2 232.4,197.6 233.2,198.0 234.1,198.4 235.0,198.8 235.9,199.1 236.8,199.5 237.6,199.9 238.5,200.3 239.4,200.7 240.2,201.0 241.1,201.4 242.0,201.8 242.9,202.2 243.8,202.5 244.6,202.9 245.5,203.2 246.4,203.6 247.2,204.0 248.1,204.3 249.0,204.7 249.9,205.0 250.8,205.3 251.6,205.7 252.5,206.0 253.4,206.4 254.3,206.7 255.1,207.0 256.0,207.4 256.9,207.7 257.8,208.0 258.6,208.4 259.5,208.7 260.4,209.0 261.2,209.3 262.1,209.6 263.0,209.9 263.9,210.3 264.8,210.6 265.6,210.9 266.5,211.2 267.4,211.5 268.2,211.8 269.1,212.1 270.0,212.4 270.9,212.7 271.8,213.0 272.6,213.2 273.5,213.5 274.4,213.8 275.2,214.1 276.1,214.4 277.0,214.7 277.9,214.9 278.8,215.2 279.6,215.5 280.5,215.8 281.4,216.0 282.2,216.3 283.1,216.6 284.0,216.8 284.9,217.1 285.8,217.4 286.6,217.6 287.5,217.9 288.4,218.1 289.2,218.4 290.1,218.7 291.0,218.9 291.9,219.2 292.8,219.4 293.6,219.6 294.5,219.9 295.4,220.1 296.2,220.4 297.1,220.6 298.0,220.9 298.9,221.1 299.8,221.3 300.6,221.6 301.5,221.8 302.4,222.0 303.2,222.2 304.1,222.5 305.0,222.7 305.9,222.9 306.8,223.1 307.6,223.4 308.5,223.6 309.4,223.8 310.2,224.0 311.1,224.2 312.0,224.4 312.9,224.6 313.8,224.9 314.6,225.1 315.5,225.3 316.4,225.5 317.2,225.7 318.1,225.9 319.0,226.1 319.9,226.3 320.8,226.5 321.6,226.7 322.5,226.9 323.4,227.1 324.2,227.3 325.1,227.5 326.0,227.6 326.9,227.8 327.8,228.0 328.6,228.2 329.5,228.4 330.4,228.6 331.2,228.8 332.1,228.9 333.0,229.1 333.9,229.3 334.8,229.5 335.6,229.7 336.5,229.8 337.4,230.0 338.2,230.2 339.1,230.3 340.0,230.5 340.9,230.7 341.8,230.9 342.6,231.0 343.5,231.2 344.4,231.3 345.2,231.5 346.1,231.7 347.0,231.8 347.9,232.0 348.8,232.2 349.6,232.3 350.5,232.5 351.4,232.6 352.2,232.8 353.1,232.9 354.0,233.1 354.9,233.2 355.8,233.4 356.6,233.5 357.5,233.7 358.4,233.8 359.2,234.0 360.1,234.1 361.0,234.3 361.9,234.4 362.8,234.6 363.6,234.7 364.5,234.8 365.4,235.0 366.2,235.1 367.1,235.2 368.0,235.4 368.9,235.5 369.8,235.7 370.6,235.8 371.5,235.9 372.4,236.1 373.2,236.2 374.1,236.3 375.0,236.4 375.9,236.6 376.8,236.7 377.6,236.8 378.5,237.0 379.4,237.1 380.2,237.2 381.1,237.3 382.0,237.4 382.9,237.6 383.8,237.7 384.6,237.8 385.5,237.9 386.4,238.0 387.2,238.2 388.1,238.3 389.0,238.4 389.9,238.5 390.8,238.6 391.6,238.7 392.5,238.8 393.4,239.0 394.2,239.1 395.1,239.2 396.0,239.3 396.9,239.4 397.8,239.5 398.6,239.6 399.5,239.7 400.4,239.8 401.2,239.9 402.1,240.0 403.0,240.1 403.9,240.2 404.8,240.3 405.6,240.4 406.5,240.5 407.4,240.6 408.2,240.7 409.1,240.8 410.0,240.9\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"235.0\" cy=\"198.8\" r=\"5\" fill=\"#c2410c\"/><text x=\"410.0\" y=\"293.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\">x</text></svg></div><p>Läs av \\(f(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När \\(x=2\\) är \\(y=10\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(2)=10\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gå upp från \\(x=2\\) till grafen och läs av y</p><p>När \\(x=2\\) är \\(y=10\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(2)=10\\)</p></div>",
     "familj": "Avläsa exponentialgrafer",
     "formaga": [
       "begrepp"
@@ -44410,7 +44410,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "välj graf till formel",
     "t": "<p>Vilken av graferna A, B och C visar \\(f(x)=3\\cdot0{,}8^x\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"360\" viewBox=\"0 0 420 360\" role=\"img\" aria-label=\"Tre exponentialkurvor. A är avtagande och skär y-axeln i 3. B är växande och skär y-axeln i 3. C är växande och skär y-axeln i 0,8.\"><title>Tre exponentialkurvor. A är avtagande och skär y-axeln i 3. B är växande och skär y-axeln i 3. C är växande och skär y-axeln i 0,8.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"26\" x2=\"40.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"109.2\" y1=\"26\" x2=\"109.2\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"178.4\" y1=\"26\" x2=\"178.4\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"247.6\" y1=\"26\" x2=\"247.6\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"316.8\" y1=\"26\" x2=\"316.8\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"386.0\" y1=\"26\" x2=\"386.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"325.0\" x2=\"386\" y2=\"325.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"287.6\" x2=\"386\" y2=\"287.6\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"250.2\" x2=\"386\" y2=\"250.2\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"212.9\" x2=\"386\" y2=\"212.9\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"175.5\" x2=\"386\" y2=\"175.5\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"138.1\" x2=\"386\" y2=\"138.1\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"100.8\" x2=\"386\" y2=\"100.8\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"63.4\" x2=\"386\" y2=\"63.4\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"26.0\" x2=\"386\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"325.0\" x2=\"394\" y2=\"325.0\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"109.2\" y1=\"325\" x2=\"109.2\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><polyline points=\"40.0,184.8 40.9,185.2 41.7,185.6 42.6,186.0 43.5,186.4 44.3,186.8 45.2,187.2 46.1,187.6 46.9,187.9 47.8,188.3 48.6,188.7 49.5,189.1 50.4,189.5 51.2,189.8 52.1,190.2 53.0,190.6 53.8,191.0 54.7,191.3 55.6,191.7 56.4,192.1 57.3,192.4 58.2,192.8 59.0,193.2 59.9,193.6 60.8,193.9 61.6,194.3 62.5,194.6 63.4,195.0 64.2,195.4 65.1,195.7 66.0,196.1 66.8,196.5 67.7,196.8 68.5,197.2 69.4,197.5 70.3,197.9 71.1,198.2 72.0,198.6 72.9,198.9 73.7,199.3 74.6,199.6 75.5,200.0 76.3,200.3 77.2,200.7 78.1,201.0 78.9,201.4 79.8,201.7 80.7,202.1 81.5,202.4 82.4,202.7 83.2,203.1 84.1,203.4 85.0,203.8 85.8,204.1 86.7,204.4 87.6,204.8 88.4,205.1 89.3,205.4 90.2,205.8 91.0,206.1 91.9,206.4 92.8,206.8 93.6,207.1 94.5,207.4 95.4,207.8 96.2,208.1 97.1,208.4 98.0,208.7 98.8,209.1 99.7,209.4 100.5,209.7 101.4,210.0 102.3,210.3 103.1,210.7 104.0,211.0 104.9,211.3 105.7,211.6 106.6,211.9 107.5,212.2 108.3,212.6 109.2,212.9 110.1,213.2 110.9,213.5 111.8,213.8 112.7,214.1 113.5,214.4 114.4,214.7 115.3,215.0 116.1,215.3 117.0,215.7 117.9,216.0 118.7,216.3 119.6,216.6 120.4,216.9 121.3,217.2 122.2,217.5 123.0,217.8 123.9,218.1 124.8,218.4 125.6,218.7 126.5,219.0 127.4,219.3 128.2,219.5 129.1,219.8 130.0,220.1 130.8,220.4 131.7,220.7 132.6,221.0 133.4,221.3 134.3,221.6 135.2,221.9 136.0,222.2 136.9,222.4 137.7,222.7 138.6,223.0 139.5,223.3 140.3,223.6 141.2,223.9 142.1,224.2 142.9,224.4 143.8,224.7 144.7,225.0 145.5,225.3 146.4,225.5 147.3,225.8 148.1,226.1 149.0,226.4 149.9,226.7 150.7,226.9 151.6,227.2 152.4,227.5 153.3,227.7 154.2,228.0 155.0,228.3 155.9,228.6 156.8,228.8 157.6,229.1 158.5,229.4 159.4,229.6 160.2,229.9 161.1,230.2 162.0,230.4 162.8,230.7 163.7,230.9 164.6,231.2 165.4,231.5 166.3,231.7 167.2,232.0 168.0,232.2 168.9,232.5 169.8,232.8 170.6,233.0 171.5,233.3 172.3,233.5 173.2,233.8 174.1,234.0 174.9,234.3 175.8,234.5 176.7,234.8 177.5,235.0 178.4,235.3 179.3,235.5 180.1,235.8 181.0,236.0 181.9,236.3 182.7,236.5 183.6,236.8 184.5,237.0 185.3,237.3 186.2,237.5 187.0,237.8 187.9,238.0 188.8,238.3 189.6,238.5 190.5,238.7 191.4,239.0 192.2,239.2 193.1,239.5 194.0,239.7 194.8,239.9 195.7,240.2 196.6,240.4 197.4,240.6 198.3,240.9 199.2,241.1 200.0,241.3 200.9,241.6 201.8,241.8 202.6,242.0 203.5,242.3 204.3,242.5 205.2,242.7 206.1,243.0 206.9,243.2 207.8,243.4 208.7,243.6 209.5,243.9 210.4,244.1 211.3,244.3 212.1,244.5 213.0,244.8 213.9,245.0 214.7,245.2 215.6,245.4 216.5,245.7 217.3,245.9 218.2,246.1 219.1,246.3 219.9,246.5 220.8,246.8 221.7,247.0 222.5,247.2 223.4,247.4 224.2,247.6 225.1,247.8 226.0,248.1 226.8,248.3 227.7,248.5 228.6,248.7 229.4,248.9 230.3,249.1 231.2,249.3 232.0,249.5 232.9,249.8 233.8,250.0 234.6,250.2 235.5,250.4 236.4,250.6 237.2,250.8 238.1,251.0 238.9,251.2 239.8,251.4 240.7,251.6 241.5,251.8 242.4,252.0 243.3,252.2 244.1,252.4 245.0,252.6 245.9,252.8 246.7,253.0 247.6,253.2 248.5,253.4 249.3,253.6 250.2,253.8 251.1,254.0 251.9,254.2 252.8,254.4 253.7,254.6 254.5,254.8 255.4,255.0 256.2,255.2 257.1,255.4 258.0,255.6 258.8,255.8 259.7,256.0 260.6,256.2 261.4,256.4 262.3,256.6 263.2,256.8 264.0,256.9 264.9,257.1 265.8,257.3 266.6,257.5 267.5,257.7 268.4,257.9 269.2,258.1 270.1,258.3 271.0,258.4 271.8,258.6 272.7,258.8 273.6,259.0 274.4,259.2 275.3,259.4 276.1,259.6 277.0,259.7 277.9,259.9 278.7,260.1 279.6,260.3 280.5,260.5 281.3,260.6 282.2,260.8 283.1,261.0 283.9,261.2 284.8,261.4 285.7,261.5 286.5,261.7 287.4,261.9 288.3,262.1 289.1,262.2 290.0,262.4 290.9,262.6 291.7,262.8 292.6,262.9 293.4,263.1 294.3,263.3 295.2,263.4 296.0,263.6 296.9,263.8 297.8,264.0 298.6,264.1 299.5,264.3 300.4,264.5 301.2,264.6 302.1,264.8 303.0,265.0 303.8,265.1 304.7,265.3 305.6,265.5 306.4,265.6 307.3,265.8 308.2,266.0 309.0,266.1 309.9,266.3 310.7,266.5 311.6,266.6 312.5,266.8 313.3,266.9 314.2,267.1 315.1,267.3 315.9,267.4 316.8,267.6 317.7,267.8 318.5,267.9 319.4,268.1 320.3,268.2 321.1,268.4 322.0,268.5 322.9,268.7 323.7,268.9 324.6,269.0 325.4,269.2 326.3,269.3 327.2,269.5 328.0,269.6 328.9,269.8 329.8,269.9 330.6,270.1 331.5,270.3 332.4,270.4 333.2,270.6 334.1,270.7 335.0,270.9 335.8,271.0 336.7,271.2 337.6,271.3 338.4,271.5 339.3,271.6 340.2,271.8 341.0,271.9 341.9,272.1 342.8,272.2 343.6,272.3 344.5,272.5 345.3,272.6 346.2,272.8 347.1,272.9 347.9,273.1 348.8,273.2 349.7,273.4 350.5,273.5 351.4,273.7 352.3,273.8 353.1,273.9 354.0,274.1 354.9,274.2 355.7,274.4 356.6,274.5 357.5,274.6 358.3,274.8 359.2,274.9 360.1,275.1 360.9,275.2 361.8,275.3 362.6,275.5 363.5,275.6 364.4,275.8 365.2,275.9 366.1,276.0 367.0,276.2 367.8,276.3 368.7,276.4 369.6,276.6 370.4,276.7 371.3,276.8 372.2,277.0 373.0,277.1 373.9,277.2 374.8,277.4 375.6,277.5 376.5,277.6 377.3,277.8 378.2,277.9 379.1,278.0 379.9,278.2 380.8,278.3 381.7,278.4 382.5,278.6 383.4,278.7 384.3,278.8 385.1,278.9 386.0,279.1\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><rect x=\"350.3\" y=\"249.8\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"358.3\" y=\"262.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><polyline points=\"40.0,235.3 40.9,235.0 41.7,234.8 42.6,234.5 43.5,234.3 44.3,234.0 45.2,233.8 46.1,233.5 46.9,233.3 47.8,233.0 48.6,232.8 49.5,232.5 50.4,232.2 51.2,232.0 52.1,231.7 53.0,231.5 53.8,231.2 54.7,230.9 55.6,230.7 56.4,230.4 57.3,230.2 58.2,229.9 59.0,229.6 59.9,229.4 60.8,229.1 61.6,228.8 62.5,228.6 63.4,228.3 64.2,228.0 65.1,227.7 66.0,227.5 66.8,227.2 67.7,226.9 68.5,226.7 69.4,226.4 70.3,226.1 71.1,225.8 72.0,225.5 72.9,225.3 73.7,225.0 74.6,224.7 75.5,224.4 76.3,224.2 77.2,223.9 78.1,223.6 78.9,223.3 79.8,223.0 80.7,222.7 81.5,222.4 82.4,222.2 83.2,221.9 84.1,221.6 85.0,221.3 85.8,221.0 86.7,220.7 87.6,220.4 88.4,220.1 89.3,219.8 90.2,219.5 91.0,219.3 91.9,219.0 92.8,218.7 93.6,218.4 94.5,218.1 95.4,217.8 96.2,217.5 97.1,217.2 98.0,216.9 98.8,216.6 99.7,216.3 100.5,216.0 101.4,215.7 102.3,215.3 103.1,215.0 104.0,214.7 104.9,214.4 105.7,214.1 106.6,213.8 107.5,213.5 108.3,213.2 109.2,212.9 110.1,212.6 110.9,212.2 111.8,211.9 112.7,211.6 113.5,211.3 114.4,211.0 115.3,210.7 116.1,210.3 117.0,210.0 117.9,209.7 118.7,209.4 119.6,209.1 120.4,208.7 121.3,208.4 122.2,208.1 123.0,207.8 123.9,207.4 124.8,207.1 125.6,206.8 126.5,206.4 127.4,206.1 128.2,205.8 129.1,205.4 130.0,205.1 130.8,204.8 131.7,204.4 132.6,204.1 133.4,203.8 134.3,203.4 135.2,203.1 136.0,202.7 136.9,202.4 137.7,202.1 138.6,201.7 139.5,201.4 140.3,201.0 141.2,200.7 142.1,200.3 142.9,200.0 143.8,199.6 144.7,199.3 145.5,198.9 146.4,198.6 147.3,198.2 148.1,197.9 149.0,197.5 149.9,197.2 150.7,196.8 151.6,196.5 152.4,196.1 153.3,195.7 154.2,195.4 155.0,195.0 155.9,194.6 156.8,194.3 157.6,193.9 158.5,193.6 159.4,193.2 160.2,192.8 161.1,192.4 162.0,192.1 162.8,191.7 163.7,191.3 164.6,191.0 165.4,190.6 166.3,190.2 167.2,189.8 168.0,189.5 168.9,189.1 169.8,188.7 170.6,188.3 171.5,187.9 172.3,187.6 173.2,187.2 174.1,186.8 174.9,186.4 175.8,186.0 176.7,185.6 177.5,185.2 178.4,184.8 179.3,184.5 180.1,184.1 181.0,183.7 181.9,183.3 182.7,182.9 183.6,182.5 184.5,182.1 185.3,181.7 186.2,181.3 187.0,180.9 187.9,180.5 188.8,180.1 189.6,179.7 190.5,179.3 191.4,178.9 192.2,178.4 193.1,178.0 194.0,177.6 194.8,177.2 195.7,176.8 196.6,176.4 197.4,176.0 198.3,175.6 199.2,175.1 200.0,174.7 200.9,174.3 201.8,173.9 202.6,173.5 203.5,173.0 204.3,172.6 205.2,172.2 206.1,171.8 206.9,171.3 207.8,170.9 208.7,170.5 209.5,170.0 210.4,169.6 211.3,169.2 212.1,168.7 213.0,168.3 213.9,167.9 214.7,167.4 215.6,167.0 216.5,166.5 217.3,166.1 218.2,165.7 219.1,165.2 219.9,164.8 220.8,164.3 221.7,163.9 222.5,163.4 223.4,163.0 224.2,162.5 225.1,162.1 226.0,161.6 226.8,161.1 227.7,160.7 228.6,160.2 229.4,159.8 230.3,159.3 231.2,158.8 232.0,158.4 232.9,157.9 233.8,157.5 234.6,157.0 235.5,156.5 236.4,156.0 237.2,155.6 238.1,155.1 238.9,154.6 239.8,154.1 240.7,153.7 241.5,153.2 242.4,152.7 243.3,152.2 244.1,151.7 245.0,151.3 245.9,150.8 246.7,150.3 247.6,149.8 248.5,149.3 249.3,148.8 250.2,148.3 251.1,147.8 251.9,147.3 252.8,146.8 253.7,146.4 254.5,145.9 255.4,145.4 256.2,144.8 257.1,144.3 258.0,143.8 258.8,143.3 259.7,142.8 260.6,142.3 261.4,141.8 262.3,141.3 263.2,140.8 264.0,140.3 264.9,139.8 265.8,139.2 266.6,138.7 267.5,138.2 268.4,137.7 269.2,137.2 270.1,136.6 271.0,136.1 271.8,135.6 272.7,135.0 273.6,134.5 274.4,134.0 275.3,133.4 276.1,132.9 277.0,132.4 277.9,131.8 278.7,131.3 279.6,130.8 280.5,130.2 281.3,129.7 282.2,129.1 283.1,128.6 283.9,128.0 284.8,127.5 285.7,126.9 286.5,126.4 287.4,125.8 288.3,125.3 289.1,124.7 290.0,124.1 290.9,123.6 291.7,123.0 292.6,122.5 293.4,121.9 294.3,121.3 295.2,120.8 296.0,120.2 296.9,119.6 297.8,119.0 298.6,118.5 299.5,117.9 300.4,117.3 301.2,116.7 302.1,116.1 303.0,115.6 303.8,115.0 304.7,114.4 305.6,113.8 306.4,113.2 307.3,112.6 308.2,112.0 309.0,111.4 309.9,110.8 310.7,110.2 311.6,109.6 312.5,109.0 313.3,108.4 314.2,107.8 315.1,107.2 315.9,106.6 316.8,106.0 317.7,105.4 318.5,104.8 319.4,104.2 320.3,103.5 321.1,102.9 322.0,102.3 322.9,101.7 323.7,101.1 324.6,100.4 325.4,99.8 326.3,99.2 327.2,98.6 328.0,97.9 328.9,97.3 329.8,96.6 330.6,96.0 331.5,95.4 332.4,94.7 333.2,94.1 334.1,93.4 335.0,92.8 335.8,92.1 336.7,91.5 337.6,90.8 338.4,90.2 339.3,89.5 340.2,88.9 341.0,88.2 341.9,87.6 342.8,86.9 343.6,86.2 344.5,85.6 345.3,84.9 346.2,84.2 347.1,83.5 347.9,82.9 348.8,82.2 349.7,81.5 350.5,80.8 351.4,80.2 352.3,79.5 353.1,78.8 354.0,78.1 354.9,77.4 355.7,76.7 356.6,76.0 357.5,75.3 358.3,74.6 359.2,73.9 360.1,73.2 360.9,72.5 361.8,71.8 362.6,71.1 363.5,70.4 364.4,69.7 365.2,69.0 366.1,68.3 367.0,67.6 367.8,66.8 368.7,66.1 369.6,65.4 370.4,64.7 371.3,63.9 372.2,63.2 373.0,62.5 373.9,61.7 374.8,61.0 375.6,60.3 376.5,59.5 377.3,58.8 378.2,58.0 379.1,57.3 379.9,56.6 380.8,55.8 381.7,55.0 382.5,54.3 383.4,53.5 384.3,52.8 385.1,52.0 386.0,51.3\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><rect x=\"336.3\" y=\"55.6\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"344.3\" y=\"68.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">B</text><polyline points=\"40.0,315.0 40.9,314.9 41.7,314.8 42.6,314.6 43.5,314.5 44.3,314.3 45.2,314.2 46.1,314.0 46.9,313.9 47.8,313.7 48.6,313.6 49.5,313.4 50.4,313.2 51.2,313.1 52.1,312.9 53.0,312.8 53.8,312.6 54.7,312.4 55.6,312.2 56.4,312.1 57.3,311.9 58.2,311.7 59.0,311.5 59.9,311.3 60.8,311.1 61.6,311.0 62.5,310.8 63.4,310.6 64.2,310.4 65.1,310.2 66.0,310.0 66.8,309.7 67.7,309.5 68.5,309.3 69.4,309.1 70.3,308.9 71.1,308.7 72.0,308.4 72.9,308.2 73.7,308.0 74.6,307.7 75.5,307.5 76.3,307.3 77.2,307.0 78.1,306.8 78.9,306.5 79.8,306.3 80.7,306.0 81.5,305.7 82.4,305.5 83.2,305.2 84.1,304.9 85.0,304.6 85.8,304.4 86.7,304.1 87.6,303.8 88.4,303.5 89.3,303.2 90.2,302.9 91.0,302.6 91.9,302.3 92.8,302.0 93.6,301.6 94.5,301.3 95.4,301.0 96.2,300.7 97.1,300.3 98.0,300.0 98.8,299.6 99.7,299.3 100.5,298.9 101.4,298.6 102.3,298.2 103.1,297.8 104.0,297.5 104.9,297.1 105.7,296.7 106.6,296.3 107.5,295.9 108.3,295.5 109.2,295.1 110.1,294.7 110.9,294.3 111.8,293.8 112.7,293.4 113.5,293.0 114.4,292.5 115.3,292.1 116.1,291.6 117.0,291.2 117.9,290.7 118.7,290.2 119.6,289.7 120.4,289.3 121.3,288.8 122.2,288.3 123.0,287.8 123.9,287.2 124.8,286.7 125.6,286.2 126.5,285.6 127.4,285.1 128.2,284.6 129.1,284.0 130.0,283.4 130.8,282.9 131.7,282.3 132.6,281.7 133.4,281.1 134.3,280.5 135.2,279.9 136.0,279.2 136.9,278.6 137.7,278.0 138.6,277.3 139.5,276.6 140.3,276.0 141.2,275.3 142.1,274.6 142.9,273.9 143.8,273.2 144.7,272.5 145.5,271.8 146.4,271.0 147.3,270.3 148.1,269.5 149.0,268.8 149.9,268.0 150.7,267.2 151.6,266.4 152.4,265.6 153.3,264.8 154.2,263.9 155.0,263.1 155.9,262.2 156.8,261.4 157.6,260.5 158.5,259.6 159.4,258.7 160.2,257.8 161.1,256.8 162.0,255.9 162.8,254.9 163.7,254.0 164.6,253.0 165.4,252.0 166.3,251.0 167.2,250.0 168.0,248.9 168.9,247.9 169.8,246.8 170.6,245.7 171.5,244.6 172.3,243.5 173.2,242.4 174.1,241.3 174.9,240.1 175.8,238.9 176.7,237.7 177.5,236.5 178.4,235.3 179.3,234.1 180.1,232.8 181.0,231.5 181.9,230.2 182.7,228.9 183.6,227.6 184.5,226.2 185.3,224.9 186.2,223.5 187.0,222.1 187.9,220.7 188.8,219.2 189.6,217.8 190.5,216.3 191.4,214.8 192.2,213.3 193.1,211.7 194.0,210.1 194.8,208.6 195.7,206.9 196.6,205.3 197.4,203.7 198.3,202.0 199.2,200.3 200.0,198.6 200.9,196.8 201.8,195.0 202.6,193.2 203.5,191.4 204.3,189.6 205.2,187.7 206.1,185.8 206.9,183.9 207.8,181.9 208.7,179.9 209.5,177.9 210.4,175.9 211.3,173.8 212.1,171.8 213.0,169.6 213.9,167.5 214.7,165.3 215.6,163.1 216.5,160.9 217.3,158.6 218.2,156.3 219.1,154.0 219.9,151.6 220.8,149.2 221.7,146.8 222.5,144.3 223.4,141.8 224.2,139.3 225.1,136.7 226.0,134.1 226.8,131.5 227.7,128.8 228.6,126.1 229.4,123.3 230.3,120.5 231.2,117.7 232.0,114.8 232.9,111.9 233.8,109.0 234.6,106.0 235.5,103.0 236.4,99.9 237.2,96.8 238.1,93.6 238.9,90.4 239.8,87.2 240.7,83.9 241.5,80.6 242.4,77.2 243.3,73.8 244.1,70.3 245.0,66.8 245.9,63.2 246.7,59.6 247.6,55.9 248.5,52.2 249.3,48.4 250.2,44.6 251.1,40.7 251.9,36.8 252.8,32.8 253.7,28.7\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"2.6\"/><rect x=\"195.9\" y=\"134.6\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"203.9\" y=\"147.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">C</text><rect x=\"31.4\" y=\"331.0\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"40.0\" y=\"341.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><rect x=\"173.1\" y=\"331.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"178.4\" y=\"341.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><rect x=\"242.3\" y=\"331.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"247.6\" y=\"341.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><rect x=\"311.5\" y=\"331.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"316.8\" y=\"341.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><rect x=\"380.7\" y=\"331.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"386.0\" y=\"341.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><rect x=\"94.6\" y=\"281.6\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"103.2\" y=\"291.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><rect x=\"94.6\" y=\"244.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"103.2\" y=\"254.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><rect x=\"94.6\" y=\"206.9\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"103.2\" y=\"216.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><rect x=\"94.6\" y=\"169.5\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"103.2\" y=\"179.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><rect x=\"94.6\" y=\"132.1\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"103.2\" y=\"142.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><rect x=\"94.6\" y=\"94.8\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"103.2\" y=\"104.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><rect x=\"94.6\" y=\"57.4\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"103.2\" y=\"67.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">7</text><rect x=\"94.6\" y=\"20.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"103.2\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">8</text><text x=\"398.0\" y=\"330.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"116.2\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text></svg></span>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(f(0)=3\\), så grafen skär y-axeln i 3. Förändringsfaktorn 0,8 är mindre än 1, så grafen är avtagande. Det är A.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Startvärdet 3 och förändringsfaktorn 0,8 avgör grafens utseende</p><p>\\(f(0)=3\\), så grafen skär y-axeln i 3. Förändringsfaktorn 0,8 är mindre än 1, så grafen är avtagande. Det är A.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> A</p></div>",
     "familj": "Jämföra och tolka exponentialgrafer",
     "formaga": [
       "begrepp"
@@ -44455,7 +44455,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "funktionsvärde ur startvärde",
     "t": "<p>Grafen till \\(f(x)=C\\cdot2^x\\) skär y-axeln i 3. Bestäm \\(f(4)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[C=3\\]</div></li><li><div class=\"facit-matte\">\\[f(4)=3\\cdot2^4=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 48</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärningen med y-axeln är startvärdet C</p><div class=\"facit-matte\">\\[C=3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=4\\)</p><div class=\"facit-matte\">\\[f(4)=3\\cdot2^4=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 48</p></div>",
     "familj": "Avläsa exponentialgrafer",
     "formaga": [
       "procedur"
@@ -44485,7 +44485,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "värde som grafen närmar sig",
     "t": "<p>Vilket värde närmar sig \\(y=10\\cdot0{,}5^x\\) när \\(x\\) blir mycket stort?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(0{,}5^x\\) halveras för varje steg och blir allt mindre. Därför närmar sig y talet 0, men blir aldrig 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(0{,}5^x\\) halveras för varje steg i x</p><p>\\(0{,}5^x\\) halveras för varje steg och blir allt mindre. Därför närmar sig y talet 0, men blir aldrig 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0</p></div>",
     "familj": "Tolka tillväxt och avtagande",
     "formaga": [
       "begrepp"
@@ -44515,7 +44515,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "x ur avläsning",
     "t": "<p>Grafen visar \\(f(x)=1{,}5\\cdot2^x\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"En växande exponentialkurva som börjar i 1,5 och når 48 när x = 5.\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"124.8\" y1=\"30\" x2=\"124.8\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"189.6\" y1=\"30\" x2=\"189.6\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"254.4\" y1=\"30\" x2=\"254.4\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"319.3\" y1=\"30\" x2=\"319.3\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"384.1\" y1=\"30\" x2=\"384.1\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"410\" y2=\"255.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"222.9\" x2=\"410\" y2=\"222.9\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"190.7\" x2=\"410\" y2=\"190.7\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"158.6\" x2=\"410\" y2=\"158.6\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"126.4\" x2=\"410\" y2=\"126.4\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"94.3\" x2=\"410\" y2=\"94.3\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"62.1\" x2=\"410\" y2=\"62.1\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"410\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"418\" y2=\"255.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"255\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">y</text><line x1=\"124.8\" y1=\"251.0\" x2=\"124.8\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"124.8\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"189.6\" y1=\"251.0\" x2=\"189.6\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"189.6\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"254.4\" y1=\"251.0\" x2=\"254.4\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"254.4\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"319.3\" y1=\"251.0\" x2=\"319.3\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"319.3\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"384.1\" y1=\"251.0\" x2=\"384.1\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"384.1\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><line x1=\"56.0\" y1=\"222.9\" x2=\"64.0\" y2=\"222.9\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"227.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><line x1=\"56.0\" y1=\"190.7\" x2=\"64.0\" y2=\"190.7\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"195.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">16</text><line x1=\"56.0\" y1=\"158.6\" x2=\"64.0\" y2=\"158.6\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"163.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">24</text><line x1=\"56.0\" y1=\"126.4\" x2=\"64.0\" y2=\"126.4\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"131.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">32</text><line x1=\"56.0\" y1=\"94.3\" x2=\"64.0\" y2=\"94.3\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"99.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"56.0\" y1=\"62.1\" x2=\"64.0\" y2=\"62.1\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"67.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">48</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">56</text><line x1=\"60.0\" y1=\"62.1\" x2=\"384.1\" y2=\"62.1\" stroke=\"#8a96a3\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><line x1=\"384.1\" y1=\"62.1\" x2=\"384.1\" y2=\"255.0\" stroke=\"#8a96a3\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><polyline points=\"60.0,249.0 60.9,248.9 61.8,248.9 62.6,248.8 63.5,248.7 64.4,248.7 65.2,248.6 66.1,248.6 67.0,248.5 67.9,248.4 68.8,248.4 69.6,248.3 70.5,248.3 71.4,248.2 72.2,248.1 73.1,248.1 74.0,248.0 74.9,247.9 75.8,247.9 76.6,247.8 77.5,247.7 78.4,247.7 79.2,247.6 80.1,247.5 81.0,247.5 81.9,247.4 82.8,247.3 83.6,247.2 84.5,247.2 85.4,247.1 86.2,247.0 87.1,246.9 88.0,246.9 88.9,246.8 89.8,246.7 90.6,246.6 91.5,246.6 92.4,246.5 93.2,246.4 94.1,246.3 95.0,246.2 95.9,246.2 96.8,246.1 97.6,246.0 98.5,245.9 99.4,245.8 100.2,245.7 101.1,245.6 102.0,245.6 102.9,245.5 103.8,245.4 104.6,245.3 105.5,245.2 106.4,245.1 107.2,245.0 108.1,244.9 109.0,244.8 109.9,244.7 110.8,244.6 111.6,244.5 112.5,244.4 113.4,244.3 114.2,244.2 115.1,244.1 116.0,244.0 116.9,243.9 117.8,243.8 118.6,243.7 119.5,243.6 120.4,243.5 121.2,243.4 122.1,243.3 123.0,243.2 123.9,243.1 124.8,243.0 125.6,242.8 126.5,242.7 127.4,242.6 128.2,242.5 129.1,242.4 130.0,242.3 130.9,242.1 131.8,242.0 132.6,241.9 133.5,241.8 134.4,241.6 135.2,241.5 136.1,241.4 137.0,241.3 137.9,241.1 138.8,241.0 139.6,240.9 140.5,240.7 141.4,240.6 142.2,240.5 143.1,240.3 144.0,240.2 144.9,240.1 145.8,239.9 146.6,239.8 147.5,239.6 148.4,239.5 149.2,239.3 150.1,239.2 151.0,239.1 151.9,238.9 152.8,238.7 153.6,238.6 154.5,238.4 155.4,238.3 156.2,238.1 157.1,238.0 158.0,237.8 158.9,237.6 159.8,237.5 160.6,237.3 161.5,237.2 162.4,237.0 163.2,236.8 164.1,236.6 165.0,236.5 165.9,236.3 166.8,236.1 167.6,235.9 168.5,235.8 169.4,235.6 170.2,235.4 171.1,235.2 172.0,235.0 172.9,234.8 173.8,234.7 174.6,234.5 175.5,234.3 176.4,234.1 177.2,233.9 178.1,233.7 179.0,233.5 179.9,233.3 180.8,233.1 181.6,232.9 182.5,232.7 183.4,232.5 184.2,232.2 185.1,232.0 186.0,231.8 186.9,231.6 187.8,231.4 188.6,231.2 189.5,230.9 190.4,230.7 191.2,230.5 192.1,230.2 193.0,230.0 193.9,229.8 194.8,229.5 195.6,229.3 196.5,229.1 197.4,228.8 198.2,228.6 199.1,228.3 200.0,228.1 200.9,227.8 201.8,227.6 202.6,227.3 203.5,227.0 204.4,226.8 205.2,226.5 206.1,226.2 207.0,226.0 207.9,225.7 208.8,225.4 209.6,225.1 210.5,224.9 211.4,224.6 212.2,224.3 213.1,224.0 214.0,223.7 214.9,223.4 215.7,223.1 216.6,222.8 217.5,222.5 218.4,222.2 219.2,221.9 220.1,221.6 221.0,221.3 221.9,221.0 222.8,220.6 223.6,220.3 224.5,220.0 225.4,219.7 226.2,219.3 227.1,219.0 228.0,218.7 228.9,218.3 229.8,218.0 230.6,217.6 231.5,217.3 232.4,216.9 233.2,216.6 234.1,216.2 235.0,215.8 235.9,215.5 236.8,215.1 237.6,214.7 238.5,214.3 239.4,214.0 240.2,213.6 241.1,213.2 242.0,212.8 242.9,212.4 243.7,212.0 244.6,211.6 245.5,211.2 246.4,210.8 247.2,210.4 248.1,209.9 249.0,209.5 249.9,209.1 250.7,208.7 251.6,208.2 252.5,207.8 253.4,207.3 254.3,206.9 255.1,206.4 256.0,206.0 256.9,205.5 257.8,205.1 258.6,204.6 259.5,204.1 260.4,203.6 261.2,203.1 262.1,202.7 263.0,202.2 263.9,201.7 264.8,201.2 265.6,200.7 266.5,200.2 267.4,199.6 268.2,199.1 269.1,198.6 270.0,198.1 270.9,197.5 271.8,197.0 272.6,196.4 273.5,195.9 274.4,195.3 275.2,194.8 276.1,194.2 277.0,193.6 277.9,193.1 278.8,192.5 279.6,191.9 280.5,191.3 281.4,190.7 282.2,190.1 283.1,189.5 284.0,188.9 284.9,188.2 285.8,187.6 286.6,187.0 287.5,186.3 288.4,185.7 289.2,185.0 290.1,184.4 291.0,183.7 291.9,183.1 292.8,182.4 293.6,181.7 294.5,181.0 295.4,180.3 296.2,179.6 297.1,178.9 298.0,178.2 298.9,177.5 299.8,176.7 300.6,176.0 301.5,175.3 302.4,174.5 303.2,173.7 304.1,173.0 305.0,172.2 305.9,171.4 306.8,170.6 307.6,169.9 308.5,169.1 309.4,168.2 310.2,167.4 311.1,166.6 312.0,165.8 312.9,164.9 313.8,164.1 314.6,163.2 315.5,162.4 316.4,161.5 317.2,160.6 318.1,159.7 319.0,158.8 319.9,157.9 320.7,157.0 321.6,156.1 322.5,155.2 323.4,154.2 324.3,153.3 325.1,152.3 326.0,151.4 326.9,150.4 327.8,149.4 328.6,148.4 329.5,147.4 330.4,146.4 331.2,145.4 332.1,144.3 333.0,143.3 333.9,142.3 334.8,141.2 335.6,140.1 336.5,139.0 337.4,138.0 338.2,136.9 339.1,135.7 340.0,134.6 340.9,133.5 341.8,132.4 342.6,131.2 343.5,130.0 344.4,128.9 345.2,127.7 346.1,126.5 347.0,125.3 347.9,124.0 348.8,122.8 349.6,121.6 350.5,120.3 351.4,119.1 352.2,117.8 353.1,116.5 354.0,115.2 354.9,113.9 355.7,112.5 356.6,111.2 357.5,109.9 358.4,108.5 359.3,107.1 360.1,105.7 361.0,104.3 361.9,102.9 362.8,101.5 363.6,100.0 364.5,98.6 365.4,97.1 366.2,95.6 367.1,94.1 368.0,92.6 368.9,91.1 369.7,89.5 370.6,88.0 371.5,86.4 372.4,84.8 373.2,83.2 374.1,81.6 375.0,80.0 375.9,78.3 376.8,76.7 377.6,75.0 378.5,73.3 379.4,71.6 380.2,69.9 381.1,68.1 382.0,66.4 382.9,64.6 383.8,62.8 384.6,61.0 385.5,59.2 386.4,57.3 387.2,55.5 388.1,53.6 389.0,51.7 389.9,49.8 390.7,47.9 391.6,45.9 392.5,44.0 393.4,42.0 394.2,40.0 395.1,37.9 396.0,35.9 396.9,33.8 397.8,31.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><text x=\"410.0\" y=\"293.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\">x</text></svg></div><p>För vilket \\(x\\) är \\(f(x)=48\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den streckade linjen \\(y=48\\) möter grafen där \\(x=5\\).</p></li><li><div class=\"facit-matte\">\\[1{,}5\\cdot2^5=1{,}5\\cdot32=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av var linjen \\(y=48\\) möter grafen</p><p>Den streckade linjen \\(y=48\\) möter grafen där \\(x=5\\).</p></li><li><p class=\"facit-rubrik\">Kontrollera med räkning</p><div class=\"facit-matte\">\\[1{,}5\\cdot2^5=1{,}5\\cdot32=48\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5\\)</p></div>",
     "familj": "Avläsa exponentialgrafer",
     "formaga": [
       "begrepp"
@@ -44545,7 +44545,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "procentuell minskning ur graf",
     "t": "<p>Grafen visar en exponentiellt avtagande storhet.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"En avtagande exponentialkurva som går genom (0, 50) och (1, 35).\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"410\" y2=\"255.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"232.5\" x2=\"410\" y2=\"232.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"210.0\" x2=\"410\" y2=\"210.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"187.5\" x2=\"410\" y2=\"187.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"165.0\" x2=\"410\" y2=\"165.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"142.5\" x2=\"410\" y2=\"142.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"120.0\" x2=\"410\" y2=\"120.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"97.5\" x2=\"410\" y2=\"97.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"75.0\" x2=\"410\" y2=\"75.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"52.5\" x2=\"410\" y2=\"52.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"410\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"418\" y2=\"255.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"255\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">y</text><line x1=\"147.5\" y1=\"251.0\" x2=\"147.5\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"147.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"235.0\" y1=\"251.0\" x2=\"235.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"235.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"322.5\" y1=\"251.0\" x2=\"322.5\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"322.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"410.0\" y1=\"251.0\" x2=\"410.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"410.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"56.0\" y1=\"232.5\" x2=\"64.0\" y2=\"232.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"237.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><line x1=\"56.0\" y1=\"210.0\" x2=\"64.0\" y2=\"210.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"56.0\" y1=\"187.5\" x2=\"64.0\" y2=\"187.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"192.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">15</text><line x1=\"56.0\" y1=\"165.0\" x2=\"64.0\" y2=\"165.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"56.0\" y1=\"142.5\" x2=\"64.0\" y2=\"142.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"147.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">25</text><line x1=\"56.0\" y1=\"120.0\" x2=\"64.0\" y2=\"120.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"56.0\" y1=\"97.5\" x2=\"64.0\" y2=\"97.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"102.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">35</text><line x1=\"56.0\" y1=\"75.0\" x2=\"64.0\" y2=\"75.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"56.0\" y1=\"52.5\" x2=\"64.0\" y2=\"52.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"57.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">45</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">50</text><polyline points=\"60.0,30.0 60.9,30.8 61.8,31.6 62.6,32.4 63.5,33.2 64.4,34.0 65.2,34.8 66.1,35.5 67.0,36.3 67.9,37.1 68.8,37.9 69.6,38.7 70.5,39.4 71.4,40.2 72.2,41.0 73.1,41.7 74.0,42.5 74.9,43.2 75.8,44.0 76.6,44.7 77.5,45.5 78.4,46.2 79.2,47.0 80.1,47.7 81.0,48.5 81.9,49.2 82.8,49.9 83.6,50.7 84.5,51.4 85.4,52.1 86.2,52.8 87.1,53.6 88.0,54.3 88.9,55.0 89.8,55.7 90.6,56.4 91.5,57.1 92.4,57.8 93.2,58.5 94.1,59.2 95.0,59.9 95.9,60.6 96.8,61.3 97.6,62.0 98.5,62.7 99.4,63.4 100.2,64.0 101.1,64.7 102.0,65.4 102.9,66.1 103.8,66.8 104.6,67.4 105.5,68.1 106.4,68.8 107.2,69.4 108.1,70.1 109.0,70.7 109.9,71.4 110.8,72.0 111.6,72.7 112.5,73.3 113.4,74.0 114.2,74.6 115.1,75.3 116.0,75.9 116.9,76.6 117.8,77.2 118.6,77.8 119.5,78.5 120.4,79.1 121.2,79.7 122.1,80.3 123.0,81.0 123.9,81.6 124.8,82.2 125.6,82.8 126.5,83.4 127.4,84.0 128.2,84.6 129.1,85.2 130.0,85.9 130.9,86.5 131.8,87.1 132.6,87.7 133.5,88.3 134.4,88.8 135.2,89.4 136.1,90.0 137.0,90.6 137.9,91.2 138.8,91.8 139.6,92.4 140.5,92.9 141.4,93.5 142.2,94.1 143.1,94.7 144.0,95.2 144.9,95.8 145.8,96.4 146.6,96.9 147.5,97.5 148.4,98.1 149.2,98.6 150.1,99.2 151.0,99.7 151.9,100.3 152.8,100.8 153.6,101.4 154.5,101.9 155.4,102.5 156.2,103.0 157.1,103.6 158.0,104.1 158.9,104.6 159.8,105.2 160.6,105.7 161.5,106.2 162.4,106.8 163.2,107.3 164.1,107.8 165.0,108.3 165.9,108.9 166.8,109.4 167.6,109.9 168.5,110.4 169.4,110.9 170.2,111.4 171.1,112.0 172.0,112.5 172.9,113.0 173.8,113.5 174.6,114.0 175.5,114.5 176.4,115.0 177.2,115.5 178.1,116.0 179.0,116.5 179.9,117.0 180.8,117.5 181.6,118.0 182.5,118.4 183.4,118.9 184.2,119.4 185.1,119.9 186.0,120.4 186.9,120.9 187.8,121.3 188.6,121.8 189.5,122.3 190.4,122.8 191.2,123.2 192.1,123.7 193.0,124.2 193.9,124.6 194.8,125.1 195.6,125.6 196.5,126.0 197.4,126.5 198.2,126.9 199.1,127.4 200.0,127.8 200.9,128.3 201.8,128.7 202.6,129.2 203.5,129.6 204.4,130.1 205.2,130.5 206.1,131.0 207.0,131.4 207.9,131.9 208.8,132.3 209.6,132.7 210.5,133.2 211.4,133.6 212.2,134.0 213.1,134.5 214.0,134.9 214.9,135.3 215.8,135.8 216.6,136.2 217.5,136.6 218.4,137.0 219.2,137.4 220.1,137.9 221.0,138.3 221.9,138.7 222.8,139.1 223.6,139.5 224.5,139.9 225.4,140.3 226.2,140.7 227.1,141.2 228.0,141.6 228.9,142.0 229.8,142.4 230.6,142.8 231.5,143.2 232.4,143.6 233.2,144.0 234.1,144.4 235.0,144.8 235.9,145.1 236.8,145.5 237.6,145.9 238.5,146.3 239.4,146.7 240.2,147.1 241.1,147.5 242.0,147.9 242.9,148.2 243.8,148.6 244.6,149.0 245.5,149.4 246.4,149.7 247.2,150.1 248.1,150.5 249.0,150.9 249.9,151.2 250.8,151.6 251.6,152.0 252.5,152.3 253.4,152.7 254.3,153.1 255.1,153.4 256.0,153.8 256.9,154.2 257.8,154.5 258.6,154.9 259.5,155.2 260.4,155.6 261.2,155.9 262.1,156.3 263.0,156.6 263.9,157.0 264.8,157.3 265.6,157.7 266.5,158.0 267.4,158.4 268.2,158.7 269.1,159.1 270.0,159.4 270.9,159.7 271.8,160.1 272.6,160.4 273.5,160.8 274.4,161.1 275.2,161.4 276.1,161.8 277.0,162.1 277.9,162.4 278.8,162.8 279.6,163.1 280.5,163.4 281.4,163.7 282.2,164.1 283.1,164.4 284.0,164.7 284.9,165.0 285.8,165.4 286.6,165.7 287.5,166.0 288.4,166.3 289.2,166.6 290.1,166.9 291.0,167.3 291.9,167.6 292.8,167.9 293.6,168.2 294.5,168.5 295.4,168.8 296.2,169.1 297.1,169.4 298.0,169.7 298.9,170.0 299.8,170.3 300.6,170.6 301.5,170.9 302.4,171.2 303.2,171.5 304.1,171.8 305.0,172.1 305.9,172.4 306.8,172.7 307.6,173.0 308.5,173.3 309.4,173.6 310.2,173.9 311.1,174.2 312.0,174.5 312.9,174.7 313.8,175.0 314.6,175.3 315.5,175.6 316.4,175.9 317.2,176.2 318.1,176.4 319.0,176.7 319.9,177.0 320.8,177.3 321.6,177.5 322.5,177.8 323.4,178.1 324.2,178.4 325.1,178.6 326.0,178.9 326.9,179.2 327.8,179.5 328.6,179.7 329.5,180.0 330.4,180.3 331.2,180.5 332.1,180.8 333.0,181.1 333.9,181.3 334.8,181.6 335.6,181.8 336.5,182.1 337.4,182.4 338.2,182.6 339.1,182.9 340.0,183.1 340.9,183.4 341.8,183.6 342.6,183.9 343.5,184.2 344.4,184.4 345.2,184.7 346.1,184.9 347.0,185.2 347.9,185.4 348.8,185.7 349.6,185.9 350.5,186.1 351.4,186.4 352.2,186.6 353.1,186.9 354.0,187.1 354.9,187.4 355.8,187.6 356.6,187.8 357.5,188.1 358.4,188.3 359.2,188.6 360.1,188.8 361.0,189.0 361.9,189.3 362.8,189.5 363.6,189.7 364.5,190.0 365.4,190.2 366.2,190.4 367.1,190.7 368.0,190.9 368.9,191.1 369.8,191.3 370.6,191.6 371.5,191.8 372.4,192.0 373.2,192.2 374.1,192.5 375.0,192.7 375.9,192.9 376.8,193.1 377.6,193.4 378.5,193.6 379.4,193.8 380.2,194.0 381.1,194.2 382.0,194.4 382.9,194.7 383.8,194.9 384.6,195.1 385.5,195.3 386.4,195.5 387.2,195.7 388.1,195.9 389.0,196.1 389.9,196.4 390.8,196.6 391.6,196.8 392.5,197.0 393.4,197.2 394.2,197.4 395.1,197.6 396.0,197.8 396.9,198.0 397.8,198.2 398.6,198.4 399.5,198.6 400.4,198.8 401.2,199.0 402.1,199.2 403.0,199.4 403.9,199.6 404.8,199.8 405.6,200.0 406.5,200.2 407.4,200.4 408.2,200.6 409.1,200.8 410.0,201.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"60.0\" cy=\"30.0\" r=\"5\" fill=\"#c2410c\"/><circle cx=\"147.5\" cy=\"97.5\" r=\"5\" fill=\"#c2410c\"/><text x=\"410.0\" y=\"293.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\">x</text></svg></div><p>Med hur många procent minskar storheten för varje steg i \\(x\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a=\\frac{35}{50}=0{,}7\\]</div></li><li><p>Förändringsfaktorn 0,7 betyder en minskning med 30 % per steg.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 %</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förändringsfaktorn är kvoten mellan två värden ett steg ifrån varandra</p><div class=\"facit-matte\">\\[a=\\frac{35}{50}=0{,}7\\]</div></li><li><p class=\"facit-rubrik\">Översätt förändringsfaktorn till procent</p><p>Förändringsfaktorn 0,7 betyder en minskning med 30 % per steg.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 30 %</p></div>",
     "familj": "Tolka tillväxt och avtagande",
     "formaga": [
       "procedur"
@@ -44576,7 +44576,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "halveringstid ur graf",
     "t": "<p>Grafen visar mängden av ett läkemedel i blodet, i mg, \\(t\\) timmar efter en dos.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"En avtagande kurva som går från 80 mg vid t = 0 till 40 mg vid t = 6 och 20 mg vid t = 12.\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"410\" y2=\"255.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"226.9\" x2=\"410\" y2=\"226.9\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"198.8\" x2=\"410\" y2=\"198.8\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"170.6\" x2=\"410\" y2=\"170.6\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"142.5\" x2=\"410\" y2=\"142.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"114.4\" x2=\"410\" y2=\"114.4\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"86.2\" x2=\"410\" y2=\"86.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"58.1\" x2=\"410\" y2=\"58.1\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"410\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"418\" y2=\"255.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"255\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">mängd (mg)</text><line x1=\"147.5\" y1=\"251.0\" x2=\"147.5\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"147.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><line x1=\"235.0\" y1=\"251.0\" x2=\"235.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"235.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">12</text><line x1=\"322.5\" y1=\"251.0\" x2=\"322.5\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"322.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">18</text><line x1=\"410.0\" y1=\"251.0\" x2=\"410.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"410.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">24</text><line x1=\"56.0\" y1=\"226.9\" x2=\"64.0\" y2=\"226.9\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"231.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"56.0\" y1=\"198.8\" x2=\"64.0\" y2=\"198.8\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"203.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"56.0\" y1=\"170.6\" x2=\"64.0\" y2=\"170.6\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"175.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"56.0\" y1=\"142.5\" x2=\"64.0\" y2=\"142.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"147.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"56.0\" y1=\"114.4\" x2=\"64.0\" y2=\"114.4\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"119.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">50</text><line x1=\"56.0\" y1=\"86.2\" x2=\"64.0\" y2=\"86.2\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"91.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">60</text><line x1=\"56.0\" y1=\"58.1\" x2=\"64.0\" y2=\"58.1\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"63.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">70</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">80</text><polyline points=\"60.0,30.0 60.9,31.6 61.8,33.1 62.6,34.6 63.5,36.2 64.4,37.7 65.2,39.2 66.1,40.7 67.0,42.1 67.9,43.6 68.8,45.1 69.6,46.5 70.5,48.0 71.4,49.4 72.2,50.8 73.1,52.2 74.0,53.6 74.9,55.0 75.8,56.4 76.6,57.8 77.5,59.1 78.4,60.5 79.2,61.8 80.1,63.2 81.0,64.5 81.9,65.8 82.8,67.1 83.6,68.4 84.5,69.7 85.4,71.0 86.2,72.2 87.1,73.5 88.0,74.8 88.9,76.0 89.8,77.2 90.6,78.5 91.5,79.7 92.4,80.9 93.2,82.1 94.1,83.3 95.0,84.5 95.9,85.7 96.8,86.8 97.6,88.0 98.5,89.1 99.4,90.3 100.2,91.4 101.1,92.6 102.0,93.7 102.9,94.8 103.8,95.9 104.6,97.0 105.5,98.1 106.4,99.2 107.2,100.3 108.1,101.3 109.0,102.4 109.9,103.4 110.8,104.5 111.6,105.5 112.5,106.6 113.4,107.6 114.2,108.6 115.1,109.6 116.0,110.6 116.9,111.6 117.8,112.6 118.6,113.6 119.5,114.6 120.4,115.5 121.2,116.5 122.1,117.5 123.0,118.4 123.9,119.3 124.8,120.3 125.6,121.2 126.5,122.1 127.4,123.1 128.2,124.0 129.1,124.9 130.0,125.8 130.9,126.7 131.8,127.6 132.6,128.4 133.5,129.3 134.4,130.2 135.2,131.0 136.1,131.9 137.0,132.7 137.9,133.6 138.8,134.4 139.6,135.3 140.5,136.1 141.4,136.9 142.2,137.7 143.1,138.5 144.0,139.3 144.9,140.1 145.8,140.9 146.6,141.7 147.5,142.5 148.4,143.3 149.2,144.0 150.1,144.8 151.0,145.6 151.9,146.3 152.8,147.1 153.6,147.8 154.5,148.6 155.4,149.3 156.2,150.0 157.1,150.8 158.0,151.5 158.9,152.2 159.8,152.9 160.6,153.6 161.5,154.3 162.4,155.0 163.2,155.7 164.1,156.4 165.0,157.1 165.9,157.7 166.8,158.4 167.6,159.1 168.5,159.7 169.4,160.4 170.2,161.1 171.1,161.7 172.0,162.3 172.9,163.0 173.8,163.6 174.6,164.3 175.5,164.9 176.4,165.5 177.2,166.1 178.1,166.7 179.0,167.3 179.9,167.9 180.8,168.6 181.6,169.1 182.5,169.7 183.4,170.3 184.2,170.9 185.1,171.5 186.0,172.1 186.9,172.6 187.8,173.2 188.6,173.8 189.5,174.3 190.4,174.9 191.2,175.5 192.1,176.0 193.0,176.5 193.9,177.1 194.8,177.6 195.6,178.2 196.5,178.7 197.4,179.2 198.2,179.7 199.1,180.3 200.0,180.8 200.9,181.3 201.8,181.8 202.6,182.3 203.5,182.8 204.4,183.3 205.2,183.8 206.1,184.3 207.0,184.8 207.9,185.3 208.8,185.7 209.6,186.2 210.5,186.7 211.4,187.2 212.2,187.6 213.1,188.1 214.0,188.6 214.9,189.0 215.8,189.5 216.6,189.9 217.5,190.4 218.4,190.8 219.2,191.3 220.1,191.7 221.0,192.2 221.9,192.6 222.8,193.0 223.6,193.4 224.5,193.9 225.4,194.3 226.2,194.7 227.1,195.1 228.0,195.5 228.9,196.0 229.8,196.4 230.6,196.8 231.5,197.2 232.4,197.6 233.3,198.0 234.1,198.4 235.0,198.8 235.9,199.1 236.8,199.5 237.6,199.9 238.5,200.3 239.4,200.7 240.2,201.0 241.1,201.4 242.0,201.8 242.9,202.2 243.8,202.5 244.6,202.9 245.5,203.2 246.4,203.6 247.2,204.0 248.1,204.3 249.0,204.7 249.9,205.0 250.8,205.3 251.6,205.7 252.5,206.0 253.4,206.4 254.3,206.7 255.1,207.0 256.0,207.4 256.9,207.7 257.8,208.0 258.6,208.4 259.5,208.7 260.4,209.0 261.2,209.3 262.1,209.6 263.0,209.9 263.9,210.3 264.8,210.6 265.6,210.9 266.5,211.2 267.4,211.5 268.2,211.8 269.1,212.1 270.0,212.4 270.9,212.7 271.8,213.0 272.6,213.2 273.5,213.5 274.4,213.8 275.2,214.1 276.1,214.4 277.0,214.7 277.9,214.9 278.8,215.2 279.6,215.5 280.5,215.8 281.4,216.0 282.2,216.3 283.1,216.6 284.0,216.8 284.9,217.1 285.8,217.4 286.6,217.6 287.5,217.9 288.4,218.1 289.2,218.4 290.1,218.7 291.0,218.9 291.9,219.2 292.8,219.4 293.6,219.6 294.5,219.9 295.4,220.1 296.2,220.4 297.1,220.6 298.0,220.9 298.9,221.1 299.8,221.3 300.6,221.6 301.5,221.8 302.4,222.0 303.2,222.2 304.1,222.5 305.0,222.7 305.9,222.9 306.8,223.1 307.6,223.4 308.5,223.6 309.4,223.8 310.2,224.0 311.1,224.2 312.0,224.4 312.9,224.6 313.8,224.9 314.6,225.1 315.5,225.3 316.4,225.5 317.2,225.7 318.1,225.9 319.0,226.1 319.9,226.3 320.8,226.5 321.6,226.7 322.5,226.9 323.4,227.1 324.2,227.3 325.1,227.5 326.0,227.6 326.9,227.8 327.8,228.0 328.6,228.2 329.5,228.4 330.4,228.6 331.2,228.8 332.1,228.9 333.0,229.1 333.9,229.3 334.8,229.5 335.6,229.7 336.5,229.8 337.4,230.0 338.2,230.2 339.1,230.3 340.0,230.5 340.9,230.7 341.8,230.9 342.6,231.0 343.5,231.2 344.4,231.3 345.2,231.5 346.1,231.7 347.0,231.8 347.9,232.0 348.8,232.2 349.6,232.3 350.5,232.5 351.4,232.6 352.2,232.8 353.1,232.9 354.0,233.1 354.9,233.2 355.8,233.4 356.6,233.5 357.5,233.7 358.4,233.8 359.2,234.0 360.1,234.1 361.0,234.3 361.9,234.4 362.8,234.6 363.6,234.7 364.5,234.8 365.4,235.0 366.2,235.1 367.1,235.2 368.0,235.4 368.9,235.5 369.7,235.7 370.6,235.8 371.5,235.9 372.4,236.1 373.2,236.2 374.1,236.3 375.0,236.4 375.9,236.6 376.7,236.7 377.6,236.8 378.5,237.0 379.4,237.1 380.2,237.2 381.1,237.3 382.0,237.4 382.9,237.6 383.8,237.7 384.6,237.8 385.5,237.9 386.4,238.0 387.2,238.2 388.1,238.3 389.0,238.4 389.9,238.5 390.8,238.6 391.6,238.7 392.5,238.8 393.4,239.0 394.2,239.1 395.1,239.2 396.0,239.3 396.9,239.4 397.8,239.5 398.6,239.6 399.5,239.7 400.4,239.8 401.2,239.9 402.1,240.0 403.0,240.1 403.9,240.2 404.8,240.3 405.6,240.4 406.5,240.5 407.4,240.6 408.2,240.7 409.1,240.8 410.0,240.9\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"60.0\" cy=\"30.0\" r=\"5\" fill=\"#c2410c\"/><circle cx=\"147.5\" cy=\"142.5\" r=\"5\" fill=\"#c2410c\"/><circle cx=\"235.0\" cy=\"198.8\" r=\"5\" fill=\"#c2410c\"/><text x=\"410.0\" y=\"293.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\">t (h)</text></svg></div><p>Bestäm halveringstiden. (Svara i h.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Mängden går från 80 mg till 40 mg på 6 timmar och från 40 mg till 20 mg på ytterligare 6 timmar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 h</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av hur lång tid det tar för mängden att halveras, två gånger för att kontrollera</p><p>Mängden går från 80 mg till 40 mg på 6 timmar och från 40 mg till 20 mg på ytterligare 6 timmar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 6 h</p></div>",
     "familj": "Tolka tillväxt och avtagande",
     "formaga": [
       "begrepp"
@@ -44607,7 +44607,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "skärning mellan växande och avtagande graf",
     "t": "<p>Figuren visar \\(f(x)=2^x\\) och \\(g(x)=32\\cdot0{,}5^x\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"360\" viewBox=\"0 0 420 360\" role=\"img\" aria-label=\"En växande kurva f och en avtagande kurva g som skär varandra ungefär i punkten (2,5; 5,7).\"><title>En växande kurva f och en avtagande kurva g som skär varandra ungefär i punkten (2,5; 5,7).</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"26\" x2=\"40.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"126.5\" y1=\"26\" x2=\"126.5\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"213.0\" y1=\"26\" x2=\"213.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"299.5\" y1=\"26\" x2=\"299.5\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"386.0\" y1=\"26\" x2=\"386.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"325.0\" x2=\"386\" y2=\"325.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"295.1\" x2=\"386\" y2=\"295.1\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"265.2\" x2=\"386\" y2=\"265.2\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"235.3\" x2=\"386\" y2=\"235.3\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"205.4\" x2=\"386\" y2=\"205.4\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"175.5\" x2=\"386\" y2=\"175.5\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"145.6\" x2=\"386\" y2=\"145.6\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"115.7\" x2=\"386\" y2=\"115.7\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"85.8\" x2=\"386\" y2=\"85.8\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"55.9\" x2=\"386\" y2=\"55.9\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"26.0\" x2=\"386\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"325.0\" x2=\"394\" y2=\"325.0\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"40.0\" y1=\"325\" x2=\"40.0\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><polyline points=\"40.0,295.1 40.9,294.9 41.7,294.7 42.6,294.5 43.5,294.3 44.3,294.0 45.2,293.8 46.1,293.6 46.9,293.4 47.8,293.2 48.6,293.0 49.5,292.7 50.4,292.5 51.2,292.3 52.1,292.1 53.0,291.8 53.8,291.6 54.7,291.4 55.6,291.1 56.4,290.9 57.3,290.7 58.2,290.4 59.0,290.2 59.9,289.9 60.8,289.7 61.6,289.4 62.5,289.2 63.4,288.9 64.2,288.7 65.1,288.4 66.0,288.2 66.8,287.9 67.7,287.7 68.5,287.4 69.4,287.2 70.3,286.9 71.1,286.6 72.0,286.4 72.9,286.1 73.7,285.8 74.6,285.5 75.5,285.3 76.3,285.0 77.2,284.7 78.1,284.4 78.9,284.2 79.8,283.9 80.7,283.6 81.5,283.3 82.4,283.0 83.2,282.7 84.1,282.4 85.0,282.1 85.8,281.8 86.7,281.5 87.6,281.2 88.4,280.9 89.3,280.6 90.2,280.3 91.0,280.0 91.9,279.7 92.8,279.4 93.6,279.0 94.5,278.7 95.4,278.4 96.2,278.1 97.1,277.8 98.0,277.4 98.8,277.1 99.7,276.8 100.5,276.4 101.4,276.1 102.3,275.7 103.1,275.4 104.0,275.1 104.9,274.7 105.7,274.4 106.6,274.0 107.5,273.7 108.3,273.3 109.2,272.9 110.1,272.6 110.9,272.2 111.8,271.8 112.7,271.5 113.5,271.1 114.4,270.7 115.3,270.4 116.1,270.0 117.0,269.6 117.9,269.2 118.7,268.8 119.6,268.4 120.4,268.0 121.3,267.6 122.2,267.2 123.0,266.8 123.9,266.4 124.8,266.0 125.6,265.6 126.5,265.2 127.4,264.8 128.2,264.4 129.1,263.9 130.0,263.5 130.8,263.1 131.7,262.7 132.6,262.2 133.4,261.8 134.3,261.4 135.2,260.9 136.0,260.5 136.9,260.0 137.7,259.6 138.6,259.1 139.5,258.6 140.3,258.2 141.2,257.7 142.1,257.3 142.9,256.8 143.8,256.3 144.7,255.8 145.5,255.3 146.4,254.9 147.3,254.4 148.1,253.9 149.0,253.4 149.9,252.9 150.7,252.4 151.6,251.9 152.4,251.4 153.3,250.9 154.2,250.3 155.0,249.8 155.9,249.3 156.8,248.8 157.6,248.3 158.5,247.7 159.4,247.2 160.2,246.6 161.1,246.1 162.0,245.5 162.8,245.0 163.7,244.4 164.6,243.9 165.4,243.3 166.3,242.7 167.2,242.2 168.0,241.6 168.9,241.0 169.8,240.4 170.6,239.8 171.5,239.2 172.3,238.7 173.2,238.1 174.1,237.4 174.9,236.8 175.8,236.2 176.7,235.6 177.5,235.0 178.4,234.4 179.3,233.7 180.1,233.1 181.0,232.5 181.9,231.8 182.7,231.2 183.6,230.5 184.5,229.9 185.3,229.2 186.2,228.5 187.0,227.9 187.9,227.2 188.8,226.5 189.6,225.8 190.5,225.1 191.4,224.4 192.2,223.7 193.1,223.0 194.0,222.3 194.8,221.6 195.7,220.9 196.6,220.2 197.4,219.4 198.3,218.7 199.2,218.0 200.0,217.2 200.9,216.5 201.8,215.7 202.6,214.9 203.5,214.2 204.3,213.4 205.2,212.6 206.1,211.9 206.9,211.1 207.8,210.3 208.7,209.5 209.5,208.7 210.4,207.9 211.3,207.0 212.1,206.2 213.0,205.4 213.9,204.6 214.7,203.7 215.6,202.9 216.5,202.0 217.3,201.2 218.2,200.3 219.1,199.5 219.9,198.6 220.8,197.7 221.7,196.8 222.5,195.9 223.4,195.0 224.2,194.1 225.1,193.2 226.0,192.3 226.8,191.4 227.7,190.4 228.6,189.5 229.4,188.6 230.3,187.6 231.2,186.7 232.0,185.7 232.9,184.7 233.8,183.8 234.6,182.8 235.5,181.8 236.4,180.8 237.2,179.8 238.1,178.8 238.9,177.8 239.8,176.7 240.7,175.7 241.5,174.7 242.4,173.6 243.3,172.6 244.1,171.5 245.0,170.4 245.9,169.4 246.7,168.3 247.6,167.2 248.5,166.1 249.3,165.0 250.2,163.9 251.1,162.8 251.9,161.6 252.8,160.5 253.7,159.3 254.5,158.2 255.4,157.0 256.2,155.9 257.1,154.7 258.0,153.5 258.8,152.3 259.7,151.1 260.6,149.9 261.4,148.7 262.3,147.5 263.2,146.2 264.0,145.0 264.9,143.7 265.8,142.5 266.6,141.2 267.5,139.9 268.4,138.6 269.2,137.3 270.1,136.0 271.0,134.7 271.8,133.4 272.7,132.1 273.6,130.7 274.4,129.4 275.3,128.0 276.1,126.6 277.0,125.2 277.9,123.9 278.7,122.5 279.6,121.0 280.5,119.6 281.3,118.2 282.2,116.8 283.1,115.3 283.9,113.9 284.8,112.4 285.7,110.9 286.5,109.4 287.4,107.9 288.3,106.4 289.1,104.9 290.0,103.4 290.9,101.8 291.7,100.3 292.6,98.7 293.4,97.1 294.3,95.5 295.2,93.9 296.0,92.3 296.9,90.7 297.8,89.1 298.6,87.5 299.5,85.8 300.4,84.1 301.2,82.5 302.1,80.8 303.0,79.1 303.8,77.4 304.7,75.6 305.6,73.9 306.4,72.2 307.3,70.4 308.2,68.6 309.0,66.8 309.9,65.1 310.7,63.2 311.6,61.4 312.5,59.6 313.3,57.7 314.2,55.9 315.1,54.0 315.9,52.1 316.8,50.2 317.7,48.3 318.5,46.4 319.4,44.5 320.3,42.5 321.1,40.5 322.0,38.6 322.9,36.6 323.7,34.6 324.6,32.5 325.4,30.5 326.3,28.5 327.2,26.4\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><rect x=\"322.8\" y=\"43.2\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"330.8\" y=\"56.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">f</text><polyline points=\"185.3,26.4 186.2,28.5 187.0,30.5 187.9,32.5 188.8,34.6 189.6,36.6 190.5,38.6 191.4,40.5 192.2,42.5 193.1,44.5 194.0,46.4 194.8,48.3 195.7,50.2 196.6,52.1 197.4,54.0 198.3,55.9 199.2,57.7 200.0,59.6 200.9,61.4 201.8,63.2 202.6,65.1 203.5,66.8 204.3,68.6 205.2,70.4 206.1,72.2 206.9,73.9 207.8,75.6 208.7,77.4 209.5,79.1 210.4,80.8 211.3,82.5 212.1,84.1 213.0,85.8 213.9,87.5 214.7,89.1 215.6,90.7 216.5,92.3 217.3,93.9 218.2,95.5 219.1,97.1 219.9,98.7 220.8,100.3 221.7,101.8 222.5,103.4 223.4,104.9 224.2,106.4 225.1,107.9 226.0,109.4 226.8,110.9 227.7,112.4 228.6,113.9 229.4,115.3 230.3,116.8 231.2,118.2 232.0,119.6 232.9,121.0 233.8,122.5 234.6,123.9 235.5,125.2 236.4,126.6 237.2,128.0 238.1,129.4 238.9,130.7 239.8,132.1 240.7,133.4 241.5,134.7 242.4,136.0 243.3,137.3 244.1,138.6 245.0,139.9 245.9,141.2 246.7,142.5 247.6,143.7 248.5,145.0 249.3,146.2 250.2,147.5 251.1,148.7 251.9,149.9 252.8,151.1 253.7,152.3 254.5,153.5 255.4,154.7 256.2,155.9 257.1,157.0 258.0,158.2 258.8,159.3 259.7,160.5 260.6,161.6 261.4,162.8 262.3,163.9 263.2,165.0 264.0,166.1 264.9,167.2 265.8,168.3 266.6,169.4 267.5,170.4 268.4,171.5 269.2,172.6 270.1,173.6 271.0,174.7 271.8,175.7 272.7,176.7 273.6,177.8 274.4,178.8 275.3,179.8 276.1,180.8 277.0,181.8 277.9,182.8 278.7,183.8 279.6,184.7 280.5,185.7 281.3,186.7 282.2,187.6 283.1,188.6 283.9,189.5 284.8,190.4 285.7,191.4 286.5,192.3 287.4,193.2 288.3,194.1 289.1,195.0 290.0,195.9 290.9,196.8 291.7,197.7 292.6,198.6 293.4,199.5 294.3,200.3 295.2,201.2 296.0,202.0 296.9,202.9 297.8,203.7 298.6,204.6 299.5,205.4 300.4,206.2 301.2,207.0 302.1,207.9 303.0,208.7 303.8,209.5 304.7,210.3 305.6,211.1 306.4,211.9 307.3,212.6 308.2,213.4 309.0,214.2 309.9,214.9 310.7,215.7 311.6,216.5 312.5,217.2 313.3,218.0 314.2,218.7 315.1,219.4 315.9,220.2 316.8,220.9 317.7,221.6 318.5,222.3 319.4,223.0 320.3,223.7 321.1,224.4 322.0,225.1 322.9,225.8 323.7,226.5 324.6,227.2 325.4,227.9 326.3,228.5 327.2,229.2 328.0,229.9 328.9,230.5 329.8,231.2 330.6,231.8 331.5,232.5 332.4,233.1 333.2,233.7 334.1,234.4 335.0,235.0 335.8,235.6 336.7,236.2 337.6,236.8 338.4,237.4 339.3,238.1 340.2,238.7 341.0,239.2 341.9,239.8 342.8,240.4 343.6,241.0 344.5,241.6 345.3,242.2 346.2,242.7 347.1,243.3 347.9,243.9 348.8,244.4 349.7,245.0 350.5,245.5 351.4,246.1 352.3,246.6 353.1,247.2 354.0,247.7 354.9,248.3 355.7,248.8 356.6,249.3 357.5,249.8 358.3,250.3 359.2,250.9 360.1,251.4 360.9,251.9 361.8,252.4 362.6,252.9 363.5,253.4 364.4,253.9 365.2,254.4 366.1,254.9 367.0,255.3 367.8,255.8 368.7,256.3 369.6,256.8 370.4,257.3 371.3,257.7 372.2,258.2 373.0,258.6 373.9,259.1 374.8,259.6 375.6,260.0 376.5,260.5 377.3,260.9 378.2,261.4 379.1,261.8 379.9,262.2 380.8,262.7 381.7,263.1 382.5,263.5 383.4,263.9 384.3,264.4 385.1,264.8 386.0,265.2\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><rect x=\"343.4\" y=\"221.1\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"351.4\" y=\"234.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">g</text><rect x=\"121.2\" y=\"331.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"126.5\" y=\"341.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><rect x=\"207.7\" y=\"331.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"213.0\" y=\"341.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><rect x=\"294.2\" y=\"331.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"299.5\" y=\"341.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><rect x=\"380.7\" y=\"331.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"386.0\" y=\"341.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><rect x=\"25.4\" y=\"289.1\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"34.0\" y=\"299.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><rect x=\"25.4\" y=\"259.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"34.0\" y=\"269.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><rect x=\"25.4\" y=\"229.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"34.0\" y=\"239.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><rect x=\"25.4\" y=\"199.4\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"34.0\" y=\"209.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><rect x=\"25.4\" y=\"169.5\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"34.0\" y=\"179.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><rect x=\"25.4\" y=\"139.6\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"34.0\" y=\"149.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><rect x=\"25.4\" y=\"109.7\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"34.0\" y=\"119.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">7</text><rect x=\"25.4\" y=\"79.8\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"34.0\" y=\"89.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">8</text><rect x=\"25.4\" y=\"49.9\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"34.0\" y=\"59.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">9</text><rect x=\"18.8\" y=\"20.0\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"34.0\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">10</text><text x=\"398.0\" y=\"330.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"47.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text></svg></span><p>För vilket \\(x\\) skär graferna varandra? Kontrollera med räkning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2^x=32\\cdot0{,}5^x=\\frac{32}{2^x}\\]</div></li><li><div class=\"facit-matte\">\\[2^{2x}=32=2^5\\Rightarrow x=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2{,}5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt funktionerna lika och skriv \\(0{,}5^x\\) som \\(\\frac1{2^x}\\)</p><div class=\"facit-matte\">\\[2^x=32\\cdot0{,}5^x=\\frac{32}{2^x}\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med \\(2^x\\) och jämför exponenterna</p><div class=\"facit-matte\">\\[2^{2x}=32=2^5\\Rightarrow x=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2{,}5\\)</p></div>",
     "familj": "Jämföra och tolka exponentialgrafer",
     "formaga": [
       "procedur",
@@ -44638,7 +44638,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "formel ur två punkter på grafen",
     "t": "<p>Grafen visar en exponentialfunktion \\(f(x)=C\\cdot a^x\\) som går genom de markerade punkterna \\((1,\\ 6)\\) och \\((3,\\ 24)\\).</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"300\" viewBox=\"0 0 440 300\" role=\"img\" aria-label=\"En växande exponentialkurva genom de markerade punkterna (1, 6) och (3, 24).\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"147.5\" y1=\"30\" x2=\"147.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"235.0\" y1=\"30\" x2=\"235.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"322.5\" y1=\"30\" x2=\"322.5\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"410.0\" y1=\"30\" x2=\"410.0\" y2=\"255\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"410\" y2=\"255.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"232.5\" x2=\"410\" y2=\"232.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"210.0\" x2=\"410\" y2=\"210.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"187.5\" x2=\"410\" y2=\"187.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"165.0\" x2=\"410\" y2=\"165.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"142.5\" x2=\"410\" y2=\"142.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"120.0\" x2=\"410\" y2=\"120.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"97.5\" x2=\"410\" y2=\"97.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"75.0\" x2=\"410\" y2=\"75.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"52.5\" x2=\"410\" y2=\"52.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"410\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"255.0\" x2=\"418\" y2=\"255.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"255\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">y</text><line x1=\"147.5\" y1=\"251.0\" x2=\"147.5\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"147.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"235.0\" y1=\"251.0\" x2=\"235.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"235.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"322.5\" y1=\"251.0\" x2=\"322.5\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"322.5\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"410.0\" y1=\"251.0\" x2=\"410.0\" y2=\"259.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"410.0\" y=\"275.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><line x1=\"56.0\" y1=\"232.5\" x2=\"64.0\" y2=\"232.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"237.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><line x1=\"56.0\" y1=\"210.0\" x2=\"64.0\" y2=\"210.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"215.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><line x1=\"56.0\" y1=\"187.5\" x2=\"64.0\" y2=\"187.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"192.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">15</text><line x1=\"56.0\" y1=\"165.0\" x2=\"64.0\" y2=\"165.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">20</text><line x1=\"56.0\" y1=\"142.5\" x2=\"64.0\" y2=\"142.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"147.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">25</text><line x1=\"56.0\" y1=\"120.0\" x2=\"64.0\" y2=\"120.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"125.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"56.0\" y1=\"97.5\" x2=\"64.0\" y2=\"97.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"102.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">35</text><line x1=\"56.0\" y1=\"75.0\" x2=\"64.0\" y2=\"75.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">40</text><line x1=\"56.0\" y1=\"52.5\" x2=\"64.0\" y2=\"52.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"57.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">45</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">50</text><polyline points=\"60.0,241.5 60.9,241.4 61.8,241.3 62.6,241.2 63.5,241.1 64.4,241.0 65.2,240.9 66.1,240.8 67.0,240.7 67.9,240.6 68.8,240.5 69.6,240.4 70.5,240.3 71.4,240.2 72.2,240.1 73.1,240.0 74.0,239.9 74.9,239.8 75.8,239.7 76.6,239.6 77.5,239.5 78.4,239.4 79.2,239.3 80.1,239.2 81.0,239.1 81.9,238.9 82.8,238.8 83.6,238.7 84.5,238.6 85.4,238.5 86.2,238.4 87.1,238.3 88.0,238.1 88.9,238.0 89.8,237.9 90.6,237.8 91.5,237.7 92.4,237.6 93.2,237.4 94.1,237.3 95.0,237.2 95.9,237.1 96.8,236.9 97.6,236.8 98.5,236.7 99.4,236.6 100.2,236.4 101.1,236.3 102.0,236.2 102.9,236.0 103.8,235.9 104.6,235.8 105.5,235.6 106.4,235.5 107.2,235.4 108.1,235.2 109.0,235.1 109.9,235.0 110.8,234.8 111.6,234.7 112.5,234.5 113.4,234.4 114.2,234.3 115.1,234.1 116.0,234.0 116.9,233.8 117.8,233.7 118.6,233.5 119.5,233.4 120.4,233.2 121.2,233.1 122.1,232.9 123.0,232.8 123.9,232.6 124.8,232.5 125.6,232.3 126.5,232.1 127.4,232.0 128.2,231.8 129.1,231.7 130.0,231.5 130.9,231.3 131.8,231.2 132.6,231.0 133.5,230.8 134.4,230.7 135.2,230.5 136.1,230.3 137.0,230.2 137.9,230.0 138.8,229.8 139.6,229.6 140.5,229.5 141.4,229.3 142.2,229.1 143.1,228.9 144.0,228.7 144.9,228.6 145.8,228.4 146.6,228.2 147.5,228.0 148.4,227.8 149.2,227.6 150.1,227.4 151.0,227.2 151.9,227.0 152.8,226.9 153.6,226.7 154.5,226.5 155.4,226.3 156.2,226.1 157.1,225.9 158.0,225.7 158.9,225.5 159.8,225.2 160.6,225.0 161.5,224.8 162.4,224.6 163.2,224.4 164.1,224.2 165.0,224.0 165.9,223.8 166.8,223.6 167.6,223.3 168.5,223.1 169.4,222.9 170.2,222.7 171.1,222.4 172.0,222.2 172.9,222.0 173.8,221.8 174.6,221.5 175.5,221.3 176.4,221.1 177.2,220.8 178.1,220.6 179.0,220.3 179.9,220.1 180.8,219.9 181.6,219.6 182.5,219.4 183.4,219.1 184.2,218.9 185.1,218.6 186.0,218.4 186.9,218.1 187.8,217.9 188.6,217.6 189.5,217.3 190.4,217.1 191.2,216.8 192.1,216.6 193.0,216.3 193.9,216.0 194.8,215.7 195.6,215.5 196.5,215.2 197.4,214.9 198.2,214.6 199.1,214.4 200.0,214.1 200.9,213.8 201.8,213.5 202.6,213.2 203.5,212.9 204.4,212.6 205.2,212.3 206.1,212.0 207.0,211.7 207.9,211.4 208.8,211.1 209.6,210.8 210.5,210.5 211.4,210.2 212.2,209.9 213.1,209.6 214.0,209.3 214.9,209.0 215.8,208.6 216.6,208.3 217.5,208.0 218.4,207.7 219.2,207.3 220.1,207.0 221.0,206.7 221.9,206.3 222.8,206.0 223.6,205.7 224.5,205.3 225.4,205.0 226.2,204.6 227.1,204.3 228.0,203.9 228.9,203.6 229.8,203.2 230.6,202.8 231.5,202.5 232.4,202.1 233.2,201.7 234.1,201.4 235.0,201.0 235.9,200.6 236.8,200.2 237.6,199.9 238.5,199.5 239.4,199.1 240.2,198.7 241.1,198.3 242.0,197.9 242.9,197.5 243.8,197.1 244.6,196.7 245.5,196.3 246.4,195.9 247.2,195.5 248.1,195.1 249.0,194.7 249.9,194.2 250.8,193.8 251.6,193.4 252.5,193.0 253.4,192.5 254.3,192.1 255.1,191.7 256.0,191.2 256.9,190.8 257.8,190.3 258.6,189.9 259.5,189.4 260.4,189.0 261.2,188.5 262.1,188.1 263.0,187.6 263.9,187.1 264.8,186.6 265.6,186.2 266.5,185.7 267.4,185.2 268.2,184.7 269.1,184.2 270.0,183.7 270.9,183.3 271.8,182.8 272.6,182.2 273.5,181.7 274.4,181.2 275.2,180.7 276.1,180.2 277.0,179.7 277.9,179.2 278.8,178.6 279.6,178.1 280.5,177.6 281.4,177.0 282.2,176.5 283.1,175.9 284.0,175.4 284.9,174.8 285.8,174.3 286.6,173.7 287.5,173.2 288.4,172.6 289.2,172.0 290.1,171.4 291.0,170.9 291.9,170.3 292.8,169.7 293.6,169.1 294.5,168.5 295.4,167.9 296.2,167.3 297.1,166.7 298.0,166.1 298.9,165.4 299.8,164.8 300.6,164.2 301.5,163.6 302.4,162.9 303.2,162.3 304.1,161.6 305.0,161.0 305.9,160.3 306.8,159.7 307.6,159.0 308.5,158.3 309.4,157.7 310.2,157.0 311.1,156.3 312.0,155.6 312.9,154.9 313.8,154.2 314.6,153.5 315.5,152.8 316.4,152.1 317.2,151.4 318.1,150.7 319.0,150.0 319.9,149.2 320.8,148.5 321.6,147.7 322.5,147.0 323.4,146.2 324.2,145.5 325.1,144.7 326.0,144.0 326.9,143.2 327.8,142.4 328.6,141.6 329.5,140.8 330.4,140.0 331.2,139.2 332.1,138.4 333.0,137.6 333.9,136.8 334.8,136.0 335.6,135.2 336.5,134.3 337.4,133.5 338.2,132.6 339.1,131.8 340.0,130.9 340.9,130.1 341.8,129.2 342.6,128.3 343.5,127.5 344.4,126.6 345.2,125.7 346.1,124.8 347.0,123.9 347.9,123.0 348.8,122.0 349.6,121.1 350.5,120.2 351.4,119.2 352.2,118.3 353.1,117.3 354.0,116.4 354.9,115.4 355.8,114.5 356.6,113.5 357.5,112.5 358.4,111.5 359.2,110.5 360.1,109.5 361.0,108.5 361.9,107.5 362.8,106.4 363.6,105.4 364.5,104.4 365.4,103.3 366.2,102.3 367.1,101.2 368.0,100.1 368.9,99.1 369.8,98.0 370.6,96.9 371.5,95.8 372.4,94.7 373.2,93.6 374.1,92.4 375.0,91.3 375.9,90.2 376.8,89.0 377.6,87.9 378.5,86.7 379.4,85.5 380.2,84.4 381.1,83.2 382.0,82.0 382.9,80.8 383.8,79.6 384.6,78.3 385.5,77.1 386.4,75.9 387.2,74.6 388.1,73.4 389.0,72.1 389.9,70.8 390.8,69.5 391.6,68.3 392.5,67.0 393.4,65.7 394.2,64.3 395.1,63.0 396.0,61.7 396.9,60.3 397.8,59.0 398.6,57.6 399.5,56.2 400.4,54.9 401.2,53.5 402.1,52.1 403.0,50.7 403.9,49.2 404.8,47.8 405.6,46.4 406.5,44.9 407.4,43.4 408.2,42.0 409.1,40.5 410.0,39.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"147.5\" cy=\"228.0\" r=\"5\" fill=\"#c2410c\"/><circle cx=\"322.5\" cy=\"147.0\" r=\"5\" fill=\"#c2410c\"/><text x=\"410.0\" y=\"293.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\">x</text></svg></div><p>Bestäm funktionens formel.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\frac{f(3)}{f(1)}=a^2=\\frac{24}{6}=4\\Rightarrow a=2\\]</div></li><li><div class=\"facit-matte\">\\[C\\cdot2=6\\Rightarrow C=3\\]</div></li><li><div class=\"facit-matte\">\\[f(x)=3\\cdot2^x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=3\\cdot2^x\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela funktionsvärdena så att C försvinner</p><div class=\"facit-matte\">\\[\\frac{f(3)}{f(1)}=a^2=\\frac{24}{6}=4\\Rightarrow a=2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(a=2\\) och punkten \\((1,\\ 6)\\)</p><div class=\"facit-matte\">\\[C\\cdot2=6\\Rightarrow C=3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(C=3\\) och \\(a=2\\)</p><div class=\"facit-matte\">\\[f(x)=3\\cdot2^x\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=3\\cdot2^x\\)</p></div>",
     "familj": "Avläsa exponentialgrafer",
     "formaga": [
       "procedur",
@@ -44669,7 +44669,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "startvärde ur två punkter",
     "t": "<p>En exponentialfunktion \\(f(x)=C\\cdot a^x\\) har \\(f(2)=50\\) och \\(f(4)=12{,}5\\). Bestäm \\(f(0)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a^2=\\frac{12{,}5}{50}=0{,}25\\Rightarrow a=0{,}5\\]</div></li><li><div class=\"facit-matte\">\\[C\\cdot0{,}5^2=50\\Rightarrow C=200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(0)=200\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela funktionsvärdena: två steg i x ger faktorn \\(a^2\\)</p><div class=\"facit-matte\">\\[a^2=\\frac{12{,}5}{50}=0{,}25\\Rightarrow a=0{,}5\\]</div></li><li><p class=\"facit-rubrik\">Gå två steg bakåt från \\(f(2)=50\\) för att få C</p><div class=\"facit-matte\">\\[C\\cdot0{,}5^2=50\\Rightarrow C=200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(0)=200\\)</p></div>",
     "familj": "Avläsa exponentialgrafer",
     "formaga": [
       "procedur",
@@ -44700,7 +44700,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "vilken graf går om",
     "t": "<p>Graferna till \\(f(x)=100\\cdot1{,}1^x\\) och \\(g(x)=50\\cdot1{,}2^x\\) ritas för \\(x\\ge0\\). Vilket påstående stämmer?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>g har större förändringsfaktor, 1,2 mot 1,1. Den växer snabbare och går till slut om f, trots det lägre startvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> g går till slut om f.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför startvärden och förändringsfaktorer</p><p>g har större förändringsfaktor, 1,2 mot 1,1. Den växer snabbare och går till slut om f, trots det lägre startvärdet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> g går till slut om f.</p></div>",
     "familj": "Jämföra och tolka exponentialgrafer",
     "formaga": [
       "begrepp",
@@ -44749,7 +44749,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "kvadrera enkel rot",
     "t": "<p>Lös ekvationen \\(\\sqrt x=9\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=9^2=81\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=81\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[x=9^2=81\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=81\\)</p></div>",
     "familj": "Isolera roten och kvadrera",
     "formaga": [
       "procedur"
@@ -44777,7 +44777,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "rot av x minus tal",
     "t": "<p>Lös ekvationen \\(\\sqrt{x-3}=5\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x-3=25\\]</div></li><li><div class=\"facit-matte\">\\[x=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=28\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[x-3=25\\]</div></li><li><p class=\"facit-rubrik\">Lös ut x</p><div class=\"facit-matte\">\\[x=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=28\\)</p></div>",
     "familj": "Isolera roten och kvadrera",
     "formaga": [
       "procedur"
@@ -44805,7 +44805,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "rot av 4x",
     "t": "<p>Lös ekvationen \\(\\sqrt{5x}=10\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[5x=100\\]</div></li><li><div class=\"facit-matte\">\\[x=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=20\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[5x=100\\]</div></li><li><p class=\"facit-rubrik\">Dela med 5</p><div class=\"facit-matte\">\\[x=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=20\\)</p></div>",
     "familj": "Isolera roten och kvadrera",
     "formaga": [
       "procedur"
@@ -44833,7 +44833,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "pröva alternativ",
     "t": "<p>Vilket värde på \\(x\\) är en lösning till \\(\\sqrt{x+1}=3\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{8+1}=\\sqrt9=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Pröva \\(x=8\\) i ekvationen</p><div class=\"facit-matte\">\\[\\sqrt{8+1}=\\sqrt9=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=8\\)</p></div>",
     "familj": "Falska rötter och kontroll",
     "formaga": [
       "begrepp"
@@ -44881,7 +44881,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "kontrollera en lösning",
     "t": "<p>Är \\(x=7\\) en lösning till \\(\\sqrt{x+2}=x-4\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[VL=\\sqrt{9}=3,\\quad HL=7-4=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna vänster och höger led var för sig med \\(x=7\\)</p><div class=\"facit-matte\">\\[VL=\\sqrt{9}=3,\\quad HL=7-4=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja</p></div>",
     "familj": "Falska rötter och kontroll",
     "formaga": [
       "begrepp"
@@ -44919,7 +44919,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "rot med koefficient",
     "t": "<p>Lös ekvationen \\(\\sqrt{3x-2}=7\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x-2=49\\]</div></li><li><div class=\"facit-matte\">\\[3x=51\\Rightarrow x=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=17\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[3x-2=49\\]</div></li><li><p class=\"facit-rubrik\">Lös förstagradsekvationen</p><div class=\"facit-matte\">\\[3x=51\\Rightarrow x=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=17\\)</p></div>",
     "familj": "Isolera roten och kvadrera",
     "formaga": [
       "procedur"
@@ -44947,7 +44947,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "flytta talet före kvadrering",
     "t": "<p>Lös ekvationen \\(\\sqrt{x+5}+2=6\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[\\sqrt{x+5}=4\\]</div></li><li><div class=\"facit-matte\">\\[x+5=16\\Rightarrow x=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=11\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Flytta över 2 så att roten står ensam</p><div class=\"facit-matte\">\\[\\sqrt{x+5}=4\\]</div></li><li><p class=\"facit-rubrik\">Kvadrera och lös ut x</p><div class=\"facit-matte\">\\[x+5=16\\Rightarrow x=11\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=11\\)</p></div>",
     "familj": "Isolera roten och kvadrera",
     "formaga": [
       "procedur"
@@ -44975,7 +44975,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "x² under roten ger två lösningar",
     "t": "<p>Lös ekvationen \\(\\sqrt{x^2-16}=3\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2-16=9\\]</div></li><li><div class=\"facit-matte\">\\[x^2=25\\Rightarrow x=\\pm5\\]</div></li><li><p>Båda stämmer: \\(\\sqrt{25-16}=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[x^2-16=9\\]</div></li><li><p class=\"facit-rubrik\">Lös ut \\(x^2\\) och dra roten ur</p><div class=\"facit-matte\">\\[x^2=25\\Rightarrow x=\\pm5\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera båda lösningarna</p><p>Båda stämmer: \\(\\sqrt{25-16}=3\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm5\\)</p></div>",
     "familj": "Isolera roten och kvadrera",
     "formaga": [
       "procedur"
@@ -45017,7 +45017,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "falsk rot när x är lika med rot plus tal",
     "t": "<p>Lös ekvationen \\(\\sqrt x=x-20\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=(x-20)^2=x^2-40x+400\\]</div></li><li><div class=\"facit-matte\">\\[x^2-41x+400=0\\Rightarrow x=25\\ \\text{eller}\\ x=16\\]</div></li><li><p>Kontroll: \\(x=25\\) ger \\(5=5\\). \\(x=16\\) ger \\(4=-4\\), en falsk rot.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=25\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden; högerledet med kvadreringsregeln</p><div class=\"facit-matte\">\\[x=(x-20)^2=x^2-40x+400\\]</div></li><li><p class=\"facit-rubrik\">Lös andragradsekvationen</p><div class=\"facit-matte\">\\[\\begin{gathered}x^2-41x+400=0\\\\\\Rightarrow x=25\\ \\text{eller}\\ x=16\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera båda lösningarna; kvadreringen kan ge falska rötter</p><p>Kontroll: \\(x=25\\) ger \\(5=5\\). \\(x=16\\) ger \\(4=-4\\), en falsk rot.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=25\\)</p></div>",
     "familj": "Falska rötter och kontroll",
     "formaga": [
       "procedur",
@@ -45046,7 +45046,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "höjd ur hastighet",
     "t": "<p>Ett föremål som faller från höjden \\(h\\) meter får farten \\(v=\\sqrt{2\\cdot9{,}82\\cdot h}\\) m/s. Från vilken höjd har det fallit om farten är 14 m/s? (Svara i m med en decimal.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[14^2=2\\cdot9{,}82\\cdot h\\]</div></li><li><div class=\"facit-matte\">\\[h=\\frac{196}{19{,}64}\\approx10{,}0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 10,0 m</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadrera båda leden</p><div class=\"facit-matte\">\\[14^2=2\\cdot9{,}82\\cdot h\\]</div></li><li><p class=\"facit-rubrik\">Lös ut h</p><div class=\"facit-matte\">\\[h=\\frac{196}{19{,}64}\\approx10{,}0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 10,0 m</p></div>",
     "familj": "Isolera roten och kvadrera",
     "formaga": [
       "procedur",
@@ -45078,7 +45078,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "parallella linjer med olika m",
     "t": "<p>Linjerna i ett ekvationssystem har samma riktningskoefficient men olika m-värden. Hur många lösningar har systemet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Linjerna är parallella och skär aldrig varandra. Systemet saknar lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ingen</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Samma k men olika m ger parallella linjer</p><p>Linjerna är parallella och skär aldrig varandra. Systemet saknar lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ingen</p></div>",
     "familj": "Klassificera antal lösningar",
     "formaga": [
       "begrepp"
@@ -45123,7 +45123,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "samma linje två gånger",
     "t": "<p>Båda ekvationerna i ett ekvationssystem beskriver samma räta linje. Hur många lösningar har systemet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Alla punkter på linjen uppfyller båda ekvationerna. Systemet har oändligt många lösningar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Oändligt många</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Två ekvationer för samma linje har alla linjens punkter gemensamma</p><p>Alla punkter på linjen uppfyller båda ekvationerna. Systemet har oändligt många lösningar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Oändligt många</p></div>",
     "familj": "Klassificera antal lösningar",
     "formaga": [
       "begrepp"
@@ -45168,7 +45168,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "m för samma linje",
     "t": "<p>Vilket värde på \\(m\\) gör att \\(y=3x+m\\) och \\(y=3x-2\\) beskriver samma linje?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Samma k-värde. För att linjerna ska sammanfalla måste även m-värdena vara lika.</p></li><li><div class=\"facit-matte\">\\[m=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(m=-2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Linjerna har redan samma lutning</p><p>Samma k-värde. För att linjerna ska sammanfalla måste även m-värdena vara lika.</p></li><li><p class=\"facit-rubrik\">Då måste också m-värdena vara lika</p><div class=\"facit-matte\">\\[m=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(m=-2\\)</p></div>",
     "familj": "Parameterfall i ekvationssystem",
     "formaga": [
       "begrepp"
@@ -45198,7 +45198,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "k för parallella linjer",
     "t": "<p>Bestäm \\(k\\) så att systemet \\(y=kx+1\\) och \\(y=-3x+5\\) saknar lösning.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Systemet saknar lösning när linjerna är parallella med olika m-värden.</p></li><li><div class=\"facit-matte\">\\[k=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=-3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ingen lösning betyder parallella linjer som inte sammanfaller</p><p>Systemet saknar lösning när linjerna är parallella med olika m-värden.</p></li><li><p class=\"facit-rubrik\">Samma k som \\(y=-3x+5\\); m-värdena 1 och 5 är olika</p><div class=\"facit-matte\">\\[k=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=-3\\)</p></div>",
     "familj": "Parameterfall i ekvationssystem",
     "formaga": [
       "begrepp"
@@ -45228,7 +45228,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "antal lösningar ur graf",
     "t": "<p>Figuren visar de två linjerna i ett ekvationssystem.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"360\" viewBox=\"0 0 420 360\" role=\"img\" aria-label=\"Två parallella linjer, y = x + 1 och y = x − 2.\"><title>Två parallella linjer, y = x + 1 och y = x − 2.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"26\" x2=\"40.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"83.2\" y1=\"26\" x2=\"83.2\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"126.5\" y1=\"26\" x2=\"126.5\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"169.8\" y1=\"26\" x2=\"169.8\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"213.0\" y1=\"26\" x2=\"213.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"256.2\" y1=\"26\" x2=\"256.2\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"299.5\" y1=\"26\" x2=\"299.5\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"342.8\" y1=\"26\" x2=\"342.8\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"386.0\" y1=\"26\" x2=\"386.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"325.0\" x2=\"386\" y2=\"325.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"291.8\" x2=\"386\" y2=\"291.8\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"258.6\" x2=\"386\" y2=\"258.6\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"225.3\" x2=\"386\" y2=\"225.3\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"192.1\" x2=\"386\" y2=\"192.1\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"158.9\" x2=\"386\" y2=\"158.9\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"125.7\" x2=\"386\" y2=\"125.7\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"92.4\" x2=\"386\" y2=\"92.4\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"59.2\" x2=\"386\" y2=\"59.2\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"26.0\" x2=\"386\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"225.3\" x2=\"394\" y2=\"225.3\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"126.5\" y1=\"325\" x2=\"126.5\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"40.0\" y1=\"258.6\" x2=\"342.8\" y2=\"26.0\" stroke=\"#216d87\" stroke-width=\"2.6\"/><rect x=\"195.7\" y=\"49.5\" width=\"80.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"272.2\" y=\"62.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">y = x + 1</text><line x1=\"83.2\" y1=\"325.0\" x2=\"386.0\" y2=\"92.4\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><rect x=\"230.3\" y=\"122.6\" width=\"80.5\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"306.8\" y=\"135.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">y = x − 2</text><rect x=\"31.4\" y=\"231.3\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"40.0\" y=\"241.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−2</text><rect x=\"74.7\" y=\"231.3\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"83.2\" y=\"241.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><rect x=\"164.4\" y=\"231.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"169.8\" y=\"241.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><rect x=\"207.7\" y=\"231.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"213.0\" y=\"241.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><rect x=\"250.9\" y=\"231.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"256.2\" y=\"241.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><rect x=\"294.2\" y=\"231.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"299.5\" y=\"241.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><rect x=\"337.4\" y=\"231.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"342.8\" y=\"241.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><rect x=\"380.7\" y=\"231.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"386.0\" y=\"241.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><rect x=\"105.3\" y=\"319.0\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"120.5\" y=\"329.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−3</text><rect x=\"105.3\" y=\"285.8\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"120.5\" y=\"295.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−2</text><rect x=\"105.3\" y=\"252.6\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"120.5\" y=\"262.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><rect x=\"111.9\" y=\"186.1\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"120.5\" y=\"196.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><rect x=\"111.9\" y=\"152.9\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"120.5\" y=\"162.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><rect x=\"111.9\" y=\"119.7\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"120.5\" y=\"129.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><rect x=\"111.9\" y=\"86.4\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"120.5\" y=\"96.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><rect x=\"111.9\" y=\"53.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"120.5\" y=\"63.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><rect x=\"111.9\" y=\"20.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"120.5\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><text x=\"398.0\" y=\"230.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"133.5\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text></svg></span><p>Hur många lösningar har systemet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Linjerna är parallella (båda har \\(k=1\\)) och skär aldrig varandra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ingen lösning</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Linjerna har samma lutning men skär y-axeln på olika ställen</p><p>Linjerna är parallella (båda har \\(k=1\\)) och skär aldrig varandra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ingen lösning</p></div>",
     "familj": "Tolka i grafer och vardagssituationer",
     "formaga": [
       "begrepp"
@@ -45273,7 +45273,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "parameter för oändligt många lösningar",
     "t": "<p>Bestäm \\(a\\) så att systemet \\[\\begin{cases}ax+2y=10\\\\5x+y=5\\end{cases}\\] har oändligt många lösningar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera den andra ekvationen med 2: \\(10x+2y=10\\).</p></li><li><p>Ekvationerna blir lika om \\(a=10\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=10\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gör y-koefficienterna lika genom att multiplicera den andra ekvationen med 2</p><p>Multiplicera den andra ekvationen med 2: \\(10x+2y=10\\).</p></li><li><p class=\"facit-rubrik\">Ekvationerna blir identiska när även x-koefficienterna är lika</p><p>Ekvationerna blir lika om \\(a=10\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=10\\)</p></div>",
     "familj": "Parameterfall i ekvationssystem",
     "formaga": [
       "procedur",
@@ -45304,7 +45304,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "välj ekvation som ger exakt en lösning",
     "t": "<p>Den ena ekvationen i ett system är \\(y=x+2\\). Vilken andra ekvation ger exakt en lösning?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Exakt en lösning kräver olika riktningskoefficienter. Bara \\(y=2x+2\\) har ett annat k.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Exakt en skärningspunkt kräver olika riktningskoefficienter</p><p>Exakt en lösning kräver olika riktningskoefficienter. Bara \\(y=2x+2\\) har ett annat k.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+2\\)</p></div>",
     "familj": "Klassificera antal lösningar",
     "formaga": [
       "begrepp"
@@ -45354,7 +45354,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "taxi som aldrig kostar lika",
     "t": "<p>Taxi A tar 50 kr i startavgift och 10 kr per km. Taxi B tar 80 kr i startavgift och också 10 kr per km. För vilken sträcka kostar de lika mycket?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[50+10x=80+10x\\]</div></li><li><div class=\"facit-matte\">\\[50=80\\]</div></li><li><p>Ekvationen saknar lösning. Linjerna är parallella, och B kostar alltid 30 kr mer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> För ingen sträcka</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt kostnaderna lika</p><div class=\"facit-matte\">\\[50+10x=80+10x\\]</div></li><li><p class=\"facit-rubrik\">\\(10x\\) finns i båda leden och tar ut varandra</p><div class=\"facit-matte\">\\[50=80\\]</div></li><li><p class=\"facit-rubrik\">Ett falskt påstående betyder att ekvationen saknar lösning</p><p>Ekvationen saknar lösning. Linjerna är parallella, och B kostar alltid 30 kr mer.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> För ingen sträcka</p></div>",
     "familj": "Tolka i grafer och vardagssituationer",
     "formaga": [
       "modellering",
@@ -45405,7 +45405,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "två konstanter för oändligt många lösningar",
     "t": "<p>Bestäm \\(a\\) och \\(b\\) så att systemet \\[\\begin{cases}2x+ay=6\\\\bx+6y=18\\end{cases}\\] har oändligt många lösningar.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Högerledet 18 är 3 gånger 6. Multiplicera den första ekvationen med 3: \\(6x+3ay=18\\).</p></li><li><div class=\"facit-matte\">\\[b=6,\\quad 3a=6\\Rightarrow a=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2\\), \\(b=6\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Multiplicera den första ekvationen med 3 så att högerleden blir lika</p><p>Högerledet 18 är 3 gånger 6. Multiplicera den första ekvationen med 3: \\(6x+3ay=18\\).</p></li><li><p class=\"facit-rubrik\">Jämför koefficienterna framför x och y</p><div class=\"facit-matte\">\\[b=6,\\quad 3a=6\\Rightarrow a=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2\\), \\(b=6\\)</p></div>",
     "familj": "Parameterfall i ekvationssystem",
     "formaga": [
       "procedur",
@@ -45453,7 +45453,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "parameter för ingen lösning",
     "t": "<p>För vilket värde på \\(a\\) saknar systemet lösning? \\[\\begin{cases}x+ay=3\\\\2x+10y=5\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela den andra ekvationen med 2: \\(x+5y=2{,}5\\).</p></li><li><p>Om \\(a=5\\) har ekvationerna samma vänsterled men olika högerled (3 och 2,5). Då saknas lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Dela den andra ekvationen med 2 så att x-koefficienterna blir lika</p><p>Dela den andra ekvationen med 2: \\(x+5y=2{,}5\\).</p></li><li><p class=\"facit-rubrik\">Samma vänsterled men olika högerled ger ingen lösning</p><p>Om \\(a=5\\) har ekvationerna samma vänsterled men olika högerled (3 och 2,5). Då saknas lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\)</p></div>",
     "familj": "Parameterfall i ekvationssystem",
     "formaga": [
       "procedur",
@@ -45484,7 +45484,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "parameter i x-koefficienten",
     "t": "<p>För vilket värde på \\(a\\) har systemet oändligt många lösningar? \\[\\begin{cases}(a-1)x+y=2\\\\3x+y=2\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>y-koefficienterna och högerleden är redan lika. Ekvationerna blir identiska om \\(a-1=3\\).</p></li><li><div class=\"facit-matte\">\\[a=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">y-koefficienterna och högerleden är redan lika; jämför x-koefficienterna</p><p>y-koefficienterna och högerleden är redan lika. Ekvationerna blir identiska om \\(a-1=3\\).</p></li><li><p class=\"facit-rubrik\">Lös \\(a-1=3\\)</p><div class=\"facit-matte\">\\[a=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\)</p></div>",
     "familj": "Parameterfall i ekvationssystem",
     "formaga": [
       "procedur",
@@ -45515,7 +45515,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "skärning mellan rutlinjer",
     "t": "<p>Figuren visar linjerna \\(y=0{,}5x+1\\) och \\(y=-x+5{,}5\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"360\" viewBox=\"0 0 420 360\" role=\"img\" aria-label=\"Linjerna y = 0,5x + 1 och y = −x + 5,5 som skär varandra i punkten (3; 2,5).\"><title>Linjerna y = 0,5x + 1 och y = −x + 5,5 som skär varandra i punkten (3; 2,5).</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"26\" x2=\"40.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"89.4\" y1=\"26\" x2=\"89.4\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"138.9\" y1=\"26\" x2=\"138.9\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"188.3\" y1=\"26\" x2=\"188.3\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"237.7\" y1=\"26\" x2=\"237.7\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"287.1\" y1=\"26\" x2=\"287.1\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"336.6\" y1=\"26\" x2=\"336.6\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"386.0\" y1=\"26\" x2=\"386.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"325.0\" x2=\"386\" y2=\"325.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"282.3\" x2=\"386\" y2=\"282.3\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"239.6\" x2=\"386\" y2=\"239.6\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"196.9\" x2=\"386\" y2=\"196.9\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"154.1\" x2=\"386\" y2=\"154.1\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"111.4\" x2=\"386\" y2=\"111.4\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"68.7\" x2=\"386\" y2=\"68.7\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"26.0\" x2=\"386\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"282.3\" x2=\"394\" y2=\"282.3\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"89.4\" y1=\"325\" x2=\"89.4\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"40.0\" y1=\"260.9\" x2=\"386.0\" y2=\"111.4\" stroke=\"#216d87\" stroke-width=\"2.6\"/><rect x=\"255.5\" y=\"97.0\" width=\"104.7\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"356.2\" y=\"110.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">y = 0,5x + 1</text><line x1=\"64.7\" y1=\"26.0\" x2=\"386.0\" y2=\"303.6\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><rect x=\"87.5\" y=\"148.3\" width=\"104.7\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"188.2\" y=\"161.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">y = −x + 5,5</text><rect x=\"31.4\" y=\"288.3\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"40.0\" y=\"298.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><rect x=\"133.6\" y=\"288.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"138.9\" y=\"298.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><rect x=\"183.0\" y=\"288.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"188.3\" y=\"298.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><rect x=\"232.4\" y=\"288.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"237.7\" y=\"298.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><rect x=\"281.8\" y=\"288.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"287.1\" y=\"298.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><rect x=\"331.3\" y=\"288.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"336.6\" y=\"298.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><rect x=\"380.7\" y=\"288.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"386.0\" y=\"298.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><rect x=\"68.2\" y=\"319.0\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"329.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><rect x=\"74.8\" y=\"233.6\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"243.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><rect x=\"74.8\" y=\"190.9\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"200.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><rect x=\"74.8\" y=\"148.1\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"158.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><rect x=\"74.8\" y=\"105.4\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"115.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><rect x=\"74.8\" y=\"62.7\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"72.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><rect x=\"74.8\" y=\"20.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"83.4\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><text x=\"398.0\" y=\"287.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"96.4\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text></svg></span><p>Läs av lösningen till ekvationssystemet och kontrollera genom att sätta in.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skärningspunkten ligger mitt mellan två rutlinjer: \\((3;\\ 2{,}5)\\).</p></li><li><div class=\"facit-matte\">\\[0{,}5\\cdot3+1=2{,}5,\\quad -3+5{,}5=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3,\\ y=2{,}5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av skärningspunkten i figuren</p><p>Skärningspunkten ligger mitt mellan två rutlinjer: \\((3;\\ 2{,}5)\\).</p></li><li><p class=\"facit-rubrik\">Kontrollera genom att sätta in i båda ekvationerna</p><div class=\"facit-matte\">\\[0{,}5\\cdot3+1=2{,}5,\\quad -3+5{,}5=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3,\\ y=2{,}5\\)</p></div>",
     "familj": "Avläsa skärningspunkt",
     "formaga": [
       "begrepp",
@@ -45563,7 +45563,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "när två cyklister möts",
     "t": "<p>Grafen visar hur långt två cyklister har kommit från en skola. A cyklar med 12 km/h. B började 9 km från skolan och cyklar med 6 km/h åt samma håll.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"310\" viewBox=\"0 0 460 310\" role=\"img\" aria-label=\"Två linjer: A går från 0 km och ökar 12 km per timme, B går från 9 km och ökar 6 km per timme. De skär varandra vid 1,5 h och 18 km.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"121.7\" y1=\"30\" x2=\"121.7\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"183.3\" y1=\"30\" x2=\"183.3\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"245.0\" y1=\"30\" x2=\"245.0\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"306.7\" y1=\"30\" x2=\"306.7\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"368.3\" y1=\"30\" x2=\"368.3\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"430.0\" y1=\"30\" x2=\"430.0\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"265.0\" x2=\"430\" y2=\"265.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"225.8\" x2=\"430\" y2=\"225.8\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"186.7\" x2=\"430\" y2=\"186.7\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"147.5\" x2=\"430\" y2=\"147.5\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"108.3\" x2=\"430\" y2=\"108.3\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"69.2\" x2=\"430\" y2=\"69.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"430\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"265.0\" x2=\"438\" y2=\"265.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"265\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">s (km)</text><line x1=\"121.7\" y1=\"261.0\" x2=\"121.7\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"121.7\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">0,5</text><line x1=\"183.3\" y1=\"261.0\" x2=\"183.3\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"183.3\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><line x1=\"245.0\" y1=\"261.0\" x2=\"245.0\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"245.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1,5</text><line x1=\"306.7\" y1=\"261.0\" x2=\"306.7\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"306.7\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><line x1=\"368.3\" y1=\"261.0\" x2=\"368.3\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"368.3\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2,5</text><line x1=\"430.0\" y1=\"261.0\" x2=\"430.0\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"430.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><line x1=\"56.0\" y1=\"225.8\" x2=\"64.0\" y2=\"225.8\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"230.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><line x1=\"56.0\" y1=\"186.7\" x2=\"64.0\" y2=\"186.7\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"191.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">12</text><line x1=\"56.0\" y1=\"147.5\" x2=\"64.0\" y2=\"147.5\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"152.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">18</text><line x1=\"56.0\" y1=\"108.3\" x2=\"64.0\" y2=\"108.3\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"113.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">24</text><line x1=\"56.0\" y1=\"69.2\" x2=\"64.0\" y2=\"69.2\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"74.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">30</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">36</text><polyline points=\"60.0,265.0 60.9,264.4 61.9,263.8 62.8,263.2 63.7,262.6 64.6,262.1 65.5,261.5 66.5,260.9 67.4,260.3 68.3,259.7 69.2,259.1 70.2,258.5 71.1,257.9 72.0,257.4 73.0,256.8 73.9,256.2 74.8,255.6 75.7,255.0 76.7,254.4 77.6,253.8 78.5,253.2 79.4,252.7 80.3,252.1 81.3,251.5 82.2,250.9 83.1,250.3 84.0,249.7 85.0,249.1 85.9,248.6 86.8,248.0 87.8,247.4 88.7,246.8 89.6,246.2 90.5,245.6 91.5,245.0 92.4,244.4 93.3,243.8 94.2,243.3 95.2,242.7 96.1,242.1 97.0,241.5 97.9,240.9 98.8,240.3 99.8,239.7 100.7,239.2 101.6,238.6 102.5,238.0 103.5,237.4 104.4,236.8 105.3,236.2 106.2,235.6 107.2,235.0 108.1,234.4 109.0,233.9 110.0,233.3 110.9,232.7 111.8,232.1 112.7,231.5 113.7,230.9 114.6,230.3 115.5,229.8 116.4,229.2 117.3,228.6 118.3,228.0 119.2,227.4 120.1,226.8 121.1,226.2 122.0,225.6 122.9,225.1 123.8,224.5 124.8,223.9 125.7,223.3 126.6,222.7 127.5,222.1 128.4,221.5 129.4,220.9 130.3,220.3 131.2,219.8 132.1,219.2 133.1,218.6 134.0,218.0 134.9,217.4 135.8,216.8 136.8,216.2 137.7,215.7 138.6,215.1 139.6,214.5 140.5,213.9 141.4,213.3 142.3,212.7 143.2,212.1 144.2,211.5 145.1,210.9 146.0,210.4 146.9,209.8 147.9,209.2 148.8,208.6 149.7,208.0 150.6,207.4 151.6,206.8 152.5,206.2 153.4,205.7 154.4,205.1 155.3,204.5 156.2,203.9 157.1,203.3 158.1,202.7 159.0,202.1 159.9,201.6 160.8,201.0 161.8,200.4 162.7,199.8 163.6,199.2 164.5,198.6 165.4,198.0 166.4,197.4 167.3,196.9 168.2,196.3 169.1,195.7 170.1,195.1 171.0,194.5 171.9,193.9 172.8,193.3 173.8,192.7 174.7,192.2 175.6,191.6 176.6,191.0 177.5,190.4 178.4,189.8 179.3,189.2 180.2,188.6 181.2,188.0 182.1,187.4 183.0,186.9 183.9,186.3 184.9,185.7 185.8,185.1 186.7,184.5 187.6,183.9 188.6,183.3 189.5,182.8 190.4,182.2 191.3,181.6 192.3,181.0 193.2,180.4 194.1,179.8 195.0,179.2 196.0,178.6 196.9,178.1 197.8,177.5 198.8,176.9 199.7,176.3 200.6,175.7 201.5,175.1 202.5,174.5 203.4,173.9 204.3,173.4 205.2,172.8 206.2,172.2 207.1,171.6 208.0,171.0 208.9,170.4 209.9,169.8 210.8,169.2 211.7,168.7 212.6,168.1 213.6,167.5 214.5,166.9 215.4,166.3 216.3,165.7 217.2,165.1 218.2,164.5 219.1,163.9 220.0,163.4 220.9,162.8 221.9,162.2 222.8,161.6 223.7,161.0 224.7,160.4 225.6,159.8 226.5,159.2 227.4,158.7 228.3,158.1 229.3,157.5 230.2,156.9 231.1,156.3 232.1,155.7 233.0,155.1 233.9,154.6 234.8,154.0 235.8,153.4 236.7,152.8 237.6,152.2 238.5,151.6 239.5,151.0 240.4,150.4 241.3,149.9 242.2,149.3 243.2,148.7 244.1,148.1 245.0,147.5 245.9,146.9 246.8,146.3 247.8,145.7 248.7,145.1 249.6,144.6 250.6,144.0 251.5,143.4 252.4,142.8 253.3,142.2 254.2,141.6 255.2,141.0 256.1,140.4 257.0,139.9 258.0,139.3 258.9,138.7 259.8,138.1 260.7,137.5 261.6,136.9 262.6,136.3 263.5,135.8 264.4,135.2 265.4,134.6 266.3,134.0 267.2,133.4 268.1,132.8 269.1,132.2 270.0,131.6 270.9,131.1 271.8,130.5 272.8,129.9 273.7,129.3 274.6,128.7 275.5,128.1 276.4,127.5 277.4,126.9 278.3,126.3 279.2,125.8 280.1,125.2 281.1,124.6 282.0,124.0 282.9,123.4 283.9,122.8 284.8,122.2 285.7,121.7 286.6,121.1 287.5,120.5 288.5,119.9 289.4,119.3 290.3,118.7 291.2,118.1 292.2,117.5 293.1,116.9 294.0,116.4 295.0,115.8 295.9,115.2 296.8,114.6 297.7,114.0 298.6,113.4 299.6,112.8 300.5,112.3 301.4,111.7 302.4,111.1 303.3,110.5 304.2,109.9 305.1,109.3 306.1,108.7 307.0,108.1 307.9,107.6 308.8,107.0 309.8,106.4 310.7,105.8 311.6,105.2 312.5,104.6 313.5,104.0 314.4,103.4 315.3,102.9 316.2,102.3 317.1,101.7 318.1,101.1 319.0,100.5 319.9,99.9 320.9,99.3 321.8,98.7 322.7,98.2 323.6,97.6 324.6,97.0 325.5,96.4 326.4,95.8 327.3,95.2 328.2,94.6 329.2,94.0 330.1,93.5 331.0,92.9 331.9,92.3 332.9,91.7 333.8,91.1 334.7,90.5 335.6,89.9 336.6,89.3 337.5,88.8 338.4,88.2 339.4,87.6 340.3,87.0 341.2,86.4 342.1,85.8 343.1,85.2 344.0,84.6 344.9,84.0 345.8,83.5 346.8,82.9 347.7,82.3 348.6,81.7 349.5,81.1 350.4,80.5 351.4,79.9 352.3,79.3 353.2,78.8 354.1,78.2 355.1,77.6 356.0,77.0 356.9,76.4 357.9,75.8 358.8,75.2 359.7,74.6 360.6,74.1 361.5,73.5 362.5,72.9 363.4,72.3 364.3,71.7 365.2,71.1 366.2,70.5 367.1,69.9 368.0,69.4 368.9,68.8 369.9,68.2 370.8,67.6 371.7,67.0 372.7,66.4 373.6,65.8 374.5,65.2 375.4,64.7 376.3,64.1 377.3,63.5 378.2,62.9 379.1,62.3 380.1,61.7 381.0,61.1 381.9,60.6 382.8,60.0 383.8,59.4 384.7,58.8 385.6,58.2 386.5,57.6 387.4,57.0 388.4,56.4 389.3,55.8 390.2,55.3 391.2,54.7 392.1,54.1 393.0,53.5 393.9,52.9 394.8,52.3 395.8,51.7 396.7,51.2 397.6,50.6 398.6,50.0 399.5,49.4 400.4,48.8 401.3,48.2 402.2,47.6 403.2,47.0 404.1,46.4 405.0,45.9 406.0,45.3 406.9,44.7 407.8,44.1 408.7,43.5 409.6,42.9 410.6,42.3 411.5,41.7 412.4,41.2 413.4,40.6 414.3,40.0 415.2,39.4 416.1,38.8 417.1,38.2 418.0,37.6 418.9,37.0 419.8,36.5 420.8,35.9 421.7,35.3 422.6,34.7 423.5,34.1 424.4,33.5 425.4,32.9 426.3,32.3 427.2,31.8 428.1,31.2 429.1,30.6 430.0,30.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><text x=\"430.0\" y=\"303.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\">t (h)</text><polyline points=\"60.0,206.2 61.9,205.7 63.7,205.1 65.5,204.5 67.4,203.9 69.2,203.3 71.1,202.7 73.0,202.1 74.8,201.6 76.7,201.0 78.5,200.4 80.3,199.8 82.2,199.2 84.0,198.6 85.9,198.0 87.8,197.4 89.6,196.9 91.5,196.3 93.3,195.7 95.2,195.1 97.0,194.5 98.8,193.9 100.7,193.3 102.5,192.7 104.4,192.2 106.2,191.6 108.1,191.0 110.0,190.4 111.8,189.8 113.7,189.2 115.5,188.6 117.3,188.0 119.2,187.4 121.1,186.9 122.9,186.3 124.8,185.7 126.6,185.1 128.4,184.5 130.3,183.9 132.1,183.3 134.0,182.8 135.8,182.2 137.7,181.6 139.6,181.0 141.4,180.4 143.2,179.8 145.1,179.2 146.9,178.6 148.8,178.1 150.6,177.5 152.5,176.9 154.4,176.3 156.2,175.7 158.1,175.1 159.9,174.5 161.8,173.9 163.6,173.4 165.4,172.8 167.3,172.2 169.1,171.6 171.0,171.0 172.8,170.4 174.7,169.8 176.6,169.2 178.4,168.7 180.2,168.1 182.1,167.5 183.9,166.9 185.8,166.3 187.6,165.7 189.5,165.1 191.3,164.5 193.2,163.9 195.0,163.4 196.9,162.8 198.8,162.2 200.6,161.6 202.5,161.0 204.3,160.4 206.2,159.8 208.0,159.2 209.9,158.7 211.7,158.1 213.6,157.5 215.4,156.9 217.2,156.3 219.1,155.7 220.9,155.1 222.8,154.6 224.7,154.0 226.5,153.4 228.3,152.8 230.2,152.2 232.1,151.6 233.9,151.0 235.8,150.4 237.6,149.9 239.5,149.3 241.3,148.7 243.2,148.1 245.0,147.5 246.8,146.9 248.7,146.3 250.6,145.7 252.4,145.1 254.2,144.6 256.1,144.0 258.0,143.4 259.8,142.8 261.6,142.2 263.5,141.6 265.4,141.0 267.2,140.5 269.1,139.9 270.9,139.3 272.8,138.7 274.6,138.1 276.4,137.5 278.3,136.9 280.1,136.3 282.0,135.8 283.9,135.2 285.7,134.6 287.5,134.0 289.4,133.4 291.2,132.8 293.1,132.2 295.0,131.6 296.8,131.1 298.6,130.5 300.5,129.9 302.4,129.3 304.2,128.7 306.1,128.1 307.9,127.5 309.8,126.9 311.6,126.3 313.5,125.8 315.3,125.2 317.1,124.6 319.0,124.0 320.9,123.4 322.7,122.8 324.6,122.2 326.4,121.7 328.2,121.1 330.1,120.5 331.9,119.9 333.8,119.3 335.6,118.7 337.5,118.1 339.4,117.5 341.2,116.9 343.1,116.4 344.9,115.8 346.8,115.2 348.6,114.6 350.4,114.0 352.3,113.4 354.1,112.8 356.0,112.3 357.9,111.7 359.7,111.1 361.5,110.5 363.4,109.9 365.2,109.3 367.1,108.7 368.9,108.1 370.8,107.5 372.7,107.0 374.5,106.4 376.3,105.8 378.2,105.2 380.1,104.6 381.9,104.0 383.8,103.4 385.6,102.9 387.4,102.3 389.3,101.7 391.2,101.1 393.0,100.5 394.8,99.9 396.7,99.3 398.6,98.7 400.4,98.2 402.2,97.6 404.1,97.0 406.0,96.4 407.8,95.8 409.6,95.2 411.5,94.6 413.4,94.0 415.2,93.5 417.1,92.9 418.9,92.3 420.8,91.7 422.6,91.1 424.4,90.5 426.3,89.9 428.1,89.3 430.0,88.8\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><rect x=\"372.6\" y=\"35.3\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"380.7\" y=\"49.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><rect x=\"101.3\" y=\"164.6\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"109.3\" y=\"178.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">B</text></svg></div><p>När och var hinner A ikapp B?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[12t=9+6t\\]</div></li><li><div class=\"facit-matte\">\\[6t=9\\Rightarrow t=1{,}5\\]</div></li><li><div class=\"facit-matte\">\\[s=12\\cdot1{,}5=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 1,5 h, 18 km från skolan.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">A hinner ikapp när båda har kommit lika långt</p><div class=\"facit-matte\">\\[12t=9+6t\\]</div></li><li><p class=\"facit-rubrik\">Samla t-termerna och dela med 6</p><div class=\"facit-matte\">\\[6t=9\\Rightarrow t=1{,}5\\]</div></li><li><p class=\"facit-rubrik\">Räkna ut sträckan med A:s uttryck</p><div class=\"facit-matte\">\\[s=12\\cdot1{,}5=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter 1,5 h, 18 km från skolan.</p></div>",
     "familj": "Tolka grafisk lösning",
     "formaga": [
       "procedur",
@@ -45611,7 +45611,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "ekvation som grafisk skärning",
     "t": "<p>Ekvationen \\(2x+1=-x+7\\) ska lösas grafiskt. Vilka två linjer ska man rita?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Varje led blir en linje. Lösningen är x-koordinaten för skärningspunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+1\\) och \\(y=-x+7\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Låt vänster led och höger led vara var sin linje</p><p>Varje led blir en linje. Lösningen är x-koordinaten för skärningspunkten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=2x+1\\) och \\(y=-x+7\\)</p></div>",
     "familj": "Tolka grafisk lösning",
     "formaga": [
       "begrepp"
@@ -45661,7 +45661,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "vilket par saknar lösning",
     "t": "<p>Figuren visar tre linjer \\(L_1\\), \\(L_2\\) och \\(L_3\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"360\" viewBox=\"0 0 420 360\" role=\"img\" aria-label=\"Tre linjer. L1 och L3 är parallella. L2 skär båda.\"><title>Tre linjer. L1 och L3 är parallella. L2 skär båda.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"26\" x2=\"40.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"89.4\" y1=\"26\" x2=\"89.4\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"138.9\" y1=\"26\" x2=\"138.9\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"188.3\" y1=\"26\" x2=\"188.3\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"237.7\" y1=\"26\" x2=\"237.7\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"287.1\" y1=\"26\" x2=\"287.1\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"336.6\" y1=\"26\" x2=\"336.6\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"386.0\" y1=\"26\" x2=\"386.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"325.0\" x2=\"386\" y2=\"325.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"295.1\" x2=\"386\" y2=\"295.1\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"265.2\" x2=\"386\" y2=\"265.2\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"235.3\" x2=\"386\" y2=\"235.3\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"205.4\" x2=\"386\" y2=\"205.4\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"175.5\" x2=\"386\" y2=\"175.5\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"145.6\" x2=\"386\" y2=\"145.6\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"115.7\" x2=\"386\" y2=\"115.7\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"85.8\" x2=\"386\" y2=\"85.8\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"55.9\" x2=\"386\" y2=\"55.9\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"26.0\" x2=\"386\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"235.3\" x2=\"394\" y2=\"235.3\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"138.9\" y1=\"325\" x2=\"138.9\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"40.0\" y1=\"325.0\" x2=\"287.1\" y2=\"26.0\" stroke=\"#216d87\" stroke-width=\"2.6\"/><rect x=\"263.5\" y=\"53.9\" width=\"24.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"267.5\" y=\"66.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">L₁</text><line x1=\"40.0\" y1=\"55.9\" x2=\"386.0\" y2=\"265.2\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><rect x=\"336.1\" y=\"260.2\" width=\"24.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"356.2\" y=\"273.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#c2410c\" font-weight=\"bold\">L₂</text><line x1=\"138.9\" y1=\"325.0\" x2=\"386.0\" y2=\"26.0\" stroke=\"#2f7d4a\" stroke-width=\"2.6\"/><rect x=\"337.6\" y=\"83.8\" width=\"24.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"341.6\" y=\"96.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">L₃</text><rect x=\"31.4\" y=\"241.3\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"40.0\" y=\"251.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−2</text><rect x=\"80.8\" y=\"241.3\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"89.4\" y=\"251.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><rect x=\"183.0\" y=\"241.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"188.3\" y=\"251.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><rect x=\"232.4\" y=\"241.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"237.7\" y=\"251.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><rect x=\"281.8\" y=\"241.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"287.1\" y=\"251.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><rect x=\"331.3\" y=\"241.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"336.6\" y=\"251.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><rect x=\"380.7\" y=\"241.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"386.0\" y=\"251.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><rect x=\"117.7\" y=\"319.0\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"132.9\" y=\"329.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−3</text><rect x=\"117.7\" y=\"289.1\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"132.9\" y=\"299.1\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−2</text><rect x=\"117.7\" y=\"259.2\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"132.9\" y=\"269.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><rect x=\"124.3\" y=\"199.4\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"132.9\" y=\"209.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><rect x=\"124.3\" y=\"169.5\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"132.9\" y=\"179.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><rect x=\"124.3\" y=\"139.6\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"132.9\" y=\"149.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><rect x=\"124.3\" y=\"109.7\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"132.9\" y=\"119.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><rect x=\"124.3\" y=\"79.8\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"132.9\" y=\"89.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><rect x=\"124.3\" y=\"49.9\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"132.9\" y=\"59.9\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><rect x=\"124.3\" y=\"20.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"132.9\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">7</text><text x=\"398.0\" y=\"240.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"145.9\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text></svg></span><p>Vilket ekvationssystem saknar lösning?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(L_1\\) och \\(L_3\\) är parallella och skär aldrig varandra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L_1\\) och \\(L_3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Leta efter två linjer som aldrig skär varandra</p><p>\\(L_1\\) och \\(L_3\\) är parallella och skär aldrig varandra.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(L_1\\) och \\(L_3\\)</p></div>",
     "familj": "Tolka grafisk lösning",
     "formaga": [
       "begrepp"
@@ -45706,7 +45706,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "abonnemang som kostar lika",
     "t": "<p>Grafen visar månadskostnaden för två mobilabonnemang som funktion av antalet samtalsminuter.</p><div class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"310\" viewBox=\"0 0 460 310\" role=\"img\" aria-label=\"Abonnemang A börjar på 200 kr och ökar 2 kr per minut. Abonnemang B börjar på 50 kr och ökar 5 kr per minut. De kostar lika vid 50 minuter och 300 kr.\"><rect x=\"1\" y=\"1\" width=\"458\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"60.0\" y1=\"30\" x2=\"60.0\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"106.2\" y1=\"30\" x2=\"106.2\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"152.5\" y1=\"30\" x2=\"152.5\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"198.8\" y1=\"30\" x2=\"198.8\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"245.0\" y1=\"30\" x2=\"245.0\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"291.2\" y1=\"30\" x2=\"291.2\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"337.5\" y1=\"30\" x2=\"337.5\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"383.8\" y1=\"30\" x2=\"383.8\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"430.0\" y1=\"30\" x2=\"430.0\" y2=\"265\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"265.0\" x2=\"430\" y2=\"265.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"238.9\" x2=\"430\" y2=\"238.9\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"212.8\" x2=\"430\" y2=\"212.8\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"186.7\" x2=\"430\" y2=\"186.7\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"160.6\" x2=\"430\" y2=\"160.6\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"134.4\" x2=\"430\" y2=\"134.4\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"108.3\" x2=\"430\" y2=\"108.3\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"82.2\" x2=\"430\" y2=\"82.2\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"56.1\" x2=\"430\" y2=\"56.1\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"30.0\" x2=\"430\" y2=\"30.0\" stroke=\"#e6ebf0\" stroke-width=\"1\"/><line x1=\"60\" y1=\"265.0\" x2=\"438\" y2=\"265.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"60.0\" y1=\"265\" x2=\"60.0\" y2=\"22\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"68.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#172b3a\">kostnad (kr)</text><line x1=\"106.2\" y1=\"261.0\" x2=\"106.2\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"106.2\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">10</text><line x1=\"152.5\" y1=\"261.0\" x2=\"152.5\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"152.5\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">20</text><line x1=\"198.8\" y1=\"261.0\" x2=\"198.8\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"198.8\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">30</text><line x1=\"245.0\" y1=\"261.0\" x2=\"245.0\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"245.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">40</text><line x1=\"291.2\" y1=\"261.0\" x2=\"291.2\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"291.2\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">50</text><line x1=\"337.5\" y1=\"261.0\" x2=\"337.5\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"337.5\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">60</text><line x1=\"383.8\" y1=\"261.0\" x2=\"383.8\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"383.8\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">70</text><line x1=\"430.0\" y1=\"261.0\" x2=\"430.0\" y2=\"269.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"430.0\" y=\"285.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">80</text><line x1=\"56.0\" y1=\"238.9\" x2=\"64.0\" y2=\"238.9\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"243.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">50</text><line x1=\"56.0\" y1=\"212.8\" x2=\"64.0\" y2=\"212.8\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"217.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">100</text><line x1=\"56.0\" y1=\"186.7\" x2=\"64.0\" y2=\"186.7\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"191.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">150</text><line x1=\"56.0\" y1=\"160.6\" x2=\"64.0\" y2=\"160.6\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"165.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">200</text><line x1=\"56.0\" y1=\"134.4\" x2=\"64.0\" y2=\"134.4\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"139.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">250</text><line x1=\"56.0\" y1=\"108.3\" x2=\"64.0\" y2=\"108.3\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"113.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">300</text><line x1=\"56.0\" y1=\"82.2\" x2=\"64.0\" y2=\"82.2\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"87.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">350</text><line x1=\"56.0\" y1=\"56.1\" x2=\"64.0\" y2=\"56.1\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"61.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">400</text><line x1=\"56.0\" y1=\"30.0\" x2=\"64.0\" y2=\"30.0\" stroke=\"#34495e\" stroke-width=\"1.5\"/><text x=\"51.0\" y=\"35.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">450</text><polyline points=\"60.0,160.6 60.9,160.3 61.9,160.1 62.8,159.9 63.7,159.7 64.6,159.5 65.5,159.3 66.5,159.1 67.4,158.9 68.3,158.7 69.2,158.5 70.2,158.3 71.1,158.0 72.0,157.8 73.0,157.6 73.9,157.4 74.8,157.2 75.7,157.0 76.7,156.8 77.6,156.6 78.5,156.4 79.4,156.2 80.3,156.0 81.3,155.8 82.2,155.5 83.1,155.3 84.0,155.1 85.0,154.9 85.9,154.7 86.8,154.5 87.8,154.3 88.7,154.1 89.6,153.9 90.5,153.7 91.4,153.5 92.4,153.2 93.3,153.0 94.2,152.8 95.2,152.6 96.1,152.4 97.0,152.2 97.9,152.0 98.8,151.8 99.8,151.6 100.7,151.4 101.6,151.2 102.5,150.9 103.5,150.7 104.4,150.5 105.3,150.3 106.2,150.1 107.2,149.9 108.1,149.7 109.0,149.5 110.0,149.3 110.9,149.1 111.8,148.9 112.7,148.6 113.7,148.4 114.6,148.2 115.5,148.0 116.4,147.8 117.3,147.6 118.3,147.4 119.2,147.2 120.1,147.0 121.0,146.8 122.0,146.6 122.9,146.4 123.8,146.1 124.8,145.9 125.7,145.7 126.6,145.5 127.5,145.3 128.4,145.1 129.4,144.9 130.3,144.7 131.2,144.5 132.2,144.3 133.1,144.1 134.0,143.8 134.9,143.6 135.8,143.4 136.8,143.2 137.7,143.0 138.6,142.8 139.6,142.6 140.5,142.4 141.4,142.2 142.3,142.0 143.2,141.8 144.2,141.5 145.1,141.3 146.0,141.1 146.9,140.9 147.9,140.7 148.8,140.5 149.7,140.3 150.7,140.1 151.6,139.9 152.5,139.7 153.4,139.5 154.4,139.2 155.3,139.0 156.2,138.8 157.1,138.6 158.1,138.4 159.0,138.2 159.9,138.0 160.8,137.8 161.8,137.6 162.7,137.4 163.6,137.2 164.5,137.0 165.5,136.7 166.4,136.5 167.3,136.3 168.2,136.1 169.2,135.9 170.1,135.7 171.0,135.5 171.9,135.3 172.8,135.1 173.8,134.9 174.7,134.7 175.6,134.4 176.6,134.2 177.5,134.0 178.4,133.8 179.3,133.6 180.2,133.4 181.2,133.2 182.1,133.0 183.0,132.8 183.9,132.6 184.9,132.4 185.8,132.1 186.7,131.9 187.7,131.7 188.6,131.5 189.5,131.3 190.4,131.1 191.3,130.9 192.3,130.7 193.2,130.5 194.1,130.3 195.0,130.1 196.0,129.8 196.9,129.6 197.8,129.4 198.8,129.2 199.7,129.0 200.6,128.8 201.5,128.6 202.5,128.4 203.4,128.2 204.3,128.0 205.2,127.8 206.2,127.6 207.1,127.3 208.0,127.1 208.9,126.9 209.8,126.7 210.8,126.5 211.7,126.3 212.6,126.1 213.6,125.9 214.5,125.7 215.4,125.5 216.3,125.3 217.2,125.0 218.2,124.8 219.1,124.6 220.0,124.4 220.9,124.2 221.9,124.0 222.8,123.8 223.7,123.6 224.7,123.4 225.6,123.2 226.5,123.0 227.4,122.7 228.3,122.5 229.3,122.3 230.2,122.1 231.1,121.9 232.1,121.7 233.0,121.5 233.9,121.3 234.8,121.1 235.8,120.9 236.7,120.7 237.6,120.4 238.5,120.2 239.4,120.0 240.4,119.8 241.3,119.6 242.2,119.4 243.2,119.2 244.1,119.0 245.0,118.8 245.9,118.6 246.8,118.4 247.8,118.2 248.7,117.9 249.6,117.7 250.6,117.5 251.5,117.3 252.4,117.1 253.3,116.9 254.2,116.7 255.2,116.5 256.1,116.3 257.0,116.1 257.9,115.9 258.9,115.6 259.8,115.4 260.7,115.2 261.6,115.0 262.6,114.8 263.5,114.6 264.4,114.4 265.3,114.2 266.3,114.0 267.2,113.8 268.1,113.6 269.1,113.3 270.0,113.1 270.9,112.9 271.8,112.7 272.8,112.5 273.7,112.3 274.6,112.1 275.5,111.9 276.4,111.7 277.4,111.5 278.3,111.3 279.2,111.0 280.1,110.8 281.1,110.6 282.0,110.4 282.9,110.2 283.9,110.0 284.8,109.8 285.7,109.6 286.6,109.4 287.5,109.2 288.5,109.0 289.4,108.8 290.3,108.5 291.2,108.3 292.2,108.1 293.1,107.9 294.0,107.7 295.0,107.5 295.9,107.3 296.8,107.1 297.7,106.9 298.6,106.7 299.6,106.5 300.5,106.2 301.4,106.0 302.4,105.8 303.3,105.6 304.2,105.4 305.1,105.2 306.1,105.0 307.0,104.8 307.9,104.6 308.8,104.4 309.8,104.2 310.7,103.9 311.6,103.7 312.5,103.5 313.4,103.3 314.4,103.1 315.3,102.9 316.2,102.7 317.2,102.5 318.1,102.3 319.0,102.1 319.9,101.9 320.8,101.6 321.8,101.4 322.7,101.2 323.6,101.0 324.6,100.8 325.5,100.6 326.4,100.4 327.3,100.2 328.2,100.0 329.2,99.8 330.1,99.6 331.0,99.4 331.9,99.1 332.9,98.9 333.8,98.7 334.7,98.5 335.6,98.3 336.6,98.1 337.5,97.9 338.4,97.7 339.4,97.5 340.3,97.3 341.2,97.1 342.1,96.8 343.1,96.6 344.0,96.4 344.9,96.2 345.8,96.0 346.8,95.8 347.7,95.6 348.6,95.4 349.5,95.2 350.4,95.0 351.4,94.8 352.3,94.5 353.2,94.3 354.2,94.1 355.1,93.9 356.0,93.7 356.9,93.5 357.9,93.3 358.8,93.1 359.7,92.9 360.6,92.7 361.6,92.5 362.5,92.2 363.4,92.0 364.3,91.8 365.2,91.6 366.2,91.4 367.1,91.2 368.0,91.0 368.9,90.8 369.9,90.6 370.8,90.4 371.7,90.2 372.6,90.0 373.6,89.7 374.5,89.5 375.4,89.3 376.4,89.1 377.3,88.9 378.2,88.7 379.1,88.5 380.1,88.3 381.0,88.1 381.9,87.9 382.8,87.7 383.8,87.4 384.7,87.2 385.6,87.0 386.5,86.8 387.4,86.6 388.4,86.4 389.3,86.2 390.2,86.0 391.1,85.8 392.1,85.6 393.0,85.4 393.9,85.1 394.9,84.9 395.8,84.7 396.7,84.5 397.6,84.3 398.6,84.1 399.5,83.9 400.4,83.7 401.3,83.5 402.2,83.3 403.2,83.1 404.1,82.8 405.0,82.6 405.9,82.4 406.9,82.2 407.8,82.0 408.7,81.8 409.6,81.6 410.6,81.4 411.5,81.2 412.4,81.0 413.4,80.8 414.3,80.6 415.2,80.3 416.1,80.1 417.1,79.9 418.0,79.7 418.9,79.5 419.8,79.3 420.8,79.1 421.7,78.9 422.6,78.7 423.5,78.5 424.4,78.3 425.4,78.0 426.3,77.8 427.2,77.6 428.1,77.4 429.1,77.2 430.0,77.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><text x=\"430.0\" y=\"303.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"end\" fill=\"#5b6773\">minuter</text><polyline points=\"60.0,238.9 61.9,237.8 63.7,236.8 65.5,235.8 67.4,234.7 69.2,233.7 71.1,232.6 73.0,231.6 74.8,230.5 76.7,229.5 78.5,228.4 80.3,227.4 82.2,226.4 84.0,225.3 85.9,224.3 87.8,223.2 89.6,222.2 91.4,221.1 93.3,220.1 95.2,219.0 97.0,218.0 98.8,217.0 100.7,215.9 102.5,214.9 104.4,213.8 106.2,212.8 108.1,211.7 110.0,210.7 111.8,209.6 113.7,208.6 115.5,207.6 117.3,206.5 119.2,205.5 121.0,204.4 122.9,203.4 124.8,202.3 126.6,201.3 128.4,200.2 130.3,199.2 132.2,198.2 134.0,197.1 135.8,196.1 137.7,195.0 139.6,194.0 141.4,192.9 143.2,191.9 145.1,190.8 146.9,189.8 148.8,188.8 150.7,187.7 152.5,186.7 154.4,185.6 156.2,184.6 158.1,183.5 159.9,182.5 161.8,181.4 163.6,180.4 165.5,179.4 167.3,178.3 169.2,177.3 171.0,176.2 172.8,175.2 174.7,174.1 176.6,173.1 178.4,172.0 180.2,171.0 182.1,170.0 183.9,168.9 185.8,167.9 187.7,166.8 189.5,165.8 191.3,164.7 193.2,163.7 195.0,162.6 196.9,161.6 198.8,160.6 200.6,159.5 202.5,158.5 204.3,157.4 206.2,156.4 208.0,155.3 209.8,154.3 211.7,153.2 213.6,152.2 215.4,151.2 217.2,150.1 219.1,149.1 220.9,148.0 222.8,147.0 224.7,145.9 226.5,144.9 228.3,143.8 230.2,142.8 232.1,141.8 233.9,140.7 235.8,139.7 237.6,138.6 239.4,137.6 241.3,136.5 243.2,135.5 245.0,134.4 246.8,133.4 248.7,132.4 250.6,131.3 252.4,130.3 254.2,129.2 256.1,128.2 257.9,127.1 259.8,126.1 261.6,125.0 263.5,124.0 265.3,123.0 267.2,121.9 269.1,120.9 270.9,119.8 272.8,118.8 274.6,117.7 276.4,116.7 278.3,115.6 280.1,114.6 282.0,113.6 283.9,112.5 285.7,111.5 287.5,110.4 289.4,109.4 291.2,108.3 293.1,107.3 295.0,106.2 296.8,105.2 298.6,104.2 300.5,103.1 302.4,102.1 304.2,101.0 306.1,100.0 307.9,98.9 309.8,97.9 311.6,96.8 313.4,95.8 315.3,94.8 317.2,93.7 319.0,92.7 320.8,91.6 322.7,90.6 324.6,89.5 326.4,88.5 328.2,87.4 330.1,86.4 331.9,85.4 333.8,84.3 335.6,83.3 337.5,82.2 339.4,81.2 341.2,80.1 343.1,79.1 344.9,78.0 346.8,77.0 348.6,76.0 350.4,74.9 352.3,73.9 354.2,72.8 356.0,71.8 357.9,70.7 359.7,69.7 361.6,68.6 363.4,67.6 365.2,66.6 367.1,65.5 368.9,64.5 370.8,63.4 372.6,62.4 374.5,61.3 376.4,60.3 378.2,59.2 380.1,58.2 381.9,57.2 383.8,56.1 385.6,55.1 387.4,54.0 389.3,53.0 391.1,51.9 393.0,50.9 394.9,49.8 396.7,48.8 398.6,47.8 400.4,46.7 402.2,45.7 404.1,44.6 405.9,43.6 407.8,42.5 409.6,41.5 411.5,40.4 413.4,39.4 415.2,38.4 417.1,37.3 418.9,36.3 420.8,35.2 422.6,34.2 424.4,33.1 426.3,32.1 428.1,31.0 430.0,30.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><rect x=\"375.7\" y=\"61.4\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"383.8\" y=\"75.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><rect x=\"357.2\" y=\"40.6\" width=\"16.1\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"365.2\" y=\"54.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">B</text></svg></div><p>Vid hur många minuter kostar abonnemangen lika mycket?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Linjerna skär varandra vid 50 minuter.</p></li><li><div class=\"facit-matte\">\\[200+2\\cdot50=300=50+5\\cdot50\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 minuter</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av var linjerna skär varandra</p><p>Linjerna skär varandra vid 50 minuter.</p></li><li><p class=\"facit-rubrik\">Kontrollera att båda abonnemangen kostar lika mycket vid 50 minuter</p><div class=\"facit-matte\">\\[200+2\\cdot50=300=50+5\\cdot50\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 50 minuter</p></div>",
     "familj": "Avläsa skärningspunkt",
     "formaga": [
       "begrepp",
@@ -45737,7 +45737,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "exakt lösning efter avläsning i GeoGebra",
     "t": "<p>GeoGebra visar att linjerna \\(y=2x-1\\) och \\(y=-x+7\\) skär varandra i \\((2{,}67;\\ 4{,}33)\\). Bestäm x-koordinaten exakt. (Svara i bråkform.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x-1=-x+7\\]</div></li><li><div class=\"facit-matte\">\\[3x=8\\Rightarrow x=\\frac83\\]</div></li><li><p>2,67 är en avrundning av \\(\\frac83\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\frac83\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I skärningspunkten är y-värdena lika</p><div class=\"facit-matte\">\\[2x-1=-x+7\\]</div></li><li><p class=\"facit-rubrik\">Lös ekvationen exakt; behåll bråket</p><div class=\"facit-matte\">\\[3x=8\\Rightarrow x=\\frac83\\]</div></li><li><p class=\"facit-rubrik\">Jämför med GeoGebras avrundade värde</p><p>2,67 är en avrundning av \\(\\frac83\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\frac83\\)</p></div>",
     "familj": "Grafisk lösning med digitalt verktyg",
     "formaga": [
       "procedur",
@@ -45768,7 +45768,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "k för skärning vid ett visst x",
     "t": "<p>Linjen \\(y=kx+1\\) ska skära linjen \\(y=-x+7\\) i punkten där \\(x=2\\). Bestäm \\(k\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y=-2+7=5\\]</div></li><li><div class=\"facit-matte\">\\[5=2k+1\\Rightarrow k=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skärningspunkten ligger på den kända linjen; bestäm y när \\(x=2\\)</p><div class=\"facit-matte\">\\[y=-2+7=5\\]</div></li><li><p class=\"facit-rubrik\">Sätt in punkten \\((2,\\ 5)\\) i \\(y=kx+1\\)</p><div class=\"facit-matte\">\\[5=2k+1\\Rightarrow k=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(k=2\\)</p></div>",
     "familj": "Tolka grafisk lösning",
     "formaga": [
       "procedur",
@@ -45799,7 +45799,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "triangel mellan två linjer och x-axeln",
     "t": "<p>Linjerna \\(y=2x-2\\) och \\(y=-x+7\\) bildar tillsammans med x-axeln en triangel.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"360\" viewBox=\"0 0 420 360\" role=\"img\" aria-label=\"Linjerna y = 2x − 2 och y = −x + 7 skär varandra i (3, 4) och skär x-axeln i 1 respektive 7.\"><title>Linjerna y = 2x − 2 och y = −x + 7 skär varandra i (3, 4) och skär x-axeln i 1 respektive 7.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"358\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"26\" x2=\"40.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"78.4\" y1=\"26\" x2=\"78.4\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"116.9\" y1=\"26\" x2=\"116.9\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"155.3\" y1=\"26\" x2=\"155.3\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"193.8\" y1=\"26\" x2=\"193.8\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"232.2\" y1=\"26\" x2=\"232.2\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"270.7\" y1=\"26\" x2=\"270.7\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"309.1\" y1=\"26\" x2=\"309.1\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"347.6\" y1=\"26\" x2=\"347.6\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"386.0\" y1=\"26\" x2=\"386.0\" y2=\"325\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"325.0\" x2=\"386\" y2=\"325.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"275.2\" x2=\"386\" y2=\"275.2\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"225.3\" x2=\"386\" y2=\"225.3\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"175.5\" x2=\"386\" y2=\"175.5\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"125.7\" x2=\"386\" y2=\"125.7\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"75.8\" x2=\"386\" y2=\"75.8\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"26.0\" x2=\"386\" y2=\"26.0\" stroke=\"#e3e8ee\"/><line x1=\"40\" y1=\"275.2\" x2=\"394\" y2=\"275.2\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"78.4\" y1=\"325\" x2=\"78.4\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"97.7\" y1=\"325.0\" x2=\"213.0\" y2=\"26.0\" stroke=\"#216d87\" stroke-width=\"2.6\"/><rect x=\"215.2\" y=\"28.0\" width=\"88.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"219.2\" y=\"41.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">y = 2x − 2</text><line x1=\"155.3\" y1=\"26.0\" x2=\"386.0\" y2=\"325.0\" stroke=\"#c2410c\" stroke-width=\"2.6\"/><rect x=\"292.0\" y=\"187.4\" width=\"88.6\" height=\"18\" rx=\"3\" fill=\"#fff\"/><text x=\"296.0\" y=\"200.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">y = −x + 7</text><rect x=\"31.4\" y=\"281.2\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"40.0\" y=\"291.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><rect x=\"111.6\" y=\"281.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"116.9\" y=\"291.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><rect x=\"150.0\" y=\"281.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"155.3\" y=\"291.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><rect x=\"188.5\" y=\"281.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"193.8\" y=\"291.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><rect x=\"226.9\" y=\"281.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"232.2\" y=\"291.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><rect x=\"265.4\" y=\"281.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"270.7\" y=\"291.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><rect x=\"303.8\" y=\"281.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"309.1\" y=\"291.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><rect x=\"342.3\" y=\"281.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"347.6\" y=\"291.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><rect x=\"380.7\" y=\"281.2\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"386.0\" y=\"291.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><rect x=\"57.2\" y=\"319.0\" width=\"17.2\" height=\"14\" fill=\"#fff\"/><text x=\"72.4\" y=\"329.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><rect x=\"63.8\" y=\"219.3\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"72.4\" y=\"229.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><rect x=\"63.8\" y=\"169.5\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"72.4\" y=\"179.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><rect x=\"63.8\" y=\"119.7\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"72.4\" y=\"129.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><rect x=\"63.8\" y=\"69.8\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"72.4\" y=\"79.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><rect x=\"63.8\" y=\"20.0\" width=\"10.6\" height=\"14\" fill=\"#fff\"/><text x=\"72.4\" y=\"30.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><text x=\"398.0\" y=\"280.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"85.4\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text><polygon points=\"116.9,275.2 347.6,275.2 193.8,75.8\" fill=\"#c2410c\" fill-opacity=\"0.15\"/></svg></span><p>Beräkna triangelns area. (Svara i areaenheter.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Skärningspunkten: \\(2x-2=-x+7\\Rightarrow x=3,\\ y=4\\).</p></li><li><p>Linjerna skär x-axeln i \\(x=1\\) och \\(x=7\\), så basen är 6.</p></li><li><div class=\"facit-matte\">\\[A=\\frac{6\\cdot4}{2}=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 areaenheter</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Triangelns översta hörn är linjernas skärningspunkt</p><p>Skärningspunkten: \\(2x-2=-x+7\\Rightarrow x=3,\\ y=4\\).</p></li><li><p class=\"facit-rubrik\">De andra två hörnen är där linjerna skär x-axeln</p><p>Linjerna skär x-axeln i \\(x=1\\) och \\(x=7\\), så basen är 6.</p></li><li><p class=\"facit-rubrik\">Arean är bas gånger höjd delat med 2</p><div class=\"facit-matte\">\\[A=\\frac{6\\cdot4}{2}=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 areaenheter</p></div>",
     "familj": "Tolka grafisk lösning",
     "formaga": [
       "procedur",
@@ -45828,7 +45828,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "steg för steg uppifrån",
     "t": "<p>Lös ekvationssystemet.</p><p>\\[\\begin{cases}x=2\\\\y=x+3\\\\z=x+y\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=2\\]</div></li><li><div class=\"facit-matte\">\\[y=2+3=5\\]</div></li><li><div class=\"facit-matte\">\\[z=2+5=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2,\\ y=5,\\ z=7\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">x är redan given</p><div class=\"facit-matte\">\\[x=2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in x i den andra ekvationen</p><div class=\"facit-matte\">\\[y=2+3=5\\]</div></li><li><p class=\"facit-rubrik\">Sätt in x och y i den tredje ekvationen</p><div class=\"facit-matte\">\\[z=2+5=7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2,\\ y=5,\\ z=7\\)</p></div>",
     "familj": "Lösa system med tre obekanta",
     "formaga": [
       "procedur"
@@ -45878,7 +45878,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "en obekant kvar",
     "t": "<p>I systemet nedan är x och z kända. Bestäm y.</p><p>\\[\\begin{cases}x+y+z=12\\\\x=3\\\\z=4\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3+y+4=12\\]</div></li><li><div class=\"facit-matte\">\\[y=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in de kända värdena</p><div class=\"facit-matte\">\\[3+y+4=12\\]</div></li><li><p class=\"facit-rubrik\">Lös ut y</p><div class=\"facit-matte\">\\[y=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=5\\)</p></div>",
     "familj": "Lösa system med tre obekanta",
     "formaga": [
       "procedur"
@@ -45906,7 +45906,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "eliminera genom att addera och subtrahera",
     "t": "<p>Lös ekvationssystemet.</p><p>\\[\\begin{cases}x+y+z=12\\\\x-y+z=2\\\\x+y-z=4\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Första minus andra:</p></li><li><div class=\"facit-matte\">\\[2y=10\\Rightarrow y=5\\]</div></li><li><p>Första minus tredje:</p></li><li><div class=\"facit-matte\">\\[2z=8\\Rightarrow z=4\\]</div></li><li><div class=\"facit-matte\">\\[x=12-5-4=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3,\\ y=5,\\ z=4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Subtrahera den andra ekvationen från den första; x och z försvinner</p><p>Första minus andra:</p><div class=\"facit-matte\">\\[2y=10\\Rightarrow y=5\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera den tredje ekvationen från den första; x och y försvinner</p><p>Första minus tredje:</p><div class=\"facit-matte\">\\[2z=8\\Rightarrow z=4\\]</div></li><li><p class=\"facit-rubrik\">Sätt in y och z i den första ekvationen</p><div class=\"facit-matte\">\\[x=12-5-4=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3,\\ y=5,\\ z=4\\)</p></div>",
     "familj": "Lösa system med tre obekanta",
     "formaga": [
       "procedur"
@@ -45956,7 +45956,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "tre tal som följer på varandra",
     "t": "<p>Tre jämna tal följer på varandra: \\(a\\), \\(a+2\\) och \\(a+4\\). Summan är 30. Bestäm talen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[a+(a+2)+(a+4)=30\\]</div></li><li><div class=\"facit-matte\">\\[3a=24\\Rightarrow a=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8, 10 och 12</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Summan av de tre talen är 30</p><div class=\"facit-matte\">\\[a+(a+2)+(a+4)=30\\]</div></li><li><p class=\"facit-rubrik\">Lös ut a; talen är a, a + 2 och a + 4</p><div class=\"facit-matte\">\\[3a=24\\Rightarrow a=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8, 10 och 12</p></div>",
     "familj": "Textproblem med tre obekanta",
     "formaga": [
       "procedur"
@@ -46006,7 +46006,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "kaffe, bulle och kaka",
     "t": "<p>Två kaffe och en bulle kostar 50 kr. Ett kaffe och två bullar kostar 46 kr. Ett kaffe, en bulle och en kaka kostar 52 kr. Vad kostar varje sak? (Svara i kr.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2k+b=50,\\quad k+2b=46\\]</div></li><li><p>Multiplicera den första med 2 och subtrahera den andra:</p></li><li><div class=\"facit-matte\">\\[3k=54\\Rightarrow k=18,\\quad b=14\\]</div></li><li><div class=\"facit-matte\">\\[18+14+c=52\\Rightarrow c=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kaffe 18 kr, bulle 14 kr, kaka 20 kr</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kaffe och bulle ger två ekvationer</p><div class=\"facit-matte\">\\[2k+b=50,\\quad k+2b=46\\]</div></li><li><p class=\"facit-rubrik\">Eliminera b: dubbla den första ekvationen och subtrahera den andra</p><p>Multiplicera den första med 2 och subtrahera den andra:</p><div class=\"facit-matte\">\\[3k=54\\Rightarrow k=18,\\quad b=14\\]</div></li><li><p class=\"facit-rubrik\">Använd den tredje uppgiften för att få kakans pris</p><div class=\"facit-matte\">\\[18+14+c=52\\Rightarrow c=20\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Kaffe 18 kr, bulle 14 kr, kaka 20 kr</p></div>",
     "familj": "Textproblem med tre obekanta",
     "formaga": [
       "procedur",
@@ -46057,7 +46057,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "parabel genom tre punkter",
     "t": "<p>En andragradsfunktion \\(f(x)=ax^2+bx+c\\) har \\(f(0)=3\\), \\(f(1)=4\\) och \\(f(2)=9\\). Ställ upp ett ekvationssystem och bestäm \\(a\\), \\(b\\) och \\(c\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(0,3):\\ c=3\\]</div></li><li><div class=\"facit-matte\">\\[(1,4):\\ a+b+3=4\\Rightarrow a+b=1\\]</div></li><li><div class=\"facit-matte\">\\[(2,9):\\ 4a+2b+3=9\\Rightarrow 2a+b=3\\]</div></li><li><div class=\"facit-matte\">\\[a=2,\\quad b=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2,\\ b=-1,\\ c=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Punkten \\((0,\\ 3)\\) ger c direkt</p><div class=\"facit-matte\">\\[(0,3):\\ c=3\\]</div></li><li><p class=\"facit-rubrik\">Punkten \\((1,\\ 4)\\) ger en ekvation i a och b</p><div class=\"facit-matte\">\\[(1,4):\\ a+b+3=4\\Rightarrow a+b=1\\]</div></li><li><p class=\"facit-rubrik\">Punkten \\((2,\\ 9)\\) ger en till ekvation</p><div class=\"facit-matte\">\\[(2,9):\\ 4a+2b+3=9\\Rightarrow 2a+b=3\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera ekvationerna: \\((2a+b)-(a+b)=3-1\\)</p><div class=\"facit-matte\">\\[a=2,\\quad b=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2,\\ b=-1,\\ c=3\\)</p></div>",
     "familj": "Lösa system med tre obekanta",
     "formaga": [
       "procedur",
@@ -46108,7 +46108,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "syskonens åldrar",
     "t": "<p>Tre syskon är tillsammans 36 år. Det äldsta är dubbelt så gammalt som det yngsta. Mellanbarnet är 4 år äldre än det yngsta. Hur gamla är syskonen?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla det yngsta barnets ålder y.</p></li><li><div class=\"facit-matte\">\\[y+2y+(y+4)=36\\]</div></li><li><div class=\"facit-matte\">\\[4y=32\\Rightarrow y=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16, 12 och 8 år</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Uttryck alla åldrar med det yngsta barnets ålder</p><p>Kalla det yngsta barnets ålder y.</p><div class=\"facit-matte\">\\[y+2y+(y+4)=36\\]</div></li><li><p class=\"facit-rubrik\">Lös ekvationen; de andra är \\(2y\\) och \\(y+4\\)</p><div class=\"facit-matte\">\\[4y=32\\Rightarrow y=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16, 12 och 8 år</p></div>",
     "familj": "Textproblem med tre obekanta",
     "formaga": [
       "procedur",
@@ -46164,7 +46164,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "symmetriskt system",
     "t": "<p>Lös ekvationssystemet.</p><p>\\[\\begin{cases}2x+y+z=7\\\\x+2y+z=8\\\\x+y+2z=9\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Addera alla tre ekvationerna:</p></li><li><div class=\"facit-matte\">\\[4x+4y+4z=24\\Rightarrow x+y+z=6\\]</div></li><li><p>Subtrahera \\(x+y+z=6\\) från varje ekvation:</p></li><li><div class=\"facit-matte\">\\[x=1,\\quad y=2,\\quad z=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1,\\ y=2,\\ z=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Systemet är symmetriskt, så börja med att addera alla tre ekvationerna</p><p>Addera alla tre ekvationerna:</p><div class=\"facit-matte\">\\[4x+4y+4z=24\\Rightarrow x+y+z=6\\]</div></li><li><p class=\"facit-rubrik\">Varje ekvation minus \\(x+y+z=6\\) ger en variabel direkt</p><p>Subtrahera \\(x+y+z=6\\) från varje ekvation:</p><div class=\"facit-matte\">\\[x=1,\\quad y=2,\\quad z=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=1,\\ y=2,\\ z=3\\)</p></div>",
     "familj": "Lösa system med tre obekanta",
     "formaga": [
       "procedur",
@@ -46215,7 +46215,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "mynt av tre slag",
     "t": "<p>I en spargris finns 24 mynt: enkronor, femkronor och tiokronor. Det finns lika många femkronor som tiokronor, och mynten är värda 115 kr. Hur många mynt finns det av varje sort?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[e+2f=24\\]</div></li><li><div class=\"facit-matte\">\\[e+5f+10f=115\\Rightarrow e+15f=115\\]</div></li><li><div class=\"facit-matte\">\\[13f=91\\Rightarrow f=7,\\quad e=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 enkronor, 7 femkronor och 7 tiokronor</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Antalet mynt: lika många femkronor som tiokronor</p><div class=\"facit-matte\">\\[e+2f=24\\]</div></li><li><p class=\"facit-rubrik\">Värdet av mynten</p><div class=\"facit-matte\">\\[e+5f+10f=115\\Rightarrow e+15f=115\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera den första ekvationen från den andra</p><div class=\"facit-matte\">\\[13f=91\\Rightarrow f=7,\\quad e=10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 enkronor, 7 femkronor och 7 tiokronor</p></div>",
     "familj": "Textproblem med tre obekanta",
     "formaga": [
       "procedur",
@@ -46268,7 +46268,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "system med decimalkoefficienter",
     "t": "<p>Lös ekvationssystemet.</p><p>\\[\\begin{cases}0{,}5x+y=7\\\\x-0{,}5y=1\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=1+0{,}5y\\]</div></li><li><div class=\"facit-matte\">\\[0{,}5(1+0{,}5y)+y=7\\Rightarrow1{,}25y=6{,}5\\]</div></li><li><div class=\"facit-matte\">\\[y=5{,}2,\\quad x=3{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3{,}6,\\ y=5{,}2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut x ur den andra ekvationen</p><div class=\"facit-matte\">\\[x=1+0{,}5y\\]</div></li><li><p class=\"facit-rubrik\">Sätt in i den första ekvationen</p><div class=\"facit-matte\">\\[0{,}5(1+0{,}5y)+y=7\\Rightarrow1{,}25y=6{,}5\\]</div></li><li><p class=\"facit-rubrik\">Lös ut y och räkna sedan ut x</p><div class=\"facit-matte\">\\[y=5{,}2,\\quad x=3{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3{,}6,\\ y=5{,}2\\)</p></div>",
     "familj": "Lösa och kontrollera ekvationssystem",
     "formaga": [
       "procedur"
@@ -46315,7 +46315,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "system med bråk",
     "t": "<p>Lös ekvationssystemet.</p><p>\\[\\begin{cases}\\dfrac x2+\\dfrac y3=4\\\\x-y=3\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Multiplicera den första ekvationen med 6:</p></li><li><div class=\"facit-matte\">\\[3x+2y=24\\]</div></li><li><div class=\"facit-matte\">\\[x=y+3\\Rightarrow3y+9+2y=24\\Rightarrow y=3\\]</div></li><li><div class=\"facit-matte\">\\[x=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6,\\ y=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bli av med nämnarna</p><p>Multiplicera den första ekvationen med 6:</p><div class=\"facit-matte\">\\[3x+2y=24\\]</div></li><li><p class=\"facit-rubrik\">Lös ut x ur den andra ekvationen och sätt in</p><div class=\"facit-matte\">\\[x=y+3\\Rightarrow3y+9+2y=24\\Rightarrow y=3\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(y=3\\) i \\(x=y+3\\)</p><div class=\"facit-matte\">\\[x=6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=6,\\ y=3\\)</p></div>",
     "familj": "Lösa och kontrollera ekvationssystem",
     "formaga": [
       "procedur"
@@ -46362,7 +46362,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "biljettintäkter",
     "t": "<p>En teater säljer 50 biljetter. En vuxenbiljett kostar 120 kr och en barnbiljett 70 kr. Intäkten blir 4 600 kr. Hur många av varje sort såldes?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+y=50,\\quad 120x+70y=4600\\]</div></li><li><div class=\"facit-matte\">\\[120x+70(50-x)=4600\\Rightarrow50x=1100\\]</div></li><li><div class=\"facit-matte\">\\[x=22,\\quad y=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 22 vuxenbiljetter och 28 barnbiljetter</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En ekvation för antalet biljetter och en för intäkten</p><div class=\"facit-matte\">\\[x+y=50,\\quad 120x+70y=4600\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(y=50-x\\) i intäktsekvationen</p><div class=\"facit-matte\">\\[\\begin{gathered}120x+70(50-x)=4600\\\\\\Rightarrow50x=1100\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut x och räkna ut y</p><div class=\"facit-matte\">\\[x=22,\\quad y=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 22 vuxenbiljetter och 28 barnbiljetter</p></div>",
     "familj": "Ställa upp ekvationssystem i sammanhang",
     "formaga": [
       "procedur",
@@ -46410,7 +46410,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "addera så att y försvinner",
     "t": "<p>Vilka värden på x och y uppfyller båda ekvationerna?</p><p>\\[\\begin{cases}3x-2y=12\\\\5x+2y=20\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Addera ekvationerna:</p></li><li><div class=\"facit-matte\">\\[8x=32\\Rightarrow x=4\\]</div></li><li><div class=\"facit-matte\">\\[12-2y=12\\Rightarrow y=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4,\\ y=0\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">y-termerna har motsatta tecken, så additionsmetoden passar</p><p>Addera ekvationerna:</p><div class=\"facit-matte\">\\[8x=32\\Rightarrow x=4\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=4\\) i den första ekvationen</p><div class=\"facit-matte\">\\[12-2y=12\\Rightarrow y=0\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=4,\\ y=0\\)</p></div>",
     "familj": "Lösa och kontrollera ekvationssystem",
     "formaga": [
       "procedur"
@@ -46457,7 +46457,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "summa och femdubbling",
     "t": "<p>Summan av två tal är 1. Om man tar femdubbla det första talet och drar bort det andra får man 23. Bestäm talen.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+y=1,\\quad 5x-y=23\\]</div></li><li><div class=\"facit-matte\">\\[6x=24\\Rightarrow x=4,\\quad y=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 och −3</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckna villkoren som två ekvationer</p><div class=\"facit-matte\">\\[x+y=1,\\quad 5x-y=23\\]</div></li><li><p class=\"facit-rubrik\">Addera ekvationerna så att y försvinner</p><div class=\"facit-matte\">\\[6x=24\\Rightarrow x=4,\\quad y=-3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 och −3</p></div>",
     "familj": "Ställa upp ekvationssystem i sammanhang",
     "formaga": [
       "procedur"
@@ -46504,7 +46504,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "konstanter ur en känd lösning",
     "t": "<p>Systemet nedan har lösningen \\(x=2,\\ y=1\\). Bestäm \\(a\\) och \\(b\\).</p><p>\\[\\begin{cases}ax+by=7\\\\ax-by=1\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2a+b=7,\\quad 2a-b=1\\]</div></li><li><div class=\"facit-matte\">\\[4a=8\\Rightarrow a=2,\\quad b=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2,\\ b=3\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in lösningen \\(x=2,\\ y=1\\); a och b blir de obekanta</p><div class=\"facit-matte\">\\[2a+b=7,\\quad 2a-b=1\\]</div></li><li><p class=\"facit-rubrik\">Addera ekvationerna och lös ut a och b</p><div class=\"facit-matte\">\\[4a=8\\Rightarrow a=2,\\quad b=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=2,\\ b=3\\)</p></div>",
     "familj": "Ekvationssystem i text och med parametrar",
     "formaga": [
       "procedur",
@@ -46552,7 +46552,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "tvåsiffrigt tal",
     "t": "<p>Ett tvåsiffrigt tal har siffersumman 11. Om siffrorna byter plats blir talet 45 större. Vilket är talet?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kalla tiotalssiffran a och entalssiffran b.</p></li><li><div class=\"facit-matte\">\\[a+b=11\\]</div></li><li><div class=\"facit-matte\">\\[(10b+a)-(10a+b)=45\\Rightarrow b-a=5\\]</div></li><li><div class=\"facit-matte\">\\[b=8,\\quad a=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 38</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Inför en variabel för varje siffra</p><p>Kalla tiotalssiffran a och entalssiffran b.</p></li><li><p class=\"facit-rubrik\">Siffersumman ger den första ekvationen</p><div class=\"facit-matte\">\\[a+b=11\\]</div></li><li><p class=\"facit-rubrik\">Det omvända talet är 45 större</p><div class=\"facit-matte\">\\[(10b+a)-(10a+b)=45\\Rightarrow b-a=5\\]</div></li><li><p class=\"facit-rubrik\">Addera ekvationerna: \\(2b=16\\)</p><div class=\"facit-matte\">\\[b=8,\\quad a=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 38</p></div>",
     "familj": "Ställa upp ekvationssystem i sammanhang",
     "formaga": [
       "procedur",
@@ -46583,7 +46583,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "rektangel med oförändrad area",
     "t": "<p>En rektangel har omkretsen 34 cm. Om längden ökas med 3 cm och bredden minskas med 2 cm blir arean oförändrad. Bestäm längd och bredd. (Svara i cm.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[l+b=17\\]</div></li><li><div class=\"facit-matte\">\\[(l+3)(b-2)=lb\\Rightarrow -2l+3b=6\\]</div></li><li><div class=\"facit-matte\">\\[-2(17-b)+3b=6\\Rightarrow5b=40\\]</div></li><li><div class=\"facit-matte\">\\[b=8,\\quad l=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Längd 9 cm, bredd 8 cm</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Halva omkretsen är längd plus bredd</p><div class=\"facit-matte\">\\[l+b=17\\]</div></li><li><p class=\"facit-rubrik\">Utveckla areavillkoret; \\(lb\\) tar ut varandra</p><div class=\"facit-matte\">\\[(l+3)(b-2)=lb\\Rightarrow -2l+3b=6\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(l=17-b\\)</p><div class=\"facit-matte\">\\[-2(17-b)+3b=6\\Rightarrow5b=40\\]</div></li><li><p class=\"facit-rubrik\">Lös ut b och räkna ut l</p><div class=\"facit-matte\">\\[b=8,\\quad l=9\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Längd 9 cm, bredd 8 cm</p></div>",
     "familj": "Ställa upp ekvationssystem i sammanhang",
     "formaga": [
       "procedur",
@@ -46635,7 +46635,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "parameter för lösning med lika koordinater",
     "t": "<p>Bestäm \\(a\\) så att systemet har en lösning där \\(x=y\\).</p><p>\\[\\begin{cases}2x+ay=14\\\\x+y=4\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x=y\\Rightarrow 2x=4\\Rightarrow x=y=2\\]</div></li><li><div class=\"facit-matte\">\\[2\\cdot2+2a=14\\Rightarrow a=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Villkoret \\(x=y\\) i den andra ekvationen ger lösningen</p><div class=\"facit-matte\">\\[x=y\\Rightarrow 2x=4\\Rightarrow x=y=2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=y=2\\) i den första ekvationen</p><div class=\"facit-matte\">\\[2\\cdot2+2a=14\\Rightarrow a=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=5\\)</p></div>",
     "familj": "Ekvationssystem i text och med parametrar",
     "formaga": [
       "procedur",
@@ -46666,7 +46666,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "hyrbilar som kostar lika",
     "t": "<p>Hyrbil A kostar 400 kr plus 2 kr per km. Hyrbil B kostar 250 kr plus 3 kr per km. Vid vilken körsträcka kostar bilarna lika mycket? (Svara i km.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[400+2x=250+3x\\]</div></li><li><div class=\"facit-matte\">\\[x=150\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 150 km</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt kostnaderna lika</p><div class=\"facit-matte\">\\[400+2x=250+3x\\]</div></li><li><p class=\"facit-rubrik\">Samla x-termerna på ena sidan</p><div class=\"facit-matte\">\\[x=150\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 150 km</p></div>",
     "familj": "Ekonomiska problem med ekvationssystem",
     "formaga": [
       "procedur",
@@ -46698,7 +46698,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "blanda saft",
     "t": "<p>Saft A innehåller 40 % koncentrat och saft B 10 %. Hur många liter av varje ska blandas för att få 6 liter med 20 % koncentrat?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+y=6,\\quad 0{,}40x+0{,}10y=0{,}20\\cdot6=1{,}2\\]</div></li><li><div class=\"facit-matte\">\\[0{,}4x+0{,}1(6-x)=1{,}2\\Rightarrow0{,}3x=0{,}6\\]</div></li><li><div class=\"facit-matte\">\\[x=2,\\quad y=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 liter A och 4 liter B</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En ekvation för volymen och en för mängden koncentrat</p><div class=\"facit-matte\">\\[\\begin{gathered}x+y=6,\\\\0{,}40x+0{,}10y=0{,}20\\cdot6=1{,}2\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(y=6-x\\) i koncentratekvationen</p><div class=\"facit-matte\">\\[0{,}4x+0{,}1(6-x)=1{,}2\\Rightarrow0{,}3x=0{,}6\\]</div></li><li><p class=\"facit-rubrik\">Lös ut x och räkna ut y</p><div class=\"facit-matte\">\\[x=2,\\quad y=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 liter A och 4 liter B</p></div>",
     "familj": "Blandnings-, rörelse- och talproblem",
     "formaga": [
       "procedur",
@@ -46750,7 +46750,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "flygplan med och mot vinden",
     "t": "<p>Ett flygplan flyger med farten 600 km/h med vinden och 480 km/h mot vinden. Planets fart i stilla luft är \\(v\\) och vindens fart är \\(u\\). Vilket ekvationssystem stämmer?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Med vinden adderas farterna, mot vinden subtraheras de.</p></li><li><div class=\"facit-matte\">\\[v+u=600,\\quad v-u=480\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v+u=600\\) och \\(v-u=480\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Med vinden adderas farterna, mot vinden subtraheras vindens fart</p><p>Med vinden adderas farterna, mot vinden subtraheras de.</p><div class=\"facit-matte\">\\[v+u=600,\\quad v-u=480\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v+u=600\\) och \\(v-u=480\\)</p></div>",
     "familj": "Ställa upp ekvationssystem",
     "formaga": [
       "begrepp",
@@ -46801,7 +46801,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "smörgåsar och juice",
     "t": "<p>Tre smörgåsar och två juice kostar 165 kr. Två smörgåsar och tre juice kostar 145 kr. Vad kostar en smörgås och en juice? (Svara i kr.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3s+2j=165,\\quad 2s+3j=145\\]</div></li><li><p>Addera: \\(5s+5j=310\\), alltså \\(s+j=62\\). Subtrahera: \\(s-j=20\\).</p></li><li><div class=\"facit-matte\">\\[s=41,\\quad j=21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Smörgås 41 kr, juice 21 kr</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckna de två köpen</p><div class=\"facit-matte\">\\[3s+2j=165,\\quad 2s+3j=145\\]</div></li><li><p class=\"facit-rubrik\">Addera och subtrahera ekvationerna för att få summan och skillnaden av priserna</p><p>Addera: \\(5s+5j=310\\), alltså \\(s+j=62\\). Subtrahera: \\(s-j=20\\).</p></li><li><p class=\"facit-rubrik\">Addera \\(s+j=62\\) och \\(s-j=20\\)</p><div class=\"facit-matte\">\\[s=41,\\quad j=21\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Smörgås 41 kr, juice 21 kr</p></div>",
     "familj": "Ekonomiska problem med ekvationssystem",
     "formaga": [
       "procedur",
@@ -46853,7 +46853,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "båt med och mot strömmen",
     "t": "<p>En båt kör 30 km med strömmen på 1,5 h och samma sträcka mot strömmen på 2,5 h. Bestäm båtens fart i stilla vatten och strömmens fart. (Svara i km/h.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[v+u=\\frac{30}{1{,}5}=20,\\quad v-u=\\frac{30}{2{,}5}=12\\]</div></li><li><div class=\"facit-matte\">\\[v=16,\\quad u=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Båten 16 km/h, strömmen 4 km/h</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Farten med och mot strömmen är sträckan delad med tiden</p><div class=\"facit-matte\">\\[v+u=\\frac{30}{1{,}5}=20,\\quad v-u=\\frac{30}{2{,}5}=12\\]</div></li><li><p class=\"facit-rubrik\">Addera och subtrahera ekvationerna</p><div class=\"facit-matte\">\\[v=16,\\quad u=4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Båten 16 km/h, strömmen 4 km/h</p></div>",
     "familj": "Blandnings-, rörelse- och talproblem",
     "formaga": [
       "procedur",
@@ -46905,7 +46905,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "två sparkonton",
     "t": "<p>Elsa har 50 000 kr fördelat på två konton med räntan 2 % och 3 %. Efter ett år har hon fått 1 300 kr i ränta sammanlagt. Hur mycket finns på varje konto? (Svara i kr.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x+y=50\\,000,\\quad 0{,}02x+0{,}03y=1300\\]</div></li><li><div class=\"facit-matte\">\\[0{,}02x+0{,}03(50\\,000-x)=1300\\Rightarrow-0{,}01x=-200\\]</div></li><li><div class=\"facit-matte\">\\[x=20\\,000,\\quad y=30\\,000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 000 kr på 2 %-kontot och 30 000 kr på 3 %-kontot</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En ekvation för beloppet och en för räntan</p><div class=\"facit-matte\">\\[\\begin{gathered}x+y=50\\,000,\\\\0{,}02x+0{,}03y=1300\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(y=50\\,000-x\\) i ränteekvationen</p><div class=\"facit-matte\">\\[\\begin{gathered}0{,}02x+0{,}03(50\\,000-x)=1300\\\\\\Rightarrow-0{,}01x=-200\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lös ut x och räkna ut y</p><div class=\"facit-matte\">\\[x=20\\,000,\\quad y=30\\,000\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 20 000 kr på 2 %-kontot och 30 000 kr på 3 %-kontot</p></div>",
     "familj": "Ekonomiska problem med ekvationssystem",
     "formaga": [
       "procedur",
@@ -46957,7 +46957,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "priser före och efter höjning",
     "t": "<p>Två vuxenbiljetter och tre barnbiljetter kostar 700 kr. Vuxenbiljetten höjs med 10 % och barnbiljetten med 20 %. Efter höjningen kostar samma köp 800 kr. Vad kostade biljetterna före höjningen? (Svara i kr.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2v+3b=700\\]</div></li><li><div class=\"facit-matte\">\\[2\\cdot1{,}1v+3\\cdot1{,}2b=800\\Rightarrow2{,}2v+3{,}6b=800\\]</div></li><li><p>Multiplicera den första med 1,1 och subtrahera: \\(0{,}3b=30\\).</p></li><li><div class=\"facit-matte\">\\[b=100,\\quad v=200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vuxen 200 kr, barn 100 kr</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Köpet före höjningen</p><div class=\"facit-matte\">\\[2v+3b=700\\]</div></li><li><p class=\"facit-rubrik\">Efter höjningen multipliceras priserna med förändringsfaktorerna 1,1 och 1,2</p><div class=\"facit-matte\">\\[\\begin{gathered}2\\cdot1{,}1v+3\\cdot1{,}2b=800\\\\\\Rightarrow2{,}2v+3{,}6b=800\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Eliminera v: multiplicera den första ekvationen med 1,1 och subtrahera</p><p>Multiplicera den första med 1,1 och subtrahera: \\(0{,}3b=30\\).</p></li><li><p class=\"facit-rubrik\">Lös ut b och räkna ut v</p><div class=\"facit-matte\">\\[b=100,\\quad v=200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vuxen 200 kr, barn 100 kr</p></div>",
     "familj": "Ekonomiska problem med ekvationssystem",
     "formaga": [
       "procedur",
@@ -47009,7 +47009,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "tåg som möts",
     "t": "<p>Två tåg startar samtidigt från två städer som ligger 360 km från varandra och kör mot varandra. De möts efter 2 h. Det ena tåget kör 20 km/h fortare än det andra. Bestäm tågens farter. (Svara i km/h.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2v_1+2v_2=360\\Rightarrow v_1+v_2=180\\]</div></li><li><div class=\"facit-matte\">\\[v_1-v_2=20\\]</div></li><li><div class=\"facit-matte\">\\[v_1=100,\\quad v_2=80\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100 km/h och 80 km/h</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tillsammans kör tågen hela sträckan på 2 h</p><div class=\"facit-matte\">\\[2v_1+2v_2=360\\Rightarrow v_1+v_2=180\\]</div></li><li><p class=\"facit-rubrik\">Det ena tåget kör 20 km/h fortare</p><div class=\"facit-matte\">\\[v_1-v_2=20\\]</div></li><li><p class=\"facit-rubrik\">Addera ekvationerna: \\(2v_1=200\\)</p><div class=\"facit-matte\">\\[v_1=100,\\quad v_2=80\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 100 km/h och 80 km/h</p></div>",
     "familj": "Blandnings-, rörelse- och talproblem",
     "formaga": [
       "procedur",
@@ -47061,7 +47061,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "substitution med koefficient tre",
     "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\[\\begin{cases}y=3x-5\\\\2x+3y=7\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2x+3(3x-5)=7\\]</div></li><li><div class=\"facit-matte\">\\[11x=22\\Rightarrow x=2\\]</div></li><li><div class=\"facit-matte\">\\[y=3\\cdot2-5=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2,\\ y=1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt y i den andra ekvationen med \\(3x-5\\)</p><div class=\"facit-matte\">\\[2x+3(3x-5)=7\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera in och lös ut x</p><div class=\"facit-matte\">\\[11x=22\\Rightarrow x=2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in x i \\(y=3x-5\\)</p><div class=\"facit-matte\">\\[y=3\\cdot2-5=1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2,\\ y=1\\)</p></div>",
     "familj": "Lösa med substitutionsmetoden",
     "formaga": [
       "procedur"
@@ -47108,7 +47108,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "x uttryckt med y",
     "t": "<p>Lös systemet med substitutionsmetoden.</p><p>\\[\\begin{cases}x=2y+1\\\\3x-4y=7\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3(2y+1)-4y=7\\]</div></li><li><div class=\"facit-matte\">\\[2y=4\\Rightarrow y=2\\]</div></li><li><div class=\"facit-matte\">\\[x=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5,\\ y=2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt x i den andra ekvationen med \\(2y+1\\)</p><div class=\"facit-matte\">\\[3(2y+1)-4y=7\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera in och lös ut y</p><div class=\"facit-matte\">\\[2y=4\\Rightarrow y=2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in y i \\(x=2y+1\\)</p><div class=\"facit-matte\">\\[x=5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=5,\\ y=2\\)</p></div>",
     "familj": "Lösa med substitutionsmetoden",
     "formaga": [
       "procedur"
@@ -47155,7 +47155,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "parabel och linje",
     "t": "<p>Bestäm x-koordinaterna för skärningspunkterna mellan \\(y=x^2\\) och \\(y=x+2\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2=x+2\\]</div></li><li><div class=\"facit-matte\">\\[x^2-x-2=0\\]</div></li><li><div class=\"facit-matte\">\\[(x-2)(x+1)=0\\]</div></li><li><div class=\"facit-matte\">\\[x=2\\quad\\text{eller}\\quad x=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\) eller \\(x=-1\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I skärningspunkterna är y-värdena lika</p><div class=\"facit-matte\">\\[x^2=x+2\\]</div></li><li><p class=\"facit-rubrik\">Samla allt i ett led</p><div class=\"facit-matte\">\\[x^2-x-2=0\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera: två tal med produkten −2 och summan −1</p><div class=\"facit-matte\">\\[(x-2)(x+1)=0\\]</div></li><li><p class=\"facit-rubrik\">Nollproduktmetoden</p><div class=\"facit-matte\">\\[x=2\\quad\\text{eller}\\quad x=-1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2\\) eller \\(x=-1\\)</p></div>",
     "familj": "Substitution med parametrar och resonemang",
     "formaga": [
       "procedur",
@@ -47200,7 +47200,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "parameter ur y-värdet i lösningen",
     "t": "<p>Systemet nedan har en lösning där \\(y=2\\). Bestäm \\(a\\).</p><p>\\[\\begin{cases}y=2x+a\\\\3x-y=4\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[3x-2=4\\Rightarrow x=2\\]</div></li><li><div class=\"facit-matte\">\\[2=2\\cdot2+a\\Rightarrow a=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in \\(y=2\\) i den andra ekvationen</p><div class=\"facit-matte\">\\[3x-2=4\\Rightarrow x=2\\]</div></li><li><p class=\"facit-rubrik\">Sätt in \\(x=2,\\ y=2\\) i den första ekvationen</p><div class=\"facit-matte\">\\[2=2\\cdot2+a\\Rightarrow a=-2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-2\\)</p></div>",
     "familj": "Substitution med parametrar och resonemang",
     "formaga": [
       "procedur",
@@ -47231,7 +47231,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "summa och produkt",
     "t": "<p>Bestäm två tal \\(x\\) och \\(y\\) som uppfyller \\(x+y=10\\) och \\(xy=21\\). (Ange de två talen.)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y=10-x\\]</div></li><li><div class=\"facit-matte\">\\[x(10-x)=21\\Rightarrow x^2-10x+21=0\\]</div></li><li><div class=\"facit-matte\">\\[(x-3)(x-7)=0\\]</div></li><li><p>Talen är 3 och 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 och 7</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut y ur summan</p><div class=\"facit-matte\">\\[y=10-x\\]</div></li><li><p class=\"facit-rubrik\">Sätt in i produkten; det ger en andragradsekvation</p><div class=\"facit-matte\">\\[x(10-x)=21\\Rightarrow x^2-10x+21=0\\]</div></li><li><p class=\"facit-rubrik\">Faktorisera: två tal med produkten 21 och summan −10</p><div class=\"facit-matte\">\\[(x-3)(x-7)=0\\]</div></li><li><p class=\"facit-rubrik\">Om \\(x=3\\) är \\(y=7\\), och tvärtom</p><p>Talen är 3 och 7.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 3 och 7</p></div>",
     "familj": "Substitution med parametrar och resonemang",
     "formaga": [
       "procedur",
@@ -47276,7 +47276,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "motsägelse vid substitution",
     "t": "<p>Lisa löser ett ekvationssystem med substitutionsmetoden och får till slut \\(0=5\\). Vad betyder det?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En falsk likhet betyder att inga x och y uppfyller båda ekvationerna. Linjerna är parallella.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Systemet saknar lösning.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En likhet som aldrig kan stämma betyder att systemet saknar lösning</p><p>En falsk likhet betyder att inga x och y uppfyller båda ekvationerna. Linjerna är parallella.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Systemet saknar lösning.</p></div>",
     "familj": "Substitution med parametrar och resonemang",
     "formaga": [
       "begrepp",
@@ -47327,7 +47327,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "0/1/0",
     "typ": "samma linje i två former",
     "t": "<p>Hur många lösningar har systemet?</p><p>\\[\\begin{cases}y=\\dfrac{x+1}2\\\\2y-x=1\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[2\\cdot\\frac{x+1}{2}-x=1\\]</div></li><li><div class=\"facit-matte\">\\[x+1-x=1\\Rightarrow1=1\\]</div></li><li><p>Likheten gäller för alla x. Ekvationerna beskriver samma linje.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Oändligt många</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ersätt y i den andra ekvationen</p><div class=\"facit-matte\">\\[2\\cdot\\frac{x+1}{2}-x=1\\]</div></li><li><p class=\"facit-rubrik\">x tar ut varandra och kvar blir en sann likhet</p><div class=\"facit-matte\">\\[x+1-x=1\\Rightarrow1=1\\]</div></li><li><p class=\"facit-rubrik\">En likhet som gäller för alla x betyder att ekvationerna beskriver samma linje</p><p>Likheten gäller för alla x. Ekvationerna beskriver samma linje.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Oändligt många</p></div>",
     "familj": "Substitution med parametrar och resonemang",
     "formaga": [
       "begrepp",
@@ -47373,7 +47373,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "area av L-form",
     "t": "<p>En kvadrat med sidan 7 cm har fått ett hörn bortklippt. Hörnet var en kvadrat med sidan 3 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"348\" height=\"314\" viewBox=\"0 0 348 314\" role=\"img\" aria-label=\"En kvadrat med sidan 7 cm där en kvadrat med sidan 3 cm har klippts bort i ett hörn. Den blå L-formen är kvar.\"><title>En kvadrat med sidan 7 cm där en kvadrat med sidan 3 cm har klippts bort i ett hörn. Den blå L-formen är kvar.</title><rect x=\"1\" y=\"1\" width=\"346\" height=\"312\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"50,40 288,40 288,176 186,176 186,278 50,278\" fill=\"#d9ecf2\" stroke=\"#216d87\" stroke-width=\"2\"/><rect x=\"186\" y=\"176\" width=\"102\" height=\"102\" fill=\"none\" stroke=\"#5b6773\" stroke-width=\"1.5\" stroke-dasharray=\"6 4\"/><text x=\"169.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">7 cm</text><text x=\"40.0\" y=\"159.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#216d87\" font-weight=\"bold\">7 cm</text><text x=\"237.0\" y=\"298.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#5b6773\">3 cm</text><text x=\"296.0\" y=\"232.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#5b6773\">3 cm</text></svg></span><p>Beräkna arean av den blå delen. (Svara i cm².)</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7^2-3^2=49-9=40\\]</div></li><li><p>Det är samma sak som \\((7+3)(7-3)=10\\cdot4=40\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40 cm²</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hela kvadraten minus den bortklippta kvadraten</p><div class=\"facit-matte\">\\[7^2-3^2=49-9=40\\]</div></li><li><p class=\"facit-rubrik\">Samma sak med konjugatregeln</p><p>Det är samma sak som \\((7+3)(7-3)=10\\cdot4=40\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 40 cm²</p></div>",
     "familj": "Utveckla och räkna med konjugatregeln",
     "formaga": [
       "procedur",
@@ -47405,7 +47405,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "välj rätt produkt",
     "t": "<p>Vilket uttryck är lika med \\((x+6)(x-6)\\)?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x+6)(x-6)=x^2-6^2=x^2-36\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^2-36\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konjugatregeln med termerna x och 6</p><div class=\"facit-matte\">\\[(x+6)(x-6)=x^2-6^2=x^2-36\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x^2-36\\)</p></div>",
     "familj": "Utveckla och räkna med konjugatregeln",
     "formaga": [
       "begrepp"
@@ -47455,7 +47455,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "saknat tal i konjugatparet",
     "t": "<p>Vilket tal ska stå i båda rutorna? \\[(x+\\square)(x-\\square)=x^2-49\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[7^2=49\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">\\(x^2-49=x^2-\\square^2\\), så rutan ska vara ett tal vars kvadrat är 49</p><div class=\"facit-matte\">\\[7^2=49\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7</p></div>",
     "familj": "Faktorisera och lösa ekvationer med konjugatregeln",
     "formaga": [
       "begrepp"
@@ -47485,7 +47485,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "faktorisera x² − 1",
     "t": "<p>Faktorisera \\(x^2-1\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2-1=x^2-1^2\\]</div></li><li><div class=\"facit-matte\">\\[=(x-1)(x+1)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((x-1)(x+1)\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv 1 som \\(1^2\\)</p><div class=\"facit-matte\">\\[x^2-1=x^2-1^2\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln baklänges</p><div class=\"facit-matte\">\\[=(x-1)(x+1)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((x-1)(x+1)\\)</p></div>",
     "familj": "Faktorisera och lösa ekvationer med konjugatregeln",
     "formaga": [
       "procedur"
@@ -47515,7 +47515,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "decimaltal nära 1",
     "t": "<p>Hur kan du snabbt räkna ut \\(1{,}1\\cdot0{,}9\\) med konjugatregeln? Ange produkten.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[1{,}1\\cdot0{,}9=(1+0{,}1)(1-0{,}1)\\]</div></li><li><div class=\"facit-matte\">\\[=1-0{,}01=0{,}99\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,99</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Båda talen ligger 0,1 från 1</p><div class=\"facit-matte\">\\[1{,}1\\cdot0{,}9=(1+0{,}1)(1-0{,}1)\\]</div></li><li><p class=\"facit-rubrik\">Konjugatregeln: \\(1^2-0{,}1^2\\)</p><div class=\"facit-matte\">\\[=1-0{,}01=0{,}99\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,99</p></div>",
     "familj": "Utveckla och räkna med konjugatregeln",
     "formaga": [
       "procedur",
@@ -47546,7 +47546,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "konjugat med två variabler",
     "t": "<p>Förenkla \\((3a+2b)(3a-2b)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(3a)^2-(2b)^2\\]</div></li><li><div class=\"facit-matte\">\\[=9a^2-4b^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9a^2-4b^2\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Konjugatregeln med termerna \\(3a\\) och \\(2b\\)</p><div class=\"facit-matte\">\\[(3a)^2-(2b)^2\\]</div></li><li><p class=\"facit-rubrik\">Kvadrera båda termerna</p><div class=\"facit-matte\">\\[=9a^2-4b^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9a^2-4b^2\\)</p></div>",
     "familj": "Utveckla och räkna med konjugatregeln",
     "formaga": [
       "procedur"
@@ -47576,7 +47576,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "skillnad mellan två konjugatprodukter",
     "t": "<p>Förenkla \\((x+5)(x-5)-(x+3)(x-3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[(x^2-25)-(x^2-9)\\]</div></li><li><div class=\"facit-matte\">\\[=-16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-16\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd konjugatregeln på båda produkterna</p><div class=\"facit-matte\">\\[(x^2-25)-(x^2-9)\\]</div></li><li><p class=\"facit-rubrik\">Ta bort parenteserna; \\(x^2\\) tar ut varandra</p><div class=\"facit-matte\">\\[=-16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(-16\\)</p></div>",
     "familj": "Utveckla och räkna med konjugatregeln",
     "formaga": [
       "procedur"
@@ -47606,7 +47606,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "ekvation med konjugatprodukt",
     "t": "<p>Lös ekvationen \\((x+4)(x-4)=9\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[x^2-16=9\\]</div></li><li><div class=\"facit-matte\">\\[x^2=25\\Rightarrow x=\\pm5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Förenkla vänster led med konjugatregeln</p><div class=\"facit-matte\">\\[x^2-16=9\\]</div></li><li><p class=\"facit-rubrik\">Addera 16 och dra roten ur; båda tecknen ger lösningar</p><div class=\"facit-matte\">\\[x^2=25\\Rightarrow x=\\pm5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm5\\)</p></div>",
     "familj": "Faktorisera och lösa ekvationer med konjugatregeln",
     "formaga": [
       "procedur"
@@ -47650,7 +47650,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "olika riktningskoefficienter",
     "t": "<p>Hur många lösningar har systemet?</p><p>\\[\\begin{cases}y=4x-1\\\\y=-x+4\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Linjerna har olika riktningskoefficienter (4 och −1). De skär varandra i exakt en punkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Olika riktningskoefficienter ger exakt en skärningspunkt</p><p>Linjerna har olika riktningskoefficienter (4 och −1). De skär varandra i exakt en punkt.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> En</p></div>",
     "familj": "Klassificera antal lösningar",
     "formaga": [
       "begrepp"
@@ -47695,7 +47695,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "m för samma linje",
     "t": "<p>Systemet \\(y=2x-4\\) och \\(y=2x+b\\) har oändligt många lösningar. Bestäm \\(b\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Linjerna måste vara samma linje, så m-värdena ska vara lika.</p></li><li><div class=\"facit-matte\">\\[b=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=-4\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Oändligt många lösningar betyder att linjerna sammanfaller</p><p>Linjerna måste vara samma linje, så m-värdena ska vara lika.</p></li><li><p class=\"facit-rubrik\">Jämför m-värdena</p><div class=\"facit-matte\">\\[b=-4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(b=-4\\)</p></div>",
     "familj": "Parameterfall i ekvationssystem",
     "formaga": [
       "begrepp"
@@ -47725,7 +47725,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "lika mycket pengar hela tiden",
     "t": "<p>Ali och Bea har 200 kr var och sparar båda 50 kr i veckan. Efter hur många veckor har de lika mycket pengar?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[200+50x=200+50x\\]</div></li><li><p>Likheten gäller för alla x. De har alltid lika mycket.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hela tiden</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Teckna Alis och Beas belopp efter x veckor och sätt dem lika</p><div class=\"facit-matte\">\\[200+50x=200+50x\\]</div></li><li><p class=\"facit-rubrik\">Uttrycken är identiska, så likheten gäller för alla x</p><p>Likheten gäller för alla x. De har alltid lika mycket.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Hela tiden</p></div>",
     "familj": "Tolka i grafer och vardagssituationer",
     "formaga": [
       "begrepp",
@@ -47771,7 +47771,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "parameter för parallella linjer",
     "t": "<p>För vilket värde på \\(a\\) saknar systemet lösning?</p><p>\\[\\begin{cases}ax+y=3\\\\2x+4y=5\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[y=-ax+3,\\quad y=-0{,}5x+1{,}25\\]</div></li><li><p>Linjerna är parallella (och olika) när \\(a=0{,}5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=0{,}5\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv båda ekvationerna på formen \\(y=kx+m\\)</p><div class=\"facit-matte\">\\[y=-ax+3,\\quad y=-0{,}5x+1{,}25\\]</div></li><li><p class=\"facit-rubrik\">Ingen lösning: samma k men olika m</p><p>Linjerna är parallella (och olika) när \\(a=0{,}5\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=0{,}5\\)</p></div>",
     "familj": "Parameterfall i ekvationssystem",
     "formaga": [
       "procedur",
@@ -47802,7 +47802,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "en sann likhet är inget x-värde",
     "t": "<p>Kim löser ett ekvationssystem och får till slut \\(3=3\\). Han säger: ”Då är \\(x=3\\).” Vad stämmer?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>x har försvunnit. En sann likhet betyder att alla par som uppfyller den ena ekvationen också uppfyller den andra, alltså oändligt många lösningar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Systemet har oändligt många lösningar.</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En sann likhet utan x betyder att ekvationerna beskriver samma linje</p><p>x har försvunnit. En sann likhet betyder att alla par som uppfyller den ena ekvationen också uppfyller den andra, alltså oändligt många lösningar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Systemet har oändligt många lösningar.</p></div>",
     "familj": "Klassificera antal lösningar",
     "formaga": [
       "begrepp",
@@ -47848,7 +47848,7 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "poang": "1/0/0",
     "typ": "högerled för oändligt många lösningar",
     "t": "<p>Bestäm \\(c\\) så att systemet har oändligt många lösningar.</p><p>\\[\\begin{cases}3x-y=2\\\\12x-4y=c\\end{cases}\\]</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Den andra ekvationens vänsterled är 4 gånger den förstas. Då måste även högerledet vara 4 gånger så stort.</p></li><li><div class=\"facit-matte\">\\[c=4\\cdot2=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c=8\\)</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Den andra ekvationens vänsterled är 4 gånger den förstas</p><p>Den andra ekvationens vänsterled är 4 gånger den förstas. Då måste även högerledet vara 4 gånger så stort.</p></li><li><p class=\"facit-rubrik\">Samma linje kräver att även högerledet är 4 gånger så stort</p><div class=\"facit-matte\">\\[c=4\\cdot2=8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(c=8\\)</p></div>",
     "familj": "Parameterfall i ekvationssystem",
     "formaga": [
       "procedur",

@@ -49408,5 +49408,1892 @@ window.BANKMA2 = [{"id":"1.01","kap":1,"omr":"multiplicera_parenteser","kurs":["
     "tolerans": 0,
     "svarFormat": "numeriskt",
     "svarEnhet": "°"
+  },
+  {
+    "id": "3.2096",
+    "kap": 3,
+    "omr": "geometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "antal kakelplattor på ett golv",
+    "t": "<p>Ett badrumsgolv är en rektangel som är 4,2 m lång och 2,7 m bred. Det ska täckas med kvadratiska klinkerplattor med sidan 30 cm. Hur många plattor behövs, om inga plattor behöver kapas?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 230\" role=\"img\" aria-label=\"Ett rektangulärt golv som är 4,2 m långt och 2,7 m brett. En kvadratisk platta med sidan 30 cm är markerad i ett hörn, och en rad och en kolumn plattor antyds.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"95.8,182.0 110.7,182.0 110.7,167.1 95.8,167.1\" fill=\"#d9622b\" fill-opacity=\"0.5\"/><polygon points=\"95.8,182.0 304.2,182.0 304.2,48.0 95.8,48.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"110.7\" y1=\"182.0\" x2=\"110.7\" y2=\"48.0\" stroke=\"#7a8794\" stroke-width=\"1\"/><line x1=\"95.8\" y1=\"167.1\" x2=\"304.2\" y2=\"167.1\" stroke=\"#7a8794\" stroke-width=\"1\"/><text x=\"200.0\" y=\"203.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">4,2 m</text><text x=\"332.7\" y=\"120.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">2,7 m</text><text x=\"129.2\" y=\"158.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">30 cm</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Längs den långa sidan får det plats \\(420/30=14\\) plattor och längs den korta \\(270/30=9\\) plattor. Det ger</p><div class=\"facit-matte\">\\[14\\cdot9=126\\]</div><p>plattor. Man kan också dela golvets area, \\(42\\,\\text{dm}\\cdot27\\,\\text{dm}=1134\\) dm², med plattans area 9 dm².</p><p class=\"facit-svar\"><strong>Svar:</strong> 126 plattor</p></div>",
+    "familj": "Areor i sammansatta figurer",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många plattor får plats längs varje sida? Räkna i centimeter.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 126,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.2097",
+    "kap": 3,
+    "omr": "geometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vinkeln i nocken på ett sadeltak",
+    "t": "<p>Ett sadeltak sett från gaveln är en likbent triangel. Taket lutar \\(35^\\circ\\) mot det vågräta på båda sidor. Hur stor är vinkeln \\(x\\) i nocken, högst upp? (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"En likbent triangel som visar ett sadeltak från gaveln. Vinklarna vid takfötterna är 35 grader och vinkeln x i nocken är okänd.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"48.0,163.2 352.0,163.2 200.0,56.8\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M 82.0 163.2 A 34 34 0 0 0 75.9 143.7\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"94.7\" y=\"153.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">35°</text><path d=\"M 324.1 143.7 A 34 34 0 0 0 318.0 163.2\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"305.3\" y=\"153.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">35°</text><path d=\"M 178.7 71.7 A 26 26 0 0 0 221.3 71.7\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"200.0\" y=\"102.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vinkelsumman i triangeln är \\(180^\\circ\\), och de två vinklarna vid takfötterna är \\(35^\\circ\\) var:</p><div class=\"facit-matte\">\\[x=180^\\circ-2\\cdot35^\\circ=110^\\circ\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(110^\\circ\\)</p></div>",
+    "familj": "Vinklar i deltrianglar",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vad är vinkelsumman i en triangel?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 110,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2098",
+    "kap": 3,
+    "omr": "geometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "area av en drake ur diagonalerna",
+    "t": "<p>En drake har formen av en fyrhörning vars diagonaler är vinkelräta mot varandra. Diagonalerna är 60 cm och 90 cm. Hur stor är drakens area? (Svara i cm².)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"En drakformad fyrhörning med vinkelräta diagonaler. Den vågräta diagonalen är 60 cm och den lodräta 90 cm.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"200.0,48.0 261.3,99.1 200.0,232.0 138.7,99.1\" fill=\"#2f6fca\" fill-opacity=\"0.15\"/><polygon points=\"200.0,48.0 261.3,99.1 200.0,232.0 138.7,99.1\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"138.7\" y1=\"99.1\" x2=\"261.3\" y2=\"99.1\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><line x1=\"200.0\" y1=\"48.0\" x2=\"200.0\" y2=\"232.0\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><polyline points=\"213.0,99.1 213.0,86.1 200.0,86.1\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"1.5\"/><text x=\"165.2\" y=\"91.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">60 cm</text><text x=\"208.0\" y=\"191.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">90 cm</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Den vågräta diagonalen delar draken i två trianglar med basen 60 cm. Deras höjder är tillsammans lika med den lodräta diagonalen, 90 cm. Arean blir</p><div class=\"facit-matte\">\\[\\frac{60\\cdot h_1}{2}+\\frac{60\\cdot h_2}{2}=\\frac{60\\cdot90}{2}=2700.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2 700 cm²</p></div>",
+    "familj": "Areor i sammansatta figurer",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dela draken längs den ena diagonalen i två trianglar.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2700,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "3.2099",
+    "kap": 3,
+    "omr": "geometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "omkretsen av en löparbana",
+    "t": "<p>En löparbana består av två raka sträckor på 100 m och två halvcirklar. Avståndet mellan de raka sträckorna är 60 m. Hur lång är ett varv längs banans innerkant? (Svara i meter med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" role=\"img\" aria-label=\"En löparbana med två raka sträckor på 100 m och två halvcirklar i ändarna. Avståndet mellan raksträckorna är 60 m.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"218\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"303.3,172.0 308.2,171.8 313.0,171.2 317.8,170.3 322.5,169.0 327.1,167.3 331.5,165.2 335.7,162.9 339.8,160.2 343.6,157.1 347.2,153.8 350.5,150.3 353.5,146.4 356.2,142.4 358.6,138.1 360.6,133.7 362.3,129.2 363.6,124.5 364.6,119.7 365.1,114.9 365.3,110.0 365.1,105.1 364.6,100.3 363.6,95.5 362.3,90.8 360.6,86.3 358.6,81.9 356.2,77.6 353.5,73.6 350.5,69.7 347.2,66.2 343.6,62.9 339.8,59.8 335.7,57.1 331.5,54.8 327.1,52.7 322.5,51.0 317.8,49.7 313.0,48.8 308.2,48.2 303.3,48.0 96.7,48.0 91.8,48.2 87.0,48.8 82.2,49.7 77.5,51.0 72.9,52.7 68.5,54.8 64.3,57.1 60.2,59.8 56.4,62.9 52.8,66.2 49.5,69.7 46.5,73.6 43.8,77.6 41.4,81.9 39.4,86.3 37.7,90.8 36.4,95.5 35.4,100.3 34.9,105.1 34.7,110.0 34.9,114.9 35.4,119.7 36.4,124.5 37.7,129.2 39.4,133.7 41.4,138.1 43.8,142.4 46.5,146.4 49.5,150.3 52.8,153.8 56.4,157.1 60.2,160.2 64.3,162.9 68.5,165.2 72.9,167.3 77.5,169.0 82.2,170.3 87.0,171.2 91.8,171.8 96.7,172.0\" fill=\"#7a8794\" fill-opacity=\"0.15\"/><polyline points=\"303.3,172.0 305.0,172.0 306.6,171.9 308.2,171.8 309.8,171.7 311.4,171.5 313.0,171.2 314.6,171.0 316.2,170.6 317.8,170.3 319.4,169.9 320.9,169.4 322.5,169.0 324.0,168.4 325.6,167.9 327.1,167.3 328.6,166.6 330.0,166.0 331.5,165.2 332.9,164.5 334.3,163.7 335.7,162.9 337.1,162.0 338.5,161.1 339.8,160.2 341.1,159.2 342.4,158.2 343.6,157.1 344.8,156.1 346.0,155.0 347.2,153.8 348.3,152.7 349.4,151.5 350.5,150.3 351.5,149.0 352.5,147.7 353.5,146.4 354.4,145.1 355.3,143.8 356.2,142.4 357.0,141.0 357.8,139.6 358.6,138.1 359.3,136.7 360.0,135.2 360.6,133.7 361.2,132.2 361.8,130.7 362.3,129.2 362.8,127.6 363.2,126.0 363.6,124.5 364.0,122.9 364.3,121.3 364.6,119.7 364.8,118.1 365.0,116.5 365.1,114.9 365.2,113.2 365.3,111.6 365.3,110.0 365.3,108.4 365.2,106.8 365.1,105.1 365.0,103.5 364.8,101.9 364.6,100.3 364.3,98.7 364.0,97.1 363.6,95.5 363.2,94.0 362.8,92.4 362.3,90.8 361.8,89.3 361.2,87.8 360.6,86.3 360.0,84.8 359.3,83.3 358.6,81.9 357.8,80.4 357.0,79.0 356.2,77.6 355.3,76.2 354.4,74.9 353.5,73.6 352.5,72.3 351.5,71.0 350.5,69.7 349.4,68.5 348.3,67.3 347.2,66.2 346.0,65.0 344.8,63.9 343.6,62.9 342.4,61.8 341.1,60.8 339.8,59.8 338.5,58.9 337.1,58.0 335.7,57.1 334.3,56.3 332.9,55.5 331.5,54.8 330.0,54.0 328.6,53.4 327.1,52.7 325.6,52.1 324.0,51.6 322.5,51.0 320.9,50.6 319.4,50.1 317.8,49.7 316.2,49.4 314.6,49.0 313.0,48.8 311.4,48.5 309.8,48.3 308.2,48.2 306.6,48.1 305.0,48.0 303.3,48.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><polyline points=\"96.7,48.0 95.0,48.0 93.4,48.1 91.8,48.2 90.2,48.3 88.6,48.5 87.0,48.8 85.4,49.0 83.8,49.4 82.2,49.7 80.6,50.1 79.1,50.6 77.5,51.0 76.0,51.6 74.4,52.1 72.9,52.7 71.4,53.4 70.0,54.0 68.5,54.8 67.1,55.5 65.7,56.3 64.3,57.1 62.9,58.0 61.5,58.9 60.2,59.8 58.9,60.8 57.6,61.8 56.4,62.9 55.2,63.9 54.0,65.0 52.8,66.2 51.7,67.3 50.6,68.5 49.5,69.7 48.5,71.0 47.5,72.3 46.5,73.6 45.6,74.9 44.7,76.2 43.8,77.6 43.0,79.0 42.2,80.4 41.4,81.9 40.7,83.3 40.0,84.8 39.4,86.3 38.8,87.8 38.2,89.3 37.7,90.8 37.2,92.4 36.8,94.0 36.4,95.5 36.0,97.1 35.7,98.7 35.4,100.3 35.2,101.9 35.0,103.5 34.9,105.1 34.8,106.8 34.7,108.4 34.7,110.0 34.7,111.6 34.8,113.2 34.9,114.9 35.0,116.5 35.2,118.1 35.4,119.7 35.7,121.3 36.0,122.9 36.4,124.5 36.8,126.0 37.2,127.6 37.7,129.2 38.2,130.7 38.8,132.2 39.4,133.7 40.0,135.2 40.7,136.7 41.4,138.1 42.2,139.6 43.0,141.0 43.8,142.4 44.7,143.8 45.6,145.1 46.5,146.4 47.5,147.7 48.5,149.0 49.5,150.3 50.6,151.5 51.7,152.7 52.8,153.8 54.0,155.0 55.2,156.1 56.4,157.1 57.6,158.2 58.9,159.2 60.2,160.2 61.5,161.1 62.9,162.0 64.3,162.9 65.7,163.7 67.1,164.5 68.5,165.2 70.0,166.0 71.4,166.6 72.9,167.3 74.4,167.9 76.0,168.4 77.5,169.0 79.1,169.4 80.6,169.9 82.2,170.3 83.8,170.6 85.4,171.0 87.0,171.2 88.6,171.5 90.2,171.7 91.8,171.8 93.4,171.9 95.0,172.0 96.7,172.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"96.7\" y1=\"172.0\" x2=\"303.3\" y2=\"172.0\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"96.7\" y1=\"48.0\" x2=\"303.3\" y2=\"48.0\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><line x1=\"303.3\" y1=\"172.0\" x2=\"303.3\" y2=\"48.0\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"200.0\" y=\"161.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">100 m</text><text x=\"278.5\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">60 m</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>De två halvcirklarna bildar tillsammans en hel cirkel med diametern 60 m. Ett varv är därför</p><div class=\"facit-matte\">\\[2\\cdot100+\\pi\\cdot60\\approx388{,}5.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 388,5 m</p></div>",
+    "familj": "Areor i sammansatta figurer",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vad bildar de två halvcirklarna tillsammans?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 388.5,
+    "tolerans": 0.05,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "3.2100",
+    "kap": 3,
+    "omr": "geometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "glasarea i ett fönster med halvcirkel",
+    "t": "<p>Ett fönster består av en rektangel som är 1,2 m bred och 1,4 m hög, med en halvcirkel ovanpå. Halvcirkelns diameter är lika med fönstrets bredd. Hur stor är glasytan? (Svara i m² med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" role=\"img\" aria-label=\"Ett fönster format som en rektangel, 1,2 m bred och 1,4 m hög, med en halvcirkel ovanpå.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"138.8,252.0 261.2,252.0 261.2,109.2 261.2,109.2 260.9,102.8 259.9,96.5 258.2,90.3 255.9,84.3 253.0,78.6 249.5,73.2 245.5,68.2 241.0,63.7 236.0,59.7 230.6,56.2 224.9,53.3 218.9,51.0 212.7,49.3 206.4,48.3 200.0,48.0 193.6,48.3 187.3,49.3 181.1,51.0 175.1,53.3 169.4,56.2 164.0,59.7 159.0,63.7 154.5,68.2 150.5,73.2 147.0,78.6 144.1,84.3 141.8,90.3 140.1,96.5 139.1,102.8 138.8,109.2 138.8,109.2\" fill=\"#2f6fca\" fill-opacity=\"0.12\"/><polyline points=\"261.2,109.2 261.2,107.6 261.1,106.0 261.0,104.4 260.9,102.8 260.7,101.2 260.4,99.6 260.2,98.0 259.9,96.5 259.5,94.9 259.1,93.4 258.7,91.8 258.2,90.3 257.7,88.8 257.1,87.3 256.5,85.8 255.9,84.3 255.2,82.9 254.5,81.4 253.8,80.0 253.0,78.6 252.2,77.2 251.3,75.9 250.4,74.5 249.5,73.2 248.6,71.9 247.6,70.7 246.5,69.5 245.5,68.2 244.4,67.1 243.3,65.9 242.1,64.8 241.0,63.7 239.7,62.7 238.5,61.6 237.3,60.6 236.0,59.7 234.7,58.8 233.3,57.9 232.0,57.0 230.6,56.2 229.2,55.4 227.8,54.7 226.3,54.0 224.9,53.3 223.4,52.7 221.9,52.1 220.4,51.5 218.9,51.0 217.4,50.5 215.8,50.1 214.3,49.7 212.7,49.3 211.2,49.0 209.6,48.8 208.0,48.5 206.4,48.3 204.8,48.2 203.2,48.1 201.6,48.0 200.0,48.0 198.4,48.0 196.8,48.1 195.2,48.2 193.6,48.3 192.0,48.5 190.4,48.8 188.8,49.0 187.3,49.3 185.7,49.7 184.2,50.1 182.6,50.5 181.1,51.0 179.6,51.5 178.1,52.1 176.6,52.7 175.1,53.3 173.7,54.0 172.2,54.7 170.8,55.4 169.4,56.2 168.0,57.0 166.7,57.9 165.3,58.8 164.0,59.7 162.7,60.6 161.5,61.6 160.3,62.7 159.0,63.7 157.9,64.8 156.7,65.9 155.6,67.1 154.5,68.2 153.5,69.5 152.4,70.7 151.4,71.9 150.5,73.2 149.6,74.5 148.7,75.9 147.8,77.2 147.0,78.6 146.2,80.0 145.5,81.4 144.8,82.9 144.1,84.3 143.5,85.8 142.9,87.3 142.3,88.8 141.8,90.3 141.3,91.8 140.9,93.4 140.5,94.9 140.1,96.5 139.8,98.0 139.6,99.6 139.3,101.2 139.1,102.8 139.0,104.4 138.9,106.0 138.8,107.6 138.8,109.2\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2.5\"/><polygon points=\"138.8,252.0 261.2,252.0 261.2,109.2 138.8,109.2\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><text x=\"200.0\" y=\"241.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">1,2 m</text><text x=\"289.7\" y=\"185.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">1,4 m</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Rektangeln har arean \\(1{,}2\\cdot1{,}4=1{,}68\\) m². Halvcirkeln har radien 0,6 m och arean</p><div class=\"facit-matte\">\\[\\frac{\\pi\\cdot0{,}6^2}{2}\\approx0{,}565.\\]</div><p>Tillsammans blir glasytan ungefär \\(1{,}68+0{,}565\\approx2{,}25\\) m².</p><p class=\"facit-svar\"><strong>Svar:</strong> 2,25 m²</p></div>",
+    "familj": "Areor i sammansatta figurer",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Dela fönstret i en rektangel och en halvcirkel. Vad är halvcirkelns radie?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2.25,
+    "tolerans": 0.005,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m²"
+  },
+  {
+    "id": "3.2101",
+    "kap": 3,
+    "omr": "geometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "får en bräda plats snett genom en dörr",
+    "t": "<p>En dörröppning är 2,0 m hög och 0,9 m bred. Ett tunt, 2,3 m långt skivmaterial ska bäras in stående i dörrens plan, alltså snett över öppningen. Går det? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" role=\"img\" aria-label=\"En rektangulär dörröppning, 2,0 m hög och 0,9 m bred, med diagonalen streckad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"154.1,252.0 245.9,252.0 245.9,48.0 154.1,48.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"154.1\" y1=\"252.0\" x2=\"245.9\" y2=\"48.0\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><text x=\"200.0\" y=\"241.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">0,9 m</text><text x=\"274.4\" y=\"155.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">2,0 m</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Det längsta som får plats i dörrens plan är diagonalen. Med Pythagoras sats blir den</p><div class=\"facit-matte\">\\[\\sqrt{2{,}0^2+0{,}9^2}=\\sqrt{4{,}81}\\approx2{,}19.\\]</div><p>Diagonalen är ungefär 2,19 m, alltså kortare än 2,3 m. Skivan går inte in på det sättet.</p><p class=\"facit-svar\"><strong>Svar:</strong> Nej, diagonalen är bara ungefär 2,19 m.</p></div>",
+    "familj": "Välj en geometrisk sats",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vilken är den längsta sträckan som får plats i en rektangel?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Ja, eftersom 2,0 + 0,9 = 2,9 m är mer än 2,3 m.",
+        "ratt": false,
+        "kommentar": "Man kan inte lägga ihop höjd och bredd. Den längsta sträckan är diagonalen."
+      },
+      {
+        "txt": "Ja, diagonalen är ungefär 2,4 m.",
+        "ratt": false,
+        "kommentar": "Räkna igen: √(4 + 0,81) ≈ 2,19."
+      },
+      {
+        "txt": "Nej, diagonalen är bara ungefär 2,19 m.",
+        "ratt": true,
+        "kommentar": "Pythagoras sats ger diagonalen."
+      },
+      {
+        "txt": "Det går inte att avgöra utan skivans bredd.",
+        "ratt": false,
+        "kommentar": "Skivan är tunn, så det är längden som avgör."
+      }
+    ]
+  },
+  {
+    "id": "3.2102",
+    "kap": 3,
+    "omr": "geometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "avstånd med linjal och utsträckt arm",
+    "t": "<p>Elsa håller en linjal lodrätt på armlängds avstånd, 60 cm från ögat. En person som är 1,8 m lång täcks exakt av 2 cm på linjalen. Hur långt bort står personen? (Svara i meter.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 230\" role=\"img\" aria-label=\"Skiss, inte skalenlig. Synlinjer från ögat till personens huvud och fötter passerar linjalens ändar. Linjalen är 60 cm från ögat och 2 cm av den täcker personen som är 1,8 m lång.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"228\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"115.0\" x2=\"380.0\" y2=\"81.0\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"40.0\" y1=\"115.0\" x2=\"380.0\" y2=\"149.0\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"134.4\" y1=\"105.6\" x2=\"134.4\" y2=\"124.4\" stroke=\"#2f6fca\" stroke-width=\"4\"/><line x1=\"380.0\" y1=\"81.0\" x2=\"380.0\" y2=\"149.0\" stroke=\"#172b3a\" stroke-width=\"4\"/><circle cx=\"40.0\" cy=\"115.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"40.0\" y=\"137.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">öga</text><text x=\"134.4\" y=\"97.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#2f6fca\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">2 cm</text><text x=\"388.0\" y=\"115.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">1,8 m</text><text x=\"87.2\" y=\"144.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">60 cm</text><text x=\"257.2\" y=\"171.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">?</text></svg></span><p>(Figuren är inte skalenlig.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Synlinjerna bildar två likformiga trianglar med spetsen i ögat: en med linjalen och en med personen. Räkna i cm. Personen är \\(180/2=90\\) gånger så lång som linjalbiten, så avståndet är också 90 gånger så stort:</p><div class=\"facit-matte\">\\[90\\cdot60\\ \\text{cm}=5400\\ \\text{cm}=54\\ \\text{m}.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 54 m</p></div>",
+    "familj": "Bevis och tillämpningar med likformighet",
+    "formaga": [
+      "modellering",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många gånger längre är personen än linjalbiten? Samma förhållande gäller för avstånden.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 54,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "3.2103",
+    "kap": 3,
+    "omr": "geometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "del av pizzakartong som pizzan inte täcker",
+    "t": "<p>En rund pizza med diametern 30 cm ligger i en kvadratisk kartong med sidan 32 cm. Hur stor del av kartongens botten täcks inte av pizzan? (Svara i cm² med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"En kvadratisk kartong med sidan 32 cm och en rund pizza med diametern 30 cm i mitten. Ytan utanför pizzan är grå.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"118.0,212.0 282.0,212.0 282.0,48.0 118.0,48.0\" fill=\"#7a8794\" fill-opacity=\"0.35\"/><polygon points=\"276.9,130.0 276.6,123.3 275.7,116.7 274.3,110.1 272.2,103.7 269.7,97.5 266.6,91.6 263.0,85.9 258.9,80.6 254.4,75.6 249.4,71.1 244.1,67.0 238.4,63.4 232.5,60.3 226.3,57.8 219.9,55.7 213.3,54.3 206.7,53.4 200.0,53.1 193.3,53.4 186.7,54.3 180.1,55.7 173.7,57.8 167.5,60.3 161.6,63.4 155.9,67.0 150.6,71.1 145.6,75.6 141.1,80.6 137.0,85.9 133.4,91.6 130.3,97.5 127.8,103.7 125.7,110.1 124.3,116.7 123.4,123.3 123.1,130.0 123.4,136.7 124.3,143.3 125.7,149.9 127.8,156.3 130.3,162.5 133.4,168.4 137.0,174.1 141.1,179.4 145.6,184.4 150.6,188.9 155.9,193.0 161.6,196.6 167.5,199.7 173.7,202.2 180.1,204.3 186.7,205.7 193.3,206.6 200.0,206.9 206.7,206.6 213.3,205.7 219.9,204.3 226.3,202.2 232.5,199.7 238.4,196.6 244.1,193.0 249.4,188.9 254.4,184.4 258.9,179.4 263.0,174.1 266.6,168.4 269.7,162.5 272.2,156.3 274.3,149.9 275.7,143.3 276.6,136.7 276.9,130.0\" fill=\"#ffffff\" fill-opacity=\"1\"/><circle cx=\"200.0\" cy=\"130.0\" r=\"76.9\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"2\"/><polygon points=\"118.0,212.0 282.0,212.0 282.0,48.0 118.0,48.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"123.1\" y1=\"130.0\" x2=\"276.9\" y2=\"130.0\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"200.0\" y=\"201.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">32 cm</text><text x=\"200.0\" y=\"122.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">30 cm</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Kartongens botten har arean \\(32^2=1024\\) cm². Pizzan har radien 15 cm och arean \\(\\pi\\cdot15^2\\approx706{,}9\\) cm². Den del som inte täcks är</p><div class=\"facit-matte\">\\[1024-225\\pi\\approx317{,}1.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 317,1 cm²</p></div>",
+    "familj": "Areor i sammansatta figurer",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut kvadratens area och dra bort cirkelns area. Vad är pizzans radie?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 317.1,
+    "tolerans": 0.05,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "3.2104",
+    "kap": 3,
+    "omr": "geometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "sträcka som minutvisarens spets går",
+    "t": "<p>Minutvisaren på en väggklocka är 12 cm lång. Hur lång sträcka går visarens spets på 20 minuter? (Svara i cm med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"En klocka med minutvisaren som har vridit sig från 12 till 4 på 20 minuter. Visaren är 12 cm lång och spetsens väg är markerad som en båge.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"200.0\" cy=\"130.0\" r=\"82.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><polyline points=\"267.6,169.0 268.3,167.9 269.0,166.7 269.6,165.5 270.2,164.2 270.8,163.0 271.3,161.8 271.9,160.5 272.4,159.3 272.9,158.0 273.4,156.7 273.8,155.4 274.3,154.1 274.7,152.8 275.1,151.5 275.4,150.2 275.8,148.9 276.1,147.6 276.4,146.2 276.7,144.9 276.9,143.6 277.1,142.2 277.3,140.9 277.5,139.5 277.7,138.2 277.8,136.8 277.9,135.4 278.0,134.1 278.0,132.7 278.1,131.4 278.1,130.0 278.1,128.6 278.0,127.3 278.0,125.9 277.9,124.6 277.8,123.2 277.7,121.8 277.5,120.5 277.3,119.1 277.1,117.8 276.9,116.4 276.7,115.1 276.4,113.8 276.1,112.4 275.8,111.1 275.4,109.8 275.1,108.5 274.7,107.2 274.3,105.9 273.8,104.6 273.4,103.3 272.9,102.0 272.4,100.7 271.9,99.5 271.3,98.2 270.8,97.0 270.2,95.8 269.6,94.5 269.0,93.3 268.3,92.1 267.6,91.0 266.9,89.8 266.2,88.6 265.5,87.5 264.7,86.3 264.0,85.2 263.2,84.1 262.4,83.0 261.5,81.9 260.7,80.9 259.8,79.8 258.9,78.8 258.0,77.7 257.1,76.7 256.2,75.8 255.2,74.8 254.2,73.8 253.3,72.9 252.3,72.0 251.2,71.1 250.2,70.2 249.1,69.3 248.1,68.5 247.0,67.6 245.9,66.8 244.8,66.0 243.7,65.3 242.5,64.5 241.4,63.8 240.2,63.1 239.0,62.4 237.9,61.7 236.7,61.0 235.5,60.4 234.2,59.8 233.0,59.2 231.8,58.7 230.5,58.1 229.3,57.6 228.0,57.1 226.7,56.6 225.4,56.2 224.1,55.7 222.8,55.3 221.5,54.9 220.2,54.6 218.9,54.2 217.6,53.9 216.2,53.6 214.9,53.3 213.6,53.1 212.2,52.9 210.9,52.7 209.5,52.5 208.2,52.3 206.8,52.2 205.4,52.1 204.1,52.0 202.7,52.0 201.4,51.9 200.0,51.9\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"4\"/><line x1=\"200.0\" y1=\"130.0\" x2=\"200.0\" y2=\"51.9\" stroke=\"#7a8794\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><line x1=\"200.0\" y1=\"130.0\" x2=\"267.6\" y2=\"169.0\" stroke=\"#172b3a\" stroke-width=\"3.5\"/><text x=\"246.0\" y=\"133.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">12 cm</text><circle cx=\"200.0\" cy=\"130.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"200.0\" y=\"43.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">12</text><text x=\"279.6\" y=\"179.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">4</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>På 60 minuter går spetsen ett helt varv, \\(2\\pi\\cdot12\\) cm. På 20 minuter går den en tredjedel av varvet:</p><div class=\"facit-matte\">\\[\\frac{2\\pi\\cdot12}{3}=8\\pi\\approx25{,}1.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 25,1 cm</p></div>",
+    "familj": "Radier, kordor och tangenter",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur stor del av ett varv går visaren på 20 minuter?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 25.1,
+    "tolerans": 0.05,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.2105",
+    "kap": 3,
+    "omr": "geometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "vinkel mellan sida och diagonal i regelbunden femhörning",
+    "t": "<p>I den regelbundna femhörningen \\(ABCDE\\) är varje vinkel \\(108^\\circ\\). Diagonalerna \\(AC\\) och \\(AD\\) är dragna. Bestäm vinkeln \\(x=\\angle ACD\\). (Svara i grader.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"En regelbunden femhörning ABCDE med diagonalerna AC och AD. Vinkeln vid B är 108 grader och vinkeln x mellan CA och CD är markerad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"112.5,196.9 220.7,232.0 287.5,140.0 220.7,48.0 112.5,83.1\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"112.5\" y1=\"196.9\" x2=\"287.5\" y2=\"140.0\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><line x1=\"112.5\" y1=\"196.9\" x2=\"220.7\" y2=\"48.0\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><path d=\"M 195.9 224.0 A 26 26 0 0 1 235.9 211.0\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"208.0\" y=\"198.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">108°</text><path d=\"M 255.2 150.5 A 34 34 0 0 1 267.5 112.5\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"1.8\"/><text x=\"240.9\" y=\"129.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"100.4\" y=\"210.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"225.3\" y=\"251.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"302.5\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"225.3\" y=\"38.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text><text x=\"100.4\" y=\"79.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">E</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Sidorna \\(AB\\) och \\(BC\\) är lika långa, så triangeln \\(ABC\\) är likbent med toppvinkeln \\(108^\\circ\\) vid \\(B\\). Basvinklarna är lika stora:</p><div class=\"facit-matte\">\\[\\angle BCA=\\frac{180^\\circ-108^\\circ}{2}=36^\\circ.\\]</div><p>Hela vinkeln vid \\(C\\) är också \\(108^\\circ\\), så</p><div class=\"facit-matte\">\\[x=108^\\circ-36^\\circ=72^\\circ.\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(72^\\circ\\)</p></div>",
+    "familj": "Vinklar i deltrianglar",
+    "formaga": [
+      "problemlösning",
+      "resonemang"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Börja med vinkeln BCA i den likbenta triangeln ABC. Vinkeln vid C är 108° totalt.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 72,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "3.2106",
+    "kap": 3,
+    "omr": "geometri_problemlosning",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "rektangel i cirkel med givet sidförhållande",
+    "t": "<p>En rektangel har alla fyra hörnen på en cirkel med radien 10 cm. Rektangelns sidor förhåller sig som \\(3:4\\). Bestäm rektangelns area. (Svara i cm².)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"En rektangel med alla hörn på en cirkel med radien 10 cm. En diagonal genom medelpunkten är streckad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"200.0\" cy=\"140.0\" r=\"92.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><polygon points=\"126.4,195.2 273.6,195.2 273.6,84.8 126.4,84.8\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"126.4\" y1=\"195.2\" x2=\"273.6\" y2=\"84.8\" stroke=\"#d9622b\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><circle cx=\"200.0\" cy=\"140.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"248.8\" y=\"130.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">10 cm</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><p>Rektangelns hörn är räta, så diagonalen är en diameter (Thales sats) och är 20 cm. Kalla sidorna \\(3k\\) och \\(4k\\). Pythagoras sats ger</p><div class=\"facit-matte\">\\[(3k)^2+(4k)^2=20^2\\ \\Rightarrow\\ 25k^2=400\\ \\Rightarrow\\ k=4.\\]</div><p>Sidorna är 12 cm och 16 cm, och arean är \\(12\\cdot16=192\\) cm².</p><p class=\"facit-svar\"><strong>Svar:</strong> 192 cm²</p></div>",
+    "familj": "Radier, kordor och tangenter",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur lång är rektangelns diagonal? Kalla sidorna 3k och 4k.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 192,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm²"
+  },
+  {
+    "id": "3.2107",
+    "kap": 3,
+    "omr": "koordinatgeometri_problemlosning",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "fågelvägen mellan två platser på en karta",
+    "t": "<p>På en karta med ett koordinatsystem i kilometer ligger skolan i punkten \\((-1,\\ 2)\\) och simhallen i \\((11,\\ 7)\\). Hur långt är det fågelvägen mellan dem? (Svara i km.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 300\" role=\"img\" aria-label=\"Koordinatsystem med skolan i (−1, 2) och simhallen i (11, 7). En streckad linje förbinder dem.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"71.6\" y1=\"22\" x2=\"71.6\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"95.1\" y1=\"22\" x2=\"95.1\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"118.7\" y1=\"22\" x2=\"118.7\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"142.3\" y1=\"22\" x2=\"142.3\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"165.9\" y1=\"22\" x2=\"165.9\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"189.4\" y1=\"22\" x2=\"189.4\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"213.0\" y1=\"22\" x2=\"213.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"236.6\" y1=\"22\" x2=\"236.6\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"260.1\" y1=\"22\" x2=\"260.1\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"283.7\" y1=\"22\" x2=\"283.7\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"307.3\" y1=\"22\" x2=\"307.3\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"330.9\" y1=\"22\" x2=\"330.9\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"354.4\" y1=\"22\" x2=\"354.4\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"258\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.0\" x2=\"378\" y2=\"258.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"234.4\" x2=\"378\" y2=\"234.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"210.9\" x2=\"378\" y2=\"210.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"187.3\" x2=\"378\" y2=\"187.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"163.7\" x2=\"378\" y2=\"163.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"140.1\" x2=\"378\" y2=\"140.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"116.6\" x2=\"378\" y2=\"116.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"93.0\" x2=\"378\" y2=\"93.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"69.4\" x2=\"378\" y2=\"69.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"45.9\" x2=\"378\" y2=\"45.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.3\" x2=\"378\" y2=\"22.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"234.4\" x2=\"388\" y2=\"234.4\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,234.4 382,229.4 382,239.4\" fill=\"#172b3a\"/><line x1=\"95.1\" y1=\"258\" x2=\"95.1\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"95.1,8 90.1,18 100.1,18\" fill=\"#172b3a\"/><text x=\"390.0\" y=\"225.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"103.1\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">y</text><text x=\"42.0\" y=\"191.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"144.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"97.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"49.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"89.1\" y=\"251.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k58ab4c8\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"236\"/></clipPath><circle cx=\"71.6\" cy=\"187.3\" r=\"4.5\" fill=\"#172b3a\"/><text x=\"71.6\" y=\"205.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">skola</text><circle cx=\"354.4\" cy=\"69.4\" r=\"4.5\" fill=\"#172b3a\"/><text x=\"354.4\" y=\"59.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">simhall</text><text x=\"48.0\" y=\"251.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">−2</text><text x=\"142.3\" y=\"251.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">2</text><text x=\"189.4\" y=\"251.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">4</text><text x=\"236.6\" y=\"251.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">6</text><text x=\"283.7\" y=\"251.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">8</text><text x=\"330.9\" y=\"251.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">10</text><text x=\"378.0\" y=\"251.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">12</text><line x1=\"71.6\" y1=\"187.3\" x2=\"354.4\" y2=\"69.4\" stroke=\"#d9622b\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skillnader i x och y</p><div class=\"facit-matte\">\\[\\Delta x=11-(-1)=12,\\qquad\\Delta y=7-2=5\\]</div></li><li><p class=\"facit-rubrik\">Avståndsformeln</p><div class=\"facit-matte\">\\[d=\\sqrt{12^2+5^2}=\\sqrt{169}=13\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13 km</p></div>",
+    "familj": "Avstånd, mittpunkt och villkor i koordinatsystem",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut skillnaden i x och i y. Använd sedan Pythagoras sats.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "km"
+  },
+  {
+    "id": "3.2108",
+    "kap": 3,
+    "omr": "koordinatgeometri_problemlosning",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "mötesplats mitt emellan två hus",
+    "t": "<p>Två vänner bor i punkterna \\(A=(-2,\\ 3)\\) och \\(B=(6,\\ -1)\\) på en karta. De vill mötas exakt mitt emellan sina hus. Bestäm mötesplatsens koordinater.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Mittpunktsformeln</p><div class=\"facit-matte\">\\[\\left(\\frac{-2+6}{2},\\ \\frac{3+(-1)}{2}\\right)=(2,\\ 1)\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\((2,\\ 1)\\)</p></div>",
+    "familj": "Avstånd, mittpunkt och villkor i koordinatsystem",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": [
+      true,
+      true
+    ],
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Ta medelvärdet av x-koordinaterna och medelvärdet av y-koordinaterna.</p>",
+    "svarstyp": "flera_delar",
+    "rättSvar": [
+      2,
+      1
+    ],
+    "tolerans": [
+      0,
+      0
+    ],
+    "svarFormat": [
+      "numeriskt",
+      "numeriskt"
+    ],
+    "svarsstruktur": "ordnad",
+    "svarEtiketter": [
+      "x",
+      "y"
+    ]
+  },
+  {
+    "id": "3.2109",
+    "kap": 3,
+    "omr": "koordinatgeometri_problemlosning",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vilken butik ligger närmast",
+    "t": "<p>Koordinaterna är angivna i km. Linnea bor i \\((1,\\ 2)\\). Butik A ligger i \\((7,\\ 5)\\) och butik B i \\((-3,\\ 8)\\). Hur mycket närmare fågelvägen ligger den närmaste butiken? (Svara i km med två decimaler.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 345\" role=\"img\" aria-label=\"Koordinatsystem med Linnea i (1, 2), butik A i (7, 5) och butik B i (−3, 8). Streckade linjer går från Linnea till båda butikerna.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"343\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"303\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"75.5\" y1=\"22\" x2=\"75.5\" y2=\"303\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"103.0\" y1=\"22\" x2=\"103.0\" y2=\"303\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"130.5\" y1=\"22\" x2=\"130.5\" y2=\"303\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"158.0\" y1=\"22\" x2=\"158.0\" y2=\"303\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"185.5\" y1=\"22\" x2=\"185.5\" y2=\"303\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"213.0\" y1=\"22\" x2=\"213.0\" y2=\"303\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"240.5\" y1=\"22\" x2=\"240.5\" y2=\"303\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"268.0\" y1=\"22\" x2=\"268.0\" y2=\"303\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"295.5\" y1=\"22\" x2=\"295.5\" y2=\"303\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"323.0\" y1=\"22\" x2=\"323.0\" y2=\"303\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"350.5\" y1=\"22\" x2=\"350.5\" y2=\"303\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"303\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"303.0\" x2=\"378\" y2=\"303.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"275.5\" x2=\"378\" y2=\"275.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"248.0\" x2=\"378\" y2=\"248.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"220.5\" x2=\"378\" y2=\"220.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"193.0\" x2=\"378\" y2=\"193.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"165.5\" x2=\"378\" y2=\"165.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"138.0\" x2=\"378\" y2=\"138.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"110.5\" x2=\"378\" y2=\"110.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"83.0\" x2=\"378\" y2=\"83.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"55.5\" x2=\"378\" y2=\"55.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"28.0\" x2=\"378\" y2=\"28.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"275.5\" x2=\"388\" y2=\"275.5\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,275.5 382,270.5 382,280.5\" fill=\"#172b3a\"/><line x1=\"158.0\" y1=\"303\" x2=\"158.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"158.0,8 153.0,18 163.0,18\" fill=\"#172b3a\"/><text x=\"390.0\" y=\"266.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"166.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">y</text><text x=\"42.0\" y=\"224.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"169.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"114.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"59.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"152.0\" y=\"292.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"kb95e2db\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"281\"/></clipPath><circle cx=\"185.5\" cy=\"220.5\" r=\"4.5\" fill=\"#172b3a\"/><text x=\"185.5\" y=\"238.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">Linnea</text><circle cx=\"350.5\" cy=\"138.0\" r=\"4.5\" fill=\"#172b3a\"/><text x=\"350.5\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><circle cx=\"75.5\" cy=\"55.5\" r=\"4.5\" fill=\"#172b3a\"/><text x=\"75.5\" y=\"45.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"48.0\" y=\"292.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">−4</text><text x=\"103.0\" y=\"292.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">−2</text><text x=\"213.0\" y=\"292.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">2</text><text x=\"268.0\" y=\"292.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">4</text><text x=\"323.0\" y=\"292.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">6</text><text x=\"378.0\" y=\"292.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">8</text><line x1=\"185.5\" y1=\"220.5\" x2=\"350.5\" y2=\"138.0\" stroke=\"#d9622b\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><line x1=\"185.5\" y1=\"220.5\" x2=\"75.5\" y2=\"55.5\" stroke=\"#d9622b\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avstånd till A</p><div class=\"facit-matte\">\\[\\sqrt{6^2+3^2}=\\sqrt{45}\\approx6{,}708\\]</div></li><li><p class=\"facit-rubrik\">Avstånd till B</p><div class=\"facit-matte\">\\[\\sqrt{4^2+6^2}=\\sqrt{52}\\approx7{,}211\\]</div></li><li><p class=\"facit-rubrik\">Skillnad</p><p>Butik A ligger närmast, och skillnaden är ungefär \\(7{,}211-6{,}708\\approx0{,}50\\) km.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,50 km</p></div>",
+    "familj": "Avstånd, mittpunkt och villkor i koordinatsystem",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut båda avstånden med avståndsformeln innan du avrundar.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.5,
+    "tolerans": 0.005,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "km"
+  },
+  {
+    "id": "3.2110",
+    "kap": 3,
+    "omr": "koordinatgeometri_problemlosning",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "ligger en punkt på en cirkel",
+    "t": "<p>En cirkel har medelpunkten \\((2,\\ -1)\\) och radien 5. Ligger punkten \\((5,\\ 3)\\) på cirkeln? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avståndet till medelpunkten</p><div class=\"facit-matte\">\\[\\sqrt{(5-2)^2+(3-(-1))^2}=\\sqrt{9+16}=5\\]</div></li><li><p class=\"facit-rubrik\">Jämför med radien</p><p>Avståndet är lika med radien, så punkten ligger på cirkeln.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja, avståndet till medelpunkten är 5.</p></div>",
+    "familj": "Avstånd, mittpunkt och villkor i koordinatsystem",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En punkt ligger på cirkeln om avståndet till medelpunkten är lika med radien.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Nej, den ligger innanför cirkeln.",
+        "ratt": false,
+        "kommentar": "Avståndet till medelpunkten är exakt 5."
+      },
+      {
+        "txt": "Nej, den ligger utanför cirkeln.",
+        "ratt": false,
+        "kommentar": "Avståndet är 5, inte större."
+      },
+      {
+        "txt": "Ja, avståndet till medelpunkten är 5.",
+        "ratt": true,
+        "kommentar": "√(9 + 16) = 5 = radien."
+      },
+      {
+        "txt": "Det går inte att avgöra utan en figur.",
+        "ratt": false,
+        "kommentar": "Avståndsformeln räcker."
+      }
+    ]
+  },
+  {
+    "id": "3.2111",
+    "kap": 3,
+    "omr": "koordinatgeometri_problemlosning",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "längden av en promenad i två delar",
+    "t": "<p>En promenad går rakt från \\(A=(0,\\ 0)\\) till \\(B=(6,\\ 8)\\) och sedan rakt till \\(C=(11,\\ -4)\\). Enheten är 100 m. Hur lång är promenaden? (Svara i meter.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 425\" role=\"img\" aria-label=\"Koordinatsystem med en bruten linje från A (0, 0) till B (6, 8) och vidare till C (11, −4).\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"423\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"73.4\" y1=\"22\" x2=\"73.4\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"98.8\" y1=\"22\" x2=\"98.8\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"124.2\" y1=\"22\" x2=\"124.2\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"149.5\" y1=\"22\" x2=\"149.5\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"174.9\" y1=\"22\" x2=\"174.9\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"200.3\" y1=\"22\" x2=\"200.3\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"225.7\" y1=\"22\" x2=\"225.7\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"251.1\" y1=\"22\" x2=\"251.1\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"276.5\" y1=\"22\" x2=\"276.5\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"301.8\" y1=\"22\" x2=\"301.8\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"327.2\" y1=\"22\" x2=\"327.2\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"352.6\" y1=\"22\" x2=\"352.6\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"383\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"383.0\" x2=\"378\" y2=\"383.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"357.6\" x2=\"378\" y2=\"357.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"332.2\" x2=\"378\" y2=\"332.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"306.8\" x2=\"378\" y2=\"306.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"281.5\" x2=\"378\" y2=\"281.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"256.1\" x2=\"378\" y2=\"256.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"230.7\" x2=\"378\" y2=\"230.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"205.3\" x2=\"378\" y2=\"205.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"179.9\" x2=\"378\" y2=\"179.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"154.5\" x2=\"378\" y2=\"154.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"129.2\" x2=\"378\" y2=\"129.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"103.8\" x2=\"378\" y2=\"103.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"78.4\" x2=\"378\" y2=\"78.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"53.0\" x2=\"378\" y2=\"53.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"27.6\" x2=\"378\" y2=\"27.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"256.1\" x2=\"388\" y2=\"256.1\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,256.1 382,251.1 382,261.1\" fill=\"#172b3a\"/><line x1=\"73.4\" y1=\"383\" x2=\"73.4\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"73.4,8 68.4,18 78.4,18\" fill=\"#172b3a\"/><text x=\"390.0\" y=\"247.1\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"81.4\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">y</text><text x=\"42.0\" y=\"361.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"42.0\" y=\"310.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"42.0\" y=\"209.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"158.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"107.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"57.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"67.4\" y=\"273.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k7e48900\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"361\"/></clipPath><circle cx=\"73.4\" cy=\"256.1\" r=\"4.5\" fill=\"#172b3a\"/><text x=\"61.4\" y=\"248.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><circle cx=\"225.7\" cy=\"53.0\" r=\"4.5\" fill=\"#172b3a\"/><text x=\"225.7\" y=\"43.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><circle cx=\"352.6\" cy=\"357.6\" r=\"4.5\" fill=\"#172b3a\"/><text x=\"352.6\" y=\"375.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"124.2\" y=\"273.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">2</text><text x=\"174.9\" y=\"273.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">4</text><text x=\"225.7\" y=\"273.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">6</text><text x=\"276.5\" y=\"273.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">8</text><text x=\"327.2\" y=\"273.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">10</text><text x=\"378.0\" y=\"273.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">12</text><line x1=\"73.4\" y1=\"256.1\" x2=\"225.7\" y2=\"53.0\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><line x1=\"225.7\" y1=\"53.0\" x2=\"352.6\" y2=\"357.6\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sträckan AB</p><div class=\"facit-matte\">\\[\\sqrt{6^2+8^2}=10\\]</div></li><li><p class=\"facit-rubrik\">Sträckan BC</p><div class=\"facit-matte\">\\[\\sqrt{5^2+12^2}=13\\]</div></li><li><p class=\"facit-rubrik\">Totalt</p><p>\\(10+13=23\\) enheter, och en enhet är 100 m.</p><div class=\"facit-matte\">\\[23\\cdot100=2300\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 2 300 m</p></div>",
+    "familj": "Avstånd, mittpunkt och villkor i koordinatsystem",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut de två delsträckorna var för sig och lägg ihop dem.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 2300,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "3.2112",
+    "kap": 3,
+    "omr": "koordinatgeometri_problemlosning",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "area av snedställd kvadrat",
+    "t": "<p>Fyrhörningen har hörnen \\((1,\\ 0)\\), \\((5,\\ 1)\\), \\((4,\\ 5)\\) och \\((0,\\ 4)\\). Den är en kvadrat. Bestäm kvadratens area. (Svara i areaenheter.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 385\" role=\"img\" aria-label=\"En snedställd kvadrat i ett koordinatsystem med hörnen (1, 0), (5, 1), (4, 5) och (0, 4).\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"383\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"343\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"95.1\" y1=\"22\" x2=\"95.1\" y2=\"343\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"142.3\" y1=\"22\" x2=\"142.3\" y2=\"343\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"189.4\" y1=\"22\" x2=\"189.4\" y2=\"343\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"236.6\" y1=\"22\" x2=\"236.6\" y2=\"343\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"283.7\" y1=\"22\" x2=\"283.7\" y2=\"343\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"330.9\" y1=\"22\" x2=\"330.9\" y2=\"343\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"343\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"343.0\" x2=\"378\" y2=\"343.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"295.9\" x2=\"378\" y2=\"295.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"248.7\" x2=\"378\" y2=\"248.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"201.6\" x2=\"378\" y2=\"201.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"154.4\" x2=\"378\" y2=\"154.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"107.3\" x2=\"378\" y2=\"107.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"60.1\" x2=\"378\" y2=\"60.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"295.9\" x2=\"388\" y2=\"295.9\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,295.9 382,290.9 382,300.9\" fill=\"#172b3a\"/><line x1=\"95.1\" y1=\"343\" x2=\"95.1\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"95.1,8 90.1,18 100.1,18\" fill=\"#172b3a\"/><text x=\"390.0\" y=\"286.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"103.1\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">y</text><text x=\"42.0\" y=\"252.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"205.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"158.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"42.0\" y=\"111.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"64.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"89.1\" y=\"312.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k6bea47b\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"321\"/></clipPath><circle cx=\"142.3\" cy=\"295.9\" r=\"4.5\" fill=\"#172b3a\"/><circle cx=\"330.9\" cy=\"248.7\" r=\"4.5\" fill=\"#172b3a\"/><circle cx=\"283.7\" cy=\"60.1\" r=\"4.5\" fill=\"#172b3a\"/><circle cx=\"95.1\" cy=\"107.3\" r=\"4.5\" fill=\"#172b3a\"/><text x=\"142.3\" y=\"312.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">1</text><text x=\"189.4\" y=\"312.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">2</text><text x=\"236.6\" y=\"312.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">3</text><text x=\"283.7\" y=\"312.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">4</text><text x=\"330.9\" y=\"312.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">5</text><text x=\"378.0\" y=\"312.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">6</text><polygon points=\"142.3,295.9 330.9,248.7 283.7,60.1 95.1,107.3\" fill=\"#2f6fca\" fill-opacity=\"0.15\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sidans längd i kvadrat</p><div class=\"facit-matte\">\\[s^2=(5-1)^2+(1-0)^2=16+1=17\\]</div></li><li><p class=\"facit-rubrik\">Arean</p><p>Arean är \\(s^2\\), alltså 17 areaenheter.</p></li><li><p class=\"facit-rubrik\">Kontroll med omskriven kvadrat</p><div class=\"facit-matte\">\\[5^2-4\\cdot\\frac{4\\cdot1}{2}=25-8=17\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 17 a.e.</p></div>",
+    "familj": "Area och omkrets i koordinatsystem",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Arean av en kvadrat är sidan i kvadrat. Du behöver inte dra roten ur.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 17,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "a.e."
+  },
+  {
+    "id": "3.2113",
+    "kap": 3,
+    "omr": "koordinatgeometri_problemlosning",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "punkt på y-axeln lika långt från två hus",
+    "t": "<p>En mast ska placeras på \\(y\\)-axeln så att den står lika långt från två hus i \\((2,\\ 5)\\) och \\((6,\\ 1)\\). Bestäm mastens \\(y\\)-koordinat.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 365\" role=\"img\" aria-label=\"Koordinatsystem med två hus i (2, 5) och (6, 1). En okänd punkt på y-axeln är markerad med frågetecken och förbunden med båda husen.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"363\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"323\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"84.7\" y1=\"22\" x2=\"84.7\" y2=\"323\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"121.3\" y1=\"22\" x2=\"121.3\" y2=\"323\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"158.0\" y1=\"22\" x2=\"158.0\" y2=\"323\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"194.7\" y1=\"22\" x2=\"194.7\" y2=\"323\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"231.3\" y1=\"22\" x2=\"231.3\" y2=\"323\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"268.0\" y1=\"22\" x2=\"268.0\" y2=\"323\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"304.7\" y1=\"22\" x2=\"304.7\" y2=\"323\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"341.3\" y1=\"22\" x2=\"341.3\" y2=\"323\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"378.0\" y1=\"22\" x2=\"378.0\" y2=\"323\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"323.0\" x2=\"378\" y2=\"323.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"286.3\" x2=\"378\" y2=\"286.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"249.7\" x2=\"378\" y2=\"249.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"213.0\" x2=\"378\" y2=\"213.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"176.3\" x2=\"378\" y2=\"176.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"139.7\" x2=\"378\" y2=\"139.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"103.0\" x2=\"378\" y2=\"103.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"66.3\" x2=\"378\" y2=\"66.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"29.7\" x2=\"378\" y2=\"29.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"249.7\" x2=\"388\" y2=\"249.7\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"392,249.7 382,244.7 382,254.7\" fill=\"#172b3a\"/><line x1=\"121.3\" y1=\"323\" x2=\"121.3\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"121.3,8 116.3,18 126.3,18\" fill=\"#172b3a\"/><text x=\"390.0\" y=\"240.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"129.3\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">y</text><text x=\"42.0\" y=\"290.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"42.0\" y=\"217.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"42.0\" y=\"143.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"42.0\" y=\"70.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"115.3\" y=\"266.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k1f52192\"><rect x=\"48\" y=\"22\" width=\"330\" height=\"301\"/></clipPath><circle cx=\"194.7\" cy=\"66.3\" r=\"4.5\" fill=\"#172b3a\"/><text x=\"194.7\" y=\"56.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">hus 1</text><circle cx=\"341.3\" cy=\"213.0\" r=\"4.5\" fill=\"#172b3a\"/><text x=\"341.3\" y=\"203.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">hus 2</text><circle cx=\"121.3\" cy=\"286.3\" r=\"4.5\" fill=\"#d9622b\"/><text x=\"135.3\" y=\"291.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">?</text><text x=\"194.7\" y=\"266.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">2</text><text x=\"268.0\" y=\"266.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">4</text><text x=\"341.3\" y=\"266.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">6</text><line x1=\"121.3\" y1=\"286.3\" x2=\"194.7\" y2=\"66.3\" stroke=\"#d9622b\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/><line x1=\"121.3\" y1=\"286.3\" x2=\"341.3\" y2=\"213.0\" stroke=\"#d9622b\" stroke-width=\"2.5\" stroke-dasharray=\"6 4\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kalla punkten (0, y)</p><div class=\"facit-matte\">\\[(2-0)^2+(5-y)^2=(6-0)^2+(1-y)^2\\]</div></li><li><p class=\"facit-rubrik\">Förenkla</p><div class=\"facit-matte\">\\[4+25-10y+y^2=36+1-2y+y^2\\ \\Rightarrow\\ 29-10y=37-2y\\]</div></li><li><p class=\"facit-rubrik\">Lös</p><div class=\"facit-matte\">\\[-8y=8\\ \\Rightarrow\\ y=-1\\]</div></li><li><p class=\"facit-rubrik\">Kontroll</p><p>Båda avstånden blir \\(\\sqrt{40}\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(y=-1\\)</p></div>",
+    "familj": "Avstånd, mittpunkt och villkor i koordinatsystem",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Kalla punkten (0, y). Sätt kvadraterna på de två avstånden lika.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": -1,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.2114",
+    "kap": 3,
+    "omr": "koordinatgeometri_problemlosning",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "avgöra rät vinkel med Pythagoras omvändning",
+    "t": "<p>Tre stolpar står i punkterna \\(A=(1,\\ 1)\\), \\(B=(4,\\ 5)\\) och \\(C=(12,\\ -1)\\). Är vinkeln vid \\(B\\) rät? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sidorna i kvadrat</p><div class=\"facit-matte\">\\[AB^2=3^2+4^2=25,\\quad BC^2=8^2+6^2=100,\\quad AC^2=11^2+2^2=125\\]</div></li><li><p class=\"facit-rubrik\">Pythagoras sats omvänd</p><p>\\(25+100=125\\), så \\(AB^2+BC^2=AC^2\\). Vinkeln mitt emot \\(AC\\), alltså vid \\(B\\), är rät.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ja, eftersom AB² + BC² = AC².</p></div>",
+    "familj": "Avstånd, mittpunkt och villkor i koordinatsystem",
+    "formaga": [
+      "resonemang",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut kvadraterna på alla tre sidorna. Vilken sida ligger mitt emot B?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Nej, eftersom AB och BC är olika långa.",
+        "ratt": false,
+        "kommentar": "Sidorna behöver inte vara lika långa för att vinkeln ska vara rät."
+      },
+      {
+        "txt": "Ja, eftersom AB² + BC² = AC².",
+        "ratt": true,
+        "kommentar": "25 + 100 = 125."
+      },
+      {
+        "txt": "Nej, eftersom AB² + AC² ≠ BC².",
+        "ratt": false,
+        "kommentar": "Den sidan ligger inte mitt emot B."
+      },
+      {
+        "txt": "Det går bara att avgöra med gradskiva.",
+        "ratt": false,
+        "kommentar": "Pythagoras sats omvänd räcker."
+      }
+    ]
+  },
+  {
+    "id": "3.2115",
+    "kap": 3,
+    "omr": "kordasatsen_biskarningssatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "tomt som delas längs en bisektris",
+    "t": "<p>En triangulär tomt \\(ABC\\) har sidorna \\(AB=40\\) m, \\(AC=30\\) m och \\(BC=49\\) m. Ett staket ska gå från hörnet \\(A\\) så att det delar vinkeln \\(A\\) mitt itu. Staket träffar \\(BC\\) i \\(D\\). Hur lång är \\(BD\\)? (Svara i meter.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangulär tomt ABC med AB = 40 m, AC = 30 m och BC = 49 m. Ett staket från A delar vinkeln A mitt itu och träffar BC i D.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"77.2,232.0 322.8,232.0 84.8,48.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"77.2\" y1=\"232.0\" x2=\"186.8\" y2=\"126.9\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><text x=\"200.0\" y=\"221.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">40 m</text><text x=\"56.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">30 m</text><text x=\"218.4\" y=\"126.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">49 m</text><text x=\"65.5\" y=\"246.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"336.4\" y=\"243.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"75.9\" y=\"41.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"170.8\" y=\"128.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bisektrissatsen</p><div class=\"facit-matte\">\\[\\frac{BD}{DC}=\\frac{AB}{AC}=\\frac{40}{30}=\\frac43\\]</div></li><li><p class=\"facit-rubrik\">Dela 49 m i förhållandet 4 : 3</p><div class=\"facit-matte\">\\[BD=\\frac47\\cdot49=28\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 28 m</p></div>",
+    "familj": "Bisektrissatsen",
+    "formaga": [
+      "modellering",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bisektrisen delar BC i samma förhållande som AB : AC.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 28,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "m"
+  },
+  {
+    "id": "3.2116",
+    "kap": 3,
+    "omr": "kordasatsen_biskarningssatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vad bisektrissatsen säger",
+    "t": "<p>I triangeln \\(ABC\\) delar \\(AD\\) vinkeln \\(A\\) mitt itu, och \\(D\\) ligger på \\(BC\\). Vilken likhet ger bisektrissatsen? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Satsen</p><p>Bisektrisen delar den motstående sidan i samma förhållande som de två sidor som bildar vinkeln.</p><div class=\"facit-matte\">\\[\\frac{BD}{DC}=\\frac{AB}{AC}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac{BD}{DC}=\\frac{AB}{AC}\\)</p></div>",
+    "familj": "Bisektrissatsen",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Delen närmast B hör ihop med sidan som går till B.</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "BD/DC = AC/AB",
+        "ratt": false,
+        "kommentar": "Förhållandet är omvänt. Delen vid B hör ihop med sidan AB."
+      },
+      {
+        "txt": "BD/DC = AB/AC",
+        "ratt": true,
+        "kommentar": "Delarna förhåller sig som de närliggande sidorna."
+      },
+      {
+        "txt": "BD = DC",
+        "ratt": false,
+        "kommentar": "Det gäller bara om AB = AC."
+      },
+      {
+        "txt": "AD/BD = AC/DC",
+        "ratt": false,
+        "kommentar": "Bisektrisen själv ingår inte i satsen."
+      }
+    ]
+  },
+  {
+    "id": "3.2117",
+    "kap": 3,
+    "omr": "kordasatsen_biskarningssatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "sida ur bisektrissatsen",
+    "t": "<p>I triangeln \\(ABC\\) är \\(AD\\) bisektris till vinkeln \\(A\\). \\(AC=10\\) cm, \\(BD=9\\) cm och \\(DC=5\\) cm. Bestäm \\(AB\\). (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"Triangel ABC med bisektrisen AD. AC = 10 cm, BD = 9 cm, DC = 5 cm och AB = x.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"48.0,205.3 352.0,205.3 155.0,74.7\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\" stroke-linejoin=\"round\"/><line x1=\"48.0\" y1=\"205.3\" x2=\"225.3\" y2=\"121.3\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><text x=\"79.7\" y=\"127.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">10 cm</text><text x=\"301.5\" y=\"149.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">9 cm</text><text x=\"203.0\" y=\"83.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">5 cm</text><text x=\"200.0\" y=\"194.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"33.9\" y=\"215.5\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"366.2\" y=\"215.2\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"148.0\" y=\"66.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"235.9\" y=\"115.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bisektrissatsen</p><div class=\"facit-matte\">\\[\\frac{AB}{10}=\\frac{9}{5}\\]</div></li><li><p class=\"facit-rubrik\">Lös</p><div class=\"facit-matte\">\\[AB=10\\cdot\\frac{9}{5}=18\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 18 cm</p></div>",
+    "familj": "Bisektrissatsen",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>BD hör ihop med AB och DC med AC.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 18,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.2118",
+    "kap": 3,
+    "omr": "kordasatsen_biskarningssatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "radien ur en avsågad bit av en rund skiva",
+    "t": "<p>En rund bordsskiva har fått en bit avsågad längs en rak linje. Den raka kanten är 30 cm lång. Mitt på kanten är det 5 cm ut till den rundade kanten (vinkelrätt mot snittet). Hur stor var bordsskivans radie? (Svara i cm.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 340\" role=\"img\" aria-label=\"En cirkel där en bit ovanför en korda är avsågad och grå. Kordan är 30 cm lång och avståndet från kordans mitt till cirkeln är 5 cm. Diametern genom kordans mitt är streckad.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"116.0,58.0 116.0,58.0 119.6,55.4 123.4,52.8 127.2,50.4 131.1,48.1 135.0,46.0 139.0,44.0 143.1,42.1 147.3,40.3 151.5,38.7 155.7,37.2 160.0,35.8 164.4,34.6 168.7,33.5 173.1,32.6 177.6,31.8 182.0,31.2 186.5,30.7 191.0,30.3 195.5,30.1 200.0,30.0 204.5,30.1 209.0,30.3 213.5,30.7 218.0,31.2 222.4,31.8 226.9,32.6 231.3,33.5 235.6,34.6 240.0,35.8 244.3,37.2 248.5,38.7 252.7,40.3 256.9,42.1 261.0,44.0 265.0,46.0 268.9,48.1 272.8,50.4 276.6,52.8 280.4,55.4 284.0,58.0 284.0,58.0\" fill=\"#7a8794\" fill-opacity=\"0.3\"/><circle cx=\"200.0\" cy=\"170.0\" r=\"140.0\" fill=\"none\" stroke=\"#7a8794\" stroke-width=\"2\" stroke-dasharray=\"6 5\"/><line x1=\"116.0\" y1=\"58.0\" x2=\"284.0\" y2=\"58.0\" stroke=\"#172b3a\" stroke-width=\"3\"/><line x1=\"200.0\" y1=\"58.0\" x2=\"200.0\" y2=\"30.0\" stroke=\"#d9622b\" stroke-width=\"2.5\"/><line x1=\"200.0\" y1=\"30.0\" x2=\"200.0\" y2=\"310.0\" stroke=\"#7a8794\" stroke-width=\"2\" stroke-dasharray=\"3 5\"/><circle cx=\"200.0\" cy=\"170.0\" r=\"3.5\" fill=\"#172b3a\"/><text x=\"212.0\" y=\"174.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">O</text><text x=\"158.0\" y=\"78.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">30 cm</text><text x=\"230.0\" y=\"32.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#d9622b\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">5 cm</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Diametern genom kordans mitt</p><p>Diametern vinkelrätt mot kordan delar den i två delar på 15 cm. Diametern delas i 5 cm och \\(2r-5\\) cm.</p></li><li><p class=\"facit-rubrik\">Kordasatsen</p><div class=\"facit-matte\">\\[15\\cdot15=5\\cdot(2r-5)\\ \\Rightarrow\\ 225=10r-25\\ \\Rightarrow\\ r=25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 25 cm</p></div>",
+    "familj": "Kordasatsen i tillämpningar",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Tänk dig hela cirkeln och diametern som går vinkelrätt genom kordans mittpunkt. Använd kordasatsen.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 25,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.2119",
+    "kap": 3,
+    "omr": "kordasatsen_biskarningssatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "kordans längd ur delar med algebra",
+    "t": "<p>Kordorna \\(AB\\) och \\(CD\\) skär varandra i \\(E\\). Delarna av \\(AB\\) är \\(x\\) och \\(3x\\). Delarna av \\(CD\\) är 6 och 8. Hur lång är kordan \\(AB\\)?</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 280\" role=\"img\" aria-label=\"En cirkel med kordorna AB och CD som skär varandra i E. AE = x, EB = 3x, CE = 6 och ED = 8.\" style=\"width:100%;max-width:400px\"><rect x=\"1\" y=\"1\" width=\"398\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><circle cx=\"200.0\" cy=\"140.0\" r=\"92.0\" fill=\"none\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"290.7\" y1=\"124.6\" x2=\"110.2\" y2=\"119.8\" stroke=\"#172b3a\" stroke-width=\"2\"/><line x1=\"237.9\" y1=\"56.2\" x2=\"255.9\" y2=\"213.1\" stroke=\"#172b3a\" stroke-width=\"2\"/><text x=\"268.6\" y=\"112.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"178.3\" y=\"110.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">3x</text><text x=\"256.0\" y=\"93.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">6</text><text x=\"265.0\" y=\"171.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">8</text><text x=\"305.7\" y=\"128.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">A</text><text x=\"95.3\" y=\"123.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">B</text><text x=\"239.9\" y=\"46.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">C</text><text x=\"260.5\" y=\"232.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">D</text><text x=\"259.6\" y=\"143.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">E</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kordasatsen</p><div class=\"facit-matte\">\\[x\\cdot3x=6\\cdot8\\ \\Rightarrow\\ 3x^2=48\\ \\Rightarrow\\ x^2=16\\]</div></li><li><p class=\"facit-rubrik\">Positiv lösning</p><p>En längd är positiv, så \\(x=4\\).</p></li><li><p class=\"facit-rubrik\">Hela kordan</p><div class=\"facit-matte\">\\[AB=x+3x=4x=16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 16</p></div>",
+    "familj": "Kordasatsen med algebra och bevis",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Ställ upp kordasatsen. Glöm inte att frågan gäller hela kordan.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 16,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "3.2120",
+    "kap": 3,
+    "omr": "kordasatsen_biskarningssatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "bisektris ur omkrets och sidförhållande",
+    "t": "<p>Triangeln \\(ABC\\) har omkretsen 45 cm. \\(AB=16\\) cm och \\(AC=8\\) cm. Bisektrisen till vinkeln \\(A\\) träffar \\(BC\\) i \\(D\\). Bestäm \\(BD\\). (Svara i cm.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sidan BC</p><div class=\"facit-matte\">\\[BC=45-16-8=21\\]</div></li><li><p class=\"facit-rubrik\">Bisektrissatsen</p><div class=\"facit-matte\">\\[\\frac{BD}{DC}=\\frac{16}{8}=2\\]</div></li><li><p class=\"facit-rubrik\">Dela 21 cm i förhållandet 2 : 1</p><div class=\"facit-matte\">\\[BD=\\frac23\\cdot21=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 14 cm</p></div>",
+    "familj": "Bisektrissatsen",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Räkna först ut BC med hjälp av omkretsen.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 14,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "3.2121",
+    "kap": 3,
+    "omr": "kordasatsen_biskarningssatsen",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "kordasatsen med diameter och avstånd",
+    "t": "<p>I en cirkel med radien 13 cm går en korda vinkelrätt mot en diameter. Kordan skär diametern 8 cm från medelpunkten. Hur lång är kordan? (Svara i cm med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Diameterns delar</p><p>Skärningspunkten delar diametern i \\(13+8=21\\) cm och \\(13-8=5\\) cm. Diametern delar kordan i två lika delar, \\(y\\) och \\(y\\).</p></li><li><p class=\"facit-rubrik\">Kordasatsen</p><div class=\"facit-matte\">\\[y\\cdot y=21\\cdot5=105\\ \\Rightarrow\\ y=\\sqrt{105}\\]</div></li><li><p class=\"facit-rubrik\">Hela kordan</p><div class=\"facit-matte\">\\[2\\sqrt{105}\\approx20{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(2\\sqrt{105}\\approx20{,}5\\) cm</p></div>",
+    "familj": "Kordasatsen i tillämpningar",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>En diameter som är vinkelrät mot en korda delar kordan mitt itu. I vilka delar delas diametern?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 20.5,
+    "tolerans": 0.05,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.2112",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "prognos för ett barns längd",
+    "t": "<p>Längden \\(y\\) cm hos barn i åldern 2–10 år beskrivs av regressionsmodellen \\(y=6{,}2x+77\\), där \\(x\\) är åldern i år. Vilken längd ger modellen för ett barn som är 8 år? (Svara i cm med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in x = 8</p><div class=\"facit-matte\">\\[y=6{,}2\\cdot8+77=49{,}6+77=126{,}6\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 126,6 cm</p></div>",
+    "familj": "Bestämma och använda regressionsmodellen",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sätt in åldern i modellen.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 126.6,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "4.2113",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "tolka negativ lutning",
+    "t": "<p>Temperaturen \\(y\\) °C hos en kopp kaffe \\(x\\) minuter efter att den hällts upp beskrivs för \\(0\\le x\\le20\\) av \\(y=-1{,}5x+80\\). Vad betyder talet \\(-1{,}5\\)? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen</p><p>När \\(x\\) ökar med 1 minut ändras \\(y\\) med \\(-1{,}5\\) °C, alltså sjunker temperaturen med 1,5 °C per minut enligt modellen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Temperaturen sjunker med 1,5 °C per minut.</p></div>",
+    "familj": "Tolka regressionsmodellen",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vad händer med y när x ökar med 1?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Kaffet är −1,5 °C från början.",
+        "ratt": false,
+        "kommentar": "Starttemperaturen enligt modellen är 80 °C."
+      },
+      {
+        "txt": "Temperaturen sjunker med 1,5 °C per minut.",
+        "ratt": true,
+        "kommentar": "Lutningen är förändringen per minut."
+      },
+      {
+        "txt": "Kaffet svalnar på 1,5 minuter.",
+        "ratt": false,
+        "kommentar": "−1,5 har enheten °C per minut."
+      },
+      {
+        "txt": "Temperaturen sjunker med 1,5 % per minut.",
+        "ratt": false,
+        "kommentar": "En linjär modell beskriver en förändring i °C, inte i procent."
+      }
+    ]
+  },
+  {
+    "id": "4.2114",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "mätvärde minus modellvärde med negativt tecken",
+    "t": "<p>En regressionsmodell är \\(y=3{,}2x+15\\). För \\(x=10\\) är det uppmätta värdet 41. Bestäm skillnaden mätvärde − modellvärde.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Modellvärdet</p><div class=\"facit-matte\">\\[3{,}2\\cdot10+15=47\\]</div></li><li><p class=\"facit-rubrik\">Skillnad</p><div class=\"facit-matte\">\\[41-47=-6\\]</div></li><li><p class=\"facit-rubrik\">Tolka</p><p>Mätvärdet ligger 6 enheter under regressionslinjen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −6</p></div>",
+    "familj": "Bestämma och använda regressionsmodellen",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut modellens värde för x = 10. Tänk på ordningen: mätvärde minus modellvärde.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": -6,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2115",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "minskning per vecka ur regression med GeoGebra",
+    "t": "<p>Tabellen visar en löpares tid på 3 km efter \\(x\\) veckors träning.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:center\"><thead><tr><th scope=\"col\">Vecka \\(x\\)</th><th scope=\"col\">1</th><th scope=\"col\">2</th><th scope=\"col\">3</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">6</th></tr></thead><tbody><tr><td>Tid (min)</td><td>14,2</td><td>13,9</td><td>13,5</td><td>13,4</td><td>12,9</td><td>12,7</td></tr></tbody></table><p>Gör en linjär regression med GeoGebra. Med hur många minuter per vecka minskar tiden enligt modellen? (Svara med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Regression</p><div class=\"facit-matte\">\\[y\\approx-0{,}303x+14{,}49\\]</div></li><li><p class=\"facit-rubrik\">Tolka lutningen</p><p>Lutningen är negativ: tiden minskar med ungefär 0,30 min per vecka.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,30 min per vecka</p></div>",
+    "familj": "Bestämma och använda regressionsmodellen",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Lutningen visar förändringen per vecka. Den är negativ när tiden minskar.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.3,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "min"
+  },
+  {
+    "id": "4.2116",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "modell ur två punkter på regressionslinjen",
+    "t": "<p>En regressionslinje för mätvärden med \\(0\\le x\\le15\\) går genom punkterna \\((2,\\ 15)\\) och \\((10,\\ 39)\\). Vilket värde ger modellen när \\(x=14\\)?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lutningen</p><div class=\"facit-matte\">\\[k=\\frac{39-15}{10-2}=\\frac{24}{8}=3\\]</div></li><li><p class=\"facit-rubrik\">m-värdet</p><div class=\"facit-matte\">\\[15=3\\cdot2+m\\ \\Rightarrow\\ m=9\\]</div></li><li><p class=\"facit-rubrik\">Prognos</p><div class=\"facit-matte\">\\[y=3\\cdot14+9=51\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 51</p></div>",
+    "familj": "Bestämma och använda regressionsmodellen",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bestäm k och m för linjen genom de två punkterna.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 51,
+    "tolerans": 0,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2117",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "när når glaciären en viss längd",
+    "t": "<p>Längden \\(y\\) km av en glaciär beskrivs av \\(y=12{,}6-0{,}045x\\), där \\(x\\) är antalet år efter 1950. Modellen bygger på mätningar 1950–2020. Hur många år efter 1950 är glaciären 10 km lång enligt modellen? (Svara med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ställ upp ekvationen</p><div class=\"facit-matte\">\\[12{,}6-0{,}045x=10\\]</div></li><li><p class=\"facit-rubrik\">Lös</p><div class=\"facit-matte\">\\[0{,}045x=2{,}6\\ \\Rightarrow\\ x=\\frac{2{,}6}{0{,}045}\\approx57{,}8\\]</div></li><li><p class=\"facit-rubrik\">Tolka</p><p>Det motsvarar slutet av år 2007, inom mätperioden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 57,8 år efter 1950</p></div>",
+    "familj": "Bestämma och använda regressionsmodellen",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Sätt y = 10 och lös ut x.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 57.8,
+    "tolerans": 0.05,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "år"
+  },
+  {
+    "id": "4.2118",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "prognos med svagt samband",
+    "t": "<p>Ett företag har gjort en linjär regression för sambandet mellan reklamkostnad och försäljning. Korrelationskoefficienten är \\(r=0{,}35\\). Hur pålitlig är en prognos med modellen? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Svagt samband</p><p>\\(r=0{,}35\\) visar ett svagt positivt samband. Punkterna ligger långt från regressionslinjen, så en enskild prognos kan bli långt från verkligheten.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Osäker, eftersom punkterna ligger långt från linjen.</p></div>",
+    "familj": "Tolka regressionsmodellen",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Vad säger r om hur nära punkterna ligger regressionslinjen?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Mycket pålitlig, eftersom r är positivt.",
+        "ratt": false,
+        "kommentar": "Tecknet visar riktning, inte styrka."
+      },
+      {
+        "txt": "Pålitlig till 35 %.",
+        "ratt": false,
+        "kommentar": "r är ingen procentsats för pålitlighet."
+      },
+      {
+        "txt": "Osäker, eftersom punkterna ligger långt från linjen.",
+        "ratt": true,
+        "kommentar": "Ett svagt samband ger stor spridning runt linjen."
+      },
+      {
+        "txt": "Helt oanvändbar, eftersom r är mindre än 0,5.",
+        "ratt": false,
+        "kommentar": "Det finns ett samband, men det är svagt."
+      }
+    ]
+  },
+  {
+    "id": "4.2119",
+    "kap": 4,
+    "omr": "linjar_regression",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "när skiljer två modeller ett visst belopp",
+    "t": "<p>Längden hos pojkar och flickor i åldern 2–12 år beskrivs av två regressionsmodeller:</p><div class=\"facit-matte\">\\[\\text{pojkar: } y=6{,}1x+78\\qquad\\text{flickor: } y=5{,}6x+79\\]</div><p>där \\(y\\) är längden i cm och \\(x\\) åldern i år. Vid vilken ålder är pojkarna i genomsnitt 3,5 cm längre än flickorna enligt modellerna? (Svara i år.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skillnaden mellan modellerna</p><div class=\"facit-matte\">\\[(6{,}1x+78)-(5{,}6x+79)=0{,}5x-1\\]</div></li><li><p class=\"facit-rubrik\">Sätt skillnaden till 3,5</p><div class=\"facit-matte\">\\[0{,}5x-1=3{,}5\\ \\Rightarrow\\ 0{,}5x=4{,}5\\ \\Rightarrow\\ x=9\\]</div></li><li><p class=\"facit-rubrik\">Rimlighet</p><p>9 år ligger inom modellernas åldersintervall.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9 år</p></div>",
+    "familj": "Bestämma och använda regressionsmodellen",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Teckna skillnaden mellan modellerna som ett uttryck i x.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "år"
+  },
+  {
+    "id": "4.2120",
+    "kap": 4,
+    "omr": "normalfordelning_digitala_verktyg",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "andel längre än ett värde",
+    "t": "<p>Längden hos 18-åriga män i ett land är normalfördelad med medelvärdet 180 cm och standardavvikelsen 7 cm.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Normalkurva med medelvärdet 180. Området till höger om 190 är skuggat.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"297.8,204 297.8,142.4 298.4,143.3 299.0,144.3 299.6,145.2 300.1,146.1 300.7,147.0 301.3,148.0 301.9,148.9 302.5,149.8 303.1,150.6 303.7,151.5 304.3,152.4 304.9,153.3 305.5,154.1 306.1,155.0 306.6,155.8 307.2,156.6 307.8,157.4 308.4,158.3 309.0,159.1 309.6,159.9 310.2,160.6 310.8,161.4 311.4,162.2 312.0,162.9 312.6,163.7 313.1,164.4 313.7,165.2 314.3,165.9 314.9,166.6 315.5,167.3 316.1,168.0 316.7,168.7 317.3,169.4 317.9,170.0 318.5,170.7 319.1,171.3 319.6,172.0 320.2,172.6 320.8,173.2 321.4,173.8 322.0,174.4 322.6,175.0 323.2,175.6 323.8,176.2 324.4,176.8 325.0,177.3 325.6,177.9 326.2,178.4 326.7,179.0 327.3,179.5 327.9,180.0 328.5,180.5 329.1,181.0 329.7,181.5 330.3,182.0 330.9,182.5 331.5,183.0 332.1,183.4 332.7,183.9 333.2,184.3 333.8,184.8 334.4,185.2 335.0,185.6 335.6,186.1 336.2,186.5 336.8,186.9 337.4,187.3 338.0,187.7 338.6,188.0 339.2,188.4 339.7,188.8 340.3,189.1 340.9,189.5 341.5,189.8 342.1,190.2 342.7,190.5 343.3,190.8 343.9,191.2 344.5,191.5 345.1,191.8 345.7,192.1 346.2,192.4 346.8,192.7 347.4,192.9 348.0,193.2 348.6,193.5 349.2,193.8 349.8,194.0 350.4,194.3 351.0,194.5 351.6,194.8 352.2,195.0 352.8,195.3 353.3,195.5 353.9,195.7 354.5,195.9 355.1,196.1 355.7,196.3 356.3,196.6 356.9,196.8 357.5,196.9 358.1,197.1 358.7,197.3 359.3,197.5 359.8,197.7 360.4,197.9 361.0,198.0 361.6,198.2 362.2,198.4 362.8,198.5 363.4,198.7 364.0,198.8 364.6,199.0 365.2,199.1 365.8,199.3 366.3,199.4 366.9,199.5 367.5,199.6 368.1,199.8 368.7,199.9 369.3,200.0 369.9,200.1 370.5,200.2 371.1,200.4 371.7,200.5 372.3,200.6 372.8,200.7 373.4,200.8 374.0,200.9 374.6,201.0 375.2,201.1 375.8,201.2 376.4,201.2 377.0,201.3 377.6,201.4 378.2,201.5 378.8,201.6 379.4,201.6 379.9,201.7 380.5,201.8 381.1,201.9 381.7,201.9 382.3,202.0 382.9,202.1 383.5,202.1 384.1,202.2 384.7,202.2 385.3,202.3 385.9,202.3 386.4,202.4 387.0,202.5 387.6,202.5 388.2,202.6 388.8,202.6 389.4,202.6 390.0,202.7 390.6,202.7 391.2,202.8 391.8,202.8 392.4,202.9 392.9,202.9 393.5,202.9 394.1,203.0 394.7,203.0 395.3,203.0 395.9,203.1 396.5,203.1 397.1,203.1 397.7,203.2 398.3,203.2 398.9,203.2 399.4,203.3 400.0,203.3 400.6,203.3 401.2,203.3 401.8,203.4 402.4,203.4 403.0,203.4 403.6,203.4 404.2,203.4 404.8,203.5 405.4,203.5 406.0,203.5 406.5,203.5 407.1,203.5 407.7,203.6 408.3,203.6 408.9,203.6 409.5,203.6 410.1,203.6 410.7,203.6 411.3,203.6 411.9,203.7 412.5,203.7 413.0,203.7 413.6,203.7 414.2,203.7 414.8,203.7 415.4,203.7 416.0,203.7 416.0,204\" fill=\"#2f6fca\" fill-opacity=\"0.25\"/><polyline points=\"24.0,203.7 25.3,203.7 26.6,203.7 27.9,203.7 29.2,203.6 30.5,203.6 31.8,203.6 33.1,203.5 34.5,203.5 35.8,203.4 37.1,203.4 38.4,203.3 39.7,203.3 41.0,203.2 42.3,203.2 43.6,203.1 44.9,203.0 46.2,203.0 47.5,202.9 48.8,202.8 50.1,202.7 51.4,202.6 52.7,202.5 54.1,202.4 55.4,202.2 56.7,202.1 58.0,202.0 59.3,201.8 60.6,201.6 61.9,201.5 63.2,201.3 64.5,201.1 65.8,200.9 67.1,200.7 68.4,200.5 69.7,200.2 71.0,199.9 72.3,199.7 73.7,199.4 75.0,199.1 76.3,198.8 77.6,198.4 78.9,198.1 80.2,197.7 81.5,197.3 82.8,196.9 84.1,196.4 85.4,195.9 86.7,195.5 88.0,194.9 89.3,194.4 90.6,193.8 91.9,193.2 93.3,192.6 94.6,192.0 95.9,191.3 97.2,190.6 98.5,189.8 99.8,189.1 101.1,188.3 102.4,187.4 103.7,186.5 105.0,185.6 106.3,184.7 107.6,183.7 108.9,182.7 110.2,181.6 111.5,180.5 112.9,179.3 114.2,178.2 115.5,176.9 116.8,175.7 118.1,174.3 119.4,173.0 120.7,171.6 122.0,170.2 123.3,168.7 124.6,167.1 125.9,165.6 127.2,164.0 128.5,162.3 129.8,160.6 131.1,158.9 132.5,157.1 133.8,155.2 135.1,153.4 136.4,151.4 137.7,149.5 139.0,147.5 140.3,145.4 141.6,143.4 142.9,141.3 144.2,139.1 145.5,136.9 146.8,134.7 148.1,132.4 149.4,130.2 150.7,127.9 152.1,125.5 153.4,123.2 154.7,120.8 156.0,118.4 157.3,115.9 158.6,113.5 159.9,111.0 161.2,108.6 162.5,106.1 163.8,103.6 165.1,101.1 166.4,98.6 167.7,96.1 169.0,93.7 170.3,91.2 171.7,88.7 173.0,86.3 174.3,83.8 175.6,81.4 176.9,79.0 178.2,76.7 179.5,74.3 180.8,72.0 182.1,69.8 183.4,67.6 184.7,65.4 186.0,63.3 187.3,61.2 188.6,59.1 189.9,57.2 191.3,55.2 192.6,53.4 193.9,51.6 195.2,49.9 196.5,48.2 197.8,46.7 199.1,45.2 200.4,43.7 201.7,42.4 203.0,41.1 204.3,39.9 205.6,38.9 206.9,37.9 208.2,36.9 209.5,36.1 210.9,35.4 212.2,34.8 213.5,34.2 214.8,33.8 216.1,33.4 217.4,33.2 218.7,33.0 220.0,33.0 221.3,33.0 222.6,33.2 223.9,33.4 225.2,33.8 226.5,34.2 227.8,34.8 229.1,35.4 230.5,36.1 231.8,36.9 233.1,37.9 234.4,38.9 235.7,39.9 237.0,41.1 238.3,42.4 239.6,43.7 240.9,45.2 242.2,46.7 243.5,48.2 244.8,49.9 246.1,51.6 247.4,53.4 248.7,55.2 250.1,57.2 251.4,59.1 252.7,61.2 254.0,63.3 255.3,65.4 256.6,67.6 257.9,69.8 259.2,72.0 260.5,74.3 261.8,76.7 263.1,79.0 264.4,81.4 265.7,83.8 267.0,86.3 268.3,88.7 269.7,91.2 271.0,93.7 272.3,96.1 273.6,98.6 274.9,101.1 276.2,103.6 277.5,106.1 278.8,108.6 280.1,111.0 281.4,113.5 282.7,115.9 284.0,118.4 285.3,120.8 286.6,123.2 287.9,125.5 289.3,127.9 290.6,130.2 291.9,132.4 293.2,134.7 294.5,136.9 295.8,139.1 297.1,141.3 298.4,143.4 299.7,145.4 301.0,147.5 302.3,149.5 303.6,151.4 304.9,153.4 306.2,155.2 307.5,157.1 308.9,158.9 310.2,160.6 311.5,162.3 312.8,164.0 314.1,165.6 315.4,167.1 316.7,168.7 318.0,170.2 319.3,171.6 320.6,173.0 321.9,174.3 323.2,175.7 324.5,176.9 325.8,178.2 327.1,179.3 328.5,180.5 329.8,181.6 331.1,182.7 332.4,183.7 333.7,184.7 335.0,185.6 336.3,186.5 337.6,187.4 338.9,188.3 340.2,189.1 341.5,189.8 342.8,190.6 344.1,191.3 345.4,192.0 346.7,192.6 348.1,193.2 349.4,193.8 350.7,194.4 352.0,194.9 353.3,195.5 354.6,195.9 355.9,196.4 357.2,196.9 358.5,197.3 359.8,197.7 361.1,198.1 362.4,198.4 363.7,198.8 365.0,199.1 366.3,199.4 367.7,199.7 369.0,199.9 370.3,200.2 371.6,200.5 372.9,200.7 374.2,200.9 375.5,201.1 376.8,201.3 378.1,201.5 379.4,201.6 380.7,201.8 382.0,202.0 383.3,202.1 384.6,202.2 385.9,202.4 387.3,202.5 388.6,202.6 389.9,202.7 391.2,202.8 392.5,202.9 393.8,203.0 395.1,203.0 396.4,203.1 397.7,203.2 399.0,203.2 400.3,203.3 401.6,203.3 402.9,203.4 404.2,203.4 405.5,203.5 406.9,203.5 408.2,203.6 409.5,203.6 410.8,203.6 412.1,203.7 413.4,203.7 414.7,203.7 416.0,203.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><line x1=\"24\" y1=\"204\" x2=\"416\" y2=\"204\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"220.0\" y1=\"204\" x2=\"220.0\" y2=\"33.0\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"220.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">180</text><line x1=\"297.8\" y1=\"204\" x2=\"297.8\" y2=\"142.4\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"297.8\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">190</text><text x=\"220.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Längd (cm)</text></svg></span><p>Hur stor andel är längre än 190 cm? Använd GeoGebra. (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sannolikhetskalkylatorn</p><p>I GeoGebras sannolikhetskalkylator väljer du Normal och skriver in \\(\\mu=180\\) och \\(\\sigma=7\\).</p></li><li><p class=\"facit-rubrik\">Området till höger om 190</p><div class=\"facit-matte\">\\[P(X\\gt190)\\approx0{,}077\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,7 %</p></div>",
+    "familj": "Sannolikhet över, under och i intervall",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Välj området till höger om 190.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.7,
+    "tolerans": 0.2,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "4.2121",
+    "kap": 4,
+    "omr": "normalfordelning_digitala_verktyg",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "andel i ett osymmetriskt intervall",
+    "t": "<p>Resultaten på ett stort logiktest är normalfördelade med medelvärdet 100 och standardavvikelsen 15.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Normalkurva med medelvärdet 100. Området mellan 85 och 120 är skuggat.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"165.6,204 165.6,100.3 166.2,99.1 166.8,97.9 167.5,96.7 168.1,95.4 168.7,94.2 169.4,93.0 170.0,91.8 170.6,90.6 171.3,89.4 171.9,88.2 172.5,87.0 173.2,85.9 173.8,84.7 174.4,83.5 175.1,82.3 175.7,81.2 176.4,80.0 177.0,78.8 177.6,77.7 178.3,76.5 178.9,75.4 179.5,74.3 180.2,73.2 180.8,72.0 181.4,70.9 182.1,69.8 182.7,68.8 183.3,67.7 184.0,66.6 184.6,65.6 185.2,64.5 185.9,63.5 186.5,62.5 187.2,61.5 187.8,60.5 188.4,59.5 189.1,58.5 189.7,57.5 190.3,56.6 191.0,55.7 191.6,54.8 192.2,53.9 192.9,53.0 193.5,52.1 194.1,51.2 194.8,50.4 195.4,49.6 196.0,48.8 196.7,48.0 197.3,47.2 198.0,46.5 198.6,45.7 199.2,45.0 199.9,44.3 200.5,43.6 201.1,43.0 201.8,42.3 202.4,41.7 203.0,41.1 203.7,40.5 204.3,40.0 204.9,39.4 205.6,38.9 206.2,38.4 206.8,37.9 207.5,37.5 208.1,37.0 208.7,36.6 209.4,36.2 210.0,35.8 210.7,35.5 211.3,35.2 211.9,34.9 212.6,34.6 213.2,34.3 213.8,34.1 214.5,33.9 215.1,33.7 215.7,33.5 216.4,33.4 217.0,33.3 217.6,33.2 218.3,33.1 218.9,33.0 219.5,33.0 220.2,33.0 220.8,33.0 221.5,33.1 222.1,33.1 222.7,33.2 223.4,33.3 224.0,33.5 224.6,33.6 225.3,33.8 225.9,34.0 226.5,34.2 227.2,34.5 227.8,34.7 228.4,35.0 229.1,35.4 229.7,35.7 230.3,36.1 231.0,36.4 231.6,36.8 232.3,37.3 232.9,37.7 233.5,38.2 234.2,38.7 234.8,39.2 235.4,39.7 236.1,40.3 236.7,40.9 237.3,41.4 238.0,42.1 238.6,42.7 239.2,43.3 239.9,44.0 240.5,44.7 241.1,45.4 241.8,46.1 242.4,46.9 243.0,47.7 243.7,48.4 244.3,49.2 245.0,50.0 245.6,50.9 246.2,51.7 246.9,52.6 247.5,53.5 248.1,54.4 248.8,55.3 249.4,56.2 250.0,57.1 250.7,58.1 251.3,59.1 251.9,60.0 252.6,61.0 253.2,62.0 253.8,63.0 254.5,64.1 255.1,65.1 255.8,66.2 256.4,67.2 257.0,68.3 257.7,69.4 258.3,70.5 258.9,71.6 259.6,72.7 260.2,73.8 260.8,74.9 261.5,76.1 262.1,77.2 262.7,78.3 263.4,79.5 264.0,80.7 264.6,81.8 265.3,83.0 265.9,84.2 266.6,85.4 267.2,86.5 267.8,87.7 268.5,88.9 269.1,90.1 269.7,91.3 270.4,92.5 271.0,93.7 271.6,94.9 272.3,96.1 272.9,97.3 273.5,98.6 274.2,99.8 274.8,101.0 275.4,102.2 276.1,103.4 276.7,104.6 277.3,105.8 278.0,107.0 278.6,108.2 279.3,109.4 279.9,110.6 280.5,111.8 281.2,113.0 281.8,114.2 282.4,115.4 283.1,116.6 283.7,117.8 284.3,118.9 285.0,120.1 285.6,121.3 286.2,122.4 286.9,123.6 287.5,124.7 288.1,125.9 288.8,127.0 289.4,128.1 290.1,129.3 290.7,130.4 291.3,131.5 292.0,132.6 292.6,133.7 292.6,204\" fill=\"#2f6fca\" fill-opacity=\"0.25\"/><polyline points=\"24.0,203.7 25.3,203.7 26.6,203.7 27.9,203.7 29.2,203.6 30.5,203.6 31.8,203.6 33.1,203.5 34.5,203.5 35.8,203.4 37.1,203.4 38.4,203.3 39.7,203.3 41.0,203.2 42.3,203.2 43.6,203.1 44.9,203.0 46.2,203.0 47.5,202.9 48.8,202.8 50.1,202.7 51.4,202.6 52.7,202.5 54.1,202.4 55.4,202.2 56.7,202.1 58.0,202.0 59.3,201.8 60.6,201.6 61.9,201.5 63.2,201.3 64.5,201.1 65.8,200.9 67.1,200.7 68.4,200.5 69.7,200.2 71.0,199.9 72.3,199.7 73.7,199.4 75.0,199.1 76.3,198.8 77.6,198.4 78.9,198.1 80.2,197.7 81.5,197.3 82.8,196.9 84.1,196.4 85.4,195.9 86.7,195.5 88.0,194.9 89.3,194.4 90.6,193.8 91.9,193.2 93.3,192.6 94.6,192.0 95.9,191.3 97.2,190.6 98.5,189.8 99.8,189.1 101.1,188.3 102.4,187.4 103.7,186.5 105.0,185.6 106.3,184.7 107.6,183.7 108.9,182.7 110.2,181.6 111.5,180.5 112.9,179.3 114.2,178.2 115.5,176.9 116.8,175.7 118.1,174.3 119.4,173.0 120.7,171.6 122.0,170.2 123.3,168.7 124.6,167.1 125.9,165.6 127.2,164.0 128.5,162.3 129.8,160.6 131.1,158.9 132.5,157.1 133.8,155.2 135.1,153.4 136.4,151.4 137.7,149.5 139.0,147.5 140.3,145.4 141.6,143.4 142.9,141.3 144.2,139.1 145.5,136.9 146.8,134.7 148.1,132.4 149.4,130.2 150.7,127.9 152.1,125.5 153.4,123.2 154.7,120.8 156.0,118.4 157.3,115.9 158.6,113.5 159.9,111.0 161.2,108.6 162.5,106.1 163.8,103.6 165.1,101.1 166.4,98.6 167.7,96.1 169.0,93.7 170.3,91.2 171.7,88.7 173.0,86.3 174.3,83.8 175.6,81.4 176.9,79.0 178.2,76.7 179.5,74.3 180.8,72.0 182.1,69.8 183.4,67.6 184.7,65.4 186.0,63.3 187.3,61.2 188.6,59.1 189.9,57.2 191.3,55.2 192.6,53.4 193.9,51.6 195.2,49.9 196.5,48.2 197.8,46.7 199.1,45.2 200.4,43.7 201.7,42.4 203.0,41.1 204.3,39.9 205.6,38.9 206.9,37.9 208.2,36.9 209.5,36.1 210.9,35.4 212.2,34.8 213.5,34.2 214.8,33.8 216.1,33.4 217.4,33.2 218.7,33.0 220.0,33.0 221.3,33.0 222.6,33.2 223.9,33.4 225.2,33.8 226.5,34.2 227.8,34.8 229.1,35.4 230.5,36.1 231.8,36.9 233.1,37.9 234.4,38.9 235.7,39.9 237.0,41.1 238.3,42.4 239.6,43.7 240.9,45.2 242.2,46.7 243.5,48.2 244.8,49.9 246.1,51.6 247.4,53.4 248.7,55.2 250.1,57.2 251.4,59.1 252.7,61.2 254.0,63.3 255.3,65.4 256.6,67.6 257.9,69.8 259.2,72.0 260.5,74.3 261.8,76.7 263.1,79.0 264.4,81.4 265.7,83.8 267.0,86.3 268.3,88.7 269.7,91.2 271.0,93.7 272.3,96.1 273.6,98.6 274.9,101.1 276.2,103.6 277.5,106.1 278.8,108.6 280.1,111.0 281.4,113.5 282.7,115.9 284.0,118.4 285.3,120.8 286.6,123.2 287.9,125.5 289.3,127.9 290.6,130.2 291.9,132.4 293.2,134.7 294.5,136.9 295.8,139.1 297.1,141.3 298.4,143.4 299.7,145.4 301.0,147.5 302.3,149.5 303.6,151.4 304.9,153.4 306.2,155.2 307.5,157.1 308.9,158.9 310.2,160.6 311.5,162.3 312.8,164.0 314.1,165.6 315.4,167.1 316.7,168.7 318.0,170.2 319.3,171.6 320.6,173.0 321.9,174.3 323.2,175.7 324.5,176.9 325.8,178.2 327.1,179.3 328.5,180.5 329.8,181.6 331.1,182.7 332.4,183.7 333.7,184.7 335.0,185.6 336.3,186.5 337.6,187.4 338.9,188.3 340.2,189.1 341.5,189.8 342.8,190.6 344.1,191.3 345.4,192.0 346.7,192.6 348.1,193.2 349.4,193.8 350.7,194.4 352.0,194.9 353.3,195.5 354.6,195.9 355.9,196.4 357.2,196.9 358.5,197.3 359.8,197.7 361.1,198.1 362.4,198.4 363.7,198.8 365.0,199.1 366.3,199.4 367.7,199.7 369.0,199.9 370.3,200.2 371.6,200.5 372.9,200.7 374.2,200.9 375.5,201.1 376.8,201.3 378.1,201.5 379.4,201.6 380.7,201.8 382.0,202.0 383.3,202.1 384.6,202.2 385.9,202.4 387.3,202.5 388.6,202.6 389.9,202.7 391.2,202.8 392.5,202.9 393.8,203.0 395.1,203.0 396.4,203.1 397.7,203.2 399.0,203.2 400.3,203.3 401.6,203.3 402.9,203.4 404.2,203.4 405.5,203.5 406.9,203.5 408.2,203.6 409.5,203.6 410.8,203.6 412.1,203.7 413.4,203.7 414.7,203.7 416.0,203.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><line x1=\"24\" y1=\"204\" x2=\"416\" y2=\"204\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"165.6\" y1=\"204\" x2=\"165.6\" y2=\"100.3\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"165.6\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">85</text><line x1=\"220.0\" y1=\"204\" x2=\"220.0\" y2=\"33.0\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"220.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">100</text><line x1=\"292.6\" y1=\"204\" x2=\"292.6\" y2=\"133.7\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"292.6\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">120</text><text x=\"220.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Resultat</text></svg></span><p>Hur stor andel får ett resultat mellan 85 och 120? Använd GeoGebra. (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sannolikhetskalkylatorn</p><p>I GeoGebras sannolikhetskalkylator väljer du Normal och skriver in \\(\\mu=100\\) och \\(\\sigma=15\\).</p></li><li><p class=\"facit-rubrik\">Intervallet</p><div class=\"facit-matte\">\\[P(85\\le X\\le120)\\approx0{,}750\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 75,0 %</p></div>",
+    "familj": "Sannolikhet över, under och i intervall",
+    "formaga": [
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Välj ett intervall med båda gränserna.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 75,
+    "tolerans": 0.2,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "4.2122",
+    "kap": 4,
+    "omr": "normalfordelning_digitala_verktyg",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "antal äpplen under en viktgräns",
+    "t": "<p>Ett äppelodlare plockar 500 äpplen. Vikten är normalfördelad med medelvärdet 165 g och standardavvikelsen 18 g. Äpplen som väger mindre än 140 g blir must. Ungefär hur många äpplen blir must? Använd GeoGebra. (Svara med ett heltal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Normalkurva med medelvärdet 165. Området till vänster om 140 är skuggat.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"24.0,204 24.0,203.7 24.6,203.7 25.2,203.7 25.8,203.7 26.4,203.7 27.0,203.7 27.6,203.7 28.2,203.7 28.8,203.6 29.4,203.6 30.0,203.6 30.6,203.6 31.2,203.6 31.8,203.6 32.4,203.5 33.0,203.5 33.6,203.5 34.2,203.5 34.8,203.5 35.4,203.5 36.0,203.4 36.6,203.4 37.2,203.4 37.8,203.4 38.4,203.3 39.0,203.3 39.6,203.3 40.3,203.3 40.9,203.2 41.5,203.2 42.1,203.2 42.7,203.2 43.3,203.1 43.9,203.1 44.5,203.1 45.1,203.0 45.7,203.0 46.3,202.9 46.9,202.9 47.5,202.9 48.1,202.8 48.7,202.8 49.3,202.7 49.9,202.7 50.5,202.7 51.1,202.6 51.7,202.6 52.3,202.5 52.9,202.5 53.5,202.4 54.1,202.4 54.7,202.3 55.3,202.2 55.9,202.2 56.5,202.1 57.1,202.1 57.7,202.0 58.3,201.9 58.9,201.9 59.5,201.8 60.1,201.7 60.7,201.6 61.3,201.6 61.9,201.5 62.5,201.4 63.1,201.3 63.7,201.2 64.3,201.1 64.9,201.0 65.5,200.9 66.1,200.8 66.7,200.7 67.3,200.6 67.9,200.5 68.5,200.4 69.1,200.3 69.7,200.2 70.3,200.1 70.9,200.0 71.6,199.8 72.2,199.7 72.8,199.6 73.4,199.5 74.0,199.3 74.6,199.2 75.2,199.0 75.8,198.9 76.4,198.7 77.0,198.6 77.6,198.4 78.2,198.3 78.8,198.1 79.4,197.9 80.0,197.7 80.6,197.6 81.2,197.4 81.8,197.2 82.4,197.0 83.0,196.8 83.6,196.6 84.2,196.4 84.8,196.2 85.4,196.0 86.0,195.7 86.6,195.5 87.2,195.3 87.8,195.0 88.4,194.8 89.0,194.5 89.6,194.3 90.2,194.0 90.8,193.8 91.4,193.5 92.0,193.2 92.6,192.9 93.2,192.6 93.8,192.3 94.4,192.0 95.0,191.7 95.6,191.4 96.2,191.1 96.8,190.8 97.4,190.4 98.0,190.1 98.6,189.7 99.2,189.4 99.8,189.0 100.4,188.7 101.0,188.3 101.6,187.9 102.2,187.5 102.9,187.1 103.5,186.7 104.1,186.3 104.7,185.9 105.3,185.4 105.9,185.0 106.5,184.6 107.1,184.1 107.7,183.6 108.3,183.2 108.9,182.7 109.5,182.2 110.1,181.7 110.7,181.2 111.3,180.7 111.9,180.2 112.5,179.7 113.1,179.1 113.7,178.6 114.3,178.0 114.9,177.5 115.5,176.9 116.1,176.3 116.7,175.7 117.3,175.1 117.9,174.5 118.5,173.9 119.1,173.3 119.7,172.7 120.3,172.0 120.9,171.4 121.5,170.7 122.1,170.0 122.7,169.4 123.3,168.7 123.9,168.0 124.5,167.3 125.1,166.5 125.7,165.8 126.3,165.1 126.9,164.3 127.5,163.6 128.1,162.8 128.7,162.0 129.3,161.3 129.9,160.5 130.5,159.7 131.1,158.9 131.7,158.0 132.3,157.2 132.9,156.4 133.5,155.5 134.2,154.7 134.8,153.8 135.4,152.9 136.0,152.1 136.6,151.2 137.2,150.3 137.8,149.4 138.4,148.4 139.0,147.5 139.6,146.6 140.2,145.6 140.8,144.7 141.4,143.7 142.0,142.8 142.6,141.8 143.2,140.8 143.8,139.8 144.4,138.8 144.4,204\" fill=\"#2f6fca\" fill-opacity=\"0.25\"/><polyline points=\"24.0,203.7 25.3,203.7 26.6,203.7 27.9,203.7 29.2,203.6 30.5,203.6 31.8,203.6 33.1,203.5 34.5,203.5 35.8,203.4 37.1,203.4 38.4,203.3 39.7,203.3 41.0,203.2 42.3,203.2 43.6,203.1 44.9,203.0 46.2,203.0 47.5,202.9 48.8,202.8 50.1,202.7 51.4,202.6 52.7,202.5 54.1,202.4 55.4,202.2 56.7,202.1 58.0,202.0 59.3,201.8 60.6,201.6 61.9,201.5 63.2,201.3 64.5,201.1 65.8,200.9 67.1,200.7 68.4,200.5 69.7,200.2 71.0,199.9 72.3,199.7 73.7,199.4 75.0,199.1 76.3,198.8 77.6,198.4 78.9,198.1 80.2,197.7 81.5,197.3 82.8,196.9 84.1,196.4 85.4,195.9 86.7,195.5 88.0,194.9 89.3,194.4 90.6,193.8 91.9,193.2 93.3,192.6 94.6,192.0 95.9,191.3 97.2,190.6 98.5,189.8 99.8,189.1 101.1,188.3 102.4,187.4 103.7,186.5 105.0,185.6 106.3,184.7 107.6,183.7 108.9,182.7 110.2,181.6 111.5,180.5 112.9,179.3 114.2,178.2 115.5,176.9 116.8,175.7 118.1,174.3 119.4,173.0 120.7,171.6 122.0,170.2 123.3,168.7 124.6,167.1 125.9,165.6 127.2,164.0 128.5,162.3 129.8,160.6 131.1,158.9 132.5,157.1 133.8,155.2 135.1,153.4 136.4,151.4 137.7,149.5 139.0,147.5 140.3,145.4 141.6,143.4 142.9,141.3 144.2,139.1 145.5,136.9 146.8,134.7 148.1,132.4 149.4,130.2 150.7,127.9 152.1,125.5 153.4,123.2 154.7,120.8 156.0,118.4 157.3,115.9 158.6,113.5 159.9,111.0 161.2,108.6 162.5,106.1 163.8,103.6 165.1,101.1 166.4,98.6 167.7,96.1 169.0,93.7 170.3,91.2 171.7,88.7 173.0,86.3 174.3,83.8 175.6,81.4 176.9,79.0 178.2,76.7 179.5,74.3 180.8,72.0 182.1,69.8 183.4,67.6 184.7,65.4 186.0,63.3 187.3,61.2 188.6,59.1 189.9,57.2 191.3,55.2 192.6,53.4 193.9,51.6 195.2,49.9 196.5,48.2 197.8,46.7 199.1,45.2 200.4,43.7 201.7,42.4 203.0,41.1 204.3,39.9 205.6,38.9 206.9,37.9 208.2,36.9 209.5,36.1 210.9,35.4 212.2,34.8 213.5,34.2 214.8,33.8 216.1,33.4 217.4,33.2 218.7,33.0 220.0,33.0 221.3,33.0 222.6,33.2 223.9,33.4 225.2,33.8 226.5,34.2 227.8,34.8 229.1,35.4 230.5,36.1 231.8,36.9 233.1,37.9 234.4,38.9 235.7,39.9 237.0,41.1 238.3,42.4 239.6,43.7 240.9,45.2 242.2,46.7 243.5,48.2 244.8,49.9 246.1,51.6 247.4,53.4 248.7,55.2 250.1,57.2 251.4,59.1 252.7,61.2 254.0,63.3 255.3,65.4 256.6,67.6 257.9,69.8 259.2,72.0 260.5,74.3 261.8,76.7 263.1,79.0 264.4,81.4 265.7,83.8 267.0,86.3 268.3,88.7 269.7,91.2 271.0,93.7 272.3,96.1 273.6,98.6 274.9,101.1 276.2,103.6 277.5,106.1 278.8,108.6 280.1,111.0 281.4,113.5 282.7,115.9 284.0,118.4 285.3,120.8 286.6,123.2 287.9,125.5 289.3,127.9 290.6,130.2 291.9,132.4 293.2,134.7 294.5,136.9 295.8,139.1 297.1,141.3 298.4,143.4 299.7,145.4 301.0,147.5 302.3,149.5 303.6,151.4 304.9,153.4 306.2,155.2 307.5,157.1 308.9,158.9 310.2,160.6 311.5,162.3 312.8,164.0 314.1,165.6 315.4,167.1 316.7,168.7 318.0,170.2 319.3,171.6 320.6,173.0 321.9,174.3 323.2,175.7 324.5,176.9 325.8,178.2 327.1,179.3 328.5,180.5 329.8,181.6 331.1,182.7 332.4,183.7 333.7,184.7 335.0,185.6 336.3,186.5 337.6,187.4 338.9,188.3 340.2,189.1 341.5,189.8 342.8,190.6 344.1,191.3 345.4,192.0 346.7,192.6 348.1,193.2 349.4,193.8 350.7,194.4 352.0,194.9 353.3,195.5 354.6,195.9 355.9,196.4 357.2,196.9 358.5,197.3 359.8,197.7 361.1,198.1 362.4,198.4 363.7,198.8 365.0,199.1 366.3,199.4 367.7,199.7 369.0,199.9 370.3,200.2 371.6,200.5 372.9,200.7 374.2,200.9 375.5,201.1 376.8,201.3 378.1,201.5 379.4,201.6 380.7,201.8 382.0,202.0 383.3,202.1 384.6,202.2 385.9,202.4 387.3,202.5 388.6,202.6 389.9,202.7 391.2,202.8 392.5,202.9 393.8,203.0 395.1,203.0 396.4,203.1 397.7,203.2 399.0,203.2 400.3,203.3 401.6,203.3 402.9,203.4 404.2,203.4 405.5,203.5 406.9,203.5 408.2,203.6 409.5,203.6 410.8,203.6 412.1,203.7 413.4,203.7 414.7,203.7 416.0,203.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><line x1=\"24\" y1=\"204\" x2=\"416\" y2=\"204\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"144.4\" y1=\"204\" x2=\"144.4\" y2=\"138.8\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"144.4\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">140</text><line x1=\"220.0\" y1=\"204\" x2=\"220.0\" y2=\"33.0\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"220.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">165</text><text x=\"220.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Vikt (g)</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andelen under 140 g</p><p>I GeoGebras sannolikhetskalkylator väljer du Normal och skriver in \\(\\mu=165\\) och \\(\\sigma=18\\).</p><div class=\"facit-matte\">\\[P(X\\lt140)\\approx0{,}0824\\]</div></li><li><p class=\"facit-rubrik\">Antal</p><div class=\"facit-matte\">\\[0{,}0824\\cdot500\\approx41\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 41 äpplen</p></div>",
+    "familj": "Sannolikhet över, under och i intervall",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bestäm andelen och multiplicera med antalet äpplen.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 41,
+    "tolerans": 1,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2123",
+    "kap": 4,
+    "omr": "normalfordelning_digitala_verktyg",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "gräns för de 15 procent långsammaste",
+    "t": "<p>Reaktionstiden hos förare i ett simulatortest är normalfördelad med medelvärdet 420 ms och standardavvikelsen 60 ms. De 15 % långsammaste får göra om testet. Över vilken reaktionstid måste man göra om testet? Använd GeoGebra. (Svara i ms med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Normalkurva med medelvärdet 420. Området längst till höger, 15 procent av ytan, är skuggat och gränsen är markerad med ett frågetecken.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"276.4,204 276.4,104.1 277.1,105.4 277.8,106.7 278.5,108.0 279.2,109.4 279.9,110.7 280.6,112.0 281.3,113.3 282.0,114.6 282.7,115.9 283.4,117.2 284.1,118.5 284.8,119.8 285.5,121.1 286.2,122.4 286.9,123.6 287.6,124.9 288.3,126.1 289.0,127.4 289.7,128.6 290.4,129.9 291.1,131.1 291.8,132.3 292.5,133.5 293.2,134.7 293.9,135.9 294.6,137.1 295.3,138.2 296.0,139.4 296.7,140.6 297.4,141.7 298.1,142.8 298.8,143.9 299.5,145.1 300.2,146.2 300.9,147.2 301.6,148.3 302.3,149.4 302.9,150.4 303.6,151.5 304.3,152.5 305.0,153.5 305.7,154.5 306.4,155.5 307.1,156.5 307.8,157.5 308.5,158.4 309.2,159.4 309.9,160.3 310.6,161.2 311.3,162.1 312.0,163.0 312.7,163.9 313.4,164.8 314.1,165.6 314.8,166.5 315.5,167.3 316.2,168.1 316.9,168.9 317.6,169.7 318.3,170.5 319.0,171.3 319.7,172.0 320.4,172.8 321.1,173.5 321.8,174.2 322.5,174.9 323.2,175.6 323.9,176.3 324.6,177.0 325.3,177.6 326.0,178.3 326.7,178.9 327.4,179.5 328.1,180.2 328.8,180.8 329.5,181.3 330.2,181.9 330.9,182.5 331.6,183.0 332.3,183.6 333.0,184.1 333.7,184.6 334.4,185.2 335.1,185.7 335.7,186.2 336.4,186.6 337.1,187.1 337.8,187.6 338.5,188.0 339.2,188.5 339.9,188.9 340.6,189.3 341.3,189.7 342.0,190.1 342.7,190.5 343.4,190.9 344.1,191.3 344.8,191.7 345.5,192.0 346.2,192.4 346.9,192.7 347.6,193.0 348.3,193.4 349.0,193.7 349.7,194.0 350.4,194.3 351.1,194.6 351.8,194.9 352.5,195.1 353.2,195.4 353.9,195.7 354.6,195.9 355.3,196.2 356.0,196.4 356.7,196.7 357.4,196.9 358.1,197.1 358.8,197.4 359.5,197.6 360.2,197.8 360.9,198.0 361.6,198.2 362.3,198.4 363.0,198.6 363.7,198.7 364.4,198.9 365.1,199.1 365.8,199.3 366.5,199.4 367.2,199.6 367.8,199.7 368.5,199.9 369.2,200.0 369.9,200.1 370.6,200.3 371.3,200.4 372.0,200.5 372.7,200.7 373.4,200.8 374.1,200.9 374.8,201.0 375.5,201.1 376.2,201.2 376.9,201.3 377.6,201.4 378.3,201.5 379.0,201.6 379.7,201.7 380.4,201.8 381.1,201.9 381.8,201.9 382.5,202.0 383.2,202.1 383.9,202.2 384.6,202.2 385.3,202.3 386.0,202.4 386.7,202.4 387.4,202.5 388.1,202.5 388.8,202.6 389.5,202.7 390.2,202.7 390.9,202.8 391.6,202.8 392.3,202.9 393.0,202.9 393.7,202.9 394.4,203.0 395.1,203.0 395.8,203.1 396.5,203.1 397.2,203.1 397.9,203.2 398.6,203.2 399.3,203.2 399.9,203.3 400.6,203.3 401.3,203.3 402.0,203.4 402.7,203.4 403.4,203.4 404.1,203.4 404.8,203.5 405.5,203.5 406.2,203.5 406.9,203.5 407.6,203.5 408.3,203.6 409.0,203.6 409.7,203.6 410.4,203.6 411.1,203.6 411.8,203.7 412.5,203.7 413.2,203.7 413.9,203.7 414.6,203.7 415.3,203.7 416.0,203.7 416.0,204\" fill=\"#2f6fca\" fill-opacity=\"0.25\"/><polyline points=\"24.0,203.7 25.3,203.7 26.6,203.7 27.9,203.7 29.2,203.6 30.5,203.6 31.8,203.6 33.1,203.5 34.5,203.5 35.8,203.4 37.1,203.4 38.4,203.3 39.7,203.3 41.0,203.2 42.3,203.2 43.6,203.1 44.9,203.0 46.2,203.0 47.5,202.9 48.8,202.8 50.1,202.7 51.4,202.6 52.7,202.5 54.1,202.4 55.4,202.2 56.7,202.1 58.0,202.0 59.3,201.8 60.6,201.6 61.9,201.5 63.2,201.3 64.5,201.1 65.8,200.9 67.1,200.7 68.4,200.5 69.7,200.2 71.0,199.9 72.3,199.7 73.7,199.4 75.0,199.1 76.3,198.8 77.6,198.4 78.9,198.1 80.2,197.7 81.5,197.3 82.8,196.9 84.1,196.4 85.4,195.9 86.7,195.5 88.0,194.9 89.3,194.4 90.6,193.8 91.9,193.2 93.3,192.6 94.6,192.0 95.9,191.3 97.2,190.6 98.5,189.8 99.8,189.1 101.1,188.3 102.4,187.4 103.7,186.5 105.0,185.6 106.3,184.7 107.6,183.7 108.9,182.7 110.2,181.6 111.5,180.5 112.9,179.3 114.2,178.2 115.5,176.9 116.8,175.7 118.1,174.3 119.4,173.0 120.7,171.6 122.0,170.2 123.3,168.7 124.6,167.1 125.9,165.6 127.2,164.0 128.5,162.3 129.8,160.6 131.1,158.9 132.5,157.1 133.8,155.2 135.1,153.4 136.4,151.4 137.7,149.5 139.0,147.5 140.3,145.4 141.6,143.4 142.9,141.3 144.2,139.1 145.5,136.9 146.8,134.7 148.1,132.4 149.4,130.2 150.7,127.9 152.1,125.5 153.4,123.2 154.7,120.8 156.0,118.4 157.3,115.9 158.6,113.5 159.9,111.0 161.2,108.6 162.5,106.1 163.8,103.6 165.1,101.1 166.4,98.6 167.7,96.1 169.0,93.7 170.3,91.2 171.7,88.7 173.0,86.3 174.3,83.8 175.6,81.4 176.9,79.0 178.2,76.7 179.5,74.3 180.8,72.0 182.1,69.8 183.4,67.6 184.7,65.4 186.0,63.3 187.3,61.2 188.6,59.1 189.9,57.2 191.3,55.2 192.6,53.4 193.9,51.6 195.2,49.9 196.5,48.2 197.8,46.7 199.1,45.2 200.4,43.7 201.7,42.4 203.0,41.1 204.3,39.9 205.6,38.9 206.9,37.9 208.2,36.9 209.5,36.1 210.9,35.4 212.2,34.8 213.5,34.2 214.8,33.8 216.1,33.4 217.4,33.2 218.7,33.0 220.0,33.0 221.3,33.0 222.6,33.2 223.9,33.4 225.2,33.8 226.5,34.2 227.8,34.8 229.1,35.4 230.5,36.1 231.8,36.9 233.1,37.9 234.4,38.9 235.7,39.9 237.0,41.1 238.3,42.4 239.6,43.7 240.9,45.2 242.2,46.7 243.5,48.2 244.8,49.9 246.1,51.6 247.4,53.4 248.7,55.2 250.1,57.2 251.4,59.1 252.7,61.2 254.0,63.3 255.3,65.4 256.6,67.6 257.9,69.8 259.2,72.0 260.5,74.3 261.8,76.7 263.1,79.0 264.4,81.4 265.7,83.8 267.0,86.3 268.3,88.7 269.7,91.2 271.0,93.7 272.3,96.1 273.6,98.6 274.9,101.1 276.2,103.6 277.5,106.1 278.8,108.6 280.1,111.0 281.4,113.5 282.7,115.9 284.0,118.4 285.3,120.8 286.6,123.2 287.9,125.5 289.3,127.9 290.6,130.2 291.9,132.4 293.2,134.7 294.5,136.9 295.8,139.1 297.1,141.3 298.4,143.4 299.7,145.4 301.0,147.5 302.3,149.5 303.6,151.4 304.9,153.4 306.2,155.2 307.5,157.1 308.9,158.9 310.2,160.6 311.5,162.3 312.8,164.0 314.1,165.6 315.4,167.1 316.7,168.7 318.0,170.2 319.3,171.6 320.6,173.0 321.9,174.3 323.2,175.7 324.5,176.9 325.8,178.2 327.1,179.3 328.5,180.5 329.8,181.6 331.1,182.7 332.4,183.7 333.7,184.7 335.0,185.6 336.3,186.5 337.6,187.4 338.9,188.3 340.2,189.1 341.5,189.8 342.8,190.6 344.1,191.3 345.4,192.0 346.7,192.6 348.1,193.2 349.4,193.8 350.7,194.4 352.0,194.9 353.3,195.5 354.6,195.9 355.9,196.4 357.2,196.9 358.5,197.3 359.8,197.7 361.1,198.1 362.4,198.4 363.7,198.8 365.0,199.1 366.3,199.4 367.7,199.7 369.0,199.9 370.3,200.2 371.6,200.5 372.9,200.7 374.2,200.9 375.5,201.1 376.8,201.3 378.1,201.5 379.4,201.6 380.7,201.8 382.0,202.0 383.3,202.1 384.6,202.2 385.9,202.4 387.3,202.5 388.6,202.6 389.9,202.7 391.2,202.8 392.5,202.9 393.8,203.0 395.1,203.0 396.4,203.1 397.7,203.2 399.0,203.2 400.3,203.3 401.6,203.3 402.9,203.4 404.2,203.4 405.5,203.5 406.9,203.5 408.2,203.6 409.5,203.6 410.8,203.6 412.1,203.7 413.4,203.7 414.7,203.7 416.0,203.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><line x1=\"24\" y1=\"204\" x2=\"416\" y2=\"204\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"220.0\" y1=\"204\" x2=\"220.0\" y2=\"33.0\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"220.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">420</text><line x1=\"276.4\" y1=\"204\" x2=\"276.4\" y2=\"104.1\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"276.4\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">?</text><text x=\"220.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Reaktionstid (ms)</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andelen till vänster om gränsen</p><p>De 15 % långsammaste ligger till höger, så 85 % ligger till vänster om gränsen. I GeoGebras sannolikhetskalkylator väljer du Normal och skriver in \\(\\mu=420\\) och \\(\\sigma=60\\) och sannolikheten 0,85 till vänster.</p></li><li><p class=\"facit-rubrik\">Gränsen</p><div class=\"facit-matte\">\\[x\\approx482{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 482,2 ms</p></div>",
+    "familj": "Bestämma gränsvärde och percentil",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur stor andel ligger till vänster om gränsen?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 482.2,
+    "tolerans": 0.2,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "ms"
+  },
+  {
+    "id": "4.2124",
+    "kap": 4,
+    "omr": "normalfordelning_digitala_verktyg",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "antal reparationer inom garantitiden",
+    "t": "<p>Ett företag säljer 4 000 mobiltelefoner. Tiden tills batteriet behöver bytas är normalfördelad med medelvärdet 3,2 år och standardavvikelsen 0,6 år. Garantin gäller i 2 år. Ungefär hur många batterier behöver bytas inom garantitiden? Använd GeoGebra. (Svara med ett heltal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andelen före 2 år</p><p>I GeoGebras sannolikhetskalkylator väljer du Normal och skriver in \\(\\mu=3{,}2\\) och \\(\\sigma=0{,}6\\).</p><div class=\"facit-matte\">\\[P(X\\lt2)\\approx0{,}0228\\]</div></li><li><p class=\"facit-rubrik\">Antal</p><div class=\"facit-matte\">\\[0{,}0228\\cdot4000\\approx91\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 91 batterier</p></div>",
+    "familj": "Sannolikhet över, under och i intervall",
+    "formaga": [
+      "procedur",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Bestäm andelen som håller kortare tid än 2 år.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 91,
+    "tolerans": 2,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2125",
+    "kap": 4,
+    "omr": "normalfordelning_digitala_verktyg",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "nedre gräns för de mittersta 90 procenten",
+    "t": "<p>Vikten hos förpackningar är normalfördelad med medelvärdet 500 g och standardavvikelsen 8 g. Inom vilket intervall, symmetriskt kring medelvärdet, ligger de mittersta 90 % av förpackningarna? Ange intervallets nedre gräns. Använd GeoGebra. (Svara i gram med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 440 250\" role=\"img\" aria-label=\"Normalkurva med medelvärdet 500. De mittersta 90 procenten är skuggade, och den nedre gränsen är markerad med ett frågetecken.\" style=\"width:100%;max-width:440px\"><rect x=\"1\" y=\"1\" width=\"438\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"130.4,204 130.4,159.8 131.3,158.6 132.2,157.4 133.1,156.1 134.0,154.9 134.9,153.6 135.8,152.3 136.7,150.9 137.6,149.6 138.5,148.2 139.4,146.8 140.3,145.4 141.2,144.0 142.1,142.6 143.0,141.1 143.9,139.7 144.8,138.2 145.7,136.7 146.6,135.2 147.5,133.6 148.4,132.1 149.2,130.5 150.1,128.9 151.0,127.3 151.9,125.7 152.8,124.1 153.7,122.5 154.6,120.9 155.5,119.2 156.4,117.5 157.3,115.9 158.2,114.2 159.1,112.5 160.0,110.8 160.9,109.2 161.8,107.5 162.7,105.8 163.6,104.1 164.5,102.3 165.4,100.6 166.3,98.9 167.2,97.2 168.1,95.5 169.0,93.8 169.8,92.1 170.7,90.4 171.6,88.7 172.5,87.1 173.4,85.4 174.3,83.7 175.2,82.1 176.1,80.4 177.0,78.8 177.9,77.2 178.8,75.6 179.7,74.0 180.6,72.4 181.5,70.8 182.4,69.3 183.3,67.8 184.2,66.3 185.1,64.8 186.0,63.3 186.9,61.9 187.8,60.5 188.7,59.1 189.5,57.8 190.4,56.4 191.3,55.1 192.2,53.8 193.1,52.6 194.0,51.4 194.9,50.2 195.8,49.1 196.7,47.9 197.6,46.9 198.5,45.8 199.4,44.8 200.3,43.8 201.2,42.9 202.1,42.0 203.0,41.2 203.9,40.3 204.8,39.6 205.7,38.8 206.6,38.1 207.5,37.5 208.4,36.9 209.3,36.3 210.1,35.8 211.0,35.3 211.9,34.9 212.8,34.5 213.7,34.1 214.6,33.8 215.5,33.6 216.4,33.4 217.3,33.2 218.2,33.1 219.1,33.0 220.0,33.0 220.9,33.0 221.8,33.1 222.7,33.2 223.6,33.4 224.5,33.6 225.4,33.8 226.3,34.1 227.2,34.5 228.1,34.9 229.0,35.3 229.9,35.8 230.7,36.3 231.6,36.9 232.5,37.5 233.4,38.1 234.3,38.8 235.2,39.6 236.1,40.3 237.0,41.2 237.9,42.0 238.8,42.9 239.7,43.8 240.6,44.8 241.5,45.8 242.4,46.9 243.3,47.9 244.2,49.1 245.1,50.2 246.0,51.4 246.9,52.6 247.8,53.8 248.7,55.1 249.6,56.4 250.5,57.8 251.3,59.1 252.2,60.5 253.1,61.9 254.0,63.3 254.9,64.8 255.8,66.3 256.7,67.8 257.6,69.3 258.5,70.8 259.4,72.4 260.3,74.0 261.2,75.6 262.1,77.2 263.0,78.8 263.9,80.4 264.8,82.1 265.7,83.7 266.6,85.4 267.5,87.1 268.4,88.7 269.3,90.4 270.2,92.1 271.0,93.8 271.9,95.5 272.8,97.2 273.7,98.9 274.6,100.6 275.5,102.3 276.4,104.1 277.3,105.8 278.2,107.5 279.1,109.2 280.0,110.8 280.9,112.5 281.8,114.2 282.7,115.9 283.6,117.5 284.5,119.2 285.4,120.9 286.3,122.5 287.2,124.1 288.1,125.7 289.0,127.3 289.9,128.9 290.8,130.5 291.6,132.1 292.5,133.6 293.4,135.2 294.3,136.7 295.2,138.2 296.1,139.7 297.0,141.1 297.9,142.6 298.8,144.0 299.7,145.4 300.6,146.8 301.5,148.2 302.4,149.6 303.3,150.9 304.2,152.3 305.1,153.6 306.0,154.9 306.9,156.1 307.8,157.4 308.7,158.6 309.6,159.8 309.6,204\" fill=\"#2f6fca\" fill-opacity=\"0.25\"/><polyline points=\"24.0,203.7 25.3,203.7 26.6,203.7 27.9,203.7 29.2,203.6 30.5,203.6 31.8,203.6 33.1,203.5 34.5,203.5 35.8,203.4 37.1,203.4 38.4,203.3 39.7,203.3 41.0,203.2 42.3,203.2 43.6,203.1 44.9,203.0 46.2,203.0 47.5,202.9 48.8,202.8 50.1,202.7 51.4,202.6 52.7,202.5 54.1,202.4 55.4,202.2 56.7,202.1 58.0,202.0 59.3,201.8 60.6,201.6 61.9,201.5 63.2,201.3 64.5,201.1 65.8,200.9 67.1,200.7 68.4,200.5 69.7,200.2 71.0,199.9 72.3,199.7 73.7,199.4 75.0,199.1 76.3,198.8 77.6,198.4 78.9,198.1 80.2,197.7 81.5,197.3 82.8,196.9 84.1,196.4 85.4,195.9 86.7,195.5 88.0,194.9 89.3,194.4 90.6,193.8 91.9,193.2 93.3,192.6 94.6,192.0 95.9,191.3 97.2,190.6 98.5,189.8 99.8,189.1 101.1,188.3 102.4,187.4 103.7,186.5 105.0,185.6 106.3,184.7 107.6,183.7 108.9,182.7 110.2,181.6 111.5,180.5 112.9,179.3 114.2,178.2 115.5,176.9 116.8,175.7 118.1,174.3 119.4,173.0 120.7,171.6 122.0,170.2 123.3,168.7 124.6,167.1 125.9,165.6 127.2,164.0 128.5,162.3 129.8,160.6 131.1,158.9 132.5,157.1 133.8,155.2 135.1,153.4 136.4,151.4 137.7,149.5 139.0,147.5 140.3,145.4 141.6,143.4 142.9,141.3 144.2,139.1 145.5,136.9 146.8,134.7 148.1,132.4 149.4,130.2 150.7,127.9 152.1,125.5 153.4,123.2 154.7,120.8 156.0,118.4 157.3,115.9 158.6,113.5 159.9,111.0 161.2,108.6 162.5,106.1 163.8,103.6 165.1,101.1 166.4,98.6 167.7,96.1 169.0,93.7 170.3,91.2 171.7,88.7 173.0,86.3 174.3,83.8 175.6,81.4 176.9,79.0 178.2,76.7 179.5,74.3 180.8,72.0 182.1,69.8 183.4,67.6 184.7,65.4 186.0,63.3 187.3,61.2 188.6,59.1 189.9,57.2 191.3,55.2 192.6,53.4 193.9,51.6 195.2,49.9 196.5,48.2 197.8,46.7 199.1,45.2 200.4,43.7 201.7,42.4 203.0,41.1 204.3,39.9 205.6,38.9 206.9,37.9 208.2,36.9 209.5,36.1 210.9,35.4 212.2,34.8 213.5,34.2 214.8,33.8 216.1,33.4 217.4,33.2 218.7,33.0 220.0,33.0 221.3,33.0 222.6,33.2 223.9,33.4 225.2,33.8 226.5,34.2 227.8,34.8 229.1,35.4 230.5,36.1 231.8,36.9 233.1,37.9 234.4,38.9 235.7,39.9 237.0,41.1 238.3,42.4 239.6,43.7 240.9,45.2 242.2,46.7 243.5,48.2 244.8,49.9 246.1,51.6 247.4,53.4 248.7,55.2 250.1,57.2 251.4,59.1 252.7,61.2 254.0,63.3 255.3,65.4 256.6,67.6 257.9,69.8 259.2,72.0 260.5,74.3 261.8,76.7 263.1,79.0 264.4,81.4 265.7,83.8 267.0,86.3 268.3,88.7 269.7,91.2 271.0,93.7 272.3,96.1 273.6,98.6 274.9,101.1 276.2,103.6 277.5,106.1 278.8,108.6 280.1,111.0 281.4,113.5 282.7,115.9 284.0,118.4 285.3,120.8 286.6,123.2 287.9,125.5 289.3,127.9 290.6,130.2 291.9,132.4 293.2,134.7 294.5,136.9 295.8,139.1 297.1,141.3 298.4,143.4 299.7,145.4 301.0,147.5 302.3,149.5 303.6,151.4 304.9,153.4 306.2,155.2 307.5,157.1 308.9,158.9 310.2,160.6 311.5,162.3 312.8,164.0 314.1,165.6 315.4,167.1 316.7,168.7 318.0,170.2 319.3,171.6 320.6,173.0 321.9,174.3 323.2,175.7 324.5,176.9 325.8,178.2 327.1,179.3 328.5,180.5 329.8,181.6 331.1,182.7 332.4,183.7 333.7,184.7 335.0,185.6 336.3,186.5 337.6,187.4 338.9,188.3 340.2,189.1 341.5,189.8 342.8,190.6 344.1,191.3 345.4,192.0 346.7,192.6 348.1,193.2 349.4,193.8 350.7,194.4 352.0,194.9 353.3,195.5 354.6,195.9 355.9,196.4 357.2,196.9 358.5,197.3 359.8,197.7 361.1,198.1 362.4,198.4 363.7,198.8 365.0,199.1 366.3,199.4 367.7,199.7 369.0,199.9 370.3,200.2 371.6,200.5 372.9,200.7 374.2,200.9 375.5,201.1 376.8,201.3 378.1,201.5 379.4,201.6 380.7,201.8 382.0,202.0 383.3,202.1 384.6,202.2 385.9,202.4 387.3,202.5 388.6,202.6 389.9,202.7 391.2,202.8 392.5,202.9 393.8,203.0 395.1,203.0 396.4,203.1 397.7,203.2 399.0,203.2 400.3,203.3 401.6,203.3 402.9,203.4 404.2,203.4 405.5,203.5 406.9,203.5 408.2,203.6 409.5,203.6 410.8,203.6 412.1,203.7 413.4,203.7 414.7,203.7 416.0,203.7\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><line x1=\"24\" y1=\"204\" x2=\"416\" y2=\"204\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><line x1=\"130.4\" y1=\"204\" x2=\"130.4\" y2=\"159.8\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"130.4\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">?</text><line x1=\"220.0\" y1=\"204\" x2=\"220.0\" y2=\"33.0\" stroke=\"#7a8794\" stroke-width=\"1.2\" stroke-dasharray=\"4 4\"/><text x=\"220.0\" y=\"222.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">500</text><text x=\"220.0\" y=\"242.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">Vikt (g)</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andelen under den nedre gränsen</p><p>90 % i mitten lämnar 10 % i svansarna, alltså 5 % på varje sida.</p></li><li><p class=\"facit-rubrik\">GeoGebra</p><p>I GeoGebras sannolikhetskalkylator väljer du Normal och skriver in \\(\\mu=500\\) och \\(\\sigma=8\\) och sannolikheten 0,05 till vänster.</p><div class=\"facit-matte\">\\[x\\approx486{,}8\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 486,8 g</p></div>",
+    "familj": "Bestämma gränsvärde och percentil",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur stor andel ligger under den nedre gränsen när 90 % ligger i mitten?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 486.8,
+    "tolerans": 0.2,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "g"
+  },
+  {
+    "id": "4.2126",
+    "kap": 4,
+    "omr": "normalfordelning_digitala_verktyg",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "största standardavvikelse för en undre gräns",
+    "t": "<p>En maskin fyller flaskor med i genomsnitt 75 cl. Högst 1 % av flaskorna får innehålla mindre än 73 cl. Hur stor får standardavvikelsen högst vara? Använd GeoGebra. (Svara i cl med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gränsen för 1 %</p><p>Med \\(\\mu=0\\) och \\(\\sigma=1\\) ger området till vänster med sannolikheten 0,01 gränsen \\(z\\approx-2{,}326\\).</p></li><li><p class=\"facit-rubrik\">73 cl får ligga högst så långt under medelvärdet</p><div class=\"facit-matte\">\\[75-2{,}326\\sigma=73\\ \\Rightarrow\\ \\sigma=\\frac{2}{2{,}326}\\approx0{,}86\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 0,86 cl</p></div>",
+    "familj": "Bestämma gränsvärde och percentil",
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Hur många standardavvikelser under medelvärdet ligger gränsen för den lägsta 1 %?</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.86,
+    "tolerans": 0.01,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "cl"
+  },
+  {
+    "id": "4.2127",
+    "kap": 4,
+    "omr": "normalfordelning_digitala_verktyg",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "andel mer än 1,5 standardavvikelser från medelvärdet",
+    "t": "<p>Hur stor andel av ett normalfördelat material ligger mer än 1,5 standardavvikelser från medelvärdet, åt något håll? Använd GeoGebra. (Svara i procent med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj en standardiserad fördelning</p><p>Svaret beror inte på \\(\\mu\\) och \\(\\sigma\\). Välj \\(\\mu=0\\) och \\(\\sigma=1\\) i sannolikhetskalkylatorn.</p></li><li><p class=\"facit-rubrik\">Två svansar</p><div class=\"facit-matte\">\\[P(X\\lt-1{,}5)+P(X\\gt1{,}5)=2\\cdot0{,}0668\\approx0{,}134\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 13,4 %</p></div>",
+    "familj": "Sannolikhet över, under och i intervall",
+    "formaga": [
+      "begrepp",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Välj medelvärdet 0 och standardavvikelsen 1. Glöm inte att det finns två svansar.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 13.4,
+    "tolerans": 0.2,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "4.2128",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "välja r till svagt negativt samband",
+    "t": "<p>Punktdiagrammet visar antal timmar skärmtid per kväll (\\(x\\)) och antal timmar sömn (\\(y\\)) för 12 elever. Vilket värde på korrelationskoefficienten är rimligast? (Välj ett alternativ.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 280\" role=\"img\" aria-label=\"Punktdiagram där punkterna är spridda men lutar svagt nedåt.\" style=\"width:100%;max-width:380px\"><rect x=\"1\" y=\"1\" width=\"378\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"79.0\" y1=\"22\" x2=\"79.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"110.0\" y1=\"22\" x2=\"110.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"141.0\" y1=\"22\" x2=\"141.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"172.0\" y1=\"22\" x2=\"172.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"203.0\" y1=\"22\" x2=\"203.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"234.0\" y1=\"22\" x2=\"234.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"265.0\" y1=\"22\" x2=\"265.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"296.0\" y1=\"22\" x2=\"296.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"327.0\" y1=\"22\" x2=\"327.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"358.0\" y1=\"22\" x2=\"358.0\" y2=\"238\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"238.0\" x2=\"358\" y2=\"238.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"216.4\" x2=\"358\" y2=\"216.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"194.8\" x2=\"358\" y2=\"194.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"173.2\" x2=\"358\" y2=\"173.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"151.6\" x2=\"358\" y2=\"151.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"130.0\" x2=\"358\" y2=\"130.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"108.4\" x2=\"358\" y2=\"108.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"86.8\" x2=\"358\" y2=\"86.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"65.2\" x2=\"358\" y2=\"65.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"43.6\" x2=\"358\" y2=\"43.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"358\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"238.0\" x2=\"368\" y2=\"238.0\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"372,238.0 362,233.0 362,243.0\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"238\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"370.0\" y=\"229.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">x</text><text x=\"56.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">y</text><text x=\"42.0\" y=\"198.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"155.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"112.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"69.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><text x=\"42.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">10</text><text x=\"42.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"k4938de8\"><rect x=\"48\" y=\"22\" width=\"310\" height=\"216\"/></clipPath><circle cx=\"79.0\" cy=\"60.9\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"94.5\" cy=\"106.2\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"110.0\" cy=\"73.8\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"141.0\" cy=\"121.4\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"156.5\" cy=\"67.4\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"172.0\" cy=\"101.9\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"203.0\" cy=\"84.6\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"218.5\" cy=\"138.6\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"234.0\" cy=\"97.6\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"265.0\" cy=\"132.2\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"296.0\" cy=\"108.4\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"327.0\" cy=\"143.0\" r=\"4.5\" fill=\"#2f6fca\"/><text x=\"110.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">2</text><text x=\"172.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">4</text><text x=\"234.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">6</text><text x=\"296.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">8</text><text x=\"358.0\" y=\"255.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">10</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Riktning och styrka</p><p>Punkterna lutar svagt nedåt men är mycket spridda. Det ger ett måttligt negativt \\(r\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(r\\approx-0{,}6\\)</p></div>",
+    "familj": "Uppskatta r från diagram",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Lutar punkterna uppåt eller nedåt? Ligger de nära en linje?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "r ≈ 0,5",
+        "ratt": false,
+        "kommentar": "Punkterna lutar nedåt, så r är negativt."
+      },
+      {
+        "txt": "r ≈ −0,97",
+        "ratt": false,
+        "kommentar": "Punkterna ligger för spridda för ett så starkt samband."
+      },
+      {
+        "txt": "r ≈ −0,6",
+        "ratt": true,
+        "kommentar": "Ett måttligt negativt samband."
+      },
+      {
+        "txt": "r ≈ −1,5",
+        "ratt": false,
+        "kommentar": "r ligger alltid mellan −1 och 1."
+      }
+    ]
+  },
+  {
+    "id": "4.2129",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "r för studietid och provresultat med GeoGebra",
+    "t": "<p>Tabellen visar hur många timmar sju elever pluggade och hur många poäng de fick på ett prov.</p><table class=\"data\" style=\"width:100%;max-width:460px;text-align:center\"><thead><tr><th scope=\"col\">Timmar</th><th scope=\"col\">2</th><th scope=\"col\">4</th><th scope=\"col\">5</th><th scope=\"col\">7</th><th scope=\"col\">8</th><th scope=\"col\">10</th><th scope=\"col\">12</th></tr></thead><tbody><tr><td>Poäng</td><td>11</td><td>15</td><td>13</td><td>20</td><td>17</td><td>22</td><td>25</td></tr></tbody></table><p>Bestäm korrelationskoefficienten \\(r\\) med GeoGebra. (Svara med två decimaler.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tvåvariabelanalys</p><p>Skriv in datan i GeoGebras kalkylblad, markera båda raderna och välj Tvåvariabelanalys.</p></li><li><p class=\"facit-rubrik\">Resultat</p><div class=\"facit-matte\">\\[r\\approx0{,}95\\]</div></li><li><p class=\"facit-rubrik\">Tolka</p><p>Ett starkt positivt samband i den här gruppen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(r\\approx0{,}95\\)</p></div>",
+    "familj": "Korrelation i mätdata med digitala verktyg",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": true,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Använd Tvåvariabelanalys i GeoGebra.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 0.95,
+    "tolerans": 0.005,
+    "svarFormat": "numeriskt"
+  },
+  {
+    "id": "4.2130",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "skostorlek och läsförmåga hos barn",
+    "t": "<p>Bland barn i åldern 6–12 år är korrelationen mellan skostorlek och läsförmåga stark, \\(r=0{,}8\\). Vilken förklaring är rimligast? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En tredje variabel</p><p>Äldre barn har både större fötter och bättre läsförmåga. Åldern påverkar båda variablerna, så sambandet säger inget om orsak mellan fötter och läsning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Åldern påverkar både skostorlek och läsförmåga.</p></div>",
+    "familj": "Tolka och jämföra korrelationskoefficienter",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Finns det något som får båda variablerna att öka samtidigt?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Stora fötter gör att barn läser bättre.",
+        "ratt": false,
+        "kommentar": "Korrelation visar inte att det ena orsakar det andra."
+      },
+      {
+        "txt": "Läsning får fötterna att växa.",
+        "ratt": false,
+        "kommentar": "Samma felslut åt andra hållet."
+      },
+      {
+        "txt": "Åldern påverkar både skostorlek och läsförmåga.",
+        "ratt": true,
+        "kommentar": "Åldern är en tredje variabel som påverkar båda."
+      },
+      {
+        "txt": "Sambandet måste vara en slump.",
+        "ratt": false,
+        "kommentar": "Ett så starkt samband är knappast slump, men det har en annan förklaring."
+      }
+    ]
+  },
+  {
+    "id": "4.2131",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "möjliga värden på r",
+    "t": "<p>En elev har räknat ut korrelationskoefficienten till \\(r=1{,}3\\). Vad kan man säga om det? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Gränser för r</p><p>Korrelationskoefficienten ligger alltid mellan −1 och 1. Värdet 1,3 är omöjligt, så eleven har räknat fel.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det är omöjligt, eftersom −1 ≤ r ≤ 1.</p></div>",
+    "familj": "Tolka och jämföra korrelationskoefficienter",
+    "formaga": [
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Mellan vilka värden kan r ligga?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Det visar ett extremt starkt positivt samband.",
+        "ratt": false,
+        "kommentar": "r kan inte vara större än 1."
+      },
+      {
+        "txt": "Det visar att punkterna ligger exakt på en linje.",
+        "ratt": false,
+        "kommentar": "Då är r = 1 eller r = −1."
+      },
+      {
+        "txt": "Det är omöjligt, eftersom −1 ≤ r ≤ 1.",
+        "ratt": true,
+        "kommentar": "Eleven har räknat fel."
+      },
+      {
+        "txt": "Det betyder 130 % samband.",
+        "ratt": false,
+        "kommentar": "r är ingen procentsats."
+      }
+    ]
+  },
+  {
+    "id": "4.2132",
+    "kap": 4,
+    "omr": "korrelation_koefficient",
+    "kurs": [
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "r när alla y-värden byter tecken",
+    "t": "<p>Ett datamaterial har korrelationskoefficienten \\(r=0{,}72\\). Alla \\(y\\)-värden byts mot sina motsatta tal, så att \\(y\\) blir \\(-y\\). Vad blir den nya korrelationskoefficienten? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Spegling i x-axeln</p><p>Punktdiagrammet speglas i \\(x\\)-axeln. Punkterna ligger lika nära en rät linje som förut, men linjen lutar åt andra hållet. Styrkan är densamma och riktningen byts.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(r=-0{,}72\\)</p></div>",
+    "familj": "Tolka och jämföra korrelationskoefficienter",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Rita ett punktdiagram och spegla det i x-axeln. Ändras styrkan eller riktningen?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "r = 0,72",
+        "ratt": false,
+        "kommentar": "Riktningen på sambandet byts när diagrammet speglas."
+      },
+      {
+        "txt": "r = −0,72",
+        "ratt": true,
+        "kommentar": "Samma styrka men motsatt riktning."
+      },
+      {
+        "txt": "r = 0",
+        "ratt": false,
+        "kommentar": "Punkterna ligger lika nära en linje som förut."
+      },
+      {
+        "txt": "r = 1/0,72",
+        "ratt": false,
+        "kommentar": "r kan inte bli större än 1."
+      }
+    ]
+  },
+  {
+    "id": "4.2133",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "störst andel försenade tåg",
+    "t": "<p>Tabellen visar antal avgångar och antal försenade avgångar på en tåglinje.</p><table class=\"data\" style=\"width:100%;max-width:420px;text-align:center\"><thead><tr><th scope=\"col\">Månad</th><th scope=\"col\">Avgångar</th><th scope=\"col\">Försenade</th></tr></thead><tbody><tr><td>januari</td><td>1 200</td><td>84</td></tr><tr><td>februari</td><td>1 100</td><td>99</td></tr><tr><td>mars</td><td>1 250</td><td>100</td></tr></tbody></table><p>Hur många procent av avgångarna var försenade den månad då andelen försenade var störst? (Svara i procent.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andelen varje månad</p><div class=\"facit-matte\">\\[\\frac{84}{1200}=7\\ \\%,\\qquad\\frac{99}{1100}=9\\ \\%,\\qquad\\frac{100}{1250}=8\\ \\%\\]</div></li><li><p class=\"facit-rubrik\">Störst andel</p><p>Februari har störst andel, trots att mars har flest försenade avgångar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 9 %</p></div>",
+    "familj": "Procent och jämförelser i tabeller och diagram",
+    "formaga": [
+      "procedur",
+      "problemlösning"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Jämför andelar, inte antal. Räkna ut andelen för varje månad.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 9,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
+  },
+  {
+    "id": "4.2134",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "skillnad mellan högsta och lägsta temperatur i linjediagram",
+    "t": "<p>Diagrammet visar temperaturen under en dag i april. Hur många grader skiljer det mellan dagens högsta och lägsta uppmätta temperatur? (Svara i °C.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 290\" role=\"img\" aria-label=\"Linjediagram över temperaturen: −5 °C klockan 6, −3 klockan 8, 1 klockan 10, 5 klockan 12, 7 klockan 14, 6 klockan 16 och 2 klockan 18.\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"69.9\" y1=\"22\" x2=\"69.9\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"91.8\" y1=\"22\" x2=\"91.8\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"113.6\" y1=\"22\" x2=\"113.6\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"135.5\" y1=\"22\" x2=\"135.5\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"157.4\" y1=\"22\" x2=\"157.4\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"179.3\" y1=\"22\" x2=\"179.3\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"201.1\" y1=\"22\" x2=\"201.1\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"244.9\" y1=\"22\" x2=\"244.9\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"266.8\" y1=\"22\" x2=\"266.8\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"288.6\" y1=\"22\" x2=\"288.6\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"310.5\" y1=\"22\" x2=\"310.5\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"332.4\" y1=\"22\" x2=\"332.4\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"354.3\" y1=\"22\" x2=\"354.3\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"376.1\" y1=\"22\" x2=\"376.1\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"248\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"248.0\" x2=\"398\" y2=\"248.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"232.9\" x2=\"398\" y2=\"232.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"217.9\" x2=\"398\" y2=\"217.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"202.8\" x2=\"398\" y2=\"202.8\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"187.7\" x2=\"398\" y2=\"187.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"172.7\" x2=\"398\" y2=\"172.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"157.6\" x2=\"398\" y2=\"157.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"142.5\" x2=\"398\" y2=\"142.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"127.5\" x2=\"398\" y2=\"127.5\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"112.4\" x2=\"398\" y2=\"112.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"97.3\" x2=\"398\" y2=\"97.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"82.3\" x2=\"398\" y2=\"82.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"67.2\" x2=\"398\" y2=\"67.2\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"52.1\" x2=\"398\" y2=\"52.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"37.1\" x2=\"398\" y2=\"37.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"157.6\" x2=\"408\" y2=\"157.6\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,157.6 402,152.6 402,162.6\" fill=\"#172b3a\"/><line x1=\"48.0\" y1=\"248\" x2=\"48.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"48.0,8 43.0,18 53.0,18\" fill=\"#172b3a\"/><text x=\"410.0\" y=\"148.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">klockan</text><text x=\"56.0\" y=\"20.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">°C</text><text x=\"42.0\" y=\"252.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−6</text><text x=\"42.0\" y=\"221.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−4</text><text x=\"42.0\" y=\"191.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−2</text><text x=\"42.0\" y=\"131.5\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"42.0\" y=\"101.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"42.0\" y=\"71.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"42.0\" y=\"41.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">8</text><clipPath id=\"ke296d22\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"226\"/></clipPath><polyline clip-path=\"url(#ke296d22)\" points=\"70.2,232.7 70.6,232.5 70.9,232.2 71.3,231.9 71.7,231.7 72.1,231.4 72.5,231.1 72.9,230.9 73.3,230.6 73.7,230.3 74.1,230.1 74.4,229.8 74.8,229.5 75.2,229.3 75.6,229.0 76.0,228.7 76.4,228.4 76.8,228.2 77.2,227.9 77.6,227.6 77.9,227.4 78.3,227.1 78.7,226.8 79.1,226.6 79.5,226.3 79.9,226.0 80.3,225.8 80.7,225.5 81.1,225.2 81.4,225.0 81.8,224.7 82.2,224.4 82.6,224.2 83.0,223.9 83.4,223.6 83.8,223.4 84.2,223.1 84.6,222.8 84.9,222.6 85.3,222.3 85.7,222.0 86.1,221.8 86.5,221.5 86.9,221.2 87.3,220.9 87.7,220.7 88.1,220.4 88.4,220.1 88.8,219.9 89.2,219.6 89.6,219.3 90.0,219.1 90.4,218.8 90.8,218.5 91.2,218.3 91.6,218.0 91.9,217.7 92.3,217.5 92.7,217.2 93.1,216.9 93.5,216.7 93.9,216.4 94.3,216.1 94.7,215.9 95.1,215.6 95.4,215.3 95.8,215.1 96.2,214.8 96.6,214.5 97.0,214.3 97.4,214.0 97.8,213.7 98.2,213.4 98.6,213.2 98.9,212.9 99.3,212.6 99.7,212.4 100.1,212.1 100.5,211.8 100.9,211.6 101.3,211.3 101.7,211.0 102.1,210.8 102.4,210.5 102.8,210.2 103.2,210.0 103.6,209.7 104.0,209.4 104.4,209.2 104.8,208.9 105.2,208.6 105.6,208.4 105.9,208.1 106.3,207.8 106.7,207.6 107.1,207.3 107.5,207.0 107.9,206.8 108.3,206.5 108.7,206.2 109.1,205.9 109.4,205.7 109.8,205.4 110.2,205.1 110.6,204.9 111.0,204.6 111.4,204.3 111.8,204.1 112.2,203.8 112.6,203.5 112.9,203.3 113.3,203.0 113.7,202.7 114.1,202.1 114.5,201.6 114.9,201.1 115.3,200.5 115.7,200.0 116.1,199.5 116.4,198.9 116.8,198.4 117.2,197.8 117.6,197.3 118.0,196.8 118.4,196.2 118.8,195.7 119.2,195.2 119.6,194.6 119.9,194.1 120.3,193.6 120.7,193.0 121.1,192.5 121.5,192.0 121.9,191.4 122.3,190.9 122.7,190.3 123.1,189.8 123.4,189.3 123.8,188.7 124.2,188.2 124.6,187.7 125.0,187.1 125.4,186.6 125.8,186.1 126.2,185.5 126.6,185.0 126.9,184.5 127.3,183.9 127.7,183.4 128.1,182.8 128.5,182.3 128.9,181.8 129.3,181.2 129.7,180.7 130.1,180.2 130.4,179.6 130.8,179.1 131.2,178.6 131.6,178.0 132.0,177.5 132.4,177.0 132.8,176.4 133.2,175.9 133.6,175.3 133.9,174.8 134.3,174.3 134.7,173.7 135.1,173.2 135.5,172.7 135.9,172.1 136.3,171.6 136.7,171.1 137.1,170.5 137.4,170.0 137.8,169.5 138.2,168.9 138.6,168.4 139.0,167.8 139.4,167.3 139.8,166.8 140.2,166.2 140.6,165.7 140.9,165.2 141.3,164.6 141.7,164.1 142.1,163.6 142.5,163.0 142.9,162.5 143.3,162.0 143.7,161.4 144.1,160.9 144.4,160.3 144.8,159.8 145.2,159.3 145.6,158.7 146.0,158.2 146.4,157.7 146.8,157.1 147.2,156.6 147.6,156.1 147.9,155.5 148.3,155.0 148.7,154.5 149.1,153.9 149.5,153.4 149.9,152.8 150.3,152.3 150.7,151.8 151.1,151.2 151.4,150.7 151.8,150.2 152.2,149.6 152.6,149.1 153.0,148.6 153.4,148.0 153.8,147.5 154.2,147.0 154.6,146.4 154.9,145.9 155.3,145.3 155.7,144.8 156.1,144.3 156.5,143.7 156.9,143.2 157.3,142.7 157.7,142.1 158.1,141.6 158.4,141.1 158.8,140.5 159.2,140.0 159.6,139.5 160.0,138.9 160.4,138.4 160.8,137.8 161.2,137.3 161.6,136.8 161.9,136.2 162.3,135.7 162.7,135.2 163.1,134.6 163.5,134.1 163.9,133.6 164.3,133.0 164.7,132.5 165.1,132.0 165.4,131.4 165.8,130.9 166.2,130.3 166.6,129.8 167.0,129.3 167.4,128.7 167.8,128.2 168.2,127.7 168.6,127.1 168.9,126.6 169.3,126.1 169.7,125.5 170.1,125.0 170.5,124.5 170.9,123.9 171.3,123.4 171.7,122.8 172.1,122.3 172.4,121.8 172.8,121.2 173.2,120.7 173.6,120.2 174.0,119.6 174.4,119.1 174.8,118.6 175.2,118.0 175.6,117.5 175.9,117.0 176.3,116.4 176.7,115.9 177.1,115.3 177.5,114.8 177.9,114.3 178.3,113.7 178.7,113.2 179.1,112.7 179.4,112.1 179.8,111.6 180.2,111.1 180.6,110.5 181.0,110.0 181.4,109.5 181.8,108.9 182.2,108.4 182.6,107.8 182.9,107.3 183.3,106.8 183.7,106.2 184.1,105.7 184.5,105.2 184.9,104.6 185.3,104.1 185.7,103.6 186.1,103.0 186.4,102.5 186.8,102.0 187.2,101.4 187.6,100.9 188.0,100.3 188.4,99.8 188.8,99.3 189.2,98.7 189.6,98.2 189.9,97.7 190.3,97.1 190.7,96.6 191.1,96.1 191.5,95.5 191.9,95.0 192.3,94.5 192.7,93.9 193.1,93.4 193.4,92.8 193.8,92.3 194.2,91.8 194.6,91.2 195.0,90.7 195.4,90.2 195.8,89.6 196.2,89.1 196.6,88.6 196.9,88.0 197.3,87.5 197.7,87.0 198.1,86.4 198.5,85.9 198.9,85.3 199.3,84.8 199.7,84.3 200.1,83.7 200.4,83.2 200.8,82.7 201.2,82.2 201.6,81.9 202.0,81.7 202.4,81.4 202.8,81.1 203.2,80.9 203.6,80.6 203.9,80.3 204.3,80.1 204.7,79.8 205.1,79.5 205.5,79.3 205.9,79.0 206.3,78.7 206.7,78.4 207.1,78.2 207.4,77.9 207.8,77.6 208.2,77.4 208.6,77.1 209.0,76.8 209.4,76.6 209.8,76.3 210.2,76.0 210.6,75.8 210.9,75.5 211.3,75.2 211.7,75.0 212.1,74.7 212.5,74.4 212.9,74.2 213.3,73.9 213.7,73.6 214.1,73.4 214.4,73.1 214.8,72.8 215.2,72.6 215.6,72.3 216.0,72.0 216.4,71.8 216.8,71.5 217.2,71.2 217.6,70.9 217.9,70.7 218.3,70.4 218.7,70.1 219.1,69.9 219.5,69.6 219.9,69.3 220.3,69.1 220.7,68.8 221.1,68.5 221.4,68.3 221.8,68.0 222.2,67.7 222.6,67.5 223.0,67.2 223.4,66.9 223.8,66.7 224.2,66.4 224.6,66.1 224.9,65.9 225.3,65.6 225.7,65.3 226.1,65.1 226.5,64.8 226.9,64.5 227.3,64.3 227.7,64.0 228.1,63.7 228.4,63.5 228.8,63.2 229.2,62.9 229.6,62.6 230.0,62.4 230.4,62.1 230.8,61.8 231.2,61.6 231.6,61.3 231.9,61.0 232.3,60.8 232.7,60.5 233.1,60.2 233.5,60.0 233.9,59.7 234.3,59.4 234.7,59.2 235.1,58.9 235.4,58.6 235.8,58.4 236.2,58.1 236.6,57.8 237.0,57.6 237.4,57.3 237.8,57.0 238.2,56.8 238.6,56.5 238.9,56.2 239.3,56.0 239.7,55.7 240.1,55.4 240.5,55.1 240.9,54.9 241.3,54.6 241.7,54.3 242.1,54.1 242.4,53.8 242.8,53.5 243.2,53.3 243.6,53.0 244.0,52.7 244.4,52.5 244.8,52.2 245.2,52.2 245.6,52.4 245.9,52.5 246.3,52.6 246.7,52.8 247.1,52.9 247.5,53.0 247.9,53.2 248.3,53.3 248.7,53.4 249.1,53.6 249.4,53.7 249.8,53.8 250.2,54.0 250.6,54.1 251.0,54.2 251.4,54.4 251.8,54.5 252.2,54.6 252.6,54.8 252.9,54.9 253.3,55.0 253.7,55.2 254.1,55.3 254.5,55.4 254.9,55.6 255.3,55.7 255.7,55.8 256.1,56.0 256.4,56.1 256.8,56.3 257.2,56.4 257.6,56.5 258.0,56.7 258.4,56.8 258.8,56.9 259.2,57.1 259.6,57.2 259.9,57.3 260.3,57.5 260.7,57.6 261.1,57.7 261.5,57.9 261.9,58.0 262.3,58.1 262.7,58.3 263.1,58.4 263.4,58.5 263.8,58.7 264.2,58.8 264.6,58.9 265.0,59.1 265.4,59.2 265.8,59.3 266.2,59.5 266.6,59.6 266.9,59.7 267.3,59.9 267.7,60.0 268.1,60.1 268.5,60.3 268.9,60.4 269.3,60.5 269.7,60.7 270.1,60.8 270.4,60.9 270.8,61.1 271.2,61.2 271.6,61.3 272.0,61.5 272.4,61.6 272.8,61.7 273.2,61.9 273.6,62.0 273.9,62.1 274.3,62.3 274.7,62.4 275.1,62.5 275.5,62.7 275.9,62.8 276.3,62.9 276.7,63.1 277.1,63.2 277.4,63.3 277.8,63.5 278.2,63.6 278.6,63.8 279.0,63.9 279.4,64.0 279.8,64.2 280.2,64.3 280.6,64.4 280.9,64.6 281.3,64.7 281.7,64.8 282.1,65.0 282.5,65.1 282.9,65.2 283.3,65.4 283.7,65.5 284.1,65.6 284.4,65.8 284.8,65.9 285.2,66.0 285.6,66.2 286.0,66.3 286.4,66.4 286.8,66.6 287.2,66.7 287.6,66.8 287.9,67.0 288.3,67.1 288.7,67.3 289.1,67.9 289.5,68.4 289.9,68.9 290.3,69.5 290.7,70.0 291.1,70.5 291.4,71.1 291.8,71.6 292.2,72.2 292.6,72.7 293.0,73.2 293.4,73.8 293.8,74.3 294.2,74.8 294.6,75.4 294.9,75.9 295.3,76.4 295.7,77.0 296.1,77.5 296.5,78.0 296.9,78.6 297.3,79.1 297.7,79.7 298.1,80.2 298.4,80.7 298.8,81.3 299.2,81.8 299.6,82.3 300.0,82.9 300.4,83.4 300.8,83.9 301.2,84.5 301.6,85.0 301.9,85.5 302.3,86.1 302.7,86.6 303.1,87.2 303.5,87.7 303.9,88.2 304.3,88.8 304.7,89.3 305.1,89.8 305.4,90.4 305.8,90.9 306.2,91.4 306.6,92.0 307.0,92.5 307.4,93.0 307.8,93.6 308.2,94.1 308.6,94.7 308.9,95.2 309.3,95.7 309.7,96.3 310.1,96.8 310.5,97.3 310.9,97.9 311.3,98.4 311.7,98.9 312.1,99.5 312.4,100.0 312.8,100.5 313.2,101.1 313.6,101.6 314.0,102.2 314.4,102.7 314.8,103.2 315.2,103.8 315.6,104.3 315.9,104.8 316.3,105.4 316.7,105.9 317.1,106.4 317.5,107.0 317.9,107.5 318.3,108.0 318.7,108.6 319.1,109.1 319.4,109.7 319.8,110.2 320.2,110.7 320.6,111.3 321.0,111.8 321.4,112.3 321.8,112.9 322.2,113.4 322.6,113.9 322.9,114.5 323.3,115.0 323.7,115.5 324.1,116.1 324.5,116.6 324.9,117.2 325.3,117.7 325.7,118.2 326.1,118.8 326.4,119.3 326.8,119.8 327.2,120.4 327.6,120.9 328.0,121.4 328.4,122.0 328.8,122.5 329.2,123.0 329.6,123.6 329.9,124.1 330.3,124.7 330.7,125.2 331.1,125.7 331.5,126.3 331.9,126.8 332.3,127.3\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"2.5\"/><circle cx=\"69.9\" cy=\"232.9\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"113.6\" cy=\"202.8\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"157.4\" cy=\"142.5\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"201.1\" cy=\"82.3\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"244.9\" cy=\"52.1\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"288.6\" cy=\"67.2\" r=\"4.5\" fill=\"#2f6fca\"/><circle cx=\"332.4\" cy=\"127.5\" r=\"4.5\" fill=\"#2f6fca\"/><text x=\"69.9\" y=\"174.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">6</text><text x=\"113.6\" y=\"174.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">8</text><text x=\"157.4\" y=\"174.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">10</text><text x=\"201.1\" y=\"174.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">12</text><text x=\"244.9\" y=\"174.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">14</text><text x=\"288.6\" y=\"174.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">16</text><text x=\"332.4\" y=\"174.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\" stroke=\"#fff\" stroke-width=\"4\" stroke-linejoin=\"round\" paint-order=\"stroke\">18</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av</p><p>Högst: 7 °C klockan 14. Lägst: −5 °C klockan 6.</p></li><li><p class=\"facit-rubrik\">Skillnad</p><div class=\"facit-matte\">\\[7-(-5)=12\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 12 °C</p></div>",
+    "familj": "Avläsa tabeller och diagram",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hitta den högsta och den lägsta punkten. Tänk på att den lägsta är negativ.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 12,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°C"
+  },
+  {
+    "id": "4.2135",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "sektorvinkel i cirkeldiagram",
+    "t": "<p>En familj ska visa sin månadsbudget i ett cirkeldiagram. Hyran är 35 % av budgeten. Hur stor vinkel ska sektorn för hyran ha? (Svara i grader.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">35 % av hela cirkeln</p><div class=\"facit-matte\">\\[0{,}35\\cdot360^\\circ=126^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(126^\\circ\\)</p></div>",
+    "familj": "Procent och jämförelser i tabeller och diagram",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 1,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hela cirkeln, 360°, motsvarar 100 %.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 126,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "°"
+  },
+  {
+    "id": "4.2136",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "ändring i procentenheter ur tabell",
+    "t": "<p>Tabellen visar sålda cyklar i en butik.</p><table class=\"data\" style=\"width:100%;max-width:420px;text-align:center\"><thead><tr><th scope=\"col\">År</th><th scope=\"col\">Elcyklar</th><th scope=\"col\">Vanliga cyklar</th></tr></thead><tbody><tr><td>2023</td><td>340</td><td>860</td></tr><tr><td>2024</td><td>425</td><td>775</td></tr></tbody></table><p>Med hur många procentenheter ökade elcyklarnas andel av alla sålda cyklar? (Svara med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Andel 2023</p><div class=\"facit-matte\">\\[\\frac{340}{340+860}=\\frac{340}{1200}\\approx28{,}33\\ \\%\\]</div></li><li><p class=\"facit-rubrik\">Andel 2024</p><div class=\"facit-matte\">\\[\\frac{425}{425+775}=\\frac{425}{1200}\\approx35{,}42\\ \\%\\]</div></li><li><p class=\"facit-rubrik\">Skillnad</p><div class=\"facit-matte\">\\[35{,}42-28{,}33\\approx7{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 7,1 procentenheter</p></div>",
+    "familj": "Procent och jämförelser i tabeller och diagram",
+    "formaga": [
+      "procedur",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Räkna ut andelen elcyklar för varje år. Skillnaden mellan två procentsatser anges i procentenheter.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 7.1,
+    "tolerans": 0.05,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "procentenheter"
+  },
+  {
+    "id": "4.2137",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "E",
+    "poang": "1/0/0",
+    "typ": "vilseledande bild där area visar storlek",
+    "t": "<p>En reklambild visar försäljningen med två mjölkpaket. Det högra är dubbelt så högt och dubbelt så brett som det vänstra, eftersom försäljningen har fördubblats. Vad blir problemet med bilden? (Välj ett alternativ.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Area och längd</p><p>När både höjd och bredd fördubblas blir ytan \\(2\\cdot2=4\\) gånger så stor. Bilden ser ut att visa en fyrdubbling, fast försäljningen bara har fördubblats.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Paketet ser ut att vara fyra gånger så stort.</p></div>",
+    "familj": "Procent och jämförelser i tabeller och diagram",
+    "formaga": [
+      "resonemang",
+      "begrepp"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 2,
+    "arbetsinsats": 1,
+    "ledtrad": "<p>Hur många gånger större blir ytan om både höjd och bredd fördubblas?</p>",
+    "svarstyp": "alternativ",
+    "rättSvar": null,
+    "tolerans": null,
+    "alternativ": [
+      {
+        "txt": "Inget, bilden visar en fördubbling.",
+        "ratt": false,
+        "kommentar": "Ögat uppfattar ytan, som blir fyra gånger så stor."
+      },
+      {
+        "txt": "Paketet ser ut att vara fyra gånger så stort.",
+        "ratt": true,
+        "kommentar": "2 · 2 = 4 gånger så stor yta."
+      },
+      {
+        "txt": "Paketet ser ut att vara hälften så stort.",
+        "ratt": false,
+        "kommentar": "Det högra paketet är större."
+      },
+      {
+        "txt": "Paketet ser ut att vara tre gånger så stort.",
+        "ratt": false,
+        "kommentar": "Ytan blir 2 · 2 = 4 gånger så stor."
+      }
+    ]
+  },
+  {
+    "id": "4.2138",
+    "kap": 4,
+    "omr": "tabeller_diagram",
+    "kurs": [
+      "2a",
+      "2b",
+      "2c"
+    ],
+    "niva": "C",
+    "poang": "0/1/0",
+    "typ": "andel i en grupp ur en fyrfältstabell med saknade värden",
+    "t": "<p>På en skola med 200 elever är 120 tjejer. 90 av eleverna spelar ett instrument, och av dem är 54 tjejer. Hur många procent av killarna spelar ett instrument? (Svara i procent.)</p><table class=\"data\" style=\"width:100%;max-width:420px;text-align:center\"><thead><tr><th scope=\"col\"></th><th scope=\"col\">Spelar</th><th scope=\"col\">Spelar inte</th><th scope=\"col\">Summa</th></tr></thead><tbody><tr><td>Tjejer</td><td>54</td><td></td><td>120</td></tr><tr><td>Killar</td><td></td><td></td><td></td></tr><tr><td>Summa</td><td>90</td><td></td><td>200</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Killar totalt</p><div class=\"facit-matte\">\\[200-120=80\\]</div></li><li><p class=\"facit-rubrik\">Killar som spelar</p><div class=\"facit-matte\">\\[90-54=36\\]</div></li><li><p class=\"facit-rubrik\">Andel</p><div class=\"facit-matte\">\\[\\frac{36}{80}=0{,}45=45\\ \\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 45 %</p></div>",
+    "familj": "Procent och jämförelser i tabeller och diagram",
+    "formaga": [
+      "problemlösning",
+      "procedur"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "ledtrad": "<p>Fyll i tabellen. Det hela är bara killarna.</p>",
+    "svarstyp": "numeriskt",
+    "rättSvar": 45,
+    "tolerans": 0,
+    "svarFormat": "numeriskt",
+    "svarEnhet": "%"
   }
 ];

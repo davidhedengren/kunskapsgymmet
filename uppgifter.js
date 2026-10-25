@@ -213393,5 +213393,1025 @@ window.BANK = [
   "tolerans": 0,
   "svarFormat": "numeriskt",
   "svarEnhet": "A"
+},
+{
+  "id": "3.739",
+  "kap": 3,
+  "omr": "st_diagram",
+  "niva": "C",
+  "typ": "när hinner B ikapp A",
+  "poang": "(0/1/0)",
+  "t": "<p>Diagrammet visar läget för två löpare, A och B, under de första 10 sekunderna. B startar från samma ställe som A, men 5 s senare. Båda springer med konstant fart.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"s-t-diagram: A går rakt från 0 m vid 0 s till 40 m vid 10 s. B startar vid 0 m vid 5 s och går rakt till 30 m vid 10 s.\"><title>s-t-diagram: A går rakt från 0 m vid 0 s till 40 m vid 10 s. B startar vid 0 m vid 5 s och går rakt till 30 m vid 10 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"64.0\" y1=\"40\" x2=\"64.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"97.6\" y1=\"40\" x2=\"97.6\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"97.6\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"131.2\" y1=\"40\" x2=\"131.2\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"131.2\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"164.8\" y1=\"40\" x2=\"164.8\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"164.8\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"198.4\" y1=\"40\" x2=\"198.4\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"198.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"232.0\" y1=\"40\" x2=\"232.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"232.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"265.6\" y1=\"40\" x2=\"265.6\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"265.6\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"299.2\" y1=\"40\" x2=\"299.2\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"299.2\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"332.8\" y1=\"40\" x2=\"332.8\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"332.8\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"366.4\" y1=\"40\" x2=\"366.4\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"366.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">9</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><line x1=\"64\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"64\" y1=\"200.0\" x2=\"400\" y2=\"200.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"204.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">5</text><line x1=\"64\" y1=\"180.0\" x2=\"400\" y2=\"180.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"184.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"64\" y1=\"160.0\" x2=\"400\" y2=\"160.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">15</text><line x1=\"64\" y1=\"140.0\" x2=\"400\" y2=\"140.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"64\" y1=\"120.0\" x2=\"400\" y2=\"120.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"124.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">25</text><line x1=\"64\" y1=\"100.0\" x2=\"400\" y2=\"100.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">30</text><line x1=\"64\" y1=\"80.0\" x2=\"400\" y2=\"80.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"84.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">35</text><line x1=\"64\" y1=\"60.0\" x2=\"400\" y2=\"60.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"64.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">40</text><line x1=\"64\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">45</text><line x1=\"64\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"220\" x2=\"64\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"72.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">s (m)</text><text x=\"400.0\" y=\"258.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><polyline points=\"64.0,220.0 400.0,60.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/><rect x=\"297.4\" y=\"70.0\" width=\"17.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"305.9\" y=\"84.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><polyline points=\"232.0,220.0 400.0,100.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/><rect x=\"368.0\" y=\"124.0\" width=\"17.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"376.5\" y=\"138.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">B</text></svg></span><p>Anta att båda fortsätter med samma fart. När och var hinner B ikapp A? (Svara i s och m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Farten är lutningen i s-t-diagrammet: A har \\(40/10=4\\) m/s och B har \\(30/5=6\\) m/s från t = 5 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s_A=4t,\\qquad s_B=6(t-5)\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[4t=6(t-5)\\ \\Rightarrow\\ 2t=30\\ \\Rightarrow\\ t=15\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=4\\cdot15=60\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Vid 15 s, 60 m från start.</p></div>",
+  "familj": "Hastighet ur s-t-diagram",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Bestäm båda farterna ur lutningarna och ställ upp ett uttryck för läget för var och en.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    15,
+    60
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "s",
+    "m"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Tid",
+    "Läge"
+  ]
+},
+{
+  "id": "3.740",
+  "kap": 3,
+  "omr": "st_diagram",
+  "niva": "C",
+  "typ": "medelfart och medelhastighet när rörelsen vänder",
+  "poang": "(0/1/0)",
+  "t": "<p>s-t-diagrammet visar en radiostyrd bils läge längs en rak bana.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"s-t-diagram: läget ökar rätlinjigt från 0 m till 12 m mellan 0 och 4 s, är 12 m mellan 4 och 6 s och minskar rätlinjigt till 4 m vid 10 s.\"><title>s-t-diagram: läget ökar rätlinjigt från 0 m till 12 m mellan 0 och 4 s, är 12 m mellan 4 och 6 s och minskar rätlinjigt till 4 m vid 10 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"64.0\" y1=\"40\" x2=\"64.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"97.6\" y1=\"40\" x2=\"97.6\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"97.6\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"131.2\" y1=\"40\" x2=\"131.2\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"131.2\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"164.8\" y1=\"40\" x2=\"164.8\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"164.8\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"198.4\" y1=\"40\" x2=\"198.4\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"198.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"232.0\" y1=\"40\" x2=\"232.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"232.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"265.6\" y1=\"40\" x2=\"265.6\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"265.6\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"299.2\" y1=\"40\" x2=\"299.2\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"299.2\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"332.8\" y1=\"40\" x2=\"332.8\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"332.8\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"366.4\" y1=\"40\" x2=\"366.4\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"366.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">9</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><line x1=\"64\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"64\" y1=\"194.3\" x2=\"400\" y2=\"194.3\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"198.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"64\" y1=\"168.6\" x2=\"400\" y2=\"168.6\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"172.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"64\" y1=\"142.9\" x2=\"400\" y2=\"142.9\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"146.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"64\" y1=\"117.1\" x2=\"400\" y2=\"117.1\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"121.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">8</text><line x1=\"64\" y1=\"91.4\" x2=\"400\" y2=\"91.4\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"95.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"64\" y1=\"65.7\" x2=\"400\" y2=\"65.7\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"69.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">12</text><line x1=\"64\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">14</text><line x1=\"64\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"220\" x2=\"64\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"72.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">s (m)</text><text x=\"400.0\" y=\"258.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><polyline points=\"64.0,220.0 198.4,65.7 265.6,65.7 400.0,168.6\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></svg></span><p>Bestäm bilens medelfart och medelhastighet under hela tiden 0–10 s. (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bilen åker 12 m framåt och sedan 8 m tillbaka. Medelfarten bygger på hela den åkta sträckan, medelhastigheten på förflyttningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\bar v_{\\text{fart}}=\\frac{12+8}{10}=2{,}0\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\bar v=\\frac{\\Delta s}{\\Delta t}=\\frac{4-0}{10}=0{,}40\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Medelfart 2,0 m/s, medelhastighet 0,40 m/s.</p></div>",
+  "familj": "Tolka och rita s-t-diagram",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "familjNyckel": "st_diagram__tolka_och_rita_rorelsediagram",
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Hur lång sträcka åker bilen totalt? Hur långt från startpunkten är den vid 10 s?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    2.0,
+    0.4
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "m/s",
+    "m/s"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Medelfart",
+    "Medelhastighet"
+  ]
+},
+{
+  "id": "3.741",
+  "kap": 3,
+  "omr": "st_diagram",
+  "niva": "C",
+  "typ": "när är farten störst",
+  "poang": "(0/1/0)",
+  "t": "<p>s-t-diagrammet visar en robotgräsklippares läge längs en rak kant av gräsmattan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"s-t-diagram: läget ökar från 0 till 6 m mellan 0 och 3 s, är 6 m mellan 3 och 5 s, minskar till 0 m vid 6 s och ökar till 8 m vid 10 s.\"><title>s-t-diagram: läget ökar från 0 till 6 m mellan 0 och 3 s, är 6 m mellan 3 och 5 s, minskar till 0 m vid 6 s och ökar till 8 m vid 10 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"64.0\" y1=\"40\" x2=\"64.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"97.6\" y1=\"40\" x2=\"97.6\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"97.6\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"131.2\" y1=\"40\" x2=\"131.2\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"131.2\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"164.8\" y1=\"40\" x2=\"164.8\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"164.8\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"198.4\" y1=\"40\" x2=\"198.4\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"198.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"232.0\" y1=\"40\" x2=\"232.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"232.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"265.6\" y1=\"40\" x2=\"265.6\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"265.6\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"299.2\" y1=\"40\" x2=\"299.2\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"299.2\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"332.8\" y1=\"40\" x2=\"332.8\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"332.8\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"366.4\" y1=\"40\" x2=\"366.4\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"366.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">9</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><line x1=\"64\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"64\" y1=\"184.0\" x2=\"400\" y2=\"184.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"188.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"64\" y1=\"148.0\" x2=\"400\" y2=\"148.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"152.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"64\" y1=\"112.0\" x2=\"400\" y2=\"112.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"116.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"64\" y1=\"76.0\" x2=\"400\" y2=\"76.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">8</text><line x1=\"64\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"64\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"220\" x2=\"64\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"72.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">s (m)</text><text x=\"400.0\" y=\"258.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><polyline points=\"64.0,220.0 164.8,112.0 232.0,112.0 265.6,220.0 400.0,76.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></svg></span><p>Under vilket tidsintervall har roboten störst fart? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Farten är lutningens absolutbelopp. Lutningarna är \\(6/3=2\\) m/s, 0, \\(-6/1=-6\\) m/s och \\(8/4=2\\) m/s.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Störst fart har roboten mellan 5 och 6 s, då den åker tillbaka med 6 m/s. Att läget minskar betyder bara att den rör sig åt andra hållet.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 5–6 s.</p></div>",
+  "familj": "Tolka och rita s-t-diagram",
+  "formaga": [
+    "begrepp"
+  ],
+  "familjNyckel": "st_diagram__tolka_och_rita_rorelsediagram",
+  "självrättning": true,
+  "ledtrad": "<p>Jämför hur brant grafen är i varje del, oavsett om den lutar uppåt eller nedåt.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "0–3 s",
+      "ratt": false,
+      "kommentar": "Lutningen är 2 m/s."
+    },
+    {
+      "txt": "6–10 s",
+      "ratt": false,
+      "kommentar": "Grafen når högst, men lutningen är bara 2 m/s."
+    },
+    {
+      "txt": "5–6 s",
+      "ratt": true,
+      "kommentar": "Rätt: den brantaste delen, 6 m/s bakåt."
+    },
+    {
+      "txt": "3–5 s",
+      "ratt": false,
+      "kommentar": "Där står roboten still."
+    }
+  ]
+},
+{
+  "id": "3.742",
+  "kap": 3,
+  "omr": "st_diagram",
+  "niva": "C",
+  "typ": "tangent och sekant vid en inbromsning",
+  "poang": "(0/1/0)",
+  "t": "<p>Den blå kurvan visar läget för en bil som bromsar. Den streckade linjen är tangent till kurvan vid t = 2 s och går genom punkterna (0 s, 8 m) och (5 s, 68 m). Bilen står still vid t = 5 s.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"s-t-diagram: en kurva som stiger allt långsammare från 0 m vid 0 s till 50 m vid 5 s, där den planar ut. En streckad tangent rör kurvan vid 2 s och går från 8 m vid 0 s till 68 m vid 5 s.\"><title>s-t-diagram: en kurva som stiger allt långsammare från 0 m vid 0 s till 50 m vid 5 s, där den planar ut. En streckad tangent rör kurvan vid 2 s och går från 8 m vid 0 s till 68 m vid 5 s.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"64.0\" y1=\"40\" x2=\"64.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"131.2\" y1=\"40\" x2=\"131.2\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"131.2\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"198.4\" y1=\"40\" x2=\"198.4\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"198.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"265.6\" y1=\"40\" x2=\"265.6\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"265.6\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"332.8\" y1=\"40\" x2=\"332.8\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"332.8\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"64\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"64\" y1=\"194.3\" x2=\"400\" y2=\"194.3\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"198.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"64\" y1=\"168.6\" x2=\"400\" y2=\"168.6\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"172.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">20</text><line x1=\"64\" y1=\"142.9\" x2=\"400\" y2=\"142.9\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"146.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">30</text><line x1=\"64\" y1=\"117.1\" x2=\"400\" y2=\"117.1\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"121.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">40</text><line x1=\"64\" y1=\"91.4\" x2=\"400\" y2=\"91.4\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"95.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">50</text><line x1=\"64\" y1=\"65.7\" x2=\"400\" y2=\"65.7\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"69.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">60</text><line x1=\"64\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">70</text><line x1=\"64\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"220\" x2=\"64\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"72.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">s (m)</text><text x=\"400.0\" y=\"258.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><polyline points=\"64.0,199.4 400.0,45.1\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"7 5\"/><polyline points=\"64.0,220.0 67.4,217.4 70.7,214.9 74.1,212.4 77.4,209.9 80.8,207.5 84.2,205.0 87.5,202.6 90.9,200.3 94.2,197.9 97.6,195.6 101.0,193.3 104.3,191.0 107.7,188.7 111.0,186.5 114.4,184.3 117.8,182.1 121.1,180.0 124.5,177.9 127.8,175.8 131.2,173.7 134.6,171.7 137.9,169.7 141.3,167.7 144.6,165.7 148.0,163.8 151.4,161.8 154.7,159.9 158.1,158.1 161.4,156.2 164.8,154.4 168.2,152.6 171.5,150.9 174.9,149.1 178.2,147.4 181.6,145.8 185.0,144.1 188.3,142.5 191.7,140.9 195.0,139.3 198.4,137.7 201.8,136.2 205.1,134.7 208.5,133.2 211.8,131.7 215.2,130.3 218.6,128.9 221.9,127.5 225.3,126.2 228.6,124.9 232.0,123.6 235.4,122.3 238.7,121.1 242.1,119.8 245.4,118.6 248.8,117.5 252.2,116.3 255.5,115.2 258.9,114.1 262.2,113.0 265.6,112.0 269.0,111.0 272.3,110.0 275.7,109.0 279.0,108.1 282.4,107.2 285.8,106.3 289.1,105.4 292.5,104.6 295.8,103.8 299.2,103.0 302.6,102.2 305.9,101.5 309.3,100.8 312.6,100.1 316.0,99.5 319.4,98.8 322.7,98.2 326.1,97.7 329.4,97.1 332.8,96.6 336.2,96.1 339.5,95.6 342.9,95.1 346.2,94.7 349.6,94.3 353.0,93.9 356.3,93.6 359.7,93.3 363.0,93.0 366.4,92.7 369.8,92.5 373.1,92.3 376.5,92.1 379.8,91.9 383.2,91.8 386.6,91.6 389.9,91.5 393.3,91.5 396.6,91.4 400.0,91.4\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></svg></span><p>a) Vilken hastighet har bilen vid t = 2 s?<br>b) Vilken medelhastighet har bilen mellan 0 och 5 s? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">a) Momentanhastigheten är tangentens lutning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{68-8}{5-0}=12\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">b) Medelhastigheten är sekantens lutning mellan start och stopp. Kurvan når 50 m vid 5 s.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\bar v=\\frac{50-0}{5-0}=10\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) 12 m/s b) 10 m/s</p></div>",
+  "familj": "Lutning och area i rörelsediagram",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Hastigheten vid ett ögonblick ges av tangentens lutning. Medelhastigheten ges av lutningen mellan två punkter på kurvan.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    12,
+    10
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "m/s",
+    "m/s"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a) Vid 2 s",
+    "b) Medel 0–5 s"
+  ]
+},
+{
+  "id": "3.743",
+  "kap": 3,
+  "omr": "st_diagram",
+  "niva": "C",
+  "typ": "läge, medelhastighet och medelfart för en cyklist",
+  "poang": "(0/1/0)",
+  "t": "<p>En cyklist åker rakt österut med 6,0 m/s i 20 s, står still i 10 s och cyklar sedan tillbaka västerut med 4,0 m/s i 15 s. Rita gärna ett s-t-diagram.</p><p>Var befinner sig cyklisten efter 45 s, och vilken medelhastighet och medelfart har cyklisten under hela tiden? (Svara i m och m/s med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Välj österut som positiv riktning. Cyklisten åker \\(6{,}0\\cdot20=120\\) m österut och \\(4{,}0\\cdot15=60\\) m tillbaka.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=120-60=60\\ \\mathrm m\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\bar v=\\frac{60}{45}\\approx1{,}3\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\text{medelfart}=\\frac{120+60}{45}=4{,}0\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 60 m öster om start, medelhastighet 1,3 m/s österut och medelfart 4,0 m/s.</p></div>",
+  "familj": "Tolka och rita s-t-diagram",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "familjNyckel": "st_diagram__tolka_och_rita_rorelsediagram",
+  "självrättning": [
+    true,
+    true,
+    true
+  ],
+  "ledtrad": "<p>Räkna sträckan i varje del. Medelhastigheten använder förflyttningen, medelfarten hela den åkta sträckan.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    60,
+    1.33333333333,
+    4.0
+  ],
+  "tolerans": [
+    0,
+    0.05,
+    0
+  ],
+  "svarEnhet": [
+    "m",
+    "m/s",
+    "m/s"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Läge",
+    "Medelhastighet",
+    "Medelfart"
+  ]
+},
+{
+  "id": "3.744",
+  "kap": 3,
+  "omr": "st_diagram",
+  "niva": "C",
+  "typ": "två bilar möts",
+  "poang": "(0/1/0)",
+  "t": "<p>Diagrammet visar läget för två bilar på samma raka väg. Bil A startar vid 0 m och bil B vid 300 m.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"s-t-diagram: A går rätlinjigt från 0 m vid 0 s till 250 m vid 10 s. B går rätlinjigt från 300 m vid 0 s till 150 m vid 10 s. Linjerna korsar varandra.\"><title>s-t-diagram: A går rätlinjigt från 0 m vid 0 s till 250 m vid 10 s. B går rätlinjigt från 300 m vid 0 s till 150 m vid 10 s. Linjerna korsar varandra.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"64.0\" y1=\"40\" x2=\"64.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"97.6\" y1=\"40\" x2=\"97.6\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"97.6\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"131.2\" y1=\"40\" x2=\"131.2\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"131.2\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"164.8\" y1=\"40\" x2=\"164.8\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"164.8\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"198.4\" y1=\"40\" x2=\"198.4\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"198.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"232.0\" y1=\"40\" x2=\"232.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"232.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"265.6\" y1=\"40\" x2=\"265.6\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"265.6\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"299.2\" y1=\"40\" x2=\"299.2\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"299.2\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"332.8\" y1=\"40\" x2=\"332.8\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"332.8\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"366.4\" y1=\"40\" x2=\"366.4\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"366.4\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">9</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><line x1=\"64\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"64\" y1=\"190.0\" x2=\"400\" y2=\"190.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">50</text><line x1=\"64\" y1=\"160.0\" x2=\"400\" y2=\"160.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">100</text><line x1=\"64\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">150</text><line x1=\"64\" y1=\"100.0\" x2=\"400\" y2=\"100.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">200</text><line x1=\"64\" y1=\"70.0\" x2=\"400\" y2=\"70.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"74.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">250</text><line x1=\"64\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">300</text><line x1=\"64\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"220\" x2=\"64\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"72.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">s (m)</text><text x=\"400.0\" y=\"258.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">t (s)</text><polyline points=\"64.0,220.0 400.0,70.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/><rect x=\"156.3\" y=\"143.0\" width=\"17.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"164.8\" y=\"157.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">A</text><polyline points=\"64.0,40.0 400.0,130.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/><rect x=\"156.3\" y=\"35.0\" width=\"17.0\" height=\"19\" rx=\"3\" fill=\"#fff\"/><text x=\"164.8\" y=\"49.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">B</text></svg></span><p>Bestäm exakt när och var bilarna möts. (Svara i s och m.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Hastigheterna är linjernas lutningar: A har \\(250/10=25\\) m/s och B har \\((150-300)/10=-15\\) m/s, alltså 15 m/s mot A.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[25t=300-15t\\ \\Rightarrow\\ 40t=300\\ \\Rightarrow\\ t=7{,}5\\ \\mathrm s\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[s=25\\cdot7{,}5=187{,}5\\ \\mathrm m\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Efter 7,5 s, 187,5 m från A:s start.</p></div>",
+  "familj": "Hastighet ur s-t-diagram",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Skriv läget för varje bil som ett uttryck i t och sätt uttrycken lika.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    7.5,
+    187.5
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "s",
+    "m"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Tid",
+    "Läge"
+  ]
+},
+{
+  "id": "3.745",
+  "kap": 3,
+  "omr": "st_diagram",
+  "niva": "C",
+  "typ": "busshastighet ur diagram i km och min",
+  "poang": "(0/1/0)",
+  "t": "<p>Diagrammet visar en buss läge under en del av en resa. Läget mäts från bussgaraget.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"290\" viewBox=\"0 0 460 290\" role=\"img\" aria-label=\"s-t-diagram med tiden i minuter och läget i kilometer: en rät linje från 2 km vid 0 min till 11 km vid 12 min.\"><title>s-t-diagram med tiden i minuter och läget i kilometer: en rät linje från 2 km vid 0 min till 11 km vid 12 min.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"64.0\" y1=\"40\" x2=\"64.0\" y2=\"220\" stroke=\"#e3e8ee\"/><line x1=\"92.0\" y1=\"40\" x2=\"92.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"92.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><line x1=\"120.0\" y1=\"40\" x2=\"120.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"120.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><line x1=\"148.0\" y1=\"40\" x2=\"148.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"148.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><line x1=\"176.0\" y1=\"40\" x2=\"176.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"176.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><line x1=\"204.0\" y1=\"40\" x2=\"204.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"204.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><line x1=\"232.0\" y1=\"40\" x2=\"232.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"232.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><line x1=\"260.0\" y1=\"40\" x2=\"260.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"260.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><line x1=\"288.0\" y1=\"40\" x2=\"288.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"288.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><line x1=\"316.0\" y1=\"40\" x2=\"316.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"316.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">9</text><line x1=\"344.0\" y1=\"40\" x2=\"344.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"344.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">10</text><line x1=\"372.0\" y1=\"40\" x2=\"372.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"372.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">11</text><line x1=\"400.0\" y1=\"40\" x2=\"400.0\" y2=\"220\" stroke=\"#e3e8ee\"/><text x=\"400.0\" y=\"238.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#5b6773\">12</text><line x1=\"64\" y1=\"220.0\" x2=\"400\" y2=\"220.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"224.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"64\" y1=\"190.0\" x2=\"400\" y2=\"190.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"194.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"64\" y1=\"160.0\" x2=\"400\" y2=\"160.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"164.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"64\" y1=\"130.0\" x2=\"400\" y2=\"130.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"134.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"64\" y1=\"100.0\" x2=\"400\" y2=\"100.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"104.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">8</text><line x1=\"64\" y1=\"70.0\" x2=\"400\" y2=\"70.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"74.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"64\" y1=\"40.0\" x2=\"400\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"57.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\">12</text><line x1=\"64\" y1=\"220.0\" x2=\"408\" y2=\"220.0\" stroke=\"#34495e\" stroke-width=\"1.8\"/><line x1=\"64\" y1=\"220\" x2=\"64\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.8\"/><text x=\"72.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\" font-weight=\"bold\">s (km)</text><text x=\"400.0\" y=\"258.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#5b6773\" font-weight=\"bold\">t (min)</text><polyline points=\"64.0,190.0 400.0,55.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"3.2\" stroke-linejoin=\"round\"/></svg></span><p>Vilken hastighet har bussen? (Svara i km/h.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Hastigheten är lutningen. Läget ändras med 9 km på 12 min.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[v=\\frac{11-2}{12}=0{,}75\\ \\mathrm{km/min}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[0{,}75\\cdot60=45\\ \\mathrm{km/h}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 45 km/h.</p></div>",
+  "familj": "Hastighet ur s-t-diagram",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "st_diagram__lutning_och_area_i_rorelsediagram",
+  "självrättning": true,
+  "ledtrad": "<p>Lutningen ger kilometer per minut. Hur många minuter går det på en timme?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 45,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "km/h"
+},
+{
+  "id": "4.891",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "C",
+  "typ": "två skridskoåkare knuffar ifrån varandra",
+  "poang": "(0/1/0)",
+  "t": "<p>Anna (60 kg) och Bo (80 kg) står stilla på isen och knuffar ifrån varandra. Under 0,50 s är kraften mellan dem 120 N. Friktionen mot isen är försumbar.</p><p>Vilken fart har var och en efter knuffen? (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Enligt tredje lagen påverkas båda av lika stor kraft, 120 N, men åt motsatta håll. Accelerationen blir olika eftersom massorna är olika.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a_A=\\frac{120}{60}=2{,}0\\ \\mathrm{m/s^2},\\quad v_A=2{,}0\\cdot0{,}50=1{,}0\\ \\mathrm{m/s}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a_B=\\frac{120}{80}=1{,}5\\ \\mathrm{m/s^2},\\quad v_B=1{,}5\\cdot0{,}50=0{,}75\\ \\mathrm{m/s}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Anna 1,0 m/s och Bo 0,75 m/s, åt motsatta håll.</p></div>",
+  "familj": "Tredje lagen och rörelse",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "familjNyckel": "newton3__tredje_lagen_och_rorelse",
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Hur stor kraft verkar på Anna och hur stor på Bo? Använd sedan \\(F=ma\\) och \\(v=at\\).</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1.0,
+    0.75
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "m/s",
+    "m/s"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Anna",
+    "Bo"
+  ]
+},
+{
+  "id": "4.892",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "C",
+  "typ": "kraften mellan två järnvägsvagnar",
+  "poang": "(0/1/0)",
+  "t": "<p>Ett lok drar två vagnar som väger 20 ton vardera. Tåget har accelerationen 0,30 m/s². Räkna med att friktion och luftmotstånd på vagnarna är försumbara.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"160\" viewBox=\"0 0 480 160\" role=\"img\" aria-label=\"Ett lok drar två vagnar åt vänster. Varje vagn väger 20 ton. Accelerationen är 0,30 m/s² åt vänster.\"><title>Ett lok drar två vagnar åt vänster. Varje vagn väger 20 ton. Accelerationen är 0,30 m/s² åt vänster.</title><rect x=\"1\" y=\"1\" width=\"478\" height=\"158\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"60\" width=\"120\" height=\"60\" rx=\"6\" fill=\"#eef4f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"100.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">lok</text><circle cx=\"68\" cy=\"128\" r=\"9\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"132\" cy=\"128\" r=\"9\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"180\" y=\"60\" width=\"120\" height=\"60\" rx=\"6\" fill=\"#eef4f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">vagn 1</text><circle cx=\"208\" cy=\"128\" r=\"9\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"272\" cy=\"128\" r=\"9\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><rect x=\"320\" y=\"60\" width=\"120\" height=\"60\" rx=\"6\" fill=\"#eef4f8\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"380.0\" y=\"96.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">vagn 2</text><circle cx=\"348\" cy=\"128\" r=\"9\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><circle cx=\"412\" cy=\"128\" r=\"9\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M160 90 L180 90\" stroke=\"#243447\" stroke-width=\"3\"/><path d=\"M300 90 L320 90\" stroke=\"#243447\" stroke-width=\"3\"/><line x1=\"20\" y1=\"137\" x2=\"460\" y2=\"137\" stroke=\"#5b6773\" stroke-width=\"2\"/><line x1=\"300\" y1=\"35\" x2=\"180\" y2=\"35\" stroke=\"#c2410c\" stroke-width=\"2.5\"/><polygon points=\"170,35 182,29 182,41\" fill=\"#c2410c\"/><text x=\"310.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">a = 0,30 m/s²</text></svg></span><p>Hur stor kraft drar vagn 2 i vagn 1 med? (Svara i kN.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Vagn 2 får sin acceleration av kraften från vagn 1. Enligt tredje lagen drar vagn 2 lika mycket i vagn 1, men bakåt.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=ma=20\\,000\\cdot0{,}30=6\\,000\\ \\mathrm N=6{,}0\\ \\mathrm{kN}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 6,0 kN, riktad bakåt.</p></div>",
+  "familj": "Tredje lagen och rörelse",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "familjNyckel": "newton3__tredje_lagen_och_rorelse",
+  "självrättning": true,
+  "ledtrad": "<p>Börja med vagn 2: vilken kraft behövs för att ge den accelerationen 0,30 m/s²? Använd sedan tredje lagen.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 6.0,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "kN"
+},
+{
+  "id": "4.893",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "C",
+  "typ": "kraftpar för en hängande lampa",
+  "poang": "(0/1/0)",
+  "t": "<p>En lampa hänger stilla i en sladd från taket. Vilket par av krafter är ett kraftpar enligt Newtons tredje lag? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ett kraftpar enligt tredje lagen verkar på <em>två olika</em> föremål och är av samma slag. Sladden drar uppåt i lampan och lampan drar nedåt i sladden.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Tyngdkraften och sladdens kraft på lampan verkar båda på lampan. De tar ut varandra eftersom lampan hänger stilla (första lagen), men de är inte ett kraftpar enligt tredje lagen.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Sladdens kraft uppåt på lampan och lampans kraft nedåt på sladden.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Krafterna i ett kraftpar enligt tredje lagen verkar på olika föremål. Vilka föremål påverkar varandra?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Tyngdkraften på lampan och sladdens kraft uppåt på lampan",
+      "ratt": false,
+      "kommentar": "De verkar på samma föremål. De tar ut varandra, men är inget kraftpar enligt tredje lagen."
+    },
+    {
+      "txt": "Sladdens kraft uppåt på lampan och lampans kraft nedåt på sladden",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Tyngdkraften på lampan och takets kraft på sladden",
+      "ratt": false,
+      "kommentar": "De verkar på olika föremål men är inte varandras motkrafter."
+    },
+    {
+      "txt": "Tyngdkraften på lampan och tyngdkraften på sladden",
+      "ratt": false,
+      "kommentar": "Båda dras av jorden. Motkraften till tyngdkraften på lampan verkar på jorden."
+    }
+  ]
+},
+{
+  "id": "4.894",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "C",
+  "typ": "krock mellan lastbil och personbil",
+  "poang": "(0/1/0)",
+  "t": "<p>En lastbil (12 ton) och en personbil (1,2 ton) krockar. Under krocken är kraften från lastbilen på personbilen i medel 60 kN.</p><p>Hur stor medelacceleration får lastbilen respektive personbilen under krocken? (Svara i m/s².)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Enligt tredje lagen påverkar personbilen lastbilen med lika stor kraft, 60 kN, åt motsatt håll.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a_{\\text{lastbil}}=\\frac{60\\,000}{12\\,000}=5{,}0\\ \\mathrm{m/s^2}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a_{\\text{personbil}}=\\frac{60\\,000}{1\\,200}=50\\ \\mathrm{m/s^2}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Krafterna är lika stora, men personbilen får tio gånger så stor acceleration eftersom den har en tiondel av massan.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lastbilen 5,0 m/s² och personbilen 50 m/s².</p></div>",
+  "familj": "Tredje lagen och rörelse",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "familjNyckel": "newton3__tredje_lagen_och_rorelse",
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Hur stor kraft verkar på lastbilen? Använd \\(a=F/m\\) för varje fordon.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    5.0,
+    50
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "m/s²",
+    "m/s²"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Lastbil",
+    "Personbil"
+  ]
+},
+{
+  "id": "4.895",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "C",
+  "typ": "vem vinner dragkampen",
+  "poang": "(0/1/0)",
+  "t": "<p>Lag A vinner en dragkamp och drar lag B framåt. Repet är lätt. Vilken förklaring är riktig? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Ett lätt rep har samma spänning i hela sin längd, så lagen drar lika hårt i repet. Enligt tredje lagen drar repet också lika hårt tillbaka i varje lag.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det som avgör är krafterna från marken. Lag A trycker bakåt mot marken och får en större friktionskraft framåt från marken än lag B får.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Båda lagen drar lika hårt i repet. A vinner för att marken ger A större friktionskraft.</p></div>",
+  "familj": "Kraft och motkraft",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "familjNyckel": "newton3__tredje_lagen_och_rorelse",
+  "självrättning": true,
+  "ledtrad": "<p>Vilka yttre krafter verkar på lag A och repet tillsammans? Vad skiljer sig mellan lagen?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A drar hårdare i repet än B drar",
+      "ratt": false,
+      "kommentar": "I ett lätt rep är kraften lika stor i båda ändarna."
+    },
+    {
+      "txt": "Repet drar mindre i A än i B",
+      "ratt": false,
+      "kommentar": "Repet drar lika hårt i båda lagen."
+    },
+    {
+      "txt": "Tredje lagen gäller inte när föremålen rör sig",
+      "ratt": false,
+      "kommentar": "Tredje lagen gäller alltid, även under rörelse."
+    },
+    {
+      "txt": "Lagen drar lika hårt i repet. A vinner för att marken ger A en större friktionskraft än B",
+      "ratt": true,
+      "kommentar": "Rätt."
+    }
+  ]
+},
+{
+  "id": "4.896",
+  "kap": 4,
+  "omr": "newton3",
+  "niva": "C",
+  "typ": "kraften i repet mellan två pulkor",
+  "poang": "(0/1/0)",
+  "t": "<p>Elsa drar en pulka (20 kg) med den vågräta kraften 90 N. En annan pulka (10 kg) är fäst med ett lätt rep bakom den första. Friktionen mot snön är försumbar.</p><p>Hur stor kraft drar den bakre pulkan i repet med? (Svara i N.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Båda pulkorna får samma acceleration.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[a=\\frac{90}{20+10}=3{,}0\\ \\mathrm{m/s^2}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Repet ger den bakre pulkan accelerationen 3,0 m/s². Enligt tredje lagen drar pulkan lika hårt tillbaka i repet.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[F=10\\cdot3{,}0=30\\ \\mathrm N\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 30 N.</p></div>",
+  "familj": "Tredje lagen och rörelse",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "familjNyckel": "newton3__tredje_lagen_och_rorelse",
+  "självrättning": true,
+  "ledtrad": "<p>Bestäm först accelerationen för hela tåget. Vilken kraft behöver den bakre pulkan?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 30,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "N"
+},
+{
+  "id": "8.649",
+  "kap": 8,
+  "omr": "laddning",
+  "niva": "C",
+  "typ": "vilken laddning hade kulan från början",
+  "poang": "(0/1/0)",
+  "t": "<p>Två likadana metallkulor A och B står på isolerande stativ. B har laddningen −2,0 nC. A och B får röra vid varandra och dras isär. Efteråt har båda laddningen +5,0 nC.</p><p>Vilken laddning hade A från början? (Svara i nC.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Laddningen bevaras, och två likadana kulor delar lika på den sammanlagda laddningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q_A+(-2{,}0)=2\\cdot5{,}0\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q_A=10+2{,}0=12\\ \\mathrm{nC}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +12 nC.</p></div>",
+  "familj": "Laddningens bevarande",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur stor är den sammanlagda laddningen efteråt? Den var lika stor före beröringen.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 12,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "nC"
+},
+{
+  "id": "8.650",
+  "kap": 8,
+  "omr": "laddning",
+  "niva": "C",
+  "typ": "elektroner och massa när en ballong laddas",
+  "poang": "(0/1/0)",
+  "t": "<p>En ballong gnids mot håret och får laddningen −4,8 nC. Elektronens laddning är \\(-1{,}602\\cdot10^{-19}\\) C och dess massa är \\(9{,}11\\cdot10^{-31}\\) kg.</p><p>a) Hur många elektroner har gått över till ballongen?<br>b) Hur mycket har ballongens massa ökat? (Svara med två värdesiffror, i b i kg.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">a) Ballongen har fått ett överskott av elektroner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac{4{,}8\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx3{,}0\\cdot10^{10}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">b) Varje elektron har massan \\(9{,}11\\cdot10^{-31}\\) kg.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta m=3{,}0\\cdot10^{10}\\cdot9{,}11\\cdot10^{-31}\\approx2{,}7\\cdot10^{-20}\\ \\mathrm{kg}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Massökningen är alldeles för liten för att kunna vägas.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(3{,}0\\cdot10^{10}\\) elektroner b) \\(2{,}7\\cdot10^{-20}\\) kg</p></div>",
+  "familj": "Laddning och elementarladdning",
+  "formaga": [
+    "procedur"
+  ],
+  "familjNyckel": "laddning__laddning_och_antal_elektroner",
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Dela laddningen med elementarladdningen. Multiplicera sedan antalet elektroner med en elektrons massa.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    30000000000.0,
+    2.7e-20
+  ],
+  "tolerans": [
+    500000000.0,
+    5e-22
+  ],
+  "svarEnhet": [
+    "elektroner",
+    "kg"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a) Antal",
+    "b) Massa"
+  ]
+},
+{
+  "id": "8.651",
+  "kap": 8,
+  "omr": "laddning",
+  "niva": "C",
+  "typ": "influens och sedan delning",
+  "poang": "(0/1/0)",
+  "t": "<p>Två oladdade, likadana metallkulor A och B rör vid varandra på isolerande stativ. En laddad stav hålls nära A. Medan staven är kvar dras kulorna isär. Därefter tas staven bort, och A har då laddningen −7,0 nC.</p><p>Sedan får B röra vid en tredje likadan, oladdad metallkula C. Vilken laddning får C? (Svara i nC.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Från början var A och B oladdade tillsammans. Laddningen bevaras, så B har \\(+7{,}0\\) nC när A har \\(-7{,}0\\) nC.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När B och C rör vid varandra delar de lika på B:s laddning.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q_C=\\frac{7{,}0+0}{2}=3{,}5\\ \\mathrm{nC}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> +3,5 nC.</p></div>",
+  "familj": "Ledare, influens och laddningsutjämning",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "familjNyckel": "laddning__elektrisk_laddning_och_influens",
+  "självrättning": true,
+  "ledtrad": "<p>Vilken laddning måste B ha fått när A fick −7,0 nC? Hur delas den sedan mellan två likadana kulor?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 3.5,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "nC"
+},
+{
+  "id": "8.652",
+  "kap": 8,
+  "omr": "laddning",
+  "niva": "C",
+  "typ": "elektroskop och en stav som närmar sig",
+  "poang": "(0/1/0)",
+  "t": "<p>Ett elektroskop är negativt laddat, så att bladen står isär. En positivt laddad stav förs långsamt närmare knappen på elektroskopet, utan att röra den. Vad händer med bladen? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Den positiva staven drar elektroner mot knappen. Då minskar elektronöverskottet i bladen, och de stöter bort varandra mindre.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Bladen går därför ihop. Kommer staven tillräckligt nära kan bladen till och med gå isär igen, eftersom bladen då får elektronunderskott.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Bladen går ihop.</p></div>",
+  "familj": "Ledare, influens och laddningsutjämning",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "familjNyckel": "laddning__elektrisk_laddning_och_influens",
+  "självrättning": true,
+  "ledtrad": "<p>Åt vilket håll dras elektronerna i elektroskopet? Vad händer då med laddningen i bladen?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Bladen går ännu mer isär, eftersom staven är laddad",
+      "ratt": false,
+      "kommentar": "Det händer om staven har samma tecken som elektroskopet."
+    },
+    {
+      "txt": "Ingenting händer förrän staven rör vid knappen",
+      "ratt": false,
+      "kommentar": "Laddningarna i metallen påverkas av staven även på avstånd (influens)."
+    },
+    {
+      "txt": "Bladen går ihop, eftersom elektroner dras upp mot knappen",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Bladen blir positivt laddade direkt, eftersom staven ger dem laddning",
+      "ratt": false,
+      "kommentar": "Ingen laddning flyttas mellan staven och elektroskopet när de inte rör vid varandra."
+    }
+  ]
+},
+{
+  "id": "8.653",
+  "kap": 8,
+  "omr": "laddning",
+  "niva": "C",
+  "typ": "elektroner som flyttas vid beröring",
+  "poang": "(0/1/0)",
+  "t": "<p>Två likadana metallkulor har laddningarna \\(q_A=+8{,}0\\) nC och \\(q_B=-2{,}0\\) nC. De får röra vid varandra och dras isär.</p><p>Hur många elektroner har gått från B till A? (Svara med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Efteråt delar kulorna lika på den sammanlagda laddningen.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[q=\\frac{8{,}0+(-2{,}0)}{2}=+3{,}0\\ \\mathrm{nC}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">B:s laddning ändras från −2,0 nC till +3,0 nC, alltså med +5,0 nC. Det betyder att B har förlorat elektroner med den sammanlagda laddningen 5,0 nC.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[N=\\frac{5{,}0\\cdot10^{-9}}{1{,}602\\cdot10^{-19}}\\approx3{,}1\\cdot10^{10}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(3{,}1\\cdot10^{10}\\) elektroner.</p></div>",
+  "familj": "Laddningens bevarande",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "familjNyckel": "laddning__laddning_och_antal_elektroner",
+  "självrättning": true,
+  "ledtrad": "<p>Bestäm laddningen efter beröringen. Hur mycket har B:s laddning ändrats?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 31000000000.0,
+  "tolerans": 500000000.0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "elektroner"
+},
+{
+  "id": "8.654",
+  "kap": 8,
+  "omr": "laddning",
+  "niva": "C",
+  "typ": "tecken ur attraktion och repulsion",
+  "poang": "(0/1/0)",
+  "t": "<p>Tre små kulor A, B och C hänger i trådar. Man ser att A och B dras mot varandra, och att B och C stöter bort varandra. C är negativt laddad.</p><p>Vad kan man säga om A? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">B och C stöter bort varandra, så B har samma tecken som C: B är negativ.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">A dras mot B. Det händer om A är positiv, men också om A är oladdad, eftersom en negativ kula polariserar en oladdad kula och drar den till sig.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> A är positiv eller oladdad.</p></div>",
+  "familj": "Laddning och elementarladdning",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "familjNyckel": "laddning__laddning_och_antal_elektroner",
+  "självrättning": true,
+  "ledtrad": "<p>Bestäm först tecknet på B. Kan en laddad kula dra till sig en kula som är oladdad?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "A är säkert positivt laddad",
+      "ratt": false,
+      "kommentar": "En oladdad kula dras också mot en laddad kula."
+    },
+    {
+      "txt": "A är negativt laddad",
+      "ratt": false,
+      "kommentar": "Två negativa kulor skulle stöta bort varandra."
+    },
+    {
+      "txt": "A är säkert oladdad",
+      "ratt": false,
+      "kommentar": "En positiv kula dras också mot B."
+    },
+    {
+      "txt": "A är positivt laddad eller oladdad",
+      "ratt": true,
+      "kommentar": "Rätt."
+    }
+  ]
+},
+{
+  "id": "8.655",
+  "kap": 8,
+  "omr": "seriekoppling",
+  "niva": "C",
+  "typ": "förkopplingsresistor till en lysdiod",
+  "poang": "(0/1/0)",
+  "t": "<p>En lysdiod ska ha spänningen 2,0 V och strömmen 20 mA. Den kopplas i serie med en resistor till ett batteri på 9,0 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"262\" viewBox=\"0 0 480 262\" role=\"img\" aria-label=\"Seriekrets med ett batteri på 9,0 V, en resistor med okänd resistans och en lysdiod.\"><title>Seriekrets med ett batteri på 9,0 V, en resistor med okänd resistans och en lysdiod.</title><rect x=\"1\" y=\"1\" width=\"478\" height=\"260\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M150.0 60 L60 60 L60 200 L215 200\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M245 200 L420 200 L420 60 L330.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M215 180 L215 220 M245 190 L245 210\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"205.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"256.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"230.0\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">9,0 V</text><path d=\"M210.0 60 L270.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><rect x=\"150.0\" y=\"49\" width=\"60\" height=\"22\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"180.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">R = ?</text><path d=\"M270.0 60 L288.0 60 M312.0 60 L330.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><polygon points=\"288.0,46 288.0,74 312.0,60\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M312.0 46 L312.0 74\" stroke=\"#243447\" stroke-width=\"2.4\"/><path d=\"M302.0 42 L310.0 32 M310.0 42 L318.0 32\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><path d=\"M310.0 32 L305.0 33 M310.0 32 L309.0 37 M318.0 32 L313.0 33 M318.0 32 L317.0 37\" stroke=\"#c2410c\" stroke-width=\"1.6\"/><text x=\"300.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">lysdiod</text></svg></span><p>Vilken resistans ska resistorn ha? (Svara i Ω.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">I en seriekoppling delas batteriets spänning mellan komponenterna, och strömmen är densamma genom båda.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_R=9{,}0-2{,}0=7{,}0\\ \\mathrm V\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R=\\frac{U_R}{I}=\\frac{7{,}0}{0{,}020}=350\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 350 Ω.</p></div>",
+  "familj": "Spänningsdelning i seriekoppling",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "familjNyckel": "kopplingar__seriekoppling",
+  "självrättning": true,
+  "ledtrad": "<p>Hur stor spänning blir kvar över resistorn? Strömmen är 20 mA genom båda komponenterna.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 350,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "Ω"
+},
+{
+  "id": "8.656",
+  "kap": 8,
+  "omr": "seriekoppling",
+  "niva": "C",
+  "typ": "termistorns resistans ur en spänningsdelare",
+  "poang": "(0/1/0)",
+  "t": "<p>En temperaturgivare (termistor) är seriekopplad med en resistor på 10 kΩ till 5,0 V. En voltmeter över resistorn visar 2,0 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"262\" viewBox=\"0 0 480 262\" role=\"img\" aria-label=\"Seriekrets med 5,0 V, en termistor och en resistor på 10 kΩ.\"><title>Seriekrets med 5,0 V, en termistor och en resistor på 10 kΩ.</title><rect x=\"1\" y=\"1\" width=\"478\" height=\"260\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M150.0 60 L60 60 L60 200 L215 200\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M245 200 L420 200 L420 60 L330.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M215 180 L215 220 M245 190 L245 210\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"205.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"256.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"230.0\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">5,0 V</text><path d=\"M210.0 60 L270.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><rect x=\"150.0\" y=\"49\" width=\"60\" height=\"22\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"180.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">termistor</text><rect x=\"270.0\" y=\"49\" width=\"60\" height=\"22\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"300.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">10 kΩ</text></svg></span><p>Vilken resistans har termistorn? (Svara i kΩ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen är densamma genom båda komponenterna. Den bestäms med resistorn.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{2{,}0}{10\\,000}=0{,}20\\ \\mathrm{mA}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_T=5{,}0-2{,}0=3{,}0\\ \\mathrm V,\\qquad R_T=\\frac{3{,}0}{0{,}20\\cdot10^{-3}}=15\\ \\mathrm{k\\Omega}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Man kan också se det som spänningsdelning: termistorn har 1,5 gånger så stor spänning som resistorn och därför 1,5 gånger så stor resistans.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 15 kΩ.</p></div>",
+  "familj": "Spänningsdelning i seriekoppling",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "familjNyckel": "kopplingar__seriekoppling",
+  "självrättning": true,
+  "ledtrad": "<p>Beräkna strömmen genom resistorn. Vilken spänning ligger över termistorn?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 15,
+  "tolerans": 0,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "kΩ"
+},
+{
+  "id": "8.657",
+  "kap": 8,
+  "omr": "seriekoppling",
+  "niva": "C",
+  "typ": "två okända resistanser ur spänningar",
+  "poang": "(0/1/0)",
+  "t": "<p>Tre resistorer är seriekopplade till 9,0 V. \\(R_1=40\\ \\Omega\\). Spänningen över \\(R_1\\) är 2,0 V och spänningen över \\(R_2\\) är 4,0 V.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"262\" viewBox=\"0 0 480 262\" role=\"img\" aria-label=\"Seriekrets med 9,0 V och tre resistorer: R1 = 40 ohm, R2 och R3.\"><title>Seriekrets med 9,0 V och tre resistorer: R1 = 40 ohm, R2 och R3.</title><rect x=\"1\" y=\"1\" width=\"478\" height=\"260\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M120.0 60 L60 60 L60 200 L215 200\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M245 200 L420 200 L420 60 L360.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M215 180 L215 220 M245 190 L245 210\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"205.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"256.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"230.0\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">9,0 V</text><path d=\"M180.0 60 L210.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M270.0 60 L300.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><rect x=\"120.0\" y=\"49\" width=\"60\" height=\"22\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"150.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">R₁ = 40 Ω</text><rect x=\"210.0\" y=\"49\" width=\"60\" height=\"22\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">R₂</text><rect x=\"300.0\" y=\"49\" width=\"60\" height=\"22\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"330.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">R₃</text></svg></span><p>Bestäm \\(R_2\\) och \\(R_3\\). (Svara i Ω.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Strömmen är densamma i hela kretsen och bestäms med \\(R_1\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{2{,}0}{40}=0{,}050\\ \\mathrm A\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[R_2=\\frac{4{,}0}{0{,}050}=80\\ \\Omega\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen över \\(R_3\\) är det som blir kvar av 9,0 V.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_3=9{,}0-2{,}0-4{,}0=3{,}0\\ \\mathrm V,\\quad R_3=\\frac{3{,}0}{0{,}050}=60\\ \\Omega\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(R_2=80\\ \\Omega\\) och \\(R_3=60\\ \\Omega\\).</p></div>",
+  "familj": "Ersättningsresistans och ström i serie",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "familjNyckel": "kopplingar__seriekoppling",
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Bestäm strömmen med \\(R_1\\). Hur stor spänning ligger över \\(R_3\\)?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    80,
+    60
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "Ω",
+    "Ω"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "R₂",
+    "R₃"
+  ]
+},
+{
+  "id": "8.658",
+  "kap": 8,
+  "omr": "seriekoppling",
+  "niva": "C",
+  "typ": "effekt med en eller två värmetrådar",
+  "poang": "(0/1/0)",
+  "t": "<p>Ett elektriskt värmeelement har två värmetrådar, 24 Ω och 48 Ω, och ansluts till 36 V. På låg effekt är båda trådarna seriekopplade. På hög effekt används bara tråden på 24 Ω.</p><p>Vilken effekt ger elementet på låg respektive hög effekt? (Svara i W.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Låg effekt: ersättningsresistansen är \\(24+48=72\\ \\Omega\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{36}{72}=0{,}50\\ \\mathrm A,\\qquad P=UI=36\\cdot0{,}50=18\\ \\mathrm W\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Hög effekt: bara 24 Ω.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{36}{24}=1{,}5\\ \\mathrm A,\\qquad P=36\\cdot1{,}5=54\\ \\mathrm W\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Fler seriekopplade trådar ger större resistans, mindre ström och därför mindre effekt.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Låg effekt 18 W och hög effekt 54 W.</p></div>",
+  "familj": "Ersättningsresistans och ström i serie",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "familjNyckel": "kopplingar__seriekoppling",
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Beräkna strömmen i varje fall och använd \\(P=UI\\).</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    18,
+    54
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarEnhet": [
+    "W",
+    "W"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Låg",
+    "Hög"
+  ]
+},
+{
+  "id": "8.659",
+  "kap": 8,
+  "omr": "seriekoppling",
+  "niva": "C",
+  "typ": "största tillåtna spänning över två resistorer",
+  "poang": "(0/1/0)",
+  "t": "<p>En resistor på 100 Ω tål högst 0,25 W, och en resistor på 400 Ω tål högst 0,50 W. De seriekopplas.</p><p>Vilken är den största spänning man kan ansluta utan att någon resistor får för hög effekt? (Svara i V med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Med \\(P=RI^2\\) får varje resistor sin största tillåtna ström.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I_{100}=\\sqrt{\\frac{0{,}25}{100}}=0{,}050\\ \\mathrm A,\\qquad I_{400}=\\sqrt{\\frac{0{,}50}{400}}\\approx0{,}0354\\ \\mathrm A\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Samma ström går genom båda, så den minsta gränsen gäller.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U=(100+400)\\cdot0{,}0354\\approx17{,}7\\ \\mathrm V\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 17,7 V.</p></div>",
+  "familj": "Spänningsdelning i seriekoppling",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "familjNyckel": "kopplingar__seriekoppling",
+  "självrättning": true,
+  "ledtrad": "<p>Bestäm den största ström varje resistor tål. Vilken av strömmarna avgör?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "rättSvar": 17.7,
+  "tolerans": 0.05,
+  "svarFormat": "numeriskt",
+  "svarEnhet": "V"
+},
+{
+  "id": "8.660",
+  "kap": 8,
+  "omr": "seriekoppling",
+  "niva": "C",
+  "typ": "felsökning i en seriekoppling med tre lampor",
+  "poang": "(0/1/0)",
+  "t": "<p>Tre likadana lampor är seriekopplade till ett batteri. Plötsligt slocknar lampa 2, medan lampa 1 och 3 lyser starkare än förut.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"480\" height=\"262\" viewBox=\"0 0 480 262\" role=\"img\" aria-label=\"Seriekrets med ett batteri och tre likadana lampor, numrerade 1, 2 och 3.\"><title>Seriekrets med ett batteri och tre likadana lampor, numrerade 1, 2 och 3.</title><rect x=\"1\" y=\"1\" width=\"478\" height=\"260\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M120.0 60 L60 60 L60 200 L215 200\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M245 200 L420 200 L420 60 L360.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M215 180 L215 220 M245 190 L245 210\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"205.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">+</text><text x=\"256.0\" y=\"178.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#243447\">−</text><text x=\"230.0\" y=\"244.0\" font-family=\"Arial,sans-serif\" font-size=\"17\" text-anchor=\"middle\" fill=\"#243447\">9,0 V</text><path d=\"M180.0 60 L210.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M270.0 60 L300.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M120.0 60 L134.0 60 M166.0 60 L180.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"150.0\" cy=\"60\" r=\"16\" fill=\"#fff8e1\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M139.0 49 L161.0 71 M139.0 71 L161.0 49\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"150.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">1</text><path d=\"M210.0 60 L224.0 60 M256.0 60 L270.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"240.0\" cy=\"60\" r=\"16\" fill=\"#fff8e1\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M229.0 49 L251.0 71 M229.0 71 L251.0 49\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"240.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">2</text><path d=\"M300.0 60 L314.0 60 M346.0 60 L360.0 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><circle cx=\"330.0\" cy=\"60\" r=\"16\" fill=\"#fff8e1\" stroke=\"#243447\" stroke-width=\"2\"/><path d=\"M319.0 49 L341.0 71 M319.0 71 L341.0 49\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"330.0\" y=\"98.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">3</text></svg></span><p>Vilket fel är troligast? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Om lampa 2 hade gått sönder så att kretsen bröts skulle ingen lampa lysa, eftersom strömmen bara har en väg.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När lampa 2 kortsluts får strömmen en väg förbi den. Då är resistansen mindre, strömmen större, och batteriets spänning delas på två lampor i stället för tre, så 1 och 3 lyser starkare.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Lampa 2 har kortslutits.</p></div>",
+  "familj": "Ersättningsresistans och ström i serie",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "familjNyckel": "kopplingar__seriekoppling",
+  "självrättning": true,
+  "ledtrad": "<p>Vad skulle hända med de andra lamporna om strömmen bröts helt vid lampa 2?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Glödtråden i lampa 2 har gått av",
+      "ratt": false,
+      "kommentar": "Då bryts strömmen och ingen lampa lyser."
+    },
+    {
+      "txt": "Lampa 2 har kortslutits, så att strömmen går förbi den",
+      "ratt": true,
+      "kommentar": "Rätt."
+    },
+    {
+      "txt": "Batteriet har blivit svagare",
+      "ratt": false,
+      "kommentar": "Då skulle alla lampor lysa svagare."
+    },
+    {
+      "txt": "Lampa 1 och 3 har kortslutits",
+      "ratt": false,
+      "kommentar": "Då skulle de slockna och lampa 2 lysa starkare."
+    }
+  ]
 }
 ];

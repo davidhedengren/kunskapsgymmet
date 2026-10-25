@@ -34421,36 +34421,36 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "2.193",
-    "kap": 2,
-    "omr": "derivata_sammansatta",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "C",
-    "poang": "0/2/0",
-    "miniräknare": true,
-    "geogebra": false,
-    "t": "<p>Funktionen \\(h(x)=\\sqrt{1+(f(x))^2}\\). Det är känt att \\(f(2)=3\\) och \\(f'(2)=-1\\).</p><p>Bestäm \\(h'(2)\\) exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kedjeregeln ger</p></li><li><p>\\[h'(x)=\\frac{f(x)f'(x)}{\\sqrt{1+(f(x))^2}}.\\]</p></li><li><div class=\"facit-berakning\"><p>Vid</p><div class=\"facit-matte\">\\[x=2\\]:</div></div></li><li><p>\\[h'(2)=\\frac{3(-1)}{\\sqrt{10}}=\\boxed{-\\frac3{\\sqrt{10}}}.\\]</p></li></ol></div>",
-    "familj": "Derivering med kedjeregeln",
-    "formaga": [
-      "begrepp",
-      "procedur"
-    ],
-    "svarstyp": "uttryck",
-    "rättSvar": "-3/sqrt(10)",
-    "tolerans": null,
-    "självrättning": true,
-    "svarFormat": "uttryck",
-    "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Här är den inre funktionen \\(1+(f(x))^2\\). Glöm inte derivatan av \\(f(x)\\).</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "omrTidigare": [
-      "kedjeregel_sammansatta"
-    ]
-  },
+  "id": "2.193",
+  "kap": 2,
+  "omr": "derivata_sammansatta",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/2/0",
+  "miniräknare": true,
+  "geogebra": false,
+  "t": "<p>Funktionen \\(h(x)=\\sqrt{1+(f(x))^2}\\). Det är känt att \\(f(2)=3\\) och \\(f'(2)=-1\\).</p><p>Bestäm \\(h'(2)\\) exakt.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kedjeregeln ger</p></li><li><p>\\[h'(x)=\\frac{f(x)f'(x)}{\\sqrt{1+(f(x))^2}}.\\]</p></li><li><div class=\"facit-berakning\"><p>Vid</p><div class=\"facit-matte\">\\[x=2\\]:</div></div></li><li><p>\\[h'(2)=\\frac{3(-1)}{\\sqrt{10}}=\\boxed{-\\frac3{\\sqrt{10}}}.\\]</p></li></ol></div>",
+  "familj": "Derivering med kedjeregeln",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "-3/sqrt(10)",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "uttryck",
+  "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
+  "ledtrad": "<p>Här är den inre funktionen \\(1+(f(x))^2\\). Glöm inte derivatan av \\(f(x)\\).</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 2,
+  "omrTidigare": [
+    "kedjeregel_sammansatta"
+  ]
+},
   {
     "id": "2.194",
     "kap": 3,
@@ -35259,35 +35259,36 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "2.225",
-    "kap": 2,
-    "omr": "derivata_sammansatta",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "miniräknare": true,
-    "geogebra": false,
-    "t": "<p>Funktionen \\(h(x)=f(g(x))\\). Man vet att \\(g(2)=3\\), \\(g'(2)=-4\\) och \\(f'(3)=5\\). Bestäm \\(h'(2)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kedjeregeln för \\(h(x)=f(g(x))\\) är</p></li><li><p>\\[h'(x)=f'(g(x))g'(x).\\]</p></li><li><div class=\"facit-berakning\"><p>Eftersom</p><div class=\"facit-matte\">\\[g(2)=3\\],</div></div></li><li><p>\\(f'(3)=5\\) och \\(g'(2)=-4\\):</p></li><li><p>\\[h'(2)=5(-4)=\\boxed{-20}.\\]</p></li></ol></div>",
-    "familj": "Beräkna sammansatta funktioner",
-    "formaga": [
-      "procedur"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": -20,
-    "tolerans": null,
-    "självrättning": true,
-    "svarFormat": "numeriskt",
-    "familjNyckel": "derivata_sammansatta__berakna_sammansatta_funktioner",
-    "ledtrad": "<p>Använd \\(g(2)\\) för att veta var \\(f'\\) ska avläsas.</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "omrTidigare": [
-      "kedjeregel_sammansatta"
-    ]
-  },
+  "id": "2.225",
+  "kap": 2,
+  "omr": "derivata_sammansatta",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "miniräknare": true,
+  "geogebra": false,
+  "t": "<p>Funktionen \\(h(x)=f(g(x))\\). Man vet att \\(g(2)=3\\), \\(g'(2)=-4\\) och \\(f'(3)=5\\). Bestäm \\(h'(2)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kedjeregeln för \\(h(x)=f(g(x))\\) är</p></li><li><p>\\[h'(x)=f'(g(x))g'(x).\\]</p></li><li><div class=\"facit-berakning\"><p>Eftersom</p><div class=\"facit-matte\">\\[g(2)=3\\],</div></div></li><li><p>\\(f'(3)=5\\) och \\(g'(2)=-4\\):</p></li><li><p>\\[h'(2)=5(-4)=\\boxed{-20}.\\]</p></li></ol></div>",
+  "familj": "Beräkna sammansatta funktioner",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": -20,
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "familjNyckel": "derivata_sammansatta__berakna_sammansatta_funktioner",
+  "ledtrad": "<p>Använd \\(g(2)\\) för att veta var \\(f'\\) ska avläsas.</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 1,
+  "omrTidigare": [
+    "kedjeregel_sammansatta"
+  ]
+},
   {
     "id": "2.453",
     "kap": 2,
@@ -35687,35 +35688,36 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "2.263",
-    "kap": 2,
-    "omr": "derivata_sammansatta",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "C",
-    "poang": "0/1/0",
-    "miniräknare": true,
-    "geogebra": false,
-    "t": "<p>Funktionen \\(h(x)=f(2x-1)\\). Det är känt att \\(f'(5)=4\\).</p><p>Bestäm \\(h'(3)\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Kedjeregeln ger</p><div class=\"facit-matte\">\\[h'(x)=2f'(2x-1)\\].</div></div></li><li><p>Vid \\(x=3\\) är \\(2x-1=5\\), därför</p></li><li><p>\\[h'(3)=2f'(5)=2\\cdot4=\\boxed{8}.\\]</p></li></ol></div>",
-    "familj": "Derivering med kedjeregeln",
-    "formaga": [
-      "procedur"
-    ],
-    "svarstyp": "numeriskt",
-    "rättSvar": 8,
-    "tolerans": null,
-    "självrättning": true,
-    "svarFormat": "numeriskt",
-    "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
-    "ledtrad": "<p>Glöm inte derivatan av den inre funktionen \\(2x-1\\).</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 1,
-    "omrTidigare": [
-      "kedjeregel_sammansatta"
-    ]
-  },
+  "id": "2.263",
+  "kap": 2,
+  "omr": "derivata_sammansatta",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "miniräknare": true,
+  "geogebra": false,
+  "t": "<p>Funktionen \\(h(x)=f(2x-1)\\). Det är känt att \\(f'(5)=4\\).</p><p>Bestäm \\(h'(3)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>När x = 3 är den inre funktionens värde 2·3−1 = 5. Därför är det just det givna värdet f′(5) som behövs.</p><p>Kedjeregeln multiplicerar den yttre derivatan med den inre derivatan, som är 2.</p><div class=\"facit-matte\">\\[h'(x)=f'(2x-1)\\cdot2\\]</div><div class=\"facit-matte\">\\[h'(3)=f'(5)\\cdot2=4\\cdot2=8\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(8\\).</p></div>",
+  "familj": "Derivering med kedjeregeln",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "svarstyp": "numeriskt",
+  "rättSvar": 8,
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "numeriskt",
+  "familjNyckel": "derivata_sammansatta__derivering_med_kedjeregeln",
+  "ledtrad": "<p>Glöm inte derivatan av den inre funktionen \\(2x-1\\).</p>",
+  "traningsniva": 4,
+  "arbetsinsats": 1,
+  "omrTidigare": [
+    "kedjeregel_sammansatta"
+  ]
+},
   {
     "id": "2.507",
     "kap": 2,
@@ -54499,88 +54501,88 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "3.22",
-    "kap": 4,
-    "omr": "integraler_areor",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "E",
-    "poang": "3/0/0",
-    "miniräknare": true,
-    "geogebra": true,
-    "t": "<p>Beräkna den geometriska arean mellan grafen och x-axeln.</p><p>a) \\(y=x-1\\)<br>för \\(0\\le x\\le3\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=2x-4\\)<br>för \\(0\\le x\\le4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=\\sin x\\)<br>för \\(0\\le x\\le\\pi\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela vid \\(x=1\\): \\(\\int_0^1(1-x)dx+\\int_1^3(x-1)dx=\\frac12+2=\\)<strong>\\(\\frac52\\)</strong> a.e.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela vid \\(x=2\\): två trianglar med area 4 vardera, totalt <strong>8</strong> a.e.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x\\ge0\\) på intervallet, så arean är <strong>2</strong> a.e.</p></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
-    "familj": "Area mot x-axeln med integral",
-    "formaga": [
-      "procedur"
-    ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      "5/2",
-      8,
-      2
-    ],
-    "tolerans": [
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "uttryck",
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>\\(y=x-1\\)<br>för \\(0\\le x\\le3\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela vid \\(x=1\\): \\(\\int_0^1(1-x)dx+\\int_1^3(x-1)dx=\\frac12+2=\\)<strong>\\(\\frac52\\)</strong> a.e.</p></li></ol></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>\\(y=2x-4\\)<br>för \\(0\\le x\\le4\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Dela vid \\(x=2\\): två trianglar med area 4 vardera, totalt <strong>8</strong> a.e.</p></li></ol></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>\\(y=\\sin x\\)<br>för \\(0\\le x\\le\\pi\\).</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"spel-en-del\"><ol class=\"facit-steglista\" role=\"list\"><li><p>\\(\\sin x\\ge0\\) på intervallet, så arean är <strong>2</strong> a.e.</p></li></ol></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      }
-    ],
-    "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
-    "ledtrad": "<p>Bestäm först vilken graf som ligger överst. Om graferna byter ordning måste integralen delas vid skärningspunkten.</p>",
-    "spelIntro": "<p>Beräkna den geometriska arean mellan grafen och x-axeln.</p>",
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "omrTidigare": [
-      "area_integraler"
-    ]
-  },
+  "id": "3.22",
+  "kap": 4,
+  "omr": "integraler_areor",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "E",
+  "poang": "3/0/0",
+  "miniräknare": true,
+  "geogebra": true,
+  "t": "<p>Beräkna den geometriska arean mellan grafen och x-axeln.</p><p>a) \\(y=x-1\\)<br>för \\(0\\le x\\le3\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) \\(y=2x-4\\)<br>för \\(0\\le x\\le4\\).<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) \\(y=\\sin x\\)<br>för \\(0\\le x\\le\\pi\\).</p>",
+  "s": "<p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Grafen skär x-axeln vid x = 1. Areorna under och över axeln räknas båda positiva.</p><div class=\"facit-matte\">\\[A=\\int_0^1(1-x)\\,dx+\\int_1^3(x-1)\\,dx\\]</div><p>De två områdena är trianglar med bas och höjd 1 respektive 2.</p><div class=\"facit-matte\">\\[A=\\frac{1\\cdot1}{2}+\\frac{2\\cdot2}{2}=\\frac52\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac52\\) a.e.</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Grafen skär x-axeln vid x = 2. De två trianglarna har båda basen 2 och höjden 4.</p><div class=\"facit-matte\">\\[A=\\frac{2\\cdot4}{2}+\\frac{2\\cdot4}{2}=8\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 8 a.e.</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>På intervallet ligger grafen på eller över x-axeln. Arean är därför integralen av sin x.</p><div class=\"facit-matte\">\\[A=\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi\\]</div><div class=\"facit-matte\">\\[A=-(-1)-(-1)=2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2 a.e.</p></div>",
+  "familj": "Area mot x-axeln med integral",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "5/2",
+    8,
+    2
+  ],
+  "tolerans": [
+    null,
+    null,
+    null
+  ],
+  "självrättning": [
+    true,
+    true,
+    true
+  ],
+  "svarFormat": [
+    "uttryck",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "<p>\\(y=x-1\\)<br>för \\(0\\le x\\le3\\).</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Grafen skär x-axeln vid x = 1. Areorna under och över axeln räknas båda positiva.</p><div class=\"facit-matte\">\\[A=\\int_0^1(1-x)\\,dx+\\int_1^3(x-1)\\,dx\\]</div><p>De två områdena är trianglar med bas och höjd 1 respektive 2.</p><div class=\"facit-matte\">\\[A=\\frac{1\\cdot1}{2}+\\frac{2\\cdot2}{2}=\\frac52\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\frac52\\) a.e.</p></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "fraga": "<p>\\(y=2x-4\\)<br>för \\(0\\le x\\le4\\).</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Grafen skär x-axeln vid x = 2. De två trianglarna har båda basen 2 och höjden 4.</p><div class=\"facit-matte\">\\[A=\\frac{2\\cdot4}{2}+\\frac{2\\cdot4}{2}=8\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 8 a.e.</p></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "c",
+      "fraga": "<p>\\(y=\\sin x\\)<br>för \\(0\\le x\\le\\pi\\).</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>På intervallet ligger grafen på eller över x-axeln. Arean är därför integralen av sin x.</p><div class=\"facit-matte\">\\[A=\\int_0^\\pi\\sin x\\,dx=[-\\cos x]_0^\\pi\\]</div><div class=\"facit-matte\">\\[A=-(-1)-(-1)=2\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 2 a.e.</p></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    }
+  ],
+  "familjNyckel": "integraler_areor__area_mot_x_axeln_med_integral",
+  "ledtrad": "<p>Undersök om grafen byter sida om x-axeln. Delarnas geometriska areor ska adderas, inte ta ut varandra.</p>",
+  "spelIntro": "<p>Beräkna den geometriska arean mellan grafen och x-axeln.</p>",
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "omrTidigare": [
+    "area_integraler"
+  ]
+},
   {
     "id": "3.239",
     "kap": 4,
@@ -57853,90 +57855,90 @@ window.BANKMATO2 = [
     ]
   },
   {
-    "id": "3.51",
-    "kap": 4,
-    "omr": "integraler_storheter",
-    "kurs": [
-      "2c"
-    ],
-    "niva": "C",
-    "poang": "2/1/0",
-    "miniräknare": true,
-    "geogebra": true,
-    "t": "<p>En reservoar innehåller från början 120 m³ vatten. Skillnaden mellan inflödet och utflödet är</p><p>\\[q(t)=3t-6\\quad\\text{m}^3/\\text{h},\\qquad0\\le t\\le8.\\]</p><p>a) När är vattenmängden som minst?<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Hur mycket vatten finns då?<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Hur mycket vatten finns efter 8 timmar?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Rita figuren och märk ut givna längder och vinklar.</p></li><li><p class=\"facit-metod\">Dela vid behov upp den i standardfigurer innan du använder en formel.</p></li></ol><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Vattenmängden är</p><div class=\"facit-matte\">\\[V(t)=120+\\int_0^t(3u-6)du=120+1{,}5t^2-6t\\].</div></div></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Minimum när \\(V'(t)=q(t)=0\\Rightarrow t=2\\) h.</p></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V(2)=120+6-12=\\boxed{114\\text{ m}^3}\\].</div></li></ol></div></div><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V(8)=120+96-48=\\boxed{168\\text{ m}^3}\\].</div></li></ol></div></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera enheten: längd, area och volym ska få första, andra respektive tredje potens på längdenheten.</p></li></ol></div>",
-    "familj": "Volym som integral av flöde",
-    "formaga": [
-      "procedur",
-      "modellering",
-      "problemlösning"
-    ],
-    "svarstyp": "flera_delar",
-    "rättSvar": [
-      2,
-      114,
-      168
-    ],
-    "tolerans": [
-      null,
-      null,
-      null
-    ],
-    "självrättning": [
-      true,
-      true,
-      true
-    ],
-    "svarFormat": [
-      "numeriskt",
-      "numeriskt",
-      "numeriskt"
-    ],
-    "svarsstruktur": "ordnad",
-    "svarEtiketter": [
-      "a",
-      "b",
-      "c"
-    ],
-    "spelDelning": "deluppgifter",
-    "spelDelar": [
-      {
-        "etikett": "a",
-        "fraga": "<p>När är vattenmängden som minst?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Vattenmängden är</p><div class=\"facit-matte\">\\[V(t)=120+\\int_0^t(3u-6)du=120+1{,}5t^2-6t\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Minimum när \\(V'(t)=q(t)=0\\Rightarrow t=2\\) h.</p></li></ol></div></div></div></div>",
-        "niva": "C",
-        "poang": "0/1/0",
-        "traningsniva": 3,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "b",
-        "fraga": "<p>Vattenmängden är som minst vid \\(t=2\\) h. Hur mycket vatten finns i reservoaren då?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Vattenmängden är</p><div class=\"facit-matte\">\\[V(t)=120+\\int_0^t(3u-6)du=120+1{,}5t^2-6t\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V(2)=120+6-12=\\boxed{114\\text{ m}^3}\\].</div></li></ol></div></div></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      },
-      {
-        "etikett": "c",
-        "fraga": "<p>Hur mycket vatten finns efter 8 timmar?</p>",
-        "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p>Vattenmängden är</p><div class=\"facit-matte\">\\[V(t)=120+\\int_0^t(3u-6)du=120+1{,}5t^2-6t\\].</div></div></li></ol><div class=\"spel-en-del\"><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[V(8)=120+96-48=\\boxed{168\\text{ m}^3}\\].</div></li></ol></div></div></div></div>",
-        "niva": "E",
-        "poang": "1/0/0",
-        "traningsniva": 2,
-        "arbetsinsats": 1
-      }
-    ],
-    "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
-    "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
-    "spelIntro": "<p>En reservoar innehåller från början 120 m³ vatten. Skillnaden mellan inflödet och utflödet är</p><p>\\[q(t)=3t-6\\quad\\text{m}^3/\\text{h},\\qquad0\\le t\\le8.\\]</p>",
-    "traningsniva": 3,
-    "arbetsinsats": 2,
-    "omrTidigare": [
-      "integral_tillampningar"
-    ]
-  },
+  "id": "3.51",
+  "kap": 4,
+  "omr": "integraler_storheter",
+  "kurs": [
+    "2c"
+  ],
+  "niva": "C",
+  "poang": "2/1/0",
+  "miniräknare": true,
+  "geogebra": true,
+  "t": "<p>En reservoar innehåller från början 120 m³ vatten. Skillnaden mellan inflödet och utflödet är</p><p>\\[q(t)=3t-6\\quad\\text{m}^3/\\text{h},\\qquad0\\le t\\le8.\\]</p><p>a) När är vattenmängden som minst?<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>b) Hur mycket vatten finns då?<br><span aria-hidden=\"true\" style=\"display:block;height:7px\"></span>c) Hur mycket vatten finns efter 8 timmar?</p>",
+  "s": "<p><strong>a)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Vattenmängden minskar när utflödet är större än inflödet, alltså när q(t) är negativt. Den börjar öka när q(t) blir positivt.</p><div class=\"facit-matte\">\\[3t-6=0\\quad\\Rightarrow\\quad t=2\\]</div><p>q(t) är negativt före 2 h och positivt efter 2 h. Därför är vattenmängden som minst vid denna tidpunkt.</p><p class=\"facit-svar\"><strong>Svar:</strong> Efter 2 h.</p></div><p><strong>b)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Integralen av q(t) ger ändringen av vattenmängden. Lägg till de 120 m³ som fanns från början.</p><div class=\"facit-matte\">\\[V(2)=120+\\int_0^2(3t-6)\\,dt\\]</div><div class=\"facit-matte\">\\[=120+[1{,}5t^2-6t]_0^2\\]</div><div class=\"facit-matte\">\\[=120+6-12=114\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 114 m³.</p></div><p><strong>c)</strong></p><div class=\"facit-v2 facit-stegvis\"><p>Integralen ger nettoändringen under de åtta timmarna. Lägg den till startvolymen.</p><div class=\"facit-matte\">\\[V(8)=120+\\int_0^8(3t-6)\\,dt\\]</div><div class=\"facit-matte\">\\[=120+[1{,}5t^2-6t]_0^8\\]</div><div class=\"facit-matte\">\\[=120+96-48=168\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 168 m³.</p></div>",
+  "familj": "Volym som integral av flöde",
+  "formaga": [
+    "procedur",
+    "modellering",
+    "problemlösning"
+  ],
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    2,
+    114,
+    168
+  ],
+  "tolerans": [
+    null,
+    null,
+    null
+  ],
+  "självrättning": [
+    true,
+    true,
+    true
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b",
+    "c"
+  ],
+  "spelDelning": "deluppgifter",
+  "spelDelar": [
+    {
+      "etikett": "a",
+      "fraga": "<p>När är vattenmängden som minst?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Vattenmängden minskar när utflödet är större än inflödet, alltså när q(t) är negativt. Den börjar öka när q(t) blir positivt.</p><div class=\"facit-matte\">\\[3t-6=0\\quad\\Rightarrow\\quad t=2\\]</div><p>q(t) är negativt före 2 h och positivt efter 2 h. Därför är vattenmängden som minst vid denna tidpunkt.</p><p class=\"facit-svar\"><strong>Svar:</strong> Efter 2 h.</p></div>",
+      "niva": "C",
+      "poang": "0/1/0",
+      "traningsniva": 3,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "b",
+      "fraga": "<p>Vattenmängden är som minst vid \\(t=2\\) h. Hur mycket vatten finns i reservoaren då?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Integralen av q(t) ger ändringen av vattenmängden. Lägg till de 120 m³ som fanns från början.</p><div class=\"facit-matte\">\\[V(2)=120+\\int_0^2(3t-6)\\,dt\\]</div><div class=\"facit-matte\">\\[=120+[1{,}5t^2-6t]_0^2\\]</div><div class=\"facit-matte\">\\[=120+6-12=114\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 114 m³.</p></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    },
+    {
+      "etikett": "c",
+      "fraga": "<p>Hur mycket vatten finns efter 8 timmar?</p>",
+      "s": "<div class=\"facit-v2 facit-stegvis\"><p>Integralen ger nettoändringen under de åtta timmarna. Lägg den till startvolymen.</p><div class=\"facit-matte\">\\[V(8)=120+\\int_0^8(3t-6)\\,dt\\]</div><div class=\"facit-matte\">\\[=120+[1{,}5t^2-6t]_0^8\\]</div><div class=\"facit-matte\">\\[=120+96-48=168\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> 168 m³.</p></div>",
+      "niva": "E",
+      "poang": "1/0/0",
+      "traningsniva": 2,
+      "arbetsinsats": 1
+    }
+  ],
+  "familjNyckel": "integraler_storheter__volym_som_integral_av_flode",
+  "ledtrad": "<p>Identifiera först vad integranden och differentialen betyder i situationen. Kontrollera sedan enheten på den färdiga integralen.</p>",
+  "spelIntro": "<p>En reservoar innehåller från början 120 m³ vatten. Skillnaden mellan inflödet och utflödet är</p><p>\\[q(t)=3t-6\\quad\\text{m}^3/\\text{h},\\qquad0\\le t\\le8.\\]</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "omrTidigare": [
+    "integral_tillampningar"
+  ]
+},
   {
     "id": "3.423",
     "kap": 4,

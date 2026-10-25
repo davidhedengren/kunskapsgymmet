@@ -4069,7 +4069,7 @@ async function synkaProfil(){
   }
 }
 
-const BANK_VERSION="2026-10-25-ma1-oberoende";
+const BANK_VERSION="2026-10-25-fellogg-1332";
 
 const PASS_KEY="kunskapsgymmet-pagaende-pass";
 const PASS_LIVSTID=12*3600*1000;
@@ -9686,10 +9686,9 @@ function kedjaStarta(t){
   const delning=kedjaDelning(syskon);
   const delar=syskon.map((q,i)=>({task:q,etikett:q.deluppgift||String.fromCharCode(97+i),
     hel:delning.delar[i],kort:delning.kort[i],extra:levelNumber(q)>valdNiva}));
-  /* Börja vid första delen på elevens nivå som inte nyss gjorts; annars vid det valda kortet. */
-  const nyss=new Set(state.lastIds||[]);
-  let start=delar.findIndex(d=>!d.extra && !nyss.has(d.task.id));
-  if(start<0) start=delar.findIndex(d=>d.task.id===t.id);
+  /* Visa hela sammanhanget från a). Svårare delar kan hoppas över även först
+     i kedjan; de får inte försvinna utan förklaring (3.51 på nivå 2). */
+  const start=0;
   state.kedja={ursprungsId:t.ursprungsId,intro:delning.intro,delar,index:start,gjorda:[]};
   return delar[start].task;
 }
@@ -9706,13 +9705,27 @@ function kedjaTbody(t){
     <div class="kedja-del kedja-klar">
       <div class="kedja-rubrik">${esc(g.etikett)})</div>
       <div class="kedja-fraga">${g.fraga}</div>
-      <div class="kedja-svar ${g.ok?"ok":"fel"}"><span aria-hidden="true">${g.ok?"✓":"✗"}</span> Ditt svar: ${g.svar||"–"}</div>
+      ${g.overhoppad?'<div class="hint">Överhoppad – frivillig del.</div>':`<div class="kedja-svar ${g.ok?"ok":"fel"}"><span aria-hidden="true">${g.ok?"✓":"✗"}</span> Ditt svar: ${g.svar||"–"}</div>`}
     </div>`).join("");
-  return `${k.intro}${tidigare}
+  return `<p class="hint kedja-sammanhang">Uppgift ${esc(String(k.ursprungsId))} · Del ${k.index+1} av ${k.delar.length}</p>${k.intro}${tidigare}
     <div class="kedja-del kedja-nu">
       <div class="kedja-rubrik">${esc(d.etikett)})${d.extra?` <span class="obs-svarare">OBS! Svårare nivå</span>`:""}</div>
       <div class="kedja-fraga">${fraga}</div>
+      ${d.extra&&!state.answered&&!state.passReview?'<div class="kedja-extra"><span>Den här delen är frivillig.</span><button type="button" class="btn" onclick="kedjaHoppaAktuell()">Hoppa över den här delen</button></div>':''}
     </div>`;
+}
+/* Överhoppning räknas inte som ett svar och ger varken XP eller en felmarkering.
+   Följande delar på den valda nivån ska fortfarande finnas kvar. */
+function kedjaHoppaDel(){
+  const k=state.kedja,d=k?.delar[k.index];
+  if(!d?.extra) return;
+  k.gjorda.push({etikett:d.etikett,fraga:k.gjorda.length?d.kort:d.hel,overhoppad:true});
+  if(k.index+1<k.delar.length) return kedjaFortsatt();
+  state.kedja=null; nextTask();
+}
+function kedjaHoppaAktuell(){
+  if(state.answered || state.passReview || !kedjaAktuell(state.currentTask)) return;
+  kedjaHoppaDel();
 }
 /* Elevens svar sparas för sammanfattningen innan nästa del ritas. */
 function kedjaSpara(t,ok){
@@ -14394,7 +14407,12 @@ function finishAttempt(resultat){
     state.kedja=null;
     return blad ? (bladSist?adminBladAvsluta():adminBladGa(1)) : last?renderSessionDone():nextTask();
   };
-  const hoppaOver=()=>{ state.kedja=null; nextTask(); };
+  const hoppaOver=()=>{
+    if(!delNasta?.extra) return;
+    kedjaSpara(t,correct);
+    state.kedja.index++;
+    kedjaHoppaDel();
+  };
   const bonus = seriebonus(profile.run);
   const runTxt = correct && profile.run>=3
     ? `<span class="tag" style="margin-left:6px">${profile.run} i rad${bonus?` · +${bonus}\u00a0%`:""}</span>`
@@ -17676,7 +17694,6 @@ function raknInfoga(){
 }
 function raknFormat(x){
   if(typeof x!=="number" || !isFinite(x)) throw "Matematiskt fel";
-  if(Math.abs(x)<1e-13) x=0;
   const a=Math.abs(x);
   let s;
   if(a!==0 && (a>=1e10 || a<1e-6)){
@@ -17709,8 +17726,12 @@ function raknTolka(txt,options={}){
   const heltal=x=>{ if(!Number.isInteger(Math.round(x*1e9)/1e9) || x<0) throw "Matematiskt fel"; return Math.round(x); };
   const fak=n=>{ n=heltal(n); if(n>170) throw "För stort tal"; let r=1; for(let k=2;k<=n;k++) r*=k; return r; };
   const FUNK={
-    sin:x=>Math.sin(grad(x)), cos:x=>Math.cos(grad(x)), tan:x=>{
-      if(grader && Math.abs(((x%180)+180)%180-90)<1e-9) throw "Matematiskt fel"; return Math.tan(grad(x)); },
+    // Endast exakta hela/halva varv får ett exakt nollvärde. Små verkliga
+    // resultat, exempelvis sin(10^-14) och Ma1 0.1073, får aldrig klippas bort.
+    sin:x=>(grader?x%180===0:x%Math.PI===0)?0:Math.sin(grad(x)),
+    cos:x=>(grader?Math.abs(x%180)===90:Math.abs(x%Math.PI)===Math.PI/2)?0:Math.cos(grad(x)), tan:x=>{
+      if(grader && Math.abs(((x%180)+180)%180-90)<1e-9) throw "Matematiskt fel";
+      return (grader?x%180===0:x%Math.PI===0)?0:Math.tan(grad(x)); },
     "sin⁻¹":x=>{ if(Math.abs(x)>1) throw "Matematiskt fel"; return fraGrad(Math.asin(x)); },
     "cos⁻¹":x=>{ if(Math.abs(x)>1) throw "Matematiskt fel"; return fraGrad(Math.acos(x)); },
     "tan⁻¹":x=>fraGrad(Math.atan(x)),

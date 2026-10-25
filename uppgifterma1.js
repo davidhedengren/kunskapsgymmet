@@ -18036,35 +18036,54 @@ window.BANKMA1 = [
     "alternativ": [{"txt": "\\(m-n\\) om a/b ≥ 1; \\(m-n-1\\) om a/b &lt; 1.", "ratt": true}, {"txt": "\\(m-n\\) om a/b ≥ 1; \\(m-n+1\\) om a/b &lt; 1.", "ratt": false}, {"txt": "\\(m/n\\) i båda fallen.", "ratt": false}, {"txt": "\\(m-n\\) i båda fallen.", "ratt": false}]
   },
   {
-    "id": "0.644",
-    "kap": 0,
-    "omr": "tiopotenser_prefix",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>Vilket av talen är <strong>inte</strong> skrivet i grundpotensform?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: \\(10\\cdot10^{3}\\). Talfaktorn måste uppfylla \\(1\\le a&lt;10\\). I \\(10\\cdot10^{3}\\) är talfaktorn 10, vilket är för stort. Talet skrivs i stället \\(1\\cdot10^4\\).</p></div>",
-    "ledtrad": "<p>Vilket villkor gäller för talfaktorn?</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Normalisera och jämföra i grundpotensform",
-    "formaga": ["begrepp"],
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "traningsniva": 1,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Villkor vid normalisering"
-    ],
-    "alternativ": [{"txt": "\\(1\\cdot10^{-4}\\)", "ratt": false}, {"txt": "\\(9{,}99\\cdot10^{12}\\)", "ratt": false}, {"txt": "\\(10\\cdot10^{3}\\)", "ratt": true}, {"txt": "\\(3{,}05\\cdot10^{0}\\)", "ratt": false}]
-  },
+  "id": "0.644",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Vilket av talen är <strong>inte</strong> skrivet i grundpotensform? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: \\(10\\cdot10^{3}\\). Talfaktorn måste uppfylla \\(1\\le a&lt;10\\). I \\(10\\cdot10^{3}\\) är talfaktorn 10, vilket är för stort. Talet skrivs i stället \\(1\\cdot10^4\\).</p></div>",
+  "ledtrad": "<p>Vilket villkor gäller för talfaktorn?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Normalisera och jämföra i grundpotensform",
+  "formaga": [
+    "begrepp"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "traningsniva": 1,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Villkor vid normalisering"
+  ],
+  "alternativ": [
+    {
+      "txt": "\\(1\\cdot10^{-4}\\)",
+      "ratt": false
+    },
+    {
+      "txt": "\\(9{,}99\\cdot10^{12}\\)",
+      "ratt": false
+    },
+    {
+      "txt": "\\(10\\cdot10^{3}\\)",
+      "ratt": true
+    },
+    {
+      "txt": "\\(3{,}05\\cdot10^{0}\\)",
+      "ratt": false
+    }
+  ]
+},
   {
     "id": "0.645",
     "kap": 0,
@@ -18159,71 +18178,105 @@ window.BANKMA1 = [
     "alternativ": [{"txt": "\\(1\\cdot10^{6}\\)", "ratt": false}, {"txt": "\\(1\\cdot10^{7}\\)", "ratt": true}, {"txt": "\\(10\\cdot10^{7}\\)", "ratt": false}, {"txt": "\\(1{,}0\\cdot10^{60}\\)", "ratt": false}]
   },
   {
-    "id": "0.648",
-    "kap": 0,
-    "omr": "tiopotenser_prefix",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>Vilket påstående om talet 0 är korrekt?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: 0 kan inte skrivas i grundpotensform. Grundpotensform kräver en talfaktor med \\(1\\le a&lt;10\\). En sådan talfaktor är aldrig 0, och \\(a\\cdot10^n\\) blir därför aldrig 0.</p></div>",
-    "ledtrad": "<p>Kan produkten \\(a\\cdot10^n\\) bli noll om a är minst 1?</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Normalisera och jämföra i grundpotensform",
-    "formaga": [
-      "begrepp",
-      "resonemang"
-    ],
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Villkor vid normalisering"
-    ],
-    "alternativ": [{"txt": "0 skrivs som \\(0\\cdot10^0\\) i grundpotensform.", "ratt": false}, {"txt": "0 skrivs som \\(1\\cdot10^{-\\infty}\\) i grundpotensform.", "ratt": false}, {"txt": "0 kan inte skrivas i grundpotensform.", "ratt": true}, {"txt": "0 skrivs som \\(10^0\\) i grundpotensform.", "ratt": false}]
-  },
+  "id": "0.648",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Vilket påstående om talet 0 är korrekt? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: 0 kan inte skrivas i grundpotensform. Grundpotensform kräver en talfaktor med \\(1\\le a&lt;10\\). En sådan talfaktor är aldrig 0, och \\(a\\cdot10^n\\) blir därför aldrig 0.</p></div>",
+  "ledtrad": "<p>Kan produkten \\(a\\cdot10^n\\) bli noll om a är minst 1?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Normalisera och jämföra i grundpotensform",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Villkor vid normalisering"
+  ],
+  "alternativ": [
+    {
+      "txt": "0 skrivs som \\(0\\cdot10^0\\) i grundpotensform.",
+      "ratt": false
+    },
+    {
+      "txt": "0 skrivs som \\(1\\cdot10^{-\\infty}\\) i grundpotensform.",
+      "ratt": false
+    },
+    {
+      "txt": "0 kan inte skrivas i grundpotensform.",
+      "ratt": true
+    },
+    {
+      "txt": "0 skrivs som \\(10^0\\) i grundpotensform.",
+      "ratt": false
+    }
+  ]
+},
   {
-    "id": "0.649",
-    "kap": 0,
-    "omr": "tiopotenser_prefix",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": false,
-    "t": "<p>Talet \\(-3{,}4\\cdot10^{5}\\) ska skrivas i grundpotensform. Vilket påstående stämmer?</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><p class=\"facit-svar\">Svar: Det är redan i grundpotensform, villkoret gäller talfaktorns belopp. För negativa tal gäller villkoret talfaktorns belopp: \\(1\\le|a|&lt;10\\). Här är \\(|-3{,}4|=3{,}4\\), så talet är redan korrekt skrivet.</p></div>",
-    "ledtrad": "<p>Handlar villkoret om talfaktorns tecken eller om dess storlek?</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Normalisera och jämföra i grundpotensform",
-    "formaga": [
-      "begrepp",
-      "resonemang"
-    ],
-    "svarstyp": "alternativ",
-    "rättSvar": null,
-    "tolerans": null,
-    "självrättning": true,
-    "traningsniva": 2,
-    "arbetsinsats": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Villkor vid normalisering"
-    ],
-    "alternativ": [{"txt": "Det måste skrivas \\(6{,}6\\cdot10^{5}\\).", "ratt": false}, {"txt": "Det måste skrivas \\(3{,}4\\cdot10^{-5}\\).", "ratt": false}, {"txt": "Negativa tal kan inte skrivas i grundpotensform.", "ratt": false}, {"txt": "Det är redan i grundpotensform, villkoret gäller talfaktorns belopp.", "ratt": true}]
-  },
+  "id": "0.649",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": false,
+  "t": "<p>Vilket påstående stämmer om det negativa talet \\(-3{,}4\\cdot10^5\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Skriv först det positiva talet i grundpotensform. Talet 3,4 är minst 1 och mindre än 10, så \\(3{,}4\\cdot10^5\\) är i grundpotensform.</p><p>För att ange det negativa talet sätter vi ett minustecken framför. Exponenten ska inte ändras.</p><p class=\"facit-svar\"><strong>Svar:</strong> Det är redan skrivet i grundpotensform.</p></div>",
+  "ledtrad": "<p>Börja med att betrakta det positiva talet. Minustecknet visar sedan att talet är negativt.</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Normalisera och jämföra i grundpotensform",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "självrättning": true,
+  "traningsniva": 2,
+  "arbetsinsats": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Villkor vid normalisering"
+  ],
+  "alternativ": [
+    {
+      "txt": "Det måste skrivas \\(6{,}6\\cdot10^{5}\\).",
+      "ratt": false
+    },
+    {
+      "txt": "Det måste skrivas \\(3{,}4\\cdot10^{-5}\\).",
+      "ratt": false
+    },
+    {
+      "txt": "Negativa tal kan inte skrivas i grundpotensform.",
+      "ratt": false
+    },
+    {
+      "txt": "Det är redan skrivet i grundpotensform.",
+      "ratt": true
+    }
+  ]
+},
   {
     "id": "0.650",
     "kap": 0,
@@ -21551,34 +21604,35 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "0.1073",
-    "kap": 0,
-    "omr": "tiopotenser_prefix",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "niva": "E",
-    "poang": "2/0/0",
-    "t": "<p>Jordens massa är cirka \\(5{,}97\\cdot10^{24}\\) kg. Det finns ungefär \\(8\\cdot10^9\\) människor, och anta att en människa i genomsnitt väger 70 kg.</p><p>Hur stor andel av jordens massa utgör alla människor tillsammans? Svara i grundpotensform med två värdesiffror.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm människornas sammanlagda massa</p><div class=\"facit-matte\">\\[8\\cdot10^9\\cdot70=5{,}6\\cdot10^{11}\\,\\mathrm{kg}.\\]</div></li><li><p class=\"facit-rubrik\">Dividera delen med hela jordens massa</p><div class=\"facit-matte\">\\[\\frac{5{,}6\\cdot10^{11}}{5{,}97\\cdot10^{24}}=\\frac{5{,}6}{5{,}97}\\cdot10^{-13}\\approx9{,}3802\\cdot10^{-14}.\\]</div></li><li><p class=\"facit-rubrik\">Avrunda till två värdesiffror</p><p>De två första värdesiffrorna är 9 och 3. Nästa siffra är 8, så 3 ökas till 4:</p><div class=\"facit-matte\">\\[9{,}3802\\cdot10^{-14}\\approx9{,}4\\cdot10^{-14}.\\]</div><p>Andelen saknar enhet eftersom vi dividerar massa med massa. Den är mycket liten, vilket är rimligt jämfört med jordens massa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}4\\cdot10^{-14}\\).</p></div>",
-    "familj": "Normalisera och jämföra i grundpotensform",
-    "formaga": [
-      "procedur",
-      "problemlösning"
-    ],
-    "miniräknare": true,
-    "geogebra": false,
-    "självrättning": true,
-    "ledtrad": "<p>Beräkna först alla människors massa i grundpotensform. Dela sedan mantissorna för sig och tiopotenserna för sig.</p>",
-    "spel": true,
-    "traningsniva": 2,
-    "arbetsinsats": 2,
-    "svarstyp": "numeriskt",
-    "rättSvar": 9.4e-14,
-    "tolerans": 0
-  },
+  "id": "0.1073",
+  "kap": 0,
+  "omr": "tiopotenser_prefix",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "niva": "E",
+  "poang": "2/0/0",
+  "t": "<p>Jordens massa är cirka \\(5{,}97\\cdot10^{24}\\) kg. Det finns ungefär \\(8\\cdot10^9\\) människor, och anta att en människa i genomsnitt väger 70 kg.</p><p>Hur stor andel av jordens massa utgör alla människor tillsammans? Svara i grundpotensform med två värdesiffror.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm människornas sammanlagda massa</p><div class=\"facit-matte\">\\[8\\cdot10^9\\cdot70=5{,}6\\cdot10^{11}\\,\\mathrm{kg}.\\]</div></li><li><p class=\"facit-rubrik\">Dividera delen med hela jordens massa</p><div class=\"facit-matte\">\\[\\frac{5{,}6\\cdot10^{11}}{5{,}97\\cdot10^{24}}=\\frac{5{,}6}{5{,}97}\\cdot10^{-13}\\]</div><div class=\"facit-matte\">\\[\\approx9{,}3802\\cdot10^{-14}.\\]</div></li><li><p class=\"facit-rubrik\">Avrunda till två värdesiffror</p><p>De två första värdesiffrorna är 9 och 3. Nästa siffra är 8, så 3 ökas till 4:</p><div class=\"facit-matte\">\\[9{,}3802\\cdot10^{-14}\\approx9{,}4\\cdot10^{-14}.\\]</div><p>Andelen saknar enhet eftersom vi dividerar massa med massa. Den är mycket liten, vilket är rimligt jämfört med jordens massa.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(9{,}4\\cdot10^{-14}\\).</p></div>",
+  "familj": "Normalisera och jämföra i grundpotensform",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "självrättning": true,
+  "ledtrad": "<p>Beräkna först alla människors massa i grundpotensform. Dela sedan mantissorna för sig och tiopotenserna för sig.</p>",
+  "spel": true,
+  "traningsniva": 2,
+  "arbetsinsats": 2,
+  "svarstyp": "numeriskt",
+  "rättSvar": 9.4e-14,
+  "tolerans": 0,
+  "svarFormat": "grundpotensform"
+},
   {
     "id": "0.1078",
     "kap": 0,
@@ -38329,37 +38383,39 @@ window.BANKMA1 = [
     ]
   },
   {
-    "id": "1.963",
-    "kap": 1,
-    "omr": "multiplicera_uttryck",
-    "kurs": [
-      "1a",
-      "1b",
-      "1c"
-    ],
-    "geogebra": false,
-    "miniräknare": true,
-    "arbetsinsats": 1,
-    "t": "<p>Förenkla \\(4\\cdot x\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-matte\">\\[4\\cdot x=4x.\\]</div></li></ol></div>",
-    "ledtrad": "<p>Hur skrivs multiplikation mellan tal och bokstav utan multiplikationstecken?</p>",
-    "niva": "E",
-    "poang": "1/0/0",
-    "familj": "Multiplicera in i en parentes",
-    "formaga": [
-      "procedur"
-    ],
-    "svarstyp": "uttryck",
-    "rättSvar": "4x",
-    "tolerans": null,
-    "självrättning": true,
-    "svarFormat": "förenklat_polynom",
-    "traningsniva": 1,
-    "spel": true,
-    "familjTidigare": [
-      "Parentesräkning"
-    ]
-  },
+  "id": "1.963",
+  "kap": 1,
+  "omr": "multiplicera_uttryck",
+  "kurs": [
+    "1a",
+    "1b",
+    "1c"
+  ],
+  "geogebra": false,
+  "miniräknare": true,
+  "arbetsinsats": 1,
+  "t": "<p>En penna kostar \\(x\\) kr. Skriv ett förenklat uttryck för priset på fyra sådana pennor.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><p>Fyra pennor kostar fyra gånger priset för en penna. När ett tal multipliceras med en bokstav kan multiplikationstecknet utelämnas.</p><div class=\"facit-matte\">\\[4\\cdot x=4x\\]</div><p class=\"facit-svar\"><strong>Svar:</strong> \\(4x\\) kr.</p></div>",
+  "ledtrad": "<p>Hur får du totalpriset när varje penna kostar lika mycket?</p>",
+  "niva": "E",
+  "poang": "1/0/0",
+  "familj": "Multiplikation av tal och bokstäver",
+  "formaga": [
+    "procedur"
+  ],
+  "svarstyp": "uttryck",
+  "rättSvar": "4x",
+  "tolerans": null,
+  "självrättning": true,
+  "svarFormat": "förenklat_polynom",
+  "traningsniva": 1,
+  "spel": true,
+  "familjTidigare": [
+    "Parentesräkning",
+    "Multiplicera in i en parentes"
+  ],
+  "svarEnhet": "kr"
+},
   {
     "id": "1.964",
     "kap": 1,
@@ -164615,5 +164671,252 @@ window.BANKMA1 = [
     "svarFormat": "sannolikhet",
     "rättSvar": 0.648,
     "tolerans": 0
+  },
+  {
+    "id": "0.1253",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "familj": "Proportionalitet i problemlösning",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Två pumpar fyller en tom tank samtidigt. Pump A ger 45 liter på 3 minuter och pump B 60 liter på 5 minuter. Båda har konstant flöde. Hur lång tid tar det att fylla tanken med 300 liter? (Svara i minuter med en decimal.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 270\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Två pumpar fyller samma tank. Pump A ger 45 liter på 3 minuter och pump B 60 liter på 5 minuter.\"><title>Två pumpar fyller samma tank. Pump A ger 45 liter på 3 minuter och pump B 60 liter på 5 minuter.</title><rect width=\"500\" height=\"270\" fill=\"white\" rx=\"10\"/><path d=\"M175 130V240H325V130\" fill=\"#e8f5fb\" stroke=\"#172e46\" stroke-width=\"3\"/><path d=\"M90 75H220V150 M410 75H280V150\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"5\"/><path d=\"M214 142L220 153L226 142 M274 142L280 153L286 142\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3\"/><text x=\"105\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Pump A</text><text x=\"105\" y=\"60\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">45 L på 3 min</text><text x=\"395\" y=\"35\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Pump B</text><text x=\"395\" y=\"60\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">60 L på 5 min</text><text x=\"250\" y=\"205\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">300 L</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Räkna först om båda flödena till liter per minut.</p><div class=\"facit-matte\">\\[45/3=15\\qquad60/5=12\\]</div></li><li><p>Tillsammans ger pumparna 15+12 = 27 liter per minut.</p><div class=\"facit-matte\">\\[t=300/27\\approx11{,}1\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 11,1 min.</strong></p></div>",
+    "ledtrad": "<p>Lägg ihop flöden som anges i samma enhet.</p>",
+    "rättSvar": 11.11111111111111,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.05,
+    "svarEnhet": "min"
+  },
+  {
+    "id": "0.1254",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "familj": "Proportionalitet i problemlösning",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Receptet gäller 12 portioner. Du har 2 000 g mjöl och 900 g socker. Övriga ingredienser räcker. Hur många hela portioner kan du som mest göra om proportionerna i receptet ska behållas?</p><table class=\"data\" style=\"width:100%;max-width:440px;border-collapse:collapse;text-align:center\"><thead><tr><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Ingrediens</th><th scope=\"col\" style=\"padding:8px;border:1px solid #8796a5\">Till 12 portioner</th></tr></thead><tbody><tr><td style=\"padding:8px;border:1px solid #8796a5\">Mjöl</td><td style=\"padding:8px;border:1px solid #8796a5\">750 g</td></tr><tr><td style=\"padding:8px;border:1px solid #8796a5\">Socker</td><td style=\"padding:8px;border:1px solid #8796a5\">300 g</td></tr></tbody></table>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Per portion går det åt 750/12 = 62,5 g mjöl och 300/12 = 25 g socker.</p></li><li><p>Mjölet räcker till 2 000/62,5 = 32 portioner. Sockret räcker till 900/25 = 36 portioner. Det är alltså mjölet som begränsar antalet.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 32 portioner.</strong></p></div>",
+    "ledtrad": "<p>Kontrollera hur många portioner varje ingrediens räcker till.</p>",
+    "rättSvar": 32,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+    "id": "0.1255",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "familj": "Proportionalitet i problemlösning",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Grafen visar en vandrings första 1,5 timmar, inklusive en paus. Efter pausen fortsätter gruppen med samma gångfart som före pausen och utan fler stopp. Hur lång tid från starten tar det att gå totalt 9 km? (Svara exakt i timmar.)</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" style=\"width:100%;max-width:500px\" role=\"img\" aria-label=\"Gångsträckan ökar från 0 till 3 km under den första timmen och är sedan konstant fram till 1,5 timmar.\"><title>Gångsträckan ökar från 0 till 3 km under den första timmen och är sedan konstant fram till 1,5 timmar.</title><rect width=\"500\" height=\"320\" fill=\"white\" rx=\"10\"/><path d=\"M65.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"65.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M157.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"157.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0,5</text><path d=\"M250.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"250.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M342.5 50V250\" stroke=\"#d6e1ea\"/><text x=\"342.5\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1,5</text><path d=\"M435.0 50V250\" stroke=\"#d6e1ea\"/><text x=\"435.0\" y=\"275\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 250.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"256.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">0</text><path d=\"M65 200.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"206.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">1</text><path d=\"M65 150.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"156.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">2</text><path d=\"M65 100.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"106.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">3</text><path d=\"M65 50.0H435\" stroke=\"#d6e1ea\"/><text x=\"52\" y=\"56.0\" text-anchor=\"end\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">4</text><path d=\"M65 45V250H445\" fill=\"none\" stroke=\"#344c60\" stroke-width=\"2\"/><text x=\"250\" y=\"302\" text-anchor=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Tid från start (h)</text><text x=\"65\" y=\"28\" text-anchor=\"start\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">Gångsträcka (km)</text><polyline points=\"65.000,250.000 250.000,100.000 342.500,100.000\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"3.5\" stroke-linejoin=\"round\"/></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Gruppen går 3 km på 1 timme, alltså 3 km/h. Den vågräta delen visar en paus på 0,5 timmar.</p></li><li><p>Att gå 9 km tar 9/3 = 3 timmar i rörelse. Lägg till pausen.</p><div class=\"facit-matte\">\\[3+0{,}5=3{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 3,5 h.</strong></p></div>",
+    "ledtrad": "<p>Skilj mellan tid i rörelse och tid för pausen.</p>",
+    "rättSvar": 3.5,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09,
+    "svarEnhet": "h"
+  },
+  {
+    "id": "0.1256",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "familj": "Proportionalitet i problemlösning",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En färgblandning innehåller 2,4 liter vit färg och 0,8 liter blå färg. Du råkar hälla i ytterligare 0,4 liter blå färg. Hur mycket vit färg måste du tillsätta för att få tillbaka samma förhållande mellan färgerna? (Svara i liter.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Från början går det 2,4/0,8 = 3 liter vit färg på varje liter blå.</p></li><li><p>Den nya mängden blå färg är 0,8+0,4 = 1,2 liter. Då behövs 3·1,2 = 3,6 liter vit färg totalt.</p></li><li><p>Det finns redan 2,4 liter vit färg.</p><div class=\"facit-matte\">\\[3{,}6-2{,}4=1{,}2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 1,2 liter.</strong></p></div>",
+    "ledtrad": "<p>Hur många liter vit färg behövs per liter blå?</p>",
+    "rättSvar": 1.2,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09,
+    "svarEnhet": "L"
+  },
+  {
+    "id": "0.1257",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "familj": "Proportionalitet i problemlösning",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En karta i skala 1:40 000 skrivs ut så att alla längder på papperet blir 80 % av de ursprungliga. Vilken skala får den nya utskriften? Ange talet som ska stå efter 1:.</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>En sträcka som tidigare var 1 cm på kartan blir 0,8 cm. Den motsvarar fortfarande 40 000 cm i verkligheten.</p></li><li><p>En centimeter på den nya kartan motsvarar därför</p><div class=\"facit-matte\">\\[40\\,000/0{,}8=50\\,000\\text{ cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 1:50 000.</strong></p></div>",
+    "ledtrad": "<p>Följ en bestämd sträcka på kartan genom förminskningen.</p>",
+    "rättSvar": 50000,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09
+  },
+  {
+    "id": "0.1258",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "familj": "Proportionalitet i problemlösning",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>En drönare har använt 20 % av ett fulladdat batteri för att flyga 12 km. Den står nu stilla med 80 % kvar. Anta att batteriåtgången per kilometer är oförändrad och att stillastående inte drar batteri. Hur långt kan den flyga ytterligare om minst 25 % av batteriet ska finnas kvar? (Svara i km.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Av de 80 procenten som återstår får 80−25 = 55 procentenheter användas.</p></li><li><p>20 procentenheter räcker till 12 km. Den återstående tillåtna sträckan blir</p><div class=\"facit-matte\">\\[12\\cdot\\frac{55}{20}=33\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 33 km.</strong></p></div>",
+    "ledtrad": "<p>Räkna först ut hur stor del av hela batteriet som får användas nu.</p>",
+    "rättSvar": 33,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09,
+    "svarEnhet": "km"
+  },
+  {
+    "id": "0.1259",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "familj": "Proportionalitet i problemlösning",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Ett liggande foto är 18 cm brett och 12 cm högt. Det ska förstoras utan att beskäras eller vridas och få plats i en öppning som är 44 cm bred och 31 cm hög. Hur stort blir det sammanlagda tomrummet ovanför och under fotot om fotot görs så stort som möjligt? (Svara i cm med en decimal.)</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Om fotot fyller öppningens bredd blir höjden</p><div class=\"facit-matte\">\\[h=44\\cdot\\frac{12}{18}\\approx29{,}33\\text{ cm}\\]</div></li><li><p>Den höjden ryms inom 31 cm. Bredden begränsar därför hur stor bilden kan bli. Tomrummet ovanför och under blir sammanlagt</p><div class=\"facit-matte\">\\[31-29{,}33\\ldots\\approx1{,}7\\text{ cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 1,7 cm.</strong></p></div>",
+    "ledtrad": "<p>Kontrollera vilken av öppningens två dimensioner som begränsar förstoringen.</p>",
+    "rättSvar": 1.6666666666666679,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 0.05,
+    "svarEnhet": "cm"
+  },
+  {
+    "id": "0.1260",
+    "kap": 0,
+    "omr": "proportionalitet_grunder",
+    "kurs": [
+      "1a",
+      "1b",
+      "1c"
+    ],
+    "familj": "Proportionalitet i problemlösning",
+    "niva": "C",
+    "poang": "0/1/0",
+    "traningsniva": 3,
+    "arbetsinsats": 2,
+    "formaga": [
+      "problemlösning",
+      "modellering"
+    ],
+    "miniräknare": true,
+    "geogebra": false,
+    "spel": true,
+    "självrättning": true,
+    "t": "<p>Lea går en sträcka med farten 4 km/h och kommer fram efter 45 minuter. Sam går samma sträcka med farten 6 km/h, men startar 10 minuter efter Lea. Båda håller konstant fart. Hur många minuter före Lea kommer Sam fram?</p>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Lea går i 45/60 = 0,75 timmar. Sträckan är därför 4·0,75 = 3 km.</p></li><li><p>Sam behöver 3/6 = 0,5 timmar, alltså 30 minuter. Räknat från Leas start kommer han fram efter 10+30 = 40 minuter.</p></li><li><p>Lea kommer fram efter 45 minuter, så skillnaden är 45−40 = 5 minuter.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 5 minuter.</strong></p></div>",
+    "ledtrad": "<p>Ta reda på sträckan och skilj sedan mellan gångtid och starttid.</p>",
+    "rättSvar": 5,
+    "svarstyp": "numeriskt",
+    "svarFormat": "numeriskt",
+    "tolerans": 1e-09,
+    "svarEnhet": "min"
   }
+
 ];

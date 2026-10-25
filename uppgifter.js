@@ -215612,5 +215612,211 @@ window.BANK = [
   "rättSvar": 7.0,
   "tolerans": 0,
   "svarEnhet": ""
+},
+{
+  "id": "8.678",
+  "kap": 8,
+  "omr": "potential",
+  "niva": "C",
+  "typ": "negativ potential när pluspolen är jordad",
+  "poang": "(0/1/0)",
+  "t": "<p>I kretsen är batteriets <em>pluspol</em> jordad.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"520\" height=\"280\" viewBox=\"0 0 520 280\" role=\"img\" aria-label=\"Seriekrets med ett batteri på 12 V, R1 = 200 ohm och R2 = 400 ohm. Batteriets pluspol är jordad. Punkten P ligger mellan R1 och R2.\"><title>Seriekrets med ett batteri på 12 V, R1 = 200 ohm och R2 = 400 ohm. Batteriets pluspol är jordad. Punkten P ligger mellan R1 och R2.</title><rect x=\"1\" y=\"1\" width=\"518\" height=\"278\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><path d=\"M80 60 L80 135\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M60 135 L100 135 M68 149 L92 149\" stroke=\"#243447\" stroke-width=\"2.4\"/><path d=\"M80 149 L80 250 L400 250 L400 205\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><text x=\"108.0\" y=\"136.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#243447\">+</text><text x=\"108.0\" y=\"162.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#243447\">−</text><text x=\"52.0\" y=\"147.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#243447\">12 V</text><path d=\"M80 60 L190 60\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><rect x=\"190\" y=\"49\" width=\"70\" height=\"22\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"225.0\" y=\"40.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">R₁ = 200 Ω</text><path d=\"M260 60 L400 60 L400 115\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><rect x=\"389\" y=\"115\" width=\"22\" height=\"90\" fill=\"#fff\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"422.0\" y=\"165.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"start\" fill=\"#216d87\" font-weight=\"bold\">R₂ = 400 Ω</text><circle cx=\"400\" cy=\"60\" r=\"4\" fill=\"#c2410c\"/><text x=\"414.0\" y=\"52.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">P</text><path d=\"M80 60 L40 60 L40 80\" stroke=\"#243447\" stroke-width=\"2\" fill=\"none\"/><path d=\"M26 80 L54 80 M31 87 L49 87 M36 94 L44 94\" stroke=\"#243447\" stroke-width=\"2\"/></svg></span><p>Vilken potential har punkten P? (Svara i V.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Jordningen sätter pluspolens potential till 0 V. Strömmen går från pluspolen genom R₁ till P, och potentialen sjunker över varje resistor.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[I=\\frac{U}{R_1+R_2}=\\frac{12}{600}\\ \\mathrm A=0{,}020\\ \\mathrm A\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[U_1=R_1I=200\\cdot0{,}020\\ \\mathrm V=4{,}0\\ \\mathrm V\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[V_P=0-4{,}0\\ \\mathrm V=-4{,}0\\ \\mathrm V\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Minuspolen har potentialen −12 V. Alla punkter i kretsen har alltså negativ potential.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> −4,0 V.</p></div>",
+  "familj": "Potentialvandring i kretsar",
+  "familjNyckel": "potential__potentialvandring_i_kretsar",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Vilken potential har pluspolen? Hur mycket sjunker potentialen över R₁?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -4.0,
+  "tolerans": 0.05,
+  "svarEnhet": "V"
+},
+{
+  "id": "8.679",
+  "kap": 8,
+  "omr": "potential",
+  "niva": "C",
+  "typ": "elektron som flyttas mellan två potentialer",
+  "poang": "(0/1/0)",
+  "t": "<p>En elektron rör sig fritt från en punkt med potentialen −20 V till en punkt med potentialen +30 V. Hur mycket ökar elektronens rörelseenergi? (Svara i eV.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Potentialskillnaden är \\(\\Delta V=30-(-20)=50\\) V. En negativ laddning som går mot högre potential förlorar lägesenergi och vinner lika mycket rörelseenergi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta E_k=e\\cdot\\Delta V=e\\cdot50\\ \\mathrm V=50\\ \\mathrm{eV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 50 eV.</p></div>",
+  "familj": "Elektronvolt och accelererade partiklar",
+  "familjNyckel": "potential__elektrisk_potential_och_spanning",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Hur stor är potentialskillnaden mellan punkterna? En elektron dras mot högre potential.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 50.0,
+  "tolerans": 0,
+  "svarEnhet": "eV"
+},
+{
+  "id": "8.680",
+  "kap": 8,
+  "omr": "potential",
+  "niva": "C",
+  "typ": "proton som accelereras och sedan bromsas",
+  "poang": "(0/1/0)",
+  "t": "<p>En proton startar från vila och accelereras genom spänningen 2,0 kV. Därefter passerar den ett fält som bromsar den genom potentialskillnaden 500 V. Hur stor rörelseenergi har den till slut? (Svara i keV.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">En partikel med laddningen e får energin e·U i elektronvolt. Accelerationen ger energi och inbromsningen tar energi.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[E_k=2{,}0\\ \\mathrm{keV}-0{,}50\\ \\mathrm{keV}=1{,}5\\ \\mathrm{keV}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> 1,5 keV.</p></div>",
+  "familj": "Elektronvolt och accelererade partiklar",
+  "familjNyckel": "potential__elektrisk_potential_och_spanning",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Räkna i elektronvolt: hur mycket energi får protonen, och hur mycket förlorar den?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 1.5,
+  "tolerans": 0,
+  "svarEnhet": "keV"
+},
+{
+  "id": "8.681",
+  "kap": 8,
+  "omr": "potential",
+  "niva": "C",
+  "typ": "energin i ett mobilbatteri",
+  "poang": "(0/1/0)",
+  "t": "<p>Ett mobilbatteri har spänningen 3,7 V och kapaciteten 3 000 mAh. Hur mycket energi kan batteriet lagra? (Svara i kJ med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Kapaciteten anger laddningen. Energin är laddningen gånger spänningen, \\(W=QU\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}Q =3\\,000\\ \\mathrm{mAh} =3{,}0\\ \\mathrm{Ah}\\\\=3{,}0\\cdot3600\\ \\mathrm C =10\\,800\\ \\mathrm C\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}W =QU =10\\,800\\cdot3{,}7\\ \\mathrm J\\\\\\approx4{,}0\\cdot10^{4}\\ \\mathrm J =40\\ \\mathrm{kJ}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 40 kJ.</p></div>",
+  "familj": "Potentialskillnad och energi (W = qU)",
+  "familjNyckel": "potential__elektrisk_potential_och_spanning",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Gör om mAh till coulomb: 1 Ah är 1 A under 3 600 s.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 39.96,
+  "tolerans": 0.5,
+  "svarEnhet": "kJ"
+},
+{
+  "id": "8.682",
+  "kap": 8,
+  "omr": "potential",
+  "niva": "C",
+  "typ": "resistanser ur ett potentialdiagram",
+  "poang": "(0/1/0)",
+  "t": "<p>Diagrammet visar potentialen när man går ett varv runt en krets med ett batteri och två resistorer i serie. Strömmen i kretsen är 0,10 A.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"470\" height=\"310\" viewBox=\"0 0 470 310\" role=\"img\" aria-label=\"Potentialen längs en krets: från A (0 V) höjer batteriet potentialen till 9 V i B. Över R1 sjunker den till 6 V i C och över R2 till 0 V i D. Mellan D och A är den 0 V.\"><title>Potentialen längs en krets: från A (0 V) höjer batteriet potentialen till 9 V i B. Över R1 sjunker den till 6 V i C och över R2 till 0 V i D. Mellan D och A är den 0 V.</title><rect x=\"1\" y=\"1\" width=\"468\" height=\"308\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"70\" y1=\"250.0\" x2=\"430\" y2=\"250.0\" stroke=\"#e3e8ee\"/><text x=\"62.0\" y=\"254.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">0</text><line x1=\"70\" y1=\"229.0\" x2=\"430\" y2=\"229.0\" stroke=\"#e3e8ee\"/><line x1=\"70\" y1=\"208.0\" x2=\"430\" y2=\"208.0\" stroke=\"#e3e8ee\"/><text x=\"62.0\" y=\"212.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">2</text><line x1=\"70\" y1=\"187.0\" x2=\"430\" y2=\"187.0\" stroke=\"#e3e8ee\"/><line x1=\"70\" y1=\"166.0\" x2=\"430\" y2=\"166.0\" stroke=\"#e3e8ee\"/><text x=\"62.0\" y=\"170.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">4</text><line x1=\"70\" y1=\"145.0\" x2=\"430\" y2=\"145.0\" stroke=\"#e3e8ee\"/><line x1=\"70\" y1=\"124.0\" x2=\"430\" y2=\"124.0\" stroke=\"#e3e8ee\"/><text x=\"62.0\" y=\"128.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">6</text><line x1=\"70\" y1=\"103.0\" x2=\"430\" y2=\"103.0\" stroke=\"#e3e8ee\"/><line x1=\"70\" y1=\"82.0\" x2=\"430\" y2=\"82.0\" stroke=\"#e3e8ee\"/><text x=\"62.0\" y=\"86.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">8</text><line x1=\"70\" y1=\"61.0\" x2=\"430\" y2=\"61.0\" stroke=\"#e3e8ee\"/><line x1=\"70\" y1=\"40.0\" x2=\"430\" y2=\"40.0\" stroke=\"#e3e8ee\"/><text x=\"62.0\" y=\"44.0\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#5b6773\">10</text><line x1=\"70\" y1=\"250\" x2=\"438\" y2=\"250\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"70\" y1=\"250\" x2=\"70\" y2=\"32\" stroke=\"#34495e\" stroke-width=\"1.6\"/><text x=\"66.0\" y=\"24.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#243447\" font-weight=\"bold\">potential (V)</text><polyline points=\"70.0,250.0 160.0,61.0 250.0,124.0 340.0,250.0 430.0,250.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.8\"/><circle cx=\"70.0\" cy=\"250.0\" r=\"4.5\" fill=\"#243447\"/><text x=\"70.0\" y=\"270.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">A</text><circle cx=\"160.0\" cy=\"61.0\" r=\"4.5\" fill=\"#243447\"/><text x=\"160.0\" y=\"270.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">B</text><circle cx=\"250.0\" cy=\"124.0\" r=\"4.5\" fill=\"#243447\"/><text x=\"250.0\" y=\"270.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">C</text><circle cx=\"340.0\" cy=\"250.0\" r=\"4.5\" fill=\"#243447\"/><text x=\"340.0\" y=\"270.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">D</text><circle cx=\"430.0\" cy=\"250.0\" r=\"4.5\" fill=\"#243447\"/><text x=\"430.0\" y=\"270.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">A</text><text x=\"115.0\" y=\"290.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">batteri</text><text x=\"205.0\" y=\"290.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">R₁</text><text x=\"295.0\" y=\"290.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#216d87\" font-weight=\"bold\">R₂</text></svg></span><p>Bestäm resistanserna \\(R_1\\) och \\(R_2\\). (Svara i Ω.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Spänningen över en resistor är hur mycket potentialen sjunker över den. Avläs sänkningarna och använd \\(R=\\dfrac UI\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}U_1=9-6=3\\ \\mathrm V,\\\\R_1=\\frac{3}{0{,}10}\\ \\Omega=30\\ \\Omega\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}U_2=6-0=6\\ \\mathrm V,\\\\R_2=\\frac{6}{0{,}10}\\ \\Omega=60\\ \\Omega\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Batteriets 9 V delas alltså upp på 3 V och 6 V, och summan av potentialändringarna runt kretsen är noll.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> \\(R_1=30\\ \\Omega\\) och \\(R_2=60\\ \\Omega\\).</p></div>",
+  "familj": "Potentialvandring i kretsar",
+  "familjNyckel": "potential__potentialvandring_i_kretsar",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Hur mycket sjunker potentialen över R₁ respektive R₂?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    30,
+    60
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "Ω",
+    "Ω"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "R₁",
+    "R₂"
+  ]
+},
+{
+  "id": "8.683",
+  "kap": 8,
+  "omr": "potential",
+  "niva": "C",
+  "typ": "åt vilket håll en elektron rör sig",
+  "poang": "(0/1/0)",
+  "t": "<p>En elektron släpps från vila i ett elektriskt fält. Åt vilket håll börjar den röra sig? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Det elektriska fältet pekar mot lägre potential, och en positiv laddning skulle röra sig åt det hållet. Elektronen är negativ och påverkas av en kraft åt andra hållet, alltså mot högre potential.</p></div><div class=\"facit-stycke\"><p class=\"facit-metod\">När elektronen rör sig mot högre potential minskar dess elektriska lägesenergi, och den får lika mycket rörelseenergi.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Mot högre potential.</p></div>",
+  "familj": "Potentialskillnad och energi (W = qU)",
+  "familjNyckel": "potential__elektrisk_potential_och_spanning",
+  "formaga": [
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Åt vilket håll rör sig en positiv laddning? Vad gäller då för en negativ?</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Mot lägre potential, längs fältet",
+      "ratt": false,
+      "kommentar": "Det gäller en positiv laddning."
+    },
+    {
+      "txt": "Den står still, eftersom den startar från vila",
+      "ratt": false,
+      "kommentar": "Den elektriska kraften accelererar den."
+    },
+    {
+      "txt": "Mot högre potential, motsatt fältets riktning",
+      "ratt": true
+    },
+    {
+      "txt": "Vinkelrätt mot fältet",
+      "ratt": false,
+      "kommentar": "Kraften är parallell med fältet."
+    }
+  ]
 }
 ];

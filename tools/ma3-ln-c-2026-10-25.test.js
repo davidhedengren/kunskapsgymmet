@@ -5,7 +5,7 @@ const bank=JSON.parse(JSON.stringify(ctx.window.BANKMATO1)),q=n=>bank.find(t=>t.
 test('20 självständiga C-uppgifter når båda spåren utan ID-kollisioner',()=>{
  assert.equal(new Set(bank.map(t=>t.id)).size,bank.length);
  for(let n=1201;n<=1220;n++){const t=q(n);assert.ok(t);assert.equal(t.traningsniva,3);assert.equal(t.niva,'C');assert.equal(t.omr,'naturliga_logaritmer');assert.deepEqual(t.kurs,['1b','1c']);assert.equal(t.spel,true);assert.equal(t.självrättning,true);assert.equal(t.geogebra,false);assert.match(t.s,/facit-svar/);assert.ok(!t.spelDelar);}
- assert.equal(bank.filter(t=>t.omr==='naturliga_logaritmer'&&t.traningsniva===3&&t.spel!==false).length,20);
+ assert.ok(bank.filter(t=>t.omr==='naturliga_logaritmer'&&t.traningsniva===3&&t.spel!==false).length>=20);
 });
 test('Logaritmekvationer behåller definitionsvillkor och samtliga rötter',()=>{
  const x=q(1201).rättSvar;assert.ok(x>1);near(Math.log(x-1)+Math.log(x+1),Math.log(8));

@@ -115143,6 +115143,525 @@ window.BANKMATO1 = [
     "svarFormat": "numeriskt",
     "tolerans": 0.005,
     "svarEnhet": "cm"
-  }
+  },
+  {
+  "id": "4.549",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två sidor i en triangel är x cm och (x+3) cm. Vinkeln mellan dem är 60° och den tredje sidan är 7 cm. Bestäm x. Svara med ett heltal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel med två sidlängder som beror på x.\"><title>Triangel med två sidlängder som beror på x.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"60.00000000000001,38.21321070173819,81.78678929826181\" data-lengths=\"7.999999999999999,7,5.0\" points=\"90.000000,285.000000 430.000000,285.000000 196.250000,100.969602\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"68.349\" y=\"297.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"453.623\" y=\"293.183\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"191.525\" y=\"76.420\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"332.269\" y=\"168.668\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">7 cm</text><text x=\"118.010\" y=\"178.485\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"260.000\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x + 3</text><path data-angle-arc=\"60.000000000\" data-center=\"90.000000,285.000000\" d=\"M112.000000 285.000000 A22 22 0 0 0 101.000000 265.947441\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"128.971\" y=\"262.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">60°</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Cosinussatsen ger en ekvation för x.</p><div class=\"facit-matte\">\\[\\begin{aligned}49={}&x^2+(x+3)^2\\\\&-2x(x+3)\\cos60^\\circ\\end{aligned}\\]</div></li><li><p>Använd cos60° = 1/2 och utveckla parenteserna.</p><div class=\"facit-matte\">\\[x^2+3x-40=0\\]</div></li><li><p>Faktorisera: (x+8)(x−5) = 0. Roten −8 ger negativa längder, så x = 5. Sidorna blir 5, 8 och 7 cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 5.</strong></p></div>",
+  "ledtrad": "<p>Skriv cosinussatsen med den kända sidan ensam i vänsterledet.</p>",
+  "rättSvar": 5,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0
+},
+  {
+  "id": "4.550",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två sidor i en triangel är x cm och 2x cm. Vinkeln mellan dem är 120° och den motstående sidan är 14 cm. Bestäm x. Svara med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel med en trubbig vinkel.\"><title>Triangel med en trubbig vinkel.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"120.00000000000001,19.106605350869078,40.89339464913091\" data-lengths=\"10.583005244258366,14,5.291502622129177\" points=\"158.000000,285.000000 430.000000,285.000000 90.000000,167.220545\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"145.500\" y=\"306.651\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"454.653\" y=\"289.149\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"70.724\" y=\"151.301\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"269.492\" y=\"198.708\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">14 cm</text><text x=\"98.885\" y=\"240.610\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"294.000\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">2x</text><path data-angle-arc=\"120.000000000\" data-center=\"158.000000,285.000000\" d=\"M180.000000 285.000000 A22 22 0 0 0 147.000000 265.947441\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"180.500\" y=\"246.029\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">120°</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Sätt in de två siduttrycken och den trubbiga vinkeln i cosinussatsen.</p><div class=\"facit-matte\">\\[14^2=x^2+(2x)^2-4x^2\\cos120^\\circ\\]</div></li><li><p>Eftersom cos120° = −1/2 blir högerledet 7x². Därför är x² = 28. Endast den positiva roten kan vara en längd.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 5,29.</strong></p></div>",
+  "ledtrad": "<p>Var noggrann med minustecknet när cosinus är negativt.</p>",
+  "rättSvar": 5.2915026221291805,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005
+},
+  {
+  "id": "4.551",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En triangel har sidorna 5 cm, 7 cm och 8 cm. Bestäm arean. Svara i cm² med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel med tre kända sidor.\"><title>Triangel med tre kända sidor.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"81.78678929826181,38.21321070173819,60.0\" data-lengths=\"7.0,8,5.000000000000001\" points=\"111.476643,285.000000 408.523357,285.000000 141.787532,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"92.578\" y=\"301.366\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"432.146\" y=\"293.183\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"132.509\" y=\"51.786\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"294.300\" y=\"155.683\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">8 cm</text><text x=\"94.674\" y=\"175.387\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">5 cm</text><text x=\"260.000\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">7 cm</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bestäm vinkeln A mellan sidorna 5 och 7 cm.</p><div class=\"facit-matte\">\\[\\cos A=\\frac{5^2+7^2-8^2}{2\\cdot5\\cdot7}=\\frac17\\]</div></li><li><p>A är ungefär 81,79°. Använd sedan areasatsen med samma två sidor.</p><div class=\"facit-matte\">\\[K=\\frac{5\\cdot7\\sin A}{2}\\]</div></li><li><p>Beräkna med oavrundad vinkel för att undvika avrundningsfel.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 17,32 cm².</strong></p></div>",
+  "ledtrad": "<p>En vinkel behövs innan du kan använda areasatsen.</p>",
+  "rättSvar": 17.32050807568877,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "cm²"
+},
+  {
+  "id": "4.552",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>I triangeln är AB = 14 cm, AC = 10 cm och BC = 12 cm. M är mittpunkten på AB. Bestäm CM. Svara i cm med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel med median CM.\"><title>Triangel med median CM.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"57.12165043562251,44.415308597192976,78.46304096718451\" data-lengths=\"14.0,12,10.000000000000002\" points=\"90.000000,285.000000 430.000000,285.000000 221.836735,81.042487\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"68.042\" y=\"296.952\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"453.146\" y=\"294.449\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"219.070\" y=\"56.196\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"350.571\" y=\"157.860\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">12 cm</text><text x=\"124.810\" y=\"162.913\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">10 cm</text><text x=\"260.000\" y=\"346.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">14 cm</text><path data-median=\"true\" d=\"M221.83673469387756 81.04248672335984L260.0 285.0\" stroke=\"#a15320\" stroke-width=\"2\" stroke-dasharray=\"6 5\" fill=\"none\"/><text x=\"260.000\" y=\"308.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">M</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>I hela triangeln ger cosinussatsen vinkeln vid A.</p><div class=\"facit-matte\">\\[\\cos A=\\frac{14^2+10^2-12^2}{2\\cdot14\\cdot10}=\\frac{19}{35}\\]</div></li><li><p>AM är 7 cm. Använd samma vinkel i den mindre triangeln ACM.</p><div class=\"facit-matte\">\\[\\begin{aligned}CM^2&=10^2+7^2-140\\cdot\\frac{19}{35}\\\\&=73\\end{aligned}\\]</div></li><li><p>Ta den positiva kvadratroten.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 8,54 cm.</strong></p></div>",
+  "ledtrad": "<p>Bestäm en vinkel som är gemensam för ABC och ACM.</p>",
+  "rättSvar": 8.54400374531753,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "cm"
+},
+  {
+  "id": "4.553",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En vandrare går 3 km från A till B. Vid B svänger hon 60° från sin tidigare färdriktning och går ytterligare 4 km till C. Hur långt är det fågelvägen från A till C? Svara i km med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"En vandring med en markerad sväng.\"><title>En vandring med en markerad sväng.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"34.71500395394824,119.99999999999999,25.284996046051774\" data-lengths=\"2.999999999999997,4,6.082762530298216\" points=\"108.445554,285.000000 290.310889,285.000000 411.554446,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"84.584\" y=\"292.458\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"302.811\" y=\"306.651\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"428.490\" y=\"56.610\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"379.622\" y=\"196.564\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">4 km</text><text x=\"199.378\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">3 km</text><path d=\"M290.3108891324553 285.0h75\" stroke=\"#8796a5\" stroke-width=\"1.5\" fill=\"none\"/><path data-angle-arc=\"60.000000000\" data-center=\"290.310889,285.000000\" d=\"M312.310889 285.000000 A22 22 0 0 0 301.310889 265.947441\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"329.282\" y=\"262.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">60°</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Svängen mäts från den fortsatta färdriktningen. Triangelns inre vinkel B är därför 180°−60° = 120°.</p></li><li><p>Cosinussatsen ger det raka avståndet.</p><div class=\"facit-matte\">\\[\\begin{aligned}AC^2&=3^2+4^2-24\\cos120^\\circ\\\\&=37\\end{aligned}\\]</div></li><li><p>Avståndet är den positiva roten ur 37.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 6,08 km.</strong></p></div>",
+  "ledtrad": "<p>Skilj svängens vinkel från den inre vinkeln i triangeln.</p>",
+  "rättSvar": 6.082762530298219,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "km"
+},
+  {
+  "id": "4.554",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två båtar lämnar samma brygga samtidigt. De håller 12 km/h respektive 18 km/h och kör rakt fram. Vinkeln mellan deras färdriktningar är 75°. Hur långt är det mellan båtarna efter 20 minuter? Svara i km med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Båtar färdas från A mot B och C.\"><title>Båtar färdas från A mot B och C.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"75.00000000000001,37.89116948925651,67.10883051074347\" data-lengths=\"6.0,6.291000384285397,3.9999999999999996\" points=\"96.944002,285.000000 423.055998,285.000000 153.213332,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"77.110\" y=\"300.219\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"446.702\" y=\"293.117\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"145.258\" y=\"51.299\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"79.888\" y=\"167.891\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">12 km/h</text><text x=\"260.000\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">18 km/h</text><path data-angle-arc=\"75.000000000\" data-center=\"96.944002,285.000000\" d=\"M118.944002 285.000000 A22 22 0 0 0 102.638021 263.749632\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"132.645\" y=\"257.606\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">75°</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>20 minuter är 1/3 timme. Båtarna hinner därför 4 km respektive 6 km.</p></li><li><p>Använd dessa sträckor och vinkeln mellan dem.</p><div class=\"facit-matte\">\\[d^2=4^2+6^2-2\\cdot4\\cdot6\\cos75^\\circ\\]</div></li><li><p>Ta den positiva roten. Hastigheterna får inte sättas in som om de vore sidlängder.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 6,29 km.</strong></p></div>",
+  "ledtrad": "<p>Bestäm först hur långt varje båt har hunnit.</p>",
+  "rättSvar": 6.291000384285397,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "km"
+},
+  {
+  "id": "4.555",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två vajrar går från punkter A och B på plan mark till toppen C på en mast. AB = 10 m, AC = 8 m och BC = 9 m. Hur hög är masten? Svara i m med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Två vajrar till en mast med höjdfot H.\"><title>Två vajrar till en mast med höjdfot H.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"58.75155873778753,49.45839812649548,71.79004313571699\" data-lengths=\"9.999999999999998,9,8.000000000000002\" points=\"106.477938,285.000000 413.522062,285.000000 233.901249,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"84.692\" y=\"297.263\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"436.229\" y=\"295.458\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"231.876\" y=\"50.082\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"345.750\" y=\"161.150\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">9 m</text><text x=\"145.397\" y=\"164.956\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">8 m</text><text x=\"260.000\" y=\"346.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">10 m</text><path data-altitude=\"true\" d=\"M233.90124943326256 75.0L233.90124943326256 285.0\" stroke=\"#a15320\" stroke-width=\"2\" stroke-dasharray=\"6 5\" fill=\"none\"/><path d=\"M243.90124943326256 285.0v-10h-10\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"1.5\"/><text x=\"233.901\" y=\"308.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">H</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bestäm vinkeln C mellan vajrarna.</p><div class=\"facit-matte\">\\[\\cos C=\\frac{8^2+9^2-10^2}{2\\cdot8\\cdot9}=\\frac{45}{144}\\]</div></li><li><p>Triangelns area kan skrivas på två sätt.</p><div class=\"facit-matte\">\\[\\frac{8\\cdot9\\sin C}{2}=\\frac{10h}{2}\\]</div></li><li><p>Därför är h = 7,2 sin C. Använd oavrundad vinkel.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 6,84 m.</strong></p></div>",
+  "ledtrad": "<p>Triangelns area kopplar ihop vajrarna med den lodräta höjden.</p>",
+  "rättSvar": 6.8394078691067985,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "m"
+},
+  {
+  "id": "4.556",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En triangel har sidorna 6 cm, 8 cm och 11 cm. Den kortaste sidan ska förlängas tills vinkeln mittemot 11 cm blir rät. De andra två sidorna behåller sina längder. Hur mycket ska den kortaste sidan förlängas? Svara i cm med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangeln före förlängningen.\"><title>Triangeln före förlängningen.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"102.63562509302113,32.157208609345645,45.20716629763322\" data-lengths=\"7.999999999999998,11,6.000000000000001\" points=\"140.064013,285.000000 427.013664,285.000000 92.986336,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"124.439\" y=\"304.516\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"451.036\" y=\"291.924\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"78.562\" y=\"54.581\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"277.241\" y=\"152.576\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">11 cm</text><text x=\"84.613\" y=\"187.154\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">6 cm</text><text x=\"283.539\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">8 cm</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>När vinkeln blir 90° är cosinusledet noll. Om den nya längden är x blir cosinussatsen</p><div class=\"facit-matte\">\\[11^2=x^2+8^2\\]</div></li><li><p>Därför är x = √57 ≈ 7,55 cm. Frågan gäller ökningen, så dra bort den ursprungliga längden 6 cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 1,55 cm.</strong></p></div>",
+  "ledtrad": "<p>Bestäm först den nya längden och sedan skillnaden mot den gamla.</p>",
+  "rättSvar": 1.5498344352707498,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "cm"
+},
+  {
+  "id": "4.557",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>I fyrhörningen ABCD är AB = 6 cm, BC = 8 cm, CD = 7 cm och DA = 5 cm. Vinkeln B är 60°. Bestäm vinkeln D. Svara i grader med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 410\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Fyrhörning med gemensam diagonal AC.\"><title>Fyrhörning med gemensam diagonal AC.</title><rect width=\"520\" height=\"410\" fill=\"white\" rx=\"10\"/><polygon points=\"155.00000,220.00000 201.59482,58.59082 356.91087,220.00000 209.36062,349.01520\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><path d=\"M155 220L356.9108714259834 220\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"2.5\" stroke-dasharray=\"6 5\"/><text x=\"133.000\" y=\"220.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"201.595\" y=\"35.591\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"379.911\" y=\"220.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"209.361\" y=\"373.015\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">D</text><text x=\"143.710\" y=\"129.311\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">6 cm</text><text x=\"305.194\" y=\"114.334\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">8 cm</text><text x=\"306.832\" y=\"311.609\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">7 cm</text><text x=\"149.005\" y=\"298.486\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">5 cm</text><path data-angle-arc=\"60.000000000\" data-center=\"201.594816,58.590821\" d=\"M195.493114 79.727737 A22 22 0 0 0 216.849072 74.443508\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"212.403\" y=\"102.273\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">60°</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Diagonalen AC kan beräknas i triangeln ABC.</p><div class=\"facit-matte\">\\[\\begin{aligned}AC^2&=6^2+8^2-96\\cos60^\\circ\\\\&=52\\end{aligned}\\]</div></li><li><p>Samma diagonal ingår i triangeln ADC. Där ger cosinussatsen</p><div class=\"facit-matte\">\\[\\cos D=\\frac{5^2+7^2-52}{2\\cdot5\\cdot7}=\\frac{22}{70}\\]</div></li><li><p>Ta invers cosinus för att få D.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 71,68 °.</strong></p></div>",
+  "ledtrad": "<p>Diagonalen är länken mellan de två trianglarna.</p>",
+  "rättSvar": 71.68230158880154,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "°"
+},
+  {
+  "id": "4.558",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två sidor i en triangel är x cm och 2x cm. Vinkeln mellan dem är 60° och arean är 6√3 cm². Bestäm den tredje sidan. Svara i cm med ett heltal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel med givet sidförhållande och area.\"><title>Triangel med givet sidförhållande och area.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"60.00000000000001,30.000000000000004,90.0\" data-lengths=\"6.928203230275509,6,3.4641016151377544\" points=\"90.000000,285.000000 430.000000,285.000000 175.000000,137.775681\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"68.349\" y=\"297.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"454.148\" y=\"291.470\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"168.530\" y=\"113.628\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"317.000\" y=\"186.273\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">a</text><text x=\"107.385\" y=\"196.888\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"260.000\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">2x</text><path data-angle-arc=\"60.000000000\" data-center=\"90.000000,285.000000\" d=\"M112.000000 285.000000 A22 22 0 0 0 101.000000 265.947441\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"128.971\" y=\"262.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">60°</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Areasatsen bestämmer först x².</p><div class=\"facit-matte\">\\[6\\sqrt3=\\frac{x\\cdot2x\\sin60^\\circ}{2}=\\frac{x^2\\sqrt3}{2}\\]</div></li><li><p>Alltså är x² = 12. Cosinussatsen ger den tredje sidan a.</p><div class=\"facit-matte\">\\[\\begin{aligned}a^2&=x^2+4x^2-4x^2\\cos60^\\circ\\\\&=3x^2\\end{aligned}\\]</div></li><li><p>Därför är a² = 36 och a = 6 cm.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 6 cm.</strong></p></div>",
+  "ledtrad": "<p>Du behöver inte beräkna x som decimaltal: x² räcker i båda satserna.</p>",
+  "rättSvar": 6,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0,
+  "svarEnhet": "cm"
+},
+  {
+  "id": "4.559",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Triangeln har AB = 10 cm, AC = 12 cm och BC = 14 cm. AD delar vinkeln A i två lika stora delar. D ligger på BC. Bestäm AD. Svara i cm med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel med vinkelbisektris AD.\"><title>Triangel med vinkelbisektris AD.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"78.46304096718453,57.12165043562251,44.41530859719296\" data-lengths=\"9.999999999999996,14,12.0\" points=\"170.695686,285.000000 349.304314,285.000000 213.561757,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"151.331\" y=\"300.811\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"371.262\" y=\"296.952\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"208.933\" y=\"50.432\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"312.541\" y=\"159.892\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">14 cm</text><text x=\"155.568\" y=\"172.537\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">12 cm</text><text x=\"260.000\" y=\"346.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">10 cm</text><path data-bisector=\"0\" d=\"M170.69568646103 285.0L287.6031514574998 189.54545454545456\" stroke=\"#a15320\" stroke-width=\"2\" stroke-dasharray=\"6 5\" fill=\"none\"/><text x=\"311.603\" y=\"189.545\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">D</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Bisektrissatsen ger BD/DC = 10/12. Eftersom hela BC är 14 cm blir BD = 14·10/22 = 70/11 cm.</p></li><li><p>Bestäm cos B i hela triangeln.</p><div class=\"facit-matte\">\\[\\cos B=\\frac{10^2+14^2-12^2}{2\\cdot10\\cdot14}=\\frac{19}{35}\\]</div></li><li><p>Använd sedan cosinussatsen i triangeln ABD.</p><div class=\"facit-matte\">\\[\\begin{aligned}AD^2={}&10^2+\\left(\\frac{70}{11}\\right)^2\\\\&-2\\cdot10\\cdot\\frac{70}{11}\\cdot\\frac{19}{35}\\end{aligned}\\]</div></li><li><p>Ta den positiva roten utan att mellanavrunda BD.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 8,45 cm.</strong></p></div>",
+  "ledtrad": "<p>Bisektrissatsen delar den motstående sidan i ett känt förhållande.</p>",
+  "rättSvar": 8.450145482634365,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "cm"
+},
+  {
+  "id": "4.560",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två sidor i en triangel är 5 cm och 7 cm. Den tredje sidan ska vara längre än 9 cm. Vilken är den minsta hela grad som vinkeln mellan 5 cm och 7 cm kan ha? Svara i grader med ett heltal.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Exempel på triangel med en sida längre än nio centimeter.\"><title>Exempel på triangel med en sida längre än nio centimeter.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"100.0,32.03882238914612,47.96117761085388\" data-lengths=\"7.000000000000002,9.281991835629093,5.0\" points=\"129.246621,285.000000 427.782045,285.000000 92.217955,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"113.177\" y=\"304.151\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"451.811\" y=\"291.899\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"78.245\" y=\"54.269\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"289.325\" y=\"133.141\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">längre än 9 cm</text><text x=\"78.754\" y=\"185.639\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">5 cm</text><text x=\"278.514\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">7 cm</text><path data-angle-arc=\"100.000000000\" data-center=\"129.246621,285.000000\" d=\"M151.246621 285.000000 A22 22 0 0 0 125.426361 263.334229\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"158.172\" y=\"250.528\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">v</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Börja med gränsfallet där den tredje sidan är exakt 9 cm.</p><div class=\"facit-matte\">\\[\\cos v=\\frac{5^2+7^2-9^2}{2\\cdot5\\cdot7}=-0{,}1\\]</div></li><li><p>Gränsvinkeln är ungefär 95,74°. Mellan 0° och 180° växer den motstående sidan när vinkeln växer.</p></li><li><p>Vinkeln måste därför vara större än 95,74°. Den minsta hela graden är 96°.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 96 °.</strong></p></div>",
+  "ledtrad": "<p>Beräkna gränsvinkeln och avgör sedan på vilken sida om den svaret ska ligga.</p>",
+  "rättSvar": 96,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0,
+  "svarEnhet": "°"
+},
+  {
+  "id": "4.561",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En triangels sidor är x cm, (x+1) cm och (x+2) cm. Den största vinkeln är 120°. Bestäm x. Svara med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Triangel med tre siduttryck.\"><title>Triangel med tre siduttryck.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"120.00000000000001,21.78678929826181,38.21321070173818\" data-lengths=\"2.4999999999999996,3.5,1.5\" points=\"168.461538,285.000000 430.000000,285.000000 90.000000,149.100629\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"155.962\" y=\"306.651\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"454.550\" y=\"289.725\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"71.102\" y=\"132.734\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"270.862\" y=\"189.876\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x + 2</text><text x=\"104.116\" y=\"231.550\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x</text><text x=\"299.231\" y=\"318.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">x + 1</text><path data-angle-arc=\"120.000000000\" data-center=\"168.461538,285.000000\" d=\"M190.461538 285.000000 A22 22 0 0 0 157.461538 265.947441\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"190.962\" y=\"246.029\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">120°</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Största vinkeln ligger mittemot längsta sidan, x+2. Cosinussatsen ger</p><div class=\"facit-matte\">\\[\\begin{gathered}(x+2)^2=x^2+(x+1)^2\\\\{}-2x(x+1)\\cos120^\\circ\\end{gathered}\\]</div></li><li><p>Med cos120° = −1/2 förenklas ekvationen till</p><div class=\"facit-matte\">\\[2x^2-x-3=0\\]</div></li><li><p>Faktorisering ger (2x−3)(x+1) = 0. Roten x = −1 kan inte vara en längd. Med x = 1,5 blir sidorna 1,5; 2,5 och 3,5 cm, vilket är en möjlig triangel.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 1,50.</strong></p></div>",
+  "ledtrad": "<p>Börja med att koppla den största vinkeln till rätt motstående sida.</p>",
+  "rättSvar": 1.5,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005
+},
+  {
+  "id": "4.562",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En parallellograms diagonaler är 14 cm och 10 cm. Den spetsiga vinkeln mellan diagonalerna är 60°. Bestäm parallellogrammens längsta sida. Svara i cm med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 410\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Parallellogram med två diagonaler och vinkel vid O.\"><title>Parallellogram med två diagonaler och vinkel vid O.</title><rect width=\"520\" height=\"410\" fill=\"white\" rx=\"10\"/><polygon points=\"106.00000,205.00000 315.00000,109.73721 414.00000,205.00000 205.00000,300.26279\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><path d=\"M106 205L414 205\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"2.5\" stroke-dasharray=\"6 5\"/><path d=\"M315 109.73720558371176L205 300.2627944162882\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"2.5\" stroke-dasharray=\"6 5\"/><path data-angle-arc=\"60.000000000\" data-center=\"260.000000,205.000000\" d=\"M282.000000 205.000000 A22 22 0 0 0 271.000000 185.947441\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"298.971\" y=\"182.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">60°</text><text x=\"84.000\" y=\"205.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"315.000\" y=\"86.737\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"437.000\" y=\"205.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"205.000\" y=\"323.263\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">D</text><text x=\"260.000\" y=\"370.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">AC = 14 cm    BD = 10 cm</text><text x=\"231.000\" y=\"224.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">O</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Diagonalerna halverar varandra, så delarna från O är 7 cm och 5 cm.</p></li><li><p>Den längsta sidan ligger mittemot den trubbiga vinkeln 120°, inte mot 60°. Cosinussatsen ger</p><div class=\"facit-matte\">\\[\\begin{aligned}a^2&=7^2+5^2-70\\cos120^\\circ\\\\&=109\\end{aligned}\\]</div></li><li><p>Ta den positiva roten.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 10,44 cm.</strong></p></div>",
+  "ledtrad": "<p>Dela figuren vid diagonalernas skärningspunkt och jämför de två vinklarna.</p>",
+  "rättSvar": 10.44030650891055,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "cm"
+},
+  {
+  "id": "4.563",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En regelbunden femhörning är inskriven i en cirkel med radien 6 cm. Bestäm femhörningens omkrets. Svara i cm med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Regelbunden femhörning i en cirkel med två radier markerade.\"><title>Regelbunden femhörning i en cirkel med två radier markerade.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><circle cx=\"260\" cy=\"195\" r=\"130\" fill=\"none\" stroke=\"#9aabba\" stroke-width=\"1.5\"/><polygon points=\"260.00000,65.00000 383.63735,154.82779 336.41208,300.17221 183.58792,300.17221 136.36265,154.82779\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><path d=\"M260 195L260.0 65.0\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"2.5\"/><path d=\"M260 195L383.63734711837 154.82779073125684\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"2.5\"/><path data-angle-arc=\"72.000000000\" data-center=\"260.000000,195.000000\" d=\"M260.000000 173.000000 A22 22 0 0 1 280.923243 188.201626\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"286.450\" y=\"158.594\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">v</text><text x=\"242.000\" y=\"214.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">O</text><text x=\"228.000\" y=\"135.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">6 cm</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>De fem lika stora medelpunktsvinklarna är 360°/5 = 72°.</p></li><li><p>Två radier och en sida bildar en triangel. Cosinussatsen ger sidlängden a.</p><div class=\"facit-matte\">\\[a^2=6^2+6^2-2\\cdot6\\cdot6\\cos72^\\circ\\]</div></li><li><p>Alla fem sidor är lika långa. Beräkna 5a med oavrundad sidlängd.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 35,27 cm.</strong></p></div>",
+  "ledtrad": "<p>Dela femhörningen i fem likadana trianglar med spets i cirkelns centrum.</p>",
+  "rättSvar": 35.26711513754839,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "cm"
+},
+  {
+  "id": "4.564",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>En klockas timvisare är 8 cm lång och minutvisaren är 12 cm. Klockan visar 2:20. Hur långt är det mellan visarnas spetsar? Svara i cm med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Klocka med timvisare och minutvisare vid 2:20.\"><title>Klocka med timvisare och minutvisare vid 2:20.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><circle cx=\"260\" cy=\"195\" r=\"135\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2\"/><path d=\"M260.0 74.0L260.0 67.0\" fill=\"none\" stroke=\"#647587\" stroke-width=\"2.5\"/><path d=\"M320.5 90.21092614208291L324.0 84.14874831559185\" fill=\"none\" stroke=\"#647587\" stroke-width=\"2.5\"/><path d=\"M364.78907385791706 134.5L370.8512516844081 131.0\" fill=\"none\" stroke=\"#647587\" stroke-width=\"2.5\"/><path d=\"M381.0 195.0L388.0 195.0\" fill=\"none\" stroke=\"#647587\" stroke-width=\"2.5\"/><path d=\"M364.78907385791706 255.49999999999997L370.85125168440817 259.0\" fill=\"none\" stroke=\"#647587\" stroke-width=\"2.5\"/><path d=\"M320.5 299.78907385791706L324.0 305.85125168440817\" fill=\"none\" stroke=\"#647587\" stroke-width=\"2.5\"/><path d=\"M260.0 316.0L260.0 323.0\" fill=\"none\" stroke=\"#647587\" stroke-width=\"2.5\"/><path d=\"M199.5 299.78907385791706L196.0 305.8512516844081\" fill=\"none\" stroke=\"#647587\" stroke-width=\"2.5\"/><path d=\"M155.21092614208294 255.50000000000006L149.1487483155919 259.00000000000006\" fill=\"none\" stroke=\"#647587\" stroke-width=\"2.5\"/><path d=\"M139.0 195.00000000000003L132.0 195.00000000000003\" fill=\"none\" stroke=\"#647587\" stroke-width=\"2.5\"/><path d=\"M155.21092614208294 134.5L149.14874831559186 131.0\" fill=\"none\" stroke=\"#647587\" stroke-width=\"2.5\"/><path d=\"M199.49999999999994 90.21092614208295L195.99999999999994 84.14874831559189\" fill=\"none\" stroke=\"#647587\" stroke-width=\"2.5\"/><text x=\"260.000\" y=\"35.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">12</text><text x=\"414.000\" y=\"195.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">3</text><text x=\"260.000\" y=\"350.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">6</text><text x=\"106.000\" y=\"195.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">9</text><path d=\"M260 195L327.6578686965854 170.37454968055184\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><path d=\"M260 195L353.5307436087194 248.99999999999997\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"2.5\"/><path d=\"M327.6578686965854 170.37454968055184L353.5307436087194 248.99999999999997\" fill=\"none\" stroke=\"#677e93\" stroke-width=\"2.5\" stroke-dasharray=\"6 5\"/><path data-angle-arc=\"50.000000000\" data-center=\"260.000000,195.000000\" d=\"M280.673238 187.475557 A22 22 0 0 1 279.052559 206.000000\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"304.829\" y=\"198.922\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">v</text><text x=\"299.000\" y=\"155.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">8 cm</text><text x=\"294.000\" y=\"249.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">12 cm</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Minutvisaren har vridits 20·6° = 120° från klockan 12. Timvisaren har vridits 2·30° + 20·0,5° = 70°.</p></li><li><p>Vinkeln mellan visarna är alltså 50°. Cosinussatsen ger</p><div class=\"facit-matte\">\\[d^2=8^2+12^2-2\\cdot8\\cdot12\\cos50^\\circ\\]</div></li><li><p>Ta den positiva roten. Timvisaren står en bit efter 2, inte exakt på 2.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 9,20 cm.</strong></p></div>",
+  "ledtrad": "<p>Timvisaren rör sig också under de 20 minuterna.</p>",
+  "rättSvar": 9.19699836578133,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "cm"
+},
+  {
+  "id": "4.565",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>Två stänger, 8 cm och 11 cm långa, sitter ihop i ena änden. Vinkeln mellan dem ökas från 60° till 120°. Med hur många procent ökar avståndet mellan de fria ändarna? Svara i procent med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Två lägen för en rörlig stång.\"><title>Två lägen för en rörlig stång.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><path d=\"M260 285L380 285\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><path d=\"M260 285L342.5 142.10580837556762\" fill=\"none\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><path d=\"M260 285L177.5 142.10580837556762\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"2.5\"/><path d=\"M380 285L342.5 142.10580837556762\" fill=\"none\" stroke=\"#61778c\" stroke-width=\"2.5\" stroke-dasharray=\"6 5\"/><path d=\"M380 285L177.5 142.10580837556762\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"2.5\" stroke-dasharray=\"6 5\"/><path data-angle-arc=\"60.000000000\" data-center=\"260.000000,285.000000\" d=\"M282.000000 285.000000 A22 22 0 0 0 271.000000 265.947441\" fill=\"none\" stroke=\"#087f8c\" stroke-width=\"2\"/><text x=\"298.971\" y=\"262.500\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#087f8c\">60°</text><text x=\"314.000\" y=\"316.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">8 cm</text><text x=\"333.000\" y=\"215.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">11 cm</text><text x=\"170.000\" y=\"220.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">11 cm</text><text x=\"356.000\" y=\"118.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Läge 1</text><text x=\"158.000\" y=\"118.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">Läge 2</text><text x=\"260.000\" y=\"355.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"16\" fill=\"#172e46\">Vinkeln öppnas från 60° till 120°</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Beräkna avståndet i varje läge med cosinussatsen.</p><div class=\"facit-matte\">\\[\\begin{aligned}d_1^2&=8^2+11^2-176\\cos60^\\circ\\\\&=97\\end{aligned}\\]</div><div class=\"facit-matte\">\\[\\begin{aligned}d_2^2&=8^2+11^2-176\\cos120^\\circ\\\\&=273\\end{aligned}\\]</div></li><li><p>Jämför längderna, inte deras kvadrater. Procentökningen är</p><div class=\"facit-matte\">\\[\\frac{\\sqrt{273}-\\sqrt{97}}{\\sqrt{97}}\\cdot100\\,\\%\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar: 67,76 %.</strong></p></div>",
+  "ledtrad": "<p>Den ursprungliga längden ska stå i nämnaren när procentökningen beräknas.</p>",
+  "rättSvar": 67.76271903169433,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "%"
+},
+  {
+  "id": "4.566",
+  "kap": 4,
+  "omr": "cosinussatsen",
+  "kurs": [
+    "1c"
+  ],
+  "familj": "Cosinussatsen – samband och problemlösning",
+  "niva": "C",
+  "poang": "0/2/0",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "t": "<p>I triangeln är AB = 7 cm, AC = 10 cm och BC = 15 cm. Höjden från C träffar linjen genom A och B i H, utanför sidan AB. Hur långt är det från A till H? Svara i cm med två decimaler.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 390\" style=\"width:100%;max-width:520px\" role=\"img\" aria-label=\"Trubbig triangel med höjdfoten utanför basen.\"><title>Trubbig triangel med höjdfoten utanför basen.</title><rect width=\"520\" height=\"390\" fill=\"white\" rx=\"10\"/><polygon data-geometry=\"triangle\" data-angles=\"122.8783495643775,34.047732369991536,23.073918065630963\" data-lengths=\"6.9999999999999964,15,10.0\" points=\"240.353051,285.000000 415.389506,285.000000 104.610494,75.000000\" fill=\"#edf6fb\" stroke=\"#096c9a\" stroke-width=\"2.5\"/><text x=\"228.401\" y=\"306.958\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">A</text><text x=\"439.294\" y=\"292.319\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">B</text><text x=\"87.114\" y=\"57.143\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">C</text><text x=\"278.417\" y=\"152.745\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">15 cm</text><text x=\"141.373\" y=\"200.108\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">10 cm</text><text x=\"327.871\" y=\"346.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"18\" fill=\"#172e46\">7 cm</text><path data-altitude=\"true\" d=\"M104.61049444219216 75.0L104.61049444219216 285.0\" stroke=\"#a15320\" stroke-width=\"2\" stroke-dasharray=\"6 5\" fill=\"none\"/><path d=\"M104.61049444219216 285.0H415.38950555780787\" stroke=\"#8796a5\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M114.61049444219216 285.0v-10h-10\" fill=\"none\" stroke=\"#a15320\" stroke-width=\"1.5\"/><text x=\"104.610\" y=\"308.000\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Arial,sans-serif\" font-size=\"17\" fill=\"#172e46\">H</text></svg></span>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Vinkeln A är trubbig. Cosinussatsen ger</p><div class=\"facit-matte\">\\[\\cos A=\\frac{7^2+10^2-15^2}{2\\cdot7\\cdot10}=-\\frac{19}{35}\\]</div></li><li><p>I den räta triangeln ACH är vinkeln vid A i stället 180°−A. Därför gäller</p><div class=\"facit-matte\">\\[\\begin{aligned}AH&=10\\cos(180^\\circ-A)\\\\&=-10\\cos A\\end{aligned}\\]</div></li><li><p>Insättning ger AH = 38/7 cm. Avståndet är positivt trots att cos A är negativt.</p></li></ol><p class=\"facit-svar\"><strong>Svar: 5,43 cm.</strong></p></div>",
+  "ledtrad": "<p>H ligger på andra sidan A än B. Rita därför baslinjens förlängning.</p>",
+  "rättSvar": 5.428571428571429,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "tolerans": 0.005,
+  "svarEnhet": "cm"
+}
 
 ];

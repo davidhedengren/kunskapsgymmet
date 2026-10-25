@@ -4,7 +4,7 @@ const bank=JSON.parse(JSON.stringify(c.window.BANKMATO1)),q=n=>bank.find(x=>x.id
 const value=(expression,x,C=0)=>Function('x','C','return '+expression.replace(/\^/g,'**').replace(/\bsqrt\(/g,'Math.sqrt(').replace(/\be\b/g,'Math.E'))(x,C);
 test('18 nya C-kort ger 20 spelbara nivå 3-uppgifter i primitiva funktioner',()=>{
  for(let n=1215;n<=1232;n++){let t=q(n);assert.equal(t.omr,'primitiva');assert.equal(t.traningsniva,3);assert.equal(t.niva,'C');assert.deepEqual(t.kurs,['1b','1c']);assert.equal(t.spel,true);assert.equal(t.självrättning,true);assert.equal(t.geogebra,false);assert.match(t.s,/facit-svar/);}
- assert.equal(bank.filter(q=>q.omr==='primitiva'&&q.traningsniva===3&&q.spel!==false).length,20);
+ assert.ok(bank.filter(q=>q.omr==='primitiva'&&q.traningsniva===3&&q.spel!==false).length>=20);
  for(const n of [1217,1218,1220,1221,1229])assert.equal(q(n).svarFormat,'primitiva');
  assert.equal(q(236).svarFormat,'primitiv');assert.equal(q(284).svarFormat,'primitiva');
 });

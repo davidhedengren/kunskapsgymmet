@@ -214413,5 +214413,206 @@ window.BANK = [
       "kommentar": "Då skulle de slockna och lampa 2 lysa starkare."
     }
   ]
+},
+{
+  "id": "9.576",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "C",
+  "typ": "energin i en mol fotoner",
+  "poang": "(0/1/0)",
+  "t": "<p>En mol är \\(6{,}02\\cdot10^{23}\\) stycken. Hur stor energi har en mol fotoner av grönt ljus med våglängden 500 nm? (Svara i kJ med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Bestäm energin hos en foton med \\(E=\\dfrac{hc}{\\lambda}\\) och multiplicera med antalet fotoner.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_{\\text{foton}} =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{500\\cdot10^{-9}}\\ \\mathrm J\\\\\\approx3{,}98\\cdot10^{-19}\\ \\mathrm J\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E =6{,}02\\cdot10^{23}\\cdot3{,}98\\cdot10^{-19}\\ \\mathrm J\\\\\\approx2{,}4\\cdot10^{5}\\ \\mathrm J =240\\ \\mathrm{kJ}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Det är ungefär lika mycket energi som det krävs för att bryta de kemiska bindningarna i en mol av många ämnen. Därför kan ljus driva kemiska reaktioner, till exempel fotosyntes.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 240 kJ.</p></div>",
+  "familj": "Fotonenergi",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Räkna först ut energin för en enda foton.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 239.47560000000004,
+  "tolerans": 5,
+  "svarEnhet": "kJ"
+},
+{
+  "id": "9.577",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "C",
+  "typ": "våglängden när en radiostation byter frekvens",
+  "poang": "(0/1/0)",
+  "t": "<p>En radiostation byter sändningsfrekvens från 90 MHz till 100 MHz. Hur mycket kortare blir våglängden? (Svara i cm, avrundat till heltal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Våglängden fås ur \\(c=f\\lambda\\). Högre frekvens ger kortare våglängd.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda_{90}=\\frac{3{,}00\\cdot10^{8}}{90\\cdot10^{6}}\\ \\mathrm m\\approx3{,}33\\ \\mathrm m,\\\\\\lambda_{100}=\\frac{3{,}00\\cdot10^{8}}{100\\cdot10^{6}}\\ \\mathrm m=3{,}00\\ \\mathrm m\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\Delta\\lambda=3{,}33-3{,}00=0{,}33\\ \\mathrm m=33\\ \\mathrm{cm}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 33 cm kortare.</p></div>",
+  "familj": "Det elektromagnetiska spektrumet",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Beräkna våglängden för båda frekvenserna och jämför.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 33.33333333333335,
+  "tolerans": 0.5,
+  "svarEnhet": "cm"
+},
+{
+  "id": "9.578",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "C",
+  "typ": "ljuseffekt ur antalet fotoner",
+  "poang": "(0/1/0)",
+  "t": "<p>En blå lysdiod sänder ut \\(4{,}0\\cdot10^{17}\\) fotoner per sekund med våglängden 470 nm. Hur stor ljuseffekt sänder den ut? (Svara i W med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Effekt är energi per sekund. Multiplicera energin hos en foton med antalet fotoner per sekund.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_{\\text{foton}} =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{470\\cdot10^{-9}}\\ \\mathrm J\\\\\\approx4{,}23\\cdot10^{-19}\\ \\mathrm J\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}P =4{,}0\\cdot10^{17}\\cdot4{,}23\\cdot10^{-19}\\ \\mathrm W\\\\\\approx0{,}17\\ \\mathrm W\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 0,17 W.</p></div>",
+  "familj": "Fotonenergi",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Effekt = antal fotoner per sekund · energin per foton.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.16927659574468087,
+  "tolerans": 0.005,
+  "svarEnhet": "W"
+},
+{
+  "id": "9.579",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "C",
+  "typ": "vilken sorts strålning en foton är",
+  "poang": "(0/1/0)",
+  "t": "<p>En foton har energin 5,0 eV. Vilken typ av elektromagnetisk strålning är det? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Räkna om energin till joule och bestäm våglängden med \\(\\lambda=\\dfrac{hc}{E}\\).</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}\\lambda =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{5{,}0\\cdot1{,}602\\cdot10^{-19}}\\ \\mathrm m\\\\\\approx2{,}5\\cdot10^{-7}\\ \\mathrm m =250\\ \\mathrm{nm}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">Synligt ljus har våglängder från ungefär 400 nm till 700 nm. 250 nm är kortare än violett ljus, alltså ultraviolett strålning.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ultraviolett strålning.</p></div>",
+  "familj": "Det elektromagnetiska spektrumet",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Bestäm våglängden och jämför med det synliga området, ungefär 400–700 nm.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Synligt ljus",
+      "ratt": false,
+      "kommentar": "Synligt ljus har 400–700 nm, men 5,0 eV ger cirka 250 nm."
+    },
+    {
+      "txt": "Infraröd strålning",
+      "ratt": false,
+      "kommentar": "Infraröd strålning har längre våglängd och lägre energi än synligt ljus."
+    },
+    {
+      "txt": "Ultraviolett strålning",
+      "ratt": true
+    },
+    {
+      "txt": "Röntgenstrålning",
+      "ratt": false,
+      "kommentar": "Röntgenfotoner har tusentals eV, inte 5 eV."
+    }
+  ]
+},
+{
+  "id": "9.580",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "C",
+  "typ": "energiintervallet för synligt ljus",
+  "poang": "(0/1/0)",
+  "t": "<p>Synligt ljus har våglängder från 400 nm till 700 nm. Mellan vilka energier ligger fotonerna i synligt ljus? (Svara i eV med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Energin är omvänt proportionell mot våglängden, \\(E=\\dfrac{hc}{\\lambda}\\). Den längsta våglängden, 700 nm, ger den lägsta energin.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_{700} =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{700\\cdot10^{-9}\\cdot1{,}602\\cdot10^{-19}}\\ \\mathrm{eV}\\\\\\approx1{,}8\\ \\mathrm{eV}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}E_{400} =\\frac{6{,}63\\cdot10^{-34}\\cdot3{,}00\\cdot10^{8}}{400\\cdot10^{-9}\\cdot1{,}602\\cdot10^{-19}}\\ \\mathrm{eV}\\\\\\approx3{,}1\\ \\mathrm{eV}\\end{gathered}\\]</div></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Mellan ungefär 1,8 eV och 3,1 eV.</p></div>",
+  "familj": "Fotonenergi",
+  "formaga": [
+    "procedur",
+    "problemlösning"
+  ],
+  "självrättning": [
+    true,
+    true
+  ],
+  "ledtrad": "<p>Vilken ände av intervallet ger lägst energi? Beräkna båda och gör om till eV.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1.7736757624398074,
+    3.103932584269663
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "eV",
+    "eV"
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "Lägst",
+    "Högst"
+  ]
+},
+{
+  "id": "9.581",
+  "kap": 9,
+  "omr": "em_stralning",
+  "niva": "C",
+  "typ": "blått ljus jämfört med mobilstrålning",
+  "poang": "(0/1/0)",
+  "t": "<p>En mobiltelefon sänder med frekvensen 900 MHz. Hur många gånger större energi har en foton av blått ljus med våglängden 450 nm än en foton från mobilen? (Svara med två värdesiffror.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-forklaring\"><div class=\"facit-stycke\"><p class=\"facit-metod\">Fotonenergin är proportionell mot frekvensen, \\(E=hf\\). Det räcker därför att jämföra frekvenserna.</p></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\begin{gathered}f_{\\text{blått}} =\\frac{c}{\\lambda} =\\frac{3{,}00\\cdot10^{8}}{450\\cdot10^{-9}}\\ \\mathrm{Hz}\\\\\\approx6{,}67\\cdot10^{14}\\ \\mathrm{Hz}\\end{gathered}\\]</div></div><div class=\"facit-stycke\"><div class=\"facit-matte\">\\[\\frac{E_{\\text{blått}}}{E_{\\text{mobil}}}=\\frac{6{,}67\\cdot10^{14}}{9{,}0\\cdot10^{8}}\\approx7{,}4\\cdot10^{5}\\]</div></div><div class=\"facit-stycke\"><p class=\"facit-metod\">En enda mobilfoton har alltså mycket liten energi. Den räcker inte för att bryta kemiska bindningar, vilket synligt ljus nästan gör och UV-ljus gör.</p></div></div><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär \\(7{,}4\\cdot10^{5}\\) gånger större.</p></div>",
+  "familj": "Det elektromagnetiska spektrumet",
+  "formaga": [
+    "procedur",
+    "resonemang"
+  ],
+  "självrättning": true,
+  "ledtrad": "<p>Energin är proportionell mot frekvensen. Räkna ut ljusets frekvens först.</p>",
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 740740.7407407408,
+  "tolerans": 5000.0,
+  "svarEnhet": ""
 }
 ];

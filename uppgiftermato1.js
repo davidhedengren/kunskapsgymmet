@@ -118043,6 +118043,487 @@ window.BANKMATO1 = [
     "grader",
     "numeriskt"
   ]
+},
+{
+  "id": "4.585",
+  "kap": 4,
+  "omr": "trig_ratvinkliga",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "stegens vinkel och höjd",
+  "t": "<p>En 5,0 m lång stege står lutad mot en lodrät vägg. Stegens fot står 1,8 m från väggen. Vilken vinkel bildar stegen med marken, och hur högt upp på väggen når den? (Svara med en decimal i grader och två decimaler i meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Stegen är hypotenusa och avståndet till väggen är den närliggande kateten</p><div class=\"facit-matte\">\\[\\cos v=\\frac{1{,}8}{5{,}0}=0{,}36\\quad\\Rightarrow\\quad v\\approx68{,}9^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Höjden är den motstående kateten</p><div class=\"facit-matte\">\\[h=5{,}0\\cdot\\sin68{,}9^\\circ\\approx4{,}66\\ \\text{m}\\]</div><p>Kontroll med Pythagoras sats: \\(\\sqrt{5{,}0^2-1{,}8^2}\\approx4{,}66\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Vinkeln är ungefär 68,9°, och stegen når ungefär 4,66 m upp.</p></div>",
+  "familj": "Trigonometri i rätvinkliga trianglar",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilka sidor i den rätvinkliga triangeln känner du? Välj det trigonometriska samband som använder just dem.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    68.9,
+    4.66
+  ],
+  "tolerans": [
+    0.05,
+    0.01
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "vinkel (°)",
+    "höjd (m)"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.586",
+  "kap": 4,
+  "omr": "trig_ratvinkliga",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "båt som närmar sig en klippa",
+  "t": "<p>Från toppen av en 40 m hög klippa ser man en båt under sänkningsvinkeln 12°. En stund senare är sänkningsvinkeln 20°, eftersom båten har kört rakt mot klippan.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"460\" height=\"165\" viewBox=\"0 0 460 165\" role=\"img\" aria-label=\"En 40 m hög klippa till vänster och havsytan nedanför. Från klippans topp går två siktlinjer ner till en båt, först med sänkningsvinkeln 12 grader och sedan med 20 grader. Båtens senare läge är närmare klippan.\"><title>En 40 m hög klippa till vänster och havsytan nedanför. Från klippans topp går två siktlinjer ner till en båt, först med sänkningsvinkeln 12 grader och sedan med 20 grader. Båtens senare läge är närmare klippan.</title><rect x=\"1\" y=\"1\" width=\"458\" height=\"163\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"20\" y=\"58.0\" width=\"30\" height=\"72.0\" fill=\"#e8e1d6\" stroke=\"#243447\" stroke-width=\"1.6\"/><line x1=\"10.0\" y1=\"130.0\" x2=\"450.0\" y2=\"130.0\" stroke=\"#216d87\" stroke-width=\"2\"/><line x1=\"50.0\" y1=\"58.0\" x2=\"430.0\" y2=\"58.0\" stroke=\"#5b6773\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"50.0\" y1=\"58.0\" x2=\"388.7\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><line x1=\"50.0\" y1=\"58.0\" x2=\"247.8\" y2=\"130.0\" stroke=\"#c2410c\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><circle cx=\"388.7\" cy=\"130.0\" r=\"5\" fill=\"#243447\"/><circle cx=\"247.8\" cy=\"130.0\" r=\"5\" fill=\"#243447\"/><text x=\"388.7\" y=\"152.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">först</text><text x=\"247.8\" y=\"152.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">sedan</text><path d=\"M200.0,58.0 A150,150 0 0 1 196.7,89.2\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"208.0\" y=\"80.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">12°</text><path d=\"M130.0,58.0 A80,80 0 0 1 125.2,85.4\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"136.0\" y=\"71.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">20°</text><text x=\"20.0\" y=\"48.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#243447\">40 m hög klippa</text></svg></span><p>Hur långt har båten kört? (Svara i meter med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sänkningsvinkeln från toppen är lika stor som vinkeln vid båten</p><p>Den vågräta linjen från toppen är parallell med havsytan. I varje rätvinklig triangel är klippan 40 m och avståndet till båten den närliggande kateten.</p></li><li><p class=\"facit-rubrik\">Avståndet till båten i det första läget</p><div class=\"facit-matte\">\\[x_1=\\frac{40}{\\tan12^\\circ}\\approx188{,}2\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Avståndet i det andra läget</p><div class=\"facit-matte\">\\[x_2=\\frac{40}{\\tan20^\\circ}\\approx109{,}9\\ \\text{m}\\]</div></li><li><p class=\"facit-rubrik\">Sträckan båten har kört är skillnaden</p><div class=\"facit-matte\">\\[x_1-x_2\\approx188{,}2-109{,}9=78{,}3\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 78,3 m.</p></div>",
+  "familj": "Trigonometri i rätvinkliga trianglar",
+  "formaga": [
+    "problemlösning",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Beräkna båtens avstånd till klippan i båda lägena. Vilken vinkel har den rätvinkliga triangeln vid båten?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 78.3,
+  "tolerans": 0.2,
+  "svarEnhet": "m"
+},
+{
+  "id": "4.587",
+  "kap": 4,
+  "omr": "trig_ratvinkliga",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "höjden i en likbent triangel",
+  "t": "<p>En likbent triangel har basen 10 cm och toppvinkeln 40°.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"285\" viewBox=\"0 0 400 285\" role=\"img\" aria-label=\"En likbent triangel med basen 10 cm och toppvinkeln 40 grader. Höjden h från toppen ner till basens mitt är streckad.\"><title>En likbent triangel med basen 10 cm och toppvinkeln 40 grader. Höjden h från toppen ner till basens mitt är streckad.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"283\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"130.0,245.0 270.0,245.0 200.0,52.7\" fill=\"#eef5f9\" stroke=\"#216d87\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><line x1=\"200.0\" y1=\"52.7\" x2=\"200.0\" y2=\"245.0\" stroke=\"#c2410c\" stroke-width=\"2\" stroke-dasharray=\"6 4\"/><polyline points=\"211.0,245.0 211.0,234.0 200.0,234.0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><text x=\"200.0\" y=\"267.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\">10 cm</text><path d=\"M189.7,80.9 A30,30 0 0 0 210.3,80.9\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"200.0\" y=\"43.7\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">40°</text><text x=\"208.0\" y=\"175.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">h</text></svg></span><p>Bestäm triangelns höjd \\(h\\). (Svara i cm med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Höjden delar triangeln i två rätvinkliga trianglar</p><p>Varje halva har kateten 5 cm längs basen och vinkeln 20° vid toppen.</p></li><li><p class=\"facit-rubrik\">Kateten 5 cm ligger mitt emot vinkeln 20°, och höjden ligger intill den</p><div class=\"facit-matte\">\\[\\tan20^\\circ=\\frac5h\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med h och dividera med tan 20°</p><div class=\"facit-matte\">\\[h=\\frac{5}{\\tan20^\\circ}\\approx13{,}7\\ \\text{cm}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 13,7 cm.</p></div>",
+  "familj": "Trigonometri i rätvinkliga trianglar",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Höjden i en likbent triangel delar både basen och toppvinkeln mitt itu. Vilken rätvinklig triangel får du då?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 13.7,
+  "tolerans": 0.05,
+  "svarEnhet": "cm"
+},
+{
+  "id": "4.588",
+  "kap": 4,
+  "omr": "trig_ratvinkliga",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "exakta kateter i en 30-graderstriangel",
+  "t": "<p>En rätvinklig triangel har hypotenusan 8 cm och en vinkel på 30°.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"245\" viewBox=\"0 0 380 245\" role=\"img\" aria-label=\"En rätvinklig triangel med hypotenusan 8 cm och vinkeln 30 grader. Kateten mitt emot 30 grader heter a och den närliggande kateten heter b.\"><title>En rätvinklig triangel med hypotenusan 8 cm och vinkeln 30 grader. Kateten mitt emot 30 grader heter a och den närliggande kateten heter b.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"243\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70.0,210.0 250.1,210.0 250.1,106.0\" fill=\"#eef5f9\" stroke=\"#216d87\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><polyline points=\"239.1,210.0 239.1,199.0 250.1,199.0\" fill=\"none\" stroke=\"#243447\" stroke-width=\"1.5\"/><path d=\"M104.0,210.0 A34,34 0 0 0 99.4,193.0\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"118.3\" y=\"202.1\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">30°</text><text x=\"148.1\" y=\"142.2\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\">8 cm</text><text x=\"160.1\" y=\"231.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\">b</text><text x=\"266.1\" y=\"163.0\" font-family=\"Arial,sans-serif\" font-size=\"16\" text-anchor=\"middle\" fill=\"#c2410c\">a</text></svg></span><p>Bestäm kateterna \\(a\\) och \\(b\\) exakt, utan räknare.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kateten mitt emot 30° fås med sinus</p><div class=\"facit-matte\">\\[a=8\\sin30^\\circ=8\\cdot\\frac12=4\\]</div></li><li><p class=\"facit-rubrik\">Den närliggande kateten fås med cosinus</p><div class=\"facit-matte\">\\[b=8\\cos30^\\circ=8\\cdot\\frac{\\sqrt3}{2}=4\\sqrt3\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera med Pythagoras sats</p><div class=\"facit-matte\">\\[4^2+(4\\sqrt3)^2=16+48=64=8^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=4\\) cm och \\(b=4\\sqrt3\\) cm</p></div>",
+  "familj": "Exakta trigonometriska värden",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilka exakta värden har \\(\\sin30^\\circ\\) och \\(\\cos30^\\circ\\)? Vilken katet ligger mitt emot vinkeln?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    "4",
+    "4*sqrt(3)"
+  ],
+  "tolerans": null,
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a (cm)",
+    "b (cm)"
+  ],
+  "svarFormat": [
+    "uttryck",
+    "uttryck"
+  ]
+},
+{
+  "id": "4.589",
+  "kap": 4,
+  "omr": "trig_ratvinkliga",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "lutning i procent och höjdökning",
+  "t": "<p>En väg har lutningen 8 %. Det betyder att vägen stiger 8 m på 100 m vågrät sträcka.</p><p>a) Vilken vinkel bildar vägen med horisontalplanet?<br>b) Hur många meter stiger man när man kör 2,5 km längs vägen? (Svara med en decimal i grader och heltal i meter.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Lutningen i procent är tangens för vinkeln</p><div class=\"facit-matte\">\\[\\tan v=\\frac{8}{100}=0{,}08\\quad\\Rightarrow\\quad v\\approx4{,}6^\\circ\\]</div></li><li><p class=\"facit-rubrik\">b) Sträckan längs vägen är hypotenusan</p><p>Höjdökningen är kateten mitt emot vinkeln.</p><div class=\"facit-matte\">\\[h=2\\,500\\cdot\\sin4{,}57^\\circ\\approx199\\ \\text{m}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) Ungefär 4,6° b) Ungefär 199 m</p></div>",
+  "familj": "Trigonometri i rätvinkliga trianglar",
+  "formaga": [
+    "modellering",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilket trigonometriskt samband passar ”höjd per vågrät sträcka”? I b) är 2,5 km sträckan längs vägen, alltså hypotenusan.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    4.6,
+    199
+  ],
+  "tolerans": [
+    0.05,
+    1
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a) vinkel (°)",
+    "b) höjd (m)"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.590",
+  "kap": 4,
+  "omr": "trig_ratvinkliga",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "vinkeln mellan rymddiagonal och bottenyta",
+  "t": "<p>En låda har formen av ett rätblock som är 40 cm långt, 30 cm djupt och 20 cm högt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"260\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"En rätblocksformad låda som är 40 cm lång, 30 cm djup och 20 cm hög. En rymddiagonal går från ett nedre främre hörn till det motsatta övre bakre hörnet. Bottenytans diagonal är streckad, och vinkeln v mellan rymddiagonalen och bottenytan är markerad.\"><title>En rätblocksformad låda som är 40 cm lång, 30 cm djup och 20 cm hög. En rymddiagonal går från ett nedre främre hörn till det motsatta övre bakre hörnet. Bottenytans diagonal är streckad, och vinkeln v mellan rymddiagonalen och bottenytan är markerad.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70.0,215.0 230.0,215.0 230.0,135.0 70.0,135.0\" fill=\"#f4f7fa\" stroke=\"#243447\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"230.0,215.0 279.1,180.6 279.1,100.6 230.0,135.0\" fill=\"#e9eff4\" stroke=\"#243447\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 230.0,135.0 279.1,100.6 119.1,100.6\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><line x1=\"70.0\" y1=\"215.0\" x2=\"119.1\" y2=\"180.6\" stroke=\"#5b6773\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"119.1\" y1=\"180.6\" x2=\"279.1\" y2=\"180.6\" stroke=\"#5b6773\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"119.1\" y1=\"180.6\" x2=\"119.1\" y2=\"100.6\" stroke=\"#5b6773\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"70.0\" y1=\"215.0\" x2=\"279.1\" y2=\"180.6\" stroke=\"#216d87\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><line x1=\"70.0\" y1=\"215.0\" x2=\"279.1\" y2=\"100.6\" stroke=\"#c2410c\" stroke-width=\"2.4\"/><path d=\"M113.4,207.9 A44,44 0 0 0 108.6,193.9\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"128.6\" y=\"199.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v</text><text x=\"150.0\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">40 cm</text><text x=\"268.6\" y=\"209.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#243447\">30 cm</text><text x=\"287.1\" y=\"145.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#243447\">20 cm</text></svg></span><p>Bestäm vinkeln \\(v\\) mellan rymddiagonalen och bottenytan. (Svara i grader med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bottenytans diagonal med Pythagoras sats</p><div class=\"facit-matte\">\\[d=\\sqrt{40^2+30^2}=50\\ \\text{cm}\\]</div></li><li><p class=\"facit-rubrik\">Rymddiagonalen, bottendiagonalen och höjden bildar en rätvinklig triangel</p><p>Höjden 20 cm står vinkelrätt mot bottenytan och ligger mitt emot vinkeln v.</p></li><li><p class=\"facit-rubrik\">Använd tangens</p><div class=\"facit-matte\">\\[\\tan v=\\frac{20}{50}=0{,}4\\quad\\Rightarrow\\quad v\\approx21{,}8^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 21,8°.</p></div>",
+  "familj": "Trigonometri i rätvinkliga trianglar",
+  "formaga": [
+    "problemlösning",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Börja med diagonalen i bottenytan. Vilken rätvinklig triangel innehåller både den och rymddiagonalen?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 21.8,
+  "tolerans": 0.05,
+  "svarEnhet": "°"
+},
+{
+  "id": "4.591",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "två möjliga lägen för en staketstolpe",
+  "t": "<p>Ett 9 m långt staket \\(AC\\) bildar vinkeln 35° med en rak gräns som går ut från \\(A\\). Från \\(C\\) ska ett 6 m långt staket dras fram till gränsen. Det kan nå gränsen i två punkter.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"330\" height=\"250\" viewBox=\"0 0 330 250\" role=\"img\" aria-label=\"Ett staket AC är 9 m långt och bildar vinkeln 35 grader med en rak linje från A. Ett 6 m långt staket från C kan nå linjen i två punkter, B1 och B2.\"><title>Ett staket AC är 9 m långt och bildar vinkeln 35 grader med en rak linje från A. Ett 6 m långt staket från C kan nå linjen i två punkter, B1 och B2.</title><rect x=\"1\" y=\"1\" width=\"328\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"40.0\" y1=\"215.0\" x2=\"288.6\" y2=\"215.0\" stroke=\"#243447\" stroke-width=\"2\"/><line x1=\"40.0\" y1=\"215.0\" x2=\"202.2\" y2=\"101.4\" stroke=\"#2f7d4a\" stroke-width=\"2.6\"/><line x1=\"202.2\" y1=\"101.4\" x2=\"134.9\" y2=\"215.0\" stroke=\"#c2410c\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><line x1=\"202.2\" y1=\"101.4\" x2=\"269.5\" y2=\"215.0\" stroke=\"#c2410c\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><circle cx=\"134.9\" cy=\"215.0\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"269.5\" cy=\"215.0\" r=\"4.5\" fill=\"#c2410c\"/><path d=\"M74.0,215.0 A34,34 0 0 0 67.9,195.5\" fill=\"none\" stroke=\"#243447\" stroke-width=\"2\"/><text x=\"89.6\" y=\"204.4\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">35°</text><text x=\"34.0\" y=\"233.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">A</text><text x=\"202.2\" y=\"91.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">C</text><text x=\"109.1\" y=\"156.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#2f7d4a\">9 m</text><text x=\"134.9\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">B₁</text><text x=\"269.5\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">B₂</text><text x=\"247.8\" y=\"158.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#c2410c\">6 m</text></svg></span><p>Bestäm de två möjliga avstånden från \\(A\\) till punkten där det korta staketet når gränsen. (Svara i meter med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinussatsen ger vinkeln vid B</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{\\sin B}{9}=\\frac{\\sin35^\\circ}{6}\\\\\\Rightarrow \\sin B=\\frac{9\\sin35^\\circ}{6}\\approx0{,}860\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Två vinklar har det sinusvärdet</p><div class=\"facit-matte\">\\[\\begin{gathered}B_1\\approx59{,}4^\\circ\\\\B_2=180^\\circ-59{,}4^\\circ\\approx120{,}6^\\circ\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Vinkeln vid C i varje fall</p><div class=\"facit-matte\">\\[\\begin{gathered}C=180^\\circ-35^\\circ-B\\\\\\Rightarrow 85{,}6^\\circ\\ \\text{eller}\\ 24{,}4^\\circ\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Sidan AB ur sinussatsen</p><div class=\"facit-matte\">\\[AB=\\frac{6\\sin C}{\\sin35^\\circ}\\approx\\frac{6\\sin85{,}6^\\circ}{\\sin35^\\circ}\\approx10{,}4\\]</div><div class=\"facit-matte\">\\[AB\\approx\\frac{6\\sin24{,}4^\\circ}{\\sin35^\\circ}\\approx4{,}3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 4,3 m eller 10,4 m.</p></div>",
+  "familj": "Sinussatsen med två fall",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm först vinkeln vid B med sinussatsen. Hur många vinklar mellan 0° och 180° har samma sinusvärde?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    4.3,
+    10.4
+  ],
+  "tolerans": [
+    0.1,
+    0.1
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "AB",
+    "AB"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ],
+  "svarEnhet": [
+    "m",
+    "m"
+  ]
+},
+{
+  "id": "4.592",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "för vilka sidlängder det finns två trianglar",
+  "t": "<p>I triangeln \\(ABC\\) är \\(A=50^\\circ\\) och \\(b=10\\) cm. Sidan \\(a\\), mitt emot \\(A\\), kan väljas. För vilka längder på \\(a\\) finns det två olika trianglar? Ange gränserna för intervallet. (Svara i cm med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Avståndet från C till den andra sidan är höjden</p><div class=\"facit-matte\">\\[h=b\\sin A=10\\sin50^\\circ\\approx7{,}66\\ \\text{cm}\\]</div></li><li><p class=\"facit-rubrik\">Sidan a måste nå fram, men inte vara längre än b</p><p>Om \\(a\\lt h\\) når sidan inte fram. Om \\(a=h\\) blir triangeln rätvinklig. Om \\(a\\ge b\\) finns bara en triangel, eftersom den andra skärningspunkten hamnar på fel sida om A.</p></li><li><p class=\"facit-rubrik\">Två trianglar när a ligger mellan h och b</p><div class=\"facit-matte\">\\[7{,}66\\lt a\\lt10\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Två trianglar finns när \\(7{,}66\\lt a\\lt10\\) cm.</p></div>",
+  "familj": "Antal möjliga trianglar",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Rita sidan b och vinkeln A. Hur kort kan a vara och ändå nå den andra sidan? När träffar a den sidan två gånger?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    7.66,
+    10
+  ],
+  "tolerans": [
+    0.005,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a större än",
+    "a mindre än"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "4.593",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "trubbig vinkel och antalet trianglar",
+  "t": "<p>I triangeln \\(ABC\\) är \\(A=110^\\circ\\), \\(a=12\\) cm och \\(b=8\\) cm. Vilket påstående stämmer? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinussatsen ger sin B</p><div class=\"facit-matte\">\\[\\sin B=\\frac{8\\sin110^\\circ}{12}\\approx0{,}626\\]</div></li><li><p class=\"facit-rubrik\">Två vinklar har sinusvärdet 0,626</p><div class=\"facit-matte\">\\[B\\approx38{,}8^\\circ\\quad\\text{eller}\\quad B\\approx141{,}2^\\circ\\]</div></li><li><p class=\"facit-rubrik\">En triangel kan bara ha en trubbig vinkel</p><p>A är redan 110°. Med \\(B\\approx141{,}2^\\circ\\) skulle vinkelsumman bli större än 180°, så bara \\(B\\approx38{,}8^\\circ\\) fungerar.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det finns exakt en triangel.</p></div>",
+  "familj": "Antal möjliga trianglar",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Sinussatsen ger två vinklar B. Fungerar båda när A redan är trubbig?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "Det finns två trianglar, eftersom sin B har två lösningar",
+      "ratt": false,
+      "kommentar": "Den trubbiga lösningen B ≈ 141° går inte, eftersom A redan är 110°."
+    },
+    {
+      "txt": "Det finns ingen triangel, eftersom en trubbig vinkel inte fungerar i sinussatsen",
+      "ratt": false,
+      "kommentar": "Sinussatsen gäller i alla trianglar. Här ger den B ≈ 38,8°."
+    },
+    {
+      "txt": "Det finns exakt en triangel",
+      "ratt": true
+    },
+    {
+      "txt": "Antalet går inte att avgöra utan sidan c",
+      "ratt": false,
+      "kommentar": "A, a och b räcker. Den spetsiga lösningen för B ger en triangel, och den trubbiga gör det inte."
+    }
+  ]
+},
+{
+  "id": "4.594",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "båda möjliga värdena på den tredje vinkeln",
+  "t": "<p>I triangeln \\(ABC\\) är \\(A=25^\\circ\\), \\(a=5\\) cm och \\(b=8\\) cm. Bestäm de två möjliga värdena på vinkeln \\(C\\). (Svara i grader med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln B med sinussatsen</p><div class=\"facit-matte\">\\[\\begin{gathered}\\sin B=\\frac{8\\sin25^\\circ}{5}\\approx0{,}676\\\\\\Rightarrow B\\approx42{,}5^\\circ\\ \\text{eller}\\ 137{,}5^\\circ\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Båda fungerar, eftersom vinkelsumman blir mindre än 180°</p><div class=\"facit-matte\">\\[25^\\circ+137{,}5^\\circ=162{,}5^\\circ\\lt180^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Den tredje vinkeln är det som återstår av 180°</p><div class=\"facit-matte\">\\[C=180^\\circ-25^\\circ-42{,}5^\\circ\\approx112{,}5^\\circ\\]</div><div class=\"facit-matte\">\\[C=180^\\circ-25^\\circ-137{,}5^\\circ\\approx17{,}5^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C\\approx112{,}5^\\circ\\) eller \\(C\\approx17{,}5^\\circ\\)</p></div>",
+  "familj": "Sinussatsen med två fall",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm de två möjliga vinklarna B. Kontrollera att båda ryms i en triangel, och räkna sedan ut C.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    112.5,
+    17.5
+  ],
+  "tolerans": [
+    0.1,
+    0.1
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "C",
+    "C"
+  ],
+  "svarFormat": [
+    "grader",
+    "grader"
+  ]
+},
+{
+  "id": "4.595",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "när sinussatsen ger en rät vinkel",
+  "t": "<p>I triangeln \\(ABC\\) är \\(A=30^\\circ\\), \\(b=12\\) cm och \\(a=6\\) cm. Bestäm vinkeln \\(B\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinussatsen</p><div class=\"facit-matte\">\\[\\sin B=\\frac{12\\sin30^\\circ}{6}=\\frac{12\\cdot0{,}5}{6}=1\\]</div></li><li><p class=\"facit-rubrik\">Bara en vinkel har sinusvärdet 1</p><div class=\"facit-matte\">\\[B=90^\\circ\\]</div><p>Sidan a är precis lika lång som höjden \\(b\\sin A=6\\) cm. Därför finns bara en triangel, och den är rätvinklig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(B=90^\\circ\\)</p></div>",
+  "familj": "Antal möjliga trianglar",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Beräkna sin B med sinussatsen. Hur många vinklar mellan 0° och 180° har det sinusvärdet?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 90,
+  "tolerans": 0,
+  "svarEnhet": "°"
+},
+{
+  "id": "4.596",
+  "kap": 4,
+  "omr": "sinussatsen_tva_fall",
+  "kurs": [
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "arean av den större av två möjliga trianglar",
+  "t": "<p>I triangeln \\(ABC\\) är \\(A=32^\\circ\\), \\(a=6\\) cm och \\(b=9\\) cm. Det finns två trianglar med de måtten. Bestäm arean av den större. (Svara i cm² med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Vinkeln B i de två fallen</p><div class=\"facit-matte\">\\[\\begin{gathered}\\sin B=\\frac{9\\sin32^\\circ}{6}\\approx0{,}795\\\\\\Rightarrow B\\approx52{,}6^\\circ\\ \\text{eller}\\ 127{,}4^\\circ\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Vinkeln C mellan sidorna a och b</p><div class=\"facit-matte\">\\[C\\approx95{,}4^\\circ\\quad\\text{eller}\\quad C\\approx20{,}6^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Areasatsen med sidorna a och b</p><div class=\"facit-matte\">\\[T=\\frac12\\cdot6\\cdot9\\cdot\\sin C\\]</div><p>\\(\\sin95{,}4^\\circ\\approx0{,}996\\) är större än \\(\\sin20{,}6^\\circ\\approx0{,}352\\), så den större arean blir</p><div class=\"facit-matte\">\\[T\\approx27\\cdot0{,}996\\approx26{,}9\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 26,9 cm².</p></div>",
+  "familj": "Sinussatsen med två fall",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Bestäm båda möjliga vinklarna C mellan sidorna a och b. Vilken av dem ger störst värde på \\(\\sin C\\)?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 26.9,
+  "tolerans": 0.1,
+  "svarEnhet": "cm²"
 }
 
 ];

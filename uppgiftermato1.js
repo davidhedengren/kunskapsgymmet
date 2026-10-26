@@ -115819,7 +115819,7 @@ window.BANKMATO1 = [
   "poang": "0/1/0",
   "typ": "x-värden där derivatan har ett givet värde",
   "t": "<p>Funktionen är \\(f(x)=x^3-3x^2+2\\). För vilka \\(x\\) är \\(f'(x)=9\\)?</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera term för term</p><div class=\"facit-matte\">\\[f'(x)=3x^2-6x\\]</div><p>Konstanten 2 har derivatan 0.</p></li><li><p class=\"facit-rubrik\">Sätt derivatan lika med 9 och samla allt i ena ledet</p><div class=\"facit-matte\">\\[3x^2-6x=9\\quad\\Rightarrow\\quad x^2-2x-3=0\\]</div></li><li><p class=\"facit-rubrik\">Lös andragradsekvationen</p><div class=\"facit-matte\">\\[x=1\\pm\\sqrt{1+3}=1\\pm2\\]</div><p>Lösningarna är \\(x=3\\) och \\(x=-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\) eller \\(x=-1\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera term för term</p><div class=\"facit-matte\">\\[f'(x)=3x^2-6x\\]</div><p>Konstanten 2 har derivatan 0.</p></li><li><p class=\"facit-rubrik\">Sätt derivatan lika med 9 och samla allt i ena ledet</p><div class=\"facit-matte\">\\[3x^2-6x=9\\quad\\Rightarrow\\quad x^2-2x-3=0\\]</div></li><li><p class=\"facit-rubrik\">pq-formeln ger två x-värden</p><div class=\"facit-matte\">\\[x=1\\pm\\sqrt{1+3}=1\\pm2\\]</div><p>Lösningarna är \\(x=3\\) och \\(x=-1\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\) eller \\(x=-1\\)</p></div>",
   "familj": "Beräkna derivatans värde",
   "formaga": [
     "procedur"
@@ -117404,7 +117404,7 @@ window.BANKMATO1 = [
   "poang": "0/1/0",
   "typ": "areaförhållande när en sida delas",
   "t": "<p>Triangeln \\(ABC\\) har arean 24 cm². Punkten \\(D\\) ligger på sidan \\(AB\\) så att \\(AD:DB=1:2\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"250\" viewBox=\"0 0 400 250\" role=\"img\" aria-label=\"Triangeln ABC där punkten D ligger på sidan AB. Sträckan CD delar triangeln i en orange triangel ACD och en blå triangel DBC. AD är en tredjedel av AB.\"><title>Triangeln ABC där punkten D ligger på sidan AB. Sträckan CD delar triangeln i en orange triangel ACD och en blå triangel DBC. AD är en tredjedel av AB.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"248\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"60.0,210.0 153.3,210.0 150.0,50.0\" fill=\"#fdf0e8\" stroke=\"#c2410c\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><polygon points=\"153.3,210.0 340.0,210.0 150.0,50.0\" fill=\"#eef5f9\" stroke=\"#216d87\" stroke-width=\"2.4\" stroke-linejoin=\"round\"/><text x=\"46.2\" y=\"221.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">A</text><text x=\"354.2\" y=\"219.8\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">B</text><text x=\"145.5\" y=\"40.7\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">C</text><text x=\"153.3\" y=\"232.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#243447\" font-weight=\"bold\">D</text></svg></span><p>Bestäm arean av triangeln \\(ACD\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv båda areorna med areasatsen och vinkeln A</p><div class=\"facit-matte\">\\[\\begin{gathered}T_{ACD}=\\frac12\\cdot AD\\cdot AC\\cdot\\sin A,\\\\T_{ABC}=\\frac12\\cdot AB\\cdot AC\\cdot\\sin A\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Allt utom en sida är gemensamt</p><div class=\"facit-matte\">\\[\\frac{T_{ACD}}{T_{ABC}}=\\frac{AD}{AB}=\\frac13\\]</div><p>\\(AD:DB=1:2\\) betyder att AD är en tredjedel av AB.</p></li><li><p class=\"facit-rubrik\">Beräkna arean</p><div class=\"facit-matte\">\\[T_{ACD}=\\frac13\\cdot24=8\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 cm²</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv båda areorna med areasatsen och vinkeln A</p><div class=\"facit-matte\">\\[\\begin{gathered}T_{ACD}=\\frac12\\cdot AD\\cdot AC\\cdot\\sin A,\\\\T_{ABC}=\\frac12\\cdot AB\\cdot AC\\cdot\\sin A\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Allt utom en sida är gemensamt</p><div class=\"facit-matte\">\\[\\frac{T_{ACD}}{T_{ABC}}=\\frac{AD}{AB}=\\frac13\\]</div><p>\\(AD:DB=1:2\\) betyder att AD är en tredjedel av AB.</p></li><li><p class=\"facit-rubrik\">Arean av ACD är en tredjedel av 24 cm²</p><div class=\"facit-matte\">\\[T_{ACD}=\\frac13\\cdot24=8\\ \\text{cm}^2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 8 cm²</p></div>",
   "familj": "Areasatsen i sammansatta figurer och omvända problem",
   "formaga": [
     "problemlösning",
@@ -118256,7 +118256,7 @@ window.BANKMATO1 = [
   "poang": "0/1/0",
   "typ": "vinkeln mellan rymddiagonal och bottenyta",
   "t": "<p>En låda har formen av ett rätblock som är 40 cm långt, 30 cm djupt och 20 cm högt.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"260\" viewBox=\"0 0 400 260\" role=\"img\" aria-label=\"En rätblocksformad låda som är 40 cm lång, 30 cm djup och 20 cm hög. En rymddiagonal går från ett nedre främre hörn till det motsatta övre bakre hörnet. Bottenytans diagonal är streckad, och vinkeln v mellan rymddiagonalen och bottenytan är markerad.\"><title>En rätblocksformad låda som är 40 cm lång, 30 cm djup och 20 cm hög. En rymddiagonal går från ett nedre främre hörn till det motsatta övre bakre hörnet. Bottenytans diagonal är streckad, och vinkeln v mellan rymddiagonalen och bottenytan är markerad.</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"258\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><polygon points=\"70.0,215.0 230.0,215.0 230.0,135.0 70.0,135.0\" fill=\"#f4f7fa\" stroke=\"#243447\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"230.0,215.0 279.1,180.6 279.1,100.6 230.0,135.0\" fill=\"#e9eff4\" stroke=\"#243447\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><polygon points=\"70.0,135.0 230.0,135.0 279.1,100.6 119.1,100.6\" fill=\"#eef3f7\" stroke=\"#243447\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><line x1=\"70.0\" y1=\"215.0\" x2=\"119.1\" y2=\"180.6\" stroke=\"#5b6773\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"119.1\" y1=\"180.6\" x2=\"279.1\" y2=\"180.6\" stroke=\"#5b6773\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"119.1\" y1=\"180.6\" x2=\"119.1\" y2=\"100.6\" stroke=\"#5b6773\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"70.0\" y1=\"215.0\" x2=\"279.1\" y2=\"180.6\" stroke=\"#216d87\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><line x1=\"70.0\" y1=\"215.0\" x2=\"279.1\" y2=\"100.6\" stroke=\"#c2410c\" stroke-width=\"2.4\"/><path d=\"M113.4,207.9 A44,44 0 0 0 108.6,193.9\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"128.6\" y=\"199.8\" font-family=\"Arial,sans-serif\" font-size=\"14\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">v</text><text x=\"150.0\" y=\"235.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">40 cm</text><text x=\"268.6\" y=\"209.8\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#243447\">30 cm</text><text x=\"287.1\" y=\"145.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#243447\">20 cm</text></svg></span><p>Bestäm vinkeln \\(v\\) mellan rymddiagonalen och bottenytan. (Svara i grader med en decimal.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bottenytans diagonal med Pythagoras sats</p><div class=\"facit-matte\">\\[d=\\sqrt{40^2+30^2}=50\\ \\text{cm}\\]</div></li><li><p class=\"facit-rubrik\">Rymddiagonalen, bottendiagonalen och höjden bildar en rätvinklig triangel</p><p>Höjden 20 cm står vinkelrätt mot bottenytan och ligger mitt emot vinkeln v.</p></li><li><p class=\"facit-rubrik\">Använd tangens</p><div class=\"facit-matte\">\\[\\tan v=\\frac{20}{50}=0{,}4\\quad\\Rightarrow\\quad v\\approx21{,}8^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 21,8°.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bottenytans diagonal med Pythagoras sats</p><div class=\"facit-matte\">\\[d=\\sqrt{40^2+30^2}=50\\ \\text{cm}\\]</div></li><li><p class=\"facit-rubrik\">Rymddiagonalen, bottendiagonalen och höjden bildar en rätvinklig triangel</p><p>Höjden 20 cm står vinkelrätt mot bottenytan och ligger mitt emot vinkeln v.</p></li><li><p class=\"facit-rubrik\">Höjden och bottendiagonalen ger tan v</p><div class=\"facit-matte\">\\[\\tan v=\\frac{20}{50}=0{,}4\\quad\\Rightarrow\\quad v\\approx21{,}8^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 21,8°.</p></div>",
   "familj": "Trigonometri i rätvinkliga trianglar",
   "formaga": [
     "problemlösning",
@@ -118476,7 +118476,7 @@ window.BANKMATO1 = [
   "poang": "0/1/0",
   "typ": "när sinussatsen ger en rät vinkel",
   "t": "<p>I triangeln \\(ABC\\) är \\(A=30^\\circ\\), \\(b=12\\) cm och \\(a=6\\) cm. Bestäm vinkeln \\(B\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinussatsen</p><div class=\"facit-matte\">\\[\\sin B=\\frac{12\\sin30^\\circ}{6}=\\frac{12\\cdot0{,}5}{6}=1\\]</div></li><li><p class=\"facit-rubrik\">Bara en vinkel har sinusvärdet 1</p><div class=\"facit-matte\">\\[B=90^\\circ\\]</div><p>Sidan a är precis lika lång som höjden \\(b\\sin A=6\\) cm. Därför finns bara en triangel, och den är rätvinklig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(B=90^\\circ\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinussatsen ger sin B = 1</p><div class=\"facit-matte\">\\[\\sin B=\\frac{12\\sin30^\\circ}{6}=\\frac{12\\cdot0{,}5}{6}=1\\]</div></li><li><p class=\"facit-rubrik\">Bara en vinkel har sinusvärdet 1</p><div class=\"facit-matte\">\\[B=90^\\circ\\]</div><p>Sidan a är precis lika lång som höjden \\(b\\sin A=6\\) cm. Därför finns bara en triangel, och den är rätvinklig.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(B=90^\\circ\\)</p></div>",
   "familj": "Antal möjliga trianglar",
   "formaga": [
     "begrepp",
@@ -118568,7 +118568,7 @@ window.BANKMATO1 = [
   "poang": "0/1/0",
   "typ": "funktionsvärde när grafen går genom en given punkt",
   "t": "<p>För funktionen \\(f\\) gäller \\(f'(x)=3x^2-4x\\), och grafen går genom punkten \\((2,\\ 5)\\). Bestäm \\(f(3)\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm alla primitiva funktioner till derivatan</p><div class=\"facit-matte\">\\[f(x)=x^3-2x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Punkten (2, 5) bestämmer C</p><div class=\"facit-matte\">\\[\\begin{gathered}2^3-2\\cdot2^2+C=5\\\\\\Rightarrow 8-8+C=5\\quad \\Rightarrow C=5\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Beräkna funktionsvärdet</p><div class=\"facit-matte\">\\[f(3)=27-18+5=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(3)=14\\)</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm alla primitiva funktioner till derivatan</p><div class=\"facit-matte\">\\[f(x)=x^3-2x^2+C\\]</div></li><li><p class=\"facit-rubrik\">Punkten (2, 5) bestämmer C</p><div class=\"facit-matte\">\\[\\begin{gathered}2^3-2\\cdot2^2+C=5\\\\\\Rightarrow 8-8+C=5\\quad \\Rightarrow C=5\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in x = 3 i f(x) = x³ − 2x² + 5</p><div class=\"facit-matte\">\\[f(3)=27-18+5=14\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(3)=14\\)</p></div>",
   "familj": "Primitiv funktion genom en given punkt",
   "formaga": [
     "procedur"
@@ -118771,7 +118771,7 @@ window.BANKMATO1 = [
   "poang": "0/1/0",
   "typ": "största värdet antas i en ändpunkt",
   "t": "<p>Bestäm det största och det minsta värdet av \\(f(x)=x^3-6x^2+9x\\) på intervallet \\(0\\le x\\le5\\).</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hitta derivatans nollställen</p><div class=\"facit-matte\">\\[\\begin{gathered}f'(x) =3x^2-12x+9\\\\=3(x-1)(x-3) =0\\\\\\Rightarrow x=1,\\ x=3\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Beräkna f i nollställena och i intervallets ändpunkter</p><div class=\"facit-matte\">\\[\\begin{gathered}f(0)=0,\\quad f(1)=4,\\quad f(3)=0,\\\\f(5)=20\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Jämför värdena</p><p>Det största värdet är 20 och antas i ändpunkten \\(x=5\\), inte i den lokala maximipunkten. Det minsta värdet är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Största värdet är 20 och minsta värdet är 0.</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Hitta derivatans nollställen</p><div class=\"facit-matte\">\\[\\begin{gathered}f'(x) =3x^2-12x+9\\\\=3(x-1)(x-3) =0\\\\\\Rightarrow x=1,\\ x=3\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Beräkna f i nollställena och i intervallets ändpunkter</p><div class=\"facit-matte\">\\[\\begin{gathered}f(0)=0,\\quad f(1)=4,\\quad f(3)=0,\\\\f(5)=20\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Det största värdet ligger i ändpunkten x = 5</p><p>Det största värdet är 20 och antas i ändpunkten \\(x=5\\), inte i den lokala maximipunkten. Det minsta värdet är 0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Största värdet är 20 och minsta värdet är 0.</p></div>",
   "familj": "Största och minsta värde på ett intervall",
   "formaga": [
     "procedur",
@@ -118818,7 +118818,7 @@ window.BANKMATO1 = [
   "poang": "0/1/0",
   "typ": "största area för en hage mot en vägg",
   "t": "<p>Med 40 m stängsel ska man bygga en rektangulär hage mot en lång vägg. Väggen används som en av sidorna, så stängslet behövs bara på tre sidor.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"210\" viewBox=\"0 0 380 210\" role=\"img\" aria-label=\"En rektangulär hage mot en vägg. Stängslet består av två sidor med längden x och en sida med längden 40 minus 2x mittemot väggen.\"><title>En rektangulär hage mot en vägg. Stängslet består av två sidor med längden x och en sida med längden 40 minus 2x mittemot väggen.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"208\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><rect x=\"40\" y=\"30\" width=\"300\" height=\"14\" fill=\"#c9ced6\" stroke=\"#243447\" stroke-width=\"1.2\"/><text x=\"190.0\" y=\"25.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">vägg</text><path d=\"M80 44 L80 170 L300 170 L300 44\" fill=\"#eaf5ee\" stroke=\"#2f7d4a\" stroke-width=\"2.6\"/><text x=\"68.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"end\" fill=\"#2f7d4a\" font-weight=\"bold\">x</text><text x=\"312.0\" y=\"112.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#2f7d4a\" font-weight=\"bold\">x</text><text x=\"190.0\" y=\"192.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"middle\" fill=\"#2f7d4a\" font-weight=\"bold\">40 − 2x</text></svg></span><p>Hur stor kan hagens area bli som mest? (Svara i m².)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ställ upp arean som funktion av x</p><p>Sidan mitt emot väggen blir \\(40-2x\\) m.</p><div class=\"facit-matte\">\\[\\begin{gathered}A(x)=x(40-2x)=40x-2x^2,\\\\0\\lt x\\lt20\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Derivatan är 0 där arean är störst</p><div class=\"facit-matte\">\\[A'(x)=40-4x=0\\quad\\Rightarrow\\quad x=10\\]</div><p>Derivatan byter tecken från plus till minus, så det är ett maximum.</p></li><li><p class=\"facit-rubrik\">Beräkna arean</p><div class=\"facit-matte\">\\[A(10)=10\\cdot20=200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Som mest 200 m².</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ställ upp arean som funktion av x</p><p>Sidan mitt emot väggen blir \\(40-2x\\) m.</p><div class=\"facit-matte\">\\[\\begin{gathered}A(x)=x(40-2x)=40x-2x^2,\\\\0\\lt x\\lt20\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Derivatan är 0 där arean är störst</p><div class=\"facit-matte\">\\[A'(x)=40-4x=0\\quad\\Rightarrow\\quad x=10\\]</div><p>Derivatan byter tecken från plus till minus, så det är ett maximum.</p></li><li><p class=\"facit-rubrik\">Arean när x = 10 m</p><div class=\"facit-matte\">\\[A(10)=10\\cdot20=200\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Som mest 200 m².</p></div>",
   "familj": "Extremvärden och värdemängd",
   "formaga": [
     "modellering",
@@ -119623,7 +119623,7 @@ window.BANKMATO1 = [
   "poang": "0/1/0",
   "typ": "cykelfart ur tidsskillnad",
   "t": "<p>En cyklist kör 30 km. Om farten hade varit 5 km/h högre hade resan tagit en timme kortare tid. Vilken fart höll cyklisten? (Svara i km/h.)</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tiden är sträcka delat med fart</p><div class=\"facit-matte\">\\[\\frac{30}{v}-\\frac{30}{v+5}=1\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med \\(v(v+5)\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}30(v+5)-30v=v(v+5)\\\\\\Rightarrow 150=v^2+5v\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Lös andragradsekvationen</p><div class=\"facit-matte\">\\[\\begin{gathered}v^2+5v-150=0\\\\\\Rightarrow v=-\\frac52\\pm\\sqrt{\\frac{25}4+150}=-\\frac52\\pm\\frac{25}2\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Farten måste vara positiv</p><div class=\"facit-matte\">\\[v=10\\]</div><p>Kontroll: 30/10 = 3 h och 30/15 = 2 h, alltså en timme kortare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 km/h</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Tiden är sträcka delat med fart</p><div class=\"facit-matte\">\\[\\frac{30}{v}-\\frac{30}{v+5}=1\\]</div></li><li><p class=\"facit-rubrik\">Multiplicera med \\(v(v+5)\\)</p><div class=\"facit-matte\">\\[\\begin{gathered}30(v+5)-30v=v(v+5)\\\\\\Rightarrow 150=v^2+5v\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">pq-formeln ger två värden på farten</p><div class=\"facit-matte\">\\[\\begin{gathered}v^2+5v-150=0\\\\\\Rightarrow v=-\\frac52\\pm\\sqrt{\\frac{25}4+150}=-\\frac52\\pm\\frac{25}2\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Farten måste vara positiv</p><div class=\"facit-matte\">\\[v=10\\]</div><p>Kontroll: 30/10 = 3 h och 30/15 = 2 h, alltså en timme kortare.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 10 km/h</p></div>",
   "familj": "Rationella uttryck i problemlösning",
   "formaga": [
     "modellering",
@@ -119699,6 +119699,514 @@ window.BANKMATO1 = [
   "svarFormat": "uttryck",
   "rättSvar": "2/(x(x+2))",
   "tolerans": null
+},
+{
+  "id": "2.1271",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "jämföra genomsnittlig ökning under två perioder",
+  "t": "<p>Tabellen visar antalet invånare i en kommun.</p><table class=\"data\"><tbody><tr><th>år</th><td>2015</td><td>2018</td><td>2023</td></tr><tr><th>invånare</th><td>12 400</td><td>13 150</td><td>14 650</td></tr></tbody></table><p>Bestäm den genomsnittliga ökningen per år 2015–2018 och 2018–2023. (Svara i invånare per år.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ändringskvoten för den första perioden, som är 3 år</p><div class=\"facit-matte\">\\[\\frac{13\\,150-12\\,400}{2018-2015}=\\frac{750}{3}=250\\]</div></li><li><p class=\"facit-rubrik\">Ändringskvoten för den andra perioden, som är 5 år</p><div class=\"facit-matte\">\\[\\frac{14\\,650-13\\,150}{2023-2018}=\\frac{1\\,500}{5}=300\\]</div></li><li><p class=\"facit-rubrik\">Ökningen per år var störst 2018–2023</p><p>Ökningen var störst under den andra perioden, fast den totala ökningen måste delas med fler år.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 250 invånare per år 2015–2018 och 300 invånare per år 2018–2023.</p></div>",
+  "familj": "Genomsnittlig förändringshastighet i sammanhang",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Dela ökningen i antal med antalet år i varje period. Perioderna är olika långa.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    250,
+    300
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "2015–2018",
+    "2018–2023"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "2.1272",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "genomsnittlig förändring ur en graf",
+  "t": "<p>Grafen visar temperaturen \\(T\\) °C i en kyld låda \\(t\\) timmar efter att kylningen startade. Två punkter på grafen är markerade.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\" role=\"img\" aria-label=\"Grafen visar temperaturen T i grader Celsius mot tiden t i timmar. Kurvan sjunker från 22 grader vid t = 0. De markerade punkterna är (2, 14) och (6, 4).\"><title>Grafen visar temperaturen T i grader Celsius mot tiden t i timmar. Kurvan sjunker från 22 grader vid t = 0. De markerade punkterna är (2, 14) och (6, 4).</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"298\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"24\" x2=\"50.0\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"90.0\" y1=\"24\" x2=\"90.0\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"130.0\" y1=\"24\" x2=\"130.0\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"170.0\" y1=\"24\" x2=\"170.0\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"210.0\" y1=\"24\" x2=\"210.0\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"250.0\" y1=\"24\" x2=\"250.0\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"290.0\" y1=\"24\" x2=\"290.0\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"330.0\" y1=\"24\" x2=\"330.0\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"370.0\" y1=\"24\" x2=\"370.0\" y2=\"266\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"266.0\" x2=\"370\" y2=\"266.0\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"225.7\" x2=\"370\" y2=\"225.7\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"185.3\" x2=\"370\" y2=\"185.3\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"145.0\" x2=\"370\" y2=\"145.0\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"104.7\" x2=\"370\" y2=\"104.7\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"64.3\" x2=\"370\" y2=\"64.3\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"24.0\" x2=\"370\" y2=\"24.0\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"266.0\" x2=\"378\" y2=\"266.0\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"50.0\" y1=\"266\" x2=\"50.0\" y2=\"16\" stroke=\"#34495e\" stroke-width=\"1.6\"/><polyline points=\"50.0,44.2 50.8,45.1 51.6,46.0 52.4,46.9 53.2,47.8 54.0,48.7 54.8,49.6 55.6,50.5 56.4,51.4 57.2,52.3 58.0,53.1 58.8,54.0 59.6,54.9 60.4,55.8 61.2,56.7 62.0,57.6 62.8,58.4 63.6,59.3 64.4,60.2 65.2,61.0 66.0,61.9 66.8,62.8 67.6,63.6 68.4,64.5 69.2,65.4 70.0,66.2 70.8,67.1 71.6,67.9 72.4,68.8 73.2,69.6 74.0,70.5 74.8,71.3 75.6,72.2 76.4,73.0 77.2,73.9 78.0,74.7 78.8,75.5 79.6,76.4 80.4,77.2 81.2,78.0 82.0,78.9 82.8,79.7 83.6,80.5 84.4,81.3 85.2,82.1 86.0,83.0 86.8,83.8 87.6,84.6 88.4,85.4 89.2,86.2 90.0,87.0 90.8,87.8 91.6,88.6 92.4,89.4 93.2,90.2 94.0,91.0 94.8,91.8 95.6,92.6 96.4,93.4 97.2,94.2 98.0,95.0 98.8,95.8 99.6,96.6 100.4,97.3 101.2,98.1 102.0,98.9 102.8,99.7 103.6,100.4 104.4,101.2 105.2,102.0 106.0,102.8 106.8,103.5 107.6,104.3 108.4,105.0 109.2,105.8 110.0,106.6 110.8,107.3 111.6,108.1 112.4,108.8 113.2,109.6 114.0,110.3 114.8,111.1 115.6,111.8 116.4,112.5 117.2,113.3 118.0,114.0 118.8,114.8 119.6,115.5 120.4,116.2 121.2,116.9 122.0,117.7 122.8,118.4 123.6,119.1 124.4,119.8 125.2,120.6 126.0,121.3 126.8,122.0 127.6,122.7 128.4,123.4 129.2,124.1 130.0,124.8 130.8,125.5 131.6,126.2 132.4,126.9 133.2,127.6 134.0,128.3 134.8,129.0 135.6,129.7 136.4,130.4 137.2,131.1 138.0,131.8 138.8,132.5 139.6,133.2 140.4,133.8 141.2,134.5 142.0,135.2 142.8,135.9 143.6,136.5 144.4,137.2 145.2,137.9 146.0,138.5 146.8,139.2 147.6,139.9 148.4,140.5 149.2,141.2 150.0,141.8 150.8,142.5 151.6,143.2 152.4,143.8 153.2,144.5 154.0,145.1 154.8,145.7 155.6,146.4 156.4,147.0 157.2,147.7 158.0,148.3 158.8,148.9 159.6,149.6 160.4,150.2 161.2,150.8 162.0,151.5 162.8,152.1 163.6,152.7 164.4,153.3 165.2,153.9 166.0,154.6 166.8,155.2 167.6,155.8 168.4,156.4 169.2,157.0 170.0,157.6 170.8,158.2 171.6,158.8 172.4,159.4 173.2,160.0 174.0,160.6 174.8,161.2 175.6,161.8 176.4,162.4 177.2,163.0 178.0,163.6 178.8,164.1 179.6,164.7 180.4,165.3 181.2,165.9 182.0,166.5 182.8,167.0 183.6,167.6 184.4,168.2 185.2,168.7 186.0,169.3 186.8,169.9 187.6,170.4 188.4,171.0 189.2,171.5 190.0,172.1 190.8,172.7 191.6,173.2 192.4,173.8 193.2,174.3 194.0,174.8 194.8,175.4 195.6,175.9 196.4,176.5 197.2,177.0 198.0,177.5 198.8,178.1 199.6,178.6 200.4,179.1 201.2,179.7 202.0,180.2 202.8,180.7 203.6,181.2 204.4,181.8 205.2,182.3 206.0,182.8 206.8,183.3 207.6,183.8 208.4,184.3 209.2,184.8 210.0,185.3 210.8,185.8 211.6,186.3 212.4,186.8 213.2,187.3 214.0,187.8 214.8,188.3 215.6,188.8 216.4,189.3 217.2,189.8 218.0,190.3 218.8,190.8 219.6,191.2 220.4,191.7 221.2,192.2 222.0,192.7 222.8,193.1 223.6,193.6 224.4,194.1 225.2,194.5 226.0,195.0 226.8,195.5 227.6,195.9 228.4,196.4 229.2,196.9 230.0,197.3 230.8,197.8 231.6,198.2 232.4,198.7 233.2,199.1 234.0,199.6 234.8,200.0 235.6,200.4 236.4,200.9 237.2,201.3 238.0,201.7 238.8,202.2 239.6,202.6 240.4,203.0 241.2,203.5 242.0,203.9 242.8,204.3 243.6,204.7 244.4,205.1 245.2,205.6 246.0,206.0 246.8,206.4 247.6,206.8 248.4,207.2 249.2,207.6 250.0,208.0 250.8,208.4 251.6,208.8 252.4,209.2 253.2,209.6 254.0,210.0 254.8,210.4 255.6,210.8 256.4,211.2 257.2,211.6 258.0,212.0 258.8,212.3 259.6,212.7 260.4,213.1 261.2,213.5 262.0,213.8 262.8,214.2 263.6,214.6 264.4,215.0 265.2,215.3 266.0,215.7 266.8,216.0 267.6,216.4 268.4,216.8 269.2,217.1 270.0,217.5 270.8,217.8 271.6,218.2 272.4,218.5 273.2,218.9 274.0,219.2 274.8,219.6 275.6,219.9 276.4,220.2 277.2,220.6 278.0,220.9 278.8,221.2 279.6,221.6 280.4,221.9 281.2,222.2 282.0,222.5 282.8,222.9 283.6,223.2 284.4,223.5 285.2,223.8 286.0,224.1 286.8,224.4 287.6,224.8 288.4,225.1 289.2,225.4 290.0,225.7 290.8,226.0 291.6,226.3 292.4,226.6 293.2,226.9 294.0,227.2 294.8,227.4 295.6,227.7 296.4,228.0 297.2,228.3 298.0,228.6 298.8,228.9 299.6,229.2 300.4,229.4 301.2,229.7 302.0,230.0 302.8,230.2 303.6,230.5 304.4,230.8 305.2,231.1 306.0,231.3 306.8,231.6 307.6,231.8 308.4,232.1 309.2,232.3 310.0,232.6 310.8,232.9 311.6,233.1 312.4,233.3 313.2,233.6 314.0,233.8 314.8,234.1 315.6,234.3 316.4,234.6 317.2,234.8 318.0,235.0 318.8,235.2 319.6,235.5 320.4,235.7 321.2,235.9 322.0,236.2 322.8,236.4 323.6,236.6 324.4,236.8 325.2,237.0 326.0,237.2 326.8,237.4 327.6,237.7 328.4,237.9 329.2,238.1 330.0,238.3 330.8,238.5 331.6,238.7 332.4,238.9 333.2,239.1 334.0,239.3 334.8,239.4 335.6,239.6 336.4,239.8 337.2,240.0 338.0,240.2 338.8,240.4 339.6,240.5 340.4,240.7 341.2,240.9 342.0,241.1 342.8,241.2 343.6,241.4 344.4,241.6 345.2,241.7 346.0,241.9 346.8,242.1 347.6,242.2 348.4,242.4 349.2,242.5 350.0,242.7 350.8,242.8 351.6,243.0 352.4,243.1 353.2,243.3 354.0,243.4 354.8,243.6 355.6,243.7 356.4,243.8 357.2,244.0 358.0,244.1 358.8,244.2 359.6,244.4 360.4,244.5 361.2,244.6 362.0,244.7 362.8,244.8 363.6,245.0 364.4,245.1 365.2,245.2 366.0,245.3 366.8,245.4 367.6,245.5 368.4,245.6 369.2,245.7 370.0,245.8\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"130.0\" cy=\"124.8\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"290.0\" cy=\"225.7\" r=\"4.5\" fill=\"#c2410c\"/><text x=\"90.0\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><text x=\"130.0\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><text x=\"170.0\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><text x=\"210.0\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><text x=\"250.0\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><text x=\"290.0\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><text x=\"330.0\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">7</text><text x=\"370.0\" y=\"283.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">8</text><text x=\"43.0\" y=\"229.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><text x=\"43.0\" y=\"189.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">8</text><text x=\"43.0\" y=\"149.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">12</text><text x=\"43.0\" y=\"108.7\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">16</text><text x=\"43.0\" y=\"68.3\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">20</text><text x=\"43.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">24</text><text x=\"382.0\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">t</text><text x=\"57.0\" y=\"14.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">T</text></svg></span><p>Bestäm den genomsnittliga förändringshastigheten för temperaturen mellan \\(t=2\\) och \\(t=6\\). (Svara i °C/h.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av de markerade punkterna</p><p>Vid \\(t=2\\) är \\(T=14\\), och vid \\(t=6\\) är \\(T=4\\).</p></li><li><p class=\"facit-rubrik\">Ändringskvoten är förändringen i T delad med förändringen i t</p><div class=\"facit-matte\">\\[\\frac{\\Delta T}{\\Delta t}=\\frac{4-14}{6-2}=\\frac{-10}{4}=-2{,}5\\]</div></li><li><p class=\"facit-rubrik\">Tolka tecknet</p><p>Temperaturen sjunker i genomsnitt med 2,5 °C per timme under perioden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> −2,5 °C/h</p></div>",
+  "familj": "Förändring ur grafer, tabeller och sammanhang",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Läs av temperaturen vid båda tidpunkterna. Blir förändringen positiv eller negativ?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": -2.5,
+  "tolerans": 0,
+  "svarEnhet": "°C/h"
+},
+{
+  "id": "2.1273",
+  "kap": 2,
+  "omr": "andringskvoter",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "genomsnittlig ökning för exponentiell tillväxt",
+  "t": "<p>Antalet bakterier i en odling är \\(N(t)=500\\cdot2^t\\), där \\(t\\) är tiden i timmar. Hur stor är den genomsnittliga ökningen per timme mellan \\(t=2\\) och \\(t=5\\)? (Svara med ett heltal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna antalet vid båda tidpunkterna</p><div class=\"facit-matte\">\\[\\begin{gathered}N(2)=500\\cdot4=2\\,000,\\\\N(5)=500\\cdot32=16\\,000\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Ökningen delas med de 3 timmarna</p><div class=\"facit-matte\">\\[\\frac{16\\,000-2\\,000}{5-2}=\\frac{14\\,000}{3}\\approx4\\,667\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 4 667 bakterier per timme.</p></div>",
+  "familj": "Genomsnittlig förändringshastighet i sammanhang",
+  "formaga": [
+    "procedur",
+    "modellering"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Räkna ut antalet bakterier vid t = 2 och t = 5. Hur många timmar går det mellan tidpunkterna?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4667,
+  "tolerans": 0.5,
+  "svarEnhet": "bakterier/h"
+},
+{
+  "id": "2.1274",
+  "kap": 2,
+  "omr": "derivata_exponential",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "funktion ur sambandet f′ = kf",
+  "t": "<p>För en funktion gäller \\(f'(x)=0{,}3\\cdot f(x)\\) och \\(f(0)=50\\). Bestäm \\(f(5)\\). (Svara med ett heltal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan är proportionell mot funktionen</p><p>Då är funktionen en exponentialfunktion med basen e.</p><div class=\"facit-matte\">\\[f(x)=C\\cdot e^{0{,}3x}\\]</div></li><li><p class=\"facit-rubrik\">Startvärdet ger C</p><div class=\"facit-matte\">\\[f(0)=C=50\\]</div></li><li><p class=\"facit-rubrik\">Beräkna f(5)</p><div class=\"facit-matte\">\\[f(5)=50\\cdot e^{1{,}5}\\approx224\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(5)\\approx224\\)</p></div>",
+  "familj": "Derivatan är proportionell mot funktionsvärdet",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilken sorts funktion har en derivata som är en konstant gånger funktionen själv?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 224,
+  "tolerans": 0.5
+},
+{
+  "id": "2.1275",
+  "kap": 2,
+  "omr": "derivata_exponential",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "C och k ur en tabell med funktion och derivata",
+  "t": "<p>Funktionen \\(f(x)=Ce^{kx}\\) har värdena i tabellen. Värdena är avrundade till två decimaler.</p><table class=\"data\"><tbody><tr><th>\\(x\\)</th><td>0</td><td>2</td><td>4</td></tr><tr><th>\\(f(x)\\)</th><td>12,00</td><td>7,28</td><td>4,41</td></tr><tr><th>\\(f'(x)\\)</th><td>−3,00</td><td>−1,82</td><td>−1,10</td></tr></tbody></table><p>Bestäm \\(C\\) och \\(k\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">C är funktionsvärdet när x = 0</p><div class=\"facit-matte\">\\[f(0)=C\\cdot e^0=C=12\\]</div></li><li><p class=\"facit-rubrik\">För \\(Ce^{kx}\\) gäller \\(f'(x)=k\\cdot f(x)\\)</p><p>Kvoten mellan derivatan och funktionsvärdet är därför k i varje kolumn.</p><div class=\"facit-matte\">\\[k=\\frac{f'(0)}{f(0)}=\\frac{-3}{12}=-0{,}25\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera med en annan kolumn</p><div class=\"facit-matte\">\\[\\frac{-1{,}82}{7{,}28}\\approx-0{,}25\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(C=12\\) och \\(k=-0{,}25\\)</p></div>",
+  "familj": "Proportionalitet i grafer och tabeller",
+  "formaga": [
+    "begrepp",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vad är \\(f(0)\\)? Jämför \\(f'(x)\\) med \\(f(x)\\) i varje kolumn.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    12,
+    -0.25
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "C",
+    "k"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "2.1276",
+  "kap": 2,
+  "omr": "derivata_exponential",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "minskningstakt ur en proportionalitet",
+  "t": "<p>Massan \\(M\\) gram av ett radioaktivt ämne minskar så att \\(M'(t)=-0{,}12\\cdot M(t)\\), där \\(t\\) mäts i år. Hur snabbt minskar massan när det finns 40 g kvar? (Svara i g per år.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sätt in M = 40 i sambandet</p><div class=\"facit-matte\">\\[M'(t)=-0{,}12\\cdot40=-4{,}8\\]</div></li><li><p class=\"facit-rubrik\">Tolka derivatan</p><p>Derivatan är negativ, så massan minskar med 4,8 g per år just då. Hur lång tid det har gått behöver man inte veta.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4,8 g per år</p></div>",
+  "familj": "Derivatan är proportionell mot funktionsvärdet",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Sambandet ger derivatan direkt när du känner massan. Du behöver inte veta tiden.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4.8,
+  "tolerans": 0,
+  "svarEnhet": "g/år"
+},
+{
+  "id": "2.1277",
+  "kap": 2,
+  "omr": "numerisk_derivering",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "hastighet med central differenskvot",
+  "t": "<p>Tabellen visar hur långt en kula har rullat vid tre tidpunkter.</p><table class=\"data\"><tbody><tr><th>t (s)</th><td>2,9</td><td>3,0</td><td>3,1</td></tr><tr><th>s (m)</th><td>33,64</td><td>36,00</td><td>38,44</td></tr></tbody></table><p>Uppskatta kulans hastighet när \\(t=3{,}0\\) s med en central differenskvot. (Svara i m/s.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En central differenskvot använder punkter på båda sidor om t = 3,0</p><div class=\"facit-matte\">\\[s'(3{,}0)\\approx\\frac{s(3{,}1)-s(2{,}9)}{3{,}1-2{,}9}\\]</div></li><li><p class=\"facit-rubrik\">Sträckan 4,80 m på 0,2 s</p><div class=\"facit-matte\">\\[\\frac{38{,}44-33{,}64}{0{,}2}=\\frac{4{,}80}{0{,}2}=24\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 24 m/s.</p></div>",
+  "familj": "Numerisk derivering och tangenter med digitalt verktyg",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Använd värdena precis före och precis efter t = 3,0. Vilket tidsintervall blir det?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 24,
+  "tolerans": 0.05,
+  "svarEnhet": "m/s"
+},
+{
+  "id": "2.1278",
+  "kap": 2,
+  "omr": "numerisk_derivering",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "minimipunkt med digitalt verktyg",
+  "t": "<p>Använd ett digitalt verktyg och bestäm minimipunkten till \\(f(x)=e^x-3x\\). (Svara med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Rita grafen och använd verktygets funktion för extrempunkter</p><p>Verktyget ger minimipunkten ungefär \\((1{,}10;\\ -0{,}30)\\).</p></li><li><p class=\"facit-rubrik\">Kontroll med derivatan</p><div class=\"facit-matte\">\\[\\begin{gathered}f'(x)=e^x-3=0\\\\\\Rightarrow x=\\ln3\\approx1{,}10\\end{gathered}\\]</div><div class=\"facit-matte\">\\[f(\\ln3)=3-3\\ln3\\approx-0{,}30\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Minimipunkten är ungefär \\((1{,}10;\\ -0{,}30)\\).</p></div>",
+  "familj": "Analysera funktioner med digitalt verktyg",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": true,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Rita grafen och använd verktygets kommando för extrempunkter. Kontrollera att derivatan är 0 där.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    1.1,
+    -0.3
+  ],
+  "tolerans": [
+    0.005,
+    0.005
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "x",
+    "y"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "2.1279",
+  "kap": 2,
+  "omr": "derivatans_definition",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "derivatans definition för ett andragradspolynom",
+  "t": "<p>Använd derivatans definition för att bestämma \\(f'(2)\\) när \\(f(x)=x^2+3x\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skriv differenskvoten</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{f(2+h)-f(2)}{h}\\\\=\\frac{(2+h)^2+3(2+h)-10}{h}\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Utveckla täljaren</p><div class=\"facit-matte\">\\[(4+4h+h^2)+(6+3h)-10=7h+h^2\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med h och låt h gå mot 0</p><div class=\"facit-matte\">\\[\\frac{7h+h^2}{h}=7+h\\ \\to\\ 7\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f'(2)=7\\)</p></div>",
+  "familj": "Derivatans definition",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Sätt in \\(2+h\\) och 2 i \\(f\\), förenkla täljaren och förkorta med h innan du låter h gå mot 0.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 7,
+  "tolerans": 0
+},
+{
+  "id": "2.1280",
+  "kap": 2,
+  "omr": "derivatans_definition",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "tolka ett gränsvärde som en derivata",
+  "t": "<p>Bestäm gränsvärdet genom att tolka det som derivatan av en funktion i en punkt:</p><p>\\[\\lim_{h\\to0}\\frac{\\sqrt{9+h}-3}{h}\\]</p><p>Svara exakt.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Jämför med derivatans definition</p><div class=\"facit-matte\">\\[f'(a)=\\lim_{h\\to0}\\frac{f(a+h)-f(a)}{h}\\]</div><p>Med \\(f(x)=\\sqrt x\\) och \\(a=9\\) är \\(f(9)=3\\), och gränsvärdet är \\(f'(9)\\).</p></li><li><p class=\"facit-rubrik\">Derivera \\(\\sqrt x=x^{1/2}\\)</p><div class=\"facit-matte\">\\[f'(x)=\\frac12x^{-1/2}=\\frac{1}{2\\sqrt x}\\]</div></li><li><p class=\"facit-rubrik\">Sätt in x = 9</p><div class=\"facit-matte\">\\[f'(9)=\\frac{1}{2\\cdot3}=\\frac16\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\dfrac16\\)</p></div>",
+  "familj": "Tolka differenskvoter och gränsvärden",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilken funktion f och vilken punkt a ger exakt det här uttrycket i derivatans definition?</p>",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "rättSvar": "1/6",
+  "tolerans": null
+},
+{
+  "id": "2.1281",
+  "kap": 2,
+  "omr": "derivata_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "intervall där funktionen är avtagande",
+  "t": "<p>För vilka \\(x\\) är funktionen \\(f(x)=2x^3+3x^2-12x\\) avtagande? Ange gränserna för intervallet.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och faktorisera</p><div class=\"facit-matte\">\\[\\begin{gathered}f'(x) =6x^2+6x-12 =6(x^2+x-2)\\\\=6(x+2)(x-1)\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Funktionen är avtagande där derivatan är negativ</p><p>Derivatan är en parabel som öppnar uppåt med nollställena \\(-2\\) och 1. Den är negativ mellan nollställena.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f\\) är avtagande när \\(-2\\le x\\le1\\).</p></div>",
+  "familj": "Derivatans tecken",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Derivera och bestäm derivatans nollställen. Var är derivatan negativ?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    -2,
+    1
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "x större än",
+    "x mindre än"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "2.1282",
+  "kap": 2,
+  "omr": "derivata_polynom",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "två konstanter ur en extrempunkt",
+  "t": "<p>Funktionen \\(f(x)=x^3+ax^2+bx\\) har en extrempunkt i \\((1,\\ -2)\\). Bestäm \\(a\\) och \\(b\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">I en extrempunkt är derivatan 0</p><div class=\"facit-matte\">\\[\\begin{gathered}f'(x)=3x^2+2ax+b,\\\\f'(1)=3+2a+b=0\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Punkten ligger på grafen</p><div class=\"facit-matte\">\\[\\begin{gathered}f(1)=1+a+b=-2\\\\\\Rightarrow a+b=-3\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Subtrahera den andra ekvationen från den första</p><div class=\"facit-matte\">\\[\\begin{cases}2a+b=-3\\\\a+b=-3\\end{cases}\\quad\\Rightarrow\\quad a=0,\\ b=-3\\]</div><p>Kontroll: \\(f(x)=x^3-3x\\) ger \\(f'(1)=0\\) och \\(f(1)=-2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=0\\) och \\(b=-3\\)</p></div>",
+  "familj": "Parameterproblem med derivata",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>En extrempunkt ger två villkor: derivatan är 0 där, och punkten ligger på grafen.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    0,
+    -3
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "a",
+    "b"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "2.1283",
+  "kap": 2,
+  "omr": "talet_e",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "var tangenten har en given lutning",
+  "t": "<p>I vilken punkt har grafen till \\(f(x)=e^{2x}\\) en tangent med lutningen 6? Ange x-koordinaten. (Svara med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(e^{2x}\\) är \\(2e^{2x}\\)</p><div class=\"facit-matte\">\\[f'(x)=2e^{2x}\\]</div></li><li><p class=\"facit-rubrik\">Sätt derivatan lika med 6</p><div class=\"facit-matte\">\\[2e^{2x}=6\\quad\\Rightarrow\\quad e^{2x}=3\\]</div></li><li><p class=\"facit-rubrik\">Ta naturliga logaritmen av båda leden</p><div class=\"facit-matte\">\\[2x=\\ln3\\quad\\Rightarrow\\quad x=\\frac{\\ln3}{2}\\approx0{,}55\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx0{,}55\\)</p></div>",
+  "familj": "Tangenter och lutning för e^kx",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Derivera, sätt derivatan lika med 6 och lös ekvationen med naturliga logaritmen.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.55,
+  "tolerans": 0.005
+},
+{
+  "id": "2.1284",
+  "kap": 2,
+  "omr": "talet_e",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "när ett läkemedel minskar med en viss takt",
+  "t": "<p>Mängden läkemedel i kroppen är \\(M(t)=200e^{-0{,}25t}\\) mg, där \\(t\\) är tiden i timmar. När minskar mängden med 10 mg per timme? (Svara i timmar med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivatan av \\(Ce^{kt}\\) är \\(kCe^{kt}\\)</p><div class=\"facit-matte\">\\[M'(t)=200\\cdot(-0{,}25)e^{-0{,}25t}\\]</div><div class=\"facit-matte\">\\[=-50e^{-0{,}25t}\\]</div></li><li><p class=\"facit-rubrik\">Minskningen 10 mg/h betyder att derivatan är −10</p><div class=\"facit-matte\">\\[-50e^{-0{,}25t}=-10\\]</div><div class=\"facit-matte\">\\[e^{-0{,}25t}=0{,}2\\]</div></li><li><p class=\"facit-rubrik\">Ta naturliga logaritmen av båda leden</p><div class=\"facit-matte\">\\[-0{,}25t=\\ln0{,}2\\]</div><div class=\"facit-matte\">\\[t=\\frac{\\ln0{,}2}{-0{,}25}\\approx6{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Efter ungefär 6,4 timmar.</p></div>",
+  "familj": "Talet e i grafer och modeller",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Minskningstakten är derivatan. Vilket värde ska derivatan ha? Lös sedan ekvationen med logaritmer.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 6.4,
+  "tolerans": 0.05,
+  "svarEnhet": "h"
 }
 
 ];

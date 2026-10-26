@@ -118158,6 +118158,290 @@ window.BANKMATO1 = [
   "svarFormat": "numeriskt",
   "rättSvar": -0.917,
   "tolerans": 0.0005
+},
+{
+  "id": "4.579",
+  "kap": 4,
+  "omr": "trig_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "skriv om ekvationen innan sinus löses ut",
+  "t": "<p>Lös ekvationen \\(3\\sin x-1=0{,}2\\) för \\(0^\\circ\\le x\\lt360^\\circ\\). (Svara med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut \\(\\sin x\\)</p><div class=\"facit-matte\">\\[3\\sin x=1{,}2\\quad\\Rightarrow\\quad\\sin x=0{,}4\\]</div></li><li><p class=\"facit-rubrik\">Räknaren ger lösningen i första kvadranten</p><div class=\"facit-matte\">\\[x=\\sin^{-1}0{,}4\\approx23{,}6^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sinus är också positiv i andra kvadranten</p><div class=\"facit-matte\">\\[x=180^\\circ-23{,}6^\\circ=156{,}4^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx23{,}6^\\circ\\) eller \\(x\\approx156{,}4^\\circ\\)</p></div>",
+  "familj": "Lösa trigonometriska ekvationer",
+  "formaga": [
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Lös först ut \\(\\sin x\\). I vilka kvadranter är sinus positiv?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    23.6,
+    156.4
+  ],
+  "tolerans": [
+    0.05,
+    0.05
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x",
+    "x"
+  ],
+  "svarFormat": [
+    "grader",
+    "grader"
+  ]
+},
+{
+  "id": "4.580",
+  "kap": 4,
+  "omr": "trig_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "exakta lösningar när sinus är negativ",
+  "t": "<p>Lös ekvationen \\(2\\sin x+\\sqrt3=0\\) för \\(0^\\circ\\le x\\lt360^\\circ\\). Svara exakt.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lös ut \\(\\sin x\\)</p><div class=\"facit-matte\">\\[\\sin x=-\\frac{\\sqrt3}{2}\\]</div></li><li><p class=\"facit-rubrik\">Referensvinkeln, där \\(\\sin v=\\frac{\\sqrt3}{2}\\)</p><div class=\"facit-matte\">\\[v=60^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Sinus är negativ i tredje och fjärde kvadranten</p><div class=\"facit-matte\">\\[\\begin{gathered}x=180^\\circ+60^\\circ=240^\\circ,\\\\x=360^\\circ-60^\\circ=300^\\circ\\end{gathered}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=240^\\circ\\) eller \\(x=300^\\circ\\)</p></div>",
+  "familj": "Lösa trigonometriska ekvationer",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Lös ut \\(\\sin x\\). Vilken vinkel i första kvadranten har sinusvärdet \\(\\frac{\\sqrt3}{2}\\)? Var på enhetscirkeln är y-koordinaten negativ?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    240,
+    300
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x",
+    "x"
+  ],
+  "svarFormat": [
+    "grader",
+    "grader"
+  ]
+},
+{
+  "id": "4.581",
+  "kap": 4,
+  "omr": "trig_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "ekvation med tangens",
+  "t": "<p>Lös ekvationen \\(\\tan x=\\sqrt3\\) för \\(0^\\circ\\le x\\lt360^\\circ\\). Svara exakt.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Referensvinkeln</p><div class=\"facit-matte\">\\[\\tan60^\\circ=\\frac{\\sin60^\\circ}{\\cos60^\\circ}=\\frac{\\sqrt3/2}{1/2}=\\sqrt3\\]</div></li><li><p class=\"facit-rubrik\">Tangens är positiv där sinus och cosinus har samma tecken</p><p>Det gäller i första och tredje kvadranten. Tangens upprepas var 180:e grad.</p></li><li><p class=\"facit-rubrik\">Den andra lösningen</p><div class=\"facit-matte\">\\[x=60^\\circ+180^\\circ=240^\\circ\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=60^\\circ\\) eller \\(x=240^\\circ\\)</p></div>",
+  "familj": "Lösa trigonometriska ekvationer",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilken vinkel i första kvadranten har \\(\\tan v=\\sqrt3\\)? I vilken mer kvadrant är tangens positiv?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    60,
+    240
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x",
+    "x"
+  ],
+  "svarFormat": [
+    "grader",
+    "grader"
+  ]
+},
+{
+  "id": "4.582",
+  "kap": 4,
+  "omr": "trig_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "höjd i ett pariserhjul",
+  "t": "<p>En gondol i ett pariserhjul befinner sig \\(h(v)=20-18\\cos v\\) meter över marken, där \\(v\\) är hur många grader hjulet har vridit sig sedan gondolen var längst ner. För vilka vinklar under det första varvet, \\(0^\\circ\\le v\\lt360^\\circ\\), är gondolen 11 m över marken?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ställ upp ekvationen och lös ut cos v</p><div class=\"facit-matte\">\\[\\begin{gathered}20-18\\cos v=11\\\\\\Rightarrow -18\\cos v=-9\\quad \\Rightarrow \\cos v=\\frac12\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Vinkeln i första kvadranten där \\(\\cos v=\\frac12\\)</p><div class=\"facit-matte\">\\[v=60^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Cosinus är också positiv i fjärde kvadranten</p><div class=\"facit-matte\">\\[v=360^\\circ-60^\\circ=300^\\circ\\]</div><p>Gondolen passerar 11 m en gång på väg upp och en gång på väg ner.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(v=60^\\circ\\) och \\(v=300^\\circ\\)</p></div>",
+  "familj": "Lösa trigonometriska ekvationer",
+  "formaga": [
+    "modellering",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Sätt \\(h(v)=11\\) och lös ut \\(\\cos v\\). Hur många gånger under ett varv passerar gondolen en viss höjd?</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    60,
+    300
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "mängd",
+  "svarEtiketter": [
+    "x",
+    "x"
+  ],
+  "svarFormat": [
+    "grader",
+    "grader"
+  ]
+},
+{
+  "id": "4.583",
+  "kap": 4,
+  "omr": "trig_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "antal lösningar på ett längre intervall",
+  "t": "<p>Hur många lösningar har ekvationen \\(\\sin x=0{,}8\\) i intervallet \\(0^\\circ\\le x\\lt720^\\circ\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Under ett varv finns två lösningar</p><p>\\(\\sin x=0{,}8\\) har en lösning i första kvadranten och en i andra, ungefär 53,1° och 126,9°.</p></li><li><p class=\"facit-rubrik\">Intervallet är två hela varv</p><p>Sinus upprepas var 360:e grad. Varje lösning återkommer därför efter 360°: ungefär 413,1° och 486,9°.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> 4 lösningar.</p></div>",
+  "familj": "Lösa trigonometriska ekvationer",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hur många lösningar finns det under ett varv? Hur många varv omfattar intervallet?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "2",
+      "ratt": false,
+      "kommentar": "Det gäller för ett varv. Intervallet 0° till 720° är två varv."
+    },
+    {
+      "txt": "1",
+      "ratt": false,
+      "kommentar": "Sinus är positiv i både första och andra kvadranten, så redan ett varv ger två lösningar."
+    },
+    {
+      "txt": "4",
+      "ratt": true
+    },
+    {
+      "txt": "8",
+      "ratt": false,
+      "kommentar": "Två varv med två lösningar per varv ger 4, inte 8."
+    }
+  ]
+},
+{
+  "id": "4.584",
+  "kap": 4,
+  "omr": "trig_ekvationer",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "den andra lösningen ur grafen",
+  "t": "<p>Figuren visar grafen till \\(y=\\sin x\\) och linjen \\(y=k\\). Linjen skär grafen i två punkter mellan 0° och 360°. Den ena skärningspunkten har \\(x=40^\\circ\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"440\" height=\"290\" viewBox=\"0 0 440 290\" role=\"img\" aria-label=\"Grafen till y = sin x för x från 0 till 360 grader och den vågräta streckade linjen y = k. Linjen skär sinuskurvan i två punkter. Den första punkten har x = 40 grader och är märkt.\"><title>Grafen till y = sin x för x från 0 till 360 grader och den vågräta streckade linjen y = k. Linjen skär sinuskurvan i två punkter. Den första punkten har x = 40 grader och är märkt.</title><rect x=\"1\" y=\"1\" width=\"438\" height=\"288\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"56.0\" y1=\"26\" x2=\"56.0\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"143.5\" y1=\"26\" x2=\"143.5\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"231.0\" y1=\"26\" x2=\"231.0\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"318.5\" y1=\"26\" x2=\"318.5\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"406.0\" y1=\"26\" x2=\"406.0\" y2=\"254\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"231.2\" x2=\"406\" y2=\"231.2\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"185.6\" x2=\"406\" y2=\"185.6\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"94.4\" x2=\"406\" y2=\"94.4\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"48.8\" x2=\"406\" y2=\"48.8\" stroke=\"#e3e8ee\"/><line x1=\"56\" y1=\"140.0\" x2=\"414\" y2=\"140.0\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"56\" y1=\"254\" x2=\"56\" y2=\"18\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"56.0\" y1=\"81.4\" x2=\"406.0\" y2=\"81.4\" stroke=\"#8a96a3\" stroke-width=\"1.6\" stroke-dasharray=\"6 4\"/><polyline points=\"56.0,140.0 57.9,136.8 59.9,133.6 61.8,130.5 63.8,127.3 65.7,124.2 67.7,121.0 69.6,117.9 71.6,114.9 73.5,111.8 75.4,108.8 77.4,105.8 79.3,102.9 81.3,100.0 83.2,97.2 85.2,94.4 87.1,91.7 89.1,89.0 91.0,86.4 92.9,83.9 94.9,81.4 96.8,79.0 98.8,76.6 100.7,74.4 102.7,72.2 104.6,70.1 106.6,68.1 108.5,66.2 110.4,64.4 112.4,62.7 114.3,61.0 116.3,59.5 118.2,58.0 120.2,56.7 122.1,55.4 124.1,54.3 126.0,53.3 127.9,52.3 129.9,51.5 131.8,50.8 133.8,50.2 135.7,49.7 137.7,49.3 139.6,49.0 141.6,48.9 143.5,48.8 145.4,48.9 147.4,49.0 149.3,49.3 151.3,49.7 153.2,50.2 155.2,50.8 157.1,51.5 159.1,52.3 161.0,53.3 162.9,54.3 164.9,55.4 166.8,56.7 168.8,58.0 170.7,59.5 172.7,61.0 174.6,62.7 176.6,64.4 178.5,66.2 180.4,68.1 182.4,70.1 184.3,72.2 186.3,74.4 188.2,76.6 190.2,79.0 192.1,81.4 194.1,83.9 196.0,86.4 197.9,89.0 199.9,91.7 201.8,94.4 203.8,97.2 205.7,100.0 207.7,102.9 209.6,105.8 211.6,108.8 213.5,111.8 215.4,114.9 217.4,117.9 219.3,121.0 221.3,124.2 223.2,127.3 225.2,130.5 227.1,133.6 229.1,136.8 231.0,140.0 232.9,143.2 234.9,146.4 236.8,149.5 238.8,152.7 240.7,155.8 242.7,159.0 244.6,162.1 246.6,165.1 248.5,168.2 250.4,171.2 252.4,174.2 254.3,177.1 256.3,180.0 258.2,182.8 260.2,185.6 262.1,188.3 264.1,191.0 266.0,193.6 267.9,196.1 269.9,198.6 271.8,201.0 273.8,203.4 275.7,205.6 277.7,207.8 279.6,209.9 281.6,211.9 283.5,213.8 285.4,215.6 287.4,217.3 289.3,219.0 291.3,220.5 293.2,222.0 295.2,223.3 297.1,224.6 299.1,225.7 301.0,226.7 302.9,227.7 304.9,228.5 306.8,229.2 308.8,229.8 310.7,230.3 312.7,230.7 314.6,231.0 316.6,231.1 318.5,231.2 320.4,231.1 322.4,231.0 324.3,230.7 326.3,230.3 328.2,229.8 330.2,229.2 332.1,228.5 334.1,227.7 336.0,226.7 337.9,225.7 339.9,224.6 341.8,223.3 343.8,222.0 345.7,220.5 347.7,219.0 349.6,217.3 351.6,215.6 353.5,213.8 355.4,211.9 357.4,209.9 359.3,207.8 361.3,205.6 363.2,203.4 365.2,201.0 367.1,198.6 369.1,196.1 371.0,193.6 372.9,191.0 374.9,188.3 376.8,185.6 378.8,182.8 380.7,180.0 382.7,177.1 384.6,174.2 386.6,171.2 388.5,168.2 390.4,165.1 392.4,162.1 394.3,159.0 396.3,155.8 398.2,152.7 400.2,149.5 402.1,146.4 404.1,143.2 406.0,140.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"94.9\" cy=\"81.4\" r=\"5\" fill=\"#c2410c\"/><circle cx=\"192.1\" cy=\"81.4\" r=\"5\" fill=\"#c2410c\"/><text x=\"143.5\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">90°</text><text x=\"231.0\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">180°</text><text x=\"318.5\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">270°</text><text x=\"406.0\" y=\"271.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">360°</text><text x=\"49.0\" y=\"235.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><text x=\"49.0\" y=\"189.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−0,5</text><text x=\"49.0\" y=\"98.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0,5</text><text x=\"49.0\" y=\"52.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><text x=\"49.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">0</text><text x=\"418.0\" y=\"145.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"63.0\" y=\"16.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text><text x=\"72.9\" y=\"72.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\" font-weight=\"bold\">40°</text><text x=\"404.0\" y=\"72.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#243447\">y = k</text></svg></span><p>Bestäm x-koordinaten för den andra skärningspunkten och värdet på \\(k\\). (Svara med k med två decimaler.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sinuskurvan är symmetrisk kring x = 90° mellan 0° och 180°</p><p>Samma sinusvärde fås för \\(x\\) och för \\(180^\\circ-x\\).</p><div class=\"facit-matte\">\\[x=180^\\circ-40^\\circ=140^\\circ\\]</div></li><li><p class=\"facit-rubrik\">Linjens höjd är sinusvärdet i skärningspunkten</p><div class=\"facit-matte\">\\[k=\\sin40^\\circ\\approx0{,}64\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den andra skärningspunkten har \\(x=140^\\circ\\), och \\(k\\approx0{,}64\\).</p></div>",
+  "familj": "Lösa trigonometriska ekvationer",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": true,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Vilken symmetri har sinuskurvan mellan 0° och 180°? k är y-värdet i skärningspunkten.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    140,
+    0.64
+  ],
+  "tolerans": [
+    0,
+    0.005
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "x",
+    "k"
+  ],
+  "svarFormat": [
+    "grader",
+    "numeriskt"
+  ]
 }
 
 ];

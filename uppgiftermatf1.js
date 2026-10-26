@@ -23010,34 +23010,32 @@ window.BANKMATF1 = [
     "typ": "bestämma stationära punkter symboliskt",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f(x)=x^3-9x+4\\).</p><p>Bestäm de \\(x\\)-värden där grafen har horisontell tangent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><div class=\"facit-berakning\"><p><strong>Nyckelidé:</strong> En horisontell tangent har lutningen 0, alltså ska</p><div class=\"facit-matte\">\\[f'(x)=0\\].</div></div></li><li><p>\\[f'(x)=3x^2-9.\\]</p></li><li><p>\\[3x^2-9=0\\Rightarrow x^2=3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=\\pm\\sqrt3\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera funktionen</p>\\[f^{\\prime}(x)=3x^2-9\\]</li><li><p class=\"facit-rubrik\">Sätt lutningen lika med noll</p>\\[3x^2-9=0\\]\\[3x^2=9\\quad\\Rightarrow\\quad x^2=3\\]</li><li><p class=\"facit-rubrik\">Ta med både den positiva och den negativa roten</p>\\[x=-\\sqrt3\\quad\\text{eller}\\quad x=\\sqrt3\\]<p>Båda ger derivatan 3·3−9=0.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-\\sqrt3\\) och \\(x=\\sqrt3\\).</p></div>",
     "id": "3.207",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "flera_svar",
-    "rättSvar": [
-      "sqrt(3)",
-      "-sqrt(3)"
-    ],
-    "tolerans": null,
+    "rättSvar": [-1.7320508075688772, 1.7320508075688772],
+    "tolerans": [1e-10, 1e-10],
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Horisontell tangent betyder att derivatan är noll.</p>",
+    "ledtrad": "<p>Vilket värde har derivatan när tangenten är horisontell? Tänk på att en kvadratekvation kan ha två lösningar.</p>",
     "traningsniva": 2,
-    "svarFormat": [
-      "uttryck",
-      "uttryck"
-    ],
+    "svarFormat": ["numeriskt", "numeriskt"],
     "omrTidigare": [
       "fordjupad_analys"
     ],
     "familjTidigare": [
       "Fördjupad analys med derivata och integral"
     ]
+  ,
+    "svarsstruktur": "mängd"
+  ,
+    "svarEtiketter": ["x", "x"]
   },
   {
     "kap": 3,
@@ -23072,26 +23070,23 @@ window.BANKMATF1 = [
   {
     "kap": 3,
     "omr": "repetition_derivator",
-    "niva": "C",
+    "niva": "E",
     "typ": "lösa transcendental ekvation numeriskt",
-    "poang": "0/2/0",
+    "poang": "2/0/0",
     "t": "<p>Lös ekvationen \\(xe^x=8\\) numeriskt. Ange lösningen med tre decimaler.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Ekvationen saknar en elementär algebraisk lösning.</p></li><li><p>Rita graferna \\(y=xe^x\\) och \\(y=8\\), eller använd ett numeriskt nollställe för \\(xe^x-8\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx 1{,}606\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Välj två grafer att jämföra</p><p>Skriv in funktionerna i GeoGebra:</p>\\[f(x)=xe^x,\\qquad g(x)=8\\]<p>Använd verktyget för skärning mellan graferna.</p></li><li><p class=\"facit-rubrik\">Läs av och avrunda x-koordinaten</p>\\[x\\approx1{,}605811996\\ldots\\]<p>Den fjärde decimalen är 8, så tre decimaler ger 1,606.</p></li><li><p class=\"facit-rubrik\">Kontrollera lösningen och att ingen saknas</p>\\[1{,}605811996\\,e^{1{,}605811996}\\approx8\\]<p>För x ≤ 0 är vänsterledet högst noll. För x &gt; 0 är derivatan eˣ(1+x) positiv. Därför finns bara en lösning.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx1{,}606\\).</p></div>",
     "id": "3.209",
     "miniräknare": true,
     "geogebra": true,
     "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "numeriskt",
     "rättSvar": 1.6058119963201776,
-    "tolerans": 0.002,
+    "tolerans": 0.0005,
     "självrättning": true,
-    "formaga": [
-      "procedur",
-      "problemlösning"
-    ],
+    "formaga": ["procedur"],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Skriv om uppgiften som ett nollställeproblem, till exempel \\(xe^x-8=0\\), och använd ett numeriskt verktyg.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Jämför grafen till vänsterledet med den vågräta linjen på höjden 8. Läs av skärningens x-koordinat med fler decimaler än slutsvaret ska ha.</p>",
+    "traningsniva": 2,
     "omrTidigare": [
       "fordjupad_analys"
     ],
@@ -23169,9 +23164,9 @@ window.BANKMATF1 = [
     "typ": "bestämma stationära punkter symboliskt",
     "poang": "2/0/0",
     "t": "<p>Funktionen \\(f(x)=x^3-12x+4\\).</p><p>Bestäm de \\(x\\)-värden där grafen har horisontell tangent.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> En horisontell tangent har lutningen 0.</p></li><li><p>\\[f'(x)=3x^2-12=0\\Rightarrow x^2=4.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\) och \\(x=2\\).</p></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna tangentens lutning som funktion av x</p>\\[f^{\\prime}(x)=3x^2-12\\]</li><li><p class=\"facit-rubrik\">Lös ekvationen för horisontell tangent</p>\\[3x^2-12=0\\]\\[x^2=4\\quad\\Rightarrow\\quad x=\\pm2\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-2\\) och \\(x=2\\).</p></div>",
     "id": "3.212",
-    "miniräknare": false,
+    "miniräknare": true,
     "geogebra": false,
     "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "flera_svar",
@@ -23179,13 +23174,13 @@ window.BANKMATF1 = [
       -2,
       2
     ],
-    "tolerans": null,
+    "tolerans": [0, 0],
     "självrättning": true,
     "formaga": [
       "procedur",
       "begrepp"
     ],
-    "ledtrad": "<p>Derivera funktionen och sätt derivatan lika med noll.</p>",
+    "ledtrad": "<p>En horisontell tangent har lutningen noll. Derivera först och lös sedan ekvationen för lutningen.</p>",
     "traningsniva": 2,
     "svarFormat": [
       "numeriskt",
@@ -23197,6 +23192,10 @@ window.BANKMATF1 = [
     "familjTidigare": [
       "Fördjupad analys med derivata och integral"
     ]
+  ,
+    "svarsstruktur": "mängd"
+  ,
+    "svarEtiketter": ["x", "x"]
   },
   {
     "kap": 3,
@@ -23261,17 +23260,17 @@ window.BANKMATF1 = [
     "kap": 3,
     "omr": "repetition_derivator",
     "niva": "C",
-    "typ": "optimering med integralanknytning",
+    "typ": "optimering av inskriven rektangel",
     "poang": "0/2/0",
-    "t": "<p>En rektangel har hörn på \\(x\\)-axeln och de övre hörnen på parabeln \\(y=9-x^2\\), symmetriskt kring \\(y\\)-axeln. Bestäm största möjliga area.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Låt det högra övre hörnet ha \\(x\\)-koordinaten \\(x&gt;0\\).</p></li><li><p>Då är rektangelns bredd \\(2x\\) och höjd \\(9-x^2\\).</p></li><li><p>\\[A(x)=2x(9-x^2)=18x-2x^3.\\]</p></li><li><p>\\[A'(x)=18-6x^2=0\\Rightarrow x=\\sqrt3.\\]</p></li><li><p>Detta ger</p></li><li><p>\\[A_{\\max}=2\\sqrt3(9-3)=12\\sqrt3.\\]</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(12\\sqrt3\\) areaenheter.</p></div>",
+    "t": "<p>En rektangel har hörn på \\(x\\)-axeln och de övre hörnen på parabeln \\(y=9-x^2\\), symmetriskt kring \\(y\\)-axeln. Bestäm största möjliga area.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 320\" width=\"480\" height=\"320\" role=\"img\" aria-label=\"Rektangel med bas på x-axeln och övre hörn på parabeln y=9−x². En möjlig rektangel visas; dess bredd är inte bestämd.\" style=\"max-width:100%;height:auto\" font-family=\"Arial,sans-serif\" font-size=\"16\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"white\" stroke=\"#d7e1ec\"/><path d=\"M35 255H450 M240 275V30\" fill=\"none\" stroke=\"#23384c\" stroke-width=\"1.5\"/><text x=\"451\" y=\"248\" fill=\"#23384c\">x</text><text x=\"250\" y=\"28\" fill=\"#23384c\">y</text><text x=\"228\" y=\"275\" fill=\"#23384c\">0</text><rect x=\"177.5\" y=\"136.0\" width=\"125.0\" height=\"119.0\" fill=\"#d6eaf5\" fill-opacity=\".7\" stroke=\"#087d8e\" stroke-width=\"2\"/><polyline points=\"90.00,255.00 92.50,250.24 95.00,245.56 97.50,240.96 100.00,236.44 102.50,232.00 105.00,227.64 107.50,223.36 110.00,219.16 112.50,215.04 115.00,211.00 117.50,207.04 120.00,203.16 122.50,199.36 125.00,195.64 127.50,192.00 130.00,188.44 132.50,184.96 135.00,181.56 137.50,178.24 140.00,175.00 142.50,171.84 145.00,168.76 147.50,165.76 150.00,162.84 152.50,160.00 155.00,157.24 157.50,154.56 160.00,151.96 162.50,149.44 165.00,147.00 167.50,144.64 170.00,142.36 172.50,140.16 175.00,138.04 177.50,136.00 180.00,134.04 182.50,132.16 185.00,130.36 187.50,128.64 190.00,127.00 192.50,125.44 195.00,123.96 197.50,122.56 200.00,121.24 202.50,120.00 205.00,118.84 207.50,117.76 210.00,116.76 212.50,115.84 215.00,115.00 217.50,114.24 220.00,113.56 222.50,112.96 225.00,112.44 227.50,112.00 230.00,111.64 232.50,111.36 235.00,111.16 237.50,111.04 240.00,111.00 242.50,111.04 245.00,111.16 247.50,111.36 250.00,111.64 252.50,112.00 255.00,112.44 257.50,112.96 260.00,113.56 262.50,114.24 265.00,115.00 267.50,115.84 270.00,116.76 272.50,117.76 275.00,118.84 277.50,120.00 280.00,121.24 282.50,122.56 285.00,123.96 287.50,125.44 290.00,127.00 292.50,128.64 295.00,130.36 297.50,132.16 300.00,134.04 302.50,136.00 305.00,138.04 307.50,140.16 310.00,142.36 312.50,144.64 315.00,147.00 317.50,149.44 320.00,151.96 322.50,154.56 325.00,157.24 327.50,160.00 330.00,162.84 332.50,165.76 335.00,168.76 337.50,171.84 340.00,175.00 342.50,178.24 345.00,181.56 347.50,184.96 350.00,188.44 352.50,192.00 355.00,195.64 357.50,199.36 360.00,203.16 362.50,207.04 365.00,211.00 367.50,215.04 370.00,219.16 372.50,223.36 375.00,227.64 377.50,232.00 380.00,236.44 382.50,240.96 385.00,245.56 387.50,250.24 390.00,255.00\" fill=\"none\" stroke=\"#245aab\" stroke-width=\"2.5\"/><path d=\"M177.5 251v8 M302.5 251v8\" stroke=\"#23384c\"/><text x=\"177.5\" y=\"280\" text-anchor=\"middle\" fill=\"#23384c\">−x</text><text x=\"302.5\" y=\"280\" text-anchor=\"middle\" fill=\"#23384c\">x</text><circle cx=\"302.5\" cy=\"136.0\" r=\"4\" fill=\"#b5491d\"/><path d=\"M306.5 134.0l18 -14\" stroke=\"#b5491d\" fill=\"none\"/><text x=\"326.5\" y=\"119.0\" fill=\"#23384c\">(x, 9−x²)</text><text x=\"85\" y=\"40\" fill=\"#245aab\">y = 9 − x²</text><text x=\"240\" y=\"307\" text-anchor=\"middle\" fill=\"#23384c\">En möjlig rektangel</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beskriv bredd, höjd och tillåtna x-värden</p><p>Symmetrin ger bredden 2x. Höjden är 9−x².</p>\\[0\\lt x\\lt3\\]<p>Utanför detta intervall får vi ingen rektangel med positiv bredd och höjd.</p></li><li><p class=\"facit-rubrik\">Skriv och derivera arean</p>\\[A(x)=2x(9-x^2)=18x-2x^3\\]\\[A^{\\prime}(x)=18-6x^2\\]</li><li><p class=\"facit-rubrik\">Hitta och kontrollera maximum</p>\\[18-6x^2=0\\quad\\Rightarrow\\quad x=\\sqrt3\\]<p>Den negativa roten ligger utanför intervallet. Derivatan är positiv före √3 och negativ efter √3. Arean ökar alltså först och minskar sedan.</p></li><li><p class=\"facit-rubrik\">Beräkna den största arean</p>\\[A(\\sqrt3)=2\\sqrt3(9-3)=12\\sqrt3\\]\\[\\approx20{,}7846\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den största arean är \\(12\\sqrt3\\approx20{,}8\\) areaenheter.</p></div>",
     "id": "3.52",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Derivata och ekvationer med digitala verktyg",
-    "svarstyp": "uttryck",
-    "rättSvar": "12*sqrt(3)",
-    "tolerans": null,
+    "svarstyp": "numeriskt",
+    "rättSvar": 20.784609690826528,
+    "tolerans": 1e-10,
     "självrättning": true,
     "formaga": [
       "procedur",
@@ -23279,8 +23278,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "svarFormat": "uttryck",
-    "ledtrad": "<p>Låt det högra övre hörnet ha koordinaten \\(x\\). Skriv rektangelns bredd och höjd som funktioner av \\(x\\), och maximera sedan arean.</p>",
+    "svarFormat": "numeriskt",
+    "ledtrad": "<p>Låt det högra övre hörnets x-koordinat vara x. Hur kan du skriva bredden och höjden med samma variabel?</p>",
     "traningsniva": 3,
     "omrTidigare": [
       "fordjupad_analys"
@@ -23532,10 +23531,10 @@ window.BANKMATF1 = [
     "omr": "repetition_derivator",
     "niva": "E",
     "typ": "tolka derivata från CAS-utdata",
-    "poang": "2/0/0",
+    "poang": "3/0/0",
     "id": "3.29",
-    "t": "<p>Ett CAS ger att derivatan av \\(f(x)=x^3-6x\\) är \\(f'(x)=3x^2-6\\).</p><ol type=\"a\"><li>Bestäm de kritiska punkterna.</li><li>Ange i vilka intervall funktionen är växande.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-metod\"><strong>Tänk så här:</strong> Tolka absolutbelopp som avstånd på tallinjen och intervall som en samling tillåtna tal.</p></li><li><p class=\"facit-metod\">Rita gärna en enkel tallinje innan du skriver svaret.</p></li></ol><div class=\"facit-arbete\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Kritiska punkter fås när derivatan är 0:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[3x^2-6=0\\Rightarrow x^2=2\\Rightarrow x=\\pm \\sqrt2.\\]</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen är växande när \\(f'(x)\\gt 0\\):</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[3x^2-6\\gt 0\\Rightarrow x^2\\gt 2\\Rightarrow x\\lt -\\sqrt2\\ \\text{eller}\\ x\\gt \\sqrt2.\\]</p></li></ol><p class=\"facit-svar\"><strong>Funktionen är alltså växande för \\(x\\lt -\\sqrt2\\) eller \\(x\\gt \\sqrt2\\).</strong></p></div><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-not\"><strong>Kontroll och insikt:</strong> Kontrollera ändpunkterna separat: ska de ingå eller inte?</p></li></ol></div>",
+    "t": "<p>Ett CAS ger att derivatan av \\(f(x)=x^3-6x\\) är \\(f'(x)=3x^2-6\\).</p><ol type=\"a\"><li>Bestäm de x-värden där tangenten är horisontell.</li><li>Ange i vilka intervall funktionen är växande.</li></ol>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Bestäm var derivatan är noll</p>\\[3x^2-6=0\\]\\[x^2=2\\quad\\Rightarrow\\quad x=\\pm\\sqrt2\\]</li><li><p class=\"facit-rubrik\">b) Undersök tecknet mellan och utanför nollställena</p><p>Derivatan 3x²−6 är positiv när x² &gt; 2 och negativ när x² &lt; 2.</p><p>Alltså är derivatan positiv till vänster om −√2 och till höger om √2, men negativ mellan dessa värden.</p></li><li><p class=\"facit-rubrik\">b) Ange de växande intervallen</p>\\[x\\le-\\sqrt2\\quad\\text{eller}\\quad x\\ge\\sqrt2\\]<p>Ändpunkterna kan ingå i de växande intervallen, trots att derivatan är noll just där. Vill man bara ange var derivatan är positiv använder man i stället strikta olikheter.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(x=\\pm\\sqrt2\\). b) Funktionen är växande på \\(( -\\infty,-\\sqrt2]\\) och \\([\\sqrt2,\\infty)\\).</p></div>",
     "miniräknare": true,
     "geogebra": false,
     "familj": "Derivata och ekvationer med digitala verktyg",
@@ -23548,8 +23547,8 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Skriv absolutbeloppet som ett avstånd eller dela upp i två fall. Markera öppna och slutna ändpunkter på en tallinje.</p>",
-    "traningsniva": 1,
+    "ledtrad": "<p>Lös först ekvationen där derivatan är noll. Undersök sedan derivatans tecken på båda sidor om dessa x-värden.</p>",
+    "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
       "fordjupad_analys"
@@ -23561,26 +23560,23 @@ window.BANKMATF1 = [
   {
     "kap": 3,
     "omr": "repetition_derivator",
-    "niva": "C",
+    "niva": "E",
     "typ": "numerisk lösning av logaritmisk ekvation",
-    "poang": "0/2/0",
+    "poang": "2/0/0",
     "t": "<p>Lös \\(x+\\ln x=6\\) numeriskt för \\(x>0\\).</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Funktionen \\(g(x)=x+\\ln x-6\\) är strängt växande för \\(x&gt;0\\), så lösningen är unik.</p></li><li><p>Numeriskt fås \\(x\\approx4{,}49666\\).</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ange definitionsmängden och välj grafer</p><p>Logaritmen kräver x &gt; 0. Skriv in följande i GeoGebra och använd skärningsverktyget:</p>\\[f(x)=x+\\ln x,\\qquad g(x)=6\\]</li><li><p class=\"facit-rubrik\">Läs av lösningen och kontrollera den</p>\\[x\\approx4{,}496664173\\ldots\\]\\[f(4{,}496664173)\\approx6\\]</li><li><p class=\"facit-rubrik\">Kontrollera att det inte finns fler lösningar</p>\\[f^{\\prime}(x)=1+\\frac1x\\gt0\\quad(x\\gt0)\\]<p>Funktionen är strängt växande i hela definitionsmängden och kan därför skära den vågräta linjen högst en gång.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx4{,}49666\\).</p></div>",
     "id": "3.227",
     "miniräknare": true,
     "geogebra": true,
     "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "numeriskt",
     "rättSvar": 4.496664173006161,
-    "tolerans": 0.005,
+    "tolerans": 1e-10,
     "självrättning": true,
-    "formaga": [
-      "procedur",
-      "resonemang"
-    ],
+    "formaga": ["procedur"],
     "svarFormat": "numeriskt",
-    "ledtrad": "<p>Studera \\(g(x)=x+\\ln x-6\\) för \\(x>0\\) och bestäm dess nollställe numeriskt.</p>",
-    "traningsniva": 3,
+    "ledtrad": "<p>Rita vänsterledet och jämför med höjden 6. Logaritmen begränsar vilka x-värden som är tillåtna.</p>",
+    "traningsniva": 2,
     "omrTidigare": [
       "fordjupad_analys"
     ],
@@ -23626,7 +23622,7 @@ window.BANKMATF1 = [
     "typ": "granska CAS-antagande",
     "poang": "0/2/0",
     "t": "<p>Ett CAS ger lösningarna \\(x=\\pm2\\) till ekvationen \\(\\sqrt{x^2}=2\\). En elev påstår därför att \\(\\sqrt{x^2}=x\\) för alla reella \\(x\\). Förklara felet.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>För reella \\(x\\) gäller \\(\\sqrt{x^2}=|x|\\), inte alltid \\(x\\).</p></li><li><p>Om \\(x&lt;0\\) är \\(|x|=-x\\).</p></li><li><p>Exempelvis är \\(\\sqrt{(-2)^2}=2\\), inte \\(-2\\).</p></li><li><p>CAS-svaret \\(x=\\pm2\\) är alltså helt förenligt med \\(\\sqrt{x^2}=|x|\\).</p></li><li><p>Elevens generalisering är fel.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Skilj en kvadratrot från lösningarna till en ekvation</p><p>Symbolen √ anger den icke-negativa kvadratroten. Därför gäller</p>\\[\\sqrt{x^2}=|x|.\\]</li><li><p class=\"facit-rubrik\">Visa ett motexempel till elevens påstående</p>\\[\\sqrt{(-2)^2}=\\sqrt4=2\\ne-2\\]<p>Påståendet √(x²)=x stämmer alltså inte för negativa x.</p></li><li><p class=\"facit-rubrik\">Förklara varför CAS ändå ger två lösningar</p>\\[|x|=2\\]\\[x=-2\\quad\\text{eller}\\quad x=2\\]<p>Båda x-värdena ger kvadratroten 2. CAS-resultatet innebär inte att kvadratroten själv kan vara −2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Eleven blandar ihop \\(\\sqrt{x^2}=|x|\\) med \\(\\sqrt{x^2}=x\\). Det senare gäller bara för \\(x\\ge0\\).</p></div>",
     "id": "3.54",
     "miniräknare": true,
     "geogebra": false,
@@ -23639,7 +23635,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Vad är \\(\\sqrt{x^2}\\) för ett negativt \\(x\\)? Testa till exempel \\(x=-2\\).</p>",
+    "ledtrad": "<p>Pröva elevens påstående med ett negativt tal. Kan en kvadratrot bli negativ?</p>",
     "traningsniva": 3,
     "spel": false,
     "omrTidigare": [
@@ -23656,10 +23652,10 @@ window.BANKMATF1 = [
     "typ": "numerisk nollpunkt från verktyg",
     "poang": "2/0/0",
     "t": "<p>Ett digitalt verktyg ger nollpunkten \\(x\\approx1{,}521\\) till \\(x^3-x-2=0\\). Förklara hur du kan kontrollera att värdet är rimligt utan att lösa ekvationen exakt.</p>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p><strong>Nyckelidé:</strong> Kontrollera först vad det digitala eller algebraiska resultatet faktiskt betyder och vilka villkor som gäller.</p></li><li><p>Ett numeriskt eller symboliskt svar är bara användbart om det stämmer med funktionens definitionsmängd och problemets geometriska eller analytiska innebörd.</p></li><li><p>Sätt in värdet ungefärligt: \\(1{,}521^3-1{,}521-2\\approx0\\).</p></li><li><p>Man kan också kontrollera teckenbyte: \\(f(1)=-2\\) och \\(f(2)=4\\), så en nollpunkt mellan 1 och 2 är rimlig.</p></li></ol></div>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna hur nära noll vänsterledet blir</p>\\[f(1{,}521)=1{,}521^3-1{,}521-2\\]\\[=-0{,}002256239\\]<p>Värdet ligger nära noll, vilket stödjer närmevärdet.</p></li><li><p class=\"facit-rubrik\">Kontrollera ett teckenbyte i ett litet intervall</p>\\[f(1{,}521)\\lt0\\]\\[f(1{,}522)\\approx0{,}00369\\gt0\\]<p>Polynomfunktionen är kontinuerlig. Det finns därför en rot mellan 1,521 och 1,522.</p></li><li><p class=\"facit-rubrik\">Avgränsa vad kontrollen visar</p><p>Detta visar att 1,521 ligger nära en rot. Ett teckenbyte mellan enbart 1 och 2 hade gett en mycket grövre kontroll.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Insättning ger ett värde nära noll, och ett teckenbyte mellan 1,521 och 1,522 bekräftar att närmevärdet är rimligt.</p></div>",
     "id": "3.74",
     "miniräknare": true,
-    "geogebra": true,
+    "geogebra": false,
     "familj": "Derivata och ekvationer med digitala verktyg",
     "svarstyp": "resonemang",
     "rättSvar": null,
@@ -23669,7 +23665,7 @@ window.BANKMATF1 = [
       "begrepp",
       "resonemang"
     ],
-    "ledtrad": "<p>Kontrollera både att funktionsvärdet nära \\(x=1{,}521\\) ligger nära noll och att ett teckenbyte sker i närheten.</p>",
+    "ledtrad": "<p>Sätt in närmevärdet i vänsterledet. Kontrollera också ett värde strax under och ett strax över det föreslagna nollstället.</p>",
     "traningsniva": 2,
     "spel": false,
     "omrTidigare": [
@@ -23712,11 +23708,11 @@ window.BANKMATF1 = [
   {
     "kap": 3,
     "omr": "repetition_derivator",
-    "niva": "A",
+    "niva": "C",
     "typ": "optimering av inskriven rektangel",
-    "poang": "0/1/3",
-    "t": "<span class=\"fig\"><svg width=\"460\" height=\"300\" viewBox=\"0 0 460 300\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Parabeln y lika med 12 minus x kvadrat med en inskriven rektangel som har basen på x-axeln\">\n<rect width=\"460\" height=\"300\" fill=\"white\"/>\n<rect x=\"126.0\" y=\"116.0\" width=\"208.0\" height=\"124.0\" fill=\"#2C62A8\" fill-opacity=\".16\" stroke=\"#2C62A8\" stroke-width=\"2\"/>\n<path d=\"M 48.0,243.9 L 50.6,238.5 L 53.2,233.2 L 55.8,227.9 L 58.4,222.8 L 61.0,217.7 L 63.6,212.7 L 66.2,207.8 L 68.8,203.0 L 71.4,198.2 L 74.0,193.5 L 76.6,188.9 L 79.2,184.4 L 81.8,179.9 L 84.4,175.5 L 87.0,171.2 L 89.6,167.0 L 92.2,162.8 L 94.8,158.8 L 97.4,154.8 L 100.0,150.9 L 102.6,147.0 L 105.2,143.3 L 107.8,139.6 L 110.4,136.0 L 113.0,132.5 L 115.6,129.0 L 118.2,125.6 L 120.8,122.4 L 123.4,119.1 L 126.0,116.0 L 128.6,112.9 L 131.2,110.0 L 133.8,107.0 L 136.4,104.2 L 139.0,101.5 L 141.6,98.8 L 144.2,96.2 L 146.8,93.7 L 149.4,91.2 L 152.0,88.9 L 154.6,86.6 L 157.2,84.4 L 159.8,82.2 L 162.4,80.2 L 165.0,78.2 L 167.6,76.3 L 170.2,74.5 L 172.8,72.8 L 175.4,71.1 L 178.0,69.5 L 180.6,68.0 L 183.2,66.6 L 185.8,65.2 L 188.4,63.9 L 191.0,62.7 L 193.6,61.6 L 196.2,60.5 L 198.8,59.6 L 201.4,58.7 L 204.0,57.9 L 206.6,57.1 L 209.2,56.5 L 211.8,55.9 L 214.4,55.4 L 217.0,55.0 L 219.6,54.6 L 222.2,54.3 L 224.8,54.2 L 227.4,54.0 L 230.0,54.0 L 232.6,54.0 L 235.2,54.2 L 237.8,54.3 L 240.4,54.6 L 243.0,55.0 L 245.6,55.4 L 248.2,55.9 L 250.8,56.5 L 253.4,57.1 L 256.0,57.9 L 258.6,58.7 L 261.2,59.6 L 263.8,60.5 L 266.4,61.6 L 269.0,62.7 L 271.6,63.9 L 274.2,65.2 L 276.8,66.6 L 279.4,68.0 L 282.0,69.5 L 284.6,71.1 L 287.2,72.8 L 289.8,74.5 L 292.4,76.3 L 295.0,78.2 L 297.6,80.2 L 300.2,82.2 L 302.8,84.4 L 305.4,86.6 L 308.0,88.9 L 310.6,91.2 L 313.2,93.7 L 315.8,96.2 L 318.4,98.8 L 321.0,101.5 L 323.6,104.2 L 326.2,107.0 L 328.8,110.0 L 331.4,112.9 L 334.0,116.0 L 336.6,119.1 L 339.2,122.4 L 341.8,125.6 L 344.4,129.0 L 347.0,132.5 L 349.6,136.0 L 352.2,139.6 L 354.8,143.3 L 357.4,147.0 L 360.0,150.9 L 362.6,154.8 L 365.2,158.8 L 367.8,162.8 L 370.4,167.0 L 373.0,171.2 L 375.6,175.5 L 378.2,179.9 L 380.8,184.4 L 383.4,188.9 L 386.0,193.5 L 388.6,198.2 L 391.2,203.0 L 393.8,207.8 L 396.4,212.7 L 399.0,217.7 L 401.6,222.8 L 404.2,227.9 L 406.8,233.2 L 409.4,238.5 L 412.0,243.9\" fill=\"none\" stroke=\"#222\" stroke-width=\"2.4\"/>\n<line x1=\"45\" y1=\"240\" x2=\"425\" y2=\"240\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"230\" y1=\"30\" x2=\"230\" y2=\"256\" stroke=\"#222\" stroke-width=\"2\"/>\n<line x1=\"74\" y1=\"240\" x2=\"74\" y2=\"245\" stroke=\"#222\"/><text x=\"74\" y=\"260\" font-size=\"12.5\" text-anchor=\"middle\">-3</text><line x1=\"126\" y1=\"240\" x2=\"126\" y2=\"245\" stroke=\"#222\"/><text x=\"126\" y=\"260\" font-size=\"12.5\" text-anchor=\"middle\">-2</text><line x1=\"178\" y1=\"240\" x2=\"178\" y2=\"245\" stroke=\"#222\"/><text x=\"178\" y=\"260\" font-size=\"12.5\" text-anchor=\"middle\">-1</text><line x1=\"282\" y1=\"240\" x2=\"282\" y2=\"245\" stroke=\"#222\"/><text x=\"282\" y=\"260\" font-size=\"12.5\" text-anchor=\"middle\">1</text><line x1=\"334\" y1=\"240\" x2=\"334\" y2=\"245\" stroke=\"#222\"/><text x=\"334\" y=\"260\" font-size=\"12.5\" text-anchor=\"middle\">2</text><line x1=\"386\" y1=\"240\" x2=\"386\" y2=\"245\" stroke=\"#222\"/><text x=\"386\" y=\"260\" font-size=\"12.5\" text-anchor=\"middle\">3</text><line x1=\"225\" y1=\"178\" x2=\"235\" y2=\"178\" stroke=\"#222\"/><text x=\"220\" y=\"183\" font-size=\"12.5\" text-anchor=\"end\">4</text><line x1=\"225\" y1=\"116\" x2=\"235\" y2=\"116\" stroke=\"#222\"/><text x=\"220\" y=\"121\" font-size=\"12.5\" text-anchor=\"end\">8</text><line x1=\"225\" y1=\"54\" x2=\"235\" y2=\"54\" stroke=\"#222\"/><text x=\"220\" y=\"59\" font-size=\"12.5\" text-anchor=\"end\">12</text>\n<circle cx=\"334.0\" cy=\"116.0\" r=\"5\" fill=\"#B23A2E\"/>\n<circle cx=\"126.0\" cy=\"116.0\" r=\"5\" fill=\"#B23A2E\"/>\n<text x=\"420\" y=\"96\" font-size=\"14\" fill=\"#B23A2E\" text-anchor=\"end\">(x, 12 − x²)</text>\n<text x=\"230\" y=\"278\" font-size=\"14\" text-anchor=\"middle\" fill=\"#777\">bredd 2x, höjd 12 − x²</text>\n<text x=\"300\" y=\"60\" font-size=\"15\">y = 12 − x²</text>\n<text x=\"428\" y=\"245\" font-size=\"14\">x</text><text x=\"238\" y=\"40\" font-size=\"14\">y</text>\n</svg></span><p>En rektangel har sin bas på \\(x\\)-axeln och sina två övre hörn på parabeln \\(y=12-x^2\\), symmetriskt kring \\(y\\)-axeln.</p><ol type=\"a\"><li>Uttryck rektangelns area som en funktion av \\(x\\), där \\(x\\gt0\\) är det högra hörnets \\(x\\)-koordinat.</li><li>Bestäm den största möjliga arean.</li><li>Motivera att det verkligen är ett maximum.</li></ol>",
-    "s": "<div class=\"facit-v2 facit-stegvis\"><div class=\"facit-del\"><span class=\"facit-mark\">a)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Det högra hörnet ligger i \\((x,\\,12-x^2)\\).</p></li><li><p>Eftersom rektangeln är symmetrisk kring \\(y\\)-axeln är bredden \\(2x\\) och höjden \\(12-x^2\\).</p></li><li><p>Alltså</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A(x)=2x\\left(12-x^2\\right)=24x-2x^3.\\]</p></li><li><p>Definitionsmängden är \\(0\\lt x\\lt\\sqrt{12}\\), eftersom höjden måste vara positiv.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">b)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Derivera och sätt derivatan till noll:</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A'(x)=24-6x^2=0\\Rightarrow x^2=4\\Rightarrow x=2\\]</p></li><li><p>(den negativa roten ligger utanför definitionsmängden).</p></li><li><p>Arean blir</p></li><li><p>\\[A(2)=24\\cdot2-2\\cdot8=48-16=\\mathbf{32}.\\]</p></li><li><p>Rektangeln är då 4 bred och 8 hög.</p></li></ol><div class=\"facit-del\"><span class=\"facit-mark\">c)</span><div class=\"facit-arbete\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Andraderivatan är</p></li></ol></div></div><ol class=\"facit-steglista\" role=\"list\"><li><p>\\[A''(x)=-12x,\\]</p></li><li><div class=\"facit-berakning\"><p>och</p><div class=\"facit-matte\">\\[A''(2)=-24\\lt0\\].</div></div></li><li><p>Grafen är alltså konkav i punkten, vilket ger ett lokalt maximum.</p></li><li><p>Eftersom \\(A\\) är kontinuerlig på intervallet, går mot 0 i båda ändarna och bara har denna enda kritiska punkt, är det också det globala maximet.</p></li></ol></div>",
+    "poang": "0/4/0",
+    "t": "<p>En rektangel har sin bas på \\(x\\)-axeln och sina två övre hörn på parabeln \\(y=12-x^2\\), symmetriskt kring \\(y\\)-axeln.</p><ol type=\"a\"><li>Uttryck rektangelns area som en funktion av \\(x\\), där \\(x\\gt0\\) är det högra hörnets \\(x\\)-koordinat.</li><li>Bestäm den största möjliga arean.</li><li>Motivera att det verkligen är ett maximum.</li></ol><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 320\" width=\"480\" height=\"320\" role=\"img\" aria-label=\"Rektangel med bas på x-axeln och övre hörn på parabeln y=12−x². En möjlig rektangel visas; dess bredd är inte bestämd.\" style=\"max-width:100%;height:auto\" font-family=\"Arial,sans-serif\" font-size=\"16\"><rect x=\"1\" y=\"1\" width=\"478\" height=\"318\" rx=\"10\" fill=\"white\" stroke=\"#d7e1ec\"/><path d=\"M35 255H450 M240 275V30\" fill=\"none\" stroke=\"#23384c\" stroke-width=\"1.5\"/><text x=\"451\" y=\"248\" fill=\"#23384c\">x</text><text x=\"250\" y=\"28\" fill=\"#23384c\">y</text><text x=\"228\" y=\"275\" fill=\"#23384c\">0</text><rect x=\"177.5\" y=\"88.0\" width=\"125.0\" height=\"167.0\" fill=\"#d6eaf5\" fill-opacity=\".7\" stroke=\"#087d8e\" stroke-width=\"2\"/><polyline points=\"66.79,255.00 69.68,248.65 72.57,242.41 75.46,236.28 78.34,230.25 81.23,224.33 84.12,218.52 87.00,212.81 89.89,207.21 92.78,201.72 95.66,196.33 98.55,191.05 101.44,185.88 104.32,180.81 107.21,175.85 110.10,171.00 112.98,166.25 115.87,161.61 118.76,157.08 121.64,152.65 124.53,148.33 127.42,144.12 130.30,140.01 133.19,136.01 136.08,132.12 138.96,128.33 141.85,124.65 144.74,121.08 147.62,117.61 150.51,114.25 153.40,111.00 156.28,107.85 159.17,104.81 162.06,101.88 164.94,99.05 167.83,96.33 170.72,93.72 173.60,91.21 176.49,88.81 179.38,86.52 182.26,84.33 185.15,82.25 188.04,80.28 190.93,78.41 193.81,76.65 196.70,75.00 199.59,73.45 202.47,72.01 205.36,70.68 208.25,69.45 211.13,68.33 214.02,67.32 216.91,66.41 219.79,65.61 222.68,64.92 225.57,64.33 228.45,63.85 231.34,63.48 234.23,63.21 237.11,63.05 240.00,63.00 242.89,63.05 245.77,63.21 248.66,63.48 251.55,63.85 254.43,64.33 257.32,64.92 260.21,65.61 263.09,66.41 265.98,67.32 268.87,68.33 271.75,69.45 274.64,70.68 277.53,72.01 280.41,73.45 283.30,75.00 286.19,76.65 289.07,78.41 291.96,80.28 294.85,82.25 297.74,84.33 300.62,86.52 303.51,88.81 306.40,91.21 309.28,93.72 312.17,96.33 315.06,99.05 317.94,101.88 320.83,104.81 323.72,107.85 326.60,111.00 329.49,114.25 332.38,117.61 335.26,121.08 338.15,124.65 341.04,128.33 343.92,132.12 346.81,136.01 349.70,140.01 352.58,144.12 355.47,148.33 358.36,152.65 361.24,157.08 364.13,161.61 367.02,166.25 369.90,171.00 372.79,175.85 375.68,180.81 378.56,185.88 381.45,191.05 384.34,196.33 387.22,201.72 390.11,207.21 393.00,212.81 395.88,218.52 398.77,224.33 401.66,230.25 404.54,236.28 407.43,242.41 410.32,248.65 413.21,255.00\" fill=\"none\" stroke=\"#245aab\" stroke-width=\"2.5\"/><path d=\"M177.5 251v8 M302.5 251v8\" stroke=\"#23384c\"/><text x=\"177.5\" y=\"280\" text-anchor=\"middle\" fill=\"#23384c\">−x</text><text x=\"302.5\" y=\"280\" text-anchor=\"middle\" fill=\"#23384c\">x</text><circle cx=\"302.5\" cy=\"88.0\" r=\"4\" fill=\"#b5491d\"/><path d=\"M306.5 86.0l18 -14\" stroke=\"#b5491d\" fill=\"none\"/><text x=\"326.5\" y=\"71.0\" fill=\"#23384c\">(x, 12−x²)</text><text x=\"85\" y=\"40\" fill=\"#245aab\">y = 12 − x²</text><text x=\"240\" y=\"307\" text-anchor=\"middle\" fill=\"#23384c\">En möjlig rektangel</text></svg></span>",
+    "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">a) Bygg en areafunktion</p><p>Symmetrin ger bredden 2x och höjden 12−x².</p>\\[A(x)=2x(12-x^2)\\]\\[=24x-2x^3\\]\\[0\\lt x\\lt\\sqrt{12}\\]</li><li><p class=\"facit-rubrik\">b) Bestäm den stationära punkten</p>\\[A^{\\prime}(x)=24-6x^2\\]\\[24-6x^2=0\\quad\\Rightarrow\\quad x^2=4\\]<p>Endast x=2 ligger i det tillåtna intervallet.</p></li><li><p class=\"facit-rubrik\">b) Beräkna arean</p>\\[A(2)=2\\cdot2(12-2^2)\\]\\[=4\\cdot8=32\\]</li><li><p class=\"facit-rubrik\">c) Visa att arean är störst där</p><p>För 0 &lt; x &lt; 2 är A′(x) positiv. För 2 &lt; x &lt; √12 är den negativ. Arean ökar fram till x=2 och minskar därefter, så 32 är det största värdet på hela det tillåtna intervallet.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> a) \\(A(x)=24x-2x^3\\). b) \\(32\\) areaenheter. c) Derivatan byter tecken från plus till minus vid \\(x=2\\).</p></div>",
     "id": "3.83",
     "miniräknare": true,
     "geogebra": false,
@@ -23731,8 +23727,8 @@ window.BANKMATF1 = [
       "resonemang",
       "problemlösning"
     ],
-    "ledtrad": "<p>Skriv först rektangelns bredd och höjd med hjälp av \\(x\\). För att visa att extrempunkten verkligen ger största area behöver du också motivera maximum.</p>",
-    "traningsniva": 5,
+    "ledtrad": "<p>Uttryck först bredd och höjd med samma variabel. När du hittat en stationär punkt behöver du också undersöka om arean ökar eller minskar på var sida.</p>",
+    "traningsniva": 3,
     "spel": false,
     "omrTidigare": [
       "fordjupad_analys"
@@ -23747,8 +23743,8 @@ window.BANKMATF1 = [
   "omr": "repetition_derivator",
   "niva": "A",
   "poang": "0/1/2",
-  "t": "<p>Bestäm alla \\(x\\) där tangenten till kurvan \\(y=x^3-2x\\) har en lutning som är lika med funktionsvärdet. Använd gärna ett digitalt verktyg och bekräfta exakt.</p><p>Svara exakt eller med tre decimaler.</p>",
-  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p>Villkoret är \\(y'=y\\): \\(3x^2-2=x^3-2x\\), alltså \\(x^3-3x^2-2x+2=0\\).</p></li><li><p>Ett digitalt verktyg ger tre nollställen, ungefär \\(-1\\),</p></li><li><p>\\(0{,}586\\) och \\(3{,}414\\).</p></li><li><p>Exakt: \\(x=-1\\) är en rot, eftersom \\(-1-3+2+2=0\\).</p></li><li><p>Polynomdivision ger \\((x+1)(x^2-4x+2)\\), och \\(x^2-4x+2=0\\) ger \\(x=2\\pm\\sqrt2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\), \\(x=2-\\sqrt2\\approx0{,}586\\) eller \\(x=2+\\sqrt2\\approx3{,}414\\)</p></div>",
+  "t": "<p>Bestäm alla \\(x\\) där tangenten till kurvan \\(y=x^3-2x\\) har en lutning som är lika med funktionsvärdet. Du får använda ett digitalt verktyg.</p><p>Svara exakt eller med tre decimaler.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Översätt villkoret till en ekvation</p>\\[f(x)=x^3-2x\\]\\[f^{\\prime}(x)=3x^2-2\\]\\[3x^2-2=x^3-2x\\]\\[x^3-3x^2-2x+2=0\\]</li><li><p class=\"facit-rubrik\">Hitta en rot och faktorisera</p><p>Ett digitalt verktyg visar en rot nära −1. Insättning ger −1−3+2+2=0, så x+1 är en faktor.</p>\\[x^3-3x^2-2x+2\\]\\[=(x+1)(x^2-4x+2)\\]</li><li><p class=\"facit-rubrik\">Lös den återstående andragradsekvationen</p>\\[x^2-4x+2=0\\]\\[(x-2)^2=2\\]\\[x=2\\pm\\sqrt2\\]</li><li><p class=\"facit-rubrik\">Samla alla lösningar</p><p>Faktorn x+1 ger också x=−1. Faktoriseringen visar att inga fler reella lösningar finns.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-1\\), \\(x=2-\\sqrt2\\approx0{,}586\\) och \\(x=2+\\sqrt2\\approx3{,}414\\).</p></div>",
   "familj": "Derivata och ekvationer med digitala verktyg",
   "formaga": [
     "problemlösning",
@@ -23757,7 +23753,7 @@ window.BANKMATF1 = [
   "miniräknare": true,
   "geogebra": true,
   "självrättning": true,
-  "ledtrad": "<p>Ställ upp \\(y'=y\\) och lös tredjegradsekvationen. Pröva små heltal för att hitta en rot.</p>",
+  "ledtrad": "<p>Jämför uttrycket för tangentens lutning med funktionens uttryck. En heltalsrot kan hjälpa dig att faktorisera tredjegradspolynomet.</p>",
   "spel": true,
   "traningsniva": 4,
   "svarstyp": "flera_delar",
@@ -23766,11 +23762,7 @@ window.BANKMATF1 = [
     0.5857864376269049,
     3.414213562373095
   ],
-  "tolerans": [
-    0.001,
-    0.001,
-    0.001
-  ],
+  "tolerans": [0, 0.0005, 0.0005],
   "svarEtiketter": [
     "x",
     "x",
@@ -23778,7 +23770,9 @@ window.BANKMATF1 = [
   ],
   "svarsstruktur": "mängd",
   "typ": "derivata lika med funktionsvärde"
-},
+,
+    "svarFormat": ["numeriskt", "numeriskt", "numeriskt"]
+  },
   {
     "kap": 3,
     "omr": "integraler_area",
@@ -51558,8 +51552,8 @@ window.BANKMATF1 = [
   "traningsniva": 2,
   "typ": "Funktionen är \\(f(x)=\\ln(1+x^2)\\)",
   "t": "<p>Funktionen är \\(f(x)=\\ln(1+x^2)\\). Bestäm tangentens lutning vid \\(x=1\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Kedjeregeln ger \\(f^{\\prime}(x)=2x/(1+x^2)\\). Vid \\(x=1\\) blir lutningen \\(2/2=1\\).</p></div>",
-  "ledtrad": "<p>Använd kedjeregeln.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera den yttre och inre funktionen</p>\\[f^{\\prime}(x)=\\frac1{1+x^2}\\cdot2x\\]\\[=\\frac{2x}{1+x^2}\\]</li><li><p class=\"facit-rubrik\">Sätt in tangentpunktens x-värde</p>\\[f^{\\prime}(1)=\\frac{2\\cdot1}{1+1^2}=1\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Tangentens lutning är \\(1\\).</p></div>",
+  "ledtrad": "<p>Logaritmens argument är en funktion av x. Vilken extra faktor ger kedjeregeln?</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51583,8 +51577,8 @@ window.BANKMATF1 = [
   "traningsniva": 2,
   "typ": "Funktionen är \\(f(x)=x^3-3x^2\\)",
   "t": "<p>Funktionen är \\(f(x)=x^3-3x^2\\). Bestäm \\(f^{\\prime\\prime}(2)\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Derivera två gånger: \\(f^{\\prime}(x)=3x^2-6x\\) och \\(f^{\\prime\\prime}(x)=6x-6\\). Alltså är \\(f^{\\prime\\prime}(2)=6\\).</p></div>",
-  "ledtrad": "<p>Derivera två gånger innan du sätter in x-värdet.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera två gånger</p>\\[f^{\\prime}(x)=3x^2-6x\\]\\[f^{\\prime\\prime}(x)=6x-6\\]</li><li><p class=\"facit-rubrik\">Beräkna andraderivatans värde</p>\\[f^{\\prime\\prime}(2)=6\\cdot2-6=6\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f^{\\prime\\prime}(2)=6\\).</p></div>",
+  "ledtrad": "<p>Börja med den första derivatan. Derivera sedan det uttrycket en gång till innan du sätter in 2.</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51608,8 +51602,8 @@ window.BANKMATF1 = [
   "traningsniva": 3,
   "typ": "Bestäm det \\(x\\)-värde där \\(f(x)=xe^{-x}\\) har sitt största värde",
   "t": "<p>Bestäm det \\(x\\)-värde där \\(f(x)=xe^{-x}\\) har sitt största värde.</p>",
-  "s": "<div class=\"facit-v2\"><p>Produktregeln ger \\(f^{\\prime}(x)=e^{-x}(1-x)\\). Exponentialfaktorn är positiv. Derivatan är därför positiv för \\(x\\lt1\\) och negativ för \\(x\\gt1\\).</p><p><strong>Svar:</strong> Maximum fås vid \\(x=1\\).</p></div>",
-  "ledtrad": "<p>Derivera med produktregeln och undersök tecknet på derivatan.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera produkten</p>\\[f^{\\prime}(x)=1\\cdot e^{-x}+x(-e^{-x})\\]\\[=e^{-x}(1-x)\\]</li><li><p class=\"facit-rubrik\">Hitta den stationära punkten</p><p>Exponentialfaktorn är aldrig noll. Därför måste den andra faktorn vara noll.</p>\\[1-x=0\\quad\\Rightarrow\\quad x=1\\]</li><li><p class=\"facit-rubrik\">Visa att punkten ger det största värdet</p><p>För x &lt; 1 är derivatan positiv. För x &gt; 1 är den negativ. Funktionen ökar alltså fram till x=1 och minskar sedan på hela resten av definitionsmängden.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Funktionen har sitt största värde vid \\(x=1\\).</p></div>",
+  "ledtrad": "<p>Använd produktregeln. Exponentialfaktorn är alltid positiv, så vilken faktor avgör derivatans tecken?</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51633,8 +51627,8 @@ window.BANKMATF1 = [
   "traningsniva": 2,
   "typ": "Kurvan är \\(y=x^3-3x\\)",
   "t": "<p>Kurvan är \\(y=x^3-3x\\). Vid vilka \\(x\\)-värden har tangenten lutningen 3? Svara exakt.</p>",
-  "s": "<div class=\"facit-v2\"><p>Sätt derivatan lika med den sökta lutningen:</p>\\[3x^2-3=3\\Rightarrow x^2=2.\\]<p><strong>Svar:</strong> \\(x=\\pm\\sqrt2\\).</p></div>",
-  "ledtrad": "<p>Tangentens lutning är derivatans värde.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera och sätt lutningen till 3</p>\\[y^{\\prime}=3x^2-3\\]\\[3x^2-3=3\\]</li><li><p class=\"facit-rubrik\">Lös ekvationen exakt</p>\\[3x^2=6\\quad\\Rightarrow\\quad x^2=2\\]\\[x=-\\sqrt2\\quad\\text{eller}\\quad x=\\sqrt2\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=-\\sqrt2\\) och \\(x=\\sqrt2\\).</p></div>",
+  "ledtrad": "<p>Översätt den givna tangentlutningen till ett villkor för derivatan. Ta med båda rötterna.</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51653,7 +51647,11 @@ window.BANKMATF1 = [
     "uttryck"
   ],
   "tolerans": null
-},
+,
+    "svarsstruktur": "mängd"
+  ,
+    "svarEtiketter": ["x", "x"]
+  },
 {
   "id": "3.334",
   "kap": 3,
@@ -51664,8 +51662,8 @@ window.BANKMATF1 = [
   "traningsniva": 2,
   "typ": "Funktionen är \\(f(x)=x^3-3x^2\\)",
   "t": "<p>Funktionen är \\(f(x)=x^3-3x^2\\). Bestäm \\(x\\)-koordinaten för den lokala maximipunkten.</p>",
-  "s": "<div class=\"facit-v2\"><p>Stationära punkter fås från \\(f^{\\prime}(x)=3x(x-2)=0\\): \\(x=0\\) och \\(x=2\\). Eftersom \\(f^{\\prime\\prime}(0)=-6\\lt0\\) är \\(x=0\\) en lokal maximipunkt. Vid 2 finns i stället ett lokalt minimum.</p></div>",
-  "ledtrad": "<p>Bestäm stationära punkter och skilj maximum från minimum.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm de stationära punkternas x-värden</p>\\[f^{\\prime}(x)=3x^2-6x=3x(x-2)\\]\\[3x(x-2)=0\\]\\[x=0\\quad\\text{eller}\\quad x=2\\]</li><li><p class=\"facit-rubrik\">Undersök andraderivatans tecken</p>\\[f^{\\prime\\prime}(x)=6x-6\\]\\[f^{\\prime\\prime}(0)=-6\\lt0\\]<p>Det ger ett lokalt maximum vid x=0. Vid x=2 är andraderivatan 6 &gt; 0, vilket i stället ger ett lokalt minimum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Den lokala maximipunktens x-koordinat är \\(0\\).</p></div>",
+  "ledtrad": "<p>Hitta först alla nollställen till derivatan. Använd sedan andraderivatan för att skilja maximum från minimum.</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51689,8 +51687,8 @@ window.BANKMATF1 = [
   "traningsniva": 2,
   "typ": "Funktionen är \\(f(x)=x^2+ax\\)",
   "t": "<p>Funktionen är \\(f(x)=x^2+ax\\). Tangenten vid \\(x=2\\) har lutningen 1. Bestäm \\(a\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Derivatan är \\(f^{\\prime}(x)=2x+a\\). Villkoret ger \\(4+a=1\\), alltså \\(a=-3\\).</p></div>",
-  "ledtrad": "<p>Skriv tangentvillkoret som en ekvation för derivatan.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera med a som konstant</p>\\[f^{\\prime}(x)=2x+a\\]</li><li><p class=\"facit-rubrik\">Använd tangentens givna lutning</p>\\[f^{\\prime}(2)=1\\quad\\Rightarrow\\quad4+a=1\\]\\[a=1-4=-3\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(a=-3\\).</p></div>",
+  "ledtrad": "<p>Behandla a som en konstant när du deriverar. Vad ska derivatans värde vara vid x=2?</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51714,8 +51712,8 @@ window.BANKMATF1 = [
   "traningsniva": 3,
   "typ": "Bestäm det minsta funktionsvärdet för \\(f(x)=x^4-8x^2\\)",
   "t": "<p>Bestäm det minsta funktionsvärdet för \\(f(x)=x^4-8x^2\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Skriv om funktionen:</p>\\[f(x)=(x^2-4)^2-16.\\]<p>Kvadraten är minst 0, vilket fås när \\(x=\\pm2\\). Det minsta funktionsvärdet är därför \\(-16\\). Även en derivataundersökning ger samma minimum.</p></div>",
-  "ledtrad": "<p>Sök stationära punkter, eller prova att kvadratkomplettera uttrycket.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Kvadratkomplettera med x² som variabel</p>\\[x^4-8x^2=(x^2-4)^2-16\\]<p>Utveckling av kvadraten ger x⁴−8x²+16, så vi måste dra bort 16.</p></li><li><p class=\"facit-rubrik\">Bestäm en nedre gräns som faktiskt nås</p>\\[(x^2-4)^2\\ge0\\]\\[f(x)\\ge-16\\]<p>Likhet fås när x²−4=0, alltså vid x=−2 och x=2.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Det minsta funktionsvärdet är \\(-16\\).</p></div>",
+  "ledtrad": "<p>Försök skriva uttrycket som en kvadrat minus en konstant. Hur liten kan kvadraten bli?</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51739,8 +51737,8 @@ window.BANKMATF1 = [
   "traningsniva": 2,
   "typ": "Vid vilket \\(x\\)-värde är tangenten till \\(y=x^2\\) parallell med linjen \\(y=6x+1\\)?",
   "t": "<p>Vid vilket \\(x\\)-värde är tangenten till \\(y=x^2\\) parallell med linjen \\(y=6x+1\\)?</p>",
-  "s": "<div class=\"facit-v2\"><p>Parallella linjer har samma lutning. Sätt \\(y^{\\prime}=2x=6\\). Då är \\(x=3\\).</p></div>",
-  "ledtrad": "<p>Jämför linjens lutning med derivatan.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av linjens lutning</p><p>Linjen y=6x+1 har lutningen 6. Konstanten 1 påverkar inte lutningen.</p></li><li><p class=\"facit-rubrik\">Sätt kurvans derivata lika med denna lutning</p>\\[y^{\\prime}=2x\\]\\[2x=6\\quad\\Rightarrow\\quad x=3\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=3\\).</p></div>",
+  "ledtrad": "<p>Vilken lutning har den räta linjen? En parallell tangent ska ha samma lutning.</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51759,13 +51757,13 @@ window.BANKMATF1 = [
   "kap": 3,
   "omr": "repetition_derivator",
   "familj": "Derivata och ekvationer med digitala verktyg",
-  "niva": "C",
-  "poang": "0/2/0",
-  "traningsniva": 3,
+  "niva": "E",
+  "poang": "2/0/0",
+  "traningsniva": 2,
   "typ": "Ekvationen \\(e^x=3x\\) har två reella lösningar",
   "t": "<p>Ekvationen \\(e^x=3x\\) har två reella lösningar. Bestäm den större lösningen med tre decimaler.</p>",
-  "s": "<div class=\"facit-v2\"><p>Rita \\(y=e^x\\) och \\(y=3x\\) eller bestäm nollställena till \\(e^x-3x\\) numeriskt. Den högra skärningen ligger vid \\(x\\approx1{,}51213455\\).</p><p><strong>Svar:</strong> \\(x\\approx1{,}512\\).</p></div>",
-  "ledtrad": "<p>Bestäm båda skärningarna digitalt och välj den med störst x-värde.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm båda skärningarna digitalt</p><p>Skriv in y=eˣ och y=3x i GeoGebra. Skärningsverktyget ger</p>\\[x\\approx0{,}619061\\]\\[x\\approx1{,}512135\\]</li><li><p class=\"facit-rubrik\">Välj den större lösningen och avrunda</p><p>Den större x-koordinaten är 1,512134551… Fjärde decimalen är 1, så tre decimaler ger 1,512.</p></li><li><p class=\"facit-rubrik\">Kontrollera med det oavrundade värdet</p>\\[e^{1{,}512134552}\\approx4{,}536404\\]\\[3\\cdot1{,}512134552\\approx4{,}536404\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x\\approx1{,}512\\).</p></div>",
+  "ledtrad": "<p>Rita båda leden som funktioner. Vilken av skärningspunkterna har störst x-koordinat?</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -51789,8 +51787,8 @@ window.BANKMATF1 = [
   "traningsniva": 3,
   "typ": "Funktionen \\(f(x)=\\ln x-x/2\\) är definierad för \\(x\\gt0\\)",
   "t": "<p>Funktionen \\(f(x)=\\ln x-x/2\\) är definierad för \\(x\\gt0\\). Vid vilket \\(x\\)-värde har den sitt största värde?</p>",
-  "s": "<div class=\"facit-v2\"><p>Derivatan är \\(f^{\\prime}(x)=1/x-1/2\\). Den är 0 vid \\(x=2\\), positiv före 2 och negativ efter 2.</p><p><strong>Svar:</strong> \\(x=2\\).</p></div>",
-  "ledtrad": "<p>Undersök var derivatan byter tecken från positiv till negativ.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Bestäm var derivatan är noll</p>\\[f^{\\prime}(x)=\\frac1x-\\frac12\\]\\[\\frac1x=\\frac12\\quad\\Rightarrow\\quad x=2\\]</li><li><p class=\"facit-rubrik\">Kontrollera hela definitionsmängden</p><p>För 0 &lt; x &lt; 2 är 1/x &gt; 1/2, så derivatan är positiv. För x &gt; 2 är 1/x &lt; 1/2, så derivatan är negativ.</p><p>Funktionen ökar fram till x=2 och minskar därefter. Därför är detta ett globalt maximum.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Funktionen har sitt största värde vid \\(x=2\\).</p></div>",
+  "ledtrad": "<p>Derivera inom definitionsmängden x>0. Hur ändras derivatans tecken när du passerar dess nollställe?</p>",
   "formaga": [
     "procedur",
     "begrepp"
@@ -53005,18 +53003,18 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "kedjeregeln i en punkt",
   "t": "<p>Funktionen är \\(f(x)=(2x+1)^3\\). Bestäm \\(f^{\\prime}(1)\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Kedjeregeln: \\(f^{\\prime}(x)=3(2x+1)^2\\cdot2=6(2x+1)^2\\).</p><p>\\(f^{\\prime}(1)=6\\cdot3^2=54\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd kedjeregeln</p>\\[f^{\\prime}(x)=3(2x+1)^2\\cdot2\\]\\[=6(2x+1)^2\\]</li><li><p class=\"facit-rubrik\">Sätt in x=1 efter deriveringen</p>\\[f^{\\prime}(1)=6(2\\cdot1+1)^2\\]\\[=6\\cdot9=54\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f^{\\prime}(1)=54\\).</p></div>",
   "familj": "Deriveringsregler med grafer och tabeller",
   "formaga": [
     "procedur"
   ],
-  "miniräknare": false,
+  "miniräknare": true,
   "geogebra": false,
   "spel": true,
   "självrättning": true,
-  "traningsniva": 1,
+  "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Yttre derivata gånger inre derivata.</p>",
+  "ledtrad": "<p>Derivera den yttre kuben och multiplicera med den inre funktionens derivata.</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 54,
   "tolerans": 0,
@@ -53030,7 +53028,7 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "produktregeln i en punkt",
   "t": "<p>Funktionen är \\(f(x)=x^2e^{x}\\). Bestäm \\(f^{\\prime}(1)\\). (Svara exakt eller med två decimaler.)</p>",
-  "s": "<div class=\"facit-v2\"><p>Produktregeln: \\(f^{\\prime}(x)=2xe^x+x^2e^x=(2x+x^2)e^x\\).</p><p>\\(f^{\\prime}(1)=3e\\approx8{,}15\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Använd produktregeln</p>\\[f^{\\prime}(x)=2xe^x+x^2e^x\\]\\[=(2x+x^2)e^x\\]</li><li><p class=\"facit-rubrik\">Sätt in x=1 och behåll exakt värde</p>\\[f^{\\prime}(1)=(2+1)e=3e\\]</li><li><p class=\"facit-rubrik\">Avrunda om du väljer decimalsvar</p>\\[3e=8{,}154845485\\ldots\\approx8{,}15\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(3e\\), eller \\(8{,}15\\) med två decimaler.</p></div>",
   "familj": "Deriveringsregler med grafer och tabeller",
   "formaga": [
     "procedur"
@@ -53041,9 +53039,9 @@ window.BANKMATF1 = [
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Derivera en faktor i taget: f′g + fg′.</p>",
+  "ledtrad": "<p>Derivatan av en produkt har två termer. Derivera en faktor i taget medan den andra behålls.</p>",
   "svarstyp": "numeriskt",
-  "rättSvar": 8.15,
+  "rättSvar": 8.154845485377136,
   "tolerans": 0.005,
   "svarFormat": "numeriskt"
 },
@@ -53055,18 +53053,18 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "kvotregeln i en punkt",
   "t": "<p>Funktionen är \\(f(x)=\\dfrac{x}{x^2+1}\\). Bestäm \\(f^{\\prime}(0)\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>Kvotregeln: \\(f^{\\prime}(x)=\\dfrac{1\\cdot(x^2+1)-x\\cdot2x}{(x^2+1)^2}=\\dfrac{1-x^2}{(x^2+1)^2}\\).</p><p>\\(f^{\\prime}(0)=\\dfrac{1}{1}=1\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera täljare och nämnare</p><p>Täljaren x har derivatan 1. Nämnaren x²+1 har derivatan 2x.</p></li><li><p class=\"facit-rubrik\">Använd kvotregeln</p>\\[f^{\\prime}(x)=\\frac{1\\cdot(x^2+1)-x\\cdot2x}{(x^2+1)^2}\\]\\[=\\frac{1-x^2}{(x^2+1)^2}\\]</li><li><p class=\"facit-rubrik\">Sätt in x=0</p>\\[f^{\\prime}(0)=\\frac{1-0^2}{(0^2+1)^2}=1\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f^{\\prime}(0)=1\\).</p></div>",
   "familj": "Deriveringsregler med grafer och tabeller",
   "formaga": [
     "procedur"
   ],
-  "miniräknare": false,
+  "miniräknare": true,
   "geogebra": false,
   "spel": true,
   "självrättning": true,
   "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Använd (f′g − fg′)/g².</p>",
+  "ledtrad": "<p>I kvotregeln är ordningen i täljarens subtraktion viktig. Nämnaren ska kvadreras.</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 1,
   "tolerans": 0,
@@ -53080,18 +53078,18 @@ window.BANKMATF1 = [
   "poang": "1/0/0",
   "typ": "derivatan av sin(kx)",
   "t": "<p>Bestäm lutningen för kurvan \\(y=\\sin3x+\\cos2x\\) där \\(x=0\\).</p>",
-  "s": "<div class=\"facit-v2\"><p>\\(y^{\\prime}=3\\cos3x-2\\sin2x\\). För \\(x=0\\): \\(3\\cdot1-2\\cdot0=3\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera båda trigonometriska termerna</p>\\[y^{\\prime}=3\\cos(3x)-2\\sin(2x)\\]</li><li><p class=\"facit-rubrik\">Använd värdena vid vinkeln noll</p>\\[y^{\\prime}(0)=3\\cos0-2\\sin0\\]\\[=3\\cdot1-2\\cdot0=3\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Lutningen är \\(3\\).</p></div>",
   "familj": "Deriveringsregler med grafer och tabeller",
   "formaga": [
     "procedur"
   ],
-  "miniräknare": false,
+  "miniräknare": true,
   "geogebra": false,
   "spel": true,
   "självrättning": true,
-  "traningsniva": 1,
+  "traningsniva": 2,
   "arbetsinsats": 1,
-  "ledtrad": "<p>Kedjeregeln: derivatan av sin(kx) är k cos(kx).</p>",
+  "ledtrad": "<p>Derivera båda termerna med kedjeregeln. Kom ihåg minustecknet när cosinus deriveras.</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 3,
   "tolerans": 0,
@@ -53101,23 +53099,23 @@ window.BANKMATF1 = [
   "id": "3.344",
   "kap": 3,
   "omr": "repetition_derivator",
-  "niva": "E",
-  "poang": "1/0/0",
+  "niva": "C",
+  "poang": "0/2/0",
   "typ": "kedjeregel med värden ur graf",
   "t": "<p>Figuren visar grafen till \\(f\\) och tangenten i punkten \\((2,\\,3)\\). Funktionen \\(g\\) är \\(g(x)=\\big(f(x)\\big)^2\\). Bestäm \\(g^{\\prime}(2)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 340\" role=\"img\" aria-label=\"Grafen till f och en streckad tangent i punkten (2, 3). Tangenten går också genom (0, 2) och (4, 4).\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"73.0\" y1=\"22\" x2=\"73.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"98.0\" y1=\"22\" x2=\"98.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"123.0\" y1=\"22\" x2=\"123.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"148.0\" y1=\"22\" x2=\"148.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"173.0\" y1=\"22\" x2=\"173.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"198.0\" y1=\"22\" x2=\"198.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"248.0\" y1=\"22\" x2=\"248.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"273.0\" y1=\"22\" x2=\"273.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"298.0\" y1=\"22\" x2=\"298.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"323.0\" y1=\"22\" x2=\"323.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"348.0\" y1=\"22\" x2=\"348.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"373.0\" y1=\"22\" x2=\"373.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"298.0\" x2=\"398\" y2=\"298.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.6\" x2=\"398\" y2=\"258.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"219.1\" x2=\"398\" y2=\"219.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"179.7\" x2=\"398\" y2=\"179.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"140.3\" x2=\"398\" y2=\"140.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"100.9\" x2=\"398\" y2=\"100.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"61.4\" x2=\"398\" y2=\"61.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.6\" x2=\"408\" y2=\"258.6\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,258.6 402,253.6 402,263.6\" fill=\"#172b3a\"/><line x1=\"98.0\" y1=\"298\" x2=\"98.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"98.0,8 93.0,18 103.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"249.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"106.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"48.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"148.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"198.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"248.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"298.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"348.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"398.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"92.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"92.0\" y=\"223.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"92.0\" y=\"183.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"92.0\" y=\"144.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"92.0\" y=\"104.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"92.0\" y=\"65.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"92.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"92.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"ke9748bbc\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"276\"/></clipPath><polyline clip-path=\"url(#ke9748bbc)\" points=\"48.0,376.9 48.9,373.9 49.8,371.0 50.6,368.2 51.5,365.3 52.4,362.5 53.2,359.7 54.1,356.9 55.0,354.2 55.9,351.4 56.8,348.7 57.6,346.0 58.5,343.4 59.4,340.7 60.2,338.1 61.1,335.5 62.0,333.0 62.9,330.4 63.8,327.9 64.6,325.4 65.5,322.9 66.4,320.4 67.2,318.0 68.1,315.6 69.0,313.2 69.9,310.8 70.8,308.5 71.6,306.1 72.5,303.8 73.4,301.5 74.2,299.3 75.1,297.0 76.0,294.8 76.9,292.6 77.8,290.4 78.6,288.3 79.5,286.1 80.4,284.0 81.2,281.9 82.1,279.8 83.0,277.8 83.9,275.7 84.8,273.7 85.6,271.7 86.5,269.7 87.4,267.7 88.2,265.8 89.1,263.9 90.0,262.0 90.9,260.1 91.8,258.2 92.6,256.4 93.5,254.5 94.4,252.7 95.2,250.9 96.1,249.2 97.0,247.4 97.9,245.7 98.8,244.0 99.6,242.3 100.5,240.6 101.4,238.9 102.2,237.3 103.1,235.6 104.0,234.0 104.9,232.4 105.8,230.8 106.6,229.3 107.5,227.7 108.4,226.2 109.2,224.7 110.1,223.2 111.0,221.7 111.9,220.3 112.8,218.8 113.6,217.4 114.5,216.0 115.4,214.6 116.2,213.2 117.1,211.9 118.0,210.5 118.9,209.2 119.8,207.9 120.6,206.6 121.5,205.3 122.4,204.0 123.2,202.8 124.1,201.5 125.0,200.3 125.9,199.1 126.8,197.9 127.6,196.7 128.5,195.6 129.4,194.4 130.2,193.3 131.1,192.1 132.0,191.0 132.9,189.9 133.8,188.9 134.6,187.8 135.5,186.7 136.4,185.7 137.2,184.7 138.1,183.7 139.0,182.7 139.9,181.7 140.8,180.7 141.6,179.8 142.5,178.8 143.4,177.9 144.2,177.0 145.1,176.0 146.0,175.1 146.9,174.3 147.8,173.4 148.6,172.5 149.5,171.7 150.4,170.8 151.2,170.0 152.1,169.2 153.0,168.4 153.9,167.6 154.8,166.8 155.6,166.1 156.5,165.3 157.4,164.6 158.2,163.8 159.1,163.1 160.0,162.4 160.9,161.7 161.8,161.0 162.6,160.3 163.5,159.7 164.4,159.0 165.2,158.4 166.1,157.7 167.0,157.1 167.9,156.5 168.8,155.8 169.6,155.2 170.5,154.7 171.4,154.1 172.2,153.5 173.1,152.9 174.0,152.4 174.9,151.8 175.8,151.3 176.6,150.8 177.5,150.3 178.4,149.7 179.2,149.2 180.1,148.7 181.0,148.3 181.9,147.8 182.7,147.3 183.6,146.8 184.5,146.4 185.4,145.9 186.2,145.5 187.1,145.1 188.0,144.6 188.9,144.2 189.8,143.8 190.6,143.4 191.5,143.0 192.4,142.6 193.2,142.3 194.1,141.9 195.0,141.5 195.9,141.1 196.8,140.8 197.6,140.4 198.5,140.1 199.4,139.8 200.2,139.4 201.1,139.1 202.0,138.8 202.9,138.5 203.8,138.1 204.6,137.8 205.5,137.5 206.4,137.2 207.2,137.0 208.1,136.7 209.0,136.4 209.9,136.1 210.8,135.8 211.6,135.6 212.5,135.3 213.4,135.1 214.2,134.8 215.1,134.6 216.0,134.3 216.9,134.1 217.8,133.8 218.6,133.6 219.5,133.4 220.4,133.1 221.2,132.9 222.1,132.7 223.0,132.5 223.9,132.3 224.8,132.1 225.6,131.8 226.5,131.6 227.4,131.4 228.2,131.2 229.1,131.0 230.0,130.8 230.9,130.7 231.8,130.5 232.6,130.3 233.5,130.1 234.4,129.9 235.2,129.7 236.1,129.5 237.0,129.3 237.9,129.2 238.8,129.0 239.6,128.8 240.5,128.6 241.4,128.5 242.2,128.3 243.1,128.1 244.0,127.9 244.9,127.8 245.8,127.6 246.6,127.4 247.5,127.2 248.4,127.1 249.3,126.9 250.1,126.7 251.0,126.6 251.9,126.4 252.8,126.2 253.6,126.0 254.5,125.9 255.4,125.7 256.2,125.5 257.1,125.3 258.0,125.1 258.9,125.0 259.8,124.8 260.6,124.6 261.5,124.4 262.4,124.2 263.2,124.0 264.1,123.9 265.0,123.7 265.9,123.5 266.8,123.3 267.6,123.1 268.5,122.9 269.4,122.7 270.2,122.5 271.1,122.3 272.0,122.0 272.9,121.8 273.8,121.6 274.6,121.4 275.5,121.2 276.4,120.9 277.2,120.7 278.1,120.5 279.0,120.2 279.9,120.0 280.8,119.8 281.6,119.5 282.5,119.3 283.4,119.0 284.2,118.7 285.1,118.5 286.0,118.2 286.9,117.9 287.8,117.7 288.6,117.4 289.5,117.1 290.4,116.8 291.2,116.5 292.1,116.2 293.0,115.9 293.9,115.6 294.8,115.2 295.6,114.9 296.5,114.6 297.4,114.2 298.2,113.9 299.1,113.6 300.0,113.2 300.9,112.8 301.8,112.5 302.6,112.1 303.5,111.7 304.4,111.3 305.2,110.9 306.1,110.5 307.0,110.1 307.9,109.7 308.8,109.3 309.6,108.8 310.5,108.4 311.4,108.0 312.2,107.5 313.1,107.0 314.0,106.6 314.9,106.1 315.8,105.6 316.6,105.1 317.5,104.6 318.4,104.1 319.2,103.6 320.1,103.1 321.0,102.5 321.9,102.0 322.8,101.4 323.6,100.9 324.5,100.3 325.4,99.7 326.2,99.1 327.1,98.5 328.0,97.9 328.9,97.3 329.8,96.7 330.6,96.0 331.5,95.4 332.4,94.7 333.2,94.1 334.1,93.4 335.0,92.7 335.9,92.0 336.8,91.3 337.6,90.6 338.5,89.8 339.4,89.1 340.2,88.3 341.1,87.6 342.0,86.8 342.9,86.0 343.8,85.2 344.6,84.4 345.5,83.6 346.4,82.7 347.3,81.9 348.1,81.0 349.0,80.1 349.9,79.3 350.8,78.4 351.6,77.5 352.5,76.5 353.4,75.6 354.2,74.7 355.1,73.7 356.0,72.7 356.9,71.8 357.8,70.8 358.6,69.7 359.5,68.7 360.4,67.7 361.2,66.6 362.1,65.6 363.0,64.5 363.9,63.4 364.8,62.3 365.6,61.2 366.5,60.0 367.4,58.9 368.2,57.7 369.1,56.6 370.0,55.4 370.9,54.2 371.8,52.9 372.6,51.7 373.5,50.4 374.4,49.2 375.2,47.9 376.1,46.6 377.0,45.3 377.9,44.0 378.8,42.6 379.6,41.3 380.5,39.9 381.4,38.5 382.2,37.1 383.1,35.7 384.0,34.2 384.9,32.8 385.8,31.3 386.6,29.8 387.5,28.3 388.4,26.8 389.2,25.2 390.1,23.7 391.0,22.1 391.9,20.5 392.8,18.9 393.6,17.3 394.5,15.6 395.4,14.0 396.2,12.3 397.1,10.6 398.0,8.9\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"328.0\" y=\"167.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">y = f(x)</text><polyline clip-path=\"url(#ke9748bbc)\" points=\"48.0,199.4 48.9,199.1 49.8,198.7 50.6,198.4 51.5,198.0 52.4,197.7 53.2,197.4 54.1,197.0 55.0,196.7 55.9,196.3 56.8,196.0 57.6,195.6 58.5,195.3 59.4,194.9 60.2,194.6 61.1,194.3 62.0,193.9 62.9,193.6 63.8,193.2 64.6,192.9 65.5,192.5 66.4,192.2 67.2,191.8 68.1,191.5 69.0,191.1 69.9,190.8 70.8,190.5 71.6,190.1 72.5,189.8 73.4,189.4 74.2,189.1 75.1,188.7 76.0,188.4 76.9,188.0 77.8,187.7 78.6,187.4 79.5,187.0 80.4,186.7 81.2,186.3 82.1,186.0 83.0,185.6 83.9,185.3 84.8,184.9 85.6,184.6 86.5,184.2 87.4,183.9 88.2,183.6 89.1,183.2 90.0,182.9 90.9,182.5 91.8,182.2 92.6,181.8 93.5,181.5 94.4,181.1 95.2,180.8 96.1,180.5 97.0,180.1 97.9,179.8 98.8,179.4 99.6,179.1 100.5,178.7 101.4,178.4 102.2,178.0 103.1,177.7 104.0,177.3 104.9,177.0 105.8,176.7 106.6,176.3 107.5,176.0 108.4,175.6 109.2,175.3 110.1,174.9 111.0,174.6 111.9,174.2 112.8,173.9 113.6,173.6 114.5,173.2 115.4,172.9 116.2,172.5 117.1,172.2 118.0,171.8 118.9,171.5 119.8,171.1 120.6,170.8 121.5,170.4 122.4,170.1 123.2,169.8 124.1,169.4 125.0,169.1 125.9,168.7 126.8,168.4 127.6,168.0 128.5,167.7 129.4,167.3 130.2,167.0 131.1,166.7 132.0,166.3 132.9,166.0 133.8,165.6 134.6,165.3 135.5,164.9 136.4,164.6 137.2,164.2 138.1,163.9 139.0,163.5 139.9,163.2 140.8,162.9 141.6,162.5 142.5,162.2 143.4,161.8 144.2,161.5 145.1,161.1 146.0,160.8 146.9,160.4 147.8,160.1 148.6,159.8 149.5,159.4 150.4,159.1 151.2,158.7 152.1,158.4 153.0,158.0 153.9,157.7 154.8,157.3 155.6,157.0 156.5,156.6 157.4,156.3 158.2,156.0 159.1,155.6 160.0,155.3 160.9,154.9 161.8,154.6 162.6,154.2 163.5,153.9 164.4,153.5 165.2,153.2 166.1,152.9 167.0,152.5 167.9,152.2 168.8,151.8 169.6,151.5 170.5,151.1 171.4,150.8 172.2,150.4 173.1,150.1 174.0,149.7 174.9,149.4 175.8,149.1 176.6,148.7 177.5,148.4 178.4,148.0 179.2,147.7 180.1,147.3 181.0,147.0 181.9,146.6 182.7,146.3 183.6,146.0 184.5,145.6 185.4,145.3 186.2,144.9 187.1,144.6 188.0,144.2 188.9,143.9 189.8,143.5 190.6,143.2 191.5,142.8 192.4,142.5 193.2,142.2 194.1,141.8 195.0,141.5 195.9,141.1 196.8,140.8 197.6,140.4 198.5,140.1 199.4,139.7 200.2,139.4 201.1,139.1 202.0,138.7 202.9,138.4 203.8,138.0 204.6,137.7 205.5,137.3 206.4,137.0 207.2,136.6 208.1,136.3 209.0,135.9 209.9,135.6 210.8,135.3 211.6,134.9 212.5,134.6 213.4,134.2 214.2,133.9 215.1,133.5 216.0,133.2 216.9,132.8 217.8,132.5 218.6,132.2 219.5,131.8 220.4,131.5 221.2,131.1 222.1,130.8 223.0,130.4 223.9,130.1 224.8,129.7 225.6,129.4 226.5,129.0 227.4,128.7 228.2,128.4 229.1,128.0 230.0,127.7 230.9,127.3 231.8,127.0 232.6,126.6 233.5,126.3 234.4,125.9 235.2,125.6 236.1,125.3 237.0,124.9 237.9,124.6 238.8,124.2 239.6,123.9 240.5,123.5 241.4,123.2 242.2,122.8 243.1,122.5 244.0,122.1 244.9,121.8 245.8,121.5 246.6,121.1 247.5,120.8 248.4,120.4 249.3,120.1 250.1,119.7 251.0,119.4 251.9,119.0 252.8,118.7 253.6,118.4 254.5,118.0 255.4,117.7 256.2,117.3 257.1,117.0 258.0,116.6 258.9,116.3 259.8,115.9 260.6,115.6 261.5,115.2 262.4,114.9 263.2,114.6 264.1,114.2 265.0,113.9 265.9,113.5 266.8,113.2 267.6,112.8 268.5,112.5 269.4,112.1 270.2,111.8 271.1,111.5 272.0,111.1 272.9,110.8 273.8,110.4 274.6,110.1 275.5,109.7 276.4,109.4 277.2,109.0 278.1,108.7 279.0,108.3 279.9,108.0 280.8,107.7 281.6,107.3 282.5,107.0 283.4,106.6 284.2,106.3 285.1,105.9 286.0,105.6 286.9,105.2 287.8,104.9 288.6,104.6 289.5,104.2 290.4,103.9 291.2,103.5 292.1,103.2 293.0,102.8 293.9,102.5 294.8,102.1 295.6,101.8 296.5,101.4 297.4,101.1 298.2,100.8 299.1,100.4 300.0,100.1 300.9,99.7 301.8,99.4 302.6,99.0 303.5,98.7 304.4,98.3 305.2,98.0 306.1,97.7 307.0,97.3 307.9,97.0 308.8,96.6 309.6,96.3 310.5,95.9 311.4,95.6 312.2,95.2 313.1,94.9 314.0,94.5 314.9,94.2 315.8,93.9 316.6,93.5 317.5,93.2 318.4,92.8 319.2,92.5 320.1,92.1 321.0,91.8 321.9,91.4 322.8,91.1 323.6,90.8 324.5,90.4 325.4,90.1 326.2,89.7 327.1,89.4 328.0,89.0 328.9,88.7 329.8,88.3 330.6,88.0 331.5,87.6 332.4,87.3 333.2,87.0 334.1,86.6 335.0,86.3 335.9,85.9 336.8,85.6 337.6,85.2 338.5,84.9 339.4,84.5 340.2,84.2 341.1,83.9 342.0,83.5 342.9,83.2 343.8,82.8 344.6,82.5 345.5,82.1 346.4,81.8 347.3,81.4 348.1,81.1 349.0,80.7 349.9,80.4 350.8,80.1 351.6,79.7 352.5,79.4 353.4,79.0 354.2,78.7 355.1,78.3 356.0,78.0 356.9,77.6 357.8,77.3 358.6,77.0 359.5,76.6 360.4,76.3 361.2,75.9 362.1,75.6 363.0,75.2 363.9,74.9 364.8,74.5 365.6,74.2 366.5,73.8 367.4,73.5 368.2,73.2 369.1,72.8 370.0,72.5 370.9,72.1 371.8,71.8 372.6,71.4 373.5,71.1 374.4,70.7 375.2,70.4 376.1,70.1 377.0,69.7 377.9,69.4 378.8,69.0 379.6,68.7 380.5,68.3 381.4,68.0 382.2,67.6 383.1,67.3 384.0,66.9 384.9,66.6 385.8,66.3 386.6,65.9 387.5,65.6 388.4,65.2 389.2,64.9 390.1,64.5 391.0,64.2 391.9,63.8 392.8,63.5 393.6,63.2 394.5,62.8 395.4,62.5 396.2,62.1 397.1,61.8 398.0,61.4\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><text x=\"228.0\" y=\"65.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#d9622b\">tangent</text><circle cx=\"198.0\" cy=\"140.3\" r=\"5\" fill=\"#172b3a\"/><text x=\"188.0\" y=\"126.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">(2, 3)</text><circle cx=\"98.0\" cy=\"179.7\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"298.0\" cy=\"100.9\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Tangenten går genom \\((0,\\,2)\\) och \\((4,\\,4)\\), så \\(f^{\\prime}(2)=\\dfrac{4-2}{4-0}=0{,}5\\). Dessutom är \\(f(2)=3\\).</p><p>Kedjeregeln: \\(g^{\\prime}(x)=2f(x)\\cdot f^{\\prime}(x)\\), så \\(g^{\\prime}(2)=2\\cdot3\\cdot0{,}5=3\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Läs av höjden och beräkna tangentens lutning</p><p>Tangentpunkten ger f(2)=3. Tangenten går också genom (0,2) och (4,4).</p>\\[f^{\\prime}(2)=\\frac{4-2}{4-0}=\\frac12\\]</li><li><p class=\"facit-rubrik\">Använd kedjeregeln för kvadraten</p>\\[g^{\\prime}(x)=2f(x)f^{\\prime}(x)\\]</li><li><p class=\"facit-rubrik\">Sätt in de två avlästa värdena</p>\\[g^{\\prime}(2)=2\\cdot3\\cdot\\frac12=3\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(g^{\\prime}(2)=3\\).</p></div>",
   "familj": "Deriveringsregler med grafer och tabeller",
   "formaga": [
     "procedur",
     "begrepp"
   ],
-  "miniräknare": false,
+  "miniräknare": true,
   "geogebra": false,
   "spel": true,
   "självrättning": true,
   "traningsniva": 3,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Läs av f(2) och f′(2). Derivera g med kedjeregeln.</p>",
+  "ledtrad": "<p>Läs av funktionsvärdet i tangentpunkten. Bestäm sedan tangentens lutning med två punkter på själva tangentlinjen.</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 3,
   "tolerans": 0,
@@ -53127,23 +53125,23 @@ window.BANKMATF1 = [
   "id": "3.345",
   "kap": 3,
   "omr": "repetition_derivator",
-  "niva": "E",
-  "poang": "1/0/0",
+  "niva": "C",
+  "poang": "0/2/0",
   "typ": "inre derivata med värden ur graf",
   "t": "<p>Figuren visar grafen till \\(f\\) och tangenten i punkten \\((2,\\,3)\\). Funktionen \\(h\\) är \\(h(x)=f(2x)\\). Bestäm \\(h^{\\prime}(1)\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 340\" role=\"img\" aria-label=\"Grafen till f och en streckad tangent i punkten (2, 3). Tangenten går också genom (0, 2) och (4, 4).\" style=\"width:100%;max-width:420px\"><rect x=\"1\" y=\"1\" width=\"418\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"48.0\" y1=\"22\" x2=\"48.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"73.0\" y1=\"22\" x2=\"73.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"98.0\" y1=\"22\" x2=\"98.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"123.0\" y1=\"22\" x2=\"123.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"148.0\" y1=\"22\" x2=\"148.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"173.0\" y1=\"22\" x2=\"173.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"198.0\" y1=\"22\" x2=\"198.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"223.0\" y1=\"22\" x2=\"223.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"248.0\" y1=\"22\" x2=\"248.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"273.0\" y1=\"22\" x2=\"273.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"298.0\" y1=\"22\" x2=\"298.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"323.0\" y1=\"22\" x2=\"323.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"348.0\" y1=\"22\" x2=\"348.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"373.0\" y1=\"22\" x2=\"373.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"398.0\" y1=\"22\" x2=\"398.0\" y2=\"298\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"298.0\" x2=\"398\" y2=\"298.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.6\" x2=\"398\" y2=\"258.6\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"219.1\" x2=\"398\" y2=\"219.1\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"179.7\" x2=\"398\" y2=\"179.7\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"140.3\" x2=\"398\" y2=\"140.3\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"100.9\" x2=\"398\" y2=\"100.9\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"61.4\" x2=\"398\" y2=\"61.4\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"22.0\" x2=\"398\" y2=\"22.0\" stroke=\"#e3e9f0\" stroke-width=\"1\"/><line x1=\"48\" y1=\"258.6\" x2=\"408\" y2=\"258.6\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"412,258.6 402,253.6 402,263.6\" fill=\"#172b3a\"/><line x1=\"98.0\" y1=\"298\" x2=\"98.0\" y2=\"12\" stroke=\"#172b3a\" stroke-width=\"1.6\"/><polygon points=\"98.0,8 93.0,18 103.0,18\" fill=\"#172b3a\"/><text x=\"410\" y=\"249.6\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\" text-anchor=\"end\">x</text><text x=\"106.0\" y=\"20\" font-family=\"Arial,sans-serif\" font-size=\"15\" fill=\"#172b3a\" font-style=\"italic\">y</text><text x=\"48.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">−1</text><text x=\"148.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">1</text><text x=\"198.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">2</text><text x=\"248.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">3</text><text x=\"298.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">4</text><text x=\"348.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">5</text><text x=\"398.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#172b3a\">6</text><text x=\"92.0\" y=\"302.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">−1</text><text x=\"92.0\" y=\"223.1\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">1</text><text x=\"92.0\" y=\"183.7\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">2</text><text x=\"92.0\" y=\"144.3\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">3</text><text x=\"92.0\" y=\"104.9\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">4</text><text x=\"92.0\" y=\"65.4\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">5</text><text x=\"92.0\" y=\"26.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">6</text><text x=\"92.0\" y=\"275.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"end\" fill=\"#172b3a\">0</text><clipPath id=\"ke9748bbc\"><rect x=\"48\" y=\"22\" width=\"350\" height=\"276\"/></clipPath><polyline clip-path=\"url(#ke9748bbc)\" points=\"48.0,376.9 48.9,373.9 49.8,371.0 50.6,368.2 51.5,365.3 52.4,362.5 53.2,359.7 54.1,356.9 55.0,354.2 55.9,351.4 56.8,348.7 57.6,346.0 58.5,343.4 59.4,340.7 60.2,338.1 61.1,335.5 62.0,333.0 62.9,330.4 63.8,327.9 64.6,325.4 65.5,322.9 66.4,320.4 67.2,318.0 68.1,315.6 69.0,313.2 69.9,310.8 70.8,308.5 71.6,306.1 72.5,303.8 73.4,301.5 74.2,299.3 75.1,297.0 76.0,294.8 76.9,292.6 77.8,290.4 78.6,288.3 79.5,286.1 80.4,284.0 81.2,281.9 82.1,279.8 83.0,277.8 83.9,275.7 84.8,273.7 85.6,271.7 86.5,269.7 87.4,267.7 88.2,265.8 89.1,263.9 90.0,262.0 90.9,260.1 91.8,258.2 92.6,256.4 93.5,254.5 94.4,252.7 95.2,250.9 96.1,249.2 97.0,247.4 97.9,245.7 98.8,244.0 99.6,242.3 100.5,240.6 101.4,238.9 102.2,237.3 103.1,235.6 104.0,234.0 104.9,232.4 105.8,230.8 106.6,229.3 107.5,227.7 108.4,226.2 109.2,224.7 110.1,223.2 111.0,221.7 111.9,220.3 112.8,218.8 113.6,217.4 114.5,216.0 115.4,214.6 116.2,213.2 117.1,211.9 118.0,210.5 118.9,209.2 119.8,207.9 120.6,206.6 121.5,205.3 122.4,204.0 123.2,202.8 124.1,201.5 125.0,200.3 125.9,199.1 126.8,197.9 127.6,196.7 128.5,195.6 129.4,194.4 130.2,193.3 131.1,192.1 132.0,191.0 132.9,189.9 133.8,188.9 134.6,187.8 135.5,186.7 136.4,185.7 137.2,184.7 138.1,183.7 139.0,182.7 139.9,181.7 140.8,180.7 141.6,179.8 142.5,178.8 143.4,177.9 144.2,177.0 145.1,176.0 146.0,175.1 146.9,174.3 147.8,173.4 148.6,172.5 149.5,171.7 150.4,170.8 151.2,170.0 152.1,169.2 153.0,168.4 153.9,167.6 154.8,166.8 155.6,166.1 156.5,165.3 157.4,164.6 158.2,163.8 159.1,163.1 160.0,162.4 160.9,161.7 161.8,161.0 162.6,160.3 163.5,159.7 164.4,159.0 165.2,158.4 166.1,157.7 167.0,157.1 167.9,156.5 168.8,155.8 169.6,155.2 170.5,154.7 171.4,154.1 172.2,153.5 173.1,152.9 174.0,152.4 174.9,151.8 175.8,151.3 176.6,150.8 177.5,150.3 178.4,149.7 179.2,149.2 180.1,148.7 181.0,148.3 181.9,147.8 182.7,147.3 183.6,146.8 184.5,146.4 185.4,145.9 186.2,145.5 187.1,145.1 188.0,144.6 188.9,144.2 189.8,143.8 190.6,143.4 191.5,143.0 192.4,142.6 193.2,142.3 194.1,141.9 195.0,141.5 195.9,141.1 196.8,140.8 197.6,140.4 198.5,140.1 199.4,139.8 200.2,139.4 201.1,139.1 202.0,138.8 202.9,138.5 203.8,138.1 204.6,137.8 205.5,137.5 206.4,137.2 207.2,137.0 208.1,136.7 209.0,136.4 209.9,136.1 210.8,135.8 211.6,135.6 212.5,135.3 213.4,135.1 214.2,134.8 215.1,134.6 216.0,134.3 216.9,134.1 217.8,133.8 218.6,133.6 219.5,133.4 220.4,133.1 221.2,132.9 222.1,132.7 223.0,132.5 223.9,132.3 224.8,132.1 225.6,131.8 226.5,131.6 227.4,131.4 228.2,131.2 229.1,131.0 230.0,130.8 230.9,130.7 231.8,130.5 232.6,130.3 233.5,130.1 234.4,129.9 235.2,129.7 236.1,129.5 237.0,129.3 237.9,129.2 238.8,129.0 239.6,128.8 240.5,128.6 241.4,128.5 242.2,128.3 243.1,128.1 244.0,127.9 244.9,127.8 245.8,127.6 246.6,127.4 247.5,127.2 248.4,127.1 249.3,126.9 250.1,126.7 251.0,126.6 251.9,126.4 252.8,126.2 253.6,126.0 254.5,125.9 255.4,125.7 256.2,125.5 257.1,125.3 258.0,125.1 258.9,125.0 259.8,124.8 260.6,124.6 261.5,124.4 262.4,124.2 263.2,124.0 264.1,123.9 265.0,123.7 265.9,123.5 266.8,123.3 267.6,123.1 268.5,122.9 269.4,122.7 270.2,122.5 271.1,122.3 272.0,122.0 272.9,121.8 273.8,121.6 274.6,121.4 275.5,121.2 276.4,120.9 277.2,120.7 278.1,120.5 279.0,120.2 279.9,120.0 280.8,119.8 281.6,119.5 282.5,119.3 283.4,119.0 284.2,118.7 285.1,118.5 286.0,118.2 286.9,117.9 287.8,117.7 288.6,117.4 289.5,117.1 290.4,116.8 291.2,116.5 292.1,116.2 293.0,115.9 293.9,115.6 294.8,115.2 295.6,114.9 296.5,114.6 297.4,114.2 298.2,113.9 299.1,113.6 300.0,113.2 300.9,112.8 301.8,112.5 302.6,112.1 303.5,111.7 304.4,111.3 305.2,110.9 306.1,110.5 307.0,110.1 307.9,109.7 308.8,109.3 309.6,108.8 310.5,108.4 311.4,108.0 312.2,107.5 313.1,107.0 314.0,106.6 314.9,106.1 315.8,105.6 316.6,105.1 317.5,104.6 318.4,104.1 319.2,103.6 320.1,103.1 321.0,102.5 321.9,102.0 322.8,101.4 323.6,100.9 324.5,100.3 325.4,99.7 326.2,99.1 327.1,98.5 328.0,97.9 328.9,97.3 329.8,96.7 330.6,96.0 331.5,95.4 332.4,94.7 333.2,94.1 334.1,93.4 335.0,92.7 335.9,92.0 336.8,91.3 337.6,90.6 338.5,89.8 339.4,89.1 340.2,88.3 341.1,87.6 342.0,86.8 342.9,86.0 343.8,85.2 344.6,84.4 345.5,83.6 346.4,82.7 347.3,81.9 348.1,81.0 349.0,80.1 349.9,79.3 350.8,78.4 351.6,77.5 352.5,76.5 353.4,75.6 354.2,74.7 355.1,73.7 356.0,72.7 356.9,71.8 357.8,70.8 358.6,69.7 359.5,68.7 360.4,67.7 361.2,66.6 362.1,65.6 363.0,64.5 363.9,63.4 364.8,62.3 365.6,61.2 366.5,60.0 367.4,58.9 368.2,57.7 369.1,56.6 370.0,55.4 370.9,54.2 371.8,52.9 372.6,51.7 373.5,50.4 374.4,49.2 375.2,47.9 376.1,46.6 377.0,45.3 377.9,44.0 378.8,42.6 379.6,41.3 380.5,39.9 381.4,38.5 382.2,37.1 383.1,35.7 384.0,34.2 384.9,32.8 385.8,31.3 386.6,29.8 387.5,28.3 388.4,26.8 389.2,25.2 390.1,23.7 391.0,22.1 391.9,20.5 392.8,18.9 393.6,17.3 394.5,15.6 395.4,14.0 396.2,12.3 397.1,10.6 398.0,8.9\" fill=\"none\" stroke=\"#2f6fca\" stroke-width=\"3\"/><text x=\"328.0\" y=\"167.9\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#2f6fca\">y = f(x)</text><polyline clip-path=\"url(#ke9748bbc)\" points=\"48.0,199.4 48.9,199.1 49.8,198.7 50.6,198.4 51.5,198.0 52.4,197.7 53.2,197.4 54.1,197.0 55.0,196.7 55.9,196.3 56.8,196.0 57.6,195.6 58.5,195.3 59.4,194.9 60.2,194.6 61.1,194.3 62.0,193.9 62.9,193.6 63.8,193.2 64.6,192.9 65.5,192.5 66.4,192.2 67.2,191.8 68.1,191.5 69.0,191.1 69.9,190.8 70.8,190.5 71.6,190.1 72.5,189.8 73.4,189.4 74.2,189.1 75.1,188.7 76.0,188.4 76.9,188.0 77.8,187.7 78.6,187.4 79.5,187.0 80.4,186.7 81.2,186.3 82.1,186.0 83.0,185.6 83.9,185.3 84.8,184.9 85.6,184.6 86.5,184.2 87.4,183.9 88.2,183.6 89.1,183.2 90.0,182.9 90.9,182.5 91.8,182.2 92.6,181.8 93.5,181.5 94.4,181.1 95.2,180.8 96.1,180.5 97.0,180.1 97.9,179.8 98.8,179.4 99.6,179.1 100.5,178.7 101.4,178.4 102.2,178.0 103.1,177.7 104.0,177.3 104.9,177.0 105.8,176.7 106.6,176.3 107.5,176.0 108.4,175.6 109.2,175.3 110.1,174.9 111.0,174.6 111.9,174.2 112.8,173.9 113.6,173.6 114.5,173.2 115.4,172.9 116.2,172.5 117.1,172.2 118.0,171.8 118.9,171.5 119.8,171.1 120.6,170.8 121.5,170.4 122.4,170.1 123.2,169.8 124.1,169.4 125.0,169.1 125.9,168.7 126.8,168.4 127.6,168.0 128.5,167.7 129.4,167.3 130.2,167.0 131.1,166.7 132.0,166.3 132.9,166.0 133.8,165.6 134.6,165.3 135.5,164.9 136.4,164.6 137.2,164.2 138.1,163.9 139.0,163.5 139.9,163.2 140.8,162.9 141.6,162.5 142.5,162.2 143.4,161.8 144.2,161.5 145.1,161.1 146.0,160.8 146.9,160.4 147.8,160.1 148.6,159.8 149.5,159.4 150.4,159.1 151.2,158.7 152.1,158.4 153.0,158.0 153.9,157.7 154.8,157.3 155.6,157.0 156.5,156.6 157.4,156.3 158.2,156.0 159.1,155.6 160.0,155.3 160.9,154.9 161.8,154.6 162.6,154.2 163.5,153.9 164.4,153.5 165.2,153.2 166.1,152.9 167.0,152.5 167.9,152.2 168.8,151.8 169.6,151.5 170.5,151.1 171.4,150.8 172.2,150.4 173.1,150.1 174.0,149.7 174.9,149.4 175.8,149.1 176.6,148.7 177.5,148.4 178.4,148.0 179.2,147.7 180.1,147.3 181.0,147.0 181.9,146.6 182.7,146.3 183.6,146.0 184.5,145.6 185.4,145.3 186.2,144.9 187.1,144.6 188.0,144.2 188.9,143.9 189.8,143.5 190.6,143.2 191.5,142.8 192.4,142.5 193.2,142.2 194.1,141.8 195.0,141.5 195.9,141.1 196.8,140.8 197.6,140.4 198.5,140.1 199.4,139.7 200.2,139.4 201.1,139.1 202.0,138.7 202.9,138.4 203.8,138.0 204.6,137.7 205.5,137.3 206.4,137.0 207.2,136.6 208.1,136.3 209.0,135.9 209.9,135.6 210.8,135.3 211.6,134.9 212.5,134.6 213.4,134.2 214.2,133.9 215.1,133.5 216.0,133.2 216.9,132.8 217.8,132.5 218.6,132.2 219.5,131.8 220.4,131.5 221.2,131.1 222.1,130.8 223.0,130.4 223.9,130.1 224.8,129.7 225.6,129.4 226.5,129.0 227.4,128.7 228.2,128.4 229.1,128.0 230.0,127.7 230.9,127.3 231.8,127.0 232.6,126.6 233.5,126.3 234.4,125.9 235.2,125.6 236.1,125.3 237.0,124.9 237.9,124.6 238.8,124.2 239.6,123.9 240.5,123.5 241.4,123.2 242.2,122.8 243.1,122.5 244.0,122.1 244.9,121.8 245.8,121.5 246.6,121.1 247.5,120.8 248.4,120.4 249.3,120.1 250.1,119.7 251.0,119.4 251.9,119.0 252.8,118.7 253.6,118.4 254.5,118.0 255.4,117.7 256.2,117.3 257.1,117.0 258.0,116.6 258.9,116.3 259.8,115.9 260.6,115.6 261.5,115.2 262.4,114.9 263.2,114.6 264.1,114.2 265.0,113.9 265.9,113.5 266.8,113.2 267.6,112.8 268.5,112.5 269.4,112.1 270.2,111.8 271.1,111.5 272.0,111.1 272.9,110.8 273.8,110.4 274.6,110.1 275.5,109.7 276.4,109.4 277.2,109.0 278.1,108.7 279.0,108.3 279.9,108.0 280.8,107.7 281.6,107.3 282.5,107.0 283.4,106.6 284.2,106.3 285.1,105.9 286.0,105.6 286.9,105.2 287.8,104.9 288.6,104.6 289.5,104.2 290.4,103.9 291.2,103.5 292.1,103.2 293.0,102.8 293.9,102.5 294.8,102.1 295.6,101.8 296.5,101.4 297.4,101.1 298.2,100.8 299.1,100.4 300.0,100.1 300.9,99.7 301.8,99.4 302.6,99.0 303.5,98.7 304.4,98.3 305.2,98.0 306.1,97.7 307.0,97.3 307.9,97.0 308.8,96.6 309.6,96.3 310.5,95.9 311.4,95.6 312.2,95.2 313.1,94.9 314.0,94.5 314.9,94.2 315.8,93.9 316.6,93.5 317.5,93.2 318.4,92.8 319.2,92.5 320.1,92.1 321.0,91.8 321.9,91.4 322.8,91.1 323.6,90.8 324.5,90.4 325.4,90.1 326.2,89.7 327.1,89.4 328.0,89.0 328.9,88.7 329.8,88.3 330.6,88.0 331.5,87.6 332.4,87.3 333.2,87.0 334.1,86.6 335.0,86.3 335.9,85.9 336.8,85.6 337.6,85.2 338.5,84.9 339.4,84.5 340.2,84.2 341.1,83.9 342.0,83.5 342.9,83.2 343.8,82.8 344.6,82.5 345.5,82.1 346.4,81.8 347.3,81.4 348.1,81.1 349.0,80.7 349.9,80.4 350.8,80.1 351.6,79.7 352.5,79.4 353.4,79.0 354.2,78.7 355.1,78.3 356.0,78.0 356.9,77.6 357.8,77.3 358.6,77.0 359.5,76.6 360.4,76.3 361.2,75.9 362.1,75.6 363.0,75.2 363.9,74.9 364.8,74.5 365.6,74.2 366.5,73.8 367.4,73.5 368.2,73.2 369.1,72.8 370.0,72.5 370.9,72.1 371.8,71.8 372.6,71.4 373.5,71.1 374.4,70.7 375.2,70.4 376.1,70.1 377.0,69.7 377.9,69.4 378.8,69.0 379.6,68.7 380.5,68.3 381.4,68.0 382.2,67.6 383.1,67.3 384.0,66.9 384.9,66.6 385.8,66.3 386.6,65.9 387.5,65.6 388.4,65.2 389.2,64.9 390.1,64.5 391.0,64.2 391.9,63.8 392.8,63.5 393.6,63.2 394.5,62.8 395.4,62.5 396.2,62.1 397.1,61.8 398.0,61.4\" fill=\"none\" stroke=\"#d9622b\" stroke-width=\"3\" stroke-dasharray=\"8 6\"/><text x=\"228.0\" y=\"65.4\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#d9622b\">tangent</text><circle cx=\"198.0\" cy=\"140.3\" r=\"5\" fill=\"#172b3a\"/><text x=\"188.0\" y=\"126.3\" font-family=\"Arial,sans-serif\" font-size=\"15\" font-weight=\"bold\" fill=\"#172b3a\">(2, 3)</text><circle cx=\"98.0\" cy=\"179.7\" r=\"5\" fill=\"#172b3a\"/><circle cx=\"298.0\" cy=\"100.9\" r=\"5\" fill=\"#172b3a\"/></svg></span>",
-  "s": "<div class=\"facit-v2\"><p>Kedjeregeln: \\(h^{\\prime}(x)=f^{\\prime}(2x)\\cdot2\\). För \\(x=1\\): \\(h^{\\prime}(1)=2f^{\\prime}(2)\\).</p><p>Tangentens lutning ger \\(f^{\\prime}(2)=0{,}5\\), så \\(h^{\\prime}(1)=1\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Derivera den sammansatta funktionen</p>\\[h^{\\prime}(x)=f^{\\prime}(2x)\\cdot2\\]\\[h^{\\prime}(1)=2f^{\\prime}(2)\\]</li><li><p class=\"facit-rubrik\">Beräkna tangentens lutning ur figuren</p><p>Tangenten går genom (0,2) och (4,4).</p>\\[f^{\\prime}(2)=\\frac{4-2}{4-0}=\\frac12\\]</li><li><p class=\"facit-rubrik\">Multiplicera med den inre derivatan</p>\\[h^{\\prime}(1)=2\\cdot\\frac12=1\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(h^{\\prime}(1)=1\\).</p></div>",
   "familj": "Deriveringsregler med grafer och tabeller",
   "formaga": [
     "procedur",
     "begrepp"
   ],
-  "miniräknare": false,
+  "miniräknare": true,
   "geogebra": false,
   "spel": true,
   "självrättning": true,
   "traningsniva": 3,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Vilket x-värde sätts in i f när x = 1? Glöm inte den inre derivatan.</p>",
+  "ledtrad": "<p>Vilket värde får argumentet 2x när x=1? Använd tangentens lutning vid detta argument och kedjeregelns extra faktor.</p>",
   "svarstyp": "numeriskt",
   "rättSvar": 1,
   "tolerans": 0,
@@ -53154,24 +53152,24 @@ window.BANKMATF1 = [
   "kap": 3,
   "omr": "repetition_derivator",
   "niva": "E",
-  "poang": "1/0/0",
+  "poang": "2/0/0",
   "typ": "produkt- och kvotregel ur tabell",
   "t": "<p>Tabellen visar värden för två funktioner \\(f\\) och \\(g\\). Bestäm derivatan av \\(f(x)g(x)\\) och derivatan av \\(\\dfrac{f(x)}{g(x)}\\) där \\(x=1\\).</p><table class=\"data\" style=\"width:100%;max-width:360px;text-align:center\"><thead><tr><th scope=\"col\">\\(f(1)\\)</th><th scope=\"col\">\\(f^{\\prime}(1)\\)</th><th scope=\"col\">\\(g(1)\\)</th><th scope=\"col\">\\(g^{\\prime}(1)\\)</th></tr></thead><tbody><tr><td>2</td><td>3</td><td>−1</td><td>4</td></tr></tbody></table>",
-  "s": "<div class=\"facit-v2\"><p>Produktregeln: \\(f^{\\prime}(1)g(1)+f(1)g^{\\prime}(1)=3\\cdot(-1)+2\\cdot4=5\\).</p><p>Kvotregeln: \\(\\dfrac{f^{\\prime}(1)g(1)-f(1)g^{\\prime}(1)}{g(1)^2}=\\dfrac{3\\cdot(-1)-2\\cdot4}{1}=-11\\).</p></div>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Beräkna produktens derivata</p>\\[(fg)^{\\prime}=f^{\\prime}g+fg^{\\prime}\\]\\[(fg)^{\\prime}(1)=3(-1)+2\\cdot4\\]\\[=-3+8=5\\]</li><li><p class=\"facit-rubrik\">Beräkna kvotens derivata</p>\\[\\left(\\frac fg\\right)^{\\prime}=\\frac{f^{\\prime}g-fg^{\\prime}}{g^2}\\]\\[\\left(\\frac fg\\right)^{\\prime}(1)=\\frac{3(-1)-2\\cdot4}{(-1)^2}\\]\\[=\\frac{-3-8}{1}=-11\\]</li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Produktens derivata är \\(5\\), kvotens derivata är \\(-11\\).</p></div>",
   "familj": "Deriveringsregler med grafer och tabeller",
   "formaga": [
     "procedur"
   ],
-  "miniräknare": false,
+  "miniräknare": true,
   "geogebra": false,
   "spel": true,
   "självrättning": [
     true,
     true
   ],
-  "traningsniva": 3,
+  "traningsniva": 2,
   "arbetsinsats": 2,
-  "ledtrad": "<p>Sätt in tabellvärdena i produktregeln och kvotregeln.</p>",
+  "ledtrad": "<p>Produktregeln använder addition medan kvotregeln använder subtraktion. Var extra noga med g(1), som är negativt.</p>",
   "svarstyp": "flera_delar",
   "rättSvar": [
     5,

@@ -118886,6 +118886,284 @@ window.BANKMATO1 = [
       "kommentar": "Då är funktionen växande eller avtagande, och det största värdet finns i en ändpunkt."
     }
   ]
+},
+{
+  "id": "1.977",
+  "kap": 1,
+  "omr": "polynomfunktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "andragradsfunktion ur grafens skärningspunkter",
+  "t": "<p>Grafen visar en andragradsfunktion \\(f\\). Skärningspunkterna med axlarna är markerade och ligger i rutnätets punkter.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"420\" height=\"320\" viewBox=\"0 0 420 320\" role=\"img\" aria-label=\"Grafen till en andragradsfunktion. Den skär x-axeln i x = −1 och x = 5 och y-axeln i y = −5. Skärningspunkterna är markerade.\"><title>Grafen till en andragradsfunktion. Den skär x-axeln i x = −1 och x = 5 och y-axeln i y = −5. Skärningspunkterna är markerade.</title><rect x=\"1\" y=\"1\" width=\"418\" height=\"318\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"24\" x2=\"50.0\" y2=\"286\" stroke=\"#e3e8ee\"/><line x1=\"92.5\" y1=\"24\" x2=\"92.5\" y2=\"286\" stroke=\"#e3e8ee\"/><line x1=\"135.0\" y1=\"24\" x2=\"135.0\" y2=\"286\" stroke=\"#e3e8ee\"/><line x1=\"177.5\" y1=\"24\" x2=\"177.5\" y2=\"286\" stroke=\"#e3e8ee\"/><line x1=\"220.0\" y1=\"24\" x2=\"220.0\" y2=\"286\" stroke=\"#e3e8ee\"/><line x1=\"262.5\" y1=\"24\" x2=\"262.5\" y2=\"286\" stroke=\"#e3e8ee\"/><line x1=\"305.0\" y1=\"24\" x2=\"305.0\" y2=\"286\" stroke=\"#e3e8ee\"/><line x1=\"347.5\" y1=\"24\" x2=\"347.5\" y2=\"286\" stroke=\"#e3e8ee\"/><line x1=\"390.0\" y1=\"24\" x2=\"390.0\" y2=\"286\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"286.0\" x2=\"390\" y2=\"286.0\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"253.2\" x2=\"390\" y2=\"253.2\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"220.5\" x2=\"390\" y2=\"220.5\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"187.8\" x2=\"390\" y2=\"187.8\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"155.0\" x2=\"390\" y2=\"155.0\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"122.2\" x2=\"390\" y2=\"122.2\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"89.5\" x2=\"390\" y2=\"89.5\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"56.8\" x2=\"390\" y2=\"56.8\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"24.0\" x2=\"390\" y2=\"24.0\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"122.2\" x2=\"398\" y2=\"122.2\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"135.0\" y1=\"286\" x2=\"135.0\" y2=\"16\" stroke=\"#34495e\" stroke-width=\"1.6\"/><polyline points=\"56.0,25.6 56.8,28.2 57.6,30.7 58.5,33.2 59.4,35.7 60.2,38.1 61.0,40.6 61.9,43.0 62.8,45.5 63.6,47.9 64.5,50.3 65.3,52.7 66.1,55.0 67.0,57.4 67.8,59.8 68.7,62.1 69.5,64.4 70.4,66.7 71.2,69.0 72.1,71.3 73.0,73.6 73.8,75.8 74.7,78.1 75.5,80.3 76.4,82.6 77.2,84.8 78.1,87.0 78.9,89.1 79.8,91.3 80.6,93.5 81.5,95.6 82.3,97.7 83.2,99.8 84.0,101.9 84.8,104.0 85.7,106.1 86.5,108.2 87.4,110.2 88.2,112.3 89.1,114.3 89.9,116.3 90.8,118.3 91.7,120.3 92.5,122.2 93.3,124.2 94.2,126.2 95.1,128.1 95.9,130.0 96.8,131.9 97.6,133.8 98.4,135.7 99.3,137.6 100.2,139.4 101.0,141.2 101.8,143.1 102.7,144.9 103.5,146.7 104.4,148.5 105.2,150.3 106.1,152.0 107.0,153.8 107.8,155.5 108.7,157.2 109.5,158.9 110.3,160.6 111.2,162.3 112.0,164.0 112.9,165.6 113.8,167.3 114.6,168.9 115.5,170.5 116.3,172.1 117.2,173.7 118.0,175.3 118.9,176.9 119.7,178.4 120.5,180.0 121.4,181.5 122.2,183.0 123.1,184.5 124.0,186.0 124.8,187.5 125.7,188.9 126.5,190.4 127.4,191.8 128.2,193.2 129.1,194.6 129.9,196.0 130.8,197.4 131.6,198.8 132.4,200.1 133.3,201.5 134.2,202.8 135.0,204.1 135.8,205.4 136.7,206.7 137.6,208.0 138.4,209.3 139.2,210.5 140.1,211.7 140.9,213.0 141.8,214.2 142.7,215.4 143.5,216.6 144.4,217.7 145.2,218.9 146.1,220.0 146.9,221.2 147.8,222.3 148.6,223.4 149.4,224.5 150.3,225.6 151.1,226.7 152.0,227.7 152.8,228.7 153.7,229.8 154.6,230.8 155.4,231.8 156.2,232.8 157.1,233.8 157.9,234.7 158.8,235.7 159.7,236.6 160.5,237.5 161.4,238.4 162.2,239.3 163.1,240.2 163.9,241.1 164.8,242.0 165.6,242.8 166.4,243.6 167.3,244.4 168.1,245.3 169.0,246.0 169.8,246.8 170.7,247.6 171.6,248.3 172.4,249.1 173.2,249.8 174.1,250.5 174.9,251.2 175.8,251.9 176.7,252.6 177.5,253.2 178.3,253.9 179.2,254.5 180.1,255.2 180.9,255.8 181.8,256.4 182.6,256.9 183.5,257.5 184.3,258.1 185.2,258.6 186.0,259.1 186.8,259.7 187.7,260.2 188.5,260.7 189.4,261.1 190.2,261.6 191.1,262.1 191.9,262.5 192.8,262.9 193.7,263.3 194.5,263.7 195.3,264.1 196.2,264.5 197.1,264.9 197.9,265.2 198.8,265.5 199.6,265.9 200.4,266.2 201.3,266.5 202.2,266.7 203.0,267.0 203.8,267.3 204.7,267.5 205.6,267.7 206.4,267.9 207.2,268.2 208.1,268.3 209.0,268.5 209.8,268.7 210.7,268.8 211.5,269.0 212.3,269.1 213.2,269.2 214.0,269.3 214.9,269.4 215.8,269.5 216.6,269.5 217.4,269.6 218.3,269.6 219.2,269.6 220.0,269.6 220.8,269.6 221.7,269.6 222.5,269.6 223.4,269.5 224.2,269.5 225.1,269.4 225.9,269.3 226.8,269.2 227.6,269.1 228.5,269.0 229.3,268.8 230.2,268.7 231.0,268.5 231.9,268.3 232.8,268.2 233.6,267.9 234.4,267.7 235.3,267.5 236.2,267.3 237.0,267.0 237.8,266.7 238.7,266.5 239.6,266.2 240.4,265.9 241.2,265.5 242.1,265.2 242.9,264.9 243.8,264.5 244.7,264.1 245.5,263.7 246.3,263.3 247.2,262.9 248.1,262.5 248.9,262.1 249.8,261.6 250.6,261.1 251.5,260.7 252.3,260.2 253.2,259.7 254.0,259.1 254.9,258.6 255.7,258.1 256.6,257.5 257.4,256.9 258.2,256.4 259.1,255.8 260.0,255.2 260.8,254.5 261.6,253.9 262.5,253.2 263.4,252.6 264.2,251.9 265.0,251.2 265.9,250.5 266.8,249.8 267.6,249.1 268.4,248.3 269.3,247.6 270.1,246.8 271.0,246.0 271.9,245.3 272.7,244.4 273.5,243.6 274.4,242.8 275.2,242.0 276.1,241.1 276.9,240.2 277.8,239.3 278.6,238.4 279.5,237.5 280.4,236.6 281.2,235.7 282.1,234.7 282.9,233.8 283.8,232.8 284.6,231.8 285.4,230.8 286.3,229.8 287.1,228.7 288.0,227.7 288.9,226.7 289.7,225.6 290.6,224.5 291.4,223.4 292.2,222.3 293.1,221.2 294.0,220.0 294.8,218.9 295.6,217.7 296.5,216.6 297.4,215.4 298.2,214.2 299.1,213.0 299.9,211.7 300.8,210.5 301.6,209.3 302.5,208.0 303.3,206.7 304.1,205.4 305.0,204.1 305.9,202.8 306.7,201.5 307.6,200.1 308.4,198.8 309.2,197.4 310.1,196.0 310.9,194.6 311.8,193.2 312.6,191.8 313.5,190.4 314.3,188.9 315.2,187.5 316.1,186.0 316.9,184.5 317.8,183.0 318.6,181.5 319.4,180.0 320.3,178.4 321.1,176.9 322.0,175.3 322.9,173.7 323.7,172.1 324.6,170.5 325.4,168.9 326.2,167.3 327.1,165.6 327.9,164.0 328.8,162.3 329.6,160.6 330.5,158.9 331.4,157.2 332.2,155.5 333.1,153.8 333.9,152.0 334.8,150.3 335.6,148.5 336.4,146.7 337.3,144.9 338.2,143.1 339.0,141.2 339.9,139.4 340.7,137.6 341.6,135.7 342.4,133.8 343.2,131.9 344.1,130.0 344.9,128.1 345.8,126.2 346.7,124.2 347.5,122.2 348.3,120.3 349.2,118.3 350.1,116.3 350.9,114.3 351.8,112.3 352.6,110.2 353.4,108.2 354.3,106.1 355.1,104.0 356.0,101.9 356.8,99.8 357.7,97.7 358.6,95.6 359.4,93.5 360.2,91.3 361.1,89.1 361.9,87.0 362.8,84.8 363.6,82.6 364.5,80.3 365.4,78.1 366.2,75.8 367.1,73.6 367.9,71.3 368.8,69.0 369.6,66.7 370.4,64.4 371.3,62.1 372.1,59.8 373.0,57.4 373.9,55.0 374.7,52.7 375.6,50.3 376.4,47.9 377.2,45.5 378.1,43.0 378.9,40.6 379.8,38.1 380.7,35.7 381.5,33.2 382.4,30.7 383.2,28.2 384.1,25.6\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><circle cx=\"92.5\" cy=\"122.2\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"347.5\" cy=\"122.2\" r=\"4.5\" fill=\"#c2410c\"/><circle cx=\"135.0\" cy=\"204.1\" r=\"4.5\" fill=\"#c2410c\"/><text x=\"50.0\" y=\"303.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−2</text><text x=\"92.5\" y=\"303.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><text x=\"177.5\" y=\"303.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><text x=\"220.0\" y=\"303.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><text x=\"262.5\" y=\"303.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><text x=\"305.0\" y=\"303.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><text x=\"347.5\" y=\"303.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><text x=\"390.0\" y=\"303.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">6</text><text x=\"43.0\" y=\"290.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−10</text><text x=\"43.0\" y=\"257.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−8</text><text x=\"43.0\" y=\"224.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−6</text><text x=\"43.0\" y=\"191.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−4</text><text x=\"43.0\" y=\"159.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−2</text><text x=\"43.0\" y=\"93.5\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><text x=\"43.0\" y=\"60.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><text x=\"43.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><text x=\"402.0\" y=\"127.2\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"142.0\" y=\"14.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text></svg></span><p>Bestäm \\(f(x)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställena ger faktorerna</p><p>Grafen skär x-axeln i \\(x=-1\\) och \\(x=5\\).</p><div class=\"facit-matte\">\\[f(x)=a(x+1)(x-5)\\]</div></li><li><p class=\"facit-rubrik\">Skärningen med y-axeln bestämmer a</p><div class=\"facit-matte\">\\[\\begin{gathered}f(0)=a\\cdot1\\cdot(-5)=-5a=-5\\\\\\Rightarrow a=1\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera minimipunkten</p><p>Symmetrilinjen är \\(x=2\\), och \\(f(2)=3\\cdot(-3)=-9\\). Det stämmer med grafen.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=(x+1)(x-5)\\), alltså \\(x^2-4x-5\\)</p></div>",
+  "familj": "Bestämma polynomfunktion från villkor",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv funktionen på faktorform med hjälp av nollställena. Använd sedan skärningen med y-axeln.</p>",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "rättSvar": "(x+1)(x-5)",
+  "tolerans": null
+},
+{
+  "id": "1.978",
+  "kap": 1,
+  "omr": "polynomfunktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "tredjegradsfunktion med en dubbelrot",
+  "t": "<p>En tredjegradsfunktion \\(f\\) har en dubbelrot i \\(x=0\\) och ett nollställe i \\(x=3\\). Dessutom är \\(f(1)=-4\\). Bestäm \\(f(x)\\).</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En dubbelrot i 0 ger faktorn x två gånger</p><div class=\"facit-matte\">\\[f(x)=a\\cdot x^2(x-3)\\]</div></li><li><p class=\"facit-rubrik\">Villkoret f(1) = −4 bestämmer a</p><div class=\"facit-matte\">\\[a\\cdot1\\cdot(1-3)=-2a=-4\\quad\\Rightarrow\\quad a=2\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=2x^2(x-3)=2x^3-6x^2\\)</p></div>",
+  "familj": "Bestämma polynomfunktion från villkor",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Hur många gånger ska faktorn x finnas med när 0 är en dubbelrot? Använd \\(f(1)\\) för att bestämma konstanten framför.</p>",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "rättSvar": "2x^2(x-3)",
+  "tolerans": null
+},
+{
+  "id": "1.979",
+  "kap": 1,
+  "omr": "polynomfunktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "andragradsfunktion ur nollställen och största värde",
+  "t": "<p>En andragradsfunktion har nollställena \\(x=2\\) och \\(x=8\\). Funktionens största värde är 18. Bestäm funktionen.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Nollställena ger faktorform</p><div class=\"facit-matte\">\\[f(x)=a(x-2)(x-8)\\]</div></li><li><p class=\"facit-rubrik\">Det största värdet ligger mitt emellan nollställena</p><div class=\"facit-matte\">\\[x=\\frac{2+8}{2}=5\\]</div></li><li><p class=\"facit-rubrik\">Sätt in x = 5 och lös ut a</p><div class=\"facit-matte\">\\[a\\cdot3\\cdot(-3)=18\\quad\\Rightarrow\\quad a=-2\\]</div><p>Koefficienten är negativ, och det stämmer med att funktionen har ett största värde.</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(f(x)=-2(x-2)(x-8)\\)</p></div>",
+  "familj": "Andragradsfunktioner och extremvärden",
+  "formaga": [
+    "problemlösning",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Var ligger symmetrilinjen när du känner båda nollställena? Där har funktionen sitt största värde.</p>",
+  "svarstyp": "uttryck",
+  "svarFormat": "uttryck",
+  "rättSvar": "-2(x-2)(x-8)",
+  "tolerans": null
+},
+{
+  "id": "1.980",
+  "kap": 1,
+  "omr": "polynomfunktioner",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "höjden i en parabelformad båge",
+  "t": "<p>En båge har formen av en parabel. Den spänner 40 m mellan fästena och är 10 m hög på mitten.</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"380\" height=\"205\" viewBox=\"0 0 380 205\" role=\"img\" aria-label=\"En parabelformad båge som spänner 40 m och är 10 m hög på mitten. 5 m från det vänstra fästet är bågens höjd markerad med ett frågetecken.\"><title>En parabelformad båge som spänner 40 m och är 10 m hög på mitten. 5 m från det vänstra fästet är bågens höjd markerad med ett frågetecken.</title><rect x=\"1\" y=\"1\" width=\"378\" height=\"203\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"25\" y1=\"175\" x2=\"335\" y2=\"175\" stroke=\"#243447\" stroke-width=\"2\"/><polyline points=\"40.0,175.0 41.8,173.3 43.5,171.5 45.2,169.8 47.0,168.2 48.8,166.5 50.5,164.9 52.2,163.3 54.0,161.7 55.8,160.1 57.5,158.6 59.2,157.1 61.0,155.6 62.8,154.1 64.5,152.6 66.2,151.2 68.0,149.8 69.8,148.4 71.5,147.0 73.2,145.7 75.0,144.4 76.8,143.1 78.5,141.8 80.2,140.5 82.0,139.3 83.8,138.1 85.5,136.9 87.2,135.7 89.0,134.6 90.8,133.4 92.5,132.3 94.2,131.3 96.0,130.2 97.8,129.2 99.5,128.1 101.2,127.1 103.0,126.2 104.8,125.2 106.5,124.3 108.2,123.4 110.0,122.5 111.8,121.6 113.5,120.8 115.2,120.0 117.0,119.2 118.8,118.4 120.5,117.6 122.2,116.9 124.0,116.2 125.8,115.5 127.5,114.8 129.2,114.2 131.0,113.6 132.8,113.0 134.5,112.4 136.2,111.8 138.0,111.3 139.8,110.8 141.5,110.3 143.2,109.8 145.0,109.4 146.8,108.9 148.5,108.5 150.2,108.2 152.0,107.8 153.8,107.5 155.5,107.1 157.2,106.8 159.0,106.6 160.8,106.3 162.5,106.1 164.2,105.9 166.0,105.7 167.8,105.5 169.5,105.4 171.2,105.3 173.0,105.2 174.8,105.1 176.5,105.0 178.2,105.0 180.0,105.0 181.8,105.0 183.5,105.0 185.2,105.1 187.0,105.2 188.8,105.3 190.5,105.4 192.2,105.5 194.0,105.7 195.8,105.9 197.5,106.1 199.2,106.3 201.0,106.6 202.8,106.8 204.5,107.1 206.2,107.5 208.0,107.8 209.8,108.2 211.5,108.5 213.2,108.9 215.0,109.4 216.8,109.8 218.5,110.3 220.2,110.8 222.0,111.3 223.8,111.8 225.5,112.4 227.2,113.0 229.0,113.6 230.8,114.2 232.5,114.8 234.2,115.5 236.0,116.2 237.8,116.9 239.5,117.6 241.2,118.4 243.0,119.2 244.8,120.0 246.5,120.8 248.2,121.6 250.0,122.5 251.8,123.4 253.5,124.3 255.2,125.2 257.0,126.2 258.8,127.1 260.5,128.1 262.2,129.2 264.0,130.2 265.8,131.3 267.5,132.3 269.2,133.4 271.0,134.6 272.8,135.7 274.5,136.9 276.2,138.1 278.0,139.3 279.8,140.5 281.5,141.8 283.2,143.1 285.0,144.4 286.8,145.7 288.5,147.0 290.2,148.4 292.0,149.8 293.8,151.2 295.5,152.6 297.2,154.1 299.0,155.6 300.8,157.1 302.5,158.6 304.2,160.1 306.0,161.7 307.8,163.3 309.5,164.9 311.2,166.5 313.0,168.2 314.8,169.8 316.5,171.5 318.2,173.3 320.0,175.0\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"3\"/><line x1=\"180\" y1=\"175\" x2=\"180\" y2=\"105\" stroke=\"#5b6773\" stroke-width=\"1.4\" stroke-dasharray=\"5 4\"/><line x1=\"75\" y1=\"175\" x2=\"75\" y2=\"144.4\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"188.0\" y=\"144.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">10 m</text><text x=\"180.0\" y=\"195.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#243447\">40 m</text><text x=\"82.0\" y=\"166.0\" font-family=\"Arial,sans-serif\" font-size=\"15\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">?</text><text x=\"57.5\" y=\"195.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"middle\" fill=\"#c2410c\">5 m</text></svg></span><p>Hur hög är bågen 5 m från det ena fästet? (Svara i meter med en decimal.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Lägg fästena i x = 0 och x = 40</p><p>Då är fästena nollställen, och funktionen kan skrivas</p><div class=\"facit-matte\">\\[y=a\\,x(x-40)\\]</div></li><li><p class=\"facit-rubrik\">Toppen är 10 m vid x = 20</p><div class=\"facit-matte\">\\[a\\cdot20\\cdot(-20)=10\\quad\\Rightarrow\\quad a=-\\frac{1}{40}\\]</div></li><li><p class=\"facit-rubrik\">Höjden 5 m från fästet</p><div class=\"facit-matte\">\\[y(5)=-\\frac{1}{40}\\cdot5\\cdot(5-40)=\\frac{175}{40}\\approx4{,}4\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Ungefär 4,4 m.</p></div>",
+  "familj": "Andragradsfunktioner och extremvärden",
+  "formaga": [
+    "modellering",
+    "problemlösning"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Välj ett koordinatsystem med fästena som nollställen. Toppen ger konstanten.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 4.4,
+  "tolerans": 0.05,
+  "svarEnhet": "m"
+},
+{
+  "id": "1.981",
+  "kap": 1,
+  "omr": "tangent_sekant",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "punkt där tangenten är parallell med en sekant",
+  "t": "<p>För \\(f(x)=x^2\\) dras sekanten genom punkterna på grafen där \\(x=1\\) och \\(x=4\\). I vilken punkt mellan dem har grafen en tangent som är parallell med sekanten? Ange x-koordinaten.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sekantens lutning</p><div class=\"facit-matte\">\\[k_s=\\frac{f(4)-f(1)}{4-1}=\\frac{16-1}{3}=5\\]</div></li><li><p class=\"facit-rubrik\">Tangentens lutning är derivatan</p><div class=\"facit-matte\">\\[f'(x)=2x=5\\quad\\Rightarrow\\quad x=2{,}5\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(x=2{,}5\\)</p></div>",
+  "familj": "Sekant, tangent och gränsvärde",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Beräkna först sekantens lutning. Var har tangenten samma lutning?</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 2.5,
+  "tolerans": 0
+},
+{
+  "id": "1.982",
+  "kap": 1,
+  "omr": "tangent_sekant",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "sekantens och tangentens lutning ur en graf",
+  "t": "<p>Figuren visar grafen till \\(f(x)=0{,}5x^2\\), en sekant genom punkterna där \\(x=1\\) och \\(x=3\\), och tangenten i punkten där \\(x=3\\).</p><span class=\"fig\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"340\" viewBox=\"0 0 400 340\" role=\"img\" aria-label=\"Grafen till y = 0,5x². En grön streckad sekant går genom punkterna (1; 0,5) och (3; 4,5). En orange tangent tangerar grafen i (3; 4,5) och går genom (1; −1,5).\"><title>Grafen till y = 0,5x². En grön streckad sekant går genom punkterna (1; 0,5) och (3; 4,5). En orange tangent tangerar grafen i (3; 4,5) och går genom (1; −1,5).</title><rect x=\"1\" y=\"1\" width=\"398\" height=\"338\" rx=\"10\" fill=\"#fff\" stroke=\"#dce4ed\"/><line x1=\"50.0\" y1=\"24\" x2=\"50.0\" y2=\"306\" stroke=\"#e3e8ee\"/><line x1=\"103.3\" y1=\"24\" x2=\"103.3\" y2=\"306\" stroke=\"#e3e8ee\"/><line x1=\"156.7\" y1=\"24\" x2=\"156.7\" y2=\"306\" stroke=\"#e3e8ee\"/><line x1=\"210.0\" y1=\"24\" x2=\"210.0\" y2=\"306\" stroke=\"#e3e8ee\"/><line x1=\"263.3\" y1=\"24\" x2=\"263.3\" y2=\"306\" stroke=\"#e3e8ee\"/><line x1=\"316.7\" y1=\"24\" x2=\"316.7\" y2=\"306\" stroke=\"#e3e8ee\"/><line x1=\"370.0\" y1=\"24\" x2=\"370.0\" y2=\"306\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"306.0\" x2=\"370\" y2=\"306.0\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"277.8\" x2=\"370\" y2=\"277.8\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"249.6\" x2=\"370\" y2=\"249.6\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"221.4\" x2=\"370\" y2=\"221.4\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"193.2\" x2=\"370\" y2=\"193.2\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"165.0\" x2=\"370\" y2=\"165.0\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"136.8\" x2=\"370\" y2=\"136.8\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"108.6\" x2=\"370\" y2=\"108.6\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"80.4\" x2=\"370\" y2=\"80.4\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"52.2\" x2=\"370\" y2=\"52.2\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"24.0\" x2=\"370\" y2=\"24.0\" stroke=\"#e3e8ee\"/><line x1=\"50\" y1=\"249.6\" x2=\"378\" y2=\"249.6\" stroke=\"#34495e\" stroke-width=\"1.6\"/><line x1=\"103.3\" y1=\"306\" x2=\"103.3\" y2=\"16\" stroke=\"#34495e\" stroke-width=\"1.6\"/><polyline points=\"50.0,235.5 50.8,235.9 51.6,236.3 52.4,236.7 53.2,237.1 54.0,237.5 54.8,237.9 55.6,238.3 56.4,238.7 57.2,239.1 58.0,239.4 58.8,239.8 59.6,240.1 60.4,240.5 61.2,240.8 62.0,241.1 62.8,241.5 63.6,241.8 64.4,242.1 65.2,242.4 66.0,242.7 66.8,243.0 67.6,243.3 68.4,243.6 69.2,243.8 70.0,244.1 70.8,244.4 71.6,244.6 72.4,244.9 73.2,245.1 74.0,245.3 74.8,245.6 75.6,245.8 76.4,246.0 77.2,246.2 78.0,246.4 78.8,246.6 79.6,246.8 80.4,247.0 81.2,247.2 82.0,247.3 82.8,247.5 83.6,247.7 84.4,247.8 85.2,248.0 86.0,248.1 86.8,248.2 87.6,248.4 88.4,248.5 89.2,248.6 90.0,248.7 90.8,248.8 91.6,248.9 92.4,249.0 93.2,249.1 94.0,249.2 94.8,249.2 95.6,249.3 96.4,249.4 97.2,249.4 98.0,249.5 98.8,249.5 99.6,249.5 100.4,249.6 101.2,249.6 102.0,249.6 102.8,249.6 103.6,249.6 104.4,249.6 105.2,249.6 106.0,249.6 106.8,249.5 107.6,249.5 108.4,249.5 109.2,249.4 110.0,249.4 110.8,249.3 111.6,249.3 112.4,249.2 113.2,249.1 114.0,249.0 114.8,248.9 115.6,248.9 116.4,248.8 117.2,248.6 118.0,248.5 118.8,248.4 119.6,248.3 120.4,248.2 121.2,248.0 122.0,247.9 122.8,247.7 123.6,247.6 124.4,247.4 125.2,247.2 126.0,247.1 126.8,246.9 127.6,246.7 128.4,246.5 129.2,246.3 130.0,246.1 130.8,245.9 131.6,245.6 132.4,245.4 133.2,245.2 134.0,244.9 134.8,244.7 135.6,244.4 136.4,244.2 137.2,243.9 138.0,243.6 138.8,243.4 139.6,243.1 140.4,242.8 141.2,242.5 142.0,242.2 142.8,241.9 143.6,241.6 144.4,241.2 145.2,240.9 146.0,240.6 146.8,240.2 147.6,239.9 148.4,239.5 149.2,239.2 150.0,238.8 150.8,238.4 151.6,238.1 152.4,237.7 153.2,237.3 154.0,236.9 154.8,236.5 155.6,236.1 156.4,235.6 157.2,235.2 158.0,234.8 158.8,234.3 159.6,233.9 160.4,233.5 161.2,233.0 162.0,232.5 162.8,232.1 163.6,231.6 164.4,231.1 165.2,230.6 166.0,230.1 166.8,229.6 167.6,229.1 168.4,228.6 169.2,228.1 170.0,227.6 170.8,227.0 171.6,226.5 172.4,226.0 173.2,225.4 174.0,224.8 174.8,224.3 175.6,223.7 176.4,223.1 177.2,222.6 178.0,222.0 178.8,221.4 179.6,220.8 180.4,220.2 181.2,219.5 182.0,218.9 182.8,218.3 183.6,217.7 184.4,217.0 185.2,216.4 186.0,215.7 186.8,215.1 187.6,214.4 188.4,213.7 189.2,213.1 190.0,212.4 190.8,211.7 191.6,211.0 192.4,210.3 193.2,209.6 194.0,208.9 194.8,208.1 195.6,207.4 196.4,206.7 197.2,205.9 198.0,205.2 198.8,204.4 199.6,203.7 200.4,202.9 201.2,202.1 202.0,201.3 202.8,200.6 203.6,199.8 204.4,199.0 205.2,198.2 206.0,197.4 206.8,196.5 207.6,195.7 208.4,194.9 209.2,194.0 210.0,193.2 210.8,192.4 211.6,191.5 212.4,190.6 213.2,189.8 214.0,188.9 214.8,188.0 215.6,187.1 216.4,186.2 217.2,185.3 218.0,184.4 218.8,183.5 219.6,182.6 220.4,181.7 221.2,180.7 222.0,179.8 222.8,178.9 223.6,177.9 224.4,176.9 225.2,176.0 226.0,175.0 226.8,174.0 227.6,173.1 228.4,172.1 229.2,171.1 230.0,170.1 230.8,169.1 231.6,168.0 232.4,167.0 233.2,166.0 234.0,165.0 234.8,163.9 235.6,162.9 236.4,161.8 237.2,160.8 238.0,159.7 238.8,158.6 239.6,157.6 240.4,156.5 241.2,155.4 242.0,154.3 242.8,153.2 243.6,152.1 244.4,151.0 245.2,149.8 246.0,148.7 246.8,147.6 247.6,146.4 248.4,145.3 249.2,144.1 250.0,143.0 250.8,141.8 251.6,140.6 252.4,139.5 253.2,138.3 254.0,137.1 254.8,135.9 255.6,134.7 256.4,133.5 257.2,132.2 258.0,131.0 258.8,129.8 259.6,128.6 260.4,127.3 261.2,126.1 262.0,124.8 262.8,123.5 263.6,122.3 264.4,121.0 265.2,119.7 266.0,118.4 266.8,117.1 267.6,115.8 268.4,114.5 269.2,113.2 270.0,111.9 270.8,110.6 271.6,109.2 272.4,107.9 273.2,106.6 274.0,105.2 274.8,103.9 275.6,102.5 276.4,101.1 277.2,99.8 278.0,98.4 278.8,97.0 279.6,95.6 280.4,94.2 281.2,92.8 282.0,91.4 282.8,89.9 283.6,88.5 284.4,87.1 285.2,85.6 286.0,84.2 286.8,82.7 287.6,81.3 288.4,79.8 289.2,78.4 290.0,76.9 290.8,75.4 291.6,73.9 292.4,72.4 293.2,70.9 294.0,69.4 294.8,67.9 295.6,66.4 296.4,64.8 297.2,63.3 298.0,61.8 298.8,60.2 299.6,58.7 300.4,57.1 301.2,55.5 302.0,54.0 302.8,52.4 303.6,50.8 304.4,49.2 305.2,47.6 306.0,46.0 306.8,44.4 307.6,42.8 308.4,41.1 309.2,39.5 310.0,37.9 310.8,36.2 311.6,34.6 312.4,32.9 313.2,31.3 314.0,29.6 314.8,27.9 315.6,26.3 316.4,24.6\" fill=\"none\" stroke=\"#216d87\" stroke-width=\"2.6\"/><polyline points=\"90.0,306.0 90.8,305.2 91.6,304.3 92.4,303.5 93.2,302.6 94.0,301.8 94.8,300.9 95.6,300.1 96.4,299.2 97.2,298.4 98.0,297.5 98.8,296.7 99.6,295.8 100.4,295.0 101.2,294.2 102.0,293.3 102.8,292.5 103.6,291.6 104.4,290.8 105.2,289.9 106.0,289.1 106.8,288.2 107.6,287.4 108.4,286.5 109.2,285.7 110.0,284.9 110.8,284.0 111.6,283.2 112.4,282.3 113.2,281.5 114.0,280.6 114.8,279.8 115.6,278.9 116.4,278.1 117.2,277.2 118.0,276.4 118.8,275.5 119.6,274.7 120.4,273.9 121.2,273.0 122.0,272.2 122.8,271.3 123.6,270.5 124.4,269.6 125.2,268.8 126.0,267.9 126.8,267.1 127.6,266.2 128.4,265.4 129.2,264.5 130.0,263.7 130.8,262.9 131.6,262.0 132.4,261.2 133.2,260.3 134.0,259.5 134.8,258.6 135.6,257.8 136.4,256.9 137.2,256.1 138.0,255.2 138.8,254.4 139.6,253.5 140.4,252.7 141.2,251.9 142.0,251.0 142.8,250.2 143.6,249.3 144.4,248.5 145.2,247.6 146.0,246.8 146.8,245.9 147.6,245.1 148.4,244.2 149.2,243.4 150.0,242.6 150.8,241.7 151.6,240.9 152.4,240.0 153.2,239.2 154.0,238.3 154.8,237.5 155.6,236.6 156.4,235.8 157.2,234.9 158.0,234.1 158.8,233.2 159.6,232.4 160.4,231.6 161.2,230.7 162.0,229.9 162.8,229.0 163.6,228.2 164.4,227.3 165.2,226.5 166.0,225.6 166.8,224.8 167.6,223.9 168.4,223.1 169.2,222.2 170.0,221.4 170.8,220.6 171.6,219.7 172.4,218.9 173.2,218.0 174.0,217.2 174.8,216.3 175.6,215.5 176.4,214.6 177.2,213.8 178.0,212.9 178.8,212.1 179.6,211.2 180.4,210.4 181.2,209.6 182.0,208.7 182.8,207.9 183.6,207.0 184.4,206.2 185.2,205.3 186.0,204.5 186.8,203.6 187.6,202.8 188.4,201.9 189.2,201.1 190.0,200.2 190.8,199.4 191.6,198.6 192.4,197.7 193.2,196.9 194.0,196.0 194.8,195.2 195.6,194.3 196.4,193.5 197.2,192.6 198.0,191.8 198.8,190.9 199.6,190.1 200.4,189.3 201.2,188.4 202.0,187.6 202.8,186.7 203.6,185.9 204.4,185.0 205.2,184.2 206.0,183.3 206.8,182.5 207.6,181.6 208.4,180.8 209.2,179.9 210.0,179.1 210.8,178.3 211.6,177.4 212.4,176.6 213.2,175.7 214.0,174.9 214.8,174.0 215.6,173.2 216.4,172.3 217.2,171.5 218.0,170.6 218.8,169.8 219.6,168.9 220.4,168.1 221.2,167.3 222.0,166.4 222.8,165.6 223.6,164.7 224.4,163.9 225.2,163.0 226.0,162.2 226.8,161.3 227.6,160.5 228.4,159.6 229.2,158.8 230.0,157.9 230.8,157.1 231.6,156.3 232.4,155.4 233.2,154.6 234.0,153.7 234.8,152.9 235.6,152.0 236.4,151.2 237.2,150.3 238.0,149.5 238.8,148.6 239.6,147.8 240.4,147.0 241.2,146.1 242.0,145.3 242.8,144.4 243.6,143.6 244.4,142.7 245.2,141.9 246.0,141.0 246.8,140.2 247.6,139.3 248.4,138.5 249.2,137.6 250.0,136.8 250.8,136.0 251.6,135.1 252.4,134.3 253.2,133.4 254.0,132.6 254.8,131.7 255.6,130.9 256.4,130.0 257.2,129.2 258.0,128.3 258.8,127.5 259.6,126.6 260.4,125.8 261.2,125.0 262.0,124.1 262.8,123.3 263.6,122.4 264.4,121.6 265.2,120.7 266.0,119.9 266.8,119.0 267.6,118.2 268.4,117.3 269.2,116.5 270.0,115.6 270.8,114.8 271.6,114.0 272.4,113.1 273.2,112.3 274.0,111.4 274.8,110.6 275.6,109.7 276.4,108.9 277.2,108.0 278.0,107.2 278.8,106.3 279.6,105.5 280.4,104.7 281.2,103.8 282.0,103.0 282.8,102.1 283.6,101.3 284.4,100.4 285.2,99.6 286.0,98.7 286.8,97.9 287.6,97.0 288.4,96.2 289.2,95.3 290.0,94.5 290.8,93.7 291.6,92.8 292.4,92.0 293.2,91.1 294.0,90.3 294.8,89.4 295.6,88.6 296.4,87.7 297.2,86.9 298.0,86.0 298.8,85.2 299.6,84.3 300.4,83.5 301.2,82.7 302.0,81.8 302.8,81.0 303.6,80.1 304.4,79.3 305.2,78.4 306.0,77.6 306.8,76.7 307.6,75.9 308.4,75.0 309.2,74.2 310.0,73.4 310.8,72.5 311.6,71.7 312.4,70.8 313.2,70.0 314.0,69.1 314.8,68.3 315.6,67.4 316.4,66.6 317.2,65.7 318.0,64.9 318.8,64.0 319.6,63.2 320.4,62.4 321.2,61.5 322.0,60.7 322.8,59.8 323.6,59.0 324.4,58.1 325.2,57.3 326.0,56.4 326.8,55.6 327.6,54.7 328.4,53.9 329.2,53.0 330.0,52.2 330.8,51.4 331.6,50.5 332.4,49.7 333.2,48.8 334.0,48.0 334.8,47.1 335.6,46.3 336.4,45.4 337.2,44.6 338.0,43.7 338.8,42.9 339.6,42.0 340.4,41.2 341.2,40.4 342.0,39.5 342.8,38.7 343.6,37.8 344.4,37.0 345.2,36.1 346.0,35.3 346.8,34.4 347.6,33.6 348.4,32.7 349.2,31.9 350.0,31.1 350.8,30.2 351.6,29.4 352.4,28.5 353.2,27.7 354.0,26.8 354.8,26.0 355.6,25.1 356.4,24.3\" fill=\"none\" stroke=\"#2f7d4a\" stroke-width=\"2\" stroke-dasharray=\"7 4\"/><polyline points=\"148.4,305.0 149.2,303.7 150.0,302.5 150.8,301.2 151.6,299.9 152.4,298.7 153.2,297.4 154.0,296.1 154.8,294.9 155.6,293.6 156.4,292.3 157.2,291.1 158.0,289.8 158.8,288.5 159.6,287.2 160.4,286.0 161.2,284.7 162.0,283.4 162.8,282.2 163.6,280.9 164.4,279.6 165.2,278.4 166.0,277.1 166.8,275.8 167.6,274.6 168.4,273.3 169.2,272.0 170.0,270.8 170.8,269.5 171.6,268.2 172.4,266.9 173.2,265.7 174.0,264.4 174.8,263.1 175.6,261.9 176.4,260.6 177.2,259.3 178.0,258.1 178.8,256.8 179.6,255.5 180.4,254.3 181.2,253.0 182.0,251.7 182.8,250.4 183.6,249.2 184.4,247.9 185.2,246.6 186.0,245.4 186.8,244.1 187.6,242.8 188.4,241.6 189.2,240.3 190.0,239.0 190.8,237.8 191.6,236.5 192.4,235.2 193.2,233.9 194.0,232.7 194.8,231.4 195.6,230.1 196.4,228.9 197.2,227.6 198.0,226.3 198.8,225.1 199.6,223.8 200.4,222.5 201.2,221.3 202.0,220.0 202.8,218.7 203.6,217.5 204.4,216.2 205.2,214.9 206.0,213.6 206.8,212.4 207.6,211.1 208.4,209.8 209.2,208.6 210.0,207.3 210.8,206.0 211.6,204.8 212.4,203.5 213.2,202.2 214.0,201.0 214.8,199.7 215.6,198.4 216.4,197.1 217.2,195.9 218.0,194.6 218.8,193.3 219.6,192.1 220.4,190.8 221.2,189.5 222.0,188.3 222.8,187.0 223.6,185.7 224.4,184.5 225.2,183.2 226.0,181.9 226.8,180.7 227.6,179.4 228.4,178.1 229.2,176.8 230.0,175.6 230.8,174.3 231.6,173.0 232.4,171.8 233.2,170.5 234.0,169.2 234.8,168.0 235.6,166.7 236.4,165.4 237.2,164.2 238.0,162.9 238.8,161.6 239.6,160.3 240.4,159.1 241.2,157.8 242.0,156.5 242.8,155.3 243.6,154.0 244.4,152.7 245.2,151.5 246.0,150.2 246.8,148.9 247.6,147.7 248.4,146.4 249.2,145.1 250.0,143.9 250.8,142.6 251.6,141.3 252.4,140.0 253.2,138.8 254.0,137.5 254.8,136.2 255.6,135.0 256.4,133.7 257.2,132.4 258.0,131.2 258.8,129.9 259.6,128.6 260.4,127.4 261.2,126.1 262.0,124.8 262.8,123.5 263.6,122.3 264.4,121.0 265.2,119.7 266.0,118.5 266.8,117.2 267.6,115.9 268.4,114.7 269.2,113.4 270.0,112.1 270.8,110.9 271.6,109.6 272.4,108.3 273.2,107.0 274.0,105.8 274.8,104.5 275.6,103.2 276.4,102.0 277.2,100.7 278.0,99.4 278.8,98.2 279.6,96.9 280.4,95.6 281.2,94.4 282.0,93.1 282.8,91.8 283.6,90.6 284.4,89.3 285.2,88.0 286.0,86.7 286.8,85.5 287.6,84.2 288.4,82.9 289.2,81.7 290.0,80.4 290.8,79.1 291.6,77.9 292.4,76.6 293.2,75.3 294.0,74.1 294.8,72.8 295.6,71.5 296.4,70.2 297.2,69.0 298.0,67.7 298.8,66.4 299.6,65.2 300.4,63.9 301.2,62.6 302.0,61.4 302.8,60.1 303.6,58.8 304.4,57.6 305.2,56.3 306.0,55.0 306.8,53.8 307.6,52.5 308.4,51.2 309.2,49.9 310.0,48.7 310.8,47.4 311.6,46.1 312.4,44.9 313.2,43.6 314.0,42.3 314.8,41.1 315.6,39.8 316.4,38.5 317.2,37.3 318.0,36.0 318.8,34.7 319.6,33.4 320.4,32.2 321.2,30.9 322.0,29.6 322.8,28.4 323.6,27.1 324.4,25.8 325.2,24.6\" fill=\"none\" stroke=\"#c2410c\" stroke-width=\"2.2\"/><circle cx=\"156.7\" cy=\"235.5\" r=\"4.5\" fill=\"#2f7d4a\"/><circle cx=\"263.3\" cy=\"122.7\" r=\"4.5\" fill=\"#c2410c\"/><text x=\"50.0\" y=\"323.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">−1</text><text x=\"156.7\" y=\"323.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">1</text><text x=\"210.0\" y=\"323.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">2</text><text x=\"263.3\" y=\"323.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">3</text><text x=\"316.7\" y=\"323.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">4</text><text x=\"370.0\" y=\"323.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5b6773\">5</text><text x=\"43.0\" y=\"310.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−2</text><text x=\"43.0\" y=\"281.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">−1</text><text x=\"43.0\" y=\"225.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">1</text><text x=\"43.0\" y=\"197.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">2</text><text x=\"43.0\" y=\"169.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">3</text><text x=\"43.0\" y=\"140.8\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">4</text><text x=\"43.0\" y=\"112.6\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">5</text><text x=\"43.0\" y=\"84.4\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">6</text><text x=\"43.0\" y=\"56.2\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">7</text><text x=\"43.0\" y=\"28.0\" font-family=\"Arial,sans-serif\" font-size=\"11\" text-anchor=\"end\" fill=\"#5b6773\">8</text><text x=\"382.0\" y=\"254.6\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">x</text><text x=\"110.3\" y=\"14.0\" font-family=\"Arial,sans-serif\" font-size=\"13\" text-anchor=\"start\" fill=\"#5b6773\">y</text><text x=\"214.3\" y=\"298.9\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"start\" fill=\"#c2410c\" font-weight=\"bold\">tangent</text><text x=\"365.7\" y=\"98.7\" font-family=\"Arial,sans-serif\" font-size=\"12\" text-anchor=\"end\" fill=\"#2f7d4a\" font-weight=\"bold\">sekant</text></svg></span><p>Bestäm sekantens lutning och tangentens lutning.</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Sekantens lutning är ändringskvoten mellan x = 1 och x = 3</p><div class=\"facit-matte\">\\[\\frac{f(3)-f(1)}{3-1}=\\frac{4{,}5-0{,}5}{2}=2\\]</div></li><li><p class=\"facit-rubrik\">Tangentens lutning läses av med två punkter på tangenten</p><p>Tangenten går genom \\((1;\\ -1{,}5)\\) och \\((3;\\ 4{,}5)\\).</p><div class=\"facit-matte\">\\[\\frac{4{,}5-(-1{,}5)}{3-1}=\\frac62=3\\]</div></li><li><p class=\"facit-rubrik\">Kontrollera med derivatan</p><div class=\"facit-matte\">\\[f'(x)=x\\quad\\Rightarrow\\quad f'(3)=3\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> Sekantens lutning är 2 och tangentens lutning är 3.</p></div>",
+  "familj": "Läsa av sekanter och tangenter i grafer",
+  "formaga": [
+    "begrepp",
+    "procedur"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": [
+    true,
+    true
+  ],
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Sekantens lutning är en ändringskvot mellan två punkter på grafen. För tangenten väljer du två punkter på tangentlinjen.</p>",
+  "svarstyp": "flera_delar",
+  "rättSvar": [
+    2,
+    3
+  ],
+  "tolerans": [
+    0,
+    0
+  ],
+  "svarsstruktur": "ordnad",
+  "svarEtiketter": [
+    "sekant",
+    "tangent"
+  ],
+  "svarFormat": [
+    "numeriskt",
+    "numeriskt"
+  ]
+},
+{
+  "id": "1.983",
+  "kap": 1,
+  "omr": "tangent_sekant",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "när medelhastigheten har ett visst värde",
+  "t": "<p>En boll rullar så att sträckan efter \\(t\\) sekunder är \\(s(t)=5t^2\\) meter. Medelhastigheten mellan \\(t=2\\) och \\(t=2+h\\) kan skrivas som ett uttryck i \\(h\\). För vilket värde på \\(h\\) är medelhastigheten 21 m/s?</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">Ställ upp ändringskvoten</p><div class=\"facit-matte\">\\[\\begin{gathered}\\frac{s(2+h)-s(2)}{h}\\\\=\\frac{5(4+4h+h^2)-20}{h} =\\frac{20h+5h^2}{h}\\end{gathered}\\]</div></li><li><p class=\"facit-rubrik\">Förkorta med h</p><div class=\"facit-matte\">\\[\\frac{20h+5h^2}{h}=20+5h,\\qquad h\\ne0\\]</div></li><li><p class=\"facit-rubrik\">Sätt medelhastigheten lika med 21</p><div class=\"facit-matte\">\\[20+5h=21\\quad\\Rightarrow\\quad h=0{,}2\\]</div><p>När h går mot 0 går medelhastigheten mot 20 m/s, som är hastigheten när \\(t=2\\).</p></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(h=0{,}2\\)</p></div>",
+  "familj": "Sekant, tangent och gränsvärde",
+  "formaga": [
+    "procedur",
+    "begrepp"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Skriv ändringskvoten \\(\\frac{s(2+h)-s(2)}{h}\\) och förenkla. Sätt den sedan lika med 21.</p>",
+  "svarstyp": "numeriskt",
+  "svarFormat": "numeriskt",
+  "rättSvar": 0.2,
+  "tolerans": 0
+},
+{
+  "id": "1.984",
+  "kap": 1,
+  "omr": "tangent_sekant",
+  "kurs": [
+    "1b",
+    "1c"
+  ],
+  "niva": "C",
+  "poang": "0/1/0",
+  "typ": "vilket uttryck som ger tangentens lutning",
+  "t": "<p>Vilket uttryck ger lutningen för tangenten till grafen för \\(f\\) i punkten där \\(x=a\\)? (Välj ett alternativ.)</p>",
+  "s": "<div class=\"facit-v2 facit-stegvis\"><ol class=\"facit-steglista\" role=\"list\"><li><p class=\"facit-rubrik\">En sekant genom två punkter på grafen</p><p>Sekanten mellan \\(x=a\\) och \\(x=a+h\\) har lutningen \\(\\dfrac{f(a+h)-f(a)}{h}\\).</p></li><li><p class=\"facit-rubrik\">Låt den andra punkten närma sig</p><p>När \\(h\\) går mot 0 närmar sig sekanten tangenten, och lutningen närmar sig tangentens lutning.</p><div class=\"facit-matte\">\\[f'(a)=\\lim_{h\\to0}\\frac{f(a+h)-f(a)}{h}\\]</div></li></ol><p class=\"facit-svar\"><strong>Svar:</strong> \\(\\displaystyle\\lim_{h\\to0}\\frac{f(a+h)-f(a)}{h}\\)</p></div>",
+  "familj": "Sekant, tangent och gränsvärde",
+  "formaga": [
+    "begrepp",
+    "resonemang"
+  ],
+  "miniräknare": false,
+  "geogebra": false,
+  "spel": true,
+  "självrättning": true,
+  "traningsniva": 3,
+  "arbetsinsats": 2,
+  "ledtrad": "<p>Börja med en sekant genom två punkter på grafen. Vad händer när punkterna kommer allt närmare varandra?</p>",
+  "svarstyp": "alternativ",
+  "rättSvar": null,
+  "tolerans": null,
+  "alternativ": [
+    {
+      "txt": "(f(a + 1) − f(a)) / 1",
+      "ratt": false,
+      "kommentar": "Det är lutningen för en sekant med steget 1, inte för tangenten."
+    },
+    {
+      "txt": "f(a) / a",
+      "ratt": false,
+      "kommentar": "Det är lutningen för linjen från origo till punkten på grafen, inte för tangenten."
+    },
+    {
+      "txt": "gränsvärdet av (f(a + h) − f(a)) / h när h går mot 0",
+      "ratt": true
+    },
+    {
+      "txt": "gränsvärdet av f(a + h) − f(a) när h går mot 0",
+      "ratt": false,
+      "kommentar": "Skillnaden i y-led går mot 0. Man måste dividera med h för att få en lutning."
+    }
+  ]
 }
 
 ];
